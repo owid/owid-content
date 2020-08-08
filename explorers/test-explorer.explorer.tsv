@@ -1,6 +1,6 @@
-title	Explorer Title
-isPublished false
-data
-	chartId Device
-	35 Internet
-	46 Mobile
+title	My data Explorer						
+isPublished	false						
+data							
+	chartId Device						
+	35 Internet						
+	46 Mobile						
