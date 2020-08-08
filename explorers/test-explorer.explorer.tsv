@@ -1,6 +1,6 @@
-title	My data Explorer						
+title	My test Data Explorer						
 isPublished	false						
 data							
-	chartId Device						
-	35 Internet						
-	46 Mobile						
+	chartId	Device					
+	35	Internet					
+	46	Mobile					
