@@ -1,6 +1,6 @@
-title	Smoking Data Explorer
+title	Smoking Data Explorer Test
 isPublished	false
-data
+switcher
 	chartId	Chart
 	771	Men vs Women
 	1809	By Age
