@@ -1,0 +1,9 @@
+title	Coronavirus Pandemic Data Explorer
+isPublished	true
+switcher
+	chartId	Metric	Interval	Count
+	4019	Cases	Daily	FALSE
+	4021	Deaths	Daily	FALSE
+	4307	Tests	Daily	FALSE
+	4056	Case Fatality Rate	Cumulative	FALSE
+	4051	Cases	Cumulative	Per million people
