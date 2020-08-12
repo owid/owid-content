@@ -1,0 +1,24 @@
+title	Energy Data Explorer
+isPublished	false
+switcher
+	chartId	Energy source	Energy or Electricity	Accounting	Count	Breakdown of Mix
+	3868	All sources	Total energy	Substitution method	Annual consumption	FALSE
+	648	All sources	Total energy	Substitution method	Annual consumption	Breakdown by source
+	586	All sources	Total energy	Substitution method	Per capita consumption
+	4287	All sources	Total energy	Substitution method	% change from previous year
+	4288	All sources	Total energy	Substitution method	Abs. change from previous year
+	4289	All sources	Electricity only		Annual consumption	FALSE
+	4318	All sources	Electricity only		Annual consumption	Breakdown by source
+	737	All sources	Electricity only		Per capita consumption
+	4356	Fossil fuels	Total energy	Substitution method	Annual consumption
+	4434	Fossil fuels	Total energy	Substitution method	Per capita consumption
+	4293	Fossil fuels	Total energy	Substitution method	% of total consumption
+	4394	Fossil fuels	Total energy	Substitution method	% change from previous year
+	4393	Fossil fuels	Total energy	Substitution method	Abs. change from previous year
+	4325	Fossil fuels	Electricity only		% of total consumption
+	1377	Coal	Total energy	Substitution method	Annual consumption
+	1385	Coal	Total energy	Substitution method	Per capita consumption
+	4290	Coal	Total energy	Substitution method	% of total consumption
+	4388	Coal	Total energy	Substitution method	% change from previous year
+	4387	Coal	Total energy	Substitution method	Abs. change from previous year
+	4319	Coal	Electricity only		% of total consumption
