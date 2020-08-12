@@ -1,6 +1,6 @@
 title	CO₂ Data Explorer
 isPublished	true
-data
+switcher
 	chartId	Gas	Accounting	Fuel	Count	Relative to world total
 	488	CO2	Production-based	Total	Per country	FALSE
 	3219	CO2	Production-based	Total	Per country	Share of global emissions
