@@ -1,24 +1,83 @@
 title	Energy Data Explorer
 isPublished	false
 switcher
-	chartId	Energy source	Energy or Electricity	Accounting	Count	Breakdown of Mix
-	3868	All sources	Total energy	Substitution method	Annual consumption	FALSE
-	648	All sources	Total energy	Substitution method	Annual consumption	Breakdown by source
-	586	All sources	Total energy	Substitution method	Per capita consumption
-	4287	All sources	Total energy	Substitution method	% change from previous year
-	4288	All sources	Total energy	Substitution method	Abs. change from previous year
-	4289	All sources	Electricity only		Annual consumption	FALSE
-	4318	All sources	Electricity only		Annual consumption	Breakdown by source
-	737	All sources	Electricity only		Per capita consumption
-	4356	Fossil fuels	Total energy	Substitution method	Annual consumption
-	4434	Fossil fuels	Total energy	Substitution method	Per capita consumption
-	4293	Fossil fuels	Total energy	Substitution method	% of total consumption
-	4394	Fossil fuels	Total energy	Substitution method	% change from previous year
-	4393	Fossil fuels	Total energy	Substitution method	Abs. change from previous year
-	4325	Fossil fuels	Electricity only		% of total consumption
-	1377	Coal	Total energy	Substitution method	Annual consumption
-	1385	Coal	Total energy	Substitution method	Per capita consumption
-	4290	Coal	Total energy	Substitution method	% of total consumption
-	4388	Coal	Total energy	Substitution method	% change from previous year
-	4387	Coal	Total energy	Substitution method	Abs. change from previous year
-	4319	Coal	Electricity only		% of total consumption
+	chartId	Energy source	Energy or Electricity	Count
+	3868	All sources	Primary energy	Annual consumption
+	586	All sources	Primary energy	Per capita consumption
+	4287	All sources	Primary energy	% change from previous year
+	4288	All sources	Primary energy	Abs. change from previous year
+	4289	All sources	Electricity only	Annual consumption
+	737	All sources	Electricity only	Per capita consumption
+	648	By source	Primary energy	Annual consumption
+	4318	By source	Electricity only	Annual consumption
+	4300	By source	Primary energy	% of total consumption
+	4429	By source	Electricity only	% of total consumption
+	4442	By source	Primary energy	% change from previous year
+	4304	By source	Primary energy	Abs. change from previous year
+	4356	Fossil fuels	Primary energy	Annual consumption
+	4434	Fossil fuels	Primary energy	Per capita consumption
+	4293	Fossil fuels	Primary energy	% of total consumption
+	4394	Fossil fuels	Primary energy	% change from previous year
+	4393	Fossil fuels	Primary energy	Abs. change from previous year
+	4325	Fossil fuels	Electricity only	% of total consumption
+	1377	Coal	Primary energy	Annual consumption
+	1385	Coal	Primary energy	Per capita consumption
+	4290	Coal	Primary energy	% of total consumption
+	4388	Coal	Primary energy	% change from previous year
+	4387	Coal	Primary energy	Abs. change from previous year
+	4319	Coal	Electricity only	% of total consumption
+	1380	Oil	Primary energy	Annual consumption
+	4376	Oil	Primary energy	Per capita consumption
+	4291	Oil	Primary energy	% of total consumption
+	4390	Oil	Primary energy	% change from previous year
+	4389	Oil	Primary energy	Abs. change from previous year
+	4435	Oil	Electricity only	% of total consumption
+	1382	Gas	Primary energy	Annual consumption
+	4377	Gas	Primary energy	Per capita consumption
+	4292	Gas	Primary energy	% of total consumption
+	4392	Gas	Primary energy	% change from previous year
+	4391	Gas	Primary energy	Abs. change from previous year
+	4320	Gas	Electricity only	% of total consumption
+	4436	Low-carbon	Primary energy	Annual consumption
+	4383	Low-carbon	Primary energy	Per capita consumption
+	4303	Low-carbon	Primary energy	% of total consumption
+	4404	Low-carbon	Primary energy	% change from previous year
+	4403	Low-carbon	Primary energy	Abs. change from previous year
+	4315	Low-carbon	Electricity only	% of total consumption
+	4437	Nuclear	Primary energy	Annual consumption
+	4294	Nuclear	Primary energy	% of total consumption
+	4386	Nuclear	Primary energy	% change from previous year
+	4385	Nuclear	Primary energy	Abs. change from previous year
+	4309	Nuclear	Electricity only	Annual generation
+	4382	Nuclear	Electricity only	Per capita generation
+	4322	Nuclear	Electricity only	% of total consumption
+	4438	Renewables	Primary energy	Annual consumption
+	4378	Renewables	Primary energy	Per capita consumption
+	4295	Renewables	Primary energy	% of total consumption
+	4396	Renewables	Primary energy	% change from previous year
+	4395	Renewables	Primary energy	Abs. change from previous year
+	4326	Renewables	Electricity only	% of total consumption
+	4439	Hydropower	Primary energy	Annual consumption
+		Hydropower	Primary energy	Per capita consumption
+	4296	Hydropower	Primary energy	% of total consumption
+	4398	Hydropower	Primary energy	% change from previous year
+	4397	Hydropower	Primary energy	Abs. change from previous year
+	1419	Hydropower	Electricity only	Annual generation
+	4379	Hydropower	Electricity only	Per capita generation
+	4321	Hydropower	Electricity only	% of total consumption
+	4440	Solar	Primary energy	Annual consumption
+		Solar	Primary energy	Per capita consumption
+	4297	Solar	Primary energy	% of total consumption
+	4402	Solar	Primary energy	% change from previous year
+	4401	Solar	Primary energy	Abs. change from previous year
+	1403	Solar	Electricity only	Annual generation
+	4381	Solar	Electricity only	Per capita generation
+	4324	Solar	Electricity only	% of total consumption
+	4441	Wind	Primary energy	Annual consumption
+	4380	Wind	Primary energy	Per capita consumption
+	4298	Wind	Primary energy	% of total consumption
+	4400	Wind	Primary energy	% change from previous year
+	4399	Wind	Primary energy	Abs. change from previous year
+	1410	Wind	Electricity only	Annual generation
+		Wind	Electricity only	Per capita generation
+	4323	Wind	Electricity only	% of total consumption
