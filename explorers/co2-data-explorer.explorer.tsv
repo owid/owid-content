@@ -7,11 +7,11 @@ switcher
 	486	CO2	Production-based	Total	Per capita
 	485	CO2	Production-based	Total	Cumulative	FALSE
 	3218	CO2	Production-based	Total	Cumulative	Share of global emissions
-	4267	CO2	Production-based	Total	Per unit of energy
-	530	CO2	Production-based	Total	Per unit of GDP ($)
+	4267	CO2	Production-based	Total	Per MWh of energy
+	530	CO2	Production-based	Total	Per $ of GDP
 	3621	CO2	Consumption-based		Per country
 	3488	CO2	Consumption-based		Per capita
-	4331	CO2	Consumption-based		Per unit of GDP ($)
+	4331	CO2	Consumption-based		Per $ of GDP
 	696	CO2	Consumption-based		Share of emissions embedded in trade
 	4250	CO2	Production-based	Coal	Per country
 	4251	CO2	Production-based	Oil	Per country
