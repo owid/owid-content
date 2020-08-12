@@ -1,6 +1,6 @@
 title	Child Mortality Data Explorer
 isPublished	false
-data
+switcher
 	chartId	Disease
 	3440	Rotovirus
 	3424	Diarrea
