@@ -1,7 +1,8 @@
 title	CO₂ Data Explorer
 isPublished	true
+subtitle	A subtitle can go here.
 switcher
-	chartId	Gas	Accounting	Fuel	Count	Relative to world total
+	chartId	Gas Radio	Accounting Radio	Fuel Dropdown	Count Dropdown	Relative to world total Checkbox
 	488	CO₂	Production-based	Total	Per country	FALSE
 	3219	CO₂	Production-based	Total	Per country	Share of global emissions
 	486	CO₂	Production-based	Total	Per capita
