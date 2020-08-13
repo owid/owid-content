@@ -1,7 +1,7 @@
 title	CO₂ Data Explorer
 isPublished	true
 subtitle	Download the complete <i>Our World in Data</i> <a href="https://github.com/owid/co2-data">CO₂ and GHG Emissions Dataset</a>.
-defaultView	?tab=chart&country=CHN~USA~RUS~IND&Gas%20=CO₂&Accounting%20=Production-based&Fuel%20=Total&Count%20=Per%20country&Relative%20to%20world%20total%20=Share%20of%20global%20emissions
+defaultView	?tab=chart&country=CHN~USA~IND~GBR&Gas%20=CO%E2%82%82&Accounting%20=Production-based&Fuel%20=Total&Count%20=Per%20country&Relative%20to%20world%20total%20=
 switcher
 	chartId	Gas Radio	Accounting Radio	Fuel Dropdown	Count Dropdown	Relative to world total Checkbox
 	488	CO₂	Production-based	Total	Per country	FALSE
