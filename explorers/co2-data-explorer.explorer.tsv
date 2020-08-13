@@ -1,6 +1,6 @@
 title	CO₂ Data Explorer
 isPublished	true
-subtitle	A subtitle can go here.
+subtitle	Download the complete <i>Our World in Data</i> <a href="https://github.com/owid/co2-data">CO₂ and GHG Emissions Dataset</a>.
 defaultView	?tab=chart&country=CHN~USA~RUS~IND&Gas%20=CO₂&Accounting%20=Production-based&Fuel%20=Total&Count%20=Per%20country&Relative%20to%20world%20total%20=Share%20of%20global%20emissions
 switcher
 	chartId	Gas Radio	Accounting Radio	Fuel Dropdown	Count Dropdown	Relative to world total Checkbox
@@ -25,8 +25,8 @@ switcher
 	4254	CO₂	Production-based	Gas	Per capita
 	4256	CO₂	Production-based	Cement	Per capita
 	4333	CO₂	Production-based	Flaring	Per capita
-	4147	Total GHGs			Per country
-	4239	Total GHGs			Per capita
+	4147	All GHGs (CO₂eq)			Per country
+	4239	All GHGs (CO₂eq)			Per capita
 	4222	Methane			Per country
 	4243	Methane			Per capita
 	4224	Nitrous oxide			Per country
