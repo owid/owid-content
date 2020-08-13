@@ -1,6 +1,7 @@
 title	CO₂ Data Explorer
 isPublished	true
 subtitle	A subtitle can go here.
+defaultView	?tab=chart&country=&Gas%20=CO₂&Accounting%20=Production-based&Fuel%20=Total&Count%20=Per%20country&Relative%20to%20world%20total%20=Share%20of%20global%20emissions
 switcher
 	chartId	Gas Radio	Accounting Radio	Fuel Dropdown	Count Dropdown	Relative to world total Checkbox
 	488	CO₂	Production-based	Total	Per country	FALSE
