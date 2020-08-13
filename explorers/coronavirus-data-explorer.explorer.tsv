@@ -1,5 +1,5 @@
 title	Coronavirus Pandemic Data Explorer
-isPublished	true
+isPublished	false
 switcher
 	chartId	Mode	Metric	Interval	Count
 	4019	Compare Countries	Confirmed cases	Daily	FALSE
