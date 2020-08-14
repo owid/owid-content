@@ -1,7 +1,7 @@
 title	Energy Data Explorer
 isPublished	true
 subtitle	Download the complete <i>Our World in Data</i> Energy Dataset.
-
+defaultView	?tab=chart&country=&Total%20or%20Breakdown=Total&Energy%20or%20Electricity=Primary%20energy&Metric%20=Per%20capita%20consumption
 switcher
 	chartId	Total or Breakdown	Select a source Dropdown	Energy or Electricity	Metric Dropdown
 	3868	Total		Primary energy	Annual consumption
@@ -16,13 +16,13 @@ switcher
 	4429	Breakdown by source		Electricity only	% of total generation
 	4442	Breakdown by source		Primary energy	% change from previous year
 	4304	Breakdown by source		Primary energy	Abs. change from previous year
-	4356	Select a source	Fossil fuels	Primary energy	Annual consumption
+	4449	Select a source	Fossil fuels	Primary energy	Annual consumption
 	4434	Select a source	Fossil fuels	Primary energy	Per capita consumption
 	4293	Select a source	Fossil fuels	Primary energy	% of total consumption
 	4394	Select a source	Fossil fuels	Primary energy	% change from previous year
 	4393	Select a source	Fossil fuels	Primary energy	Abs. change from previous year
 	4443	Select a source	Fossil fuels	Electricity only	Annual generation
-		Select a source	Fossil fuels	Electricity only	Per capita generation
+	4453	Select a source	Fossil fuels	Electricity only	Per capita generation
 	4325	Select a source	Fossil fuels	Electricity only	% of total generation
 	1377	Select a source	Coal	Primary energy	Annual consumption
 	1385	Select a source	Coal	Primary energy	Per capita consumption
@@ -30,7 +30,7 @@ switcher
 	4388	Select a source	Coal	Primary energy	% change from previous year
 	4387	Select a source	Coal	Primary energy	Abs. change from previous year
 	4444	Select a source	Coal	Electricity only	Annual generation
-		Select a source	Coal	Electricity only	Per capita generation
+	4451	Select a source	Coal	Electricity only	Per capita generation
 	4319	Select a source	Coal	Electricity only	% of total generation
 	1380	Select a source	Oil	Primary energy	Annual consumption
 	4376	Select a source	Oil	Primary energy	Per capita consumption
@@ -38,7 +38,7 @@ switcher
 	4390	Select a source	Oil	Primary energy	% change from previous year
 	4389	Select a source	Oil	Primary energy	Abs. change from previous year
 	4445	Select a source	Oil	Electricity only	Annual generation
-		Select a source	Oil	Electricity only	Per capita generation
+	4452	Select a source	Oil	Electricity only	Per capita generation
 	4435	Select a source	Oil	Electricity only	% of total generation
 	1382	Select a source	Gas	Primary energy	Annual consumption
 	4377	Select a source	Gas	Primary energy	Per capita consumption
@@ -46,7 +46,7 @@ switcher
 	4392	Select a source	Gas	Primary energy	% change from previous year
 	4391	Select a source	Gas	Primary energy	Abs. change from previous year
 	4446	Select a source	Gas	Electricity only	Annual generation
-		Select a source	Gas	Electricity only	Per capita generation
+	4454	Select a source	Gas	Electricity only	Per capita generation
 	4320	Select a source	Gas	Electricity only	% of total generation
 	4436	Select a source	Low-carbon	Primary energy	Annual consumption
 	4383	Select a source	Low-carbon	Primary energy	Per capita consumption
@@ -54,7 +54,7 @@ switcher
 	4404	Select a source	Low-carbon	Primary energy	% change from previous year
 	4403	Select a source	Low-carbon	Primary energy	Abs. change from previous year
 	4447	Select a source	Low-carbon	Electricity only	Annual generation
-		Select a source	Low-carbon	Electricity only	Per capita generation
+	4456	Select a source	Low-carbon	Electricity only	Per capita generation
 	4315	Select a source	Low-carbon	Electricity only	% of total generation
 	4437	Select a source	Nuclear	Primary energy	Annual consumption
 	4382	Select a source	Nuclear	Primary energy	Per capita consumption
@@ -62,7 +62,7 @@ switcher
 	4386	Select a source	Nuclear	Primary energy	% change from previous year
 	4385	Select a source	Nuclear	Primary energy	Abs. change from previous year
 	4309	Select a source	Nuclear	Electricity only	Annual generation
-		Select a source	Nuclear	Electricity only	Per capita generation
+	4457	Select a source	Nuclear	Electricity only	Per capita generation
 	4322	Select a source	Nuclear	Electricity only	% of total generation
 	4438	Select a source	Renewables	Primary energy	Annual consumption
 	4378	Select a source	Renewables	Primary energy	Per capita consumption
@@ -70,7 +70,7 @@ switcher
 	4396	Select a source	Renewables	Primary energy	% change from previous year
 	4395	Select a source	Renewables	Primary energy	Abs. change from previous year
 	4448	Select a source	Renewables	Electricity only	Annual generation
-		Select a source	Renewables	Electricity only	Per capita generation
+	4455	Select a source	Renewables	Electricity only	Per capita generation
 	4326	Select a source	Renewables	Electricity only	% of total generation
 	4439	Select a source	Hydropower	Primary energy	Annual consumption
 	4379	Select a source	Hydropower	Primary energy	Per capita consumption
@@ -78,7 +78,7 @@ switcher
 	4398	Select a source	Hydropower	Primary energy	% change from previous year
 	4397	Select a source	Hydropower	Primary energy	Abs. change from previous year
 	1419	Select a source	Hydropower	Electricity only	Annual generation
-		Select a source	Hydropower	Electricity only	Per capita generation
+	4458	Select a source	Hydropower	Electricity only	Per capita generation
 	4321	Select a source	Hydropower	Electricity only	% of total generation
 	4440	Select a source	Solar	Primary energy	Annual consumption
 	4381	Select a source	Solar	Primary energy	Per capita consumption
@@ -86,7 +86,7 @@ switcher
 	4402	Select a source	Solar	Primary energy	% change from previous year
 	4401	Select a source	Solar	Primary energy	Abs. change from previous year
 	1403	Select a source	Solar	Electricity only	Annual generation
-		Select a source	Solar	Electricity only	Per capita generation
+	4460	Select a source	Solar	Electricity only	Per capita generation
 	4324	Select a source	Solar	Electricity only	% of total generation
 	4441	Select a source	Wind	Primary energy	Annual consumption
 	4380	Select a source	Wind	Primary energy	Per capita consumption
@@ -94,5 +94,5 @@ switcher
 	4400	Select a source	Wind	Primary energy	% change from previous year
 	4399	Select a source	Wind	Primary energy	Abs. change from previous year
 	1410	Select a source	Wind	Electricity only	Annual generation
-		Select a source	Wind	Electricity only	Per capita generation
+	4459	Select a source	Wind	Electricity only	Per capita generation
 	4323	Select a source	Wind	Electricity only	% of total generation
