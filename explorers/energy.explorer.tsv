@@ -1,5 +1,5 @@
 title	Energy Data Explorer
-isPublished	false
+isPublished	true
 subtitle	Download the complete <i>Our World in Data</i> Energy Dataset.
 defaultView	?tab=chart&country=CHN~USA~IND~GBR&Gas%20=CO%E2%82%82&Accounting%20=Production-based&Fuel%20=Total&Count%20=Per%20country&Relative%20to%20world%20total%20=
 switcher
