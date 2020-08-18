@@ -3,7 +3,7 @@ isPublished	false
 switcher
 	chartId	Concept Radio	Metric Radio	Welfare measure Radio	Poverty line(s) Dropdown	Chart type Radio
 	4363	Absolute poverty	Percentage in poverty	Consumption or income, per capita (combined)	$ 1.90	Line
-		Absolute poverty	Percentage in poverty	Consumption or income, per capita (combined)	$ 1.90	Area
+	4364	Absolute poverty	Percentage in poverty	Consumption or income, per capita (combined)	$ 1.90	Area
 		Absolute poverty	Percentage in poverty	Consumption or income, per capita (combined)	$ 1.90	Slope?
 		Absolute poverty	Percentage in poverty	Consumption or income, per capita (combined)	$ 1.90	Map
 		Absolute poverty	Percentage in poverty	Consumption or income, per capita (combined)	$ 3.20	Line
@@ -75,7 +75,7 @@ switcher
 		Absolute poverty	Percentage in poverty	Income, equivalized	$30.00	Slope?
 		Absolute poverty	Percentage in poverty	Income, equivalized	$30.00	Map
 		Absolute poverty	No. of people in poverty	Consumption or income, per capita (combined)	$ 1.90	Line
-		Absolute poverty	No. of people in poverty	Consumption or income, per capita (combined)	$ 1.90	Area
+	4364	Absolute poverty	No. of people in poverty	Consumption or income, per capita (combined)	$ 1.90	Area
 		Absolute poverty	No. of people in poverty	Consumption or income, per capita (combined)	$ 1.90	Slope?
 		Absolute poverty	No. of people in poverty	Consumption or income, per capita (combined)	$ 1.90	Map
 		Absolute poverty	No. of people in poverty	Consumption or income, per capita (combined)	$ 3.20	Line
