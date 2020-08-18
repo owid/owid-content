@@ -1,0 +1,124 @@
+title	Global income and poverty explorer
+isPublished	false
+switcher
+	chartId	Concept Radio	Metric Radio	Poverty line(s) Dropdown	Chart type Radio
+		Absolute poverty	Percentage in poverty	$ 1.90	Line
+		Absolute poverty	Percentage in poverty	$ 1.90	Area
+		Absolute poverty	Percentage in poverty	$ 1.90	Slope?
+		Absolute poverty	Percentage in poverty	$ 1.90	Map
+		Absolute poverty	Percentage in poverty	$ 3.20	Line
+		Absolute poverty	Percentage in poverty	$ 3.20	Area
+		Absolute poverty	Percentage in poverty	$ 3.20	Slope?
+		Absolute poverty	Percentage in poverty	$ 3.20	Map
+		Absolute poverty	Percentage in poverty	$ 5.00	Line
+		Absolute poverty	Percentage in poverty	$ 5.00	Area
+		Absolute poverty	Percentage in poverty	$ 5.00	Slope?
+		Absolute poverty	Percentage in poverty	$ 5.00	Map
+		Absolute poverty	Percentage in poverty	$10.00	Line
+		Absolute poverty	Percentage in poverty	$10.00	Area
+		Absolute poverty	Percentage in poverty	$10.00	Slope?
+		Absolute poverty	Percentage in poverty	$10.00	Map
+		Absolute poverty	Percentage in poverty	$20.00	Line
+		Absolute poverty	Percentage in poverty	$20.00	Area
+		Absolute poverty	Percentage in poverty	$20.00	Slope?
+		Absolute poverty	Percentage in poverty	$20.00	Map
+		Absolute poverty	Percentage in poverty	$30.00	Line
+		Absolute poverty	Percentage in poverty	$30.00	Area
+		Absolute poverty	Percentage in poverty	$30.00	Slope?
+		Absolute poverty	Percentage in poverty	$30.00	Map
+		Absolute poverty	No. of people in poverty	$ 1.90	Line
+		Absolute poverty	No. of people in poverty	$ 1.90	Area
+		Absolute poverty	No. of people in poverty	$ 1.90	Slope?
+		Absolute poverty	No. of people in poverty	$ 1.90	Map
+		Absolute poverty	No. of people in poverty	$ 3.20	Line
+		Absolute poverty	No. of people in poverty	$ 3.20	Area
+		Absolute poverty	No. of people in poverty	$ 3.20	Slope?
+		Absolute poverty	No. of people in poverty	$ 3.20	Map
+		Absolute poverty	No. of people in poverty	$ 5.00	Line
+		Absolute poverty	No. of people in poverty	$ 5.00	Area
+		Absolute poverty	No. of people in poverty	$ 5.00	Slope?
+		Absolute poverty	No. of people in poverty	$ 5.00	Map
+		Absolute poverty	No. of people in poverty	$10.00	Line
+		Absolute poverty	No. of people in poverty	$10.00	Area
+		Absolute poverty	No. of people in poverty	$10.00	Slope?
+		Absolute poverty	No. of people in poverty	$10.00	Map
+		Absolute poverty	No. of people in poverty	$20.00	Line
+		Absolute poverty	No. of people in poverty	$20.00	Area
+		Absolute poverty	No. of people in poverty	$20.00	Slope?
+		Absolute poverty	No. of people in poverty	$20.00	Map
+		Absolute poverty	No. of people in poverty	$30.00	Line
+		Absolute poverty	No. of people in poverty	$30.00	Area
+		Absolute poverty	No. of people in poverty	$30.00	Slope?
+		Absolute poverty	No. of people in poverty	$30.00	Map
+		Absolute poverty	Poverty gap index	$ 1.90	Line
+		Absolute poverty	Poverty gap index	$ 1.90	Area
+		Absolute poverty	Poverty gap index	$ 1.90	Slope?
+		Absolute poverty	Poverty gap index	$ 1.90	Map
+		Absolute poverty	Poverty gap index	$ 3.20	Line
+		Absolute poverty	Poverty gap index	$ 3.20	Area
+		Absolute poverty	Poverty gap index	$ 3.20	Slope?
+		Absolute poverty	Poverty gap index	$ 3.20	Map
+		Absolute poverty	Poverty gap index	$ 5.00	Line
+		Absolute poverty	Poverty gap index	$ 5.00	Area
+		Absolute poverty	Poverty gap index	$ 5.00	Slope?
+		Absolute poverty	Poverty gap index	$ 5.00	Map
+		Absolute poverty	Poverty gap index	$10.00	Line
+		Absolute poverty	Poverty gap index	$10.00	Area
+		Absolute poverty	Poverty gap index	$10.00	Slope?
+		Absolute poverty	Poverty gap index	$10.00	Map
+		Absolute poverty	Poverty gap index	$20.00	Line
+		Absolute poverty	Poverty gap index	$20.00	Area
+		Absolute poverty	Poverty gap index	$20.00	Slope?
+		Absolute poverty	Poverty gap index	$20.00	Map
+		Absolute poverty	Poverty gap index	$30.00	Line
+		Absolute poverty	Poverty gap index	$30.00	Area
+		Absolute poverty	Poverty gap index	$30.00	Slope?
+		Absolute poverty	Poverty gap index	$30.00	Map
+		Absolute poverty	Absolute poverty gap	$ 1.90	Line
+		Absolute poverty	Absolute poverty gap	$ 1.90	Area
+		Absolute poverty	Absolute poverty gap	$ 1.90	Slope?
+		Absolute poverty	Absolute poverty gap	$ 1.90	Map
+		Absolute poverty	Absolute poverty gap	$ 3.20	Line
+		Absolute poverty	Absolute poverty gap	$ 3.20	Area
+		Absolute poverty	Absolute poverty gap	$ 3.20	Slope?
+		Absolute poverty	Absolute poverty gap	$ 3.20	Map
+		Absolute poverty	Absolute poverty gap	$ 5.00	Line
+		Absolute poverty	Absolute poverty gap	$ 5.00	Area
+		Absolute poverty	Absolute poverty gap	$ 5.00	Slope?
+		Absolute poverty	Absolute poverty gap	$ 5.00	Map
+		Absolute poverty	Absolute poverty gap	$10.00	Line
+		Absolute poverty	Absolute poverty gap	$10.00	Area
+		Absolute poverty	Absolute poverty gap	$10.00	Slope?
+		Absolute poverty	Absolute poverty gap	$10.00	Map
+		Absolute poverty	Absolute poverty gap	$20.00	Line
+		Absolute poverty	Absolute poverty gap	$20.00	Area
+		Absolute poverty	Absolute poverty gap	$20.00	Slope?
+		Absolute poverty	Absolute poverty gap	$20.00	Map
+		Absolute poverty	Absolute poverty gap	$30.00	Line
+		Absolute poverty	Absolute poverty gap	$30.00	Area
+		Absolute poverty	Absolute poverty gap	$30.00	Slope?
+		Absolute poverty	Absolute poverty gap	$30.00	Map
+		Relative poverty	Percentage in poverty	40% median	Line
+		Relative poverty	Percentage in poverty	40% median	Area
+		Relative poverty	Percentage in poverty	40% median	Slope?
+		Relative poverty	Percentage in poverty	40% median	Map
+		Relative poverty	Percentage in poverty	50% median	Line
+		Relative poverty	Percentage in poverty	50% median	Area
+		Relative poverty	Percentage in poverty	50% median	Slope?
+		Relative poverty	Percentage in poverty	50% median	Map
+		Relative poverty	Percentage in poverty	60% median	Line
+		Relative poverty	Percentage in poverty	60% median	Area
+		Relative poverty	Percentage in poverty	60% median	Slope?
+		Relative poverty	Percentage in poverty	60% median	Map
+		Relative poverty	No. of people in poverty	40% median	Line
+		Relative poverty	No. of people in poverty	40% median	Area
+		Relative poverty	No. of people in poverty	40% median	Slope?
+		Relative poverty	No. of people in poverty	40% median	Map
+		Relative poverty	No. of people in poverty	50% median	Line
+		Relative poverty	No. of people in poverty	50% median	Area
+		Relative poverty	No. of people in poverty	50% median	Slope?
+		Relative poverty	No. of people in poverty	50% median	Map
+		Relative poverty	No. of people in poverty	60% median	Line
+		Relative poverty	No. of people in poverty	60% median	Area
+		Relative poverty	No. of people in poverty	60% median	Slope?
+		Relative poverty	No. of people in poverty	60% median	Map
