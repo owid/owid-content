@@ -62,8 +62,8 @@ switcher
 		Absolute poverty	Percentage in poverty	Income or consumption, per capita	$ 5.00	Area
 		Absolute poverty	Percentage in poverty	Income or consumption, per capita	$ 5.00	Slope?
 		Absolute poverty	Percentage in poverty	Income or consumption, per capita	$ 5.00	Map
-		Absolute poverty	Percentage in poverty	Income or consumption, per capita	$10.00	Line
-		Absolute poverty	Percentage in poverty	Income or consumption, per capita	$10.00	Area
+	4469	Absolute poverty	Percentage in poverty	Income or consumption, per capita	$10.00	Line
+	4470	Absolute poverty	Percentage in poverty	Income or consumption, per capita	$10.00	Area
 		Absolute poverty	Percentage in poverty	Income or consumption, per capita	$10.00	Slope?
 		Absolute poverty	Percentage in poverty	Income or consumption, per capita	$10.00	Map
 		Absolute poverty	Percentage in poverty	Income or consumption, per capita	$20.00	Line
@@ -159,7 +159,7 @@ switcher
 		Absolute poverty	No. of people in poverty	Income or consumption, per capita	$ 5.00	Slope?
 		Absolute poverty	No. of people in poverty	Income or consumption, per capita	$ 5.00	Map
 		Absolute poverty	No. of people in poverty	Income or consumption, per capita	$10.00	Line
-		Absolute poverty	No. of people in poverty	Income or consumption, per capita	$10.00	Area
+	4470	Absolute poverty	No. of people in poverty	Income or consumption, per capita	$10.00	Area
 		Absolute poverty	No. of people in poverty	Income or consumption, per capita	$10.00	Slope?
 		Absolute poverty	No. of people in poverty	Income or consumption, per capita	$10.00	Map
 		Absolute poverty	No. of people in poverty	Income or consumption, per capita	$20.00	Line
