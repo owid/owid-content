@@ -1,7 +1,7 @@
 title	Global income and poverty explorer
 isPublished	false
 switcher
-defaultView
+
 	chartId	Concept Radio	Metric Radio	Welfare measure Radio	Poverty line(s) Dropdown	Chart type Radio
 	4363	Absolute poverty	Percentage in poverty	Consumption or income, per capita (combined)	$1.90	Line
 	4364	Absolute poverty	Percentage in poverty	Consumption or income, per capita (combined)	$1.90	Area
