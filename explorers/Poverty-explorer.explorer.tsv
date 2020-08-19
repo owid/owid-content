@@ -1,6 +1,7 @@
 title	Global income and poverty explorer
 isPublished	false
 switcher
+defaultView	country=Mexico~China~United%20Kingdom~United%20States~France~Turkey~Russia~Brazil~Thailand~Germany&Concept%20=Absolute%20poverty&Metric%20=Percentage%20in%20poverty&Welfare%20measure%20=Consumption%20or%20income,%20per%20capita%20(combined)&Poverty%20line(s)%20=$20.00&Chart%20type%20=Line
 	chartId	Concept Radio	Metric Radio	Welfare measure Radio	Poverty line(s) Dropdown	Chart type Radio
 	4363	Absolute poverty	Percentage in poverty	Consumption or income, per capita (combined)	$1.90	Line
 	4364	Absolute poverty	Percentage in poverty	Consumption or income, per capita (combined)	$1.90	Area
