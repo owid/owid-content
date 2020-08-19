@@ -1,7 +1,0 @@
-title	Mobile Device Usage
-isPublished	false
-subtitle	Hello world
-switcher
-	chartId	Device	Per Capita	Time Period Dropdown
-	35	Internet	True	Annual
-	46	Mobile	False	Monthly
