@@ -4,7 +4,7 @@ switcher
 	chartId	Concept Radio	Metric Radio	Welfare measure Radio	Poverty line(s) Dropdown	Chart type Radio
 	4363	Absolute poverty	Percentage in poverty	Consumption or income, per capita (combined)	$1.90	Line
 	4364	Absolute poverty	Percentage in poverty	Consumption or income, per capita (combined)	$1.90	Area
-		Absolute poverty	Percentage in poverty	Consumption or income, per capita (combined)	$1.90	Map
+	4371	Absolute poverty	Percentage in poverty	Consumption or income, per capita (combined)	$1.90	Map
 		Absolute poverty	Percentage in poverty	Consumption or income, per capita (combined)	$3.20	Line
 		Absolute poverty	Percentage in poverty	Consumption or income, per capita (combined)	$3.20	Area
 		Absolute poverty	Percentage in poverty	Consumption or income, per capita (combined)	$3.20	Map
@@ -14,9 +14,9 @@ switcher
 		Absolute poverty	Percentage in poverty	Consumption or income, per capita (combined)	$10.00	Line
 		Absolute poverty	Percentage in poverty	Consumption or income, per capita (combined)	$10.00	Area
 		Absolute poverty	Percentage in poverty	Consumption or income, per capita (combined)	$10.00	Map
-		Absolute poverty	Percentage in poverty	Consumption or income, per capita (combined)	$20.00	Line
-		Absolute poverty	Percentage in poverty	Consumption or income, per capita (combined)	$20.00	Area
-		Absolute poverty	Percentage in poverty	Consumption or income, per capita (combined)	$20.00	Map
+	4367	Absolute poverty	Percentage in poverty	Consumption or income, per capita (combined)	$20.00	Line
+	4368	Absolute poverty	Percentage in poverty	Consumption or income, per capita (combined)	$20.00	Area
+	4370	Absolute poverty	Percentage in poverty	Consumption or income, per capita (combined)	$20.00	Map
 		Absolute poverty	Percentage in poverty	Consumption or income, per capita (combined)	$30.00	Line
 		Absolute poverty	Percentage in poverty	Consumption or income, per capita (combined)	$30.00	Area
 		Absolute poverty	Percentage in poverty	Consumption or income, per capita (combined)	$30.00	Map
@@ -28,7 +28,7 @@ switcher
 		Absolute poverty	Percentage in poverty	Consumption or income, per capita (show separately)	$5.00	Map
 		Absolute poverty	Percentage in poverty	Consumption or income, per capita (show separately)	$10.00	Line
 		Absolute poverty	Percentage in poverty	Consumption or income, per capita (show separately)	$10.00	Map
-		Absolute poverty	Percentage in poverty	Consumption or income, per capita (show separately)	$20.00	Line
+	4366	Absolute poverty	Percentage in poverty	Consumption or income, per capita (show separately)	$20.00	Line
 		Absolute poverty	Percentage in poverty	Consumption or income, per capita (show separately)	$20.00	Map
 		Absolute poverty	Percentage in poverty	Consumption or income, per capita (show separately)	$30.00	Line
 		Absolute poverty	Percentage in poverty	Consumption or income, per capita (show separately)	$30.00	Map
@@ -50,7 +50,7 @@ switcher
 		Absolute poverty	Percentage in poverty	Income, equivalized	$30.00	Line
 		Absolute poverty	Percentage in poverty	Income, equivalized	$30.00	Area
 		Absolute poverty	Percentage in poverty	Income, equivalized	$30.00	Map
-		Absolute poverty	No. of people in poverty	Consumption or income, per capita (combined)	$1.90	Line
+	4475	Absolute poverty	No. of people in poverty	Consumption or income, per capita (combined)	$1.90	Line
 	4364	Absolute poverty	No. of people in poverty	Consumption or income, per capita (combined)	$1.90	Area
 		Absolute poverty	No. of people in poverty	Consumption or income, per capita (combined)	$1.90	Map
 		Absolute poverty	No. of people in poverty	Consumption or income, per capita (combined)	$3.20	Line
@@ -62,8 +62,8 @@ switcher
 		Absolute poverty	No. of people in poverty	Consumption or income, per capita (combined)	$10.00	Line
 		Absolute poverty	No. of people in poverty	Consumption or income, per capita (combined)	$10.00	Area
 		Absolute poverty	No. of people in poverty	Consumption or income, per capita (combined)	$10.00	Map
-		Absolute poverty	No. of people in poverty	Consumption or income, per capita (combined)	$20.00	Line
-		Absolute poverty	No. of people in poverty	Consumption or income, per capita (combined)	$20.00	Area
+	4476	Absolute poverty	No. of people in poverty	Consumption or income, per capita (combined)	$20.00	Line
+	4368	Absolute poverty	No. of people in poverty	Consumption or income, per capita (combined)	$20.00	Area
 		Absolute poverty	No. of people in poverty	Consumption or income, per capita (combined)	$20.00	Map
 		Absolute poverty	No. of people in poverty	Consumption or income, per capita (combined)	$30.00	Line
 		Absolute poverty	No. of people in poverty	Consumption or income, per capita (combined)	$30.00	Area
