@@ -63,7 +63,7 @@ switcher
 		Absolute poverty	No. of people in poverty	Consumption or income, per capita (combined)	$10.00	Area
 		Absolute poverty	No. of people in poverty	Consumption or income, per capita (combined)	$10.00	Map
 	4476	Absolute poverty	No. of people in poverty	Consumption or income, per capita (combined)	$20.00	Line
-	4368	Absolute poverty	No. of people in poverty	Consumption or income, per capita (combined)	$20.00	Area
+		Absolute poverty	No. of people in poverty	Consumption or income, per capita (combined)	$20.00	Area
 		Absolute poverty	No. of people in poverty	Consumption or income, per capita (combined)	$20.00	Map
 		Absolute poverty	No. of people in poverty	Consumption or income, per capita (combined)	$30.00	Line
 		Absolute poverty	No. of people in poverty	Consumption or income, per capita (combined)	$30.00	Area
@@ -194,99 +194,51 @@ switcher
 		Absolute poverty	Absolute poverty gap	Income, equivalized	$30.00	Line
 		Absolute poverty	Absolute poverty gap	Income, equivalized	$30.00	Area
 		Absolute poverty	Absolute poverty gap	Income, equivalized	$30.00	Map
-		Relative poverty	Percentage in poverty	Consumption or income, per capita (combined)	$1.90	Line
-		Relative poverty	Percentage in poverty	Consumption or income, per capita (combined)	$1.90	Area
-		Relative poverty	Percentage in poverty	Consumption or income, per capita (combined)	$1.90	Map
-		Relative poverty	Percentage in poverty	Consumption or income, per capita (combined)	$3.20	Line
-		Relative poverty	Percentage in poverty	Consumption or income, per capita (combined)	$3.20	Area
-		Relative poverty	Percentage in poverty	Consumption or income, per capita (combined)	$3.20	Map
-		Relative poverty	Percentage in poverty	Consumption or income, per capita (combined)	$5.00	Line
-		Relative poverty	Percentage in poverty	Consumption or income, per capita (combined)	$5.00	Area
-		Relative poverty	Percentage in poverty	Consumption or income, per capita (combined)	$5.00	Map
-		Relative poverty	Percentage in poverty	Consumption or income, per capita (combined)	$10.00	Line
-		Relative poverty	Percentage in poverty	Consumption or income, per capita (combined)	$10.00	Area
-		Relative poverty	Percentage in poverty	Consumption or income, per capita (combined)	$10.00	Map
-		Relative poverty	Percentage in poverty	Consumption or income, per capita (combined)	$20.00	Line
-		Relative poverty	Percentage in poverty	Consumption or income, per capita (combined)	$20.00	Area
-		Relative poverty	Percentage in poverty	Consumption or income, per capita (combined)	$20.00	Map
-		Relative poverty	Percentage in poverty	Consumption or income, per capita (combined)	$30.00	Line
-		Relative poverty	Percentage in poverty	Consumption or income, per capita (combined)	$30.00	Area
-		Relative poverty	Percentage in poverty	Consumption or income, per capita (combined)	$30.00	Map
-		Relative poverty	Percentage in poverty	Consumption or income, per capita (show separately)	$1.90	Line
-		Relative poverty	Percentage in poverty	Consumption or income, per capita (show separately)	$1.90	Map
-		Relative poverty	Percentage in poverty	Consumption or income, per capita (show separately)	$3.20	Line
-		Relative poverty	Percentage in poverty	Consumption or income, per capita (show separately)	$3.20	Map
-		Relative poverty	Percentage in poverty	Consumption or income, per capita (show separately)	$5.00	Line
-		Relative poverty	Percentage in poverty	Consumption or income, per capita (show separately)	$5.00	Map
-		Relative poverty	Percentage in poverty	Consumption or income, per capita (show separately)	$10.00	Line
-		Relative poverty	Percentage in poverty	Consumption or income, per capita (show separately)	$10.00	Map
-		Relative poverty	Percentage in poverty	Consumption or income, per capita (show separately)	$20.00	Line
-		Relative poverty	Percentage in poverty	Consumption or income, per capita (show separately)	$20.00	Map
-		Relative poverty	Percentage in poverty	Consumption or income, per capita (show separately)	$30.00	Line
-		Relative poverty	Percentage in poverty	Consumption or income, per capita (show separately)	$30.00	Map
-		Relative poverty	Percentage in poverty	Income, equivalized	$1.90	Line
-		Relative poverty	Percentage in poverty	Income, equivalized	$1.90	Area
-		Relative poverty	Percentage in poverty	Income, equivalized	$1.90	Map
-		Relative poverty	Percentage in poverty	Income, equivalized	$3.20	Line
-		Relative poverty	Percentage in poverty	Income, equivalized	$3.20	Area
-		Relative poverty	Percentage in poverty	Income, equivalized	$3.20	Map
-		Relative poverty	Percentage in poverty	Income, equivalized	$5.00	Line
-		Relative poverty	Percentage in poverty	Income, equivalized	$5.00	Area
-		Relative poverty	Percentage in poverty	Income, equivalized	$5.00	Map
-		Relative poverty	Percentage in poverty	Income, equivalized	$10.00	Line
-		Relative poverty	Percentage in poverty	Income, equivalized	$10.00	Area
-		Relative poverty	Percentage in poverty	Income, equivalized	$10.00	Map
-		Relative poverty	Percentage in poverty	Income, equivalized	$20.00	Line
-		Relative poverty	Percentage in poverty	Income, equivalized	$20.00	Area
-		Relative poverty	Percentage in poverty	Income, equivalized	$20.00	Map
-		Relative poverty	Percentage in poverty	Income, equivalized	$30.00	Line
-		Relative poverty	Percentage in poverty	Income, equivalized	$30.00	Area
-		Relative poverty	Percentage in poverty	Income, equivalized	$30.00	Map
-		Relative poverty	No. of people in poverty	Consumption or income, per capita (combined)	$1.90	Line
-		Relative poverty	No. of people in poverty	Consumption or income, per capita (combined)	$1.90	Area
-		Relative poverty	No. of people in poverty	Consumption or income, per capita (combined)	$1.90	Map
-		Relative poverty	No. of people in poverty	Consumption or income, per capita (combined)	$3.20	Line
-		Relative poverty	No. of people in poverty	Consumption or income, per capita (combined)	$3.20	Area
-		Relative poverty	No. of people in poverty	Consumption or income, per capita (combined)	$3.20	Map
-		Relative poverty	No. of people in poverty	Consumption or income, per capita (combined)	$5.00	Line
-		Relative poverty	No. of people in poverty	Consumption or income, per capita (combined)	$5.00	Area
-		Relative poverty	No. of people in poverty	Consumption or income, per capita (combined)	$5.00	Map
-		Relative poverty	No. of people in poverty	Consumption or income, per capita (combined)	$10.00	Line
-		Relative poverty	No. of people in poverty	Consumption or income, per capita (combined)	$10.00	Area
-		Relative poverty	No. of people in poverty	Consumption or income, per capita (combined)	$10.00	Map
-		Relative poverty	No. of people in poverty	Consumption or income, per capita (combined)	$20.00	Line
-		Relative poverty	No. of people in poverty	Consumption or income, per capita (combined)	$20.00	Area
-		Relative poverty	No. of people in poverty	Consumption or income, per capita (combined)	$20.00	Map
-		Relative poverty	No. of people in poverty	Consumption or income, per capita (combined)	$30.00	Line
-		Relative poverty	No. of people in poverty	Consumption or income, per capita (combined)	$30.00	Area
-		Relative poverty	No. of people in poverty	Consumption or income, per capita (combined)	$30.00	Map
-		Relative poverty	No. of people in poverty	Consumption or income, per capita (show separately)	$1.90	Line
-		Relative poverty	No. of people in poverty	Consumption or income, per capita (show separately)	$1.90	Map
-		Relative poverty	No. of people in poverty	Consumption or income, per capita (show separately)	$3.20	Line
-		Relative poverty	No. of people in poverty	Consumption or income, per capita (show separately)	$3.20	Map
-		Relative poverty	No. of people in poverty	Consumption or income, per capita (show separately)	$5.00	Line
-		Relative poverty	No. of people in poverty	Consumption or income, per capita (show separately)	$5.00	Map
-		Relative poverty	No. of people in poverty	Consumption or income, per capita (show separately)	$10.00	Line
-		Relative poverty	No. of people in poverty	Consumption or income, per capita (show separately)	$10.00	Map
-		Relative poverty	No. of people in poverty	Consumption or income, per capita (show separately)	$20.00	Line
-		Relative poverty	No. of people in poverty	Consumption or income, per capita (show separately)	$20.00	Map
-		Relative poverty	No. of people in poverty	Consumption or income, per capita (show separately)	$30.00	Line
-		Relative poverty	No. of people in poverty	Consumption or income, per capita (show separately)	$30.00	Map
-		Relative poverty	No. of people in poverty	Income, equivalized	$1.90	Line
-		Relative poverty	No. of people in poverty	Income, equivalized	$1.90	Area
-		Relative poverty	No. of people in poverty	Income, equivalized	$1.90	Map
-		Relative poverty	No. of people in poverty	Income, equivalized	$3.20	Line
-		Relative poverty	No. of people in poverty	Income, equivalized	$3.20	Area
-		Relative poverty	No. of people in poverty	Income, equivalized	$3.20	Map
-		Relative poverty	No. of people in poverty	Income, equivalized	$5.00	Line
-		Relative poverty	No. of people in poverty	Income, equivalized	$5.00	Area
-		Relative poverty	No. of people in poverty	Income, equivalized	$5.00	Map
-		Relative poverty	No. of people in poverty	Income, equivalized	$10.00	Line
-		Relative poverty	No. of people in poverty	Income, equivalized	$10.00	Area
-		Relative poverty	No. of people in poverty	Income, equivalized	$10.00	Map
-		Relative poverty	No. of people in poverty	Income, equivalized	$20.00	Line
-		Relative poverty	No. of people in poverty	Income, equivalized	$20.00	Area
-		Relative poverty	No. of people in poverty	Income, equivalized	$20.00	Map
-		Relative poverty	No. of people in poverty	Income, equivalized	$30.00	Line
-		Relative poverty	No. of people in poverty	Income, equivalized	$30.00	Area
-		Relative poverty	No. of people in poverty	Income, equivalized	$30.00	Map
+		Relative poverty	Percentage in poverty	Consumption or income, per capita (combined)	40% Median	Line
+		Relative poverty	Percentage in poverty	Consumption or income, per capita (combined)	40% Median	Area
+		Relative poverty	Percentage in poverty	Consumption or income, per capita (combined)	40% Median	Map
+		Relative poverty	Percentage in poverty	Consumption or income, per capita (combined)	50% Median	Line
+		Relative poverty	Percentage in poverty	Consumption or income, per capita (combined)	50% Median	Area
+		Relative poverty	Percentage in poverty	Consumption or income, per capita (combined)	50% Median	Map
+		Relative poverty	Percentage in poverty	Consumption or income, per capita (combined)	60% Median	Line
+		Relative poverty	Percentage in poverty	Consumption or income, per capita (combined)	60% Median	Area
+		Relative poverty	Percentage in poverty	Consumption or income, per capita (combined)	60% Median	Map
+		Relative poverty	Percentage in poverty	Consumption or income, per capita (show separately)	40% Median	Line
+		Relative poverty	Percentage in poverty	Consumption or income, per capita (show separately)	40% Median	Map
+		Relative poverty	Percentage in poverty	Consumption or income, per capita (show separately)	50% Median	Line
+		Relative poverty	Percentage in poverty	Consumption or income, per capita (show separately)	50% Median	Map
+		Relative poverty	Percentage in poverty	Consumption or income, per capita (show separately)	60% Median	Line
+		Relative poverty	Percentage in poverty	Consumption or income, per capita (show separately)	60% Median	Map
+		Relative poverty	Percentage in poverty	Income, equivalized	40% Median	Line
+		Relative poverty	Percentage in poverty	Income, equivalized	40% Median	Area
+		Relative poverty	Percentage in poverty	Income, equivalized	40% Median	Map
+		Relative poverty	Percentage in poverty	Income, equivalized	50% Median	Line
+		Relative poverty	Percentage in poverty	Income, equivalized	50% Median	Area
+		Relative poverty	Percentage in poverty	Income, equivalized	50% Median	Map
+		Relative poverty	Percentage in poverty	Income, equivalized	60% Median	Line
+		Relative poverty	Percentage in poverty	Income, equivalized	60% Median	Area
+		Relative poverty	Percentage in poverty	Income, equivalized	60% Median	Map
+		Relative poverty	No. of people in poverty	Consumption or income, per capita (combined)	40% Median	Line
+		Relative poverty	No. of people in poverty	Consumption or income, per capita (combined)	40% Median	Area
+		Relative poverty	No. of people in poverty	Consumption or income, per capita (combined)	40% Median	Map
+		Relative poverty	No. of people in poverty	Consumption or income, per capita (combined)	50% Median	Line
+		Relative poverty	No. of people in poverty	Consumption or income, per capita (combined)	50% Median	Area
+		Relative poverty	No. of people in poverty	Consumption or income, per capita (combined)	50% Median	Map
+		Relative poverty	No. of people in poverty	Consumption or income, per capita (combined)	60% Median	Line
+		Relative poverty	No. of people in poverty	Consumption or income, per capita (combined)	60% Median	Area
+		Relative poverty	No. of people in poverty	Consumption or income, per capita (combined)	60% Median	Map
+		Relative poverty	No. of people in poverty	Consumption or income, per capita (show separately)	40% Median	Line
+		Relative poverty	No. of people in poverty	Consumption or income, per capita (show separately)	40% Median	Map
+		Relative poverty	No. of people in poverty	Consumption or income, per capita (show separately)	50% Median	Line
+		Relative poverty	No. of people in poverty	Consumption or income, per capita (show separately)	50% Median	Map
+		Relative poverty	No. of people in poverty	Consumption or income, per capita (show separately)	60% Median	Line
+		Relative poverty	No. of people in poverty	Consumption or income, per capita (show separately)	60% Median	Map
+		Relative poverty	No. of people in poverty	Income, equivalized	40% Median	Line
+		Relative poverty	No. of people in poverty	Income, equivalized	40% Median	Area
+		Relative poverty	No. of people in poverty	Income, equivalized	40% Median	Map
+		Relative poverty	No. of people in poverty	Income, equivalized	50% Median	Line
+		Relative poverty	No. of people in poverty	Income, equivalized	50% Median	Area
+		Relative poverty	No. of people in poverty	Income, equivalized	50% Median	Map
+		Relative poverty	No. of people in poverty	Income, equivalized	60% Median	Line
+		Relative poverty	No. of people in poverty	Income, equivalized	60% Median	Area
+		Relative poverty	No. of people in poverty	Income, equivalized	60% Median	Map
