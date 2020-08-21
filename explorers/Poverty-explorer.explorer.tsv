@@ -3,8 +3,8 @@ isPublished	false
 
 switcher
 	chartId	Data Radio	Metric Radio	Poverty line(s) Dropdown
-		Survey data only	Percentage in poverty	$1.90
-		Survey data only	No. of people in poverty	$1.90
+	4467	Survey data only	Percentage in poverty	$1.90
+	4475	Survey data only	No. of people in poverty	$1.90
 		Survey data only	Poverty gap index	$1.90
 		Survey data only	Absolute poverty gap	$1.90
 		Survey data only	Percentage in poverty	$3.20
@@ -15,11 +15,11 @@ switcher
 		Survey data only	No. of people in poverty	$5.00
 		Survey data only	Poverty gap index	$5.00
 		Survey data only	Absolute poverty gap	$5.00
-		Survey data only	Percentage in poverty	$10.00
+	4469	Survey data only	Percentage in poverty	$10.00
 		Survey data only	No. of people in poverty	$10.00
 		Survey data only	Poverty gap index	$10.00
 		Survey data only	Absolute poverty gap	$10.00
-		Survey data only	Percentage in poverty	$20.00
+	4471	Survey data only	Percentage in poverty	$20.00
 		Survey data only	No. of people in poverty	$20.00
 		Survey data only	Poverty gap index	$20.00
 		Survey data only	Absolute poverty gap	$20.00
@@ -39,75 +39,39 @@ switcher
 		Survey data only	No. of people in poverty	60% Median
 		Survey data only	Poverty gap index	60% Median
 		Survey data only	Absolute poverty gap	60% Median
-		Scale means to National accounts data	Percentage in poverty	$1.90
-		Scale means to National accounts data	No. of people in poverty	$1.90
-		Scale means to National accounts data	Poverty gap index	$1.90
-		Scale means to National accounts data	Absolute poverty gap	$1.90
-		Scale means to National accounts data	Percentage in poverty	$3.20
-		Scale means to National accounts data	No. of people in poverty	$3.20
-		Scale means to National accounts data	Poverty gap index	$3.20
-		Scale means to National accounts data	Absolute poverty gap	$3.20
-		Scale means to National accounts data	Percentage in poverty	$5.00
-		Scale means to National accounts data	No. of people in poverty	$5.00
-		Scale means to National accounts data	Poverty gap index	$5.00
-		Scale means to National accounts data	Absolute poverty gap	$5.00
-		Scale means to National accounts data	Percentage in poverty	$10.00
-		Scale means to National accounts data	No. of people in poverty	$10.00
-		Scale means to National accounts data	Poverty gap index	$10.00
-		Scale means to National accounts data	Absolute poverty gap	$10.00
-		Scale means to National accounts data	Percentage in poverty	$20.00
-		Scale means to National accounts data	No. of people in poverty	$20.00
-		Scale means to National accounts data	Poverty gap index	$20.00
-		Scale means to National accounts data	Absolute poverty gap	$20.00
-		Scale means to National accounts data	Percentage in poverty	$30.00
-		Scale means to National accounts data	No. of people in poverty	$30.00
-		Scale means to National accounts data	Poverty gap index	$30.00
-		Scale means to National accounts data	Absolute poverty gap	$30.00
-		Scale means to National accounts data	Percentage in poverty	40% Median
-		Scale means to National accounts data	No. of people in poverty	40% Median
-		Scale means to National accounts data	Poverty gap index	40% Median
-		Scale means to National accounts data	Absolute poverty gap	40% Median
-		Scale means to National accounts data	Percentage in poverty	50% Median
-		Scale means to National accounts data	No. of people in poverty	50% Median
-		Scale means to National accounts data	Poverty gap index	50% Median
-		Scale means to National accounts data	Absolute poverty gap	50% Median
-		Scale means to National accounts data	Percentage in poverty	60% Median
-		Scale means to National accounts data	No. of people in poverty	60% Median
-		Scale means to National accounts data	Poverty gap index	60% Median
-		Scale means to National accounts data	Absolute poverty gap	60% Median
-		Scale means to National accounts data, and adjust top incomes	Percentage in poverty	$1.90
-		Scale means to National accounts data, and adjust top incomes	No. of people in poverty	$1.90
-		Scale means to National accounts data, and adjust top incomes	Poverty gap index	$1.90
-		Scale means to National accounts data, and adjust top incomes	Absolute poverty gap	$1.90
-		Scale means to National accounts data, and adjust top incomes	Percentage in poverty	$3.20
-		Scale means to National accounts data, and adjust top incomes	No. of people in poverty	$3.20
-		Scale means to National accounts data, and adjust top incomes	Poverty gap index	$3.20
-		Scale means to National accounts data, and adjust top incomes	Absolute poverty gap	$3.20
-		Scale means to National accounts data, and adjust top incomes	Percentage in poverty	$5.00
-		Scale means to National accounts data, and adjust top incomes	No. of people in poverty	$5.00
-		Scale means to National accounts data, and adjust top incomes	Poverty gap index	$5.00
-		Scale means to National accounts data, and adjust top incomes	Absolute poverty gap	$5.00
-		Scale means to National accounts data, and adjust top incomes	Percentage in poverty	$10.00
-		Scale means to National accounts data, and adjust top incomes	No. of people in poverty	$10.00
-		Scale means to National accounts data, and adjust top incomes	Poverty gap index	$10.00
-		Scale means to National accounts data, and adjust top incomes	Absolute poverty gap	$10.00
-		Scale means to National accounts data, and adjust top incomes	Percentage in poverty	$20.00
-		Scale means to National accounts data, and adjust top incomes	No. of people in poverty	$20.00
-		Scale means to National accounts data, and adjust top incomes	Poverty gap index	$20.00
-		Scale means to National accounts data, and adjust top incomes	Absolute poverty gap	$20.00
-		Scale means to National accounts data, and adjust top incomes	Percentage in poverty	$30.00
-		Scale means to National accounts data, and adjust top incomes	No. of people in poverty	$30.00
-		Scale means to National accounts data, and adjust top incomes	Poverty gap index	$30.00
-		Scale means to National accounts data, and adjust top incomes	Absolute poverty gap	$30.00
-		Scale means to National accounts data, and adjust top incomes	Percentage in poverty	40% Median
-		Scale means to National accounts data, and adjust top incomes	No. of people in poverty	40% Median
-		Scale means to National accounts data, and adjust top incomes	Poverty gap index	40% Median
-		Scale means to National accounts data, and adjust top incomes	Absolute poverty gap	40% Median
-		Scale means to National accounts data, and adjust top incomes	Percentage in poverty	50% Median
-		Scale means to National accounts data, and adjust top incomes	No. of people in poverty	50% Median
-		Scale means to National accounts data, and adjust top incomes	Poverty gap index	50% Median
-		Scale means to National accounts data, and adjust top incomes	Absolute poverty gap	50% Median
-		Scale means to National accounts data, and adjust top incomes	Percentage in poverty	60% Median
-		Scale means to National accounts data, and adjust top incomes	No. of people in poverty	60% Median
-		Scale means to National accounts data, and adjust top incomes	Poverty gap index	60% Median
-		Scale means to National accounts data, and adjust top incomes	Absolute poverty gap	60% Median
+		Scale survey mean to National Accounts data	Percentage in poverty	$1.90
+		Scale survey mean to National Accounts data	No. of people in poverty	$1.90
+		Scale survey mean to National Accounts data	Poverty gap index	$1.90
+		Scale survey mean to National Accounts data	Absolute poverty gap	$1.90
+		Scale survey mean to National Accounts data	Percentage in poverty	$3.20
+		Scale survey mean to National Accounts data	No. of people in poverty	$3.20
+		Scale survey mean to National Accounts data	Poverty gap index	$3.20
+		Scale survey mean to National Accounts data	Absolute poverty gap	$3.20
+		Scale survey mean to National Accounts data	Percentage in poverty	$5.00
+		Scale survey mean to National Accounts data	No. of people in poverty	$5.00
+		Scale survey mean to National Accounts data	Poverty gap index	$5.00
+		Scale survey mean to National Accounts data	Absolute poverty gap	$5.00
+		Scale survey mean to National Accounts data	Percentage in poverty	$10.00
+		Scale survey mean to National Accounts data	No. of people in poverty	$10.00
+		Scale survey mean to National Accounts data	Poverty gap index	$10.00
+		Scale survey mean to National Accounts data	Absolute poverty gap	$10.00
+		Scale survey mean to National Accounts data	Percentage in poverty	$20.00
+		Scale survey mean to National Accounts data	No. of people in poverty	$20.00
+		Scale survey mean to National Accounts data	Poverty gap index	$20.00
+		Scale survey mean to National Accounts data	Absolute poverty gap	$20.00
+		Scale survey mean to National Accounts data	Percentage in poverty	$30.00
+		Scale survey mean to National Accounts data	No. of people in poverty	$30.00
+		Scale survey mean to National Accounts data	Poverty gap index	$30.00
+		Scale survey mean to National Accounts data	Absolute poverty gap	$30.00
+		Scale survey mean to National Accounts data	Percentage in poverty	40% Median
+		Scale survey mean to National Accounts data	No. of people in poverty	40% Median
+		Scale survey mean to National Accounts data	Poverty gap index	40% Median
+		Scale survey mean to National Accounts data	Absolute poverty gap	40% Median
+		Scale survey mean to National Accounts data	Percentage in poverty	50% Median
+		Scale survey mean to National Accounts data	No. of people in poverty	50% Median
+		Scale survey mean to National Accounts data	Poverty gap index	50% Median
+		Scale survey mean to National Accounts data	Absolute poverty gap	50% Median
+		Scale survey mean to National Accounts data	Percentage in poverty	60% Median
+		Scale survey mean to National Accounts data	No. of people in poverty	60% Median
+		Scale survey mean to National Accounts data	Poverty gap index	60% Median
+		Scale survey mean to National Accounts data	Absolute poverty gap	60% Median
