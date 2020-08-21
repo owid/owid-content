@@ -2,244 +2,112 @@ title	Global income and poverty
 isPublished	false
 defaultView	?country=United%20Kingdom~United%20States~France~Germany~China~Russia~Turkey~Brazil~India&Concept%20=Absolute%20poverty&Metric%20=Percentage%20in%20poverty&Welfare%20measure%20=Consumption%20or%20income,%20per%20capita%20(combined)&Poverty%20line(s)%20=$20.00&Chart%20type%20=Line
 switcher
-	chartId	Concept Radio	Metric Radio	Welfare measure Radio	Poverty line(s) Dropdown	Chart type Radio
-	4363	Absolute poverty	Percentage in poverty	Consumption or income, per capita (combined)	$1.90	Line
-	4364	Absolute poverty	Percentage in poverty	Consumption or income, per capita (combined)	$1.90	Area
-	4371	Absolute poverty	Percentage in poverty	Consumption or income, per capita (combined)	$1.90	Map
-		Absolute poverty	Percentage in poverty	Consumption or income, per capita (combined)	$3.20	Line
-		Absolute poverty	Percentage in poverty	Consumption or income, per capita (combined)	$3.20	Area
-		Absolute poverty	Percentage in poverty	Consumption or income, per capita (combined)	$3.20	Map
-		Absolute poverty	Percentage in poverty	Consumption or income, per capita (combined)	$5.00	Line
-		Absolute poverty	Percentage in poverty	Consumption or income, per capita (combined)	$5.00	Area
-		Absolute poverty	Percentage in poverty	Consumption or income, per capita (combined)	$5.00	Map
-		Absolute poverty	Percentage in poverty	Consumption or income, per capita (combined)	$10.00	Line
-		Absolute poverty	Percentage in poverty	Consumption or income, per capita (combined)	$10.00	Area
-		Absolute poverty	Percentage in poverty	Consumption or income, per capita (combined)	$10.00	Map
-	4367	Absolute poverty	Percentage in poverty	Consumption or income, per capita (combined)	$20.00	Line
-	4368	Absolute poverty	Percentage in poverty	Consumption or income, per capita (combined)	$20.00	Area
-	4370	Absolute poverty	Percentage in poverty	Consumption or income, per capita (combined)	$20.00	Map
-		Absolute poverty	Percentage in poverty	Consumption or income, per capita (combined)	$30.00	Line
-		Absolute poverty	Percentage in poverty	Consumption or income, per capita (combined)	$30.00	Area
-		Absolute poverty	Percentage in poverty	Consumption or income, per capita (combined)	$30.00	Map
-	4365	Absolute poverty	Percentage in poverty	Consumption or income, per capita (show separately)	$1.90	Line
-		Absolute poverty	Percentage in poverty	Consumption or income, per capita (show separately)	$1.90	Map
-		Absolute poverty	Percentage in poverty	Consumption or income, per capita (show separately)	$3.20	Line
-		Absolute poverty	Percentage in poverty	Consumption or income, per capita (show separately)	$3.20	Map
-		Absolute poverty	Percentage in poverty	Consumption or income, per capita (show separately)	$5.00	Line
-		Absolute poverty	Percentage in poverty	Consumption or income, per capita (show separately)	$5.00	Map
-		Absolute poverty	Percentage in poverty	Consumption or income, per capita (show separately)	$10.00	Line
-		Absolute poverty	Percentage in poverty	Consumption or income, per capita (show separately)	$10.00	Map
-	4366	Absolute poverty	Percentage in poverty	Consumption or income, per capita (show separately)	$20.00	Line
-		Absolute poverty	Percentage in poverty	Consumption or income, per capita (show separately)	$20.00	Map
-		Absolute poverty	Percentage in poverty	Consumption or income, per capita (show separately)	$30.00	Line
-		Absolute poverty	Percentage in poverty	Consumption or income, per capita (show separately)	$30.00	Map
-		Absolute poverty	Percentage in poverty	Income, equivalized	$1.90	Line
-		Absolute poverty	Percentage in poverty	Income, equivalized	$1.90	Area
-		Absolute poverty	Percentage in poverty	Income, equivalized	$1.90	Map
-		Absolute poverty	Percentage in poverty	Income, equivalized	$3.20	Line
-		Absolute poverty	Percentage in poverty	Income, equivalized	$3.20	Area
-		Absolute poverty	Percentage in poverty	Income, equivalized	$3.20	Map
-		Absolute poverty	Percentage in poverty	Income, equivalized	$5.00	Line
-		Absolute poverty	Percentage in poverty	Income, equivalized	$5.00	Area
-		Absolute poverty	Percentage in poverty	Income, equivalized	$5.00	Map
-		Absolute poverty	Percentage in poverty	Income, equivalized	$10.00	Line
-		Absolute poverty	Percentage in poverty	Income, equivalized	$10.00	Area
-		Absolute poverty	Percentage in poverty	Income, equivalized	$10.00	Map
-		Absolute poverty	Percentage in poverty	Income, equivalized	$20.00	Line
-		Absolute poverty	Percentage in poverty	Income, equivalized	$20.00	Area
-		Absolute poverty	Percentage in poverty	Income, equivalized	$20.00	Map
-		Absolute poverty	Percentage in poverty	Income, equivalized	$30.00	Line
-		Absolute poverty	Percentage in poverty	Income, equivalized	$30.00	Area
-		Absolute poverty	Percentage in poverty	Income, equivalized	$30.00	Map
-	4475	Absolute poverty	No. of people in poverty	Consumption or income, per capita (combined)	$1.90	Line
-	4364	Absolute poverty	No. of people in poverty	Consumption or income, per capita (combined)	$1.90	Area
-		Absolute poverty	No. of people in poverty	Consumption or income, per capita (combined)	$1.90	Map
-		Absolute poverty	No. of people in poverty	Consumption or income, per capita (combined)	$3.20	Line
-		Absolute poverty	No. of people in poverty	Consumption or income, per capita (combined)	$3.20	Area
-		Absolute poverty	No. of people in poverty	Consumption or income, per capita (combined)	$3.20	Map
-		Absolute poverty	No. of people in poverty	Consumption or income, per capita (combined)	$5.00	Line
-		Absolute poverty	No. of people in poverty	Consumption or income, per capita (combined)	$5.00	Area
-		Absolute poverty	No. of people in poverty	Consumption or income, per capita (combined)	$5.00	Map
-		Absolute poverty	No. of people in poverty	Consumption or income, per capita (combined)	$10.00	Line
-		Absolute poverty	No. of people in poverty	Consumption or income, per capita (combined)	$10.00	Area
-		Absolute poverty	No. of people in poverty	Consumption or income, per capita (combined)	$10.00	Map
-	4476	Absolute poverty	No. of people in poverty	Consumption or income, per capita (combined)	$20.00	Line
-		Absolute poverty	No. of people in poverty	Consumption or income, per capita (combined)	$20.00	Area
-		Absolute poverty	No. of people in poverty	Consumption or income, per capita (combined)	$20.00	Map
-		Absolute poverty	No. of people in poverty	Consumption or income, per capita (combined)	$30.00	Line
-		Absolute poverty	No. of people in poverty	Consumption or income, per capita (combined)	$30.00	Area
-		Absolute poverty	No. of people in poverty	Consumption or income, per capita (combined)	$30.00	Map
-		Absolute poverty	No. of people in poverty	Consumption or income, per capita (show separately)	$1.90	Line
-		Absolute poverty	No. of people in poverty	Consumption or income, per capita (show separately)	$1.90	Map
-		Absolute poverty	No. of people in poverty	Consumption or income, per capita (show separately)	$3.20	Line
-		Absolute poverty	No. of people in poverty	Consumption or income, per capita (show separately)	$3.20	Map
-		Absolute poverty	No. of people in poverty	Consumption or income, per capita (show separately)	$5.00	Line
-		Absolute poverty	No. of people in poverty	Consumption or income, per capita (show separately)	$5.00	Map
-		Absolute poverty	No. of people in poverty	Consumption or income, per capita (show separately)	$10.00	Line
-		Absolute poverty	No. of people in poverty	Consumption or income, per capita (show separately)	$10.00	Map
-		Absolute poverty	No. of people in poverty	Consumption or income, per capita (show separately)	$20.00	Line
-		Absolute poverty	No. of people in poverty	Consumption or income, per capita (show separately)	$20.00	Map
-		Absolute poverty	No. of people in poverty	Consumption or income, per capita (show separately)	$30.00	Line
-		Absolute poverty	No. of people in poverty	Consumption or income, per capita (show separately)	$30.00	Map
-		Absolute poverty	No. of people in poverty	Income, equivalized	$1.90	Line
-		Absolute poverty	No. of people in poverty	Income, equivalized	$1.90	Area
-		Absolute poverty	No. of people in poverty	Income, equivalized	$1.90	Map
-		Absolute poverty	No. of people in poverty	Income, equivalized	$3.20	Line
-		Absolute poverty	No. of people in poverty	Income, equivalized	$3.20	Area
-		Absolute poverty	No. of people in poverty	Income, equivalized	$3.20	Map
-		Absolute poverty	No. of people in poverty	Income, equivalized	$5.00	Line
-		Absolute poverty	No. of people in poverty	Income, equivalized	$5.00	Area
-		Absolute poverty	No. of people in poverty	Income, equivalized	$5.00	Map
-		Absolute poverty	No. of people in poverty	Income, equivalized	$10.00	Line
-		Absolute poverty	No. of people in poverty	Income, equivalized	$10.00	Area
-		Absolute poverty	No. of people in poverty	Income, equivalized	$10.00	Map
-		Absolute poverty	No. of people in poverty	Income, equivalized	$20.00	Line
-		Absolute poverty	No. of people in poverty	Income, equivalized	$20.00	Area
-		Absolute poverty	No. of people in poverty	Income, equivalized	$20.00	Map
-		Absolute poverty	No. of people in poverty	Income, equivalized	$30.00	Line
-		Absolute poverty	No. of people in poverty	Income, equivalized	$30.00	Area
-		Absolute poverty	No. of people in poverty	Income, equivalized	$30.00	Map
-		Absolute poverty	Poverty gap index	Consumption or income, per capita (combined)	$1.90	Line
-		Absolute poverty	Poverty gap index	Consumption or income, per capita (combined)	$1.90	Area
-		Absolute poverty	Poverty gap index	Consumption or income, per capita (combined)	$1.90	Map
-		Absolute poverty	Poverty gap index	Consumption or income, per capita (combined)	$3.20	Line
-		Absolute poverty	Poverty gap index	Consumption or income, per capita (combined)	$3.20	Area
-		Absolute poverty	Poverty gap index	Consumption or income, per capita (combined)	$3.20	Map
-		Absolute poverty	Poverty gap index	Consumption or income, per capita (combined)	$5.00	Line
-		Absolute poverty	Poverty gap index	Consumption or income, per capita (combined)	$5.00	Area
-		Absolute poverty	Poverty gap index	Consumption or income, per capita (combined)	$5.00	Map
-		Absolute poverty	Poverty gap index	Consumption or income, per capita (combined)	$10.00	Line
-		Absolute poverty	Poverty gap index	Consumption or income, per capita (combined)	$10.00	Area
-		Absolute poverty	Poverty gap index	Consumption or income, per capita (combined)	$10.00	Map
-		Absolute poverty	Poverty gap index	Consumption or income, per capita (combined)	$20.00	Line
-		Absolute poverty	Poverty gap index	Consumption or income, per capita (combined)	$20.00	Area
-		Absolute poverty	Poverty gap index	Consumption or income, per capita (combined)	$20.00	Map
-		Absolute poverty	Poverty gap index	Consumption or income, per capita (combined)	$30.00	Line
-		Absolute poverty	Poverty gap index	Consumption or income, per capita (combined)	$30.00	Area
-		Absolute poverty	Poverty gap index	Consumption or income, per capita (combined)	$30.00	Map
-		Absolute poverty	Poverty gap index	Consumption or income, per capita (show separately)	$1.90	Line
-		Absolute poverty	Poverty gap index	Consumption or income, per capita (show separately)	$1.90	Map
-		Absolute poverty	Poverty gap index	Consumption or income, per capita (show separately)	$3.20	Line
-		Absolute poverty	Poverty gap index	Consumption or income, per capita (show separately)	$3.20	Map
-		Absolute poverty	Poverty gap index	Consumption or income, per capita (show separately)	$5.00	Line
-		Absolute poverty	Poverty gap index	Consumption or income, per capita (show separately)	$5.00	Map
-		Absolute poverty	Poverty gap index	Consumption or income, per capita (show separately)	$10.00	Line
-		Absolute poverty	Poverty gap index	Consumption or income, per capita (show separately)	$10.00	Map
-		Absolute poverty	Poverty gap index	Consumption or income, per capita (show separately)	$20.00	Line
-		Absolute poverty	Poverty gap index	Consumption or income, per capita (show separately)	$20.00	Map
-		Absolute poverty	Poverty gap index	Consumption or income, per capita (show separately)	$30.00	Line
-		Absolute poverty	Poverty gap index	Consumption or income, per capita (show separately)	$30.00	Map
-		Absolute poverty	Poverty gap index	Income, equivalized	$1.90	Line
-		Absolute poverty	Poverty gap index	Income, equivalized	$1.90	Area
-		Absolute poverty	Poverty gap index	Income, equivalized	$1.90	Map
-		Absolute poverty	Poverty gap index	Income, equivalized	$3.20	Line
-		Absolute poverty	Poverty gap index	Income, equivalized	$3.20	Area
-		Absolute poverty	Poverty gap index	Income, equivalized	$3.20	Map
-		Absolute poverty	Poverty gap index	Income, equivalized	$5.00	Line
-		Absolute poverty	Poverty gap index	Income, equivalized	$5.00	Area
-		Absolute poverty	Poverty gap index	Income, equivalized	$5.00	Map
-		Absolute poverty	Poverty gap index	Income, equivalized	$10.00	Line
-		Absolute poverty	Poverty gap index	Income, equivalized	$10.00	Area
-		Absolute poverty	Poverty gap index	Income, equivalized	$10.00	Map
-		Absolute poverty	Poverty gap index	Income, equivalized	$20.00	Line
-		Absolute poverty	Poverty gap index	Income, equivalized	$20.00	Area
-		Absolute poverty	Poverty gap index	Income, equivalized	$20.00	Map
-		Absolute poverty	Poverty gap index	Income, equivalized	$30.00	Line
-		Absolute poverty	Poverty gap index	Income, equivalized	$30.00	Area
-		Absolute poverty	Poverty gap index	Income, equivalized	$30.00	Map
-		Absolute poverty	Absolute poverty gap	Consumption or income, per capita (combined)	$1.90	Line
-		Absolute poverty	Absolute poverty gap	Consumption or income, per capita (combined)	$1.90	Area
-		Absolute poverty	Absolute poverty gap	Consumption or income, per capita (combined)	$1.90	Map
-		Absolute poverty	Absolute poverty gap	Consumption or income, per capita (combined)	$3.20	Line
-		Absolute poverty	Absolute poverty gap	Consumption or income, per capita (combined)	$3.20	Area
-		Absolute poverty	Absolute poverty gap	Consumption or income, per capita (combined)	$3.20	Map
-		Absolute poverty	Absolute poverty gap	Consumption or income, per capita (combined)	$5.00	Line
-		Absolute poverty	Absolute poverty gap	Consumption or income, per capita (combined)	$5.00	Area
-		Absolute poverty	Absolute poverty gap	Consumption or income, per capita (combined)	$5.00	Map
-		Absolute poverty	Absolute poverty gap	Consumption or income, per capita (combined)	$10.00	Line
-		Absolute poverty	Absolute poverty gap	Consumption or income, per capita (combined)	$10.00	Area
-		Absolute poverty	Absolute poverty gap	Consumption or income, per capita (combined)	$10.00	Map
-		Absolute poverty	Absolute poverty gap	Consumption or income, per capita (combined)	$20.00	Line
-		Absolute poverty	Absolute poverty gap	Consumption or income, per capita (combined)	$20.00	Area
-		Absolute poverty	Absolute poverty gap	Consumption or income, per capita (combined)	$20.00	Map
-		Absolute poverty	Absolute poverty gap	Consumption or income, per capita (combined)	$30.00	Line
-		Absolute poverty	Absolute poverty gap	Consumption or income, per capita (combined)	$30.00	Area
-		Absolute poverty	Absolute poverty gap	Consumption or income, per capita (combined)	$30.00	Map
-		Absolute poverty	Absolute poverty gap	Consumption or income, per capita (show separately)	$1.90	Line
-		Absolute poverty	Absolute poverty gap	Consumption or income, per capita (show separately)	$1.90	Map
-		Absolute poverty	Absolute poverty gap	Consumption or income, per capita (show separately)	$3.20	Line
-		Absolute poverty	Absolute poverty gap	Consumption or income, per capita (show separately)	$3.20	Map
-		Absolute poverty	Absolute poverty gap	Consumption or income, per capita (show separately)	$5.00	Line
-		Absolute poverty	Absolute poverty gap	Consumption or income, per capita (show separately)	$5.00	Map
-		Absolute poverty	Absolute poverty gap	Consumption or income, per capita (show separately)	$10.00	Line
-		Absolute poverty	Absolute poverty gap	Consumption or income, per capita (show separately)	$10.00	Map
-		Absolute poverty	Absolute poverty gap	Consumption or income, per capita (show separately)	$20.00	Line
-		Absolute poverty	Absolute poverty gap	Consumption or income, per capita (show separately)	$20.00	Map
-		Absolute poverty	Absolute poverty gap	Consumption or income, per capita (show separately)	$30.00	Line
-		Absolute poverty	Absolute poverty gap	Consumption or income, per capita (show separately)	$30.00	Map
-		Absolute poverty	Absolute poverty gap	Income, equivalized	$1.90	Line
-		Absolute poverty	Absolute poverty gap	Income, equivalized	$1.90	Area
-		Absolute poverty	Absolute poverty gap	Income, equivalized	$1.90	Map
-		Absolute poverty	Absolute poverty gap	Income, equivalized	$3.20	Line
-		Absolute poverty	Absolute poverty gap	Income, equivalized	$3.20	Area
-		Absolute poverty	Absolute poverty gap	Income, equivalized	$3.20	Map
-		Absolute poverty	Absolute poverty gap	Income, equivalized	$5.00	Line
-		Absolute poverty	Absolute poverty gap	Income, equivalized	$5.00	Area
-		Absolute poverty	Absolute poverty gap	Income, equivalized	$5.00	Map
-		Absolute poverty	Absolute poverty gap	Income, equivalized	$10.00	Line
-		Absolute poverty	Absolute poverty gap	Income, equivalized	$10.00	Area
-		Absolute poverty	Absolute poverty gap	Income, equivalized	$10.00	Map
-		Absolute poverty	Absolute poverty gap	Income, equivalized	$20.00	Line
-		Absolute poverty	Absolute poverty gap	Income, equivalized	$20.00	Area
-		Absolute poverty	Absolute poverty gap	Income, equivalized	$20.00	Map
-		Absolute poverty	Absolute poverty gap	Income, equivalized	$30.00	Line
-		Absolute poverty	Absolute poverty gap	Income, equivalized	$30.00	Area
-		Absolute poverty	Absolute poverty gap	Income, equivalized	$30.00	Map
-		Relative poverty	Percentage in poverty	Consumption or income, per capita (combined)	40% Median	Line
-		Relative poverty	Percentage in poverty	Consumption or income, per capita (combined)	40% Median	Area
-		Relative poverty	Percentage in poverty	Consumption or income, per capita (combined)	40% Median	Map
-		Relative poverty	Percentage in poverty	Consumption or income, per capita (combined)	50% Median	Line
-		Relative poverty	Percentage in poverty	Consumption or income, per capita (combined)	50% Median	Area
-		Relative poverty	Percentage in poverty	Consumption or income, per capita (combined)	50% Median	Map
-		Relative poverty	Percentage in poverty	Consumption or income, per capita (combined)	60% Median	Line
-		Relative poverty	Percentage in poverty	Consumption or income, per capita (combined)	60% Median	Area
-		Relative poverty	Percentage in poverty	Consumption or income, per capita (combined)	60% Median	Map
-		Relative poverty	Percentage in poverty	Consumption or income, per capita (show separately)	40% Median	Line
-		Relative poverty	Percentage in poverty	Consumption or income, per capita (show separately)	40% Median	Map
-		Relative poverty	Percentage in poverty	Consumption or income, per capita (show separately)	50% Median	Line
-		Relative poverty	Percentage in poverty	Consumption or income, per capita (show separately)	50% Median	Map
-		Relative poverty	Percentage in poverty	Consumption or income, per capita (show separately)	60% Median	Line
-		Relative poverty	Percentage in poverty	Consumption or income, per capita (show separately)	60% Median	Map
-		Relative poverty	Percentage in poverty	Income, equivalized	40% Median	Line
-		Relative poverty	Percentage in poverty	Income, equivalized	40% Median	Area
-		Relative poverty	Percentage in poverty	Income, equivalized	40% Median	Map
-		Relative poverty	Percentage in poverty	Income, equivalized	50% Median	Line
-		Relative poverty	Percentage in poverty	Income, equivalized	50% Median	Area
-		Relative poverty	Percentage in poverty	Income, equivalized	50% Median	Map
-		Relative poverty	Percentage in poverty	Income, equivalized	60% Median	Line
-		Relative poverty	Percentage in poverty	Income, equivalized	60% Median	Area
-		Relative poverty	Percentage in poverty	Income, equivalized	60% Median	Map
-		Relative poverty	No. of people in poverty	Consumption or income, per capita (combined)	40% Median	Line
-		Relative poverty	No. of people in poverty	Consumption or income, per capita (combined)	40% Median	Area
-		Relative poverty	No. of people in poverty	Consumption or income, per capita (combined)	40% Median	Map
-		Relative poverty	No. of people in poverty	Consumption or income, per capita (combined)	50% Median	Line
-		Relative poverty	No. of people in poverty	Consumption or income, per capita (combined)	50% Median	Area
-		Relative poverty	No. of people in poverty	Consumption or income, per capita (combined)	50% Median	Map
-		Relative poverty	No. of people in poverty	Consumption or income, per capita (combined)	60% Median	Line
-		Relative poverty	No. of people in poverty	Consumption or income, per capita (combined)	60% Median	Area
-		Relative poverty	No. of people in poverty	Consumption or income, per capita (combined)	60% Median	Map
-		Relative poverty	No. of people in poverty	Consumption or income, per capita (show separately)	40% Median	Line
-		Relative poverty	No. of people in poverty	Consumption or income, per capita (show separately)	40% Median	Map
-		Relative poverty	No. of people in poverty	Consumption or income, per capita (show separately)	50% Median	Line
-		Relative poverty	No. of people in poverty	Consumption or income, per capita (show separately)	50% Median	Map
-		Relative poverty	No. of people in poverty	Consumption or income, per capita (show separately)	60% Median	Line
-		Relative poverty	No. of people in poverty	Consumption or income, per capita (show separately)	60% Median	Map
-		Relative poverty	No. of people in poverty	Income, equivalized	40% Median	Line
-		Relative poverty	No. of people in poverty	Income, equivalized	40% Median	Area
-		Relative poverty	No. of people in poverty	Income, equivalized	40% Median	Map
-		Relative poverty	No. of people in poverty	Income, equivalized	50% Median	Line
-		Relative poverty	No. of people in poverty	Income, equivalized	50% Median	Area
-		Relative poverty	No. of people in poverty	Income, equivalized	50% Median	Map
-		Relative poverty	No. of people in poverty	Income, equivalized	60% Median	Line
-		Relative poverty	No. of people in poverty	Income, equivalized	60% Median	Area
-		Relative poverty	No. of people in poverty	Income, equivalized	60% Median	Map
+	chartId	Data Radio	Metric Radio	Poverty line(s) Dropdown
+		Survey data only	Percentage in poverty	$1.90
+		Survey data only	No. of people in poverty	$1.90
+		Survey data only	Poverty gap index	$1.90
+		Survey data only	Absolute poverty gap	$1.90
+		Survey data only	Percentage in poverty	$3.20
+		Survey data only	No. of people in poverty	$3.20
+		Survey data only	Poverty gap index	$3.20
+		Survey data only	Absolute poverty gap	$3.20
+		Survey data only	Percentage in poverty	$5.00
+		Survey data only	No. of people in poverty	$5.00
+		Survey data only	Poverty gap index	$5.00
+		Survey data only	Absolute poverty gap	$5.00
+		Survey data only	Percentage in poverty	$10.00
+		Survey data only	No. of people in poverty	$10.00
+		Survey data only	Poverty gap index	$10.00
+		Survey data only	Absolute poverty gap	$10.00
+		Survey data only	Percentage in poverty	$20.00
+		Survey data only	No. of people in poverty	$20.00
+		Survey data only	Poverty gap index	$20.00
+		Survey data only	Absolute poverty gap	$20.00
+		Survey data only	Percentage in poverty	$30.00
+		Survey data only	No. of people in poverty	$30.00
+		Survey data only	Poverty gap index	$30.00
+		Survey data only	Absolute poverty gap	$30.00
+		Survey data only	Percentage in poverty	40% Median
+		Survey data only	No. of people in poverty	40% Median
+		Survey data only	Poverty gap index	40% Median
+		Survey data only	Absolute poverty gap	40% Median
+		Survey data only	Percentage in poverty	50% Median
+		Survey data only	No. of people in poverty	50% Median
+		Survey data only	Poverty gap index	50% Median
+		Survey data only	Absolute poverty gap	50% Median
+		Survey data only	Percentage in poverty	60% Median
+		Survey data only	No. of people in poverty	60% Median
+		Survey data only	Poverty gap index	60% Median
+		Survey data only	Absolute poverty gap	60% Median
+		Scale means to National accounts data	Percentage in poverty	$1.90
+		Scale means to National accounts data	No. of people in poverty	$1.90
+		Scale means to National accounts data	Poverty gap index	$1.90
+		Scale means to National accounts data	Absolute poverty gap	$1.90
+		Scale means to National accounts data	Percentage in poverty	$3.20
+		Scale means to National accounts data	No. of people in poverty	$3.20
+		Scale means to National accounts data	Poverty gap index	$3.20
+		Scale means to National accounts data	Absolute poverty gap	$3.20
+		Scale means to National accounts data	Percentage in poverty	$5.00
+		Scale means to National accounts data	No. of people in poverty	$5.00
+		Scale means to National accounts data	Poverty gap index	$5.00
+		Scale means to National accounts data	Absolute poverty gap	$5.00
+		Scale means to National accounts data	Percentage in poverty	$10.00
+		Scale means to National accounts data	No. of people in poverty	$10.00
+		Scale means to National accounts data	Poverty gap index	$10.00
+		Scale means to National accounts data	Absolute poverty gap	$10.00
+		Scale means to National accounts data	Percentage in poverty	$20.00
+		Scale means to National accounts data	No. of people in poverty	$20.00
+		Scale means to National accounts data	Poverty gap index	$20.00
+		Scale means to National accounts data	Absolute poverty gap	$20.00
+		Scale means to National accounts data	Percentage in poverty	$30.00
+		Scale means to National accounts data	No. of people in poverty	$30.00
+		Scale means to National accounts data	Poverty gap index	$30.00
+		Scale means to National accounts data	Absolute poverty gap	$30.00
+		Scale means to National accounts data	Percentage in poverty	40% Median
+		Scale means to National accounts data	No. of people in poverty	40% Median
+		Scale means to National accounts data	Poverty gap index	40% Median
+		Scale means to National accounts data	Absolute poverty gap	40% Median
+		Scale means to National accounts data	Percentage in poverty	50% Median
+		Scale means to National accounts data	No. of people in poverty	50% Median
+		Scale means to National accounts data	Poverty gap index	50% Median
+		Scale means to National accounts data	Absolute poverty gap	50% Median
+		Scale means to National accounts data	Percentage in poverty	60% Median
+		Scale means to National accounts data	No. of people in poverty	60% Median
+		Scale means to National accounts data	Poverty gap index	60% Median
+		Scale means to National accounts data	Absolute poverty gap	60% Median
+		Scale means to National accounts data, and adjust top incomes	Percentage in poverty	$1.90
+		Scale means to National accounts data, and adjust top incomes	No. of people in poverty	$1.90
+		Scale means to National accounts data, and adjust top incomes	Poverty gap index	$1.90
+		Scale means to National accounts data, and adjust top incomes	Absolute poverty gap	$1.90
+		Scale means to National accounts data, and adjust top incomes	Percentage in poverty	$3.20
+		Scale means to National accounts data, and adjust top incomes	No. of people in poverty	$3.20
+		Scale means to National accounts data, and adjust top incomes	Poverty gap index	$3.20
+		Scale means to National accounts data, and adjust top incomes	Absolute poverty gap	$3.20
+		Scale means to National accounts data, and adjust top incomes	Percentage in poverty	$5.00
+		Scale means to National accounts data, and adjust top incomes	No. of people in poverty	$5.00
+		Scale means to National accounts data, and adjust top incomes	Poverty gap index	$5.00
+		Scale means to National accounts data, and adjust top incomes	Absolute poverty gap	$5.00
+		Scale means to National accounts data, and adjust top incomes	Percentage in poverty	$10.00
+		Scale means to National accounts data, and adjust top incomes	No. of people in poverty	$10.00
+		Scale means to National accounts data, and adjust top incomes	Poverty gap index	$10.00
+		Scale means to National accounts data, and adjust top incomes	Absolute poverty gap	$10.00
+		Scale means to National accounts data, and adjust top incomes	Percentage in poverty	$20.00
+		Scale means to National accounts data, and adjust top incomes	No. of people in poverty	$20.00
+		Scale means to National accounts data, and adjust top incomes	Poverty gap index	$20.00
+		Scale means to National accounts data, and adjust top incomes	Absolute poverty gap	$20.00
+		Scale means to National accounts data, and adjust top incomes	Percentage in poverty	$30.00
+		Scale means to National accounts data, and adjust top incomes	No. of people in poverty	$30.00
+		Scale means to National accounts data, and adjust top incomes	Poverty gap index	$30.00
+		Scale means to National accounts data, and adjust top incomes	Absolute poverty gap	$30.00
+		Scale means to National accounts data, and adjust top incomes	Percentage in poverty	40% Median
+		Scale means to National accounts data, and adjust top incomes	No. of people in poverty	40% Median
+		Scale means to National accounts data, and adjust top incomes	Poverty gap index	40% Median
+		Scale means to National accounts data, and adjust top incomes	Absolute poverty gap	40% Median
+		Scale means to National accounts data, and adjust top incomes	Percentage in poverty	50% Median
+		Scale means to National accounts data, and adjust top incomes	No. of people in poverty	50% Median
+		Scale means to National accounts data, and adjust top incomes	Poverty gap index	50% Median
+		Scale means to National accounts data, and adjust top incomes	Absolute poverty gap	50% Median
+		Scale means to National accounts data, and adjust top incomes	Percentage in poverty	60% Median
+		Scale means to National accounts data, and adjust top incomes	No. of people in poverty	60% Median
+		Scale means to National accounts data, and adjust top incomes	Poverty gap index	60% Median
+		Scale means to National accounts data, and adjust top incomes	Absolute poverty gap	60% Median
