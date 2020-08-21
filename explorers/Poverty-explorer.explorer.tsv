@@ -1,6 +1,6 @@
 title	Global income and poverty
 isPublished	false
-defaultView
+
 switcher
 	chartId	Data Radio	Metric Radio	Poverty line(s) Dropdown
 		Survey data only	Percentage in poverty	$1.90
