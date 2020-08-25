@@ -1,7 +1,7 @@
 title	Energy Data Explorer
 isPublished	false
 subtitle	Download the complete <i>Our World in Data</i> Energy Dataset.
-defaultView	?tab=chart&country=United%20States~United%20Kingdom~China&Total%20or%20Breakdown=Total&Energy%20or%20Electricity=Primary%20energy&Metric%20=Per%20capita%20consumption
+defaultView	?tab=chart&country=United%20States~United%20Kingdom~China~World~India~Brazil~South%20Africa&Total%20or%20Breakdown=Total&Select%20a%20source%20=Low-carbon&Energy%20or%20Electricity=Primary%20energy&Metric%20=Per%20capita%20consumption
 switcher
 	chartId	Total or Breakdown	Select a source Dropdown	Energy or Electricity	Metric Dropdown
 	3868	Total		Primary energy	Annual consumption
