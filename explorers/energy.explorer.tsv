@@ -1,5 +1,5 @@
 title	Energy Data Explorer
-isPublished	false
+isPublished	true
 subtitle	Download the complete <i>Our World in Data</i> Energy Dataset.
 defaultView	?tab=chart&country=United%20States~United%20Kingdom~China~World~India~Brazil~South%20Africa&Total%20or%20Breakdown=Total&Select%20a%20source%20=Low-carbon&Energy%20or%20Electricity=Primary%20energy&Metric%20=Per%20capita%20consumption
 switcher
