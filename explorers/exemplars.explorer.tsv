@@ -1,7 +1,7 @@
 title	Exemplars Data Explorer
 isPublished	false
 subtitle
-defaultView
+defaultView	?tab=chart&xScale=linear&yScale=linear&stackMode=absolute&endpointsOnly=0&time=earliest..latest&country=India~China~World~South%20Africa~Brazil~Bangladesh~Ghana~Nigeria&region=World&Category%20=Child%20health&Indicator%20=Child%20mortality&Rate%20or%20Total%20Number%20=Rate&Source%20=UN%20IGME
 switcher
 	chartId	Category Dropdown	Indicator Dropdown	Rate or Total Number Dropdown	Source Dropdown
 	677	Child health	Child mortality	Rate	IHME
