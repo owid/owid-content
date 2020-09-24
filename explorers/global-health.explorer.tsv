@@ -1,0 +1,131 @@
+title	Global Health Data Explorer
+isPublished	false
+subtitle
+defaultView	?tab=chart&xScale=linear&yScale=linear&stackMode=absolute&endpointsOnly=0&time=earliest..latest&country=India~China~South%20Africa~Brazil~Bangladesh~Ghana~Nigeria&region=World&Category%20=Child%20health&Indicator%20=Child%20mortality&Rate%20or%20Total%20Number%20=Rate&Source%20=UN%20IGME
+switcher
+	chartId	Category Dropdown	Indicator Dropdown	Rate or Total Number Dropdown	Source Dropdown
+	677	Child health	Child mortality	Rate	IHME
+	712	Child health	Child mortality	Rate	UN IGME
+	421	Child health	Child mortality	Number of deaths	UN IGME
+	3772	Child health	Child mortality	Number of deaths	IHME
+	3798	Child health	Infant mortality	Rate	IHME
+	389	Child health	Infant mortality	Rate	UN IGME
+	3401	Child health	Infant mortality	Number of deaths	UN IGME
+	3969	Child health	Infant mortality	Number of deaths	IHME
+	3485	Child health	Neonatal mortality	Rate	IHME
+	714	Child health	Neonatal mortality	Rate	UN IGME
+	3799	Child health	Neonatal mortality	Number of deaths	IHME
+	3968	Child health	Neonatal mortality	Number of deaths	UN IGME
+	66	Maternal health	Maternal mortality	Rate	World Bank
+	3482	Maternal health	Maternal mortality	Rate	IHME
+	762	Maternal health	Maternal mortality	Number of deaths	World Bank
+		Maternal health	Maternal mortality	Number of deaths	IHME
+	2836	Child health	Childhood stunting	Share of children	IHME
+	703	Child health	Childhood stunting	Share of children	UNICEF/WHO
+		Child health	Childhood stunting	Number of children	IHME
+	3801	Child health	Childhood stunting	Number of children	UNICEF/WHO
+	2837	Child health	Childhood wasting	Share of children	IHME
+	792	Child health	Childhood wasting	Share of children	UNICEF/WHO
+		Child health	Childhood wasting	Number of children	IHME
+		Child health	Childhood wasting	Number of children	UNICEF/WHO
+	2968	Demographic change	Life expectancy at birth
+	471	Vaccination	DTP3 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
+		Vaccination	DTP3 coverage	Share of one-year-olds vaccinated	IHME
+		Vaccination	DTP3 coverage	Number of children not vaccinated	UNICEF/WHO
+		Vaccination	DTP3 coverage	Number of children not vaccinated	IHME
+	1546	Vaccination	HepB3 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
+		Vaccination	HepB3 coverage	Share of one-year-olds vaccinated	IHME
+		Vaccination	HepB3 coverage	Number of children not vaccinated	UNICEF/WHO
+		Vaccination	HepB3 coverage	Number of children not vaccinated	IHME
+	3603	Vaccination	Hib3 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
+		Vaccination	Hib3 coverage	Share of one-year-olds vaccinated	IHME
+		Vaccination	Hib3 coverage	Number of children not vaccinated	UNICEF/WHO
+		Vaccination	Hib3 coverage	Number of children not vaccinated	IHME
+		Vaccination	IPV1 coverage	Share of one-year-olds vaccinated
+		Vaccination	IPV1 coverage	Number of children not vaccinated
+	299	Vaccination	MCV1 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
+		Vaccination	MCV1 coverage	Share of one-year-olds vaccinated	IHME
+		Vaccination	MCV1 coverage	Number of children not vaccinated	UNICEF/WHO
+		Vaccination	MCV1 coverage	Number of children not vaccinated	IHME
+	3887	Vaccination	MCV2 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
+		Vaccination	MCV2 coverage	Share of one-year-olds vaccinated	IHME
+		Vaccination	MCV2 coverage	Number of children not vaccinated	UNICEF/WHO
+		Vaccination	MCV2 coverage	Number of children not vaccinated	IHME
+	3594	Vaccination	PCV3 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
+		Vaccination	PCV3 coverage	Share of one-year-olds vaccinated	IHME
+		Vaccination	PCV3 coverage	Number of children not vaccinated	UNICEF/WHO
+		Vaccination	PCV3 coverage	Number of children not vaccinated	IHME
+	1068	Vaccination	Pol3 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
+		Vaccination	Pol3 coverage	Share of one-year-olds vaccinated	IHME
+		Vaccination	Pol3 coverage	Number of children not vaccinated	UNICEF/WHO
+		Vaccination	Pol3 coverage	Number of children not vaccinated	IHME
+	3553	Vaccination	RotaC coverage	Share of one-year-olds vaccinated	UNICEF/WHO
+		Vaccination	RotaC coverage	Share of one-year-olds vaccinated	IHME
+		Vaccination	RotaC coverage	Number of children not vaccinated	UNICEF/WHO
+		Vaccination	RotaC coverage	Number of children not vaccinated	IHME
+	1547	Vaccination	BCG coverage	Share of one-year-olds vaccinated	UNICEF/WHO
+		Vaccination	BCG coverage	Share of one-year-olds vaccinated	IHME
+		Vaccination	BCG coverage	Number of children not vaccinated	UNICEF/WHO
+		Vaccination	BCG coverage	Number of children not vaccinated	IHME
+	3872	Maternal health	Antenatal visits - 1+ visits
+	3873	Maternal health	Antenatal visits - 4+ visits
+	3874	Child health	Exclusive breastfeeding rate
+	3875	Child health	Careseeking for childhood pneumonia symptoms
+	970	Child health	Children sleeping under ITNs
+	3876	Child health	Children with fever receiving any antimalarials
+	1372	Maternal health	Prevalence of modern contraceptives
+	797	Child health	Diarrhea treatment w/ ORT and continued feeding
+	699	Maternal health	HIV prevalence		UNICEF
+	2286	Maternal health	HIV prevalence		IHME
+	2285	Maternal health	HIV+ pregnant women receiving ARTs for PMTCT
+	844	Socioeconomic	Improved sanitation facilities	Share with access
+	1491	Socioeconomic	Improved sanitation facilities, rural	Share with access
+		Socioeconomic	Improved sanitation facilities	Number of people without
+		Socioeconomic	Improved sanitation facilities, rural	Number of people without
+	133	Socioeconomic	Improved water facilities	Share with access
+	1500	Socioeconomic	Improved water facilities, rural	Share with access
+		Socioeconomic	Improved water facilities	Number of people without
+		Socioeconomic	Improved water facilities, rural	Number of people without
+	2050	Socioeconomic	Basic handwashing facilities	Share with access
+	4541	Socioeconomic	Basic handwashing facilities, rural	Share with access
+		Socioeconomic	Basic handwashing facilities	Number of people without
+		Socioeconomic	Basic handwashing facilities, rural	Number of people without
+		Maternal health	Institutional deliveries
+	1375	Maternal health	Need for family planning satisfied by modern methods
+	4542	Maternal health	Postnatal health check for mother
+	1596	Maternal health	Skilled attendant at delivery		UNICEF/WHO
+	3483	Maternal health	Skilled attendant at delivery		IHME
+	794	Child health	Vitamin-A supplementation
+	1915	Health systems	Government expenditure on health
+	555	Health systems	Health expenditure per capita
+	4543	Health systems	Healthcare access and quality index		IHME
+	4544	Health systems	Healthcare access and quality index		UN/World Bank
+	1965	Health systems	Nurses and midwifes per 1,000
+	1966	Health systems	Doctors per 1,000
+	4545	Health systems	Community health workers per 1,000
+	1192	Demographic change	Births	Per 1,000
+	230	Demographic change	Fertility rate
+	3592	Demographic change	Births	Number of births
+	4546	Demographic change	Population
+	2994	Demographic change	Population density
+	225	Socioeconomic	GDP per capita (PPP)
+	3030	Socioeconomic	GDP per capita (US$)
+	4547	Socioeconomic	GINI Index
+	2699	Socioeconomic	Adult literacy rate
+	4548	Socioeconomic	Female literacy rate
+	4549	Socioeconomic	Net ODA received per capita
+	132	Socioeconomic	Share living in extreme poverty
+		Socioeconomic	Socio-demographic Index
+	311	Socioeconomic	Undernourishment	Share of people undernourished
+	3984	Socioeconomic	Undernourishment	Number of people undernourished
+	598	Socioeconomic	Electricity access	Share of people with electricity
+	3264	Socioeconomic	Electricity access	Number of people without
+	488	Socioeconomic	CO2 emissions
+	486	Socioeconomic	CO2 emissions per capita
+	586	Socioeconomic	Energy use per capita
+	319	Education	Mean years of schooling
+	4550	Education	Mean years of schooling, women
+	4551	Education	Mean years of schooling, men
+	2469	Education	Working hours
+	3487	Education	Expected years of schooling
+	1917	Education	Government spending on education
