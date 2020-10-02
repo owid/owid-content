@@ -60,8 +60,17 @@ switcher
 	3876	Child health	Children with fever receiving any antimalarials
 	1372	Maternal health	Prevalence of modern contraceptives
 	797	Child health	Diarrhea treatment w/ ORT and continued feeding
-	699	Infectious diseases	HIV prevalence		UNICEF
-	2286	Infectious diseases	HIV prevalence		IHME
+	699	Infectious diseases	HIV/AIDS	Prevalence	UNAIDS
+	2286	Infectious diseases	HIV/AIDS	Prevalence	IHME
+	1828	Infectious diseases	HIV/AIDS	Death rate	IHME
+	4576	Infectious diseases	HIV/AIDS	Number of deaths	UNAIDS
+	4575	Infectious diseases	HIV/AIDS	Number of deaths	IHME
+	2926	Infectious diseases	Malaria	New infections	IHME
+	1821	Infectious diseases	Malaria	New infections	WHO
+	1822	Infectious diseases	Malaria	Death rate	IHME
+	4577	Infectious diseases	Malaria	Number of deaths	IHME
+	1831	Infectious diseases	Tuberculosis	Death rate
+	3613	Infectious diseases	Tuberculosis	Number of deaths
 	2285	Maternal health	HIV+ pregnant women receiving ARTs for PMTCT
 	844	Socioeconomic	Improved sanitation facilities	Share with access
 	1491	Socioeconomic	Improved sanitation facilities, rural	Share with access
@@ -112,15 +121,6 @@ switcher
 	2469	Education	Working hours
 	3487	Education	Expected years of schooling
 	1917	Education	Government spending on education
-	4548	Socioeconomic	Female literacy rate
-	4549	Socioeconomic	Net ODA received per capita
-	132	Socioeconomic	Share living in extreme poverty
-		Socioeconomic	Socio-demographic Index
-	311	Socioeconomic	Undernourishment	Share of people undernourished
-	3984	Socioeconomic	Undernourishment	Number of people undernourished
-	598	Socioeconomic	Electricity access	Share of people with electricity
-	3264	Socioeconomic	Electricity access	Number of people without
-	488	Socioeconomic	CO2 emissions
 	486	Socioeconomic	CO2 emissions per capita
 	586	Socioeconomic	Energy use per capita
 	319	Education	Mean years of schooling
