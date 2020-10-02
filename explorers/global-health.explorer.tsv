@@ -30,43 +30,28 @@ switcher
 		Child health	Childhood wasting	Number of children	UNICEF/WHO
 	2968	Demographic change	Life expectancy at birth
 	471	Vaccination	DTP3 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
-		Vaccination	DTP3 coverage	Share of one-year-olds vaccinated	IHME
-		Vaccination	DTP3 coverage	Number of children not vaccinated	UNICEF/WHO
-		Vaccination	DTP3 coverage	Number of children not vaccinated	IHME
+	4563	Vaccination	DTP3 coverage	Number of children not vaccinated	UNICEF/WHO
 	1546	Vaccination	HepB3 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
-		Vaccination	HepB3 coverage	Share of one-year-olds vaccinated	IHME
-		Vaccination	HepB3 coverage	Number of children not vaccinated	UNICEF/WHO
-		Vaccination	HepB3 coverage	Number of children not vaccinated	IHME
+	4565	Vaccination	HepB3 coverage	Number of children not vaccinated	UNICEF/WHO
 	3603	Vaccination	Hib3 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
-		Vaccination	Hib3 coverage	Share of one-year-olds vaccinated	IHME
-		Vaccination	Hib3 coverage	Number of children not vaccinated	UNICEF/WHO
-		Vaccination	Hib3 coverage	Number of children not vaccinated	IHME
-		Vaccination	IPV1 coverage	Share of one-year-olds vaccinated
-		Vaccination	IPV1 coverage	Number of children not vaccinated
+	4566	Vaccination	Hib3 coverage	Number of children not vaccinated	UNICEF/WHO
+	4561	Vaccination	IPV1 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
+	4567	Vaccination	IPV1 coverage	Number of children not vaccinated	UNICEF/WHO
 	299	Vaccination	MCV1 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
-		Vaccination	MCV1 coverage	Share of one-year-olds vaccinated	IHME
-		Vaccination	MCV1 coverage	Number of children not vaccinated	UNICEF/WHO
-		Vaccination	MCV1 coverage	Number of children not vaccinated	IHME
+	4568	Vaccination	MCV1 coverage	Number of children not vaccinated	UNICEF/WHO
 	3887	Vaccination	MCV2 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
-		Vaccination	MCV2 coverage	Share of one-year-olds vaccinated	IHME
-		Vaccination	MCV2 coverage	Number of children not vaccinated	UNICEF/WHO
-		Vaccination	MCV2 coverage	Number of children not vaccinated	IHME
 	3594	Vaccination	PCV3 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
-		Vaccination	PCV3 coverage	Share of one-year-olds vaccinated	IHME
-		Vaccination	PCV3 coverage	Number of children not vaccinated	UNICEF/WHO
-		Vaccination	PCV3 coverage	Number of children not vaccinated	IHME
+	4572	Vaccination	PCV3 coverage	Number of children not vaccinated	UNICEF/WHO
 	1068	Vaccination	Pol3 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
-		Vaccination	Pol3 coverage	Share of one-year-olds vaccinated	IHME
-		Vaccination	Pol3 coverage	Number of children not vaccinated	UNICEF/WHO
-		Vaccination	Pol3 coverage	Number of children not vaccinated	IHME
+	4569	Vaccination	Pol3 coverage	Number of children not vaccinated	UNICEF/WHO
 	3553	Vaccination	RotaC coverage	Share of one-year-olds vaccinated	UNICEF/WHO
-		Vaccination	RotaC coverage	Share of one-year-olds vaccinated	IHME
-		Vaccination	RotaC coverage	Number of children not vaccinated	UNICEF/WHO
-		Vaccination	RotaC coverage	Number of children not vaccinated	IHME
+	4571	Vaccination	RotaC coverage	Number of children not vaccinated	UNICEF/WHO
 	1547	Vaccination	BCG coverage	Share of one-year-olds vaccinated	UNICEF/WHO
-		Vaccination	BCG coverage	Share of one-year-olds vaccinated	IHME
-		Vaccination	BCG coverage	Number of children not vaccinated	UNICEF/WHO
-		Vaccination	BCG coverage	Number of children not vaccinated	IHME
+	4564	Vaccination	BCG coverage	Number of children not vaccinated	UNICEF/WHO
+	4562	Vaccination	YFV coverage	Share of one-year-olds vaccinated	UNICEF/WHO
+	4570	Vaccination	YFV coverage	Number of children not vaccinated	UNICEF/WHO
+	4573	Vaccination	RCV1 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
+	4574	Vaccination	RCV1 coverage	Number of children not vaccinated	UNICEF/WHO
 	3872	Maternal health	Antenatal visits - 1+ visits
 	3873	Maternal health	Antenatal visits - 4+ visits
 	3874	Child health	Exclusive breastfeeding rate
@@ -75,8 +60,8 @@ switcher
 	3876	Child health	Children with fever receiving any antimalarials
 	1372	Maternal health	Prevalence of modern contraceptives
 	797	Child health	Diarrhea treatment w/ ORT and continued feeding
-	699	Maternal health	HIV prevalence		UNICEF
-	2286	Maternal health	HIV prevalence		IHME
+	699	Infectious diseases	HIV prevalence		UNICEF
+	2286	Infectious diseases	HIV prevalence		IHME
 	2285	Maternal health	HIV+ pregnant women receiving ARTs for PMTCT
 	844	Socioeconomic	Improved sanitation facilities	Share with access
 	1491	Socioeconomic	Improved sanitation facilities, rural	Share with access
@@ -90,7 +75,6 @@ switcher
 	4541	Socioeconomic	Basic handwashing facilities, rural	Share with access
 		Socioeconomic	Basic handwashing facilities	Number of people without
 		Socioeconomic	Basic handwashing facilities, rural	Number of people without
-		Maternal health	Institutional deliveries
 	1375	Maternal health	Need for family planning satisfied by modern methods
 	4542	Maternal health	Postnatal health check for mother
 	1596	Maternal health	Skilled attendant at delivery		UNICEF/WHO
@@ -112,6 +96,22 @@ switcher
 	3030	Socioeconomic	GDP per capita (US$)
 	4547	Socioeconomic	GINI Index
 	2699	Socioeconomic	Adult literacy rate
+	4548	Socioeconomic	Female literacy rate
+	4549	Socioeconomic	Net ODA received per capita
+	132	Socioeconomic	Share living in extreme poverty
+	311	Socioeconomic	Undernourishment	Share of people undernourished
+	3984	Socioeconomic	Undernourishment	Number of people undernourished
+	598	Socioeconomic	Electricity access	Share of people with electricity
+	3264	Socioeconomic	Electricity access	Number of people without
+	488	Socioeconomic	CO2 emissions
+	486	Socioeconomic	CO2 emissions per capita
+	586	Socioeconomic	Energy use per capita
+	319	Education	Mean years of schooling
+	4550	Education	Mean years of schooling, women
+	4551	Education	Mean years of schooling, men
+	2469	Education	Working hours
+	3487	Education	Expected years of schooling
+	1917	Education	Government spending on education
 	4548	Socioeconomic	Female literacy rate
 	4549	Socioeconomic	Net ODA received per capita
 	132	Socioeconomic	Share living in extreme poverty
