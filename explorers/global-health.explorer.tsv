@@ -82,8 +82,8 @@ switcher
 	4584	Socioeconomic	Improved water facilities, rural	Number of people without
 	2050	Socioeconomic	Basic handwashing facilities	Share with access
 	4541	Socioeconomic	Basic handwashing facilities, rural	Share with access
-		Socioeconomic	Basic handwashing facilities	Number of people without
-		Socioeconomic	Basic handwashing facilities, rural	Number of people without
+	4585	Socioeconomic	Basic handwashing facilities	Number of people without
+	4586	Socioeconomic	Basic handwashing facilities, rural	Number of people without
 	1375	Maternal health	Access to modern contraceptives
 	4542	Maternal health	Postnatal health check
 	1596	Maternal health	Skilled attendant at delivery		UNICEF/WHO
