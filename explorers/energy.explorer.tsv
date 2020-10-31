@@ -5,7 +5,7 @@ defaultView	?tab=chart&country=United%20States~United%20Kingdom~China~World~Indi
 subNavId	energy
 subNavCurrentId	energy-data-explorer
 switcher
-	chartId	Total or Breakdown	Select a source Dropdown	Energy or Electricity	Metric Dropdown
+	chartId	Total or Breakdown Radio	Select a source Dropdown	Energy or Electricity Radio	Metric Dropdown
 	3868	Total		Primary energy	Annual consumption
 	586	Total		Primary energy	Per capita consumption
 	4287	Total		Primary energy	% change from previous year
