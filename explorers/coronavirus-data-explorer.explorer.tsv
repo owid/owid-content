@@ -18,9 +18,9 @@ switcher
 	Daily new confirmed COVID-19 cases	The number of confirmed cases is lower than the number of actual cases; the main reason for that is limited testing.	Confirmed cases	New per day	FALSE	TRUE	mega	new_cases	TRUE	days_since_30_cases_per_day	ScatterPlot
 	Daily new confirmed COVID-19 cases	The number of confirmed cases is lower than the number of actual cases; the main reason for that is limited testing.	Confirmed cases	New per day	FALSE	FALSE	mega	new_cases	TRUE		LineChart
 	Weekly confirmed COVID-19 cases	Weekly confirmed cases refer to the cumulative number of confirmed cases over the previous week.	Confirmed cases	Weekly	FALSE	FALSE	mega	weekly_cases	TRUE		LineChart
-	TODO - Week by week change of confirmed COVID-19 cases	The weekly growth rate on any given date measures the percentage change in number of confirmed cases over the last seven days relative to the number in the previous seven days.	Confirmed cases	Weekly change	FALSE	FALSE	mega	total_tests	FALSE		LineChart
+	Week by week change of confirmed COVID-19 cases	The weekly growth rate on any given date measures the percentage change in number of confirmed cases over the last seven days relative to the number in the previous seven days.	Confirmed cases	Weekly change	FALSE	FALSE	mega	weekly_cases_change	FALSE		LineChart
 	Biweekly confirmed COVID-19 cases	Biweekly confirmed cases refer to the cumulative number of confirmed cases over the previous two weeks.	Confirmed cases	Biweekly	FALSE	FALSE	mega	biweekly_cases	TRUE		LineChart
-	TODO - Biweekly change of confirmed COVID-19 cases	The biweekly growth rate on any given date measures the percentage change in the number of new confirmed cases over the last 14 days relative to the number in the previous 14 days.	Confirmed cases	Biweekly change	FALSE	FALSE	mega	total_tests	FALSE		LineChart
+	Biweekly change of confirmed COVID-19 cases	The biweekly growth rate on any given date measures the percentage change in the number of new confirmed cases over the last 14 days relative to the number in the previous 14 days.	Confirmed cases	Biweekly change	FALSE	FALSE	mega	biweekly_cases_change	FALSE		LineChart
 	Cumulative confirmed COVID-19 deaths per million people	Limited testing and challenges in the attribution of the cause of death means that the number of confirmed deaths may not be an accurate count of the true number of deaths from COVID-19.	Confirmed deaths	Cumulative	TRUE	TRUE	mega	total_deaths_per_million	TRUE	days_since_point_1_death_per_million	ScatterPlot
 	Cumulative confirmed COVID-19 deaths per million people	Limited testing and challenges in the attribution of the cause of death means that the number of confirmed deaths may not be an accurate count of the true number of deaths from COVID-19.	Confirmed deaths	Cumulative	TRUE	FALSE	mega	total_deaths_per_million	TRUE		LineChart
 	Cumulative confirmed COVID-19 deaths	Limited testing and challenges in the attribution of the cause of death means that the number of confirmed deaths may not be an accurate count of the true number of deaths from COVID-19.	Confirmed deaths	Cumulative	FALSE	TRUE	mega	total_deaths	TRUE	days_since_5_deaths	ScatterPlot
@@ -34,9 +34,9 @@ switcher
 	Daily new confirmed COVID-19 deaths	Limited testing and challenges in the attribution of the cause of death means that the number of confirmed deaths may not be an accurate count of the true number of deaths from COVID-19.	Confirmed deaths	New per day	FALSE	TRUE	mega	new_deaths	TRUE	days_since_5_daily_deaths	ScatterPlot
 	Daily new confirmed COVID-19 deaths	Limited testing and challenges in the attribution of the cause of death means that the number of confirmed deaths may not be an accurate count of the true number of deaths from COVID-19.	Confirmed deaths	New per day	FALSE	FALSE	mega	new_deaths	TRUE		LineChart
 	Weekly confirmed COVID-19 deaths	Weekly confirmed deaths refer to the cumulative number of confirmed deaths over the previous week.	Confirmed deaths	Weekly	FALSE	FALSE	mega	weekly_deaths	TRUE		LineChart
-	TODO - Week by week change of confirmed COVID-19 deaths 	The weekly growth rate on any given date measures the percentage change in number of confirmed deaths over the last seven days relative to the number in the previous seven days.	Confirmed deaths	Weekly change	FALSE	FALSE	mega	total_tests	FALSE		LineChart
+	Week by week change of confirmed COVID-19 deaths 	The weekly growth rate on any given date measures the percentage change in number of confirmed deaths over the last seven days relative to the number in the previous seven days.	Confirmed deaths	Weekly change	FALSE	FALSE	mega	weekly_deaths_change	FALSE		LineChart
 	Biweekly confirmed COVID-19 deaths	Biweekly confirmed deaths refer to the cumulative number of confirmed deaths over the previous two weeks.	Confirmed deaths	Biweekly	FALSE	FALSE	mega	biweekly_deaths	TRUE		LineChart
-	TODO - Biweekly change of confirmed COVID-19 deaths	The biweekly growth rate on any given date measures the percentage change in the number of new confirmed deaths over the last 14 days relative to the number in the previous 14 days.	Confirmed deaths	Biweekly change	FALSE	FALSE	mega	total_tests	FALSE		LineChart
+	Biweekly change of confirmed COVID-19 deaths	The biweekly growth rate on any given date measures the percentage change in the number of new confirmed deaths over the last 14 days relative to the number in the previous 14 days.	Confirmed deaths	Biweekly change	FALSE	FALSE	mega	biweekly_deaths_change	FALSE		LineChart
 	Cumulative COVID-19 tests per 1,000 people		Tests	Cumulative	TRUE	TRUE	mega	total_tests_per_thousand	TRUE	days_since_point_1_death_per_million	ScatterPlot
 	Cumulative COVID-19 tests per 1,000 people		Tests	Cumulative	TRUE	FALSE	mega	total_tests_per_thousand	TRUE		LineChart
 	Cumulative COVID-19 tests		Tests	Cumulative	FALSE	TRUE	mega	total_tests	TRUE	days_since_point_1_death_per_million	ScatterPlot
@@ -50,9 +50,9 @@ switcher
 	Daily new COVID-19 tests		Tests	New per day	FALSE	TRUE	mega	new_tests	TRUE	days_since_point_1_death_per_million	ScatterPlot
 	Daily new COVID-19 tests		Tests	New per day	FALSE	FALSE	mega	new_tests	TRUE		LineChart
 	Cumulative tests conducted per confirmed case of COVID-19	The number of tests divided by the number of confirmed cases. Not all countries report testing data on a daily basis.	Tests per confirmed case	Cumulative	FALSE	FALSE	mega	tests_per_case	TRUE		LineChart
-	TODO - Tests conducted per confirmed case of COVID-19	Shown is the rolling 7-day average. The number of tests divided by the number of confirmed cases. Not all countries report testing data on a daily basis.	Tests per confirmed case	7-day rolling average	FALSE	FALSE	mega	total_tests	TRUE		LineChart
+	Tests conducted per confirmed case of COVID-19	Shown is the rolling 7-day average. The number of tests divided by the number of confirmed cases. Not all countries report testing data on a daily basis.	Tests per confirmed case	7-day rolling average	FALSE	FALSE	mega	tests_per_case_smoothed	TRUE		LineChart
 	The share of COVID-19 tests that are positive 	The number of confirmed cases divided by the number of tests, expressed as a percentage. Tests may refer to the number of tests performed or the number of people tested – depending on which is reported by the particular country.	Share of positive tests	Cumulative	FALSE	FALSE	mega	positive_rate	FALSE		LineChart
-	TODO - The share of daily COVID-19 tests that are positive	Shown is the rolling 7-day average. The number of confirmed cases divided by the number of tests, expressed as a percentage. Tests may refer to the number of tests performed or the number of people tested – depending on which is reported by the particular country.	Share of positive tests	7-day rolling average	FALSE	FALSE	mega	total_tests	FALSE		LineChart
+	The share of daily COVID-19 tests that are positive	Shown is the rolling 7-day average. The number of confirmed cases divided by the number of tests, expressed as a percentage. Tests may refer to the number of tests performed or the number of people tested – depending on which is reported by the particular country.	Share of positive tests	7-day rolling average	FALSE	FALSE	mega	positive_rate_smoothed	FALSE		LineChart
 	Case fatality rate of the ongoing COVID-19 pandemic	The Case Fatality Rate (CFR) is the ratio between confirmed deaths and confirmed cases. During an outbreak of a pandemic the CFR is a poor measure of the mortality risk of the disease. We explain this in detail at OurWorldInData.org/Coronavirus	Case Fatality Rate	Cumulative	FALSE	FALSE	mega	cfr	FALSE		LineChart
 
 
@@ -91,7 +91,13 @@ columns	mega
 	days_since_100_cases	Days since the 100th confirmed case	Integer	timeSinceEntityExceededThreshold date location total_cases 100
 	days_since_30_cases_per_day	Days since confirmed cases first reached 30 per day	Integer	timeSinceEntityExceededThreshold date location new_cases 30
 	days_since_1_case_per_million	Days since the total confirmed cases per million people reached 1	Integer	timeSinceEntityExceededThreshold date location total_cases_per_million 1
-	weekly_cases	Weekly confirmed COVID-19 cases	Integer	rollingAverage date location new_cases 7
-	biweekly_cases	Biweekly confirmed COVID-19 cases	Integer	rollingAverage date location new_cases 14
-	weekly_deaths	Weekly confirmed COVID-19 deaths	Integer	rollingAverage date location new_deaths 7
-	biweekly_deaths	Biweekly confirmed COVID-19 deaths	Integer	rollingAverage date location new_deaths 14
+	weekly_cases	Weekly confirmed COVID-19 cases	Integer	rollingAverage date location new_cases_smoothed 7
+	biweekly_cases	Biweekly confirmed COVID-19 cases	Integer	rollingAverage date location new_cases_smoothed 14
+	weekly_deaths	Weekly confirmed COVID-19 deaths	Integer	rollingAverage date location new_deaths_smoothed 7
+	biweekly_deaths	Biweekly confirmed COVID-19 deaths	Integer	rollingAverage date location new_deaths_smoothed 14
+	tests_per_case_smoothed	Tests conducted per confirmed case of COVID-19	Ratio	new_tests_smoothed divideBy new_cases_smoothed
+	positive_rate_smoothed	The share of daily COVID-19 tests that are positive	Percentage	rollingAverage date location positive_rate 7
+	weekly_cases_change	Week by week change of confirmed COVID-19 cases	Percentage	percentChange date location weekly_cases 7
+	biweekly_cases_change	Biweekly change of confirmed COVID-19 cases	Percentage	percentChange date location biweekly_cases 14
+	weekly_deaths_change	Week by week change of confirmed COVID-19 deaths 	Percentage	percentChange date location weekly_deaths 7
+	biweekly_deaths_change	Biweekly change of confirmed COVID-19 deaths	Percentage	percentChange date location biweekly_deaths 14
