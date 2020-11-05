@@ -53,7 +53,7 @@ switcher
 	Daily new COVID-19 tests per 1,000 people		Tests	New per day	true	false	mega	new_tests_per_thousand	true		LineChart	true
 	Daily new COVID-19 tests		Tests	New per day	false	true	mega	new_tests	true	days_since_point_1_death_per_million	ScatterPlot	true
 	Daily new COVID-19 tests		Tests	New per day	false	false	mega	new_tests	true		LineChart	true
-	Cumulative tests conducted per confirmed case of COVID-19	The number of tests divided by the number of confirmed cases. Not all countries report testing data on a daily basis.	Tests per confirmed case	Cumulative	false	false	mega	tests_per_case	true		LineChart	true
+	Cumulative tests conducted per confirmed case of COVID-19	The number of tests divided by the number of confirmed cases. Not all countries report testing data on a daily basis.	Tests per confirmed case	Cumulative	false	false	mega	cumulative_tests_per_case	true		LineChart	true
 	Tests conducted per confirmed case of COVID-19	Shown is the rolling 7-day average. The number of tests divided by the number of confirmed cases. Not all countries report testing data on a daily basis.	Tests per confirmed case	7-day rolling average	false	false	mega	tests_per_case_smoothed	true		LineChart	true
 	The share of COVID-19 tests that are positive	The number of confirmed cases divided by the number of tests, expressed as a percentage. Tests may refer to the number of tests performed or the number of people tested – depending on which is reported by the particular country.	Share of positive tests	Cumulative	false	false	mega	positive_rate_cumulative	false		LineChart	TRUE
 	The share of daily COVID-19 tests that are positive	Shown is the rolling 7-day average. The number of confirmed cases divided by the number of tests, expressed as a percentage. Tests may refer to the number of tests performed or the number of people tested – depending on which is reported by the particular country.	Share of positive tests	7-day rolling average	false	false	mega	positive_rate	false		LineChart	TRUE
@@ -111,3 +111,4 @@ columns	mega
 	weekly_deaths_change	Week by week change of confirmed COVID-19 deaths	Percentage	percentChange date location weekly_deaths 7
 	biweekly_deaths_change	Biweekly change of confirmed COVID-19 deaths	Percentage	percentChange date location biweekly_deaths 14
 	positive_rate_cumulative	The share of COVID-19 tests that are positive	Percentage	total_cases asPercentageOf total_tests
+	cumulative_tests_per_case	Cumulative tests conducted per confirmed case of COVID-19	Ratio	total_tests divideBy total_cases
