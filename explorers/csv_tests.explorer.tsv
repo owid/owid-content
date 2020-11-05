@@ -1,8 +1,8 @@
 title	Data Explorer
 isPublished	false
 switcher
-	table	Device Radio	ySlugs
-	literacy	Literacy	Literacy-rate-CIA-Factbook-2016
+	table	Device Radio	ySlugs	type
+	literacy	Literacy	Literacy-rate-CIA-Factbook-2016	DiscreteBar
 
 
 table	literacy	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/%20Literate%20world%20population%20(OurWorldInData%20based%20on%20OECD%20and%20UNESCO)/%20Literate%20world%20population%20(OurWorldInData%20based%20on%20OECD%20and%20UNESCO).csv
