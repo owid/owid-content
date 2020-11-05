@@ -1,6 +1,6 @@
 title	Data Explorer
 isPublished	false
-switcher			ySlugs
+switcher			yColumnSlugs
 	table	Device Radio	Literacy-rate-CIA-Factbook-2016
 	literacy	Literacy
 
