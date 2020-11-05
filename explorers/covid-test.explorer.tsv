@@ -142,3 +142,20 @@ columns	mega
 	positive_rate_cumulative_filtered	Positive test rate	DecimalPercentage	positive_rate_cumulative where location isNot Peru or Ecuador or Brazil or Costa Rica or Colombia or Argentina
 	positive_rate_filtered	Positive test rate	DecimalPercentage	positive_rate where location isNot Peru or Ecuador or Brazil or Costa Rica or Colombia or Argentina
 	tests_per_case_smoothed_filtered_gt_1	Tests per case	Ratio	tests_per_case_smoothed_filtered where tests_per_case_smoothed_filtered isGreaterThanOrEqual 1
+	hosp_patients	Number of COVID-19 patients in hospital	Numeric
+	weekly_hosp_admissions	Weekly new hospital admissions for COVID-19	Numeric
+	icu_patients	Number of COVID-19 patients in intensive care (ICU)	Numeric
+	weekly_hosp_admissions_per_million	Weekly ICU admissions for COVID-19	Numeric
+	hosp_patients_per_million	Number of COVID-19 patients in hospital per million	Numeric
+	weekly_icu_admissions	Weekly new hospital admissions for COVID-19 per million	Numeric
+	icu_patients_per_million	Number of COVID-19 patients in ICU per million	Numeric
+	weekly_icu_admissions_per_million	Weekly ICU admissions for COVID-19 per million	Numeric
+
+columns	policy
+	slug	name	type
+	Country	Country name	EntityName
+	Year	Day	Date
+	Stringency Index (OxBSG)	COVID-19: Government Response Stringency Index	Integer
+	Containment and Health Index (OxBSG)	COVID-19: Containment and Health Index	Integer
+	School closures (OxBSG)	School closures during the COVID-19 pandemic	Integer
+	Workplace closures (OxBSG)	Workplace closures during the COVID-19 pandemic	Integer
