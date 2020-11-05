@@ -1,4 +1,5 @@
-title	Data Explorer
+title	Just Another Test Data Explorer
+subtitle	Testing loading from multiple CSVs
 isPublished	false
 defaultView	?country=United%20States~Canada
 switcher
