@@ -92,7 +92,8 @@ columns	mega
 	new_deaths_per_million	New deaths (per 1M)	Ratio
 	new_cases_per_million	New cases (per 1M)	Ratio
 	iso_code	Code	EntityCode
-	cfr	Case Fatality Rate	Percentage	total_deaths asPercentageOf total_cases
+	total_cases_above_100		Integer	total_cases where total_cases isGreaterThan 100
+	cfr	Case Fatality Rate	Percentage	total_deaths asPercentageOf total_cases_above_100
 	days_since_5_deaths	Days since the 5th total confirmed death	Integer	timeSinceEntityExceededThreshold date location total_deaths 5
 	days_since_5_daily_deaths	Days since 5 daily new deaths first reported	Integer	timeSinceEntityExceededThreshold date location new_deaths 5
 	days_since_point_1_death_per_million	Days since total confirmed deaths reached 0.1 per million	Integer	timeSinceEntityExceededThreshold date location total_deaths_per_million .1
