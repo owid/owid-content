@@ -5,11 +5,11 @@ subtitle	Download the complete <em>Our World in Data</em> <a href="https://githu
 hideAlertBanner	true
 subNavId	coronavirus
 subNavCurrentId	data-explorer
-
+table	mega	https://covid.ourworldindata.org/data/owid-covid-data.csv
 table	yougov	https://owid.cloud/admin/datasets/5202.csv
-
-
-
+table	policy	https://github.com/owid/covid-19-data/blob/master/public/data/bsg/COVID%20Government%20Response%20(OxBSG).csv
+table	excess	https://github.com/owid/owid-datasets/blob/master/datasets/Excess%20Mortality%20Data%20%E2%80%93%20HMD%20(2020)/Excess%20Mortality%20Data%20%E2%80%93%20HMD%20(2020).csv
+table	mobility	https://github.com/owid/covid-19-data/blob/master/public/data/gmobility/Google%20Mobility%20Trends%20(2020).csv
 switcher
 	title	subtitle	Metric Dropdown	Interval Dropdown	Policy/Behaviour/Mobility Dropdown	Relative to Population Checkbox	Align outbreaks Checkbox	table	ySlugs	yScaleToggle	xSlug	type	hasMapTab
 	Cumulative confirmed COVID-19 cases per million people	The number of confirmed cases is lower than the number of actual cases; the main reason for that is limited testing.	Confirmed cases	Cumulative		true	false	mega	total_cases_per_million	true		LineChart	true
@@ -85,8 +85,12 @@ switcher
 	Transit stations: How did the number of visitors change since the beginning of the pandemic?	Change in visitor numbers is measured relative to a baseline day; a baseline day is the median value from the 5‑week period between Jan 3rd and Feb 6th 2020. This index is smoothed to the rolling 7-day average.	Mobility		Transit Stations	false	false	mobility	Transit Stations	false		LineChart	true
 	Workplaces: How did the number of visitors change since the beginning of the pandemic?	Change in visitor numbers is measured relative to a baseline day; a baseline day is the median value from the 5‑week period between Jan 3rd and Feb 6th 2020. This index is smoothed to the rolling 7-day average.	Mobility		Workplaces	false	false	mobility	Workplaces	false		LineChart	true
 	Residential areas: How did the time spent at home change since the beginningof the pandemic?	Change in visitor numbers is measured relative to a baseline day; a baseline day is the median value from the 5‑week period between Jan 3rd and Feb 6th 2020. This index is smoothed to the rolling 7-day average.	Mobility		Residential	false	false	mobility	Residential	false		LineChart	true
-
-table	mega	https://covid.ourworldindata.org/data/owid-covid-data.csv
+	Face-mask wearing		Public behaviors		Face-mask wearing	false	false	yougov	Worn a face mask outside your home (e.g. when on public transport, going to a supermarket, going to a main road) (% who answered 'Frequently', 'Always')	false		LineChart	true
+	Handwashing		Public behaviors		Handwashing	false	false	yougov	Washed hands with soap and water (% who answered 'Frequently', 'Always')	false		LineChart	true
+	Hand sanitiser		Public behaviors		Hand sanitiser	false	false	yougov	Used hand sanitiser (% who answered 'Frequently', 'Always')	false		LineChart	true
+	Covered nose and mouth when coughing		Public behaviors		Covered nose and mouth when coughing	false	false	yougov	Covered your nose and mouth when sneezing or coughing (% who answered 'Frequently', 'Always')	false		LineChart	true
+	Avoided contact with symptomatic people		Public behaviors		Avoided contact with symptomatic people	false	false	yougov	Avoided contact with people who have symptoms or you think may have been exposed to the coronavirus (% who answered 'Frequently', 'Always')	false		LineChart	true
+	Avoided going out		Public behaviors		Avoided going out	false	false	yougov	Avoided going out in general (% who answered 'Frequently', 'Always')	false		LineChart	true
 
 columns	mega
 	slug	name	type	transform	annotationsColumnSlug
@@ -158,8 +162,6 @@ columns	mega
 	icu_patients_per_million	Number of COVID-19 patients in ICU per million	Numeric
 	weekly_icu_admissions_per_million	Weekly ICU admissions for COVID-19 per million	Numeric
 
-table	policy	https://github.com/owid/covid-19-data/blob/master/public/data/bsg/COVID%20Government%20Response%20(OxBSG).csv
-
 columns	policy
 	slug	name	type
 	Country	Country name	EntityName
@@ -168,8 +170,6 @@ columns	policy
 	Containment and Health Index (OxBSG)	COVID-19: Containment and Health Index	Numeric
 	School closures (OxBSG)	School closures during the COVID-19 pandemic	Numeric
 	Workplace closures (OxBSG)	Workplace closures during the COVID-19 pandemic	Numeric
-
-table	mobility	https://github.com/owid/covid-19-data/blob/master/public/data/gmobility/Google%20Mobility%20Trends%20(2020).csv
 
 columns	mobility
 	slug	name	type
@@ -182,8 +182,6 @@ columns	mobility
 	Workplaces	Workplaces: How did the number of visitors change since the beginning of the pandemic?	Numeric
 	Residential	Residential areas: How did the time spent at home change since the beginningof the pandemic?	Numeric
 
-table	excess	https://github.com/owid/owid-datasets/blob/master/datasets/Excess%20Mortality%20Data%20%E2%80%93%20HMD%20(2020)/Excess%20Mortality%20Data%20%E2%80%93%20HMD%20(2020).csv
-
 columns	excess
 	slug	name	type
 	Entity	Country name	EntityName
@@ -194,3 +192,64 @@ columns	excess
 	Excess mortality P-scores, ages 65–74	Excess mortality during COVID-19: The number of deaths from all causes compared to previous years, 65-74 years	DecimalPercentage
 	Excess mortality P-scores, ages 75–85	Excess mortality during COVID-19: The number of deaths from all causes compared to previous years, 75-84 years	DecimalPercentage
 	Excess mortality P-scores, ages 85+	Excess mortality during COVID-19: The number of deaths from all causes compared to previous years, 85+ years	DecimalPercentage
+
+columns	yougov
+	slug	name	type
+	Entity	Country name	EntityName
+	Year	Day	Date
+	About how many people from your household have you come into physical contact with (within 2 meters / 6 feet)?	Contact with household members	DecimalPercentage
+	Not including those people in your household, about how many people have you come into physical contact with (within 2 meters / 6 feet)?	Physical contact with others	DecimalPercentage
+	How many times did you leave your home yesterday? If you are not staying at home, how many times did you leave where you are staying yesterday?	Leaving home	DecimalPercentage
+	Thinking about yesterday‚ about how many times, would you say you washed your hands with soap or used hand sanitiser?	Handwashing	DecimalPercentage
+	Thinking about the 7 days before your symptoms started, had you been in physical contact (within 2 meters / 6 feet) with someone who has a confirmed diagnosis of coronavirus (Covid-19), or someone with the relevant symptoms. (% who answered 'Yes')		DecimalPercentage
+	Since developing those symptoms, have you self-isolated yourself on each of the following 7 days? (% who answered 'Frequently', 'Always')	Self-isolation after symptoms	DecimalPercentage
+	And in the last 7 days, have you physically been to the premises of a doctor, nurse, pharmacy or hospital as a result of having those symptoms? (% who answered 'Yes')	Medical visit after symptoms	DecimalPercentage
+	And thinking about the 7 days before your symptoms started, did you travel to a location where coronavirus has been reported? (% who answered 'Yes')		DecimalPercentage
+	Thinking about the next 7 days‚ would you isolate yourself after feeling unwell or having any of the following new symptoms: a dry cough, fever, loss of sense of smell, loss of sense of taste, shortness of breath or difficulty breathing? (% who answered 'Yes')	Willingness to self-isolate	DecimalPercentage
+	If you were advised to do so by a healthcare professional or public health authority, would it be difficult for you to self-isolate for 7 days? (% who answered 'Somewhat difficult', 'Very difficult')	Difficulty self-isolating	DecimalPercentage
+	If you were advised to do so by a healthcare professional or public health authority, would you be willing to self-isolate for 7 days? (% who answered 'Somewhat willing', 'Very willing')		DecimalPercentage
+	Worn a face mask outside your home (e.g. when on public transport, going to a supermarket, going to a main road) (% who answered 'Frequently', 'Always')	Face-mask wearing	DecimalPercentage
+	Washed hands with soap and water (% who answered 'Frequently', 'Always')	Handwashing	DecimalPercentage
+	Used hand sanitiser (% who answered 'Frequently', 'Always')	Hand sanitiser	DecimalPercentage
+	Covered your nose and mouth when sneezing or coughing (% who answered 'Frequently', 'Always')	Covered nose and mouth when coughing	DecimalPercentage
+	Avoided contact with people who have symptoms or you think may have been exposed to the coronavirus (% who answered 'Frequently', 'Always')	Avoided contact with symptomatic people	DecimalPercentage
+	Avoided going out in general (% who answered 'Frequently', 'Always')	Avoided going out	DecimalPercentage
+	Avoided going to hospital or other healthcare settings (% who answered 'Frequently', 'Always')	Avoided going to hospital	DecimalPercentage
+	Avoided taking public transport (% who answered 'Frequently', 'Always')	Avoided public transport	DecimalPercentage
+	Avoided working outside your home (% who answered 'Frequently', 'Always')	Avoided working outside	DecimalPercentage
+	Avoided letting your children go to school/ university (% who answered 'Frequently', 'Always')	Avoided children going to school	DecimalPercentage
+	Avoided having guests to your home (% who answered 'Frequently', 'Always')	Avoided having guests	DecimalPercentage
+	Avoided small social gatherings (not more than 2 people) (% who answered 'Frequently', 'Always')	Avoided small gatherings	DecimalPercentage
+	Avoided medium-sized social gatherings (between 3 and 10 people) (% who answered 'Frequently', 'Always')	Avoided medium-size gatherings	DecimalPercentage
+	Avoided large-sized social gatherings (more than 10 people) (% who answered 'Frequently', 'Always')	Avoided large gatherings	DecimalPercentage
+	Avoided crowded areas (% who answered 'Frequently', 'Always')	Avoided crowded areas	DecimalPercentage
+	Avoided going to shops (% who answered 'Frequently', 'Always')	Avoided shops	DecimalPercentage
+	Slept in separate bedrooms at home, when normally you would share a bedroom (% who answered 'Frequently', 'Always')	Slept in separate bedrooms	DecimalPercentage
+	Eaten separately at home, when normally you would eat a meal with others (% who answered 'Frequently', 'Always')	Eaten separately at home	DecimalPercentage
+	Cleaned frequently touched surfaces in the home (e.g. doorknobs, toilets, taps) (% who answered 'Frequently', 'Always')	Cleaned surfaces frequently	DecimalPercentage
+	Avoided touching objects in public (e.g. elevator buttons or doors) (% who answered 'Frequently', 'Always')	Avoided touching public objects	DecimalPercentage
+	Scared that I will contract the Coronavirus (COVID-19) (% who answered 'I am fairly scared that I will contract the Coronavirus (COVID-19)', 'I am very scared that I will contract the Coronavirus (COVID-19)')	Scared of being infected	DecimalPercentage
+	Compared with two weeks ago, would you say you are more happy now? (% who answered 'Somewhat more happy now', 'Much more happy now')	Happiness	DecimalPercentage
+	Do you think the Government are handling the issue of the Coronavirus (COVID-19) well? (% who answered 'Somewhat well', 'Very well')	Pleased with government	DecimalPercentage
+	Worn a face mask inside your home (% who answered 'Frequently', 'Always')	Worn a mask at home	DecimalPercentage
+	Worn a face mask inside a grocery store / supermarket (% who answered 'Frequently', 'Always')		DecimalPercentage
+	Worn a face mask inside a clothing / footwear shop (% who answered 'Frequently', 'Always')		DecimalPercentage
+	Worn a face mask at your place of work (% who answered 'Frequently', 'Always')		DecimalPercentage
+	Worn a face mask on public transportation (% who answered 'Frequently', 'Always')		DecimalPercentage
+	Coronavirus (COVID-19) is very dangerous for me (% who answered '5', '6', '7 - Agree')		DecimalPercentage
+	It is likely that I will get coronavirus (COVID-19) in the future (% who answered '5', '6', '7 - Agree')		DecimalPercentage
+	Wearing a mask will protect me against coronavirus (COVID-19) (% who answered '5', '6', '7 - Agree')		DecimalPercentage
+	Wearing a mask will protect others against coronavirus (COVID-19) (% who answered '5', '6', '7 - Agree')		DecimalPercentage
+	Wearing a mask to protect me against coronavirus (COVID-19) is not possible for me (% who answered '5', '6', '7 - Agree')		DecimalPercentage
+	I feel it is important to carry out activities which will improve my health (% who answered '5', '6', '7 - Agree')		DecimalPercentage
+	My life has been greatly affected by coronavirus (COVID-19) (% who answered '5', '6', '7 - Agree')		DecimalPercentage
+	If you were contacted, would you be willing provide contact information? (% who answered 'Yes')		DecimalPercentage
+	If you tested positive for COVID-19 and are asked to share with health authorities the names of people you had been in contact with, would you share the names of all the people? (% who answered 'Yes')		DecimalPercentage
+	Avoided attending public events, such as sports matches, festivals, theatres, clubs, or going to religious services (% who answered 'Frequently', 'Always')		DecimalPercentage
+	Trustworthiness of most people in your region (% who answered '4', '5 - Completely trustworthy')		DecimalPercentage
+	Trustworthiness of the government of your country (% who answered '4', '5 - Completely trustworthy')		DecimalPercentage
+	Would you say the public sector in your country is efficient? (% who answered '4', '5 - Extremely efficient')		DecimalPercentage
+	Is your country now more united than before the coronavirus (COVID-19) outbreak? (% who answered 'More united')		DecimalPercentage
+	Do you have a strong sense of belonging to your local community? (% who answered 'Somewhat strong', 'Very strong')		DecimalPercentage
+	Has your sense of belonging to your local community increased during the coronavirus (COVID-19) outbreak? (% who answered 'Increased')		DecimalPercentage
+	In your opinion, in the past month, have other people in your community provided assistance to others, such as a friend, neighbour or co-worker, for example childcare or running errands, without expecting anything in return? (% who answered 'Yes')		DecimalPercentage
