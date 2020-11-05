@@ -5,13 +5,13 @@ subtitle	Download the complete <em>Our World in Data</em> <a href="https://githu
 hideAlertBanner	true
 subNavId	coronavirus
 subNavCurrentId	data-explorer
-table	mega	https://covid.ourworldindata.org/data/owid-covid-data.csv
+
 table	yougov	https://owid.cloud/admin/datasets/5202.csv
-table	policy	https://github.com/owid/covid-19-data/blob/master/public/data/bsg/COVID%20Government%20Response%20(OxBSG).csv
-table	excess	https://github.com/owid/owid-datasets/blob/master/datasets/Excess%20Mortality%20Data%20%E2%80%93%20HMD%20(2020)/Excess%20Mortality%20Data%20%E2%80%93%20HMD%20(2020).csv
-table	mobility	https://github.com/owid/covid-19-data/blob/master/public/data/gmobility/Google%20Mobility%20Trends%20(2020).csv
+
+
+
 switcher
-	title	subtitle	Metric Dropdown	Interval Dropdown	Policy/Behaviour/Mobility Response Dropdown	Relative to Population Checkbox	Align outbreaks Checkbox	table	ySlugs	yScaleToggle	xSlug	type	hasMapTab
+	title	subtitle	Metric Dropdown	Interval Dropdown	Policy/Behaviour/Mobility Dropdown	Relative to Population Checkbox	Align outbreaks Checkbox	table	ySlugs	yScaleToggle	xSlug	type	hasMapTab
 	Cumulative confirmed COVID-19 cases per million people	The number of confirmed cases is lower than the number of actual cases; the main reason for that is limited testing.	Confirmed cases	Cumulative		true	false	mega	total_cases_per_million	true		LineChart	true
 	Cumulative confirmed COVID-19 cases per million people	The number of confirmed cases is lower than the number of actual cases; the main reason for that is limited testing.	Confirmed cases	Cumulative		true	true	mega	total_cases_per_million	true	days_since_1_case_per_million	ScatterPlot	true
 	Cumulative confirmed COVID-19 cases	The number of confirmed cases is lower than the number of actual cases; the main reason for that is limited testing.	Confirmed cases	Cumulative		false	true	mega	total_cases	true	days_since_100_cases	ScatterPlot	true
@@ -86,6 +86,8 @@ switcher
 	Workplaces: How did the number of visitors change since the beginning of the pandemic?	Change in visitor numbers is measured relative to a baseline day; a baseline day is the median value from the 5‑week period between Jan 3rd and Feb 6th 2020. This index is smoothed to the rolling 7-day average.	Mobility		Workplaces	false	false	mobility	Workplaces	false		LineChart	true
 	Residential areas: How did the time spent at home change since the beginningof the pandemic?	Change in visitor numbers is measured relative to a baseline day; a baseline day is the median value from the 5‑week period between Jan 3rd and Feb 6th 2020. This index is smoothed to the rolling 7-day average.	Mobility		Residential	false	false	mobility	Residential	false		LineChart	true
 
+table	mega	https://covid.ourworldindata.org/data/owid-covid-data.csv
+
 columns	mega
 	slug	name	type	transform	annotationsColumnSlug
 	location	Country name	EntityName
@@ -156,6 +158,8 @@ columns	mega
 	icu_patients_per_million	Number of COVID-19 patients in ICU per million	Numeric
 	weekly_icu_admissions_per_million	Weekly ICU admissions for COVID-19 per million	Numeric
 
+table	policy	https://github.com/owid/covid-19-data/blob/master/public/data/bsg/COVID%20Government%20Response%20(OxBSG).csv
+
 columns	policy
 	slug	name	type
 	Country	Country name	EntityName
@@ -164,6 +168,8 @@ columns	policy
 	Containment and Health Index (OxBSG)	COVID-19: Containment and Health Index	Numeric
 	School closures (OxBSG)	School closures during the COVID-19 pandemic	Numeric
 	Workplace closures (OxBSG)	Workplace closures during the COVID-19 pandemic	Numeric
+
+table	mobility	https://github.com/owid/covid-19-data/blob/master/public/data/gmobility/Google%20Mobility%20Trends%20(2020).csv
 
 columns	mobility
 	slug	name	type
@@ -175,6 +181,8 @@ columns	mobility
 	Transit Stations	Transit stations: How did the number of visitors change since the beginning of the pandemic?	Numeric
 	Workplaces	Workplaces: How did the number of visitors change since the beginning of the pandemic?	Numeric
 	Residential	Residential areas: How did the time spent at home change since the beginningof the pandemic?	Numeric
+
+table	excess	https://github.com/owid/owid-datasets/blob/master/datasets/Excess%20Mortality%20Data%20%E2%80%93%20HMD%20(2020)/Excess%20Mortality%20Data%20%E2%80%93%20HMD%20(2020).csv
 
 columns	excess
 	slug	name	type
