@@ -97,12 +97,12 @@ columns	mega
 	days_since_100_cases	Days since the 100th confirmed case	Integer	timeSinceEntityExceededThreshold date location total_cases 100
 	days_since_30_cases_per_day	Days since confirmed cases first reached 30 per day	Integer	timeSinceEntityExceededThreshold date location new_cases 30
 	days_since_1_case_per_million	Days since the total confirmed cases per million people reached 1	Integer	timeSinceEntityExceededThreshold date location total_cases_per_million 1
-	cases_rolling_average		Integer	rollingAverage date location new_cases_smoothed 7
-	deaths_rolling_average		Integer	rollingAverage date location new_deaths_smoothed 7
-	weekly_cases	Weekly confirmed COVID-19 cases	Integer	multiplyBy new_cases_smoothed 7
-	biweekly_cases	Biweekly confirmed COVID-19 cases	Integer	multiplyBy new_cases_smoothed 14
-	weekly_deaths	Weekly confirmed COVID-19 deaths	Integer	multiplyBy new_deaths_smoothed 7
-	biweekly_deaths	Biweekly confirmed COVID-19 deaths	Integer	multiplyBy new_deaths_smoothed 14
+	cases_rolling_average		Integer	rollingAverage date location new_cases 7
+	deaths_rolling_average		Integer	rollingAverage date location new_deaths 7
+	weekly_cases	Weekly confirmed COVID-19 cases	Integer	multiplyBy cases_rolling_average 7
+	biweekly_cases	Biweekly confirmed COVID-19 cases	Integer	multiplyBy cases_rolling_average 14
+	weekly_deaths	Weekly confirmed COVID-19 deaths	Integer	multiplyBy deaths_rolling_average 7
+	biweekly_deaths	Biweekly confirmed COVID-19 deaths	Integer	multiplyBy deaths_rolling_average 14
 	tests_per_case_smoothed	Tests conducted per confirmed case of COVID-19	Ratio	new_tests_smoothed divideBy new_cases_smoothed
 	weekly_cases_change	Week by week change of confirmed COVID-19 cases	Percentage	percentChange date location weekly_cases 7
 	biweekly_cases_change	Biweekly change of confirmed COVID-19 cases	Percentage	percentChange date location biweekly_cases 14
