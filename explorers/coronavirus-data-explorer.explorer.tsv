@@ -7,7 +7,7 @@ subNavId	coronavirus
 subNavCurrentId	data-explorer
 table	mega	https://covid.ourworldindata.org/data/owid-covid-data.csv
 switcher
-	title	subtitle	Metric Radio	Interval Dropdown	Relative to Population Checkbox	Align outbreaks Checkbox	table	ySlugs	yScaleToggle	xSlug	type	hasMapTab	entityFilter
+	title	subtitle	Metric Radio	Interval Dropdown	Relative to Population Checkbox	Align outbreaks Checkbox	table	ySlugs	yScaleToggle	xSlug	type	hasMapTab
 	Cumulative confirmed COVID-19 cases per million people	The number of confirmed cases is lower than the number of actual cases; the main reason for that is limited testing.	Confirmed cases	Cumulative	true	false	mega	total_cases_per_million	true		LineChart	true
 	Cumulative confirmed COVID-19 cases per million people	The number of confirmed cases is lower than the number of actual cases; the main reason for that is limited testing.	Confirmed cases	Cumulative	true	true	mega	total_cases_per_million	true	days_since_1_case_per_million	ScatterPlot	true
 	Cumulative confirmed COVID-19 cases	The number of confirmed cases is lower than the number of actual cases; the main reason for that is limited testing.	Confirmed cases	Cumulative	false	true	mega	total_cases	true	days_since_100_cases	ScatterPlot	true
@@ -53,10 +53,10 @@ switcher
 	Daily new COVID-19 tests per 1,000 people		Tests	New per day	true	false	mega	new_tests_per_thousand	true		LineChart	true
 	Daily new COVID-19 tests		Tests	New per day	false	true	mega	new_tests	true	days_since_point_1_death_per_million	ScatterPlot	true
 	Daily new COVID-19 tests		Tests	New per day	false	false	mega	new_tests	true		LineChart	true
-	Cumulative tests conducted per confirmed case of COVID-19	The number of tests divided by the number of confirmed cases. Not all countries report testing data on a daily basis.	Tests per confirmed case	Cumulative	false	false	mega	cumulative_tests_per_case	true		LineChart	true	Peru,Ecuador,Brazil,Costa Rica,Colombia,Argentina
-	Tests conducted per confirmed case of COVID-19	Shown is the rolling 7-day average. The number of tests divided by the number of confirmed cases. Not all countries report testing data on a daily basis.	Tests per confirmed case	7-day rolling average	false	false	mega	tests_per_case_smoothed	true		LineChart	true	Peru,Ecuador,Brazil,Costa Rica,Colombia,Argentina
-	The share of COVID-19 tests that are positive	The number of confirmed cases divided by the number of tests, expressed as a percentage. Tests may refer to the number of tests performed or the number of people tested – depending on which is reported by the particular country.	Share of positive tests	Cumulative	false	false	mega	positive_rate_cumulative	false		LineChart	true	Peru,Ecuador,Brazil,Costa Rica,Colombia,Argentina
-	The share of daily COVID-19 tests that are positive	Shown is the rolling 7-day average. The number of confirmed cases divided by the number of tests, expressed as a percentage. Tests may refer to the number of tests performed or the number of people tested – depending on which is reported by the particular country.	Share of positive tests	7-day rolling average	false	false	mega	positive_rate	false		LineChart	true	Peru,Ecuador,Brazil,Costa Rica,Colombia,Argentina
+	Cumulative tests conducted per confirmed case of COVID-19	The number of tests divided by the number of confirmed cases. Not all countries report testing data on a daily basis.	Tests per confirmed case	Cumulative	false	false	mega	cumulative_tests_per_case_filtered	true		LineChart	true
+	Tests conducted per confirmed case of COVID-19	Shown is the rolling 7-day average. The number of tests divided by the number of confirmed cases. Not all countries report testing data on a daily basis.	Tests per confirmed case	7-day rolling average	false	false	mega	tests_per_case_smoothed_filtered	true		LineChart	true
+	The share of COVID-19 tests that are positive	The number of confirmed cases divided by the number of tests, expressed as a percentage. Tests may refer to the number of tests performed or the number of people tested – depending on which is reported by the particular country.	Share of positive tests	Cumulative	false	false	mega	positive_rate_cumulative_filtered	false		LineChart	true
+	The share of daily COVID-19 tests that are positive	Shown is the rolling 7-day average. The number of confirmed cases divided by the number of tests, expressed as a percentage. Tests may refer to the number of tests performed or the number of people tested – depending on which is reported by the particular country.	Share of positive tests	7-day rolling average	false	false	mega	positive_rate_filtered	false		LineChart	true
 
 
 columns	mega
@@ -114,3 +114,7 @@ columns	mega
 	biweekly_deaths_change	Biweekly change of confirmed COVID-19 deaths	Percentage	percentChange date location biweekly_deaths 14
 	positive_rate_cumulative	The share of COVID-19 tests that are positive	Percentage	total_cases asPercentageOf total_tests
 	cumulative_tests_per_case	Cumulative tests conducted per confirmed case of COVID-19	Ratio	total_tests divideBy total_cases
+	cumulative_tests_per_case_filtered	Cumulative tests conducted per confirmed case of COVID-20	Ratio	cumulative_tests_per_case where location isNot Peru or Ecuador or Brazil or Costa Rica or Colombia or Argentina
+	tests_per_case_smoothed_filtered	Tests per case	Ratio	tests_per_case_smoothed where location isNot Peru or Ecuador or Brazil or Costa Rica or Colombia or Argentina
+	positive_rate_cumulative_filtered	Positive test rate	DecimalPercentage	positive_rate_cumulative where location isNot Peru or Ecuador or Brazil or Costa Rica or Colombia or Argentina
+	positive_rate_filtered	Positive test rate	DecimalPercentage	positive_rate where location isNot Peru or Ecuador or Brazil or Costa Rica or Colombia or Argentina
