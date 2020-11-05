@@ -7,9 +7,9 @@ subNavId	coronavirus
 subNavCurrentId	data-explorer
 table	mega	https://covid.ourworldindata.org/data/owid-covid-data.csv
 table	yougov	https://owid.cloud/admin/datasets/5202.csv
-table	policy	https://github.com/owid/covid-19-data/blob/master/public/data/bsg/COVID%20Government%20Response%20(OxBSG).csv
-table	excess	https://github.com/owid/owid-datasets/blob/master/datasets/Excess%20Mortality%20Data%20%E2%80%93%20HMD%20(2020)/Excess%20Mortality%20Data%20%E2%80%93%20HMD%20(2020).csv
-table	mobility	https://github.com/owid/covid-19-data/blob/master/public/data/gmobility/Google%20Mobility%20Trends%20(2020).csv
+table	policy	https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/bsg/COVID%20Government%20Response%20(OxBSG).csv
+table	excess	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Excess%20Mortality%20Data%20%E2%80%93%20HMD%20(2020)/Excess%20Mortality%20Data%20%E2%80%93%20HMD%20(2020).csv
+table	mobility	https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/gmobility/Google%20Mobility%20Trends%20(2020).csv
 switcher
 	title	subtitle	Metric Dropdown	Interval Dropdown	Policy/Behaviour/Mobility Dropdown	Relative to Population Checkbox	Align outbreaks Checkbox	table	ySlugs	yScaleToggle	xSlug	type	hasMapTab
 	Cumulative confirmed COVID-19 cases per million people	The number of confirmed cases is lower than the number of actual cases; the main reason for that is limited testing.	Confirmed cases	Cumulative		true	false	mega	total_cases_per_million	true		LineChart	true
