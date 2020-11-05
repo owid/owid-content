@@ -76,6 +76,7 @@ columns	mega
 	life_expectancy	Life expectancy	Age
 	total_deaths	Total deaths	Integer
 	new_tests	Daily new COVID-19 tests	Integer
+	new_tests_per_thousand	Daily new COVID-19 tests per 1,000 people	Integer
 	new_cases	New cases	Integer
 	new_deaths	New deaths	Integer
 	total_cases	Total cases	Integer
