@@ -6,3 +6,8 @@ switcher
 
 
 table	literacy	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/%20Literate%20world%20population%20(OurWorldInData%20based%20on%20OECD%20and%20UNESCO)/%20Literate%20world%20population%20(OurWorldInData%20based%20on%20OECD%20and%20UNESCO).csv
+
+columns	literacy
+	slug	type
+	Entity	EntityName
+	Year	Year
