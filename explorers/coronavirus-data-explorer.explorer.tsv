@@ -14,8 +14,8 @@ switcher
 	Cumulative confirmed COVID-19 cases	The number of confirmed cases is lower than the number of actual cases; the main reason for that is limited testing.	Confirmed cases	Cumulative	false	false	mega	total_cases	true		LineChart	true
 	Daily new confirmed COVID-19 cases per million people	Shown is the rolling 7-day average. The number of confirmed cases is lower than the number of actual cases; the main reason for that is limited testing.	Confirmed cases	7-day rolling average	true	true	mega	new_cases_smoothed_per_million	true	days_since_1_case_per_million	ScatterPlot	true
 	Daily new confirmed COVID-19 cases per million people	Shown is the rolling 7-day average. The number of confirmed cases is lower than the number of actual cases; the main reason for that is limited testing.	Confirmed cases	7-day rolling average	true	false	mega	new_cases_smoothed_per_million	true		LineChart	true
-	Daily new confirmed COVID-19 cases	Shown is the rolling 7-day average. The number of confirmed cases is lower than the number of actual cases; the main reason for that is limited testing.	Confirmed cases	7-day rolling average	false	true	mega	new_deaths_smoothed	true	days_since_30_cases_per_day	ScatterPlot	true
-	Daily new confirmed COVID-19 cases	Shown is the rolling 7-day average. The number of confirmed cases is lower than the number of actual cases; the main reason for that is limited testing.	Confirmed cases	7-day rolling average	false	false	mega	new_deaths_smoothed	true		LineChart	true
+	Daily new confirmed COVID-19 cases	Shown is the rolling 7-day average. The number of confirmed cases is lower than the number of actual cases; the main reason for that is limited testing.	Confirmed cases	7-day rolling average	false	true	mega	new_cases_smoothed	true	days_since_30_cases_per_day	ScatterPlot	true
+	Daily new confirmed COVID-19 cases	Shown is the rolling 7-day average. The number of confirmed cases is lower than the number of actual cases; the main reason for that is limited testing.	Confirmed cases	7-day rolling average	false	false	mega	new_cases_smoothed	true		LineChart	true
 	Daily new confirmed COVID-19 cases per million people	The number of confirmed cases is lower than the number of actual cases; the main reason for that is limited testing.	Confirmed cases	New per day	true	true	mega	new_cases_per_million	true	days_since_1_case_per_million	ScatterPlot	true
 	Daily new confirmed COVID-19 cases per million people	The number of confirmed cases is lower than the number of actual cases; the main reason for that is limited testing.	Confirmed cases	New per day	true	false	mega	new_cases_per_million	true		LineChart	true
 	Daily new confirmed COVID-19 cases	The number of confirmed cases is lower than the number of actual cases; the main reason for that is limited testing.	Confirmed cases	New per day	false	true	mega	new_cases	true	days_since_30_cases_per_day	ScatterPlot	true
@@ -80,6 +80,8 @@ columns	mega
 	total_cases	Total cases	Integer
 	total_tests	Total tests	Integer
 	total_tests_per_thousand	Total tests (per 1K)	Ratio
+	new_cases_smoothed	Daily new confirmed COVID-19 cases	Numeric
+	new_tests_smoothed	Daily new COVID-19 tests	Numeric
 	positive_rate	Positive test rate	DecimalPercentage
 	tests_per_case	Tests per case	Ratio
 	total_deaths_per_million	Total deaths (per 1M)	Ratio
@@ -102,5 +104,5 @@ columns	mega
 	positive_rate_smoothed	The share of daily COVID-19 tests that are positive	Percentage	rollingAverage date location positive_rate 7
 	weekly_cases_change	Week by week change of confirmed COVID-19 cases	Percentage	percentChange date location weekly_cases 7
 	biweekly_cases_change	Biweekly change of confirmed COVID-19 cases	Percentage	percentChange date location biweekly_cases 14
-	weekly_deaths_change	Week by week change of confirmed COVID-19 deaths 	Percentage	percentChange date location weekly_deaths 7
+	weekly_deaths_change	Week by week change of confirmed COVID-19 deaths	Percentage	percentChange date location weekly_deaths 7
 	biweekly_deaths_change	Biweekly change of confirmed COVID-19 deaths	Percentage	percentChange date location biweekly_deaths 14
