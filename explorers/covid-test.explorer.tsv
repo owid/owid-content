@@ -104,6 +104,7 @@ switcher
 	Avoided contact with symptomatic people		Public behaviors		Avoided contact with symptomatic people	false	false	Avoided contact with people who have symptoms or you think may have been exposed to the coronavirus (% who answered 'Frequently', 'Always')	false		LineChart	true
 	Avoided going out		Public behaviors		Avoided going out	false	false	Avoided going out in general (% who answered 'Frequently', 'Always')	false		LineChart	true
 
+
 columns	mega
 	slug	name	type	transform	annotationsColumnSlug
 	location	Country name	EntityName
@@ -174,6 +175,7 @@ columns	mega
 	icu_patients_per_million	Number of COVID-19 patients in ICU per million	Numeric
 	weekly_icu_admissions_per_million	Weekly ICU admissions for COVID-19 per million	Numeric
 
+
 columns	policy
 	slug	name	type
 	Country	Country name	EntityName
@@ -194,6 +196,7 @@ columns	policy
 	Testing policy (OxBSG)	COVID-19 Testing Policies	Integer
 	Contact tracing (OxBSG)	Which countries do COVID-19 contact tracing?	Integer
 	Facial coverings (OxBSG)	Face covering policies during the COVID-19 pandemic	Integer
+
 
 columns	mobility
 	slug	name	type
@@ -216,6 +219,7 @@ columns	excess
 	Excess mortality P-scores, ages 65–74	Excess mortality during COVID-19: The number of deaths from all causes compared to previous years, 65-74 years	DecimalPercentage
 	Excess mortality P-scores, ages 75–85	Excess mortality during COVID-19: The number of deaths from all causes compared to previous years, 75-84 years	DecimalPercentage
 	Excess mortality P-scores, ages 85+	Excess mortality during COVID-19: The number of deaths from all causes compared to previous years, 85+ years	DecimalPercentage
+
 
 columns	yougov
 	slug	name	type
