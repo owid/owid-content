@@ -3,11 +3,17 @@ isPublished	false
 switcher
 	table	Device Radio	ySlugs	type	title
 	literacy	Literacy	Literacy-rate-CIA-Factbook-2016	DiscreteBar	Literacy Rates Worldwide
-
+	lifeExpectancy	Life Expectancy	Healthy-Life-Expectancy-IHME	LineChart	Healthy Life Expectancy
 
 table	literacy	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/%20Literate%20world%20population%20(OurWorldInData%20based%20on%20OECD%20and%20UNESCO)/%20Literate%20world%20population%20(OurWorldInData%20based%20on%20OECD%20and%20UNESCO).csv
 
 columns	literacy
+	slug	type
+	Entity	EntityName
+	Year	Year
+
+
+table	lifeExpectancy	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Healthy%20Life%20Expectancy%20-%20IHME/Healthy%20Life%20Expectancy%20-%20IHME.csv
 	slug	type
 	Entity	EntityName
 	Year	Year
