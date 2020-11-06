@@ -12,8 +12,8 @@ table	demo
 	Canada	2020	100
 	France	2020	110
 columns	demo
-	slug	name	type	sourceName
-	gdp	Gross Domestic Product	Currency	World Bank
+	slug	name	type	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo
+	gdp	Gross Domestic Product	Currency	World Bank	http://cnn.com	test	test source	yesterday	packaged in R
 
 table	lifeExpectancy	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Healthy%20Life%20Expectancy%20-%20IHME/Healthy%20Life%20Expectancy%20-%20IHME.csv
 columns	lifeExpectancy
