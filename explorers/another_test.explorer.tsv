@@ -1,0 +1,11 @@
+title	Data Explorer
+isPublished	false
+switcher
+	chartId	Example Radio	title	subtitle	table	type	ySlug
+	35	Load A Grapher
+		Create A Grapher	Hello world	This is a subtitle	demo	DiscreteBar	gdp
+
+table	demo
+	entityName	year	gdp
+	Canada	2020	100
+	France	2020	110
