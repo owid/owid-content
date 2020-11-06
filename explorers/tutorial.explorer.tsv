@@ -1,6 +1,0 @@
-title	Data Explorer Tutorial
-subtitle	Duplicate and play around to learn how it works
-isPublished	false
-switcher
-	title	Device Radio	subtitle
-	This spreadsheet contains an Explorer "program"	Internet	A single file can contain columns representing choices a user can make, links to existing graphers, unlimited "just-in-time" graphers, actual data or links to external CSVS/TSVs, and column definitions.
