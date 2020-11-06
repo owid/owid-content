@@ -1,4 +1,5 @@
 title	Data Explorer
+defaultView	?country=Canada~France
 isPublished	false
 switcher
 	chartId	Example Radio	title	subtitle	table	type	ySlugs
