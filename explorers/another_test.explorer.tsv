@@ -2,9 +2,9 @@ title	Data Explorer
 defaultView	?country=Canada~France
 isPublished	false
 switcher
-	chartId	Example Radio	title	subtitle	table	type	ySlugs
+	chartId	Example Radio	title	subtitle	table	type	ySlugs	hasMapTab
 	35	Load A Grapher
-		Create A Grapher	Hello world	This is a subtitle	demo	DiscreteBar	gdp
+		Create A Grapher	Hello world	This is a subtitle	demo	DiscreteBar	gdp	true
 
 table	demo
 	entityName	year	gdp
