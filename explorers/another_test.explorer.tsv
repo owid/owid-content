@@ -1,7 +1,7 @@
 title	Data Explorer
 isPublished	false
 switcher
-	chartId	Example Radio	title	subtitle	table	type	ySlug
+	chartId	Example Radio	title	subtitle	table	type	ySlugs
 	35	Load A Grapher
 		Create A Grapher	Hello world	This is a subtitle	demo	DiscreteBar	gdp
 
