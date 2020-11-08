@@ -1,6 +1,6 @@
 title	COVID-19 Data Explorer
 isPublished	false
-googleSheet	https://docs.google.com/spreadsheets/d/1qeXBgckrktxwrJp2V9NCG9CeDEufAC-nzYYjj6o1vlU/edit?usp=sharing
+googleSheets	https://docs.google.com/spreadsheets/d/1qeXBgckrktxwrJp2V9NCG9CeDEufAC-nzYYjj6o1vlU/edit?usp=sharing
 defaultView	?country=India~United%20States~France~United%20Kingdom~Germany~Canada&pickerMetric=total_cases&pickerSort=desc&time=2020-03-01..latest&Interval=7-day rolling average
 subtitle	Download the complete <em>Our World in Data</em> <a href="https://github.com/owid/covid-19-data/tree/master/public/data" target="_blank" rel="noopener noreferrer">COVID-19 dataset.</a>
 hideAlertBanner	true
@@ -121,3 +121,21 @@ columns	mega
 	positive_rate_cumulative_filtered	Positive test rate	DecimalPercentage	positive_rate_cumulative where location isNot Peru or Ecuador or Brazil or Costa Rica or Colombia or Argentina
 	positive_rate_filtered	Positive test rate	DecimalPercentage	positive_rate where location isNot Peru or Ecuador or Brazil or Costa Rica or Colombia or Argentina
 	tests_per_case_smoothed_filtered_gt_1	Tests per case	Ratio	tests_per_case_smoothed_filtered where tests_per_case_smoothed_filtered isGreaterThanOrEqual 1
+	continent		Continent
+	new_deaths_smoothed		Numeric
+	new_cases_smoothed_per_million		Ratio
+	new_deaths_smoothed_per_million		Ratio
+	icu_patients		Integer
+	icu_patients_per_million		Ratio
+	hosp_patients		Integer
+	hosp_patients_per_million		Ratio
+	weekly_icu_admissions		Integer
+	weekly_icu_admissions_per_million		Ratio
+	weekly_hosp_admissions		Integer
+	weekly_hosp_admissions_per_million		Ratio
+	tests_units		String
+	cardiovasc_death_rate		Ratio
+	diabetes_prevalence		Percentage
+	female_smokers		Percentage
+	male_smokers		Percentage
+	handwashing_facilities		Percentage
