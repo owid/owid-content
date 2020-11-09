@@ -5,8 +5,7 @@ isPublished	FALSE
 switcher
 	Examples Radio	title	subtitle	table	type	ySlugs	hasMapTab
 	Confirmed cases	Daily new confirmed COVID-19 cases	The number of confirmed cases is lower than the number of actual cases; the main reason for that is limited testing.	covidTrackingProject	LineChart	positive	TRUE
-	Confirmed deaths	Daily new confirmed COVID-19 cases	"Limited testing and challenges in the attribution of the cause of death means that the number of confirmed deaths may not be an accurate count of the true number of deaths from COVID-19."	covidTrackingProject	deathConfirmed		TRUE
-the true number of deaths from COVID-19."	covidTrackingProject	LineChart	deathConfirmed	TRUE
+	Confirmed deaths	Daily new confirmed COVID-19 cases	Limited testing and challenges.	covidTrackingProject	LineChart	deathConfirmed	TRUE
 	Hospitalizations	Number of people hospitalized		covidTrackingProject	LineChart	hospitalizedCumulative	TRUE
 	2	2		covidTrackingProject	LineChart		TRUE
 	3	3		covidTrackingProject	LineChart		TRUE
