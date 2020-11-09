@@ -3,10 +3,13 @@ googleSheet	https://docs.google.com/spreadsheets/d/1HjHjB_njLizZKzwZlk5zX429IcMh
 defaultView	country=~Michigan~California~New%20York
 isPublished	FALSE
 switcher
-	Examples Radio	title	subtitle	table	type	ySlugs
-	Deaths	Deaths from Covid	From Covid Tracking Project	covidTrackingProject	LineChart	death
-	Hospitalizations	Hospitalizations from Covid	From Covid Tracking Project	covidTrackingProject	LineChart	hospitalized
-
+	Examples Radio	title	subtitle	table	type	ySlugs	hasMapTab
+	Confirmed cases	Daily new confirmed COVID-19 cases	The number of confirmed cases is lower than the number of actual cases; the main reason for that is limited testing.	covidTrackingProject	LineChart	positive	TRUE
+	Hospitalizations	Hospitalizations from Covid	From Covid Tracking Project	covidTrackingProject	LineChart	hospitalized	TRUE
+	1	1		covidTrackingProject	LineChart
+	2	2		covidTrackingProject	LineChart
+	3	3		covidTrackingProject	LineChart
+	4	4		covidTrackingProject	LineChart
 
 table	covidTrackingProject	https://raw.githubusercontent.com/shaahmad/usa-covid-data/master/all-states-edited.csv	Note: we should actually download from an official URL. However, CovidTrackingProject does not have CORS set so we have to host the CSV ourselves or find a host.
 columns	covidTrackingProject
