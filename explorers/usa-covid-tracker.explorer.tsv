@@ -1,0 +1,16 @@
+title	Covid Data Explorer: United States
+defaultView
+isPublished	false
+switcher
+	Examples Radio	title	subtitle	table	type	ySlugs	hasMapTab
+	Deaths	Deaths from Covid	From Covid Tracking Project	covidTrackingProject	LineChart	death	true
+
+
+
+table	covidTrackingProject	https://covidtracking.com/data/download/all-states-history.csv
+columns	covidTrackingProject
+	slug	type
+	state	EntityName
+	date	Date
+	hospitalized	Integer
+	death	Integer
