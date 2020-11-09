@@ -7,7 +7,7 @@ switcher
 
 
 
-table	covidTrackingProject	https://covidtracking.com/data/download/all-states-history.csv
+table	covidTrackingProject	https://raw.githubusercontent.com/fadimasoud/C3.Grand_challeng/main/all-states-history(1).csv
 columns	covidTrackingProject
 	slug	type
 	state	EntityName
