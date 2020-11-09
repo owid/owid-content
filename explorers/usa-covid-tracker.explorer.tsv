@@ -4,7 +4,7 @@ isPublished	false
 switcher
 	Examples Radio	title	subtitle	table	type	ySlugs	hasMapTab
 	Deaths	Deaths from Covid	From Covid Tracking Project	covidTrackingProject	LineChart	death	true
-
+	Hospitalizations	Hospitalizations from Covid	From Covid Tracking Project	covidTrackingProject	LineChart	hospitalized	true
 
 
 table	covidTrackingProject	https://raw.githubusercontent.com/fadimasoud/C3.Grand_challeng/main/all-states-history(1).csv
