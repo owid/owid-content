@@ -1,6 +1,6 @@
 title	Covid Data Explorer: United States
 googleSheet	https://docs.google.com/spreadsheets/d/1HjHjB_njLizZKzwZlk5zX429IcMhy6WZRTlYwnsrJAM/edit#gid=0
-defaultView	country=~HI~MA~CA~NY~FL~WA~NC
+defaultView	country=~Michigan~California~New%20York
 isPublished	FALSE
 switcher
 	Examples Radio	title	subtitle	table	type	ySlugs
