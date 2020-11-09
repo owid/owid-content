@@ -15,6 +15,3 @@ columns	covidTrackingProject
 	date	Date
 	hospitalized	Integer
 	death	Integer
-title	Covid Data Explorer: United States
-googleSheet	https://docs.google.com/spreadsheets/d/1HjHjB_njLizZKzwZlk5zX429IcMhy6WZRTlYwnsrJAM/edit#gid=0
-defaultView	country=~HI~MA~CA~NY~FL~WA~NC
