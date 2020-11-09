@@ -1,0 +1,20 @@
+title	Covid Data Explorer: United States
+googleSheet	https://docs.google.com/spreadsheets/d/1HjHjB_njLizZKzwZlk5zX429IcMhy6WZRTlYwnsrJAM/edit#gid=0
+defaultView	country=~HI~MA~CA~NY~FL~WA~NC
+isPublished	FALSE
+switcher
+	Examples Radio	title	subtitle
+	Deaths	Deaths from Covid	From Covid Tracking Project
+	Hospitalizations	Hospitalizations from Covid	From Covid Tracking Project
+
+
+table	covidTrackingProject	https://raw.githubusercontent.com/fadimasoud/C3.Grand_challeng/main/all-states-history(1).csv	Note: we should actually download from an official URL. However, CovidTrackingProject does not have CORS set so we have to host the CSV ourselves or find a host.
+columns	covidTrackingProject
+	slug	type
+	state	EntityName
+	date	Date
+	hospitalized	Integer
+	death	Integer
+title	Covid Data Explorer: United States
+googleSheet	https://docs.google.com/spreadsheets/d/1HjHjB_njLizZKzwZlk5zX429IcMhy6WZRTlYwnsrJAM/edit#gid=0
+defaultView	country=~HI~MA~CA~NY~FL~WA~NC
