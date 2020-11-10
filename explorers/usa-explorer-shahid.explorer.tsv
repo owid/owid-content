@@ -1,19 +1,20 @@
 title	Covid Data Explorer: United States
 googleSheet	https://docs.google.com/spreadsheets/d/1HjHjB_njLizZKzwZlk5zX429IcMhy6WZRTlYwnsrJAM/edit#gid=0
 defaultView	country=~Michigan~California~New%20York
-isPublished	FALSE
+isPublished	false
+entityType	state
 switcher
-	Metrics Radio	Interval Dropdown	Count Checkbox	title	subtitle	table	type	ySlugs	hasMapTab
-	Confirmed cases	Cumulative	FALSE	Cumulative confirmed COVID-19 cases	test	covidTrackingProject	LineChart	positive	TRUE
-	Confirmed cases	7-day rolling average	FALSE	Daily new confirmed COVID-19 cases	test	covidTrackingProject	LineChart	positive	TRUE
-	Confirmed cases	New per day	FALSE	Daily new confirmed COVID-19 cases	test	covidTrackingProject	LineChart	positive	TRUE
-	Confirmed cases	Cumulative	TRUE	Cumulative confirmed COVID-19 cases per million people		covidTrackingProject	LineChart	positive	TRUE
-	Confirmed cases	7-day rolling average	TRUE	Daily new confirmed COVID-19 cases per million people		covidTrackingProject	LineChart	positive	TRUE
-	Confirmed cases	New per day	TRUE	Daily new confirmed COVID-19 cases per million people		covidTrackingProject	LineChart	positive	TRUE
-	Confirmed deaths	Cumulative	FALSE	Daily new confirmed COVID-19 cases	Limited testing and challenges.	covidTrackingProject	LineChart	deathConfirmed	TRUE
-	Hospitalizations	Cumulative	FALSE	Number of people hospitalized		covidTrackingProject	LineChart	hospitalizedCumulative	TRUE
+	Metrics Radio	Interval Dropdown	Relative to Population Checkbox	title	subtitle	table	type	ySlugs	hasMapTab
+	Confirmed cases	Cumulative	false	Cumulative confirmed COVID-19 cases	test	covidTrackingProject	LineChart	positive	true
+	Confirmed cases	7-day rolling average	false	Daily new confirmed COVID-19 cases	test	covidTrackingProject	LineChart	positive	true
+	Confirmed cases	New per day	false	Daily new confirmed COVID-19 cases	test	covidTrackingProject	LineChart	positive	true
+	Confirmed cases	Cumulative	true	Cumulative confirmed COVID-19 cases per million people		covidTrackingProject	LineChart	positive	true
+	Confirmed cases	7-day rolling average	true	Daily new confirmed COVID-19 cases per million people		covidTrackingProject	LineChart	positive	true
+	Confirmed cases	New per day	true	Daily new confirmed COVID-19 cases per million people		covidTrackingProject	LineChart	positive	true
+	Confirmed deaths	Cumulative	false	Daily new confirmed COVID-19 cases	Limited testing and challenges.	covidTrackingProject	LineChart	deathConfirmed	true
+	Hospitalizations	Cumulative	false	Number of people hospitalized		covidTrackingProject	LineChart	hospitalizedCumulative	true
 
-table	covidTrackingProject			https://raw.githubusercontent.com/shaahmad/usa-covid-data/master/all-states-edited.csv	Note: we should actually download from an official URL. However, CovidTrackingProject does not have CORS set so we have to host the CSV ourselves or find a host.
+table	covidTrackingProject	https://raw.githubusercontent.com/shaahmad/usa-covid-data/master/all-states-edited.csv
 columns	covidTrackingProject
 	slug	type
 	stateLong	EntityName
@@ -21,3 +22,4 @@ columns	covidTrackingProject
 	positive	Integer
 	deathConfirmed	Integer
 	hospitalizedCumulative	Integer
+entityType
