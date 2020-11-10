@@ -1,26 +1,67 @@
 title	Covid Data Explorer: United States
+isPublished	false
 googleSheet	https://docs.google.com/spreadsheets/d/1HjHjB_njLizZKzwZlk5zX429IcMhy6WZRTlYwnsrJAM/edit#gid=0
 defaultView	country=~Michigan~California~New%20York
-isPublished	false
-entityType	state
-switcher
-	Metrics Radio	Interval Dropdown	Relative to Population Checkbox	title	subtitle	table	type	ySlugs	hasMapTab
-	Confirmed cases	Cumulative	false	Cumulative confirmed COVID-19 cases	test	covidTrackingProject	LineChart	positive	true
-	Confirmed cases	7-day rolling average	false	Daily new confirmed COVID-19 cases	test	covidTrackingProject	LineChart	positive	true
-	Confirmed cases	New per day	false	Daily new confirmed COVID-19 cases	test	covidTrackingProject	LineChart	positive	true
-	Confirmed cases	Cumulative	true	Cumulative confirmed COVID-19 cases per million people		covidTrackingProject	LineChart	positive	true
-	Confirmed cases	7-day rolling average	true	Daily new confirmed COVID-19 cases per million people		covidTrackingProject	LineChart	positive	true
-	Confirmed cases	New per day	true	Daily new confirmed COVID-19 cases per million people		covidTrackingProject	LineChart	positive	true
-	Confirmed deaths	Cumulative	false	Daily new confirmed COVID-19 cases	Limited testing and challenges.	covidTrackingProject	LineChart	deathConfirmed	true
-	Hospitalizations	Cumulative	false	Number of people hospitalized		covidTrackingProject	LineChart	hospitalizedCumulative	true
-
+subtitle	Download the complete <em>Our World in Data</em> <a href="https://github.com/owid/covid-19-data/tree/master/public/data" target="_blank" rel="noopener noreferrer">COVID-19 dataset.</a>
+hideAlertBanner	true
+subNavId	coronavirus
+subNavCurrentId	data-explorer
 table	covidTrackingProject	https://raw.githubusercontent.com/shaahmad/usa-covid-data/master/all-states-edited.csv
+switcher
+	title	subtitle	Metric Radio	Interval Dropdown	Relative to Population Checkbox	Align outbreaks Checkbox	table	ySlugs	yScaleToggle	xSlug	type	hasMapTab
+	Cumulative confirmed COVID-19 cases per million people	lorem ipsum	Confirmed cases	Cumulative	true	false	covidTrackingProject	positive	true		LineChart	true
+	Cumulative confirmed COVID-19 cases per million people	lorem ipsum	Confirmed cases	Cumulative	true	true	covidTrackingProject	positive	true	 	ScatterPlot	true
+	Cumulative confirmed COVID-19 cases	lorem ipsum	Confirmed cases	Cumulative	false	true	covidTrackingProject	positive	true		ScatterPlot	true
+	Cumulative confirmed COVID-19 cases	lorem ipsum	Confirmed cases	Cumulative	false	false	covidTrackingProject	positive	true		LineChart	true
+	Daily new confirmed COVID-19 cases per million people	lorem ipsum	Confirmed cases	7-day rolling average	true	true	covidTrackingProject	positive	true		ScatterPlot	true
+	Daily new confirmed COVID-19 cases per million people	lorem ipsum	Confirmed cases	7-day rolling average	true	false	covidTrackingProject	positive	true		LineChart	true
+	Daily new confirmed COVID-19 cases	lorem ipsum	Confirmed cases	7-day rolling average	false	true	covidTrackingProject	positive	true		ScatterPlot	true
+	Daily new confirmed COVID-19 cases	lorem ipsum	Confirmed cases	7-day rolling average	false	false	covidTrackingProject	positive	true		LineChart	true
+	Daily new confirmed COVID-19 cases per million people	lorem ipsum	Confirmed cases	New per day	true	true	covidTrackingProject	positive	true		ScatterPlot	true
+	Daily new confirmed COVID-19 cases per million people	lorem ipsum	Confirmed cases	New per day	true	false	covidTrackingProject	positive	true		LineChart	true
+	Daily new confirmed COVID-19 cases	lorem ipsum	Confirmed cases	New per day	false	true	covidTrackingProject	positive	true		ScatterPlot	true
+	Daily new confirmed COVID-19 cases	lorem ipsum	Confirmed cases	New per day	false	false	covidTrackingProject	positive	true		LineChart	true
+	Weekly confirmed COVID-19 cases	lorem ipsum	Confirmed cases	Weekly	false	false	covidTrackingProject	positive	true		LineChart	true
+	Week by week change of confirmed COVID-19 cases	lorem ipsum	Confirmed cases	Weekly change	false	false	covidTrackingProject	positive	false		LineChart	true
+	Biweekly confirmed COVID-19 cases	lorem ipsum	Confirmed cases	Biweekly	false	false	covidTrackingProject	positive	true		LineChart	true
+	Biweekly change of confirmed COVID-19 cases	lorem ipsum	Confirmed cases	Biweekly change	false	false	covidTrackingProject	positive	false		LineChart	true
+	Cumulative confirmed COVID-19 deaths per million people	lorem ipsum	Confirmed deaths	Cumulative	true	true	covidTrackingProject	positive	true		ScatterPlot	true
+	Cumulative confirmed COVID-19 deaths per million people	lorem ipsum	Confirmed deaths	Cumulative	true	false	covidTrackingProject	positive	true		LineChart	true
+	Cumulative confirmed COVID-19 deaths	lorem ipsum	Confirmed deaths	Cumulative	false	true	covidTrackingProject	positive	true		ScatterPlot	true
+	Cumulative confirmed COVID-19 deaths	lorem ipsum	Confirmed deaths	Cumulative	false	false	covidTrackingProject	positive	true		LineChart	true
+	Daily new confirmed COVID-19 deaths per million people	lorem ipsum	Confirmed deaths	7-day rolling average	true	true	covidTrackingProject	positive	true		ScatterPlot	true
+	Daily new confirmed COVID-19 deaths per million people	lorem ipsum	Confirmed deaths	7-day rolling average	true	false	covidTrackingProject	positive	true		LineChart	true
+	Daily new confirmed COVID-19 deaths	lorem ipsum	Confirmed deaths	7-day rolling average	false	true	covidTrackingProject	positive	true		ScatterPlot	true
+	Daily new confirmed COVID-19 deaths	lorem ipsum	Confirmed deaths	7-day rolling average	false	false	covidTrackingProject	positive	true		LineChart	true
+	Daily new confirmed COVID-19 deaths per million people	lorem ipsum	Confirmed deaths	New per day	true	true	covidTrackingProject	positive	true		ScatterPlot	true
+	Daily new confirmed COVID-19 deaths per million people	lorem ipsum	Confirmed deaths	New per day	true	false	covidTrackingProject	positive	true		LineChart	true
+	Daily new confirmed COVID-19 deaths	lorem ipsum	Confirmed deaths	New per day	false	true	covidTrackingProject	positive	true		ScatterPlot	true
+	Daily new confirmed COVID-19 deaths	lorem ipsum	Confirmed deaths	New per day	false	false	covidTrackingProject	positive	true		LineChart	true
+	Weekly confirmed COVID-19 deaths	lorem ipsum	Confirmed deaths	Weekly	false	false	covidTrackingProject	positive	true		LineChart	true
+	Week by week change of confirmed COVID-19 deaths	lorem ipsum	Confirmed deaths	Weekly change	false	false	covidTrackingProject	positive	false		LineChart	true
+	Biweekly confirmed COVID-19 deaths	lorem ipsum	Confirmed deaths	Biweekly	false	false	covidTrackingProject	positive	true		LineChart	true
+	Biweekly change of confirmed COVID-19 deaths	lorem ipsum	Confirmed deaths	Biweekly change	false	false	covidTrackingProject	positive	false		LineChart	true
+	Case fatality rate of the ongoing COVID-19 pandemic	lorem ipsum	Case Fatality Rate	Cumulative	false	false	covidTrackingProject	positive	false		LineChart	true
+	Cumulative COVID-19 tests per 1,000 people	lorem ipsum	Tests	Cumulative	true	true	covidTrackingProject	positive	true		ScatterPlot	true
+	Cumulative COVID-19 tests per 1,000 people	lorem ipsum	Tests	Cumulative	true	false	covidTrackingProject	positive	true		LineChart	true
+	Cumulative COVID-19 tests	lorem ipsum	Tests	Cumulative	false	true	covidTrackingProject	positive	true		ScatterPlot	true
+	Cumulative COVID-19 tests	lorem ipsum	Tests	Cumulative	false	false	covidTrackingProject	positive	true		LineChart	true
+	Daily new COVID-19 tests per 1,000 people	lorem ipsum	Tests	7-day rolling average	true	true	covidTrackingProject	positive	true		ScatterPlot	true
+	Daily new COVID-19 tests per 1,000 people	lorem ipsum	Tests	7-day rolling average	true	false	covidTrackingProject	positive	true		LineChart	true
+	Daily new COVID-19 tests	lorem ipsum	Tests	7-day rolling average	false	true	covidTrackingProject	positive	true		ScatterPlot	true
+	Daily new COVID-19 tests	lorem ipsum	Tests	7-day rolling average	false	false	covidTrackingProject	positive	true		LineChart	true
+	Daily new COVID-19 tests per 1,000 people	lorem ipsum	Tests	New per day	true	true	covidTrackingProject	positive	true		ScatterPlot	true
+	Daily new COVID-19 tests per 1,000 people	lorem ipsum	Tests	New per day	true	false	covidTrackingProject	positive	true		LineChart	true
+	Daily new COVID-19 tests	lorem ipsum	Tests	New per day	false	true	covidTrackingProject	positive	true		ScatterPlot	true
+	Daily new COVID-19 tests	lorem ipsum	Tests	New per day	false	false	covidTrackingProject	positive	true		LineChart	true
+	Cumulative tests conducted per confirmed case of COVID-19	lorem ipsum	Tests per confirmed case	Cumulative	false	false	covidTrackingProject	positive	true		LineChart	true
+	Tests conducted per confirmed case of COVID-19	lorem ipsum	Tests per confirmed case	7-day rolling average	false	false	covidTrackingProject	positive	true		LineChart	true
+	The share of COVID-19 tests that are positive	lorem ipsum	Share of positive tests	Cumulative	false	false	covidTrackingProject	positive	false		LineChart	true
+	The share of daily COVID-19 tests that are positive	lorem ipsum	Share of positive tests	7-day rolling average	false	false	covidTrackingProject	positive	false		LineChart	true
+
+
 columns	covidTrackingProject
-	slug	type
-	stateLong	EntityName
-	date	Date
-	positive	Integer
-	state	EntityCode
-	deathConfirmed	Integer
-	hospitalizedCumulative	Integer
-entityType
+	slug	name	type	transform	annotationsColumnSlug	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo
+	stateLong	State	EntityName
+	date	Day	Date
+	positive	Confirmed Cases	Integer
