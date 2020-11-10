@@ -7,7 +7,7 @@ switcher
 	Create A Grapher Demo	Hello world	This is a subtitle	inlineTable	DiscreteBar	gdp
 	Data from CSV Demo	Healthy Life Expectancy		lifeExpectancy	LineChart	Healthy-Life-Expectancy-IHME
 
-table	demo
+table	inlineTable
 	entityName	year	gdp
 	Canada	2020	100
 	France	2020	110
