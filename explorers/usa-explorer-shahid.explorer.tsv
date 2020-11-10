@@ -65,5 +65,5 @@ columns	covidTrackingProject
 	slug	name	type	transform	annotationsColumnSlug	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo
 	stateLong	State	EntityName
 	date	Day	Date
-	cases_rolling_average_weekly		Integer	rollingAverage date location positiveIncrease 7
-	cases_rolling_average_biweekly		Integer	rollingAverage date location positiveIncrease 14
+	cases_rolling_average_weekly		Integer	rollingAverage date stateLong positiveIncrease 7
+	cases_rolling_average_biweekly		Integer	rollingAverage date stateLong positiveIncrease 14
