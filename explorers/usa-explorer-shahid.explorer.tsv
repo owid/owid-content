@@ -20,6 +20,7 @@ columns	covidTrackingProject
 	stateLong	EntityName
 	date	Date
 	positive	Integer
+	state	EntityKey
 	deathConfirmed	Integer
 	hospitalizedCumulative	Integer
 entityType
