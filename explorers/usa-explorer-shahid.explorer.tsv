@@ -6,6 +6,7 @@ subtitle	Download the complete <em>Our World in Data</em> <a href="https://githu
 hideAlertBanner	true
 subNavId	coronavirus
 subNavCurrentId	data-explorer
+entityType	state
 table	covidTrackingProject	https://raw.githubusercontent.com/shaahmad/usa-covid-data/master/all-states-edited.csv
 switcher
 	title	subtitle	Metric Radio	Interval Dropdown	Relative to Population Checkbox	Align outbreaks Checkbox	table	ySlugs	yScaleToggle	xSlug	type	hasMapTab
