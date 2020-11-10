@@ -64,4 +64,3 @@ columns	covidTrackingProject
 	slug	name	type	transform	annotationsColumnSlug	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo
 	stateLong	State	EntityName
 	date	Day	Date
-	positive	Confirmed Cases	Integer
