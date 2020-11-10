@@ -6,10 +6,10 @@ switcher
 	Metrics Radio	Interval Dropdown	Count Checkbox	title	subtitle	table	type	ySlugs	hasMapTab
 	Confirmed cases	Cumulative	FALSE	Cumulative confirmed COVID-19 cases	test	covidTrackingProject	LineChart	positive	TRUE
 	Confirmed cases	7-day rolling average	FALSE	Daily new confirmed COVID-19 cases	test	covidTrackingProject	LineChart	positive	TRUE
-	Confirmed cases	New per day	FALSE	Daily new confirmed COVID-19 cases	test
-	Confirmed cases	Cumulative	TRUE
-	Confirmed cases	7-day rolling average	TRUE
-	Confirmed cases	New per day	TRUE
+	Confirmed cases	New per day	FALSE	Daily new confirmed COVID-19 cases	test	covidTrackingProject	LineChart	positive	TRUE
+	Confirmed cases	Cumulative	TRUE			covidTrackingProject	LineChart	positive	TRUE
+	Confirmed cases	7-day rolling average	TRUE			covidTrackingProject	LineChart	positive	TRUE
+	Confirmed cases	New per day	TRUE			covidTrackingProject	LineChart	positive	TRUE
 	Confirmed deaths			Daily new confirmed COVID-19 cases	Limited testing and challenges.	covidTrackingProject	LineChart	deathConfirmed	TRUE
 	Hospitalizations			Number of people hospitalized		covidTrackingProject	LineChart	hospitalizedCumulative	TRUE
 	2			2		covidTrackingProject	LineChart		TRUE
