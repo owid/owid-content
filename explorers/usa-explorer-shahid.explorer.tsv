@@ -1,7 +1,7 @@
 title	Covid Data Explorer: United States
 isPublished	false
 googleSheet	https://docs.google.com/spreadsheets/d/1HjHjB_njLizZKzwZlk5zX429IcMhy6WZRTlYwnsrJAM/edit#gid=0
-defaultView	country=~Michigan~California~New%20York
+defaultView	selection=~Michigan~California~New%20York
 subtitle	Download the complete <em>Our World in Data</em> <a href="https://github.com/owid/covid-19-data/tree/master/public/data" target="_blank" rel="noopener noreferrer">COVID-19 dataset.</a>
 hideAlertBanner	true
 subNavId	coronavirus
