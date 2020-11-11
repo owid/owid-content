@@ -1,7 +1,7 @@
 title	Just Another Test Data Explorer
 subtitle	Testing loading from multiple CSVs
 isPublished	false
-defaultView	?country=United%20States~Canada
+defaultView	?selection=United%20States~Canada
 switcher
 	table	Metric Radio	ySlugs	type	title
 	literacy	Literacy	Literacy-rate-CIA-Factbook-2016	DiscreteBar	Literacy Rates Worldwide
