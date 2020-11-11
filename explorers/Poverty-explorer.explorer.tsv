@@ -1,6 +1,6 @@
 title	Global income and poverty
 isPublished	false
-defaultView	?country=United%20Kingdom~United%20States~France~Germany~China~Brazil~Mexico~India&Data%20=Survey%20data%20only&Metric%20=Percentage%20in%20poverty&Poverty%20line(s)%20=$20.00
+defaultView	?selection=United%20Kingdom~United%20States~France~Germany~China~Brazil~Mexico~India&Data%20=Survey%20data%20only&Metric%20=Percentage%20in%20poverty&Poverty%20line(s)%20=$20.00
 switcher
 	chartId	Data Radio	Metric Radio	Poverty line(s) Dropdown
 	4467	Survey data only	Percentage in poverty	$1.90
