@@ -1,6 +1,5 @@
 title	New Data Explorer Template
 defaultView	?country=Canada~France
-hideControls	true
 isPublished	false
 switcher
 	chartId	Examples Radio	title	subtitle	table	type	ySlugs	hasMapTab
