@@ -1,6 +1,6 @@
 title	Covid Data Explorer: United States
 googleSheet	https://docs.google.com/spreadsheets/d/1eLdCWB9Aa_qrqtRrqNrOErpsB2RMt6FjUDZmWuYIZfE/edit?usp=sharing
-defaultView	country=~HI~MA~CA~NY~FL~WA~NC
+defaultView	?selection=~HI~MA~CA~NY~FL~WA~NC
 isPublished	false
 switcher
 	Examples Radio	title	subtitle	table	type	ySlugs	hasMapTab
