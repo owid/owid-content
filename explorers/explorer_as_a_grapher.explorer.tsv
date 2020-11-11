@@ -13,6 +13,10 @@ table	demo
 	entityName	year	gdp
 	Canada	2020	100
 	France	2020	110
+	United States	2020	320
+
+
+
 columns	demo
 	slug	name	type
 	gdp	Gross Domestic Product	Currency
