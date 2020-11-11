@@ -1,7 +1,7 @@
 title	Using Explorer to Make a Grapher
 subtitle	This demonstrates how to use hideControls to make a Grapher
 hideControls	true
-defaultView	?country=Canada~France~United States
+defaultView	?selection=Canada~France~United States
 isPublished	false
 switcher
 	title	subtitle	table	type	ySlugs	hasMapTab
