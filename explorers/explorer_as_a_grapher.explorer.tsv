@@ -5,7 +5,7 @@ defaultView	?country=Canada~France
 isPublished	false
 switcher
 	title	subtitle	table	type	ySlugs
-	Hello world	This is a subtitle	demo	DiscreteBar	gdp
+	Using Explorer to Make a Grapher	This demonstrates how to use hideControls to make a Grapher entirely in the Explorer creator.	demo	DiscreteBar	gdp
 
 
 
