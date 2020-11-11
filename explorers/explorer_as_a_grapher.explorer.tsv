@@ -5,7 +5,7 @@ defaultView	?country=Canada~France
 isPublished	false
 switcher
 	title	subtitle	table	type	ySlugs	hasMapTab
-	Hello world	This is a subtitle	demo	DiscreteBar	gdp	true
+	Hello world	This demonstrates how to use hideControls to make a Grapher	demo	DiscreteBar	gdp	true
 
 
 
