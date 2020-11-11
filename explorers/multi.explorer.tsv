@@ -8,9 +8,9 @@ subNavId	coronavirus
 subNavCurrentId	data-explorer
 table	mega	https://covid.ourworldindata.org/data/owid-covid-data.csv
 switcher
-	title	subtitle	Metric Radio	Interval Dropdown	Relative to Population Checkbox	Align outbreaks Checkbox	table	ySlugs	yScaleToggle	xSlug	type
-	Cases and Deaths	The number of confirmed cases is lower than the number of actual cases; the main reason for that is limited testing.	Confirmed cases and deaths	Cumulative	TRUE	FALSE	mega	total_cases_per_million total_deaths_per_million	TRUE		LineChart
-
+	title	subtitle	Metric Radio	table	ySlugs	yScaleToggle	type	Chart Type Radio
+	Cases and Deaths	The number of confirmed cases is lower than the number of actual cases; the main reason for that is limited testing.	Confirmed cases and deaths	mega	total_cases_per_million total_deaths_per_million	true	LineChart	Line Chart
+	Cases and Deaths	The number of confirmed cases is lower than the number of actual cases; the main reason for that is limited testing.	Confirmed cases and deaths	mega	total_cases_per_million total_deaths_per_million	true	StackedArea	Stacked Area
 
 
 
