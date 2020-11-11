@@ -1,3 +1,4 @@
+title	Covid Data Explorer: United States
 isPublished	false
 googleSheet	https://docs.google.com/spreadsheets/d/1HjHjB_njLizZKzwZlk5zX429IcMhy6WZRTlYwnsrJAM/edit#gid=0
 defaultView	country=~Michigan~California~New%20York
@@ -71,6 +72,7 @@ columns	covidTrackingProject
 	days_since_5_daily_deaths	Days since 5 daily new deaths first reported	Integer	timeSinceEntityExceededThreshold date stateLong deathIncrease 5
 	days_since_100_cases	Days since the 100th confirmed case	Integer	timeSinceEntityExceededThreshold date stateLong positive 100
 	days_since_30_cases_per_day	Days since confirmed cases first reached 30 per day	Integer	timeSinceEntityExceededThreshold date stateLong positiveIncrease 30
+	positiveIncrease		Integer
 	cases_rolling_average_weekly		Integer	rollingAverage date stateLong positiveIncrease 7
 	cases_rolling_average_biweekly		Integer	rollingAverage date stateLong positiveIncrease 14
 	deaths_rolling_average_weekly		Integer	rollingAverage date stateLong deathIncrease 7
