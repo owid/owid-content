@@ -1,6 +1,6 @@
 title	COVID-19 Data Explorer
 isPublished	false
-defaultView	?country=India~United%20States~France~United%20Kingdom~Germany~Canada&pickerMetric=total_cases&pickerSort=desc&time=2020-03-01..latest&Interval=7-day rolling average
+defaultView	?selection=India~United%20States~France~United%20Kingdom~Germany~Canada&pickerMetric=total_cases&pickerSort=desc&time=2020-03-01..latest&Interval=7-day rolling average
 subtitle	Download the complete <em>Our World in Data</em> <a href="https://github.com/owid/covid-19-data/tree/master/public/data" target="_blank" rel="noopener noreferrer">COVID-19 dataset.</a>
 hideAlertBanner	true
 subNavId	coronavirus
