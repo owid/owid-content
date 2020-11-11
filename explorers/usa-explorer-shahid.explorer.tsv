@@ -67,7 +67,7 @@ columns	covidTrackingProject
 	date	Day	Date
 	new_tests_smoothed		Integer	rollingAverage date stateLong totalTestsPeopleViral 7
 	total_cases_above_100		Integer	positive where positive isGreaterThan 100
-	cfr	Case Fatality Rate	Percentage	death asPercentageOf positive_above_100
+	cfr	Case Fatality Rate	Percentage	death asPercentageOf total_cases_above_100
 	days_since_5_deaths	Days since the 5th total confirmed death	Integer	timeSinceEntityExceededThreshold date stateLong death 5
 	days_since_5_daily_deaths	Days since 5 daily new deaths first reported	Integer	timeSinceEntityExceededThreshold date stateLong deathIncrease 5
 	days_since_100_cases	Days since the 100th confirmed case	Integer	timeSinceEntityExceededThreshold date stateLong positive 100
@@ -81,12 +81,12 @@ columns	covidTrackingProject
 	biweekly_cases	Biweekly confirmed COVID-19 cases	Integer	multiplyBy cases_rolling_average_biweekly 14
 	weekly_deaths	Weekly confirmed COVID-19 deaths	Integer	multiplyBy deaths_rolling_average_weekly 7
 	biweekly_deaths	Biweekly confirmed COVID-19 deaths	Integer	multiplyBy deaths_rolling_average_biweekly 14
-	tests_per_case_smoothed	Tests conducted per confirmed case of COVID-19	Ratio	new_tests_smoothed divideBy positiveIncrease_smoothed
+	tests_per_case_smoothed	Tests conducted per confirmed case of COVID-19	Ratio	new_tests_smoothed divideBy new_tests_smoothed
 	weekly_cases_change	Week by week change of confirmed COVID-19 cases	Percentage	percentChange date stateLong weekly_cases 7
 	biweekly_cases_change	Biweekly change of confirmed COVID-19 cases	Percentage	percentChange date stateLong biweekly_cases 14
 	weekly_deaths_change	Week by week change of confirmed COVID-19 deaths	Percentage	percentChange date stateLong weekly_deaths 7
 	biweekly_deaths_change	Biweekly change of confirmed COVID-19 deaths	Percentage	percentChange date stateLong biweekly_deaths 14
-	positive_rate_cumulative	The share of COVID-19 tests that are positive	Percentage	positive asPercentageOf total_tests
+	positive_rate_cumulative	The share of COVID-19 tests that are positive	Percentage	positive asPercentageOf totalTestsViral
 	cumulative_tests_per_case	Cumulative tests conducted per confirmed case of COVID-19	Ratio	totalTestsPeopleViral divideBy positive
 	cumulative_tests_per_case_filtered	Cumulative tests conducted per confirmed case of COVID-20	Ratio	cumulative_tests_per_case
 	tests_per_case_smoothed_filtered	Tests per case	Ratio	tests_per_case_smoothed
