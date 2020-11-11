@@ -38,34 +38,39 @@ switcher
 	Daily new confirmed COVID-19 deaths per million people	lorem ipsum	Confirmed deaths	New per day	true	false	covidTrackingProject	deathIncrease	true		LineChart	true
 	Daily new confirmed COVID-19 deaths	lorem ipsum	Confirmed deaths	New per day	false	true	covidTrackingProject	deathIncrease	true		ScatterPlot	true
 	Daily new confirmed COVID-19 deaths	lorem ipsum	Confirmed deaths	New per day	false	false	covidTrackingProject	deathIncrease	true		LineChart	true
-	Weekly confirmed COVID-19 deaths	lorem ipsum	Confirmed deaths	Weekly	false	false	covidTrackingProject	weekly_cases	true		LineChart	true
-	Week by week change of confirmed COVID-19 deaths	lorem ipsum	Confirmed deaths	Weekly change	false	false	covidTrackingProject	weekly_cases_change	false		LineChart	true
-	Biweekly confirmed COVID-19 deaths	lorem ipsum	Confirmed deaths	Biweekly	false	false	covidTrackingProject	biweekly_cases	true		LineChart	true
-	Biweekly change of confirmed COVID-19 deaths	lorem ipsum	Confirmed deaths	Biweekly change	false	false	covidTrackingProject	biweekly_cases_change	false		LineChart	true
+	Weekly confirmed COVID-19 deaths	lorem ipsum	Confirmed deaths	Weekly	false	false	covidTrackingProject	weekly_deaths	true		LineChart	true
+	Week by week change of confirmed COVID-19 deaths	lorem ipsum	Confirmed deaths	Weekly change	false	false	covidTrackingProject	weekly_deaths_change	false		LineChart	true
+	Biweekly confirmed COVID-19 deaths	lorem ipsum	Confirmed deaths	Biweekly	false	false	covidTrackingProject	biweekly_deaths	true		LineChart	true
+	Biweekly change of confirmed COVID-19 deaths	lorem ipsum	Confirmed deaths	Biweekly change	false	false	covidTrackingProject	biweekly_deaths_change	false		LineChart	true
 	Case fatality rate of the ongoing COVID-19 pandemic	lorem ipsum	Case Fatality Rate	Cumulative	false	false	covidTrackingProject	cfr	false		LineChart	true
 	Cumulative COVID-19 tests per 1,000 people	lorem ipsum	Tests	Cumulative	true	true	covidTrackingProject	totalTestsViral	true		ScatterPlot	true
 	Cumulative COVID-19 tests per 1,000 people	lorem ipsum	Tests	Cumulative	true	false	covidTrackingProject	totalTestsViral	true		LineChart	true
 	Cumulative COVID-19 tests	lorem ipsum	Tests	Cumulative	false	true	covidTrackingProject	totalTestsViral	true		ScatterPlot	true
 	Cumulative COVID-19 tests	lorem ipsum	Tests	Cumulative	false	false	covidTrackingProject	totalTestsViral	true		LineChart	true
-	Daily new COVID-19 tests per 1,000 people	lorem ipsum	Tests	7-day rolling average	true	true	covidTrackingProject	totalTestsViral	true		ScatterPlot	true
-	Daily new COVID-19 tests per 1,000 people	lorem ipsum	Tests	7-day rolling average	true	false	covidTrackingProject	positive	true		LineChart	true
-	Daily new COVID-19 tests	lorem ipsum	Tests	7-day rolling average	false	true	covidTrackingProject	positive	true		ScatterPlot	true
-	Daily new COVID-19 tests	lorem ipsum	Tests	7-day rolling average	false	false	covidTrackingProject	positive	true		LineChart	true
-	Daily new COVID-19 tests per 1,000 people	lorem ipsum	Tests	New per day	true	true	covidTrackingProject	totalTestsViralIncrease	true		ScatterPlot	true
-	Daily new COVID-19 tests per 1,000 people	lorem ipsum	Tests	New per day	true	false	covidTrackingProject	totalTestsViralIncrease	true		LineChart	true
-	Daily new COVID-19 tests	lorem ipsum	Tests	New per day	false	true	covidTrackingProject	totalTestsViralIncrease	true		ScatterPlot	true
-	Daily new COVID-19 tests	lorem ipsum	Tests	New per day	false	false	covidTrackingProject	totalTestsViralIncrease	true		LineChart	true
-	Cumulative tests conducted per confirmed case of COVID-19	lorem ipsum	Tests per confirmed case	Cumulative	false	false	covidTrackingProject	positive	true		LineChart	true
-	Tests conducted per confirmed case of COVID-19	lorem ipsum	Tests per confirmed case	7-day rolling average	false	false	covidTrackingProject	positive	true		LineChart	true
-	The share of COVID-19 tests that are positive	lorem ipsum	Share of positive tests	Cumulative	false	false	covidTrackingProject	positive	false		LineChart	true
-	The share of daily COVID-19 tests that are positive	lorem ipsum	Share of positive tests	7-day rolling average	false	false	covidTrackingProject	positive	false		LineChart	true
+	Daily new COVID-19 tests per 1,000 people	lorem ipsum	Tests	7-day rolling average	true	true	covidTrackingProject	new_tests_smoothed	true		ScatterPlot	true
+	Daily new COVID-19 tests per 1,000 people	lorem ipsum	Tests	7-day rolling average	true	false	covidTrackingProject	new_tests_smoothed	true		LineChart	true
+	Daily new COVID-19 tests	lorem ipsum	Tests	7-day rolling average	false	true	covidTrackingProject	new_tests_smoothed	true		ScatterPlot	true
+	Daily new COVID-19 tests	lorem ipsum	Tests	7-day rolling average	false	false	covidTrackingProject	new_tests_smoothed	true		LineChart	true
+	Daily new COVID-19 tests per 1,000 people	lorem ipsum	Tests	New per day	true	true	covidTrackingProject	totalTestResultsIncrease	true		ScatterPlot	true
+	Daily new COVID-19 tests per 1,000 people	lorem ipsum	Tests	New per day	true	false	covidTrackingProject	totalTestResultsIncrease	true		LineChart	true
+	Daily new COVID-19 tests	lorem ipsum	Tests	New per day	false	true	covidTrackingProject	totalTestResultsIncrease	true		ScatterPlot	true
+	Daily new COVID-19 tests	lorem ipsum	Tests	New per day	false	false	covidTrackingProject	totalTestResultsIncrease	true		LineChart	true
+	Cumulative tests conducted per confirmed case of COVID-19	lorem ipsum	Tests per confirmed case	Cumulative	false	false	covidTrackingProject	cumulative_tests_per_case_filtered	true		LineChart	true
+	Tests conducted per confirmed case of COVID-19	lorem ipsum	Tests per confirmed case	7-day rolling average	false	false	covidTrackingProject	tests_per_case_smoothed_filtered_gt_1	true		LineChart	true
+	The share of COVID-19 tests that are positive	lorem ipsum	Share of positive tests	Cumulative	false	false	covidTrackingProject	positive_rate_cumulative_filtered	false		LineChart	true
+	The share of daily COVID-19 tests that are positive	lorem ipsum	Share of positive tests	7-day rolling average	false	false	covidTrackingProject	positive_rate_filtered	false		LineChart	true
 
 
 columns	covidTrackingProject
 	slug	name	type	transform	annotationsColumnSlug	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo
 	stateLong	State	EntityName
 	date	Day	Date
-	new_tests_smoothed		Integer	rollingAverage date stateLong totalTestsPeopleViral 7
+	totalTestsPeopleViral	Total Tests	Integer
+	positive	Confirmed cases	Integer
+	death	Confirmed deaths	Integer
+	deathIncrease	Daily deaths	Integer
+	positiveIncrease	Daily cases	Integer
+	new_tests_smoothed	New Tests	Integer	rollingAverage date stateLong totalTestsPeopleViral 7
 	total_cases_above_100		Integer	positive where positive isGreaterThan 100
 	cfr	Case Fatality Rate	Percentage	death asPercentageOf total_cases_above_100
 	days_since_5_deaths	Days since the 5th total confirmed death	Integer	timeSinceEntityExceededThreshold date stateLong death 5
@@ -86,7 +91,7 @@ columns	covidTrackingProject
 	biweekly_cases_change	Biweekly change of confirmed COVID-19 cases	Percentage	percentChange date stateLong biweekly_cases 14
 	weekly_deaths_change	Week by week change of confirmed COVID-19 deaths	Percentage	percentChange date stateLong weekly_deaths 7
 	biweekly_deaths_change	Biweekly change of confirmed COVID-19 deaths	Percentage	percentChange date stateLong biweekly_deaths 14
-	positive_rate_cumulative	The share of COVID-19 tests that are positive	Percentage	positive asPercentageOf totalTestsViral
+	positive_rate_cumulative	The share of COVID-19 tests that are positive	Percentage	positive asPercentageOf totalTestsPeopleViral
 	cumulative_tests_per_case	Cumulative tests conducted per confirmed case of COVID-19	Ratio	totalTestsPeopleViral divideBy positive
 	cumulative_tests_per_case_filtered	Cumulative tests conducted per confirmed case of COVID-20	Ratio	cumulative_tests_per_case
 	tests_per_case_smoothed_filtered	Tests per case	Ratio	tests_per_case_smoothed
