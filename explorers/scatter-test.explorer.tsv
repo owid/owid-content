@@ -1,5 +1,5 @@
 title	ScatterPlot Test Explorer
-defaultView	selection=Canada
+defaultView	selection=Canada~France~Madeira
 isPublished	false
 switcher
 	Examples Radio	title	subtitle	table	type	ySlugs	xSlug	colorSlug	sizeSlug
