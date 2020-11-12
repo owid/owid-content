@@ -10,9 +10,9 @@ switcher
 
 table	demo
 	entityName	year	gdp	continent	pop	cruiseShipsPerCapia	conclusion
-	Canada	2020	100	North America	1	1	43
-	France	2020	110	Europe	2	2	23
-	Madeira	2020	10	Africa	.1	100	55
+	Canada	2020	100	North America	1	1	430000
+	France	2020	110	Europe	2	2	544433
+	Madeira	2020	10	Africa	.1	1000	555555
 
 
 
