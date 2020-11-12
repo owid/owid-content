@@ -24,3 +24,4 @@ columns	demo
 	pop	Population	Integer
 	cruiseShipsPerCapia	Cruise Ships Per Person	Integer
 	randomGibberish	randomGibberish	Integer
+	entityName	Location	EntityName
