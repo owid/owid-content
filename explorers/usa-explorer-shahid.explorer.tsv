@@ -1,7 +1,7 @@
 title	Covid Data Explorer: United States
 isPublished	false
 googleSheet	https://docs.google.com/spreadsheets/d/1HjHjB_njLizZKzwZlk5zX429IcMhy6WZRTlYwnsrJAM/edit#gid=0
-defaultView	selection=~Michigan~California~New%20York
+defaultView	country=~Michigan~California~New%20York
 subtitle	Download the complete <em>Our World in Data</em> <a href="https://github.com/owid/covid-19-data/tree/master/public/data" target="_blank" rel="noopener noreferrer">COVID-19 dataset.</a>
 hideAlertBanner	true
 subNavId	coronavirus
@@ -59,7 +59,7 @@ switcher
 	Tests conducted per confirmed case of COVID-19	lorem ipsum	Tests per confirmed case	7-day rolling average	false	false	covidTrackingProject	tests_per_case_smoothed_gt_1	true		LineChart	false
 	The share of COVID-19 tests that are positive	lorem ipsum	Share of positive tests	Cumulative	false	false	covidTrackingProject	positive_rate_cumulative	false		LineChart	false
 	The share of daily COVID-19 tests that are positive	lorem ipsum	Share of positive tests	7-day rolling average	false	false	covidTrackingProject	positive_rate	false		LineChart	false
-	Cumulative confirmed COVID-19 cases per million people	lorem ipsum	Hospitalizations	Cumulative	false	false	covidTrackingProject	positive	true		LineChart	false
+
 
 columns	covidTrackingProject
 	slug	name	type	transform	annotationsColumnSlug	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo
