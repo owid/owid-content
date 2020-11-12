@@ -1,24 +1,24 @@
-title	ScatterPlot Test
-defaultView	?selection=Canada~France
+title	ScatterPlot Test Explorer
+defaultView	selection=Canada
 isPublished	false
 switcher
 	Examples Radio	title	subtitle	table	type	ySlugs	xSlug	colorSlug	sizeSlug
-	Inline Data	Hello world	This is a subtitle	demo	ScatterPlot	gdp	year	continent	gdp
-	Data from CSV	Healthy Life Expectancy		lifeExpectancy	ScatterPlot	Healthy-Life-Expectancy-IHME	year	continent	Healthy-Life-Expectancy-IHME
+	Intro	Understanding the ScatterPlot size dimension	For years, the size dimension of scatter plots on Our World in Data has been a mystery	demo	ScatterPlot	gdp	year	continent	pop
+	A Common Misconception	A Common Misconception	Some assumed it referred to population, but that is not always the case	demo	ScatterPlot	gdp	year	continent	cruiseShipsPerCapia
+	Conclusion	Conclusion	I guess we will never know	demo	ScatterPlot	gdp	year	continent	conclusion
 
 
 table	demo
-	entityName	year	gdp	continent
-	Canada	2020	100	North America
-	France	2020	110	Europe
+	entityName	year	gdp	continent	pop	cruiseShipsPerCapia	conclusion
+	Canada	2020	100	North America	1	1	43
+	France	2020	110	Europe	2	2	23
+	Madeira	2020	10	Africa	.1	100	55
+
+
+
+
 columns	demo
 	slug	name	type
 	gdp	Gross Domestic Product	Currency
 	continent	Continent	Continent
-
-
-table	lifeExpectancy	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Healthy%20Life%20Expectancy%20-%20IHME/Healthy%20Life%20Expectancy%20-%20IHME.csv
-columns	lifeExpectancy
-	slug	type
-	Entity	EntityName
-	Year	Year
+	pop	Population	integer
