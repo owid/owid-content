@@ -5,11 +5,11 @@ switcher
 	Examples Radio	title	subtitle	table	type	ySlugs	xSlug	colorSlug	sizeSlug
 	Intro	Understanding the ScatterPlot size dimension	For years, the size dimension of scatter plots on Our World in Data has been a mystery	demo	ScatterPlot	gdp	year	continent	pop
 	A Common Misconception	A Common Misconception	Some assumed it referred to population, but that is not always the case	demo	ScatterPlot	gdp	year	continent	cruiseShipsPerCapia
-	Conclusion	Conclusion	I guess we will never know	demo	ScatterPlot	gdp	year	continent	conclusion
+	Conclusion	Conclusion	I guess we will never know	demo	ScatterPlot	gdp	year	continent	randomGibberish
 
 
 table	demo
-	entityName	year	gdp	continent	pop	cruiseShipsPerCapia	conclusion
+	entityName	year	gdp	continent	pop	cruiseShipsPerCapia	randomGibberish
 	Canada	2020	100	North America	1	1	430000
 	France	2020	110	Europe	2	2	544433
 	Madeira	2020	10	Africa	.1	1000	555555
@@ -21,4 +21,6 @@ columns	demo
 	slug	name	type
 	gdp	Gross Domestic Product	Currency
 	continent	Continent	Continent
-	pop	Population	integer
+	pop	Population	Integer
+	cruiseShipsPerCapia	Cruise Ships Per Person	Integer
+	randomGibberish	randomGibberish	Integer
