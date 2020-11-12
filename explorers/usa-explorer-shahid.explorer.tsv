@@ -26,10 +26,10 @@ switcher
 	Week by week change of confirmed COVID-19 cases	lorem ipsum	Confirmed cases	Weekly change	false	false	covidTrackingProject	weekly_cases_change	false		LineChart	false
 	Biweekly confirmed COVID-19 cases	lorem ipsum	Confirmed cases	Biweekly	false	false	covidTrackingProject	biweekly_cases	true		LineChart	false
 	Biweekly change of confirmed COVID-19 cases	lorem ipsum	Confirmed cases	Biweekly change	false	false	covidTrackingProject	biweekly_cases_change	false		LineChart	false
-	Cumulative confirmed COVID-19 deaths per million people	lorem ipsum	Confirmed deaths	Cumulative	true	true	covidTrackingProject	deathConfirmed	true		ScatterPlot	false
-	Cumulative confirmed COVID-19 deaths per million people	lorem ipsum	Confirmed deaths	Cumulative	true	false	covidTrackingProject	deathConfirmed	true		LineChart	false
-	Cumulative confirmed COVID-19 deaths	lorem ipsum	Confirmed deaths	Cumulative	false	true	covidTrackingProject	deathConfirmed	true		ScatterPlot	false
-	Cumulative confirmed COVID-19 deaths	lorem ipsum	Confirmed deaths	Cumulative	false	false	covidTrackingProject	deathConfirmed	true		LineChart	false
+	Cumulative confirmed COVID-19 deaths per million people	lorem ipsum	Confirmed deaths	Cumulative	true	true	covidTrackingProject	death	true		ScatterPlot	false
+	Cumulative confirmed COVID-19 deaths per million people	lorem ipsum	Confirmed deaths	Cumulative	true	false	covidTrackingProject	death	true		LineChart	false
+	Cumulative confirmed COVID-19 deaths	lorem ipsum	Confirmed deaths	Cumulative	false	true	covidTrackingProject	death	true		ScatterPlot	false
+	Cumulative confirmed COVID-19 deaths	lorem ipsum	Confirmed deaths	Cumulative	false	false	covidTrackingProject	death	true		LineChart	false
 	Daily new confirmed COVID-19 deaths per million people	lorem ipsum	Confirmed deaths	7-day rolling average	true	true	covidTrackingProject	deaths_rolling_average_weekly	true		ScatterPlot	false
 	Daily new confirmed COVID-19 deaths per million people	lorem ipsum	Confirmed deaths	7-day rolling average	true	false	covidTrackingProject	deaths_rolling_average_weekly	true		LineChart	false
 	Daily new confirmed COVID-19 deaths	lorem ipsum	Confirmed deaths	7-day rolling average	false	true	covidTrackingProject	deaths_rolling_average_weekly	true		ScatterPlot	false
@@ -55,10 +55,10 @@ switcher
 	Daily new COVID-19 tests per 1,000 people	lorem ipsum	Tests	New per day	true	false	covidTrackingProject	totalTestResultsIncrease	true		LineChart	false
 	Daily new COVID-19 tests	lorem ipsum	Tests	New per day	false	true	covidTrackingProject	totalTestResultsIncrease	true		ScatterPlot	false
 	Daily new COVID-19 tests	lorem ipsum	Tests	New per day	false	false	covidTrackingProject	totalTestResultsIncrease	true		LineChart	false
-	Cumulative tests conducted per confirmed case of COVID-19	lorem ipsum	Tests per confirmed case	Cumulative	false	false	covidTrackingProject	cumulative_tests_per_case_filtered	true		LineChart	false
-	Tests conducted per confirmed case of COVID-19	lorem ipsum	Tests per confirmed case	7-day rolling average	false	false	covidTrackingProject	tests_per_case_smoothed_filtered_gt_1	true		LineChart	false
-	The share of COVID-19 tests that are positive	lorem ipsum	Share of positive tests	Cumulative	false	false	covidTrackingProject	positive_rate_cumulative_filtered	false		LineChart	false
-	The share of daily COVID-19 tests that are positive	lorem ipsum	Share of positive tests	7-day rolling average	false	false	covidTrackingProject	positive_rate_filtered	false		LineChart	false
+	Cumulative tests conducted per confirmed case of COVID-19	lorem ipsum	Tests per confirmed case	Cumulative	false	false	covidTrackingProject	cumulative_tests_per_case	true		LineChart	false
+	Tests conducted per confirmed case of COVID-19	lorem ipsum	Tests per confirmed case	7-day rolling average	false	false	covidTrackingProject	tests_per_case_smoothed_gt_1	true		LineChart	false
+	The share of COVID-19 tests that are positive	lorem ipsum	Share of positive tests	Cumulative	false	false	covidTrackingProject	positive_rate_cumulative	false		LineChart	false
+	The share of daily COVID-19 tests that are positive	lorem ipsum	Share of positive tests	7-day rolling average	false	false	covidTrackingProject	positive_rate	false		LineChart	false
 
 
 columns	covidTrackingProject
@@ -97,4 +97,4 @@ columns	covidTrackingProject
 	tests_per_case_smoothed_filtered	Tests per case	Ratio	tests_per_case_smoothed
 	positive_rate_cumulative_filtered	Positive test rate	DecimalPercentage	positive_rate_cumulative
 	positive_rate_filtered	Positive test rate	DecimalPercentage	positive_rate
-	tests_per_case_smoothed_filtered_gt_1	Tests per case	Ratio	tests_per_case_smoothed_filtered where tests_per_case_smoothed_filtered isGreaterThanOrEqual 1
+	tests_per_case_smoothed_gt_1	Tests per case	Ratio	tests_per_case_smoothed_filtered where tests_per_case_smoothed_filtered isGreaterThanOrEqual 1
