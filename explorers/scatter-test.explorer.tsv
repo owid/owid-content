@@ -2,18 +2,20 @@ title	ScatterPlot Test
 defaultView	?selection=Canada~France
 isPublished	false
 switcher
-	Examples Radio	title	subtitle	table	type	ySlugs	xSlug
-	Inline Data	Hello world	This is a subtitle	demo	ScatterPlot	gdp	year
-	Data from CSV	Healthy Life Expectancy		lifeExpectancy	ScatterPlot	Healthy-Life-Expectancy-IHME	year
+	Examples Radio	title	subtitle	table	type	ySlugs	xSlug	colorSlug	sizeSlug
+	Inline Data	Hello world	This is a subtitle	demo	ScatterPlot	gdp	year	continent	gdp
+	Data from CSV	Healthy Life Expectancy		lifeExpectancy	ScatterPlot	Healthy-Life-Expectancy-IHME	year	continent	Healthy-Life-Expectancy-IHME
 
 
 table	demo
-	entityName	year	gdp
-	Canada	2020	100
-	France	2020	110
+	entityName	year	gdp	continent
+	Canada	2020	100	North America
+	France	2020	110	Europe
 columns	demo
 	slug	name	type
 	gdp	Gross Domestic Product	Currency
+	continent	Continent	Continent
+
 
 table	lifeExpectancy	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Healthy%20Life%20Expectancy%20-%20IHME/Healthy%20Life%20Expectancy%20-%20IHME.csv
 columns	lifeExpectancy
