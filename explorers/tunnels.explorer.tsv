@@ -2,3 +2,14 @@ title	Tunnels Around the World explorer
 isPublished	true
 subtitle	How much work does Boring Company have to do
 entityType	State
+
+switcher
+	Tunnel Type Radio	type	table	ySlugs
+	In Ground	DiscreteBar	tunnel_dataset	inGroundTunnels
+	Underwater	DiscreteBar	tunnel_dataset	underwaterTunnels
+
+
+table	tunnel_dataset
+	entityName	underwaterTunnels	year	inGroundTunnels
+	United States	2	2000	3
+	Canada	4	2000	3
