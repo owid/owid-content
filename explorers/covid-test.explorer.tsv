@@ -93,18 +93,18 @@ switcher
 			Testing policy										4173
 			Contact tracing										4172
 			Facial coverings										4611
-	Retail and recreation: How did the number of visitors change since the beginning of the pandemic?	Change in visitor numbers is measured relative to a baseline day; a baseline day is the median value from the 5‑week period between Jan 3rd and Feb 6th 2020. This index is smoothed to the rolling 7-day average.	Retail & Recreation		false	false	mobility	retail_and_recreation	false		LineChart	true
-	Grocery and pharmacy stores: How did the number of visitors change since the beginning of the pandemic?	Change in visitor numbers is measured relative to a baseline day; a baseline day is the median value from the 5‑week period between Jan 3rd and Feb 6th 2020. This index is smoothed to the rolling 7-day average.	Grocery & Pharmacy		false	false	mobility	grocery_and_pharmacy	false		LineChart	true
-	Parks and outdoor spaces: How did the number of visitors change since the beginning of the pandemic?	Change in visitor numbers is measured relative to a baseline day; a baseline day is the median value from the 5‑week period between Jan 3rd and Feb 6th 2020. This index is smoothed to the rolling 7-day average.	Parks		false	false	mobility	parks	false		LineChart	true
-	Transit stations: How did the number of visitors change since the beginning of the pandemic?	Change in visitor numbers is measured relative to a baseline day; a baseline day is the median value from the 5‑week period between Jan 3rd and Feb 6th 2020. This index is smoothed to the rolling 7-day average.	Transit Stations		false	false	mobility	transit_stations	false		LineChart	true
-	Workplaces: How did the number of visitors change since the beginning of the pandemic?	Change in visitor numbers is measured relative to a baseline day; a baseline day is the median value from the 5‑week period between Jan 3rd and Feb 6th 2020. This index is smoothed to the rolling 7-day average.	Workplaces		false	false	mobility	workplaces	false		LineChart	true
-	Residential areas: How did the time spent at home change since the beginningof the pandemic?	Change in visitor numbers is measured relative to a baseline day; a baseline day is the median value from the 5‑week period between Jan 3rd and Feb 6th 2020. This index is smoothed to the rolling 7-day average.	Residential		false	false	mobility	residential	false		LineChart	true
-	Face-mask wearing		Face-mask wearing		false	false	yougov	mask_outside_home	false		LineChart	true
-	Handwashing		Handwashing		false	false	yougov	washed_hands	false		LineChart	true
-	Hand sanitiser		Hand sanitiser		false	false	yougov	hand_sanitiser	false		LineChart	true
-	Covered nose and mouth when coughing		Covered nose and mouth when coughing		false	false	yougov	covered_mouth_sneezing	false		LineChart	true
-	Avoided contact with symptomatic people		Avoided contact with symptomatic people		false	false	yougov	avoided_people_with_symptoms	false		LineChart	true
-	Avoided going out		Avoided going out		false	false	yougov	avoided_going_out	false		LineChart	true
+	Retail and recreation: How did the number of visitors change since the beginning of the pandemic?	Change in visitor numbers is measured relative to a baseline day; a baseline day is the median value from the 5‑week period between Jan 3rd and Feb 6th 2020. This index is smoothed to the rolling 7-day average.	Retail & Recreation		false	false	mobility	retail_and_recreation	false		LineChart	false
+	Grocery and pharmacy stores: How did the number of visitors change since the beginning of the pandemic?	Change in visitor numbers is measured relative to a baseline day; a baseline day is the median value from the 5‑week period between Jan 3rd and Feb 6th 2020. This index is smoothed to the rolling 7-day average.	Grocery & Pharmacy		false	false	mobility	grocery_and_pharmacy	false		LineChart	false
+	Parks and outdoor spaces: How did the number of visitors change since the beginning of the pandemic?	Change in visitor numbers is measured relative to a baseline day; a baseline day is the median value from the 5‑week period between Jan 3rd and Feb 6th 2020. This index is smoothed to the rolling 7-day average.	Parks		false	false	mobility	parks	false		LineChart	false
+	Transit stations: How did the number of visitors change since the beginning of the pandemic?	Change in visitor numbers is measured relative to a baseline day; a baseline day is the median value from the 5‑week period between Jan 3rd and Feb 6th 2020. This index is smoothed to the rolling 7-day average.	Transit Stations		false	false	mobility	transit_stations	false		LineChart	false
+	Workplaces: How did the number of visitors change since the beginning of the pandemic?	Change in visitor numbers is measured relative to a baseline day; a baseline day is the median value from the 5‑week period between Jan 3rd and Feb 6th 2020. This index is smoothed to the rolling 7-day average.	Workplaces		false	false	mobility	workplaces	false		LineChart	false
+	Residential areas: How did the time spent at home change since the beginningof the pandemic?	Change in visitor numbers is measured relative to a baseline day; a baseline day is the median value from the 5‑week period between Jan 3rd and Feb 6th 2020. This index is smoothed to the rolling 7-day average.	Residential		false	false	mobility	residential	false		LineChart	false
+	Face-mask wearing		Face-mask wearing		false	false	yougov	mask_outside_home	false		LineChart	false
+	Handwashing		Handwashing		false	false	yougov	washed_hands	false		LineChart	false
+	Hand sanitiser		Hand sanitiser		false	false	yougov	hand_sanitiser	false		LineChart	false
+	Covered nose and mouth when coughing		Covered nose and mouth when coughing		false	false	yougov	covered_mouth_sneezing	false		LineChart	false
+	Avoided contact with symptomatic people		Avoided contact with symptomatic people		false	false	yougov	avoided_people_with_symptoms	false		LineChart	false
+	Avoided going out		Avoided going out		false	false	yougov	avoided_going_out	false		LineChart	false
 
 columns	mega
 	slug	name	type	transform	annotationsColumnSlug
