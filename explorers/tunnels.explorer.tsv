@@ -2,7 +2,7 @@ title	Tunnels Around the World explorer
 isPublished	true
 subtitle	How much work does Boring Company have to do
 entityType	State
-
+defaultView	selection=Canada~United%20States
 switcher
 	Tunnel Type Radio	type	table	ySlugs
 	In Ground	DiscreteBar	tunnel_dataset	inGroundTunnels
