@@ -4,9 +4,9 @@ subtitle	How much work does Boring Company have to do
 entityType	State
 defaultView	selection=Canada~United%20States
 switcher
-	Tunnel Type Radio	type	table	ySlugs
-	In Ground	DiscreteBar	tunnel_dataset	inGroundTunnels
-	Underwater	DiscreteBar	tunnel_dataset	underwaterTunnels
+	Tunnel Type Radio	type	table	ySlugs	title	subtitle
+	In Ground	DiscreteBar	tunnel_dataset	inGroundTunnels	In ground tunnels	These are getting chearper everyday
+	Underwater	DiscreteBar	tunnel_dataset	underwaterTunnels	Underwater tunnels	So are these
 
 
 table	tunnel_dataset
