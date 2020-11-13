@@ -1,6 +1,6 @@
 title	COVID-19 Data Explorer
 isPublished	false
-defaultView	?country=India~United%20States~France~United%20Kingdom~Germany~Canada&pickerMetric=total_cases&pickerSort=desc&time=2020-03-01..latest&Interval=7-day rolling average
+defaultView	?selection=India~United%20States~France~United%20Kingdom~Germany~Canada&pickerMetric=total_cases&pickerSort=desc&time=2020-03-01..latest&Interval=7-day rolling average
 subtitle	Download the complete <em>Our World in Data</em> <a href="https://github.com/owid/covid-19-data/tree/master/public/data" target="_blank" rel="noopener noreferrer">COVID-19 dataset.</a>
 googleSheet	https://docs.google.com/spreadsheets/d/12YBpJ3nvyOJSi16g25z7gXGaUYd1wR4tkDrZXkLnpA0/edit?usp=sharing
 hideAlertBanner	true
@@ -9,7 +9,7 @@ subNavCurrentId	data-explorer
 table	mega	https://covid.ourworldindata.org/data/owid-covid-data.csv
 table	yougov	https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/yougov/YouGov-Imperial%20COVID-19%20Behavior%20Tracker.csv
 table	policy	https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/bsg/COVID%20Government%20Response%20(OxBSG).csv
-table	excess	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Excess%20Mortality%20Data%20%E2%80%93%20HMD%20(2020)/Excess%20Mortality%20Data%20%E2%80%93%20HMD%20(2020).csv
+table	excess	https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/excess_mortality/excess_mortality.csv
 table	mobility	https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/gmobility/Google%20Mobility%20Trends%20(2020).csv
 switcher
 	title	subtitle	Metric Dropdown	Interval Dropdown	Relative to Population Checkbox	Align outbreaks Checkbox	table	ySlugs	yScaleToggle	xSlug	type	hasMapTab	chartId
@@ -70,28 +70,29 @@ switcher
 	Weekly new hospital admissions for COVID-19 per million	Data is only shown for a select number of European countries.	Hospitalizations	Weekly admissions	true	false	mega	weekly_icu_admissions	true		LineChart	true
 	Number of COVID-19 patients in ICU per million	Data is only shown for a select number of European countries.	ICU patients	Daily occupancy	true	false	mega	icu_patients_per_million	true		LineChart	true
 	Weekly ICU admissions for COVID-19 per million	Data is only shown for a select number of European countries.	ICU patients	Weekly admissions	true	false	mega	weekly_icu_admissions_per_million	true		LineChart	true
+	Reproduction rate		R number		false	false	mega	reproduction_rate	false		LineChart	true
 	Excess mortality during COVID-19: The number of deaths from all causes compared to previous years, all ages	Shown is how the number of weekly deaths in 2020 differs (as a percentage) from the average number of deaths in the same week over the previous five years (2015–2019). This metric is called the P-score. We do not show data from the most recent weeks because it is incomplete due to delays in death reporting.	Excess mortality	All ages	false	false	excess	p_scores_all_ages	false		LineChart	true
 	Excess mortality during COVID-19: The number of deaths from all causes compared to previous years, 0-14 years	Shown is how the number of weekly deaths in 2020 differs (as a percentage) from the average number of deaths in the same week over the previous five years (2015–2019). This metric is called the P-score. We do not show data from the most recent weeks because it is incomplete due to delays in death reporting.	Excess mortality	0-14 years	false	false	excess	p_scores_0_14	false		LineChart	true
 	Excess mortality during COVID-19: The number of deaths from all causes compared to previous years, 15-64 years	Shown is how the number of weekly deaths in 2020 differs (as a percentage) from the average number of deaths in the same week over the previous five years (2015–2019). This metric is called the P-score. We do not show data from the most recent weeks because it is incomplete due to delays in death reporting.	Excess mortality	15-64 years	false	false	excess	p_scores_15_64	false		LineChart	true
 	Excess mortality during COVID-19: The number of deaths from all causes compared to previous years, 65-74 years	Shown is how the number of weekly deaths in 2020 differs (as a percentage) from the average number of deaths in the same week over the previous five years (2015–2019). This metric is called the P-score. We do not show data from the most recent weeks because it is incomplete due to delays in death reporting.	Excess mortality	65-74 years	false	false	excess	p_scores_65_74	false		LineChart	true
 	Excess mortality during COVID-19: The number of deaths from all causes compared to previous years, 75-84 years	Shown is how the number of weekly deaths in 2020 differs (as a percentage) from the average number of deaths in the same week over the previous five years (2015–2019). This metric is called the P-score. We do not show data from the most recent weeks because it is incomplete due to delays in death reporting.	Excess mortality	75-84 years	false	false	excess	p_scores_75_84	false		LineChart	true
 	Excess mortality during COVID-19: The number of deaths from all causes compared to previous years, 85+ years	Shown is how the number of weekly deaths in 2020 differs (as a percentage) from the average number of deaths in the same week over the previous five years (2015–2019). This metric is called the P-score. We do not show data from the most recent weeks because it is incomplete due to delays in death reporting.	Excess mortality	85+ years	false	false	excess	p_scores_85plus	false		LineChart	true
-	COVID-19: Government Response Stringency Index	This is a composite measure based on nine response indicators including school closures, workplace closures, and travel bans, rescaled to a value from 0 to 100 (100 = strictest). If policies vary at the subnational level, the index is shown as the response level of the strictest sub-region.	Government Stringency Index		false	false	policy	stringency_index	false		WorldMap	true
-	COVID-19: Containment and Health Index	This is a composite measure based on eleven policy response indicators including school closures, workplace closures, travel bans, testing policy and contact tracing, rescaled to a value from 0 to 100 (100 = strictest). If policies vary at the subnational level, the index is shown as the response level of the strictest sub-region.	Containment and Health Index		false	false	policy	containment_index	false		WorldMap	true
+			Government Stringency Index										4077
+			Containment and Health Index										4486
 			School closures										4072
-	Workplace closures during the COVID-19 pandemic		Workplace closures		false	false	policy	workplace_closures	false		WorldMap	true
-	Cancellation of public events during COVID-19 pandemic		Cancellation of public events		false	false	policy	cancel_public_events	false		WorldMap	true
-	Restrictions on public gatherings in the COVID-19 pandemic		Restrictions on gatherings		false	false	policy	restrictions_gatherings	false		WorldMap	true
-	Public transport closures during the COVID-19 pandemic		Close public transport		false	false	policy	close_public_transport	false		WorldMap	true
-	Stay-at-home requirements during the COVID-19 pandemic		Stay at home requirements		false	false	policy	stay_home_requirements	false		WorldMap	true
-	Restrictions on internal movement during the COVID-19 pandemic		Restrictions on internal movement		false	false	policy	restrictions_internal_movements	false		WorldMap	true
-	International travel controls during the COVID-19 pandemic		International travel controls		false	false	policy	international_travel_controls	false		WorldMap	true
-	Income support during the COVID-19 pandemic	Income support captures if the government is covering the salaries or providing direct cash payments, universal basic income, or similar, of people who lose their jobs or cannot work.	Income support		false	false	policy	income_support	false		WorldMap	true
-	Debt or contract relief during the COVID-19 pandemic	Debt or contract relief captures if the government is freezing financial obligations during the COVID-19 pandemic, such as stopping loan repayments, preventing services like water from stopping, or banning evictions.	Debt/contract relief		false	false	policy	debt_relief	false		WorldMap	true
-	Public information campaigns on the COVID-19 pandemic		Public information campaigns		false	false	policy	public_information_campaigns	false		WorldMap	true
-	COVID-19 Testing Policies		Testing policy		false	false	policy	testing_policy	false		WorldMap	true
-	Which countries do COVID-19 contact tracing?	Limited' contact tracing means some, but not all, cases are traced. 'Comprehensive' tracing means all cases are traced.	Contact tracing		false	false	policy	contact_tracing	false		WorldMap	true
-	Face covering policies during the COVID-19 pandemic		Facial coverings		false	false	policy	facial_coverings	false		WorldMap	true
+			Workplace closures										4176
+			Cancellation of public events										4177
+			Restrictions on gatherings										4183
+			Close public transport										4181
+			Stay at home requirements										4180
+			Restrictions on internal movement										4178
+			International travel controls										4182
+			Income support										4216
+			Debt/contract relief										4217
+			Public information campaigns										4179
+			Testing policy										4173
+			Contact tracing										4172
+			Facial coverings										4611
 	Retail and recreation: How did the number of visitors change since the beginning of the pandemic?	Change in visitor numbers is measured relative to a baseline day; a baseline day is the median value from the 5‑week period between Jan 3rd and Feb 6th 2020. This index is smoothed to the rolling 7-day average.	Retail & Recreation		false	false	mobility	retail_and_recreation	false		LineChart	true
 	Grocery and pharmacy stores: How did the number of visitors change since the beginning of the pandemic?	Change in visitor numbers is measured relative to a baseline day; a baseline day is the median value from the 5‑week period between Jan 3rd and Feb 6th 2020. This index is smoothed to the rolling 7-day average.	Grocery & Pharmacy		false	false	mobility	grocery_and_pharmacy	false		LineChart	true
 	Parks and outdoor spaces: How did the number of visitors change since the beginning of the pandemic?	Change in visitor numbers is measured relative to a baseline day; a baseline day is the median value from the 5‑week period between Jan 3rd and Feb 6th 2020. This index is smoothed to the rolling 7-day average.	Parks		false	false	mobility	parks	false		LineChart	true
