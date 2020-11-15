@@ -1,8 +1,8 @@
-title	MultiMetric Covid Test
+explorerTitle	MultiMetric Covid Test
 isPublished	false
 googleSheet	https://docs.google.com/spreadsheets/d/1yOXHFBGtqxn7fifwrHgxWpZ09Le6lUb8JbF2UhuL0iQ/edit?usp=sharing
 defaultView	?selection=India~United%20States~France~United%20Kingdom~Germany~Canada&pickerMetric=total_cases&pickerSort=desc&time=2020-03-01..latest
-subtitle	Testing multiple metrics on one chart
+explorerSubtitle	Testing multiple metrics on one chart
 hideAlertBanner	true
 subNavId	coronavirus
 subNavCurrentId	data-explorer

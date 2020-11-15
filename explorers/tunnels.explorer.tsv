@@ -1,7 +1,7 @@
-title	Tunnels Around the World explorer
+explorerTitle	Tunnels Around the World explorer
 isPublished	false		# comment
 googleSheet	https://googe.com/fsad
-subtitle	How much work does Boring Company have to do
+explorerSubtitle	How much work does Boring Company have to do
 entityType	State
 defaultView	selection=Canada~United%20States
 switcher

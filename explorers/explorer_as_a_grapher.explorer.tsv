@@ -1,5 +1,5 @@
-title	Using Explorer to Make a Grapher
-subtitle	This demonstrates how to use hideControls to make a Grapher
+explorerTitle	Using Explorer to Make a Grapher
+explorerSubtitle	This demonstrates how to use hideControls to make a Grapher
 hideControls	true
 defaultView	?selection=Canada~France~United States
 isPublished	false
