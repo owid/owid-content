@@ -2,13 +2,13 @@ title	ScatterPlot Test Explorer
 defaultView	selection=Canada~France~Madeira
 isPublished	false
 switcher
-	Examples Radio	title	subtitle	table	type	ySlugs	xSlug	colorSlug	sizeSlug
-	Intro	Understanding the ScatterPlot size dimension	For years, the size dimension of scatter plots on Our World in Data has been a mystery	demo	ScatterPlot	gdp	year	continent	pop
-	A Common Misconception	A Common Misconception	Some assumed it referred to population, but that is not always the case	demo	ScatterPlot	gdp	year	continent	cruiseShipsPerCapia
-	Conclusion	Conclusion	I guess we will never know	demo	ScatterPlot	gdp	year	continent	randomGibberish
+	Examples Radio	title	subtitle	type	ySlugs	xSlug	colorSlug	sizeSlug
+	Intro	Understanding the ScatterPlot size dimension	For years, the size dimension of scatter plots on Our World in Data has been a mystery	ScatterPlot	gdp	year	continent	pop
+	A Common Misconception	A Common Misconception	Some assumed it referred to population, but that is not always the case	ScatterPlot	gdp	year	continent	cruiseShipsPerCapia
+	Conclusion	Conclusion	I guess we will never know	ScatterPlot	gdp	year	continent	randomGibberish
 
 
-table	demo
+table
 	entityName	year	gdp	continent	pop	cruiseShipsPerCapia	randomGibberish
 	Canada	2020	100	North America	1	1	430000
 	France	2020	110	Europe	2	2	544433
