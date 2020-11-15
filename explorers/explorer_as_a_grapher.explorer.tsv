@@ -4,8 +4,8 @@ hideControls	true
 defaultView	?selection=Canada~France~United States
 isPublished	false
 switcher
-	title	subtitle	table	type	ySlugs	hasMapTab
-	Using the Explorer Creator to Make a Grapher	This demonstrates how to use hideControls to make a Grapher entirely in the Explorer creator. If you need to make a quick chart from CSV or inline data, this may be a reasonable option.	demo	DiscreteBar	gdp	true
+	title	subtitle	type	ySlugs	hasMapTab
+	Using the Explorer Creator to Make a Grapher	This demonstrates how to use hideControls to make a Grapher entirely in the Explorer creator. If you need to make a quick chart from CSV or inline data, this may be a reasonable option.	DiscreteBar	gdp	true
 
 
 
