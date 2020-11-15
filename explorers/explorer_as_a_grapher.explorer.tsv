@@ -9,7 +9,7 @@ switcher
 
 
 
-table	demo
+table
 	entityName	year	gdp
 	Canada	2020	100
 	France	2020	110
@@ -17,6 +17,6 @@ table	demo
 
 
 
-columns	demo
+columns
 	slug	name	type
 	gdp	Gross Domestic Product	Currency
