@@ -6,7 +6,7 @@ subtitle	Download the complete <em>Our World in Data</em> <a href="https://githu
 hideAlertBanner	true
 subNavId	coronavirus
 subNavCurrentId	data-explorer
-table	mega	https://covid.ourworldindata.org/data/owid-covid-data.csv
+table	https://covid.ourworldindata.org/data/owid-covid-data.csv
 switcher
 	title	subtitle	Metric Radio	Interval Dropdown	Relative to Population Checkbox	Align outbreaks Checkbox	table	ySlugs	yScaleToggle	xSlug	type	hasMapTab	backgroundSeriesLimit
 	Cumulative confirmed COVID-19 cases per million people	The number of confirmed cases is lower than the number of actual cases; the main reason for that is limited testing.	Confirmed cases	Cumulative	true	false	mega	total_cases_per_million	true		LineChart	true	20
@@ -60,7 +60,7 @@ switcher
 	The share of daily COVID-19 tests that are positive	Shown is the rolling 7-day average. The number of confirmed cases divided by the number of tests, expressed as a percentage. Tests may refer to the number of tests performed or the number of people tested – depending on which is reported by the particular country.	Share of positive tests	7-day rolling average	false	false	mega	positive_rate_filtered	false		LineChart	true	20
 
 
-columns	mega
+columns
 	slug	name	type	transform	annotationsColumnSlug	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo
 	location	Country name	EntityName
 	date	Day	Date
