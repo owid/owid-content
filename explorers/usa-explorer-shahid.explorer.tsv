@@ -7,7 +7,7 @@ hideAlertBanner	true
 subNavId	coronavirus
 subNavCurrentId	data-explorer
 entityType	state
-table	covidTrackingProject	https://raw.githubusercontent.com/shaahmad/usa-covid-data/master/all-states-edited.csv
+table	https://raw.githubusercontent.com/shaahmad/usa-covid-data/master/all-states-edited.csv
 switcher
 	title	subtitle	Metric Radio	Interval Dropdown	Relative to Population Checkbox	Align outbreaks Checkbox	table	ySlugs	yScaleToggle	xSlug	type	hasMapTab
 	Cumulative confirmed COVID-19 cases per million people	lorem ipsum	Confirmed cases	Cumulative	true	false	covidTrackingProject	positive	true		LineChart	false
@@ -61,7 +61,7 @@ switcher
 	The share of daily COVID-19 tests that are positive	lorem ipsum	Share of positive tests	7-day rolling average	false	false	covidTrackingProject	positive_rate	false		LineChart	false
 
 
-columns	covidTrackingProject
+columns
 	slug	name	type	transform	annotationsColumnSlug	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo
 	stateLong	State	EntityName
 	date	Day	Date
