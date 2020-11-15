@@ -1,8 +1,8 @@
-title	COVID-19 Data Explorer
+explorerTitle	COVID-19 Data Explorer
 isPublished	false
 googleSheet	https://docs.google.com/spreadsheets/d/1qeXBgckrktxwrJp2V9NCG9CeDEufAC-nzYYjj6o1vlU/edit?usp=sharing
 defaultView	?selection=India~United%20States~France~United%20Kingdom~Germany~Canada&pickerMetric=total_cases&pickerSort=desc&time=2020-03-01..latest&Interval=7-day rolling average
-subtitle	Download the complete <em>Our World in Data</em> <a href="https://github.com/owid/covid-19-data/tree/master/public/data" target="_blank" rel="noopener noreferrer">COVID-19 dataset.</a>
+explorerSubtitle	Download the complete <em>Our World in Data</em> <a href="https://github.com/owid/covid-19-data/tree/master/public/data" target="_blank" rel="noopener noreferrer">COVID-19 dataset.</a>
 hideAlertBanner	true
 subNavId	coronavirus
 subNavCurrentId	data-explorer
