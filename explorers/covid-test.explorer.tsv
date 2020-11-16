@@ -12,7 +12,7 @@ table	https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/bs
 table	https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/excess_mortality/excess_mortality.csv	excess
 table	https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/gmobility/Google%20Mobility%20Trends%20(2020).csv	mobility
 graphers
-	title	subtitle	Metric Dropdown	Interval Dropdown	Relative to Population Checkbox	Align outbreaks Checkbox	table	ySlugs	yScaleToggle	xSlug	type	hasMapTab	chartId
+	title	subtitle	Metric Dropdown	Interval Dropdown	Relative to Population Checkbox	Align outbreaks Checkbox	table	ySlugs	yScaleToggle	xSlug	type	hasMapTab	grapherId
 	Cumulative confirmed COVID-19 cases per million people	The number of confirmed cases is lower than the number of actual cases; the main reason for that is limited testing.	Confirmed cases	Cumulative	true	false	mega	total_cases_per_million	true		LineChart	true
 	Cumulative confirmed COVID-19 cases per million people	The number of confirmed cases is lower than the number of actual cases; the main reason for that is limited testing.	Confirmed cases	Cumulative	true	true	mega	total_cases_per_million	true	days_since_1_case_per_million	ScatterPlot	true
 	Cumulative confirmed COVID-19 cases	The number of confirmed cases is lower than the number of actual cases; the main reason for that is limited testing.	Confirmed cases	Cumulative	false	true	mega	total_cases	true	days_since_100_cases	ScatterPlot	true
