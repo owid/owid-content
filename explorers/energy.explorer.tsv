@@ -4,7 +4,7 @@ explorerSubtitle	Download the complete <i>Our World in Data</i> <a href="https:/
 defaultView	?tab=chart&selection=United%20States~United%20Kingdom~China~World~India~Brazil~South%20Africa&Total%20or%20Breakdown=Total&Select%20a%20source%20=Low-carbon&Energy%20or%20Electricity=Primary%20energy&Metric%20=Per%20capita%20consumption
 subNavId	energy
 subNavCurrentId	energy-data-explorer
-switcher
+graphers
 	chartId	Total or Breakdown Radio	Select a source Dropdown	Energy or Electricity Radio	Metric Dropdown
 	3868	Total		Primary energy	Annual consumption
 	586	Total		Primary energy	Per capita consumption

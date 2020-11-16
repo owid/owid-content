@@ -1,7 +1,7 @@
 explorerTitle	ScatterPlot Test Explorer
 defaultView	selection=Canada~France~Madeira
 isPublished	false
-switcher
+graphers
 	Examples Radio	title	subtitle	type	ySlugs	xSlug	colorSlug	sizeSlug
 	Intro	Understanding the ScatterPlot size dimension	For years, the size dimension of scatter plots on Our World in Data has been a mystery	ScatterPlot	gdp	year	continent	pop
 	A Common Misconception	A Common Misconception	Some assumed it referred to population, but that is not always the case	ScatterPlot	gdp	year	continent	cruiseShipsPerCapia

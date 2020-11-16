@@ -8,7 +8,7 @@ subNavId	coronavirus
 subNavCurrentId	data-explorer
 entityType	state
 table	https://raw.githubusercontent.com/shaahmad/usa-covid-data/master/all-states-edited.csv
-switcher
+graphers
 	title	subtitle	Metric Radio	Interval Dropdown	Relative to Population Checkbox	Align outbreaks Checkbox	ySlugs	yScaleToggle	xSlug	type	hasMapTab
 	Cumulative confirmed COVID-19 cases per million people	lorem ipsum	Confirmed cases	Cumulative	true	false	positive	true		LineChart	false
 	Cumulative confirmed COVID-19 cases per million people	lorem ipsum	Confirmed cases	Cumulative	true	true	positive	true	 	ScatterPlot	false
