@@ -1,6 +1,6 @@
 explorerTitle	COVID-19 Data Explorer
 isPublished	false
-defaultView	?selection=India~United%20States~France~United%20Kingdom~Germany~Canada&pickerMetric=total_cases&pickerSort=desc&time=2020-03-01..latest&Interval=7-day rolling average
+defaultView	selection=India~United%20States~France~United%20Kingdom~Germany~Canada&pickerMetric=total_cases&pickerSort=desc&time=2020-03-01..latest&Interval=7-day rolling average
 explorerSubtitle	Download the complete <em>Our World in Data</em> <a href="https://github.com/owid/covid-19-data/tree/master/public/data" target="_blank" rel="noopener noreferrer">COVID-19 dataset.</a>
 googleSheet	https://docs.google.com/spreadsheets/d/12YBpJ3nvyOJSi16g25z7gXGaUYd1wR4tkDrZXkLnpA0/edit?usp=sharing
 hideAlertBanner	true
@@ -45,23 +45,22 @@ graphers
 	Week by week change of confirmed COVID-19 deaths	The weekly growth rate on any given date measures the percentage change in number of confirmed deaths over the last seven days relative to the number in the previous seven days.	Confirmed deaths	Weekly change	false	false	mega	weekly_deaths_change	false		LineChart	true
 	Biweekly confirmed COVID-19 deaths	Biweekly confirmed deaths refer to the cumulative number of confirmed deaths over the previous two weeks.	Confirmed deaths	Biweekly	false	false	mega	biweekly_deaths	true		LineChart	true
 	Biweekly change of confirmed COVID-19 deaths	The biweekly growth rate on any given date measures the percentage change in the number of new confirmed deaths over the last 14 days relative to the number in the previous 14 days.	Confirmed deaths	Biweekly change	false	false	mega	biweekly_deaths_change	false		LineChart	true
-	Case fatality rate of the ongoing COVID-19 pandemic	The Case Fatality Rate (CFR) is the ratio between confirmed deaths and confirmed cases. During an outbreak of a pandemic the CFR is a poor measure of the mortality risk of the disease. We explain this in detail at OurWorldInData.org/Coronavirus	Case fatality rate	Cumulative	false	false	mega	cfr	false		LineChart	true
-	Cumulative COVID-19 tests per 1,000 people		Tests	Cumulative	true	true	mega	total_tests_per_thousand	true	days_since_point_1_death_per_million	ScatterPlot	true
-	Cumulative COVID-19 tests per 1,000 people		Tests	Cumulative	true	false	mega	total_tests_per_thousand	true		LineChart	true
-	Cumulative COVID-19 tests		Tests	Cumulative	false	true	mega	total_tests	true	days_since_point_1_death_per_million	ScatterPlot	true
-	Cumulative COVID-19 tests		Tests	Cumulative	false	false	mega	total_tests	true		LineChart	true
-	Daily new COVID-19 tests per 1,000 people		Tests	7-day rolling average	true	true	mega	new_tests_smoothed_per_thousand	true	days_since_point_1_death_per_million	ScatterPlot	true
-	Daily new COVID-19 tests per 1,000 people		Tests	7-day rolling average	true	false	mega	new_tests_smoothed_per_thousand	true		LineChart	true
-	Daily new COVID-19 tests		Tests	7-day rolling average	false	true	mega	new_tests_smoothed	true	days_since_point_1_death_per_million	ScatterPlot	true
-	Daily new COVID-19 tests		Tests	7-day rolling average	false	false	mega	new_tests_smoothed	true		LineChart	true
-	Daily new COVID-19 tests per 1,000 people		Tests	New per day	true	true	mega	new_tests_per_thousand	true	days_since_point_1_death_per_million	ScatterPlot	true
-	Daily new COVID-19 tests per 1,000 people		Tests	New per day	true	false	mega	new_tests_per_thousand	true		LineChart	true
-	Daily new COVID-19 tests		Tests	New per day	false	true	mega	new_tests	true	days_since_point_1_death_per_million	ScatterPlot	true
-	Daily new COVID-19 tests		Tests	New per day	false	false	mega	new_tests	true		LineChart	true
-	Cumulative tests conducted per confirmed case of COVID-19	The number of tests divided by the number of confirmed cases. Not all countries report testing data on a daily basis.	Tests per confirmed case	Cumulative	false	false	mega	cumulative_tests_per_case_filtered	true		LineChart	true
-	Tests conducted per confirmed case of COVID-19	Shown is the rolling 7-day average. The number of tests divided by the number of confirmed cases. Not all countries report testing data on a daily basis.	Tests per confirmed case	7-day rolling average	false	false	mega	tests_per_case_smoothed_filtered_gt_1	true		LineChart	true
 	The share of COVID-19 tests that are positive	The number of confirmed cases divided by the number of tests, expressed as a percentage. Tests may refer to the number of tests performed or the number of people tested – depending on which is reported by the particular country.	Share of positive tests	Cumulative	false	false	mega	positive_rate_cumulative_filtered	false		LineChart	true
 	The share of daily COVID-19 tests that are positive	Shown is the rolling 7-day average. The number of confirmed cases divided by the number of tests, expressed as a percentage. Tests may refer to the number of tests performed or the number of people tested – depending on which is reported by the particular country.	Share of positive tests	7-day rolling average	false	false	mega	positive_rate_filtered	false		LineChart	true
+	Cumulative tests conducted per confirmed case of COVID-19	The number of tests divided by the number of confirmed cases. Not all countries report testing data on a daily basis.	Tests per confirmed case	Cumulative	false	false	mega	cumulative_tests_per_case_filtered	true		LineChart	true
+	Tests conducted per confirmed case of COVID-19	Shown is the rolling 7-day average. The number of tests divided by the number of confirmed cases. Not all countries report testing data on a daily basis.	Tests per confirmed case	7-day rolling average	false	false	mega	tests_per_case_smoothed_filtered_gt_1	true		LineChart	true
+	Cumulative COVID-19 tests per 1,000 people		Number of tests	Cumulative	true	true	mega	total_tests_per_thousand	true	days_since_point_1_death_per_million	ScatterPlot	true
+	Cumulative COVID-19 tests per 1,000 people		Number of tests	Cumulative	true	false	mega	total_tests_per_thousand	true		LineChart	true
+	Cumulative COVID-19 tests		Number of tests	Cumulative	false	true	mega	total_tests	true	days_since_point_1_death_per_million	ScatterPlot	true
+	Cumulative COVID-19 tests		Number of tests	Cumulative	false	false	mega	total_tests	true		LineChart	true
+	Daily new COVID-19 tests per 1,000 people		Number of tests	7-day rolling average	true	true	mega	new_tests_smoothed_per_thousand	true	days_since_point_1_death_per_million	ScatterPlot	true
+	Daily new COVID-19 tests per 1,000 people		Number of tests	7-day rolling average	true	false	mega	new_tests_smoothed_per_thousand	true		LineChart	true
+	Daily new COVID-19 tests		Number of tests	7-day rolling average	false	true	mega	new_tests_smoothed	true	days_since_point_1_death_per_million	ScatterPlot	true
+	Daily new COVID-19 tests		Number of tests	7-day rolling average	false	false	mega	new_tests_smoothed	true		LineChart	true
+	Daily new COVID-19 tests per 1,000 people		Number of tests	New per day	true	true	mega	new_tests_per_thousand	true	days_since_point_1_death_per_million	ScatterPlot	true
+	Daily new COVID-19 tests per 1,000 people		Number of tests	New per day	true	false	mega	new_tests_per_thousand	true		LineChart	true
+	Daily new COVID-19 tests		Number of tests	New per day	false	true	mega	new_tests	true	days_since_point_1_death_per_million	ScatterPlot	true
+	Daily new COVID-19 tests		Number of tests	New per day	false	false	mega	new_tests	true		LineChart	true
 	Number of COVID-19 patients in hospital	Data is only shown for a select number of European countries.	Hospitalizations	Daily occupancy	false	false	mega	hosp_patients	true		LineChart	true
 	Weekly new hospital admissions for COVID-19	Data is only shown for a select number of European countries.	Hospitalizations	Weekly admissions	false	false	mega	weekly_hosp_admissions	true		LineChart	true
 	Number of COVID-19 patients in intensive care (ICU)	Data is only shown for a select number of European countries.	ICU patients	Daily occupancy	false	false	mega	icu_patients	true		LineChart	true
@@ -70,7 +69,8 @@ graphers
 	Weekly new hospital admissions for COVID-19 per million	Data is only shown for a select number of European countries.	Hospitalizations	Weekly admissions	true	false	mega	weekly_icu_admissions	true		LineChart	true
 	Number of COVID-19 patients in ICU per million	Data is only shown for a select number of European countries.	ICU patients	Daily occupancy	true	false	mega	icu_patients_per_million	true		LineChart	true
 	Weekly ICU admissions for COVID-19 per million	Data is only shown for a select number of European countries.	ICU patients	Weekly admissions	true	false	mega	weekly_icu_admissions_per_million	true		LineChart	true
-	Reproduction rate		R number		false	false	mega	reproduction_rate	false		LineChart	true
+	COVID-19 Reproduction number		R number		false	false	mega	reproduction_rate	false		LineChart	true
+	Case fatality rate of the ongoing COVID-19 pandemic	The Case Fatality Rate (CFR) is the ratio between confirmed deaths and confirmed cases. During an outbreak of a pandemic the CFR is a poor measure of the mortality risk of the disease. We explain this in detail at OurWorldInData.org/Coronavirus	Case fatality rate	Cumulative	false	false	mega	cfr	false		LineChart	true
 	Excess mortality during COVID-19: The number of deaths from all causes compared to previous years, all ages	Shown is how the number of weekly deaths in 2020 differs (as a percentage) from the average number of deaths in the same week over the previous five years (2015–2019). This metric is called the P-score. We do not show data from the most recent weeks because it is incomplete due to delays in death reporting.	Excess mortality	All ages	false	false	excess	p_scores_all_ages	false		LineChart	true
 	Excess mortality during COVID-19: The number of deaths from all causes compared to previous years, 0-14 years	Shown is how the number of weekly deaths in 2020 differs (as a percentage) from the average number of deaths in the same week over the previous five years (2015–2019). This metric is called the P-score. We do not show data from the most recent weeks because it is incomplete due to delays in death reporting.	Excess mortality	0-14 years	false	false	excess	p_scores_0_14	false		LineChart	true
 	Excess mortality during COVID-19: The number of deaths from all causes compared to previous years, 15-64 years	Shown is how the number of weekly deaths in 2020 differs (as a percentage) from the average number of deaths in the same week over the previous five years (2015–2019). This metric is called the P-score. We do not show data from the most recent weeks because it is incomplete due to delays in death reporting.	Excess mortality	15-64 years	false	false	excess	p_scores_15_64	false		LineChart	true
@@ -93,18 +93,58 @@ graphers
 			Testing policy										4173
 			Contact tracing										4172
 			Facial coverings										4611
-	Retail and recreation: How did the number of visitors change since the beginning of the pandemic?	Change in visitor numbers is measured relative to a baseline day; a baseline day is the median value from the 5‑week period between Jan 3rd and Feb 6th 2020. This index is smoothed to the rolling 7-day average.	Retail & Recreation		false	false	mobility	retail_and_recreation	false		LineChart	false
-	Grocery and pharmacy stores: How did the number of visitors change since the beginning of the pandemic?	Change in visitor numbers is measured relative to a baseline day; a baseline day is the median value from the 5‑week period between Jan 3rd and Feb 6th 2020. This index is smoothed to the rolling 7-day average.	Grocery & Pharmacy		false	false	mobility	grocery_and_pharmacy	false		LineChart	false
-	Parks and outdoor spaces: How did the number of visitors change since the beginning of the pandemic?	Change in visitor numbers is measured relative to a baseline day; a baseline day is the median value from the 5‑week period between Jan 3rd and Feb 6th 2020. This index is smoothed to the rolling 7-day average.	Parks		false	false	mobility	parks	false		LineChart	false
-	Transit stations: How did the number of visitors change since the beginning of the pandemic?	Change in visitor numbers is measured relative to a baseline day; a baseline day is the median value from the 5‑week period between Jan 3rd and Feb 6th 2020. This index is smoothed to the rolling 7-day average.	Transit Stations		false	false	mobility	transit_stations	false		LineChart	false
-	Workplaces: How did the number of visitors change since the beginning of the pandemic?	Change in visitor numbers is measured relative to a baseline day; a baseline day is the median value from the 5‑week period between Jan 3rd and Feb 6th 2020. This index is smoothed to the rolling 7-day average.	Workplaces		false	false	mobility	workplaces	false		LineChart	false
-	Residential areas: How did the time spent at home change since the beginningof the pandemic?	Change in visitor numbers is measured relative to a baseline day; a baseline day is the median value from the 5‑week period between Jan 3rd and Feb 6th 2020. This index is smoothed to the rolling 7-day average.	Residential		false	false	mobility	residential	false		LineChart	false
-	Face-mask wearing		Face-mask wearing		false	false	yougov	mask_outside_home	false		LineChart	false
-	Handwashing		Handwashing		false	false	yougov	washed_hands	false		LineChart	false
-	Hand sanitiser		Hand sanitiser		false	false	yougov	hand_sanitiser	false		LineChart	false
-	Covered nose and mouth when coughing		Covered nose and mouth when coughing		false	false	yougov	covered_mouth_sneezing	false		LineChart	false
-	Avoided contact with symptomatic people		Avoided contact with symptomatic people		false	false	yougov	avoided_people_with_symptoms	false		LineChart	false
-	Avoided going out		Avoided going out		false	false	yougov	avoided_going_out	false		LineChart	false
+	Retail and recreation: How did the number of visitors change since the beginning of the pandemic?	Change in visitor numbers is measured relative to a baseline day; a baseline day is the median value from the 5‑week period between Jan 3rd and Feb 6th 2020. This index is smoothed to the rolling 7-day average.	Changes in Visitors: Retail & Recreation		false	false	mobility	retail_and_recreation	false		LineChart	false
+	Grocery and pharmacy stores: How did the number of visitors change since the beginning of the pandemic?	Change in visitor numbers is measured relative to a baseline day; a baseline day is the median value from the 5‑week period between Jan 3rd and Feb 6th 2020. This index is smoothed to the rolling 7-day average.	Changes in Visitors: Grocery & Pharmacy		false	false	mobility	grocery_and_pharmacy	false		LineChart	false
+	Parks and outdoor spaces: How did the number of visitors change since the beginning of the pandemic?	Change in visitor numbers is measured relative to a baseline day; a baseline day is the median value from the 5‑week period between Jan 3rd and Feb 6th 2020. This index is smoothed to the rolling 7-day average.	Changes in Visitors: Parks		false	false	mobility	parks	false		LineChart	false
+	Transit stations: How did the number of visitors change since the beginning of the pandemic?	Change in visitor numbers is measured relative to a baseline day; a baseline day is the median value from the 5‑week period between Jan 3rd and Feb 6th 2020. This index is smoothed to the rolling 7-day average.	Changes in Visitors: Transit Stations		false	false	mobility	transit_stations	false		LineChart	false
+	Workplaces: How did the number of visitors change since the beginning of the pandemic?	Change in visitor numbers is measured relative to a baseline day; a baseline day is the median value from the 5‑week period between Jan 3rd and Feb 6th 2020. This index is smoothed to the rolling 7-day average.	Changes in Visitors: Workplaces		false	false	mobility	workplaces	false		LineChart	false
+	Residential areas: How did the time spent at home change since the beginningof the pandemic?	Change in visitor numbers is measured relative to a baseline day; a baseline day is the median value from the 5‑week period between Jan 3rd and Feb 6th 2020. This index is smoothed to the rolling 7-day average.	Changes in Visitors: Residential		false	false	mobility	residential	false		LineChart	false
+	Share who said they had contact with a symptomatic person before developing COVID-19 symptoms	Share of respondents who said they had been in contact with a symptomatic person before developing symptoms.	Contact with symptomatic person before symptoms		false	false	yougov	contact_symptomatic_person_before_own_symptoms	false		LineChart	false
+	Share who said they self-isolated after developing COVID-19 symptoms	Share of respondents who said they self-isolated for seven days after developing symptoms.	Isolated after developing symptoms		false	false	yougov	isolated_with_symptoms	false		LineChart	false
+	Share who visited a doctor in last week with COVID-19 symptoms	Share of respondents who said they visited a doctor or healthcare setting in the last week after developing symptoms.	Visited doctor in last week with symptoms		false	false	yougov	doctor_visit_last_week_with_symptoms	false		WorldMap	false
+	Share who said they were willing to isolate if they developed COVID-19 symptoms	Share of respondents who said they would self-isolate in the next seven days if they developed symptoms.	Willingness to isolate with symptoms		false	false	yougov	willingness_isolate_if_symptoms	false		WorldMap	false
+	Share who said they would have difficulty self-isolating for 7 days if advised	Share of respondents who said it would be difficult to self-isolate for seven days if advised to do so by a healthcare professional or public health authority.	Difficulty self-isolating		false	false	yougov	difficult_to_isolate	false		WorldMap	false
+	Share who said they were willing to isolate if advised by a healthcare professional or authority	Share of respondents who said they would self-isolate in the next seven days if advised to do so by a healthcare professional or public health authority.	Willingness to isolate if advised		false	false	yougov	willingness_isolate_if_advised	false		WorldMap	false
+	Share who wear a face mask	Share of respondents who said they wear a face mask outside their home (e.g. when on public transport, going to a supermarket, going to a main road).	Wear a face mask		false	false	yougov	mask_outside_home	false		WorldMap	false
+	Share who were frequently washing their hands with soap and water	Share of respondents who said they 'Always' or 'Frequently' took steps to wash their hands with soap and water in the last seven days to protect themselves or others.	Handwashing		false	false	yougov	washed_hands	false		WorldMap	false
+	Share who were frequently using hand sanitiser	Share of respondents who said they 'Always' or 'Frequently' covered their nose and mouth when sneezing or coughing in the last seven days to protect themselves or others.	Used hand sanitiser		false	false	yougov	hand_sanitiser	false		WorldMap	false
+	Share who said they were avoiding contact with symptomatic people	Share of respondents who said they 'Always' or 'Frequently' took steps to avoid contact with symptomatic people in the last seven days to protect themselves or others.	Avoided contact with symptomatic people		false	false	yougov	avoided_people_with_symptoms	false		WorldMap	false
+	Share who said they were avoiding going out	Share of respondents who said they 'Always' or 'Frequently' avoided going out in the last seven days to protect themselves or others.	Avoided going out		false	false	yougov	avoided_going_out	false		WorldMap	false
+	Share who said they avoided healthcare settings	Share of respondents who said they 'Always' or 'Frequently' avoided going to healthcare settings in the last seven days to protect themselves or others.	Avoided healthcare settings		false	false	yougov	avoided_healthcare_settings	false		WorldMap	false
+	Share who said they avoided public transport	Share of respondents who said they 'Always' or 'Frequently' avoided using public transport in the last seven days to protect themselves or others.	Avoided public transport		false	false	yougov	avoided_public_transport	false		WorldMap	false
+	Share who said they avoided working outside their home	Share of respondents who said they 'Always' or 'Frequently' avoided working outside the home in the last seven days to protect themselves or others.	Avoided working outside home		false	false	yougov	avoided_working_outside_home	false		WorldMap	false
+	Share who said they avoided sending children to school or university	Share of respondents who said they 'Always' or 'Frequently' avoided letting their children go to school or university in the last seven days to protect themselves or others.	Children not in school		false	false	yougov	children_avoided_school	false		WorldMap	false
+	Share who avoided having guests at home	Share of respondents who said they 'Always' or 'Frequently' avoided having guests in their the home in the last seven days to protect themselves or others.	Avoided guests at home		false	false	yougov	avoided_guests_at_home	false		WorldMap	false
+	Share who avoided small gatherings	Share of respondents who said they 'Always' or 'Frequently' avoided having small gatherings (not more than 2 people) in the last seven days to protect themselves or others.	Avoided small gatherings		false	false	yougov	avoided_small_gatherings	false		WorldMap	false
+	Share who avoided medium gatherings	Share of respondents who said they 'Always' or 'Frequently' avoided having medium gatherings (3 to 10 people) in the last seven days to protect themselves or others.	Avoided medium gatherings		false	false	yougov	avoided_medium_gatherings	false		WorldMap	false
+	Share who avoided crowded areas	Share of respondents who said they 'Always' or 'Frequently' avoided having large gatherings (more than 10 people) in the last seven days to protect themselves or others.	Avoided large gatherings		false	false	yougov	avoided_large_gatherings	false		WorldMap	false
+	Share who avoided large gatherings	Share of respondents who said they 'Always' or 'Frequently' avoided crowded areas in the last seven days to protect themselves or others.	Avoided crowded areas		false	false	yougov	avoided_crowded_areas	false		WorldMap	false
+	Share who avoided going to shops	Share of respondents who said they 'Always' or 'Frequently' avoided shops in the last seven days to protect themselves or others.	Avoided shops		false	false	yougov	avoided_shops	false		WorldMap	false
+	Share who said they cleaned frequently-touched surfaces at home	Share of respondents who said they 'Always' or 'Frequently' cleaned frequently touched surfaces at home in the last seven days to protect themselves or others.	Cleaned surfaces at home		false	false	yougov	cleaned_surfaces_home	false		WorldMap	false
+	Share who said they avoided touching objects in public	Share of respondents who said they 'Always' or 'Frequently' avoided touching objects in public in the last seven days to protect themselves or others.	Avoided touching public objects		false	false	yougov	avoided_objects_public	false		WorldMap	false
+	Share who said they were scared of contracting COVID-18	Share of respondents who said they were 'Very' or 'Fairly' scared of contracting COVID-19.	Scared of COVID-19		false	false	yougov	scared_contracting_covid	false		WorldMap	false
+	Share who said they were happier two weeks ago	Share of respondents who said they were happier than two weeks ago.	Happier two weeks ago		false	false	yougov	happier_two_weeks_ago	false		WorldMap	false
+	Share who said they thought their government had responded well to COVID-18	Share of respondents who said they think their Government were handling the issue of COVID-19 'Very well' or 'Somewhat well'.	Government responded well		false	false	yougov	government_responded_well	false		WorldMap	false
+	Share who wore a mask at home	Share of respondents who said they 'Always' or 'Frequently' wear a face mask inside their home.	Wore mask at home		false	false	yougov	mask_at_home	false		WorldMap	false
+	Share who wore a mask in grocery stores	Share of respondents who said they 'Always' or 'Frequently' wear a face mask inside a grocery store/supermarket.	Wore mask at grocery store		false	false	yougov	mask_grocery_store	false		WorldMap	false
+	Share who wore a mask at work	Share of respondents who said they 'Always' or 'Frequently' wear a face mask at work.	Wore mask at work		false	false	yougov	mask_at_work	false		WorldMap	false
+	Share who wore a mask on public transport	Share of respondents who said they 'Always' or 'Frequently' wear a face mask on public transport.	Wore mask on public transport		false	false	yougov	mask_public_transport	false		WorldMap	false
+	Share that thinks COVID-19 is dangerous to them	Share of respondents who said they think COVID-19 is very dangerous for them.	Thinks COVID-19 is dangerous to them		false	false	yougov	covid_dangerous_to_me	false		WorldMap	false
+	Share that thinks it's likely they will get COVID-18	Share of respondents who said they think it is likely that they will get COVID-19 in the future.	Thinks it's likely they will get COVID-19		false	false	yougov	likely_get_covid_future	false		WorldMap	false
+	Share that thinks wearing a face mask will protect them from COVID-18	Share of respondents who said they think that wearing a face mask will protect them against COVID-19.	Mask will protect them		false	false	yougov	mask_protect_me	false		WorldMap	false
+	Share that thinks wearing a face mask will protect others from COVID-18	Share of respondents who said they think that wearing a face mask will protect others against COVID-19.	Mask will protect others		false	false	yougov	mask_protect_others	false		WorldMap	false
+	Share that says wearing a face mask is not possible for them	Share of respondents who said that wearing a mask to protect them against COVID-19 is not possible for them.	Wearing mask not possible		false	false	yougov	mask_not_possible	false		WorldMap	false
+	Share that says their life has been greatly affected by COVID-18	Share of respondents who said they feel their life has been greatly affected by COVID-19.	Life greatly affected by COVID-19		false	false	yougov	life_greatly_affected	false		WorldMap	false
+	Share who would be willing to provide contact information	Share of respondents who said they would be willing to provide contract information it they were contacted.	Willingness to provide contact info		false	false	yougov	willingness_provide_contact_info	false		WorldMap	false
+	Share that would be willing to share contacts if they tested positive for COVID-18	Share of respondents who said they would be willing to share the names of people they had been in contact with if they tested positive for COVID-19.	Willingness to share contacts		false	false	yougov	willingness_share_people_contact_with	false		WorldMap	false
+	Share that avoided public events	Share of respondents who said they 'Always' or 'Frequently' avoided attention public events (such as sports matches, concerts, festivals, religious services).	Avoided public events		false	false	yougov	avoided_public_events	false		WorldMap	false
+	Share that say people in their region are trustworthy	Share of respondents who said they felt most people in their region were trustworthy.	Trust in people in region		false	false	yougov	trust_people_in_region	false		WorldMap	false
+	Share that say their government is trustworthy	Share of respondents who said they felt their government was trustworthy.	Trust in government		false	false	yougov	trust_government	false		WorldMap	false
+	Share that thinks the public sector in their country is efficient	Share of respondents who said they felt the public sector in their country was efficient.	Efficient public sector		false	false	yougov	public_sector_efficiency	false		WorldMap	false
+	Share that think their country is more united than before COVID-18	Share of respondents who said they felt the country was more united now than before the COVID-19 outbreak.	Thinks country is more united		false	false	yougov	country_united	false		WorldMap	false
+	Share that have a sense of belonging in their community	Share of respondents who said their sense of belonging in their local community was 'Very strong' or 'Somewhat strong'.	Sense of community belonging		false	false	yougov	sense_of_belonging_community	false		WorldMap	false
+	Share that say their sense of belonging has increased since COVID-18	Share of respondents who said their sense of belonging in their local community has increased during the COVID-19 outbreak.	Sense of belonging increased		false	false	yougov	sense_belonging_increased	false		WorldMap	false
+	Share that say people in their community help others	Share of respondents who said that in the past month other people in their community have provided assistance to others without expecting anything in return.	Community cares for others		false	false	yougov	community_care_last_month	false		WorldMap	false
 
 columns	mega
 	slug	name	type	transform	annotationsColumnSlug
@@ -175,6 +215,7 @@ columns	mega
 	weekly_icu_admissions	Weekly new hospital admissions for COVID-19 per million	Numeric
 	icu_patients_per_million	Number of COVID-19 patients in ICU per million	Numeric
 	weekly_icu_admissions_per_million	Weekly ICU admissions for COVID-19 per million	Numeric
+	reproduction_rate	COVID Reproduction number	Numeric
 
 columns	policy
 	slug	name	type
@@ -223,60 +264,59 @@ columns	yougov
 	slug	name	type
 	Entity	Country name	EntityName
 	Year	Day	Date
-	household_members_contact		DecimalPercentage
-	people_contact_outside_household		DecimalPercentage
-	times_left_home_yesterday		DecimalPercentage
-	contact_symptomatic_person_before_own_symptoms		DecimalPercentage
-	isolated_with_symptoms		DecimalPercentage
-	doctor_visit_last_week_with_symptoms		DecimalPercentage
+	household_members_contact	Contact with household members	Numeric
+	people_contact_outside_household	Contact with non-household members	Numeric
+	times_left_home_yesterday	Times left home yesterday	Numeric
+	contact_symptomatic_person_before_own_symptoms	Contact with symptomatic person before symptoms	DecimalPercentage
+	isolated_with_symptoms	Isolated after developing symptoms	DecimalPercentage
+	doctor_visit_last_week_with_symptoms	Visited doctor in last week with symptoms	DecimalPercentage
 	visited_covid_location_before_symptoms		DecimalPercentage
-	willingness_isolate_if_symptoms		DecimalPercentage
-	difficult_to_isolate		DecimalPercentage
-	willingness_isolate_if_advised		DecimalPercentage
-	mask_outside_home	Face-mask wearing	DecimalPercentage
+	willingness_isolate_if_symptoms	Willingness to isolate with symptoms	DecimalPercentage
+	difficult_to_isolate	Difficulty self-isolating	DecimalPercentage
+	willingness_isolate_if_advised	Willingness to isolate if advised	DecimalPercentage
+	mask_outside_home	Wear a face mask	DecimalPercentage
 	washed_hands	Handwashing	DecimalPercentage
 	hand_sanitiser	Used hand sanitiser	DecimalPercentage
 	covered_mouth_sneeze	Covered nose and mouth when coughing	DecimalPercentage
 	avoided_people_with_symptoms	Avoided contact with symptomatic people	DecimalPercentage
 	avoided_going_out	Avoided going out	DecimalPercentage
-	avoided_healthcare_settings		DecimalPercentage
-	avoided_public_transport		DecimalPercentage
-	avoided_working_outside_home		DecimalPercentage
-	children_avoided_school		DecimalPercentage
-	avoided_guests_at_home		DecimalPercentage
-	avoided_small_gatherings		DecimalPercentage
-	avoided_medium_gatherings		DecimalPercentage
-	avoided_large_gatherings		DecimalPercentage
-	avoided_crowded_areas		DecimalPercentage
-	avoided_shops		DecimalPercentage
-	slept_separate_bedrooms		DecimalPercentage
-	eaten_separately		DecimalPercentage
-	cleaned_surfaces_home		DecimalPercentage
-	avoided_objects_public		DecimalPercentage
-	handwashing_yesterday		DecimalPercentage
-	scared_contracting_covid		DecimalPercentage
-	happier_two_weeks_ago		DecimalPercentage
-	government_responded_well		DecimalPercentage
-	mask_at_home		DecimalPercentage
-	mask_grocery_store		DecimalPercentage
-	mask_clothing_store		DecimalPercentage
-	mask_at_work		DecimalPercentage
-	mask_public_transport		DecimalPercentage
-	covid_dangerous_to_me		DecimalPercentage
-	likely_get_covid_future		DecimalPercentage
-	mask_protect_me		DecimalPercentage
-	mask_protect_others		DecimalPercentage
-	mask_not_possible		DecimalPercentage
-	activities_improve_health		DecimalPercentage
-	life_greatly_affected		DecimalPercentage
-	willingness_provide_contact_info		DecimalPercentage
-	willingness_share_people_contact_with		DecimalPercentage
-	avoided_public_events		DecimalPercentage
-	trust_people_in_region		DecimalPercentage
-	trust_government		DecimalPercentage
-	public_sector_efficiency		DecimalPercentage
-	country_united		DecimalPercentage
-	sense_of_belonging_community		DecimalPercentage
-	sense_belonging_increased		DecimalPercentage
-	community_care_last_month		DecimalPercentage
-	In your opinion, in the past month, have other people in your community provided assistance to others, such as a friend, neighbour or co-worker, for example childcare or running errands, without expecting anything in return? (% who answered 'Yes')		DecimalPercentage
+	avoided_healthcare_settings	Avoided healthcare settings	DecimalPercentage
+	avoided_public_transport	Avoided public transport	DecimalPercentage
+	avoided_working_outside_home	Avoided working outside home	DecimalPercentage
+	children_avoided_school	Children not in school	DecimalPercentage
+	avoided_guests_at_home	Avoided guests at home	DecimalPercentage
+	avoided_small_gatherings	Avoided small gatherings	DecimalPercentage
+	avoided_medium_gatherings	Avoided medium gatherings	DecimalPercentage
+	avoided_large_gatherings	Avoided large gatherings	DecimalPercentage
+	avoided_crowded_areas	Avoided crowded areas	DecimalPercentage
+	avoided_shops	Avoided shops	DecimalPercentage
+	slept_separate_bedrooms	Slept in separate bedrooms	DecimalPercentage
+	eaten_separately	Ate separately	DecimalPercentage
+	cleaned_surfaces_home	Cleaned surfaces at home	DecimalPercentage
+	avoided_objects_public	Avoided touching public objects	DecimalPercentage
+	handwashing_yesterday		Numeric
+	scared_contracting_covid	Scared of COVID-19	DecimalPercentage
+	happier_two_weeks_ago	Happier two weeks ago	DecimalPercentage
+	government_responded_well	Government responded well	DecimalPercentage
+	mask_at_home	Wore mask at home	DecimalPercentage
+	mask_grocery_store	Wore mask at grocery store	DecimalPercentage
+	mask_clothing_store	Wore mask at clothing store	DecimalPercentage
+	mask_at_work	Wore mask at work	DecimalPercentage
+	mask_public_transport	Wore mask on public transport	DecimalPercentage
+	covid_dangerous_to_me	Thinks COVID-19 is dangerous to them	DecimalPercentage
+	likely_get_covid_future	Thinks it's likely they will get COVID-19	DecimalPercentage
+	mask_protect_me	Mask will protect them	DecimalPercentage
+	mask_protect_others	Mask will protect others	DecimalPercentage
+	mask_not_possible	Wearing mask not possible	DecimalPercentage
+	activities_improve_health	Activites to improve health	DecimalPercentage
+	life_greatly_affected	Life greatly affected by COVID-19	DecimalPercentage
+	willingness_provide_contact_info	Willingness to provide contact info	DecimalPercentage
+	willingness_share_people_contact_with	Willingness to share contacts	DecimalPercentage
+	avoided_public_events	Avoided public events	DecimalPercentage
+	trust_people_in_region	Trust in people in region	DecimalPercentage
+	trust_government	Trust in government	DecimalPercentage
+	public_sector_efficiency	Efficient public sector	DecimalPercentage
+	country_united	Thinks country is more united	DecimalPercentage
+	sense_of_belonging_community	Sense of community belonging	DecimalPercentage
+	sense_belonging_increased	Sense of belonging increased	DecimalPercentage
+	community_care_last_month	Community cares for others	DecimalPercentage

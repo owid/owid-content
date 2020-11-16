@@ -1,0 +1,29 @@
+<<<<<<< HEAD
+explorerTitle	World Tunnels
+=======
+isPublished	false		# comment
+googleSheet	https://googe.com/fsad
+explorerSubtitle	How much work does Boring Company have to do
+entityType	State
+defaultView	selection=Canada~United%20States
+graphers
+	Tunnel Type Radio	type	ySlugs
+	In Ground	DiscreteBar	inGroundTunnels
+	Underwater	DiscreteBar	underwaterTunnels
+	Underwater Slope	SlopeChart	underwaterTunnels
+
+table
+	entityName	underwaterTunnels	year	inGroundTunnels
+	United States	2	2000	4
+	United States	3	2005	3
+	United States	1	2010	2
+	Canada	4	2000	1
+	Canada	2	2005	13
+	Canada	9	2010	3
+
+columns
+	slug	name	type
+	entityName	Country	EntityName
+	year	Year	Year
+	underwaterTunnels	Underwater Tunnels	Integer
+	inGroundTunnels	In ground Tunnels	Integer
