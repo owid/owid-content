@@ -2,8 +2,8 @@ explorerTitle	Just Another Test Data Explorer
 explorerSubtitle	Testing loading from multiple CSVs
 isPublished	false
 defaultView	?selection=United%20States~Canada
-switcher
-	table	Metric Radio	ySlugs	type	title
+graphers
+	tableSlug	Metric Radio	ySlugs	type	title
 	literacy	Literacy	Literacy-rate-CIA-Factbook-2016	DiscreteBar	Literacy Rates Worldwide
 	lifeExpectancy	Life Expectancy	Healthy-Life-Expectancy-IHME	LineChart	Healthy Life Expectancy
 

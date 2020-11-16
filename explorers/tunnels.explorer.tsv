@@ -4,7 +4,7 @@ googleSheet	https://googe.com/fsad
 explorerSubtitle	How much work does Boring Company have to do
 entityType	State
 defaultView	selection=Canada~United%20States
-switcher
+graphers
 	Tunnel Type Radio	type	ySlugs	title	subtitle
 	In Ground	DiscreteBar	inGroundTunnels	In ground tunnels	These are getting chearper everyday
 	Underwater	DiscreteBar	underwaterTunnels	Underwater tunnels	So are these
