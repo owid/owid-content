@@ -2,14 +2,14 @@ explorerTitle	Données hospitalières COVID-19
 isPublished	false		# comment
 googleSheet
 explorerSubtitle	Subtitle
-entityType	Region
+entityType	region
 defaultView
 graphers
-	Cas Checkbox	type	ySlugs
-	Hospitalisations	DiscreteBar	hosp
+	Type Radio	type	ySlugs
+	Hospitalisations	LineChart	hosp
 	Réanimations	DiscreteBar	rea
 	Retours à domicile	DiscreteBar	rad
-	Décès	DiscreteBar	dc
+
 
 
 columns
