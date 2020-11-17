@@ -1,9 +1,0 @@
-title	Life expectancy Grapher
-subtitle	I did some reserach...
-table	Life expectancy - OECD
-
-explorerTitle	Life Expectancy Explorer
-graphers
-	Per Capita Checkbox	title
-	true	Per capita
-	false	Absolute
