@@ -4,3 +4,5 @@ columns
 	Country	EntityName	Country	Unreviewed
 	Year	Year	Year	Unreviewed
 	GDP	Numeric	GDP	Unreviewed
+
+defaultView	selection=Canada~United States
