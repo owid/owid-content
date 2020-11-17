@@ -11,9 +11,6 @@ graphers
 	Retours à domicile	LineChart	rad
 	Décès	LineChart	dc
 
-
-
-
 columns
 	slug	name	type
 	dep	Departement	EntityName
@@ -26,4 +23,6 @@ columns
 
 
 	#https://docs.google.com/spreadsheets/d/1dTFGK7WM2MkpfjeNL0wpP0hyJ-XhAW9mFqZVvMDKizk/export?format=csv
-table	https://static.data.gouv.fr/resources/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19/20201117-093432/donnees-hospitalieres-covid19-2020-11-17-09h31.csv
+
+	#https://static.data.gouv.fr/resources/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19/20201117-093432/donnees-hospitalieres-covid19-2020-11-17-09h31.csv
+table	https://5e0353eb9d92.ngrok.io/donnees-hospitalieres-covid19-2020-11-17-09h31-with-commas.csv
