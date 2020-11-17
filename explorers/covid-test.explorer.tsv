@@ -263,7 +263,7 @@ columns	excess
 columns	yougov
 	slug	name	type	shortUnit
 	Entity	Country name	EntityName
-	Year	Day	Date
+	Date	Day	Date
 	household_members_contact	Contact with household members	Numeric
 	people_contact_outside_household	Contact with non-household members	Numeric
 	times_left_home_yesterday	Times left home yesterday	Numeric
