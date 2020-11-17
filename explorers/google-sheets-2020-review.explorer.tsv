@@ -1,0 +1,23 @@
+explorerTitle	2020 Review 2
+
+
+table	https://docs.google.com/spreadsheets/d/1lbLQAmTygJlD5U9UQBNY2Uv0UAWgA0rpc1ip-Uk-_Vw/export?format=csv
+
+graphers
+	Metric Dropdown	type	ySlugs	title
+	Page views	LineChart	page_views	Page views
+	Unique page views	LineChart	unique_page_views	Unique page views
+
+columns
+	slug	name	type
+	date	Day	Date
+
+
+
+
+
+
+
+
+	page_views	Page views	Integer
+	unique_page_views	Unique page views	Integer
