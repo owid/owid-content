@@ -1,6 +1,6 @@
 table	https://docs.google.com/spreadsheets/d/1ldmwk7oEbf6DNYYZv7rhgWRPvo005cH13lQpSzCL5Gc/export?format=csv
 columns
 	slug	type	name	notes
-	Country	String	Country	Unreviewed
+	Country	EntityName	Country	Unreviewed
 	Year	Year	Year	Unreviewed
 	GDP	Numeric	GDP	Unreviewed
