@@ -19,9 +19,16 @@ columns
 	page_views	Page views	Integer
 	unique_page_views	Unique page views	Integer
 graphers
-	User Type Radio	type	ySlugs	title	subtitle
+	Metric Dropdown	type	ySlugs	title	subtitle
 	New users	LineChart	new_users	New users	How many new users?
 	Users	LineChart	users	Users	How many total users?
+	Sessions	LineChart	sessions	Sessions
+	Page views	LineChart	page_views	Page views
+	Unique page views	LineChart	unique_page_views	Unique page views
+	Pages per session	LineChart	pages_per_session	Pages per session
+	Events per session	LineChart	events_per_session	Events per session
+	Average time on page	LineChart	avg_time_on_page	Average time on page
+	Average session duration	LineChart	avg_session_duration	Average session duration
 table
 	entityName	date	users	new_users	sessions	avg_time_on_page	avg_session_duration	pages_per_session	events_per_session	page_views	unique_page_views
 	World	1 Jan 2020	28745	25049	31167	113.4456607	78.81079347	1.694677062		52818	46416
