@@ -7,8 +7,8 @@ defaultView
 graphers
 	Type Radio	type	ySlugs
 	Hospitalisations	LineChart	hosp
-	Réanimations	DiscreteBar	rea
-	Retours à domicile	DiscreteBar	rad
+	Réanimations	LineChart	rea
+	Retours à domicile	LineChart	rad
 
 
 
@@ -32,3 +32,6 @@ table
 	02	1	2020-03-18	19	4	11
 	02	2	2020-03-18	22	6	7
 	03	0	2020-03-18	4	0	1
+
+
+table	https://static.data.gouv.fr/resources/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19/20201117-093432/donnees-hospitalieres-covid19-2020-11-17-09h31.csv
