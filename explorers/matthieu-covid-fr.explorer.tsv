@@ -5,7 +5,7 @@ explorerSubtitle	Subtitle
 entityType	Region
 defaultView
 graphers
-	Tunnel types Checkbox	type	ySlugs
+	Cas Checkbox	type	ySlugs
 	Hospitalisations	DiscreteBar	hosp
 	Réanimations	DiscreteBar	rea
 	Retours à domicile	DiscreteBar	rad
