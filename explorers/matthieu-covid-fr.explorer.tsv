@@ -25,4 +25,5 @@ columns
 	dc	Décès	Integer
 
 
-table	https://static.data.gouv.fr/resources/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19/20201117-093432/donnees-hospitalieres-covid19-2020-11-17-09h31.csv
+table	http://127.0.0.1:8080/donnees-hospitalieres-covid19-2020-11-17-09h31-with-commas.csv
+	#https://static.data.gouv.fr/resources/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19/20201117-093432/donnees-hospitalieres-covid19-2020-11-17-09h31.csv
