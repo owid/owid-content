@@ -172,7 +172,7 @@ columns	mega
 	new_cases_smoothed	Daily new confirmed COVID-19 cases	Numeric
 	new_tests_smoothed	Daily new COVID-19 tests	Numeric		tests_units
 	new_tests_smoothed_per_thousand	Daily new COVID-19 tests	Numeric		tests_units
-	positive_rate	Positive test rate	DecimalPercentage
+	positive_rate	Positive test rate	DecimalPercentage	multiplyBy 100
 	tests_per_case	Tests per case	Ratio
 	total_deaths_per_million	Total deaths (per 1M)	Ratio
 	total_cases_per_million	Total cases (per 1M)	Ratio
