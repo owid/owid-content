@@ -6,6 +6,7 @@ explorerSubtitle	Download the complete <em>Our World in Data</em> <a href="https
 hideAlertBanner	true
 subNavId	coronavirus
 subNavCurrentId	data-explorer
+hasMapTab	true
 table	https://covid.ourworldindata.org/data/owid-covid-data.csv
 graphers
 	title	subtitle	Metric Radio	Interval Dropdown	Relative to Population Checkbox	Align outbreaks Checkbox	ySlugs	yScaleToggle	xSlug	type	hasMapTab	backgroundSeriesLimit
