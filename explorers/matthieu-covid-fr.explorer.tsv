@@ -9,7 +9,7 @@ graphers
 	Hospitalisations	LineChart	hosp
 	Réanimations	LineChart	rea
 	Retours à domicile	LineChart	rad
-
+	Décès	LineChart	dc
 
 
 columns
