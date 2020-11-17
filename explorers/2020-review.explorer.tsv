@@ -1,15 +1,16 @@
 explorerTitle	2020 Review
 entityType	country
-
-
-
+defaultView	selection=~World
+isPublished	false
+entityType	Continent
+hasMapTab	true
 
 columns
 	slug	name	type
 	date	Day	Date
 	new_users	New Users	Integer
 	users	Users	Integer
-	location	Location	Country
+	location	Location	Continent
 
 graphers
 	User Type Radio	type	ySlugs	title	subtitle
@@ -18,7 +19,7 @@ graphers
 table
 	location	date	new_users	users
 	World	2020-01-01	25049	28745
-	World	2020-01-02	34853	39792
+	Canada	2020-01-02	34853	39792
 	World	2020-01-03	34496	39567
 	World	2020-01-04	56270	60649
 	World	2020-01-05	64936	70022
