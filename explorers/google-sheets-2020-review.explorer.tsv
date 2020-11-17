@@ -6,7 +6,7 @@ table	https://docs.google.com/spreadsheets/d/1lbLQAmTygJlD5U9UQBNY2Uv0UAWgA0rpc1
 graphers
 	Metric Dropdown	type	ySlugs	title
 	Page views	LineChart	page_views	Page views
-	Unique page views	LineChart	unique_page_views	Unique page views
+	Unique page views	LineChart	unique_pageviews	Unique page views
 
 columns
 	slug	name	type
@@ -20,4 +20,4 @@ columns
 
 
 	page_views	Page views	Integer
-	unique_page_views	Unique page views	Integer
+	unique_pageviews	Unique page views	Integer
