@@ -11,8 +11,6 @@ graphers
 	Retours à domicile	DiscreteBar	rad
 	Décès	DiscreteBar	dc
 
-table	https://www.data.gouv.fr/fr/datasets/r/63352e38-d353-4b54-bfd1-f1b3ee1cabd7
-
 
 columns
 	slug	name	type
@@ -23,3 +21,14 @@ columns
 	rea	Réanimations	Integer
 	rad	Retours à domicile	Integer
 	dc	Décès	Integer
+
+
+table
+	dep	sexe	jour	hosp	rea	rad
+	01	0	2020-03-18	2	0	1
+	01	1	2020-03-18	1	0	1
+	01	2	2020-03-18	1	0	0
+	02	0	2020-03-18	41	10	18
+	02	1	2020-03-18	19	4	11
+	02	2	2020-03-18	22	6	7
+	03	0	2020-03-18	4	0	1
