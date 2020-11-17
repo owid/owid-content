@@ -147,7 +147,7 @@ graphers
 	Share that say people in their community help others	Share of respondents who said that in the past month other people in their community have provided assistance to others without expecting anything in return.	Community cares for others		false	false	yougov	community_care_last_month	false		WorldMap	true
 
 columns	mega
-	slug	name	type	transform	annotationsColumnSlug
+	slug	name	type	transform	annotationsColumnSlug	shortUnit
 	location	Country name	EntityName
 	date	Day	Date
 	population	Population	Population
@@ -172,7 +172,7 @@ columns	mega
 	new_cases_smoothed	Daily new confirmed COVID-19 cases	Numeric
 	new_tests_smoothed	Daily new COVID-19 tests	Numeric		tests_units
 	new_tests_smoothed_per_thousand	Daily new COVID-19 tests	Numeric		tests_units
-	positive_rate	Positive test rate	DecimalPercentage	multiplyBy 100
+	positive_rate	Positive test rate	DecimalPercentage	multiplyBy 100		%
 	tests_per_case	Tests per case	Ratio
 	total_deaths_per_million	Total deaths (per 1M)	Ratio
 	total_cases_per_million	Total cases (per 1M)	Ratio
@@ -204,8 +204,8 @@ columns	mega
 	cumulative_tests_per_case	Cumulative tests conducted per confirmed case of COVID-19	Ratio	total_tests divideBy total_cases
 	cumulative_tests_per_case_filtered	Cumulative tests conducted per confirmed case of COVID-20	Ratio	cumulative_tests_per_case where location isNot Peru or Ecuador or Brazil or Costa Rica or Colombia or Argentina
 	tests_per_case_smoothed_filtered	Tests per case	Ratio	tests_per_case_smoothed where location isNot Peru or Ecuador or Brazil or Costa Rica or Colombia or Argentina
-	positive_rate_cumulative_filtered	Positive test rate	DecimalPercentage	positive_rate_cumulative where location isNot Peru or Ecuador or Brazil or Costa Rica or Colombia or Argentina
-	positive_rate_filtered	Positive test rate	DecimalPercentage	positive_rate where location isNot Peru or Ecuador or Brazil or Costa Rica or Colombia or Argentina
+	positive_rate_cumulative_filtered	Positive test rate	DecimalPercentage	multiplyBy 100 positive_rate_cumulative where location isNot Peru or Ecuador or Brazil or Costa Rica or Colombia or Argentina		%
+	positive_rate_filtered	Positive test rate	DecimalPercentage	multiplyBy 100 positive_rate where location isNot Peru or Ecuador or Brazil or Costa Rica or Colombia or Argentina		%
 	tests_per_case_smoothed_filtered_gt_1	Tests per case	Ratio	tests_per_case_smoothed_filtered where tests_per_case_smoothed_filtered isGreaterThanOrEqual 1
 	hosp_patients	Number of COVID-19 patients in hospital	Numeric
 	weekly_hosp_admissions	Weekly new hospital admissions for COVID-19	Numeric
@@ -250,73 +250,73 @@ columns	mobility
 	residential	Residential areas: How did the time spent at home change since the beginningof the pandemic?	Numeric
 
 columns	excess
-	slug	name	type
+	slug	name	type	shortUnit
 	location	Country name	EntityName
 	date	Day	Date
-	p_scores_all_ages	Excess mortality during COVID-19: The number of deaths from all causes compared to previous years, all ages	DecimalPercentage
-	p_scores_0_14	Excess mortality during COVID-19: The number of deaths from all causes compared to previous years, 0-14 years	DecimalPercentage
-	p_scores_15_64	Excess mortality during COVID-19: The number of deaths from all causes compared to previous years, 15-64 years	DecimalPercentage
-	p_scores_65_74	Excess mortality during COVID-19: The number of deaths from all causes compared to previous years, 65-74 years	DecimalPercentage
-	p_scores_75_84	Excess mortality during COVID-19: The number of deaths from all causes compared to previous years, 75-84 years	DecimalPercentage
-	p_scores_85plus	Excess mortality during COVID-19: The number of deaths from all causes compared to previous years, 85+ years	DecimalPercentage
+	p_scores_all_ages	Excess mortality during COVID-19: The number of deaths from all causes compared to previous years, all ages	DecimalPercentage	%
+	p_scores_0_14	Excess mortality during COVID-19: The number of deaths from all causes compared to previous years, 0-14 years	DecimalPercentage	%
+	p_scores_15_64	Excess mortality during COVID-19: The number of deaths from all causes compared to previous years, 15-64 years	DecimalPercentage	%
+	p_scores_65_74	Excess mortality during COVID-19: The number of deaths from all causes compared to previous years, 65-74 years	DecimalPercentage	%
+	p_scores_75_84	Excess mortality during COVID-19: The number of deaths from all causes compared to previous years, 75-84 years	DecimalPercentage	%
+	p_scores_85plus	Excess mortality during COVID-19: The number of deaths from all causes compared to previous years, 85+ years	DecimalPercentage	%
 
 columns	yougov
-	slug	name	type
+	slug	name	type	shortUnit
 	Entity	Country name	EntityName
 	Year	Day	Date
 	household_members_contact	Contact with household members	Numeric
 	people_contact_outside_household	Contact with non-household members	Numeric
 	times_left_home_yesterday	Times left home yesterday	Numeric
-	contact_symptomatic_person_before_own_symptoms	Contact with symptomatic person before symptoms	DecimalPercentage
-	isolated_with_symptoms	Isolated after developing symptoms	DecimalPercentage
-	doctor_visit_last_week_with_symptoms	Visited doctor in last week with symptoms	DecimalPercentage
-	visited_covid_location_before_symptoms		DecimalPercentage
-	willingness_isolate_if_symptoms	Willingness to isolate with symptoms	DecimalPercentage
-	difficult_to_isolate	Difficulty self-isolating	DecimalPercentage
-	willingness_isolate_if_advised	Willingness to isolate if advised	DecimalPercentage
-	mask_outside_home	Wear a face mask	DecimalPercentage
-	washed_hands	Handwashing	DecimalPercentage
-	hand_sanitiser	Used hand sanitiser	DecimalPercentage
-	covered_mouth_sneeze	Covered nose and mouth when coughing	DecimalPercentage
-	avoided_people_with_symptoms	Avoided contact with symptomatic people	DecimalPercentage
-	avoided_going_out	Avoided going out	DecimalPercentage
-	avoided_healthcare_settings	Avoided healthcare settings	DecimalPercentage
-	avoided_public_transport	Avoided public transport	DecimalPercentage
-	avoided_working_outside_home	Avoided working outside home	DecimalPercentage
-	children_avoided_school	Children not in school	DecimalPercentage
-	avoided_guests_at_home	Avoided guests at home	DecimalPercentage
-	avoided_small_gatherings	Avoided small gatherings	DecimalPercentage
-	avoided_medium_gatherings	Avoided medium gatherings	DecimalPercentage
-	avoided_large_gatherings	Avoided large gatherings	DecimalPercentage
-	avoided_crowded_areas	Avoided crowded areas	DecimalPercentage
-	avoided_shops	Avoided shops	DecimalPercentage
-	slept_separate_bedrooms	Slept in separate bedrooms	DecimalPercentage
-	eaten_separately	Ate separately	DecimalPercentage
-	cleaned_surfaces_home	Cleaned surfaces at home	DecimalPercentage
-	avoided_objects_public	Avoided touching public objects	DecimalPercentage
+	contact_symptomatic_person_before_own_symptoms	Contact with symptomatic person before symptoms	DecimalPercentage	%
+	isolated_with_symptoms	Isolated after developing symptoms	DecimalPercentage	%
+	doctor_visit_last_week_with_symptoms	Visited doctor in last week with symptoms	DecimalPercentage	%
+	visited_covid_location_before_symptoms		DecimalPercentage	%
+	willingness_isolate_if_symptoms	Willingness to isolate with symptoms	DecimalPercentage	%
+	difficult_to_isolate	Difficulty self-isolating	DecimalPercentage	%
+	willingness_isolate_if_advised	Willingness to isolate if advised	DecimalPercentage	%
+	mask_outside_home	Wear a face mask	DecimalPercentage	%
+	washed_hands	Handwashing	DecimalPercentage	%
+	hand_sanitiser	Used hand sanitiser	DecimalPercentage	%
+	covered_mouth_sneeze	Covered nose and mouth when coughing	DecimalPercentage	%
+	avoided_people_with_symptoms	Avoided contact with symptomatic people	DecimalPercentage	%
+	avoided_going_out	Avoided going out	DecimalPercentage	%
+	avoided_healthcare_settings	Avoided healthcare settings	DecimalPercentage	%
+	avoided_public_transport	Avoided public transport	DecimalPercentage	%
+	avoided_working_outside_home	Avoided working outside home	DecimalPercentage	%
+	children_avoided_school	Children not in school	DecimalPercentage	%
+	avoided_guests_at_home	Avoided guests at home	DecimalPercentage	%
+	avoided_small_gatherings	Avoided small gatherings	DecimalPercentage	%
+	avoided_medium_gatherings	Avoided medium gatherings	DecimalPercentage	%
+	avoided_large_gatherings	Avoided large gatherings	DecimalPercentage	%
+	avoided_crowded_areas	Avoided crowded areas	DecimalPercentage	%
+	avoided_shops	Avoided shops	DecimalPercentage	%
+	slept_separate_bedrooms	Slept in separate bedrooms	DecimalPercentage	%
+	eaten_separately	Ate separately	DecimalPercentage	%
+	cleaned_surfaces_home	Cleaned surfaces at home	DecimalPercentage	%
+	avoided_objects_public	Avoided touching public objects	DecimalPercentage	%
 	handwashing_yesterday		Numeric
-	scared_contracting_covid	Scared of COVID-19	DecimalPercentage
-	happier_two_weeks_ago	Happier two weeks ago	DecimalPercentage
-	government_responded_well	Government responded well	DecimalPercentage
-	mask_at_home	Wore mask at home	DecimalPercentage
-	mask_grocery_store	Wore mask at grocery store	DecimalPercentage
-	mask_clothing_store	Wore mask at clothing store	DecimalPercentage
-	mask_at_work	Wore mask at work	DecimalPercentage
-	mask_public_transport	Wore mask on public transport	DecimalPercentage
-	covid_dangerous_to_me	Thinks COVID-19 is dangerous to them	DecimalPercentage
-	likely_get_covid_future	Thinks it's likely they will get COVID-19	DecimalPercentage
-	mask_protect_me	Mask will protect them	DecimalPercentage
-	mask_protect_others	Mask will protect others	DecimalPercentage
-	mask_not_possible	Wearing mask not possible	DecimalPercentage
-	activities_improve_health	Activites to improve health	DecimalPercentage
-	life_greatly_affected	Life greatly affected by COVID-19	DecimalPercentage
-	willingness_provide_contact_info	Willingness to provide contact info	DecimalPercentage
-	willingness_share_people_contact_with	Willingness to share contacts	DecimalPercentage
-	avoided_public_events	Avoided public events	DecimalPercentage
-	trust_people_in_region	Trust in people in region	DecimalPercentage
-	trust_government	Trust in government	DecimalPercentage
-	public_sector_efficiency	Efficient public sector	DecimalPercentage
-	country_united	Thinks country is more united	DecimalPercentage
-	sense_of_belonging_community	Sense of community belonging	DecimalPercentage
-	sense_belonging_increased	Sense of belonging increased	DecimalPercentage
-	community_care_last_month	Community cares for others	DecimalPercentage
+	scared_contracting_covid	Scared of COVID-19	DecimalPercentage	%
+	happier_two_weeks_ago	Happier two weeks ago	DecimalPercentage	%
+	government_responded_well	Government responded well	DecimalPercentage	%
+	mask_at_home	Wore mask at home	DecimalPercentage	%
+	mask_grocery_store	Wore mask at grocery store	DecimalPercentage	%
+	mask_clothing_store	Wore mask at clothing store	DecimalPercentage	%
+	mask_at_work	Wore mask at work	DecimalPercentage	%
+	mask_public_transport	Wore mask on public transport	DecimalPercentage	%
+	covid_dangerous_to_me	Thinks COVID-19 is dangerous to them	DecimalPercentage	%
+	likely_get_covid_future	Thinks it's likely they will get COVID-19	DecimalPercentage	%
+	mask_protect_me	Mask will protect them	DecimalPercentage	%
+	mask_protect_others	Mask will protect others	DecimalPercentage	%
+	mask_not_possible	Wearing mask not possible	DecimalPercentage	%
+	activities_improve_health	Activites to improve health	DecimalPercentage	%
+	life_greatly_affected	Life greatly affected by COVID-19	DecimalPercentage	%
+	willingness_provide_contact_info	Willingness to provide contact info	DecimalPercentage	%
+	willingness_share_people_contact_with	Willingness to share contacts	DecimalPercentage	%
+	avoided_public_events	Avoided public events	DecimalPercentage	%
+	trust_people_in_region	Trust in people in region	DecimalPercentage	%
+	trust_government	Trust in government	DecimalPercentage	%
+	public_sector_efficiency	Efficient public sector	DecimalPercentage	%
+	country_united	Thinks country is more united	DecimalPercentage	%
+	sense_of_belonging_community	Sense of community belonging	DecimalPercentage	%
+	sense_belonging_increased	Sense of belonging increased	DecimalPercentage	%
+	community_care_last_month	Community cares for others	DecimalPercentage	%
