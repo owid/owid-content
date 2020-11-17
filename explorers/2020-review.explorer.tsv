@@ -1,2 +1,10 @@
 explorerTitle	2020 Review
 googleSheet	https://docs.google.com/spreadsheets/d/1xkiut2p2z_5lf8JM4OTJKepsuEcpYuIVX0rUJK9iv-E/edit?usp=sharing
+
+
+
+columns
+	slug	name	type
+	date	Date	Date
+	new_users	New Users	Integer
+	users	Users	Integer
