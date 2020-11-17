@@ -9,17 +9,17 @@ columns
 	slug	name	type
 	date	Day	Date
 	new_users	New Users	Integer
-	users	Users	Integer
-	location	Location	Continent
+	users	Total Users	Integer
+	entityName	Location	Continent
 
 graphers
 	User Type Radio	type	ySlugs	title	subtitle
 	New users	LineChart	new_users	New users	How many new users?
 	Users	LineChart	users	Users	How many total users?
 table
-	location	date	new_users	users
+	entityName	date	new_users	users
 	World	2020-01-01	25049	28745
-	Canada	2020-01-02	34853	39792
+	World	2020-01-02	34853	39792
 	World	2020-01-03	34496	39567
 	World	2020-01-04	56270	60649
 	World	2020-01-05	64936	70022
