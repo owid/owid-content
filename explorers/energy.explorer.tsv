@@ -16,8 +16,8 @@ graphers
 	4318	Breakdown by source		Electricity only	Annual generation	column
 	4300	Breakdown by source		Primary energy	% of total	column
 	4429	Breakdown by source		Electricity only	% of total	column
-	4442	Breakdown by source		Primary energy	% change from previous year	column
-	4304	Breakdown by source		Primary energy	Abs. change from previous year	column
+	4442	Breakdown by source		Primary energy	% change from previous year
+	4304	Breakdown by source		Primary energy	Abs. change from previous year
 	4449	Select a source	Fossil fuels	Primary energy	Annual consumption
 	4434	Select a source	Fossil fuels	Primary energy	Per capita consumption
 	4293	Select a source	Fossil fuels	Primary energy	% of total
