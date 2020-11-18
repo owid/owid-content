@@ -5,19 +5,19 @@ defaultView	?tab=chart&selection=United%20States~United%20Kingdom~China~World~In
 subNavId	energy
 subNavCurrentId	energy-data-explorer
 graphers
-	grapherId	Total or Breakdown Radio	Select a source Dropdown	Energy or Electricity Radio	Metric Dropdown
+	grapherId	Total or Breakdown Radio	Select a source Dropdown	Energy or Electricity Radio	Metric Dropdown	facet
 	3868	Total		Primary energy	Annual consumption
 	586	Total		Primary energy	Per capita consumption
 	4287	Total		Primary energy	% change from previous year
 	4288	Total		Primary energy	Abs. change from previous year
 	4289	Total		Electricity only	Annual generation
 	737	Total		Electricity only	Per capita generation
-	648	Breakdown by source		Primary energy	Annual consumption
-	4318	Breakdown by source		Electricity only	Annual generation
-	4300	Breakdown by source		Primary energy	% of total
-	4429	Breakdown by source		Electricity only	% of total
-	4442	Breakdown by source		Primary energy	% change from previous year
-	4304	Breakdown by source		Primary energy	Abs. change from previous year
+	648	Breakdown by source		Primary energy	Annual consumption	column
+	4318	Breakdown by source		Electricity only	Annual generation	column
+	4300	Breakdown by source		Primary energy	% of total	column
+	4429	Breakdown by source		Electricity only	% of total	column
+	4442	Breakdown by source		Primary energy	% change from previous year	column
+	4304	Breakdown by source		Primary energy	Abs. change from previous year	column
 	4449	Select a source	Fossil fuels	Primary energy	Annual consumption
 	4434	Select a source	Fossil fuels	Primary energy	Per capita consumption
 	4293	Select a source	Fossil fuels	Primary energy	% of total
