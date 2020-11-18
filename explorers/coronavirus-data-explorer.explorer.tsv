@@ -122,7 +122,7 @@ columns
 	tests_per_case_smoothed_filtered	Tests per case	Ratio	tests_per_case_smoothed where location isNot Peru or Ecuador or Brazil or Costa Rica or Colombia or Argentina
 	positive_rate_cumulative_filtered	Positive test rate	DecimalPercentage	positive_rate_cumulative where location isNot Peru or Ecuador or Brazil or Costa Rica or Colombia or Argentina
 	positive_rate_filtered	Positive test rate	DecimalPercentage	positive_rate where location isNot Peru or Ecuador or Brazil or Costa Rica or Colombia or Argentina
-	tests_per_case_smoothed_filtered_gt_1	Tests per case	Ratio	tests_per_case_smoothed_filtered where tests_per_case_smoothed_filtered isGreaterThanOrEqual 1								10
+	tests_per_case_smoothed_filtered_gt_1	Tests per case	Ratio	tests_per_case_smoothed_filtered where tests_per_case_smoothed_filtered isGreaterThanOrEqual 1								20
 	continent		Continent
 	new_deaths_smoothed		Numeric
 	new_cases_smoothed_per_million		Ratio
