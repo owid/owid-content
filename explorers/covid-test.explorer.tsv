@@ -172,7 +172,7 @@ columns	mega
 	new_cases_smoothed	Daily new confirmed COVID-19 cases	Numeric
 	new_tests_smoothed	Daily new COVID-19 tests	Numeric		tests_units
 	new_tests_smoothed_per_thousand	Daily new COVID-19 tests	Numeric		tests_units
-	positive_rate	Positive test rate	DecimalPercentage	multiplyBy 100		%
+	positive_rate	Positive test rate	DecimalPercentage	multiplyBy 100
 	tests_per_case	Tests per case	Ratio
 	total_deaths_per_million	Total deaths (per 1M)	Ratio
 	total_cases_per_million	Total cases (per 1M)	Ratio
@@ -204,8 +204,8 @@ columns	mega
 	cumulative_tests_per_case	Cumulative tests conducted per confirmed case of COVID-19	Ratio	total_tests divideBy total_cases
 	cumulative_tests_per_case_filtered	Cumulative tests conducted per confirmed case of COVID-20	Ratio	cumulative_tests_per_case where location isNot Peru or Ecuador or Brazil or Costa Rica or Colombia or Argentina
 	tests_per_case_smoothed_filtered	Tests per case	Ratio	tests_per_case_smoothed where location isNot Peru or Ecuador or Brazil or Costa Rica or Colombia or Argentina
-	positive_rate_cumulative_filtered	Positive test rate	DecimalPercentage	positive_rate_cumulative where location isNot Peru or Ecuador or Brazil or Costa Rica or Colombia or Argentina		%
-	positive_rate_filtered	Positive test rate	DecimalPercentage	positive_rate where location isNot Peru or Ecuador or Brazil or Costa Rica or Colombia or Argentina		%
+	positive_rate_cumulative_filtered	Positive test rate	DecimalPercentage	positive_rate_cumulative where location isNot Peru or Ecuador or Brazil or Costa Rica or Colombia or Argentina
+	positive_rate_filtered	Positive test rate	DecimalPercentage	positive_rate where location isNot Peru or Ecuador or Brazil or Costa Rica or Colombia or Argentina
 	tests_per_case_smoothed_filtered_gt_1	Tests per case	Ratio	tests_per_case_smoothed_filtered where tests_per_case_smoothed_filtered isGreaterThanOrEqual 1
 	hosp_patients	Number of COVID-19 patients in hospital	Numeric
 	weekly_hosp_admissions	Weekly new hospital admissions for COVID-19	Numeric
@@ -329,3 +329,7 @@ columns	yougov
 	sense_of_belonging_community	Sense of community belonging	DecimalPercentage	%
 	sense_belonging_increased	Sense of belonging increased	DecimalPercentage	%
 	community_care_last_month	Community cares for others	DecimalPercentage	%
+
+
+
+backgroundSeriesLimit	20
