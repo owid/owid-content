@@ -9,7 +9,7 @@ graphers
 	Unique page views	LineChart	unique_pageviews	Unique page views
 
 columns
-	slug	name	type
+	slug	name	type	sourceName	sourceLink	additionalInfo
 	date	Day	Date
 
 
@@ -19,5 +19,5 @@ columns
 
 
 
-	page_views	Page views	Integer
-	unique_pageviews	Unique page views	Integer
+	page_views	Page views	Integer	Google Analytics	www.one.two	Well let's describe something in quite the length and see if we can do a line break using Shift + Enter. No that doesn't work but what about <br> instead of <p>, does that work?</p>
+	unique_pageviews	Unique page views	Integer	Google Analytics
