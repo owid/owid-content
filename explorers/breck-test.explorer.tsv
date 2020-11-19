@@ -1,0 +1,20 @@
+title	Boom
+
+subtitle	goes the
+
+
+
+
+type	DiscreteBar
+
+
+
+
+table
+	person	score
+	Breck	322
+	Matt	3232
+columns
+	slug	type	name	notes
+	person	EntityName	person	Unreviewed
+	score	Numeric	score	Unreviewed
