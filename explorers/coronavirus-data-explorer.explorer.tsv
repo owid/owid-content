@@ -9,6 +9,7 @@ subNavCurrentId	data-explorer
 hasMapTab	true
 backgroundSeriesLimit	20
 table	https://covid.ourworldindata.org/data/owid-covid-data.csv
+hideTitleAnnotation	true
 graphers
 	title	subtitle	Metric Radio	Interval Dropdown	Relative to Population Checkbox	Align outbreaks Checkbox	ySlugs	yScaleToggle	xSlug	type
 	Cumulative confirmed COVID-19 cases per million people	The number of confirmed cases is lower than the number of actual cases; the main reason for that is limited testing.	Confirmed cases	Cumulative	true	false	total_cases_per_million	true		LineChart
