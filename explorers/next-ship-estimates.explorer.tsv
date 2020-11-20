@@ -1,0 +1,27 @@
+explorerTitle	When Will Next Ship?
+explorerSubtitle	A dashboard for measuring progress
+defaultView	selection=Breck
+# todo: add a select all entities selection option? selection=*
+
+table	https://docs.google.com/spreadsheets/d/1_zEQTYk_VVhxNC72N-UtCSWQ3KBslqavaMv8tdYc5eg/export?format=csv
+# end table. todo: fix empty rows bug
+
+
+
+
+
+
+
+graphers
+	title	ySlugs	subtitle
+	Estimates by People	estimatedHoursUntilShip	Not working yet. Almost ready.
+
+
+
+
+
+columns
+	slug	type	name	notes
+	person	EntityName	person	Unreviewed
+	date	Date	Date	Unreviewed
+	estimatedHoursUntilShip	Numeric	hoursUntilShip	Unreviewed
