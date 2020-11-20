@@ -15,7 +15,7 @@ table	https://docs.google.com/spreadsheets/d/1_zEQTYk_VVhxNC72N-UtCSWQ3KBslqavaM
 graphers
 	title	ySlugs	subtitle	Group Radio	hasMapTab	type	hasChartTab	sourceDesc
 	Estimated hours remaining until ship	estimatedHoursUntilShip	Ideally these will all trend to 0	By person	false	LineChart	true	Data is updated daily from OCDC (Our world in Data Center for Data Collection)
-	Estimated hours remaining until ship by country	estimatedHoursUntilShip	Countries that have implemented strict lockdown measures have higher rates of indoor time and thus more optimistic about the amount of work we can get done in a shorter time period.	By country	true	WorldMap	false	This chart doesn't actually work yet, but wouldn't it be nice if we could do group by on the fly!
+	Estimated hours remaining until ship, by country	estimatedHoursUntilShip	Countries that have implemented strict lockdown measures have higher rates of indoor time and thus more optimistic about the amount of work we can get done in a shorter time period.	By country	true	WorldMap	false	This chart doesn't actually work yet, but wouldn't it be nice if we could do group by on the fly!
 
 
 
