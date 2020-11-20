@@ -1,1 +1,13 @@
 graphers
+	title	Metric Radio	Interval Radio	Aligned2 Checkbox
+	A	Cases	Cumulative	true
+	A2	Cases	Cumulative	false
+	A3	Cases	Weekly	false
+
+	B	Tests	Cumulative	true
+	B	Tests	Cumulative	false
+
+
+
+explorerTitle	Test Decisions
+subtitle	Test logic
