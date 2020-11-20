@@ -1,0 +1,29 @@
+explorerTitle	When Will We Ship Next?
+explorerSubtitle	A dashboard for measuring progress
+defaultView	selection=Breck~Daniel
+# todo: add a select all entities selection option? selection=*
+
+table	https://docs.google.com/spreadsheets/d/1_zEQTYk_VVhxNC72N-UtCSWQ3KBslqavaMv8tdYc5eg/export?format=csv
+# end table. todo: fix empty rows bug
+
+
+
+
+
+# todo: would be nice if we could do real time groups by country
+
+graphers
+	title	ySlugs	subtitle	Group Radio	hasMapTab	type	hasChartTab	sourceDesc
+	Estimated hours remaining until ship	estimatedHoursUntilShip	Ideally these will all trend to 0	By person	false	LineChart	true	Data is updated daily from OCDC (Our world in Data Center for Data Collection)
+	Estimated hours remaining until ship, by country	estimatedHoursUntilShip	Countries that have implemented strict lockdown measures have higher rates of indoor time and thus more optimistic about the amount of work we can get done in a shorter time period.	By country	true	WorldMap	false	This chart doesn't actually work yet, but wouldn't it be nice if we could do group by on the fly!
+
+
+
+
+columns
+	slug	type	name	notes
+	person	EntityName	person	Unreviewed
+	date	Date	Date	Unreviewed
+	estimatedHoursUntilShip	Numeric	hoursUntilShip	Unreviewed
+	issuesCreated	Numeric	Issues created
+	issuesStillOpen	Numeric	Issues still open
