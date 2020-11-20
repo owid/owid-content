@@ -13,9 +13,9 @@ table	https://docs.google.com/spreadsheets/d/1_zEQTYk_VVhxNC72N-UtCSWQ3KBslqavaM
 
 
 graphers
-	title	ySlugs	subtitle
-	Estimates by People	estimatedHoursUntilShip	Not working yet. Almost ready.
-
+	title	ySlugs	subtitle	Group Radio	hasMapTab	type	hasChartTab
+	Estimated hours remaining until ship	estimatedHoursUntilShip	Ideally these will all trend to 0	By person	false	LineChart	true
+	Estimated hours remaining until ship by country	estimatedHoursUntilShip	Countries that have implemented strict lockdown measures have higher rates of indoor time and thus more optimistic about the amount of work we can get done in a shorter time period.	By country	true	WorldMap	false
 
 
 
