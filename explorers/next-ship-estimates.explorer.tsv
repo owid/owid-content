@@ -1,6 +1,6 @@
 explorerTitle	When Will We Ship Next?
 explorerSubtitle	A dashboard for measuring progress
-defaultView	selection=Breck
+defaultView	selection=Breck~Daniel
 # todo: add a select all entities selection option? selection=*
 
 table	https://docs.google.com/spreadsheets/d/1_zEQTYk_VVhxNC72N-UtCSWQ3KBslqavaMv8tdYc5eg/export?format=csv
@@ -10,7 +10,7 @@ table	https://docs.google.com/spreadsheets/d/1_zEQTYk_VVhxNC72N-UtCSWQ3KBslqavaM
 
 
 
-
+# todo: would be nice if we could do real time groups by country
 
 graphers
 	title	ySlugs	subtitle	Group Radio	hasMapTab	type	hasChartTab	sourceDesc
