@@ -17,7 +17,7 @@ graphers
 	Total issues left to fix	issuesStillOpen		Issues left	false	LineChart	true	https://docs.google.com/spreadsheets/d/1_zEQTYk_VVhxNC72N-UtCSWQ3KBslqavaMv8tdYc5eg/export?format=csv&gid=Issues	Issues
 # fix end bug
 
-table	https://docs.google.com/spreadsheets/d/1_zEQTYk_VVhxNC72N-UtCSWQ3KBslqavaMv8tdYc5eg/export?format=csv&gid=0	Predictions
+table	https://docs.google.com/spreadsheets/d/1_zEQTYk_VVhxNC72N-UtCSWQ3KBslqavaMv8tdYc5eg/export?format=csv	Predictions
 columns	Predictions
 	slug	type	name
 	person	EntityName	person
@@ -25,7 +25,7 @@ columns	Predictions
 	estimatedHoursUntilShip	Numeric	estimatedHoursUntilShip
 	country	String	country
 
-table	https://docs.google.com/spreadsheets/d/1_zEQTYk_VVhxNC72N-UtCSWQ3KBslqavaMv8tdYc5eg/export?format=csv&gid=1	Issues
+table	https://docs.google.com/spreadsheets/d/1_zEQTYk_VVhxNC72N-UtCSWQ3KBslqavaMv8tdYc5eg/export?format=csv&gid=229137192	Issues
 columns	Issues
 	slug	type	name
 	entity	EntityName	group
