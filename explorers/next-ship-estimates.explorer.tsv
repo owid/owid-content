@@ -21,15 +21,16 @@ graphers
 
 
 columns	issues
-	slug	type	name	notes
-	person	EntityName	person	Unreviewed
-	date	Date	Date	Unreviewed
+	slug	type	name
+	entity	EntityName	group
+	date	Date	Date
 	issuesCreated	Numeric	Issues created
 	issuesStillOpen	Numeric	Issues still open
 
 
 columns	predictions
-	slug	type	name	notes
-	person	EntityName	person	Unreviewed
-	date	Date	Date	Unreviewed
-	estimatedHoursUntilShip	Numeric	hoursUntilShip	Unreviewed
+	slug	type	name
+	person	EntityName	person
+	date	Date	Date
+	estimatedHoursUntilShip	Numeric	estimatedHoursUntilShip
+	country	String	country
