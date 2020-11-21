@@ -3,8 +3,8 @@ explorerSubtitle	A dashboard for measuring progress
 defaultView	selection=Breck~Daniel
 # todo: add a select all entities selection option? selection=*
 
-table	https://docs.google.com/spreadsheets/d/1_zEQTYk_VVhxNC72N-UtCSWQ3KBslqavaMv8tdYc5eg/export?format=csv&sheet=Issues	issues
-table	https://docs.google.com/spreadsheets/d/1_zEQTYk_VVhxNC72N-UtCSWQ3KBslqavaMv8tdYc5eg/export?format=csv&sheet=Predictions	predictions
+
+
 
 
 # todo: would be nice if we could do real time groups by country
@@ -17,6 +17,7 @@ graphers
 	Total issues left to fix	issuesStillOpen		Issues left	false	LineChart	true		issues
 
 
+table	https://docs.google.com/spreadsheets/d/1_zEQTYk_VVhxNC72N-UtCSWQ3KBslqavaMv8tdYc5eg/export?format=csv&sheet=Issues	issues
 columns	issues
 	slug	type	name
 	entity	EntityName	group
@@ -24,7 +25,7 @@ columns	issues
 	issuesCreated	Numeric	Issues created
 	issuesStillOpen	Numeric	Issues still open
 
-
+table	https://docs.google.com/spreadsheets/d/1_zEQTYk_VVhxNC72N-UtCSWQ3KBslqavaMv8tdYc5eg/export?format=csv&sheet=Predictions	predictions
 columns	predictions
 	slug	type	name
 	person	EntityName	person
