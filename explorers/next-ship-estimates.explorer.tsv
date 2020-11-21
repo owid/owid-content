@@ -3,8 +3,8 @@ explorerSubtitle	A dashboard for measuring progress
 defaultView	selection=Breck~Daniel
 # todo: add a select all entities selection option? selection=*
 
-table	https://docs.google.com/spreadsheets/d/1_zEQTYk_VVhxNC72N-UtCSWQ3KBslqavaMv8tdYc5eg/export?format=csv&sheet=Predictions
-# end table. todo: fix empty rows bug
+table	https://docs.google.com/spreadsheets/d/1_zEQTYk_VVhxNC72N-UtCSWQ3KBslqavaMv8tdYc5eg/export?format=csv&sheet=Issues	issues
+table	https://docs.google.com/spreadsheets/d/1_zEQTYk_VVhxNC72N-UtCSWQ3KBslqavaMv8tdYc5eg/export?format=csv&sheet=Predictions	predictions
 
 
 
@@ -13,14 +13,22 @@ table	https://docs.google.com/spreadsheets/d/1_zEQTYk_VVhxNC72N-UtCSWQ3KBslqavaM
 # todo: would be nice if we could do real time groups by country
 
 graphers
-	title	ySlugs	subtitle	Group Radio	hasMapTab	type	hasChartTab	sourceDesc
-	Estimated hours remaining until ship	estimatedHoursUntilShip	Ideally these will all trend to 0	By person	false	LineChart	true	Data is updated daily from OCDC (Our world in Data Center for Data Collection)
-	Estimated hours remaining until ship, by country	estimatedHoursUntilShip	Countries that have implemented strict lockdown measures have higher rates of indoor time and thus more optimistic about the amount of work we can get done in a shorter time period.	By country	true	WorldMap	false	This chart doesn't actually work yet, but wouldn't it be nice if we could do group by on the fly!
+	title	ySlugs	subtitle	Group Radio	hasMapTab	type	hasChartTab	sourceDesc	tableSlug
+	Estimated hours remaining until ship	estimatedHoursUntilShip	Ideally these will all trend to 0	By person	false	LineChart	true	Data is updated daily from OCDC (Our world in Data Center for Data Collection)	predictions
+	Estimated hours remaining until ship, by country	estimatedHoursUntilShip	Countries that have implemented strict lockdown measures have higher rates of indoor time and thus more optimistic about the amount of work we can get done in a shorter time period.	By country	true	WorldMap	false	This chart doesn't actually work yet, but wouldn't it be nice if we could do group by on the fly!	predictions
+	New issues emerged	issuesCreated		Issues created	false	LineChart	true		issues
+	Total issues left to fix	issuesStillOpen		Issues left	false	LineChart	true		issues
 
 
+columns	issues
+	slug	type	name	notes
+	person	EntityName	person	Unreviewed
+	date	Date	Date	Unreviewed
+	issuesCreated	Numeric	Issues created
+	issuesStillOpen	Numeric	Issues still open
 
 
-columns
+columns	predictions
 	slug	type	name	notes
 	person	EntityName	person	Unreviewed
 	date	Date	Date	Unreviewed
