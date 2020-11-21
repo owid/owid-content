@@ -3,7 +3,7 @@ explorerSubtitle	A dashboard for measuring progress
 defaultView	selection=Breck~Daniel
 # todo: add a select all entities selection option? selection=*
 
-table	https://docs.google.com/spreadsheets/d/1_zEQTYk_VVhxNC72N-UtCSWQ3KBslqavaMv8tdYc5eg/export?format=csv
+table	https://docs.google.com/spreadsheets/d/1_zEQTYk_VVhxNC72N-UtCSWQ3KBslqavaMv8tdYc5eg/export?format=csv&sheet=Issues
 # end table. todo: fix empty rows bug
 
 
