@@ -11,24 +11,24 @@ defaultView	selection=Breck~Daniel~Ernst~Esteban~Marcel
 
 graphers
 	title	ySlugs	subtitle	Group Radio	hasMapTab	type	hasChartTab	sourceDesc	tableSlug
-	Estimated hours remaining until ship	estimatedHoursUntilShip	Ideally these will all trend to 0	By person	false	LineChart	true	Data is updated daily from OCDC (Our world in Data Center for Data Collection)	Predictions
+	Estimated hours remaining until ship	estimatedHoursUntilShip	Ideally these will all trend to 0	By person	false	LineChart	true	https://docs.google.com/spreadsheets/d/1_zEQTYk_VVhxNC72N-UtCSWQ3KBslqavaMv8tdYc5eg/export?format=csv&gid=Predictions	Predictions
 	Estimated hours remaining until ship, by country	estimatedHoursUntilShip	Countries that have implemented strict lockdown measures have higher rates of indoor time and thus more optimistic about the amount of work we can get done in a shorter time period.	By country	true	WorldMap	false	This chart doesn't actually work yet, but wouldn't it be nice if we could do group by on the fly!	Predictions
-	New issues emerged	issuesCreated		Issues created	false	LineChart	true		Issues
-	Total issues left to fix	issuesStillOpen		Issues left	false	LineChart	true		Issues
+	New issues emerged	issuesCreated		Issues created	false	LineChart	true	https://docs.google.com/spreadsheets/d/1_zEQTYk_VVhxNC72N-UtCSWQ3KBslqavaMv8tdYc5eg/export?format=csv&gid=Issues	Issues
+	Total issues left to fix	issuesStillOpen		Issues left	false	LineChart	true	https://docs.google.com/spreadsheets/d/1_zEQTYk_VVhxNC72N-UtCSWQ3KBslqavaMv8tdYc5eg/export?format=csv&gid=Issues	Issues
+# fix end bug
 
-
-table	https://docs.google.com/spreadsheets/d/1_zEQTYk_VVhxNC72N-UtCSWQ3KBslqavaMv8tdYc5eg/export?format=csv&sheet=Issues	Issues
-columns	Issues
-	slug	type	name
-	entity	EntityName	group
-	date	Date	Date
-	issuesCreated	Numeric	Issues created
-	issuesStillOpen	Numeric	Issues still open
-
-table	https://docs.google.com/spreadsheets/d/1_zEQTYk_VVhxNC72N-UtCSWQ3KBslqavaMv8tdYc5eg/export?format=csv&sheet=Predictions	Predictions
+table	https://docs.google.com/spreadsheets/d/1_zEQTYk_VVhxNC72N-UtCSWQ3KBslqavaMv8tdYc5eg/export?format=csv&gid=0	Predictions
 columns	Predictions
 	slug	type	name
 	person	EntityName	person
 	date	Date	Date
 	estimatedHoursUntilShip	Numeric	estimatedHoursUntilShip
 	country	String	country
+
+table	https://docs.google.com/spreadsheets/d/1_zEQTYk_VVhxNC72N-UtCSWQ3KBslqavaMv8tdYc5eg/export?format=csv&gid=1	Issues
+columns	Issues
+	slug	type	name
+	entity	EntityName	group
+	date	Date	Date
+	issuesCreated	Numeric	Issues created
+	issuesStillOpen	Numeric	Issues still open
