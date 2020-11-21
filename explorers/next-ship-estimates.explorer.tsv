@@ -1,5 +1,5 @@
 explorerTitle	When Will We Ship Next?
-explorerSubtitle	A dashboard for measuring progress
+explorerSubtitle	A dashboard for forecasting shipdate
 defaultView	selection=Breck~Daniel~Ernst~Esteban~Marcel
 # todo: add a select all entities selection option? selection=*
 
