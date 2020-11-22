@@ -1,7 +1,10 @@
 explorerTitle	When Will We Ship Next?
-explorerSubtitle	A dashboard for forecasting shipdate
-defaultView	selection=Breck~Daniel~Ernst~Esteban~Marcel
+explorerSubtitle	A dashboard for measuring progress
+defaultView	selection=Breck~Daniel
 # todo: add a select all entities selection option? selection=*
+
+table	https://docs.google.com/spreadsheets/d/1_zEQTYk_VVhxNC72N-UtCSWQ3KBslqavaMv8tdYc5eg/export?format=csv
+# end table. todo: fix empty rows bug
 
 
 
@@ -10,33 +13,17 @@ defaultView	selection=Breck~Daniel~Ernst~Esteban~Marcel
 # todo: would be nice if we could do real time groups by country
 
 graphers
-	title	ySlugs	subtitle	Group Radio	hasMapTab	type	hasChartTab	sourceDesc	tableSlug
-	Estimated hours remaining until ship	estimatedHoursUntilShip	Ideally these will all trend to 0	By person	false	LineChart	true	https://docs.google.com/spreadsheets/d/1_zEQTYk_VVhxNC72N-UtCSWQ3KBslqavaMv8tdYc5eg/export?format=csv&gid=Predictions	Predictions
-	Estimated hours remaining until ship, by country	estimatedHoursUntilShip	Countries that have implemented strict lockdown measures have higher rates of indoor time and thus more optimistic about the amount of work we can get done in a shorter time period.	By country	true	WorldMap	false	https://docs.google.com/spreadsheets/d/1_zEQTYk_VVhxNC72N-UtCSWQ3KBslqavaMv8tdYc5eg/export?format=csv&gid=Predictions	Countries
-	New issues emerged	issuesCreated		Issues created	false	LineChart	true	https://docs.google.com/spreadsheets/d/1_zEQTYk_VVhxNC72N-UtCSWQ3KBslqavaMv8tdYc5eg/export?format=csv&gid=Issues	Issues
-	Total issues left to fix	issuesStillOpen		Issues left	false	LineChart	true	https://docs.google.com/spreadsheets/d/1_zEQTYk_VVhxNC72N-UtCSWQ3KBslqavaMv8tdYc5eg/export?format=csv&gid=Issues	Issues
-# fix end bug
+	title	ySlugs	subtitle	Group Radio	hasMapTab	type	hasChartTab	sourceDesc
+	Estimated hours remaining until ship	estimatedHoursUntilShip	Ideally these will all trend to 0	By person	false	LineChart	true	Data is updated daily from OCDC (Our world in Data Center for Data Collection)
+	Estimated hours remaining until ship, by country	estimatedHoursUntilShip	Countries that have implemented strict lockdown measures have higher rates of indoor time and thus more optimistic about the amount of work we can get done in a shorter time period.	By country	true	WorldMap	false	This chart doesn't actually work yet, but wouldn't it be nice if we could do group by on the fly!
+	Issues created	issuesCreated		Issues created	false	LineChart	true
+	Issues remaining	issuesStillOpen		Issues remaining	false	LineChart	true
 
-table	https://docs.google.com/spreadsheets/d/1_zEQTYk_VVhxNC72N-UtCSWQ3KBslqavaMv8tdYc5eg/export?format=csv	Predictions
-columns	Predictions
-	slug	type	name
-	person	EntityName	person
-	date	Date	Date
-	estimatedHoursUntilShip	Numeric	estimatedHoursUntilShip
-	country	String	country
 
-table	https://docs.google.com/spreadsheets/d/1_zEQTYk_VVhxNC72N-UtCSWQ3KBslqavaMv8tdYc5eg/export?format=csv&gid=229137192	Issues
-columns	Issues
-	slug	type	name
-	entity	EntityName	group
-	date	Date	Date
+columns
+	slug	type	name	notes
+	person	EntityName	person	Unreviewed
+	date	Date	Date	Unreviewed
+	estimatedHoursUntilShip	Numeric	hoursUntilShip	Unreviewed
 	issuesCreated	Numeric	Issues created
 	issuesStillOpen	Numeric	Issues still open
-
-table	https://docs.google.com/spreadsheets/d/1_zEQTYk_VVhxNC72N-UtCSWQ3KBslqavaMv8tdYc5eg/export?format=csv	Countries		# bug: we are caching defs 2
-columns	Countries
-	slug	type	name
-	person	String	person
-	date	Date	Date
-	estimatedHoursUntilShip	Numeric	estimatedHoursUntilShip
-	country	EntityName	country
