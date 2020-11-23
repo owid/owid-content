@@ -11,7 +11,6 @@ table	https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/yo
 table	https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/bsg/COVID%20Government%20Response%20(OxBSG).csv	policy
 table	https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/excess_mortality/excess_mortality.csv	excess
 table	https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/gmobility/Google%20Mobility%20Trends%20(2020).csv	mobility
-hideTitleAnnotation	true
 graphers
 	title	subtitle	Metric Dropdown	Interval Dropdown	Relative to Population Checkbox	Align outbreaks Checkbox	tableSlug	ySlugs	yScaleToggle	xSlug	type	hasMapTab	grapherId
 	Cumulative confirmed COVID-19 cases per million people	The number of confirmed cases is lower than the number of actual cases; the main reason for that is limited testing.	Confirmed cases	Cumulative	true	false	mega	total_cases_per_million	true		LineChart	true
