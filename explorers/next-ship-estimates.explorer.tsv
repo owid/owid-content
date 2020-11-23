@@ -14,8 +14,8 @@ table	https://docs.google.com/spreadsheets/d/1_zEQTYk_VVhxNC72N-UtCSWQ3KBslqavaM
 
 graphers
 	title	ySlugs	subtitle	Group Radio	hasMapTab	type	hasChartTab	sourceDesc
-	How many hours until Next becomes OurWorldInData.org? Here's what the team is predicting	estimatedHoursUntilShip	Ideally these will all trend to 0	By person	false	LineChart	true	Data is updated daily from OCDC (Our world in Data Center for Data Collection)
-	Estimated hours remaining until ship, by country	estimatedHoursUntilShip	Countries that have implemented strict lockdown measures have higher rates of indoor time and thus more optimistic about the amount of work we can get done in a shorter time period.	By country	true	WorldMap	false	This chart doesn't actually work yet, but wouldn't it be nice if we could do group by on the fly!
+	How many hours until Next becomes OurWorldInData.org? Here's what the team is predicting	estimatedHoursUntilShip	When a project will ship is never a certainty—lots of variables can impact the final ship date. One forecasting approaching is to build an ensemble of different models and average the results. In this chart, each model was trained differently before generating their predictions. Some implement a "calm" algorithm. Others, a "caffeinated" one. The ensemble should provide a better forecast than any individual prediction.	By person	false	LineChart	true	Data is updated daily from OCDC (Our world in Data Center for Data Collection)
+	How many hours until Next becomes OurWorldInData.org? Here's what the team is predicting, by country	estimatedHoursUntilShip	Countries that have implemented strict lockdown measures have higher rates of indoor time and thus more optimistic about the amount of work we can get done in a shorter time period.	By country	true	WorldMap	false	This chart doesn't actually work yet, but wouldn't it be nice if we could do group by on the fly!
 	Issues created	issuesCreated		Issues created	false	LineChart	true
 	Issues remaining	issuesStillOpen		Issues remaining	false	LineChart	true
 
