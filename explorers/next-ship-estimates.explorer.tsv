@@ -3,7 +3,7 @@ explorerSubtitle	A dashboard for measuring progress. <a href="https://docs.googl
 defaultView	selection=Breck~Daniel~Marcel~Ernst~Esteban
 # todo: add a select all entities selection option? selection=*
 
-table	https://docs.google.com/spreadsheets/d/1_zEQTYk_VVhxNC72N-UtCSWQ3KBslqavaMv8tdYc5eg/export?format=csv
+
 # end table. todo: fix empty rows bug
 
 
@@ -13,17 +13,42 @@ table	https://docs.google.com/spreadsheets/d/1_zEQTYk_VVhxNC72N-UtCSWQ3KBslqavaM
 # todo: would be nice if we could do real time groups by country
 
 graphers
-	title	ySlugs	subtitle	Group Radio	hasMapTab	type	hasChartTab	sourceDesc
-	How many hours until Next becomes OurWorldInData.org? Here's what the team is predicting	estimatedHoursUntilShip	When a project will ship is never a certainty—lots of variables can impact the final ship date. One forecasting approaching is to build an ensemble of different models and average the results. In this chart, each model was trained differently before generating their predictions. Some implement a "calm" algorithm. Others, a "caffeinated" one. The ensemble should provide a better forecast than any individual prediction.	By person	false	LineChart	true	Data is updated daily from OCDC (Our world in Data Center for Data Collection)
-	How many hours until Next becomes OurWorldInData.org? Here's what the team is predicting, by country	estimatedHoursUntilShip	Countries that have implemented strict lockdown measures have higher rates of indoor time and thus more optimistic about the amount of work we can get done in a shorter time period.	By country	true	WorldMap	false	This chart doesn't actually work yet, but wouldn't it be nice if we could do group by on the fly!
-	Issues created	issuesCreated		Issues created	false	LineChart	true
-	Issues remaining	issuesStillOpen		Issues remaining	false	LineChart	true
+	title	ySlugs	subtitle	Group Radio	hasMapTab	type	hasChartTab	sourceDesc	tableSlug
+	How many hours until Next becomes OurWorldInData.org? Here's what the team is predicting	estimatedHoursUntilShip	When a project will ship is never a certainty—lots of variables can impact the final ship date. One forecasting approaching is to build an ensemble of different models and average the results. In this chart, each model was trained differently before generating their predictions. Some implement a "calm" algorithm. Others, a "caffeinated" one. The ensemble should provide a better forecast than any individual prediction.	By person	false	LineChart	true	Data is updated daily from OCDC (Our world in Data Center for Data Collection)	Predictions
+	How many hours until Next becomes OurWorldInData.org? Here's what the team is predicting, by country	estimatedHoursUntilShip	Countries that have implemented strict lockdown measures have higher rates of indoor time and thus more optimistic about the amount of work we can get done in a shorter time period.	By country	true	WorldMap	false	This chart doesn't actually work yet, but wouldn't it be nice if we could do group by on the fly!	Countries
+	Issues created	issuesCreated		Issues created	false	LineChart	true		Issues
+	Issues remaining	issuesStillOpen		Issues remaining	false	LineChart	true		Issues
 
 
-columns
-	slug	type	name	notes
-	person	EntityName	person	Unreviewed
-	date	Date	Date	Unreviewed
-	estimatedHoursUntilShip	Numeric	hoursUntilShip	Unreviewed
+table	https://docs.google.com/spreadsheets/d/1_zEQTYk_VVhxNC72N-UtCSWQ3KBslqavaMv8tdYc5eg/export?format=csv	Predictions
+columns	Predictions
+	slug	type	name
+	person	EntityName	person
+	date	Date	Date
+	estimatedHoursUntilShip	Numeric	hoursUntilShip
+
+
+
+
+
+
+
+
+
+table	https://docs.google.com/spreadsheets/d/1_zEQTYk_VVhxNC72N-UtCSWQ3KBslqavaMv8tdYc5eg/export?format=csv&gid=229137192	Issues
+columns	Issues
+	slug	type	name
+	person	EntityName	person
+	date	Date	Date
 	issuesCreated	Numeric	Issues created
 	issuesStillOpen	Numeric	Issues still open
+
+
+
+table	https://docs.google.com/spreadsheets/d/1_zEQTYk_VVhxNC72N-UtCSWQ3KBslqavaMv8tdYc5eg/export?format=csv	Countries
+columns	Countries
+	slug	type	name
+	person	String	person
+	date	Date	Date
+	estimatedHoursUntilShip	Numeric	estimatedHoursUntilShip
+	country	EntityName	country
