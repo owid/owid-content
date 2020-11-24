@@ -1,0 +1,4 @@
+explorerTitle	Custom explorer
+graphers
+	Yo Checkbox	title	subtitle	type	grapherId	hasMapTab
+	true	Title of chart 1	Subtitle of chart 1	LineChart	4618	true
