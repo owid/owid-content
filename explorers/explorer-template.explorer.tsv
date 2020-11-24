@@ -1,0 +1,18 @@
+explorerTitle	My New Explorer
+explorerSubtitle	This is the subtitle
+selection	Canada~India
+graphers
+	title	ySlugs	subtitle	Statistic Radio	type	hasMapTab
+	Population of different countries	Population	When a project will ship is never a certainty—lots of variables can impact the final ship date. One forecasting approaching is to build an ensemble of different models and average the results. In this chart, each model was trained differently before generating their predictions. Some implement a "calm" algorithm. Others, a "caffeinated" one. The ensemble should provide a better forecast than any individual prediction.	Population	DiscreteBar	true
+	Flag Properties	MapleleafsInFlag	Countries that have implemented strict lockdown measures have higher rates of indoor time and thus more optimistic about the amount of work we can get done in a shorter time period.	Flag	WorldMap	true
+table
+	Country	Population	Year	MapleleafsInFlag
+	Canada	32000000	2020	1
+	India	1000000000	2020	0
+	France	50000000	2020	0
+columns
+	slug	type	name	notes
+	Country	EntityName	Country	Unreviewed
+	Population	Numeric	Population	Unreviewed
+	Year	Year	Year	Unreviewed
+	MapleleafsInFlag	Numeric	MapleleafsInFlag	Unreviewed
