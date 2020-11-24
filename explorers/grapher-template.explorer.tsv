@@ -1,10 +1,10 @@
-explorerTitle	My New Explorer
-explorerSubtitle	This is the subtitle
 selection	Canada~India
-graphers
-	title	ySlugs	subtitle	Statistic Radio	type	hasMapTab
-	Population of different countries	Population	How many people live in each country?	Population	DiscreteBar	true
-	Flag Properties	MapleleafsInFlag	How many leaves are on their flag?	Flag	WorldMap	true
+title	Population of different countries
+subtitle	How many people live in each country?
+type	DiscreteBar
+hasMapTab	true
+hideControls	true
+ySlugs	Population
 table
 	Country	Population	Year	MapleleafsInFlag
 	Canada	32000000	2020	1
