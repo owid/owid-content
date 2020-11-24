@@ -1,7 +1,7 @@
 explorerTitle	Energy Data Explorer
 isPublished	true
 explorerSubtitle	Download the complete <i>Our World in Data</i> <a href="https://github.com/owid/energy-data">Energy Dataset</a>.
-selection	United%20States~United%20Kingdom~China~India~Brazil~South%20Africa
+selection	United States~United Kingdom~China~India~Brazil~South Africa
 subNavId	energy
 subNavCurrentId	energy-data-explorer
 graphers
