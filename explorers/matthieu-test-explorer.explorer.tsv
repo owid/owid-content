@@ -1,4 +1,5 @@
 explorerTitle	Custom explorer
 graphers
 	Yo Checkbox	title	subtitle	type	grapherId	hasMapTab
-	true	Title of chart 1	Subtitle of chart 1	LineChart	4618	true
+	In hospital	Patients in hospital	Subtitle of chart 0	LineChart	4618	true
+	Admissions	New Admissions	Subtitle of chart 2	LineChart	4619	false
