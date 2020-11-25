@@ -2,9 +2,9 @@ explorerTitle	My New Explorer
 explorerSubtitle	This is the subtitle
 selection	Canada~India
 graphers
-	title	ySlugs	subtitle
-	Population of different countries	Population	How many people live in each country?
-	Flag Properties	MapleleafsInFlag	How many leaves are on their flag?
+	title	ySlugs	subtitle	Statistic Radio	type
+	Population of different countries	Population	How many people live in each country?	Population	DiscreteBar
+	Flag Properties	MapleleafsInFlag	How many leaves are on their flag?	Flag	WorldMap
 table
 	Country	Population	Year
 	Canada	32000000	2020
