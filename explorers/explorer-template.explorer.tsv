@@ -1,0 +1,18 @@
+explorerTitle	My New Explorer
+explorerSubtitle	This is the subtitle
+selection	Canada~India
+graphers
+	title	ySlugs	subtitle
+	Population of different countries	Population	How many people live in each country?
+	Flag Properties	MapleleafsInFlag	How many leaves are on their flag?
+table
+	Country	Population	Year
+	Canada	32000000	2020
+	India	1000000000	2020
+	France	50000000	2020
+columns
+	slug	type	name
+	Country	EntityName	Country
+	Population	Numeric	Population
+	Year	Year	Year
+	MapleleafsInFlag	Numeric	MapleleafsInFlag
