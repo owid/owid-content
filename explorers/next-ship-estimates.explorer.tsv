@@ -19,7 +19,7 @@ graphers
 	Issues created	issuesCreated issuesStillOpen pDaysRemaining		Issues created	false	LineChart	true		Issues
 	Issues remaining	issuesStillOpen		Issues remaining	false	LineChart	true		Issues
 	P-days remaining	pDaysRemaining		P-days remaining	false	LineChart	true		Issues
-
+	P-days opened/closed	pDaysCreated pDaysClosed		P-days created & closed	false	LineChart	true		Issues
 table	https://docs.google.com/spreadsheets/d/1_zEQTYk_VVhxNC72N-UtCSWQ3KBslqavaMv8tdYc5eg/export?format=csv	Predictions
 columns	Predictions
 	slug	type	name
@@ -44,7 +44,8 @@ columns	Issues
 	issuesStillOpen	Numeric	Issues still open
 	pDaysRemaining	Numeric	p-days remaining
 	issuesCreatedCumulative	Numeric	Total issues created
-
+	pDaysCreated	Numeric	p-days created
+	pDaysClosed	Numeric	p-days closed
 table	https://docs.google.com/spreadsheets/d/1_zEQTYk_VVhxNC72N-UtCSWQ3KBslqavaMv8tdYc5eg/export?format=csv	Countries
 columns	Countries
 	slug	type	name
