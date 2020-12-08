@@ -12,12 +12,6 @@ switcher
 	4288	Total		Primary energy	Abs. change from previous year
 	4289	Total		Electricity only	Annual generation
 	737	Total		Electricity only	Per capita generation
-	648	Breakdown by source		Primary energy	Annual consumption
-	4318	Breakdown by source		Electricity only	Annual generation
-	4300	Breakdown by source		Primary energy	% of total
-	4429	Breakdown by source		Electricity only	% of total
-	4442	Breakdown by source		Primary energy	% change from previous year
-	4304	Breakdown by source		Primary energy	Abs. change from previous year
 	4449	Select a source	Fossil fuels	Primary energy	Annual consumption
 	4434	Select a source	Fossil fuels	Primary energy	Per capita consumption
 	4293	Select a source	Fossil fuels	Primary energy	% of total
