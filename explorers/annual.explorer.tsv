@@ -1,9 +1,10 @@
 title	Production vs Next
 facet	column
-type	LineChart
+type	StackedBar
 selection	Owid
 hideControls	true
-ySlugs	Features loc Speed Auditability
+ySlugs	codeCoverage subprojects bakeTime loc
+
 columns
 	slug	type	name	notes
 	entity	EntityName	entity	Unreviewed
@@ -22,6 +23,6 @@ columns
 
 
 table
-	entity	quarter	userFeatures	authorFeatures	userSpeed	authorSpeed	reproducibility	codeCoverage	tests	subprojects	readmes	kloc	devOnBoardingTime	circularDependencies
-	Owid	2020-Q1	50	20	20	50000	20
-	Owid	2021-Q1	75	40	100	60000	80
+	entity	quarter	userFeatures	authorFeatures	userSpeed	authorSpeed	reproducibility	codeCoverage	tests	subprojects	loc	bakeTime
+	Owid	2020-Q3	50	20	20	50000	20	23882		1	58195	1173
+	Owid	2020-Q4	75	40	100	60000	80	35504		11	60104	213
