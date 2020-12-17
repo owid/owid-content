@@ -1,6 +1,6 @@
 explorerTitle	When Will We Ship Next?
 explorerSubtitle	A dashboard for measuring progress. <a href="https://docs.google.com/spreadsheets/d/1_zEQTYk_VVhxNC72N-UtCSWQ3KBslqavaMv8tdYc5eg" target="_blank" rel="noopener noreferrer">Edit sheet</a>.
-selection	Breck~Daniel~Marcel~Ernst~Esteban~Shahid
+selection	Breck	Daniel	Marcel	Esteban	Shahid	Ernst
 # todo: add a select all entities selection option? selection=*
 
 
