@@ -10,7 +10,8 @@ columns
 	quarter	Quarter	quarter	Unreviewed
 	loc	Numeric	Lines of Code	Unreviewed
 	Features	Numeric	Features	Unreviewed
-	Speed	Numeric	Speed	Unreviewed
+
+	Speed	Numeric	User Speed	Unreviewed
 	Auditability	Numeric	Auditability	Unreviewed
 
 
@@ -20,8 +21,7 @@ columns
 
 
 
-
 table
-	entity	quarter	Features	Speed	Auditability	loc
-	Owid	2020-Q1	50	20	20	50000
-	Owid	2021-Q1	75	40	100	60000
+	entity	quarter	userFeatures	authorFeatures	userSpeed	authorSpeed	reproducibility	codeCoverage	tests	subprojects	readmes	kloc	devOnBoardingTime	circularDependencies
+	Owid	2020-Q1	50	20	20	50000	20
+	Owid	2021-Q1	75	40	100	60000	80
