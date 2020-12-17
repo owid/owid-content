@@ -1,9 +1,9 @@
 title	Production vs Next
 facet	column
-type	SlopeChart
+type	LineChart
 selection	Owid
 hideControls	true
-ySlugs	Features
+ySlugs	Features loc Speed Auditability
 columns
 	slug	type	name	notes
 	entity	EntityName	entity	Unreviewed
