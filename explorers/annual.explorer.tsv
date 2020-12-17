@@ -3,17 +3,25 @@ facet	column
 type	SlopeChart
 selection	Owid
 hideControls	true
+ySlugs	Features
+columns
+	slug	type	name	notes
+	entity	EntityName	entity	Unreviewed
+	quarter	Quarter	quarter	Unreviewed
+	loc	Numeric	Lines of Code	Unreviewed
+	Features	Numeric	Features	Unreviewed
+	Speed	Numeric	Speed	Unreviewed
+	Auditability	Numeric	Auditability	Unreviewed
+
+
+
+
 
 
 
 
 
 table
-	entity	quarter	loc
-	Owid	Q1-2020	50000
-	Owid	Q1-2021	60000
-columns
-	slug	type	name	notes
-	entity	EntityName	entity	Unreviewed
-	quarter	Quarter	quarter	Unreviewed
-	loc	Numeric	Lines of Code	Unreviewed
+	entity	quarter	Features	Speed	Auditability	loc
+	Owid	2020-Q1	50	20	20	50000
+	Owid	2021-Q1	75	40	100	60000
