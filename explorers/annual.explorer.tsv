@@ -1,0 +1,19 @@
+title	Production vs Next
+facet	column
+type	SlopeChart
+selection	Owid
+hideControls	true
+
+
+
+
+
+table
+	entity	quarter	loc
+	Owid	Q1-2020	50000
+	Owid	Q1-2021	60000
+columns
+	slug	type	name	notes
+	entity	EntityName	entity	Unreviewed
+	quarter	Quarter	quarter	Unreviewed
+	loc	Numeric	Lines of Code	Unreviewed
