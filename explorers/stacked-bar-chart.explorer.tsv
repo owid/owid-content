@@ -1,0 +1,22 @@
+selection	Canada~India~France
+title	Population of different countries
+subtitle	How many people live in each country?
+type	DiscreteBar
+hasMapTab	true
+hideControls	true
+ySlugs	FirstDose FullyVaccinated
+table
+	Country	FirstDose	Year	FullyVaccinated
+	Canada	19	2020	14
+	India	3	2020	2
+	France	1	2020	0.1
+	Canada	6	2019	4
+	India	2	2019	1
+	France	0.4	2019	0.05
+
+columns
+	slug	type	name	notes
+	Country	EntityName	Country	Unreviewed
+	FirstDose	Numeric	FirstDose	Unreviewed
+	Year	Year	Year	Unreviewed
+	FullyVaccinated	Numeric	FullyVaccinated	Unreviewed
