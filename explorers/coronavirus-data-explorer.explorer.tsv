@@ -62,6 +62,11 @@ graphers
 	Tests conducted per confirmed case of COVID-19	Shown is the rolling 7-day average. The number of tests divided by the number of confirmed cases. Not all countries report testing data on a daily basis.	Tests per confirmed case	7-day rolling average	false	false	tests_per_case_smoothed_filtered_gt_1	true		LineChart
 	The share of COVID-19 tests that are positive	The number of confirmed cases divided by the number of tests, expressed as a percentage. Tests may refer to the number of tests performed or the number of people tested – depending on which is reported by the particular country.	Share of positive tests	Cumulative	false	false	positive_rate_cumulative_filtered	false		LineChart
 	The share of daily COVID-19 tests that are positive	Shown is the rolling 7-day average. The number of confirmed cases divided by the number of tests, expressed as a percentage. Tests may refer to the number of tests performed or the number of people tested – depending on which is reported by the particular country.	Share of positive tests	7-day rolling average	false	false	positive_rate_filtered	false		LineChart
+	COVID-19 vaccine doses administered	Total number of vaccination doses administered. This is counted as a single dose, and may not equal the total number of people vaccinated, depending on the specific dose regime (e.g. people receive multiple doses).	Vaccinations	Cumulative	false	false	total_vaccinations	false		LineChart
+	COVID-19 vaccine doses administered per 100 people	Total number of vaccination doses administered per 100 people in the total population. This is counted as a single dose, and may not equal the total number of people vaccinated, depending on the specific dose regime (e.g. people receive multiple doses).	Vaccinations	Cumulative	true	false	total_vaccinations_per_hundred	false		LineChart
+	Daily COVID-19 vaccine doses administered	This is counted as a single dose, and may not equal the total number of people vaccinated, depending on the specific dose regime (e.g. people receive multiple doses).	Vaccinations	New per day	false	false	new_vaccinations	false		LineChart
+	Daily COVID-19 vaccine doses administered	Shown is the rolling 7-day average. This is counted as a single dose, and may not equal the total number of people vaccinated, depending on the specific dose regime (e.g. people receive multiple doses).	Vaccinations	7-day rolling average	false	false	new_vaccinations_smoothed	false		LineChart
+	Daily COVID-19 vaccine doses administered per 100 people	Shown is the rolling 7-day average per 100 people in the total population. This is counted as a single dose, and may not equal the total number of people vaccinated, depending on the specific dose regime (e.g. people receive multiple doses).	Vaccinations	7-day rolling average	true	false	new_vaccinations_per_hundred	false		LineChart
 
 
 columns
@@ -125,6 +130,7 @@ columns
 	positive_rate_cumulative_filtered	Positive test rate	DecimalPercentage	positive_rate_cumulative where location isNot Peru or Ecuador or Brazil or Costa Rica or Colombia or Argentina								5
 	positive_rate_filtered	Positive test rate	DecimalPercentage	positive_rate where location isNot Peru or Ecuador or Brazil or Costa Rica or Colombia or Argentina								5
 	tests_per_case_smoothed_filtered_gt_1	Tests per case	Ratio	tests_per_case_smoothed_filtered where tests_per_case_smoothed_filtered isGreaterThanOrEqual 1								10
+	new_vaccinations_per_hundred		Ratio	multiplyBy new_vaccinations_per_million 0.001
 	continent		Continent
 	new_deaths_smoothed		Numeric
 	new_cases_smoothed_per_million		Ratio
@@ -143,3 +149,8 @@ columns
 	female_smokers		Percentage
 	male_smokers		Percentage
 	handwashing_facilities		Percentage
+	total_vaccinations		Integer
+	total_vaccinations_per_hundred		Ratio
+	new_vaccinations		Integer
+	new_vaccinations_smoothed		Numeric
+	new_vaccinations_per_million		Ratio
