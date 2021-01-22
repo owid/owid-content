@@ -66,7 +66,7 @@ graphers
 	COVID-19 vaccine doses administered per 100 people	Total number of vaccination doses administered per 100 people in the total population. This is counted as a single dose, and may not equal the total number of people vaccinated, depending on the specific dose regime (e.g. people receive multiple doses).	Vaccinations	Cumulative	true	false	total_vaccinations_per_hundred	false		LineChart
 	Daily COVID-19 vaccine doses administered	This is counted as a single dose, and may not equal the total number of people vaccinated, depending on the specific dose regime (e.g. people receive multiple doses).	Vaccinations	New per day	false	false	new_vaccinations	false		LineChart
 	Daily COVID-19 vaccine doses administered	Shown is the rolling 7-day average. This is counted as a single dose, and may not equal the total number of people vaccinated, depending on the specific dose regime (e.g. people receive multiple doses).	Vaccinations	7-day rolling average	false	false	new_vaccinations_smoothed	false		LineChart
-	Daily COVID-19 vaccine doses administered per 100 people	Shown is the rolling 7-day average per 100 people in the total population. This is counted as a single dose, and may not equal the total number of people vaccinated, depending on the specific dose regime (e.g. people receive multiple doses).	Vaccinations	7-day rolling average	true	false	new_vaccinations_per_hundred	false		LineChart
+	Daily COVID-19 vaccine doses administered per 100 people	Shown is the rolling 7-day average per 100 people in the total population. This is counted as a single dose, and may not equal the total number of people vaccinated, depending on the specific dose regime (e.g. people receive multiple doses).	Vaccinations	7-day rolling average	true	false	new_vaccinations_smoothed_per_hundred	false		LineChart
 
 
 columns
@@ -130,7 +130,7 @@ columns
 	positive_rate_cumulative_filtered	Positive test rate	DecimalPercentage	positive_rate_cumulative where location isNot Peru or Ecuador or Brazil or Costa Rica or Colombia or Argentina								5
 	positive_rate_filtered	Positive test rate	DecimalPercentage	positive_rate where location isNot Peru or Ecuador or Brazil or Costa Rica or Colombia or Argentina								5
 	tests_per_case_smoothed_filtered_gt_1	Tests per case	Ratio	tests_per_case_smoothed_filtered where tests_per_case_smoothed_filtered isGreaterThanOrEqual 1								10
-	new_vaccinations_per_hundred		Ratio	multiplyBy new_vaccinations_per_million 0.001
+	new_vaccinations_smoothed_per_hundred		Ratio	multiplyBy new_vaccinations_smoothed_per_million 0.001
 	continent		Continent
 	new_deaths_smoothed		Numeric
 	new_cases_smoothed_per_million		Ratio
@@ -153,4 +153,4 @@ columns
 	total_vaccinations_per_hundred		Ratio
 	new_vaccinations		Integer
 	new_vaccinations_smoothed		Numeric
-	new_vaccinations_per_million		Ratio
+	new_vaccinations_smoothed_per_million		Ratio
