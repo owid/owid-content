@@ -96,6 +96,7 @@ columns
 	new_tests_smoothed	Daily new COVID-19 tests	Numeric		tests_units
 	new_tests_smoothed_per_thousand	Daily new COVID-19 tests	Numeric		tests_units							10
 	positive_rate	Positive test rate	DecimalPercentage									5
+	positive_rate_percent	Positive test rate	DecimalPercentage	multiplyBy positive_rate 100								5
 	tests_per_case	Tests per case	Ratio
 	total_deaths_per_million	Total deaths (per 1M)	Ratio
 	total_cases_per_million	Total cases (per 1M)	Ratio
@@ -128,7 +129,7 @@ columns
 	cumulative_tests_per_case_filtered	Cumulative tests conducted per confirmed case of COVID-20	Ratio	cumulative_tests_per_case where location isNot Peru or Ecuador or Brazil or Costa Rica or Colombia or Argentina
 	tests_per_case_smoothed_filtered	Tests per case	Ratio	tests_per_case_smoothed where location isNot Peru or Ecuador or Brazil or Costa Rica or Colombia or Argentina
 	positive_rate_cumulative_filtered	Positive test rate	DecimalPercentage	positive_rate_cumulative where location isNot Peru or Ecuador or Brazil or Costa Rica or Colombia or Argentina								5
-	positive_rate_filtered	Positive test rate	DecimalPercentage	positive_rate where location isNot Peru or Ecuador or Brazil or Costa Rica or Colombia or Argentina								5
+	positive_rate_filtered	Positive test rate	DecimalPercentage	positive_rate_percent where location isNot Peru or Ecuador or Brazil or Costa Rica or Colombia or Argentina								5
 	tests_per_case_smoothed_filtered_gt_1	Tests per case	Ratio	tests_per_case_smoothed_filtered where tests_per_case_smoothed_filtered isGreaterThanOrEqual 1								10
 	new_vaccinations_smoothed_per_hundred		Ratio	multiplyBy new_vaccinations_smoothed_per_million 0.0001
 	continent		Continent
