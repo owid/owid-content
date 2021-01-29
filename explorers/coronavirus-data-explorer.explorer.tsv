@@ -7,7 +7,6 @@ hideAlertBanner	true
 subNavId	coronavirus
 subNavCurrentId	data-explorer
 hasMapTab	true
-backgroundSeriesLimit	20
 yAxisMin	0
 table	https://covid.ourworldindata.org/data/owid-covid-data.csv
 hideTitleAnnotation	true
