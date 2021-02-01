@@ -28,6 +28,16 @@ graphers
 	4254	CO₂	Production-based	Gas	Per capita
 	4256	CO₂	Production-based	Cement	Per capita
 	4333	CO₂	Production-based	Flaring	Per capita
+	4753	CO₂	Production-based	Coal	Cumulative	false
+	4754	CO₂	Production-based	Oil	Cumulative	false
+	4755	CO₂	Production-based	Gas	Cumulative	false
+	4756	CO₂	Production-based	Cement	Cumulative	false
+	4757	CO₂	Production-based	Flaring	Cumulative	false
+	4758	CO₂	Production-based	Coal	Cumulative	true
+	4762	CO₂	Production-based	Oil	Cumulative	true
+	4759	CO₂	Production-based	Gas	Cumulative	true
+	4761	CO₂	Production-based	Cement	Cumulative	true
+	4760	CO₂	Production-based	Flaring	Cumulative	true
 	4147	All GHGs (CO₂eq)	Production-based		Per country
 	4239	All GHGs (CO₂eq)	Production-based		Per capita
 	4222	Methane	Production-based		Per country
