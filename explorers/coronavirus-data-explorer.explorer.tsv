@@ -69,11 +69,11 @@ graphers
 
 
 columns
-	slug	name	type	transform	annotationsColumnSlug	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo	tolerance	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleLegendDescription	colorScaleNoDataLabel	colorScaleEqualSizeBins	colorScaleScheme	colorScaleInvert
+	slug	name	type	transform	annotationsColumnSlug	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo	tolerance	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleLegendDescription	colorScaleNoDataLabel	colorScaleEqualSizeBins	colorScaleScheme	colorScaleInvert	colorScaleCategoricalBins
 	location	Country name	EntityName
 	iso_code	Code	EntityCode
 	date	Day	Date
-	continent		Continent															continents
+	continent		Continent															continents		Africa,#923E8B,;Antarctica,#5887A1,;Asia,#2D8587,;Europe,#4C5C78,;North America,#E04E4B,;Oceania,#A8633C,;South America,#932834,
 	population	Population	Population
 	population_density	Population density (people per km²)	PopulationDensity
 	icu_patients		Integer
