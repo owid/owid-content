@@ -1,7 +1,7 @@
 explorerTitle	CO₂ Data Explorer
 isPublished	true
 explorerSubtitle	Download the complete <i>Our World in Data</i> <a href="https://github.com/owid/co2-data">CO₂ and GHG Emissions Dataset</a>.
-selection	China~United States~India~United Kingdom~World
+selection	China	United States	India	United Kingdom	World
 subNavId	co2
 subNavCurrentId	co2-data-explorer
 wpBlockId	36228
