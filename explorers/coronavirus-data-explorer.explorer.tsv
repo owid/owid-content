@@ -71,9 +71,33 @@ graphers
 columns
 	slug	name	type	transform	annotationsColumnSlug	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo	tolerance	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleLegendDescription	colorScaleNoDataLabel	colorScaleEqualSizeBins	colorScaleScheme
 	location	Country name	EntityName
+	iso_code	Code	EntityCode
 	date	Day	Date
+	continent		Continent															continents
 	population	Population	Population
 	population_density	Population density (people per km²)	PopulationDensity
+	new_deaths_smoothed		Numeric
+	new_cases_smoothed_per_million		Ratio
+	new_deaths_smoothed_per_million		Ratio
+	icu_patients		Integer
+	icu_patients_per_million		Ratio
+	hosp_patients		Integer
+	hosp_patients_per_million		Ratio
+	weekly_icu_admissions		Integer
+	weekly_icu_admissions_per_million		Ratio
+	weekly_hosp_admissions		Integer
+	weekly_hosp_admissions_per_million		Ratio
+	tests_units		String
+	cardiovasc_death_rate		Ratio
+	diabetes_prevalence		Percentage
+	female_smokers		Percentage
+	male_smokers		Percentage
+	handwashing_facilities		Percentage
+	total_vaccinations		Integer
+	total_vaccinations_per_hundred		Ratio
+	new_vaccinations		Integer
+	new_vaccinations_smoothed		Numeric
+	new_vaccinations_smoothed_per_million		Ratio
 	median_age	Median age	Age
 	aged_65_older	Share aged 65+	Percentage
 	aged_70_older	Share aged 70+	Percentage
@@ -95,13 +119,12 @@ columns
 	new_tests_smoothed	Daily new COVID-19 tests	Numeric		tests_units
 	new_tests_smoothed_per_thousand	Daily new COVID-19 tests	Numeric		tests_units							10
 	positive_rate	Positive test rate	DecimalPercentage									5
-	positive_rate_percent	Positive test rate	DecimalPercentage	multiplyBy positive_rate 100								5
 	tests_per_case	Tests per case	Ratio
 	total_deaths_per_million	Total deaths (per 1M)	Ratio
 	total_cases_per_million	Total cases (per 1M)	Ratio
 	new_deaths_per_million	New deaths (per 1M)	Ratio
 	new_cases_per_million	New cases (per 1M)	Ratio
-	iso_code	Code	EntityCode
+	positive_rate_percent	Positive test rate	DecimalPercentage	multiplyBy positive_rate 100								5
 	total_cases_above_100		Integer	total_cases where total_cases isGreaterThan 100
 	cfr	Case Fatality Rate	Percentage	total_deaths asPercentageOf total_cases_above_100
 	days_since_5_deaths	Days since the 5th total confirmed death	Integer	timeSinceEntityExceededThreshold date location total_deaths 5
@@ -131,26 +154,3 @@ columns
 	positive_rate_filtered	Positive test rate	DecimalPercentage	positive_rate_percent where location isNot Peru or Ecuador or Brazil or Costa Rica or Colombia or Argentina								5	0	0.1,#182F4D;1,#3B4C61;2,#5875A6;3,#7D9CD1;5,#FDAE61;10,#F3853E;20,#EB3232;50,#B60A24	Positive rate	No testing data	true
 	tests_per_case_smoothed_filtered_gt_1	Tests per case	Ratio	tests_per_case_smoothed_filtered where tests_per_case_smoothed_filtered isGreaterThanOrEqual 1								10
 	new_vaccinations_smoothed_per_hundred		Ratio	multiplyBy new_vaccinations_smoothed_per_million 0.0001
-	continent		Continent															continents
-	new_deaths_smoothed		Numeric
-	new_cases_smoothed_per_million		Ratio
-	new_deaths_smoothed_per_million		Ratio
-	icu_patients		Integer
-	icu_patients_per_million		Ratio
-	hosp_patients		Integer
-	hosp_patients_per_million		Ratio
-	weekly_icu_admissions		Integer
-	weekly_icu_admissions_per_million		Ratio
-	weekly_hosp_admissions		Integer
-	weekly_hosp_admissions_per_million		Ratio
-	tests_units		String
-	cardiovasc_death_rate		Ratio
-	diabetes_prevalence		Percentage
-	female_smokers		Percentage
-	male_smokers		Percentage
-	handwashing_facilities		Percentage
-	total_vaccinations		Integer
-	total_vaccinations_per_hundred		Ratio
-	new_vaccinations		Integer
-	new_vaccinations_smoothed		Numeric
-	new_vaccinations_smoothed_per_million		Ratio
