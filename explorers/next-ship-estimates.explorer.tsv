@@ -20,7 +20,7 @@ graphers
 	Work remaining	issuesStillOpen pDaysRemaining		Issues remaining	false	LineChart	true		Issues
 
 	P-days opened & closed	pDaysCreated pDaysClosed		P-days created & closed	false	LineChart	true		Issues
-	Burndown	burndownPDays burndownIssues		Burndown	false	LineChart	true		Issues
+	Burndown	burndownPDays burndownIssues	A negative burndown means we are creating more work than we are finishing	Burndown	false	LineChart	true		Issues
 table	https://docs.google.com/spreadsheets/d/1_zEQTYk_VVhxNC72N-UtCSWQ3KBslqavaMv8tdYc5eg/export?format=csv	Predictions
 columns	Predictions
 	slug	type	name
