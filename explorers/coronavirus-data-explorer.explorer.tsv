@@ -76,9 +76,6 @@ columns
 	continent		Continent															continents
 	population	Population	Population
 	population_density	Population density (people per km²)	PopulationDensity
-	new_deaths_smoothed		Numeric
-	new_cases_smoothed_per_million		Ratio
-	new_deaths_smoothed_per_million		Ratio
 	icu_patients		Integer
 	icu_patients_per_million		Ratio
 	hosp_patients		Integer
@@ -93,10 +90,6 @@ columns
 	female_smokers		Percentage
 	male_smokers		Percentage
 	handwashing_facilities		Percentage
-	total_vaccinations		Integer
-	total_vaccinations_per_hundred		Ratio
-	new_vaccinations		Integer
-	new_vaccinations_smoothed		Numeric
 	new_vaccinations_smoothed_per_million		Ratio
 	median_age	Median age	Age
 	aged_65_older	Share aged 65+	Percentage
@@ -107,26 +100,34 @@ columns
 	hospital_beds_per_thousand	Hospital beds (per 1000)	Ratio
 	stringency_index	Stringency Index	Numeric
 	life_expectancy	Life expectancy	Age
-	total_deaths	Total deaths	Integer
-	new_tests	Daily new COVID-19 tests	Integer		tests_units	Official data collated by Our World in Data	https://ourworldindata.org/coronavirus-testing#testing-for-covid-19-background-the-our-world-in-data-covid-19-testing-dataset	For source details see ourworldindata.org/coronavirus-testing#source-information-country-by-country	For source details see ourworldindata.org/coronavirus-testing#source-information-country-by-country		<p>Data on COVID-19 testing. Comparisons between countries are compromised for several reasons.</p><p>You can download the full dataset, alongside detailed source descriptions here: https://github.com/owid/covid-19-data/tree/master/public/data/</p>
-	new_tests_per_thousand	Daily new COVID-19 tests per 1,000 people	Ratio		tests_units
-	new_cases	New cases	Integer			European CDC – Situation Update Worldwide	https://www.ecdc.europa.eu/en/publications-data/download-todays-data-geographic-distribution-covid-19-cases-worldwide	European Centre for Disease Prevention and Control (ECDC)			<p>Raw data on confirmed cases and deaths for all countries is sourced from the <a href="https://www.ecdc.europa.eu/en/publications-data/download-todays-data-geographic-distribution-covid-19-cases-worldwide">European Centre for Disease Prevention and Control (ECDC)</a>.</p><p>Our complete COVID-19 dataset is a collection of the COVID-19 data maintained by <em>Our World in Data</em>. <strong>It is updated daily</strong> and includes data on confirmed cases, deaths, and testing. </p><p>We have created a new description of all our data sources. You find it at our GitHub repository <strong><a href="https://github.com/owid/covid-19-data/tree/master/public/data/">here</a></strong>. There you can download all of our data.</p>
-	new_deaths	New deaths	Integer
-	total_cases	Total cases	Integer
-	total_tests	Total tests	Integer		tests_units
-	total_tests_per_thousand	Total tests (per 1K)	Ratio		tests_units
-	new_cases_smoothed	Daily new confirmed COVID-19 cases	Numeric
-	new_tests_smoothed	Daily new COVID-19 tests	Numeric		tests_units
+	total_vaccinations		Integer									30
+	total_vaccinations_per_hundred		Ratio									30
+	new_vaccinations		Integer									10
+	new_vaccinations_smoothed		Numeric									10
+	total_deaths	Total deaths	Integer									2
+	total_deaths_per_million	Total deaths (per 1M)	Ratio									2
+	new_deaths	New deaths	Integer									2
+	new_deaths_per_million	New deaths (per 1M)	Ratio									2
+	new_deaths_smoothed		Numeric									2
+	new_deaths_smoothed_per_million		Ratio									2
+	total_cases	Total cases	Integer									2
+	total_cases_per_million	Total cases (per 1M)	Ratio									2
+	new_cases	New cases	Integer			European CDC – Situation Update Worldwide	https://www.ecdc.europa.eu/en/publications-data/download-todays-data-geographic-distribution-covid-19-cases-worldwide	European Centre for Disease Prevention and Control (ECDC)			<p>Raw data on confirmed cases and deaths for all countries is sourced from the <a href="https://www.ecdc.europa.eu/en/publications-data/download-todays-data-geographic-distribution-covid-19-cases-worldwide">European Centre for Disease Prevention and Control (ECDC)</a>.</p><p>Our complete COVID-19 dataset is a collection of the COVID-19 data maintained by <em>Our World in Data</em>. <strong>It is updated daily</strong> and includes data on confirmed cases, deaths, and testing. </p><p>We have created a new description of all our data sources. You find it at our GitHub repository <strong><a href="https://github.com/owid/covid-19-data/tree/master/public/data/">here</a></strong>. There you can download all of our data.</p>	2
+	new_cases_per_million	New cases (per 1M)	Ratio									2
+	new_cases_smoothed	Daily new confirmed COVID-19 cases	Numeric									2
+	new_cases_smoothed_per_million		Ratio									2
+	new_tests	Daily new COVID-19 tests	Integer		tests_units	Official data collated by Our World in Data	https://ourworldindata.org/coronavirus-testing#testing-for-covid-19-background-the-our-world-in-data-covid-19-testing-dataset	For source details see ourworldindata.org/coronavirus-testing#source-information-country-by-country	For source details see ourworldindata.org/coronavirus-testing#source-information-country-by-country		<p>Data on COVID-19 testing. Comparisons between countries are compromised for several reasons.</p><p>You can download the full dataset, alongside detailed source descriptions here: https://github.com/owid/covid-19-data/tree/master/public/data/</p>	10
+	new_tests_per_thousand	Daily new COVID-19 tests per 1,000 people	Ratio		tests_units							10
+	total_tests	Total tests	Integer		tests_units							10
+	total_tests_per_thousand	Total tests (per 1K)	Ratio		tests_units							10
+	new_tests_smoothed	Daily new COVID-19 tests	Numeric		tests_units							10
 	new_tests_smoothed_per_thousand	Daily new COVID-19 tests	Numeric		tests_units							10
-	positive_rate	Positive test rate	DecimalPercentage									5
 	tests_per_case	Tests per case	Ratio
-	total_deaths_per_million	Total deaths (per 1M)	Ratio
-	total_cases_per_million	Total cases (per 1M)	Ratio
-	new_deaths_per_million	New deaths (per 1M)	Ratio
-	new_cases_per_million	New cases (per 1M)	Ratio
+	positive_rate	Positive test rate	DecimalPercentage									5
+	tests_per_case_smoothed	Tests conducted per confirmed case of COVID-19	Ratio	new_tests_smoothed divideBy new_cases_smoothed
 	positive_rate_percent	Positive test rate	DecimalPercentage	multiplyBy positive_rate 100								5
 	total_cases_above_100		Integer	total_cases where total_cases isGreaterThan 100
-	cfr	Case Fatality Rate	Percentage	total_deaths asPercentageOf total_cases_above_100
+	cfr	Case Fatality Rate	Percentage	total_deaths asPercentageOf total_cases_above_100								2
 	days_since_5_deaths	Days since the 5th total confirmed death	Integer	timeSinceEntityExceededThreshold date location total_deaths 5
 	days_since_5_daily_deaths	Days since 5 daily new deaths first reported	Integer	timeSinceEntityExceededThreshold date location new_deaths 5
 	days_since_point_1_death_per_million	Days since total confirmed deaths reached 0.1 per million	Integer	timeSinceEntityExceededThreshold date location total_deaths_per_million .1
@@ -136,21 +137,20 @@ columns
 	cases_rolling_average_weekly		Integer	rollingAverage date location new_cases 7
 	cases_rolling_average_biweekly		Integer	rollingAverage date location new_cases 14
 	deaths_rolling_average_weekly		Integer	rollingAverage date location new_deaths 7
-	deaths_rolling_average_biweekly		Integer	rollingAverage date location new_deaths 14
-	weekly_cases	Weekly confirmed COVID-19 cases	Integer	multiplyBy cases_rolling_average_weekly 7
-	biweekly_cases	Biweekly confirmed COVID-19 cases	Integer	multiplyBy cases_rolling_average_biweekly 14
-	weekly_deaths	Weekly confirmed COVID-19 deaths	Integer	multiplyBy deaths_rolling_average_weekly 7
-	biweekly_deaths	Biweekly confirmed COVID-19 deaths	Integer	multiplyBy deaths_rolling_average_biweekly 14
-	tests_per_case_smoothed	Tests conducted per confirmed case of COVID-19	Ratio	new_tests_smoothed divideBy new_cases_smoothed
-	weekly_cases_change	Week by week change of confirmed COVID-19 cases	Percentage	percentChange date location weekly_cases 7
-	biweekly_cases_change	Biweekly change of confirmed COVID-19 cases	Percentage	percentChange date location biweekly_cases 14
-	weekly_deaths_change	Week by week change of confirmed COVID-19 deaths	Percentage	percentChange date location weekly_deaths 7
-	biweekly_deaths_change	Biweekly change of confirmed COVID-19 deaths	Percentage	percentChange date location biweekly_deaths 14
+	deaths_rolling_average_biweekly		Integer	rollingAverage date location new_deaths 14								2
+	weekly_cases	Weekly confirmed COVID-19 cases	Integer	multiplyBy cases_rolling_average_weekly 7								2
+	biweekly_cases	Biweekly confirmed COVID-19 cases	Integer	multiplyBy cases_rolling_average_biweekly 14								2
+	weekly_deaths	Weekly confirmed COVID-19 deaths	Integer	multiplyBy deaths_rolling_average_weekly 7								2
+	biweekly_deaths	Biweekly confirmed COVID-19 deaths	Integer	multiplyBy deaths_rolling_average_biweekly 14								2
+	weekly_cases_change	Week by week change of confirmed COVID-19 cases	Percentage	percentChange date location weekly_cases 7								2
+	biweekly_cases_change	Biweekly change of confirmed COVID-19 cases	Percentage	percentChange date location biweekly_cases 14								2
+	weekly_deaths_change	Week by week change of confirmed COVID-19 deaths	Percentage	percentChange date location weekly_deaths 7								2
+	biweekly_deaths_change	Biweekly change of confirmed COVID-19 deaths	Percentage	percentChange date location biweekly_deaths 14								2
 	positive_rate_cumulative	The share of COVID-19 tests that are positive	Percentage	total_cases asPercentageOf total_tests
 	cumulative_tests_per_case	Cumulative tests conducted per confirmed case of COVID-19	Ratio	total_tests divideBy total_cases
-	cumulative_tests_per_case_filtered	Cumulative tests conducted per confirmed case of COVID-20	Ratio	cumulative_tests_per_case where location isNot Peru or Ecuador or Brazil or Costa Rica or Colombia or Argentina
+	cumulative_tests_per_case_filtered	Cumulative tests conducted per confirmed case of COVID-20	Ratio	cumulative_tests_per_case where location isNot Peru or Ecuador or Brazil or Costa Rica or Colombia or Argentina								10
 	tests_per_case_smoothed_filtered	Tests per case	Ratio	tests_per_case_smoothed where location isNot Peru or Ecuador or Brazil or Costa Rica or Colombia or Argentina
-	positive_rate_cumulative_filtered	Positive test rate	DecimalPercentage	positive_rate_cumulative where location isNot Peru or Ecuador or Brazil or Costa Rica or Colombia or Argentina								5	0	0.1,#182F4D;1,#3B4C61;2,#5875A6;3,#7D9CD1;5,#FDAE61;10,#F3853E;20,#EB3232;50,#B60A24	Positive rate	No testing data	true
-	positive_rate_filtered	Positive test rate	DecimalPercentage	positive_rate_percent where location isNot Peru or Ecuador or Brazil or Costa Rica or Colombia or Argentina								5	0	0.1,#182F4D;1,#3B4C61;2,#5875A6;3,#7D9CD1;5,#FDAE61;10,#F3853E;20,#EB3232;50,#B60A24	Positive rate	No testing data	true
+	positive_rate_cumulative_filtered	Positive test rate	DecimalPercentage	positive_rate_cumulative where location isNot Peru or Ecuador or Brazil or Costa Rica or Colombia or Argentina								10	0	0.1,#182F4D;1,#3B4C61;2,#5875A6;3,#7D9CD1;5,#FDAE61;10,#F3853E;20,#EB3232;50,#B60A24	Positive rate	No testing data	true
+	positive_rate_filtered	Positive test rate	DecimalPercentage	positive_rate_percent where location isNot Peru or Ecuador or Brazil or Costa Rica or Colombia or Argentina								10	0	0.1,#182F4D;1,#3B4C61;2,#5875A6;3,#7D9CD1;5,#FDAE61;10,#F3853E;20,#EB3232;50,#B60A24	Positive rate	No testing data	true
 	tests_per_case_smoothed_filtered_gt_1	Tests per case	Ratio	tests_per_case_smoothed_filtered where tests_per_case_smoothed_filtered isGreaterThanOrEqual 1								10
-	new_vaccinations_smoothed_per_hundred		Ratio	multiplyBy new_vaccinations_smoothed_per_million 0.0001
+	new_vaccinations_smoothed_per_hundred		Ratio	multiplyBy new_vaccinations_smoothed_per_million 0.0001								10
