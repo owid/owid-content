@@ -10,6 +10,7 @@ hasMapTab	true
 yAxisMin	0
 table	https://covid.ourworldindata.org/data/owid-covid-data.csv
 hideTitleAnnotation	true
+pickerColumnSlugs	location population population_density median_age aged_65_older aged_70_older gdp_per_capita extreme_poverty human_development_index hospital_beds_per_thousand stringency_index life_expectancy total_vaccinations total_vaccinations_per_hundred new_vaccinations_smoothed new_vaccinations_smoothed_per_hundred total_deaths total_deaths_per_million new_deaths_per_million new_deaths_smoothed new_deaths_smoothed_per_million total_cases total_cases_per_million new_cases_per_million new_cases_smoothed new_cases_smoothed_per_million new_tests_per_thousand total_tests total_tests_per_thousand new_tests_smoothed new_tests_smoothed_per_thousand cfr positive_rate_filtered tests_per_case_smoothed_filtered_gt_1
 graphers
 	title	subtitle	Metric Dropdown	Interval Dropdown	Relative to Population Checkbox	Align outbreaks Checkbox	ySlugs	yScaleToggle	xSlug	colorSlug	type
 	Cumulative confirmed COVID-19 cases per million people	The number of confirmed cases is lower than the number of actual cases; the main reason for that is limited testing.	Confirmed cases	Cumulative	true	false	total_cases_per_million	true			LineChart
@@ -90,7 +91,6 @@ columns
 	female_smokers		Percentage
 	male_smokers		Percentage
 	handwashing_facilities		Percentage
-	new_vaccinations_smoothed_per_million		Ratio
 	median_age	Median age	Age
 	aged_65_older	Share aged 65+	Percentage
 	aged_70_older	Share aged 70+	Percentage
@@ -100,22 +100,23 @@ columns
 	hospital_beds_per_thousand	Hospital beds (per 1000)	Ratio
 	stringency_index	Stringency Index	Numeric
 	life_expectancy	Life expectancy	Age
-	total_vaccinations		Integer									30		3000,,;10000,,;30000,,;100000,,;300000,,;1000000,,;3000000,,;10000000,,;30000000,,;100000000,,			true	YlGnBu
-	total_vaccinations_per_hundred		Ratio									30		0.2,,;0.5,,;1,,;2,,;5,,;10,,;20,,;50,,;100,,			true	Blues
-	new_vaccinations		Integer									10		1000,,;3000,,;10000,,;30000,,;100000,,;300000,,;1000000,,			true	YlGn
-	new_vaccinations_smoothed		Numeric									10		1000,,;3000,,;10000,,;30000,,;100000,,;300000,,;1000000,,			true	YlGn
+	new_vaccinations_smoothed_per_million		Ratio
+	total_vaccinations	Total vaccinations	Integer									30		3000,,;10000,,;30000,,;100000,,;300000,,;1000000,,;3000000,,;10000000,,;30000000,,;100000000,,			true	YlGnBu
+	total_vaccinations_per_hundred	Total vaccinations (per 100)	Ratio									30		0.2,,;0.5,,;1,,;2,,;5,,;10,,;20,,;50,,;100,,			true	Blues
+	new_vaccinations	New vaccinations	Integer									10		1000,,;3000,,;10000,,;30000,,;100000,,;300000,,;1000000,,			true	YlGn
+	new_vaccinations_smoothed	New vaccinations	Numeric									10		1000,,;3000,,;10000,,;30000,,;100000,,;300000,,;1000000,,			true	YlGn
 	total_deaths	Total deaths	Integer									2		10,,;100,,;1000,,;10000,,;50000,,;100000,,;500000,,;1000000,,			true	RdPu
 	total_deaths_per_million	Total deaths (per 1M)	Ratio									2		200,,;400,,;600,,;800,,;1000,,;1200,,;1400,,;1600,,;1800,,;2000,,			true	Reds
 	new_deaths	New deaths	Integer									2	0	1,,;5,,;10,,;50,,;250,,;500,,;1000,,;2500,,			true	OrRd
 	new_deaths_per_million	New deaths (per 1M)	Ratio									2		0.001,,;0.1,,;0.5,,;1,,;2,,;5,,;10,,;20,,			true	OrRd
-	new_deaths_smoothed		Numeric									2	0	1,,;5,,;10,,;50,,;250,,;500,,;1000,,;2500,,			true	OrRd
-	new_deaths_smoothed_per_million		Ratio									2		0.001,,;0.1,,;0.5,,;1,,;2,,;5,,;10,,;20,,			true	OrRd
+	new_deaths_smoothed	New deaths	Numeric									2	0	1,,;5,,;10,,;50,,;250,,;500,,;1000,,;2500,,			true	OrRd
+	new_deaths_smoothed_per_million	New deaths (per 1M)	Ratio									2		0.001,,;0.1,,;0.5,,;1,,;2,,;5,,;10,,;20,,			true	OrRd
 	total_cases	Total cases	Integer									2		1,#58888f,none;50,,;100,,;10000,,;100000,,;500000,,;1000000,,;5000000,,;10000000,,			true	Reds
 	total_cases_per_million	Total cases (per 1M)	Ratio									2		10,,;100,,;500,,;1000,,;5000,,;10000,,;20000,,;40000,,;80000,,			true	PuBu
 	new_cases	New cases	Integer			European CDC – Situation Update Worldwide	https://www.ecdc.europa.eu/en/publications-data/download-todays-data-geographic-distribution-covid-19-cases-worldwide	European Centre for Disease Prevention and Control (ECDC)			<p>Raw data on confirmed cases and deaths for all countries is sourced from the <a href="https://www.ecdc.europa.eu/en/publications-data/download-todays-data-geographic-distribution-covid-19-cases-worldwide">European Centre for Disease Prevention and Control (ECDC)</a>.</p><p>Our complete COVID-19 dataset is a collection of the COVID-19 data maintained by <em>Our World in Data</em>. <strong>It is updated daily</strong> and includes data on confirmed cases, deaths, and testing. </p><p>We have created a new description of all our data sources. You find it at our GitHub repository <strong><a href="https://github.com/owid/covid-19-data/tree/master/public/data/">here</a></strong>. There you can download all of our data.</p>	2		10,,;50,,;100,,;500,,;1000,,;5000,,;10000,,;50000,,;100000,,;150000,,			true	BuPu
 	new_cases_per_million	New cases (per 1M)	Ratio									2	0	0.5,,;2.5,,;5,,;10,,;50,,;100,,;250,,;500,,;1000,#580202,;4000,#011615,			true	OrRd
 	new_cases_smoothed	Daily new confirmed COVID-19 cases	Numeric									2		10,,;50,,;100,,;500,,;1000,,;5000,,;10000,,;50000,,;100000,,;150000,,			true	BuPu
-	new_cases_smoothed_per_million		Ratio									2	0	0.5,,;2.5,,;5,,;10,,;50,,;100,,;250,,;500,,;1000,#580202,;4000,#011615,			true	OrRd
+	new_cases_smoothed_per_million	New cases (per 1M)	Ratio									2	0	0.5,,;2.5,,;5,,;10,,;50,,;100,,;250,,;500,,;1000,#580202,;4000,#011615,			true	OrRd
 	new_tests	Daily new COVID-19 tests	Integer		tests_units	Official data collated by Our World in Data	https://ourworldindata.org/coronavirus-testing#testing-for-covid-19-background-the-our-world-in-data-covid-19-testing-dataset	For source details see ourworldindata.org/coronavirus-testing#source-information-country-by-country	For source details see ourworldindata.org/coronavirus-testing#source-information-country-by-country		<p>Data on COVID-19 testing. Comparisons between countries are compromised for several reasons.</p><p>You can download the full dataset, alongside detailed source descriptions here: https://github.com/owid/covid-19-data/tree/master/public/data/</p>	10	0	25000,,;50000,,;100000,,;250000,,;500000,,;1000000,,			true	BuPu
 	new_tests_per_thousand	Daily new COVID-19 tests per 1,000 people	Ratio		tests_units							10		0.5,,;1,,;1.5,,;2,,;2.5,,;3,,;5,,;10,,;20,,			true	YlGn
 	total_tests	Total tests	Integer		tests_units							10		100000,,;1000000,,;10000000,,;100000000,,;1000000000,,			true
@@ -127,7 +128,7 @@ columns
 	tests_per_case_smoothed	Tests conducted per confirmed case of COVID-19	Ratio	new_tests_smoothed divideBy new_cases_smoothed
 	positive_rate_percent	Positive test rate	DecimalPercentage	multiplyBy positive_rate 100								5
 	total_cases_above_100		Integer	total_cases where total_cases isGreaterThan 100
-	cfr	Case Fatality Rate	Percentage	total_deaths asPercentageOf total_cases_above_100								2		0.001,#c8c8c8,No recorded deaths;1,,;2,,;3,,;4,,;5,,;10,,;25,,			true	YlGnBu
+	cfr	Case fatality rate	Percentage	total_deaths asPercentageOf total_cases_above_100								2		0.001,#c8c8c8,No recorded deaths;1,,;2,,;3,,;4,,;5,,;10,,;25,,			true	YlGnBu
 	days_since_5_deaths	Days since the 5th total confirmed death	Integer	timeSinceEntityExceededThreshold date location total_deaths 5
 	days_since_5_daily_deaths	Days since 5 daily new deaths first reported	Integer	timeSinceEntityExceededThreshold date location new_deaths 5
 	days_since_point_1_death_per_million	Days since total confirmed deaths reached 0.1 per million	Integer	timeSinceEntityExceededThreshold date location total_deaths_per_million .1
@@ -153,4 +154,4 @@ columns
 	positive_rate_cumulative_filtered	Positive test rate	DecimalPercentage	positive_rate_cumulative where location isNot Peru or Ecuador or Brazil or Costa Rica or Colombia or Argentina								10	0	0.1,#182F4D;1,#3B4C61;2,#5875A6;3,#7D9CD1;5,#FDAE61;10,#F3853E;20,#EB3232;50,#B60A24	Positive rate	No testing data	true
 	positive_rate_filtered	Positive test rate	DecimalPercentage	positive_rate_percent where location isNot Peru or Ecuador or Brazil or Costa Rica or Colombia or Argentina								10	0	0.1,#182F4D;1,#3B4C61;2,#5875A6;3,#7D9CD1;5,#FDAE61;10,#F3853E;20,#EB3232;50,#B60A24	Positive rate	No testing data	true
 	tests_per_case_smoothed_filtered_gt_1	Tests per case	Ratio	tests_per_case_smoothed_filtered where tests_per_case_smoothed_filtered isGreaterThanOrEqual 1								10		50,,;100,,;500,,;1000,,;5000,,;10000,,;50000,,			true	YlOrRd
-	new_vaccinations_smoothed_per_hundred		Ratio	multiplyBy new_vaccinations_smoothed_per_million 0.0001								10		0.01,,;0.02,,;0.05,,;0.1,,;0.2,,;0.5,,;1,,;2,,			true	OrRd
+	new_vaccinations_smoothed_per_hundred	New vaccinations (per 100)	Ratio	multiplyBy new_vaccinations_smoothed_per_million 0.0001								10		0.01,,;0.02,,;0.05,,;0.1,,;0.2,,;0.5,,;1,,;2,,			true	OrRd
