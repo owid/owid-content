@@ -5,8 +5,8 @@ type	DiscreteBar
 hasMapTab	false
 hideControls	false
 ySlugs	FirstDose FullyVaccinated
+facet	country
 table
-
 	Country	FirstDose	Year	FullyVaccinated
 	Canada	19	2021/2/2	9
 	India	13	2021/2/2	11
