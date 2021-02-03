@@ -1,22 +1,23 @@
-selection	Canada~India~France
-title	Population of different countries
-subtitle	How many people live in each country?
+selection	Canada~India~France~United Kingdom~United States~Netherlands
+title	Vaccinations per country
+subtitle	How many people have received a first dose and how many have been fully vaccinated?
 type	DiscreteBar
-hasMapTab	true
+hasMapTab	false
 hideControls	false
 ySlugs	FirstDose FullyVaccinated
 table
+
 	Country	FirstDose	Year	FullyVaccinated
-	Canada	19	2020	9
-	India	13	2020	11
-	France	1	2020	0.1
-	United Kingdom	6	2019	4
-	United States	2	2019	1
-	Netherlands	0.4	2019	0.05
+	Canada	19	2021/2/2	9
+	India	13	2021/2/2	11
+	France	1	2021/2/2	0.1
+	United Kingdom	6	2021/2/2	4
+	United States	2	2021/2/2	1
+	Netherlands	0.4	2021/2/2	0.05
 
 columns
-	slug	type	name	notes
+	slug	type	name	notes	sourceName
 	Country	EntityName	Country	Unreviewed
-	FirstDose	Numeric	FirstDose	Unreviewed
-	Year	Year	Year	Unreviewed
-	FullyVaccinated	Numeric	FullyVaccinated	Unreviewed
+	FirstDose	Numeric	FirstDose	Unreviewed	Our World in Data Vaccinations dataset
+	Date	Date	Date	Unreviewed
+	FullyVaccinated	Numeric	FullyVaccinated	Unreviewed	Our World in Data Vaccinations dataset
