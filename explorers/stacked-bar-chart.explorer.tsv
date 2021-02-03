@@ -3,9 +3,9 @@ title	Vaccinations per country
 subtitle	How many people have received a first dose and how many have been fully vaccinated?
 type	DiscreteBar
 hasMapTab	false
-hideControls	false
+hideControls	true
 ySlugs	FirstDose FullyVaccinated
-facet	country
+facet	column
 table
 	Country	FirstDose	Year	FullyVaccinated
 	Canada	19	2021/2/2	9
