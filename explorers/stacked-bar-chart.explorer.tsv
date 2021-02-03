@@ -10,9 +10,9 @@ table
 	Canada	19	2020	9
 	India	13	2020	11
 	France	1	2020	0.1
-	Canada	6	2019	4
-	India	2	2019	1
-	France	0.4	2019	0.05
+	United Kingdom	6	2019	4
+	United States	2	2019	1
+	Netherlands	0.4	2019	0.05
 
 columns
 	slug	type	name	notes
