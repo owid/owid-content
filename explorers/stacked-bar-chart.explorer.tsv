@@ -14,7 +14,12 @@ table
 	United Kingdom	6	2021/2/2	4
 	United States	2	2021/2/2	1
 	Netherlands	0.4	2021/2/2	0.05
-
+	Belgium	8	2021/2/2	6
+	Germany	23	2021/2/2	12
+	Zimbabwe	8	2021/2/2	5
+	Turkey	15	2021/2/2	14
+	Argentina	12	2021/2/2	5
+	Norway	16	2021/2/2	4
 columns
 	slug	type	name	notes	sourceName
 	Country	EntityName	Country	Unreviewed
