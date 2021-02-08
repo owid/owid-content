@@ -116,7 +116,7 @@ columns
 	new_deaths_smoothed_per_million	New deaths (per 1M)	Ratio									2		0.001,,;0.1,,;0.5,,;1,,;2,,;5,,;10,,;20,,			true	OrRd
 	new_deaths_smoothed_per_million_gt_0	New deaths (per 1M)	Ratio	new_deaths_smoothed_per_million where new_deaths_smoothed_per_million isGreaterThanOrEqual 0								2		0.001,,;0.1,,;0.5,,;1,,;2,,;5,,;10,,;20,,			true	OrRd
 	total_cases	Total cases	Integer									2		1,#58888f,none;50,,;100,,;10000,,;100000,,;500000,,;1000000,,;5000000,,;10000000,,			true	Reds
-	total_cases_per_million	Total cases (per 1M)	Ratio									2		10,,;100,,;500,,;1000,,;5000,,;10000,,;20000,,;40000,,;80000,,			TRUE	PuBu
+	total_cases_per_million	Total cases (per 1M)	Ratio									2		10,,;100,,;500,,;1000,,;5000,,;10000,,;20000,,;40000,,;80000,,			true	PuBu
 	new_cases	New cases	Integer									2		10,,;50,,;100,,;500,,;1000,,;5000,,;10000,,;50000,,;100000,,;150000,,			true	BuPu
 	new_cases_gt_0	New cases	Integer	new_cases where new_cases isGreaterThanOrEqual 0								2		10,,;50,,;100,,;500,,;1000,,;5000,,;10000,,;50000,,;100000,,;150000,,			true	BuPu
 	new_cases_per_million	New cases (per 1M)	Ratio									2	0	0.5,,;2.5,,;5,,;10,,;50,,;100,,;250,,;500,,;1000,#580202,;4000,#011615,			true	OrRd
