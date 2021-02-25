@@ -1,4 +1,4 @@
-selection	United States~Germany~Austria~Sweden~Spain
+selection	United States	Germany	Austria	Sweden	Spain	Canada
 title	GDP by quarter
 subtitle
 type	LineChart
