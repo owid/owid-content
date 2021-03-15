@@ -5,11 +5,12 @@ selection	China	United States	India	United Kingdom	World
 subNavId	co2
 subNavCurrentId	co2-data-explorer
 wpBlockId	36228
+tab	chart
 graphers
 	grapherId	Gas Radio	Accounting Radio	Fuel Dropdown	Count Dropdown	Relative to world total Checkbox
+	486	CO₂	Production-based	Total	Per capita
 	488	CO₂	Production-based	Total	Per country	false
 	3219	CO₂	Production-based	Total	Per country	true
-	486	CO₂	Production-based	Total	Per capita
 	485	CO₂	Production-based	Total	Cumulative	false
 	3218	CO₂	Production-based	Total	Cumulative	true
 	4267	CO₂	Production-based	Total	Per MWh of energy
