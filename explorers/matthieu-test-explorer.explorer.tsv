@@ -1,0 +1,5 @@
+explorerTitle	Custom explorer
+graphers
+	Yo Checkbox	title	subtitle	type	grapherId	hasMapTab
+	In hospital	Patients in hospital	Subtitle of chart 0	LineChart	4618	true
+	Admissions	New Admissions	Subtitle of chart 2	LineChart	4619	false

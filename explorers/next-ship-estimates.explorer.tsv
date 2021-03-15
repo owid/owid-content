@@ -1,0 +1,59 @@
+explorerTitle	When Will We Ship Next?
+explorerSubtitle	A dashboard for measuring progress. <a href="https://docs.google.com/spreadsheets/d/1_zEQTYk_VVhxNC72N-UtCSWQ3KBslqavaMv8tdYc5eg" target="_blank" rel="noopener noreferrer">Edit sheet</a>.
+selection	Breck~Daniel~Marcel~Ernst~Esteban~Shahid
+# todo: add a select all entities selection option? selection=*
+
+
+# end table. todo: fix empty rows bug
+
+yAxisMin	0
+
+
+
+# todo: would be nice if we could do real time groups by country
+
+graphers
+	title	ySlugs	subtitle	Group Radio	hasMapTab	type	hasChartTab	sourceDesc	tableSlug
+	How many hours until Next becomes OurWorldInData.org? Here's what the team is predicting	estimatedHoursUntilShip	When a project will ship is never a certainty—lots of variables can impact the final ship date. One forecasting approaching is to build an ensemble of different models and average the results. In this chart, each model was trained differently before generating their predictions. Some implement a "calm" algorithm. Others, a "caffeinated" one. The ensemble should provide a better forecast than any individual prediction.	By person	false	LineChart	true	Data is updated daily from OCDC (Our world in Data Center for Data Collection)	Predictions
+	How many hours until Next becomes OurWorldInData.org? Here's what the team is predicting, by country	estimatedHoursUntilShip	Countries that have implemented strict lockdown measures have higher rates of indoor time and thus more optimistic about the amount of work we can get done in a shorter time period.	By country	true	WorldMap	false	This chart doesn't actually work yet, but wouldn't it be nice if we could do group by on the fly!	Countries
+	Issues created & closed	issuesCreated issuesClosed		Issues created	false	LineChart	true		Issues
+	Work remaining	issuesStillOpen pDaysRemaining		Issues remaining	false	LineChart	true		Issues
+
+	P-days opened & closed	pDaysCreated pDaysClosed		P-days created & closed	false	LineChart	true		Issues
+	Burndown	burndownPDays burndownIssues	A negative burndown means we are creating more work than we are finishing	Burndown	false	LineChart	true		Issues
+table	https://docs.google.com/spreadsheets/d/1_zEQTYk_VVhxNC72N-UtCSWQ3KBslqavaMv8tdYc5eg/export?format=csv	Predictions
+columns	Predictions
+	slug	type	name
+	person	EntityName	person
+	date	Date	Date
+	estimatedHoursUntilShip	Numeric	hoursUntilShip
+
+
+
+
+
+
+
+
+
+table	https://docs.google.com/spreadsheets/d/1_zEQTYk_VVhxNC72N-UtCSWQ3KBslqavaMv8tdYc5eg/export?format=csv&gid=229137192	Issues
+columns	Issues
+	slug	type	name
+	entity	EntityName	person
+	date	Date	Date
+	issuesCreated	Numeric	Issues created
+	issuesClosed	Numeric	Issues closed
+	issuesStillOpen	Numeric	Issues still open
+	pDaysRemaining	Numeric	p-days remaining
+	issuesCreatedCumulative	Numeric	Total issues created
+	pDaysCreated	Numeric	p-days created
+	pDaysClosed	Numeric	p-days closed
+	burndownPDays	Numeric	burndown p-days
+	burndownIssues	Numeric	burndown issues
+table	https://docs.google.com/spreadsheets/d/1_zEQTYk_VVhxNC72N-UtCSWQ3KBslqavaMv8tdYc5eg/export?format=csv	Countries
+columns	Countries
+	slug	type	name
+	person	String	person
+	date	Date	Date
+	estimatedHoursUntilShip	Numeric	estimatedHoursUntilShip
+	country	EntityName	country

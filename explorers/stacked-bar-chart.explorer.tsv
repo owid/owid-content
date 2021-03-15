@@ -1,0 +1,28 @@
+selection	Canada~India~France~United Kingdom~United States~Netherlands
+title	Vaccinations per country
+subtitle	How many people have received a first dose and how many have been fully vaccinated?
+type	DiscreteBar
+hasMapTab	false
+hideControls	true
+ySlugs	FirstDose FullyVaccinated
+facet	column
+table
+	Country	FirstDose	Year	FullyVaccinated
+	Canada	19	2021/2/2	9
+	India	13	2021/2/2	11
+	France	1	2021/2/2	0.1
+	United Kingdom	6	2021/2/2	4
+	United States	2	2021/2/2	1
+	Netherlands	0.4	2021/2/2	0.05
+	Belgium	8	2021/2/2	6
+	Germany	23	2021/2/2	12
+	Zimbabwe	8	2021/2/2	5
+	Turkey	15	2021/2/2	14
+	Argentina	12	2021/2/2	5
+	Norway	16	2021/2/2	4
+columns
+	slug	type	name	notes	sourceName
+	Country	EntityName	Country	Unreviewed
+	FirstDose	Numeric	FirstDose	Unreviewed	Our World in Data Vaccinations dataset
+	Date	Date	Date	Unreviewed
+	FullyVaccinated	Numeric	FullyVaccinated	Unreviewed	Our World in Data Vaccinations dataset

@@ -1,0 +1,28 @@
+explorerTitle	Données hospitalières COVID-19
+isPublished	false		# comment
+googleSheet
+explorerSubtitle
+entityType	département
+defaultView
+graphers
+	Metric Radio	type	ySlugs
+	Hospitalisations	LineChart	hosp
+	Réanimations	LineChart	rea
+	Retours à domicile	LineChart	rad
+	Décès	LineChart	dc
+
+columns
+	slug	name	type
+	dep	Departement	EntityName
+	sexe	Sexe	Integer
+	jour	Date	Date
+	hosp	Hospitalisations	Integer
+	rea	Réanimations	Integer
+	rad	Retours à domicile	Integer
+	dc	Décès	Integer
+
+
+	# https://5e0353eb9d92.ngrok.io/donnees-hospitalieres-covid19-2020-11-17-09h31-with-commas.csv
+	# https://docs.google.com/spreadsheets/d/1dTFGK7WM2MkpfjeNL0wpP0hyJ-XhAW9mFqZVvMDKizk/export?format=csv
+	#https://static.data.gouv.fr/resources/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19/20201117-093432/donnees-hospitalieres-covid19-2020-11-17-09h31.csv
+table	https://docs.google.com/spreadsheets/d/1dTFGK7WM2MkpfjeNL0wpP0hyJ-XhAW9mFqZVvMDKizk/export?format=csv

@@ -1,0 +1,100 @@
+explorerTitle	Covid Data Explorer: United States
+isPublished	false
+googleSheet	https://docs.google.com/spreadsheets/d/1HjHjB_njLizZKzwZlk5zX429IcMhy6WZRTlYwnsrJAM/edit#gid=0
+selection	Michigan~California~New York
+explorerSubtitle	Download the complete <em>Our World in Data</em> <a href="https://github.com/owid/covid-19-data/tree/master/public/data" target="_blank" rel="noopener noreferrer">COVID-19 dataset.</a>
+hideAlertBanner	true
+subNavId	coronavirus
+subNavCurrentId	data-explorer
+entityType	state
+table	https://raw.githubusercontent.com/shaahmad/usa-covid-data/master/all-states-edited.csv
+graphers
+	title	subtitle	Metric Radio	Interval Dropdown	Relative to Population Checkbox	Align outbreaks Checkbox	ySlugs	yScaleToggle	xSlug	type	hasMapTab
+	Cumulative confirmed COVID-19 cases per million people	lorem ipsum	Confirmed cases	Cumulative	true	false	positive	true		LineChart	false
+	Cumulative confirmed COVID-19 cases per million people	lorem ipsum	Confirmed cases	Cumulative	true	true	positive	true	 	ScatterPlot	false
+	Cumulative confirmed COVID-19 cases	lorem ipsum	Confirmed cases	Cumulative	false	true	positive	true		ScatterPlot	false
+	Cumulative confirmed COVID-19 cases	lorem ipsum	Confirmed cases	Cumulative	false	false	positive	true		LineChart	false
+	Daily new confirmed COVID-19 cases per million people	lorem ipsum	Confirmed cases	7-day rolling average	true	true	cases_rolling_average_weekly	true		ScatterPlot	false
+	Daily new confirmed COVID-19 cases per million people	lorem ipsum	Confirmed cases	7-day rolling average	true	false	cases_rolling_average_weekly	true		LineChart	false
+	Daily new confirmed COVID-19 cases	lorem ipsum	Confirmed cases	7-day rolling average	false	true	cases_rolling_average_weekly	true		ScatterPlot	false
+	Daily new confirmed COVID-19 cases	lorem ipsum	Confirmed cases	7-day rolling average	false	false	cases_rolling_average_weekly	true		LineChart	false
+	Daily new confirmed COVID-19 cases per million people	lorem ipsum	Confirmed cases	New per day	true	true	positiveIncrease	true		ScatterPlot	false
+	Daily new confirmed COVID-19 cases per million people	lorem ipsum	Confirmed cases	New per day	true	false	positiveIncrease	true		LineChart	false
+	Daily new confirmed COVID-19 cases	lorem ipsum	Confirmed cases	New per day	false	true	positiveIncrease	true		ScatterPlot	false
+	Daily new confirmed COVID-19 cases	lorem ipsum	Confirmed cases	New per day	false	false	positiveIncrease	true		LineChart	false
+	Weekly confirmed COVID-19 cases	lorem ipsum	Confirmed cases	Weekly	false	false	weekly_cases	true		LineChart	false
+	Week by week change of confirmed COVID-19 cases	lorem ipsum	Confirmed cases	Weekly change	false	false	weekly_cases_change	false		LineChart	false
+	Biweekly confirmed COVID-19 cases	lorem ipsum	Confirmed cases	Biweekly	false	false	biweekly_cases	true		LineChart	false
+	Biweekly change of confirmed COVID-19 cases	lorem ipsum	Confirmed cases	Biweekly change	false	false	biweekly_cases_change	false		LineChart	false
+	Cumulative confirmed COVID-19 deaths per million people	lorem ipsum	Confirmed deaths	Cumulative	true	true	death	true		ScatterPlot	false
+	Cumulative confirmed COVID-19 deaths per million people	lorem ipsum	Confirmed deaths	Cumulative	true	false	death	true		LineChart	false
+	Cumulative confirmed COVID-19 deaths	lorem ipsum	Confirmed deaths	Cumulative	false	true	death	true		ScatterPlot	false
+	Cumulative confirmed COVID-19 deaths	lorem ipsum	Confirmed deaths	Cumulative	false	false	death	true		LineChart	false
+	Daily new confirmed COVID-19 deaths per million people	lorem ipsum	Confirmed deaths	7-day rolling average	true	true	deaths_rolling_average_weekly	true		ScatterPlot	false
+	Daily new confirmed COVID-19 deaths per million people	lorem ipsum	Confirmed deaths	7-day rolling average	true	false	deaths_rolling_average_weekly	true		LineChart	false
+	Daily new confirmed COVID-19 deaths	lorem ipsum	Confirmed deaths	7-day rolling average	false	true	deaths_rolling_average_weekly	true		ScatterPlot	false
+	Daily new confirmed COVID-19 deaths	lorem ipsum	Confirmed deaths	7-day rolling average	false	false	deaths_rolling_average_weekly	true		LineChart	false
+	Daily new confirmed COVID-19 deaths per million people	lorem ipsum	Confirmed deaths	New per day	true	true	deathIncrease	true		ScatterPlot	false
+	Daily new confirmed COVID-19 deaths per million people	lorem ipsum	Confirmed deaths	New per day	true	false	deathIncrease	true		LineChart	false
+	Daily new confirmed COVID-19 deaths	lorem ipsum	Confirmed deaths	New per day	false	true	deathIncrease	true		ScatterPlot	false
+	Daily new confirmed COVID-19 deaths	lorem ipsum	Confirmed deaths	New per day	false	false	deathIncrease	true		LineChart	false
+	Weekly confirmed COVID-19 deaths	lorem ipsum	Confirmed deaths	Weekly	false	false	weekly_deaths	true		LineChart	false
+	Week by week change of confirmed COVID-19 deaths	lorem ipsum	Confirmed deaths	Weekly change	false	false	weekly_deaths_change	false		LineChart	false
+	Biweekly confirmed COVID-19 deaths	lorem ipsum	Confirmed deaths	Biweekly	false	false	biweekly_deaths	true		LineChart	false
+	Biweekly change of confirmed COVID-19 deaths	lorem ipsum	Confirmed deaths	Biweekly change	false	false	biweekly_deaths_change	false		LineChart	false
+	Case fatality rate of the ongoing COVID-19 pandemic	lorem ipsum	Case Fatality Rate	Cumulative	false	false	cfr	false		LineChart	false
+	Cumulative COVID-19 tests per 1,000 people	lorem ipsum	Tests	Cumulative	true	true	totalTestsViral	true		ScatterPlot	false
+	Cumulative COVID-19 tests per 1,000 people	lorem ipsum	Tests	Cumulative	true	false	totalTestsViral	true		LineChart	false
+	Cumulative COVID-19 tests	lorem ipsum	Tests	Cumulative	false	true	totalTestsViral	true		ScatterPlot	false
+	Cumulative COVID-19 tests	lorem ipsum	Tests	Cumulative	false	false	totalTestsViral	true		LineChart	false
+	Daily new COVID-19 tests per 1,000 people	lorem ipsum	Tests	7-day rolling average	true	true	new_tests_smoothed	true		ScatterPlot	false
+	Daily new COVID-19 tests per 1,000 people	lorem ipsum	Tests	7-day rolling average	true	false	new_tests_smoothed	true		LineChart	false
+	Daily new COVID-19 tests	lorem ipsum	Tests	7-day rolling average	false	true	new_tests_smoothed	true		ScatterPlot	false
+	Daily new COVID-19 tests	lorem ipsum	Tests	7-day rolling average	false	false	new_tests_smoothed	true		LineChart	false
+	Daily new COVID-19 tests per 1,000 people	lorem ipsum	Tests	New per day	true	true	totalTestResultsIncrease	true		ScatterPlot	false
+	Daily new COVID-19 tests per 1,000 people	lorem ipsum	Tests	New per day	true	false	totalTestResultsIncrease	true		LineChart	false
+	Daily new COVID-19 tests	lorem ipsum	Tests	New per day	false	true	totalTestResultsIncrease	true		ScatterPlot	false
+	Daily new COVID-19 tests	lorem ipsum	Tests	New per day	false	false	totalTestResultsIncrease	true		LineChart	false
+	Cumulative tests conducted per confirmed case of COVID-19	lorem ipsum	Tests per confirmed case	Cumulative	false	false	cumulative_tests_per_case	true		LineChart	false
+	Tests conducted per confirmed case of COVID-19	lorem ipsum	Tests per confirmed case	7-day rolling average	false	false	tests_per_case_smoothed_gt_1	true		LineChart	false
+	The share of COVID-19 tests that are positive	lorem ipsum	Share of positive tests	Cumulative	false	false	positive_rate_cumulative	false		LineChart	false
+	The share of daily COVID-19 tests that are positive	lorem ipsum	Share of positive tests	7-day rolling average	false	false	positive_rate	false		LineChart	false
+
+
+columns
+	slug	name	type	transform	annotationsColumnSlug	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo
+	stateLong	State	EntityName
+	date	Day	Date
+	totalTestsPeopleViral	Total Tests	Integer
+	positive	Confirmed cases	Integer
+	death	Confirmed deaths	Integer
+	deathIncrease	Daily deaths	Integer
+	positiveIncrease	Daily cases	Integer
+	new_tests_smoothed	New Tests	Integer	rollingAverage date stateLong totalTestsPeopleViral 7
+	total_cases_above_100		Integer	positive where positive isGreaterThan 100
+	cfr	Case Fatality Rate	Percentage	death asPercentageOf total_cases_above_100
+	days_since_5_deaths	Days since the 5th total confirmed death	Integer	timeSinceEntityExceededThreshold date stateLong death 5
+	days_since_5_daily_deaths	Days since 5 daily new deaths first reported	Integer	timeSinceEntityExceededThreshold date stateLong deathIncrease 5
+	days_since_100_cases	Days since the 100th confirmed case	Integer	timeSinceEntityExceededThreshold date stateLong positive 100
+	days_since_30_cases_per_day	Days since confirmed cases first reached 30 per day	Integer	timeSinceEntityExceededThreshold date stateLong positiveIncrease 30
+	positiveIncrease		Integer
+	cases_rolling_average_weekly		Integer	rollingAverage date stateLong positiveIncrease 7
+	cases_rolling_average_biweekly		Integer	rollingAverage date stateLong positiveIncrease 14
+	deaths_rolling_average_weekly		Integer	rollingAverage date stateLong deathIncrease 7
+	deaths_rolling_average_biweekly		Integer	rollingAverage date stateLong deathIncrease 14
+	weekly_cases	Weekly confirmed COVID-19 cases	Integer	multiplyBy cases_rolling_average_weekly 7
+	biweekly_cases	Biweekly confirmed COVID-19 cases	Integer	multiplyBy cases_rolling_average_biweekly 14
+	weekly_deaths	Weekly confirmed COVID-19 deaths	Integer	multiplyBy deaths_rolling_average_weekly 7
+	biweekly_deaths	Biweekly confirmed COVID-19 deaths	Integer	multiplyBy deaths_rolling_average_biweekly 14
+	tests_per_case_smoothed	Tests conducted per confirmed case of COVID-19	Ratio	new_tests_smoothed divideBy new_tests_smoothed
+	weekly_cases_change	Week by week change of confirmed COVID-19 cases	Percentage	percentChange date stateLong weekly_cases 7
+	biweekly_cases_change	Biweekly change of confirmed COVID-19 cases	Percentage	percentChange date stateLong biweekly_cases 14
+	weekly_deaths_change	Week by week change of confirmed COVID-19 deaths	Percentage	percentChange date stateLong weekly_deaths 7
+	biweekly_deaths_change	Biweekly change of confirmed COVID-19 deaths	Percentage	percentChange date stateLong biweekly_deaths 14
+	positive_rate_cumulative	The share of COVID-19 tests that are positive	Percentage	positive asPercentageOf totalTestsPeopleViral
+	cumulative_tests_per_case	Cumulative tests conducted per confirmed case of COVID-19	Ratio	totalTestsPeopleViral divideBy positive
+	cumulative_tests_per_case_filtered	Cumulative tests conducted per confirmed case of COVID-20	Ratio	cumulative_tests_per_case
+	tests_per_case_smoothed_filtered	Tests per case	Ratio	tests_per_case_smoothed
+	positive_rate_cumulative_filtered	Positive test rate	DecimalPercentage	positive_rate_cumulative
+	positive_rate_filtered	Positive test rate	DecimalPercentage	positive_rate
+	tests_per_case_smoothed_gt_1	Tests per case	Ratio	tests_per_case_smoothed_filtered where tests_per_case_smoothed_filtered isGreaterThanOrEqual 1
