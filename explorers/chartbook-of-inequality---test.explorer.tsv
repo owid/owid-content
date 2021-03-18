@@ -1,0 +1,34 @@
+explorerTitle	My New Explorer
+explorerSubtitle	This is the subtitle
+selection	Canada~India
+graphers
+	title	ySlugs	subtitle	Statistic Radio	type
+
+
+	Inequality in the United States	gini top1 poverty_rate_1 poverty_rate_2 p90_50_ratio top1_1 top1_2	ineq	inequality	LineChart
+
+
+
+
+
+
+
+
+
+
+
+
+
+table	https://docs.google.com/spreadsheets/d/1_yF_x1Ip58zHDdWBklS5OaNCJYO2CNtk5ns9W9hp4wo/export?format=csv	US
+
+columns	US
+	slug	type	name
+	gini	Numeric	Gini coefficient
+	top1	Numeric	Top 1%
+	poverty_rate_1	Numeric	Poverty rate (series 1)
+	poverty_rate_2	Numeric	Poverty rate (series 2)
+	p90_50_ratio	Numeric	P90/P50 ratio
+	top1_1	Numeric	Top 1% (series 1)
+	top1_2	Numeric	Top 1% (series 2)
+	country	EntityName	Country
+	year	Year	Year
