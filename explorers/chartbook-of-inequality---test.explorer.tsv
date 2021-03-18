@@ -1,11 +1,12 @@
-explorerTitle	My New Explorer
-explorerSubtitle	This is the subtitle
-selection	Canada~India
+explorerTitle	Chartbook of Inequality
+explorerSubtitle	It's a demo
+selection	United States
+hideControls	true
 graphers
-	title	ySlugs	subtitle	Statistic Radio	type
+	title	ySlugs	subtitle	Statistic Radio	type	yScaleToggle	things Checkbox
 
 
-	Inequality in the United States	gini top1 poverty_rate_1 poverty_rate_2 p90_50_ratio top1_1 top1_2	ineq	inequality	LineChart
+	Inequality in the United States	gini top1 poverty_rate_1 poverty_rate_2 p90_50_ratio top1_1 top1_2	ineq	inequality	LineChart	true	gini top1
 
 
 
@@ -23,12 +24,12 @@ table	https://docs.google.com/spreadsheets/d/1_yF_x1Ip58zHDdWBklS5OaNCJYO2CNtk5n
 
 columns	US
 	slug	type	name
-	gini	Numeric	Gini coefficient
-	top1	Numeric	Top 1%
-	poverty_rate_1	Numeric	Poverty rate (series 1)
-	poverty_rate_2	Numeric	Poverty rate (series 2)
-	p90_50_ratio	Numeric	P90/P50 ratio
-	top1_1	Numeric	Top 1% (series 1)
-	top1_2	Numeric	Top 1% (series 2)
+	gini	Numeric	Equivalised gross household income
+	top1	Numeric	Share of top 1 per cent in gross income (tax units, excluding capital gains) (*)
+	poverty_rate_1	Numeric	Per cent living in households with pre-tax cash income  below official poverty line
+	poverty_rate_2	Numeric	Per cent living in households with equivalised disposable income below 50 per cent median (*)
+	p90_50_ratio	Numeric	Earnings at top decile as % median (*)
+	top1_1	Numeric	Share of top 1 per cent in total net wealth (individuals) (*)
+	top1_2	Numeric	Share of top 1 per cent in total net worth (survey data: households) (*)
 	country	EntityName	Country
 	year	Year	Year
