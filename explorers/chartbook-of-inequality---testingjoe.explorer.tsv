@@ -1,6 +1,6 @@
 explorerTitle	Chartbook of Inequality
 explorerSubtitle	It's a demo
-selection	Equivalised gross household income~Share of top 1 per cent in total net worth (survey data: households) (*)
+selection
 hideControls	false
 graphers
 	title	ySlugs	subtitle		type	yScaleToggle	facet this thing Checkbox	facet
