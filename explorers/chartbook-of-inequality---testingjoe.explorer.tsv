@@ -1,13 +1,11 @@
 explorerTitle	Chartbook of Inequality
 explorerSubtitle	It's a demo
-selection
+selection	Equivalised gross household income~Share of top 1 per cent in gross income (tax units, excluding capital gains) (*)
 hideControls	false
 graphers
-	title	ySlugs	subtitle		type	yScaleToggle	facet this thing Checkbox	facet
+	title	ySlugs	subtitle		type	yScaleToggle	facet this thing Checkbox	facet	tableSlug
 
-	Inequality in the United States	measure_group_1_data measure_group_2_data	ineq		LineChart		true	column
-
-
+	Inequality in the United States	measure_group_1_data measure_group_2_data	ineq		LineChart		true	column	US
 
 
 
@@ -20,7 +18,9 @@ graphers
 
 
 
-table	https://docs.google.com/spreadsheets/d/1_yF_x1Ip58zHDdWBklS5OaNCJYO2CNtk5ns9W9hp4wo/export?format=csv	US
+
+
+table	https://docs.google.com/spreadsheets/d/1Y9ihOG8rR-Te_JJe35jS-SweiyDelie9_tkxgq7K5jg/export?format=csv	US
 
 columns	US
 	slug	type	name
