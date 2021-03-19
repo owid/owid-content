@@ -5,7 +5,7 @@ hideControls	false
 graphers
 	title	ySlugs	subtitle		type	yScaleToggle	facet this thing Checkbox	facet
 
-	Inequality in the United States	measure_group_1_data measure_group_2_data	ineq		LineChart	true	true	country
+	Inequality in the United States	measure_group_1_data measure_group_2_data	ineq		LineChart		true	column
 
 
 
@@ -33,7 +33,6 @@ columns	US
 
 
 
-isPublished	true
 table	https://docs.google.com/spreadsheets/d/1_yF_x1Ip58zHDdWBklS5OaNCJYO2CNtk5ns9W9hp4wo/export?format=csv	Countries
 columns	Countries
 	slug	type	name
@@ -42,3 +41,4 @@ columns	Countries
 	measure	String	Measure
 	year	Year	Year
 	country	EntityName	Country
+isPublished	true
