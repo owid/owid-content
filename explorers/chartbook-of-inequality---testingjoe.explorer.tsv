@@ -1,12 +1,12 @@
 explorerTitle	Chartbook of Inequality
 explorerSubtitle	It's a demo
-selection	United States
+selection	Equivalised gross household income
 hideControls	false
 graphers
 	title	ySlugs	subtitle		type	yScaleToggle	facet this thing Checkbox	facet
 
-	Inequality in the United States	gini top1 poverty_rate_1 poverty_rate_2 p90_50_ratio top1_1 top1_2	ineq		LineChart	true	true	column
-	Inequality in the United States	gini top1 poverty_rate_1 poverty_rate_2 p90_50_ratio top1_1 top1_2	ineq		LineChart	true	false	country
+	Inequality in the United States	measure_group_1_data measure_group_2_data	ineq		LineChart	true	true	column
+
 
 
 
@@ -24,13 +24,13 @@ table	https://docs.google.com/spreadsheets/d/1_yF_x1Ip58zHDdWBklS5OaNCJYO2CNtk5n
 
 columns	US
 	slug	type	name
-	gini	Numeric	Equivalised gross household income
-	top1	Numeric	Share of top 1 per cent in gross income (tax units, excluding capital gains) (*)
-	poverty_rate_1	Numeric	Per cent living in households with pre-tax cash income  below official poverty line
-	poverty_rate_2	Numeric	Per cent living in households with equivalised disposable income below 50 per cent median (*)
-	p90_50_ratio	Numeric	Earnings at top decile as % median (*)
-	top1_1	Numeric	Share of top 1 per cent in total net wealth (individuals) (*)
-	top1_2	Numeric	Share of top 1 per cent in total net worth (survey data: households) (*)
+	measure_group_1_data	Numeric	Equivalised gross household income
+	measure_group_2_data	Numeric	Share of top 1 per cent in gross income (tax units, excluding capital gains) (*)
 	country	EntityName	Country
 	year	Year	Year
+
+
+
+
+
 isPublished	true
