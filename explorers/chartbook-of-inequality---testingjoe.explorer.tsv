@@ -34,3 +34,11 @@ columns	US
 
 
 isPublished	true
+table	https://docs.google.com/spreadsheets/d/1_yF_x1Ip58zHDdWBklS5OaNCJYO2CNtk5ns9W9hp4wo/export?format=csv	Countries
+columns	Countries
+	slug	type	name
+	measure_group_1_data	Numeric	Measure group 1
+	measure_group_2_data	Numeric	Measure group 2
+	measure	String	Measure
+	year	Year	Year
+	country	EntityName	Country
