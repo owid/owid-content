@@ -1,6 +1,6 @@
 explorerTitle	Chartbook of Inequality
 explorerSubtitle	It's a demo
-selection
+selection	Equivalised gross household income
 hideControls	false
 graphers
 	title	ySlugs	subtitle		type	yScaleToggle	facet this thing Checkbox	facet
@@ -26,7 +26,7 @@ columns	US
 	slug	type	name
 	measure_group_1_data	Numeric	Measure group 1
 	measure_group_2_data	Numeric	Measure group 2
-	country	EntityName	Measure
+	measure	EntityName	Measure
 	year	Year	Year
 
 
