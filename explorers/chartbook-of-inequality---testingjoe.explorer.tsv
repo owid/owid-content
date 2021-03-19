@@ -1,6 +1,6 @@
 explorerTitle	Chartbook of Inequality
 explorerSubtitle	It's a demo
-selection	Equivalised gross household income~Share of top 1 per cent in gross income (tax units, excluding capital gains) (*)
+selection	Equivalised gross household income	Share of top 1 per cent in gross income (tax units, excluding capital gains) (*)	Per cent living in households with pre-tax cash income  below official poverty line	Per cent living in households with equivalised disposable income below 50 per cent median (*)	Earnings at top decile as % median (*)	Share of top 1 per cent in total net wealth (individuals) (*)	Share of top 1 per cent in total net worth (survey data: households) (*)
 hideControls	false
 graphers
 	title	ySlugs	subtitle		type	yScaleToggle	facet this thing Checkbox	facet	tableSlug
