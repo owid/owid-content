@@ -1,7 +1,7 @@
 explorerTitle	Chartbook of Inequality
 explorerSubtitle	It's a demo
 selection	United States
-hideControls	true
+hideControls	false
 graphers
 	title	ySlugs	subtitle		type	yScaleToggle	facet this thing Checkbox	facet
 
