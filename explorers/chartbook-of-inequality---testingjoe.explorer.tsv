@@ -24,8 +24,8 @@ table	https://docs.google.com/spreadsheets/d/1Y9ihOG8rR-Te_JJe35jS-SweiyDelie9_t
 
 columns	US
 	slug	type	name
-	measure_group_1_data	Numeric	_
-	measure_group_2_data	Numeric	__
+	measure_group_1_data	Numeric
+	measure_group_2_data	Numeric
 	measure	EntityName	Measure
 	year	Year	Year
 
