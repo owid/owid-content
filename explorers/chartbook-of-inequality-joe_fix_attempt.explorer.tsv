@@ -5,7 +5,7 @@ hideControls	false
 graphers
 	title	ySlugs	subtitle	switch Radio	type	yScaleToggle	facet this thing Checkbox	facet	tableSlug
 
-	Inequality in the United States	measure_group_1_data measure_group_2_data	inequality	yes	LineChart		true	column	joe
+	Inequality in the United States	measure_group_1_data measure_group_2_data	inequality	yes	LineChart		true	column	Copy_of_Ernst
 	More inequality	measure_group_1_data measure_group_2_data	ineq	no	LineChart		false	country	joe
 
 
@@ -41,4 +41,14 @@ columns	Sheet1
 	measure	String	Measure
 	year	Year	Year
 	country	EntityName	Country
+table	https://docs.google.com/spreadsheets/d/1wRZay477xAOVqfsRJCk91adbb99ECTGLGeGdax1-5bs/export?format=csv	Copy_of_Ernst
+columns	Copy_of_Ernst
+	slug	type	name
+	measure_group_1_data	Numeric	_
+	measure_group_2_data	Numeric	__
+	measure	EntityName	Measure
+	year	Year	Year
+
+
+
 isPublished	true
