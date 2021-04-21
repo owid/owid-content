@@ -13,8 +13,8 @@ columns	sample
 	slug	type	name	color
 	location	EntityName	Country
 	date	Day	Date
-	vaccinated_1st	Percentage	Vaccinated (1st dose only)	darkseagreen
-	vaccinated_fully	Percentage	Vaccinated (fully)	steelblue
+	vaccinated_1st	Percentage	Vaccinated (1st dose only)	steelblue
+	vaccinated_fully	Percentage	Vaccinated (fully)	midnightblue
 
 table		sample
 	location	date	vaccinated_1st	vaccinated_fully
@@ -37,6 +37,6 @@ columns	vaccinations
 	people_vaccinated	People with at least one dose of COVID-19 vaccine	Integer			Official data collated by Our World in Data	https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations
 	people_fully_vaccinated	People fully vaccinated against COVID-19	Integer			Official data collated by Our World in Data	https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations
 	people_vaccinated_per_hundred	Share of people with at least one dose of COVID-19 vaccine	DecimalPercentage			Official data collated by Our World in Data	https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations
-	people_fully_vaccinated_per_hundred	Share of people fully vaccinated against COVID-19	DecimalPercentage			Official data collated by Our World in Data	https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations	steelblue	10
-	people_partly_vaccinated_per_hundred	Share of people only partly vaccinated against COVID-19	DecimalPercentage	subtract people_vaccinated_per_hundred people_fully_vaccinated_per_hundred		Official data collated by Our World in Data	https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations	darkseagreen	10
+	people_fully_vaccinated_per_hundred	Share of people fully vaccinated against COVID-19	DecimalPercentage			Official data collated by Our World in Data	https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations	midnightblue	10
+	people_partly_vaccinated_per_hundred	Share of people only partly vaccinated against COVID-19	DecimalPercentage	subtract people_vaccinated_per_hundred people_fully_vaccinated_per_hundred		Official data collated by Our World in Data	https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations	steelblue	10
 	population	Population	Population
