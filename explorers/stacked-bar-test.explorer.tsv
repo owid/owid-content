@@ -1,6 +1,6 @@
 explorerTitle	COVID-19 Data Explorer
-isPublished	true
-selection	United States	United Kingdom
+isPublished	false
+selection	United States	United Kingdom	India	Turkey	Brazil	Germany	France	Chile	Hungary	Israel	Serbia	Uruguay
 hasMapTab	false
 yAxisMin	0
 
@@ -23,7 +23,7 @@ table		sample
 
 table	https://covid.ourworldindata.org/data/internal/megafile--vaccinations.json	vaccinations
 columns	vaccinations
-	slug	name	type	transform	annotationsColumnSlug	sourceName	sourceLink	color
+	slug	name	type	transform	annotationsColumnSlug	sourceName	sourceLink	color	tolerance
 	location	Country name	EntityName
 	date	Day	Date
 	new_vaccinations_smoothed_per_million		Ratio
@@ -37,6 +37,6 @@ columns	vaccinations
 	people_vaccinated	People with at least one dose of COVID-19 vaccine	Integer			Official data collated by Our World in Data	https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations
 	people_fully_vaccinated	People fully vaccinated against COVID-19	Integer			Official data collated by Our World in Data	https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations
 	people_vaccinated_per_hundred	Share of people with at least one dose of COVID-19 vaccine	DecimalPercentage			Official data collated by Our World in Data	https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations
-	people_fully_vaccinated_per_hundred	Share of people fully vaccinated against COVID-19	DecimalPercentage			Official data collated by Our World in Data	https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations	steelblue
-	people_partly_vaccinated_per_hundred	Share of people only partly vaccinated against COVID-19	DecimalPercentage	subtract people_vaccinated_per_hundred people_fully_vaccinated_per_hundred		Official data collated by Our World in Data	https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations	darkseagreen
+	people_fully_vaccinated_per_hundred	Share of people fully vaccinated against COVID-19	DecimalPercentage			Official data collated by Our World in Data	https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations	steelblue	10
+	people_partly_vaccinated_per_hundred	Share of people only partly vaccinated against COVID-19	DecimalPercentage	subtract people_vaccinated_per_hundred people_fully_vaccinated_per_hundred		Official data collated by Our World in Data	https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations	darkseagreen	10
 	population	Population	Population
