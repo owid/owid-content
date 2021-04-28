@@ -1,0 +1,31 @@
+explorerTitle	COVID-19 Data Explorer
+isPublished	true
+selection	United States	United Kingdom	India	Turkey	Brazil	Germany	France	Chile	Hungary	Israel	Serbia	Uruguay
+hasMapTab	false
+yAxisMin	0
+baseColorScheme	Viridis
+hideControls	true
+
+graphers
+	title	subtitle	Table Radio	ySlugs	tableSlug	type
+	Share of the population vaccinated against COVID-19	This data is only available for countries which report the breakdown of doses administered by first and second doses.	Real data	people_partly_vaccinated_per_hundred people_fully_vaccinated_per_hundred	vaccinations	StackedDiscreteBar
+
+table	https://covid.ourworldindata.org/data/internal/megafile--vaccinations.json	vaccinations
+columns	vaccinations
+	slug	name	type	transform	annotationsColumnSlug	sourceName	sourceLink	color	tolerance
+	location	Country name	EntityName
+	date	Day	Date
+	new_vaccinations_smoothed_per_million		Ratio
+	total_vaccinations	Total vaccinations	Integer			Official data collated by Our World in Data	https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations
+	total_vaccinations_per_hundred	Total vaccinations (per 100)	Ratio			Official data collated by Our World in Data	https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations
+	new_vaccinations	New vaccinations	Integer			Official data collated by Our World in Data	https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations
+	new_vaccinations_per_pop		Ratio	new_vaccinations divideBy population
+	new_vaccinations_per_hundred	New vaccinations (per 100)	Ratio	multiplyBy new_vaccinations_per_pop 100		Official data collated by Our World in Data	https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations
+	new_vaccinations_smoothed	New vaccinations	Numeric			Official data collated by Our World in Data	https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations
+	new_vaccinations_smoothed_per_hundred	New vaccinations (per 100)	Ratio	multiplyBy new_vaccinations_smoothed_per_million 0.0001		Official data collated by Our World in Data	https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations
+	people_vaccinated	People with at least one dose of COVID-19 vaccine	Integer			Official data collated by Our World in Data	https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations
+	people_fully_vaccinated	People fully vaccinated against COVID-19	Integer			Official data collated by Our World in Data	https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations
+	people_vaccinated_per_hundred	Share of people with at least one dose of COVID-19 vaccine	DecimalPercentage			Official data collated by Our World in Data	https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations
+	people_fully_vaccinated_per_hundred	Share of people fully vaccinated against COVID-19	DecimalPercentage			Official data collated by Our World in Data	https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations		10
+	people_partly_vaccinated_per_hundred	Share of people only partly vaccinated against COVID-19	DecimalPercentage	subtract people_vaccinated_per_hundred people_fully_vaccinated_per_hundred		Official data collated by Our World in Data	https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations		10
+	population	Population	Population
