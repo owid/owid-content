@@ -6,8 +6,8 @@ yAxisMin	0
 
 graphers
 	title	subtitle	Table Radio	ySlugs	tableSlug	type
-	Vaccinations		Sample	vaccinated_1st vaccinated_fully	sample	StackedDiscreteBar
 	Vaccinations		Real	people_partly_vaccinated_per_hundred people_fully_vaccinated_per_hundred	vaccinations	StackedDiscreteBar
+	Vaccinations		Sample	vaccinated_1st vaccinated_fully	sample	StackedDiscreteBar
 
 columns	sample
 	slug	type	name	color
