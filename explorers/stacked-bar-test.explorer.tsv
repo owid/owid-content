@@ -4,23 +4,11 @@ selection	United States	United Kingdom	India	Turkey	Brazil	Germany	France	Chile	
 hasMapTab	false
 yAxisMin	0
 baseColorScheme	Viridis
+hideControls	true
 
 graphers
 	title	subtitle	Table Radio	ySlugs	tableSlug	type
 	Share of the population vaccinated against COVID-19	This data is only available for countries which report the breakdown of doses administered by first and second doses.	Real	people_partly_vaccinated_per_hundred people_fully_vaccinated_per_hundred	vaccinations	StackedDiscreteBar
-	Vaccinations		Sample	vaccinated_1st vaccinated_fully	sample	StackedDiscreteBar
-
-columns	sample
-	slug	type	name	color
-	location	EntityName	Country
-	date	Day	Date
-	vaccinated_1st	Percentage	Vaccinated (1st dose only)	steelblue
-	vaccinated_fully	Percentage	Vaccinated (fully)	midnightblue
-
-table		sample
-	location	date	vaccinated_1st	vaccinated_fully
-	United Kingdom	2021-04-21	0.3	0.2
-	United States	2021-04-21	0.25	0.25
 
 table	https://covid.ourworldindata.org/data/internal/megafile--vaccinations.json	vaccinations
 columns	vaccinations
