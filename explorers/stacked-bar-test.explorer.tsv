@@ -3,6 +3,7 @@ isPublished	false
 selection	United States	United Kingdom	India	Turkey	Brazil	Germany	France	Chile	Hungary	Israel	Serbia	Uruguay
 hasMapTab	false
 yAxisMin	0
+baseColorScheme	Viridis
 
 graphers
 	title	subtitle	Table Radio	ySlugs	tableSlug	type
@@ -37,6 +38,6 @@ columns	vaccinations
 	people_vaccinated	People with at least one dose of COVID-19 vaccine	Integer			Official data collated by Our World in Data	https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations
 	people_fully_vaccinated	People fully vaccinated against COVID-19	Integer			Official data collated by Our World in Data	https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations
 	people_vaccinated_per_hundred	Share of people with at least one dose of COVID-19 vaccine	DecimalPercentage			Official data collated by Our World in Data	https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations
-	people_fully_vaccinated_per_hundred	Share of people fully vaccinated against COVID-19	DecimalPercentage			Official data collated by Our World in Data	https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations	midnightblue	10
-	people_partly_vaccinated_per_hundred	Share of people only partly vaccinated against COVID-19	DecimalPercentage	subtract people_vaccinated_per_hundred people_fully_vaccinated_per_hundred		Official data collated by Our World in Data	https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations	steelblue	10
+	people_fully_vaccinated_per_hundred	Share of people fully vaccinated against COVID-19	DecimalPercentage			Official data collated by Our World in Data	https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations		10
+	people_partly_vaccinated_per_hundred	Share of people only partly vaccinated against COVID-19	DecimalPercentage	subtract people_vaccinated_per_hundred people_fully_vaccinated_per_hundred		Official data collated by Our World in Data	https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations		10
 	population	Population	Population
