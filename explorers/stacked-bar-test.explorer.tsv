@@ -9,6 +9,7 @@ hideControls	true
 graphers
 	title	subtitle	Table Radio	ySlugs	tableSlug	type
 	Share of the population vaccinated against COVID-19	This data is only available for countries which report the breakdown of doses administered by first and second doses.	Real data	people_partly_vaccinated_per_hundred people_fully_vaccinated_per_hundred	vaccinations	StackedDiscreteBar
+	Many legend labels		Many legend labels	people_partly_vaccinated_per_hundred people_fully_vaccinated_per_hundred people_partly_vaccinated_per_hundred people_fully_vaccinated_per_hundred people_partly_vaccinated_per_hundred people_fully_vaccinated_per_hundred	vaccinations	StackedDiscreteBar
 
 table	https://covid.ourworldindata.org/data/internal/megafile--vaccinations.json	vaccinations
 columns	vaccinations
