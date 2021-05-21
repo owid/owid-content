@@ -1,18 +1,19 @@
-explorerTitle	My New Explorer
-explorerSubtitle	This is the subtitle
-selection	Canada~India
+explorerTitle	Museums
+explorerSubtitle	How much of their collection do they display?
+selection	India
 graphers
 	title	ySlugs	subtitle	Statistic Radio	type
 	Population of different countries	Population	How many people live in each country?	Population	DiscreteBar
 	Flag Properties	MapleleafsInFlag	How many leaves are on their flag?	Flag	WorldMap
 table
-	Country	Population	Year
-	Canada	32000000	2020
+	Museum	TotalCollection	Year	CollectionOnDisplay	SourceLink
+	British Museum	32000000	2020
 	India	1000000000	2020
 	France	50000000	2020
 columns
 	slug	type	name
-	Country	EntityName	Country
-	Population	Numeric	Population
+	Museum	EntityName	Museum
+	TotalCollection	Numeric	TotalCollection
 	Year	Year	Year
-	MapleleafsInFlag	Numeric	MapleleafsInFlag
+	CollectionOnDisplay	Numeric	CollectionOnDisplay
+	SourceLink	String	SourceLink
