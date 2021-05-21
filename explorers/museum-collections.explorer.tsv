@@ -13,10 +13,12 @@ table
 	Museum of Fina Arts	Boston	450000	2009	2021	18000	432000	4	https://www.nytimes.com/2009/03/19/arts/artsspecial/19TROVE.html#:~:text=%E2%80%9CMost%20museums%20show%20between%202,what%20is%20behind%20closed%20doors.
 	Museum of Modern Art	New York	200000	2021	2021		200000	0	https://github.com/MuseumofModernArt/collection
 	National Gallery of Art	Washington DC	111737	2019	2021	2643	109094	2.365375838	https://public.tableau.com/profile/paul.albert2725#!/vizhome/GMUNationalGalleryofArtDataChallengeResults/StoryBoardV2
-	Tate							20	https://www.bbc.com/culture/article/20150123-7-masterpieces-you-cant-see
-	Louvre							8	https://www.bbc.com/culture/article/20150123-7-masterpieces-you-cant-see
-	Berlinische Galerie	Berlin						2	https://www.bbc.com/culture/article/20150123-7-masterpieces-you-cant-see
-	Albertina Museum	Vienna						0.1
+	Tate				2021			20	https://www.bbc.com/culture/article/20150123-7-masterpieces-you-cant-see
+	Louvre				2021			8	https://www.bbc.com/culture/article/20150123-7-masterpieces-you-cant-see
+	Berlinische Galerie	Berlin			2021			2	https://www.bbc.com/culture/article/20150123-7-masterpieces-you-cant-see
+	Albertina Museum	Vienna			2021			0.1	https://www.bbc.com/culture/article/20150123-7-masterpieces-you-cant-see
+	Vatican Museums	Rome	70000	2016	2021	20000	50000	28.57142857	https://en.wikipedia.org/wiki/Vatican_Museums
+	Rijskmuseum	Amsterdam	1000000	2014	2021	8000	992000	0.8	https://en.wikipedia.org/wiki/Rijksmuseum#Collection
 columns
 	slug	type	name
 	Museum	EntityName	Museum
