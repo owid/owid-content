@@ -5,7 +5,7 @@ graphers
 	title	ySlugs	subtitle	Statistic Radio	type
 	Total artworks in collection	TotalCollection	How many arts	Total collection	DiscreteBar
 	Share of collection that's public	TotalCollection CollectionOnDisplay	How much is public	% on display	StackedDiscreteBar
-table	https://docs.google.com/spreadsheets/d/1OqSXLZYCarPupvxuccUgx2QDnq0wT6_6XU31mfmPQjY/export?format=csv	MuseumCollections
+table	https://docs.google.com/spreadsheets/d/1OqSXLZYCarPupvxuccUgx2QDnq0wT6_6XU31mfmPQjY/export?format=csv	Collections
 
 
 
