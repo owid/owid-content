@@ -1,20 +1,23 @@
 explorerTitle	Museums
 explorerSubtitle	How much of their collection do they display?
-selection	British Museum
+selection	British Museum~Boijmans van Beuningen
 graphers
 	title	ySlugs	subtitle	Statistic Radio	type
+	Share of collection that's public	CollectionOnDisplay CollectionNotOnDisplay	How much is public	Share on display	StackedDiscreteBar
 	Total artworks in collection	TotalCollection	How many arts	Total collection	DiscreteBar
-	Share of collection that's public	TotalCollection CollectionOnDisplay	How much is public	% on display	StackedDiscreteBar
-table	https://docs.google.com/spreadsheets/d/1OqSXLZYCarPupvxuccUgx2QDnq0wT6_6XU31mfmPQjY/export?format=csv	Collections
-
-
-
+table
+	Museum	Location	TotalCollection	realyear	Year	CollectionOnDisplay	CollectionNotOnDisplay	PercentOnDisplay	SourceLink
+	British Museum	London	8000000	2020	2021	80000	7920000	1	https://www.britishmuseum.org/sites/default/files/2019-10/fact_sheet_bm_collection.pdf
+	Boijmans van Beuningen	Rotterdam	151000	2021	2021	151000	0	100
+	Metropolitan Museum of Art	New York	2000000	2009	2021	20000	1980000	1	https://www.nytimes.com/2009/03/19/arts/artsspecial/19TROVE.html#:~:text=%E2%80%9CMost%20museums%20show%20between%202,what%20is%20behind%20closed%20doors.
+	Museum of Fina Arts	Boston	450000	2009	2021	18000	432000	4	https://www.nytimes.com/2009/03/19/arts/artsspecial/19TROVE.html#:~:text=%E2%80%9CMost%20museums%20show%20between%202,what%20is%20behind%20closed%20doors.
 
 columns
 	slug	type	name
 	Museum	EntityName	Museum
 	TotalCollection	Numeric	TotalCollection
 	Year	Year	Year
-	CollectionOnDisplay	Numeric	CollectionOnDisplay
+	CollectionOnDisplay	Numeric	Artworks on display
 	SourceLink	String	SourceLink
 	PercentOnDisplay	Percentage	PercentOnDisplay
+	CollectionNotOnDisplay	Numeric	Artworks in storage
