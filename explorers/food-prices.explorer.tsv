@@ -1,0 +1,22 @@
+explorerTitle	Affordability of Diets Data Explorer
+isPublished	false
+explorerSubtitle	Explore the cost and affordability of diets across the world.
+selection	North Africa	Sub-Saharan Africa	North America	Latin America and the Caribbean	World	East Asia	South Asia
+subNavId
+subNavCurrentId
+wpBlockId
+tab	chart
+graphers
+	grapherId	Diet Radio	Cost or Affordability Radio	Count Dropdown
+	4949	Calorie sufficient	Cost 	$ per day
+	4950	Nutritionally adequate	Cost	$ per day
+	4951	Healthy diet	Cost	$ per day
+	4953	Calorie sufficient	Affordability	Share of population
+	4956	Calorie sufficient	Affordability	Number of people
+	4954	Nutritionally adequate	Affordability	Share of population
+	4957	Nutritionally adequate	Affordability	Number of people
+	4955	Healthy diet	Affordability	Share of population
+	4958	Healthy diet	Affordability	Number of people
+	4960	Calorie sufficient	Cost 	% of global poverty line
+	4961	Nutritionally adequate	Cost	% of global poverty line
+	4962	Healthy diet	Cost	% of global poverty line
