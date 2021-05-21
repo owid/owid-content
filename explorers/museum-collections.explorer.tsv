@@ -1,15 +1,15 @@
 explorerTitle	Museums
 explorerSubtitle	How much of their collection do they display?
-selection	India
+selection	British Museum
 graphers
 	title	ySlugs	subtitle	Statistic Radio	type
-	Population of different countries	Population	How many people live in each country?	Population	DiscreteBar
-	Flag Properties	MapleleafsInFlag	How many leaves are on their flag?	Flag	WorldMap
-table
-	Museum	TotalCollection	Year	CollectionOnDisplay	SourceLink
-	British Museum	32000000	2020
-	India	1000000000	2020
-	France	50000000	2020
+	Total artworks in collection	TotalCollection	How many arts	Total collection	DiscreteBar
+	Share of collection that's public	TotalCollection CollectionOnDisplay	How much is public	% on display	StackedDiscreteBar
+table	https://docs.google.com/spreadsheets/d/1OqSXLZYCarPupvxuccUgx2QDnq0wT6_6XU31mfmPQjY/export?format=csv	MuseumCollections
+
+
+
+
 columns
 	slug	type	name
 	Museum	EntityName	Museum
@@ -17,3 +17,4 @@ columns
 	Year	Year	Year
 	CollectionOnDisplay	Numeric	CollectionOnDisplay
 	SourceLink	String	SourceLink
+	PercentOnDisplay	Percentage	PercentOnDisplay
