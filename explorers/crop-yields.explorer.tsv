@@ -1,0 +1,28 @@
+explorerTitle	Crop Yields Data Explorer
+isPublished	false
+googleSheet	https://docs.google.com/spreadsheets/d/14QrLM9sRajoIZywaAttPt-Fm44-iyINIQwFC-VKlTyk/edit#gid=0
+selection	India	United States	Italy	United Kingdom	Germany	Canada
+explorerSubtitle	Explore crop yields across the world.
+hideAlertBanner	true
+subNavId
+subNavCurrentId
+hasMapTab	true
+yAxisMin	0
+table	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Attainable%20yields%20(Mueller%20et%20al.%202012)/Attainable%20yields%20(Mueller%20et%20al.%202012).csv	attainable
+downloadDataLink	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Attainable%20yields%20(Mueller%20et%20al.%202012)/Attainable%20yields%20(Mueller%20et%20al.%202012).csv
+hideTitleAnnotation	false
+pickerColumnSlugs
+graphers
+	title	subtitle	Crop Dropdown	Metric Dropdown	tableSlug	ySlugs	yScaleToggle	xSlug	colorSlug	type	hasMapTab	grapherId
+			Wheat	Actual yield								879
+	Wheat: Attainable yield		Wheat	Attainable yield	attainable	wheat_attainable	false			DiscreteBar	true
+	Wheat: Yield gap		Wheat	Yield gap	attainable	wheat_yield_gap	false			LineChart	true
+			Maize	Actual yield								890
+	Maize: Attainable yield		Maize	Attainable yield	attainable	maize_attainable	false			DiscreteBar	true
+	Maize: Yield gap		Maize	Yield gap	attainable	maize_yield_gap	false			LineChart	true
+
+columns	attainable
+	slug	name	type	transform	annotationsColumnSlug	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo	tolerance	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleLegendDescription	colorScaleNoDataLabel	colorScaleEqualSizeBins	colorScaleScheme	colorScaleInvert
+	wheat_attainable	Wheat: Attainable yield	Numeric											1000,,;10000,,;100000,,;1000000,,;10000000,,;100000000,,;1000000000,,			true	YlGnBu
+	wheat_yield_gap	Wheat: Yield gap	Numeric											0.01,,;0.03,,;0.1,,;0.3,,;1,,;3,,;10,,;30,,;100,,			true	Blues
+	maize_attainable	Maize: Attainable yield	Numeric											100,,;1000,,;10000,,;100000,,;1000000,,;10000000,,			true	YlGn
