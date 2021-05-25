@@ -10,7 +10,7 @@ hasMapTab	true
 yAxisMin	0
 table	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Attainable%20yields%20(Mueller%20et%20al.%202012)/Attainable%20yields%20(Mueller%20et%20al.%202012).csv	attainable
 downloadDataLink	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Attainable%20yields%20(Mueller%20et%20al.%202012)/Attainable%20yields%20(Mueller%20et%20al.%202012).csv
-hideTitleAnnotation	false
+hideTitleAnnotation	true
 pickerColumnSlugs
 graphers
 	title	subtitle	Crop Dropdown	Metric Dropdown	tableSlug	ySlugs	yScaleToggle	xSlug	colorSlug	type	hasMapTab	grapherId
@@ -20,10 +20,96 @@ graphers
 			Maize	Actual yield								890
 	Maize: Attainable yield		Maize	Attainable yield	attainable	maize_attainable	false			DiscreteBar	true
 	Maize: Yield gap		Maize	Yield gap	attainable	maize_yield_gap	false			LineChart	true
-
+			Rice	Actual yield								878
+	Rice: Attainable yield		Rice	Attainable yield	attainable	rice_attainable	false			DiscreteBar	true
+	Rice: Yield gap		Rice	Yield gap	attainable	rice_yield_gap	false			LineChart	true
+			Cassava	Actual yield								3977
+	Cassava: Attainable yield		Cassava	Attainable yield	attainable	cassava_attainable	false			DiscreteBar	true
+	Cassava: Yield gap		Cassava	Yield gap	attainable	cassava_yield_gap	false			LineChart	true
+			Barley	Actual yield								3975
+	Barley: Attainable yield		Barley	Attainable yield	attainable	barley_attainable	false			DiscreteBar	true
+	Barley: Yield gap		Barley	Yield gap	attainable	barley_yield_gap	false			LineChart	true
+			Millet	Actual yield
+	Millet: Attainable yield		Millet	Attainable yield	attainable	millet_attainable	false			DiscreteBar	true
+	Millet: Yield gap		Millet	Yield gap	attainable	millet_yield_gap	false			LineChart	true
+			Cotton	Actual yield
+	Cotton: Attainable yield		Cotton	Attainable yield	attainable	cotton_attainable	false			DiscreteBar	true
+	Cotton: Yield gap		Cotton	Yield gap	attainable	cotton_yield_gap	false			LineChart	true
+			Groundnut	Actual yield								3970
+	Groundnut: Attainable yield		Groundnut	Attainable yield	attainable	groundnut_attainable	false			DiscreteBar	true
+	Groundnut: Yield gap		Groundnut	Yield gap	attainable	groundnut_yield_gap	false			LineChart	true
+			Oil palm	Actual yield								3980
+	Oil palm: Attainable yield		Oil palm	Attainable yield	attainable	oilpalm_attainable	false			DiscreteBar	true
+	Oil palm: Yield gap		Oil palm	Yield gap	attainable	oilpalm_yield_gap	false			LineChart	true
+			Potato	Actual yield								880
+	Potato: Attainable yield		Potato	Attainable yield	attainable	potato_attainable	false			DiscreteBar	true
+	Potato: Yield gap		Potato	Yield gap	attainable	potato_yield_gap	false			LineChart	true
+			Rapeseed	Actual yield								888
+	Rapeseed: Attainable yield		Rapeseed	Attainable yield	attainable	rapeseed_attainable	false			DiscreteBar	true
+	Rapeseed: Yield gap		Rapeseed	Yield gap	attainable	rapeseed_yield_gap	false			LineChart	true
+			Rye	Actual yield
+	Rye: Attainable yield		Rye	Attainable yield	attainable	rye_attainable	false			DiscreteBar	true
+	Rye: Yield gap		Rye	Yield gap	attainable	rye_yield_gap	false			LineChart	true
+			Sorghum	Actual yield
+	Sorghum: Attainable yield		Sorghum	Attainable yield	attainable	sorghum_attainable	false			DiscreteBar	true
+	Sorghum: Yield gap		Sorghum	Yield gap	attainable	sorghum_yield_gap	false			LineChart	true
+			Soybean	Actual yield								881
+	Soybean: Attainable yield		Soybean	Attainable yield	attainable	soybean_attainable	false			DiscreteBar	true
+	Soybean: Yield gap		Soybean	Yield gap	attainable	soybean_yield_gap	false			LineChart	true
+			Sugar beet	Actual yield								3976
+	Sugar beet: Attainable yield		Sugar beet	Attainable yield	attainable	sugarbeet_attainable	false			DiscreteBar	true
+	Sugar beet: Yield gap		Sugar beet	Yield gap	attainable	sugarbeet_yield_gap	false			LineChart	true
+			Sugar cane	Actual yield								886
+	Sugarcane: Attainable yield		Sugar cane	Attainable yield	attainable	sugarcane_attainable	false			DiscreteBar	true
+	Sugarcane: Yield gap		Sugar cane	Yield gap	attainable	sugarcane_yield_gap	false			LineChart	true
+			Sunflower seed	Actual yield
+	Sunflower seed: Attainable yield		Sunflower seed	Attainable yield	attainable	sunflower_attainable	false			DiscreteBar	true
+	Sunflower seed: Yield gap		Sunflower seed	Yield gap	attainable	sunflower_yield_gap	false			LineChart	true
+			Cereals	Actual yield								768
+			Tomato	Actual yield								893
+			Peas	Actual yield								3979
+			Tea	Actual yield								2781
+			Beans	Actual yield								3978
+			Bananas	Actual yield								2790
+			Oranges	Actual yield								2778
+			Almonds	Actual yield								3981
+			Lettuce	Actual yield								3982
+			Cocoa beans	Actual yield								891
+			Coffee beans	Actual yield								2787
+			Cashew nuts	Actual yield								3971
 columns	attainable
 	slug	name	type	unit	shortUnit	transform	annotationsColumnSlug	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo	tolerance	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleLegendDescription	colorScaleNoDataLabel	colorScaleEqualSizeBins	colorScaleScheme	colorScaleInvert
 	wheat_attainable	Wheat: Attainable yield	Numeric	tonnes per hectare	t			Mueller, N. et al. (2012). Closing yield gaps through nutrient and water management. Nature.	https://www.nature.com/articles/nature11420	Mueller, N. D., Gerber, J. S., Johnston, M., Ray, D. K., Ramankutty, N., & Foley, J. A. (2012). Closing yield gaps through nutrient and water management. Nature, 490(7419), 254-257.						1,,;2,,;3,,;4,,;5,,;6,,;7,,;8,,;9,,;10,,			true	YlGnBu
 	wheat_yield_gap	Wheat: Yield gap	Numeric	tonnes per hectare	t			Our World in Data based on Mueller et al. (2012) and Food and Agriculture Organization of the United Nations	https://www.nature.com/articles/nature11421	Mueller, N. D., Gerber, J. S., Johnston, M., Ray, D. K., Ramankutty, N., & Foley, J. A. (2012). Closing yield gaps through nutrient and water management. Nature, 490(7419), 254-257.						1,,;2,,;3,,;4,,;5,,;6,,;7,,;8,,;9,,;10,,			true	Blues
 	maize_attainable	Maize: Attainable yield	Numeric	tonnes per hectare	t			Mueller, N. et al. (2012). Closing yield gaps through nutrient and water management. Nature.	https://www.nature.com/articles/nature11422	Mueller, N. D., Gerber, J. S., Johnston, M., Ray, D. K., Ramankutty, N., & Foley, J. A. (2012). Closing yield gaps through nutrient and water management. Nature, 490(7419), 254-257.						1,,;2,,;3,,;4,,;5,,;6,,;7,,;8,,;9,,;10,,			true	YlGn
-	maize_yield_gap	Maize: Yield gap	Numeric	tonnes per hectare	t			Our World in Data based on Mueller et al. (2012) and Food and Agriculture Organization of the United Nations	https://www.nature.com/articles/nature11423	Mueller, N. D., Gerber, J. S., Johnston, M., Ray, D. K., Ramankutty, N., & Foley, J. A. (2012). Closing yield gaps through nutrient and water management. Nature, 490(7419), 254-257.						1,,;2,,;3,,;4,,;5,,;6,,;7,,;8,,;9,,;10,,
+	maize_yield_gap	Maize: Yield gap	Numeric	tonnes per hectare	t			Our World in Data based on Mueller et al. (2012) and Food and Agriculture Organization of the United Nations	https://www.nature.com/articles/nature11423	Mueller, N. D., Gerber, J. S., Johnston, M., Ray, D. K., Ramankutty, N., & Foley, J. A. (2012). Closing yield gaps through nutrient and water management. Nature, 490(7419), 254-257.						1,,;2,,;3,,;4,,;5,,;6,,;7,,;8,,;9,,;10,,			true	YlGn
+	rice_attainable	Rice: Attainable yield	Numeric	tonnes per hectare	t			Mueller, N. et al. (2012). Closing yield gaps through nutrient and water management. Nature.	https://www.nature.com/articles/nature11424	Mueller, N. D., Gerber, J. S., Johnston, M., Ray, D. K., Ramankutty, N., & Foley, J. A. (2012). Closing yield gaps through nutrient and water management. Nature, 490(7419), 254-257.						1,,;2,,;3,,;4,,;5,,;6,,;7,,;8,,;9,,;10,,			true	YlGnBu
+	rice_yield_gap	Rice: Yield gap	Numeric	tonnes per hectare	t			Our World in Data based on Mueller et al. (2012) and Food and Agriculture Organization of the United Nations	https://www.nature.com/articles/nature11425	Mueller, N. D., Gerber, J. S., Johnston, M., Ray, D. K., Ramankutty, N., & Foley, J. A. (2012). Closing yield gaps through nutrient and water management. Nature, 490(7419), 254-257.						1,,;2,,;3,,;4,,;5,,;6,,;7,,;8,,;9,,;10,,			true	Blues
+	cassava_attainable	Cassava: Attainable yield	Numeric	tonnes per hectare	t			Mueller, N. et al. (2012). Closing yield gaps through nutrient and water management. Nature.	https://www.nature.com/articles/nature11426	Mueller, N. D., Gerber, J. S., Johnston, M., Ray, D. K., Ramankutty, N., & Foley, J. A. (2012). Closing yield gaps through nutrient and water management. Nature, 490(7419), 254-257.						1,,;2,,;3,,;4,,;5,,;6,,;7,,;8,,;9,,;10,,			true	YlGn
+	cassava_yield_gap	Cassava: Yield gap	Numeric	tonnes per hectare	t			Our World in Data based on Mueller et al. (2012) and Food and Agriculture Organization of the United Nations	https://www.nature.com/articles/nature11427	Mueller, N. D., Gerber, J. S., Johnston, M., Ray, D. K., Ramankutty, N., & Foley, J. A. (2012). Closing yield gaps through nutrient and water management. Nature, 490(7419), 254-257.						1,,;2,,;3,,;4,,;5,,;6,,;7,,;8,,;9,,;10,,			true	YlGn
+	barley_attainable	Barley: Attainable yield	Numeric	tonnes per hectare	t			Mueller, N. et al. (2012). Closing yield gaps through nutrient and water management. Nature.	https://www.nature.com/articles/nature11428	Mueller, N. D., Gerber, J. S., Johnston, M., Ray, D. K., Ramankutty, N., & Foley, J. A. (2012). Closing yield gaps through nutrient and water management. Nature, 490(7419), 254-257.						1,,;2,,;3,,;4,,;5,,;6,,;7,,;8,,;9,,;10,,			true	YlGnBu
+	barley_yield_gap	Barley: Yield gap	Numeric	tonnes per hectare	t			Our World in Data based on Mueller et al. (2012) and Food and Agriculture Organization of the United Nations	https://www.nature.com/articles/nature11429	Mueller, N. D., Gerber, J. S., Johnston, M., Ray, D. K., Ramankutty, N., & Foley, J. A. (2012). Closing yield gaps through nutrient and water management. Nature, 490(7419), 254-257.						1,,;2,,;3,,;4,,;5,,;6,,;7,,;8,,;9,,;10,,			true	Blues
+	millet_attainable	Millet: Attainable yield	Numeric	tonnes per hectare	t			Mueller, N. et al. (2012). Closing yield gaps through nutrient and water management. Nature.	https://www.nature.com/articles/nature11430	Mueller, N. D., Gerber, J. S., Johnston, M., Ray, D. K., Ramankutty, N., & Foley, J. A. (2012). Closing yield gaps through nutrient and water management. Nature, 490(7419), 254-257.						1,,;2,,;3,,;4,,;5,,;6,,;7,,;8,,;9,,;10,,			true	YlGn
+	millet_yield_gap	Millet: Yield gap	Numeric	tonnes per hectare	t			Our World in Data based on Mueller et al. (2012) and Food and Agriculture Organization of the United Nations	https://www.nature.com/articles/nature11431	Mueller, N. D., Gerber, J. S., Johnston, M., Ray, D. K., Ramankutty, N., & Foley, J. A. (2012). Closing yield gaps through nutrient and water management. Nature, 490(7419), 254-257.						1,,;2,,;3,,;4,,;5,,;6,,;7,,;8,,;9,,;10,,			true	YlGn
+	cotton_attainable	Cotton: Attainable yield	Numeric	tonnes per hectare	t			Mueller, N. et al. (2012). Closing yield gaps through nutrient and water management. Nature.	https://www.nature.com/articles/nature11432	Mueller, N. D., Gerber, J. S., Johnston, M., Ray, D. K., Ramankutty, N., & Foley, J. A. (2012). Closing yield gaps through nutrient and water management. Nature, 490(7419), 254-257.						1,,;2,,;3,,;4,,;5,,;6,,;7,,;8,,;9,,;10,,			true	YlGnBu
+	cotton_yield_gap	Cotton: Yield gap	Numeric	tonnes per hectare	t			Our World in Data based on Mueller et al. (2012) and Food and Agriculture Organization of the United Nations	https://www.nature.com/articles/nature11433	Mueller, N. D., Gerber, J. S., Johnston, M., Ray, D. K., Ramankutty, N., & Foley, J. A. (2012). Closing yield gaps through nutrient and water management. Nature, 490(7419), 254-257.						1,,;2,,;3,,;4,,;5,,;6,,;7,,;8,,;9,,;10,,			true	Blues
+	groundnut_attainable	Groundnut: Attainable yield	Numeric	tonnes per hectare	t			Mueller, N. et al. (2012). Closing yield gaps through nutrient and water management. Nature.	https://www.nature.com/articles/nature11434	Mueller, N. D., Gerber, J. S., Johnston, M., Ray, D. K., Ramankutty, N., & Foley, J. A. (2012). Closing yield gaps through nutrient and water management. Nature, 490(7419), 254-257.						1,,;2,,;3,,;4,,;5,,;6,,;7,,;8,,;9,,;10,,			true	YlGn
+	groundnut_yield_gap	Groundnut: Yield gap	Numeric	tonnes per hectare	t			Our World in Data based on Mueller et al. (2012) and Food and Agriculture Organization of the United Nations	https://www.nature.com/articles/nature11435	Mueller, N. D., Gerber, J. S., Johnston, M., Ray, D. K., Ramankutty, N., & Foley, J. A. (2012). Closing yield gaps through nutrient and water management. Nature, 490(7419), 254-257.						1,,;2,,;3,,;4,,;5,,;6,,;7,,;8,,;9,,;10,,			true	YlGn
+	oilpalm_attainable	Oil palm: Attainable yield	Numeric	tonnes per hectare	t			Mueller, N. et al. (2012). Closing yield gaps through nutrient and water management. Nature.	https://www.nature.com/articles/nature11436	Mueller, N. D., Gerber, J. S., Johnston, M., Ray, D. K., Ramankutty, N., & Foley, J. A. (2012). Closing yield gaps through nutrient and water management. Nature, 490(7419), 254-257.						1,,;2,,;3,,;4,,;5,,;6,,;7,,;8,,;9,,;10,,			true	YlGnBu
+	oilpalm_yield_gap	Oil palm: Yield gap	Numeric	tonnes per hectare	t			Our World in Data based on Mueller et al. (2012) and Food and Agriculture Organization of the United Nations	https://www.nature.com/articles/nature11437	Mueller, N. D., Gerber, J. S., Johnston, M., Ray, D. K., Ramankutty, N., & Foley, J. A. (2012). Closing yield gaps through nutrient and water management. Nature, 490(7419), 254-257.						1,,;2,,;3,,;4,,;5,,;6,,;7,,;8,,;9,,;10,,			true	Blues
+	potato_attainable	Potato: Attainable yield	Numeric	tonnes per hectare	t			Mueller, N. et al. (2012). Closing yield gaps through nutrient and water management. Nature.	https://www.nature.com/articles/nature11438	Mueller, N. D., Gerber, J. S., Johnston, M., Ray, D. K., Ramankutty, N., & Foley, J. A. (2012). Closing yield gaps through nutrient and water management. Nature, 490(7419), 254-257.						1,,;2,,;3,,;4,,;5,,;6,,;7,,;8,,;9,,;10,,			true	YlGn
+	potato_yield_gap	Potato: Yield gap	Numeric	tonnes per hectare	t			Our World in Data based on Mueller et al. (2012) and Food and Agriculture Organization of the United Nations	https://www.nature.com/articles/nature11439	Mueller, N. D., Gerber, J. S., Johnston, M., Ray, D. K., Ramankutty, N., & Foley, J. A. (2012). Closing yield gaps through nutrient and water management. Nature, 490(7419), 254-257.						1,,;2,,;3,,;4,,;5,,;6,,;7,,;8,,;9,,;10,,			true	YlGn
+	rapeseed_attainable	Rapeseed: Attainable yield	Numeric	tonnes per hectare	t			Mueller, N. et al. (2012). Closing yield gaps through nutrient and water management. Nature.	https://www.nature.com/articles/nature11440	Mueller, N. D., Gerber, J. S., Johnston, M., Ray, D. K., Ramankutty, N., & Foley, J. A. (2012). Closing yield gaps through nutrient and water management. Nature, 490(7419), 254-257.						1,,;2,,;3,,;4,,;5,,;6,,;7,,;8,,;9,,;10,,			true	YlGnBu
+	rapeseed_yield_gap	Rapeseed: Yield gap	Numeric	tonnes per hectare	t			Our World in Data based on Mueller et al. (2012) and Food and Agriculture Organization of the United Nations	https://www.nature.com/articles/nature11441	Mueller, N. D., Gerber, J. S., Johnston, M., Ray, D. K., Ramankutty, N., & Foley, J. A. (2012). Closing yield gaps through nutrient and water management. Nature, 490(7419), 254-257.						1,,;2,,;3,,;4,,;5,,;6,,;7,,;8,,;9,,;10,,			true	Blues
+	rye_attainable	Rye: Attainable yield	Numeric	tonnes per hectare	t			Mueller, N. et al. (2012). Closing yield gaps through nutrient and water management. Nature.	https://www.nature.com/articles/nature11442	Mueller, N. D., Gerber, J. S., Johnston, M., Ray, D. K., Ramankutty, N., & Foley, J. A. (2012). Closing yield gaps through nutrient and water management. Nature, 490(7419), 254-257.						1,,;2,,;3,,;4,,;5,,;6,,;7,,;8,,;9,,;10,,			true	YlGn
+	rye_yield_gap	Rye: Yield gap	Numeric	tonnes per hectare	t			Our World in Data based on Mueller et al. (2012) and Food and Agriculture Organization of the United Nations	https://www.nature.com/articles/nature11443	Mueller, N. D., Gerber, J. S., Johnston, M., Ray, D. K., Ramankutty, N., & Foley, J. A. (2012). Closing yield gaps through nutrient and water management. Nature, 490(7419), 254-257.						1,,;2,,;3,,;4,,;5,,;6,,;7,,;8,,;9,,;10,,			true	YlGn
+	sorghum_attainable	Sorghum: Attainable yield	Numeric	tonnes per hectare	t			Mueller, N. et al. (2012). Closing yield gaps through nutrient and water management. Nature.	https://www.nature.com/articles/nature11444	Mueller, N. D., Gerber, J. S., Johnston, M., Ray, D. K., Ramankutty, N., & Foley, J. A. (2012). Closing yield gaps through nutrient and water management. Nature, 490(7419), 254-257.						1,,;2,,;3,,;4,,;5,,;6,,;7,,;8,,;9,,;10,,			true	YlGnBu
+	sorghum_yield_gap	Sorghum: Yield gap	Numeric	tonnes per hectare	t			Our World in Data based on Mueller et al. (2012) and Food and Agriculture Organization of the United Nations	https://www.nature.com/articles/nature11445	Mueller, N. D., Gerber, J. S., Johnston, M., Ray, D. K., Ramankutty, N., & Foley, J. A. (2012). Closing yield gaps through nutrient and water management. Nature, 490(7419), 254-257.						1,,;2,,;3,,;4,,;5,,;6,,;7,,;8,,;9,,;10,,			true	Blues
+	soybean_attainable	Soybean: Attainable yield	Numeric	tonnes per hectare	t			Mueller, N. et al. (2012). Closing yield gaps through nutrient and water management. Nature.	https://www.nature.com/articles/nature11446	Mueller, N. D., Gerber, J. S., Johnston, M., Ray, D. K., Ramankutty, N., & Foley, J. A. (2012). Closing yield gaps through nutrient and water management. Nature, 490(7419), 254-257.						1,,;2,,;3,,;4,,;5,,;6,,;7,,;8,,;9,,;10,,			true	YlGn
+	soybean_yield_gap	Soybean: Yield gap	Numeric	tonnes per hectare	t			Our World in Data based on Mueller et al. (2012) and Food and Agriculture Organization of the United Nations	https://www.nature.com/articles/nature11447	Mueller, N. D., Gerber, J. S., Johnston, M., Ray, D. K., Ramankutty, N., & Foley, J. A. (2012). Closing yield gaps through nutrient and water management. Nature, 490(7419), 254-257.						1,,;2,,;3,,;4,,;5,,;6,,;7,,;8,,;9,,;10,,			true	YlGn
+	sugarbeet_attainable	Sugar beet: Attainable yield	Numeric	tonnes per hectare	t			Mueller, N. et al. (2012). Closing yield gaps through nutrient and water management. Nature.	https://www.nature.com/articles/nature11448	Mueller, N. D., Gerber, J. S., Johnston, M., Ray, D. K., Ramankutty, N., & Foley, J. A. (2012). Closing yield gaps through nutrient and water management. Nature, 490(7419), 254-257.						1,,;2,,;3,,;4,,;5,,;6,,;7,,;8,,;9,,;10,,			true	YlGnBu
+	sugarbeet_yield_gap	Sugar beet: Yield gap	Numeric	tonnes per hectare	t			Our World in Data based on Mueller et al. (2012) and Food and Agriculture Organization of the United Nations	https://www.nature.com/articles/nature11449	Mueller, N. D., Gerber, J. S., Johnston, M., Ray, D. K., Ramankutty, N., & Foley, J. A. (2012). Closing yield gaps through nutrient and water management. Nature, 490(7419), 254-257.						1,,;2,,;3,,;4,,;5,,;6,,;7,,;8,,;9,,;10,,			true	Blues
+	sugarcane_attainable	Sugarcane: Attainable yield	Numeric	tonnes per hectare	t			Mueller, N. et al. (2012). Closing yield gaps through nutrient and water management. Nature.	https://www.nature.com/articles/nature11450	Mueller, N. D., Gerber, J. S., Johnston, M., Ray, D. K., Ramankutty, N., & Foley, J. A. (2012). Closing yield gaps through nutrient and water management. Nature, 490(7419), 254-257.						1,,;2,,;3,,;4,,;5,,;6,,;7,,;8,,;9,,;10,,			true	YlGn
+	sugarcane_yield_gap	Sugarcane: Yield gap	Numeric	tonnes per hectare	t			Our World in Data based on Mueller et al. (2012) and Food and Agriculture Organization of the United Nations	https://www.nature.com/articles/nature11451	Mueller, N. D., Gerber, J. S., Johnston, M., Ray, D. K., Ramankutty, N., & Foley, J. A. (2012). Closing yield gaps through nutrient and water management. Nature, 490(7419), 254-257.						1,,;2,,;3,,;4,,;5,,;6,,;7,,;8,,;9,,;10,,			true	YlGn
+	sunflower_attainable	Sunflower seed: Attainable yield	Numeric	tonnes per hectare	t			Mueller, N. et al. (2012). Closing yield gaps through nutrient and water management. Nature.	https://www.nature.com/articles/nature11452	Mueller, N. D., Gerber, J. S., Johnston, M., Ray, D. K., Ramankutty, N., & Foley, J. A. (2012). Closing yield gaps through nutrient and water management. Nature, 490(7419), 254-257.						1,,;2,,;3,,;4,,;5,,;6,,;7,,;8,,;9,,;10,,			true	YlGnBu
+	sunflower_yield_gap	Sunflower seed: Yield gap	Numeric	tonnes per hectare	t			Our World in Data based on Mueller et al. (2012) and Food and Agriculture Organization of the United Nations	https://www.nature.com/articles/nature11453	Mueller, N. D., Gerber, J. S., Johnston, M., Ray, D. K., Ramankutty, N., & Foley, J. A. (2012). Closing yield gaps through nutrient and water management. Nature, 490(7419), 254-257.						1,,;2,,;3,,;4,,;5,,;6,,;7,,;8,,;9,,;10,,			true	Blues
