@@ -14,6 +14,9 @@ graphers
 	4960	Calorie sufficient	Cost 	% of global poverty line
 	4961	Nutritionally adequate	Cost 	% of global poverty line
 	4962	Healthy diet	Cost 	% of global poverty line
+	4969	Calorie sufficient	Cost 	% of average food expenditure
+	4967	Nutritionally adequate	Cost 	% of average food expenditure
+	4968	Healthy diet	Cost 	% of average food expenditure
 	4953	Calorie sufficient	Affordability	Share that cannot afford
 	4956	Calorie sufficient	Affordability	Number that cannot afford
 	4954	Nutritionally adequate	Affordability	Share that cannot afford
