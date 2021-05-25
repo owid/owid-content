@@ -1,0 +1,25 @@
+explorerTitle	Food Prices Data Explorer
+isPublished	true
+explorerSubtitle	Explore the cost and affordability of diets across the world.
+selection	India	Brazil	United Kingdom	Malawi	South Africa	Ecuador	Japan	United States	Bangladesh	Sudan
+subNavId
+subNavCurrentId
+wpBlockId
+tab	chart
+graphers
+	grapherId	Diet Radio	Cost or Affordability Radio	Metric Radio
+	4949	Calorie sufficient	Cost 	$ per day
+	4950	Nutritionally adequate	Cost 	$ per day
+	4951	Healthy diet	Cost 	$ per day
+	4960	Calorie sufficient	Cost 	% of global poverty line
+	4961	Nutritionally adequate	Cost 	% of global poverty line
+	4962	Healthy diet	Cost 	% of global poverty line
+	4969	Calorie sufficient	Cost 	% of average food expenditure
+	4967	Nutritionally adequate	Cost 	% of average food expenditure
+	4968	Healthy diet	Cost 	% of average food expenditure
+	4953	Calorie sufficient	Affordability	Share that cannot afford
+	4956	Calorie sufficient	Affordability	Number that cannot afford
+	4954	Nutritionally adequate	Affordability	Share that cannot afford
+	4957	Nutritionally adequate	Affordability	Number that cannot afford
+	4955	Healthy diet	Affordability	Share that cannot afford
+	4958	Healthy diet	Affordability	Number that cannot afford
