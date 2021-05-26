@@ -13,7 +13,7 @@ downloadDataLink	https://raw.githubusercontent.com/owid/owid-datasets/master/dat
 hideTitleAnnotation	true
 pickerColumnSlugs
 graphers
-	title	subtitle	Crop Dropdown	Metric Dropdown	tableSlug	ySlugs	yScaleToggle	xSlug	colorSlug	type	hasMapTab	grapherId	sourceDesc	note
+	title	subtitle	Crop Dropdown	Metric Radio	tableSlug	ySlugs	yScaleToggle	xSlug	colorSlug	type	hasMapTab	grapherId	sourceDesc	note
 			Wheat	Actual yield								879
 	Wheat: Attainable yield	Attainable yields are defined as feasible crop yields based on high-yielding areas of similar climate. They are more conservative than biophysical ‘potential yields’, but are achievable using current technologies and management (e.g. fertilizers and irrigation).	Wheat	Attainable yield	attainable	wheat_attainable	false			DiscreteBar	true		Mueller, N. et al. (2012). Closing yield gaps through nutrient and water management. Nature.	Attainable yields are based on assessments for the year 2000. Attainable yield pre-2000 may be lower; and post-2000 may be higher than these values.
 	Wheat: Yield gap	Yield gaps measure the difference between actual and attainable yields. Attainable yields are defined as feasible crop yields based on high-yielding areas of similar climate. They are more conservative than biophysical ‘potential yields’, but are achievable using current technologies and management (e.g. fertilizers and irrigation).	Wheat	Yield gap	attainable	wheat_yield_gap	false			LineChart	true		Our World in Data based on Mueller et al. (2012) and Food and Agriculture Organization of the United Nations	Attainable yields are based on assessments for the year 2000. Attainable yield pre-2000 may be lower; and post-2000 may be higher than these values.
