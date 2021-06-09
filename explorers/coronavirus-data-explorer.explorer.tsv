@@ -1,7 +1,7 @@
 explorerTitle	COVID-19 Data Explorer
 isPublished	true
 googleSheet	https://docs.google.com/spreadsheets/d/1qeXBgckrktxwrJp2V9NCG9CeDEufAC-nzYYjj6o1vlU/edit?usp=sharing
-selection	India	United States	Italy	United Kingdom	Germany	Canada
+selection	India	United States	France	United Kingdom	Germany	Canada
 explorerSubtitle	Download the complete <em>Our World in Data</em> <a href="https://github.com/owid/covid-19-data/tree/master/public/data" target="_blank" rel="noopener noreferrer">COVID-19 dataset.</a>
 hideAlertBanner	true
 subNavId	coronavirus
