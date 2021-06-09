@@ -79,6 +79,8 @@ graphers
 	Share of people vaccinated against COVID-19	This data is only available for countries which report the breakdown of doses administered by first and second doses.	People vaccinated (by dose)	Cumulative	true	false	people_fully_vaccinated_per_hundred people_partly_vaccinated_per_hundred	false			StackedDiscreteBar	vaccinations	false	false
 	Number of COVID-19 patients in hospital		Hospital patients	Daily	false	false	hosp_patients	true			LineChart	hospital-admissions	true	true
 	Number of COVID-19 patients in hospital per million		Hospital patients	Daily	true	false	hosp_patients_per_million	true			LineChart	hospital-admissions	true	true
+	Weekly new hospital admissions for COVID-19		Hospital admissions	Weekly	false	false	weekly_hosp_admissions	true			LineChart	hospital-admissions	true	true
+	Weekly new hospital admissions for COVID-19 per mllion		Hospital admissions	Weekly	true	false	weekly_hosp_admissions_per_million	true			LineChart	hospital-admissions	true	true
 
 table	https://covid.ourworldindata.org/data/internal/megafile--cases-tests.json	cases-tests
 columns	cases-tests
