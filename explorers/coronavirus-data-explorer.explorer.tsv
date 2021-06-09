@@ -85,7 +85,7 @@ graphers
 	Number of COVID-19 patients in intensive care (ICU) per million people		ICU patients	Daily	true	false	icu_patients_per_million	true			LineChart	hospital-admissions	true	true
 	Weekly new ICU admissions for COVID-19		ICU admissions	Weekly	false	false	weekly_icu_admissions	true			LineChart	hospital-admissions	true	true
 	Weekly new ICU admissions for COVID-19 per million people		ICU admissions	Weekly	true	false	weekly_icu_admissions_per_million	true			LineChart	hospital-admissions	true	true
-	Excess mortality during COVID-19: Deaths from all causes compared to previous years, all ages	Shown is how the number of weekly or monthly deaths in 2020–2021 differs as a percentage from the average number of deaths in the same period over the years 2015–2019. This metric is called the P-score. The reported number of deaths might not count all deaths that occurred due to incomplete coverage and delays in death reporting.	Excess mortality	Weekly	true	false	excess_mortality	false			LineChart	excess-mortality	true	true
+	Excess mortality during COVID-19: Deaths from all causes compared to previous years	Shown is how the number of weekly or monthly deaths in 2020–2021 differs as a percentage from the average number of deaths in the same period over the years 2015–2019. This metric is called the P-score. The reported number of deaths might not count all deaths that occurred due to incomplete coverage and delays in death reporting.	Excess mortality	Weekly	true	false	excess_mortality	false			LineChart	excess-mortality	true	false
 
 table	https://covid.ourworldindata.org/data/internal/megafile--cases-tests.json	cases-tests
 columns	cases-tests
