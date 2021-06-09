@@ -83,6 +83,8 @@ graphers
 	Weekly new hospital admissions for COVID-19 per mllion people		Hospital admissions	Weekly	true	false	weekly_hosp_admissions_per_million	true			LineChart	hospital-admissions	true	true
 	Number of COVID-19 patients in intensive care (ICU)		ICU patients	Daily	false	false	icu_patients	true			LineChart	hospital-admissions	true	true
 	Number of COVID-19 patients in intensive care (ICU) per million people		ICU patients	Daily	true	false	icu_patients_per_million	true			LineChart	hospital-admissions	true	true
+	Weekly new ICU admissions for COVID-19		ICU admissions	Weekly	false	false	weekly_icu_admissions	true			LineChart	hospital-admissions	true	true
+	Weekly new ICU admissions for COVID-19 per million people		ICU admissions	Weekly	true	false	weekly_icu_admissions_per_million	true			LineChart	hospital-admissions	true	true
 
 table	https://covid.ourworldindata.org/data/internal/megafile--cases-tests.json	cases-tests
 columns	cases-tests
