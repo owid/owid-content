@@ -7,7 +7,7 @@ subNavCurrentId
 wpBlockId
 tab	chart
 graphers
-	grapherId	Environmental impact Radio	Metric Radio	By stage of supply chain Checkbox
+	grapherId	Environmental impact Dropdown	Metric Radio	By stage of supply chain Checkbox
 	3645	Carbon footprint	Per kilogram	false
 	4986	Carbon footprint	Per kilogram	true
 	3651	Carbon footprint	Per 100 grams of protein
