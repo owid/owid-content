@@ -1,0 +1,26 @@
+explorerTitle	Environmental impacts of Food Data Explorer
+isPublished	true
+explorerSubtitle	Explore the environmental footprints of different food products.
+selection	Beef (beef herd)	Lamb & Mutton	Beef (dairy herd)	Prawns (farmed)	Cheese	Pig Meat	Poultry Meat	Eggs	Rice	Tofu (soybeans)	Milk	Tomatoes	Maize	Wheat & Rye	Peas	Bananas	Potatoes	Nuts
+subNavId
+subNavCurrentId
+wpBlockId
+tab	chart
+graphers
+	grapherId	Environmental impact Radio	Metric Radio	By stage of supply chain Checkbox
+	3645	Carbon footprint	Per kilogram	false
+	4986	Carbon footprint	Per kilogram	true
+	3651	Carbon footprint	Per 100 grams of protein
+	3655	Carbon footprint	Per 1000 kilocalories
+	3644	Land use	Per kilogram
+	3650	Land use	Per 100 grams of protein
+	3654	Land use	Per 1000 kilocalories
+	3646	Water use	Per kilogram
+	3652	Water use	Per 100 grams of protein
+	3950	Water use	Per 1000 kilocalories
+	3647	Scarcity-weighted water use	Per kilogram
+	3653	Scarcity-weighted water use	Per 100 grams of protein
+	3951	Scarcity-weighted water use	Per 1000 kilocalories
+	3649	Eutrophication (water pollution)	Per kilogram
+	3952	Eutrophication (water pollution)	Per 100 grams of protein
+	3953	Eutrophication (water pollution)	Per 1000 kilocalories
