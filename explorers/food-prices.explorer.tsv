@@ -8,6 +8,12 @@ wpBlockId
 tab	chart
 graphers
 	grapherId	Diet Radio	Cost or Affordability Radio	Metric Radio
+	4955	Healthy diet	Affordability	Share that cannot afford
+	4958	Healthy diet	Affordability	Number that cannot afford
+	4954	Nutritionally adequate	Affordability	Share that cannot afford
+	4957	Nutritionally adequate	Affordability	Number that cannot afford
+	4953	Calorie sufficient	Affordability	Share that cannot afford
+	4956	Calorie sufficient	Affordability	Number that cannot afford
 	4951	Healthy diet	Cost 	$ per day
 	4950	Nutritionally adequate	Cost 	$ per day
 	4949	Calorie sufficient	Cost 	$ per day
@@ -17,9 +23,3 @@ graphers
 	4969	Calorie sufficient	Cost 	% of average food expenditure
 	4967	Nutritionally adequate	Cost 	% of average food expenditure
 	4968	Healthy diet	Cost 	% of average food expenditure
-	4953	Calorie sufficient	Affordability	Share that cannot afford
-	4956	Calorie sufficient	Affordability	Number that cannot afford
-	4954	Nutritionally adequate	Affordability	Share that cannot afford
-	4957	Nutritionally adequate	Affordability	Number that cannot afford
-	4955	Healthy diet	Affordability	Share that cannot afford
-	4958	Healthy diet	Affordability	Number that cannot afford
