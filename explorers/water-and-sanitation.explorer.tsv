@@ -8,6 +8,7 @@ subNavId	water
 subNavCurrentId	wash-data-explorer
 hasMapTab	true
 yAxisMin	0
+wpBlockId	43865
 table	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Water%20and%20Sanitation%20(WHO%20WASH%2C%202021)/Water%20and%20Sanitation%20(WHO%20WASH%2C%202021).csv	water
 downloadDataLink
 hideTitleAnnotation	true
