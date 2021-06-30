@@ -6,6 +6,7 @@ explorerSubtitle	Download the complete <em>Our World in Data</em> <a href="https
 hideAlertBanner	true
 subNavId	coronavirus
 subNavCurrentId	data-explorer
+wpBlockId	43869
 hasMapTab	true
 yAxisMin	0
 downloadDataLink	https://covid.ourworldindata.org/data/owid-covid-data.csv
