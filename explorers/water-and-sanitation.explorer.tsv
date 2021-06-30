@@ -4,8 +4,8 @@ googleSheet
 selection	India	United States	Kenya	World	Bangladesh	South Africa	China
 explorerSubtitle
 hideAlertBanner	true
-subNavId
-subNavCurrentId
+subNavId	water
+subNavCurrentId	wash-data-explorer
 hasMapTab	true
 yAxisMin	0
 table	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Water%20and%20Sanitation%20(WHO%20WASH%2C%202021)/Water%20and%20Sanitation%20(WHO%20WASH%2C%202021).csv	water
