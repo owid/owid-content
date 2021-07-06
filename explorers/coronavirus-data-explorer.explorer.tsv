@@ -229,7 +229,7 @@ columns	variants
 	slug	name	type	transform	annotationsColumnSlug	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo	tolerance	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleLegendDescription	colorScaleNoDataLabel	colorScaleEqualSizeBins	colorScaleScheme	colorScaleInvert	colorScaleCategoricalBins
 	Entity	Country name	EntityName
 	Year	Day	Date
-	Delta	Delta	Percentage			CoVariants.org and GISAID	https://covariants.org/				<p>The share of analyzed sequences that correspond to each variant group. Only a fraction of all cases are sequenced.			0,,;2.5,,;5,,;10,,;25,,;50,,;75,,;100			true	YlGnBu
+	Delta	Delta	Percentage			CoVariants.org and GISAID	https://covariants.org/				<p>The share of analyzed sequences that correspond to each variant group. Only a fraction of all cases are sequenced.		0	10,,;20,,;30,,;40,,;50,,;60,,;70,,;80,,;90,,;100			true	Oranges
 	Alpha	Alpha	Percentage			CoVariants.org and GISAID	https://covariants.org/				<p>The share of analyzed sequences that correspond to each variant group. Only a fraction of all cases are sequenced.
 	Beta	Beta	Percentage			CoVariants.org and GISAID	https://covariants.org/				<p>The share of analyzed sequences that correspond to each variant group. Only a fraction of all cases are sequenced.
 	Eta	Eta	Percentage			CoVariants.org and GISAID	https://covariants.org/				<p>The share of analyzed sequences that correspond to each variant group. Only a fraction of all cases are sequenced.
