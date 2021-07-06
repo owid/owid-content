@@ -17,9 +17,6 @@ graphers
 	4951	Healthy diet	Cost 		$ per day
 	4950	Nutritionally adequate	Cost 		$ per day
 	4949	Calorie sufficient	Cost 		$ per day
-	4960	Calorie sufficient	Cost 		% of global poverty line
-	4961	Nutritionally adequate	Cost 		% of global poverty line
-	4962	Healthy diet	Cost 		% of global poverty line
 	4969	Calorie sufficient	Cost 		% of average food expenditure
 	4967	Nutritionally adequate	Cost 		% of average food expenditure
 	4968	Healthy diet	Cost 		% of average food expenditure
