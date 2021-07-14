@@ -1,0 +1,14 @@
+explorerTitle	Sustainable Development Goals (SDGs) Data Explorer
+isPublished	false
+explorerSubtitle
+selection	Nigeria	Bangladesh	India
+subNavId
+subNavCurrentId
+wpBlockId
+tab	map
+graphers
+	grapherId	Goal Dropdown	Target Dropdown	Indicator Dropdown
+	132	1. No Poverty	1.1: Eradicate extreme poverty	1.1.1 Share below international poverty line
+	1595	1. No Poverty	1.2: Reduce poverty by at least 50%	1.2.1 Share below the national poverty line
+	413	1. No Poverty	1.2: Reduce poverty by at least 50%	1.2.2 Share in poverty by national definitions
+		2. Zero Hunger
