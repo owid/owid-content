@@ -1,7 +1,7 @@
 explorerTitle	US COVID-19 Vaccination Data Explorer
 isPublished	true
 selection	United States	California	Texas	Florida	New York State	Pennsylvania	Illinois	Ohio	Georgia	North Carolina
-explorerSubtitle	Download the complete <em>Our World in Data</em> <a href="https://github.com/owid/covid-19-data/tree/master/public/data" target="_blank" rel="noopener noreferrer">COVID-19 dataset.</a>
+explorerSubtitle	Download the <em>Our World in Data</em> <a href="https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations#united-states-vaccination-data" target="_blank" rel="noopener noreferrer">dataset on US COVID-19 vaccination.</a>
 hideAlertBanner	true
 hasMapTab	false
 yAxisMin	0
@@ -24,7 +24,7 @@ graphers
 	US: Daily COVID-19 vaccine doses administered per 100 people	Shown is the rolling 7-day average per 100 people in the total population. For vaccines that require multiple doses, each individual dose is counted.	Doses administered	7-day rolling average	true	false	daily_vaccinations_per_hundred	true			LineChart		true
 	US: Total COVID-19 vaccine doses distributed	Cumulative counts of COVID-19 vaccine doses reported to Operation Warp Speed as delivered.	Doses distributed	Cumulative	false	false	total_distributed	true			LineChart		true
 	US: Total COVID-19 vaccine doses distributed per 100 people	Cumulative counts of COVID-19 vaccine doses reported to Operation Warp Speed as delivered per 100 people in the total population.	Doses distributed	Cumulative	true	false	distributed_per_hundred	true			LineChart		true
-	US: Share of available COVID-19 vaccine doses that have been used	Share of distributed vaccination doses that have been administered/used in the population. Distributed figures represent those reported to Operation Warp Speed as delivered.	Doses used (%)	Cumulative	false	false	share_doses_formatted	true			LineChart		true
+
 
 table	https://covid.ourworldindata.org/data/vaccinations/us_state_vaccinations.csv	vaccinations
 columns	vaccinations
