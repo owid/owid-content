@@ -1,0 +1,13 @@
+table	https://docs.google.com/spreadsheets/d/1qPVZBqaVDa1zeSy2sJhNwpUkf2oCSQ6uqftEB4dCmAI/export?format=csv	bulk_upload
+hasMapTab	true
+selection	India
+graphers
+	title	subtitle	Metric Dropdown	Poverty line Radio	tableSlug
+	Share of population in extreme poverty		Share in poverty	$1.90 a day	bulk_upload
+
+
+
+
+columns	bulk_upload
+	slug	name	type
+	_1_90_per_day_share_of_population_below_poverty_line	Share of population in extreme poverty	Numeric
