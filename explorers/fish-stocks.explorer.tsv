@@ -1,0 +1,59 @@
+explorerTitle	Fish Stocks Data Explorer
+isPublished	false
+googleSheet
+selection	Albacore tuna North Pacific Ocean	Albacore tuna South Atlantic	Atlantic bluefin tuna Western Atlantic
+explorerSubtitle
+hideAlertBanner	true
+hasMapTab	false
+table	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Fish%20stocks%20(RAMLegacy)/Fish%20stocks%20(RAMLegacy).csv	fish
+hideTitleAnnotation	true
+pickerColumnSlugs
+graphers
+	title	subtitle	Metric Dropdown	Relative to Radio	tableSlug	ySlugs	yScaleToggle	yAxisMin	colorSlug	type
+	Total fish biomass		Biomass	Total	fish	total_biomass	false	0		LineChart
+	Total biomass relative to biomass at maximum sustainable yield (MSY)		Biomass	Relative to MSY	fish	total_biomass_relative_to_msy	false	0		LineChart
+	Total biomass relative to biomass at management target		Biomass	Relative to management target	fish	total_biomass_relative_to_management_target	false	0		LineChart
+	Total catch		Catch	Total	fish	total_catch	false	0		LineChart
+	Total catch relative to catch at maximum sustainable yield (MSY)		Catch	Relative to MSY	fish	total_catch_relative_to_msy	false	0		LineChart
+	Total catch relative to catch at management target		Catch	Relative to management target	fish	total_catch_relative_to_management_target	false	0		LineChart
+	Total allowable catch			Allowable	fish	total_allowable_catch	false	0		LineChart
+	Scientifically advisable catch			Scientifically advisable	fish	scientific_advice_for_catch_limit	false	0		LineChart
+
+
+
+columns	fish
+	slug	name	type	unit	shortUnit	transform	annotationsColumnSlug	notes	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate
+	general_total_biomass		Numeric
+	general_total_catch		Numeric
+	general_exploitation_rate		Numeric
+	biomass_relative_to_msy		Numeric
+	harvest_relative_to_preferred_rate		Numeric
+	biomass_relative_to_preferred_management_rate		Numeric
+	harvest_rate_relative_to_management_target		Numeric
+	total_biomass		Numeric
+	spawning_stock_biomass		Numeric
+	total_number		Numeric
+	recruits		Numeric
+	total_catch		Numeric
+	total_landings		Numeric
+	recreational_catch		Numeric
+	fishing_mortality		Numeric
+	exploitation_rate		Numeric
+	total_biomass_relative_to_msy		Numeric
+	spawning_stock_relative_to_msy		Numeric
+	number_relative_to_msy		Numeric
+	fishing_mortality_relative_to_msy		Numeric
+	exploitation_rate_relative_to_msy		Numeric
+	catch_relative_to_msy		Numeric
+	catch_relative_to_mean_catch		Numeric
+	total_biomass_relative_to_management_target		Numeric
+	spawning_stock_relative_to_management_target		Numeric
+	number_relative_to_management_target		Numeric
+	fishing_mortality_relative_to_management_target		Numeric
+	exploitation_rate_relative_to_management_target		Numeric
+	catch_corresponding_to_total_allowable_advised		Numeric
+	total_allowable_catch		Numeric
+	scientific_advice_for_catch_limit		Numeric
+	survey_biomass		Numeric
+	catch_per_unit_effort		Numeric
+	fishing_effort		Numeric
