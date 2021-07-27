@@ -67,11 +67,11 @@ columns	bulk_upload
 	_15_00_per_day_poverty_gap_index	Poverty gap index at 15 int.-$ per day	Numeric	%	%	5,,;10,,;20,,;30,,;40,,;50,,;60,,;70,,;80,,;90,,;100,,;		YlOrRd
 	_20_00_per_day_poverty_gap_index	Poverty gap index at 20 int.-$ per day	Numeric	%	%	5,,;10,,;20,,;30,,;40,,;50,,;60,,;70,,;80,,;90,,;100,,;		YlOrRd
 	_30_00_per_day_poverty_gap_index	Poverty gap index at 30 int.-$ per day	Numeric	%	%	5,,;10,,;20,,;30,,;40,,;50,,;60,,;70,,;80,,;90,,;100,,;		YlOrRd
-	_1_00_per_day_absolute_poverty_gap	Poverty gap at 1 int.-$ per day	Numeric	int.-$	$	5,,;10,,;20,,;30,,;40,,;50,,;60,,;70,,;80,,;90,,;100,,;		YlOrRd
-	_1_90_per_day_absolute_poverty_gap	Poverty gap at 1.90 int.-$ per day	Numeric	int.-$	$	5,,;10,,;20,,;30,,;40,,;50,,;60,,;70,,;80,,;90,,;100,,;		YlOrRd
-	_3_20_per_day_absolute_poverty_gap	Poverty gap at 3.20 int.-$ per day	Numeric	int.-$	$	5,,;10,,;20,,;30,,;40,,;50,,;60,,;70,,;80,,;90,,;100,,;		YlOrRd
-	_5_50_per_day_absolute_poverty_gap	Poverty gap at 5.50 int.-$ per day	Numeric	int.-$	$	5,,;10,,;20,,;30,,;40,,;50,,;60,,;70,,;80,,;90,,;100,,;		YlOrRd
-	_10_00_per_day_absolute_poverty_gap	Poverty gap at 10 int.-$ per day	Numeric	int.-$	$	5,,;10,,;20,,;30,,;40,,;50,,;60,,;70,,;80,,;90,,;100,,;		YlOrRd
-	_15_00_per_day_absolute_poverty_gap	Poverty gap at 15 int.-$ per day	Numeric	int.-$	$	5,,;10,,;20,,;30,,;40,,;50,,;60,,;70,,;80,,;90,,;100,,;		YlOrRd
-	_20_00_per_day_absolute_poverty_gap	Poverty gap at 20 int.-$ per day	Numeric	int.-$	$	5,,;10,,;20,,;30,,;40,,;50,,;60,,;70,,;80,,;90,,;100,,;		YlOrRd
-	_30_00_per_day_absolute_poverty_gap	Poverty gap at 30 int.-$ per day	Numeric	int.-$	$	5,,;10,,;20,,;30,,;40,,;50,,;60,,;70,,;80,,;90,,;100,,;		YlOrRd
+	_1_00_per_day_absolute_poverty_gap	Poverty gap at 1 int.-$ per day	Numeric	int.-$	$			YlOrRd
+	_1_90_per_day_absolute_poverty_gap	Poverty gap at 1.90 int.-$ per day	Numeric	int.-$	$			YlOrRd
+	_3_20_per_day_absolute_poverty_gap	Poverty gap at 3.20 int.-$ per day	Numeric	int.-$	$			YlOrRd
+	_5_50_per_day_absolute_poverty_gap	Poverty gap at 5.50 int.-$ per day	Numeric	int.-$	$			YlOrRd
+	_10_00_per_day_absolute_poverty_gap	Poverty gap at 10 int.-$ per day	Numeric	int.-$	$			YlOrRd
+	_15_00_per_day_absolute_poverty_gap	Poverty gap at 15 int.-$ per day	Numeric	int.-$	$			YlOrRd
+	_20_00_per_day_absolute_poverty_gap	Poverty gap at 20 int.-$ per day	Numeric	int.-$	$			YlOrRd
+	_30_00_per_day_absolute_poverty_gap	Poverty gap at 30 int.-$ per day	Numeric	int.-$	$			YlOrRd
