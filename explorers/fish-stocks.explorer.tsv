@@ -8,6 +8,7 @@ hasMapTab	false
 table	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Fish%20stocks%20(RAMLegacy)/Fish%20stocks%20(RAMLegacy).csv	fish
 hideTitleAnnotation	true
 pickerColumnSlugs
+entityType	fish stock
 graphers
 	title	subtitle	Metric Dropdown	Relative to Radio	tableSlug	ySlugs	yScaleToggle	yAxisMin	colorSlug	type
 	Total fish biomass		Biomass	Total	fish	total_biomass	false	0		LineChart
