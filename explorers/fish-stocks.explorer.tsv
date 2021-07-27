@@ -2,7 +2,7 @@ explorerTitle	Fish Stocks Data Explorer
 isPublished	true
 googleSheet
 selection	Albacore tuna North Pacific Ocean	Albacore tuna South Atlantic	Atlantic bluefin tuna Western Atlantic
-explorerSubtitle
+explorerSubtitle	Explore available data on the world's fish stocks.
 hideAlertBanner	true
 hasMapTab	false
 table	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Fish%20stocks%20(RAMLegacy)/Fish%20stocks%20(RAMLegacy).csv	fish
