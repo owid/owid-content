@@ -4,7 +4,7 @@ hasMapTab	true
 selection	India	China	Nigeria	Vietnam	South Sudan	Madagascar	Bangladesh	World
 tab	map
 isPublished	true
-
+googleSheet	https://docs.google.com/spreadsheets/d/15SBkiGkK09IXH_Nodox-VKnKkmH1TcE6dUqh7QctjnU/edit#gid=1738264853
 
 graphers
 	title	subtitle	Metric Dropdown	Poverty line Dropdown	tableSlug	ySlugs	yScaleToggle	type	hasMapTab	tab	note
