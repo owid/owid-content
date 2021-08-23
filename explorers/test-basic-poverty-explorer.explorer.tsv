@@ -42,7 +42,7 @@ graphers
 	Poverty gap at 30 int.-$ per day	The poverty gap is the total shortfall of incomes from the poverty line, summing across all people in poverty. It is expressed as an annual figure and is measured in international-$ (in 2011 PPP prices) to account for price differences across countries and inflation over time.	Absolute poverty gap	$30 a day	bulk_upload	_30_00_per_day_absolute_poverty_gap	false	LineChart	true	map
 
 columns	bulk_upload
-	slug	name	type	unit	shortUnit	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
+	slug	name	type	unit	shortUnit	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme	transform
 	_1_00_per_day_share_of_population_below_poverty_line	Share living with less than 1 int.-$ per day	Numeric	%	%	5,,;10,,;20,,;30,,;40,,;50,,;60,,;70,,;80,,;90,,;100,,;		YlOrRd
 	_1_90_per_day_share_of_population_below_poverty_line	Share of population in extreme poverty	Numeric	%	%	5,,;10,,;20,,;30,,;40,,;50,,;60,,;70,,;80,,;90,,;100,,;		YlOrRd
 	_3_20_per_day_share_of_population_below_poverty_line	Share living with less than 3.20 int.-$ per day	Numeric	%	%	5,,;10,,;20,,;30,,;40,,;50,,;60,,;70,,;80,,;90,,;100,,;		YlOrRd
@@ -59,14 +59,14 @@ columns	bulk_upload
 	_15_00_per_day_total_number_of_people_below_poverty_line	Total population living with less than 15 int.-$ per day	Numeric				true	YlOrRd
 	_20_00_per_day_total_number_of_people_below_poverty_line	Total population living with less than 20 int.-$ per day	Numeric				true	YlOrRd
 	_30_00_per_day_total_number_of_people_below_poverty_line	Total population living with less than 30 int.-$ per day	Numeric				true	YlOrRd
-	_1_00_per_day_poverty_gap_index	Poverty gap index at 1 int.-$ per day	Numeric	%	%	5,,;10,,;20,,;30,,;40,,;50,,;60,,;70,,;80,,;90,,;100,,;		YlOrRd
-	_1_90_per_day_poverty_gap_index	Poverty gap index at 1.90 int.-$ per day	Numeric	%	%	5,,;10,,;20,,;30,,;40,,;50,,;60,,;70,,;80,,;90,,;100,,;		YlOrRd
-	_3_20_per_day_poverty_gap_index	Poverty gap index at 3.20 int.-$ per day	Numeric	%	%	5,,;10,,;20,,;30,,;40,,;50,,;60,,;70,,;80,,;90,,;100,,;		YlOrRd
-	_5_50_per_day_poverty_gap_index	Poverty gap index at 5.50 int.-$ per day	Numeric	%	%	5,,;10,,;20,,;30,,;40,,;50,,;60,,;70,,;80,,;90,,;100,,;		YlOrRd
-	_10_00_per_day_poverty_gap_index	Poverty gap index at 10 int.-$ per day	Numeric	%	%	5,,;10,,;20,,;30,,;40,,;50,,;60,,;70,,;80,,;90,,;100,,;		YlOrRd
-	_15_00_per_day_poverty_gap_index	Poverty gap index at 15 int.-$ per day	Numeric	%	%	5,,;10,,;20,,;30,,;40,,;50,,;60,,;70,,;80,,;90,,;100,,;		YlOrRd
-	_20_00_per_day_poverty_gap_index	Poverty gap index at 20 int.-$ per day	Numeric	%	%	5,,;10,,;20,,;30,,;40,,;50,,;60,,;70,,;80,,;90,,;100,,;		YlOrRd
-	_30_00_per_day_poverty_gap_index	Poverty gap index at 30 int.-$ per day	Numeric	%	%	5,,;10,,;20,,;30,,;40,,;50,,;60,,;70,,;80,,;90,,;100,,;		YlOrRd
+	_1_00_per_day_poverty_gap_index	Poverty gap index at 1 int.-$ per day	Numeric	%	%	5,,;10,,;20,,;30,,;40,,;50,,;60,,;70,,;80,,;90,,;100,,;		YlOrRd	multiplyBy 100
+	_1_90_per_day_poverty_gap_index	Poverty gap index at 1.90 int.-$ per day	Numeric	%	%	5,,;10,,;20,,;30,,;40,,;50,,;60,,;70,,;80,,;90,,;100,,;		YlOrRd	multiplyBy 100
+	_3_20_per_day_poverty_gap_index	Poverty gap index at 3.20 int.-$ per day	Numeric	%	%	5,,;10,,;20,,;30,,;40,,;50,,;60,,;70,,;80,,;90,,;100,,;		YlOrRd	multiplyBy 100
+	_5_50_per_day_poverty_gap_index	Poverty gap index at 5.50 int.-$ per day	Numeric	%	%	5,,;10,,;20,,;30,,;40,,;50,,;60,,;70,,;80,,;90,,;100,,;		YlOrRd	multiplyBy 100
+	_10_00_per_day_poverty_gap_index	Poverty gap index at 10 int.-$ per day	Numeric	%	%	5,,;10,,;20,,;30,,;40,,;50,,;60,,;70,,;80,,;90,,;100,,;		YlOrRd	multiplyBy 100
+	_15_00_per_day_poverty_gap_index	Poverty gap index at 15 int.-$ per day	Numeric	%	%	5,,;10,,;20,,;30,,;40,,;50,,;60,,;70,,;80,,;90,,;100,,;		YlOrRd	multiplyBy 100
+	_20_00_per_day_poverty_gap_index	Poverty gap index at 20 int.-$ per day	Numeric	%	%	5,,;10,,;20,,;30,,;40,,;50,,;60,,;70,,;80,,;90,,;100,,;		YlOrRd	multiplyBy 100
+	_30_00_per_day_poverty_gap_index	Poverty gap index at 30 int.-$ per day	Numeric	%	%	5,,;10,,;20,,;30,,;40,,;50,,;60,,;70,,;80,,;90,,;100,,;		YlOrRd	multiplyBy 100
 	_1_00_per_day_absolute_poverty_gap	Poverty gap at 1 int.-$ per day	Numeric	int.-$	$		true	YlOrRd
 	_1_90_per_day_absolute_poverty_gap	Poverty gap at 1.90 int.-$ per day	Numeric	int.-$	$		true	YlOrRd
 	_3_20_per_day_absolute_poverty_gap	Poverty gap at 3.20 int.-$ per day	Numeric	int.-$	$		true	YlOrRd
