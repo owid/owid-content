@@ -1,0 +1,30 @@
+explorerTitle	Fertilizers Data Explorer
+isPublished	false
+entityType	country
+explorerSubtitle	Explore the use and impact of fertilizers across the world.
+selection	United States	China	Egypt	India
+subNavId
+subNavCurrentId
+wpBlockId
+tab	map
+graphers
+	grapherId	Input Radio	Nutrient Radio	Metric Dropdown	Share of world total Checkbox
+		Synthetic fertilizer	All nutrients	Applied (total)	false
+	780	Synthetic fertilizer	All nutrients	Applied (per hectare)	false
+		Synthetic fertilizer	Nitrogen	Applied (total)	false
+	1089	Synthetic fertilizer	Nitrogen	Applied (per hectare)	false
+		Synthetic fertilizer	Phosphorous	Applied (total)	false
+	1088	Synthetic fertilizer	Phosphorous	Applied (per hectare)	false
+		Synthetic fertilizer	Potassium	Applied (total)	false
+	1090	Synthetic fertilizer	Potassium	Applied (per hectare)	false
+	5174	Total nutrients	Nitrogen	Applied (total)	false
+	5175	Total nutrients	Nitrogen	Applied (per hectare)	false
+	5092	Total nutrients	Nitrogen	Excess (total)	false
+	5108	Total nutrients	Nitrogen	Excess (per hectare)	false
+	5094	Total nutrients	Nitrogen	Excess (total)	true
+	5088	Total nutrients	Nitrogen	Nutrient use efficiency	false
+		Total nutrients	Phosphorous	Applied (total)	false
+		Total nutrients	Phosphorous	Applied (per hectare)	false
+	5093	Total nutrients	Phosphorous	Excess (total)	false
+	5110	Total nutrients	Phosphorous	Excess (per hectare)	false
+	5095	Total nutrients	Phosphorous	Excess (total)	true
