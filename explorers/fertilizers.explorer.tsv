@@ -9,10 +9,10 @@ wpBlockId
 tab	map
 graphers
 	grapherId	Input Radio	Nutrient Radio	Metric Dropdown	Share of world total Checkbox
-	780	Synthetic fertilizer	All nutrients	Applied (per hectare)	false
 	1089	Synthetic fertilizer	Nitrogen	Applied (per hectare)	false
 	1088	Synthetic fertilizer	Phosphorous	Applied (per hectare)	false
 	1090	Synthetic fertilizer	Potassium	Applied (per hectare)	false
+	780	Synthetic fertilizer	All nutrients	Applied (per hectare)	false
 	5174	Total nutrients	Nitrogen	Applied (total)	false
 	5175	Total nutrients	Nitrogen	Applied (per hectare)	false
 	5092	Total nutrients	Nitrogen	Excess (total)	false
