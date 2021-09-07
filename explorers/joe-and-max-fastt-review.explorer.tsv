@@ -8,6 +8,6 @@ subNavCurrentId
 wpBlockId
 tab	map
 graphers
-	Chart title Dropdown	grapherId
-	Chart 1	240
-	Chart 2	814
+	Chart title Dropdown	grapherId	title
+	Chart 1	240	"Amended title 1"
+	Chart 2	814	"Amended title 2"
