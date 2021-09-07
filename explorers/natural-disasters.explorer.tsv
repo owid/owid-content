@@ -5,21 +5,20 @@ explorerSubtitle
 hideAlertBanner	true
 hasMapTab	true
 yAxisMin	0
-wpBlockId
-table	https://github.com/owid/owid-datasets/blob/master/datasets/Natural%20disasters%20(EMDAT)/Natural%20disasters%20(EMDAT).csv	water
+tab	map
+table	https://github.com/owid/owid-datasets/blob/master/datasets/Natural%20disasters%20(EMDAT)/Natural%20disasters%20(EMDAT).csv	disasters
 downloadDataLink
 hideTitleAnnotation	true
-pickerColumnSlugs
 graphers	disasters
 
-	title	subtitle	Resource Radio	Level of Access Dropdown	Residence Radio
-	Share of the population with access to safely managed drinking water	Safely managed drinking water is water from an improved water source which is located on premises, available when needed and free from contamination.	Drinking water	Safely managed	Total
-	Share of the population with access to basic drinking water	Basic drinking water is water from an improved source, where the collection time is not more than 30 minutes for a roundtrip.	Drinking water	Basic	Total
-	Share of the population that relies on limited drinking water facilities	Limited drinking water is water from an improved source, where the collection time exceeds 30 minutes for a roundtrip.	Drinking water	Limited	Total
-	Share of the population that relies on unimproved drinking water facilities	An unimproved drinking water source is water from an unprotected dug well or unprotected spring.	Drinking water	Unimproved	Total
-	Share of the population with no access to drinking water	Having no access to drinking water means people rely on surface water: directly from a river, dam, lake, pond, stream, canal or irrigation canal.	Drinking water	No facilities	Total
-	Share of the population with access to improved drinking water	Improved drinking water sources are those that have the potential to deliver safe water. They include piped water, boreholes or tubewells, protected dug wells, protected springs, rainwater, and packaged or delivered water.	Drinking water	Improved	Total
-	Number of people with access to safely managed drinking water	Safely managed drinking water is water from an improved water source which is located on premises, available when needed and free from contamination.	Drinking water	Safely managed	Total
+	title	subtitle	Disaster Type Dropdown	Impact Dropdown	Per capita Checkbox	tableSlug	ySlugs	yScaleToggle	xSlug	colorSlug	type	grapherId	sourceDesc	note	hideTitleAnnotation	tab
+	Number of deaths from drought		Drought	Deaths	false	disasters	deaths_drought				LineChart					map
+	Number of people injured from drought		Drought	Injuries	false	disasters	injured_drought				LineChart					map
+	Share of the population that relies on limited drinking water facilities		Drinking water	Limited	Total	disasters					LineChart					map
+	Share of the population that relies on unimproved drinking water facilities		Drinking water	Unimproved	Total	disasters					LineChart					map
+	Share of the population with no access to drinking water		Drinking water	No facilities	Total	disasters					LineChart					map
+	Share of the population with access to improved drinking water		Drinking water	Improved	Total	disasters					LineChart					map
+	Number of people with access to safely managed drinking water		Drinking water	Safely managed	Total						LineChart					map
 
 
 
@@ -28,7 +27,7 @@ graphers	disasters
 columns	disasters
 	slug	name	type	unit	shortUnit	transform	annotationsColumnSlug	notes	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo	tolerance	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme	colorScaleEqualSizeBins
 	deaths_drought	Number of deaths from drought	Integer						Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;40,,;60,,;80,,;100	false	YlGnBu
-	injured_drought	Number of people injured from drought							Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;40,,;60,,;80,,;100	false	YlGnBu
+	injured_drought	Number of people injured from drought	Integer						Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;40,,;60,,;80,,;100	false	YlGnBu
 	affected_drought								Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	5,,;10,,;20,,;30,,;40	false	YlOrBr
 	homeless_drought								Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	5,,;10,,;20,,;30,,;40,,;50,,;60	false	YlOrRd
 	total_affected_drought								Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	2.5,,;5,,;10,,;25,,;50	false	YlOrRd
