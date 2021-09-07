@@ -1,0 +1,185 @@
+explorerTitle	Natural Disasters Data Explorer
+isPublished	false
+selection	World
+explorerSubtitle
+hideAlertBanner	true
+hasMapTab	true
+yAxisMin	0
+wpBlockId
+table	https://github.com/owid/owid-datasets/blob/master/datasets/Natural%20disasters%20(EMDAT)/Natural%20disasters%20(EMDAT).csv	water
+downloadDataLink
+hideTitleAnnotation	true
+pickerColumnSlugs
+graphers	disasters
+
+	title	subtitle	Resource Radio	Level of Access Dropdown	Residence Radio
+	Share of the population with access to safely managed drinking water	Safely managed drinking water is water from an improved water source which is located on premises, available when needed and free from contamination.	Drinking water	Safely managed	Total
+	Share of the population with access to basic drinking water	Basic drinking water is water from an improved source, where the collection time is not more than 30 minutes for a roundtrip.	Drinking water	Basic	Total
+	Share of the population that relies on limited drinking water facilities	Limited drinking water is water from an improved source, where the collection time exceeds 30 minutes for a roundtrip.	Drinking water	Limited	Total
+	Share of the population that relies on unimproved drinking water facilities	An unimproved drinking water source is water from an unprotected dug well or unprotected spring.	Drinking water	Unimproved	Total
+	Share of the population with no access to drinking water	Having no access to drinking water means people rely on surface water: directly from a river, dam, lake, pond, stream, canal or irrigation canal.	Drinking water	No facilities	Total
+	Share of the population with access to improved drinking water	Improved drinking water sources are those that have the potential to deliver safe water. They include piped water, boreholes or tubewells, protected dug wells, protected springs, rainwater, and packaged or delivered water.	Drinking water	Improved	Total
+	Number of people with access to safely managed drinking water	Safely managed drinking water is water from an improved water source which is located on premises, available when needed and free from contamination.	Drinking water	Safely managed	Total
+
+
+
+
+
+columns	disasters
+	slug	name	type	unit	shortUnit	transform	annotationsColumnSlug	notes	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo	tolerance	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme	colorScaleEqualSizeBins
+	deaths_drought	Number of deaths from drought	Integer						Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;40,,;60,,;80,,;100	false	YlGnBu
+	injured_drought	Number of people injured from drought							Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;40,,;60,,;80,,;100	false	YlGnBu
+	affected_drought								Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	5,,;10,,;20,,;30,,;40	false	YlOrBr
+	homeless_drought								Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	5,,;10,,;20,,;30,,;40,,;50,,;60	false	YlOrRd
+	total_affected_drought								Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	2.5,,;5,,;10,,;25,,;50	false	YlOrRd
+	reconstruction_costs_drought								Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;40,,;60,,;80,,;100
+	insured_damages_drought								Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)
+	total_damages_drought								Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)
+	death_rate_per_100k_drought	Death rates from drought							Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)
+	injury_rate_per_100k_drought	Injury rates from drought							Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)
+	affected_rate_per_100k_drought								Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)
+	homeless_rate_per_100k_drought								Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)
+	total_affected_per_100k_drought
+	deaths_earthquake	Number of deaths from earthquakes
+	injured_earthquake	Number of people injured from earthquakes
+	affected_earthquake
+	homeless_earthquake
+	total_affected_earthquake
+	reconstruction_costs_earthquake
+	insured_damages_earthquake
+	total_damages_earthquake
+	death_rate_per_100k_earthquake	Death rates from earthquakes
+	injury_rate_per_100k_earthquake	Injury rates from earthquakes
+	affected_rate_per_100k_earthquake
+	homeless_rate_per_100k_earthquake
+	total_affected_per_100k_earthquake
+	deaths_all_disasters	Number of deaths from disasters
+	injured_all_disasters	Number of people injured from disasters
+	affected_all_disasters
+	homeless_all_disasters
+	total_affected_all_disasters
+	reconstruction_costs_all_disasters
+	insured_damages_all_disasters
+	total_damages_all_disasters
+	death_rate_per_100k_all_disasters	Death rates from disasters
+	injury_rate_per_100k_all_disasters	injury rates from disasters
+	affected_rate_per_100k_all_disasters
+	homeless_rate_per_100k_all_disasters
+	total_affected_per_100k_all_disasters
+	deaths_volcanic	Number of deaths from volcanic activity
+	injured_volcanic	Number of people injured from volcanic activity
+	affected_volcanic
+	homeless_volcanic
+	total_affected_volcanic
+	reconstruction_costs_volcanic
+	insured_damages_volcanic
+	total_damages_volcanic
+	death_rate_per_100k_volcanic	Death rates from volcanic activity
+	injury_rate_per_100k_volcanic	Injury rates from volcanic activity
+	affected_rate_per_100k_volcanic
+	homeless_rate_per_100k_volcanic
+	total_affected_per_100k_volcanic
+	deaths_flood	Number of deaths from floods
+	injured_flood	Number of people injured from floods
+	affected_flood
+	homeless_flood
+	total_affected_flood
+	reconstruction_costs_flood
+	insured_damages_flood
+	total_damages_flood
+	death_rate_per_100k_flood	Death rates from floods
+	injury_rate_per_100k_flood	Injury rates from floods
+	affected_rate_per_100k_flood
+	homeless_rate_per_100k_flood
+	total_affected_per_100k_flood
+	deaths_mass_movement	Number of deaths from mass movements
+	injured_mass_movement	Number of people injured from mass movements
+	affected_mass_movement
+	homeless_mass_movement
+	total_affected_mass_movement
+	reconstruction_costs_mass_movement
+	insured_damages_mass_movement
+	total_damages_mass_movement
+	death_rate_per_100k_mass_movement	Death rates from mass movements
+	injury_rate_per_100k_mass_movement	Injury rates from mass movements
+	affected_rate_per_100k_mass_movement
+	homeless_rate_per_100k_mass_movement
+	total_affected_per_100k_mass_movement
+	deaths_storm	Number of deaths from storms
+	injured_storm	Number of people injured from storms
+	affected_storm
+	homeless_storm
+	total_affected_storm
+	reconstruction_costs_storm
+	insured_damages_storm
+	total_damages_storm
+	death_rate_per_100k_storm	Death rates from storms
+	injury_rate_per_100k_storm	Injury rates from storms
+	affected_rate_per_100k_storm
+	homeless_rate_per_100k_storm
+	total_affected_per_100k_storm
+	deaths_landslide	Number of deaths from landslides
+	injured_landslide	Number of people injured from landslides
+	affected_landslide
+	homeless_landslide
+	total_affected_landslide
+	reconstruction_costs_landslide
+	insured_damages_landslide
+	total_damages_landslide
+	death_rate_per_100k_landslide	Death rates from landslides
+	injury_rate_per_100k_landslide	Injury rates from landslides
+	affected_rate_per_100k_landslide
+	homeless_rate_per_100k_landslide
+	total_affected_per_100k_landslide
+	deaths_fog	Number of deaths from fog
+	injured_fog
+	affected_fog
+	homeless_fog
+	total_affected_fog
+	reconstruction_costs_fog
+	insured_damages_fog
+	total_damages_fog
+	death_rate_per_100k_fog	Death rates from fog
+	injury_rate_per_100k_fog	Injury rates from fog
+	affected_rate_per_100k_fog
+	homeless_rate_per_100k_fog
+	total_affected_per_100k_fog
+	deaths_wildfire	Number of deaths from wildfires
+	injured_wildfire	Number of people injured from wildfires
+	affected_wildfire
+	homeless_wildfire
+	total_affected_wildfire
+	reconstruction_costs_wildfire
+	insured_damages_wildfire
+	total_damages_wildfire
+	death_rate_per_100k_wildfire	Death rates from wildfires
+	injury_rate_per_100k_wildfire	Injury rates from wildfires
+	affected_rate_per_100k_wildfire
+	homeless_rate_per_100k_wildfire
+	total_affected_per_100k_wildfire
+	deaths_temperature	Number of deaths from extreme temperatures (hot and cold)
+	injured_temperature	Number of people injured from extreme temperatures
+	affected_temperature
+	homeless_temperature
+	total_affected_temperature
+	reconstruction_costs_temperature
+	insured_damages_temperature
+	total_damages_temperature
+	death_rate_per_100k_temperature	Death rates from extreme temperatures
+	injury_rate_per_100k_temperature	Injury rates from extreme temperatures
+	affected_rate_per_100k_temperature
+	homeless_rate_per_100k_temperature
+	total_affected_per_100k_temperature
+	deaths_glacial_lake	Number of deaths from glacial lake outbursts
+	injured_glacial_lake	Number of people injured from glacial lake outbursts
+	affected_glacial_lake
+	homeless_glacial_lake
+	total_affected_glacial_lake
+	reconstruction_costs_glacial_lake
+	insured_damages_glacial_lake
+	total_damages_glacial_lake
+	death_rate_per_100k_glacial_lake	Death rates from glacial lake outbursts
+	injury_rate_per_100k_glacial_lake	Injury rates from glacial lake outbursts
+	affected_rate_per_100k_glacial_lake
+	homeless_rate_per_100k_glacial_lake
+	total_affected_per_100k_glacial_lake
