@@ -1,8 +1,8 @@
 explorerTitle	Max Joe FASTT review
 googleSheet	https://docs.google.com/spreadsheets/d/1-oiZ2eyM4bSKkMkJGuk0sESd7K9jcq_oLkoGeyc6SEs/edit#gid=163535373
 isPublished	false
-selection	Nigeria	Bangladesh	India
-tab	map
+selection	World
+
 graphers
 	Chart title Dropdown	grapherId	subtitle	sourceDesc	note	title
 	Distribution of population between different poverty thresholds	4876	All figures are adjusted to account for inflation and price differences across countries, and are expressed in international dollars at 2011 prices.	World Bank, PovcalNet (2021)	Consumption per capita is the preferred welfare indicator for the World Bankâ€™s analysis of global poverty. However, for a number of countries poverty is measured in terms of income. An income basis is common amongst high income countries and Latin American countries.	Distribution of population between different poverty thresholds
