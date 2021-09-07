@@ -1,326 +1,327 @@
 explorerTitle	Natural Disasters Data Explorer
 isPublished	false
-selection	World
+selection	United States	South Africa
 explorerSubtitle
 hideAlertBanner	true
 hasMapTab	true
+tab	map
 yAxisMin	0
 table	https://github.com/owid/owid-datasets/blob/master/datasets/Natural%20disasters%20(EMDAT)/Natural%20disasters%20(EMDAT).csv	disasters
 hideTitleAnnotation	true
 graphers
-	title	subtitle	Disaster Type Dropdown	Impact Dropdown	Per capita Checkbox	tableSlug	ySlugs	yScaleToggle	xSlug	colorSlug	type	grapherId	sourceDesc	note	hideTitleAnnotation	tab
-	Number of deaths from drought		Drought	Deaths	false	disasters	deaths_drought				LineChart				true	map
-	Number of people injured from drought		Drought	Injuries	false	disasters	injured_drought				LineChart				true	map
-			Drought	Affected	false	disasters	affected_drought				LineChart				true	map
-			Drought	Homeless	false	disasters	homeless_drought				LineChart				true	map
-			Drought	Total affected	false	disasters	total_affected_drought				LineChart				true	map
-			Drought	Reconstruction costs ($)	false	disasters	reconstruction_costs_drought				LineChart				true	map
-			Drought	Insured damages ($)	false	disasters	insured_damages_drought				LineChart				true	map
-			Drought	Total damages ($)	false	disasters	total_damages_drought				LineChart				true	map
-	Death rates from drought		Drought	Deaths	true	disasters	death_rate_per_100k_drought				LineChart				true	map
-	Injury rates from drought		Drought	Injuries	true	disasters	injury_rate_per_100k_drought				LineChart				true	map
-			Drought	Affected	true	disasters	affected_rate_per_100k_drought				LineChart				true	map
-			Drought	Homeless	true	disasters	homeless_rate_per_100k_drought				LineChart				true	map
-			Drought	Total affected	true	disasters	total_affected_per_100k_drought				LineChart				true	map
-	Number of deaths from earthquakes		Earthquakes	Deaths	false	disasters	deaths_earthquake				LineChart				true	map
-	Number of people injured from earthquakes		Earthquakes	Injuries	false	disasters	injured_earthquake				LineChart				true	map
-			Earthquakes	Affected	false	disasters	affected_earthquake				LineChart				true	map
-			Earthquakes	Homeless	false	disasters	homeless_earthquake				LineChart				true	map
-			Earthquakes	Total affected	false	disasters	total_affected_earthquake				LineChart				true	map
-			Earthquakes	Reconstruction costs ($)	false	disasters	reconstruction_costs_earthquake				LineChart				true	map
-			Earthquakes	Insured damages ($)	false	disasters	insured_damages_earthquake				LineChart				true	map
-			Earthquakes	Total damages ($)	false	disasters	total_damages_earthquake				LineChart				true	map
-	Death rates from earthquakes		Earthquakes	Deaths	true	disasters	death_rate_per_100k_earthquake				LineChart				true	map
-	Injury rates from earthquakes		Earthquakes	Injuries	true	disasters	injury_rate_per_100k_earthquake				LineChart				true	map
-			Earthquakes	Affected	true	disasters	affected_rate_per_100k_earthquake				LineChart				true	map
-			Earthquakes	Homeless	true	disasters	homeless_rate_per_100k_earthquake				LineChart				true	map
-			All disasters	Total affected	true	disasters	total_affected_per_100k_earthquake				LineChart				true	map
-	Number of deaths from disasters		All disasters	Deaths	false	disasters	deaths_all_disasters				LineChart				true	map
-	Number of people injured from disasters		All disasters	Injuries	false	disasters	injured_all_disasters				LineChart				true	map
-			All disasters	Affected	false	disasters	affected_all_disasters				LineChart				true	map
-			All disasters	Homeless	false	disasters	homeless_all_disasters				LineChart				true	map
-			All disasters	Total affected	false	disasters	total_affected_all_disasters				LineChart				true	map
-			All disasters	Reconstruction costs ($)	false	disasters	reconstruction_costs_all_disasters				LineChart				true	map
-			All disasters	Insured damages ($)	false	disasters	insured_damages_all_disasters				LineChart				true	map
-			All disasters	Total damages ($)	false	disasters	total_damages_all_disasters				LineChart				true	map
-	Death rates from disasters		All disasters	Deaths	true	disasters	death_rate_per_100k_all_disasters				LineChart				true	map
-	injury rates from disasters		All disasters	Injuries	true	disasters	injury_rate_per_100k_all_disasters				LineChart				true	map
-			All disasters	Affected	true	disasters	affected_rate_per_100k_all_disasters				LineChart				true	map
-			All disasters	Homeless	true	disasters	homeless_rate_per_100k_all_disasters				LineChart				true	map
-			All disasters	Total affected	true	disasters	total_affected_per_100k_all_disasters				LineChart				true	map
-	Number of deaths from volcanic activity		Volcanic activity	Deaths	false	disasters	deaths_volcanic				LineChart				true	map
-	Number of people injured from volcanic activity		Volcanic activity	Injuries	false	disasters	injured_volcanic				LineChart				true	map
-			Volcanic activity	Affected	false	disasters	affected_volcanic				LineChart				true	map
-			Volcanic activity	Homeless	false	disasters	homeless_volcanic				LineChart				true	map
-			Volcanic activity	Total affected	false	disasters	total_affected_volcanic				LineChart				true	map
-			Volcanic activity	Reconstruction costs ($)	false	disasters	reconstruction_costs_volcanic				LineChart				true	map
-			Volcanic activity	Insured damages ($)	false	disasters	insured_damages_volcanic				LineChart				true	map
-			Volcanic activity	Total damages ($)	false	disasters	total_damages_volcanic				LineChart				true	map
-	Death rates from volcanic activity		Volcanic activity	Deaths	true	disasters	death_rate_per_100k_volcanic				LineChart				true	map
-	Injury rates from volcanic activity		Volcanic activity	Injuries	true	disasters	injury_rate_per_100k_volcanic				LineChart				true	map
-			Volcanic activity	Affected	true	disasters	affected_rate_per_100k_volcanic				LineChart				true	map
-			Volcanic activity	Homeless	true	disasters	homeless_rate_per_100k_volcanic				LineChart				true	map
-			Volcanic activity	Total affected	true	disasters	total_affected_per_100k_volcanic				LineChart				true	map
-	Number of deaths from floods		Floods	Deaths	false	disasters	deaths_flood				LineChart				true	map
-	Number of people injured from floods		Floods	Injuries	false	disasters	injured_flood				LineChart				true	map
-			Floods	Affected	false	disasters	affected_flood				LineChart				true	map
-			Floods	Homeless	false	disasters	homeless_flood				LineChart				true	map
-			Floods	Total affected	false	disasters	total_affected_flood				LineChart				true	map
-			Floods	Reconstruction costs ($)	false	disasters	reconstruction_costs_flood				LineChart				true	map
-			Floods	Insured damages ($)	false	disasters	insured_damages_flood				LineChart				true	map
-			Floods	Total damages ($)	false	disasters	total_damages_flood				LineChart				true	map
-	Death rates from floods		Floods	Deaths	true	disasters	death_rate_per_100k_flood				LineChart				true	map
-	Injury rates from floods		Floods	Injuries	true	disasters	injury_rate_per_100k_flood				LineChart				true	map
-			Floods	Affected	true	disasters	affected_rate_per_100k_flood				LineChart				true	map
-			Floods	Homeless	true	disasters	homeless_rate_per_100k_flood				LineChart				true	map
-			Floods	Total affected	true	disasters	total_affected_per_100k_flood				LineChart				true	map
-	Number of deaths from mass movements		Mass movement (dry)	Deaths	false	disasters	deaths_mass_movement				LineChart				true	map
-	Number of people injured from mass movements		Mass movement (dry)	Injuries	false	disasters	injured_mass_movement				LineChart				true	map
-			Mass movement (dry)	Affected	false	disasters	affected_mass_movement				LineChart				true	map
-			Mass movement (dry)	Homeless	false	disasters	homeless_mass_movement				LineChart				true	map
-			Mass movement (dry)	Total affected	false	disasters	total_affected_mass_movement				LineChart				true	map
-			Mass movement (dry)	Reconstruction costs ($)	false	disasters	reconstruction_costs_mass_movement				LineChart				true	map
-			Mass movement (dry)	Insured damages ($)	false	disasters	insured_damages_mass_movement				LineChart				true	map
-			Mass movement (dry)	Total damages ($)	false	disasters	total_damages_mass_movement				LineChart				true	map
-	Death rates from mass movements		Mass movement (dry)	Deaths	true	disasters	death_rate_per_100k_mass_movement				LineChart				true	map
-	Injury rates from mass movements		Mass movement (dry)	Injuries	true	disasters	injury_rate_per_100k_mass_movement				LineChart				true	map
-			Mass movement (dry)	Affected	true	disasters	affected_rate_per_100k_mass_movement				LineChart				true	map
-			Mass movement (dry)	Homeless	true	disasters	homeless_rate_per_100k_mass_movement				LineChart				true	map
-			Mass movement (dry)	Total affected	true	disasters	total_affected_per_100k_mass_movement				LineChart				true	map
-	Number of deaths from storms		Storms	Deaths	false	disasters	deaths_storm				LineChart				true	map
-	Number of people injured from storms		Storms	Injuries	false	disasters	injured_storm				LineChart				true	map
-			Storms	Affected	false	disasters	affected_storm				LineChart				true	map
-			Storms	Homeless	false	disasters	homeless_storm				LineChart				true	map
-			Storms	Total affected	false	disasters	total_affected_storm				LineChart				true	map
-			Storms	Reconstruction costs ($)	false	disasters	reconstruction_costs_storm				LineChart				true	map
-			Storms	Insured damages ($)	false	disasters	insured_damages_storm				LineChart				true	map
-			Storms	Total damages ($)	false	disasters	total_damages_storm				LineChart				true	map
-	Death rates from storms		Storms	Deaths	true	disasters	death_rate_per_100k_storm				LineChart				true	map
-	Injury rates from storms		Storms	Injuries	true	disasters	injury_rate_per_100k_storm				LineChart				true	map
-			Storms	Affected	true	disasters	affected_rate_per_100k_storm				LineChart				true	map
-			Storms	Homeless	true	disasters	homeless_rate_per_100k_storm				LineChart				true	map
-			Storms	Total affected	true	disasters	total_affected_per_100k_storm				LineChart				true	map
-	Number of deaths from landslides		Landslides	Deaths	false	disasters	deaths_landslide				LineChart				true	map
-	Number of people injured from landslides		Landslides	Injuries	false	disasters	injured_landslide				LineChart				true	map
-			Landslides	Affected	false	disasters	affected_landslide				LineChart				true	map
-			Landslides	Homeless	false	disasters	homeless_landslide				LineChart				true	map
-			Landslides	Total affected	false	disasters	total_affected_landslide				LineChart				true	map
-			Landslides	Reconstruction costs ($)	false	disasters	reconstruction_costs_landslide				LineChart				true	map
-			Landslides	Insured damages ($)	false	disasters	insured_damages_landslide				LineChart				true	map
-			Landslides	Total damages ($)	false	disasters	total_damages_landslide				LineChart				true	map
-	Death rates from landslides		Landslides	Deaths	true	disasters	death_rate_per_100k_landslide				LineChart				true	map
-	Injury rates from landslides		Landslides	Injuries	true	disasters	injury_rate_per_100k_landslide				LineChart				true	map
-			Landslides	Affected	true	disasters	affected_rate_per_100k_landslide				LineChart				true	map
-			Landslides	Homeless	true	disasters	homeless_rate_per_100k_landslide				LineChart				true	map
-			Landslides	Total affected	true	disasters	total_affected_per_100k_landslide				LineChart				true	map
-	Number of deaths from fog		Fog	Deaths	false	disasters	deaths_fog				LineChart				true	map
-			Fog	Injuries	false	disasters	injured_fog				LineChart				true	map
-			Fog	Affected	false	disasters	affected_fog				LineChart				true	map
-			Fog	Homeless	false	disasters	homeless_fog				LineChart				true	map
-			Fog	Total affected	false	disasters	total_affected_fog				LineChart				true	map
-			Fog	Reconstruction costs ($)	false	disasters	reconstruction_costs_fog				LineChart				true	map
-			Fog	Insured damages ($)	false	disasters	insured_damages_fog				LineChart				true	map
-			Fog	Total damages ($)	false	disasters	total_damages_fog				LineChart				true	map
-	Death rates from fog		Fog	Deaths	true	disasters	death_rate_per_100k_fog				LineChart				true	map
-	Injury rates from fog		Fog	Injuries	true	disasters	injury_rate_per_100k_fog				LineChart				true	map
-			Fog	Affected	true	disasters	affected_rate_per_100k_fog				LineChart				true	map
-			Fog	Homeless	true	disasters	homeless_rate_per_100k_fog				LineChart				true	map
-			Fog	Total affected	true	disasters	total_affected_per_100k_fog				LineChart				true	map
-	Number of deaths from wildfires		Wildfires	Deaths	false	disasters	deaths_wildfire				LineChart				true	map
-	Number of people injured from wildfires		Wildfires	Injuries	false	disasters	injured_wildfire				LineChart				true	map
-			Wildfires	Affected	false	disasters	affected_wildfire				LineChart				true	map
-			Wildfires	Homeless	false	disasters	homeless_wildfire				LineChart				true	map
-			Wildfires	Total affected	false	disasters	total_affected_wildfire				LineChart				true	map
-			Wildfires	Reconstruction costs ($)	false	disasters	reconstruction_costs_wildfire				LineChart				true	map
-			Wildfires	Insured damages ($)	false	disasters	insured_damages_wildfire				LineChart				true	map
-			Wildfires	Total damages ($)	false	disasters	total_damages_wildfire				LineChart				true	map
-	Death rates from wildfires		Wildfires	Deaths	true	disasters	death_rate_per_100k_wildfire				LineChart				true	map
-	Injury rates from wildfires		Wildfires	Injuries	true	disasters	injury_rate_per_100k_wildfire				LineChart				true	map
-			Wildfires	Affected	true	disasters	affected_rate_per_100k_wildfire				LineChart				true	map
-			Wildfires	Homeless	true	disasters	homeless_rate_per_100k_wildfire				LineChart				true	map
-			Wildfires	Total affected	true	disasters	total_affected_per_100k_wildfire				LineChart				true	map
-	Number of deaths from extreme temperatures (hot and cold)		Extreme temperature	Deaths	false	disasters	deaths_temperature				LineChart				true	map
-	Number of people injured from extreme temperatures		Extreme temperature	Injuries	false	disasters	injured_temperature				LineChart				true	map
-			Extreme temperature	Affected	false	disasters	affected_temperature				LineChart				true	map
-			Extreme temperature	Homeless	false	disasters	homeless_temperature				LineChart				true	map
-			Extreme temperature	Total affected	false	disasters	total_affected_temperature				LineChart				true	map
-			Extreme temperature	Reconstruction costs ($)	false	disasters	reconstruction_costs_temperature				LineChart				true	map
-			Extreme temperature	Insured damages ($)	false	disasters	insured_damages_temperature				LineChart				true	map
-			Extreme temperature	Total damages ($)	false	disasters	total_damages_temperature				LineChart				true	map
-	Death rates from extreme temperatures		Extreme temperature	Deaths	true	disasters	death_rate_per_100k_temperature				LineChart				true	map
-	Injury rates from extreme temperatures		Extreme temperature	Injuries	true	disasters	injury_rate_per_100k_temperature				LineChart				true	map
-			Extreme temperature	Affected	true	disasters	affected_rate_per_100k_temperature				LineChart				true	map
-			Extreme temperature	Homeless	true	disasters	homeless_rate_per_100k_temperature				LineChart				true	map
-			Extreme temperature	Total affected	true	disasters	total_affected_per_100k_temperature				LineChart				true	map
-	Number of deaths from glacial lake outbursts		Glacial lake outbursts	Deaths	false	disasters	deaths_glacial_lake				LineChart				true	map
-	Number of people injured from glacial lake outbursts		Glacial lake outbursts	Injuries	false	disasters	injured_glacial_lake				LineChart				true	map
-			Glacial lake outbursts	Affected	false	disasters	affected_glacial_lake				LineChart				true	map
-			Glacial lake outbursts	Homeless	false	disasters	homeless_glacial_lake				LineChart				true	map
-			Glacial lake outbursts	Total affected	false	disasters	total_affected_glacial_lake				LineChart				true	map
-			Glacial lake outbursts	Reconstruction costs ($)	false	disasters	reconstruction_costs_glacial_lake				LineChart				true	map
-			Glacial lake outbursts	Insured damages ($)	false	disasters	insured_damages_glacial_lake				LineChart				true	map
-			Glacial lake outbursts	Total damages ($)	false	disasters	total_damages_glacial_lake				LineChart				true	map
-	Death rates from glacial lake outbursts		Glacial lake outbursts	Deaths	true	disasters	death_rate_per_100k_glacial_lake				LineChart				true	map
-	Injury rates from glacial lake outbursts		Glacial lake outbursts	Injuries	true	disasters	injury_rate_per_100k_glacial_lake				LineChart				true	map
-			Glacial lake outbursts	Affected	true	disasters	affected_rate_per_100k_glacial_lake				LineChart				true	map
-			Glacial lake outbursts	Homeless	true	disasters	homeless_rate_per_100k_glacial_lake				LineChart				true	map
-			Glacial lake outbursts	Total affected	true	disasters	total_affected_per_100k_glacial_lake				LineChart				true	map
+	title	subtitle	Disaster Type Dropdown	Impact Dropdown	Per capita Checkbox	tableSlug	ySlugs	yScaleToggle	xSlug	colorSlug	type	grapherId	sourceDesc	note
+	Number of deaths from drought		Drought	Deaths	false	disasters	deaths_drought	true			LineChart
+	Number of people injured from drought		Drought	Injuries	false	disasters	injured_drought	true			LineChart
+	Number of people affected from drought		Drought	Affected	false	disasters	affected_drought	true			LineChart
+	Number of people left homeless from drought		Drought	Homeless	false	disasters	homeless_drought	true			LineChart
+	Number of total people affected by drought		Drought	Total affected	false	disasters	total_affected_drought	true			LineChart
+	Reconstruction costs from drought		Drought	Reconstruction costs ($)	false	disasters	reconstruction_costs_drought	true			LineChart
+	Insured damages against drought		Drought	Insured damages ($)	false	disasters	insured_damages_drought	true			LineChart
+	Total economic damages from drought		Drought	Total damages ($)	false	disasters	total_damages_drought	true			LineChart
+	Death rates from drought		Drought	Deaths	true	disasters	death_rate_per_100k_drought	true			LineChart
+	Injury rates from drought		Drought	Injuries	true	disasters	injury_rate_per_100k_drought	true			LineChart
+			Drought	Affected	true	disasters	affected_rate_per_100k_drought	true			LineChart
+			Drought	Homeless	true	disasters	homeless_rate_per_100k_drought	true			LineChart
+			Drought	Total affected	true	disasters	total_affected_per_100k_drought	true			LineChart
+	Number of deaths from earthquakes		Earthquakes	Deaths	false	disasters	deaths_earthquake	true			LineChart
+	Number of people injured from earthquakes		Earthquakes	Injuries	false	disasters	injured_earthquake	true			LineChart
+			Earthquakes	Affected	false	disasters	affected_earthquake	true			LineChart
+			Earthquakes	Homeless	false	disasters	homeless_earthquake	true			LineChart
+			Earthquakes	Total affected	false	disasters	total_affected_earthquake	true			LineChart
+			Earthquakes	Reconstruction costs ($)	false	disasters	reconstruction_costs_earthquake	true			LineChart
+			Earthquakes	Insured damages ($)	false	disasters	insured_damages_earthquake	true			LineChart
+			Earthquakes	Total damages ($)	false	disasters	total_damages_earthquake	true			LineChart
+	Death rates from earthquakes		Earthquakes	Deaths	true	disasters	death_rate_per_100k_earthquake	true			LineChart
+	Injury rates from earthquakes		Earthquakes	Injuries	true	disasters	injury_rate_per_100k_earthquake	true			LineChart
+			Earthquakes	Affected	true	disasters	affected_rate_per_100k_earthquake	true			LineChart
+			Earthquakes	Homeless	true	disasters	homeless_rate_per_100k_earthquake	true			LineChart
+			All disasters	Total affected	true	disasters	total_affected_per_100k_earthquake	true			LineChart
+	Number of deaths from disasters		All disasters	Deaths	false	disasters	deaths_all_disasters	true			LineChart
+	Number of people injured from disasters		All disasters	Injuries	false	disasters	injured_all_disasters	true			LineChart
+			All disasters	Affected	false	disasters	affected_all_disasters	true			LineChart
+			All disasters	Homeless	false	disasters	homeless_all_disasters	true			LineChart
+			All disasters	Total affected	false	disasters	total_affected_all_disasters	true			LineChart
+			All disasters	Reconstruction costs ($)	false	disasters	reconstruction_costs_all_disasters	true			LineChart
+			All disasters	Insured damages ($)	false	disasters	insured_damages_all_disasters	true			LineChart
+			All disasters	Total damages ($)	false	disasters	total_damages_all_disasters	true			LineChart
+	Death rates from disasters		All disasters	Deaths	true	disasters	death_rate_per_100k_all_disasters	true			LineChart
+	injury rates from disasters		All disasters	Injuries	true	disasters	injury_rate_per_100k_all_disasters	true			LineChart
+			All disasters	Affected	true	disasters	affected_rate_per_100k_all_disasters	true			LineChart
+			All disasters	Homeless	true	disasters	homeless_rate_per_100k_all_disasters	true			LineChart
+			All disasters	Total affected	true	disasters	total_affected_per_100k_all_disasters	true			LineChart
+	Number of deaths from volcanic activity		Volcanic activity	Deaths	false	disasters	deaths_volcanic	true			LineChart
+	Number of people injured from volcanic activity		Volcanic activity	Injuries	false	disasters	injured_volcanic	true			LineChart
+			Volcanic activity	Affected	false	disasters	affected_volcanic	true			LineChart
+			Volcanic activity	Homeless	false	disasters	homeless_volcanic	true			LineChart
+			Volcanic activity	Total affected	false	disasters	total_affected_volcanic	true			LineChart
+			Volcanic activity	Reconstruction costs ($)	false	disasters	reconstruction_costs_volcanic	true			LineChart
+			Volcanic activity	Insured damages ($)	false	disasters	insured_damages_volcanic	true			LineChart
+			Volcanic activity	Total damages ($)	false	disasters	total_damages_volcanic	true			LineChart
+	Death rates from volcanic activity		Volcanic activity	Deaths	true	disasters	death_rate_per_100k_volcanic	true			LineChart
+	Injury rates from volcanic activity		Volcanic activity	Injuries	true	disasters	injury_rate_per_100k_volcanic	true			LineChart
+			Volcanic activity	Affected	true	disasters	affected_rate_per_100k_volcanic	true			LineChart
+			Volcanic activity	Homeless	true	disasters	homeless_rate_per_100k_volcanic	true			LineChart
+			Volcanic activity	Total affected	true	disasters	total_affected_per_100k_volcanic	true			LineChart
+	Number of deaths from floods		Floods	Deaths	false	disasters	deaths_flood	true			LineChart
+	Number of people injured from floods		Floods	Injuries	false	disasters	injured_flood	true			LineChart
+			Floods	Affected	false	disasters	affected_flood	true			LineChart
+			Floods	Homeless	false	disasters	homeless_flood	true			LineChart
+			Floods	Total affected	false	disasters	total_affected_flood	true			LineChart
+			Floods	Reconstruction costs ($)	false	disasters	reconstruction_costs_flood	true			LineChart
+			Floods	Insured damages ($)	false	disasters	insured_damages_flood	true			LineChart
+			Floods	Total damages ($)	false	disasters	total_damages_flood	true			LineChart
+	Death rates from floods		Floods	Deaths	true	disasters	death_rate_per_100k_flood	true			LineChart
+	Injury rates from floods		Floods	Injuries	true	disasters	injury_rate_per_100k_flood	true			LineChart
+			Floods	Affected	true	disasters	affected_rate_per_100k_flood	true			LineChart
+			Floods	Homeless	true	disasters	homeless_rate_per_100k_flood	true			LineChart
+			Floods	Total affected	true	disasters	total_affected_per_100k_flood	true			LineChart
+	Number of deaths from mass movements		Mass movement (dry)	Deaths	false	disasters	deaths_mass_movement	true			LineChart
+	Number of people injured from mass movements		Mass movement (dry)	Injuries	false	disasters	injured_mass_movement	true			LineChart
+			Mass movement (dry)	Affected	false	disasters	affected_mass_movement	true			LineChart
+			Mass movement (dry)	Homeless	false	disasters	homeless_mass_movement	true			LineChart
+			Mass movement (dry)	Total affected	false	disasters	total_affected_mass_movement	true			LineChart
+			Mass movement (dry)	Reconstruction costs ($)	false	disasters	reconstruction_costs_mass_movement	true			LineChart
+			Mass movement (dry)	Insured damages ($)	false	disasters	insured_damages_mass_movement	true			LineChart
+			Mass movement (dry)	Total damages ($)	false	disasters	total_damages_mass_movement	true			LineChart
+	Death rates from mass movements		Mass movement (dry)	Deaths	true	disasters	death_rate_per_100k_mass_movement	true			LineChart
+	Injury rates from mass movements		Mass movement (dry)	Injuries	true	disasters	injury_rate_per_100k_mass_movement	true			LineChart
+			Mass movement (dry)	Affected	true	disasters	affected_rate_per_100k_mass_movement	true			LineChart
+			Mass movement (dry)	Homeless	true	disasters	homeless_rate_per_100k_mass_movement	true			LineChart
+			Mass movement (dry)	Total affected	true	disasters	total_affected_per_100k_mass_movement	true			LineChart
+	Number of deaths from storms		Storms	Deaths	false	disasters	deaths_storm	true			LineChart
+	Number of people injured from storms		Storms	Injuries	false	disasters	injured_storm	true			LineChart
+			Storms	Affected	false	disasters	affected_storm	true			LineChart
+			Storms	Homeless	false	disasters	homeless_storm	true			LineChart
+			Storms	Total affected	false	disasters	total_affected_storm	true			LineChart
+			Storms	Reconstruction costs ($)	false	disasters	reconstruction_costs_storm	true			LineChart
+			Storms	Insured damages ($)	false	disasters	insured_damages_storm	true			LineChart
+			Storms	Total damages ($)	false	disasters	total_damages_storm	true			LineChart
+	Death rates from storms		Storms	Deaths	true	disasters	death_rate_per_100k_storm	true			LineChart
+	Injury rates from storms		Storms	Injuries	true	disasters	injury_rate_per_100k_storm	true			LineChart
+			Storms	Affected	true	disasters	affected_rate_per_100k_storm	true			LineChart
+			Storms	Homeless	true	disasters	homeless_rate_per_100k_storm	true			LineChart
+			Storms	Total affected	true	disasters	total_affected_per_100k_storm	true			LineChart
+	Number of deaths from landslides		Landslides	Deaths	false	disasters	deaths_landslide	true			LineChart
+	Number of people injured from landslides		Landslides	Injuries	false	disasters	injured_landslide	true			LineChart
+			Landslides	Affected	false	disasters	affected_landslide	true			LineChart
+			Landslides	Homeless	false	disasters	homeless_landslide	true			LineChart
+			Landslides	Total affected	false	disasters	total_affected_landslide	true			LineChart
+			Landslides	Reconstruction costs ($)	false	disasters	reconstruction_costs_landslide	true			LineChart
+			Landslides	Insured damages ($)	false	disasters	insured_damages_landslide	true			LineChart
+			Landslides	Total damages ($)	false	disasters	total_damages_landslide	true			LineChart
+	Death rates from landslides		Landslides	Deaths	true	disasters	death_rate_per_100k_landslide	true			LineChart
+	Injury rates from landslides		Landslides	Injuries	true	disasters	injury_rate_per_100k_landslide	true			LineChart
+			Landslides	Affected	true	disasters	affected_rate_per_100k_landslide	true			LineChart
+			Landslides	Homeless	true	disasters	homeless_rate_per_100k_landslide	true			LineChart
+			Landslides	Total affected	true	disasters	total_affected_per_100k_landslide	true			LineChart
+	Number of deaths from fog		Fog	Deaths	false	disasters	deaths_fog	true			LineChart
+			Fog	Injuries	false	disasters	injured_fog	true			LineChart
+			Fog	Affected	false	disasters	affected_fog	true			LineChart
+			Fog	Homeless	false	disasters	homeless_fog	true			LineChart
+			Fog	Total affected	false	disasters	total_affected_fog	true			LineChart
+			Fog	Reconstruction costs ($)	false	disasters	reconstruction_costs_fog	true			LineChart
+			Fog	Insured damages ($)	false	disasters	insured_damages_fog	true			LineChart
+			Fog	Total damages ($)	false	disasters	total_damages_fog	true			LineChart
+	Death rates from fog		Fog	Deaths	true	disasters	death_rate_per_100k_fog	true			LineChart
+	Injury rates from fog		Fog	Injuries	true	disasters	injury_rate_per_100k_fog	true			LineChart
+			Fog	Affected	true	disasters	affected_rate_per_100k_fog	true			LineChart
+			Fog	Homeless	true	disasters	homeless_rate_per_100k_fog	true			LineChart
+			Fog	Total affected	true	disasters	total_affected_per_100k_fog	true			LineChart
+	Number of deaths from wildfires		Wildfires	Deaths	false	disasters	deaths_wildfire	true			LineChart
+	Number of people injured from wildfires		Wildfires	Injuries	false	disasters	injured_wildfire	true			LineChart
+			Wildfires	Affected	false	disasters	affected_wildfire	true			LineChart
+			Wildfires	Homeless	false	disasters	homeless_wildfire	true			LineChart
+			Wildfires	Total affected	false	disasters	total_affected_wildfire	true			LineChart
+			Wildfires	Reconstruction costs ($)	false	disasters	reconstruction_costs_wildfire	true			LineChart
+			Wildfires	Insured damages ($)	false	disasters	insured_damages_wildfire	true			LineChart
+			Wildfires	Total damages ($)	false	disasters	total_damages_wildfire	true			LineChart
+	Death rates from wildfires		Wildfires	Deaths	true	disasters	death_rate_per_100k_wildfire	true			LineChart
+	Injury rates from wildfires		Wildfires	Injuries	true	disasters	injury_rate_per_100k_wildfire	true			LineChart
+			Wildfires	Affected	true	disasters	affected_rate_per_100k_wildfire	true			LineChart
+			Wildfires	Homeless	true	disasters	homeless_rate_per_100k_wildfire	true			LineChart
+			Wildfires	Total affected	true	disasters	total_affected_per_100k_wildfire	true			LineChart
+	Number of deaths from extreme temperatures (hot and cold)		Extreme temperature	Deaths	false	disasters	deaths_temperature	true			LineChart
+	Number of people injured from extreme temperatures		Extreme temperature	Injuries	false	disasters	injured_temperature	true			LineChart
+			Extreme temperature	Affected	false	disasters	affected_temperature	true			LineChart
+			Extreme temperature	Homeless	false	disasters	homeless_temperature	true			LineChart
+			Extreme temperature	Total affected	false	disasters	total_affected_temperature	true			LineChart
+			Extreme temperature	Reconstruction costs ($)	false	disasters	reconstruction_costs_temperature	true			LineChart
+			Extreme temperature	Insured damages ($)	false	disasters	insured_damages_temperature	true			LineChart
+			Extreme temperature	Total damages ($)	false	disasters	total_damages_temperature	true			LineChart
+	Death rates from extreme temperatures		Extreme temperature	Deaths	true	disasters	death_rate_per_100k_temperature	true			LineChart
+	Injury rates from extreme temperatures		Extreme temperature	Injuries	true	disasters	injury_rate_per_100k_temperature	true			LineChart
+			Extreme temperature	Affected	true	disasters	affected_rate_per_100k_temperature	true			LineChart
+			Extreme temperature	Homeless	true	disasters	homeless_rate_per_100k_temperature	true			LineChart
+			Extreme temperature	Total affected	true	disasters	total_affected_per_100k_temperature	true			LineChart
+	Number of deaths from glacial lake outbursts		Glacial lake outbursts	Deaths	false	disasters	deaths_glacial_lake	true			LineChart
+	Number of people injured from glacial lake outbursts		Glacial lake outbursts	Injuries	false	disasters	injured_glacial_lake	true			LineChart
+			Glacial lake outbursts	Affected	false	disasters	affected_glacial_lake	true			LineChart
+			Glacial lake outbursts	Homeless	false	disasters	homeless_glacial_lake	true			LineChart
+			Glacial lake outbursts	Total affected	false	disasters	total_affected_glacial_lake	true			LineChart
+			Glacial lake outbursts	Reconstruction costs ($)	false	disasters	reconstruction_costs_glacial_lake	true			LineChart
+			Glacial lake outbursts	Insured damages ($)	false	disasters	insured_damages_glacial_lake	true			LineChart
+			Glacial lake outbursts	Total damages ($)	false	disasters	total_damages_glacial_lake	true			LineChart
+	Death rates from glacial lake outbursts		Glacial lake outbursts	Deaths	true	disasters	death_rate_per_100k_glacial_lake	true			LineChart
+	Injury rates from glacial lake outbursts		Glacial lake outbursts	Injuries	true	disasters	injury_rate_per_100k_glacial_lake	true			LineChart
+			Glacial lake outbursts	Affected	true	disasters	affected_rate_per_100k_glacial_lake	true			LineChart
+			Glacial lake outbursts	Homeless	true	disasters	homeless_rate_per_100k_glacial_lake	true			LineChart
+			Glacial lake outbursts	Total affected	true	disasters	total_affected_per_100k_glacial_lake	true			LineChart
 
 columns	disasters
 	slug	name	type	unit	shortUnit	transform	annotationsColumnSlug	notes	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo	tolerance	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme	colorScaleEqualSizeBins
-	deaths_drought	Number of deaths from drought	Integer	deaths					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;40,,;60,,;80,,;100	false	YlGnBu
-	injured_drought	Number of people injured from drought	Integer	injured					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;40,,;60,,;80,,;100	false	YlGnBu
-	affected_drought		Integer	affected					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	5,,;10,,;20,,;30,,;40	false	YlOrBr
-	homeless_drought		Integer	homeless					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	5,,;10,,;20,,;30,,;40,,;50,,;60	false	YlOrRd
-	total_affected_drought		Integer	affected					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	2.5,,;5,,;10,,;25,,;50	false	YlOrRd
-	reconstruction_costs_drought		Currency			multiplyBy 1000			Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;40,,;60,,;80,,;100
-	insured_damages_drought		Currency			multiplyBy 1000			Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)
-	total_damages_drought		Currency			multiplyBy 1000			Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)
-	death_rate_per_100k_drought	Death rates from drought	Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)
-	injury_rate_per_100k_drought	Injury rates from drought	Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)
-	affected_rate_per_100k_drought		Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)
-	homeless_rate_per_100k_drought		Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)
-	total_affected_per_100k_drought		Numeric	per 100,000
-	deaths_earthquake	Number of deaths from earthquakes	Integer	deaths
-	injured_earthquake	Number of people injured from earthquakes	Integer	injured
-	affected_earthquake		Integer	affected
-	homeless_earthquake		Integer	homeless
-	total_affected_earthquake		Integer	affected
-	reconstruction_costs_earthquake		Currency			multiplyBy 1000
-	insured_damages_earthquake		Currency			multiplyBy 1000
-	total_damages_earthquake		Currency			multiplyBy 1000
-	death_rate_per_100k_earthquake	Death rates from earthquakes	Numeric	per 100,000
-	injury_rate_per_100k_earthquake	Injury rates from earthquakes	Numeric	per 100,000
-	affected_rate_per_100k_earthquake		Numeric	per 100,000
-	homeless_rate_per_100k_earthquake		Numeric	per 100,000
-	total_affected_per_100k_earthquake		Numeric	per 100,000
-	deaths_all_disasters	Number of deaths from disasters	Integer	deaths
-	injured_all_disasters	Number of people injured from disasters	Integer	injured
-	affected_all_disasters		Integer	affected
-	homeless_all_disasters		Integer	homeless
-	total_affected_all_disasters		Integer	affected
-	reconstruction_costs_all_disasters		Currency			multiplyBy 1000
-	insured_damages_all_disasters		Currency			multiplyBy 1000
-	total_damages_all_disasters		Currency			multiplyBy 1000
-	death_rate_per_100k_all_disasters	Death rates from disasters	Numeric	per 100,000
-	injury_rate_per_100k_all_disasters	injury rates from disasters	Numeric	per 100,000
-	affected_rate_per_100k_all_disasters		Numeric	per 100,000
-	homeless_rate_per_100k_all_disasters		Numeric	per 100,000
-	total_affected_per_100k_all_disasters		Numeric	per 100,000
-	deaths_volcanic	Number of deaths from volcanic activity	Integer	deaths
-	injured_volcanic	Number of people injured from volcanic activity	Integer	injured
-	affected_volcanic		Integer	affected
-	homeless_volcanic		Integer	homeless
-	total_affected_volcanic		Integer	affected
-	reconstruction_costs_volcanic		Currency			multiplyBy 1000
-	insured_damages_volcanic		Currency			multiplyBy 1000
-	total_damages_volcanic		Currency			multiplyBy 1000
-	death_rate_per_100k_volcanic	Death rates from volcanic activity	Numeric	per 100,000
-	injury_rate_per_100k_volcanic	Injury rates from volcanic activity	Numeric	per 100,000
-	affected_rate_per_100k_volcanic		Numeric	per 100,000
-	homeless_rate_per_100k_volcanic		Numeric	per 100,000
-	total_affected_per_100k_volcanic		Numeric	per 100,000
-	deaths_flood	Number of deaths from floods	Integer	deaths
-	injured_flood	Number of people injured from floods	Integer	injured
-	affected_flood		Integer	affected
-	homeless_flood		Integer	homeless
-	total_affected_flood		Integer	affected
-	reconstruction_costs_flood		Currency			multiplyBy 1000
-	insured_damages_flood		Currency			multiplyBy 1000
-	total_damages_flood		Currency			multiplyBy 1000
-	death_rate_per_100k_flood	Death rates from floods	Numeric	per 100,000
-	injury_rate_per_100k_flood	Injury rates from floods	Numeric	per 100,000
-	affected_rate_per_100k_flood		Numeric	per 100,000
-	homeless_rate_per_100k_flood		Numeric	per 100,000
-	total_affected_per_100k_flood		Numeric	per 100,000
-	deaths_mass_movement	Number of deaths from mass movements	Integer	deaths
-	injured_mass_movement	Number of people injured from mass movements	Integer	injured
-	affected_mass_movement		Integer	affected
-	homeless_mass_movement		Integer	homeless
-	total_affected_mass_movement		Integer	affected
-	reconstruction_costs_mass_movement		Currency			multiplyBy 1000
-	insured_damages_mass_movement		Currency			multiplyBy 1000
-	total_damages_mass_movement		Currency			multiplyBy 1000
-	death_rate_per_100k_mass_movement	Death rates from mass movements	Numeric	per 100,000
-	injury_rate_per_100k_mass_movement	Injury rates from mass movements	Numeric	per 100,000
-	affected_rate_per_100k_mass_movement		Numeric	per 100,000
-	homeless_rate_per_100k_mass_movement		Numeric	per 100,000
-	total_affected_per_100k_mass_movement		Numeric	per 100,000
-	deaths_storm	Number of deaths from storms	Integer	deaths
-	injured_storm	Number of people injured from storms	Integer	injured
-	affected_storm		Integer	affected
-	homeless_storm		Integer	homeless
-	total_affected_storm		Integer	affected
-	reconstruction_costs_storm		Currency			multiplyBy 1000
-	insured_damages_storm		Currency			multiplyBy 1000
-	total_damages_storm		Currency			multiplyBy 1000
-	death_rate_per_100k_storm	Death rates from storms	Numeric	per 100,000
-	injury_rate_per_100k_storm	Injury rates from storms	Numeric	per 100,000
-	affected_rate_per_100k_storm		Numeric	per 100,000
-	homeless_rate_per_100k_storm		Numeric	per 100,000
-	total_affected_per_100k_storm		Numeric	per 100,000
-	deaths_landslide	Number of deaths from landslides	Integer	deaths
-	injured_landslide	Number of people injured from landslides	Integer	injured
-	affected_landslide		Integer	affected
-	homeless_landslide		Integer	homeless
-	total_affected_landslide		Integer	affected
-	reconstruction_costs_landslide		Currency			multiplyBy 1000
-	insured_damages_landslide		Currency			multiplyBy 1000
-	total_damages_landslide		Currency			multiplyBy 1000
-	death_rate_per_100k_landslide	Death rates from landslides	Numeric	per 100,000
-	injury_rate_per_100k_landslide	Injury rates from landslides	Numeric	per 100,000
-	affected_rate_per_100k_landslide		Numeric	per 100,000
-	homeless_rate_per_100k_landslide		Numeric	per 100,000
-	total_affected_per_100k_landslide		Numeric	per 100,000
-	deaths_fog	Number of deaths from fog	Integer	deaths
-	injured_fog		Integer	injured
-	affected_fog		Integer	affected
-	homeless_fog		Integer	homeless
-	total_affected_fog		Integer	affected
-	reconstruction_costs_fog		Currency			multiplyBy 1000
-	insured_damages_fog		Currency			multiplyBy 1000
-	total_damages_fog		Currency			multiplyBy 1000
-	death_rate_per_100k_fog	Death rates from fog	Numeric	per 100,000
-	injury_rate_per_100k_fog	Injury rates from fog	Numeric	per 100,000
-	affected_rate_per_100k_fog		Numeric	per 100,000
-	homeless_rate_per_100k_fog		Numeric	per 100,000
-	total_affected_per_100k_fog		Numeric	per 100,000
-	deaths_wildfire	Number of deaths from wildfires	Integer	deaths
-	injured_wildfire	Number of people injured from wildfires	Integer	injured
-	affected_wildfire		Integer	affected
-	homeless_wildfire		Integer	homeless
-	total_affected_wildfire		Integer	affected
-	reconstruction_costs_wildfire		Currency			multiplyBy 1000
-	insured_damages_wildfire		Currency			multiplyBy 1000
-	total_damages_wildfire		Currency			multiplyBy 1000
-	death_rate_per_100k_wildfire	Death rates from wildfires	Numeric	per 100,000
-	injury_rate_per_100k_wildfire	Injury rates from wildfires	Numeric	per 100,000
-	affected_rate_per_100k_wildfire		Numeric	per 100,000
-	homeless_rate_per_100k_wildfire		Numeric	per 100,000
-	total_affected_per_100k_wildfire		Numeric	per 100,000
-	deaths_temperature	Number of deaths from extreme temperatures (hot and cold)	Integer	deaths
-	injured_temperature	Number of people injured from extreme temperatures	Integer	injured
-	affected_temperature		Integer	affected
-	homeless_temperature		Integer	homeless
-	total_affected_temperature		Integer	affected
-	reconstruction_costs_temperature		Currency			multiplyBy 1000
-	insured_damages_temperature		Currency			multiplyBy 1000
-	total_damages_temperature		Currency			multiplyBy 1000
-	death_rate_per_100k_temperature	Death rates from extreme temperatures	Numeric	per 100,000
-	injury_rate_per_100k_temperature	Injury rates from extreme temperatures	Numeric	per 100,000
-	affected_rate_per_100k_temperature		Numeric	per 100,000
-	homeless_rate_per_100k_temperature		Numeric	per 100,000
-	total_affected_per_100k_temperature		Numeric	per 100,000
-	deaths_glacial_lake	Number of deaths from glacial lake outbursts	Integer	deaths
-	injured_glacial_lake	Number of people injured from glacial lake outbursts	Integer	injured
-	affected_glacial_lake		Integer	affected
-	homeless_glacial_lake		Integer	homeless
-	total_affected_glacial_lake		Integer	affected
-	reconstruction_costs_glacial_lake		Currency			multiplyBy 1000
-	insured_damages_glacial_lake		Currency			multiplyBy 1000
-	total_damages_glacial_lake		Currency			multiplyBy 1000
-	death_rate_per_100k_glacial_lake	Death rates from glacial lake outbursts	Numeric	per 100,000
-	injury_rate_per_100k_glacial_lake	Injury rates from glacial lake outbursts	Numeric	per 100,000
-	affected_rate_per_100k_glacial_lake		Numeric	per 100,000
-	homeless_rate_per_100k_glacial_lake		Numeric	per 100,000
-	total_affected_per_100k_glacial_lake		Numeric	per 100,000
+	deaths_drought	Number of deaths from drought	Integer	deaths					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	injured_drought	Number of people injured from drought	Integer	injured					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	affected_drought		Integer	affected					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	homeless_drought		Integer	homeless					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	total_affected_drought		Integer	affected					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	reconstruction_costs_drought		Currency			multiplyBy 1000			Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	insured_damages_drought		Currency			multiplyBy 1000			Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	total_damages_drought		Currency			multiplyBy 1000			Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	death_rate_per_100k_drought	Death rates from drought	Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	injury_rate_per_100k_drought	Injury rates from drought	Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	affected_rate_per_100k_drought		Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	homeless_rate_per_100k_drought		Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	total_affected_per_100k_drought		Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	deaths_earthquake	Number of deaths from earthquakes	Integer	deaths					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	injured_earthquake	Number of people injured from earthquakes	Integer	injured					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	affected_earthquake		Integer	affected					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	homeless_earthquake		Integer	homeless					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	total_affected_earthquake		Integer	affected					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	reconstruction_costs_earthquake		Currency			multiplyBy 1000			Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	insured_damages_earthquake		Currency			multiplyBy 1000			Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	total_damages_earthquake		Currency			multiplyBy 1000			Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	death_rate_per_100k_earthquake	Death rates from earthquakes	Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	injury_rate_per_100k_earthquake	Injury rates from earthquakes	Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	affected_rate_per_100k_earthquake		Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	homeless_rate_per_100k_earthquake		Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	total_affected_per_100k_earthquake		Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	deaths_all_disasters	Number of deaths from disasters	Integer	deaths					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	injured_all_disasters	Number of people injured from disasters	Integer	injured					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	affected_all_disasters		Integer	affected					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	homeless_all_disasters		Integer	homeless					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	total_affected_all_disasters		Integer	affected					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	reconstruction_costs_all_disasters		Currency			multiplyBy 1000			Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	insured_damages_all_disasters		Currency			multiplyBy 1000			Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	total_damages_all_disasters		Currency			multiplyBy 1000			Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	death_rate_per_100k_all_disasters	Death rates from disasters	Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	injury_rate_per_100k_all_disasters	injury rates from disasters	Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	affected_rate_per_100k_all_disasters		Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	homeless_rate_per_100k_all_disasters		Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	total_affected_per_100k_all_disasters		Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	deaths_volcanic	Number of deaths from volcanic activity	Integer	deaths					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	injured_volcanic	Number of people injured from volcanic activity	Integer	injured					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	affected_volcanic		Integer	affected					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	homeless_volcanic		Integer	homeless					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	total_affected_volcanic		Integer	affected					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	reconstruction_costs_volcanic		Currency			multiplyBy 1000			Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	insured_damages_volcanic		Currency			multiplyBy 1000			Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	total_damages_volcanic		Currency			multiplyBy 1000			Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	death_rate_per_100k_volcanic	Death rates from volcanic activity	Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	injury_rate_per_100k_volcanic	Injury rates from volcanic activity	Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	affected_rate_per_100k_volcanic		Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	homeless_rate_per_100k_volcanic		Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	total_affected_per_100k_volcanic		Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	deaths_flood	Number of deaths from floods	Integer	deaths					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	injured_flood	Number of people injured from floods	Integer	injured					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	affected_flood		Integer	affected					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	homeless_flood		Integer	homeless					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	total_affected_flood		Integer	affected					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	reconstruction_costs_flood		Currency			multiplyBy 1000			Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	insured_damages_flood		Currency			multiplyBy 1000			Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	total_damages_flood		Currency			multiplyBy 1000			Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	death_rate_per_100k_flood	Death rates from floods	Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	injury_rate_per_100k_flood	Injury rates from floods	Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	affected_rate_per_100k_flood		Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	homeless_rate_per_100k_flood		Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	total_affected_per_100k_flood		Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	deaths_mass_movement	Number of deaths from mass movements	Integer	deaths					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	injured_mass_movement	Number of people injured from mass movements	Integer	injured					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	affected_mass_movement		Integer	affected					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	homeless_mass_movement		Integer	homeless					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	total_affected_mass_movement		Integer	affected					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	reconstruction_costs_mass_movement		Currency			multiplyBy 1000			Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	insured_damages_mass_movement		Currency			multiplyBy 1000			Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	total_damages_mass_movement		Currency			multiplyBy 1000			Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	death_rate_per_100k_mass_movement	Death rates from mass movements	Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	injury_rate_per_100k_mass_movement	Injury rates from mass movements	Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	affected_rate_per_100k_mass_movement		Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	homeless_rate_per_100k_mass_movement		Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	total_affected_per_100k_mass_movement		Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	deaths_storm	Number of deaths from storms	Integer	deaths					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	injured_storm	Number of people injured from storms	Integer	injured					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	affected_storm		Integer	affected					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	homeless_storm		Integer	homeless					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	total_affected_storm		Integer	affected					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	reconstruction_costs_storm		Currency			multiplyBy 1000			Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	insured_damages_storm		Currency			multiplyBy 1000			Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	total_damages_storm		Currency			multiplyBy 1000			Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	death_rate_per_100k_storm	Death rates from storms	Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	injury_rate_per_100k_storm	Injury rates from storms	Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	affected_rate_per_100k_storm		Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	homeless_rate_per_100k_storm		Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	total_affected_per_100k_storm		Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	deaths_landslide	Number of deaths from landslides	Integer	deaths					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	injured_landslide	Number of people injured from landslides	Integer	injured					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	affected_landslide		Integer	affected					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	homeless_landslide		Integer	homeless					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	total_affected_landslide		Integer	affected					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	reconstruction_costs_landslide		Currency			multiplyBy 1000			Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	insured_damages_landslide		Currency			multiplyBy 1000			Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	total_damages_landslide		Currency			multiplyBy 1000			Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	death_rate_per_100k_landslide	Death rates from landslides	Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	injury_rate_per_100k_landslide	Injury rates from landslides	Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	affected_rate_per_100k_landslide		Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	homeless_rate_per_100k_landslide		Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	total_affected_per_100k_landslide		Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	deaths_fog	Number of deaths from fog	Integer	deaths					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	injured_fog		Integer	injured					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	affected_fog		Integer	affected					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	homeless_fog		Integer	homeless					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	total_affected_fog		Integer	affected					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	reconstruction_costs_fog		Currency			multiplyBy 1000			Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	insured_damages_fog		Currency			multiplyBy 1000			Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	total_damages_fog		Currency			multiplyBy 1000			Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	death_rate_per_100k_fog	Death rates from fog	Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	injury_rate_per_100k_fog	Injury rates from fog	Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	affected_rate_per_100k_fog		Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	homeless_rate_per_100k_fog		Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	total_affected_per_100k_fog		Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	deaths_wildfire	Number of deaths from wildfires	Integer	deaths					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	injured_wildfire	Number of people injured from wildfires	Integer	injured					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	affected_wildfire		Integer	affected					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	homeless_wildfire		Integer	homeless					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	total_affected_wildfire		Integer	affected					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	reconstruction_costs_wildfire		Currency			multiplyBy 1000			Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	insured_damages_wildfire		Currency			multiplyBy 1000			Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	total_damages_wildfire		Currency			multiplyBy 1000			Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	death_rate_per_100k_wildfire	Death rates from wildfires	Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	injury_rate_per_100k_wildfire	Injury rates from wildfires	Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	affected_rate_per_100k_wildfire		Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	homeless_rate_per_100k_wildfire		Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	total_affected_per_100k_wildfire		Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	deaths_temperature	Number of deaths from extreme temperatures (hot and cold)	Integer	deaths					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	injured_temperature	Number of people injured from extreme temperatures	Integer	injured					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	affected_temperature		Integer	affected					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	homeless_temperature		Integer	homeless					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	total_affected_temperature		Integer	affected					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	reconstruction_costs_temperature		Currency			multiplyBy 1000			Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	insured_damages_temperature		Currency			multiplyBy 1000			Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	total_damages_temperature		Currency			multiplyBy 1000			Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	death_rate_per_100k_temperature	Death rates from extreme temperatures	Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	injury_rate_per_100k_temperature	Injury rates from extreme temperatures	Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	affected_rate_per_100k_temperature		Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	homeless_rate_per_100k_temperature		Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	total_affected_per_100k_temperature		Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	deaths_glacial_lake	Number of deaths from glacial lake outbursts	Integer	deaths					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	injured_glacial_lake	Number of people injured from glacial lake outbursts	Integer	injured					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	affected_glacial_lake		Integer	affected					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	homeless_glacial_lake		Integer	homeless					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	total_affected_glacial_lake		Integer	affected					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	reconstruction_costs_glacial_lake		Currency			multiplyBy 1000			Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	insured_damages_glacial_lake		Currency			multiplyBy 1000			Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	total_damages_glacial_lake		Currency			multiplyBy 1000			Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	death_rate_per_100k_glacial_lake	Death rates from glacial lake outbursts	Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	injury_rate_per_100k_glacial_lake	Injury rates from glacial lake outbursts	Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	affected_rate_per_100k_glacial_lake		Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	homeless_rate_per_100k_glacial_lake		Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
+	total_affected_per_100k_glacial_lake		Numeric	per 100,000					Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)	www.emdat.be	Our World in Data based on EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir)					0	20,,;200,,;2000,,;20000	true	YlGnBu
