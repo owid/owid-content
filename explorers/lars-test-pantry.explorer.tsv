@@ -1,0 +1,10 @@
+table	https://gist.githubusercontent.com/larsyencken/189f7778a64aad552123f5611821d2f9/raw/48e0417110c96c33fd92e3b4cd24c5d9978baa58/pantry.csv
+entityType	food
+explorerTitle	Cost of staple foods in Geneva region
+isPublished	false
+columns
+	slug	type	name
+	entity	EntityName	Food
+	cost_eur	Numeric	Cost per kg (EUR)
+	calories	Numeric	kcal per 100g
+ySlugs	cost_eur
