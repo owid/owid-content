@@ -10,29 +10,16 @@ hideTitleAnnotation	true
 pickerColumnSlugs
 entityType	fish stock
 graphers
-	title	subtitle	Metric Dropdown	Relative to Radio	tableSlug	ySlugs	yScaleToggle	yAxisMin	colorSlug	type
+	title	subtitle	Metric Radio	Relative to Radio	tableSlug	ySlugs	yScaleToggle	yAxisMin	colorSlug	type
+	Fish biomass relative to biomass at maximum sustainable yield	Biomass is measured as the biomass of a fish stock in a given year divided by the biomass at its maximum sustainable yield (B / Bmsy).<br>Biomass greater than one means fish biomass is above the maximum sustainable yield. A value of one maximises fish catch without decreasing fish populations.</br>	Biomass	Relative to Max Sustainable Yield	fish	total_biomass_relative_to_msy	false	0		LineChart
+	Fish biomass relative to biomass at management target	Biomass is measured as the biomass of a fish stock in a given year divided by the biomass at its management target level (B / Bmgt).<br>Biomass greater than one means fish biomass is above the management target. A value of one maximises fish catch without decreasing fish populations.</br>	Biomass	Relative to management target	fish	total_biomass_relative_to_management_target	false	0		LineChart
 	Total fish biomass		Biomass	Total	fish	total_biomass	false	0		LineChart
-	Total biomass relative to biomass at maximum sustainable yield (MSY)		Biomass	Relative to MSY	fish	total_biomass_relative_to_msy	false	0		LineChart
-	Total biomass relative to biomass at management target		Biomass	Relative to management target	fish	total_biomass_relative_to_management_target	false	0		LineChart
-	Spawning stock biomass		Spawning stock biomass	Total	fish	spawning_stock_biomass	false	0		LineChart
-	Spawning stock biomass relative to biomass at maximum sustainable yield (MSY)		Spawning stock biomass	Relative to MSY	fish	spawning_stock_relative_to_msy	false	0		LineChart
-	Spawning stock biomass relative to biomass at management target		Spawning stock biomass	Relative to management target	fish	spawning_stock_relative_to_management_target	false	0		LineChart
-	Total catch		Catch	Total	fish	total_catch	false	0		LineChart
-	Total catch relative to catch at maximum sustainable yield (MSY)		Catch	Relative to MSY	fish	total_catch_relative_to_msy	false	0		LineChart
-	Total catch relative to catch at management target		Catch	Relative to management target	fish	total_catch_relative_to_management_target	false	0		LineChart
-	Total allowable catch		Catch	Allowable	fish	total_allowable_catch	false	0		LineChart
-	Scientifically advisable catch		Catch	Scientifically advisable	fish	scientific_advice_for_catch_limit	false	0		LineChart
-	Recreational catch		Catch	Recreational	fish	recreational_catch	false	0		LineChart
-	Exploitation rate		Exploitation rate	Total	fish	exploitation_rate	false	0		LineChart
-	Exploitation rate relative to rate at maximum sustainable yield (MSY)		Exploitation rate	Relative to MSY	fish	exploitation_rate_relative_to_msy	false	0		LineChart
-	Exploitation rate relative to rate at management target		Exploitation rate	Relative to management target	fish	exploitation_rate_relative_to_management_target	false	0		LineChart
-	Fishing mortality		Fishing mortality	Total	fish	fishing_mortality	false	0		LineChart
-	Fishing mortality relative to mortality at maximum sustainable yield		Fishing mortality	Relative to MSY	fish	fishing_mortality_relative_to_msy	false	0		LineChart
-	Fishing mortality relative to mortality at management target		Fishing mortality	Relative to management target	fish	fishing_mortality_relative_to_management_target	false	0		LineChart
-	Fishing effort		Fishing effort	Total	fish	fishing_effort	false	0		LineChart
-	Catch per unit of fishing effort		Fishing effort	Catch per unit effort	fish	catch_per_unit_effort	false	0		LineChart
-	Fish landings		Landings	Total	fish	total_landings	false	0		LineChart
-	Recruits		Recruits	Total	fish	recruits	false	0		LineChart
+	Fishing pressure		Fishing Pressure	Total	fish	exploitation_rate	false	0		LineChart
+	Fishing pressure relative to rate at maximum sustainable yield	Fishing pressure is measured as the fishing pressure in a given year divided by the pressure which would hold fish populations at the maximum sustainable yield.<br>A value of one means pressure is the optimal level to maximize fish catch without declining fish populations. Greater than one means fishing is too high and populations will be in decline.</br>	Fishing Pressure	Relative to Max Sustainable Yield	fish	exploitation_rate_relative_to_msy	false	0		LineChart
+	Fishing pressure relative to rate at management target	Fishing pressure is measured as the fishing pressure in a given year divided by the pressure which would hold fish populations at the management target for that stock.<br>A value of one means pressure is the optimal level to maintain fish populations at the target level. Greater than one means fishing is too high and populations will be in decline.</br>	Fishing Pressure	Relative to management target	fish	exploitation_rate_relative_to_management_target	false	0		LineChart
+	Total fish catch		Catch	Total	fish	total_catch	false	0		LineChart
+	Fish catch relative to catch at maximum sustainable yield		Catch	Relative to Max Sustainable Yield	fish	total_catch_relative_to_msy	false	0		LineChart
+	Fish catch relative to catch at management target		Catch	Relative to management target	fish	total_catch_relative_to_management_target	false	0		LineChart
 
 columns	fish
 	slug	name	type	unit	shortUnit	transform	annotationsColumnSlug	notes	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo
