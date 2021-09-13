@@ -20,6 +20,9 @@ graphers
 	Total fish catch		Catch	Total	fish	total_catch	false	0		LineChart
 	Fish catch relative to catch at maximum sustainable yield		Catch	Relative to Max Sustainable Yield	fish	total_catch_relative_to_msy	false	0		LineChart
 	Fish catch relative to catch at management target		Catch	Relative to management target	fish	total_catch_relative_to_management_target	false	0		LineChart
+	Abundance of fish		Abundance	Total	fish	total_number	false	0		LineChart
+	Abundance of fish relative to abundance at maximum sustainable yield		Abundance	Relative to Max Sustainable Yield	fish	number_relative_to_msy	false	0		LineChart
+	Abundance of fish relative to abundance at management target		Abundance	Relative to management target	fish	number_relative_to_management_target	false	0		LineChart
 
 columns	fish
 	slug	name	type	unit	shortUnit	transform	annotationsColumnSlug	notes	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo
