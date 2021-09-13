@@ -1,7 +1,7 @@
 explorerTitle	COVID-19 Data Explorer
 isPublished	false
 googleSheet	https://docs.google.com/spreadsheets/d/1qeXBgckrktxwrJp2V9NCG9CeDEufAC-nzYYjj6o1vlU/edit?usp=sharing
-selection	United States	Australia	Italy	Canada	Germany	United Kingdom	France
+selection	United States	the Netherlands	Italy	Canada	United Kingdom
 explorerSubtitle	Download the complete <em>Our World in Data</em> <a href="https://github.com/owid/covid-19-data/tree/master/public/data" target="_blank" rel="noopener noreferrer">COVID-19 dataset.</a>
 hideAlertBanner	true
 subNavId	coronavirus
@@ -13,8 +13,8 @@ downloadDataLink	https://covid.ourworldindata.org/data/owid-covid-data.csv
 thumbnail	https://ourworldindata.org/coronavirus-data-explorer.png
 pickerColumnSlugs	location population population_density median_age aged_65_older aged_70_older gdp_per_capita extreme_poverty human_development_index hospital_beds_per_thousand stringency_index life_expectancy total_vaccinations total_vaccinations_per_hundred new_vaccinations_smoothed new_vaccinations_smoothed_per_hundred total_deaths total_deaths_per_million new_deaths_smoothed new_deaths_smoothed_per_million total_cases total_cases_per_million new_cases_smoothed new_cases_smoothed_per_million total_tests total_tests_per_thousand new_tests_smoothed new_tests_smoothed_per_thousand cfr positive_rate_filtered tests_per_case_smoothed_filtered_gt_1
 graphers
-	title	subtitle	Metric Dropdown	Interval Dropdown	Relative to Population Checkbox	Align outbreaks Checkbox	ySlugs	yScaleToggle	xSlug	colorSlug	type	tableSlug	hideTitleAnnotation	hasMapTab	sortBy	sortColumnSlug	hideTotalValueLabel	facet
-	Daily new confirmed COVID-19 cases and deaths per million people	Shown is the rolling 74-day average. Limited testing and challenges in the attribution of the cause of death means that the number of confirmed deaths may not be an accurate count of the true number of deaths from COVID-19.	Cases and deaths	7-day rolling average	true	false	new_cases_smoothed_per_million new_deaths_smoothed_per_million	true			LineChart	covid-all	true	true				metric
+	title	subtitle	Metric Dropdown	Interval Dropdown	Relative to Population Checkbox	Align outbreaks Checkbox	ySlugs	yScaleToggle	xSlug	colorSlug	type	tableSlug	hideTitleAnnotation	hasMapTab	sortBy	sortColumnSlug	hideTotalValueLabel	facet	selectedFacetStrategy	facetYDomain
+	Daily new confirmed COVID-19 cases and deaths per million people	Shown is the rolling 7-day average. Limited testing and challenges in the attribution of the cause of death means that the number of confirmed deaths may not be an accurate count of the true number of deaths from COVID-19.	Confirmed cases and deaths	7-day rolling average	true	false	new_cases_smoothed_per_million new_deaths_smoothed_per_million	true			LineChart	covid-all	true	true				metric	metric	independent
 	Daily new confirmed COVID-19 deaths per million people	Shown is the rolling 7-day average. Limited testing and challenges in the attribution of the cause of death means that the number of confirmed deaths may not be an accurate count of the true number of deaths from COVID-19.	Confirmed deaths	7-day rolling average	true	false	new_deaths_smoothed_per_million_gt_0	true			LineChart	deaths	true	true
 	Daily new confirmed COVID-19 cases per million people	Shown is the rolling 7-day average. The number of confirmed cases is lower than the number of actual cases; the main reason for that is limited testing.	Confirmed cases	7-day rolling average	true	false	new_cases_smoothed_per_million_gt_0	true			LineChart	cases-tests	true	true
 	Daily new confirmed COVID-19 cases per million people	Shown is the rolling 7-day average. The number of confirmed cases is lower than the number of actual cases; the main reason for that is limited testing.	Confirmed cases	7-day rolling average	true	true	new_cases_smoothed_per_million_gt_0	true	days_since_1_case_per_million	positive_rate_percent	ScatterPlot	cases-tests	true	true
