@@ -8,11 +8,9 @@ subNavCurrentId
 wpBlockId
 tab	chart
 graphers
-	grapherId	Metric Dropdown	Period Radio
-	5283	Temperature anomaly	Monthly
-	5284	Sea surface temperature anomaly	Monthly
-	1895	Temperature anomaly	Annual
-	5285	Sea surface temperature anomaly	Annual
+	grapherId	Metric Dropdown
+	5283	Temperature anomaly
+	5284	Sea surface temperature anomaly
 	5183	Ocean heat content (top 700m)
 	5184	Ocean heat content (top 2000m)
 	5282	Ocean pH
