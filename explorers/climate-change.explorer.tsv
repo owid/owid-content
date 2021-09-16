@@ -3,7 +3,7 @@ isPublished	true
 entityType	region
 explorerSubtitle	Explore the impacts of global climate change.
 selection	World
-subNavId
+subNavId	co2
 subNavCurrentId
 wpBlockId
 tab	chart
