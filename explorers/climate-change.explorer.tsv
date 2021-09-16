@@ -1,0 +1,25 @@
+explorerTitle	Climate Change Impacts Data Explorer
+isPublished	true
+entityType	region
+explorerSubtitle	Explore the impacts of global climate change.
+selection	World
+subNavId
+subNavCurrentId
+wpBlockId
+tab	chart
+graphers
+	grapherId	Metric Dropdown
+	5283	Temperature anomaly
+	5284	Sea surface temperature anomaly
+	5183	Ocean heat content (top 700m)
+	5184	Ocean heat content (top 2000m)
+	5282	Ocean pH
+	5286	Sea level rise
+	5186	Arctic sea ice minimum
+	5185	Antarctic sea ice minimum
+	5288	Mass balance of glaciers
+	5287	Mass balance of U.S. Glaciers
+	5187	Snow cover
+	5279	CO₂ concentrations
+	5280	CH₄ concentrations
+	5281	N₂O concentrations

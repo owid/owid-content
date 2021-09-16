@@ -1,0 +1,19 @@
+explorerTitle	Fish Stocks Data Explorer
+isPublished	false
+entityType	region or taxa
+explorerSubtitle	Explore biomass, catch and fishing pressure of fish stocks across the world.
+selection
+subNavId
+subNavCurrentId
+wpBlockId
+tab	chart
+graphers
+	grapherId	By Region or Taxa Radio	Metric Radio
+	5218	Region	Biomass
+	5222	Region	Fishing Pressure
+	5224	Region	Catch
+	5216	Region	All metrics on one chart
+	5219	Taxa	Biomass
+	5223	Taxa	Fishing Pressure
+	5225	Taxa	Catch
+	5217	Taxa	All metrics on one chart
