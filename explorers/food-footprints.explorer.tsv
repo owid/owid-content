@@ -8,25 +8,20 @@ subNavCurrentId
 wpBlockId
 tab	chart
 graphers
-	grapherId	Foods included Radio	Environmental impact Dropdown	Metric Radio	By stage of supply chain Checkbox
-	3645	All foods (full supply chain)	Carbon footprint	By mass (kg or tonnes)	false
-	4986	All foods (full supply chain)	Carbon footprint	By mass (kg or tonnes)	true
-	3651	All foods (full supply chain)	Carbon footprint	Per 100 grams of protein
-	3655	All foods (full supply chain)	Carbon footprint	Per 1000 kilocalories
-	3644	All foods (full supply chain)	Land use	By mass (kg or tonnes)
-	3650	All foods (full supply chain)	Land use	Per 100 grams of protein
-	3654	All foods (full supply chain)	Land use	Per 1000 kilocalories
-	3646	All foods (full supply chain)	Water use	By mass (kg or tonnes)
-	3652	All foods (full supply chain)	Water use	Per 100 grams of protein
-	3950	All foods (full supply chain)	Water use	Per 1000 kilocalories
-	3647	All foods (full supply chain)	Scarcity-weighted water use	By mass (kg or tonnes)
-	3653	All foods (full supply chain)	Scarcity-weighted water use	Per 100 grams of protein
-	3951	All foods (full supply chain)	Scarcity-weighted water use	Per 1000 kilocalories
-	3649	All foods (full supply chain)	Eutrophication (water pollution)	By mass (kg or tonnes)
-	3952	All foods (full supply chain)	Eutrophication (water pollution)	Per 100 grams of protein
-	3953	All foods (full supply chain)	Eutrophication (water pollution)	Per 1000 kilocalories
-	5271	Seafood (to farmgate only)	Carbon footprint	By mass (kg or tonnes)
-	5272	Seafood (to farmgate only)	Land use	By mass (kg or tonnes)
-	5275	Seafood (to farmgate only)	Freshwater use	By mass (kg or tonnes)
-	5273	Seafood (to farmgate only)	Nitrogen pollution	By mass (kg or tonnes)
-	5274	Seafood (to farmgate only)	Phosphorous pollution	By mass (kg or tonnes)
+	grapherId	Environmental impact Dropdown	Metric Radio	By stage of supply chain Checkbox
+	3645	Carbon footprint	Per kilogram	false
+	4986	Carbon footprint	Per kilogram	true
+	3651	Carbon footprint	Per 100 grams of protein
+	3655	Carbon footprint	Per 1000 kilocalories
+	3644	Land use	Per kilogram
+	3650	Land use	Per 100 grams of protein
+	3654	Land use	Per 1000 kilocalories
+	3646	Water use	Per kilogram
+	3652	Water use	Per 100 grams of protein
+	3950	Water use	Per 1000 kilocalories
+	3647	Scarcity-weighted water use	Per kilogram
+	3653	Scarcity-weighted water use	Per 100 grams of protein
+	3951	Scarcity-weighted water use	Per 1000 kilocalories
+	3649	Eutrophication (water pollution)	Per kilogram
+	3952	Eutrophication (water pollution)	Per 100 grams of protein
+	3953	Eutrophication (water pollution)	Per 1000 kilocalories
