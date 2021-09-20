@@ -5,7 +5,7 @@ explorerSubtitle	Explore the impacts of global climate change.
 selection	World
 subNavId	co2
 subNavCurrentId
-wpBlockId
+wpBlockId	45009
 tab	chart
 graphers
 	grapherId	Metric Dropdown
