@@ -8,7 +8,7 @@ subNavCurrentId
 wpBlockId	45009
 tab	chart
 graphers
-	grapherId	Metric Dropdown
+	grapherId	Metric Dropdown	Long-run series? Checkbox
 	5283	Temperature anomaly
 	5284	Sea surface temperature anomaly
 	5183	Ocean heat content (top 700m)
@@ -16,10 +16,13 @@ graphers
 	5282	Ocean pH
 	5286	Sea level rise
 	5186	Arctic sea ice minimum
-	5185	Antarctic sea ice minimum
+	5185	Antarctic sea ice extent
 	5288	Mass balance of ice sheets
 	5287	Mass balance of U.S. Glaciers
 	5187	Snow cover
 	5279	CO₂ concentrations
 	5280	CH₄ concentrations
 	5281	N₂O concentrations
+	2568	CO₂ concentrations	true
+	3530	CH₄ concentrations	true
+	3529	N₂O concentrations	true
