@@ -1,0 +1,23 @@
+explorerTitle	2020 Review 2
+
+hasMapTab	true
+table	https://docs.google.com/spreadsheets/d/1lbLQAmTygJlD5U9UQBNY2Uv0UAWgA0rpc1ip-Uk-_Vw/export?format=csv
+
+graphers
+	Metric Dropdown	type	ySlugs	title
+	Page views	LineChart	page_views	Page views
+	Unique page views	LineChart	unique_pageviews	Unique page views
+
+columns
+	slug	name	type	sourceName	sourceLink	additionalInfo
+	date	Day	Date
+
+
+
+
+
+
+
+
+	page_views	Page views	Integer	Google Analytics	www.one.two	Well let's describe something in <br> quite the length and see if we can do a line break using Shift + Enter. No that doesn't work but what about instead of <p>, does that work?</p>
+	unique_pageviews	Unique page views	Integer	Google Analytics
