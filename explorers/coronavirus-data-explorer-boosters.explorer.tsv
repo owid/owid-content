@@ -252,7 +252,7 @@ columns	variants
 	Lambda	Lambda	Percentage			CoVariants.org and GISAID	https://covariants.org/				<p>The share of analyzed sequences that correspond to each variant group. Only a fraction of all cases are sequenced.</p>	15									#9053D4
 	non_who	Others	Percentage			CoVariants.org and GISAID	https://covariants.org/				<p>The share of analyzed sequences that correspond to each variant group. Only a fraction of all cases are sequenced.</p>	15									#585C64
 table	https://covid.ourworldindata.org/data/internal/megafile--vaccinations-bydose.json	vaccinations-bydose
-columns	vaccinations-bydose
+columns	vaccinations-bydose-booster
 	slug	name	type	transform	annotationsColumnSlug	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo	tolerance	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleLegendDescription	colorScaleNoDataLabel	colorScaleEqualSizeBins	colorScaleScheme	colorScaleInvert	colorScaleCategoricalBins	color
 	location	Country name	EntityName
 	people_partly_vaccinated	People only partly vaccinated against COVID-19	Integer		annotations	Official data collated by Our World in Data. This data is only available for countries which report the breakdown of doses administered by first and second doses in absolute numbers.	https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations	For source details see https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations/locations.csv			<p>Data on COVID-19 vaccinations. We only rely on figures that are verifiable based on public official sources.</p><p>You can download the full dataset here: https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations</p>	30									#a3cdbe
