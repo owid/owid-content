@@ -23,7 +23,8 @@ graphers
 	1. No Poverty	1.5: Resilience to disasters	1.5.2 Global economic losses from disasters as a share of GDP	3165
 	1. No Poverty	1.5: Resilience to disasters	1.5.3 Disaster risk reduction strategies	2735
 	1. No Poverty	1.5: Resilience to disasters	1.5.4 Local disaster risk reduction	3831
-	1. No Poverty	1.a: Mobilisation of resources to end poverty	1.A.1 Domestic resources to poverty reduction
+	1. No Poverty	1.a: Mobilisation of resources to end poverty	1.A.1 Domestic resources to poverty reduction	5304
+	1. No Poverty	1.a: Mobilisation of resources to end poverty	1.A.1 Assistance received to reduce poverty	5305
 	1. No Poverty	1.a: Mobilisation of resources to end poverty	1.A.2 Government spending on health	1915
 	1. No Poverty	1.a: Mobilisation of resources to end poverty	1.A.2 Government spending on education	1917
 	1. No Poverty	1.a: Mobilisation of resources to end poverty	1.A.3 Inflows allocated to poverty reduction
@@ -31,9 +32,10 @@ graphers
 	2. Zero Hunger	2.1: Universal access to safe and nutritious food	2.1.2 Prevalence of food insecurity	1941
 	2. Zero Hunger	2.2: End all forms of malnutrition	2.2.1 Prevalence of childhood stunting	703
 	2. Zero Hunger	2.2: End all forms of malnutrition	2.2.2 Prevalence of childhood wasting	792
-	2. Zero Hunger	2.2: End all forms of malnutrition	2.2.2 Prevalence of childhood overweight	2737
+	2. Zero Hunger	2.2: End all forms of malnutrition	2.2.2 Prevalence of childhood overweight	2042
 	2. Zero Hunger	2.3: Double productivity and incomes of small-scale producers	2.3.1 Production per labour unit	639
-	2. Zero Hunger	2.3: Double productivity and incomes of small-scale producers	2.3.2 Income of small-scale food producers	3932
+	2. Zero Hunger	2.3: Double productivity and incomes of small-scale producers	2.3.2 Income of small-scale food producers	3832
+	2. Zero Hunger	2.3: Double productivity and incomes of small-scale producers	2.3.2 Income of large-scale food producers	5237
 	2. Zero Hunger	2.4: Sustainable food production & resilient agriculture	2.4.1 Sustainable food production
 	2. Zero Hunger	2.5: Maintain the genetic diversity in food production	2.5.1 Genetic plant resources in conservation	2045
 	2. Zero Hunger	2.5: Maintain the genetic diversity in food production	2.5.1 Genetic animal resources in conservation	2043
@@ -42,18 +44,19 @@ graphers
 	2. Zero Hunger	2.A: Invest in rural infrastructure, agricultural research, technology & gene banks	2.A.2 Official flows to agriculture	2046
 	2. Zero Hunger	2.B: Prevent agricultural trade restrictions, market distortions & export subsidies	2.B.1 Agricultural export subsidies	3833
 	2. Zero Hunger	2.C: Ensure stable food commodity markets & timely access to information	2.C.1 Food price anomalies	1055
-	3. Good Health and Wellbeing	3.1: Reduce maternal mortality	3.1.1 Maternal mortality ratio	3482
+	3. Good Health and Wellbeing	3.1: Reduce maternal mortality	3.1.1 Maternal mortality ratio	2725
 	3. Good Health and Wellbeing	3.1: Reduce maternal mortality	3.1.2 Skilled birth attendance	1596
 	3. Good Health and Wellbeing	3.2: End all preventable deaths under 5 years of age	3.2.1 Under-5 mortality rate	2723
 	3. Good Health and Wellbeing	3.2: End all preventable deaths under 5 years of age	3.2.2 Neonatal mortality rate	2724
 	3. Good Health and Wellbeing	3.3: Fight communicable diseases	3.3.1 New HIV infections	2656
 	3. Good Health and Wellbeing	3.3: Fight communicable diseases	3.3.2 Tuberculosis incidence	2657
 	3. Good Health and Wellbeing	3.3: Fight communicable diseases	3.3.3 Malaria incidence	2658
-	3. Good Health and Wellbeing	3.3: Fight communicable diseases	3.3.4 Hepatitis B incidence	2659
+	3. Good Health and Wellbeing	3.3: Fight communicable diseases	3.3.4 Hepatitis B incidence	5248
 	3. Good Health and Wellbeing	3.3: Fight communicable diseases	3.3.5 Neglected tropical diseases	2660
 	3. Good Health and Wellbeing	3.4: Reduce mortality from non-communicable diseases & promote mental health	3.4.1 Mortality from non-communicable diseases	1603
 	3. Good Health and Wellbeing	3.4: Reduce mortality from non-communicable diseases & promote mental health	3.4.2 Suicide mortality rate	1604
-	3. Good Health and Wellbeing	3.5: Prevent and treat substance abuse	3.5.1 Treatment interventions for substance use disorders
+	3. Good Health and Wellbeing	3.5: Prevent and treat substance abuse	3.5.1 Share of population with alcohol use disorders	5193
+	3. Good Health and Wellbeing	3.5: Prevent and treat substance abuse	3.5.1 Treatment interventions for substance use disorders	5192
 	3. Good Health and Wellbeing	3.5: Prevent and treat substance abuse	3.5.2 Alcohol consumption per capita	1197
 	3. Good Health and Wellbeing	3.6: Reduce road injuries and deaths	3.6.1 Halve the number of road traffic deaths	2661
 	3. Good Health and Wellbeing	3.7: Universal access to sexual and reproductive care, family planning & education	3.7.1 Share of women who have need for family planning satisfied with modern methods	1606
