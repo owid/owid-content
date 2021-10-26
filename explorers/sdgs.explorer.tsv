@@ -143,7 +143,9 @@ graphers
 	6. Clean Water and Sanitation	6.4: Increase water use efficiency and ensure freshwater supplies	6.4.2 Freshwater stress	1484
 	6. Clean Water and Sanitation	6.5: Implement integrated water resources management	6.5.1 Integrated water management	2048
 	6. Clean Water and Sanitation	6.5: Implement integrated water resources management	6.5.2 Transboundary water cooperation	3845
-	6. Clean Water and Sanitation	6.6: Protect and restore water-related ecosystems	6.6.1 Protect water-related ecosystems	3846
+	6. Clean Water and Sanitation	6.6: Protect and restore water-related ecosystems	6.6.1 Coverage of wetlands	5265
+	6. Clean Water and Sanitation	6.6: Protect and restore water-related ecosystems	6.6.1 Change in total mangrove area	5263
+	6. Clean Water and Sanitation	6.6: Protect and restore water-related ecosystems	6.6.1 Coverage of lakes and rivers	5264
 	6. Clean Water and Sanitation	6.A: Expand water and sanitation support to developing countries	6.A.1 Water and sanitation support	2049
 	6. Clean Water and Sanitation	6.B: Support local engagement in water and sanitation management	6.B.1 Local participation in sanitation management	3847
 	7. Affordable and Clean Energy	7.1: Universal access to modern energy	7.1.1 Access to electricity	598
@@ -151,7 +153,7 @@ graphers
 	7. Affordable and Clean Energy	7.2: Increase global percentage of renewable energy	7.2.1 Share of final energy from renewables	1621
 	7. Affordable and Clean Energy	7.3: Double the improvement in energy efficiency	7.3.1 Energy efficiency	611
 	7. Affordable and Clean Energy	7.A: Promote access, technology and investments in clean energy	7.A.1 International finance for clean energy	3848
-	7. Affordable and Clean Energy	7.B: Expand and upgrade energy services for developing countries	7.B.1 Expanding energy services for developing countries
+	7. Affordable and Clean Energy	7.B: Expand and upgrade energy services for developing countries	7.B.1 Renewable electricity generating capacity	5200
 	8. Decent Work and Economic Growth	8.1: Sustainable Economic Growth	8.1.1 GDP per capita growth rate	1619
 	8. Decent Work and Economic Growth	8.2: Diversify, innovate and upgrade for economic productivity	8.2.1 GDP per capita growth per employed person	2052
 	8. Decent Work and Economic Growth	8.3: Promote policies to support job creation and growing enterprises	8.3.1 Informal employment	2009
@@ -167,21 +169,22 @@ graphers
 	8. Decent Work and Economic Growth	8.7: End modern slavery, trafficking, and child labour	8.7.1 Child labour by sex	2775
 	8. Decent Work and Economic Growth	8.8: Protect labour rights & promote safe working environments	 8.8.1 Non-fatal occupational injuries	2053
 	8. Decent Work and Economic Growth	8.8: Protect labour rights & promote safe working environments	 8.8.1 Fatal occupational injuries	2054
-	8. Decent Work and Economic Growth	8.8: Protect labour rights & promote safe working environments	8.8.2 Compliance of labour rights
-	8. Decent Work and Economic Growth	8.9: Promote beneficial & sustainable tourism	8.9.1 Tourism contribution to GDP
+	8. Decent Work and Economic Growth	8.8: Protect labour rights & promote safe working environments	8.8.2 Compliance of labour rights	5201
+	8. Decent Work and Economic Growth	8.9: Promote beneficial & sustainable tourism	8.9.1 Tourism contribution to GDP	5202
 	8. Decent Work and Economic Growth	8.9: Promote beneficial & sustainable tourism	8.9.2 Sustainable tourism jobs
 	8. Decent Work and Economic Growth	8.10: Universal access to banking, insurance & financial services	8.10.1 Commercial bank branches	1668
 	8. Decent Work and Economic Growth	8.10: Universal access to banking, insurance & financial services	8.10.1 Automated teller machines (ATMs)	1669
 	8. Decent Work and Economic Growth	8.10: Universal access to banking, insurance & financial services	8.10.2 Population with financial account	1802
 	8. Decent Work and Economic Growth	8.A: Increase aid for trade support	8.A.1 Aid for trade, by recipient	2055
 	8. Decent Work and Economic Growth	8.A: Increase aid for trade support	8.A.1 Aid for trade, by donor	2056
-	8. Decent Work and Economic Growth	8.B: Develop a global youth employment strategy	8.B.1 Youth employment strategy
-	9. Industry, Innovation and Infrastructure	9.1: Develop sustainable, resilient and inclusive infrastructures	9.1.1 Road access for rural populations
+	8. Decent Work and Economic Growth	8.B: Develop a global youth employment strategy	8.B.1 Youth employment strategy	5203
+	9. Industry, Innovation and Infrastructure	9.1: Develop sustainable, resilient and inclusive infrastructures	9.1.1 Road access for rural populations	5204
 	9. Industry, Innovation and Infrastructure	9.1: Develop sustainable, resilient and inclusive infrastructures	9.1.2 Air transport passengers	1111
 	9. Industry, Innovation and Infrastructure	9.1: Develop sustainable, resilient and inclusive infrastructures	9.1.2 Railway passengers	2012
 	9. Industry, Innovation and Infrastructure	9.1: Develop sustainable, resilient and inclusive infrastructures	9.1.2 Air transport freight	2013
 	9. Industry, Innovation and Infrastructure	9.2: Promote inclusive & sustainable industrialization	9.2.1 Manufacturing value	1791
-	9. Industry, Innovation and Infrastructure	9.2: Promote inclusive & sustainable industrialization	9.2.2 Manufacturing employment	1797
+	9. Industry, Innovation and Infrastructure	9.2: Promote inclusive & sustainable industrialization	9.2.2 Manufacturing employment	5244
+	9. Industry, Innovation and Infrastructure	9.2: Promote inclusive & sustainable industrialization	9.2.2 Manufacturing's value added to GDP	1797
 	9. Industry, Innovation and Infrastructure	9.3: Increase access to financial services & markets	9.3.1 Value of small-scale industry	3849
 	9. Industry, Innovation and Infrastructure	9.3: Increase access to financial services & markets	9.3.2 Small-scale industries with affordable credit	3850
 	9. Industry, Innovation and Infrastructure	9.4: Upgrade all industries & infrastructures for sustainability	9.4.1 CO2 emissions per unit value added	530
@@ -192,14 +195,14 @@ graphers
 	9. Industry, Innovation and Infrastructure	9.C: Universal access to information & communications technology	9.C.1 Mobile cellular subscriptions	1263
 	9. Industry, Innovation and Infrastructure	9.C: Universal access to information & communications technology	9.C.1 Internet access	755
 	10. Reduced Inequalities	10.1: Reduce income inequalities	10.1.1 Income growth inequalities	1667
-	10. Reduced Inequalities	10.2: Promote universal social, economic and political inclusion	10.2.1 People living below 50 per cent of median income
-	10. Reduced Inequalities	10.3: Ensure equal opportunities and end discrimination	10.3.1 Eliminating discriminatory practices
+	10. Reduced Inequalities	10.2: Promote universal social, economic and political inclusion	10.2.1 People living below 50 per cent of median income	5306
+	10. Reduced Inequalities	10.3: Ensure equal opportunities and end discrimination	10.3.1 Eliminating discriminatory practices	5301
 	10. Reduced Inequalities	10.4: Adopt fiscal and social policies that promotes equality	10.4.1 Labour share of GDP	2059
 	10. Reduced Inequalities	10.5: Improved regulation of global financial markets and institutions	10.5.1 Regulating financial markets	3851
 	10. Reduced Inequalities	10.6: Enhanced representation for developing countries in financial institutions	10.6.1 Share in international organizations	2070
 	10. Reduced Inequalities	10.6: Enhanced representation for developing countries in financial institutions	10.6.1 Share of voting rights in international organizations	2069
 	10. Reduced Inequalities	10.7: Responsible and well-managed migration policies	10.7.1 Migration recruitment costs
-	10. Reduced Inequalities	10.7: Responsible and well-managed migration policies	10.7.2 Well-planned migration policies
+	10. Reduced Inequalities	10.7: Responsible and well-managed migration policies	10.7.2 Well-planned migration policies	5205
 	10. Reduced Inequalities	10.A: Special and differential treatment for developing countries	10.A.1 Differential tariffs for least developed countries	2116
 	10. Reduced Inequalities	10.B: Encourage development assistance in least developed countries	10.B.1 Development assistance received	2071
 	10. Reduced Inequalities	10.B: Encourage development assistance in least developed countries	10.B.1 Development assistance given	2072
@@ -209,14 +212,17 @@ graphers
 	11. Sustainable Cities and Communities	11.3: Inclusive & sustainable urbanization	11.3.1 Sustainable urbanization rates
 	11. Sustainable Cities and Communities	11.3: Inclusive & sustainable urbanization	11.3.2 Urban planning management
 	11. Sustainable Cities and Communities	11.4: Protect the world's cultural & natural heritage	11.4.1 Protecting cultural heritage
-	11. Sustainable Cities and Communities	11.5: Reduce the adverse effects of natural disasters	11.5.1 Deaths from natural disasters	1622
-	11. Sustainable Cities and Communities	11.5: Reduce the adverse effects of natural disasters	11.5.1 Affected persons from natural disasters	1836
+	11. Sustainable Cities and Communities	11.5: Reduce the adverse effects of natural disasters	11.5.1 Deaths from natural disasters	5245
+	11. Sustainable Cities and Communities	11.5: Reduce the adverse effects of natural disasters	11.5.1 Internally displaced people due to natural disasters	1836
+	11. Sustainable Cities and Communities	11.5: Reduce the adverse effects of natural disasters	11.5.1 Affected persons from natural disasters	5241
 	11. Sustainable Cities and Communities	11.5: Reduce the adverse effects of natural disasters	11.5.2 Direct economic loss from disasters	2075
+	11. Sustainable Cities and Communities	11.5: Reduce the adverse effects of natural disasters	11.5.2 Global disaster losses	3166
+	11. Sustainable Cities and Communities	11.5: Reduce the adverse effects of natural disasters	11.5.2 Global disaster losses by type	3165
 	11. Sustainable Cities and Communities	11.6: Reduce the environmental impacts of cities	11.6.1 Solid waste management	2076
 	11. Sustainable Cities and Communities	11.6: Reduce the environmental impacts of cities	11.6.2 Urban air pollution	1438
 	11. Sustainable Cities and Communities	11.7: Provide access to safe & inclusive green spaces	11.7.1 Open spaces in cities
 	11. Sustainable Cities and Communities	11.7: Provide access to safe & inclusive green spaces	11.7.2 Safe spaces in cities
-	11. Sustainable Cities and Communities	11.A: Strong national & regional development planning	11.A.1 Urban and regional planning
+	11. Sustainable Cities and Communities	11.A: Strong national & regional development planning	11.A.1 Urban and regional planning	5206
 	11. Sustainable Cities and Communities	11.B: Implement policies for inclusion, resource efficiency & disaster risk reduction	11.B.1 Integrated disaster risk management	2077
 	11. Sustainable Cities and Communities	11.B: Implement policies for inclusion, resource efficiency & disaster risk reduction	11.B.2 Local disaster risk management	3852
 	11. Sustainable Cities and Communities	11.C: Support least developed countries in sustainable & resilient building	11.C.1 Sustainable & resilient buildings in least developed countries
@@ -225,28 +231,42 @@ graphers
 	12. Responsible Consumption and Production	12.2: Sustainable management & use of natural resources	12.2.1 Material footprint per GDP	2079
 	12. Responsible Consumption and Production	12.2: Sustainable management & use of natural resources	12.2.2 Domestic material footprint per capita	2080
 	12. Responsible Consumption and Production	12.2: Sustainable management & use of natural resources	12.2.2 Domestic material footprint per GDP	2084
-	12. Responsible Consumption and Production	12.3: Halve global per capita food waste	12.3.1 Global food loss
+	12. Responsible Consumption and Production	12.3: Halve global per capita food waste	12.3.1 Food waste per capita	5207
 	12. Responsible Consumption and Production	12.4: Responsible management of chemicals & waste	12.4.1 International agreements on hazardous waste	2085
-	12. Responsible Consumption and Production	12.4: Responsible management of chemicals & waste	12.4.2 Hazardous waste generation
-	12. Responsible Consumption and Production	12.5: Substantially reduce waste generation	12.5.1 Recycling rates	2753
-	12. Responsible Consumption and Production	12.6: Encourage companies to adopt sustainable practices & sustainability reporting	12.6.1 Companies publishing sustainability reports
-	12. Responsible Consumption and Production	12.7: Promote sustainable public procurement practices	12.7.1 National sustainable procurement plans
-	12. Responsible Consumption and Production	12.8: Promote universal understanding of sustainable lifestyles	12.8.1 Understanding of sustainable lifestyles
-	12. Responsible Consumption and Production	12.A: Support developing countries' scientific and technological capacity for sustainable consumption and production	12.A.1 Support for developing countries' capacity for sustainable production
-	12. Responsible Consumption and Production	12.B: Develop and implement tools to monitor sustainable tourism	12.B.1 Monitoring sustainable tourism
+	12. Responsible Consumption and Production	12.4: Responsible management of chemicals & waste	12.4.2 Hazardous waste generated per capita	5267
+	12. Responsible Consumption and Production	12.4: Responsible management of chemicals & waste	12.4.2 Treatment of hazardous waste	5266
+	12. Responsible Consumption and Production	12.4: Responsible management of chemicals & waste	12.4.2 Total waste generation	5209
+	12. Responsible Consumption and Production	12.5: Substantially reduce waste generation	12.5.1 Recycling rates	2752
+	12. Responsible Consumption and Production	12.5: Substantially reduce waste generation	12.5.1 Electronic recycling rates	5242
+	12. Responsible Consumption and Production	12.6: Encourage companies to adopt sustainable practices & sustainability reporting	12.6.1 Companies publishing sustainability reports, minimum requirements	5211
+	12. Responsible Consumption and Production	12.6: Encourage companies to adopt sustainable practices & sustainability reporting	12.6.1 Companies publishing sustainability reports, advanced requirements	5212
+	12. Responsible Consumption and Production	12.7: Promote sustainable public procurement practices	12.7.1 Low-level implementation of sustainable procurement plans	5213
+	12. Responsible Consumption and Production	12.7: Promote sustainable public procurement practices	12.7.1 Medium-level implementation of sustainable procurement plans	5214
+	12. Responsible Consumption and Production	12.7: Promote sustainable public procurement practices	12.7.1 High-level implementation of sustainable procurement plans	5215
+	12. Responsible Consumption and Production	12.8: Promote universal understanding of sustainable lifestyles	12.8.1 Teacher education on sustainable development	5198
+	12. Responsible Consumption and Production	12.8: Promote universal understanding of sustainable lifestyles	12.8.1 Curricula covering sustainable development	5197
+	12. Responsible Consumption and Production	12.8: Promote universal understanding of sustainable lifestyles	12.8.1 Student assessment on sustainable development	5196
+	12. Responsible Consumption and Production	12.8: Promote universal understanding of sustainable lifestyles	12.8.1 National education policies covering sustainable development	5195
+	12. Responsible Consumption and Production	12.A: Support developing countries' scientific and technological capacity for sustainable consumption and production	12.A.1 Renewable electricity generating capacity	5200
+	12. Responsible Consumption and Production	12.B: Develop and implement tools to monitor sustainable tourism	12.B.1 Monitoring sustainable tourism	5220
 	12. Responsible Consumption and Production	12.C: Remove market distortions that encourage wasteful consumption	12.C.1 Fossil fuel subsidies	3856
 	12. Responsible Consumption and Production	12.C: Remove market distortions that encourage wasteful consumption	12.C.1 Fossil fuel subsidies per capita	3855
 	12. Responsible Consumption and Production	12.C: Remove market distortions that encourage wasteful consumption	12.C.1 Fossil fuel subsidies per GDP	3854
-	13. Climate Action	13.1: Strengthen resilience and adaptive capacity to climate-related disasters	13.1.1 Deaths from natural disasters	1622
-	13. Climate Action	13.1: Strengthen resilience and adaptive capacity to climate-related disasters	13.1.1 Affected persons from natural disasters	1836
+	13. Climate Action	13.1: Strengthen resilience and adaptive capacity to climate-related disasters	13.1.1 Deaths from natural disasters	5245
+	13. Climate Action	13.1: Strengthen resilience and adaptive capacity to climate-related disasters	13.1.1 Affected persons from natural disasters	5241
+	13. Climate Action	13.1: Strengthen resilience and adaptive capacity to climate-related disasters	13.1.1 Internally displaced people due to natural disasters	1836
 	13. Climate Action	13.1: Strengthen resilience and adaptive capacity to climate-related disasters	13.1.2 Integrated disaster risk management	2077
 	13. Climate Action	13.1: Strengthen resilience and adaptive capacity to climate-related disasters	13.1.3 Local disaster risk management	3852
 	13. Climate Action	13.2: Integrate climate change measures into policy and planning	13.2.1 Integration of climate change into national policies	1350
-	13. Climate Action	13.3: Build knowledge and capacity to meet climate change	13.3.1 Education on climate change
+	13. Climate Action	13.3: Build knowledge and capacity to meet climate change	13.3.1 Teacher education on sustainable development	5198
+	13. Climate Action	13.3: Build knowledge and capacity to meet climate change	13.3.1 Curricula covering sustainable development	5197
+	13. Climate Action	13.3: Build knowledge and capacity to meet climate change	13.3.1 Student assessment on sustainable development	5196
+	13. Climate Action	13.3: Build knowledge and capacity to meet climate change	13.3.1 National education policies covering sustainable development	5195
 	13. Climate Action	13.3: Build knowledge and capacity to meet climate change	13.3.2 Capacity-building for climate change
 	13. Climate Action	13.A: Implement theUN Framework Convention on Climate Change	13.A.1 Green Climate Fund mobilization of $100 billion	2759
-	13. Climate Action	13.B: Promote mechanisms to raise capacity for planning & management	13.B.1 Support for planning & management in least-developed countries
-	14. Life Below Water	14.1: Reduce marine pollution	14.1.1 Reduce marine pollution
+	13. Climate Action	13.B: Promote mechanisms to raise capacity for planning & management	13.B.1 Support for planning & management in least-developed countries	5300
+	14. Life Below Water	14.1: Reduce marine pollution	14.1.1 Beach litter	5221
+	14. Life Below Water	14.1: Reduce marine pollution	14.1.1 Chlorophyll-a deviation	5226
 	14. Life Below Water	14.2: Protect and restore ecosystems	14.2.1 Protect and restore ecosystems
 	14. Life Below Water	14.3: Reduce ocean acidification	14.3.1 Reduce ocean acidification
 	14. Life Below Water	14.4: Sustainable fishing	14.4.1 Fish stocks within sustainable levels	2086
