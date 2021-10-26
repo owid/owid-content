@@ -268,14 +268,15 @@ graphers
 	14. Life Below Water	14.1: Reduce marine pollution	14.1.1 Beach litter	5221
 	14. Life Below Water	14.1: Reduce marine pollution	14.1.1 Chlorophyll-a deviation	5226
 	14. Life Below Water	14.2: Protect and restore ecosystems	14.2.1 Protect and restore ecosystems
-	14. Life Below Water	14.3: Reduce ocean acidification	14.3.1 Reduce ocean acidification
+	14. Life Below Water	14.3: Reduce ocean acidification	14.3.1 Reduce ocean acidification	5282
 	14. Life Below Water	14.4: Sustainable fishing	14.4.1 Fish stocks within sustainable levels	2086
 	14. Life Below Water	14.5: Conserve coastal and marine areas	14.5.1 Protected marine areas	1623
 	14. Life Below Water	14.6: End subsidies contributing to overfishing	14.6.1 Combat illegal, unreported & unregulated fishing	3857
-	14. Life Below Water	14.7: Increase economic benefits from sustainable use of marine resources	14.7.1 Income from sustainable fisheries
+	14. Life Below Water	14.7: Increase economic benefits from sustainable use of marine resources	14.7.1 Income from sustainable fisheries	5227
 	14. Life Below Water	14.A: Increase scientific knowledge, research & technology for ocean health	14.A.1 Research resources for marine technology	3858
-	14. Life Below Water	14.B: Support small scale fishers	14.B.1 Support small scale fishers
-	14. Life Below Water	14.C: Implement and enforce international sea law	14.C.1 Implementing international sea law	1350
+	14. Life Below Water	14.B: Support small scale fishers	14.B.1 Support small scale fishers	5295
+	14. Life Below Water	14.C: Implement and enforce international sea law	14.C.1 Ratification of international sea law	5268
+	14. Life Below Water	14.C: Implement and enforce international sea law	14.C.1 Implementing international sea law	5269
 	15. Life on Land	15.1: Conserve and restore terrestrial & freshwater ecosystems	15.1.1 Forest area	776
 	15. Life on Land	15.1: Conserve and restore terrestrial & freshwater ecosystems	15.1.2 Land area protected	1624
 	15. Life on Land	15.1: Conserve and restore terrestrial & freshwater ecosystems	15.1.2 Important terrestrial biodiversity sites protected	2087
@@ -293,18 +294,24 @@ graphers
 	15. Life on Land	15.6: Protect access to genetic resources	15.6.1 International Treaty on Plant Genetic Resources	2098
 	15. Life on Land	15.6: Protect access to genetic resources	15.6.1 Parties to Nagoya Protocol	2099
 	15. Life on Land	15.7: Eliminate poaching & trafficking of protected species	15.7.1 Wildlife poaching and trafficking
-	15. Life on Land	15.8: Prevent invasive alien species on land and in water ecosystems	15.8.1 Prevent invasive alien species
-	15. Life on Land	15.9: Integrate ecosystem and biodiversity in governmental planning	15.9.1 Integration of ecosystem and biodiversity in planning
+	15. Life on Land	15.8: Prevent invasive alien species on land and in water ecosystems	15.8.1 Prevent invasive alien species	5229
+	15. Life on Land	15.8: Prevent invasive alien species on land and in water ecosystems	15.8.1 Managing pathways to prevent invasive species	5228
+	15. Life on Land	15.9: Integrate ecosystem and biodiversity in governmental planning	15.9.1 Exceeding national biodiversity targets	5311
+	15. Life on Land	15.9: Integrate ecosystem and biodiversity in governmental planning	15.9.1 On track for national biodiversity targets	5310
+	15. Life on Land	15.9: Integrate ecosystem and biodiversity in governmental planning	15.9.1 Progressing toward national biodiversity targets	5309
+	15. Life on Land	15.9: Integrate ecosystem and biodiversity in governmental planning	15.9.1 No progress toward national biodiversity targets	5308
+	15. Life on Land	15.9: Integrate ecosystem and biodiversity in governmental planning	15.9.1 No national biodiversity targets	5307
 	15. Life on Land	15.A: Increase financial resources to conserve biodiversity	15.A.1 Development assistance for biodiversity by recipient	2100
 	15. Life on Land	15.A: Increase financial resources to conserve biodiversity	15.A.1 Development assistance for biodiversity by donor	2101
 	15. Life on Land	15.B: Finance and incentivize sustainable forest management	15.B.1 Development assistance for biodiversity by recipient	2100
 	15. Life on Land	15.B: Finance and incentivize sustainable forest management	15.B.1 Development assistance for biodiversity by donor	2101
 	15. Life on Land	15.C: Combat global poaching and trafficking	15.C.1 Poaching and trafficking wildlife
-	16. Peace, Justice and Strong Institutions	16.1: Reduce violence everywhere	16.1.1 Intentional homicides	2695
+	16. Peace, Justice and Strong Institutions	16.1: Reduce violence everywhere	16.1.1 Intentional homicides	1625
 	16. Peace, Justice and Strong Institutions	16.1: Reduce violence everywhere	16.1.2 Conflict-related deaths	1626
+	16. Peace, Justice and Strong Institutions	16.1: Reduce violence everywhere	16.1.2 Global conflict-related deaths	5270
 	16. Peace, Justice and Strong Institutions	16.1: Reduce violence everywhere	16.1.3 Prevalence of all forms of violence	2740
 	16. Peace, Justice and Strong Institutions	16.1: Reduce violence everywhere	16.1.4 Public safety	3860
-	16. Peace, Justice and Strong Institutions	16.2: Protect children from abuse, exploitation, trafficking & violence	16.2.1 Violence against children	1253
+	16. Peace, Justice and Strong Institutions	16.2: Protect children from abuse, exploitation, trafficking & violence	16.2.1 Violence against children	5290
 	16. Peace, Justice and Strong Institutions	16.2: Protect children from abuse, exploitation, trafficking & violence	16.2.2 Human trafficking, over-18s	2103
 	16. Peace, Justice and Strong Institutions	16.2: Protect children from abuse, exploitation, trafficking & violence	16.2.2 Human trafficking, under-18s	2102
 	16. Peace, Justice and Strong Institutions	16.2: Protect children from abuse, exploitation, trafficking & violence	16.2.3 Sexual violence against young women	2774
@@ -314,12 +321,13 @@ graphers
 	16. Peace, Justice and Strong Institutions	16.3: Promote the rule of law and ensure equal access to justice	16.3.1 Victim reports of crime	3861
 	16. Peace, Justice and Strong Institutions	16.3: Promote the rule of law and ensure equal access to justice	16.3.2 Unsentenced detainees	2104
 	16. Peace, Justice and Strong Institutions	16.4: Combat organized crime & illicit financial & arms flows	16.4.1 Illicit financial flows
-	16. Peace, Justice and Strong Institutions	16.4: Combat organized crime & illicit financial & arms flows	16.4.2 Seized or surrendered arms
+	16. Peace, Justice and Strong Institutions	16.4: Combat organized crime & illicit financial & arms flows	16.4.2 Seized or surrendered arms	5230
 	16. Peace, Justice and Strong Institutions	16.5: Substantially reduce corruption and bribery	16.5.1 Bribery prevalence	3862
 	16. Peace, Justice and Strong Institutions	16.5: Substantially reduce corruption and bribery	16.5.2 Bribery in business	2018
 	16. Peace, Justice and Strong Institutions	16.6: Develop effective, accountable & transparent institutions	16.6.1 Governmental expenditures within budgets	3863
 	16. Peace, Justice and Strong Institutions	16.6: Develop effective, accountable & transparent institutions	16.6.2 Satisfaction with public services
-	16. Peace, Justice and Strong Institutions	16.7: Ensure responsive, inclusive & representative decision-making	16.7.1 Representation in public institutions
+	16. Peace, Justice and Strong Institutions	16.7: Ensure responsive, inclusive & representative decision-making	16.7.1 Representation in lower chamber of parliament	5302
+	16. Peace, Justice and Strong Institutions	16.7: Ensure responsive, inclusive & representative decision-making	16.7.1 Representation in upper chamber of parliament	5303
 	16. Peace, Justice and Strong Institutions	16.7: Ensure responsive, inclusive & representative decision-making	16.7.2 Inclusive decision-making
 	16. Peace, Justice and Strong Institutions	16.8: Strengthen the participation in global governance	16.8.1 Share in international organizations	2070
 	16. Peace, Justice and Strong Institutions	16.8: Strengthen the participation in global governance	16.8.1 Share of voting rights in international organizations	2069
@@ -327,16 +335,17 @@ graphers
 	16. Peace, Justice and Strong Institutions	16.10: Ensure public access to information & protect fundamental freedoms	16.10.1 Journalist and media killings	2106
 	16. Peace, Justice and Strong Institutions	16.10: Ensure public access to information & protect fundamental freedoms	16.10.2 Public access to information	2105
 	16. Peace, Justice and Strong Institutions	16.A: Strengthen national institutions to prevent violence and combat crime and terrorism	16.A.1 National human rights institutions	2108
-	16. Peace, Justice and Strong Institutions	16.B: Promote & enforce non-discriminatory laws & policies	16.B.1 Public discrimination
+	16. Peace, Justice and Strong Institutions	16.A: Strengthen national institutions to prevent violence and combat crime and terrorism	16.A.1 Accreditation of national human rights institutions	2107
+	16. Peace, Justice and Strong Institutions	16.B: Promote & enforce non-discriminatory laws & policies	16.B.1 Public discrimination	5301
 	17. Partnership for the Goals	17.1: Mobilize resources to improve domestic revenue collection	17.1.1 Government revenue	1666
 	17. Partnership for the Goals	17.1: Mobilize resources to improve domestic revenue collection	17.1.2 Domestic taxes	1665
 	17. Partnership for the Goals	17.2: Implement all development assistance commitments	17.2.1 Assistance to least-developed countries	2110
 	17. Partnership for the Goals	17.3: Mobilize financial resources for developing countries	17.3.1 Foreign direct investment	2020
 	17. Partnership for the Goals	17.3: Mobilize financial resources for developing countries	17.3.2 Volume of remittances	2019
 	17. Partnership for the Goals	17.4: Assist developing countries in attaining debt sustainability	17.4.1 Debt service	2021
-	17. Partnership for the Goals	17.5: Invest in least-developed countries	17.5.1 Investment promotion for least-developed countries
-	17. Partnership for the Goals	17.6: Knowledge sharing & cooperation for science, technology and innovation	17.6.1 Science and technology cooperation
-	17. Partnership for the Goals	17.6: Knowledge sharing & cooperation for science, technology and innovation	17.6.2 Fixed broadband subscriptions	1627
+	17. Partnership for the Goals	17.5: Invest in least-developed countries	17.5.1 Signed bilateral investment treaty	5231
+	17. Partnership for the Goals	17.5: Invest in least-developed countries	17.5.1 Inforce bilateral investment treaty	5232
+	17. Partnership for the Goals	17.6: Knowledge sharing & cooperation for science, technology and innovation	17.6.1 Fixed broadband subscriptions	1627
 	17. Partnership for the Goals	17.7: Promote sustainable technologies to developing countries	17.7.1 Sustainable technologies in developing countries
 	17. Partnership for the Goals	17.8: Strengthen science, technology & innovation capacity for least-developed countries	17.8.1 Individuals using the Internet	755
 	17. Partnership for the Goals	17.9: Enhanced SDG capacity in developing countries	17.9.1 SDG support for developing countries	2015
@@ -344,10 +353,10 @@ graphers
 	17. Partnership for the Goals	17.11: Increase the exports of developing countries	17.11.1 Exports from developing countries	2023
 	17. Partnership for the Goals	17.12: Remove trade barriers for least-developed countries	17.12.1 Tariffs for developing countries	2024
 	17. Partnership for the Goals	17.13: Enhance global macroeconomic stability	17.13.1 Macroeconomic Dashboard
-	17. Partnership for the Goals	17.14: Enhance policy coherence for sustainable development	17.14.1 Policy for sustainable development
+	17. Partnership for the Goals	17.14: Enhance policy coherence for sustainable development	17.14.1 Policy for sustainable development	5233
 	17. Partnership for the Goals	17.15: Respect national leadership to implement policies for the sustainable development goals	17.15.1 National results frameworks	2113
 	17. Partnership for the Goals	17.16: Enhance the global partnership for sustainable development	17.16.1 Progress in multistakeholder development	2114
-	17. Partnership for the Goals	17.17: Encourage effective partnerships	17.17.1 Public, private and civil society partnerships
+	17. Partnership for the Goals	17.17: Encourage effective partnerships	17.17.1 Public, private and civil society partnerships	5234
 	17. Partnership for the Goals	17.18: Enhance availability of reliable data	17.18.1 Statistical Capacity	1904
 	17. Partnership for the Goals	17.18: Enhance availability of reliable data	17.18.2 National statistical legislation	3864
 	17. Partnership for the Goals	17.18: Enhance availability of reliable data	17.18.3 National statistical plans	2115
