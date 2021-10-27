@@ -1,0 +1,91 @@
+explorerTitle	Global Food Explorer (Prototype)								
+explorerSubtitle									
+selection	United States	Germany	France						
+graphers									
+	title	Food Dropdown	Metric Dropdown	Unit Radio	Per Capita Checkbox	type	ySlugs	tableSlug	hasMapTab
+	Apple Production	Apples	Production	Kilograms	false	LineChart	production_kg	apples	true
+	Apple Yield	Apples	Yield	Kilograms	false	LineChart	yield_kg	apples	true
+	Apple Land Use	Apples	Land Use	Hectares	false	LineChart	land_use_ha	apples	true
+	Apple Imports	Apples	Imports	Kilograms	false	LineChart	imports_kg	apples	true
+	Apple Exports	Apples	Exports	Kilograms	false	LineChart	exports_kg	apples	true
+	Apple Domestic supply (after trade)	Apples	Domestic supply (after trade)	Kilograms	false	LineChart	domestic_supply_kg	apples	true
+	Apple Food	Apples	Food	Kilograms	false	LineChart	food_kg	apples	true
+	Apple Feed	Apples	Feed	Kilograms	false	LineChart	animal_feed_kg	apples	true
+	Apple Other uses	Apples	Other uses	Kilograms	false	LineChart	other_areas_kg	apples	true
+	Apple Waste	Apples	Waste	Kilograms	false	LineChart	waste_kg	apples	true
+	Apple Food available for consumption	Apples	Food available for consumption	Kilograms	false	LineChart	food_supply_kg	apples	true
+	Apple Food available for consumption	Apples	Food available for consumption	Kilograms	true	LineChart	food_supply_kg_per_capita	apples	true
+	Apple Food available for consumption	Apples	Food available for consumption	Kilocalories	false	LineChart	food_supply_kcal	apples	true
+	Apple Food available for consumption	Apples	Food available for consumption	Kilocalories	true	LineChart	food_supply_kcal_per_capita	apples	true
+	Apple Food available for consumption	Apples	Food available for consumption	Protein	false	LineChart	food_supply_protein	apples	true
+	Apple Food available for consumption	Apples	Food available for consumption	Protein	true	LineChart	food_supply_protein_per_capita	apples	true
+	Apple Food available for consumption	Apples	Food available for consumption	Fat	false	LineChart	food_supply_fat	apples	true
+	Apple Food available for consumption	Apples	Food available for consumption	Fat	true	LineChart	food_supply_fat_per_capita	apples	true
+	Banana Production	Bananas	Production	Kilograms	false	LineChart	production_kg	bananas	true
+	Banana Yield	Bananas	Yield	Kilograms	false	LineChart	yield_kg	bananas	true
+	Banana Land Use	Bananas	Land Use	Hectares	false	LineChart	land_use_ha	bananas	true
+	Banana Imports	Bananas	Imports	Kilograms	false	LineChart	imports_kg	bananas	true
+	Banana Exports	Bananas	Exports	Kilograms	false	LineChart	exports_kg	bananas	true
+	Banana Domestic supply (after trade)	Bananas	Domestic supply (after trade)	Kilograms	false	LineChart	domestic_supply_kg	bananas	true
+	Banana Food	Bananas	Food	Kilograms	false	LineChart	food_kg	bananas	true
+	Banana Feed	Bananas	Feed	Kilograms	false	LineChart	animal_feed_kg	bananas	true
+	Banana Other uses	Bananas	Other uses	Kilograms	false	LineChart	other_areas_kg	bananas	true
+	Banana Waste	Bananas	Waste	Kilograms	false	LineChart	waste_kg	bananas	true
+	Banana Food available for consumption	Bananas	Food available for consumption	Kilograms	false	LineChart	food_supply_kg	bananas	true
+	Banana Food available for consumption	Bananas	Food available for consumption	Kilograms	true	LineChart	food_supply_kg_per_capita	bananas	true
+	Banana Food available for consumption	Bananas	Food available for consumption	Kilocalories	false	LineChart	food_supply_kcal	bananas	true
+	Banana Food available for consumption	Bananas	Food available for consumption	Kilocalories	true	LineChart	food_supply_kcal_per_capita	bananas	true
+	Banana Food available for consumption	Bananas	Food available for consumption	Protein	false	LineChart	food_supply_protein	bananas	true
+	Banana Food available for consumption	Bananas	Food available for consumption	Protein	true	LineChart	food_supply_protein_per_capita	bananas	true
+	Banana Food available for consumption	Bananas	Food available for consumption	Fat	false	LineChart	food_supply_fat	bananas	true
+	Banana Food available for consumption	Bananas	Food available for consumption	Fat	true	LineChart	food_supply_fat_per_capita	bananas	true
+									
+									
+									
+table	https://gist.githubusercontent.com/MarcelGerber/7011dc7aa5fee1e77a3a7ca2fbc30b37/raw/f7f9035289fc956a3c79488209149b463b21827c/apples.csv	apples							
+columns	apples								
+	slug	name	type						
+	entity_name	Country	EntityName						
+	year	Year	Year						
+	production_kg	Production	Numeric						
+	yield_kg	Yield	Numeric						
+	land_use_ha	Land Use	Numeric						
+	imports_kg	Imports	Numeric						
+	exports_kg	Exports	Numeric						
+	domestic_supply_kg	Domestic supply	Numeric						
+	food_kg	Food	Numeric						
+	animal_feed_kg	Animal feed	Numeric						
+	other_areas_kg	Other areas	Numeric						
+	waste_kg	Waste	Numeric						
+	food_supply_kg	Food supply (kg)	Numeric						
+	food_supply_kcal	Food supply (kcal)	Numeric						
+	food_supply_protein	Food supply (Proteins)	Numeric						
+	food_supply_fat	Food supply (Fat)	Numeric						
+	food_supply_kg_per_capita	Food supply (kg) per capita	Numeric						
+	food_supply_kcal_per_capita	Food supply (kcal) per capita	Numeric						
+	food_supply_protein_per_capita	Food supply (Proteins) per capita	Numeric						
+	food_supply_fat_per_capita	Food supply (Fat) per capita	Numeric						
+									
+table	https://gist.githubusercontent.com/MarcelGerber/7011dc7aa5fee1e77a3a7ca2fbc30b37/raw/f7f9035289fc956a3c79488209149b463b21827c/bananas.csv	bananas							
+columns	bananas								
+	slug	name	type						
+	entity_name	Country	EntityName						
+	year	Year	Year						
+	production_kg	Production	Numeric						
+	yield_kg	Yield	Numeric						
+	land_use_ha	Land Use	Numeric						
+	imports_kg	Imports	Numeric						
+	exports_kg	Exports	Numeric						
+	domestic_supply_kg	Domestic supply	Numeric						
+	food_kg	Food	Numeric						
+	animal_feed_kg	Animal feed	Numeric						
+	other_areas_kg	Other areas	Numeric						
+	waste_kg	Waste	Numeric						
+	food_supply_kg	Food supply (kg)	Numeric						
+	food_supply_kcal	Food supply (kcal)	Numeric						
+	food_supply_protein	Food supply (Proteins)	Numeric						
+	food_supply_fat	Food supply (Fat)	Numeric						
+	food_supply_kg_per_capita	Food supply (kg) per capita	Numeric						
+	food_supply_kcal_per_capita	Food supply (kcal) per capita	Numeric						
+	food_supply_protein_per_capita	Food supply (Proteins) per capita	Numeric						
+	food_supply_fat_per_capita	Food supply (Fat) per capita	Numeric						
