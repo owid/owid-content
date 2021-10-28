@@ -42,10 +42,11 @@ graphers
 									
 									
 									
-table	https://gist.githubusercontent.com/MarcelGerber/7011dc7aa5fee1e77a3a7ca2fbc30b37/raw/f7f9035289fc956a3c79488209149b463b21827c/apples.csv	apples							
+table	https://gist.githubusercontent.com/MarcelGerber/7011dc7aa5fee1e77a3a7ca2fbc30b37/raw/0db95a0369a058b3df1d8960084fb6dfc77d3b8e/apples.csv	apples							
 columns	apples								
-	slug	name	type						
+	slug	name	type	transform					
 	entity_name	Country	EntityName						
+	population	Population	Population						
 	year	Year	Year						
 	production_kg	Production	Numeric						
 	yield_kg	Yield	Numeric						
@@ -61,15 +62,16 @@ columns	apples
 	food_supply_kcal	Food supply (kcal)	Numeric						
 	food_supply_protein	Food supply (Proteins)	Numeric						
 	food_supply_fat	Food supply (Fat)	Numeric						
-	food_supply_kg_per_capita	Food supply (kg) per capita	Numeric						
-	food_supply_kcal_per_capita	Food supply (kcal) per capita	Numeric						
-	food_supply_protein_per_capita	Food supply (Proteins) per capita	Numeric						
-	food_supply_fat_per_capita	Food supply (Fat) per capita	Numeric						
+	food_supply_kg_per_capita	Food supply (kg) per capita	Numeric	divideBy food_supply_kg population					
+	food_supply_kcal_per_capita	Food supply (kcal) per capita	Numeric	divideBy food_supply_kcal population					
+	food_supply_protein_per_capita	Food supply (Proteins) per capita	Numeric	divideBy food_supply_protein population					
+	food_supply_fat_per_capita	Food supply (Fat) per capita	Numeric	divideBy food_supply_fat population					
 									
-table	https://gist.githubusercontent.com/MarcelGerber/7011dc7aa5fee1e77a3a7ca2fbc30b37/raw/f7f9035289fc956a3c79488209149b463b21827c/bananas.csv	bananas							
+table	https://gist.githubusercontent.com/MarcelGerber/7011dc7aa5fee1e77a3a7ca2fbc30b37/raw/0db95a0369a058b3df1d8960084fb6dfc77d3b8e/bananas.csv	bananas							
 columns	bananas								
-	slug	name	type						
+	slug	name	type	transform					
 	entity_name	Country	EntityName						
+	population	Population	Population						
 	year	Year	Year						
 	production_kg	Production	Numeric						
 	yield_kg	Yield	Numeric						
@@ -85,7 +87,7 @@ columns	bananas
 	food_supply_kcal	Food supply (kcal)	Numeric						
 	food_supply_protein	Food supply (Proteins)	Numeric						
 	food_supply_fat	Food supply (Fat)	Numeric						
-	food_supply_kg_per_capita	Food supply (kg) per capita	Numeric						
-	food_supply_kcal_per_capita	Food supply (kcal) per capita	Numeric						
-	food_supply_protein_per_capita	Food supply (Proteins) per capita	Numeric						
-	food_supply_fat_per_capita	Food supply (Fat) per capita	Numeric						
+	food_supply_kg_per_capita	Food supply (kg) per capita	Numeric	divideBy food_supply_kg population					
+	food_supply_kcal_per_capita	Food supply (kcal) per capita	Numeric	divideBy food_supply_kcal population					
+	food_supply_protein_per_capita	Food supply (Proteins) per capita	Numeric	divideBy food_supply_protein population					
+	food_supply_fat_per_capita	Food supply (Fat) per capita	Numeric	divideBy food_supply_fat population					
