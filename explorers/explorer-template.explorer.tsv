@@ -1,6 +1,6 @@
 explorerTitle	My New Explorer
 explorerSubtitle	This is the subtitle
-selection	Canada~India
+selection	Canada	India
 graphers
 	title	ySlugs	subtitle	Statistic Radio	type
 	Population of different countries	Population	How many people live in each country?	Population	DiscreteBar

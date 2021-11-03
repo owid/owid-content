@@ -1,0 +1,31 @@
+explorerTitle	scatter faceting
+isPublished	false
+selection
+explorerSubtitle	Download the complete <em>Our World in Data</em> <a href="https://github.com/owid/covid-19-data/tree/master/public/data" target="_blank" rel="noopener noreferrer">COVID-19 dataset.</a>
+hideAlertBanner	true
+subNavId	coronavirus
+subNavCurrentId	data-explorer
+wpBlockId	43869
+hasMapTab	true
+yAxisMin	0
+downloadDataLink
+thumbnail
+pickerColumnSlugs
+
+graphers
+	title	subtitle	View Dropdown	ySlugs	yScaleToggle	xSlug	colorSlug	type	tableSlug	hideTitleAnnotation	hasMapTab	sortBy	sortColumnSlug	hideTotalValueLabel	facet	selectedFacetStrategy
+	Access to electricity			access_to_electricity access_to_clean_water access_to_electricity access_to_clean_water access_to_electricity access_to_clean_water access_to_electricity access_to_clean_water		gdp_per_capita		ScatterPlot	electricity						metric	metric
+
+
+
+
+
+
+table	https://docs.google.com/spreadsheets/d/1TXTCG2WDb1IuAXcMAoEe07XCY6ZdvitbJ-EbHQRhOW0/export?format=csv	electricity
+columns	electricity
+	slug	name	type	transform	annotationsColumnSlug	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo	tolerance	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleLegendDescription	colorScaleNoDataLabel	colorScaleEqualSizeBins	colorScaleScheme	colorScaleInvert	colorScaleCategoricalBins
+	entity	Country name	EntityName
+	year	Year	Year
+	access_to_electricity	Access to electricity	Percentage
+	gdp_per_capita	GDP per capita	Numeric
+	access_to_clean_water	Access to clean water	Percentage
