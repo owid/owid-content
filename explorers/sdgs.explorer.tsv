@@ -23,7 +23,6 @@ graphers
 	1. No Poverty	1.a: Mobilisation of resources to end poverty	1.A.1 Domestic resources to poverty reduction
 	1. No Poverty	1.a: Mobilisation of resources to end poverty	1.A.2 Government spending on health	1915
 	1. No Poverty	1.a: Mobilisation of resources to end poverty	1.A.2 Government spending on education	1917
-	1. No Poverty	1.a: Mobilisation of resources to end poverty	1.A.3 Inflows allocated to poverty reduction
 	2. Zero Hunger	2.1: Universal access to safe and nutritious food	2.1.1 Prevalence of undernourishment	311
 	2. Zero Hunger	2.1: Universal access to safe and nutritious food	2.1.2 Prevalence of food insecurity	1941
 	2. Zero Hunger	2.2: End all forms of malnutrition	2.2.1 Prevalence of childhood stunting	703
@@ -141,16 +140,15 @@ graphers
 	8. Decent Work and Economic Growth	8.7: End modern slavery, trafficking, and child labour	8.7.1 Child labour by sex	2775
 	8. Decent Work and Economic Growth	8.8: Protect labour rights & promote safe working environments	 8.8.1 Non-fatal occupational injuries	2053
 	8. Decent Work and Economic Growth	8.8: Protect labour rights & promote safe working environments	 8.8.1 Fatal occupational injuries	2054
-	8. Decent Work and Economic Growth	8.8: Protect labour rights & promote safe working environments	8.8.2 Compliance of labour rights
-	8. Decent Work and Economic Growth	8.9: Promote beneficial & sustainable tourism	8.9.1 Tourism contribution to GDP
-	8. Decent Work and Economic Growth	8.9: Promote beneficial & sustainable tourism	8.9.2 Sustainable tourism jobs
+	8. Decent Work and Economic Growth	8.8: Protect labour rights & promote safe working environments	8.8.2 Compliance of labour rights	5201
+	8. Decent Work and Economic Growth	8.9: Promote beneficial & sustainable tourism	8.9.1 Tourism contribution to GDP	5202
 	8. Decent Work and Economic Growth	8.10: Universal access to banking, insurance & financial services	8.10.1 Commercial bank branches	1668
 	8. Decent Work and Economic Growth	8.10: Universal access to banking, insurance & financial services	8.10.1 Automated teller machines (ATMs)	1669
 	8. Decent Work and Economic Growth	8.10: Universal access to banking, insurance & financial services	8.10.2 Population with financial account	1802
 	8. Decent Work and Economic Growth	8.A: Increase aid for trade support	8.A.1 Aid for trade, by recipient	2055
 	8. Decent Work and Economic Growth	8.A: Increase aid for trade support	8.A.1 Aid for trade, by donor	2056
-	8. Decent Work and Economic Growth	8.B: Develop a global youth employment strategy	8.B.1 Youth employment strategy
-	9. Industry, Innovation and Infrastructure	9.1: Develop sustainable, resilient and inclusive infrastructures	9.1.1 Road access for rural populations
+	8. Decent Work and Economic Growth	8.B: Develop a global youth employment strategy	8.B.1 Youth employment strategy	5203
+	9. Industry, Innovation and Infrastructure	9.1: Develop sustainable, resilient and inclusive infrastructures	9.1.1 Road access for rural populations	5204
 	9. Industry, Innovation and Infrastructure	9.1: Develop sustainable, resilient and inclusive infrastructures	9.1.2 Air transport passengers	1111
 	9. Industry, Innovation and Infrastructure	9.1: Develop sustainable, resilient and inclusive infrastructures	9.1.2 Railway passengers	2012
 	9. Industry, Innovation and Infrastructure	9.1: Develop sustainable, resilient and inclusive infrastructures	9.1.2 Air transport freight	2013
