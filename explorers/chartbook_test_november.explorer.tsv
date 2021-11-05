@@ -8,8 +8,8 @@ graphers
 	Inequality in Finland	Overall_Income_Inequality Top_Income_Share Poverty_Rate Dispersion_of_Earnings Wealth_Inequality	Test chart for Finland	LineChart	Finland
 
 
-		Finland
-table	https://docs.google.com/spreadsheets/d/e/2PACX-1vQG54TIPbTzz5SNd9wC0vI_FkOmKaWgF6RmlgW9GkhZCRMuc97R7C-8EjNZp1Nhzt5Dzf0D7Fqz9Ckj/pub?gid=1888817985&single=true&output=csv
+
+table	https://docs.google.com/spreadsheets/d/e/2PACX-1vQG54TIPbTzz5SNd9wC0vI_FkOmKaWgF6RmlgW9GkhZCRMuc97R7C-8EjNZp1Nhzt5Dzf0D7Fqz9Ckj/pubhtml?gid=1888817985&single=true	Finland
 columns	Finland
 	slug	type	name
 	legend	EntityName	Series
