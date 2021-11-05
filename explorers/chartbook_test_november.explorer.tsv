@@ -4,29 +4,29 @@ explorerTitle	Chartbook of Economic Inequality
 isPublished	false
 entityType	Measure
 hideControls	false
-table	https://docs.google.com/spreadsheets/d/1LKjYmgcdPDxgEQ7oRx1KZg5TZMWizg1Bkuv4YtrLR74/export?format=csv	Finland_table
+
 table	https://docs.google.com/spreadsheets/d/1LKjYmgcdPDxgEQ7oRx1KZg5TZMWizg1Bkuv4YtrLR74/export?format=csv	Germany_table
 
 
 graphers
-	Country Dropdown	type	ySlugs	title	facet	tableSlug
-	Finland	LineChart	Overall_Income_Inequality Top_Income_Share Poverty_Rate Dispersion_of_Earnings Wealth_Inequality	Inequality in Finland	entity	Finland_table
-	Germany	LineChart	Overall_Income_Inequality Top_Income_Share Poverty_Rate Dispersion_of_Earnings Wealth_Inequality	Inequality in Finland	entity	Germany_table
+	Country Dropdown	type	ySlugs	title
+	Germany	LineChart	Overall_Income_Inequality Top_Income_Share Poverty_Rate Dispersion_of_Earnings Wealth_Inequality	Inequality in Germany
 
 
 
 
-columns	Finland_table
-	slug	name	type
-	legend	Measure	EntityName
-	year	Year	Year
-	Overall_Income_Inequality	Overall Inequality	Numeric
-	Top_Income_Share	Top Income Shares	Numeric
-	Poverty_Rate	Poverty	Numeric
-	Dispersion_of_Earnings	Dispersion of Earnings	Numeric
-	Wealth_Inequality	Wealth Inequality	Numeric
 
-columns	Germany_table
+
+
+
+
+
+
+
+
+
+
+columns
 	slug	name	type
 	legend	Measure	EntityName
 	year	Year	Year
