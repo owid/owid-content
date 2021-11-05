@@ -7,7 +7,7 @@ table	https://raw.githubusercontent.com/JoeHasell/Chartbook_test/main/Germany_te
 graphers
 	title	ySlugs	Series Dropdown	type	tableSlug
 	Inequality in Finland	Overall_Income_Inequality Top_Income_Share Poverty_Rate Dispersion_of_Earnings Wealth_Inequality	Finland	LineChart	Finland_table
-	Inequality in Germany	Overall_Income_Inequality Top_Income_Share Poverty_Rate Dispersion_of_Earnings Wealth_Inequality	Germany	LineChart	Germany_table
+	Inequality in Germany	Overall_Income_Inequality2 Top_Income_Share2 Poverty_Rate2 Dispersion_of_Earnings2 Wealth_Inequality2	Germany	LineChart	Germany_table
 
 columns	Finland_table
 	slug	type	name
@@ -23,8 +23,8 @@ columns	Germany_table
 	slug	type	name
 	Series_name	EntityName	Series
 	Year	Year	Year
-	Overall_Income_Inequality	Numeric	Overall Income Inequality
-	Top_Income_Share	Numeric	Top Income Shares
-	Poverty_Rate	Numeric	Poverty
-	Dispersion_of_Earnings	Numeric	Dispersion of Earnings
-	Wealth_Inequality	Numeric	Wealth Inequality
+	Overall_Income_Inequality2	Numeric	Overall Income Inequality
+	Top_Income_Share2	Numeric	Top Income Shares
+	Poverty_Rate2	Numeric	Poverty
+	Dispersion_of_Earnings2	Numeric	Dispersion of Earnings
+	Wealth_Inequality2	Numeric	Wealth Inequality
