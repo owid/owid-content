@@ -23,7 +23,6 @@ graphers
 	1. No Poverty	1.a: Mobilisation of resources to end poverty	1.A.1 Domestic resources to poverty reduction
 	1. No Poverty	1.a: Mobilisation of resources to end poverty	1.A.2 Government spending on health	1915
 	1. No Poverty	1.a: Mobilisation of resources to end poverty	1.A.2 Government spending on education	1917
-	1. No Poverty	1.a: Mobilisation of resources to end poverty	1.A.3 Inflows allocated to poverty reduction
 	2. Zero Hunger	2.1: Universal access to safe and nutritious food	2.1.1 Prevalence of undernourishment	311
 	2. Zero Hunger	2.1: Universal access to safe and nutritious food	2.1.2 Prevalence of food insecurity	1941
 	2. Zero Hunger	2.2: End all forms of malnutrition	2.2.1 Prevalence of childhood stunting	703
@@ -143,7 +142,6 @@ graphers
 	8. Decent Work and Economic Growth	8.8: Protect labour rights & promote safe working environments	 8.8.1 Fatal occupational injuries	2054
 	8. Decent Work and Economic Growth	8.8: Protect labour rights & promote safe working environments	8.8.2 Compliance of labour rights
 	8. Decent Work and Economic Growth	8.9: Promote beneficial & sustainable tourism	8.9.1 Tourism contribution to GDP
-	8. Decent Work and Economic Growth	8.9: Promote beneficial & sustainable tourism	8.9.2 Sustainable tourism jobs
 	8. Decent Work and Economic Growth	8.10: Universal access to banking, insurance & financial services	8.10.1 Commercial bank branches	1668
 	8. Decent Work and Economic Growth	8.10: Universal access to banking, insurance & financial services	8.10.1 Automated teller machines (ATMs)	1669
 	8. Decent Work and Economic Growth	8.10: Universal access to banking, insurance & financial services	8.10.2 Population with financial account	1802
@@ -173,7 +171,9 @@ graphers
 	10. Reduced Inequalities	10.6: Enhanced representation for developing countries in financial institutions	10.6.1 Share in international organizations	2070
 	10. Reduced Inequalities	10.6: Enhanced representation for developing countries in financial institutions	10.6.1 Share of voting rights in international organizations	2069
 	10. Reduced Inequalities	10.7: Responsible and well-managed migration policies	10.7.1 Migration recruitment costs
-	10. Reduced Inequalities	10.7: Responsible and well-managed migration policies	10.7.2 Well-planned migration policies
+	10. Reduced Inequalities	10.7: Responsible and well-managed migration policies	10.7.2 Migration recruitment costs	5205
+	10. Reduced Inequalities	10.7: Responsible and well-managed migration policies	10.7.3 Safe migration	5367
+	10. Reduced Inequalities	10.7: Responsible and well-managed migration policies	10.7.4 Refugee population	5368
 	10. Reduced Inequalities	10.A: Special and differential treatment for developing countries	10.A.1 Differential tariffs for least developed countries	2116
 	10. Reduced Inequalities	10.B: Encourage development assistance in least developed countries	10.B.1 Development assistance received	2071
 	10. Reduced Inequalities	10.B: Encourage development assistance in least developed countries	10.B.1 Development assistance given	2072
@@ -217,7 +217,6 @@ graphers
 	13. Climate Action	13.1: Strengthen resilience and adaptive capacity to climate-related disasters	13.1.3 Local disaster risk management	3852
 	13. Climate Action	13.2: Integrate climate change measures into policy and planning	13.2.1 Integration of climate change into national policies	1350
 	13. Climate Action	13.3: Build knowledge and capacity to meet climate change	13.3.1 Education on climate change
-	13. Climate Action	13.3: Build knowledge and capacity to meet climate change	13.3.2 Capacity-building for climate change
 	13. Climate Action	13.A: Implement theUN Framework Convention on Climate Change	13.A.1 Green Climate Fund mobilization of $100 billion	2759
 	13. Climate Action	13.B: Promote mechanisms to raise capacity for planning & management	13.B.1 Support for planning & management in least-developed countries
 	14. Life Below Water	14.1: Reduce marine pollution	14.1.1 Reduce marine pollution

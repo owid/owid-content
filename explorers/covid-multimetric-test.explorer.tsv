@@ -1,8 +1,0 @@
-explorerTitle	Covid multimetric explorer from grapher charts
-isPublished	false
-selection	United States	Australia	Italy	Canada	Germany	United Kingdom	France
-graphers
-	grapherId	Metric Dropdown	Interval Dropdown	Relative to Population Checkbox	Align outbreaks Checkbox	type
-	4551	Stringency Index				LineChart
-	4257	Cases	7-day average	true	false
-	4048	Cases and deaths	cumulative	true	false
