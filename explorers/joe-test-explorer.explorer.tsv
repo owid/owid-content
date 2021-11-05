@@ -6,8 +6,8 @@ table	https://raw.githubusercontent.com/JoeHasell/Chartbook_test/main/Finland_te
 
 graphers
 	title	ySlugs	subtitle	Series Dropdown	type	tableSlug
-	Sources for series	Chartbook_value Source_value	How many people live in each country?	Series 1	LineChart	table1
-
+	Sources for series 1	Chartbook_value Source_value	How many people live in each country?	Series 1	LineChart	table1
+	Sources for series 2	Chartbook_value Source_value	How many people live in each country?	Series 2	LineChart	table2
 
 
 
