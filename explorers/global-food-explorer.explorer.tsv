@@ -40,35 +40,9 @@ graphers
 	Banana consumption in units of fat	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	Bananas	Food available for consumption	Fat	false	LineChart	food_supply_fat	bananas	true
 	Per capita fat consumption from bananas	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	Bananas	Food available for consumption	Fat	true	LineChart	food_supply_fat_per_capita	bananas	true
 
-
-
 table	https://gist.githubusercontent.com/MarcelGerber/7011dc7aa5fee1e77a3a7ca2fbc30b37/raw/b3d151199b9f406622e146fa625f19b333d89923/apples.csv	apples
-columns	apples
-	slug	name	type	transform	shortUnit
-	entity_name	Country	EntityName
-	year	Year	Year
-	population	Population	Population
-	production_kg	Production	Numeric		kg
-	yield_kg	Yield	Numeric		kg
-	land_use_ha	Land Use	Numeric		ha
-	imports_kg	Imports	Numeric		kg
-	exports_kg	Exports	Numeric		kg
-	domestic_supply_kg	Domestic supply	Numeric		kg
-	food_kg	Food	Numeric		kg
-	animal_feed_kg	Animal feed	Numeric		kg
-	other_areas_kg	Other areas	Numeric		kg
-	waste_kg	Waste	Numeric		kg
-	food_supply_kg	Food supply (kg)	Numeric		kg
-	food_supply_kcal	Food supply (kcal)	Numeric		kcal
-	food_supply_protein	Food supply (Proteins)	Numeric		kg
-	food_supply_fat	Food supply (Fat)	Numeric		kg
-	food_supply_kg_per_capita	Food supply (kg) per capita	Numeric	divideBy food_supply_kg population	kg
-	food_supply_kcal_per_capita	Food supply (kcal) per capita	Numeric	divideBy food_supply_kcal population	kcal
-	food_supply_protein_per_capita	Food supply (Proteins) per capita	Numeric	divideBy food_supply_protein population	kg
-	food_supply_fat_per_capita	Food supply (Fat) per capita	Numeric	divideBy food_supply_fat population	kg
-
 table	https://gist.githubusercontent.com/MarcelGerber/7011dc7aa5fee1e77a3a7ca2fbc30b37/raw/b3d151199b9f406622e146fa625f19b333d89923/bananas.csv	bananas
-columns	bananas
+columns	apples	bananas
 	slug	name	type	transform	shortUnit
 	entity_name	Country	EntityName
 	year	Year	Year
