@@ -1,11 +1,11 @@
 explorerTitle	My New Explorer
 explorerSubtitle	This is the subtitle
 selection	Canada	India
-table	https://raw.githubusercontent.com/JoeHasell/Chartbook_test/main/Finland_test.csv
+table	https://raw.githubusercontent.com/JoeHasell/Chartbook_test/main/Finland_test.csv	table1
 
 graphers
-	title	ySlugs	subtitle	Statistic Radio	type
-	Sources for series	Chartbook_value Source_value	How many people live in each country?	Population	LineChart
+	title	ySlugs	subtitle	Statistic Radio	type	tableSlug
+	Sources for series	Chartbook_value Source_value	How many people live in each country?	Population	LineChart	table1
 
 
 
@@ -24,7 +24,7 @@ graphers
 
 
 
-columns
+columns	table1
 	slug	type	name
 	Country	EntityName	Country
 	Chartbook_value	Numeric	Chartbook series
