@@ -7,9 +7,9 @@ explorerSubtitle	How much work does Boring Company have to do
 entityType	Measure
 hideControls	false
 graphers
-	Country Dropdown	type	ySlugs	title	facet
-	Finland	LineChart	Overall_Income_Inequality Top_Income_Share Poverty_Rate Dispersion_of_Earnings Wealth_Inequality	Inequality in Finland	entity
-
+	Country Dropdown	type	ySlugs	title	facet	tableSlug
+	Finland	LineChart	Overall_Income_Inequality Top_Income_Share Poverty_Rate Dispersion_of_Earnings Wealth_Inequality	Inequality in Finland	entity	Finland_table
+	Germany	LineChart	Overall_Income_Inequality Top_Income_Share Poverty_Rate Dispersion_of_Earnings Wealth_Inequality	Inequality in Finland	entity	Germany_table
 
 
 
@@ -23,4 +23,6 @@ columns
 	Dispersion_of_Earnings	Dispersion of Earnings	Numeric
 	Wealth_Inequality	Wealth Inequality	Numeric
 
-table	https://docs.google.com/spreadsheets/d/1LKjYmgcdPDxgEQ7oRx1KZg5TZMWizg1Bkuv4YtrLR74/export?format=csv
+table	https://docs.google.com/spreadsheets/d/1LKjYmgcdPDxgEQ7oRx1KZg5TZMWizg1Bkuv4YtrLR74/export?format=csv	Finland_table
+
+table	https://docs.google.com/spreadsheets/d/1FgVG9RsGXPE_1kIyRO6CHENdrR6kHE2Do0glIA4Ambw/export?format=csv	Germany_table
