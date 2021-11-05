@@ -47,6 +47,7 @@ columns	apples
 	slug	name	type	transform	shortUnit
 	entity_name	Country	EntityName
 	year	Year	Year
+	population	Population	Population
 	production_kg	Production	Numeric		kg
 	yield_kg	Yield	Numeric		kg
 	land_use_ha	Land Use	Numeric		ha
@@ -71,6 +72,7 @@ columns	bananas
 	slug	name	type	transform	shortUnit
 	entity_name	Country	EntityName
 	year	Year	Year
+	population	Population	Population
 	production_kg	Production	Numeric		kg
 	yield_kg	Yield	Numeric		kg
 	land_use_ha	Land Use	Numeric		ha
