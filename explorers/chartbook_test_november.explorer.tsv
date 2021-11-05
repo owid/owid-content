@@ -5,7 +5,7 @@ hideControls	true
 graphers
 	title	ySlugs	subtitle	type	tableSlug
 
-	Inequality in Finland	Overall_Income_Inequality Top_Income_Share Poverty_Rate Dispersion_of_Earnings Wealth_Inequality	Test chart for Finland	LineChart	Finland
+	Inequality in Finland	Overall_Income_Inequality	Test chart for Finland	LineChart	Finland
 
 
 
