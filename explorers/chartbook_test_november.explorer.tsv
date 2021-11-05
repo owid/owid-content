@@ -1,21 +1,16 @@
 explorerTitle	Chartbook of Inequality
 explorerSubtitle	It's a demo
-selection	Gini coefficient - Equivalised disposable household income	Gini coefficient - Taxable income among tax units	Share of top 1% - Pre-tax national income (equal-split adults)	Share of top 1% - Post-tax national income (equal-split adults)	Share of top 1% - Pre-tax fiscal income (equal-split adults)	Share below 60% median - Equivalised disposable household income	Top decile as % median - Gross individual earnings	Share of top 1% - Individual net wealth
+selection
 hideControls	true
 graphers
-	title	ySlugs	subtitle	type	tableSlug
+	title	ySlugs	subtitle		type	yScaleToggle	facet this thing Checkbox	facet	tableSlug
 
-	Inequality in Finland	Overall_Income_Inequality	Test chart for Finland	LineChart	Finland
+	Inequality in the United States	measure_group_1_data measure_group_2_data	ineq		LineChart		TRUE	column	US
 
+table	https://docs.google.com/spreadsheets/d/1xM8nPaOCbBDcHF4P9_TEiI2QGS1gvzlRKvORu-ol_UA/export?format=csv	US
 
-
-table	https://docs.google.com/spreadsheets/d/e/2PACX-1vQG54TIPbTzz5SNd9wC0vI_FkOmKaWgF6RmlgW9GkhZCRMuc97R7C-8EjNZp1Nhzt5Dzf0D7Fqz9Ckj/pubhtml?gid=1888817985&single=true	Finland
-columns	Finland
+columns	US
 	slug	type	name
-	legend	EntityName	Series
-	year	Year	Year
 	Overall_Income_Inequality	Numeric	Overall Income Inequality
-	Top_Income_Share	Numeric	Top Income Shares
-	Poverty_Rate	Numeric	Poverty
-	Dispersion_of_Earnings	Numeric	Dispersion of Earnings
-	Wealth_Inequality	Numeric	Wealth Inequality
+	series_code	EntityName	Measure
+	year	Year	Year
