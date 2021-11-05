@@ -11,6 +11,6 @@ table	https://docs.google.com/spreadsheets/d/1xM8nPaOCbBDcHF4P9_TEiI2QGS1gvzlRKv
 
 columns	US
 	slug	type	name
-	Overall_Income_Inequality	Numeric	Overall Income Inequality
-	series_code	EntityName	Measure
 	year	Year	Year
+	seriesCode	EntityName	Measure
+	OverallIncomeInequality	Numeric	Overall Income Inequality
