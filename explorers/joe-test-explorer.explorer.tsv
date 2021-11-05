@@ -1,8 +1,8 @@
 explorerTitle	My New Explorer
 explorerSubtitle	This is the subtitle
-selection	Canada	India
 table	https://raw.githubusercontent.com/JoeHasell/Chartbook_test/main/Finland_test.csv	table1
 table	https://raw.githubusercontent.com/JoeHasell/Chartbook_test/main/Finland_test.csv	table2
+
 
 graphers
 	title	ySlugs	subtitle	Series Dropdown	type	tableSlug
