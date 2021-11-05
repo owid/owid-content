@@ -1,31 +1,15 @@
 explorerTitle	My New Explorer
 explorerSubtitle	This is the subtitle
-table	https://raw.githubusercontent.com/JoeHasell/Chartbook_test/main/Finland_test.csv	table1
-table	https://raw.githubusercontent.com/JoeHasell/Chartbook_test/main/Finland_test.csv	table2
+table	https://raw.githubusercontent.com/JoeHasell/Chartbook_test/main/Finland_test.csv	Finland_table
+table	https://raw.githubusercontent.com/JoeHasell/Chartbook_test/main/Finland_test.csv	Germany_table
 
 
 graphers
 	title	ySlugs	subtitle	Series Dropdown	type	tableSlug
-	Sources for series 1	Overall_Income_Inequality Top_Income_Share Poverty_Rate Dispersion_of_Earnings Wealth_Inequality	How many people live in each country?	Series 1	LineChart	table1
-	Sources for series 2	Overall_Income_Inequality Top_Income_Share Poverty_Rate Dispersion_of_Earnings Wealth_Inequality	How many people live in each country?	Series 2	LineChart	table2
+	Inequality in Finland	Overall_Income_Inequality Top_Income_Share Poverty_Rate Dispersion_of_Earnings Wealth_Inequality	Various measures of inequality	Finland	LineChart	Finland_table
+	Inequality in Germany	Overall_Income_Inequality Top_Income_Share Poverty_Rate Dispersion_of_Earnings Wealth_Inequality	Various measures of inequality	Germany	LineChart	Germany_table
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-columns	table1
+columns	Finland_table
 	slug	type	name
 	Series_name	EntityName	Series
 	Year	Year	Year
@@ -35,7 +19,7 @@ columns	table1
 	Dispersion_of_Earnings	Numeric	Dispersion of Earnings
 	Wealth_Inequality	Numeric	Wealth Inequality
 
-columns	table2
+columns	Germany_table
 	slug	type	name
 	Series_name	EntityName	Series
 	Year	Year	Year
