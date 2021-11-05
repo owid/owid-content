@@ -5,9 +5,9 @@ table	https://raw.githubusercontent.com/JoeHasell/Chartbook_test/main/Finland_te
 
 
 graphers
-	title	ySlugs	subtitle	Series Dropdown	type	tableSlug
-	Inequality in Finland	Overall_Income_Inequality Top_Income_Share Poverty_Rate Dispersion_of_Earnings Wealth_Inequality	Various measures of inequality	Finland	LineChart	Finland_table
-	Inequality in Germany	Overall_Income_Inequality Top_Income_Share Poverty_Rate Dispersion_of_Earnings Wealth_Inequality	Various measures of inequality	Germany	LineChart	Germany_table
+	title	ySlugs	Series Dropdown	type	tableSlug
+	Inequality in Finland	Overall_Income_Inequality Top_Income_Share Poverty_Rate Dispersion_of_Earnings Wealth_Inequality	Finland	LineChart	Finland_table
+	Inequality in Germany	Overall_Income_Inequality Top_Income_Share Poverty_Rate Dispersion_of_Earnings Wealth_Inequality	Germany	LineChart	Germany_table
 
 columns	Finland_table
 	slug	type	name
