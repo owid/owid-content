@@ -1,16 +1,29 @@
-explorerTitle	Chartbook of Inequality
-explorerSubtitle	It's a demo
-selection
-hideControls	true
+
+explorerTitle	World Tunnels
+
+isPublished	false
+
+explorerSubtitle	How much work does Boring Company have to do
+entityType	Measure
+
 graphers
-	title	ySlugs	subtitle		type	yScaleToggle	facet this thing Checkbox	facet	tableSlug
+	Tunnel Type Radio	type	ySlugs
+	In Ground	LineChart	Dispersion_of_Earnings OverallInequality
 
-	Inequality in the United States	measure_group_1_data measure_group_2_data	ineq		LineChart		TRUE	column	US
 
-table	https://docs.google.com/spreadsheets/d/1xM8nPaOCbBDcHF4P9_TEiI2QGS1gvzlRKvORu-ol_UA/export?format=csv	US
 
-columns	US
-	slug	type	name
+table	https://docs.google.com/spreadsheets/d/1LKjYmgcdPDxgEQ7oRx1KZg5TZMWizg1Bkuv4YtrLR74/export?format=csv
+
+
+
+
+
+
+
+
+columns
+	slug	name	type
+	measure	Measure	EntityName
 	year	Year	Year
-	seriesCode	EntityName	Measure
-	OverallIncomeInequality	Numeric	Overall Income Inequality
+	OverallInequality	Overall Inequality	Numeric
+	Dispersion_of_Earnings	Dispersion of Earnings	Numeric
