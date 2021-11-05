@@ -42,7 +42,7 @@ graphers
 
 
 
-table	https://gist.githubusercontent.com/MarcelGerber/7011dc7aa5fee1e77a3a7ca2fbc30b37/raw/f7f9035289fc956a3c79488209149b463b21827c/apples.csv	apples
+table	https://gist.githubusercontent.com/MarcelGerber/7011dc7aa5fee1e77a3a7ca2fbc30b37/raw/b3d151199b9f406622e146fa625f19b333d89923/apples.csv	apples
 columns	apples
 	slug	name	type	transform	shortUnit
 	entity_name	Country	EntityName
@@ -67,7 +67,7 @@ columns	apples
 	food_supply_protein_per_capita	Food supply (Proteins) per capita	Numeric	divideBy food_supply_protein population	kg
 	food_supply_fat_per_capita	Food supply (Fat) per capita	Numeric	divideBy food_supply_fat population	kg
 
-table	https://gist.githubusercontent.com/MarcelGerber/7011dc7aa5fee1e77a3a7ca2fbc30b37/raw/f7f9035289fc956a3c79488209149b463b21827c/bananas.csv	bananas
+table	https://gist.githubusercontent.com/MarcelGerber/7011dc7aa5fee1e77a3a7ca2fbc30b37/raw/b3d151199b9f406622e146fa625f19b333d89923/bananas.csv	bananas
 columns	bananas
 	slug	name	type	transform	shortUnit
 	entity_name	Country	EntityName
