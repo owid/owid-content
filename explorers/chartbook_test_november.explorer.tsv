@@ -9,7 +9,7 @@ hideControls	false
 table	https://docs.google.com/spreadsheets/d/1LKjYmgcdPDxgEQ7oRx1KZg5TZMWizg1Bkuv4YtrLR74/export?format=csv	tablename1
 table	https://docs.google.com/spreadsheets/d/1LKjYmgcdPDxgEQ7oRx1KZg5TZMWizg1Bkuv4YtrLR74/export?format=csv	tablename2
 graphers
-	Country Dropdown	type	ySlugs	title	facet
+	Country Dropdown	type	ySlugs	title	facet	tableSlug
 	Finland	LineChart	Overall_Income_Inequality Top_Income_Share Poverty_Rate Dispersion_of_Earnings Wealth_Inequality	Inequality in Finland	entity
 	Germany	LineChart	Overall_Income_Inequality Top_Income_Share Poverty_Rate Dispersion_of_Earnings Wealth_Inequality	Inequality in Finland	entity
 
