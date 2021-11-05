@@ -2,90 +2,90 @@ explorerTitle	Global Food Explorer (Prototype)
 explorerSubtitle
 selection	United States	Germany	France
 graphers
-	title	subtitle	Food Dropdown	Metric Dropdown	Unit Radio	Per Capita Checkbox
-	Apple production		Apples	Production	Kilograms	false
-	Apple yield	Yields are measured as the quantity produced per unit of agricultural land.	Apples	Yield	Kilograms	false
-	Land used for apple production	The amount of cropland used for production	Apples	Land Use	Hectares	false
-	Apple imports		Apples	Imports	Kilograms	false
-	Apple exports		Apples	Exports	Kilograms	false
-	Domestic supply of apples	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	Apples	Domestic supply (after trade)	Kilograms	false
-	Apples used for direct human food	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	Apples	Food	Kilograms	false
-	Apples used for animal feed	The quantity that is allocated to feed for livestock.	Apples	Feed	Kilograms	false
-	Apples used for industrial uses	The quantity that is allocated to industrial uses such as biofuel, pharmaceuticals or textile products.	Apples	Other uses	Kilograms	false
-	Apple waste	The quantity that is lost or wasted in supply chains through poor handling, spoiling, lack of refrigeration and damage from the field to retail. It does not include consumer waste.	Apples	Waste	Kilograms	false
-	Apple consumption	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	Apples	Food available for consumption	Kilograms	false
-	Per capita apple consumption	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	Apples	Food available for consumption	Kilograms	true
-	Apple consumption in kilocalories	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	Apples	Food available for consumption	Kilocalories	false
-	Per capita kilocalorie consumption from apples	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	Apples	Food available for consumption	Kilocalories	true
-	Apple consumption in units of protein	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	Apples	Food available for consumption	Protein	false
-	Per capita protein consumption from apples	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	Apples	Food available for consumption	Protein	true
-	Apple consumption in units of fat	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	Apples	Food available for consumption	Fat	false
-	Per capita fat consumption from apples	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	Apples	Food available for consumption	Fat	true
-	Banana production		Bananas	Production	Kilograms	false
-	Banana yield	Yields are measured as the quantity produced per unit of agricultural land.	Bananas	Yield	Kilograms	false
-	Land used for banana production	The amount of cropland used for production	Bananas	Land Use	Hectares	false
-	Banana imports		Bananas	Imports	Kilograms	false
-	Banana exports		Bananas	Exports	Kilograms	false
-	Domestic supply of bananas	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	Bananas	Domestic supply (after trade)	Kilograms	false
-	Bananas used for direct human food	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	Bananas	Food	Kilograms	false
-	Bananas used for animal feed	The quantity that is allocated to feed for livestock.	Bananas	Feed	Kilograms	false
-	Bananas used for industrial uses	The quantity that is allocated to industrial uses such as biofuel, pharmaceuticals or textile products.	Bananas	Other uses	Kilograms	false
-	Banana waste	The quantity that is lost or wasted in supply chains through poor handling, spoiling, lack of refrigeration and damage from the field to retail. It does not include consumer waste.	Bananas	Waste	Kilograms	false
-	Banana consumption	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	Bananas	Food available for consumption	Kilograms	false
-	Per capita banana consumption	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	Bananas	Food available for consumption	Kilograms	true
-	Banana consumption in kilocalories	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	Bananas	Food available for consumption	Kilocalories	false
-	Per capita kilocalorie consumption from bananas	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	Bananas	Food available for consumption	Kilocalories	true
-	Banana consumption in units of protein	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	Bananas	Food available for consumption	Protein	false
-	Per capita protein consumption from bananas	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	Bananas	Food available for consumption	Protein	true
-	Banana consumption in units of fat	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	Bananas	Food available for consumption	Fat	false
-	Per capita fat consumption from bananas	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	Bananas	Food available for consumption	Fat	true
+	title	subtitle	Food Dropdown	Metric Dropdown	Unit Radio	Per Capita Checkbox	type	ySlugs	tableSlug	hasMapTab
+	Apple production		Apples	Production	Kilograms	false	LineChart	production_kg	apples	true
+	Apple yield	Yields are measured as the quantity produced per unit of agricultural land.	Apples	Yield	Kilograms	false	LineChart	yield_kg	apples	true
+	Land used for apple production	The amount of cropland used for production	Apples	Land Use	Hectares	false	LineChart	land_use_ha	apples	true
+	Apple imports		Apples	Imports	Kilograms	false	LineChart	imports_kg	apples	true
+	Apple exports		Apples	Exports	Kilograms	false	LineChart	exports_kg	apples	true
+	Domestic supply of apples	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	Apples	Domestic supply (after trade)	Kilograms	false	LineChart	domestic_supply_kg	apples	true
+	Apples used for direct human food	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	Apples	Food	Kilograms	false	LineChart	food_kg	apples	true
+	Apples used for animal feed	The quantity that is allocated to feed for livestock.	Apples	Feed	Kilograms	false	LineChart	animal_feed_kg	apples	true
+	Apples used for industrial uses	The quantity that is allocated to industrial uses such as biofuel, pharmaceuticals or textile products.	Apples	Other uses	Kilograms	false	LineChart	other_areas_kg	apples	true
+	Apple waste	The quantity that is lost or wasted in supply chains through poor handling, spoiling, lack of refrigeration and damage from the field to retail. It does not include consumer waste.	Apples	Waste	Kilograms	false	LineChart	waste_kg	apples	true
+	Apple consumption	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	Apples	Food available for consumption	Kilograms	false	LineChart	food_supply_kg	apples	true
+	Per capita apple consumption	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	Apples	Food available for consumption	Kilograms	true	LineChart	food_supply_kg_per_capita	apples	true
+	Apple consumption in kilocalories	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	Apples	Food available for consumption	Kilocalories	false	LineChart	food_supply_kcal	apples	true
+	Per capita kilocalorie consumption from apples	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	Apples	Food available for consumption	Kilocalories	true	LineChart	food_supply_kcal_per_capita	apples	true
+	Apple consumption in units of protein	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	Apples	Food available for consumption	Protein	false	LineChart	food_supply_protein	apples	true
+	Per capita protein consumption from apples	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	Apples	Food available for consumption	Protein	true	LineChart	food_supply_protein_per_capita	apples	true
+	Apple consumption in units of fat	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	Apples	Food available for consumption	Fat	false	LineChart	food_supply_fat	apples	true
+	Per capita fat consumption from apples	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	Apples	Food available for consumption	Fat	true	LineChart	food_supply_fat_per_capita	apples	true
+	Banana production		Bananas	Production	Kilograms	false	LineChart	production_kg	bananas	true
+	Banana yield	Yields are measured as the quantity produced per unit of agricultural land.	Bananas	Yield	Kilograms	false	LineChart	yield_kg	bananas	true
+	Land used for banana production	The amount of cropland used for production	Bananas	Land Use	Hectares	false	LineChart	land_use_ha	bananas	true
+	Banana imports		Bananas	Imports	Kilograms	false	LineChart	imports_kg	bananas	true
+	Banana exports		Bananas	Exports	Kilograms	false	LineChart	exports_kg	bananas	true
+	Domestic supply of bananas	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	Bananas	Domestic supply (after trade)	Kilograms	false	LineChart	domestic_supply_kg	bananas	true
+	Bananas used for direct human food	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	Bananas	Food	Kilograms	false	LineChart	food_kg	bananas	true
+	Bananas used for animal feed	The quantity that is allocated to feed for livestock.	Bananas	Feed	Kilograms	false	LineChart	animal_feed_kg	bananas	true
+	Bananas used for industrial uses	The quantity that is allocated to industrial uses such as biofuel, pharmaceuticals or textile products.	Bananas	Other uses	Kilograms	false	LineChart	other_areas_kg	bananas	true
+	Banana waste	The quantity that is lost or wasted in supply chains through poor handling, spoiling, lack of refrigeration and damage from the field to retail. It does not include consumer waste.	Bananas	Waste	Kilograms	false	LineChart	waste_kg	bananas	true
+	Banana consumption	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	Bananas	Food available for consumption	Kilograms	false	LineChart	food_supply_kg	bananas	true
+	Per capita banana consumption	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	Bananas	Food available for consumption	Kilograms	true	LineChart	food_supply_kg_per_capita	bananas	true
+	Banana consumption in kilocalories	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	Bananas	Food available for consumption	Kilocalories	false	LineChart	food_supply_kcal	bananas	true
+	Per capita kilocalorie consumption from bananas	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	Bananas	Food available for consumption	Kilocalories	true	LineChart	food_supply_kcal_per_capita	bananas	true
+	Banana consumption in units of protein	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	Bananas	Food available for consumption	Protein	false	LineChart	food_supply_protein	bananas	true
+	Per capita protein consumption from bananas	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	Bananas	Food available for consumption	Protein	true	LineChart	food_supply_protein_per_capita	bananas	true
+	Banana consumption in units of fat	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	Bananas	Food available for consumption	Fat	false	LineChart	food_supply_fat	bananas	true
+	Per capita fat consumption from bananas	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	Bananas	Food available for consumption	Fat	true	LineChart	food_supply_fat_per_capita	bananas	true
 
 
 
 table	https://gist.githubusercontent.com/MarcelGerber/7011dc7aa5fee1e77a3a7ca2fbc30b37/raw/f7f9035289fc956a3c79488209149b463b21827c/apples.csv	apples
 columns	apples
-	slug	name	type
+	slug	name	type	transform	shortUnit
 	entity_name	Country	EntityName
 	year	Year	Year
-	production_kg	Production	Numeric
-	yield_kg	Yield	Numeric
-	land_use_ha	Land Use	Numeric
-	imports_kg	Imports	Numeric
-	exports_kg	Exports	Numeric
-	domestic_supply_kg	Domestic supply	Numeric
-	food_kg	Food	Numeric
-	animal_feed_kg	Animal feed	Numeric
-	other_areas_kg	Other areas	Numeric
-	waste_kg	Waste	Numeric
-	food_supply_kg	Food supply (kg)	Numeric
-	food_supply_kcal	Food supply (kcal)	Numeric
-	food_supply_protein	Food supply (Proteins)	Numeric
-	food_supply_fat	Food supply (Fat)	Numeric
-	food_supply_kg_per_capita	Food supply (kg) per capita	Numeric
-	food_supply_kcal_per_capita	Food supply (kcal) per capita	Numeric
-	food_supply_protein_per_capita	Food supply (Proteins) per capita	Numeric
-	food_supply_fat_per_capita	Food supply (Fat) per capita	Numeric
+	production_kg	Production	Numeric		kg
+	yield_kg	Yield	Numeric		kg
+	land_use_ha	Land Use	Numeric		ha
+	imports_kg	Imports	Numeric		kg
+	exports_kg	Exports	Numeric		kg
+	domestic_supply_kg	Domestic supply	Numeric		kg
+	food_kg	Food	Numeric		kg
+	animal_feed_kg	Animal feed	Numeric		kg
+	other_areas_kg	Other areas	Numeric		kg
+	waste_kg	Waste	Numeric		kg
+	food_supply_kg	Food supply (kg)	Numeric		kg
+	food_supply_kcal	Food supply (kcal)	Numeric		kcal
+	food_supply_protein	Food supply (Proteins)	Numeric		kg
+	food_supply_fat	Food supply (Fat)	Numeric		kg
+	food_supply_kg_per_capita	Food supply (kg) per capita	Numeric	divideBy food_supply_kg population	kg
+	food_supply_kcal_per_capita	Food supply (kcal) per capita	Numeric	divideBy food_supply_kcal population	kcal
+	food_supply_protein_per_capita	Food supply (Proteins) per capita	Numeric	divideBy food_supply_protein population	kg
+	food_supply_fat_per_capita	Food supply (Fat) per capita	Numeric	divideBy food_supply_fat population	kg
 
 table	https://gist.githubusercontent.com/MarcelGerber/7011dc7aa5fee1e77a3a7ca2fbc30b37/raw/f7f9035289fc956a3c79488209149b463b21827c/bananas.csv	bananas
 columns	bananas
-	slug	name	type
+	slug	name	type	transform	shortUnit
 	entity_name	Country	EntityName
 	year	Year	Year
-	production_kg	Production	Numeric
-	yield_kg	Yield	Numeric
-	land_use_ha	Land Use	Numeric
-	imports_kg	Imports	Numeric
-	exports_kg	Exports	Numeric
-	domestic_supply_kg	Domestic supply	Numeric
-	food_kg	Food	Numeric
-	animal_feed_kg	Animal feed	Numeric
-	other_areas_kg	Other areas	Numeric
-	waste_kg	Waste	Numeric
-	food_supply_kg	Food supply (kg)	Numeric
-	food_supply_kcal	Food supply (kcal)	Numeric
-	food_supply_protein	Food supply (Proteins)	Numeric
-	food_supply_fat	Food supply (Fat)	Numeric
-	food_supply_kg_per_capita	Food supply (kg) per capita	Numeric
-	food_supply_kcal_per_capita	Food supply (kcal) per capita	Numeric
-	food_supply_protein_per_capita	Food supply (Proteins) per capita	Numeric
-	food_supply_fat_per_capita	Food supply (Fat) per capita	Numeric
+	production_kg	Production	Numeric		kg
+	yield_kg	Yield	Numeric		kg
+	land_use_ha	Land Use	Numeric		ha
+	imports_kg	Imports	Numeric		kg
+	exports_kg	Exports	Numeric		kg
+	domestic_supply_kg	Domestic supply	Numeric		kg
+	food_kg	Food	Numeric		kg
+	animal_feed_kg	Animal feed	Numeric		kg
+	other_areas_kg	Other areas	Numeric		kg
+	waste_kg	Waste	Numeric		kg
+	food_supply_kg	Food supply (kg)	Numeric		kg
+	food_supply_kcal	Food supply (kcal)	Numeric		kcal
+	food_supply_protein	Food supply (Proteins)	Numeric		kg
+	food_supply_fat	Food supply (Fat)	Numeric		kg
+	food_supply_kg_per_capita	Food supply (kg) per capita	Numeric	divideBy food_supply_kg population	kg
+	food_supply_kcal_per_capita	Food supply (kcal) per capita	Numeric	divideBy food_supply_kcal population	kcal
+	food_supply_protein_per_capita	Food supply (Proteins) per capita	Numeric	divideBy food_supply_protein population	kg
+	food_supply_fat_per_capita	Food supply (Fat) per capita	Numeric	divideBy food_supply_fat population	kg
