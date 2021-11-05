@@ -1,7 +1,7 @@
 explorerTitle	My New Explorer
 explorerSubtitle	This is the subtitle
 table	https://raw.githubusercontent.com/JoeHasell/Chartbook_test/main/Finland_test.csv	Finland_table
-table	https://raw.githubusercontent.com/JoeHasell/Chartbook_test/main/Finland_test.csv	Germany_table
+table	https://raw.githubusercontent.com/JoeHasell/Chartbook_test/main/Germany_test.csv	Germany_table
 
 
 graphers
