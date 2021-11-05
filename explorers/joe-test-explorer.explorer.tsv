@@ -6,8 +6,8 @@ table	https://raw.githubusercontent.com/JoeHasell/Chartbook_test/main/Finland_te
 
 graphers
 	title	ySlugs	subtitle	Series Dropdown	type	tableSlug
-	Sources for series 1	Chartbook_value Source_value	How many people live in each country?	Series 1	LineChart	table1
-	Sources for series 2	Chartbook_value Source_value	How many people live in each country?	Series 2	LineChart	table2
+	Sources for series 1	Overall_Income_Inequality Top_Income_Share Poverty_Rate Dispersion_of_Earnings Wealth_Inequality	How many people live in each country?	Series 1	LineChart	table1
+	Sources for series 2	Overall_Income_Inequality Top_Income_Share Poverty_Rate Dispersion_of_Earnings Wealth_Inequality	How many people live in each country?	Series 2	LineChart	table2
 
 
 
@@ -28,14 +28,19 @@ graphers
 columns	table1
 	slug	type	name
 	Series_name	EntityName	Series
-	Chartbook_value	Numeric	Chartbook series
 	Year	Year	Year
-	Source_value	Numeric	Sources
-
+	Overall_Income_Inequality	Numeric	Overall Income Inequality
+	Top_Income_Share	Numeric	Top Income Shares
+	Poverty_Rate	Numeric	Poverty
+	Dispersion_of_Earnings	Numeric	Dispersion of Earnings
+	Wealth_Inequality	Numeric	Wealth Inequality
 
 columns	table2
 	slug	type	name
 	Series_name	EntityName	Series
-	Chartbook_value	Numeric	Chartbook series
 	Year	Year	Year
-	Source_value	Numeric	Sources
+	Overall_Income_Inequality	Numeric	Overall Income Inequality
+	Top_Income_Share	Numeric	Top Income Shares
+	Poverty_Rate	Numeric	Poverty
+	Dispersion_of_Earnings	Numeric	Dispersion of Earnings
+	Wealth_Inequality	Numeric	Wealth Inequality
