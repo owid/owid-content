@@ -5,25 +5,22 @@ isPublished	false
 
 explorerSubtitle	How much work does Boring Company have to do
 entityType	Measure
-
+hideControls	false
 graphers
-	Tunnel Type Radio	type	ySlugs
-	In Ground	LineChart	Dispersion_of_Earnings OverallInequality
-
-
-
-table	https://docs.google.com/spreadsheets/d/1LKjYmgcdPDxgEQ7oRx1KZg5TZMWizg1Bkuv4YtrLR74/export?format=csv
-
-
-
-
+	Country Dropdown	type	ySlugs	title	facet
+	Finland	LineChart	Overall_Income_Inequality Top_Income_Share Poverty_Rate Dispersion_of_Earnings Wealth_Inequality	Inequality in Finland	entity
 
 
 
 
 columns
 	slug	name	type
-	measure	Measure	EntityName
+	legend	Measure	EntityName
 	year	Year	Year
-	OverallInequality	Overall Inequality	Numeric
+	Overall_Income_Inequality	Overall Inequality	Numeric
+	Top_Income_Share	Top Income Shares	Numeric
+	Poverty_Rate	Poverty	Numeric
 	Dispersion_of_Earnings	Dispersion of Earnings	Numeric
+	Wealth_Inequality	Wealth Inequality	Numeric
+
+table	https://docs.google.com/spreadsheets/d/1LKjYmgcdPDxgEQ7oRx1KZg5TZMWizg1Bkuv4YtrLR74/export?format=csv
