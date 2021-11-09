@@ -20,9 +20,10 @@ graphers
 	1. No Poverty	1.5: Resilience to disasters	1.5.2 Direct economic loss from disasters	2075
 	1. No Poverty	1.5: Resilience to disasters	1.5.3 Disaster risk reduction strategies	2735
 	1. No Poverty	1.5: Resilience to disasters	1.5.4 Local disaster risk reduction	3831
-	1. No Poverty	1.a: Mobilisation of resources to end poverty	1.A.1 Domestic resources to poverty reduction
-	1. No Poverty	1.a: Mobilisation of resources to end poverty	1.A.2 Government spending on health	1915
-	1. No Poverty	1.a: Mobilisation of resources to end poverty	1.A.2 Government spending on education	1917
+	1. No Poverty	1.A: Mobilisation of resources to end poverty	1.A.1 Domestic resources to poverty reduction
+	1. No Poverty	1.A: Mobilisation of resources to end poverty	1.A.2 Government spending on health	1915
+	1. No Poverty	1.A: Mobilisation of resources to end poverty	1.A.2 Government spending on education	1917
+	1. No Poverty	1.B Pro-poor policy frameworks	1.B.1 Pro-poor public social spending
 	2. Zero Hunger	2.1: Universal access to safe and nutritious food	2.1.1 Prevalence of undernourishment	311
 	2. Zero Hunger	2.1: Universal access to safe and nutritious food	2.1.2 Prevalence of food insecurity	1941
 	2. Zero Hunger	2.2: End all forms of malnutrition	2.2.1 Prevalence of childhood stunting	703
@@ -266,6 +267,7 @@ graphers
 	16. Peace, Justice and Strong Institutions	16.2: Protect children from abuse, exploitation, trafficking & violence	16.2.3 Sexual violence against boys	1651
 	16. Peace, Justice and Strong Institutions	16.3: Promote the rule of law and ensure equal access to justice	16.3.1 Victim reports of crime	3861
 	16. Peace, Justice and Strong Institutions	16.3: Promote the rule of law and ensure equal access to justice	16.3.2 Unsentenced detainees	2104
+	16. Peace, Justice and Strong Institutions	16.3: Promote the rule of law and ensure equal access to justice	16.3.3 Access to dispute resolution
 	16. Peace, Justice and Strong Institutions	16.4: Combat organized crime & illicit financial & arms flows	16.4.1 Illicit financial flows
 	16. Peace, Justice and Strong Institutions	16.4: Combat organized crime & illicit financial & arms flows	16.4.2 Seized or surrendered arms
 	16. Peace, Justice and Strong Institutions	16.5: Substantially reduce corruption and bribery	16.5.1 Bribery prevalence	3862
@@ -296,7 +298,9 @@ graphers
 	17. Partnership for the Goals	17.10: Promote a universal trading system under the WTO	17.10.1 Weighted average tariffs	2022
 	17. Partnership for the Goals	17.11: Increase the exports of developing countries	17.11.1 Exports from developing countries	2023
 	17. Partnership for the Goals	17.12: Remove trade barriers for least-developed countries	17.12.1 Tariffs for developing countries	2024
-	17. Partnership for the Goals	17.13: Enhance global macroeconomic stability	17.13.1 Macroeconomic Dashboard
+	17. Partnership for the Goals	17.13: Enhance global macroeconomic stability	17.13.1 Annual inflation of consumer prices	5384
+	17. Partnership for the Goals	17.13: Enhance global macroeconomic stability	17.13.1 Gross public sector debt as a proportion of GDP	5385
+	17. Partnership for the Goals	17.13: Enhance global macroeconomic stability	17.13.1 Merchandise trade as a proportion of GDP	5392
 	17. Partnership for the Goals	17.14: Enhance policy coherence for sustainable development	17.14.1 Policy for sustainable development
 	17. Partnership for the Goals	17.15: Respect national leadership to implement policies for the sustainable development goals	17.15.1 National results frameworks	2113
 	17. Partnership for the Goals	17.16: Enhance the global partnership for sustainable development	17.16.1 Progress in multistakeholder development	2114
