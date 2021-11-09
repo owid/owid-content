@@ -1,0 +1,414 @@
+
+explorerTitle	Chartbook of Economic Inequality
+
+isPublished	false
+
+
+
+
+
+
+graphers
+	Country Dropdown	type	ySlugs	title
+	Germany	LineChart	Overall_Income_Inequality Top_Income_Share Poverty_Rate Dispersion_of_Earnings Wealth_Inequality	Inequality in Germany
+
+columns
+	slug	name	type
+	legend	Measure	EntityName
+	year	Year	Year
+	Overall_Income_Inequality	Overall Inequality	Numeric
+	Top_Income_Share	Top Income Shares	Numeric
+	Poverty_Rate	Poverty	Numeric
+	Dispersion_of_Earnings	Dispersion of Earnings	Numeric
+	Wealth_Inequality	Wealth Inequality	Numeric
+
+table
+	year	legend	Overall_Income_Inequality	Top_Income_Share	Poverty_Rate	Dispersion_of_Earnings	Wealth_Inequality
+	1966	Gini coefficient - Equivalised disposable household income	31.1
+	1971	Gini coefficient - Equivalised disposable household income	27
+	1976	Gini coefficient - Equivalised disposable household income	21.5
+	1981	Gini coefficient - Equivalised disposable household income	20.9
+	1986	Gini coefficient - Equivalised disposable household income	20.4
+	1987	Gini coefficient - Equivalised disposable household income	20.2
+	1988	Gini coefficient - Equivalised disposable household income	20.7
+	1989	Gini coefficient - Equivalised disposable household income	21
+	1990	Gini coefficient - Equivalised disposable household income	20.8
+	1991	Gini coefficient - Equivalised disposable household income	20.7
+	1992	Gini coefficient - Equivalised disposable household income	20.5
+	1993	Gini coefficient - Equivalised disposable household income	20.9
+	1994	Gini coefficient - Equivalised disposable household income	20.8
+	1995	Gini coefficient - Equivalised disposable household income	21.4
+	1996	Gini coefficient - Equivalised disposable household income	21.9
+	1997	Gini coefficient - Equivalised disposable household income	23
+	1998	Gini coefficient - Equivalised disposable household income	23.8
+	1999	Gini coefficient - Equivalised disposable household income	24.5
+	2000	Gini coefficient - Equivalised disposable household income	24.9
+	2001	Gini coefficient - Equivalised disposable household income	25.7
+	2002	Gini coefficient - Equivalised disposable household income	25.2
+	2003	Gini coefficient - Equivalised disposable household income	25.6
+	2004	Gini coefficient - Equivalised disposable household income	26.1
+	2005	Gini coefficient - Equivalised disposable household income	25.9
+	2006	Gini coefficient - Equivalised disposable household income	26.2
+	2007	Gini coefficient - Equivalised disposable household income	26.4
+	2008	Gini coefficient - Equivalised disposable household income	26
+	2009	Gini coefficient - Equivalised disposable household income	25.5
+	2010	Gini coefficient - Equivalised disposable household income	25.9
+	2011	Gini coefficient - Equivalised disposable household income	25.9
+	2012	Gini coefficient - Equivalised disposable household income	25.5
+	2013	Gini coefficient - Equivalised disposable household income	25.6
+	2014	Gini coefficient - Equivalised disposable household income	25.2
+	2015	Gini coefficient - Equivalised disposable household income	25.5
+	2016	Gini coefficient - Equivalised disposable household income	25.4
+	2017	Gini coefficient - Equivalised disposable household income	26
+	2018	Gini coefficient - Equivalised disposable household income	26.3
+	2019	Gini coefficient - Equivalised disposable household income	26.6
+	1920	Gini coefficient - Taxable income among tax units	59.77
+	1921	Gini coefficient - Taxable income among tax units	59.57
+	1922	Gini coefficient - Taxable income among tax units	59.45
+	1923	Gini coefficient - Taxable income among tax units	54.5
+	1924	Gini coefficient - Taxable income among tax units	49.53
+	1925	Gini coefficient - Taxable income among tax units	50.03
+	1926	Gini coefficient - Taxable income among tax units	50.52
+	1927	Gini coefficient - Taxable income among tax units	50.98
+	1928	Gini coefficient - Taxable income among tax units	51.45
+	1929	Gini coefficient - Taxable income among tax units	51.91
+	1930	Gini coefficient - Taxable income among tax units	51.4
+	1931	Gini coefficient - Taxable income among tax units	50.88
+	1932	Gini coefficient - Taxable income among tax units	50.92
+	1933	Gini coefficient - Taxable income among tax units	50.95
+	1934	Gini coefficient - Taxable income among tax units	50.99
+	1935	Gini coefficient - Taxable income among tax units	41.52
+	1936	Gini coefficient - Taxable income among tax units	43.15
+	1937	Gini coefficient - Taxable income among tax units	44.79
+	1938	Gini coefficient - Taxable income among tax units	45.87
+	1939	Gini coefficient - Taxable income among tax units	44.11
+	1940	Gini coefficient - Taxable income among tax units	42.35
+	1941	Gini coefficient - Taxable income among tax units	40.59
+	1942	Gini coefficient - Taxable income among tax units	38.83
+	1943	Gini coefficient - Taxable income among tax units	37.07
+	1944	Gini coefficient - Taxable income among tax units	35.3
+	1945	Gini coefficient - Taxable income among tax units	33.55
+	1946	Gini coefficient - Taxable income among tax units	31.79
+	1947	Gini coefficient - Taxable income among tax units	30.03
+	1948	Gini coefficient - Taxable income among tax units	39.3
+	1949	Gini coefficient - Taxable income among tax units	48.99
+	1950	Gini coefficient - Taxable income among tax units	48.66
+	1951	Gini coefficient - Taxable income among tax units	49.89
+	1952	Gini coefficient - Taxable income among tax units	51.37
+	1953	Gini coefficient - Taxable income among tax units	51.03
+	1954	Gini coefficient - Taxable income among tax units	51.71
+	1955	Gini coefficient - Taxable income among tax units	51.67
+	1956	Gini coefficient - Taxable income among tax units	52.24
+	1957	Gini coefficient - Taxable income among tax units	52.48
+	1958	Gini coefficient - Taxable income among tax units	52.62
+	1959	Gini coefficient - Taxable income among tax units	53.11
+	1960	Gini coefficient - Taxable income among tax units	52.88
+	1961	Gini coefficient - Taxable income among tax units	54.18
+	1962	Gini coefficient - Taxable income among tax units	50.59
+	1963	Gini coefficient - Taxable income among tax units	51.81
+	1964	Gini coefficient - Taxable income among tax units	51.65
+	1965	Gini coefficient - Taxable income among tax units	51.74
+	1966	Gini coefficient - Taxable income among tax units	51.93
+	1967	Gini coefficient - Taxable income among tax units	53.39
+	1968	Gini coefficient - Taxable income among tax units	53.56
+	1969	Gini coefficient - Taxable income among tax units	44.58
+	1970	Gini coefficient - Taxable income among tax units	62.84
+	1971	Gini coefficient - Taxable income among tax units	60.37
+	1972	Gini coefficient - Taxable income among tax units	58.35
+	1973	Gini coefficient - Taxable income among tax units	56.39
+	1974	Gini coefficient - Taxable income among tax units	49.05
+	1975	Gini coefficient - Taxable income among tax units	51.33
+	1976	Gini coefficient - Taxable income among tax units	55.77
+	1977	Gini coefficient - Taxable income among tax units	56.53
+	1978	Gini coefficient - Taxable income among tax units	58.27
+	1979	Gini coefficient - Taxable income among tax units	56.86
+	1980	Gini coefficient - Taxable income among tax units	54.66
+	1981	Gini coefficient - Taxable income among tax units	53.76
+	1982	Gini coefficient - Taxable income among tax units	52.03
+	1983	Gini coefficient - Taxable income among tax units	49.43
+	1984	Gini coefficient - Taxable income among tax units	51.45
+	1985	Gini coefficient - Taxable income among tax units	48.98
+	1986	Gini coefficient - Taxable income among tax units	48.13
+	1987	Gini coefficient - Taxable income among tax units	46.81
+	1988	Gini coefficient - Taxable income among tax units	45.85
+	1989	Gini coefficient - Taxable income among tax units	47.57
+	1990	Gini coefficient - Taxable income among tax units	45.95
+	1991	Gini coefficient - Taxable income among tax units	47.1
+	1992	Gini coefficient - Taxable income among tax units	47.3
+	1920	Share of top 1% - Pre-tax national income (equal-split adults)		27.8
+	1921	Share of top 1% - Pre-tax national income (equal-split adults)		27.67
+	1922	Share of top 1% - Pre-tax national income (equal-split adults)		27.05
+	1923	Share of top 1% - Pre-tax national income (equal-split adults)		24.51
+	1924	Share of top 1% - Pre-tax national income (equal-split adults)		21.97
+	1925	Share of top 1% - Pre-tax national income (equal-split adults)		23.02
+	1926	Share of top 1% - Pre-tax national income (equal-split adults)		24.07
+	1927	Share of top 1% - Pre-tax national income (equal-split adults)		24.28
+	1928	Share of top 1% - Pre-tax national income (equal-split adults)		24.5
+	1929	Share of top 1% - Pre-tax national income (equal-split adults)		24.71
+	1930	Share of top 1% - Pre-tax national income (equal-split adults)		24.58
+	1931	Share of top 1% - Pre-tax national income (equal-split adults)		24.46
+	1932	Share of top 1% - Pre-tax national income (equal-split adults)		24.43
+	1933	Share of top 1% - Pre-tax national income (equal-split adults)		24.4
+	1934	Share of top 1% - Pre-tax national income (equal-split adults)		24.36
+	1935	Share of top 1% - Pre-tax national income (equal-split adults)		21.38
+	1936	Share of top 1% - Pre-tax national income (equal-split adults)		22.56
+	1937	Share of top 1% - Pre-tax national income (equal-split adults)		23.74
+	1938	Share of top 1% - Pre-tax national income (equal-split adults)		23.74
+	1939	Share of top 1% - Pre-tax national income (equal-split adults)		22.31
+	1940	Share of top 1% - Pre-tax national income (equal-split adults)		20.89
+	1941	Share of top 1% - Pre-tax national income (equal-split adults)		19.47
+	1942	Share of top 1% - Pre-tax national income (equal-split adults)		18.05
+	1943	Share of top 1% - Pre-tax national income (equal-split adults)		16.63
+	1944	Share of top 1% - Pre-tax national income (equal-split adults)		15.2
+	1945	Share of top 1% - Pre-tax national income (equal-split adults)		13.78
+	1946	Share of top 1% - Pre-tax national income (equal-split adults)		12.36
+	1947	Share of top 1% - Pre-tax national income (equal-split adults)		10.94
+	1948	Share of top 1% - Pre-tax national income (equal-split adults)		11.35
+	1949	Share of top 1% - Pre-tax national income (equal-split adults)		14.03
+	1950	Share of top 1% - Pre-tax national income (equal-split adults)		14.11
+	1951	Share of top 1% - Pre-tax national income (equal-split adults)		14.62
+	1952	Share of top 1% - Pre-tax national income (equal-split adults)		15.45
+	1953	Share of top 1% - Pre-tax national income (equal-split adults)		15.5
+	1954	Share of top 1% - Pre-tax national income (equal-split adults)		16.22
+	1955	Share of top 1% - Pre-tax national income (equal-split adults)		16.28
+	1956	Share of top 1% - Pre-tax national income (equal-split adults)		16.75
+	1957	Share of top 1% - Pre-tax national income (equal-split adults)		16.72
+	1958	Share of top 1% - Pre-tax national income (equal-split adults)		18.06
+	1959	Share of top 1% - Pre-tax national income (equal-split adults)		18.23
+	1960	Share of top 1% - Pre-tax national income (equal-split adults)		17.3
+	1961	Share of top 1% - Pre-tax national income (equal-split adults)		18.5
+	1962	Share of top 1% - Pre-tax national income (equal-split adults)		18.23
+	1963	Share of top 1% - Pre-tax national income (equal-split adults)		18.51
+	1964	Share of top 1% - Pre-tax national income (equal-split adults)		17.22
+	1965	Share of top 1% - Pre-tax national income (equal-split adults)		17.24
+	1966	Share of top 1% - Pre-tax national income (equal-split adults)		17.24
+	1967	Share of top 1% - Pre-tax national income (equal-split adults)		17.36
+	1968	Share of top 1% - Pre-tax national income (equal-split adults)		16.96
+	1969	Share of top 1% - Pre-tax national income (equal-split adults)		14.27
+	1970	Share of top 1% - Pre-tax national income (equal-split adults)		14.27
+	1971	Share of top 1% - Pre-tax national income (equal-split adults)		13.39
+	1972	Share of top 1% - Pre-tax national income (equal-split adults)		12.59
+	1973	Share of top 1% - Pre-tax national income (equal-split adults)		11.72
+	1974	Share of top 1% - Pre-tax national income (equal-split adults)		10.79
+	1975	Share of top 1% - Pre-tax national income (equal-split adults)		8.55
+	1976	Share of top 1% - Pre-tax national income (equal-split adults)		8.19
+	1977	Share of top 1% - Pre-tax national income (equal-split adults)		7.97
+	1978	Share of top 1% - Pre-tax national income (equal-split adults)		7.45
+	1979	Share of top 1% - Pre-tax national income (equal-split adults)		7.04
+	1980	Share of top 1% - Pre-tax national income (equal-split adults)		6.38
+	1981	Share of top 1% - Pre-tax national income (equal-split adults)		5.45
+	1982	Share of top 1% - Pre-tax national income (equal-split adults)		5.18
+	1983	Share of top 1% - Pre-tax national income (equal-split adults)		5.32
+	1984	Share of top 1% - Pre-tax national income (equal-split adults)		5.99
+	1985	Share of top 1% - Pre-tax national income (equal-split adults)		5.6
+	1986	Share of top 1% - Pre-tax national income (equal-split adults)		5.3
+	1987	Share of top 1% - Pre-tax national income (equal-split adults)		6.51
+	1988	Share of top 1% - Pre-tax national income (equal-split adults)		6.72
+	1989	Share of top 1% - Pre-tax national income (equal-split adults)		5.73
+	1990	Share of top 1% - Pre-tax national income (equal-split adults)		4.5
+	1991	Share of top 1% - Pre-tax national income (equal-split adults)		3.89
+	1992	Share of top 1% - Pre-tax national income (equal-split adults)		3.73
+	1993	Share of top 1% - Pre-tax national income (equal-split adults)		4.82
+	1994	Share of top 1% - Pre-tax national income (equal-split adults)		7.13
+	1995	Share of top 1% - Pre-tax national income (equal-split adults)		8.94
+	1996	Share of top 1% - Pre-tax national income (equal-split adults)		9.09
+	1997	Share of top 1% - Pre-tax national income (equal-split adults)		10.6
+	1998	Share of top 1% - Pre-tax national income (equal-split adults)		11.57
+	1999	Share of top 1% - Pre-tax national income (equal-split adults)		12.54
+	2000	Share of top 1% - Pre-tax national income (equal-split adults)		13.47
+	2001	Share of top 1% - Pre-tax national income (equal-split adults)		12.88
+	2002	Share of top 1% - Pre-tax national income (equal-split adults)		12.54
+	2003	Share of top 1% - Pre-tax national income (equal-split adults)		11.8
+	2004	Share of top 1% - Pre-tax national income (equal-split adults)		12.95
+	2005	Share of top 1% - Pre-tax national income (equal-split adults)		11.01
+	2006	Share of top 1% - Pre-tax national income (equal-split adults)		11.81
+	2007	Share of top 1% - Pre-tax national income (equal-split adults)		11.55
+	2008	Share of top 1% - Pre-tax national income (equal-split adults)		11.26
+	2009	Share of top 1% - Pre-tax national income (equal-split adults)		9.01
+	2010	Share of top 1% - Pre-tax national income (equal-split adults)		9.62
+	2011	Share of top 1% - Pre-tax national income (equal-split adults)		9.24
+	2012	Share of top 1% - Pre-tax national income (equal-split adults)		8.76
+	2013	Share of top 1% - Pre-tax national income (equal-split adults)		8.6
+	2014	Share of top 1% - Pre-tax national income (equal-split adults)		9.01
+	2015	Share of top 1% - Pre-tax national income (equal-split adults)		9.56
+	2016	Share of top 1% - Pre-tax national income (equal-split adults)		9.68
+	2017	Share of top 1% - Pre-tax national income (equal-split adults)		10.61
+	2018	Share of top 1% - Pre-tax national income (equal-split adults)		10.49
+	2019	Share of top 1% - Pre-tax national income (equal-split adults)		10.28
+	1980	Share of top 1% - Post-tax national income (equal-split adults)		5.38
+	1981	Share of top 1% - Post-tax national income (equal-split adults)		4.4
+	1982	Share of top 1% - Post-tax national income (equal-split adults)		4.14
+	1983	Share of top 1% - Post-tax national income (equal-split adults)		4.04
+	1984	Share of top 1% - Post-tax national income (equal-split adults)		4.63
+	1985	Share of top 1% - Post-tax national income (equal-split adults)		4.53
+	1986	Share of top 1% - Post-tax national income (equal-split adults)		3.9
+	1987	Share of top 1% - Post-tax national income (equal-split adults)		5.44
+	1988	Share of top 1% - Post-tax national income (equal-split adults)		5.67
+	1989	Share of top 1% - Post-tax national income (equal-split adults)		4.16
+	1990	Share of top 1% - Post-tax national income (equal-split adults)		3.07
+	1991	Share of top 1% - Post-tax national income (equal-split adults)		3.03
+	1992	Share of top 1% - Post-tax national income (equal-split adults)		3.14
+	1993	Share of top 1% - Post-tax national income (equal-split adults)		3.78
+	1994	Share of top 1% - Post-tax national income (equal-split adults)		5.91
+	1995	Share of top 1% - Post-tax national income (equal-split adults)		6.72
+	1996	Share of top 1% - Post-tax national income (equal-split adults)		6.84
+	1997	Share of top 1% - Post-tax national income (equal-split adults)		7.92
+	1998	Share of top 1% - Post-tax national income (equal-split adults)		8.4
+	1999	Share of top 1% - Post-tax national income (equal-split adults)		9.5
+	2000	Share of top 1% - Post-tax national income (equal-split adults)		9.35
+	2001	Share of top 1% - Post-tax national income (equal-split adults)		10.18
+	2002	Share of top 1% - Post-tax national income (equal-split adults)		9.25
+	2003	Share of top 1% - Post-tax national income (equal-split adults)		8.5
+	2004	Share of top 1% - Post-tax national income (equal-split adults)		9.43
+	2005	Share of top 1% - Post-tax national income (equal-split adults)		8.35
+	2006	Share of top 1% - Post-tax national income (equal-split adults)		8.92
+	2007	Share of top 1% - Post-tax national income (equal-split adults)		9.14
+	2008	Share of top 1% - Post-tax national income (equal-split adults)		8.62
+	2009	Share of top 1% - Post-tax national income (equal-split adults)		7.08
+	2010	Share of top 1% - Post-tax national income (equal-split adults)		7.52
+	2011	Share of top 1% - Post-tax national income (equal-split adults)		7.02
+	2012	Share of top 1% - Post-tax national income (equal-split adults)		6.73
+	2013	Share of top 1% - Post-tax national income (equal-split adults)		6.45
+	2014	Share of top 1% - Post-tax national income (equal-split adults)		6.98
+	2015	Share of top 1% - Post-tax national income (equal-split adults)		7.37
+	2016	Share of top 1% - Post-tax national income (equal-split adults)		7.4
+	2017	Share of top 1% - Post-tax national income (equal-split adults)		8.14
+	2018	Share of top 1% - Post-tax national income (equal-split adults)		8.08
+	2019	Share of top 1% - Post-tax national income (equal-split adults)		7.85
+	1970	Share of top 1% - Pre-tax fiscal income (equal-split adults)		9.87
+	1971	Share of top 1% - Pre-tax fiscal income (equal-split adults)		9.26
+	1972	Share of top 1% - Pre-tax fiscal income (equal-split adults)		8.7
+	1973	Share of top 1% - Pre-tax fiscal income (equal-split adults)		8.1
+	1974	Share of top 1% - Pre-tax fiscal income (equal-split adults)		7.46
+	1975	Share of top 1% - Pre-tax fiscal income (equal-split adults)		5.91
+	1976	Share of top 1% - Pre-tax fiscal income (equal-split adults)		5.66
+	1977	Share of top 1% - Pre-tax fiscal income (equal-split adults)		5.51
+	1978	Share of top 1% - Pre-tax fiscal income (equal-split adults)		5.15
+	1979	Share of top 1% - Pre-tax fiscal income (equal-split adults)		4.87
+	1980	Share of top 1% - Pre-tax fiscal income (equal-split adults)		4.32
+	1981	Share of top 1% - Pre-tax fiscal income (equal-split adults)		3.96
+	1982	Share of top 1% - Pre-tax fiscal income (equal-split adults)		3.55
+	1983	Share of top 1% - Pre-tax fiscal income (equal-split adults)		3.49
+	1984	Share of top 1% - Pre-tax fiscal income (equal-split adults)		4.11
+	1985	Share of top 1% - Pre-tax fiscal income (equal-split adults)		4.03
+	1986	Share of top 1% - Pre-tax fiscal income (equal-split adults)		3.86
+	1987	Share of top 1% - Pre-tax fiscal income (equal-split adults)		5.03
+	1988	Share of top 1% - Pre-tax fiscal income (equal-split adults)		4.96
+	1989	Share of top 1% - Pre-tax fiscal income (equal-split adults)		4.7
+	1993	Share of top 1% - Pre-tax fiscal income (equal-split adults)		5.72
+	1994	Share of top 1% - Pre-tax fiscal income (equal-split adults)		5.67
+	1995	Share of top 1% - Pre-tax fiscal income (equal-split adults)		6.13
+	1996	Share of top 1% - Pre-tax fiscal income (equal-split adults)		5.93
+	1997	Share of top 1% - Pre-tax fiscal income (equal-split adults)		6.83
+	1998	Share of top 1% - Pre-tax fiscal income (equal-split adults)		7.62
+	1999	Share of top 1% - Pre-tax fiscal income (equal-split adults)		9.46
+	2000	Share of top 1% - Pre-tax fiscal income (equal-split adults)		9.97
+	2001	Share of top 1% - Pre-tax fiscal income (equal-split adults)		8.86
+	2002	Share of top 1% - Pre-tax fiscal income (equal-split adults)		8.66
+	2003	Share of top 1% - Pre-tax fiscal income (equal-split adults)		8.76
+	2004	Share of top 1% - Pre-tax fiscal income (equal-split adults)		9.65
+	2005	Share of top 1% - Pre-tax fiscal income (equal-split adults)		7.6
+	2006	Share of top 1% - Pre-tax fiscal income (equal-split adults)		8.39
+	2007	Share of top 1% - Pre-tax fiscal income (equal-split adults)		8.26
+	2008	Share of top 1% - Pre-tax fiscal income (equal-split adults)		8.5
+	2009	Share of top 1% - Pre-tax fiscal income (equal-split adults)		7.46
+	1966	Share below 60% median - Equivalised disposable household income			18.6
+	1971	Share below 60% median - Equivalised disposable household income			15.2
+	1976	Share below 60% median - Equivalised disposable household income			11.5
+	1981	Share below 60% median - Equivalised disposable household income			12.1
+	1986	Share below 60% median - Equivalised disposable household income			9.2
+	1987	Share below 60% median - Equivalised disposable household income			9.6
+	1988	Share below 60% median - Equivalised disposable household income			10
+	1989	Share below 60% median - Equivalised disposable household income			10.9
+	1990	Share below 60% median - Equivalised disposable household income			10.5
+	1991	Share below 60% median - Equivalised disposable household income			9.8
+	1992	Share below 60% median - Equivalised disposable household income			8.8
+	1993	Share below 60% median - Equivalised disposable household income			7.2
+	1994	Share below 60% median - Equivalised disposable household income			7.4
+	1995	Share below 60% median - Equivalised disposable household income			7.6
+	1996	Share below 60% median - Equivalised disposable household income			8.5
+	1997	Share below 60% median - Equivalised disposable household income			8.5
+	1998	Share below 60% median - Equivalised disposable household income			9.6
+	1999	Share below 60% median - Equivalised disposable household income			9.5
+	2000	Share below 60% median - Equivalised disposable household income			10.5
+	2001	Share below 60% median - Equivalised disposable household income			11.6
+	2002	Share below 60% median - Equivalised disposable household income			11.3
+	2003	Share below 60% median - Equivalised disposable household income			11.1
+	2004	Share below 60% median - Equivalised disposable household income			11.9
+	2005	Share below 60% median - Equivalised disposable household income			12.7
+	2006	Share below 60% median - Equivalised disposable household income			13.1
+	2007	Share below 60% median - Equivalised disposable household income			13.8
+	2008	Share below 60% median - Equivalised disposable household income			13.9
+	2009	Share below 60% median - Equivalised disposable household income			13.2
+	2010	Share below 60% median - Equivalised disposable household income			13.7
+	2011	Share below 60% median - Equivalised disposable household income			13.2
+	2012	Share below 60% median - Equivalised disposable household income			11.9
+	2013	Share below 60% median - Equivalised disposable household income			12.8
+	2014	Share below 60% median - Equivalised disposable household income			12.5
+	2015	Share below 60% median - Equivalised disposable household income			11.7
+	2016	Share below 60% median - Equivalised disposable household income			11.5
+	2017	Share below 60% median - Equivalised disposable household income			12.1
+	2018	Share below 60% median - Equivalised disposable household income			11.8
+	2019	Share below 60% median - Equivalised disposable household income			12.3
+	1971	Top decile as % median - Gross individual earnings				195.9256472
+	1975	Top decile as % median - Gross individual earnings				176.9266493
+	1977	Top decile as % median - Gross individual earnings				168.3508311
+	1980	Top decile as % median - Gross individual earnings				165.4609534
+	1983	Top decile as % median - Gross individual earnings				169.4183367
+	1986	Top decile as % median - Gross individual earnings				169.5275922
+	1987	Top decile as % median - Gross individual earnings				169.776042
+	1988	Top decile as % median - Gross individual earnings				168.449544
+	1989	Top decile as % median - Gross individual earnings				171.3562527
+	1990	Top decile as % median - Gross individual earnings				169.9652843
+	1991	Top decile as % median - Gross individual earnings				168.2509876
+	1992	Top decile as % median - Gross individual earnings				165.8022789
+	1993	Top decile as % median - Gross individual earnings				164.8303293
+	1994	Top decile as % median - Gross individual earnings				168.1635394
+	1995	Top decile as % median - Gross individual earnings				165.7417587
+	1996	Top decile as % median - Gross individual earnings				163.9968645
+	1997	Top decile as % median - Gross individual earnings				169.0015129
+	1998	Top decile as % median - Gross individual earnings				172.8599882
+	1999	Top decile as % median - Gross individual earnings				169.1175838
+	2000	Top decile as % median - Gross individual earnings				171.5269742
+	2001	Top decile as % median - Gross individual earnings				172.9932718
+	2002	Top decile as % median - Gross individual earnings				170.5931559
+	2003	Top decile as % median - Gross individual earnings				172.4392585
+	2004	Top decile as % median - Gross individual earnings				169.2456684
+	2005	Top decile as % median - Gross individual earnings				175.1018717
+	2006	Top decile as % median - Gross individual earnings				172.5200185
+	2007	Top decile as % median - Gross individual earnings				176.3065198
+	2008	Top decile as % median - Gross individual earnings				175.7656499
+	2009	Top decile as % median - Gross individual earnings				175.9488757
+	2010	Top decile as % median - Gross individual earnings				173.7439641
+	2011	Top decile as % median - Gross individual earnings				174.6094402
+	2012	Top decile as % median - Gross individual earnings				172.9689094
+	2013	Top decile as % median - Gross individual earnings				172.9228741
+	2014	Top decile as % median - Gross individual earnings				175.5739929
+	2015	Top decile as % median - Gross individual earnings				177.4358573
+	2016	Top decile as % median - Gross individual earnings				174.6724665
+	2017	Top decile as % median - Gross individual earnings				178.6206004
+	2018	Top decile as % median - Gross individual earnings				176.3817336
+	1909	Share of top 1% - Individual net wealth					37.41278914
+	1915	Share of top 1% - Individual net wealth					35.87508677
+	1922	Share of top 1% - Individual net wealth					25.35048531
+	1926	Share of top 1% - Individual net wealth					29.69439904
+	1967	Share of top 1% - Individual net wealth					19.42997839
+	1987	Share of top 1% - Individual net wealth					16.06279
+	1989	Share of top 1% - Individual net wealth					15.78018
+	1990	Share of top 1% - Individual net wealth					15.33996
+	1991	Share of top 1% - Individual net wealth					15.215
+	1992	Share of top 1% - Individual net wealth					15.34319
+	1993	Share of top 1% - Individual net wealth					13.66502
+	1994	Share of top 1% - Individual net wealth					13.8846
+	1995	Share of top 1% - Individual net wealth					13.8846
+	1996	Share of top 1% - Individual net wealth					15.09584
+	1997	Share of top 1% - Individual net wealth					16.20453
+	1998	Share of top 1% - Individual net wealth					17.2632
+	1999	Share of top 1% - Individual net wealth					21.15901
+	2000	Share of top 1% - Individual net wealth					21.22974
+	2001	Share of top 1% - Individual net wealth					20.55956
+	2002	Share of top 1% - Individual net wealth					19.61936
+	2003	Share of top 1% - Individual net wealth					20.41022
+	2004	Share of top 1% - Individual net wealth					20.73063
+	2005	Share of top 1% - Individual net wealth					21.62522
+	2009	Share of top 1% - Individual net wealth					22.66974844
