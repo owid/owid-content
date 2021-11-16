@@ -5,26 +5,39 @@ graphers
 $graphers_tsv
 
 $table_defs
-columns	$table_slugs
+columns	$slugs_crop
 	slug	name	type	transform	shortUnit
-	entity_name	Country	EntityName
-	year	Year	Year
-	population	Population	Population
-	production_kg	Production	Numeric		kg
-	yield_kg	Yield	Numeric		kg
-	land_use_ha	Land Use	Numeric		ha
-	imports_kg	Imports	Numeric		kg
-	exports_kg	Exports	Numeric		kg
-	domestic_supply_kg	Domestic supply	Numeric		kg
-	food_kg	Food	Numeric		kg
-	animal_feed_kg	Animal feed	Numeric		kg
-	other_areas_kg	Other areas	Numeric		kg
-	waste_kg	Waste	Numeric		kg
-	food_supply_kg	Food supply (kg)	Numeric		kg
+	Country	Country	EntityName
+	Year	Year	Year
+	production__tonnes	Production	Numeric		t
+	yield__tonnes_per_ha	Yield	Numeric		t/ha
+	area_harvested__ha	Land Use	Numeric		ha
+	imports_kg	Imports	Numeric		t
+	exports_kg	Exports	Numeric		t
+	domestic_supply_kg	Domestic supply	Numeric		t
+	food_kg	Food	Numeric		t
+	animal_feed_kg	Animal feed	Numeric		t
+	other_areas_kg	Other areas	Numeric		t
+	waste_kg	Waste	Numeric		t
+	food_supply_kg	Food supply (kg)	Numeric		t
 	food_supply_kcal	Food supply (kcal)	Numeric		kcal
-	food_supply_protein	Food supply (Proteins)	Numeric		kg
-	food_supply_fat	Food supply (Fat)	Numeric		kg
-	food_supply_kg_per_capita	Food supply (kg) per capita	Numeric	divideBy food_supply_kg population	kg
-	food_supply_kcal_per_capita	Food supply (kcal) per capita	Numeric	divideBy food_supply_kcal population	kcal
-	food_supply_protein_per_capita	Food supply (Proteins) per capita	Numeric	divideBy food_supply_protein population	kg
-	food_supply_fat_per_capita	Food supply (Fat) per capita	Numeric	divideBy food_supply_fat population	kg
+	food_supply_protein	Food supply (Proteins)	Numeric		t
+	food_supply_fat	Food supply (Fat)	Numeric		t
+
+columns	$slugs_animal_product
+	slug	name	type	transform	shortUnit
+	Country	Country	EntityName
+	Year	Year	Year
+	production__tonnes	Production	Numeric		t
+	yield__kg_per_animal	Yield	Numeric		kg/animal
+	imports_kg	Imports	Numeric		t
+	exports_kg	Exports	Numeric		t
+	domestic_supply_kg	Domestic supply	Numeric		t
+	food_kg	Food	Numeric		t
+	animal_feed_kg	Animal feed	Numeric		t
+	other_areas_kg	Other areas	Numeric		t
+	waste_kg	Waste	Numeric		t
+	food_supply_kg	Food supply (kg)	Numeric		t
+	food_supply_kcal	Food supply (kcal)	Numeric		kcal
+	food_supply_protein	Food supply (Proteins)	Numeric		t
+	food_supply_fat	Food supply (Fat)	Numeric		t

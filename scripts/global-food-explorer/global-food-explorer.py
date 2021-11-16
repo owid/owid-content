@@ -3,7 +3,8 @@
 # - (1) global-food-explorer.template.tsv: A template file that contains the header and footer of the spreadsheet, together with some placeholders.
 # - (2) foods.tsv: a list of foods and their singular and plural names.
 # - (3) views-per-food.tsv: a list of all available views for every food, including subtitle etc. The title can contain placeholders which are then filled out with the food name.
-# We take the cartesian product between (2) and (3), sprinkle some magic dust to make the titles work, and then write place that massive table into the template (1).
+# This is all further complicated by the fact that we have different categories of foods (currently: crops and animal products), which use different columns, units and subtitles.
+# We take the cartesian product between (2) and (3) - according to the category -, sprinkle some magic dust to make the titles work, and then place that massive table into the template (1).
 
 # %%
 from string import Template
@@ -15,7 +16,7 @@ import random
 
 
 def food_url(food):
-    return f"https://gist.githubusercontent.com/MarcelGerber/7011dc7aa5fee1e77a3a7ca2fbc30b37/raw/b3d151199b9f406622e146fa625f19b333d89923/{food}.csv"
+    return f"https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/{food}.csv"
 
 
 def substitute_title(row):
@@ -33,8 +34,8 @@ def substitute_title(row):
 
 
 def table_def(food):
-    # return f"table\t{food_url(food)}\t{food}"
-    return f"table\t{food_url('apples' if random.randint(0, 1) == 0 else 'bananas')}\t{food}"
+    return f"table\t{food_url(food)}\t{food}"
+    # return f"table\t{food_url('apples' if random.randint(0, 1) == 0 else 'bananas')}\t{food}"
 
 
 # %%
@@ -44,11 +45,19 @@ foods_df = pd.read_csv('foods.tsv', sep='\t', index_col='slug')
 views_df = pd.read_csv('views-per-food.tsv', sep='\t', dtype=str)
 
 # %%
-foods = pd.DataFrame([{'Food Dropdown': row['dropdown'], 'tableSlug': slug}
+# convert comma-separated list of categories to an actual list, such that we can explode and merge by category
+views_df['_categories'] = views_df['_categories'].apply(lambda x: x.split(','))
+views_df = views_df.explode('_categories').rename(
+    columns={'_categories': '_category'})
+foods = pd.DataFrame([{'Food Dropdown': row['dropdown'], 'tableSlug': slug, '_category': row['category']}
                      for slug, row in foods_df.iterrows()])
 
 # %%
-graphers = foods.merge(views_df, how='cross').apply(substitute_title, axis=1)
+# merge on column: _category
+graphers = foods.merge(views_df).apply(
+    substitute_title, axis=1)
+graphers = graphers.drop(columns='_category').sort_values(
+    by='Food Dropdown', kind='stable')
 
 # %%
 # We want to have a consistent column order for easier interpretation of the output.
@@ -62,6 +71,10 @@ remaining_cols = pd.Index(graphers.columns).difference(
 graphers = graphers.reindex(columns=col_order + remaining_cols)
 
 # %%
+food_by_category = foods_df.reset_index().set_index('category')['slug']
+categories = food_by_category.index.unique()
+
+# %%
 graphers_tsv = graphers.to_csv(sep='\t', index=False)
 graphers_tsv_indented = textwrap.indent(graphers_tsv, '\t')
 
@@ -69,9 +82,14 @@ table_defs = '\n'.join([table_def(food) for food in foods_df.index])
 table_slugs = '\t'.join(foods_df.index)
 
 # %%
+# contains e.g.: slug_crop: apples  bananas
+slugs_per_category = {
+    'slugs_' + category.replace('-', '_'): '\t'.join(food_by_category.loc[category]) for category in categories
+}
+
 with open('../../explorers/global-food-prototype.explorer.tsv', 'w', newline='\n') as f:
     f.write(template.substitute(
+        slugs_per_category,
         graphers_tsv=graphers_tsv_indented,
-        table_defs=table_defs,
-        table_slugs=table_slugs
+        table_defs=table_defs
     ))
