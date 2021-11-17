@@ -27,8 +27,8 @@ graphers
 	US: Total COVID-19 vaccine doses distributed per 100 people	Cumulative counts of COVID-19 vaccine doses reported to Operation Warp Speed as delivered per 100 people in the total population.	Doses distributed	Cumulative	true	distributed_per_hundred	true			LineChart		true
 
 
-table	https://covid.ourworldindata.org/data/vaccinations/us_state_vaccinations.csv	vaccinations
-columns	vaccinations
+table	https://covid.ourworldindata.org/data/vaccinations/us_state_vaccinations.csv
+columns
 	slug	name	type	transform	annotationsColumnSlug	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo	tolerance	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleLegendDescription	colorScaleNoDataLabel	colorScaleEqualSizeBins	colorScaleScheme	colorScaleInvert	colorScaleCategoricalBins	color
 	location	State name	EntityName			Centers for Disease Control and Prevention	https://covid.cdc.gov/covid-data-tracker/#vaccinations	Centers for Disease Control and Prevention			<p>State-by-state data on COVID-19 vaccinations in the United States. We only rely on the data made available by the US Centers for Disease Control and Prevention.</p><p>You can download the full dataset here: https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations/#united-states-vaccination-data</p>
 	date	Day	Date			Centers for Disease Control and Prevention	https://covid.cdc.gov/covid-data-tracker/#vaccinations	Centers for Disease Control and Prevention			<p>State-by-state data on COVID-19 vaccinations in the United States. We only rely on the data made available by the US Centers for Disease Control and Prevention.</p><p>You can download the full dataset here: https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations/#united-states-vaccination-data</p>
