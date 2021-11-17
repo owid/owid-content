@@ -10,7 +10,6 @@
 from string import Template
 import pandas as pd
 import textwrap
-import random
 
 # %%
 
@@ -71,25 +70,16 @@ remaining_cols = pd.Index(graphers.columns).difference(
 graphers = graphers.reindex(columns=col_order + remaining_cols)
 
 # %%
-food_by_category = foods_df.reset_index().set_index('category')['slug']
-categories = food_by_category.index.unique()
-
-# %%
 graphers_tsv = graphers.to_csv(sep='\t', index=False)
 graphers_tsv_indented = textwrap.indent(graphers_tsv, '\t')
 
 table_defs = '\n'.join([table_def(food) for food in foods_df.index])
-table_slugs = '\t'.join(foods_df.index)
+food_slugs = '\t'.join(foods_df.index)
 
 # %%
-# contains e.g.: slug_crop: apples  bananas
-slugs_per_category = {
-    'slugs_' + category.replace('-', '_'): '\t'.join(food_by_category.loc[category]) for category in categories
-}
-
 with open('../../explorers/global-food-prototype.explorer.tsv', 'w', newline='\n') as f:
     f.write(template.substitute(
-        slugs_per_category,
+        food_slugs=food_slugs,
         graphers_tsv=graphers_tsv_indented,
         table_defs=table_defs
     ))
