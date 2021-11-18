@@ -22,13 +22,15 @@ def substitute_title(row):
     # The title can include placeholders like ${food_singular_title}, which will be replaced with the actual food name here.
     food_slug = row['tableSlug']
     food_names = foods_df.loc[food_slug]
-    template = Template(row['title'])
-    row['title'] = template.substitute(
-        food_singular_title=food_names['singular'],
-        food_singular_lower=food_names['singular'].lower(),
-        food_plural_title=food_names['plural'],
-        food_plural_lower=food_names['plural'].lower(),
-    )
+    for key in ['title', 'subtitle']:
+        if isinstance(row[key], str):
+            template = Template(row[key])
+            row[key] = template.substitute(
+                food_singular_title=food_names['singular'],
+                food_singular_lower=food_names['singular'].lower(),
+                food_plural_title=food_names['plural'],
+                food_plural_lower=food_names['plural'].lower(),
+            )
     return row
 
 
