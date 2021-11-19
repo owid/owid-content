@@ -8,5 +8,5 @@ subNavCurrentId	artificial-intelligence
 wpBlockId
 tab	chart
 graphers
-	grapherId	Metric Dropdown	Long-run series? Checkbox
-	5372	Peer-reviewed publications	false
+	grapherId	Metric Dropdown
+	5372	Peer-reviewed publications
