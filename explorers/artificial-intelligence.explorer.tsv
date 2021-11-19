@@ -1,11 +1,11 @@
-explorerTitle	Climate Change Impacts Data Explorer
+explorerTitle	Artificial Intelligence Data Explorer
 isPublished	true
-entityType	region
-explorerSubtitle	Explore the impacts of global climate change.
+entityType	country
+explorerSubtitle	Explore the evolution and impacts of transformative AI
 selection	World
-subNavId	co2
-subNavCurrentId	climate-impacts
-wpBlockId	45009
+subNavId
+subNavCurrentId	artificial-intelligence
+wpBlockId
 tab	chart
 graphers
 	grapherId	Metric Dropdown	Long-run series? Checkbox
