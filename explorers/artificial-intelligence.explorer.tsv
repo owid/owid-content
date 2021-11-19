@@ -10,3 +10,8 @@ tab	chart
 graphers
 	grapherId	Metric Dropdown
 	5372	Peer-reviewed publications
+	5373	Peer-reviewed publications (% of world)
+	5374	Job postings
+	5376	Investment in companies
+	5378	Education programs
+	5424	Education programs per capita
