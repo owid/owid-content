@@ -8,10 +8,13 @@ subNavCurrentId	artificial-intelligence
 wpBlockId
 tab	chart
 graphers
-	grapherId	Metric Dropdown
-	5372	Peer-reviewed publications
-	5373	Peer-reviewed publications (% of world)
-	5374	Job postings
-	5376	Investment in companies
-	5378	Education programs
-	5424	Education programs per capita
+	grapherId	Category Radio	Metric Dropdown
+	5372	Research & development	Peer-reviewed publications
+	5373	Research & development	Peer-reviewed publications (% of world)
+	5374	Economy	Job postings
+	5376	Economy	Investment in companies
+		Technical performance	Computing power
+	5378	Education	Education programs
+	5424	Education	Education programs per capita
+		National strategies
+		Ethical challenges
