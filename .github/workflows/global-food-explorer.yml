@@ -1,6 +1,9 @@
 name: Global Food Explorer
 on:
   push:
+    branches:
+      - master
+      - staging
     paths:
       - "scripts/global-food-explorer/**"
   pull_request:
