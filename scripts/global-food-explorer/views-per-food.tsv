@@ -1,4 +1,4 @@
-_categories	title	subtitle	Metric Dropdown	Unit Radio	Per Capita Checkbox	type	ySlugs	hasMapTab	yAxisMin
+_tags	title	subtitle	Metric Dropdown	Unit Radio	Per Capita Checkbox	type	ySlugs	hasMapTab	yAxisMin
 crop,animal-product	${food_singular} production		Production	Tonnes	false	LineChart	production__tonnes	true	0
 crop	${food_singular} yield	Yield is measured as the quantity produced per unit area of land used to grow it.	Yield		false	LineChart	yield__tonnes_per_ha	true	0
 animal-product	${food_singular} yield	Yield is measured as the quantity produced per animal.	Yield		false	LineChart	yield__kg_per_animal	true	0

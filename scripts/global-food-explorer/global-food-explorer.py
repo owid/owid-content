@@ -3,8 +3,8 @@
 # - (1) global-food-explorer.template.tsv: A template file that contains the header and footer of the spreadsheet, together with some placeholders.
 # - (2) foods.tsv: a list of foods and their singular and plural names.
 # - (3) views-per-food.tsv: a list of all available views for every food, including subtitle etc. The title can contain placeholders which are then filled out with the food name.
-# This is all further complicated by the fact that we have different categories of foods (currently: crops and animal products), which use different columns, units and subtitles.
-# We take the cartesian product between (2) and (3) - according to the category -, sprinkle some magic dust to make the titles work, and then place that massive table into the template (1).
+# This is all further complicated by the fact that we have different tag for food products, which enable views with different columns, units and subtitles.
+# We take the cartesian product between (2) and (3) - according to the tag -, sprinkle some magic dust to make the titles work, and then place that massive table into the template (1).
 
 # %%
 from string import Template
@@ -46,24 +46,28 @@ foods_df = pd.read_csv('foods.tsv', sep='\t', index_col='slug')
 views_df = pd.read_csv('views-per-food.tsv', sep='\t', dtype=str)
 
 # %%
-# convert comma-separated list of categories to an actual list, such that we can explode and merge by category
-views_df['_categories'] = views_df['_categories'].apply(lambda x: x.split(','))
-views_df = views_df.explode('_categories').rename(
-    columns={'_categories': '_category'})
-views_df['_category'] = views_df['_category'].str.strip()
-foods = pd.DataFrame([{'Food Dropdown': row['dropdown'], 'tableSlug': slug, '_category': row['category']}
+# convert comma-separated list of tags to an actual list, such that we can explode and merge by tag
+views_df['_tags'] = views_df['_tags'].apply(lambda x: x.split(','))
+views_df = views_df.explode('_tags').rename(
+    columns={'_tags': '_tag'})
+views_df['_tag'] = views_df['_tag'].str.strip()
+foods = pd.DataFrame([{'Food Dropdown': row['dropdown'], 'tableSlug': slug, '_tags': row['_tags'].split(",")}
                      for slug, row in foods_df.iterrows()])
+foods = foods.explode('_tags').rename(
+    columns={'_tags': '_tag'})
 
 # %%
-# merge on column: _category
-graphers = foods.merge(views_df).apply(
+# merge on column: _tag
+graphers = views_df.merge(foods).apply(
     substitute_title, axis=1)
-graphers = graphers.drop(columns='_category').sort_values(
+graphers = graphers.drop(columns='_tag').sort_values(
     by='Food Dropdown', kind='stable')
+# drop duplicates introduced by the tag merge
+graphers = graphers.drop_duplicates()
 
 # %%
 # We want to have a consistent column order for easier interpretation of the output.
-# However, if there are any columns added to the views tsv at any point in the future,
+# However, if there are any columns added to views.tsv at any point in the future,
 # we want to make sure these are also present in the output.
 # Therefore, we define the column order and also add any remaining columns to the output.
 col_order = ['title', 'Food Dropdown', 'Metric Dropdown', 'Unit Radio',
