@@ -19,16 +19,16 @@ def food_url(food):
 
 
 def substitute_title(row):
-    # The title can include placeholders like ${food_singular_title}, which will be replaced with the actual food name here.
+    # The title can include placeholders like ${food_singular}, which will be replaced with the actual food name here.
     food_slug = row['tableSlug']
     food_names = foods_df.loc[food_slug]
     for key in ['title', 'subtitle']:
         if isinstance(row[key], str):
             template = Template(row[key])
             row[key] = template.substitute(
-                food_singular_title=food_names['singular'],
+                food_singular=food_names['singular'],
                 food_singular_lower=food_names['singular'].lower(),
-                food_plural_title=food_names['plural'],
+                food_plural=food_names['plural'],
                 food_plural_lower=food_names['plural'].lower(),
             )
     return row
@@ -50,6 +50,7 @@ views_df = pd.read_csv('views-per-food.tsv', sep='\t', dtype=str)
 views_df['_categories'] = views_df['_categories'].apply(lambda x: x.split(','))
 views_df = views_df.explode('_categories').rename(
     columns={'_categories': '_category'})
+views_df['_category'] = views_df['_category'].str.strip()
 foods = pd.DataFrame([{'Food Dropdown': row['dropdown'], 'tableSlug': slug, '_category': row['category']}
                      for slug, row in foods_df.iterrows()])
 
