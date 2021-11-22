@@ -1,0 +1,20 @@
+explorerTitle	Artificial Intelligence Data Explorer
+isPublished	false
+entityType	country
+explorerSubtitle	Explore the evolution and impacts of transformative AI.
+selection	World
+subNavId
+subNavCurrentId	artificial-intelligence
+wpBlockId
+tab	chart
+graphers
+	grapherId	Category Radio	Metric Dropdown
+	5372	Research & development	Peer-reviewed publications
+	5373	Research & development	Peer-reviewed publications (% of world)
+	5374	Economy	Job postings
+	5376	Economy	Investment in companies
+		Technical performance	Computing power
+	5378	Education	Education programs
+	5424	Education	Education programs per capita
+		National strategies
+		Ethical challenges
