@@ -5,8 +5,7 @@ Everything in this folder is used to generate the massive spreadsheet config for
 ## `global-food-explorer.py`
 
 This is the Python script that combines all the input files into a single `.explorer.tsv` file.
-Run it using `python global-food-explorer.py`.
-You need to have a recent version of Pandas installed.
+Set it up using `poetry install` and run it using `poetry run python global-food-explorer.yml`.
 
 ## `foods.tsv`
 
