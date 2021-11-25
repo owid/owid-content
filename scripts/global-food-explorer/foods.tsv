@@ -1,0 +1,196 @@
+slug	dropdown	singular	plural	_tags
+almonds	Almonds	Almond	Almonds	crop
+apples	Apples	Apple	Apples	crop
+apricots	Apricots	Apricot	Apricots	crop
+areca_nuts	Areca Nuts	Areca Nut	Areca Nuts	crop
+artichokes	Artichokes	Artichoke	Artichokes	crop
+asparagus	Asparagus	Asparagus	Asparagus	crop
+avocados	Avocados	Avocado	Avocados	crop
+bananas	Bananas	Banana	Bananas	crop
+barley	Barley	Barley	Barley	crop
+beans_dry	Beans, dry	Dry beans	Dry bean	crop
+beans_green	Beans, green	Green bean	Green beans	crop
+beef_and_buffalo_meat	Beef and Buffalo Meat	Beef and Buffalo Meat	Beef and Buffalo Meat	animal-product
+beeswax	Beeswax	Beeswax	Beeswax	animal-product
+blueberries	Blueberries	Blueberry	Blueberries	crop
+brazil_nuts_with_shell	Brazil nuts, with shell	Brazil nut	Brazil nuts	crop
+broad_beans	Broad beans	Broad bean	Broad beans	crop
+buckwheat	Buckwheat	Buckwheat	Buckwheat	crop
+buffalo_hides	Buffalo hides	Buffalo hide	Buffalo hides	animal-product
+butter_ghee	Butter, Ghee	Butter and ghee	Butter and ghee	animal-product
+cabbages	Cabbages	Cabbage	Cabbages	crop
+canary_seed	Canary seed	Canary seed	Canary seeds	crop
+carrots_and_turnips	Carrots and turnips	Carrot and turnip	Carrots and turnips	crop
+cashew_nuts	Cashew nuts	Cashew nut	Cashew nuts	crop
+cassava	Cassava	Cassava	Cassava	crop
+castor_oil_seed	Castor oil seed	Castor oil seed	Castor oil seeds	crop
+cattle_hides	Cattle hides	Cattle hide	Cattle hides	animal-product
+cauliflowers_and_broccoli	Cauliflowers and broccoli	Cauliflower and broccoli	Cauliflowers and broccoli	crop
+cereals	Cereals	Cereal	Cereals	crop
+cheese	Cheese	Cheese	Cheese	animal-product
+cherries	Cherries	Cherry	Cherries	crop
+chestnuts	Chestnuts	Chestnut	Chestnuts	crop
+chickpeas	Chickpeas	Chickpea	Chickpeas	crop
+chillies_and_peppers_dry	Chillies and peppers, dry	Dry Chili and pepper	Dry chillies and peppers	crop
+chillies_and_peppers_green	Chillies and peppers, green	Green Chili and pepper	Green chillies and peppers	crop
+citrus_fruit	Citrus fruit	Citrus fruit	Citrus fruit	crop
+cocoa_beans	Cocoa beans	Cocoa bean	Cocoa beans	crop
+coconut_oil	Coconut oil	Coconut oil	Coconut oil	crop
+coconuts	Coconuts	Coconut	Coconuts	crop
+coffee_green	Coffee, green	Green coffee	Green coffee	crop
+cottonseed	Cottonseed	Cottonseed	Cottonseeds	crop
+cottonseed_oil	Cottonseed oil	Cottonseed oil	Cottonseed oil	crop
+cow_peas	Cow peas	Cow pea	Cow peas	crop
+cranberries	Cranberries	Cranberry	Cranberries	crop
+cream	Cream	Cream	Cream	crop
+cucumbers_and_gherkins	Cucumbers and gherkins	Cucumber and gherkin	Cucumbers and gherkins	crop
+currants	Currants	Currant	Currants	crop
+dates	Dates	Date	Dates	crop
+eggplants	Eggplants	Eggplant	Eggplants	crop
+eggs	Eggs	Egg	Eggs	animal-product
+eggs_from_other_birds	Eggs from other birds	Egg (from other birds)	Eggs (from other birds)	animal-product
+fat_buffaloes	Fat, buffaloes	Buffalo fat	Buffalo fat	animal-product
+fat_camels	Fat, camels	Camel fat	Camel fat	animal-product
+fat_cattle	Fat, cattle	Cattle fat	Cattle fat	animal-product
+fat_goats	Fat, goats	Goat fat	Goat fat	animal-product
+fat_pigs	Fat, pigs	Pig fat	Pig fat	animal-product
+fat_sheep	Fat, sheep	Sheep fat	Sheep fat	animal-product
+fibre_crops	Fibre crops	Fibre crop	Fibre crops	crop
+figs	Figs	Fig	Figs	crop
+fruit	Fruit	Fruit	Fruit	crop
+garlic	Garlic	Garlic	Garlic	crop
+ghee_buffalo_milk	Ghee, buffalo milk	Ghee, buffalo milk	Ghee, buffalo milk	animal-product
+ghee_butteroil_of_cow_milk	Ghee, butteroil of cow milk	Ghee, butteroil of cow milk	Ghee, butteroil of cow milk	animal-product
+grapefruit	Grapefruit	Grapefruit	Grapefruits	crop
+grapes	Grapes	Grapes	Grapes	crop
+green_maize	Green maize	Green maize	Green maize	crop
+groundnuts	Groundnuts	Groundnut	Groundnuts	crop
+groundnut_oil	Groundnut Oil	Groundnut Oil	Groundnut Oil	crop
+hazelnuts	Hazelnuts	Hazelnut	Hazelnuts	crop
+hempseed	Hempseed	Hempseed	Hempseeds	crop
+hen_eggs	Hen eggs	Hen egg	Hen eggs	animal-product
+herbs_eg_fennel	Herbs (e.g. fennel)	Herb (e.g. fennel)	Herbs (e.g. fennel)	crop
+honey	Honey	Honey	Honey	animal-product
+jute	Jute	Jute	Jute	crop
+karite_nuts	Karite nuts	Karite nut	Karite nuts	crop
+kiwi	Kiwi	Kiwi	Kiwi	crop
+kola_nuts	Kola nuts	Kola nut	Kola nuts	crop
+leeks	Leeks	Leek	Leeks	crop
+lemons_and_limes	Lemons and limes	Lemon and lime	Lemons and limes	crop
+lentils	Lentils	Lentil	Lentils	crop
+lettuce	Lettuce	Lettuce	Lettuce	crop
+linseed	Linseed	Linseed	Linseeds	crop
+linseed_oil	Linseed oil	Linseed oil	Linseed oil	crop
+maize	Maize	Maize	Maize	crop
+maize_oil	Maize Oil	Maize Oil	Maize Oil	crop
+mangoes	Mangoes	Mango	Mangoes	crop
+margarine	Margarine	Margarine	Margarine	animal-product
+meat_poultry	Meat, Poultry	Poultry meat	Poultry meat	animal-product
+meat_total	Meat, Total	Total meat	All meat	animal-product
+meat_ass	Meat, ass	Ass meat	Ass meat	animal-product
+meat_buffalo	Meat, buffalo	Buffalo meat	Buffalo meat	animal-product
+meat_camel	Meat, camel	Camel meat	Camel meat	animal-product
+meat_cattle	Meat, cattle	Cattle meat	Cattle meat	animal-product
+meat_chicken	Meat, chicken	Chicken meat	Chicken meat	animal-product
+meat_duck	Meat, duck	Duck meat	Duck meat	animal-product
+meat_game	Meat, game	Game meat	Game meat	animal-product
+meat_goat	Meat, goat	Goat meat	Goat meat	animal-product
+meat_goose_and_guinea_fowl	Meat, goose and guinea fowl	Goose and guinea fowl meat	Goose and guinea fowl meat	animal-product
+meat_horse	Meat, horse	Horse meat	Horse meat	animal-product
+meat_mule	Meat, mule	Mule meat	Mule meat	animal-product
+meat_other_birds	Meat, other birds	Other bird meat	Other bird meat	animal-product
+meat_other_camelids	Meat, other camelids	Other camelid meat	Other camelid meat	animal-product
+meat_other_rodents	Meat, other rodents	Other rodent meat	Other rodent meat	animal-product
+meat_pig	Meat, pig	Pig meat	Pig meat	animal-product
+meat_rabbit	Meat, rabbit	Rabbit meat	Rabbit meat	animal-product
+meat_sheep	Meat, sheep	Sheep meat	Sheep meat	animal-product
+meat_turkey	Meat, turkey	Turkey meat	Turkey meat	animal-product
+melon	Melon	Melon	Melon	crop
+melonseed	Melonseed	Melonseed	Melonseeds	crop
+milk_excluding_butter	Milk, excluding butter	Milk	Milk	animal-product
+millet	Millet	Millet	Millet	crop
+mixed_grains	Mixed grains	Mixed grain	Mixed grains	crop
+molasses	Molasses	Molasses	Molasses	crop
+mustard_seed	Mustard seed	Mustard seed	Mustard seeds	crop
+oats	Oats	Oat	Oats	crop
+offals_buffaloes	Offals, buffaloes	Buffalo offal	Buffalo offal	animal-product
+offals_camels	Offals, camels	Camel offal	Camel offal	animal-product
+offals_cattle	Offals, cattle	Cattle offal	Cattle offal	animal-product
+offals_goats	Offals, goats	Goat offal	Goat offal	animal-product
+offals_horses	Offals, horses	Horse offal	Horse offal	animal-product
+offals_pigs	Offals, pigs	Pig offal	Pig offal	animal-product
+offals_sheep	Offals, sheep	Sheep offal	Sheep offal	animal-product
+oilcrops	Oilcrops	Oilcrop	Oilcrops	crop
+oilcrops_cake_equivalent	Oilcrops, cake equivalent	Oilcrop, cake equivalent	Oilcrops, cake equivalent	crop
+oilcrops_oil_equivalent	Oilcrops, oil equivalent	Oilcrop, oil equivalent	Oilcrops, oil equivalent	crop
+okra	Okra	Okra	Okra	crop
+olive_oil	Olive Oil	Olive Oil	Olive Oil	crop
+olives	Olives	Olive	Olives	crop
+onions	Onions	Onion	Onions	crop
+oranges	Oranges	Orange	Oranges	crop
+other_cereals	Other cereals	Other cereal	Other cereals	crop
+other_meats	Other meats	Other meat	Other meats	animal-product
+other_oilseeds	Other oilseeds	Other oilseed	Other oilseeds	crop
+palm_fruit_oil	Palm fruit oil	Palm fruit oil	Palm fruit oil	crop
+palm_kernel_oil	Palm kernel oil	Palm kernel oil	Palm kernel oil	crop
+palm_kernels	Palm kernels	Palm kernel	Palm kernels	crop
+palm_oil	Palm Oil	Palm Oil	Palm Oil	crop
+papayas	Papayas	Papaya	Papayas	crop
+peaches_and_nectarines	Peaches and nectarines	Peach and nectarine	Peaches and nectarines	crop
+pears	Pears	Pear	Pears	crop
+peas_dry	Peas, dry	Dry pea	Dry peas	crop
+peas_green	Peas, green	Green pea	Green peas	crop
+pepper	Pepper	Pepper	Pepper	crop
+pigeon_peas	Pigeon peas	Pigeon pea	Pigeon peas	crop
+pineapples	Pineapples	Pineapple	Pineapples	crop
+pistachios	Pistachios	Pistachio	Pistachios	crop
+plantains	Plantains	Plantain	Plantains	crop
+plums	Plums	Plum	Plums	crop
+poppy_seeds	Poppy seed	Poppy seed	Poppy seeds	crop
+potatoes	Potatoes	Potato	Potatoes	crop
+pulses	Pulses	Pulse	Pulses	crop
+quinoa	Quinoa	Quinoa	Quinoa	crop
+rapeseed	Rapeseed	Rapeseed	Rapeseeds	crop
+rapeseed_oil	Rapeseed oil	Rapeseed oil	Rapeseed oil	crop
+raspberries	Raspberries	Raspberry	Raspberries	crop
+rice	Rice	Rice	Rice	crop
+rice_milled_equivalent	Rice (milled equivalent)	Rice (milled equivalent)	Rice (milled equivalent)	crop
+roots_and_tubers	Roots and tubers	Root and tuber	Roots and tubers	crop
+rubber	Rubber	Rubber	Rubber	crop
+rye	Rye	Rye	Rye	crop
+safflower_oil	Safflower oil	Safflower oil	Safflower oil	crop
+safflower_seed	Safflower seed	Safflower seed	Safflower seeds	crop
+seed_cotton	Seed cotton	Seed cotton	Seed cotton	crop
+sesame_oil	Sesame oil	Sesame oil	Sesame oil	crop
+sesame_seed	Sesame seed	Sesame seed	Sesame seeds	crop
+sheep_and_goat_meat	Sheep and goat meat	Sheep and goat meat	Sheep and goat meat	crop
+silk	Silk	Silk	Silk	crop
+skins_goat	Skins, goat	Goat skin	Goat skins	animal-product
+skins_sheep	Skins, sheep	Sheep skin	Sheep skins	animal-product
+sorghum	Sorghum	Sorghum	Sorghum	crop
+soybean_oil	Soybean oil	Soybean oil	Soybean oil	crop
+soybeans	Soybeans	Soybean	Soybeans	crop
+spinach	Spinach	Spinach	Spinach	crop
+strawberries	Strawberries	Strawberry	Strawberries	crop
+string_beans	String beans	String bean	String beans	crop
+sugar_raw	Sugar (raw)	Sugar (raw)	Sugar (raw)	crop
+sugar_beet	Sugar beet	Sugar beet	Sugar beet	crop
+sugar_cane	Sugar cane	Sugar cane	Sugar cane	crop
+sugar_crops	Sugar crops	Sugar crop	Sugar crops	crop
+sunflower_oil	Sunflower oil	Sunflower oil	Sunflower oil	crop
+sunflower_seed	Sunflower seed	Sunflower seed	Sunflower seeds	crop
+sweet_potatoes	Sweet potatoes	Sweet potato	Sweet potatoes	crop
+tangerines	Tangerines	Tangerine	Tangerines	crop
+tea	Tea	Tea	Tea	crop
+tobacco	Tobacco	Tobacco	Tobacco	crop
+tomatoes	Tomatoes	Tomato	Tomatoes	crop
+treenuts	Treenuts	Treenut	Treenuts	crop
+vegetables	Vegetables	Vegetable	Vegetables	crop
+walnuts	Walnuts	Walnut	Walnuts	crop
+watermelons	Watermelons	Watermelon	Watermelons	crop
+wheat	Wheat	Wheat	Wheat	crop
+whey	Whey	Whey	Whey	animal-product
+wine	Wine	Wine	Wine	crop
+wool	Wool	Wool	Wool	crop
+yams	Yams	Yam	Yams	crop
+yoghurt	Yoghurt	Yoghurt	Yoghurt	animal-product

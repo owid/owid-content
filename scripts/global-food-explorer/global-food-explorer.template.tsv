@@ -1,0 +1,26 @@
+explorerTitle	Global Food Explorer (Prototype)
+explorerSubtitle
+selection	United States	Germany	France
+graphers
+$graphers_tsv
+
+$table_defs
+columns	$food_slugs
+	slug	name	type	transform	shortUnit	unit	sourceName	dataPublishedBy
+	Country	Country	EntityName
+	Year	Year	Year
+	production__tonnes	Production	Numeric		t	tonnes	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)
+	yield__tonnes_per_ha	Yield	Numeric		t/ha	tonnes per hectare	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)
+	yield__kg_per_animal	Yield	Numeric		kg/animal	kilograms per animal	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)
+	area_harvested__ha	Land Use	Numeric		ha	hectares	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)
+	imports_kg	Imports	Numeric		t	tonnes
+	exports_kg	Exports	Numeric		t	tonnes
+	domestic_supply_kg	Domestic supply	Numeric		t	tonnes
+	food_kg	Food	Numeric		t	tonnes
+	animal_feed_kg	Animal feed	Numeric		t	tonnes
+	other_areas_kg	Other areas	Numeric		t	tonnes
+	waste_kg	Waste	Numeric		t	tonnes
+	food_supply_kg	Food supply (kg)	Numeric		t	tonnes
+	food_supply_kcal	Food supply (kcal)	Numeric		kcal	kilocalories
+	food_supply_protein	Food supply (Proteins)	Numeric		t	tonnes
+	food_supply_fat	Food supply (Fat)	Numeric		t	tonnes
