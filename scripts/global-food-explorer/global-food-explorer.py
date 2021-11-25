@@ -48,6 +48,9 @@ with open('global-food-explorer.template.tsv', 'r') as templateFile:
 foods_df = pd.read_csv('foods.tsv', sep='\t', index_col='slug')
 views_df = pd.read_csv('views-per-food.tsv', sep='\t', dtype=str)
 
+print(f"🥝 Read {len(foods_df.index)} fruits")
+print(f"📑 Read {len(views_df.index)} different views")
+
 # %%
 # convert comma-separated list of tags to an actual list, such that we can explode and merge by tag
 views_df['_tags'] = views_df['_tags'].apply(lambda x: x.split(','))
@@ -59,6 +62,16 @@ foods = pd.DataFrame([{'Food Dropdown': row['dropdown'], 'tableSlug': slug, '_ta
 foods = foods.explode('_tags').rename(
     columns={'_tags': '_tag'})
 
+food_tags = set(foods['_tag'])
+view_tags = set(views_df['_tag'])
+tags = food_tags | view_tags
+print(f"🏷️ Found {len(tags)} tags: {', '.join(tags)}")
+
+symmetric_diff = food_tags.symmetric_difference(view_tags)
+if len(symmetric_diff) > 0:
+    print(
+        f"⚠️ Found {len(symmetric_diff)} tags that only appear in one of the input files: {', '.join(symmetric_diff)}")
+
 # %%
 # merge on column: _tag
 graphers = views_df.merge(foods).apply(
@@ -67,6 +80,8 @@ graphers = graphers.drop(columns='_tag').sort_values(
     by='Food Dropdown', kind='stable')
 # drop duplicates introduced by the tag merge
 graphers = graphers.drop_duplicates()
+
+print(f"📈 Generated {len(graphers.index)} views")
 
 # %%
 # We want to have a consistent column order for easier interpretation of the output.
@@ -96,4 +111,4 @@ with open(outfile, 'w', newline='\n') as f:
         table_defs=table_defs
     ))
 
-    print(f"Explorer config written to {path.abspath(outfile)}")
+    print(f"💾 Explorer config written to {path.abspath(outfile)}")
