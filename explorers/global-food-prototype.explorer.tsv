@@ -8,7 +8,7 @@ graphers
 	Almond production	Almonds	Production	Tonnes	false		LineChart	production__tonnes	almonds	true	0
 	Almond yield	Almonds	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	almonds	true	0
 	Land used for almond production	Almonds	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	almonds	true	0
-	Animal Fat imports	Animal Fats	Imports	Tonnes	false		LineChart	imports__tonnes	animal_fats	true	0
+	Animal Fat imports	Animal Fats	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	animal_fats	true	0
 	Animal Fat exports	Animal Fats	Exports	Tonnes	false		LineChart	exports__tonnes	animal_fats	true	0
 	Domestic supply of animal fats	Animal Fats	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	animal_fats	true	0
 	Animal Fats used for direct human food	Animal Fats	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	animal_fats	true	0
@@ -22,7 +22,7 @@ graphers
 	Apple production	Apples	Production	Tonnes	false		LineChart	production__tonnes	apples	true	0
 	Apple yield	Apples	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	apples	true	0
 	Land used for apple production	Apples	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	apples	true	0
-	Apple imports	Apples	Imports	Tonnes	false		LineChart	imports__tonnes	apples	true	0
+	Apple imports	Apples	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	apples	true	0
 	Apple exports	Apples	Exports	Tonnes	false		LineChart	exports__tonnes	apples	true	0
 	Domestic supply of apples	Apples	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	apples	true	0
 	Apples used for direct human food	Apples	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	apples	true	0
@@ -51,7 +51,7 @@ graphers
 	Banana production	Bananas	Production	Tonnes	false		LineChart	production__tonnes	bananas	true	0
 	Banana yield	Bananas	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	bananas	true	0
 	Land used for banana production	Bananas	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	bananas	true	0
-	Banana imports	Bananas	Imports	Tonnes	false		LineChart	imports__tonnes	bananas	true	0
+	Banana imports	Bananas	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	bananas	true	0
 	Banana exports	Bananas	Exports	Tonnes	false		LineChart	exports__tonnes	bananas	true	0
 	Domestic supply of bananas	Bananas	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	bananas	true	0
 	Bananas used for direct human food	Bananas	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	bananas	true	0
@@ -65,7 +65,7 @@ graphers
 	Barley production	Barley	Production	Tonnes	false		LineChart	production__tonnes	barley	true	0
 	Barley yield	Barley	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	barley	true	0
 	Land used for barley production	Barley	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	barley	true	0
-	Barley imports	Barley	Imports	Tonnes	false		LineChart	imports__tonnes	barley	true	0
+	Barley imports	Barley	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	barley	true	0
 	Barley exports	Barley	Exports	Tonnes	false		LineChart	exports__tonnes	barley	true	0
 	Domestic supply of barley	Barley	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	barley	true	0
 	Barley used for direct human food	Barley	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	barley	true	0
@@ -79,7 +79,7 @@ graphers
 	Dry bean production	Beans, dry	Production	Tonnes	false		LineChart	production__tonnes	beans_dry	true	0
 	Dry bean yield	Beans, dry	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	beans_dry	true	0
 	Land used for dry bean production	Beans, dry	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	beans_dry	true	0
-	Dry bean imports	Beans, dry	Imports	Tonnes	false		LineChart	imports__tonnes	beans_dry	true	0
+	Dry bean imports	Beans, dry	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	beans_dry	true	0
 	Dry bean exports	Beans, dry	Exports	Tonnes	false		LineChart	exports__tonnes	beans_dry	true	0
 	Domestic supply of dry beans	Beans, dry	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	beans_dry	true	0
 	Dry beans used for direct human food	Beans, dry	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	beans_dry	true	0
@@ -126,7 +126,7 @@ graphers
 	Cassava production	Cassava	Production	Tonnes	false		LineChart	production__tonnes	cassava	true	0
 	Cassava yield	Cassava	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	cassava	true	0
 	Land used for cassava production	Cassava	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	cassava	true	0
-	Cassava imports	Cassava	Imports	Tonnes	false		LineChart	imports__tonnes	cassava	true	0
+	Cassava imports	Cassava	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	cassava	true	0
 	Cassava exports	Cassava	Exports	Tonnes	false		LineChart	exports__tonnes	cassava	true	0
 	Domestic supply of cassava	Cassava	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	cassava	true	0
 	Cassava used for direct human food	Cassava	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	cassava	true	0
@@ -161,7 +161,7 @@ graphers
 	Dry Chili and pepper production	Chillies and peppers, dry	Production	Tonnes	false		LineChart	production__tonnes	chillies_and_peppers_dry	true	0
 	Dry Chili and pepper yield	Chillies and peppers, dry	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	chillies_and_peppers_dry	true	0
 	Land used for dry chili and pepper production	Chillies and peppers, dry	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	chillies_and_peppers_dry	true	0
-	Dry Chili and pepper imports	Chillies and peppers, dry	Imports	Tonnes	false		LineChart	imports__tonnes	chillies_and_peppers_dry	true	0
+	Dry Chili and pepper imports	Chillies and peppers, dry	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	chillies_and_peppers_dry	true	0
 	Dry Chili and pepper exports	Chillies and peppers, dry	Exports	Tonnes	false		LineChart	exports__tonnes	chillies_and_peppers_dry	true	0
 	Domestic supply of dry chillies and peppers	Chillies and peppers, dry	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	chillies_and_peppers_dry	true	0
 	Dry chillies and peppers used for direct human food	Chillies and peppers, dry	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	chillies_and_peppers_dry	true	0
@@ -177,7 +177,7 @@ graphers
 	Citrus fruit production	Citrus fruit	Production	Tonnes	false		LineChart	production__tonnes	citrus_fruit	true	0
 	Citrus fruit yield	Citrus fruit	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	citrus_fruit	true	0
 	Land used for citrus fruit production	Citrus fruit	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	citrus_fruit	true	0
-	Cocoa bean imports	Cocoa beans	Imports	Tonnes	false		LineChart	imports__tonnes	cocoa_beans	true	0
+	Cocoa bean imports	Cocoa beans	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	cocoa_beans	true	0
 	Cocoa bean exports	Cocoa beans	Exports	Tonnes	false		LineChart	exports__tonnes	cocoa_beans	true	0
 	Domestic supply of cocoa beans	Cocoa beans	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	cocoa_beans	true	0
 	Cocoa beans used for direct human food	Cocoa beans	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	cocoa_beans	true	0
@@ -189,7 +189,7 @@ graphers
 	Per capita fat consumption from cocoa beans per day	Cocoa beans	Food available for consumption	Fat	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__fat_g_per_day_per_capita	cocoa_beans	true	0
 	Cocoa beans used for animal feed	Cocoa beans	Feed	Tonnes	false	The quantity that is allocated to feed for livestock.	LineChart	feed__tonnes	cocoa_beans	true	0
 	Coconut oil production	Coconut oil	Production	Tonnes	false		LineChart	production__tonnes	coconut_oil	true	0
-	Coconut oil imports	Coconut oil	Imports	Tonnes	false		LineChart	imports__tonnes	coconut_oil	true	0
+	Coconut oil imports	Coconut oil	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	coconut_oil	true	0
 	Coconut oil exports	Coconut oil	Exports	Tonnes	false		LineChart	exports__tonnes	coconut_oil	true	0
 	Domestic supply of coconut oil	Coconut oil	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	coconut_oil	true	0
 	Coconut oil used for direct human food	Coconut oil	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	coconut_oil	true	0
@@ -200,7 +200,7 @@ graphers
 	Per capita protein consumption from coconut oil per day	Coconut oil	Food available for consumption	Protein	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__protein_g_per_day_per_capita	coconut_oil	true	0
 	Per capita fat consumption from coconut oil per day	Coconut oil	Food available for consumption	Fat	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__fat_g_per_day_per_capita	coconut_oil	true	0
 	Coconut oil used for animal feed	Coconut oil	Feed	Tonnes	false	The quantity that is allocated to feed for livestock.	LineChart	feed__tonnes	coconut_oil	true	0
-	Coconut imports	Coconuts	Imports	Tonnes	false		LineChart	imports__tonnes	coconuts	true	0
+	Coconut imports	Coconuts	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	coconuts	true	0
 	Coconut exports	Coconuts	Exports	Tonnes	false		LineChart	exports__tonnes	coconuts	true	0
 	Domestic supply of coconuts	Coconuts	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	coconuts	true	0
 	Coconuts used for direct human food	Coconuts	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	coconuts	true	0
@@ -216,7 +216,7 @@ graphers
 	Land used for green coffee production	Coffee, green	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	coffee_green	true	0
 	Cotton production	Cotton	Production	Tonnes	false		LineChart	production__tonnes	cotton	true	0
 	Cottonseed production	Cottonseed	Production	Tonnes	false		LineChart	production__tonnes	cottonseed	true	0
-	Cottonseed imports	Cottonseed	Imports	Tonnes	false		LineChart	imports__tonnes	cottonseed	true	0
+	Cottonseed imports	Cottonseed	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	cottonseed	true	0
 	Cottonseed exports	Cottonseed	Exports	Tonnes	false		LineChart	exports__tonnes	cottonseed	true	0
 	Domestic supply of cottonseeds	Cottonseed	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	cottonseed	true	0
 	Cottonseeds used for direct human food	Cottonseed	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	cottonseed	true	0
@@ -228,7 +228,7 @@ graphers
 	Per capita fat consumption from cottonseeds per day	Cottonseed	Food available for consumption	Fat	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__fat_g_per_day_per_capita	cottonseed	true	0
 	Cottonseeds used for animal feed	Cottonseed	Feed	Tonnes	false	The quantity that is allocated to feed for livestock.	LineChart	feed__tonnes	cottonseed	true	0
 	Cottonseed oil production	Cottonseed oil	Production	Tonnes	false		LineChart	production__tonnes	cottonseed_oil	true	0
-	Cottonseed oil imports	Cottonseed oil	Imports	Tonnes	false		LineChart	imports__tonnes	cottonseed_oil	true	0
+	Cottonseed oil imports	Cottonseed oil	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	cottonseed_oil	true	0
 	Cottonseed oil exports	Cottonseed oil	Exports	Tonnes	false		LineChart	exports__tonnes	cottonseed_oil	true	0
 	Domestic supply of cottonseed oil	Cottonseed oil	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	cottonseed_oil	true	0
 	Cottonseed oil used for direct human food	Cottonseed oil	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	cottonseed_oil	true	0
@@ -246,7 +246,7 @@ graphers
 	Cranberry yield	Cranberries	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	cranberries	true	0
 	Land used for cranberry production	Cranberries	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	cranberries	true	0
 	Cream production	Cream	Production	Tonnes	false		LineChart	production__tonnes	cream	true	0
-	Cream imports	Cream	Imports	Tonnes	false		LineChart	imports__tonnes	cream	true	0
+	Cream imports	Cream	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	cream	true	0
 	Cream exports	Cream	Exports	Tonnes	false		LineChart	exports__tonnes	cream	true	0
 	Domestic supply of cream	Cream	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	cream	true	0
 	Cream used for direct human food	Cream	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	cream	true	0
@@ -265,7 +265,7 @@ graphers
 	Date production	Dates	Production	Tonnes	false		LineChart	production__tonnes	dates	true	0
 	Date yield	Dates	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	dates	true	0
 	Land used for date production	Dates	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	dates	true	0
-	Date imports	Dates	Imports	Tonnes	false		LineChart	imports__tonnes	dates	true	0
+	Date imports	Dates	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	dates	true	0
 	Date exports	Dates	Exports	Tonnes	false		LineChart	exports__tonnes	dates	true	0
 	Domestic supply of dates	Dates	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	dates	true	0
 	Dates used for direct human food	Dates	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	dates	true	0
@@ -281,7 +281,7 @@ graphers
 	Land used for eggplant production	Eggplants	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	eggplants	true	0
 	Egg production	Eggs	Production	Tonnes	false		LineChart	production__tonnes	eggs	true	0
 	Egg yield	Eggs	Yield		false	Yield is measured as the quantity produced per animal.	LineChart	yield__kg_per_animal	eggs	true	0
-	Egg imports	Eggs	Imports	Tonnes	false		LineChart	imports__tonnes	eggs	true	0
+	Egg imports	Eggs	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	eggs	true	0
 	Egg exports	Eggs	Exports	Tonnes	false		LineChart	exports__tonnes	eggs	true	0
 	Domestic supply of eggs	Eggs	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	eggs	true	0
 	Eggs used for direct human food	Eggs	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	eggs	true	0
@@ -309,7 +309,7 @@ graphers
 	Fruit production	Fruit	Production	Tonnes	false		LineChart	production__tonnes	fruit	true	0
 	Fruit yield	Fruit	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	fruit	true	0
 	Land used for fruit production	Fruit	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	fruit	true	0
-	Fruit imports	Fruit	Imports	Tonnes	false		LineChart	imports__tonnes	fruit	true	0
+	Fruit imports	Fruit	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	fruit	true	0
 	Fruit exports	Fruit	Exports	Tonnes	false		LineChart	exports__tonnes	fruit	true	0
 	Domestic supply of fruit	Fruit	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	fruit	true	0
 	Fruit used for direct human food	Fruit	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	fruit	true	0
@@ -328,7 +328,7 @@ graphers
 	Grapefruit production	Grapefruit	Production	Tonnes	false		LineChart	production__tonnes	grapefruit	true	0
 	Grapefruit yield	Grapefruit	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	grapefruit	true	0
 	Land used for grapefruit production	Grapefruit	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	grapefruit	true	0
-	Grapefruit imports	Grapefruit	Imports	Tonnes	false		LineChart	imports__tonnes	grapefruit	true	0
+	Grapefruit imports	Grapefruit	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	grapefruit	true	0
 	Grapefruit exports	Grapefruit	Exports	Tonnes	false		LineChart	exports__tonnes	grapefruit	true	0
 	Domestic supply of grapefruits	Grapefruit	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	grapefruit	true	0
 	Grapefruits used for direct human food	Grapefruit	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	grapefruit	true	0
@@ -346,7 +346,7 @@ graphers
 	Green maize yield	Green maize	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	green_maize	true	0
 	Land used for green maize production	Green maize	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	green_maize	true	0
 	Groundnut Oil production	Groundnut Oil	Production	Tonnes	false		LineChart	production__tonnes	groundnut_oil	true	0
-	Groundnut Oil imports	Groundnut Oil	Imports	Tonnes	false		LineChart	imports__tonnes	groundnut_oil	true	0
+	Groundnut Oil imports	Groundnut Oil	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	groundnut_oil	true	0
 	Groundnut Oil exports	Groundnut Oil	Exports	Tonnes	false		LineChart	exports__tonnes	groundnut_oil	true	0
 	Domestic supply of groundnut oil	Groundnut Oil	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	groundnut_oil	true	0
 	Groundnut Oil used for direct human food	Groundnut Oil	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	groundnut_oil	true	0
@@ -360,7 +360,7 @@ graphers
 	Groundnut production	Groundnuts	Production	Tonnes	false		LineChart	production__tonnes	groundnuts	true	0
 	Groundnut yield	Groundnuts	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	groundnuts	true	0
 	Land used for groundnut production	Groundnuts	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	groundnuts	true	0
-	Groundnut imports	Groundnuts	Imports	Tonnes	false		LineChart	imports__tonnes	groundnuts	true	0
+	Groundnut imports	Groundnuts	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	groundnuts	true	0
 	Groundnut exports	Groundnuts	Exports	Tonnes	false		LineChart	exports__tonnes	groundnuts	true	0
 	Domestic supply of groundnuts	Groundnuts	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	groundnuts	true	0
 	Groundnuts used for direct human food	Groundnuts	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	groundnuts	true	0
@@ -383,7 +383,7 @@ graphers
 	Herb (e.g. fennel) yield	Herbs (e.g. fennel)	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	herbs_eg_fennel	true	0
 	Land used for herb (e.g. fennel) production	Herbs (e.g. fennel)	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	herbs_eg_fennel	true	0
 	Honey production	Honey	Production	Tonnes	false		LineChart	production__tonnes	honey	true	0
-	Honey imports	Honey	Imports	Tonnes	false		LineChart	imports__tonnes	honey	true	0
+	Honey imports	Honey	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	honey	true	0
 	Honey exports	Honey	Exports	Tonnes	false		LineChart	exports__tonnes	honey	true	0
 	Domestic supply of honey	Honey	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	honey	true	0
 	Honey used for direct human food	Honey	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	honey	true	0
@@ -412,7 +412,7 @@ graphers
 	Lemon and lime production	Lemons and limes	Production	Tonnes	false		LineChart	production__tonnes	lemons_and_limes	true	0
 	Lemon and lime yield	Lemons and limes	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	lemons_and_limes	true	0
 	Land used for lemon and lime production	Lemons and limes	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	lemons_and_limes	true	0
-	Lemon and lime imports	Lemons and limes	Imports	Tonnes	false		LineChart	imports__tonnes	lemons_and_limes	true	0
+	Lemon and lime imports	Lemons and limes	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	lemons_and_limes	true	0
 	Lemon and lime exports	Lemons and limes	Exports	Tonnes	false		LineChart	exports__tonnes	lemons_and_limes	true	0
 	Domestic supply of lemons and limes	Lemons and limes	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	lemons_and_limes	true	0
 	Lemons and limes used for direct human food	Lemons and limes	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	lemons_and_limes	true	0
@@ -436,7 +436,7 @@ graphers
 	Maize production	Maize	Production	Tonnes	false		LineChart	production__tonnes	maize	true	0
 	Maize yield	Maize	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	maize	true	0
 	Land used for maize production	Maize	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	maize	true	0
-	Maize imports	Maize	Imports	Tonnes	false		LineChart	imports__tonnes	maize	true	0
+	Maize imports	Maize	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	maize	true	0
 	Maize exports	Maize	Exports	Tonnes	false		LineChart	exports__tonnes	maize	true	0
 	Domestic supply of maize	Maize	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	maize	true	0
 	Maize used for direct human food	Maize	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	maize	true	0
@@ -448,7 +448,7 @@ graphers
 	Per capita fat consumption from maize per day	Maize	Food available for consumption	Fat	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__fat_g_per_day_per_capita	maize	true	0
 	Maize used for animal feed	Maize	Feed	Tonnes	false	The quantity that is allocated to feed for livestock.	LineChart	feed__tonnes	maize	true	0
 	Maize Oil production	Maize Oil	Production	Tonnes	false		LineChart	production__tonnes	maize_oil	true	0
-	Maize Oil imports	Maize Oil	Imports	Tonnes	false		LineChart	imports__tonnes	maize_oil	true	0
+	Maize Oil imports	Maize Oil	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	maize_oil	true	0
 	Maize Oil exports	Maize Oil	Exports	Tonnes	false		LineChart	exports__tonnes	maize_oil	true	0
 	Domestic supply of maize oil	Maize Oil	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	maize_oil	true	0
 	Maize Oil used for direct human food	Maize Oil	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	maize_oil	true	0
@@ -464,7 +464,7 @@ graphers
 	Margarine production	Margarine	Production	Tonnes	false		LineChart	production__tonnes	margarine	true	0
 	Poultry meat production	Meat, Poultry	Production	Tonnes	false		LineChart	production__tonnes	meat_poultry	true	0
 	Poultry meat yield	Meat, Poultry	Yield		false	Yield is measured as the quantity produced per animal.	LineChart	yield__kg_per_animal	meat_poultry	true	0
-	Poultry meat imports	Meat, Poultry	Imports	Tonnes	false		LineChart	imports__tonnes	meat_poultry	true	0
+	Poultry meat imports	Meat, Poultry	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	meat_poultry	true	0
 	Poultry meat exports	Meat, Poultry	Exports	Tonnes	false		LineChart	exports__tonnes	meat_poultry	true	0
 	Domestic supply of poultry meat	Meat, Poultry	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	meat_poultry	true	0
 	Poultry meat used for direct human food	Meat, Poultry	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	meat_poultry	true	0
@@ -476,7 +476,7 @@ graphers
 	Per capita fat consumption from poultry meat per day	Meat, Poultry	Food available for consumption	Fat	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__fat_g_per_day_per_capita	meat_poultry	true	0
 	Poultry meat used for animal feed	Meat, Poultry	Feed	Tonnes	false	The quantity that is allocated to feed for livestock.	LineChart	feed__tonnes	meat_poultry	true	0
 	Total meat production	Meat, Total	Production	Tonnes	false		LineChart	production__tonnes	meat_total	true	0
-	Total meat imports	Meat, Total	Imports	Tonnes	false		LineChart	imports__tonnes	meat_total	true	0
+	Total meat imports	Meat, Total	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	meat_total	true	0
 	Total meat exports	Meat, Total	Exports	Tonnes	false		LineChart	exports__tonnes	meat_total	true	0
 	Domestic supply of all meat	Meat, Total	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	meat_total	true	0
 	All meat used for direct human food	Meat, Total	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	meat_total	true	0
@@ -531,7 +531,7 @@ graphers
 	Land used for melonseed production	Melonseed	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	melonseed	true	0
 	Milk production	Milk	Production	Tonnes	false		LineChart	production__tonnes	milk	true	0
 	Milk yield	Milk	Yield		false	Yield is measured as the quantity produced per animal.	LineChart	yield__kg_per_animal	milk	true	0
-	Milk imports	Milk, excluding butter	Imports	Tonnes	false		LineChart	imports__tonnes	milk_excluding_butter	true	0
+	Milk imports	Milk, excluding butter	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	milk_excluding_butter	true	0
 	Milk exports	Milk, excluding butter	Exports	Tonnes	false		LineChart	exports__tonnes	milk_excluding_butter	true	0
 	Domestic supply of milk	Milk, excluding butter	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	milk_excluding_butter	true	0
 	Milk used for direct human food	Milk, excluding butter	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	milk_excluding_butter	true	0
@@ -545,7 +545,7 @@ graphers
 	Millet production	Millet	Production	Tonnes	false		LineChart	production__tonnes	millet	true	0
 	Millet yield	Millet	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	millet	true	0
 	Land used for millet production	Millet	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	millet	true	0
-	Millet imports	Millet	Imports	Tonnes	false		LineChart	imports__tonnes	millet	true	0
+	Millet imports	Millet	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	millet	true	0
 	Millet exports	Millet	Exports	Tonnes	false		LineChart	exports__tonnes	millet	true	0
 	Domestic supply of millet	Millet	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	millet	true	0
 	Millet used for direct human food	Millet	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	millet	true	0
@@ -566,7 +566,7 @@ graphers
 	Mustard seed production	Mustard seed	Production	Tonnes	false		LineChart	production__tonnes	mustard_seed	true	0
 	Mustard seed yield	Mustard seed	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	mustard_seed	true	0
 	Land used for mustard seed production	Mustard seed	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	mustard_seed	true	0
-	Nut imports	Nuts	Imports	Tonnes	false		LineChart	imports__tonnes	nuts	true	0
+	Nut imports	Nuts	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	nuts	true	0
 	Nut exports	Nuts	Exports	Tonnes	false		LineChart	exports__tonnes	nuts	true	0
 	Domestic supply of nuts	Nuts	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	nuts	true	0
 	Nuts used for direct human food	Nuts	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	nuts	true	0
@@ -579,7 +579,7 @@ graphers
 	Oat production	Oats	Production	Tonnes	false		LineChart	production__tonnes	oats	true	0
 	Oat yield	Oats	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	oats	true	0
 	Land used for oat production	Oats	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	oats	true	0
-	Offal imports	Offals	Imports	Tonnes	false		LineChart	imports__tonnes	offals	true	0
+	Offal imports	Offals	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	offals	true	0
 	Offal exports	Offals	Exports	Tonnes	false		LineChart	exports__tonnes	offals	true	0
 	Domestic supply of offals	Offals	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	offals	true	0
 	Offals used for direct human food	Offals	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	offals	true	0
@@ -600,7 +600,7 @@ graphers
 	Oilcrop production	Oilcrops	Production	Tonnes	false		LineChart	production__tonnes	oilcrops	true	0
 	Oilcrop yield	Oilcrops	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	oilcrops	true	0
 	Land used for oilcrop production	Oilcrops	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	oilcrops	true	0
-	Oilcrop imports	Oilcrops	Imports	Tonnes	false		LineChart	imports__tonnes	oilcrops	true	0
+	Oilcrop imports	Oilcrops	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	oilcrops	true	0
 	Oilcrop exports	Oilcrops	Exports	Tonnes	false		LineChart	exports__tonnes	oilcrops	true	0
 	Domestic supply of oilcrops	Oilcrops	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	oilcrops	true	0
 	Oilcrops used for direct human food	Oilcrops	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	oilcrops	true	0
@@ -621,7 +621,7 @@ graphers
 	Okra yield	Okra	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	okra	true	0
 	Land used for okra production	Okra	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	okra	true	0
 	Olive Oil production	Olive Oil	Production	Tonnes	false		LineChart	production__tonnes	olive_oil	true	0
-	Olive Oil imports	Olive Oil	Imports	Tonnes	false		LineChart	imports__tonnes	olive_oil	true	0
+	Olive Oil imports	Olive Oil	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	olive_oil	true	0
 	Olive Oil exports	Olive Oil	Exports	Tonnes	false		LineChart	exports__tonnes	olive_oil	true	0
 	Domestic supply of olive oil	Olive Oil	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	olive_oil	true	0
 	Olive Oil used for direct human food	Olive Oil	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	olive_oil	true	0
@@ -635,7 +635,7 @@ graphers
 	Olive production	Olives	Production	Tonnes	false		LineChart	production__tonnes	olives	true	0
 	Olive yield	Olives	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	olives	true	0
 	Land used for olive production	Olives	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	olives	true	0
-	Olive imports	Olives	Imports	Tonnes	false		LineChart	imports__tonnes	olives	true	0
+	Olive imports	Olives	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	olives	true	0
 	Olive exports	Olives	Exports	Tonnes	false		LineChart	exports__tonnes	olives	true	0
 	Domestic supply of olives	Olives	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	olives	true	0
 	Olives used for direct human food	Olives	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	olives	true	0
@@ -649,7 +649,7 @@ graphers
 	Onion production	Onions	Production	Tonnes	false		LineChart	production__tonnes	onions	true	0
 	Onion yield	Onions	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	onions	true	0
 	Land used for onion production	Onions	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	onions	true	0
-	Onion imports	Onions	Imports	Tonnes	false		LineChart	imports__tonnes	onions	true	0
+	Onion imports	Onions	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	onions	true	0
 	Onion exports	Onions	Exports	Tonnes	false		LineChart	exports__tonnes	onions	true	0
 	Domestic supply of onions	Onions	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	onions	true	0
 	Onions used for direct human food	Onions	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	onions	true	0
@@ -663,7 +663,7 @@ graphers
 	Orange production	Oranges	Production	Tonnes	false		LineChart	production__tonnes	oranges	true	0
 	Orange yield	Oranges	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	oranges	true	0
 	Land used for orange production	Oranges	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	oranges	true	0
-	Orange and mandarine imports	Oranges and mandarines	Imports	Tonnes	false		LineChart	imports__tonnes	oranges_and_mandarines	true	0
+	Orange and mandarine imports	Oranges and mandarines	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	oranges_and_mandarines	true	0
 	Orange and mandarine exports	Oranges and mandarines	Exports	Tonnes	false		LineChart	exports__tonnes	oranges_and_mandarines	true	0
 	Domestic supply of oranges and mandarines	Oranges and mandarines	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	oranges_and_mandarines	true	0
 	Oranges and mandarines used for direct human food	Oranges and mandarines	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	oranges_and_mandarines	true	0
@@ -674,7 +674,7 @@ graphers
 	Per capita protein consumption from oranges and mandarines per day	Oranges and mandarines	Food available for consumption	Protein	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__protein_g_per_day_per_capita	oranges_and_mandarines	true	0
 	Per capita fat consumption from oranges and mandarines per day	Oranges and mandarines	Food available for consumption	Fat	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__fat_g_per_day_per_capita	oranges_and_mandarines	true	0
 	Oranges and mandarines used for animal feed	Oranges and mandarines	Feed	Tonnes	false	The quantity that is allocated to feed for livestock.	LineChart	feed__tonnes	oranges_and_mandarines	true	0
-	Other cereal imports	Other cereals	Imports	Tonnes	false		LineChart	imports__tonnes	other_cereals	true	0
+	Other cereal imports	Other cereals	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	other_cereals	true	0
 	Other cereal exports	Other cereals	Exports	Tonnes	false		LineChart	exports__tonnes	other_cereals	true	0
 	Domestic supply of other cereals	Other cereals	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	other_cereals	true	0
 	Other cereals used for direct human food	Other cereals	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	other_cereals	true	0
@@ -695,7 +695,7 @@ graphers
 	Palm fruit oil yield	Palm fruit oil	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	palm_fruit_oil	true	0
 	Land used for palm fruit oil production	Palm fruit oil	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	palm_fruit_oil	true	0
 	Palm kernel oil production	Palm kernel oil	Production	Tonnes	false		LineChart	production__tonnes	palm_kernel_oil	true	0
-	Palm kernel oil imports	Palm kernel oil	Imports	Tonnes	false		LineChart	imports__tonnes	palm_kernel_oil	true	0
+	Palm kernel oil imports	Palm kernel oil	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	palm_kernel_oil	true	0
 	Palm kernel oil exports	Palm kernel oil	Exports	Tonnes	false		LineChart	exports__tonnes	palm_kernel_oil	true	0
 	Domestic supply of palm kernel oil	Palm kernel oil	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	palm_kernel_oil	true	0
 	Palm kernel oil used for direct human food	Palm kernel oil	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	palm_kernel_oil	true	0
@@ -707,7 +707,7 @@ graphers
 	Per capita fat consumption from palm kernel oil per day	Palm kernel oil	Food available for consumption	Fat	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__fat_g_per_day_per_capita	palm_kernel_oil	true	0
 	Palm kernel oil used for animal feed	Palm kernel oil	Feed	Tonnes	false	The quantity that is allocated to feed for livestock.	LineChart	feed__tonnes	palm_kernel_oil	true	0
 	Palm kernel production	Palm kernels	Production	Tonnes	false		LineChart	production__tonnes	palm_kernels	true	0
-	Palm kernel imports	Palm kernels	Imports	Tonnes	false		LineChart	imports__tonnes	palm_kernels	true	0
+	Palm kernel imports	Palm kernels	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	palm_kernels	true	0
 	Palm kernel exports	Palm kernels	Exports	Tonnes	false		LineChart	exports__tonnes	palm_kernels	true	0
 	Domestic supply of palm kernels	Palm kernels	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	palm_kernels	true	0
 	Palm kernels used for direct human food	Palm kernels	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	palm_kernels	true	0
@@ -730,7 +730,7 @@ graphers
 	Dry pea production	Peas, dry	Production	Tonnes	false		LineChart	production__tonnes	peas_dry	true	0
 	Dry pea yield	Peas, dry	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	peas_dry	true	0
 	Land used for dry pea production	Peas, dry	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	peas_dry	true	0
-	Dry pea imports	Peas, dry	Imports	Tonnes	false		LineChart	imports__tonnes	peas_dry	true	0
+	Dry pea imports	Peas, dry	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	peas_dry	true	0
 	Dry pea exports	Peas, dry	Exports	Tonnes	false		LineChart	exports__tonnes	peas_dry	true	0
 	Domestic supply of dry peas	Peas, dry	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	peas_dry	true	0
 	Dry peas used for direct human food	Peas, dry	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	peas_dry	true	0
@@ -747,7 +747,7 @@ graphers
 	Pepper production	Pepper	Production	Tonnes	false		LineChart	production__tonnes	pepper	true	0
 	Pepper yield	Pepper	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	pepper	true	0
 	Land used for pepper production	Pepper	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	pepper	true	0
-	Pepper imports	Pepper	Imports	Tonnes	false		LineChart	imports__tonnes	pepper	true	0
+	Pepper imports	Pepper	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	pepper	true	0
 	Pepper exports	Pepper	Exports	Tonnes	false		LineChart	exports__tonnes	pepper	true	0
 	Domestic supply of pepper	Pepper	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	pepper	true	0
 	Pepper used for direct human food	Pepper	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	pepper	true	0
@@ -760,7 +760,7 @@ graphers
 	Pigeon pea production	Pigeon peas	Production	Tonnes	false		LineChart	production__tonnes	pigeon_peas	true	0
 	Pigeon pea yield	Pigeon peas	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	pigeon_peas	true	0
 	Land used for pigeon pea production	Pigeon peas	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	pigeon_peas	true	0
-	Pineapple imports	Pineapples	Imports	Tonnes	false		LineChart	imports__tonnes	pineapples	true	0
+	Pineapple imports	Pineapples	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	pineapples	true	0
 	Pineapple exports	Pineapples	Exports	Tonnes	false		LineChart	exports__tonnes	pineapples	true	0
 	Domestic supply of pineapples	Pineapples	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	pineapples	true	0
 	Pineapples used for direct human food	Pineapples	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	pineapples	true	0
@@ -776,7 +776,7 @@ graphers
 	Plantain production	Plantains	Production	Tonnes	false		LineChart	production__tonnes	plantains	true	0
 	Plantain yield	Plantains	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	plantains	true	0
 	Land used for plantain production	Plantains	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	plantains	true	0
-	Plantain imports	Plantains	Imports	Tonnes	false		LineChart	imports__tonnes	plantains	true	0
+	Plantain imports	Plantains	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	plantains	true	0
 	Plantain exports	Plantains	Exports	Tonnes	false		LineChart	exports__tonnes	plantains	true	0
 	Domestic supply of plantains	Plantains	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	plantains	true	0
 	Plantains used for direct human food	Plantains	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	plantains	true	0
@@ -793,7 +793,7 @@ graphers
 	Poppy seed production	Poppy seed	Production	Tonnes	false		LineChart	production__tonnes	poppy_seeds	true	0
 	Poppy seed yield	Poppy seed	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	poppy_seeds	true	0
 	Land used for poppy seed production	Poppy seed	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	poppy_seeds	true	0
-	Pork imports	Pork	Imports	Tonnes	false		LineChart	imports__tonnes	pork	true	0
+	Pork imports	Pork	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	pork	true	0
 	Pork exports	Pork	Exports	Tonnes	false		LineChart	exports__tonnes	pork	true	0
 	Domestic supply of pork	Pork	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	pork	true	0
 	Pork used for direct human food	Pork	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	pork	true	0
@@ -803,7 +803,7 @@ graphers
 	Per capita kilocalorie consumption from pork per day	Pork	Food available for consumption	Kilocalories	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__kcal_per_day_per_capita	pork	true	0
 	Per capita protein consumption from pork per day	Pork	Food available for consumption	Protein	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__protein_g_per_day_per_capita	pork	true	0
 	Per capita fat consumption from pork per day	Pork	Food available for consumption	Fat	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__fat_g_per_day_per_capita	pork	true	0
-	Potato imports	Potatoes	Imports	Tonnes	false		LineChart	imports__tonnes	potatoes	true	0
+	Potato imports	Potatoes	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	potatoes	true	0
 	Potato exports	Potatoes	Exports	Tonnes	false		LineChart	exports__tonnes	potatoes	true	0
 	Domestic supply of potatoes	Potatoes	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	potatoes	true	0
 	Potatoes used for direct human food	Potatoes	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	potatoes	true	0
@@ -817,7 +817,7 @@ graphers
 	Pulse production	Pulses	Production	Tonnes	false		LineChart	production__tonnes	pulses	true	0
 	Pulse yield	Pulses	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	pulses	true	0
 	Land used for pulse production	Pulses	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	pulses	true	0
-	Pulse imports	Pulses	Imports	Tonnes	false		LineChart	imports__tonnes	pulses	true	0
+	Pulse imports	Pulses	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	pulses	true	0
 	Pulse exports	Pulses	Exports	Tonnes	false		LineChart	exports__tonnes	pulses	true	0
 	Domestic supply of pulses	Pulses	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	pulses	true	0
 	Pulses used for direct human food	Pulses	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	pulses	true	0
@@ -841,7 +841,7 @@ graphers
 	Rice production	Rice	Production	Tonnes	false		LineChart	production__tonnes	rice	true	0
 	Rice yield	Rice	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	rice	true	0
 	Land used for rice production	Rice	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	rice	true	0
-	Rice imports	Rice	Imports	Tonnes	false		LineChart	imports__tonnes	rice	true	0
+	Rice imports	Rice	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	rice	true	0
 	Rice exports	Rice	Exports	Tonnes	false		LineChart	exports__tonnes	rice	true	0
 	Domestic supply of rice	Rice	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	rice	true	0
 	Rice used for direct human food	Rice	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	rice	true	0
@@ -862,7 +862,7 @@ graphers
 	Rye production	Rye	Production	Tonnes	false		LineChart	production__tonnes	rye	true	0
 	Rye yield	Rye	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	rye	true	0
 	Land used for rye production	Rye	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	rye	true	0
-	Rye imports	Rye	Imports	Tonnes	false		LineChart	imports__tonnes	rye	true	0
+	Rye imports	Rye	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	rye	true	0
 	Rye exports	Rye	Exports	Tonnes	false		LineChart	exports__tonnes	rye	true	0
 	Domestic supply of rye	Rye	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	rye	true	0
 	Rye used for direct human food	Rye	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	rye	true	0
@@ -881,7 +881,7 @@ graphers
 	Seed cotton yield	Seed cotton	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	seed_cotton	true	0
 	Land used for seed cotton production	Seed cotton	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	seed_cotton	true	0
 	Sesame oil production	Sesame oil	Production	Tonnes	false		LineChart	production__tonnes	sesame_oil	true	0
-	Sesame oil imports	Sesame oil	Imports	Tonnes	false		LineChart	imports__tonnes	sesame_oil	true	0
+	Sesame oil imports	Sesame oil	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	sesame_oil	true	0
 	Sesame oil exports	Sesame oil	Exports	Tonnes	false		LineChart	exports__tonnes	sesame_oil	true	0
 	Domestic supply of sesame oil	Sesame oil	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	sesame_oil	true	0
 	Sesame oil used for direct human food	Sesame oil	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	sesame_oil	true	0
@@ -895,7 +895,7 @@ graphers
 	Sesame seed production	Sesame seed	Production	Tonnes	false		LineChart	production__tonnes	sesame_seed	true	0
 	Sesame seed yield	Sesame seed	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	sesame_seed	true	0
 	Land used for sesame seed production	Sesame seed	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	sesame_seed	true	0
-	Sesame seed imports	Sesame seed	Imports	Tonnes	false		LineChart	imports__tonnes	sesame_seed	true	0
+	Sesame seed imports	Sesame seed	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	sesame_seed	true	0
 	Sesame seed exports	Sesame seed	Exports	Tonnes	false		LineChart	exports__tonnes	sesame_seed	true	0
 	Domestic supply of sesame seeds	Sesame seed	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	sesame_seed	true	0
 	Sesame seeds used for direct human food	Sesame seed	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	sesame_seed	true	0
@@ -916,7 +916,7 @@ graphers
 	Sorghum production	Sorghum	Production	Tonnes	false		LineChart	production__tonnes	sorghum	true	0
 	Sorghum yield	Sorghum	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	sorghum	true	0
 	Land used for sorghum production	Sorghum	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	sorghum	true	0
-	Sorghum imports	Sorghum	Imports	Tonnes	false		LineChart	imports__tonnes	sorghum	true	0
+	Sorghum imports	Sorghum	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	sorghum	true	0
 	Sorghum exports	Sorghum	Exports	Tonnes	false		LineChart	exports__tonnes	sorghum	true	0
 	Domestic supply of sorghum	Sorghum	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	sorghum	true	0
 	Sorghum used for direct human food	Sorghum	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	sorghum	true	0
@@ -928,7 +928,7 @@ graphers
 	Per capita fat consumption from sorghum per day	Sorghum	Food available for consumption	Fat	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__fat_g_per_day_per_capita	sorghum	true	0
 	Sorghum used for animal feed	Sorghum	Feed	Tonnes	false	The quantity that is allocated to feed for livestock.	LineChart	feed__tonnes	sorghum	true	0
 	Soybean oil production	Soybean oil	Production	Tonnes	false		LineChart	production__tonnes	soybean_oil	true	0
-	Soybean oil imports	Soybean oil	Imports	Tonnes	false		LineChart	imports__tonnes	soybean_oil	true	0
+	Soybean oil imports	Soybean oil	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	soybean_oil	true	0
 	Soybean oil exports	Soybean oil	Exports	Tonnes	false		LineChart	exports__tonnes	soybean_oil	true	0
 	Domestic supply of soybean oil	Soybean oil	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	soybean_oil	true	0
 	Soybean oil used for direct human food	Soybean oil	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	soybean_oil	true	0
@@ -942,7 +942,7 @@ graphers
 	Soybean production	Soybeans	Production	Tonnes	false		LineChart	production__tonnes	soybeans	true	0
 	Soybean yield	Soybeans	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	soybeans	true	0
 	Land used for soybean production	Soybeans	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	soybeans	true	0
-	Soybean imports	Soybeans	Imports	Tonnes	false		LineChart	imports__tonnes	soybeans	true	0
+	Soybean imports	Soybeans	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	soybeans	true	0
 	Soybean exports	Soybeans	Exports	Tonnes	false		LineChart	exports__tonnes	soybeans	true	0
 	Domestic supply of soybeans	Soybeans	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	soybeans	true	0
 	Soybeans used for direct human food	Soybeans	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	soybeans	true	0
@@ -966,7 +966,7 @@ graphers
 	Sugar beet production	Sugar beet	Production	Tonnes	false		LineChart	production__tonnes	sugar_beet	true	0
 	Sugar beet yield	Sugar beet	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	sugar_beet	true	0
 	Land used for sugar beet production	Sugar beet	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	sugar_beet	true	0
-	Sugar beet imports	Sugar beet	Imports	Tonnes	false		LineChart	imports__tonnes	sugar_beet	true	0
+	Sugar beet imports	Sugar beet	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	sugar_beet	true	0
 	Sugar beet exports	Sugar beet	Exports	Tonnes	false		LineChart	exports__tonnes	sugar_beet	true	0
 	Domestic supply of sugar beet	Sugar beet	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	sugar_beet	true	0
 	Sugar beet used for direct human food	Sugar beet	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	sugar_beet	true	0
@@ -980,7 +980,7 @@ graphers
 	Sugar cane production	Sugar cane	Production	Tonnes	false		LineChart	production__tonnes	sugar_cane	true	0
 	Sugar cane yield	Sugar cane	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	sugar_cane	true	0
 	Land used for sugar cane production	Sugar cane	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	sugar_cane	true	0
-	Sugar cane imports	Sugar cane	Imports	Tonnes	false		LineChart	imports__tonnes	sugar_cane	true	0
+	Sugar cane imports	Sugar cane	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	sugar_cane	true	0
 	Sugar cane exports	Sugar cane	Exports	Tonnes	false		LineChart	exports__tonnes	sugar_cane	true	0
 	Domestic supply of sugar cane	Sugar cane	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	sugar_cane	true	0
 	Sugar cane used for direct human food	Sugar cane	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	sugar_cane	true	0
@@ -994,7 +994,7 @@ graphers
 	Sugar crop production	Sugar crops	Production	Tonnes	false		LineChart	production__tonnes	sugar_crops	true	0
 	Sugar crop yield	Sugar crops	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	sugar_crops	true	0
 	Land used for sugar crop production	Sugar crops	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	sugar_crops	true	0
-	Sugar crop imports	Sugar crops	Imports	Tonnes	false		LineChart	imports__tonnes	sugar_crops	true	0
+	Sugar crop imports	Sugar crops	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	sugar_crops	true	0
 	Sugar crop exports	Sugar crops	Exports	Tonnes	false		LineChart	exports__tonnes	sugar_crops	true	0
 	Domestic supply of sugar crops	Sugar crops	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	sugar_crops	true	0
 	Sugar crops used for direct human food	Sugar crops	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	sugar_crops	true	0
@@ -1006,7 +1006,7 @@ graphers
 	Per capita fat consumption from sugar crops per day	Sugar crops	Food available for consumption	Fat	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__fat_g_per_day_per_capita	sugar_crops	true	0
 	Sugar crops used for animal feed	Sugar crops	Feed	Tonnes	false	The quantity that is allocated to feed for livestock.	LineChart	feed__tonnes	sugar_crops	true	0
 	Sunflower oil production	Sunflower oil	Production	Tonnes	false		LineChart	production__tonnes	sunflower_oil	true	0
-	Sunflower oil imports	Sunflower oil	Imports	Tonnes	false		LineChart	imports__tonnes	sunflower_oil	true	0
+	Sunflower oil imports	Sunflower oil	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	sunflower_oil	true	0
 	Sunflower oil exports	Sunflower oil	Exports	Tonnes	false		LineChart	exports__tonnes	sunflower_oil	true	0
 	Domestic supply of sunflower oil	Sunflower oil	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	sunflower_oil	true	0
 	Sunflower oil used for direct human food	Sunflower oil	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	sunflower_oil	true	0
@@ -1020,7 +1020,7 @@ graphers
 	Sunflower seed production	Sunflower seed	Production	Tonnes	false		LineChart	production__tonnes	sunflower_seed	true	0
 	Sunflower seed yield	Sunflower seed	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	sunflower_seed	true	0
 	Land used for sunflower seed production	Sunflower seed	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	sunflower_seed	true	0
-	Sunflower seed imports	Sunflower seed	Imports	Tonnes	false		LineChart	imports__tonnes	sunflower_seed	true	0
+	Sunflower seed imports	Sunflower seed	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	sunflower_seed	true	0
 	Sunflower seed exports	Sunflower seed	Exports	Tonnes	false		LineChart	exports__tonnes	sunflower_seed	true	0
 	Domestic supply of sunflower seeds	Sunflower seed	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	sunflower_seed	true	0
 	Sunflower seeds used for direct human food	Sunflower seed	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	sunflower_seed	true	0
@@ -1034,7 +1034,7 @@ graphers
 	Sweet potato production	Sweet potatoes	Production	Tonnes	false		LineChart	production__tonnes	sweet_potatoes	true	0
 	Sweet potato yield	Sweet potatoes	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	sweet_potatoes	true	0
 	Land used for sweet potato production	Sweet potatoes	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	sweet_potatoes	true	0
-	Sweet potato imports	Sweet potatoes	Imports	Tonnes	false		LineChart	imports__tonnes	sweet_potatoes	true	0
+	Sweet potato imports	Sweet potatoes	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	sweet_potatoes	true	0
 	Sweet potato exports	Sweet potatoes	Exports	Tonnes	false		LineChart	exports__tonnes	sweet_potatoes	true	0
 	Domestic supply of sweet potatoes	Sweet potatoes	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	sweet_potatoes	true	0
 	Sweet potatoes used for direct human food	Sweet potatoes	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	sweet_potatoes	true	0
@@ -1057,7 +1057,7 @@ graphers
 	Tomato production	Tomatoes	Production	Tonnes	false		LineChart	production__tonnes	tomatoes	true	0
 	Tomato yield	Tomatoes	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	tomatoes	true	0
 	Land used for tomato production	Tomatoes	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	tomatoes	true	0
-	Tomato imports	Tomatoes	Imports	Tonnes	false		LineChart	imports__tonnes	tomatoes	true	0
+	Tomato imports	Tomatoes	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	tomatoes	true	0
 	Tomato exports	Tomatoes	Exports	Tonnes	false		LineChart	exports__tonnes	tomatoes	true	0
 	Domestic supply of tomatoes	Tomatoes	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	tomatoes	true	0
 	Tomatoes used for direct human food	Tomatoes	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	tomatoes	true	0
@@ -1074,7 +1074,7 @@ graphers
 	Vegetable production	Vegetables	Production	Tonnes	false		LineChart	production__tonnes	vegetables	true	0
 	Vegetable yield	Vegetables	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	vegetables	true	0
 	Land used for vegetable production	Vegetables	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	vegetables	true	0
-	Vegetable imports	Vegetables	Imports	Tonnes	false		LineChart	imports__tonnes	vegetables	true	0
+	Vegetable imports	Vegetables	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	vegetables	true	0
 	Vegetable exports	Vegetables	Exports	Tonnes	false		LineChart	exports__tonnes	vegetables	true	0
 	Domestic supply of vegetables	Vegetables	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	vegetables	true	0
 	Vegetables used for direct human food	Vegetables	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	vegetables	true	0
@@ -1094,7 +1094,7 @@ graphers
 	Wheat production	Wheat	Production	Tonnes	false		LineChart	production__tonnes	wheat	true	0
 	Wheat yield	Wheat	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	wheat	true	0
 	Land used for wheat production	Wheat	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	wheat	true	0
-	Wheat imports	Wheat	Imports	Tonnes	false		LineChart	imports__tonnes	wheat	true	0
+	Wheat imports	Wheat	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	wheat	true	0
 	Wheat exports	Wheat	Exports	Tonnes	false		LineChart	exports__tonnes	wheat	true	0
 	Domestic supply of wheat	Wheat	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	wheat	true	0
 	Wheat used for direct human food	Wheat	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	wheat	true	0
@@ -1106,7 +1106,7 @@ graphers
 	Per capita fat consumption from wheat per day	Wheat	Food available for consumption	Fat	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__fat_g_per_day_per_capita	wheat	true	0
 	Wheat used for animal feed	Wheat	Feed	Tonnes	false	The quantity that is allocated to feed for livestock.	LineChart	feed__tonnes	wheat	true	0
 	Whey production	Whey	Production	Tonnes	false		LineChart	production__tonnes	whey	true	0
-	Wine imports	Wine	Imports	Tonnes	false		LineChart	imports__tonnes	wine	true	0
+	Wine imports	Wine	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	wine	true	0
 	Wine exports	Wine	Exports	Tonnes	false		LineChart	exports__tonnes	wine	true	0
 	Domestic supply of wine	Wine	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	wine	true	0
 	Wine used for direct human food	Wine	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	wine	true	0
@@ -1120,7 +1120,7 @@ graphers
 	Yam production	Yams	Production	Tonnes	false		LineChart	production__tonnes	yams	true	0
 	Yam yield	Yams	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	yams	true	0
 	Land used for yam production	Yams	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	yams	true	0
-	Yam imports	Yams	Imports	Tonnes	false		LineChart	imports__tonnes	yams	true	0
+	Yam imports	Yams	Imports	Tonnes	false	The amount that is imported in a calendar year.	LineChart	imports__tonnes	yams	true	0
 	Yam exports	Yams	Exports	Tonnes	false		LineChart	exports__tonnes	yams	true	0
 	Domestic supply of yams	Yams	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	yams	true	0
 	Yams used for direct human food	Yams	Food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	yams	true	0
