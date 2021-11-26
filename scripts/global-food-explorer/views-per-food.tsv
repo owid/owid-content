@@ -3,7 +3,7 @@ production	${food_singular} production		Production	Tonnes	false	LineChart	produc
 crop_yield	${food_singular} yield	Yield is measured as the quantity produced per unit area of land used to grow it.	Yield		false	LineChart	yield__tonnes_per_ha	true	0
 animal_yield	${food_singular} yield	Yield is measured as the quantity produced per animal.	Yield		false	LineChart	yield__kg_per_animal	true	0
 land_use	Land used for ${food_singular_lower} production	The amount of cropland used for production	Land Use		false	LineChart	area_harvested__ha	true	0
-food_balances	${food_singular} imports		Imports	Tonnes	false	LineChart	imports__tonnes	true	0
+food_balances	${food_singular} imports	The amount that is imported in a calendar year.	Imports	Tonnes	false	LineChart	imports__tonnes	true	0
 food_balances	${food_singular} exports		Exports	Tonnes	false	LineChart	exports__tonnes	true	0
 food_balances	Domestic supply of ${food_plural_lower}	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	Domestic supply (after trade)	Tonnes	false	LineChart	domestic_supply__tonnes	true	0
 food_balances	${food_plural} used for direct human food	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	Food	Tonnes	false	LineChart	food__tonnes	true	0
