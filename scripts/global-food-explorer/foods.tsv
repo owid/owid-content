@@ -1,5 +1,6 @@
 slug	dropdown	singular	plural	_tags
 almonds	Almonds	Almond	Almonds	crop
+animal_fats	Animal Fats	Animal Fat	Animal Fats	animal-product
 apples	Apples	Apple	Apples	crop
 apricots	Apricots	Apricot	Apricots	crop
 areca_nuts	Areca Nuts	Areca Nut	Areca Nuts	crop
@@ -8,7 +9,7 @@ asparagus	Asparagus	Asparagus	Asparagus	crop
 avocados	Avocados	Avocado	Avocados	crop
 bananas	Bananas	Banana	Bananas	crop
 barley	Barley	Barley	Barley	crop
-beans_dry	Beans, dry	Dry beans	Dry bean	crop
+beans_dry	Beans, dry	Dry bean	Dry beans	crop
 beans_green	Beans, green	Green bean	Green beans	crop
 beef_and_buffalo_meat	Beef and Buffalo Meat	Beef and Buffalo Meat	Beef and Buffalo Meat	animal-product
 beeswax	Beeswax	Beeswax	Beeswax	animal-product
@@ -17,7 +18,7 @@ brazil_nuts_with_shell	Brazil nuts, with shell	Brazil nut	Brazil nuts	crop
 broad_beans	Broad beans	Broad bean	Broad beans	crop
 buckwheat	Buckwheat	Buckwheat	Buckwheat	crop
 buffalo_hides	Buffalo hides	Buffalo hide	Buffalo hides	animal-product
-butter_ghee	Butter, Ghee	Butter and ghee	Butter and ghee	animal-product
+butter_and_ghee	Butter and Ghee	Butter and ghee	Butter and ghee	animal-product
 cabbages	Cabbages	Cabbage	Cabbages	crop
 canary_seed	Canary seed	Canary seed	Canary seeds	crop
 carrots_and_turnips	Carrots and turnips	Carrot and turnip	Carrots and turnips	crop
@@ -38,6 +39,7 @@ cocoa_beans	Cocoa beans	Cocoa bean	Cocoa beans	crop
 coconut_oil	Coconut oil	Coconut oil	Coconut oil	crop
 coconuts	Coconuts	Coconut	Coconuts	crop
 coffee_green	Coffee, green	Green coffee	Green coffee	crop
+Cotton	Cotton	Cotton	Cotton	animal-product
 cottonseed	Cottonseed	Cottonseed	Cottonseeds	crop
 cottonseed_oil	Cottonseed oil	Cottonseed oil	Cottonseed oil	crop
 cow_peas	Cow peas	Cow pea	Cow peas	crop
@@ -107,12 +109,16 @@ meat_sheep	Meat, sheep	Sheep meat	Sheep meat	animal-product
 meat_turkey	Meat, turkey	Turkey meat	Turkey meat	animal-product
 melon	Melon	Melon	Melon	crop
 melonseed	Melonseed	Melonseed	Melonseeds	crop
+milk	Milk	Milk	Milk	animal-product
 milk_excluding_butter	Milk, excluding butter	Milk	Milk	animal-product
 millet	Millet	Millet	Millet	crop
 mixed_grains	Mixed grains	Mixed grain	Mixed grains	crop
 molasses	Molasses	Molasses	Molasses	crop
+mushrooms	Mushrooms	Mushroom	Mushrooms	crop
 mustard_seed	Mustard seed	Mustard seed	Mustard seeds	crop
+nuts	Nuts	Nut	Nuts	crop
 oats	Oats	Oat	Oats	crop
+offals	Offals	Offal	Offals	animal-product
 offals_buffaloes	Offals, buffaloes	Buffalo offal	Buffalo offal	animal-product
 offals_camels	Offals, camels	Camel offal	Camel offal	animal-product
 offals_cattle	Offals, cattle	Cattle offal	Cattle offal	animal-product
@@ -128,6 +134,7 @@ olive_oil	Olive Oil	Olive Oil	Olive Oil	crop
 olives	Olives	Olive	Olives	crop
 onions	Onions	Onion	Onions	crop
 oranges	Oranges	Orange	Oranges	crop
+oranges_and_mandarines 	Oranges and mandarines	Orange and mandarine	Oranges and mandarines	crop
 other_cereals	Other cereals	Other cereal	Other cereals	crop
 other_meats	Other meats	Other meat	Other meats	animal-product
 other_oilseeds	Other oilseeds	Other oilseed	Other oilseeds	crop
@@ -147,6 +154,7 @@ pistachios	Pistachios	Pistachio	Pistachios	crop
 plantains	Plantains	Plantain	Plantains	crop
 plums	Plums	Plum	Plums	crop
 poppy_seeds	Poppy seed	Poppy seed	Poppy seeds	crop
+pork	Pork	Pork	Pork	animal-product
 potatoes	Potatoes	Potato	Potatoes	crop
 pulses	Pulses	Pulse	Pulses	crop
 quinoa	Quinoa	Quinoa	Quinoa	crop
