@@ -1,26 +1,26 @@
-explorerTitle	Global Food Explorer (Prototype)
-explorerSubtitle
-selection	United States	Germany	France
-graphers
-$graphers_tsv
-
-$table_defs
-columns	$food_slugs
-	slug	name	type	transform	shortUnit	unit	sourceName	dataPublishedBy
-	Country	Country	EntityName
-	Year	Year	Year
-	production__tonnes	Production	Numeric		t	tonnes	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)
-	yield__tonnes_per_ha	Yield	Numeric		t/ha	tonnes per hectare	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)
-	yield__kg_per_animal	Yield	Numeric		kg/animal	kilograms per animal	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)
-	area_harvested__ha	Land Use	Numeric		ha	hectares	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)
-	imports_kg	Imports	Numeric		t	tonnes
-	exports_kg	Exports	Numeric		t	tonnes
-	domestic_supply_kg	Domestic supply	Numeric		t	tonnes
-	food_kg	Food	Numeric		t	tonnes
-	animal_feed_kg	Animal feed	Numeric		t	tonnes
-	other_areas_kg	Other areas	Numeric		t	tonnes
-	waste_kg	Waste	Numeric		t	tonnes
-	food_supply_kg	Food supply (kg)	Numeric		t	tonnes
-	food_supply_kcal	Food supply (kcal)	Numeric		kcal	kilocalories
-	food_supply_protein	Food supply (Proteins)	Numeric		t	tonnes
-	food_supply_fat	Food supply (Fat)	Numeric		t	tonnes
+explorerTitle	Global Food Explorer (Prototype)								
+explorerSubtitle									
+selection	United States	Germany	France						
+graphers									
+$graphers_tsv									
+									
+$table_defs									
+columns	$food_slugs								
+	slug	name	type	transform	shortUnit	unit	sourceName	dataPublishedBy	sourceLink
+	Country	Country	EntityName						
+	Year	Year	Year						
+	production__tonnes	Production	Numeric		t	tonnes	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/QCL
+	yield__tonnes_per_ha	Yield	Numeric		t/ha	tonnes per hectare	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/QCL
+	yield__kg_per_animal	Yield	Numeric		kg/animal	kilograms per animal	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/QCL
+	area_harvested__ha	Land Use	Numeric		ha	hectares	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/QCL
+	imports__tonnes	Imports	Numeric		t	tonnes	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/FBS, https://www.fao.org/faostat/en/#data/FBSH
+	exports__tonnes	Exports	Numeric		t	tonnes	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/FBS, https://www.fao.org/faostat/en/#data/FBSH
+	domestic_supply__tonnes	Domestic supply	Numeric		t	tonnes	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/FBS, https://www.fao.org/faostat/en/#data/FBSH
+	food__tonnes	Food	Numeric		t	tonnes	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/FBS, https://www.fao.org/faostat/en/#data/FBSH
+	feed__tonnes	Animal feed	Numeric		t	tonnes	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/FBS, https://www.fao.org/faostat/en/#data/FBSH
+	other_uses__tonnes	Other areas	Numeric		t	tonnes	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/FBS, https://www.fao.org/faostat/en/#data/FBSH
+	waste__tonnes	Waste	Numeric		t	tonnes	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/FBS, https://www.fao.org/faostat/en/#data/FBSH
+	food_available_for_consumption__kg_per_capita_per_year	Food supply (kg)	Numeric		kg	kilogrammes	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/FBS, https://www.fao.org/faostat/en/#data/FBSH
+	food_available_for_consumption__kcal_per_day_per_capita	Food supply (kcal)	Numeric		kcal	kilocalories	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/FBS, https://www.fao.org/faostat/en/#data/FBSH
+	food_available_for_consumption__protein_g_per_day_per_capita	Food supply (Proteins)	Numeric		g	grammes	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/FBS, https://www.fao.org/faostat/en/#data/FBSH
+	food_available_for_consumption__fat_g_per_day_per_capita	Food supply (Fat)	Numeric		g	grammes	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/FBS, https://www.fao.org/faostat/en/#data/FBSH
