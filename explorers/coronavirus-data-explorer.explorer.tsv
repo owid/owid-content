@@ -262,14 +262,14 @@ columns	variants
 	Delta	Delta	Percentage			CoVariants.org and GISAID	https://covariants.org/				<p>The share of analyzed sequences that correspond to each variant group. Only a fraction of all cases are sequenced.</p>	15	0	10,,;20,,;30,,;40,,;50,,;60,,;70,,;80,,;90,,;100			true	Oranges			#319FAC
 	Alpha	Alpha	Percentage			CoVariants.org and GISAID	https://covariants.org/				<p>The share of analyzed sequences that correspond to each variant group. Only a fraction of all cases are sequenced.</p>	15									#3262AF
 	Beta	Beta	Percentage			CoVariants.org and GISAID	https://covariants.org/				<p>The share of analyzed sequences that correspond to each variant group. Only a fraction of all cases are sequenced.</p>	15									#06B139
-	Eta	Eta	Percentage			CoVariants.org and GISAID	https://covariants.org/				<p>The share of analyzed sequences that correspond to each variant group. Only a fraction of all cases are sequenced.</p>	15									#D7263F
+	Eta	Eta	Percentage			CoVariants.org and GISAID	https://covariants.org/				<p>The share of analyzed sequences that correspond to each variant group. Only a fraction of all cases are sequenced.</p>	15									#D726B4
 	Epsilon	Epsilon	Percentage			CoVariants.org and GISAID	https://covariants.org/				<p>The share of analyzed sequences that correspond to each variant group. Only a fraction of all cases are sequenced.</p>	15									#84C52F
 	Iota	Iota	Percentage			CoVariants.org and GISAID	https://covariants.org/				<p>The share of analyzed sequences that correspond to each variant group. Only a fraction of all cases are sequenced.</p>	15									#B13507
 	Gamma	Gamma	Percentage			CoVariants.org and GISAID	https://covariants.org/				<p>The share of analyzed sequences that correspond to each variant group. Only a fraction of all cases are sequenced.</p>	15									#C4D466
 	Kappa	Kappa	Percentage			CoVariants.org and GISAID	https://covariants.org/				<p>The share of analyzed sequences that correspond to each variant group. Only a fraction of all cases are sequenced.</p>	15									#FADA33
 	Lambda	Lambda	Percentage			CoVariants.org and GISAID	https://covariants.org/				<p>The share of analyzed sequences that correspond to each variant group. Only a fraction of all cases are sequenced.</p>	15									#9053D4
-	Mu	Mu	Percentage			CoVariants.org and GISAID	https://covariants.org/				<p>The share of analyzed sequences that correspond to each variant group. Only a fraction of all cases are sequenced.</p>	15									#b15928
-	Omicron	Omicron	Percentage			CoVariants.org and GISAID	https://covariants.org/				<p>The share of analyzed sequences that correspond to each variant group. Only a fraction of all cases are sequenced.</p>	15									#e31a1c
+	Mu	Mu	Percentage			CoVariants.org and GISAID	https://covariants.org/				<p>The share of analyzed sequences that correspond to each variant group. Only a fraction of all cases are sequenced.</p>	15									#F87B01
+	Omicron	Omicron	Percentage			CoVariants.org and GISAID	https://covariants.org/				<p>The share of analyzed sequences that correspond to each variant group. Only a fraction of all cases are sequenced.</p>	15									#E31A1C
 	non_who	Others	Percentage			CoVariants.org and GISAID	https://covariants.org/				<p>The share of analyzed sequences that correspond to each variant group. Only a fraction of all cases are sequenced.</p>	15									#585C64
 table	https://covid.ourworldindata.org/data/internal/megafile--vaccinations-bydose.json	vaccinations-bydose
 columns	vaccinations-bydose
