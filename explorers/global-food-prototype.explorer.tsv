@@ -2,7 +2,8 @@
 
 explorerTitle	Global Food Explorer (Prototype)								
 explorerSubtitle									
-selection	United States	Germany	France	United Kingdom	Brazil	South Africa					
+selection	United States	Germany	France	United Kingdom	Brazil	South Africa
+tab	map
 graphers									
 	title	Food Dropdown	Metric Dropdown	Unit Radio	Per Capita Checkbox	subtitle	type	ySlugs	tableSlug	hasMapTab	yAxisMin
 	Almond production	Almonds	Production	Tonnes	false		LineChart	production__tonnes	almonds	true	0
