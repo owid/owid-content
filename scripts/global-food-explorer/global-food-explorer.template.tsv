@@ -1,5 +1,6 @@
 explorerTitle	Global Food Explorer (Prototype)								
-explorerSubtitle									
+explorerSubtitle	Explore the world's food system crop-by-crop from production to plate.
+wpBlockId	46846
 selection	United States	Germany	France	United Kingdom	Brazil	South Africa
 tab	map
 graphers									
