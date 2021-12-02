@@ -1,6 +1,7 @@
 explorerTitle	Global Food Explorer (Prototype)								
 explorerSubtitle									
-selection	United States	Germany	France	United Kingdom	Brazil	South Africa					
+selection	United States	Germany	France	United Kingdom	Brazil	South Africa
+tab	map
 graphers									
 $graphers_tsv									
 									
