@@ -1,7 +1,7 @@
 explorerTitle	Natural Disasters Data Explorer
 isPublished	true
 selection	World
-explorerSubtitle	Explore all of our work on <a href="ourworldindata.org/natural-disasters">Natural Disasters</a>.
+explorerSubtitle	Explore all of our work on <a href="https://ourworldindata.org/natural-disasters">Natural Disasters</a>.
 hideAlertBanner	true
 hasMapTab	true
 tab	chart
