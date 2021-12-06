@@ -3,22 +3,23 @@ isPublished	false		# comment
 googleSheet	https://googe.com/fsad
 explorerSubtitle	How much work does Boring Company have to do
 entityType	State
-defaultView	selection=Canada~United%20States
+selection	Canada	United States
 graphers
-	Tunnel Type Radio	type	ySlugs	title	subtitle
+	Tunnel Type Radio	type	ySlugs	title	subtitle	selectedFacetStrategy
 	In Ground	DiscreteBar	inGroundTunnels	In ground tunnels	These are getting chearper everyday
 	Underwater	DiscreteBar	underwaterTunnels	Underwater tunnels	So are these
-
+	All types	LineChart	underwaterTunnels inGroundTunnels bridges	All types of tunnels and bridges		entity
 
 table
-	entityName	underwaterTunnels	year	inGroundTunnels
-	United States	2	2000	3
-	Canada	4	2000	3
-
-
+	entityName	year	underwaterTunnels	inGroundTunnels	bridges
+	United States	2000	2	3	7
+	Canada	2000	4	3	6
+	United States	2001	2	3	7
+	Canada	2001	4	3	6
 columns
-	slug	name	type
+	slug	name	type	color
 	entityName	Country	EntityName
 	year	Year	Year
-	underwaterTunnels	Underwater Tunnels	Integer
-	inGroundTunnels	In ground Tunnels	Integer
+	underwaterTunnels	Underwater Tunnels	Integer	#ccc
+	inGroundTunnels	In ground Tunnels	Integer	#ccc
+	bridges	Bridges	Integer
