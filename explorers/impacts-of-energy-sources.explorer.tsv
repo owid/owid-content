@@ -1,0 +1,36 @@
+explorerTitle	Impacts of Energy Sources Data Explorer
+isPublished	false
+selection	Coal (pulverised)	Coal (supercritical)	Gas	Nuclear	Onshore wind	Offshore wind	Hydropower (360 MW)	Hydropower (660 MW)	Concentrating solar (tower)	Solar PV (silicon, on-ground)	Solar PV (silicon, roof)
+explorerSubtitle
+hideAlertBanner	true
+subNavId
+entityType	energy source
+hasMapTab	false
+table	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Life-cycle%20impacts%20of%20energy%20sources%20(UNECEA)/Life-cycle%20impacts%20of%20energy%20sources%20(UNECEA).csv	energy
+hideTitleAnnotation	true
+graphers
+	title	subtitle	Impact metric Radio	tableSlug	ySlugs	yScaleToggle	xSlug	baseColorScheme	type	hasMapTab	grapherId	sourceDesc	note
+	Lifecycle greenhouse gas emissions per MWh		Greenhouse gas emissions	energy	ghg_emissions	false		owid-distinct	DiscreteBar	false
+	Freshwater eutrophication per MWh of energy production		Freshwater use	energy	freshwater_eutrophication	false		owid-distinct	DiscreteBar	false
+	Ionising radiation per MWh of energy production		Ionising radiation	energy	ionising_radiation	false		owid-distinct	DiscreteBar	false
+	Water use per MWh of energy production		Water use	energy	water_use	false		owid-distinct	DiscreteBar	false
+	Metal and mineral requirements per MWh of energy production		Metal and mineral use	energy	metal_mineral_use	false		owid-distinct	DiscreteBar	false
+	Non-carcinogenic toxicity potential per unit of energy production		Non-carcinogenic toxicity	energy	noncarcinogenic_toxicity	false		owid-distinct	DiscreteBar	false
+	Carcinogenic toxicity potential per unit of energy production		Carcinogenic toxicity	energy	carcinogenic_toxicity	false		owid-distinct	DiscreteBar	false
+			Death rates								582
+	Agricultural land use per MWh of energy production		Agricultural land use	energy	agricutural_land_use_energy	false		owid-distinct	DiscreteBar	false
+	Urban land use per MWh of energy production		Urban land use	energy	urban_land_use_energy	false		owid-distinct	DiscreteBar	false
+	Land use per MWh of energy production		Total land use	energy	land_use_energy	false		owid-distinct	DiscreteBar	false
+
+columns	energy
+	slug	name	type	unit	shortUnit	transform	annotationsColumnSlug	notes	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo	tolerance	colorScaleNumericMinValue
+	ghg_emissions	Greenhouse gas emissions	Numeric	kgCO₂e per MWh	kgCO₂
+	freshwater_eutrophication	Freshwater eutrophication	Numeric	gP per MWh	g
+	ionising_radiation	Ionising radiation	Numeric	kg U per MWh	kg
+	water_use	Water use	Numeric	m³ per MWh	m³
+	metal_mineral_use	Metal and mineral requirements	Numeric	g Sbeq per MWh	g
+	noncarcinogenic_toxicity	Non-carcinogenic toxicity	Numeric	CTUh per TWh
+	carcinogenic_toxicity	Carcinogenic toxicity	Numeric	CTUh per TWh
+	agricutural_land_use_energy	Agricultural land use	Numeric	m² per MWh	m²
+	urban_land_use_energy	Urban land use	Numeric	m² per MWh	m²
+	land_use_energy	Total land use	Numeric	m² per MWh	m²
