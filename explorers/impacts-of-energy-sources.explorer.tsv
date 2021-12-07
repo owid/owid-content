@@ -4,6 +4,7 @@ selection	Coal (pulverised)	Coal (supercritical)	Gas	Nuclear	Onshore wind	Offsho
 explorerSubtitle
 hideAlertBanner	true
 subNavId
+entityType	energy source
 hasMapTab	false
 table	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Life-cycle%20impacts%20of%20energy%20sources%20(UNECEA)/Life-cycle%20impacts%20of%20energy%20sources%20(UNECEA).csv	energy
 hideTitleAnnotation	true
