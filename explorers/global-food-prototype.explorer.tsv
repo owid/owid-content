@@ -247,17 +247,6 @@ graphers
 	Cranberry production	Cranberries	Production	Tonnes	false		LineChart	production__tonnes	cranberries	true	0
 	Cranberry yield	Cranberries	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	cranberries	true	0
 	Land used for cranberry production	Cranberries	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	cranberries	true	0
-	Cream production	Cream	Production	Tonnes	false		LineChart	production__tonnes	cream	true	0
-	Cream imports	Cream	Imports	Tonnes	false	The quantity that is imported in a given year.	LineChart	imports__tonnes	cream	true	0
-	Cream exports  The quantity that is exported in a given year.	Cream	Exports	Tonnes	false		LineChart	exports__tonnes	cream	true	0
-	Domestic supply of cream	Cream	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	cream	true	0
-	Cream used for direct human food	Cream	Allocated for human food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	cream	true	0
-	Cream used for industrial uses	Cream	Allocated to industrial uses	Tonnes	false	The quantity that is allocated to industrial uses such as biofuel, pharmaceuticals or textile products.	LineChart	other_uses__tonnes	cream	true	0
-	Cream waste	Cream	Waste	Tonnes	false	The quantity that is lost or wasted in supply chains through poor handling, spoiling, lack of refrigeration and damage from the field to retail. It does not include consumer waste.	LineChart	waste__tonnes	cream	true	0
-	Per capita cream consumption per year	Cream	Food available for consumption	Kilograms	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__kg_per_capita_per_year	cream	true	0
-	Per capita kilocalorie consumption from cream per day	Cream	Food available for consumption	Kilocalories	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__kcal_per_day_per_capita	cream	true	0
-	Per capita protein consumption from cream per day	Cream	Food available for consumption	Protein	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__protein_g_per_day_per_capita	cream	true	0
-	Per capita fat consumption from cream per day	Cream	Food available for consumption	Fat	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__fat_g_per_day_per_capita	cream	true	0
 	Cucumber and gherkin production	Cucumbers and gherkins	Production	Tonnes	false		LineChart	production__tonnes	cucumbers_and_gherkins	true	0
 	Cucumber and gherkin yield	Cucumbers and gherkins	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	cucumbers_and_gherkins	true	0
 	Land used for cucumber and gherkin production	Cucumbers and gherkins	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	cucumbers_and_gherkins	true	0
@@ -294,8 +283,10 @@ graphers
 	Per capita protein consumption from eggs per day	Eggs	Food available for consumption	Protein	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__protein_g_per_day_per_capita	eggs	true	0
 	Per capita fat consumption from eggs per day	Eggs	Food available for consumption	Fat	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__fat_g_per_day_per_capita	eggs	true	0
 	Eggs used for animal feed	Eggs	Allocated to animal feed	Tonnes	false	The quantity that is allocated to feed for livestock.	LineChart	feed__tonnes	eggs	true	0
-	Egg (from other birds) production	Eggs from other birds	Production	Tonnes	false		LineChart	production__tonnes	eggs_from_other_birds	true	0
-	Egg (from other birds) yield	Eggs from other birds	Yield		false	Yield is measured as the quantity produced per animal.	LineChart	yield__kg_per_animal	eggs_from_other_birds	true	0
+	Hen egg production	Eggs from hens	Production	Tonnes	false		LineChart	production__tonnes	eggs_from_hens	true	0
+	Hen egg yield	Eggs from hens	Yield		false	Yield is measured as the quantity produced per animal.	LineChart	yield__kg_per_animal	eggs_from_hens	true	0
+	Egg (from other birds, excl. hens) production	Eggs from other birds (excl. hens)	Production	Tonnes	false		LineChart	production__tonnes	eggs_from_other_birds_excl_hens	true	0
+	Egg (from other birds, excl. hens) yield	Eggs from other birds (excl. hens)	Yield		false	Yield is measured as the quantity produced per animal.	LineChart	yield__kg_per_animal	eggs_from_other_birds_excl_hens	true	0
 	Buffalo fat production	Fat, buffaloes	Production	Tonnes	false		LineChart	production__tonnes	fat_buffaloes	true	0
 	Camel fat production	Fat, camels	Production	Tonnes	false		LineChart	production__tonnes	fat_camels	true	0
 	Cattle fat production	Fat, cattle	Production	Tonnes	false		LineChart	production__tonnes	fat_cattle	true	0
@@ -325,8 +316,6 @@ graphers
 	Garlic production	Garlic	Production	Tonnes	false		LineChart	production__tonnes	garlic	true	0
 	Garlic yield	Garlic	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	garlic	true	0
 	Land used for garlic production	Garlic	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	garlic	true	0
-	Ghee, buffalo milk production	Ghee, buffalo milk	Production	Tonnes	false		LineChart	production__tonnes	ghee_buffalo_milk	true	0
-	Ghee, butteroil of cow milk production	Ghee, butteroil of cow milk	Production	Tonnes	false		LineChart	production__tonnes	ghee_butteroil_of_cow_milk	true	0
 	Grapefruit production	Grapefruit	Production	Tonnes	false		LineChart	production__tonnes	grapefruit	true	0
 	Grapefruit yield	Grapefruit	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	grapefruit	true	0
 	Land used for grapefruit production	Grapefruit	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	grapefruit	true	0
@@ -379,8 +368,6 @@ graphers
 	Hempseed production	Hempseed	Production	Tonnes	false		LineChart	production__tonnes	hempseed	true	0
 	Hempseed yield	Hempseed	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	hempseed	true	0
 	Land used for hempseed production	Hempseed	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	hempseed	true	0
-	Hen egg production	Hen eggs	Production	Tonnes	false		LineChart	production__tonnes	hen_eggs	true	0
-	Hen egg yield	Hen eggs	Yield		false	Yield is measured as the quantity produced per animal.	LineChart	yield__kg_per_animal	hen_eggs	true	0
 	Herb (e.g. fennel) production	Herbs (e.g. fennel)	Production	Tonnes	false		LineChart	production__tonnes	herbs_eg_fennel	true	0
 	Herb (e.g. fennel) yield	Herbs (e.g. fennel)	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	herbs_eg_fennel	true	0
 	Land used for herb (e.g. fennel) production	Herbs (e.g. fennel)	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	herbs_eg_fennel	true	0
@@ -464,19 +451,6 @@ graphers
 	Mango yield	Mangoes	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	mangoes	true	0
 	Land used for mango production	Mangoes	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	mangoes	true	0
 	Margarine production	Margarine	Production	Tonnes	false		LineChart	production__tonnes	margarine	true	0
-	Poultry meat production	Meat, Poultry	Production	Tonnes	false		LineChart	production__tonnes	meat_poultry	true	0
-	Poultry meat yield	Meat, Poultry	Yield		false	Yield is measured as the quantity produced per animal.	LineChart	yield__kg_per_animal	meat_poultry	true	0
-	Poultry meat imports	Meat, Poultry	Imports	Tonnes	false	The quantity that is imported in a given year.	LineChart	imports__tonnes	meat_poultry	true	0
-	Poultry meat exports  The quantity that is exported in a given year.	Meat, Poultry	Exports	Tonnes	false		LineChart	exports__tonnes	meat_poultry	true	0
-	Domestic supply of poultry meat	Meat, Poultry	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	meat_poultry	true	0
-	Poultry meat used for direct human food	Meat, Poultry	Allocated for human food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	meat_poultry	true	0
-	Poultry meat used for industrial uses	Meat, Poultry	Allocated to industrial uses	Tonnes	false	The quantity that is allocated to industrial uses such as biofuel, pharmaceuticals or textile products.	LineChart	other_uses__tonnes	meat_poultry	true	0
-	Poultry meat waste	Meat, Poultry	Waste	Tonnes	false	The quantity that is lost or wasted in supply chains through poor handling, spoiling, lack of refrigeration and damage from the field to retail. It does not include consumer waste.	LineChart	waste__tonnes	meat_poultry	true	0
-	Per capita poultry meat consumption per year	Meat, Poultry	Food available for consumption	Kilograms	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__kg_per_capita_per_year	meat_poultry	true	0
-	Per capita kilocalorie consumption from poultry meat per day	Meat, Poultry	Food available for consumption	Kilocalories	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__kcal_per_day_per_capita	meat_poultry	true	0
-	Per capita protein consumption from poultry meat per day	Meat, Poultry	Food available for consumption	Protein	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__protein_g_per_day_per_capita	meat_poultry	true	0
-	Per capita fat consumption from poultry meat per day	Meat, Poultry	Food available for consumption	Fat	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__fat_g_per_day_per_capita	meat_poultry	true	0
-	Poultry meat used for animal feed	Meat, Poultry	Allocated to animal feed	Tonnes	false	The quantity that is allocated to feed for livestock.	LineChart	feed__tonnes	meat_poultry	true	0
 	Total meat production	Meat, Total	Production	Tonnes	false		LineChart	production__tonnes	meat_total	true	0
 	Total meat imports	Meat, Total	Imports	Tonnes	false	The quantity that is imported in a given year.	LineChart	imports__tonnes	meat_total	true	0
 	Total meat exports  The quantity that is exported in a given year.	Meat, Total	Exports	Tonnes	false		LineChart	exports__tonnes	meat_total	true	0
@@ -519,6 +493,19 @@ graphers
 	Other rodent meat yield	Meat, other rodents	Yield		false	Yield is measured as the quantity produced per animal.	LineChart	yield__kg_per_animal	meat_other_rodents	true	0
 	Pig meat production	Meat, pig	Production	Tonnes	false		LineChart	production__tonnes	meat_pig	true	0
 	Pig meat yield	Meat, pig	Yield		false	Yield is measured as the quantity produced per animal.	LineChart	yield__kg_per_animal	meat_pig	true	0
+	Poultry meat production	Meat, poultry	Production	Tonnes	false		LineChart	production__tonnes	meat_poultry	true	0
+	Poultry meat yield	Meat, poultry	Yield		false	Yield is measured as the quantity produced per animal.	LineChart	yield__kg_per_animal	meat_poultry	true	0
+	Poultry meat imports	Meat, poultry	Imports	Tonnes	false	The quantity that is imported in a given year.	LineChart	imports__tonnes	meat_poultry	true	0
+	Poultry meat exports  The quantity that is exported in a given year.	Meat, poultry	Exports	Tonnes	false		LineChart	exports__tonnes	meat_poultry	true	0
+	Domestic supply of poultry meat	Meat, poultry	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	meat_poultry	true	0
+	Poultry meat used for direct human food	Meat, poultry	Allocated for human food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	meat_poultry	true	0
+	Poultry meat used for industrial uses	Meat, poultry	Allocated to industrial uses	Tonnes	false	The quantity that is allocated to industrial uses such as biofuel, pharmaceuticals or textile products.	LineChart	other_uses__tonnes	meat_poultry	true	0
+	Poultry meat waste	Meat, poultry	Waste	Tonnes	false	The quantity that is lost or wasted in supply chains through poor handling, spoiling, lack of refrigeration and damage from the field to retail. It does not include consumer waste.	LineChart	waste__tonnes	meat_poultry	true	0
+	Per capita poultry meat consumption per year	Meat, poultry	Food available for consumption	Kilograms	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__kg_per_capita_per_year	meat_poultry	true	0
+	Per capita kilocalorie consumption from poultry meat per day	Meat, poultry	Food available for consumption	Kilocalories	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__kcal_per_day_per_capita	meat_poultry	true	0
+	Per capita protein consumption from poultry meat per day	Meat, poultry	Food available for consumption	Protein	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__protein_g_per_day_per_capita	meat_poultry	true	0
+	Per capita fat consumption from poultry meat per day	Meat, poultry	Food available for consumption	Fat	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__fat_g_per_day_per_capita	meat_poultry	true	0
+	Poultry meat used for animal feed	Meat, poultry	Allocated to animal feed	Tonnes	false	The quantity that is allocated to feed for livestock.	LineChart	feed__tonnes	meat_poultry	true	0
 	Rabbit meat production	Meat, rabbit	Production	Tonnes	false		LineChart	production__tonnes	meat_rabbit	true	0
 	Rabbit meat yield	Meat, rabbit	Yield		false	Yield is measured as the quantity produced per animal.	LineChart	yield__kg_per_animal	meat_rabbit	true	0
 	Sheep meat production	Meat, sheep	Production	Tonnes	false		LineChart	production__tonnes	meat_sheep	true	0
@@ -533,17 +520,17 @@ graphers
 	Land used for melonseed production	Melonseed	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	melonseed	true	0
 	Milk production	Milk	Production	Tonnes	false		LineChart	production__tonnes	milk	true	0
 	Milk yield	Milk	Yield		false	Yield is measured as the quantity produced per animal.	LineChart	yield__kg_per_animal	milk	true	0
-	Milk imports	Milk, excluding butter	Imports	Tonnes	false	The quantity that is imported in a given year.	LineChart	imports__tonnes	milk_excluding_butter	true	0
-	Milk exports  The quantity that is exported in a given year.	Milk, excluding butter	Exports	Tonnes	false		LineChart	exports__tonnes	milk_excluding_butter	true	0
-	Domestic supply of milk	Milk, excluding butter	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	milk_excluding_butter	true	0
-	Milk used for direct human food	Milk, excluding butter	Allocated for human food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	milk_excluding_butter	true	0
-	Milk used for industrial uses	Milk, excluding butter	Allocated to industrial uses	Tonnes	false	The quantity that is allocated to industrial uses such as biofuel, pharmaceuticals or textile products.	LineChart	other_uses__tonnes	milk_excluding_butter	true	0
-	Milk waste	Milk, excluding butter	Waste	Tonnes	false	The quantity that is lost or wasted in supply chains through poor handling, spoiling, lack of refrigeration and damage from the field to retail. It does not include consumer waste.	LineChart	waste__tonnes	milk_excluding_butter	true	0
-	Per capita milk consumption per year	Milk, excluding butter	Food available for consumption	Kilograms	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__kg_per_capita_per_year	milk_excluding_butter	true	0
-	Per capita kilocalorie consumption from milk per day	Milk, excluding butter	Food available for consumption	Kilocalories	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__kcal_per_day_per_capita	milk_excluding_butter	true	0
-	Per capita protein consumption from milk per day	Milk, excluding butter	Food available for consumption	Protein	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__protein_g_per_day_per_capita	milk_excluding_butter	true	0
-	Per capita fat consumption from milk per day	Milk, excluding butter	Food available for consumption	Fat	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__fat_g_per_day_per_capita	milk_excluding_butter	true	0
-	Milk used for animal feed	Milk, excluding butter	Allocated to animal feed	Tonnes	false	The quantity that is allocated to feed for livestock.	LineChart	feed__tonnes	milk_excluding_butter	true	0
+	Milk imports	Milk	Imports	Tonnes	false	The quantity that is imported in a given year.	LineChart	imports__tonnes	milk	true	0
+	Milk exports  The quantity that is exported in a given year.	Milk	Exports	Tonnes	false		LineChart	exports__tonnes	milk	true	0
+	Domestic supply of milk	Milk	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	milk	true	0
+	Milk used for direct human food	Milk	Allocated for human food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	milk	true	0
+	Milk used for industrial uses	Milk	Allocated to industrial uses	Tonnes	false	The quantity that is allocated to industrial uses such as biofuel, pharmaceuticals or textile products.	LineChart	other_uses__tonnes	milk	true	0
+	Milk waste	Milk	Waste	Tonnes	false	The quantity that is lost or wasted in supply chains through poor handling, spoiling, lack of refrigeration and damage from the field to retail. It does not include consumer waste.	LineChart	waste__tonnes	milk	true	0
+	Per capita milk consumption per year	Milk	Food available for consumption	Kilograms	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__kg_per_capita_per_year	milk	true	0
+	Per capita kilocalorie consumption from milk per day	Milk	Food available for consumption	Kilocalories	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__kcal_per_day_per_capita	milk	true	0
+	Per capita protein consumption from milk per day	Milk	Food available for consumption	Protein	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__protein_g_per_day_per_capita	milk	true	0
+	Per capita fat consumption from milk per day	Milk	Food available for consumption	Fat	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__fat_g_per_day_per_capita	milk	true	0
+	Milk used for animal feed	Milk	Allocated to animal feed	Tonnes	false	The quantity that is allocated to feed for livestock.	LineChart	feed__tonnes	milk	true	0
 	Millet production	Millet	Production	Tonnes	false		LineChart	production__tonnes	millet	true	0
 	Millet yield	Millet	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	millet	true	0
 	Land used for millet production	Millet	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	millet	true	0
@@ -665,33 +652,17 @@ graphers
 	Orange production	Oranges	Production	Tonnes	false		LineChart	production__tonnes	oranges	true	0
 	Orange yield	Oranges	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	oranges	true	0
 	Land used for orange production	Oranges	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	oranges	true	0
-	Orange and mandarine imports	Oranges and mandarines	Imports	Tonnes	false	The quantity that is imported in a given year.	LineChart	imports__tonnes	oranges_and_mandarines	true	0
-	Orange and mandarine exports  The quantity that is exported in a given year.	Oranges and mandarines	Exports	Tonnes	false		LineChart	exports__tonnes	oranges_and_mandarines	true	0
-	Domestic supply of oranges and mandarines	Oranges and mandarines	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	oranges_and_mandarines	true	0
-	Oranges and mandarines used for direct human food	Oranges and mandarines	Allocated for human food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	oranges_and_mandarines	true	0
-	Oranges and mandarines used for industrial uses	Oranges and mandarines	Allocated to industrial uses	Tonnes	false	The quantity that is allocated to industrial uses such as biofuel, pharmaceuticals or textile products.	LineChart	other_uses__tonnes	oranges_and_mandarines	true	0
-	Orange and mandarine waste	Oranges and mandarines	Waste	Tonnes	false	The quantity that is lost or wasted in supply chains through poor handling, spoiling, lack of refrigeration and damage from the field to retail. It does not include consumer waste.	LineChart	waste__tonnes	oranges_and_mandarines	true	0
-	Per capita orange and mandarine consumption per year	Oranges and mandarines	Food available for consumption	Kilograms	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__kg_per_capita_per_year	oranges_and_mandarines	true	0
-	Per capita kilocalorie consumption from oranges and mandarines per day	Oranges and mandarines	Food available for consumption	Kilocalories	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__kcal_per_day_per_capita	oranges_and_mandarines	true	0
-	Per capita protein consumption from oranges and mandarines per day	Oranges and mandarines	Food available for consumption	Protein	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__protein_g_per_day_per_capita	oranges_and_mandarines	true	0
-	Per capita fat consumption from oranges and mandarines per day	Oranges and mandarines	Food available for consumption	Fat	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__fat_g_per_day_per_capita	oranges_and_mandarines	true	0
-	Oranges and mandarines used for animal feed	Oranges and mandarines	Allocated to animal feed	Tonnes	false	The quantity that is allocated to feed for livestock.	LineChart	feed__tonnes	oranges_and_mandarines	true	0
-	Other cereal imports	Other cereals	Imports	Tonnes	false	The quantity that is imported in a given year.	LineChart	imports__tonnes	other_cereals	true	0
-	Other cereal exports  The quantity that is exported in a given year.	Other cereals	Exports	Tonnes	false		LineChart	exports__tonnes	other_cereals	true	0
-	Domestic supply of other cereals	Other cereals	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	other_cereals	true	0
-	Other cereals used for direct human food	Other cereals	Allocated for human food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	other_cereals	true	0
-	Other cereals used for industrial uses	Other cereals	Allocated to industrial uses	Tonnes	false	The quantity that is allocated to industrial uses such as biofuel, pharmaceuticals or textile products.	LineChart	other_uses__tonnes	other_cereals	true	0
-	Other cereal waste	Other cereals	Waste	Tonnes	false	The quantity that is lost or wasted in supply chains through poor handling, spoiling, lack of refrigeration and damage from the field to retail. It does not include consumer waste.	LineChart	waste__tonnes	other_cereals	true	0
-	Per capita other cereal consumption per year	Other cereals	Food available for consumption	Kilograms	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__kg_per_capita_per_year	other_cereals	true	0
-	Per capita kilocalorie consumption from other cereals per day	Other cereals	Food available for consumption	Kilocalories	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__kcal_per_day_per_capita	other_cereals	true	0
-	Per capita protein consumption from other cereals per day	Other cereals	Food available for consumption	Protein	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__protein_g_per_day_per_capita	other_cereals	true	0
-	Per capita fat consumption from other cereals per day	Other cereals	Food available for consumption	Fat	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__fat_g_per_day_per_capita	other_cereals	true	0
-	Other cereals used for animal feed	Other cereals	Allocated to animal feed	Tonnes	false	The quantity that is allocated to feed for livestock.	LineChart	feed__tonnes	other_cereals	true	0
-	Other meat production	Other meats	Production	Tonnes	false		LineChart	production__tonnes	other_meats	true	0
-	Other meat yield	Other meats	Yield		false	Yield is measured as the quantity produced per animal.	LineChart	yield__kg_per_animal	other_meats	true	0
-	Other oilseed production	Other oilseeds	Production	Tonnes	false		LineChart	production__tonnes	other_oilseeds	true	0
-	Other oilseed yield	Other oilseeds	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	other_oilseeds	true	0
-	Land used for other oilseed production	Other oilseeds	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	other_oilseeds	true	0
+	Orange imports	Oranges	Imports	Tonnes	false	The quantity that is imported in a given year.	LineChart	imports__tonnes	oranges	true	0
+	Orange exports  The quantity that is exported in a given year.	Oranges	Exports	Tonnes	false		LineChart	exports__tonnes	oranges	true	0
+	Domestic supply of oranges	Oranges	Domestic supply (after trade)	Tonnes	false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	oranges	true	0
+	Oranges used for direct human food	Oranges	Allocated for human food	Tonnes	false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	oranges	true	0
+	Oranges used for industrial uses	Oranges	Allocated to industrial uses	Tonnes	false	The quantity that is allocated to industrial uses such as biofuel, pharmaceuticals or textile products.	LineChart	other_uses__tonnes	oranges	true	0
+	Orange waste	Oranges	Waste	Tonnes	false	The quantity that is lost or wasted in supply chains through poor handling, spoiling, lack of refrigeration and damage from the field to retail. It does not include consumer waste.	LineChart	waste__tonnes	oranges	true	0
+	Per capita orange consumption per year	Oranges	Food available for consumption	Kilograms	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__kg_per_capita_per_year	oranges	true	0
+	Per capita kilocalorie consumption from oranges per day	Oranges	Food available for consumption	Kilocalories	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__kcal_per_day_per_capita	oranges	true	0
+	Per capita protein consumption from oranges per day	Oranges	Food available for consumption	Protein	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__protein_g_per_day_per_capita	oranges	true	0
+	Per capita fat consumption from oranges per day	Oranges	Food available for consumption	Fat	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__fat_g_per_day_per_capita	oranges	true	0
+	Oranges used for animal feed	Oranges	Allocated to animal feed	Tonnes	false	The quantity that is allocated to feed for livestock.	LineChart	feed__tonnes	oranges	true	0
 	Palm Oil production	Palm Oil	Production	Tonnes	false		LineChart	production__tonnes	palm_oil	true	0
 	Palm fruit oil production	Palm fruit oil	Production	Tonnes	false		LineChart	production__tonnes	palm_fruit_oil	true	0
 	Palm fruit oil yield	Palm fruit oil	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	palm_fruit_oil	true	0
@@ -854,13 +825,9 @@ graphers
 	Per capita protein consumption from rice per day	Rice	Food available for consumption	Protein	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__protein_g_per_day_per_capita	rice	true	0
 	Per capita fat consumption from rice per day	Rice	Food available for consumption	Fat	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__fat_g_per_day_per_capita	rice	true	0
 	Rice used for animal feed	Rice	Allocated to animal feed	Tonnes	false	The quantity that is allocated to feed for livestock.	LineChart	feed__tonnes	rice	true	0
-	Rice (milled equivalent) production	Rice (milled equivalent)	Production	Tonnes	false		LineChart	production__tonnes	rice_milled_equivalent	true	0
 	Root and tuber production	Roots and tubers	Production	Tonnes	false		LineChart	production__tonnes	roots_and_tubers	true	0
 	Root and tuber yield	Roots and tubers	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	roots_and_tubers	true	0
 	Land used for root and tuber production	Roots and tubers	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	roots_and_tubers	true	0
-	Rubber production	Rubber	Production	Tonnes	false		LineChart	production__tonnes	rubber	true	0
-	Rubber yield	Rubber	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	rubber	true	0
-	Land used for rubber production	Rubber	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	rubber	true	0
 	Rye production	Rye	Production	Tonnes	false		LineChart	production__tonnes	rye	true	0
 	Rye yield	Rye	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	rye	true	0
 	Land used for rye production	Rye	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	rye	true	0
@@ -1133,7 +1100,6 @@ graphers
 	Per capita protein consumption from yams per day	Yams	Food available for consumption	Protein	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__protein_g_per_day_per_capita	yams	true	0
 	Per capita fat consumption from yams per day	Yams	Food available for consumption	Fat	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__fat_g_per_day_per_capita	yams	true	0
 	Yams used for animal feed	Yams	Allocated to animal feed	Tonnes	false	The quantity that is allocated to feed for livestock.	LineChart	feed__tonnes	yams	true	0
-	Yoghurt production	Yoghurt	Production	Tonnes	false		LineChart	production__tonnes	yoghurt	true	0
 									
 									
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/almonds.csv	almonds
@@ -1181,13 +1147,13 @@ table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/foo
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/cottonseed_oil.csv	cottonseed_oil
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/cow_peas.csv	cow_peas
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/cranberries.csv	cranberries
-table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/cream.csv	cream
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/cucumbers_and_gherkins.csv	cucumbers_and_gherkins
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/currants.csv	currants
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/dates.csv	dates
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/eggplants.csv	eggplants
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/eggs.csv	eggs
-table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/eggs_from_other_birds.csv	eggs_from_other_birds
+table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/eggs_from_hens.csv	eggs_from_hens
+table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/eggs_from_other_birds_excl_hens.csv	eggs_from_other_birds_excl_hens
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/fat_buffaloes.csv	fat_buffaloes
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/fat_camels.csv	fat_camels
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/fat_cattle.csv	fat_cattle
@@ -1198,8 +1164,6 @@ table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/foo
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/flax_fibre.csv	flax_fibre
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/fruit.csv	fruit
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/garlic.csv	garlic
-table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/ghee_buffalo_milk.csv	ghee_buffalo_milk
-table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/ghee_butteroil_of_cow_milk.csv	ghee_butteroil_of_cow_milk
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/grapefruit.csv	grapefruit
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/grapes.csv	grapes
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/green_maize.csv	green_maize
@@ -1207,7 +1171,6 @@ table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/foo
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/groundnut_oil.csv	groundnut_oil
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/hazelnuts.csv	hazelnuts
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/hempseed.csv	hempseed
-table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/hen_eggs.csv	hen_eggs
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/herbs_eg_fennel.csv	herbs_eg_fennel
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/honey.csv	honey
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/jute.csv	jute
@@ -1224,7 +1187,6 @@ table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/foo
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/maize_oil.csv	maize_oil
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/mangoes.csv	mangoes
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/margarine.csv	margarine
-table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/meat_poultry.csv	meat_poultry
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/meat_total.csv	meat_total
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/meat_ass.csv	meat_ass
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/meat_buffalo.csv	meat_buffalo
@@ -1241,13 +1203,13 @@ table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/foo
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/meat_other_camelids.csv	meat_other_camelids
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/meat_other_rodents.csv	meat_other_rodents
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/meat_pig.csv	meat_pig
+table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/meat_poultry.csv	meat_poultry
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/meat_rabbit.csv	meat_rabbit
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/meat_sheep.csv	meat_sheep
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/meat_turkey.csv	meat_turkey
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/melon.csv	melon
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/melonseed.csv	melonseed
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/milk.csv	milk
-table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/milk_excluding_butter.csv	milk_excluding_butter
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/millet.csv	millet
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/mixed_grains.csv	mixed_grains
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/molasses.csv	molasses
@@ -1271,10 +1233,6 @@ table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/foo
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/olives.csv	olives
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/onions.csv	onions
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/oranges.csv	oranges
-table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/oranges_and_mandarines.csv	oranges_and_mandarines
-table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/other_cereals.csv	other_cereals
-table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/other_meats.csv	other_meats
-table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/other_oilseeds.csv	other_oilseeds
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/palm_fruit_oil.csv	palm_fruit_oil
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/palm_kernel_oil.csv	palm_kernel_oil
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/palm_kernels.csv	palm_kernels
@@ -1299,9 +1257,7 @@ table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/foo
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/rapeseed_oil.csv	rapeseed_oil
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/raspberries.csv	raspberries
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/rice.csv	rice
-table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/rice_milled_equivalent.csv	rice_milled_equivalent
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/roots_and_tubers.csv	roots_and_tubers
-table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/rubber.csv	rubber
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/rye.csv	rye
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/safflower_oil.csv	safflower_oil
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/safflower_seed.csv	safflower_seed
@@ -1337,9 +1293,8 @@ table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/foo
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/whey.csv	whey
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/wine.csv	wine
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/wool.csv	wool
-table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/yams.csv	yams
-table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/yoghurt.csv	yoghurt									
-columns	almonds	animal_fats	apples	apricots	areca_nuts	artichokes	asparagus	avocados	bananas	barley	beans_dry	beans_green	beef_and_buffalo_meat	beeswax	blueberries	brazil_nuts_with_shell	broad_beans	buckwheat	buffalo_hides	butter_and_ghee	cabbages	canary_seed	carrots_and_turnips	cashew_nuts	cassava	castor_oil_seed	cattle_hides	cauliflowers_and_broccoli	cereals	cheese	cherries	chestnut	chickpeas	chillies_and_peppers_dry	chillies_and_peppers_green	citrus_fruit	cocoa_beans	coconut_oil	coconuts	coffee_green	cotton	cottonseed	cottonseed_oil	cow_peas	cranberries	cream	cucumbers_and_gherkins	currants	dates	eggplants	eggs	eggs_from_other_birds	fat_buffaloes	fat_camels	fat_cattle	fat_goats	fat_pigs	fat_sheep	fibre_crops	flax_fibre	fruit	garlic	ghee_buffalo_milk	ghee_butteroil_of_cow_milk	grapefruit	grapes	green_maize	groundnuts	groundnut_oil	hazelnuts	hempseed	hen_eggs	herbs_eg_fennel	honey	jute	karite_nuts	kiwi	kola_nuts	leeks	lemons_and_limes	lentils	lettuce	linseed	linseed_oil	maize	maize_oil	mangoes	margarine	meat_poultry	meat_total	meat_ass	meat_buffalo	meat_camel	meat_cattle	meat_chicken	meat_duck	meat_game	meat_goat	meat_goose_and_guinea_fowl	meat_horse	meat_mule	meat_other_birds	meat_other_camelids	meat_other_rodents	meat_pig	meat_rabbit	meat_sheep	meat_turkey	melon	melonseed	milk	milk_excluding_butter	millet	mixed_grains	molasses	mushrooms	mustard_seed	nuts	oats	offals	offals_buffaloes	offals_camels	offals_cattle	offals_goats	offals_horses	offals_pigs	offals_sheep	oilcrops	oilcrops_cake_equivalent	oilcrops_oil_equivalent	okra	olive_oil	olives	onions	oranges	oranges_and_mandarines	other_cereals	other_meats	other_oilseeds	palm_fruit_oil	palm_kernel_oil	palm_kernels	palm_oil	papayas	peaches_and_nectarines	pears	peas_dry	peas_green	pepper	pigeon_peas	pineapples	pistachios	plantains	plums	poppy_seeds	pork	potatoes	pulses	quinoa	rapeseed	rapeseed_oil	raspberries	rice	rice_milled_equivalent	roots_and_tubers	rubber	rye	safflower_oil	safflower_seed	seed_cotton	sesame_oil	sesame_seed	sheep_and_goat_meat	silk	skins_goat	skins_sheep	sorghum	soybean_oil	soybeans	spinach	strawberries	string_beans	sugar_raw	sugar_beet	sugar_cane	sugar_crops	sunflower_oil	sunflower_seed	sweet_potatoes	tangerines	tea	tobacco	tomatoes	treenuts	vegetables	walnuts	watermelons	wheat	whey	wine	wool	yams	yoghurt								
+table	https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/yams.csv	yams									
+columns	almonds	animal_fats	apples	apricots	areca_nuts	artichokes	asparagus	avocados	bananas	barley	beans_dry	beans_green	beef_and_buffalo_meat	beeswax	blueberries	brazil_nuts_with_shell	broad_beans	buckwheat	buffalo_hides	butter_and_ghee	cabbages	canary_seed	carrots_and_turnips	cashew_nuts	cassava	castor_oil_seed	cattle_hides	cauliflowers_and_broccoli	cereals	cheese	cherries	chestnut	chickpeas	chillies_and_peppers_dry	chillies_and_peppers_green	citrus_fruit	cocoa_beans	coconut_oil	coconuts	coffee_green	cotton	cottonseed	cottonseed_oil	cow_peas	cranberries	cucumbers_and_gherkins	currants	dates	eggplants	eggs	eggs_from_hens	eggs_from_other_birds_excl_hens	fat_buffaloes	fat_camels	fat_cattle	fat_goats	fat_pigs	fat_sheep	fibre_crops	flax_fibre	fruit	garlic	grapefruit	grapes	green_maize	groundnuts	groundnut_oil	hazelnuts	hempseed	herbs_eg_fennel	honey	jute	karite_nuts	kiwi	kola_nuts	leeks	lemons_and_limes	lentils	lettuce	linseed	linseed_oil	maize	maize_oil	mangoes	margarine	meat_total	meat_ass	meat_buffalo	meat_camel	meat_cattle	meat_chicken	meat_duck	meat_game	meat_goat	meat_goose_and_guinea_fowl	meat_horse	meat_mule	meat_other_birds	meat_other_camelids	meat_other_rodents	meat_pig	meat_poultry	meat_rabbit	meat_sheep	meat_turkey	melon	melonseed	milk	millet	mixed_grains	molasses	mushrooms	mustard_seed	nuts	oats	offals	offals_buffaloes	offals_camels	offals_cattle	offals_goats	offals_horses	offals_pigs	offals_sheep	oilcrops	oilcrops_cake_equivalent	oilcrops_oil_equivalent	okra	olive_oil	olives	onions	oranges	palm_fruit_oil	palm_kernel_oil	palm_kernels	palm_oil	papayas	peaches_and_nectarines	pears	peas_dry	peas_green	pepper	pigeon_peas	pineapples	pistachios	plantains	plums	poppy_seeds	pork	potatoes	pulses	quinoa	rapeseed	rapeseed_oil	raspberries	rice	roots_and_tubers	rye	safflower_oil	safflower_seed	seed_cotton	sesame_oil	sesame_seed	sheep_and_goat_meat	silk	skins_goat	skins_sheep	sorghum	soybean_oil	soybeans	spinach	strawberries	string_beans	sugar_raw	sugar_beet	sugar_cane	sugar_crops	sunflower_oil	sunflower_seed	sweet_potatoes	tangerines	tea	tobacco	tomatoes	treenuts	vegetables	walnuts	watermelons	wheat	whey	wine	wool	yams								
 	slug	name	type	transform	shortUnit	unit	sourceName	dataPublishedBy	sourceLink
 	Country	Country	EntityName						
 	Year	Year	Year						

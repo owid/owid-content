@@ -44,13 +44,13 @@ cottonseed	Cottonseed	Cottonseed	Cottonseeds	production,food_balances,animal_fee
 cottonseed_oil	Cottonseed oil	Cottonseed oil	Cottonseed oil	production,food_balances,animal_feed
 cow_peas	Cow peas	Cow pea	Cow peas	production,land_use,crop_yield
 cranberries	Cranberries	Cranberry	Cranberries	production,land_use,crop_yield
-cream	Cream	Cream	Cream	production,food_balances
 cucumbers_and_gherkins	Cucumbers and gherkins	Cucumber and gherkin	Cucumbers and gherkins	production,land_use,crop_yield
 currants	Currants	Currant	Currants	production,land_use,crop_yield
 dates	Dates	Date	Dates	production,land_use,crop_yield,food_balances,animal_feed
 eggplants	Eggplants	Eggplant	Eggplants	production,land_use,crop_yield
 eggs	Eggs	Egg	Eggs	production,animal_yield,food_balances,animal_feed
-eggs_from_other_birds	Eggs from other birds	Egg (from other birds)	Eggs (from other birds)	production,animal_yield
+eggs_from_hens	Eggs from hens	Hen egg	Hen eggs	production,animal_yield
+eggs_from_other_birds_excl_hens	Eggs from other birds (excl. hens)	Egg (from other birds, excl. hens)	Eggs (from other birds, excl. hens)	production,animal_yield
 fat_buffaloes	Fat, buffaloes	Buffalo fat	Buffalo fat	production
 fat_camels	Fat, camels	Camel fat	Camel fat	production
 fat_cattle	Fat, cattle	Cattle fat	Cattle fat	production
@@ -61,8 +61,6 @@ fibre_crops	Fibre crops	Fibre crop	Fibre crops	production,land_use,crop_yield
 flax_fibre	Flax fibre	Flax fibre	Flax fibre	production,land_use,crop_yield
 fruit	Fruit	Fruit	Fruit	production,land_use,crop_yield,food_balances,animal_feed
 garlic	Garlic	Garlic	Garlic	production,land_use,crop_yield
-ghee_buffalo_milk	Ghee, buffalo milk	Ghee, buffalo milk	Ghee, buffalo milk	production
-ghee_butteroil_of_cow_milk	Ghee, butteroil of cow milk	Ghee, butteroil of cow milk	Ghee, butteroil of cow milk	production
 grapefruit	Grapefruit	Grapefruit	Grapefruits	production,land_use,crop_yield,food_balances,animal_feed
 grapes	Grapes	Grapes	Grapes	production,land_use,crop_yield
 green_maize	Green maize	Green maize	Green maize	production,land_use,crop_yield
@@ -70,7 +68,6 @@ groundnuts	Groundnuts	Groundnut	Groundnuts	production,land_use,crop_yield,food_b
 groundnut_oil	Groundnut Oil	Groundnut Oil	Groundnut Oil	production,food_balances,animal_feed
 hazelnuts	Hazelnuts	Hazelnut	Hazelnuts	production,land_use,crop_yield
 hempseed	Hempseed	Hempseed	Hempseeds	production,land_use,crop_yield
-hen_eggs	Hen eggs	Hen egg	Hen eggs	production,animal_yield
 herbs_eg_fennel	Herbs (e.g. fennel)	Herb (e.g. fennel)	Herbs (e.g. fennel)	production,land_use,crop_yield
 honey	Honey	Honey	Honey	production,food_balances,animal_feed
 jute	Jute	Jute	Jute	production,land_use,crop_yield
@@ -87,7 +84,6 @@ maize	Maize	Maize	Maize	production,land_use,crop_yield,food_balances,animal_feed
 maize_oil	Maize Oil	Maize Oil	Maize Oil	production,food_balances
 mangoes	Mangoes	Mango	Mangoes	production,land_use,crop_yield
 margarine	Margarine	Margarine	Margarine	production
-meat_poultry	Meat, Poultry	Poultry meat	Poultry meat	production,animal_yield,food_balances,animal_feed
 meat_total	Meat, Total	Total meat	All meat	production,food_balances,animal_feed
 meat_ass	Meat, ass	Ass meat	Ass meat	production,animal_yield
 meat_buffalo	Meat, buffalo	Buffalo meat	Buffalo meat	production,animal_yield
@@ -104,13 +100,13 @@ meat_other_birds	Meat, other birds	Other bird meat	Other bird meat	production,an
 meat_other_camelids	Meat, other camelids	Other camelid meat	Other camelid meat	production,animal_yield
 meat_other_rodents	Meat, other rodents	Other rodent meat	Other rodent meat	production,animal_yield
 meat_pig	Meat, pig	Pig meat	Pig meat	production,animal_yield
+meat_poultry	Meat, poultry	Poultry meat	Poultry meat	production,animal_yield,food_balances,animal_feed
 meat_rabbit	Meat, rabbit	Rabbit meat	Rabbit meat	production,animal_yield
 meat_sheep	Meat, sheep	Sheep meat	Sheep meat	production,animal_yield
 meat_turkey	Meat, turkey	Turkey meat	Turkey meat	production,animal_yield
 melon	Melon	Melon	Melon	production,land_use,crop_yield
 melonseed	Melonseed	Melonseed	Melonseeds	production,land_use,crop_yield
-milk	Milk	Milk	Milk	production,animal_yield
-milk_excluding_butter	Milk, excluding butter	Milk	Milk	food_balances,animal_feed
+milk	Milk	Milk	Milk	production,animal_yield,food_balances,animal_feed
 millet	Millet	Millet	Millet	production,land_use,crop_yield,food_balances,animal_feed
 mixed_grains	Mixed grains	Mixed grain	Mixed grains	production,land_use,crop_yield
 molasses	Molasses	Molasses	Molasses	production
@@ -133,11 +129,7 @@ okra	Okra	Okra	Okra	production,land_use,crop_yield
 olive_oil	Olive Oil	Olive Oil	Olive Oil	production,food_balances,animal_feed
 olives	Olives	Olive	Olives	production,land_use,crop_yield,food_balances,animal_feed
 onions	Onions	Onion	Onions	production,land_use,crop_yield,food_balances,animal_feed
-oranges	Oranges	Orange	Oranges	production,land_use,crop_yield
-oranges_and_mandarines	Oranges and mandarines	Orange and mandarine	Oranges and mandarines	food_balances,animal_feed
-other_cereals	Other cereals	Other cereal	Other cereals	food_balances,animal_feed
-other_meats	Other meats	Other meat	Other meats	production,animal_yield
-other_oilseeds	Other oilseeds	Other oilseed	Other oilseeds	production,land_use,crop_yield
+oranges	Oranges	Orange	Oranges	production,land_use,crop_yield,food_balances,animal_feed
 palm_fruit_oil	Palm fruit oil	Palm fruit oil	Palm fruit oil	production,land_use,crop_yield
 palm_kernel_oil	Palm kernel oil	Palm kernel oil	Palm kernel oil	production,food_balances,animal_feed
 palm_kernels	Palm kernels	Palm kernel	Palm kernels	production,food_balances,animal_feed
@@ -162,9 +154,7 @@ rapeseed	Rapeseed	Rapeseed	Rapeseeds	production,land_use,crop_yield
 rapeseed_oil	Rapeseed oil	Rapeseed oil	Rapeseed oil	production
 raspberries	Raspberries	Raspberry	Raspberries	production,land_use,crop_yield
 rice	Rice	Rice	Rice	production,land_use,crop_yield,food_balances,animal_feed
-rice_milled_equivalent	Rice (milled equivalent)	Rice (milled equivalent)	Rice (milled equivalent)	production
 roots_and_tubers	Roots and tubers	Root and tuber	Roots and tubers	production,land_use,crop_yield
-rubber	Rubber	Rubber	Rubber	production,land_use,crop_yield
 rye	Rye	Rye	Rye	production,land_use,crop_yield,food_balances,animal_feed
 safflower_oil	Safflower oil	Safflower oil	Safflower oil	production
 safflower_seed	Safflower seed	Safflower seed	Safflower seeds	production,land_use,crop_yield
@@ -201,4 +191,3 @@ whey	Whey	Whey	Whey	production
 wine	Wine	Wine	Wine	food_balances
 wool	Wool	Wool	Wool	production
 yams	Yams	Yam	Yams	production,land_use,crop_yield,food_balances,animal_feed
-yoghurt	Yoghurt	Yoghurt	Yoghurt	production
