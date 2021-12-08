@@ -5,10 +5,10 @@ explorerSubtitle	How much work does Boring Company have to do
 entityType	State
 selection	Canada	United States
 graphers
-	Tunnel Type Radio	type	ySlugs	title	subtitle	selectedFacetStrategy
+	Tunnel Type Radio	type	ySlugs	title	subtitle	selectedFacetStrategy	defaultView
 	In Ground	DiscreteBar	inGroundTunnels	In ground tunnels	These are getting chearper everyday
 	Underwater	DiscreteBar	underwaterTunnels	Underwater tunnels	So are these
-	All types	LineChart	underwaterTunnels inGroundTunnels bridges	All types of tunnels and bridges		entity
+	All types	LineChart	underwaterTunnels inGroundTunnels bridges	All types of tunnels and bridges		entity	true
 
 table
 	entityName	year	underwaterTunnels	inGroundTunnels	bridges
