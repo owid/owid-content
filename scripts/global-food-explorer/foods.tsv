@@ -147,7 +147,7 @@ plantains	Plantains	Plantain	Plantains	production,land_use,crop_yield,food_balan
 plums	Plums	Plum	Plums	production,land_use,crop_yield
 poppy_seeds	Poppy seed	Poppy seed	Poppy seeds	production,land_use,crop_yield
 pork	Pork	Pork	Pork	food_balances
-potatoes	Potatoes	Potato	Potatoes	food_balances,animal_feed
+potatoes	Potatoes	Potato	Potatoes	production,land_use,crop_yield,food_balances,animal_feed
 pulses	Pulses	Pulse	Pulses	production,land_use,crop_yield,food_balances,animal_feed
 quinoa	Quinoa	Quinoa	Quinoa	production,land_use,crop_yield
 rapeseed	Rapeseed	Rapeseed	Rapeseeds	production,land_use,crop_yield
@@ -182,6 +182,7 @@ tangerines	Tangerines	Tangerine	Tangerines	production,land_use,crop_yield
 tea	Tea	Tea	Tea	production,land_use,crop_yield
 tobacco	Tobacco	Tobacco	Tobacco	production,land_use,crop_yield
 tomatoes	Tomatoes	Tomato	Tomatoes	production,land_use,crop_yield,food_balances,animal_feed
+total	Total	All food	All foods	total_food_supply
 treenuts	Treenuts	Treenut	Treenuts	production,land_use,crop_yield
 vegetables	Vegetables	Vegetable	Vegetables	production,land_use,crop_yield,food_balances,animal_feed
 walnuts	Walnuts	Walnut	Walnuts	production,land_use,crop_yield
