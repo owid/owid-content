@@ -89,7 +89,7 @@ print(f"📈 Generated {len(graphers.index)} views")
 # we want to make sure these are also present in the output.
 # Therefore, we define the column order and also add any remaining columns to the output.
 col_order = ['title', 'Food Dropdown', 'Metric Dropdown', 'Unit Radio',
-             'Per Capita Checkbox', 'subtitle', 'type', 'ySlugs', 'tableSlug', 'hasMapTab']
+             'Per Capita Checkbox', 'subtitle', 'type', 'ySlugs', 'tableSlug']
 remaining_cols = pd.Index(graphers.columns).difference(
     pd.Index(col_order)).tolist()
 graphers = graphers.reindex(columns=col_order + remaining_cols)

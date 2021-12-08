@@ -7,6 +7,8 @@ Everything in this folder is used to generate the massive spreadsheet config for
 This is the Python script that combines all the input files into a single `.explorer.tsv` file.
 Set it up using `poetry install` and run it using `poetry run python global-food-explorer.yml`.
 
+There is also a GitHub action set up that will automatically generate the explorer config for every Pull Request or push to `staging` or `master`.
+
 ## `foods.tsv`
 
 This file defines all food products that will be available in the explorer.
