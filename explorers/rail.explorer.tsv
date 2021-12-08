@@ -1,0 +1,66 @@
+explorerTitle	Rail Explorer
+selection	Germany	Switzerland	Austria	Sweden	Denmark
+hasMapTab	true
+
+graphers
+	title	View Radio	Per Capita Checkbox	type	ySlugs
+	Rail investment per capita	Rail investment	true	LineChart	investment_per_capita
+
+
+
+
+table
+	entityName	year	investment_per_capita
+	Germany	2010	53
+	Germany	2011	56
+	Germany	2012	51
+	Germany	2013	54
+	Germany	2014	49
+	Germany	2015	56
+	Germany	2016	64
+	Germany	2017	69
+	Germany	2018	77
+	Germany	2019	76
+	Germany	2020	88
+	Spain	2014	35
+	Spain	2016	36
+	Spain	2018	29
+	Spain	2020	40
+	France	2014	50
+	France	2016	37
+	France	2018	40
+	France	2020	49
+	Italy	2014	82
+	Italy	2016	68
+	Italy	2018	93
+	Italy	2020	120
+	United Kingdom	2014	110
+	United Kingdom	2018	116
+	United Kingdom	2020	131
+	Netherlands	2014	142
+	Netherlands	2016	133
+	Netherlands	2018	135
+	Netherlands	2020	132
+	Denmark	2016	136
+	Denmark	2018	182
+	Denmark	2020	141
+	Sweden	2014	163
+	Sweden	2016	170
+	Sweden	2018	172
+	Sweden	2020	220
+	Norway	2020	228
+	Austria	2014	210
+	Austria	2016	198
+	Austria	2018	218
+	Austria	2020	249
+	Switzerland	2014	351
+	Switzerland	2016	378
+	Switzerland	2018	365
+	Switzerland	2020	440
+	Luxembourg	2020	567
+
+columns
+	slug	name	type	sourceName	sourceLink	unit	shortUnit
+	entityName	Country	EntityName
+	year	Year	Year
+	investment_per_capita	Investment per capita	Integer	Allianz pro Schiene	https://www.allianz-pro-schiene.de/wp-content/uploads/2021/07/210728_Pro-Kopf-Investitionen-2020.pdf, https://www.allianz-pro-schiene.de/wp-content/uploads/2019/06/pro-kopf-investitionen-in-die-schieneninfrastruktur.pdf, https://www.allianz-pro-schiene.de/presse/pressemitteilungen/2015-023-pro-kopf-ranking-europa-vergleich-bei-schienen-investitionen/, https://www.allianz-pro-schiene.de/presse/pressemitteilungen/eu-ranking-deutschland-knausert-beim-schienennetz/	€	€
