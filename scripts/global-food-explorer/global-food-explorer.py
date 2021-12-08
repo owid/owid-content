@@ -12,7 +12,7 @@ import pandas as pd
 import textwrap
 from os import path
 
-outfile = '../../explorers/global-food-prototype.explorer.tsv'
+outfile = '../../explorers/global-food.explorer.tsv'
 
 # %%
 
