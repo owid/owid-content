@@ -1,66 +1,70 @@
 explorerTitle	Rail Explorer
 selection	Germany	Switzerland	Austria	Sweden	Denmark
 hasMapTab	true
+yAxisMin	0
 
 graphers
 	title	View Radio	Per Capita Checkbox	type	ySlugs
 	Rail investment per capita	Rail investment	true	LineChart	investment_per_capita
-
-
+	Passenger kilometer	Passenger kilometer	false	LineChart	passenger_kilometer
+	Passenger kilometer per capita	Passenger kilometer	true	LineChart	passenger_kilometer_per_capita
 
 
 table
-	entityName	year	investment_per_capita
-	Germany	2010	53
-	Germany	2011	56
-	Germany	2012	51
-	Germany	2013	54
-	Germany	2014	49
-	Germany	2015	56
-	Germany	2016	64
-	Germany	2017	69
-	Germany	2018	77
-	Germany	2019	76
-	Germany	2020	88
-	Spain	2014	35
-	Spain	2016	36
-	Spain	2018	29
-	Spain	2020	40
-	France	2014	50
-	France	2016	37
-	France	2018	40
-	France	2020	49
-	Italy	2014	82
-	Italy	2016	68
-	Italy	2018	93
-	Italy	2020	120
-	United Kingdom	2014	110
-	United Kingdom	2018	116
-	United Kingdom	2020	131
-	Netherlands	2014	142
-	Netherlands	2016	133
-	Netherlands	2018	135
-	Netherlands	2020	132
-	Denmark	2016	136
-	Denmark	2018	182
-	Denmark	2020	141
-	Sweden	2014	163
-	Sweden	2016	170
-	Sweden	2018	172
-	Sweden	2020	220
-	Norway	2020	228
-	Austria	2014	210
-	Austria	2016	198
-	Austria	2018	218
-	Austria	2020	249
-	Switzerland	2014	351
-	Switzerland	2016	378
-	Switzerland	2018	365
-	Switzerland	2020	440
-	Luxembourg	2020	567
+	entityName	year	investment_per_capita	passenger_kilometer	population
+	Germany	2010	53	83900000000	80827001
+	Germany	2011	56	85400000000	80855629
+	Germany	2012	51	88800000000	80972629
+	Germany	2013	54	89600000000	81174373
+	Germany	2014	49	91000000000	81450370
+	Germany	2015	56	91700000000	81787411
+	Germany	2016	64	94200000000	82193770
+	Germany	2017	69	95500000000	82658409
+	Germany	2018	77	98100000000	83124413
+	Germany	2019	76	100000000000	83517046
+	Germany	2020	88		83783945
+	Spain	2014	35		46777927
+	Spain	2016	36		46634131
+	Spain	2018	29		46692863
+	Spain	2020	40		46754783
+	France	2014	50		64193550
+	France	2016	37		64667590
+	France	2018	40		64990512
+	France	2020	49		65273512
+	Italy	2014	82		60409622
+	Italy	2016	68		60663068
+	Italy	2018	93		60627291
+	Italy	2020	120		60461828
+	United Kingdom	2014	110		65423048
+	United Kingdom	2018	116		67141678
+	United Kingdom	2020	131		67886004
+	Netherlands	2014	142		16892517
+	Netherlands	2016	133		16981285
+	Netherlands	2018	135		17059560
+	Netherlands	2020	132		17134873
+	Denmark	2016	136		5711346
+	Denmark	2018	182		5752131
+	Denmark	2020	141		5792203
+	Sweden	2014	163		9692137
+	Sweden	2016	170		9836003
+	Sweden	2018	172		9971630
+	Sweden	2020	220		10099270
+	Norway	2020	228		5421242
+	Austria	2014	210		8615205
+	Austria	2016	198		8747306
+	Austria	2018	218		8891383
+	Austria	2020	249		9006400
+	Switzerland	2014	351		8206003
+	Switzerland	2016	378		8379915
+	Switzerland	2018	365		8525614
+	Switzerland	2020	440		8654618
+	Luxembourg	2020	567		625976
 
 columns
-	slug	name	type	sourceName	sourceLink	unit	shortUnit
+	slug	name	type	sourceName	sourceLink	unit	shortUnit	transform
 	entityName	Country	EntityName
 	year	Year	Year
 	investment_per_capita	Investment per capita	Integer	Allianz pro Schiene	https://www.allianz-pro-schiene.de/wp-content/uploads/2021/07/210728_Pro-Kopf-Investitionen-2020.pdf, https://www.allianz-pro-schiene.de/wp-content/uploads/2019/06/pro-kopf-investitionen-in-die-schieneninfrastruktur.pdf, https://www.allianz-pro-schiene.de/presse/pressemitteilungen/2015-023-pro-kopf-ranking-europa-vergleich-bei-schienen-investitionen/, https://www.allianz-pro-schiene.de/presse/pressemitteilungen/eu-ranking-deutschland-knausert-beim-schienennetz/	€	€
+	passenger_kilometer	Passenger kilometer	Integer	Allianz pro Schiene	https://www.allianz-pro-schiene.de/themen/personenverkehr/daten-fakten/	passenger kilometers	pkm
+	passenger_kilometer_per_capita	Passenger kilometer per capita	Integer	Allianz pro Schiene	https://www.allianz-pro-schiene.de/themen/personenverkehr/daten-fakten/	passenger kilometers	pkm	passenger_kilometer divideBy population
+	population	Population	Population	Gapminder, HYDE & UN
