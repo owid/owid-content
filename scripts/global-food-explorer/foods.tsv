@@ -1,9 +1,9 @@
-slug	dropdown	singular	plural	_tags
+slug	dropdown	singular	plural	_tags	note
 almonds	Almonds	Almond	Almonds	production,land_use,crop_yield
 animal_fats	Animal Fats	Animal Fat	Animal Fats	food_balances,animal_feed
 apples	Apples	Apple	Apples	production,land_use,crop_yield,food_balances,animal_feed
 apricots	Apricots	Apricot	Apricots	production,land_use,crop_yield
-areca_nuts	Areca Nuts	Areca Nut	Areca Nuts	production,land_use,crop_yield
+areca_nuts	Areca Nuts	Areca Nut	Areca Nuts	production,land_use,crop_yield	The areca nut is the seed of the areca palm, and is commonly referred to as betel nut. It is used as a carcinogenic drug in many cultures.
 artichokes	Artichokes	Artichoke	Artichokes	production,land_use,crop_yield
 asparagus	Asparagus	Asparagus	Asparagus	production,land_use,crop_yield
 avocados	Avocados	Avocado	Avocados	production,land_use,crop_yield
@@ -38,7 +38,7 @@ citrus_fruit	Citrus fruit	Citrus fruit	Citrus fruit	production,land_use,crop_yie
 cocoa_beans	Cocoa beans	Cocoa bean	Cocoa beans	food_balances,animal_feed
 coconut_oil	Coconut oil	Coconut oil	Coconut oil	production,food_balances,animal_feed
 coconuts	Coconuts	Coconut	Coconuts	food_balances,animal_feed
-coffee_green	Coffee, green	Green coffee	Green coffee	production,land_use,crop_yield
+coffee_green	Coffee, green	Green coffee	Green coffee	production,land_use,crop_yield	Green coffee beans are coffee seeds (beans) that have not yet been roasted. 
 cotton	Cotton	Cotton	Cotton	production
 cottonseed	Cottonseed	Cottonseed	Cottonseeds	production,food_balances,animal_feed
 cottonseed_oil	Cottonseed oil	Cottonseed oil	Cottonseed oil	production,food_balances,animal_feed
@@ -148,7 +148,7 @@ plums	Plums	Plum	Plums	production,land_use,crop_yield
 poppy_seeds	Poppy seed	Poppy seed	Poppy seeds	production,land_use,crop_yield
 pork	Pork	Pork	Pork	food_balances
 potatoes	Potatoes	Potato	Potatoes	production,land_use,crop_yield,food_balances,animal_feed
-pulses	Pulses	Pulse	Pulses	production,land_use,crop_yield,food_balances,animal_feed
+pulses	Pulses	Pulse	Pulses	production,land_use,crop_yield,food_balances,animal_feed	Pulses are the edible seeds of plants in the legume family. The FAO recognizes 11 types of pulses: dry beans, dry broad beans, dry peas, chickpeas, cow peas, pigeon peas, lentils, Bambara beans, vetches, lupins and pulses nes (not elsewhere specified).
 quinoa	Quinoa	Quinoa	Quinoa	production,land_use,crop_yield
 rapeseed	Rapeseed	Rapeseed	Rapeseeds	production,land_use,crop_yield
 rapeseed_oil	Rapeseed oil	Rapeseed oil	Rapeseed oil	production
