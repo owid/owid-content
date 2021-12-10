@@ -1,6 +1,6 @@
 explorerTitle	Energy Land Use Data Explorer
 isPublished	false
-selection	Coal	Gas	Nuclear	Hydro	Solar	Wind
+selection	United States	United Kingdom	World	China	India	Japan	Germany
 explorerSubtitle
 hideAlertBanner	true
 subNavId
