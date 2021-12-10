@@ -330,10 +330,10 @@ graphers
 	Coconuts used for industrial uses, per capita	Coconuts	Allocated to industrial uses		true	The quantity that is allocated to industrial uses such as biofuel, pharmaceuticals or textile products.	LineChart	other_uses__kg_per_capita	coconuts		true
 	Coconuts used for animal feed	Coconuts	Allocated to animal feed		false	The quantity that is allocated to feed for livestock.	LineChart	feed__tonnes	coconuts		true
 	Coconuts used for animal feed, per capita	Coconuts	Allocated to animal feed		true	The quantity that is allocated to feed for livestock.	LineChart	feed__kg_per_capita	coconuts		true
-	Green coffee production	Coffee, green	Production		false		LineChart	production__tonnes	coffee_green	Green coffee beans are coffee seeds (beans) that have not yet been roasted. 	true
-	Per capita green coffee production	Coffee, green	Production		true		LineChart	production__kg_per_capita	coffee_green	Green coffee beans are coffee seeds (beans) that have not yet been roasted. 	true
-	Green coffee yield	Coffee, green	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	coffee_green	Green coffee beans are coffee seeds (beans) that have not yet been roasted. 	true
-	Land used for green coffee production	Coffee, green	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	coffee_green	Green coffee beans are coffee seeds (beans) that have not yet been roasted. 	true
+	Green coffee production	Coffee, green	Production		false		LineChart	production__tonnes	coffee_green	Green coffee beans are coffee seeds (beans) that have not yet been roasted.	true
+	Per capita green coffee production	Coffee, green	Production		true		LineChart	production__kg_per_capita	coffee_green	Green coffee beans are coffee seeds (beans) that have not yet been roasted.	true
+	Green coffee yield	Coffee, green	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	coffee_green	Green coffee beans are coffee seeds (beans) that have not yet been roasted.	true
+	Land used for green coffee production	Coffee, green	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	coffee_green	Green coffee beans are coffee seeds (beans) that have not yet been roasted.	true
 	Cotton production	Cotton	Production		false		LineChart	production__tonnes	cotton		true
 	Per capita cotton production	Cotton	Production		true		LineChart	production__kg_per_capita	cotton		true
 	Cottonseed production	Cottonseed	Production		false		LineChart	production__tonnes	cottonseed		true
