@@ -1,9 +1,9 @@
 slug	dropdown	singular	plural	_tags	note
 almonds	Almonds	Almond	Almonds	production,land_use,crop_yield
-animal_fats	Animal Fats	Animal Fat	Animal Fats	food_balances,animal_feed
+animal_fats	Animal fats	Animal fat	Animal fats	food_balances,animal_feed
 apples	Apples	Apple	Apples	production,land_use,crop_yield,food_balances,animal_feed
 apricots	Apricots	Apricot	Apricots	production,land_use,crop_yield
-areca_nuts	Areca Nuts	Areca Nut	Areca Nuts	production,land_use,crop_yield	The areca nut is the seed of the areca palm, and is commonly referred to as betel nut. It is used as a carcinogenic drug in many cultures.
+areca_nuts	Areca nuts	Areca nut	Areca nuts	production,land_use,crop_yield	The areca nut is the seed of the areca palm, and is commonly referred to as betel nut. It is used as a carcinogenic drug in many cultures.
 artichokes	Artichokes	Artichoke	Artichokes	production,land_use,crop_yield
 asparagus	Asparagus	Asparagus	Asparagus	production,land_use,crop_yield
 avocados	Avocados	Avocado	Avocados	production,land_use,crop_yield
@@ -11,14 +11,14 @@ bananas	Bananas	Banana	Bananas	production,land_use,crop_yield,food_balances,anim
 barley	Barley	Barley	Barley	production,land_use,crop_yield,food_balances,animal_feed
 beans_dry	Beans, dry	Dry bean	Dry beans	production,land_use,crop_yield,food_balances,animal_feed
 beans_green	Beans, green	Green bean	Green beans	production,land_use,crop_yield
-beef_and_buffalo_meat	Beef and Buffalo Meat	Beef and Buffalo Meat	Beef and Buffalo Meat	production,animal_yield
+beef_and_buffalo_meat	Beef and buffalo meat	Beef and buffalo meat	Beef and buffalo meat	production,animal_yield
 beeswax	Beeswax	Beeswax	Beeswax	production
 blueberries	Blueberries	Blueberry	Blueberries	production,land_use,crop_yield
 brazil_nuts_with_shell	Brazil nuts, with shell	Brazil nut	Brazil nuts	production,land_use,crop_yield
 broad_beans	Broad beans	Broad bean	Broad beans	production,land_use,crop_yield
 buckwheat	Buckwheat	Buckwheat	Buckwheat	production,land_use,crop_yield
 buffalo_hides	Buffalo hides	Buffalo hide	Buffalo hides	production,animal_yield
-butter_and_ghee	Butter and Ghee	Butter and ghee	Butter and ghee	production
+butter_and_ghee	Butter and ghee	Butter and ghee	Butter and ghee	production
 cabbages	Cabbages	Cabbage	Cabbages	production,land_use,crop_yield
 canary_seed	Canary seed	Canary seed	Canary seeds	production,land_use,crop_yield
 carrots_and_turnips	Carrots and turnips	Carrot and turnip	Carrots and turnips	production,land_use,crop_yield
@@ -32,8 +32,8 @@ cheese	Cheese	Cheese	Cheese	production
 cherries	Cherries	Cherry	Cherries	production,land_use,crop_yield
 chestnut	Chestnuts	Chestnut	Chestnuts	production,land_use,crop_yield
 chickpeas	Chickpeas	Chickpea	Chickpeas	production,land_use,crop_yield
-chillies_and_peppers_dry	Chillies and peppers, dry	Dry Chili and pepper	Dry chillies and peppers	production,land_use,crop_yield,food_balances
-chillies_and_peppers_green	Chillies and peppers, green	Green Chili and pepper	Green chillies and peppers	production,land_use,crop_yield
+chillies_and_peppers_dry	Chillies and peppers, dry	Dry chili and pepper	Dry chillies and peppers	production,land_use,crop_yield,food_balances
+chillies_and_peppers_green	Chillies and peppers, green	Green chili and pepper	Green chillies and peppers	production,land_use,crop_yield
 citrus_fruit	Citrus fruit	Citrus fruit	Citrus fruit	production,land_use,crop_yield
 cocoa_beans	Cocoa beans	Cocoa bean	Cocoa beans	food_balances,animal_feed
 coconut_oil	Coconut oil	Coconut oil	Coconut oil	production,food_balances,animal_feed
@@ -65,7 +65,7 @@ grapefruit	Grapefruit	Grapefruit	Grapefruits	production,land_use,crop_yield,food
 grapes	Grapes	Grapes	Grapes	production,land_use,crop_yield
 green_maize	Green maize	Green maize	Green maize	production,land_use,crop_yield
 groundnuts	Groundnuts	Groundnut	Groundnuts	production,land_use,crop_yield,food_balances,animal_feed
-groundnut_oil	Groundnut Oil	Groundnut Oil	Groundnut Oil	production,food_balances,animal_feed
+groundnut_oil	Groundnut oil	Groundnut oil	Groundnut oil	production,food_balances,animal_feed
 hazelnuts	Hazelnuts	Hazelnut	Hazelnuts	production,land_use,crop_yield
 hempseed	Hempseed	Hempseed	Hempseeds	production,land_use,crop_yield
 herbs_eg_fennel	Herbs (e.g. fennel)	Herb (e.g. fennel)	Herbs (e.g. fennel)	production,land_use,crop_yield
@@ -81,7 +81,7 @@ lettuce	Lettuce	Lettuce	Lettuce	production,land_use,crop_yield
 linseed	Linseed	Linseed	Linseeds	production,land_use,crop_yield
 linseed_oil	Linseed oil	Linseed oil	Linseed oil	production
 maize	Maize/Corn	Maize	Maize	production,land_use,crop_yield,food_balances,animal_feed
-maize_oil	Maize Oil	Maize Oil	Maize Oil	production,food_balances
+maize_oil	Maize oil	Maize oil	Maize oil	production,food_balances
 mangoes	Mangoes	Mango	Mangoes	production,land_use,crop_yield
 margarine	Margarine	Margarine	Margarine	production
 meat_total	Meat, Total	Total meat	All meat	production,food_balances,animal_feed
@@ -126,14 +126,14 @@ oilcrops	Oilcrops	Oilcrop	Oilcrops	production,land_use,crop_yield,food_balances,
 oilcrops_cake_equivalent	Oilcrops, cake equivalent	Oilcrop, cake equivalent	Oilcrops, cake equivalent	production,land_use,crop_yield
 oilcrops_oil_equivalent	Oilcrops, oil equivalent	Oilcrop, oil equivalent	Oilcrops, oil equivalent	production,land_use,crop_yield
 okra	Okra	Okra	Okra	production,land_use,crop_yield
-olive_oil	Olive Oil	Olive Oil	Olive Oil	production,food_balances,animal_feed
+olive_oil	Olive oil	Olive oil	Olive oil	production,food_balances,animal_feed
 olives	Olives	Olive	Olives	production,land_use,crop_yield,food_balances,animal_feed
 onions	Onions	Onion	Onions	production,land_use,crop_yield,food_balances,animal_feed
 oranges	Oranges	Orange	Oranges	production,land_use,crop_yield,food_balances,animal_feed
 palm_fruit_oil	Palm fruit oil	Palm fruit oil	Palm fruit oil	production,land_use,crop_yield
 palm_kernel_oil	Palm kernel oil	Palm kernel oil	Palm kernel oil	production,food_balances,animal_feed
 palm_kernels	Palm kernels	Palm kernel	Palm kernels	production,food_balances,animal_feed
-palm_oil	Palm Oil	Palm Oil	Palm Oil	production
+palm_oil	Palm oil	Palm oil	Palm oil	production
 papayas	Papayas	Papaya	Papayas	production,land_use,crop_yield
 peaches_and_nectarines	Peaches and nectarines	Peach and nectarine	Peaches and nectarines	production,land_use,crop_yield
 pears	Pears	Pear	Pears	production,land_use,crop_yield
