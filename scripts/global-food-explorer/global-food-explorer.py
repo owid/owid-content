@@ -57,10 +57,20 @@ views_df['_tags'] = views_df['_tags'].apply(lambda x: x.split(','))
 views_df = views_df.explode('_tags').rename(
     columns={'_tags': '_tag'})
 views_df['_tag'] = views_df['_tag'].str.strip()
-foods = pd.DataFrame([{'Food Dropdown': row['dropdown'], 'tableSlug': slug, '_tags': row['_tags'].split(",")}
-                     for slug, row in foods_df.iterrows()])
-foods = foods.explode('_tags').rename(
-    columns={'_tags': '_tag'})
+
+foods_rename = {
+    **{col: col for col in foods_df.columns},
+    'dropdown': 'Food Dropdown',
+    'slug': 'tableSlug',
+    'singular': None,
+    'plural': None,
+    '_tags': '_tags',
+}
+foods_rename = {k: v for k, v in foods_rename.items() if v is not None}
+
+foods = foods_df.reset_index()[foods_rename].rename(columns=foods_rename)
+foods['_tags'] = foods['_tags'].apply(lambda x: x.split(','))
+foods = foods.explode('_tags').rename(columns={'_tags': '_tag'})
 
 food_tags = set(foods['_tag'])
 view_tags = set(views_df['_tag'])
