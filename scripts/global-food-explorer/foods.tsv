@@ -57,6 +57,7 @@ fat_goats	Fat, goats	Goat fat	Goat fat	production
 fat_pigs	Fat, pigs	Pig fat	Pig fat	production	
 fat_sheep	Fat, sheep	Sheep fat	Sheep fat	production	
 fibre_crops	Fibre crops	Fibre crop	Fibre crops	production,land_use,crop_yield	
+fish_and_seafood	Fish and seafood	Fish and seafood	Fish and seafood	food_balances,animal_feed
 flax_fibre	Flax fibre	Flax fibre	Flax fibre	production,land_use,crop_yield	
 fruit	Fruit	Fruit	Fruit	production,land_use,crop_yield,food_balances,animal_feed	
 garlic	Garlic	Garlic	Garlic	production,land_use,crop_yield	
