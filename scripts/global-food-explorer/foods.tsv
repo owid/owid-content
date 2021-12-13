@@ -32,8 +32,7 @@ cheese	Cheese	Cheese	Cheese	production
 cherries	Cherries	Cherry	Cherries	production,land_use,crop_yield	
 chestnut	Chestnuts	Chestnut	Chestnuts	production,land_use,crop_yield	
 chickpeas	Chickpeas	Chickpea	Chickpeas	production,land_use,crop_yield	
-chillies_and_peppers_dry	Chillies and peppers, dry	Dry chili and pepper	Dry chillies and peppers	production,land_use,crop_yield,food_balances	
-chillies_and_peppers_green	Chillies and peppers, green	Green chili and pepper	Green chillies and peppers	production,land_use,crop_yield	
+chillies_and_peppers	Chillies and peppers	Chili and pepper	Chillies and peppers	production,land_use,crop_yield,food_balances	
 citrus_fruit	Citrus fruit	Citrus fruit	Citrus fruit	production,land_use,crop_yield	
 cocoa_beans	Cocoa beans	Cocoa bean	Cocoa beans	food_balances,animal_feed	
 coconut_oil	Coconut oil	Coconut oil	Coconut oil	production,food_balances,animal_feed	
