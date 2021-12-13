@@ -9,10 +9,14 @@
 # %%
 from string import Template
 import pandas as pd
+import numpy as np
 import textwrap
 from os import path
+import sys
 
 outfile = '../../explorers/global-food.explorer.tsv'
+
+default_view = '`Food Dropdown` == "Maize / Corn" and `Metric Dropdown` == "Production" and `Per Capita Checkbox` == "false"'
 
 # %%
 
@@ -103,6 +107,20 @@ col_order = ['title', 'Food Dropdown', 'Metric Dropdown', 'Unit Radio',
 remaining_cols = pd.Index(graphers.columns).difference(
     pd.Index(col_order)).tolist()
 graphers = graphers.reindex(columns=col_order + remaining_cols)
+
+
+# %%
+# Mark the default view with defaultView=true. This is always the last column.
+if default_view is not None:
+    default_view_mask = graphers.eval(default_view)
+    default_view_count = len(graphers[default_view_mask])
+    if default_view_count != 1:
+        print(
+            f"🛑 fatal! Default view ({default_view}) should match exactly one view, but matches {default_view_count} views:")
+        print(graphers[default_view_mask])
+        sys.exit(1)
+    print(f"📌 Default view:\n{graphers[default_view_mask]}")
+    graphers['defaultView'] = np.where(default_view_mask, 'true', None)
 
 # %%
 graphers_tsv = graphers.to_csv(sep='\t', index=False)

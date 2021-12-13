@@ -80,7 +80,7 @@ lentils	Lentils	Lentil	Lentils	production,land_use,crop_yield
 lettuce	Lettuce	Lettuce	Lettuce	production,land_use,crop_yield	
 linseed	Linseed	Linseed	Linseeds	production,land_use,crop_yield	
 linseed_oil	Linseed oil	Linseed oil	Linseed oil	production	
-maize	Maize/Corn	Maize	Maize	production,land_use,crop_yield,food_balances,waste,animal_feed	
+maize	Maize / Corn	Maize	Maize	production,land_use,crop_yield,food_balances,waste,animal_feed	
 maize_oil	Maize oil	Maize oil	Maize oil	production,food_balances,waste	
 mangoes	Mangoes	Mango	Mangoes	production,land_use,crop_yield	
 margarine	Margarine	Margarine	Margarine	production	
