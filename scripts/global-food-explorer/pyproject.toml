@@ -5,8 +5,9 @@ description = ""
 authors = ["Marcel Gerber <mgerber59@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = ">=3.8,<3.11"
 pandas = "^1.2.0"
+numpy = "^1.21.4"
 
 [tool.poetry.dev-dependencies]
 
