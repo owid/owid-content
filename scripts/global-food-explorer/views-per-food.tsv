@@ -1,6 +1,8 @@
 _tags	title	subtitle	Metric Dropdown	Unit Radio	Per Capita Checkbox	type	ySlugs	yScaleToggle
 production	${food_singular} production		Production		false	LineChart	production__tonnes	true
 production	Per capita ${food_singular_lower} production		Production		true	LineChart	production__kg_per_capita	true
+animals_slaughtered	Animals slaughtered to produce ${food_plural_lower}		Animals slaughtered		false	LineChart	producing_or_slaughtered_animals__animals	true
+animals_slaughtered	Animals slaughtered per capita to produce ${food_plural_lower}		Animals slaughtered		true	LineChart	producing_or_slaughtered_animals__animals_per_capita	true
 crop_yield	${food_singular} yield	Yield is measured as the quantity produced per unit area of land used to grow it.	Yield		false	LineChart	yield__tonnes_per_ha	true
 animal_yield	${food_singular} yield	Yield is measured as the quantity produced per animal.	Yield		false	LineChart	yield__kg_per_animal	true
 land_use	Land used for ${food_singular_lower} production	The amount of cropland used for production	Land Use		false	LineChart	area_harvested__ha	true
