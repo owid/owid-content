@@ -150,6 +150,8 @@ graphers
 	Land used for green bean production	Beans, green	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	beans_green		true
 	Beef and buffalo meat production	Beef and buffalo meat	Production		false		LineChart	production__tonnes	beef_and_buffalo_meat		true
 	Per capita beef and buffalo meat production	Beef and buffalo meat	Production		true		LineChart	production__kg_per_capita	beef_and_buffalo_meat		true
+	Animals slaughtered to produce beef and buffalo meat	Beef and buffalo meat	Animals slaughtered		false		LineChart	producing_or_slaughtered_animals__animals	beef_and_buffalo_meat		true
+	Animals slaughtered per capita to produce beef and buffalo meat	Beef and buffalo meat	Animals slaughtered		true		LineChart	producing_or_slaughtered_animals__animals_per_capita	beef_and_buffalo_meat		true
 	Beef and buffalo meat yield	Beef and buffalo meat	Yield		false	Yield is measured as the quantity produced per animal.	LineChart	yield__kg_per_animal	beef_and_buffalo_meat		true
 	Beeswax production	Beeswax	Production		false		LineChart	production__tonnes	beeswax		true
 	Per capita beeswax production	Beeswax	Production		true		LineChart	production__kg_per_capita	beeswax		true
@@ -171,6 +173,8 @@ graphers
 	Land used for buckwheat production	Buckwheat	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	buckwheat		true
 	Buffalo hide production	Buffalo hides	Production		false		LineChart	production__tonnes	buffalo_hides		true
 	Per capita buffalo hide production	Buffalo hides	Production		true		LineChart	production__kg_per_capita	buffalo_hides		true
+	Animals slaughtered to produce buffalo hides	Buffalo hides	Animals slaughtered		false		LineChart	producing_or_slaughtered_animals__animals	buffalo_hides		true
+	Animals slaughtered per capita to produce buffalo hides	Buffalo hides	Animals slaughtered		true		LineChart	producing_or_slaughtered_animals__animals_per_capita	buffalo_hides		true
 	Buffalo hide yield	Buffalo hides	Yield		false	Yield is measured as the quantity produced per animal.	LineChart	yield__kg_per_animal	buffalo_hides		true
 	Butter and ghee production	Butter and ghee	Production		false		LineChart	production__tonnes	butter_and_ghee		true
 	Per capita butter and ghee production	Butter and ghee	Production		true		LineChart	production__kg_per_capita	butter_and_ghee		true
@@ -219,6 +223,8 @@ graphers
 	Land used for castor oil seed production	Castor oil seed	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	castor_oil_seed		true
 	Cattle hide production	Cattle hides	Production		false		LineChart	production__tonnes	cattle_hides		true
 	Per capita cattle hide production	Cattle hides	Production		true		LineChart	production__kg_per_capita	cattle_hides		true
+	Animals slaughtered to produce cattle hides	Cattle hides	Animals slaughtered		false		LineChart	producing_or_slaughtered_animals__animals	cattle_hides		true
+	Animals slaughtered per capita to produce cattle hides	Cattle hides	Animals slaughtered		true		LineChart	producing_or_slaughtered_animals__animals_per_capita	cattle_hides		true
 	Cattle hide yield	Cattle hides	Yield		false	Yield is measured as the quantity produced per animal.	LineChart	yield__kg_per_animal	cattle_hides		true
 	Cauliflower and broccoli production	Cauliflowers and broccoli	Production		false		LineChart	production__tonnes	cauliflowers_and_broccoli		true
 	Per capita cauliflower and broccoli production	Cauliflowers and broccoli	Production		true		LineChart	production__kg_per_capita	cauliflowers_and_broccoli		true
@@ -447,16 +453,28 @@ graphers
 	Egg (from other birds, excl. hens) yield	Eggs from other birds (excl. hens)	Yield		false	Yield is measured as the quantity produced per animal.	LineChart	yield__kg_per_animal	eggs_from_other_birds_excl_hens		true
 	Buffalo fat production	Fat, buffaloes	Production		false		LineChart	production__tonnes	fat_buffaloes		true
 	Per capita buffalo fat production	Fat, buffaloes	Production		true		LineChart	production__kg_per_capita	fat_buffaloes		true
+	Animals slaughtered to produce buffalo fat	Fat, buffaloes	Animals slaughtered		false		LineChart	producing_or_slaughtered_animals__animals	fat_buffaloes		true
+	Animals slaughtered per capita to produce buffalo fat	Fat, buffaloes	Animals slaughtered		true		LineChart	producing_or_slaughtered_animals__animals_per_capita	fat_buffaloes		true
 	Camel fat production	Fat, camels	Production		false		LineChart	production__tonnes	fat_camels		true
 	Per capita camel fat production	Fat, camels	Production		true		LineChart	production__kg_per_capita	fat_camels		true
+	Animals slaughtered to produce camel fat	Fat, camels	Animals slaughtered		false		LineChart	producing_or_slaughtered_animals__animals	fat_camels		true
+	Animals slaughtered per capita to produce camel fat	Fat, camels	Animals slaughtered		true		LineChart	producing_or_slaughtered_animals__animals_per_capita	fat_camels		true
 	Cattle fat production	Fat, cattle	Production		false		LineChart	production__tonnes	fat_cattle		true
 	Per capita cattle fat production	Fat, cattle	Production		true		LineChart	production__kg_per_capita	fat_cattle		true
+	Animals slaughtered to produce cattle fat	Fat, cattle	Animals slaughtered		false		LineChart	producing_or_slaughtered_animals__animals	fat_cattle		true
+	Animals slaughtered per capita to produce cattle fat	Fat, cattle	Animals slaughtered		true		LineChart	producing_or_slaughtered_animals__animals_per_capita	fat_cattle		true
 	Goat fat production	Fat, goats	Production		false		LineChart	production__tonnes	fat_goats		true
 	Per capita goat fat production	Fat, goats	Production		true		LineChart	production__kg_per_capita	fat_goats		true
+	Animals slaughtered to produce goat fat	Fat, goats	Animals slaughtered		false		LineChart	producing_or_slaughtered_animals__animals	fat_goats		true
+	Animals slaughtered per capita to produce goat fat	Fat, goats	Animals slaughtered		true		LineChart	producing_or_slaughtered_animals__animals_per_capita	fat_goats		true
 	Pig fat production	Fat, pigs	Production		false		LineChart	production__tonnes	fat_pigs		true
 	Per capita pig fat production	Fat, pigs	Production		true		LineChart	production__kg_per_capita	fat_pigs		true
+	Animals slaughtered to produce pig fat	Fat, pigs	Animals slaughtered		false		LineChart	producing_or_slaughtered_animals__animals	fat_pigs		true
+	Animals slaughtered per capita to produce pig fat	Fat, pigs	Animals slaughtered		true		LineChart	producing_or_slaughtered_animals__animals_per_capita	fat_pigs		true
 	Sheep fat production	Fat, sheep	Production		false		LineChart	production__tonnes	fat_sheep		true
 	Per capita sheep fat production	Fat, sheep	Production		true		LineChart	production__kg_per_capita	fat_sheep		true
+	Animals slaughtered to produce sheep fat	Fat, sheep	Animals slaughtered		false		LineChart	producing_or_slaughtered_animals__animals	fat_sheep		true
+	Animals slaughtered per capita to produce sheep fat	Fat, sheep	Animals slaughtered		true		LineChart	producing_or_slaughtered_animals__animals_per_capita	fat_sheep		true
 	Fibre crop production	Fibre crops	Production		false		LineChart	production__tonnes	fibre_crops		true
 	Per capita fibre crop production	Fibre crops	Production		true		LineChart	production__kg_per_capita	fibre_crops		true
 	Fibre crop yield	Fibre crops	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	fibre_crops		true
@@ -745,6 +763,8 @@ graphers
 	All meat used for animal feed, per capita	Meat, Total	Allocated to animal feed		true	The quantity that is allocated to feed for livestock.	LineChart	feed__kg_per_capita	meat_total		true
 	Ass meat production	Meat, ass	Production		false		LineChart	production__tonnes	meat_ass		true
 	Per capita ass meat production	Meat, ass	Production		true		LineChart	production__kg_per_capita	meat_ass		true
+	Animals slaughtered to produce ass meat	Meat, ass	Animals slaughtered		false		LineChart	producing_or_slaughtered_animals__animals	meat_ass		true
+	Animals slaughtered per capita to produce ass meat	Meat, ass	Animals slaughtered		true		LineChart	producing_or_slaughtered_animals__animals_per_capita	meat_ass		true
 	Ass meat yield	Meat, ass	Yield		false	Yield is measured as the quantity produced per animal.	LineChart	yield__kg_per_animal	meat_ass		true
 	Per capita beef consumption per year	Meat, beef	Food available for consumption	Kilograms per year	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__kg_per_capita_per_year	meat_beef		true
 	Per capita beef consumption per day	Meat, beef	Food available for consumption	Grams per day	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__g_per_capita_per_day	meat_beef		true
@@ -767,36 +787,58 @@ graphers
 	Beef used for animal feed, per capita	Meat, beef	Allocated to animal feed		true	The quantity that is allocated to feed for livestock.	LineChart	feed__kg_per_capita	meat_beef		true
 	Buffalo meat production	Meat, buffalo	Production		false		LineChart	production__tonnes	meat_buffalo		true
 	Per capita buffalo meat production	Meat, buffalo	Production		true		LineChart	production__kg_per_capita	meat_buffalo		true
+	Animals slaughtered to produce buffalo meat	Meat, buffalo	Animals slaughtered		false		LineChart	producing_or_slaughtered_animals__animals	meat_buffalo		true
+	Animals slaughtered per capita to produce buffalo meat	Meat, buffalo	Animals slaughtered		true		LineChart	producing_or_slaughtered_animals__animals_per_capita	meat_buffalo		true
 	Buffalo meat yield	Meat, buffalo	Yield		false	Yield is measured as the quantity produced per animal.	LineChart	yield__kg_per_animal	meat_buffalo		true
 	Camel meat production	Meat, camel	Production		false		LineChart	production__tonnes	meat_camel		true
 	Per capita camel meat production	Meat, camel	Production		true		LineChart	production__kg_per_capita	meat_camel		true
+	Animals slaughtered to produce camel meat	Meat, camel	Animals slaughtered		false		LineChart	producing_or_slaughtered_animals__animals	meat_camel		true
+	Animals slaughtered per capita to produce camel meat	Meat, camel	Animals slaughtered		true		LineChart	producing_or_slaughtered_animals__animals_per_capita	meat_camel		true
 	Camel meat yield	Meat, camel	Yield		false	Yield is measured as the quantity produced per animal.	LineChart	yield__kg_per_animal	meat_camel		true
 	Chicken meat production	Meat, chicken	Production		false		LineChart	production__tonnes	meat_chicken		true
 	Per capita chicken meat production	Meat, chicken	Production		true		LineChart	production__kg_per_capita	meat_chicken		true
+	Animals slaughtered to produce chicken meat	Meat, chicken	Animals slaughtered		false		LineChart	producing_or_slaughtered_animals__animals	meat_chicken		true
+	Animals slaughtered per capita to produce chicken meat	Meat, chicken	Animals slaughtered		true		LineChart	producing_or_slaughtered_animals__animals_per_capita	meat_chicken		true
 	Chicken meat yield	Meat, chicken	Yield		false	Yield is measured as the quantity produced per animal.	LineChart	yield__kg_per_animal	meat_chicken		true
 	Duck meat production	Meat, duck	Production		false		LineChart	production__tonnes	meat_duck		true
 	Per capita duck meat production	Meat, duck	Production		true		LineChart	production__kg_per_capita	meat_duck		true
+	Animals slaughtered to produce duck meat	Meat, duck	Animals slaughtered		false		LineChart	producing_or_slaughtered_animals__animals	meat_duck		true
+	Animals slaughtered per capita to produce duck meat	Meat, duck	Animals slaughtered		true		LineChart	producing_or_slaughtered_animals__animals_per_capita	meat_duck		true
 	Duck meat yield	Meat, duck	Yield		false	Yield is measured as the quantity produced per animal.	LineChart	yield__kg_per_animal	meat_duck		true
 	Game meat production	Meat, game	Production		false		LineChart	production__tonnes	meat_game		true
 	Per capita game meat production	Meat, game	Production		true		LineChart	production__kg_per_capita	meat_game		true
+	Animals slaughtered to produce game meat	Meat, game	Animals slaughtered		false		LineChart	producing_or_slaughtered_animals__animals	meat_game		true
+	Animals slaughtered per capita to produce game meat	Meat, game	Animals slaughtered		true		LineChart	producing_or_slaughtered_animals__animals_per_capita	meat_game		true
 	Game meat yield	Meat, game	Yield		false	Yield is measured as the quantity produced per animal.	LineChart	yield__kg_per_animal	meat_game		true
 	Goat meat production	Meat, goat	Production		false		LineChart	production__tonnes	meat_goat		true
 	Per capita goat meat production	Meat, goat	Production		true		LineChart	production__kg_per_capita	meat_goat		true
+	Animals slaughtered to produce goat meat	Meat, goat	Animals slaughtered		false		LineChart	producing_or_slaughtered_animals__animals	meat_goat		true
+	Animals slaughtered per capita to produce goat meat	Meat, goat	Animals slaughtered		true		LineChart	producing_or_slaughtered_animals__animals_per_capita	meat_goat		true
 	Goat meat yield	Meat, goat	Yield		false	Yield is measured as the quantity produced per animal.	LineChart	yield__kg_per_animal	meat_goat		true
 	Goose and guinea fowl meat production	Meat, goose and guinea fowl	Production		false		LineChart	production__tonnes	meat_goose_and_guinea_fowl		true
 	Per capita goose and guinea fowl meat production	Meat, goose and guinea fowl	Production		true		LineChart	production__kg_per_capita	meat_goose_and_guinea_fowl		true
+	Animals slaughtered to produce goose and guinea fowl meat	Meat, goose and guinea fowl	Animals slaughtered		false		LineChart	producing_or_slaughtered_animals__animals	meat_goose_and_guinea_fowl		true
+	Animals slaughtered per capita to produce goose and guinea fowl meat	Meat, goose and guinea fowl	Animals slaughtered		true		LineChart	producing_or_slaughtered_animals__animals_per_capita	meat_goose_and_guinea_fowl		true
 	Goose and guinea fowl meat yield	Meat, goose and guinea fowl	Yield		false	Yield is measured as the quantity produced per animal.	LineChart	yield__kg_per_animal	meat_goose_and_guinea_fowl		true
 	Horse meat production	Meat, horse	Production		false		LineChart	production__tonnes	meat_horse		true
 	Per capita horse meat production	Meat, horse	Production		true		LineChart	production__kg_per_capita	meat_horse		true
+	Animals slaughtered to produce horse meat	Meat, horse	Animals slaughtered		false		LineChart	producing_or_slaughtered_animals__animals	meat_horse		true
+	Animals slaughtered per capita to produce horse meat	Meat, horse	Animals slaughtered		true		LineChart	producing_or_slaughtered_animals__animals_per_capita	meat_horse		true
 	Horse meat yield	Meat, horse	Yield		false	Yield is measured as the quantity produced per animal.	LineChart	yield__kg_per_animal	meat_horse		true
 	Mule meat production	Meat, mule	Production		false		LineChart	production__tonnes	meat_mule		true
 	Per capita mule meat production	Meat, mule	Production		true		LineChart	production__kg_per_capita	meat_mule		true
+	Animals slaughtered to produce mule meat	Meat, mule	Animals slaughtered		false		LineChart	producing_or_slaughtered_animals__animals	meat_mule		true
+	Animals slaughtered per capita to produce mule meat	Meat, mule	Animals slaughtered		true		LineChart	producing_or_slaughtered_animals__animals_per_capita	meat_mule		true
 	Mule meat yield	Meat, mule	Yield		false	Yield is measured as the quantity produced per animal.	LineChart	yield__kg_per_animal	meat_mule		true
 	Pig meat production	Meat, pig	Production		false		LineChart	production__tonnes	meat_pig		true
 	Per capita pig meat production	Meat, pig	Production		true		LineChart	production__kg_per_capita	meat_pig		true
+	Animals slaughtered to produce pig meat	Meat, pig	Animals slaughtered		false		LineChart	producing_or_slaughtered_animals__animals	meat_pig		true
+	Animals slaughtered per capita to produce pig meat	Meat, pig	Animals slaughtered		true		LineChart	producing_or_slaughtered_animals__animals_per_capita	meat_pig		true
 	Pig meat yield	Meat, pig	Yield		false	Yield is measured as the quantity produced per animal.	LineChart	yield__kg_per_animal	meat_pig		true
 	Poultry meat production	Meat, poultry	Production		false		LineChart	production__tonnes	meat_poultry		true
 	Per capita poultry meat production	Meat, poultry	Production		true		LineChart	production__kg_per_capita	meat_poultry		true
+	Animals slaughtered to produce poultry meat	Meat, poultry	Animals slaughtered		false		LineChart	producing_or_slaughtered_animals__animals	meat_poultry		true
+	Animals slaughtered per capita to produce poultry meat	Meat, poultry	Animals slaughtered		true		LineChart	producing_or_slaughtered_animals__animals_per_capita	meat_poultry		true
 	Poultry meat yield	Meat, poultry	Yield		false	Yield is measured as the quantity produced per animal.	LineChart	yield__kg_per_animal	meat_poultry		true
 	Per capita poultry meat consumption per year	Meat, poultry	Food available for consumption	Kilograms per year	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__kg_per_capita_per_year	meat_poultry		true
 	Per capita poultry meat consumption per day	Meat, poultry	Food available for consumption	Grams per day	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__g_per_capita_per_day	meat_poultry		true
@@ -819,12 +861,18 @@ graphers
 	Poultry meat used for animal feed, per capita	Meat, poultry	Allocated to animal feed		true	The quantity that is allocated to feed for livestock.	LineChart	feed__kg_per_capita	meat_poultry		true
 	Rabbit meat production	Meat, rabbit	Production		false		LineChart	production__tonnes	meat_rabbit		true
 	Per capita rabbit meat production	Meat, rabbit	Production		true		LineChart	production__kg_per_capita	meat_rabbit		true
+	Animals slaughtered to produce rabbit meat	Meat, rabbit	Animals slaughtered		false		LineChart	producing_or_slaughtered_animals__animals	meat_rabbit		true
+	Animals slaughtered per capita to produce rabbit meat	Meat, rabbit	Animals slaughtered		true		LineChart	producing_or_slaughtered_animals__animals_per_capita	meat_rabbit		true
 	Rabbit meat yield	Meat, rabbit	Yield		false	Yield is measured as the quantity produced per animal.	LineChart	yield__kg_per_animal	meat_rabbit		true
 	Sheep meat production	Meat, sheep	Production		false		LineChart	production__tonnes	meat_sheep		true
 	Per capita sheep meat production	Meat, sheep	Production		true		LineChart	production__kg_per_capita	meat_sheep		true
+	Animals slaughtered to produce sheep meat	Meat, sheep	Animals slaughtered		false		LineChart	producing_or_slaughtered_animals__animals	meat_sheep		true
+	Animals slaughtered per capita to produce sheep meat	Meat, sheep	Animals slaughtered		true		LineChart	producing_or_slaughtered_animals__animals_per_capita	meat_sheep		true
 	Sheep meat yield	Meat, sheep	Yield		false	Yield is measured as the quantity produced per animal.	LineChart	yield__kg_per_animal	meat_sheep		true
 	Turkey meat production	Meat, turkey	Production		false		LineChart	production__tonnes	meat_turkey		true
 	Per capita turkey meat production	Meat, turkey	Production		true		LineChart	production__kg_per_capita	meat_turkey		true
+	Animals slaughtered to produce turkey meat	Meat, turkey	Animals slaughtered		false		LineChart	producing_or_slaughtered_animals__animals	meat_turkey		true
+	Animals slaughtered per capita to produce turkey meat	Meat, turkey	Animals slaughtered		true		LineChart	producing_or_slaughtered_animals__animals_per_capita	meat_turkey		true
 	Turkey meat yield	Meat, turkey	Yield		false	Yield is measured as the quantity produced per animal.	LineChart	yield__kg_per_animal	meat_turkey		true
 	Melon production	Melon	Production		false		LineChart	production__tonnes	melon		true
 	Per capita melon production	Melon	Production		true		LineChart	production__kg_per_capita	melon		true
@@ -935,18 +983,32 @@ graphers
 	Offals used for animal feed, per capita	Offals	Allocated to animal feed		true	The quantity that is allocated to feed for livestock.	LineChart	feed__kg_per_capita	offals		true
 	Buffalo offal production	Offals, buffaloes	Production		false		LineChart	production__tonnes	offals_buffaloes		true
 	Per capita buffalo offal production	Offals, buffaloes	Production		true		LineChart	production__kg_per_capita	offals_buffaloes		true
+	Animals slaughtered to produce buffalo offals	Offals, buffaloes	Animals slaughtered		false		LineChart	producing_or_slaughtered_animals__animals	offals_buffaloes		true
+	Animals slaughtered per capita to produce buffalo offals	Offals, buffaloes	Animals slaughtered		true		LineChart	producing_or_slaughtered_animals__animals_per_capita	offals_buffaloes		true
 	Camel offal production	Offals, camels	Production		false		LineChart	production__tonnes	offals_camels		true
 	Per capita camel offal production	Offals, camels	Production		true		LineChart	production__kg_per_capita	offals_camels		true
+	Animals slaughtered to produce camel offals	Offals, camels	Animals slaughtered		false		LineChart	producing_or_slaughtered_animals__animals	offals_camels		true
+	Animals slaughtered per capita to produce camel offals	Offals, camels	Animals slaughtered		true		LineChart	producing_or_slaughtered_animals__animals_per_capita	offals_camels		true
 	Cattle offal production	Offals, cattle	Production		false		LineChart	production__tonnes	offals_cattle		true
 	Per capita cattle offal production	Offals, cattle	Production		true		LineChart	production__kg_per_capita	offals_cattle		true
+	Animals slaughtered to produce cattle offals	Offals, cattle	Animals slaughtered		false		LineChart	producing_or_slaughtered_animals__animals	offals_cattle		true
+	Animals slaughtered per capita to produce cattle offals	Offals, cattle	Animals slaughtered		true		LineChart	producing_or_slaughtered_animals__animals_per_capita	offals_cattle		true
 	Goat offal production	Offals, goats	Production		false		LineChart	production__tonnes	offals_goats		true
 	Per capita goat offal production	Offals, goats	Production		true		LineChart	production__kg_per_capita	offals_goats		true
+	Animals slaughtered to produce goat offals	Offals, goats	Animals slaughtered		false		LineChart	producing_or_slaughtered_animals__animals	offals_goats		true
+	Animals slaughtered per capita to produce goat offals	Offals, goats	Animals slaughtered		true		LineChart	producing_or_slaughtered_animals__animals_per_capita	offals_goats		true
 	Horse offal production	Offals, horses	Production		false		LineChart	production__tonnes	offals_horses		true
 	Per capita horse offal production	Offals, horses	Production		true		LineChart	production__kg_per_capita	offals_horses		true
+	Animals slaughtered to produce horse offals	Offals, horses	Animals slaughtered		false		LineChart	producing_or_slaughtered_animals__animals	offals_horses		true
+	Animals slaughtered per capita to produce horse offals	Offals, horses	Animals slaughtered		true		LineChart	producing_or_slaughtered_animals__animals_per_capita	offals_horses		true
 	Pig offal production	Offals, pigs	Production		false		LineChart	production__tonnes	offals_pigs		true
 	Per capita pig offal production	Offals, pigs	Production		true		LineChart	production__kg_per_capita	offals_pigs		true
+	Animals slaughtered to produce pig offals	Offals, pigs	Animals slaughtered		false		LineChart	producing_or_slaughtered_animals__animals	offals_pigs		true
+	Animals slaughtered per capita to produce pig offals	Offals, pigs	Animals slaughtered		true		LineChart	producing_or_slaughtered_animals__animals_per_capita	offals_pigs		true
 	Sheep offal production	Offals, sheep	Production		false		LineChart	production__tonnes	offals_sheep		true
 	Per capita sheep offal production	Offals, sheep	Production		true		LineChart	production__kg_per_capita	offals_sheep		true
+	Animals slaughtered to produce sheep offals	Offals, sheep	Animals slaughtered		false		LineChart	producing_or_slaughtered_animals__animals	offals_sheep		true
+	Animals slaughtered per capita to produce sheep offals	Offals, sheep	Animals slaughtered		true		LineChart	producing_or_slaughtered_animals__animals_per_capita	offals_sheep		true
 	Oilcrop production	Oilcrops	Production		false		LineChart	production__tonnes	oilcrops		true
 	Per capita oilcrop production	Oilcrops	Production		true		LineChart	production__kg_per_capita	oilcrops		true
 	Oilcrop yield	Oilcrops	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	oilcrops		true
@@ -1417,14 +1479,20 @@ graphers
 	Sesame seeds used for animal feed, per capita	Sesame seed	Allocated to animal feed		true	The quantity that is allocated to feed for livestock.	LineChart	feed__kg_per_capita	sesame_seed		true
 	Sheep and goat meat production	Sheep and goat meat	Production		false		LineChart	production__tonnes	sheep_and_goat_meat		true
 	Per capita sheep and goat meat production	Sheep and goat meat	Production		true		LineChart	production__kg_per_capita	sheep_and_goat_meat		true
+	Animals slaughtered to produce sheep and goat meat	Sheep and goat meat	Animals slaughtered		false		LineChart	producing_or_slaughtered_animals__animals	sheep_and_goat_meat		true
+	Animals slaughtered per capita to produce sheep and goat meat	Sheep and goat meat	Animals slaughtered		true		LineChart	producing_or_slaughtered_animals__animals_per_capita	sheep_and_goat_meat		true
 	Sheep and goat meat yield	Sheep and goat meat	Yield		false	Yield is measured as the quantity produced per animal.	LineChart	yield__kg_per_animal	sheep_and_goat_meat		true
 	Silk production	Silk	Production		false		LineChart	production__tonnes	silk		true
 	Per capita silk production	Silk	Production		true		LineChart	production__kg_per_capita	silk		true
 	Goat skin production	Skins, goat	Production		false		LineChart	production__tonnes	skins_goat		true
 	Per capita goat skin production	Skins, goat	Production		true		LineChart	production__kg_per_capita	skins_goat		true
+	Animals slaughtered to produce goat skins	Skins, goat	Animals slaughtered		false		LineChart	producing_or_slaughtered_animals__animals	skins_goat		true
+	Animals slaughtered per capita to produce goat skins	Skins, goat	Animals slaughtered		true		LineChart	producing_or_slaughtered_animals__animals_per_capita	skins_goat		true
 	Goat skin yield	Skins, goat	Yield		false	Yield is measured as the quantity produced per animal.	LineChart	yield__kg_per_animal	skins_goat		true
 	Sheep skin production	Skins, sheep	Production		false		LineChart	production__tonnes	skins_sheep		true
 	Per capita sheep skin production	Skins, sheep	Production		true		LineChart	production__kg_per_capita	skins_sheep		true
+	Animals slaughtered to produce sheep skins	Skins, sheep	Animals slaughtered		false		LineChart	producing_or_slaughtered_animals__animals	skins_sheep		true
+	Animals slaughtered per capita to produce sheep skins	Skins, sheep	Animals slaughtered		true		LineChart	producing_or_slaughtered_animals__animals_per_capita	skins_sheep		true
 	Sheep skin yield	Skins, sheep	Yield		false	Yield is measured as the quantity produced per animal.	LineChart	yield__kg_per_animal	skins_sheep		true
 	Sorghum production	Sorghum	Production		false		LineChart	production__tonnes	sorghum		true
 	Per capita sorghum production	Sorghum	Production		true		LineChart	production__kg_per_capita	sorghum		true
@@ -1987,6 +2055,8 @@ columns	almonds	animal_fats	apples	apricots	areca_nuts	artichokes	asparagus	avoc
 	yield__tonnes_per_ha	Yield (t/ha)	Numeric		t/ha	tonnes per hectare	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/QCL
 	yield__kg_per_animal	Yield (kg/animal)	Numeric		kg/animal	kilograms per animal	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/QCL
 	area_harvested__ha	Land Use (ha)	Numeric		ha	hectares	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/QCL
+	producing_or_slaughtered_animals__animals	Producing or slaughtered animals	Numeric				UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/QCL
+	producing_or_slaughtered_animals__animals_per_capita	Producing or slaughtered animals per capita	Numeric	producing_or_slaughtered_animals__animals divideBy population			UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/QCL
 	imports__tonnes	Imports (t)	Numeric		t	tonnes	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/FBS, https://www.fao.org/faostat/en/#data/FBSH
 	imports__tonnes_per_capita		Numeric	imports__tonnes divideBy population	t	tonnes	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/FBS, https://www.fao.org/faostat/en/#data/FBSH
 	imports__kg_per_capita	Imports per capita (kg)	Numeric	multiplyBy imports__tonnes_per_capita 1000	kg	kilograms	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/FBS, https://www.fao.org/faostat/en/#data/FBSH
