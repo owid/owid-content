@@ -88,7 +88,6 @@ meat_total	Meat, Total	Total meat	All meat	production,food_balances,animal_feed
 meat_ass	Meat, ass	Ass meat	Ass meat	production,animal_yield	
 meat_buffalo	Meat, buffalo	Buffalo meat	Buffalo meat	production,animal_yield	
 meat_camel	Meat, camel	Camel meat	Camel meat	production,animal_yield	
-meat_cattle	Meat, cattle	Cattle meat	Cattle meat	production,animal_yield	
 meat_chicken	Meat, chicken	Chicken meat	Chicken meat	production,animal_yield	
 meat_duck	Meat, duck	Duck meat	Duck meat	production,animal_yield	
 meat_game	Meat, game	Game meat	Game meat	production,animal_yield	
@@ -96,9 +95,6 @@ meat_goat	Meat, goat	Goat meat	Goat meat	production,animal_yield
 meat_goose_and_guinea_fowl	Meat, goose and guinea fowl	Goose and guinea fowl meat	Goose and guinea fowl meat	production,animal_yield	
 meat_horse	Meat, horse	Horse meat	Horse meat	production,animal_yield	
 meat_mule	Meat, mule	Mule meat	Mule meat	production,animal_yield	
-meat_other_birds	Meat, other birds	Other bird meat	Other bird meat	production,animal_yield	
-meat_other_camelids	Meat, other camelids	Other camelid meat	Other camelid meat	production,animal_yield	
-meat_other_rodents	Meat, other rodents	Other rodent meat	Other rodent meat	production,animal_yield	
 meat_pig	Meat, pig	Pig meat	Pig meat	production,animal_yield	
 meat_poultry	Meat, poultry	Poultry meat	Poultry meat	production,animal_yield,food_balances,animal_feed	
 meat_rabbit	Meat, rabbit	Rabbit meat	Rabbit meat	production,animal_yield	
