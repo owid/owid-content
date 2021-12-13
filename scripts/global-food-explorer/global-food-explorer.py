@@ -18,7 +18,7 @@ outfile = '../../explorers/global-food.explorer.tsv'
 
 
 def food_url(food):
-    return f"https://owid-catalog.nyc3.digitaloceanspaces.com/garden/explorers/2021/food_explorer/{food}.csv"
+    return f"https://catalog.ourworldindata.org/garden/explorers/2021/food_explorer/{food}.csv"
 
 
 def substitute_title(row):
