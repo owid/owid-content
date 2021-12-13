@@ -86,6 +86,7 @@ mangoes	Mangoes	Mango	Mangoes	production,land_use,crop_yield
 margarine	Margarine	Margarine	Margarine	production	
 meat_total	Meat, Total	Total meat	All meat	production,food_balances,animal_feed	
 meat_ass	Meat, ass	Ass meat	Ass meat	production,animal_yield	
+meat_beef	Meat, beef	Beef	Beef	food_balances,animal_feed
 meat_buffalo	Meat, buffalo	Buffalo meat	Buffalo meat	production,animal_yield	
 meat_camel	Meat, camel	Camel meat	Camel meat	production,animal_yield	
 meat_chicken	Meat, chicken	Chicken meat	Chicken meat	production,animal_yield	
