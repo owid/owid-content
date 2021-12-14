@@ -11,7 +11,6 @@ bananas	Bananas	Banana	Bananas	production,land_use,crop_yield,food_balances,wast
 barley	Barley	Barley	Barley	production,land_use,crop_yield,food_balances,waste,animal_feed	
 beans_dry	Beans, dry	Dry bean	Dry beans	production,land_use,crop_yield,food_balances,waste,animal_feed	
 beans_green	Beans, green	Green bean	Green beans	production,land_use,crop_yield	
-beef_and_buffalo_meat	Beef and buffalo meat	Beef and buffalo meat	Beef and buffalo meat	production,animals_slaughtered,animal_yield	
 beeswax	Beeswax	Beeswax	Beeswax	production	
 blueberries	Blueberries	Blueberry	Blueberries	production,land_use,crop_yield	
 brazil_nuts_with_shell	Brazil nuts, with shell	Brazil nut	Brazil nuts	production,land_use,crop_yield	
@@ -86,6 +85,7 @@ mangoes	Mangoes	Mango	Mangoes	production,land_use,crop_yield
 margarine	Margarine	Margarine	Margarine	production	
 meat_total	Meat, Total	Total meat	All meat	production,food_balances,waste,animal_feed	
 meat_ass	Meat, ass	Ass meat	Ass meat	production,animals_slaughtered,animal_yield	
+meat_beef_and_buffalo	Meat, beef and buffalo	Beef and buffalo meat	Beef and buffalo meat	production,animals_slaughtered,animal_yield	
 meat_beef	Meat, beef	Beef	Beef	food_balances,waste,animal_feed
 meat_buffalo	Meat, buffalo	Buffalo meat	Buffalo meat	production,animals_slaughtered,animal_yield	
 meat_camel	Meat, camel	Camel meat	Camel meat	production,animals_slaughtered,animal_yield	
@@ -95,11 +95,12 @@ meat_game	Meat, game	Game meat	Game meat	production,animals_slaughtered,animal_y
 meat_goat	Meat, goat	Goat meat	Goat meat	production,animals_slaughtered,animal_yield	
 meat_goose_and_guinea_fowl	Meat, goose and guinea fowl	Goose and guinea fowl meat	Goose and guinea fowl meat	production,animals_slaughtered,animal_yield	
 meat_horse	Meat, horse	Horse meat	Horse meat	production,animals_slaughtered,animal_yield	
+meat_lamb_and_mutton	Meat, lamb and mutton	Lamb and mutton meat	Lamb and mutton meat	production,animals_slaughtered,animal_yield	
 meat_mule	Meat, mule	Mule meat	Mule meat	production,animals_slaughtered,animal_yield	
 meat_pig	Meat, pig	Pig meat	Pig meat	production,animals_slaughtered,animal_yield	
 meat_poultry	Meat, poultry	Poultry meat	Poultry meat	production,animals_slaughtered,animal_yield,food_balances,waste,animal_feed	
 meat_rabbit	Meat, rabbit	Rabbit meat	Rabbit meat	production,animals_slaughtered,animal_yield	
-meat_sheep	Meat, sheep	Sheep meat	Sheep meat	production,animals_slaughtered,animal_yield	
+meat_sheep_and_goat	Meat, sheep and goat	Sheep and goat meat	Sheep and goat meat	production,animals_slaughtered,animal_yield,food_balances,waste,animal_feed
 meat_turkey	Meat, turkey	Turkey meat	Turkey meat	production,animals_slaughtered,animal_yield	
 melon	Melon	Melon	Melon	production,land_use,crop_yield	
 melonseed	Melonseed	Melonseed	Melonseeds	production,land_use,crop_yield	
@@ -158,7 +159,6 @@ safflower_seed	Safflower seed	Safflower seed	Safflower seeds	production,land_use
 seed_cotton	Seed cotton	Seed cotton	Seed cotton	production,land_use,crop_yield	
 sesame_oil	Sesame oil	Sesame oil	Sesame oil	production,food_balances,waste,animal_feed	
 sesame_seed	Sesame seed	Sesame seed	Sesame seeds	production,land_use,crop_yield,food_balances,waste,animal_feed	
-sheep_and_goat_meat	Sheep and goat meat	Sheep and goat meat	Sheep and goat meat	production,animals_slaughtered,animal_yield	
 silk	Silk	Silk	Silk	production	
 skins_goat	Skins, goat	Goat skin	Goat skins	production,animals_slaughtered,animal_yield	
 skins_sheep	Skins, sheep	Sheep skin	Sheep skins	production,animals_slaughtered,animal_yield	
