@@ -1,15 +1,15 @@
-explorerTitle	Global Food Explorer (Prototype)								
+explorerTitle	Global Food Explorer
 explorerSubtitle	Explore the world's food system crop-by-crop from production to plate.
 wpBlockId	46846
 selection	United States	Germany	France	United Kingdom	Brazil	South Africa
 yAxisMin	0
 hasMapTab	true
 tab	map
-graphers									
-$graphers_tsv									
-									
-$table_defs									
-columns	$food_slugs								
+graphers
+$graphers_tsv
+
+$table_defs
+columns	$food_slugs
 	slug	name	type	transform	shortUnit	unit	sourceName	dataPublishedBy	sourceLink
 	Product	Product	String
 	Country	Country	EntityName						
