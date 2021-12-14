@@ -1,7 +1,7 @@
 explorerTitle	COVID-19 Data Explorer
 isPublished	true
 googleSheet	https://docs.google.com/spreadsheets/d/1qeXBgckrktxwrJp2V9NCG9CeDEufAC-nzYYjj6o1vlU/edit?usp=sharing
-selection	United States	Australia	Italy	Canada	Germany	United Kingdom	France
+selection	United States	Italy	Canada	Germany	United Kingdom	France
 explorerSubtitle	Download the complete <em>Our World in Data</em> <a href="https://github.com/owid/covid-19-data/tree/master/public/data" target="_blank" rel="noopener noreferrer">COVID-19 dataset.</a>
 hideAlertBanner	true
 subNavId	coronavirus
@@ -13,9 +13,9 @@ downloadDataLink	https://covid.ourworldindata.org/data/owid-covid-data.csv
 thumbnail	https://ourworldindata.org/coronavirus-data-explorer.png
 pickerColumnSlugs	location population population_density median_age aged_65_older aged_70_older gdp_per_capita extreme_poverty human_development_index hospital_beds_per_thousand stringency_index life_expectancy total_vaccinations total_vaccinations_per_hundred new_vaccinations_smoothed new_vaccinations_smoothed_per_hundred total_deaths total_deaths_per_million new_deaths_smoothed new_deaths_smoothed_per_million total_cases total_cases_per_million new_cases_smoothed new_cases_smoothed_per_million total_tests total_tests_per_thousand new_tests_smoothed new_tests_smoothed_per_thousand cfr positive_rate_filtered tests_per_case_smoothed_filtered_gt_1
 graphers
-	title	subtitle	Metric Dropdown	Interval Dropdown	Relative to Population Checkbox	Align outbreaks Checkbox	ySlugs	yScaleToggle	xSlug	colorSlug	type	tableSlug	hideTitleAnnotation	hasMapTab	sortBy	sortColumnSlug	hideTotalValueLabel	note	facet	selectedFacetStrategy	facetYDomain	timelineMinTime	note
+	title	subtitle	Metric Dropdown	Interval Dropdown	Relative to Population Checkbox	Align outbreaks Checkbox	ySlugs	yScaleToggle	xSlug	colorSlug	type	tableSlug	hideTitleAnnotation	hasMapTab	sortBy	sortColumnSlug	hideTotalValueLabel	note	facet	selectedFacetStrategy	facetYDomain	timelineMinTime	note	defaultView
 	Daily new confirmed COVID-19 deaths per million people	7-day rolling average. Due to limited testing and challenges in the attribution of the cause of death, confirmed deaths can be lower than the true number of deaths.	Confirmed deaths	7-day rolling average	true	false	new_deaths_smoothed_per_million_gt_0	true			LineChart	deaths	true	true
-	Daily new confirmed COVID-19 cases per million people	7-day rolling average. Due to limited testing, the number of confirmed cases is lower than the true number of infections.	Confirmed cases	7-day rolling average	true	false	new_cases_smoothed_per_million_gt_0	true			LineChart	cases-tests	true	true
+	Daily new confirmed COVID-19 cases per million people	7-day rolling average. Due to limited testing, the number of confirmed cases is lower than the true number of infections.	Confirmed cases	7-day rolling average	true	false	new_cases_smoothed_per_million_gt_0	true			LineChart	cases-tests	true	true										true
 	Daily new confirmed COVID-19 cases per million people	7-day rolling average. Due to limited testing, the number of confirmed cases is lower than the true number of infections.	Confirmed cases	7-day rolling average	true	true	new_cases_smoothed_per_million_gt_0	true	days_since_1_case_per_million	positive_rate_percent	ScatterPlot	cases-tests	true	true
 	Daily new confirmed COVID-19 cases	7-day rolling average. Due to limited testing, the number of confirmed cases is lower than the true number of infections.	Confirmed cases	7-day rolling average	false	true	new_cases_smoothed_gt_0	true	days_since_30_cases_per_day	positive_rate_percent	ScatterPlot	cases-tests	true	true
 	Daily new confirmed COVID-19 cases	7-day rolling average. Due to limited testing, the number of confirmed cases is lower than the true number of infections.	Confirmed cases	7-day rolling average	false	false	new_cases_smoothed_gt_0	true			LineChart	cases-tests	true	true
