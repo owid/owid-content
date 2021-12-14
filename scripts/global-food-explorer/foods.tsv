@@ -34,12 +34,12 @@ chickpeas	Chickpeas	Chickpea	Chickpeas	production,land_use,crop_yield
 chillies_and_peppers	Chillies and peppers	Chili and pepper	Chillies and peppers	production,land_use,crop_yield,food_balances,waste	
 citrus_fruit	Citrus fruit	Citrus fruit	Citrus fruit	production,land_use,crop_yield	
 cocoa_beans	Cocoa beans	Cocoa bean	Cocoa beans	food_balances,waste,animal_feed	
-coconut_oil	Coconut oil	Coconut oil	Coconut oil	production,food_balances,waste,animal_feed	
+coconut_oil	Coconut oil	Coconut oil	Coconut oil	production,food_balances,waste	
 coconuts	Coconuts	Coconut	Coconuts	food_balances,waste,animal_feed	
 coffee_green	Coffee, green	Green coffee	Green coffee	production,land_use,crop_yield	Green coffee beans are coffee seeds (beans) that have not yet been roasted.
 cotton	Cotton	Cotton	Cotton	production	
 cottonseed	Cottonseed	Cottonseed	Cottonseeds	production,food_balances,waste,animal_feed	
-cottonseed_oil	Cottonseed oil	Cottonseed oil	Cottonseed oil	production,food_balances,waste,animal_feed	
+cottonseed_oil	Cottonseed oil	Cottonseed oil	Cottonseed oil	production,food_balances,waste	
 cow_peas	Cow peas	Cow pea	Cow peas	production,land_use,crop_yield	
 cranberries	Cranberries	Cranberry	Cranberries	production,land_use,crop_yield	
 cucumbers_and_gherkins	Cucumbers and gherkins	Cucumber and gherkin	Cucumbers and gherkins	production,land_use,crop_yield	
@@ -60,21 +60,21 @@ fish_and_seafood	Fish and seafood	Fish and seafood	Fish and seafood	food_balance
 flax_fibre	Flax fibre	Flax fibre	Flax fibre	production,land_use,crop_yield	
 fruit	Fruit	Fruit	Fruit	production,land_use,crop_yield,food_balances,waste,animal_feed	
 garlic	Garlic	Garlic	Garlic	production,land_use,crop_yield	
-grapefruit	Grapefruit	Grapefruit	Grapefruits	production,land_use,crop_yield,food_balances,waste,animal_feed	
+grapefruit	Grapefruit	Grapefruit	Grapefruits	production,land_use,crop_yield,food_balances,waste	
 grapes	Grapes	Grapes	Grapes	production,land_use,crop_yield	
 green_maize	Green maize	Green maize	Green maize	production,land_use,crop_yield	
 groundnuts	Groundnuts	Groundnut	Groundnuts	production,land_use,crop_yield,food_balances,waste,animal_feed	
-groundnut_oil	Groundnut oil	Groundnut oil	Groundnut oil	production,food_balances,waste,animal_feed	
+groundnut_oil	Groundnut oil	Groundnut oil	Groundnut oil	production,food_balances,waste	
 hazelnuts	Hazelnuts	Hazelnut	Hazelnuts	production,land_use,crop_yield	
 hempseed	Hempseed	Hempseed	Hempseeds	production,land_use,crop_yield	
 herbs_eg_fennel	Herbs (e.g. fennel)	Herb (e.g. fennel)	Herbs (e.g. fennel)	production,land_use,crop_yield	
-honey	Honey	Honey	Honey	production,food_balances,waste,animal_feed	
+honey	Honey	Honey	Honey	production,food_balances,waste	
 jute	Jute	Jute	Jute	production,land_use,crop_yield	
 karite_nuts	Karite nuts	Karite nut	Karite nuts	production,land_use,crop_yield	
 kiwi	Kiwi	Kiwi	Kiwi	production,land_use,crop_yield	
 kola_nuts	Kola nuts	Kola nut	Kola nuts	production,land_use,crop_yield	
 leeks	Leeks	Leek	Leeks	production,land_use,crop_yield	
-lemons_and_limes	Lemons and limes	Lemon and lime	Lemons and limes	production,land_use,crop_yield,food_balances,waste,animal_feed	
+lemons_and_limes	Lemons and limes	Lemon and lime	Lemons and limes	production,land_use,crop_yield,food_balances,waste	
 lentils	Lentils	Lentil	Lentils	production,land_use,crop_yield	
 lettuce	Lettuce	Lettuce	Lettuce	production,land_use,crop_yield	
 linseed	Linseed	Linseed	Linseeds	production,land_use,crop_yield	
@@ -125,11 +125,11 @@ oilcrops_cake_equivalent	Oilcrops, cake equivalent	Oilcrop, cake equivalent	Oilc
 oilcrops_oil_equivalent	Oilcrops, oil equivalent	Oilcrop, oil equivalent	Oilcrops, oil equivalent	production,land_use,crop_yield	
 okra	Okra	Okra	Okra	production,land_use,crop_yield	
 olive_oil	Olive oil	Olive oil	Olive oil	production,food_balances,animal_feed	
-olives	Olives	Olive	Olives	production,land_use,crop_yield,food_balances,waste,animal_feed	
+olives	Olives	Olive	Olives	production,land_use,crop_yield,food_balances,waste	
 onions	Onions	Onion	Onions	production,land_use,crop_yield,food_balances,waste,animal_feed	
 oranges	Oranges	Orange	Oranges	production,land_use,crop_yield,food_balances,waste,animal_feed	
 palm_fruit_oil	Palm fruit oil	Palm fruit oil	Palm fruit oil	production,land_use,crop_yield	
-palm_kernel_oil	Palm kernel oil	Palm kernel oil	Palm kernel oil	production,food_balances,waste,animal_feed	
+palm_kernel_oil	Palm kernel oil	Palm kernel oil	Palm kernel oil	production,food_balances,waste	
 palm_kernels	Palm kernels	Palm kernel	Palm kernels	production,food_balances,waste,animal_feed	
 palm_oil	Palm oil	Palm oil	Palm oil	production	
 papayas	Papayas	Papaya	Papayas	production,land_use,crop_yield	
@@ -157,7 +157,7 @@ rye	Rye	Rye	Rye	production,land_use,crop_yield,food_balances,waste,animal_feed
 safflower_oil	Safflower oil	Safflower oil	Safflower oil	production	
 safflower_seed	Safflower seed	Safflower seed	Safflower seeds	production,land_use,crop_yield	
 seed_cotton	Seed cotton	Seed cotton	Seed cotton	production,land_use,crop_yield	
-sesame_oil	Sesame oil	Sesame oil	Sesame oil	production,food_balances,waste,animal_feed	
+sesame_oil	Sesame oil	Sesame oil	Sesame oil	production,food_balances	
 sesame_seed	Sesame seed	Sesame seed	Sesame seeds	production,land_use,crop_yield,food_balances,waste,animal_feed	
 silk	Silk	Silk	Silk	production	
 skins_goat	Skins, goat	Goat skin	Goat skins	production,animals_slaughtered,animal_yield	
