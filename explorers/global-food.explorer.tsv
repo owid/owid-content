@@ -148,11 +148,6 @@ graphers
 	Per capita green bean production	Beans, green	Production		true		LineChart	production__kg_per_capita	beans_green		true	
 	Green bean yield	Beans, green	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	beans_green		true	
 	Land used for green bean production	Beans, green	Land Use		false	The amount of cropland used for production	LineChart	area_harvested__ha	beans_green		true	
-	Beef and buffalo meat production	Beef and buffalo meat	Production		false		LineChart	production__tonnes	beef_and_buffalo_meat		true	
-	Per capita beef and buffalo meat production	Beef and buffalo meat	Production		true		LineChart	production__kg_per_capita	beef_and_buffalo_meat		true	
-	Animals slaughtered to produce beef and buffalo meat	Beef and buffalo meat	Animals slaughtered		false		LineChart	producing_or_slaughtered_animals__animals	beef_and_buffalo_meat		true	
-	Animals slaughtered per capita to produce beef and buffalo meat	Beef and buffalo meat	Animals slaughtered		true		LineChart	producing_or_slaughtered_animals__animals_per_capita	beef_and_buffalo_meat		true	
-	Beef and buffalo meat yield	Beef and buffalo meat	Yield		false	Yield is measured as the quantity produced per animal.	LineChart	yield__kg_per_animal	beef_and_buffalo_meat		true	
 	Beeswax production	Beeswax	Production		false		LineChart	production__tonnes	beeswax		true	
 	Per capita beeswax production	Beeswax	Production		true		LineChart	production__kg_per_capita	beeswax		true	
 	Blueberry production	Blueberries	Production		false		LineChart	production__tonnes	blueberries		true	
@@ -311,8 +306,6 @@ graphers
 	Coconut oil used for industrial uses, per capita	Coconut oil	Allocated to industrial uses		true	The quantity that is allocated to industrial uses such as biofuel, pharmaceuticals or textile products.	LineChart	other_uses__kg_per_capita	coconut_oil		true	
 	Coconut oil waste in supply chains	Coconut oil	Waste in supply chains		false	The quantity that is lost or wasted in supply chains through poor handling, spoiling, lack of refrigeration and damage from the field to retail. It does not include consumer waste.	LineChart	waste_in_supply_chain__tonnes	coconut_oil		true	
 	Per capita coconut oil waste in supply chains	Coconut oil	Waste in supply chains		true	The quantity that is lost or wasted in supply chains through poor handling, spoiling, lack of refrigeration and damage from the field to retail. It does not include consumer waste.	LineChart	waste_in_supply_chain__kg_per_capita	coconut_oil		true	
-	Coconut oil used for animal feed	Coconut oil	Allocated to animal feed		false	The quantity that is allocated to feed for livestock.	LineChart	feed__tonnes	coconut_oil		true	
-	Coconut oil used for animal feed, per capita	Coconut oil	Allocated to animal feed		true	The quantity that is allocated to feed for livestock.	LineChart	feed__kg_per_capita	coconut_oil		true	
 	Per capita coconut consumption per year	Coconuts	Food available for consumption	Kilograms per year	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__kg_per_capita_per_year	coconuts		true	
 	Per capita coconut consumption per day	Coconuts	Food available for consumption	Grams per day	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__g_per_capita_per_day	coconuts		true	
 	Per capita kilocalorie consumption from coconuts per day	Coconuts	Food available for consumption	Kilocalories per day	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__kcal_per_capita_per_day	coconuts		true	
@@ -378,8 +371,6 @@ graphers
 	Cottonseed oil used for industrial uses, per capita	Cottonseed oil	Allocated to industrial uses		true	The quantity that is allocated to industrial uses such as biofuel, pharmaceuticals or textile products.	LineChart	other_uses__kg_per_capita	cottonseed_oil		true	
 	Cottonseed oil waste in supply chains	Cottonseed oil	Waste in supply chains		false	The quantity that is lost or wasted in supply chains through poor handling, spoiling, lack of refrigeration and damage from the field to retail. It does not include consumer waste.	LineChart	waste_in_supply_chain__tonnes	cottonseed_oil		true	
 	Per capita cottonseed oil waste in supply chains	Cottonseed oil	Waste in supply chains		true	The quantity that is lost or wasted in supply chains through poor handling, spoiling, lack of refrigeration and damage from the field to retail. It does not include consumer waste.	LineChart	waste_in_supply_chain__kg_per_capita	cottonseed_oil		true	
-	Cottonseed oil used for animal feed	Cottonseed oil	Allocated to animal feed		false	The quantity that is allocated to feed for livestock.	LineChart	feed__tonnes	cottonseed_oil		true	
-	Cottonseed oil used for animal feed, per capita	Cottonseed oil	Allocated to animal feed		true	The quantity that is allocated to feed for livestock.	LineChart	feed__kg_per_capita	cottonseed_oil		true	
 	Cow pea production	Cow peas	Production		false		LineChart	production__tonnes	cow_peas		true	
 	Per capita cow pea production	Cow peas	Production		true		LineChart	production__kg_per_capita	cow_peas		true	
 	Cow pea yield	Cow peas	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	cow_peas		true	
@@ -548,8 +539,6 @@ graphers
 	Grapefruits used for industrial uses, per capita	Grapefruit	Allocated to industrial uses		true	The quantity that is allocated to industrial uses such as biofuel, pharmaceuticals or textile products.	LineChart	other_uses__kg_per_capita	grapefruit		true	
 	Grapefruit waste in supply chains	Grapefruit	Waste in supply chains		false	The quantity that is lost or wasted in supply chains through poor handling, spoiling, lack of refrigeration and damage from the field to retail. It does not include consumer waste.	LineChart	waste_in_supply_chain__tonnes	grapefruit		true	
 	Per capita grapefruit waste in supply chains	Grapefruit	Waste in supply chains		true	The quantity that is lost or wasted in supply chains through poor handling, spoiling, lack of refrigeration and damage from the field to retail. It does not include consumer waste.	LineChart	waste_in_supply_chain__kg_per_capita	grapefruit		true	
-	Grapefruits used for animal feed	Grapefruit	Allocated to animal feed		false	The quantity that is allocated to feed for livestock.	LineChart	feed__tonnes	grapefruit		true	
-	Grapefruits used for animal feed, per capita	Grapefruit	Allocated to animal feed		true	The quantity that is allocated to feed for livestock.	LineChart	feed__kg_per_capita	grapefruit		true	
 	Grapes production	Grapes	Production		false		LineChart	production__tonnes	grapes		true	
 	Per capita grapes production	Grapes	Production		true		LineChart	production__kg_per_capita	grapes		true	
 	Grapes yield	Grapes	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	grapes		true	
@@ -577,8 +566,6 @@ graphers
 	Groundnut oil used for industrial uses, per capita	Groundnut oil	Allocated to industrial uses		true	The quantity that is allocated to industrial uses such as biofuel, pharmaceuticals or textile products.	LineChart	other_uses__kg_per_capita	groundnut_oil		true	
 	Groundnut oil waste in supply chains	Groundnut oil	Waste in supply chains		false	The quantity that is lost or wasted in supply chains through poor handling, spoiling, lack of refrigeration and damage from the field to retail. It does not include consumer waste.	LineChart	waste_in_supply_chain__tonnes	groundnut_oil		true	
 	Per capita groundnut oil waste in supply chains	Groundnut oil	Waste in supply chains		true	The quantity that is lost or wasted in supply chains through poor handling, spoiling, lack of refrigeration and damage from the field to retail. It does not include consumer waste.	LineChart	waste_in_supply_chain__kg_per_capita	groundnut_oil		true	
-	Groundnut oil used for animal feed	Groundnut oil	Allocated to animal feed		false	The quantity that is allocated to feed for livestock.	LineChart	feed__tonnes	groundnut_oil		true	
-	Groundnut oil used for animal feed, per capita	Groundnut oil	Allocated to animal feed		true	The quantity that is allocated to feed for livestock.	LineChart	feed__kg_per_capita	groundnut_oil		true	
 	Groundnut production	Groundnuts	Production		false		LineChart	production__tonnes	groundnuts		true	
 	Per capita groundnut production	Groundnuts	Production		true		LineChart	production__kg_per_capita	groundnuts		true	
 	Groundnut yield	Groundnuts	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	groundnuts		true	
@@ -633,8 +620,6 @@ graphers
 	Honey used for industrial uses, per capita	Honey	Allocated to industrial uses		true	The quantity that is allocated to industrial uses such as biofuel, pharmaceuticals or textile products.	LineChart	other_uses__kg_per_capita	honey		true	
 	Honey waste in supply chains	Honey	Waste in supply chains		false	The quantity that is lost or wasted in supply chains through poor handling, spoiling, lack of refrigeration and damage from the field to retail. It does not include consumer waste.	LineChart	waste_in_supply_chain__tonnes	honey		true	
 	Per capita honey waste in supply chains	Honey	Waste in supply chains		true	The quantity that is lost or wasted in supply chains through poor handling, spoiling, lack of refrigeration and damage from the field to retail. It does not include consumer waste.	LineChart	waste_in_supply_chain__kg_per_capita	honey		true	
-	Honey used for animal feed	Honey	Allocated to animal feed		false	The quantity that is allocated to feed for livestock.	LineChart	feed__tonnes	honey		true	
-	Honey used for animal feed, per capita	Honey	Allocated to animal feed		true	The quantity that is allocated to feed for livestock.	LineChart	feed__kg_per_capita	honey		true	
 	Jute production	Jute	Production		false		LineChart	production__tonnes	jute		true	
 	Per capita jute production	Jute	Production		true		LineChart	production__kg_per_capita	jute		true	
 	Jute yield	Jute	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	jute		true	
@@ -676,8 +661,6 @@ graphers
 	Lemons and limes used for industrial uses, per capita	Lemons and limes	Allocated to industrial uses		true	The quantity that is allocated to industrial uses such as biofuel, pharmaceuticals or textile products.	LineChart	other_uses__kg_per_capita	lemons_and_limes		true	
 	Lemon and lime waste in supply chains	Lemons and limes	Waste in supply chains		false	The quantity that is lost or wasted in supply chains through poor handling, spoiling, lack of refrigeration and damage from the field to retail. It does not include consumer waste.	LineChart	waste_in_supply_chain__tonnes	lemons_and_limes		true	
 	Per capita lemon and lime waste in supply chains	Lemons and limes	Waste in supply chains		true	The quantity that is lost or wasted in supply chains through poor handling, spoiling, lack of refrigeration and damage from the field to retail. It does not include consumer waste.	LineChart	waste_in_supply_chain__kg_per_capita	lemons_and_limes		true	
-	Lemons and limes used for animal feed	Lemons and limes	Allocated to animal feed		false	The quantity that is allocated to feed for livestock.	LineChart	feed__tonnes	lemons_and_limes		true	
-	Lemons and limes used for animal feed, per capita	Lemons and limes	Allocated to animal feed		true	The quantity that is allocated to feed for livestock.	LineChart	feed__kg_per_capita	lemons_and_limes		true	
 	Lentil production	Lentils	Production		false		LineChart	production__tonnes	lentils		true	
 	Per capita lentil production	Lentils	Production		true		LineChart	production__kg_per_capita	lentils		true	
 	Lentil yield	Lentils	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	lentils		true	
@@ -785,6 +768,11 @@ graphers
 	Per capita beef waste in supply chains	Meat, beef	Waste in supply chains		true	The quantity that is lost or wasted in supply chains through poor handling, spoiling, lack of refrigeration and damage from the field to retail. It does not include consumer waste.	LineChart	waste_in_supply_chain__kg_per_capita	meat_beef		true	
 	Beef used for animal feed	Meat, beef	Allocated to animal feed		false	The quantity that is allocated to feed for livestock.	LineChart	feed__tonnes	meat_beef		true	
 	Beef used for animal feed, per capita	Meat, beef	Allocated to animal feed		true	The quantity that is allocated to feed for livestock.	LineChart	feed__kg_per_capita	meat_beef		true	
+	Beef and buffalo meat production	Meat, beef and buffalo	Production		false		LineChart	production__tonnes	meat_beef_and_buffalo		true	
+	Per capita beef and buffalo meat production	Meat, beef and buffalo	Production		true		LineChart	production__kg_per_capita	meat_beef_and_buffalo		true	
+	Animals slaughtered to produce beef and buffalo meat	Meat, beef and buffalo	Animals slaughtered		false		LineChart	producing_or_slaughtered_animals__animals	meat_beef_and_buffalo		true	
+	Animals slaughtered per capita to produce beef and buffalo meat	Meat, beef and buffalo	Animals slaughtered		true		LineChart	producing_or_slaughtered_animals__animals_per_capita	meat_beef_and_buffalo		true	
+	Beef and buffalo meat yield	Meat, beef and buffalo	Yield		false	Yield is measured as the quantity produced per animal.	LineChart	yield__kg_per_animal	meat_beef_and_buffalo		true	
 	Buffalo meat production	Meat, buffalo	Production		false		LineChart	production__tonnes	meat_buffalo		true	
 	Per capita buffalo meat production	Meat, buffalo	Production		true		LineChart	production__kg_per_capita	meat_buffalo		true	
 	Animals slaughtered to produce buffalo meat	Meat, buffalo	Animals slaughtered		false		LineChart	producing_or_slaughtered_animals__animals	meat_buffalo		true	
@@ -825,6 +813,11 @@ graphers
 	Animals slaughtered to produce horse meat	Meat, horse	Animals slaughtered		false		LineChart	producing_or_slaughtered_animals__animals	meat_horse		true	
 	Animals slaughtered per capita to produce horse meat	Meat, horse	Animals slaughtered		true		LineChart	producing_or_slaughtered_animals__animals_per_capita	meat_horse		true	
 	Horse meat yield	Meat, horse	Yield		false	Yield is measured as the quantity produced per animal.	LineChart	yield__kg_per_animal	meat_horse		true	
+	Lamb and mutton meat production	Meat, lamb and mutton	Production		false		LineChart	production__tonnes	meat_lamb_and_mutton		true	
+	Per capita lamb and mutton meat production	Meat, lamb and mutton	Production		true		LineChart	production__kg_per_capita	meat_lamb_and_mutton		true	
+	Animals slaughtered to produce lamb and mutton meat	Meat, lamb and mutton	Animals slaughtered		false		LineChart	producing_or_slaughtered_animals__animals	meat_lamb_and_mutton		true	
+	Animals slaughtered per capita to produce lamb and mutton meat	Meat, lamb and mutton	Animals slaughtered		true		LineChart	producing_or_slaughtered_animals__animals_per_capita	meat_lamb_and_mutton		true	
+	Lamb and mutton meat yield	Meat, lamb and mutton	Yield		false	Yield is measured as the quantity produced per animal.	LineChart	yield__kg_per_animal	meat_lamb_and_mutton		true	
 	Mule meat production	Meat, mule	Production		false		LineChart	production__tonnes	meat_mule		true	
 	Per capita mule meat production	Meat, mule	Production		true		LineChart	production__kg_per_capita	meat_mule		true	
 	Animals slaughtered to produce mule meat	Meat, mule	Animals slaughtered		false		LineChart	producing_or_slaughtered_animals__animals	meat_mule		true	
@@ -864,11 +857,30 @@ graphers
 	Animals slaughtered to produce rabbit meat	Meat, rabbit	Animals slaughtered		false		LineChart	producing_or_slaughtered_animals__animals	meat_rabbit		true	
 	Animals slaughtered per capita to produce rabbit meat	Meat, rabbit	Animals slaughtered		true		LineChart	producing_or_slaughtered_animals__animals_per_capita	meat_rabbit		true	
 	Rabbit meat yield	Meat, rabbit	Yield		false	Yield is measured as the quantity produced per animal.	LineChart	yield__kg_per_animal	meat_rabbit		true	
-	Sheep meat production	Meat, sheep	Production		false		LineChart	production__tonnes	meat_sheep		true	
-	Per capita sheep meat production	Meat, sheep	Production		true		LineChart	production__kg_per_capita	meat_sheep		true	
-	Animals slaughtered to produce sheep meat	Meat, sheep	Animals slaughtered		false		LineChart	producing_or_slaughtered_animals__animals	meat_sheep		true	
-	Animals slaughtered per capita to produce sheep meat	Meat, sheep	Animals slaughtered		true		LineChart	producing_or_slaughtered_animals__animals_per_capita	meat_sheep		true	
-	Sheep meat yield	Meat, sheep	Yield		false	Yield is measured as the quantity produced per animal.	LineChart	yield__kg_per_animal	meat_sheep		true	
+	Sheep and goat meat production	Meat, sheep and goat	Production		false		LineChart	production__tonnes	meat_sheep_and_goat		true	
+	Per capita sheep and goat meat production	Meat, sheep and goat	Production		true		LineChart	production__kg_per_capita	meat_sheep_and_goat		true	
+	Animals slaughtered to produce sheep and goat meat	Meat, sheep and goat	Animals slaughtered		false		LineChart	producing_or_slaughtered_animals__animals	meat_sheep_and_goat		true	
+	Animals slaughtered per capita to produce sheep and goat meat	Meat, sheep and goat	Animals slaughtered		true		LineChart	producing_or_slaughtered_animals__animals_per_capita	meat_sheep_and_goat		true	
+	Sheep and goat meat yield	Meat, sheep and goat	Yield		false	Yield is measured as the quantity produced per animal.	LineChart	yield__kg_per_animal	meat_sheep_and_goat		true	
+	Per capita sheep and goat meat consumption per year	Meat, sheep and goat	Food available for consumption	Kilograms per year	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__kg_per_capita_per_year	meat_sheep_and_goat		true	
+	Per capita sheep and goat meat consumption per day	Meat, sheep and goat	Food available for consumption	Grams per day	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__g_per_capita_per_day	meat_sheep_and_goat		true	
+	Per capita kilocalorie consumption from sheep and goat meat per day	Meat, sheep and goat	Food available for consumption	Kilocalories per day	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__kcal_per_capita_per_day	meat_sheep_and_goat		true	
+	Per capita protein consumption from sheep and goat meat per day	Meat, sheep and goat	Food available for consumption	Protein per day	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__protein_g_per_capita_per_day	meat_sheep_and_goat		true	
+	Per capita fat consumption from sheep and goat meat per day	Meat, sheep and goat	Food available for consumption	Fat per day	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__fat_g_per_capita_per_day	meat_sheep_and_goat		true	
+	Sheep and goat meat imports	Meat, sheep and goat	Imports		false	The quantity that is imported in a given year.	LineChart	imports__tonnes	meat_sheep_and_goat		true	
+	Per capita sheep and goat meat imports	Meat, sheep and goat	Imports		true	The quantity that is imported in a given year.	LineChart	imports__kg_per_capita	meat_sheep_and_goat		true	
+	Sheep and goat meat exports	Meat, sheep and goat	Exports		false	The quantity that is exported in a given year.	LineChart	exports__tonnes	meat_sheep_and_goat		true	
+	Per capita sheep and goat meat exports	Meat, sheep and goat	Exports		true	The quantity that is exported in a given year.	LineChart	exports__kg_per_capita	meat_sheep_and_goat		true	
+	Domestic supply of sheep and goat meat	Meat, sheep and goat	Domestic supply (after trade)		false	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__tonnes	meat_sheep_and_goat		true	
+	Per capita domestic supply of sheep and goat meat	Meat, sheep and goat	Domestic supply (after trade)		true	This measures the supply that is available after trade. It is calculated as production, plus imports, minus exports.	LineChart	domestic_supply__kg_per_capita	meat_sheep_and_goat		true	
+	Sheep and goat meat used for direct human food	Meat, sheep and goat	Allocated for human food		false	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__tonnes	meat_sheep_and_goat		true	
+	Sheep and goat meat used for direct human food, per capita	Meat, sheep and goat	Allocated for human food		true	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__kg_per_capita	meat_sheep_and_goat		true	
+	Sheep and goat meat used for industrial uses	Meat, sheep and goat	Allocated to industrial uses		false	The quantity that is allocated to industrial uses such as biofuel, pharmaceuticals or textile products.	LineChart	other_uses__tonnes	meat_sheep_and_goat		true	
+	Sheep and goat meat used for industrial uses, per capita	Meat, sheep and goat	Allocated to industrial uses		true	The quantity that is allocated to industrial uses such as biofuel, pharmaceuticals or textile products.	LineChart	other_uses__kg_per_capita	meat_sheep_and_goat		true	
+	Sheep and goat meat waste in supply chains	Meat, sheep and goat	Waste in supply chains		false	The quantity that is lost or wasted in supply chains through poor handling, spoiling, lack of refrigeration and damage from the field to retail. It does not include consumer waste.	LineChart	waste_in_supply_chain__tonnes	meat_sheep_and_goat		true	
+	Per capita sheep and goat meat waste in supply chains	Meat, sheep and goat	Waste in supply chains		true	The quantity that is lost or wasted in supply chains through poor handling, spoiling, lack of refrigeration and damage from the field to retail. It does not include consumer waste.	LineChart	waste_in_supply_chain__kg_per_capita	meat_sheep_and_goat		true	
+	Sheep and goat meat used for animal feed	Meat, sheep and goat	Allocated to animal feed		false	The quantity that is allocated to feed for livestock.	LineChart	feed__tonnes	meat_sheep_and_goat		true	
+	Sheep and goat meat used for animal feed, per capita	Meat, sheep and goat	Allocated to animal feed		true	The quantity that is allocated to feed for livestock.	LineChart	feed__kg_per_capita	meat_sheep_and_goat		true	
 	Turkey meat production	Meat, turkey	Production		false		LineChart	production__tonnes	meat_turkey		true	
 	Per capita turkey meat production	Meat, turkey	Production		true		LineChart	production__kg_per_capita	meat_turkey		true	
 	Animals slaughtered to produce turkey meat	Meat, turkey	Animals slaughtered		false		LineChart	producing_or_slaughtered_animals__animals	meat_turkey		true	
@@ -1084,8 +1096,6 @@ graphers
 	Olives used for industrial uses, per capita	Olives	Allocated to industrial uses		true	The quantity that is allocated to industrial uses such as biofuel, pharmaceuticals or textile products.	LineChart	other_uses__kg_per_capita	olives		true	
 	Olive waste in supply chains	Olives	Waste in supply chains		false	The quantity that is lost or wasted in supply chains through poor handling, spoiling, lack of refrigeration and damage from the field to retail. It does not include consumer waste.	LineChart	waste_in_supply_chain__tonnes	olives		true	
 	Per capita olive waste in supply chains	Olives	Waste in supply chains		true	The quantity that is lost or wasted in supply chains through poor handling, spoiling, lack of refrigeration and damage from the field to retail. It does not include consumer waste.	LineChart	waste_in_supply_chain__kg_per_capita	olives		true	
-	Olives used for animal feed	Olives	Allocated to animal feed		false	The quantity that is allocated to feed for livestock.	LineChart	feed__tonnes	olives		true	
-	Olives used for animal feed, per capita	Olives	Allocated to animal feed		true	The quantity that is allocated to feed for livestock.	LineChart	feed__kg_per_capita	olives		true	
 	Onion production	Onions	Production		false		LineChart	production__tonnes	onions		true	
 	Per capita onion production	Onions	Production		true		LineChart	production__kg_per_capita	onions		true	
 	Onion yield	Onions	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	onions		true	
@@ -1155,8 +1165,6 @@ graphers
 	Palm kernel oil used for industrial uses, per capita	Palm kernel oil	Allocated to industrial uses		true	The quantity that is allocated to industrial uses such as biofuel, pharmaceuticals or textile products.	LineChart	other_uses__kg_per_capita	palm_kernel_oil		true	
 	Palm kernel oil waste in supply chains	Palm kernel oil	Waste in supply chains		false	The quantity that is lost or wasted in supply chains through poor handling, spoiling, lack of refrigeration and damage from the field to retail. It does not include consumer waste.	LineChart	waste_in_supply_chain__tonnes	palm_kernel_oil		true	
 	Per capita palm kernel oil waste in supply chains	Palm kernel oil	Waste in supply chains		true	The quantity that is lost or wasted in supply chains through poor handling, spoiling, lack of refrigeration and damage from the field to retail. It does not include consumer waste.	LineChart	waste_in_supply_chain__kg_per_capita	palm_kernel_oil		true	
-	Palm kernel oil used for animal feed	Palm kernel oil	Allocated to animal feed		false	The quantity that is allocated to feed for livestock.	LineChart	feed__tonnes	palm_kernel_oil		true	
-	Palm kernel oil used for animal feed, per capita	Palm kernel oil	Allocated to animal feed		true	The quantity that is allocated to feed for livestock.	LineChart	feed__kg_per_capita	palm_kernel_oil		true	
 	Palm kernel production	Palm kernels	Production		false		LineChart	production__tonnes	palm_kernels		true	
 	Per capita palm kernel production	Palm kernels	Production		true		LineChart	production__kg_per_capita	palm_kernels		true	
 	Per capita palm kernel consumption per year	Palm kernels	Food available for consumption	Kilograms per year	true	This measures the quantity that is available for consumption at the end of the supply chain. It does not account for consumer waste, so the quantity that is actually consumed may be lower than this value.	LineChart	food_available_for_consumption__kg_per_capita_per_year	palm_kernels		true	
@@ -1450,10 +1458,6 @@ graphers
 	Sesame oil used for direct human food, per capita	Sesame oil	Allocated for human food		true	The quantity that is allocated for direct consumption as human food, rather than allocation to animal feed or industrial uses.	LineChart	food__kg_per_capita	sesame_oil		true	
 	Sesame oil used for industrial uses	Sesame oil	Allocated to industrial uses		false	The quantity that is allocated to industrial uses such as biofuel, pharmaceuticals or textile products.	LineChart	other_uses__tonnes	sesame_oil		true	
 	Sesame oil used for industrial uses, per capita	Sesame oil	Allocated to industrial uses		true	The quantity that is allocated to industrial uses such as biofuel, pharmaceuticals or textile products.	LineChart	other_uses__kg_per_capita	sesame_oil		true	
-	Sesame oil waste in supply chains	Sesame oil	Waste in supply chains		false	The quantity that is lost or wasted in supply chains through poor handling, spoiling, lack of refrigeration and damage from the field to retail. It does not include consumer waste.	LineChart	waste_in_supply_chain__tonnes	sesame_oil		true	
-	Per capita sesame oil waste in supply chains	Sesame oil	Waste in supply chains		true	The quantity that is lost or wasted in supply chains through poor handling, spoiling, lack of refrigeration and damage from the field to retail. It does not include consumer waste.	LineChart	waste_in_supply_chain__kg_per_capita	sesame_oil		true	
-	Sesame oil used for animal feed	Sesame oil	Allocated to animal feed		false	The quantity that is allocated to feed for livestock.	LineChart	feed__tonnes	sesame_oil		true	
-	Sesame oil used for animal feed, per capita	Sesame oil	Allocated to animal feed		true	The quantity that is allocated to feed for livestock.	LineChart	feed__kg_per_capita	sesame_oil		true	
 	Sesame seed production	Sesame seed	Production		false		LineChart	production__tonnes	sesame_seed		true	
 	Per capita sesame seed production	Sesame seed	Production		true		LineChart	production__kg_per_capita	sesame_seed		true	
 	Sesame seed yield	Sesame seed	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	sesame_seed		true	
@@ -1477,11 +1481,6 @@ graphers
 	Per capita sesame seed waste in supply chains	Sesame seed	Waste in supply chains		true	The quantity that is lost or wasted in supply chains through poor handling, spoiling, lack of refrigeration and damage from the field to retail. It does not include consumer waste.	LineChart	waste_in_supply_chain__kg_per_capita	sesame_seed		true	
 	Sesame seeds used for animal feed	Sesame seed	Allocated to animal feed		false	The quantity that is allocated to feed for livestock.	LineChart	feed__tonnes	sesame_seed		true	
 	Sesame seeds used for animal feed, per capita	Sesame seed	Allocated to animal feed		true	The quantity that is allocated to feed for livestock.	LineChart	feed__kg_per_capita	sesame_seed		true	
-	Sheep and goat meat production	Sheep and goat meat	Production		false		LineChart	production__tonnes	sheep_and_goat_meat		true	
-	Per capita sheep and goat meat production	Sheep and goat meat	Production		true		LineChart	production__kg_per_capita	sheep_and_goat_meat		true	
-	Animals slaughtered to produce sheep and goat meat	Sheep and goat meat	Animals slaughtered		false		LineChart	producing_or_slaughtered_animals__animals	sheep_and_goat_meat		true	
-	Animals slaughtered per capita to produce sheep and goat meat	Sheep and goat meat	Animals slaughtered		true		LineChart	producing_or_slaughtered_animals__animals_per_capita	sheep_and_goat_meat		true	
-	Sheep and goat meat yield	Sheep and goat meat	Yield		false	Yield is measured as the quantity produced per animal.	LineChart	yield__kg_per_animal	sheep_and_goat_meat		true	
 	Silk production	Silk	Production		false		LineChart	production__tonnes	silk		true	
 	Per capita silk production	Silk	Production		true		LineChart	production__kg_per_capita	silk		true	
 	Goat skin production	Skins, goat	Production		false		LineChart	production__tonnes	skins_goat		true	
@@ -1865,7 +1864,6 @@ table	https://catalog.ourworldindata.org/garden/explorers/2021/food_explorer/ban
 table	https://catalog.ourworldindata.org/garden/explorers/2021/food_explorer/barley.csv	barley
 table	https://catalog.ourworldindata.org/garden/explorers/2021/food_explorer/beans_dry.csv	beans_dry
 table	https://catalog.ourworldindata.org/garden/explorers/2021/food_explorer/beans_green.csv	beans_green
-table	https://catalog.ourworldindata.org/garden/explorers/2021/food_explorer/beef_and_buffalo_meat.csv	beef_and_buffalo_meat
 table	https://catalog.ourworldindata.org/garden/explorers/2021/food_explorer/beeswax.csv	beeswax
 table	https://catalog.ourworldindata.org/garden/explorers/2021/food_explorer/blueberries.csv	blueberries
 table	https://catalog.ourworldindata.org/garden/explorers/2021/food_explorer/brazil_nuts_with_shell.csv	brazil_nuts_with_shell
@@ -1940,6 +1938,7 @@ table	https://catalog.ourworldindata.org/garden/explorers/2021/food_explorer/man
 table	https://catalog.ourworldindata.org/garden/explorers/2021/food_explorer/margarine.csv	margarine
 table	https://catalog.ourworldindata.org/garden/explorers/2021/food_explorer/meat_total.csv	meat_total
 table	https://catalog.ourworldindata.org/garden/explorers/2021/food_explorer/meat_ass.csv	meat_ass
+table	https://catalog.ourworldindata.org/garden/explorers/2021/food_explorer/meat_beef_and_buffalo.csv	meat_beef_and_buffalo
 table	https://catalog.ourworldindata.org/garden/explorers/2021/food_explorer/meat_beef.csv	meat_beef
 table	https://catalog.ourworldindata.org/garden/explorers/2021/food_explorer/meat_buffalo.csv	meat_buffalo
 table	https://catalog.ourworldindata.org/garden/explorers/2021/food_explorer/meat_camel.csv	meat_camel
@@ -1949,11 +1948,12 @@ table	https://catalog.ourworldindata.org/garden/explorers/2021/food_explorer/mea
 table	https://catalog.ourworldindata.org/garden/explorers/2021/food_explorer/meat_goat.csv	meat_goat
 table	https://catalog.ourworldindata.org/garden/explorers/2021/food_explorer/meat_goose_and_guinea_fowl.csv	meat_goose_and_guinea_fowl
 table	https://catalog.ourworldindata.org/garden/explorers/2021/food_explorer/meat_horse.csv	meat_horse
+table	https://catalog.ourworldindata.org/garden/explorers/2021/food_explorer/meat_lamb_and_mutton.csv	meat_lamb_and_mutton
 table	https://catalog.ourworldindata.org/garden/explorers/2021/food_explorer/meat_mule.csv	meat_mule
 table	https://catalog.ourworldindata.org/garden/explorers/2021/food_explorer/meat_pig.csv	meat_pig
 table	https://catalog.ourworldindata.org/garden/explorers/2021/food_explorer/meat_poultry.csv	meat_poultry
 table	https://catalog.ourworldindata.org/garden/explorers/2021/food_explorer/meat_rabbit.csv	meat_rabbit
-table	https://catalog.ourworldindata.org/garden/explorers/2021/food_explorer/meat_sheep.csv	meat_sheep
+table	https://catalog.ourworldindata.org/garden/explorers/2021/food_explorer/meat_sheep_and_goat.csv	meat_sheep_and_goat
 table	https://catalog.ourworldindata.org/garden/explorers/2021/food_explorer/meat_turkey.csv	meat_turkey
 table	https://catalog.ourworldindata.org/garden/explorers/2021/food_explorer/melon.csv	melon
 table	https://catalog.ourworldindata.org/garden/explorers/2021/food_explorer/melonseed.csv	melonseed
@@ -2012,7 +2012,6 @@ table	https://catalog.ourworldindata.org/garden/explorers/2021/food_explorer/saf
 table	https://catalog.ourworldindata.org/garden/explorers/2021/food_explorer/seed_cotton.csv	seed_cotton
 table	https://catalog.ourworldindata.org/garden/explorers/2021/food_explorer/sesame_oil.csv	sesame_oil
 table	https://catalog.ourworldindata.org/garden/explorers/2021/food_explorer/sesame_seed.csv	sesame_seed
-table	https://catalog.ourworldindata.org/garden/explorers/2021/food_explorer/sheep_and_goat_meat.csv	sheep_and_goat_meat
 table	https://catalog.ourworldindata.org/garden/explorers/2021/food_explorer/silk.csv	silk
 table	https://catalog.ourworldindata.org/garden/explorers/2021/food_explorer/skins_goat.csv	skins_goat
 table	https://catalog.ourworldindata.org/garden/explorers/2021/food_explorer/skins_sheep.csv	skins_sheep
@@ -2043,7 +2042,7 @@ table	https://catalog.ourworldindata.org/garden/explorers/2021/food_explorer/whe
 table	https://catalog.ourworldindata.org/garden/explorers/2021/food_explorer/wine.csv	wine
 table	https://catalog.ourworldindata.org/garden/explorers/2021/food_explorer/wool.csv	wool
 table	https://catalog.ourworldindata.org/garden/explorers/2021/food_explorer/yams.csv	yams									
-columns	almonds	animal_fats	apples	apricots	areca_nuts	artichokes	asparagus	avocados	bananas	barley	beans_dry	beans_green	beef_and_buffalo_meat	beeswax	blueberries	brazil_nuts_with_shell	broad_beans	buckwheat	buffalo_hides	butter_and_ghee	cabbages	canary_seed	carrots_and_turnips	cashew_nuts	cassava	castor_oil_seed	cattle_hides	cauliflowers_and_broccoli	cereals	cheese	cherries	chestnut	chickpeas	chillies_and_peppers	citrus_fruit	cocoa_beans	coconut_oil	coconuts	coffee_green	cotton	cottonseed	cottonseed_oil	cow_peas	cranberries	cucumbers_and_gherkins	currants	dates	eggplants	eggs	eggs_from_hens	eggs_from_other_birds_excl_hens	fat_buffaloes	fat_camels	fat_cattle	fat_goats	fat_pigs	fat_sheep	fibre_crops	fish_and_seafood	flax_fibre	fruit	garlic	grapefruit	grapes	green_maize	groundnuts	groundnut_oil	hazelnuts	hempseed	herbs_eg_fennel	honey	jute	karite_nuts	kiwi	kola_nuts	leeks	lemons_and_limes	lentils	lettuce	linseed	linseed_oil	maize	maize_oil	mangoes	margarine	meat_total	meat_ass	meat_beef	meat_buffalo	meat_camel	meat_chicken	meat_duck	meat_game	meat_goat	meat_goose_and_guinea_fowl	meat_horse	meat_mule	meat_pig	meat_poultry	meat_rabbit	meat_sheep	meat_turkey	melon	melonseed	milk	millet	mixed_grains	molasses	mushrooms	mustard_seed	nuts	oats	offals	offals_buffaloes	offals_camels	offals_cattle	offals_goats	offals_horses	offals_pigs	offals_sheep	oilcrops	oilcrops_cake_equivalent	oilcrops_oil_equivalent	okra	olive_oil	olives	onions	oranges	palm_fruit_oil	palm_kernel_oil	palm_kernels	palm_oil	papayas	peaches_and_nectarines	pears	peas_dry	peas_green	pepper	pigeon_peas	pineapples	pistachios	plantains	plums	poppy_seeds	pork	potatoes	pulses	quinoa	rapeseed	rapeseed_oil	raspberries	rice	roots_and_tubers	rye	safflower_oil	safflower_seed	seed_cotton	sesame_oil	sesame_seed	sheep_and_goat_meat	silk	skins_goat	skins_sheep	sorghum	soybean_oil	soybeans	spinach	strawberries	string_beans	sugar_raw	sugar_beet	sugar_cane	sugar_crops	sunflower_oil	sunflower_seed	sweet_potatoes	tangerines	tea	tobacco	tomatoes	total	treenuts	vegetables	walnuts	watermelons	wheat	whey	wine	wool	yams								
+columns	almonds	animal_fats	apples	apricots	areca_nuts	artichokes	asparagus	avocados	bananas	barley	beans_dry	beans_green	beeswax	blueberries	brazil_nuts_with_shell	broad_beans	buckwheat	buffalo_hides	butter_and_ghee	cabbages	canary_seed	carrots_and_turnips	cashew_nuts	cassava	castor_oil_seed	cattle_hides	cauliflowers_and_broccoli	cereals	cheese	cherries	chestnut	chickpeas	chillies_and_peppers	citrus_fruit	cocoa_beans	coconut_oil	coconuts	coffee_green	cotton	cottonseed	cottonseed_oil	cow_peas	cranberries	cucumbers_and_gherkins	currants	dates	eggplants	eggs	eggs_from_hens	eggs_from_other_birds_excl_hens	fat_buffaloes	fat_camels	fat_cattle	fat_goats	fat_pigs	fat_sheep	fibre_crops	fish_and_seafood	flax_fibre	fruit	garlic	grapefruit	grapes	green_maize	groundnuts	groundnut_oil	hazelnuts	hempseed	herbs_eg_fennel	honey	jute	karite_nuts	kiwi	kola_nuts	leeks	lemons_and_limes	lentils	lettuce	linseed	linseed_oil	maize	maize_oil	mangoes	margarine	meat_total	meat_ass	meat_beef_and_buffalo	meat_beef	meat_buffalo	meat_camel	meat_chicken	meat_duck	meat_game	meat_goat	meat_goose_and_guinea_fowl	meat_horse	meat_lamb_and_mutton	meat_mule	meat_pig	meat_poultry	meat_rabbit	meat_sheep_and_goat	meat_turkey	melon	melonseed	milk	millet	mixed_grains	molasses	mushrooms	mustard_seed	nuts	oats	offals	offals_buffaloes	offals_camels	offals_cattle	offals_goats	offals_horses	offals_pigs	offals_sheep	oilcrops	oilcrops_cake_equivalent	oilcrops_oil_equivalent	okra	olive_oil	olives	onions	oranges	palm_fruit_oil	palm_kernel_oil	palm_kernels	palm_oil	papayas	peaches_and_nectarines	pears	peas_dry	peas_green	pepper	pigeon_peas	pineapples	pistachios	plantains	plums	poppy_seeds	pork	potatoes	pulses	quinoa	rapeseed	rapeseed_oil	raspberries	rice	roots_and_tubers	rye	safflower_oil	safflower_seed	seed_cotton	sesame_oil	sesame_seed	silk	skins_goat	skins_sheep	sorghum	soybean_oil	soybeans	spinach	strawberries	string_beans	sugar_raw	sugar_beet	sugar_cane	sugar_crops	sunflower_oil	sunflower_seed	sweet_potatoes	tangerines	tea	tobacco	tomatoes	total	treenuts	vegetables	walnuts	watermelons	wheat	whey	wine	wool	yams								
 	slug	name	type	transform	shortUnit	unit	sourceName	dataPublishedBy	sourceLink
 	Product	Product	String
 	Country	Country	EntityName						
