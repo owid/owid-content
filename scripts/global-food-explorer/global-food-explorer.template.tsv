@@ -1,47 +1,52 @@
-explorerTitle	Global Food Explorer (Prototype)								
+explorerTitle	Global Food Explorer
 explorerSubtitle	Explore the world's food system crop-by-crop from production to plate.
 wpBlockId	46846
 selection	United States	Germany	France	United Kingdom	Brazil	South Africa
 yAxisMin	0
 hasMapTab	true
 tab	map
-graphers									
-$graphers_tsv									
-									
-$table_defs									
-columns	$food_slugs								
+pickerColumnSlugs	Country population production__tonnes production__kg_per_capita producing_or_slaughtered_animals__animals producing_or_slaughtered_animals__animals_per_capita yield__tonnes_per_ha yield__kg_per_animal area_harvested__ha area_harvested__m2_per_capita food_available_for_consumption__kg_per_capita_per_year food_available_for_consumption__g_per_capita_per_day food_available_for_consumption__kcal_per_capita_per_day food_available_for_consumption__protein_g_per_capita_per_day food_available_for_consumption__fat_g_per_capita_per_day imports__tonnes imports__kg_per_capita exports__tonnes exports__kg_per_capita domestic_supply__tonnes domestic_supply__kg_per_capita waste_in_supply_chain__tonnes waste_in_supply_chain__kg_per_capita food__tonnes food__kg_per_capita other_uses__tonnes other_uses__kg_per_capita feed__tonnes feed__kg_per_capita
+graphers
+$graphers_tsv
+
+$table_defs
+columns	$food_slugs
 	slug	name	type	transform	shortUnit	unit	sourceName	dataPublishedBy	sourceLink
 	Product	Product	String
 	Country	Country	EntityName						
 	Year	Year	Year						
 	population	Population	Population						
-	production__tonnes	Production (t)	Numeric		t	tonnes	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/QCL
+	production__tonnes	Production (t)	Integer		t	tonnes	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/QCL
 	production__tonnes_per_capita		Numeric	production__tonnes divideBy population	t	tonnes	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/QCL
 	production__kg_per_capita	Production per capita (kg)	Numeric	multiplyBy production__tonnes_per_capita 1000	kg	kilograms	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/QCL
 	yield__tonnes_per_ha	Yield (t/ha)	Numeric		t/ha	tonnes per hectare	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/QCL
 	yield__kg_per_animal	Yield (kg/animal)	Numeric		kg/animal	kilograms per animal	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/QCL
-	area_harvested__ha	Land Use (ha)	Numeric		ha	hectares	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/QCL
-	imports__tonnes	Imports (t)	Numeric		t	tonnes	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/FBS, https://www.fao.org/faostat/en/#data/FBSH
+	area_harvested__ha	Land Use (ha)	Integer		ha	hectares	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/QCL
+	area_harvested__ha_per_capita		Numeric	area_harvested__ha divideBy population	ha	hectares	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/QCL
+	area_harvested__m2_per_capita	Land Use per capita (m²)	Numeric	multiplyBy area_harvested__ha_per_capita 10000	m²	square metres	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/QCL
+	producing_or_slaughtered_animals__animals	Producing or slaughtered animals	Integer				UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/QCL
+	producing_or_slaughtered_animals__animals_per_capita	Producing or slaughtered animals per capita	Numeric	producing_or_slaughtered_animals__animals divideBy population			UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/QCL
+	imports__tonnes	Imports (t)	Integer		t	tonnes	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/FBS, https://www.fao.org/faostat/en/#data/FBSH
 	imports__tonnes_per_capita		Numeric	imports__tonnes divideBy population	t	tonnes	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/FBS, https://www.fao.org/faostat/en/#data/FBSH
 	imports__kg_per_capita	Imports per capita (kg)	Numeric	multiplyBy imports__tonnes_per_capita 1000	kg	kilograms	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/FBS, https://www.fao.org/faostat/en/#data/FBSH
-	exports__tonnes	Exports (t)	Numeric		t	tonnes	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/FBS, https://www.fao.org/faostat/en/#data/FBSH
+	exports__tonnes	Exports (t)	Integer		t	tonnes	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/FBS, https://www.fao.org/faostat/en/#data/FBSH
 	exports__tonnes_per_capita		Numeric	exports__tonnes divideBy population	t	tonnes	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/FBS, https://www.fao.org/faostat/en/#data/FBSH
 	exports__kg_per_capita	Exports per capita (kg)	Numeric	multiplyBy exports__tonnes_per_capita 1000	kg	kilograms	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/FBS, https://www.fao.org/faostat/en/#data/FBSH
-	domestic_supply__tonnes	Domestic supply (t)	Numeric		t	tonnes	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/FBS, https://www.fao.org/faostat/en/#data/FBSH
+	domestic_supply__tonnes	Domestic supply (t)	Integer		t	tonnes	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/FBS, https://www.fao.org/faostat/en/#data/FBSH
 	domestic_supply__tonnes_per_capita		Numeric	domestic_supply__tonnes divideBy population	t	tonnes	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/FBS, https://www.fao.org/faostat/en/#data/FBSH
 	domestic_supply__kg_per_capita	Domestic supply per capita (kg)	Numeric	multiplyBy domestic_supply__tonnes_per_capita 1000	kg	kilograms	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/FBS, https://www.fao.org/faostat/en/#data/FBSH
-	food__tonnes	Food (t)	Numeric		t	tonnes	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/FBS, https://www.fao.org/faostat/en/#data/FBSH
+	food__tonnes	Food (t)	Integer		t	tonnes	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/FBS, https://www.fao.org/faostat/en/#data/FBSH
 	food__tonnes_per_capita		Numeric	food__tonnes divideBy population	t	tonnes	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/FBS, https://www.fao.org/faostat/en/#data/FBSH
 	food__kg_per_capita	Food per capita (kg)	Numeric	multiplyBy food__tonnes_per_capita 1000	kg	kilograms	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/FBS, https://www.fao.org/faostat/en/#data/FBSH
-	feed__tonnes	Animal feed (t)	Numeric		t	tonnes	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/FBS, https://www.fao.org/faostat/en/#data/FBSH
+	feed__tonnes	Animal feed (t)	Integer		t	tonnes	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/FBS, https://www.fao.org/faostat/en/#data/FBSH
 	feed__tonnes_per_capita		Numeric	feed__tonnes divideBy population	t	tonnes	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/FBS, https://www.fao.org/faostat/en/#data/FBSH
 	feed__kg_per_capita	Animal feed per capita (kg)	Numeric	multiplyBy feed__tonnes_per_capita 1000	kg	kilograms	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/FBS, https://www.fao.org/faostat/en/#data/FBSH
-	other_uses__tonnes	Other uses (t)	Numeric		t	tonnes	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/FBS, https://www.fao.org/faostat/en/#data/FBSH
+	other_uses__tonnes	Other uses (t)	Integer		t	tonnes	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/FBS, https://www.fao.org/faostat/en/#data/FBSH
 	other_uses__tonnes_per_capita		Numeric	other_uses__tonnes divideBy population	t	tonnes	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/FBS, https://www.fao.org/faostat/en/#data/FBSH
 	other_uses__kg_per_capita	Other uses per capita (kg)	Numeric	multiplyBy other_uses__tonnes_per_capita 1000	kg	kilograms	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/FBS, https://www.fao.org/faostat/en/#data/FBSH
-	waste__tonnes	Waste (t)	Numeric		t	tonnes	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/FBS, https://www.fao.org/faostat/en/#data/FBSH
-	waste__tonnes_per_capita		Numeric	waste__tonnes divideBy population	t	tonnes	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/FBS, https://www.fao.org/faostat/en/#data/FBSH
-	waste__kg_per_capita	Waste per capita (kg)	Numeric	multiplyBy waste__tonnes_per_capita 1000	kg	kilograms	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/FBS, https://www.fao.org/faostat/en/#data/FBSH
+	waste_in_supply_chain__tonnes	Supply chain waste (t)	Integer		t	tonnes	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/FBS, https://www.fao.org/faostat/en/#data/FBSH
+	waste_in_supply_chain__tonnes_per_capita		Numeric	waste_in_supply_chain__tonnes divideBy population	t	tonnes	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/FBS, https://www.fao.org/faostat/en/#data/FBSH
+	waste_in_supply_chain__kg_per_capita	Supply chain waste per capita (kg)	Numeric	multiplyBy waste_in_supply_chain__tonnes_per_capita 1000	kg	kilograms	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/FBS, https://www.fao.org/faostat/en/#data/FBSH
 	food_available_for_consumption__kg_per_year		Numeric		kg	kilograms	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/FBS, https://www.fao.org/faostat/en/#data/FBSH
 	food_available_for_consumption__kg_per_capita_per_year	Food supply (kg per capita per year)	Numeric	divideBy food_available_for_consumption__kg_per_year population	kg	kilograms	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/FBS, https://www.fao.org/faostat/en/#data/FBSH
 	food_available_for_consumption__g_per_day		Numeric	multiplyBy food_available_for_consumption__kg_per_year 2.7397260	g	grams	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/FBS, https://www.fao.org/faostat/en/#data/FBSH	# 1000 / 365 = 2.7397260 (1000g/kg, 365 days/year)
