@@ -49,15 +49,15 @@ def table_def(food):
 # %%
 with open('global-food-explorer.template.tsv', 'r') as templateFile:
     template = Template(templateFile.read())
-foods_df = pd.read_csv('foods.tsv', sep='\t', index_col='slug')
-views_df = pd.read_csv('views-per-food.tsv', sep='\t', dtype=str)
+foods_df = pd.read_csv('foods.csv', index_col='slug')
+views_df = pd.read_csv('views-per-food.csv', dtype=str)
 
 print(f"🥝 Read {len(foods_df.index)} fruits")
 print(f"📑 Read {len(views_df.index)} different views")
 
 # %%
 # convert comma-separated list of tags to an actual list, such that we can explode and merge by tag
-views_df['_tags'] = views_df['_tags'].apply(lambda x: x.split(','))
+views_df['_tags'] = views_df['_tags'].apply(lambda x: x.split(' '))
 views_df = views_df.explode('_tags').rename(
     columns={'_tags': '_tag'})
 views_df['_tag'] = views_df['_tag'].str.strip()
@@ -73,7 +73,7 @@ foods_rename = {
 foods_rename = {k: v for k, v in foods_rename.items() if v is not None}
 
 foods = foods_df.reset_index()[foods_rename].rename(columns=foods_rename)
-foods['_tags'] = foods['_tags'].apply(lambda x: x.split(','))
+foods['_tags'] = foods['_tags'].apply(lambda x: x.split(' '))
 foods = foods.explode('_tags').rename(columns={'_tags': '_tag'})
 
 food_tags = set(foods['_tag'])
