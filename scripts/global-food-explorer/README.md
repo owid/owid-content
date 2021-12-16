@@ -9,7 +9,7 @@ Set it up using `poetry install` and run it using `poetry run python global-food
 
 There is also a GitHub action set up that will automatically generate the explorer config for every Pull Request or push to `staging` or `master`.
 
-## `foods.tsv`
+## `foods.csv`
 
 This file defines all food products that will be available in the explorer.
 We have the following columns:
@@ -22,19 +22,19 @@ We have the following columns:
 | `plural`   | The plural form of the food product, as used in titles. It should be in title case (i.e. written as seen in the beginning of a sentence) and should fit in a sentence such as `Domestic supply of [...]`.         |
 | `_tags`    | The tags of this food product. This entry determines which views to show for this food product. See [Tags](#Tags) below.                                                                                          |
 
-## `views-per-food.tsv`
+## `views-per-food.csv`
 
 This file determines which views will be available for different food products.
 It follows the same syntax as the `graphers` section of an explorer spreadsheet.
 Additionally, the `title` and `subtitle` columns support the following placeholders for the particular food name:
 
-- `${food_singular}` will be replaced by the singular version of the word as written in `foods.tsv`, i.e. starting with an uppercase letter.
+- `${food_singular}` will be replaced by the singular version of the word as written in `foods.csv`, i.e. starting with an uppercase letter.
   - Example: `${food_singular} production` → `Apple production`
-- `${food_singular_lower}` will be replaced by the lowercase version of the singular given in `foods.tsv`.
+- `${food_singular_lower}` will be replaced by the lowercase version of the singular given in `foods.csv`.
   - Example: `Land used for ${food_singular_lower} production` → `Land used for apple production`
-- `${food_plural}` will be replaced by the plural version of the word as written in `foods.tsv`, i.e. starting with an uppercase letter.
+- `${food_plural}` will be replaced by the plural version of the word as written in `foods.csv`, i.e. starting with an uppercase letter.
   - Example: `${food_plural} used for animal feed` → `Apples used for animal feed`
-- `${food_plural_lower}` will be replaced by the lowercase version of the plural given in `foods.tsv`.
+- `${food_plural_lower}` will be replaced by the lowercase version of the plural given in `foods.csv`.
   - Example: `Domestic supply of ${food_plural_lower}` → `Domestic supply of apples`
 
 Additionally, there is a special `_tags` column that will not be part of the output `.explorer.tsv` file.
@@ -52,11 +52,11 @@ In this template file, the boilerplate gluing the whole explorer spreadsheet tog
 
 # Tags
 
-Both the `foods.tsv` and `views-per-food.tsv` files have a special `_tags` column.
+Both the `foods.csv` and `views-per-food.csv` files have a special `_tags` column.
 In this, a comma-separated list of tags can be given that specifies which view will be available for which food product.
 Let's see how this works based on an example:
 
-`foods.tsv`
+`foods.csv`
 
 | \_tags             | slug        |
 | :----------------- | :---------- |
@@ -64,7 +64,7 @@ Let's see how this works based on an example:
 | qcl,animal-product | meat_rabbit |
 | fbsc,crop          | barley      |
 
-`views_per_food.tsv`
+`views_per_food.csv`
 
 | \_tags         | title             |
 | :------------- | :---------------- |
