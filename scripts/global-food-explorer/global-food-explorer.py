@@ -20,9 +20,12 @@ default_view = '`Food Dropdown` == "Maize (Corn)" and `Metric Dropdown` == "Prod
 
 # %%
 
+# BASE_URI = 'https://catalog.ourworldindata.org'  # CDN
+BASE_URI = "https://owid-catalog.nyc3.digitaloceanspaces.com"  # origin
+
 
 def food_url(food):
-    return f"https://catalog.ourworldindata.org/garden/explorers/2021/food_explorer/{food}.csv"
+    return f"{BASE_URI}/garden/explorers/2021/food_explorer/{food}.csv"
 
 
 def substitute_title(row):
