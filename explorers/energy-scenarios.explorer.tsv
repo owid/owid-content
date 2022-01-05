@@ -6,7 +6,7 @@ hideAlertBanner	true
 subNavId
 entityType	energy source
 hasMapTab	true
-table	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Energy%20land%20use%20scenario%20analysis/Energy%20land%20use%20scenario%20analysis.csv	energy
+table	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Energy%20land%20use%20scenario%20analysis%20(OWID%20based%20on%20UNECE%20and%20EMBER)/Energy%20land%20use%20scenario%20analysis%20(OWID%20based%20on%20UNECE%20and%20EMBER).csv	energy
 hideTitleAnnotation	true
 graphers
 	title	subtitle	Electricity source Dropdown	Absolute or Share Radio	tableSlug	ySlugs	yScaleToggle	xSlug	baseColorScheme	type	hasMapTab	grapherId	sourceDesc	yAxisMin
