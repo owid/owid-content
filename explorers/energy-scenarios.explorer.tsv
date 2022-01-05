@@ -9,27 +9,27 @@ hasMapTab	true
 table	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Energy%20land%20use%20scenario%20analysis/Energy%20land%20use%20scenario%20analysis.csv	energy
 hideTitleAnnotation	true
 graphers
-	title	subtitle	Electricity source Dropdown	Absolute or Share Radio	tableSlug	ySlugs	yScaleToggle	xSlug	baseColorScheme	type	hasMapTab	grapherId	sourceDesc	note
-	Estimated share of land used for electricity production		Actual electricity mix	Share of land area	energy	land_actual_total_share	false		owid-distinct	LineChart	true
-	Share of land needed for electricity production if all of of it came from coal		All from coal	Share of land area	energy	land_all_coal_share	false		owid-distinct	LineChart	true
-	Share of land needed for electricity production if all of of it came from gas		All from gas	Share of land area	energy	land_all_gas_share	false		owid-distinct	LineChart	true
-	Share of land needed for electricity production if all of of it came from nuclear		All from nuclear	Share of land area	energy	land_all_nuclear_share	false		owid-distinct	LineChart	true
-	Share of land needed for electricity production if all of of it came from large hydro		All from large hydro	Share of land area	energy	land_all_large_hydro_share	false		owid-distinct	LineChart	true
-	Share of land needed for electricity production if all of of it came from small hydro		All from small hydro	Share of land area	energy	land_all_small_hydro_share	false		owid-distinct	LineChart	true
-	Share of land needed for electricity production if all of of it came from silicon solar		All from solar (silicon)	Share of land area	energy	land_all_solar_silicon_share	false		owid-distinct	LineChart	true
-	Share of land needed for electricity production if all of of it came from cadmium solar		All from solar (cadmium)	Share of land area	energy	land_all_solar_cadmium_share	false		owid-distinct	LineChart	true
-	Share of land needed for electricity production if all of of it came from wind		All from wind	Share of land area	energy	land_all_wind_share	false		owid-distinct	LineChart	true
-			Compare all sources	Share of land area
-	Estimated land area used for electricity production		Actual electricity mix	Square kilometers (km2)	energy	land_actual_total	false		owid-distinct	LineChart	true
-	Land needed for electricity production if all of of it came from coal		All from coal	Square kilometers (km2)	energy	land_all_coal	false		owid-distinct	LineChart	true
-	Land needed for electricity production if all of of it came from gas		All from gas	Square kilometers (km2)	energy	land_all_gas	false		owid-distinct	LineChart	true
-	Land needed for electricity production if all of of it came from nuclear		All from nuclear	Square kilometers (km2)	energy	land_all_nuclear	false		owid-distinct	LineChart	true
-	Land needed for electricity production if all of of it came from large hydro		All from large hydro	Square kilometers (km2)	energy	land_all_large_hydro	false		owid-distinct	LineChart	true
-	Land needed for electricity production if all of of it came from small hydro		All from small hydro	Square kilometers (km2)	energy	land_all_small_hydro	false		owid-distinct	LineChart	true
-	Land needed for electricity production if all of of it came from silicon solar		All from solar (silicon)	Square kilometers (km2)	energy	land_all_solar_silicon	false		owid-distinct	LineChart	true
-	Land needed for electricity production if all of of it came from cadmium solar		All from solar (cadmium)	Square kilometers (km2)	energy	land_all_solar_cadmium	false		owid-distinct	LineChart	true
-	Land needed for electricity production if all of of it came from wind		All from wind	Square kilometers (km2)	energy	land_all_wind	false		owid-distinct	LineChart	true
-			Compare all sources	Square kilometers (km2)
+	title	subtitle	Electricity source Dropdown	Absolute or Share Radio	tableSlug	ySlugs	yScaleToggle	xSlug	baseColorScheme	type	hasMapTab	grapherId	sourceDesc	yAxisMin
+	Estimated share of land used for electricity production		Actual electricity mix	Share of land area	energy	land_actual_total_share	false		owid-distinct	LineChart	true			0
+	Share of land needed for electricity production if all of of it came from coal		All from coal	Share of land area	energy	land_all_coal_share	false		owid-distinct	LineChart	true			0
+	Share of land needed for electricity production if all of of it came from gas		All from gas	Share of land area	energy	land_all_gas_share	false		owid-distinct	LineChart	true			0
+	Share of land needed for electricity production if all of of it came from nuclear		All from nuclear	Share of land area	energy	land_all_nuclear_share	false		owid-distinct	LineChart	true			0
+	Share of land needed for electricity production if all of of it came from large hydro		All from large hydro	Share of land area	energy	land_all_large_hydro_share	false		owid-distinct	LineChart	true			0
+	Share of land needed for electricity production if all of of it came from small hydro		All from small hydro	Share of land area	energy	land_all_small_hydro_share	false		owid-distinct	LineChart	true			0
+	Share of land needed for electricity production if all of of it came from silicon solar		All from solar (silicon)	Share of land area	energy	land_all_solar_silicon_share	false		owid-distinct	LineChart	true			0
+	Share of land needed for electricity production if all of of it came from cadmium solar		All from solar (cadmium)	Share of land area	energy	land_all_solar_cadmium_share	false		owid-distinct	LineChart	true			0
+	Share of land needed for electricity production if all of of it came from wind		All from wind	Share of land area	energy	land_all_wind_share	false		owid-distinct	LineChart	true			0
+			Compare all sources	Share of land area								5471
+	Estimated land area used for electricity production		Actual electricity mix	Square kilometers (km²)	energy	land_actual_total	false		owid-distinct	LineChart	true			0
+	Land needed for electricity production if all of of it came from coal		All from coal	Square kilometers (km²)	energy	land_all_coal	false		owid-distinct	LineChart	true			0
+	Land needed for electricity production if all of of it came from gas		All from gas	Square kilometers (km²)	energy	land_all_gas	false		owid-distinct	LineChart	true			0
+	Land needed for electricity production if all of of it came from nuclear		All from nuclear	Square kilometers (km²)	energy	land_all_nuclear	false		owid-distinct	LineChart	true			0
+	Land needed for electricity production if all of of it came from large hydro		All from large hydro	Square kilometers (km²)	energy	land_all_large_hydro	false		owid-distinct	LineChart	true			0
+	Land needed for electricity production if all of of it came from small hydro		All from small hydro	Square kilometers (km²)	energy	land_all_small_hydro	false		owid-distinct	LineChart	true			0
+	Land needed for electricity production if all of of it came from silicon solar		All from solar (silicon)	Square kilometers (km²)	energy	land_all_solar_silicon	false		owid-distinct	LineChart	true			0
+	Land needed for electricity production if all of of it came from cadmium solar		All from solar (cadmium)	Square kilometers (km²)	energy	land_all_solar_cadmium	false		owid-distinct	LineChart	true			0
+	Land needed for electricity production if all of of it came from wind		All from wind	Square kilometers (km²)	energy	land_all_wind	false		owid-distinct	LineChart	true			0
+			Compare all sources	Square kilometers (km²)
 
 columns	energy
 	slug	name	type	unit	shortUnit	transform	annotationsColumnSlug	notes	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo	tolerance	colorScaleNumericMinValue
