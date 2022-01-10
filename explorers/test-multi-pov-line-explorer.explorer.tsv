@@ -1,0 +1,34 @@
+explorerTitle	Test basic poverty explorer
+table	https://docs.google.com/spreadsheets/d/1qPVZBqaVDa1zeSy2sJhNwpUkf2oCSQ6uqftEB4dCmAI/export?format=csv	bulk_upload
+hasMapTab	true
+selection	India	China	Nigeria	Vietnam	South Sudan	Madagascar	Bangladesh	World
+tab	map
+isPublished	true
+googleSheet	https://docs.google.com/spreadsheets/d/15SBkiGkK09IXH_Nodox-VKnKkmH1TcE6dUqh7QctjnU/edit#gid=1738264853
+
+
+graphers
+	title	subtitle	Metric Radio	$1 Checkbox	$1.90 Checkbox	$3.20 Checkbox	$5.50 Checkbox	$10 Checkbox	$20 Checkbox	$30 Checkbox	tableSlug	ySlugs	yScaleToggle	type	hasMapTab	tab	note	sourceDesc
+	Share living on less than 1 int.-$ per day	Figures relate to household income or consumption per person, measured in international-$ (in 2011 PPP prices) to account for price differences across countries and inflation over time.	Share in poverty	True	False	False	False	False	False	False	bulk_upload	_1_00_per_day_share_of_population_below_poverty_line	false	LineChart	true	map		World Bank PovcalNet
+	Share living on less than 1 int.-$ per day	Figures relate to household income or consumption per person, measured in international-$ (in 2011 PPP prices) to account for price differences across countries and inflation over time.	Share in poverty	True	False	False	False	False	False	False	bulk_upload	_1_00_per_day_share_of_population_below_poverty_line	false	LineChart	true	map		World Bank PovcalNet
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+columns	bulk_upload
+	slug	name	type	unit	shortUnit	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme	transform	sourceName	dataPublishedBy	sourceLink	retrievedDate
+	_1_00_per_day_share_of_population_below_poverty_line	Share living on less than 1 int.-$ per day	Numeric	%	%	5,,;10,,;20,,;30,,;40,,;50,,;60,,;70,,;80,,;90,,;100,,;		YlOrRd		World Bank PovcalNet	PovcalNet: the on-line tool for poverty measurement developed by the Development Research Group of the World Bank.	http://iresearch.worldbank.org/PovcalNet/	March 2021
