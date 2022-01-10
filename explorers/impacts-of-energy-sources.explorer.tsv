@@ -1,7 +1,7 @@
 explorerTitle	Data Explorer: Impacts of Energy Production
 explorerSubtitle	Explore resource; environmental and health impacts of electricity sources.
 isPublished	false
-selection	Coal	Gas	Nuclear	Onshore wind	Offshore wind	Small hydro (360 MW)	Large hydro (660 MW)	Solar PV (silicon, on-ground)	Solar PV (silicon, roof)
+selection	Coal	Gas	Nuclear	Onshore wind	Offshore wind	Small hydro (360 MW)	Large hydro (660 MW)	Solar PV (silicon, on-ground)	Solar PV (cadmium, on-ground)
 explorerSubtitle
 hideAlertBanner	true
 subNavId
