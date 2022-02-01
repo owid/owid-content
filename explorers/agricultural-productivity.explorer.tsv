@@ -10,23 +10,23 @@ table	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Agric
 hideTitleAnnotation	true
 graphers
 	title	subtitle	Inputs, Output or Productivity Radio	Metric Dropdown	tableSlug	ySlugs	yScaleToggle	xSlug	baseColorScheme	type	hasMapTab	grapherId	sourceDesc	note
-			Inputs	Index	inputs		true		owid-distinct	LineChart	true
-			Outputs	Index	output		true		owid-distinct	LineChart	true
-			Productivity Index		tfp		true		owid-distinct	LineChart	true
-			Outputs	Total output	output_quantity		true		owid-distinct	LineChart	true
-			Outputs	Crop output	crop_output_quantity		true		owid-distinct	LineChart	true
-			Outputs	Animal product output	animal_output_quantity		true		owid-distinct	LineChart	true
-			Outputs	Fish output	fish_output_quantity		true		owid-distinct	LineChart	true
-			Inputs	Agricultural land	ag_land_quantity		true		owid-distinct	LineChart	true
-			Inputs	Labor	labor_quantity		true		owid-distinct	LineChart	true
-			Inputs	Capital	capital_quantity		true		owid-distinct	LineChart	true
-			Inputs	Machinery	machinery_quantity		true		owid-distinct	LineChart	true
-			Inputs	Livestock	livestock_quantity		true		owid-distinct	LineChart	true
-			Inputs	Fertilizer	fertilizer_quantity		true		owid-distinct	LineChart	true
-			Inputs	Animal feed	animal_feed_quantity		true		owid-distinct	LineChart	true
-			Inputs	Cropland	cropland_quantity		true		owid-distinct	LineChart	true
-			Inputs	Pasture	pasture_quantity		true		owid-distinct	LineChart	true
-			Inputs	Area equipped for irrigation	irrigation_quantity		true		owid-distinct	LineChart	true
+			Inputs	Index	agri	inputs	true		owid-distinct	LineChart	true
+			Outputs	Index	agri	output	true		owid-distinct	LineChart	true
+			Productivity Index		agri	tfp	true		owid-distinct	LineChart	true
+			Outputs	Total output	agri	output_quantity	true		owid-distinct	LineChart	true
+			Outputs	Crop output	agri	crop_output_quantity	true		owid-distinct	LineChart	true
+			Outputs	Animal product output	agri	animal_output_quantity	true		owid-distinct	LineChart	true
+			Outputs	Fish output	agri	fish_output_quantity	true		owid-distinct	LineChart	true
+			Inputs	Agricultural land	agri	ag_land_quantity	true		owid-distinct	LineChart	true
+			Inputs	Labor	agri	labor_quantity	true		owid-distinct	LineChart	true
+			Inputs	Capital	agri	capital_quantity	true		owid-distinct	LineChart	true
+			Inputs	Machinery	agri	machinery_quantity	true		owid-distinct	LineChart	true
+			Inputs	Livestock	agri	livestock_quantity	true		owid-distinct	LineChart	true
+			Inputs	Fertilizer	agri	fertilizer_quantity	true		owid-distinct	LineChart	true
+			Inputs	Animal feed	agri	animal_feed_quantity	true		owid-distinct	LineChart	true
+			Inputs	Cropland	agri	cropland_quantity	true		owid-distinct	LineChart	true
+			Inputs	Pasture	agri	pasture_quantity	true		owid-distinct	LineChart	true
+			Inputs	Area equipped for irrigation	agri	irrigation_quantity	true		owid-distinct	LineChart	true
 
 columns	agri
 	slug	name	type	unit	shortUnit	transform	annotationsColumnSlug	notes	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo	tolerance	colorScaleNumericMinValue
