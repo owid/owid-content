@@ -4,8 +4,8 @@ googleSheet	https://docs.google.com/spreadsheets/d/14QrLM9sRajoIZywaAttPt-Fm44-i
 selection	India	United States	Italy	United Kingdom	Nigeria	Sri Lanka	Brazil	Peru	Angola
 explorerSubtitle	Explore crop yields across the world.
 hideAlertBanner	true
-subNavId
-subNavCurrentId
+subNavId	explorers
+subNavCurrentId	crop-yields
 hasMapTab	true
 yAxisMin	0
 table	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Attainable%20yields%20(Mueller%20et%20al.%202012)/Attainable%20yields%20(Mueller%20et%20al.%202012).csv	attainable
