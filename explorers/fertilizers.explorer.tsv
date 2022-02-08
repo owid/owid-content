@@ -3,8 +3,8 @@ isPublished	true
 entityType	country
 explorerSubtitle	Explore the use and impact of fertilizers across the world.
 selection	United States	China	Egypt	India	France	Brazil
-subNavId
-subNavCurrentId
+subNavId	explorers
+subNavCurrentId	fertilizers
 wpBlockId
 tab	map
 graphers
