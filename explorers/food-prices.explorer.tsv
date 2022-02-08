@@ -2,8 +2,8 @@ explorerTitle	Food Prices Data Explorer
 isPublished	true
 explorerSubtitle	Explore the cost and affordability of diets across the world.
 selection	Nigeria	Bangladesh	India	Ethiopia	Mexico	United States	Brazil	United Kingdom
-subNavId
-subNavCurrentId
+subNavId	explorers
+subNavCurrentId	food-prices
 wpBlockId
 tab	map
 graphers
