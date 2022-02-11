@@ -1,0 +1,135 @@
+explorerTitle	Data Explorer: IPCC Scenarios
+explorerSubtitle
+isPublished	false
+selection	SSP1-Baseline	SSP2-Baseline	SSP3-Baseline	SSP4-Baseline	SSP5-Baseline
+explorerSubtitle
+hideAlertBanner	true
+subNavId
+wpBlockId
+entityType	scenario
+hasMapTab	false
+table	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/IPCC%20Scenarios%20(IIASA)/IPCC%20Scenarios%20(IIASA).csv	ipcc
+hideTitleAnnotation	true
+graphers
+	title	subtitle	Metric Dropdown	Sub-metric Dropdown	Per capita Checkbox	tableSlugs	ySlugs	yScaleToggle	xSlug	baseColorScheme	type	hasMapTab	grapherId	sourceDesc	note
+	Population		Population		false	ipcc	population
+	Total gross domestic product (GDP)		GDP		false	ipcc	gdp
+	GDP per capita		GDP		true	ipcc	gdp_per_capita
+	Temperature increase		Temperature increase		false	ipcc	temp
+	Radiative forcing		Radiative forcing	Total radiative forcing	false	ipcc	forcing
+			Radiative forcing	Forcing from CO2	false	ipcc	forcing_co2
+			Radiative forcing	Forcing from CH4	false	ipcc	forcing_ch4
+			Radiative forcing	Forcing from N2O	false	ipcc	forcing_n2o
+			Radiative forcing	Forcing from F-gases	false	ipcc	forcing_fgases
+			Radiative forcing	Forcing from aerosols	false	ipcc	forcing_aerosols
+			Greenhouse gas concentrations	Carbon dioxide (CO2)		ipcc	concentration_ch4
+			Greenhouse gas concentrations	Methane (CH4)		ipcc	concentration_co2
+			Greenhouse gas concentrations	Nitrous oxide (N2O)		ipcc	concentration_n2o
+			Emissions			ipcc
+			Emissions			ipcc
+			Emissions			ipcc
+			Emissions
+
+
+
+columns	ipcc
+	slug	name	type	unit	shortUnit	transform	annotationsColumnSlug	notes	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo	tolerance	colorScaleNumericMinValue
+	agri_demand_crops
+	agri_demand_energycrops
+	agri_demand_livestock
+	agri_prod_crops_energy
+	agri_prod_crops_nonenergy
+	agri_prod_livestock
+	carbon_price
+	concentration_ch4
+	concentration_co2
+	concentration_n2o
+	econ_consumption
+	elec_capacity
+	elec_capacity_biomass
+	elec_capacity_coal
+	elec_capacity_csp
+	elec_capacity_gas
+	elec_capacity_geothermal
+	elec_capacity_hydro
+	elec_capacity_nuclear
+	elec_capacity_offshorewind
+	elec_capacity_oil
+	elec_capacity_onshorewind
+	elec_capacity_other
+	elec_capacity_solar
+	elec_capacity_solarpv
+	elec_capacity_wind
+	emissions_blackcarbon
+	emissions_ch4
+	emissions_ch4_fossil
+	emissions_ch4_land
+	emissions_co
+	emissions_co2
+	emissions_co2_beccs
+	emissions_co2_ccs
+	emissions_co2_fossil
+	emissions_co2_land
+	emissions_fgas
+	emissions_kyotogas
+	emissions_n2o
+	emissions_n2o_land
+	emissions_nh3
+	emissions_nox
+	emissions_oc
+	emissions_sulfur
+	emissions_voc
+	energy_transport_freight
+	energy_transport_passenger
+	final_energy
+	final_energy_biomass
+	final_energy_coal
+	final_energy_elec
+	final_energy_gases
+	final_energy_heat
+	final_energy_hydrogen
+	final_energy_industry
+	final_energy_liquids
+	final_energy_residentialcommercial
+	final_energy_solar
+	final_energy_solids
+	final_energy_traditionalbiomass
+	final_energy_transport
+	forcing
+	forcing_aerosol
+	forcing_ch4
+	forcing_co2
+	forcing_fgases
+	forcing_kyoto
+	forcing_n2o
+	gdp
+	land_cropland
+	land_forest
+	land_pasture
+	land_urban
+	population
+	primary_energy
+	primary_energy_biomass
+	primary_energy_biomass_ccs
+	primary_energy_biomass_no_ccs
+	primary_energy_coal
+	primary_energy_coal_ccs
+	primary_energy_coal_no_ccs
+	primary_energy_fossil
+	primary_energy_fossil_ccs
+	primary_energy_fossil_no_ccs
+	primary_energy_gas
+	primary_energy_gas_ccs
+	primary_energy_geothermal
+	primary_energy_hydro
+	primary_energy_no_ccs
+	primary_energy_nonbio_renewables
+	primary_energy_nuclear
+	primary_energy_oil
+	primary_energy_oil_ccs
+	primary_energy_oil_no_ccs
+	primary_energy_other
+	primary_energy_solar
+	primary_energy_tradbiomass
+	primary_energy_wind
+	temp
