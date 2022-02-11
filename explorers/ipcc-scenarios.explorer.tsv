@@ -11,26 +11,81 @@ hasMapTab	false
 table	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/IPCC%20Scenarios%20(IIASA)/IPCC%20Scenarios%20(IIASA).csv	ipcc
 hideTitleAnnotation	true
 graphers
-	title	subtitle	Metric Dropdown	Sub-metric Dropdown	Per capita Checkbox	tableSlugs	ySlugs	yScaleToggle	xSlug	baseColorScheme	type	hasMapTab	grapherId	sourceDesc	note
-	Population		Population		false	ipcc	population
-	Total gross domestic product (GDP)		GDP		false	ipcc	gdp
-	GDP per capita		GDP		true	ipcc	gdp_per_capita
-	Temperature increase		Temperature increase		false	ipcc	temp
-	Radiative forcing		Radiative forcing	Total radiative forcing	false	ipcc	forcing
-			Radiative forcing	Forcing from CO2	false	ipcc	forcing_co2
-			Radiative forcing	Forcing from CH4	false	ipcc	forcing_ch4
-			Radiative forcing	Forcing from N2O	false	ipcc	forcing_n2o
-			Radiative forcing	Forcing from F-gases	false	ipcc	forcing_fgases
-			Radiative forcing	Forcing from aerosols	false	ipcc	forcing_aerosols
-			Greenhouse gas concentrations	Carbon dioxide (CO2)		ipcc	concentration_ch4
-			Greenhouse gas concentrations	Methane (CH4)		ipcc	concentration_co2
-			Greenhouse gas concentrations	Nitrous oxide (N2O)		ipcc	concentration_n2o
-			Emissions			ipcc
-			Emissions			ipcc
-			Emissions			ipcc
-			Emissions
-
-
+	title	subtitle	Metric Dropdown	Sub-metric Dropdown	Per capita Checkbox	tableSlugs	ySlugs	yScaleToggle	yAxisMin	xSlug	baseColorScheme	type	hasMapTab	grapherId	sourceDesc	note
+	Population		Population		false	ipcc	population		0
+	Total gross domestic product (GDP)		GDP		false	ipcc	gdp		0
+	GDP per capita		GDP		true	ipcc	gdp_per_capita		0
+	Temperature increase		Temperature increase		false	ipcc	temp		0
+	Radiative forcing		Radiative forcing	Total radiative forcing	false	ipcc	forcing		0
+			Radiative forcing	Forcing from CO2	false	ipcc	forcing_co2		0
+			Radiative forcing	Forcing from CH4	false	ipcc	forcing_ch4		0
+			Radiative forcing	Forcing from N2O	false	ipcc	forcing_n2o		0
+			Radiative forcing	Forcing from F-gases	false	ipcc	forcing_fgases		0
+			Radiative forcing	Forcing from aerosols	false	ipcc	forcing_aerosols		0
+			Greenhouse gas concentrations	Carbon dioxide (CO2)	false	ipcc	concentration_ch4		0
+			Greenhouse gas concentrations	Methane (CH4)	false	ipcc	concentration_co2		0
+			Greenhouse gas concentrations	Nitrous oxide (N2O)	false	ipcc	concentration_n2o		0
+			Greenhouse gas emissions	Carbon dioxide (CO2)	false	ipcc	emssions_co2		0
+			Greenhouse gas emissions	Methane (CH4)	false	ipcc	emissions_ch4		0
+			Greenhouse gas emissions	Nitrous oxide (N2O)	false	ipcc	emissions_n2o		0
+			Greenhouse gas emissions	F-gases	false	ipcc	emissions_fgases		0
+			Air pollution	Carbon monoxide (CO)	false	ipcc	emissions_co		0
+			Air pollution	Volatile organic compounds (VOC)	false	ipcc	emissions_voc		0
+			Air pollution	Black carbon	false	ipcc	emissions_blackcarbon		0
+			Air pollution	NOx	false	ipcc	emissions_nox		0
+			Air pollution	Ammonia (NH3)	false	ipcc	emissions_nh3		0
+			Final energy	Total consumption	false	ipcc	final_energy		0
+			Final energy	Per capita consumption	true	ipcc	final_energy_per_capita	true	0
+			Final energy	Biomass	false	ipcc	final_energy_biomass		0
+			Final energy	Coal	false	ipcc	final_energy_coal		0
+			Final energy	Electricity	false	ipcc	final_energy_elec		0
+			Final energy	Gas	false	ipcc	final_energy_gases		0
+			Final energy	Heat	false	ipcc	final_energy_heat		0
+			Final energy	Hydrogen	false	ipcc	final_energy_hydrogen		0
+			Final energy	Industry	false	ipcc	final_energy_industry		0
+			Final energy	Liquids	false	ipcc	final_energy_liquids		0
+			Final energy	Residential and commercial	false	ipcc	final_energy_residentialcommercial		0
+			Final energy	Solar	false	ipcc	final_energy_solar		0
+			Final energy	Traditional biomass	false	ipcc	final_energy_traditionalbiomass		0
+			Final energy	Transport	false	ipcc	final_energy_transport		0
+			Primary energy	Total consumption	false	ipcc	primary_energy		0
+			Primary energy	Per capita consumption	true	ipcc	primary_energy_per_capita		0
+			Primary energy	Coal	false	ipcc	primary_energy_coal		0
+			Primary energy	Oil	false	ipcc	primary_energy_oil		0
+			Primary energy	Gas	false	ipcc	primary_energy_gas		0
+			Primary energy	Nuclear	false	ipcc	primary_energy_nuclear		0
+			Primary energy	Solar PV	false	ipcc	primary_energy_solar		0
+			Primary energy	Wind	false	ipcc	primary_energy_wind		0
+			Primary energy	Hydropower	false	ipcc	primary_energy_hydro		0
+			Primary energy	Geothermal	false	ipcc	primary_energy_geothermal		0
+			Primary energy	Traditional biomass	false	ipcc	primary_energy_tradbiomass		0
+			Primary energy	Fossil fuels and industry	false	ipcc	primary_energy_fossil		0
+			Primary energy	Fossil fuels (with CCS)	false	ipcc	primary_energy_fossil_ccs		0
+			Electricity capacity	Total capacity	false	ipcc	elec_capacity		0
+			Electricity capacity	Biomass	false	ipcc	elec_capacity_biomass		0
+			Electricity capacity	Coal	false	ipcc	elec_capacity_coal		0
+			Electricity capacity	Solar CSP	false	ipcc	elec_capacity_csp		0
+			Electricity capacity	Gas	false	ipcc	elec_capacity_gas		0
+			Electricity capacity	Geothermal	false	ipcc	elec_capacity_geothermal		0
+			Electricity capacity	Hydropower	false	ipcc	elec_capacity_hydro		0
+			Electricity capacity	Nuclear	false	ipcc	elec_capacity_nuclear		0
+			Electricity capacity	Offshore wind	false	ipcc	elec_capacity_offshorewind		0
+			Electricity capacity	Oil	false	ipcc	elec_capacity_oil		0
+			Electricity capacity	Onshore wind	false	ipcc	elec_capacity_onshorewind		0
+			Electricity capacity	Other	false	ipcc	elec_capacity_other		0
+			Electricity capacity	Solar	false	ipcc	elec_capacity_solar		0
+			Electricity capacity	Solar PV	false	ipcc	elec_capacity_solarpv		0
+			Electricity capacity	Wind	false	ipcc	elec_capacity_wind		0
+			Land cover	Urban	false	ipcc	land_urban		0
+			Land cover	Forest area	false	ipcc	land_forest		0
+			Land cover	Cropland	false	ipcc	land_cropland		0
+			Land cover	Pasture	false	ipcc	land_pasture		0
+			Agricultural demand	Crops	false	ipcc	agri_demand_crops		0
+			Agricultural demand	Crop for energy	false	ipcc	agri_demand_energycrops		0
+			Agricultural demand	Livestock	false	ipcc	agri_demand_livestock		0
+			Agricultural production	Crops	false	ipcc	agri_prod_crops_energy		0
+			Agricultural production	Crop for energy	false	ipcc	agri_prod_crops_nonenergy		0
+			Agricultural production	Livestock	false	ipcc	agri_prod_livestock		0
 
 columns	ipcc
 	slug	name	type	unit	shortUnit	transform	annotationsColumnSlug	notes	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo	tolerance	colorScaleNumericMinValue
