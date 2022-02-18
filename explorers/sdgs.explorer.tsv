@@ -22,7 +22,7 @@ graphers
 	1. No Poverty	1.5: Resilience to disasters	1.5.4 Local disaster risk reduction	3831
 	1. No Poverty	1.A: Mobilisation of resources to end poverty	1.A.1 Domestic resources to poverty reduction
 	1. No Poverty	1.A: Mobilisation of resources to end poverty	1.A.2 Government spending on health	1915
-	1. No Poverty	1.A: Mobilisation of resources to end poverty	1.A.2 Government spending on education	1917
+	1. No Poverty	1.A: Mobilisation of resources to end poverty	1.A.2 Government spending on education	217
 	1. No Poverty	1.B Pro-poor policy frameworks	1.B.1 Pro-poor public social spending
 	2. Zero Hunger	2.1: Universal access to safe and nutritious food	2.1.1 Prevalence of undernourishment	311
 	2. Zero Hunger	2.1: Universal access to safe and nutritious food	2.1.2 Prevalence of food insecurity	1941
@@ -54,7 +54,7 @@ graphers
 	3. Good Health and Wellbeing	3.5: Prevent and treat substance abuse	3.5.2 Alcohol consumption per capita	1197
 	3. Good Health and Wellbeing	3.6: Reduce road injuries and deaths	3.6.1 Halve the number of road traffic deaths	2661
 	3. Good Health and Wellbeing	3.7: Universal access to sexual and reproductive care, family planning & education	3.7.1 Share of women who have need for family planning satisfied with modern methods	1606
-	3. Good Health and Wellbeing	3.7: Universal access to sexual and reproductive care, family planning & education	3.7.2 Adolescent birth rate	1607
+	3. Good Health and Wellbeing	3.7: Universal access to sexual and reproductive care, family planning & education	3.7.2 Adolescent birth rate	2838
 	3. Good Health and Wellbeing	3.8: Achieve universal health coverage	3.8.1 Coverage of essential health services	1980
 	3. Good Health and Wellbeing	3.8: Achieve universal health coverage	3.8.2 Household expenditures on health	3834
 	3. Good Health and Wellbeing	3.9: Reduce illnesses & deaths from hazardous chemicals and pollution	3.9.1 Mortality rate from air pollution	529
@@ -218,7 +218,7 @@ graphers
 	13. Climate Action	13.1: Strengthen resilience and adaptive capacity to climate-related disasters	13.1.3 Local disaster risk management	3852
 	13. Climate Action	13.2: Integrate climate change measures into policy and planning	13.2.1 Integration of climate change into national policies	1350
 	13. Climate Action	13.3: Build knowledge and capacity to meet climate change	13.3.1 Education on climate change
-	13. Climate Action	13.A: Implement theUN Framework Convention on Climate Change	13.A.1 Green Climate Fund mobilization of $100 billion	2759
+	13. Climate Action	13.A: Implement theUN Framework Convention on Climate Change	13.A.1 Green Climate Fund mobilization of $100 billion	5578
 	13. Climate Action	13.B: Promote mechanisms to raise capacity for planning & management	13.B.1 Support for planning & management in least-developed countries
 	14. Life Below Water	14.1: Reduce marine pollution	14.1.1 Reduce marine pollution
 	14. Life Below Water	14.2: Protect and restore ecosystems	14.2.1 Protect and restore ecosystems
@@ -288,7 +288,7 @@ graphers
 	17. Partnership for the Goals	17.2: Implement all development assistance commitments	17.2.1 Assistance to least-developed countries	2110
 	17. Partnership for the Goals	17.3: Mobilize financial resources for developing countries	17.3.1 Foreign direct investment	2020
 	17. Partnership for the Goals	17.3: Mobilize financial resources for developing countries	17.3.2 Volume of remittances	2019
-	17. Partnership for the Goals	17.4: Assist developing countries in attaining debt sustainability	17.4.1 Debt service	2021
+	17. Partnership for the Goals	17.4: Assist developing countries in attaining debt sustainability	17.4.1 Debt service	5579
 	17. Partnership for the Goals	17.5: Invest in least-developed countries	17.5.1 Investment promotion for least-developed countries
 	17. Partnership for the Goals	17.6: Knowledge sharing & cooperation for science, technology and innovation	17.6.1 Science and technology cooperation
 	17. Partnership for the Goals	17.6: Knowledge sharing & cooperation for science, technology and innovation	17.6.2 Fixed broadband subscriptions	1627
