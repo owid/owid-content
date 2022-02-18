@@ -106,7 +106,7 @@ graphers
 	2699	Socioeconomic	Adult literacy rate
 	4548	Socioeconomic	Female literacy rate
 	4549	Socioeconomic	Net ODA received per capita
-	132	Socioeconomic	Share living in extreme poverty
+	5111	Socioeconomic	Share living in extreme poverty
 	311	Socioeconomic	Undernourishment	Share of people undernourished
 	3984	Socioeconomic	Undernourishment	Number of people undernourished
 	598	Socioeconomic	Electricity access	Share of people with electricity
@@ -117,9 +117,9 @@ graphers
 	319	Education	Mean years of schooling
 	4550	Education	Mean years of schooling, women
 	4551	Education	Mean years of schooling, men
-	2469	Education	Working hours
+	5450	Education	Working hours
 	3487	Education	Expected years of schooling
-	1917	Education	Government spending on education
+	271	Education	Government spending on education
 	486	Socioeconomic	CO2 emissions per capita
 	586	Socioeconomic	Energy use per capita
 	319	Education	Mean years of schooling
