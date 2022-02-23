@@ -1,0 +1,53 @@
+explorerTitle	Agricultural Productivity Data Explorer
+isPublished	false
+selection	World	United States	China	United Kingdom	India	Nigeria
+explorerSubtitle
+hideAlertBanner	true
+subNavId
+entityType	country
+hasMapTab	true
+table	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Agricultural%20total%20factor%20productivity%20(USDA)/Agricultural%20total%20factor%20productivity%20(USDA).csv	agri
+hideTitleAnnotation	true
+graphers
+	title	subtitle	Inputs, Output or Productivity Radio	Metric Dropdown	tableSlug	ySlugs	yScaleToggle	xSlug	baseColorScheme	type	hasMapTab	grapherId	sourceDesc	note
+			Inputs	Index	agri	inputs	true		owid-distinct	LineChart	true
+			Outputs	Index	agri	output	true		owid-distinct	LineChart	true
+			Productivity Index		agri	tfp	true		owid-distinct	LineChart	true
+			Outputs	Total output	agri	output_quantity	true		owid-distinct	LineChart	true
+			Outputs	Crop output	agri	crop_output_quantity	true		owid-distinct	LineChart	true
+			Outputs	Animal product output	agri	animal_output_quantity	true		owid-distinct	LineChart	true
+			Outputs	Fish output	agri	fish_output_quantity	true		owid-distinct	LineChart	true
+			Inputs	Agricultural land	agri	ag_land_quantity	true		owid-distinct	LineChart	true
+			Inputs	Labor	agri	labor_quantity	true		owid-distinct	LineChart	true
+			Inputs	Capital	agri	capital_quantity	true		owid-distinct	LineChart	true
+			Inputs	Machinery	agri	machinery_quantity	true		owid-distinct	LineChart	true
+			Inputs	Livestock	agri	livestock_quantity	true		owid-distinct	LineChart	true
+			Inputs	Fertilizer	agri	fertilizer_quantity	true		owid-distinct	LineChart	true
+			Inputs	Animal feed	agri	animal_feed_quantity	true		owid-distinct	LineChart	true
+			Inputs	Cropland	agri	cropland_quantity	true		owid-distinct	LineChart	true
+			Inputs	Pasture	agri	pasture_quantity	true		owid-distinct	LineChart	true
+			Inputs	Area equipped for irrigation	agri	irrigation_quantity	true		owid-distinct	LineChart	true
+
+columns	agri
+	slug	name	type	unit	shortUnit	transform	annotationsColumnSlug	notes	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo	tolerance	colorScaleNumericMinValue
+	tfp	Total factor productivity	Numeric
+	output	Output index	Numeric
+	inputs	Input index	Numeric
+	ag_land_index		Numeric
+	labor_index		Numeric
+	capital_index		Numeric
+	materials_index		Numeric
+	output_quantity		Numeric	constant 2015 US$	$	multiplyBy 1000
+	crop_output_quantity		Numeric	constant 2015 US$	$	multiplyBy 1000
+	animal_output_quantity		Numeric	constant 2015 US$	$	multiplyBy 1000
+	fish_output_quantity		Numeric	constant 2015 US$	$	multiplyBy 1000
+	ag_land_quantity	Agricultural land use	Numeric	hectares of rainfed-cropland-equivalents	ha	multiplyBy 1000
+	labor_quantity	Labor quantity	Numeric	economically active persons		multiplyBy 1000
+	capital_quantity	Capital quantity	Currency	constant 2015 US$	$
+	machinery_quantity	Machinery quantity	Numeric	horsepower		multiplyBy 1000
+	livestock_quantity	Livestock	Numeric	heads of livestock units		multiplyBy 1000
+	fertilizer_quantity	Fertilizer use	Numeric	tonnes	t
+	animal_feed_quantity	Animal feed consumption	Numeric	Mcal energy	Mcal energy	multiplyBy 1000000
+	cropland_quantity	Cropland	Numeric	hectares	ha	multiplyBy 1000
+	pasture_quantity	Pasture	Numeric	hectares	ha	multiplyBy 1000
+	irrigation_quantity	Area equipped for irrigation	Numeric	hectares	ha	multiplyBy 1000

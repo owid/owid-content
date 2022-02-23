@@ -1,6 +1,6 @@
 explorerTitle	Global Health Data Explorer
 isPublished	true
-selection	India~China~South Africa~Brazil~Bangladesh~Ghana~Nigeria
+selection	India	China	South Africa	Brazil	United States	United Kingdom
 graphers
 	grapherId	Category Dropdown	Indicator Dropdown	Rate or Total Number Dropdown	Source Dropdown
 	677	Child health	Child mortality	Rate	IHME
@@ -22,7 +22,7 @@ graphers
 	2836	Child health	Childhood stunting	Share of children	IHME
 	703	Child health	Childhood stunting	Share of children	UNICEF/WHO
 	4579	Child health	Childhood stunting	Number of children	IHME
-	3801	Child health	Childhood stunting	Number of children	UNICEF/WHO
+	5582	Child health	Childhood stunting	Number of children	UNICEF/WHO
 	2837	Child health	Childhood wasting	Share of children	IHME
 	792	Child health	Childhood wasting	Share of children	UNICEF/WHO
 	4581	Child health	Childhood wasting	Number of children	IHME
@@ -106,7 +106,7 @@ graphers
 	2699	Socioeconomic	Adult literacy rate
 	4548	Socioeconomic	Female literacy rate
 	4549	Socioeconomic	Net ODA received per capita
-	132	Socioeconomic	Share living in extreme poverty
+	5111	Socioeconomic	Share living in extreme poverty
 	311	Socioeconomic	Undernourishment	Share of people undernourished
 	3984	Socioeconomic	Undernourishment	Number of people undernourished
 	598	Socioeconomic	Electricity access	Share of people with electricity
@@ -117,14 +117,14 @@ graphers
 	319	Education	Mean years of schooling
 	4550	Education	Mean years of schooling, women
 	4551	Education	Mean years of schooling, men
-	2469	Education	Working hours
+	4540	Education	Working hours
 	3487	Education	Expected years of schooling
-	1917	Education	Government spending on education
+	271	Education	Government spending on education
 	486	Socioeconomic	CO2 emissions per capita
 	586	Socioeconomic	Energy use per capita
 	319	Education	Mean years of schooling
 	4550	Education	Mean years of schooling, women
 	4551	Education	Mean years of schooling, men
-	2469	Education	Working hours
+	4540	Education	Working hours
 	3487	Education	Expected years of schooling
 	1917	Education	Government spending on education

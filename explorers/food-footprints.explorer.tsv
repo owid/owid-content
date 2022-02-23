@@ -1,11 +1,11 @@
-explorerTitle	Environmental impacts of Food Data Explorer
+explorerTitle	Data Explorer: Environmental Impacts of Food
 isPublished	true
 entityType	food
 explorerSubtitle	Explore the environmental footprints of different food products.
 selection	Beef (beef herd)	Lamb & Mutton	Beef (dairy herd)	Prawns (farmed)	Cheese	Pig Meat	Poultry Meat	Eggs	Rice	Tofu (soybeans)	Milk	Tomatoes	Maize	Wheat & Rye	Peas	Bananas	Potatoes	Nuts
-subNavId
-subNavCurrentId
-wpBlockId
+subNavId	explorers
+subNavCurrentId	food-footprints
+wpBlockId	48519
 tab	chart
 graphers
 	grapherId	Environmental impact Dropdown	Metric Radio	By stage of supply chain Checkbox

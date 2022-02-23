@@ -4,8 +4,8 @@ googleSheet	https://docs.google.com/spreadsheets/d/1x12v5seRx-lf_nCmLI_RxhCd33br
 selection	World	Sub-Saharan Africa	South and East Asia	Europe	North America	Latin America	North Africa	Oceania
 explorerSubtitle	Explore projections of species' habitat loss, and the impact of dietary and agricultural interventions.
 hideAlertBanner	true
-subNavId
-subNavCurrentId
+subNavId	explorers
+subNavCurrentId	habitat-loss
 hasMapTab	true
 yAxisMin
 table	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Biodiversity%20habitat%20loss%20(Williams%20et%20al.%202021)/Biodiversity%20habitat%20loss%20(Williams%20et%20al.%202021).csv	habitat
