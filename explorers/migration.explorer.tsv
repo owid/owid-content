@@ -1,0 +1,78 @@
+explorerTitle	Migration Data Explorer
+isPublished	false
+selection	World
+explorerSubtitle	Explore reserves, production, trade and consumption of natural resources across the world
+hideAlertBanner	true
+subNavId
+subNavCurrentId
+hasMapTab	true
+yAxisMin
+table	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Biodiversity%20habitat%20loss%20(Williams%20et%20al.%202021)/Biodiversity%20habitat%20loss%20(Williams%20et%20al.%202021).csv	migration
+downloadDataLink	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Biodiversity%20habitat%20loss%20(Williams%20et%20al.%202021)/Biodiversity%20habitat%20loss%20(Williams%20et%20al.%202021).csv
+hideTitleAnnotation	true
+tab	map
+graphers
+	title	subtitle	Metric Dropdown	Sub-metric Radio	tableSlug	ySlugs	yScaleToggle	xSlug	baseColorScheme	type	hasMapTab
+	Number of international migrants		Number of international migrants	Total	migration		false		owid-distinct	DiscreteBar	true
+	International migrants as a share of the total population		Number of international migrants	Share of population	migration		false		owid-distinct	DiscreteBar	true
+			Annual average change in international migrants	Total	migration		false		owid-distinct	DiscreteBar	true
+			Annual average change in international migrants	Per capita	migration		false		owid-distinct	DiscreteBar	true
+			Number of emigrants	Total	migration		false		owid-distinct	DiscreteBar	true
+			Number of emigrants	Per capita	migration		false		owid-distinct	DiscreteBar	true
+			Net migration rate	Total	migration		false		owid-distinct	DiscreteBar	true
+			Net migration number	Total	migration		false		owid-distinct	DiscreteBar	true
+			Number of child migrants by destination	Total	migration		false		owid-distinct	DiscreteBar	true
+			Number of child migrants by destination	Per capita	migration		false		owid-distinct	DiscreteBar	true
+			Inflow of family migrants	Total	migration		false		owid-distinct	DiscreteBar	true
+			Inflow of family migrants	Per capita	migration		false		owid-distinct	DiscreteBar	true
+			Inflow of migrant workers	Total	migration		false		owid-distinct	DiscreteBar	true
+			Inflow of migrant workers	Per capita	migration		false		owid-distinct	DiscreteBar	true
+			Refugees by destination	Total	migration		false		owid-distinct	DiscreteBar	true
+			Refugees by destination	Per capita	migration		false		owid-distinct	DiscreteBar	true
+			Refugees by origin	Total	migration		false		owid-distinct	DiscreteBar	true
+			Refugees by origin	Per capita	migration		false		owid-distinct	DiscreteBar	true
+			Pending asylum applications by destination	Total	migration		false		owid-distinct	DiscreteBar	true
+			Pending asylum applications by destination	Per capita	migration		false		owid-distinct	DiscreteBar	true
+			Pending asylum applications by origin	Total	migration		false		owid-distinct	DiscreteBar	true
+			Pending asylum applications by origin	Per capita	migration		false		owid-distinct	DiscreteBar	true
+			Resettled refugees by destination	Total	migration		false		owid-distinct	DiscreteBar	true
+			Resettled refugees by destination	Per capita	migration		false		owid-distinct	DiscreteBar	true
+			Resettled refugees by origin	Total	migration		false		owid-distinct	DiscreteBar	true
+			Resettled refugees by origin	Per capita	migration		false		owid-distinct	DiscreteBar	true
+			Annual internal displacement (conflict)	Total	migration		false		owid-distinct	DiscreteBar	true
+			Annual internal displacement (conflict)	Share of population	migration		false		owid-distinct	DiscreteBar	true
+			Annual internal displacement (disaster)	Total	migration		false		owid-distinct	DiscreteBar	true
+			Annual internal displacement (disaster)	Share of population	migration		false
+			Total internal displacement (conflict)	Total	migration		false
+			Total internal displacement (conflict)	Share of population	migration		false
+			Total internal displacement (disaster)	Total	migration		false
+			Total internal displacement (disaster)	Share of population	migration		false
+			Remittances paid (USD)		migration		false
+			Remittances received (USD)		migration		false
+			Remittances received (% of GDP)		migration		false
+			Remittance costs (sent from)		migration		false
+			Remittance costs (sent to)		migration		false
+
+columns	migration
+	slug	name	type	unit	shortUnit	transform	annotationsColumnSlug	notes	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo	tolerance	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme	colorScaleInvert
+			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
+			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
+			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
+			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
+			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
+			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
+			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
+			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
+			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
+			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
+			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
+			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
+			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
+			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
+			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
+			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
+			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
+			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
+			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
+			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
+			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
