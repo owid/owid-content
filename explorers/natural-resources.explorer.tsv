@@ -1,6 +1,6 @@
 explorerTitle	Natural Resources Data Explorer
 isPublished	false
-selection	World	United States	Russia	Norway	United Kingdom	Germany	Sweden	China
+selection	United States	Russia	Norway	United Kingdom	Germany	Sweden	China
 explorerSubtitle	Explore reserves, production, trade and consumption of natural resources across the world
 hideAlertBanner	true
 subNavId
@@ -28,7 +28,7 @@ graphers
 	Natural gas exports		Gas	Exports	Total	annual_fossil	natural_gas_exports	false		owid-distinct	LineChart	true
 	Share of gas production that is exported		Gas	Exports	Share of production	annual_fossil	share_of_gas_production_exported	false		owid-distinct	LineChart	true
 	Coal reserves		Coal	Reserves	Total	annual_fossil	coal_reserves	false		owid-distinct	LineChart	true
-	Coal production		Coal	Production	Total	annual_fossil	coal-production	false		owid-distinct	LineChart	true
+	Coal production		Coal	Production	Total	annual_fossil	coal_production	false		owid-distinct	LineChart	true
 	Coal consumption		Coal	Consumption	Total	annual_fossil	coal_consumption	false		owid-distinct	LineChart	true
 	Coal imports		Coal	Imports	Total	annual_fossil	coal_imports	false		owid-distinct	LineChart	true
 	Share of coal consumption that comes from imports		Coal	Imports	Share of consumption	annual_fossil	share_of_coal_consumption_imported	false		owid-distinct	LineChart	true
@@ -52,11 +52,11 @@ graphers
 table	https://raw.githubusercontent.com/owid/importers/add-natural-resources/natural_resources/ready/eia_natural-resources-yearly.csv	annual_fossil
 columns	annual_fossil
 	slug	name	type	unit	shortUnit	transform	annotationsColumnSlug	notes	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo	tolerance	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme	colorScaleInvert
-	natural_gas_production		Integer	cubic meters	m³				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)				2	0	10000000,,;50000000,,;100000000,,;50000000,,;1000000000,,;5000000000	true	Purples	false
-	natural_gas_consumption		Integer	cubic meters	m³				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)				2	0	10000000,,;50000000,,;100000000,,;50000000,,;1000000000,,;5000000000	true	Purples	false
-	natural_gas_imports		Integer	cubic meters	m³				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)				2	0	10000000,,;50000000,,;100000000,,;50000000,,;1000000000,,;5000000000	true	Purples	false
-	natural_gas_exports		Integer	cubic meters	m³				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)				2	0	10000000,,;50000000,,;100000000,,;50000000,,;1000000000,,;5000000000	true	Purples	false
-	natural_gas_reserves		Integer	cubic meters	m³				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)				2	0	10000000,,;50000000,,;100000000,,;50000000,,;1000000000,,;5000000000	true	Purples	false
+	natural_gas_production		Integer	cubic meters	m³				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)				2	0	1000000000,,;5000000000,,;10000000000,,;5000000000,,;100000000000,,;500000000000	true	Purples	false
+	natural_gas_consumption		Integer	cubic meters	m³				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)				2	0	1000000000,,;5000000000,,;10000000000,,;5000000000,,;100000000000,,;500000000000	true	Purples	false
+	natural_gas_imports		Integer	cubic meters	m³				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)				2	0	1000000000,,;5000000000,,;10000000000,,;5000000000,,;100000000000,,;500000000000	true	Purples	false
+	natural_gas_exports		Integer	cubic meters	m³				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)				2	0	1000000000,,;5000000000,,;10000000000,,;5000000000,,;100000000000,,;500000000000	true	Purples	false
+	natural_gas_reserves		Integer	cubic meters	m³				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)				2	0	100000000000,,;500000000000,,;1000000000000,,;500000000000,,;10000000000000,,;50000000000000	true	Purples	false
 	coal_production		Integer	tonnes	t				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)				2	0	1000000,,;5000000,,;10000000,,;5000000,,;100000000,,;500000000	true	YlOrBr	false
 	coal_consumption		Integer	tonnes	t				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)				2	0	1000000,,;5000000,,;10000000,,;5000000,,;100000000,,;500000000	true	YlOrBr	false
 	coal_imports		Integer	tonnes	t				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)				2	0	1000000,,;5000000,,;10000000,,;5000000,,;100000000,,;500000000	true	YlOrBr	false
