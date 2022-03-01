@@ -23,7 +23,7 @@ graphers
 	Natural gas reserves		Gas	Reserves	Total	annual_fossil	natural_gas_reserves	false		owid-distinct	LineChart	true
 	Natural gas production		Gas	Production	Total	annual_fossil	natural_gas_production	false		owid-distinct	LineChart	true
 	Natural gas consumption		Gas	Consumption	Total	annual_fossil	natural_gas_consumption	false		owid-distinct	LineChart	true
-	Oil imports		Gas	Imports	Total	annual_fossil	natural_gas_imports	false		owid-distinct	LineChart	true
+	Natural gas imports		Gas	Imports	Total	annual_fossil	natural_gas_imports	false		owid-distinct	LineChart	true
 	Share of gas consumption that comes from imports		Gas	Imports	Share of consumption	annual_fossil	share_of_gas_consumption_imported	false		owid-distinct	LineChart	true
 	Natural gas exports		Gas	Exports	Total	annual_fossil	natural_gas_exports	false		owid-distinct	LineChart	true
 	Share of gas production that is exported		Gas	Exports	Share of production	annual_fossil	share_of_gas_production_exported	false		owid-distinct	LineChart	true
@@ -34,21 +34,21 @@ graphers
 	Share of coal consumption that comes from imports		Coal	Imports	Share of consumption	annual_fossil	share_of_coal_consumption_imported	false		owid-distinct	LineChart	true
 	Coal exports		Coal	Exports	Total	annual_fossil	coal_exports	false		owid-distinct	LineChart	true
 	Share of coal production that is exported		Coal	Exports	Share of production	annual_fossil	share_of_coal_production_exported	false		owid-distinct	LineChart	true
-			Oil	Production	Per capita	annual_fossil		false		owid-distinct	LineChart	true
-			Oil	Monthly Production	Per capita	monthly_fossil		false		owid-distinct	LineChart	true
-			Oil	Consumption	Per capita	annual_fossil		false		owid-distinct	LineChart	true
-			Oil	Imports	Per capita	annual_fossil		false		owid-distinct	LineChart	true
-			Oil	Exports	Per capita	annual_fossil		false		owid-distinct	LineChart	true
-			Gas	Reserves	Per capita	annual_fossil		false		owid-distinct	LineChart	true
-			Gas	Production	Per capita	annual_fossil		false		owid-distinct	LineChart	true
-			Gas	Consumption	Per capita	annual_fossil		false		owid-distinct	LineChart	true
-			Gas	Imports	Per capita	annual_fossil		false		owid-distinct	LineChart	true
-			Gas	Exports	Per capita	annual_fossil		false		owid-distinct	LineChart	true
-			Coal	Reserves	Per capita	annual_fossil		false		owid-distinct	LineChart	true
-			Coal	Production	Per capita	annual_fossil		false		owid-distinct	LineChart	true
-			Coal	Consumption	Per capita	annual_fossil		false		owid-distinct	LineChart	true
-			Coal	Imports	Per capita	annual_fossil		false		owid-distinct	LineChart	true
-			Coal	Exports	Per capita	annual_fossil		false		owid-distinct	LineChart	true
+	Oil production per capita		Oil	Production	Per capita	annual_fossil		false		owid-distinct	LineChart	true
+	Monthly oil production per capita		Oil	Monthly Production	Per capita	monthly_fossil		false		owid-distinct	LineChart	true
+	Oil consumption per capita		Oil	Consumption	Per capita	annual_fossil		false		owid-distinct	LineChart	true
+	Oil imports per capita		Oil	Imports	Per capita	annual_fossil		false		owid-distinct	LineChart	true
+	Oil exports per capita		Oil	Exports	Per capita	annual_fossil		false		owid-distinct	LineChart	true
+	Natural gas reserves per capita		Gas	Reserves	Per capita	annual_fossil		false		owid-distinct	LineChart	true
+	Natural gas production per capita		Gas	Production	Per capita	annual_fossil		false		owid-distinct	LineChart	true
+	Natural gas consumption per capita		Gas	Consumption	Per capita	annual_fossil		false		owid-distinct	LineChart	true
+	Natural gas imports per capita		Gas	Imports	Per capita	annual_fossil		false		owid-distinct	LineChart	true
+	Natural gas exports per capita		Gas	Exports	Per capita	annual_fossil		false		owid-distinct	LineChart	true
+	Coal reserves per capita		Coal	Reserves	Per capita	annual_fossil		false		owid-distinct	LineChart	true
+	Coal production per capita		Coal	Production	Per capita	annual_fossil		false		owid-distinct	LineChart	true
+	Coal consumption per capita		Coal	Consumption	Per capita	annual_fossil		false		owid-distinct	LineChart	true
+	Coal imports per capita		Coal	Imports	Per capita	annual_fossil		false		owid-distinct	LineChart	true
+	Coal exports per capita		Coal	Exports	Per capita	annual_fossil		false		owid-distinct	LineChart	true
 table	https://raw.githubusercontent.com/owid/importers/add-natural-resources/natural_resources/ready/eia_natural-resources-yearly.csv	annual_fossil
 columns	annual_fossil
 	slug	name	type	unit	shortUnit	transform	annotationsColumnSlug	notes	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo	tolerance	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme	colorScaleInvert
