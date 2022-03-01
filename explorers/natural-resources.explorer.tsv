@@ -52,27 +52,27 @@ graphers
 table	https://raw.githubusercontent.com/owid/importers/add-natural-resources/natural_resources/ready/eia_natural-resources-yearly.csv	annual_fossil
 columns	annual_fossil
 	slug	name	type	unit	shortUnit	transform	annotationsColumnSlug	notes	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo	tolerance	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme	colorScaleInvert
-	natural_gas_production		Numeric	cubic meters	m³				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	0,,;5,,;10,,;20,,;40	true	YlOrRd	true
-	natural_gas_consumption		Numeric	cubic meters	m³				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	0,,;5,,;10,,;20,,;40	true	YlOrRd	true
-	natural_gas_imports		Numeric	cubic meters	m³				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	0,,;5,,;10,,;20,,;40	true	YlOrRd	true
-	natural_gas_exports		Numeric	cubic meters	m³				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	0,,;5,,;10,,;20,,;40	true	YlOrRd	true
-	natural_gas_reserves		Numeric	cubic meters	m³				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	0,,;5,,;10,,;20,,;40	true	YlOrRd	true
-	coal_production		Numeric	tonnes	t				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	0,,;5,,;10,,;20,,;40	true	YlOrRd	true
-	coal_consumption		Numeric	tonnes	t				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	0,,;5,,;10,,;20,,;40	true	YlOrRd	true
-	coal_imports		Numeric	tonnes	t				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	0,,;5,,;10,,;20,,;40	true	YlOrRd	true
-	coal_exports		Numeric	tonnes	t				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	0,,;5,,;10,,;20,,;40	true	YlOrRd	true
-	coal_reserves		Numeric	tonnes	t				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	0,,;5,,;10,,;20,,;40	true	YlOrRd	true
-	oil_production		Numeric	tonnes	t				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	0,,;5,,;10,,;20,,;40	true	YlOrRd	true
-	oil_consumption		Numeric	tonnes	t				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	0,,;5,,;10,,;20,,;40	true	YlOrRd	true
-	oil_imports		Numeric	tonnes	t				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	0,,;5,,;10,,;20,,;40	true	YlOrRd	true
-	oil_exports		Numeric	tonnes	t				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	0,,;5,,;10,,;20,,;40	true	YlOrRd	true
-	oil_reserves		Numeric	tonnes	t				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	0,,;5,,;10,,;20,,;40	true	YlOrRd	true
-	share_of_coal_consumption_imported		Percentage	%	%				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	0,,;5,,;10,,;20,,;40	true	YlOrRd	true
-	share_of_gas_consumption_imported		Percentage	%	%				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	0,,;5,,;10,,;20,,;40	true	YlOrRd	true
-	share_of_oil_consumption_imported		Percentage	%	%				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	0,,;5,,;10,,;20,,;40	true	YlOrRd	true
-	share_of_coal_production_exported		Percentage	%	%				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	0,,;5,,;10,,;20,,;40	true	YlOrRd	true
-	share_of_gas_production_exported		Percentage	%	%				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	0,,;5,,;10,,;20,,;40	true	YlOrRd	true
-	share_of_oil_production_exported		Percentage	%	%				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	0,,;5,,;10,,;20,,;40	true	YlOrRd	true
+	natural_gas_production		Numeric	cubic meters	m³				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	5,,;10,,;20,,;40	true	YlOrRd	true
+	natural_gas_consumption		Numeric	cubic meters	m³				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	5,,;10,,;20,,;40	true	YlOrRd	true
+	natural_gas_imports		Numeric	cubic meters	m³				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	5,,;10,,;20,,;40	true	YlOrRd	true
+	natural_gas_exports		Numeric	cubic meters	m³				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	5,,;10,,;20,,;40	true	YlOrRd	true
+	natural_gas_reserves		Numeric	cubic meters	m³				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	5,,;10,,;20,,;40	true	YlOrRd	true
+	coal_production		Numeric	tonnes	t				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	5,,;10,,;20,,;40	true	YlOrRd	true
+	coal_consumption		Numeric	tonnes	t				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	5,,;10,,;20,,;40	true	YlOrRd	true
+	coal_imports		Numeric	tonnes	t				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	5,,;10,,;20,,;40	true	YlOrRd	true
+	coal_exports		Numeric	tonnes	t				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	5,,;10,,;20,,;40	true	YlOrRd	true
+	coal_reserves		Numeric	tonnes	t				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	5,,;10,,;20,,;40	true	YlOrRd	true
+	oil_production		Numeric	tonnes	t				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	5,,;10,,;20,,;40	true	YlOrRd	true
+	oil_consumption		Numeric	tonnes	t				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	5,,;10,,;20,,;40	true	YlOrRd	true
+	oil_imports		Numeric	tonnes	t				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	5,,;10,,;20,,;40	true	YlOrRd	true
+	oil_exports		Numeric	tonnes	t				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	5,,;10,,;20,,;40	true	YlOrRd	true
+	oil_reserves		Numeric	tonnes	t				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	5,,;10,,;20,,;40	true	YlOrRd	true
+	share_of_coal_consumption_imported		Percentage	%	%				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	5,,;10,,;20,,;40	true	YlOrRd	true
+	share_of_gas_consumption_imported		Percentage	%	%				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	5,,;10,,;20,,;40	true	YlOrRd	true
+	share_of_oil_consumption_imported		Percentage	%	%				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	5,,;10,,;20,,;40	true	YlOrRd	true
+	share_of_coal_production_exported		Percentage	%	%				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	5,,;10,,;20,,;40	true	YlOrRd	true
+	share_of_gas_production_exported		Percentage	%	%				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	5,,;10,,;20,,;40	true	YlOrRd	true
+	share_of_oil_production_exported		Percentage	%	%				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	5,,;10,,;20,,;40	true	YlOrRd	true
 
 table	https://raw.githubusercontent.com/owid/importers/add-natural-resources/natural_resources/ready/eia_natural-resources-monthly.csv	monthly_fossil
 columns	monthly_fossil
