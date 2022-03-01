@@ -1,14 +1,12 @@
 explorerTitle	Natural Resources Data Explorer
 isPublished	false
-selection	World
+selection	World	United States	Russia	Norway	United Kingdom	Germany	Sweden	China
 explorerSubtitle	Explore reserves, production, trade and consumption of natural resources across the world
 hideAlertBanner	true
 subNavId
 subNavCurrentId
 hasMapTab	true
 yAxisMin	0
-table	https://raw.githubusercontent.com/owid/importers/add-natural-resources/natural_resources/ready/eia_natural-resources-yearly.csv	annual_fossil
-table	https://raw.githubusercontent.com/owid/importers/add-natural-resources/natural_resources/ready/eia_natural-resources-monthly.csv	monthly_fossil
 hideTitleAnnotation	true
 tab	map
 graphers
@@ -16,7 +14,7 @@ graphers
 	Oil reserves		Oil	Reserves	Total	annual_fossil	oil_reserves	false		owid-distinct	DiscreteBar	true
 	Oil reserves		Oil	Reserves	Per capita	annual_fossil
 	Oil production		Oil	Production	Total	annual_fossil	oil_production	false		owid-distinct	DiscreteBar	true
-	Monthly oil production		Oil	Monthly Production	Total	monthly_fossil		false		owid-distinct	DiscreteBar	true
+	Monthly oil production		Oil	Monthly Production	Total	monthly_fossil	oil_production_monthly	false		owid-distinct	DiscreteBar	true
 	Oil consumption		Oil	Consumption	Total	annual_fossil	oil_consumption	false		owid-distinct	DiscreteBar	true
 	Oil imports		Oil	Imports	Total	annual_fossil	oil_imports	false		owid-distinct	DiscreteBar	true
 	Share of oil consumption that comes from imports		Oil	Imports	Share of consumption	annual_fossil	share_of_oil_consumption_imported	false		owid-distinct	DiscreteBar	true
@@ -51,7 +49,7 @@ graphers
 			Coal	Consumption	Per capita	annual_fossil
 			Coal	Imports	Per capita	annual_fossil
 			Coal	Exports	Per capita	annual_fossil
-
+table	https://raw.githubusercontent.com/owid/importers/add-natural-resources/natural_resources/ready/eia_natural-resources-yearly.csv	annual_fossil
 columns	annual_fossil
 	slug	name	type	unit	shortUnit	transform	annotationsColumnSlug	notes	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo	tolerance	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme	colorScaleInvert
 	natural_gas_production		Numeric	cubic meters	m³				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
@@ -75,3 +73,8 @@ columns	annual_fossil
 	share_of_coal_production_exported		Percentage	%	%				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
 	share_of_gas_production_exported		Percentage	%	%				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
 	share_of_oil_production_exported		Percentage	%	%				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
+
+table	https://raw.githubusercontent.com/owid/importers/add-natural-resources/natural_resources/ready/eia_natural-resources-monthly.csv	monthly_fossil
+columns	monthly_fossil
+	slug	name	type	unit	shortUnit	transform	annotationsColumnSlug	notes	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo	tolerance	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme	colorScaleInvert
+	oil_production_monthly		Numeric	tonnes	t				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
