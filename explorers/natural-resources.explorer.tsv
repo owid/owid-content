@@ -6,63 +6,72 @@ hideAlertBanner	true
 subNavId
 subNavCurrentId
 hasMapTab	true
-yAxisMin
-table	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Biodiversity%20habitat%20loss%20(Williams%20et%20al.%202021)/Biodiversity%20habitat%20loss%20(Williams%20et%20al.%202021).csv	fossil-fuels
-downloadDataLink	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Biodiversity%20habitat%20loss%20(Williams%20et%20al.%202021)/Biodiversity%20habitat%20loss%20(Williams%20et%20al.%202021).csv
+yAxisMin	0
+table	https://raw.githubusercontent.com/owid/importers/add-natural-resources/natural_resources/ready/eia_natural-resources-yearly.csv	annual_fossil
+table	https://raw.githubusercontent.com/owid/importers/add-natural-resources/natural_resources/ready/eia_natural-resources-monthly.csv	monthly_fossil
 hideTitleAnnotation	true
 tab	map
 graphers
 	title	subtitle	Resource Dropdown	Metric Dropdown	Count Radio	tableSlug	ySlugs	yScaleToggle	xSlug	baseColorScheme	type	hasMapTab
-	Oil reserves		Oil	Reserves	Total	fossil-fuels		false		owid-distinct	DiscreteBar	true
-	Oil production		Oil	Production	Total	fossil-fuels		false		owid-distinct	DiscreteBar	true
-	Monthly oil production		Oil	Monthly Production	Total			false		owid-distinct	DiscreteBar	true
-	Oil consumption		Oil	Consumption	Total	fossil-fuels		false		owid-distinct	DiscreteBar	true
-	Oil imports		Oil	Imports	Total	fossil-fuels		false		owid-distinct	DiscreteBar	true
-	Share of oil consumption that comes from imports		Oil	Imports	Share of consumption	fossil-fuels		false		owid-distinct	DiscreteBar	true
-	Oil exports		Oil	Exports	Total	fossil-fuels		false		owid-distinct	DiscreteBar	true
-	Share of oil production that is exported		Oil	Exports	Share of production	fossil-fuels		false		owid-distinct	DiscreteBar	true
-	Natural gas reserves		Gas	Reserves	Total	fossil-fuels		false		owid-distinct	DiscreteBar	true
-	Natural gas production		Gas	Production	Total	fossil-fuels		false		owid-distinct	DiscreteBar	true
-	Natural gas consumption		Gas	Consumption	Total	fossil-fuels		false		owid-distinct	DiscreteBar	true
-	Oil imports		Gas	Imports	Total	fossil-fuels		false		owid-distinct	DiscreteBar	true
-	Share of gas consumption that comes from imports		Gas	Imports	Share of consumption	fossil-fuels		false		owid-distinct	DiscreteBar	true
-	Natural gas exports		Gas	Exports	Total	fossil-fuels		false		owid-distinct	DiscreteBar	true
-	Share of gas production that is exported		Gas	Exports	Share of production	fossil-fuels		false		owid-distinct	DiscreteBar	true
-	Coal reserves		Coal	Reserves	Total	fossil-fuels		false		owid-distinct	DiscreteBar	true
-	Coal production		Coal	Production	Total	fossil-fuels		false		owid-distinct	DiscreteBar	true
-	Coal consumption		Coal	Consumption	Total	fossil-fuels		false		owid-distinct	DiscreteBar	true
-	Coal imports		Coal	Imports	Total	fossil-fuels		false		owid-distinct	DiscreteBar	true
-	Share of coal consumption that comes from imports		Coal	Imports	Share of consumption	fossil-fuels		false		owid-distinct	DiscreteBar	true
-	Coal exports		Coal	Exports	Total	fossil-fuels		false		owid-distinct	DiscreteBar	true
-	Share of coal production that is exported		Coal	Exports	Share of production	fossil-fuels		false		owid-distinct	DiscreteBar	true
-						fossil-fuels		false		owid-distinct	DiscreteBar	true
-						fossil-fuels		false		owid-distinct	DiscreteBar	true
-						fossil-fuels		false		owid-distinct	DiscreteBar	true
-						fossil-fuels		false		owid-distinct	DiscreteBar	true
-						fossil-fuels		false		owid-distinct	DiscreteBar	true
-						fossil-fuels		false		owid-distinct	DiscreteBar	true
-						fossil-fuels		false		owid-distinct	DiscreteBar	true
+	Oil reserves		Oil	Reserves	Total	annual_fossil	oil_reserves	false		owid-distinct	DiscreteBar	true
+	Oil reserves		Oil	Reserves	Per capita	annual_fossil
+	Oil production		Oil	Production	Total	annual_fossil	oil_production	false		owid-distinct	DiscreteBar	true
+	Monthly oil production		Oil	Monthly Production	Total	monthly_fossil		false		owid-distinct	DiscreteBar	true
+	Oil consumption		Oil	Consumption	Total	annual_fossil	oil_consumption	false		owid-distinct	DiscreteBar	true
+	Oil imports		Oil	Imports	Total	annual_fossil	oil_imports	false		owid-distinct	DiscreteBar	true
+	Share of oil consumption that comes from imports		Oil	Imports	Share of consumption	annual_fossil	share_of_oil_consumption_imported	false		owid-distinct	DiscreteBar	true
+	Oil exports		Oil	Exports	Total	annual_fossil	oil_exports	false		owid-distinct	DiscreteBar	true
+	Share of oil production that is exported		Oil	Exports	Share of production	annual_fossil	share_of_oil_consumption_imported	false		owid-distinct	DiscreteBar	true
+	Natural gas reserves		Gas	Reserves	Total	annual_fossil	natural_gas_reserves	false		owid-distinct	DiscreteBar	true
+	Natural gas production		Gas	Production	Total	annual_fossil	natural_gas_production	false		owid-distinct	DiscreteBar	true
+	Natural gas consumption		Gas	Consumption	Total	annual_fossil	natural_gas_consumption	false		owid-distinct	DiscreteBar	true
+	Oil imports		Gas	Imports	Total	annual_fossil	natural_gas_imports	false		owid-distinct	DiscreteBar	true
+	Share of gas consumption that comes from imports		Gas	Imports	Share of consumption	annual_fossil	share_of_gas_consumption_imported	false		owid-distinct	DiscreteBar	true
+	Natural gas exports		Gas	Exports	Total	annual_fossil	natural_gas_exports	false		owid-distinct	DiscreteBar	true
+	Share of gas production that is exported		Gas	Exports	Share of production	annual_fossil	share_of_gas_production_exported	false		owid-distinct	DiscreteBar	true
+	Coal reserves		Coal	Reserves	Total	annual_fossil	coal_reserves	false		owid-distinct	DiscreteBar	true
+	Coal production		Coal	Production	Total	annual_fossil	coal-production	false		owid-distinct	DiscreteBar	true
+	Coal consumption		Coal	Consumption	Total	annual_fossil	coal_consumption	false		owid-distinct	DiscreteBar	true
+	Coal imports		Coal	Imports	Total	annual_fossil	coal_imports	false		owid-distinct	DiscreteBar	true
+	Share of coal consumption that comes from imports		Coal	Imports	Share of consumption	annual_fossil	share_of_coal_consumption_imported	false		owid-distinct	DiscreteBar	true
+	Coal exports		Coal	Exports	Total	annual_fossil	coal_exports	false		owid-distinct	DiscreteBar	true
+	Share of coal production that is exported		Coal	Exports	Share of production	annual_fossil	share_of_coal_production_exported	false		owid-distinct	DiscreteBar	true
+			Oil	Production	Per capita	annual_fossil		false		owid-distinct	DiscreteBar	true
+			Oil	Monthly Production	Per capita	monthly_fossil		false		owid-distinct	DiscreteBar	true
+			Oil	Consumption	Per capita	annual_fossil		false		owid-distinct	DiscreteBar	true
+			Oil	Imports	Per capita	annual_fossil		false		owid-distinct	DiscreteBar	true
+			Oil	Exports	Per capita	annual_fossil		false		owid-distinct	DiscreteBar	true
+			Gas	Reserves	Per capita	annual_fossil		false		owid-distinct	DiscreteBar	true
+			Gas	Production	Per capita	annual_fossil
+			Gas	Consumption	Per capita	annual_fossil
+			Gas	Imports	Per capita	annual_fossil
+			Gas	Exports	Per capita	annual_fossil
+			Coal	Reserves	Per capita	annual_fossil
+			Coal	Production	Per capita	annual_fossil
+			Coal	Consumption	Per capita	annual_fossil
+			Coal	Imports	Per capita	annual_fossil
+			Coal	Exports	Per capita	annual_fossil
 
-columns	fossil-fuels
+columns	annual_fossil
 	slug	name	type	unit	shortUnit	transform	annotationsColumnSlug	notes	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo	tolerance	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme	colorScaleInvert
-			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
-			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
-			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
-			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
-			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
-			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
-			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
-			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
-			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
-			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
-			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
-			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
-			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
-			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
-			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
-			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
-			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
-			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
-			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
-			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
-			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
+	natural_gas_production		Numeric	cubic meters	m³				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
+	natural_gas_consumption		Numeric	cubic meters	m³				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
+	natural_gas_imports		Numeric	cubic meters	m³				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
+	natural_gas_exports		Numeric	cubic meters	m³				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
+	natural_gas_reserves		Numeric	cubic meters	m³				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
+	coal_production		Numeric	tonnes	t				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
+	coal_consumption		Numeric	tonnes	t				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
+	coal_imports		Numeric	tonnes	t				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
+	coal_exports		Numeric	tonnes	t				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
+	coal_reserves		Numeric	tonnes	t				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
+	oil_production		Numeric	tonnes	t				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
+	oil_consumption		Numeric	tonnes	t				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
+	oil_imports		Numeric	tonnes	t				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
+	oil_exports		Numeric	tonnes	t				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
+	oil_reserves		Numeric	tonnes	t				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
+	share_of_coal_consumption_imported		Percentage	%	%				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
+	share_of_gas_consumption_imported		Percentage	%	%				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
+	share_of_oil_consumption_imported		Percentage	%	%				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
+	share_of_coal_production_exported		Percentage	%	%				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
+	share_of_gas_production_exported		Percentage	%	%				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
+	share_of_oil_production_exported		Percentage	%	%				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
