@@ -1,78 +1,105 @@
 explorerTitle	Migration Data Explorer
 isPublished	false
-selection	World
-explorerSubtitle	Explore reserves, production, trade and consumption of natural resources across the world
+selection	United States	Germany	France	United Kingdom	Syria	Turkey	Yemen	India	Canada
+explorerSubtitle	Explore the migration of people across the world.
 hideAlertBanner	true
 subNavId
 subNavCurrentId
 hasMapTab	true
 yAxisMin
-table	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Biodiversity%20habitat%20loss%20(Williams%20et%20al.%202021)/Biodiversity%20habitat%20loss%20(Williams%20et%20al.%202021).csv	migration
-downloadDataLink	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Biodiversity%20habitat%20loss%20(Williams%20et%20al.%202021)/Biodiversity%20habitat%20loss%20(Williams%20et%20al.%202021).csv
 hideTitleAnnotation	true
 tab	map
 graphers
 	title	subtitle	Metric Dropdown	Sub-metric Radio	tableSlug	ySlugs	yScaleToggle	xSlug	baseColorScheme	type	hasMapTab
-	Number of international migrants		Number of international migrants	Total	migration		false		owid-distinct	DiscreteBar	true
-	International migrants as a share of the total population		Number of international migrants	Share of population	migration		false		owid-distinct	DiscreteBar	true
-			Annual average change in international migrants	Total	migration		false		owid-distinct	DiscreteBar	true
-			Annual average change in international migrants	Per capita	migration		false		owid-distinct	DiscreteBar	true
-			Number of emigrants	Total	migration		false		owid-distinct	DiscreteBar	true
-			Number of emigrants	Per capita	migration		false		owid-distinct	DiscreteBar	true
-			Net migration rate	Total	migration		false		owid-distinct	DiscreteBar	true
-			Net migration number	Total	migration		false		owid-distinct	DiscreteBar	true
-			Number of child migrants by destination	Total	migration		false		owid-distinct	DiscreteBar	true
-			Number of child migrants by destination	Per capita	migration		false		owid-distinct	DiscreteBar	true
-			Inflow of family migrants	Total	migration		false		owid-distinct	DiscreteBar	true
-			Inflow of family migrants	Per capita	migration		false		owid-distinct	DiscreteBar	true
-			Inflow of migrant workers	Total	migration		false		owid-distinct	DiscreteBar	true
-			Inflow of migrant workers	Per capita	migration		false		owid-distinct	DiscreteBar	true
-			Refugees by destination	Total	migration		false		owid-distinct	DiscreteBar	true
-			Refugees by destination	Per capita	migration		false		owid-distinct	DiscreteBar	true
-			Refugees by origin	Total	migration		false		owid-distinct	DiscreteBar	true
-			Refugees by origin	Per capita	migration		false		owid-distinct	DiscreteBar	true
-			Pending asylum applications by destination	Total	migration		false		owid-distinct	DiscreteBar	true
-			Pending asylum applications by destination	Per capita	migration		false		owid-distinct	DiscreteBar	true
-			Pending asylum applications by origin	Total	migration		false		owid-distinct	DiscreteBar	true
-			Pending asylum applications by origin	Per capita	migration		false		owid-distinct	DiscreteBar	true
-			Resettled refugees by destination	Total	migration		false		owid-distinct	DiscreteBar	true
-			Resettled refugees by destination	Per capita	migration		false		owid-distinct	DiscreteBar	true
-			Resettled refugees by origin	Total	migration		false		owid-distinct	DiscreteBar	true
-			Resettled refugees by origin	Per capita	migration		false		owid-distinct	DiscreteBar	true
-			Annual internal displacement (conflict)	Total	migration		false		owid-distinct	DiscreteBar	true
-			Annual internal displacement (conflict)	Share of population	migration		false		owid-distinct	DiscreteBar	true
-			Annual internal displacement (disaster)	Total	migration		false		owid-distinct	DiscreteBar	true
-			Annual internal displacement (disaster)	Share of population	migration		false
-			Total internal displacement (conflict)	Total	migration		false
-			Total internal displacement (conflict)	Share of population	migration		false
-			Total internal displacement (disaster)	Total	migration		false
-			Total internal displacement (disaster)	Share of population	migration		false
-			Remittances paid (USD)		migration		false
-			Remittances received (USD)		migration		false
-			Remittances received (% of GDP)		migration		false
-			Remittance costs (sent from)		migration		false
-			Remittance costs (sent to)		migration		false
-
+	Number of international migrants		Number of international migrants	Total	migration	undesa_international_migrants_by_destination	false		owid-distinct	LineChart	true
+	International migrants as a share of the total population		Number of international migrants	Share of population	migration	undesa_share_of_population_that_are_international_migrants_by_destination	false		owid-distinct	LineChart	true
+			Five-year change in international migrants	Total	migration	undesa_five_year_change_in_international_migrants_by_destination				LineChart
+			Five-year change in international migrants	Share of population	migration	undesa_five_year_change_in_international_migrants_by_destination_per_capita				LineChart
+			Annual average change in international migrants	Total	migration	undesa_annual_average_change_in_international_migrants_by_destination	false		owid-distinct	LineChart	true
+			Annual average change in international migrants	Per capita	migration	undesa_annual_average_change_in_international_migrants_by_destination_per_capita	false		owid-distinct	LineChart	true
+			Number of emigrants	Total	migration	undesa_international_migrants_by_origin	false		owid-distinct	LineChart	true
+			Number of emigrants	Per capita	migration	undesa_international_migrants_by_origin_per_capita	false		owid-distinct	LineChart	true
+			Five-year change in emigrants	Total	migration	undesa_five_year_change_in_international_migrants_by_origin	false		owid-distinct	LineChart	true
+			Five-year change in emigrants	Per capita	migration	undesa_five_year_change_in_international_migrants_by_origin_per_capita	false		owid-distinct	LineChart	true
+			Annual average change in emigrants	Total	migration	undesa_annual_average_change_in_international_migrants_by_origin	false		owid-distinct	LineChart	true
+			Annual average change in emigrants	Per capita	migration	undesa_annual_average_change_in_international_migrants_by_origin_per_capita	false		owid-distinct	LineChart	true
+			Net migration rate	Total	migration	undesa_net_number_of_migrants	false		owid-distinct	LineChart	true
+			Net migration number	Total	migration	undesa_net_migration_rate_per_1000	false		owid-distinct	LineChart	true
+			Number of child migrants (UNICEF)	Total	migration	unicef_under_eighteen_migrants_by_destination	false		owid-distinct	LineChart	true
+			Number of child migrants (UNICEF)	Per capita	migration	unicef_under_eighteen_migrants_by_destination_per_capita	false		owid-distinct	LineChart	true
+			Number of child migrants (UN DESA)	Total	migration	undesa_child_migrants_by_destination_under_15	false		owid-distinct	LineChart	true
+			Number of child migrants (UN DESA)	Per capita	migration	undesa_child_migrants_by_destination_under_15_per_capita	false		owid-distinct	LineChart	true
+			Inflow of family migrants	Total	migration		false		owid-distinct	LineChart	true
+			Inflow of family migrants	Per capita	migration		false		owid-distinct	LineChart	true
+			Inflow of migrant workers	Total	migration		false		owid-distinct	LineChart	true
+			Inflow of migrant workers	Per capita	migration		false		owid-distinct	LineChart	true
+			Refugees by destination	Total	migration	undesa_refugees_by_destination	false		owid-distinct	LineChart	true
+			Refugees by destination	Per capita	migration	undesa_refugees_by_destination_per_capita	false		owid-distinct	LineChart	true
+			Refugees by origin	Total	migration	undesa_refugees_by_origin	false		owid-distinct	LineChart	true
+			Refugees by origin	Per capita	migration	undesa_refugees_by_origin_per_capita	false		owid-distinct	LineChart	true
+			Pending asylum applications by destination	Total	migration	unhcr_asylum_seekers_by_destination	false		owid-distinct	LineChart	true
+			Pending asylum applications by destination	Per capita	migration	unhcr_asylum_seekers_by_destination_per_capita	false		owid-distinct	LineChart	true
+			Pending asylum applications by origin	Total	migration	unhcr_asylum_seekers_by_origin	false		owid-distinct	LineChart	true
+			Pending asylum applications by origin	Per capita	migration	unhcr_asylum_seekers_by_origin_per_capita	false		owid-distinct	LineChart	true
+			Resettled refugees by destination	Total	migration	unhcr_resettlement_arrivals_by_destination	false		owid-distinct	LineChart	true
+			Resettled refugees by destination	Per capita	migration	unhcr_resettlement_arrivals_by_destination_per_capita	false		owid-distinct	LineChart	true
+			Resettled refugees by origin	Total	migration	unhcr_resettlement_arrivals_by_origin	false		owid-distinct	LineChart	true
+			Resettled refugees by origin	Per capita	migration	unhcr_resettlement_arrivals_by_origin_per_capita	false		owid-distinct	LineChart	true
+			Annual internal displacement (conflict)	Total	migration	idmc_annual_internal_displacement_conflict	false		owid-distinct	LineChart	true
+			Annual internal displacement (conflict)	Share of population	migration	idmc_share_annual_internal_displacement_conflict	false		owid-distinct	LineChart	true
+			Annual internal displacement (disaster)	Total	migration	idmc_annual_internal_displacement_disaster	false		owid-distinct	LineChart	true
+			Annual internal displacement (disaster)	Share of population	migration	idmc_share_annual_internal_displacement_disaster	false		owid-distinct	LineChart	true
+			Total internal displacement (conflict)	Total	migration	idmc_total_internal_displacement_conflict	false		owid-distinct	LineChart	true
+			Total internal displacement (conflict)	Share of population	migration	idmc_share_total_internal_displacement_conflict	false		owid-distinct	LineChart	true
+			Total internal displacement (disaster)	Total	migration	idmc_total_internal_displacement_disaster	false		owid-distinct	LineChart	true
+			Total internal displacement (disaster)	Share of population	migration	idmc_share_total_internal_displacement_disaster	false		owid-distinct	LineChart	true
+			Remittances received (% of GDP)		migration	wdi_remittances_received_share_gdp	false		owid-distinct	LineChart	true
+			Remittance costs (sent from)		migration	wdi_average_cost_sending_remittances_from_country	false		owid-distinct	LineChart	true
+			Remittance costs (sent to)		migration	wdi_average_cost_sending_remittances_to_country	false		owid-distinct	LineChart	true
+table	https://raw.githubusercontent.com/owid/importers/migration/migration/output/Migration.csv	migration
 columns	migration
-	slug	name	type	unit	shortUnit	transform	annotationsColumnSlug	notes	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo	tolerance	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme	colorScaleInvert
-			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
-			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
-			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
-			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
-			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
-			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
-			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
-			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
-			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
-			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
-			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
-			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
-			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
-			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
-			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
-			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
-			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
-			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
-			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
-			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
-			Numeric						US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)					0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd	true
+	slug	name	type	unit	shortUnit	transform	annotationsColumnSlug	notes	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo	tolerance	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
+	year	Year	Year
+	entity	Country	EntityName
+	unhcr_resettlement_arrivals_by_destination_per_capita		Numeric													0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd
+	wdi_remittances_received_share_gdp		Numeric													0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd
+	undesa_five_year_change_in_international_migrants_by_destination		Numeric													0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd
+	undesa_refugees_by_destination		Numeric													0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd
+	unicef_under_eighteen_migrants_by_destination		Numeric													0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd
+	unhcr_resettlement_arrivals_by_origin		Numeric													0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd
+	undesa_child_migrants_by_destination_under_20		Numeric													0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd
+	unhcr_asylum_seekers_by_origin_per_capita		Numeric													0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd
+	undesa_child_migrants_by_destination_under_20_per_capita		Numeric													0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd
+	undesa_annual_average_change_in_international_migrants_by_origin		Numeric													0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd
+	undesa_five_year_change_in_international_migrants_by_destination_per_capita		Numeric													0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd
+	undesa_annual_average_change_in_international_migrants_by_origin_per_capita		Numeric													0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd
+	unhcr_refugees_by_destination		Numeric													0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd
+	unhcr_resettlement_arrivals_by_destination		Numeric													0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd
+	share_idmc_total_internal_displacement_disaster		Numeric													0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd
+	idmc_annual_internal_displacement_disaster		Numeric													0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd
+	unhcr_asylum_seekers_by_destination		Numeric													0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd
+	undesa_five_year_change_in_international_migrants_by_origin		Numeric													0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd
+	idmc_share_annual_internal_displacement_conflict		Numeric													0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd
+	undesa_refugees_by_destination_per_capita		Numeric													0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd
+	unhcr_refugees_by_origin_per_capita		Numeric													0	-15,,;-10,,;-5,,;0,,;5,,	true	YlOrRd
+	unicef_under_eighteen_migrants_by_destination_per_capita
+	unhcr_refugees_by_origin
+	idmc_total_internal_displacement_disaster
+	undesa_international_migrants_by_origin
+	idmc_annual_internal_displacement_conflict
+	share_idmc_total_internal_displacement_conflict
+	unhcr_asylum_seekers_by_origin
+	undesa_share_of_population_that_are_international_migrants_by_destination
+	undesa_international_migrants_by_destination
+	undesa_annual_average_change_in_international_migrants_by_destination
+	idmc_total_internal_displacement_conflict
+	unhcr_asylum_seekers_by_destination_per_capita
+	unhcr_resettlement_arrivals_by_origin_per_capita
+	idmc_share_annual_internal_displacement_disaster
+	undesa_annual_average_change_in_international_migrants_by_destination_per_capita
+	undesa_net_migration_rate_per_1000
+	wdi_average_cost_sending_remittances_to_country
+	undesa_child_migrants_by_destination_under_15
+	undesa_child_migrants_by_destination_under_15_per_capita
+	undesa_net_number_of_migrants
+	wdi_average_cost_sending_remittances_from_country
