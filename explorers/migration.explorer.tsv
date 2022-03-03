@@ -61,45 +61,45 @@ columns	migration
 	slug	name	type	unit	shortUnit	transform	annotationsColumnSlug	notes	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo	tolerance	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	year	Year	Year
 	entity	Country	EntityName
-	unhcr_resettlement_arrivals_by_destination_per_capita	Resettled by destination per capita	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlOrRd
-	wdi_remittances_received_share_gdp	Remittances (% GDP)	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlOrRd
-	undesa_five_year_change_in_international_migrants_by_destination	Five-year change migrants	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlOrRd
-	undesa_refugees_by_destination	Refugees by destination	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlOrRd
-	unicef_under_eighteen_migrants_by_destination	Child migrants (UNICEF)	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlOrRd
-	unhcr_resettlement_arrivals_by_origin	Resettled by origin	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlOrRd
-	undesa_child_migrants_by_destination_under_20	Child migrants (under-20s)	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlOrRd
-	unhcr_asylum_seekers_by_origin_per_capita	Asylum seekers by origin (per capita)	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlOrRd
-	undesa_child_migrants_by_destination_under_20_per_capita	Child migrants per capita (under-20s)	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlOrRd
-	undesa_annual_average_change_in_international_migrants_by_origin	Annual emigrants	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlOrRd
-	undesa_five_year_change_in_international_migrants_by_destination_per_capita	Five-year change migrants per capita	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlOrRd
-	undesa_annual_average_change_in_international_migrants_by_origin_per_capita	Annual emigrants per capita	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlOrRd
-	unhcr_refugees_by_destination	Refugees by destination	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlOrRd
-	unhcr_resettlement_arrivals_by_destination	Resettled by destination	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlOrRd
-	share_idmc_total_internal_displacement_disaster		Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlOrRd
-	idmc_annual_internal_displacement_disaster		Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlOrRd
-	unhcr_asylum_seekers_by_destination		Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlOrRd
-	undesa_five_year_change_in_international_migrants_by_origin		Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlOrRd
-	idmc_share_annual_internal_displacement_conflict		Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlOrRd
-	undesa_refugees_by_destination_per_capita		Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlOrRd
-	unhcr_refugees_by_origin_per_capita		Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlOrRd
-	unicef_under_eighteen_migrants_by_destination_per_capita		Numeric														1000,,;10000,,;100000,,;1000000,,;10000000	true	YlOrRd
-	unhcr_refugees_by_origin		Numeric														1000,,;10000,,;100000,,;1000000,,;10000000	true	YlOrRd
-	idmc_total_internal_displacement_disaster		Numeric														1000,,;10000,,;100000,,;1000000,,;10000000	true	YlOrRd
-	undesa_international_migrants_by_origin		Numeric														1000,,;10000,,;100000,,;1000000,,;10000000	true	YlOrRd
-	idmc_annual_internal_displacement_conflict		Numeric														1000,,;10000,,;100000,,;1000000,,;10000000	true	YlOrRd
-	share_idmc_total_internal_displacement_conflict		Numeric														1000,,;10000,,;100000,,;1000000,,;10000000	true	YlOrRd
-	unhcr_asylum_seekers_by_origin		Numeric														1000,,;10000,,;100000,,;1000000,,;10000000	true	YlOrRd
-	undesa_share_of_population_that_are_international_migrants_by_destination		Numeric														1000,,;10000,,;100000,,;1000000,,;10000000	true	YlOrRd
-	undesa_international_migrants_by_destination		Numeric														1000,,;10000,,;100000,,;1000000,,;10000000	true	YlOrRd
-	undesa_annual_average_change_in_international_migrants_by_destination		Numeric														1000,,;10000,,;100000,,;1000000,,;10000000	true	YlOrRd
-	idmc_total_internal_displacement_conflict		Numeric														1000,,;10000,,;100000,,;1000000,,;10000000	true	YlOrRd
-	unhcr_asylum_seekers_by_destination_per_capita		Numeric														1000,,;10000,,;100000,,;1000000,,;10000000	true	YlOrRd
-	unhcr_resettlement_arrivals_by_origin_per_capita		Numeric														1000,,;10000,,;100000,,;1000000,,;10000000	true	YlOrRd
-	idmc_share_annual_internal_displacement_disaster		Numeric														1000,,;10000,,;100000,,;1000000,,;10000000	true	YlOrRd
-	undesa_annual_average_change_in_international_migrants_by_destination_per_capita		Numeric														1000,,;10000,,;100000,,;1000000,,;10000000	true	YlOrRd
-	undesa_net_migration_rate_per_1000		Numeric														1000,,;10000,,;100000,,;1000000,,;10000000	true	YlOrRd
-	wdi_average_cost_sending_remittances_to_country		Numeric														1000,,;10000,,;100000,,;1000000,,;10000000	true	YlOrRd
-	undesa_child_migrants_by_destination_under_15		Numeric														1000,,;10000,,;100000,,;1000000,,;10000000	true	YlOrRd
-	undesa_child_migrants_by_destination_under_15_per_capita		Numeric														1000,,;10000,,;100000,,;1000000,,;10000000	true	YlOrRd
-	undesa_net_number_of_migrants		Numeric														1000,,;10000,,;100000,,;1000000,,;10000000	true	YlOrRd
-	wdi_average_cost_sending_remittances_from_country		Numeric														1000,,;10000,,;100000,,;1000000,,;10000000	true	YlOrRd
+	unhcr_resettlement_arrivals_by_destination_per_capita	Resettled by destination per capita	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	wdi_remittances_received_share_gdp	Remittances (% GDP)	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	undesa_five_year_change_in_international_migrants_by_destination	Five-year change migrants	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	undesa_refugees_by_destination	Refugees by destination	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	unicef_under_eighteen_migrants_by_destination	Child migrants (UNICEF)	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	unhcr_resettlement_arrivals_by_origin	Resettled by origin	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	undesa_child_migrants_by_destination_under_20	Child migrants (under-20s)	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	unhcr_asylum_seekers_by_origin_per_capita	Asylum seekers by origin (per capita)	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	undesa_child_migrants_by_destination_under_20_per_capita	Child migrants per capita (under-20s)	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	undesa_annual_average_change_in_international_migrants_by_origin	Annual emigrants	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	undesa_five_year_change_in_international_migrants_by_destination_per_capita	Five-year change migrants per capita	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	undesa_annual_average_change_in_international_migrants_by_origin_per_capita	Annual emigrants per capita	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	unhcr_refugees_by_destination	Refugees by destination	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	unhcr_resettlement_arrivals_by_destination	Resettled by destination	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	share_idmc_total_internal_displacement_disaster	Internal displacement (disasters)	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	idmc_annual_internal_displacement_disaster	Annual internal displacements (Disaster)	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	unhcr_asylum_seekers_by_destination	Asylum seekers by destination	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	undesa_five_year_change_in_international_migrants_by_origin	Five-year change emigrants	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	idmc_share_annual_internal_displacement_conflict	Annual internal displacement from conflict (%)	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	undesa_refugees_by_destination_per_capita	Refugees by destination (per capita)	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	unhcr_refugees_by_origin_per_capita	Refugees by origin (per capita)	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	unicef_under_eighteen_migrants_by_destination_per_capita	Child migrants (UNICEF, under-18s)	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	unhcr_refugees_by_origin	Refugees by origin	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	idmc_total_internal_displacement_disaster	Internal displacement (disaster)	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	undesa_international_migrants_by_origin	Emigrants	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	idmc_annual_internal_displacement_conflict	Annual internal displacement (conflict)	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	share_idmc_total_internal_displacement_conflict	Internal displacement share (conflict)	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	unhcr_asylum_seekers_by_origin	Asylum seekers by origin	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	undesa_share_of_population_that_are_international_migrants_by_destination	International migrants (% population)	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	undesa_international_migrants_by_destination	International migrants	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	undesa_annual_average_change_in_international_migrants_by_destination	Annual international migrants	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	idmc_total_internal_displacement_conflict	Internal displacement (conflict)	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	unhcr_asylum_seekers_by_destination_per_capita	Asylum seekers by destination (per capita)	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	unhcr_resettlement_arrivals_by_origin_per_capita	Resettled arrivals by origin (per capita)	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	idmc_share_annual_internal_displacement_disaster	Annual internal displacement from disaster (%)	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	undesa_annual_average_change_in_international_migrants_by_destination_per_capita	Annual international migrants (per capita)	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	undesa_net_migration_rate_per_1000	Net migration rate	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	wdi_average_cost_sending_remittances_to_country	Remittances cost (to)	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	undesa_child_migrants_by_destination_under_15	Child migrants (UNDESA)	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	undesa_child_migrants_by_destination_under_15_per_capita	Child migrants per capita (UNDESA)	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	undesa_net_number_of_migrants	Net migration	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	wdi_average_cost_sending_remittances_from_country	Remittances cost (from)	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
