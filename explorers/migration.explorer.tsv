@@ -12,50 +12,50 @@ tab	map
 graphers
 	title	subtitle	Metric Dropdown	Period Radio	Sub-metric Radio	tableSlug	ySlugs	yScaleToggle	xSlug	baseColorScheme	type	hasMapTab
 	Total number of international migrants	The total number of people living in a given country that were born in another country. This measures the cumulative migrant stock.	Number of international migrants	Total	Total	migration	undesa_international_migrants_by_destination	false		owid-distinct	LineChart	true
-	Share of the population that are international migrants	The share of a country's population that were born in another country.	Number of international migrants	Total	Share of population	migration	undesa_share_of_population_that_are_international_migrants_by_destination	false		owid-distinct	LineChart	true
+	Share of the population that are international migrants	The share of a country's population that were born in another country.	Number of international migrants	Total	Per capita / Share of population	migration	undesa_share_of_population_that_are_international_migrants_by_destination	false		owid-distinct	LineChart	true
 	Number of international migrants in the previous five years	Total number of migrants that have arrived in a country in the previous five years.	Number of international migrants	Five-year change	Total	migration	undesa_five_year_change_in_international_migrants_by_destination	false			LineChart	true
-	Number of international migrants per capita in the previous five years	The number of migrants that have arrived in a country in the previous five years.	Number of international migrants	Five-year change	Share of population	migration	undesa_five_year_change_in_international_migrants_by_destination_per_capita	false			LineChart	true
-	Annual number of international migrant arrivals		Number of international migrants	Annual	Total	migration	undesa_annual_average_change_in_international_migrants_by_destination	false		owid-distinct	LineChart	true
-	Annual number of international migrant arrivals per capita		Number of international migrants	Annual	Per capita	migration	undesa_annual_average_change_in_international_migrants_by_destination_per_capita	false		owid-distinct	LineChart	true
-	Total number of emigrants		Number of emigrants	Total	Total	migration	undesa_international_migrants_by_origin	false		owid-distinct	LineChart	true
-	Total number of emigrants per capita		Number of emigrants	Total	Per capita	migration	undesa_international_migrants_by_origin_per_capita	false		owid-distinct	LineChart	true
-	Number of emigrants in the previous five years		Number of emigrants	Five-year change	Total	migration	undesa_five_year_change_in_international_migrants_by_origin	false		owid-distinct	LineChart	true
-	Number of emigrants per capita in the previous five years		Number of emigrants	Five-year change	Per capita	migration	undesa_five_year_change_in_international_migrants_by_origin_per_capita	false		owid-distinct	LineChart	true
-	Annual number of emigrants		Number of emigrants	Annual	Total	migration	undesa_annual_average_change_in_international_migrants_by_origin	false		owid-distinct	LineChart	true
-	Annual number of emigrants per capita		Number of emigrants	Annual	Per capita	migration	undesa_annual_average_change_in_international_migrants_by_origin_per_capita	false		owid-distinct	LineChart	true
+	Number of international migrants per capita in the previous five years	The number of migrants that have arrived in a country in the previous five years.	Number of international migrants	Five-year change	Per capita / Share of population	migration	undesa_five_year_change_in_international_migrants_by_destination_per_capita	false			LineChart	true
+	Annual number of international migrant arrivals	The average number of international migrants arriving per year. This is annual average over the previous five years.	Number of international migrants	Annual	Total	migration	undesa_annual_average_change_in_international_migrants_by_destination	false		owid-distinct	LineChart	true
+	Annual number of international migrant arrivals per capita		Number of international migrants	Annual	Per capita / Share of population	migration	undesa_annual_average_change_in_international_migrants_by_destination_per_capita	false		owid-distinct	LineChart	true
+	Total number of emigrants	Total number of people that have left the country.	Number of emigrants	Total	Total	migration	undesa_international_migrants_by_origin	false		owid-distinct	LineChart	true
+	Total number of emigrants per capita	The total number of people that have left the country, as a share of the current population.	Number of emigrants	Total	Per capita / Share of population	migration	undesa_international_migrants_by_origin_per_capita	false		owid-distinct	LineChart	true
+	Number of emigrants in the previous five years	The number of people that have left the country in the previous five years.	Number of emigrants	Five-year change	Total	migration	undesa_five_year_change_in_international_migrants_by_origin	false		owid-distinct	LineChart	true
+	Number of emigrants per capita in the previous five years		Number of emigrants	Five-year change	Per capita / Share of population	migration	undesa_five_year_change_in_international_migrants_by_origin_per_capita	false		owid-distinct	LineChart	true
+	Annual number of emigrants	The average number of emigrants (people leaving the country) per year. This is annual average over the previous five years.	Number of emigrants	Annual	Total	migration	undesa_annual_average_change_in_international_migrants_by_origin	false		owid-distinct	LineChart	true
+	Annual number of emigrants per capita		Number of emigrants	Annual	Per capita / Share of population	migration	undesa_annual_average_change_in_international_migrants_by_origin_per_capita	false		owid-distinct	LineChart	true
 	Net migration		Net migration rate			migration	undesa_net_number_of_migrants	false		owid-distinct	LineChart	true
 	Net migration rate		Net migration number			migration	undesa_net_migration_rate_per_1000	false		owid-distinct	LineChart	true
 	Number of child migrant arrivals		Number of child migrants (UNICEF)		Total	migration	unicef_under_eighteen_migrants_by_destination	false		owid-distinct	LineChart	true
-	Number of child migrant arrivals per capita		Number of child migrants (UNICEF)		Per capita	migration	unicef_under_eighteen_migrants_by_destination_per_capita	false		owid-distinct	LineChart	true
+	Number of child migrant arrivals per capita		Number of child migrants (UNICEF)		Per capita / Share of population	migration	unicef_under_eighteen_migrants_by_destination_per_capita	false		owid-distinct	LineChart	true
 	Number of child migrant arrivals		Number of child migrants (UN DESA)		Total	migration	undesa_child_migrants_by_destination_under_15	false		owid-distinct	LineChart	true
-	Number of child migrant arrivals per capita		Number of child migrants (UN DESA)		Per capita	migration	undesa_child_migrants_by_destination_under_15_per_capita	false		owid-distinct	LineChart	true
+	Number of child migrant arrivals per capita		Number of child migrants (UN DESA)		Per capita / Share of population	migration	undesa_child_migrants_by_destination_under_15_per_capita	false		owid-distinct	LineChart	true
 			Inflow of family migrants		Total	migration		false		owid-distinct	LineChart	true
-			Inflow of family migrants		Per capita	migration		false		owid-distinct	LineChart	true
+			Inflow of family migrants		Per capita / Share of population	migration		false		owid-distinct	LineChart	true
 			Inflow of migrant workers		Total	migration		false		owid-distinct	LineChart	true
-			Inflow of migrant workers		Per capita	migration		false		owid-distinct	LineChart	true
+			Inflow of migrant workers		Per capita / Share of population	migration		false		owid-distinct	LineChart	true
 	Refugees by destination		Refugees by destination		Total	migration	undesa_refugees_by_destination	false		owid-distinct	LineChart	true
-	Refugees per capita by destination		Refugees by destination		Per capita	migration	undesa_refugees_by_destination_per_capita	false		owid-distinct	LineChart	true
-	Refugees by origin		Refugees by origin		Total	migration	undesa_refugees_by_origin	false		owid-distinct	LineChart	true
-	Refugees per capita by origin		Refugees by origin		Per capita	migration	undesa_refugees_by_origin_per_capita	false		owid-distinct	LineChart	true
+	Refugees per capita by destination		Refugees by destination		Per capita / Share of population	migration	undesa_refugees_by_destination_per_capita	false		owid-distinct	LineChart	true
+	Refugees by origin		Refugees by origin		Total	migration	unhcr_refugees_by_origin	false		owid-distinct	LineChart	true
+	Refugees per capita by origin		Refugees by origin		Per capita / Share of population	migration	unhcr_refugees_by_origin_per_capita	false		owid-distinct	LineChart	true
 	Number of pending asylum applications by destination country		Asylum seekers by destination		Total	migration	unhcr_asylum_seekers_by_destination	false		owid-distinct	LineChart	true
-	Number of pending asylum applications per capita by destination country		Asylum seekers by destination		Per capita	migration	unhcr_asylum_seekers_by_destination_per_capita	false		owid-distinct	LineChart	true
+	Number of pending asylum applications per capita by destination country		Asylum seekers by destination		Per capita / Share of population	migration	unhcr_asylum_seekers_by_destination_per_capita	false		owid-distinct	LineChart	true
 	Number of pending asylum applications by origin country		Asylum seekers by origin		Total	migration	unhcr_asylum_seekers_by_origin	false		owid-distinct	LineChart	true
-	Number of pending asylum applications per capita by origin country		Asylum seekers by origin		Per capita	migration	unhcr_asylum_seekers_by_origin_per_capita	false		owid-distinct	LineChart	true
+	Number of pending asylum applications per capita by origin country		Asylum seekers by origin		Per capita / Share of population	migration	unhcr_asylum_seekers_by_origin_per_capita	false		owid-distinct	LineChart	true
 	Resettled refugees by destination		Resettled refugees by destination		Total	migration	unhcr_resettlement_arrivals_by_destination	false		owid-distinct	LineChart	true
-	Resettled refugees per capita, by destination		Resettled refugees by destination		Per capita	migration	unhcr_resettlement_arrivals_by_destination_per_capita	false		owid-distinct	LineChart	true
+	Resettled refugees per capita, by destination		Resettled refugees by destination		Per capita / Share of population	migration	unhcr_resettlement_arrivals_by_destination_per_capita	false		owid-distinct	LineChart	true
 	Resettled refugees by origin		Resettled refugees by origin		Total	migration	unhcr_resettlement_arrivals_by_origin	false		owid-distinct	LineChart	true
-	Resettled refugees per capita, by origin		Resettled refugees by origin		Per capita	migration	unhcr_resettlement_arrivals_by_origin_per_capita	false		owid-distinct	LineChart	true
+	Resettled refugees per capita, by origin		Resettled refugees by origin		Per capita / Share of population	migration	unhcr_resettlement_arrivals_by_origin_per_capita	false		owid-distinct	LineChart	true
 	Internal displacement due to conflict per year		Internal displacement (conflict)	Annual	Total	migration	idmc_annual_internal_displacement_conflict	false		owid-distinct	LineChart	true
-	Share of the population internally displaced due to conflict per year		Internal displacement (conflict)	Annual	Share of population	migration	idmc_share_annual_internal_displacement_conflict	false		owid-distinct	LineChart	true
+	Share of the population internally displaced due to conflict per year		Internal displacement (conflict)	Annual	Per capita / Share of population	migration	idmc_share_annual_internal_displacement_conflict	false		owid-distinct	LineChart	true
 	Internal displacement due to disasters per year		Internal displacement (disaster)	Annual	Total	migration	idmc_annual_internal_displacement_disaster	false		owid-distinct	LineChart	true
-	Share of the population internally displaced due to disasters per year		Internal displacement (disaster)	Annual	Share of population	migration	idmc_share_annual_internal_displacement_disaster	false		owid-distinct	LineChart	true
+	Share of the population internally displaced due to disasters per year		Internal displacement (disaster)	Annual	Per capita / Share of population	migration	idmc_share_annual_internal_displacement_disaster	false		owid-distinct	LineChart	true
 	Internal displacement due to conflict		Internal displacement (conflict)	Total	Total	migration	idmc_total_internal_displacement_conflict	false		owid-distinct	LineChart	true
-	Share of the population internally displaced due to conflict		Internal displacement (conflict)	Total	Share of population	migration	idmc_share_total_internal_displacement_conflict	false		owid-distinct	LineChart	true
+	Share of the population internally displaced due to conflict		Internal displacement (conflict)	Total	Per capita / Share of population	migration	idmc_share_total_internal_displacement_conflict	false		owid-distinct	LineChart	true
 	Internal displacement due to disasters		Internal displacement (disaster)	Total	Total	migration	idmc_total_internal_displacement_disaster	false		owid-distinct	LineChart	true
-	Share of the population internally displaced due to disasters		Total internal displacement (disaster)	Total	Share of population	migration	idmc_share_total_internal_displacement_disaster	false		owid-distinct	LineChart	true
-	Remittances as a share of GDP		Remittances received (% of GDP)			migration	wdi_remittances_received_share_gdp	false		owid-distinct	LineChart	true
-	Remittance costs as a share of remittances based on the host country		Remittance costs (sent from)			migration	wdi_average_cost_sending_remittances_from_country	false		owid-distinct	LineChart	true
-	Remittance costs as a share of remittances based on the receiving country		Remittance costs (sent to)			migration	wdi_average_cost_sending_remittances_to_country	false		owid-distinct	LineChart	true
+	Share of the population internally displaced due to disasters		Total internal displacement (disaster)	Total	Per capita / Share of population	migration	idmc_share_total_internal_displacement_disaster	false		owid-distinct	LineChart	true
+	Remittances as a share of GDP	Remittances are in-kind cash transfers made from individuals in a given country to households outside of the host country.	Remittances received (% of GDP)			migration	wdi_remittances_received_share_gdp	false		owid-distinct	LineChart	true
+	Remittance costs as a share of remittances based on the host country	Remittances are in-kind cash transfers made from individuals in a given country to households outside of the host country.	Remittance costs (sent from)			migration	wdi_average_cost_sending_remittances_from_country	false		owid-distinct	LineChart	true
+	Remittance costs as a share of remittances based on the receiving country	Remittances are in-kind cash transfers made from individuals in a given country to households outside of the host country.	Remittance costs (sent to)			migration	wdi_average_cost_sending_remittances_to_country	false		owid-distinct	LineChart	true
 table	https://raw.githubusercontent.com/owid/importers/migration/migration/output/Migration.csv	migration
 columns	migration
 	slug	name	type	unit	shortUnit	transform	annotationsColumnSlug	notes	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo	tolerance	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
