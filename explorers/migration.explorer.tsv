@@ -10,96 +10,96 @@ yAxisMin	0
 hideTitleAnnotation	true
 tab	map
 graphers
-	title	subtitle	Metric Dropdown	Sub-metric Radio	Period Radio	tableSlug	ySlugs	yScaleToggle	xSlug	baseColorScheme	type	hasMapTab
-	Number of international migrants		Number of international migrants	Total	Total	migration	undesa_international_migrants_by_destination	false		owid-distinct	LineChart	true
-	International migrants as a share of the total population		Number of international migrants	Share of population	Total	migration	undesa_share_of_population_that_are_international_migrants_by_destination	false		owid-distinct	LineChart	true
-			Number of international migrants	Total	Five-year change	migration	undesa_five_year_change_in_international_migrants_by_destination	false			LineChart
-			Number of international migrants	Share of population	Five-year change	migration	undesa_five_year_change_in_international_migrants_by_destination_per_capita	false			LineChart
-			Number of international migrants	Total	Annual	migration	undesa_annual_average_change_in_international_migrants_by_destination	false		owid-distinct	LineChart	true
-			Number of international migrants	Per capita	Annual	migration	undesa_annual_average_change_in_international_migrants_by_destination_per_capita	false		owid-distinct	LineChart	true
-			Number of emigrants	Total	Total	migration	undesa_international_migrants_by_origin	false		owid-distinct	LineChart	true
-			Number of emigrants	Per capita	Total	migration	undesa_international_migrants_by_origin_per_capita	false		owid-distinct	LineChart	true
-			Number of emigrants	Total	Five-year change	migration	undesa_five_year_change_in_international_migrants_by_origin	false		owid-distinct	LineChart	true
-			Number of emigrants	Per capita	Five-year change	migration	undesa_five_year_change_in_international_migrants_by_origin_per_capita	false		owid-distinct	LineChart	true
-			Number of emigrants	Total	Annual	migration	undesa_annual_average_change_in_international_migrants_by_origin	false		owid-distinct	LineChart	true
-			Number of emigrants	Per capita	Annual	migration	undesa_annual_average_change_in_international_migrants_by_origin_per_capita	false		owid-distinct	LineChart	true
-			Net migration rate	Total		migration	undesa_net_number_of_migrants	false		owid-distinct	LineChart	true
-			Net migration number	Total		migration	undesa_net_migration_rate_per_1000	false		owid-distinct	LineChart	true
-			Number of child migrants (UNICEF)	Total		migration	unicef_under_eighteen_migrants_by_destination	false		owid-distinct	LineChart	true
-			Number of child migrants (UNICEF)	Per capita		migration	unicef_under_eighteen_migrants_by_destination_per_capita	false		owid-distinct	LineChart	true
-			Number of child migrants (UN DESA)	Total		migration	undesa_child_migrants_by_destination_under_15	false		owid-distinct	LineChart	true
-			Number of child migrants (UN DESA)	Per capita		migration	undesa_child_migrants_by_destination_under_15_per_capita	false		owid-distinct	LineChart	true
-			Inflow of family migrants	Total		migration		false		owid-distinct	LineChart	true
-			Inflow of family migrants	Per capita		migration		false		owid-distinct	LineChart	true
-			Inflow of migrant workers	Total		migration		false		owid-distinct	LineChart	true
-			Inflow of migrant workers	Per capita		migration		false		owid-distinct	LineChart	true
-			Refugees by destination	Total		migration	undesa_refugees_by_destination	false		owid-distinct	LineChart	true
-			Refugees by destination	Per capita		migration	undesa_refugees_by_destination_per_capita	false		owid-distinct	LineChart	true
-			Refugees by origin	Total		migration	undesa_refugees_by_origin	false		owid-distinct	LineChart	true
-			Refugees by origin	Per capita		migration	undesa_refugees_by_origin_per_capita	false		owid-distinct	LineChart	true
-			Pending asylum applications by destination	Total		migration	unhcr_asylum_seekers_by_destination	false		owid-distinct	LineChart	true
-			Pending asylum applications by destination	Per capita		migration	unhcr_asylum_seekers_by_destination_per_capita	false		owid-distinct	LineChart	true
-			Pending asylum applications by origin	Total		migration	unhcr_asylum_seekers_by_origin	false		owid-distinct	LineChart	true
-			Pending asylum applications by origin	Per capita		migration	unhcr_asylum_seekers_by_origin_per_capita	false		owid-distinct	LineChart	true
-			Resettled refugees by destination	Total		migration	unhcr_resettlement_arrivals_by_destination	false		owid-distinct	LineChart	true
-			Resettled refugees by destination	Per capita		migration	unhcr_resettlement_arrivals_by_destination_per_capita	false		owid-distinct	LineChart	true
-			Resettled refugees by origin	Total		migration	unhcr_resettlement_arrivals_by_origin	false		owid-distinct	LineChart	true
-			Resettled refugees by origin	Per capita		migration	unhcr_resettlement_arrivals_by_origin_per_capita	false		owid-distinct	LineChart	true
-			Annual internal displacement (conflict)	Total		migration	idmc_annual_internal_displacement_conflict	false		owid-distinct	LineChart	true
-			Annual internal displacement (conflict)	Share of population		migration	idmc_share_annual_internal_displacement_conflict	false		owid-distinct	LineChart	true
-			Annual internal displacement (disaster)	Total		migration	idmc_annual_internal_displacement_disaster	false		owid-distinct	LineChart	true
-			Annual internal displacement (disaster)	Share of population		migration	idmc_share_annual_internal_displacement_disaster	false		owid-distinct	LineChart	true
-			Total internal displacement (conflict)	Total		migration	idmc_total_internal_displacement_conflict	false		owid-distinct	LineChart	true
-			Total internal displacement (conflict)	Share of population		migration	idmc_share_total_internal_displacement_conflict	false		owid-distinct	LineChart	true
-			Total internal displacement (disaster)	Total		migration	idmc_total_internal_displacement_disaster	false		owid-distinct	LineChart	true
-			Total internal displacement (disaster)	Share of population		migration	idmc_share_total_internal_displacement_disaster	false		owid-distinct	LineChart	true
-			Remittances received (% of GDP)			migration	wdi_remittances_received_share_gdp	false		owid-distinct	LineChart	true
-			Remittance costs (sent from)			migration	wdi_average_cost_sending_remittances_from_country	false		owid-distinct	LineChart	true
-			Remittance costs (sent to)			migration	wdi_average_cost_sending_remittances_to_country	false		owid-distinct	LineChart	true
+	title	subtitle	Metric Dropdown	Period Radio	Sub-metric Radio	tableSlug	ySlugs	yScaleToggle	xSlug	baseColorScheme	type	hasMapTab
+	Total number of international migrants	The total number of people living in a given country that were born in another country. This measures the cumulative migrant stock.	Number of international migrants	Total	Total	migration	undesa_international_migrants_by_destination	false		owid-distinct	LineChart	true
+	Share of the population that are international migrants	The share of a country's population that were born in another country.	Number of international migrants	Total	Share of population	migration	undesa_share_of_population_that_are_international_migrants_by_destination	false		owid-distinct	LineChart	true
+	Number of international migrants in the previous five years	Total number of migrants that have arrived in a country in the previous five years.	Number of international migrants	Five-year change	Total	migration	undesa_five_year_change_in_international_migrants_by_destination	false			LineChart	true
+	Number of international migrants per capita in the previous five years	The number of migrants that have arrived in a country in the previous five years.	Number of international migrants	Five-year change	Share of population	migration	undesa_five_year_change_in_international_migrants_by_destination_per_capita	false			LineChart	true
+	Annual number of international migrant arrivals		Number of international migrants	Annual	Total	migration	undesa_annual_average_change_in_international_migrants_by_destination	false		owid-distinct	LineChart	true
+	Annual number of international migrant arrivals per capita		Number of international migrants	Annual	Per capita	migration	undesa_annual_average_change_in_international_migrants_by_destination_per_capita	false		owid-distinct	LineChart	true
+	Total number of emigrants		Number of emigrants	Total	Total	migration	undesa_international_migrants_by_origin	false		owid-distinct	LineChart	true
+	Total number of emigrants per capita		Number of emigrants	Total	Per capita	migration	undesa_international_migrants_by_origin_per_capita	false		owid-distinct	LineChart	true
+	Number of emigrants in the previous five years		Number of emigrants	Five-year change	Total	migration	undesa_five_year_change_in_international_migrants_by_origin	false		owid-distinct	LineChart	true
+	Number of emigrants per capita in the previous five years		Number of emigrants	Five-year change	Per capita	migration	undesa_five_year_change_in_international_migrants_by_origin_per_capita	false		owid-distinct	LineChart	true
+	Annual number of emigrants		Number of emigrants	Annual	Total	migration	undesa_annual_average_change_in_international_migrants_by_origin	false		owid-distinct	LineChart	true
+	Annual number of emigrants per capita		Number of emigrants	Annual	Per capita	migration	undesa_annual_average_change_in_international_migrants_by_origin_per_capita	false		owid-distinct	LineChart	true
+	Net migration		Net migration rate			migration	undesa_net_number_of_migrants	false		owid-distinct	LineChart	true
+	Net migration rate		Net migration number			migration	undesa_net_migration_rate_per_1000	false		owid-distinct	LineChart	true
+	Number of child migrant arrivals		Number of child migrants (UNICEF)		Total	migration	unicef_under_eighteen_migrants_by_destination	false		owid-distinct	LineChart	true
+	Number of child migrant arrivals per capita		Number of child migrants (UNICEF)		Per capita	migration	unicef_under_eighteen_migrants_by_destination_per_capita	false		owid-distinct	LineChart	true
+	Number of child migrant arrivals		Number of child migrants (UN DESA)		Total	migration	undesa_child_migrants_by_destination_under_15	false		owid-distinct	LineChart	true
+	Number of child migrant arrivals per capita		Number of child migrants (UN DESA)		Per capita	migration	undesa_child_migrants_by_destination_under_15_per_capita	false		owid-distinct	LineChart	true
+			Inflow of family migrants		Total	migration		false		owid-distinct	LineChart	true
+			Inflow of family migrants		Per capita	migration		false		owid-distinct	LineChart	true
+			Inflow of migrant workers		Total	migration		false		owid-distinct	LineChart	true
+			Inflow of migrant workers		Per capita	migration		false		owid-distinct	LineChart	true
+	Refugees by destination		Refugees by destination		Total	migration	undesa_refugees_by_destination	false		owid-distinct	LineChart	true
+	Refugees per capita by destination		Refugees by destination		Per capita	migration	undesa_refugees_by_destination_per_capita	false		owid-distinct	LineChart	true
+	Refugees by origin		Refugees by origin		Total	migration	undesa_refugees_by_origin	false		owid-distinct	LineChart	true
+	Refugees per capita by origin		Refugees by origin		Per capita	migration	undesa_refugees_by_origin_per_capita	false		owid-distinct	LineChart	true
+	Number of pending asylum applications by destination country		Asylum seekers by destination		Total	migration	unhcr_asylum_seekers_by_destination	false		owid-distinct	LineChart	true
+	Number of pending asylum applications per capita by destination country		Asylum seekers by destination		Per capita	migration	unhcr_asylum_seekers_by_destination_per_capita	false		owid-distinct	LineChart	true
+	Number of pending asylum applications by origin country		Asylum seekers by origin		Total	migration	unhcr_asylum_seekers_by_origin	false		owid-distinct	LineChart	true
+	Number of pending asylum applications per capita by origin country		Asylum seekers by origin		Per capita	migration	unhcr_asylum_seekers_by_origin_per_capita	false		owid-distinct	LineChart	true
+	Resettled refugees by destination		Resettled refugees by destination		Total	migration	unhcr_resettlement_arrivals_by_destination	false		owid-distinct	LineChart	true
+	Resettled refugees per capita, by destination		Resettled refugees by destination		Per capita	migration	unhcr_resettlement_arrivals_by_destination_per_capita	false		owid-distinct	LineChart	true
+	Resettled refugees by origin		Resettled refugees by origin		Total	migration	unhcr_resettlement_arrivals_by_origin	false		owid-distinct	LineChart	true
+	Resettled refugees per capita, by origin		Resettled refugees by origin		Per capita	migration	unhcr_resettlement_arrivals_by_origin_per_capita	false		owid-distinct	LineChart	true
+	Internal displacement due to conflict per year		Internal displacement (conflict)	Annual	Total	migration	idmc_annual_internal_displacement_conflict	false		owid-distinct	LineChart	true
+	Share of the population internally displaced due to conflict per year		Internal displacement (conflict)	Annual	Share of population	migration	idmc_share_annual_internal_displacement_conflict	false		owid-distinct	LineChart	true
+	Internal displacement due to disasters per year		Internal displacement (disaster)	Annual	Total	migration	idmc_annual_internal_displacement_disaster	false		owid-distinct	LineChart	true
+	Share of the population internally displaced due to disasters per year		Internal displacement (disaster)	Annual	Share of population	migration	idmc_share_annual_internal_displacement_disaster	false		owid-distinct	LineChart	true
+	Internal displacement due to conflict		Internal displacement (conflict)	Total	Total	migration	idmc_total_internal_displacement_conflict	false		owid-distinct	LineChart	true
+	Share of the population internally displaced due to conflict		Internal displacement (conflict)	Total	Share of population	migration	idmc_share_total_internal_displacement_conflict	false		owid-distinct	LineChart	true
+	Internal displacement due to disasters		Internal displacement (disaster)	Total	Total	migration	idmc_total_internal_displacement_disaster	false		owid-distinct	LineChart	true
+	Share of the population internally displaced due to disasters		Total internal displacement (disaster)	Total	Share of population	migration	idmc_share_total_internal_displacement_disaster	false		owid-distinct	LineChart	true
+	Remittances as a share of GDP		Remittances received (% of GDP)			migration	wdi_remittances_received_share_gdp	false		owid-distinct	LineChart	true
+	Remittance costs as a share of remittances based on the host country		Remittance costs (sent from)			migration	wdi_average_cost_sending_remittances_from_country	false		owid-distinct	LineChart	true
+	Remittance costs as a share of remittances based on the receiving country		Remittance costs (sent to)			migration	wdi_average_cost_sending_remittances_to_country	false		owid-distinct	LineChart	true
 table	https://raw.githubusercontent.com/owid/importers/migration/migration/output/Migration.csv	migration
 columns	migration
 	slug	name	type	unit	shortUnit	transform	annotationsColumnSlug	notes	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo	tolerance	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	year	Year	Year
 	entity	Country	EntityName
-	unhcr_resettlement_arrivals_by_destination_per_capita	Resettled by destination per capita	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
-	wdi_remittances_received_share_gdp	Remittances (% GDP)	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
-	undesa_five_year_change_in_international_migrants_by_destination	Five-year change migrants	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
-	undesa_refugees_by_destination	Refugees by destination	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
-	unicef_under_eighteen_migrants_by_destination	Child migrants (UNICEF)	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
-	unhcr_resettlement_arrivals_by_origin	Resettled by origin	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
-	undesa_child_migrants_by_destination_under_20	Child migrants (under-20s)	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
-	unhcr_asylum_seekers_by_origin_per_capita	Asylum seekers by origin (per capita)	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
-	undesa_child_migrants_by_destination_under_20_per_capita	Child migrants per capita (under-20s)	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
-	undesa_annual_average_change_in_international_migrants_by_origin	Annual emigrants	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
-	undesa_five_year_change_in_international_migrants_by_destination_per_capita	Five-year change migrants per capita	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
-	undesa_annual_average_change_in_international_migrants_by_origin_per_capita	Annual emigrants per capita	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
-	unhcr_refugees_by_destination	Refugees by destination	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
-	unhcr_resettlement_arrivals_by_destination	Resettled by destination	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
-	share_idmc_total_internal_displacement_disaster	Internal displacement (disasters)	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
-	idmc_annual_internal_displacement_disaster	Annual internal displacements (Disaster)	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
-	unhcr_asylum_seekers_by_destination	Asylum seekers by destination	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
-	undesa_five_year_change_in_international_migrants_by_origin	Five-year change emigrants	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
-	idmc_share_annual_internal_displacement_conflict	Annual internal displacement from conflict (%)	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
-	undesa_refugees_by_destination_per_capita	Refugees by destination (per capita)	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
-	unhcr_refugees_by_origin_per_capita	Refugees by origin (per capita)	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
-	unicef_under_eighteen_migrants_by_destination_per_capita	Child migrants (UNICEF, under-18s)	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
-	unhcr_refugees_by_origin	Refugees by origin	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
-	idmc_total_internal_displacement_disaster	Internal displacement (disaster)	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
-	undesa_international_migrants_by_origin	Emigrants	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
-	idmc_annual_internal_displacement_conflict	Annual internal displacement (conflict)	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
-	share_idmc_total_internal_displacement_conflict	Internal displacement share (conflict)	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
-	unhcr_asylum_seekers_by_origin	Asylum seekers by origin	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
-	undesa_share_of_population_that_are_international_migrants_by_destination	International migrants (% population)	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
-	undesa_international_migrants_by_destination	International migrants	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
-	undesa_annual_average_change_in_international_migrants_by_destination	Annual international migrants	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
-	idmc_total_internal_displacement_conflict	Internal displacement (conflict)	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
-	unhcr_asylum_seekers_by_destination_per_capita	Asylum seekers by destination (per capita)	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
-	unhcr_resettlement_arrivals_by_origin_per_capita	Resettled arrivals by origin (per capita)	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
-	idmc_share_annual_internal_displacement_disaster	Annual internal displacement from disaster (%)	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
-	undesa_annual_average_change_in_international_migrants_by_destination_per_capita	Annual international migrants (per capita)	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
-	undesa_net_migration_rate_per_1000	Net migration rate	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
-	wdi_average_cost_sending_remittances_to_country	Remittances cost (to)	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
-	undesa_child_migrants_by_destination_under_15	Child migrants (UNDESA)	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
-	undesa_child_migrants_by_destination_under_15_per_capita	Child migrants per capita (UNDESA)	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
-	undesa_net_number_of_migrants	Net migration	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
-	wdi_average_cost_sending_remittances_from_country	Remittances cost (from)	Numeric													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	unhcr_resettlement_arrivals_by_destination_per_capita	Resettled by destination per capita	Numeric						Calculated by Our World in Data based on UNHCR	https://www.unhcr.org/refugee-statistics/	United Nations High Commissioner for Refugees (UNHCR)					0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	wdi_remittances_received_share_gdp	Remittances (% GDP)	Percentage	%	%				World Bank based on the International Monetary Fund, World Bank and OECD	http://data.worldbank.org/data-catalog/world-development-indicators	World Bank based on the International Monetary Fund, World Bank and OECD					0	1,,;2.5,,;5,,;10,,;25,,;50	true	Purples
+	undesa_five_year_change_in_international_migrants_by_destination	Five-year change migrants	Numeric						United Nations Department of Economic and Social Affairs (UN DESA)	https://www.un.org/development/desa/pd/content/international-migrant-stock	United Nations Department of Economic and Social Affairs (UN DESA)					0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	undesa_refugees_by_destination	Refugees by destination	Numeric						United Nations Department of Economic and Social Affairs (UN DESA)	https://www.un.org/development/desa/pd/content/international-migrant-stock	United Nations Department of Economic and Social Affairs (UN DESA)					0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	unicef_under_eighteen_migrants_by_destination	Child migrants (UNICEF)	Numeric						UNICEF	https://data.unicef.org/topic/child-migration-and-displacement/migration/	UNICEF					0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	unhcr_resettlement_arrivals_by_origin	Resettled by origin	Numeric						United Nations High Commissioner for Refugees (UNHCR)	https://www.unhcr.org/refugee-statistics/	United Nations High Commissioner for Refugees (UNHCR)					0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	undesa_child_migrants_by_destination_under_20	Child migrants (under-20s)	Numeric						United Nations Department of Economic and Social Affairs (UN DESA)	https://www.un.org/development/desa/pd/content/international-migrant-stock	United Nations Department of Economic and Social Affairs (UN DESA)					0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	unhcr_asylum_seekers_by_origin_per_capita	Asylum seekers by origin (per capita)	Numeric						Calculated by Our World in Data based on UNHCR	https://www.unhcr.org/refugee-statistics/	United Nations High Commissioner for Refugees (UNHCR)					0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	undesa_child_migrants_by_destination_under_20_per_capita	Child migrants per capita (under-20s)	Numeric						Calculated by Our World in Data based on UN DESA	https://www.un.org/development/desa/pd/content/international-migrant-stock	United Nations Department of Economic and Social Affairs (UN DESA)					0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	undesa_annual_average_change_in_international_migrants_by_origin	Annual emigrants	Numeric						Calculated by Our World in Data based on UN DESA	https://www.un.org/development/desa/pd/content/international-migrant-stock	United Nations Department of Economic and Social Affairs (UN DESA)					0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	undesa_five_year_change_in_international_migrants_by_destination_per_capita	Five-year change migrants per capita	Numeric						Calculated by Our World in Data based on UN DESA	https://www.un.org/development/desa/pd/content/international-migrant-stock	United Nations Department of Economic and Social Affairs (UN DESA)					0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	undesa_annual_average_change_in_international_migrants_by_origin_per_capita	Annual emigrants per capita	Numeric						Calculated by Our World in Data based on UN DESA	https://www.un.org/development/desa/pd/content/international-migrant-stock	United Nations Department of Economic and Social Affairs (UN DESA)					0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	unhcr_refugees_by_destination	Refugees by destination	Numeric						United Nations High Commissioner for Refugees (UNHCR)	https://www.unhcr.org/refugee-statistics/	United Nations High Commissioner for Refugees (UNHCR)					0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	unhcr_resettlement_arrivals_by_destination	Resettled by destination	Numeric						United Nations High Commissioner for Refugees (UNHCR)	https://www.unhcr.org/refugee-statistics/	United Nations High Commissioner for Refugees (UNHCR)					0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	share_idmc_total_internal_displacement_disaster	Internal displacement (disasters)	Numeric						Calculated by Our World in Data based on IDMC	https://www.internal-displacement.org/database/displacement-data	Internal Displacement Monitoring Centre (IDMC)					0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	idmc_annual_internal_displacement_disaster	Annual internal displacements (Disaster)	Numeric						Internal Displacement Monitoring Centre (IDMC)	https://www.internal-displacement.org/database/displacement-data	Internal Displacement Monitoring Centre (IDMC)					0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	unhcr_asylum_seekers_by_destination	Asylum seekers by destination	Numeric						United Nations High Commissioner for Refugees (UNHCR)	https://www.unhcr.org/refugee-statistics/	United Nations High Commissioner for Refugees (UNHCR)					0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	undesa_five_year_change_in_international_migrants_by_origin	Five-year change emigrants	Numeric						United Nations Department of Economic and Social Affairs (UN DESA)	https://www.un.org/development/desa/pd/content/international-migrant-stock	United Nations Department of Economic and Social Affairs (UN DESA)					0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	idmc_share_annual_internal_displacement_conflict	Annual internal displacement from conflict (%)	Numeric						Calculated by Our World in Data based on IDMC	https://www.internal-displacement.org/database/displacement-data	Internal Displacement Monitoring Centre (IDMC)					0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	undesa_refugees_by_destination_per_capita	Refugees by destination (per capita)	Numeric						Calculated by Our World in Data based on UN DESA	https://www.un.org/development/desa/pd/content/international-migrant-stock	United Nations Department of Economic and Social Affairs (UN DESA)					0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	unhcr_refugees_by_origin_per_capita	Refugees by origin (per capita)	Numeric						Calculated by Our World in Data based on UNHCR	https://www.unhcr.org/refugee-statistics/	United Nations High Commissioner for Refugees (UNHCR)					0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	unicef_under_eighteen_migrants_by_destination_per_capita	Child migrants (UNICEF, under-18s)	Numeric						Calculated by Our World in Data based on UNICEF	https://data.unicef.org/topic/child-migration-and-displacement/migration/	UNICEF					0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	unhcr_refugees_by_origin	Refugees by origin	Numeric						United Nations High Commissioner for Refugees (UNHCR)	https://www.unhcr.org/refugee-statistics/	United Nations High Commissioner for Refugees (UNHCR)					0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	idmc_total_internal_displacement_disaster	Internal displacement (disaster)	Numeric						Internal Displacement Monitoring Centre (IDMC)	https://www.internal-displacement.org/database/displacement-data	Internal Displacement Monitoring Centre (IDMC)					0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	undesa_international_migrants_by_origin	Emigrants	Numeric						United Nations Department of Economic and Social Affairs (UN DESA)	https://www.un.org/development/desa/pd/content/international-migrant-stock	United Nations Department of Economic and Social Affairs (UN DESA)					0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	idmc_annual_internal_displacement_conflict	Annual internal displacement (conflict)	Numeric						Calculated by Our World in Data based on IDMC	https://www.internal-displacement.org/database/displacement-data	Internal Displacement Monitoring Centre (IDMC)					0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	share_idmc_total_internal_displacement_conflict	Internal displacement share (conflict)	Numeric						Calculated by Our World in Data based on IDMC	https://www.internal-displacement.org/database/displacement-data	Internal Displacement Monitoring Centre (IDMC)					0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	unhcr_asylum_seekers_by_origin	Asylum seekers by origin	Numeric						United Nations High Commissioner for Refugees (UNHCR)	https://www.unhcr.org/refugee-statistics/	United Nations High Commissioner for Refugees (UNHCR)					0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	undesa_share_of_population_that_are_international_migrants_by_destination	International migrants (% population)	Numeric						Calculated by Our World in Data based on UN DESA	https://www.un.org/development/desa/pd/content/international-migrant-stock	United Nations Department of Economic and Social Affairs (UN DESA)					0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	undesa_international_migrants_by_destination	International migrants	Numeric						United Nations Department of Economic and Social Affairs (UN DESA)	https://www.un.org/development/desa/pd/content/international-migrant-stock	United Nations Department of Economic and Social Affairs (UN DESA)					0	10000,,;100000,,;1000000,,;10000000,,;100000000	true	YlGnBu
+	undesa_annual_average_change_in_international_migrants_by_destination	Annual international migrants	Numeric						Calculated by Our World in Data based on UN DESA	https://www.un.org/development/desa/pd/content/international-migrant-stock	United Nations Department of Economic and Social Affairs (UN DESA)					0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	idmc_total_internal_displacement_conflict	Internal displacement (conflict)	Numeric						Internal Displacement Monitoring Centre (IDMC)	https://www.internal-displacement.org/database/displacement-data	Internal Displacement Monitoring Centre (IDMC)					0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	unhcr_asylum_seekers_by_destination_per_capita	Asylum seekers by destination (per capita)	Numeric						Calculated by Our World in Data based on UNHCR	https://www.unhcr.org/refugee-statistics/	United Nations High Commissioner for Refugees (UNHCR)					0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	unhcr_resettlement_arrivals_by_origin_per_capita	Resettled arrivals by origin (per capita)	Numeric						Calculated by Our World in Data based on UNHCR	https://www.unhcr.org/refugee-statistics/	United Nations High Commissioner for Refugees (UNHCR)					0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	idmc_share_annual_internal_displacement_disaster	Annual internal displacement from disaster (%)	Numeric						Calculated by Our World in Data based on IDMC	https://www.internal-displacement.org/database/displacement-data	Internal Displacement Monitoring Centre (IDMC)					0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	undesa_annual_average_change_in_international_migrants_by_destination_per_capita	Annual international migrants (per capita)	Numeric						Calculated by Our World in Data based on UN DESA	https://www.un.org/development/desa/pd/content/international-migrant-stock	United Nations Department of Economic and Social Affairs (UN DESA)					0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	undesa_net_migration_rate_per_1000	Net migration rate	Numeric						Calculated by Our World in Data based on UN DESA	https://www.un.org/development/desa/pd/content/international-migrant-stock	United Nations Department of Economic and Social Affairs (UN DESA)					0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	wdi_average_cost_sending_remittances_to_country	Remittances cost (to)	Percentage	%	%				World Bank based on the International Monetary Fund, World Bank and OECD	http://data.worldbank.org/data-catalog/world-development-indicators	World Bank based on the International Monetary Fund, World Bank and OECD					0	2.5,,;5,,;10,,;20,,;40	true	Purples
+	undesa_child_migrants_by_destination_under_15	Child migrants (UNDESA)	Numeric						United Nations Department of Economic and Social Affairs (UN DESA)	https://www.un.org/development/desa/pd/content/international-migrant-stock	United Nations Department of Economic and Social Affairs (UN DESA)					0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	undesa_child_migrants_by_destination_under_15_per_capita	Child migrants per capita (UNDESA)	Numeric						Calculated by Our World in Data based on UN DESA	https://www.un.org/development/desa/pd/content/international-migrant-stock	United Nations Department of Economic and Social Affairs (UN DESA)					0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	undesa_net_number_of_migrants	Net migration	Numeric						United Nations Department of Economic and Social Affairs (UN DESA)	https://www.un.org/development/desa/pd/content/international-migrant-stock	United Nations Department of Economic and Social Affairs (UN DESA)					0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	wdi_average_cost_sending_remittances_from_country	Remittances cost (from)	Percentage	%	%				World Bank based on the International Monetary Fund, World Bank and OECD	http://data.worldbank.org/data-catalog/world-development-indicators	World Bank based on the International Monetary Fund, World Bank and OECD					0	2.5,,;5,,;10,,;20,,;40	true	Purples
