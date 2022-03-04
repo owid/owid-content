@@ -1,0 +1,1146 @@
+explorerTitle	Migration Flows Data Explorer
+isPublished	false
+selection	United States	United Kingdom	France	Mexico	India	China	Germany	Australia	Brazil	South Africa
+explorerSubtitle	Explore reserves, production, trade and consumption of natural resources across the world
+hideAlertBanner	true
+subNavId
+subNavCurrentId
+hasMapTab	true
+yAxisMin	0
+hideTitleAnnotation	true
+tab	map
+graphers
+	title	subtitle	Select a country Dropdown	Outflow or Inflow Radio	tableSlug	ySlugs	yScaleToggle	xSlug	baseColorScheme	type	hasMapTab
+	Number of international migrants		Afghanistan	Emigrants: Where people born in selected country moved to	migration-flow	afghanistan_origin	false		owid-distinct	DiscreteBar	true
+	International migrants as a share of the total population		Africa	Emigrants: Where people born in selected country moved to	migration-flow	africa_origin	false		owid-distinct	DiscreteBar	true
+			Albania	Emigrants: Where people born in selected country moved to	migration-flow	albania_origin	false		owid-distinct	DiscreteBar	true
+			Algeria	Emigrants: Where people born in selected country moved to	migration-flow	algeria_origin	false		owid-distinct	DiscreteBar	true
+			American Samoa	Emigrants: Where people born in selected country moved to	migration-flow	americansamoa_origin	false		owid-distinct	DiscreteBar	true
+			Andorra	Emigrants: Where people born in selected country moved to	migration-flow	andorra_origin	false		owid-distinct	DiscreteBar	true
+			Angola	Emigrants: Where people born in selected country moved to	migration-flow	angola_origin	false		owid-distinct	DiscreteBar	true
+			Anguilla	Emigrants: Where people born in selected country moved to	migration-flow	anguilla_origin	false		owid-distinct	DiscreteBar	true
+			Antigua and Barbuda	Emigrants: Where people born in selected country moved to	migration-flow	antiguaandbarbuda_origin	false		owid-distinct	DiscreteBar	true
+			Argentina	Emigrants: Where people born in selected country moved to	migration-flow	argentina_origin	false		owid-distinct	DiscreteBar	true
+			Armenia	Emigrants: Where people born in selected country moved to	migration-flow	armenia_origin	false		owid-distinct	DiscreteBar	true
+			Aruba	Emigrants: Where people born in selected country moved to	migration-flow	aruba_origin	false		owid-distinct	DiscreteBar	true
+			Asia	Emigrants: Where people born in selected country moved to	migration-flow	asia_origin	false		owid-distinct	DiscreteBar	true
+			Australia	Emigrants: Where people born in selected country moved to	migration-flow	australia_origin	false		owid-distinct	DiscreteBar	true
+			Australia and New Zealand	Emigrants: Where people born in selected country moved to	migration-flow	australiaandnewzealand_origin	false		owid-distinct	DiscreteBar	true
+			Austria	Emigrants: Where people born in selected country moved to	migration-flow	austria_origin	false		owid-distinct	DiscreteBar	true
+			Azerbaijan	Emigrants: Where people born in selected country moved to	migration-flow	azerbaijan_origin	false		owid-distinct	DiscreteBar	true
+			Bahamas	Emigrants: Where people born in selected country moved to	migration-flow	bahamas_origin	false		owid-distinct	DiscreteBar	true
+			Bahrain	Emigrants: Where people born in selected country moved to	migration-flow	bahrain_origin	false		owid-distinct	DiscreteBar	true
+			Bangladesh	Emigrants: Where people born in selected country moved to	migration-flow	bangladesh_origin	false		owid-distinct	DiscreteBar	true
+			Barbados	Emigrants: Where people born in selected country moved to	migration-flow	barbados_origin	false		owid-distinct	DiscreteBar	true
+			Belarus	Emigrants: Where people born in selected country moved to	migration-flow	belarus_origin	false		owid-distinct	DiscreteBar	true
+			Belgium	Emigrants: Where people born in selected country moved to	migration-flow	belgium_origin	false		owid-distinct	DiscreteBar	true
+			Belize	Emigrants: Where people born in selected country moved to	migration-flow	belize_origin	false		owid-distinct	DiscreteBar	true
+			Benin	Emigrants: Where people born in selected country moved to	migration-flow	benin_origin	false		owid-distinct	DiscreteBar	true
+			Bermuda	Emigrants: Where people born in selected country moved to	migration-flow	bermuda_origin	false		owid-distinct	DiscreteBar	true
+			Bhutan	Emigrants: Where people born in selected country moved to	migration-flow	bhutan_origin	false		owid-distinct	DiscreteBar	true
+			Bolivia	Emigrants: Where people born in selected country moved to	migration-flow	bolivia_origin	false		owid-distinct	DiscreteBar	true
+			Bonaire Sint Eustatius and Saba	Emigrants: Where people born in selected country moved to	migration-flow	bonairesinteustatiusandsaba_origin	false		owid-distinct	DiscreteBar	true
+			Bosnia and Herzegovina	Emigrants: Where people born in selected country moved to	migration-flow	bosniaandherzegovina_origin	false
+			Botswana	Emigrants: Where people born in selected country moved to	migration-flow	botswana_origin	false
+			Brazil	Emigrants: Where people born in selected country moved to	migration-flow	brazil_origin	false
+			British Virgin Islands	Emigrants: Where people born in selected country moved to	migration-flow	britishvirginislands_origin	false
+			Brunei	Emigrants: Where people born in selected country moved to	migration-flow	brunei_origin	false
+			Bulgaria	Emigrants: Where people born in selected country moved to	migration-flow	bulgaria_origin	false
+			Burkina Faso	Emigrants: Where people born in selected country moved to	migration-flow	burkinafaso_origin	false
+			Burundi	Emigrants: Where people born in selected country moved to	migration-flow	burundi_origin	false
+			Cambodia	Emigrants: Where people born in selected country moved to	migration-flow	cambodia_origin	false
+			Cameroon	Emigrants: Where people born in selected country moved to	migration-flow	cameroon_origin	false
+			Canada	Emigrants: Where people born in selected country moved to	migration-flow	canada_origin
+			Cape Verde	Emigrants: Where people born in selected country moved to	migration-flow	capeverde_origin
+			Caribbean	Emigrants: Where people born in selected country moved to	migration-flow	caribbean_origin
+			Cayman Islands	Emigrants: Where people born in selected country moved to	migration-flow	caymanislands_origin
+			Central African Republic	Emigrants: Where people born in selected country moved to	migration-flow	centralafricanrepublic_origin
+			Central America	Emigrants: Where people born in selected country moved to	migration-flow	centralamerica_origin
+			Central Asia	Emigrants: Where people born in selected country moved to	migration-flow	centralasia_origin
+			Central and Southern Asia	Emigrants: Where people born in selected country moved to	migration-flow	centralandsouthernasia_origin
+			Chad	Emigrants: Where people born in selected country moved to	migration-flow	chad_origin
+			Channel Islands	Emigrants: Where people born in selected country moved to	migration-flow	channelislands_origin
+			Chile	Emigrants: Where people born in selected country moved to	migration-flow	chile_origin
+			China	Emigrants: Where people born in selected country moved to	migration-flow	china_origin
+			Colombia	Emigrants: Where people born in selected country moved to	migration-flow	colombia_origin
+			Comoros	Emigrants: Where people born in selected country moved to	migration-flow	comoros_origin
+			Congo	Emigrants: Where people born in selected country moved to	migration-flow	congo_origin
+			Cook Islands	Emigrants: Where people born in selected country moved to	migration-flow	cookislands_origin
+			Costa Rica	Emigrants: Where people born in selected country moved to	migration-flow	costarica_origin
+			Cote d'Ivoire	Emigrants: Where people born in selected country moved to	migration-flow	coted'ivoire_origin
+			Croatia	Emigrants: Where people born in selected country moved to	migration-flow	croatia_origin
+			Cuba	Emigrants: Where people born in selected country moved to	migration-flow	cuba_origin
+			Curacao	Emigrants: Where people born in selected country moved to	migration-flow	curacao_origin
+			Cyprus	Emigrants: Where people born in selected country moved to	migration-flow	cyprus_origin
+			Czechia	Emigrants: Where people born in selected country moved to	migration-flow	czechia_origin
+			Democratic Republic of Congo	Emigrants: Where people born in selected country moved to	migration-flow	democraticrepublicofcongo_origin
+			Denmark	Emigrants: Where people born in selected country moved to	migration-flow	denmark_origin
+			Developed regions	Emigrants: Where people born in selected country moved to	migration-flow	developedregions_origin
+			Djibouti	Emigrants: Where people born in selected country moved to	migration-flow	djibouti_origin
+			Dominica	Emigrants: Where people born in selected country moved to	migration-flow	dominica_origin
+			Dominican Republic	Emigrants: Where people born in selected country moved to	migration-flow	dominicanrepublic_origin
+			Eastern Africa	Emigrants: Where people born in selected country moved to	migration-flow	easternafrica_origin
+			Eastern Asia	Emigrants: Where people born in selected country moved to	migration-flow	easternasia_origin
+			Eastern Europe	Emigrants: Where people born in selected country moved to	migration-flow	easterneurope_origin
+			Eastern and South-Eastern Asia	Emigrants: Where people born in selected country moved to	migration-flow	easternandsouth-easternasia_origin
+			Ecuador	Emigrants: Where people born in selected country moved to	migration-flow	ecuador_origin
+			Egypt	Emigrants: Where people born in selected country moved to	migration-flow	egypt_origin
+			El Salvador	Emigrants: Where people born in selected country moved to	migration-flow	elsalvador_origin
+			Equatorial Guinea	Emigrants: Where people born in selected country moved to	migration-flow	equatorialguinea_origin
+			Eritrea	Emigrants: Where people born in selected country moved to	migration-flow	eritrea_origin
+			Estonia	Emigrants: Where people born in selected country moved to	migration-flow	estonia_origin
+			Eswatini	Emigrants: Where people born in selected country moved to	migration-flow	eswatini_origin
+			Ethiopia	Emigrants: Where people born in selected country moved to	migration-flow	ethiopia_origin
+			Europe	Emigrants: Where people born in selected country moved to	migration-flow	europe_origin
+			Europe and Northern America	Emigrants: Where people born in selected country moved to	migration-flow	europeandnorthernamerica_origin
+			Faeroe Islands	Emigrants: Where people born in selected country moved to	migration-flow	faeroeislands_origin
+			Falkland Islands	Emigrants: Where people born in selected country moved to	migration-flow	falklandislands_origin
+			Fiji	Emigrants: Where people born in selected country moved to	migration-flow	fiji_origin
+			Finland	Emigrants: Where people born in selected country moved to	migration-flow	finland_origin
+			France	Emigrants: Where people born in selected country moved to	migration-flow	france_origin
+			French Guiana	Emigrants: Where people born in selected country moved to	migration-flow	frenchguiana_origin
+			French Polynesia	Emigrants: Where people born in selected country moved to	migration-flow	frenchpolynesia_origin
+			Gabon	Emigrants: Where people born in selected country moved to	migration-flow	gabon_origin
+			Gambia	Emigrants: Where people born in selected country moved to	migration-flow	gambia_origin
+			Georgia	Emigrants: Where people born in selected country moved to	migration-flow	georgia_origin
+			Germany	Emigrants: Where people born in selected country moved to	migration-flow	germany_origin
+			Ghana	Emigrants: Where people born in selected country moved to	migration-flow	ghana_origin
+			Gibraltar	Emigrants: Where people born in selected country moved to	migration-flow	gibraltar_origin
+			Greece	Emigrants: Where people born in selected country moved to	migration-flow	greece_origin
+			Greenland	Emigrants: Where people born in selected country moved to	migration-flow	greenland_origin
+			Grenada	Emigrants: Where people born in selected country moved to	migration-flow	grenada_origin
+			Guadeloupe	Emigrants: Where people born in selected country moved to	migration-flow	guadeloupe_origin
+			Guam	Emigrants: Where people born in selected country moved to	migration-flow	guam_origin
+			Guatemala	Emigrants: Where people born in selected country moved to	migration-flow	guatemala_origin
+			Guinea	Emigrants: Where people born in selected country moved to	migration-flow	guinea_origin
+			Guinea-Bissau	Emigrants: Where people born in selected country moved to	migration-flow	guinea-bissau_origin
+			Guyana	Emigrants: Where people born in selected country moved to	migration-flow	guyana_origin
+			Haiti	Emigrants: Where people born in selected country moved to	migration-flow	haiti_origin
+			High-income countries	Emigrants: Where people born in selected country moved to	migration-flow	high-incomecountries_origin
+			Honduras	Emigrants: Where people born in selected country moved to	migration-flow	honduras_origin
+			Hong Kong	Emigrants: Where people born in selected country moved to	migration-flow	hongkong_origin
+			Hungary	Emigrants: Where people born in selected country moved to	migration-flow	hungary_origin
+			Iceland	Emigrants: Where people born in selected country moved to	migration-flow	iceland_origin
+			India	Emigrants: Where people born in selected country moved to	migration-flow	india_origin
+			Indonesia	Emigrants: Where people born in selected country moved to	migration-flow	indonesia_origin
+			Iran	Emigrants: Where people born in selected country moved to	migration-flow	iran_origin
+			Iraq	Emigrants: Where people born in selected country moved to	migration-flow	iraq_origin
+			Ireland	Emigrants: Where people born in selected country moved to	migration-flow	ireland_origin
+			Isle of Man	Emigrants: Where people born in selected country moved to	migration-flow	isleofman_origin
+			Israel	Emigrants: Where people born in selected country moved to	migration-flow	israel_origin
+			Italy	Emigrants: Where people born in selected country moved to	migration-flow	italy_origin
+			Jamaica	Emigrants: Where people born in selected country moved to	migration-flow	jamaica_origin
+			Japan	Emigrants: Where people born in selected country moved to	migration-flow	japan_origin
+			Jordan	Emigrants: Where people born in selected country moved to	migration-flow	jordan_origin
+			Kazakhstan	Emigrants: Where people born in selected country moved to	migration-flow	kazakhstan_origin
+			Kenya	Emigrants: Where people born in selected country moved to	migration-flow	kenya_origin
+			Kiribati	Emigrants: Where people born in selected country moved to	migration-flow	kiribati_origin
+			Kuwait	Emigrants: Where people born in selected country moved to	migration-flow	kuwait_origin
+			Kyrgyzstan	Emigrants: Where people born in selected country moved to	migration-flow	kyrgyzstan_origin
+			Land-locked Developing Countries (LLDC)	Emigrants: Where people born in selected country moved to	migration-flow	land-lockeddevelopingcountries(lldc)_origin
+			Laos	Emigrants: Where people born in selected country moved to	migration-flow	laos_origin
+			Latin America and the Caribbean	Emigrants: Where people born in selected country moved to	migration-flow	latinamericaandthecaribbean_origin
+			Latvia	Emigrants: Where people born in selected country moved to	migration-flow	latvia_origin
+			Least developed countries	Emigrants: Where people born in selected country moved to	migration-flow	leastdevelopedcountries_origin
+			Lebanon	Emigrants: Where people born in selected country moved to	migration-flow	lebanon_origin
+			Lesotho	Emigrants: Where people born in selected country moved to	migration-flow	lesotho_origin
+			Less developed regions	Emigrants: Where people born in selected country moved to	migration-flow	lessdevelopedregions_origin
+			Less developed regions, excluding China	Emigrants: Where people born in selected country moved to	migration-flow	lessdevelopedregions,excludingchina_origin
+			Less developed regions, excluding least developed countries	Emigrants: Where people born in selected country moved to	migration-flow	lessdevelopedregions,excludingleastdevelopedcountries_origin
+			Liberia	Emigrants: Where people born in selected country moved to	migration-flow	liberia_origin
+			Libya	Emigrants: Where people born in selected country moved to	migration-flow	libya_origin
+			Liechtenstein	Emigrants: Where people born in selected country moved to	migration-flow	liechtenstein_origin
+			Lithuania	Emigrants: Where people born in selected country moved to	migration-flow	lithuania_origin
+			Low-income countries	Emigrants: Where people born in selected country moved to	migration-flow	low-incomecountries_origin
+			Lower-middle-income countries	Emigrants: Where people born in selected country moved to	migration-flow	lower-middle-incomecountries_origin
+			Luxembourg	Emigrants: Where people born in selected country moved to	migration-flow	luxembourg_origin
+			Macao	Emigrants: Where people born in selected country moved to	migration-flow	macao_origin
+			Madagascar	Emigrants: Where people born in selected country moved to	migration-flow	madagascar_origin
+			Malawi	Emigrants: Where people born in selected country moved to	migration-flow	malawi_origin
+			Malaysia	Emigrants: Where people born in selected country moved to	migration-flow	malaysia_origin
+			Maldives	Emigrants: Where people born in selected country moved to	migration-flow	maldives_origin
+			Mali	Emigrants: Where people born in selected country moved to	migration-flow	mali_origin
+			Malta	Emigrants: Where people born in selected country moved to	migration-flow	malta_origin
+			Marshall Islands	Emigrants: Where people born in selected country moved to	migration-flow	marshallislands_origin
+			Martinique	Emigrants: Where people born in selected country moved to	migration-flow	martinique_origin
+			Mauritania	Emigrants: Where people born in selected country moved to	migration-flow	mauritania_origin
+			Mauritius	Emigrants: Where people born in selected country moved to	migration-flow	mauritius_origin
+			Mayotte	Emigrants: Where people born in selected country moved to	migration-flow	mayotte_origin
+			Melanesia	Emigrants: Where people born in selected country moved to	migration-flow	melanesia_origin
+			Mexico	Emigrants: Where people born in selected country moved to	migration-flow	mexico_origin
+			Micronesia (country)	Emigrants: Where people born in selected country moved to	migration-flow	micronesia(country)_origin
+			Micronesia (region)	Emigrants: Where people born in selected country moved to	migration-flow	micronesia(region)_origin
+			Middle Africa	Emigrants: Where people born in selected country moved to	migration-flow	middleafrica_origin
+			Middle-income countries	Emigrants: Where people born in selected country moved to	migration-flow	middle-incomecountries_origin
+			Moldova	Emigrants: Where people born in selected country moved to	migration-flow	moldova_origin
+			Monaco	Emigrants: Where people born in selected country moved to	migration-flow	monaco_origin
+			Mongolia	Emigrants: Where people born in selected country moved to	migration-flow	mongolia_origin
+			Montenegro	Emigrants: Where people born in selected country moved to	migration-flow	montenegro_origin
+			Montserrat	Emigrants: Where people born in selected country moved to	migration-flow	montserrat_origin
+			Morocco	Emigrants: Where people born in selected country moved to	migration-flow	morocco_origin
+			Mozambique	Emigrants: Where people born in selected country moved to	migration-flow	mozambique_origin
+			Myanmar	Emigrants: Where people born in selected country moved to	migration-flow	myanmar_origin
+			Namibia	Emigrants: Where people born in selected country moved to	migration-flow	namibia_origin
+			Nauru	Emigrants: Where people born in selected country moved to	migration-flow	nauru_origin
+			Nepal	Emigrants: Where people born in selected country moved to	migration-flow	nepal_origin
+			Netherlands	Emigrants: Where people born in selected country moved to	migration-flow	netherlands_origin
+			New Caledonia	Emigrants: Where people born in selected country moved to	migration-flow	newcaledonia_origin
+			New Zealand	Emigrants: Where people born in selected country moved to	migration-flow	newzealand_origin
+			Nicaragua	Emigrants: Where people born in selected country moved to	migration-flow	nicaragua_origin
+			Niger	Emigrants: Where people born in selected country moved to	migration-flow	niger_origin
+			Nigeria	Emigrants: Where people born in selected country moved to	migration-flow	nigeria_origin
+			Niue	Emigrants: Where people born in selected country moved to	migration-flow	niue_origin
+			North Korea	Emigrants: Where people born in selected country moved to	migration-flow	northkorea_origin
+			North Macedonia	Emigrants: Where people born in selected country moved to	migration-flow	northmacedonia_origin
+			Northern Africa	Emigrants: Where people born in selected country moved to	migration-flow	northernafrica_origin
+			Northern Africa and Western Asia	Emigrants: Where people born in selected country moved to	migration-flow	northernafricaandwesternasia_origin
+			Northern America	Emigrants: Where people born in selected country moved to	migration-flow	northernamerica_origin
+			Northern Europe	Emigrants: Where people born in selected country moved to	migration-flow	northerneurope_origin
+			Northern Mariana Islands	Emigrants: Where people born in selected country moved to	migration-flow	northernmarianaislands_origin
+			Norway	Emigrants: Where people born in selected country moved to	migration-flow	norway_origin
+			Oceania	Emigrants: Where people born in selected country moved to	migration-flow	oceania_origin
+			Oceania (excluding Australia and New Zealand)	Emigrants: Where people born in selected country moved to	migration-flow	oceania(excludingaustraliaandnewzealand)_origin
+			Oman	Emigrants: Where people born in selected country moved to	migration-flow	oman_origin
+			Other	Emigrants: Where people born in selected country moved to	migration-flow	other_origin
+			Pakistan	Emigrants: Where people born in selected country moved to	migration-flow	pakistan_origin
+			Palau	Emigrants: Where people born in selected country moved to	migration-flow	palau_origin
+			Palestine	Emigrants: Where people born in selected country moved to	migration-flow	palestine_origin
+			Panama	Emigrants: Where people born in selected country moved to	migration-flow	panama_origin
+			Papua New Guinea	Emigrants: Where people born in selected country moved to	migration-flow	papuanewguinea_origin
+			Paraguay	Emigrants: Where people born in selected country moved to	migration-flow	paraguay_origin
+			Peru	Emigrants: Where people born in selected country moved to	migration-flow	peru_origin
+			Philippines	Emigrants: Where people born in selected country moved to	migration-flow	philippines_origin
+			Poland	Emigrants: Where people born in selected country moved to	migration-flow	poland_origin
+			Polynesia	Emigrants: Where people born in selected country moved to	migration-flow	polynesia_origin
+			Portugal	Emigrants: Where people born in selected country moved to	migration-flow	portugal_origin
+			Puerto Rico	Emigrants: Where people born in selected country moved to	migration-flow	puertorico_origin
+			Qatar	Emigrants: Where people born in selected country moved to	migration-flow	qatar_origin
+			Reunion	Emigrants: Where people born in selected country moved to	migration-flow	reunion_origin
+			Romania	Emigrants: Where people born in selected country moved to	migration-flow	romania_origin
+			Russia	Emigrants: Where people born in selected country moved to	migration-flow	russia_origin
+			Rwanda	Emigrants: Where people born in selected country moved to	migration-flow	rwanda_origin
+			Saint Barthlemy	Emigrants: Where people born in selected country moved to	migration-flow	saintbarthlemy_origin
+			Saint Helena	Emigrants: Where people born in selected country moved to	migration-flow	sainthelena_origin
+			Saint Kitts and Nevis	Emigrants: Where people born in selected country moved to	migration-flow	saintkittsandnevis_origin
+			Saint Lucia	Emigrants: Where people born in selected country moved to	migration-flow	saintlucia_origin
+			Saint Martin (French part)	Emigrants: Where people born in selected country moved to	migration-flow	saintmartin(frenchpart)_origin
+			Saint Pierre and Miquelon	Emigrants: Where people born in selected country moved to	migration-flow	saintpierreandmiquelon_origin
+			Saint Vincent and the Grenadines	Emigrants: Where people born in selected country moved to	migration-flow	saintvincentandthegrenadines_origin
+			Samoa	Emigrants: Where people born in selected country moved to	migration-flow	samoa_origin
+			San Marino	Emigrants: Where people born in selected country moved to	migration-flow	sanmarino_origin
+			Sao Tome and Principe	Emigrants: Where people born in selected country moved to	migration-flow	saotomeandprincipe_origin
+			Saudi Arabia	Emigrants: Where people born in selected country moved to	migration-flow	saudiarabia_origin
+			Senegal	Emigrants: Where people born in selected country moved to	migration-flow	senegal_origin
+			Serbia	Emigrants: Where people born in selected country moved to	migration-flow	serbia_origin
+			Seychelles	Emigrants: Where people born in selected country moved to	migration-flow	seychelles_origin
+			Sierra Leone	Emigrants: Where people born in selected country moved to	migration-flow	sierraleone_origin
+			Singapore	Emigrants: Where people born in selected country moved to	migration-flow	singapore_origin
+			Sint Maarten (Dutch part)	Emigrants: Where people born in selected country moved to	migration-flow	sintmaarten(dutchpart)_origin
+			Slovakia	Emigrants: Where people born in selected country moved to	migration-flow	slovakia_origin
+			Slovenia	Emigrants: Where people born in selected country moved to	migration-flow	slovenia_origin
+			Small island developing States (SIDS)	Emigrants: Where people born in selected country moved to	migration-flow	smallislanddevelopingstates(sids)_origin
+			Solomon Islands	Emigrants: Where people born in selected country moved to	migration-flow	solomonislands_origin
+			Somalia	Emigrants: Where people born in selected country moved to	migration-flow	somalia_origin
+			South Africa	Emigrants: Where people born in selected country moved to	migration-flow	southafrica_origin
+			South America	Emigrants: Where people born in selected country moved to	migration-flow	southamerica_origin
+			South Korea	Emigrants: Where people born in selected country moved to	migration-flow	southkorea_origin
+			South Sudan	Emigrants: Where people born in selected country moved to	migration-flow	southsudan_origin
+			South-Eastern Asia	Emigrants: Where people born in selected country moved to	migration-flow	south-easternasia_origin
+			Southern Africa	Emigrants: Where people born in selected country moved to	migration-flow	southernafrica_origin
+			Southern Asia	Emigrants: Where people born in selected country moved to	migration-flow	southernasia_origin
+			Southern Europe	Emigrants: Where people born in selected country moved to	migration-flow	southerneurope_origin
+			Spain	Emigrants: Where people born in selected country moved to	migration-flow	spain_origin
+			Sri Lanka	Emigrants: Where people born in selected country moved to	migration-flow	srilanka_origin
+			Sub-Saharan Africa	Emigrants: Where people born in selected country moved to	migration-flow	sub-saharanafrica_origin
+			Sudan	Emigrants: Where people born in selected country moved to	migration-flow	sudan_origin
+			Suriname	Emigrants: Where people born in selected country moved to	migration-flow	suriname_origin
+			Sweden	Emigrants: Where people born in selected country moved to	migration-flow	sweden_origin
+			Switzerland	Emigrants: Where people born in selected country moved to	migration-flow	switzerland_origin
+			Syria	Emigrants: Where people born in selected country moved to	migration-flow	syria_origin
+			Taiwan	Emigrants: Where people born in selected country moved to	migration-flow	taiwan_origin
+			Tajikistan	Emigrants: Where people born in selected country moved to	migration-flow	tajikistan_origin
+			Tanzania	Emigrants: Where people born in selected country moved to	migration-flow	tanzania_origin
+			Thailand	Emigrants: Where people born in selected country moved to	migration-flow	thailand_origin
+			Timor-Leste	Emigrants: Where people born in selected country moved to	migration-flow	timor-leste_origin
+			Togo	Emigrants: Where people born in selected country moved to	migration-flow	togo_origin
+			Tokelau	Emigrants: Where people born in selected country moved to	migration-flow	tokelau_origin
+			Tonga	Emigrants: Where people born in selected country moved to	migration-flow	tonga_origin
+			Trinidad and Tobago	Emigrants: Where people born in selected country moved to	migration-flow	trinidadandtobago_origin
+			Tunisia	Emigrants: Where people born in selected country moved to	migration-flow	tunisia_origin
+			Turkey	Emigrants: Where people born in selected country moved to	migration-flow	turkey_origin
+			Turkmenistan	Emigrants: Where people born in selected country moved to	migration-flow	turkmenistan_origin
+			Turks and Caicos Islands	Emigrants: Where people born in selected country moved to	migration-flow	turksandcaicosislands_origin
+			Tuvalu	Emigrants: Where people born in selected country moved to	migration-flow	tuvalu_origin
+			Uganda	Emigrants: Where people born in selected country moved to	migration-flow	uganda_origin
+			Ukraine	Emigrants: Where people born in selected country moved to	migration-flow	ukraine_origin
+			United Arab Emirates	Emigrants: Where people born in selected country moved to	migration-flow	unitedarabemirates_origin
+			United Kingdom	Emigrants: Where people born in selected country moved to	migration-flow	unitedkingdom_origin
+			United States	Emigrants: Where people born in selected country moved to	migration-flow	unitedstates_origin
+			United States Virgin Islands	Emigrants: Where people born in selected country moved to	migration-flow	unitedstatesvirginislands_origin
+			Upper-middle-income countries	Emigrants: Where people born in selected country moved to	migration-flow	upper-middle-incomecountries_origin
+			Uruguay	Emigrants: Where people born in selected country moved to	migration-flow	uruguay_origin
+			Uzbekistan	Emigrants: Where people born in selected country moved to	migration-flow	uzbekistan_origin
+			Vanuatu	Emigrants: Where people born in selected country moved to	migration-flow	vanuatu_origin
+			Vatican	Emigrants: Where people born in selected country moved to	migration-flow	vatican_origin
+			Venezuela	Emigrants: Where people born in selected country moved to	migration-flow	venezuela_origin
+			Vietnam	Emigrants: Where people born in selected country moved to	migration-flow	vietnam_origin
+			Wallis and Futuna	Emigrants: Where people born in selected country moved to	migration-flow	wallisandfutuna_origin
+			Western Africa	Emigrants: Where people born in selected country moved to	migration-flow	westernafrica_origin
+			Western Asia	Emigrants: Where people born in selected country moved to	migration-flow	westernasia_origin
+			Western Europe	Emigrants: Where people born in selected country moved to	migration-flow	westerneurope_origin
+			Western Sahara	Emigrants: Where people born in selected country moved to	migration-flow	westernsahara_origin
+			World	Emigrants: Where people born in selected country moved to	migration-flow	world_origin
+			Yemen	Emigrants: Where people born in selected country moved to	migration-flow	yemen_origin
+			Zambia	Emigrants: Where people born in selected country moved to	migration-flow	zambia_origin
+			Zimbabwe	Emigrants: Where people born in selected country moved to	migration-flow	zimbabwe_origin
+			Afghanistan	Migrants: Where foreign-born population in selected country moved from	migration-flow	afghanistan_destination
+			Africa	Migrants: Where foreign-born population in selected country moved from	migration-flow	africa_destination
+			Albania	Migrants: Where foreign-born population in selected country moved from	migration-flow	albania_destination
+			Algeria	Migrants: Where foreign-born population in selected country moved from	migration-flow	algeria_destination
+			American Samoa	Migrants: Where foreign-born population in selected country moved from	migration-flow	americansamoa_destination
+			Andorra	Migrants: Where foreign-born population in selected country moved from	migration-flow	andorra_destination
+			Angola	Migrants: Where foreign-born population in selected country moved from	migration-flow	angola_destination
+			Anguilla	Migrants: Where foreign-born population in selected country moved from	migration-flow	anguilla_destination
+			Antigua and Barbuda	Migrants: Where foreign-born population in selected country moved from	migration-flow	antiguaandbarbuda_destination
+			Argentina	Migrants: Where foreign-born population in selected country moved from	migration-flow	argentina_destination
+			Armenia	Migrants: Where foreign-born population in selected country moved from	migration-flow	armenia_destination
+			Aruba	Migrants: Where foreign-born population in selected country moved from	migration-flow	aruba_destination
+			Asia	Migrants: Where foreign-born population in selected country moved from	migration-flow	asia_destination
+			Australia	Migrants: Where foreign-born population in selected country moved from	migration-flow	australia_destination
+			Australia and New Zealand	Migrants: Where foreign-born population in selected country moved from	migration-flow	australiaandnewzealand_destination
+			Austria	Migrants: Where foreign-born population in selected country moved from	migration-flow	austria_destination
+			Azerbaijan	Migrants: Where foreign-born population in selected country moved from	migration-flow	azerbaijan_destination
+			Bahamas	Migrants: Where foreign-born population in selected country moved from	migration-flow	bahamas_destination
+			Bahrain	Migrants: Where foreign-born population in selected country moved from	migration-flow	bahrain_destination
+			Bangladesh	Migrants: Where foreign-born population in selected country moved from	migration-flow	bangladesh_destination
+			Barbados	Migrants: Where foreign-born population in selected country moved from	migration-flow	barbados_destination
+			Belarus	Migrants: Where foreign-born population in selected country moved from	migration-flow	belarus_destination
+			Belgium	Migrants: Where foreign-born population in selected country moved from	migration-flow	belgium_destination
+			Belize	Migrants: Where foreign-born population in selected country moved from	migration-flow	belize_destination
+			Benin	Migrants: Where foreign-born population in selected country moved from	migration-flow	benin_destination
+			Bermuda	Migrants: Where foreign-born population in selected country moved from	migration-flow	bermuda_destination
+			Bhutan	Migrants: Where foreign-born population in selected country moved from	migration-flow	bhutan_destination
+			Bolivia	Migrants: Where foreign-born population in selected country moved from	migration-flow	bolivia_destination
+			Bonaire Sint Eustatius and Saba	Migrants: Where foreign-born population in selected country moved from	migration-flow	bonairesinteustatiusandsaba_destination
+			Bosnia and Herzegovina	Migrants: Where foreign-born population in selected country moved from	migration-flow	bosniaandherzegovina_destination
+			Botswana	Migrants: Where foreign-born population in selected country moved from	migration-flow	botswana_destination
+			Brazil	Migrants: Where foreign-born population in selected country moved from	migration-flow	brazil_destination
+			British Virgin Islands	Migrants: Where foreign-born population in selected country moved from	migration-flow	britishvirginislands_destination
+			Brunei	Migrants: Where foreign-born population in selected country moved from	migration-flow	brunei_destination
+			Bulgaria	Migrants: Where foreign-born population in selected country moved from	migration-flow	bulgaria_destination
+			Burkina Faso	Migrants: Where foreign-born population in selected country moved from	migration-flow	burkinafaso_destination
+			Burundi	Migrants: Where foreign-born population in selected country moved from	migration-flow	burundi_destination
+			Cambodia	Migrants: Where foreign-born population in selected country moved from	migration-flow	cambodia_destination
+			Cameroon	Migrants: Where foreign-born population in selected country moved from	migration-flow	cameroon_destination
+			Canada	Migrants: Where foreign-born population in selected country moved from	migration-flow	canada_destination
+			Cape Verde	Migrants: Where foreign-born population in selected country moved from	migration-flow	capeverde_destination
+			Caribbean	Migrants: Where foreign-born population in selected country moved from	migration-flow	caribbean_destination
+			Cayman Islands	Migrants: Where foreign-born population in selected country moved from	migration-flow	caymanislands_destination
+			Central African Republic	Migrants: Where foreign-born population in selected country moved from	migration-flow	centralafricanrepublic_destination
+			Central America	Migrants: Where foreign-born population in selected country moved from	migration-flow	centralamerica_destination
+			Central Asia	Migrants: Where foreign-born population in selected country moved from	migration-flow	centralasia_destination
+			Central and Southern Asia	Migrants: Where foreign-born population in selected country moved from	migration-flow	centralandsouthernasia_destination
+			Chad	Migrants: Where foreign-born population in selected country moved from	migration-flow	chad_destination
+			Channel Islands	Migrants: Where foreign-born population in selected country moved from	migration-flow	channelislands_destination
+			Chile	Migrants: Where foreign-born population in selected country moved from	migration-flow	chile_destination
+			China	Migrants: Where foreign-born population in selected country moved from	migration-flow	china_destination
+			Colombia	Migrants: Where foreign-born population in selected country moved from	migration-flow	colombia_destination
+			Comoros	Migrants: Where foreign-born population in selected country moved from	migration-flow	comoros_destination
+			Congo	Migrants: Where foreign-born population in selected country moved from	migration-flow	congo_destination
+			Cook Islands	Migrants: Where foreign-born population in selected country moved from	migration-flow	cookislands_destination
+			Costa Rica	Migrants: Where foreign-born population in selected country moved from	migration-flow	costarica_destination
+			Cote d'Ivoire	Migrants: Where foreign-born population in selected country moved from	migration-flow	coted'ivoire_destination
+			Croatia	Migrants: Where foreign-born population in selected country moved from	migration-flow	croatia_destination
+			Cuba	Migrants: Where foreign-born population in selected country moved from	migration-flow	cuba_destination
+			Curacao	Migrants: Where foreign-born population in selected country moved from	migration-flow	curacao_destination
+			Cyprus	Migrants: Where foreign-born population in selected country moved from	migration-flow	cyprus_destination
+			Czechia	Migrants: Where foreign-born population in selected country moved from	migration-flow	czechia_destination
+			Democratic Republic of Congo	Migrants: Where foreign-born population in selected country moved from	migration-flow	democraticrepublicofcongo_destination
+			Denmark	Migrants: Where foreign-born population in selected country moved from	migration-flow	denmark_destination
+			Developed regions	Migrants: Where foreign-born population in selected country moved from	migration-flow	developedregions_destination
+			Djibouti	Migrants: Where foreign-born population in selected country moved from	migration-flow	djibouti_destination
+			Dominica	Migrants: Where foreign-born population in selected country moved from	migration-flow	dominica_destination
+			Dominican Republic	Migrants: Where foreign-born population in selected country moved from	migration-flow	dominicanrepublic_destination
+			Eastern Africa	Migrants: Where foreign-born population in selected country moved from	migration-flow	easternafrica_destination
+			Eastern Asia	Migrants: Where foreign-born population in selected country moved from	migration-flow	easternasia_destination
+			Eastern Europe	Migrants: Where foreign-born population in selected country moved from	migration-flow	easterneurope_destination
+			Eastern and South-Eastern Asia	Migrants: Where foreign-born population in selected country moved from	migration-flow	easternandsouth-easternasia_destination
+			Ecuador	Migrants: Where foreign-born population in selected country moved from	migration-flow	ecuador_destination
+			Egypt	Migrants: Where foreign-born population in selected country moved from	migration-flow	egypt_destination
+			El Salvador	Migrants: Where foreign-born population in selected country moved from	migration-flow	elsalvador_destination
+			Equatorial Guinea	Migrants: Where foreign-born population in selected country moved from	migration-flow	equatorialguinea_destination
+			Eritrea	Migrants: Where foreign-born population in selected country moved from	migration-flow	eritrea_destination
+			Estonia	Migrants: Where foreign-born population in selected country moved from	migration-flow	estonia_destination
+			Eswatini	Migrants: Where foreign-born population in selected country moved from	migration-flow	eswatini_destination
+			Ethiopia	Migrants: Where foreign-born population in selected country moved from	migration-flow	ethiopia_destination
+			Europe	Migrants: Where foreign-born population in selected country moved from	migration-flow	europe_destination
+			Europe and Northern America	Migrants: Where foreign-born population in selected country moved from	migration-flow	europeandnorthernamerica_destination
+			Faeroe Islands	Migrants: Where foreign-born population in selected country moved from	migration-flow	faeroeislands_destination
+			Falkland Islands	Migrants: Where foreign-born population in selected country moved from	migration-flow	falklandislands_destination
+			Fiji	Migrants: Where foreign-born population in selected country moved from	migration-flow	fiji_destination
+			Finland	Migrants: Where foreign-born population in selected country moved from	migration-flow	finland_destination
+			France	Migrants: Where foreign-born population in selected country moved from	migration-flow	france_destination
+			French Guiana	Migrants: Where foreign-born population in selected country moved from	migration-flow	frenchguiana_destination
+			French Polynesia	Migrants: Where foreign-born population in selected country moved from	migration-flow	frenchpolynesia_destination
+			Gabon	Migrants: Where foreign-born population in selected country moved from	migration-flow	gabon_destination
+			Gambia	Migrants: Where foreign-born population in selected country moved from	migration-flow	gambia_destination
+			Georgia	Migrants: Where foreign-born population in selected country moved from	migration-flow	georgia_destination
+			Germany	Migrants: Where foreign-born population in selected country moved from	migration-flow	germany_destination
+			Ghana	Migrants: Where foreign-born population in selected country moved from	migration-flow	ghana_destination
+			Gibraltar	Migrants: Where foreign-born population in selected country moved from	migration-flow	gibraltar_destination
+			Greece	Migrants: Where foreign-born population in selected country moved from	migration-flow	greece_destination
+			Greenland	Migrants: Where foreign-born population in selected country moved from	migration-flow	greenland_destination
+			Grenada	Migrants: Where foreign-born population in selected country moved from	migration-flow	grenada_destination
+			Guadeloupe	Migrants: Where foreign-born population in selected country moved from	migration-flow	guadeloupe_destination
+			Guam	Migrants: Where foreign-born population in selected country moved from	migration-flow	guam_destination
+			Guatemala	Migrants: Where foreign-born population in selected country moved from	migration-flow	guatemala_destination
+			Guinea	Migrants: Where foreign-born population in selected country moved from	migration-flow	guinea_destination
+			Guinea-Bissau	Migrants: Where foreign-born population in selected country moved from	migration-flow	guinea-bissau_destination
+			Guyana	Migrants: Where foreign-born population in selected country moved from	migration-flow	guyana_destination
+			Haiti	Migrants: Where foreign-born population in selected country moved from	migration-flow	haiti_destination
+			High-income countries	Migrants: Where foreign-born population in selected country moved from	migration-flow	high-incomecountries_destination
+			Honduras	Migrants: Where foreign-born population in selected country moved from	migration-flow	honduras_destination
+			Hong Kong	Migrants: Where foreign-born population in selected country moved from	migration-flow	hongkong_destination
+			Hungary	Migrants: Where foreign-born population in selected country moved from	migration-flow	hungary_destination
+			Iceland	Migrants: Where foreign-born population in selected country moved from	migration-flow	iceland_destination
+			India	Migrants: Where foreign-born population in selected country moved from	migration-flow	india_destination
+			Indonesia	Migrants: Where foreign-born population in selected country moved from	migration-flow	indonesia_destination
+			Iran	Migrants: Where foreign-born population in selected country moved from	migration-flow	iran_destination
+			Iraq	Migrants: Where foreign-born population in selected country moved from	migration-flow	iraq_destination
+			Ireland	Migrants: Where foreign-born population in selected country moved from	migration-flow	ireland_destination
+			Isle of Man	Migrants: Where foreign-born population in selected country moved from	migration-flow	isleofman_destination
+			Israel	Migrants: Where foreign-born population in selected country moved from	migration-flow	israel_destination
+			Italy	Migrants: Where foreign-born population in selected country moved from	migration-flow	italy_destination
+			Jamaica	Migrants: Where foreign-born population in selected country moved from	migration-flow	jamaica_destination
+			Japan	Migrants: Where foreign-born population in selected country moved from	migration-flow	japan_destination
+			Jordan	Migrants: Where foreign-born population in selected country moved from	migration-flow	jordan_destination
+			Kazakhstan	Migrants: Where foreign-born population in selected country moved from	migration-flow	kazakhstan_destination
+			Kenya	Migrants: Where foreign-born population in selected country moved from	migration-flow	kenya_destination
+			Kiribati	Migrants: Where foreign-born population in selected country moved from	migration-flow	kiribati_destination
+			Kuwait	Migrants: Where foreign-born population in selected country moved from	migration-flow	kuwait_destination
+			Kyrgyzstan	Migrants: Where foreign-born population in selected country moved from	migration-flow	kyrgyzstan_destination
+			Land-locked Developing Countries (LLDC)	Migrants: Where foreign-born population in selected country moved from	migration-flow	land-lockeddevelopingcountries(lldc)_destination
+			Laos	Migrants: Where foreign-born population in selected country moved from	migration-flow	laos_destination
+			Latin America and the Caribbean	Migrants: Where foreign-born population in selected country moved from	migration-flow	latinamericaandthecaribbean_destination
+			Latvia	Migrants: Where foreign-born population in selected country moved from	migration-flow	latvia_destination
+			Least developed countries	Migrants: Where foreign-born population in selected country moved from	migration-flow	leastdevelopedcountries_destination
+			Lebanon	Migrants: Where foreign-born population in selected country moved from	migration-flow	lebanon_destination
+			Lesotho	Migrants: Where foreign-born population in selected country moved from	migration-flow	lesotho_destination
+			Less developed regions	Migrants: Where foreign-born population in selected country moved from	migration-flow	lessdevelopedregions_destination
+			Less developed regions, excluding China	Migrants: Where foreign-born population in selected country moved from	migration-flow	lessdevelopedregions,excludingchina_destination
+			Less developed regions, excluding least developed countries	Migrants: Where foreign-born population in selected country moved from	migration-flow	lessdevelopedregions,excludingleastdevelopedcountries_destination
+			Liberia	Migrants: Where foreign-born population in selected country moved from	migration-flow	liberia_destination
+			Libya	Migrants: Where foreign-born population in selected country moved from	migration-flow	libya_destination
+			Liechtenstein	Migrants: Where foreign-born population in selected country moved from	migration-flow	liechtenstein_destination
+			Lithuania	Migrants: Where foreign-born population in selected country moved from	migration-flow	lithuania_destination
+			Low-income countries	Migrants: Where foreign-born population in selected country moved from	migration-flow	low-incomecountries_destination
+			Lower-middle-income countries	Migrants: Where foreign-born population in selected country moved from	migration-flow	lower-middle-incomecountries_destination
+			Luxembourg	Migrants: Where foreign-born population in selected country moved from	migration-flow	luxembourg_destination
+			Macao	Migrants: Where foreign-born population in selected country moved from	migration-flow	macao_destination
+			Madagascar	Migrants: Where foreign-born population in selected country moved from	migration-flow	madagascar_destination
+			Malawi	Migrants: Where foreign-born population in selected country moved from	migration-flow	malawi_destination
+			Malaysia	Migrants: Where foreign-born population in selected country moved from	migration-flow	malaysia_destination
+			Maldives	Migrants: Where foreign-born population in selected country moved from	migration-flow	maldives_destination
+			Mali	Migrants: Where foreign-born population in selected country moved from	migration-flow	mali_destination
+			Malta	Migrants: Where foreign-born population in selected country moved from	migration-flow	malta_destination
+			Marshall Islands	Migrants: Where foreign-born population in selected country moved from	migration-flow	marshallislands_destination
+			Martinique	Migrants: Where foreign-born population in selected country moved from	migration-flow	martinique_destination
+			Mauritania	Migrants: Where foreign-born population in selected country moved from	migration-flow	mauritania_destination
+			Mauritius	Migrants: Where foreign-born population in selected country moved from	migration-flow	mauritius_destination
+			Mayotte	Migrants: Where foreign-born population in selected country moved from	migration-flow	mayotte_destination
+			Melanesia	Migrants: Where foreign-born population in selected country moved from	migration-flow	melanesia_destination
+			Mexico	Migrants: Where foreign-born population in selected country moved from	migration-flow	mexico_destination
+			Micronesia (country)	Migrants: Where foreign-born population in selected country moved from	migration-flow	micronesia(country)_destination
+			Micronesia (region)	Migrants: Where foreign-born population in selected country moved from	migration-flow	micronesia(region)_destination
+			Middle Africa	Migrants: Where foreign-born population in selected country moved from	migration-flow	middleafrica_destination
+			Middle-income countries	Migrants: Where foreign-born population in selected country moved from	migration-flow	middle-incomecountries_destination
+			Moldova	Migrants: Where foreign-born population in selected country moved from	migration-flow	moldova_destination
+			Monaco	Migrants: Where foreign-born population in selected country moved from	migration-flow	monaco_destination
+			Mongolia	Migrants: Where foreign-born population in selected country moved from	migration-flow	mongolia_destination
+			Montenegro	Migrants: Where foreign-born population in selected country moved from	migration-flow	montenegro_destination
+			Montserrat	Migrants: Where foreign-born population in selected country moved from	migration-flow	montserrat_destination
+			Morocco	Migrants: Where foreign-born population in selected country moved from	migration-flow	morocco_destination
+			Mozambique	Migrants: Where foreign-born population in selected country moved from	migration-flow	mozambique_destination
+			Myanmar	Migrants: Where foreign-born population in selected country moved from	migration-flow	myanmar_destination
+			Namibia	Migrants: Where foreign-born population in selected country moved from	migration-flow	namibia_destination
+			Nauru	Migrants: Where foreign-born population in selected country moved from	migration-flow	nauru_destination
+			Nepal	Migrants: Where foreign-born population in selected country moved from	migration-flow	nepal_destination
+			Netherlands	Migrants: Where foreign-born population in selected country moved from	migration-flow	netherlands_destination
+			New Caledonia	Migrants: Where foreign-born population in selected country moved from	migration-flow	newcaledonia_destination
+			New Zealand	Migrants: Where foreign-born population in selected country moved from	migration-flow	newzealand_destination
+			Nicaragua	Migrants: Where foreign-born population in selected country moved from	migration-flow	nicaragua_destination
+			Niger	Migrants: Where foreign-born population in selected country moved from	migration-flow	niger_destination
+			Nigeria	Migrants: Where foreign-born population in selected country moved from	migration-flow	nigeria_destination
+			Niue	Migrants: Where foreign-born population in selected country moved from	migration-flow	niue_destination
+			North Korea	Migrants: Where foreign-born population in selected country moved from	migration-flow	northkorea_destination
+			North Macedonia	Migrants: Where foreign-born population in selected country moved from	migration-flow	northmacedonia_destination
+			Northern Africa	Migrants: Where foreign-born population in selected country moved from	migration-flow	northernafrica_destination
+			Northern Africa and Western Asia	Migrants: Where foreign-born population in selected country moved from	migration-flow	northernafricaandwesternasia_destination
+			Northern America	Migrants: Where foreign-born population in selected country moved from	migration-flow	northernamerica_destination
+			Northern Europe	Migrants: Where foreign-born population in selected country moved from	migration-flow	northerneurope_destination
+			Northern Mariana Islands	Migrants: Where foreign-born population in selected country moved from	migration-flow	northernmarianaislands_destination
+			Norway	Migrants: Where foreign-born population in selected country moved from	migration-flow	norway_destination
+			Oceania	Migrants: Where foreign-born population in selected country moved from	migration-flow	oceania_destination
+			Oceania (excluding Australia and New Zealand)	Migrants: Where foreign-born population in selected country moved from	migration-flow	oceania(excludingaustraliaandnewzealand)_destination
+			Oman	Migrants: Where foreign-born population in selected country moved from	migration-flow	oman_destination
+			Other	Migrants: Where foreign-born population in selected country moved from	migration-flow	other_destination
+			Pakistan	Migrants: Where foreign-born population in selected country moved from	migration-flow	pakistan_destination
+			Palau	Migrants: Where foreign-born population in selected country moved from	migration-flow	palau_destination
+			Palestine	Migrants: Where foreign-born population in selected country moved from	migration-flow	palestine_destination
+			Panama	Migrants: Where foreign-born population in selected country moved from	migration-flow	panama_destination
+			Papua New Guinea	Migrants: Where foreign-born population in selected country moved from	migration-flow	papuanewguinea_destination
+			Paraguay	Migrants: Where foreign-born population in selected country moved from	migration-flow	paraguay_destination
+			Peru	Migrants: Where foreign-born population in selected country moved from	migration-flow	peru_destination
+			Philippines	Migrants: Where foreign-born population in selected country moved from	migration-flow	philippines_destination
+			Poland	Migrants: Where foreign-born population in selected country moved from	migration-flow	poland_destination
+			Polynesia	Migrants: Where foreign-born population in selected country moved from	migration-flow	polynesia_destination
+			Portugal	Migrants: Where foreign-born population in selected country moved from	migration-flow	portugal_destination
+			Puerto Rico	Migrants: Where foreign-born population in selected country moved from	migration-flow	puertorico_destination
+			Qatar	Migrants: Where foreign-born population in selected country moved from	migration-flow	qatar_destination
+			Reunion	Migrants: Where foreign-born population in selected country moved from	migration-flow	reunion_destination
+			Romania	Migrants: Where foreign-born population in selected country moved from	migration-flow	romania_destination
+			Russia	Migrants: Where foreign-born population in selected country moved from	migration-flow	russia_destination
+			Rwanda	Migrants: Where foreign-born population in selected country moved from	migration-flow	rwanda_destination
+			Saint Barthlemy	Migrants: Where foreign-born population in selected country moved from	migration-flow	saintbarthlemy_destination
+			Saint Helena	Migrants: Where foreign-born population in selected country moved from	migration-flow	sainthelena_destination
+			Saint Kitts and Nevis	Migrants: Where foreign-born population in selected country moved from	migration-flow	saintkittsandnevis_destination
+			Saint Lucia	Migrants: Where foreign-born population in selected country moved from	migration-flow	saintlucia_destination
+			Saint Martin (French part)	Migrants: Where foreign-born population in selected country moved from	migration-flow	saintmartin(frenchpart)_destination
+			Saint Pierre and Miquelon	Migrants: Where foreign-born population in selected country moved from	migration-flow	saintpierreandmiquelon_destination
+			Saint Vincent and the Grenadines	Migrants: Where foreign-born population in selected country moved from	migration-flow	saintvincentandthegrenadines_destination
+			Samoa	Migrants: Where foreign-born population in selected country moved from	migration-flow	samoa_destination
+			San Marino	Migrants: Where foreign-born population in selected country moved from	migration-flow	sanmarino_destination
+			Sao Tome and Principe	Migrants: Where foreign-born population in selected country moved from	migration-flow	saotomeandprincipe_destination
+			Saudi Arabia	Migrants: Where foreign-born population in selected country moved from	migration-flow	saudiarabia_destination
+			Senegal	Migrants: Where foreign-born population in selected country moved from	migration-flow	senegal_destination
+			Serbia	Migrants: Where foreign-born population in selected country moved from	migration-flow	serbia_destination
+			Seychelles	Migrants: Where foreign-born population in selected country moved from	migration-flow	seychelles_destination
+			Sierra Leone	Migrants: Where foreign-born population in selected country moved from	migration-flow	sierraleone_destination
+			Singapore	Migrants: Where foreign-born population in selected country moved from	migration-flow	singapore_destination
+			Sint Maarten (Dutch part)	Migrants: Where foreign-born population in selected country moved from	migration-flow	sintmaarten(dutchpart)_destination
+			Slovakia	Migrants: Where foreign-born population in selected country moved from	migration-flow	slovakia_destination
+			Slovenia	Migrants: Where foreign-born population in selected country moved from	migration-flow	slovenia_destination
+			Small island developing States (SIDS)	Migrants: Where foreign-born population in selected country moved from	migration-flow	smallislanddevelopingstates(sids)_destination
+			Solomon Islands	Migrants: Where foreign-born population in selected country moved from	migration-flow	solomonislands_destination
+			Somalia	Migrants: Where foreign-born population in selected country moved from	migration-flow	somalia_destination
+			South Africa	Migrants: Where foreign-born population in selected country moved from	migration-flow	southafrica_destination
+			South America	Migrants: Where foreign-born population in selected country moved from	migration-flow	southamerica_destination
+			South Korea	Migrants: Where foreign-born population in selected country moved from	migration-flow	southkorea_destination
+			South Sudan	Migrants: Where foreign-born population in selected country moved from	migration-flow	southsudan_destination
+			South-Eastern Asia	Migrants: Where foreign-born population in selected country moved from	migration-flow	south-easternasia_destination
+			Southern Africa	Migrants: Where foreign-born population in selected country moved from	migration-flow	southernafrica_destination
+			Southern Asia	Migrants: Where foreign-born population in selected country moved from	migration-flow	southernasia_destination
+			Southern Europe	Migrants: Where foreign-born population in selected country moved from	migration-flow	southerneurope_destination
+			Spain	Migrants: Where foreign-born population in selected country moved from	migration-flow	spain_destination
+			Sri Lanka	Migrants: Where foreign-born population in selected country moved from	migration-flow	srilanka_destination
+			Sub-Saharan Africa	Migrants: Where foreign-born population in selected country moved from	migration-flow	sub-saharanafrica_destination
+			Sudan	Migrants: Where foreign-born population in selected country moved from	migration-flow	sudan_destination
+			Suriname	Migrants: Where foreign-born population in selected country moved from	migration-flow	suriname_destination
+			Sweden	Migrants: Where foreign-born population in selected country moved from	migration-flow	sweden_destination
+			Switzerland	Migrants: Where foreign-born population in selected country moved from	migration-flow	switzerland_destination
+			Syria	Migrants: Where foreign-born population in selected country moved from	migration-flow	syria_destination
+			Taiwan	Migrants: Where foreign-born population in selected country moved from	migration-flow	taiwan_destination
+			Tajikistan	Migrants: Where foreign-born population in selected country moved from	migration-flow	tajikistan_destination
+			Tanzania	Migrants: Where foreign-born population in selected country moved from	migration-flow	tanzania_destination
+			Thailand	Migrants: Where foreign-born population in selected country moved from	migration-flow	thailand_destination
+			Timor-Leste	Migrants: Where foreign-born population in selected country moved from	migration-flow	timor-leste_destination
+			Togo	Migrants: Where foreign-born population in selected country moved from	migration-flow	togo_destination
+			Tokelau	Migrants: Where foreign-born population in selected country moved from	migration-flow	tokelau_destination
+			Tonga	Migrants: Where foreign-born population in selected country moved from	migration-flow	tonga_destination
+			Trinidad and Tobago	Migrants: Where foreign-born population in selected country moved from	migration-flow	trinidadandtobago_destination
+			Tunisia	Migrants: Where foreign-born population in selected country moved from	migration-flow	tunisia_destination
+			Turkey	Migrants: Where foreign-born population in selected country moved from	migration-flow	turkey_destination
+			Turkmenistan	Migrants: Where foreign-born population in selected country moved from	migration-flow	turkmenistan_destination
+			Turks and Caicos Islands	Migrants: Where foreign-born population in selected country moved from	migration-flow	turksandcaicosislands_destination
+			Tuvalu	Migrants: Where foreign-born population in selected country moved from	migration-flow	tuvalu_destination
+			Uganda	Migrants: Where foreign-born population in selected country moved from	migration-flow	uganda_destination
+			Ukraine	Migrants: Where foreign-born population in selected country moved from	migration-flow	ukraine_destination
+			United Arab Emirates	Migrants: Where foreign-born population in selected country moved from	migration-flow	unitedarabemirates_destination
+			United Kingdom	Migrants: Where foreign-born population in selected country moved from	migration-flow	unitedkingdom_destination
+			United States	Migrants: Where foreign-born population in selected country moved from	migration-flow	unitedstates_destination
+			United States Virgin Islands	Migrants: Where foreign-born population in selected country moved from	migration-flow	unitedstatesvirginislands_destination
+			Upper-middle-income countries	Migrants: Where foreign-born population in selected country moved from	migration-flow	upper-middle-incomecountries_destination
+			Uruguay	Migrants: Where foreign-born population in selected country moved from	migration-flow	uruguay_destination
+			Uzbekistan	Migrants: Where foreign-born population in selected country moved from	migration-flow	uzbekistan_destination
+			Vanuatu	Migrants: Where foreign-born population in selected country moved from	migration-flow	vanuatu_destination
+			Vatican	Migrants: Where foreign-born population in selected country moved from	migration-flow	vatican_destination
+			Venezuela	Migrants: Where foreign-born population in selected country moved from	migration-flow	venezuela_destination
+			Vietnam	Migrants: Where foreign-born population in selected country moved from	migration-flow	vietnam_destination
+			Wallis and Futuna	Migrants: Where foreign-born population in selected country moved from	migration-flow	wallisandfutuna_destination
+			Western Africa	Migrants: Where foreign-born population in selected country moved from	migration-flow	westernafrica_destination
+			Western Asia	Migrants: Where foreign-born population in selected country moved from	migration-flow	westernasia_destination
+			Western Europe	Migrants: Where foreign-born population in selected country moved from	migration-flow	westerneurope_destination
+			Western Sahara	Migrants: Where foreign-born population in selected country moved from	migration-flow	westernsahara_destination
+			World	Migrants: Where foreign-born population in selected country moved from	migration-flow	world_destination
+			Yemen	Migrants: Where foreign-born population in selected country moved from	migration-flow	yemen_destination
+			Zambia	Migrants: Where foreign-born population in selected country moved from	migration-flow	zambia_destination
+			Zimbabwe	Migrants: Where foreign-born population in selected country moved from	migration-flow	zimbabwe_destination
+table	https://raw.githubusercontent.com/owid/importers/migration/migration/output/Migration_matrix.csv	migration-flow
+columns	migration-flow
+	slug	name	type	unit	shortUnit	transform	annotationsColumnSlug	notes	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo	tolerance	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
+	year	Year	Year
+	entity	Country	EntityName
+	afghanistan_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	africa_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	albania_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	algeria_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	americansamoa_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	andorra_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	angola_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	anguilla_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	antiguaandbarbuda_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	argentina_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	armenia_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	aruba_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	asia_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	australia_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	australiaandnewzealand_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	austria_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	azerbaijan_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	bahamas_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	bahrain_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	bangladesh_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	barbados_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	belarus_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	belgium_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	belize_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	benin_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	bermuda_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	bhutan_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	bolivia_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	bonairesinteustatiusandsaba_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	bosniaandherzegovina_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	botswana_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	brazil_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	britishvirginislands_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	brunei_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	bulgaria_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	burkinafaso_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	burundi_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	cambodia_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	cameroon_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	canada_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	capeverde_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	caribbean_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	caymanislands_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	centralafricanrepublic_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	centralamerica_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	centralasia_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	centralandsouthernasia_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	chad_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	channelislands_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	chile_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	china_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	colombia_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	comoros_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	congo_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	cookislands_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	costarica_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	coted'ivoire_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	croatia_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	cuba_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	curacao_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	cyprus_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	czechia_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	democraticrepublicofcongo_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	denmark_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	developedregions_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	djibouti_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	dominica_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	dominicanrepublic_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	easternafrica_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	easternasia_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	easterneurope_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	easternandsouth-easternasia_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	ecuador_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	egypt_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	elsalvador_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	equatorialguinea_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	eritrea_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	estonia_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	eswatini_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	ethiopia_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	europe_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	europeandnorthernamerica_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	faeroeislands_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	falklandislands_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	fiji_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	finland_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	france_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	frenchguiana_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	frenchpolynesia_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	gabon_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	gambia_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	georgia_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	germany_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	ghana_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	gibraltar_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	greece_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	greenland_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	grenada_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	guadeloupe_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	guam_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	guatemala_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	guinea_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	guinea-bissau_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	guyana_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	haiti_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	high-incomecountries_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	honduras_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	hongkong_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	hungary_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	iceland_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	india_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	indonesia_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	iran_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	iraq_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	ireland_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	isleofman_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	israel_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	italy_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	jamaica_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	japan_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	jordan_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	kazakhstan_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	kenya_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	kiribati_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	kuwait_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	kyrgyzstan_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	land-lockeddevelopingcountries(lldc)_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	laos_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	latinamericaandthecaribbean_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	latvia_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	leastdevelopedcountries_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	lebanon_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	lesotho_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	lessdevelopedregions_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	lessdevelopedregions,excludingchina_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	lessdevelopedregions,excludingleastdevelopedcountries_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	liberia_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	libya_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	liechtenstein_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	lithuania_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	low-incomecountries_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	lower-middle-incomecountries_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	luxembourg_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	macao_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	madagascar_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	malawi_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	malaysia_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	maldives_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	mali_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	malta_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	marshallislands_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	martinique_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	mauritania_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	mauritius_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	mayotte_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	melanesia_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	mexico_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	micronesia(country)_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	micronesia(region)_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	middleafrica_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	middle-incomecountries_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	moldova_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	monaco_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	mongolia_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	montenegro_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	montserrat_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	morocco_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	mozambique_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	myanmar_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	namibia_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	nauru_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	nepal_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	netherlands_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	newcaledonia_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	newzealand_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	nicaragua_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	niger_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	nigeria_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	niue_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	northkorea_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	northmacedonia_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	northernafrica_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	northernafricaandwesternasia_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	northernamerica_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	northerneurope_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	northernmarianaislands_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	norway_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	oceania_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	oceania(excludingaustraliaandnewzealand)_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	oman_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	other_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	pakistan_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	palau_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	palestine_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	panama_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	papuanewguinea_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	paraguay_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	peru_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	philippines_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	poland_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	polynesia_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	portugal_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	puertorico_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	qatar_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	reunion_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	romania_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	russia_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	rwanda_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	saintbarthlemy_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	sainthelena_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	saintkittsandnevis_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	saintlucia_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	saintmartin(frenchpart)_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	saintpierreandmiquelon_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	saintvincentandthegrenadines_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	samoa_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	sanmarino_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	saotomeandprincipe_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	saudiarabia_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	senegal_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	serbia_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	seychelles_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	sierraleone_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	singapore_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	sintmaarten(dutchpart)_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	slovakia_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	slovenia_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	smallislanddevelopingstates(sids)_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	solomonislands_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	somalia_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	southafrica_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	southamerica_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	southkorea_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	southsudan_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	south-easternasia_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	southernafrica_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	southernasia_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	southerneurope_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	spain_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	srilanka_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	sub-saharanafrica_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	sudan_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	suriname_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	sweden_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	switzerland_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	syria_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	taiwan_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	tajikistan_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	tanzania_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	thailand_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	timor-leste_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	togo_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	tokelau_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	tonga_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	trinidadandtobago_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	tunisia_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	turkey_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	turkmenistan_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	turksandcaicosislands_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	tuvalu_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	uganda_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	ukraine_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	unitedarabemirates_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	unitedkingdom_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	unitedstates_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	unitedstatesvirginislands_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	upper-middle-incomecountries_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	uruguay_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	uzbekistan_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	vanuatu_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	vatican_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	venezuela_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	vietnam_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	wallisandfutuna_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	westernafrica_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	westernasia_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	westerneurope_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	westernsahara_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	world_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	yemen_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	zambia_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	zimbabwe_origin		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	YlGnBu
+	afghanistan_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	africa_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	albania_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	algeria_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	americansamoa_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	andorra_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	angola_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	anguilla_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	antiguaandbarbuda_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	argentina_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	armenia_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	aruba_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	asia_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	australia_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	australiaandnewzealand_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	austria_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	azerbaijan_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	bahamas_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	bahrain_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	bangladesh_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	barbados_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	belarus_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	belgium_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	belize_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	benin_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	bermuda_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	bhutan_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	bolivia_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	bonairesinteustatiusandsaba_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	bosniaandherzegovina_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	botswana_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	brazil_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	britishvirginislands_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	brunei_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	bulgaria_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	burkinafaso_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	burundi_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	cambodia_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	cameroon_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	canada_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	capeverde_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	caribbean_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	caymanislands_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	centralafricanrepublic_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	centralamerica_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	centralasia_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	centralandsouthernasia_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	chad_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	channelislands_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	chile_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	china_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	colombia_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	comoros_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	congo_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	cookislands_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	costarica_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	coted'ivoire_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	croatia_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	cuba_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	curacao_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	cyprus_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	czechia_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	democraticrepublicofcongo_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	denmark_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	developedregions_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	djibouti_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	dominica_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	dominicanrepublic_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	easternafrica_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	easternasia_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	easterneurope_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	easternandsouth-easternasia_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	ecuador_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	egypt_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	elsalvador_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	equatorialguinea_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	eritrea_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	estonia_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	eswatini_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	ethiopia_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	europe_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	europeandnorthernamerica_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	faeroeislands_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	falklandislands_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	fiji_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	finland_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	france_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	frenchguiana_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	frenchpolynesia_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	gabon_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	gambia_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	georgia_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	germany_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	ghana_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	gibraltar_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	greece_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	greenland_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	grenada_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	guadeloupe_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	guam_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	guatemala_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	guinea_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	guinea-bissau_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	guyana_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	haiti_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	high-incomecountries_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	honduras_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	hongkong_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	hungary_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	iceland_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	india_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	indonesia_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	iran_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	iraq_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	ireland_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	isleofman_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	israel_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	italy_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	jamaica_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	japan_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	jordan_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	kazakhstan_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	kenya_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	kiribati_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	kuwait_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	kyrgyzstan_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	land-lockeddevelopingcountries(lldc)_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	laos_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	latinamericaandthecaribbean_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	latvia_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	leastdevelopedcountries_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	lebanon_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	lesotho_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	lessdevelopedregions_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	lessdevelopedregions,excludingchina_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	lessdevelopedregions,excludingleastdevelopedcountries_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	liberia_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	libya_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	liechtenstein_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	lithuania_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	low-incomecountries_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	lower-middle-incomecountries_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	luxembourg_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	macao_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	madagascar_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	malawi_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	malaysia_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	maldives_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	mali_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	malta_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	marshallislands_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	martinique_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	mauritania_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	mauritius_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	mayotte_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	melanesia_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	mexico_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	micronesia(country)_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	micronesia(region)_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	middleafrica_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	middle-incomecountries_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	moldova_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	monaco_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	mongolia_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	montenegro_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	montserrat_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	morocco_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	mozambique_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	myanmar_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	namibia_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	nauru_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	nepal_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	netherlands_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	newcaledonia_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	newzealand_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	nicaragua_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	niger_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	nigeria_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	niue_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	northkorea_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	northmacedonia_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	northernafrica_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	northernafricaandwesternasia_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	northernamerica_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	northerneurope_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	northernmarianaislands_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	norway_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	oceania_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	oceania(excludingaustraliaandnewzealand)_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	oman_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	other_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	pakistan_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	palau_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	palestine_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	panama_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	papuanewguinea_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	paraguay_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	peru_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	philippines_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	poland_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	polynesia_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	portugal_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	puertorico_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	qatar_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	reunion_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	romania_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	russia_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	rwanda_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	saintbarthlemy_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	sainthelena_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	saintkittsandnevis_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	saintlucia_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	saintmartin(frenchpart)_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	saintpierreandmiquelon_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	saintvincentandthegrenadines_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	samoa_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	sanmarino_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	saotomeandprincipe_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	saudiarabia_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	senegal_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	serbia_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	seychelles_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	sierraleone_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	singapore_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	sintmaarten(dutchpart)_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	slovakia_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	slovenia_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	smallislanddevelopingstates(sids)_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	solomonislands_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	somalia_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	southafrica_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	southamerica_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	southkorea_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	southsudan_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	south-easternasia_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	southernafrica_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	southernasia_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	southerneurope_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	spain_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	srilanka_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	sub-saharanafrica_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	sudan_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	suriname_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	sweden_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	switzerland_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	syria_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	taiwan_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	tajikistan_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	tanzania_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	thailand_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	timor-leste_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	togo_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	tokelau_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	tonga_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	trinidadandtobago_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	tunisia_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	turkey_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	turkmenistan_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	turksandcaicosislands_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	tuvalu_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	uganda_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	ukraine_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	unitedarabemirates_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	unitedkingdom_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	unitedstates_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	unitedstatesvirginislands_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	upper-middle-incomecountries_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	uruguay_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	uzbekistan_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	vanuatu_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	vatican_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	venezuela_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	vietnam_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	wallisandfutuna_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	westernafrica_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	westernasia_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	westerneurope_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	westernsahara_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	world_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	yemen_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	zambia_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
+	zimbabwe_destination		Integer													0	1000,,;10000,,;100000,,;1000000,,;10000000	true	PuBuGn
