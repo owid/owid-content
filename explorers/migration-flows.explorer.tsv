@@ -11,7 +11,7 @@ hideTitleAnnotation	true
 tab	map
 graphers
 	title	subtitle	Select a country Dropdown	Outflow or Inflow Radio	tableSlug	ySlugs	yScaleToggle	xSlug	baseColorScheme	type	hasMapTab
-	Emigrants from Afghanistan: Where do they live now?		Afghanistan	Emigrants: Where people born in selected country moved to	migration-flow	afghanistan_origin	false		owid-distinct	DiscreteBar	true
+	Emigrants from Afghanistan: Where they moved to		Afghanistan	Emigrants: Where people born in selected country moved to	migration-flow	afghanistan_origin	false		owid-distinct	DiscreteBar	true
 			Africa	Emigrants: Where people born in selected country moved to	migration-flow	africa_origin	false		owid-distinct	DiscreteBar	true
 			Albania	Emigrants: Where people born in selected country moved to	migration-flow	albania_origin	false		owid-distinct	DiscreteBar	true
 			Algeria	Emigrants: Where people born in selected country moved to	migration-flow	algeria_origin	false		owid-distinct	DiscreteBar	true
