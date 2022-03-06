@@ -11,570 +11,570 @@ hideTitleAnnotation	true
 tab	map
 graphers
 	title	subtitle	Select a country Dropdown	Outflow or Inflow Radio	tableSlug	ySlugs	yScaleToggle	xSlug	baseColorScheme	type	hasMapTab
-	Emigrants from Afghanistan: Where they moved to		Afghanistan	Emigrants: Where people born in selected country moved to	migration-flow	afghanistan_origin	false		owid-distinct	DiscreteBar	true
-			Africa	Emigrants: Where people born in selected country moved to	migration-flow	africa_origin	false		owid-distinct	DiscreteBar	true
-			Albania	Emigrants: Where people born in selected country moved to	migration-flow	albania_origin	false		owid-distinct	DiscreteBar	true
-			Algeria	Emigrants: Where people born in selected country moved to	migration-flow	algeria_origin	false		owid-distinct	DiscreteBar	true
-			American Samoa	Emigrants: Where people born in selected country moved to	migration-flow	americansamoa_origin	false		owid-distinct	DiscreteBar	true
-			Andorra	Emigrants: Where people born in selected country moved to	migration-flow	andorra_origin	false		owid-distinct	DiscreteBar	true
-			Angola	Emigrants: Where people born in selected country moved to	migration-flow	angola_origin	false		owid-distinct	DiscreteBar	true
-			Anguilla	Emigrants: Where people born in selected country moved to	migration-flow	anguilla_origin	false		owid-distinct	DiscreteBar	true
-			Antigua and Barbuda	Emigrants: Where people born in selected country moved to	migration-flow	antiguaandbarbuda_origin	false		owid-distinct	DiscreteBar	true
-			Argentina	Emigrants: Where people born in selected country moved to	migration-flow	argentina_origin	false		owid-distinct	DiscreteBar	true
-			Armenia	Emigrants: Where people born in selected country moved to	migration-flow	armenia_origin	false		owid-distinct	DiscreteBar	true
-			Aruba	Emigrants: Where people born in selected country moved to	migration-flow	aruba_origin	false		owid-distinct	DiscreteBar	true
-			Asia	Emigrants: Where people born in selected country moved to	migration-flow	asia_origin	false		owid-distinct	DiscreteBar	true
-			Australia	Emigrants: Where people born in selected country moved to	migration-flow	australia_origin	false		owid-distinct	DiscreteBar	true
-			Australia and New Zealand	Emigrants: Where people born in selected country moved to	migration-flow	australiaandnewzealand_origin	false		owid-distinct	DiscreteBar	true
-			Austria	Emigrants: Where people born in selected country moved to	migration-flow	austria_origin	false		owid-distinct	DiscreteBar	true
-			Azerbaijan	Emigrants: Where people born in selected country moved to	migration-flow	azerbaijan_origin	false		owid-distinct	DiscreteBar	true
-			Bahamas	Emigrants: Where people born in selected country moved to	migration-flow	bahamas_origin	false		owid-distinct	DiscreteBar	true
-			Bahrain	Emigrants: Where people born in selected country moved to	migration-flow	bahrain_origin	false		owid-distinct	DiscreteBar	true
-			Bangladesh	Emigrants: Where people born in selected country moved to	migration-flow	bangladesh_origin	false		owid-distinct	DiscreteBar	true
-			Barbados	Emigrants: Where people born in selected country moved to	migration-flow	barbados_origin	false		owid-distinct	DiscreteBar	true
-			Belarus	Emigrants: Where people born in selected country moved to	migration-flow	belarus_origin	false		owid-distinct	DiscreteBar	true
-			Belgium	Emigrants: Where people born in selected country moved to	migration-flow	belgium_origin	false		owid-distinct	DiscreteBar	true
-			Belize	Emigrants: Where people born in selected country moved to	migration-flow	belize_origin	false		owid-distinct	DiscreteBar	true
-			Benin	Emigrants: Where people born in selected country moved to	migration-flow	benin_origin	false		owid-distinct	DiscreteBar	true
-			Bermuda	Emigrants: Where people born in selected country moved to	migration-flow	bermuda_origin	false		owid-distinct	DiscreteBar	true
-			Bhutan	Emigrants: Where people born in selected country moved to	migration-flow	bhutan_origin	false		owid-distinct	DiscreteBar	true
-			Bolivia	Emigrants: Where people born in selected country moved to	migration-flow	bolivia_origin	false		owid-distinct	DiscreteBar	true
-			Bonaire Sint Eustatius and Saba	Emigrants: Where people born in selected country moved to	migration-flow	bonairesinteustatiusandsaba_origin	false		owid-distinct	DiscreteBar	true
-			Bosnia and Herzegovina	Emigrants: Where people born in selected country moved to	migration-flow	bosniaandherzegovina_origin	false		owid-distinct	DiscreteBar	true
-			Botswana	Emigrants: Where people born in selected country moved to	migration-flow	botswana_origin	false		owid-distinct	DiscreteBar	true
-			Brazil	Emigrants: Where people born in selected country moved to	migration-flow	brazil_origin	false		owid-distinct	DiscreteBar	true
-			British Virgin Islands	Emigrants: Where people born in selected country moved to	migration-flow	britishvirginislands_origin	false		owid-distinct	DiscreteBar	true
-			Brunei	Emigrants: Where people born in selected country moved to	migration-flow	brunei_origin	false		owid-distinct	DiscreteBar	true
-			Bulgaria	Emigrants: Where people born in selected country moved to	migration-flow	bulgaria_origin	false		owid-distinct	DiscreteBar	true
-			Burkina Faso	Emigrants: Where people born in selected country moved to	migration-flow	burkinafaso_origin	false		owid-distinct	DiscreteBar	true
-			Burundi	Emigrants: Where people born in selected country moved to	migration-flow	burundi_origin	false		owid-distinct	DiscreteBar	true
-			Cambodia	Emigrants: Where people born in selected country moved to	migration-flow	cambodia_origin	false		owid-distinct	DiscreteBar	true
-			Cameroon	Emigrants: Where people born in selected country moved to	migration-flow	cameroon_origin	false		owid-distinct	DiscreteBar	true
-			Canada	Emigrants: Where people born in selected country moved to	migration-flow	canada_origin			owid-distinct	DiscreteBar	true
-			Cape Verde	Emigrants: Where people born in selected country moved to	migration-flow	capeverde_origin			owid-distinct	DiscreteBar	true
-			Caribbean	Emigrants: Where people born in selected country moved to	migration-flow	caribbean_origin			owid-distinct	DiscreteBar	true
-			Cayman Islands	Emigrants: Where people born in selected country moved to	migration-flow	caymanislands_origin			owid-distinct	DiscreteBar	true
-			Central African Republic	Emigrants: Where people born in selected country moved to	migration-flow	centralafricanrepublic_origin			owid-distinct	DiscreteBar	true
-			Central America	Emigrants: Where people born in selected country moved to	migration-flow	centralamerica_origin			owid-distinct	DiscreteBar	true
-			Central Asia	Emigrants: Where people born in selected country moved to	migration-flow	centralasia_origin			owid-distinct	DiscreteBar	true
-			Central and Southern Asia	Emigrants: Where people born in selected country moved to	migration-flow	centralandsouthernasia_origin			owid-distinct	DiscreteBar	true
-			Chad	Emigrants: Where people born in selected country moved to	migration-flow	chad_origin			owid-distinct	DiscreteBar	true
-			Channel Islands	Emigrants: Where people born in selected country moved to	migration-flow	channelislands_origin			owid-distinct	DiscreteBar	true
-			Chile	Emigrants: Where people born in selected country moved to	migration-flow	chile_origin			owid-distinct	DiscreteBar	true
-			China	Emigrants: Where people born in selected country moved to	migration-flow	china_origin			owid-distinct	DiscreteBar	true
-			Colombia	Emigrants: Where people born in selected country moved to	migration-flow	colombia_origin			owid-distinct	DiscreteBar	true
-			Comoros	Emigrants: Where people born in selected country moved to	migration-flow	comoros_origin			owid-distinct	DiscreteBar	true
-			Congo	Emigrants: Where people born in selected country moved to	migration-flow	congo_origin			owid-distinct	DiscreteBar	true
-			Cook Islands	Emigrants: Where people born in selected country moved to	migration-flow	cookislands_origin			owid-distinct	DiscreteBar	true
-			Costa Rica	Emigrants: Where people born in selected country moved to	migration-flow	costarica_origin			owid-distinct	DiscreteBar	true
-			Cote d'Ivoire	Emigrants: Where people born in selected country moved to	migration-flow	coted'ivoire_origin			owid-distinct	DiscreteBar	true
-			Croatia	Emigrants: Where people born in selected country moved to	migration-flow	croatia_origin			owid-distinct	DiscreteBar	true
-			Cuba	Emigrants: Where people born in selected country moved to	migration-flow	cuba_origin			owid-distinct	DiscreteBar	true
-			Curacao	Emigrants: Where people born in selected country moved to	migration-flow	curacao_origin			owid-distinct	DiscreteBar	true
-			Cyprus	Emigrants: Where people born in selected country moved to	migration-flow	cyprus_origin			owid-distinct	DiscreteBar	true
-			Czechia	Emigrants: Where people born in selected country moved to	migration-flow	czechia_origin			owid-distinct	DiscreteBar	true
-			Democratic Republic of Congo	Emigrants: Where people born in selected country moved to	migration-flow	democraticrepublicofcongo_origin			owid-distinct	DiscreteBar	true
-			Denmark	Emigrants: Where people born in selected country moved to	migration-flow	denmark_origin			owid-distinct	DiscreteBar	true
-			Developed regions	Emigrants: Where people born in selected country moved to	migration-flow	developedregions_origin			owid-distinct	DiscreteBar	true
-			Djibouti	Emigrants: Where people born in selected country moved to	migration-flow	djibouti_origin			owid-distinct	DiscreteBar	true
-			Dominica	Emigrants: Where people born in selected country moved to	migration-flow	dominica_origin			owid-distinct	DiscreteBar	true
-			Dominican Republic	Emigrants: Where people born in selected country moved to	migration-flow	dominicanrepublic_origin			owid-distinct	DiscreteBar	true
-			Eastern Africa	Emigrants: Where people born in selected country moved to	migration-flow	easternafrica_origin			owid-distinct	DiscreteBar	true
-			Eastern Asia	Emigrants: Where people born in selected country moved to	migration-flow	easternasia_origin			owid-distinct	DiscreteBar	true
-			Eastern Europe	Emigrants: Where people born in selected country moved to	migration-flow	easterneurope_origin			owid-distinct	DiscreteBar	true
-			Eastern and South-Eastern Asia	Emigrants: Where people born in selected country moved to	migration-flow	easternandsouth-easternasia_origin			owid-distinct	DiscreteBar	true
-			Ecuador	Emigrants: Where people born in selected country moved to	migration-flow	ecuador_origin			owid-distinct	DiscreteBar	true
-			Egypt	Emigrants: Where people born in selected country moved to	migration-flow	egypt_origin			owid-distinct	DiscreteBar	true
-			El Salvador	Emigrants: Where people born in selected country moved to	migration-flow	elsalvador_origin			owid-distinct	DiscreteBar	true
-			Equatorial Guinea	Emigrants: Where people born in selected country moved to	migration-flow	equatorialguinea_origin			owid-distinct	DiscreteBar	true
-			Eritrea	Emigrants: Where people born in selected country moved to	migration-flow	eritrea_origin			owid-distinct	DiscreteBar	true
-			Estonia	Emigrants: Where people born in selected country moved to	migration-flow	estonia_origin			owid-distinct	DiscreteBar	true
-			Eswatini	Emigrants: Where people born in selected country moved to	migration-flow	eswatini_origin			owid-distinct	DiscreteBar	true
-			Ethiopia	Emigrants: Where people born in selected country moved to	migration-flow	ethiopia_origin			owid-distinct	DiscreteBar	true
-			Europe	Emigrants: Where people born in selected country moved to	migration-flow	europe_origin			owid-distinct	DiscreteBar	true
-			Europe and Northern America	Emigrants: Where people born in selected country moved to	migration-flow	europeandnorthernamerica_origin			owid-distinct	DiscreteBar	true
-			Faeroe Islands	Emigrants: Where people born in selected country moved to	migration-flow	faeroeislands_origin			owid-distinct	DiscreteBar	true
-			Falkland Islands	Emigrants: Where people born in selected country moved to	migration-flow	falklandislands_origin			owid-distinct	DiscreteBar	true
-			Fiji	Emigrants: Where people born in selected country moved to	migration-flow	fiji_origin			owid-distinct	DiscreteBar	true
-			Finland	Emigrants: Where people born in selected country moved to	migration-flow	finland_origin			owid-distinct	DiscreteBar	true
-			France	Emigrants: Where people born in selected country moved to	migration-flow	france_origin			owid-distinct	DiscreteBar	true
-			French Guiana	Emigrants: Where people born in selected country moved to	migration-flow	frenchguiana_origin			owid-distinct	DiscreteBar	true
-			French Polynesia	Emigrants: Where people born in selected country moved to	migration-flow	frenchpolynesia_origin			owid-distinct	DiscreteBar	true
-			Gabon	Emigrants: Where people born in selected country moved to	migration-flow	gabon_origin			owid-distinct	DiscreteBar	true
-			Gambia	Emigrants: Where people born in selected country moved to	migration-flow	gambia_origin			owid-distinct	DiscreteBar	true
-			Georgia	Emigrants: Where people born in selected country moved to	migration-flow	georgia_origin			owid-distinct	DiscreteBar	true
-			Germany	Emigrants: Where people born in selected country moved to	migration-flow	germany_origin			owid-distinct	DiscreteBar	true
-			Ghana	Emigrants: Where people born in selected country moved to	migration-flow	ghana_origin			owid-distinct	DiscreteBar	true
-			Gibraltar	Emigrants: Where people born in selected country moved to	migration-flow	gibraltar_origin			owid-distinct	DiscreteBar	true
-			Greece	Emigrants: Where people born in selected country moved to	migration-flow	greece_origin			owid-distinct	DiscreteBar	true
-			Greenland	Emigrants: Where people born in selected country moved to	migration-flow	greenland_origin			owid-distinct	DiscreteBar	true
-			Grenada	Emigrants: Where people born in selected country moved to	migration-flow	grenada_origin			owid-distinct	DiscreteBar	true
-			Guadeloupe	Emigrants: Where people born in selected country moved to	migration-flow	guadeloupe_origin			owid-distinct	DiscreteBar	true
-			Guam	Emigrants: Where people born in selected country moved to	migration-flow	guam_origin			owid-distinct	DiscreteBar	true
-			Guatemala	Emigrants: Where people born in selected country moved to	migration-flow	guatemala_origin			owid-distinct	DiscreteBar	true
-			Guinea	Emigrants: Where people born in selected country moved to	migration-flow	guinea_origin			owid-distinct	DiscreteBar	true
-			Guinea-Bissau	Emigrants: Where people born in selected country moved to	migration-flow	guinea-bissau_origin			owid-distinct	DiscreteBar	true
-			Guyana	Emigrants: Where people born in selected country moved to	migration-flow	guyana_origin			owid-distinct	DiscreteBar	true
-			Haiti	Emigrants: Where people born in selected country moved to	migration-flow	haiti_origin			owid-distinct	DiscreteBar	true
-			High-income countries	Emigrants: Where people born in selected country moved to	migration-flow	high-incomecountries_origin			owid-distinct	DiscreteBar	true
-			Honduras	Emigrants: Where people born in selected country moved to	migration-flow	honduras_origin			owid-distinct	DiscreteBar	true
-			Hong Kong	Emigrants: Where people born in selected country moved to	migration-flow	hongkong_origin			owid-distinct	DiscreteBar	true
-			Hungary	Emigrants: Where people born in selected country moved to	migration-flow	hungary_origin			owid-distinct	DiscreteBar	true
-			Iceland	Emigrants: Where people born in selected country moved to	migration-flow	iceland_origin			owid-distinct	DiscreteBar	true
-			India	Emigrants: Where people born in selected country moved to	migration-flow	india_origin			owid-distinct	DiscreteBar	true
-			Indonesia	Emigrants: Where people born in selected country moved to	migration-flow	indonesia_origin			owid-distinct	DiscreteBar	true
-			Iran	Emigrants: Where people born in selected country moved to	migration-flow	iran_origin			owid-distinct	DiscreteBar	true
-			Iraq	Emigrants: Where people born in selected country moved to	migration-flow	iraq_origin			owid-distinct	DiscreteBar	true
-			Ireland	Emigrants: Where people born in selected country moved to	migration-flow	ireland_origin			owid-distinct	DiscreteBar	true
-			Isle of Man	Emigrants: Where people born in selected country moved to	migration-flow	isleofman_origin			owid-distinct	DiscreteBar	true
-			Israel	Emigrants: Where people born in selected country moved to	migration-flow	israel_origin			owid-distinct	DiscreteBar	true
-			Italy	Emigrants: Where people born in selected country moved to	migration-flow	italy_origin			owid-distinct	DiscreteBar	true
-			Jamaica	Emigrants: Where people born in selected country moved to	migration-flow	jamaica_origin			owid-distinct	DiscreteBar	true
-			Japan	Emigrants: Where people born in selected country moved to	migration-flow	japan_origin			owid-distinct	DiscreteBar	true
-			Jordan	Emigrants: Where people born in selected country moved to	migration-flow	jordan_origin			owid-distinct	DiscreteBar	true
-			Kazakhstan	Emigrants: Where people born in selected country moved to	migration-flow	kazakhstan_origin			owid-distinct	DiscreteBar	true
-			Kenya	Emigrants: Where people born in selected country moved to	migration-flow	kenya_origin			owid-distinct	DiscreteBar	true
-			Kiribati	Emigrants: Where people born in selected country moved to	migration-flow	kiribati_origin			owid-distinct	DiscreteBar	true
-			Kuwait	Emigrants: Where people born in selected country moved to	migration-flow	kuwait_origin			owid-distinct	DiscreteBar	true
-			Kyrgyzstan	Emigrants: Where people born in selected country moved to	migration-flow	kyrgyzstan_origin			owid-distinct	DiscreteBar	true
-			Land-locked Developing Countries (LLDC)	Emigrants: Where people born in selected country moved to	migration-flow	land-lockeddevelopingcountries(lldc)_origin			owid-distinct	DiscreteBar	true
-			Laos	Emigrants: Where people born in selected country moved to	migration-flow	laos_origin			owid-distinct	DiscreteBar	true
-			Latin America and the Caribbean	Emigrants: Where people born in selected country moved to	migration-flow	latinamericaandthecaribbean_origin			owid-distinct	DiscreteBar	true
-			Latvia	Emigrants: Where people born in selected country moved to	migration-flow	latvia_origin			owid-distinct	DiscreteBar	true
-			Least developed countries	Emigrants: Where people born in selected country moved to	migration-flow	leastdevelopedcountries_origin			owid-distinct	DiscreteBar	true
-			Lebanon	Emigrants: Where people born in selected country moved to	migration-flow	lebanon_origin			owid-distinct	DiscreteBar	true
-			Lesotho	Emigrants: Where people born in selected country moved to	migration-flow	lesotho_origin			owid-distinct	DiscreteBar	true
-			Less developed regions	Emigrants: Where people born in selected country moved to	migration-flow	lessdevelopedregions_origin			owid-distinct	DiscreteBar	true
-			Less developed regions, excluding China	Emigrants: Where people born in selected country moved to	migration-flow	lessdevelopedregions,excludingchina_origin			owid-distinct	DiscreteBar	true
-			Less developed regions, excluding least developed countries	Emigrants: Where people born in selected country moved to	migration-flow	lessdevelopedregions,excludingleastdevelopedcountries_origin			owid-distinct	DiscreteBar	true
-			Liberia	Emigrants: Where people born in selected country moved to	migration-flow	liberia_origin			owid-distinct	DiscreteBar	true
-			Libya	Emigrants: Where people born in selected country moved to	migration-flow	libya_origin			owid-distinct	DiscreteBar	true
-			Liechtenstein	Emigrants: Where people born in selected country moved to	migration-flow	liechtenstein_origin			owid-distinct	DiscreteBar	true
-			Lithuania	Emigrants: Where people born in selected country moved to	migration-flow	lithuania_origin			owid-distinct	DiscreteBar	true
-			Low-income countries	Emigrants: Where people born in selected country moved to	migration-flow	low-incomecountries_origin			owid-distinct	DiscreteBar	true
-			Lower-middle-income countries	Emigrants: Where people born in selected country moved to	migration-flow	lower-middle-incomecountries_origin			owid-distinct	DiscreteBar	true
-			Luxembourg	Emigrants: Where people born in selected country moved to	migration-flow	luxembourg_origin			owid-distinct	DiscreteBar	true
-			Macao	Emigrants: Where people born in selected country moved to	migration-flow	macao_origin			owid-distinct	DiscreteBar	true
-			Madagascar	Emigrants: Where people born in selected country moved to	migration-flow	madagascar_origin			owid-distinct	DiscreteBar	true
-			Malawi	Emigrants: Where people born in selected country moved to	migration-flow	malawi_origin			owid-distinct	DiscreteBar	true
-			Malaysia	Emigrants: Where people born in selected country moved to	migration-flow	malaysia_origin			owid-distinct	DiscreteBar	true
-			Maldives	Emigrants: Where people born in selected country moved to	migration-flow	maldives_origin			owid-distinct	DiscreteBar	true
-			Mali	Emigrants: Where people born in selected country moved to	migration-flow	mali_origin			owid-distinct	DiscreteBar	true
-			Malta	Emigrants: Where people born in selected country moved to	migration-flow	malta_origin			owid-distinct	DiscreteBar	true
-			Marshall Islands	Emigrants: Where people born in selected country moved to	migration-flow	marshallislands_origin			owid-distinct	DiscreteBar	true
-			Martinique	Emigrants: Where people born in selected country moved to	migration-flow	martinique_origin			owid-distinct	DiscreteBar	true
-			Mauritania	Emigrants: Where people born in selected country moved to	migration-flow	mauritania_origin			owid-distinct	DiscreteBar	true
-			Mauritius	Emigrants: Where people born in selected country moved to	migration-flow	mauritius_origin			owid-distinct	DiscreteBar	true
-			Mayotte	Emigrants: Where people born in selected country moved to	migration-flow	mayotte_origin			owid-distinct	DiscreteBar	true
-			Melanesia	Emigrants: Where people born in selected country moved to	migration-flow	melanesia_origin			owid-distinct	DiscreteBar	true
-			Mexico	Emigrants: Where people born in selected country moved to	migration-flow	mexico_origin			owid-distinct	DiscreteBar	true
-			Micronesia (country)	Emigrants: Where people born in selected country moved to	migration-flow	micronesia(country)_origin			owid-distinct	DiscreteBar	true
-			Micronesia (region)	Emigrants: Where people born in selected country moved to	migration-flow	micronesia(region)_origin			owid-distinct	DiscreteBar	true
-			Middle Africa	Emigrants: Where people born in selected country moved to	migration-flow	middleafrica_origin			owid-distinct	DiscreteBar	true
-			Middle-income countries	Emigrants: Where people born in selected country moved to	migration-flow	middle-incomecountries_origin			owid-distinct	DiscreteBar	true
-			Moldova	Emigrants: Where people born in selected country moved to	migration-flow	moldova_origin			owid-distinct	DiscreteBar	true
-			Monaco	Emigrants: Where people born in selected country moved to	migration-flow	monaco_origin			owid-distinct	DiscreteBar	true
-			Mongolia	Emigrants: Where people born in selected country moved to	migration-flow	mongolia_origin			owid-distinct	DiscreteBar	true
-			Montenegro	Emigrants: Where people born in selected country moved to	migration-flow	montenegro_origin			owid-distinct	DiscreteBar	true
-			Montserrat	Emigrants: Where people born in selected country moved to	migration-flow	montserrat_origin			owid-distinct	DiscreteBar	true
-			Morocco	Emigrants: Where people born in selected country moved to	migration-flow	morocco_origin			owid-distinct	DiscreteBar	true
-			Mozambique	Emigrants: Where people born in selected country moved to	migration-flow	mozambique_origin			owid-distinct	DiscreteBar	true
-			Myanmar	Emigrants: Where people born in selected country moved to	migration-flow	myanmar_origin			owid-distinct	DiscreteBar	true
-			Namibia	Emigrants: Where people born in selected country moved to	migration-flow	namibia_origin			owid-distinct	DiscreteBar	true
-			Nauru	Emigrants: Where people born in selected country moved to	migration-flow	nauru_origin			owid-distinct	DiscreteBar	true
-			Nepal	Emigrants: Where people born in selected country moved to	migration-flow	nepal_origin			owid-distinct	DiscreteBar	true
-			Netherlands	Emigrants: Where people born in selected country moved to	migration-flow	netherlands_origin			owid-distinct	DiscreteBar	true
-			New Caledonia	Emigrants: Where people born in selected country moved to	migration-flow	newcaledonia_origin			owid-distinct	DiscreteBar	true
-			New Zealand	Emigrants: Where people born in selected country moved to	migration-flow	newzealand_origin			owid-distinct	DiscreteBar	true
-			Nicaragua	Emigrants: Where people born in selected country moved to	migration-flow	nicaragua_origin			owid-distinct	DiscreteBar	true
-			Niger	Emigrants: Where people born in selected country moved to	migration-flow	niger_origin			owid-distinct	DiscreteBar	true
-			Nigeria	Emigrants: Where people born in selected country moved to	migration-flow	nigeria_origin			owid-distinct	DiscreteBar	true
-			Niue	Emigrants: Where people born in selected country moved to	migration-flow	niue_origin			owid-distinct	DiscreteBar	true
-			North Korea	Emigrants: Where people born in selected country moved to	migration-flow	northkorea_origin			owid-distinct	DiscreteBar	true
-			North Macedonia	Emigrants: Where people born in selected country moved to	migration-flow	northmacedonia_origin			owid-distinct	DiscreteBar	true
-			Northern Africa	Emigrants: Where people born in selected country moved to	migration-flow	northernafrica_origin			owid-distinct	DiscreteBar	true
-			Northern Africa and Western Asia	Emigrants: Where people born in selected country moved to	migration-flow	northernafricaandwesternasia_origin			owid-distinct	DiscreteBar	true
-			Northern America	Emigrants: Where people born in selected country moved to	migration-flow	northernamerica_origin			owid-distinct	DiscreteBar	true
-			Northern Europe	Emigrants: Where people born in selected country moved to	migration-flow	northerneurope_origin			owid-distinct	DiscreteBar	true
-			Northern Mariana Islands	Emigrants: Where people born in selected country moved to	migration-flow	northernmarianaislands_origin			owid-distinct	DiscreteBar	true
-			Norway	Emigrants: Where people born in selected country moved to	migration-flow	norway_origin			owid-distinct	DiscreteBar	true
-			Oceania	Emigrants: Where people born in selected country moved to	migration-flow	oceania_origin			owid-distinct	DiscreteBar	true
-			Oceania (excluding Australia and New Zealand)	Emigrants: Where people born in selected country moved to	migration-flow	oceania(excludingaustraliaandnewzealand)_origin			owid-distinct	DiscreteBar	true
-			Oman	Emigrants: Where people born in selected country moved to	migration-flow	oman_origin			owid-distinct	DiscreteBar	true
-			Other	Emigrants: Where people born in selected country moved to	migration-flow	other_origin			owid-distinct	DiscreteBar	true
-			Pakistan	Emigrants: Where people born in selected country moved to	migration-flow	pakistan_origin			owid-distinct	DiscreteBar	true
-			Palau	Emigrants: Where people born in selected country moved to	migration-flow	palau_origin			owid-distinct	DiscreteBar	true
-			Palestine	Emigrants: Where people born in selected country moved to	migration-flow	palestine_origin			owid-distinct	DiscreteBar	true
-			Panama	Emigrants: Where people born in selected country moved to	migration-flow	panama_origin			owid-distinct	DiscreteBar	true
-			Papua New Guinea	Emigrants: Where people born in selected country moved to	migration-flow	papuanewguinea_origin			owid-distinct	DiscreteBar	true
-			Paraguay	Emigrants: Where people born in selected country moved to	migration-flow	paraguay_origin			owid-distinct	DiscreteBar	true
-			Peru	Emigrants: Where people born in selected country moved to	migration-flow	peru_origin			owid-distinct	DiscreteBar	true
-			Philippines	Emigrants: Where people born in selected country moved to	migration-flow	philippines_origin			owid-distinct	DiscreteBar	true
-			Poland	Emigrants: Where people born in selected country moved to	migration-flow	poland_origin			owid-distinct	DiscreteBar	true
-			Polynesia	Emigrants: Where people born in selected country moved to	migration-flow	polynesia_origin			owid-distinct	DiscreteBar	true
-			Portugal	Emigrants: Where people born in selected country moved to	migration-flow	portugal_origin			owid-distinct	DiscreteBar	true
-			Puerto Rico	Emigrants: Where people born in selected country moved to	migration-flow	puertorico_origin			owid-distinct	DiscreteBar	true
-			Qatar	Emigrants: Where people born in selected country moved to	migration-flow	qatar_origin			owid-distinct	DiscreteBar	true
-			Reunion	Emigrants: Where people born in selected country moved to	migration-flow	reunion_origin			owid-distinct	DiscreteBar	true
-			Romania	Emigrants: Where people born in selected country moved to	migration-flow	romania_origin			owid-distinct	DiscreteBar	true
-			Russia	Emigrants: Where people born in selected country moved to	migration-flow	russia_origin			owid-distinct	DiscreteBar	true
-			Rwanda	Emigrants: Where people born in selected country moved to	migration-flow	rwanda_origin			owid-distinct	DiscreteBar	true
-			Saint Barthlemy	Emigrants: Where people born in selected country moved to	migration-flow	saintbarthlemy_origin			owid-distinct	DiscreteBar	true
-			Saint Helena	Emigrants: Where people born in selected country moved to	migration-flow	sainthelena_origin			owid-distinct	DiscreteBar	true
-			Saint Kitts and Nevis	Emigrants: Where people born in selected country moved to	migration-flow	saintkittsandnevis_origin			owid-distinct	DiscreteBar	true
-			Saint Lucia	Emigrants: Where people born in selected country moved to	migration-flow	saintlucia_origin			owid-distinct	DiscreteBar	true
-			Saint Martin (French part)	Emigrants: Where people born in selected country moved to	migration-flow	saintmartin(frenchpart)_origin			owid-distinct	DiscreteBar	true
-			Saint Pierre and Miquelon	Emigrants: Where people born in selected country moved to	migration-flow	saintpierreandmiquelon_origin			owid-distinct	DiscreteBar	true
-			Saint Vincent and the Grenadines	Emigrants: Where people born in selected country moved to	migration-flow	saintvincentandthegrenadines_origin			owid-distinct	DiscreteBar	true
-			Samoa	Emigrants: Where people born in selected country moved to	migration-flow	samoa_origin			owid-distinct	DiscreteBar	true
-			San Marino	Emigrants: Where people born in selected country moved to	migration-flow	sanmarino_origin			owid-distinct	DiscreteBar	true
-			Sao Tome and Principe	Emigrants: Where people born in selected country moved to	migration-flow	saotomeandprincipe_origin			owid-distinct	DiscreteBar	true
-			Saudi Arabia	Emigrants: Where people born in selected country moved to	migration-flow	saudiarabia_origin			owid-distinct	DiscreteBar	true
-			Senegal	Emigrants: Where people born in selected country moved to	migration-flow	senegal_origin			owid-distinct	DiscreteBar	true
-			Serbia	Emigrants: Where people born in selected country moved to	migration-flow	serbia_origin			owid-distinct	DiscreteBar	true
-			Seychelles	Emigrants: Where people born in selected country moved to	migration-flow	seychelles_origin			owid-distinct	DiscreteBar	true
-			Sierra Leone	Emigrants: Where people born in selected country moved to	migration-flow	sierraleone_origin			owid-distinct	DiscreteBar	true
-			Singapore	Emigrants: Where people born in selected country moved to	migration-flow	singapore_origin			owid-distinct	DiscreteBar	true
-			Sint Maarten (Dutch part)	Emigrants: Where people born in selected country moved to	migration-flow	sintmaarten(dutchpart)_origin			owid-distinct	DiscreteBar	true
-			Slovakia	Emigrants: Where people born in selected country moved to	migration-flow	slovakia_origin			owid-distinct	DiscreteBar	true
-			Slovenia	Emigrants: Where people born in selected country moved to	migration-flow	slovenia_origin			owid-distinct	DiscreteBar	true
-			Small island developing States (SIDS)	Emigrants: Where people born in selected country moved to	migration-flow	smallislanddevelopingstates(sids)_origin			owid-distinct	DiscreteBar	true
-			Solomon Islands	Emigrants: Where people born in selected country moved to	migration-flow	solomonislands_origin			owid-distinct	DiscreteBar	true
-			Somalia	Emigrants: Where people born in selected country moved to	migration-flow	somalia_origin			owid-distinct	DiscreteBar	true
-			South Africa	Emigrants: Where people born in selected country moved to	migration-flow	southafrica_origin			owid-distinct	DiscreteBar	true
-			South America	Emigrants: Where people born in selected country moved to	migration-flow	southamerica_origin			owid-distinct	DiscreteBar	true
-			South Korea	Emigrants: Where people born in selected country moved to	migration-flow	southkorea_origin			owid-distinct	DiscreteBar	true
-			South Sudan	Emigrants: Where people born in selected country moved to	migration-flow	southsudan_origin			owid-distinct	DiscreteBar	true
-			South-Eastern Asia	Emigrants: Where people born in selected country moved to	migration-flow	south-easternasia_origin			owid-distinct	DiscreteBar	true
-			Southern Africa	Emigrants: Where people born in selected country moved to	migration-flow	southernafrica_origin			owid-distinct	DiscreteBar	true
-			Southern Asia	Emigrants: Where people born in selected country moved to	migration-flow	southernasia_origin			owid-distinct	DiscreteBar	true
-			Southern Europe	Emigrants: Where people born in selected country moved to	migration-flow	southerneurope_origin			owid-distinct	DiscreteBar	true
-			Spain	Emigrants: Where people born in selected country moved to	migration-flow	spain_origin			owid-distinct	DiscreteBar	true
-			Sri Lanka	Emigrants: Where people born in selected country moved to	migration-flow	srilanka_origin			owid-distinct	DiscreteBar	true
-			Sub-Saharan Africa	Emigrants: Where people born in selected country moved to	migration-flow	sub-saharanafrica_origin			owid-distinct	DiscreteBar	true
-			Sudan	Emigrants: Where people born in selected country moved to	migration-flow	sudan_origin			owid-distinct	DiscreteBar	true
-			Suriname	Emigrants: Where people born in selected country moved to	migration-flow	suriname_origin			owid-distinct	DiscreteBar	true
-			Sweden	Emigrants: Where people born in selected country moved to	migration-flow	sweden_origin			owid-distinct	DiscreteBar	true
-			Switzerland	Emigrants: Where people born in selected country moved to	migration-flow	switzerland_origin			owid-distinct	DiscreteBar	true
-			Syria	Emigrants: Where people born in selected country moved to	migration-flow	syria_origin			owid-distinct	DiscreteBar	true
-			Taiwan	Emigrants: Where people born in selected country moved to	migration-flow	taiwan_origin			owid-distinct	DiscreteBar	true
-			Tajikistan	Emigrants: Where people born in selected country moved to	migration-flow	tajikistan_origin			owid-distinct	DiscreteBar	true
-			Tanzania	Emigrants: Where people born in selected country moved to	migration-flow	tanzania_origin			owid-distinct	DiscreteBar	true
-			Thailand	Emigrants: Where people born in selected country moved to	migration-flow	thailand_origin			owid-distinct	DiscreteBar	true
-			Timor-Leste	Emigrants: Where people born in selected country moved to	migration-flow	timor-leste_origin			owid-distinct	DiscreteBar	true
-			Togo	Emigrants: Where people born in selected country moved to	migration-flow	togo_origin			owid-distinct	DiscreteBar	true
-			Tokelau	Emigrants: Where people born in selected country moved to	migration-flow	tokelau_origin			owid-distinct	DiscreteBar	true
-			Tonga	Emigrants: Where people born in selected country moved to	migration-flow	tonga_origin			owid-distinct	DiscreteBar	true
-			Trinidad and Tobago	Emigrants: Where people born in selected country moved to	migration-flow	trinidadandtobago_origin			owid-distinct	DiscreteBar	true
-			Tunisia	Emigrants: Where people born in selected country moved to	migration-flow	tunisia_origin			owid-distinct	DiscreteBar	true
-			Turkey	Emigrants: Where people born in selected country moved to	migration-flow	turkey_origin			owid-distinct	DiscreteBar	true
-			Turkmenistan	Emigrants: Where people born in selected country moved to	migration-flow	turkmenistan_origin			owid-distinct	DiscreteBar	true
-			Turks and Caicos Islands	Emigrants: Where people born in selected country moved to	migration-flow	turksandcaicosislands_origin			owid-distinct	DiscreteBar	true
-			Tuvalu	Emigrants: Where people born in selected country moved to	migration-flow	tuvalu_origin			owid-distinct	DiscreteBar	true
-			Uganda	Emigrants: Where people born in selected country moved to	migration-flow	uganda_origin			owid-distinct	DiscreteBar	true
-			Ukraine	Emigrants: Where people born in selected country moved to	migration-flow	ukraine_origin			owid-distinct	DiscreteBar	true
-			United Arab Emirates	Emigrants: Where people born in selected country moved to	migration-flow	unitedarabemirates_origin			owid-distinct	DiscreteBar	true
-			United Kingdom	Emigrants: Where people born in selected country moved to	migration-flow	unitedkingdom_origin			owid-distinct	DiscreteBar	true
-			United States	Emigrants: Where people born in selected country moved to	migration-flow	unitedstates_origin			owid-distinct	DiscreteBar	true
-			United States Virgin Islands	Emigrants: Where people born in selected country moved to	migration-flow	unitedstatesvirginislands_origin			owid-distinct	DiscreteBar	true
-			Upper-middle-income countries	Emigrants: Where people born in selected country moved to	migration-flow	upper-middle-incomecountries_origin			owid-distinct	DiscreteBar	true
-			Uruguay	Emigrants: Where people born in selected country moved to	migration-flow	uruguay_origin			owid-distinct	DiscreteBar	true
-			Uzbekistan	Emigrants: Where people born in selected country moved to	migration-flow	uzbekistan_origin			owid-distinct	DiscreteBar	true
-			Vanuatu	Emigrants: Where people born in selected country moved to	migration-flow	vanuatu_origin			owid-distinct	DiscreteBar	true
-			Vatican	Emigrants: Where people born in selected country moved to	migration-flow	vatican_origin			owid-distinct	DiscreteBar	true
-			Venezuela	Emigrants: Where people born in selected country moved to	migration-flow	venezuela_origin			owid-distinct	DiscreteBar	true
-			Vietnam	Emigrants: Where people born in selected country moved to	migration-flow	vietnam_origin			owid-distinct	DiscreteBar	true
-			Wallis and Futuna	Emigrants: Where people born in selected country moved to	migration-flow	wallisandfutuna_origin			owid-distinct	DiscreteBar	true
-			Western Africa	Emigrants: Where people born in selected country moved to	migration-flow	westernafrica_origin			owid-distinct	DiscreteBar	true
-			Western Asia	Emigrants: Where people born in selected country moved to	migration-flow	westernasia_origin			owid-distinct	DiscreteBar	true
-			Western Europe	Emigrants: Where people born in selected country moved to	migration-flow	westerneurope_origin			owid-distinct	DiscreteBar	true
-			Western Sahara	Emigrants: Where people born in selected country moved to	migration-flow	westernsahara_origin			owid-distinct	DiscreteBar	true
-			World	Emigrants: Where people born in selected country moved to	migration-flow	world_origin			owid-distinct	DiscreteBar	true
-			Yemen	Emigrants: Where people born in selected country moved to	migration-flow	yemen_origin			owid-distinct	DiscreteBar	true
-			Zambia	Emigrants: Where people born in selected country moved to	migration-flow	zambia_origin			owid-distinct	DiscreteBar	true
-			Zimbabwe	Emigrants: Where people born in selected country moved to	migration-flow	zimbabwe_origin			owid-distinct	DiscreteBar	true
-	Migrants living in Afghanistan: Where did they move from?		Afghanistan	Migrants: Where foreign-born population in selected country moved from	migration-flow	afghanistan_destination			owid-distinct	DiscreteBar	true
-			Africa	Migrants: Where foreign-born population in selected country moved from	migration-flow	africa_destination			owid-distinct	DiscreteBar	true
-			Albania	Migrants: Where foreign-born population in selected country moved from	migration-flow	albania_destination			owid-distinct	DiscreteBar	true
-			Algeria	Migrants: Where foreign-born population in selected country moved from	migration-flow	algeria_destination			owid-distinct	DiscreteBar	true
-			American Samoa	Migrants: Where foreign-born population in selected country moved from	migration-flow	americansamoa_destination			owid-distinct	DiscreteBar	true
-			Andorra	Migrants: Where foreign-born population in selected country moved from	migration-flow	andorra_destination			owid-distinct	DiscreteBar	true
-			Angola	Migrants: Where foreign-born population in selected country moved from	migration-flow	angola_destination			owid-distinct	DiscreteBar	true
-			Anguilla	Migrants: Where foreign-born population in selected country moved from	migration-flow	anguilla_destination			owid-distinct	DiscreteBar	true
-			Antigua and Barbuda	Migrants: Where foreign-born population in selected country moved from	migration-flow	antiguaandbarbuda_destination			owid-distinct	DiscreteBar	true
-			Argentina	Migrants: Where foreign-born population in selected country moved from	migration-flow	argentina_destination			owid-distinct	DiscreteBar	true
-			Armenia	Migrants: Where foreign-born population in selected country moved from	migration-flow	armenia_destination			owid-distinct	DiscreteBar	true
-			Aruba	Migrants: Where foreign-born population in selected country moved from	migration-flow	aruba_destination			owid-distinct	DiscreteBar	true
-			Asia	Migrants: Where foreign-born population in selected country moved from	migration-flow	asia_destination			owid-distinct	DiscreteBar	true
-			Australia	Migrants: Where foreign-born population in selected country moved from	migration-flow	australia_destination			owid-distinct	DiscreteBar	true
-			Australia and New Zealand	Migrants: Where foreign-born population in selected country moved from	migration-flow	australiaandnewzealand_destination			owid-distinct	DiscreteBar	true
-			Austria	Migrants: Where foreign-born population in selected country moved from	migration-flow	austria_destination			owid-distinct	DiscreteBar	true
-			Azerbaijan	Migrants: Where foreign-born population in selected country moved from	migration-flow	azerbaijan_destination			owid-distinct	DiscreteBar	true
-			Bahamas	Migrants: Where foreign-born population in selected country moved from	migration-flow	bahamas_destination			owid-distinct	DiscreteBar	true
-			Bahrain	Migrants: Where foreign-born population in selected country moved from	migration-flow	bahrain_destination			owid-distinct	DiscreteBar	true
-			Bangladesh	Migrants: Where foreign-born population in selected country moved from	migration-flow	bangladesh_destination			owid-distinct	DiscreteBar	true
-			Barbados	Migrants: Where foreign-born population in selected country moved from	migration-flow	barbados_destination			owid-distinct	DiscreteBar	true
-			Belarus	Migrants: Where foreign-born population in selected country moved from	migration-flow	belarus_destination			owid-distinct	DiscreteBar	true
-			Belgium	Migrants: Where foreign-born population in selected country moved from	migration-flow	belgium_destination			owid-distinct	DiscreteBar	true
-			Belize	Migrants: Where foreign-born population in selected country moved from	migration-flow	belize_destination			owid-distinct	DiscreteBar	true
-			Benin	Migrants: Where foreign-born population in selected country moved from	migration-flow	benin_destination			owid-distinct	DiscreteBar	true
-			Bermuda	Migrants: Where foreign-born population in selected country moved from	migration-flow	bermuda_destination			owid-distinct	DiscreteBar	true
-			Bhutan	Migrants: Where foreign-born population in selected country moved from	migration-flow	bhutan_destination			owid-distinct	DiscreteBar	true
-			Bolivia	Migrants: Where foreign-born population in selected country moved from	migration-flow	bolivia_destination			owid-distinct	DiscreteBar	true
-			Bonaire Sint Eustatius and Saba	Migrants: Where foreign-born population in selected country moved from	migration-flow	bonairesinteustatiusandsaba_destination			owid-distinct	DiscreteBar	true
-			Bosnia and Herzegovina	Migrants: Where foreign-born population in selected country moved from	migration-flow	bosniaandherzegovina_destination			owid-distinct	DiscreteBar	true
-			Botswana	Migrants: Where foreign-born population in selected country moved from	migration-flow	botswana_destination			owid-distinct	DiscreteBar	true
-			Brazil	Migrants: Where foreign-born population in selected country moved from	migration-flow	brazil_destination			owid-distinct	DiscreteBar	true
-			British Virgin Islands	Migrants: Where foreign-born population in selected country moved from	migration-flow	britishvirginislands_destination			owid-distinct	DiscreteBar	true
-			Brunei	Migrants: Where foreign-born population in selected country moved from	migration-flow	brunei_destination			owid-distinct	DiscreteBar	true
-			Bulgaria	Migrants: Where foreign-born population in selected country moved from	migration-flow	bulgaria_destination			owid-distinct	DiscreteBar	true
-			Burkina Faso	Migrants: Where foreign-born population in selected country moved from	migration-flow	burkinafaso_destination			owid-distinct	DiscreteBar	true
-			Burundi	Migrants: Where foreign-born population in selected country moved from	migration-flow	burundi_destination			owid-distinct	DiscreteBar	true
-			Cambodia	Migrants: Where foreign-born population in selected country moved from	migration-flow	cambodia_destination			owid-distinct	DiscreteBar	true
-			Cameroon	Migrants: Where foreign-born population in selected country moved from	migration-flow	cameroon_destination			owid-distinct	DiscreteBar	true
-			Canada	Migrants: Where foreign-born population in selected country moved from	migration-flow	canada_destination			owid-distinct	DiscreteBar	true
-			Cape Verde	Migrants: Where foreign-born population in selected country moved from	migration-flow	capeverde_destination			owid-distinct	DiscreteBar	true
-			Caribbean	Migrants: Where foreign-born population in selected country moved from	migration-flow	caribbean_destination			owid-distinct	DiscreteBar	true
-			Cayman Islands	Migrants: Where foreign-born population in selected country moved from	migration-flow	caymanislands_destination			owid-distinct	DiscreteBar	true
-			Central African Republic	Migrants: Where foreign-born population in selected country moved from	migration-flow	centralafricanrepublic_destination			owid-distinct	DiscreteBar	true
-			Central America	Migrants: Where foreign-born population in selected country moved from	migration-flow	centralamerica_destination			owid-distinct	DiscreteBar	true
-			Central Asia	Migrants: Where foreign-born population in selected country moved from	migration-flow	centralasia_destination			owid-distinct	DiscreteBar	true
-			Central and Southern Asia	Migrants: Where foreign-born population in selected country moved from	migration-flow	centralandsouthernasia_destination			owid-distinct	DiscreteBar	true
-			Chad	Migrants: Where foreign-born population in selected country moved from	migration-flow	chad_destination			owid-distinct	DiscreteBar	true
-			Channel Islands	Migrants: Where foreign-born population in selected country moved from	migration-flow	channelislands_destination			owid-distinct	DiscreteBar	true
-			Chile	Migrants: Where foreign-born population in selected country moved from	migration-flow	chile_destination			owid-distinct	DiscreteBar	true
-			China	Migrants: Where foreign-born population in selected country moved from	migration-flow	china_destination			owid-distinct	DiscreteBar	true
-			Colombia	Migrants: Where foreign-born population in selected country moved from	migration-flow	colombia_destination			owid-distinct	DiscreteBar	true
-			Comoros	Migrants: Where foreign-born population in selected country moved from	migration-flow	comoros_destination			owid-distinct	DiscreteBar	true
-			Congo	Migrants: Where foreign-born population in selected country moved from	migration-flow	congo_destination			owid-distinct	DiscreteBar	true
-			Cook Islands	Migrants: Where foreign-born population in selected country moved from	migration-flow	cookislands_destination			owid-distinct	DiscreteBar	true
-			Costa Rica	Migrants: Where foreign-born population in selected country moved from	migration-flow	costarica_destination			owid-distinct	DiscreteBar	true
-			Cote d'Ivoire	Migrants: Where foreign-born population in selected country moved from	migration-flow	coted'ivoire_destination			owid-distinct	DiscreteBar	true
-			Croatia	Migrants: Where foreign-born population in selected country moved from	migration-flow	croatia_destination			owid-distinct	DiscreteBar	true
-			Cuba	Migrants: Where foreign-born population in selected country moved from	migration-flow	cuba_destination			owid-distinct	DiscreteBar	true
-			Curacao	Migrants: Where foreign-born population in selected country moved from	migration-flow	curacao_destination			owid-distinct	DiscreteBar	true
-			Cyprus	Migrants: Where foreign-born population in selected country moved from	migration-flow	cyprus_destination			owid-distinct	DiscreteBar	true
-			Czechia	Migrants: Where foreign-born population in selected country moved from	migration-flow	czechia_destination			owid-distinct	DiscreteBar	true
-			Democratic Republic of Congo	Migrants: Where foreign-born population in selected country moved from	migration-flow	democraticrepublicofcongo_destination			owid-distinct	DiscreteBar	true
-			Denmark	Migrants: Where foreign-born population in selected country moved from	migration-flow	denmark_destination			owid-distinct	DiscreteBar	true
-			Developed regions	Migrants: Where foreign-born population in selected country moved from	migration-flow	developedregions_destination			owid-distinct	DiscreteBar	true
-			Djibouti	Migrants: Where foreign-born population in selected country moved from	migration-flow	djibouti_destination			owid-distinct	DiscreteBar	true
-			Dominica	Migrants: Where foreign-born population in selected country moved from	migration-flow	dominica_destination			owid-distinct	DiscreteBar	true
-			Dominican Republic	Migrants: Where foreign-born population in selected country moved from	migration-flow	dominicanrepublic_destination			owid-distinct	DiscreteBar	true
-			Eastern Africa	Migrants: Where foreign-born population in selected country moved from	migration-flow	easternafrica_destination			owid-distinct	DiscreteBar	true
-			Eastern Asia	Migrants: Where foreign-born population in selected country moved from	migration-flow	easternasia_destination			owid-distinct	DiscreteBar	true
-			Eastern Europe	Migrants: Where foreign-born population in selected country moved from	migration-flow	easterneurope_destination			owid-distinct	DiscreteBar	true
-			Eastern and South-Eastern Asia	Migrants: Where foreign-born population in selected country moved from	migration-flow	easternandsouth-easternasia_destination			owid-distinct	DiscreteBar	true
-			Ecuador	Migrants: Where foreign-born population in selected country moved from	migration-flow	ecuador_destination			owid-distinct	DiscreteBar	true
-			Egypt	Migrants: Where foreign-born population in selected country moved from	migration-flow	egypt_destination			owid-distinct	DiscreteBar	true
-			El Salvador	Migrants: Where foreign-born population in selected country moved from	migration-flow	elsalvador_destination			owid-distinct	DiscreteBar	true
-			Equatorial Guinea	Migrants: Where foreign-born population in selected country moved from	migration-flow	equatorialguinea_destination			owid-distinct	DiscreteBar	true
-			Eritrea	Migrants: Where foreign-born population in selected country moved from	migration-flow	eritrea_destination			owid-distinct	DiscreteBar	true
-			Estonia	Migrants: Where foreign-born population in selected country moved from	migration-flow	estonia_destination			owid-distinct	DiscreteBar	true
-			Eswatini	Migrants: Where foreign-born population in selected country moved from	migration-flow	eswatini_destination			owid-distinct	DiscreteBar	true
-			Ethiopia	Migrants: Where foreign-born population in selected country moved from	migration-flow	ethiopia_destination			owid-distinct	DiscreteBar	true
-			Europe	Migrants: Where foreign-born population in selected country moved from	migration-flow	europe_destination			owid-distinct	DiscreteBar	true
-			Europe and Northern America	Migrants: Where foreign-born population in selected country moved from	migration-flow	europeandnorthernamerica_destination			owid-distinct	DiscreteBar	true
-			Faeroe Islands	Migrants: Where foreign-born population in selected country moved from	migration-flow	faeroeislands_destination			owid-distinct	DiscreteBar	true
-			Falkland Islands	Migrants: Where foreign-born population in selected country moved from	migration-flow	falklandislands_destination			owid-distinct	DiscreteBar	true
-			Fiji	Migrants: Where foreign-born population in selected country moved from	migration-flow	fiji_destination			owid-distinct	DiscreteBar	true
-			Finland	Migrants: Where foreign-born population in selected country moved from	migration-flow	finland_destination			owid-distinct	DiscreteBar	true
-			France	Migrants: Where foreign-born population in selected country moved from	migration-flow	france_destination			owid-distinct	DiscreteBar	true
-			French Guiana	Migrants: Where foreign-born population in selected country moved from	migration-flow	frenchguiana_destination			owid-distinct	DiscreteBar	true
-			French Polynesia	Migrants: Where foreign-born population in selected country moved from	migration-flow	frenchpolynesia_destination			owid-distinct	DiscreteBar	true
-			Gabon	Migrants: Where foreign-born population in selected country moved from	migration-flow	gabon_destination			owid-distinct	DiscreteBar	true
-			Gambia	Migrants: Where foreign-born population in selected country moved from	migration-flow	gambia_destination			owid-distinct	DiscreteBar	true
-			Georgia	Migrants: Where foreign-born population in selected country moved from	migration-flow	georgia_destination			owid-distinct	DiscreteBar	true
-			Germany	Migrants: Where foreign-born population in selected country moved from	migration-flow	germany_destination			owid-distinct	DiscreteBar	true
-			Ghana	Migrants: Where foreign-born population in selected country moved from	migration-flow	ghana_destination			owid-distinct	DiscreteBar	true
-			Gibraltar	Migrants: Where foreign-born population in selected country moved from	migration-flow	gibraltar_destination			owid-distinct	DiscreteBar	true
-			Greece	Migrants: Where foreign-born population in selected country moved from	migration-flow	greece_destination			owid-distinct	DiscreteBar	true
-			Greenland	Migrants: Where foreign-born population in selected country moved from	migration-flow	greenland_destination			owid-distinct	DiscreteBar	true
-			Grenada	Migrants: Where foreign-born population in selected country moved from	migration-flow	grenada_destination			owid-distinct	DiscreteBar	true
-			Guadeloupe	Migrants: Where foreign-born population in selected country moved from	migration-flow	guadeloupe_destination			owid-distinct	DiscreteBar	true
-			Guam	Migrants: Where foreign-born population in selected country moved from	migration-flow	guam_destination			owid-distinct	DiscreteBar	true
-			Guatemala	Migrants: Where foreign-born population in selected country moved from	migration-flow	guatemala_destination			owid-distinct	DiscreteBar	true
-			Guinea	Migrants: Where foreign-born population in selected country moved from	migration-flow	guinea_destination			owid-distinct	DiscreteBar	true
-			Guinea-Bissau	Migrants: Where foreign-born population in selected country moved from	migration-flow	guinea-bissau_destination			owid-distinct	DiscreteBar	true
-			Guyana	Migrants: Where foreign-born population in selected country moved from	migration-flow	guyana_destination			owid-distinct	DiscreteBar	true
-			Haiti	Migrants: Where foreign-born population in selected country moved from	migration-flow	haiti_destination			owid-distinct	DiscreteBar	true
-			High-income countries	Migrants: Where foreign-born population in selected country moved from	migration-flow	high-incomecountries_destination			owid-distinct	DiscreteBar	true
-			Honduras	Migrants: Where foreign-born population in selected country moved from	migration-flow	honduras_destination			owid-distinct	DiscreteBar	true
-			Hong Kong	Migrants: Where foreign-born population in selected country moved from	migration-flow	hongkong_destination			owid-distinct	DiscreteBar	true
-			Hungary	Migrants: Where foreign-born population in selected country moved from	migration-flow	hungary_destination			owid-distinct	DiscreteBar	true
-			Iceland	Migrants: Where foreign-born population in selected country moved from	migration-flow	iceland_destination			owid-distinct	DiscreteBar	true
-			India	Migrants: Where foreign-born population in selected country moved from	migration-flow	india_destination			owid-distinct	DiscreteBar	true
-			Indonesia	Migrants: Where foreign-born population in selected country moved from	migration-flow	indonesia_destination			owid-distinct	DiscreteBar	true
-			Iran	Migrants: Where foreign-born population in selected country moved from	migration-flow	iran_destination			owid-distinct	DiscreteBar	true
-			Iraq	Migrants: Where foreign-born population in selected country moved from	migration-flow	iraq_destination			owid-distinct	DiscreteBar	true
-			Ireland	Migrants: Where foreign-born population in selected country moved from	migration-flow	ireland_destination			owid-distinct	DiscreteBar	true
-			Isle of Man	Migrants: Where foreign-born population in selected country moved from	migration-flow	isleofman_destination			owid-distinct	DiscreteBar	true
-			Israel	Migrants: Where foreign-born population in selected country moved from	migration-flow	israel_destination			owid-distinct	DiscreteBar	true
-			Italy	Migrants: Where foreign-born population in selected country moved from	migration-flow	italy_destination			owid-distinct	DiscreteBar	true
-			Jamaica	Migrants: Where foreign-born population in selected country moved from	migration-flow	jamaica_destination			owid-distinct	DiscreteBar	true
-			Japan	Migrants: Where foreign-born population in selected country moved from	migration-flow	japan_destination			owid-distinct	DiscreteBar	true
-			Jordan	Migrants: Where foreign-born population in selected country moved from	migration-flow	jordan_destination			owid-distinct	DiscreteBar	true
-			Kazakhstan	Migrants: Where foreign-born population in selected country moved from	migration-flow	kazakhstan_destination			owid-distinct	DiscreteBar	true
-			Kenya	Migrants: Where foreign-born population in selected country moved from	migration-flow	kenya_destination			owid-distinct	DiscreteBar	true
-			Kiribati	Migrants: Where foreign-born population in selected country moved from	migration-flow	kiribati_destination			owid-distinct	DiscreteBar	true
-			Kuwait	Migrants: Where foreign-born population in selected country moved from	migration-flow	kuwait_destination			owid-distinct	DiscreteBar	true
-			Kyrgyzstan	Migrants: Where foreign-born population in selected country moved from	migration-flow	kyrgyzstan_destination			owid-distinct	DiscreteBar	true
-			Land-locked Developing Countries (LLDC)	Migrants: Where foreign-born population in selected country moved from	migration-flow	land-lockeddevelopingcountries(lldc)_destination			owid-distinct	DiscreteBar	true
-			Laos	Migrants: Where foreign-born population in selected country moved from	migration-flow	laos_destination			owid-distinct	DiscreteBar	true
-			Latin America and the Caribbean	Migrants: Where foreign-born population in selected country moved from	migration-flow	latinamericaandthecaribbean_destination			owid-distinct	DiscreteBar	true
-			Latvia	Migrants: Where foreign-born population in selected country moved from	migration-flow	latvia_destination			owid-distinct	DiscreteBar	true
-			Least developed countries	Migrants: Where foreign-born population in selected country moved from	migration-flow	leastdevelopedcountries_destination			owid-distinct	DiscreteBar	true
-			Lebanon	Migrants: Where foreign-born population in selected country moved from	migration-flow	lebanon_destination			owid-distinct	DiscreteBar	true
-			Lesotho	Migrants: Where foreign-born population in selected country moved from	migration-flow	lesotho_destination			owid-distinct	DiscreteBar	true
-			Less developed regions	Migrants: Where foreign-born population in selected country moved from	migration-flow	lessdevelopedregions_destination			owid-distinct	DiscreteBar	true
-			Less developed regions, excluding China	Migrants: Where foreign-born population in selected country moved from	migration-flow	lessdevelopedregions,excludingchina_destination			owid-distinct	DiscreteBar	true
-			Less developed regions, excluding least developed countries	Migrants: Where foreign-born population in selected country moved from	migration-flow	lessdevelopedregions,excludingleastdevelopedcountries_destination			owid-distinct	DiscreteBar	true
-			Liberia	Migrants: Where foreign-born population in selected country moved from	migration-flow	liberia_destination			owid-distinct	DiscreteBar	true
-			Libya	Migrants: Where foreign-born population in selected country moved from	migration-flow	libya_destination			owid-distinct	DiscreteBar	true
-			Liechtenstein	Migrants: Where foreign-born population in selected country moved from	migration-flow	liechtenstein_destination			owid-distinct	DiscreteBar	true
-			Lithuania	Migrants: Where foreign-born population in selected country moved from	migration-flow	lithuania_destination			owid-distinct	DiscreteBar	true
-			Low-income countries	Migrants: Where foreign-born population in selected country moved from	migration-flow	low-incomecountries_destination			owid-distinct	DiscreteBar	true
-			Lower-middle-income countries	Migrants: Where foreign-born population in selected country moved from	migration-flow	lower-middle-incomecountries_destination			owid-distinct	DiscreteBar	true
-			Luxembourg	Migrants: Where foreign-born population in selected country moved from	migration-flow	luxembourg_destination			owid-distinct	DiscreteBar	true
-			Macao	Migrants: Where foreign-born population in selected country moved from	migration-flow	macao_destination			owid-distinct	DiscreteBar	true
-			Madagascar	Migrants: Where foreign-born population in selected country moved from	migration-flow	madagascar_destination			owid-distinct	DiscreteBar	true
-			Malawi	Migrants: Where foreign-born population in selected country moved from	migration-flow	malawi_destination			owid-distinct	DiscreteBar	true
-			Malaysia	Migrants: Where foreign-born population in selected country moved from	migration-flow	malaysia_destination			owid-distinct	DiscreteBar	true
-			Maldives	Migrants: Where foreign-born population in selected country moved from	migration-flow	maldives_destination			owid-distinct	DiscreteBar	true
-			Mali	Migrants: Where foreign-born population in selected country moved from	migration-flow	mali_destination			owid-distinct	DiscreteBar	true
-			Malta	Migrants: Where foreign-born population in selected country moved from	migration-flow	malta_destination			owid-distinct	DiscreteBar	true
-			Marshall Islands	Migrants: Where foreign-born population in selected country moved from	migration-flow	marshallislands_destination			owid-distinct	DiscreteBar	true
-			Martinique	Migrants: Where foreign-born population in selected country moved from	migration-flow	martinique_destination			owid-distinct	DiscreteBar	true
-			Mauritania	Migrants: Where foreign-born population in selected country moved from	migration-flow	mauritania_destination			owid-distinct	DiscreteBar	true
-			Mauritius	Migrants: Where foreign-born population in selected country moved from	migration-flow	mauritius_destination			owid-distinct	DiscreteBar	true
-			Mayotte	Migrants: Where foreign-born population in selected country moved from	migration-flow	mayotte_destination			owid-distinct	DiscreteBar	true
-			Melanesia	Migrants: Where foreign-born population in selected country moved from	migration-flow	melanesia_destination			owid-distinct	DiscreteBar	true
-			Mexico	Migrants: Where foreign-born population in selected country moved from	migration-flow	mexico_destination			owid-distinct	DiscreteBar	true
-			Micronesia (country)	Migrants: Where foreign-born population in selected country moved from	migration-flow	micronesia(country)_destination			owid-distinct	DiscreteBar	true
-			Micronesia (region)	Migrants: Where foreign-born population in selected country moved from	migration-flow	micronesia(region)_destination			owid-distinct	DiscreteBar	true
-			Middle Africa	Migrants: Where foreign-born population in selected country moved from	migration-flow	middleafrica_destination			owid-distinct	DiscreteBar	true
-			Middle-income countries	Migrants: Where foreign-born population in selected country moved from	migration-flow	middle-incomecountries_destination			owid-distinct	DiscreteBar	true
-			Moldova	Migrants: Where foreign-born population in selected country moved from	migration-flow	moldova_destination			owid-distinct	DiscreteBar	true
-			Monaco	Migrants: Where foreign-born population in selected country moved from	migration-flow	monaco_destination			owid-distinct	DiscreteBar	true
-			Mongolia	Migrants: Where foreign-born population in selected country moved from	migration-flow	mongolia_destination			owid-distinct	DiscreteBar	true
-			Montenegro	Migrants: Where foreign-born population in selected country moved from	migration-flow	montenegro_destination			owid-distinct	DiscreteBar	true
-			Montserrat	Migrants: Where foreign-born population in selected country moved from	migration-flow	montserrat_destination			owid-distinct	DiscreteBar	true
-			Morocco	Migrants: Where foreign-born population in selected country moved from	migration-flow	morocco_destination			owid-distinct	DiscreteBar	true
-			Mozambique	Migrants: Where foreign-born population in selected country moved from	migration-flow	mozambique_destination			owid-distinct	DiscreteBar	true
-			Myanmar	Migrants: Where foreign-born population in selected country moved from	migration-flow	myanmar_destination			owid-distinct	DiscreteBar	true
-			Namibia	Migrants: Where foreign-born population in selected country moved from	migration-flow	namibia_destination			owid-distinct	DiscreteBar	true
-			Nauru	Migrants: Where foreign-born population in selected country moved from	migration-flow	nauru_destination			owid-distinct	DiscreteBar	true
-			Nepal	Migrants: Where foreign-born population in selected country moved from	migration-flow	nepal_destination			owid-distinct	DiscreteBar	true
-			Netherlands	Migrants: Where foreign-born population in selected country moved from	migration-flow	netherlands_destination			owid-distinct	DiscreteBar	true
-			New Caledonia	Migrants: Where foreign-born population in selected country moved from	migration-flow	newcaledonia_destination			owid-distinct	DiscreteBar	true
-			New Zealand	Migrants: Where foreign-born population in selected country moved from	migration-flow	newzealand_destination			owid-distinct	DiscreteBar	true
-			Nicaragua	Migrants: Where foreign-born population in selected country moved from	migration-flow	nicaragua_destination			owid-distinct	DiscreteBar	true
-			Niger	Migrants: Where foreign-born population in selected country moved from	migration-flow	niger_destination			owid-distinct	DiscreteBar	true
-			Nigeria	Migrants: Where foreign-born population in selected country moved from	migration-flow	nigeria_destination			owid-distinct	DiscreteBar	true
-			Niue	Migrants: Where foreign-born population in selected country moved from	migration-flow	niue_destination			owid-distinct	DiscreteBar	true
-			North Korea	Migrants: Where foreign-born population in selected country moved from	migration-flow	northkorea_destination			owid-distinct	DiscreteBar	true
-			North Macedonia	Migrants: Where foreign-born population in selected country moved from	migration-flow	northmacedonia_destination			owid-distinct	DiscreteBar	true
-			Northern Africa	Migrants: Where foreign-born population in selected country moved from	migration-flow	northernafrica_destination			owid-distinct	DiscreteBar	true
-			Northern Africa and Western Asia	Migrants: Where foreign-born population in selected country moved from	migration-flow	northernafricaandwesternasia_destination			owid-distinct	DiscreteBar	true
-			Northern America	Migrants: Where foreign-born population in selected country moved from	migration-flow	northernamerica_destination			owid-distinct	DiscreteBar	true
-			Northern Europe	Migrants: Where foreign-born population in selected country moved from	migration-flow	northerneurope_destination			owid-distinct	DiscreteBar	true
-			Northern Mariana Islands	Migrants: Where foreign-born population in selected country moved from	migration-flow	northernmarianaislands_destination			owid-distinct	DiscreteBar	true
-			Norway	Migrants: Where foreign-born population in selected country moved from	migration-flow	norway_destination			owid-distinct	DiscreteBar	true
-			Oceania	Migrants: Where foreign-born population in selected country moved from	migration-flow	oceania_destination			owid-distinct	DiscreteBar	true
-			Oceania (excluding Australia and New Zealand)	Migrants: Where foreign-born population in selected country moved from	migration-flow	oceania(excludingaustraliaandnewzealand)_destination			owid-distinct	DiscreteBar	true
-			Oman	Migrants: Where foreign-born population in selected country moved from	migration-flow	oman_destination			owid-distinct	DiscreteBar	true
-			Other	Migrants: Where foreign-born population in selected country moved from	migration-flow	other_destination			owid-distinct	DiscreteBar	true
-			Pakistan	Migrants: Where foreign-born population in selected country moved from	migration-flow	pakistan_destination			owid-distinct	DiscreteBar	true
-			Palau	Migrants: Where foreign-born population in selected country moved from	migration-flow	palau_destination			owid-distinct	DiscreteBar	true
-			Palestine	Migrants: Where foreign-born population in selected country moved from	migration-flow	palestine_destination			owid-distinct	DiscreteBar	true
-			Panama	Migrants: Where foreign-born population in selected country moved from	migration-flow	panama_destination			owid-distinct	DiscreteBar	true
-			Papua New Guinea	Migrants: Where foreign-born population in selected country moved from	migration-flow	papuanewguinea_destination			owid-distinct	DiscreteBar	true
-			Paraguay	Migrants: Where foreign-born population in selected country moved from	migration-flow	paraguay_destination			owid-distinct	DiscreteBar	true
-			Peru	Migrants: Where foreign-born population in selected country moved from	migration-flow	peru_destination			owid-distinct	DiscreteBar	true
-			Philippines	Migrants: Where foreign-born population in selected country moved from	migration-flow	philippines_destination			owid-distinct	DiscreteBar	true
-			Poland	Migrants: Where foreign-born population in selected country moved from	migration-flow	poland_destination			owid-distinct	DiscreteBar	true
-			Polynesia	Migrants: Where foreign-born population in selected country moved from	migration-flow	polynesia_destination			owid-distinct	DiscreteBar	true
-			Portugal	Migrants: Where foreign-born population in selected country moved from	migration-flow	portugal_destination			owid-distinct	DiscreteBar	true
-			Puerto Rico	Migrants: Where foreign-born population in selected country moved from	migration-flow	puertorico_destination			owid-distinct	DiscreteBar	true
-			Qatar	Migrants: Where foreign-born population in selected country moved from	migration-flow	qatar_destination			owid-distinct	DiscreteBar	true
-			Reunion	Migrants: Where foreign-born population in selected country moved from	migration-flow	reunion_destination			owid-distinct	DiscreteBar	true
-			Romania	Migrants: Where foreign-born population in selected country moved from	migration-flow	romania_destination			owid-distinct	DiscreteBar	true
-			Russia	Migrants: Where foreign-born population in selected country moved from	migration-flow	russia_destination			owid-distinct	DiscreteBar	true
-			Rwanda	Migrants: Where foreign-born population in selected country moved from	migration-flow	rwanda_destination			owid-distinct	DiscreteBar	true
-			Saint Barthlemy	Migrants: Where foreign-born population in selected country moved from	migration-flow	saintbarthlemy_destination			owid-distinct	DiscreteBar	true
-			Saint Helena	Migrants: Where foreign-born population in selected country moved from	migration-flow	sainthelena_destination			owid-distinct	DiscreteBar	true
-			Saint Kitts and Nevis	Migrants: Where foreign-born population in selected country moved from	migration-flow	saintkittsandnevis_destination			owid-distinct	DiscreteBar	true
-			Saint Lucia	Migrants: Where foreign-born population in selected country moved from	migration-flow	saintlucia_destination			owid-distinct	DiscreteBar	true
-			Saint Martin (French part)	Migrants: Where foreign-born population in selected country moved from	migration-flow	saintmartin(frenchpart)_destination			owid-distinct	DiscreteBar	true
-			Saint Pierre and Miquelon	Migrants: Where foreign-born population in selected country moved from	migration-flow	saintpierreandmiquelon_destination			owid-distinct	DiscreteBar	true
-			Saint Vincent and the Grenadines	Migrants: Where foreign-born population in selected country moved from	migration-flow	saintvincentandthegrenadines_destination			owid-distinct	DiscreteBar	true
-			Samoa	Migrants: Where foreign-born population in selected country moved from	migration-flow	samoa_destination			owid-distinct	DiscreteBar	true
-			San Marino	Migrants: Where foreign-born population in selected country moved from	migration-flow	sanmarino_destination			owid-distinct	DiscreteBar	true
-			Sao Tome and Principe	Migrants: Where foreign-born population in selected country moved from	migration-flow	saotomeandprincipe_destination			owid-distinct	DiscreteBar	true
-			Saudi Arabia	Migrants: Where foreign-born population in selected country moved from	migration-flow	saudiarabia_destination			owid-distinct	DiscreteBar	true
-			Senegal	Migrants: Where foreign-born population in selected country moved from	migration-flow	senegal_destination			owid-distinct	DiscreteBar	true
-			Serbia	Migrants: Where foreign-born population in selected country moved from	migration-flow	serbia_destination			owid-distinct	DiscreteBar	true
-			Seychelles	Migrants: Where foreign-born population in selected country moved from	migration-flow	seychelles_destination			owid-distinct	DiscreteBar	true
-			Sierra Leone	Migrants: Where foreign-born population in selected country moved from	migration-flow	sierraleone_destination			owid-distinct	DiscreteBar	true
-			Singapore	Migrants: Where foreign-born population in selected country moved from	migration-flow	singapore_destination			owid-distinct	DiscreteBar	true
-			Sint Maarten (Dutch part)	Migrants: Where foreign-born population in selected country moved from	migration-flow	sintmaarten(dutchpart)_destination			owid-distinct	DiscreteBar	true
-			Slovakia	Migrants: Where foreign-born population in selected country moved from	migration-flow	slovakia_destination			owid-distinct	DiscreteBar	true
-			Slovenia	Migrants: Where foreign-born population in selected country moved from	migration-flow	slovenia_destination			owid-distinct	DiscreteBar	true
-			Small island developing States (SIDS)	Migrants: Where foreign-born population in selected country moved from	migration-flow	smallislanddevelopingstates(sids)_destination			owid-distinct	DiscreteBar	true
-			Solomon Islands	Migrants: Where foreign-born population in selected country moved from	migration-flow	solomonislands_destination			owid-distinct	DiscreteBar	true
-			Somalia	Migrants: Where foreign-born population in selected country moved from	migration-flow	somalia_destination			owid-distinct	DiscreteBar	true
-			South Africa	Migrants: Where foreign-born population in selected country moved from	migration-flow	southafrica_destination			owid-distinct	DiscreteBar	true
-			South America	Migrants: Where foreign-born population in selected country moved from	migration-flow	southamerica_destination			owid-distinct	DiscreteBar	true
-			South Korea	Migrants: Where foreign-born population in selected country moved from	migration-flow	southkorea_destination			owid-distinct	DiscreteBar	true
-			South Sudan	Migrants: Where foreign-born population in selected country moved from	migration-flow	southsudan_destination			owid-distinct	DiscreteBar	true
-			South-Eastern Asia	Migrants: Where foreign-born population in selected country moved from	migration-flow	south-easternasia_destination			owid-distinct	DiscreteBar	true
-			Southern Africa	Migrants: Where foreign-born population in selected country moved from	migration-flow	southernafrica_destination			owid-distinct	DiscreteBar	true
-			Southern Asia	Migrants: Where foreign-born population in selected country moved from	migration-flow	southernasia_destination			owid-distinct	DiscreteBar	true
-			Southern Europe	Migrants: Where foreign-born population in selected country moved from	migration-flow	southerneurope_destination			owid-distinct	DiscreteBar	true
-			Spain	Migrants: Where foreign-born population in selected country moved from	migration-flow	spain_destination			owid-distinct	DiscreteBar	true
-			Sri Lanka	Migrants: Where foreign-born population in selected country moved from	migration-flow	srilanka_destination			owid-distinct	DiscreteBar	true
-			Sub-Saharan Africa	Migrants: Where foreign-born population in selected country moved from	migration-flow	sub-saharanafrica_destination			owid-distinct	DiscreteBar	true
-			Sudan	Migrants: Where foreign-born population in selected country moved from	migration-flow	sudan_destination			owid-distinct	DiscreteBar	true
-			Suriname	Migrants: Where foreign-born population in selected country moved from	migration-flow	suriname_destination			owid-distinct	DiscreteBar	true
-			Sweden	Migrants: Where foreign-born population in selected country moved from	migration-flow	sweden_destination			owid-distinct	DiscreteBar	true
-			Switzerland	Migrants: Where foreign-born population in selected country moved from	migration-flow	switzerland_destination			owid-distinct	DiscreteBar	true
-			Syria	Migrants: Where foreign-born population in selected country moved from	migration-flow	syria_destination			owid-distinct	DiscreteBar	true
-			Taiwan	Migrants: Where foreign-born population in selected country moved from	migration-flow	taiwan_destination			owid-distinct	DiscreteBar	true
-			Tajikistan	Migrants: Where foreign-born population in selected country moved from	migration-flow	tajikistan_destination			owid-distinct	DiscreteBar	true
-			Tanzania	Migrants: Where foreign-born population in selected country moved from	migration-flow	tanzania_destination			owid-distinct	DiscreteBar	true
-			Thailand	Migrants: Where foreign-born population in selected country moved from	migration-flow	thailand_destination			owid-distinct	DiscreteBar	true
-			Timor-Leste	Migrants: Where foreign-born population in selected country moved from	migration-flow	timor-leste_destination			owid-distinct	DiscreteBar	true
-			Togo	Migrants: Where foreign-born population in selected country moved from	migration-flow	togo_destination			owid-distinct	DiscreteBar	true
-			Tokelau	Migrants: Where foreign-born population in selected country moved from	migration-flow	tokelau_destination			owid-distinct	DiscreteBar	true
-			Tonga	Migrants: Where foreign-born population in selected country moved from	migration-flow	tonga_destination			owid-distinct	DiscreteBar	true
-			Trinidad and Tobago	Migrants: Where foreign-born population in selected country moved from	migration-flow	trinidadandtobago_destination			owid-distinct	DiscreteBar	true
-			Tunisia	Migrants: Where foreign-born population in selected country moved from	migration-flow	tunisia_destination			owid-distinct	DiscreteBar	true
-			Turkey	Migrants: Where foreign-born population in selected country moved from	migration-flow	turkey_destination			owid-distinct	DiscreteBar	true
-			Turkmenistan	Migrants: Where foreign-born population in selected country moved from	migration-flow	turkmenistan_destination			owid-distinct	DiscreteBar	true
-			Turks and Caicos Islands	Migrants: Where foreign-born population in selected country moved from	migration-flow	turksandcaicosislands_destination			owid-distinct	DiscreteBar	true
-			Tuvalu	Migrants: Where foreign-born population in selected country moved from	migration-flow	tuvalu_destination			owid-distinct	DiscreteBar	true
-			Uganda	Migrants: Where foreign-born population in selected country moved from	migration-flow	uganda_destination			owid-distinct	DiscreteBar	true
-			Ukraine	Migrants: Where foreign-born population in selected country moved from	migration-flow	ukraine_destination			owid-distinct	DiscreteBar	true
-			United Arab Emirates	Migrants: Where foreign-born population in selected country moved from	migration-flow	unitedarabemirates_destination			owid-distinct	DiscreteBar	true
-			United Kingdom	Migrants: Where foreign-born population in selected country moved from	migration-flow	unitedkingdom_destination			owid-distinct	DiscreteBar	true
-			United States	Migrants: Where foreign-born population in selected country moved from	migration-flow	unitedstates_destination			owid-distinct	DiscreteBar	true
-			United States Virgin Islands	Migrants: Where foreign-born population in selected country moved from	migration-flow	unitedstatesvirginislands_destination			owid-distinct	DiscreteBar	true
-			Upper-middle-income countries	Migrants: Where foreign-born population in selected country moved from	migration-flow	upper-middle-incomecountries_destination			owid-distinct	DiscreteBar	true
-			Uruguay	Migrants: Where foreign-born population in selected country moved from	migration-flow	uruguay_destination			owid-distinct	DiscreteBar	true
-			Uzbekistan	Migrants: Where foreign-born population in selected country moved from	migration-flow	uzbekistan_destination			owid-distinct	DiscreteBar	true
-			Vanuatu	Migrants: Where foreign-born population in selected country moved from	migration-flow	vanuatu_destination			owid-distinct	DiscreteBar	true
-			Vatican	Migrants: Where foreign-born population in selected country moved from	migration-flow	vatican_destination			owid-distinct	DiscreteBar	true
-			Venezuela	Migrants: Where foreign-born population in selected country moved from	migration-flow	venezuela_destination			owid-distinct	DiscreteBar	true
-			Vietnam	Migrants: Where foreign-born population in selected country moved from	migration-flow	vietnam_destination			owid-distinct	DiscreteBar	true
-			Wallis and Futuna	Migrants: Where foreign-born population in selected country moved from	migration-flow	wallisandfutuna_destination			owid-distinct	DiscreteBar	true
-			Western Africa	Migrants: Where foreign-born population in selected country moved from	migration-flow	westernafrica_destination			owid-distinct	DiscreteBar	true
-			Western Asia	Migrants: Where foreign-born population in selected country moved from	migration-flow	westernasia_destination			owid-distinct	DiscreteBar	true
-			Western Europe	Migrants: Where foreign-born population in selected country moved from	migration-flow	westerneurope_destination			owid-distinct	DiscreteBar	true
-			Western Sahara	Migrants: Where foreign-born population in selected country moved from	migration-flow	westernsahara_destination			owid-distinct	DiscreteBar	true
-			World	Migrants: Where foreign-born population in selected country moved from	migration-flow	world_destination			owid-distinct	DiscreteBar	true
-			Yemen	Migrants: Where foreign-born population in selected country moved from	migration-flow	yemen_destination			owid-distinct	DiscreteBar	true
-			Zambia	Migrants: Where foreign-born population in selected country moved from	migration-flow	zambia_destination			owid-distinct	DiscreteBar	true
-			Zimbabwe	Migrants: Where foreign-born population in selected country moved from	migration-flow	zimbabwe_destination			owid-distinct	DiscreteBar	true
+	Emigrants from Afghanistan: Where they moved to		Afghanistan	Emigrants: Where people born in the selected country moved to	migration-flow	afghanistan_origin	false		owid-distinct	DiscreteBar	true
+			Africa	Emigrants: Where people born in the selected country moved to	migration-flow	africa_origin	false		owid-distinct	DiscreteBar	true
+			Albania	Emigrants: Where people born in the selected country moved to	migration-flow	albania_origin	false		owid-distinct	DiscreteBar	true
+			Algeria	Emigrants: Where people born in the selected country moved to	migration-flow	algeria_origin	false		owid-distinct	DiscreteBar	true
+			American Samoa	Emigrants: Where people born in the selected country moved to	migration-flow	americansamoa_origin	false		owid-distinct	DiscreteBar	true
+			Andorra	Emigrants: Where people born in the selected country moved to	migration-flow	andorra_origin	false		owid-distinct	DiscreteBar	true
+			Angola	Emigrants: Where people born in the selected country moved to	migration-flow	angola_origin	false		owid-distinct	DiscreteBar	true
+			Anguilla	Emigrants: Where people born in the selected country moved to	migration-flow	anguilla_origin	false		owid-distinct	DiscreteBar	true
+			Antigua and Barbuda	Emigrants: Where people born in the selected country moved to	migration-flow	antiguaandbarbuda_origin	false		owid-distinct	DiscreteBar	true
+			Argentina	Emigrants: Where people born in the selected country moved to	migration-flow	argentina_origin	false		owid-distinct	DiscreteBar	true
+			Armenia	Emigrants: Where people born in the selected country moved to	migration-flow	armenia_origin	false		owid-distinct	DiscreteBar	true
+			Aruba	Emigrants: Where people born in the selected country moved to	migration-flow	aruba_origin	false		owid-distinct	DiscreteBar	true
+			Asia	Emigrants: Where people born in the selected country moved to	migration-flow	asia_origin	false		owid-distinct	DiscreteBar	true
+			Australia	Emigrants: Where people born in the selected country moved to	migration-flow	australia_origin	false		owid-distinct	DiscreteBar	true
+			Australia and New Zealand	Emigrants: Where people born in the selected country moved to	migration-flow	australiaandnewzealand_origin	false		owid-distinct	DiscreteBar	true
+			Austria	Emigrants: Where people born in the selected country moved to	migration-flow	austria_origin	false		owid-distinct	DiscreteBar	true
+			Azerbaijan	Emigrants: Where people born in the selected country moved to	migration-flow	azerbaijan_origin	false		owid-distinct	DiscreteBar	true
+			Bahamas	Emigrants: Where people born in the selected country moved to	migration-flow	bahamas_origin	false		owid-distinct	DiscreteBar	true
+			Bahrain	Emigrants: Where people born in the selected country moved to	migration-flow	bahrain_origin	false		owid-distinct	DiscreteBar	true
+			Bangladesh	Emigrants: Where people born in the selected country moved to	migration-flow	bangladesh_origin	false		owid-distinct	DiscreteBar	true
+			Barbados	Emigrants: Where people born in the selected country moved to	migration-flow	barbados_origin	false		owid-distinct	DiscreteBar	true
+			Belarus	Emigrants: Where people born in the selected country moved to	migration-flow	belarus_origin	false		owid-distinct	DiscreteBar	true
+			Belgium	Emigrants: Where people born in the selected country moved to	migration-flow	belgium_origin	false		owid-distinct	DiscreteBar	true
+			Belize	Emigrants: Where people born in the selected country moved to	migration-flow	belize_origin	false		owid-distinct	DiscreteBar	true
+			Benin	Emigrants: Where people born in the selected country moved to	migration-flow	benin_origin	false		owid-distinct	DiscreteBar	true
+			Bermuda	Emigrants: Where people born in the selected country moved to	migration-flow	bermuda_origin	false		owid-distinct	DiscreteBar	true
+			Bhutan	Emigrants: Where people born in the selected country moved to	migration-flow	bhutan_origin	false		owid-distinct	DiscreteBar	true
+			Bolivia	Emigrants: Where people born in the selected country moved to	migration-flow	bolivia_origin	false		owid-distinct	DiscreteBar	true
+			Bonaire Sint Eustatius and Saba	Emigrants: Where people born in the selected country moved to	migration-flow	bonairesinteustatiusandsaba_origin	false		owid-distinct	DiscreteBar	true
+			Bosnia and Herzegovina	Emigrants: Where people born in the selected country moved to	migration-flow	bosniaandherzegovina_origin	false		owid-distinct	DiscreteBar	true
+			Botswana	Emigrants: Where people born in the selected country moved to	migration-flow	botswana_origin	false		owid-distinct	DiscreteBar	true
+			Brazil	Emigrants: Where people born in the selected country moved to	migration-flow	brazil_origin	false		owid-distinct	DiscreteBar	true
+			British Virgin Islands	Emigrants: Where people born in the selected country moved to	migration-flow	britishvirginislands_origin	false		owid-distinct	DiscreteBar	true
+			Brunei	Emigrants: Where people born in the selected country moved to	migration-flow	brunei_origin	false		owid-distinct	DiscreteBar	true
+			Bulgaria	Emigrants: Where people born in the selected country moved to	migration-flow	bulgaria_origin	false		owid-distinct	DiscreteBar	true
+			Burkina Faso	Emigrants: Where people born in the selected country moved to	migration-flow	burkinafaso_origin	false		owid-distinct	DiscreteBar	true
+			Burundi	Emigrants: Where people born in the selected country moved to	migration-flow	burundi_origin	false		owid-distinct	DiscreteBar	true
+			Cambodia	Emigrants: Where people born in the selected country moved to	migration-flow	cambodia_origin	false		owid-distinct	DiscreteBar	true
+			Cameroon	Emigrants: Where people born in the selected country moved to	migration-flow	cameroon_origin	false		owid-distinct	DiscreteBar	true
+			Canada	Emigrants: Where people born in the selected country moved to	migration-flow	canada_origin			owid-distinct	DiscreteBar	true
+			Cape Verde	Emigrants: Where people born in the selected country moved to	migration-flow	capeverde_origin			owid-distinct	DiscreteBar	true
+			Caribbean	Emigrants: Where people born in the selected country moved to	migration-flow	caribbean_origin			owid-distinct	DiscreteBar	true
+			Cayman Islands	Emigrants: Where people born in the selected country moved to	migration-flow	caymanislands_origin			owid-distinct	DiscreteBar	true
+			Central African Republic	Emigrants: Where people born in the selected country moved to	migration-flow	centralafricanrepublic_origin			owid-distinct	DiscreteBar	true
+			Central America	Emigrants: Where people born in the selected country moved to	migration-flow	centralamerica_origin			owid-distinct	DiscreteBar	true
+			Central Asia	Emigrants: Where people born in the selected country moved to	migration-flow	centralasia_origin			owid-distinct	DiscreteBar	true
+			Central and Southern Asia	Emigrants: Where people born in the selected country moved to	migration-flow	centralandsouthernasia_origin			owid-distinct	DiscreteBar	true
+			Chad	Emigrants: Where people born in the selected country moved to	migration-flow	chad_origin			owid-distinct	DiscreteBar	true
+			Channel Islands	Emigrants: Where people born in the selected country moved to	migration-flow	channelislands_origin			owid-distinct	DiscreteBar	true
+			Chile	Emigrants: Where people born in the selected country moved to	migration-flow	chile_origin			owid-distinct	DiscreteBar	true
+			China	Emigrants: Where people born in the selected country moved to	migration-flow	china_origin			owid-distinct	DiscreteBar	true
+			Colombia	Emigrants: Where people born in the selected country moved to	migration-flow	colombia_origin			owid-distinct	DiscreteBar	true
+			Comoros	Emigrants: Where people born in the selected country moved to	migration-flow	comoros_origin			owid-distinct	DiscreteBar	true
+			Congo	Emigrants: Where people born in the selected country moved to	migration-flow	congo_origin			owid-distinct	DiscreteBar	true
+			Cook Islands	Emigrants: Where people born in the selected country moved to	migration-flow	cookislands_origin			owid-distinct	DiscreteBar	true
+			Costa Rica	Emigrants: Where people born in the selected country moved to	migration-flow	costarica_origin			owid-distinct	DiscreteBar	true
+			Cote d'Ivoire	Emigrants: Where people born in the selected country moved to	migration-flow	coted'ivoire_origin			owid-distinct	DiscreteBar	true
+			Croatia	Emigrants: Where people born in the selected country moved to	migration-flow	croatia_origin			owid-distinct	DiscreteBar	true
+			Cuba	Emigrants: Where people born in the selected country moved to	migration-flow	cuba_origin			owid-distinct	DiscreteBar	true
+			Curacao	Emigrants: Where people born in the selected country moved to	migration-flow	curacao_origin			owid-distinct	DiscreteBar	true
+			Cyprus	Emigrants: Where people born in the selected country moved to	migration-flow	cyprus_origin			owid-distinct	DiscreteBar	true
+			Czechia	Emigrants: Where people born in the selected country moved to	migration-flow	czechia_origin			owid-distinct	DiscreteBar	true
+			Democratic Republic of Congo	Emigrants: Where people born in the selected country moved to	migration-flow	democraticrepublicofcongo_origin			owid-distinct	DiscreteBar	true
+			Denmark	Emigrants: Where people born in the selected country moved to	migration-flow	denmark_origin			owid-distinct	DiscreteBar	true
+			Developed regions	Emigrants: Where people born in the selected country moved to	migration-flow	developedregions_origin			owid-distinct	DiscreteBar	true
+			Djibouti	Emigrants: Where people born in the selected country moved to	migration-flow	djibouti_origin			owid-distinct	DiscreteBar	true
+			Dominica	Emigrants: Where people born in the selected country moved to	migration-flow	dominica_origin			owid-distinct	DiscreteBar	true
+			Dominican Republic	Emigrants: Where people born in the selected country moved to	migration-flow	dominicanrepublic_origin			owid-distinct	DiscreteBar	true
+			Eastern Africa	Emigrants: Where people born in the selected country moved to	migration-flow	easternafrica_origin			owid-distinct	DiscreteBar	true
+			Eastern Asia	Emigrants: Where people born in the selected country moved to	migration-flow	easternasia_origin			owid-distinct	DiscreteBar	true
+			Eastern Europe	Emigrants: Where people born in the selected country moved to	migration-flow	easterneurope_origin			owid-distinct	DiscreteBar	true
+			Eastern and South-Eastern Asia	Emigrants: Where people born in the selected country moved to	migration-flow	easternandsouth-easternasia_origin			owid-distinct	DiscreteBar	true
+			Ecuador	Emigrants: Where people born in the selected country moved to	migration-flow	ecuador_origin			owid-distinct	DiscreteBar	true
+			Egypt	Emigrants: Where people born in the selected country moved to	migration-flow	egypt_origin			owid-distinct	DiscreteBar	true
+			El Salvador	Emigrants: Where people born in the selected country moved to	migration-flow	elsalvador_origin			owid-distinct	DiscreteBar	true
+			Equatorial Guinea	Emigrants: Where people born in the selected country moved to	migration-flow	equatorialguinea_origin			owid-distinct	DiscreteBar	true
+			Eritrea	Emigrants: Where people born in the selected country moved to	migration-flow	eritrea_origin			owid-distinct	DiscreteBar	true
+			Estonia	Emigrants: Where people born in the selected country moved to	migration-flow	estonia_origin			owid-distinct	DiscreteBar	true
+			Eswatini	Emigrants: Where people born in the selected country moved to	migration-flow	eswatini_origin			owid-distinct	DiscreteBar	true
+			Ethiopia	Emigrants: Where people born in the selected country moved to	migration-flow	ethiopia_origin			owid-distinct	DiscreteBar	true
+			Europe	Emigrants: Where people born in the selected country moved to	migration-flow	europe_origin			owid-distinct	DiscreteBar	true
+			Europe and Northern America	Emigrants: Where people born in the selected country moved to	migration-flow	europeandnorthernamerica_origin			owid-distinct	DiscreteBar	true
+			Faeroe Islands	Emigrants: Where people born in the selected country moved to	migration-flow	faeroeislands_origin			owid-distinct	DiscreteBar	true
+			Falkland Islands	Emigrants: Where people born in the selected country moved to	migration-flow	falklandislands_origin			owid-distinct	DiscreteBar	true
+			Fiji	Emigrants: Where people born in the selected country moved to	migration-flow	fiji_origin			owid-distinct	DiscreteBar	true
+			Finland	Emigrants: Where people born in the selected country moved to	migration-flow	finland_origin			owid-distinct	DiscreteBar	true
+			France	Emigrants: Where people born in the selected country moved to	migration-flow	france_origin			owid-distinct	DiscreteBar	true
+			French Guiana	Emigrants: Where people born in the selected country moved to	migration-flow	frenchguiana_origin			owid-distinct	DiscreteBar	true
+			French Polynesia	Emigrants: Where people born in the selected country moved to	migration-flow	frenchpolynesia_origin			owid-distinct	DiscreteBar	true
+			Gabon	Emigrants: Where people born in the selected country moved to	migration-flow	gabon_origin			owid-distinct	DiscreteBar	true
+			Gambia	Emigrants: Where people born in the selected country moved to	migration-flow	gambia_origin			owid-distinct	DiscreteBar	true
+			Georgia	Emigrants: Where people born in the selected country moved to	migration-flow	georgia_origin			owid-distinct	DiscreteBar	true
+			Germany	Emigrants: Where people born in the selected country moved to	migration-flow	germany_origin			owid-distinct	DiscreteBar	true
+			Ghana	Emigrants: Where people born in the selected country moved to	migration-flow	ghana_origin			owid-distinct	DiscreteBar	true
+			Gibraltar	Emigrants: Where people born in the selected country moved to	migration-flow	gibraltar_origin			owid-distinct	DiscreteBar	true
+			Greece	Emigrants: Where people born in the selected country moved to	migration-flow	greece_origin			owid-distinct	DiscreteBar	true
+			Greenland	Emigrants: Where people born in the selected country moved to	migration-flow	greenland_origin			owid-distinct	DiscreteBar	true
+			Grenada	Emigrants: Where people born in the selected country moved to	migration-flow	grenada_origin			owid-distinct	DiscreteBar	true
+			Guadeloupe	Emigrants: Where people born in the selected country moved to	migration-flow	guadeloupe_origin			owid-distinct	DiscreteBar	true
+			Guam	Emigrants: Where people born in the selected country moved to	migration-flow	guam_origin			owid-distinct	DiscreteBar	true
+			Guatemala	Emigrants: Where people born in the selected country moved to	migration-flow	guatemala_origin			owid-distinct	DiscreteBar	true
+			Guinea	Emigrants: Where people born in the selected country moved to	migration-flow	guinea_origin			owid-distinct	DiscreteBar	true
+			Guinea-Bissau	Emigrants: Where people born in the selected country moved to	migration-flow	guinea-bissau_origin			owid-distinct	DiscreteBar	true
+			Guyana	Emigrants: Where people born in the selected country moved to	migration-flow	guyana_origin			owid-distinct	DiscreteBar	true
+			Haiti	Emigrants: Where people born in the selected country moved to	migration-flow	haiti_origin			owid-distinct	DiscreteBar	true
+			High-income countries	Emigrants: Where people born in the selected country moved to	migration-flow	high-incomecountries_origin			owid-distinct	DiscreteBar	true
+			Honduras	Emigrants: Where people born in the selected country moved to	migration-flow	honduras_origin			owid-distinct	DiscreteBar	true
+			Hong Kong	Emigrants: Where people born in the selected country moved to	migration-flow	hongkong_origin			owid-distinct	DiscreteBar	true
+			Hungary	Emigrants: Where people born in the selected country moved to	migration-flow	hungary_origin			owid-distinct	DiscreteBar	true
+			Iceland	Emigrants: Where people born in the selected country moved to	migration-flow	iceland_origin			owid-distinct	DiscreteBar	true
+			India	Emigrants: Where people born in the selected country moved to	migration-flow	india_origin			owid-distinct	DiscreteBar	true
+			Indonesia	Emigrants: Where people born in the selected country moved to	migration-flow	indonesia_origin			owid-distinct	DiscreteBar	true
+			Iran	Emigrants: Where people born in the selected country moved to	migration-flow	iran_origin			owid-distinct	DiscreteBar	true
+			Iraq	Emigrants: Where people born in the selected country moved to	migration-flow	iraq_origin			owid-distinct	DiscreteBar	true
+			Ireland	Emigrants: Where people born in the selected country moved to	migration-flow	ireland_origin			owid-distinct	DiscreteBar	true
+			Isle of Man	Emigrants: Where people born in the selected country moved to	migration-flow	isleofman_origin			owid-distinct	DiscreteBar	true
+			Israel	Emigrants: Where people born in the selected country moved to	migration-flow	israel_origin			owid-distinct	DiscreteBar	true
+			Italy	Emigrants: Where people born in the selected country moved to	migration-flow	italy_origin			owid-distinct	DiscreteBar	true
+			Jamaica	Emigrants: Where people born in the selected country moved to	migration-flow	jamaica_origin			owid-distinct	DiscreteBar	true
+			Japan	Emigrants: Where people born in the selected country moved to	migration-flow	japan_origin			owid-distinct	DiscreteBar	true
+			Jordan	Emigrants: Where people born in the selected country moved to	migration-flow	jordan_origin			owid-distinct	DiscreteBar	true
+			Kazakhstan	Emigrants: Where people born in the selected country moved to	migration-flow	kazakhstan_origin			owid-distinct	DiscreteBar	true
+			Kenya	Emigrants: Where people born in the selected country moved to	migration-flow	kenya_origin			owid-distinct	DiscreteBar	true
+			Kiribati	Emigrants: Where people born in the selected country moved to	migration-flow	kiribati_origin			owid-distinct	DiscreteBar	true
+			Kuwait	Emigrants: Where people born in the selected country moved to	migration-flow	kuwait_origin			owid-distinct	DiscreteBar	true
+			Kyrgyzstan	Emigrants: Where people born in the selected country moved to	migration-flow	kyrgyzstan_origin			owid-distinct	DiscreteBar	true
+			Land-locked Developing Countries (LLDC)	Emigrants: Where people born in the selected country moved to	migration-flow	land-lockeddevelopingcountries(lldc)_origin			owid-distinct	DiscreteBar	true
+			Laos	Emigrants: Where people born in the selected country moved to	migration-flow	laos_origin			owid-distinct	DiscreteBar	true
+			Latin America and the Caribbean	Emigrants: Where people born in the selected country moved to	migration-flow	latinamericaandthecaribbean_origin			owid-distinct	DiscreteBar	true
+			Latvia	Emigrants: Where people born in the selected country moved to	migration-flow	latvia_origin			owid-distinct	DiscreteBar	true
+			Least developed countries	Emigrants: Where people born in the selected country moved to	migration-flow	leastdevelopedcountries_origin			owid-distinct	DiscreteBar	true
+			Lebanon	Emigrants: Where people born in the selected country moved to	migration-flow	lebanon_origin			owid-distinct	DiscreteBar	true
+			Lesotho	Emigrants: Where people born in the selected country moved to	migration-flow	lesotho_origin			owid-distinct	DiscreteBar	true
+			Less developed regions	Emigrants: Where people born in the selected country moved to	migration-flow	lessdevelopedregions_origin			owid-distinct	DiscreteBar	true
+			Less developed regions, excluding China	Emigrants: Where people born in the selected country moved to	migration-flow	lessdevelopedregions,excludingchina_origin			owid-distinct	DiscreteBar	true
+			Less developed regions, excluding least developed countries	Emigrants: Where people born in the selected country moved to	migration-flow	lessdevelopedregions,excludingleastdevelopedcountries_origin			owid-distinct	DiscreteBar	true
+			Liberia	Emigrants: Where people born in the selected country moved to	migration-flow	liberia_origin			owid-distinct	DiscreteBar	true
+			Libya	Emigrants: Where people born in the selected country moved to	migration-flow	libya_origin			owid-distinct	DiscreteBar	true
+			Liechtenstein	Emigrants: Where people born in the selected country moved to	migration-flow	liechtenstein_origin			owid-distinct	DiscreteBar	true
+			Lithuania	Emigrants: Where people born in the selected country moved to	migration-flow	lithuania_origin			owid-distinct	DiscreteBar	true
+			Low-income countries	Emigrants: Where people born in the selected country moved to	migration-flow	low-incomecountries_origin			owid-distinct	DiscreteBar	true
+			Lower-middle-income countries	Emigrants: Where people born in the selected country moved to	migration-flow	lower-middle-incomecountries_origin			owid-distinct	DiscreteBar	true
+			Luxembourg	Emigrants: Where people born in the selected country moved to	migration-flow	luxembourg_origin			owid-distinct	DiscreteBar	true
+			Macao	Emigrants: Where people born in the selected country moved to	migration-flow	macao_origin			owid-distinct	DiscreteBar	true
+			Madagascar	Emigrants: Where people born in the selected country moved to	migration-flow	madagascar_origin			owid-distinct	DiscreteBar	true
+			Malawi	Emigrants: Where people born in the selected country moved to	migration-flow	malawi_origin			owid-distinct	DiscreteBar	true
+			Malaysia	Emigrants: Where people born in the selected country moved to	migration-flow	malaysia_origin			owid-distinct	DiscreteBar	true
+			Maldives	Emigrants: Where people born in the selected country moved to	migration-flow	maldives_origin			owid-distinct	DiscreteBar	true
+			Mali	Emigrants: Where people born in the selected country moved to	migration-flow	mali_origin			owid-distinct	DiscreteBar	true
+			Malta	Emigrants: Where people born in the selected country moved to	migration-flow	malta_origin			owid-distinct	DiscreteBar	true
+			Marshall Islands	Emigrants: Where people born in the selected country moved to	migration-flow	marshallislands_origin			owid-distinct	DiscreteBar	true
+			Martinique	Emigrants: Where people born in the selected country moved to	migration-flow	martinique_origin			owid-distinct	DiscreteBar	true
+			Mauritania	Emigrants: Where people born in the selected country moved to	migration-flow	mauritania_origin			owid-distinct	DiscreteBar	true
+			Mauritius	Emigrants: Where people born in the selected country moved to	migration-flow	mauritius_origin			owid-distinct	DiscreteBar	true
+			Mayotte	Emigrants: Where people born in the selected country moved to	migration-flow	mayotte_origin			owid-distinct	DiscreteBar	true
+			Melanesia	Emigrants: Where people born in the selected country moved to	migration-flow	melanesia_origin			owid-distinct	DiscreteBar	true
+			Mexico	Emigrants: Where people born in the selected country moved to	migration-flow	mexico_origin			owid-distinct	DiscreteBar	true
+			Micronesia (country)	Emigrants: Where people born in the selected country moved to	migration-flow	micronesia(country)_origin			owid-distinct	DiscreteBar	true
+			Micronesia (region)	Emigrants: Where people born in the selected country moved to	migration-flow	micronesia(region)_origin			owid-distinct	DiscreteBar	true
+			Middle Africa	Emigrants: Where people born in the selected country moved to	migration-flow	middleafrica_origin			owid-distinct	DiscreteBar	true
+			Middle-income countries	Emigrants: Where people born in the selected country moved to	migration-flow	middle-incomecountries_origin			owid-distinct	DiscreteBar	true
+			Moldova	Emigrants: Where people born in the selected country moved to	migration-flow	moldova_origin			owid-distinct	DiscreteBar	true
+			Monaco	Emigrants: Where people born in the selected country moved to	migration-flow	monaco_origin			owid-distinct	DiscreteBar	true
+			Mongolia	Emigrants: Where people born in the selected country moved to	migration-flow	mongolia_origin			owid-distinct	DiscreteBar	true
+			Montenegro	Emigrants: Where people born in the selected country moved to	migration-flow	montenegro_origin			owid-distinct	DiscreteBar	true
+			Montserrat	Emigrants: Where people born in the selected country moved to	migration-flow	montserrat_origin			owid-distinct	DiscreteBar	true
+			Morocco	Emigrants: Where people born in the selected country moved to	migration-flow	morocco_origin			owid-distinct	DiscreteBar	true
+			Mozambique	Emigrants: Where people born in the selected country moved to	migration-flow	mozambique_origin			owid-distinct	DiscreteBar	true
+			Myanmar	Emigrants: Where people born in the selected country moved to	migration-flow	myanmar_origin			owid-distinct	DiscreteBar	true
+			Namibia	Emigrants: Where people born in the selected country moved to	migration-flow	namibia_origin			owid-distinct	DiscreteBar	true
+			Nauru	Emigrants: Where people born in the selected country moved to	migration-flow	nauru_origin			owid-distinct	DiscreteBar	true
+			Nepal	Emigrants: Where people born in the selected country moved to	migration-flow	nepal_origin			owid-distinct	DiscreteBar	true
+			Netherlands	Emigrants: Where people born in the selected country moved to	migration-flow	netherlands_origin			owid-distinct	DiscreteBar	true
+			New Caledonia	Emigrants: Where people born in the selected country moved to	migration-flow	newcaledonia_origin			owid-distinct	DiscreteBar	true
+			New Zealand	Emigrants: Where people born in the selected country moved to	migration-flow	newzealand_origin			owid-distinct	DiscreteBar	true
+			Nicaragua	Emigrants: Where people born in the selected country moved to	migration-flow	nicaragua_origin			owid-distinct	DiscreteBar	true
+			Niger	Emigrants: Where people born in the selected country moved to	migration-flow	niger_origin			owid-distinct	DiscreteBar	true
+			Nigeria	Emigrants: Where people born in the selected country moved to	migration-flow	nigeria_origin			owid-distinct	DiscreteBar	true
+			Niue	Emigrants: Where people born in the selected country moved to	migration-flow	niue_origin			owid-distinct	DiscreteBar	true
+			North Korea	Emigrants: Where people born in the selected country moved to	migration-flow	northkorea_origin			owid-distinct	DiscreteBar	true
+			North Macedonia	Emigrants: Where people born in the selected country moved to	migration-flow	northmacedonia_origin			owid-distinct	DiscreteBar	true
+			Northern Africa	Emigrants: Where people born in the selected country moved to	migration-flow	northernafrica_origin			owid-distinct	DiscreteBar	true
+			Northern Africa and Western Asia	Emigrants: Where people born in the selected country moved to	migration-flow	northernafricaandwesternasia_origin			owid-distinct	DiscreteBar	true
+			Northern America	Emigrants: Where people born in the selected country moved to	migration-flow	northernamerica_origin			owid-distinct	DiscreteBar	true
+			Northern Europe	Emigrants: Where people born in the selected country moved to	migration-flow	northerneurope_origin			owid-distinct	DiscreteBar	true
+			Northern Mariana Islands	Emigrants: Where people born in the selected country moved to	migration-flow	northernmarianaislands_origin			owid-distinct	DiscreteBar	true
+			Norway	Emigrants: Where people born in the selected country moved to	migration-flow	norway_origin			owid-distinct	DiscreteBar	true
+			Oceania	Emigrants: Where people born in the selected country moved to	migration-flow	oceania_origin			owid-distinct	DiscreteBar	true
+			Oceania (excluding Australia and New Zealand)	Emigrants: Where people born in the selected country moved to	migration-flow	oceania(excludingaustraliaandnewzealand)_origin			owid-distinct	DiscreteBar	true
+			Oman	Emigrants: Where people born in the selected country moved to	migration-flow	oman_origin			owid-distinct	DiscreteBar	true
+			Other	Emigrants: Where people born in the selected country moved to	migration-flow	other_origin			owid-distinct	DiscreteBar	true
+			Pakistan	Emigrants: Where people born in the selected country moved to	migration-flow	pakistan_origin			owid-distinct	DiscreteBar	true
+			Palau	Emigrants: Where people born in the selected country moved to	migration-flow	palau_origin			owid-distinct	DiscreteBar	true
+			Palestine	Emigrants: Where people born in the selected country moved to	migration-flow	palestine_origin			owid-distinct	DiscreteBar	true
+			Panama	Emigrants: Where people born in the selected country moved to	migration-flow	panama_origin			owid-distinct	DiscreteBar	true
+			Papua New Guinea	Emigrants: Where people born in the selected country moved to	migration-flow	papuanewguinea_origin			owid-distinct	DiscreteBar	true
+			Paraguay	Emigrants: Where people born in the selected country moved to	migration-flow	paraguay_origin			owid-distinct	DiscreteBar	true
+			Peru	Emigrants: Where people born in the selected country moved to	migration-flow	peru_origin			owid-distinct	DiscreteBar	true
+			Philippines	Emigrants: Where people born in the selected country moved to	migration-flow	philippines_origin			owid-distinct	DiscreteBar	true
+			Poland	Emigrants: Where people born in the selected country moved to	migration-flow	poland_origin			owid-distinct	DiscreteBar	true
+			Polynesia	Emigrants: Where people born in the selected country moved to	migration-flow	polynesia_origin			owid-distinct	DiscreteBar	true
+			Portugal	Emigrants: Where people born in the selected country moved to	migration-flow	portugal_origin			owid-distinct	DiscreteBar	true
+			Puerto Rico	Emigrants: Where people born in the selected country moved to	migration-flow	puertorico_origin			owid-distinct	DiscreteBar	true
+			Qatar	Emigrants: Where people born in the selected country moved to	migration-flow	qatar_origin			owid-distinct	DiscreteBar	true
+			Reunion	Emigrants: Where people born in the selected country moved to	migration-flow	reunion_origin			owid-distinct	DiscreteBar	true
+			Romania	Emigrants: Where people born in the selected country moved to	migration-flow	romania_origin			owid-distinct	DiscreteBar	true
+			Russia	Emigrants: Where people born in the selected country moved to	migration-flow	russia_origin			owid-distinct	DiscreteBar	true
+			Rwanda	Emigrants: Where people born in the selected country moved to	migration-flow	rwanda_origin			owid-distinct	DiscreteBar	true
+			Saint Barthlemy	Emigrants: Where people born in the selected country moved to	migration-flow	saintbarthlemy_origin			owid-distinct	DiscreteBar	true
+			Saint Helena	Emigrants: Where people born in the selected country moved to	migration-flow	sainthelena_origin			owid-distinct	DiscreteBar	true
+			Saint Kitts and Nevis	Emigrants: Where people born in the selected country moved to	migration-flow	saintkittsandnevis_origin			owid-distinct	DiscreteBar	true
+			Saint Lucia	Emigrants: Where people born in the selected country moved to	migration-flow	saintlucia_origin			owid-distinct	DiscreteBar	true
+			Saint Martin (French part)	Emigrants: Where people born in the selected country moved to	migration-flow	saintmartin(frenchpart)_origin			owid-distinct	DiscreteBar	true
+			Saint Pierre and Miquelon	Emigrants: Where people born in the selected country moved to	migration-flow	saintpierreandmiquelon_origin			owid-distinct	DiscreteBar	true
+			Saint Vincent and the Grenadines	Emigrants: Where people born in the selected country moved to	migration-flow	saintvincentandthegrenadines_origin			owid-distinct	DiscreteBar	true
+			Samoa	Emigrants: Where people born in the selected country moved to	migration-flow	samoa_origin			owid-distinct	DiscreteBar	true
+			San Marino	Emigrants: Where people born in the selected country moved to	migration-flow	sanmarino_origin			owid-distinct	DiscreteBar	true
+			Sao Tome and Principe	Emigrants: Where people born in the selected country moved to	migration-flow	saotomeandprincipe_origin			owid-distinct	DiscreteBar	true
+			Saudi Arabia	Emigrants: Where people born in the selected country moved to	migration-flow	saudiarabia_origin			owid-distinct	DiscreteBar	true
+			Senegal	Emigrants: Where people born in the selected country moved to	migration-flow	senegal_origin			owid-distinct	DiscreteBar	true
+			Serbia	Emigrants: Where people born in the selected country moved to	migration-flow	serbia_origin			owid-distinct	DiscreteBar	true
+			Seychelles	Emigrants: Where people born in the selected country moved to	migration-flow	seychelles_origin			owid-distinct	DiscreteBar	true
+			Sierra Leone	Emigrants: Where people born in the selected country moved to	migration-flow	sierraleone_origin			owid-distinct	DiscreteBar	true
+			Singapore	Emigrants: Where people born in the selected country moved to	migration-flow	singapore_origin			owid-distinct	DiscreteBar	true
+			Sint Maarten (Dutch part)	Emigrants: Where people born in the selected country moved to	migration-flow	sintmaarten(dutchpart)_origin			owid-distinct	DiscreteBar	true
+			Slovakia	Emigrants: Where people born in the selected country moved to	migration-flow	slovakia_origin			owid-distinct	DiscreteBar	true
+			Slovenia	Emigrants: Where people born in the selected country moved to	migration-flow	slovenia_origin			owid-distinct	DiscreteBar	true
+			Small island developing States (SIDS)	Emigrants: Where people born in the selected country moved to	migration-flow	smallislanddevelopingstates(sids)_origin			owid-distinct	DiscreteBar	true
+			Solomon Islands	Emigrants: Where people born in the selected country moved to	migration-flow	solomonislands_origin			owid-distinct	DiscreteBar	true
+			Somalia	Emigrants: Where people born in the selected country moved to	migration-flow	somalia_origin			owid-distinct	DiscreteBar	true
+			South Africa	Emigrants: Where people born in the selected country moved to	migration-flow	southafrica_origin			owid-distinct	DiscreteBar	true
+			South America	Emigrants: Where people born in the selected country moved to	migration-flow	southamerica_origin			owid-distinct	DiscreteBar	true
+			South Korea	Emigrants: Where people born in the selected country moved to	migration-flow	southkorea_origin			owid-distinct	DiscreteBar	true
+			South Sudan	Emigrants: Where people born in the selected country moved to	migration-flow	southsudan_origin			owid-distinct	DiscreteBar	true
+			South-Eastern Asia	Emigrants: Where people born in the selected country moved to	migration-flow	south-easternasia_origin			owid-distinct	DiscreteBar	true
+			Southern Africa	Emigrants: Where people born in the selected country moved to	migration-flow	southernafrica_origin			owid-distinct	DiscreteBar	true
+			Southern Asia	Emigrants: Where people born in the selected country moved to	migration-flow	southernasia_origin			owid-distinct	DiscreteBar	true
+			Southern Europe	Emigrants: Where people born in the selected country moved to	migration-flow	southerneurope_origin			owid-distinct	DiscreteBar	true
+			Spain	Emigrants: Where people born in the selected country moved to	migration-flow	spain_origin			owid-distinct	DiscreteBar	true
+			Sri Lanka	Emigrants: Where people born in the selected country moved to	migration-flow	srilanka_origin			owid-distinct	DiscreteBar	true
+			Sub-Saharan Africa	Emigrants: Where people born in the selected country moved to	migration-flow	sub-saharanafrica_origin			owid-distinct	DiscreteBar	true
+			Sudan	Emigrants: Where people born in the selected country moved to	migration-flow	sudan_origin			owid-distinct	DiscreteBar	true
+			Suriname	Emigrants: Where people born in the selected country moved to	migration-flow	suriname_origin			owid-distinct	DiscreteBar	true
+			Sweden	Emigrants: Where people born in the selected country moved to	migration-flow	sweden_origin			owid-distinct	DiscreteBar	true
+			Switzerland	Emigrants: Where people born in the selected country moved to	migration-flow	switzerland_origin			owid-distinct	DiscreteBar	true
+			Syria	Emigrants: Where people born in the selected country moved to	migration-flow	syria_origin			owid-distinct	DiscreteBar	true
+			Taiwan	Emigrants: Where people born in the selected country moved to	migration-flow	taiwan_origin			owid-distinct	DiscreteBar	true
+			Tajikistan	Emigrants: Where people born in the selected country moved to	migration-flow	tajikistan_origin			owid-distinct	DiscreteBar	true
+			Tanzania	Emigrants: Where people born in the selected country moved to	migration-flow	tanzania_origin			owid-distinct	DiscreteBar	true
+			Thailand	Emigrants: Where people born in the selected country moved to	migration-flow	thailand_origin			owid-distinct	DiscreteBar	true
+			Timor-Leste	Emigrants: Where people born in the selected country moved to	migration-flow	timor-leste_origin			owid-distinct	DiscreteBar	true
+			Togo	Emigrants: Where people born in the selected country moved to	migration-flow	togo_origin			owid-distinct	DiscreteBar	true
+			Tokelau	Emigrants: Where people born in the selected country moved to	migration-flow	tokelau_origin			owid-distinct	DiscreteBar	true
+			Tonga	Emigrants: Where people born in the selected country moved to	migration-flow	tonga_origin			owid-distinct	DiscreteBar	true
+			Trinidad and Tobago	Emigrants: Where people born in the selected country moved to	migration-flow	trinidadandtobago_origin			owid-distinct	DiscreteBar	true
+			Tunisia	Emigrants: Where people born in the selected country moved to	migration-flow	tunisia_origin			owid-distinct	DiscreteBar	true
+			Turkey	Emigrants: Where people born in the selected country moved to	migration-flow	turkey_origin			owid-distinct	DiscreteBar	true
+			Turkmenistan	Emigrants: Where people born in the selected country moved to	migration-flow	turkmenistan_origin			owid-distinct	DiscreteBar	true
+			Turks and Caicos Islands	Emigrants: Where people born in the selected country moved to	migration-flow	turksandcaicosislands_origin			owid-distinct	DiscreteBar	true
+			Tuvalu	Emigrants: Where people born in the selected country moved to	migration-flow	tuvalu_origin			owid-distinct	DiscreteBar	true
+			Uganda	Emigrants: Where people born in the selected country moved to	migration-flow	uganda_origin			owid-distinct	DiscreteBar	true
+			Ukraine	Emigrants: Where people born in the selected country moved to	migration-flow	ukraine_origin			owid-distinct	DiscreteBar	true
+			United Arab Emirates	Emigrants: Where people born in the selected country moved to	migration-flow	unitedarabemirates_origin			owid-distinct	DiscreteBar	true
+			United Kingdom	Emigrants: Where people born in the selected country moved to	migration-flow	unitedkingdom_origin			owid-distinct	DiscreteBar	true
+			United States	Emigrants: Where people born in the selected country moved to	migration-flow	unitedstates_origin			owid-distinct	DiscreteBar	true
+			United States Virgin Islands	Emigrants: Where people born in the selected country moved to	migration-flow	unitedstatesvirginislands_origin			owid-distinct	DiscreteBar	true
+			Upper-middle-income countries	Emigrants: Where people born in the selected country moved to	migration-flow	upper-middle-incomecountries_origin			owid-distinct	DiscreteBar	true
+			Uruguay	Emigrants: Where people born in the selected country moved to	migration-flow	uruguay_origin			owid-distinct	DiscreteBar	true
+			Uzbekistan	Emigrants: Where people born in the selected country moved to	migration-flow	uzbekistan_origin			owid-distinct	DiscreteBar	true
+			Vanuatu	Emigrants: Where people born in the selected country moved to	migration-flow	vanuatu_origin			owid-distinct	DiscreteBar	true
+			Vatican	Emigrants: Where people born in the selected country moved to	migration-flow	vatican_origin			owid-distinct	DiscreteBar	true
+			Venezuela	Emigrants: Where people born in the selected country moved to	migration-flow	venezuela_origin			owid-distinct	DiscreteBar	true
+			Vietnam	Emigrants: Where people born in the selected country moved to	migration-flow	vietnam_origin			owid-distinct	DiscreteBar	true
+			Wallis and Futuna	Emigrants: Where people born in the selected country moved to	migration-flow	wallisandfutuna_origin			owid-distinct	DiscreteBar	true
+			Western Africa	Emigrants: Where people born in the selected country moved to	migration-flow	westernafrica_origin			owid-distinct	DiscreteBar	true
+			Western Asia	Emigrants: Where people born in the selected country moved to	migration-flow	westernasia_origin			owid-distinct	DiscreteBar	true
+			Western Europe	Emigrants: Where people born in the selected country moved to	migration-flow	westerneurope_origin			owid-distinct	DiscreteBar	true
+			Western Sahara	Emigrants: Where people born in the selected country moved to	migration-flow	westernsahara_origin			owid-distinct	DiscreteBar	true
+			World	Emigrants: Where people born in the selected country moved to	migration-flow	world_origin			owid-distinct	DiscreteBar	true
+			Yemen	Emigrants: Where people born in the selected country moved to	migration-flow	yemen_origin			owid-distinct	DiscreteBar	true
+			Zambia	Emigrants: Where people born in the selected country moved to	migration-flow	zambia_origin			owid-distinct	DiscreteBar	true
+			Zimbabwe	Emigrants: Where people born in the selected country moved to	migration-flow	zimbabwe_origin			owid-distinct	DiscreteBar	true
+	Migrants living in Afghanistan: Where did they move from?		Afghanistan	Migrants: Where foreign-born population in the selected country moved from	migration-flow	afghanistan_destination			owid-distinct	DiscreteBar	true
+			Africa	Migrants: Where foreign-born population in the selected country moved from	migration-flow	africa_destination			owid-distinct	DiscreteBar	true
+			Albania	Migrants: Where foreign-born population in the selected country moved from	migration-flow	albania_destination			owid-distinct	DiscreteBar	true
+			Algeria	Migrants: Where foreign-born population in the selected country moved from	migration-flow	algeria_destination			owid-distinct	DiscreteBar	true
+			American Samoa	Migrants: Where foreign-born population in the selected country moved from	migration-flow	americansamoa_destination			owid-distinct	DiscreteBar	true
+			Andorra	Migrants: Where foreign-born population in the selected country moved from	migration-flow	andorra_destination			owid-distinct	DiscreteBar	true
+			Angola	Migrants: Where foreign-born population in the selected country moved from	migration-flow	angola_destination			owid-distinct	DiscreteBar	true
+			Anguilla	Migrants: Where foreign-born population in the selected country moved from	migration-flow	anguilla_destination			owid-distinct	DiscreteBar	true
+			Antigua and Barbuda	Migrants: Where foreign-born population in the selected country moved from	migration-flow	antiguaandbarbuda_destination			owid-distinct	DiscreteBar	true
+			Argentina	Migrants: Where foreign-born population in the selected country moved from	migration-flow	argentina_destination			owid-distinct	DiscreteBar	true
+			Armenia	Migrants: Where foreign-born population in the selected country moved from	migration-flow	armenia_destination			owid-distinct	DiscreteBar	true
+			Aruba	Migrants: Where foreign-born population in the selected country moved from	migration-flow	aruba_destination			owid-distinct	DiscreteBar	true
+			Asia	Migrants: Where foreign-born population in the selected country moved from	migration-flow	asia_destination			owid-distinct	DiscreteBar	true
+			Australia	Migrants: Where foreign-born population in the selected country moved from	migration-flow	australia_destination			owid-distinct	DiscreteBar	true
+			Australia and New Zealand	Migrants: Where foreign-born population in the selected country moved from	migration-flow	australiaandnewzealand_destination			owid-distinct	DiscreteBar	true
+			Austria	Migrants: Where foreign-born population in the selected country moved from	migration-flow	austria_destination			owid-distinct	DiscreteBar	true
+			Azerbaijan	Migrants: Where foreign-born population in the selected country moved from	migration-flow	azerbaijan_destination			owid-distinct	DiscreteBar	true
+			Bahamas	Migrants: Where foreign-born population in the selected country moved from	migration-flow	bahamas_destination			owid-distinct	DiscreteBar	true
+			Bahrain	Migrants: Where foreign-born population in the selected country moved from	migration-flow	bahrain_destination			owid-distinct	DiscreteBar	true
+			Bangladesh	Migrants: Where foreign-born population in the selected country moved from	migration-flow	bangladesh_destination			owid-distinct	DiscreteBar	true
+			Barbados	Migrants: Where foreign-born population in the selected country moved from	migration-flow	barbados_destination			owid-distinct	DiscreteBar	true
+			Belarus	Migrants: Where foreign-born population in the selected country moved from	migration-flow	belarus_destination			owid-distinct	DiscreteBar	true
+			Belgium	Migrants: Where foreign-born population in the selected country moved from	migration-flow	belgium_destination			owid-distinct	DiscreteBar	true
+			Belize	Migrants: Where foreign-born population in the selected country moved from	migration-flow	belize_destination			owid-distinct	DiscreteBar	true
+			Benin	Migrants: Where foreign-born population in the selected country moved from	migration-flow	benin_destination			owid-distinct	DiscreteBar	true
+			Bermuda	Migrants: Where foreign-born population in the selected country moved from	migration-flow	bermuda_destination			owid-distinct	DiscreteBar	true
+			Bhutan	Migrants: Where foreign-born population in the selected country moved from	migration-flow	bhutan_destination			owid-distinct	DiscreteBar	true
+			Bolivia	Migrants: Where foreign-born population in the selected country moved from	migration-flow	bolivia_destination			owid-distinct	DiscreteBar	true
+			Bonaire Sint Eustatius and Saba	Migrants: Where foreign-born population in the selected country moved from	migration-flow	bonairesinteustatiusandsaba_destination			owid-distinct	DiscreteBar	true
+			Bosnia and Herzegovina	Migrants: Where foreign-born population in the selected country moved from	migration-flow	bosniaandherzegovina_destination			owid-distinct	DiscreteBar	true
+			Botswana	Migrants: Where foreign-born population in the selected country moved from	migration-flow	botswana_destination			owid-distinct	DiscreteBar	true
+			Brazil	Migrants: Where foreign-born population in the selected country moved from	migration-flow	brazil_destination			owid-distinct	DiscreteBar	true
+			British Virgin Islands	Migrants: Where foreign-born population in the selected country moved from	migration-flow	britishvirginislands_destination			owid-distinct	DiscreteBar	true
+			Brunei	Migrants: Where foreign-born population in the selected country moved from	migration-flow	brunei_destination			owid-distinct	DiscreteBar	true
+			Bulgaria	Migrants: Where foreign-born population in the selected country moved from	migration-flow	bulgaria_destination			owid-distinct	DiscreteBar	true
+			Burkina Faso	Migrants: Where foreign-born population in the selected country moved from	migration-flow	burkinafaso_destination			owid-distinct	DiscreteBar	true
+			Burundi	Migrants: Where foreign-born population in the selected country moved from	migration-flow	burundi_destination			owid-distinct	DiscreteBar	true
+			Cambodia	Migrants: Where foreign-born population in the selected country moved from	migration-flow	cambodia_destination			owid-distinct	DiscreteBar	true
+			Cameroon	Migrants: Where foreign-born population in the selected country moved from	migration-flow	cameroon_destination			owid-distinct	DiscreteBar	true
+			Canada	Migrants: Where foreign-born population in the selected country moved from	migration-flow	canada_destination			owid-distinct	DiscreteBar	true
+			Cape Verde	Migrants: Where foreign-born population in the selected country moved from	migration-flow	capeverde_destination			owid-distinct	DiscreteBar	true
+			Caribbean	Migrants: Where foreign-born population in the selected country moved from	migration-flow	caribbean_destination			owid-distinct	DiscreteBar	true
+			Cayman Islands	Migrants: Where foreign-born population in the selected country moved from	migration-flow	caymanislands_destination			owid-distinct	DiscreteBar	true
+			Central African Republic	Migrants: Where foreign-born population in the selected country moved from	migration-flow	centralafricanrepublic_destination			owid-distinct	DiscreteBar	true
+			Central America	Migrants: Where foreign-born population in the selected country moved from	migration-flow	centralamerica_destination			owid-distinct	DiscreteBar	true
+			Central Asia	Migrants: Where foreign-born population in the selected country moved from	migration-flow	centralasia_destination			owid-distinct	DiscreteBar	true
+			Central and Southern Asia	Migrants: Where foreign-born population in the selected country moved from	migration-flow	centralandsouthernasia_destination			owid-distinct	DiscreteBar	true
+			Chad	Migrants: Where foreign-born population in the selected country moved from	migration-flow	chad_destination			owid-distinct	DiscreteBar	true
+			Channel Islands	Migrants: Where foreign-born population in the selected country moved from	migration-flow	channelislands_destination			owid-distinct	DiscreteBar	true
+			Chile	Migrants: Where foreign-born population in the selected country moved from	migration-flow	chile_destination			owid-distinct	DiscreteBar	true
+			China	Migrants: Where foreign-born population in the selected country moved from	migration-flow	china_destination			owid-distinct	DiscreteBar	true
+			Colombia	Migrants: Where foreign-born population in the selected country moved from	migration-flow	colombia_destination			owid-distinct	DiscreteBar	true
+			Comoros	Migrants: Where foreign-born population in the selected country moved from	migration-flow	comoros_destination			owid-distinct	DiscreteBar	true
+			Congo	Migrants: Where foreign-born population in the selected country moved from	migration-flow	congo_destination			owid-distinct	DiscreteBar	true
+			Cook Islands	Migrants: Where foreign-born population in the selected country moved from	migration-flow	cookislands_destination			owid-distinct	DiscreteBar	true
+			Costa Rica	Migrants: Where foreign-born population in the selected country moved from	migration-flow	costarica_destination			owid-distinct	DiscreteBar	true
+			Cote d'Ivoire	Migrants: Where foreign-born population in the selected country moved from	migration-flow	coted'ivoire_destination			owid-distinct	DiscreteBar	true
+			Croatia	Migrants: Where foreign-born population in the selected country moved from	migration-flow	croatia_destination			owid-distinct	DiscreteBar	true
+			Cuba	Migrants: Where foreign-born population in the selected country moved from	migration-flow	cuba_destination			owid-distinct	DiscreteBar	true
+			Curacao	Migrants: Where foreign-born population in the selected country moved from	migration-flow	curacao_destination			owid-distinct	DiscreteBar	true
+			Cyprus	Migrants: Where foreign-born population in the selected country moved from	migration-flow	cyprus_destination			owid-distinct	DiscreteBar	true
+			Czechia	Migrants: Where foreign-born population in the selected country moved from	migration-flow	czechia_destination			owid-distinct	DiscreteBar	true
+			Democratic Republic of Congo	Migrants: Where foreign-born population in the selected country moved from	migration-flow	democraticrepublicofcongo_destination			owid-distinct	DiscreteBar	true
+			Denmark	Migrants: Where foreign-born population in the selected country moved from	migration-flow	denmark_destination			owid-distinct	DiscreteBar	true
+			Developed regions	Migrants: Where foreign-born population in the selected country moved from	migration-flow	developedregions_destination			owid-distinct	DiscreteBar	true
+			Djibouti	Migrants: Where foreign-born population in the selected country moved from	migration-flow	djibouti_destination			owid-distinct	DiscreteBar	true
+			Dominica	Migrants: Where foreign-born population in the selected country moved from	migration-flow	dominica_destination			owid-distinct	DiscreteBar	true
+			Dominican Republic	Migrants: Where foreign-born population in the selected country moved from	migration-flow	dominicanrepublic_destination			owid-distinct	DiscreteBar	true
+			Eastern Africa	Migrants: Where foreign-born population in the selected country moved from	migration-flow	easternafrica_destination			owid-distinct	DiscreteBar	true
+			Eastern Asia	Migrants: Where foreign-born population in the selected country moved from	migration-flow	easternasia_destination			owid-distinct	DiscreteBar	true
+			Eastern Europe	Migrants: Where foreign-born population in the selected country moved from	migration-flow	easterneurope_destination			owid-distinct	DiscreteBar	true
+			Eastern and South-Eastern Asia	Migrants: Where foreign-born population in the selected country moved from	migration-flow	easternandsouth-easternasia_destination			owid-distinct	DiscreteBar	true
+			Ecuador	Migrants: Where foreign-born population in the selected country moved from	migration-flow	ecuador_destination			owid-distinct	DiscreteBar	true
+			Egypt	Migrants: Where foreign-born population in the selected country moved from	migration-flow	egypt_destination			owid-distinct	DiscreteBar	true
+			El Salvador	Migrants: Where foreign-born population in the selected country moved from	migration-flow	elsalvador_destination			owid-distinct	DiscreteBar	true
+			Equatorial Guinea	Migrants: Where foreign-born population in the selected country moved from	migration-flow	equatorialguinea_destination			owid-distinct	DiscreteBar	true
+			Eritrea	Migrants: Where foreign-born population in the selected country moved from	migration-flow	eritrea_destination			owid-distinct	DiscreteBar	true
+			Estonia	Migrants: Where foreign-born population in the selected country moved from	migration-flow	estonia_destination			owid-distinct	DiscreteBar	true
+			Eswatini	Migrants: Where foreign-born population in the selected country moved from	migration-flow	eswatini_destination			owid-distinct	DiscreteBar	true
+			Ethiopia	Migrants: Where foreign-born population in the selected country moved from	migration-flow	ethiopia_destination			owid-distinct	DiscreteBar	true
+			Europe	Migrants: Where foreign-born population in the selected country moved from	migration-flow	europe_destination			owid-distinct	DiscreteBar	true
+			Europe and Northern America	Migrants: Where foreign-born population in the selected country moved from	migration-flow	europeandnorthernamerica_destination			owid-distinct	DiscreteBar	true
+			Faeroe Islands	Migrants: Where foreign-born population in the selected country moved from	migration-flow	faeroeislands_destination			owid-distinct	DiscreteBar	true
+			Falkland Islands	Migrants: Where foreign-born population in the selected country moved from	migration-flow	falklandislands_destination			owid-distinct	DiscreteBar	true
+			Fiji	Migrants: Where foreign-born population in the selected country moved from	migration-flow	fiji_destination			owid-distinct	DiscreteBar	true
+			Finland	Migrants: Where foreign-born population in the selected country moved from	migration-flow	finland_destination			owid-distinct	DiscreteBar	true
+			France	Migrants: Where foreign-born population in the selected country moved from	migration-flow	france_destination			owid-distinct	DiscreteBar	true
+			French Guiana	Migrants: Where foreign-born population in the selected country moved from	migration-flow	frenchguiana_destination			owid-distinct	DiscreteBar	true
+			French Polynesia	Migrants: Where foreign-born population in the selected country moved from	migration-flow	frenchpolynesia_destination			owid-distinct	DiscreteBar	true
+			Gabon	Migrants: Where foreign-born population in the selected country moved from	migration-flow	gabon_destination			owid-distinct	DiscreteBar	true
+			Gambia	Migrants: Where foreign-born population in the selected country moved from	migration-flow	gambia_destination			owid-distinct	DiscreteBar	true
+			Georgia	Migrants: Where foreign-born population in the selected country moved from	migration-flow	georgia_destination			owid-distinct	DiscreteBar	true
+			Germany	Migrants: Where foreign-born population in the selected country moved from	migration-flow	germany_destination			owid-distinct	DiscreteBar	true
+			Ghana	Migrants: Where foreign-born population in the selected country moved from	migration-flow	ghana_destination			owid-distinct	DiscreteBar	true
+			Gibraltar	Migrants: Where foreign-born population in the selected country moved from	migration-flow	gibraltar_destination			owid-distinct	DiscreteBar	true
+			Greece	Migrants: Where foreign-born population in the selected country moved from	migration-flow	greece_destination			owid-distinct	DiscreteBar	true
+			Greenland	Migrants: Where foreign-born population in the selected country moved from	migration-flow	greenland_destination			owid-distinct	DiscreteBar	true
+			Grenada	Migrants: Where foreign-born population in the selected country moved from	migration-flow	grenada_destination			owid-distinct	DiscreteBar	true
+			Guadeloupe	Migrants: Where foreign-born population in the selected country moved from	migration-flow	guadeloupe_destination			owid-distinct	DiscreteBar	true
+			Guam	Migrants: Where foreign-born population in the selected country moved from	migration-flow	guam_destination			owid-distinct	DiscreteBar	true
+			Guatemala	Migrants: Where foreign-born population in the selected country moved from	migration-flow	guatemala_destination			owid-distinct	DiscreteBar	true
+			Guinea	Migrants: Where foreign-born population in the selected country moved from	migration-flow	guinea_destination			owid-distinct	DiscreteBar	true
+			Guinea-Bissau	Migrants: Where foreign-born population in the selected country moved from	migration-flow	guinea-bissau_destination			owid-distinct	DiscreteBar	true
+			Guyana	Migrants: Where foreign-born population in the selected country moved from	migration-flow	guyana_destination			owid-distinct	DiscreteBar	true
+			Haiti	Migrants: Where foreign-born population in the selected country moved from	migration-flow	haiti_destination			owid-distinct	DiscreteBar	true
+			High-income countries	Migrants: Where foreign-born population in the selected country moved from	migration-flow	high-incomecountries_destination			owid-distinct	DiscreteBar	true
+			Honduras	Migrants: Where foreign-born population in the selected country moved from	migration-flow	honduras_destination			owid-distinct	DiscreteBar	true
+			Hong Kong	Migrants: Where foreign-born population in the selected country moved from	migration-flow	hongkong_destination			owid-distinct	DiscreteBar	true
+			Hungary	Migrants: Where foreign-born population in the selected country moved from	migration-flow	hungary_destination			owid-distinct	DiscreteBar	true
+			Iceland	Migrants: Where foreign-born population in the selected country moved from	migration-flow	iceland_destination			owid-distinct	DiscreteBar	true
+			India	Migrants: Where foreign-born population in the selected country moved from	migration-flow	india_destination			owid-distinct	DiscreteBar	true
+			Indonesia	Migrants: Where foreign-born population in the selected country moved from	migration-flow	indonesia_destination			owid-distinct	DiscreteBar	true
+			Iran	Migrants: Where foreign-born population in the selected country moved from	migration-flow	iran_destination			owid-distinct	DiscreteBar	true
+			Iraq	Migrants: Where foreign-born population in the selected country moved from	migration-flow	iraq_destination			owid-distinct	DiscreteBar	true
+			Ireland	Migrants: Where foreign-born population in the selected country moved from	migration-flow	ireland_destination			owid-distinct	DiscreteBar	true
+			Isle of Man	Migrants: Where foreign-born population in the selected country moved from	migration-flow	isleofman_destination			owid-distinct	DiscreteBar	true
+			Israel	Migrants: Where foreign-born population in the selected country moved from	migration-flow	israel_destination			owid-distinct	DiscreteBar	true
+			Italy	Migrants: Where foreign-born population in the selected country moved from	migration-flow	italy_destination			owid-distinct	DiscreteBar	true
+			Jamaica	Migrants: Where foreign-born population in the selected country moved from	migration-flow	jamaica_destination			owid-distinct	DiscreteBar	true
+			Japan	Migrants: Where foreign-born population in the selected country moved from	migration-flow	japan_destination			owid-distinct	DiscreteBar	true
+			Jordan	Migrants: Where foreign-born population in the selected country moved from	migration-flow	jordan_destination			owid-distinct	DiscreteBar	true
+			Kazakhstan	Migrants: Where foreign-born population in the selected country moved from	migration-flow	kazakhstan_destination			owid-distinct	DiscreteBar	true
+			Kenya	Migrants: Where foreign-born population in the selected country moved from	migration-flow	kenya_destination			owid-distinct	DiscreteBar	true
+			Kiribati	Migrants: Where foreign-born population in the selected country moved from	migration-flow	kiribati_destination			owid-distinct	DiscreteBar	true
+			Kuwait	Migrants: Where foreign-born population in the selected country moved from	migration-flow	kuwait_destination			owid-distinct	DiscreteBar	true
+			Kyrgyzstan	Migrants: Where foreign-born population in the selected country moved from	migration-flow	kyrgyzstan_destination			owid-distinct	DiscreteBar	true
+			Land-locked Developing Countries (LLDC)	Migrants: Where foreign-born population in the selected country moved from	migration-flow	land-lockeddevelopingcountries(lldc)_destination			owid-distinct	DiscreteBar	true
+			Laos	Migrants: Where foreign-born population in the selected country moved from	migration-flow	laos_destination			owid-distinct	DiscreteBar	true
+			Latin America and the Caribbean	Migrants: Where foreign-born population in the selected country moved from	migration-flow	latinamericaandthecaribbean_destination			owid-distinct	DiscreteBar	true
+			Latvia	Migrants: Where foreign-born population in the selected country moved from	migration-flow	latvia_destination			owid-distinct	DiscreteBar	true
+			Least developed countries	Migrants: Where foreign-born population in the selected country moved from	migration-flow	leastdevelopedcountries_destination			owid-distinct	DiscreteBar	true
+			Lebanon	Migrants: Where foreign-born population in the selected country moved from	migration-flow	lebanon_destination			owid-distinct	DiscreteBar	true
+			Lesotho	Migrants: Where foreign-born population in the selected country moved from	migration-flow	lesotho_destination			owid-distinct	DiscreteBar	true
+			Less developed regions	Migrants: Where foreign-born population in the selected country moved from	migration-flow	lessdevelopedregions_destination			owid-distinct	DiscreteBar	true
+			Less developed regions, excluding China	Migrants: Where foreign-born population in the selected country moved from	migration-flow	lessdevelopedregions,excludingchina_destination			owid-distinct	DiscreteBar	true
+			Less developed regions, excluding least developed countries	Migrants: Where foreign-born population in the selected country moved from	migration-flow	lessdevelopedregions,excludingleastdevelopedcountries_destination			owid-distinct	DiscreteBar	true
+			Liberia	Migrants: Where foreign-born population in the selected country moved from	migration-flow	liberia_destination			owid-distinct	DiscreteBar	true
+			Libya	Migrants: Where foreign-born population in the selected country moved from	migration-flow	libya_destination			owid-distinct	DiscreteBar	true
+			Liechtenstein	Migrants: Where foreign-born population in the selected country moved from	migration-flow	liechtenstein_destination			owid-distinct	DiscreteBar	true
+			Lithuania	Migrants: Where foreign-born population in the selected country moved from	migration-flow	lithuania_destination			owid-distinct	DiscreteBar	true
+			Low-income countries	Migrants: Where foreign-born population in the selected country moved from	migration-flow	low-incomecountries_destination			owid-distinct	DiscreteBar	true
+			Lower-middle-income countries	Migrants: Where foreign-born population in the selected country moved from	migration-flow	lower-middle-incomecountries_destination			owid-distinct	DiscreteBar	true
+			Luxembourg	Migrants: Where foreign-born population in the selected country moved from	migration-flow	luxembourg_destination			owid-distinct	DiscreteBar	true
+			Macao	Migrants: Where foreign-born population in the selected country moved from	migration-flow	macao_destination			owid-distinct	DiscreteBar	true
+			Madagascar	Migrants: Where foreign-born population in the selected country moved from	migration-flow	madagascar_destination			owid-distinct	DiscreteBar	true
+			Malawi	Migrants: Where foreign-born population in the selected country moved from	migration-flow	malawi_destination			owid-distinct	DiscreteBar	true
+			Malaysia	Migrants: Where foreign-born population in the selected country moved from	migration-flow	malaysia_destination			owid-distinct	DiscreteBar	true
+			Maldives	Migrants: Where foreign-born population in the selected country moved from	migration-flow	maldives_destination			owid-distinct	DiscreteBar	true
+			Mali	Migrants: Where foreign-born population in the selected country moved from	migration-flow	mali_destination			owid-distinct	DiscreteBar	true
+			Malta	Migrants: Where foreign-born population in the selected country moved from	migration-flow	malta_destination			owid-distinct	DiscreteBar	true
+			Marshall Islands	Migrants: Where foreign-born population in the selected country moved from	migration-flow	marshallislands_destination			owid-distinct	DiscreteBar	true
+			Martinique	Migrants: Where foreign-born population in the selected country moved from	migration-flow	martinique_destination			owid-distinct	DiscreteBar	true
+			Mauritania	Migrants: Where foreign-born population in the selected country moved from	migration-flow	mauritania_destination			owid-distinct	DiscreteBar	true
+			Mauritius	Migrants: Where foreign-born population in the selected country moved from	migration-flow	mauritius_destination			owid-distinct	DiscreteBar	true
+			Mayotte	Migrants: Where foreign-born population in the selected country moved from	migration-flow	mayotte_destination			owid-distinct	DiscreteBar	true
+			Melanesia	Migrants: Where foreign-born population in the selected country moved from	migration-flow	melanesia_destination			owid-distinct	DiscreteBar	true
+			Mexico	Migrants: Where foreign-born population in the selected country moved from	migration-flow	mexico_destination			owid-distinct	DiscreteBar	true
+			Micronesia (country)	Migrants: Where foreign-born population in the selected country moved from	migration-flow	micronesia(country)_destination			owid-distinct	DiscreteBar	true
+			Micronesia (region)	Migrants: Where foreign-born population in the selected country moved from	migration-flow	micronesia(region)_destination			owid-distinct	DiscreteBar	true
+			Middle Africa	Migrants: Where foreign-born population in the selected country moved from	migration-flow	middleafrica_destination			owid-distinct	DiscreteBar	true
+			Middle-income countries	Migrants: Where foreign-born population in the selected country moved from	migration-flow	middle-incomecountries_destination			owid-distinct	DiscreteBar	true
+			Moldova	Migrants: Where foreign-born population in the selected country moved from	migration-flow	moldova_destination			owid-distinct	DiscreteBar	true
+			Monaco	Migrants: Where foreign-born population in the selected country moved from	migration-flow	monaco_destination			owid-distinct	DiscreteBar	true
+			Mongolia	Migrants: Where foreign-born population in the selected country moved from	migration-flow	mongolia_destination			owid-distinct	DiscreteBar	true
+			Montenegro	Migrants: Where foreign-born population in the selected country moved from	migration-flow	montenegro_destination			owid-distinct	DiscreteBar	true
+			Montserrat	Migrants: Where foreign-born population in the selected country moved from	migration-flow	montserrat_destination			owid-distinct	DiscreteBar	true
+			Morocco	Migrants: Where foreign-born population in the selected country moved from	migration-flow	morocco_destination			owid-distinct	DiscreteBar	true
+			Mozambique	Migrants: Where foreign-born population in the selected country moved from	migration-flow	mozambique_destination			owid-distinct	DiscreteBar	true
+			Myanmar	Migrants: Where foreign-born population in the selected country moved from	migration-flow	myanmar_destination			owid-distinct	DiscreteBar	true
+			Namibia	Migrants: Where foreign-born population in the selected country moved from	migration-flow	namibia_destination			owid-distinct	DiscreteBar	true
+			Nauru	Migrants: Where foreign-born population in the selected country moved from	migration-flow	nauru_destination			owid-distinct	DiscreteBar	true
+			Nepal	Migrants: Where foreign-born population in the selected country moved from	migration-flow	nepal_destination			owid-distinct	DiscreteBar	true
+			Netherlands	Migrants: Where foreign-born population in the selected country moved from	migration-flow	netherlands_destination			owid-distinct	DiscreteBar	true
+			New Caledonia	Migrants: Where foreign-born population in the selected country moved from	migration-flow	newcaledonia_destination			owid-distinct	DiscreteBar	true
+			New Zealand	Migrants: Where foreign-born population in the selected country moved from	migration-flow	newzealand_destination			owid-distinct	DiscreteBar	true
+			Nicaragua	Migrants: Where foreign-born population in the selected country moved from	migration-flow	nicaragua_destination			owid-distinct	DiscreteBar	true
+			Niger	Migrants: Where foreign-born population in the selected country moved from	migration-flow	niger_destination			owid-distinct	DiscreteBar	true
+			Nigeria	Migrants: Where foreign-born population in the selected country moved from	migration-flow	nigeria_destination			owid-distinct	DiscreteBar	true
+			Niue	Migrants: Where foreign-born population in the selected country moved from	migration-flow	niue_destination			owid-distinct	DiscreteBar	true
+			North Korea	Migrants: Where foreign-born population in the selected country moved from	migration-flow	northkorea_destination			owid-distinct	DiscreteBar	true
+			North Macedonia	Migrants: Where foreign-born population in the selected country moved from	migration-flow	northmacedonia_destination			owid-distinct	DiscreteBar	true
+			Northern Africa	Migrants: Where foreign-born population in the selected country moved from	migration-flow	northernafrica_destination			owid-distinct	DiscreteBar	true
+			Northern Africa and Western Asia	Migrants: Where foreign-born population in the selected country moved from	migration-flow	northernafricaandwesternasia_destination			owid-distinct	DiscreteBar	true
+			Northern America	Migrants: Where foreign-born population in the selected country moved from	migration-flow	northernamerica_destination			owid-distinct	DiscreteBar	true
+			Northern Europe	Migrants: Where foreign-born population in the selected country moved from	migration-flow	northerneurope_destination			owid-distinct	DiscreteBar	true
+			Northern Mariana Islands	Migrants: Where foreign-born population in the selected country moved from	migration-flow	northernmarianaislands_destination			owid-distinct	DiscreteBar	true
+			Norway	Migrants: Where foreign-born population in the selected country moved from	migration-flow	norway_destination			owid-distinct	DiscreteBar	true
+			Oceania	Migrants: Where foreign-born population in the selected country moved from	migration-flow	oceania_destination			owid-distinct	DiscreteBar	true
+			Oceania (excluding Australia and New Zealand)	Migrants: Where foreign-born population in the selected country moved from	migration-flow	oceania(excludingaustraliaandnewzealand)_destination			owid-distinct	DiscreteBar	true
+			Oman	Migrants: Where foreign-born population in the selected country moved from	migration-flow	oman_destination			owid-distinct	DiscreteBar	true
+			Other	Migrants: Where foreign-born population in the selected country moved from	migration-flow	other_destination			owid-distinct	DiscreteBar	true
+			Pakistan	Migrants: Where foreign-born population in the selected country moved from	migration-flow	pakistan_destination			owid-distinct	DiscreteBar	true
+			Palau	Migrants: Where foreign-born population in the selected country moved from	migration-flow	palau_destination			owid-distinct	DiscreteBar	true
+			Palestine	Migrants: Where foreign-born population in the selected country moved from	migration-flow	palestine_destination			owid-distinct	DiscreteBar	true
+			Panama	Migrants: Where foreign-born population in the selected country moved from	migration-flow	panama_destination			owid-distinct	DiscreteBar	true
+			Papua New Guinea	Migrants: Where foreign-born population in the selected country moved from	migration-flow	papuanewguinea_destination			owid-distinct	DiscreteBar	true
+			Paraguay	Migrants: Where foreign-born population in the selected country moved from	migration-flow	paraguay_destination			owid-distinct	DiscreteBar	true
+			Peru	Migrants: Where foreign-born population in the selected country moved from	migration-flow	peru_destination			owid-distinct	DiscreteBar	true
+			Philippines	Migrants: Where foreign-born population in the selected country moved from	migration-flow	philippines_destination			owid-distinct	DiscreteBar	true
+			Poland	Migrants: Where foreign-born population in the selected country moved from	migration-flow	poland_destination			owid-distinct	DiscreteBar	true
+			Polynesia	Migrants: Where foreign-born population in the selected country moved from	migration-flow	polynesia_destination			owid-distinct	DiscreteBar	true
+			Portugal	Migrants: Where foreign-born population in the selected country moved from	migration-flow	portugal_destination			owid-distinct	DiscreteBar	true
+			Puerto Rico	Migrants: Where foreign-born population in the selected country moved from	migration-flow	puertorico_destination			owid-distinct	DiscreteBar	true
+			Qatar	Migrants: Where foreign-born population in the selected country moved from	migration-flow	qatar_destination			owid-distinct	DiscreteBar	true
+			Reunion	Migrants: Where foreign-born population in the selected country moved from	migration-flow	reunion_destination			owid-distinct	DiscreteBar	true
+			Romania	Migrants: Where foreign-born population in the selected country moved from	migration-flow	romania_destination			owid-distinct	DiscreteBar	true
+			Russia	Migrants: Where foreign-born population in the selected country moved from	migration-flow	russia_destination			owid-distinct	DiscreteBar	true
+			Rwanda	Migrants: Where foreign-born population in the selected country moved from	migration-flow	rwanda_destination			owid-distinct	DiscreteBar	true
+			Saint Barthlemy	Migrants: Where foreign-born population in the selected country moved from	migration-flow	saintbarthlemy_destination			owid-distinct	DiscreteBar	true
+			Saint Helena	Migrants: Where foreign-born population in the selected country moved from	migration-flow	sainthelena_destination			owid-distinct	DiscreteBar	true
+			Saint Kitts and Nevis	Migrants: Where foreign-born population in the selected country moved from	migration-flow	saintkittsandnevis_destination			owid-distinct	DiscreteBar	true
+			Saint Lucia	Migrants: Where foreign-born population in the selected country moved from	migration-flow	saintlucia_destination			owid-distinct	DiscreteBar	true
+			Saint Martin (French part)	Migrants: Where foreign-born population in the selected country moved from	migration-flow	saintmartin(frenchpart)_destination			owid-distinct	DiscreteBar	true
+			Saint Pierre and Miquelon	Migrants: Where foreign-born population in the selected country moved from	migration-flow	saintpierreandmiquelon_destination			owid-distinct	DiscreteBar	true
+			Saint Vincent and the Grenadines	Migrants: Where foreign-born population in the selected country moved from	migration-flow	saintvincentandthegrenadines_destination			owid-distinct	DiscreteBar	true
+			Samoa	Migrants: Where foreign-born population in the selected country moved from	migration-flow	samoa_destination			owid-distinct	DiscreteBar	true
+			San Marino	Migrants: Where foreign-born population in the selected country moved from	migration-flow	sanmarino_destination			owid-distinct	DiscreteBar	true
+			Sao Tome and Principe	Migrants: Where foreign-born population in the selected country moved from	migration-flow	saotomeandprincipe_destination			owid-distinct	DiscreteBar	true
+			Saudi Arabia	Migrants: Where foreign-born population in the selected country moved from	migration-flow	saudiarabia_destination			owid-distinct	DiscreteBar	true
+			Senegal	Migrants: Where foreign-born population in the selected country moved from	migration-flow	senegal_destination			owid-distinct	DiscreteBar	true
+			Serbia	Migrants: Where foreign-born population in the selected country moved from	migration-flow	serbia_destination			owid-distinct	DiscreteBar	true
+			Seychelles	Migrants: Where foreign-born population in the selected country moved from	migration-flow	seychelles_destination			owid-distinct	DiscreteBar	true
+			Sierra Leone	Migrants: Where foreign-born population in the selected country moved from	migration-flow	sierraleone_destination			owid-distinct	DiscreteBar	true
+			Singapore	Migrants: Where foreign-born population in the selected country moved from	migration-flow	singapore_destination			owid-distinct	DiscreteBar	true
+			Sint Maarten (Dutch part)	Migrants: Where foreign-born population in the selected country moved from	migration-flow	sintmaarten(dutchpart)_destination			owid-distinct	DiscreteBar	true
+			Slovakia	Migrants: Where foreign-born population in the selected country moved from	migration-flow	slovakia_destination			owid-distinct	DiscreteBar	true
+			Slovenia	Migrants: Where foreign-born population in the selected country moved from	migration-flow	slovenia_destination			owid-distinct	DiscreteBar	true
+			Small island developing States (SIDS)	Migrants: Where foreign-born population in the selected country moved from	migration-flow	smallislanddevelopingstates(sids)_destination			owid-distinct	DiscreteBar	true
+			Solomon Islands	Migrants: Where foreign-born population in the selected country moved from	migration-flow	solomonislands_destination			owid-distinct	DiscreteBar	true
+			Somalia	Migrants: Where foreign-born population in the selected country moved from	migration-flow	somalia_destination			owid-distinct	DiscreteBar	true
+			South Africa	Migrants: Where foreign-born population in the selected country moved from	migration-flow	southafrica_destination			owid-distinct	DiscreteBar	true
+			South America	Migrants: Where foreign-born population in the selected country moved from	migration-flow	southamerica_destination			owid-distinct	DiscreteBar	true
+			South Korea	Migrants: Where foreign-born population in the selected country moved from	migration-flow	southkorea_destination			owid-distinct	DiscreteBar	true
+			South Sudan	Migrants: Where foreign-born population in the selected country moved from	migration-flow	southsudan_destination			owid-distinct	DiscreteBar	true
+			South-Eastern Asia	Migrants: Where foreign-born population in the selected country moved from	migration-flow	south-easternasia_destination			owid-distinct	DiscreteBar	true
+			Southern Africa	Migrants: Where foreign-born population in the selected country moved from	migration-flow	southernafrica_destination			owid-distinct	DiscreteBar	true
+			Southern Asia	Migrants: Where foreign-born population in the selected country moved from	migration-flow	southernasia_destination			owid-distinct	DiscreteBar	true
+			Southern Europe	Migrants: Where foreign-born population in the selected country moved from	migration-flow	southerneurope_destination			owid-distinct	DiscreteBar	true
+			Spain	Migrants: Where foreign-born population in the selected country moved from	migration-flow	spain_destination			owid-distinct	DiscreteBar	true
+			Sri Lanka	Migrants: Where foreign-born population in the selected country moved from	migration-flow	srilanka_destination			owid-distinct	DiscreteBar	true
+			Sub-Saharan Africa	Migrants: Where foreign-born population in the selected country moved from	migration-flow	sub-saharanafrica_destination			owid-distinct	DiscreteBar	true
+			Sudan	Migrants: Where foreign-born population in the selected country moved from	migration-flow	sudan_destination			owid-distinct	DiscreteBar	true
+			Suriname	Migrants: Where foreign-born population in the selected country moved from	migration-flow	suriname_destination			owid-distinct	DiscreteBar	true
+			Sweden	Migrants: Where foreign-born population in the selected country moved from	migration-flow	sweden_destination			owid-distinct	DiscreteBar	true
+			Switzerland	Migrants: Where foreign-born population in the selected country moved from	migration-flow	switzerland_destination			owid-distinct	DiscreteBar	true
+			Syria	Migrants: Where foreign-born population in the selected country moved from	migration-flow	syria_destination			owid-distinct	DiscreteBar	true
+			Taiwan	Migrants: Where foreign-born population in the selected country moved from	migration-flow	taiwan_destination			owid-distinct	DiscreteBar	true
+			Tajikistan	Migrants: Where foreign-born population in the selected country moved from	migration-flow	tajikistan_destination			owid-distinct	DiscreteBar	true
+			Tanzania	Migrants: Where foreign-born population in the selected country moved from	migration-flow	tanzania_destination			owid-distinct	DiscreteBar	true
+			Thailand	Migrants: Where foreign-born population in the selected country moved from	migration-flow	thailand_destination			owid-distinct	DiscreteBar	true
+			Timor-Leste	Migrants: Where foreign-born population in the selected country moved from	migration-flow	timor-leste_destination			owid-distinct	DiscreteBar	true
+			Togo	Migrants: Where foreign-born population in the selected country moved from	migration-flow	togo_destination			owid-distinct	DiscreteBar	true
+			Tokelau	Migrants: Where foreign-born population in the selected country moved from	migration-flow	tokelau_destination			owid-distinct	DiscreteBar	true
+			Tonga	Migrants: Where foreign-born population in the selected country moved from	migration-flow	tonga_destination			owid-distinct	DiscreteBar	true
+			Trinidad and Tobago	Migrants: Where foreign-born population in the selected country moved from	migration-flow	trinidadandtobago_destination			owid-distinct	DiscreteBar	true
+			Tunisia	Migrants: Where foreign-born population in the selected country moved from	migration-flow	tunisia_destination			owid-distinct	DiscreteBar	true
+			Turkey	Migrants: Where foreign-born population in the selected country moved from	migration-flow	turkey_destination			owid-distinct	DiscreteBar	true
+			Turkmenistan	Migrants: Where foreign-born population in the selected country moved from	migration-flow	turkmenistan_destination			owid-distinct	DiscreteBar	true
+			Turks and Caicos Islands	Migrants: Where foreign-born population in the selected country moved from	migration-flow	turksandcaicosislands_destination			owid-distinct	DiscreteBar	true
+			Tuvalu	Migrants: Where foreign-born population in the selected country moved from	migration-flow	tuvalu_destination			owid-distinct	DiscreteBar	true
+			Uganda	Migrants: Where foreign-born population in the selected country moved from	migration-flow	uganda_destination			owid-distinct	DiscreteBar	true
+			Ukraine	Migrants: Where foreign-born population in the selected country moved from	migration-flow	ukraine_destination			owid-distinct	DiscreteBar	true
+			United Arab Emirates	Migrants: Where foreign-born population in the selected country moved from	migration-flow	unitedarabemirates_destination			owid-distinct	DiscreteBar	true
+			United Kingdom	Migrants: Where foreign-born population in the selected country moved from	migration-flow	unitedkingdom_destination			owid-distinct	DiscreteBar	true
+			United States	Migrants: Where foreign-born population in the selected country moved from	migration-flow	unitedstates_destination			owid-distinct	DiscreteBar	true
+			United States Virgin Islands	Migrants: Where foreign-born population in the selected country moved from	migration-flow	unitedstatesvirginislands_destination			owid-distinct	DiscreteBar	true
+			Upper-middle-income countries	Migrants: Where foreign-born population in the selected country moved from	migration-flow	upper-middle-incomecountries_destination			owid-distinct	DiscreteBar	true
+			Uruguay	Migrants: Where foreign-born population in the selected country moved from	migration-flow	uruguay_destination			owid-distinct	DiscreteBar	true
+			Uzbekistan	Migrants: Where foreign-born population in the selected country moved from	migration-flow	uzbekistan_destination			owid-distinct	DiscreteBar	true
+			Vanuatu	Migrants: Where foreign-born population in the selected country moved from	migration-flow	vanuatu_destination			owid-distinct	DiscreteBar	true
+			Vatican	Migrants: Where foreign-born population in the selected country moved from	migration-flow	vatican_destination			owid-distinct	DiscreteBar	true
+			Venezuela	Migrants: Where foreign-born population in the selected country moved from	migration-flow	venezuela_destination			owid-distinct	DiscreteBar	true
+			Vietnam	Migrants: Where foreign-born population in the selected country moved from	migration-flow	vietnam_destination			owid-distinct	DiscreteBar	true
+			Wallis and Futuna	Migrants: Where foreign-born population in the selected country moved from	migration-flow	wallisandfutuna_destination			owid-distinct	DiscreteBar	true
+			Western Africa	Migrants: Where foreign-born population in the selected country moved from	migration-flow	westernafrica_destination			owid-distinct	DiscreteBar	true
+			Western Asia	Migrants: Where foreign-born population in the selected country moved from	migration-flow	westernasia_destination			owid-distinct	DiscreteBar	true
+			Western Europe	Migrants: Where foreign-born population in the selected country moved from	migration-flow	westerneurope_destination			owid-distinct	DiscreteBar	true
+			Western Sahara	Migrants: Where foreign-born population in the selected country moved from	migration-flow	westernsahara_destination			owid-distinct	DiscreteBar	true
+			World	Migrants: Where foreign-born population in the selected country moved from	migration-flow	world_destination			owid-distinct	DiscreteBar	true
+			Yemen	Migrants: Where foreign-born population in the selected country moved from	migration-flow	yemen_destination			owid-distinct	DiscreteBar	true
+			Zambia	Migrants: Where foreign-born population in the selected country moved from	migration-flow	zambia_destination			owid-distinct	DiscreteBar	true
+			Zimbabwe	Migrants: Where foreign-born population in the selected country moved from	migration-flow	zimbabwe_destination			owid-distinct	DiscreteBar	true
 table	https://raw.githubusercontent.com/owid/importers/migration/migration/output/Migration_matrix.csv	migration-flow
 columns	migration-flow
 	slug	name	type	unit	shortUnit	transform	annotationsColumnSlug	notes	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo	tolerance	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
