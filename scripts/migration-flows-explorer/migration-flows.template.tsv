@@ -1,0 +1,16 @@
+explorerTitle	Data Explorer: Where people migrate from, and move to
+isPublished	false
+selection	United States	United Kingdom	France	Mexico	India	China	Germany	Australia	Brazil	South Africa
+explorerSubtitle	Explore where people move from and move to, country-by-country
+subNavId
+subNavCurrentId
+hasMapTab	true
+yAxisMin	0
+hideTitleAnnotation	true
+tab	map
+graphers
+$graphers_tsv
+
+table	https://raw.githubusercontent.com/owid/importers/migration/migration/output/Migration_matrix.csv	migration-flow
+columns	migration-flow
+$column_defs
