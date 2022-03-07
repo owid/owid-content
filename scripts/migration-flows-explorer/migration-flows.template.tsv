@@ -2,6 +2,7 @@ explorerTitle	Migration Data Explorer: Where do people migrate from and to?
 isPublished	false
 selection	United States	United Kingdom	France	Mexico	India	China	Germany	Australia	Brazil	South Africa
 explorerSubtitle	Explore global migration data, country-by-country
+thumbnail https://owid.cloud/app/uploads/2022/03/migration-flows-explorer.png
 subNavId
 subNavCurrentId
 hasMapTab	true
