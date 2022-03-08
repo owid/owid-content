@@ -1,6 +1,5 @@
 {
-    "editor.renderWhitespace": "boundary",
-    "[tsv]": {
-        "editor.insertSpaces": false
-    }
+  "[tsv]": {
+    "editor.insertSpaces": false
+  }
 }

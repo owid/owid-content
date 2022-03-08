@@ -1,0 +1,35 @@
+name: Migration Flows Explorer
+on:
+  push:
+    branches:
+      - master
+      - staging
+    paths:
+      - "scripts/migration-flows-explorer/**"
+  pull_request:
+    paths:
+      - "scripts/migration-flows-explorer/**"
+
+# Auto-run the script generating the migration flows explorer spreadsheet, and push it as a commit to the respective branch
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v2
+        with:
+          ref: ${{ github.head_ref }}
+      - name: Install poetry
+        uses: abatilo/actions-poetry@v2.1.4
+
+      - name: Install dependencies
+        run: cd scripts/migration-flows-explorer && poetry install
+
+      - name: Run migration flows explorer script
+        run: cd scripts/migration-flows-explorer && poetry run python migration-flows-explorer.py
+
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "🤖 update migration-flows-explorer"

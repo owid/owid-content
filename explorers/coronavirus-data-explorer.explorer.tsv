@@ -3,7 +3,7 @@ isPublished	true
 googleSheet	https://docs.google.com/spreadsheets/d/1qeXBgckrktxwrJp2V9NCG9CeDEufAC-nzYYjj6o1vlU/edit?usp=sharing
 selection	United States	Italy	Canada	Germany	United Kingdom	France	Japan
 explorerSubtitle	Download the complete <em>Our World in Data</em> <a href="https://github.com/owid/covid-19-data/tree/master/public/data" target="_blank" rel="noopener noreferrer">COVID-19 dataset.</a>
-hideAlertBanner	true
+hideAlertBanner	false
 subNavId	coronavirus
 subNavCurrentId	data-explorer
 wpBlockId	43869
