@@ -41,35 +41,37 @@ print(f"📑 Read {len(views_df.index)} different views")
 print(f"💾 Data file has {len(available_entities)} entities")
 
 # %%
-graphers = pd.DataFrame(columns=views_df.columns)
+graphers_list = []
 
 for country in available_entities:
     for (idx, row) in views_df.iterrows():
-        graphers = graphers.append(
+        graphers_list.append(
             substitute_title(
                 row.copy(),
                 country,
             ),
-            ignore_index=True,
         )
+
+graphers = pd.DataFrame(columns=views_df.columns, data=graphers_list)
 
 print(f"📈 Generated {len(graphers.index)} views")
 
 # %%
-columns = pd.DataFrame(columns=column_defs_df.columns)
-
-columns = columns.append([{"slug": "year", "name": "Year", "type": "Year"}, {
-                         "slug": "entity", "name": "Country", "type": "EntityName"}], ignore_index=True)
+columns_list = [
+    {"slug": "year", "name": "Year", "type": "Year"},
+    {"slug": "entity", "name": "Country", "type": "EntityName"}
+]
 
 for country in available_entities:
     for (idx, row) in column_defs_df.iterrows():
-        columns = columns.append(
+        columns_list.append(
             substitute_title(
                 row.copy(),
                 country,
             ),
-            ignore_index=True,
         )
+
+columns = pd.DataFrame(columns=column_defs_df.columns, data=columns_list)
 
 for (idx, row) in columns.iterrows():
     col_slug = row["slug"]
