@@ -74,6 +74,8 @@ for country in available_entities:
 columns = pd.DataFrame(columns=column_defs_df.columns, data=columns_list)
 
 for (idx, row) in columns.iterrows():
+    if row["transform"]:
+        continue
     col_slug = row["slug"]
     assert col_slug in datafile.columns, f"Column {col_slug} not found in data file"
 # %%
