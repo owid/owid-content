@@ -1,10 +1,11 @@
 explorerTitle	Fossil Fuels Data Explorer
-isPublished	false
+isPublished	true
 selection	United States	Russia	Norway	United Kingdom	Germany	Sweden	China
 explorerSubtitle	Explore reserves, production, trade and consumption of fossil fuels across the world
 hideAlertBanner	true
 subNavId
 subNavCurrentId
+thumbnail	https://owid.cloud/app/uploads/2022/03/Fossil-Fuels-Data-Explorer.png
 hasMapTab	true
 yAxisMin	0
 hideTitleAnnotation	true
@@ -49,7 +50,7 @@ graphers
 	Net imports of natural gas per capita	Net imports is calculated as total imports minus total exports. This includes all forms of dry natural gas, including liquified natural gas (LNG). Vented and flared gas are not included. A negative value indicates that a country exports more than it imports.	Natural gas	Net imports	Per capita	annual_fossil	natural_gas_net_imports_per_capita	false		owid-distinct	LineChart	true
 	Net imports of coal per capita	Net imports is calculated as total imports minus total exports. A negative value indicates that a country exports more than it imports.	Coal	Net imports	Per capita	annual_fossil	coal_net_imports_per_capita	false		owid-distinct	LineChart	true	This includes five coal types: anthracite, metallurgical, bituminous, subbituminous, and lignite.
 	Net imports of crude oil per capita	Net imports is calculated as total imports minus total exports. A negative value indicates that a country exports more than it imports.	Oil	Net imports	Per capita	annual_fossil	oil_net_imports_per_capita	false		owid-distinct	LineChart	true	This includes the production of crude oil, including lease condensate.
-table	https://raw.githubusercontent.com/owid/importers/add-natural-resources/natural_resources/ready/eia_natural-resources-yearly.csv	annual_fossil
+table	https://raw.githubusercontent.com/owid/importers/master/natural_resources/ready/eia_natural-resources-yearly.csv	annual_fossil
 columns	annual_fossil
 	slug	name	type	unit	shortUnit	transform	annotationsColumnSlug	notes	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo	tolerance	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme	colorScaleInvert
 	natural_gas_production	Gas production	Integer	cubic meters	m³				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)			This includes all forms of dry natural gas, including liquified natural gas (LNG). Vented and flared gas are not included.	2	0	1000000000,,;5000000000,,;10000000000,,;5000000000,,;100000000000,,;500000000000	true	Purples	false
@@ -95,7 +96,7 @@ columns	annual_fossil
 	natural_gas_net_imports_per_capita	Gas net imports per capita	Numeric	cubic meters	m³				Calculated by Our World in Data based on US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)			Net imports is calculated as total imports minus total exports. This includes all forms of dry natural gas, including liquified natural gas (LNG). Vented and flared gas are not included.	2		-0.5,,;-0.25,,;-0.1,,;-0.075,,;-0.05,,;-0.01,,;0,,;0.01,,;0.05,,;0.075,,;0.1,,;0.25,,;0.5	true	RdBu	false
 	coal_net_imports_per_capita	Coal net imports per capita	Numeric	tonnes	t				Calculated by Our World in Data based on US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)			Net imports is calculated as total imports minus total exports. This includes five coal types: anthracite, metallurgical, bituminous, subbituminous, and lignite.	2		-0.5,,;-0.25,,;-0.1,,;-0.075,,;-0.05,,;-0.01,,;0,,;0.01,,;0.05,,;0.075,,;0.1,,;0.25,,;0.5	true	RdBu	false
 	oil_net_imports_per_capita	Oil net imports per capita	Numeric	cubic meters	m³				Calculated by Our World in Data based on US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)			Net imports is calculated as total imports minus total exports. This includes the production of crude oil, including lease condensate.	2		-10,,;-5,,;-1,,;-0.5,,;-0.1,,;-0.05,,;0,,;0.05,,;0.1,,;0.5,,;1,,;5,,;10	true	RdBu	false
-table	https://raw.githubusercontent.com/owid/importers/add-natural-resources/natural_resources/ready/eia_natural-resources-monthly.csv	monthly_fossil
+table	https://raw.githubusercontent.com/owid/importers/master/natural_resources/ready/eia_natural-resources-monthly.csv	monthly_fossil
 columns	monthly_fossil
 	slug	name	type	unit	shortUnit	transform	annotationsColumnSlug	notes	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo	tolerance	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme	colorScaleInvert
 	Entity	Country name	EntityName
