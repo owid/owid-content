@@ -30,7 +30,7 @@ graphers
 	Platinum prices		Platinum	commodities	platinum	true		owid-distinct	LineChart
 	Palladium prices		Palladium	commodities	palladium	true		owid-distinct	LineChart
 table	https://raw.githubusercontent.com/owid/importers/add-commodities/commodities/output/commodities.csv	commodities
-columns	annual_fossil
+columns	commodities
 	slug	name	type	unit	shortUnit	transform	annotationsColumnSlug	notes	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo	tolerance	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme	colorScaleInvert
 	entity	Country name	EntityName
 	date	Date	Date
