@@ -6,9 +6,9 @@ isPublished	false
 
 
 graphers
-	title	ySlugs	subtitle	type	Metric Radio	Rolling average Checkbox	Stacked Checkbox
+	title	ySlugs	subtitle	type	Metric Radio	Rolling average Checkbox	Stacked Checkbox	defaultView
 	Bandwidth by site	gb	Note that we are missing data before 10 March 2021 for Cloudflare.	LineChart	Bandwidth	false	false
-	Bandwidth by site (rolling average)	gb_rolling_avg	Note that we are missing data before 10 March 2021 for Cloudflare.	LineChart	Bandwidth	true	false
+	Bandwidth by site (rolling average)	gb_rolling_avg	Note that we are missing data before 10 March 2021 for Cloudflare.	LineChart	Bandwidth	true	false	true
 	Bandwidth by site (rolling average)	gb_rolling_avg	Note that we are missing data before 10 March 2021 for Cloudflare.	StackedArea	Bandwidth	true	true
 	Requests by site	requests	Note that we are missing data before 10 March 2021 for Cloudflare.	LineChart	Requests	false	false
 
