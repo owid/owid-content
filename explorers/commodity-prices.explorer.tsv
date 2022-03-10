@@ -12,23 +12,23 @@ hideTitleAnnotation	true
 tab	chart
 graphers
 	title	subtitle	Commodity Dropdown	tableSlug	ySlugs	yScaleToggle	xSlug	baseColorScheme	type	note
-	Wheat prices		Wheat	commodities	wheat	true		owid-distinct	LineChart
-	Maize prices		Maize	commodities	maize	true		owid-distinct	LineChart
-	Soybean prices		Soybeans	commodities	soybean	true		owid-distinct	LineChart
-	Oat prices		Oats	commodities	oats	true		owid-distinct	LineChart
-	Coffee prices		Coffee	commodities	coffee	true		owid-distinct	LineChart
-	Cotton prices		Cotton	commodities	cotton	true		owid-distinct	LineChart
-	Sugar prices		Sugar	commodities	sugar	true		owid-distinct	LineChart
-	Soybean oil prices		Soybean oil	commodities	soybean_oil	true		owid-distinct	LineChart
-	Heating oil prices		Heating oiil	commodities	heating_oil	true		owid-distinct	LineChart
-	Natural gas prices		Natural gas	commodities	natural_gas	true		owid-distinct	LineChart
-	Brent crude oil prices		Oil (short-term)	commodities	brent_crude_oil	true		owid-distinct	LineChart
-	Oil prices		Oil (long-term)	commodities	long_term_crude_oil	true		owid-distinct	LineChart
-	Copper prices		Copper	commodities	copper	true		owid-distinct	LineChart
-	Gold prices		Gold	commodities	gold	true		owid-distinct	LineChart
-	Silver prices		Silver	commodities	silver	true		owid-distinct	LineChart
-	Platinum prices		Platinum	commodities	platinum	true		owid-distinct	LineChart
-	Palladium prices		Palladium	commodities	palladium	true		owid-distinct	LineChart
+	Wheat prices	Wheat prices are measured in current US dollars per kilogram.	Wheat	commodities	wheat	true		owid-distinct	LineChart
+	Maize prices	Maize prices are measured in current US dollars per kilogram.	Maize	commodities	maize	true		owid-distinct	LineChart
+	Soybean prices	Soybean prices are measured in current US dollars per kilogram.	Soybeans	commodities	soybean	true		owid-distinct	LineChart
+	Oat prices	Oat prices are measured in current US dollars per kilogram.	Oats	commodities	oats	true		owid-distinct	LineChart
+	Coffee prices	Coffee prices are measured in current US dollars per kilogram.	Coffee	commodities	coffee	true		owid-distinct	LineChart
+	Cotton prices	Cotton prices are measured in current US dollars per kilogram.	Cotton	commodities	cotton	true		owid-distinct	LineChart
+	Sugar prices	Sugar prices are measured in current US dollars per kilogram.	Sugar	commodities	sugar	true		owid-distinct	LineChart
+	Soybean oil prices	Soybean oil prices are measured in current US dollars per kilogram.	Soybean oil	commodities	soybean_oil	true		owid-distinct	LineChart
+	Heating oil prices	Heating oil prices are measured in current US dollars per liter.	Heating oiil	commodities	heating_oil	true		owid-distinct	LineChart
+	Natural gas prices	Natural gas prices are measured in current US dollars per Million British Thermal Units (MMBtu).	Natural gas	commodities	natural_gas	true		owid-distinct	LineChart
+	Brent crude oil prices	Oil prices are measured in current US dollars per barrel.	Oil (short-term)	commodities	brent_crude_oil	true		owid-distinct	LineChart
+	Oil prices	Oil prices are measured in current US dollars per barrel.	Oil (long-term)	commodities	long_term_crude_oil	true		owid-distinct	LineChart
+	Copper prices	Copper prices are measured in current US dollars per kilogram.	Copper	commodities	copper	true		owid-distinct	LineChart
+	Gold prices	Gold prices are measured in current US dollars per gram.	Gold	commodities	gold	true		owid-distinct	LineChart
+	Silver prices	Silver prices are measured in current US dollars per gram.	Silver	commodities	silver	true		owid-distinct	LineChart
+	Platinum prices	Platinum prices are measured in current US dollars per gram.	Platinum	commodities	platinum	true		owid-distinct	LineChart
+	Palladium prices	Palladium prices are measured in current US dollars per gram.	Palladium	commodities	palladium	true		owid-distinct	LineChart
 table	https://raw.githubusercontent.com/owid/importers/add-commodities/commodities/output/commodities.csv	commodities
 columns	commodities
 	slug	name	type	unit	shortUnit	transform	annotationsColumnSlug	notes	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo	tolerance	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme	colorScaleInvert
