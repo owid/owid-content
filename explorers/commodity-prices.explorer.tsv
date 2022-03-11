@@ -23,7 +23,7 @@ graphers
 	Heating oil prices	Heating oil prices are measured in US dollars per liter. This is not adjusted for inflation.	Heating oiil	commodities	heating_oil	true		owid-distinct	LineChart
 	Natural gas prices	Natural gas prices are measured in US dollars per Million British Thermal Units (MMBtu). This is not adjusted for inflation.	Natural gas	commodities	natural_gas	true		owid-distinct	LineChart
 	Brent crude oil prices	Brent crude oil prices are measured in US dollars per barrel. This is not adjusted for inflation.	Oil (Brent, since 2012)	commodities	brent_crude_oil	true		owid-distinct	LineChart
-	West Texas Intermediate crude oil prices	West Texas Intermediate oil prices are measured in US dollars per barrel. This is not adjusted for inflation.	Oil (WTI, since 1946)	commodities	long_term_crude_oil	true		owid-distinct	LineChart
+	West Texas Intermediate crude oil prices	West Texas Intermediate crude oil prices are measured in US dollars per barrel. This is not adjusted for inflation.	Oil (WTI, since 1946)	commodities	long_term_crude_oil	true		owid-distinct	LineChart
 	Copper prices	Copper prices are measured in US dollars per kilogram. This is not adjusted for inflation.	Copper	commodities	copper	true		owid-distinct	LineChart
 	Gold prices	Gold prices are measured in US dollars per gram. This is not adjusted for inflation.	Gold	commodities	gold	true		owid-distinct	LineChart
 	Silver prices	Silver prices are measured in US dollars per gram. This is not adjusted for inflation.	Silver	commodities	silver	true		owid-distinct	LineChart
