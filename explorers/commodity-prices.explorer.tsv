@@ -13,7 +13,7 @@ tab	chart
 graphers
 	title	subtitle	Commodity Dropdown	tableSlug	ySlugs	yScaleToggle	xSlug	baseColorScheme	type	note
 	Wheat prices	Wheat prices are measured in US dollars per kilogram. This is not adjusted for inflation.	Wheat	commodities	wheat	true		owid-distinct	LineChart
-	Corn prices	Corn (known as maize in the UK) prices are measured in US dollars per kilogram. This is not adjusted for inflation.	Corn (maize)	commodities	maize	true		owid-distinct	LineChart
+	Corn prices	Corn (known as maize in the UK) prices are measured in US dollars per kilogram. This is not adjusted for inflation.	Corn (maize)	commodities	corn	true		owid-distinct	LineChart
 	Soybean prices	Soybean prices are measured in US dollars per kilogram. This is not adjusted for inflation.	Soybeans	commodities	soybean	true		owid-distinct	LineChart
 	Oat prices	Oat prices are measured in US dollars per kilogram. This is not adjusted for inflation.	Oats	commodities	oats	true		owid-distinct	LineChart
 	Coffee prices	Coffee prices are measured in US dollars per kilogram. This is not adjusted for inflation.	Coffee	commodities	coffee	true		owid-distinct	LineChart
