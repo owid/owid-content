@@ -13,7 +13,7 @@ tab	chart
 graphers
 	title	subtitle	Commodity Dropdown	tableSlug	ySlugs	yScaleToggle	xSlug	baseColorScheme	type	note
 	Wheat prices	Wheat prices are measured in current US dollars per kilogram.	Wheat	commodities	wheat	true		owid-distinct	LineChart
-	Maize prices	Maize prices are measured in current US dollars per kilogram.	Maize	commodities	maize	true		owid-distinct	LineChart
+	Corn prices	Corn (known as maize in the UK) prices are measured in current US dollars per kilogram.	Corn (maize)	commodities	maize	true		owid-distinct	LineChart
 	Soybean prices	Soybean prices are measured in current US dollars per kilogram.	Soybeans	commodities	soybean	true		owid-distinct	LineChart
 	Oat prices	Oat prices are measured in current US dollars per kilogram.	Oats	commodities	oats	true		owid-distinct	LineChart
 	Coffee prices	Coffee prices are measured in current US dollars per kilogram.	Coffee	commodities	coffee	true		owid-distinct	LineChart
@@ -35,7 +35,7 @@ columns	commodities
 	entity	Country name	EntityName
 	date	Date	Date
 	wheat	Wheat	Ratio	current USD	$				Macrotrends (www.macrotrends.net)	https://www.macrotrends.net/2534/wheat-prices-historical-chart-data	Macrotrends (www.macrotrends.net)
-	maize	Maize	Ratio	current USD	$				Macrotrends (www.macrotrends.net)	https://www.macrotrends.net/2532/corn-prices-historical-chart-data	Macrotrends (www.macrotrends.net)
+	corn	Corn (maize)	Ratio	current USD	$				Macrotrends (www.macrotrends.net)	https://www.macrotrends.net/2532/corn-prices-historical-chart-data	Macrotrends (www.macrotrends.net)
 	soybean	Soybeans	Ratio	current USD	$				Macrotrends (www.macrotrends.net)	https://www.macrotrends.net/2531/soybean-prices-historical-chart-data	Macrotrends (www.macrotrends.net)
 	oats	Oats	Ratio	current USD	$				Macrotrends (www.macrotrends.net)	https://www.macrotrends.net/2536/oats-prices-historical-chart-data	Macrotrends (www.macrotrends.net)
 	coffee	Coffee	Ratio	current USD	$				Macrotrends (www.macrotrends.net)	https://www.macrotrends.net/2535/coffee-prices-historical-chart-data	Macrotrends (www.macrotrends.net)
