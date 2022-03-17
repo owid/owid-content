@@ -29,6 +29,8 @@ graphers
 			Wheat	Imports	Share of domestic supply	Imports from Ukraine + Russia	food_trade	ukraine_russia_wheat_share_domestic_supply	false		owid-distinct	LineChart
 			Wheat	Exports	Total		food_trade	wheat_exports	false		owid-distinct	LineChart
 			Wheat	Exports	Per capita		food_trade	wheat_exports_capita	false		owid-distinct	LineChart
+			Wheat	Net imports	Total		food_trade	wheat_net_imports	false		owid-distinct	LineChart
+			Wheat	Net imports	Per capita		food_trade	wheat_net_imports_capita	false		owid-distinct	LineChart
 			Wheat	Domestic supply	Total		food_trade	wheat_domestic_supply	false		owid-distinct	LineChart
 			Wheat	Domestic supply	Per capita		food_trade	wheat_domestic_supply_per_capita	false		owid-distinct	LineChart
 			Wheat	Stocks	Total		food_trade	wheat_stocks	false		owid-distinct	LineChart
@@ -51,6 +53,8 @@ graphers
 			Maize (corn)	Imports	Share of domestic supply	Imports from Ukraine + Russia	food_trade	ukraine_russia_maize_share_domestic_supply	false		owid-distinct	LineChart
 			Maize (corn)	Exports	Total		food_trade	maize_exports	false		owid-distinct	LineChart
 			Maize (corn)	Exports	Per capita		food_trade	maize_exports_capita	false		owid-distinct	LineChart
+			Maize (corn)	Net imports	Total		food_trade	maize_net_imports	false		owid-distinct	LineChart
+			Maize (corn)	Net imports	Per capita		food_trade	maize_net_imports_capita	false		owid-distinct	LineChart
 			Maize (corn)	Domestic supply	Total		food_trade	maize_domestic_supply	false		owid-distinct	LineChart
 			Maize (corn)	Domestic supply	Per capita		food_trade	maize_domestic_supply_per_capita	false		owid-distinct	LineChart
 			Maize (corn)	Stocks	Total		food_trade	maize_stocks	false		owid-distinct	LineChart
@@ -137,3 +141,7 @@ columns	food_trade
 	sunfloweroil_imports_capita		Numeric												5
 	sunfloweroil_stocks_capita		Numeric												5
 	sunfloweroil_supply_capita		Numeric												5
+	wheat_net_imports		Numeric												5
+	wheat_net_imports_capita		Numeric												5
+	maize_net_imports		Numeric												5
+	maize_net_imports_capita		Numeric												5
