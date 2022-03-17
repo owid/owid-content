@@ -11,22 +11,22 @@ yAxisMin	0
 hideTitleAnnotation	true
 tab	map
 graphers
-	title	subtitle	Commodity Dropdown	Metric Radio	Adjustment Radio	Trading Partner Dropdown	tableSlug	ySlugs	yScaleToggle	xSlug	baseColorScheme	type
-			Wheat	Imports	Total	Total imports	food_trade	wheat_imports	false		owid-distinct	LineChart
-			Wheat	Imports	Total	Imports from Ukraine	food_trade	ukraine_wheat_imports	false		owid-distinct	LineChart
-			Wheat	Imports	Total	Imports from Russia	food_trade	russia_wheat_imports	false		owid-distinct	LineChart
-			Wheat	Imports	Total	Imports from Ukraine + Russia	food_trade	ukraine_russia_wheat_imports	false		owid-distinct	LineChart
-			Wheat	Imports	Per capita	Total imports	food_trade	wheat_imports_capita	false		owid-distinct	LineChart
-			Wheat	Imports	Per capita	Imports from Ukraine	food_trade	ukraine_wheat_imports_per_capita	false		owid-distinct	LineChart
-			Wheat	Imports	Per capita	Imports from Russia	food_trade	russia_wheat_imports_per_capita	false		owid-distinct	LineChart
-			Wheat	Imports	Per capita	Imports from Ukraine + Russia	food_trade	ukraine_russia_wheat_imports_per_capita	false		owid-distinct	LineChart
-			Wheat	Imports	Share of imports	Imports from Ukraine	food_trade	ukraine_wheat_share_all_imports	false		owid-distinct	LineChart
-			Wheat	Imports	Share of imports	Imports from Russia	food_trade	russia_wheat_share_all_imports	false		owid-distinct	LineChart
-			Wheat	Imports	Share of imports	Imports from Ukraine + Russia	food_trade	ukraine_russia_wheat_share_all_imports	false		owid-distinct	LineChart
-			Wheat	Imports	Share of domestic supply	Total imports	food_trade	wheat_imports_share_domestic_supply	false		owid-distinct	LineChart
-			Wheat	Imports	Share of domestic supply	Imports from Ukraine	food_trade	ukraine_wheat_share_domestic_supply	false		owid-distinct	LineChart
-			Wheat	Imports	Share of domestic supply	Imports from Russia	food_trade	russia_wheat_share_domestic_supply	false		owid-distinct	LineChart
-			Wheat	Imports	Share of domestic supply	Imports from Ukraine + Russia	food_trade	ukraine_russia_wheat_share_domestic_supply	false		owid-distinct	LineChart
+	title	subtitle	Commodity Dropdown	Metric Dropdown	Adjustment Radio	Trading Partner Radio	tableSlug	ySlugs	yScaleToggle	xSlug	baseColorScheme	type
+			Wheat	Imports	Total	All countries	food_trade	wheat_imports	false		owid-distinct	LineChart
+			Wheat	Imports	Total	Ukraine	food_trade	ukraine_wheat_imports	false		owid-distinct	LineChart
+			Wheat	Imports	Total	Russia	food_trade	russia_wheat_imports	false		owid-distinct	LineChart
+			Wheat	Imports	Total	Ukraine + Russia	food_trade	ukraine_russia_wheat_imports	false		owid-distinct	LineChart
+			Wheat	Imports	Per capita	All countries	food_trade	wheat_imports_capita	false		owid-distinct	LineChart
+			Wheat	Imports	Per capita	Ukraine	food_trade	ukraine_wheat_imports_per_capita	false		owid-distinct	LineChart
+			Wheat	Imports	Per capita	Russia	food_trade	russia_wheat_imports_per_capita	false		owid-distinct	LineChart
+			Wheat	Imports	Per capita	Ukraine + Russia	food_trade	ukraine_russia_wheat_imports_per_capita	false		owid-distinct	LineChart
+			Wheat	Imports	Share of imports	Ukraine	food_trade	ukraine_wheat_share_all_imports	false		owid-distinct	LineChart
+			Wheat	Imports	Share of imports	Russia	food_trade	russia_wheat_share_all_imports	false		owid-distinct	LineChart
+			Wheat	Imports	Share of imports	Ukraine + Russia	food_trade	ukraine_russia_wheat_share_all_imports	false		owid-distinct	LineChart
+			Wheat	Imports	Share of domestic supply	All countries	food_trade	wheat_imports_share_domestic_supply	false		owid-distinct	LineChart
+			Wheat	Imports	Share of domestic supply	Ukraine	food_trade	ukraine_wheat_share_domestic_supply	false		owid-distinct	LineChart
+			Wheat	Imports	Share of domestic supply	Russia	food_trade	russia_wheat_share_domestic_supply	false		owid-distinct	LineChart
+			Wheat	Imports	Share of domestic supply	Ukraine + Russia	food_trade	ukraine_russia_wheat_share_domestic_supply	false		owid-distinct	LineChart
 			Wheat	Exports	Total		food_trade	wheat_exports	false		owid-distinct	LineChart
 			Wheat	Exports	Per capita		food_trade	wheat_exports_capita	false		owid-distinct	LineChart
 			Wheat	Net imports	Total		food_trade	wheat_net_imports	false		owid-distinct	LineChart
@@ -36,21 +36,21 @@ graphers
 			Wheat	Stocks	Total		food_trade	wheat_stocks	false		owid-distinct	LineChart
 			Wheat	Stocks	Per capita		food_trade	wheat_stocks_capita	false		owid-distinct	LineChart
 			Wheat	Stocks	Share of domestic supply		food_trade	wheat_stocks_share_domestic_supply	false		owid-distinct	LineChart
-			Maize (corn)	Imports	Total	Total imports	food_trade	maize_imports	false		owid-distinct	LineChart
-			Maize (corn)	Imports	Total	Imports from Ukraine	food_trade	ukraine_maize_imports	false		owid-distinct	LineChart
-			Maize (corn)	Imports	Total	Imports from Russia	food_trade	russia_maize_imports	false		owid-distinct	LineChart
-			Maize (corn)	Imports	Total	Imports from Ukraine + Russia	food_trade	ukraine_russia_maize_imports	false		owid-distinct	LineChart
-			Maize (corn)	Imports	Per capita	Total imports	food_trade	maize_imports_capita	false		owid-distinct	LineChart
-			Maize (corn)	Imports	Per capita	Imports from Ukraine	food_trade	ukraine_maize_imports_per_capita	false		owid-distinct	LineChart
-			Maize (corn)	Imports	Per capita	Imports from Russia	food_trade	russia_maize_imports_per_capita	false		owid-distinct	LineChart
-			Maize (corn)	Imports	Per capita	Imports from Ukraine + Russia	food_trade	ukraine_russia_maize_imports_per_capita	false		owid-distinct	LineChart
-			Maize (corn)	Imports	Share of imports	Imports from Ukraine	food_trade	ukraine_maize_share_all_imports	false		owid-distinct	LineChart
-			Maize (corn)	Imports	Share of imports	Imports from Russia	food_trade	russia_maize_share_all_imports	false		owid-distinct	LineChart
-			Maize (corn)	Imports	Share of imports	Imports from Ukraine + Russia	food_trade	ukraine_russia_maize_share_all_imports	false		owid-distinct	LineChart
-			Maize (corn)	Imports	Share of domestic supply	Total imports	food_trade	maize_imports_share_domestic_supply	false		owid-distinct	LineChart
-			Maize (corn)	Imports	Share of domestic supply	Imports from Ukraine	food_trade	ukraine_maize_share_domestic_supply	false		owid-distinct	LineChart
-			Maize (corn)	Imports	Share of domestic supply	Imports from Russia	food_trade	russia_maize_share_domestic_supply	false		owid-distinct	LineChart
-			Maize (corn)	Imports	Share of domestic supply	Imports from Ukraine + Russia	food_trade	ukraine_russia_maize_share_domestic_supply	false		owid-distinct	LineChart
+			Maize (corn)	Imports	Total	All countries	food_trade	maize_imports	false		owid-distinct	LineChart
+			Maize (corn)	Imports	Total	Ukraine	food_trade	ukraine_maize_imports	false		owid-distinct	LineChart
+			Maize (corn)	Imports	Total	Russia	food_trade	russia_maize_imports	false		owid-distinct	LineChart
+			Maize (corn)	Imports	Total	Ukraine + Russia	food_trade	ukraine_russia_maize_imports	false		owid-distinct	LineChart
+			Maize (corn)	Imports	Per capita	All countries	food_trade	maize_imports_capita	false		owid-distinct	LineChart
+			Maize (corn)	Imports	Per capita	Ukraine	food_trade	ukraine_maize_imports_per_capita	false		owid-distinct	LineChart
+			Maize (corn)	Imports	Per capita	Russia	food_trade	russia_maize_imports_per_capita	false		owid-distinct	LineChart
+			Maize (corn)	Imports	Per capita	Ukraine + Russia	food_trade	ukraine_russia_maize_imports_per_capita	false		owid-distinct	LineChart
+			Maize (corn)	Imports	Share of imports	Ukraine	food_trade	ukraine_maize_share_all_imports	false		owid-distinct	LineChart
+			Maize (corn)	Imports	Share of imports	Russia	food_trade	russia_maize_share_all_imports	false		owid-distinct	LineChart
+			Maize (corn)	Imports	Share of imports	Ukraine + Russia	food_trade	ukraine_russia_maize_share_all_imports	false		owid-distinct	LineChart
+			Maize (corn)	Imports	Share of domestic supply	All countries	food_trade	maize_imports_share_domestic_supply	false		owid-distinct	LineChart
+			Maize (corn)	Imports	Share of domestic supply	Ukraine	food_trade	ukraine_maize_share_domestic_supply	false		owid-distinct	LineChart
+			Maize (corn)	Imports	Share of domestic supply	Russia	food_trade	russia_maize_share_domestic_supply	false		owid-distinct	LineChart
+			Maize (corn)	Imports	Share of domestic supply	Ukraine + Russia	food_trade	ukraine_russia_maize_share_domestic_supply	false		owid-distinct	LineChart
 			Maize (corn)	Exports	Total		food_trade	maize_exports	false		owid-distinct	LineChart
 			Maize (corn)	Exports	Per capita		food_trade	maize_exports_capita	false		owid-distinct	LineChart
 			Maize (corn)	Net imports	Total		food_trade	maize_net_imports	false		owid-distinct	LineChart
@@ -60,20 +60,54 @@ graphers
 			Maize (corn)	Stocks	Total		food_trade	maize_stocks	false		owid-distinct	LineChart
 			Maize (corn)	Stocks	Per capita		food_trade	maize_stocks_capita	false		owid-distinct	LineChart
 			Maize (corn)	Stocks	Share of domestic supply		food_trade	maize_stocks_share_domestic_supply	false		owid-distinct	LineChart
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+			Barley	Imports	Total	All countries	food_trade	barley_imports	false		owid-distinct	LineChart
+			Barley	Imports	Total	Ukraine	food_trade	ukraine_barley_imports	false		owid-distinct	LineChart
+			Barley	Imports	Total	Russia	food_trade	russia_barley_imports	false		owid-distinct	LineChart
+			Barley	Imports	Total	Ukraine + Russia	food_trade	ukraine_russia_barley_imports	false		owid-distinct	LineChart
+			Barley	Imports	Per capita	All countries	food_trade	barley_imports_capita	false		owid-distinct	LineChart
+			Barley	Imports	Per capita	Ukraine	food_trade	ukraine_barley_imports_per_capita	false		owid-distinct	LineChart
+			Barley	Imports	Per capita	Russia	food_trade	russia_barley_imports_per_capita	false		owid-distinct	LineChart
+			Barley	Imports	Per capita	Ukraine + Russia	food_trade	ukraine_russia_barley_imports_per_capita	false		owid-distinct	LineChart
+			Barley	Imports	Share of imports	Ukraine	food_trade	ukraine_barley_share_all_imports	false		owid-distinct	LineChart
+			Barley	Imports	Share of imports	Russia	food_trade	russia_barley_share_all_imports	false		owid-distinct	LineChart
+			Barley	Imports	Share of imports	Ukraine + Russia	food_trade	ukraine_russia_barley_share_all_imports	false		owid-distinct	LineChart
+			Barley	Imports	Share of domestic supply	All countries	food_trade	barley_imports_share_domestic_supply	false		owid-distinct	LineChart
+			Barley	Imports	Share of domestic supply	Ukraine	food_trade	ukraine_barley_share_domestic_supply	false		owid-distinct	LineChart
+			Barley	Imports	Share of domestic supply	Russia	food_trade	russia_barley_share_domestic_supply	false		owid-distinct	LineChart
+			Barley	Imports	Share of domestic supply	Ukraine + Russia	food_trade	ukraine_russia_barley_share_domestic_supply	false		owid-distinct	LineChart
+			Barley	Exports	Total		food_trade	barley_exports	false		owid-distinct	LineChart
+			Barley	Exports	Per capita		food_trade	barley_exports_capita	false		owid-distinct	LineChart
+			Barley	Net imports	Total		food_trade	barley_net_imports	false		owid-distinct	LineChart
+			Barley	Net imports	Per capita		food_trade	barley_net_imports_capita	false		owid-distinct	LineChart
+			Barley	Domestic supply	Total		food_trade	barley_domestic_supply	false		owid-distinct	LineChart
+			Barley	Domestic supply	Per capita		food_trade	barley_domestic_supply_per_capita	false		owid-distinct	LineChart
+			Barley	Stocks	Total		food_trade	barley_stocks	false		owid-distinct	LineChart
+			Barley	Stocks	Per capita		food_trade	barley_stocks_capita	false		owid-distinct	LineChart
+			Barley	Stocks	Share of domestic supply		food_trade	barley_stocks_share_domestic_supply	false		owid-distinct	LineChart
+			Sunflowerseed oil	Imports	Total	All countries	food_trade	sunfloweroil_imports	false		owid-distinct	LineChart
+			Sunflowerseed oil	Imports	Total	Ukraine	food_trade	ukraine_sunfloweroil_imports	false		owid-distinct	LineChart
+			Sunflowerseed oil	Imports	Total	Russia	food_trade	russia_sunfloweroil_imports	false		owid-distinct	LineChart
+			Sunflowerseed oil	Imports	Total	Ukraine + Russia	food_trade	ukraine_russia_sunfloweroil_imports	false		owid-distinct	LineChart
+			Sunflowerseed oil	Imports	Per capita	All countries	food_trade	sunfloweroil_imports_capita	false		owid-distinct	LineChart
+			Sunflowerseed oil	Imports	Per capita	Ukraine	food_trade	ukraine_sunfloweroil_imports_per_capita	false		owid-distinct	LineChart
+			Sunflowerseed oil	Imports	Per capita	Russia	food_trade	russia_sunfloweroil_imports_per_capita	false		owid-distinct	LineChart
+			Sunflowerseed oil	Imports	Per capita	Ukraine + Russia	food_trade	ukraine_russia_sunfloweroil_imports_per_capita	false		owid-distinct	LineChart
+			Sunflowerseed oil	Imports	Share of imports	Ukraine	food_trade	ukraine_sunfloweroil_share_all_imports	false		owid-distinct	LineChart
+			Sunflowerseed oil	Imports	Share of imports	Russia	food_trade	russia_sunfloweroil_share_all_imports	false		owid-distinct	LineChart
+			Sunflowerseed oil	Imports	Share of imports	Ukraine + Russia	food_trade	ukraine_russia_sunfloweroil_share_all_imports	false		owid-distinct	LineChart
+			Sunflowerseed oil	Imports	Share of domestic supply	All countries	food_trade	sunfloweroil_imports_share_domestic_supply	false		owid-distinct	LineChart
+			Sunflowerseed oil	Imports	Share of domestic supply	Ukraine	food_trade	ukraine_sunfloweroil_share_domestic_supply	false		owid-distinct	LineChart
+			Sunflowerseed oil	Imports	Share of domestic supply	Russia	food_trade	russia_sunfloweroil_share_domestic_supply	false		owid-distinct	LineChart
+			Sunflowerseed oil	Imports	Share of domestic supply	Ukraine + Russia	food_trade	ukraine_russia_sunfloweroil_share_domestic_supply	false		owid-distinct	LineChart
+			Sunflowerseed oil	Exports	Total		food_trade	sunfloweroil_exports	false		owid-distinct	LineChart
+			Sunflowerseed oil	Exports	Per capita		food_trade	sunfloweroil_exports_capita	false		owid-distinct	LineChart
+			Sunflowerseed oil	Net imports	Total		food_trade	sunfloweroil_net_imports	false		owid-distinct	LineChart
+			Sunflowerseed oil	Net imports	Per capita		food_trade	sunfloweroil_net_imports_capita	false		owid-distinct	LineChart
+			Sunflowerseed oil	Domestic supply	Total		food_trade	sunfloweroil_domestic_supply	false		owid-distinct	LineChart
+			Sunflowerseed oil	Domestic supply	Per capita		food_trade	sunfloweroil_domestic_supply_per_capita	false		owid-distinct	LineChart
+			Sunflowerseed oil	Stocks	Total		food_trade	sunfloweroil_stocks	false		owid-distinct	LineChart
+			Sunflowerseed oil	Stocks	Per capita		food_trade	sunfloweroil_stocks_capita	false		owid-distinct	LineChart
+			Sunflowerseed oil	Stocks	Share of domestic supply		food_trade	sunfloweroil_stocks_share_domestic_supply	false		owid-distinct	LineChart
 table	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Ukraine-Russia%20(Global%20food%20based%20on%20UN%20FAO)/Ukraine-Russia%20(Global%20food%20based%20on%20UN%20FAO).csv	food_trade
 columns	food_trade
 	slug	name	type	unit	shortUnit	transform	annotationsColumnSlug	notes	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo	tolerance	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme	colorScaleInvert
