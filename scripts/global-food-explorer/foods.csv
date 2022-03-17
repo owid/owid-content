@@ -104,7 +104,7 @@ meat_sheep_and_goat,"Meat, sheep and goat",Sheep and goat meat,Sheep and goat me
 meat_turkey,"Meat, turkey",Turkey meat,Turkey meat,production animals_slaughtered animal_yield,
 melon,Melon,Melon,Melon,production land_use crop_yield,
 melonseed,Melonseed,Melonseed,Melonseeds,production land_use crop_yield,
-milk,Milk,Milk,Milk,production animal_yield food_balances waste animal_feed,"Milk represents the raw equivalents of all dairy products included cheese, yoghurt, cream and milk consumed as the final product"
+milk,Milk,Milk,Milk,production animal_yield food_balances waste animal_feed,"Milk represents the raw equivalents of all dairy products included cheese, yoghurt, cream and milk consumed as the final product."
 millet,Millet,Millet,Millet,production land_use crop_yield food_balances waste animal_feed,
 mixed_grains,Mixed grains,Mixed grain,Mixed grains,production land_use crop_yield,
 molasses,Molasses,Molasses,Molasses,production,
