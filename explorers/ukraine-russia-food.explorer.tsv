@@ -1,0 +1,139 @@
+explorerTitle	Ukraine-Russia Food Data Explorer
+isPublished	false
+selection	Egypt	Indonesia	Morocco	Tunisia
+explorerSubtitle
+hideAlertBanner	true
+subNavId
+subNavCurrentId
+thumbnail
+hasMapTab	true
+yAxisMin	0
+hideTitleAnnotation	true
+tab	map
+graphers
+	title	subtitle	Commodity Dropdown	Metric Radio	Adjustment Radio	Trading Partner Dropdown	tableSlug	ySlugs	yScaleToggle	xSlug	baseColorScheme	type
+			Wheat	Imports	Total	Total imports	food_trade	wheat_imports	false		owid-distinct	LineChart
+			Wheat	Imports	Total	Imports from Ukraine	food_trade	ukraine_wheat_imports	false		owid-distinct	LineChart
+			Wheat	Imports	Total	Imports from Russia	food_trade	russia_wheat_imports	false		owid-distinct	LineChart
+			Wheat	Imports	Total	Imports from Ukraine + Russia	food_trade	ukraine_russia_wheat_imports	false		owid-distinct	LineChart
+			Wheat	Imports	Per capita	Total imports	food_trade	wheat_imports_capita	false		owid-distinct	LineChart
+			Wheat	Imports	Per capita	Imports from Ukraine	food_trade	ukraine_wheat_imports_per_capita	false		owid-distinct	LineChart
+			Wheat	Imports	Per capita	Imports from Russia	food_trade	russia_wheat_imports_per_capita	false		owid-distinct	LineChart
+			Wheat	Imports	Per capita	Imports from Ukraine + Russia	food_trade	ukraine_russia_wheat_imports_per_capita	false		owid-distinct	LineChart
+			Wheat	Imports	Share of imports	Imports from Ukraine	food_trade	ukraine_wheat_share_all_imports	false		owid-distinct	LineChart
+			Wheat	Imports	Share of imports	Imports from Russia	food_trade	russia_wheat_share_all_imports	false		owid-distinct	LineChart
+			Wheat	Imports	Share of imports	Imports from Ukraine + Russia	food_trade	ukraine_russia_wheat_share_all_imports	false		owid-distinct	LineChart
+			Wheat	Imports	Share of domestic supply	Total imports	food_trade	wheat_imports_share_domestic_supply	false		owid-distinct	LineChart
+			Wheat	Imports	Share of domestic supply	Imports from Ukraine	food_trade	ukraine_wheat_share_domestic_supply	false		owid-distinct	LineChart
+			Wheat	Imports	Share of domestic supply	Imports from Russia	food_trade	russia_wheat_share_domestic_supply	false		owid-distinct	LineChart
+			Wheat	Imports	Share of domestic supply	Imports from Ukraine + Russia	food_trade	ukraine_russia_wheat_share_domestic_supply	false		owid-distinct	LineChart
+			Wheat	Exports	Total		food_trade	wheat_exports	false		owid-distinct	LineChart
+			Wheat	Exports	Per capita		food_trade	wheat_exports_capita	false		owid-distinct	LineChart
+			Wheat	Domestic supply	Total		food_trade	wheat_domestic_supply	false		owid-distinct	LineChart
+			Wheat	Domestic supply	Per capita		food_trade	wheat_domestic_supply_per_capita	false		owid-distinct	LineChart
+			Wheat	Stocks	Total		food_trade	wheat_stocks	false		owid-distinct	LineChart
+			Wheat	Stocks	Per capita		food_trade	wheat_stocks_capita	false		owid-distinct	LineChart
+			Wheat	Stocks	Share of domestic supply		food_trade	wheat_stocks_share_domestic_supply	false		owid-distinct	LineChart
+			Maize (corn)	Imports	Total	Total imports	food_trade	maize_imports	false		owid-distinct	LineChart
+			Maize (corn)	Imports	Total	Imports from Ukraine	food_trade	ukraine_maize_imports	false		owid-distinct	LineChart
+			Maize (corn)	Imports	Total	Imports from Russia	food_trade	russia_maize_imports	false		owid-distinct	LineChart
+			Maize (corn)	Imports	Total	Imports from Ukraine + Russia	food_trade	ukraine_russia_maize_imports	false		owid-distinct	LineChart
+			Maize (corn)	Imports	Per capita	Total imports	food_trade	maize_imports_capita	false		owid-distinct	LineChart
+			Maize (corn)	Imports	Per capita	Imports from Ukraine	food_trade	ukraine_maize_imports_per_capita	false		owid-distinct	LineChart
+			Maize (corn)	Imports	Per capita	Imports from Russia	food_trade	russia_maize_imports_per_capita	false		owid-distinct	LineChart
+			Maize (corn)	Imports	Per capita	Imports from Ukraine + Russia	food_trade	ukraine_russia_maize_imports_per_capita	false		owid-distinct	LineChart
+			Maize (corn)	Imports	Share of imports	Imports from Ukraine	food_trade	ukraine_maize_share_all_imports	false		owid-distinct	LineChart
+			Maize (corn)	Imports	Share of imports	Imports from Russia	food_trade	russia_maize_share_all_imports	false		owid-distinct	LineChart
+			Maize (corn)	Imports	Share of imports	Imports from Ukraine + Russia	food_trade	ukraine_russia_maize_share_all_imports	false		owid-distinct	LineChart
+			Maize (corn)	Imports	Share of domestic supply	Total imports	food_trade	maize_imports_share_domestic_supply	false		owid-distinct	LineChart
+			Maize (corn)	Imports	Share of domestic supply	Imports from Ukraine	food_trade	ukraine_maize_share_domestic_supply	false		owid-distinct	LineChart
+			Maize (corn)	Imports	Share of domestic supply	Imports from Russia	food_trade	russia_maize_share_domestic_supply	false		owid-distinct	LineChart
+			Maize (corn)	Imports	Share of domestic supply	Imports from Ukraine + Russia	food_trade	ukraine_russia_maize_share_domestic_supply	false		owid-distinct	LineChart
+			Maize (corn)	Exports	Total		food_trade	maize_exports	false		owid-distinct	LineChart
+			Maize (corn)	Exports	Per capita		food_trade	maize_exports_capita	false		owid-distinct	LineChart
+			Maize (corn)	Domestic supply	Total		food_trade	maize_domestic_supply	false		owid-distinct	LineChart
+			Maize (corn)	Domestic supply	Per capita		food_trade	maize_domestic_supply_per_capita	false		owid-distinct	LineChart
+			Maize (corn)	Stocks	Total		food_trade	maize_stocks	false		owid-distinct	LineChart
+			Maize (corn)	Stocks	Per capita		food_trade	maize_stocks_capita	false		owid-distinct	LineChart
+			Maize (corn)	Stocks	Share of domestic supply		food_trade	maize_stocks_share_domestic_supply	false		owid-distinct	LineChart
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+table	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Ukraine-Russia%20(Global%20food%20based%20on%20UN%20FAO)/Ukraine-Russia%20(Global%20food%20based%20on%20UN%20FAO).csv	food_trade
+columns	food_trade
+	slug	name	type	unit	shortUnit	transform	annotationsColumnSlug	notes	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo	tolerance	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme	colorScaleInvert
+	wheat_domestic_supply		Numeric												5
+	wheat_exports		Numeric												5
+	wheat_imports		Numeric												5
+	wheat_stocks		Numeric												5
+	wheat_imports_share_domestic_supply		Numeric												5
+	wheat_stocks_share_domestic_supply		Numeric												5
+	wheat_exports_capita		Numeric												5
+	wheat_imports_capita		Numeric												5
+	wheat_stocks_capita		Numeric												5
+	wheat_supply_capita		Numeric												5
+	ukraine_wheat_imports		Numeric												5
+	russia_wheat_imports		Numeric												5
+	ukraine_russia_wheat_imports		Numeric												5
+	ukraine_wheat_imports_per_capita		Numeric												5
+	russia_wheat_imports_per_capita		Numeric												5
+	ukraine_russia_wheat_imports_per_capita		Numeric												5
+	ukraine_wheat_share_all_imports		Numeric												5
+	russia_wheat_share_all_imports		Numeric												5
+	ukraine_russia_wheat_share_all_imports		Numeric												5
+	ukraine_wheat_share_domestic_supply		Numeric												5
+	russia_wheat_share_domestic_supply		Numeric												5
+	ukraine_russia_wheat_share_domestic_supply		Numeric												5
+	maize_domestic_supply		Numeric												5
+	maize_exports		Numeric												5
+	maize_imports		Numeric												5
+	maize_stocks		Numeric												5
+	maize_imports_share_domestic_supply		Numeric												5
+	maize_stocks_share_domestic_supply		Numeric												5
+	maize_exports_capita		Numeric												5
+	maize_imports_capita		Numeric												5
+	maize_stocks_capita		Numeric												5
+	maize_supply_capita		Numeric												5
+	ukraine_maize_imports		Numeric												5
+	russia_maize_imports		Numeric												5
+	ukraine_russia_maize_imports		Numeric												5
+	ukraine_maize_imports_per_capita		Numeric												5
+	russia_maize_imports_per_capita		Numeric												5
+	ukraine_russia_maize_imports_per_capita		Numeric												5
+	ukraine_maize_share_all_imports		Numeric												5
+	russia_maize_share_all_imports		Numeric												5
+	ukraine_russia_maize_share_all_imports		Numeric												5
+	ukraine_maize_share_domestic_supply		Numeric												5
+	russia_maize_share_domestic_supply		Numeric												5
+	ukraine_russia_maize_share_domestic_supply		Numeric												5
+	barley_domestic_supply		Numeric												5
+	barley_exports		Numeric												5
+	barley_imports		Numeric												5
+	barley_stocks		Numeric												5
+	barley_imports_share_domestic_supply		Numeric												5
+	barley_stocks_share_domestic_supply		Numeric												5
+	barley_exports_capita		Numeric												5
+	barley_imports_capita		Numeric												5
+	barley_stocks_capita		Numeric												5
+	barley_supply_capita		Numeric												5
+	sunfloweroil_domestic_supply		Numeric												5
+	sunfloweroil_exports		Numeric												5
+	sunfloweroil_imports		Numeric												5
+	sunfloweroil_stocks		Numeric												5
+	sunfloweroil_imports_share_domestic_supply		Numeric												5
+	sunfloweroil_stocks_share_domestic_supply		Numeric												5
+	sunfloweroil_exports_capita		Numeric												5
+	sunfloweroil_imports_capita		Numeric												5
+	sunfloweroil_stocks_capita		Numeric												5
+	sunfloweroil_supply_capita		Numeric												5
