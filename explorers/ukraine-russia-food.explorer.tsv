@@ -11,7 +11,7 @@ yAxisMin	0
 hideTitleAnnotation	true
 tab	map
 graphers
-	title	subtitle	Commodity Dropdown	Metric Dropdown	Adjustment Radio	Imports from... Radio	tableSlug	ySlugs	yScaleToggle	xSlug	baseColorScheme	type
+	title	subtitle	Crop Radio	Metric Dropdown	Adjustment Radio	Imports from... Radio	tableSlug	ySlugs	yScaleToggle	xSlug	baseColorScheme	type
 	Wheat imports		Wheat	Imports	Total	All countries	food_trade	wheat_imports	false		owid-distinct	LineChart
 	Wheat imports from Ukraine		Wheat	Imports	Total	Ukraine	food_trade	ukraine_wheat_imports	false		owid-distinct	LineChart
 	Wheat imports from Russia		Wheat	Imports	Total	Russia	food_trade	russia_wheat_imports	false		owid-distinct	LineChart
