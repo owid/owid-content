@@ -16,9 +16,9 @@ $graphers_tsv
 $table_defs
 columns	$food_slugs
 	slug	name	type	transform	shortUnit	unit	sourceName	dataPublishedBy	sourceLink
-	Product	Product	String
-	Country	Country	EntityName						
-	Year	Year	Year						
+	product	Product	String
+	country	Country	EntityName						
+	year	Year	Year						
 	population	Population	Population						
 	production__tonnes	Production (t)	Integer		t	tonnes	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/QCL
 	production__tonnes_per_capita		Numeric	production__tonnes divideBy population	t	tonnes	UN Food and Agriculture Organization (FAO)	Food and Agriculture Organization of the United Nations (FAO) (2021)	https://www.fao.org/faostat/en/#data/QCL
