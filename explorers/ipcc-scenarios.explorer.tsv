@@ -10,7 +10,7 @@ hasMapTab	false
 yAxisMin	0
 hideTitleAnnotation	true
 graphers
-	title	subtitle	Region Dropdown	Metric Dropdown	Sub-metric Dropdown	Rate Radio	tableSlugs	ySlugs	yScaleToggle	sourceDesc	note	relatedQuestionText	relatedQuestionUrl
+	title	subtitle	Region Dropdown	Metric Dropdown	Sub-metric Dropdown	Rate Radio	tableSlug	ySlugs	yScaleToggle	sourceDesc	note	relatedQuestionText	relatedQuestionUrl
 	Global GDP per capita	Gross domestic product (GDP) is measured in 2005 international-dollars. This means it is adjusted for inflation and cross-country price differences.	Global	GDP		Per capita	global	gdp_per_capita		Riahi et al. (2017). The Shared Socioeconomic Pathways and their energy, land use, and greenhouse gas emissions implications: An overview, Global Environmental Change
 	Global gross domestic product	Gross domestic product (GDP) is measured in 2005 international-dollars. This means it is adjusted for inflation and cross-country price differences.	Global	GDP		Total	global	gdp_dollars		Riahi et al. (2017). The Shared Socioeconomic Pathways and their energy, land use, and greenhouse gas emissions implications: An overview, Global Environmental Change
 	Global private economic consumption	Economic consumption measures the expenditure of private households. It is gross domestic product minus government expenditures, investments, and exports. It is measured in 2005 international-dollars. This means it is adjusted for inflation and cross-country price differences.	Global	Consumption		Total	global	econ_consumption_dollars		Riahi et al. (2017). The Shared Socioeconomic Pathways and their energy, land use, and greenhouse gas emissions implications: An overview, Global Environmental Change
