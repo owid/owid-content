@@ -2,7 +2,6 @@ explorerTitle	Data Explorer: IPCC Scenarios
 explorerSubtitle	Explore the assumptions of global shared socioeconomic pathways used in IPCC scenarios.
 isPublished	false
 selection	SSP1 - Baseline	SSP2 - Baseline	SSP3 - Baseline	SSP4 - Baseline	SSP5 - Baseline
-explorerSubtitle
 hideAlertBanner	true
 subNavId
 wpBlockId
