@@ -5,7 +5,7 @@ explorerSubtitle	Explore the role of Ukraine and Russia in food trade across the
 hideAlertBanner	true
 subNavId
 subNavCurrentId
-thumbnail
+thumbnail	https://owid.cloud/wp/wp-admin/upload.php?item=50297
 hasMapTab	true
 yAxisMin	0
 hideTitleAnnotation	true
