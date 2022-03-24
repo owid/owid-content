@@ -89,7 +89,8 @@ if len(symmetric_diff) > 0:
 # %%
 # merge on column: _tag
 graphers = views_df.merge(foods).apply(substitute_title, axis=1)
-graphers = graphers.drop(columns="_tag").sort_values(by="Food Dropdown", kind="stable")
+graphers = graphers.drop(columns="_tag").sort_values(
+    by="Food Dropdown", kind="stable")
 # drop duplicates introduced by the tag merge
 graphers = graphers.drop_duplicates()
 
@@ -111,7 +112,8 @@ col_order = [
     "ySlugs",
     "tableSlug",
 ]
-remaining_cols = pd.Index(graphers.columns).difference(pd.Index(col_order)).tolist()
+remaining_cols = pd.Index(graphers.columns).difference(
+    pd.Index(col_order)).tolist()
 graphers = graphers.reindex(columns=col_order + remaining_cols)
 
 
