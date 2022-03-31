@@ -65,7 +65,7 @@ columns	monthly
 	monthly_sea_surface_temperature_anomaly_upper_bound_95pct	Sea surface temp (upper-bound)	Numeric	°C	°C				Met Office Hadley Center	https://www.metoffice.gov.uk/hadobs/hadsst4/data/download.html	Met Office Hadley Center
 	ocean_ph		Numeric
 	ocean_ph_yearly_average		Numeric
-	temperature_anomaly	Temperature anomaly	Numeric
+	temperature_anomaly	Temperature anomaly	Numeric	°C	°C				National Aeronautics and Space Administration (NASA), Goddard Institute for Space Studies (GISS)	https://data.giss.nasa.gov/gistemp/	National Aeronautics and Space Administration (NASA), Goddard Institute for Space Studies (GISS)
 	sea_level_rise_cw2011		Numeric
 	sea_level_rise_uhslcfd		Numeric
 	sea_level_rise_average		Numeric
