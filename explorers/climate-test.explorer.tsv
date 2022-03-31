@@ -1,0 +1,60 @@
+explorerTitle	Climate Change
+isPublished	false
+selection	United States	Russia	Norway	United Kingdom	Germany	Sweden	China
+explorerSubtitle	Explore reserves, production, trade and consumption of fossil fuels across the world
+hideAlertBanner	true
+subNavId
+subNavCurrentId
+thumbnail	https://owid.cloud/app/uploads/2022/03/Fossil-Fuels-Data-Explorer.png
+hasMapTab	true
+yAxisMin	0
+hideTitleAnnotation	true
+graphers
+	title	subtitle	Metric Dropdown	Long-run series? Checkbox	tableSlug	ySlugs	yScaleToggle	xSlug	baseColorScheme	type	hasMapTab	note
+	Global warming: monthly temperature anomaly	The combined land-surface air and sea-surface water temperature anomaly is given as the deviation from the 1951–1980 mean.	Temperature anomaly	false			false		owid-distinct	LineChart	false
+	Global warming: monthly sea surface temperature anomaly	This is measured at a nominal depth of 20cm, and given relative to the average temperature from the period of 1961 - 1990.	Sea surface temperature anomaly	false			false		owid-distinct	LineChart	false
+	Global warming: heat content in the top 700 meters of the world's oceans	Ocean heat content is measured relative to the 1971–2000 average, which is set at zero for reference. It is measured in 10²² joules. For reference, 10²² joules are equal to approximately 17 times the amount of energy used globally every year.	Ocean heat content (top 700m)	false			false		owid-distinct	LineChart	false	Heat content is shown for four sources: Commonwealth Scientific and Industrial Research Organisation (CSIRO); Institute of Atmospheric Physics (IAP); National Oceanic and Atmospheric Administration (NOAA); and Meteorological Research Institute (MRI).
+	Global warming: heat content in the top 2,000 meters of the world's oceans	Ocean heat content is measured relative to the 1971–2000 average, which is set at zero for reference. It is measured in 10²² joules. For reference, 10²² joules are equal to approximately 17 times the amount of energy used globally every year.	Ocean heat content (top 2000m)	false			false		owid-distinct	LineChart	false	Heat content is shown for four sources: Commonwealth Scientific and Industrial Research Organisation (CSIRO); Institute of Atmospheric Physics (IAP); National Oceanic and Atmospheric Administration (NOAA); and Meteorological Research Institute (MRI).
+	Ocean acidification: mean seawater pH	Mean seawater pH is shown based on in-situ measurements of pH from the Aloha station in Hawaii.	Ocean pH	false			false		owid-distinct	LineChart	false
+	Sea level rise	Global mean sea level rise is measured relative to the 1993 - 2008 average sea level. This is shown as three series: the widely-cited Church & White dataset; the University of Hawaii Sea Level Center (UHLSC); and the average of the two.	Sea level rise	false			false		owid-distinct	LineChart	false
+	Climate change: Arctic minimum sea ice extent	Shown is Arctic sea ice measured in September, when it reaches its minimum each year.	Arctic sea ice minimum	false			false		owid-distinct	LineChart	false
+	Climate change: Antarctic minimum sea ice extent	The minimum and maximum sea ice extent typically occur in February and September each year.	Antarctic sea ice extent	false			false		owid-distinct	LineChart	false
+	Climate change: change in mass of ice sheets	Cumulative change in mass of ice sheets, measured relative to a base year of 2002. For reference, 1 trillion metric tons is equal to about 260 cubic miles of ice—enough to raise sea level by about 3 millimeters.	Mass balance of ice sheets	false			false		owid-distinct	LineChart	false
+	Climate change: change of mass of US glaciers	Cumulative mass balance of U.S. reference glaciers, relative to the base year 1965. This is given in meters of water equivalent, which represent changes in the average thickness of a glacier.	Mass balance of U.S. Glaciers	false			false		owid-distinct	LineChart	false
+	Snow cover in North America	This metric measures the average area covered by snow, averaged over an entire year based on an analysis of weekly maps. These data cover all of North America (not including Greenland).	Snow cover	false			false		owid-distinct	LineChart	false
+	Global atmospheric CO2 concentration	Atmospheric carbon dioxide (CO₂) concentration is measured in parts per million (ppm).	CO₂ concentrations	false
+	Global atmospheric methane concentration	Atmospheric methane (CH₄) concentration is measured in parts per billion (ppb).	CH₄ concentrations	false
+	Global atmospheric nitrous oxide concentration	Atmospheric nitrous oxide (N₂O) concentration is measured in parts per billion (ppb).	N₂O concentrations	false
+	Global atmospheric CO2 concentration	Atmospheric carbon dioxide (CO₂) concentration is measured in parts per million (ppm).	CO₂ concentrations	true
+	Global atmospheric methane concentration	Atmospheric methane (CH₄) concentration is measured in parts per billion (ppb).	CH₄ concentrations	true
+	Global atmospheric nitrous oxide concentration	Atmospheric nitrous oxide (N₂O) concentration is measured in parts per billion (ppb).	N₂O concentrations	true
+table	https://raw.githubusercontent.com/owid/importers/ghg-concentrations/climate_change/output/climate_change_impacts_yearly.csv	annual
+columns	annual
+	slug	name	type	unit	shortUnit	transform	annotationsColumnSlug	notes	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo
+	entity	Entity	EntityName	true
+	year	Year	Year
+	yearly_co2_concentrations	CO2 concentrations	Numeric	parts per million	ppm				National Oceanic and Atmospheric Administration (NOAA)	https://gml.noaa.gov/ccgg/trends/global.html	National Oceanic and Atmospheric Administration (NOAA)
+	yearly_ch4_concentrations	CH4 concentrations	Numeric	parts per billion	ppb				National Oceanic and Atmospheric Administration (NOAA)	https://gml.noaa.gov/ccgg/trends/global.html	National Oceanic and Atmospheric Administration (NOAA)
+	yearly_n2o_concentrations	N2O concentrations	Numeric	parts per billion	ppb				National Oceanic and Atmospheric Administration (NOAA)	https://gml.noaa.gov/ccgg/trends/global.html	National Oceanic and Atmospheric Administration (NOAA)
+	antarctic_sea_ice_february	Antarctic sea ice (February)	Numeric	square kilometers	km²				NSIDC (National Snow and Ice Data Center) via the US EPA	https://www.epa.gov/climate-indicators/climate-change-indicators-antarctic-sea-ice	United States Environmental Protection Agency (EPA)			Original data on Antarctic Sea Ice comes from the NSIDC (National Snow and Ice Data Center). Sea ice data and image archive: https://nsidc.org/data/seaice_index/archive
+	antarctic_sea_ice_september	Antarctic sea ice (September)	Numeric	square kilometers	km²				NSIDC (National Snow and Ice Data Center) via the US EPA	https://www.epa.gov/climate-indicators/climate-change-indicators-antarctic-sea-ice	United States Environmental Protection Agency (EPA)			Original data on Antarctic Sea Ice comes from the NSIDC (National Snow and Ice Data Center). Sea ice data and image archive: https://nsidc.org/data/seaice_index/archive
+	cumulative_mass_balance	Mass balance of ice sheets	Numeric	tonnes	t				IMBIE and NASA via the United States Environmental Protection Agency (EPA)	https://www.epa.gov/climate-indicators/climate-change-indicators-ice-sheets	United States Environmental Protection Agency (EPA)
+	700m_ocean_heat_content_csiro	Ocean heat (700m), CSIRO	Numeric
+	700m_ocean_heat_content_iap	Ocean heat (700m), IAP	Numeric
+	700m_ocean_heat_content_mrijma	Ocean heat (700m), MRIJMA	Numeric
+	700m_ocean_heat_content_noaa	Ocean heat (700m), NOAA	Numeric
+	snow_cover_north_america	Snow cover	Numeric
+	annual_sea_surface_temperature_anomaly	Sea surface temp	Numeric						Met Office Hadley Center	https://www.metoffice.gov.uk/hadobs/hadsst4/data/download.html	Met Office Hadley Center
+	annual_sea_surface_temperature_anomaly_lower_bound_95pct	Sea surface temp (upper-bound)	Numeric						Met Office Hadley Center	https://www.metoffice.gov.uk/hadobs/hadsst4/data/download.html	Met Office Hadley Center
+	annual_sea_surface_temperature_anomaly_upper_bound_95pct	Sea surface temp (lower-bound)	Numeric						Met Office Hadley Center	https://www.metoffice.gov.uk/hadobs/hadsst4/data/download.html	Met Office Hadley Center
+	2000m_ocean_heat_content_iap	Ocean heat (2000m), IAP	Numeric
+	2000m_ocean_heat_content_noaa	Ocean heat (2000m), NOAA	Numeric
+	2000m_ocean_heat_content_mrijma	Ocean heat (2000m), MRIJMA	Numeric
+	arctic_sea_ice_nasa	Arctic sea ice	Numeric	square kilometers	km²				NSIDC (National Snow and Ice Data Center) via NASA	https://climate.nasa.gov/vital-signs/arctic-sea-ice/	National Aeronautics and Space Administration (NASA)
+table	https://raw.githubusercontent.com/owid/importers/master/natural_resources/ready/eia_natural-resources-monthly.csv	monthly_fossil
+columns	monthly_fossil
+	slug	name	type	unit	shortUnit	transform	annotationsColumnSlug	notes	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo	tolerance	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme	colorScaleInvert
+	Entity	Country name	EntityName
+	Date	Month	Date
+	oil_production_monthly	Monthly oil production	Numeric	tonnes	t				US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)			Monthly production is allocated to the first day of each month: so, December 2019 production is allocated to 1st December 2019.<p>'Negative' production figures can occur when crude oil is refined into products which have a higher density than the crude oil; this means the volume of outputs in refinery is lower than the inputs.	2	0	500000,,;1000000,,;5000000,,;10000000,,;5000000,,;100000000,,;500000000	true	OrRd	false
+	oil_production_monthly_per_capita	Monthly oil production per capita	Numeric	tonnes	t				Calculated by Our World in Data based on US Energy Information Analysis (EIA)	https://www.eia.gov/international/data/world	US Energy Information Analysis (EIA)			Monthly production is allocated to the first day of each month: so, December 2019 production is allocated to 1st December 2019.<p>'Negative' production figures can occur when crude oil is refined into products which have a higher density than the crude oil; this means the volume of outputs in refinery is lower than the inputs.	2	0	0.01,,;0.1,,;1,,;10,,;100	true	OrRd	false
