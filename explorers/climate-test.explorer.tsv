@@ -1,6 +1,6 @@
 explorerTitle	Climate Change
 isPublished	false
-selection	World	Antarctica	Gulkana Glacier	Lemon Creek Glacier	North America	Northern Hemisphere	South Cascade Glacier	Southern Hemisphere	Tropics	Wolverine Glacier
+selection	World	Antarctica	Gulkana Glacier	Lemon Creek Glacier	North America	South Cascade Glacier	Tropics	Wolverine Glacier
 explorerSubtitle	Explore reserves, production, trade and consumption of fossil fuels across the world
 hideAlertBanner	true
 subNavId
@@ -27,7 +27,7 @@ graphers
 	Global atmospheric CO2 concentration	Atmospheric carbon dioxide (CO₂) concentration is measured in parts per million (ppm).	CO₂ concentrations	true	annual	yearly_co2_concentrations	false		owid-distinct	LineChart	false
 	Global atmospheric methane concentration	Atmospheric methane (CH₄) concentration is measured in parts per billion (ppb).	CH₄ concentrations	true	annual	yearly_ch4_concentrations	false		owid-distinct	LineChart	false
 	Global atmospheric nitrous oxide concentration	Atmospheric nitrous oxide (N₂O) concentration is measured in parts per billion (ppb).	N₂O concentrations	true	annual	yearly_n2o_concentrations	false		owid-distinct	LineChart	false
-table	https://raw.githubusercontent.com/owid/importers/ghg-concentrations/climate_change/output/climate_change_impacts_yearly.csv	annual
+table	https://raw.githubusercontent.com/owid/importers/master/climate_change/output/climate_change_impacts_yearly.csv	annual
 columns	annual
 	slug	name	type	unit	shortUnit	transform	annotationsColumnSlug	notes	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo
 	entity	Entity	EntityName	true
@@ -50,7 +50,7 @@ columns	annual
 	2000m_ocean_heat_content_noaa	NOAA	Numeric						United States Environmental Protection Agency (EPA)	https://www.epa.gov/climate-indicators/climate-change-indicators-ocean-heat	United States Environmental Protection Agency (EPA)			The original data series is published from the National Oceanic and Atmospheric Administration (NOAA). Global ocean heat and salt content. www.nodc.noaa.gov/OC5/3M_HEAT_CONTENT.<p>Ocean heat content is measured in 10²² joules. For reference, one 10²² joules is equal to approximately 17 times the amount of energy used globally every year.<p>It is measured relative to the 1971–2000 average, which is set at zero for reference.
 	2000m_ocean_heat_content_mrijma	MRIJMA	Numeric						United States Environmental Protection Agency (EPA)	https://www.epa.gov/climate-indicators/climate-change-indicators-ocean-heat	United States Environmental Protection Agency (EPA)			The original data series is published from the Meteorological Research Institute/Japan Meteorological Agency.<p>MRI/JMA (Meteorological Research Institute/Japan Meteorological Agency). 2021. Global ocean heat content. www.data.jma.go.jp/gmd/kaiyou/english/ohc/ohc_global_en.html<p>Ocean heat content is measured in 10²² joules. For reference, one 10²² joules is equal to approximately 17 times the amount of energy used globally every year.<p>It is measured relative to the 1971–2000 average, which is set at zero for reference.
 	arctic_sea_ice_nasa	Arctic sea ice	Numeric	square kilometers	km²				NSIDC (National Snow and Ice Data Center) via NASA	https://climate.nasa.gov/vital-signs/arctic-sea-ice/	National Aeronautics and Space Administration (NASA)
-table	https://raw.githubusercontent.com/owid/importers/ghg-concentrations/climate_change/output/climate_change_impacts_monthly.csv	monthly
+table	https://raw.githubusercontent.com/owid/importers/master/climate_change/output/climate_change_impacts_monthly.csv	monthly
 columns	monthly
 	slug	name	type	unit	shortUnit	transform	annotationsColumnSlug	notes	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo
 	entity	Entity	EntityName
