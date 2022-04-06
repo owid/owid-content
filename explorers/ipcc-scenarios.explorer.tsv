@@ -4,7 +4,7 @@ isPublished	false
 selection	SSP1 - Baseline	SSP2 - Baseline	SSP3 - Baseline	SSP4 - Baseline	SSP5 - Baseline
 hideAlertBanner	true
 subNavId
-wpBlockId
+wpBlockId	50588
 entityType	scenario
 hasMapTab	false
 yAxisMin	0
