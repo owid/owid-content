@@ -15,6 +15,7 @@ graphers
 	5636	Total		Electricity only	Net electricity imports
 	5635	Total		Electricity only	Annual demand
 	5637	Total		Electricity only	Electricity imports as a share of demand
+	4767	Total		Electricity only	Carbon intensity
 	4449	Select a source	Fossil fuels	Primary energy	Annual consumption
 	4434	Select a source	Fossil fuels	Primary energy	Per capita consumption
 	4293	Select a source	Fossil fuels	Primary energy	Share of total
