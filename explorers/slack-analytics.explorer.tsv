@@ -6,9 +6,9 @@ isPublished	false
 
 
 graphers
-	title	ySlugs	subtitle	type	Metric Radio			defaultView
-	Messages	messages_in_public_channels_smooth messages_in_private_channels_smooth messages_in_shared_channels_smooth messages_in_dms_smooth		StackedArea	Messages in public channels
-
+	title	ySlugs	subtitle	type	Metric Radio	Stacked Checkbox	stackMode	defaultView
+	Messages per day	messages_in_public_channels_smooth messages_in_private_channels_smooth messages_in_shared_channels_smooth messages_in_dms_smooth	7-day average	StackedArea	Messages in public channels	false	absolute
+	Messages per day	messages_in_public_channels_smooth messages_in_private_channels_smooth messages_in_shared_channels_smooth messages_in_dms_smooth	7-day average	StackedArea	Messages in public channels	true	relative
 
 
 
