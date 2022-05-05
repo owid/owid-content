@@ -7,8 +7,8 @@ isPublished	false
 
 graphers
 	title	ySlugs	subtitle	type	Metric Radio	Stacked Checkbox	stackMode	defaultView
-	Messages per day	messages_in_public_channels_smooth messages_in_private_channels_smooth messages_in_shared_channels_smooth messages_in_dms_smooth	7-day average	StackedArea	Messages	false	absolute
-	Messages per day	messages_in_public_channels_smooth messages_in_private_channels_smooth messages_in_shared_channels_smooth messages_in_dms_smooth	7-day average	StackedArea	Messages	true	relative
+	Messages per day	messages_in_public_channels_smooth messages_in_private_channels_smooth messages_in_shared_channels_smooth messages_in_dms_smooth	14-day average	StackedArea	Messages	false	absolute
+	Messages per day	messages_in_public_channels_smooth messages_in_private_channels_smooth messages_in_shared_channels_smooth messages_in_dms_smooth	14-day average	StackedArea	Messages	true	relative
 
 
 
@@ -28,10 +28,10 @@ columns
 	messages_in_private_channels	Integer	Messages in private channels
 	messages_in_shared_channels	Integer	Messages in shared channels
 	messages_in_dms	Integer	Messages in DMs
-	messages_in_public_channels_smooth	Numeric	Messages in public channels			rollingAverage date entity messages_in_public_channels 7
-	messages_in_private_channels_smooth	Numeric	Messages in private channels			rollingAverage date entity messages_in_private_channels 7
-	messages_in_shared_channels_smooth	Numeric	Messages in shared channels			rollingAverage date entity messages_in_shared_channels 7
-	messages_in_dms_smooth	Numeric	Messages in DMs			rollingAverage date entity messages_in_dms 7
+	messages_in_public_channels_smooth	Numeric	Messages in public channels			rollingAverage date entity messages_in_public_channels 14
+	messages_in_private_channels_smooth	Numeric	Messages in private channels			rollingAverage date entity messages_in_private_channels 14
+	messages_in_shared_channels_smooth	Numeric	Messages in shared channels			rollingAverage date entity messages_in_shared_channels 14
+	messages_in_dms_smooth	Numeric	Messages in DMs			rollingAverage date entity messages_in_dms 14
 	percentage_of_messages_public_channels	Numeric	Percentage of messages, public channels
 	percentage_of_messages_private_channels	Numeric	Percentage of messages, private channels
 	percentage_of_messages_dms	Numeric	Percentage of messages, DMs
