@@ -1,14 +1,14 @@
 explorerTitle	Data Explorer: Impacts of Energy Production
 explorerSubtitle	Explore resource; environmental and health impacts of electricity sources.
 isPublished	false
-selection	Coal	Gas	Nuclear	Onshore wind	Offshore wind	Small hydro (360 MW)	Large hydro (660 MW)	Solar PV (silicon, on-ground)	Solar PV (cadmium, on-ground)
+selection	Coal	Gas	Nuclear	Onshore wind	Offshore wind	Hydropower	Solar PV, silicon (on-ground)	Solar PV, cadmium (on-ground)
 explorerSubtitle
 hideAlertBanner	true
 subNavId
 wpBlockId	47482
 entityType	source
 hasMapTab	false
-table	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Life-cycle%20impacts%20of%20energy%20sources%20(UNECEA)/Life-cycle%20impacts%20of%20energy%20sources%20(UNECEA).csv	energy
+table	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Life-cycle%20impacts%20of%20energy%20sources%20(UNECE)/Life-cycle%20impacts%20of%20energy%20sources%20(UNECE).csv	energy
 hideTitleAnnotation	true
 graphers
 	title	subtitle	Impact metric Dropdown	Sub-metric Dropdown	tableSlug	ySlugs	yScaleToggle	xSlug	baseColorScheme	type	hasMapTab	grapherId	sourceDesc	note
