@@ -11,4 +11,15 @@ columns
 	slug	name	type
 	location	Country	EntityName
 	date	Day	Date
-	confirmed_by_entry_date	confirmed_by_entry_date	Integer
+	confirmed_by_entry_date		Integer
+	confirmed_by_onset_date		Integer
+	confirmed_by_confirm_date		Integer
+	all_by_entry_date		Integer
+	all_by_onset_date		Integer
+	all_by_confirm_date		Integer
+	confirmed_by_entry_date_cum		Integer
+	confirmed_by_onset_date_cum		Integer
+	confirmed_by_confirm_date_cum		Integer
+	all_by_entry_date_cum		Integer
+	all_by_onset_date_cum		Integer
+	all_by_confirm_date_cum		Integer
