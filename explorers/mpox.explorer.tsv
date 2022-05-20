@@ -1,6 +1,7 @@
 explorerTitle	Monkeypox
 explorerSubtitle	DO NOT SHARE
 selection	World
+isPublished	false
 graphers
 	title	ySlugs	subtitle	Case type Radio	type
 	Daily new confirmed cases, by date of entry	confirmed_by_entry_date		Confirmed	LineChart
