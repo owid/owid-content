@@ -1,0 +1,13 @@
+explorerTitle	Monkeypox
+explorerSubtitle	DO NOT SHARE
+selection	World
+graphers
+	title	ySlugs	subtitle	Case type Radio	type
+	Daily new confirmed cases, by date of entry	confirmed_by_entry_date		Confirmed	LineChart
+	Daily new confirmed or suspected cases, by date of entry	all_by_entry_date		Confirmed or suspected	LineChart
+table	https://github.com/edomt/mpox/raw/main/mpox.csv
+columns
+	slug	name	type
+	location	Country	EntityName
+	date	Day	Date
+	confirmed_by_entry_date	confirmed_by_entry_date	Integer
