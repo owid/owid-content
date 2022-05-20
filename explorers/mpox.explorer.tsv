@@ -4,16 +4,16 @@ selection	World
 isPublished	false
 graphers
 	title	ySlugs	hideTitleAnnotation	Case type Radio	Date type Radio	Frequency Radio	type
-	Daily confirmed cases, by date of database entry	confirmed_by_entry_date	true	Confirmed	Date of entry	Daily	LineChart
-	Daily confirmed cases, by date of onset	confirmed_by_onset_date	true	Confirmed	Date of onset	Daily	LineChart
-	Daily confirmed cases, by date of confirmation	confirmed_by_confirm_date	true	Confirmed	Date of confirmation	Daily	LineChart
-	Daily confirmed & suspected cases, by date of database entry	all_by_entry_date	true	Confirmed or suspected	Date of entry	Daily	LineChart
-	Daily confirmed & suspected cases, by date of onset	all_by_onset_date	true	Confirmed or suspected	Date of onset	Daily	LineChart
-	Cumulative confirmed cases, by date of database entry	confirmed_by_entry_date_cum	true	Confirmed	Date of entry	Cumulative	LineChart
-	Cumulative confirmed cases, by date of onset	confirmed_by_onset_date_cum	true	Confirmed	Date of onset	Cumulative	LineChart
-	Cumulative confirmed cases, by date of confirmation	confirmed_by_confirm_date_cum	true	Confirmed	Date of confirmation	Cumulative	LineChart
-	Cumulative confirmed & suspected cases, by date of database entry	all_by_entry_date_cum	true	Confirmed or suspected	Date of entry	Cumulative	LineChart
-	Cumulative confirmed & suspected cases, by date of onset	all_by_onset_date_cum	true	Confirmed or suspected	Date of onset	Cumulative	LineChart
+	Daily confirmed cases, by date of database entry	daily_confirmed_by_entry	true	Confirmed	Date of entry	Daily	LineChart
+	Daily confirmed cases, by date of onset	daily_confirmed_by_onset	true	Confirmed	Date of onset	Daily	LineChart
+	Daily confirmed cases, by date of confirmation	daily_confirmed_by_confirmation	true	Confirmed	Date of confirmation	Daily	LineChart
+	Daily confirmed & suspected cases, by date of database entry	daily_all_by_entry	true	Confirmed or suspected	Date of entry	Daily	LineChart
+	Daily confirmed & suspected cases, by date of onset	daily_all_by_onset	true	Confirmed or suspected	Date of onset	Daily	LineChart
+	Cumulative confirmed cases, by date of database entry	total_confirmed_by_entry	true	Confirmed	Date of entry	Cumulative	LineChart
+	Cumulative confirmed cases, by date of onset	total_confirmed_by_onset	true	Confirmed	Date of onset	Cumulative	LineChart
+	Cumulative confirmed cases, by date of confirmation	total_confirmed_by_confirmation	true	Confirmed	Date of confirmation	Cumulative	LineChart
+	Cumulative confirmed & suspected cases, by date of database entry	total_all_by_entry	true	Confirmed or suspected	Date of entry	Cumulative	LineChart
+	Cumulative confirmed & suspected cases, by date of onset	total_all_by_onset	true	Confirmed or suspected	Date of onset	Cumulative	LineChart
 
 
 table	https://raw.githubusercontent.com/edomt/mpox/main/mpox.csv
@@ -21,13 +21,13 @@ columns
 	slug	name	type
 	location	Country	EntityName
 	date	Day	Date
-	confirmed_by_entry_date		Integer
-	confirmed_by_onset_date		Integer
-	confirmed_by_confirm_date		Integer
-	all_by_entry_date		Integer
-	all_by_onset_date		Integer
-	confirmed_by_entry_date_cum		Integer
-	confirmed_by_onset_date_cum		Integer
-	confirmed_by_confirm_date_cum		Integer
-	all_by_entry_date_cum		Integer
-	all_by_onset_date_cum		Integer
+	daily_confirmed_by_confirmation		Integer
+	total_confirmed_by_confirmation		Integer
+	daily_confirmed_by_onset		Integer
+	total_confirmed_by_onset		Integer
+	daily_confirmed_by_entry		Integer
+	total_confirmed_by_entry		Integer
+	daily_all_by_onset		Integer
+	total_all_by_onset		Integer
+	daily_all_by_entry		Integer
+	total_all_by_entry		Integer
