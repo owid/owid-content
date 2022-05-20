@@ -3,10 +3,20 @@ explorerSubtitle	DO NOT SHARE
 selection	World
 isPublished	false
 graphers
-	title	ySlugs	subtitle	Case type Radio	type
-	Daily new confirmed cases, by date of entry	confirmed_by_entry_date		Confirmed	LineChart
-	Daily new confirmed or suspected cases, by date of entry	all_by_entry_date		Confirmed or suspected	LineChart
-table	https://github.com/edomt/mpox/raw/main/mpox.csv
+	title	ySlugs	hideTitleAnnotation	Case type Radio	Date type Radio	Frequency Radio	type
+	Daily confirmed cases, by date of database entry	confirmed_by_entry_date	true	Confirmed	Date of entry	Daily	LineChart
+	Daily confirmed cases, by date of onset	confirmed_by_onset_date	true	Confirmed	Date of onset	Daily	LineChart
+	Daily confirmed cases, by date of confirmation	confirmed_by_confirm_date	true	Confirmed	Date of confirmation	Daily	LineChart
+	Daily confirmed & suspected cases, by date of database entry	all_by_entry_date	true	Confirmed or suspected	Date of entry	Daily	LineChart
+	Daily confirmed & suspected cases, by date of onset	all_by_onset_date	true	Confirmed or suspected	Date of onset	Daily	LineChart
+	Cumulative confirmed cases, by date of database entry	confirmed_by_entry_date_cum	true	Confirmed	Date of entry	Cumulative	LineChart
+	Cumulative confirmed cases, by date of onset	confirmed_by_onset_date_cum	true	Confirmed	Date of onset	Cumulative	LineChart
+	Cumulative confirmed cases, by date of confirmation	confirmed_by_confirm_date_cum	true	Confirmed	Date of confirmation	Cumulative	LineChart
+	Cumulative confirmed & suspected cases, by date of database entry	all_by_entry_date_cum	true	Confirmed or suspected	Date of entry	Cumulative	LineChart
+	Cumulative confirmed & suspected cases, by date of onset	all_by_onset_date_cum	true	Confirmed or suspected	Date of onset	Cumulative	LineChart
+
+
+table	https://raw.githubusercontent.com/edomt/mpox/main/mpox.csv
 columns
 	slug	name	type
 	location	Country	EntityName
@@ -16,10 +26,8 @@ columns
 	confirmed_by_confirm_date		Integer
 	all_by_entry_date		Integer
 	all_by_onset_date		Integer
-	all_by_confirm_date		Integer
 	confirmed_by_entry_date_cum		Integer
 	confirmed_by_onset_date_cum		Integer
 	confirmed_by_confirm_date_cum		Integer
 	all_by_entry_date_cum		Integer
 	all_by_onset_date_cum		Integer
-	all_by_confirm_date_cum		Integer
