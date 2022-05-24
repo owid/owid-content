@@ -2,6 +2,7 @@ explorerTitle	Monkeypox Data Explorer
 explorerSubtitle	Visualizing the data produced by the <a href="https://github.com/globaldothealth/monkeypox">Global.health</a> team on the 2022 monkeypox outbreak.
 selection	World
 isPublished	true
+thumbnail	https://owid.cloud/app/uploads/2022/05/Monkeypox-Data-Explorer.png
 hideAlertBanner	true
 yAxisMin	0
 hasMapTab	true
