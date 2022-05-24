@@ -2,18 +2,21 @@ explorerTitle	Monkeypox
 explorerSubtitle	DO NOT SHARE
 selection	World
 isPublished	false
+hideAlertBanner	true
+yAxisMin	0
+hasMapTab	true
 graphers
-	title	ySlugs	hideTitleAnnotation	Case type Radio	Date type Radio	Frequency Radio	type	yAxisMin	yScaleToggle	hasMapTab
-	Cumulative confirmed cases, by date of confirmation	total_confirmed_by_confirmation	true	Confirmed	Date of confirmation	Cumulative	LineChart	0	true	true
-	Cumulative confirmed cases, by date of database entry	total_confirmed_by_entry	true	Confirmed	Date of entry	Cumulative	LineChart	0	true	true
-	Cumulative confirmed cases, by date of onset	total_confirmed_by_onset	true	Confirmed	Date of onset	Cumulative	LineChart	0	true	true
-	Cumulative confirmed & suspected cases, by date of database entry	total_all_by_entry	true	Confirmed or suspected	Date of entry	Cumulative	LineChart	0	true	true
-	Cumulative confirmed & suspected cases, by date of onset	total_all_by_onset	true	Confirmed or suspected	Date of onset	Cumulative	LineChart	0	true	true
-	Daily confirmed cases, by date of confirmation	daily_confirmed_by_confirmation	true	Confirmed	Date of confirmation	Daily	LineChart	0	true	true
-	Daily confirmed cases, by date of database entry	daily_confirmed_by_entry	true	Confirmed	Date of entry	Daily	LineChart	0	true	true
-	Daily confirmed cases, by date of onset	daily_confirmed_by_onset	true	Confirmed	Date of onset	Daily	LineChart	0	true	true
-	Daily confirmed & suspected cases, by date of database entry	daily_all_by_entry	true	Confirmed or suspected	Date of entry	Daily	LineChart	0	true	true
-	Daily confirmed & suspected cases, by date of onset	daily_all_by_onset	true	Confirmed or suspected	Date of onset	Daily	LineChart	0	true	true
+	title	ySlugs	hideTitleAnnotation	Case type Radio	Date type Radio	Frequency Radio	type	yScaleToggle
+	Cumulative confirmed cases, by date of confirmation	total_confirmed_by_confirmation	true	Confirmed	Date of confirmation	Cumulative	LineChart	true
+	Cumulative confirmed cases, by date of database entry	total_confirmed_by_entry	true	Confirmed	Date of entry	Cumulative	LineChart	true
+	Cumulative confirmed cases, by date of onset	total_confirmed_by_onset	true	Confirmed	Date of onset	Cumulative	LineChart	true
+	Cumulative confirmed & suspected cases, by date of database entry	total_all_by_entry	true	Confirmed or suspected	Date of entry	Cumulative	LineChart	true
+	Cumulative confirmed & suspected cases, by date of onset	total_all_by_onset	true	Confirmed or suspected	Date of onset	Cumulative	LineChart	true
+	Daily confirmed cases, by date of confirmation	daily_confirmed_by_confirmation	true	Confirmed	Date of confirmation	Daily	LineChart	true
+	Daily confirmed cases, by date of database entry	daily_confirmed_by_entry	true	Confirmed	Date of entry	Daily	LineChart	true
+	Daily confirmed cases, by date of onset	daily_confirmed_by_onset	true	Confirmed	Date of onset	Daily	LineChart	true
+	Daily confirmed & suspected cases, by date of database entry	daily_all_by_entry	true	Confirmed or suspected	Date of entry	Daily	LineChart	true
+	Daily confirmed & suspected cases, by date of onset	daily_all_by_onset	true	Confirmed or suspected	Date of onset	Daily	LineChart	true
 
 
 
