@@ -7,13 +7,13 @@ yAxisMin	0
 hasMapTab	true
 pickerColumnSlugs	location total_confirmed_by_confirmation total_all_by_entry
 graphers
-	title	ySlugs	hideTitleAnnotation	Case status Radio	Shown by Radio	Frequency Radio	type	yScaleToggle
-	Cumulative confirmed monkeypox cases, by date of confirmation	total_confirmed_by_confirmation	true	Confirmed	Date of confirmation	Cumulative	LineChart	true
-	Cumulative confirmed monkeypox cases, by date of report	total_confirmed_by_entry	true	Confirmed	Date of report	Cumulative	LineChart	true
-	Cumulative confirmed & suspected monkeypox cases, by date of report	total_all_by_entry	true	Confirmed or suspected	Date of report	Cumulative	LineChart	true
-	Daily confirmed monkeypox cases, by date of confirmation	daily_confirmed_by_confirmation	true	Confirmed	Date of confirmation	Daily	LineChart	true
-	Daily confirmed monkeypox cases, by date of report	daily_confirmed_by_entry	true	Confirmed	Date of report	Daily	LineChart	true
-	Daily confirmed & suspected monkeypox cases, by date of report	daily_all_by_entry	true	Confirmed or suspected	Date of report	Daily	LineChart	true
+	title	ySlugs	hideTitleAnnotation	Metric Radio	Frequency Radio	Shown by Radio	type	yScaleToggle
+	Cumulative confirmed monkeypox cases, by date of confirmation	total_confirmed_by_confirmation	true	Confirmed cases	Cumulative	Date of confirmation	LineChart	true
+	Cumulative confirmed monkeypox cases, by date of report	total_confirmed_by_entry	true	Confirmed cases	Cumulative	Date of report	LineChart	true
+	Cumulative confirmed & suspected monkeypox cases, by date of report	total_all_by_entry	true	Confirmed & suspected cases	Cumulative	Date of report	LineChart	true
+	Daily confirmed monkeypox cases, by date of confirmation	daily_confirmed_by_confirmation	true	Confirmed cases	Daily	Date of confirmation	LineChart	true
+	Daily confirmed monkeypox cases, by date of report	daily_confirmed_by_entry	true	Confirmed cases	Daily	Date of report	LineChart	true
+	Daily confirmed & suspected monkeypox cases, by date of report	daily_all_by_entry	true	Confirmed & suspected cases	Daily	Date of report	LineChart	true
 
 
 
