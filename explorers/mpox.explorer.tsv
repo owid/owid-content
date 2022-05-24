@@ -21,7 +21,7 @@ graphers
 
 
 
-table	https://raw.githubusercontent.com/owid/notebooks/main/EdouardMathieu/monkeypox/monkeypox.csv
+table	https://raw.githubusercontent.com/owid/notebooks/main/EdouardMathieu/monkeypox/owid-monkeypox-data.csv
 columns
 	slug	name	type	tolerance	sourceName	sourceLink	additionalInfo	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleScheme
 	location	Country	EntityName
