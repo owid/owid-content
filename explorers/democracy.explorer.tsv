@@ -100,31 +100,31 @@ graphers
 	5704	Boix-Miller-Rosato	Democracy with women's suffrage	People living in long-standing democracies
 	5723	Boix-Miller-Rosato	Democracy with women's suffrage	Number of democracies by age
 	5709	Boix-Miller-Rosato	Democracy with women's suffrage	Experience with democracy
-	5758	Lexical Index of Electoral Democracy	Political regime	none
-	5766	Lexical Index of Electoral Democracy	Political regime	Number of democracies
-	5767	Lexical Index of Electoral Democracy	Political regime	Share of democracies
-	5765	Lexical Index of Electoral Democracy	Political regime	People living in democracies
-	5758	Lexical Index of Electoral Democracy	Electoral democracy	none
-	5760	Lexical Index of Electoral Democracy	Electoral democracy	Elections for legislature
-	5759	Lexical Index of Electoral Democracy	Electoral democracy	Elections for chief executive
-	5761	Lexical Index of Electoral Democracy	Electoral democracy	Political opposition
-	5763	Lexical Index of Electoral Democracy	Electoral democracy	Competitive elections
-	5762	Lexical Index of Electoral Democracy	Electoral democracy	Universal suffrage for men
-	1170	Lexical Index of Electoral Democracy	Electoral democracy	Universal suffrage for women
-	5778	Lexical Index of Electoral Democracy	Electoral democracy	Age of electoral democracy
-	5769	Lexical Index of Electoral Democracy	Electoral democracy	Number of long-standing electoral democracies
-	5770	Lexical Index of Electoral Democracy	Electoral democracy	Share of long-standing electoral democracies
-	5776	Lexical Index of Electoral Democracy	Electoral democracy	People living in long-standing electoral democracies
-	5780	Lexical Index of Electoral Democracy	Electoral democracy	Number of electoral democracies by age
-	5774	Lexical Index of Electoral Democracy	Electoral democracy	Experience with electoral democracy
-	5758	Lexical Index of Electoral Democracy	Polyarchy	none
-	5764	Lexical Index of Electoral Democracy	Polyarchy	Political liberties
-	5779	Lexical Index of Electoral Democracy	Polyarchy	Age of polyarchy
-	5773	Lexical Index of Electoral Democracy	Polyarchy	Number of long-standing polyarchies
-	5772	Lexical Index of Electoral Democracy	Polyarchy	Share of long-standing polyarchies
-	5777	Lexical Index of Electoral Democracy	Polyarchy	People living in long-standing polyarchies
-	5781	Lexical Index of Electoral Democracy	Polyarchy	Number of polyarchies by age
-	5775	Lexical Index of Electoral Democracy	Polyarchy	Experience with polyarchy
+	5758	Lexical Index	Political regime	none
+	5766	Lexical Index	Political regime	Number of democracies
+	5767	Lexical Index	Political regime	Share of democracies
+	5765	Lexical Index	Political regime	People living in democracies
+	5758	Lexical Index	Electoral democracy	none
+	5760	Lexical Index	Electoral democracy	Elections for legislature
+	5759	Lexical Index	Electoral democracy	Elections for chief executive
+	5761	Lexical Index	Electoral democracy	Political opposition
+	5763	Lexical Index	Electoral democracy	Competitive elections
+	5762	Lexical Index	Electoral democracy	Universal suffrage for men
+	1170	Lexical Index	Electoral democracy	Universal suffrage for women
+	5778	Lexical Index	Electoral democracy	Age of electoral democracy
+	5769	Lexical Index	Electoral democracy	Number of long-standing electoral democracies
+	5770	Lexical Index	Electoral democracy	Share of long-standing electoral democracies
+	5776	Lexical Index	Electoral democracy	People living in long-standing electoral democracies
+	5780	Lexical Index	Electoral democracy	Number of electoral democracies by age
+	5774	Lexical Index	Electoral democracy	Experience with electoral democracy
+	5758	Lexical Index	Polyarchy	none
+	5764	Lexical Index	Polyarchy	Political liberties
+	5779	Lexical Index	Polyarchy	Age of polyarchy
+	5773	Lexical Index	Polyarchy	Number of long-standing polyarchies
+	5772	Lexical Index	Polyarchy	Share of long-standing polyarchies
+	5777	Lexical Index	Polyarchy	People living in long-standing polyarchies
+	5781	Lexical Index	Polyarchy	Number of polyarchies by age
+	5775	Lexical Index	Polyarchy	Experience with polyarchy
 	5712	Freedom House	Freedom	none
 	5725	Freedom House	Freedom	Political rights (score)
 	5726	Freedom House	Freedom	Political rights (rating)
