@@ -130,11 +130,11 @@ graphers
 	5726	Freedom House	Freedom	Political rights (rating)
 	5727	Freedom House	Freedom	Civil liberties (score)
 	5724	Freedom House	Freedom	Civil liberties (rating)
-		Freedom House	Freedom	Number of free countries and territories
-		Freedom House	Freedom	Share of free countries and territories
+	5785	Freedom House	Freedom	Number of free countries and territories
+	5786	Freedom House	Freedom	Share of free countries and territories
 	5720	Freedom House	Freedom	People living in free countries and territories
 	5713	Freedom House	Electoral democracy	none
-		Freedom House	Electoral democracy	Electoral process
+	5787	Freedom House	Electoral democracy	Democratic electoral institutions
 	5725	Freedom House	Electoral democracy	Political rights (score)
 	5726	Freedom House	Electoral democracy	Political rights (rating)
 	5727	Freedom House	Electoral democracy	Civil liberties (score)
