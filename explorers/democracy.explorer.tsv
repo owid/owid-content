@@ -80,26 +80,6 @@ graphers
 	5675	Regimes of the World	Liberal democracy	People living in long-standing liberal democracies
 	5524	Regimes of the World	Liberal democracy	Number of liberal democracies by age
 	5570	Regimes of the World	Liberal democracy	Experience with liberal democracy
-	5581	Boix-Miller-Rosato	Democracy	none
-	5617	Boix-Miller-Rosato	Democracy	Number of democracies
-	3468	Boix-Miller-Rosato	Democracy	Share of democracies
-	5680	Boix-Miller-Rosato	Democracy	People living in democracies
-	5564	Boix-Miller-Rosato	Democracy	Age of democracy
-	5682	Boix-Miller-Rosato	Democracy	Number of long-standing democracies
-	5681	Boix-Miller-Rosato	Democracy	Share of long-standing democracies
-	5683	Boix-Miller-Rosato	Democracy	People living in long-standing democracies
-	5565	Boix-Miller-Rosato	Democracy	Number of democracies by age
-	5571	Boix-Miller-Rosato	Democracy	Experience with democracy
-	5695	Boix-Miller-Rosato	Democracy with women's suffrage	none
-	5703	Boix-Miller-Rosato	Democracy with women's suffrage	Number of democracies
-	5707	Boix-Miller-Rosato	Democracy with women's suffrage	Share of democracies
-	5705	Boix-Miller-Rosato	Democracy with women's suffrage	People living in democracies
-	5722	Boix-Miller-Rosato	Democracy with women's suffrage	Age of democracy
-	5702	Boix-Miller-Rosato	Democracy with women's suffrage	Number of long-standing democracies
-	5708	Boix-Miller-Rosato	Democracy with women's suffrage	Share of long-standing democracies
-	5704	Boix-Miller-Rosato	Democracy with women's suffrage	People living in long-standing democracies
-	5723	Boix-Miller-Rosato	Democracy with women's suffrage	Number of democracies by age
-	5709	Boix-Miller-Rosato	Democracy with women's suffrage	Experience with democracy
 	5758	Lexical Index	Political regime	none
 	5766	Lexical Index	Political regime	Number of democracies
 	5767	Lexical Index	Political regime	Share of democracies
@@ -125,6 +105,26 @@ graphers
 	5777	Lexical Index	Polyarchy	People living in long-standing polyarchies
 	5781	Lexical Index	Polyarchy	Number of polyarchies by age
 	5775	Lexical Index	Polyarchy	Experience with polyarchy
+	5581	Boix-Miller-Rosato	Democracy	none
+	5617	Boix-Miller-Rosato	Democracy	Number of democracies
+	3468	Boix-Miller-Rosato	Democracy	Share of democracies
+	5680	Boix-Miller-Rosato	Democracy	People living in democracies
+	5564	Boix-Miller-Rosato	Democracy	Age of democracy
+	5682	Boix-Miller-Rosato	Democracy	Number of long-standing democracies
+	5681	Boix-Miller-Rosato	Democracy	Share of long-standing democracies
+	5683	Boix-Miller-Rosato	Democracy	People living in long-standing democracies
+	5565	Boix-Miller-Rosato	Democracy	Number of democracies by age
+	5571	Boix-Miller-Rosato	Democracy	Experience with democracy
+	5695	Boix-Miller-Rosato	Democracy with women's suffrage	none
+	5703	Boix-Miller-Rosato	Democracy with women's suffrage	Number of democracies
+	5707	Boix-Miller-Rosato	Democracy with women's suffrage	Share of democracies
+	5705	Boix-Miller-Rosato	Democracy with women's suffrage	People living in democracies
+	5722	Boix-Miller-Rosato	Democracy with women's suffrage	Age of democracy
+	5702	Boix-Miller-Rosato	Democracy with women's suffrage	Number of long-standing democracies
+	5708	Boix-Miller-Rosato	Democracy with women's suffrage	Share of long-standing democracies
+	5704	Boix-Miller-Rosato	Democracy with women's suffrage	People living in long-standing democracies
+	5723	Boix-Miller-Rosato	Democracy with women's suffrage	Number of democracies by age
+	5709	Boix-Miller-Rosato	Democracy with women's suffrage	Experience with democracy
 	5712	Freedom House	Freedom	none
 	5725	Freedom House	Freedom	Political rights (score)
 	5726	Freedom House	Freedom	Political rights (rating)
