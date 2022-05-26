@@ -159,3 +159,22 @@ graphers
 	5714	Freedom House	Electoral democracy	Number of democracies
 	5717	Freedom House	Electoral democracy	Share of democracies
 	5718	Freedom House	Electoral democracy	People living in democracies
+	5806	Bertelsmann Transformation Index	Political regime	none
+	5807	Bertelsmann Transformation Index	Political regime	Basic state functions
+	5808	Bertelsmann Transformation Index	Political regime	Free and fair elections
+	5809	Bertelsmann Transformation Index	Political regime	Effective power to govern
+	5810	Bertelsmann Transformation Index	Political regime	Freedom of association
+	5811	Bertelsmann Transformation Index	Political regime	Freedom of expression
+	5812	Bertelsmann Transformation Index	Political regime	Separation of powers
+	5813	Bertelsmann Transformation Index	Political regime	Civil rights
+	5814	Bertelsmann Transformation Index	Political regime	Democratic features
+	5820	Bertelsmann Transformation Index	Political regime	Number of democracies
+	5821	Bertelsmann Transformation Index	Political regime	Share of democracies
+	5822	Bertelsmann Transformation Index	Political regime	People living in democracies
+	5814	Bertelsmann Transformation Index	Democratic features	none
+	5815	Bertelsmann Transformation Index	Democratic features	Stateness
+	5816	Bertelsmann Transformation Index	Democratic features	Political participation
+	5817	Bertelsmann Transformation Index	Democratic features	Rule of law
+	5818	Bertelsmann Transformation Index	Democratic features	Stability of democratic institutions
+	5819	Bertelsmann Transformation Index	Democratic features	Political and social integration
+	5823	Bertelsmann Transformation Index	Democratic features	Average democracy weighted by population
