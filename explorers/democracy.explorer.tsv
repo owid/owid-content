@@ -125,6 +125,23 @@ graphers
 	5704	Boix-Miller-Rosato	Democracy with women's suffrage	People living in long-standing democracies
 	5723	Boix-Miller-Rosato	Democracy with women's suffrage	Number of democracies by age
 	5709	Boix-Miller-Rosato	Democracy with women's suffrage	Experience with democracy
+	5788	Polity	Political regime	none
+	5797	Polity	Political regime	Number of democracies
+	5798	Polity	Political regime	Share of democracies
+	5799	Polity	Political regime	People living in democracies
+	5796	Polity	Political regime	Age of democracy
+	5800	Polity	Political regime	Number of long-standing democracies
+	5801	Polity	Political regime	Share of long-standing democracies
+	5802	Polity	Political regime	People living in long-standing democracies
+	5805	Polity	Political regime	Number of democracies by age
+	5804	Polity	Political regime	Experience with democracy
+	5789	Polity	Democracy	none
+	5790	Polity	Democracy	Competitiveness of executive recruitment
+	5791	Polity	Democracy	Openness of executive recruitment
+	5792	Polity	Democracy	Constraints on the executive
+	5795	Polity	Democracy	Regulation of political participation
+	5794	Polity	Democracy	Competitiveness of political participation
+	5793	Polity	Democracy	Average democracy weighted by population
 	5712	Freedom House	Freedom	none
 	5725	Freedom House	Freedom	Political rights (score)
 	5726	Freedom House	Freedom	Political rights (rating)
