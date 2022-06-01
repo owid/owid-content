@@ -2,7 +2,7 @@ explorerTitle	Democracy Data Explorer
 isPublished	false
 explorerSubtitle	Download the complete <i>Our World in Data</i> <a href="https://github.com/owid/notebooks/tree/main/BastianHerre/democracy">Democracy Data</a>.
 selection	Argentina	Australia	Botswana	China	World
-subNavId	explorers
+subNavId
 subNavCurrentId	democracy-data
 graphers
 	grapherId	Source Dropdown	Metric Dropdown	Sub-metric Dropdown
