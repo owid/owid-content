@@ -1,11 +1,8 @@
 explorerTitle	Poverty explorer
 selection	India	Mozambique
 isPublished	false
-googleSheet	https://docs.google.com/spreadsheets/d/1wyh4aK8zMYrJK4aQTO2HDf2GCyYQNF4hOCXnSCjN4yE/edit#gid=0
+googleSheet	https://docs.google.com/spreadsheets/d/1-65yg7odNc6wym6VxXc5Sj0Dt0A9QPaL8mfzUhc1yHE/edit#gid=1080881077
 hasMapTab	true
-
-
-
 
 graphers
 	ySlugs	title	Metric Dropdown	Poverty line Dropdown	Household survey data type Radio	Show extrapolated estimates for years with no survey data Checkbox	subtitle	note	tableSlug	yAxisMin
