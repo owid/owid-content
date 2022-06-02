@@ -398,6 +398,54 @@ columns	inc_or_cons_extrap
 	Threshold annual income of 7th decile	threshold_annual_decile_7	Numeric	World Bank Poverty and Inequality Platform	$	$
 	Threshold annual income of 8th decile	threshold_annual_decile_8	Numeric	World Bank Poverty and Inequality Platform	$	$
 	Threshold annual income of richest decile	threshold_annual_decile_9	Numeric	World Bank Poverty and Inequality Platform	$	$
+	poorest decile	share_multi_decile_1	Numeric	World Bank Poverty and Inequality Platform	%	%
+	2nd decile	share_multi_decile_2	Numeric	World Bank Poverty and Inequality Platform	%	%
+	3rd decile	share_multi_decile_3	Numeric	World Bank Poverty and Inequality Platform	%	%
+	4th decile	share_multi_decile_4	Numeric	World Bank Poverty and Inequality Platform	%	%
+	5th decile	share_multi_decile_5	Numeric	World Bank Poverty and Inequality Platform	%	%
+	6th decile	share_multi_decile_6	Numeric	World Bank Poverty and Inequality Platform	%	%
+	7th decile	share_multi_decile_7	Numeric	World Bank Poverty and Inequality Platform	%	%
+	8th decile	share_multi_decile_8	Numeric	World Bank Poverty and Inequality Platform	%	%
+	9th decile	share_multi_decile_9	Numeric	World Bank Poverty and Inequality Platform	%	%
+	richest decile	share_multi_decile_10	Numeric	World Bank Poverty and Inequality Platform	%	%
+	poorest decile	average_daily_multi_decile_1	Numeric	World Bank Poverty and Inequality Platform	$	$
+	2nd decile	average_daily_multi_decile_2	Numeric	World Bank Poverty and Inequality Platform	$	$
+	3rd decile	average_daily_multi_decile_3	Numeric	World Bank Poverty and Inequality Platform	$	$
+	4th decile	average_daily_multi_decile_4	Numeric	World Bank Poverty and Inequality Platform	$	$
+	5th decile	average_daily_multi_decile_5	Numeric	World Bank Poverty and Inequality Platform	$	$
+	6th decile	average_daily_multi_decile_6	Numeric	World Bank Poverty and Inequality Platform	$	$
+	7th decile	average_daily_multi_decile_7	Numeric	World Bank Poverty and Inequality Platform	$	$
+	8th decile	average_daily_multi_decile_8	Numeric	World Bank Poverty and Inequality Platform	$	$
+	9th decile	average_daily_multi_decile_9	Numeric	World Bank Poverty and Inequality Platform	$	$
+	richest decile	average_daily_multi_decile_10	Numeric	World Bank Poverty and Inequality Platform	$	$
+	poorest decile	average_annual_multi_decile_1	Numeric	World Bank Poverty and Inequality Platform	$	$
+	2nd decile	average_annual_multi_decile_2	Numeric	World Bank Poverty and Inequality Platform	$	$
+	3rd decile	average_annual_multi_decile_3	Numeric	World Bank Poverty and Inequality Platform	$	$
+	4th decile	average_annual_multi_decile_4	Numeric	World Bank Poverty and Inequality Platform	$	$
+	5th decile	average_annual_multi_decile_5	Numeric	World Bank Poverty and Inequality Platform	$	$
+	6th decile	average_annual_multi_decile_6	Numeric	World Bank Poverty and Inequality Platform	$	$
+	7th decile	average_annual_multi_decile_7	Numeric	World Bank Poverty and Inequality Platform	$	$
+	8th decile	average_annual_multi_decile_8	Numeric	World Bank Poverty and Inequality Platform	$	$
+	9th decile	average_annual_multi_decile_9	Numeric	World Bank Poverty and Inequality Platform	$	$
+	richest decile	average_annual_multi_decile_10	Numeric	World Bank Poverty and Inequality Platform	$	$
+	poorest decile	threshold_daily_multi_decile_1	Numeric	World Bank Poverty and Inequality Platform	$	$
+	2nd decile	threshold_daily_multi_decile_2	Numeric	World Bank Poverty and Inequality Platform	$	$
+	3rd decile	threshold_daily_multi_decile_3	Numeric	World Bank Poverty and Inequality Platform	$	$
+	4th decile	threshold_daily_multi_decile_4	Numeric	World Bank Poverty and Inequality Platform	$	$
+	5th decile (median)	threshold_daily_multi_decile_5	Numeric	World Bank Poverty and Inequality Platform	$	$
+	6th decile	threshold_daily_multi_decile_6	Numeric	World Bank Poverty and Inequality Platform	$	$
+	7th decile	threshold_daily_multi_decile_7	Numeric	World Bank Poverty and Inequality Platform	$	$
+	8th decile	threshold_daily_multi_decile_8	Numeric	World Bank Poverty and Inequality Platform	$	$
+	richest decile	threshold_daily_multi_decile_9	Numeric	World Bank Poverty and Inequality Platform	$	$
+	poorest decile	threshold_annual_multi_decile_1	Numeric	World Bank Poverty and Inequality Platform	$	$
+	2nd decile	threshold_annual_multi_decile_2	Numeric	World Bank Poverty and Inequality Platform	$	$
+	3rd decile	threshold_annual_multi_decile_3	Numeric	World Bank Poverty and Inequality Platform	$	$
+	4th decile	threshold_annual_multi_decile_4	Numeric	World Bank Poverty and Inequality Platform	$	$
+	5th decile (median)	threshold_annual_multi_decile_5	Numeric	World Bank Poverty and Inequality Platform	$	$
+	6th decile	threshold_annual_multi_decile_6	Numeric	World Bank Poverty and Inequality Platform	$	$
+	7th decile	threshold_annual_multi_decile_7	Numeric	World Bank Poverty and Inequality Platform	$	$
+	8th decile	threshold_annual_multi_decile_8	Numeric	World Bank Poverty and Inequality Platform	$	$
+	richest decile	threshold_annual_multi_decile_9	Numeric	World Bank Poverty and Inequality Platform	$	$
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/JoeHasell/Povcal_data_work/Povcal_PIP_explorer/data/inc_or_cons_no_extrap.csv	inc_or_cons_no_extrap
 columns	inc_or_cons_no_extrap
@@ -454,6 +502,54 @@ columns	inc_or_cons_no_extrap
 	Threshold annual income of 7th decile	threshold_annual_decile_7	Numeric	World Bank Poverty and Inequality Platform	$	$
 	Threshold annual income of 8th decile	threshold_annual_decile_8	Numeric	World Bank Poverty and Inequality Platform	$	$
 	Threshold annual income of richest decile	threshold_annual_decile_9	Numeric	World Bank Poverty and Inequality Platform	$	$
+	poorest decile	share_multi_decile_1	Numeric	World Bank Poverty and Inequality Platform	%	%
+	2nd decile	share_multi_decile_2	Numeric	World Bank Poverty and Inequality Platform	%	%
+	3rd decile	share_multi_decile_3	Numeric	World Bank Poverty and Inequality Platform	%	%
+	4th decile	share_multi_decile_4	Numeric	World Bank Poverty and Inequality Platform	%	%
+	5th decile	share_multi_decile_5	Numeric	World Bank Poverty and Inequality Platform	%	%
+	6th decile	share_multi_decile_6	Numeric	World Bank Poverty and Inequality Platform	%	%
+	7th decile	share_multi_decile_7	Numeric	World Bank Poverty and Inequality Platform	%	%
+	8th decile	share_multi_decile_8	Numeric	World Bank Poverty and Inequality Platform	%	%
+	9th decile	share_multi_decile_9	Numeric	World Bank Poverty and Inequality Platform	%	%
+	richest decile	share_multi_decile_10	Numeric	World Bank Poverty and Inequality Platform	%	%
+	poorest decile	average_daily_multi_decile_1	Numeric	World Bank Poverty and Inequality Platform	$	$
+	2nd decile	average_daily_multi_decile_2	Numeric	World Bank Poverty and Inequality Platform	$	$
+	3rd decile	average_daily_multi_decile_3	Numeric	World Bank Poverty and Inequality Platform	$	$
+	4th decile	average_daily_multi_decile_4	Numeric	World Bank Poverty and Inequality Platform	$	$
+	5th decile	average_daily_multi_decile_5	Numeric	World Bank Poverty and Inequality Platform	$	$
+	6th decile	average_daily_multi_decile_6	Numeric	World Bank Poverty and Inequality Platform	$	$
+	7th decile	average_daily_multi_decile_7	Numeric	World Bank Poverty and Inequality Platform	$	$
+	8th decile	average_daily_multi_decile_8	Numeric	World Bank Poverty and Inequality Platform	$	$
+	9th decile	average_daily_multi_decile_9	Numeric	World Bank Poverty and Inequality Platform	$	$
+	richest decile	average_daily_multi_decile_10	Numeric	World Bank Poverty and Inequality Platform	$	$
+	poorest decile	average_annual_multi_decile_1	Numeric	World Bank Poverty and Inequality Platform	$	$
+	2nd decile	average_annual_multi_decile_2	Numeric	World Bank Poverty and Inequality Platform	$	$
+	3rd decile	average_annual_multi_decile_3	Numeric	World Bank Poverty and Inequality Platform	$	$
+	4th decile	average_annual_multi_decile_4	Numeric	World Bank Poverty and Inequality Platform	$	$
+	5th decile	average_annual_multi_decile_5	Numeric	World Bank Poverty and Inequality Platform	$	$
+	6th decile	average_annual_multi_decile_6	Numeric	World Bank Poverty and Inequality Platform	$	$
+	7th decile	average_annual_multi_decile_7	Numeric	World Bank Poverty and Inequality Platform	$	$
+	8th decile	average_annual_multi_decile_8	Numeric	World Bank Poverty and Inequality Platform	$	$
+	9th decile	average_annual_multi_decile_9	Numeric	World Bank Poverty and Inequality Platform	$	$
+	richest decile	average_annual_multi_decile_10	Numeric	World Bank Poverty and Inequality Platform	$	$
+	poorest decile	threshold_daily_multi_decile_1	Numeric	World Bank Poverty and Inequality Platform	$	$
+	2nd decile	threshold_daily_multi_decile_2	Numeric	World Bank Poverty and Inequality Platform	$	$
+	3rd decile	threshold_daily_multi_decile_3	Numeric	World Bank Poverty and Inequality Platform	$	$
+	4th decile	threshold_daily_multi_decile_4	Numeric	World Bank Poverty and Inequality Platform	$	$
+	5th decile (median)	threshold_daily_multi_decile_5	Numeric	World Bank Poverty and Inequality Platform	$	$
+	6th decile	threshold_daily_multi_decile_6	Numeric	World Bank Poverty and Inequality Platform	$	$
+	7th decile	threshold_daily_multi_decile_7	Numeric	World Bank Poverty and Inequality Platform	$	$
+	8th decile	threshold_daily_multi_decile_8	Numeric	World Bank Poverty and Inequality Platform	$	$
+	richest decile	threshold_daily_multi_decile_9	Numeric	World Bank Poverty and Inequality Platform	$	$
+	poorest decile	threshold_annual_multi_decile_1	Numeric	World Bank Poverty and Inequality Platform	$	$
+	2nd decile	threshold_annual_multi_decile_2	Numeric	World Bank Poverty and Inequality Platform	$	$
+	3rd decile	threshold_annual_multi_decile_3	Numeric	World Bank Poverty and Inequality Platform	$	$
+	4th decile	threshold_annual_multi_decile_4	Numeric	World Bank Poverty and Inequality Platform	$	$
+	5th decile (median)	threshold_annual_multi_decile_5	Numeric	World Bank Poverty and Inequality Platform	$	$
+	6th decile	threshold_annual_multi_decile_6	Numeric	World Bank Poverty and Inequality Platform	$	$
+	7th decile	threshold_annual_multi_decile_7	Numeric	World Bank Poverty and Inequality Platform	$	$
+	8th decile	threshold_annual_multi_decile_8	Numeric	World Bank Poverty and Inequality Platform	$	$
+	richest decile	threshold_annual_multi_decile_9	Numeric	World Bank Poverty and Inequality Platform	$	$
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/JoeHasell/Povcal_data_work/Povcal_PIP_explorer/data/inc_extrap.csv	inc_extrap
 columns	inc_extrap
@@ -510,6 +606,54 @@ columns	inc_extrap
 	Threshold annual income of 7th decile	threshold_annual_decile_7	Numeric	World Bank Poverty and Inequality Platform	$	$
 	Threshold annual income of 8th decile	threshold_annual_decile_8	Numeric	World Bank Poverty and Inequality Platform	$	$
 	Threshold annual income of richest decile	threshold_annual_decile_9	Numeric	World Bank Poverty and Inequality Platform	$	$
+	poorest decile	share_multi_decile_1	Numeric	World Bank Poverty and Inequality Platform	%	%
+	2nd decile	share_multi_decile_2	Numeric	World Bank Poverty and Inequality Platform	%	%
+	3rd decile	share_multi_decile_3	Numeric	World Bank Poverty and Inequality Platform	%	%
+	4th decile	share_multi_decile_4	Numeric	World Bank Poverty and Inequality Platform	%	%
+	5th decile	share_multi_decile_5	Numeric	World Bank Poverty and Inequality Platform	%	%
+	6th decile	share_multi_decile_6	Numeric	World Bank Poverty and Inequality Platform	%	%
+	7th decile	share_multi_decile_7	Numeric	World Bank Poverty and Inequality Platform	%	%
+	8th decile	share_multi_decile_8	Numeric	World Bank Poverty and Inequality Platform	%	%
+	9th decile	share_multi_decile_9	Numeric	World Bank Poverty and Inequality Platform	%	%
+	richest decile	share_multi_decile_10	Numeric	World Bank Poverty and Inequality Platform	%	%
+	poorest decile	average_daily_multi_decile_1	Numeric	World Bank Poverty and Inequality Platform	$	$
+	2nd decile	average_daily_multi_decile_2	Numeric	World Bank Poverty and Inequality Platform	$	$
+	3rd decile	average_daily_multi_decile_3	Numeric	World Bank Poverty and Inequality Platform	$	$
+	4th decile	average_daily_multi_decile_4	Numeric	World Bank Poverty and Inequality Platform	$	$
+	5th decile	average_daily_multi_decile_5	Numeric	World Bank Poverty and Inequality Platform	$	$
+	6th decile	average_daily_multi_decile_6	Numeric	World Bank Poverty and Inequality Platform	$	$
+	7th decile	average_daily_multi_decile_7	Numeric	World Bank Poverty and Inequality Platform	$	$
+	8th decile	average_daily_multi_decile_8	Numeric	World Bank Poverty and Inequality Platform	$	$
+	9th decile	average_daily_multi_decile_9	Numeric	World Bank Poverty and Inequality Platform	$	$
+	richest decile	average_daily_multi_decile_10	Numeric	World Bank Poverty and Inequality Platform	$	$
+	poorest decile	average_annual_multi_decile_1	Numeric	World Bank Poverty and Inequality Platform	$	$
+	2nd decile	average_annual_multi_decile_2	Numeric	World Bank Poverty and Inequality Platform	$	$
+	3rd decile	average_annual_multi_decile_3	Numeric	World Bank Poverty and Inequality Platform	$	$
+	4th decile	average_annual_multi_decile_4	Numeric	World Bank Poverty and Inequality Platform	$	$
+	5th decile	average_annual_multi_decile_5	Numeric	World Bank Poverty and Inequality Platform	$	$
+	6th decile	average_annual_multi_decile_6	Numeric	World Bank Poverty and Inequality Platform	$	$
+	7th decile	average_annual_multi_decile_7	Numeric	World Bank Poverty and Inequality Platform	$	$
+	8th decile	average_annual_multi_decile_8	Numeric	World Bank Poverty and Inequality Platform	$	$
+	9th decile	average_annual_multi_decile_9	Numeric	World Bank Poverty and Inequality Platform	$	$
+	richest decile	average_annual_multi_decile_10	Numeric	World Bank Poverty and Inequality Platform	$	$
+	poorest decile	threshold_daily_multi_decile_1	Numeric	World Bank Poverty and Inequality Platform	$	$
+	2nd decile	threshold_daily_multi_decile_2	Numeric	World Bank Poverty and Inequality Platform	$	$
+	3rd decile	threshold_daily_multi_decile_3	Numeric	World Bank Poverty and Inequality Platform	$	$
+	4th decile	threshold_daily_multi_decile_4	Numeric	World Bank Poverty and Inequality Platform	$	$
+	5th decile (median)	threshold_daily_multi_decile_5	Numeric	World Bank Poverty and Inequality Platform	$	$
+	6th decile	threshold_daily_multi_decile_6	Numeric	World Bank Poverty and Inequality Platform	$	$
+	7th decile	threshold_daily_multi_decile_7	Numeric	World Bank Poverty and Inequality Platform	$	$
+	8th decile	threshold_daily_multi_decile_8	Numeric	World Bank Poverty and Inequality Platform	$	$
+	richest decile	threshold_daily_multi_decile_9	Numeric	World Bank Poverty and Inequality Platform	$	$
+	poorest decile	threshold_annual_multi_decile_1	Numeric	World Bank Poverty and Inequality Platform	$	$
+	2nd decile	threshold_annual_multi_decile_2	Numeric	World Bank Poverty and Inequality Platform	$	$
+	3rd decile	threshold_annual_multi_decile_3	Numeric	World Bank Poverty and Inequality Platform	$	$
+	4th decile	threshold_annual_multi_decile_4	Numeric	World Bank Poverty and Inequality Platform	$	$
+	5th decile (median)	threshold_annual_multi_decile_5	Numeric	World Bank Poverty and Inequality Platform	$	$
+	6th decile	threshold_annual_multi_decile_6	Numeric	World Bank Poverty and Inequality Platform	$	$
+	7th decile	threshold_annual_multi_decile_7	Numeric	World Bank Poverty and Inequality Platform	$	$
+	8th decile	threshold_annual_multi_decile_8	Numeric	World Bank Poverty and Inequality Platform	$	$
+	richest decile	threshold_annual_multi_decile_9	Numeric	World Bank Poverty and Inequality Platform	$	$
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/JoeHasell/Povcal_data_work/Povcal_PIP_explorer/data/inc_no_extrap.csv	inc_no_extrap
 columns	inc_no_extrap
@@ -566,6 +710,54 @@ columns	inc_no_extrap
 	Threshold annual income of 7th decile	threshold_annual_decile_7	Numeric	World Bank Poverty and Inequality Platform	$	$
 	Threshold annual income of 8th decile	threshold_annual_decile_8	Numeric	World Bank Poverty and Inequality Platform	$	$
 	Threshold annual income of richest decile	threshold_annual_decile_9	Numeric	World Bank Poverty and Inequality Platform	$	$
+	poorest decile	share_multi_decile_1	Numeric	World Bank Poverty and Inequality Platform	%	%
+	2nd decile	share_multi_decile_2	Numeric	World Bank Poverty and Inequality Platform	%	%
+	3rd decile	share_multi_decile_3	Numeric	World Bank Poverty and Inequality Platform	%	%
+	4th decile	share_multi_decile_4	Numeric	World Bank Poverty and Inequality Platform	%	%
+	5th decile	share_multi_decile_5	Numeric	World Bank Poverty and Inequality Platform	%	%
+	6th decile	share_multi_decile_6	Numeric	World Bank Poverty and Inequality Platform	%	%
+	7th decile	share_multi_decile_7	Numeric	World Bank Poverty and Inequality Platform	%	%
+	8th decile	share_multi_decile_8	Numeric	World Bank Poverty and Inequality Platform	%	%
+	9th decile	share_multi_decile_9	Numeric	World Bank Poverty and Inequality Platform	%	%
+	richest decile	share_multi_decile_10	Numeric	World Bank Poverty and Inequality Platform	%	%
+	poorest decile	average_daily_multi_decile_1	Numeric	World Bank Poverty and Inequality Platform	$	$
+	2nd decile	average_daily_multi_decile_2	Numeric	World Bank Poverty and Inequality Platform	$	$
+	3rd decile	average_daily_multi_decile_3	Numeric	World Bank Poverty and Inequality Platform	$	$
+	4th decile	average_daily_multi_decile_4	Numeric	World Bank Poverty and Inequality Platform	$	$
+	5th decile	average_daily_multi_decile_5	Numeric	World Bank Poverty and Inequality Platform	$	$
+	6th decile	average_daily_multi_decile_6	Numeric	World Bank Poverty and Inequality Platform	$	$
+	7th decile	average_daily_multi_decile_7	Numeric	World Bank Poverty and Inequality Platform	$	$
+	8th decile	average_daily_multi_decile_8	Numeric	World Bank Poverty and Inequality Platform	$	$
+	9th decile	average_daily_multi_decile_9	Numeric	World Bank Poverty and Inequality Platform	$	$
+	richest decile	average_daily_multi_decile_10	Numeric	World Bank Poverty and Inequality Platform	$	$
+	poorest decile	average_annual_multi_decile_1	Numeric	World Bank Poverty and Inequality Platform	$	$
+	2nd decile	average_annual_multi_decile_2	Numeric	World Bank Poverty and Inequality Platform	$	$
+	3rd decile	average_annual_multi_decile_3	Numeric	World Bank Poverty and Inequality Platform	$	$
+	4th decile	average_annual_multi_decile_4	Numeric	World Bank Poverty and Inequality Platform	$	$
+	5th decile	average_annual_multi_decile_5	Numeric	World Bank Poverty and Inequality Platform	$	$
+	6th decile	average_annual_multi_decile_6	Numeric	World Bank Poverty and Inequality Platform	$	$
+	7th decile	average_annual_multi_decile_7	Numeric	World Bank Poverty and Inequality Platform	$	$
+	8th decile	average_annual_multi_decile_8	Numeric	World Bank Poverty and Inequality Platform	$	$
+	9th decile	average_annual_multi_decile_9	Numeric	World Bank Poverty and Inequality Platform	$	$
+	richest decile	average_annual_multi_decile_10	Numeric	World Bank Poverty and Inequality Platform	$	$
+	poorest decile	threshold_daily_multi_decile_1	Numeric	World Bank Poverty and Inequality Platform	$	$
+	2nd decile	threshold_daily_multi_decile_2	Numeric	World Bank Poverty and Inequality Platform	$	$
+	3rd decile	threshold_daily_multi_decile_3	Numeric	World Bank Poverty and Inequality Platform	$	$
+	4th decile	threshold_daily_multi_decile_4	Numeric	World Bank Poverty and Inequality Platform	$	$
+	5th decile (median)	threshold_daily_multi_decile_5	Numeric	World Bank Poverty and Inequality Platform	$	$
+	6th decile	threshold_daily_multi_decile_6	Numeric	World Bank Poverty and Inequality Platform	$	$
+	7th decile	threshold_daily_multi_decile_7	Numeric	World Bank Poverty and Inequality Platform	$	$
+	8th decile	threshold_daily_multi_decile_8	Numeric	World Bank Poverty and Inequality Platform	$	$
+	richest decile	threshold_daily_multi_decile_9	Numeric	World Bank Poverty and Inequality Platform	$	$
+	poorest decile	threshold_annual_multi_decile_1	Numeric	World Bank Poverty and Inequality Platform	$	$
+	2nd decile	threshold_annual_multi_decile_2	Numeric	World Bank Poverty and Inequality Platform	$	$
+	3rd decile	threshold_annual_multi_decile_3	Numeric	World Bank Poverty and Inequality Platform	$	$
+	4th decile	threshold_annual_multi_decile_4	Numeric	World Bank Poverty and Inequality Platform	$	$
+	5th decile (median)	threshold_annual_multi_decile_5	Numeric	World Bank Poverty and Inequality Platform	$	$
+	6th decile	threshold_annual_multi_decile_6	Numeric	World Bank Poverty and Inequality Platform	$	$
+	7th decile	threshold_annual_multi_decile_7	Numeric	World Bank Poverty and Inequality Platform	$	$
+	8th decile	threshold_annual_multi_decile_8	Numeric	World Bank Poverty and Inequality Platform	$	$
+	richest decile	threshold_annual_multi_decile_9	Numeric	World Bank Poverty and Inequality Platform	$	$
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/JoeHasell/Povcal_data_work/Povcal_PIP_explorer/data/cons_extrap.csv	cons_extrap
 columns	cons_extrap
@@ -622,6 +814,54 @@ columns	cons_extrap
 	Threshold annual income of 7th decile	threshold_annual_decile_7	Numeric	World Bank Poverty and Inequality Platform	$	$
 	Threshold annual income of 8th decile	threshold_annual_decile_8	Numeric	World Bank Poverty and Inequality Platform	$	$
 	Threshold annual income of richest decile	threshold_annual_decile_9	Numeric	World Bank Poverty and Inequality Platform	$	$
+	poorest decile	share_multi_decile_1	Numeric	World Bank Poverty and Inequality Platform	%	%
+	2nd decile	share_multi_decile_2	Numeric	World Bank Poverty and Inequality Platform	%	%
+	3rd decile	share_multi_decile_3	Numeric	World Bank Poverty and Inequality Platform	%	%
+	4th decile	share_multi_decile_4	Numeric	World Bank Poverty and Inequality Platform	%	%
+	5th decile	share_multi_decile_5	Numeric	World Bank Poverty and Inequality Platform	%	%
+	6th decile	share_multi_decile_6	Numeric	World Bank Poverty and Inequality Platform	%	%
+	7th decile	share_multi_decile_7	Numeric	World Bank Poverty and Inequality Platform	%	%
+	8th decile	share_multi_decile_8	Numeric	World Bank Poverty and Inequality Platform	%	%
+	9th decile	share_multi_decile_9	Numeric	World Bank Poverty and Inequality Platform	%	%
+	richest decile	share_multi_decile_10	Numeric	World Bank Poverty and Inequality Platform	%	%
+	poorest decile	average_daily_multi_decile_1	Numeric	World Bank Poverty and Inequality Platform	$	$
+	2nd decile	average_daily_multi_decile_2	Numeric	World Bank Poverty and Inequality Platform	$	$
+	3rd decile	average_daily_multi_decile_3	Numeric	World Bank Poverty and Inequality Platform	$	$
+	4th decile	average_daily_multi_decile_4	Numeric	World Bank Poverty and Inequality Platform	$	$
+	5th decile	average_daily_multi_decile_5	Numeric	World Bank Poverty and Inequality Platform	$	$
+	6th decile	average_daily_multi_decile_6	Numeric	World Bank Poverty and Inequality Platform	$	$
+	7th decile	average_daily_multi_decile_7	Numeric	World Bank Poverty and Inequality Platform	$	$
+	8th decile	average_daily_multi_decile_8	Numeric	World Bank Poverty and Inequality Platform	$	$
+	9th decile	average_daily_multi_decile_9	Numeric	World Bank Poverty and Inequality Platform	$	$
+	richest decile	average_daily_multi_decile_10	Numeric	World Bank Poverty and Inequality Platform	$	$
+	poorest decile	average_annual_multi_decile_1	Numeric	World Bank Poverty and Inequality Platform	$	$
+	2nd decile	average_annual_multi_decile_2	Numeric	World Bank Poverty and Inequality Platform	$	$
+	3rd decile	average_annual_multi_decile_3	Numeric	World Bank Poverty and Inequality Platform	$	$
+	4th decile	average_annual_multi_decile_4	Numeric	World Bank Poverty and Inequality Platform	$	$
+	5th decile	average_annual_multi_decile_5	Numeric	World Bank Poverty and Inequality Platform	$	$
+	6th decile	average_annual_multi_decile_6	Numeric	World Bank Poverty and Inequality Platform	$	$
+	7th decile	average_annual_multi_decile_7	Numeric	World Bank Poverty and Inequality Platform	$	$
+	8th decile	average_annual_multi_decile_8	Numeric	World Bank Poverty and Inequality Platform	$	$
+	9th decile	average_annual_multi_decile_9	Numeric	World Bank Poverty and Inequality Platform	$	$
+	richest decile	average_annual_multi_decile_10	Numeric	World Bank Poverty and Inequality Platform	$	$
+	poorest decile	threshold_daily_multi_decile_1	Numeric	World Bank Poverty and Inequality Platform	$	$
+	2nd decile	threshold_daily_multi_decile_2	Numeric	World Bank Poverty and Inequality Platform	$	$
+	3rd decile	threshold_daily_multi_decile_3	Numeric	World Bank Poverty and Inequality Platform	$	$
+	4th decile	threshold_daily_multi_decile_4	Numeric	World Bank Poverty and Inequality Platform	$	$
+	5th decile (median)	threshold_daily_multi_decile_5	Numeric	World Bank Poverty and Inequality Platform	$	$
+	6th decile	threshold_daily_multi_decile_6	Numeric	World Bank Poverty and Inequality Platform	$	$
+	7th decile	threshold_daily_multi_decile_7	Numeric	World Bank Poverty and Inequality Platform	$	$
+	8th decile	threshold_daily_multi_decile_8	Numeric	World Bank Poverty and Inequality Platform	$	$
+	richest decile	threshold_daily_multi_decile_9	Numeric	World Bank Poverty and Inequality Platform	$	$
+	poorest decile	threshold_annual_multi_decile_1	Numeric	World Bank Poverty and Inequality Platform	$	$
+	2nd decile	threshold_annual_multi_decile_2	Numeric	World Bank Poverty and Inequality Platform	$	$
+	3rd decile	threshold_annual_multi_decile_3	Numeric	World Bank Poverty and Inequality Platform	$	$
+	4th decile	threshold_annual_multi_decile_4	Numeric	World Bank Poverty and Inequality Platform	$	$
+	5th decile (median)	threshold_annual_multi_decile_5	Numeric	World Bank Poverty and Inequality Platform	$	$
+	6th decile	threshold_annual_multi_decile_6	Numeric	World Bank Poverty and Inequality Platform	$	$
+	7th decile	threshold_annual_multi_decile_7	Numeric	World Bank Poverty and Inequality Platform	$	$
+	8th decile	threshold_annual_multi_decile_8	Numeric	World Bank Poverty and Inequality Platform	$	$
+	richest decile	threshold_annual_multi_decile_9	Numeric	World Bank Poverty and Inequality Platform	$	$
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/JoeHasell/Povcal_data_work/Povcal_PIP_explorer/data/cons_no_extrap.csv	cons_no_extrap
 columns	cons_no_extrap
@@ -678,3 +918,51 @@ columns	cons_no_extrap
 	Threshold annual income of 7th decile	threshold_annual_decile_7	Numeric	World Bank Poverty and Inequality Platform	$	$
 	Threshold annual income of 8th decile	threshold_annual_decile_8	Numeric	World Bank Poverty and Inequality Platform	$	$
 	Threshold annual income of richest decile	threshold_annual_decile_9	Numeric	World Bank Poverty and Inequality Platform	$	$
+	poorest decile	share_multi_decile_1	Numeric	World Bank Poverty and Inequality Platform	%	%
+	2nd decile	share_multi_decile_2	Numeric	World Bank Poverty and Inequality Platform	%	%
+	3rd decile	share_multi_decile_3	Numeric	World Bank Poverty and Inequality Platform	%	%
+	4th decile	share_multi_decile_4	Numeric	World Bank Poverty and Inequality Platform	%	%
+	5th decile	share_multi_decile_5	Numeric	World Bank Poverty and Inequality Platform	%	%
+	6th decile	share_multi_decile_6	Numeric	World Bank Poverty and Inequality Platform	%	%
+	7th decile	share_multi_decile_7	Numeric	World Bank Poverty and Inequality Platform	%	%
+	8th decile	share_multi_decile_8	Numeric	World Bank Poverty and Inequality Platform	%	%
+	9th decile	share_multi_decile_9	Numeric	World Bank Poverty and Inequality Platform	%	%
+	richest decile	share_multi_decile_10	Numeric	World Bank Poverty and Inequality Platform	%	%
+	poorest decile	average_daily_multi_decile_1	Numeric	World Bank Poverty and Inequality Platform	$	$
+	2nd decile	average_daily_multi_decile_2	Numeric	World Bank Poverty and Inequality Platform	$	$
+	3rd decile	average_daily_multi_decile_3	Numeric	World Bank Poverty and Inequality Platform	$	$
+	4th decile	average_daily_multi_decile_4	Numeric	World Bank Poverty and Inequality Platform	$	$
+	5th decile	average_daily_multi_decile_5	Numeric	World Bank Poverty and Inequality Platform	$	$
+	6th decile	average_daily_multi_decile_6	Numeric	World Bank Poverty and Inequality Platform	$	$
+	7th decile	average_daily_multi_decile_7	Numeric	World Bank Poverty and Inequality Platform	$	$
+	8th decile	average_daily_multi_decile_8	Numeric	World Bank Poverty and Inequality Platform	$	$
+	9th decile	average_daily_multi_decile_9	Numeric	World Bank Poverty and Inequality Platform	$	$
+	richest decile	average_daily_multi_decile_10	Numeric	World Bank Poverty and Inequality Platform	$	$
+	poorest decile	average_annual_multi_decile_1	Numeric	World Bank Poverty and Inequality Platform	$	$
+	2nd decile	average_annual_multi_decile_2	Numeric	World Bank Poverty and Inequality Platform	$	$
+	3rd decile	average_annual_multi_decile_3	Numeric	World Bank Poverty and Inequality Platform	$	$
+	4th decile	average_annual_multi_decile_4	Numeric	World Bank Poverty and Inequality Platform	$	$
+	5th decile	average_annual_multi_decile_5	Numeric	World Bank Poverty and Inequality Platform	$	$
+	6th decile	average_annual_multi_decile_6	Numeric	World Bank Poverty and Inequality Platform	$	$
+	7th decile	average_annual_multi_decile_7	Numeric	World Bank Poverty and Inequality Platform	$	$
+	8th decile	average_annual_multi_decile_8	Numeric	World Bank Poverty and Inequality Platform	$	$
+	9th decile	average_annual_multi_decile_9	Numeric	World Bank Poverty and Inequality Platform	$	$
+	richest decile	average_annual_multi_decile_10	Numeric	World Bank Poverty and Inequality Platform	$	$
+	poorest decile	threshold_daily_multi_decile_1	Numeric	World Bank Poverty and Inequality Platform	$	$
+	2nd decile	threshold_daily_multi_decile_2	Numeric	World Bank Poverty and Inequality Platform	$	$
+	3rd decile	threshold_daily_multi_decile_3	Numeric	World Bank Poverty and Inequality Platform	$	$
+	4th decile	threshold_daily_multi_decile_4	Numeric	World Bank Poverty and Inequality Platform	$	$
+	5th decile (median)	threshold_daily_multi_decile_5	Numeric	World Bank Poverty and Inequality Platform	$	$
+	6th decile	threshold_daily_multi_decile_6	Numeric	World Bank Poverty and Inequality Platform	$	$
+	7th decile	threshold_daily_multi_decile_7	Numeric	World Bank Poverty and Inequality Platform	$	$
+	8th decile	threshold_daily_multi_decile_8	Numeric	World Bank Poverty and Inequality Platform	$	$
+	richest decile	threshold_daily_multi_decile_9	Numeric	World Bank Poverty and Inequality Platform	$	$
+	poorest decile	threshold_annual_multi_decile_1	Numeric	World Bank Poverty and Inequality Platform	$	$
+	2nd decile	threshold_annual_multi_decile_2	Numeric	World Bank Poverty and Inequality Platform	$	$
+	3rd decile	threshold_annual_multi_decile_3	Numeric	World Bank Poverty and Inequality Platform	$	$
+	4th decile	threshold_annual_multi_decile_4	Numeric	World Bank Poverty and Inequality Platform	$	$
+	5th decile (median)	threshold_annual_multi_decile_5	Numeric	World Bank Poverty and Inequality Platform	$	$
+	6th decile	threshold_annual_multi_decile_6	Numeric	World Bank Poverty and Inequality Platform	$	$
+	7th decile	threshold_annual_multi_decile_7	Numeric	World Bank Poverty and Inequality Platform	$	$
+	8th decile	threshold_annual_multi_decile_8	Numeric	World Bank Poverty and Inequality Platform	$	$
+	richest decile	threshold_annual_multi_decile_9	Numeric	World Bank Poverty and Inequality Platform	$	$
