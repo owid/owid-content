@@ -114,30 +114,30 @@ graphers
 	headcount_20_00	Poverty: Number of people living on less than $20 a day	Number of people in poverty	$20 a day	Consumption only	false	This data is adjusted for differences in the cost of living between countries and for inflation.	This data is expressed in international-$ at 2011 prices.	cons_no_extrap	0
 	headcount_30_00	Poverty: Number of people living on less than $30 a day	Number of people in poverty	$30 a day	Consumption only	false	This data is adjusted for differences in the cost of living between countries and for inflation.	This data is expressed in international-$ at 2011 prices.	cons_no_extrap	0
 	headcount_40_00	Poverty: Number of people living on less than $40 a day	Number of people in poverty	$40 a day	Consumption only	false	This data is adjusted for differences in the cost of living between countries and for inflation.	This data is expressed in international-$ at 2011 prices.	cons_no_extrap	0
-	multi_headcount_ratio_1_00 multi_headcount_ratio_1_90 multi_headcount_ratio_3_20 multi_headcount_ratio_5_50 multi_headcount_ratio_10_00 multi_headcount_ratio_15_00 multi_headcount_ratio_20_00 multi_headcount_ratio_30_00 multi_headcount_ratio_40_00	Poverty: Share of population living below a range of poverty lines	Share in poverty	All absolute poverty lines – line chart	Either income or consumption	true	This data is adjusted for differences in the cost of living between countries and for inflation. It includes extrapolated estimates for years without survey data.	This data is expressed in international-$ at 2011 prices.	inc_or_cons_extrap	0	entity	entity	shared	LineChart
-	headcount_ratio_stacked_above_40_00 headcount_ratio_stacked_below_40_00 headcount_ratio_stacked_below_30_00 headcount_ratio_stacked_below_20_00  headcount_ratio_stacked_below_15_00 headcount_ratio_stacked_below_10_00 headcount_ratio_stacked_below_5_50 headcount_ratio_stacked_below_3_20 headcount_ratio_stacked_below_1_90 headcount_ratio_stacked_below_1_00 	Poverty: Share of population living below a range of poverty lines	Share in poverty	All absolute poverty lines – stacked area chart	Either income or consumption	true	This data is adjusted for differences in the cost of living between countries and for inflation. It includes extrapolated estimates for years without survey data.	This data is expressed in international-$ at 2011 prices.	inc_or_cons_extrap	0	entity	entity	shared	StackedArea
-	multi_headcount_ratio_1_00 multi_headcount_ratio_1_90 multi_headcount_ratio_3_20 multi_headcount_ratio_5_50 multi_headcount_ratio_10_00 multi_headcount_ratio_15_00 multi_headcount_ratio_20_00 multi_headcount_ratio_30_00 multi_headcount_ratio_40_00	Poverty: Share of population living below a range of poverty lines	Share in poverty	All absolute poverty lines – line chart	Incomes only	true	This data is adjusted for differences in the cost of living between countries and for inflation. It includes extrapolated estimates for years without survey data.	This data is expressed in international-$ at 2011 prices.	inc_extrap	0	entity	entity	shared	LineChart
-	headcount_ratio_stacked_above_40_00 headcount_ratio_stacked_below_40_00 headcount_ratio_stacked_below_30_00 headcount_ratio_stacked_below_20_00  headcount_ratio_stacked_below_15_00 headcount_ratio_stacked_below_10_00 headcount_ratio_stacked_below_5_50 headcount_ratio_stacked_below_3_20 headcount_ratio_stacked_below_1_90 headcount_ratio_stacked_below_1_00 	Poverty: Share of population living below a range of poverty lines	Share in poverty	All absolute poverty lines – stacked area chart	Incomes only	true	This data is adjusted for differences in the cost of living between countries and for inflation. It includes extrapolated estimates for years without survey data.	This data is expressed in international-$ at 2011 prices.	inc_extrap	0	entity	entity	shared	StackedArea
-	multi_headcount_ratio_1_00 multi_headcount_ratio_1_90 multi_headcount_ratio_3_20 multi_headcount_ratio_5_50 multi_headcount_ratio_10_00 multi_headcount_ratio_15_00 multi_headcount_ratio_20_00 multi_headcount_ratio_30_00 multi_headcount_ratio_40_00	Poverty: Share of population living below a range of poverty lines	Share in poverty	All absolute poverty lines – line chart	Consumption only	true	This data is adjusted for differences in the cost of living between countries and for inflation. It includes extrapolated estimates for years without survey data.	This data is expressed in international-$ at 2011 prices.	cons_extrap	0	entity	entity	shared	LineChart
-	headcount_ratio_stacked_above_40_00 headcount_ratio_stacked_below_40_00 headcount_ratio_stacked_below_30_00 headcount_ratio_stacked_below_20_00  headcount_ratio_stacked_below_15_00 headcount_ratio_stacked_below_10_00 headcount_ratio_stacked_below_5_50 headcount_ratio_stacked_below_3_20 headcount_ratio_stacked_below_1_90 headcount_ratio_stacked_below_1_00 	Poverty: Share of population living below a range of poverty lines	Share in poverty	All absolute poverty lines – stacked area chart	Consumption only	true	This data is adjusted for differences in the cost of living between countries and for inflation. It includes extrapolated estimates for years without survey data.	This data is expressed in international-$ at 2011 prices.	cons_extrap	0	entity	entity	shared	StackedArea
-	multi_headcount_ratio_1_00 multi_headcount_ratio_1_90 multi_headcount_ratio_3_20 multi_headcount_ratio_5_50 multi_headcount_ratio_10_00 multi_headcount_ratio_15_00 multi_headcount_ratio_20_00 multi_headcount_ratio_30_00 multi_headcount_ratio_40_00	Poverty: Share of population living below a range of poverty lines	Share in poverty	All absolute poverty lines – line chart	Either income or consumption	false	This data is adjusted for differences in the cost of living between countries and for inflation.	This data is expressed in international-$ at 2011 prices.	inc_or_cons_no_extrap	0	entity	entity	shared	LineChart
-	headcount_ratio_stacked_above_40_00 headcount_ratio_stacked_below_40_00 headcount_ratio_stacked_below_30_00 headcount_ratio_stacked_below_20_00  headcount_ratio_stacked_below_15_00 headcount_ratio_stacked_below_10_00 headcount_ratio_stacked_below_5_50 headcount_ratio_stacked_below_3_20 headcount_ratio_stacked_below_1_90 headcount_ratio_stacked_below_1_00 	Poverty: Share of population living below a range of poverty lines	Share in poverty	All absolute poverty lines – stacked area chart	Either income or consumption	false	This data is adjusted for differences in the cost of living between countries and for inflation.	This data is expressed in international-$ at 2011 prices.	inc_or_cons_no_extrap	0	entity	entity	shared	StackedArea
-	multi_headcount_ratio_1_00 multi_headcount_ratio_1_90 multi_headcount_ratio_3_20 multi_headcount_ratio_5_50 multi_headcount_ratio_10_00 multi_headcount_ratio_15_00 multi_headcount_ratio_20_00 multi_headcount_ratio_30_00 multi_headcount_ratio_40_00	Poverty: Share of population living below a range of poverty lines	Share in poverty	All absolute poverty lines – line chart	Incomes only	false	This data is adjusted for differences in the cost of living between countries and for inflation.	This data is expressed in international-$ at 2011 prices.	inc_no_extrap	0	entity	entity	shared	LineChart
-	headcount_ratio_stacked_above_40_00 headcount_ratio_stacked_below_40_00 headcount_ratio_stacked_below_30_00 headcount_ratio_stacked_below_20_00  headcount_ratio_stacked_below_15_00 headcount_ratio_stacked_below_10_00 headcount_ratio_stacked_below_5_50 headcount_ratio_stacked_below_3_20 headcount_ratio_stacked_below_1_90 headcount_ratio_stacked_below_1_00 	Poverty: Share of population living below a range of poverty lines	Share in poverty	All absolute poverty lines – stacked area chart	Incomes only	false	This data is adjusted for differences in the cost of living between countries and for inflation.	This data is expressed in international-$ at 2011 prices.	inc_no_extrap	0	entity	entity	shared	StackedArea
-	multi_headcount_ratio_1_00 multi_headcount_ratio_1_90 multi_headcount_ratio_3_20 multi_headcount_ratio_5_50 multi_headcount_ratio_10_00 multi_headcount_ratio_15_00 multi_headcount_ratio_20_00 multi_headcount_ratio_30_00 multi_headcount_ratio_40_00	Poverty: Share of population living below a range of poverty lines	Share in poverty	All absolute poverty lines – line chart	Consumption only	false	This data is adjusted for differences in the cost of living between countries and for inflation.	This data is expressed in international-$ at 2011 prices.	cons_no_extrap	0	entity	entity	shared	LineChart
-	headcount_ratio_stacked_above_40_00 headcount_ratio_stacked_below_40_00 headcount_ratio_stacked_below_30_00 headcount_ratio_stacked_below_20_00  headcount_ratio_stacked_below_15_00 headcount_ratio_stacked_below_10_00 headcount_ratio_stacked_below_5_50 headcount_ratio_stacked_below_3_20 headcount_ratio_stacked_below_1_90 headcount_ratio_stacked_below_1_00 	Poverty: Share of population living below a range of poverty lines	Share in poverty	All absolute poverty lines – stacked area chart	Consumption only	false	This data is adjusted for differences in the cost of living between countries and for inflation.	This data is expressed in international-$ at 2011 prices.	cons_no_extrap	0	entity	entity	shared	StackedArea
-	multi_headcount_1_00 multi_headcount_1_90 multi_headcount_3_20 multi_headcount_5_50 multi_headcount_10_00 multi_headcount_15_00 multi_headcount_20_00 multi_headcount_30_00 multi_headcount_40_00	Poverty: Number of people living below a range of poverty lines	Number of people in poverty	All absolute poverty lines – line chart	Either income or consumption	true	This data is adjusted for differences in the cost of living between countries and for inflation. It includes extrapolated estimates for years without survey data.	This data is expressed in international-$ at 2011 prices.	inc_or_cons_extrap	0	entity	entity	shared	LineChart
-	headcount_stacked_above_40_00 headcount_stacked_below_40_00 headcount_stacked_below_30_00 headcount_stacked_below_20_00  headcount_stacked_below_15_00 headcount_stacked_below_10_00 headcount_stacked_below_5_50 headcount_stacked_below_3_20 headcount_stacked_below_1_90 headcount_stacked_below_1_00 	Poverty: Number of people living below a range of poverty lines	Number of people in poverty	All absolute poverty lines – stacked area chart	Either income or consumption	true	This data is adjusted for differences in the cost of living between countries and for inflation. It includes extrapolated estimates for years without survey data.	This data is expressed in international-$ at 2011 prices.	inc_or_cons_extrap	0	entity	entity	shared	StackedArea
-	multi_headcount_1_00 multi_headcount_1_90 multi_headcount_3_20 multi_headcount_5_50 multi_headcount_10_00 multi_headcount_15_00 multi_headcount_20_00 multi_headcount_30_00 multi_headcount_40_00	Poverty: Number of people living below a range of poverty lines	Number of people in poverty	All absolute poverty lines – line chart	Incomes only	true	This data is adjusted for differences in the cost of living between countries and for inflation. It includes extrapolated estimates for years without survey data.	This data is expressed in international-$ at 2011 prices.	inc_extrap	0	entity	entity	shared	LineChart
-	headcount_stacked_above_40_00 headcount_stacked_below_40_00 headcount_stacked_below_30_00 headcount_stacked_below_20_00  headcount_stacked_below_15_00 headcount_stacked_below_10_00 headcount_stacked_below_5_50 headcount_stacked_below_3_20 headcount_stacked_below_1_90 headcount_stacked_below_1_00 	Poverty: Number of people living below a range of poverty lines	Number of people in poverty	All absolute poverty lines – stacked area chart	Incomes only	true	This data is adjusted for differences in the cost of living between countries and for inflation. It includes extrapolated estimates for years without survey data.	This data is expressed in international-$ at 2011 prices.	inc_extrap	0	entity	entity	shared	StackedArea
-	multi_headcount_1_00 multi_headcount_1_90 multi_headcount_3_20 multi_headcount_5_50 multi_headcount_10_00 multi_headcount_15_00 multi_headcount_20_00 multi_headcount_30_00 multi_headcount_40_00	Poverty: Number of people living below a range of poverty lines	Number of people in poverty	All absolute poverty lines – line chart	Consumption only	true	This data is adjusted for differences in the cost of living between countries and for inflation. It includes extrapolated estimates for years without survey data.	This data is expressed in international-$ at 2011 prices.	cons_extrap	0	entity	entity	shared	LineChart
-	headcount_stacked_above_40_00 headcount_stacked_below_40_00 headcount_stacked_below_30_00 headcount_stacked_below_20_00  headcount_stacked_below_15_00 headcount_stacked_below_10_00 headcount_stacked_below_5_50 headcount_stacked_below_3_20 headcount_stacked_below_1_90 headcount_stacked_below_1_00 	Poverty: Number of people living below a range of poverty lines	Number of people in poverty	All absolute poverty lines – stacked area chart	Consumption only	true	This data is adjusted for differences in the cost of living between countries and for inflation. It includes extrapolated estimates for years without survey data.	This data is expressed in international-$ at 2011 prices.	cons_extrap	0	entity	entity	shared	StackedArea
-	multi_headcount_1_00 multi_headcount_1_90 multi_headcount_3_20 multi_headcount_5_50 multi_headcount_10_00 multi_headcount_15_00 multi_headcount_20_00 multi_headcount_30_00 multi_headcount_40_00	Poverty: Number of people living below a range of poverty lines	Number of people in poverty	All absolute poverty lines – line chart	Either income or consumption	false	This data is adjusted for differences in the cost of living between countries and for inflation.	This data is expressed in international-$ at 2011 prices.	inc_or_cons_no_extrap	0	entity	entity	shared	LineChart
-	headcount_stacked_above_40_00 headcount_stacked_below_40_00 headcount_stacked_below_30_00 headcount_stacked_below_20_00  headcount_stacked_below_15_00 headcount_stacked_below_10_00 headcount_stacked_below_5_50 headcount_stacked_below_3_20 headcount_stacked_below_1_90 headcount_stacked_below_1_00 	Poverty: Number of people living below a range of poverty lines	Number of people in poverty	All absolute poverty lines – stacked area chart	Either income or consumption	false	This data is adjusted for differences in the cost of living between countries and for inflation.	This data is expressed in international-$ at 2011 prices.	inc_or_cons_no_extrap	0	entity	entity	shared	StackedArea
-	multi_headcount_1_00 multi_headcount_1_90 multi_headcount_3_20 multi_headcount_5_50 multi_headcount_10_00 multi_headcount_15_00 multi_headcount_20_00 multi_headcount_30_00 multi_headcount_40_00	Poverty: Number of people living below a range of poverty lines	Number of people in poverty	All absolute poverty lines – line chart	Incomes only	false	This data is adjusted for differences in the cost of living between countries and for inflation.	This data is expressed in international-$ at 2011 prices.	inc_no_extrap	0	entity	entity	shared	LineChart
-	headcount_stacked_above_40_00 headcount_stacked_below_40_00 headcount_stacked_below_30_00 headcount_stacked_below_20_00  headcount_stacked_below_15_00 headcount_stacked_below_10_00 headcount_stacked_below_5_50 headcount_stacked_below_3_20 headcount_stacked_below_1_90 headcount_stacked_below_1_00 	Poverty: Number of people living below a range of poverty lines	Number of people in poverty	All absolute poverty lines – stacked area chart	Incomes only	false	This data is adjusted for differences in the cost of living between countries and for inflation.	This data is expressed in international-$ at 2011 prices.	inc_no_extrap	0	entity	entity	shared	StackedArea
-	multi_headcount_1_00 multi_headcount_1_90 multi_headcount_3_20 multi_headcount_5_50 multi_headcount_10_00 multi_headcount_15_00 multi_headcount_20_00 multi_headcount_30_00 multi_headcount_40_00	Poverty: Number of people living below a range of poverty lines	Number of people in poverty	All absolute poverty lines – line chart	Consumption only	false	This data is adjusted for differences in the cost of living between countries and for inflation.	This data is expressed in international-$ at 2011 prices.	cons_no_extrap	0	entity	entity	shared	LineChart
-	headcount_stacked_above_40_00 headcount_stacked_below_40_00 headcount_stacked_below_30_00 headcount_stacked_below_20_00  headcount_stacked_below_15_00 headcount_stacked_below_10_00 headcount_stacked_below_5_50 headcount_stacked_below_3_20 headcount_stacked_below_1_90 headcount_stacked_below_1_00 	Poverty: Number of people living below a range of poverty lines	Number of people in poverty	All absolute poverty lines – stacked area chart	Consumption only	false	This data is adjusted for differences in the cost of living between countries and for inflation.	This data is expressed in international-$ at 2011 prices.	cons_no_extrap	0	entity	entity	shared	StackedArea
+	multi_headcount_ratio_1_00 multi_headcount_ratio_1_90 multi_headcount_ratio_3_20 multi_headcount_ratio_5_50 multi_headcount_ratio_10_00 multi_headcount_ratio_30_00	Poverty: Share of population living below a range of poverty lines	Share in poverty	Multiple thresholds – line chart	Either income or consumption	true	This data is adjusted for differences in the cost of living between countries and for inflation. It includes extrapolated estimates for years without survey data.	This data is expressed in international-$ at 2011 prices.	inc_or_cons_extrap	0	entity	entity	shared	LineChart
+	headcount_ratio_stacked_above_30_00 headcount_ratio_stacked_below_30_00 headcount_ratio_stacked_below_10_00 headcount_ratio_stacked_below_5_50 headcount_ratio_stacked_below_3_20 headcount_ratio_stacked_below_1_90 headcount_ratio_stacked_below_1_00	Poverty: Share of population living below a range of poverty lines	Share in poverty	Multiple thresholds – stacked area chart	Either income or consumption	true	This data is adjusted for differences in the cost of living between countries and for inflation. It includes extrapolated estimates for years without survey data.	This data is expressed in international-$ at 2011 prices.	inc_or_cons_extrap	0	entity	entity	shared	StackedArea
+	multi_headcount_ratio_1_00 multi_headcount_ratio_1_90 multi_headcount_ratio_3_20 multi_headcount_ratio_5_50 multi_headcount_ratio_10_00 multi_headcount_ratio_30_00	Poverty: Share of population living below a range of poverty lines	Share in poverty	Multiple thresholds – line chart	Incomes only	true	This data is adjusted for differences in the cost of living between countries and for inflation. It includes extrapolated estimates for years without survey data.	This data is expressed in international-$ at 2011 prices.	inc_extrap	0	entity	entity	shared	LineChart
+	headcount_ratio_stacked_above_30_00 headcount_ratio_stacked_below_30_00 headcount_ratio_stacked_below_10_00 headcount_ratio_stacked_below_5_50 headcount_ratio_stacked_below_3_20 headcount_ratio_stacked_below_1_90 headcount_ratio_stacked_below_1_00	Poverty: Share of population living below a range of poverty lines	Share in poverty	Multiple thresholds – stacked area chart	Incomes only	true	This data is adjusted for differences in the cost of living between countries and for inflation. It includes extrapolated estimates for years without survey data.	This data is expressed in international-$ at 2011 prices.	inc_extrap	0	entity	entity	shared	StackedArea
+	multi_headcount_ratio_1_00 multi_headcount_ratio_1_90 multi_headcount_ratio_3_20 multi_headcount_ratio_5_50 multi_headcount_ratio_10_00 multi_headcount_ratio_30_00	Poverty: Share of population living below a range of poverty lines	Share in poverty	Multiple thresholds – line chart	Consumption only	true	This data is adjusted for differences in the cost of living between countries and for inflation. It includes extrapolated estimates for years without survey data.	This data is expressed in international-$ at 2011 prices.	cons_extrap	0	entity	entity	shared	LineChart
+	headcount_ratio_stacked_above_30_00 headcount_ratio_stacked_below_30_00 headcount_ratio_stacked_below_10_00 headcount_ratio_stacked_below_5_50 headcount_ratio_stacked_below_3_20 headcount_ratio_stacked_below_1_90 headcount_ratio_stacked_below_1_00	Poverty: Share of population living below a range of poverty lines	Share in poverty	Multiple thresholds – stacked area chart	Consumption only	true	This data is adjusted for differences in the cost of living between countries and for inflation. It includes extrapolated estimates for years without survey data.	This data is expressed in international-$ at 2011 prices.	cons_extrap	0	entity	entity	shared	StackedArea
+	multi_headcount_ratio_1_00 multi_headcount_ratio_1_90 multi_headcount_ratio_3_20 multi_headcount_ratio_5_50 multi_headcount_ratio_10_00 multi_headcount_ratio_30_00	Poverty: Share of population living below a range of poverty lines	Share in poverty	Multiple thresholds – line chart	Either income or consumption	false	This data is adjusted for differences in the cost of living between countries and for inflation.	This data is expressed in international-$ at 2011 prices.	inc_or_cons_no_extrap	0	entity	entity	shared	LineChart
+	headcount_ratio_stacked_above_30_00 headcount_ratio_stacked_below_30_00 headcount_ratio_stacked_below_10_00 headcount_ratio_stacked_below_5_50 headcount_ratio_stacked_below_3_20 headcount_ratio_stacked_below_1_90 headcount_ratio_stacked_below_1_00	Poverty: Share of population living below a range of poverty lines	Share in poverty	Multiple thresholds – stacked area chart	Either income or consumption	false	This data is adjusted for differences in the cost of living between countries and for inflation.	This data is expressed in international-$ at 2011 prices.	inc_or_cons_no_extrap	0	entity	entity	shared	StackedArea
+	multi_headcount_ratio_1_00 multi_headcount_ratio_1_90 multi_headcount_ratio_3_20 multi_headcount_ratio_5_50 multi_headcount_ratio_10_00 multi_headcount_ratio_30_00	Poverty: Share of population living below a range of poverty lines	Share in poverty	Multiple thresholds – line chart	Incomes only	false	This data is adjusted for differences in the cost of living between countries and for inflation.	This data is expressed in international-$ at 2011 prices.	inc_no_extrap	0	entity	entity	shared	LineChart
+	headcount_ratio_stacked_above_30_00 headcount_ratio_stacked_below_30_00 headcount_ratio_stacked_below_10_00 headcount_ratio_stacked_below_5_50 headcount_ratio_stacked_below_3_20 headcount_ratio_stacked_below_1_90 headcount_ratio_stacked_below_1_00	Poverty: Share of population living below a range of poverty lines	Share in poverty	Multiple thresholds – stacked area chart	Incomes only	false	This data is adjusted for differences in the cost of living between countries and for inflation.	This data is expressed in international-$ at 2011 prices.	inc_no_extrap	0	entity	entity	shared	StackedArea
+	multi_headcount_ratio_1_00 multi_headcount_ratio_1_90 multi_headcount_ratio_3_20 multi_headcount_ratio_5_50 multi_headcount_ratio_10_00 multi_headcount_ratio_30_00	Poverty: Share of population living below a range of poverty lines	Share in poverty	Multiple thresholds – line chart	Consumption only	false	This data is adjusted for differences in the cost of living between countries and for inflation.	This data is expressed in international-$ at 2011 prices.	cons_no_extrap	0	entity	entity	shared	LineChart
+	headcount_ratio_stacked_above_30_00 headcount_ratio_stacked_below_30_00 headcount_ratio_stacked_below_10_00 headcount_ratio_stacked_below_5_50 headcount_ratio_stacked_below_3_20 headcount_ratio_stacked_below_1_90 headcount_ratio_stacked_below_1_00	Poverty: Share of population living below a range of poverty lines	Share in poverty	Multiple thresholds – stacked area chart	Consumption only	false	This data is adjusted for differences in the cost of living between countries and for inflation.	This data is expressed in international-$ at 2011 prices.	cons_no_extrap	0	entity	entity	shared	StackedArea
+	multi_headcount_1_00 multi_headcount_1_90 multi_headcount_3_20 multi_headcount_5_50 multi_headcount_10_00 multi_headcount_30_00	Poverty: Number of people living below a range of poverty lines	Number of people in poverty	Multiple thresholds – line chart	Either income or consumption	true	This data is adjusted for differences in the cost of living between countries and for inflation. It includes extrapolated estimates for years without survey data.	This data is expressed in international-$ at 2011 prices.	inc_or_cons_extrap	0	entity	entity	shared	LineChart
+	headcount_stacked_above_30_00 headcount_stacked_below_30_00 headcount_stacked_below_10_00 headcount_stacked_below_5_50 headcount_stacked_below_3_20 headcount_stacked_below_1_90 headcount_stacked_below_1_00	Poverty: Number of people living below a range of poverty lines	Number of people in poverty	Multiple thresholds – stacked area chart	Either income or consumption	true	This data is adjusted for differences in the cost of living between countries and for inflation. It includes extrapolated estimates for years without survey data.	This data is expressed in international-$ at 2011 prices.	inc_or_cons_extrap	0	entity	entity	shared	StackedArea
+	multi_headcount_1_00 multi_headcount_1_90 multi_headcount_3_20 multi_headcount_5_50 multi_headcount_10_00 multi_headcount_30_00	Poverty: Number of people living below a range of poverty lines	Number of people in poverty	Multiple thresholds – line chart	Incomes only	true	This data is adjusted for differences in the cost of living between countries and for inflation. It includes extrapolated estimates for years without survey data.	This data is expressed in international-$ at 2011 prices.	inc_extrap	0	entity	entity	shared	LineChart
+	headcount_stacked_above_30_00 headcount_stacked_below_30_00 headcount_stacked_below_10_00 headcount_stacked_below_5_50 headcount_stacked_below_3_20 headcount_stacked_below_1_90 headcount_stacked_below_1_00	Poverty: Number of people living below a range of poverty lines	Number of people in poverty	Multiple thresholds – stacked area chart	Incomes only	true	This data is adjusted for differences in the cost of living between countries and for inflation. It includes extrapolated estimates for years without survey data.	This data is expressed in international-$ at 2011 prices.	inc_extrap	0	entity	entity	shared	StackedArea
+	multi_headcount_1_00 multi_headcount_1_90 multi_headcount_3_20 multi_headcount_5_50 multi_headcount_10_00 multi_headcount_30_00	Poverty: Number of people living below a range of poverty lines	Number of people in poverty	Multiple thresholds – line chart	Consumption only	true	This data is adjusted for differences in the cost of living between countries and for inflation. It includes extrapolated estimates for years without survey data.	This data is expressed in international-$ at 2011 prices.	cons_extrap	0	entity	entity	shared	LineChart
+	headcount_stacked_above_30_00 headcount_stacked_below_30_00 headcount_stacked_below_10_00 headcount_stacked_below_5_50 headcount_stacked_below_3_20 headcount_stacked_below_1_90 headcount_stacked_below_1_00	Poverty: Number of people living below a range of poverty lines	Number of people in poverty	Multiple thresholds – stacked area chart	Consumption only	true	This data is adjusted for differences in the cost of living between countries and for inflation. It includes extrapolated estimates for years without survey data.	This data is expressed in international-$ at 2011 prices.	cons_extrap	0	entity	entity	shared	StackedArea
+	multi_headcount_1_00 multi_headcount_1_90 multi_headcount_3_20 multi_headcount_5_50 multi_headcount_10_00 multi_headcount_30_00	Poverty: Number of people living below a range of poverty lines	Number of people in poverty	Multiple thresholds – line chart	Either income or consumption	false	This data is adjusted for differences in the cost of living between countries and for inflation.	This data is expressed in international-$ at 2011 prices.	inc_or_cons_no_extrap	0	entity	entity	shared	LineChart
+	headcount_stacked_above_30_00 headcount_stacked_below_30_00 headcount_stacked_below_10_00 headcount_stacked_below_5_50 headcount_stacked_below_3_20 headcount_stacked_below_1_90 headcount_stacked_below_1_00	Poverty: Number of people living below a range of poverty lines	Number of people in poverty	Multiple thresholds – stacked area chart	Either income or consumption	false	This data is adjusted for differences in the cost of living between countries and for inflation.	This data is expressed in international-$ at 2011 prices.	inc_or_cons_no_extrap	0	entity	entity	shared	StackedArea
+	multi_headcount_1_00 multi_headcount_1_90 multi_headcount_3_20 multi_headcount_5_50 multi_headcount_10_00 multi_headcount_30_00	Poverty: Number of people living below a range of poverty lines	Number of people in poverty	Multiple thresholds – line chart	Incomes only	false	This data is adjusted for differences in the cost of living between countries and for inflation.	This data is expressed in international-$ at 2011 prices.	inc_no_extrap	0	entity	entity	shared	LineChart
+	headcount_stacked_above_30_00 headcount_stacked_below_30_00 headcount_stacked_below_10_00 headcount_stacked_below_5_50 headcount_stacked_below_3_20 headcount_stacked_below_1_90 headcount_stacked_below_1_00	Poverty: Number of people living below a range of poverty lines	Number of people in poverty	Multiple thresholds – stacked area chart	Incomes only	false	This data is adjusted for differences in the cost of living between countries and for inflation.	This data is expressed in international-$ at 2011 prices.	inc_no_extrap	0	entity	entity	shared	StackedArea
+	multi_headcount_1_00 multi_headcount_1_90 multi_headcount_3_20 multi_headcount_5_50 multi_headcount_10_00 multi_headcount_30_00	Poverty: Number of people living below a range of poverty lines	Number of people in poverty	Multiple thresholds – line chart	Consumption only	false	This data is adjusted for differences in the cost of living between countries and for inflation.	This data is expressed in international-$ at 2011 prices.	cons_no_extrap	0	entity	entity	shared	LineChart
+	headcount_stacked_above_30_00 headcount_stacked_below_30_00 headcount_stacked_below_10_00 headcount_stacked_below_5_50 headcount_stacked_below_3_20 headcount_stacked_below_1_90 headcount_stacked_below_1_00	Poverty: Number of people living below a range of poverty lines	Number of people in poverty	Multiple thresholds – stacked area chart	Consumption only	false	This data is adjusted for differences in the cost of living between countries and for inflation.	This data is expressed in international-$ at 2011 prices.	cons_no_extrap	0	entity	entity	shared	StackedArea
 	avg_shortfall_1_00	Depth of poverty: Average daily shortfall of incomes or consumption below $1 a day	Average shortfall below poverty line ($ per day)	$1 a day	Either income or consumption	true	The average shortfall from the poverty line per day (averaged across the population in poverty). It includes extrapolated estimates for years without survey data.	This data is adjusted for differences in the cost of living between countries and for inflation. It is expressed in international-$ at 2011 prices.	inc_or_cons_extrap	0
 	avg_shortfall_1_90	Depth of poverty: Average daily shortfall of incomes or consumption below $1.90 a day	Average shortfall below poverty line ($ per day)	$1.90 a day	Either income or consumption	true	The average shortfall from the poverty line per day (averaged across the population in poverty). It includes extrapolated estimates for years without survey data.	This data is adjusted for differences in the cost of living between countries and for inflation. It is expressed in international-$ at 2011 prices.	inc_or_cons_extrap	0
 	avg_shortfall_3_20	Depth of poverty: Average daily shortfall of incomes or consumption below $3.20 a day	Average shortfall below poverty line ($ per day)	$3.20 a day	Either income or consumption	true	The average shortfall from the poverty line per day (averaged across the population in poverty). It includes extrapolated estimates for years without survey data.	This data is adjusted for differences in the cost of living between countries and for inflation. It is expressed in international-$ at 2011 prices.	inc_or_cons_extrap	0
@@ -466,44 +466,38 @@ graphers
 table	https://raw.githubusercontent.com/owid/notebooks/main/JoeHasell/Povcal_data_work/Povcal_PIP_explorer/data/poverty/inc_or_cons_extrap.csv	inc_or_cons_extrap
 columns	inc_or_cons_extrap
 	name	slug	type	sourceName	unit	shortUnit
-	[AUX_abs_povline$multivar_text]	headcount_ratio_stacked_below_1_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	headcount_ratio_stacked_below_1_90	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	headcount_ratio_stacked_below_3_20	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	headcount_ratio_stacked_below_5_50	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	headcount_ratio_stacked_below_10_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	headcount_ratio_stacked_below_15_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	headcount_ratio_stacked_below_20_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	headcount_ratio_stacked_below_30_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	headcount_ratio_stacked_below_40_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	headcount_stacked_below_1_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	headcount_stacked_below_1_90	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	headcount_stacked_below_3_20	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	headcount_stacked_below_5_50	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	headcount_stacked_below_10_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	headcount_stacked_below_15_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	headcount_stacked_below_20_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	headcount_stacked_below_30_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	headcount_stacked_below_40_00	Numeric	World Bank Poverty and Inequality Platform
-	above $40 a day	headcount_ratio_stacked_above_40_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	above $40 a day	headcount_stacked_above_40_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	multi_headcount_ratio_1_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	multi_headcount_ratio_1_90	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	multi_headcount_ratio_3_20	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	multi_headcount_ratio_5_50	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	multi_headcount_ratio_10_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	multi_headcount_ratio_15_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	multi_headcount_ratio_20_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	multi_headcount_ratio_30_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	multi_headcount_ratio_40_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	multi_headcount_1_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	multi_headcount_1_90	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	multi_headcount_3_20	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	multi_headcount_5_50	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	multi_headcount_10_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	multi_headcount_15_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	multi_headcount_20_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	multi_headcount_30_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	multi_headcount_40_00	Numeric	World Bank Poverty and Inequality Platform
+	below $1 a day	headcount_ratio_stacked_below_1_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$1 - $1.90 a day	headcount_ratio_stacked_below_1_90	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$1.90 - $3.20 a day	headcount_ratio_stacked_below_3_20	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$3.20 - $5.50 a day	headcount_ratio_stacked_below_5_50	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$5.50 - $10 a day	headcount_ratio_stacked_below_10_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$10 - $30 a day	headcount_ratio_stacked_below_30_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	below $1 a day	headcount_stacked_below_1_00	Numeric	World Bank Poverty and Inequality Platform
+	$1 - $1.90 a day	headcount_stacked_below_1_90	Numeric	World Bank Poverty and Inequality Platform
+	$1.90 - $3.20 a day	headcount_stacked_below_3_20	Numeric	World Bank Poverty and Inequality Platform
+	$3.20 - $5.50 a day	headcount_stacked_below_5_50	Numeric	World Bank Poverty and Inequality Platform
+	$5.50 - $10 a day	headcount_stacked_below_10_00	Numeric	World Bank Poverty and Inequality Platform
+	$10 - $30 a day	headcount_stacked_below_30_00	Numeric	World Bank Poverty and Inequality Platform
+	above $30 a day	headcount_ratio_stacked_above_30_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	above $30 a day	headcount_stacked_above_30_00	Numeric	World Bank Poverty and Inequality Platform
+	$1 a day	multi_headcount_ratio_1_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$1.90 a day	multi_headcount_ratio_1_90	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$3.20 a day	multi_headcount_ratio_3_20	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$5.50 a day	multi_headcount_ratio_5_50	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$10 a day	multi_headcount_ratio_10_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$15 a day	multi_headcount_ratio_15_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$20 a day	multi_headcount_ratio_20_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$30 a day	multi_headcount_ratio_30_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$40 a day	multi_headcount_ratio_40_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$1 a day	multi_headcount_1_00	Numeric	World Bank Poverty and Inequality Platform
+	$1.90 a day	multi_headcount_1_90	Numeric	World Bank Poverty and Inequality Platform
+	$3.20 a day	multi_headcount_3_20	Numeric	World Bank Poverty and Inequality Platform
+	$5.50 a day	multi_headcount_5_50	Numeric	World Bank Poverty and Inequality Platform
+	$10 a day	multi_headcount_10_00	Numeric	World Bank Poverty and Inequality Platform
+	$15 a day	multi_headcount_15_00	Numeric	World Bank Poverty and Inequality Platform
+	$20 a day	multi_headcount_20_00	Numeric	World Bank Poverty and Inequality Platform
+	$30 a day	multi_headcount_30_00	Numeric	World Bank Poverty and Inequality Platform
+	$40 a day	multi_headcount_40_00	Numeric	World Bank Poverty and Inequality Platform
 	$1 a day - share of population below poverty line	headcount_ratio_1_00	Numeric	World Bank Poverty and Inequality Platform	%	%
 	$1.90 a day - share of population below poverty line	headcount_ratio_1_90	Numeric	World Bank Poverty and Inequality Platform	%	%
 	$3.20 a day - share of population below poverty line	headcount_ratio_3_20	Numeric	World Bank Poverty and Inequality Platform	%	%
@@ -580,44 +574,38 @@ columns	inc_or_cons_extrap
 table	https://raw.githubusercontent.com/owid/notebooks/main/JoeHasell/Povcal_data_work/Povcal_PIP_explorer/data/poverty/inc_or_cons_no_extrap.csv	inc_or_cons_no_extrap
 columns	inc_or_cons_no_extrap
 	name	slug	type	sourceName	unit	shortUnit
-	[AUX_abs_povline$multivar_text]	headcount_ratio_stacked_below_1_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	headcount_ratio_stacked_below_1_90	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	headcount_ratio_stacked_below_3_20	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	headcount_ratio_stacked_below_5_50	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	headcount_ratio_stacked_below_10_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	headcount_ratio_stacked_below_15_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	headcount_ratio_stacked_below_20_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	headcount_ratio_stacked_below_30_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	headcount_ratio_stacked_below_40_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	headcount_stacked_below_1_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	headcount_stacked_below_1_90	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	headcount_stacked_below_3_20	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	headcount_stacked_below_5_50	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	headcount_stacked_below_10_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	headcount_stacked_below_15_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	headcount_stacked_below_20_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	headcount_stacked_below_30_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	headcount_stacked_below_40_00	Numeric	World Bank Poverty and Inequality Platform
-	above $40 a day	headcount_ratio_stacked_above_40_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	above $40 a day	headcount_stacked_above_40_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	multi_headcount_ratio_1_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	multi_headcount_ratio_1_90	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	multi_headcount_ratio_3_20	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	multi_headcount_ratio_5_50	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	multi_headcount_ratio_10_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	multi_headcount_ratio_15_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	multi_headcount_ratio_20_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	multi_headcount_ratio_30_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	multi_headcount_ratio_40_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	multi_headcount_1_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	multi_headcount_1_90	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	multi_headcount_3_20	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	multi_headcount_5_50	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	multi_headcount_10_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	multi_headcount_15_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	multi_headcount_20_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	multi_headcount_30_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	multi_headcount_40_00	Numeric	World Bank Poverty and Inequality Platform
+	below $1 a day	headcount_ratio_stacked_below_1_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$1 - $1.90 a day	headcount_ratio_stacked_below_1_90	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$1.90 - $3.20 a day	headcount_ratio_stacked_below_3_20	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$3.20 - $5.50 a day	headcount_ratio_stacked_below_5_50	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$5.50 - $10 a day	headcount_ratio_stacked_below_10_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$10 - $30 a day	headcount_ratio_stacked_below_30_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	below $1 a day	headcount_stacked_below_1_00	Numeric	World Bank Poverty and Inequality Platform
+	$1 - $1.90 a day	headcount_stacked_below_1_90	Numeric	World Bank Poverty and Inequality Platform
+	$1.90 - $3.20 a day	headcount_stacked_below_3_20	Numeric	World Bank Poverty and Inequality Platform
+	$3.20 - $5.50 a day	headcount_stacked_below_5_50	Numeric	World Bank Poverty and Inequality Platform
+	$5.50 - $10 a day	headcount_stacked_below_10_00	Numeric	World Bank Poverty and Inequality Platform
+	$10 - $30 a day	headcount_stacked_below_30_00	Numeric	World Bank Poverty and Inequality Platform
+	above $30 a day	headcount_ratio_stacked_above_30_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	above $30 a day	headcount_stacked_above_30_00	Numeric	World Bank Poverty and Inequality Platform
+	$1 a day	multi_headcount_ratio_1_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$1.90 a day	multi_headcount_ratio_1_90	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$3.20 a day	multi_headcount_ratio_3_20	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$5.50 a day	multi_headcount_ratio_5_50	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$10 a day	multi_headcount_ratio_10_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$15 a day	multi_headcount_ratio_15_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$20 a day	multi_headcount_ratio_20_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$30 a day	multi_headcount_ratio_30_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$40 a day	multi_headcount_ratio_40_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$1 a day	multi_headcount_1_00	Numeric	World Bank Poverty and Inequality Platform
+	$1.90 a day	multi_headcount_1_90	Numeric	World Bank Poverty and Inequality Platform
+	$3.20 a day	multi_headcount_3_20	Numeric	World Bank Poverty and Inequality Platform
+	$5.50 a day	multi_headcount_5_50	Numeric	World Bank Poverty and Inequality Platform
+	$10 a day	multi_headcount_10_00	Numeric	World Bank Poverty and Inequality Platform
+	$15 a day	multi_headcount_15_00	Numeric	World Bank Poverty and Inequality Platform
+	$20 a day	multi_headcount_20_00	Numeric	World Bank Poverty and Inequality Platform
+	$30 a day	multi_headcount_30_00	Numeric	World Bank Poverty and Inequality Platform
+	$40 a day	multi_headcount_40_00	Numeric	World Bank Poverty and Inequality Platform
 	$1 a day - share of population below poverty line	headcount_ratio_1_00	Numeric	World Bank Poverty and Inequality Platform	%	%
 	$1.90 a day - share of population below poverty line	headcount_ratio_1_90	Numeric	World Bank Poverty and Inequality Platform	%	%
 	$3.20 a day - share of population below poverty line	headcount_ratio_3_20	Numeric	World Bank Poverty and Inequality Platform	%	%
@@ -694,44 +682,38 @@ columns	inc_or_cons_no_extrap
 table	https://raw.githubusercontent.com/owid/notebooks/main/JoeHasell/Povcal_data_work/Povcal_PIP_explorer/data/poverty/inc_extrap.csv	inc_extrap
 columns	inc_extrap
 	name	slug	type	sourceName	unit	shortUnit
-	[AUX_abs_povline$multivar_text]	headcount_ratio_stacked_below_1_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	headcount_ratio_stacked_below_1_90	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	headcount_ratio_stacked_below_3_20	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	headcount_ratio_stacked_below_5_50	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	headcount_ratio_stacked_below_10_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	headcount_ratio_stacked_below_15_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	headcount_ratio_stacked_below_20_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	headcount_ratio_stacked_below_30_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	headcount_ratio_stacked_below_40_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	headcount_stacked_below_1_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	headcount_stacked_below_1_90	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	headcount_stacked_below_3_20	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	headcount_stacked_below_5_50	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	headcount_stacked_below_10_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	headcount_stacked_below_15_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	headcount_stacked_below_20_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	headcount_stacked_below_30_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	headcount_stacked_below_40_00	Numeric	World Bank Poverty and Inequality Platform
-	above $40 a day	headcount_ratio_stacked_above_40_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	above $40 a day	headcount_stacked_above_40_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	multi_headcount_ratio_1_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	multi_headcount_ratio_1_90	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	multi_headcount_ratio_3_20	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	multi_headcount_ratio_5_50	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	multi_headcount_ratio_10_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	multi_headcount_ratio_15_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	multi_headcount_ratio_20_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	multi_headcount_ratio_30_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	multi_headcount_ratio_40_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	multi_headcount_1_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	multi_headcount_1_90	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	multi_headcount_3_20	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	multi_headcount_5_50	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	multi_headcount_10_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	multi_headcount_15_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	multi_headcount_20_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	multi_headcount_30_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	multi_headcount_40_00	Numeric	World Bank Poverty and Inequality Platform
+	below $1 a day	headcount_ratio_stacked_below_1_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$1 - $1.90 a day	headcount_ratio_stacked_below_1_90	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$1.90 - $3.20 a day	headcount_ratio_stacked_below_3_20	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$3.20 - $5.50 a day	headcount_ratio_stacked_below_5_50	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$5.50 - $10 a day	headcount_ratio_stacked_below_10_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$10 - $30 a day	headcount_ratio_stacked_below_30_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	below $1 a day	headcount_stacked_below_1_00	Numeric	World Bank Poverty and Inequality Platform
+	$1 - $1.90 a day	headcount_stacked_below_1_90	Numeric	World Bank Poverty and Inequality Platform
+	$1.90 - $3.20 a day	headcount_stacked_below_3_20	Numeric	World Bank Poverty and Inequality Platform
+	$3.20 - $5.50 a day	headcount_stacked_below_5_50	Numeric	World Bank Poverty and Inequality Platform
+	$5.50 - $10 a day	headcount_stacked_below_10_00	Numeric	World Bank Poverty and Inequality Platform
+	$10 - $30 a day	headcount_stacked_below_30_00	Numeric	World Bank Poverty and Inequality Platform
+	above $30 a day	headcount_ratio_stacked_above_30_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	above $30 a day	headcount_stacked_above_30_00	Numeric	World Bank Poverty and Inequality Platform
+	$1 a day	multi_headcount_ratio_1_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$1.90 a day	multi_headcount_ratio_1_90	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$3.20 a day	multi_headcount_ratio_3_20	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$5.50 a day	multi_headcount_ratio_5_50	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$10 a day	multi_headcount_ratio_10_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$15 a day	multi_headcount_ratio_15_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$20 a day	multi_headcount_ratio_20_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$30 a day	multi_headcount_ratio_30_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$40 a day	multi_headcount_ratio_40_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$1 a day	multi_headcount_1_00	Numeric	World Bank Poverty and Inequality Platform
+	$1.90 a day	multi_headcount_1_90	Numeric	World Bank Poverty and Inequality Platform
+	$3.20 a day	multi_headcount_3_20	Numeric	World Bank Poverty and Inequality Platform
+	$5.50 a day	multi_headcount_5_50	Numeric	World Bank Poverty and Inequality Platform
+	$10 a day	multi_headcount_10_00	Numeric	World Bank Poverty and Inequality Platform
+	$15 a day	multi_headcount_15_00	Numeric	World Bank Poverty and Inequality Platform
+	$20 a day	multi_headcount_20_00	Numeric	World Bank Poverty and Inequality Platform
+	$30 a day	multi_headcount_30_00	Numeric	World Bank Poverty and Inequality Platform
+	$40 a day	multi_headcount_40_00	Numeric	World Bank Poverty and Inequality Platform
 	$1 a day - share of population below poverty line	headcount_ratio_1_00	Numeric	World Bank Poverty and Inequality Platform	%	%
 	$1.90 a day - share of population below poverty line	headcount_ratio_1_90	Numeric	World Bank Poverty and Inequality Platform	%	%
 	$3.20 a day - share of population below poverty line	headcount_ratio_3_20	Numeric	World Bank Poverty and Inequality Platform	%	%
@@ -808,44 +790,38 @@ columns	inc_extrap
 table	https://raw.githubusercontent.com/owid/notebooks/main/JoeHasell/Povcal_data_work/Povcal_PIP_explorer/data/poverty/inc_no_extrap.csv	inc_no_extrap
 columns	inc_no_extrap
 	name	slug	type	sourceName	unit	shortUnit
-	[AUX_abs_povline$multivar_text]	headcount_ratio_stacked_below_1_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	headcount_ratio_stacked_below_1_90	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	headcount_ratio_stacked_below_3_20	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	headcount_ratio_stacked_below_5_50	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	headcount_ratio_stacked_below_10_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	headcount_ratio_stacked_below_15_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	headcount_ratio_stacked_below_20_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	headcount_ratio_stacked_below_30_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	headcount_ratio_stacked_below_40_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	headcount_stacked_below_1_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	headcount_stacked_below_1_90	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	headcount_stacked_below_3_20	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	headcount_stacked_below_5_50	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	headcount_stacked_below_10_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	headcount_stacked_below_15_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	headcount_stacked_below_20_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	headcount_stacked_below_30_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	headcount_stacked_below_40_00	Numeric	World Bank Poverty and Inequality Platform
-	above $40 a day	headcount_ratio_stacked_above_40_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	above $40 a day	headcount_stacked_above_40_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	multi_headcount_ratio_1_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	multi_headcount_ratio_1_90	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	multi_headcount_ratio_3_20	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	multi_headcount_ratio_5_50	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	multi_headcount_ratio_10_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	multi_headcount_ratio_15_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	multi_headcount_ratio_20_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	multi_headcount_ratio_30_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	multi_headcount_ratio_40_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	multi_headcount_1_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	multi_headcount_1_90	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	multi_headcount_3_20	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	multi_headcount_5_50	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	multi_headcount_10_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	multi_headcount_15_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	multi_headcount_20_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	multi_headcount_30_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	multi_headcount_40_00	Numeric	World Bank Poverty and Inequality Platform
+	below $1 a day	headcount_ratio_stacked_below_1_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$1 - $1.90 a day	headcount_ratio_stacked_below_1_90	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$1.90 - $3.20 a day	headcount_ratio_stacked_below_3_20	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$3.20 - $5.50 a day	headcount_ratio_stacked_below_5_50	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$5.50 - $10 a day	headcount_ratio_stacked_below_10_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$10 - $30 a day	headcount_ratio_stacked_below_30_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	below $1 a day	headcount_stacked_below_1_00	Numeric	World Bank Poverty and Inequality Platform
+	$1 - $1.90 a day	headcount_stacked_below_1_90	Numeric	World Bank Poverty and Inequality Platform
+	$1.90 - $3.20 a day	headcount_stacked_below_3_20	Numeric	World Bank Poverty and Inequality Platform
+	$3.20 - $5.50 a day	headcount_stacked_below_5_50	Numeric	World Bank Poverty and Inequality Platform
+	$5.50 - $10 a day	headcount_stacked_below_10_00	Numeric	World Bank Poverty and Inequality Platform
+	$10 - $30 a day	headcount_stacked_below_30_00	Numeric	World Bank Poverty and Inequality Platform
+	above $30 a day	headcount_ratio_stacked_above_30_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	above $30 a day	headcount_stacked_above_30_00	Numeric	World Bank Poverty and Inequality Platform
+	$1 a day	multi_headcount_ratio_1_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$1.90 a day	multi_headcount_ratio_1_90	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$3.20 a day	multi_headcount_ratio_3_20	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$5.50 a day	multi_headcount_ratio_5_50	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$10 a day	multi_headcount_ratio_10_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$15 a day	multi_headcount_ratio_15_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$20 a day	multi_headcount_ratio_20_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$30 a day	multi_headcount_ratio_30_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$40 a day	multi_headcount_ratio_40_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$1 a day	multi_headcount_1_00	Numeric	World Bank Poverty and Inequality Platform
+	$1.90 a day	multi_headcount_1_90	Numeric	World Bank Poverty and Inequality Platform
+	$3.20 a day	multi_headcount_3_20	Numeric	World Bank Poverty and Inequality Platform
+	$5.50 a day	multi_headcount_5_50	Numeric	World Bank Poverty and Inequality Platform
+	$10 a day	multi_headcount_10_00	Numeric	World Bank Poverty and Inequality Platform
+	$15 a day	multi_headcount_15_00	Numeric	World Bank Poverty and Inequality Platform
+	$20 a day	multi_headcount_20_00	Numeric	World Bank Poverty and Inequality Platform
+	$30 a day	multi_headcount_30_00	Numeric	World Bank Poverty and Inequality Platform
+	$40 a day	multi_headcount_40_00	Numeric	World Bank Poverty and Inequality Platform
 	$1 a day - share of population below poverty line	headcount_ratio_1_00	Numeric	World Bank Poverty and Inequality Platform	%	%
 	$1.90 a day - share of population below poverty line	headcount_ratio_1_90	Numeric	World Bank Poverty and Inequality Platform	%	%
 	$3.20 a day - share of population below poverty line	headcount_ratio_3_20	Numeric	World Bank Poverty and Inequality Platform	%	%
@@ -922,44 +898,38 @@ columns	inc_no_extrap
 table	https://raw.githubusercontent.com/owid/notebooks/main/JoeHasell/Povcal_data_work/Povcal_PIP_explorer/data/poverty/cons_extrap.csv	cons_extrap
 columns	cons_extrap
 	name	slug	type	sourceName	unit	shortUnit
-	[AUX_abs_povline$multivar_text]	headcount_ratio_stacked_below_1_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	headcount_ratio_stacked_below_1_90	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	headcount_ratio_stacked_below_3_20	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	headcount_ratio_stacked_below_5_50	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	headcount_ratio_stacked_below_10_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	headcount_ratio_stacked_below_15_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	headcount_ratio_stacked_below_20_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	headcount_ratio_stacked_below_30_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	headcount_ratio_stacked_below_40_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	headcount_stacked_below_1_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	headcount_stacked_below_1_90	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	headcount_stacked_below_3_20	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	headcount_stacked_below_5_50	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	headcount_stacked_below_10_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	headcount_stacked_below_15_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	headcount_stacked_below_20_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	headcount_stacked_below_30_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	headcount_stacked_below_40_00	Numeric	World Bank Poverty and Inequality Platform
-	above $40 a day	headcount_ratio_stacked_above_40_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	above $40 a day	headcount_stacked_above_40_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	multi_headcount_ratio_1_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	multi_headcount_ratio_1_90	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	multi_headcount_ratio_3_20	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	multi_headcount_ratio_5_50	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	multi_headcount_ratio_10_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	multi_headcount_ratio_15_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	multi_headcount_ratio_20_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	multi_headcount_ratio_30_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	multi_headcount_ratio_40_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	multi_headcount_1_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	multi_headcount_1_90	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	multi_headcount_3_20	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	multi_headcount_5_50	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	multi_headcount_10_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	multi_headcount_15_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	multi_headcount_20_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	multi_headcount_30_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	multi_headcount_40_00	Numeric	World Bank Poverty and Inequality Platform
+	below $1 a day	headcount_ratio_stacked_below_1_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$1 - $1.90 a day	headcount_ratio_stacked_below_1_90	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$1.90 - $3.20 a day	headcount_ratio_stacked_below_3_20	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$3.20 - $5.50 a day	headcount_ratio_stacked_below_5_50	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$5.50 - $10 a day	headcount_ratio_stacked_below_10_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$10 - $30 a day	headcount_ratio_stacked_below_30_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	below $1 a day	headcount_stacked_below_1_00	Numeric	World Bank Poverty and Inequality Platform
+	$1 - $1.90 a day	headcount_stacked_below_1_90	Numeric	World Bank Poverty and Inequality Platform
+	$1.90 - $3.20 a day	headcount_stacked_below_3_20	Numeric	World Bank Poverty and Inequality Platform
+	$3.20 - $5.50 a day	headcount_stacked_below_5_50	Numeric	World Bank Poverty and Inequality Platform
+	$5.50 - $10 a day	headcount_stacked_below_10_00	Numeric	World Bank Poverty and Inequality Platform
+	$10 - $30 a day	headcount_stacked_below_30_00	Numeric	World Bank Poverty and Inequality Platform
+	above $30 a day	headcount_ratio_stacked_above_30_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	above $30 a day	headcount_stacked_above_30_00	Numeric	World Bank Poverty and Inequality Platform
+	$1 a day	multi_headcount_ratio_1_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$1.90 a day	multi_headcount_ratio_1_90	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$3.20 a day	multi_headcount_ratio_3_20	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$5.50 a day	multi_headcount_ratio_5_50	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$10 a day	multi_headcount_ratio_10_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$15 a day	multi_headcount_ratio_15_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$20 a day	multi_headcount_ratio_20_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$30 a day	multi_headcount_ratio_30_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$40 a day	multi_headcount_ratio_40_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$1 a day	multi_headcount_1_00	Numeric	World Bank Poverty and Inequality Platform
+	$1.90 a day	multi_headcount_1_90	Numeric	World Bank Poverty and Inequality Platform
+	$3.20 a day	multi_headcount_3_20	Numeric	World Bank Poverty and Inequality Platform
+	$5.50 a day	multi_headcount_5_50	Numeric	World Bank Poverty and Inequality Platform
+	$10 a day	multi_headcount_10_00	Numeric	World Bank Poverty and Inequality Platform
+	$15 a day	multi_headcount_15_00	Numeric	World Bank Poverty and Inequality Platform
+	$20 a day	multi_headcount_20_00	Numeric	World Bank Poverty and Inequality Platform
+	$30 a day	multi_headcount_30_00	Numeric	World Bank Poverty and Inequality Platform
+	$40 a day	multi_headcount_40_00	Numeric	World Bank Poverty and Inequality Platform
 	$1 a day - share of population below poverty line	headcount_ratio_1_00	Numeric	World Bank Poverty and Inequality Platform	%	%
 	$1.90 a day - share of population below poverty line	headcount_ratio_1_90	Numeric	World Bank Poverty and Inequality Platform	%	%
 	$3.20 a day - share of population below poverty line	headcount_ratio_3_20	Numeric	World Bank Poverty and Inequality Platform	%	%
@@ -1036,44 +1006,38 @@ columns	cons_extrap
 table	https://raw.githubusercontent.com/owid/notebooks/main/JoeHasell/Povcal_data_work/Povcal_PIP_explorer/data/poverty/cons_no_extrap.csv	cons_no_extrap
 columns	cons_no_extrap
 	name	slug	type	sourceName	unit	shortUnit
-	[AUX_abs_povline$multivar_text]	headcount_ratio_stacked_below_1_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	headcount_ratio_stacked_below_1_90	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	headcount_ratio_stacked_below_3_20	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	headcount_ratio_stacked_below_5_50	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	headcount_ratio_stacked_below_10_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	headcount_ratio_stacked_below_15_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	headcount_ratio_stacked_below_20_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	headcount_ratio_stacked_below_30_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	headcount_ratio_stacked_below_40_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	headcount_stacked_below_1_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	headcount_stacked_below_1_90	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	headcount_stacked_below_3_20	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	headcount_stacked_below_5_50	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	headcount_stacked_below_10_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	headcount_stacked_below_15_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	headcount_stacked_below_20_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	headcount_stacked_below_30_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	headcount_stacked_below_40_00	Numeric	World Bank Poverty and Inequality Platform
-	above $40 a day	headcount_ratio_stacked_above_40_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	above $40 a day	headcount_stacked_above_40_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	multi_headcount_ratio_1_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	multi_headcount_ratio_1_90	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	multi_headcount_ratio_3_20	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	multi_headcount_ratio_5_50	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	multi_headcount_ratio_10_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	multi_headcount_ratio_15_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	multi_headcount_ratio_20_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	multi_headcount_ratio_30_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	multi_headcount_ratio_40_00	Numeric	World Bank Poverty and Inequality Platform	%	%
-	[AUX_abs_povline$multivar_text]	multi_headcount_1_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	multi_headcount_1_90	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	multi_headcount_3_20	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	multi_headcount_5_50	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	multi_headcount_10_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	multi_headcount_15_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	multi_headcount_20_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	multi_headcount_30_00	Numeric	World Bank Poverty and Inequality Platform
-	[AUX_abs_povline$multivar_text]	multi_headcount_40_00	Numeric	World Bank Poverty and Inequality Platform
+	below $1 a day	headcount_ratio_stacked_below_1_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$1 - $1.90 a day	headcount_ratio_stacked_below_1_90	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$1.90 - $3.20 a day	headcount_ratio_stacked_below_3_20	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$3.20 - $5.50 a day	headcount_ratio_stacked_below_5_50	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$5.50 - $10 a day	headcount_ratio_stacked_below_10_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$10 - $30 a day	headcount_ratio_stacked_below_30_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	below $1 a day	headcount_stacked_below_1_00	Numeric	World Bank Poverty and Inequality Platform
+	$1 - $1.90 a day	headcount_stacked_below_1_90	Numeric	World Bank Poverty and Inequality Platform
+	$1.90 - $3.20 a day	headcount_stacked_below_3_20	Numeric	World Bank Poverty and Inequality Platform
+	$3.20 - $5.50 a day	headcount_stacked_below_5_50	Numeric	World Bank Poverty and Inequality Platform
+	$5.50 - $10 a day	headcount_stacked_below_10_00	Numeric	World Bank Poverty and Inequality Platform
+	$10 - $30 a day	headcount_stacked_below_30_00	Numeric	World Bank Poverty and Inequality Platform
+	above $30 a day	headcount_ratio_stacked_above_30_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	above $30 a day	headcount_stacked_above_30_00	Numeric	World Bank Poverty and Inequality Platform
+	$1 a day	multi_headcount_ratio_1_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$1.90 a day	multi_headcount_ratio_1_90	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$3.20 a day	multi_headcount_ratio_3_20	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$5.50 a day	multi_headcount_ratio_5_50	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$10 a day	multi_headcount_ratio_10_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$15 a day	multi_headcount_ratio_15_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$20 a day	multi_headcount_ratio_20_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$30 a day	multi_headcount_ratio_30_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$40 a day	multi_headcount_ratio_40_00	Numeric	World Bank Poverty and Inequality Platform	%	%
+	$1 a day	multi_headcount_1_00	Numeric	World Bank Poverty and Inequality Platform
+	$1.90 a day	multi_headcount_1_90	Numeric	World Bank Poverty and Inequality Platform
+	$3.20 a day	multi_headcount_3_20	Numeric	World Bank Poverty and Inequality Platform
+	$5.50 a day	multi_headcount_5_50	Numeric	World Bank Poverty and Inequality Platform
+	$10 a day	multi_headcount_10_00	Numeric	World Bank Poverty and Inequality Platform
+	$15 a day	multi_headcount_15_00	Numeric	World Bank Poverty and Inequality Platform
+	$20 a day	multi_headcount_20_00	Numeric	World Bank Poverty and Inequality Platform
+	$30 a day	multi_headcount_30_00	Numeric	World Bank Poverty and Inequality Platform
+	$40 a day	multi_headcount_40_00	Numeric	World Bank Poverty and Inequality Platform
 	$1 a day - share of population below poverty line	headcount_ratio_1_00	Numeric	World Bank Poverty and Inequality Platform	%	%
 	$1.90 a day - share of population below poverty line	headcount_ratio_1_90	Numeric	World Bank Poverty and Inequality Platform	%	%
 	$3.20 a day - share of population below poverty line	headcount_ratio_3_20	Numeric	World Bank Poverty and Inequality Platform	%	%
