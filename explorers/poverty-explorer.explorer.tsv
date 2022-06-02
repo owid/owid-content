@@ -117,7 +117,7 @@ graphers
 	multi_headcount_ratio_1_00 multi_headcount_ratio_1_90 multi_headcount_ratio_3_20 multi_headcount_ratio_5_50 multi_headcount_ratio_10_00 multi_headcount_ratio_30_00	Poverty: Share of population living below a range of poverty lines	Share in poverty	Multiple thresholds – line chart	Either income or consumption	true	This data is adjusted for differences in the cost of living between countries and for inflation. It includes extrapolated estimates for years without survey data.	This data is expressed in international-$ at 2011 prices.	inc_or_cons_extrap	0	entity	entity	shared	LineChart
 	headcount_ratio_stacked_above_30_00 headcount_ratio_stacked_below_30_00 headcount_ratio_stacked_below_10_00 headcount_ratio_stacked_below_5_50 headcount_ratio_stacked_below_3_20 headcount_ratio_stacked_below_1_90 headcount_ratio_stacked_below_1_00	Poverty: Share of population living below a range of poverty lines	Share in poverty	Multiple thresholds – stacked area chart	Either income or consumption	true	This data is adjusted for differences in the cost of living between countries and for inflation. It includes extrapolated estimates for years without survey data.	This data is expressed in international-$ at 2011 prices.	inc_or_cons_extrap	0	entity	entity	shared	StackedArea
 	multi_headcount_ratio_1_00 multi_headcount_ratio_1_90 multi_headcount_ratio_3_20 multi_headcount_ratio_5_50 multi_headcount_ratio_10_00 multi_headcount_ratio_30_00	Poverty: Share of population living below a range of poverty lines	Share in poverty	Multiple thresholds – line chart	Incomes only	true	This data is adjusted for differences in the cost of living between countries and for inflation. It includes extrapolated estimates for years without survey data.	This data is expressed in international-$ at 2011 prices.	inc_extrap	0	entity	entity	shared	LineChart
-	headcount_ratio_stacked_above_30_00 headcount_ratio_stacked_below_30_00 headcount_ratio_stacked_below_10_00 headcount_ratio_stacked_below_5_50 headcount_ratio_stacked_below_3_20 headcount_ratio_stacked_below_1_90 headcount_ratio_stacked_below_1_00	Poverty: Share of population living below a range of poverty lines	Share in poverty	Multiple thresholds – stacked area chart	Incomes only	true	This data is adjusted for differences in the cost of living between countries and for inflation. It includes extrapolated estimates for years without survey data.	This data is expressed in international-$ at 2011 prices.	inc_extrap	0	entity	entity	shared	StackedArea
+	headcount_ratio_stacked_above_30_00 headcount_ratio_stacked_below_30_00 headcount_ratio_stacked_below_10_00 headcount_ratio_stacked_below_5_50 headcount_ratio_stacked_below_3_20 headcount_ratio_stacked_below_1_90 headcount_ratio_stacked_below_1_00 	Poverty: Share of population living below a range of poverty lines	Share in poverty	Multiple thresholds – stacked area chart	Incomes only	true	This data is adjusted for differences in the cost of living between countries and for inflation. It includes extrapolated estimates for years without survey data.	This data is expressed in international-$ at 2011 prices.	inc_extrap	0	entity	entity	shared	StackedArea
 	multi_headcount_ratio_1_00 multi_headcount_ratio_1_90 multi_headcount_ratio_3_20 multi_headcount_ratio_5_50 multi_headcount_ratio_10_00 multi_headcount_ratio_30_00	Poverty: Share of population living below a range of poverty lines	Share in poverty	Multiple thresholds – line chart	Consumption only	true	This data is adjusted for differences in the cost of living between countries and for inflation. It includes extrapolated estimates for years without survey data.	This data is expressed in international-$ at 2011 prices.	cons_extrap	0	entity	entity	shared	LineChart
 	headcount_ratio_stacked_above_30_00 headcount_ratio_stacked_below_30_00 headcount_ratio_stacked_below_10_00 headcount_ratio_stacked_below_5_50 headcount_ratio_stacked_below_3_20 headcount_ratio_stacked_below_1_90 headcount_ratio_stacked_below_1_00	Poverty: Share of population living below a range of poverty lines	Share in poverty	Multiple thresholds – stacked area chart	Consumption only	true	This data is adjusted for differences in the cost of living between countries and for inflation. It includes extrapolated estimates for years without survey data.	This data is expressed in international-$ at 2011 prices.	cons_extrap	0	entity	entity	shared	StackedArea
 	multi_headcount_ratio_1_00 multi_headcount_ratio_1_90 multi_headcount_ratio_3_20 multi_headcount_ratio_5_50 multi_headcount_ratio_10_00 multi_headcount_ratio_30_00	Poverty: Share of population living below a range of poverty lines	Share in poverty	Multiple thresholds – line chart	Either income or consumption	false	This data is adjusted for differences in the cost of living between countries and for inflation.	This data is expressed in international-$ at 2011 prices.	inc_or_cons_no_extrap	0	entity	entity	shared	LineChart
@@ -463,7 +463,7 @@ graphers
 	poverty_gap_index_50_median	Poverty gap index at 50% of median consumption	Poverty gap index	50% of median	Consumption only	false	The poverty gap index is the average shortfall from the poverty line, averaged across the whole population where the non-poor are counted as having zero shortfall. It is expressed as a percentage of the poverty line.	This data is adjusted for differences in the cost of living between countries and for inflation. It is expressed in international-$ at 2011 prices.	cons_no_extrap	0
 	poverty_gap_index_60_median	Poverty gap index at 60% of median consumption	Poverty gap index	60% of median	Consumption only	false	The poverty gap index is the average shortfall from the poverty line, averaged across the whole population where the non-poor are counted as having zero shortfall. It is expressed as a percentage of the poverty line.	This data is adjusted for differences in the cost of living between countries and for inflation. It is expressed in international-$ at 2011 prices.	cons_no_extrap	0
 
-table	https://raw.githubusercontent.com/owid/notebooks/main/JoeHasell/Povcal_data_work/Povcal_PIP_explorer/data/poverty/inc_or_cons_extrap.csv	inc_or_cons_extrap
+table	https://raw.githubusercontent.com/owid/notebooks/main/JoeHasell/Povcal_data_work/Povcal_PIP_explorer/data/inc_or_cons_extrap.csv	inc_or_cons_extrap
 columns	inc_or_cons_extrap
 	name	slug	type	sourceName	unit	shortUnit
 	below $1 a day	headcount_ratio_stacked_below_1_00	Numeric	World Bank Poverty and Inequality Platform	%	%
@@ -571,7 +571,7 @@ columns	inc_or_cons_extrap
 	$50% of median - Poverty gap index	poverty_gap_index_50_median	Numeric	World Bank Poverty and Inequality Platform	%	%
 	$60% of median - Poverty gap index	poverty_gap_index_60_median	Numeric	World Bank Poverty and Inequality Platform	%	%
 
-table	https://raw.githubusercontent.com/owid/notebooks/main/JoeHasell/Povcal_data_work/Povcal_PIP_explorer/data/poverty/inc_or_cons_no_extrap.csv	inc_or_cons_no_extrap
+table	https://raw.githubusercontent.com/owid/notebooks/main/JoeHasell/Povcal_data_work/Povcal_PIP_explorer/data/inc_or_cons_no_extrap.csv	inc_or_cons_no_extrap
 columns	inc_or_cons_no_extrap
 	name	slug	type	sourceName	unit	shortUnit
 	below $1 a day	headcount_ratio_stacked_below_1_00	Numeric	World Bank Poverty and Inequality Platform	%	%
@@ -679,7 +679,7 @@ columns	inc_or_cons_no_extrap
 	$50% of median - Poverty gap index	poverty_gap_index_50_median	Numeric	World Bank Poverty and Inequality Platform	%	%
 	$60% of median - Poverty gap index	poverty_gap_index_60_median	Numeric	World Bank Poverty and Inequality Platform	%	%
 
-table	https://raw.githubusercontent.com/owid/notebooks/main/JoeHasell/Povcal_data_work/Povcal_PIP_explorer/data/poverty/inc_extrap.csv	inc_extrap
+table	https://raw.githubusercontent.com/owid/notebooks/main/JoeHasell/Povcal_data_work/Povcal_PIP_explorer/data/inc_extrap.csv	inc_extrap
 columns	inc_extrap
 	name	slug	type	sourceName	unit	shortUnit
 	below $1 a day	headcount_ratio_stacked_below_1_00	Numeric	World Bank Poverty and Inequality Platform	%	%
@@ -787,7 +787,7 @@ columns	inc_extrap
 	$50% of median - Poverty gap index	poverty_gap_index_50_median	Numeric	World Bank Poverty and Inequality Platform	%	%
 	$60% of median - Poverty gap index	poverty_gap_index_60_median	Numeric	World Bank Poverty and Inequality Platform	%	%
 
-table	https://raw.githubusercontent.com/owid/notebooks/main/JoeHasell/Povcal_data_work/Povcal_PIP_explorer/data/poverty/inc_no_extrap.csv	inc_no_extrap
+table	https://raw.githubusercontent.com/owid/notebooks/main/JoeHasell/Povcal_data_work/Povcal_PIP_explorer/data/inc_no_extrap.csv	inc_no_extrap
 columns	inc_no_extrap
 	name	slug	type	sourceName	unit	shortUnit
 	below $1 a day	headcount_ratio_stacked_below_1_00	Numeric	World Bank Poverty and Inequality Platform	%	%
@@ -895,7 +895,7 @@ columns	inc_no_extrap
 	$50% of median - Poverty gap index	poverty_gap_index_50_median	Numeric	World Bank Poverty and Inequality Platform	%	%
 	$60% of median - Poverty gap index	poverty_gap_index_60_median	Numeric	World Bank Poverty and Inequality Platform	%	%
 
-table	https://raw.githubusercontent.com/owid/notebooks/main/JoeHasell/Povcal_data_work/Povcal_PIP_explorer/data/poverty/cons_extrap.csv	cons_extrap
+table	https://raw.githubusercontent.com/owid/notebooks/main/JoeHasell/Povcal_data_work/Povcal_PIP_explorer/data/cons_extrap.csv	cons_extrap
 columns	cons_extrap
 	name	slug	type	sourceName	unit	shortUnit
 	below $1 a day	headcount_ratio_stacked_below_1_00	Numeric	World Bank Poverty and Inequality Platform	%	%
@@ -1003,7 +1003,7 @@ columns	cons_extrap
 	$50% of median - Poverty gap index	poverty_gap_index_50_median	Numeric	World Bank Poverty and Inequality Platform	%	%
 	$60% of median - Poverty gap index	poverty_gap_index_60_median	Numeric	World Bank Poverty and Inequality Platform	%	%
 
-table	https://raw.githubusercontent.com/owid/notebooks/main/JoeHasell/Povcal_data_work/Povcal_PIP_explorer/data/poverty/cons_no_extrap.csv	cons_no_extrap
+table	https://raw.githubusercontent.com/owid/notebooks/main/JoeHasell/Povcal_data_work/Povcal_PIP_explorer/data/cons_no_extrap.csv	cons_no_extrap
 columns	cons_no_extrap
 	name	slug	type	sourceName	unit	shortUnit
 	below $1 a day	headcount_ratio_stacked_below_1_00	Numeric	World Bank Poverty and Inequality Platform	%	%
