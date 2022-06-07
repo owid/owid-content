@@ -13,7 +13,6 @@ graphers
 	5539	Varieties of Democracy	Electoral democracy	Freedom of association
 	5540	Varieties of Democracy	Electoral democracy	Freedom of expression
 	5685	Varieties of Democracy	Electoral democracy	Electoral democracy weighted by population
-	5686	Varieties of Democracy	Electoral democracy	Varieties of democracy weighted by population
 	3376	Varieties of Democracy	Liberal democracy	none
 	5537	Varieties of Democracy	Liberal democracy	Electoral democracy
 	5736	Varieties of Democracy	Liberal democracy	Liberal political institutions
@@ -21,7 +20,6 @@ graphers
 	5741	Varieties of Democracy	Liberal democracy	Judicial constraints on the executive
 	5742	Varieties of Democracy	Liberal democracy	Legislative constraints on the executive
 	5684	Varieties of Democracy	Liberal democracy	Liberal democracy weighted by population
-	5686	Varieties of Democracy	Liberal democracy	Varieties of democracy weighted by population
 	5743	Varieties of Democracy	Participatory democracy	none
 	5537	Varieties of Democracy	Participatory democracy	Electoral democracy
 	5687	Varieties of Democracy	Participatory democracy	Participatory political institutions
@@ -30,7 +28,6 @@ graphers
 	5744	Varieties of Democracy	Participatory democracy	Civil society participation
 	5745	Varieties of Democracy	Participatory democracy	Direct popular voting
 	5687	Varieties of Democracy	Participatory democracy	Participatory democracy weighted by population
-	5686	Varieties of Democracy	Participatory democracy	Varieties of democracy weighted by population
 	5689	Varieties of Democracy	Deliberative democracy	none
 	5537	Varieties of Democracy	Deliberative democracy	Electoral democracy
 	5748	Varieties of Democracy	Deliberative democracy	Deliberative political institutions
@@ -40,7 +37,6 @@ graphers
 	5752	Varieties of Democracy	Deliberative democracy	Elite consultations
 	5753	Varieties of Democracy	Deliberative democracy	Engaged society
 	5691	Varieties of Democracy	Deliberative democracy	Deliberative democracy weighted by population
-	5686	Varieties of Democracy	Deliberative democracy	Varieties of democracy weighted by population
 	5688	Varieties of Democracy	Egalitarian democracy	none
 	5537	Varieties of Democracy	Egalitarian democracy	Electoral democracy
 	5754	Varieties of Democracy	Egalitarian democracy	Egalitarian political institutions
@@ -48,7 +44,8 @@ graphers
 	5756	Varieties of Democracy	Egalitarian democracy	Equal access to power
 	5757	Varieties of Democracy	Egalitarian democracy	Equal resource distribution
 	5692	Varieties of Democracy	Egalitarian democracy	Egalitarian democracy weighted by population
-	5686	Varieties of Democracy	Egalitarian democracy	Varieties of democracy weighted by population
+	5844	Varieties of Democracy	Varieties of democracy	none
+	5686	Varieties of Democracy	Varieties of democracy	Varieties of democracy weighted by population
 	3470	Regimes of the World	Political regime	none
 	5693	Regimes of the World	Political regime	including ambiguous regimes
 	5616	Regimes of the World	Political regime	Number of democracies
