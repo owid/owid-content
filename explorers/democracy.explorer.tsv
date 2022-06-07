@@ -47,13 +47,13 @@ graphers
 	5844	Varieties of Democracy	Varieties of democracy	none
 	5686	Varieties of Democracy	Varieties of democracy	Varieties of democracy weighted by population
 	3470	Regimes of the World	Political regime	none
-	5693	Regimes of the World	Political regime	including ambiguous regimes
 	5616	Regimes of the World	Political regime	Number of democracies
-	5700	Regimes of the World	Political regime	Number of democracies, including ambiguous regimes
 	5608	Regimes of the World	Political regime	Share of democracies
-	5701	Regimes of the World	Political regime	Share of democracies, including ambiguous regimes
 	5451	Regimes of the World	Political regime	People living in democracies
-	5699	Regimes of the World	Political regime	People living in democracies, including ambiguous regimes
+	5693	Regimes of the World	Political regime, including ambiguous categories	none
+	5700	Regimes of the World	Political regime, including ambiguous categories	Number of democracies
+	5701	Regimes of the World	Political regime, including ambiguous categories	Share of democracies
+	5699	Regimes of the World	Political regime, including ambiguous categories	People living in democracies
 	3470	Regimes of the World	Electoral democracy	none
 	5728	Regimes of the World	Electoral democracy	Multi-party elections
 	5729	Regimes of the World	Electoral democracy	Multi-party elections for chief executive
