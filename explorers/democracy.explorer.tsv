@@ -86,8 +86,8 @@ graphers
 	5759	Lexical Index	Electoral democracy	Elections for chief executive
 	5761	Lexical Index	Electoral democracy	Political opposition
 	5763	Lexical Index	Electoral democracy	Competitive elections
-	5762	Lexical Index	Electoral democracy	Universal suffrage for men
-	1170	Lexical Index	Electoral democracy	Universal suffrage for women
+	5762	Lexical Index	Electoral democracy	Universal right to vote for men
+	1170	Lexical Index	Electoral democracy	Universal right to vote for women
 	5778	Lexical Index	Electoral democracy	Age of electoral democracy
 	5769	Lexical Index	Electoral democracy	Number of long-standing electoral democracies
 	5770	Lexical Index	Electoral democracy	Share of long-standing electoral democracies
@@ -112,16 +112,16 @@ graphers
 	5683	Boix-Miller-Rosato	Democracy	People living in long-standing democracies
 	5565	Boix-Miller-Rosato	Democracy	Number of democracies by age
 	5571	Boix-Miller-Rosato	Democracy	Experience with democracy
-	5695	Boix-Miller-Rosato	Democracy with women's suffrage	Main classification
-	5703	Boix-Miller-Rosato	Democracy with women's suffrage	Number of democracies
-	5707	Boix-Miller-Rosato	Democracy with women's suffrage	Share of democracies
-	5705	Boix-Miller-Rosato	Democracy with women's suffrage	People living in democracies
-	5722	Boix-Miller-Rosato	Democracy with women's suffrage	Age of democracy
-	5702	Boix-Miller-Rosato	Democracy with women's suffrage	Number of long-standing democracies
-	5708	Boix-Miller-Rosato	Democracy with women's suffrage	Share of long-standing democracies
-	5704	Boix-Miller-Rosato	Democracy with women's suffrage	People living in long-standing democracies
-	5723	Boix-Miller-Rosato	Democracy with women's suffrage	Number of democracies by age
-	5709	Boix-Miller-Rosato	Democracy with women's suffrage	Experience with democracy
+	5695	Boix-Miller-Rosato	Democracy with women's right to vote	Main classification
+	5703	Boix-Miller-Rosato	Democracy with women's right to vote	Number of democracies
+	5707	Boix-Miller-Rosato	Democracy with women's right to vote	Share of democracies
+	5705	Boix-Miller-Rosato	Democracy with women's right to vote	People living in democracies
+	5722	Boix-Miller-Rosato	Democracy with women's right to vote	Age of democracy
+	5702	Boix-Miller-Rosato	Democracy with women's right to vote	Number of long-standing democracies
+	5708	Boix-Miller-Rosato	Democracy with women's right to vote	Share of long-standing democracies
+	5704	Boix-Miller-Rosato	Democracy with women's right to vote	People living in long-standing democracies
+	5723	Boix-Miller-Rosato	Democracy with women's right to vote	Number of democracies by age
+	5709	Boix-Miller-Rosato	Democracy with women's right to vote	Experience with democracy
 	5789	Polity	Democracy	Main index
 	5790	Polity	Democracy	Competitiveness of executive recruitment
 	5791	Polity	Democracy	Openness of executive recruitment
