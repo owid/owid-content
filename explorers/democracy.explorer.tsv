@@ -50,7 +50,7 @@ graphers
 	5616	Regimes of the World	Political regime	Number of democracies
 	5608	Regimes of the World	Political regime	Share of democracies
 	5451	Regimes of the World	Political regime	People living in democracies
-	3470	Regimes of the World	Electoral democracy	Main classification
+	5852	Regimes of the World	Electoral democracy	Main classification
 	5728	Regimes of the World	Electoral democracy	Multi-party elections
 	5729	Regimes of the World	Electoral democracy	Multi-party elections for chief executive
 	5730	Regimes of the World	Electoral democracy	Multi-party elections for legislature
@@ -62,7 +62,7 @@ graphers
 	5674	Regimes of the World	Electoral democracy	People living in long-standing electoral democracies
 	5521	Regimes of the World	Electoral democracy	Number of electoral democracies by age
 	5569	Regimes of the World	Electoral democracy	Experience with electoral democracy
-	3470	Regimes of the World	Liberal democracy	Main classification
+	5849	Regimes of the World	Liberal democracy	Main classification
 	5735	Regimes of the World	Liberal democracy	Transparent laws
 	5731	Regimes of the World	Liberal democracy	Access to justice for men
 	5733	Regimes of the World	Liberal democracy	Access to justice for women
@@ -81,7 +81,7 @@ graphers
 	5766	Lexical Index	Political regime	Number of democracies
 	5767	Lexical Index	Political regime	Share of democracies
 	5765	Lexical Index	Political regime	People living in democracies
-	5758	Lexical Index	Electoral democracy	Main classification
+	5851	Lexical Index	Electoral democracy	Main classification
 	5760	Lexical Index	Electoral democracy	Elections for legislature
 	5759	Lexical Index	Electoral democracy	Elections for chief executive
 	5761	Lexical Index	Electoral democracy	Political opposition
@@ -94,7 +94,7 @@ graphers
 	5776	Lexical Index	Electoral democracy	People living in long-standing electoral democracies
 	5780	Lexical Index	Electoral democracy	Number of electoral democracies by age
 	5774	Lexical Index	Electoral democracy	Experience with electoral democracy
-	5758	Lexical Index	Polyarchy	Main classification
+	5850	Lexical Index	Polyarchy	Main classification
 	5764	Lexical Index	Polyarchy	Political liberties
 	5779	Lexical Index	Polyarchy	Age of polyarchy
 	5773	Lexical Index	Polyarchy	Number of long-standing polyarchies
