@@ -1,18 +1,14 @@
-explorerTitle	My New Explorer
+explorerTitle	UNWPP 2019 data explorer
 explorerSubtitle	This is the subtitle
 selection	Canada	India
 graphers
-	title	ySlugs	subtitle	Statistic Radio	type
-	Population of different countries	Population	How many people live in each country?	Population	DiscreteBar
-	Flag Properties	MapleleafsInFlag	How many leaves are on their flag?	Flag	WorldMap
-table
-	Country	Population	Year
-	Canada	32000000	2020
-	India	1000000000	2020
-	France	50000000	2020
-columns
-	slug	type	name
-	Country	EntityName	Country
-	Population	Numeric	Population
-	Year	Year	Year
-	MapleleafsInFlag	Numeric	MapleleafsInFlag
+	title	ySlugs	subtitle	Metric Dropdown	type	tableSlug
+	Population	population__all__all	How many people live in each country?	Population	LineChart	population_aggregate
+
+
+table	https://temporary-ask-lucas.nyc3.digitaloceanspaces.com/unwpp_explorer/population_records_aggregate.csv	population_aggregate
+columns	population_aggregate
+	slug	name	type
+	location	Country name	EntityName
+	year	Year	Year
+	population__all__all	Population	Integer
