@@ -9,15 +9,36 @@ graphers
 	Population	population__all__0-9	How many people live in each country?	Population	Total	0 - 9 years	population_records_0-9	LineChart
 	Population	population__female__0-9	How many people live in each country?	Population	Female	0 - 9 years	population_records_0-9	LineChart
 	Population	population__male__0-9	How many people live in each country?	Population	Male	0 - 9 years	population_records_0-9	LineChart
-	Population	population__all__10-19		Population	Total	10 - 19 years	population_records_10-19	LineChart
-	Population	population__female__10-19		Population	Female	10 - 19 years	population_records_10-19	LineChart
-	Population	population__male__10-19		Population	Male	10 - 19 years	population_records_10-19	LineChart
-	Population	population__all__20-29		Population	Total	20 - 29 years	population_records_20-29	LineChart
-	Population	population__female__20-29		Population	Female	20 - 29 years	population_records_20-29	LineChart
-	Population	population__male__20-29		Population	Male	20 - 29 years	population_records_20-29	LineChart
-	Population	population__all__30-39		Population	Total	30 - 39 years	population_records_30-39	LineChart
-	Population	population__female__30-39		Population	Female	30 - 39 years	population_records_30-39	LineChart
-	Population	population__male__30-39		Population	Male	30 - 39 years	population_records_30-39	LineChart
+	Population	population__all__10-19	How many people live in each country?	Population	Total	10 - 19 years	population_records_10-19	LineChart
+	Population	population__female__10-19	How many people live in each country?	Population	Female	10 - 19 years	population_records_10-19	LineChart
+	Population	population__male__10-19	How many people live in each country?	Population	Male	10 - 19 years	population_records_10-19	LineChart
+	Population	population__all__20-29	How many people live in each country?	Population	Total	20 - 29 years	population_records_20-29	LineChart
+	Population	population__female__20-29	How many people live in each country?	Population	Female	20 - 29 years	population_records_20-29	LineChart
+	Population	population__male__20-29	How many people live in each country?	Population	Male	20 - 29 years	population_records_20-29	LineChart
+	Population	population__all__30-39	How many people live in each country?	Population	Total	30 - 39 years	population_records_30-39	LineChart
+	Population	population__female__30-39	How many people live in each country?	Population	Female	30 - 39 years	population_records_30-39	LineChart
+	Population	population__male__30-39	How many people live in each country?	Population	Male	30 - 39 years	population_records_30-39	LineChart
+	Population	population__all__40-49	How many people live in each country?	Population	Total	40 - 49 years	population_records_40-49	LineChart
+	Population	population__female__40-49	How many people live in each country?	Population	Female	40 - 49 years	population_records_40-49	LineChart
+	Population	population__male__40-49	How many people live in each country?	Population	Male	40 - 49 years	population_records_40-49	LineChart
+	Population	population__all__50-59	How many people live in each country?	Population	Total	50 - 59 years	population_records_50-59	LineChart
+	Population	population__female__50-59	How many people live in each country?	Population	Female	50 - 59 years	population_records_50-59	LineChart
+	Population	population__male__50-59	How many people live in each country?	Population	Male	50 - 59 years	population_records_50-59	LineChart
+	Population	population__all__60-69	How many people live in each country?	Population	Total	60 - 69 years	population_records_60-69	LineChart
+	Population	population__female__60-69	How many people live in each country?	Population	Female	60 - 69 years	population_records_60-69	LineChart
+	Population	population__male__60-69	How many people live in each country?	Population	Male	60 - 69 years	population_records_60-69	LineChart
+	Population	population__all__70-79	How many people live in each country?	Population	Total	70 - 79 years	population_records_70-79	LineChart
+	Population	population__female__70-79	How many people live in each country?	Population	Female	70 - 79 years	population_records_70-79	LineChart
+	Population	population__male__70-79	How many people live in each country?	Population	Male	70 - 79 years	population_records_70-79	LineChart
+	Population	population__all__80-89	How many people live in each country?	Population	Total	80 - 89 years	population_records_80-89	LineChart
+	Population	population__female__80-89	How many people live in each country?	Population	Female	80 - 89 years	population_records_80-89	LineChart
+	Population	population__male__80-89	How many people live in each country?	Population	Male	80 - 89 years	population_records_80-89	LineChart
+	Population	population__all__90-99	How many people live in each country?	Population	Total	90 - 99 years	population_records_90-99	LineChart
+	Population	population__female__90-99	How many people live in each country?	Population	Female	90 - 99 years	population_records_90-99	LineChart
+	Population	population__male__90-99	How many people live in each country?	Population	Male	90 - 99 years	population_records_90-99	LineChart
+	Population	population__all__100-	How many people live in each country?	Population	Total	100+ years	population_records_100-	LineChart
+	Population	population__female__100-	How many people live in each country?	Population	Female	100+ years	population_records_100-	LineChart
+	Population	population__male__100-	How many people live in each country?	Population	Male	100+ years	population_records_100-	LineChart
 table	https://files.ourworldindata.org/data/unwpp-unstable/population_records_all.csv	population_records_all
 columns	population_records_all
 	slug	name	type
