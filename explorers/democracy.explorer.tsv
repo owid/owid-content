@@ -60,7 +60,6 @@ graphers
 	5676	Regimes of the World	Electoral democracy	Number of long-standing electoral democracies
 	5677	Regimes of the World	Electoral democracy	Share of long-standing electoral democracies
 	5674	Regimes of the World	Electoral democracy	People living in long-standing electoral democracies
-	5521	Regimes of the World	Electoral democracy	Number of electoral democracies by age
 	5569	Regimes of the World	Electoral democracy	Experience with electoral democracy
 	5849	Regimes of the World	Liberal democracy	Main classification
 	5735	Regimes of the World	Liberal democracy	Transparent laws
@@ -71,7 +70,6 @@ graphers
 	5678	Regimes of the World	Liberal democracy	Number of long-standing liberal democracies
 	5679	Regimes of the World	Liberal democracy	Share of long-standing liberal democracies
 	5675	Regimes of the World	Liberal democracy	People living in long-standing liberal democracies
-	5524	Regimes of the World	Liberal democracy	Number of liberal democracies by age
 	5570	Regimes of the World	Liberal democracy	Experience with liberal democracy
 	5693	Regimes of the World	Political regime, including ambiguous categories	Main classification
 	5700	Regimes of the World	Political regime, including ambiguous categories	Number of democracies
@@ -92,7 +90,6 @@ graphers
 	5769	Lexical Index	Electoral democracy	Number of long-standing electoral democracies
 	5770	Lexical Index	Electoral democracy	Share of long-standing electoral democracies
 	5776	Lexical Index	Electoral democracy	People living in long-standing electoral democracies
-	5780	Lexical Index	Electoral democracy	Number of electoral democracies by age
 	5774	Lexical Index	Electoral democracy	Experience with electoral democracy
 	5850	Lexical Index	Polyarchy	Main classification
 	5764	Lexical Index	Polyarchy	Political liberties
@@ -100,7 +97,6 @@ graphers
 	5773	Lexical Index	Polyarchy	Number of long-standing polyarchies
 	5772	Lexical Index	Polyarchy	Share of long-standing polyarchies
 	5777	Lexical Index	Polyarchy	People living in long-standing polyarchies
-	5781	Lexical Index	Polyarchy	Number of polyarchies by age
 	5775	Lexical Index	Polyarchy	Experience with polyarchy
 	5581	Boix-Miller-Rosato	Democracy	Main classification
 	5617	Boix-Miller-Rosato	Democracy	Number of democracies
@@ -110,7 +106,6 @@ graphers
 	5682	Boix-Miller-Rosato	Democracy	Number of long-standing democracies
 	5681	Boix-Miller-Rosato	Democracy	Share of long-standing democracies
 	5683	Boix-Miller-Rosato	Democracy	People living in long-standing democracies
-	5565	Boix-Miller-Rosato	Democracy	Number of democracies by age
 	5571	Boix-Miller-Rosato	Democracy	Experience with democracy
 	5695	Boix-Miller-Rosato	Democracy with women's right to vote	Main classification
 	5703	Boix-Miller-Rosato	Democracy with women's right to vote	Number of democracies
@@ -120,7 +115,6 @@ graphers
 	5702	Boix-Miller-Rosato	Democracy with women's right to vote	Number of long-standing democracies
 	5708	Boix-Miller-Rosato	Democracy with women's right to vote	Share of long-standing democracies
 	5704	Boix-Miller-Rosato	Democracy with women's right to vote	People living in long-standing democracies
-	5723	Boix-Miller-Rosato	Democracy with women's right to vote	Number of democracies by age
 	5709	Boix-Miller-Rosato	Democracy with women's right to vote	Experience with democracy
 	5789	Polity	Democracy	Main index
 	5790	Polity	Democracy	Competitiveness of executive recruitment
@@ -137,7 +131,6 @@ graphers
 	5800	Polity	Political regime	Number of long-standing democracies
 	5801	Polity	Political regime	Share of long-standing democracies
 	5802	Polity	Political regime	People living in long-standing democracies
-	5805	Polity	Political regime	Number of democracies by age
 	5804	Polity	Political regime	Experience with democracy
 	5712	Freedom House	Freedom	Main classification
 	5725	Freedom House	Freedom	Political rights (score)
