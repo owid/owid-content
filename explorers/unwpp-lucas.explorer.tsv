@@ -43,8 +43,38 @@ columns	population_records_30-39
 	slug	name	type
 	location	Country name	EntityName
 	year	Year	Year
-table	https://files.ourworldindata.org/data/unwpp-unstable/population_records_aggregate.csv	population_aggregate
-columns	population_aggregate
+table	https://files.ourworldindata.org/data/unwpp-unstable/population_records_40-49.csv	population_records_40-49
+columns	population_records_40-49
+	slug	name	type
+	location	Country name	EntityName
+	year	Year	Year
+table	https://files.ourworldindata.org/data/unwpp-unstable/population_records_50-59.csv	population_records_50-59
+columns	population_records_50-59
+	slug	name	type
+	location	Country name	EntityName
+	year	Year	Year
+table	https://files.ourworldindata.org/data/unwpp-unstable/population_records_60-69.csv	population_records_60-69
+columns	population_records_60-69
+	slug	name	type
+	location	Country name	EntityName
+	year	Year	Year
+table	https://files.ourworldindata.org/data/unwpp-unstable/population_records_70-79.csv	population_records_70-79
+columns	population_records_70-79
+	slug	name	type
+	location	Country name	EntityName
+	year	Year	Year
+table	https://files.ourworldindata.org/data/unwpp-unstable/population_records_80-89.csv	population_records_80-89
+columns	population_records_80-89
+	slug	name	type
+	location	Country name	EntityName
+	year	Year	Year
+table	https://files.ourworldindata.org/data/unwpp-unstable/population_records_90-99.csv	population_records_90-99
+columns	population_records_90-99
+	slug	name	type
+	location	Country name	EntityName
+	year	Year	Year
+table	https://files.ourworldindata.org/data/unwpp-unstable/population_records_100+.csv	population_records_100-
+columns	population_records_100-
 	slug	name	type
 	location	Country name	EntityName
 	year	Year	Year
