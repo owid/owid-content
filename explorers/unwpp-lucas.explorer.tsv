@@ -3,14 +3,48 @@ explorerSubtitle	This is the subtitle
 selection	Canada	India
 graphers
 	title	ySlugs	subtitle	Metric Dropdown	Sex Dropdown	Age group Dropdown	tableSlug	type
-	Population	population__all__all	How many people live in each country?	Population	Total	Total	population_aggregate	LineChart
-
-
-
-
+	Population	population__all__all	How many people live in each country?	Population	Total	Total	population_records_all	LineChart
+	Population	population__female__all	How many people live in each country?	Population	Female	Total	population_records_all	LineChart
+	Population	population__male__all	How many people live in each country?	Population	Male	Total	population_records_all	LineChart
+	Population	population__all__0-9	How many people live in each country?	Population	Total	0 - 9 years	population_records_0-9	LineChart
+	Population	population__female__0-9	How many people live in each country?	Population	Female	0 - 9 years	population_records_0-9	LineChart
+	Population	population__male__0-9	How many people live in each country?	Population	Male	0 - 9 years	population_records_0-9	LineChart
+	Population	population__all__10-19		Population	Total	10 - 19 years	population_records_10-19
+	Population	population__female__10-19		Population	Female	10 - 19 years	population_records_10-19
+	Population	population__male__10-19		Population	Male	10 - 19 years	population_records_10-19
+	Population	population__all__20-29		Population	Total	20 - 29 years
+	Population	population__female__20-29		Population	Female	20 - 29 years
+	Population	population__male__20-29		Population	Male	20 - 29 years
+	Population	population__all__30-39		Population	Total	30 - 39 years
+	Population	population__female__30-39		Population	Female	20 - 29 years
+	Population	population__male__30-39		Population	Male	20 - 29 years
+table	https://files.ourworldindata.org/data/unwpp-unstable/population_records_all.csv	population_records_all
+columns	population_records_all
+	slug	name	type
+	location	Country name	EntityName
+	year	Year	Year
+table	https://files.ourworldindata.org/data/unwpp-unstable/population_records_0-9.csv	population_records_0-9
+columns	population_records_0-9
+	slug	name	type
+	location	Country name	EntityName
+	year	Year	Year
+table	https://files.ourworldindata.org/data/unwpp-unstable/population_records_10-19.csv	population_records_10-19
+columns	population_records_10-19
+	slug	name	type
+	location	Country name	EntityName
+	year	Year	Year
 table	https://files.ourworldindata.org/data/unwpp-unstable/population_records_aggregate.csv	population_aggregate
 columns	population_aggregate
 	slug	name	type
 	location	Country name	EntityName
 	year	Year	Year
-	population__all__all	Population	Integer
+table	https://files.ourworldindata.org/data/unwpp-unstable/population_records_aggregate.csv	population_aggregate
+columns	population_aggregate
+	slug	name	type
+	location	Country name	EntityName
+	year	Year	Year
+table	https://files.ourworldindata.org/data/unwpp-unstable/population_records_aggregate.csv	population_aggregate
+columns	population_aggregate
+	slug	name	type
+	location	Country name	EntityName
+	year	Year	Year
