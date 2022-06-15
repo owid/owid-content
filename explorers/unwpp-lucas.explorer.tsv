@@ -9,15 +9,15 @@ graphers
 	Population	population__all__0-9	How many people live in each country?	Population	Total	0 - 9 years	population_records_0-9	LineChart
 	Population	population__female__0-9	How many people live in each country?	Population	Female	0 - 9 years	population_records_0-9	LineChart
 	Population	population__male__0-9	How many people live in each country?	Population	Male	0 - 9 years	population_records_0-9	LineChart
-	Population	population__all__10-19		Population	Total	10 - 19 years	population_records_10-19
-	Population	population__female__10-19		Population	Female	10 - 19 years	population_records_10-19
-	Population	population__male__10-19		Population	Male	10 - 19 years	population_records_10-19
-	Population	population__all__20-29		Population	Total	20 - 29 years
-	Population	population__female__20-29		Population	Female	20 - 29 years
-	Population	population__male__20-29		Population	Male	20 - 29 years
-	Population	population__all__30-39		Population	Total	30 - 39 years
-	Population	population__female__30-39		Population	Female	20 - 29 years
-	Population	population__male__30-39		Population	Male	20 - 29 years
+	Population	population__all__10-19		Population	Total	10 - 19 years	population_records_10-19	LineChart
+	Population	population__female__10-19		Population	Female	10 - 19 years	population_records_10-19	LineChart
+	Population	population__male__10-19		Population	Male	10 - 19 years	population_records_10-19	LineChart
+	Population	population__all__20-29		Population	Total	20 - 29 years	population_records_20-29	LineChart
+	Population	population__female__20-29		Population	Female	20 - 29 years	population_records_20-29	LineChart
+	Population	population__male__20-29		Population	Male	20 - 29 years	population_records_20-29	LineChart
+	Population	population__all__30-39		Population	Total	30 - 39 years	population_records_30-39	LineChart
+	Population	population__female__30-39		Population	Female	30 - 39 years	population_records_30-39	LineChart
+	Population	population__male__30-39		Population	Male	30 - 39 years	population_records_30-39	LineChart
 table	https://files.ourworldindata.org/data/unwpp-unstable/population_records_all.csv	population_records_all
 columns	population_records_all
 	slug	name	type
@@ -33,13 +33,13 @@ columns	population_records_10-19
 	slug	name	type
 	location	Country name	EntityName
 	year	Year	Year
-table	https://files.ourworldindata.org/data/unwpp-unstable/population_records_aggregate.csv	population_aggregate
-columns	population_aggregate
+table	https://files.ourworldindata.org/data/unwpp-unstable/population_records_20-29.csv	population_records_20-29
+columns	population_records_20-29
 	slug	name	type
 	location	Country name	EntityName
 	year	Year	Year
-table	https://files.ourworldindata.org/data/unwpp-unstable/population_records_aggregate.csv	population_aggregate
-columns	population_aggregate
+table	https://files.ourworldindata.org/data/unwpp-unstable/population_records_30-39.csv	population_records_30-39
+columns	population_records_30-39
 	slug	name	type
 	location	Country name	EntityName
 	year	Year	Year
