@@ -1,0 +1,51 @@
+explorerTitle	Slack Analytics
+explorerSubtitle	Collected from Slack Admin Dashboard
+selection	All
+yAxisMin	0
+isPublished	false
+
+
+graphers
+	title	ySlugs	subtitle	type	Metric Radio	Stacked Checkbox	stackMode	defaultView
+	Messages per day	messages_in_public_channels_smooth messages_in_private_channels_smooth messages_in_shared_channels_smooth messages_in_dms_smooth	14-day average	StackedArea	Messages	false	absolute
+	Messages per day	messages_in_public_channels_smooth messages_in_private_channels_smooth messages_in_shared_channels_smooth messages_in_dms_smooth	14-day average	StackedArea	Messages	true	relative
+
+
+
+table	https://owid-public.nyc3.digitaloceanspaces.com/owid-slack-analytics-2022-05-05.csv
+columns
+	slug	type	name	unit	shortUnit	transform
+	date	Date	Date
+	entity	EntityName	Entity
+	total_enabled_membership	Integer	Total enabled membership
+	enabled_full_members	Integer	Enabled full members
+	enabled_guests	Integer	Enabled guests
+	daily_active_members	Integer	Daily active members
+	daily_members_posting_messages	Integer	Daily members posting messages
+	weekly_active_members	Integer	Weekly active members
+	weekly_members_posting_messages	Integer	Weekly members posting messages
+	messages_in_public_channels	Integer	Messages in public channels
+	messages_in_private_channels	Integer	Messages in private channels
+	messages_in_shared_channels	Integer	Messages in shared channels
+	messages_in_dms	Integer	Messages in DMs
+	messages_in_public_channels_smooth	Numeric	Messages in public channels			rollingAverage date entity messages_in_public_channels 14
+	messages_in_private_channels_smooth	Numeric	Messages in private channels			rollingAverage date entity messages_in_private_channels 14
+	messages_in_shared_channels_smooth	Numeric	Messages in shared channels			rollingAverage date entity messages_in_shared_channels 14
+	messages_in_dms_smooth	Numeric	Messages in DMs			rollingAverage date entity messages_in_dms 14
+	percentage_of_messages_public_channels	Numeric	Percentage of messages, public channels
+	percentage_of_messages_private_channels	Numeric	Percentage of messages, private channels
+	percentage_of_messages_dms	Numeric	Percentage of messages, DMs
+	percentage_of_views_public_channels	Numeric	Percentage of views, public channels
+	percentage_of_views_private_channels	Numeric	Percentage of views, private channels
+	percentage_of_views_dms	Numeric	Percentage of views, DMs
+	total_full_members	Integer	Total full members
+	total_guests	Integer	Total guests
+	total_claimed_full_members	Integer	Total claimed full members
+	total_claimed_guests	Integer	Total claimed guests
+	total_members	Integer	Total members
+	total_claimed_members	Integer	Total claimed members
+	files_uploaded	Integer	Files uploaded
+	messages_posted_by_members	Integer	Messages posted by members
+	public_channels_single-workspace	Integer	Public channels, single-workspace
+	messages_posted	Integer	Messages posted
+	messages_posted_by_apps	Integer	Messages posted by app

@@ -33,4 +33,4 @@ columns	US
 	top1_2	Numeric	Share of top 1 per cent in total net worth (survey data: households) (*)
 	country	EntityName	Country
 	year	Year	Year
-isPublished	true
+isPublished	false

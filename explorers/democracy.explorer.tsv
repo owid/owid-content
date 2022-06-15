@@ -1,0 +1,187 @@
+explorerTitle	Democracy Data Explorer
+isPublished	true
+explorerSubtitle	Explore the world's political systems with the leading approaches of measuring democracy. Download the complete <a href="https://github.com/owid/notebooks/tree/main/BastianHerre/democracy">Democracy Data</a>.
+selection	Argentina	Australia	Botswana	China	World
+subNavId
+subNavCurrentId	democracy-data
+graphers
+	grapherId	Source Dropdown	Metric Dropdown	Sub-metric Dropdown
+	5537	Varieties of Democracy	Electoral democracy	Main index
+	3461	Varieties of Democracy	Electoral democracy	Elected officials
+	3457	Varieties of Democracy	Electoral democracy	Share of adult citizens who have the right to vote
+	5538	Varieties of Democracy	Electoral democracy	Free and fair elections
+	5539	Varieties of Democracy	Electoral democracy	Freedom of association
+	5540	Varieties of Democracy	Electoral democracy	Freedom of expression
+	5685	Varieties of Democracy	Electoral democracy	Main index weighted by population
+	3376	Varieties of Democracy	Liberal democracy	Main index
+	5537	Varieties of Democracy	Liberal democracy	Electoral democracy
+	5736	Varieties of Democracy	Liberal democracy	Liberal political institutions
+	5615	Varieties of Democracy	Liberal democracy	Civil liberties
+	5741	Varieties of Democracy	Liberal democracy	Judicial constraints on the executive
+	5742	Varieties of Democracy	Liberal democracy	Legislative constraints on the executive
+	5684	Varieties of Democracy	Liberal democracy	Main index weighted by population
+	5743	Varieties of Democracy	Participatory democracy	Main index
+	5537	Varieties of Democracy	Participatory democracy	Electoral democracy
+	5687	Varieties of Democracy	Participatory democracy	Participatory political institutions
+	5747	Varieties of Democracy	Participatory democracy	Strong elected regional governments
+	5746	Varieties of Democracy	Participatory democracy	Strong elected local governments
+	5744	Varieties of Democracy	Participatory democracy	Civil society participation
+	5745	Varieties of Democracy	Participatory democracy	Direct popular voting
+	5687	Varieties of Democracy	Participatory democracy	Main index weighted by population
+	5689	Varieties of Democracy	Deliberative democracy	Main index
+	5537	Varieties of Democracy	Deliberative democracy	Electoral democracy
+	5748	Varieties of Democracy	Deliberative democracy	Deliberative political institutions
+	5749	Varieties of Democracy	Deliberative democracy	Justified political positions
+	5750	Varieties of Democracy	Deliberative democracy	Common good justifications
+	5751	Varieties of Democracy	Deliberative democracy	Respect for counterarguments
+	5752	Varieties of Democracy	Deliberative democracy	Elite consultations
+	5753	Varieties of Democracy	Deliberative democracy	Engaged society
+	5691	Varieties of Democracy	Deliberative democracy	Main index weighted by population
+	5688	Varieties of Democracy	Egalitarian democracy	Main index
+	5537	Varieties of Democracy	Egalitarian democracy	Electoral democracy
+	5754	Varieties of Democracy	Egalitarian democracy	Egalitarian political institutions
+	5755	Varieties of Democracy	Egalitarian democracy	Equal rights protection
+	5756	Varieties of Democracy	Egalitarian democracy	Equal access to power
+	5757	Varieties of Democracy	Egalitarian democracy	Equal resource distribution
+	5692	Varieties of Democracy	Egalitarian democracy	Main index weighted by population
+	5844	Varieties of Democracy	Varieties of democracy	Main indices
+	5686	Varieties of Democracy	Varieties of democracy	Main indices weighted by population
+	3470	Regimes of the World	Political regime	Main classification
+	5616	Regimes of the World	Political regime	Number of democracies
+	5608	Regimes of the World	Political regime	Share of democracies
+	5451	Regimes of the World	Political regime	People living in democracies
+	5852	Regimes of the World	Electoral democracy	Main classification
+	5728	Regimes of the World	Electoral democracy	Multi-party elections
+	5729	Regimes of the World	Electoral democracy	Multi-party elections for chief executive
+	5730	Regimes of the World	Electoral democracy	Multi-party elections for legislature
+	5734	Regimes of the World	Electoral democracy	Free and fair eleections
+	5732	Regimes of the World	Electoral democracy	Democratic electoral institutions
+	5517	Regimes of the World	Electoral democracy	Age of electoral democracy
+	5676	Regimes of the World	Electoral democracy	Number of long-standing electoral democracies
+	5677	Regimes of the World	Electoral democracy	Share of long-standing electoral democracies
+	5674	Regimes of the World	Electoral democracy	People living in long-standing electoral democracies
+	5521	Regimes of the World	Electoral democracy	Number of electoral democracies by age
+	5569	Regimes of the World	Electoral democracy	Experience with electoral democracy
+	5849	Regimes of the World	Liberal democracy	Main classification
+	5735	Regimes of the World	Liberal democracy	Transparent laws
+	5731	Regimes of the World	Liberal democracy	Access to justice for men
+	5733	Regimes of the World	Liberal democracy	Access to justice for women
+	5736	Regimes of the World	Liberal democracy	Liberal political institutions
+	5518	Regimes of the World	Liberal democracy	Age of liberal democracy
+	5678	Regimes of the World	Liberal democracy	Number of long-standing liberal democracies
+	5679	Regimes of the World	Liberal democracy	Share of long-standing liberal democracies
+	5675	Regimes of the World	Liberal democracy	People living in long-standing liberal democracies
+	5524	Regimes of the World	Liberal democracy	Number of liberal democracies by age
+	5570	Regimes of the World	Liberal democracy	Experience with liberal democracy
+	5693	Regimes of the World	Political regime, including ambiguous categories	Main classification
+	5700	Regimes of the World	Political regime, including ambiguous categories	Number of democracies
+	5701	Regimes of the World	Political regime, including ambiguous categories	Share of democracies
+	5699	Regimes of the World	Political regime, including ambiguous categories	People living in democracies
+	5758	Lexical Index	Political regime	Main classification
+	5766	Lexical Index	Political regime	Number of democracies
+	5767	Lexical Index	Political regime	Share of democracies
+	5765	Lexical Index	Political regime	People living in democracies
+	5851	Lexical Index	Electoral democracy	Main classification
+	5760	Lexical Index	Electoral democracy	Elections for legislature
+	5759	Lexical Index	Electoral democracy	Elections for chief executive
+	5761	Lexical Index	Electoral democracy	Political opposition
+	5763	Lexical Index	Electoral democracy	Competitive elections
+	5762	Lexical Index	Electoral democracy	Universal right to vote for men
+	1170	Lexical Index	Electoral democracy	Universal right to vote for women
+	5778	Lexical Index	Electoral democracy	Age of electoral democracy
+	5769	Lexical Index	Electoral democracy	Number of long-standing electoral democracies
+	5770	Lexical Index	Electoral democracy	Share of long-standing electoral democracies
+	5776	Lexical Index	Electoral democracy	People living in long-standing electoral democracies
+	5780	Lexical Index	Electoral democracy	Number of electoral democracies by age
+	5774	Lexical Index	Electoral democracy	Experience with electoral democracy
+	5850	Lexical Index	Polyarchy	Main classification
+	5764	Lexical Index	Polyarchy	Political liberties
+	5779	Lexical Index	Polyarchy	Age of polyarchy
+	5773	Lexical Index	Polyarchy	Number of long-standing polyarchies
+	5772	Lexical Index	Polyarchy	Share of long-standing polyarchies
+	5777	Lexical Index	Polyarchy	People living in long-standing polyarchies
+	5781	Lexical Index	Polyarchy	Number of polyarchies by age
+	5775	Lexical Index	Polyarchy	Experience with polyarchy
+	5581	Boix-Miller-Rosato	Democracy	Main classification
+	5617	Boix-Miller-Rosato	Democracy	Number of democracies
+	3468	Boix-Miller-Rosato	Democracy	Share of democracies
+	5680	Boix-Miller-Rosato	Democracy	People living in democracies
+	5564	Boix-Miller-Rosato	Democracy	Age of democracy
+	5682	Boix-Miller-Rosato	Democracy	Number of long-standing democracies
+	5681	Boix-Miller-Rosato	Democracy	Share of long-standing democracies
+	5683	Boix-Miller-Rosato	Democracy	People living in long-standing democracies
+	5565	Boix-Miller-Rosato	Democracy	Number of democracies by age
+	5571	Boix-Miller-Rosato	Democracy	Experience with democracy
+	5695	Boix-Miller-Rosato	Democracy with women's right to vote	Main classification
+	5703	Boix-Miller-Rosato	Democracy with women's right to vote	Number of democracies
+	5707	Boix-Miller-Rosato	Democracy with women's right to vote	Share of democracies
+	5705	Boix-Miller-Rosato	Democracy with women's right to vote	People living in democracies
+	5722	Boix-Miller-Rosato	Democracy with women's right to vote	Age of democracy
+	5702	Boix-Miller-Rosato	Democracy with women's right to vote	Number of long-standing democracies
+	5708	Boix-Miller-Rosato	Democracy with women's right to vote	Share of long-standing democracies
+	5704	Boix-Miller-Rosato	Democracy with women's right to vote	People living in long-standing democracies
+	5723	Boix-Miller-Rosato	Democracy with women's right to vote	Number of democracies by age
+	5709	Boix-Miller-Rosato	Democracy with women's right to vote	Experience with democracy
+	5789	Polity	Democracy	Main index
+	5790	Polity	Democracy	Competitiveness of executive recruitment
+	5791	Polity	Democracy	Openness of executive recruitment
+	5792	Polity	Democracy	Constraints on the executive
+	5795	Polity	Democracy	Regulation of political participation
+	5794	Polity	Democracy	Competitiveness of political participation
+	5793	Polity	Democracy	Average democracy weighted by population
+	5788	Polity	Political regime	Main classification
+	5797	Polity	Political regime	Number of democracies
+	5798	Polity	Political regime	Share of democracies
+	5799	Polity	Political regime	People living in democracies
+	5796	Polity	Political regime	Age of democracy
+	5800	Polity	Political regime	Number of long-standing democracies
+	5801	Polity	Political regime	Share of long-standing democracies
+	5802	Polity	Political regime	People living in long-standing democracies
+	5805	Polity	Political regime	Number of democracies by age
+	5804	Polity	Political regime	Experience with democracy
+	5712	Freedom House	Freedom	Main classification
+	5725	Freedom House	Freedom	Political rights (score)
+	5726	Freedom House	Freedom	Political rights (rating)
+	5727	Freedom House	Freedom	Civil liberties (score)
+	5724	Freedom House	Freedom	Civil liberties (rating)
+	5785	Freedom House	Freedom	Number of free countries and territories
+	5786	Freedom House	Freedom	Share of free countries and territories
+	5720	Freedom House	Freedom	People living in free countries and territories
+	5713	Freedom House	Electoral democracy	Main classification
+	5787	Freedom House	Electoral democracy	Democratic electoral institutions
+	5725	Freedom House	Electoral democracy	Political rights (score)
+	5726	Freedom House	Electoral democracy	Political rights (rating)
+	5727	Freedom House	Electoral democracy	Civil liberties (score)
+	5724	Freedom House	Electoral democracy	Civil liberties (rating)
+	5714	Freedom House	Electoral democracy	Number of democracies
+	5717	Freedom House	Electoral democracy	Share of democracies
+	5718	Freedom House	Electoral democracy	People living in democracies
+	5814	Bertelsmann Transformation Index	Democratic features	Main index
+	5815	Bertelsmann Transformation Index	Democratic features	Stateness
+	5816	Bertelsmann Transformation Index	Democratic features	Political participation
+	5817	Bertelsmann Transformation Index	Democratic features	Rule of law
+	5818	Bertelsmann Transformation Index	Democratic features	Stability of democratic institutions
+	5819	Bertelsmann Transformation Index	Democratic features	Political and social integration
+	5823	Bertelsmann Transformation Index	Democratic features	Average democracy weighted by population
+	5806	Bertelsmann Transformation Index	Political regime	Main classification
+	5807	Bertelsmann Transformation Index	Political regime	Basic state functions
+	5808	Bertelsmann Transformation Index	Political regime	Free and fair elections
+	5809	Bertelsmann Transformation Index	Political regime	Effective power to govern
+	5810	Bertelsmann Transformation Index	Political regime	Freedom of association
+	5811	Bertelsmann Transformation Index	Political regime	Freedom of expression
+	5812	Bertelsmann Transformation Index	Political regime	Separation of powers
+	5813	Bertelsmann Transformation Index	Political regime	Civil rights
+	5814	Bertelsmann Transformation Index	Political regime	Democratic features
+	5820	Bertelsmann Transformation Index	Political regime	Number of democracies
+	5821	Bertelsmann Transformation Index	Political regime	Share of democracies
+	5822	Bertelsmann Transformation Index	Political regime	People living in democracies
+	5826	Economist Intelligence Unit	Democracy	Main index
+	5833	Economist Intelligence Unit	Democracy	Political regime
+	5830	Economist Intelligence Unit	Democracy	Electoral pluralism
+	5829	Economist Intelligence Unit	Democracy	Functioning government
+	5828	Economist Intelligence Unit	Democracy	Democratic culture
+	5827	Economist Intelligence Unit	Democracy	Civil liberties
+	5831	Economist Intelligence Unit	Democracy	Number of democracies
+	5834	Economist Intelligence Unit	Democracy	Share of democracies
+	5832	Economist Intelligence Unit	Democracy	People living in democracies
+	5835	Economist Intelligence Unit	Democracy	Average democracy weighted by population

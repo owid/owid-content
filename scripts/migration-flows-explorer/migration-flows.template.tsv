@@ -12,6 +12,6 @@ tab	map
 graphers
 $graphers_tsv
 
-table	https://raw.githubusercontent.com/owid/importers/migration_matrix/migration/output/Migration_matrix_new.csv	migration-flow
+table	https://raw.githubusercontent.com/owid/importers/master/migration/output/Migration_matrix_new.csv	migration-flow
 columns	migration-flow
 $column_defs
