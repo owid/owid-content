@@ -242,13 +242,23 @@ columns	population_medium_all
 	slug	name	type
 	location	Country name	EntityName
 	year	Year	Year
-table	https://files.ourworldindata.org/data/unwpp-unstable/population__medium__0-9.csv	population_medium_0-9
-columns	population_medium_0-9
+table	https://files.ourworldindata.org/data/unwpp-unstable/population__medium__0-4.csv	population_medium_0-4
+columns	population_medium_0-4
 	slug	name	type
 	location	Country name	EntityName
 	year	Year	Year
-table	https://files.ourworldindata.org/data/unwpp-unstable/population__medium__10-19.csv	population_medium_10-19
-columns	population_medium_10-19
+table	https://files.ourworldindata.org/data/unwpp-unstable/population__medium__5-9.csv	population_medium_5-9
+columns	population_medium_5-9
+	slug	name	type
+	location	Country name	EntityName
+	year	Year	Year
+table	https://files.ourworldindata.org/data/unwpp-unstable/population__medium__10-14.csv	population_medium_10-14
+columns	population_medium_10-14
+	slug	name	type
+	location	Country name	EntityName
+	year	Year	Year
+table	https://files.ourworldindata.org/data/unwpp-unstable/population__medium__15-19.csv	population_medium_15-19
+columns	population_medium_15-19
 	slug	name	type
 	location	Country name	EntityName
 	year	Year	Year
