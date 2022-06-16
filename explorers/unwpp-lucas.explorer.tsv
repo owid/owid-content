@@ -3,7 +3,7 @@ explorerSubtitle	This is the subtitle
 selection	China	India
 hasMapTab	true
 graphers
-	title	ySlugs	subtitle	Metric Dropdown	Sex Dropdown	Age group Dropdown	Projection Scenario Dropdown	tableSlug	type
+	title	ySlugs	subtitle	Metric Dropdown	Sex Dropdown	Age group Dropdown	Projection Scenario Radio	tableSlug	type
 	Population	population__all__all	How many people live in each country?	Population	Total	Total	None	population_records_all	LineChart
 	Population	population__female__all	How many people live in each country?	Population	Female	Total	None	population_records_all	LineChart
 	Population	population__male__all	How many people live in each country?	Population	Male	Total	None	population_records_all	LineChart
