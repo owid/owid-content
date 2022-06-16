@@ -49,12 +49,18 @@ graphers
 	Population	population__all__all	How many people live in each country?	Population	Both sexes	Total	Medium	population_medium_all	LineChart
 	Population	population__female__all	How many people live in each country?	Population	Female	Total	Medium	population_medium_all	LineChart
 	Population	population__male__all	How many people live in each country?	Population	Male	Total	Medium	population_medium_all	LineChart
-	Population	population__all__0-9	How many people live in each country?	Population	Both sexes	0 - 9 years	Medium	population_medium_0-9	LineChart
-	Population	population__female__0-9	How many people live in each country?	Population	Female	0 - 9 years	Medium	population_medium_0-9	LineChart
-	Population	population__male__0-9	How many people live in each country?	Population	Male	0 - 9 years	Medium	population_medium_0-9	LineChart
-	Population	population__all__10-19	How many people live in each country?	Population	Both sexes	10 - 19 years	Medium	population_medium_10-19	LineChart
-	Population	population__female__10-19	How many people live in each country?	Population	Female	10 - 19 years	Medium	population_medium_10-19	LineChart
-	Population	population__male__10-19	How many people live in each country?	Population	Male	10 - 19 years	Medium	population_medium_10-19	LineChart
+	Population	population__all__0-4	How many people live in each country?	Population	Both sexes	0 - 4 years	Medium	population_medium_0-4	LineChart
+	Population	population__female__0-4	How many people live in each country?	Population	Female	0 - 4 years	Medium	population_medium_0-4	LineChart
+	Population	population__male__0-4	How many people live in each country?	Population	Male	0 - 4 years	Medium	population_medium_0-4	LineChart
+	Population	population__all__5-9	How many people live in each country?	Population	Both sexes	5 - 9 years	Medium	population_medium_5-9	LineChart
+	Population	population__female__5-9	How many people live in each country?	Population	Female	5 - 9 years	Medium	population_medium_5-9	LineChart
+	Population	population__male__5-9	How many people live in each country?	Population	Male	5 - 9 years	Medium	population_medium_5-9	LineChart
+	Population	population__all__10-14	How many people live in each country?	Population	Both sexes	10 - 14 years	Medium	population_medium_10-14	LineChart
+	Population	population__female__10-14	How many people live in each country?	Population	Female	10 - 14 years	Medium	population_medium_10-14	LineChart
+	Population	population__male__10-14	How many people live in each country?	Population	Male	10 - 14 years	Medium	population_medium_10-14	LineChart
+	Population	population__all__15-19	How many people live in each country?	Population	Both sexes	15 - 19 years	Medium	population_medium_15-19	LineChart
+	Population	population__female__15-19	How many people live in each country?	Population	Female	15 - 19 years	Medium	population_medium_15-19	LineChart
+	Population	population__male__15-19	How many people live in each country?	Population	Male	15 - 19 years	Medium	population_medium_15-19	LineChart
 	Population	population__all__20-29	How many people live in each country?	Population	Both sexes	20 - 29 years	Medium	population_medium_20-29	LineChart
 	Population	population__female__20-29	How many people live in each country?	Population	Female	20 - 29 years	Medium	population_medium_20-29	LineChart
 	Population	population__male__20-29	How many people live in each country?	Population	Male	20 - 29 years	Medium	population_medium_20-29	LineChart
@@ -85,12 +91,18 @@ graphers
 	Population	population__all__all	How many people live in each country?	Population	Both sexes	Total	Low	population_low_all	LineChart
 	Population	population__female__all	How many people live in each country?	Population	Female	Total	Low	population_low_all	LineChart
 	Population	population__male__all	How many people live in each country?	Population	Male	Total	Low	population_low_all	LineChart
-	Population	population__all__0-9	How many people live in each country?	Population	Both sexes	0 - 9 years	Low	population_low_0-9	LineChart
-	Population	population__female__0-9	How many people live in each country?	Population	Female	0 - 9 years	Low	population_low_0-9	LineChart
-	Population	population__male__0-9	How many people live in each country?	Population	Male	0 - 9 years	Low	population_low_0-9	LineChart
-	Population	population__all__10-19	How many people live in each country?	Population	Both sexes	10 - 19 years	Low	population_low_10-19	LineChart
-	Population	population__female__10-19	How many people live in each country?	Population	Female	10 - 19 years	Low	population_low_10-19	LineChart
-	Population	population__male__10-19	How many people live in each country?	Population	Male	10 - 19 years	Low	population_low_10-19	LineChart
+	Population	population__all__0-4	How many people live in each country?	Population	Both sexes	0 - 4 years	Low	population_low_0-4	LineChart
+	Population	population__female__0-4	How many people live in each country?	Population	Female	0 - 4 years	Low	population_low_0-4	LineChart
+	Population	population__male__0-4	How many people live in each country?	Population	Male	0 - 4 years	Low	population_low_0-4	LineChart
+	Population	population__all__5-9	How many people live in each country?	Population	Both sexes	5 - 9 years	Low	population_low_5-9	LineChart
+	Population	population__female__5-9	How many people live in each country?	Population	Female	5 - 9 years	Low	population_low_5-9	LineChart
+	Population	population__male__5-9	How many people live in each country?	Population	Male	5 - 9 years	Low	population_low_5-9	LineChart
+	Population	population__all__10-14	How many people live in each country?	Population	Both sexes	10 - 14 years	Low	population_low_10-14	LineChart
+	Population	population__female__10-14	How many people live in each country?	Population	Female	10 - 14 years	Low	population_low_10-14	LineChart
+	Population	population__male__10-14	How many people live in each country?	Population	Male	10 - 14 years	Low	population_low_10-14	LineChart
+	Population	population__all__15-19	How many people live in each country?	Population	Both sexes	15 - 19 years	Low	population_low_15-19	LineChart
+	Population	population__female__15-19	How many people live in each country?	Population	Female	15 - 19 years	Low	population_low_15-19	LineChart
+	Population	population__male__15-19	How many people live in each country?	Population	Male	15 - 19 years	Low	population_low_15-19	LineChart
 	Population	population__all__20-29	How many people live in each country?	Population	Both sexes	20 - 29 years	Low	population_low_20-29	LineChart
 	Population	population__female__20-29	How many people live in each country?	Population	Female	20 - 29 years	Low	population_low_20-29	LineChart
 	Population	population__male__20-29	How many people live in each country?	Population	Male	20 - 29 years	Low	population_low_20-29	LineChart
@@ -121,12 +133,18 @@ graphers
 	Population	population__all__all	How many people live in each country?	Population	Both sexes	Total	High	population_high_all	LineChart
 	Population	population__female__all	How many people live in each country?	Population	Female	Total	High	population_high_all	LineChart
 	Population	population__male__all	How many people live in each country?	Population	Male	Total	High	population_high_all	LineChart
-	Population	population__all__0-9	How many people live in each country?	Population	Both sexes	0 - 9 years	High	population_high_0-9	LineChart
-	Population	population__female__0-9	How many people live in each country?	Population	Female	0 - 9 years	High	population_high_0-9	LineChart
-	Population	population__male__0-9	How many people live in each country?	Population	Male	0 - 9 years	High	population_high_0-9	LineChart
-	Population	population__all__10-19	How many people live in each country?	Population	Both sexes	10 - 19 years	High	population_high_10-19	LineChart
-	Population	population__female__10-19	How many people live in each country?	Population	Female	10 - 19 years	High	population_high_10-19	LineChart
-	Population	population__male__10-19	How many people live in each country?	Population	Male	10 - 19 years	High	population_high_10-19	LineChart
+	Population	population__all__0-4	How many people live in each country?	Population	Both sexes	0 - 4 years	High	population_high_0-4	LineChart
+	Population	population__female__0-4	How many people live in each country?	Population	Female	0 - 4 years	High	population_high_0-4	LineChart
+	Population	population__male__0-4	How many people live in each country?	Population	Male	0 - 4 years	High	population_high_0-4	LineChart
+	Population	population__all__5-9	How many people live in each country?	Population	Both sexes	5 - 9 years	High	population_high_5-9	LineChart
+	Population	population__female__5-9	How many people live in each country?	Population	Female	5 - 9 years	High	population_high_5-9	LineChart
+	Population	population__male__5-9	How many people live in each country?	Population	Male	5 - 9 years	High	population_high_5-9	LineChart
+	Population	population__all__10-14	How many people live in each country?	Population	Both sexes	10 - 14 years	High	population_high_10-14	LineChart
+	Population	population__female__10-14	How many people live in each country?	Population	Female	10 - 14 years	High	population_high_10-14	LineChart
+	Population	population__male__10-14	How many people live in each country?	Population	Male	10 - 14 years	High	population_high_10-14	LineChart
+	Population	population__all__15-19	How many people live in each country?	Population	Both sexes	15 - 19 years	High	population_high_15-19	LineChart
+	Population	population__female__15-19	How many people live in each country?	Population	Female	15 - 19 years	High	population_high_15-19	LineChart
+	Population	population__male__15-19	How many people live in each country?	Population	Male	15 - 19 years	High	population_high_15-19	LineChart
 	Population	population__all__20-29	How many people live in each country?	Population	Both sexes	20 - 29 years	High	population_high_20-29	LineChart
 	Population	population__female__20-29	How many people live in each country?	Population	Female	20 - 29 years	High	population_high_20-29	LineChart
 	Population	population__male__20-29	How many people live in each country?	Population	Male	20 - 29 years	High	population_high_20-29	LineChart
@@ -314,13 +332,23 @@ columns	population_low_all
 	slug	name	type
 	location	Country name	EntityName
 	year	Year	Year
-table	https://files.ourworldindata.org/data/unwpp-unstable/population__low__0-9.csv	population_low_0-9
-columns	population_low_0-9
+table	https://files.ourworldindata.org/data/unwpp-unstable/population__low__0-4.csv	population_low_0-4
+columns	population_low_0-4
 	slug	name	type
 	location	Country name	EntityName
 	year	Year	Year
-table	https://files.ourworldindata.org/data/unwpp-unstable/population__low__10-19.csv	population_low_10-19
-columns	population_low_10-19
+table	https://files.ourworldindata.org/data/unwpp-unstable/population__low__5-9.csv	population_low_5-9
+columns	population_low_5-9
+	slug	name	type
+	location	Country name	EntityName
+	year	Year	Year
+table	https://files.ourworldindata.org/data/unwpp-unstable/population__low__10-14.csv	population_low_10-14
+columns	population_low_10-14
+	slug	name	type
+	location	Country name	EntityName
+	year	Year	Year
+table	https://files.ourworldindata.org/data/unwpp-unstable/population__low__15-19.csv	population_low_15-19
+columns	population_low_15-19
 	slug	name	type
 	location	Country name	EntityName
 	year	Year	Year
@@ -376,13 +404,23 @@ columns	population_high_all
 	slug	name	type
 	location	Country name	EntityName
 	year	Year	Year
-table	https://files.ourworldindata.org/data/unwpp-unstable/population__high__0-9.csv	population_high_0-9
-columns	population_high_0-9
+table	https://files.ourworldindata.org/data/unwpp-unstable/population__high__0-4.csv	population_high_0-4
+columns	population_high_0-4
 	slug	name	type
 	location	Country name	EntityName
 	year	Year	Year
-table	https://files.ourworldindata.org/data/unwpp-unstable/population__high__10-19.csv	population_high_10-19
-columns	population_high_10-19
+table	https://files.ourworldindata.org/data/unwpp-unstable/population__high__5-9.csv	population_high_5-9
+columns	population_high_5-9
+	slug	name	type
+	location	Country name	EntityName
+	year	Year	Year
+table	https://files.ourworldindata.org/data/unwpp-unstable/population__high__10-14.csv	population_high_10-14
+columns	population_high_10-14
+	slug	name	type
+	location	Country name	EntityName
+	year	Year	Year
+table	https://files.ourworldindata.org/data/unwpp-unstable/population__high__15-19.csv	population_high_15-19
+columns	population_high_15-19
 	slug	name	type
 	location	Country name	EntityName
 	year	Year	Year
