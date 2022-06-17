@@ -404,586 +404,277 @@ graphers
 
 
 table	https://files.ourworldindata.org/data/unwpp-unstable/population__records__all.csv	population__records__all
-columns	population__records__all
-	slug	name	type	shortUnit	unit
-	location	Country name	EntityName
-	year	Year	Year
-	population__all__all	population	Numeric		
-	population__female__all	population	Numeric		
-	population__male__all	population	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population__low__all.csv	population__low__all
-columns	population__low__all
-	slug	name	type	shortUnit	unit
-	location	Country name	EntityName
-	year	Year	Year
-	population__all__all	population	Numeric		
-	population__female__all	population	Numeric		
-	population__male__all	population	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population__medium__all.csv	population__medium__all
-columns	population__medium__all
-	slug	name	type	shortUnit	unit
-	location	Country name	EntityName
-	year	Year	Year
-	population__all__all	population	Numeric		
-	population__female__all	population	Numeric		
-	population__male__all	population	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population__high__all.csv	population__high__all
-columns	population__high__all
+columns	population__records__all	population__low__all	population__medium__all	population__high__all
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	population__all__all	population	Numeric		
-	population__female__all	population	Numeric		
-	population__male__all	population	Numeric		
+	population__all__all	Population	Numeric		
+	population__female__all	Female population	Numeric		
+	population__male__all	Male population	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population__records__0-4.csv	population__records__0-4
-columns	population__records__0-4
-	slug	name	type	shortUnit	unit
-	location	Country name	EntityName
-	year	Year	Year
-	population__all__0-4	population	Numeric		
-	population__female__0-4	population	Numeric		
-	population__male__0-4	population	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population__low__0-4.csv	population__low__0-4
-columns	population__low__0-4
-	slug	name	type	shortUnit	unit
-	location	Country name	EntityName
-	year	Year	Year
-	population__all__0-4	population	Numeric		
-	population__female__0-4	population	Numeric		
-	population__male__0-4	population	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population__medium__0-4.csv	population__medium__0-4
-columns	population__medium__0-4
-	slug	name	type	shortUnit	unit
-	location	Country name	EntityName
-	year	Year	Year
-	population__all__0-4	population	Numeric		
-	population__female__0-4	population	Numeric		
-	population__male__0-4	population	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population__high__0-4.csv	population__high__0-4
-columns	population__high__0-4
+columns	population__records__0-4	population__low__0-4	population__medium__0-4	population__high__0-4
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	population__all__0-4	population	Numeric		
-	population__female__0-4	population	Numeric		
-	population__male__0-4	population	Numeric		
+	population__all__0-4	Population aged 0 to 4 years	Numeric		
+	population__female__0-4	Female population aged 0 to 4 years	Numeric		
+	population__male__0-4	Male population aged 0 to 4 years	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population__records__5-9.csv	population__records__5-9
-columns	population__records__5-9
-	slug	name	type	shortUnit	unit
-	location	Country name	EntityName
-	year	Year	Year
-	population__all__5-9	population	Numeric		
-	population__female__5-9	population	Numeric		
-	population__male__5-9	population	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population__low__5-9.csv	population__low__5-9
-columns	population__low__5-9
-	slug	name	type	shortUnit	unit
-	location	Country name	EntityName
-	year	Year	Year
-	population__all__5-9	population	Numeric		
-	population__female__5-9	population	Numeric		
-	population__male__5-9	population	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population__medium__5-9.csv	population__medium__5-9
-columns	population__medium__5-9
-	slug	name	type	shortUnit	unit
-	location	Country name	EntityName
-	year	Year	Year
-	population__all__5-9	population	Numeric		
-	population__female__5-9	population	Numeric		
-	population__male__5-9	population	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population__high__5-9.csv	population__high__5-9
-columns	population__high__5-9
+columns	population__records__5-9	population__low__5-9	population__medium__5-9	population__high__5-9
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	population__all__5-9	population	Numeric		
-	population__female__5-9	population	Numeric		
-	population__male__5-9	population	Numeric		
+	population__all__5-9	Population aged 5 to 9 years	Numeric		
+	population__female__5-9	Female population aged 5 to 9 years	Numeric		
+	population__male__5-9	Male population aged 5 to 9 years	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population__records__10-14.csv	population__records__10-14
-columns	population__records__10-14
-	slug	name	type	shortUnit	unit
-	location	Country name	EntityName
-	year	Year	Year
-	population__all__10-14	population	Numeric		
-	population__female__10-14	population	Numeric		
-	population__male__10-14	population	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population__low__10-14.csv	population__low__10-14
-columns	population__low__10-14
-	slug	name	type	shortUnit	unit
-	location	Country name	EntityName
-	year	Year	Year
-	population__all__10-14	population	Numeric		
-	population__female__10-14	population	Numeric		
-	population__male__10-14	population	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population__medium__10-14.csv	population__medium__10-14
-columns	population__medium__10-14
-	slug	name	type	shortUnit	unit
-	location	Country name	EntityName
-	year	Year	Year
-	population__all__10-14	population	Numeric		
-	population__female__10-14	population	Numeric		
-	population__male__10-14	population	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population__high__10-14.csv	population__high__10-14
-columns	population__high__10-14
+columns	population__records__10-14	population__low__10-14	population__medium__10-14	population__high__10-14
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	population__all__10-14	population	Numeric		
-	population__female__10-14	population	Numeric		
-	population__male__10-14	population	Numeric		
+	population__all__10-14	Population aged 10 to 14 years	Numeric		
+	population__female__10-14	Female population aged 10 to 14 years	Numeric		
+	population__male__10-14	Male population aged 10 to 14 years	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population__records__15-19.csv	population__records__15-19
-columns	population__records__15-19
-	slug	name	type	shortUnit	unit
-	location	Country name	EntityName
-	year	Year	Year
-	population__all__15-19	population	Numeric		
-	population__female__15-19	population	Numeric		
-	population__male__15-19	population	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population__low__15-19.csv	population__low__15-19
-columns	population__low__15-19
-	slug	name	type	shortUnit	unit
-	location	Country name	EntityName
-	year	Year	Year
-	population__all__15-19	population	Numeric		
-	population__female__15-19	population	Numeric		
-	population__male__15-19	population	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population__medium__15-19.csv	population__medium__15-19
-columns	population__medium__15-19
-	slug	name	type	shortUnit	unit
-	location	Country name	EntityName
-	year	Year	Year
-	population__all__15-19	population	Numeric		
-	population__female__15-19	population	Numeric		
-	population__male__15-19	population	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population__high__15-19.csv	population__high__15-19
-columns	population__high__15-19
+columns	population__records__15-19	population__low__15-19	population__medium__15-19	population__high__15-19
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	population__all__15-19	population	Numeric		
-	population__female__15-19	population	Numeric		
-	population__male__15-19	population	Numeric		
+	population__all__15-19	Population aged 15 to 19 years	Numeric		
+	population__female__15-19	Female population aged 15 to 19 years	Numeric		
+	population__male__15-19	Male population aged 15 to 19 years	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population__records__20-29.csv	population__records__20-29
-columns	population__records__20-29
-	slug	name	type	shortUnit	unit
-	location	Country name	EntityName
-	year	Year	Year
-	population__all__20-29	population	Numeric		
-	population__female__20-29	population	Numeric		
-	population__male__20-29	population	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population__low__20-29.csv	population__low__20-29
-columns	population__low__20-29
-	slug	name	type	shortUnit	unit
-	location	Country name	EntityName
-	year	Year	Year
-	population__all__20-29	population	Numeric		
-	population__female__20-29	population	Numeric		
-	population__male__20-29	population	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population__medium__20-29.csv	population__medium__20-29
-columns	population__medium__20-29
-	slug	name	type	shortUnit	unit
-	location	Country name	EntityName
-	year	Year	Year
-	population__all__20-29	population	Numeric		
-	population__female__20-29	population	Numeric		
-	population__male__20-29	population	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population__high__20-29.csv	population__high__20-29
-columns	population__high__20-29
+columns	population__records__20-29	population__low__20-29	population__medium__20-29	population__high__20-29
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	population__all__20-29	population	Numeric		
-	population__female__20-29	population	Numeric		
-	population__male__20-29	population	Numeric		
+	population__all__20-29	Population aged 20 to 29 years	Numeric		
+	population__female__20-29	Female population aged 20 to 29 years	Numeric		
+	population__male__20-29	Male population aged 20 to 29 years	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population__records__30-39.csv	population__records__30-39
-columns	population__records__30-39
-	slug	name	type	shortUnit	unit
-	location	Country name	EntityName
-	year	Year	Year
-	population__all__30-39	population	Numeric		
-	population__female__30-39	population	Numeric		
-	population__male__30-39	population	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population__low__30-39.csv	population__low__30-39
-columns	population__low__30-39
-	slug	name	type	shortUnit	unit
-	location	Country name	EntityName
-	year	Year	Year
-	population__all__30-39	population	Numeric		
-	population__female__30-39	population	Numeric		
-	population__male__30-39	population	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population__medium__30-39.csv	population__medium__30-39
-columns	population__medium__30-39
-	slug	name	type	shortUnit	unit
-	location	Country name	EntityName
-	year	Year	Year
-	population__all__30-39	population	Numeric		
-	population__female__30-39	population	Numeric		
-	population__male__30-39	population	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population__high__30-39.csv	population__high__30-39
-columns	population__high__30-39
+columns	population__records__30-39	population__low__30-39	population__medium__30-39	population__high__30-39
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	population__all__30-39	population	Numeric		
-	population__female__30-39	population	Numeric		
-	population__male__30-39	population	Numeric		
+	population__all__30-39	Population aged 30 to 39 years	Numeric		
+	population__female__30-39	Female population aged 30 to 39 years	Numeric		
+	population__male__30-39	Male population aged 30 to 39 years	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population__records__40-49.csv	population__records__40-49
-columns	population__records__40-49
-	slug	name	type	shortUnit	unit
-	location	Country name	EntityName
-	year	Year	Year
-	population__all__40-49	population	Numeric		
-	population__female__40-49	population	Numeric		
-	population__male__40-49	population	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population__low__40-49.csv	population__low__40-49
-columns	population__low__40-49
-	slug	name	type	shortUnit	unit
-	location	Country name	EntityName
-	year	Year	Year
-	population__all__40-49	population	Numeric		
-	population__female__40-49	population	Numeric		
-	population__male__40-49	population	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population__medium__40-49.csv	population__medium__40-49
-columns	population__medium__40-49
-	slug	name	type	shortUnit	unit
-	location	Country name	EntityName
-	year	Year	Year
-	population__all__40-49	population	Numeric		
-	population__female__40-49	population	Numeric		
-	population__male__40-49	population	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population__high__40-49.csv	population__high__40-49
-columns	population__high__40-49
+columns	population__records__40-49	population__low__40-49	population__medium__40-49	population__high__40-49
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	population__all__40-49	population	Numeric		
-	population__female__40-49	population	Numeric		
-	population__male__40-49	population	Numeric		
+	population__all__40-49	Population aged 40 to 49 years	Numeric		
+	population__female__40-49	Female population aged 40 to 49 years	Numeric		
+	population__male__40-49	Male population aged 40 to 49 years	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population__records__50-59.csv	population__records__50-59
-columns	population__records__50-59
-	slug	name	type	shortUnit	unit
-	location	Country name	EntityName
-	year	Year	Year
-	population__all__50-59	population	Numeric		
-	population__female__50-59	population	Numeric		
-	population__male__50-59	population	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population__low__50-59.csv	population__low__50-59
-columns	population__low__50-59
-	slug	name	type	shortUnit	unit
-	location	Country name	EntityName
-	year	Year	Year
-	population__all__50-59	population	Numeric		
-	population__female__50-59	population	Numeric		
-	population__male__50-59	population	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population__medium__50-59.csv	population__medium__50-59
-columns	population__medium__50-59
-	slug	name	type	shortUnit	unit
-	location	Country name	EntityName
-	year	Year	Year
-	population__all__50-59	population	Numeric		
-	population__female__50-59	population	Numeric		
-	population__male__50-59	population	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population__high__50-59.csv	population__high__50-59
-columns	population__high__50-59
+columns	population__records__50-59	population__low__50-59	population__medium__50-59	population__high__50-59
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	population__all__50-59	population	Numeric		
-	population__female__50-59	population	Numeric		
-	population__male__50-59	population	Numeric		
+	population__all__50-59	Population aged 50 to 59 years	Numeric		
+	population__female__50-59	Female population aged 50 to 59 years	Numeric		
+	population__male__50-59	Male population aged 50 to 59 years	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population__records__60-69.csv	population__records__60-69
-columns	population__records__60-69
-	slug	name	type	shortUnit	unit
-	location	Country name	EntityName
-	year	Year	Year
-	population__all__60-69	population	Numeric		
-	population__female__60-69	population	Numeric		
-	population__male__60-69	population	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population__low__60-69.csv	population__low__60-69
-columns	population__low__60-69
-	slug	name	type	shortUnit	unit
-	location	Country name	EntityName
-	year	Year	Year
-	population__all__60-69	population	Numeric		
-	population__female__60-69	population	Numeric		
-	population__male__60-69	population	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population__medium__60-69.csv	population__medium__60-69
-columns	population__medium__60-69
-	slug	name	type	shortUnit	unit
-	location	Country name	EntityName
-	year	Year	Year
-	population__all__60-69	population	Numeric		
-	population__female__60-69	population	Numeric		
-	population__male__60-69	population	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population__high__60-69.csv	population__high__60-69
-columns	population__high__60-69
+columns	population__records__60-69	population__low__60-69	population__medium__60-69	population__high__60-69
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	population__all__60-69	population	Numeric		
-	population__female__60-69	population	Numeric		
-	population__male__60-69	population	Numeric		
+	population__all__60-69	Population aged 60 to 69 years	Numeric		
+	population__female__60-69	Female population aged 60 to 69 years	Numeric		
+	population__male__60-69	Male population aged 60 to 69 years	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population__records__70-79.csv	population__records__70-79
-columns	population__records__70-79
-	slug	name	type	shortUnit	unit
-	location	Country name	EntityName
-	year	Year	Year
-	population__all__70-79	population	Numeric		
-	population__female__70-79	population	Numeric		
-	population__male__70-79	population	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population__low__70-79.csv	population__low__70-79
-columns	population__low__70-79
-	slug	name	type	shortUnit	unit
-	location	Country name	EntityName
-	year	Year	Year
-	population__all__70-79	population	Numeric		
-	population__female__70-79	population	Numeric		
-	population__male__70-79	population	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population__medium__70-79.csv	population__medium__70-79
-columns	population__medium__70-79
-	slug	name	type	shortUnit	unit
-	location	Country name	EntityName
-	year	Year	Year
-	population__all__70-79	population	Numeric		
-	population__female__70-79	population	Numeric		
-	population__male__70-79	population	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population__high__70-79.csv	population__high__70-79
-columns	population__high__70-79
+columns	population__records__70-79	population__low__70-79	population__medium__70-79	population__high__70-79
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	population__all__70-79	population	Numeric		
-	population__female__70-79	population	Numeric		
-	population__male__70-79	population	Numeric		
+	population__all__70-79	Population aged 70 to 79 years	Numeric		
+	population__female__70-79	Female population aged 70 to 79 years	Numeric		
+	population__male__70-79	Male population aged 70 to 79 years	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population__records__80-89.csv	population__records__80-89
-columns	population__records__80-89
-	slug	name	type	shortUnit	unit
-	location	Country name	EntityName
-	year	Year	Year
-	population__all__80-89	population	Numeric		
-	population__female__80-89	population	Numeric		
-	population__male__80-89	population	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population__low__80-89.csv	population__low__80-89
-columns	population__low__80-89
-	slug	name	type	shortUnit	unit
-	location	Country name	EntityName
-	year	Year	Year
-	population__all__80-89	population	Numeric		
-	population__female__80-89	population	Numeric		
-	population__male__80-89	population	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population__medium__80-89.csv	population__medium__80-89
-columns	population__medium__80-89
-	slug	name	type	shortUnit	unit
-	location	Country name	EntityName
-	year	Year	Year
-	population__all__80-89	population	Numeric		
-	population__female__80-89	population	Numeric		
-	population__male__80-89	population	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population__high__80-89.csv	population__high__80-89
-columns	population__high__80-89
+columns	population__records__80-89	population__low__80-89	population__medium__80-89	population__high__80-89
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	population__all__80-89	population	Numeric		
-	population__female__80-89	population	Numeric		
-	population__male__80-89	population	Numeric		
+	population__all__80-89	Population aged 80 to 89 years	Numeric		
+	population__female__80-89	Female population aged 80 to 89 years	Numeric		
+	population__male__80-89	Male population aged 80 to 89 years	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population__records__90-99.csv	population__records__90-99
-columns	population__records__90-99
-	slug	name	type	shortUnit	unit
-	location	Country name	EntityName
-	year	Year	Year
-	population__all__90-99	population	Numeric		
-	population__female__90-99	population	Numeric		
-	population__male__90-99	population	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population__low__90-99.csv	population__low__90-99
-columns	population__low__90-99
-	slug	name	type	shortUnit	unit
-	location	Country name	EntityName
-	year	Year	Year
-	population__all__90-99	population	Numeric		
-	population__female__90-99	population	Numeric		
-	population__male__90-99	population	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population__medium__90-99.csv	population__medium__90-99
-columns	population__medium__90-99
-	slug	name	type	shortUnit	unit
-	location	Country name	EntityName
-	year	Year	Year
-	population__all__90-99	population	Numeric		
-	population__female__90-99	population	Numeric		
-	population__male__90-99	population	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population__high__90-99.csv	population__high__90-99
-columns	population__high__90-99
+columns	population__records__90-99	population__low__90-99	population__medium__90-99	population__high__90-99
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	population__all__90-99	population	Numeric		
-	population__female__90-99	population	Numeric		
-	population__male__90-99	population	Numeric		
+	population__all__90-99	Population aged 90 to 99 years	Numeric		
+	population__female__90-99	Female population aged 90 to 99 years	Numeric		
+	population__male__90-99	Male population aged 90 to 99 years	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population__records__100-.csv	population__records__100-
-columns	population__records__100-
-	slug	name	type	shortUnit	unit
-	location	Country name	EntityName
-	year	Year	Year
-	population__all__100-	population	Numeric		
-	population__female__100-	population	Numeric		
-	population__male__100-	population	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population__low__100-.csv	population__low__100-
-columns	population__low__100-
-	slug	name	type	shortUnit	unit
-	location	Country name	EntityName
-	year	Year	Year
-	population__all__100-	population	Numeric		
-	population__female__100-	population	Numeric		
-	population__male__100-	population	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population__medium__100-.csv	population__medium__100-
-columns	population__medium__100-
-	slug	name	type	shortUnit	unit
-	location	Country name	EntityName
-	year	Year	Year
-	population__all__100-	population	Numeric		
-	population__female__100-	population	Numeric		
-	population__male__100-	population	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population__high__100-.csv	population__high__100-
-columns	population__high__100-
+columns	population__records__100-	population__low__100-	population__medium__100-	population__high__100-
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	population__all__100-	population	Numeric		
-	population__female__100-	population	Numeric		
-	population__male__100-	population	Numeric		
+	population__all__100-	Population older than 100 years	Numeric		
+	population__female__100-	Female population older than 100 years	Numeric		
+	population__male__100-	Male population older than 100 years	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population_change__records__all.csv	population_change__records__all
 columns	population_change__records__all
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	population_change__all__all	population change	Numeric		
-	population_change__female__all	population change	Numeric		
-	population_change__male__all	population change	Numeric		
+	population_change__all__all	Annual change in population	Numeric		
+	population_change__female__all	Annual change in female population	Numeric		
+	population_change__male__all	Annual change in male population	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population_change__records__0-4.csv	population_change__records__0-4
 columns	population_change__records__0-4
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	population_change__all__0-4	population change	Numeric		
-	population_change__female__0-4	population change	Numeric		
-	population_change__male__0-4	population change	Numeric		
+	population_change__all__0-4	Annual change in population aged 0 to 4 years	Numeric		
+	population_change__female__0-4	Annual change in female population aged 0 to 4 years	Numeric		
+	population_change__male__0-4	Annual change in male population aged 0 to 4 years	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population_change__records__5-9.csv	population_change__records__5-9
 columns	population_change__records__5-9
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	population_change__all__5-9	population change	Numeric		
-	population_change__female__5-9	population change	Numeric		
-	population_change__male__5-9	population change	Numeric		
+	population_change__all__5-9	Annual change in population aged 5 to 9 years	Numeric		
+	population_change__female__5-9	Annual change in female population aged 5 to 9 years	Numeric		
+	population_change__male__5-9	Annual change in male population aged 5 to 9 years	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population_change__records__10-14.csv	population_change__records__10-14
 columns	population_change__records__10-14
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	population_change__all__10-14	population change	Numeric		
-	population_change__female__10-14	population change	Numeric		
-	population_change__male__10-14	population change	Numeric		
+	population_change__all__10-14	Annual change in population aged 10 to 14 years	Numeric		
+	population_change__female__10-14	Annual change in female population aged 10 to 14 years	Numeric		
+	population_change__male__10-14	Annual change in male population aged 10 to 14 years	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population_change__records__15-19.csv	population_change__records__15-19
 columns	population_change__records__15-19
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	population_change__all__15-19	population change	Numeric		
-	population_change__female__15-19	population change	Numeric		
-	population_change__male__15-19	population change	Numeric		
+	population_change__all__15-19	Annual change in population aged 15 to 19 years	Numeric		
+	population_change__female__15-19	Annual change in female population aged 15 to 19 years	Numeric		
+	population_change__male__15-19	Annual change in male population aged 15 to 19 years	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population_change__records__20-29.csv	population_change__records__20-29
 columns	population_change__records__20-29
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	population_change__all__20-29	population change	Numeric		
-	population_change__female__20-29	population change	Numeric		
-	population_change__male__20-29	population change	Numeric		
+	population_change__all__20-29	Annual change in population aged 20 to 29 years	Numeric		
+	population_change__female__20-29	Annual change in female population aged 20 to 29 years	Numeric		
+	population_change__male__20-29	Annual change in male population aged 20 to 29 years	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population_change__records__30-39.csv	population_change__records__30-39
 columns	population_change__records__30-39
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	population_change__all__30-39	population change	Numeric		
-	population_change__female__30-39	population change	Numeric		
-	population_change__male__30-39	population change	Numeric		
+	population_change__all__30-39	Annual change in population aged 30 to 39 years	Numeric		
+	population_change__female__30-39	Annual change in female population aged 30 to 39 years	Numeric		
+	population_change__male__30-39	Annual change in male population aged 30 to 39 years	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population_change__records__40-49.csv	population_change__records__40-49
 columns	population_change__records__40-49
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	population_change__all__40-49	population change	Numeric		
-	population_change__female__40-49	population change	Numeric		
-	population_change__male__40-49	population change	Numeric		
+	population_change__all__40-49	Annual change in population aged 40 to 49 years	Numeric		
+	population_change__female__40-49	Annual change in female population aged 40 to 49 years	Numeric		
+	population_change__male__40-49	Annual change in male population aged 40 to 49 years	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population_change__records__50-59.csv	population_change__records__50-59
 columns	population_change__records__50-59
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	population_change__all__50-59	population change	Numeric		
-	population_change__female__50-59	population change	Numeric		
-	population_change__male__50-59	population change	Numeric		
+	population_change__all__50-59	Annual change in population aged 50 to 59 years	Numeric		
+	population_change__female__50-59	Annual change in female population aged 50 to 59 years	Numeric		
+	population_change__male__50-59	Annual change in male population aged 50 to 59 years	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population_change__records__60-69.csv	population_change__records__60-69
 columns	population_change__records__60-69
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	population_change__all__60-69	population change	Numeric		
-	population_change__female__60-69	population change	Numeric		
-	population_change__male__60-69	population change	Numeric		
+	population_change__all__60-69	Annual change in population aged 60 to 69 years	Numeric		
+	population_change__female__60-69	Annual change in female population aged 60 to 69 years	Numeric		
+	population_change__male__60-69	Annual change in male population aged 60 to 69 years	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population_change__records__70-79.csv	population_change__records__70-79
 columns	population_change__records__70-79
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	population_change__all__70-79	population change	Numeric		
-	population_change__female__70-79	population change	Numeric		
-	population_change__male__70-79	population change	Numeric		
+	population_change__all__70-79	Annual change in population aged 70 to 79 years	Numeric		
+	population_change__female__70-79	Annual change in female population aged 70 to 79 years	Numeric		
+	population_change__male__70-79	Annual change in male population aged 70 to 79 years	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population_change__records__80-89.csv	population_change__records__80-89
 columns	population_change__records__80-89
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	population_change__all__80-89	population change	Numeric		
-	population_change__female__80-89	population change	Numeric		
-	population_change__male__80-89	population change	Numeric		
+	population_change__all__80-89	Annual change in population aged 80 to 89 years	Numeric		
+	population_change__female__80-89	Annual change in female population aged 80 to 89 years	Numeric		
+	population_change__male__80-89	Annual change in male population aged 80 to 89 years	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population_change__records__90-99.csv	population_change__records__90-99
 columns	population_change__records__90-99
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	population_change__all__90-99	population change	Numeric		
-	population_change__female__90-99	population change	Numeric		
-	population_change__male__90-99	population change	Numeric		
+	population_change__all__90-99	Annual change in population aged 90 to 99 years	Numeric		
+	population_change__female__90-99	Annual change in female population aged 90 to 99 years	Numeric		
+	population_change__male__90-99	Annual change in male population aged 90 to 99 years	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population_change__records__100-.csv	population_change__records__100-
 columns	population_change__records__100-
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	population_change__all__100-	population change	Numeric		
-	population_change__female__100-	population change	Numeric		
-	population_change__male__100-	population change	Numeric		
+	population_change__all__100-	Annual change in population older than 100 years	Numeric		
+	population_change__female__100-	Annual change in female population older than 100 years	Numeric		
+	population_change__male__100-	Annual change in male population older than 100 years	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable/population_density__records__all.csv	population_density__records__all
-columns	population_density__records__all
-	slug	name	type	shortUnit	unit
-	location	Country name	EntityName
-	year	Year	Year
-	population_density__all__all	population density	Numeric		people per km²
 table	https://files.ourworldindata.org/data/unwpp-unstable/population_density__low__all.csv	population_density__low__all
-columns	population_density__low__all
-	slug	name	type	shortUnit	unit
-	location	Country name	EntityName
-	year	Year	Year
-	population_density__all__all	population density	Numeric		people per km²
 table	https://files.ourworldindata.org/data/unwpp-unstable/population_density__medium__all.csv	population_density__medium__all
-columns	population_density__medium__all
-	slug	name	type	shortUnit	unit
-	location	Country name	EntityName
-	year	Year	Year
-	population_density__all__all	population density	Numeric		people per km²
 table	https://files.ourworldindata.org/data/unwpp-unstable/population_density__high__all.csv	population_density__high__all
-columns	population_density__high__all
+columns	population_density__records__all	population_density__low__all	population_density__medium__all	population_density__high__all
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	population_density__all__all	population density	Numeric		people per km²
+	population_density__all__all	Population density	Numeric		people per km²

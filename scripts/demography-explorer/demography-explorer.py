@@ -4,6 +4,7 @@ from string import Template
 import textwrap
 import pandas as pd
 import re
+from collections import defaultdict
 
 
 def file_url(tableSlug):
@@ -21,15 +22,20 @@ def substitute_rows(row):
     return row
 
 
-def table_def(tableSlug, rows):
+def table_def(tableSlugs, rows):
+    table_slugs = "\t".join(tableSlugs)
+    table_defs = [
+        f"table	{file_url(tableSlug)}	{tableSlug}" for tableSlug in tableSlugs
+    ]
+    table_defs = "\n".join(table_defs)
     col_defs = [
-        f"{row['ySlugs']}\t{row['metric__name']}\tNumeric\t{row['metric__shortUnit']}\t{row['metric__unit']}"
+        f"{row['ySlugs']}\t{row['title']}\tNumeric\t{row['metric__shortUnit']}\t{row['metric__unit']}"
         for (_, row) in rows.iterrows()
     ]
     col_defs = textwrap.indent("\n".join(col_defs), "\t")
 
-    return f"""table	{file_url(tableSlug)}	{tableSlug}
-columns	{tableSlug}
+    return f"""{table_defs}
+columns	{table_slugs}
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
@@ -81,10 +87,21 @@ for col in ["title", "subtitle"]:
 
 # %%
 tables = df["tableSlug"].unique()
+# below is a very complicated way to bundle together column definitions for multiple tables with common column names; might not be worthwhile
+# we create a dict: table_slug -> column_names; then invert that to: column_names -> table_slugs
+column_slugs_by_table = {
+    tableSlug: df[df["tableSlug"] == tableSlug]["ySlugs"] for tableSlug in tables
+}
+tables_by_column_slugs = defaultdict(list)
+rows = {}
+for tableSlug, column_slugs in column_slugs_by_table.items():
+    if tableSlug != "":
+        tables_by_column_slugs[tuple(column_slugs)].append(tableSlug)
+        rows[tuple(column_slugs)] = df[df["tableSlug"] == tableSlug]
+
 table_defs = [
-    table_def(tableSlug, df[df["tableSlug"] == tableSlug])
-    for tableSlug in tables
-    if tableSlug != ""
+    table_def(tableSlugs, rows[column_slugs])
+    for column_slugs, tableSlugs in tables_by_column_slugs.items()
 ]
 
 # %%
