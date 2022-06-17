@@ -3,6 +3,7 @@ from os import path
 from string import Template
 import textwrap
 import pandas as pd
+import re
 
 
 def file_url(tableSlug):
@@ -67,9 +68,13 @@ for merge_col in input_files[1:]:
 # %%
 
 df = df.apply(substitute_rows, axis=1)
-df["title"] = (
-    df["title"].apply(lambda x: x.strip()).apply(lambda x: x[0].upper() + x[1:])
-)
+for col in ["title", "subtitle"]:
+    df[col] = (
+        df[col]
+        .apply(lambda x: x.strip())
+        .apply(lambda x: x[0].upper() + x[1:] if len(x) else x)
+        .apply(lambda x: re.sub(" {2,}", " ", x))
+    )
 
 col_rename = {
     "title": "title",
