@@ -1,0 +1,5 @@
+slug,name,subtitle
+records,None,
+low,Low,Projected ${metric__name} to 2100 is based on the UN's low population scenario.
+medium,Medium,Projected ${metric__name} to 2100 is based on the UN's medium population scenario.
+high,High,Projected ${metric__name} to 2100 is based on the UN's high population scenario.
