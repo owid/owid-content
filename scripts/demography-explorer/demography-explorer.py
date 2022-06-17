@@ -21,13 +21,16 @@ def substitute_rows(row):
     return row
 
 
-def table_def(tableSlug, cols):
-    col_defs = [f"{col}\t{col}\tNumeric" for col in cols]
+def table_def(tableSlug, rows):
+    col_defs = [
+        f"{row['ySlugs']}\t{row['metric__name']}\tNumeric\t{row['metric__shortUnit']}\t{row['metric__unit']}"
+        for (_, row) in rows.iterrows()
+    ]
     col_defs = textwrap.indent("\n".join(col_defs), "\t")
 
     return f"""table	{file_url(tableSlug)}	{tableSlug}
 columns	{tableSlug}
-	slug	name	type
+	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
 {col_defs}"""
@@ -76,6 +79,16 @@ for col in ["title", "subtitle"]:
         .apply(lambda x: re.sub(" {2,}", " ", x))
     )
 
+# %%
+tables = df["tableSlug"].unique()
+table_defs = [
+    table_def(tableSlug, df[df["tableSlug"] == tableSlug])
+    for tableSlug in tables
+    if tableSlug != ""
+]
+
+# %%
+
 col_rename = {
     "title": "title",
     "Metric Dropdown": "Metric Dropdown",
@@ -89,14 +102,6 @@ col_rename = {
 }
 df = df[col_rename.keys()].rename(columns=col_rename)
 
-# %%
-tables = df["tableSlug"].unique()
-table_defs = [
-    table_def(tableSlug, df[df["tableSlug"] == tableSlug]["ySlugs"])
-    for tableSlug in tables
-]
-
-# %%
 # %%
 graphers_tsv = df.to_csv(sep="\t", index=False)
 graphers_tsv_indented = textwrap.indent(graphers_tsv, "\t")
