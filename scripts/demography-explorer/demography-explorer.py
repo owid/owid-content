@@ -115,7 +115,11 @@ col_rename = {
     "ySlugs": "ySlugs",
     "subtitle": "subtitle",
     "tableSlug": "tableSlug",
+    "yAxisMin": "yAxisMin",
     "type": "type",
+    "hasMapTab": "hasMapTab",
+    "facet": "facet",
+    "selectedFacetStrategy": "selectedFacetStrategy",
 }
 df = df[col_rename.keys()].rename(columns=col_rename)
 
