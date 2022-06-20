@@ -107,21 +107,22 @@ table_defs = [
 # %%
 
 col_rename = {
-    "title": "title",
-    "Metric Dropdown": "Metric Dropdown",
     "sex__name": "Sex Dropdown",
     "age_group__name": "Age group Dropdown",
     "projection__name": "Projection Scenario Radio",
-    "ySlugs": "ySlugs",
-    "subtitle": "subtitle",
-    "tableSlug": "tableSlug",
-    "yAxisMin": "yAxisMin",
-    "type": "type",
-    "hasMapTab": "hasMapTab",
-    "facet": "facet",
-    "selectedFacetStrategy": "selectedFacetStrategy",
 }
-df = df[col_rename.keys()].rename(columns=col_rename)
+df = df.rename(columns=col_rename)
+
+# Reorder columns such that thed different Dropdown/Radio columns are next to each other
+metric_dropdown_idx = df.columns.get_loc("Metric Dropdown")
+cols = df.columns.tolist()
+for i, col in enumerate(col_rename.values()):
+    cols.remove(col)
+    cols.insert(metric_dropdown_idx + 1 + i, col)
+df = df.loc[:, cols]
+
+# Drop all remaining programmatic columns containing __
+df = df.drop(columns=df.filter(regex="__"))
 
 # %%
 graphers_tsv = df.to_csv(sep="\t", index=False)
