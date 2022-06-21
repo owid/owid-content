@@ -175,18 +175,18 @@ graphers
 	Male population older than 100 years	Population	Male	100+ years	Low	population__male__100-__low	population__FULL__100-__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true		
 	Male population older than 100 years	Population	Male	100+ years	Medium	population__male__100-__medium	population__FULL__100-__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
 	Male population older than 100 years	Population	Male	100+ years	High	population__male__100-__high	population__FULL__100-__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Population by age group	Population by age group	Both sexes	Total	None	population__all__100-__records population__all__90-99__records population__all__80-89__records population__all__70-79__records population__all__60-69__records population__all__50-59__records population__all__40-49__records population__all__30-39__records population__all__20-29__records population__all__15-19__records population__all__10-14__records population__all__5-9__records population__all__0-4__records	population__all__FULL__records		StackedArea	0	false	true	country
-	Population by age group	Population by age group	Both sexes	Total	Low	population__all__100-__low population__all__90-99__low population__all__80-89__low population__all__70-79__low population__all__60-69__low population__all__50-59__low population__all__40-49__low population__all__30-39__low population__all__20-29__low population__all__15-19__low population__all__10-14__low population__all__5-9__low population__all__0-4__low	population__all__FULL__low	Projected population to 2100 is based on the UN's low population scenario.	StackedArea	0	false	true	country
-	Population by age group	Population by age group	Both sexes	Total	Medium	population__all__100-__medium population__all__90-99__medium population__all__80-89__medium population__all__70-79__medium population__all__60-69__medium population__all__50-59__medium population__all__40-49__medium population__all__30-39__medium population__all__20-29__medium population__all__15-19__medium population__all__10-14__medium population__all__5-9__medium population__all__0-4__medium	population__all__FULL__medium	Projected population to 2100 is based on the UN's medium population scenario.	StackedArea	0	false	true	country
-	Population by age group	Population by age group	Both sexes	Total	High	population__all__100-__high population__all__90-99__high population__all__80-89__high population__all__70-79__high population__all__60-69__high population__all__50-59__high population__all__40-49__high population__all__30-39__high population__all__20-29__high population__all__15-19__high population__all__10-14__high population__all__5-9__high population__all__0-4__high	population__all__FULL__high	Projected population to 2100 is based on the UN's high population scenario.	StackedArea	0	false	true	country
-	Female population by age group	Population by age group	Female	Total	None	population__female__100-__records population__female__90-99__records population__female__80-89__records population__female__70-79__records population__female__60-69__records population__female__50-59__records population__female__40-49__records population__female__30-39__records population__female__20-29__records population__female__15-19__records population__female__10-14__records population__female__5-9__records population__female__0-4__records	population__female__FULL__records		StackedArea	0	false	true	country
-	Female population by age group	Population by age group	Female	Total	Low	population__female__100-__low population__female__90-99__low population__female__80-89__low population__female__70-79__low population__female__60-69__low population__female__50-59__low population__female__40-49__low population__female__30-39__low population__female__20-29__low population__female__15-19__low population__female__10-14__low population__female__5-9__low population__female__0-4__low	population__female__FULL__low	Projected population to 2100 is based on the UN's low population scenario.	StackedArea	0	false	true	country
-	Female population by age group	Population by age group	Female	Total	Medium	population__female__100-__medium population__female__90-99__medium population__female__80-89__medium population__female__70-79__medium population__female__60-69__medium population__female__50-59__medium population__female__40-49__medium population__female__30-39__medium population__female__20-29__medium population__female__15-19__medium population__female__10-14__medium population__female__5-9__medium population__female__0-4__medium	population__female__FULL__medium	Projected population to 2100 is based on the UN's medium population scenario.	StackedArea	0	false	true	country
-	Female population by age group	Population by age group	Female	Total	High	population__female__100-__high population__female__90-99__high population__female__80-89__high population__female__70-79__high population__female__60-69__high population__female__50-59__high population__female__40-49__high population__female__30-39__high population__female__20-29__high population__female__15-19__high population__female__10-14__high population__female__5-9__high population__female__0-4__high	population__female__FULL__high	Projected population to 2100 is based on the UN's high population scenario.	StackedArea	0	false	true	country
-	Male population by age group	Population by age group	Male	Total	None	population__male__100-__records population__male__90-99__records population__male__80-89__records population__male__70-79__records population__male__60-69__records population__male__50-59__records population__male__40-49__records population__male__30-39__records population__male__20-29__records population__male__15-19__records population__male__10-14__records population__male__5-9__records population__male__0-4__records	population__male__FULL__records		StackedArea	0	false	true	country
-	Male population by age group	Population by age group	Male	Total	Low	population__male__100-__low population__male__90-99__low population__male__80-89__low population__male__70-79__low population__male__60-69__low population__male__50-59__low population__male__40-49__low population__male__30-39__low population__male__20-29__low population__male__15-19__low population__male__10-14__low population__male__5-9__low population__male__0-4__low	population__male__FULL__low	Projected population to 2100 is based on the UN's low population scenario.	StackedArea	0	false	true	country
-	Male population by age group	Population by age group	Male	Total	Medium	population__male__100-__medium population__male__90-99__medium population__male__80-89__medium population__male__70-79__medium population__male__60-69__medium population__male__50-59__medium population__male__40-49__medium population__male__30-39__medium population__male__20-29__medium population__male__15-19__medium population__male__10-14__medium population__male__5-9__medium population__male__0-4__medium	population__male__FULL__medium	Projected population to 2100 is based on the UN's medium population scenario.	StackedArea	0	false	true	country
-	Male population by age group	Population by age group	Male	Total	High	population__male__100-__high population__male__90-99__high population__male__80-89__high population__male__70-79__high population__male__60-69__high population__male__50-59__high population__male__40-49__high population__male__30-39__high population__male__20-29__high population__male__15-19__high population__male__10-14__high population__male__5-9__high population__male__0-4__high	population__male__FULL__high	Projected population to 2100 is based on the UN's high population scenario.	StackedArea	0	false	true	country
+	Population by broad age group	Population by broad age group	Both sexes	Total	None	population_broad__all__65-__records population_broad__all__25-64__records population_broad__all__15-24__records population_broad__all__5-14__records population_broad__all__0-4__records	population_broad__all__FULL__records		StackedArea	0	false	true	entity
+	Population by broad age group	Population by broad age group	Both sexes	Total	Low	population_broad__all__65-__low population_broad__all__25-64__low population_broad__all__15-24__low population_broad__all__5-14__low population_broad__all__0-4__low	population_broad__all__FULL__low	Projected population to 2100 is based on the UN's low population scenario.	StackedArea	0	false	true	entity
+	Population by broad age group	Population by broad age group	Both sexes	Total	Medium	population_broad__all__65-__medium population_broad__all__25-64__medium population_broad__all__15-24__medium population_broad__all__5-14__medium population_broad__all__0-4__medium	population_broad__all__FULL__medium	Projected population to 2100 is based on the UN's medium population scenario.	StackedArea	0	false	true	entity
+	Population by broad age group	Population by broad age group	Both sexes	Total	High	population_broad__all__65-__high population_broad__all__25-64__high population_broad__all__15-24__high population_broad__all__5-14__high population_broad__all__0-4__high	population_broad__all__FULL__high	Projected population to 2100 is based on the UN's high population scenario.	StackedArea	0	false	true	entity
+	Female population by broad age group	Population by broad age group	Female	Total	None	population_broad__female__65-__records population_broad__female__25-64__records population_broad__female__15-24__records population_broad__female__5-14__records population_broad__female__0-4__records	population_broad__female__FULL__records		StackedArea	0	false	true	entity
+	Female population by broad age group	Population by broad age group	Female	Total	Low	population_broad__female__65-__low population_broad__female__25-64__low population_broad__female__15-24__low population_broad__female__5-14__low population_broad__female__0-4__low	population_broad__female__FULL__low	Projected population to 2100 is based on the UN's low population scenario.	StackedArea	0	false	true	entity
+	Female population by broad age group	Population by broad age group	Female	Total	Medium	population_broad__female__65-__medium population_broad__female__25-64__medium population_broad__female__15-24__medium population_broad__female__5-14__medium population_broad__female__0-4__medium	population_broad__female__FULL__medium	Projected population to 2100 is based on the UN's medium population scenario.	StackedArea	0	false	true	entity
+	Female population by broad age group	Population by broad age group	Female	Total	High	population_broad__female__65-__high population_broad__female__25-64__high population_broad__female__15-24__high population_broad__female__5-14__high population_broad__female__0-4__high	population_broad__female__FULL__high	Projected population to 2100 is based on the UN's high population scenario.	StackedArea	0	false	true	entity
+	Male population by broad age group	Population by broad age group	Male	Total	None	population_broad__male__65-__records population_broad__male__25-64__records population_broad__male__15-24__records population_broad__male__5-14__records population_broad__male__0-4__records	population_broad__male__FULL__records		StackedArea	0	false	true	entity
+	Male population by broad age group	Population by broad age group	Male	Total	Low	population_broad__male__65-__low population_broad__male__25-64__low population_broad__male__15-24__low population_broad__male__5-14__low population_broad__male__0-4__low	population_broad__male__FULL__low	Projected population to 2100 is based on the UN's low population scenario.	StackedArea	0	false	true	entity
+	Male population by broad age group	Population by broad age group	Male	Total	Medium	population_broad__male__65-__medium population_broad__male__25-64__medium population_broad__male__15-24__medium population_broad__male__5-14__medium population_broad__male__0-4__medium	population_broad__male__FULL__medium	Projected population to 2100 is based on the UN's medium population scenario.	StackedArea	0	false	true	entity
+	Male population by broad age group	Population by broad age group	Male	Total	High	population_broad__male__65-__high population_broad__male__25-64__high population_broad__male__15-24__high population_broad__male__5-14__high population_broad__male__0-4__high	population_broad__male__FULL__high	Projected population to 2100 is based on the UN's high population scenario.	StackedArea	0	false	true	entity
 	Annual change in population	Annual population change	Both sexes	Total	None	population_change__all__all__records	population_change__FULL__all__records		LineChart	0	true		
 	Annual change in population aged 0 to 4 years	Annual population change	Both sexes	0 - 4 years	None	population_change__all__0-4__records	population_change__FULL__0-4__records		LineChart	0	true		
 	Annual change in population aged 5 to 9 years	Annual population change	Both sexes	5 - 9 years	None	population_change__all__5-9__records	population_change__FULL__5-9__records		LineChart	0	true		
@@ -863,78 +863,78 @@ columns	population__FULL__100-__high
 	population__all__100-__high	Population older than 100 years	Numeric		
 	population__female__100-__high	Female population older than 100 years	Numeric		
 	population__male__100-__high	Male population older than 100 years	Numeric		
-table	https://files.ourworldindata.org/data/unwpp-unstable-v2/population__all__FULL__records.csv?nocache	population__all__FULL__records
-columns	population__all__FULL__records
+table	https://files.ourworldindata.org/data/unwpp-unstable-v2/population_broad__all__FULL__records.csv?nocache	population_broad__all__FULL__records
+columns	population_broad__all__FULL__records
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	population__all__100-__records population__all__90-99__records population__all__80-89__records population__all__70-79__records population__all__60-69__records population__all__50-59__records population__all__40-49__records population__all__30-39__records population__all__20-29__records population__all__15-19__records population__all__10-14__records population__all__5-9__records population__all__0-4__records	Population by age group	Numeric		
-table	https://files.ourworldindata.org/data/unwpp-unstable-v2/population__all__FULL__low.csv?nocache	population__all__FULL__low
-columns	population__all__FULL__low
+	population_broad__all__65-__records population_broad__all__25-64__records population_broad__all__15-24__records population_broad__all__5-14__records population_broad__all__0-4__records	Population by broad age group	Numeric		
+table	https://files.ourworldindata.org/data/unwpp-unstable-v2/population_broad__all__FULL__low.csv?nocache	population_broad__all__FULL__low
+columns	population_broad__all__FULL__low
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	population__all__100-__low population__all__90-99__low population__all__80-89__low population__all__70-79__low population__all__60-69__low population__all__50-59__low population__all__40-49__low population__all__30-39__low population__all__20-29__low population__all__15-19__low population__all__10-14__low population__all__5-9__low population__all__0-4__low	Population by age group	Numeric		
-table	https://files.ourworldindata.org/data/unwpp-unstable-v2/population__all__FULL__medium.csv?nocache	population__all__FULL__medium
-columns	population__all__FULL__medium
+	population_broad__all__65-__low population_broad__all__25-64__low population_broad__all__15-24__low population_broad__all__5-14__low population_broad__all__0-4__low	Population by broad age group	Numeric		
+table	https://files.ourworldindata.org/data/unwpp-unstable-v2/population_broad__all__FULL__medium.csv?nocache	population_broad__all__FULL__medium
+columns	population_broad__all__FULL__medium
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	population__all__100-__medium population__all__90-99__medium population__all__80-89__medium population__all__70-79__medium population__all__60-69__medium population__all__50-59__medium population__all__40-49__medium population__all__30-39__medium population__all__20-29__medium population__all__15-19__medium population__all__10-14__medium population__all__5-9__medium population__all__0-4__medium	Population by age group	Numeric		
-table	https://files.ourworldindata.org/data/unwpp-unstable-v2/population__all__FULL__high.csv?nocache	population__all__FULL__high
-columns	population__all__FULL__high
+	population_broad__all__65-__medium population_broad__all__25-64__medium population_broad__all__15-24__medium population_broad__all__5-14__medium population_broad__all__0-4__medium	Population by broad age group	Numeric		
+table	https://files.ourworldindata.org/data/unwpp-unstable-v2/population_broad__all__FULL__high.csv?nocache	population_broad__all__FULL__high
+columns	population_broad__all__FULL__high
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	population__all__100-__high population__all__90-99__high population__all__80-89__high population__all__70-79__high population__all__60-69__high population__all__50-59__high population__all__40-49__high population__all__30-39__high population__all__20-29__high population__all__15-19__high population__all__10-14__high population__all__5-9__high population__all__0-4__high	Population by age group	Numeric		
-table	https://files.ourworldindata.org/data/unwpp-unstable-v2/population__female__FULL__records.csv?nocache	population__female__FULL__records
-columns	population__female__FULL__records
+	population_broad__all__65-__high population_broad__all__25-64__high population_broad__all__15-24__high population_broad__all__5-14__high population_broad__all__0-4__high	Population by broad age group	Numeric		
+table	https://files.ourworldindata.org/data/unwpp-unstable-v2/population_broad__female__FULL__records.csv?nocache	population_broad__female__FULL__records
+columns	population_broad__female__FULL__records
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	population__female__100-__records population__female__90-99__records population__female__80-89__records population__female__70-79__records population__female__60-69__records population__female__50-59__records population__female__40-49__records population__female__30-39__records population__female__20-29__records population__female__15-19__records population__female__10-14__records population__female__5-9__records population__female__0-4__records	Female population by age group	Numeric		
-table	https://files.ourworldindata.org/data/unwpp-unstable-v2/population__female__FULL__low.csv?nocache	population__female__FULL__low
-columns	population__female__FULL__low
+	population_broad__female__65-__records population_broad__female__25-64__records population_broad__female__15-24__records population_broad__female__5-14__records population_broad__female__0-4__records	Female population by broad age group	Numeric		
+table	https://files.ourworldindata.org/data/unwpp-unstable-v2/population_broad__female__FULL__low.csv?nocache	population_broad__female__FULL__low
+columns	population_broad__female__FULL__low
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	population__female__100-__low population__female__90-99__low population__female__80-89__low population__female__70-79__low population__female__60-69__low population__female__50-59__low population__female__40-49__low population__female__30-39__low population__female__20-29__low population__female__15-19__low population__female__10-14__low population__female__5-9__low population__female__0-4__low	Female population by age group	Numeric		
-table	https://files.ourworldindata.org/data/unwpp-unstable-v2/population__female__FULL__medium.csv?nocache	population__female__FULL__medium
-columns	population__female__FULL__medium
+	population_broad__female__65-__low population_broad__female__25-64__low population_broad__female__15-24__low population_broad__female__5-14__low population_broad__female__0-4__low	Female population by broad age group	Numeric		
+table	https://files.ourworldindata.org/data/unwpp-unstable-v2/population_broad__female__FULL__medium.csv?nocache	population_broad__female__FULL__medium
+columns	population_broad__female__FULL__medium
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	population__female__100-__medium population__female__90-99__medium population__female__80-89__medium population__female__70-79__medium population__female__60-69__medium population__female__50-59__medium population__female__40-49__medium population__female__30-39__medium population__female__20-29__medium population__female__15-19__medium population__female__10-14__medium population__female__5-9__medium population__female__0-4__medium	Female population by age group	Numeric		
-table	https://files.ourworldindata.org/data/unwpp-unstable-v2/population__female__FULL__high.csv?nocache	population__female__FULL__high
-columns	population__female__FULL__high
+	population_broad__female__65-__medium population_broad__female__25-64__medium population_broad__female__15-24__medium population_broad__female__5-14__medium population_broad__female__0-4__medium	Female population by broad age group	Numeric		
+table	https://files.ourworldindata.org/data/unwpp-unstable-v2/population_broad__female__FULL__high.csv?nocache	population_broad__female__FULL__high
+columns	population_broad__female__FULL__high
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	population__female__100-__high population__female__90-99__high population__female__80-89__high population__female__70-79__high population__female__60-69__high population__female__50-59__high population__female__40-49__high population__female__30-39__high population__female__20-29__high population__female__15-19__high population__female__10-14__high population__female__5-9__high population__female__0-4__high	Female population by age group	Numeric		
-table	https://files.ourworldindata.org/data/unwpp-unstable-v2/population__male__FULL__records.csv?nocache	population__male__FULL__records
-columns	population__male__FULL__records
+	population_broad__female__65-__high population_broad__female__25-64__high population_broad__female__15-24__high population_broad__female__5-14__high population_broad__female__0-4__high	Female population by broad age group	Numeric		
+table	https://files.ourworldindata.org/data/unwpp-unstable-v2/population_broad__male__FULL__records.csv?nocache	population_broad__male__FULL__records
+columns	population_broad__male__FULL__records
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	population__male__100-__records population__male__90-99__records population__male__80-89__records population__male__70-79__records population__male__60-69__records population__male__50-59__records population__male__40-49__records population__male__30-39__records population__male__20-29__records population__male__15-19__records population__male__10-14__records population__male__5-9__records population__male__0-4__records	Male population by age group	Numeric		
-table	https://files.ourworldindata.org/data/unwpp-unstable-v2/population__male__FULL__low.csv?nocache	population__male__FULL__low
-columns	population__male__FULL__low
+	population_broad__male__65-__records population_broad__male__25-64__records population_broad__male__15-24__records population_broad__male__5-14__records population_broad__male__0-4__records	Male population by broad age group	Numeric		
+table	https://files.ourworldindata.org/data/unwpp-unstable-v2/population_broad__male__FULL__low.csv?nocache	population_broad__male__FULL__low
+columns	population_broad__male__FULL__low
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	population__male__100-__low population__male__90-99__low population__male__80-89__low population__male__70-79__low population__male__60-69__low population__male__50-59__low population__male__40-49__low population__male__30-39__low population__male__20-29__low population__male__15-19__low population__male__10-14__low population__male__5-9__low population__male__0-4__low	Male population by age group	Numeric		
-table	https://files.ourworldindata.org/data/unwpp-unstable-v2/population__male__FULL__medium.csv?nocache	population__male__FULL__medium
-columns	population__male__FULL__medium
+	population_broad__male__65-__low population_broad__male__25-64__low population_broad__male__15-24__low population_broad__male__5-14__low population_broad__male__0-4__low	Male population by broad age group	Numeric		
+table	https://files.ourworldindata.org/data/unwpp-unstable-v2/population_broad__male__FULL__medium.csv?nocache	population_broad__male__FULL__medium
+columns	population_broad__male__FULL__medium
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	population__male__100-__medium population__male__90-99__medium population__male__80-89__medium population__male__70-79__medium population__male__60-69__medium population__male__50-59__medium population__male__40-49__medium population__male__30-39__medium population__male__20-29__medium population__male__15-19__medium population__male__10-14__medium population__male__5-9__medium population__male__0-4__medium	Male population by age group	Numeric		
-table	https://files.ourworldindata.org/data/unwpp-unstable-v2/population__male__FULL__high.csv?nocache	population__male__FULL__high
-columns	population__male__FULL__high
+	population_broad__male__65-__medium population_broad__male__25-64__medium population_broad__male__15-24__medium population_broad__male__5-14__medium population_broad__male__0-4__medium	Male population by broad age group	Numeric		
+table	https://files.ourworldindata.org/data/unwpp-unstable-v2/population_broad__male__FULL__high.csv?nocache	population_broad__male__FULL__high
+columns	population_broad__male__FULL__high
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	population__male__100-__high population__male__90-99__high population__male__80-89__high population__male__70-79__high population__male__60-69__high population__male__50-59__high population__male__40-49__high population__male__30-39__high population__male__20-29__high population__male__15-19__high population__male__10-14__high population__male__5-9__high population__male__0-4__high	Male population by age group	Numeric		
+	population_broad__male__65-__high population_broad__male__25-64__high population_broad__male__15-24__high population_broad__male__5-14__high population_broad__male__0-4__high	Male population by broad age group	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable-v2/population_change__FULL__all__records.csv?nocache	population_change__FULL__all__records
 columns	population_change__FULL__all__records
 	slug	name	type	shortUnit	unit
