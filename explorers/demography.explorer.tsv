@@ -6,413 +6,425 @@ selection	China	India
 hasMapTab	true
 
 graphers
-	title	Metric Dropdown	Sex Dropdown	Age group Dropdown	Projection Scenario Radio	ySlugs	tableSlug	subtitle	type	yAxisMin	hasMapTab	facet	selectedFacetStrategy
-	Population	Population	Both sexes	Total	None	population__all__all__records	population__FULL__all__records		LineChart	0	true		
-	Population	Population	Both sexes	Total	Low	population__all__all__low	population__FULL__all__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Population	Population	Both sexes	Total	Medium	population__all__all__medium	population__FULL__all__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Population	Population	Both sexes	Total	High	population__all__all__high	population__FULL__all__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Population aged 0 to 4 years	Population	Both sexes	0 - 4 years	None	population__all__0-4__records	population__FULL__0-4__records		LineChart	0	true		
-	Population aged 0 to 4 years	Population	Both sexes	0 - 4 years	Low	population__all__0-4__low	population__FULL__0-4__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Population aged 0 to 4 years	Population	Both sexes	0 - 4 years	Medium	population__all__0-4__medium	population__FULL__0-4__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Population aged 0 to 4 years	Population	Both sexes	0 - 4 years	High	population__all__0-4__high	population__FULL__0-4__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Population aged 5 to 9 years	Population	Both sexes	5 - 9 years	None	population__all__5-9__records	population__FULL__5-9__records		LineChart	0	true		
-	Population aged 5 to 9 years	Population	Both sexes	5 - 9 years	Low	population__all__5-9__low	population__FULL__5-9__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Population aged 5 to 9 years	Population	Both sexes	5 - 9 years	Medium	population__all__5-9__medium	population__FULL__5-9__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Population aged 5 to 9 years	Population	Both sexes	5 - 9 years	High	population__all__5-9__high	population__FULL__5-9__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Population aged 10 to 14 years	Population	Both sexes	10 - 14 years	None	population__all__10-14__records	population__FULL__10-14__records		LineChart	0	true		
-	Population aged 10 to 14 years	Population	Both sexes	10 - 14 years	Low	population__all__10-14__low	population__FULL__10-14__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Population aged 10 to 14 years	Population	Both sexes	10 - 14 years	Medium	population__all__10-14__medium	population__FULL__10-14__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Population aged 10 to 14 years	Population	Both sexes	10 - 14 years	High	population__all__10-14__high	population__FULL__10-14__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Population aged 15 to 19 years	Population	Both sexes	15 - 19 years	None	population__all__15-19__records	population__FULL__15-19__records		LineChart	0	true		
-	Population aged 15 to 19 years	Population	Both sexes	15 - 19 years	Low	population__all__15-19__low	population__FULL__15-19__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Population aged 15 to 19 years	Population	Both sexes	15 - 19 years	Medium	population__all__15-19__medium	population__FULL__15-19__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Population aged 15 to 19 years	Population	Both sexes	15 - 19 years	High	population__all__15-19__high	population__FULL__15-19__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Population aged 20 to 29 years	Population	Both sexes	20 - 29 years	None	population__all__20-29__records	population__FULL__20-29__records		LineChart	0	true		
-	Population aged 20 to 29 years	Population	Both sexes	20 - 29 years	Low	population__all__20-29__low	population__FULL__20-29__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Population aged 20 to 29 years	Population	Both sexes	20 - 29 years	Medium	population__all__20-29__medium	population__FULL__20-29__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Population aged 20 to 29 years	Population	Both sexes	20 - 29 years	High	population__all__20-29__high	population__FULL__20-29__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Population aged 30 to 39 years	Population	Both sexes	30 - 39 years	None	population__all__30-39__records	population__FULL__30-39__records		LineChart	0	true		
-	Population aged 30 to 39 years	Population	Both sexes	30 - 39 years	Low	population__all__30-39__low	population__FULL__30-39__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Population aged 30 to 39 years	Population	Both sexes	30 - 39 years	Medium	population__all__30-39__medium	population__FULL__30-39__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Population aged 30 to 39 years	Population	Both sexes	30 - 39 years	High	population__all__30-39__high	population__FULL__30-39__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Population aged 40 to 49 years	Population	Both sexes	40 - 49 years	None	population__all__40-49__records	population__FULL__40-49__records		LineChart	0	true		
-	Population aged 40 to 49 years	Population	Both sexes	40 - 49 years	Low	population__all__40-49__low	population__FULL__40-49__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Population aged 40 to 49 years	Population	Both sexes	40 - 49 years	Medium	population__all__40-49__medium	population__FULL__40-49__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Population aged 40 to 49 years	Population	Both sexes	40 - 49 years	High	population__all__40-49__high	population__FULL__40-49__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Population aged 50 to 59 years	Population	Both sexes	50 - 59 years	None	population__all__50-59__records	population__FULL__50-59__records		LineChart	0	true		
-	Population aged 50 to 59 years	Population	Both sexes	50 - 59 years	Low	population__all__50-59__low	population__FULL__50-59__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Population aged 50 to 59 years	Population	Both sexes	50 - 59 years	Medium	population__all__50-59__medium	population__FULL__50-59__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Population aged 50 to 59 years	Population	Both sexes	50 - 59 years	High	population__all__50-59__high	population__FULL__50-59__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Population aged 60 to 69 years	Population	Both sexes	60 - 69 years	None	population__all__60-69__records	population__FULL__60-69__records		LineChart	0	true		
-	Population aged 60 to 69 years	Population	Both sexes	60 - 69 years	Low	population__all__60-69__low	population__FULL__60-69__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Population aged 60 to 69 years	Population	Both sexes	60 - 69 years	Medium	population__all__60-69__medium	population__FULL__60-69__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Population aged 60 to 69 years	Population	Both sexes	60 - 69 years	High	population__all__60-69__high	population__FULL__60-69__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Population aged 70 to 79 years	Population	Both sexes	70 - 79 years	None	population__all__70-79__records	population__FULL__70-79__records		LineChart	0	true		
-	Population aged 70 to 79 years	Population	Both sexes	70 - 79 years	Low	population__all__70-79__low	population__FULL__70-79__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Population aged 70 to 79 years	Population	Both sexes	70 - 79 years	Medium	population__all__70-79__medium	population__FULL__70-79__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Population aged 70 to 79 years	Population	Both sexes	70 - 79 years	High	population__all__70-79__high	population__FULL__70-79__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Population aged 80 to 89 years	Population	Both sexes	80 - 89 years	None	population__all__80-89__records	population__FULL__80-89__records		LineChart	0	true		
-	Population aged 80 to 89 years	Population	Both sexes	80 - 89 years	Low	population__all__80-89__low	population__FULL__80-89__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Population aged 80 to 89 years	Population	Both sexes	80 - 89 years	Medium	population__all__80-89__medium	population__FULL__80-89__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Population aged 80 to 89 years	Population	Both sexes	80 - 89 years	High	population__all__80-89__high	population__FULL__80-89__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Population aged 90 to 99 years	Population	Both sexes	90 - 99 years	None	population__all__90-99__records	population__FULL__90-99__records		LineChart	0	true		
-	Population aged 90 to 99 years	Population	Both sexes	90 - 99 years	Low	population__all__90-99__low	population__FULL__90-99__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Population aged 90 to 99 years	Population	Both sexes	90 - 99 years	Medium	population__all__90-99__medium	population__FULL__90-99__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Population aged 90 to 99 years	Population	Both sexes	90 - 99 years	High	population__all__90-99__high	population__FULL__90-99__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Population older than 100 years	Population	Both sexes	100+ years	None	population__all__100-__records	population__FULL__100-__records		LineChart	0	true		
-	Population older than 100 years	Population	Both sexes	100+ years	Low	population__all__100-__low	population__FULL__100-__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Population older than 100 years	Population	Both sexes	100+ years	Medium	population__all__100-__medium	population__FULL__100-__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Population older than 100 years	Population	Both sexes	100+ years	High	population__all__100-__high	population__FULL__100-__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Female population	Population	Female	Total	None	population__female__all__records	population__FULL__all__records		LineChart	0	true		
-	Female population	Population	Female	Total	Low	population__female__all__low	population__FULL__all__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Female population	Population	Female	Total	Medium	population__female__all__medium	population__FULL__all__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Female population	Population	Female	Total	High	population__female__all__high	population__FULL__all__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Female population aged 0 to 4 years	Population	Female	0 - 4 years	None	population__female__0-4__records	population__FULL__0-4__records		LineChart	0	true		
-	Female population aged 0 to 4 years	Population	Female	0 - 4 years	Low	population__female__0-4__low	population__FULL__0-4__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Female population aged 0 to 4 years	Population	Female	0 - 4 years	Medium	population__female__0-4__medium	population__FULL__0-4__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Female population aged 0 to 4 years	Population	Female	0 - 4 years	High	population__female__0-4__high	population__FULL__0-4__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Female population aged 5 to 9 years	Population	Female	5 - 9 years	None	population__female__5-9__records	population__FULL__5-9__records		LineChart	0	true		
-	Female population aged 5 to 9 years	Population	Female	5 - 9 years	Low	population__female__5-9__low	population__FULL__5-9__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Female population aged 5 to 9 years	Population	Female	5 - 9 years	Medium	population__female__5-9__medium	population__FULL__5-9__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Female population aged 5 to 9 years	Population	Female	5 - 9 years	High	population__female__5-9__high	population__FULL__5-9__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Female population aged 10 to 14 years	Population	Female	10 - 14 years	None	population__female__10-14__records	population__FULL__10-14__records		LineChart	0	true		
-	Female population aged 10 to 14 years	Population	Female	10 - 14 years	Low	population__female__10-14__low	population__FULL__10-14__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Female population aged 10 to 14 years	Population	Female	10 - 14 years	Medium	population__female__10-14__medium	population__FULL__10-14__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Female population aged 10 to 14 years	Population	Female	10 - 14 years	High	population__female__10-14__high	population__FULL__10-14__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Female population aged 15 to 19 years	Population	Female	15 - 19 years	None	population__female__15-19__records	population__FULL__15-19__records		LineChart	0	true		
-	Female population aged 15 to 19 years	Population	Female	15 - 19 years	Low	population__female__15-19__low	population__FULL__15-19__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Female population aged 15 to 19 years	Population	Female	15 - 19 years	Medium	population__female__15-19__medium	population__FULL__15-19__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Female population aged 15 to 19 years	Population	Female	15 - 19 years	High	population__female__15-19__high	population__FULL__15-19__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Female population aged 20 to 29 years	Population	Female	20 - 29 years	None	population__female__20-29__records	population__FULL__20-29__records		LineChart	0	true		
-	Female population aged 20 to 29 years	Population	Female	20 - 29 years	Low	population__female__20-29__low	population__FULL__20-29__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Female population aged 20 to 29 years	Population	Female	20 - 29 years	Medium	population__female__20-29__medium	population__FULL__20-29__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Female population aged 20 to 29 years	Population	Female	20 - 29 years	High	population__female__20-29__high	population__FULL__20-29__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Female population aged 30 to 39 years	Population	Female	30 - 39 years	None	population__female__30-39__records	population__FULL__30-39__records		LineChart	0	true		
-	Female population aged 30 to 39 years	Population	Female	30 - 39 years	Low	population__female__30-39__low	population__FULL__30-39__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Female population aged 30 to 39 years	Population	Female	30 - 39 years	Medium	population__female__30-39__medium	population__FULL__30-39__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Female population aged 30 to 39 years	Population	Female	30 - 39 years	High	population__female__30-39__high	population__FULL__30-39__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Female population aged 40 to 49 years	Population	Female	40 - 49 years	None	population__female__40-49__records	population__FULL__40-49__records		LineChart	0	true		
-	Female population aged 40 to 49 years	Population	Female	40 - 49 years	Low	population__female__40-49__low	population__FULL__40-49__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Female population aged 40 to 49 years	Population	Female	40 - 49 years	Medium	population__female__40-49__medium	population__FULL__40-49__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Female population aged 40 to 49 years	Population	Female	40 - 49 years	High	population__female__40-49__high	population__FULL__40-49__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Female population aged 50 to 59 years	Population	Female	50 - 59 years	None	population__female__50-59__records	population__FULL__50-59__records		LineChart	0	true		
-	Female population aged 50 to 59 years	Population	Female	50 - 59 years	Low	population__female__50-59__low	population__FULL__50-59__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Female population aged 50 to 59 years	Population	Female	50 - 59 years	Medium	population__female__50-59__medium	population__FULL__50-59__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Female population aged 50 to 59 years	Population	Female	50 - 59 years	High	population__female__50-59__high	population__FULL__50-59__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Female population aged 60 to 69 years	Population	Female	60 - 69 years	None	population__female__60-69__records	population__FULL__60-69__records		LineChart	0	true		
-	Female population aged 60 to 69 years	Population	Female	60 - 69 years	Low	population__female__60-69__low	population__FULL__60-69__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Female population aged 60 to 69 years	Population	Female	60 - 69 years	Medium	population__female__60-69__medium	population__FULL__60-69__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Female population aged 60 to 69 years	Population	Female	60 - 69 years	High	population__female__60-69__high	population__FULL__60-69__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Female population aged 70 to 79 years	Population	Female	70 - 79 years	None	population__female__70-79__records	population__FULL__70-79__records		LineChart	0	true		
-	Female population aged 70 to 79 years	Population	Female	70 - 79 years	Low	population__female__70-79__low	population__FULL__70-79__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Female population aged 70 to 79 years	Population	Female	70 - 79 years	Medium	population__female__70-79__medium	population__FULL__70-79__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Female population aged 70 to 79 years	Population	Female	70 - 79 years	High	population__female__70-79__high	population__FULL__70-79__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Female population aged 80 to 89 years	Population	Female	80 - 89 years	None	population__female__80-89__records	population__FULL__80-89__records		LineChart	0	true		
-	Female population aged 80 to 89 years	Population	Female	80 - 89 years	Low	population__female__80-89__low	population__FULL__80-89__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Female population aged 80 to 89 years	Population	Female	80 - 89 years	Medium	population__female__80-89__medium	population__FULL__80-89__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Female population aged 80 to 89 years	Population	Female	80 - 89 years	High	population__female__80-89__high	population__FULL__80-89__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Female population aged 90 to 99 years	Population	Female	90 - 99 years	None	population__female__90-99__records	population__FULL__90-99__records		LineChart	0	true		
-	Female population aged 90 to 99 years	Population	Female	90 - 99 years	Low	population__female__90-99__low	population__FULL__90-99__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Female population aged 90 to 99 years	Population	Female	90 - 99 years	Medium	population__female__90-99__medium	population__FULL__90-99__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Female population aged 90 to 99 years	Population	Female	90 - 99 years	High	population__female__90-99__high	population__FULL__90-99__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Female population older than 100 years	Population	Female	100+ years	None	population__female__100-__records	population__FULL__100-__records		LineChart	0	true		
-	Female population older than 100 years	Population	Female	100+ years	Low	population__female__100-__low	population__FULL__100-__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Female population older than 100 years	Population	Female	100+ years	Medium	population__female__100-__medium	population__FULL__100-__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Female population older than 100 years	Population	Female	100+ years	High	population__female__100-__high	population__FULL__100-__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Male population	Population	Male	Total	None	population__male__all__records	population__FULL__all__records		LineChart	0	true		
-	Male population	Population	Male	Total	Low	population__male__all__low	population__FULL__all__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Male population	Population	Male	Total	Medium	population__male__all__medium	population__FULL__all__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Male population	Population	Male	Total	High	population__male__all__high	population__FULL__all__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Male population aged 0 to 4 years	Population	Male	0 - 4 years	None	population__male__0-4__records	population__FULL__0-4__records		LineChart	0	true		
-	Male population aged 0 to 4 years	Population	Male	0 - 4 years	Low	population__male__0-4__low	population__FULL__0-4__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Male population aged 0 to 4 years	Population	Male	0 - 4 years	Medium	population__male__0-4__medium	population__FULL__0-4__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Male population aged 0 to 4 years	Population	Male	0 - 4 years	High	population__male__0-4__high	population__FULL__0-4__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Male population aged 5 to 9 years	Population	Male	5 - 9 years	None	population__male__5-9__records	population__FULL__5-9__records		LineChart	0	true		
-	Male population aged 5 to 9 years	Population	Male	5 - 9 years	Low	population__male__5-9__low	population__FULL__5-9__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Male population aged 5 to 9 years	Population	Male	5 - 9 years	Medium	population__male__5-9__medium	population__FULL__5-9__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Male population aged 5 to 9 years	Population	Male	5 - 9 years	High	population__male__5-9__high	population__FULL__5-9__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Male population aged 10 to 14 years	Population	Male	10 - 14 years	None	population__male__10-14__records	population__FULL__10-14__records		LineChart	0	true		
-	Male population aged 10 to 14 years	Population	Male	10 - 14 years	Low	population__male__10-14__low	population__FULL__10-14__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Male population aged 10 to 14 years	Population	Male	10 - 14 years	Medium	population__male__10-14__medium	population__FULL__10-14__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Male population aged 10 to 14 years	Population	Male	10 - 14 years	High	population__male__10-14__high	population__FULL__10-14__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Male population aged 15 to 19 years	Population	Male	15 - 19 years	None	population__male__15-19__records	population__FULL__15-19__records		LineChart	0	true		
-	Male population aged 15 to 19 years	Population	Male	15 - 19 years	Low	population__male__15-19__low	population__FULL__15-19__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Male population aged 15 to 19 years	Population	Male	15 - 19 years	Medium	population__male__15-19__medium	population__FULL__15-19__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Male population aged 15 to 19 years	Population	Male	15 - 19 years	High	population__male__15-19__high	population__FULL__15-19__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Male population aged 20 to 29 years	Population	Male	20 - 29 years	None	population__male__20-29__records	population__FULL__20-29__records		LineChart	0	true		
-	Male population aged 20 to 29 years	Population	Male	20 - 29 years	Low	population__male__20-29__low	population__FULL__20-29__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Male population aged 20 to 29 years	Population	Male	20 - 29 years	Medium	population__male__20-29__medium	population__FULL__20-29__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Male population aged 20 to 29 years	Population	Male	20 - 29 years	High	population__male__20-29__high	population__FULL__20-29__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Male population aged 30 to 39 years	Population	Male	30 - 39 years	None	population__male__30-39__records	population__FULL__30-39__records		LineChart	0	true		
-	Male population aged 30 to 39 years	Population	Male	30 - 39 years	Low	population__male__30-39__low	population__FULL__30-39__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Male population aged 30 to 39 years	Population	Male	30 - 39 years	Medium	population__male__30-39__medium	population__FULL__30-39__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Male population aged 30 to 39 years	Population	Male	30 - 39 years	High	population__male__30-39__high	population__FULL__30-39__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Male population aged 40 to 49 years	Population	Male	40 - 49 years	None	population__male__40-49__records	population__FULL__40-49__records		LineChart	0	true		
-	Male population aged 40 to 49 years	Population	Male	40 - 49 years	Low	population__male__40-49__low	population__FULL__40-49__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Male population aged 40 to 49 years	Population	Male	40 - 49 years	Medium	population__male__40-49__medium	population__FULL__40-49__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Male population aged 40 to 49 years	Population	Male	40 - 49 years	High	population__male__40-49__high	population__FULL__40-49__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Male population aged 50 to 59 years	Population	Male	50 - 59 years	None	population__male__50-59__records	population__FULL__50-59__records		LineChart	0	true		
-	Male population aged 50 to 59 years	Population	Male	50 - 59 years	Low	population__male__50-59__low	population__FULL__50-59__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Male population aged 50 to 59 years	Population	Male	50 - 59 years	Medium	population__male__50-59__medium	population__FULL__50-59__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Male population aged 50 to 59 years	Population	Male	50 - 59 years	High	population__male__50-59__high	population__FULL__50-59__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Male population aged 60 to 69 years	Population	Male	60 - 69 years	None	population__male__60-69__records	population__FULL__60-69__records		LineChart	0	true		
-	Male population aged 60 to 69 years	Population	Male	60 - 69 years	Low	population__male__60-69__low	population__FULL__60-69__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Male population aged 60 to 69 years	Population	Male	60 - 69 years	Medium	population__male__60-69__medium	population__FULL__60-69__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Male population aged 60 to 69 years	Population	Male	60 - 69 years	High	population__male__60-69__high	population__FULL__60-69__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Male population aged 70 to 79 years	Population	Male	70 - 79 years	None	population__male__70-79__records	population__FULL__70-79__records		LineChart	0	true		
-	Male population aged 70 to 79 years	Population	Male	70 - 79 years	Low	population__male__70-79__low	population__FULL__70-79__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Male population aged 70 to 79 years	Population	Male	70 - 79 years	Medium	population__male__70-79__medium	population__FULL__70-79__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Male population aged 70 to 79 years	Population	Male	70 - 79 years	High	population__male__70-79__high	population__FULL__70-79__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Male population aged 80 to 89 years	Population	Male	80 - 89 years	None	population__male__80-89__records	population__FULL__80-89__records		LineChart	0	true		
-	Male population aged 80 to 89 years	Population	Male	80 - 89 years	Low	population__male__80-89__low	population__FULL__80-89__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Male population aged 80 to 89 years	Population	Male	80 - 89 years	Medium	population__male__80-89__medium	population__FULL__80-89__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Male population aged 80 to 89 years	Population	Male	80 - 89 years	High	population__male__80-89__high	population__FULL__80-89__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Male population aged 90 to 99 years	Population	Male	90 - 99 years	None	population__male__90-99__records	population__FULL__90-99__records		LineChart	0	true		
-	Male population aged 90 to 99 years	Population	Male	90 - 99 years	Low	population__male__90-99__low	population__FULL__90-99__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Male population aged 90 to 99 years	Population	Male	90 - 99 years	Medium	population__male__90-99__medium	population__FULL__90-99__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Male population aged 90 to 99 years	Population	Male	90 - 99 years	High	population__male__90-99__high	population__FULL__90-99__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Male population older than 100 years	Population	Male	100+ years	None	population__male__100-__records	population__FULL__100-__records		LineChart	0	true		
-	Male population older than 100 years	Population	Male	100+ years	Low	population__male__100-__low	population__FULL__100-__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Male population older than 100 years	Population	Male	100+ years	Medium	population__male__100-__medium	population__FULL__100-__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Male population older than 100 years	Population	Male	100+ years	High	population__male__100-__high	population__FULL__100-__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Population by broad age group	Population by broad age group	Both sexes	Total	None	population_broad__all__65-__records population_broad__all__25-64__records population_broad__all__15-24__records population_broad__all__5-14__records population_broad__all__0-4__records	population_broad__all__FULL__records		StackedArea	0	false	true	entity
-	Population by broad age group	Population by broad age group	Both sexes	Total	Low	population_broad__all__65-__low population_broad__all__25-64__low population_broad__all__15-24__low population_broad__all__5-14__low population_broad__all__0-4__low	population_broad__all__FULL__low	Projected population to 2100 is based on the UN's low population scenario.	StackedArea	0	false	true	entity
-	Population by broad age group	Population by broad age group	Both sexes	Total	Medium	population_broad__all__65-__medium population_broad__all__25-64__medium population_broad__all__15-24__medium population_broad__all__5-14__medium population_broad__all__0-4__medium	population_broad__all__FULL__medium	Projected population to 2100 is based on the UN's medium population scenario.	StackedArea	0	false	true	entity
-	Population by broad age group	Population by broad age group	Both sexes	Total	High	population_broad__all__65-__high population_broad__all__25-64__high population_broad__all__15-24__high population_broad__all__5-14__high population_broad__all__0-4__high	population_broad__all__FULL__high	Projected population to 2100 is based on the UN's high population scenario.	StackedArea	0	false	true	entity
-	Female population by broad age group	Population by broad age group	Female	Total	None	population_broad__female__65-__records population_broad__female__25-64__records population_broad__female__15-24__records population_broad__female__5-14__records population_broad__female__0-4__records	population_broad__female__FULL__records		StackedArea	0	false	true	entity
-	Female population by broad age group	Population by broad age group	Female	Total	Low	population_broad__female__65-__low population_broad__female__25-64__low population_broad__female__15-24__low population_broad__female__5-14__low population_broad__female__0-4__low	population_broad__female__FULL__low	Projected population to 2100 is based on the UN's low population scenario.	StackedArea	0	false	true	entity
-	Female population by broad age group	Population by broad age group	Female	Total	Medium	population_broad__female__65-__medium population_broad__female__25-64__medium population_broad__female__15-24__medium population_broad__female__5-14__medium population_broad__female__0-4__medium	population_broad__female__FULL__medium	Projected population to 2100 is based on the UN's medium population scenario.	StackedArea	0	false	true	entity
-	Female population by broad age group	Population by broad age group	Female	Total	High	population_broad__female__65-__high population_broad__female__25-64__high population_broad__female__15-24__high population_broad__female__5-14__high population_broad__female__0-4__high	population_broad__female__FULL__high	Projected population to 2100 is based on the UN's high population scenario.	StackedArea	0	false	true	entity
-	Male population by broad age group	Population by broad age group	Male	Total	None	population_broad__male__65-__records population_broad__male__25-64__records population_broad__male__15-24__records population_broad__male__5-14__records population_broad__male__0-4__records	population_broad__male__FULL__records		StackedArea	0	false	true	entity
-	Male population by broad age group	Population by broad age group	Male	Total	Low	population_broad__male__65-__low population_broad__male__25-64__low population_broad__male__15-24__low population_broad__male__5-14__low population_broad__male__0-4__low	population_broad__male__FULL__low	Projected population to 2100 is based on the UN's low population scenario.	StackedArea	0	false	true	entity
-	Male population by broad age group	Population by broad age group	Male	Total	Medium	population_broad__male__65-__medium population_broad__male__25-64__medium population_broad__male__15-24__medium population_broad__male__5-14__medium population_broad__male__0-4__medium	population_broad__male__FULL__medium	Projected population to 2100 is based on the UN's medium population scenario.	StackedArea	0	false	true	entity
-	Male population by broad age group	Population by broad age group	Male	Total	High	population_broad__male__65-__high population_broad__male__25-64__high population_broad__male__15-24__high population_broad__male__5-14__high population_broad__male__0-4__high	population_broad__male__FULL__high	Projected population to 2100 is based on the UN's high population scenario.	StackedArea	0	false	true	entity
-	Annual change in population	Annual population change	Both sexes	Total	None	population_change__all__all__records	population_change__FULL__all__records		LineChart	0	true		
-	Annual change in population aged 0 to 4 years	Annual population change	Both sexes	0 - 4 years	None	population_change__all__0-4__records	population_change__FULL__0-4__records		LineChart	0	true		
-	Annual change in population aged 5 to 9 years	Annual population change	Both sexes	5 - 9 years	None	population_change__all__5-9__records	population_change__FULL__5-9__records		LineChart	0	true		
-	Annual change in population aged 10 to 14 years	Annual population change	Both sexes	10 - 14 years	None	population_change__all__10-14__records	population_change__FULL__10-14__records		LineChart	0	true		
-	Annual change in population aged 15 to 19 years	Annual population change	Both sexes	15 - 19 years	None	population_change__all__15-19__records	population_change__FULL__15-19__records		LineChart	0	true		
-	Annual change in population aged 20 to 29 years	Annual population change	Both sexes	20 - 29 years	None	population_change__all__20-29__records	population_change__FULL__20-29__records		LineChart	0	true		
-	Annual change in population aged 30 to 39 years	Annual population change	Both sexes	30 - 39 years	None	population_change__all__30-39__records	population_change__FULL__30-39__records		LineChart	0	true		
-	Annual change in population aged 40 to 49 years	Annual population change	Both sexes	40 - 49 years	None	population_change__all__40-49__records	population_change__FULL__40-49__records		LineChart	0	true		
-	Annual change in population aged 50 to 59 years	Annual population change	Both sexes	50 - 59 years	None	population_change__all__50-59__records	population_change__FULL__50-59__records		LineChart	0	true		
-	Annual change in population aged 60 to 69 years	Annual population change	Both sexes	60 - 69 years	None	population_change__all__60-69__records	population_change__FULL__60-69__records		LineChart	0	true		
-	Annual change in population aged 70 to 79 years	Annual population change	Both sexes	70 - 79 years	None	population_change__all__70-79__records	population_change__FULL__70-79__records		LineChart	0	true		
-	Annual change in population aged 80 to 89 years	Annual population change	Both sexes	80 - 89 years	None	population_change__all__80-89__records	population_change__FULL__80-89__records		LineChart	0	true		
-	Annual change in population aged 90 to 99 years	Annual population change	Both sexes	90 - 99 years	None	population_change__all__90-99__records	population_change__FULL__90-99__records		LineChart	0	true		
-	Annual change in population older than 100 years	Annual population change	Both sexes	100+ years	None	population_change__all__100-__records	population_change__FULL__100-__records		LineChart	0	true		
-	Annual change in female population	Annual population change	Female	Total	None	population_change__female__all__records	population_change__FULL__all__records		LineChart	0	true		
-	Annual change in female population aged 0 to 4 years	Annual population change	Female	0 - 4 years	None	population_change__female__0-4__records	population_change__FULL__0-4__records		LineChart	0	true		
-	Annual change in female population aged 5 to 9 years	Annual population change	Female	5 - 9 years	None	population_change__female__5-9__records	population_change__FULL__5-9__records		LineChart	0	true		
-	Annual change in female population aged 10 to 14 years	Annual population change	Female	10 - 14 years	None	population_change__female__10-14__records	population_change__FULL__10-14__records		LineChart	0	true		
-	Annual change in female population aged 15 to 19 years	Annual population change	Female	15 - 19 years	None	population_change__female__15-19__records	population_change__FULL__15-19__records		LineChart	0	true		
-	Annual change in female population aged 20 to 29 years	Annual population change	Female	20 - 29 years	None	population_change__female__20-29__records	population_change__FULL__20-29__records		LineChart	0	true		
-	Annual change in female population aged 30 to 39 years	Annual population change	Female	30 - 39 years	None	population_change__female__30-39__records	population_change__FULL__30-39__records		LineChart	0	true		
-	Annual change in female population aged 40 to 49 years	Annual population change	Female	40 - 49 years	None	population_change__female__40-49__records	population_change__FULL__40-49__records		LineChart	0	true		
-	Annual change in female population aged 50 to 59 years	Annual population change	Female	50 - 59 years	None	population_change__female__50-59__records	population_change__FULL__50-59__records		LineChart	0	true		
-	Annual change in female population aged 60 to 69 years	Annual population change	Female	60 - 69 years	None	population_change__female__60-69__records	population_change__FULL__60-69__records		LineChart	0	true		
-	Annual change in female population aged 70 to 79 years	Annual population change	Female	70 - 79 years	None	population_change__female__70-79__records	population_change__FULL__70-79__records		LineChart	0	true		
-	Annual change in female population aged 80 to 89 years	Annual population change	Female	80 - 89 years	None	population_change__female__80-89__records	population_change__FULL__80-89__records		LineChart	0	true		
-	Annual change in female population aged 90 to 99 years	Annual population change	Female	90 - 99 years	None	population_change__female__90-99__records	population_change__FULL__90-99__records		LineChart	0	true		
-	Annual change in female population older than 100 years	Annual population change	Female	100+ years	None	population_change__female__100-__records	population_change__FULL__100-__records		LineChart	0	true		
-	Annual change in male population	Annual population change	Male	Total	None	population_change__male__all__records	population_change__FULL__all__records		LineChart	0	true		
-	Annual change in male population aged 0 to 4 years	Annual population change	Male	0 - 4 years	None	population_change__male__0-4__records	population_change__FULL__0-4__records		LineChart	0	true		
-	Annual change in male population aged 5 to 9 years	Annual population change	Male	5 - 9 years	None	population_change__male__5-9__records	population_change__FULL__5-9__records		LineChart	0	true		
-	Annual change in male population aged 10 to 14 years	Annual population change	Male	10 - 14 years	None	population_change__male__10-14__records	population_change__FULL__10-14__records		LineChart	0	true		
-	Annual change in male population aged 15 to 19 years	Annual population change	Male	15 - 19 years	None	population_change__male__15-19__records	population_change__FULL__15-19__records		LineChart	0	true		
-	Annual change in male population aged 20 to 29 years	Annual population change	Male	20 - 29 years	None	population_change__male__20-29__records	population_change__FULL__20-29__records		LineChart	0	true		
-	Annual change in male population aged 30 to 39 years	Annual population change	Male	30 - 39 years	None	population_change__male__30-39__records	population_change__FULL__30-39__records		LineChart	0	true		
-	Annual change in male population aged 40 to 49 years	Annual population change	Male	40 - 49 years	None	population_change__male__40-49__records	population_change__FULL__40-49__records		LineChart	0	true		
-	Annual change in male population aged 50 to 59 years	Annual population change	Male	50 - 59 years	None	population_change__male__50-59__records	population_change__FULL__50-59__records		LineChart	0	true		
-	Annual change in male population aged 60 to 69 years	Annual population change	Male	60 - 69 years	None	population_change__male__60-69__records	population_change__FULL__60-69__records		LineChart	0	true		
-	Annual change in male population aged 70 to 79 years	Annual population change	Male	70 - 79 years	None	population_change__male__70-79__records	population_change__FULL__70-79__records		LineChart	0	true		
-	Annual change in male population aged 80 to 89 years	Annual population change	Male	80 - 89 years	None	population_change__male__80-89__records	population_change__FULL__80-89__records		LineChart	0	true		
-	Annual change in male population aged 90 to 99 years	Annual population change	Male	90 - 99 years	None	population_change__male__90-99__records	population_change__FULL__90-99__records		LineChart	0	true		
-	Annual change in male population older than 100 years	Annual population change	Male	100+ years	None	population_change__male__100-__records	population_change__FULL__100-__records		LineChart	0	true		
-	Population density	Population density	Both sexes	Total	None	population_density__all__all__records	population_density__FULL__all__records	The number of poeple per km² of land area.\n	LineChart	0	true		
-	Population density	Population density	Both sexes	Total	Low	population_density__all__all__low	population_density__FULL__all__low	The number of poeple per km² of land area.\nProjected population density to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Population density	Population density	Both sexes	Total	Medium	population_density__all__all__medium	population_density__FULL__all__medium	The number of poeple per km² of land area.\nProjected population density to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Population density	Population density	Both sexes	Total	High	population_density__all__all__high	population_density__FULL__all__high	The number of poeple per km² of land area.\nProjected population density to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Births	Births (TODO)	Both sexes	Total	None				LineChart	0	true		
-	Births	Births (TODO)	Both sexes	Total	Low			Projected births to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Births	Births (TODO)	Both sexes	Total	Medium			Projected births to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Births	Births (TODO)	Both sexes	Total	High			Projected births to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Female births	Births (TODO)	Female	Total	None				LineChart	0	true		
-	Female births	Births (TODO)	Female	Total	Low			Projected births to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Female births	Births (TODO)	Female	Total	Medium			Projected births to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Female births	Births (TODO)	Female	Total	High			Projected births to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Male births	Births (TODO)	Male	Total	None				LineChart	0	true		
-	Male births	Births (TODO)	Male	Total	Low			Projected births to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Male births	Births (TODO)	Male	Total	Medium			Projected births to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Male births	Births (TODO)	Male	Total	High			Projected births to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Deaths	Deaths (TODO)	Both sexes	Total	None				LineChart	0	true		
-	Deaths	Deaths (TODO)	Both sexes	Total	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Deaths	Deaths (TODO)	Both sexes	Total	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Deaths	Deaths (TODO)	Both sexes	Total	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Deaths	Deaths (TODO)	Both sexes	0 - 4 years	None				LineChart	0	true		
-	Deaths	Deaths (TODO)	Both sexes	0 - 4 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Deaths	Deaths (TODO)	Both sexes	0 - 4 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Deaths	Deaths (TODO)	Both sexes	0 - 4 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Deaths	Deaths (TODO)	Both sexes	5 - 9 years	None				LineChart	0	true		
-	Deaths	Deaths (TODO)	Both sexes	5 - 9 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Deaths	Deaths (TODO)	Both sexes	5 - 9 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Deaths	Deaths (TODO)	Both sexes	5 - 9 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Deaths	Deaths (TODO)	Both sexes	10 - 14 years	None				LineChart	0	true		
-	Deaths	Deaths (TODO)	Both sexes	10 - 14 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Deaths	Deaths (TODO)	Both sexes	10 - 14 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Deaths	Deaths (TODO)	Both sexes	10 - 14 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Deaths	Deaths (TODO)	Both sexes	15 - 19 years	None				LineChart	0	true		
-	Deaths	Deaths (TODO)	Both sexes	15 - 19 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Deaths	Deaths (TODO)	Both sexes	15 - 19 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Deaths	Deaths (TODO)	Both sexes	15 - 19 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Deaths	Deaths (TODO)	Both sexes	20 - 29 years	None				LineChart	0	true		
-	Deaths	Deaths (TODO)	Both sexes	20 - 29 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Deaths	Deaths (TODO)	Both sexes	20 - 29 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Deaths	Deaths (TODO)	Both sexes	20 - 29 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Deaths	Deaths (TODO)	Both sexes	30 - 39 years	None				LineChart	0	true		
-	Deaths	Deaths (TODO)	Both sexes	30 - 39 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Deaths	Deaths (TODO)	Both sexes	30 - 39 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Deaths	Deaths (TODO)	Both sexes	30 - 39 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Deaths	Deaths (TODO)	Both sexes	40 - 49 years	None				LineChart	0	true		
-	Deaths	Deaths (TODO)	Both sexes	40 - 49 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Deaths	Deaths (TODO)	Both sexes	40 - 49 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Deaths	Deaths (TODO)	Both sexes	40 - 49 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Deaths	Deaths (TODO)	Both sexes	50 - 59 years	None				LineChart	0	true		
-	Deaths	Deaths (TODO)	Both sexes	50 - 59 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Deaths	Deaths (TODO)	Both sexes	50 - 59 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Deaths	Deaths (TODO)	Both sexes	50 - 59 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Deaths	Deaths (TODO)	Both sexes	60 - 69 years	None				LineChart	0	true		
-	Deaths	Deaths (TODO)	Both sexes	60 - 69 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Deaths	Deaths (TODO)	Both sexes	60 - 69 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Deaths	Deaths (TODO)	Both sexes	60 - 69 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Deaths	Deaths (TODO)	Both sexes	70 - 79 years	None				LineChart	0	true		
-	Deaths	Deaths (TODO)	Both sexes	70 - 79 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Deaths	Deaths (TODO)	Both sexes	70 - 79 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Deaths	Deaths (TODO)	Both sexes	70 - 79 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Deaths	Deaths (TODO)	Both sexes	80 - 89 years	None				LineChart	0	true		
-	Deaths	Deaths (TODO)	Both sexes	80 - 89 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Deaths	Deaths (TODO)	Both sexes	80 - 89 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Deaths	Deaths (TODO)	Both sexes	80 - 89 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Deaths	Deaths (TODO)	Both sexes	90 - 99 years	None				LineChart	0	true		
-	Deaths	Deaths (TODO)	Both sexes	90 - 99 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Deaths	Deaths (TODO)	Both sexes	90 - 99 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Deaths	Deaths (TODO)	Both sexes	90 - 99 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Deaths	Deaths (TODO)	Both sexes	100+ years	None				LineChart	0	true		
-	Deaths	Deaths (TODO)	Both sexes	100+ years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Deaths	Deaths (TODO)	Both sexes	100+ years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Deaths	Deaths (TODO)	Both sexes	100+ years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Female deaths	Deaths (TODO)	Female	Total	None				LineChart	0	true		
-	Female deaths	Deaths (TODO)	Female	Total	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Female deaths	Deaths (TODO)	Female	Total	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Female deaths	Deaths (TODO)	Female	Total	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Female deaths	Deaths (TODO)	Female	0 - 4 years	None				LineChart	0	true		
-	Female deaths	Deaths (TODO)	Female	0 - 4 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Female deaths	Deaths (TODO)	Female	0 - 4 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Female deaths	Deaths (TODO)	Female	0 - 4 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Female deaths	Deaths (TODO)	Female	5 - 9 years	None				LineChart	0	true		
-	Female deaths	Deaths (TODO)	Female	5 - 9 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Female deaths	Deaths (TODO)	Female	5 - 9 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Female deaths	Deaths (TODO)	Female	5 - 9 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Female deaths	Deaths (TODO)	Female	10 - 14 years	None				LineChart	0	true		
-	Female deaths	Deaths (TODO)	Female	10 - 14 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Female deaths	Deaths (TODO)	Female	10 - 14 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Female deaths	Deaths (TODO)	Female	10 - 14 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Female deaths	Deaths (TODO)	Female	15 - 19 years	None				LineChart	0	true		
-	Female deaths	Deaths (TODO)	Female	15 - 19 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Female deaths	Deaths (TODO)	Female	15 - 19 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Female deaths	Deaths (TODO)	Female	15 - 19 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Female deaths	Deaths (TODO)	Female	20 - 29 years	None				LineChart	0	true		
-	Female deaths	Deaths (TODO)	Female	20 - 29 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Female deaths	Deaths (TODO)	Female	20 - 29 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Female deaths	Deaths (TODO)	Female	20 - 29 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Female deaths	Deaths (TODO)	Female	30 - 39 years	None				LineChart	0	true		
-	Female deaths	Deaths (TODO)	Female	30 - 39 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Female deaths	Deaths (TODO)	Female	30 - 39 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Female deaths	Deaths (TODO)	Female	30 - 39 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Female deaths	Deaths (TODO)	Female	40 - 49 years	None				LineChart	0	true		
-	Female deaths	Deaths (TODO)	Female	40 - 49 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Female deaths	Deaths (TODO)	Female	40 - 49 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Female deaths	Deaths (TODO)	Female	40 - 49 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Female deaths	Deaths (TODO)	Female	50 - 59 years	None				LineChart	0	true		
-	Female deaths	Deaths (TODO)	Female	50 - 59 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Female deaths	Deaths (TODO)	Female	50 - 59 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Female deaths	Deaths (TODO)	Female	50 - 59 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Female deaths	Deaths (TODO)	Female	60 - 69 years	None				LineChart	0	true		
-	Female deaths	Deaths (TODO)	Female	60 - 69 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Female deaths	Deaths (TODO)	Female	60 - 69 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Female deaths	Deaths (TODO)	Female	60 - 69 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Female deaths	Deaths (TODO)	Female	70 - 79 years	None				LineChart	0	true		
-	Female deaths	Deaths (TODO)	Female	70 - 79 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Female deaths	Deaths (TODO)	Female	70 - 79 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Female deaths	Deaths (TODO)	Female	70 - 79 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Female deaths	Deaths (TODO)	Female	80 - 89 years	None				LineChart	0	true		
-	Female deaths	Deaths (TODO)	Female	80 - 89 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Female deaths	Deaths (TODO)	Female	80 - 89 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Female deaths	Deaths (TODO)	Female	80 - 89 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Female deaths	Deaths (TODO)	Female	90 - 99 years	None				LineChart	0	true		
-	Female deaths	Deaths (TODO)	Female	90 - 99 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Female deaths	Deaths (TODO)	Female	90 - 99 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Female deaths	Deaths (TODO)	Female	90 - 99 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Female deaths	Deaths (TODO)	Female	100+ years	None				LineChart	0	true		
-	Female deaths	Deaths (TODO)	Female	100+ years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Female deaths	Deaths (TODO)	Female	100+ years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Female deaths	Deaths (TODO)	Female	100+ years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Male deaths	Deaths (TODO)	Male	Total	None				LineChart	0	true		
-	Male deaths	Deaths (TODO)	Male	Total	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Male deaths	Deaths (TODO)	Male	Total	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Male deaths	Deaths (TODO)	Male	Total	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Male deaths	Deaths (TODO)	Male	0 - 4 years	None				LineChart	0	true		
-	Male deaths	Deaths (TODO)	Male	0 - 4 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Male deaths	Deaths (TODO)	Male	0 - 4 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Male deaths	Deaths (TODO)	Male	0 - 4 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Male deaths	Deaths (TODO)	Male	5 - 9 years	None				LineChart	0	true		
-	Male deaths	Deaths (TODO)	Male	5 - 9 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Male deaths	Deaths (TODO)	Male	5 - 9 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Male deaths	Deaths (TODO)	Male	5 - 9 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Male deaths	Deaths (TODO)	Male	10 - 14 years	None				LineChart	0	true		
-	Male deaths	Deaths (TODO)	Male	10 - 14 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Male deaths	Deaths (TODO)	Male	10 - 14 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Male deaths	Deaths (TODO)	Male	10 - 14 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Male deaths	Deaths (TODO)	Male	15 - 19 years	None				LineChart	0	true		
-	Male deaths	Deaths (TODO)	Male	15 - 19 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Male deaths	Deaths (TODO)	Male	15 - 19 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Male deaths	Deaths (TODO)	Male	15 - 19 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Male deaths	Deaths (TODO)	Male	20 - 29 years	None				LineChart	0	true		
-	Male deaths	Deaths (TODO)	Male	20 - 29 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Male deaths	Deaths (TODO)	Male	20 - 29 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Male deaths	Deaths (TODO)	Male	20 - 29 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Male deaths	Deaths (TODO)	Male	30 - 39 years	None				LineChart	0	true		
-	Male deaths	Deaths (TODO)	Male	30 - 39 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Male deaths	Deaths (TODO)	Male	30 - 39 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Male deaths	Deaths (TODO)	Male	30 - 39 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Male deaths	Deaths (TODO)	Male	40 - 49 years	None				LineChart	0	true		
-	Male deaths	Deaths (TODO)	Male	40 - 49 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Male deaths	Deaths (TODO)	Male	40 - 49 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Male deaths	Deaths (TODO)	Male	40 - 49 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Male deaths	Deaths (TODO)	Male	50 - 59 years	None				LineChart	0	true		
-	Male deaths	Deaths (TODO)	Male	50 - 59 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Male deaths	Deaths (TODO)	Male	50 - 59 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Male deaths	Deaths (TODO)	Male	50 - 59 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Male deaths	Deaths (TODO)	Male	60 - 69 years	None				LineChart	0	true		
-	Male deaths	Deaths (TODO)	Male	60 - 69 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Male deaths	Deaths (TODO)	Male	60 - 69 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Male deaths	Deaths (TODO)	Male	60 - 69 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Male deaths	Deaths (TODO)	Male	70 - 79 years	None				LineChart	0	true		
-	Male deaths	Deaths (TODO)	Male	70 - 79 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Male deaths	Deaths (TODO)	Male	70 - 79 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Male deaths	Deaths (TODO)	Male	70 - 79 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Male deaths	Deaths (TODO)	Male	80 - 89 years	None				LineChart	0	true		
-	Male deaths	Deaths (TODO)	Male	80 - 89 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Male deaths	Deaths (TODO)	Male	80 - 89 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Male deaths	Deaths (TODO)	Male	80 - 89 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Male deaths	Deaths (TODO)	Male	90 - 99 years	None				LineChart	0	true		
-	Male deaths	Deaths (TODO)	Male	90 - 99 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Male deaths	Deaths (TODO)	Male	90 - 99 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Male deaths	Deaths (TODO)	Male	90 - 99 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true		
-	Male deaths	Deaths (TODO)	Male	100+ years	None				LineChart	0	true		
-	Male deaths	Deaths (TODO)	Male	100+ years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true		
-	Male deaths	Deaths (TODO)	Male	100+ years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true		
-	Male deaths	Deaths (TODO)	Male	100+ years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true		
+	title	Metric Dropdown	Sex Dropdown	Age group Dropdown	Projection Scenario Radio	ySlugs	tableSlug	subtitle	type	yAxisMin	hasMapTab	stackMode	facet	selectedFacetStrategy
+	Population	Population	Both sexes	Total	None	population__all__all__records	population__FULL__all__records		LineChart	0	true			
+	Population	Population	Both sexes	Total	Low	population__all__all__low	population__FULL__all__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Population	Population	Both sexes	Total	Medium	population__all__all__medium	population__FULL__all__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Population	Population	Both sexes	Total	High	population__all__all__high	population__FULL__all__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Population aged 0 to 4 years	Population	Both sexes	0 - 4 years	None	population__all__0-4__records	population__FULL__0-4__records		LineChart	0	true			
+	Population aged 0 to 4 years	Population	Both sexes	0 - 4 years	Low	population__all__0-4__low	population__FULL__0-4__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Population aged 0 to 4 years	Population	Both sexes	0 - 4 years	Medium	population__all__0-4__medium	population__FULL__0-4__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Population aged 0 to 4 years	Population	Both sexes	0 - 4 years	High	population__all__0-4__high	population__FULL__0-4__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Population aged 5 to 9 years	Population	Both sexes	5 - 9 years	None	population__all__5-9__records	population__FULL__5-9__records		LineChart	0	true			
+	Population aged 5 to 9 years	Population	Both sexes	5 - 9 years	Low	population__all__5-9__low	population__FULL__5-9__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Population aged 5 to 9 years	Population	Both sexes	5 - 9 years	Medium	population__all__5-9__medium	population__FULL__5-9__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Population aged 5 to 9 years	Population	Both sexes	5 - 9 years	High	population__all__5-9__high	population__FULL__5-9__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Population aged 10 to 14 years	Population	Both sexes	10 - 14 years	None	population__all__10-14__records	population__FULL__10-14__records		LineChart	0	true			
+	Population aged 10 to 14 years	Population	Both sexes	10 - 14 years	Low	population__all__10-14__low	population__FULL__10-14__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Population aged 10 to 14 years	Population	Both sexes	10 - 14 years	Medium	population__all__10-14__medium	population__FULL__10-14__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Population aged 10 to 14 years	Population	Both sexes	10 - 14 years	High	population__all__10-14__high	population__FULL__10-14__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Population aged 15 to 19 years	Population	Both sexes	15 - 19 years	None	population__all__15-19__records	population__FULL__15-19__records		LineChart	0	true			
+	Population aged 15 to 19 years	Population	Both sexes	15 - 19 years	Low	population__all__15-19__low	population__FULL__15-19__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Population aged 15 to 19 years	Population	Both sexes	15 - 19 years	Medium	population__all__15-19__medium	population__FULL__15-19__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Population aged 15 to 19 years	Population	Both sexes	15 - 19 years	High	population__all__15-19__high	population__FULL__15-19__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Population aged 20 to 29 years	Population	Both sexes	20 - 29 years	None	population__all__20-29__records	population__FULL__20-29__records		LineChart	0	true			
+	Population aged 20 to 29 years	Population	Both sexes	20 - 29 years	Low	population__all__20-29__low	population__FULL__20-29__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Population aged 20 to 29 years	Population	Both sexes	20 - 29 years	Medium	population__all__20-29__medium	population__FULL__20-29__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Population aged 20 to 29 years	Population	Both sexes	20 - 29 years	High	population__all__20-29__high	population__FULL__20-29__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Population aged 30 to 39 years	Population	Both sexes	30 - 39 years	None	population__all__30-39__records	population__FULL__30-39__records		LineChart	0	true			
+	Population aged 30 to 39 years	Population	Both sexes	30 - 39 years	Low	population__all__30-39__low	population__FULL__30-39__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Population aged 30 to 39 years	Population	Both sexes	30 - 39 years	Medium	population__all__30-39__medium	population__FULL__30-39__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Population aged 30 to 39 years	Population	Both sexes	30 - 39 years	High	population__all__30-39__high	population__FULL__30-39__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Population aged 40 to 49 years	Population	Both sexes	40 - 49 years	None	population__all__40-49__records	population__FULL__40-49__records		LineChart	0	true			
+	Population aged 40 to 49 years	Population	Both sexes	40 - 49 years	Low	population__all__40-49__low	population__FULL__40-49__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Population aged 40 to 49 years	Population	Both sexes	40 - 49 years	Medium	population__all__40-49__medium	population__FULL__40-49__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Population aged 40 to 49 years	Population	Both sexes	40 - 49 years	High	population__all__40-49__high	population__FULL__40-49__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Population aged 50 to 59 years	Population	Both sexes	50 - 59 years	None	population__all__50-59__records	population__FULL__50-59__records		LineChart	0	true			
+	Population aged 50 to 59 years	Population	Both sexes	50 - 59 years	Low	population__all__50-59__low	population__FULL__50-59__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Population aged 50 to 59 years	Population	Both sexes	50 - 59 years	Medium	population__all__50-59__medium	population__FULL__50-59__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Population aged 50 to 59 years	Population	Both sexes	50 - 59 years	High	population__all__50-59__high	population__FULL__50-59__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Population aged 60 to 69 years	Population	Both sexes	60 - 69 years	None	population__all__60-69__records	population__FULL__60-69__records		LineChart	0	true			
+	Population aged 60 to 69 years	Population	Both sexes	60 - 69 years	Low	population__all__60-69__low	population__FULL__60-69__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Population aged 60 to 69 years	Population	Both sexes	60 - 69 years	Medium	population__all__60-69__medium	population__FULL__60-69__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Population aged 60 to 69 years	Population	Both sexes	60 - 69 years	High	population__all__60-69__high	population__FULL__60-69__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Population aged 70 to 79 years	Population	Both sexes	70 - 79 years	None	population__all__70-79__records	population__FULL__70-79__records		LineChart	0	true			
+	Population aged 70 to 79 years	Population	Both sexes	70 - 79 years	Low	population__all__70-79__low	population__FULL__70-79__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Population aged 70 to 79 years	Population	Both sexes	70 - 79 years	Medium	population__all__70-79__medium	population__FULL__70-79__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Population aged 70 to 79 years	Population	Both sexes	70 - 79 years	High	population__all__70-79__high	population__FULL__70-79__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Population aged 80 to 89 years	Population	Both sexes	80 - 89 years	None	population__all__80-89__records	population__FULL__80-89__records		LineChart	0	true			
+	Population aged 80 to 89 years	Population	Both sexes	80 - 89 years	Low	population__all__80-89__low	population__FULL__80-89__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Population aged 80 to 89 years	Population	Both sexes	80 - 89 years	Medium	population__all__80-89__medium	population__FULL__80-89__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Population aged 80 to 89 years	Population	Both sexes	80 - 89 years	High	population__all__80-89__high	population__FULL__80-89__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Population aged 90 to 99 years	Population	Both sexes	90 - 99 years	None	population__all__90-99__records	population__FULL__90-99__records		LineChart	0	true			
+	Population aged 90 to 99 years	Population	Both sexes	90 - 99 years	Low	population__all__90-99__low	population__FULL__90-99__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Population aged 90 to 99 years	Population	Both sexes	90 - 99 years	Medium	population__all__90-99__medium	population__FULL__90-99__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Population aged 90 to 99 years	Population	Both sexes	90 - 99 years	High	population__all__90-99__high	population__FULL__90-99__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Population older than 100 years	Population	Both sexes	100+ years	None	population__all__100-__records	population__FULL__100-__records		LineChart	0	true			
+	Population older than 100 years	Population	Both sexes	100+ years	Low	population__all__100-__low	population__FULL__100-__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Population older than 100 years	Population	Both sexes	100+ years	Medium	population__all__100-__medium	population__FULL__100-__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Population older than 100 years	Population	Both sexes	100+ years	High	population__all__100-__high	population__FULL__100-__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Female population	Population	Female	Total	None	population__female__all__records	population__FULL__all__records		LineChart	0	true			
+	Female population	Population	Female	Total	Low	population__female__all__low	population__FULL__all__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Female population	Population	Female	Total	Medium	population__female__all__medium	population__FULL__all__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Female population	Population	Female	Total	High	population__female__all__high	population__FULL__all__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Female population aged 0 to 4 years	Population	Female	0 - 4 years	None	population__female__0-4__records	population__FULL__0-4__records		LineChart	0	true			
+	Female population aged 0 to 4 years	Population	Female	0 - 4 years	Low	population__female__0-4__low	population__FULL__0-4__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Female population aged 0 to 4 years	Population	Female	0 - 4 years	Medium	population__female__0-4__medium	population__FULL__0-4__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Female population aged 0 to 4 years	Population	Female	0 - 4 years	High	population__female__0-4__high	population__FULL__0-4__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Female population aged 5 to 9 years	Population	Female	5 - 9 years	None	population__female__5-9__records	population__FULL__5-9__records		LineChart	0	true			
+	Female population aged 5 to 9 years	Population	Female	5 - 9 years	Low	population__female__5-9__low	population__FULL__5-9__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Female population aged 5 to 9 years	Population	Female	5 - 9 years	Medium	population__female__5-9__medium	population__FULL__5-9__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Female population aged 5 to 9 years	Population	Female	5 - 9 years	High	population__female__5-9__high	population__FULL__5-9__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Female population aged 10 to 14 years	Population	Female	10 - 14 years	None	population__female__10-14__records	population__FULL__10-14__records		LineChart	0	true			
+	Female population aged 10 to 14 years	Population	Female	10 - 14 years	Low	population__female__10-14__low	population__FULL__10-14__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Female population aged 10 to 14 years	Population	Female	10 - 14 years	Medium	population__female__10-14__medium	population__FULL__10-14__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Female population aged 10 to 14 years	Population	Female	10 - 14 years	High	population__female__10-14__high	population__FULL__10-14__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Female population aged 15 to 19 years	Population	Female	15 - 19 years	None	population__female__15-19__records	population__FULL__15-19__records		LineChart	0	true			
+	Female population aged 15 to 19 years	Population	Female	15 - 19 years	Low	population__female__15-19__low	population__FULL__15-19__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Female population aged 15 to 19 years	Population	Female	15 - 19 years	Medium	population__female__15-19__medium	population__FULL__15-19__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Female population aged 15 to 19 years	Population	Female	15 - 19 years	High	population__female__15-19__high	population__FULL__15-19__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Female population aged 20 to 29 years	Population	Female	20 - 29 years	None	population__female__20-29__records	population__FULL__20-29__records		LineChart	0	true			
+	Female population aged 20 to 29 years	Population	Female	20 - 29 years	Low	population__female__20-29__low	population__FULL__20-29__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Female population aged 20 to 29 years	Population	Female	20 - 29 years	Medium	population__female__20-29__medium	population__FULL__20-29__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Female population aged 20 to 29 years	Population	Female	20 - 29 years	High	population__female__20-29__high	population__FULL__20-29__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Female population aged 30 to 39 years	Population	Female	30 - 39 years	None	population__female__30-39__records	population__FULL__30-39__records		LineChart	0	true			
+	Female population aged 30 to 39 years	Population	Female	30 - 39 years	Low	population__female__30-39__low	population__FULL__30-39__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Female population aged 30 to 39 years	Population	Female	30 - 39 years	Medium	population__female__30-39__medium	population__FULL__30-39__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Female population aged 30 to 39 years	Population	Female	30 - 39 years	High	population__female__30-39__high	population__FULL__30-39__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Female population aged 40 to 49 years	Population	Female	40 - 49 years	None	population__female__40-49__records	population__FULL__40-49__records		LineChart	0	true			
+	Female population aged 40 to 49 years	Population	Female	40 - 49 years	Low	population__female__40-49__low	population__FULL__40-49__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Female population aged 40 to 49 years	Population	Female	40 - 49 years	Medium	population__female__40-49__medium	population__FULL__40-49__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Female population aged 40 to 49 years	Population	Female	40 - 49 years	High	population__female__40-49__high	population__FULL__40-49__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Female population aged 50 to 59 years	Population	Female	50 - 59 years	None	population__female__50-59__records	population__FULL__50-59__records		LineChart	0	true			
+	Female population aged 50 to 59 years	Population	Female	50 - 59 years	Low	population__female__50-59__low	population__FULL__50-59__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Female population aged 50 to 59 years	Population	Female	50 - 59 years	Medium	population__female__50-59__medium	population__FULL__50-59__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Female population aged 50 to 59 years	Population	Female	50 - 59 years	High	population__female__50-59__high	population__FULL__50-59__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Female population aged 60 to 69 years	Population	Female	60 - 69 years	None	population__female__60-69__records	population__FULL__60-69__records		LineChart	0	true			
+	Female population aged 60 to 69 years	Population	Female	60 - 69 years	Low	population__female__60-69__low	population__FULL__60-69__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Female population aged 60 to 69 years	Population	Female	60 - 69 years	Medium	population__female__60-69__medium	population__FULL__60-69__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Female population aged 60 to 69 years	Population	Female	60 - 69 years	High	population__female__60-69__high	population__FULL__60-69__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Female population aged 70 to 79 years	Population	Female	70 - 79 years	None	population__female__70-79__records	population__FULL__70-79__records		LineChart	0	true			
+	Female population aged 70 to 79 years	Population	Female	70 - 79 years	Low	population__female__70-79__low	population__FULL__70-79__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Female population aged 70 to 79 years	Population	Female	70 - 79 years	Medium	population__female__70-79__medium	population__FULL__70-79__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Female population aged 70 to 79 years	Population	Female	70 - 79 years	High	population__female__70-79__high	population__FULL__70-79__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Female population aged 80 to 89 years	Population	Female	80 - 89 years	None	population__female__80-89__records	population__FULL__80-89__records		LineChart	0	true			
+	Female population aged 80 to 89 years	Population	Female	80 - 89 years	Low	population__female__80-89__low	population__FULL__80-89__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Female population aged 80 to 89 years	Population	Female	80 - 89 years	Medium	population__female__80-89__medium	population__FULL__80-89__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Female population aged 80 to 89 years	Population	Female	80 - 89 years	High	population__female__80-89__high	population__FULL__80-89__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Female population aged 90 to 99 years	Population	Female	90 - 99 years	None	population__female__90-99__records	population__FULL__90-99__records		LineChart	0	true			
+	Female population aged 90 to 99 years	Population	Female	90 - 99 years	Low	population__female__90-99__low	population__FULL__90-99__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Female population aged 90 to 99 years	Population	Female	90 - 99 years	Medium	population__female__90-99__medium	population__FULL__90-99__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Female population aged 90 to 99 years	Population	Female	90 - 99 years	High	population__female__90-99__high	population__FULL__90-99__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Female population older than 100 years	Population	Female	100+ years	None	population__female__100-__records	population__FULL__100-__records		LineChart	0	true			
+	Female population older than 100 years	Population	Female	100+ years	Low	population__female__100-__low	population__FULL__100-__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Female population older than 100 years	Population	Female	100+ years	Medium	population__female__100-__medium	population__FULL__100-__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Female population older than 100 years	Population	Female	100+ years	High	population__female__100-__high	population__FULL__100-__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Male population	Population	Male	Total	None	population__male__all__records	population__FULL__all__records		LineChart	0	true			
+	Male population	Population	Male	Total	Low	population__male__all__low	population__FULL__all__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Male population	Population	Male	Total	Medium	population__male__all__medium	population__FULL__all__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Male population	Population	Male	Total	High	population__male__all__high	population__FULL__all__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Male population aged 0 to 4 years	Population	Male	0 - 4 years	None	population__male__0-4__records	population__FULL__0-4__records		LineChart	0	true			
+	Male population aged 0 to 4 years	Population	Male	0 - 4 years	Low	population__male__0-4__low	population__FULL__0-4__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Male population aged 0 to 4 years	Population	Male	0 - 4 years	Medium	population__male__0-4__medium	population__FULL__0-4__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Male population aged 0 to 4 years	Population	Male	0 - 4 years	High	population__male__0-4__high	population__FULL__0-4__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Male population aged 5 to 9 years	Population	Male	5 - 9 years	None	population__male__5-9__records	population__FULL__5-9__records		LineChart	0	true			
+	Male population aged 5 to 9 years	Population	Male	5 - 9 years	Low	population__male__5-9__low	population__FULL__5-9__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Male population aged 5 to 9 years	Population	Male	5 - 9 years	Medium	population__male__5-9__medium	population__FULL__5-9__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Male population aged 5 to 9 years	Population	Male	5 - 9 years	High	population__male__5-9__high	population__FULL__5-9__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Male population aged 10 to 14 years	Population	Male	10 - 14 years	None	population__male__10-14__records	population__FULL__10-14__records		LineChart	0	true			
+	Male population aged 10 to 14 years	Population	Male	10 - 14 years	Low	population__male__10-14__low	population__FULL__10-14__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Male population aged 10 to 14 years	Population	Male	10 - 14 years	Medium	population__male__10-14__medium	population__FULL__10-14__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Male population aged 10 to 14 years	Population	Male	10 - 14 years	High	population__male__10-14__high	population__FULL__10-14__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Male population aged 15 to 19 years	Population	Male	15 - 19 years	None	population__male__15-19__records	population__FULL__15-19__records		LineChart	0	true			
+	Male population aged 15 to 19 years	Population	Male	15 - 19 years	Low	population__male__15-19__low	population__FULL__15-19__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Male population aged 15 to 19 years	Population	Male	15 - 19 years	Medium	population__male__15-19__medium	population__FULL__15-19__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Male population aged 15 to 19 years	Population	Male	15 - 19 years	High	population__male__15-19__high	population__FULL__15-19__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Male population aged 20 to 29 years	Population	Male	20 - 29 years	None	population__male__20-29__records	population__FULL__20-29__records		LineChart	0	true			
+	Male population aged 20 to 29 years	Population	Male	20 - 29 years	Low	population__male__20-29__low	population__FULL__20-29__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Male population aged 20 to 29 years	Population	Male	20 - 29 years	Medium	population__male__20-29__medium	population__FULL__20-29__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Male population aged 20 to 29 years	Population	Male	20 - 29 years	High	population__male__20-29__high	population__FULL__20-29__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Male population aged 30 to 39 years	Population	Male	30 - 39 years	None	population__male__30-39__records	population__FULL__30-39__records		LineChart	0	true			
+	Male population aged 30 to 39 years	Population	Male	30 - 39 years	Low	population__male__30-39__low	population__FULL__30-39__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Male population aged 30 to 39 years	Population	Male	30 - 39 years	Medium	population__male__30-39__medium	population__FULL__30-39__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Male population aged 30 to 39 years	Population	Male	30 - 39 years	High	population__male__30-39__high	population__FULL__30-39__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Male population aged 40 to 49 years	Population	Male	40 - 49 years	None	population__male__40-49__records	population__FULL__40-49__records		LineChart	0	true			
+	Male population aged 40 to 49 years	Population	Male	40 - 49 years	Low	population__male__40-49__low	population__FULL__40-49__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Male population aged 40 to 49 years	Population	Male	40 - 49 years	Medium	population__male__40-49__medium	population__FULL__40-49__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Male population aged 40 to 49 years	Population	Male	40 - 49 years	High	population__male__40-49__high	population__FULL__40-49__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Male population aged 50 to 59 years	Population	Male	50 - 59 years	None	population__male__50-59__records	population__FULL__50-59__records		LineChart	0	true			
+	Male population aged 50 to 59 years	Population	Male	50 - 59 years	Low	population__male__50-59__low	population__FULL__50-59__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Male population aged 50 to 59 years	Population	Male	50 - 59 years	Medium	population__male__50-59__medium	population__FULL__50-59__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Male population aged 50 to 59 years	Population	Male	50 - 59 years	High	population__male__50-59__high	population__FULL__50-59__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Male population aged 60 to 69 years	Population	Male	60 - 69 years	None	population__male__60-69__records	population__FULL__60-69__records		LineChart	0	true			
+	Male population aged 60 to 69 years	Population	Male	60 - 69 years	Low	population__male__60-69__low	population__FULL__60-69__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Male population aged 60 to 69 years	Population	Male	60 - 69 years	Medium	population__male__60-69__medium	population__FULL__60-69__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Male population aged 60 to 69 years	Population	Male	60 - 69 years	High	population__male__60-69__high	population__FULL__60-69__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Male population aged 70 to 79 years	Population	Male	70 - 79 years	None	population__male__70-79__records	population__FULL__70-79__records		LineChart	0	true			
+	Male population aged 70 to 79 years	Population	Male	70 - 79 years	Low	population__male__70-79__low	population__FULL__70-79__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Male population aged 70 to 79 years	Population	Male	70 - 79 years	Medium	population__male__70-79__medium	population__FULL__70-79__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Male population aged 70 to 79 years	Population	Male	70 - 79 years	High	population__male__70-79__high	population__FULL__70-79__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Male population aged 80 to 89 years	Population	Male	80 - 89 years	None	population__male__80-89__records	population__FULL__80-89__records		LineChart	0	true			
+	Male population aged 80 to 89 years	Population	Male	80 - 89 years	Low	population__male__80-89__low	population__FULL__80-89__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Male population aged 80 to 89 years	Population	Male	80 - 89 years	Medium	population__male__80-89__medium	population__FULL__80-89__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Male population aged 80 to 89 years	Population	Male	80 - 89 years	High	population__male__80-89__high	population__FULL__80-89__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Male population aged 90 to 99 years	Population	Male	90 - 99 years	None	population__male__90-99__records	population__FULL__90-99__records		LineChart	0	true			
+	Male population aged 90 to 99 years	Population	Male	90 - 99 years	Low	population__male__90-99__low	population__FULL__90-99__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Male population aged 90 to 99 years	Population	Male	90 - 99 years	Medium	population__male__90-99__medium	population__FULL__90-99__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Male population aged 90 to 99 years	Population	Male	90 - 99 years	High	population__male__90-99__high	population__FULL__90-99__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Male population older than 100 years	Population	Male	100+ years	None	population__male__100-__records	population__FULL__100-__records		LineChart	0	true			
+	Male population older than 100 years	Population	Male	100+ years	Low	population__male__100-__low	population__FULL__100-__low	Projected population to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Male population older than 100 years	Population	Male	100+ years	Medium	population__male__100-__medium	population__FULL__100-__medium	Projected population to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Male population older than 100 years	Population	Male	100+ years	High	population__male__100-__high	population__FULL__100-__high	Projected population to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Population by broad age group	Population by broad age group	Both sexes	Total	None	population_broad__all__65-__records population_broad__all__25-64__records population_broad__all__15-24__records population_broad__all__5-14__records population_broad__all__0-4__records	population_broad__all__FULL__records		StackedArea	0	false		true	entity
+	Population by broad age group	Population by broad age group	Both sexes	Total	Low	population_broad__all__65-__low population_broad__all__25-64__low population_broad__all__15-24__low population_broad__all__5-14__low population_broad__all__0-4__low	population_broad__all__FULL__low	Projected population to 2100 is based on the UN's low population scenario.	StackedArea	0	false		true	entity
+	Population by broad age group	Population by broad age group	Both sexes	Total	Medium	population_broad__all__65-__medium population_broad__all__25-64__medium population_broad__all__15-24__medium population_broad__all__5-14__medium population_broad__all__0-4__medium	population_broad__all__FULL__medium	Projected population to 2100 is based on the UN's medium population scenario.	StackedArea	0	false		true	entity
+	Population by broad age group	Population by broad age group	Both sexes	Total	High	population_broad__all__65-__high population_broad__all__25-64__high population_broad__all__15-24__high population_broad__all__5-14__high population_broad__all__0-4__high	population_broad__all__FULL__high	Projected population to 2100 is based on the UN's high population scenario.	StackedArea	0	false		true	entity
+	Female population by broad age group	Population by broad age group	Female	Total	None	population_broad__female__65-__records population_broad__female__25-64__records population_broad__female__15-24__records population_broad__female__5-14__records population_broad__female__0-4__records	population_broad__female__FULL__records		StackedArea	0	false		true	entity
+	Female population by broad age group	Population by broad age group	Female	Total	Low	population_broad__female__65-__low population_broad__female__25-64__low population_broad__female__15-24__low population_broad__female__5-14__low population_broad__female__0-4__low	population_broad__female__FULL__low	Projected population to 2100 is based on the UN's low population scenario.	StackedArea	0	false		true	entity
+	Female population by broad age group	Population by broad age group	Female	Total	Medium	population_broad__female__65-__medium population_broad__female__25-64__medium population_broad__female__15-24__medium population_broad__female__5-14__medium population_broad__female__0-4__medium	population_broad__female__FULL__medium	Projected population to 2100 is based on the UN's medium population scenario.	StackedArea	0	false		true	entity
+	Female population by broad age group	Population by broad age group	Female	Total	High	population_broad__female__65-__high population_broad__female__25-64__high population_broad__female__15-24__high population_broad__female__5-14__high population_broad__female__0-4__high	population_broad__female__FULL__high	Projected population to 2100 is based on the UN's high population scenario.	StackedArea	0	false		true	entity
+	Male population by broad age group	Population by broad age group	Male	Total	None	population_broad__male__65-__records population_broad__male__25-64__records population_broad__male__15-24__records population_broad__male__5-14__records population_broad__male__0-4__records	population_broad__male__FULL__records		StackedArea	0	false		true	entity
+	Male population by broad age group	Population by broad age group	Male	Total	Low	population_broad__male__65-__low population_broad__male__25-64__low population_broad__male__15-24__low population_broad__male__5-14__low population_broad__male__0-4__low	population_broad__male__FULL__low	Projected population to 2100 is based on the UN's low population scenario.	StackedArea	0	false		true	entity
+	Male population by broad age group	Population by broad age group	Male	Total	Medium	population_broad__male__65-__medium population_broad__male__25-64__medium population_broad__male__15-24__medium population_broad__male__5-14__medium population_broad__male__0-4__medium	population_broad__male__FULL__medium	Projected population to 2100 is based on the UN's medium population scenario.	StackedArea	0	false		true	entity
+	Male population by broad age group	Population by broad age group	Male	Total	High	population_broad__male__65-__high population_broad__male__25-64__high population_broad__male__15-24__high population_broad__male__5-14__high population_broad__male__0-4__high	population_broad__male__FULL__high	Projected population to 2100 is based on the UN's high population scenario.	StackedArea	0	false		true	entity
+	Age structure	Age structure	Both sexes	Total	None	population_broad__all__0-4__records population_broad__all__5-14__records population_broad__all__15-24__records population_broad__all__25-64__records population_broad__all__65-__records	population_broad__all__FULL__records		StackedDiscreteBar	0		relative		
+	Age structure	Age structure	Both sexes	Total	Low	population_broad__all__0-4__low population_broad__all__5-14__low population_broad__all__15-24__low population_broad__all__25-64__low population_broad__all__65-__low	population_broad__all__FULL__low	Projected population to 2100 is based on the UN's low population scenario.	StackedDiscreteBar	0		relative		
+	Age structure	Age structure	Both sexes	Total	Medium	population_broad__all__0-4__medium population_broad__all__5-14__medium population_broad__all__15-24__medium population_broad__all__25-64__medium population_broad__all__65-__medium	population_broad__all__FULL__medium	Projected population to 2100 is based on the UN's medium population scenario.	StackedDiscreteBar	0		relative		
+	Age structure	Age structure	Both sexes	Total	High	population_broad__all__0-4__high population_broad__all__5-14__high population_broad__all__15-24__high population_broad__all__25-64__high population_broad__all__65-__high	population_broad__all__FULL__high	Projected population to 2100 is based on the UN's high population scenario.	StackedDiscreteBar	0		relative		
+	Female age structure	Age structure	Female	Total	None	population_broad__female__0-4__records population_broad__female__5-14__records population_broad__female__15-24__records population_broad__female__25-64__records population_broad__female__65-__records	population_broad__female__FULL__records		StackedDiscreteBar	0		relative		
+	Female age structure	Age structure	Female	Total	Low	population_broad__female__0-4__low population_broad__female__5-14__low population_broad__female__15-24__low population_broad__female__25-64__low population_broad__female__65-__low	population_broad__female__FULL__low	Projected population to 2100 is based on the UN's low population scenario.	StackedDiscreteBar	0		relative		
+	Female age structure	Age structure	Female	Total	Medium	population_broad__female__0-4__medium population_broad__female__5-14__medium population_broad__female__15-24__medium population_broad__female__25-64__medium population_broad__female__65-__medium	population_broad__female__FULL__medium	Projected population to 2100 is based on the UN's medium population scenario.	StackedDiscreteBar	0		relative		
+	Female age structure	Age structure	Female	Total	High	population_broad__female__0-4__high population_broad__female__5-14__high population_broad__female__15-24__high population_broad__female__25-64__high population_broad__female__65-__high	population_broad__female__FULL__high	Projected population to 2100 is based on the UN's high population scenario.	StackedDiscreteBar	0		relative		
+	Male age structure	Age structure	Male	Total	None	population_broad__male__0-4__records population_broad__male__5-14__records population_broad__male__15-24__records population_broad__male__25-64__records population_broad__male__65-__records	population_broad__male__FULL__records		StackedDiscreteBar	0		relative		
+	Male age structure	Age structure	Male	Total	Low	population_broad__male__0-4__low population_broad__male__5-14__low population_broad__male__15-24__low population_broad__male__25-64__low population_broad__male__65-__low	population_broad__male__FULL__low	Projected population to 2100 is based on the UN's low population scenario.	StackedDiscreteBar	0		relative		
+	Male age structure	Age structure	Male	Total	Medium	population_broad__male__0-4__medium population_broad__male__5-14__medium population_broad__male__15-24__medium population_broad__male__25-64__medium population_broad__male__65-__medium	population_broad__male__FULL__medium	Projected population to 2100 is based on the UN's medium population scenario.	StackedDiscreteBar	0		relative		
+	Male age structure	Age structure	Male	Total	High	population_broad__male__0-4__high population_broad__male__5-14__high population_broad__male__15-24__high population_broad__male__25-64__high population_broad__male__65-__high	population_broad__male__FULL__high	Projected population to 2100 is based on the UN's high population scenario.	StackedDiscreteBar	0		relative		
+	Annual change in population	Annual population change	Both sexes	Total	None	population_change__all__all__records	population_change__FULL__all__records		LineChart	0	true			
+	Annual change in population aged 0 to 4 years	Annual population change	Both sexes	0 - 4 years	None	population_change__all__0-4__records	population_change__FULL__0-4__records		LineChart	0	true			
+	Annual change in population aged 5 to 9 years	Annual population change	Both sexes	5 - 9 years	None	population_change__all__5-9__records	population_change__FULL__5-9__records		LineChart	0	true			
+	Annual change in population aged 10 to 14 years	Annual population change	Both sexes	10 - 14 years	None	population_change__all__10-14__records	population_change__FULL__10-14__records		LineChart	0	true			
+	Annual change in population aged 15 to 19 years	Annual population change	Both sexes	15 - 19 years	None	population_change__all__15-19__records	population_change__FULL__15-19__records		LineChart	0	true			
+	Annual change in population aged 20 to 29 years	Annual population change	Both sexes	20 - 29 years	None	population_change__all__20-29__records	population_change__FULL__20-29__records		LineChart	0	true			
+	Annual change in population aged 30 to 39 years	Annual population change	Both sexes	30 - 39 years	None	population_change__all__30-39__records	population_change__FULL__30-39__records		LineChart	0	true			
+	Annual change in population aged 40 to 49 years	Annual population change	Both sexes	40 - 49 years	None	population_change__all__40-49__records	population_change__FULL__40-49__records		LineChart	0	true			
+	Annual change in population aged 50 to 59 years	Annual population change	Both sexes	50 - 59 years	None	population_change__all__50-59__records	population_change__FULL__50-59__records		LineChart	0	true			
+	Annual change in population aged 60 to 69 years	Annual population change	Both sexes	60 - 69 years	None	population_change__all__60-69__records	population_change__FULL__60-69__records		LineChart	0	true			
+	Annual change in population aged 70 to 79 years	Annual population change	Both sexes	70 - 79 years	None	population_change__all__70-79__records	population_change__FULL__70-79__records		LineChart	0	true			
+	Annual change in population aged 80 to 89 years	Annual population change	Both sexes	80 - 89 years	None	population_change__all__80-89__records	population_change__FULL__80-89__records		LineChart	0	true			
+	Annual change in population aged 90 to 99 years	Annual population change	Both sexes	90 - 99 years	None	population_change__all__90-99__records	population_change__FULL__90-99__records		LineChart	0	true			
+	Annual change in population older than 100 years	Annual population change	Both sexes	100+ years	None	population_change__all__100-__records	population_change__FULL__100-__records		LineChart	0	true			
+	Annual change in female population	Annual population change	Female	Total	None	population_change__female__all__records	population_change__FULL__all__records		LineChart	0	true			
+	Annual change in female population aged 0 to 4 years	Annual population change	Female	0 - 4 years	None	population_change__female__0-4__records	population_change__FULL__0-4__records		LineChart	0	true			
+	Annual change in female population aged 5 to 9 years	Annual population change	Female	5 - 9 years	None	population_change__female__5-9__records	population_change__FULL__5-9__records		LineChart	0	true			
+	Annual change in female population aged 10 to 14 years	Annual population change	Female	10 - 14 years	None	population_change__female__10-14__records	population_change__FULL__10-14__records		LineChart	0	true			
+	Annual change in female population aged 15 to 19 years	Annual population change	Female	15 - 19 years	None	population_change__female__15-19__records	population_change__FULL__15-19__records		LineChart	0	true			
+	Annual change in female population aged 20 to 29 years	Annual population change	Female	20 - 29 years	None	population_change__female__20-29__records	population_change__FULL__20-29__records		LineChart	0	true			
+	Annual change in female population aged 30 to 39 years	Annual population change	Female	30 - 39 years	None	population_change__female__30-39__records	population_change__FULL__30-39__records		LineChart	0	true			
+	Annual change in female population aged 40 to 49 years	Annual population change	Female	40 - 49 years	None	population_change__female__40-49__records	population_change__FULL__40-49__records		LineChart	0	true			
+	Annual change in female population aged 50 to 59 years	Annual population change	Female	50 - 59 years	None	population_change__female__50-59__records	population_change__FULL__50-59__records		LineChart	0	true			
+	Annual change in female population aged 60 to 69 years	Annual population change	Female	60 - 69 years	None	population_change__female__60-69__records	population_change__FULL__60-69__records		LineChart	0	true			
+	Annual change in female population aged 70 to 79 years	Annual population change	Female	70 - 79 years	None	population_change__female__70-79__records	population_change__FULL__70-79__records		LineChart	0	true			
+	Annual change in female population aged 80 to 89 years	Annual population change	Female	80 - 89 years	None	population_change__female__80-89__records	population_change__FULL__80-89__records		LineChart	0	true			
+	Annual change in female population aged 90 to 99 years	Annual population change	Female	90 - 99 years	None	population_change__female__90-99__records	population_change__FULL__90-99__records		LineChart	0	true			
+	Annual change in female population older than 100 years	Annual population change	Female	100+ years	None	population_change__female__100-__records	population_change__FULL__100-__records		LineChart	0	true			
+	Annual change in male population	Annual population change	Male	Total	None	population_change__male__all__records	population_change__FULL__all__records		LineChart	0	true			
+	Annual change in male population aged 0 to 4 years	Annual population change	Male	0 - 4 years	None	population_change__male__0-4__records	population_change__FULL__0-4__records		LineChart	0	true			
+	Annual change in male population aged 5 to 9 years	Annual population change	Male	5 - 9 years	None	population_change__male__5-9__records	population_change__FULL__5-9__records		LineChart	0	true			
+	Annual change in male population aged 10 to 14 years	Annual population change	Male	10 - 14 years	None	population_change__male__10-14__records	population_change__FULL__10-14__records		LineChart	0	true			
+	Annual change in male population aged 15 to 19 years	Annual population change	Male	15 - 19 years	None	population_change__male__15-19__records	population_change__FULL__15-19__records		LineChart	0	true			
+	Annual change in male population aged 20 to 29 years	Annual population change	Male	20 - 29 years	None	population_change__male__20-29__records	population_change__FULL__20-29__records		LineChart	0	true			
+	Annual change in male population aged 30 to 39 years	Annual population change	Male	30 - 39 years	None	population_change__male__30-39__records	population_change__FULL__30-39__records		LineChart	0	true			
+	Annual change in male population aged 40 to 49 years	Annual population change	Male	40 - 49 years	None	population_change__male__40-49__records	population_change__FULL__40-49__records		LineChart	0	true			
+	Annual change in male population aged 50 to 59 years	Annual population change	Male	50 - 59 years	None	population_change__male__50-59__records	population_change__FULL__50-59__records		LineChart	0	true			
+	Annual change in male population aged 60 to 69 years	Annual population change	Male	60 - 69 years	None	population_change__male__60-69__records	population_change__FULL__60-69__records		LineChart	0	true			
+	Annual change in male population aged 70 to 79 years	Annual population change	Male	70 - 79 years	None	population_change__male__70-79__records	population_change__FULL__70-79__records		LineChart	0	true			
+	Annual change in male population aged 80 to 89 years	Annual population change	Male	80 - 89 years	None	population_change__male__80-89__records	population_change__FULL__80-89__records		LineChart	0	true			
+	Annual change in male population aged 90 to 99 years	Annual population change	Male	90 - 99 years	None	population_change__male__90-99__records	population_change__FULL__90-99__records		LineChart	0	true			
+	Annual change in male population older than 100 years	Annual population change	Male	100+ years	None	population_change__male__100-__records	population_change__FULL__100-__records		LineChart	0	true			
+	Population density	Population density	Both sexes	Total	None	population_density__all__all__records	population_density__FULL__all__records	The number of poeple per km² of land area.\n	LineChart	0	true			
+	Population density	Population density	Both sexes	Total	Low	population_density__all__all__low	population_density__FULL__all__low	The number of poeple per km² of land area.\nProjected population density to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Population density	Population density	Both sexes	Total	Medium	population_density__all__all__medium	population_density__FULL__all__medium	The number of poeple per km² of land area.\nProjected population density to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Population density	Population density	Both sexes	Total	High	population_density__all__all__high	population_density__FULL__all__high	The number of poeple per km² of land area.\nProjected population density to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Births	Births (TODO)	Both sexes	Total	None				LineChart	0	true			
+	Births	Births (TODO)	Both sexes	Total	Low			Projected births to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Births	Births (TODO)	Both sexes	Total	Medium			Projected births to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Births	Births (TODO)	Both sexes	Total	High			Projected births to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Female births	Births (TODO)	Female	Total	None				LineChart	0	true			
+	Female births	Births (TODO)	Female	Total	Low			Projected births to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Female births	Births (TODO)	Female	Total	Medium			Projected births to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Female births	Births (TODO)	Female	Total	High			Projected births to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Male births	Births (TODO)	Male	Total	None				LineChart	0	true			
+	Male births	Births (TODO)	Male	Total	Low			Projected births to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Male births	Births (TODO)	Male	Total	Medium			Projected births to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Male births	Births (TODO)	Male	Total	High			Projected births to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Deaths	Deaths (TODO)	Both sexes	Total	None				LineChart	0	true			
+	Deaths	Deaths (TODO)	Both sexes	Total	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Deaths	Deaths (TODO)	Both sexes	Total	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Deaths	Deaths (TODO)	Both sexes	Total	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Deaths	Deaths (TODO)	Both sexes	0 - 4 years	None				LineChart	0	true			
+	Deaths	Deaths (TODO)	Both sexes	0 - 4 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Deaths	Deaths (TODO)	Both sexes	0 - 4 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Deaths	Deaths (TODO)	Both sexes	0 - 4 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Deaths	Deaths (TODO)	Both sexes	5 - 9 years	None				LineChart	0	true			
+	Deaths	Deaths (TODO)	Both sexes	5 - 9 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Deaths	Deaths (TODO)	Both sexes	5 - 9 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Deaths	Deaths (TODO)	Both sexes	5 - 9 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Deaths	Deaths (TODO)	Both sexes	10 - 14 years	None				LineChart	0	true			
+	Deaths	Deaths (TODO)	Both sexes	10 - 14 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Deaths	Deaths (TODO)	Both sexes	10 - 14 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Deaths	Deaths (TODO)	Both sexes	10 - 14 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Deaths	Deaths (TODO)	Both sexes	15 - 19 years	None				LineChart	0	true			
+	Deaths	Deaths (TODO)	Both sexes	15 - 19 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Deaths	Deaths (TODO)	Both sexes	15 - 19 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Deaths	Deaths (TODO)	Both sexes	15 - 19 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Deaths	Deaths (TODO)	Both sexes	20 - 29 years	None				LineChart	0	true			
+	Deaths	Deaths (TODO)	Both sexes	20 - 29 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Deaths	Deaths (TODO)	Both sexes	20 - 29 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Deaths	Deaths (TODO)	Both sexes	20 - 29 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Deaths	Deaths (TODO)	Both sexes	30 - 39 years	None				LineChart	0	true			
+	Deaths	Deaths (TODO)	Both sexes	30 - 39 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Deaths	Deaths (TODO)	Both sexes	30 - 39 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Deaths	Deaths (TODO)	Both sexes	30 - 39 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Deaths	Deaths (TODO)	Both sexes	40 - 49 years	None				LineChart	0	true			
+	Deaths	Deaths (TODO)	Both sexes	40 - 49 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Deaths	Deaths (TODO)	Both sexes	40 - 49 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Deaths	Deaths (TODO)	Both sexes	40 - 49 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Deaths	Deaths (TODO)	Both sexes	50 - 59 years	None				LineChart	0	true			
+	Deaths	Deaths (TODO)	Both sexes	50 - 59 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Deaths	Deaths (TODO)	Both sexes	50 - 59 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Deaths	Deaths (TODO)	Both sexes	50 - 59 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Deaths	Deaths (TODO)	Both sexes	60 - 69 years	None				LineChart	0	true			
+	Deaths	Deaths (TODO)	Both sexes	60 - 69 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Deaths	Deaths (TODO)	Both sexes	60 - 69 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Deaths	Deaths (TODO)	Both sexes	60 - 69 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Deaths	Deaths (TODO)	Both sexes	70 - 79 years	None				LineChart	0	true			
+	Deaths	Deaths (TODO)	Both sexes	70 - 79 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Deaths	Deaths (TODO)	Both sexes	70 - 79 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Deaths	Deaths (TODO)	Both sexes	70 - 79 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Deaths	Deaths (TODO)	Both sexes	80 - 89 years	None				LineChart	0	true			
+	Deaths	Deaths (TODO)	Both sexes	80 - 89 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Deaths	Deaths (TODO)	Both sexes	80 - 89 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Deaths	Deaths (TODO)	Both sexes	80 - 89 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Deaths	Deaths (TODO)	Both sexes	90 - 99 years	None				LineChart	0	true			
+	Deaths	Deaths (TODO)	Both sexes	90 - 99 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Deaths	Deaths (TODO)	Both sexes	90 - 99 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Deaths	Deaths (TODO)	Both sexes	90 - 99 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Deaths	Deaths (TODO)	Both sexes	100+ years	None				LineChart	0	true			
+	Deaths	Deaths (TODO)	Both sexes	100+ years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Deaths	Deaths (TODO)	Both sexes	100+ years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Deaths	Deaths (TODO)	Both sexes	100+ years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Female deaths	Deaths (TODO)	Female	Total	None				LineChart	0	true			
+	Female deaths	Deaths (TODO)	Female	Total	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Female deaths	Deaths (TODO)	Female	Total	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Female deaths	Deaths (TODO)	Female	Total	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Female deaths	Deaths (TODO)	Female	0 - 4 years	None				LineChart	0	true			
+	Female deaths	Deaths (TODO)	Female	0 - 4 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Female deaths	Deaths (TODO)	Female	0 - 4 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Female deaths	Deaths (TODO)	Female	0 - 4 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Female deaths	Deaths (TODO)	Female	5 - 9 years	None				LineChart	0	true			
+	Female deaths	Deaths (TODO)	Female	5 - 9 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Female deaths	Deaths (TODO)	Female	5 - 9 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Female deaths	Deaths (TODO)	Female	5 - 9 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Female deaths	Deaths (TODO)	Female	10 - 14 years	None				LineChart	0	true			
+	Female deaths	Deaths (TODO)	Female	10 - 14 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Female deaths	Deaths (TODO)	Female	10 - 14 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Female deaths	Deaths (TODO)	Female	10 - 14 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Female deaths	Deaths (TODO)	Female	15 - 19 years	None				LineChart	0	true			
+	Female deaths	Deaths (TODO)	Female	15 - 19 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Female deaths	Deaths (TODO)	Female	15 - 19 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Female deaths	Deaths (TODO)	Female	15 - 19 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Female deaths	Deaths (TODO)	Female	20 - 29 years	None				LineChart	0	true			
+	Female deaths	Deaths (TODO)	Female	20 - 29 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Female deaths	Deaths (TODO)	Female	20 - 29 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Female deaths	Deaths (TODO)	Female	20 - 29 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Female deaths	Deaths (TODO)	Female	30 - 39 years	None				LineChart	0	true			
+	Female deaths	Deaths (TODO)	Female	30 - 39 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Female deaths	Deaths (TODO)	Female	30 - 39 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Female deaths	Deaths (TODO)	Female	30 - 39 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Female deaths	Deaths (TODO)	Female	40 - 49 years	None				LineChart	0	true			
+	Female deaths	Deaths (TODO)	Female	40 - 49 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Female deaths	Deaths (TODO)	Female	40 - 49 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Female deaths	Deaths (TODO)	Female	40 - 49 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Female deaths	Deaths (TODO)	Female	50 - 59 years	None				LineChart	0	true			
+	Female deaths	Deaths (TODO)	Female	50 - 59 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Female deaths	Deaths (TODO)	Female	50 - 59 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Female deaths	Deaths (TODO)	Female	50 - 59 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Female deaths	Deaths (TODO)	Female	60 - 69 years	None				LineChart	0	true			
+	Female deaths	Deaths (TODO)	Female	60 - 69 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Female deaths	Deaths (TODO)	Female	60 - 69 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Female deaths	Deaths (TODO)	Female	60 - 69 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Female deaths	Deaths (TODO)	Female	70 - 79 years	None				LineChart	0	true			
+	Female deaths	Deaths (TODO)	Female	70 - 79 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Female deaths	Deaths (TODO)	Female	70 - 79 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Female deaths	Deaths (TODO)	Female	70 - 79 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Female deaths	Deaths (TODO)	Female	80 - 89 years	None				LineChart	0	true			
+	Female deaths	Deaths (TODO)	Female	80 - 89 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Female deaths	Deaths (TODO)	Female	80 - 89 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Female deaths	Deaths (TODO)	Female	80 - 89 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Female deaths	Deaths (TODO)	Female	90 - 99 years	None				LineChart	0	true			
+	Female deaths	Deaths (TODO)	Female	90 - 99 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Female deaths	Deaths (TODO)	Female	90 - 99 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Female deaths	Deaths (TODO)	Female	90 - 99 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Female deaths	Deaths (TODO)	Female	100+ years	None				LineChart	0	true			
+	Female deaths	Deaths (TODO)	Female	100+ years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Female deaths	Deaths (TODO)	Female	100+ years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Female deaths	Deaths (TODO)	Female	100+ years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Male deaths	Deaths (TODO)	Male	Total	None				LineChart	0	true			
+	Male deaths	Deaths (TODO)	Male	Total	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Male deaths	Deaths (TODO)	Male	Total	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Male deaths	Deaths (TODO)	Male	Total	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Male deaths	Deaths (TODO)	Male	0 - 4 years	None				LineChart	0	true			
+	Male deaths	Deaths (TODO)	Male	0 - 4 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Male deaths	Deaths (TODO)	Male	0 - 4 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Male deaths	Deaths (TODO)	Male	0 - 4 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Male deaths	Deaths (TODO)	Male	5 - 9 years	None				LineChart	0	true			
+	Male deaths	Deaths (TODO)	Male	5 - 9 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Male deaths	Deaths (TODO)	Male	5 - 9 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Male deaths	Deaths (TODO)	Male	5 - 9 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Male deaths	Deaths (TODO)	Male	10 - 14 years	None				LineChart	0	true			
+	Male deaths	Deaths (TODO)	Male	10 - 14 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Male deaths	Deaths (TODO)	Male	10 - 14 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Male deaths	Deaths (TODO)	Male	10 - 14 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Male deaths	Deaths (TODO)	Male	15 - 19 years	None				LineChart	0	true			
+	Male deaths	Deaths (TODO)	Male	15 - 19 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Male deaths	Deaths (TODO)	Male	15 - 19 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Male deaths	Deaths (TODO)	Male	15 - 19 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Male deaths	Deaths (TODO)	Male	20 - 29 years	None				LineChart	0	true			
+	Male deaths	Deaths (TODO)	Male	20 - 29 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Male deaths	Deaths (TODO)	Male	20 - 29 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Male deaths	Deaths (TODO)	Male	20 - 29 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Male deaths	Deaths (TODO)	Male	30 - 39 years	None				LineChart	0	true			
+	Male deaths	Deaths (TODO)	Male	30 - 39 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Male deaths	Deaths (TODO)	Male	30 - 39 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Male deaths	Deaths (TODO)	Male	30 - 39 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Male deaths	Deaths (TODO)	Male	40 - 49 years	None				LineChart	0	true			
+	Male deaths	Deaths (TODO)	Male	40 - 49 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Male deaths	Deaths (TODO)	Male	40 - 49 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Male deaths	Deaths (TODO)	Male	40 - 49 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Male deaths	Deaths (TODO)	Male	50 - 59 years	None				LineChart	0	true			
+	Male deaths	Deaths (TODO)	Male	50 - 59 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Male deaths	Deaths (TODO)	Male	50 - 59 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Male deaths	Deaths (TODO)	Male	50 - 59 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Male deaths	Deaths (TODO)	Male	60 - 69 years	None				LineChart	0	true			
+	Male deaths	Deaths (TODO)	Male	60 - 69 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Male deaths	Deaths (TODO)	Male	60 - 69 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Male deaths	Deaths (TODO)	Male	60 - 69 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Male deaths	Deaths (TODO)	Male	70 - 79 years	None				LineChart	0	true			
+	Male deaths	Deaths (TODO)	Male	70 - 79 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Male deaths	Deaths (TODO)	Male	70 - 79 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Male deaths	Deaths (TODO)	Male	70 - 79 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Male deaths	Deaths (TODO)	Male	80 - 89 years	None				LineChart	0	true			
+	Male deaths	Deaths (TODO)	Male	80 - 89 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Male deaths	Deaths (TODO)	Male	80 - 89 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Male deaths	Deaths (TODO)	Male	80 - 89 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Male deaths	Deaths (TODO)	Male	90 - 99 years	None				LineChart	0	true			
+	Male deaths	Deaths (TODO)	Male	90 - 99 years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Male deaths	Deaths (TODO)	Male	90 - 99 years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Male deaths	Deaths (TODO)	Male	90 - 99 years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Male deaths	Deaths (TODO)	Male	100+ years	None				LineChart	0	true			
+	Male deaths	Deaths (TODO)	Male	100+ years	Low			Projected deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Male deaths	Deaths (TODO)	Male	100+ years	Medium			Projected deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Male deaths	Deaths (TODO)	Male	100+ years	High			Projected deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
 
 
 table	https://files.ourworldindata.org/data/unwpp-unstable-v2/population__FULL__all__records.csv?nocache	population__FULL__all__records
@@ -869,72 +881,84 @@ columns	population_broad__all__FULL__records
 	location	Country name	EntityName
 	year	Year	Year
 	population_broad__all__65-__records population_broad__all__25-64__records population_broad__all__15-24__records population_broad__all__5-14__records population_broad__all__0-4__records	Population by broad age group	Numeric		
+	population_broad__all__0-4__records population_broad__all__5-14__records population_broad__all__15-24__records population_broad__all__25-64__records population_broad__all__65-__records	Age structure	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable-v2/population_broad__all__FULL__low.csv?nocache	population_broad__all__FULL__low
 columns	population_broad__all__FULL__low
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
 	population_broad__all__65-__low population_broad__all__25-64__low population_broad__all__15-24__low population_broad__all__5-14__low population_broad__all__0-4__low	Population by broad age group	Numeric		
+	population_broad__all__0-4__low population_broad__all__5-14__low population_broad__all__15-24__low population_broad__all__25-64__low population_broad__all__65-__low	Age structure	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable-v2/population_broad__all__FULL__medium.csv?nocache	population_broad__all__FULL__medium
 columns	population_broad__all__FULL__medium
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
 	population_broad__all__65-__medium population_broad__all__25-64__medium population_broad__all__15-24__medium population_broad__all__5-14__medium population_broad__all__0-4__medium	Population by broad age group	Numeric		
+	population_broad__all__0-4__medium population_broad__all__5-14__medium population_broad__all__15-24__medium population_broad__all__25-64__medium population_broad__all__65-__medium	Age structure	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable-v2/population_broad__all__FULL__high.csv?nocache	population_broad__all__FULL__high
 columns	population_broad__all__FULL__high
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
 	population_broad__all__65-__high population_broad__all__25-64__high population_broad__all__15-24__high population_broad__all__5-14__high population_broad__all__0-4__high	Population by broad age group	Numeric		
+	population_broad__all__0-4__high population_broad__all__5-14__high population_broad__all__15-24__high population_broad__all__25-64__high population_broad__all__65-__high	Age structure	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable-v2/population_broad__female__FULL__records.csv?nocache	population_broad__female__FULL__records
 columns	population_broad__female__FULL__records
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
 	population_broad__female__65-__records population_broad__female__25-64__records population_broad__female__15-24__records population_broad__female__5-14__records population_broad__female__0-4__records	Female population by broad age group	Numeric		
+	population_broad__female__0-4__records population_broad__female__5-14__records population_broad__female__15-24__records population_broad__female__25-64__records population_broad__female__65-__records	Female age structure	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable-v2/population_broad__female__FULL__low.csv?nocache	population_broad__female__FULL__low
 columns	population_broad__female__FULL__low
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
 	population_broad__female__65-__low population_broad__female__25-64__low population_broad__female__15-24__low population_broad__female__5-14__low population_broad__female__0-4__low	Female population by broad age group	Numeric		
+	population_broad__female__0-4__low population_broad__female__5-14__low population_broad__female__15-24__low population_broad__female__25-64__low population_broad__female__65-__low	Female age structure	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable-v2/population_broad__female__FULL__medium.csv?nocache	population_broad__female__FULL__medium
 columns	population_broad__female__FULL__medium
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
 	population_broad__female__65-__medium population_broad__female__25-64__medium population_broad__female__15-24__medium population_broad__female__5-14__medium population_broad__female__0-4__medium	Female population by broad age group	Numeric		
+	population_broad__female__0-4__medium population_broad__female__5-14__medium population_broad__female__15-24__medium population_broad__female__25-64__medium population_broad__female__65-__medium	Female age structure	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable-v2/population_broad__female__FULL__high.csv?nocache	population_broad__female__FULL__high
 columns	population_broad__female__FULL__high
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
 	population_broad__female__65-__high population_broad__female__25-64__high population_broad__female__15-24__high population_broad__female__5-14__high population_broad__female__0-4__high	Female population by broad age group	Numeric		
+	population_broad__female__0-4__high population_broad__female__5-14__high population_broad__female__15-24__high population_broad__female__25-64__high population_broad__female__65-__high	Female age structure	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable-v2/population_broad__male__FULL__records.csv?nocache	population_broad__male__FULL__records
 columns	population_broad__male__FULL__records
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
 	population_broad__male__65-__records population_broad__male__25-64__records population_broad__male__15-24__records population_broad__male__5-14__records population_broad__male__0-4__records	Male population by broad age group	Numeric		
+	population_broad__male__0-4__records population_broad__male__5-14__records population_broad__male__15-24__records population_broad__male__25-64__records population_broad__male__65-__records	Male age structure	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable-v2/population_broad__male__FULL__low.csv?nocache	population_broad__male__FULL__low
 columns	population_broad__male__FULL__low
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
 	population_broad__male__65-__low population_broad__male__25-64__low population_broad__male__15-24__low population_broad__male__5-14__low population_broad__male__0-4__low	Male population by broad age group	Numeric		
+	population_broad__male__0-4__low population_broad__male__5-14__low population_broad__male__15-24__low population_broad__male__25-64__low population_broad__male__65-__low	Male age structure	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable-v2/population_broad__male__FULL__medium.csv?nocache	population_broad__male__FULL__medium
 columns	population_broad__male__FULL__medium
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
 	population_broad__male__65-__medium population_broad__male__25-64__medium population_broad__male__15-24__medium population_broad__male__5-14__medium population_broad__male__0-4__medium	Male population by broad age group	Numeric		
+	population_broad__male__0-4__medium population_broad__male__5-14__medium population_broad__male__15-24__medium population_broad__male__25-64__medium population_broad__male__65-__medium	Male age structure	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable-v2/population_broad__male__FULL__high.csv?nocache	population_broad__male__FULL__high
 columns	population_broad__male__FULL__high
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
 	population_broad__male__65-__high population_broad__male__25-64__high population_broad__male__15-24__high population_broad__male__5-14__high population_broad__male__0-4__high	Male population by broad age group	Numeric		
+	population_broad__male__0-4__high population_broad__male__5-14__high population_broad__male__15-24__high population_broad__male__25-64__high population_broad__male__65-__high	Male age structure	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable-v2/population_change__FULL__all__records.csv?nocache	population_change__FULL__all__records
 columns	population_change__FULL__all__records
 	slug	name	type	shortUnit	unit
