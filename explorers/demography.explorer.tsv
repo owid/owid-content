@@ -501,6 +501,18 @@ graphers
 	Growth rate	Growth rate	Both sexes	Total	Low	growth_rate__all__all__low	growth_rate__all__FULL__low	The projection of growth rate to 2100 is based on the UN's low population scenario.	LineChart	0	true			
 	Growth rate	Growth rate	Both sexes	Total	Medium	growth_rate__all__all__medium	growth_rate__all__FULL__medium	The projection of growth rate to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
 	Growth rate	Growth rate	Both sexes	Total	High	growth_rate__all__all__high	growth_rate__all__FULL__high	The projection of growth rate to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Life expectancy at birth	Life expectancy	Both sexes	Total	None	life_expectancy__all__at_birth__records	life_expectancy__all__FULL__records		LineChart	0	true			
+	Life expectancy at birth	Life expectancy	Both sexes	Total	Low	life_expectancy__all__at_birth__low	life_expectancy__all__FULL__low	The projection of life expectancy to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Life expectancy at birth	Life expectancy	Both sexes	Total	Medium	life_expectancy__all__at_birth__medium	life_expectancy__all__FULL__medium	The projection of life expectancy to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Life expectancy at birth	Life expectancy	Both sexes	Total	High	life_expectancy__all__at_birth__high	life_expectancy__all__FULL__high	The projection of life expectancy to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Female life expectancy at birth	Life expectancy	Female	Total	None	life_expectancy__female__at_birth__records	life_expectancy__female__FULL__records		LineChart	0	true			
+	Female life expectancy at birth	Life expectancy	Female	Total	Low	life_expectancy__female__at_birth__low	life_expectancy__female__FULL__low	The projection of life expectancy to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Female life expectancy at birth	Life expectancy	Female	Total	Medium	life_expectancy__female__at_birth__medium	life_expectancy__female__FULL__medium	The projection of life expectancy to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Female life expectancy at birth	Life expectancy	Female	Total	High	life_expectancy__female__at_birth__high	life_expectancy__female__FULL__high	The projection of life expectancy to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Male life expectancy at birth	Life expectancy	Male	Total	None	life_expectancy__male__at_birth__records	life_expectancy__male__FULL__records		LineChart	0	true			
+	Male life expectancy at birth	Life expectancy	Male	Total	Low	life_expectancy__male__at_birth__low	life_expectancy__male__FULL__low	The projection of life expectancy to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Male life expectancy at birth	Life expectancy	Male	Total	Medium	life_expectancy__male__at_birth__medium	life_expectancy__male__FULL__medium	The projection of life expectancy to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Male life expectancy at birth	Life expectancy	Male	Total	High	life_expectancy__male__at_birth__high	life_expectancy__male__FULL__high	The projection of life expectancy to 2100 is based on the UN's high population scenario.	LineChart	0	true			
 
 
 table	https://files.ourworldindata.org/data/unwpp-unstable-v2/population__FULL__all__records.csv?nocache	population__FULL__all__records
@@ -1647,3 +1659,75 @@ columns	growth_rate__all__FULL__high
 	location	Country name	EntityName
 	year	Year	Year
 	growth_rate__all__all__high	Growth rate	Numeric		per 1,000 population
+table	https://files.ourworldindata.org/data/unwpp-unstable-v2/life_expectancy__all__FULL__records.csv?nocache	life_expectancy__all__FULL__records
+columns	life_expectancy__all__FULL__records
+	slug	name	type	shortUnit	unit
+	location	Country name	EntityName
+	year	Year	Year
+	life_expectancy__all__at_birth__records	Life expectancy at birth	Numeric	years	years
+table	https://files.ourworldindata.org/data/unwpp-unstable-v2/life_expectancy__all__FULL__low.csv?nocache	life_expectancy__all__FULL__low
+columns	life_expectancy__all__FULL__low
+	slug	name	type	shortUnit	unit
+	location	Country name	EntityName
+	year	Year	Year
+	life_expectancy__all__at_birth__low	Life expectancy at birth	Numeric	years	years
+table	https://files.ourworldindata.org/data/unwpp-unstable-v2/life_expectancy__all__FULL__medium.csv?nocache	life_expectancy__all__FULL__medium
+columns	life_expectancy__all__FULL__medium
+	slug	name	type	shortUnit	unit
+	location	Country name	EntityName
+	year	Year	Year
+	life_expectancy__all__at_birth__medium	Life expectancy at birth	Numeric	years	years
+table	https://files.ourworldindata.org/data/unwpp-unstable-v2/life_expectancy__all__FULL__high.csv?nocache	life_expectancy__all__FULL__high
+columns	life_expectancy__all__FULL__high
+	slug	name	type	shortUnit	unit
+	location	Country name	EntityName
+	year	Year	Year
+	life_expectancy__all__at_birth__high	Life expectancy at birth	Numeric	years	years
+table	https://files.ourworldindata.org/data/unwpp-unstable-v2/life_expectancy__female__FULL__records.csv?nocache	life_expectancy__female__FULL__records
+columns	life_expectancy__female__FULL__records
+	slug	name	type	shortUnit	unit
+	location	Country name	EntityName
+	year	Year	Year
+	life_expectancy__female__at_birth__records	Female life expectancy at birth	Numeric	years	years
+table	https://files.ourworldindata.org/data/unwpp-unstable-v2/life_expectancy__female__FULL__low.csv?nocache	life_expectancy__female__FULL__low
+columns	life_expectancy__female__FULL__low
+	slug	name	type	shortUnit	unit
+	location	Country name	EntityName
+	year	Year	Year
+	life_expectancy__female__at_birth__low	Female life expectancy at birth	Numeric	years	years
+table	https://files.ourworldindata.org/data/unwpp-unstable-v2/life_expectancy__female__FULL__medium.csv?nocache	life_expectancy__female__FULL__medium
+columns	life_expectancy__female__FULL__medium
+	slug	name	type	shortUnit	unit
+	location	Country name	EntityName
+	year	Year	Year
+	life_expectancy__female__at_birth__medium	Female life expectancy at birth	Numeric	years	years
+table	https://files.ourworldindata.org/data/unwpp-unstable-v2/life_expectancy__female__FULL__high.csv?nocache	life_expectancy__female__FULL__high
+columns	life_expectancy__female__FULL__high
+	slug	name	type	shortUnit	unit
+	location	Country name	EntityName
+	year	Year	Year
+	life_expectancy__female__at_birth__high	Female life expectancy at birth	Numeric	years	years
+table	https://files.ourworldindata.org/data/unwpp-unstable-v2/life_expectancy__male__FULL__records.csv?nocache	life_expectancy__male__FULL__records
+columns	life_expectancy__male__FULL__records
+	slug	name	type	shortUnit	unit
+	location	Country name	EntityName
+	year	Year	Year
+	life_expectancy__male__at_birth__records	Male life expectancy at birth	Numeric	years	years
+table	https://files.ourworldindata.org/data/unwpp-unstable-v2/life_expectancy__male__FULL__low.csv?nocache	life_expectancy__male__FULL__low
+columns	life_expectancy__male__FULL__low
+	slug	name	type	shortUnit	unit
+	location	Country name	EntityName
+	year	Year	Year
+	life_expectancy__male__at_birth__low	Male life expectancy at birth	Numeric	years	years
+table	https://files.ourworldindata.org/data/unwpp-unstable-v2/life_expectancy__male__FULL__medium.csv?nocache	life_expectancy__male__FULL__medium
+columns	life_expectancy__male__FULL__medium
+	slug	name	type	shortUnit	unit
+	location	Country name	EntityName
+	year	Year	Year
+	life_expectancy__male__at_birth__medium	Male life expectancy at birth	Numeric	years	years
+table	https://files.ourworldindata.org/data/unwpp-unstable-v2/life_expectancy__male__FULL__high.csv?nocache	life_expectancy__male__FULL__high
+columns	life_expectancy__male__FULL__high
+	slug	name	type	shortUnit	unit
+	location	Country name	EntityName
+	year	Year	Year
+	life_expectancy__male__at_birth__high	Male life expectancy at birth	Numeric	years	years
