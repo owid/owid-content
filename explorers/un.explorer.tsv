@@ -62,7 +62,7 @@ graphers
 	Net Number of Migrants 	net_number_of_migrants	LineChart	Net Number of Migrants 	true
 	Net Migration Rate (per 1,000 population)	net_migration_rate_per_1_000_population	LineChart	Net Migration Rate (per 1,000 population)	true
 
-table	https://tufte.owid.cloud/app/uploads/2022/06/wpp-1.csv
+table	https://tufte.owid.cloud/app/uploads/2022/06/wpp2.csv
 columns
 	slug	name	type
 	location	Country	EntityName
