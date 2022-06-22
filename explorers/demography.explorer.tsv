@@ -517,6 +517,10 @@ graphers
 	Net migration	Net migration	Both sexes	Total	Low	net_migration__all__all__low	net_migration__all__FULL__low	The projection of migration to 2100 is based on the UN's low population scenario.	LineChart	0	true			
 	Net migration	Net migration	Both sexes	Total	Medium	net_migration__all__all__medium	net_migration__all__FULL__medium	The projection of migration to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
 	Net migration	Net migration	Both sexes	Total	High	net_migration__all__all__high	net_migration__all__FULL__high	The projection of migration to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Sex ratio at birth	Sex ratio	Both sexes	Total	None	sex_ratio__none__at_birth__records	sex_ratio__none__FULL__records	Sex ratio at birth, measured as the number of male births per female birth. Birth ratios are slightly male-biased, with an expected biological ratio of 1.05 male births per female birth.\n	LineChart	0	true			
+	Sex ratio at birth	Sex ratio	Both sexes	Total	Low	sex_ratio__none__at_birth__low	sex_ratio__none__FULL__low	Sex ratio at birth, measured as the number of male births per female birth. Birth ratios are slightly male-biased, with an expected biological ratio of 1.05 male births per female birth.\nThe projection of sex ratio to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Sex ratio at birth	Sex ratio	Both sexes	Total	Medium	sex_ratio__none__at_birth__medium	sex_ratio__none__FULL__medium	Sex ratio at birth, measured as the number of male births per female birth. Birth ratios are slightly male-biased, with an expected biological ratio of 1.05 male births per female birth.\nThe projection of sex ratio to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Sex ratio at birth	Sex ratio	Both sexes	Total	High	sex_ratio__none__at_birth__high	sex_ratio__none__FULL__high	Sex ratio at birth, measured as the number of male births per female birth. Birth ratios are slightly male-biased, with an expected biological ratio of 1.05 male births per female birth.\nThe projection of sex ratio to 2100 is based on the UN's high population scenario.	LineChart	0	true			
 
 
 table	https://files.ourworldindata.org/data/unwpp-unstable-v2/population__FULL__all__records.csv?nocache	population__FULL__all__records
@@ -1759,3 +1763,27 @@ columns	net_migration__all__FULL__high
 	location	Country name	EntityName
 	year	Year	Year
 	net_migration__all__all__high	Net migration	Numeric		
+table	https://files.ourworldindata.org/data/unwpp-unstable-v2/sex_ratio__none__FULL__records.csv?nocache	sex_ratio__none__FULL__records
+columns	sex_ratio__none__FULL__records
+	slug	name	type	shortUnit	unit
+	location	Country name	EntityName
+	year	Year	Year
+	sex_ratio__none__at_birth__records	Sex ratio at birth	Numeric		
+table	https://files.ourworldindata.org/data/unwpp-unstable-v2/sex_ratio__none__FULL__low.csv?nocache	sex_ratio__none__FULL__low
+columns	sex_ratio__none__FULL__low
+	slug	name	type	shortUnit	unit
+	location	Country name	EntityName
+	year	Year	Year
+	sex_ratio__none__at_birth__low	Sex ratio at birth	Numeric		
+table	https://files.ourworldindata.org/data/unwpp-unstable-v2/sex_ratio__none__FULL__medium.csv?nocache	sex_ratio__none__FULL__medium
+columns	sex_ratio__none__FULL__medium
+	slug	name	type	shortUnit	unit
+	location	Country name	EntityName
+	year	Year	Year
+	sex_ratio__none__at_birth__medium	Sex ratio at birth	Numeric		
+table	https://files.ourworldindata.org/data/unwpp-unstable-v2/sex_ratio__none__FULL__high.csv?nocache	sex_ratio__none__FULL__high
+columns	sex_ratio__none__FULL__high
+	slug	name	type	shortUnit	unit
+	location	Country name	EntityName
+	year	Year	Year
+	sex_ratio__none__at_birth__high	Sex ratio at birth	Numeric		
