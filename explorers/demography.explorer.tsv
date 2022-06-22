@@ -461,6 +461,38 @@ graphers
 	Infant mortality rate	Infant mortality rate	Both sexes	Total	Low	infant_mortality_rate__all__all__low	infant_mortality_rate__all__FULL__low	The projection of infant mortality to 2100 is based on the UN's low population scenario.	LineChart	0	true			
 	Infant mortality rate	Infant mortality rate	Both sexes	Total	Medium	infant_mortality_rate__all__all__medium	infant_mortality_rate__all__FULL__medium	The projection of infant mortality to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
 	Infant mortality rate	Infant mortality rate	Both sexes	Total	High	infant_mortality_rate__all__all__high	infant_mortality_rate__all__FULL__high	The projection of infant mortality to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Fertility rate	Fertility rate	Both sexes	Total	None	fertility_rate__all__all__records	fertility_rate__all__FULL__records		LineChart	0	true			
+	Fertility rate	Fertility rate	Both sexes	Total	Low	fertility_rate__all__all__low	fertility_rate__all__FULL__low	The projection of fertility to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Fertility rate	Fertility rate	Both sexes	Total	Medium	fertility_rate__all__all__medium	fertility_rate__all__FULL__medium	The projection of fertility to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Fertility rate	Fertility rate	Both sexes	Total	High	fertility_rate__all__all__high	fertility_rate__all__FULL__high	The projection of fertility to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Fertility rate from mothers aged 15 to 19 years	Fertility rate	Both sexes	Mothers aged 15 - 19 years	None	fertility_rate__all__15-19__records	fertility_rate__all__FULL__records		LineChart	0	true			
+	Fertility rate from mothers aged 15 to 19 years	Fertility rate	Both sexes	Mothers aged 15 - 19 years	Low	fertility_rate__all__15-19__low	fertility_rate__all__FULL__low	The projection of fertility to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Fertility rate from mothers aged 15 to 19 years	Fertility rate	Both sexes	Mothers aged 15 - 19 years	Medium	fertility_rate__all__15-19__medium	fertility_rate__all__FULL__medium	The projection of fertility to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Fertility rate from mothers aged 15 to 19 years	Fertility rate	Both sexes	Mothers aged 15 - 19 years	High	fertility_rate__all__15-19__high	fertility_rate__all__FULL__high	The projection of fertility to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Fertility rate from mothers aged 20 to 24 years	Fertility rate	Both sexes	Mothers aged 20 - 24 years	None	fertility_rate__all__20-24__records	fertility_rate__all__FULL__records		LineChart	0	true			
+	Fertility rate from mothers aged 20 to 24 years	Fertility rate	Both sexes	Mothers aged 20 - 24 years	Low	fertility_rate__all__20-24__low	fertility_rate__all__FULL__low	The projection of fertility to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Fertility rate from mothers aged 20 to 24 years	Fertility rate	Both sexes	Mothers aged 20 - 24 years	Medium	fertility_rate__all__20-24__medium	fertility_rate__all__FULL__medium	The projection of fertility to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Fertility rate from mothers aged 20 to 24 years	Fertility rate	Both sexes	Mothers aged 20 - 24 years	High	fertility_rate__all__20-24__high	fertility_rate__all__FULL__high	The projection of fertility to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Fertility rate from mothers aged 25 to 29 years	Fertility rate	Both sexes	Mothers aged 25 - 29 years	None	fertility_rate__all__25-29__records	fertility_rate__all__FULL__records		LineChart	0	true			
+	Fertility rate from mothers aged 25 to 29 years	Fertility rate	Both sexes	Mothers aged 25 - 29 years	Low	fertility_rate__all__25-29__low	fertility_rate__all__FULL__low	The projection of fertility to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Fertility rate from mothers aged 25 to 29 years	Fertility rate	Both sexes	Mothers aged 25 - 29 years	Medium	fertility_rate__all__25-29__medium	fertility_rate__all__FULL__medium	The projection of fertility to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Fertility rate from mothers aged 25 to 29 years	Fertility rate	Both sexes	Mothers aged 25 - 29 years	High	fertility_rate__all__25-29__high	fertility_rate__all__FULL__high	The projection of fertility to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Fertility rate from mothers aged 30 to 34 years	Fertility rate	Both sexes	Mothers aged 30 - 34 years	None	fertility_rate__all__30-34__records	fertility_rate__all__FULL__records		LineChart	0	true			
+	Fertility rate from mothers aged 30 to 34 years	Fertility rate	Both sexes	Mothers aged 30 - 34 years	Low	fertility_rate__all__30-34__low	fertility_rate__all__FULL__low	The projection of fertility to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Fertility rate from mothers aged 30 to 34 years	Fertility rate	Both sexes	Mothers aged 30 - 34 years	Medium	fertility_rate__all__30-34__medium	fertility_rate__all__FULL__medium	The projection of fertility to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Fertility rate from mothers aged 30 to 34 years	Fertility rate	Both sexes	Mothers aged 30 - 34 years	High	fertility_rate__all__30-34__high	fertility_rate__all__FULL__high	The projection of fertility to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Fertility rate from mothers aged 35 to 39 years	Fertility rate	Both sexes	Mothers aged 35 - 39 years	None	fertility_rate__all__35-39__records	fertility_rate__all__FULL__records		LineChart	0	true			
+	Fertility rate from mothers aged 35 to 39 years	Fertility rate	Both sexes	Mothers aged 35 - 39 years	Low	fertility_rate__all__35-39__low	fertility_rate__all__FULL__low	The projection of fertility to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Fertility rate from mothers aged 35 to 39 years	Fertility rate	Both sexes	Mothers aged 35 - 39 years	Medium	fertility_rate__all__35-39__medium	fertility_rate__all__FULL__medium	The projection of fertility to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Fertility rate from mothers aged 35 to 39 years	Fertility rate	Both sexes	Mothers aged 35 - 39 years	High	fertility_rate__all__35-39__high	fertility_rate__all__FULL__high	The projection of fertility to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Fertility rate from mothers aged 40 to 44 years	Fertility rate	Both sexes	Mothers aged 40 - 44 years	None	fertility_rate__all__40-44__records	fertility_rate__all__FULL__records		LineChart	0	true			
+	Fertility rate from mothers aged 40 to 44 years	Fertility rate	Both sexes	Mothers aged 40 - 44 years	Low	fertility_rate__all__40-44__low	fertility_rate__all__FULL__low	The projection of fertility to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Fertility rate from mothers aged 40 to 44 years	Fertility rate	Both sexes	Mothers aged 40 - 44 years	Medium	fertility_rate__all__40-44__medium	fertility_rate__all__FULL__medium	The projection of fertility to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Fertility rate from mothers aged 40 to 44 years	Fertility rate	Both sexes	Mothers aged 40 - 44 years	High	fertility_rate__all__40-44__high	fertility_rate__all__FULL__high	The projection of fertility to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Fertility rate from mothers aged 45 to 49 years	Fertility rate	Both sexes	Mothers aged 45 - 49 years	None	fertility_rate__all__45-49__records	fertility_rate__all__FULL__records		LineChart	0	true			
+	Fertility rate from mothers aged 45 to 49 years	Fertility rate	Both sexes	Mothers aged 45 - 49 years	Low	fertility_rate__all__45-49__low	fertility_rate__all__FULL__low	The projection of fertility to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Fertility rate from mothers aged 45 to 49 years	Fertility rate	Both sexes	Mothers aged 45 - 49 years	Medium	fertility_rate__all__45-49__medium	fertility_rate__all__FULL__medium	The projection of fertility to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Fertility rate from mothers aged 45 to 49 years	Fertility rate	Both sexes	Mothers aged 45 - 49 years	High	fertility_rate__all__45-49__high	fertility_rate__all__FULL__high	The projection of fertility to 2100 is based on the UN's high population scenario.	LineChart	0	true			
 
 
 table	https://files.ourworldindata.org/data/unwpp-unstable-v2/population__FULL__all__records.csv?nocache	population__FULL__all__records
@@ -1507,3 +1539,55 @@ columns	infant_mortality_rate__all__FULL__high
 	location	Country name	EntityName
 	year	Year	Year
 	infant_mortality_rate__all__all__high	Infant mortality rate	Numeric		deaths per 1,000 infant population
+table	https://files.ourworldindata.org/data/unwpp-unstable-v2/fertility_rate__all__FULL__records.csv?nocache	fertility_rate__all__FULL__records
+columns	fertility_rate__all__FULL__records
+	slug	name	type	shortUnit	unit
+	location	Country name	EntityName
+	year	Year	Year
+	fertility_rate__all__all__records	Fertility rate	Numeric		live births per woman
+	fertility_rate__all__15-19__records	Fertility rate from mothers aged 15 to 19 years	Numeric		live births per woman
+	fertility_rate__all__20-24__records	Fertility rate from mothers aged 20 to 24 years	Numeric		live births per woman
+	fertility_rate__all__25-29__records	Fertility rate from mothers aged 25 to 29 years	Numeric		live births per woman
+	fertility_rate__all__30-34__records	Fertility rate from mothers aged 30 to 34 years	Numeric		live births per woman
+	fertility_rate__all__35-39__records	Fertility rate from mothers aged 35 to 39 years	Numeric		live births per woman
+	fertility_rate__all__40-44__records	Fertility rate from mothers aged 40 to 44 years	Numeric		live births per woman
+	fertility_rate__all__45-49__records	Fertility rate from mothers aged 45 to 49 years	Numeric		live births per woman
+table	https://files.ourworldindata.org/data/unwpp-unstable-v2/fertility_rate__all__FULL__low.csv?nocache	fertility_rate__all__FULL__low
+columns	fertility_rate__all__FULL__low
+	slug	name	type	shortUnit	unit
+	location	Country name	EntityName
+	year	Year	Year
+	fertility_rate__all__all__low	Fertility rate	Numeric		live births per woman
+	fertility_rate__all__15-19__low	Fertility rate from mothers aged 15 to 19 years	Numeric		live births per woman
+	fertility_rate__all__20-24__low	Fertility rate from mothers aged 20 to 24 years	Numeric		live births per woman
+	fertility_rate__all__25-29__low	Fertility rate from mothers aged 25 to 29 years	Numeric		live births per woman
+	fertility_rate__all__30-34__low	Fertility rate from mothers aged 30 to 34 years	Numeric		live births per woman
+	fertility_rate__all__35-39__low	Fertility rate from mothers aged 35 to 39 years	Numeric		live births per woman
+	fertility_rate__all__40-44__low	Fertility rate from mothers aged 40 to 44 years	Numeric		live births per woman
+	fertility_rate__all__45-49__low	Fertility rate from mothers aged 45 to 49 years	Numeric		live births per woman
+table	https://files.ourworldindata.org/data/unwpp-unstable-v2/fertility_rate__all__FULL__medium.csv?nocache	fertility_rate__all__FULL__medium
+columns	fertility_rate__all__FULL__medium
+	slug	name	type	shortUnit	unit
+	location	Country name	EntityName
+	year	Year	Year
+	fertility_rate__all__all__medium	Fertility rate	Numeric		live births per woman
+	fertility_rate__all__15-19__medium	Fertility rate from mothers aged 15 to 19 years	Numeric		live births per woman
+	fertility_rate__all__20-24__medium	Fertility rate from mothers aged 20 to 24 years	Numeric		live births per woman
+	fertility_rate__all__25-29__medium	Fertility rate from mothers aged 25 to 29 years	Numeric		live births per woman
+	fertility_rate__all__30-34__medium	Fertility rate from mothers aged 30 to 34 years	Numeric		live births per woman
+	fertility_rate__all__35-39__medium	Fertility rate from mothers aged 35 to 39 years	Numeric		live births per woman
+	fertility_rate__all__40-44__medium	Fertility rate from mothers aged 40 to 44 years	Numeric		live births per woman
+	fertility_rate__all__45-49__medium	Fertility rate from mothers aged 45 to 49 years	Numeric		live births per woman
+table	https://files.ourworldindata.org/data/unwpp-unstable-v2/fertility_rate__all__FULL__high.csv?nocache	fertility_rate__all__FULL__high
+columns	fertility_rate__all__FULL__high
+	slug	name	type	shortUnit	unit
+	location	Country name	EntityName
+	year	Year	Year
+	fertility_rate__all__all__high	Fertility rate	Numeric		live births per woman
+	fertility_rate__all__15-19__high	Fertility rate from mothers aged 15 to 19 years	Numeric		live births per woman
+	fertility_rate__all__20-24__high	Fertility rate from mothers aged 20 to 24 years	Numeric		live births per woman
+	fertility_rate__all__25-29__high	Fertility rate from mothers aged 25 to 29 years	Numeric		live births per woman
+	fertility_rate__all__30-34__high	Fertility rate from mothers aged 30 to 34 years	Numeric		live births per woman
+	fertility_rate__all__35-39__high	Fertility rate from mothers aged 35 to 39 years	Numeric		live births per woman
+	fertility_rate__all__40-44__high	Fertility rate from mothers aged 40 to 44 years	Numeric		live births per woman
+	fertility_rate__all__45-49__high	Fertility rate from mothers aged 45 to 49 years	Numeric		live births per woman
