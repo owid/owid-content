@@ -1,0 +1,69 @@
+explorerTitle	DO NOT SHARE
+explorerSubtitle	Data under embargo
+selection	World
+isPublished	false
+hideAlertBanner	true
+yAxisMin	0
+hasMapTab	false
+graphers
+	title	ySlugs	type	Metric Dropdown
+	Total Population, as of 1 January (thousands)	total_population_as_of_1_january_thousands	LineChart	Total Population, as of 1 January (thousands)
+	Total Population, as of 1 July (thousands)	total_population_as_of_1_july_thousands	LineChart	Total Population, as of 1 July (thousands)
+	Male Population, as of 1 July (thousands)	male_population_as_of_1_july_thousands	LineChart	Male Population, as of 1 July (thousands)
+	Female Population, as of 1 July (thousands)	female_population_as_of_1_july_thousands	LineChart	Female Population, as of 1 July (thousands)
+	Population Density, as of 1 July (persons per square km)	population_density_as_of_1_july_persons_per_square_km	LineChart	Population Density, as of 1 July (persons per square km)
+	Population Sex Ratio, as of 1 July (males per 100 females)	population_sex_ratio_as_of_1_july_males_per_100_females	LineChart	Population Sex Ratio, as of 1 July (males per 100 females)
+	Median Age, as of 1 July (years)	median_age_as_of_1_july_years	LineChart	Median Age, as of 1 July (years)
+	Natural Change, Births minus Deaths (thousands)	natural_change_births_minus_deaths_thousands	LineChart	Natural Change, Births minus Deaths (thousands)
+	Rate of Natural Change (per 1,000 population)	rate_of_natural_change_per_1_000_population	LineChart	Rate of Natural Change (per 1,000 population)
+	Population Change (thousands)	population_change_thousands	LineChart	Population Change (thousands)
+	Population Growth Rate (percentage)	population_growth_rate_percentage	LineChart	Population Growth Rate (percentage)
+	Population Annual Doubling Time (years)	population_annual_doubling_time_years	LineChart	Population Annual Doubling Time (years)
+	Births (thousands)	births_thousands	LineChart	Births (thousands)
+	Births by women aged 15 to 19 (thousands)	births_by_women_aged_15_to_19_thousands	LineChart	Births by women aged 15 to 19 (thousands)
+	Crude Birth Rate (births per 1,000 population)	crude_birth_rate_births_per_1_000_population	LineChart	Crude Birth Rate (births per 1,000 population)
+	Total Fertility Rate (live births per woman)	total_fertility_rate_live_births_per_woman	LineChart	Total Fertility Rate (live births per woman)
+	Net Reproduction Rate (surviving daughters per woman)	net_reproduction_rate_surviving_daughters_per_woman	LineChart	Net Reproduction Rate (surviving daughters per woman)
+	Mean Age Childbearing (years)	mean_age_childbearing_years	LineChart	Mean Age Childbearing (years)
+	Sex Ratio at Birth (males per 100 female births)	sex_ratio_at_birth_males_per_100_female_births	LineChart	Sex Ratio at Birth (males per 100 female births)
+	Total Deaths (thousands)	total_deaths_thousands	LineChart	Total Deaths (thousands)
+	Male Deaths (thousands)	male_deaths_thousands	LineChart	Male Deaths (thousands)
+	Female Deaths (thousands)	female_deaths_thousands	LineChart	Female Deaths (thousands)
+	Crude Death Rate (deaths per 1,000 population)	crude_death_rate_deaths_per_1_000_population	LineChart	Crude Death Rate (deaths per 1,000 population)
+	Life Expectancy at Birth, both sexes (years)	life_expectancy_at_birth_both_sexes_years	LineChart	Life Expectancy at Birth, both sexes (years)
+	Male Life Expectancy at Birth (years)	male_life_expectancy_at_birth_years	LineChart	Male Life Expectancy at Birth (years)
+	Female Life Expectancy at Birth (years)	female_life_expectancy_at_birth_years	LineChart	Female Life Expectancy at Birth (years)
+	Life Expectancy at Age 15, both sexes (years)	life_expectancy_at_age_15_both_sexes_years	LineChart	Life Expectancy at Age 15, both sexes (years)
+	Male Life Expectancy at Age 15 (years)	male_life_expectancy_at_age_15_years	LineChart	Male Life Expectancy at Age 15 (years)
+	Female Life Expectancy at Age 15 (years)	female_life_expectancy_at_age_15_years	LineChart	Female Life Expectancy at Age 15 (years)
+	Life Expectancy at Age 65, both sexes (years)	life_expectancy_at_age_65_both_sexes_years	LineChart	Life Expectancy at Age 65, both sexes (years)
+	Male Life Expectancy at Age 65 (years)	male_life_expectancy_at_age_65_years	LineChart	Male Life Expectancy at Age 65 (years)
+	Female Life Expectancy at Age 65 (years)	female_life_expectancy_at_age_65_years	LineChart	Female Life Expectancy at Age 65 (years)
+	Life Expectancy at Age 80, both sexes (years)	life_expectancy_at_age_80_both_sexes_years	LineChart	Life Expectancy at Age 80, both sexes (years)
+	Male Life Expectancy at Age 80 (years)	male_life_expectancy_at_age_80_years	LineChart	Male Life Expectancy at Age 80 (years)
+	Female Life Expectancy at Age 80 (years)	female_life_expectancy_at_age_80_years	LineChart	Female Life Expectancy at Age 80 (years)
+	Infant Deaths, under age 1 (thousands)	infant_deaths_under_age_1_thousands	LineChart	Infant Deaths, under age 1 (thousands)
+	Infant Mortality Rate (infant deaths per 1,000 live births)	infant_mortality_rate_infant_deaths_per_1_000_live_births	LineChart	Infant Mortality Rate (infant deaths per 1,000 live births)
+	Live births Surviving to Age 1 (thousands)	live_births_surviving_to_age_1_thousands	LineChart	Live births Surviving to Age 1 (thousands)
+	Unfer-five Deaths, under age 5 (thousands)	unfer_five_deaths_under_age_5_thousands	LineChart	Unfer-five Deaths, under age 5 (thousands)
+	Under-five Mortality (deaths under age 5 per 1,000 live births)	under_five_mortality_deaths_under_age_5_per_1_000_live_births	LineChart	Under-five Mortality (deaths under age 5 per 1,000 live births)
+	Mortality before Age 40, both sexes (deaths under age 40 per 1,000 live births)	mortality_before_age_40_both_sexes_deaths_under_age_40_per_1_000_live_births	LineChart	Mortality before Age 40, both sexes (deaths under age 40 per 1,000 live births)
+	Male mortality before Age 40 (deaths under age 40 per 1,000 male live births)	male_mortality_before_age_40_deaths_under_age_40_per_1_000_male_live_births	LineChart	Male mortality before Age 40 (deaths under age 40 per 1,000 male live births)
+	Female mortality before Age 40 (deaths under age 40 per 1,000 female live births)	female_mortality_before_age_40_deaths_under_age_40_per_1_000_female_live_births	LineChart	Female mortality before Age 40 (deaths under age 40 per 1,000 female live births)
+	Mortality before Age 60, both sexes (deaths under age 60 per 1,000 live births)	mortality_before_age_60_both_sexes_deaths_under_age_60_per_1_000_live_births	LineChart	Mortality before Age 60, both sexes (deaths under age 60 per 1,000 live births)
+	Male mortality before Age 60 (deaths under age 60 per 1,000 male live births)	male_mortality_before_age_60_deaths_under_age_60_per_1_000_male_live_births	LineChart	Male mortality before Age 60 (deaths under age 60 per 1,000 male live births)
+	Female mortality before Age 60 (deaths under age 60 per 1,000 female live births)	female_mortality_before_age_60_deaths_under_age_60_per_1_000_female_live_births	LineChart	Female mortality before Age 60 (deaths under age 60 per 1,000 female live births)
+	Mortality between Age 15 and 50, both sexes (deaths under age 50 per 1,000 alive at age 15)	mortality_between_age_15_and_50_both_sexes_deaths_under_age_50_per_1_000_alive_at_age_15	LineChart	Mortality between Age 15 and 50, both sexes (deaths under age 50 per 1,000 alive at age 15)
+	Male mortality between Age 15 and 50 (deaths under age 50 per 1,000 males alive at age 15)	male_mortality_between_age_15_and_50_deaths_under_age_50_per_1_000_males_alive_at_age_15	LineChart	Male mortality between Age 15 and 50 (deaths under age 50 per 1,000 males alive at age 15)
+	Female mortality between Age 15 and 50 (deaths under age 50 per 1,000 females alive at age 15)	female_mortality_between_age_15_and_50_deaths_under_age_50_per_1_000_females_alive_at_age_15	LineChart	Female mortality between Age 15 and 50 (deaths under age 50 per 1,000 females alive at age 15)
+	Mortality between Age 15 and 60, both sexes (deaths under age 60 per 1,000 alive at age 15)	mortality_between_age_15_and_60_both_sexes_deaths_under_age_60_per_1_000_alive_at_age_15	LineChart	Mortality between Age 15 and 60, both sexes (deaths under age 60 per 1,000 alive at age 15)
+	Male mortality between Age 15 and 60 (deaths under age 60 per 1,000 males alive at age 15)	male_mortality_between_age_15_and_60_deaths_under_age_60_per_1_000_males_alive_at_age_15	LineChart	Male mortality between Age 15 and 60 (deaths under age 60 per 1,000 males alive at age 15)
+	Female mortality between Age 15 and 60 (deaths under age 60 per 1,000 females alive at age 15)	female_mortality_between_age_15_and_60_deaths_under_age_60_per_1_000_females_alive_at_age_15	LineChart	Female mortality between Age 15 and 60 (deaths under age 60 per 1,000 females alive at age 15)
+	Net Number of Migrants (thousands)	net_number_of_migrants_thousands	LineChart	Net Number of Migrants (thousands)
+	Net Migration Rate (per 1,000 population)	net_migration_rate_per_1_000_population	LineChart	Net Migration Rate (per 1,000 population)
+
+table	https://tufte.owid.cloud/app/uploads/2022/06/wpp.csv
+columns
+	slug	name	type
+	location	Country	EntityName
+	year	Year	Year
