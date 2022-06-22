@@ -513,6 +513,10 @@ graphers
 	Male life expectancy at birth	Life expectancy	Male	Total	Low	life_expectancy__male__at_birth__low	life_expectancy__male__FULL__low	The projection of life expectancy to 2100 is based on the UN's low population scenario.	LineChart	0	true			
 	Male life expectancy at birth	Life expectancy	Male	Total	Medium	life_expectancy__male__at_birth__medium	life_expectancy__male__FULL__medium	The projection of life expectancy to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
 	Male life expectancy at birth	Life expectancy	Male	Total	High	life_expectancy__male__at_birth__high	life_expectancy__male__FULL__high	The projection of life expectancy to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Net migration	Net migration	Both sexes	Total	None	net_migration__all__all__records	net_migration__all__FULL__records		LineChart	0	true			
+	Net migration	Net migration	Both sexes	Total	Low	net_migration__all__all__low	net_migration__all__FULL__low	The projection of migration to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Net migration	Net migration	Both sexes	Total	Medium	net_migration__all__all__medium	net_migration__all__FULL__medium	The projection of migration to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Net migration	Net migration	Both sexes	Total	High	net_migration__all__all__high	net_migration__all__FULL__high	The projection of migration to 2100 is based on the UN's high population scenario.	LineChart	0	true			
 
 
 table	https://files.ourworldindata.org/data/unwpp-unstable-v2/population__FULL__all__records.csv?nocache	population__FULL__all__records
@@ -1731,3 +1735,27 @@ columns	life_expectancy__male__FULL__high
 	location	Country name	EntityName
 	year	Year	Year
 	life_expectancy__male__at_birth__high	Male life expectancy at birth	Numeric	years	years
+table	https://files.ourworldindata.org/data/unwpp-unstable-v2/net_migration__all__FULL__records.csv?nocache	net_migration__all__FULL__records
+columns	net_migration__all__FULL__records
+	slug	name	type	shortUnit	unit
+	location	Country name	EntityName
+	year	Year	Year
+	net_migration__all__all__records	Net migration	Numeric		
+table	https://files.ourworldindata.org/data/unwpp-unstable-v2/net_migration__all__FULL__low.csv?nocache	net_migration__all__FULL__low
+columns	net_migration__all__FULL__low
+	slug	name	type	shortUnit	unit
+	location	Country name	EntityName
+	year	Year	Year
+	net_migration__all__all__low	Net migration	Numeric		
+table	https://files.ourworldindata.org/data/unwpp-unstable-v2/net_migration__all__FULL__medium.csv?nocache	net_migration__all__FULL__medium
+columns	net_migration__all__FULL__medium
+	slug	name	type	shortUnit	unit
+	location	Country name	EntityName
+	year	Year	Year
+	net_migration__all__all__medium	Net migration	Numeric		
+table	https://files.ourworldindata.org/data/unwpp-unstable-v2/net_migration__all__FULL__high.csv?nocache	net_migration__all__FULL__high
+columns	net_migration__all__FULL__high
+	slug	name	type	shortUnit	unit
+	location	Country name	EntityName
+	year	Year	Year
+	net_migration__all__all__high	Net migration	Numeric		
