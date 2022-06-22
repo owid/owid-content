@@ -83,7 +83,7 @@ maize,Maize (Corn),Maize,Maize,production land_use crop_yield food_balances wast
 maize_oil,Maize oil,Maize oil,Maize oil,production food_balances waste,
 mangoes,Mangoes,Mango,Mangoes,production land_use crop_yield,
 margarine,Margarine,Margarine,Margarine,production,
-meat_total,"Meat, Total",Total meat,All meat,production animals_slaughtered_total food_balances waste animal_feed,
+meat_total,"Meat, Total",Total meat,All meat,production animals_slaughtered food_balances waste animal_feed,
 meat_ass,"Meat, ass",Ass meat,Ass meat,production animals_slaughtered animal_yield,
 meat_beef_and_buffalo,"Meat, beef and buffalo",Beef and buffalo meat,Beef and buffalo meat,production animals_slaughtered animal_yield,
 meat_beef,"Meat, beef",Beef,Beef,food_balances waste animal_feed,
