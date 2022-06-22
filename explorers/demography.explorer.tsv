@@ -493,6 +493,14 @@ graphers
 	Fertility rate from mothers aged 45 to 49 years	Fertility rate	Both sexes	Mothers aged 45 - 49 years	Low	fertility_rate__all__45-49__low	fertility_rate__all__FULL__low	The projection of fertility to 2100 is based on the UN's low population scenario.	LineChart	0	true			
 	Fertility rate from mothers aged 45 to 49 years	Fertility rate	Both sexes	Mothers aged 45 - 49 years	Medium	fertility_rate__all__45-49__medium	fertility_rate__all__FULL__medium	The projection of fertility to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
 	Fertility rate from mothers aged 45 to 49 years	Fertility rate	Both sexes	Mothers aged 45 - 49 years	High	fertility_rate__all__45-49__high	fertility_rate__all__FULL__high	The projection of fertility to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Natural growth rate	Natural growth rate	Both sexes	Total	None	growth_natural_rate__all__all__records	growth_natural_rate__all__FULL__records		LineChart	0	true			
+	Natural growth rate	Natural growth rate	Both sexes	Total	Low	growth_natural_rate__all__all__low	growth_natural_rate__all__FULL__low	The projection of growth rate to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Natural growth rate	Natural growth rate	Both sexes	Total	Medium	growth_natural_rate__all__all__medium	growth_natural_rate__all__FULL__medium	The projection of growth rate to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Natural growth rate	Natural growth rate	Both sexes	Total	High	growth_natural_rate__all__all__high	growth_natural_rate__all__FULL__high	The projection of growth rate to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Growth rate	Growth rate	Both sexes	Total	None	growth_rate__all__all__records	growth_rate__all__FULL__records		LineChart	0	true			
+	Growth rate	Growth rate	Both sexes	Total	Low	growth_rate__all__all__low	growth_rate__all__FULL__low	The projection of growth rate to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Growth rate	Growth rate	Both sexes	Total	Medium	growth_rate__all__all__medium	growth_rate__all__FULL__medium	The projection of growth rate to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Growth rate	Growth rate	Both sexes	Total	High	growth_rate__all__all__high	growth_rate__all__FULL__high	The projection of growth rate to 2100 is based on the UN's high population scenario.	LineChart	0	true			
 
 
 table	https://files.ourworldindata.org/data/unwpp-unstable-v2/population__FULL__all__records.csv?nocache	population__FULL__all__records
@@ -1591,3 +1599,51 @@ columns	fertility_rate__all__FULL__high
 	fertility_rate__all__35-39__high	Fertility rate from mothers aged 35 to 39 years	Numeric		live births per woman
 	fertility_rate__all__40-44__high	Fertility rate from mothers aged 40 to 44 years	Numeric		live births per woman
 	fertility_rate__all__45-49__high	Fertility rate from mothers aged 45 to 49 years	Numeric		live births per woman
+table	https://files.ourworldindata.org/data/unwpp-unstable-v2/growth_natural_rate__all__FULL__records.csv?nocache	growth_natural_rate__all__FULL__records
+columns	growth_natural_rate__all__FULL__records
+	slug	name	type	shortUnit	unit
+	location	Country name	EntityName
+	year	Year	Year
+	growth_natural_rate__all__all__records	Natural growth rate	Numeric		per 1,000 population
+table	https://files.ourworldindata.org/data/unwpp-unstable-v2/growth_natural_rate__all__FULL__low.csv?nocache	growth_natural_rate__all__FULL__low
+columns	growth_natural_rate__all__FULL__low
+	slug	name	type	shortUnit	unit
+	location	Country name	EntityName
+	year	Year	Year
+	growth_natural_rate__all__all__low	Natural growth rate	Numeric		per 1,000 population
+table	https://files.ourworldindata.org/data/unwpp-unstable-v2/growth_natural_rate__all__FULL__medium.csv?nocache	growth_natural_rate__all__FULL__medium
+columns	growth_natural_rate__all__FULL__medium
+	slug	name	type	shortUnit	unit
+	location	Country name	EntityName
+	year	Year	Year
+	growth_natural_rate__all__all__medium	Natural growth rate	Numeric		per 1,000 population
+table	https://files.ourworldindata.org/data/unwpp-unstable-v2/growth_natural_rate__all__FULL__high.csv?nocache	growth_natural_rate__all__FULL__high
+columns	growth_natural_rate__all__FULL__high
+	slug	name	type	shortUnit	unit
+	location	Country name	EntityName
+	year	Year	Year
+	growth_natural_rate__all__all__high	Natural growth rate	Numeric		per 1,000 population
+table	https://files.ourworldindata.org/data/unwpp-unstable-v2/growth_rate__all__FULL__records.csv?nocache	growth_rate__all__FULL__records
+columns	growth_rate__all__FULL__records
+	slug	name	type	shortUnit	unit
+	location	Country name	EntityName
+	year	Year	Year
+	growth_rate__all__all__records	Growth rate	Numeric		per 1,000 population
+table	https://files.ourworldindata.org/data/unwpp-unstable-v2/growth_rate__all__FULL__low.csv?nocache	growth_rate__all__FULL__low
+columns	growth_rate__all__FULL__low
+	slug	name	type	shortUnit	unit
+	location	Country name	EntityName
+	year	Year	Year
+	growth_rate__all__all__low	Growth rate	Numeric		per 1,000 population
+table	https://files.ourworldindata.org/data/unwpp-unstable-v2/growth_rate__all__FULL__medium.csv?nocache	growth_rate__all__FULL__medium
+columns	growth_rate__all__FULL__medium
+	slug	name	type	shortUnit	unit
+	location	Country name	EntityName
+	year	Year	Year
+	growth_rate__all__all__medium	Growth rate	Numeric		per 1,000 population
+table	https://files.ourworldindata.org/data/unwpp-unstable-v2/growth_rate__all__FULL__high.csv?nocache	growth_rate__all__FULL__high
+columns	growth_rate__all__FULL__high
+	slug	name	type	shortUnit	unit
+	location	Country name	EntityName
+	year	Year	Year
+	growth_rate__all__all__high	Growth rate	Numeric		per 1,000 population
