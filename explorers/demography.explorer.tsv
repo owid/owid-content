@@ -249,6 +249,34 @@ graphers
 	Births	Births	Both sexes	Total	Low	births__all__all__low	births__all__FULL__low	Projected births to 2100 is based on the UN's low population scenario.	LineChart	0	true			
 	Births	Births	Both sexes	Total	Medium	births__all__all__medium	births__all__FULL__medium	Projected births to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
 	Births	Births	Both sexes	Total	High	births__all__all__high	births__all__FULL__high	Projected births to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Births from mothers aged 15 to 19 years	Births	Both sexes	Mothers aged 15 - 19 years	None	births__all__15-19__records	births__all__FULL__records		LineChart	0	true			
+	Births from mothers aged 15 to 19 years	Births	Both sexes	Mothers aged 15 - 19 years	Low	births__all__15-19__low	births__all__FULL__low	Projected births to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Births from mothers aged 15 to 19 years	Births	Both sexes	Mothers aged 15 - 19 years	Medium	births__all__15-19__medium	births__all__FULL__medium	Projected births to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Births from mothers aged 15 to 19 years	Births	Both sexes	Mothers aged 15 - 19 years	High	births__all__15-19__high	births__all__FULL__high	Projected births to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Births from mothers aged 20 to 24 years	Births	Both sexes	Mothers aged 20 - 24 years	None	births__all__20-24__records	births__all__FULL__records		LineChart	0	true			
+	Births from mothers aged 20 to 24 years	Births	Both sexes	Mothers aged 20 - 24 years	Low	births__all__20-24__low	births__all__FULL__low	Projected births to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Births from mothers aged 20 to 24 years	Births	Both sexes	Mothers aged 20 - 24 years	Medium	births__all__20-24__medium	births__all__FULL__medium	Projected births to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Births from mothers aged 20 to 24 years	Births	Both sexes	Mothers aged 20 - 24 years	High	births__all__20-24__high	births__all__FULL__high	Projected births to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Births from mothers aged 25 to 29 years	Births	Both sexes	Mothers aged 25 - 29 years	None	births__all__25-29__records	births__all__FULL__records		LineChart	0	true			
+	Births from mothers aged 25 to 29 years	Births	Both sexes	Mothers aged 25 - 29 years	Low	births__all__25-29__low	births__all__FULL__low	Projected births to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Births from mothers aged 25 to 29 years	Births	Both sexes	Mothers aged 25 - 29 years	Medium	births__all__25-29__medium	births__all__FULL__medium	Projected births to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Births from mothers aged 25 to 29 years	Births	Both sexes	Mothers aged 25 - 29 years	High	births__all__25-29__high	births__all__FULL__high	Projected births to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Births from mothers aged 30 to 34 years	Births	Both sexes	Mothers aged 30 - 34 years	None	births__all__30-34__records	births__all__FULL__records		LineChart	0	true			
+	Births from mothers aged 30 to 34 years	Births	Both sexes	Mothers aged 30 - 34 years	Low	births__all__30-34__low	births__all__FULL__low	Projected births to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Births from mothers aged 30 to 34 years	Births	Both sexes	Mothers aged 30 - 34 years	Medium	births__all__30-34__medium	births__all__FULL__medium	Projected births to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Births from mothers aged 30 to 34 years	Births	Both sexes	Mothers aged 30 - 34 years	High	births__all__30-34__high	births__all__FULL__high	Projected births to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Births from mothers aged 35 to 39 years	Births	Both sexes	Mothers aged 35 - 39 years	None	births__all__35-39__records	births__all__FULL__records		LineChart	0	true			
+	Births from mothers aged 35 to 39 years	Births	Both sexes	Mothers aged 35 - 39 years	Low	births__all__35-39__low	births__all__FULL__low	Projected births to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Births from mothers aged 35 to 39 years	Births	Both sexes	Mothers aged 35 - 39 years	Medium	births__all__35-39__medium	births__all__FULL__medium	Projected births to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Births from mothers aged 35 to 39 years	Births	Both sexes	Mothers aged 35 - 39 years	High	births__all__35-39__high	births__all__FULL__high	Projected births to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Births from mothers aged 40 to 44 years	Births	Both sexes	Mothers aged 40 - 44 years	None	births__all__40-44__records	births__all__FULL__records		LineChart	0	true			
+	Births from mothers aged 40 to 44 years	Births	Both sexes	Mothers aged 40 - 44 years	Low	births__all__40-44__low	births__all__FULL__low	Projected births to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Births from mothers aged 40 to 44 years	Births	Both sexes	Mothers aged 40 - 44 years	Medium	births__all__40-44__medium	births__all__FULL__medium	Projected births to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Births from mothers aged 40 to 44 years	Births	Both sexes	Mothers aged 40 - 44 years	High	births__all__40-44__high	births__all__FULL__high	Projected births to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Births from mothers aged 45 to 49 years	Births	Both sexes	Mothers aged 45 - 49 years	None	births__all__45-49__records	births__all__FULL__records		LineChart	0	true			
+	Births from mothers aged 45 to 49 years	Births	Both sexes	Mothers aged 45 - 49 years	Low	births__all__45-49__low	births__all__FULL__low	Projected births to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Births from mothers aged 45 to 49 years	Births	Both sexes	Mothers aged 45 - 49 years	Medium	births__all__45-49__medium	births__all__FULL__medium	Projected births to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Births from mothers aged 45 to 49 years	Births	Both sexes	Mothers aged 45 - 49 years	High	births__all__45-49__high	births__all__FULL__high	Projected births to 2100 is based on the UN's high population scenario.	LineChart	0	true			
 	Birth rate	Birth rate	Both sexes	Total	None	birth_rate__all__all__records	birth_rate__all__FULL__records		LineChart	0	true			
 	Birth rate	Birth rate	Both sexes	Total	Low	birth_rate__all__all__low	birth_rate__all__FULL__low	Projected births to 2100 is based on the UN's low population scenario.	LineChart	0	true			
 	Birth rate	Birth rate	Both sexes	Total	Medium	birth_rate__all__all__medium	birth_rate__all__FULL__medium	Projected births to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
@@ -1101,24 +1129,52 @@ columns	births__all__FULL__records
 	location	Country name	EntityName
 	year	Year	Year
 	births__all__all__records	Births	Numeric		
+	births__all__15-19__records	Births from mothers aged 15 to 19 years	Numeric		
+	births__all__20-24__records	Births from mothers aged 20 to 24 years	Numeric		
+	births__all__25-29__records	Births from mothers aged 25 to 29 years	Numeric		
+	births__all__30-34__records	Births from mothers aged 30 to 34 years	Numeric		
+	births__all__35-39__records	Births from mothers aged 35 to 39 years	Numeric		
+	births__all__40-44__records	Births from mothers aged 40 to 44 years	Numeric		
+	births__all__45-49__records	Births from mothers aged 45 to 49 years	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable-v2/births__all__FULL__low.csv?nocache	births__all__FULL__low
 columns	births__all__FULL__low
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
 	births__all__all__low	Births	Numeric		
+	births__all__15-19__low	Births from mothers aged 15 to 19 years	Numeric		
+	births__all__20-24__low	Births from mothers aged 20 to 24 years	Numeric		
+	births__all__25-29__low	Births from mothers aged 25 to 29 years	Numeric		
+	births__all__30-34__low	Births from mothers aged 30 to 34 years	Numeric		
+	births__all__35-39__low	Births from mothers aged 35 to 39 years	Numeric		
+	births__all__40-44__low	Births from mothers aged 40 to 44 years	Numeric		
+	births__all__45-49__low	Births from mothers aged 45 to 49 years	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable-v2/births__all__FULL__medium.csv?nocache	births__all__FULL__medium
 columns	births__all__FULL__medium
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
 	births__all__all__medium	Births	Numeric		
+	births__all__15-19__medium	Births from mothers aged 15 to 19 years	Numeric		
+	births__all__20-24__medium	Births from mothers aged 20 to 24 years	Numeric		
+	births__all__25-29__medium	Births from mothers aged 25 to 29 years	Numeric		
+	births__all__30-34__medium	Births from mothers aged 30 to 34 years	Numeric		
+	births__all__35-39__medium	Births from mothers aged 35 to 39 years	Numeric		
+	births__all__40-44__medium	Births from mothers aged 40 to 44 years	Numeric		
+	births__all__45-49__medium	Births from mothers aged 45 to 49 years	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable-v2/births__all__FULL__high.csv?nocache	births__all__FULL__high
 columns	births__all__FULL__high
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
 	births__all__all__high	Births	Numeric		
+	births__all__15-19__high	Births from mothers aged 15 to 19 years	Numeric		
+	births__all__20-24__high	Births from mothers aged 20 to 24 years	Numeric		
+	births__all__25-29__high	Births from mothers aged 25 to 29 years	Numeric		
+	births__all__30-34__high	Births from mothers aged 30 to 34 years	Numeric		
+	births__all__35-39__high	Births from mothers aged 35 to 39 years	Numeric		
+	births__all__40-44__high	Births from mothers aged 40 to 44 years	Numeric		
+	births__all__45-49__high	Births from mothers aged 45 to 49 years	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable-v2/birth_rate__all__FULL__records.csv?nocache	birth_rate__all__FULL__records
 columns	birth_rate__all__FULL__records
 	slug	name	type	shortUnit	unit
