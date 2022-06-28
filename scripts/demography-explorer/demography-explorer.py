@@ -8,7 +8,7 @@ from collections import defaultdict
 
 
 def file_url(tableSlug):
-    return f"https://files.ourworldindata.org/data/unwpp-unstable-v2/{tableSlug}.csv?nocache"
+    return f"https://files.ourworldindata.org/data/unwpp-unstable-v3/{tableSlug}.csv?nocache"
 
 
 # %%
