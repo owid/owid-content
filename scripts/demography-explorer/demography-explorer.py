@@ -29,14 +29,14 @@ def table_def(tableSlugs, rows):
     ]
     table_defs = "\n".join(table_defs)
     col_defs = [
-        f"{row['ySlugs']}\t{row['title']}\tNumeric\t{row['metric__shortUnit']}\t{row['metric__unit']}"
+        f"{row['ySlugs']}\t{row['title']}\tNumeric\t{row['metric__shortUnit']}\t{row['metric__unit']}\tUnited Nations World Population Prospects (2022)\thttps://population.un.org/wpp/\tUN Population Division"
         for (_, row) in rows.iterrows()
     ]
     col_defs = textwrap.indent("\n".join(col_defs), "\t")
 
     return f"""{table_defs}
 columns	{table_slugs}
-	slug	name	type	shortUnit	unit
+	slug	name	type	shortUnit	unit	sourceName	sourceLink	dataPublishedBy
 	location	Country name	EntityName
 	year	Year	Year
 {col_defs}"""
