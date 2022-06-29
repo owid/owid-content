@@ -11,10 +11,18 @@ graphers
 	Population	Population	Both sexes	Total	Low	population__all__all__low	population__all__FULL__low	The projection of population to 2100 is based on the UN's low population scenario.	LineChart	0	true			
 	Population	Population	Both sexes	Total	Medium	population__all__all__medium	population__all__FULL__medium	The projection of population to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
 	Population	Population	Both sexes	Total	High	population__all__all__high	population__all__FULL__high	The projection of population to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Population at age 0	Population	Both sexes	At age 0	None	population__all__0__records	population__all__FULL__records		LineChart	0	true			
+	Population at age 0	Population	Both sexes	At age 0	Low	population__all__0__low	population__all__FULL__low	The projection of population to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Population at age 0	Population	Both sexes	At age 0	Medium	population__all__0__medium	population__all__FULL__medium	The projection of population to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Population at age 0	Population	Both sexes	At age 0	High	population__all__0__high	population__all__FULL__high	The projection of population to 2100 is based on the UN's high population scenario.	LineChart	0	true			
 	Population aged 0 to 4 years	Population	Both sexes	0 - 4 years	None	population__all__0-4__records	population__all__FULL__records		LineChart	0	true			
 	Population aged 0 to 4 years	Population	Both sexes	0 - 4 years	Low	population__all__0-4__low	population__all__FULL__low	The projection of population to 2100 is based on the UN's low population scenario.	LineChart	0	true			
 	Population aged 0 to 4 years	Population	Both sexes	0 - 4 years	Medium	population__all__0-4__medium	population__all__FULL__medium	The projection of population to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
 	Population aged 0 to 4 years	Population	Both sexes	0 - 4 years	High	population__all__0-4__high	population__all__FULL__high	The projection of population to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Population aged 1 to 4 years	Population	Both sexes	1 - 4 years	None	population__all__1-4__records	population__all__FULL__records		LineChart	0	true			
+	Population aged 1 to 4 years	Population	Both sexes	1 - 4 years	Low	population__all__1-4__low	population__all__FULL__low	The projection of population to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Population aged 1 to 4 years	Population	Both sexes	1 - 4 years	Medium	population__all__1-4__medium	population__all__FULL__medium	The projection of population to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Population aged 1 to 4 years	Population	Both sexes	1 - 4 years	High	population__all__1-4__high	population__all__FULL__high	The projection of population to 2100 is based on the UN's high population scenario.	LineChart	0	true			
 	Population aged 5 to 9 years	Population	Both sexes	5 - 9 years	None	population__all__5-9__records	population__all__FULL__records		LineChart	0	true			
 	Population aged 5 to 9 years	Population	Both sexes	5 - 9 years	Low	population__all__5-9__low	population__all__FULL__low	The projection of population to 2100 is based on the UN's low population scenario.	LineChart	0	true			
 	Population aged 5 to 9 years	Population	Both sexes	5 - 9 years	Medium	population__all__5-9__medium	population__all__FULL__medium	The projection of population to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
@@ -67,10 +75,18 @@ graphers
 	Female population	Population	Female	Total	Low	population__female__all__low	population__female__FULL__low	The projection of population to 2100 is based on the UN's low population scenario.	LineChart	0	true			
 	Female population	Population	Female	Total	Medium	population__female__all__medium	population__female__FULL__medium	The projection of population to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
 	Female population	Population	Female	Total	High	population__female__all__high	population__female__FULL__high	The projection of population to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Female population at age 0	Population	Female	At age 0	None	population__female__0__records	population__female__FULL__records		LineChart	0	true			
+	Female population at age 0	Population	Female	At age 0	Low	population__female__0__low	population__female__FULL__low	The projection of population to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Female population at age 0	Population	Female	At age 0	Medium	population__female__0__medium	population__female__FULL__medium	The projection of population to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Female population at age 0	Population	Female	At age 0	High	population__female__0__high	population__female__FULL__high	The projection of population to 2100 is based on the UN's high population scenario.	LineChart	0	true			
 	Female population aged 0 to 4 years	Population	Female	0 - 4 years	None	population__female__0-4__records	population__female__FULL__records		LineChart	0	true			
 	Female population aged 0 to 4 years	Population	Female	0 - 4 years	Low	population__female__0-4__low	population__female__FULL__low	The projection of population to 2100 is based on the UN's low population scenario.	LineChart	0	true			
 	Female population aged 0 to 4 years	Population	Female	0 - 4 years	Medium	population__female__0-4__medium	population__female__FULL__medium	The projection of population to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
 	Female population aged 0 to 4 years	Population	Female	0 - 4 years	High	population__female__0-4__high	population__female__FULL__high	The projection of population to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Female population aged 1 to 4 years	Population	Female	1 - 4 years	None	population__female__1-4__records	population__female__FULL__records		LineChart	0	true			
+	Female population aged 1 to 4 years	Population	Female	1 - 4 years	Low	population__female__1-4__low	population__female__FULL__low	The projection of population to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Female population aged 1 to 4 years	Population	Female	1 - 4 years	Medium	population__female__1-4__medium	population__female__FULL__medium	The projection of population to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Female population aged 1 to 4 years	Population	Female	1 - 4 years	High	population__female__1-4__high	population__female__FULL__high	The projection of population to 2100 is based on the UN's high population scenario.	LineChart	0	true			
 	Female population aged 5 to 9 years	Population	Female	5 - 9 years	None	population__female__5-9__records	population__female__FULL__records		LineChart	0	true			
 	Female population aged 5 to 9 years	Population	Female	5 - 9 years	Low	population__female__5-9__low	population__female__FULL__low	The projection of population to 2100 is based on the UN's low population scenario.	LineChart	0	true			
 	Female population aged 5 to 9 years	Population	Female	5 - 9 years	Medium	population__female__5-9__medium	population__female__FULL__medium	The projection of population to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
@@ -123,10 +139,18 @@ graphers
 	Male population	Population	Male	Total	Low	population__male__all__low	population__male__FULL__low	The projection of population to 2100 is based on the UN's low population scenario.	LineChart	0	true			
 	Male population	Population	Male	Total	Medium	population__male__all__medium	population__male__FULL__medium	The projection of population to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
 	Male population	Population	Male	Total	High	population__male__all__high	population__male__FULL__high	The projection of population to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Male population at age 0	Population	Male	At age 0	None	population__male__0__records	population__male__FULL__records		LineChart	0	true			
+	Male population at age 0	Population	Male	At age 0	Low	population__male__0__low	population__male__FULL__low	The projection of population to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Male population at age 0	Population	Male	At age 0	Medium	population__male__0__medium	population__male__FULL__medium	The projection of population to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Male population at age 0	Population	Male	At age 0	High	population__male__0__high	population__male__FULL__high	The projection of population to 2100 is based on the UN's high population scenario.	LineChart	0	true			
 	Male population aged 0 to 4 years	Population	Male	0 - 4 years	None	population__male__0-4__records	population__male__FULL__records		LineChart	0	true			
 	Male population aged 0 to 4 years	Population	Male	0 - 4 years	Low	population__male__0-4__low	population__male__FULL__low	The projection of population to 2100 is based on the UN's low population scenario.	LineChart	0	true			
 	Male population aged 0 to 4 years	Population	Male	0 - 4 years	Medium	population__male__0-4__medium	population__male__FULL__medium	The projection of population to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
 	Male population aged 0 to 4 years	Population	Male	0 - 4 years	High	population__male__0-4__high	population__male__FULL__high	The projection of population to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Male population aged 1 to 4 years	Population	Male	1 - 4 years	None	population__male__1-4__records	population__male__FULL__records		LineChart	0	true			
+	Male population aged 1 to 4 years	Population	Male	1 - 4 years	Low	population__male__1-4__low	population__male__FULL__low	The projection of population to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Male population aged 1 to 4 years	Population	Male	1 - 4 years	Medium	population__male__1-4__medium	population__male__FULL__medium	The projection of population to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Male population aged 1 to 4 years	Population	Male	1 - 4 years	High	population__male__1-4__high	population__male__FULL__high	The projection of population to 2100 is based on the UN's high population scenario.	LineChart	0	true			
 	Male population aged 5 to 9 years	Population	Male	5 - 9 years	None	population__male__5-9__records	population__male__FULL__records		LineChart	0	true			
 	Male population aged 5 to 9 years	Population	Male	5 - 9 years	Low	population__male__5-9__low	population__male__FULL__low	The projection of population to 2100 is based on the UN's low population scenario.	LineChart	0	true			
 	Male population aged 5 to 9 years	Population	Male	5 - 9 years	Medium	population__male__5-9__medium	population__male__FULL__medium	The projection of population to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
@@ -203,10 +227,18 @@ graphers
 	Annual change in population	Annual population change	Both sexes	Total	Low	population_change__all__all__low	population_change__all__FULL__low	The projection of population change to 2100 is based on the UN's low population scenario.	LineChart	0	true			
 	Annual change in population	Annual population change	Both sexes	Total	Medium	population_change__all__all__medium	population_change__all__FULL__medium	The projection of population change to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
 	Annual change in population	Annual population change	Both sexes	Total	High	population_change__all__all__high	population_change__all__FULL__high	The projection of population change to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Annual change in population at age 0	Annual population change	Both sexes	At age 0	None	population_change__all__0__records	population_change__all__FULL__records		LineChart	0	true			
+	Annual change in population at age 0	Annual population change	Both sexes	At age 0	Low	population_change__all__0__low	population_change__all__FULL__low	The projection of population change to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Annual change in population at age 0	Annual population change	Both sexes	At age 0	Medium	population_change__all__0__medium	population_change__all__FULL__medium	The projection of population change to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Annual change in population at age 0	Annual population change	Both sexes	At age 0	High	population_change__all__0__high	population_change__all__FULL__high	The projection of population change to 2100 is based on the UN's high population scenario.	LineChart	0	true			
 	Annual change in population aged 0 to 4 years	Annual population change	Both sexes	0 - 4 years	None	population_change__all__0-4__records	population_change__all__FULL__records		LineChart	0	true			
 	Annual change in population aged 0 to 4 years	Annual population change	Both sexes	0 - 4 years	Low	population_change__all__0-4__low	population_change__all__FULL__low	The projection of population change to 2100 is based on the UN's low population scenario.	LineChart	0	true			
 	Annual change in population aged 0 to 4 years	Annual population change	Both sexes	0 - 4 years	Medium	population_change__all__0-4__medium	population_change__all__FULL__medium	The projection of population change to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
 	Annual change in population aged 0 to 4 years	Annual population change	Both sexes	0 - 4 years	High	population_change__all__0-4__high	population_change__all__FULL__high	The projection of population change to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Annual change in population aged 1 to 4 years	Annual population change	Both sexes	1 - 4 years	None	population_change__all__1-4__records	population_change__all__FULL__records		LineChart	0	true			
+	Annual change in population aged 1 to 4 years	Annual population change	Both sexes	1 - 4 years	Low	population_change__all__1-4__low	population_change__all__FULL__low	The projection of population change to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Annual change in population aged 1 to 4 years	Annual population change	Both sexes	1 - 4 years	Medium	population_change__all__1-4__medium	population_change__all__FULL__medium	The projection of population change to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Annual change in population aged 1 to 4 years	Annual population change	Both sexes	1 - 4 years	High	population_change__all__1-4__high	population_change__all__FULL__high	The projection of population change to 2100 is based on the UN's high population scenario.	LineChart	0	true			
 	Annual change in population aged 5 to 9 years	Annual population change	Both sexes	5 - 9 years	None	population_change__all__5-9__records	population_change__all__FULL__records		LineChart	0	true			
 	Annual change in population aged 5 to 9 years	Annual population change	Both sexes	5 - 9 years	Low	population_change__all__5-9__low	population_change__all__FULL__low	The projection of population change to 2100 is based on the UN's low population scenario.	LineChart	0	true			
 	Annual change in population aged 5 to 9 years	Annual population change	Both sexes	5 - 9 years	Medium	population_change__all__5-9__medium	population_change__all__FULL__medium	The projection of population change to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
@@ -259,10 +291,18 @@ graphers
 	Annual change in female population	Annual population change	Female	Total	Low	population_change__female__all__low	population_change__female__FULL__low	The projection of population change to 2100 is based on the UN's low population scenario.	LineChart	0	true			
 	Annual change in female population	Annual population change	Female	Total	Medium	population_change__female__all__medium	population_change__female__FULL__medium	The projection of population change to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
 	Annual change in female population	Annual population change	Female	Total	High	population_change__female__all__high	population_change__female__FULL__high	The projection of population change to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Annual change in female population at age 0	Annual population change	Female	At age 0	None	population_change__female__0__records	population_change__female__FULL__records		LineChart	0	true			
+	Annual change in female population at age 0	Annual population change	Female	At age 0	Low	population_change__female__0__low	population_change__female__FULL__low	The projection of population change to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Annual change in female population at age 0	Annual population change	Female	At age 0	Medium	population_change__female__0__medium	population_change__female__FULL__medium	The projection of population change to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Annual change in female population at age 0	Annual population change	Female	At age 0	High	population_change__female__0__high	population_change__female__FULL__high	The projection of population change to 2100 is based on the UN's high population scenario.	LineChart	0	true			
 	Annual change in female population aged 0 to 4 years	Annual population change	Female	0 - 4 years	None	population_change__female__0-4__records	population_change__female__FULL__records		LineChart	0	true			
 	Annual change in female population aged 0 to 4 years	Annual population change	Female	0 - 4 years	Low	population_change__female__0-4__low	population_change__female__FULL__low	The projection of population change to 2100 is based on the UN's low population scenario.	LineChart	0	true			
 	Annual change in female population aged 0 to 4 years	Annual population change	Female	0 - 4 years	Medium	population_change__female__0-4__medium	population_change__female__FULL__medium	The projection of population change to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
 	Annual change in female population aged 0 to 4 years	Annual population change	Female	0 - 4 years	High	population_change__female__0-4__high	population_change__female__FULL__high	The projection of population change to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Annual change in female population aged 1 to 4 years	Annual population change	Female	1 - 4 years	None	population_change__female__1-4__records	population_change__female__FULL__records		LineChart	0	true			
+	Annual change in female population aged 1 to 4 years	Annual population change	Female	1 - 4 years	Low	population_change__female__1-4__low	population_change__female__FULL__low	The projection of population change to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Annual change in female population aged 1 to 4 years	Annual population change	Female	1 - 4 years	Medium	population_change__female__1-4__medium	population_change__female__FULL__medium	The projection of population change to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Annual change in female population aged 1 to 4 years	Annual population change	Female	1 - 4 years	High	population_change__female__1-4__high	population_change__female__FULL__high	The projection of population change to 2100 is based on the UN's high population scenario.	LineChart	0	true			
 	Annual change in female population aged 5 to 9 years	Annual population change	Female	5 - 9 years	None	population_change__female__5-9__records	population_change__female__FULL__records		LineChart	0	true			
 	Annual change in female population aged 5 to 9 years	Annual population change	Female	5 - 9 years	Low	population_change__female__5-9__low	population_change__female__FULL__low	The projection of population change to 2100 is based on the UN's low population scenario.	LineChart	0	true			
 	Annual change in female population aged 5 to 9 years	Annual population change	Female	5 - 9 years	Medium	population_change__female__5-9__medium	population_change__female__FULL__medium	The projection of population change to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
@@ -315,10 +355,18 @@ graphers
 	Annual change in male population	Annual population change	Male	Total	Low	population_change__male__all__low	population_change__male__FULL__low	The projection of population change to 2100 is based on the UN's low population scenario.	LineChart	0	true			
 	Annual change in male population	Annual population change	Male	Total	Medium	population_change__male__all__medium	population_change__male__FULL__medium	The projection of population change to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
 	Annual change in male population	Annual population change	Male	Total	High	population_change__male__all__high	population_change__male__FULL__high	The projection of population change to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Annual change in male population at age 0	Annual population change	Male	At age 0	None	population_change__male__0__records	population_change__male__FULL__records		LineChart	0	true			
+	Annual change in male population at age 0	Annual population change	Male	At age 0	Low	population_change__male__0__low	population_change__male__FULL__low	The projection of population change to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Annual change in male population at age 0	Annual population change	Male	At age 0	Medium	population_change__male__0__medium	population_change__male__FULL__medium	The projection of population change to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Annual change in male population at age 0	Annual population change	Male	At age 0	High	population_change__male__0__high	population_change__male__FULL__high	The projection of population change to 2100 is based on the UN's high population scenario.	LineChart	0	true			
 	Annual change in male population aged 0 to 4 years	Annual population change	Male	0 - 4 years	None	population_change__male__0-4__records	population_change__male__FULL__records		LineChart	0	true			
 	Annual change in male population aged 0 to 4 years	Annual population change	Male	0 - 4 years	Low	population_change__male__0-4__low	population_change__male__FULL__low	The projection of population change to 2100 is based on the UN's low population scenario.	LineChart	0	true			
 	Annual change in male population aged 0 to 4 years	Annual population change	Male	0 - 4 years	Medium	population_change__male__0-4__medium	population_change__male__FULL__medium	The projection of population change to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
 	Annual change in male population aged 0 to 4 years	Annual population change	Male	0 - 4 years	High	population_change__male__0-4__high	population_change__male__FULL__high	The projection of population change to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Annual change in male population aged 1 to 4 years	Annual population change	Male	1 - 4 years	None	population_change__male__1-4__records	population_change__male__FULL__records		LineChart	0	true			
+	Annual change in male population aged 1 to 4 years	Annual population change	Male	1 - 4 years	Low	population_change__male__1-4__low	population_change__male__FULL__low	The projection of population change to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Annual change in male population aged 1 to 4 years	Annual population change	Male	1 - 4 years	Medium	population_change__male__1-4__medium	population_change__male__FULL__medium	The projection of population change to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Annual change in male population aged 1 to 4 years	Annual population change	Male	1 - 4 years	High	population_change__male__1-4__high	population_change__male__FULL__high	The projection of population change to 2100 is based on the UN's high population scenario.	LineChart	0	true			
 	Annual change in male population aged 5 to 9 years	Annual population change	Male	5 - 9 years	None	population_change__male__5-9__records	population_change__male__FULL__records		LineChart	0	true			
 	Annual change in male population aged 5 to 9 years	Annual population change	Male	5 - 9 years	Low	population_change__male__5-9__low	population_change__male__FULL__low	The projection of population change to 2100 is based on the UN's low population scenario.	LineChart	0	true			
 	Annual change in male population aged 5 to 9 years	Annual population change	Male	5 - 9 years	Medium	population_change__male__5-9__medium	population_change__male__FULL__medium	The projection of population change to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
@@ -411,170 +459,194 @@ graphers
 	Deaths	Deaths	Both sexes	Total	Low	deaths__all__all__low	deaths__all__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
 	Deaths	Deaths	Both sexes	Total	Medium	deaths__all__all__medium	deaths__all__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
 	Deaths	Deaths	Both sexes	Total	High	deaths__all__all__high	deaths__all__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
-	Deaths	Deaths	Both sexes	0 - 4 years	None	deaths__all__0-4__records	deaths__all__FULL__records		LineChart	0	true			
-	Deaths	Deaths	Both sexes	0 - 4 years	Low	deaths__all__0-4__low	deaths__all__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
-	Deaths	Deaths	Both sexes	0 - 4 years	Medium	deaths__all__0-4__medium	deaths__all__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
-	Deaths	Deaths	Both sexes	0 - 4 years	High	deaths__all__0-4__high	deaths__all__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
-	Deaths	Deaths	Both sexes	5 - 9 years	None	deaths__all__5-9__records	deaths__all__FULL__records		LineChart	0	true			
-	Deaths	Deaths	Both sexes	5 - 9 years	Low	deaths__all__5-9__low	deaths__all__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
-	Deaths	Deaths	Both sexes	5 - 9 years	Medium	deaths__all__5-9__medium	deaths__all__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
-	Deaths	Deaths	Both sexes	5 - 9 years	High	deaths__all__5-9__high	deaths__all__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
-	Deaths	Deaths	Both sexes	10 - 14 years	None	deaths__all__10-14__records	deaths__all__FULL__records		LineChart	0	true			
-	Deaths	Deaths	Both sexes	10 - 14 years	Low	deaths__all__10-14__low	deaths__all__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
-	Deaths	Deaths	Both sexes	10 - 14 years	Medium	deaths__all__10-14__medium	deaths__all__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
-	Deaths	Deaths	Both sexes	10 - 14 years	High	deaths__all__10-14__high	deaths__all__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
-	Deaths	Deaths	Both sexes	15 - 19 years	None	deaths__all__15-19__records	deaths__all__FULL__records		LineChart	0	true			
-	Deaths	Deaths	Both sexes	15 - 19 years	Low	deaths__all__15-19__low	deaths__all__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
-	Deaths	Deaths	Both sexes	15 - 19 years	Medium	deaths__all__15-19__medium	deaths__all__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
-	Deaths	Deaths	Both sexes	15 - 19 years	High	deaths__all__15-19__high	deaths__all__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
-	Deaths	Deaths	Both sexes	20 - 29 years	None	deaths__all__20-29__records	deaths__all__FULL__records		LineChart	0	true			
-	Deaths	Deaths	Both sexes	20 - 29 years	Low	deaths__all__20-29__low	deaths__all__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
-	Deaths	Deaths	Both sexes	20 - 29 years	Medium	deaths__all__20-29__medium	deaths__all__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
-	Deaths	Deaths	Both sexes	20 - 29 years	High	deaths__all__20-29__high	deaths__all__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
-	Deaths	Deaths	Both sexes	30 - 39 years	None	deaths__all__30-39__records	deaths__all__FULL__records		LineChart	0	true			
-	Deaths	Deaths	Both sexes	30 - 39 years	Low	deaths__all__30-39__low	deaths__all__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
-	Deaths	Deaths	Both sexes	30 - 39 years	Medium	deaths__all__30-39__medium	deaths__all__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
-	Deaths	Deaths	Both sexes	30 - 39 years	High	deaths__all__30-39__high	deaths__all__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
-	Deaths	Deaths	Both sexes	40 - 49 years	None	deaths__all__40-49__records	deaths__all__FULL__records		LineChart	0	true			
-	Deaths	Deaths	Both sexes	40 - 49 years	Low	deaths__all__40-49__low	deaths__all__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
-	Deaths	Deaths	Both sexes	40 - 49 years	Medium	deaths__all__40-49__medium	deaths__all__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
-	Deaths	Deaths	Both sexes	40 - 49 years	High	deaths__all__40-49__high	deaths__all__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
-	Deaths	Deaths	Both sexes	50 - 59 years	None	deaths__all__50-59__records	deaths__all__FULL__records		LineChart	0	true			
-	Deaths	Deaths	Both sexes	50 - 59 years	Low	deaths__all__50-59__low	deaths__all__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
-	Deaths	Deaths	Both sexes	50 - 59 years	Medium	deaths__all__50-59__medium	deaths__all__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
-	Deaths	Deaths	Both sexes	50 - 59 years	High	deaths__all__50-59__high	deaths__all__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
-	Deaths	Deaths	Both sexes	60 - 69 years	None	deaths__all__60-69__records	deaths__all__FULL__records		LineChart	0	true			
-	Deaths	Deaths	Both sexes	60 - 69 years	Low	deaths__all__60-69__low	deaths__all__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
-	Deaths	Deaths	Both sexes	60 - 69 years	Medium	deaths__all__60-69__medium	deaths__all__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
-	Deaths	Deaths	Both sexes	60 - 69 years	High	deaths__all__60-69__high	deaths__all__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
-	Deaths	Deaths	Both sexes	70 - 79 years	None	deaths__all__70-79__records	deaths__all__FULL__records		LineChart	0	true			
-	Deaths	Deaths	Both sexes	70 - 79 years	Low	deaths__all__70-79__low	deaths__all__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
-	Deaths	Deaths	Both sexes	70 - 79 years	Medium	deaths__all__70-79__medium	deaths__all__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
-	Deaths	Deaths	Both sexes	70 - 79 years	High	deaths__all__70-79__high	deaths__all__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
-	Deaths	Deaths	Both sexes	80 - 89 years	None	deaths__all__80-89__records	deaths__all__FULL__records		LineChart	0	true			
-	Deaths	Deaths	Both sexes	80 - 89 years	Low	deaths__all__80-89__low	deaths__all__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
-	Deaths	Deaths	Both sexes	80 - 89 years	Medium	deaths__all__80-89__medium	deaths__all__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
-	Deaths	Deaths	Both sexes	80 - 89 years	High	deaths__all__80-89__high	deaths__all__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
-	Deaths	Deaths	Both sexes	90 - 99 years	None	deaths__all__90-99__records	deaths__all__FULL__records		LineChart	0	true			
-	Deaths	Deaths	Both sexes	90 - 99 years	Low	deaths__all__90-99__low	deaths__all__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
-	Deaths	Deaths	Both sexes	90 - 99 years	Medium	deaths__all__90-99__medium	deaths__all__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
-	Deaths	Deaths	Both sexes	90 - 99 years	High	deaths__all__90-99__high	deaths__all__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
-	Deaths	Deaths	Both sexes	100+ years	None	deaths__all__100-__records	deaths__all__FULL__records		LineChart	0	true			
-	Deaths	Deaths	Both sexes	100+ years	Low	deaths__all__100-__low	deaths__all__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
-	Deaths	Deaths	Both sexes	100+ years	Medium	deaths__all__100-__medium	deaths__all__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
-	Deaths	Deaths	Both sexes	100+ years	High	deaths__all__100-__high	deaths__all__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Deaths at age 0	Deaths	Both sexes	At age 0	None	deaths__all__0__records	deaths__all__FULL__records		LineChart	0	true			
+	Deaths at age 0	Deaths	Both sexes	At age 0	Low	deaths__all__0__low	deaths__all__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Deaths at age 0	Deaths	Both sexes	At age 0	Medium	deaths__all__0__medium	deaths__all__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Deaths at age 0	Deaths	Both sexes	At age 0	High	deaths__all__0__high	deaths__all__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Deaths aged 0 to 4 years	Deaths	Both sexes	0 - 4 years	None	deaths__all__0-4__records	deaths__all__FULL__records		LineChart	0	true			
+	Deaths aged 0 to 4 years	Deaths	Both sexes	0 - 4 years	Low	deaths__all__0-4__low	deaths__all__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Deaths aged 0 to 4 years	Deaths	Both sexes	0 - 4 years	Medium	deaths__all__0-4__medium	deaths__all__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Deaths aged 0 to 4 years	Deaths	Both sexes	0 - 4 years	High	deaths__all__0-4__high	deaths__all__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Deaths aged 1 to 4 years	Deaths	Both sexes	1 - 4 years	None	deaths__all__1-4__records	deaths__all__FULL__records		LineChart	0	true			
+	Deaths aged 1 to 4 years	Deaths	Both sexes	1 - 4 years	Low	deaths__all__1-4__low	deaths__all__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Deaths aged 1 to 4 years	Deaths	Both sexes	1 - 4 years	Medium	deaths__all__1-4__medium	deaths__all__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Deaths aged 1 to 4 years	Deaths	Both sexes	1 - 4 years	High	deaths__all__1-4__high	deaths__all__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Deaths aged 5 to 9 years	Deaths	Both sexes	5 - 9 years	None	deaths__all__5-9__records	deaths__all__FULL__records		LineChart	0	true			
+	Deaths aged 5 to 9 years	Deaths	Both sexes	5 - 9 years	Low	deaths__all__5-9__low	deaths__all__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Deaths aged 5 to 9 years	Deaths	Both sexes	5 - 9 years	Medium	deaths__all__5-9__medium	deaths__all__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Deaths aged 5 to 9 years	Deaths	Both sexes	5 - 9 years	High	deaths__all__5-9__high	deaths__all__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Deaths aged 10 to 14 years	Deaths	Both sexes	10 - 14 years	None	deaths__all__10-14__records	deaths__all__FULL__records		LineChart	0	true			
+	Deaths aged 10 to 14 years	Deaths	Both sexes	10 - 14 years	Low	deaths__all__10-14__low	deaths__all__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Deaths aged 10 to 14 years	Deaths	Both sexes	10 - 14 years	Medium	deaths__all__10-14__medium	deaths__all__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Deaths aged 10 to 14 years	Deaths	Both sexes	10 - 14 years	High	deaths__all__10-14__high	deaths__all__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Deaths aged 15 to 19 years	Deaths	Both sexes	15 - 19 years	None	deaths__all__15-19__records	deaths__all__FULL__records		LineChart	0	true			
+	Deaths aged 15 to 19 years	Deaths	Both sexes	15 - 19 years	Low	deaths__all__15-19__low	deaths__all__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Deaths aged 15 to 19 years	Deaths	Both sexes	15 - 19 years	Medium	deaths__all__15-19__medium	deaths__all__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Deaths aged 15 to 19 years	Deaths	Both sexes	15 - 19 years	High	deaths__all__15-19__high	deaths__all__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Deaths aged 20 to 29 years	Deaths	Both sexes	20 - 29 years	None	deaths__all__20-29__records	deaths__all__FULL__records		LineChart	0	true			
+	Deaths aged 20 to 29 years	Deaths	Both sexes	20 - 29 years	Low	deaths__all__20-29__low	deaths__all__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Deaths aged 20 to 29 years	Deaths	Both sexes	20 - 29 years	Medium	deaths__all__20-29__medium	deaths__all__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Deaths aged 20 to 29 years	Deaths	Both sexes	20 - 29 years	High	deaths__all__20-29__high	deaths__all__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Deaths aged 30 to 39 years	Deaths	Both sexes	30 - 39 years	None	deaths__all__30-39__records	deaths__all__FULL__records		LineChart	0	true			
+	Deaths aged 30 to 39 years	Deaths	Both sexes	30 - 39 years	Low	deaths__all__30-39__low	deaths__all__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Deaths aged 30 to 39 years	Deaths	Both sexes	30 - 39 years	Medium	deaths__all__30-39__medium	deaths__all__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Deaths aged 30 to 39 years	Deaths	Both sexes	30 - 39 years	High	deaths__all__30-39__high	deaths__all__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Deaths aged 40 to 49 years	Deaths	Both sexes	40 - 49 years	None	deaths__all__40-49__records	deaths__all__FULL__records		LineChart	0	true			
+	Deaths aged 40 to 49 years	Deaths	Both sexes	40 - 49 years	Low	deaths__all__40-49__low	deaths__all__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Deaths aged 40 to 49 years	Deaths	Both sexes	40 - 49 years	Medium	deaths__all__40-49__medium	deaths__all__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Deaths aged 40 to 49 years	Deaths	Both sexes	40 - 49 years	High	deaths__all__40-49__high	deaths__all__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Deaths aged 50 to 59 years	Deaths	Both sexes	50 - 59 years	None	deaths__all__50-59__records	deaths__all__FULL__records		LineChart	0	true			
+	Deaths aged 50 to 59 years	Deaths	Both sexes	50 - 59 years	Low	deaths__all__50-59__low	deaths__all__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Deaths aged 50 to 59 years	Deaths	Both sexes	50 - 59 years	Medium	deaths__all__50-59__medium	deaths__all__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Deaths aged 50 to 59 years	Deaths	Both sexes	50 - 59 years	High	deaths__all__50-59__high	deaths__all__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Deaths aged 60 to 69 years	Deaths	Both sexes	60 - 69 years	None	deaths__all__60-69__records	deaths__all__FULL__records		LineChart	0	true			
+	Deaths aged 60 to 69 years	Deaths	Both sexes	60 - 69 years	Low	deaths__all__60-69__low	deaths__all__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Deaths aged 60 to 69 years	Deaths	Both sexes	60 - 69 years	Medium	deaths__all__60-69__medium	deaths__all__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Deaths aged 60 to 69 years	Deaths	Both sexes	60 - 69 years	High	deaths__all__60-69__high	deaths__all__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Deaths aged 70 to 79 years	Deaths	Both sexes	70 - 79 years	None	deaths__all__70-79__records	deaths__all__FULL__records		LineChart	0	true			
+	Deaths aged 70 to 79 years	Deaths	Both sexes	70 - 79 years	Low	deaths__all__70-79__low	deaths__all__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Deaths aged 70 to 79 years	Deaths	Both sexes	70 - 79 years	Medium	deaths__all__70-79__medium	deaths__all__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Deaths aged 70 to 79 years	Deaths	Both sexes	70 - 79 years	High	deaths__all__70-79__high	deaths__all__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Deaths aged 80 to 89 years	Deaths	Both sexes	80 - 89 years	None	deaths__all__80-89__records	deaths__all__FULL__records		LineChart	0	true			
+	Deaths aged 80 to 89 years	Deaths	Both sexes	80 - 89 years	Low	deaths__all__80-89__low	deaths__all__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Deaths aged 80 to 89 years	Deaths	Both sexes	80 - 89 years	Medium	deaths__all__80-89__medium	deaths__all__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Deaths aged 80 to 89 years	Deaths	Both sexes	80 - 89 years	High	deaths__all__80-89__high	deaths__all__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Deaths aged 90 to 99 years	Deaths	Both sexes	90 - 99 years	None	deaths__all__90-99__records	deaths__all__FULL__records		LineChart	0	true			
+	Deaths aged 90 to 99 years	Deaths	Both sexes	90 - 99 years	Low	deaths__all__90-99__low	deaths__all__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Deaths aged 90 to 99 years	Deaths	Both sexes	90 - 99 years	Medium	deaths__all__90-99__medium	deaths__all__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Deaths aged 90 to 99 years	Deaths	Both sexes	90 - 99 years	High	deaths__all__90-99__high	deaths__all__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Deaths older than 100 years	Deaths	Both sexes	100+ years	None	deaths__all__100-__records	deaths__all__FULL__records		LineChart	0	true			
+	Deaths older than 100 years	Deaths	Both sexes	100+ years	Low	deaths__all__100-__low	deaths__all__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Deaths older than 100 years	Deaths	Both sexes	100+ years	Medium	deaths__all__100-__medium	deaths__all__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Deaths older than 100 years	Deaths	Both sexes	100+ years	High	deaths__all__100-__high	deaths__all__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
 	Female deaths	Deaths	Female	Total	None	deaths__female__all__records	deaths__female__FULL__records		LineChart	0	true			
 	Female deaths	Deaths	Female	Total	Low	deaths__female__all__low	deaths__female__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
 	Female deaths	Deaths	Female	Total	Medium	deaths__female__all__medium	deaths__female__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
 	Female deaths	Deaths	Female	Total	High	deaths__female__all__high	deaths__female__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
-	Female deaths	Deaths	Female	0 - 4 years	None	deaths__female__0-4__records	deaths__female__FULL__records		LineChart	0	true			
-	Female deaths	Deaths	Female	0 - 4 years	Low	deaths__female__0-4__low	deaths__female__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
-	Female deaths	Deaths	Female	0 - 4 years	Medium	deaths__female__0-4__medium	deaths__female__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
-	Female deaths	Deaths	Female	0 - 4 years	High	deaths__female__0-4__high	deaths__female__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
-	Female deaths	Deaths	Female	5 - 9 years	None	deaths__female__5-9__records	deaths__female__FULL__records		LineChart	0	true			
-	Female deaths	Deaths	Female	5 - 9 years	Low	deaths__female__5-9__low	deaths__female__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
-	Female deaths	Deaths	Female	5 - 9 years	Medium	deaths__female__5-9__medium	deaths__female__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
-	Female deaths	Deaths	Female	5 - 9 years	High	deaths__female__5-9__high	deaths__female__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
-	Female deaths	Deaths	Female	10 - 14 years	None	deaths__female__10-14__records	deaths__female__FULL__records		LineChart	0	true			
-	Female deaths	Deaths	Female	10 - 14 years	Low	deaths__female__10-14__low	deaths__female__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
-	Female deaths	Deaths	Female	10 - 14 years	Medium	deaths__female__10-14__medium	deaths__female__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
-	Female deaths	Deaths	Female	10 - 14 years	High	deaths__female__10-14__high	deaths__female__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
-	Female deaths	Deaths	Female	15 - 19 years	None	deaths__female__15-19__records	deaths__female__FULL__records		LineChart	0	true			
-	Female deaths	Deaths	Female	15 - 19 years	Low	deaths__female__15-19__low	deaths__female__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
-	Female deaths	Deaths	Female	15 - 19 years	Medium	deaths__female__15-19__medium	deaths__female__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
-	Female deaths	Deaths	Female	15 - 19 years	High	deaths__female__15-19__high	deaths__female__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
-	Female deaths	Deaths	Female	20 - 29 years	None	deaths__female__20-29__records	deaths__female__FULL__records		LineChart	0	true			
-	Female deaths	Deaths	Female	20 - 29 years	Low	deaths__female__20-29__low	deaths__female__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
-	Female deaths	Deaths	Female	20 - 29 years	Medium	deaths__female__20-29__medium	deaths__female__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
-	Female deaths	Deaths	Female	20 - 29 years	High	deaths__female__20-29__high	deaths__female__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
-	Female deaths	Deaths	Female	30 - 39 years	None	deaths__female__30-39__records	deaths__female__FULL__records		LineChart	0	true			
-	Female deaths	Deaths	Female	30 - 39 years	Low	deaths__female__30-39__low	deaths__female__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
-	Female deaths	Deaths	Female	30 - 39 years	Medium	deaths__female__30-39__medium	deaths__female__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
-	Female deaths	Deaths	Female	30 - 39 years	High	deaths__female__30-39__high	deaths__female__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
-	Female deaths	Deaths	Female	40 - 49 years	None	deaths__female__40-49__records	deaths__female__FULL__records		LineChart	0	true			
-	Female deaths	Deaths	Female	40 - 49 years	Low	deaths__female__40-49__low	deaths__female__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
-	Female deaths	Deaths	Female	40 - 49 years	Medium	deaths__female__40-49__medium	deaths__female__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
-	Female deaths	Deaths	Female	40 - 49 years	High	deaths__female__40-49__high	deaths__female__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
-	Female deaths	Deaths	Female	50 - 59 years	None	deaths__female__50-59__records	deaths__female__FULL__records		LineChart	0	true			
-	Female deaths	Deaths	Female	50 - 59 years	Low	deaths__female__50-59__low	deaths__female__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
-	Female deaths	Deaths	Female	50 - 59 years	Medium	deaths__female__50-59__medium	deaths__female__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
-	Female deaths	Deaths	Female	50 - 59 years	High	deaths__female__50-59__high	deaths__female__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
-	Female deaths	Deaths	Female	60 - 69 years	None	deaths__female__60-69__records	deaths__female__FULL__records		LineChart	0	true			
-	Female deaths	Deaths	Female	60 - 69 years	Low	deaths__female__60-69__low	deaths__female__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
-	Female deaths	Deaths	Female	60 - 69 years	Medium	deaths__female__60-69__medium	deaths__female__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
-	Female deaths	Deaths	Female	60 - 69 years	High	deaths__female__60-69__high	deaths__female__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
-	Female deaths	Deaths	Female	70 - 79 years	None	deaths__female__70-79__records	deaths__female__FULL__records		LineChart	0	true			
-	Female deaths	Deaths	Female	70 - 79 years	Low	deaths__female__70-79__low	deaths__female__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
-	Female deaths	Deaths	Female	70 - 79 years	Medium	deaths__female__70-79__medium	deaths__female__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
-	Female deaths	Deaths	Female	70 - 79 years	High	deaths__female__70-79__high	deaths__female__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
-	Female deaths	Deaths	Female	80 - 89 years	None	deaths__female__80-89__records	deaths__female__FULL__records		LineChart	0	true			
-	Female deaths	Deaths	Female	80 - 89 years	Low	deaths__female__80-89__low	deaths__female__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
-	Female deaths	Deaths	Female	80 - 89 years	Medium	deaths__female__80-89__medium	deaths__female__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
-	Female deaths	Deaths	Female	80 - 89 years	High	deaths__female__80-89__high	deaths__female__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
-	Female deaths	Deaths	Female	90 - 99 years	None	deaths__female__90-99__records	deaths__female__FULL__records		LineChart	0	true			
-	Female deaths	Deaths	Female	90 - 99 years	Low	deaths__female__90-99__low	deaths__female__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
-	Female deaths	Deaths	Female	90 - 99 years	Medium	deaths__female__90-99__medium	deaths__female__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
-	Female deaths	Deaths	Female	90 - 99 years	High	deaths__female__90-99__high	deaths__female__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
-	Female deaths	Deaths	Female	100+ years	None	deaths__female__100-__records	deaths__female__FULL__records		LineChart	0	true			
-	Female deaths	Deaths	Female	100+ years	Low	deaths__female__100-__low	deaths__female__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
-	Female deaths	Deaths	Female	100+ years	Medium	deaths__female__100-__medium	deaths__female__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
-	Female deaths	Deaths	Female	100+ years	High	deaths__female__100-__high	deaths__female__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Female deaths at age 0	Deaths	Female	At age 0	None	deaths__female__0__records	deaths__female__FULL__records		LineChart	0	true			
+	Female deaths at age 0	Deaths	Female	At age 0	Low	deaths__female__0__low	deaths__female__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Female deaths at age 0	Deaths	Female	At age 0	Medium	deaths__female__0__medium	deaths__female__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Female deaths at age 0	Deaths	Female	At age 0	High	deaths__female__0__high	deaths__female__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Female deaths aged 0 to 4 years	Deaths	Female	0 - 4 years	None	deaths__female__0-4__records	deaths__female__FULL__records		LineChart	0	true			
+	Female deaths aged 0 to 4 years	Deaths	Female	0 - 4 years	Low	deaths__female__0-4__low	deaths__female__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Female deaths aged 0 to 4 years	Deaths	Female	0 - 4 years	Medium	deaths__female__0-4__medium	deaths__female__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Female deaths aged 0 to 4 years	Deaths	Female	0 - 4 years	High	deaths__female__0-4__high	deaths__female__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Female deaths aged 1 to 4 years	Deaths	Female	1 - 4 years	None	deaths__female__1-4__records	deaths__female__FULL__records		LineChart	0	true			
+	Female deaths aged 1 to 4 years	Deaths	Female	1 - 4 years	Low	deaths__female__1-4__low	deaths__female__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Female deaths aged 1 to 4 years	Deaths	Female	1 - 4 years	Medium	deaths__female__1-4__medium	deaths__female__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Female deaths aged 1 to 4 years	Deaths	Female	1 - 4 years	High	deaths__female__1-4__high	deaths__female__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Female deaths aged 5 to 9 years	Deaths	Female	5 - 9 years	None	deaths__female__5-9__records	deaths__female__FULL__records		LineChart	0	true			
+	Female deaths aged 5 to 9 years	Deaths	Female	5 - 9 years	Low	deaths__female__5-9__low	deaths__female__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Female deaths aged 5 to 9 years	Deaths	Female	5 - 9 years	Medium	deaths__female__5-9__medium	deaths__female__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Female deaths aged 5 to 9 years	Deaths	Female	5 - 9 years	High	deaths__female__5-9__high	deaths__female__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Female deaths aged 10 to 14 years	Deaths	Female	10 - 14 years	None	deaths__female__10-14__records	deaths__female__FULL__records		LineChart	0	true			
+	Female deaths aged 10 to 14 years	Deaths	Female	10 - 14 years	Low	deaths__female__10-14__low	deaths__female__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Female deaths aged 10 to 14 years	Deaths	Female	10 - 14 years	Medium	deaths__female__10-14__medium	deaths__female__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Female deaths aged 10 to 14 years	Deaths	Female	10 - 14 years	High	deaths__female__10-14__high	deaths__female__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Female deaths aged 15 to 19 years	Deaths	Female	15 - 19 years	None	deaths__female__15-19__records	deaths__female__FULL__records		LineChart	0	true			
+	Female deaths aged 15 to 19 years	Deaths	Female	15 - 19 years	Low	deaths__female__15-19__low	deaths__female__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Female deaths aged 15 to 19 years	Deaths	Female	15 - 19 years	Medium	deaths__female__15-19__medium	deaths__female__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Female deaths aged 15 to 19 years	Deaths	Female	15 - 19 years	High	deaths__female__15-19__high	deaths__female__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Female deaths aged 20 to 29 years	Deaths	Female	20 - 29 years	None	deaths__female__20-29__records	deaths__female__FULL__records		LineChart	0	true			
+	Female deaths aged 20 to 29 years	Deaths	Female	20 - 29 years	Low	deaths__female__20-29__low	deaths__female__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Female deaths aged 20 to 29 years	Deaths	Female	20 - 29 years	Medium	deaths__female__20-29__medium	deaths__female__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Female deaths aged 20 to 29 years	Deaths	Female	20 - 29 years	High	deaths__female__20-29__high	deaths__female__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Female deaths aged 30 to 39 years	Deaths	Female	30 - 39 years	None	deaths__female__30-39__records	deaths__female__FULL__records		LineChart	0	true			
+	Female deaths aged 30 to 39 years	Deaths	Female	30 - 39 years	Low	deaths__female__30-39__low	deaths__female__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Female deaths aged 30 to 39 years	Deaths	Female	30 - 39 years	Medium	deaths__female__30-39__medium	deaths__female__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Female deaths aged 30 to 39 years	Deaths	Female	30 - 39 years	High	deaths__female__30-39__high	deaths__female__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Female deaths aged 40 to 49 years	Deaths	Female	40 - 49 years	None	deaths__female__40-49__records	deaths__female__FULL__records		LineChart	0	true			
+	Female deaths aged 40 to 49 years	Deaths	Female	40 - 49 years	Low	deaths__female__40-49__low	deaths__female__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Female deaths aged 40 to 49 years	Deaths	Female	40 - 49 years	Medium	deaths__female__40-49__medium	deaths__female__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Female deaths aged 40 to 49 years	Deaths	Female	40 - 49 years	High	deaths__female__40-49__high	deaths__female__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Female deaths aged 50 to 59 years	Deaths	Female	50 - 59 years	None	deaths__female__50-59__records	deaths__female__FULL__records		LineChart	0	true			
+	Female deaths aged 50 to 59 years	Deaths	Female	50 - 59 years	Low	deaths__female__50-59__low	deaths__female__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Female deaths aged 50 to 59 years	Deaths	Female	50 - 59 years	Medium	deaths__female__50-59__medium	deaths__female__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Female deaths aged 50 to 59 years	Deaths	Female	50 - 59 years	High	deaths__female__50-59__high	deaths__female__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Female deaths aged 60 to 69 years	Deaths	Female	60 - 69 years	None	deaths__female__60-69__records	deaths__female__FULL__records		LineChart	0	true			
+	Female deaths aged 60 to 69 years	Deaths	Female	60 - 69 years	Low	deaths__female__60-69__low	deaths__female__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Female deaths aged 60 to 69 years	Deaths	Female	60 - 69 years	Medium	deaths__female__60-69__medium	deaths__female__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Female deaths aged 60 to 69 years	Deaths	Female	60 - 69 years	High	deaths__female__60-69__high	deaths__female__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Female deaths aged 70 to 79 years	Deaths	Female	70 - 79 years	None	deaths__female__70-79__records	deaths__female__FULL__records		LineChart	0	true			
+	Female deaths aged 70 to 79 years	Deaths	Female	70 - 79 years	Low	deaths__female__70-79__low	deaths__female__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Female deaths aged 70 to 79 years	Deaths	Female	70 - 79 years	Medium	deaths__female__70-79__medium	deaths__female__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Female deaths aged 70 to 79 years	Deaths	Female	70 - 79 years	High	deaths__female__70-79__high	deaths__female__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Female deaths aged 80 to 89 years	Deaths	Female	80 - 89 years	None	deaths__female__80-89__records	deaths__female__FULL__records		LineChart	0	true			
+	Female deaths aged 80 to 89 years	Deaths	Female	80 - 89 years	Low	deaths__female__80-89__low	deaths__female__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Female deaths aged 80 to 89 years	Deaths	Female	80 - 89 years	Medium	deaths__female__80-89__medium	deaths__female__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Female deaths aged 80 to 89 years	Deaths	Female	80 - 89 years	High	deaths__female__80-89__high	deaths__female__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Female deaths aged 90 to 99 years	Deaths	Female	90 - 99 years	None	deaths__female__90-99__records	deaths__female__FULL__records		LineChart	0	true			
+	Female deaths aged 90 to 99 years	Deaths	Female	90 - 99 years	Low	deaths__female__90-99__low	deaths__female__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Female deaths aged 90 to 99 years	Deaths	Female	90 - 99 years	Medium	deaths__female__90-99__medium	deaths__female__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Female deaths aged 90 to 99 years	Deaths	Female	90 - 99 years	High	deaths__female__90-99__high	deaths__female__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Female deaths older than 100 years	Deaths	Female	100+ years	None	deaths__female__100-__records	deaths__female__FULL__records		LineChart	0	true			
+	Female deaths older than 100 years	Deaths	Female	100+ years	Low	deaths__female__100-__low	deaths__female__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Female deaths older than 100 years	Deaths	Female	100+ years	Medium	deaths__female__100-__medium	deaths__female__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Female deaths older than 100 years	Deaths	Female	100+ years	High	deaths__female__100-__high	deaths__female__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
 	Male deaths	Deaths	Male	Total	None	deaths__male__all__records	deaths__male__FULL__records		LineChart	0	true			
 	Male deaths	Deaths	Male	Total	Low	deaths__male__all__low	deaths__male__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
 	Male deaths	Deaths	Male	Total	Medium	deaths__male__all__medium	deaths__male__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
 	Male deaths	Deaths	Male	Total	High	deaths__male__all__high	deaths__male__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
-	Male deaths	Deaths	Male	0 - 4 years	None	deaths__male__0-4__records	deaths__male__FULL__records		LineChart	0	true			
-	Male deaths	Deaths	Male	0 - 4 years	Low	deaths__male__0-4__low	deaths__male__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
-	Male deaths	Deaths	Male	0 - 4 years	Medium	deaths__male__0-4__medium	deaths__male__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
-	Male deaths	Deaths	Male	0 - 4 years	High	deaths__male__0-4__high	deaths__male__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
-	Male deaths	Deaths	Male	5 - 9 years	None	deaths__male__5-9__records	deaths__male__FULL__records		LineChart	0	true			
-	Male deaths	Deaths	Male	5 - 9 years	Low	deaths__male__5-9__low	deaths__male__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
-	Male deaths	Deaths	Male	5 - 9 years	Medium	deaths__male__5-9__medium	deaths__male__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
-	Male deaths	Deaths	Male	5 - 9 years	High	deaths__male__5-9__high	deaths__male__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
-	Male deaths	Deaths	Male	10 - 14 years	None	deaths__male__10-14__records	deaths__male__FULL__records		LineChart	0	true			
-	Male deaths	Deaths	Male	10 - 14 years	Low	deaths__male__10-14__low	deaths__male__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
-	Male deaths	Deaths	Male	10 - 14 years	Medium	deaths__male__10-14__medium	deaths__male__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
-	Male deaths	Deaths	Male	10 - 14 years	High	deaths__male__10-14__high	deaths__male__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
-	Male deaths	Deaths	Male	15 - 19 years	None	deaths__male__15-19__records	deaths__male__FULL__records		LineChart	0	true			
-	Male deaths	Deaths	Male	15 - 19 years	Low	deaths__male__15-19__low	deaths__male__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
-	Male deaths	Deaths	Male	15 - 19 years	Medium	deaths__male__15-19__medium	deaths__male__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
-	Male deaths	Deaths	Male	15 - 19 years	High	deaths__male__15-19__high	deaths__male__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
-	Male deaths	Deaths	Male	20 - 29 years	None	deaths__male__20-29__records	deaths__male__FULL__records		LineChart	0	true			
-	Male deaths	Deaths	Male	20 - 29 years	Low	deaths__male__20-29__low	deaths__male__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
-	Male deaths	Deaths	Male	20 - 29 years	Medium	deaths__male__20-29__medium	deaths__male__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
-	Male deaths	Deaths	Male	20 - 29 years	High	deaths__male__20-29__high	deaths__male__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
-	Male deaths	Deaths	Male	30 - 39 years	None	deaths__male__30-39__records	deaths__male__FULL__records		LineChart	0	true			
-	Male deaths	Deaths	Male	30 - 39 years	Low	deaths__male__30-39__low	deaths__male__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
-	Male deaths	Deaths	Male	30 - 39 years	Medium	deaths__male__30-39__medium	deaths__male__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
-	Male deaths	Deaths	Male	30 - 39 years	High	deaths__male__30-39__high	deaths__male__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
-	Male deaths	Deaths	Male	40 - 49 years	None	deaths__male__40-49__records	deaths__male__FULL__records		LineChart	0	true			
-	Male deaths	Deaths	Male	40 - 49 years	Low	deaths__male__40-49__low	deaths__male__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
-	Male deaths	Deaths	Male	40 - 49 years	Medium	deaths__male__40-49__medium	deaths__male__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
-	Male deaths	Deaths	Male	40 - 49 years	High	deaths__male__40-49__high	deaths__male__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
-	Male deaths	Deaths	Male	50 - 59 years	None	deaths__male__50-59__records	deaths__male__FULL__records		LineChart	0	true			
-	Male deaths	Deaths	Male	50 - 59 years	Low	deaths__male__50-59__low	deaths__male__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
-	Male deaths	Deaths	Male	50 - 59 years	Medium	deaths__male__50-59__medium	deaths__male__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
-	Male deaths	Deaths	Male	50 - 59 years	High	deaths__male__50-59__high	deaths__male__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
-	Male deaths	Deaths	Male	60 - 69 years	None	deaths__male__60-69__records	deaths__male__FULL__records		LineChart	0	true			
-	Male deaths	Deaths	Male	60 - 69 years	Low	deaths__male__60-69__low	deaths__male__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
-	Male deaths	Deaths	Male	60 - 69 years	Medium	deaths__male__60-69__medium	deaths__male__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
-	Male deaths	Deaths	Male	60 - 69 years	High	deaths__male__60-69__high	deaths__male__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
-	Male deaths	Deaths	Male	70 - 79 years	None	deaths__male__70-79__records	deaths__male__FULL__records		LineChart	0	true			
-	Male deaths	Deaths	Male	70 - 79 years	Low	deaths__male__70-79__low	deaths__male__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
-	Male deaths	Deaths	Male	70 - 79 years	Medium	deaths__male__70-79__medium	deaths__male__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
-	Male deaths	Deaths	Male	70 - 79 years	High	deaths__male__70-79__high	deaths__male__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
-	Male deaths	Deaths	Male	80 - 89 years	None	deaths__male__80-89__records	deaths__male__FULL__records		LineChart	0	true			
-	Male deaths	Deaths	Male	80 - 89 years	Low	deaths__male__80-89__low	deaths__male__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
-	Male deaths	Deaths	Male	80 - 89 years	Medium	deaths__male__80-89__medium	deaths__male__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
-	Male deaths	Deaths	Male	80 - 89 years	High	deaths__male__80-89__high	deaths__male__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
-	Male deaths	Deaths	Male	90 - 99 years	None	deaths__male__90-99__records	deaths__male__FULL__records		LineChart	0	true			
-	Male deaths	Deaths	Male	90 - 99 years	Low	deaths__male__90-99__low	deaths__male__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
-	Male deaths	Deaths	Male	90 - 99 years	Medium	deaths__male__90-99__medium	deaths__male__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
-	Male deaths	Deaths	Male	90 - 99 years	High	deaths__male__90-99__high	deaths__male__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
-	Male deaths	Deaths	Male	100+ years	None	deaths__male__100-__records	deaths__male__FULL__records		LineChart	0	true			
-	Male deaths	Deaths	Male	100+ years	Low	deaths__male__100-__low	deaths__male__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
-	Male deaths	Deaths	Male	100+ years	Medium	deaths__male__100-__medium	deaths__male__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
-	Male deaths	Deaths	Male	100+ years	High	deaths__male__100-__high	deaths__male__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Male deaths at age 0	Deaths	Male	At age 0	None	deaths__male__0__records	deaths__male__FULL__records		LineChart	0	true			
+	Male deaths at age 0	Deaths	Male	At age 0	Low	deaths__male__0__low	deaths__male__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Male deaths at age 0	Deaths	Male	At age 0	Medium	deaths__male__0__medium	deaths__male__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Male deaths at age 0	Deaths	Male	At age 0	High	deaths__male__0__high	deaths__male__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Male deaths aged 0 to 4 years	Deaths	Male	0 - 4 years	None	deaths__male__0-4__records	deaths__male__FULL__records		LineChart	0	true			
+	Male deaths aged 0 to 4 years	Deaths	Male	0 - 4 years	Low	deaths__male__0-4__low	deaths__male__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Male deaths aged 0 to 4 years	Deaths	Male	0 - 4 years	Medium	deaths__male__0-4__medium	deaths__male__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Male deaths aged 0 to 4 years	Deaths	Male	0 - 4 years	High	deaths__male__0-4__high	deaths__male__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Male deaths aged 1 to 4 years	Deaths	Male	1 - 4 years	None	deaths__male__1-4__records	deaths__male__FULL__records		LineChart	0	true			
+	Male deaths aged 1 to 4 years	Deaths	Male	1 - 4 years	Low	deaths__male__1-4__low	deaths__male__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Male deaths aged 1 to 4 years	Deaths	Male	1 - 4 years	Medium	deaths__male__1-4__medium	deaths__male__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Male deaths aged 1 to 4 years	Deaths	Male	1 - 4 years	High	deaths__male__1-4__high	deaths__male__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Male deaths aged 5 to 9 years	Deaths	Male	5 - 9 years	None	deaths__male__5-9__records	deaths__male__FULL__records		LineChart	0	true			
+	Male deaths aged 5 to 9 years	Deaths	Male	5 - 9 years	Low	deaths__male__5-9__low	deaths__male__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Male deaths aged 5 to 9 years	Deaths	Male	5 - 9 years	Medium	deaths__male__5-9__medium	deaths__male__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Male deaths aged 5 to 9 years	Deaths	Male	5 - 9 years	High	deaths__male__5-9__high	deaths__male__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Male deaths aged 10 to 14 years	Deaths	Male	10 - 14 years	None	deaths__male__10-14__records	deaths__male__FULL__records		LineChart	0	true			
+	Male deaths aged 10 to 14 years	Deaths	Male	10 - 14 years	Low	deaths__male__10-14__low	deaths__male__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Male deaths aged 10 to 14 years	Deaths	Male	10 - 14 years	Medium	deaths__male__10-14__medium	deaths__male__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Male deaths aged 10 to 14 years	Deaths	Male	10 - 14 years	High	deaths__male__10-14__high	deaths__male__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Male deaths aged 15 to 19 years	Deaths	Male	15 - 19 years	None	deaths__male__15-19__records	deaths__male__FULL__records		LineChart	0	true			
+	Male deaths aged 15 to 19 years	Deaths	Male	15 - 19 years	Low	deaths__male__15-19__low	deaths__male__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Male deaths aged 15 to 19 years	Deaths	Male	15 - 19 years	Medium	deaths__male__15-19__medium	deaths__male__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Male deaths aged 15 to 19 years	Deaths	Male	15 - 19 years	High	deaths__male__15-19__high	deaths__male__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Male deaths aged 20 to 29 years	Deaths	Male	20 - 29 years	None	deaths__male__20-29__records	deaths__male__FULL__records		LineChart	0	true			
+	Male deaths aged 20 to 29 years	Deaths	Male	20 - 29 years	Low	deaths__male__20-29__low	deaths__male__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Male deaths aged 20 to 29 years	Deaths	Male	20 - 29 years	Medium	deaths__male__20-29__medium	deaths__male__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Male deaths aged 20 to 29 years	Deaths	Male	20 - 29 years	High	deaths__male__20-29__high	deaths__male__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Male deaths aged 30 to 39 years	Deaths	Male	30 - 39 years	None	deaths__male__30-39__records	deaths__male__FULL__records		LineChart	0	true			
+	Male deaths aged 30 to 39 years	Deaths	Male	30 - 39 years	Low	deaths__male__30-39__low	deaths__male__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Male deaths aged 30 to 39 years	Deaths	Male	30 - 39 years	Medium	deaths__male__30-39__medium	deaths__male__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Male deaths aged 30 to 39 years	Deaths	Male	30 - 39 years	High	deaths__male__30-39__high	deaths__male__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Male deaths aged 40 to 49 years	Deaths	Male	40 - 49 years	None	deaths__male__40-49__records	deaths__male__FULL__records		LineChart	0	true			
+	Male deaths aged 40 to 49 years	Deaths	Male	40 - 49 years	Low	deaths__male__40-49__low	deaths__male__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Male deaths aged 40 to 49 years	Deaths	Male	40 - 49 years	Medium	deaths__male__40-49__medium	deaths__male__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Male deaths aged 40 to 49 years	Deaths	Male	40 - 49 years	High	deaths__male__40-49__high	deaths__male__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Male deaths aged 50 to 59 years	Deaths	Male	50 - 59 years	None	deaths__male__50-59__records	deaths__male__FULL__records		LineChart	0	true			
+	Male deaths aged 50 to 59 years	Deaths	Male	50 - 59 years	Low	deaths__male__50-59__low	deaths__male__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Male deaths aged 50 to 59 years	Deaths	Male	50 - 59 years	Medium	deaths__male__50-59__medium	deaths__male__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Male deaths aged 50 to 59 years	Deaths	Male	50 - 59 years	High	deaths__male__50-59__high	deaths__male__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Male deaths aged 60 to 69 years	Deaths	Male	60 - 69 years	None	deaths__male__60-69__records	deaths__male__FULL__records		LineChart	0	true			
+	Male deaths aged 60 to 69 years	Deaths	Male	60 - 69 years	Low	deaths__male__60-69__low	deaths__male__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Male deaths aged 60 to 69 years	Deaths	Male	60 - 69 years	Medium	deaths__male__60-69__medium	deaths__male__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Male deaths aged 60 to 69 years	Deaths	Male	60 - 69 years	High	deaths__male__60-69__high	deaths__male__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Male deaths aged 70 to 79 years	Deaths	Male	70 - 79 years	None	deaths__male__70-79__records	deaths__male__FULL__records		LineChart	0	true			
+	Male deaths aged 70 to 79 years	Deaths	Male	70 - 79 years	Low	deaths__male__70-79__low	deaths__male__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Male deaths aged 70 to 79 years	Deaths	Male	70 - 79 years	Medium	deaths__male__70-79__medium	deaths__male__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Male deaths aged 70 to 79 years	Deaths	Male	70 - 79 years	High	deaths__male__70-79__high	deaths__male__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Male deaths aged 80 to 89 years	Deaths	Male	80 - 89 years	None	deaths__male__80-89__records	deaths__male__FULL__records		LineChart	0	true			
+	Male deaths aged 80 to 89 years	Deaths	Male	80 - 89 years	Low	deaths__male__80-89__low	deaths__male__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Male deaths aged 80 to 89 years	Deaths	Male	80 - 89 years	Medium	deaths__male__80-89__medium	deaths__male__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Male deaths aged 80 to 89 years	Deaths	Male	80 - 89 years	High	deaths__male__80-89__high	deaths__male__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Male deaths aged 90 to 99 years	Deaths	Male	90 - 99 years	None	deaths__male__90-99__records	deaths__male__FULL__records		LineChart	0	true			
+	Male deaths aged 90 to 99 years	Deaths	Male	90 - 99 years	Low	deaths__male__90-99__low	deaths__male__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Male deaths aged 90 to 99 years	Deaths	Male	90 - 99 years	Medium	deaths__male__90-99__medium	deaths__male__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Male deaths aged 90 to 99 years	Deaths	Male	90 - 99 years	High	deaths__male__90-99__high	deaths__male__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Male deaths older than 100 years	Deaths	Male	100+ years	None	deaths__male__100-__records	deaths__male__FULL__records		LineChart	0	true			
+	Male deaths older than 100 years	Deaths	Male	100+ years	Low	deaths__male__100-__low	deaths__male__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Male deaths older than 100 years	Deaths	Male	100+ years	Medium	deaths__male__100-__medium	deaths__male__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Male deaths older than 100 years	Deaths	Male	100+ years	High	deaths__male__100-__high	deaths__male__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
 	Death rate	Death rate	Both sexes	Total	None	death_rate__all__all__records	death_rate__all__FULL__records		LineChart	0	true			
 	Death rate	Death rate	Both sexes	Total	Low	death_rate__all__all__low	death_rate__all__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
 	Death rate	Death rate	Both sexes	Total	Medium	death_rate__all__all__medium	death_rate__all__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
@@ -771,7 +843,9 @@ columns	population__all__FULL__records
 	location	Country name	EntityName
 	year	Year	Year
 	population__all__all__records	Population	Numeric		
+	population__all__0__records	Population at age 0	Numeric		
 	population__all__0-4__records	Population aged 0 to 4 years	Numeric		
+	population__all__1-4__records	Population aged 1 to 4 years	Numeric		
 	population__all__5-9__records	Population aged 5 to 9 years	Numeric		
 	population__all__10-14__records	Population aged 10 to 14 years	Numeric		
 	population__all__15-19__records	Population aged 15 to 19 years	Numeric		
@@ -790,7 +864,9 @@ columns	population__all__FULL__low
 	location	Country name	EntityName
 	year	Year	Year
 	population__all__all__low	Population	Numeric		
+	population__all__0__low	Population at age 0	Numeric		
 	population__all__0-4__low	Population aged 0 to 4 years	Numeric		
+	population__all__1-4__low	Population aged 1 to 4 years	Numeric		
 	population__all__5-9__low	Population aged 5 to 9 years	Numeric		
 	population__all__10-14__low	Population aged 10 to 14 years	Numeric		
 	population__all__15-19__low	Population aged 15 to 19 years	Numeric		
@@ -809,7 +885,9 @@ columns	population__all__FULL__medium
 	location	Country name	EntityName
 	year	Year	Year
 	population__all__all__medium	Population	Numeric		
+	population__all__0__medium	Population at age 0	Numeric		
 	population__all__0-4__medium	Population aged 0 to 4 years	Numeric		
+	population__all__1-4__medium	Population aged 1 to 4 years	Numeric		
 	population__all__5-9__medium	Population aged 5 to 9 years	Numeric		
 	population__all__10-14__medium	Population aged 10 to 14 years	Numeric		
 	population__all__15-19__medium	Population aged 15 to 19 years	Numeric		
@@ -828,7 +906,9 @@ columns	population__all__FULL__high
 	location	Country name	EntityName
 	year	Year	Year
 	population__all__all__high	Population	Numeric		
+	population__all__0__high	Population at age 0	Numeric		
 	population__all__0-4__high	Population aged 0 to 4 years	Numeric		
+	population__all__1-4__high	Population aged 1 to 4 years	Numeric		
 	population__all__5-9__high	Population aged 5 to 9 years	Numeric		
 	population__all__10-14__high	Population aged 10 to 14 years	Numeric		
 	population__all__15-19__high	Population aged 15 to 19 years	Numeric		
@@ -847,7 +927,9 @@ columns	population__female__FULL__records
 	location	Country name	EntityName
 	year	Year	Year
 	population__female__all__records	Female population	Numeric		
+	population__female__0__records	Female population at age 0	Numeric		
 	population__female__0-4__records	Female population aged 0 to 4 years	Numeric		
+	population__female__1-4__records	Female population aged 1 to 4 years	Numeric		
 	population__female__5-9__records	Female population aged 5 to 9 years	Numeric		
 	population__female__10-14__records	Female population aged 10 to 14 years	Numeric		
 	population__female__15-19__records	Female population aged 15 to 19 years	Numeric		
@@ -866,7 +948,9 @@ columns	population__female__FULL__low
 	location	Country name	EntityName
 	year	Year	Year
 	population__female__all__low	Female population	Numeric		
+	population__female__0__low	Female population at age 0	Numeric		
 	population__female__0-4__low	Female population aged 0 to 4 years	Numeric		
+	population__female__1-4__low	Female population aged 1 to 4 years	Numeric		
 	population__female__5-9__low	Female population aged 5 to 9 years	Numeric		
 	population__female__10-14__low	Female population aged 10 to 14 years	Numeric		
 	population__female__15-19__low	Female population aged 15 to 19 years	Numeric		
@@ -885,7 +969,9 @@ columns	population__female__FULL__medium
 	location	Country name	EntityName
 	year	Year	Year
 	population__female__all__medium	Female population	Numeric		
+	population__female__0__medium	Female population at age 0	Numeric		
 	population__female__0-4__medium	Female population aged 0 to 4 years	Numeric		
+	population__female__1-4__medium	Female population aged 1 to 4 years	Numeric		
 	population__female__5-9__medium	Female population aged 5 to 9 years	Numeric		
 	population__female__10-14__medium	Female population aged 10 to 14 years	Numeric		
 	population__female__15-19__medium	Female population aged 15 to 19 years	Numeric		
@@ -904,7 +990,9 @@ columns	population__female__FULL__high
 	location	Country name	EntityName
 	year	Year	Year
 	population__female__all__high	Female population	Numeric		
+	population__female__0__high	Female population at age 0	Numeric		
 	population__female__0-4__high	Female population aged 0 to 4 years	Numeric		
+	population__female__1-4__high	Female population aged 1 to 4 years	Numeric		
 	population__female__5-9__high	Female population aged 5 to 9 years	Numeric		
 	population__female__10-14__high	Female population aged 10 to 14 years	Numeric		
 	population__female__15-19__high	Female population aged 15 to 19 years	Numeric		
@@ -923,7 +1011,9 @@ columns	population__male__FULL__records
 	location	Country name	EntityName
 	year	Year	Year
 	population__male__all__records	Male population	Numeric		
+	population__male__0__records	Male population at age 0	Numeric		
 	population__male__0-4__records	Male population aged 0 to 4 years	Numeric		
+	population__male__1-4__records	Male population aged 1 to 4 years	Numeric		
 	population__male__5-9__records	Male population aged 5 to 9 years	Numeric		
 	population__male__10-14__records	Male population aged 10 to 14 years	Numeric		
 	population__male__15-19__records	Male population aged 15 to 19 years	Numeric		
@@ -942,7 +1032,9 @@ columns	population__male__FULL__low
 	location	Country name	EntityName
 	year	Year	Year
 	population__male__all__low	Male population	Numeric		
+	population__male__0__low	Male population at age 0	Numeric		
 	population__male__0-4__low	Male population aged 0 to 4 years	Numeric		
+	population__male__1-4__low	Male population aged 1 to 4 years	Numeric		
 	population__male__5-9__low	Male population aged 5 to 9 years	Numeric		
 	population__male__10-14__low	Male population aged 10 to 14 years	Numeric		
 	population__male__15-19__low	Male population aged 15 to 19 years	Numeric		
@@ -961,7 +1053,9 @@ columns	population__male__FULL__medium
 	location	Country name	EntityName
 	year	Year	Year
 	population__male__all__medium	Male population	Numeric		
+	population__male__0__medium	Male population at age 0	Numeric		
 	population__male__0-4__medium	Male population aged 0 to 4 years	Numeric		
+	population__male__1-4__medium	Male population aged 1 to 4 years	Numeric		
 	population__male__5-9__medium	Male population aged 5 to 9 years	Numeric		
 	population__male__10-14__medium	Male population aged 10 to 14 years	Numeric		
 	population__male__15-19__medium	Male population aged 15 to 19 years	Numeric		
@@ -980,7 +1074,9 @@ columns	population__male__FULL__high
 	location	Country name	EntityName
 	year	Year	Year
 	population__male__all__high	Male population	Numeric		
+	population__male__0__high	Male population at age 0	Numeric		
 	population__male__0-4__high	Male population aged 0 to 4 years	Numeric		
+	population__male__1-4__high	Male population aged 1 to 4 years	Numeric		
 	population__male__5-9__high	Male population aged 5 to 9 years	Numeric		
 	population__male__10-14__high	Male population aged 10 to 14 years	Numeric		
 	population__male__15-19__high	Male population aged 15 to 19 years	Numeric		
@@ -1083,7 +1179,9 @@ columns	population_change__all__FULL__records
 	location	Country name	EntityName
 	year	Year	Year
 	population_change__all__all__records	Annual change in population	Numeric		
+	population_change__all__0__records	Annual change in population at age 0	Numeric		
 	population_change__all__0-4__records	Annual change in population aged 0 to 4 years	Numeric		
+	population_change__all__1-4__records	Annual change in population aged 1 to 4 years	Numeric		
 	population_change__all__5-9__records	Annual change in population aged 5 to 9 years	Numeric		
 	population_change__all__10-14__records	Annual change in population aged 10 to 14 years	Numeric		
 	population_change__all__15-19__records	Annual change in population aged 15 to 19 years	Numeric		
@@ -1102,7 +1200,9 @@ columns	population_change__all__FULL__low
 	location	Country name	EntityName
 	year	Year	Year
 	population_change__all__all__low	Annual change in population	Numeric		
+	population_change__all__0__low	Annual change in population at age 0	Numeric		
 	population_change__all__0-4__low	Annual change in population aged 0 to 4 years	Numeric		
+	population_change__all__1-4__low	Annual change in population aged 1 to 4 years	Numeric		
 	population_change__all__5-9__low	Annual change in population aged 5 to 9 years	Numeric		
 	population_change__all__10-14__low	Annual change in population aged 10 to 14 years	Numeric		
 	population_change__all__15-19__low	Annual change in population aged 15 to 19 years	Numeric		
@@ -1121,7 +1221,9 @@ columns	population_change__all__FULL__medium
 	location	Country name	EntityName
 	year	Year	Year
 	population_change__all__all__medium	Annual change in population	Numeric		
+	population_change__all__0__medium	Annual change in population at age 0	Numeric		
 	population_change__all__0-4__medium	Annual change in population aged 0 to 4 years	Numeric		
+	population_change__all__1-4__medium	Annual change in population aged 1 to 4 years	Numeric		
 	population_change__all__5-9__medium	Annual change in population aged 5 to 9 years	Numeric		
 	population_change__all__10-14__medium	Annual change in population aged 10 to 14 years	Numeric		
 	population_change__all__15-19__medium	Annual change in population aged 15 to 19 years	Numeric		
@@ -1140,7 +1242,9 @@ columns	population_change__all__FULL__high
 	location	Country name	EntityName
 	year	Year	Year
 	population_change__all__all__high	Annual change in population	Numeric		
+	population_change__all__0__high	Annual change in population at age 0	Numeric		
 	population_change__all__0-4__high	Annual change in population aged 0 to 4 years	Numeric		
+	population_change__all__1-4__high	Annual change in population aged 1 to 4 years	Numeric		
 	population_change__all__5-9__high	Annual change in population aged 5 to 9 years	Numeric		
 	population_change__all__10-14__high	Annual change in population aged 10 to 14 years	Numeric		
 	population_change__all__15-19__high	Annual change in population aged 15 to 19 years	Numeric		
@@ -1159,7 +1263,9 @@ columns	population_change__female__FULL__records
 	location	Country name	EntityName
 	year	Year	Year
 	population_change__female__all__records	Annual change in female population	Numeric		
+	population_change__female__0__records	Annual change in female population at age 0	Numeric		
 	population_change__female__0-4__records	Annual change in female population aged 0 to 4 years	Numeric		
+	population_change__female__1-4__records	Annual change in female population aged 1 to 4 years	Numeric		
 	population_change__female__5-9__records	Annual change in female population aged 5 to 9 years	Numeric		
 	population_change__female__10-14__records	Annual change in female population aged 10 to 14 years	Numeric		
 	population_change__female__15-19__records	Annual change in female population aged 15 to 19 years	Numeric		
@@ -1178,7 +1284,9 @@ columns	population_change__female__FULL__low
 	location	Country name	EntityName
 	year	Year	Year
 	population_change__female__all__low	Annual change in female population	Numeric		
+	population_change__female__0__low	Annual change in female population at age 0	Numeric		
 	population_change__female__0-4__low	Annual change in female population aged 0 to 4 years	Numeric		
+	population_change__female__1-4__low	Annual change in female population aged 1 to 4 years	Numeric		
 	population_change__female__5-9__low	Annual change in female population aged 5 to 9 years	Numeric		
 	population_change__female__10-14__low	Annual change in female population aged 10 to 14 years	Numeric		
 	population_change__female__15-19__low	Annual change in female population aged 15 to 19 years	Numeric		
@@ -1197,7 +1305,9 @@ columns	population_change__female__FULL__medium
 	location	Country name	EntityName
 	year	Year	Year
 	population_change__female__all__medium	Annual change in female population	Numeric		
+	population_change__female__0__medium	Annual change in female population at age 0	Numeric		
 	population_change__female__0-4__medium	Annual change in female population aged 0 to 4 years	Numeric		
+	population_change__female__1-4__medium	Annual change in female population aged 1 to 4 years	Numeric		
 	population_change__female__5-9__medium	Annual change in female population aged 5 to 9 years	Numeric		
 	population_change__female__10-14__medium	Annual change in female population aged 10 to 14 years	Numeric		
 	population_change__female__15-19__medium	Annual change in female population aged 15 to 19 years	Numeric		
@@ -1216,7 +1326,9 @@ columns	population_change__female__FULL__high
 	location	Country name	EntityName
 	year	Year	Year
 	population_change__female__all__high	Annual change in female population	Numeric		
+	population_change__female__0__high	Annual change in female population at age 0	Numeric		
 	population_change__female__0-4__high	Annual change in female population aged 0 to 4 years	Numeric		
+	population_change__female__1-4__high	Annual change in female population aged 1 to 4 years	Numeric		
 	population_change__female__5-9__high	Annual change in female population aged 5 to 9 years	Numeric		
 	population_change__female__10-14__high	Annual change in female population aged 10 to 14 years	Numeric		
 	population_change__female__15-19__high	Annual change in female population aged 15 to 19 years	Numeric		
@@ -1235,7 +1347,9 @@ columns	population_change__male__FULL__records
 	location	Country name	EntityName
 	year	Year	Year
 	population_change__male__all__records	Annual change in male population	Numeric		
+	population_change__male__0__records	Annual change in male population at age 0	Numeric		
 	population_change__male__0-4__records	Annual change in male population aged 0 to 4 years	Numeric		
+	population_change__male__1-4__records	Annual change in male population aged 1 to 4 years	Numeric		
 	population_change__male__5-9__records	Annual change in male population aged 5 to 9 years	Numeric		
 	population_change__male__10-14__records	Annual change in male population aged 10 to 14 years	Numeric		
 	population_change__male__15-19__records	Annual change in male population aged 15 to 19 years	Numeric		
@@ -1254,7 +1368,9 @@ columns	population_change__male__FULL__low
 	location	Country name	EntityName
 	year	Year	Year
 	population_change__male__all__low	Annual change in male population	Numeric		
+	population_change__male__0__low	Annual change in male population at age 0	Numeric		
 	population_change__male__0-4__low	Annual change in male population aged 0 to 4 years	Numeric		
+	population_change__male__1-4__low	Annual change in male population aged 1 to 4 years	Numeric		
 	population_change__male__5-9__low	Annual change in male population aged 5 to 9 years	Numeric		
 	population_change__male__10-14__low	Annual change in male population aged 10 to 14 years	Numeric		
 	population_change__male__15-19__low	Annual change in male population aged 15 to 19 years	Numeric		
@@ -1273,7 +1389,9 @@ columns	population_change__male__FULL__medium
 	location	Country name	EntityName
 	year	Year	Year
 	population_change__male__all__medium	Annual change in male population	Numeric		
+	population_change__male__0__medium	Annual change in male population at age 0	Numeric		
 	population_change__male__0-4__medium	Annual change in male population aged 0 to 4 years	Numeric		
+	population_change__male__1-4__medium	Annual change in male population aged 1 to 4 years	Numeric		
 	population_change__male__5-9__medium	Annual change in male population aged 5 to 9 years	Numeric		
 	population_change__male__10-14__medium	Annual change in male population aged 10 to 14 years	Numeric		
 	population_change__male__15-19__medium	Annual change in male population aged 15 to 19 years	Numeric		
@@ -1292,7 +1410,9 @@ columns	population_change__male__FULL__high
 	location	Country name	EntityName
 	year	Year	Year
 	population_change__male__all__high	Annual change in male population	Numeric		
+	population_change__male__0__high	Annual change in male population at age 0	Numeric		
 	population_change__male__0-4__high	Annual change in male population aged 0 to 4 years	Numeric		
+	population_change__male__1-4__high	Annual change in male population aged 1 to 4 years	Numeric		
 	population_change__male__5-9__high	Annual change in male population aged 5 to 9 years	Numeric		
 	population_change__male__10-14__high	Annual change in male population aged 10 to 14 years	Numeric		
 	population_change__male__15-19__high	Annual change in male population aged 15 to 19 years	Numeric		
@@ -1411,228 +1531,252 @@ columns	deaths__all__FULL__records
 	location	Country name	EntityName
 	year	Year	Year
 	deaths__all__all__records	Deaths	Numeric		
-	deaths__all__0-4__records	Deaths	Numeric		
-	deaths__all__5-9__records	Deaths	Numeric		
-	deaths__all__10-14__records	Deaths	Numeric		
-	deaths__all__15-19__records	Deaths	Numeric		
-	deaths__all__20-29__records	Deaths	Numeric		
-	deaths__all__30-39__records	Deaths	Numeric		
-	deaths__all__40-49__records	Deaths	Numeric		
-	deaths__all__50-59__records	Deaths	Numeric		
-	deaths__all__60-69__records	Deaths	Numeric		
-	deaths__all__70-79__records	Deaths	Numeric		
-	deaths__all__80-89__records	Deaths	Numeric		
-	deaths__all__90-99__records	Deaths	Numeric		
-	deaths__all__100-__records	Deaths	Numeric		
+	deaths__all__0__records	Deaths at age 0	Numeric		
+	deaths__all__0-4__records	Deaths aged 0 to 4 years	Numeric		
+	deaths__all__1-4__records	Deaths aged 1 to 4 years	Numeric		
+	deaths__all__5-9__records	Deaths aged 5 to 9 years	Numeric		
+	deaths__all__10-14__records	Deaths aged 10 to 14 years	Numeric		
+	deaths__all__15-19__records	Deaths aged 15 to 19 years	Numeric		
+	deaths__all__20-29__records	Deaths aged 20 to 29 years	Numeric		
+	deaths__all__30-39__records	Deaths aged 30 to 39 years	Numeric		
+	deaths__all__40-49__records	Deaths aged 40 to 49 years	Numeric		
+	deaths__all__50-59__records	Deaths aged 50 to 59 years	Numeric		
+	deaths__all__60-69__records	Deaths aged 60 to 69 years	Numeric		
+	deaths__all__70-79__records	Deaths aged 70 to 79 years	Numeric		
+	deaths__all__80-89__records	Deaths aged 80 to 89 years	Numeric		
+	deaths__all__90-99__records	Deaths aged 90 to 99 years	Numeric		
+	deaths__all__100-__records	Deaths older than 100 years	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/deaths__all__FULL__low.csv?nocache	deaths__all__FULL__low
 columns	deaths__all__FULL__low
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
 	deaths__all__all__low	Deaths	Numeric		
-	deaths__all__0-4__low	Deaths	Numeric		
-	deaths__all__5-9__low	Deaths	Numeric		
-	deaths__all__10-14__low	Deaths	Numeric		
-	deaths__all__15-19__low	Deaths	Numeric		
-	deaths__all__20-29__low	Deaths	Numeric		
-	deaths__all__30-39__low	Deaths	Numeric		
-	deaths__all__40-49__low	Deaths	Numeric		
-	deaths__all__50-59__low	Deaths	Numeric		
-	deaths__all__60-69__low	Deaths	Numeric		
-	deaths__all__70-79__low	Deaths	Numeric		
-	deaths__all__80-89__low	Deaths	Numeric		
-	deaths__all__90-99__low	Deaths	Numeric		
-	deaths__all__100-__low	Deaths	Numeric		
+	deaths__all__0__low	Deaths at age 0	Numeric		
+	deaths__all__0-4__low	Deaths aged 0 to 4 years	Numeric		
+	deaths__all__1-4__low	Deaths aged 1 to 4 years	Numeric		
+	deaths__all__5-9__low	Deaths aged 5 to 9 years	Numeric		
+	deaths__all__10-14__low	Deaths aged 10 to 14 years	Numeric		
+	deaths__all__15-19__low	Deaths aged 15 to 19 years	Numeric		
+	deaths__all__20-29__low	Deaths aged 20 to 29 years	Numeric		
+	deaths__all__30-39__low	Deaths aged 30 to 39 years	Numeric		
+	deaths__all__40-49__low	Deaths aged 40 to 49 years	Numeric		
+	deaths__all__50-59__low	Deaths aged 50 to 59 years	Numeric		
+	deaths__all__60-69__low	Deaths aged 60 to 69 years	Numeric		
+	deaths__all__70-79__low	Deaths aged 70 to 79 years	Numeric		
+	deaths__all__80-89__low	Deaths aged 80 to 89 years	Numeric		
+	deaths__all__90-99__low	Deaths aged 90 to 99 years	Numeric		
+	deaths__all__100-__low	Deaths older than 100 years	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/deaths__all__FULL__medium.csv?nocache	deaths__all__FULL__medium
 columns	deaths__all__FULL__medium
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
 	deaths__all__all__medium	Deaths	Numeric		
-	deaths__all__0-4__medium	Deaths	Numeric		
-	deaths__all__5-9__medium	Deaths	Numeric		
-	deaths__all__10-14__medium	Deaths	Numeric		
-	deaths__all__15-19__medium	Deaths	Numeric		
-	deaths__all__20-29__medium	Deaths	Numeric		
-	deaths__all__30-39__medium	Deaths	Numeric		
-	deaths__all__40-49__medium	Deaths	Numeric		
-	deaths__all__50-59__medium	Deaths	Numeric		
-	deaths__all__60-69__medium	Deaths	Numeric		
-	deaths__all__70-79__medium	Deaths	Numeric		
-	deaths__all__80-89__medium	Deaths	Numeric		
-	deaths__all__90-99__medium	Deaths	Numeric		
-	deaths__all__100-__medium	Deaths	Numeric		
+	deaths__all__0__medium	Deaths at age 0	Numeric		
+	deaths__all__0-4__medium	Deaths aged 0 to 4 years	Numeric		
+	deaths__all__1-4__medium	Deaths aged 1 to 4 years	Numeric		
+	deaths__all__5-9__medium	Deaths aged 5 to 9 years	Numeric		
+	deaths__all__10-14__medium	Deaths aged 10 to 14 years	Numeric		
+	deaths__all__15-19__medium	Deaths aged 15 to 19 years	Numeric		
+	deaths__all__20-29__medium	Deaths aged 20 to 29 years	Numeric		
+	deaths__all__30-39__medium	Deaths aged 30 to 39 years	Numeric		
+	deaths__all__40-49__medium	Deaths aged 40 to 49 years	Numeric		
+	deaths__all__50-59__medium	Deaths aged 50 to 59 years	Numeric		
+	deaths__all__60-69__medium	Deaths aged 60 to 69 years	Numeric		
+	deaths__all__70-79__medium	Deaths aged 70 to 79 years	Numeric		
+	deaths__all__80-89__medium	Deaths aged 80 to 89 years	Numeric		
+	deaths__all__90-99__medium	Deaths aged 90 to 99 years	Numeric		
+	deaths__all__100-__medium	Deaths older than 100 years	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/deaths__all__FULL__high.csv?nocache	deaths__all__FULL__high
 columns	deaths__all__FULL__high
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
 	deaths__all__all__high	Deaths	Numeric		
-	deaths__all__0-4__high	Deaths	Numeric		
-	deaths__all__5-9__high	Deaths	Numeric		
-	deaths__all__10-14__high	Deaths	Numeric		
-	deaths__all__15-19__high	Deaths	Numeric		
-	deaths__all__20-29__high	Deaths	Numeric		
-	deaths__all__30-39__high	Deaths	Numeric		
-	deaths__all__40-49__high	Deaths	Numeric		
-	deaths__all__50-59__high	Deaths	Numeric		
-	deaths__all__60-69__high	Deaths	Numeric		
-	deaths__all__70-79__high	Deaths	Numeric		
-	deaths__all__80-89__high	Deaths	Numeric		
-	deaths__all__90-99__high	Deaths	Numeric		
-	deaths__all__100-__high	Deaths	Numeric		
+	deaths__all__0__high	Deaths at age 0	Numeric		
+	deaths__all__0-4__high	Deaths aged 0 to 4 years	Numeric		
+	deaths__all__1-4__high	Deaths aged 1 to 4 years	Numeric		
+	deaths__all__5-9__high	Deaths aged 5 to 9 years	Numeric		
+	deaths__all__10-14__high	Deaths aged 10 to 14 years	Numeric		
+	deaths__all__15-19__high	Deaths aged 15 to 19 years	Numeric		
+	deaths__all__20-29__high	Deaths aged 20 to 29 years	Numeric		
+	deaths__all__30-39__high	Deaths aged 30 to 39 years	Numeric		
+	deaths__all__40-49__high	Deaths aged 40 to 49 years	Numeric		
+	deaths__all__50-59__high	Deaths aged 50 to 59 years	Numeric		
+	deaths__all__60-69__high	Deaths aged 60 to 69 years	Numeric		
+	deaths__all__70-79__high	Deaths aged 70 to 79 years	Numeric		
+	deaths__all__80-89__high	Deaths aged 80 to 89 years	Numeric		
+	deaths__all__90-99__high	Deaths aged 90 to 99 years	Numeric		
+	deaths__all__100-__high	Deaths older than 100 years	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/deaths__female__FULL__records.csv?nocache	deaths__female__FULL__records
 columns	deaths__female__FULL__records
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
 	deaths__female__all__records	Female deaths	Numeric		
-	deaths__female__0-4__records	Female deaths	Numeric		
-	deaths__female__5-9__records	Female deaths	Numeric		
-	deaths__female__10-14__records	Female deaths	Numeric		
-	deaths__female__15-19__records	Female deaths	Numeric		
-	deaths__female__20-29__records	Female deaths	Numeric		
-	deaths__female__30-39__records	Female deaths	Numeric		
-	deaths__female__40-49__records	Female deaths	Numeric		
-	deaths__female__50-59__records	Female deaths	Numeric		
-	deaths__female__60-69__records	Female deaths	Numeric		
-	deaths__female__70-79__records	Female deaths	Numeric		
-	deaths__female__80-89__records	Female deaths	Numeric		
-	deaths__female__90-99__records	Female deaths	Numeric		
-	deaths__female__100-__records	Female deaths	Numeric		
+	deaths__female__0__records	Female deaths at age 0	Numeric		
+	deaths__female__0-4__records	Female deaths aged 0 to 4 years	Numeric		
+	deaths__female__1-4__records	Female deaths aged 1 to 4 years	Numeric		
+	deaths__female__5-9__records	Female deaths aged 5 to 9 years	Numeric		
+	deaths__female__10-14__records	Female deaths aged 10 to 14 years	Numeric		
+	deaths__female__15-19__records	Female deaths aged 15 to 19 years	Numeric		
+	deaths__female__20-29__records	Female deaths aged 20 to 29 years	Numeric		
+	deaths__female__30-39__records	Female deaths aged 30 to 39 years	Numeric		
+	deaths__female__40-49__records	Female deaths aged 40 to 49 years	Numeric		
+	deaths__female__50-59__records	Female deaths aged 50 to 59 years	Numeric		
+	deaths__female__60-69__records	Female deaths aged 60 to 69 years	Numeric		
+	deaths__female__70-79__records	Female deaths aged 70 to 79 years	Numeric		
+	deaths__female__80-89__records	Female deaths aged 80 to 89 years	Numeric		
+	deaths__female__90-99__records	Female deaths aged 90 to 99 years	Numeric		
+	deaths__female__100-__records	Female deaths older than 100 years	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/deaths__female__FULL__low.csv?nocache	deaths__female__FULL__low
 columns	deaths__female__FULL__low
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
 	deaths__female__all__low	Female deaths	Numeric		
-	deaths__female__0-4__low	Female deaths	Numeric		
-	deaths__female__5-9__low	Female deaths	Numeric		
-	deaths__female__10-14__low	Female deaths	Numeric		
-	deaths__female__15-19__low	Female deaths	Numeric		
-	deaths__female__20-29__low	Female deaths	Numeric		
-	deaths__female__30-39__low	Female deaths	Numeric		
-	deaths__female__40-49__low	Female deaths	Numeric		
-	deaths__female__50-59__low	Female deaths	Numeric		
-	deaths__female__60-69__low	Female deaths	Numeric		
-	deaths__female__70-79__low	Female deaths	Numeric		
-	deaths__female__80-89__low	Female deaths	Numeric		
-	deaths__female__90-99__low	Female deaths	Numeric		
-	deaths__female__100-__low	Female deaths	Numeric		
+	deaths__female__0__low	Female deaths at age 0	Numeric		
+	deaths__female__0-4__low	Female deaths aged 0 to 4 years	Numeric		
+	deaths__female__1-4__low	Female deaths aged 1 to 4 years	Numeric		
+	deaths__female__5-9__low	Female deaths aged 5 to 9 years	Numeric		
+	deaths__female__10-14__low	Female deaths aged 10 to 14 years	Numeric		
+	deaths__female__15-19__low	Female deaths aged 15 to 19 years	Numeric		
+	deaths__female__20-29__low	Female deaths aged 20 to 29 years	Numeric		
+	deaths__female__30-39__low	Female deaths aged 30 to 39 years	Numeric		
+	deaths__female__40-49__low	Female deaths aged 40 to 49 years	Numeric		
+	deaths__female__50-59__low	Female deaths aged 50 to 59 years	Numeric		
+	deaths__female__60-69__low	Female deaths aged 60 to 69 years	Numeric		
+	deaths__female__70-79__low	Female deaths aged 70 to 79 years	Numeric		
+	deaths__female__80-89__low	Female deaths aged 80 to 89 years	Numeric		
+	deaths__female__90-99__low	Female deaths aged 90 to 99 years	Numeric		
+	deaths__female__100-__low	Female deaths older than 100 years	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/deaths__female__FULL__medium.csv?nocache	deaths__female__FULL__medium
 columns	deaths__female__FULL__medium
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
 	deaths__female__all__medium	Female deaths	Numeric		
-	deaths__female__0-4__medium	Female deaths	Numeric		
-	deaths__female__5-9__medium	Female deaths	Numeric		
-	deaths__female__10-14__medium	Female deaths	Numeric		
-	deaths__female__15-19__medium	Female deaths	Numeric		
-	deaths__female__20-29__medium	Female deaths	Numeric		
-	deaths__female__30-39__medium	Female deaths	Numeric		
-	deaths__female__40-49__medium	Female deaths	Numeric		
-	deaths__female__50-59__medium	Female deaths	Numeric		
-	deaths__female__60-69__medium	Female deaths	Numeric		
-	deaths__female__70-79__medium	Female deaths	Numeric		
-	deaths__female__80-89__medium	Female deaths	Numeric		
-	deaths__female__90-99__medium	Female deaths	Numeric		
-	deaths__female__100-__medium	Female deaths	Numeric		
+	deaths__female__0__medium	Female deaths at age 0	Numeric		
+	deaths__female__0-4__medium	Female deaths aged 0 to 4 years	Numeric		
+	deaths__female__1-4__medium	Female deaths aged 1 to 4 years	Numeric		
+	deaths__female__5-9__medium	Female deaths aged 5 to 9 years	Numeric		
+	deaths__female__10-14__medium	Female deaths aged 10 to 14 years	Numeric		
+	deaths__female__15-19__medium	Female deaths aged 15 to 19 years	Numeric		
+	deaths__female__20-29__medium	Female deaths aged 20 to 29 years	Numeric		
+	deaths__female__30-39__medium	Female deaths aged 30 to 39 years	Numeric		
+	deaths__female__40-49__medium	Female deaths aged 40 to 49 years	Numeric		
+	deaths__female__50-59__medium	Female deaths aged 50 to 59 years	Numeric		
+	deaths__female__60-69__medium	Female deaths aged 60 to 69 years	Numeric		
+	deaths__female__70-79__medium	Female deaths aged 70 to 79 years	Numeric		
+	deaths__female__80-89__medium	Female deaths aged 80 to 89 years	Numeric		
+	deaths__female__90-99__medium	Female deaths aged 90 to 99 years	Numeric		
+	deaths__female__100-__medium	Female deaths older than 100 years	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/deaths__female__FULL__high.csv?nocache	deaths__female__FULL__high
 columns	deaths__female__FULL__high
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
 	deaths__female__all__high	Female deaths	Numeric		
-	deaths__female__0-4__high	Female deaths	Numeric		
-	deaths__female__5-9__high	Female deaths	Numeric		
-	deaths__female__10-14__high	Female deaths	Numeric		
-	deaths__female__15-19__high	Female deaths	Numeric		
-	deaths__female__20-29__high	Female deaths	Numeric		
-	deaths__female__30-39__high	Female deaths	Numeric		
-	deaths__female__40-49__high	Female deaths	Numeric		
-	deaths__female__50-59__high	Female deaths	Numeric		
-	deaths__female__60-69__high	Female deaths	Numeric		
-	deaths__female__70-79__high	Female deaths	Numeric		
-	deaths__female__80-89__high	Female deaths	Numeric		
-	deaths__female__90-99__high	Female deaths	Numeric		
-	deaths__female__100-__high	Female deaths	Numeric		
+	deaths__female__0__high	Female deaths at age 0	Numeric		
+	deaths__female__0-4__high	Female deaths aged 0 to 4 years	Numeric		
+	deaths__female__1-4__high	Female deaths aged 1 to 4 years	Numeric		
+	deaths__female__5-9__high	Female deaths aged 5 to 9 years	Numeric		
+	deaths__female__10-14__high	Female deaths aged 10 to 14 years	Numeric		
+	deaths__female__15-19__high	Female deaths aged 15 to 19 years	Numeric		
+	deaths__female__20-29__high	Female deaths aged 20 to 29 years	Numeric		
+	deaths__female__30-39__high	Female deaths aged 30 to 39 years	Numeric		
+	deaths__female__40-49__high	Female deaths aged 40 to 49 years	Numeric		
+	deaths__female__50-59__high	Female deaths aged 50 to 59 years	Numeric		
+	deaths__female__60-69__high	Female deaths aged 60 to 69 years	Numeric		
+	deaths__female__70-79__high	Female deaths aged 70 to 79 years	Numeric		
+	deaths__female__80-89__high	Female deaths aged 80 to 89 years	Numeric		
+	deaths__female__90-99__high	Female deaths aged 90 to 99 years	Numeric		
+	deaths__female__100-__high	Female deaths older than 100 years	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/deaths__male__FULL__records.csv?nocache	deaths__male__FULL__records
 columns	deaths__male__FULL__records
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
 	deaths__male__all__records	Male deaths	Numeric		
-	deaths__male__0-4__records	Male deaths	Numeric		
-	deaths__male__5-9__records	Male deaths	Numeric		
-	deaths__male__10-14__records	Male deaths	Numeric		
-	deaths__male__15-19__records	Male deaths	Numeric		
-	deaths__male__20-29__records	Male deaths	Numeric		
-	deaths__male__30-39__records	Male deaths	Numeric		
-	deaths__male__40-49__records	Male deaths	Numeric		
-	deaths__male__50-59__records	Male deaths	Numeric		
-	deaths__male__60-69__records	Male deaths	Numeric		
-	deaths__male__70-79__records	Male deaths	Numeric		
-	deaths__male__80-89__records	Male deaths	Numeric		
-	deaths__male__90-99__records	Male deaths	Numeric		
-	deaths__male__100-__records	Male deaths	Numeric		
+	deaths__male__0__records	Male deaths at age 0	Numeric		
+	deaths__male__0-4__records	Male deaths aged 0 to 4 years	Numeric		
+	deaths__male__1-4__records	Male deaths aged 1 to 4 years	Numeric		
+	deaths__male__5-9__records	Male deaths aged 5 to 9 years	Numeric		
+	deaths__male__10-14__records	Male deaths aged 10 to 14 years	Numeric		
+	deaths__male__15-19__records	Male deaths aged 15 to 19 years	Numeric		
+	deaths__male__20-29__records	Male deaths aged 20 to 29 years	Numeric		
+	deaths__male__30-39__records	Male deaths aged 30 to 39 years	Numeric		
+	deaths__male__40-49__records	Male deaths aged 40 to 49 years	Numeric		
+	deaths__male__50-59__records	Male deaths aged 50 to 59 years	Numeric		
+	deaths__male__60-69__records	Male deaths aged 60 to 69 years	Numeric		
+	deaths__male__70-79__records	Male deaths aged 70 to 79 years	Numeric		
+	deaths__male__80-89__records	Male deaths aged 80 to 89 years	Numeric		
+	deaths__male__90-99__records	Male deaths aged 90 to 99 years	Numeric		
+	deaths__male__100-__records	Male deaths older than 100 years	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/deaths__male__FULL__low.csv?nocache	deaths__male__FULL__low
 columns	deaths__male__FULL__low
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
 	deaths__male__all__low	Male deaths	Numeric		
-	deaths__male__0-4__low	Male deaths	Numeric		
-	deaths__male__5-9__low	Male deaths	Numeric		
-	deaths__male__10-14__low	Male deaths	Numeric		
-	deaths__male__15-19__low	Male deaths	Numeric		
-	deaths__male__20-29__low	Male deaths	Numeric		
-	deaths__male__30-39__low	Male deaths	Numeric		
-	deaths__male__40-49__low	Male deaths	Numeric		
-	deaths__male__50-59__low	Male deaths	Numeric		
-	deaths__male__60-69__low	Male deaths	Numeric		
-	deaths__male__70-79__low	Male deaths	Numeric		
-	deaths__male__80-89__low	Male deaths	Numeric		
-	deaths__male__90-99__low	Male deaths	Numeric		
-	deaths__male__100-__low	Male deaths	Numeric		
+	deaths__male__0__low	Male deaths at age 0	Numeric		
+	deaths__male__0-4__low	Male deaths aged 0 to 4 years	Numeric		
+	deaths__male__1-4__low	Male deaths aged 1 to 4 years	Numeric		
+	deaths__male__5-9__low	Male deaths aged 5 to 9 years	Numeric		
+	deaths__male__10-14__low	Male deaths aged 10 to 14 years	Numeric		
+	deaths__male__15-19__low	Male deaths aged 15 to 19 years	Numeric		
+	deaths__male__20-29__low	Male deaths aged 20 to 29 years	Numeric		
+	deaths__male__30-39__low	Male deaths aged 30 to 39 years	Numeric		
+	deaths__male__40-49__low	Male deaths aged 40 to 49 years	Numeric		
+	deaths__male__50-59__low	Male deaths aged 50 to 59 years	Numeric		
+	deaths__male__60-69__low	Male deaths aged 60 to 69 years	Numeric		
+	deaths__male__70-79__low	Male deaths aged 70 to 79 years	Numeric		
+	deaths__male__80-89__low	Male deaths aged 80 to 89 years	Numeric		
+	deaths__male__90-99__low	Male deaths aged 90 to 99 years	Numeric		
+	deaths__male__100-__low	Male deaths older than 100 years	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/deaths__male__FULL__medium.csv?nocache	deaths__male__FULL__medium
 columns	deaths__male__FULL__medium
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
 	deaths__male__all__medium	Male deaths	Numeric		
-	deaths__male__0-4__medium	Male deaths	Numeric		
-	deaths__male__5-9__medium	Male deaths	Numeric		
-	deaths__male__10-14__medium	Male deaths	Numeric		
-	deaths__male__15-19__medium	Male deaths	Numeric		
-	deaths__male__20-29__medium	Male deaths	Numeric		
-	deaths__male__30-39__medium	Male deaths	Numeric		
-	deaths__male__40-49__medium	Male deaths	Numeric		
-	deaths__male__50-59__medium	Male deaths	Numeric		
-	deaths__male__60-69__medium	Male deaths	Numeric		
-	deaths__male__70-79__medium	Male deaths	Numeric		
-	deaths__male__80-89__medium	Male deaths	Numeric		
-	deaths__male__90-99__medium	Male deaths	Numeric		
-	deaths__male__100-__medium	Male deaths	Numeric		
+	deaths__male__0__medium	Male deaths at age 0	Numeric		
+	deaths__male__0-4__medium	Male deaths aged 0 to 4 years	Numeric		
+	deaths__male__1-4__medium	Male deaths aged 1 to 4 years	Numeric		
+	deaths__male__5-9__medium	Male deaths aged 5 to 9 years	Numeric		
+	deaths__male__10-14__medium	Male deaths aged 10 to 14 years	Numeric		
+	deaths__male__15-19__medium	Male deaths aged 15 to 19 years	Numeric		
+	deaths__male__20-29__medium	Male deaths aged 20 to 29 years	Numeric		
+	deaths__male__30-39__medium	Male deaths aged 30 to 39 years	Numeric		
+	deaths__male__40-49__medium	Male deaths aged 40 to 49 years	Numeric		
+	deaths__male__50-59__medium	Male deaths aged 50 to 59 years	Numeric		
+	deaths__male__60-69__medium	Male deaths aged 60 to 69 years	Numeric		
+	deaths__male__70-79__medium	Male deaths aged 70 to 79 years	Numeric		
+	deaths__male__80-89__medium	Male deaths aged 80 to 89 years	Numeric		
+	deaths__male__90-99__medium	Male deaths aged 90 to 99 years	Numeric		
+	deaths__male__100-__medium	Male deaths older than 100 years	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/deaths__male__FULL__high.csv?nocache	deaths__male__FULL__high
 columns	deaths__male__FULL__high
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
 	deaths__male__all__high	Male deaths	Numeric		
-	deaths__male__0-4__high	Male deaths	Numeric		
-	deaths__male__5-9__high	Male deaths	Numeric		
-	deaths__male__10-14__high	Male deaths	Numeric		
-	deaths__male__15-19__high	Male deaths	Numeric		
-	deaths__male__20-29__high	Male deaths	Numeric		
-	deaths__male__30-39__high	Male deaths	Numeric		
-	deaths__male__40-49__high	Male deaths	Numeric		
-	deaths__male__50-59__high	Male deaths	Numeric		
-	deaths__male__60-69__high	Male deaths	Numeric		
-	deaths__male__70-79__high	Male deaths	Numeric		
-	deaths__male__80-89__high	Male deaths	Numeric		
-	deaths__male__90-99__high	Male deaths	Numeric		
-	deaths__male__100-__high	Male deaths	Numeric		
+	deaths__male__0__high	Male deaths at age 0	Numeric		
+	deaths__male__0-4__high	Male deaths aged 0 to 4 years	Numeric		
+	deaths__male__1-4__high	Male deaths aged 1 to 4 years	Numeric		
+	deaths__male__5-9__high	Male deaths aged 5 to 9 years	Numeric		
+	deaths__male__10-14__high	Male deaths aged 10 to 14 years	Numeric		
+	deaths__male__15-19__high	Male deaths aged 15 to 19 years	Numeric		
+	deaths__male__20-29__high	Male deaths aged 20 to 29 years	Numeric		
+	deaths__male__30-39__high	Male deaths aged 30 to 39 years	Numeric		
+	deaths__male__40-49__high	Male deaths aged 40 to 49 years	Numeric		
+	deaths__male__50-59__high	Male deaths aged 50 to 59 years	Numeric		
+	deaths__male__60-69__high	Male deaths aged 60 to 69 years	Numeric		
+	deaths__male__70-79__high	Male deaths aged 70 to 79 years	Numeric		
+	deaths__male__80-89__high	Male deaths aged 80 to 89 years	Numeric		
+	deaths__male__90-99__high	Male deaths aged 90 to 99 years	Numeric		
+	deaths__male__100-__high	Male deaths older than 100 years	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/death_rate__all__FULL__records.csv?nocache	death_rate__all__FULL__records
 columns	death_rate__all__FULL__records
 	slug	name	type	shortUnit	unit
