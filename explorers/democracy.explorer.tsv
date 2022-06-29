@@ -57,7 +57,7 @@ graphers
 	5728	Regimes of the World	­Electoral democracy	Multi-party elections
 	5729	Regimes of the World	­Electoral democracy	Multi-party elections for chief executive
 	5730	Regimes of the World	­Electoral democracy	Multi-party elections for legislature
-	5734	Regimes of the World	­Electoral democracy	Free and fair eleections
+	5734	Regimes of the World	­Electoral democracy	Free and fair elections
 	5732	Regimes of the World	­Electoral democracy	Democratic electoral institutions
 	5517	Regimes of the World	­Electoral democracy	Age of electoral democracy
 	5676	Regimes of the World	­Electoral democracy	Number of long-standing electoral democracies
@@ -125,7 +125,7 @@ graphers
 	5792	Polity	­­­Democracy	Constraints on the executive
 	5795	Polity	­­­Democracy	Regulation of political participation
 	5794	Polity	­­­Democracy	Competitiveness of political participation
-	5793	Polity	­­­Democracy	Average democracy weighted by population
+	5793	Polity	­­­Democracy	­­­­­Main index weighted by population
 	5788	Polity	­­­Political regime	Main classification
 	5797	Polity	­­­Political regime	Number of democracies
 	5798	Polity	­­­Political regime	Share of democracies
@@ -158,7 +158,7 @@ graphers
 	5817	Bertelsmann Transformation Index	­­­­­Democratic features	Rule of law
 	5818	Bertelsmann Transformation Index	­­­­­Democratic features	Stability of democratic institutions
 	5819	Bertelsmann Transformation Index	­­­­­Democratic features	Political and social integration
-	5823	Bertelsmann Transformation Index	­­­­­Democratic features	­Average democracy weighted by population
+	5823	Bertelsmann Transformation Index	­­­­­Democratic features	­­­­­­Main index weighted by population
 	5806	Bertelsmann Transformation Index	­­­­­Political regime	Main classification
 	5807	Bertelsmann Transformation Index	­­­­­Political regime	Basic state functions
 	5808	Bertelsmann Transformation Index	­­­­­Political regime	­Free and fair elections
@@ -181,4 +181,4 @@ graphers
 	5831	Economist Intelligence Unit	­­­­Democracy	­­­Number of democracies
 	5834	Economist Intelligence Unit	­­­­Democracy	­­­Share of democracies
 	5832	Economist Intelligence Unit	­­­­Democracy	­­­People living in democracies
-	5835	Economist Intelligence Unit	­­­­Democracy	­­Average democracy weighted by population
+	5835	Economist Intelligence Unit	­­­­Democracy	­­­­­­­Main index weighted by population
