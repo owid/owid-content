@@ -6,7 +6,7 @@ selection	China	India
 hasMapTab	true
 
 graphers
-	title	Metric Dropdown	Sex Dropdown	Age group Dropdown	Projection Scenario Radio	ySlugs	tableSlug	subtitle	type	yAxisMin	hasMapTab	stackMode	facet	selectedFacetStrategy
+	title	Metric Dropdown	Sex Radio	Age group Dropdown	Projection Scenario Radio	ySlugs	tableSlug	subtitle	type	yAxisMin	hasMapTab	stackMode	facet	selectedFacetStrategy
 	Population	Population	Both sexes	Total	None	population__all__all__records	population__all__FULL__records		LineChart	0	true			
 	Population	Population	Both sexes	Total	Low	population__all__all__low	population__all__FULL__low	The projection of population to 2100 is based on the UN's low population scenario.	LineChart	0	true			
 	Population	Population	Both sexes	Total	Medium	population__all__all__medium	population__all__FULL__medium	The projection of population to 2100 is based on the UN's medium population scenario.	LineChart	0	true			

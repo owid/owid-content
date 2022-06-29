@@ -107,7 +107,7 @@ table_defs = [
 # %%
 
 col_rename = {
-    "sex__name": "Sex Dropdown",
+    "sex__name": "Sex Radio",
     "age_group__name": "Age group Dropdown",
     "projection__name": "Projection Scenario Radio",
 }
