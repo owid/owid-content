@@ -22,7 +22,7 @@ default_view = '`Food Dropdown` == "Maize (corn)" and `Metric Dropdown` == "Prod
 
 
 def food_url(food):
-    return f"https://catalog-staging.ourworldindata.org/explorer/owid/latest/food_explorer/{food}.csv"
+    return f"https://catalog-staging.ourworldindata.org/explorers/owid/latest/food_explorer/{food}.csv"
 
 
 def substitute_title(row):
