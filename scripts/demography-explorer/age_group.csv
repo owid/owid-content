@@ -21,3 +21,15 @@ mothers_30-34,30-34,Mothers aged 30 - 34 years,from mothers aged 30 to 34 years
 mothers_35-39,35-39,Mothers aged 35 - 39 years,from mothers aged 35 to 39 years
 mothers_40-44,40-44,Mothers aged 40 - 44 years,from mothers aged 40 to 44 years
 mothers_45-49,45-49,Mothers aged 45 - 49 years,from mothers aged 45 to 49 years
+at_birth,at_birth,At birth,at birth
+0,0,At age 0,at age 0
+15,15,At age 15,at age 15
+20,20,At age 20,at age 20
+30,30,At age 30,at age 30
+40,40,At age 40,at age 40
+50,50,At age 50,at age 50
+60,60,At age 60,at age 60
+70,70,At age 70,at age 70
+80,80,At age 80,at age 80
+90,90,At age 90,at age 90
+100,100,At age 100,at age 100
