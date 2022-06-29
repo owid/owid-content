@@ -25,6 +25,8 @@ graphers
 	5741	Varieties of Democracy	Liberal democracy	Judicial constraints on the executive
 	5742	Varieties of Democracy	Liberal democracy	Legislative constraints on the executive
 	5684	Varieties of Democracy	Liberal democracy	­Main index weighted by population
+	5863	Varieties of Democracy	Liberal democracy	­Main index distribution
+	5862	Varieties of Democracy	Liberal democracy	­Main index distribution weighted by population
 	5743	Varieties of Democracy	Participatory democracy	Main index
 	5537	Varieties of Democracy	Participatory democracy	Electoral democracy
 	5687	Varieties of Democracy	Participatory democracy	Participatory political institutions
@@ -33,6 +35,8 @@ graphers
 	5744	Varieties of Democracy	Participatory democracy	Civil society participation
 	5745	Varieties of Democracy	Participatory democracy	Direct popular voting
 	5687	Varieties of Democracy	Participatory democracy	­­Main index weighted by population
+	5864	Varieties of Democracy	Participatory democracy	­­Main index distribution
+	5865	Varieties of Democracy	Participatory democracy	­­Main index distribution weighted by population
 	5689	Varieties of Democracy	Deliberative democracy	Main index
 	5537	Varieties of Democracy	Deliberative democracy	Electoral democracy
 	5748	Varieties of Democracy	Deliberative democracy	Deliberative political institutions
@@ -42,6 +46,8 @@ graphers
 	5752	Varieties of Democracy	Deliberative democracy	Elite consultations
 	5753	Varieties of Democracy	Deliberative democracy	Engaged society
 	5691	Varieties of Democracy	Deliberative democracy	­­­Main index weighted by population
+	5867	Varieties of Democracy	Deliberative democracy	­­­Main index distribution
+	5866	Varieties of Democracy	Deliberative democracy	­­­Main index distribution weighted by population
 	5688	Varieties of Democracy	Egalitarian democracy	Main index
 	5537	Varieties of Democracy	Egalitarian democracy	Electoral democracy
 	5754	Varieties of Democracy	Egalitarian democracy	Egalitarian political institutions
@@ -51,6 +57,8 @@ graphers
 	5692	Varieties of Democracy	Egalitarian democracy	­­­­Main index weighted by population
 	5844	Varieties of Democracy	Varieties of democracy	Main indices
 	5686	Varieties of Democracy	Varieties of democracy	Main indices weighted by population
+	5869	Varieties of Democracy	Egalitarian democracy	­­­­Main index distribution
+	5868	Varieties of Democracy	Egalitarian democracy	­­­­Main index distribution weighted by population
 	3470	Regimes of the World	­Political regime	Main classification
 	5616	Regimes of the World	­Political regime	Number of democracies
 	5608	Regimes of the World	­Political regime	Share of democracies
@@ -128,6 +136,8 @@ graphers
 	5795	Polity	­­­Democracy	Regulation of political participation
 	5794	Polity	­­­Democracy	Competitiveness of political participation
 	5793	Polity	­­­Democracy	­­­­­Main index weighted by population
+	5877	Polity	­­­Political regime	­­­­­Main index distribution
+	5871	Polity	­­­Political regime	­­­­­Main index distribution weighted by population
 	5788	Polity	­­­Political regime	Main classification
 	5797	Polity	­­­Political regime	Number of democracies
 	5798	Polity	­­­Political regime	Share of democracies
@@ -161,6 +171,8 @@ graphers
 	5818	Bertelsmann Transformation Index	­­­­­Democratic features	Stability of democratic institutions
 	5819	Bertelsmann Transformation Index	­­­­­Democratic features	Political and social integration
 	5823	Bertelsmann Transformation Index	­­­­­Democratic features	­­­­­­Main index weighted by population
+	5872	Bertelsmann Transformation Index	­­­­­Democratic features	­­­­­­Main index distribution
+	5873	Bertelsmann Transformation Index	­­­­­Democratic features	­­­­­­Main index distribution weighted by population
 	5806	Bertelsmann Transformation Index	­­­­­Political regime	Main classification
 	5807	Bertelsmann Transformation Index	­­­­­Political regime	Basic state functions
 	5808	Bertelsmann Transformation Index	­­­­­Political regime	­Free and fair elections
@@ -184,3 +196,5 @@ graphers
 	5834	Economist Intelligence Unit	­­­­Democracy	­­­Share of democracies
 	5832	Economist Intelligence Unit	­­­­Democracy	­­­People living in democracies
 	5835	Economist Intelligence Unit	­­­­Democracy	­­­­­­­Main index weighted by population
+	5875	Economist Intelligence Unit	­­­­Democracy	­­­­­­­Main index distribution
+	5874	Economist Intelligence Unit	­­­­Democracy	­­­­­­­Main index distribution weighted by population
