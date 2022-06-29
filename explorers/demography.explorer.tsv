@@ -823,42 +823,42 @@ graphers
 	Sex ratio at age 100	Sex ratio	Both sexes	At age 100	Low	sex_ratio__none__100__low	sex_ratio__none__FULL__low	Sex ratio at birth, measured as the number of male births per 100 female births. Birth ratios are slightly male-biased, with an expected biological ratio of 105 male births per 100 female births.\nThe projection of sex ratio to 2100 is based on the UN's low population scenario.	LineChart	0	true			
 	Sex ratio at age 100	Sex ratio	Both sexes	At age 100	Medium	sex_ratio__none__100__medium	sex_ratio__none__FULL__medium	Sex ratio at birth, measured as the number of male births per 100 female births. Birth ratios are slightly male-biased, with an expected biological ratio of 105 male births per 100 female births.\nThe projection of sex ratio to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
 	Sex ratio at age 100	Sex ratio	Both sexes	At age 100	High	sex_ratio__none__100__high	sex_ratio__none__FULL__high	Sex ratio at birth, measured as the number of male births per 100 female births. Birth ratios are slightly male-biased, with an expected biological ratio of 105 male births per 100 female births.\nThe projection of sex ratio to 2100 is based on the UN's high population scenario.	LineChart	0	true			
-	Total dependency ratio	Total dependency ratio	Both sexes	None	None	dependency_ratio_total__all__none__records	dependency_ratio_total__all__FULL__records	The age dependency ratio is the sum of the young population (under age 15) and elderly population (age 65 and over) relative to the working-age population (ages 15 to 64). Data are shown as the number of dependents per 100 working-age population.\n	LineChart	0	true			
-	Total dependency ratio	Total dependency ratio	Both sexes	None	Low	dependency_ratio_total__all__none__low	dependency_ratio_total__all__FULL__low	The age dependency ratio is the sum of the young population (under age 15) and elderly population (age 65 and over) relative to the working-age population (ages 15 to 64). Data are shown as the number of dependents per 100 working-age population.\nThe projection of dependency ratio to 2100 is based on the UN's low population scenario.	LineChart	0	true			
-	Total dependency ratio	Total dependency ratio	Both sexes	None	Medium	dependency_ratio_total__all__none__medium	dependency_ratio_total__all__FULL__medium	The age dependency ratio is the sum of the young population (under age 15) and elderly population (age 65 and over) relative to the working-age population (ages 15 to 64). Data are shown as the number of dependents per 100 working-age population.\nThe projection of dependency ratio to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
-	Total dependency ratio	Total dependency ratio	Both sexes	None	High	dependency_ratio_total__all__none__high	dependency_ratio_total__all__FULL__high	The age dependency ratio is the sum of the young population (under age 15) and elderly population (age 65 and over) relative to the working-age population (ages 15 to 64). Data are shown as the number of dependents per 100 working-age population.\nThe projection of dependency ratio to 2100 is based on the UN's high population scenario.	LineChart	0	true			
-	Total dependency ratio	Total dependency ratio	Female	None	None	dependency_ratio_total__female__none__records	dependency_ratio_total__female__FULL__records	The age dependency ratio is the sum of the young population (under age 15) and elderly population (age 65 and over) relative to the working-age population (ages 15 to 64). Data are shown as the number of dependents per 100 working-age population.\n	LineChart	0	true			
-	Total dependency ratio	Total dependency ratio	Female	None	Low	dependency_ratio_total__female__none__low	dependency_ratio_total__female__FULL__low	The age dependency ratio is the sum of the young population (under age 15) and elderly population (age 65 and over) relative to the working-age population (ages 15 to 64). Data are shown as the number of dependents per 100 working-age population.\nThe projection of dependency ratio to 2100 is based on the UN's low population scenario.	LineChart	0	true			
-	Total dependency ratio	Total dependency ratio	Female	None	Medium	dependency_ratio_total__female__none__medium	dependency_ratio_total__female__FULL__medium	The age dependency ratio is the sum of the young population (under age 15) and elderly population (age 65 and over) relative to the working-age population (ages 15 to 64). Data are shown as the number of dependents per 100 working-age population.\nThe projection of dependency ratio to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
-	Total dependency ratio	Total dependency ratio	Female	None	High	dependency_ratio_total__female__none__high	dependency_ratio_total__female__FULL__high	The age dependency ratio is the sum of the young population (under age 15) and elderly population (age 65 and over) relative to the working-age population (ages 15 to 64). Data are shown as the number of dependents per 100 working-age population.\nThe projection of dependency ratio to 2100 is based on the UN's high population scenario.	LineChart	0	true			
-	Total dependency ratio	Total dependency ratio	Male	None	None	dependency_ratio_total__male__none__records	dependency_ratio_total__male__FULL__records	The age dependency ratio is the sum of the young population (under age 15) and elderly population (age 65 and over) relative to the working-age population (ages 15 to 64). Data are shown as the number of dependents per 100 working-age population.\n	LineChart	0	true			
-	Total dependency ratio	Total dependency ratio	Male	None	Low	dependency_ratio_total__male__none__low	dependency_ratio_total__male__FULL__low	The age dependency ratio is the sum of the young population (under age 15) and elderly population (age 65 and over) relative to the working-age population (ages 15 to 64). Data are shown as the number of dependents per 100 working-age population.\nThe projection of dependency ratio to 2100 is based on the UN's low population scenario.	LineChart	0	true			
-	Total dependency ratio	Total dependency ratio	Male	None	Medium	dependency_ratio_total__male__none__medium	dependency_ratio_total__male__FULL__medium	The age dependency ratio is the sum of the young population (under age 15) and elderly population (age 65 and over) relative to the working-age population (ages 15 to 64). Data are shown as the number of dependents per 100 working-age population.\nThe projection of dependency ratio to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
-	Total dependency ratio	Total dependency ratio	Male	None	High	dependency_ratio_total__male__none__high	dependency_ratio_total__male__FULL__high	The age dependency ratio is the sum of the young population (under age 15) and elderly population (age 65 and over) relative to the working-age population (ages 15 to 64). Data are shown as the number of dependents per 100 working-age population.\nThe projection of dependency ratio to 2100 is based on the UN's high population scenario.	LineChart	0	true			
-	Youth dependency ratio	Youth dependency ratio	Both sexes	None	None	dependency_ratio_child__all__none__records	dependency_ratio_child__all__FULL__records	The ratio of younger dependents - people younger than 15 - to the working-age population - those aged 15 to 64. Data are shown as the number of dependents per 100 working-age people.\n	LineChart	0	true			
-	Youth dependency ratio	Youth dependency ratio	Both sexes	None	Low	dependency_ratio_child__all__none__low	dependency_ratio_child__all__FULL__low	The ratio of younger dependents - people younger than 15 - to the working-age population - those aged 15 to 64. Data are shown as the number of dependents per 100 working-age people.\nThe projection of dependency ratio to 2100 is based on the UN's low population scenario.	LineChart	0	true			
-	Youth dependency ratio	Youth dependency ratio	Both sexes	None	Medium	dependency_ratio_child__all__none__medium	dependency_ratio_child__all__FULL__medium	The ratio of younger dependents - people younger than 15 - to the working-age population - those aged 15 to 64. Data are shown as the number of dependents per 100 working-age people.\nThe projection of dependency ratio to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
-	Youth dependency ratio	Youth dependency ratio	Both sexes	None	High	dependency_ratio_child__all__none__high	dependency_ratio_child__all__FULL__high	The ratio of younger dependents - people younger than 15 - to the working-age population - those aged 15 to 64. Data are shown as the number of dependents per 100 working-age people.\nThe projection of dependency ratio to 2100 is based on the UN's high population scenario.	LineChart	0	true			
-	Youth dependency ratio	Youth dependency ratio	Female	None	None	dependency_ratio_child__female__none__records	dependency_ratio_child__female__FULL__records	The ratio of younger dependents - people younger than 15 - to the working-age population - those aged 15 to 64. Data are shown as the number of dependents per 100 working-age people.\n	LineChart	0	true			
-	Youth dependency ratio	Youth dependency ratio	Female	None	Low	dependency_ratio_child__female__none__low	dependency_ratio_child__female__FULL__low	The ratio of younger dependents - people younger than 15 - to the working-age population - those aged 15 to 64. Data are shown as the number of dependents per 100 working-age people.\nThe projection of dependency ratio to 2100 is based on the UN's low population scenario.	LineChart	0	true			
-	Youth dependency ratio	Youth dependency ratio	Female	None	Medium	dependency_ratio_child__female__none__medium	dependency_ratio_child__female__FULL__medium	The ratio of younger dependents - people younger than 15 - to the working-age population - those aged 15 to 64. Data are shown as the number of dependents per 100 working-age people.\nThe projection of dependency ratio to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
-	Youth dependency ratio	Youth dependency ratio	Female	None	High	dependency_ratio_child__female__none__high	dependency_ratio_child__female__FULL__high	The ratio of younger dependents - people younger than 15 - to the working-age population - those aged 15 to 64. Data are shown as the number of dependents per 100 working-age people.\nThe projection of dependency ratio to 2100 is based on the UN's high population scenario.	LineChart	0	true			
-	Youth dependency ratio	Youth dependency ratio	Male	None	None	dependency_ratio_child__male__none__records	dependency_ratio_child__male__FULL__records	The ratio of younger dependents - people younger than 15 - to the working-age population - those aged 15 to 64. Data are shown as the number of dependents per 100 working-age people.\n	LineChart	0	true			
-	Youth dependency ratio	Youth dependency ratio	Male	None	Low	dependency_ratio_child__male__none__low	dependency_ratio_child__male__FULL__low	The ratio of younger dependents - people younger than 15 - to the working-age population - those aged 15 to 64. Data are shown as the number of dependents per 100 working-age people.\nThe projection of dependency ratio to 2100 is based on the UN's low population scenario.	LineChart	0	true			
-	Youth dependency ratio	Youth dependency ratio	Male	None	Medium	dependency_ratio_child__male__none__medium	dependency_ratio_child__male__FULL__medium	The ratio of younger dependents - people younger than 15 - to the working-age population - those aged 15 to 64. Data are shown as the number of dependents per 100 working-age people.\nThe projection of dependency ratio to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
-	Youth dependency ratio	Youth dependency ratio	Male	None	High	dependency_ratio_child__male__none__high	dependency_ratio_child__male__FULL__high	The ratio of younger dependents - people younger than 15 - to the working-age population - those aged 15 to 64. Data are shown as the number of dependents per 100 working-age people.\nThe projection of dependency ratio to 2100 is based on the UN's high population scenario.	LineChart	0	true			
-	Old-age dependency ratio	Old-age dependency ratio	Both sexes	None	None	dependency_ratio_old__all__none__records	dependency_ratio_old__all__FULL__records	The ratio of the number of people older than 64 relative to the number of people in the working age population (15-64 years). Data are shown as the number of dependents per 100 working-age population.\n	LineChart	0	true			
-	Old-age dependency ratio	Old-age dependency ratio	Both sexes	None	Low	dependency_ratio_old__all__none__low	dependency_ratio_old__all__FULL__low	The ratio of the number of people older than 64 relative to the number of people in the working age population (15-64 years). Data are shown as the number of dependents per 100 working-age population.\nThe projection of dependency ratio to 2100 is based on the UN's low population scenario.	LineChart	0	true			
-	Old-age dependency ratio	Old-age dependency ratio	Both sexes	None	Medium	dependency_ratio_old__all__none__medium	dependency_ratio_old__all__FULL__medium	The ratio of the number of people older than 64 relative to the number of people in the working age population (15-64 years). Data are shown as the number of dependents per 100 working-age population.\nThe projection of dependency ratio to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
-	Old-age dependency ratio	Old-age dependency ratio	Both sexes	None	High	dependency_ratio_old__all__none__high	dependency_ratio_old__all__FULL__high	The ratio of the number of people older than 64 relative to the number of people in the working age population (15-64 years). Data are shown as the number of dependents per 100 working-age population.\nThe projection of dependency ratio to 2100 is based on the UN's high population scenario.	LineChart	0	true			
-	Old-age dependency ratio	Old-age dependency ratio	Female	None	None	dependency_ratio_old__female__none__records	dependency_ratio_old__female__FULL__records	The ratio of the number of people older than 64 relative to the number of people in the working age population (15-64 years). Data are shown as the number of dependents per 100 working-age population.\n	LineChart	0	true			
-	Old-age dependency ratio	Old-age dependency ratio	Female	None	Low	dependency_ratio_old__female__none__low	dependency_ratio_old__female__FULL__low	The ratio of the number of people older than 64 relative to the number of people in the working age population (15-64 years). Data are shown as the number of dependents per 100 working-age population.\nThe projection of dependency ratio to 2100 is based on the UN's low population scenario.	LineChart	0	true			
-	Old-age dependency ratio	Old-age dependency ratio	Female	None	Medium	dependency_ratio_old__female__none__medium	dependency_ratio_old__female__FULL__medium	The ratio of the number of people older than 64 relative to the number of people in the working age population (15-64 years). Data are shown as the number of dependents per 100 working-age population.\nThe projection of dependency ratio to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
-	Old-age dependency ratio	Old-age dependency ratio	Female	None	High	dependency_ratio_old__female__none__high	dependency_ratio_old__female__FULL__high	The ratio of the number of people older than 64 relative to the number of people in the working age population (15-64 years). Data are shown as the number of dependents per 100 working-age population.\nThe projection of dependency ratio to 2100 is based on the UN's high population scenario.	LineChart	0	true			
-	Old-age dependency ratio	Old-age dependency ratio	Male	None	None	dependency_ratio_old__male__none__records	dependency_ratio_old__male__FULL__records	The ratio of the number of people older than 64 relative to the number of people in the working age population (15-64 years). Data are shown as the number of dependents per 100 working-age population.\n	LineChart	0	true			
-	Old-age dependency ratio	Old-age dependency ratio	Male	None	Low	dependency_ratio_old__male__none__low	dependency_ratio_old__male__FULL__low	The ratio of the number of people older than 64 relative to the number of people in the working age population (15-64 years). Data are shown as the number of dependents per 100 working-age population.\nThe projection of dependency ratio to 2100 is based on the UN's low population scenario.	LineChart	0	true			
-	Old-age dependency ratio	Old-age dependency ratio	Male	None	Medium	dependency_ratio_old__male__none__medium	dependency_ratio_old__male__FULL__medium	The ratio of the number of people older than 64 relative to the number of people in the working age population (15-64 years). Data are shown as the number of dependents per 100 working-age population.\nThe projection of dependency ratio to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
-	Old-age dependency ratio	Old-age dependency ratio	Male	None	High	dependency_ratio_old__male__none__high	dependency_ratio_old__male__FULL__high	The ratio of the number of people older than 64 relative to the number of people in the working age population (15-64 years). Data are shown as the number of dependents per 100 working-age population.\nThe projection of dependency ratio to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Total dependency ratio	Dependency ratio	Both sexes	Total dependency ratio	None	dependency_ratio_total__all__none__records	dependency_ratio_total__all__FULL__records	The age dependency ratio is the sum of the young population (under age 15) and elderly population (age 65 and over) relative to the working-age population (ages 15 to 64). Data are shown as the number of dependents per 100 working-age population.\n	LineChart	0	true			
+	Total dependency ratio	Dependency ratio	Both sexes	Total dependency ratio	Low	dependency_ratio_total__all__none__low	dependency_ratio_total__all__FULL__low	The age dependency ratio is the sum of the young population (under age 15) and elderly population (age 65 and over) relative to the working-age population (ages 15 to 64). Data are shown as the number of dependents per 100 working-age population.\nThe projection of dependency ratio to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Total dependency ratio	Dependency ratio	Both sexes	Total dependency ratio	Medium	dependency_ratio_total__all__none__medium	dependency_ratio_total__all__FULL__medium	The age dependency ratio is the sum of the young population (under age 15) and elderly population (age 65 and over) relative to the working-age population (ages 15 to 64). Data are shown as the number of dependents per 100 working-age population.\nThe projection of dependency ratio to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Total dependency ratio	Dependency ratio	Both sexes	Total dependency ratio	High	dependency_ratio_total__all__none__high	dependency_ratio_total__all__FULL__high	The age dependency ratio is the sum of the young population (under age 15) and elderly population (age 65 and over) relative to the working-age population (ages 15 to 64). Data are shown as the number of dependents per 100 working-age population.\nThe projection of dependency ratio to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Total dependency ratio	Dependency ratio	Female	Total dependency ratio	None	dependency_ratio_total__female__none__records	dependency_ratio_total__female__FULL__records	The age dependency ratio is the sum of the young population (under age 15) and elderly population (age 65 and over) relative to the working-age population (ages 15 to 64). Data are shown as the number of dependents per 100 working-age population.\n	LineChart	0	true			
+	Total dependency ratio	Dependency ratio	Female	Total dependency ratio	Low	dependency_ratio_total__female__none__low	dependency_ratio_total__female__FULL__low	The age dependency ratio is the sum of the young population (under age 15) and elderly population (age 65 and over) relative to the working-age population (ages 15 to 64). Data are shown as the number of dependents per 100 working-age population.\nThe projection of dependency ratio to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Total dependency ratio	Dependency ratio	Female	Total dependency ratio	Medium	dependency_ratio_total__female__none__medium	dependency_ratio_total__female__FULL__medium	The age dependency ratio is the sum of the young population (under age 15) and elderly population (age 65 and over) relative to the working-age population (ages 15 to 64). Data are shown as the number of dependents per 100 working-age population.\nThe projection of dependency ratio to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Total dependency ratio	Dependency ratio	Female	Total dependency ratio	High	dependency_ratio_total__female__none__high	dependency_ratio_total__female__FULL__high	The age dependency ratio is the sum of the young population (under age 15) and elderly population (age 65 and over) relative to the working-age population (ages 15 to 64). Data are shown as the number of dependents per 100 working-age population.\nThe projection of dependency ratio to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Total dependency ratio	Dependency ratio	Male	Total dependency ratio	None	dependency_ratio_total__male__none__records	dependency_ratio_total__male__FULL__records	The age dependency ratio is the sum of the young population (under age 15) and elderly population (age 65 and over) relative to the working-age population (ages 15 to 64). Data are shown as the number of dependents per 100 working-age population.\n	LineChart	0	true			
+	Total dependency ratio	Dependency ratio	Male	Total dependency ratio	Low	dependency_ratio_total__male__none__low	dependency_ratio_total__male__FULL__low	The age dependency ratio is the sum of the young population (under age 15) and elderly population (age 65 and over) relative to the working-age population (ages 15 to 64). Data are shown as the number of dependents per 100 working-age population.\nThe projection of dependency ratio to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Total dependency ratio	Dependency ratio	Male	Total dependency ratio	Medium	dependency_ratio_total__male__none__medium	dependency_ratio_total__male__FULL__medium	The age dependency ratio is the sum of the young population (under age 15) and elderly population (age 65 and over) relative to the working-age population (ages 15 to 64). Data are shown as the number of dependents per 100 working-age population.\nThe projection of dependency ratio to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Total dependency ratio	Dependency ratio	Male	Total dependency ratio	High	dependency_ratio_total__male__none__high	dependency_ratio_total__male__FULL__high	The age dependency ratio is the sum of the young population (under age 15) and elderly population (age 65 and over) relative to the working-age population (ages 15 to 64). Data are shown as the number of dependents per 100 working-age population.\nThe projection of dependency ratio to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Youth dependency ratio	Dependency ratio	Both sexes	Youth dependency ratio	None	dependency_ratio_child__all__none__records	dependency_ratio_child__all__FULL__records	The ratio of younger dependents - people younger than 15 - to the working-age population - those aged 15 to 64. Data are shown as the number of dependents per 100 working-age people.\n	LineChart	0	true			
+	Youth dependency ratio	Dependency ratio	Both sexes	Youth dependency ratio	Low	dependency_ratio_child__all__none__low	dependency_ratio_child__all__FULL__low	The ratio of younger dependents - people younger than 15 - to the working-age population - those aged 15 to 64. Data are shown as the number of dependents per 100 working-age people.\nThe projection of dependency ratio to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Youth dependency ratio	Dependency ratio	Both sexes	Youth dependency ratio	Medium	dependency_ratio_child__all__none__medium	dependency_ratio_child__all__FULL__medium	The ratio of younger dependents - people younger than 15 - to the working-age population - those aged 15 to 64. Data are shown as the number of dependents per 100 working-age people.\nThe projection of dependency ratio to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Youth dependency ratio	Dependency ratio	Both sexes	Youth dependency ratio	High	dependency_ratio_child__all__none__high	dependency_ratio_child__all__FULL__high	The ratio of younger dependents - people younger than 15 - to the working-age population - those aged 15 to 64. Data are shown as the number of dependents per 100 working-age people.\nThe projection of dependency ratio to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Youth dependency ratio	Dependency ratio	Female	Youth dependency ratio	None	dependency_ratio_child__female__none__records	dependency_ratio_child__female__FULL__records	The ratio of younger dependents - people younger than 15 - to the working-age population - those aged 15 to 64. Data are shown as the number of dependents per 100 working-age people.\n	LineChart	0	true			
+	Youth dependency ratio	Dependency ratio	Female	Youth dependency ratio	Low	dependency_ratio_child__female__none__low	dependency_ratio_child__female__FULL__low	The ratio of younger dependents - people younger than 15 - to the working-age population - those aged 15 to 64. Data are shown as the number of dependents per 100 working-age people.\nThe projection of dependency ratio to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Youth dependency ratio	Dependency ratio	Female	Youth dependency ratio	Medium	dependency_ratio_child__female__none__medium	dependency_ratio_child__female__FULL__medium	The ratio of younger dependents - people younger than 15 - to the working-age population - those aged 15 to 64. Data are shown as the number of dependents per 100 working-age people.\nThe projection of dependency ratio to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Youth dependency ratio	Dependency ratio	Female	Youth dependency ratio	High	dependency_ratio_child__female__none__high	dependency_ratio_child__female__FULL__high	The ratio of younger dependents - people younger than 15 - to the working-age population - those aged 15 to 64. Data are shown as the number of dependents per 100 working-age people.\nThe projection of dependency ratio to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Youth dependency ratio	Dependency ratio	Male	Youth dependency ratio	None	dependency_ratio_child__male__none__records	dependency_ratio_child__male__FULL__records	The ratio of younger dependents - people younger than 15 - to the working-age population - those aged 15 to 64. Data are shown as the number of dependents per 100 working-age people.\n	LineChart	0	true			
+	Youth dependency ratio	Dependency ratio	Male	Youth dependency ratio	Low	dependency_ratio_child__male__none__low	dependency_ratio_child__male__FULL__low	The ratio of younger dependents - people younger than 15 - to the working-age population - those aged 15 to 64. Data are shown as the number of dependents per 100 working-age people.\nThe projection of dependency ratio to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Youth dependency ratio	Dependency ratio	Male	Youth dependency ratio	Medium	dependency_ratio_child__male__none__medium	dependency_ratio_child__male__FULL__medium	The ratio of younger dependents - people younger than 15 - to the working-age population - those aged 15 to 64. Data are shown as the number of dependents per 100 working-age people.\nThe projection of dependency ratio to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Youth dependency ratio	Dependency ratio	Male	Youth dependency ratio	High	dependency_ratio_child__male__none__high	dependency_ratio_child__male__FULL__high	The ratio of younger dependents - people younger than 15 - to the working-age population - those aged 15 to 64. Data are shown as the number of dependents per 100 working-age people.\nThe projection of dependency ratio to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Old-age dependency ratio	Dependency ratio	Both sexes	Old-age dependency ratio	None	dependency_ratio_old__all__none__records	dependency_ratio_old__all__FULL__records	The ratio of the number of people older than 64 relative to the number of people in the working age population (15-64 years). Data are shown as the number of dependents per 100 working-age population.\n	LineChart	0	true			
+	Old-age dependency ratio	Dependency ratio	Both sexes	Old-age dependency ratio	Low	dependency_ratio_old__all__none__low	dependency_ratio_old__all__FULL__low	The ratio of the number of people older than 64 relative to the number of people in the working age population (15-64 years). Data are shown as the number of dependents per 100 working-age population.\nThe projection of dependency ratio to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Old-age dependency ratio	Dependency ratio	Both sexes	Old-age dependency ratio	Medium	dependency_ratio_old__all__none__medium	dependency_ratio_old__all__FULL__medium	The ratio of the number of people older than 64 relative to the number of people in the working age population (15-64 years). Data are shown as the number of dependents per 100 working-age population.\nThe projection of dependency ratio to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Old-age dependency ratio	Dependency ratio	Both sexes	Old-age dependency ratio	High	dependency_ratio_old__all__none__high	dependency_ratio_old__all__FULL__high	The ratio of the number of people older than 64 relative to the number of people in the working age population (15-64 years). Data are shown as the number of dependents per 100 working-age population.\nThe projection of dependency ratio to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Old-age dependency ratio	Dependency ratio	Female	Old-age dependency ratio	None	dependency_ratio_old__female__none__records	dependency_ratio_old__female__FULL__records	The ratio of the number of people older than 64 relative to the number of people in the working age population (15-64 years). Data are shown as the number of dependents per 100 working-age population.\n	LineChart	0	true			
+	Old-age dependency ratio	Dependency ratio	Female	Old-age dependency ratio	Low	dependency_ratio_old__female__none__low	dependency_ratio_old__female__FULL__low	The ratio of the number of people older than 64 relative to the number of people in the working age population (15-64 years). Data are shown as the number of dependents per 100 working-age population.\nThe projection of dependency ratio to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Old-age dependency ratio	Dependency ratio	Female	Old-age dependency ratio	Medium	dependency_ratio_old__female__none__medium	dependency_ratio_old__female__FULL__medium	The ratio of the number of people older than 64 relative to the number of people in the working age population (15-64 years). Data are shown as the number of dependents per 100 working-age population.\nThe projection of dependency ratio to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Old-age dependency ratio	Dependency ratio	Female	Old-age dependency ratio	High	dependency_ratio_old__female__none__high	dependency_ratio_old__female__FULL__high	The ratio of the number of people older than 64 relative to the number of people in the working age population (15-64 years). Data are shown as the number of dependents per 100 working-age population.\nThe projection of dependency ratio to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Old-age dependency ratio	Dependency ratio	Male	Old-age dependency ratio	None	dependency_ratio_old__male__none__records	dependency_ratio_old__male__FULL__records	The ratio of the number of people older than 64 relative to the number of people in the working age population (15-64 years). Data are shown as the number of dependents per 100 working-age population.\n	LineChart	0	true			
+	Old-age dependency ratio	Dependency ratio	Male	Old-age dependency ratio	Low	dependency_ratio_old__male__none__low	dependency_ratio_old__male__FULL__low	The ratio of the number of people older than 64 relative to the number of people in the working age population (15-64 years). Data are shown as the number of dependents per 100 working-age population.\nThe projection of dependency ratio to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Old-age dependency ratio	Dependency ratio	Male	Old-age dependency ratio	Medium	dependency_ratio_old__male__none__medium	dependency_ratio_old__male__FULL__medium	The ratio of the number of people older than 64 relative to the number of people in the working age population (15-64 years). Data are shown as the number of dependents per 100 working-age population.\nThe projection of dependency ratio to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Old-age dependency ratio	Dependency ratio	Male	Old-age dependency ratio	High	dependency_ratio_old__male__none__high	dependency_ratio_old__male__FULL__high	The ratio of the number of people older than 64 relative to the number of people in the working age population (15-64 years). Data are shown as the number of dependents per 100 working-age population.\nThe projection of dependency ratio to 2100 is based on the UN's high population scenario.	LineChart	0	true			
 
 
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/population__all__FULL__records.csv?nocache	population__all__FULL__records
@@ -2202,214 +2202,214 @@ columns	dependency_ratio_total__all__FULL__records
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_total__all__none__records	Total dependency ratio	Numeric		
+	dependency_ratio_total__all__none__records	Total dependency ratio	Numeric	%	%
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_total__all__FULL__low.csv?nocache	dependency_ratio_total__all__FULL__low
 columns	dependency_ratio_total__all__FULL__low
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_total__all__none__low	Total dependency ratio	Numeric		
+	dependency_ratio_total__all__none__low	Total dependency ratio	Numeric	%	%
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_total__all__FULL__medium.csv?nocache	dependency_ratio_total__all__FULL__medium
 columns	dependency_ratio_total__all__FULL__medium
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_total__all__none__medium	Total dependency ratio	Numeric		
+	dependency_ratio_total__all__none__medium	Total dependency ratio	Numeric	%	%
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_total__all__FULL__high.csv?nocache	dependency_ratio_total__all__FULL__high
 columns	dependency_ratio_total__all__FULL__high
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_total__all__none__high	Total dependency ratio	Numeric		
+	dependency_ratio_total__all__none__high	Total dependency ratio	Numeric	%	%
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_total__female__FULL__records.csv?nocache	dependency_ratio_total__female__FULL__records
 columns	dependency_ratio_total__female__FULL__records
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_total__female__none__records	Total dependency ratio	Numeric		
+	dependency_ratio_total__female__none__records	Total dependency ratio	Numeric	%	%
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_total__female__FULL__low.csv?nocache	dependency_ratio_total__female__FULL__low
 columns	dependency_ratio_total__female__FULL__low
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_total__female__none__low	Total dependency ratio	Numeric		
+	dependency_ratio_total__female__none__low	Total dependency ratio	Numeric	%	%
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_total__female__FULL__medium.csv?nocache	dependency_ratio_total__female__FULL__medium
 columns	dependency_ratio_total__female__FULL__medium
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_total__female__none__medium	Total dependency ratio	Numeric		
+	dependency_ratio_total__female__none__medium	Total dependency ratio	Numeric	%	%
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_total__female__FULL__high.csv?nocache	dependency_ratio_total__female__FULL__high
 columns	dependency_ratio_total__female__FULL__high
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_total__female__none__high	Total dependency ratio	Numeric		
+	dependency_ratio_total__female__none__high	Total dependency ratio	Numeric	%	%
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_total__male__FULL__records.csv?nocache	dependency_ratio_total__male__FULL__records
 columns	dependency_ratio_total__male__FULL__records
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_total__male__none__records	Total dependency ratio	Numeric		
+	dependency_ratio_total__male__none__records	Total dependency ratio	Numeric	%	%
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_total__male__FULL__low.csv?nocache	dependency_ratio_total__male__FULL__low
 columns	dependency_ratio_total__male__FULL__low
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_total__male__none__low	Total dependency ratio	Numeric		
+	dependency_ratio_total__male__none__low	Total dependency ratio	Numeric	%	%
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_total__male__FULL__medium.csv?nocache	dependency_ratio_total__male__FULL__medium
 columns	dependency_ratio_total__male__FULL__medium
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_total__male__none__medium	Total dependency ratio	Numeric		
+	dependency_ratio_total__male__none__medium	Total dependency ratio	Numeric	%	%
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_total__male__FULL__high.csv?nocache	dependency_ratio_total__male__FULL__high
 columns	dependency_ratio_total__male__FULL__high
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_total__male__none__high	Total dependency ratio	Numeric		
+	dependency_ratio_total__male__none__high	Total dependency ratio	Numeric	%	%
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_child__all__FULL__records.csv?nocache	dependency_ratio_child__all__FULL__records
 columns	dependency_ratio_child__all__FULL__records
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_child__all__none__records	Youth dependency ratio	Numeric		
+	dependency_ratio_child__all__none__records	Youth dependency ratio	Numeric	%	%
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_child__all__FULL__low.csv?nocache	dependency_ratio_child__all__FULL__low
 columns	dependency_ratio_child__all__FULL__low
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_child__all__none__low	Youth dependency ratio	Numeric		
+	dependency_ratio_child__all__none__low	Youth dependency ratio	Numeric	%	%
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_child__all__FULL__medium.csv?nocache	dependency_ratio_child__all__FULL__medium
 columns	dependency_ratio_child__all__FULL__medium
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_child__all__none__medium	Youth dependency ratio	Numeric		
+	dependency_ratio_child__all__none__medium	Youth dependency ratio	Numeric	%	%
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_child__all__FULL__high.csv?nocache	dependency_ratio_child__all__FULL__high
 columns	dependency_ratio_child__all__FULL__high
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_child__all__none__high	Youth dependency ratio	Numeric		
+	dependency_ratio_child__all__none__high	Youth dependency ratio	Numeric	%	%
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_child__female__FULL__records.csv?nocache	dependency_ratio_child__female__FULL__records
 columns	dependency_ratio_child__female__FULL__records
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_child__female__none__records	Youth dependency ratio	Numeric		
+	dependency_ratio_child__female__none__records	Youth dependency ratio	Numeric	%	%
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_child__female__FULL__low.csv?nocache	dependency_ratio_child__female__FULL__low
 columns	dependency_ratio_child__female__FULL__low
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_child__female__none__low	Youth dependency ratio	Numeric		
+	dependency_ratio_child__female__none__low	Youth dependency ratio	Numeric	%	%
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_child__female__FULL__medium.csv?nocache	dependency_ratio_child__female__FULL__medium
 columns	dependency_ratio_child__female__FULL__medium
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_child__female__none__medium	Youth dependency ratio	Numeric		
+	dependency_ratio_child__female__none__medium	Youth dependency ratio	Numeric	%	%
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_child__female__FULL__high.csv?nocache	dependency_ratio_child__female__FULL__high
 columns	dependency_ratio_child__female__FULL__high
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_child__female__none__high	Youth dependency ratio	Numeric		
+	dependency_ratio_child__female__none__high	Youth dependency ratio	Numeric	%	%
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_child__male__FULL__records.csv?nocache	dependency_ratio_child__male__FULL__records
 columns	dependency_ratio_child__male__FULL__records
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_child__male__none__records	Youth dependency ratio	Numeric		
+	dependency_ratio_child__male__none__records	Youth dependency ratio	Numeric	%	%
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_child__male__FULL__low.csv?nocache	dependency_ratio_child__male__FULL__low
 columns	dependency_ratio_child__male__FULL__low
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_child__male__none__low	Youth dependency ratio	Numeric		
+	dependency_ratio_child__male__none__low	Youth dependency ratio	Numeric	%	%
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_child__male__FULL__medium.csv?nocache	dependency_ratio_child__male__FULL__medium
 columns	dependency_ratio_child__male__FULL__medium
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_child__male__none__medium	Youth dependency ratio	Numeric		
+	dependency_ratio_child__male__none__medium	Youth dependency ratio	Numeric	%	%
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_child__male__FULL__high.csv?nocache	dependency_ratio_child__male__FULL__high
 columns	dependency_ratio_child__male__FULL__high
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_child__male__none__high	Youth dependency ratio	Numeric		
+	dependency_ratio_child__male__none__high	Youth dependency ratio	Numeric	%	%
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_old__all__FULL__records.csv?nocache	dependency_ratio_old__all__FULL__records
 columns	dependency_ratio_old__all__FULL__records
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_old__all__none__records	Old-age dependency ratio	Numeric		
+	dependency_ratio_old__all__none__records	Old-age dependency ratio	Numeric	%	%
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_old__all__FULL__low.csv?nocache	dependency_ratio_old__all__FULL__low
 columns	dependency_ratio_old__all__FULL__low
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_old__all__none__low	Old-age dependency ratio	Numeric		
+	dependency_ratio_old__all__none__low	Old-age dependency ratio	Numeric	%	%
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_old__all__FULL__medium.csv?nocache	dependency_ratio_old__all__FULL__medium
 columns	dependency_ratio_old__all__FULL__medium
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_old__all__none__medium	Old-age dependency ratio	Numeric		
+	dependency_ratio_old__all__none__medium	Old-age dependency ratio	Numeric	%	%
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_old__all__FULL__high.csv?nocache	dependency_ratio_old__all__FULL__high
 columns	dependency_ratio_old__all__FULL__high
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_old__all__none__high	Old-age dependency ratio	Numeric		
+	dependency_ratio_old__all__none__high	Old-age dependency ratio	Numeric	%	%
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_old__female__FULL__records.csv?nocache	dependency_ratio_old__female__FULL__records
 columns	dependency_ratio_old__female__FULL__records
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_old__female__none__records	Old-age dependency ratio	Numeric		
+	dependency_ratio_old__female__none__records	Old-age dependency ratio	Numeric	%	%
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_old__female__FULL__low.csv?nocache	dependency_ratio_old__female__FULL__low
 columns	dependency_ratio_old__female__FULL__low
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_old__female__none__low	Old-age dependency ratio	Numeric		
+	dependency_ratio_old__female__none__low	Old-age dependency ratio	Numeric	%	%
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_old__female__FULL__medium.csv?nocache	dependency_ratio_old__female__FULL__medium
 columns	dependency_ratio_old__female__FULL__medium
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_old__female__none__medium	Old-age dependency ratio	Numeric		
+	dependency_ratio_old__female__none__medium	Old-age dependency ratio	Numeric	%	%
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_old__female__FULL__high.csv?nocache	dependency_ratio_old__female__FULL__high
 columns	dependency_ratio_old__female__FULL__high
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_old__female__none__high	Old-age dependency ratio	Numeric		
+	dependency_ratio_old__female__none__high	Old-age dependency ratio	Numeric	%	%
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_old__male__FULL__records.csv?nocache	dependency_ratio_old__male__FULL__records
 columns	dependency_ratio_old__male__FULL__records
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_old__male__none__records	Old-age dependency ratio	Numeric		
+	dependency_ratio_old__male__none__records	Old-age dependency ratio	Numeric	%	%
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_old__male__FULL__low.csv?nocache	dependency_ratio_old__male__FULL__low
 columns	dependency_ratio_old__male__FULL__low
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_old__male__none__low	Old-age dependency ratio	Numeric		
+	dependency_ratio_old__male__none__low	Old-age dependency ratio	Numeric	%	%
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_old__male__FULL__medium.csv?nocache	dependency_ratio_old__male__FULL__medium
 columns	dependency_ratio_old__male__FULL__medium
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_old__male__none__medium	Old-age dependency ratio	Numeric		
+	dependency_ratio_old__male__none__medium	Old-age dependency ratio	Numeric	%	%
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_old__male__FULL__high.csv?nocache	dependency_ratio_old__male__FULL__high
 columns	dependency_ratio_old__male__FULL__high
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_old__male__none__high	Old-age dependency ratio	Numeric		
+	dependency_ratio_old__male__none__high	Old-age dependency ratio	Numeric	%	%
