@@ -651,10 +651,34 @@ graphers
 	Death rate	Death rate	Both sexes	Total	Low	death_rate__all__all__low	death_rate__all__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart	0	true			
 	Death rate	Death rate	Both sexes	Total	Medium	death_rate__all__all__medium	death_rate__all__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
 	Death rate	Death rate	Both sexes	Total	High	death_rate__all__all__high	death_rate__all__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Number of child deaths	Number of child deaths	Both sexes	0 - 4 years	None	deaths__all__0-4__records	deaths__all__FULL__records	Shown is the number of children (born alive) who die before they are five years old.\n	LineChart	0	true			
+	Number of child deaths	Number of child deaths	Both sexes	0 - 4 years	Low	deaths__all__0-4__low	deaths__all__FULL__low	Shown is the number of children (born alive) who die before they are five years old.\nThe projection of child mortality to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Number of child deaths	Number of child deaths	Both sexes	0 - 4 years	Medium	deaths__all__0-4__medium	deaths__all__FULL__medium	Shown is the number of children (born alive) who die before they are five years old.\nThe projection of child mortality to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Number of child deaths	Number of child deaths	Both sexes	0 - 4 years	High	deaths__all__0-4__high	deaths__all__FULL__high	Shown is the number of children (born alive) who die before they are five years old.\nThe projection of child mortality to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Number of child deaths	Number of child deaths	Female	0 - 4 years	None	deaths__female__0-4__records	deaths__female__FULL__records	Shown is the number of children (born alive) who die before they are five years old.\n	LineChart	0	true			
+	Number of child deaths	Number of child deaths	Female	0 - 4 years	Low	deaths__female__0-4__low	deaths__female__FULL__low	Shown is the number of children (born alive) who die before they are five years old.\nThe projection of child mortality to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Number of child deaths	Number of child deaths	Female	0 - 4 years	Medium	deaths__female__0-4__medium	deaths__female__FULL__medium	Shown is the number of children (born alive) who die before they are five years old.\nThe projection of child mortality to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Number of child deaths	Number of child deaths	Female	0 - 4 years	High	deaths__female__0-4__high	deaths__female__FULL__high	Shown is the number of children (born alive) who die before they are five years old.\nThe projection of child mortality to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Number of child deaths	Number of child deaths	Male	0 - 4 years	None	deaths__male__0-4__records	deaths__male__FULL__records	Shown is the number of children (born alive) who die before they are five years old.\n	LineChart	0	true			
+	Number of child deaths	Number of child deaths	Male	0 - 4 years	Low	deaths__male__0-4__low	deaths__male__FULL__low	Shown is the number of children (born alive) who die before they are five years old.\nThe projection of child mortality to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Number of child deaths	Number of child deaths	Male	0 - 4 years	Medium	deaths__male__0-4__medium	deaths__male__FULL__medium	Shown is the number of children (born alive) who die before they are five years old.\nThe projection of child mortality to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Number of child deaths	Number of child deaths	Male	0 - 4 years	High	deaths__male__0-4__high	deaths__male__FULL__high	Shown is the number of children (born alive) who die before they are five years old.\nThe projection of child mortality to 2100 is based on the UN's high population scenario.	LineChart	0	true			
 	Child mortality rate	Child mortality rate	Both sexes	Total	None	child_mortality_rate__all__all__records	child_mortality_rate__all__FULL__records	Shown is the share of children (born alive) who die before they are five years old.\n	LineChart	0	true			
 	Child mortality rate	Child mortality rate	Both sexes	Total	Low	child_mortality_rate__all__all__low	child_mortality_rate__all__FULL__low	Shown is the share of children (born alive) who die before they are five years old.\nThe projection of child mortality to 2100 is based on the UN's low population scenario.	LineChart	0	true			
 	Child mortality rate	Child mortality rate	Both sexes	Total	Medium	child_mortality_rate__all__all__medium	child_mortality_rate__all__FULL__medium	Shown is the share of children (born alive) who die before they are five years old.\nThe projection of child mortality to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
 	Child mortality rate	Child mortality rate	Both sexes	Total	High	child_mortality_rate__all__all__high	child_mortality_rate__all__FULL__high	Shown is the share of children (born alive) who die before they are five years old.\nThe projection of child mortality to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Number of infant deaths	Number of infant deaths	Both sexes	At age 0	None	deaths__all__0__records	deaths__all__FULL__records	Shown is the number of children (born alive) who die before they are one years old.\n	LineChart	0	true			
+	Number of infant deaths	Number of infant deaths	Both sexes	At age 0	Low	deaths__all__0__low	deaths__all__FULL__low	Shown is the number of children (born alive) who die before they are one years old.\nThe projection of infant mortality to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Number of infant deaths	Number of infant deaths	Both sexes	At age 0	Medium	deaths__all__0__medium	deaths__all__FULL__medium	Shown is the number of children (born alive) who die before they are one years old.\nThe projection of infant mortality to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Number of infant deaths	Number of infant deaths	Both sexes	At age 0	High	deaths__all__0__high	deaths__all__FULL__high	Shown is the number of children (born alive) who die before they are one years old.\nThe projection of infant mortality to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Number of infant deaths	Number of infant deaths	Female	At age 0	None	deaths__female__0__records	deaths__female__FULL__records	Shown is the number of children (born alive) who die before they are one years old.\n	LineChart	0	true			
+	Number of infant deaths	Number of infant deaths	Female	At age 0	Low	deaths__female__0__low	deaths__female__FULL__low	Shown is the number of children (born alive) who die before they are one years old.\nThe projection of infant mortality to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Number of infant deaths	Number of infant deaths	Female	At age 0	Medium	deaths__female__0__medium	deaths__female__FULL__medium	Shown is the number of children (born alive) who die before they are one years old.\nThe projection of infant mortality to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Number of infant deaths	Number of infant deaths	Female	At age 0	High	deaths__female__0__high	deaths__female__FULL__high	Shown is the number of children (born alive) who die before they are one years old.\nThe projection of infant mortality to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Number of infant deaths	Number of infant deaths	Male	At age 0	None	deaths__male__0__records	deaths__male__FULL__records	Shown is the number of children (born alive) who die before they are one years old.\n	LineChart	0	true			
+	Number of infant deaths	Number of infant deaths	Male	At age 0	Low	deaths__male__0__low	deaths__male__FULL__low	Shown is the number of children (born alive) who die before they are one years old.\nThe projection of infant mortality to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Number of infant deaths	Number of infant deaths	Male	At age 0	Medium	deaths__male__0__medium	deaths__male__FULL__medium	Shown is the number of children (born alive) who die before they are one years old.\nThe projection of infant mortality to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Number of infant deaths	Number of infant deaths	Male	At age 0	High	deaths__male__0__high	deaths__male__FULL__high	Shown is the number of children (born alive) who die before they are one years old.\nThe projection of infant mortality to 2100 is based on the UN's high population scenario.	LineChart	0	true			
 	Infant mortality rate	Infant mortality rate	Both sexes	Total	None	infant_mortality_rate__all__all__records	infant_mortality_rate__all__FULL__records	The share of newborns who die before reaching one year of age.\n	LineChart	0	true			
 	Infant mortality rate	Infant mortality rate	Both sexes	Total	Low	infant_mortality_rate__all__all__low	infant_mortality_rate__all__FULL__low	The share of newborns who die before reaching one year of age.\nThe projection of infant mortality to 2100 is based on the UN's low population scenario.	LineChart	0	true			
 	Infant mortality rate	Infant mortality rate	Both sexes	Total	Medium	infant_mortality_rate__all__all__medium	infant_mortality_rate__all__FULL__medium	The share of newborns who die before reaching one year of age.\nThe projection of infant mortality to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
@@ -1546,6 +1570,8 @@ columns	deaths__all__FULL__records
 	deaths__all__80-89__records	Deaths aged 80 to 89 years	Numeric		
 	deaths__all__90-99__records	Deaths aged 90 to 99 years	Numeric		
 	deaths__all__100-__records	Deaths older than 100 years	Numeric		
+	deaths__all__0-4__records	Number of child deaths	Numeric		
+	deaths__all__0__records	Number of infant deaths	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/deaths__all__FULL__low.csv?nocache	deaths__all__FULL__low
 columns	deaths__all__FULL__low
 	slug	name	type	shortUnit	unit
@@ -1567,6 +1593,8 @@ columns	deaths__all__FULL__low
 	deaths__all__80-89__low	Deaths aged 80 to 89 years	Numeric		
 	deaths__all__90-99__low	Deaths aged 90 to 99 years	Numeric		
 	deaths__all__100-__low	Deaths older than 100 years	Numeric		
+	deaths__all__0-4__low	Number of child deaths	Numeric		
+	deaths__all__0__low	Number of infant deaths	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/deaths__all__FULL__medium.csv?nocache	deaths__all__FULL__medium
 columns	deaths__all__FULL__medium
 	slug	name	type	shortUnit	unit
@@ -1588,6 +1616,8 @@ columns	deaths__all__FULL__medium
 	deaths__all__80-89__medium	Deaths aged 80 to 89 years	Numeric		
 	deaths__all__90-99__medium	Deaths aged 90 to 99 years	Numeric		
 	deaths__all__100-__medium	Deaths older than 100 years	Numeric		
+	deaths__all__0-4__medium	Number of child deaths	Numeric		
+	deaths__all__0__medium	Number of infant deaths	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/deaths__all__FULL__high.csv?nocache	deaths__all__FULL__high
 columns	deaths__all__FULL__high
 	slug	name	type	shortUnit	unit
@@ -1609,6 +1639,8 @@ columns	deaths__all__FULL__high
 	deaths__all__80-89__high	Deaths aged 80 to 89 years	Numeric		
 	deaths__all__90-99__high	Deaths aged 90 to 99 years	Numeric		
 	deaths__all__100-__high	Deaths older than 100 years	Numeric		
+	deaths__all__0-4__high	Number of child deaths	Numeric		
+	deaths__all__0__high	Number of infant deaths	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/deaths__female__FULL__records.csv?nocache	deaths__female__FULL__records
 columns	deaths__female__FULL__records
 	slug	name	type	shortUnit	unit
@@ -1630,6 +1662,8 @@ columns	deaths__female__FULL__records
 	deaths__female__80-89__records	Female deaths aged 80 to 89 years	Numeric		
 	deaths__female__90-99__records	Female deaths aged 90 to 99 years	Numeric		
 	deaths__female__100-__records	Female deaths older than 100 years	Numeric		
+	deaths__female__0-4__records	Number of child deaths	Numeric		
+	deaths__female__0__records	Number of infant deaths	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/deaths__female__FULL__low.csv?nocache	deaths__female__FULL__low
 columns	deaths__female__FULL__low
 	slug	name	type	shortUnit	unit
@@ -1651,6 +1685,8 @@ columns	deaths__female__FULL__low
 	deaths__female__80-89__low	Female deaths aged 80 to 89 years	Numeric		
 	deaths__female__90-99__low	Female deaths aged 90 to 99 years	Numeric		
 	deaths__female__100-__low	Female deaths older than 100 years	Numeric		
+	deaths__female__0-4__low	Number of child deaths	Numeric		
+	deaths__female__0__low	Number of infant deaths	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/deaths__female__FULL__medium.csv?nocache	deaths__female__FULL__medium
 columns	deaths__female__FULL__medium
 	slug	name	type	shortUnit	unit
@@ -1672,6 +1708,8 @@ columns	deaths__female__FULL__medium
 	deaths__female__80-89__medium	Female deaths aged 80 to 89 years	Numeric		
 	deaths__female__90-99__medium	Female deaths aged 90 to 99 years	Numeric		
 	deaths__female__100-__medium	Female deaths older than 100 years	Numeric		
+	deaths__female__0-4__medium	Number of child deaths	Numeric		
+	deaths__female__0__medium	Number of infant deaths	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/deaths__female__FULL__high.csv?nocache	deaths__female__FULL__high
 columns	deaths__female__FULL__high
 	slug	name	type	shortUnit	unit
@@ -1693,6 +1731,8 @@ columns	deaths__female__FULL__high
 	deaths__female__80-89__high	Female deaths aged 80 to 89 years	Numeric		
 	deaths__female__90-99__high	Female deaths aged 90 to 99 years	Numeric		
 	deaths__female__100-__high	Female deaths older than 100 years	Numeric		
+	deaths__female__0-4__high	Number of child deaths	Numeric		
+	deaths__female__0__high	Number of infant deaths	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/deaths__male__FULL__records.csv?nocache	deaths__male__FULL__records
 columns	deaths__male__FULL__records
 	slug	name	type	shortUnit	unit
@@ -1714,6 +1754,8 @@ columns	deaths__male__FULL__records
 	deaths__male__80-89__records	Male deaths aged 80 to 89 years	Numeric		
 	deaths__male__90-99__records	Male deaths aged 90 to 99 years	Numeric		
 	deaths__male__100-__records	Male deaths older than 100 years	Numeric		
+	deaths__male__0-4__records	Number of child deaths	Numeric		
+	deaths__male__0__records	Number of infant deaths	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/deaths__male__FULL__low.csv?nocache	deaths__male__FULL__low
 columns	deaths__male__FULL__low
 	slug	name	type	shortUnit	unit
@@ -1735,6 +1777,8 @@ columns	deaths__male__FULL__low
 	deaths__male__80-89__low	Male deaths aged 80 to 89 years	Numeric		
 	deaths__male__90-99__low	Male deaths aged 90 to 99 years	Numeric		
 	deaths__male__100-__low	Male deaths older than 100 years	Numeric		
+	deaths__male__0-4__low	Number of child deaths	Numeric		
+	deaths__male__0__low	Number of infant deaths	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/deaths__male__FULL__medium.csv?nocache	deaths__male__FULL__medium
 columns	deaths__male__FULL__medium
 	slug	name	type	shortUnit	unit
@@ -1756,6 +1800,8 @@ columns	deaths__male__FULL__medium
 	deaths__male__80-89__medium	Male deaths aged 80 to 89 years	Numeric		
 	deaths__male__90-99__medium	Male deaths aged 90 to 99 years	Numeric		
 	deaths__male__100-__medium	Male deaths older than 100 years	Numeric		
+	deaths__male__0-4__medium	Number of child deaths	Numeric		
+	deaths__male__0__medium	Number of infant deaths	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/deaths__male__FULL__high.csv?nocache	deaths__male__FULL__high
 columns	deaths__male__FULL__high
 	slug	name	type	shortUnit	unit
@@ -1777,6 +1823,8 @@ columns	deaths__male__FULL__high
 	deaths__male__80-89__high	Male deaths aged 80 to 89 years	Numeric		
 	deaths__male__90-99__high	Male deaths aged 90 to 99 years	Numeric		
 	deaths__male__100-__high	Male deaths older than 100 years	Numeric		
+	deaths__male__0-4__high	Number of child deaths	Numeric		
+	deaths__male__0__high	Number of infant deaths	Numeric		
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/death_rate__all__FULL__records.csv?nocache	death_rate__all__FULL__records
 columns	death_rate__all__FULL__records
 	slug	name	type	shortUnit	unit
