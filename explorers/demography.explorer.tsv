@@ -627,18 +627,54 @@ graphers
 	Growth rate	Growth rate	Both sexes	Total	Low	growth_rate__all__all__low	growth_rate__all__FULL__low	Annual rate of population change takes births, deaths and migration into account.\nThe projection of growth rate to 2100 is based on the UN's low population scenario.	LineChart	0	true			
 	Growth rate	Growth rate	Both sexes	Total	Medium	growth_rate__all__all__medium	growth_rate__all__FULL__medium	Annual rate of population change takes births, deaths and migration into account.\nThe projection of growth rate to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
 	Growth rate	Growth rate	Both sexes	Total	High	growth_rate__all__all__high	growth_rate__all__FULL__high	Annual rate of population change takes births, deaths and migration into account.\nThe projection of growth rate to 2100 is based on the UN's high population scenario.	LineChart	0	true			
-	Life expectancy at birth	Life expectancy	Both sexes	Total	None	life_expectancy__all__at_birth__records	life_expectancy__all__FULL__records		LineChart	0	true			
-	Life expectancy at birth	Life expectancy	Both sexes	Total	Low	life_expectancy__all__at_birth__low	life_expectancy__all__FULL__low	The projection of life expectancy to 2100 is based on the UN's low population scenario.	LineChart	0	true			
-	Life expectancy at birth	Life expectancy	Both sexes	Total	Medium	life_expectancy__all__at_birth__medium	life_expectancy__all__FULL__medium	The projection of life expectancy to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
-	Life expectancy at birth	Life expectancy	Both sexes	Total	High	life_expectancy__all__at_birth__high	life_expectancy__all__FULL__high	The projection of life expectancy to 2100 is based on the UN's high population scenario.	LineChart	0	true			
-	Female life expectancy at birth	Life expectancy	Female	Total	None	life_expectancy__female__at_birth__records	life_expectancy__female__FULL__records		LineChart	0	true			
-	Female life expectancy at birth	Life expectancy	Female	Total	Low	life_expectancy__female__at_birth__low	life_expectancy__female__FULL__low	The projection of life expectancy to 2100 is based on the UN's low population scenario.	LineChart	0	true			
-	Female life expectancy at birth	Life expectancy	Female	Total	Medium	life_expectancy__female__at_birth__medium	life_expectancy__female__FULL__medium	The projection of life expectancy to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
-	Female life expectancy at birth	Life expectancy	Female	Total	High	life_expectancy__female__at_birth__high	life_expectancy__female__FULL__high	The projection of life expectancy to 2100 is based on the UN's high population scenario.	LineChart	0	true			
-	Male life expectancy at birth	Life expectancy	Male	Total	None	life_expectancy__male__at_birth__records	life_expectancy__male__FULL__records		LineChart	0	true			
-	Male life expectancy at birth	Life expectancy	Male	Total	Low	life_expectancy__male__at_birth__low	life_expectancy__male__FULL__low	The projection of life expectancy to 2100 is based on the UN's low population scenario.	LineChart	0	true			
-	Male life expectancy at birth	Life expectancy	Male	Total	Medium	life_expectancy__male__at_birth__medium	life_expectancy__male__FULL__medium	The projection of life expectancy to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
-	Male life expectancy at birth	Life expectancy	Male	Total	High	life_expectancy__male__at_birth__high	life_expectancy__male__FULL__high	The projection of life expectancy to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Life expectancy at birth	Life expectancy	Both sexes	At birth	None	life_expectancy__all__at_birth__records	life_expectancy__all__FULL__records		LineChart	0	true			
+	Life expectancy at birth	Life expectancy	Both sexes	At birth	Low	life_expectancy__all__at_birth__low	life_expectancy__all__FULL__low	The projection of life expectancy to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Life expectancy at birth	Life expectancy	Both sexes	At birth	Medium	life_expectancy__all__at_birth__medium	life_expectancy__all__FULL__medium	The projection of life expectancy to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Life expectancy at birth	Life expectancy	Both sexes	At birth	High	life_expectancy__all__at_birth__high	life_expectancy__all__FULL__high	The projection of life expectancy to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Life expectancy at age 15	Life expectancy	Both sexes	At age 15	None	life_expectancy__all__15__records	life_expectancy__all__FULL__records		LineChart	0	true			
+	Life expectancy at age 15	Life expectancy	Both sexes	At age 15	Low	life_expectancy__all__15__low	life_expectancy__all__FULL__low	The projection of life expectancy to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Life expectancy at age 15	Life expectancy	Both sexes	At age 15	Medium	life_expectancy__all__15__medium	life_expectancy__all__FULL__medium	The projection of life expectancy to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Life expectancy at age 15	Life expectancy	Both sexes	At age 15	High	life_expectancy__all__15__high	life_expectancy__all__FULL__high	The projection of life expectancy to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Life expectancy at age 65	Life expectancy	Both sexes	At age 65	None	life_expectancy__all__65__records	life_expectancy__all__FULL__records		LineChart	0	true			
+	Life expectancy at age 65	Life expectancy	Both sexes	At age 65	Low	life_expectancy__all__65__low	life_expectancy__all__FULL__low	The projection of life expectancy to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Life expectancy at age 65	Life expectancy	Both sexes	At age 65	Medium	life_expectancy__all__65__medium	life_expectancy__all__FULL__medium	The projection of life expectancy to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Life expectancy at age 65	Life expectancy	Both sexes	At age 65	High	life_expectancy__all__65__high	life_expectancy__all__FULL__high	The projection of life expectancy to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Life expectancy at age 80	Life expectancy	Both sexes	At age 80	None	life_expectancy__all__80__records	life_expectancy__all__FULL__records		LineChart	0	true			
+	Life expectancy at age 80	Life expectancy	Both sexes	At age 80	Low	life_expectancy__all__80__low	life_expectancy__all__FULL__low	The projection of life expectancy to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Life expectancy at age 80	Life expectancy	Both sexes	At age 80	Medium	life_expectancy__all__80__medium	life_expectancy__all__FULL__medium	The projection of life expectancy to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Life expectancy at age 80	Life expectancy	Both sexes	At age 80	High	life_expectancy__all__80__high	life_expectancy__all__FULL__high	The projection of life expectancy to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Female life expectancy at birth	Life expectancy	Female	At birth	None	life_expectancy__female__at_birth__records	life_expectancy__female__FULL__records		LineChart	0	true			
+	Female life expectancy at birth	Life expectancy	Female	At birth	Low	life_expectancy__female__at_birth__low	life_expectancy__female__FULL__low	The projection of life expectancy to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Female life expectancy at birth	Life expectancy	Female	At birth	Medium	life_expectancy__female__at_birth__medium	life_expectancy__female__FULL__medium	The projection of life expectancy to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Female life expectancy at birth	Life expectancy	Female	At birth	High	life_expectancy__female__at_birth__high	life_expectancy__female__FULL__high	The projection of life expectancy to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Female life expectancy at age 15	Life expectancy	Female	At age 15	None	life_expectancy__female__15__records	life_expectancy__female__FULL__records		LineChart	0	true			
+	Female life expectancy at age 15	Life expectancy	Female	At age 15	Low	life_expectancy__female__15__low	life_expectancy__female__FULL__low	The projection of life expectancy to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Female life expectancy at age 15	Life expectancy	Female	At age 15	Medium	life_expectancy__female__15__medium	life_expectancy__female__FULL__medium	The projection of life expectancy to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Female life expectancy at age 15	Life expectancy	Female	At age 15	High	life_expectancy__female__15__high	life_expectancy__female__FULL__high	The projection of life expectancy to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Female life expectancy at age 65	Life expectancy	Female	At age 65	None	life_expectancy__female__65__records	life_expectancy__female__FULL__records		LineChart	0	true			
+	Female life expectancy at age 65	Life expectancy	Female	At age 65	Low	life_expectancy__female__65__low	life_expectancy__female__FULL__low	The projection of life expectancy to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Female life expectancy at age 65	Life expectancy	Female	At age 65	Medium	life_expectancy__female__65__medium	life_expectancy__female__FULL__medium	The projection of life expectancy to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Female life expectancy at age 65	Life expectancy	Female	At age 65	High	life_expectancy__female__65__high	life_expectancy__female__FULL__high	The projection of life expectancy to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Female life expectancy at age 80	Life expectancy	Female	At age 80	None	life_expectancy__female__80__records	life_expectancy__female__FULL__records		LineChart	0	true			
+	Female life expectancy at age 80	Life expectancy	Female	At age 80	Low	life_expectancy__female__80__low	life_expectancy__female__FULL__low	The projection of life expectancy to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Female life expectancy at age 80	Life expectancy	Female	At age 80	Medium	life_expectancy__female__80__medium	life_expectancy__female__FULL__medium	The projection of life expectancy to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Female life expectancy at age 80	Life expectancy	Female	At age 80	High	life_expectancy__female__80__high	life_expectancy__female__FULL__high	The projection of life expectancy to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Male life expectancy at birth	Life expectancy	Male	At birth	None	life_expectancy__male__at_birth__records	life_expectancy__male__FULL__records		LineChart	0	true			
+	Male life expectancy at birth	Life expectancy	Male	At birth	Low	life_expectancy__male__at_birth__low	life_expectancy__male__FULL__low	The projection of life expectancy to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Male life expectancy at birth	Life expectancy	Male	At birth	Medium	life_expectancy__male__at_birth__medium	life_expectancy__male__FULL__medium	The projection of life expectancy to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Male life expectancy at birth	Life expectancy	Male	At birth	High	life_expectancy__male__at_birth__high	life_expectancy__male__FULL__high	The projection of life expectancy to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Male life expectancy at age 15	Life expectancy	Male	At age 15	None	life_expectancy__male__15__records	life_expectancy__male__FULL__records		LineChart	0	true			
+	Male life expectancy at age 15	Life expectancy	Male	At age 15	Low	life_expectancy__male__15__low	life_expectancy__male__FULL__low	The projection of life expectancy to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Male life expectancy at age 15	Life expectancy	Male	At age 15	Medium	life_expectancy__male__15__medium	life_expectancy__male__FULL__medium	The projection of life expectancy to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Male life expectancy at age 15	Life expectancy	Male	At age 15	High	life_expectancy__male__15__high	life_expectancy__male__FULL__high	The projection of life expectancy to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Male life expectancy at age 65	Life expectancy	Male	At age 65	None	life_expectancy__male__65__records	life_expectancy__male__FULL__records		LineChart	0	true			
+	Male life expectancy at age 65	Life expectancy	Male	At age 65	Low	life_expectancy__male__65__low	life_expectancy__male__FULL__low	The projection of life expectancy to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Male life expectancy at age 65	Life expectancy	Male	At age 65	Medium	life_expectancy__male__65__medium	life_expectancy__male__FULL__medium	The projection of life expectancy to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Male life expectancy at age 65	Life expectancy	Male	At age 65	High	life_expectancy__male__65__high	life_expectancy__male__FULL__high	The projection of life expectancy to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Male life expectancy at age 80	Life expectancy	Male	At age 80	None	life_expectancy__male__80__records	life_expectancy__male__FULL__records		LineChart	0	true			
+	Male life expectancy at age 80	Life expectancy	Male	At age 80	Low	life_expectancy__male__80__low	life_expectancy__male__FULL__low	The projection of life expectancy to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Male life expectancy at age 80	Life expectancy	Male	At age 80	Medium	life_expectancy__male__80__medium	life_expectancy__male__FULL__medium	The projection of life expectancy to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Male life expectancy at age 80	Life expectancy	Male	At age 80	High	life_expectancy__male__80__high	life_expectancy__male__FULL__high	The projection of life expectancy to 2100 is based on the UN's high population scenario.	LineChart	0	true			
 	Net migration	Net migration	Both sexes	Total	None	net_migration__all__all__records	net_migration__all__FULL__records		LineChart	0	true			
 	Net migration	Net migration	Both sexes	Total	Low	net_migration__all__all__low	net_migration__all__FULL__low	The projection of migration to 2100 is based on the UN's low population scenario.	LineChart	0	true			
 	Net migration	Net migration	Both sexes	Total	Medium	net_migration__all__all__medium	net_migration__all__FULL__medium	The projection of migration to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
@@ -1775,72 +1811,108 @@ columns	life_expectancy__all__FULL__records
 	location	Country name	EntityName
 	year	Year	Year
 	life_expectancy__all__at_birth__records	Life expectancy at birth	Numeric	years	years
+	life_expectancy__all__15__records	Life expectancy at age 15	Numeric	years	years
+	life_expectancy__all__65__records	Life expectancy at age 65	Numeric	years	years
+	life_expectancy__all__80__records	Life expectancy at age 80	Numeric	years	years
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/life_expectancy__all__FULL__low.csv?nocache	life_expectancy__all__FULL__low
 columns	life_expectancy__all__FULL__low
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
 	life_expectancy__all__at_birth__low	Life expectancy at birth	Numeric	years	years
+	life_expectancy__all__15__low	Life expectancy at age 15	Numeric	years	years
+	life_expectancy__all__65__low	Life expectancy at age 65	Numeric	years	years
+	life_expectancy__all__80__low	Life expectancy at age 80	Numeric	years	years
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/life_expectancy__all__FULL__medium.csv?nocache	life_expectancy__all__FULL__medium
 columns	life_expectancy__all__FULL__medium
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
 	life_expectancy__all__at_birth__medium	Life expectancy at birth	Numeric	years	years
+	life_expectancy__all__15__medium	Life expectancy at age 15	Numeric	years	years
+	life_expectancy__all__65__medium	Life expectancy at age 65	Numeric	years	years
+	life_expectancy__all__80__medium	Life expectancy at age 80	Numeric	years	years
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/life_expectancy__all__FULL__high.csv?nocache	life_expectancy__all__FULL__high
 columns	life_expectancy__all__FULL__high
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
 	life_expectancy__all__at_birth__high	Life expectancy at birth	Numeric	years	years
+	life_expectancy__all__15__high	Life expectancy at age 15	Numeric	years	years
+	life_expectancy__all__65__high	Life expectancy at age 65	Numeric	years	years
+	life_expectancy__all__80__high	Life expectancy at age 80	Numeric	years	years
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/life_expectancy__female__FULL__records.csv?nocache	life_expectancy__female__FULL__records
 columns	life_expectancy__female__FULL__records
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
 	life_expectancy__female__at_birth__records	Female life expectancy at birth	Numeric	years	years
+	life_expectancy__female__15__records	Female life expectancy at age 15	Numeric	years	years
+	life_expectancy__female__65__records	Female life expectancy at age 65	Numeric	years	years
+	life_expectancy__female__80__records	Female life expectancy at age 80	Numeric	years	years
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/life_expectancy__female__FULL__low.csv?nocache	life_expectancy__female__FULL__low
 columns	life_expectancy__female__FULL__low
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
 	life_expectancy__female__at_birth__low	Female life expectancy at birth	Numeric	years	years
+	life_expectancy__female__15__low	Female life expectancy at age 15	Numeric	years	years
+	life_expectancy__female__65__low	Female life expectancy at age 65	Numeric	years	years
+	life_expectancy__female__80__low	Female life expectancy at age 80	Numeric	years	years
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/life_expectancy__female__FULL__medium.csv?nocache	life_expectancy__female__FULL__medium
 columns	life_expectancy__female__FULL__medium
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
 	life_expectancy__female__at_birth__medium	Female life expectancy at birth	Numeric	years	years
+	life_expectancy__female__15__medium	Female life expectancy at age 15	Numeric	years	years
+	life_expectancy__female__65__medium	Female life expectancy at age 65	Numeric	years	years
+	life_expectancy__female__80__medium	Female life expectancy at age 80	Numeric	years	years
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/life_expectancy__female__FULL__high.csv?nocache	life_expectancy__female__FULL__high
 columns	life_expectancy__female__FULL__high
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
 	life_expectancy__female__at_birth__high	Female life expectancy at birth	Numeric	years	years
+	life_expectancy__female__15__high	Female life expectancy at age 15	Numeric	years	years
+	life_expectancy__female__65__high	Female life expectancy at age 65	Numeric	years	years
+	life_expectancy__female__80__high	Female life expectancy at age 80	Numeric	years	years
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/life_expectancy__male__FULL__records.csv?nocache	life_expectancy__male__FULL__records
 columns	life_expectancy__male__FULL__records
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
 	life_expectancy__male__at_birth__records	Male life expectancy at birth	Numeric	years	years
+	life_expectancy__male__15__records	Male life expectancy at age 15	Numeric	years	years
+	life_expectancy__male__65__records	Male life expectancy at age 65	Numeric	years	years
+	life_expectancy__male__80__records	Male life expectancy at age 80	Numeric	years	years
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/life_expectancy__male__FULL__low.csv?nocache	life_expectancy__male__FULL__low
 columns	life_expectancy__male__FULL__low
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
 	life_expectancy__male__at_birth__low	Male life expectancy at birth	Numeric	years	years
+	life_expectancy__male__15__low	Male life expectancy at age 15	Numeric	years	years
+	life_expectancy__male__65__low	Male life expectancy at age 65	Numeric	years	years
+	life_expectancy__male__80__low	Male life expectancy at age 80	Numeric	years	years
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/life_expectancy__male__FULL__medium.csv?nocache	life_expectancy__male__FULL__medium
 columns	life_expectancy__male__FULL__medium
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
 	life_expectancy__male__at_birth__medium	Male life expectancy at birth	Numeric	years	years
+	life_expectancy__male__15__medium	Male life expectancy at age 15	Numeric	years	years
+	life_expectancy__male__65__medium	Male life expectancy at age 65	Numeric	years	years
+	life_expectancy__male__80__medium	Male life expectancy at age 80	Numeric	years	years
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/life_expectancy__male__FULL__high.csv?nocache	life_expectancy__male__FULL__high
 columns	life_expectancy__male__FULL__high
 	slug	name	type	shortUnit	unit
 	location	Country name	EntityName
 	year	Year	Year
 	life_expectancy__male__at_birth__high	Male life expectancy at birth	Numeric	years	years
+	life_expectancy__male__15__high	Male life expectancy at age 15	Numeric	years	years
+	life_expectancy__male__65__high	Male life expectancy at age 65	Numeric	years	years
+	life_expectancy__male__80__high	Male life expectancy at age 80	Numeric	years	years
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/net_migration__all__FULL__records.csv?nocache	net_migration__all__FULL__records
 columns	net_migration__all__FULL__records
 	slug	name	type	shortUnit	unit
