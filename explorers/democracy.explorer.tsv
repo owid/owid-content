@@ -8,7 +8,7 @@ wpBlockId	51850
 subNavId
 subNavCurrentId	democracy-data
 graphers
-	grapherId	Source Dropdown	Metric Dropdown	Sub-metric Dropdown
+	grapherId	Dataset Dropdown	Metric Dropdown	Sub-metric Dropdown
 	5537	Varieties of Democracy	Electoral democracy	Main index
 	3461	Varieties of Democracy	Electoral democracy	Elected officials
 	3457	Varieties of Democracy	Electoral democracy	Share of adult citizens who have the right to vote
