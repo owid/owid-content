@@ -1118,85 +1118,121 @@ columns	population_broad__all__FULL__records
 	slug	name	type	shortUnit	unit	sourceName	sourceLink	dataPublishedBy
 	location	Country name	EntityName
 	year	Year	Year
-	population_broad__all__65-__records population_broad__all__25-64__records population_broad__all__15-24__records population_broad__all__5-14__records population_broad__all__0-4__records	Population by broad age group	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
-	population_broad__all__0-4__records population_broad__all__5-14__records population_broad__all__15-24__records population_broad__all__25-64__records population_broad__all__65-__records	Age structure	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__all__65-__records	65+ years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__all__25-64__records	25-64 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__all__15-24__records	15-24 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__all__5-14__records	5-14 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__all__0-4__records	Under-5s	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/population_broad__all__FULL__low.csv?nocache	population_broad__all__FULL__low
 columns	population_broad__all__FULL__low
 	slug	name	type	shortUnit	unit	sourceName	sourceLink	dataPublishedBy
 	location	Country name	EntityName
 	year	Year	Year
-	population_broad__all__65-__low population_broad__all__25-64__low population_broad__all__15-24__low population_broad__all__5-14__low population_broad__all__0-4__low	Population by broad age group	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
-	population_broad__all__0-4__low population_broad__all__5-14__low population_broad__all__15-24__low population_broad__all__25-64__low population_broad__all__65-__low	Age structure	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__all__65-__low	65+ years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__all__25-64__low	25-64 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__all__15-24__low	15-24 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__all__5-14__low	5-14 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__all__0-4__low	Under-5s	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/population_broad__all__FULL__medium.csv?nocache	population_broad__all__FULL__medium
 columns	population_broad__all__FULL__medium
 	slug	name	type	shortUnit	unit	sourceName	sourceLink	dataPublishedBy
 	location	Country name	EntityName
 	year	Year	Year
-	population_broad__all__65-__medium population_broad__all__25-64__medium population_broad__all__15-24__medium population_broad__all__5-14__medium population_broad__all__0-4__medium	Population by broad age group	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
-	population_broad__all__0-4__medium population_broad__all__5-14__medium population_broad__all__15-24__medium population_broad__all__25-64__medium population_broad__all__65-__medium	Age structure	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__all__65-__medium	65+ years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__all__25-64__medium	25-64 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__all__15-24__medium	15-24 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__all__5-14__medium	5-14 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__all__0-4__medium	Under-5s	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/population_broad__all__FULL__high.csv?nocache	population_broad__all__FULL__high
 columns	population_broad__all__FULL__high
 	slug	name	type	shortUnit	unit	sourceName	sourceLink	dataPublishedBy
 	location	Country name	EntityName
 	year	Year	Year
-	population_broad__all__65-__high population_broad__all__25-64__high population_broad__all__15-24__high population_broad__all__5-14__high population_broad__all__0-4__high	Population by broad age group	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
-	population_broad__all__0-4__high population_broad__all__5-14__high population_broad__all__15-24__high population_broad__all__25-64__high population_broad__all__65-__high	Age structure	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__all__65-__high	65+ years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__all__25-64__high	25-64 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__all__15-24__high	15-24 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__all__5-14__high	5-14 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__all__0-4__high	Under-5s	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/population_broad__female__FULL__records.csv?nocache	population_broad__female__FULL__records
 columns	population_broad__female__FULL__records
 	slug	name	type	shortUnit	unit	sourceName	sourceLink	dataPublishedBy
 	location	Country name	EntityName
 	year	Year	Year
-	population_broad__female__65-__records population_broad__female__25-64__records population_broad__female__15-24__records population_broad__female__5-14__records population_broad__female__0-4__records	Female population by broad age group	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
-	population_broad__female__0-4__records population_broad__female__5-14__records population_broad__female__15-24__records population_broad__female__25-64__records population_broad__female__65-__records	Female age structure	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__female__65-__records	65+ years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__female__25-64__records	25-64 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__female__15-24__records	15-24 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__female__5-14__records	5-14 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__female__0-4__records	Under-5s	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/population_broad__female__FULL__low.csv?nocache	population_broad__female__FULL__low
 columns	population_broad__female__FULL__low
 	slug	name	type	shortUnit	unit	sourceName	sourceLink	dataPublishedBy
 	location	Country name	EntityName
 	year	Year	Year
-	population_broad__female__65-__low population_broad__female__25-64__low population_broad__female__15-24__low population_broad__female__5-14__low population_broad__female__0-4__low	Female population by broad age group	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
-	population_broad__female__0-4__low population_broad__female__5-14__low population_broad__female__15-24__low population_broad__female__25-64__low population_broad__female__65-__low	Female age structure	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__female__65-__low	65+ years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__female__25-64__low	25-64 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__female__15-24__low	15-24 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__female__5-14__low	5-14 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__female__0-4__low	Under-5s	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/population_broad__female__FULL__medium.csv?nocache	population_broad__female__FULL__medium
 columns	population_broad__female__FULL__medium
 	slug	name	type	shortUnit	unit	sourceName	sourceLink	dataPublishedBy
 	location	Country name	EntityName
 	year	Year	Year
-	population_broad__female__65-__medium population_broad__female__25-64__medium population_broad__female__15-24__medium population_broad__female__5-14__medium population_broad__female__0-4__medium	Female population by broad age group	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
-	population_broad__female__0-4__medium population_broad__female__5-14__medium population_broad__female__15-24__medium population_broad__female__25-64__medium population_broad__female__65-__medium	Female age structure	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__female__65-__medium	65+ years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__female__25-64__medium	25-64 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__female__15-24__medium	15-24 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__female__5-14__medium	5-14 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__female__0-4__medium	Under-5s	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/population_broad__female__FULL__high.csv?nocache	population_broad__female__FULL__high
 columns	population_broad__female__FULL__high
 	slug	name	type	shortUnit	unit	sourceName	sourceLink	dataPublishedBy
 	location	Country name	EntityName
 	year	Year	Year
-	population_broad__female__65-__high population_broad__female__25-64__high population_broad__female__15-24__high population_broad__female__5-14__high population_broad__female__0-4__high	Female population by broad age group	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
-	population_broad__female__0-4__high population_broad__female__5-14__high population_broad__female__15-24__high population_broad__female__25-64__high population_broad__female__65-__high	Female age structure	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__female__65-__high	65+ years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__female__25-64__high	25-64 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__female__15-24__high	15-24 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__female__5-14__high	5-14 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__female__0-4__high	Under-5s	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/population_broad__male__FULL__records.csv?nocache	population_broad__male__FULL__records
 columns	population_broad__male__FULL__records
 	slug	name	type	shortUnit	unit	sourceName	sourceLink	dataPublishedBy
 	location	Country name	EntityName
 	year	Year	Year
-	population_broad__male__65-__records population_broad__male__25-64__records population_broad__male__15-24__records population_broad__male__5-14__records population_broad__male__0-4__records	Male population by broad age group	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
-	population_broad__male__0-4__records population_broad__male__5-14__records population_broad__male__15-24__records population_broad__male__25-64__records population_broad__male__65-__records	Male age structure	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__male__65-__records	65+ years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__male__25-64__records	25-64 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__male__15-24__records	15-24 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__male__5-14__records	5-14 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__male__0-4__records	Under-5s	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/population_broad__male__FULL__low.csv?nocache	population_broad__male__FULL__low
 columns	population_broad__male__FULL__low
 	slug	name	type	shortUnit	unit	sourceName	sourceLink	dataPublishedBy
 	location	Country name	EntityName
 	year	Year	Year
-	population_broad__male__65-__low population_broad__male__25-64__low population_broad__male__15-24__low population_broad__male__5-14__low population_broad__male__0-4__low	Male population by broad age group	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
-	population_broad__male__0-4__low population_broad__male__5-14__low population_broad__male__15-24__low population_broad__male__25-64__low population_broad__male__65-__low	Male age structure	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__male__65-__low	65+ years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__male__25-64__low	25-64 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__male__15-24__low	15-24 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__male__5-14__low	5-14 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__male__0-4__low	Under-5s	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/population_broad__male__FULL__medium.csv?nocache	population_broad__male__FULL__medium
 columns	population_broad__male__FULL__medium
 	slug	name	type	shortUnit	unit	sourceName	sourceLink	dataPublishedBy
 	location	Country name	EntityName
 	year	Year	Year
-	population_broad__male__65-__medium population_broad__male__25-64__medium population_broad__male__15-24__medium population_broad__male__5-14__medium population_broad__male__0-4__medium	Male population by broad age group	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
-	population_broad__male__0-4__medium population_broad__male__5-14__medium population_broad__male__15-24__medium population_broad__male__25-64__medium population_broad__male__65-__medium	Male age structure	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__male__65-__medium	65+ years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__male__25-64__medium	25-64 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__male__15-24__medium	15-24 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__male__5-14__medium	5-14 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__male__0-4__medium	Under-5s	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/population_broad__male__FULL__high.csv?nocache	population_broad__male__FULL__high
 columns	population_broad__male__FULL__high
 	slug	name	type	shortUnit	unit	sourceName	sourceLink	dataPublishedBy
 	location	Country name	EntityName
 	year	Year	Year
-	population_broad__male__65-__high population_broad__male__25-64__high population_broad__male__15-24__high population_broad__male__5-14__high population_broad__male__0-4__high	Male population by broad age group	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
-	population_broad__male__0-4__high population_broad__male__5-14__high population_broad__male__15-24__high population_broad__male__25-64__high population_broad__male__65-__high	Male age structure	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__male__65-__high	65+ years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__male__25-64__high	25-64 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__male__15-24__high	15-24 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__male__5-14__high	5-14 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	population_broad__male__0-4__high	Under-5s	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/population_change__all__FULL__records.csv?nocache	population_change__all__FULL__records
 columns	population_change__all__FULL__records
 	slug	name	type	shortUnit	unit	sourceName	sourceLink	dataPublishedBy
@@ -1570,8 +1606,6 @@ columns	deaths__all__FULL__records
 	deaths__all__80-89__records	Deaths aged 80 to 89 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 	deaths__all__90-99__records	Deaths aged 90 to 99 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 	deaths__all__100-__records	Deaths older than 100 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
-	deaths__all__0-4__records	Number of child deaths	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
-	deaths__all__0__records	Number of infant deaths	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/deaths__all__FULL__low.csv?nocache	deaths__all__FULL__low
 columns	deaths__all__FULL__low
 	slug	name	type	shortUnit	unit	sourceName	sourceLink	dataPublishedBy
@@ -1593,8 +1627,6 @@ columns	deaths__all__FULL__low
 	deaths__all__80-89__low	Deaths aged 80 to 89 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 	deaths__all__90-99__low	Deaths aged 90 to 99 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 	deaths__all__100-__low	Deaths older than 100 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
-	deaths__all__0-4__low	Number of child deaths	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
-	deaths__all__0__low	Number of infant deaths	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/deaths__all__FULL__medium.csv?nocache	deaths__all__FULL__medium
 columns	deaths__all__FULL__medium
 	slug	name	type	shortUnit	unit	sourceName	sourceLink	dataPublishedBy
@@ -1616,8 +1648,6 @@ columns	deaths__all__FULL__medium
 	deaths__all__80-89__medium	Deaths aged 80 to 89 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 	deaths__all__90-99__medium	Deaths aged 90 to 99 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 	deaths__all__100-__medium	Deaths older than 100 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
-	deaths__all__0-4__medium	Number of child deaths	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
-	deaths__all__0__medium	Number of infant deaths	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/deaths__all__FULL__high.csv?nocache	deaths__all__FULL__high
 columns	deaths__all__FULL__high
 	slug	name	type	shortUnit	unit	sourceName	sourceLink	dataPublishedBy
@@ -1639,8 +1669,6 @@ columns	deaths__all__FULL__high
 	deaths__all__80-89__high	Deaths aged 80 to 89 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 	deaths__all__90-99__high	Deaths aged 90 to 99 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 	deaths__all__100-__high	Deaths older than 100 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
-	deaths__all__0-4__high	Number of child deaths	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
-	deaths__all__0__high	Number of infant deaths	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/deaths__female__FULL__records.csv?nocache	deaths__female__FULL__records
 columns	deaths__female__FULL__records
 	slug	name	type	shortUnit	unit	sourceName	sourceLink	dataPublishedBy
@@ -1662,8 +1690,6 @@ columns	deaths__female__FULL__records
 	deaths__female__80-89__records	Female deaths aged 80 to 89 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 	deaths__female__90-99__records	Female deaths aged 90 to 99 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 	deaths__female__100-__records	Female deaths older than 100 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
-	deaths__female__0-4__records	Number of child deaths	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
-	deaths__female__0__records	Number of infant deaths	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/deaths__female__FULL__low.csv?nocache	deaths__female__FULL__low
 columns	deaths__female__FULL__low
 	slug	name	type	shortUnit	unit	sourceName	sourceLink	dataPublishedBy
@@ -1685,8 +1711,6 @@ columns	deaths__female__FULL__low
 	deaths__female__80-89__low	Female deaths aged 80 to 89 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 	deaths__female__90-99__low	Female deaths aged 90 to 99 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 	deaths__female__100-__low	Female deaths older than 100 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
-	deaths__female__0-4__low	Number of child deaths	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
-	deaths__female__0__low	Number of infant deaths	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/deaths__female__FULL__medium.csv?nocache	deaths__female__FULL__medium
 columns	deaths__female__FULL__medium
 	slug	name	type	shortUnit	unit	sourceName	sourceLink	dataPublishedBy
@@ -1708,8 +1732,6 @@ columns	deaths__female__FULL__medium
 	deaths__female__80-89__medium	Female deaths aged 80 to 89 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 	deaths__female__90-99__medium	Female deaths aged 90 to 99 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 	deaths__female__100-__medium	Female deaths older than 100 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
-	deaths__female__0-4__medium	Number of child deaths	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
-	deaths__female__0__medium	Number of infant deaths	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/deaths__female__FULL__high.csv?nocache	deaths__female__FULL__high
 columns	deaths__female__FULL__high
 	slug	name	type	shortUnit	unit	sourceName	sourceLink	dataPublishedBy
@@ -1731,8 +1753,6 @@ columns	deaths__female__FULL__high
 	deaths__female__80-89__high	Female deaths aged 80 to 89 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 	deaths__female__90-99__high	Female deaths aged 90 to 99 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 	deaths__female__100-__high	Female deaths older than 100 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
-	deaths__female__0-4__high	Number of child deaths	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
-	deaths__female__0__high	Number of infant deaths	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/deaths__male__FULL__records.csv?nocache	deaths__male__FULL__records
 columns	deaths__male__FULL__records
 	slug	name	type	shortUnit	unit	sourceName	sourceLink	dataPublishedBy
@@ -1754,8 +1774,6 @@ columns	deaths__male__FULL__records
 	deaths__male__80-89__records	Male deaths aged 80 to 89 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 	deaths__male__90-99__records	Male deaths aged 90 to 99 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 	deaths__male__100-__records	Male deaths older than 100 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
-	deaths__male__0-4__records	Number of child deaths	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
-	deaths__male__0__records	Number of infant deaths	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/deaths__male__FULL__low.csv?nocache	deaths__male__FULL__low
 columns	deaths__male__FULL__low
 	slug	name	type	shortUnit	unit	sourceName	sourceLink	dataPublishedBy
@@ -1777,8 +1795,6 @@ columns	deaths__male__FULL__low
 	deaths__male__80-89__low	Male deaths aged 80 to 89 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 	deaths__male__90-99__low	Male deaths aged 90 to 99 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 	deaths__male__100-__low	Male deaths older than 100 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
-	deaths__male__0-4__low	Number of child deaths	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
-	deaths__male__0__low	Number of infant deaths	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/deaths__male__FULL__medium.csv?nocache	deaths__male__FULL__medium
 columns	deaths__male__FULL__medium
 	slug	name	type	shortUnit	unit	sourceName	sourceLink	dataPublishedBy
@@ -1800,8 +1816,6 @@ columns	deaths__male__FULL__medium
 	deaths__male__80-89__medium	Male deaths aged 80 to 89 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 	deaths__male__90-99__medium	Male deaths aged 90 to 99 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 	deaths__male__100-__medium	Male deaths older than 100 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
-	deaths__male__0-4__medium	Number of child deaths	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
-	deaths__male__0__medium	Number of infant deaths	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/deaths__male__FULL__high.csv?nocache	deaths__male__FULL__high
 columns	deaths__male__FULL__high
 	slug	name	type	shortUnit	unit	sourceName	sourceLink	dataPublishedBy
@@ -1823,8 +1837,6 @@ columns	deaths__male__FULL__high
 	deaths__male__80-89__high	Male deaths aged 80 to 89 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 	deaths__male__90-99__high	Male deaths aged 90 to 99 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 	deaths__male__100-__high	Male deaths older than 100 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
-	deaths__male__0-4__high	Number of child deaths	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
-	deaths__male__0__high	Number of infant deaths	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/death_rate__all__FULL__records.csv?nocache	death_rate__all__FULL__records
 columns	death_rate__all__FULL__records
 	slug	name	type	shortUnit	unit	sourceName	sourceLink	dataPublishedBy
