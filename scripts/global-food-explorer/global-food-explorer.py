@@ -16,7 +16,7 @@ import sys
 
 outfile = "../../explorers/global-food.explorer.tsv"
 
-default_view = '`Food Dropdown` == "Maize (corn)" and `Metric Dropdown` == "Production" and `Per Capita Checkbox` == "false"'
+default_view = '`Food Dropdown` == "Maize (corn)" and `Metric Dropdown` == "Production" and `Per capita Checkbox` == "false"'
 
 # %%
 
@@ -109,7 +109,7 @@ col_order = [
     "Food Dropdown",
     "Metric Dropdown",
     "Unit Radio",
-    "Per Capita Checkbox",
+    "Per capita Checkbox",
     "subtitle",
     "type",
     "ySlugs",
