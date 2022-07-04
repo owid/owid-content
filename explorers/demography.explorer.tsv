@@ -715,14 +715,14 @@ graphers
 	Fertility rate from mothers aged 45 to 49 years	Fertility rate	Both sexes	Mothers aged 45 - 49 years	Low	fertility_rate__all__45-49__low	fertility_rate__all__FULL__low	The projection of fertility to 2100 is based on the UN's low population scenario.	LineChart	0	true			
 	Fertility rate from mothers aged 45 to 49 years	Fertility rate	Both sexes	Mothers aged 45 - 49 years	Medium	fertility_rate__all__45-49__medium	fertility_rate__all__FULL__medium	The projection of fertility to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
 	Fertility rate from mothers aged 45 to 49 years	Fertility rate	Both sexes	Mothers aged 45 - 49 years	High	fertility_rate__all__45-49__high	fertility_rate__all__FULL__high	The projection of fertility to 2100 is based on the UN's high population scenario.	LineChart	0	true			
-	Natural growth rate	Natural growth rate	Both sexes	Total	None	growth_natural_rate__all__all__records	growth_natural_rate__all__FULL__records	Natural population growth is the population increase determined by births and deaths. Migration flows are not taken into account.\n	LineChart	0	true			
-	Natural growth rate	Natural growth rate	Both sexes	Total	Low	growth_natural_rate__all__all__low	growth_natural_rate__all__FULL__low	Natural population growth is the population increase determined by births and deaths. Migration flows are not taken into account.\nThe projection of growth rate to 2100 is based on the UN's low population scenario.	LineChart	0	true			
-	Natural growth rate	Natural growth rate	Both sexes	Total	Medium	growth_natural_rate__all__all__medium	growth_natural_rate__all__FULL__medium	Natural population growth is the population increase determined by births and deaths. Migration flows are not taken into account.\nThe projection of growth rate to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
-	Natural growth rate	Natural growth rate	Both sexes	Total	High	growth_natural_rate__all__all__high	growth_natural_rate__all__FULL__high	Natural population growth is the population increase determined by births and deaths. Migration flows are not taken into account.\nThe projection of growth rate to 2100 is based on the UN's high population scenario.	LineChart	0	true			
-	Growth rate	Growth rate	Both sexes	Total	None	growth_rate__all__all__records	growth_rate__all__FULL__records	Annual rate of population change takes births, deaths and migration into account.\n	LineChart	0	true			
-	Growth rate	Growth rate	Both sexes	Total	Low	growth_rate__all__all__low	growth_rate__all__FULL__low	Annual rate of population change takes births, deaths and migration into account.\nThe projection of growth rate to 2100 is based on the UN's low population scenario.	LineChart	0	true			
-	Growth rate	Growth rate	Both sexes	Total	Medium	growth_rate__all__all__medium	growth_rate__all__FULL__medium	Annual rate of population change takes births, deaths and migration into account.\nThe projection of growth rate to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
-	Growth rate	Growth rate	Both sexes	Total	High	growth_rate__all__all__high	growth_rate__all__FULL__high	Annual rate of population change takes births, deaths and migration into account.\nThe projection of growth rate to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Natural population growth rate	Natural growth rate	Both sexes	Total	None	growth_natural_rate__all__all__records	growth_natural_rate__all__FULL__records	Natural population growth is the population increase determined by births and deaths. Migration flows are not taken into account.\n	LineChart	0	true			
+	Natural population growth rate	Natural growth rate	Both sexes	Total	Low	growth_natural_rate__all__all__low	growth_natural_rate__all__FULL__low	Natural population growth is the population increase determined by births and deaths. Migration flows are not taken into account.\nThe projection of growth rate to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Natural population growth rate	Natural growth rate	Both sexes	Total	Medium	growth_natural_rate__all__all__medium	growth_natural_rate__all__FULL__medium	Natural population growth is the population increase determined by births and deaths. Migration flows are not taken into account.\nThe projection of growth rate to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Natural population growth rate	Natural growth rate	Both sexes	Total	High	growth_natural_rate__all__all__high	growth_natural_rate__all__FULL__high	Natural population growth is the population increase determined by births and deaths. Migration flows are not taken into account.\nThe projection of growth rate to 2100 is based on the UN's high population scenario.	LineChart	0	true			
+	Population growth rate	Growth rate	Both sexes	Total	None	growth_rate__all__all__records	growth_rate__all__FULL__records	Annual rate of population change takes births, deaths and migration into account.\n	LineChart	0	true			
+	Population growth rate	Growth rate	Both sexes	Total	Low	growth_rate__all__all__low	growth_rate__all__FULL__low	Annual rate of population change takes births, deaths and migration into account.\nThe projection of growth rate to 2100 is based on the UN's low population scenario.	LineChart	0	true			
+	Population growth rate	Growth rate	Both sexes	Total	Medium	growth_rate__all__all__medium	growth_rate__all__FULL__medium	Annual rate of population change takes births, deaths and migration into account.\nThe projection of growth rate to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
+	Population growth rate	Growth rate	Both sexes	Total	High	growth_rate__all__all__high	growth_rate__all__FULL__high	Annual rate of population change takes births, deaths and migration into account.\nThe projection of growth rate to 2100 is based on the UN's high population scenario.	LineChart	0	true			
 	Life expectancy at birth	Life expectancy	Both sexes	At birth	None	life_expectancy__all__at_birth__records	life_expectancy__all__FULL__records		LineChart	0	true			
 	Life expectancy at birth	Life expectancy	Both sexes	At birth	Low	life_expectancy__all__at_birth__low	life_expectancy__all__FULL__low	The projection of life expectancy to 2100 is based on the UN's low population scenario.	LineChart	0	true			
 	Life expectancy at birth	Life expectancy	Both sexes	At birth	Medium	life_expectancy__all__at_birth__medium	life_expectancy__all__FULL__medium	The projection of life expectancy to 2100 is based on the UN's medium population scenario.	LineChart	0	true			
@@ -1966,49 +1966,49 @@ columns	growth_natural_rate__all__FULL__records
 	slug	name	type	shortUnit	unit	sourceName	sourceLink	dataPublishedBy
 	location	Country name	EntityName
 	year	Year	Year
-	growth_natural_rate__all__all__records	Natural growth rate	Numeric	%	%	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	growth_natural_rate__all__all__records	Natural population growth rate	Numeric	%	%	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/growth_natural_rate__all__FULL__low.csv?nocache	growth_natural_rate__all__FULL__low
 columns	growth_natural_rate__all__FULL__low
 	slug	name	type	shortUnit	unit	sourceName	sourceLink	dataPublishedBy
 	location	Country name	EntityName
 	year	Year	Year
-	growth_natural_rate__all__all__low	Natural growth rate	Numeric	%	%	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	growth_natural_rate__all__all__low	Natural population growth rate	Numeric	%	%	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/growth_natural_rate__all__FULL__medium.csv?nocache	growth_natural_rate__all__FULL__medium
 columns	growth_natural_rate__all__FULL__medium
 	slug	name	type	shortUnit	unit	sourceName	sourceLink	dataPublishedBy
 	location	Country name	EntityName
 	year	Year	Year
-	growth_natural_rate__all__all__medium	Natural growth rate	Numeric	%	%	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	growth_natural_rate__all__all__medium	Natural population growth rate	Numeric	%	%	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/growth_natural_rate__all__FULL__high.csv?nocache	growth_natural_rate__all__FULL__high
 columns	growth_natural_rate__all__FULL__high
 	slug	name	type	shortUnit	unit	sourceName	sourceLink	dataPublishedBy
 	location	Country name	EntityName
 	year	Year	Year
-	growth_natural_rate__all__all__high	Natural growth rate	Numeric	%	%	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	growth_natural_rate__all__all__high	Natural population growth rate	Numeric	%	%	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/growth_rate__all__FULL__records.csv?nocache	growth_rate__all__FULL__records
 columns	growth_rate__all__FULL__records
 	slug	name	type	shortUnit	unit	sourceName	sourceLink	dataPublishedBy
 	location	Country name	EntityName
 	year	Year	Year
-	growth_rate__all__all__records	Growth rate	Numeric	%	%	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	growth_rate__all__all__records	Population growth rate	Numeric	%	%	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/growth_rate__all__FULL__low.csv?nocache	growth_rate__all__FULL__low
 columns	growth_rate__all__FULL__low
 	slug	name	type	shortUnit	unit	sourceName	sourceLink	dataPublishedBy
 	location	Country name	EntityName
 	year	Year	Year
-	growth_rate__all__all__low	Growth rate	Numeric	%	%	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	growth_rate__all__all__low	Population growth rate	Numeric	%	%	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/growth_rate__all__FULL__medium.csv?nocache	growth_rate__all__FULL__medium
 columns	growth_rate__all__FULL__medium
 	slug	name	type	shortUnit	unit	sourceName	sourceLink	dataPublishedBy
 	location	Country name	EntityName
 	year	Year	Year
-	growth_rate__all__all__medium	Growth rate	Numeric	%	%	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	growth_rate__all__all__medium	Population growth rate	Numeric	%	%	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/growth_rate__all__FULL__high.csv?nocache	growth_rate__all__FULL__high
 columns	growth_rate__all__FULL__high
 	slug	name	type	shortUnit	unit	sourceName	sourceLink	dataPublishedBy
 	location	Country name	EntityName
 	year	Year	Year
-	growth_rate__all__all__high	Growth rate	Numeric	%	%	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+	growth_rate__all__all__high	Population growth rate	Numeric	%	%	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/life_expectancy__all__FULL__records.csv?nocache	life_expectancy__all__FULL__records
 columns	life_expectancy__all__FULL__records
 	slug	name	type	shortUnit	unit	sourceName	sourceLink	dataPublishedBy
