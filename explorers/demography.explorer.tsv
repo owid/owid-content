@@ -760,10 +760,14 @@ graphers
 	Male life expectancy at age 80	Life expectancy	Male	At age 80	Low	life_expectancy__male__80__low	life_expectancy__male__FULL__low	The projection of life expectancy to 2100 is based on the UN's low population scenario.	LineChart		0	true			
 	Male life expectancy at age 80	Life expectancy	Male	At age 80	Medium	life_expectancy__male__80__medium	life_expectancy__male__FULL__medium	The projection of life expectancy to 2100 is based on the UN's medium population scenario.	LineChart		0	true			
 	Male life expectancy at age 80	Life expectancy	Male	At age 80	High	life_expectancy__male__80__high	life_expectancy__male__FULL__high	The projection of life expectancy to 2100 is based on the UN's high population scenario.	LineChart		0	true			
-	Net migration	Net migration	Both sexes	Total	None	net_migration__all__all__records	net_migration__all__FULL__records		LineChart		0	true			
-	Net migration	Net migration	Both sexes	Total	Low	net_migration__all__all__low	net_migration__all__FULL__low	The projection of migration to 2100 is based on the UN's low population scenario.	LineChart		0	true			
-	Net migration	Net migration	Both sexes	Total	Medium	net_migration__all__all__medium	net_migration__all__FULL__medium	The projection of migration to 2100 is based on the UN's medium population scenario.	LineChart		0	true			
-	Net migration	Net migration	Both sexes	Total	High	net_migration__all__all__high	net_migration__all__FULL__high	The projection of migration to 2100 is based on the UN's high population scenario.	LineChart		0	true			
+	Net migration	Net migration	Both sexes	Total	None	net_migration__all__all__records	net_migration__all__FULL__records	Net migration is the total the number of immigrants (people moving into a given country) minus the number of emigrants (people moving out of the country) over the previous five years. It is expressed as average annual net number of migrants.\n	LineChart		0	true			
+	Net migration	Net migration	Both sexes	Total	Low	net_migration__all__all__low	net_migration__all__FULL__low	Net migration is the total the number of immigrants (people moving into a given country) minus the number of emigrants (people moving out of the country) over the previous five years. It is expressed as average annual net number of migrants.\nThe projection of migration to 2100 is based on the UN's low population scenario.	LineChart		0	true			
+	Net migration	Net migration	Both sexes	Total	Medium	net_migration__all__all__medium	net_migration__all__FULL__medium	Net migration is the total the number of immigrants (people moving into a given country) minus the number of emigrants (people moving out of the country) over the previous five years. It is expressed as average annual net number of migrants.\nThe projection of migration to 2100 is based on the UN's medium population scenario.	LineChart		0	true			
+	Net migration	Net migration	Both sexes	Total	High	net_migration__all__all__high	net_migration__all__FULL__high	Net migration is the total the number of immigrants (people moving into a given country) minus the number of emigrants (people moving out of the country) over the previous five years. It is expressed as average annual net number of migrants.\nThe projection of migration to 2100 is based on the UN's high population scenario.	LineChart		0	true			
+	Net migration rate	Net migration rate	Both sexes	Total	None	net_migration_rate__all__all__records	net_migration_rate__all__FULL__records	Net migration rate is the number of immigrants (people moving into a given country) minus the number of emigrants (people moving out of the country) in the previous five years, divided by the person-years lived by the population of the receiving country over that period. It is expressed as average annual net number of migrants per 1,000 population.\n	LineChart		0	true			
+	Net migration rate	Net migration rate	Both sexes	Total	Low	net_migration_rate__all__all__low	net_migration_rate__all__FULL__low	Net migration rate is the number of immigrants (people moving into a given country) minus the number of emigrants (people moving out of the country) in the previous five years, divided by the person-years lived by the population of the receiving country over that period. It is expressed as average annual net number of migrants per 1,000 population.\nThe projection of migration to 2100 is based on the UN's low population scenario.	LineChart		0	true			
+	Net migration rate	Net migration rate	Both sexes	Total	Medium	net_migration_rate__all__all__medium	net_migration_rate__all__FULL__medium	Net migration rate is the number of immigrants (people moving into a given country) minus the number of emigrants (people moving out of the country) in the previous five years, divided by the person-years lived by the population of the receiving country over that period. It is expressed as average annual net number of migrants per 1,000 population.\nThe projection of migration to 2100 is based on the UN's medium population scenario.	LineChart		0	true			
+	Net migration rate	Net migration rate	Both sexes	Total	High	net_migration_rate__all__all__high	net_migration_rate__all__FULL__high	Net migration rate is the number of immigrants (people moving into a given country) minus the number of emigrants (people moving out of the country) in the previous five years, divided by the person-years lived by the population of the receiving country over that period. It is expressed as average annual net number of migrants per 1,000 population.\nThe projection of migration to 2100 is based on the UN's high population scenario.	LineChart		0	true			
 	Sex ratio at birth	Sex ratio	Both sexes	At birth	None	sex_ratio__none__at_birth__records	sex_ratio__none__FULL__records	Sex ratio at birth, measured as the number of male births per 100 female births. Birth ratios are slightly male-biased, with an expected biological ratio of 105 male births per 100 female births.\n	LineChart		0	true			
 	Sex ratio at birth	Sex ratio	Both sexes	At birth	Low	sex_ratio__none__at_birth__low	sex_ratio__none__FULL__low	Sex ratio at birth, measured as the number of male births per 100 female births. Birth ratios are slightly male-biased, with an expected biological ratio of 105 male births per 100 female births.\nThe projection of the sex ratio to 2100 is based on the UN's low population scenario.	LineChart		0	true			
 	Sex ratio at birth	Sex ratio	Both sexes	At birth	Medium	sex_ratio__none__at_birth__medium	sex_ratio__none__FULL__medium	Sex ratio at birth, measured as the number of male births per 100 female births. Birth ratios are slightly male-biased, with an expected biological ratio of 105 male births per 100 female births.\nThe projection of the sex ratio to 2100 is based on the UN's medium population scenario.	LineChart		0	true			
@@ -2122,6 +2126,30 @@ columns	net_migration__all__FULL__high
 	location	Country name	EntityName
 	year	Year	Year
 	net_migration__all__all__high	Net migration	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+table	https://files.ourworldindata.org/data/unwpp-unstable-v3/net_migration_rate__all__FULL__records.csv?nocache	net_migration_rate__all__FULL__records
+columns	net_migration_rate__all__FULL__records
+	slug	name	type	shortUnit	unit	sourceName	sourceLink	dataPublishedBy
+	location	Country name	EntityName
+	year	Year	Year
+	net_migration_rate__all__all__records	Net migration rate	Numeric	%	%	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+table	https://files.ourworldindata.org/data/unwpp-unstable-v3/net_migration_rate__all__FULL__low.csv?nocache	net_migration_rate__all__FULL__low
+columns	net_migration_rate__all__FULL__low
+	slug	name	type	shortUnit	unit	sourceName	sourceLink	dataPublishedBy
+	location	Country name	EntityName
+	year	Year	Year
+	net_migration_rate__all__all__low	Net migration rate	Numeric	%	%	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+table	https://files.ourworldindata.org/data/unwpp-unstable-v3/net_migration_rate__all__FULL__medium.csv?nocache	net_migration_rate__all__FULL__medium
+columns	net_migration_rate__all__FULL__medium
+	slug	name	type	shortUnit	unit	sourceName	sourceLink	dataPublishedBy
+	location	Country name	EntityName
+	year	Year	Year
+	net_migration_rate__all__all__medium	Net migration rate	Numeric	%	%	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+table	https://files.ourworldindata.org/data/unwpp-unstable-v3/net_migration_rate__all__FULL__high.csv?nocache	net_migration_rate__all__FULL__high
+columns	net_migration_rate__all__FULL__high
+	slug	name	type	shortUnit	unit	sourceName	sourceLink	dataPublishedBy
+	location	Country name	EntityName
+	year	Year	Year
+	net_migration_rate__all__all__high	Net migration rate	Numeric	%	%	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/sex_ratio__none__FULL__records.csv?nocache	sex_ratio__none__FULL__records
 columns	sex_ratio__none__FULL__records
 	slug	name	type	shortUnit	unit	sourceName	sourceLink	dataPublishedBy
