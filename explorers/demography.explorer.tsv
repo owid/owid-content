@@ -516,10 +516,6 @@ graphers
 	Deaths aged 90 to 99 years	Deaths	Both sexes	90 - 99 years	Low	deaths__all__90-99__low	deaths__all__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart		0	true			
 	Deaths aged 90 to 99 years	Deaths	Both sexes	90 - 99 years	Medium	deaths__all__90-99__medium	deaths__all__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart		0	true			
 	Deaths aged 90 to 99 years	Deaths	Both sexes	90 - 99 years	High	deaths__all__90-99__high	deaths__all__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart		0	true			
-	Deaths older than 100 years	Deaths	Both sexes	100+ years	None	deaths__all__100-__records	deaths__all__FULL__records		LineChart		0	true			
-	Deaths older than 100 years	Deaths	Both sexes	100+ years	Low	deaths__all__100-__low	deaths__all__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart		0	true			
-	Deaths older than 100 years	Deaths	Both sexes	100+ years	Medium	deaths__all__100-__medium	deaths__all__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart		0	true			
-	Deaths older than 100 years	Deaths	Both sexes	100+ years	High	deaths__all__100-__high	deaths__all__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart		0	true			
 	Female deaths	Deaths	Female	Total	None	deaths__female__all__records	deaths__female__FULL__records		LineChart		0	true			
 	Female deaths	Deaths	Female	Total	Low	deaths__female__all__low	deaths__female__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart		0	true			
 	Female deaths	Deaths	Female	Total	Medium	deaths__female__all__medium	deaths__female__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart		0	true			
@@ -580,10 +576,6 @@ graphers
 	Female deaths aged 90 to 99 years	Deaths	Female	90 - 99 years	Low	deaths__female__90-99__low	deaths__female__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart		0	true			
 	Female deaths aged 90 to 99 years	Deaths	Female	90 - 99 years	Medium	deaths__female__90-99__medium	deaths__female__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart		0	true			
 	Female deaths aged 90 to 99 years	Deaths	Female	90 - 99 years	High	deaths__female__90-99__high	deaths__female__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart		0	true			
-	Female deaths older than 100 years	Deaths	Female	100+ years	None	deaths__female__100-__records	deaths__female__FULL__records		LineChart		0	true			
-	Female deaths older than 100 years	Deaths	Female	100+ years	Low	deaths__female__100-__low	deaths__female__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart		0	true			
-	Female deaths older than 100 years	Deaths	Female	100+ years	Medium	deaths__female__100-__medium	deaths__female__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart		0	true			
-	Female deaths older than 100 years	Deaths	Female	100+ years	High	deaths__female__100-__high	deaths__female__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart		0	true			
 	Male deaths	Deaths	Male	Total	None	deaths__male__all__records	deaths__male__FULL__records		LineChart		0	true			
 	Male deaths	Deaths	Male	Total	Low	deaths__male__all__low	deaths__male__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart		0	true			
 	Male deaths	Deaths	Male	Total	Medium	deaths__male__all__medium	deaths__male__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart		0	true			
@@ -644,10 +636,6 @@ graphers
 	Male deaths aged 90 to 99 years	Deaths	Male	90 - 99 years	Low	deaths__male__90-99__low	deaths__male__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart		0	true			
 	Male deaths aged 90 to 99 years	Deaths	Male	90 - 99 years	Medium	deaths__male__90-99__medium	deaths__male__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart		0	true			
 	Male deaths aged 90 to 99 years	Deaths	Male	90 - 99 years	High	deaths__male__90-99__high	deaths__male__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart		0	true			
-	Male deaths older than 100 years	Deaths	Male	100+ years	None	deaths__male__100-__records	deaths__male__FULL__records		LineChart		0	true			
-	Male deaths older than 100 years	Deaths	Male	100+ years	Low	deaths__male__100-__low	deaths__male__FULL__low	The projection of deaths to 2100 is based on the UN's low population scenario.	LineChart		0	true			
-	Male deaths older than 100 years	Deaths	Male	100+ years	Medium	deaths__male__100-__medium	deaths__male__FULL__medium	The projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart		0	true			
-	Male deaths older than 100 years	Deaths	Male	100+ years	High	deaths__male__100-__high	deaths__male__FULL__high	The projection of deaths to 2100 is based on the UN's high population scenario.	LineChart		0	true			
 	Death rate	Death rate	Both sexes	Total	None	death_rate__all__all__records	death_rate__all__FULL__records	The number of deaths occurring during the year, per 1,000 people\n	LineChart		0	true			
 	Death rate	Death rate	Both sexes	Total	Low	death_rate__all__all__low	death_rate__all__FULL__low	The number of deaths occurring during the year, per 1,000 people\nThe projection of deaths to 2100 is based on the UN's low population scenario.	LineChart		0	true			
 	Death rate	Death rate	Both sexes	Total	Medium	death_rate__all__all__medium	death_rate__all__FULL__medium	The number of deaths occurring during the year, per 1,000 people\nThe projection of deaths to 2100 is based on the UN's medium population scenario.	LineChart		0	true			
@@ -1606,7 +1594,6 @@ columns	deaths__all__FULL__records
 	deaths__all__70-79__records	Deaths aged 70 to 79 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 	deaths__all__80-89__records	Deaths aged 80 to 89 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 	deaths__all__90-99__records	Deaths aged 90 to 99 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
-	deaths__all__100-__records	Deaths older than 100 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/deaths__all__FULL__low.csv?nocache	deaths__all__FULL__low
 columns	deaths__all__FULL__low
 	slug	name	type	shortUnit	unit	sourceName	sourceLink	dataPublishedBy
@@ -1627,7 +1614,6 @@ columns	deaths__all__FULL__low
 	deaths__all__70-79__low	Deaths aged 70 to 79 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 	deaths__all__80-89__low	Deaths aged 80 to 89 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 	deaths__all__90-99__low	Deaths aged 90 to 99 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
-	deaths__all__100-__low	Deaths older than 100 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/deaths__all__FULL__medium.csv?nocache	deaths__all__FULL__medium
 columns	deaths__all__FULL__medium
 	slug	name	type	shortUnit	unit	sourceName	sourceLink	dataPublishedBy
@@ -1648,7 +1634,6 @@ columns	deaths__all__FULL__medium
 	deaths__all__70-79__medium	Deaths aged 70 to 79 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 	deaths__all__80-89__medium	Deaths aged 80 to 89 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 	deaths__all__90-99__medium	Deaths aged 90 to 99 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
-	deaths__all__100-__medium	Deaths older than 100 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/deaths__all__FULL__high.csv?nocache	deaths__all__FULL__high
 columns	deaths__all__FULL__high
 	slug	name	type	shortUnit	unit	sourceName	sourceLink	dataPublishedBy
@@ -1669,7 +1654,6 @@ columns	deaths__all__FULL__high
 	deaths__all__70-79__high	Deaths aged 70 to 79 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 	deaths__all__80-89__high	Deaths aged 80 to 89 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 	deaths__all__90-99__high	Deaths aged 90 to 99 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
-	deaths__all__100-__high	Deaths older than 100 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/deaths__female__FULL__records.csv?nocache	deaths__female__FULL__records
 columns	deaths__female__FULL__records
 	slug	name	type	shortUnit	unit	sourceName	sourceLink	dataPublishedBy
@@ -1690,7 +1674,6 @@ columns	deaths__female__FULL__records
 	deaths__female__70-79__records	Female deaths aged 70 to 79 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 	deaths__female__80-89__records	Female deaths aged 80 to 89 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 	deaths__female__90-99__records	Female deaths aged 90 to 99 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
-	deaths__female__100-__records	Female deaths older than 100 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/deaths__female__FULL__low.csv?nocache	deaths__female__FULL__low
 columns	deaths__female__FULL__low
 	slug	name	type	shortUnit	unit	sourceName	sourceLink	dataPublishedBy
@@ -1711,7 +1694,6 @@ columns	deaths__female__FULL__low
 	deaths__female__70-79__low	Female deaths aged 70 to 79 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 	deaths__female__80-89__low	Female deaths aged 80 to 89 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 	deaths__female__90-99__low	Female deaths aged 90 to 99 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
-	deaths__female__100-__low	Female deaths older than 100 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/deaths__female__FULL__medium.csv?nocache	deaths__female__FULL__medium
 columns	deaths__female__FULL__medium
 	slug	name	type	shortUnit	unit	sourceName	sourceLink	dataPublishedBy
@@ -1732,7 +1714,6 @@ columns	deaths__female__FULL__medium
 	deaths__female__70-79__medium	Female deaths aged 70 to 79 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 	deaths__female__80-89__medium	Female deaths aged 80 to 89 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 	deaths__female__90-99__medium	Female deaths aged 90 to 99 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
-	deaths__female__100-__medium	Female deaths older than 100 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/deaths__female__FULL__high.csv?nocache	deaths__female__FULL__high
 columns	deaths__female__FULL__high
 	slug	name	type	shortUnit	unit	sourceName	sourceLink	dataPublishedBy
@@ -1753,7 +1734,6 @@ columns	deaths__female__FULL__high
 	deaths__female__70-79__high	Female deaths aged 70 to 79 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 	deaths__female__80-89__high	Female deaths aged 80 to 89 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 	deaths__female__90-99__high	Female deaths aged 90 to 99 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
-	deaths__female__100-__high	Female deaths older than 100 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/deaths__male__FULL__records.csv?nocache	deaths__male__FULL__records
 columns	deaths__male__FULL__records
 	slug	name	type	shortUnit	unit	sourceName	sourceLink	dataPublishedBy
@@ -1774,7 +1754,6 @@ columns	deaths__male__FULL__records
 	deaths__male__70-79__records	Male deaths aged 70 to 79 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 	deaths__male__80-89__records	Male deaths aged 80 to 89 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 	deaths__male__90-99__records	Male deaths aged 90 to 99 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
-	deaths__male__100-__records	Male deaths older than 100 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/deaths__male__FULL__low.csv?nocache	deaths__male__FULL__low
 columns	deaths__male__FULL__low
 	slug	name	type	shortUnit	unit	sourceName	sourceLink	dataPublishedBy
@@ -1795,7 +1774,6 @@ columns	deaths__male__FULL__low
 	deaths__male__70-79__low	Male deaths aged 70 to 79 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 	deaths__male__80-89__low	Male deaths aged 80 to 89 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 	deaths__male__90-99__low	Male deaths aged 90 to 99 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
-	deaths__male__100-__low	Male deaths older than 100 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/deaths__male__FULL__medium.csv?nocache	deaths__male__FULL__medium
 columns	deaths__male__FULL__medium
 	slug	name	type	shortUnit	unit	sourceName	sourceLink	dataPublishedBy
@@ -1816,7 +1794,6 @@ columns	deaths__male__FULL__medium
 	deaths__male__70-79__medium	Male deaths aged 70 to 79 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 	deaths__male__80-89__medium	Male deaths aged 80 to 89 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 	deaths__male__90-99__medium	Male deaths aged 90 to 99 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
-	deaths__male__100-__medium	Male deaths older than 100 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/deaths__male__FULL__high.csv?nocache	deaths__male__FULL__high
 columns	deaths__male__FULL__high
 	slug	name	type	shortUnit	unit	sourceName	sourceLink	dataPublishedBy
@@ -1837,7 +1814,6 @@ columns	deaths__male__FULL__high
 	deaths__male__70-79__high	Male deaths aged 70 to 79 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 	deaths__male__80-89__high	Male deaths aged 80 to 89 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 	deaths__male__90-99__high	Male deaths aged 90 to 99 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
-	deaths__male__100-__high	Male deaths older than 100 years	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/death_rate__all__FULL__records.csv?nocache	death_rate__all__FULL__records
 columns	death_rate__all__FULL__records
 	slug	name	type	shortUnit	unit	sourceName	sourceLink	dataPublishedBy
