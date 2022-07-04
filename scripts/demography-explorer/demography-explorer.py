@@ -24,7 +24,7 @@ def substitute_rows(row):
 
 def table_def(tableSlug, rows, display_names):
     table_def = f"table	{file_url(tableSlug)}	{tableSlug}"
-    rows["ySlugs"] = rows["ySlugs"].apply(lambda x: x.split(" "))
+    rows["ySlugs"] = rows["ySlugs"].map(lambda x: x.split(" "))
     rows = rows.explode("ySlugs").drop_duplicates("ySlugs")
     col_defs = [
         f"{row['ySlugs']}\t{display_names[row['ySlugs']]}\tNumeric\t{row['metric__shortUnit']}\t{row['metric__unit']}\tUnited Nations World Population Prospects (2022)\thttps://population.un.org/wpp/\tUN Population Division"
@@ -85,6 +85,11 @@ for col in ["title", "subtitle"]:
 
 # %%
 # Extract column display names from ySlugs
+# The `ySlugs` column can contain names for column slugs, e.g.:
+# population_broad__all__15-24__records:"15-24 years"
+# Note the colon, and especially the quotes around the name. They are required!
+# This config will use the name "15-24 years" as the display name for the column.
+# If an explicit name is not given, the row's title will be used instead.
 col_display_names = {}
 
 y_slug_re = r"([\w\-+]+):\"([^\"]+)\""
@@ -92,9 +97,11 @@ for idx, row in df.iterrows():
     matches = re.finditer(y_slug_re, row["ySlugs"])
     slugs = []
     for match in matches:
-        slugs.append(match.group(1))
-        if match.group(1) not in col_display_names:
-            col_display_names[match.group(1)] = match.group(2)
+        col_slug, col_name = match.groups()
+        slugs.append(col_slug)
+        if col_slug not in col_display_names:
+            col_display_names[col_slug] = col_name
+
     if len(slugs):
         row["ySlugs"] = " ".join(slugs)
     elif row["ySlugs"] not in col_display_names:
@@ -103,7 +110,11 @@ for idx, row in df.iterrows():
 # %%
 tables = df["tableSlug"].unique()
 table_defs = [
-    table_def(tableSlug, df[df["tableSlug"] == tableSlug], col_display_names)
+    table_def(
+        tableSlug,
+        df[df["tableSlug"] == tableSlug].reset_index(drop=True),
+        col_display_names,
+    )
     for tableSlug in tables
     if tableSlug != ""
 ]
@@ -117,7 +128,7 @@ col_rename = {
 }
 df = df.rename(columns=col_rename)
 
-# Reorder columns such that thed different Dropdown/Radio columns are next to each other
+# Reorder columns such that the different Dropdown/Radio columns are next to each other
 metric_dropdown_idx = df.columns.get_loc("Metric Dropdown")
 cols = df.columns.tolist()
 for i, col in enumerate(col_rename.values()):
