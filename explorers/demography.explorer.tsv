@@ -848,6 +848,10 @@ graphers
 	Old-age dependency ratio	Dependency ratio	Male	Old-age dependency ratio	Low	dependency_ratio_old__male__none__low	dependency_ratio_old__male__FULL__low	The ratio of the number of people older than 64 relative to the number of people in the working age population (15-64 years).\nThe projection of dependency ratio to 2100 is based on the UN's low population scenario.	LineChart		0	true			
 	Old-age dependency ratio	Dependency ratio	Male	Old-age dependency ratio	Medium	dependency_ratio_old__male__none__medium	dependency_ratio_old__male__FULL__medium	The ratio of the number of people older than 64 relative to the number of people in the working age population (15-64 years).\nThe projection of dependency ratio to 2100 is based on the UN's medium population scenario.	LineChart		0	true			
 	Old-age dependency ratio	Dependency ratio	Male	Old-age dependency ratio	High	dependency_ratio_old__male__none__high	dependency_ratio_old__male__FULL__high	The ratio of the number of people older than 64 relative to the number of people in the working age population (15-64 years).\nThe projection of dependency ratio to 2100 is based on the UN's high population scenario.	LineChart		0	true			
+	Median age	Median age	Both sexes	None	None	median_age__all__all__records	median_age__all__FULL__records	The median age divides the population into two parts of equal size; that is, there are as many people with ages above the median age as there are with ages below.\n	LineChart		0	true			
+	Median age	Median age	Both sexes	None	Low	median_age__all__all__low	median_age__all__FULL__low	The median age divides the population into two parts of equal size; that is, there are as many people with ages above the median age as there are with ages below.\nThe projection of the median age to 2100 is based on the UN's low population scenario.	LineChart		0	true			
+	Median age	Median age	Both sexes	None	Medium	median_age__all__all__medium	median_age__all__FULL__medium	The median age divides the population into two parts of equal size; that is, there are as many people with ages above the median age as there are with ages below.\nThe projection of the median age to 2100 is based on the UN's medium population scenario.	LineChart		0	true			
+	Median age	Median age	Both sexes	None	High	median_age__all__all__high	median_age__all__FULL__high	The median age divides the population into two parts of equal size; that is, there are as many people with ages above the median age as there are with ages below.\nThe projection of the median age to 2100 is based on the UN's high population scenario.	LineChart		0	true			
 
 
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/population__all__FULL__records.csv?nocache	population__all__FULL__records
@@ -2402,3 +2406,27 @@ columns	dependency_ratio_old__male__FULL__high
 	location	Country name	EntityName
 	year	Year	Year
 	dependency_ratio_old__male__none__high	Old-age dependency ratio	Numeric	%	%	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+table	https://files.ourworldindata.org/data/unwpp-unstable-v3/median_age__all__FULL__records.csv?nocache	median_age__all__FULL__records
+columns	median_age__all__FULL__records
+	slug	name	type	shortUnit	unit	sourceName	sourceLink	dataPublishedBy
+	location	Country name	EntityName
+	year	Year	Year
+	median_age__all__all__records	Median age	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+table	https://files.ourworldindata.org/data/unwpp-unstable-v3/median_age__all__FULL__low.csv?nocache	median_age__all__FULL__low
+columns	median_age__all__FULL__low
+	slug	name	type	shortUnit	unit	sourceName	sourceLink	dataPublishedBy
+	location	Country name	EntityName
+	year	Year	Year
+	median_age__all__all__low	Median age	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+table	https://files.ourworldindata.org/data/unwpp-unstable-v3/median_age__all__FULL__medium.csv?nocache	median_age__all__FULL__medium
+columns	median_age__all__FULL__medium
+	slug	name	type	shortUnit	unit	sourceName	sourceLink	dataPublishedBy
+	location	Country name	EntityName
+	year	Year	Year
+	median_age__all__all__medium	Median age	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
+table	https://files.ourworldindata.org/data/unwpp-unstable-v3/median_age__all__FULL__high.csv?nocache	median_age__all__FULL__high
+columns	median_age__all__FULL__high
+	slug	name	type	shortUnit	unit	sourceName	sourceLink	dataPublishedBy
+	location	Country name	EntityName
+	year	Year	Year
+	median_age__all__all__high	Median age	Numeric			United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division
