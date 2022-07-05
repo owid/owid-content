@@ -644,14 +644,14 @@ graphers
 	Number of child deaths	Number of child deaths	Both sexes	0 - 4 years	Low	deaths__all__0-4__low	deaths__all__FULL__low	The number of children who die before reaching the age of 5.\nProjections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
 	Number of child deaths	Number of child deaths	Both sexes	0 - 4 years	Medium	deaths__all__0-4__medium	deaths__all__FULL__medium	The number of children who die before reaching the age of 5.\nProjections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
 	Number of child deaths	Number of child deaths	Both sexes	0 - 4 years	High	deaths__all__0-4__high	deaths__all__FULL__high	The number of children who die before reaching the age of 5.\nProjections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
-	Number of child deaths	Number of child deaths	Female	0 - 4 years	None	deaths__female__0-4__records	deaths__female__FULL__records	The number of children who die before reaching the age of 5.\n	LineChart		0	true			
-	Number of child deaths	Number of child deaths	Female	0 - 4 years	Low	deaths__female__0-4__low	deaths__female__FULL__low	The number of children who die before reaching the age of 5.\nProjections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
-	Number of child deaths	Number of child deaths	Female	0 - 4 years	Medium	deaths__female__0-4__medium	deaths__female__FULL__medium	The number of children who die before reaching the age of 5.\nProjections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
-	Number of child deaths	Number of child deaths	Female	0 - 4 years	High	deaths__female__0-4__high	deaths__female__FULL__high	The number of children who die before reaching the age of 5.\nProjections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
-	Number of child deaths	Number of child deaths	Male	0 - 4 years	None	deaths__male__0-4__records	deaths__male__FULL__records	The number of children who die before reaching the age of 5.\n	LineChart		0	true			
-	Number of child deaths	Number of child deaths	Male	0 - 4 years	Low	deaths__male__0-4__low	deaths__male__FULL__low	The number of children who die before reaching the age of 5.\nProjections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
-	Number of child deaths	Number of child deaths	Male	0 - 4 years	Medium	deaths__male__0-4__medium	deaths__male__FULL__medium	The number of children who die before reaching the age of 5.\nProjections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
-	Number of child deaths	Number of child deaths	Male	0 - 4 years	High	deaths__male__0-4__high	deaths__male__FULL__high	The number of children who die before reaching the age of 5.\nProjections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
+	Number of female child deaths	Number of child deaths	Female	0 - 4 years	None	deaths__female__0-4__records	deaths__female__FULL__records	The number of children who die before reaching the age of 5.\n	LineChart		0	true			
+	Number of female child deaths	Number of child deaths	Female	0 - 4 years	Low	deaths__female__0-4__low	deaths__female__FULL__low	The number of children who die before reaching the age of 5.\nProjections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
+	Number of female child deaths	Number of child deaths	Female	0 - 4 years	Medium	deaths__female__0-4__medium	deaths__female__FULL__medium	The number of children who die before reaching the age of 5.\nProjections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
+	Number of female child deaths	Number of child deaths	Female	0 - 4 years	High	deaths__female__0-4__high	deaths__female__FULL__high	The number of children who die before reaching the age of 5.\nProjections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
+	Number of male child deaths	Number of child deaths	Male	0 - 4 years	None	deaths__male__0-4__records	deaths__male__FULL__records	The number of children who die before reaching the age of 5.\n	LineChart		0	true			
+	Number of male child deaths	Number of child deaths	Male	0 - 4 years	Low	deaths__male__0-4__low	deaths__male__FULL__low	The number of children who die before reaching the age of 5.\nProjections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
+	Number of male child deaths	Number of child deaths	Male	0 - 4 years	Medium	deaths__male__0-4__medium	deaths__male__FULL__medium	The number of children who die before reaching the age of 5.\nProjections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
+	Number of male child deaths	Number of child deaths	Male	0 - 4 years	High	deaths__male__0-4__high	deaths__male__FULL__high	The number of children who die before reaching the age of 5.\nProjections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
 	Child mortality rate	Child mortality rate	Both sexes	Total	None	child_mortality_rate__all__all__records	child_mortality_rate__all__FULL__records	The share of children who die before reaching the age of 5.\n	LineChart	This is the probability of a child born in a specific year or period dying before reaching the age of 5, if subject to age-specific mortality rates of that period. This is given as the share of live births.	0	true			
 	Child mortality rate	Child mortality rate	Both sexes	Total	Low	child_mortality_rate__all__all__low	child_mortality_rate__all__FULL__low	The share of children who die before reaching the age of 5.\nProjections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart	This is the probability of a child born in a specific year or period dying before reaching the age of 5, if subject to age-specific mortality rates of that period. This is given as the share of live births.	0	true			
 	Child mortality rate	Child mortality rate	Both sexes	Total	Medium	child_mortality_rate__all__all__medium	child_mortality_rate__all__FULL__medium	The share of children who die before reaching the age of 5.\nProjections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart	This is the probability of a child born in a specific year or period dying before reaching the age of 5, if subject to age-specific mortality rates of that period. This is given as the share of live births.	0	true			
@@ -660,14 +660,14 @@ graphers
 	Number of infant deaths	Number of infant deaths	Both sexes	At age 0	Low	deaths__all__0__low	deaths__all__FULL__low	The number of children who die before reaching the age of 1.\nProjections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
 	Number of infant deaths	Number of infant deaths	Both sexes	At age 0	Medium	deaths__all__0__medium	deaths__all__FULL__medium	The number of children who die before reaching the age of 1.\nProjections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
 	Number of infant deaths	Number of infant deaths	Both sexes	At age 0	High	deaths__all__0__high	deaths__all__FULL__high	The number of children who die before reaching the age of 1.\nProjections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
-	Number of infant deaths	Number of infant deaths	Female	At age 0	None	deaths__female__0__records	deaths__female__FULL__records	The number of children who die before reaching the age of 1.\n	LineChart		0	true			
-	Number of infant deaths	Number of infant deaths	Female	At age 0	Low	deaths__female__0__low	deaths__female__FULL__low	The number of children who die before reaching the age of 1.\nProjections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
-	Number of infant deaths	Number of infant deaths	Female	At age 0	Medium	deaths__female__0__medium	deaths__female__FULL__medium	The number of children who die before reaching the age of 1.\nProjections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
-	Number of infant deaths	Number of infant deaths	Female	At age 0	High	deaths__female__0__high	deaths__female__FULL__high	The number of children who die before reaching the age of 1.\nProjections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
-	Number of infant deaths	Number of infant deaths	Male	At age 0	None	deaths__male__0__records	deaths__male__FULL__records	The number of children who die before reaching the age of 1.\n	LineChart		0	true			
-	Number of infant deaths	Number of infant deaths	Male	At age 0	Low	deaths__male__0__low	deaths__male__FULL__low	The number of children who die before reaching the age of 1.\nProjections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
-	Number of infant deaths	Number of infant deaths	Male	At age 0	Medium	deaths__male__0__medium	deaths__male__FULL__medium	The number of children who die before reaching the age of 1.\nProjections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
-	Number of infant deaths	Number of infant deaths	Male	At age 0	High	deaths__male__0__high	deaths__male__FULL__high	The number of children who die before reaching the age of 1.\nProjections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
+	Number of female infant deaths	Number of infant deaths	Female	At age 0	None	deaths__female__0__records	deaths__female__FULL__records	The number of children who die before reaching the age of 1.\n	LineChart		0	true			
+	Number of female infant deaths	Number of infant deaths	Female	At age 0	Low	deaths__female__0__low	deaths__female__FULL__low	The number of children who die before reaching the age of 1.\nProjections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
+	Number of female infant deaths	Number of infant deaths	Female	At age 0	Medium	deaths__female__0__medium	deaths__female__FULL__medium	The number of children who die before reaching the age of 1.\nProjections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
+	Number of female infant deaths	Number of infant deaths	Female	At age 0	High	deaths__female__0__high	deaths__female__FULL__high	The number of children who die before reaching the age of 1.\nProjections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
+	Number of male infant deaths	Number of infant deaths	Male	At age 0	None	deaths__male__0__records	deaths__male__FULL__records	The number of children who die before reaching the age of 1.\n	LineChart		0	true			
+	Number of male infant deaths	Number of infant deaths	Male	At age 0	Low	deaths__male__0__low	deaths__male__FULL__low	The number of children who die before reaching the age of 1.\nProjections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
+	Number of male infant deaths	Number of infant deaths	Male	At age 0	Medium	deaths__male__0__medium	deaths__male__FULL__medium	The number of children who die before reaching the age of 1.\nProjections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
+	Number of male infant deaths	Number of infant deaths	Male	At age 0	High	deaths__male__0__high	deaths__male__FULL__high	The number of children who die before reaching the age of 1.\nProjections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
 	Infant mortality rate	Infant mortality rate	Both sexes	Total	None	infant_mortality_rate__all__all__records	infant_mortality_rate__all__FULL__records	The share of children who die before reaching the age of 1.\n	LineChart	This is the probability of a child born in a specific year or period dying before reaching the age of 1, if subject to age-specific mortality rates of that period. This is given as the share of live births.	0	true			
 	Infant mortality rate	Infant mortality rate	Both sexes	Total	Low	infant_mortality_rate__all__all__low	infant_mortality_rate__all__FULL__low	The share of children who die before reaching the age of 1.\nProjections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart	This is the probability of a child born in a specific year or period dying before reaching the age of 1, if subject to age-specific mortality rates of that period. This is given as the share of live births.	0	true			
 	Infant mortality rate	Infant mortality rate	Both sexes	Total	Medium	infant_mortality_rate__all__all__medium	infant_mortality_rate__all__FULL__medium	The share of children who die before reaching the age of 1.\nProjections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart	This is the probability of a child born in a specific year or period dying before reaching the age of 1, if subject to age-specific mortality rates of that period. This is given as the share of live births.	0	true			
@@ -820,38 +820,38 @@ graphers
 	Total dependency ratio	Dependency ratio	Both sexes	Total dependency ratio	Low	dependency_ratio_total__all__none__low	dependency_ratio_total__all__FULL__low	The age dependency ratio is the sum of the young population (under age 15) and elderly population (age 65 and over) relative to the working-age population (ages 15 to 64).\nProjections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
 	Total dependency ratio	Dependency ratio	Both sexes	Total dependency ratio	Medium	dependency_ratio_total__all__none__medium	dependency_ratio_total__all__FULL__medium	The age dependency ratio is the sum of the young population (under age 15) and elderly population (age 65 and over) relative to the working-age population (ages 15 to 64).\nProjections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
 	Total dependency ratio	Dependency ratio	Both sexes	Total dependency ratio	High	dependency_ratio_total__all__none__high	dependency_ratio_total__all__FULL__high	The age dependency ratio is the sum of the young population (under age 15) and elderly population (age 65 and over) relative to the working-age population (ages 15 to 64).\nProjections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
-	Total dependency ratio	Dependency ratio	Female	Total dependency ratio	None	dependency_ratio_total__female__none__records	dependency_ratio_total__female__FULL__records	The age dependency ratio is the sum of the young population (under age 15) and elderly population (age 65 and over) relative to the working-age population (ages 15 to 64).\n	LineChart		0	true			
-	Total dependency ratio	Dependency ratio	Female	Total dependency ratio	Low	dependency_ratio_total__female__none__low	dependency_ratio_total__female__FULL__low	The age dependency ratio is the sum of the young population (under age 15) and elderly population (age 65 and over) relative to the working-age population (ages 15 to 64).\nProjections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
-	Total dependency ratio	Dependency ratio	Female	Total dependency ratio	Medium	dependency_ratio_total__female__none__medium	dependency_ratio_total__female__FULL__medium	The age dependency ratio is the sum of the young population (under age 15) and elderly population (age 65 and over) relative to the working-age population (ages 15 to 64).\nProjections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
-	Total dependency ratio	Dependency ratio	Female	Total dependency ratio	High	dependency_ratio_total__female__none__high	dependency_ratio_total__female__FULL__high	The age dependency ratio is the sum of the young population (under age 15) and elderly population (age 65 and over) relative to the working-age population (ages 15 to 64).\nProjections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
-	Total dependency ratio	Dependency ratio	Male	Total dependency ratio	None	dependency_ratio_total__male__none__records	dependency_ratio_total__male__FULL__records	The age dependency ratio is the sum of the young population (under age 15) and elderly population (age 65 and over) relative to the working-age population (ages 15 to 64).\n	LineChart		0	true			
-	Total dependency ratio	Dependency ratio	Male	Total dependency ratio	Low	dependency_ratio_total__male__none__low	dependency_ratio_total__male__FULL__low	The age dependency ratio is the sum of the young population (under age 15) and elderly population (age 65 and over) relative to the working-age population (ages 15 to 64).\nProjections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
-	Total dependency ratio	Dependency ratio	Male	Total dependency ratio	Medium	dependency_ratio_total__male__none__medium	dependency_ratio_total__male__FULL__medium	The age dependency ratio is the sum of the young population (under age 15) and elderly population (age 65 and over) relative to the working-age population (ages 15 to 64).\nProjections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
-	Total dependency ratio	Dependency ratio	Male	Total dependency ratio	High	dependency_ratio_total__male__none__high	dependency_ratio_total__male__FULL__high	The age dependency ratio is the sum of the young population (under age 15) and elderly population (age 65 and over) relative to the working-age population (ages 15 to 64).\nProjections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
+	Total female dependency ratio	Dependency ratio	Female	Total dependency ratio	None	dependency_ratio_total__female__none__records	dependency_ratio_total__female__FULL__records	The age dependency ratio is the sum of the young population (under age 15) and elderly population (age 65 and over) relative to the working-age population (ages 15 to 64).\n	LineChart		0	true			
+	Total female dependency ratio	Dependency ratio	Female	Total dependency ratio	Low	dependency_ratio_total__female__none__low	dependency_ratio_total__female__FULL__low	The age dependency ratio is the sum of the young population (under age 15) and elderly population (age 65 and over) relative to the working-age population (ages 15 to 64).\nProjections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
+	Total female dependency ratio	Dependency ratio	Female	Total dependency ratio	Medium	dependency_ratio_total__female__none__medium	dependency_ratio_total__female__FULL__medium	The age dependency ratio is the sum of the young population (under age 15) and elderly population (age 65 and over) relative to the working-age population (ages 15 to 64).\nProjections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
+	Total female dependency ratio	Dependency ratio	Female	Total dependency ratio	High	dependency_ratio_total__female__none__high	dependency_ratio_total__female__FULL__high	The age dependency ratio is the sum of the young population (under age 15) and elderly population (age 65 and over) relative to the working-age population (ages 15 to 64).\nProjections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
+	Total male dependency ratio	Dependency ratio	Male	Total dependency ratio	None	dependency_ratio_total__male__none__records	dependency_ratio_total__male__FULL__records	The age dependency ratio is the sum of the young population (under age 15) and elderly population (age 65 and over) relative to the working-age population (ages 15 to 64).\n	LineChart		0	true			
+	Total male dependency ratio	Dependency ratio	Male	Total dependency ratio	Low	dependency_ratio_total__male__none__low	dependency_ratio_total__male__FULL__low	The age dependency ratio is the sum of the young population (under age 15) and elderly population (age 65 and over) relative to the working-age population (ages 15 to 64).\nProjections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
+	Total male dependency ratio	Dependency ratio	Male	Total dependency ratio	Medium	dependency_ratio_total__male__none__medium	dependency_ratio_total__male__FULL__medium	The age dependency ratio is the sum of the young population (under age 15) and elderly population (age 65 and over) relative to the working-age population (ages 15 to 64).\nProjections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
+	Total male dependency ratio	Dependency ratio	Male	Total dependency ratio	High	dependency_ratio_total__male__none__high	dependency_ratio_total__male__FULL__high	The age dependency ratio is the sum of the young population (under age 15) and elderly population (age 65 and over) relative to the working-age population (ages 15 to 64).\nProjections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
 	Youth dependency ratio	Dependency ratio	Both sexes	Youth dependency ratio	None	dependency_ratio_child__all__none__records	dependency_ratio_child__all__FULL__records	The ratio of younger dependents - people younger than 15 - to the working-age population - those aged 15 to 64.\n	LineChart		0	true			
 	Youth dependency ratio	Dependency ratio	Both sexes	Youth dependency ratio	Low	dependency_ratio_child__all__none__low	dependency_ratio_child__all__FULL__low	The ratio of younger dependents - people younger than 15 - to the working-age population - those aged 15 to 64.\nProjections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
 	Youth dependency ratio	Dependency ratio	Both sexes	Youth dependency ratio	Medium	dependency_ratio_child__all__none__medium	dependency_ratio_child__all__FULL__medium	The ratio of younger dependents - people younger than 15 - to the working-age population - those aged 15 to 64.\nProjections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
 	Youth dependency ratio	Dependency ratio	Both sexes	Youth dependency ratio	High	dependency_ratio_child__all__none__high	dependency_ratio_child__all__FULL__high	The ratio of younger dependents - people younger than 15 - to the working-age population - those aged 15 to 64.\nProjections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
-	Youth dependency ratio	Dependency ratio	Female	Youth dependency ratio	None	dependency_ratio_child__female__none__records	dependency_ratio_child__female__FULL__records	The ratio of younger dependents - people younger than 15 - to the working-age population - those aged 15 to 64.\n	LineChart		0	true			
-	Youth dependency ratio	Dependency ratio	Female	Youth dependency ratio	Low	dependency_ratio_child__female__none__low	dependency_ratio_child__female__FULL__low	The ratio of younger dependents - people younger than 15 - to the working-age population - those aged 15 to 64.\nProjections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
-	Youth dependency ratio	Dependency ratio	Female	Youth dependency ratio	Medium	dependency_ratio_child__female__none__medium	dependency_ratio_child__female__FULL__medium	The ratio of younger dependents - people younger than 15 - to the working-age population - those aged 15 to 64.\nProjections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
-	Youth dependency ratio	Dependency ratio	Female	Youth dependency ratio	High	dependency_ratio_child__female__none__high	dependency_ratio_child__female__FULL__high	The ratio of younger dependents - people younger than 15 - to the working-age population - those aged 15 to 64.\nProjections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
-	Youth dependency ratio	Dependency ratio	Male	Youth dependency ratio	None	dependency_ratio_child__male__none__records	dependency_ratio_child__male__FULL__records	The ratio of younger dependents - people younger than 15 - to the working-age population - those aged 15 to 64.\n	LineChart		0	true			
-	Youth dependency ratio	Dependency ratio	Male	Youth dependency ratio	Low	dependency_ratio_child__male__none__low	dependency_ratio_child__male__FULL__low	The ratio of younger dependents - people younger than 15 - to the working-age population - those aged 15 to 64.\nProjections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
-	Youth dependency ratio	Dependency ratio	Male	Youth dependency ratio	Medium	dependency_ratio_child__male__none__medium	dependency_ratio_child__male__FULL__medium	The ratio of younger dependents - people younger than 15 - to the working-age population - those aged 15 to 64.\nProjections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
-	Youth dependency ratio	Dependency ratio	Male	Youth dependency ratio	High	dependency_ratio_child__male__none__high	dependency_ratio_child__male__FULL__high	The ratio of younger dependents - people younger than 15 - to the working-age population - those aged 15 to 64.\nProjections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
+	Female youth dependency ratio	Dependency ratio	Female	Youth dependency ratio	None	dependency_ratio_child__female__none__records	dependency_ratio_child__female__FULL__records	The ratio of younger dependents - people younger than 15 - to the working-age population - those aged 15 to 64.\n	LineChart		0	true			
+	Female youth dependency ratio	Dependency ratio	Female	Youth dependency ratio	Low	dependency_ratio_child__female__none__low	dependency_ratio_child__female__FULL__low	The ratio of younger dependents - people younger than 15 - to the working-age population - those aged 15 to 64.\nProjections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
+	Female youth dependency ratio	Dependency ratio	Female	Youth dependency ratio	Medium	dependency_ratio_child__female__none__medium	dependency_ratio_child__female__FULL__medium	The ratio of younger dependents - people younger than 15 - to the working-age population - those aged 15 to 64.\nProjections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
+	Female youth dependency ratio	Dependency ratio	Female	Youth dependency ratio	High	dependency_ratio_child__female__none__high	dependency_ratio_child__female__FULL__high	The ratio of younger dependents - people younger than 15 - to the working-age population - those aged 15 to 64.\nProjections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
+	Male youth dependency ratio	Dependency ratio	Male	Youth dependency ratio	None	dependency_ratio_child__male__none__records	dependency_ratio_child__male__FULL__records	The ratio of younger dependents - people younger than 15 - to the working-age population - those aged 15 to 64.\n	LineChart		0	true			
+	Male youth dependency ratio	Dependency ratio	Male	Youth dependency ratio	Low	dependency_ratio_child__male__none__low	dependency_ratio_child__male__FULL__low	The ratio of younger dependents - people younger than 15 - to the working-age population - those aged 15 to 64.\nProjections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
+	Male youth dependency ratio	Dependency ratio	Male	Youth dependency ratio	Medium	dependency_ratio_child__male__none__medium	dependency_ratio_child__male__FULL__medium	The ratio of younger dependents - people younger than 15 - to the working-age population - those aged 15 to 64.\nProjections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
+	Male youth dependency ratio	Dependency ratio	Male	Youth dependency ratio	High	dependency_ratio_child__male__none__high	dependency_ratio_child__male__FULL__high	The ratio of younger dependents - people younger than 15 - to the working-age population - those aged 15 to 64.\nProjections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
 	Old-age dependency ratio	Dependency ratio	Both sexes	Old-age dependency ratio	None	dependency_ratio_old__all__none__records	dependency_ratio_old__all__FULL__records	The ratio of the number of people older than 64 relative to the number of people in the working age population (15-64 years).\n	LineChart		0	true			
 	Old-age dependency ratio	Dependency ratio	Both sexes	Old-age dependency ratio	Low	dependency_ratio_old__all__none__low	dependency_ratio_old__all__FULL__low	The ratio of the number of people older than 64 relative to the number of people in the working age population (15-64 years).\nProjections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
 	Old-age dependency ratio	Dependency ratio	Both sexes	Old-age dependency ratio	Medium	dependency_ratio_old__all__none__medium	dependency_ratio_old__all__FULL__medium	The ratio of the number of people older than 64 relative to the number of people in the working age population (15-64 years).\nProjections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
 	Old-age dependency ratio	Dependency ratio	Both sexes	Old-age dependency ratio	High	dependency_ratio_old__all__none__high	dependency_ratio_old__all__FULL__high	The ratio of the number of people older than 64 relative to the number of people in the working age population (15-64 years).\nProjections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
-	Old-age dependency ratio	Dependency ratio	Female	Old-age dependency ratio	None	dependency_ratio_old__female__none__records	dependency_ratio_old__female__FULL__records	The ratio of the number of people older than 64 relative to the number of people in the working age population (15-64 years).\n	LineChart		0	true			
-	Old-age dependency ratio	Dependency ratio	Female	Old-age dependency ratio	Low	dependency_ratio_old__female__none__low	dependency_ratio_old__female__FULL__low	The ratio of the number of people older than 64 relative to the number of people in the working age population (15-64 years).\nProjections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
-	Old-age dependency ratio	Dependency ratio	Female	Old-age dependency ratio	Medium	dependency_ratio_old__female__none__medium	dependency_ratio_old__female__FULL__medium	The ratio of the number of people older than 64 relative to the number of people in the working age population (15-64 years).\nProjections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
-	Old-age dependency ratio	Dependency ratio	Female	Old-age dependency ratio	High	dependency_ratio_old__female__none__high	dependency_ratio_old__female__FULL__high	The ratio of the number of people older than 64 relative to the number of people in the working age population (15-64 years).\nProjections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
-	Old-age dependency ratio	Dependency ratio	Male	Old-age dependency ratio	None	dependency_ratio_old__male__none__records	dependency_ratio_old__male__FULL__records	The ratio of the number of people older than 64 relative to the number of people in the working age population (15-64 years).\n	LineChart		0	true			
-	Old-age dependency ratio	Dependency ratio	Male	Old-age dependency ratio	Low	dependency_ratio_old__male__none__low	dependency_ratio_old__male__FULL__low	The ratio of the number of people older than 64 relative to the number of people in the working age population (15-64 years).\nProjections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
-	Old-age dependency ratio	Dependency ratio	Male	Old-age dependency ratio	Medium	dependency_ratio_old__male__none__medium	dependency_ratio_old__male__FULL__medium	The ratio of the number of people older than 64 relative to the number of people in the working age population (15-64 years).\nProjections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
-	Old-age dependency ratio	Dependency ratio	Male	Old-age dependency ratio	High	dependency_ratio_old__male__none__high	dependency_ratio_old__male__FULL__high	The ratio of the number of people older than 64 relative to the number of people in the working age population (15-64 years).\nProjections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
+	Female old-age dependency ratio	Dependency ratio	Female	Old-age dependency ratio	None	dependency_ratio_old__female__none__records	dependency_ratio_old__female__FULL__records	The ratio of the number of people older than 64 relative to the number of people in the working age population (15-64 years).\n	LineChart		0	true			
+	Female old-age dependency ratio	Dependency ratio	Female	Old-age dependency ratio	Low	dependency_ratio_old__female__none__low	dependency_ratio_old__female__FULL__low	The ratio of the number of people older than 64 relative to the number of people in the working age population (15-64 years).\nProjections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
+	Female old-age dependency ratio	Dependency ratio	Female	Old-age dependency ratio	Medium	dependency_ratio_old__female__none__medium	dependency_ratio_old__female__FULL__medium	The ratio of the number of people older than 64 relative to the number of people in the working age population (15-64 years).\nProjections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
+	Female old-age dependency ratio	Dependency ratio	Female	Old-age dependency ratio	High	dependency_ratio_old__female__none__high	dependency_ratio_old__female__FULL__high	The ratio of the number of people older than 64 relative to the number of people in the working age population (15-64 years).\nProjections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
+	Male old-age dependency ratio	Dependency ratio	Male	Old-age dependency ratio	None	dependency_ratio_old__male__none__records	dependency_ratio_old__male__FULL__records	The ratio of the number of people older than 64 relative to the number of people in the working age population (15-64 years).\n	LineChart		0	true			
+	Male old-age dependency ratio	Dependency ratio	Male	Old-age dependency ratio	Low	dependency_ratio_old__male__none__low	dependency_ratio_old__male__FULL__low	The ratio of the number of people older than 64 relative to the number of people in the working age population (15-64 years).\nProjections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
+	Male old-age dependency ratio	Dependency ratio	Male	Old-age dependency ratio	Medium	dependency_ratio_old__male__none__medium	dependency_ratio_old__male__FULL__medium	The ratio of the number of people older than 64 relative to the number of people in the working age population (15-64 years).\nProjections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
+	Male old-age dependency ratio	Dependency ratio	Male	Old-age dependency ratio	High	dependency_ratio_old__male__none__high	dependency_ratio_old__male__FULL__high	The ratio of the number of people older than 64 relative to the number of people in the working age population (15-64 years).\nProjections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
 	Median age	Median age	Both sexes	None	None	median_age__all__all__records	median_age__all__FULL__records	The median age divides the population into two parts of equal size; that is, there are as many people with ages above the median age as there are with ages below.\n	LineChart		0	true			
 	Median age	Median age	Both sexes	None	Low	median_age__all__all__low	median_age__all__FULL__low	The median age divides the population into two parts of equal size; that is, there are as many people with ages above the median age as there are with ages below.\nProjections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
 	Median age	Median age	Both sexes	None	Medium	median_age__all__all__medium	median_age__all__FULL__medium	The median age divides the population into two parts of equal size; that is, there are as many people with ages above the median age as there are with ages below.\nProjections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
@@ -2247,49 +2247,49 @@ columns	dependency_ratio_total__female__FULL__records
 	slug	name	type	sourceName	sourceLink	dataPublishedBy	shortUnit	unit	colorScaleNumericBins	colorScaleScheme
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_total__female__none__records	Total dependency ratio	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	40;50;60;70;80;90;100;110	GnBu
+	dependency_ratio_total__female__none__records	Total female dependency ratio	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	40;50;60;70;80;90;100;110	GnBu
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_total__female__FULL__low.csv?nocache	dependency_ratio_total__female__FULL__low
 columns	dependency_ratio_total__female__FULL__low
 	slug	name	type	sourceName	sourceLink	dataPublishedBy	shortUnit	unit	colorScaleNumericBins	colorScaleScheme
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_total__female__none__low	Total dependency ratio	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	40;50;60;70;80;90;100;110	GnBu
+	dependency_ratio_total__female__none__low	Total female dependency ratio	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	40;50;60;70;80;90;100;110	GnBu
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_total__female__FULL__medium.csv?nocache	dependency_ratio_total__female__FULL__medium
 columns	dependency_ratio_total__female__FULL__medium
 	slug	name	type	sourceName	sourceLink	dataPublishedBy	shortUnit	unit	colorScaleNumericBins	colorScaleScheme
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_total__female__none__medium	Total dependency ratio	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	40;50;60;70;80;90;100;110	GnBu
+	dependency_ratio_total__female__none__medium	Total female dependency ratio	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	40;50;60;70;80;90;100;110	GnBu
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_total__female__FULL__high.csv?nocache	dependency_ratio_total__female__FULL__high
 columns	dependency_ratio_total__female__FULL__high
 	slug	name	type	sourceName	sourceLink	dataPublishedBy	shortUnit	unit	colorScaleNumericBins	colorScaleScheme
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_total__female__none__high	Total dependency ratio	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	40;50;60;70;80;90;100;110	GnBu
+	dependency_ratio_total__female__none__high	Total female dependency ratio	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	40;50;60;70;80;90;100;110	GnBu
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_total__male__FULL__records.csv?nocache	dependency_ratio_total__male__FULL__records
 columns	dependency_ratio_total__male__FULL__records
 	slug	name	type	sourceName	sourceLink	dataPublishedBy	shortUnit	unit	colorScaleNumericBins	colorScaleScheme
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_total__male__none__records	Total dependency ratio	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	40;50;60;70;80;90;100;110	GnBu
+	dependency_ratio_total__male__none__records	Total male dependency ratio	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	40;50;60;70;80;90;100;110	GnBu
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_total__male__FULL__low.csv?nocache	dependency_ratio_total__male__FULL__low
 columns	dependency_ratio_total__male__FULL__low
 	slug	name	type	sourceName	sourceLink	dataPublishedBy	shortUnit	unit	colorScaleNumericBins	colorScaleScheme
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_total__male__none__low	Total dependency ratio	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	40;50;60;70;80;90;100;110	GnBu
+	dependency_ratio_total__male__none__low	Total male dependency ratio	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	40;50;60;70;80;90;100;110	GnBu
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_total__male__FULL__medium.csv?nocache	dependency_ratio_total__male__FULL__medium
 columns	dependency_ratio_total__male__FULL__medium
 	slug	name	type	sourceName	sourceLink	dataPublishedBy	shortUnit	unit	colorScaleNumericBins	colorScaleScheme
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_total__male__none__medium	Total dependency ratio	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	40;50;60;70;80;90;100;110	GnBu
+	dependency_ratio_total__male__none__medium	Total male dependency ratio	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	40;50;60;70;80;90;100;110	GnBu
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_total__male__FULL__high.csv?nocache	dependency_ratio_total__male__FULL__high
 columns	dependency_ratio_total__male__FULL__high
 	slug	name	type	sourceName	sourceLink	dataPublishedBy	shortUnit	unit	colorScaleNumericBins	colorScaleScheme
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_total__male__none__high	Total dependency ratio	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	40;50;60;70;80;90;100;110	GnBu
+	dependency_ratio_total__male__none__high	Total male dependency ratio	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	40;50;60;70;80;90;100;110	GnBu
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_child__all__FULL__records.csv?nocache	dependency_ratio_child__all__FULL__records
 columns	dependency_ratio_child__all__FULL__records
 	slug	name	type	sourceName	sourceLink	dataPublishedBy	shortUnit	unit	colorScaleNumericBins	colorScaleScheme
@@ -2319,49 +2319,49 @@ columns	dependency_ratio_child__female__FULL__records
 	slug	name	type	sourceName	sourceLink	dataPublishedBy	shortUnit	unit	colorScaleNumericBins	colorScaleScheme
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_child__female__none__records	Youth dependency ratio	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	25;30;40;50;75;100;110	GnBu
+	dependency_ratio_child__female__none__records	Female youth dependency ratio	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	25;30;40;50;75;100;110	GnBu
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_child__female__FULL__low.csv?nocache	dependency_ratio_child__female__FULL__low
 columns	dependency_ratio_child__female__FULL__low
 	slug	name	type	sourceName	sourceLink	dataPublishedBy	shortUnit	unit	colorScaleNumericBins	colorScaleScheme
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_child__female__none__low	Youth dependency ratio	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	25;30;40;50;75;100;110	GnBu
+	dependency_ratio_child__female__none__low	Female youth dependency ratio	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	25;30;40;50;75;100;110	GnBu
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_child__female__FULL__medium.csv?nocache	dependency_ratio_child__female__FULL__medium
 columns	dependency_ratio_child__female__FULL__medium
 	slug	name	type	sourceName	sourceLink	dataPublishedBy	shortUnit	unit	colorScaleNumericBins	colorScaleScheme
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_child__female__none__medium	Youth dependency ratio	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	25;30;40;50;75;100;110	GnBu
+	dependency_ratio_child__female__none__medium	Female youth dependency ratio	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	25;30;40;50;75;100;110	GnBu
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_child__female__FULL__high.csv?nocache	dependency_ratio_child__female__FULL__high
 columns	dependency_ratio_child__female__FULL__high
 	slug	name	type	sourceName	sourceLink	dataPublishedBy	shortUnit	unit	colorScaleNumericBins	colorScaleScheme
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_child__female__none__high	Youth dependency ratio	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	25;30;40;50;75;100;110	GnBu
+	dependency_ratio_child__female__none__high	Female youth dependency ratio	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	25;30;40;50;75;100;110	GnBu
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_child__male__FULL__records.csv?nocache	dependency_ratio_child__male__FULL__records
 columns	dependency_ratio_child__male__FULL__records
 	slug	name	type	sourceName	sourceLink	dataPublishedBy	shortUnit	unit	colorScaleNumericBins	colorScaleScheme
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_child__male__none__records	Youth dependency ratio	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	25;30;40;50;75;100;110	GnBu
+	dependency_ratio_child__male__none__records	Male youth dependency ratio	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	25;30;40;50;75;100;110	GnBu
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_child__male__FULL__low.csv?nocache	dependency_ratio_child__male__FULL__low
 columns	dependency_ratio_child__male__FULL__low
 	slug	name	type	sourceName	sourceLink	dataPublishedBy	shortUnit	unit	colorScaleNumericBins	colorScaleScheme
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_child__male__none__low	Youth dependency ratio	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	25;30;40;50;75;100;110	GnBu
+	dependency_ratio_child__male__none__low	Male youth dependency ratio	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	25;30;40;50;75;100;110	GnBu
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_child__male__FULL__medium.csv?nocache	dependency_ratio_child__male__FULL__medium
 columns	dependency_ratio_child__male__FULL__medium
 	slug	name	type	sourceName	sourceLink	dataPublishedBy	shortUnit	unit	colorScaleNumericBins	colorScaleScheme
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_child__male__none__medium	Youth dependency ratio	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	25;30;40;50;75;100;110	GnBu
+	dependency_ratio_child__male__none__medium	Male youth dependency ratio	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	25;30;40;50;75;100;110	GnBu
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_child__male__FULL__high.csv?nocache	dependency_ratio_child__male__FULL__high
 columns	dependency_ratio_child__male__FULL__high
 	slug	name	type	sourceName	sourceLink	dataPublishedBy	shortUnit	unit	colorScaleNumericBins	colorScaleScheme
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_child__male__none__high	Youth dependency ratio	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	25;30;40;50;75;100;110	GnBu
+	dependency_ratio_child__male__none__high	Male youth dependency ratio	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	25;30;40;50;75;100;110	GnBu
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_old__all__FULL__records.csv?nocache	dependency_ratio_old__all__FULL__records
 columns	dependency_ratio_old__all__FULL__records
 	slug	name	type	sourceName	sourceLink	dataPublishedBy	shortUnit	unit	colorScaleNumericBins	colorScaleScheme
@@ -2391,49 +2391,49 @@ columns	dependency_ratio_old__female__FULL__records
 	slug	name	type	sourceName	sourceLink	dataPublishedBy	shortUnit	unit	colorScaleNumericBins	colorScaleScheme
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_old__female__none__records	Old-age dependency ratio	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	5;10;20;30;40;50;60;70	GnBu
+	dependency_ratio_old__female__none__records	Female old-age dependency ratio	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	5;10;20;30;40;50;60;70	GnBu
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_old__female__FULL__low.csv?nocache	dependency_ratio_old__female__FULL__low
 columns	dependency_ratio_old__female__FULL__low
 	slug	name	type	sourceName	sourceLink	dataPublishedBy	shortUnit	unit	colorScaleNumericBins	colorScaleScheme
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_old__female__none__low	Old-age dependency ratio	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	5;10;20;30;40;50;60;70	GnBu
+	dependency_ratio_old__female__none__low	Female old-age dependency ratio	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	5;10;20;30;40;50;60;70	GnBu
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_old__female__FULL__medium.csv?nocache	dependency_ratio_old__female__FULL__medium
 columns	dependency_ratio_old__female__FULL__medium
 	slug	name	type	sourceName	sourceLink	dataPublishedBy	shortUnit	unit	colorScaleNumericBins	colorScaleScheme
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_old__female__none__medium	Old-age dependency ratio	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	5;10;20;30;40;50;60;70	GnBu
+	dependency_ratio_old__female__none__medium	Female old-age dependency ratio	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	5;10;20;30;40;50;60;70	GnBu
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_old__female__FULL__high.csv?nocache	dependency_ratio_old__female__FULL__high
 columns	dependency_ratio_old__female__FULL__high
 	slug	name	type	sourceName	sourceLink	dataPublishedBy	shortUnit	unit	colorScaleNumericBins	colorScaleScheme
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_old__female__none__high	Old-age dependency ratio	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	5;10;20;30;40;50;60;70	GnBu
+	dependency_ratio_old__female__none__high	Female old-age dependency ratio	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	5;10;20;30;40;50;60;70	GnBu
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_old__male__FULL__records.csv?nocache	dependency_ratio_old__male__FULL__records
 columns	dependency_ratio_old__male__FULL__records
 	slug	name	type	sourceName	sourceLink	dataPublishedBy	shortUnit	unit	colorScaleNumericBins	colorScaleScheme
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_old__male__none__records	Old-age dependency ratio	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	5;10;20;30;40;50;60;70	GnBu
+	dependency_ratio_old__male__none__records	Male old-age dependency ratio	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	5;10;20;30;40;50;60;70	GnBu
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_old__male__FULL__low.csv?nocache	dependency_ratio_old__male__FULL__low
 columns	dependency_ratio_old__male__FULL__low
 	slug	name	type	sourceName	sourceLink	dataPublishedBy	shortUnit	unit	colorScaleNumericBins	colorScaleScheme
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_old__male__none__low	Old-age dependency ratio	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	5;10;20;30;40;50;60;70	GnBu
+	dependency_ratio_old__male__none__low	Male old-age dependency ratio	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	5;10;20;30;40;50;60;70	GnBu
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_old__male__FULL__medium.csv?nocache	dependency_ratio_old__male__FULL__medium
 columns	dependency_ratio_old__male__FULL__medium
 	slug	name	type	sourceName	sourceLink	dataPublishedBy	shortUnit	unit	colorScaleNumericBins	colorScaleScheme
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_old__male__none__medium	Old-age dependency ratio	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	5;10;20;30;40;50;60;70	GnBu
+	dependency_ratio_old__male__none__medium	Male old-age dependency ratio	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	5;10;20;30;40;50;60;70	GnBu
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_old__male__FULL__high.csv?nocache	dependency_ratio_old__male__FULL__high
 columns	dependency_ratio_old__male__FULL__high
 	slug	name	type	sourceName	sourceLink	dataPublishedBy	shortUnit	unit	colorScaleNumericBins	colorScaleScheme
 	location	Country name	EntityName
 	year	Year	Year
-	dependency_ratio_old__male__none__high	Old-age dependency ratio	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	5;10;20;30;40;50;60;70	GnBu
+	dependency_ratio_old__male__none__high	Male old-age dependency ratio	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	5;10;20;30;40;50;60;70	GnBu
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/median_age__all__FULL__records.csv?nocache	median_age__all__FULL__records
 columns	median_age__all__FULL__records
 	slug	name	type	sourceName	sourceLink	dataPublishedBy	shortUnit	unit	colorScaleNumericBins	colorScaleScheme
