@@ -25,16 +25,40 @@ def substitute_rows(row):
 def table_def(tableSlug, rows, display_names):
     table_def = f"table	{file_url(tableSlug)}	{tableSlug}"
     rows["ySlugs"] = rows["ySlugs"].map(lambda x: x.split(" "))
-    rows = rows.explode("ySlugs").drop_duplicates("ySlugs")
-    col_defs = [
-        f"{row['ySlugs']}\t{display_names[row['ySlugs']]}\tNumeric\t{row['metric__shortUnit']}\t{row['metric__unit']}\tUnited Nations World Population Prospects (2022)\thttps://population.un.org/wpp/\tUN Population Division"
-        for (_, row) in rows.iterrows()
+    rows = rows.explode("ySlugs").drop_duplicates("ySlugs").reset_index(drop=True)
+
+    column_defs = rows.filter(regex="^column__", axis=1).rename(
+        columns=lambda x: re.sub("^column__", "", x)
+    )
+    col_names = [
+        "slug",
+        "name",
+        "type",
+        "sourceName",
+        "sourceLink",
+        "dataPublishedBy",
+        *column_defs.columns,
     ]
+    col_names = "\t".join(col_names)
+
+    col_defs = [
+        [
+            row["ySlugs"],
+            display_names[row["ySlugs"]],
+            "Numeric",
+            "United Nations World Population Prospects (2022)",
+            "https://population.un.org/wpp/",
+            "UN Population Division",
+            *column_defs.loc[idx].values.tolist(),
+        ]
+        for (idx, row) in rows.iterrows()
+    ]
+    col_defs = ["\t".join(col) for col in col_defs]
     col_defs = textwrap.indent("\n".join(col_defs), "\t")
 
     return f"""{table_def}
 columns	{tableSlug}
-	slug	name	type	shortUnit	unit	sourceName	sourceLink	dataPublishedBy
+	{col_names}
 	location	Country name	EntityName
 	year	Year	Year
 {col_defs}"""
