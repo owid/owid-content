@@ -1,5 +1,5 @@
 slug,name,subtitle
 records,None,
-low,Low,The projection of ${metric__name} to 2100 is based on the UN's low population scenario.
-medium,Medium,The projection of ${metric__name} to 2100 is based on the UN's medium population scenario.
-high,High,The projection of ${metric__name} to 2100 is based on the UN's high population scenario.
+low,Low,The projection of ${metric__name} to 2100 is based on the UN's low-fertility scenario.
+medium,Medium,The projection of ${metric__name} to 2100 is based on the UN's medium-fertility scenario.
+high,High,The projection of ${metric__name} to 2100 is based on the UN's high-fertility scenario.
