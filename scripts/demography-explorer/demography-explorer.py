@@ -30,6 +30,7 @@ def table_def(tableSlug, rows, display_names):
     column_defs = rows.filter(regex="^column__", axis=1).rename(
         columns=lambda x: re.sub("^column__", "", x)
     )
+    column_defs = column_defs.drop(columns=["type"])
     col_names = [
         "slug",
         "name",
@@ -45,7 +46,7 @@ def table_def(tableSlug, rows, display_names):
         [
             row["ySlugs"],
             display_names[row["ySlugs"]],
-            "Numeric",
+            row["column__type"],
             "United Nations World Population Prospects (2022)",
             "https://population.un.org/wpp/",
             "UN Population Division",
