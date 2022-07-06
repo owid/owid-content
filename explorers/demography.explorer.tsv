@@ -772,10 +772,6 @@ graphers
 	Sex ratio at birth	Sex ratio	Both sexes	At birth	Low	sex_ratio__none__at_birth__low	sex_ratio__none__FULL__low	​​The number of male births per 100 female births. Biological birth ratios are slightly male-biased, with an expected ratio of 105 male births per 100 female births.\nProjections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
 	Sex ratio at birth	Sex ratio	Both sexes	At birth	Medium	sex_ratio__none__at_birth__medium	sex_ratio__none__FULL__medium	​​The number of male births per 100 female births. Biological birth ratios are slightly male-biased, with an expected ratio of 105 male births per 100 female births.\nProjections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
 	Sex ratio at birth	Sex ratio	Both sexes	At birth	High	sex_ratio__none__at_birth__high	sex_ratio__none__FULL__high	​​The number of male births per 100 female births. Biological birth ratios are slightly male-biased, with an expected ratio of 105 male births per 100 female births.\nProjections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
-	Sex ratio at age 0	Sex ratio	Both sexes	At age 0	None	sex_ratio__none__0__records	sex_ratio__none__FULL__records	The number of male individuals per 100 female individuals aged 0.\n	LineChart		0	true			
-	Sex ratio at age 0	Sex ratio	Both sexes	At age 0	Low	sex_ratio__none__0__low	sex_ratio__none__FULL__low	The number of male individuals per 100 female individuals aged 0.\nProjections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
-	Sex ratio at age 0	Sex ratio	Both sexes	At age 0	Medium	sex_ratio__none__0__medium	sex_ratio__none__FULL__medium	The number of male individuals per 100 female individuals aged 0.\nProjections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
-	Sex ratio at age 0	Sex ratio	Both sexes	At age 0	High	sex_ratio__none__0__high	sex_ratio__none__FULL__high	The number of male individuals per 100 female individuals aged 0.\nProjections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
 	Sex ratio at age 15	Sex ratio	Both sexes	At age 15	None	sex_ratio__none__15__records	sex_ratio__none__FULL__records	The number of male individuals per 100 female individuals aged 15.\n	LineChart		0	true			
 	Sex ratio at age 15	Sex ratio	Both sexes	At age 15	Low	sex_ratio__none__15__low	sex_ratio__none__FULL__low	The number of male individuals per 100 female individuals aged 15.\nProjections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
 	Sex ratio at age 15	Sex ratio	Both sexes	At age 15	Medium	sex_ratio__none__15__medium	sex_ratio__none__FULL__medium	The number of male individuals per 100 female individuals aged 15.\nProjections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
@@ -2156,7 +2152,6 @@ columns	sex_ratio__none__FULL__records
 	location	Country name	EntityName
 	year	Year	Year
 	sex_ratio__none__at_birth__records	Sex ratio at birth	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			102;103;104;105;106;107;108;109	BrBG
-	sex_ratio__none__0__records	Sex ratio at age 0	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				BrBG
 	sex_ratio__none__15__records	Sex ratio at age 15	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				BrBG
 	sex_ratio__none__20__records	Sex ratio at age 20	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				BrBG
 	sex_ratio__none__30__records	Sex ratio at age 30	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				BrBG
@@ -2173,7 +2168,6 @@ columns	sex_ratio__none__FULL__low
 	location	Country name	EntityName
 	year	Year	Year
 	sex_ratio__none__at_birth__low	Sex ratio at birth	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			102;103;104;105;106;107;108;109	BrBG
-	sex_ratio__none__0__low	Sex ratio at age 0	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				BrBG
 	sex_ratio__none__15__low	Sex ratio at age 15	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				BrBG
 	sex_ratio__none__20__low	Sex ratio at age 20	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				BrBG
 	sex_ratio__none__30__low	Sex ratio at age 30	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				BrBG
@@ -2190,7 +2184,6 @@ columns	sex_ratio__none__FULL__medium
 	location	Country name	EntityName
 	year	Year	Year
 	sex_ratio__none__at_birth__medium	Sex ratio at birth	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			102;103;104;105;106;107;108;109	BrBG
-	sex_ratio__none__0__medium	Sex ratio at age 0	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				BrBG
 	sex_ratio__none__15__medium	Sex ratio at age 15	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				BrBG
 	sex_ratio__none__20__medium	Sex ratio at age 20	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				BrBG
 	sex_ratio__none__30__medium	Sex ratio at age 30	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				BrBG
@@ -2207,7 +2200,6 @@ columns	sex_ratio__none__FULL__high
 	location	Country name	EntityName
 	year	Year	Year
 	sex_ratio__none__at_birth__high	Sex ratio at birth	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			102;103;104;105;106;107;108;109	BrBG
-	sex_ratio__none__0__high	Sex ratio at age 0	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				BrBG
 	sex_ratio__none__15__high	Sex ratio at age 15	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				BrBG
 	sex_ratio__none__20__high	Sex ratio at age 20	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				BrBG
 	sex_ratio__none__30__high	Sex ratio at age 30	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				BrBG
