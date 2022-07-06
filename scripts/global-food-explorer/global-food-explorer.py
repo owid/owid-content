@@ -16,13 +16,13 @@ import sys
 
 outfile = "../../explorers/global-food.explorer.tsv"
 
-default_view = '`Food Dropdown` == "Maize (Corn)" and `Metric Dropdown` == "Production" and `Per Capita Checkbox` == "false"'
+default_view = '`Food Dropdown` == "Maize (corn)" and `Metric Dropdown` == "Production" and `Per Capita Checkbox` == "false"'
 
 # %%
 
 
 def food_url(food):
-    return f"https://catalog.ourworldindata.org/garden/explorers/2021/food_explorer/{food}.csv"
+    return f"https://catalog.ourworldindata.org/explorers/owid/latest/food_explorer/{food}.csv"
 
 
 def substitute_title(row):
@@ -48,7 +48,7 @@ def table_def(food):
 # %%
 with open("global-food-explorer.template.tsv", "r") as templateFile:
     template = Template(templateFile.read())
-foods_df = pd.read_csv("foods.csv", index_col="slug")
+foods_df = pd.read_csv("foods.csv", index_col="slug", dtype=str)
 views_df = pd.read_csv("views-per-food.csv", dtype=str)
 
 print(f"🥝 Read {len(foods_df.index)} fruits")
@@ -64,7 +64,7 @@ foods_rename = {
     "dropdown": "Food Dropdown",
     "slug": "tableSlug",
     "_tags": "_tags",
-    "note": "note",
+    "note": "food__note",
 }
 
 foods = foods_df.reset_index()[foods_rename.keys()].rename(columns=foods_rename)
@@ -90,6 +90,14 @@ graphers = graphers.drop(columns="_tag").sort_values(by="Food Dropdown", kind="s
 graphers = graphers.drop_duplicates()
 
 print(f"📈 Generated {len(graphers.index)} views")
+
+#%%
+# join note (footnote) between food and view tables
+graphers["note"] = graphers["food__note"].str.cat(
+    graphers["note"], sep="\\n", na_rep=""
+)
+graphers["note"] = graphers["note"].apply(lambda x: x.strip("\\n"))
+graphers = graphers.drop(columns="food__note")
 
 # %%
 # We want to have a consistent column order for easier interpretation of the output.
