@@ -1,4 +1,4 @@
-_tags,title,subtitle,Metric Dropdown,Unit Radio,Per capita Checkbox,type,ySlugs,yScaleToggle,note
+_tags,title,subtitle,Metric Dropdown,Unit Radio,Per Capita Checkbox,type,ySlugs,yScaleToggle,note
 production,${food_singular} production,,Production,,false,LineChart,production__tonnes,true,
 production,Per capita ${food_singular_lower} production,,Production,,true,LineChart,production__kg__per_capita,true,
 animals_slaughtered,Animals slaughtered to produce ${food_plural_lower},,Animals slaughtered,,false,LineChart,producing_or_slaughtered_animals__animals,true,
