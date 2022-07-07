@@ -12,6 +12,14 @@ graphers
 	Population	Population	Both sexes	Total	Low	population__all__all__low	population__all__FULL__low	Projections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
 	Population	Population	Both sexes	Total	Medium	population__all__all__medium	population__all__FULL__medium	Projections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
 	Population	Population	Both sexes	Total	High	population__all__all__high	population__all__FULL__high	Projections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
+	Female population	Population	Female	Total	None	population__female__all__records	population__female__FULL__records		LineChart		0	true			
+	Female population	Population	Female	Total	Low	population__female__all__low	population__female__FULL__low	Projections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
+	Female population	Population	Female	Total	Medium	population__female__all__medium	population__female__FULL__medium	Projections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
+	Female population	Population	Female	Total	High	population__female__all__high	population__female__FULL__high	Projections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
+	Male population	Population	Male	Total	None	population__male__all__records	population__male__FULL__records		LineChart		0	true			
+	Male population	Population	Male	Total	Low	population__male__all__low	population__male__FULL__low	Projections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
+	Male population	Population	Male	Total	Medium	population__male__all__medium	population__male__FULL__medium	Projections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
+	Male population	Population	Male	Total	High	population__male__all__high	population__male__FULL__high	Projections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
 	Population at age 0	Population	Both sexes	At age 0	None	population__all__0__records	population__all__FULL__records		LineChart		0	true			
 	Population at age 0	Population	Both sexes	At age 0	Low	population__all__0__low	population__all__FULL__low	Projections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
 	Population at age 0	Population	Both sexes	At age 0	Medium	population__all__0__medium	population__all__FULL__medium	Projections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
@@ -72,10 +80,6 @@ graphers
 	Population older than 100 years	Population	Both sexes	100+ years	Low	population__all__100-__low	population__all__FULL__low	Projections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
 	Population older than 100 years	Population	Both sexes	100+ years	Medium	population__all__100-__medium	population__all__FULL__medium	Projections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
 	Population older than 100 years	Population	Both sexes	100+ years	High	population__all__100-__high	population__all__FULL__high	Projections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
-	Female population	Population	Female	Total	None	population__female__all__records	population__female__FULL__records		LineChart		0	true			
-	Female population	Population	Female	Total	Low	population__female__all__low	population__female__FULL__low	Projections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
-	Female population	Population	Female	Total	Medium	population__female__all__medium	population__female__FULL__medium	Projections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
-	Female population	Population	Female	Total	High	population__female__all__high	population__female__FULL__high	Projections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
 	Female population at age 0	Population	Female	At age 0	None	population__female__0__records	population__female__FULL__records		LineChart		0	true			
 	Female population at age 0	Population	Female	At age 0	Low	population__female__0__low	population__female__FULL__low	Projections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
 	Female population at age 0	Population	Female	At age 0	Medium	population__female__0__medium	population__female__FULL__medium	Projections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
@@ -136,10 +140,6 @@ graphers
 	Female population older than 100 years	Population	Female	100+ years	Low	population__female__100-__low	population__female__FULL__low	Projections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
 	Female population older than 100 years	Population	Female	100+ years	Medium	population__female__100-__medium	population__female__FULL__medium	Projections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
 	Female population older than 100 years	Population	Female	100+ years	High	population__female__100-__high	population__female__FULL__high	Projections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
-	Male population	Population	Male	Total	None	population__male__all__records	population__male__FULL__records		LineChart		0	true			
-	Male population	Population	Male	Total	Low	population__male__all__low	population__male__FULL__low	Projections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
-	Male population	Population	Male	Total	Medium	population__male__all__medium	population__male__FULL__medium	Projections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
-	Male population	Population	Male	Total	High	population__male__all__high	population__male__FULL__high	Projections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
 	Male population at age 0	Population	Male	At age 0	None	population__male__0__records	population__male__FULL__records		LineChart		0	true			
 	Male population at age 0	Population	Male	At age 0	Low	population__male__0__low	population__male__FULL__low	Projections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
 	Male population at age 0	Population	Male	At age 0	Medium	population__male__0__medium	population__male__FULL__medium	Projections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
@@ -831,7 +831,7 @@ columns	population__all__FULL__records
 	slug	name	type	sourceName	sourceLink	dataPublishedBy	shortUnit	unit	colorScaleNumericBins	colorScaleScheme	colorScaleNumericMinValue
 	location	Country name	EntityName
 	year	Year	Year
-	population__all__all__records	Population	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
+	population__all__all__records	Population	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			1000000;3000000;10000000;30000000;100000000;300000000;1000000000;3000000000	PuBu	
 	population__all__0__records	Population at age 0	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__all__0-4__records	Population aged 0 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__all__1-4__records	Population aged 1 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
@@ -852,7 +852,7 @@ columns	population__all__FULL__low
 	slug	name	type	sourceName	sourceLink	dataPublishedBy	shortUnit	unit	colorScaleNumericBins	colorScaleScheme	colorScaleNumericMinValue
 	location	Country name	EntityName
 	year	Year	Year
-	population__all__all__low	Population	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
+	population__all__all__low	Population	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			1000000;3000000;10000000;30000000;100000000;300000000;1000000000;3000000000	PuBu	
 	population__all__0__low	Population at age 0	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__all__0-4__low	Population aged 0 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__all__1-4__low	Population aged 1 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
@@ -873,7 +873,7 @@ columns	population__all__FULL__medium
 	slug	name	type	sourceName	sourceLink	dataPublishedBy	shortUnit	unit	colorScaleNumericBins	colorScaleScheme	colorScaleNumericMinValue
 	location	Country name	EntityName
 	year	Year	Year
-	population__all__all__medium	Population	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
+	population__all__all__medium	Population	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			1000000;3000000;10000000;30000000;100000000;300000000;1000000000;3000000000	PuBu	
 	population__all__0__medium	Population at age 0	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__all__0-4__medium	Population aged 0 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__all__1-4__medium	Population aged 1 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
@@ -894,7 +894,7 @@ columns	population__all__FULL__high
 	slug	name	type	sourceName	sourceLink	dataPublishedBy	shortUnit	unit	colorScaleNumericBins	colorScaleScheme	colorScaleNumericMinValue
 	location	Country name	EntityName
 	year	Year	Year
-	population__all__all__high	Population	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
+	population__all__all__high	Population	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			1000000;3000000;10000000;30000000;100000000;300000000;1000000000;3000000000	PuBu	
 	population__all__0__high	Population at age 0	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__all__0-4__high	Population aged 0 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__all__1-4__high	Population aged 1 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
@@ -915,7 +915,7 @@ columns	population__female__FULL__records
 	slug	name	type	sourceName	sourceLink	dataPublishedBy	shortUnit	unit	colorScaleNumericBins	colorScaleScheme	colorScaleNumericMinValue
 	location	Country name	EntityName
 	year	Year	Year
-	population__female__all__records	Female population	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
+	population__female__all__records	Female population	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			1000000;3000000;10000000;30000000;100000000;300000000;1000000000;3000000000	PuBu	
 	population__female__0__records	Female population at age 0	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__female__0-4__records	Female population aged 0 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__female__1-4__records	Female population aged 1 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
@@ -936,7 +936,7 @@ columns	population__female__FULL__low
 	slug	name	type	sourceName	sourceLink	dataPublishedBy	shortUnit	unit	colorScaleNumericBins	colorScaleScheme	colorScaleNumericMinValue
 	location	Country name	EntityName
 	year	Year	Year
-	population__female__all__low	Female population	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
+	population__female__all__low	Female population	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			1000000;3000000;10000000;30000000;100000000;300000000;1000000000;3000000000	PuBu	
 	population__female__0__low	Female population at age 0	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__female__0-4__low	Female population aged 0 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__female__1-4__low	Female population aged 1 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
@@ -957,7 +957,7 @@ columns	population__female__FULL__medium
 	slug	name	type	sourceName	sourceLink	dataPublishedBy	shortUnit	unit	colorScaleNumericBins	colorScaleScheme	colorScaleNumericMinValue
 	location	Country name	EntityName
 	year	Year	Year
-	population__female__all__medium	Female population	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
+	population__female__all__medium	Female population	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			1000000;3000000;10000000;30000000;100000000;300000000;1000000000;3000000000	PuBu	
 	population__female__0__medium	Female population at age 0	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__female__0-4__medium	Female population aged 0 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__female__1-4__medium	Female population aged 1 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
@@ -978,7 +978,7 @@ columns	population__female__FULL__high
 	slug	name	type	sourceName	sourceLink	dataPublishedBy	shortUnit	unit	colorScaleNumericBins	colorScaleScheme	colorScaleNumericMinValue
 	location	Country name	EntityName
 	year	Year	Year
-	population__female__all__high	Female population	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
+	population__female__all__high	Female population	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			1000000;3000000;10000000;30000000;100000000;300000000;1000000000;3000000000	PuBu	
 	population__female__0__high	Female population at age 0	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__female__0-4__high	Female population aged 0 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__female__1-4__high	Female population aged 1 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
@@ -999,7 +999,7 @@ columns	population__male__FULL__records
 	slug	name	type	sourceName	sourceLink	dataPublishedBy	shortUnit	unit	colorScaleNumericBins	colorScaleScheme	colorScaleNumericMinValue
 	location	Country name	EntityName
 	year	Year	Year
-	population__male__all__records	Male population	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
+	population__male__all__records	Male population	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			1000000;3000000;10000000;30000000;100000000;300000000;1000000000;3000000000	PuBu	
 	population__male__0__records	Male population at age 0	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__male__0-4__records	Male population aged 0 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__male__1-4__records	Male population aged 1 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
@@ -1020,7 +1020,7 @@ columns	population__male__FULL__low
 	slug	name	type	sourceName	sourceLink	dataPublishedBy	shortUnit	unit	colorScaleNumericBins	colorScaleScheme	colorScaleNumericMinValue
 	location	Country name	EntityName
 	year	Year	Year
-	population__male__all__low	Male population	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
+	population__male__all__low	Male population	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			1000000;3000000;10000000;30000000;100000000;300000000;1000000000;3000000000	PuBu	
 	population__male__0__low	Male population at age 0	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__male__0-4__low	Male population aged 0 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__male__1-4__low	Male population aged 1 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
@@ -1041,7 +1041,7 @@ columns	population__male__FULL__medium
 	slug	name	type	sourceName	sourceLink	dataPublishedBy	shortUnit	unit	colorScaleNumericBins	colorScaleScheme	colorScaleNumericMinValue
 	location	Country name	EntityName
 	year	Year	Year
-	population__male__all__medium	Male population	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
+	population__male__all__medium	Male population	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			1000000;3000000;10000000;30000000;100000000;300000000;1000000000;3000000000	PuBu	
 	population__male__0__medium	Male population at age 0	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__male__0-4__medium	Male population aged 0 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__male__1-4__medium	Male population aged 1 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
@@ -1062,7 +1062,7 @@ columns	population__male__FULL__high
 	slug	name	type	sourceName	sourceLink	dataPublishedBy	shortUnit	unit	colorScaleNumericBins	colorScaleScheme	colorScaleNumericMinValue
 	location	Country name	EntityName
 	year	Year	Year
-	population__male__all__high	Male population	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
+	population__male__all__high	Male population	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			1000000;3000000;10000000;30000000;100000000;300000000;1000000000;3000000000	PuBu	
 	population__male__0__high	Male population at age 0	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__male__0-4__high	Male population aged 0 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__male__1-4__high	Male population aged 1 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
