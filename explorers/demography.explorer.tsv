@@ -20,10 +20,10 @@ graphers
 	Male population	Population	Male	Total	Low	population__male__all__low	population__male__FULL__low	Projections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
 	Male population	Population	Male	Total	Medium	population__male__all__medium	population__male__FULL__medium	Projections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
 	Male population	Population	Male	Total	High	population__male__all__high	population__male__FULL__high	Projections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
-	Population at age 0	Population	Both sexes	At age 0	None	population__all__0__records	population__all__FULL__records		LineChart		0	true			
-	Population at age 0	Population	Both sexes	At age 0	Low	population__all__0__low	population__all__FULL__low	Projections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
-	Population at age 0	Population	Both sexes	At age 0	Medium	population__all__0__medium	population__all__FULL__medium	Projections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
-	Population at age 0	Population	Both sexes	At age 0	High	population__all__0__high	population__all__FULL__high	Projections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
+	Population under 1 year	Population	Both sexes	Under 1 year	None	population__all__0__records	population__all__FULL__records		LineChart		0	true			
+	Population under 1 year	Population	Both sexes	Under 1 year	Low	population__all__0__low	population__all__FULL__low	Projections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
+	Population under 1 year	Population	Both sexes	Under 1 year	Medium	population__all__0__medium	population__all__FULL__medium	Projections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
+	Population under 1 year	Population	Both sexes	Under 1 year	High	population__all__0__high	population__all__FULL__high	Projections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
 	Population aged 0 to 4 years	Population	Both sexes	0–4 years	None	population__all__0-4__records	population__all__FULL__records		LineChart		0	true			
 	Population aged 0 to 4 years	Population	Both sexes	0–4 years	Low	population__all__0-4__low	population__all__FULL__low	Projections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
 	Population aged 0 to 4 years	Population	Both sexes	0–4 years	Medium	population__all__0-4__medium	population__all__FULL__medium	Projections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
@@ -80,10 +80,10 @@ graphers
 	Population older than 100 years	Population	Both sexes	100+ years	Low	population__all__100-__low	population__all__FULL__low	Projections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
 	Population older than 100 years	Population	Both sexes	100+ years	Medium	population__all__100-__medium	population__all__FULL__medium	Projections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
 	Population older than 100 years	Population	Both sexes	100+ years	High	population__all__100-__high	population__all__FULL__high	Projections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
-	Female population at age 0	Population	Female	At age 0	None	population__female__0__records	population__female__FULL__records		LineChart		0	true			
-	Female population at age 0	Population	Female	At age 0	Low	population__female__0__low	population__female__FULL__low	Projections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
-	Female population at age 0	Population	Female	At age 0	Medium	population__female__0__medium	population__female__FULL__medium	Projections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
-	Female population at age 0	Population	Female	At age 0	High	population__female__0__high	population__female__FULL__high	Projections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
+	Female population under 1 year	Population	Female	Under 1 year	None	population__female__0__records	population__female__FULL__records		LineChart		0	true			
+	Female population under 1 year	Population	Female	Under 1 year	Low	population__female__0__low	population__female__FULL__low	Projections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
+	Female population under 1 year	Population	Female	Under 1 year	Medium	population__female__0__medium	population__female__FULL__medium	Projections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
+	Female population under 1 year	Population	Female	Under 1 year	High	population__female__0__high	population__female__FULL__high	Projections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
 	Female population aged 0 to 4 years	Population	Female	0–4 years	None	population__female__0-4__records	population__female__FULL__records		LineChart		0	true			
 	Female population aged 0 to 4 years	Population	Female	0–4 years	Low	population__female__0-4__low	population__female__FULL__low	Projections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
 	Female population aged 0 to 4 years	Population	Female	0–4 years	Medium	population__female__0-4__medium	population__female__FULL__medium	Projections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
@@ -140,10 +140,10 @@ graphers
 	Female population older than 100 years	Population	Female	100+ years	Low	population__female__100-__low	population__female__FULL__low	Projections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
 	Female population older than 100 years	Population	Female	100+ years	Medium	population__female__100-__medium	population__female__FULL__medium	Projections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
 	Female population older than 100 years	Population	Female	100+ years	High	population__female__100-__high	population__female__FULL__high	Projections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
-	Male population at age 0	Population	Male	At age 0	None	population__male__0__records	population__male__FULL__records		LineChart		0	true			
-	Male population at age 0	Population	Male	At age 0	Low	population__male__0__low	population__male__FULL__low	Projections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
-	Male population at age 0	Population	Male	At age 0	Medium	population__male__0__medium	population__male__FULL__medium	Projections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
-	Male population at age 0	Population	Male	At age 0	High	population__male__0__high	population__male__FULL__high	Projections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
+	Male population under 1 year	Population	Male	Under 1 year	None	population__male__0__records	population__male__FULL__records		LineChart		0	true			
+	Male population under 1 year	Population	Male	Under 1 year	Low	population__male__0__low	population__male__FULL__low	Projections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
+	Male population under 1 year	Population	Male	Under 1 year	Medium	population__male__0__medium	population__male__FULL__medium	Projections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
+	Male population under 1 year	Population	Male	Under 1 year	High	population__male__0__high	population__male__FULL__high	Projections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
 	Male population aged 0 to 4 years	Population	Male	0–4 years	None	population__male__0-4__records	population__male__FULL__records		LineChart		0	true			
 	Male population aged 0 to 4 years	Population	Male	0–4 years	Low	population__male__0-4__low	population__male__FULL__low	Projections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
 	Male population aged 0 to 4 years	Population	Male	0–4 years	Medium	population__male__0-4__medium	population__male__FULL__medium	Projections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
@@ -236,10 +236,10 @@ graphers
 	Annual change in male population	Annual population change	Male	Total	Low	population_change__male__all__low	population_change__male__FULL__low	Projections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
 	Annual change in male population	Annual population change	Male	Total	Medium	population_change__male__all__medium	population_change__male__FULL__medium	Projections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
 	Annual change in male population	Annual population change	Male	Total	High	population_change__male__all__high	population_change__male__FULL__high	Projections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
-	Annual change in population at age 0	Annual population change	Both sexes	At age 0	None	population_change__all__0__records	population_change__all__FULL__records		LineChart		0	true			
-	Annual change in population at age 0	Annual population change	Both sexes	At age 0	Low	population_change__all__0__low	population_change__all__FULL__low	Projections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
-	Annual change in population at age 0	Annual population change	Both sexes	At age 0	Medium	population_change__all__0__medium	population_change__all__FULL__medium	Projections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
-	Annual change in population at age 0	Annual population change	Both sexes	At age 0	High	population_change__all__0__high	population_change__all__FULL__high	Projections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
+	Annual change in population under 1 year	Annual population change	Both sexes	Under 1 year	None	population_change__all__0__records	population_change__all__FULL__records		LineChart		0	true			
+	Annual change in population under 1 year	Annual population change	Both sexes	Under 1 year	Low	population_change__all__0__low	population_change__all__FULL__low	Projections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
+	Annual change in population under 1 year	Annual population change	Both sexes	Under 1 year	Medium	population_change__all__0__medium	population_change__all__FULL__medium	Projections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
+	Annual change in population under 1 year	Annual population change	Both sexes	Under 1 year	High	population_change__all__0__high	population_change__all__FULL__high	Projections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
 	Annual change in population aged 0 to 4 years	Annual population change	Both sexes	0–4 years	None	population_change__all__0-4__records	population_change__all__FULL__records		LineChart		0	true			
 	Annual change in population aged 0 to 4 years	Annual population change	Both sexes	0–4 years	Low	population_change__all__0-4__low	population_change__all__FULL__low	Projections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
 	Annual change in population aged 0 to 4 years	Annual population change	Both sexes	0–4 years	Medium	population_change__all__0-4__medium	population_change__all__FULL__medium	Projections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
@@ -296,10 +296,10 @@ graphers
 	Annual change in population older than 100 years	Annual population change	Both sexes	100+ years	Low	population_change__all__100-__low	population_change__all__FULL__low	Projections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
 	Annual change in population older than 100 years	Annual population change	Both sexes	100+ years	Medium	population_change__all__100-__medium	population_change__all__FULL__medium	Projections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
 	Annual change in population older than 100 years	Annual population change	Both sexes	100+ years	High	population_change__all__100-__high	population_change__all__FULL__high	Projections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
-	Annual change in female population at age 0	Annual population change	Female	At age 0	None	population_change__female__0__records	population_change__female__FULL__records		LineChart		0	true			
-	Annual change in female population at age 0	Annual population change	Female	At age 0	Low	population_change__female__0__low	population_change__female__FULL__low	Projections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
-	Annual change in female population at age 0	Annual population change	Female	At age 0	Medium	population_change__female__0__medium	population_change__female__FULL__medium	Projections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
-	Annual change in female population at age 0	Annual population change	Female	At age 0	High	population_change__female__0__high	population_change__female__FULL__high	Projections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
+	Annual change in female population under 1 year	Annual population change	Female	Under 1 year	None	population_change__female__0__records	population_change__female__FULL__records		LineChart		0	true			
+	Annual change in female population under 1 year	Annual population change	Female	Under 1 year	Low	population_change__female__0__low	population_change__female__FULL__low	Projections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
+	Annual change in female population under 1 year	Annual population change	Female	Under 1 year	Medium	population_change__female__0__medium	population_change__female__FULL__medium	Projections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
+	Annual change in female population under 1 year	Annual population change	Female	Under 1 year	High	population_change__female__0__high	population_change__female__FULL__high	Projections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
 	Annual change in female population aged 0 to 4 years	Annual population change	Female	0–4 years	None	population_change__female__0-4__records	population_change__female__FULL__records		LineChart		0	true			
 	Annual change in female population aged 0 to 4 years	Annual population change	Female	0–4 years	Low	population_change__female__0-4__low	population_change__female__FULL__low	Projections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
 	Annual change in female population aged 0 to 4 years	Annual population change	Female	0–4 years	Medium	population_change__female__0-4__medium	population_change__female__FULL__medium	Projections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
@@ -356,10 +356,10 @@ graphers
 	Annual change in female population older than 100 years	Annual population change	Female	100+ years	Low	population_change__female__100-__low	population_change__female__FULL__low	Projections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
 	Annual change in female population older than 100 years	Annual population change	Female	100+ years	Medium	population_change__female__100-__medium	population_change__female__FULL__medium	Projections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
 	Annual change in female population older than 100 years	Annual population change	Female	100+ years	High	population_change__female__100-__high	population_change__female__FULL__high	Projections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
-	Annual change in male population at age 0	Annual population change	Male	At age 0	None	population_change__male__0__records	population_change__male__FULL__records		LineChart		0	true			
-	Annual change in male population at age 0	Annual population change	Male	At age 0	Low	population_change__male__0__low	population_change__male__FULL__low	Projections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
-	Annual change in male population at age 0	Annual population change	Male	At age 0	Medium	population_change__male__0__medium	population_change__male__FULL__medium	Projections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
-	Annual change in male population at age 0	Annual population change	Male	At age 0	High	population_change__male__0__high	population_change__male__FULL__high	Projections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
+	Annual change in male population under 1 year	Annual population change	Male	Under 1 year	None	population_change__male__0__records	population_change__male__FULL__records		LineChart		0	true			
+	Annual change in male population under 1 year	Annual population change	Male	Under 1 year	Low	population_change__male__0__low	population_change__male__FULL__low	Projections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
+	Annual change in male population under 1 year	Annual population change	Male	Under 1 year	Medium	population_change__male__0__medium	population_change__male__FULL__medium	Projections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
+	Annual change in male population under 1 year	Annual population change	Male	Under 1 year	High	population_change__male__0__high	population_change__male__FULL__high	Projections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
 	Annual change in male population aged 0 to 4 years	Annual population change	Male	0–4 years	None	population_change__male__0-4__records	population_change__male__FULL__records		LineChart		0	true			
 	Annual change in male population aged 0 to 4 years	Annual population change	Male	0–4 years	Low	population_change__male__0-4__low	population_change__male__FULL__low	Projections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
 	Annual change in male population aged 0 to 4 years	Annual population change	Male	0–4 years	Medium	population_change__male__0-4__medium	population_change__male__FULL__medium	Projections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
@@ -468,10 +468,10 @@ graphers
 	Male deaths	Deaths	Male	Total	Low	deaths__male__all__low	deaths__male__FULL__low	Projections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
 	Male deaths	Deaths	Male	Total	Medium	deaths__male__all__medium	deaths__male__FULL__medium	Projections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
 	Male deaths	Deaths	Male	Total	High	deaths__male__all__high	deaths__male__FULL__high	Projections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
-	Deaths at age 0	Deaths	Both sexes	At age 0	None	deaths__all__0__records	deaths__all__FULL__records		LineChart		0	true			
-	Deaths at age 0	Deaths	Both sexes	At age 0	Low	deaths__all__0__low	deaths__all__FULL__low	Projections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
-	Deaths at age 0	Deaths	Both sexes	At age 0	Medium	deaths__all__0__medium	deaths__all__FULL__medium	Projections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
-	Deaths at age 0	Deaths	Both sexes	At age 0	High	deaths__all__0__high	deaths__all__FULL__high	Projections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
+	Deaths under 1 year	Deaths	Both sexes	Under 1 year	None	deaths__all__0__records	deaths__all__FULL__records		LineChart		0	true			
+	Deaths under 1 year	Deaths	Both sexes	Under 1 year	Low	deaths__all__0__low	deaths__all__FULL__low	Projections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
+	Deaths under 1 year	Deaths	Both sexes	Under 1 year	Medium	deaths__all__0__medium	deaths__all__FULL__medium	Projections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
+	Deaths under 1 year	Deaths	Both sexes	Under 1 year	High	deaths__all__0__high	deaths__all__FULL__high	Projections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
 	Deaths aged 0 to 4 years	Deaths	Both sexes	0–4 years	None	deaths__all__0-4__records	deaths__all__FULL__records		LineChart		0	true			
 	Deaths aged 0 to 4 years	Deaths	Both sexes	0–4 years	Low	deaths__all__0-4__low	deaths__all__FULL__low	Projections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
 	Deaths aged 0 to 4 years	Deaths	Both sexes	0–4 years	Medium	deaths__all__0-4__medium	deaths__all__FULL__medium	Projections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
@@ -524,10 +524,10 @@ graphers
 	Deaths aged 90 to 99 years	Deaths	Both sexes	90–99 years	Low	deaths__all__90-99__low	deaths__all__FULL__low	Projections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
 	Deaths aged 90 to 99 years	Deaths	Both sexes	90–99 years	Medium	deaths__all__90-99__medium	deaths__all__FULL__medium	Projections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
 	Deaths aged 90 to 99 years	Deaths	Both sexes	90–99 years	High	deaths__all__90-99__high	deaths__all__FULL__high	Projections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
-	Female deaths at age 0	Deaths	Female	At age 0	None	deaths__female__0__records	deaths__female__FULL__records		LineChart		0	true			
-	Female deaths at age 0	Deaths	Female	At age 0	Low	deaths__female__0__low	deaths__female__FULL__low	Projections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
-	Female deaths at age 0	Deaths	Female	At age 0	Medium	deaths__female__0__medium	deaths__female__FULL__medium	Projections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
-	Female deaths at age 0	Deaths	Female	At age 0	High	deaths__female__0__high	deaths__female__FULL__high	Projections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
+	Female deaths under 1 year	Deaths	Female	Under 1 year	None	deaths__female__0__records	deaths__female__FULL__records		LineChart		0	true			
+	Female deaths under 1 year	Deaths	Female	Under 1 year	Low	deaths__female__0__low	deaths__female__FULL__low	Projections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
+	Female deaths under 1 year	Deaths	Female	Under 1 year	Medium	deaths__female__0__medium	deaths__female__FULL__medium	Projections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
+	Female deaths under 1 year	Deaths	Female	Under 1 year	High	deaths__female__0__high	deaths__female__FULL__high	Projections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
 	Female deaths aged 0 to 4 years	Deaths	Female	0–4 years	None	deaths__female__0-4__records	deaths__female__FULL__records		LineChart		0	true			
 	Female deaths aged 0 to 4 years	Deaths	Female	0–4 years	Low	deaths__female__0-4__low	deaths__female__FULL__low	Projections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
 	Female deaths aged 0 to 4 years	Deaths	Female	0–4 years	Medium	deaths__female__0-4__medium	deaths__female__FULL__medium	Projections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
@@ -580,10 +580,10 @@ graphers
 	Female deaths aged 90 to 99 years	Deaths	Female	90–99 years	Low	deaths__female__90-99__low	deaths__female__FULL__low	Projections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
 	Female deaths aged 90 to 99 years	Deaths	Female	90–99 years	Medium	deaths__female__90-99__medium	deaths__female__FULL__medium	Projections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
 	Female deaths aged 90 to 99 years	Deaths	Female	90–99 years	High	deaths__female__90-99__high	deaths__female__FULL__high	Projections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
-	Male deaths at age 0	Deaths	Male	At age 0	None	deaths__male__0__records	deaths__male__FULL__records		LineChart		0	true			
-	Male deaths at age 0	Deaths	Male	At age 0	Low	deaths__male__0__low	deaths__male__FULL__low	Projections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
-	Male deaths at age 0	Deaths	Male	At age 0	Medium	deaths__male__0__medium	deaths__male__FULL__medium	Projections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
-	Male deaths at age 0	Deaths	Male	At age 0	High	deaths__male__0__high	deaths__male__FULL__high	Projections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
+	Male deaths under 1 year	Deaths	Male	Under 1 year	None	deaths__male__0__records	deaths__male__FULL__records		LineChart		0	true			
+	Male deaths under 1 year	Deaths	Male	Under 1 year	Low	deaths__male__0__low	deaths__male__FULL__low	Projections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
+	Male deaths under 1 year	Deaths	Male	Under 1 year	Medium	deaths__male__0__medium	deaths__male__FULL__medium	Projections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
+	Male deaths under 1 year	Deaths	Male	Under 1 year	High	deaths__male__0__high	deaths__male__FULL__high	Projections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
 	Male deaths aged 0 to 4 years	Deaths	Male	0–4 years	None	deaths__male__0-4__records	deaths__male__FULL__records		LineChart		0	true			
 	Male deaths aged 0 to 4 years	Deaths	Male	0–4 years	Low	deaths__male__0-4__low	deaths__male__FULL__low	Projections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
 	Male deaths aged 0 to 4 years	Deaths	Male	0–4 years	Medium	deaths__male__0-4__medium	deaths__male__FULL__medium	Projections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
@@ -656,18 +656,18 @@ graphers
 	Child mortality rate	Child mortality rate	Both sexes	Total	Low	child_mortality_rate__all__all__low	child_mortality_rate__all__FULL__low	The share of children who die before reaching the age of 5.\nProjections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart	This is the probability of a child born in a specific year or period dying before reaching the age of 5, if subject to age-specific mortality rates of that period. This is given as the share of live births.	0	true			
 	Child mortality rate	Child mortality rate	Both sexes	Total	Medium	child_mortality_rate__all__all__medium	child_mortality_rate__all__FULL__medium	The share of children who die before reaching the age of 5.\nProjections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart	This is the probability of a child born in a specific year or period dying before reaching the age of 5, if subject to age-specific mortality rates of that period. This is given as the share of live births.	0	true			
 	Child mortality rate	Child mortality rate	Both sexes	Total	High	child_mortality_rate__all__all__high	child_mortality_rate__all__FULL__high	The share of children who die before reaching the age of 5.\nProjections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart	This is the probability of a child born in a specific year or period dying before reaching the age of 5, if subject to age-specific mortality rates of that period. This is given as the share of live births.	0	true			
-	Number of infant deaths	Number of infant deaths	Both sexes	At age 0	None	deaths__all__0__records	deaths__all__FULL__records	The number of newborns who die before reaching the age of one.\n	LineChart		0	true			
-	Number of infant deaths	Number of infant deaths	Both sexes	At age 0	Low	deaths__all__0__low	deaths__all__FULL__low	The number of newborns who die before reaching the age of one.\nProjections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
-	Number of infant deaths	Number of infant deaths	Both sexes	At age 0	Medium	deaths__all__0__medium	deaths__all__FULL__medium	The number of newborns who die before reaching the age of one.\nProjections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
-	Number of infant deaths	Number of infant deaths	Both sexes	At age 0	High	deaths__all__0__high	deaths__all__FULL__high	The number of newborns who die before reaching the age of one.\nProjections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
-	Number of female infant deaths	Number of infant deaths	Female	At age 0	None	deaths__female__0__records	deaths__female__FULL__records	The number of newborns who die before reaching the age of one.\n	LineChart		0	true			
-	Number of female infant deaths	Number of infant deaths	Female	At age 0	Low	deaths__female__0__low	deaths__female__FULL__low	The number of newborns who die before reaching the age of one.\nProjections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
-	Number of female infant deaths	Number of infant deaths	Female	At age 0	Medium	deaths__female__0__medium	deaths__female__FULL__medium	The number of newborns who die before reaching the age of one.\nProjections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
-	Number of female infant deaths	Number of infant deaths	Female	At age 0	High	deaths__female__0__high	deaths__female__FULL__high	The number of newborns who die before reaching the age of one.\nProjections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
-	Number of male infant deaths	Number of infant deaths	Male	At age 0	None	deaths__male__0__records	deaths__male__FULL__records	The number of newborns who die before reaching the age of one.\n	LineChart		0	true			
-	Number of male infant deaths	Number of infant deaths	Male	At age 0	Low	deaths__male__0__low	deaths__male__FULL__low	The number of newborns who die before reaching the age of one.\nProjections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
-	Number of male infant deaths	Number of infant deaths	Male	At age 0	Medium	deaths__male__0__medium	deaths__male__FULL__medium	The number of newborns who die before reaching the age of one.\nProjections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
-	Number of male infant deaths	Number of infant deaths	Male	At age 0	High	deaths__male__0__high	deaths__male__FULL__high	The number of newborns who die before reaching the age of one.\nProjections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
+	Number of infant deaths	Number of infant deaths	Both sexes	Under 1 year	None	deaths__all__0__records	deaths__all__FULL__records	The number of newborns who die before reaching the age of one.\n	LineChart		0	true			
+	Number of infant deaths	Number of infant deaths	Both sexes	Under 1 year	Low	deaths__all__0__low	deaths__all__FULL__low	The number of newborns who die before reaching the age of one.\nProjections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
+	Number of infant deaths	Number of infant deaths	Both sexes	Under 1 year	Medium	deaths__all__0__medium	deaths__all__FULL__medium	The number of newborns who die before reaching the age of one.\nProjections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
+	Number of infant deaths	Number of infant deaths	Both sexes	Under 1 year	High	deaths__all__0__high	deaths__all__FULL__high	The number of newborns who die before reaching the age of one.\nProjections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
+	Number of female infant deaths	Number of infant deaths	Female	Under 1 year	None	deaths__female__0__records	deaths__female__FULL__records	The number of newborns who die before reaching the age of one.\n	LineChart		0	true			
+	Number of female infant deaths	Number of infant deaths	Female	Under 1 year	Low	deaths__female__0__low	deaths__female__FULL__low	The number of newborns who die before reaching the age of one.\nProjections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
+	Number of female infant deaths	Number of infant deaths	Female	Under 1 year	Medium	deaths__female__0__medium	deaths__female__FULL__medium	The number of newborns who die before reaching the age of one.\nProjections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
+	Number of female infant deaths	Number of infant deaths	Female	Under 1 year	High	deaths__female__0__high	deaths__female__FULL__high	The number of newborns who die before reaching the age of one.\nProjections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
+	Number of male infant deaths	Number of infant deaths	Male	Under 1 year	None	deaths__male__0__records	deaths__male__FULL__records	The number of newborns who die before reaching the age of one.\n	LineChart		0	true			
+	Number of male infant deaths	Number of infant deaths	Male	Under 1 year	Low	deaths__male__0__low	deaths__male__FULL__low	The number of newborns who die before reaching the age of one.\nProjections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true			
+	Number of male infant deaths	Number of infant deaths	Male	Under 1 year	Medium	deaths__male__0__medium	deaths__male__FULL__medium	The number of newborns who die before reaching the age of one.\nProjections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true			
+	Number of male infant deaths	Number of infant deaths	Male	Under 1 year	High	deaths__male__0__high	deaths__male__FULL__high	The number of newborns who die before reaching the age of one.\nProjections from 2022 onwards are based on the UN's high-fertility scenario.	LineChart		0	true			
 	Infant mortality rate	Infant mortality rate	Both sexes	Total	None	infant_mortality_rate__all__all__records	infant_mortality_rate__all__FULL__records	The share of newborns who die before reaching the age of one.\n	LineChart	This is the probability of a child born in a specific year or period dying before reaching the age of 1, if subject to age-specific mortality rates of that period. This is given as the share of live births.	0	true			
 	Infant mortality rate	Infant mortality rate	Both sexes	Total	Low	infant_mortality_rate__all__all__low	infant_mortality_rate__all__FULL__low	The share of newborns who die before reaching the age of one.\nProjections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart	This is the probability of a child born in a specific year or period dying before reaching the age of 1, if subject to age-specific mortality rates of that period. This is given as the share of live births.	0	true			
 	Infant mortality rate	Infant mortality rate	Both sexes	Total	Medium	infant_mortality_rate__all__all__medium	infant_mortality_rate__all__FULL__medium	The share of newborns who die before reaching the age of one.\nProjections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart	This is the probability of a child born in a specific year or period dying before reaching the age of 1, if subject to age-specific mortality rates of that period. This is given as the share of live births.	0	true			
@@ -832,7 +832,7 @@ columns	population__all__FULL__records
 	location	Country name	EntityName
 	year	Year	Year
 	population__all__all__records	Population	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			1000000;3000000;10000000;30000000;100000000;300000000;1000000000;3000000000	PuBu	
-	population__all__0__records	Population at age 0	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
+	population__all__0__records	Population under 1 year	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__all__0-4__records	Population aged 0 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__all__1-4__records	Population aged 1 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__all__5-9__records	Population aged 5 to 9 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
@@ -853,7 +853,7 @@ columns	population__all__FULL__low
 	location	Country name	EntityName
 	year	Year	Year
 	population__all__all__low	Population	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			1000000;3000000;10000000;30000000;100000000;300000000;1000000000;3000000000	PuBu	
-	population__all__0__low	Population at age 0	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
+	population__all__0__low	Population under 1 year	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__all__0-4__low	Population aged 0 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__all__1-4__low	Population aged 1 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__all__5-9__low	Population aged 5 to 9 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
@@ -874,7 +874,7 @@ columns	population__all__FULL__medium
 	location	Country name	EntityName
 	year	Year	Year
 	population__all__all__medium	Population	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			1000000;3000000;10000000;30000000;100000000;300000000;1000000000;3000000000	PuBu	
-	population__all__0__medium	Population at age 0	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
+	population__all__0__medium	Population under 1 year	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__all__0-4__medium	Population aged 0 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__all__1-4__medium	Population aged 1 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__all__5-9__medium	Population aged 5 to 9 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
@@ -895,7 +895,7 @@ columns	population__all__FULL__high
 	location	Country name	EntityName
 	year	Year	Year
 	population__all__all__high	Population	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			1000000;3000000;10000000;30000000;100000000;300000000;1000000000;3000000000	PuBu	
-	population__all__0__high	Population at age 0	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
+	population__all__0__high	Population under 1 year	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__all__0-4__high	Population aged 0 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__all__1-4__high	Population aged 1 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__all__5-9__high	Population aged 5 to 9 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
@@ -916,7 +916,7 @@ columns	population__female__FULL__records
 	location	Country name	EntityName
 	year	Year	Year
 	population__female__all__records	Female population	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			1000000;3000000;10000000;30000000;100000000;300000000;1000000000;3000000000	PuBu	
-	population__female__0__records	Female population at age 0	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
+	population__female__0__records	Female population under 1 year	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__female__0-4__records	Female population aged 0 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__female__1-4__records	Female population aged 1 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__female__5-9__records	Female population aged 5 to 9 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
@@ -937,7 +937,7 @@ columns	population__female__FULL__low
 	location	Country name	EntityName
 	year	Year	Year
 	population__female__all__low	Female population	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			1000000;3000000;10000000;30000000;100000000;300000000;1000000000;3000000000	PuBu	
-	population__female__0__low	Female population at age 0	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
+	population__female__0__low	Female population under 1 year	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__female__0-4__low	Female population aged 0 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__female__1-4__low	Female population aged 1 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__female__5-9__low	Female population aged 5 to 9 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
@@ -958,7 +958,7 @@ columns	population__female__FULL__medium
 	location	Country name	EntityName
 	year	Year	Year
 	population__female__all__medium	Female population	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			1000000;3000000;10000000;30000000;100000000;300000000;1000000000;3000000000	PuBu	
-	population__female__0__medium	Female population at age 0	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
+	population__female__0__medium	Female population under 1 year	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__female__0-4__medium	Female population aged 0 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__female__1-4__medium	Female population aged 1 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__female__5-9__medium	Female population aged 5 to 9 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
@@ -979,7 +979,7 @@ columns	population__female__FULL__high
 	location	Country name	EntityName
 	year	Year	Year
 	population__female__all__high	Female population	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			1000000;3000000;10000000;30000000;100000000;300000000;1000000000;3000000000	PuBu	
-	population__female__0__high	Female population at age 0	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
+	population__female__0__high	Female population under 1 year	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__female__0-4__high	Female population aged 0 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__female__1-4__high	Female population aged 1 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__female__5-9__high	Female population aged 5 to 9 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
@@ -1000,7 +1000,7 @@ columns	population__male__FULL__records
 	location	Country name	EntityName
 	year	Year	Year
 	population__male__all__records	Male population	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			1000000;3000000;10000000;30000000;100000000;300000000;1000000000;3000000000	PuBu	
-	population__male__0__records	Male population at age 0	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
+	population__male__0__records	Male population under 1 year	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__male__0-4__records	Male population aged 0 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__male__1-4__records	Male population aged 1 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__male__5-9__records	Male population aged 5 to 9 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
@@ -1021,7 +1021,7 @@ columns	population__male__FULL__low
 	location	Country name	EntityName
 	year	Year	Year
 	population__male__all__low	Male population	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			1000000;3000000;10000000;30000000;100000000;300000000;1000000000;3000000000	PuBu	
-	population__male__0__low	Male population at age 0	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
+	population__male__0__low	Male population under 1 year	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__male__0-4__low	Male population aged 0 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__male__1-4__low	Male population aged 1 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__male__5-9__low	Male population aged 5 to 9 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
@@ -1042,7 +1042,7 @@ columns	population__male__FULL__medium
 	location	Country name	EntityName
 	year	Year	Year
 	population__male__all__medium	Male population	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			1000000;3000000;10000000;30000000;100000000;300000000;1000000000;3000000000	PuBu	
-	population__male__0__medium	Male population at age 0	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
+	population__male__0__medium	Male population under 1 year	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__male__0-4__medium	Male population aged 0 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__male__1-4__medium	Male population aged 1 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__male__5-9__medium	Male population aged 5 to 9 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
@@ -1063,7 +1063,7 @@ columns	population__male__FULL__high
 	location	Country name	EntityName
 	year	Year	Year
 	population__male__all__high	Male population	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			1000000;3000000;10000000;30000000;100000000;300000000;1000000000;3000000000	PuBu	
-	population__male__0__high	Male population at age 0	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
+	population__male__0__high	Male population under 1 year	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__male__0-4__high	Male population aged 0 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__male__1-4__high	Male population aged 1 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
 	population__male__5-9__high	Male population aged 5 to 9 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				PuBu	
@@ -1204,7 +1204,7 @@ columns	population_change__all__FULL__records
 	location	Country name	EntityName
 	year	Year	Year
 	population_change__all__all__records	Annual change in population	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
-	population_change__all__0__records	Annual change in population at age 0	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
+	population_change__all__0__records	Annual change in population under 1 year	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
 	population_change__all__0-4__records	Annual change in population aged 0 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
 	population_change__all__1-4__records	Annual change in population aged 1 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
 	population_change__all__5-9__records	Annual change in population aged 5 to 9 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
@@ -1225,7 +1225,7 @@ columns	population_change__all__FULL__low
 	location	Country name	EntityName
 	year	Year	Year
 	population_change__all__all__low	Annual change in population	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
-	population_change__all__0__low	Annual change in population at age 0	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
+	population_change__all__0__low	Annual change in population under 1 year	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
 	population_change__all__0-4__low	Annual change in population aged 0 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
 	population_change__all__1-4__low	Annual change in population aged 1 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
 	population_change__all__5-9__low	Annual change in population aged 5 to 9 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
@@ -1246,7 +1246,7 @@ columns	population_change__all__FULL__medium
 	location	Country name	EntityName
 	year	Year	Year
 	population_change__all__all__medium	Annual change in population	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
-	population_change__all__0__medium	Annual change in population at age 0	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
+	population_change__all__0__medium	Annual change in population under 1 year	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
 	population_change__all__0-4__medium	Annual change in population aged 0 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
 	population_change__all__1-4__medium	Annual change in population aged 1 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
 	population_change__all__5-9__medium	Annual change in population aged 5 to 9 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
@@ -1267,7 +1267,7 @@ columns	population_change__all__FULL__high
 	location	Country name	EntityName
 	year	Year	Year
 	population_change__all__all__high	Annual change in population	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
-	population_change__all__0__high	Annual change in population at age 0	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
+	population_change__all__0__high	Annual change in population under 1 year	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
 	population_change__all__0-4__high	Annual change in population aged 0 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
 	population_change__all__1-4__high	Annual change in population aged 1 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
 	population_change__all__5-9__high	Annual change in population aged 5 to 9 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
@@ -1288,7 +1288,7 @@ columns	population_change__female__FULL__records
 	location	Country name	EntityName
 	year	Year	Year
 	population_change__female__all__records	Annual change in female population	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
-	population_change__female__0__records	Annual change in female population at age 0	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
+	population_change__female__0__records	Annual change in female population under 1 year	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
 	population_change__female__0-4__records	Annual change in female population aged 0 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
 	population_change__female__1-4__records	Annual change in female population aged 1 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
 	population_change__female__5-9__records	Annual change in female population aged 5 to 9 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
@@ -1309,7 +1309,7 @@ columns	population_change__female__FULL__low
 	location	Country name	EntityName
 	year	Year	Year
 	population_change__female__all__low	Annual change in female population	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
-	population_change__female__0__low	Annual change in female population at age 0	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
+	population_change__female__0__low	Annual change in female population under 1 year	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
 	population_change__female__0-4__low	Annual change in female population aged 0 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
 	population_change__female__1-4__low	Annual change in female population aged 1 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
 	population_change__female__5-9__low	Annual change in female population aged 5 to 9 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
@@ -1330,7 +1330,7 @@ columns	population_change__female__FULL__medium
 	location	Country name	EntityName
 	year	Year	Year
 	population_change__female__all__medium	Annual change in female population	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
-	population_change__female__0__medium	Annual change in female population at age 0	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
+	population_change__female__0__medium	Annual change in female population under 1 year	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
 	population_change__female__0-4__medium	Annual change in female population aged 0 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
 	population_change__female__1-4__medium	Annual change in female population aged 1 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
 	population_change__female__5-9__medium	Annual change in female population aged 5 to 9 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
@@ -1351,7 +1351,7 @@ columns	population_change__female__FULL__high
 	location	Country name	EntityName
 	year	Year	Year
 	population_change__female__all__high	Annual change in female population	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
-	population_change__female__0__high	Annual change in female population at age 0	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
+	population_change__female__0__high	Annual change in female population under 1 year	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
 	population_change__female__0-4__high	Annual change in female population aged 0 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
 	population_change__female__1-4__high	Annual change in female population aged 1 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
 	population_change__female__5-9__high	Annual change in female population aged 5 to 9 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
@@ -1372,7 +1372,7 @@ columns	population_change__male__FULL__records
 	location	Country name	EntityName
 	year	Year	Year
 	population_change__male__all__records	Annual change in male population	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
-	population_change__male__0__records	Annual change in male population at age 0	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
+	population_change__male__0__records	Annual change in male population under 1 year	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
 	population_change__male__0-4__records	Annual change in male population aged 0 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
 	population_change__male__1-4__records	Annual change in male population aged 1 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
 	population_change__male__5-9__records	Annual change in male population aged 5 to 9 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
@@ -1393,7 +1393,7 @@ columns	population_change__male__FULL__low
 	location	Country name	EntityName
 	year	Year	Year
 	population_change__male__all__low	Annual change in male population	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
-	population_change__male__0__low	Annual change in male population at age 0	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
+	population_change__male__0__low	Annual change in male population under 1 year	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
 	population_change__male__0-4__low	Annual change in male population aged 0 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
 	population_change__male__1-4__low	Annual change in male population aged 1 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
 	population_change__male__5-9__low	Annual change in male population aged 5 to 9 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
@@ -1414,7 +1414,7 @@ columns	population_change__male__FULL__medium
 	location	Country name	EntityName
 	year	Year	Year
 	population_change__male__all__medium	Annual change in male population	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
-	population_change__male__0__medium	Annual change in male population at age 0	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
+	population_change__male__0__medium	Annual change in male population under 1 year	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
 	population_change__male__0-4__medium	Annual change in male population aged 0 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
 	population_change__male__1-4__medium	Annual change in male population aged 1 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
 	population_change__male__5-9__medium	Annual change in male population aged 5 to 9 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
@@ -1435,7 +1435,7 @@ columns	population_change__male__FULL__high
 	location	Country name	EntityName
 	year	Year	Year
 	population_change__male__all__high	Annual change in male population	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
-	population_change__male__0__high	Annual change in male population at age 0	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
+	population_change__male__0__high	Annual change in male population under 1 year	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
 	population_change__male__0-4__high	Annual change in male population aged 0 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
 	population_change__male__1-4__high	Annual change in male population aged 1 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
 	population_change__male__5-9__high	Annual change in male population aged 5 to 9 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			-1000000;-100000;-10000;0;10000;100000;1000000;10000000	RdBu	
@@ -1556,7 +1556,7 @@ columns	deaths__all__FULL__records
 	location	Country name	EntityName
 	year	Year	Year
 	deaths__all__all__records	Deaths	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			1000;10000;100000;1000000;10000000;100000000	OrRd	
-	deaths__all__0__records	Deaths at age 0	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
+	deaths__all__0__records	Deaths under 1 year	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
 	deaths__all__0-4__records	Deaths aged 0 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
 	deaths__all__1-4__records	Deaths aged 1 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
 	deaths__all__5-9__records	Deaths aged 5 to 9 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
@@ -1576,7 +1576,7 @@ columns	deaths__all__FULL__low
 	location	Country name	EntityName
 	year	Year	Year
 	deaths__all__all__low	Deaths	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			1000;10000;100000;1000000;10000000;100000000	OrRd	
-	deaths__all__0__low	Deaths at age 0	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
+	deaths__all__0__low	Deaths under 1 year	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
 	deaths__all__0-4__low	Deaths aged 0 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
 	deaths__all__1-4__low	Deaths aged 1 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
 	deaths__all__5-9__low	Deaths aged 5 to 9 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
@@ -1596,7 +1596,7 @@ columns	deaths__all__FULL__medium
 	location	Country name	EntityName
 	year	Year	Year
 	deaths__all__all__medium	Deaths	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			1000;10000;100000;1000000;10000000;100000000	OrRd	
-	deaths__all__0__medium	Deaths at age 0	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
+	deaths__all__0__medium	Deaths under 1 year	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
 	deaths__all__0-4__medium	Deaths aged 0 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
 	deaths__all__1-4__medium	Deaths aged 1 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
 	deaths__all__5-9__medium	Deaths aged 5 to 9 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
@@ -1616,7 +1616,7 @@ columns	deaths__all__FULL__high
 	location	Country name	EntityName
 	year	Year	Year
 	deaths__all__all__high	Deaths	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			1000;10000;100000;1000000;10000000;100000000	OrRd	
-	deaths__all__0__high	Deaths at age 0	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
+	deaths__all__0__high	Deaths under 1 year	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
 	deaths__all__0-4__high	Deaths aged 0 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
 	deaths__all__1-4__high	Deaths aged 1 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
 	deaths__all__5-9__high	Deaths aged 5 to 9 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
@@ -1636,7 +1636,7 @@ columns	deaths__female__FULL__records
 	location	Country name	EntityName
 	year	Year	Year
 	deaths__female__all__records	Female deaths	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			1000;10000;100000;1000000;10000000;100000000	OrRd	
-	deaths__female__0__records	Female deaths at age 0	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
+	deaths__female__0__records	Female deaths under 1 year	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
 	deaths__female__0-4__records	Female deaths aged 0 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
 	deaths__female__1-4__records	Female deaths aged 1 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
 	deaths__female__5-9__records	Female deaths aged 5 to 9 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
@@ -1656,7 +1656,7 @@ columns	deaths__female__FULL__low
 	location	Country name	EntityName
 	year	Year	Year
 	deaths__female__all__low	Female deaths	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			1000;10000;100000;1000000;10000000;100000000	OrRd	
-	deaths__female__0__low	Female deaths at age 0	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
+	deaths__female__0__low	Female deaths under 1 year	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
 	deaths__female__0-4__low	Female deaths aged 0 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
 	deaths__female__1-4__low	Female deaths aged 1 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
 	deaths__female__5-9__low	Female deaths aged 5 to 9 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
@@ -1676,7 +1676,7 @@ columns	deaths__female__FULL__medium
 	location	Country name	EntityName
 	year	Year	Year
 	deaths__female__all__medium	Female deaths	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			1000;10000;100000;1000000;10000000;100000000	OrRd	
-	deaths__female__0__medium	Female deaths at age 0	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
+	deaths__female__0__medium	Female deaths under 1 year	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
 	deaths__female__0-4__medium	Female deaths aged 0 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
 	deaths__female__1-4__medium	Female deaths aged 1 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
 	deaths__female__5-9__medium	Female deaths aged 5 to 9 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
@@ -1696,7 +1696,7 @@ columns	deaths__female__FULL__high
 	location	Country name	EntityName
 	year	Year	Year
 	deaths__female__all__high	Female deaths	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			1000;10000;100000;1000000;10000000;100000000	OrRd	
-	deaths__female__0__high	Female deaths at age 0	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
+	deaths__female__0__high	Female deaths under 1 year	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
 	deaths__female__0-4__high	Female deaths aged 0 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
 	deaths__female__1-4__high	Female deaths aged 1 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
 	deaths__female__5-9__high	Female deaths aged 5 to 9 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
@@ -1716,7 +1716,7 @@ columns	deaths__male__FULL__records
 	location	Country name	EntityName
 	year	Year	Year
 	deaths__male__all__records	Male deaths	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			1000;10000;100000;1000000;10000000;100000000	OrRd	
-	deaths__male__0__records	Male deaths at age 0	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
+	deaths__male__0__records	Male deaths under 1 year	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
 	deaths__male__0-4__records	Male deaths aged 0 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
 	deaths__male__1-4__records	Male deaths aged 1 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
 	deaths__male__5-9__records	Male deaths aged 5 to 9 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
@@ -1736,7 +1736,7 @@ columns	deaths__male__FULL__low
 	location	Country name	EntityName
 	year	Year	Year
 	deaths__male__all__low	Male deaths	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			1000;10000;100000;1000000;10000000;100000000	OrRd	
-	deaths__male__0__low	Male deaths at age 0	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
+	deaths__male__0__low	Male deaths under 1 year	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
 	deaths__male__0-4__low	Male deaths aged 0 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
 	deaths__male__1-4__low	Male deaths aged 1 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
 	deaths__male__5-9__low	Male deaths aged 5 to 9 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
@@ -1756,7 +1756,7 @@ columns	deaths__male__FULL__medium
 	location	Country name	EntityName
 	year	Year	Year
 	deaths__male__all__medium	Male deaths	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			1000;10000;100000;1000000;10000000;100000000	OrRd	
-	deaths__male__0__medium	Male deaths at age 0	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
+	deaths__male__0__medium	Male deaths under 1 year	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
 	deaths__male__0-4__medium	Male deaths aged 0 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
 	deaths__male__1-4__medium	Male deaths aged 1 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
 	deaths__male__5-9__medium	Male deaths aged 5 to 9 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
@@ -1776,7 +1776,7 @@ columns	deaths__male__FULL__high
 	location	Country name	EntityName
 	year	Year	Year
 	deaths__male__all__high	Male deaths	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			1000;10000;100000;1000000;10000000;100000000	OrRd	
-	deaths__male__0__high	Male deaths at age 0	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
+	deaths__male__0__high	Male deaths under 1 year	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
 	deaths__male__0-4__high	Male deaths aged 0 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
 	deaths__male__1-4__high	Male deaths aged 1 to 4 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
 	deaths__male__5-9__high	Male deaths aged 5 to 9 years	Integer	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			100;1000;10000;100000;1000000;10000000	OrRd	
@@ -1819,49 +1819,49 @@ columns	child_mortality_rate__all__FULL__records
 	slug	name	type	sourceName	sourceLink	dataPublishedBy	shortUnit	unit	colorScaleNumericBins	colorScaleScheme	colorScaleNumericMinValue
 	location	Country name	EntityName
 	year	Year	Year
-	child_mortality_rate__all__all__records	Child mortality rate	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	0.25;0.5;1;2.5;5;10;15;20;30	OrRd	
+	child_mortality_rate__all__all__records	Child mortality rate	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	0;0.1;0.2;0.5;1;2;5;10;20;50 	OrRd	
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/child_mortality_rate__all__FULL__low.csv?nocache	child_mortality_rate__all__FULL__low
 columns	child_mortality_rate__all__FULL__low
 	slug	name	type	sourceName	sourceLink	dataPublishedBy	shortUnit	unit	colorScaleNumericBins	colorScaleScheme	colorScaleNumericMinValue
 	location	Country name	EntityName
 	year	Year	Year
-	child_mortality_rate__all__all__low	Child mortality rate	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	0.25;0.5;1;2.5;5;10;15;20;30	OrRd	
+	child_mortality_rate__all__all__low	Child mortality rate	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	0;0.1;0.2;0.5;1;2;5;10;20;50 	OrRd	
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/child_mortality_rate__all__FULL__medium.csv?nocache	child_mortality_rate__all__FULL__medium
 columns	child_mortality_rate__all__FULL__medium
 	slug	name	type	sourceName	sourceLink	dataPublishedBy	shortUnit	unit	colorScaleNumericBins	colorScaleScheme	colorScaleNumericMinValue
 	location	Country name	EntityName
 	year	Year	Year
-	child_mortality_rate__all__all__medium	Child mortality rate	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	0.25;0.5;1;2.5;5;10;15;20;30	OrRd	
+	child_mortality_rate__all__all__medium	Child mortality rate	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	0;0.1;0.2;0.5;1;2;5;10;20;50 	OrRd	
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/child_mortality_rate__all__FULL__high.csv?nocache	child_mortality_rate__all__FULL__high
 columns	child_mortality_rate__all__FULL__high
 	slug	name	type	sourceName	sourceLink	dataPublishedBy	shortUnit	unit	colorScaleNumericBins	colorScaleScheme	colorScaleNumericMinValue
 	location	Country name	EntityName
 	year	Year	Year
-	child_mortality_rate__all__all__high	Child mortality rate	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	0.25;0.5;1;2.5;5;10;15;20;30	OrRd	
+	child_mortality_rate__all__all__high	Child mortality rate	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	0;0.1;0.2;0.5;1;2;5;10;20;50 	OrRd	
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/infant_mortality_rate__all__FULL__records.csv?nocache	infant_mortality_rate__all__FULL__records
 columns	infant_mortality_rate__all__FULL__records
 	slug	name	type	sourceName	sourceLink	dataPublishedBy	shortUnit	unit	colorScaleNumericBins	colorScaleScheme	colorScaleNumericMinValue
 	location	Country name	EntityName
 	year	Year	Year
-	infant_mortality_rate__all__all__records	Infant mortality rate	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	0.25;0.5;1;2.5;5;10;15;20;30	OrRd	
+	infant_mortality_rate__all__all__records	Infant mortality rate	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	0;0.1;0.2;0.5;1;2;5;10;20;50 	OrRd	
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/infant_mortality_rate__all__FULL__low.csv?nocache	infant_mortality_rate__all__FULL__low
 columns	infant_mortality_rate__all__FULL__low
 	slug	name	type	sourceName	sourceLink	dataPublishedBy	shortUnit	unit	colorScaleNumericBins	colorScaleScheme	colorScaleNumericMinValue
 	location	Country name	EntityName
 	year	Year	Year
-	infant_mortality_rate__all__all__low	Infant mortality rate	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	0.25;0.5;1;2.5;5;10;15;20;30	OrRd	
+	infant_mortality_rate__all__all__low	Infant mortality rate	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	0;0.1;0.2;0.5;1;2;5;10;20;50 	OrRd	
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/infant_mortality_rate__all__FULL__medium.csv?nocache	infant_mortality_rate__all__FULL__medium
 columns	infant_mortality_rate__all__FULL__medium
 	slug	name	type	sourceName	sourceLink	dataPublishedBy	shortUnit	unit	colorScaleNumericBins	colorScaleScheme	colorScaleNumericMinValue
 	location	Country name	EntityName
 	year	Year	Year
-	infant_mortality_rate__all__all__medium	Infant mortality rate	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	0.25;0.5;1;2.5;5;10;15;20;30	OrRd	
+	infant_mortality_rate__all__all__medium	Infant mortality rate	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	0;0.1;0.2;0.5;1;2;5;10;20;50 	OrRd	
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/infant_mortality_rate__all__FULL__high.csv?nocache	infant_mortality_rate__all__FULL__high
 columns	infant_mortality_rate__all__FULL__high
 	slug	name	type	sourceName	sourceLink	dataPublishedBy	shortUnit	unit	colorScaleNumericBins	colorScaleScheme	colorScaleNumericMinValue
 	location	Country name	EntityName
 	year	Year	Year
-	infant_mortality_rate__all__all__high	Infant mortality rate	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	0.25;0.5;1;2.5;5;10;15;20;30	OrRd	
+	infant_mortality_rate__all__all__high	Infant mortality rate	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division	%	%	0;0.1;0.2;0.5;1;2;5;10;20;50 	OrRd	
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/fertility_rate__all__FULL__records.csv?nocache	fertility_rate__all__FULL__records
 columns	fertility_rate__all__FULL__records
 	slug	name	type	sourceName	sourceLink	dataPublishedBy	shortUnit	unit	colorScaleNumericBins	colorScaleScheme	colorScaleNumericMinValue
@@ -2046,64 +2046,64 @@ columns	sex_ratio__none__FULL__records
 	location	Country name	EntityName
 	year	Year	Year
 	sex_ratio__none__at_birth__records	Sex ratio at birth	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			102;103;104;105;106;107;108;109	BrBG	101
-	sex_ratio__none__15__records	Sex ratio at age 15	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				BrBG	
-	sex_ratio__none__20__records	Sex ratio at age 20	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				BrBG	
-	sex_ratio__none__30__records	Sex ratio at age 30	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				BrBG	
-	sex_ratio__none__40__records	Sex ratio at age 40	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				BrBG	
-	sex_ratio__none__50__records	Sex ratio at age 50	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				BrBG	
-	sex_ratio__none__60__records	Sex ratio at age 60	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				BrBG	
-	sex_ratio__none__70__records	Sex ratio at age 70	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				BrBG	
-	sex_ratio__none__80__records	Sex ratio at age 80	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				BrBG	
-	sex_ratio__none__90__records	Sex ratio at age 90	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				BrBG	
-	sex_ratio__none__100__records	Sex ratio at age 100	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				BrBG	
+	sex_ratio__none__15__records	Sex ratio at age 15	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				Blues	
+	sex_ratio__none__20__records	Sex ratio at age 20	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				Blues	
+	sex_ratio__none__30__records	Sex ratio at age 30	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				Blues	
+	sex_ratio__none__40__records	Sex ratio at age 40	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				Blues	
+	sex_ratio__none__50__records	Sex ratio at age 50	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				Blues	
+	sex_ratio__none__60__records	Sex ratio at age 60	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				Blues	
+	sex_ratio__none__70__records	Sex ratio at age 70	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				Blues	
+	sex_ratio__none__80__records	Sex ratio at age 80	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				Blues	
+	sex_ratio__none__90__records	Sex ratio at age 90	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				Blues	
+	sex_ratio__none__100__records	Sex ratio at age 100	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				Blues	
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/sex_ratio__none__FULL__low.csv?nocache	sex_ratio__none__FULL__low
 columns	sex_ratio__none__FULL__low
 	slug	name	type	sourceName	sourceLink	dataPublishedBy	shortUnit	unit	colorScaleNumericBins	colorScaleScheme	colorScaleNumericMinValue
 	location	Country name	EntityName
 	year	Year	Year
 	sex_ratio__none__at_birth__low	Sex ratio at birth	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			102;103;104;105;106;107;108;109	BrBG	101
-	sex_ratio__none__15__low	Sex ratio at age 15	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				BrBG	
-	sex_ratio__none__20__low	Sex ratio at age 20	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				BrBG	
-	sex_ratio__none__30__low	Sex ratio at age 30	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				BrBG	
-	sex_ratio__none__40__low	Sex ratio at age 40	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				BrBG	
-	sex_ratio__none__50__low	Sex ratio at age 50	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				BrBG	
-	sex_ratio__none__60__low	Sex ratio at age 60	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				BrBG	
-	sex_ratio__none__70__low	Sex ratio at age 70	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				BrBG	
-	sex_ratio__none__80__low	Sex ratio at age 80	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				BrBG	
-	sex_ratio__none__90__low	Sex ratio at age 90	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				BrBG	
-	sex_ratio__none__100__low	Sex ratio at age 100	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				BrBG	
+	sex_ratio__none__15__low	Sex ratio at age 15	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				Blues	
+	sex_ratio__none__20__low	Sex ratio at age 20	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				Blues	
+	sex_ratio__none__30__low	Sex ratio at age 30	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				Blues	
+	sex_ratio__none__40__low	Sex ratio at age 40	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				Blues	
+	sex_ratio__none__50__low	Sex ratio at age 50	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				Blues	
+	sex_ratio__none__60__low	Sex ratio at age 60	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				Blues	
+	sex_ratio__none__70__low	Sex ratio at age 70	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				Blues	
+	sex_ratio__none__80__low	Sex ratio at age 80	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				Blues	
+	sex_ratio__none__90__low	Sex ratio at age 90	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				Blues	
+	sex_ratio__none__100__low	Sex ratio at age 100	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				Blues	
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/sex_ratio__none__FULL__medium.csv?nocache	sex_ratio__none__FULL__medium
 columns	sex_ratio__none__FULL__medium
 	slug	name	type	sourceName	sourceLink	dataPublishedBy	shortUnit	unit	colorScaleNumericBins	colorScaleScheme	colorScaleNumericMinValue
 	location	Country name	EntityName
 	year	Year	Year
 	sex_ratio__none__at_birth__medium	Sex ratio at birth	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			102;103;104;105;106;107;108;109	BrBG	101
-	sex_ratio__none__15__medium	Sex ratio at age 15	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				BrBG	
-	sex_ratio__none__20__medium	Sex ratio at age 20	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				BrBG	
-	sex_ratio__none__30__medium	Sex ratio at age 30	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				BrBG	
-	sex_ratio__none__40__medium	Sex ratio at age 40	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				BrBG	
-	sex_ratio__none__50__medium	Sex ratio at age 50	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				BrBG	
-	sex_ratio__none__60__medium	Sex ratio at age 60	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				BrBG	
-	sex_ratio__none__70__medium	Sex ratio at age 70	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				BrBG	
-	sex_ratio__none__80__medium	Sex ratio at age 80	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				BrBG	
-	sex_ratio__none__90__medium	Sex ratio at age 90	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				BrBG	
-	sex_ratio__none__100__medium	Sex ratio at age 100	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				BrBG	
+	sex_ratio__none__15__medium	Sex ratio at age 15	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				Blues	
+	sex_ratio__none__20__medium	Sex ratio at age 20	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				Blues	
+	sex_ratio__none__30__medium	Sex ratio at age 30	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				Blues	
+	sex_ratio__none__40__medium	Sex ratio at age 40	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				Blues	
+	sex_ratio__none__50__medium	Sex ratio at age 50	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				Blues	
+	sex_ratio__none__60__medium	Sex ratio at age 60	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				Blues	
+	sex_ratio__none__70__medium	Sex ratio at age 70	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				Blues	
+	sex_ratio__none__80__medium	Sex ratio at age 80	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				Blues	
+	sex_ratio__none__90__medium	Sex ratio at age 90	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				Blues	
+	sex_ratio__none__100__medium	Sex ratio at age 100	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				Blues	
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/sex_ratio__none__FULL__high.csv?nocache	sex_ratio__none__FULL__high
 columns	sex_ratio__none__FULL__high
 	slug	name	type	sourceName	sourceLink	dataPublishedBy	shortUnit	unit	colorScaleNumericBins	colorScaleScheme	colorScaleNumericMinValue
 	location	Country name	EntityName
 	year	Year	Year
 	sex_ratio__none__at_birth__high	Sex ratio at birth	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division			102;103;104;105;106;107;108;109	BrBG	101
-	sex_ratio__none__15__high	Sex ratio at age 15	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				BrBG	
-	sex_ratio__none__20__high	Sex ratio at age 20	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				BrBG	
-	sex_ratio__none__30__high	Sex ratio at age 30	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				BrBG	
-	sex_ratio__none__40__high	Sex ratio at age 40	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				BrBG	
-	sex_ratio__none__50__high	Sex ratio at age 50	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				BrBG	
-	sex_ratio__none__60__high	Sex ratio at age 60	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				BrBG	
-	sex_ratio__none__70__high	Sex ratio at age 70	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				BrBG	
-	sex_ratio__none__80__high	Sex ratio at age 80	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				BrBG	
-	sex_ratio__none__90__high	Sex ratio at age 90	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				BrBG	
-	sex_ratio__none__100__high	Sex ratio at age 100	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				BrBG	
+	sex_ratio__none__15__high	Sex ratio at age 15	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				Blues	
+	sex_ratio__none__20__high	Sex ratio at age 20	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				Blues	
+	sex_ratio__none__30__high	Sex ratio at age 30	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				Blues	
+	sex_ratio__none__40__high	Sex ratio at age 40	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				Blues	
+	sex_ratio__none__50__high	Sex ratio at age 50	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				Blues	
+	sex_ratio__none__60__high	Sex ratio at age 60	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				Blues	
+	sex_ratio__none__70__high	Sex ratio at age 70	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				Blues	
+	sex_ratio__none__80__high	Sex ratio at age 80	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				Blues	
+	sex_ratio__none__90__high	Sex ratio at age 90	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				Blues	
+	sex_ratio__none__100__high	Sex ratio at age 100	Numeric	United Nations World Population Prospects (2022)	https://population.un.org/wpp/	UN Population Division				Blues	
 table	https://files.ourworldindata.org/data/unwpp-unstable-v3/dependency_ratio_total__all__FULL__records.csv?nocache	dependency_ratio_total__all__FULL__records
 columns	dependency_ratio_total__all__FULL__records
 	slug	name	type	sourceName	sourceLink	dataPublishedBy	shortUnit	unit	colorScaleNumericBins	colorScaleScheme	colorScaleNumericMinValue
