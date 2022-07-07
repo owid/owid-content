@@ -80,7 +80,8 @@ input_df = {
 df = input_df["metrics"]
 
 # %%
-for merge_col in input_files[1:]:
+merge_cols = input_files[1:]
+for merge_col in merge_cols:
     explode_col = "_" + merge_col
     df[explode_col] = df[explode_col].apply(lambda x: x.split(" "))
     df = df.explode(explode_col)
@@ -96,6 +97,12 @@ for merge_col in input_files[1:]:
     )
     assert df[merge_col + "__merge"].isin(["both"]).all()
     df = df.drop([explode_col, merge_col + "__merge"], axis=1)
+
+# We want to specify some variants twice, once with more specific information (e.g. manual map brackets).
+# Use the first occurrence of every view.
+df = df.drop_duplicates(
+    subset=["Metric Dropdown", *[f"{col}__slug" for col in merge_cols]]
+)
 
 # %%
 
