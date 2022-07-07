@@ -38,6 +38,7 @@ def table_def(tableSlug, rows, display_names):
         "sourceName",
         "sourceLink",
         "dataPublishedBy",
+        "additionalInfo",
         *column_defs.columns,
     ]
     col_names = "\t".join(col_names)
@@ -49,7 +50,8 @@ def table_def(tableSlug, rows, display_names):
             row["column__type"],
             "United Nations World Population Prospects (2022)",
             "https://population.un.org/wpp/",
-            "UN Population Division",
+            "United Nations, Department of Economic and Social Affairs, Population Division (2022). World Population Prospects 2022, Online Edition.",
+            "<p>The 2022 Revision of World Population Prospects was released on 11 July 2022 by the Population Division of the Department of Economic and Social Affairs of the United Nations.</p><p>It presents population estimates from 1950 to the present, based on historical demographic trends. It also includes projections to the year 2100 based on a range of demographic scenarios. The three scenarios that we show (‘Low’, ‘Medium’, ‘High’) differ only with respect to the level of fertility; they share the same assumptions for sex ratio at birth, life expectancy and international migration.</p><p>All values are estimated based on current country borders.</p><p>The next revision of this data by the UN is due in 2024.</p>",
             *column_defs.loc[idx].values.tolist(),
         ]
         for (idx, row) in rows.iterrows()
