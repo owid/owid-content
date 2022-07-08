@@ -8,7 +8,7 @@ from collections import defaultdict
 
 
 def file_url(tableSlug):
-    return f"https://files.ourworldindata.org/data/unwpp-unstable-v3/{tableSlug}.csv?nocache"
+    return f"https://files.ourworldindata.org/data/unwpp-unstable-v3/{tableSlug}.csv"
 
 
 # %%
@@ -68,7 +68,7 @@ columns	{tableSlug}
 
 
 # %%
-outfile = "../../explorers/demography.explorer.tsv"
+outfile = "../../explorers/population-and-demography.explorer.tsv"
 
 # %%
 # Read inputs
