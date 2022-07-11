@@ -1,0 +1,40 @@
+slug,csv_slug,name,title_suffix
+all,all,Total,
+none,none,None
+0-4,0-4,0–4 years,aged 0 to 4 years
+1-4,1-4,1–4 years,aged 1 to 4 years
+5-9,5-9,5–9 years,aged 5 to 9 years
+10-14,10-14,10–14 years,aged 10 to 14 years
+15-19,15-19,15–19 years,aged 15 to 19 years
+20-29,20-29,20–29 years,aged 20 to 29 years
+30-39,30-39,30–39 years,aged 30 to 39 years
+40-49,40-49,40–49 years,aged 40 to 49 years
+50-59,50-59,50–59 years,aged 50 to 59 years
+60-69,60-69,60–69 years,aged 60 to 69 years
+70-79,70-79,70–79 years,aged 70 to 79 years
+80-89,80-89,80–89 years,aged 80 to 89 years
+90-99,90-99,90–99 years,aged 90 to 99 years
+100-,100-,100+ years,older than 100 years
+mothers_15-19,15-19,Mothers aged 15–19 years,from mothers aged 15 to 19 years
+mothers_20-24,20-24,Mothers aged 20–24 years,from mothers aged 20 to 24 years
+mothers_25-29,25-29,Mothers aged 25–29 years,from mothers aged 25 to 29 years
+mothers_30-34,30-34,Mothers aged 30–34 years,from mothers aged 30 to 34 years
+mothers_35-39,35-39,Mothers aged 35–39 years,from mothers aged 35 to 39 years
+mothers_40-44,40-44,Mothers aged 40–44 years,from mothers aged 40 to 44 years
+mothers_45-49,45-49,Mothers aged 45–49 years,from mothers aged 45 to 49 years
+at_birth,at_birth,At birth,at birth
+0,0,Under 1 year,under 1 year
+15,15,At age 15,at age 15
+20,20,At age 20,at age 20
+30,30,At age 30,at age 30
+40,40,At age 40,at age 40
+50,50,At age 50,at age 50
+60,60,At age 60,at age 60
+65,65,At age 65,at age 65
+70,70,At age 70,at age 70
+80,80,At age 80,at age 80
+90,90,At age 90,at age 90
+100,100,At age 100,at age 100
+dependency_total,dependency_total,Total dependency ratio,
+dependency_child,dependency_child,Youth dependency ratio,
+dependency_old,dependency_old,Old-age dependency ratio,
