@@ -2,13 +2,14 @@
 
 explorerTitle	Democracy Data Explorer
 isPublished	true
+thumbnail	https://owid.cloud/app/uploads/2022/06/Democracy-Data-Explorer.png
 explorerSubtitle	Explore the world's political systems with the leading approaches of measuring democracy. Download the complete <a href="https://github.com/owid/notebooks/tree/main/BastianHerre/democracy">Democracy Data</a>.
 selection	Argentina	Australia	Botswana	China	World
 wpBlockId	51850
 subNavId
 subNavCurrentId	democracy-data
 graphers
-	grapherId	Source Dropdown	Metric Dropdown	Sub-metric Dropdown
+	grapherId	Dataset Dropdown	Metric Dropdown	Sub-metric Dropdown
 	5537	Varieties of Democracy	Electoral democracy	Main index
 	3461	Varieties of Democracy	Electoral democracy	Elected officials
 	3457	Varieties of Democracy	Electoral democracy	Share of adult citizens who have the right to vote
@@ -67,7 +68,7 @@ graphers
 	5728	Regimes of the World	­Electoral democracy	Multi-party elections
 	5729	Regimes of the World	­Electoral democracy	Multi-party elections for chief executive
 	5730	Regimes of the World	­Electoral democracy	Multi-party elections for legislature
-	5734	Regimes of the World	­Electoral democracy	Free and fair elections
+	5734	Regimes of the World	­Electoral democracy	­Free and fair elections
 	5732	Regimes of the World	­Electoral democracy	Democratic electoral institutions
 	5517	Regimes of the World	­Electoral democracy	Age of electoral democracy
 	5676	Regimes of the World	­Electoral democracy	Number of long-standing electoral democracies
@@ -136,8 +137,8 @@ graphers
 	5795	Polity	­­­Democracy	Regulation of political participation
 	5794	Polity	­­­Democracy	Competitiveness of political participation
 	5793	Polity	­­­Democracy	­­­­­Main index weighted by population
-	5877	Polity	­­­Political regime	­­­­­Main index distribution
-	5871	Polity	­­­Political regime	­­­­­Main index distribution weighted by population
+	5877	Polity	­­­Democracy	­­­­­Main index distribution
+	5871	Polity	­­­Democracy	­­­­­Main index distribution weighted by population
 	5788	Polity	­­­Political regime	Main classification
 	5797	Polity	­­­Political regime	Number of democracies
 	5798	Polity	­­­Political regime	Share of democracies
@@ -175,7 +176,7 @@ graphers
 	5873	Bertelsmann Transformation Index	­­­­­Democratic features	­­­­­­Main index distribution weighted by population
 	5806	Bertelsmann Transformation Index	­­­­­Political regime	Main classification
 	5807	Bertelsmann Transformation Index	­­­­­Political regime	Basic state functions
-	5808	Bertelsmann Transformation Index	­­­­­Political regime	­Free and fair elections
+	5808	Bertelsmann Transformation Index	­­­­­Political regime	­­Free and fair elections
 	5809	Bertelsmann Transformation Index	­­­­­Political regime	Effective power to govern
 	5810	Bertelsmann Transformation Index	­­­­­Political regime	­Freedom of association
 	5811	Bertelsmann Transformation Index	­­­­­Political regime	­Freedom of expression
