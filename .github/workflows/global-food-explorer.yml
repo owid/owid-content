@@ -1,16 +1,16 @@
-name: Global Food Explorer
+name: Population and demography explorer
 on:
   push:
     branches:
       - master
       - staging
     paths:
-      - "scripts/global-food-explorer/**"
+      - "scripts/demography-explorer/**"
   pull_request:
     paths:
-      - "scripts/global-food-explorer/**"
+      - "scripts/demography-explorer/**"
 
-# Auto-run the script generating the global food explorer spreadsheet, and push it as a commit to the respective branch
+# Auto-run the script generating the demography explorer spreadsheet, and push it as a commit to the respective branch
 
 jobs:
   generate:
@@ -25,11 +25,11 @@ jobs:
         uses: abatilo/actions-poetry@v2.1.4
 
       - name: Install dependencies
-        run: cd scripts/global-food-explorer && poetry install
+        run: cd scripts/demography-explorer && poetry install
 
-      - name: Run global food explorer script
-        run: cd scripts/global-food-explorer && poetry run python global-food-explorer.py
+      - name: Run population and demography explorer script
+        run: cd scripts/demography-explorer && poetry run python demography-explorer.py
 
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "🤖 update global-food-explorer"
+          commit_message: "🤖 update demography-explorer"
