@@ -8,7 +8,7 @@ from collections import defaultdict
 
 
 def file_url(tableSlug):
-    return f"https://files.ourworldindata.org/data/unwpp-unstable-v4/{tableSlug}.csv"
+    return f"https://catalog-staging.ourworldindata.org/explorers/un/2022/un_wpp/{tableSlug}.csv"
 
 
 # %%
