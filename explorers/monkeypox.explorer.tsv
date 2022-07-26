@@ -17,7 +17,7 @@ graphers
 	Monkeypox: Daily confirmed cases per million people	7-day rolling average	7day_confirmed_by_confirmation_per_million	true	Confirmed cases	7-day average	true	LineChart	true
 	Monkeypox: Daily confirmed cases per million people		daily_confirmed_by_confirmation_per_million	true	Confirmed cases	Daily	true	LineChart	true
 
-table	https://raw.githubusercontent.com/owid/notebooks/main/EdouardMathieu/monkeypox/owid-monkeypox-data.csv
+table	https://raw.githubusercontent.com/owid/notebooks/main/EdouardMathieu/monkeypox/owid-monkeypox-data-gh.csv
 columns
 	slug	name	type	tolerance	sourceName	sourceLink	additionalInfo	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleScheme
 	location	Country	EntityName
