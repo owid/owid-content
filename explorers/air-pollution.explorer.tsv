@@ -1,0 +1,44 @@
+explorerTitle	Air Pollution Data Explorer
+explorerSubtitle	Explore air pollution emissions and impacts across the world.
+isPublished	false
+selection	World	United States	China	India	United Kingdom
+explorerSubtitle
+hideAlertBanner	true
+subNavId
+wpBlockId
+hasMapTab	true
+hideTitleAnnotation	true
+graphers
+	title	subtitle	Metric Dropdown	Pollutant Dropdown	Per capita Checkbox	tableSlug	ySlugs	yScaleToggle	xSlug	baseColorScheme	type	hasMapTab	sourceDesc	note	relatedQuestionUrl	relatedQuestionText
+	Nitrogen oxide emissions		Emissions	Nitrogen oxides (NOx)	false	pollution	nox	true		owid-distinct	LineChart	true
+	Sulphur dioxide emissions		Emissions	Sulphur dioxide (SO₂)	false	pollution	so2	true		owid-distinct	LineChart	true
+	Carbon monoxide emissions		Emissions	Carbon monoxide (CO)	false	pollution	co	true		owid-distinct	LineChart	true
+	Organic carbon emissions		Emissions	Organic carbon (OC)	false	pollution	oc	true		owid-distinct	LineChart	true
+	Emissions of non-methane volatile organic compounds		Emissions	NMVOCs	false	pollution	nmvoc	true		owid-distinct	LineChart	true
+	Black carbon emissions		Emissions	Black carbon (BC)	false	pollution	bc	true		owid-distinct	LineChart	true
+	Ammonia emissions		Emissions	Ammonia (NH₃)	false	pollution	nh3	true		owid-distinct	LineChart	true
+	Per capita nitrogen oxide emissions		Emissions	Nitrogen oxides (NOx)	true	pollution	nox_per_capita	true		owid-distinct	LineChart	true
+	Per capita sulphur dioxide emissions		Emissions	Sulphur dioxide (SO₂)	true	pollution	so2_per_capita	true		owid-distinct	LineChart	true
+	Per capita carbon monoxide emissions		Emissions	Carbon monoxide (CO)	true	pollution	co_per_capita	true		owid-distinct	LineChart	true
+	Per capita organic carbon emissions		Emissions	Organic carbon (OC)	true	pollution	oc_per_capita	true		owid-distinct	LineChart	true
+	Per capita emissions of non-methane volatile organic compounds		Emissions	NMVOCs	true	pollution	nmvoc_per_capita	true		owid-distinct	LineChart	true
+	Per capita black carbon emissions		Emissions	Black carbon (BC)	true	pollution	bc_per_capita	true		owid-distinct	LineChart	true
+	Per capita ammonia emissions		Emissions	Ammonia (NH₃)	true	pollution	nh3_per_capita	true		owid-distinct	LineChart	true
+
+table	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Air%20pollution%20emissions%20(CEDS%2C%202022)/Air%20pollution%20emissions%20(CEDS%2C%202022).csv	pollution
+columns	pollution
+	slug	name	type	unit	shortUnit	transform	annotationsColumnSlug	notes	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo	tolerance	colorScaleNumericMinValue
+	nox	Nitrogen oxide emissions	Numeric	tonnes	t				Community Emissions Data System (CEDS)	https://github.com/JGCRI/CEDS/	O'Rourke, P. R, Smith, S. J., Mott, A., Ahsan, H., McDuffie, E. E., Crippa, M., Klimont, S., McDonald, B., Z., Wang, Nicholson, M. B, Feng, L., and Hoesly, R. M. (2021, February 05). CEDS v-2021-02-05 Emission Data 1975-2019 (Version Feb-05-2021). Zenodo. http://doi.org/10.5281/zenodo.4509372.
+	so2	Sulphur dioxide emissions	Numeric	tonnes	t				Community Emissions Data System (CEDS)	https://github.com/JGCRI/CEDS/	O'Rourke, P. R, Smith, S. J., Mott, A., Ahsan, H., McDuffie, E. E., Crippa, M., Klimont, S., McDonald, B., Z., Wang, Nicholson, M. B, Feng, L., and Hoesly, R. M. (2021, February 05). CEDS v-2021-02-05 Emission Data 1975-2019 (Version Feb-05-2021). Zenodo. http://doi.org/10.5281/zenodo.4509372.
+	co	Carbon monoxide emissions	Numeric	tonnes	t				Community Emissions Data System (CEDS)	https://github.com/JGCRI/CEDS/	O'Rourke, P. R, Smith, S. J., Mott, A., Ahsan, H., McDuffie, E. E., Crippa, M., Klimont, S., McDonald, B., Z., Wang, Nicholson, M. B, Feng, L., and Hoesly, R. M. (2021, February 05). CEDS v-2021-02-05 Emission Data 1975-2019 (Version Feb-05-2021). Zenodo. http://doi.org/10.5281/zenodo.4509372.
+	oc	Organic carbon emissions	Numeric	tonnes	t				Community Emissions Data System (CEDS)	https://github.com/JGCRI/CEDS/	O'Rourke, P. R, Smith, S. J., Mott, A., Ahsan, H., McDuffie, E. E., Crippa, M., Klimont, S., McDonald, B., Z., Wang, Nicholson, M. B, Feng, L., and Hoesly, R. M. (2021, February 05). CEDS v-2021-02-05 Emission Data 1975-2019 (Version Feb-05-2021). Zenodo. http://doi.org/10.5281/zenodo.4509372.
+	nmvoc	Emissions of non-methane volatile organic compounds	Numeric	tonnes	t				Community Emissions Data System (CEDS)	https://github.com/JGCRI/CEDS/	O'Rourke, P. R, Smith, S. J., Mott, A., Ahsan, H., McDuffie, E. E., Crippa, M., Klimont, S., McDonald, B., Z., Wang, Nicholson, M. B, Feng, L., and Hoesly, R. M. (2021, February 05). CEDS v-2021-02-05 Emission Data 1975-2019 (Version Feb-05-2021). Zenodo. http://doi.org/10.5281/zenodo.4509372.
+	bc	Black carbon emissions	Numeric	tonnes	t				Community Emissions Data System (CEDS)	https://github.com/JGCRI/CEDS/	O'Rourke, P. R, Smith, S. J., Mott, A., Ahsan, H., McDuffie, E. E., Crippa, M., Klimont, S., McDonald, B., Z., Wang, Nicholson, M. B, Feng, L., and Hoesly, R. M. (2021, February 05). CEDS v-2021-02-05 Emission Data 1975-2019 (Version Feb-05-2021). Zenodo. http://doi.org/10.5281/zenodo.4509372.
+	nh3	Ammonia emissions	Numeric	tonnes	t				Community Emissions Data System (CEDS)	https://github.com/JGCRI/CEDS/	O'Rourke, P. R, Smith, S. J., Mott, A., Ahsan, H., McDuffie, E. E., Crippa, M., Klimont, S., McDonald, B., Z., Wang, Nicholson, M. B, Feng, L., and Hoesly, R. M. (2021, February 05). CEDS v-2021-02-05 Emission Data 1975-2019 (Version Feb-05-2021). Zenodo. http://doi.org/10.5281/zenodo.4509372.
+	nox_per_capita	Per capita nitrogen oxide emissions	Numeric	tonnes	t				Community Emissions Data System (CEDS)	https://github.com/JGCRI/CEDS/	O'Rourke, P. R, Smith, S. J., Mott, A., Ahsan, H., McDuffie, E. E., Crippa, M., Klimont, S., McDonald, B., Z., Wang, Nicholson, M. B, Feng, L., and Hoesly, R. M. (2021, February 05). CEDS v-2021-02-05 Emission Data 1975-2019 (Version Feb-05-2021). Zenodo. http://doi.org/10.5281/zenodo.4509372.
+	so2_per_capita	Per capita sulphur dioxide emissions	Numeric	tonnes	t				Community Emissions Data System (CEDS)	https://github.com/JGCRI/CEDS/	O'Rourke, P. R, Smith, S. J., Mott, A., Ahsan, H., McDuffie, E. E., Crippa, M., Klimont, S., McDonald, B., Z., Wang, Nicholson, M. B, Feng, L., and Hoesly, R. M. (2021, February 05). CEDS v-2021-02-05 Emission Data 1975-2019 (Version Feb-05-2021). Zenodo. http://doi.org/10.5281/zenodo.4509372.
+	co_per_capita	Per capita carbon monoxide emissions	Numeric	tonnes	t				Community Emissions Data System (CEDS)	https://github.com/JGCRI/CEDS/	O'Rourke, P. R, Smith, S. J., Mott, A., Ahsan, H., McDuffie, E. E., Crippa, M., Klimont, S., McDonald, B., Z., Wang, Nicholson, M. B, Feng, L., and Hoesly, R. M. (2021, February 05). CEDS v-2021-02-05 Emission Data 1975-2019 (Version Feb-05-2021). Zenodo. http://doi.org/10.5281/zenodo.4509372.
+	oc_per_capita	Per capita organic carbon emissions	Numeric	tonnes	t				Community Emissions Data System (CEDS)	https://github.com/JGCRI/CEDS/	O'Rourke, P. R, Smith, S. J., Mott, A., Ahsan, H., McDuffie, E. E., Crippa, M., Klimont, S., McDonald, B., Z., Wang, Nicholson, M. B, Feng, L., and Hoesly, R. M. (2021, February 05). CEDS v-2021-02-05 Emission Data 1975-2019 (Version Feb-05-2021). Zenodo. http://doi.org/10.5281/zenodo.4509372.
+	nmvoc_per_capita	Per capita emissions of non-methane volatile organic compounds	Numeric	tonnes	t				Community Emissions Data System (CEDS)	https://github.com/JGCRI/CEDS/	O'Rourke, P. R, Smith, S. J., Mott, A., Ahsan, H., McDuffie, E. E., Crippa, M., Klimont, S., McDonald, B., Z., Wang, Nicholson, M. B, Feng, L., and Hoesly, R. M. (2021, February 05). CEDS v-2021-02-05 Emission Data 1975-2019 (Version Feb-05-2021). Zenodo. http://doi.org/10.5281/zenodo.4509372.
+	bc_per_capita	Per capita black carbon emissions	Numeric	tonnes	t				Community Emissions Data System (CEDS)	https://github.com/JGCRI/CEDS/	O'Rourke, P. R, Smith, S. J., Mott, A., Ahsan, H., McDuffie, E. E., Crippa, M., Klimont, S., McDonald, B., Z., Wang, Nicholson, M. B, Feng, L., and Hoesly, R. M. (2021, February 05). CEDS v-2021-02-05 Emission Data 1975-2019 (Version Feb-05-2021). Zenodo. http://doi.org/10.5281/zenodo.4509372.
+	nh3_per_capita	Per capita ammonia emissions	Numeric	tonnes	t				Community Emissions Data System (CEDS)	https://github.com/JGCRI/CEDS/	O'Rourke, P. R, Smith, S. J., Mott, A., Ahsan, H., McDuffie, E. E., Crippa, M., Klimont, S., McDonald, B., Z., Wang, Nicholson, M. B, Feng, L., and Hoesly, R. M. (2021, February 05). CEDS v-2021-02-05 Emission Data 1975-2019 (Version Feb-05-2021). Zenodo. http://doi.org/10.5281/zenodo.4509372.
