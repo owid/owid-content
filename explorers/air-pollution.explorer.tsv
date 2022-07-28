@@ -20,8 +20,8 @@ graphers
 	3802			Deaths	Outdoor pollution	IHME, Global Burden of Disease	true
 	4668			Deaths	Fossil fuel pollution	Leliveld et al. (2019)	false
 				Deaths	Fossil fuel pollution	Vohra et al.	false
-				Deaths	All anthropogenic pollution
-				Deaths	Natural pollution
+				Deaths	All anthropogenic pollution		false
+				Deaths	Natural pollution		false
 
 
 
