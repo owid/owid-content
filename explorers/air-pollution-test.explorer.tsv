@@ -1,0 +1,24 @@
+explorerTitle	Air Pollution Data Explorer
+isPublished	false
+selection	United States	Russia	Norway	United Kingdom	Germany	Sweden	China
+explorerSubtitle
+hideAlertBanner	true
+subNavId
+subNavCurrentId
+thumbnail
+hasMapTab	true
+yAxisMin	0
+hideTitleAnnotation	true
+tab	map
+graphers
+	grapherId	title	subtitle	Measure Dropdown	Sub-metric Dropdown	Data source Dropdown	Per capita Checkbox	tableSlug	ySlugs	yScaleToggle	xSlug	baseColorScheme	type	hasMapTab	note
+	3756			Deaths	Outdoor + Indoor pollution	IHME, Global Burden of Disease	false
+	1457			Deaths	Indoor pollution	IHME, Global Burden of Disease	false
+	1458			Deaths	Outdoor pollution	IHME, Global Burden of Disease	false
+	3757			Deaths	Outdoor + Indoor pollution	IHME, Global Burden of Disease	true
+	540			Deaths	Indoor pollution	IHME, Global Burden of Disease	true
+	3802			Deaths	Outdoor pollution	IHME, Global Burden of Disease	true
+	4668			Deaths	Fossil fuel pollution	Leliveld et al. (2019)	false
+				Deaths	Fossil fuel pollution	Vohra et al.	false
+				Deaths	All anthropogenic pollution		false
+				Deaths	Natural pollution		false
