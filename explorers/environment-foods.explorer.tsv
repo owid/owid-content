@@ -9,58 +9,58 @@ wpBlockId
 hasMapTab	false
 hideTitleAnnotation	true
 graphers
-	title	subtitle	Environmental Impact Dropdown	Metric Radio	tableSlug	ySlugs	yScaleToggle	yAxisMin	baseColorScheme	type	sourceDesc	note	relatedQuestionUrl	relatedQuestionText	facet	selectedFacetStrategy	facetYDomain
-			Carbon footprint	Per 100g	food	ghg_100g	false	0	owid-distinct	DiscreteBar
-			Carbon footprint	Per kilocalorie	food	ghg_kcal	false	0	owid-distinct	DiscreteBar
-			Carbon footprint	Per gram of protein	food	ghg_protein	false	0	owid-distinct	DiscreteBar
-			Carbon footprint	Per gram of fat	food	ghg_fat	false	0	owid-distinct	DiscreteBar
-			Land use	Per 100g	food	land_use_100g	false	0	owid-distinct	DiscreteBar
-			Land use	Per kilocalorie	food	land_use_kcal	false	0	owid-distinct	DiscreteBar
-			Land use	Per gram of protein	food	land_use_protein	false	0	owid-distinct	DiscreteBar
-			Land use	Per gram of fat	food	land_use_fat	false	0	owid-distinct	DiscreteBar
-			Eutrophication	Per 100g	food	eutrophication_100g	false	0	owid-distinct	DiscreteBar
-			Eutrophication	Per kilocalorie	food	eutrophication_kcal	false	0	owid-distinct	DiscreteBar
-			Eutrophication	Per gram of protein	food	eutrophication_protein	false	0	owid-distinct	DiscreteBar
-			Eutrophication	Per gram of fat	food	eutrophication_fat	false	0	owid-distinct	DiscreteBar
-			Water scarcity	Per 100g	food	water_scarcity_100g	false	0	owid-distinct	DiscreteBar
-			Water scarcity	Per kilocalorie	food	water_scarcity_kcal	false	0	owid-distinct	DiscreteBar
-			Water scarcity	Per gram of protein	food	water_scarcity_protein	false	0	owid-distinct	DiscreteBar
-			Water scarcity	Per gram of fat	food	water_scarcity_fat	false	0	owid-distinct	DiscreteBar
-			Biodiversity	Per 100g	food	biodiversity_100g	false	0	owid-distinct	DiscreteBar
-			Biodiversity	Per kilocalorie	food	biodiversity_kcal	false	0	owid-distinct	DiscreteBar
-			Biodiversity	Per gram of protein	food	biodiversity_protein	false	0	owid-distinct	DiscreteBar
-			Biodiversity	Per gram of fat	food	biodiversity_fat	false	0	owid-distinct	DiscreteBar
-			Water use	Per 100g	food	water_100g	false	0	owid-distinct	DiscreteBar
-			Water use	Per kilocalorie	food	water_kcal	false	0	owid-distinct	DiscreteBar
-			Water use	Per gram of protein	food	water_protein	false	0	owid-distinct	DiscreteBar
-			Water use	Per gram of fat	food	water_fat	false	0	owid-distinct	DiscreteBar
-					food	nutriscore	false	0	owid-distinct	DiscreteBar
+	title	subtitle	Environmental Impact Dropdown	Metric Radio	tableSlug	ySlugs	baseColorScheme	type	sourceDesc	note	relatedQuestionUrl	relatedQuestionText	facet	selectedFacetStrategy	facetYDomain
+	Greenhouse gas emissions per kilogram of food	Emissions are measured in carbon dioxide equivalents (CO2eq). This means non-CO2 gases are weighted by the amount of warming they cause over a 100-year timescale.	Carbon footprint	Per kilogram	food	ghg_kg	owid-distinct	DiscreteBar
+	Greenhouse gas emissions per 1000 kilocalories	Emissions are measured in carbon dioxide equivalents (CO2eq). This means non-CO2 gases are weighted by the amount of warming they cause over a 100-year timescale.	Carbon footprint	Per 1000 kilocalories	food	ghg_1000kcal	owid-distinct	DiscreteBar
+	Greenhouse gas emissions per 100 grams of protein	Emissions are measured in carbon dioxide equivalents (CO2eq). This means non-CO2 gases are weighted by the amount of warming they cause over a 100-year timescale.	Carbon footprint	Per 100 grams of protein	food	ghg_100gprotein	owid-distinct	DiscreteBar
+	Greenhouse gas emissions per 100 grams of fat	Emissions are measured in carbon dioxide equivalents (CO2eq). This means non-CO2 gases are weighted by the amount of warming they cause over a 100-year timescale.	Carbon footprint	Per 100 grams of fat	food	ghg_100gfat	owid-distinct	DiscreteBar
+	Land use per kilogram of food		Land use	Per kilogram	food	land_use_kg	owid-distinct	DiscreteBar
+	Land use per 1000 kilocalories		Land use	Per 1000 kilocalories	food	land_use_1000kcal	owid-distinct	DiscreteBar
+	Land use per 100 grams of protein		Land use	Per 100 grams of protein	food	land_use_100gprotein	owid-distinct	DiscreteBar
+	Land use per 100 grams of fat		Land use	Per 100 grams of fat	food	land_use_100gfat	owid-distinct	DiscreteBar
+	Eutrophication per kilogram of food		Eutrophication	Per kilogram	food	eutrophication_kg	owid-distinct	DiscreteBar
+	Eutrophication per 1000 kilocalories		Eutrophication	Per 1000 kilocalories	food	eutrophication_1000kcal	owid-distinct	DiscreteBar
+	Eutrophication per 100 grams of protein		Eutrophication	Per 100 grams of protein	food	eutrophication_100gprotein	owid-distinct	DiscreteBar
+	Eutrophication per 100 grams of fat		Eutrophication	Per 100 grams of fat	food	eutrophication_100gfat	owid-distinct	DiscreteBar
+	Water scarce withdrawals per kilogram of food		Water scarcity	Per kilogram	food	water_scarcity_kg	owid-distinct	DiscreteBar
+	Water scarce withdrawals per 1000 kilocalories		Water scarcity	Per 1000 kilocalories	food	water_scarcity_1000kcal	owid-distinct	DiscreteBar
+	Water scarce withdrawals per 100 grams of protein		Water scarcity	Per 100 grams of protein	food	water_scarcity_100gprotein	owid-distinct	DiscreteBar
+	Water scarce withdrawals per 100 grams of fat		Water scarcity	Per 100 grams of fat	food	water_scarcity_100gfat	owid-distinct	DiscreteBar
+	Water use per kilogram of food		Water use	Per kilogram	food	water_kg	owid-distinct	DiscreteBar
+	Water use per 1000 kilocalories		Water use	Per 1000 kilocalories	food	water_1000kcal	owid-distinct	DiscreteBar
+	Water use per 100 grams of protein		Water use	Per 100 grams of protein	food	water_100gprotein	owid-distinct	DiscreteBar
+	Water use per 100 grams of fat		Water use	Per 100 grams of fat	food	water_100gfat	owid-distinct	DiscreteBar
+	Biodiversity impact per kilogram of food		Biodiversity	Per kilogram	food	biodiversity_kg	owid-distinct	DiscreteBar
+	Biodiversity impact per 1000 kilocalories		Biodiversity	Per 1000 kilocalories	food	biodiversity_1000kcal	owid-distinct	DiscreteBar
+	Biodiversity impact per 100 grams of protein		Biodiversity	Per 100 grams of protein	food	biodiversity_100gprotein	owid-distinct	DiscreteBar
+	Biodiversity impact per 100 grams of fat		Biodiversity	Per 100 grams of fat	food	biodiversity_100gfat	owid-distinct	DiscreteBar
+
 
 table	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Environmental%20impacts%20of%20food/Environmental%20impacts%20of%20food.csv	food
 columns	food
 	slug	name	type	unit	shortUnit	transform	annotationsColumnSlug	notes	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo	tolerance	colorScaleNumericMinValue
-	ghg_100g		Numeric
-	ghg_kcal		Numeric
-	ghg_protein		Numeric
-	ghg_fat		Numeric
-	land_use_100g		Numeric
-	land_use_kcal		Numeric
-	land_use_protein		Numeric
-	land_use_fat		Numeric
-	eutrophication_100g		Numeric
-	eutrophication_kcal		Numeric
-	eutrophication_protein		Numeric
-	eutrophication_fat		Numeric
-	water_scarcity_100g		Numeric
-	water_scarcity_kcal		Numeric
-	water_scarcity_protein
-	water_scarcity_fat
-	biodiversity_100g
-	biodiversity_kcal
-	biodiversity_protein
-	biodiversity_fat
-	water_100g
-	water_kcal
-	water_protein
-	water_fat
+	ghg_kg		Numeric
+	ghg_1000kcal		Numeric
+	ghg_100gprotein		Numeric
+	ghg_100gfat		Numeric
+	land_use_kg		Numeric
+	land_use_1000kcal		Numeric
+	land_use_100gprotein		Numeric
+	land_use_100gfat		Numeric
+	eutrophication_kg		Numeric
+	eutrophication_1000kcal		Numeric
+	eutrophication_100gprotein		Numeric
+	eutrophication_100gfat		Numeric
+	water_scarcity_kg		Numeric
+	water_scarcity_1000kcal		Numeric
+	water_scarcity_100gprotein
+	water_scarcity_100gfat
+	water_kg
+	water_1000kcal
+	water_100gprotein
+	water_100gfat
+	biodiversity_kg
+	biodiversity_1000kcal
+	biodiversity_100gprotein
+	biodiversity_100gfat
 	nutriscore
