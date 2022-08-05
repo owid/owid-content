@@ -9,7 +9,7 @@ wpBlockId
 hasMapTab	true
 hideTitleAnnotation	true
 graphers
-	title	subtitle	Environmental Impact Dropdown	Metric Dropdown	tableSlug	ySlugs	yScaleToggle	yAxisMin	baseColorScheme	type	hasMapTab	sourceDesc	note	relatedQuestionUrl	relatedQuestionText	facet	selectedFacetStrategy	facetYDomain
+	title	subtitle	Environmental Impact Dropdown	Metric Radio	tableSlug	ySlugs	yScaleToggle	yAxisMin	baseColorScheme	type	hasMapTab	sourceDesc	note	relatedQuestionUrl	relatedQuestionText	facet	selectedFacetStrategy	facetYDomain
 			Carbon footprint	Per 100g	food	ghg_100g	false	0	owid-distinct	DiscreteBar	true
 			Carbon footprint	Per kilocalorie	food	ghg_kcal	false	0	owid-distinct	DiscreteBar	true
 			Carbon footprint	Per gram of protein	food	ghg_protein	false	0	owid-distinct	DiscreteBar	true
