@@ -6,35 +6,35 @@ explorerSubtitle
 hideAlertBanner	true
 subNavId
 wpBlockId
-hasMapTab	true
+hasMapTab	false
 hideTitleAnnotation	true
 graphers
-	title	subtitle	Environmental Impact Dropdown	Metric Radio	tableSlug	ySlugs	yScaleToggle	yAxisMin	baseColorScheme	type	hasMapTab	sourceDesc	note	relatedQuestionUrl	relatedQuestionText	facet	selectedFacetStrategy	facetYDomain
-			Carbon footprint	Per 100g	food	ghg_100g	false	0	owid-distinct	DiscreteBar	true
-			Carbon footprint	Per kilocalorie	food	ghg_kcal	false	0	owid-distinct	DiscreteBar	true
-			Carbon footprint	Per gram of protein	food	ghg_protein	false	0	owid-distinct	DiscreteBar	true
-			Carbon footprint	Per gram of fat	food	ghg_fat	false	0	owid-distinct	DiscreteBar	true
-			Land use	Per 100g	food	land_use_100g	false	0	owid-distinct	DiscreteBar	true
-			Land use	Per kilocalorie	food	land_use_kcal	false	0	owid-distinct	DiscreteBar	true
-			Land use	Per gram of protein	food	land_use_protein	false	0	owid-distinct	DiscreteBar	true
-			Land use	Per gram of fat	food	land_use_fat	false	0	owid-distinct	DiscreteBar	false
-			Eutrophication	Per 100g	food	eutrophication_100g	false	0	owid-distinct	DiscreteBar	false
-			Eutrophication	Per kilocalorie	food	eutrophication_kcal	false	0	owid-distinct	DiscreteBar	true
-			Eutrophication	Per gram of protein	food	eutrophication_protein	false	0	owid-distinct	DiscreteBar	true
-			Eutrophication	Per gram of fat	food	eutrophication_fat	false	0	owid-distinct	DiscreteBar	true
-			Water scarcity	Per 100g	food	water_scarcity_100g	false	0	owid-distinct	DiscreteBar	true
-			Water scarcity	Per kilocalorie	food	water_scarcity_kcal	false	0	owid-distinct	DiscreteBar	true
-			Water scarcity	Per gram of protein	food	water_scarcity_protein	false	0	owid-distinct	DiscreteBar	true
-			Water scarcity	Per gram of fat	food	water_scarcity_fat	false	0	owid-distinct	DiscreteBar	true
-			Biodiversity	Per 100g	food	biodiversity_100g	false	0	owid-distinct	DiscreteBar	false
-			Biodiversity	Per kilocalorie	food	biodiversity_kcal	false	0	owid-distinct	DiscreteBar	true
-			Biodiversity	Per gram of protein	food	biodiversity_protein	false	0	owid-distinct	DiscreteBar	true
-			Biodiversity	Per gram of fat	food	biodiversity_fat	false	0	owid-distinct	DiscreteBar	true
-			Water use	Per 100g	food	water_100g	false	0	owid-distinct	DiscreteBar	true
-			Water use	Per kilocalorie	food	water_kcal	false	0	owid-distinct	DiscreteBar	true
-			Water use	Per gram of protein	food	water_protein	false	0	owid-distinct	DiscreteBar	true
-			Water use	Per gram of fat	food	water_fat	false	0	owid-distinct	DiscreteBar	true
-					food	nutriscore	false	0	owid-distinct	DiscreteBar	true
+	title	subtitle	Environmental Impact Dropdown	Metric Radio	tableSlug	ySlugs	yScaleToggle	yAxisMin	baseColorScheme	type	sourceDesc	note	relatedQuestionUrl	relatedQuestionText	facet	selectedFacetStrategy	facetYDomain
+			Carbon footprint	Per 100g	food	ghg_100g	false	0	owid-distinct	DiscreteBar
+			Carbon footprint	Per kilocalorie	food	ghg_kcal	false	0	owid-distinct	DiscreteBar
+			Carbon footprint	Per gram of protein	food	ghg_protein	false	0	owid-distinct	DiscreteBar
+			Carbon footprint	Per gram of fat	food	ghg_fat	false	0	owid-distinct	DiscreteBar
+			Land use	Per 100g	food	land_use_100g	false	0	owid-distinct	DiscreteBar
+			Land use	Per kilocalorie	food	land_use_kcal	false	0	owid-distinct	DiscreteBar
+			Land use	Per gram of protein	food	land_use_protein	false	0	owid-distinct	DiscreteBar
+			Land use	Per gram of fat	food	land_use_fat	false	0	owid-distinct	DiscreteBar
+			Eutrophication	Per 100g	food	eutrophication_100g	false	0	owid-distinct	DiscreteBar
+			Eutrophication	Per kilocalorie	food	eutrophication_kcal	false	0	owid-distinct	DiscreteBar
+			Eutrophication	Per gram of protein	food	eutrophication_protein	false	0	owid-distinct	DiscreteBar
+			Eutrophication	Per gram of fat	food	eutrophication_fat	false	0	owid-distinct	DiscreteBar
+			Water scarcity	Per 100g	food	water_scarcity_100g	false	0	owid-distinct	DiscreteBar
+			Water scarcity	Per kilocalorie	food	water_scarcity_kcal	false	0	owid-distinct	DiscreteBar
+			Water scarcity	Per gram of protein	food	water_scarcity_protein	false	0	owid-distinct	DiscreteBar
+			Water scarcity	Per gram of fat	food	water_scarcity_fat	false	0	owid-distinct	DiscreteBar
+			Biodiversity	Per 100g	food	biodiversity_100g	false	0	owid-distinct	DiscreteBar
+			Biodiversity	Per kilocalorie	food	biodiversity_kcal	false	0	owid-distinct	DiscreteBar
+			Biodiversity	Per gram of protein	food	biodiversity_protein	false	0	owid-distinct	DiscreteBar
+			Biodiversity	Per gram of fat	food	biodiversity_fat	false	0	owid-distinct	DiscreteBar
+			Water use	Per 100g	food	water_100g	false	0	owid-distinct	DiscreteBar
+			Water use	Per kilocalorie	food	water_kcal	false	0	owid-distinct	DiscreteBar
+			Water use	Per gram of protein	food	water_protein	false	0	owid-distinct	DiscreteBar
+			Water use	Per gram of fat	food	water_fat	false	0	owid-distinct	DiscreteBar
+					food	nutriscore	false	0	owid-distinct	DiscreteBar
 
 table	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Environmental%20impacts%20of%20food/Environmental%20impacts%20of%20food.csv	food
 columns	food
