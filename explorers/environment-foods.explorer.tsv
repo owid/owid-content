@@ -39,28 +39,28 @@ graphers
 table	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Environmental%20impacts%20of%20food/Environmental%20impacts%20of%20food.csv	food
 columns	food
 	slug	name	type	unit	shortUnit	transform	annotationsColumnSlug	notes	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo	tolerance	colorScaleNumericMinValue
-	ghg_kg		Numeric
-	ghg_1000kcal		Numeric
-	ghg_100gprotein		Numeric
-	ghg_100gfat		Numeric
-	land_use_kg		Numeric
-	land_use_1000kcal		Numeric
-	land_use_100gprotein		Numeric
-	land_use_100gfat		Numeric
-	eutrophication_kg		Numeric
-	eutrophication_1000kcal		Numeric
-	eutrophication_100gprotein		Numeric
-	eutrophication_100gfat		Numeric
-	water_scarcity_kg		Numeric
-	water_scarcity_1000kcal		Numeric
-	water_scarcity_100gprotein
-	water_scarcity_100gfat
-	water_kg
-	water_1000kcal
-	water_100gprotein
-	water_100gfat
-	biodiversity_kg
-	biodiversity_1000kcal
-	biodiversity_100gprotein
-	biodiversity_100gfat
-	nutriscore
+	ghg_kg	GHG emissions per kg	Numeric	kilograms CO₂e	kg
+	ghg_1000kcal	GHG emissions per kcal	Numeric	kilograms CO₂e	kg
+	ghg_100gprotein	GHG emissions per protein	Numeric	kilograms CO₂e	kg
+	ghg_100gfat	GHG emissions per fat	Numeric	kilograms CO₂e	kg
+	land_use_kg	Land use per kg	Numeric	m²	m²
+	land_use_1000kcal	Land use per kcal	Numeric	m²	m²
+	land_use_100gprotein	Land use per protein	Numeric	m²	m²
+	land_use_100gfat	Land use per fat	Numeric	m²	m²
+	eutrophication_kg	Eutrophication per kg	Numeric	kgPO₄	kg
+	eutrophication_1000kcal	Eutrophication per kcal	Numeric	kgPO₄	kg
+	eutrophication_100gprotein	Eutrophication per protein	Numeric	kgPO₄	kg
+	eutrophication_100gfat	Eutrophication per fat	Numeric	kgPO₄	kg
+	water_scarcity_kg	Water scarcity per kg	Numeric	m³	m³
+	water_scarcity_1000kcal	Water scarcity per kcal	Numeric	m³	m³
+	water_scarcity_100gprotein	Water scarcity per protein	Numeric	m³	m³
+	water_scarcity_100gfat	Water scarcity per fat	Numeric	m³	m³
+	water_kg	Water use per kg	Numeric	m³	m³
+	water_1000kcal	Water use per kcal	Numeric	m³	m³
+	water_100gprotein	Water use per protein	Numeric	m³	m³
+	water_100gfat	Water use per fat	Numeric	m³	m³
+	biodiversity_kg	Biodiversity per kg	Numeric
+	biodiversity_1000kcal	Biodiversity per kcal	Numeric
+	biodiversity_100gprotein	Biodiversity per protein	Numeric
+	biodiversity_100gfat	Biodiversity per fat	Numeric
+	nutriscore	Nutriscore	Numeric
