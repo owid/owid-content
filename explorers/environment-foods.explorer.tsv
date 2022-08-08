@@ -5,7 +5,7 @@ selection	Almonds	Bacon	Bananas	Rice	Beans	Beefburger	Pizza	Cow's milk	Penne pas
 explorerSubtitle
 hideAlertBanner	true
 subNavId
-wpBlockId
+wpBlockId	52428
 hasMapTab	false
 hideTitleAnnotation	true
 entityType	food
