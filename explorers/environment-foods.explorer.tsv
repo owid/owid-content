@@ -1,7 +1,7 @@
 explorerTitle	Environmental Impacts of Food Data Explorer
 explorerSubtitle	Explore the environmental impacts of specific retail food products.
 isPublished	false
-selection	Almonds	Bacon	Bananas	Rice	Beans	Beefburger	Pizza	Cow's milk	Penne pasta	Vegetable lasagne	Tofu	Steak pie
+selection	Almonds	Bacon	Bananas	Rice	Beans	Beefburger	Pizza	Cow's milk	Penne pasta	Vegetable lasagne	Tofu	Steak pie	Beef (beef herd)	Lamb & Mutton	Beef (dairy herd)	Prawns (farmed)	Cheese	Pig Meat	Poultry Meat	Eggs	Rice	Tofu (soybeans)	Milk	Tomatoes	Maize	Wheat & Rye	Peas
 explorerSubtitle
 hideAlertBanner	true
 subNavId
@@ -10,36 +10,51 @@ hasMapTab	false
 hideTitleAnnotation	true
 entityType	food
 graphers
-	title	subtitle	Environmental Impact Dropdown	Metric Radio	tableSlug	ySlugs	baseColorScheme	type	sourceDesc	note	relatedQuestionUrl	relatedQuestionText	facet	selectedFacetStrategy	facetYDomain
-	Greenhouse gas emissions per kilogram of food	Emissions are measured in carbon dioxide equivalents (CO2eq). This means non-CO2 gases are weighted by the amount of warming they cause over a 100-year timescale.	Carbon footprint	Per kilogram	food	ghg_kg	owid-distinct	DiscreteBar	Michael Clark et al (2022). Estimating the environmental impacts of 57,000 food products. PNAS.
-	Greenhouse gas emissions per 1000 kilocalories	Emissions are measured in carbon dioxide equivalents (CO2eq). This means non-CO2 gases are weighted by the amount of warming they cause over a 100-year timescale.	Carbon footprint	Per 1000 kilocalories	food	ghg_1000kcal	owid-distinct	DiscreteBar	Michael Clark et al (2022). Estimating the environmental impacts of 57,000 food products. PNAS.
-	Greenhouse gas emissions per 100 grams of protein	Emissions are measured in carbon dioxide equivalents (CO2eq). This means non-CO2 gases are weighted by the amount of warming they cause over a 100-year timescale.	Carbon footprint	Per 100 grams of protein	food	ghg_100gprotein	owid-distinct	DiscreteBar	Michael Clark et al (2022). Estimating the environmental impacts of 57,000 food products. PNAS.
-	Greenhouse gas emissions per 100 grams of fat	Emissions are measured in carbon dioxide equivalents (CO2eq). This means non-CO2 gases are weighted by the amount of warming they cause over a 100-year timescale.	Carbon footprint	Per 100 grams of fat	food	ghg_100gfat	owid-distinct	DiscreteBar	Michael Clark et al (2022). Estimating the environmental impacts of 57,000 food products. PNAS.
-	Land use per kilogram of food		Land use	Per kilogram	food	land_use_kg	owid-distinct	DiscreteBar	Michael Clark et al (2022). Estimating the environmental impacts of 57,000 food products. PNAS.
-	Land use per 1000 kilocalories		Land use	Per 1000 kilocalories	food	land_use_1000kcal	owid-distinct	DiscreteBar	Michael Clark et al (2022). Estimating the environmental impacts of 57,000 food products. PNAS.
-	Land use per 100 grams of protein		Land use	Per 100 grams of protein	food	land_use_100gprotein	owid-distinct	DiscreteBar	Michael Clark et al (2022). Estimating the environmental impacts of 57,000 food products. PNAS.
-	Land use per 100 grams of fat		Land use	Per 100 grams of fat	food	land_use_100gfat	owid-distinct	DiscreteBar	Michael Clark et al (2022). Estimating the environmental impacts of 57,000 food products. PNAS.
-	Eutrophication per kilogram of food		Eutrophication	Per kilogram	food	eutrophication_kg	owid-distinct	DiscreteBar	Michael Clark et al (2022). Estimating the environmental impacts of 57,000 food products. PNAS.
-	Eutrophication per 1000 kilocalories		Eutrophication	Per 1000 kilocalories	food	eutrophication_1000kcal	owid-distinct	DiscreteBar	Michael Clark et al (2022). Estimating the environmental impacts of 57,000 food products. PNAS.
-	Eutrophication per 100 grams of protein		Eutrophication	Per 100 grams of protein	food	eutrophication_100gprotein	owid-distinct	DiscreteBar	Michael Clark et al (2022). Estimating the environmental impacts of 57,000 food products. PNAS.
-	Eutrophication per 100 grams of fat		Eutrophication	Per 100 grams of fat	food	eutrophication_100gfat	owid-distinct	DiscreteBar	Michael Clark et al (2022). Estimating the environmental impacts of 57,000 food products. PNAS.
-	Water scarce withdrawals per kilogram of food		Water scarcity	Per kilogram	food	water_scarcity_kg	owid-distinct	DiscreteBar	Michael Clark et al (2022). Estimating the environmental impacts of 57,000 food products. PNAS.
-	Water scarce withdrawals per 1000 kilocalories		Water scarcity	Per 1000 kilocalories	food	water_scarcity_1000kcal	owid-distinct	DiscreteBar	Michael Clark et al (2022). Estimating the environmental impacts of 57,000 food products. PNAS.
-	Water scarce withdrawals per 100 grams of protein		Water scarcity	Per 100 grams of protein	food	water_scarcity_100gprotein	owid-distinct	DiscreteBar	Michael Clark et al (2022). Estimating the environmental impacts of 57,000 food products. PNAS.
-	Water scarce withdrawals per 100 grams of fat		Water scarcity	Per 100 grams of fat	food	water_scarcity_100gfat	owid-distinct	DiscreteBar	Michael Clark et al (2022). Estimating the environmental impacts of 57,000 food products. PNAS.
-	Water use per kilogram of food		Water use	Per kilogram	food	water_kg	owid-distinct	DiscreteBar	Michael Clark et al (2022). Estimating the environmental impacts of 57,000 food products. PNAS.
-	Water use per 1000 kilocalories		Water use	Per 1000 kilocalories	food	water_1000kcal	owid-distinct	DiscreteBar	Michael Clark et al (2022). Estimating the environmental impacts of 57,000 food products. PNAS.
-	Water use per 100 grams of protein		Water use	Per 100 grams of protein	food	water_100gprotein	owid-distinct	DiscreteBar	Michael Clark et al (2022). Estimating the environmental impacts of 57,000 food products. PNAS.
-	Water use per 100 grams of fat		Water use	Per 100 grams of fat	food	water_100gfat	owid-distinct	DiscreteBar	Michael Clark et al (2022). Estimating the environmental impacts of 57,000 food products. PNAS.
-	Biodiversity impact per kilogram of food		Biodiversity	Per kilogram	food	biodiversity_kg	owid-distinct	DiscreteBar	Michael Clark et al (2022). Estimating the environmental impacts of 57,000 food products. PNAS.
-	Biodiversity impact per 1000 kilocalories		Biodiversity	Per 1000 kilocalories	food	biodiversity_1000kcal	owid-distinct	DiscreteBar	Michael Clark et al (2022). Estimating the environmental impacts of 57,000 food products. PNAS.
-	Biodiversity impact per 100 grams of protein		Biodiversity	Per 100 grams of protein	food	biodiversity_100gprotein	owid-distinct	DiscreteBar	Michael Clark et al (2022). Estimating the environmental impacts of 57,000 food products. PNAS.
-	Biodiversity impact per 100 grams of fat		Biodiversity	Per 100 grams of fat	food	biodiversity_100gfat	owid-distinct	DiscreteBar	Michael Clark et al (2022). Estimating the environmental impacts of 57,000 food products. PNAS.
-	Environmental impacts per kilogram of food product		All impacts	Per kilogram	food	ghg_kg land_use_kg eutrophication_kg water_scarcity_kg water_kg biodiversity_kg	owid-distinct	DiscreteBar	Michael Clark et al (2022). Estimating the environmental impacts of 57,000 food products. PNAS.				metric	metric	independent
-	Environmental impacts of food products per 1000 kilocalories		All impacts	Per 1000 kilocalories	food	ghg_kcal land_use_kcal eutrophication_kcal water_scarcity_kcal water_kcal biodiversity_kcal	owid-distinct	DiscreteBar	Michael Clark et al (2022). Estimating the environmental impacts of 57,000 food products. PNAS.				metric	metric	independent
-	Environmental impacts of food products per 100 grams of protein		All impacts	Per 100 grams of protein	food	ghg_protein land_use_protein eutrophication_protein water_scarcity_protein water_protein biodiversity_protein	owid-distinct	DiscreteBar	Michael Clark et al (2022). Estimating the environmental impacts of 57,000 food products. PNAS.				metric	metric	independent
-	Environmental impacts of food products per 100 grams of fat		All impacts	Per 100 grams of fat	food	ghg_fat land_use_fat eutrophication_fat water_scarcity_fat water_fat biodiversity_fat	owid-distinct	DiscreteBar	Michael Clark et al (2022). Estimating the environmental impacts of 57,000 food products. PNAS.				metric	metric	independent
-
+	grapherId	Commodity or Specific Food Product Radio	title	subtitle	Environmental Impact Dropdown	Metric Radio	tableSlug	ySlugs	baseColorScheme	type	sourceDesc	note	relatedQuestionUrl	relatedQuestionText	facet	selectedFacetStrategy	facetYDomain
+	3645	Commodity			Carbon footprint	Per kilogram
+	4986	Commodity			Carbon footprint	Per kilogram
+	3651	Commodity			Carbon footprint	Per 100 grams of protein
+	3655	Commodity			Carbon footprint	Per 1000 kilocalories
+	3644	Commodity			Land use	Per kilogram
+	3650	Commodity			Land use	Per 100 grams of protein
+	3654	Commodity			Land use	Per 1000 kilocalories
+	3646	Commodity			Water use	Per kilogram
+	3652	Commodity			Water use	Per 100 grams of protein
+	3950	Commodity			Water use	Per 1000 kilocalories
+	3647	Commodity			Scarcity-weighted water use	Per kilogram
+	3653	Commodity			Scarcity-weighted water use	Per 100 grams of protein
+	3951	Commodity			Scarcity-weighted water use	Per 1000 kilocalories
+	3649	Commodity			Eutrophication (water pollution)	Per kilogram
+	3952	Commodity			Eutrophication (water pollution)	Per 100 grams of protein
+	3953	Commodity			Eutrophication (water pollution)	Per 1000 kilocalories
+		Specific food product	Greenhouse gas emissions per kilogram of food	Emissions are measured in carbon dioxide equivalents (CO2eq). This means non-CO2 gases are weighted by the amount of warming they cause over a 100-year timescale.	Carbon footprint	Per kilogram	food	ghg_kg	owid-distinct	DiscreteBar	Michael Clark et al (2022). Estimating the environmental impacts of 57,000 food products. PNAS.
+		Specific food product	Greenhouse gas emissions per 1000 kilocalories	Emissions are measured in carbon dioxide equivalents (CO2eq). This means non-CO2 gases are weighted by the amount of warming they cause over a 100-year timescale.	Carbon footprint	Per 1000 kilocalories	food	ghg_1000kcal	owid-distinct	DiscreteBar	Michael Clark et al (2022). Estimating the environmental impacts of 57,000 food products. PNAS.
+		Specific food product	Greenhouse gas emissions per 100 grams of protein	Emissions are measured in carbon dioxide equivalents (CO2eq). This means non-CO2 gases are weighted by the amount of warming they cause over a 100-year timescale.	Carbon footprint	Per 100 grams of protein	food	ghg_100gprotein	owid-distinct	DiscreteBar	Michael Clark et al (2022). Estimating the environmental impacts of 57,000 food products. PNAS.
+		Specific food product	Greenhouse gas emissions per 100 grams of fat	Emissions are measured in carbon dioxide equivalents (CO2eq). This means non-CO2 gases are weighted by the amount of warming they cause over a 100-year timescale.	Carbon footprint	Per 100 grams of fat	food	ghg_100gfat	owid-distinct	DiscreteBar	Michael Clark et al (2022). Estimating the environmental impacts of 57,000 food products. PNAS.
+		Specific food product	Land use per kilogram of food		Land use	Per kilogram	food	land_use_kg	owid-distinct	DiscreteBar	Michael Clark et al (2022). Estimating the environmental impacts of 57,000 food products. PNAS.
+		Specific food product	Land use per 1000 kilocalories		Land use	Per 1000 kilocalories	food	land_use_1000kcal	owid-distinct	DiscreteBar	Michael Clark et al (2022). Estimating the environmental impacts of 57,000 food products. PNAS.
+		Specific food product	Land use per 100 grams of protein		Land use	Per 100 grams of protein	food	land_use_100gprotein	owid-distinct	DiscreteBar	Michael Clark et al (2022). Estimating the environmental impacts of 57,000 food products. PNAS.
+		Specific food product	Land use per 100 grams of fat		Land use	Per 100 grams of fat	food	land_use_100gfat	owid-distinct	DiscreteBar	Michael Clark et al (2022). Estimating the environmental impacts of 57,000 food products. PNAS.
+		Specific food product	Eutrophication per kilogram of food		Eutrophication	Per kilogram	food	eutrophication_kg	owid-distinct	DiscreteBar	Michael Clark et al (2022). Estimating the environmental impacts of 57,000 food products. PNAS.
+		Specific food product	Eutrophication per 1000 kilocalories		Eutrophication	Per 1000 kilocalories	food	eutrophication_1000kcal	owid-distinct	DiscreteBar	Michael Clark et al (2022). Estimating the environmental impacts of 57,000 food products. PNAS.
+		Specific food product	Eutrophication per 100 grams of protein		Eutrophication	Per 100 grams of protein	food	eutrophication_100gprotein	owid-distinct	DiscreteBar	Michael Clark et al (2022). Estimating the environmental impacts of 57,000 food products. PNAS.
+		Specific food product	Eutrophication per 100 grams of fat		Eutrophication	Per 100 grams of fat	food	eutrophication_100gfat	owid-distinct	DiscreteBar	Michael Clark et al (2022). Estimating the environmental impacts of 57,000 food products. PNAS.
+		Specific food product	Water scarce withdrawals per kilogram of food		Water scarcity	Per kilogram	food	water_scarcity_kg	owid-distinct	DiscreteBar	Michael Clark et al (2022). Estimating the environmental impacts of 57,000 food products. PNAS.
+		Specific food product	Water scarce withdrawals per 1000 kilocalories		Water scarcity	Per 1000 kilocalories	food	water_scarcity_1000kcal	owid-distinct	DiscreteBar	Michael Clark et al (2022). Estimating the environmental impacts of 57,000 food products. PNAS.
+		Specific food product	Water scarce withdrawals per 100 grams of protein		Water scarcity	Per 100 grams of protein	food	water_scarcity_100gprotein	owid-distinct	DiscreteBar	Michael Clark et al (2022). Estimating the environmental impacts of 57,000 food products. PNAS.
+		Specific food product	Water scarce withdrawals per 100 grams of fat		Water scarcity	Per 100 grams of fat	food	water_scarcity_100gfat	owid-distinct	DiscreteBar	Michael Clark et al (2022). Estimating the environmental impacts of 57,000 food products. PNAS.
+		Specific food product	Water use per kilogram of food		Water use	Per kilogram	food	water_kg	owid-distinct	DiscreteBar	Michael Clark et al (2022). Estimating the environmental impacts of 57,000 food products. PNAS.
+		Specific food product	Water use per 1000 kilocalories		Water use	Per 1000 kilocalories	food	water_1000kcal	owid-distinct	DiscreteBar	Michael Clark et al (2022). Estimating the environmental impacts of 57,000 food products. PNAS.
+		Specific food product	Water use per 100 grams of protein		Water use	Per 100 grams of protein	food	water_100gprotein	owid-distinct	DiscreteBar	Michael Clark et al (2022). Estimating the environmental impacts of 57,000 food products. PNAS.
+		Specific food product	Water use per 100 grams of fat		Water use	Per 100 grams of fat	food	water_100gfat	owid-distinct	DiscreteBar	Michael Clark et al (2022). Estimating the environmental impacts of 57,000 food products. PNAS.
+		Specific food product	Biodiversity impact per kilogram of food		Biodiversity	Per kilogram	food	biodiversity_kg	owid-distinct	DiscreteBar	Michael Clark et al (2022). Estimating the environmental impacts of 57,000 food products. PNAS.
+		Specific food product	Biodiversity impact per 1000 kilocalories		Biodiversity	Per 1000 kilocalories	food	biodiversity_1000kcal	owid-distinct	DiscreteBar	Michael Clark et al (2022). Estimating the environmental impacts of 57,000 food products. PNAS.
+		Specific food product	Biodiversity impact per 100 grams of protein		Biodiversity	Per 100 grams of protein	food	biodiversity_100gprotein	owid-distinct	DiscreteBar	Michael Clark et al (2022). Estimating the environmental impacts of 57,000 food products. PNAS.
+		Specific food product	Biodiversity impact per 100 grams of fat		Biodiversity	Per 100 grams of fat	food	biodiversity_100gfat	owid-distinct	DiscreteBar	Michael Clark et al (2022). Estimating the environmental impacts of 57,000 food products. PNAS.
+		Specific food product	Environmental impacts per kilogram of food product		All impacts	Per kilogram	food	ghg_kg land_use_kg eutrophication_kg water_scarcity_kg water_kg biodiversity_kg	owid-distinct	DiscreteBar	Michael Clark et al (2022). Estimating the environmental impacts of 57,000 food products. PNAS.				metric	metric	independent
+		Specific food product	Environmental impacts of food products per 1000 kilocalories		All impacts	Per 1000 kilocalories	food	ghg_kcal land_use_kcal eutrophication_kcal water_scarcity_kcal water_kcal biodiversity_kcal	owid-distinct	DiscreteBar	Michael Clark et al (2022). Estimating the environmental impacts of 57,000 food products. PNAS.				metric	metric	independent
+		Specific food product	Environmental impacts of food products per 100 grams of protein		All impacts	Per 100 grams of protein	food	ghg_protein land_use_protein eutrophication_protein water_scarcity_protein water_protein biodiversity_protein	owid-distinct	DiscreteBar	Michael Clark et al (2022). Estimating the environmental impacts of 57,000 food products. PNAS.				metric	metric	independent
+		Specific food product	Environmental impacts of food products per 100 grams of fat		All impacts	Per 100 grams of fat	food	ghg_fat land_use_fat eutrophication_fat water_scarcity_fat water_fat biodiversity_fat	owid-distinct	DiscreteBar	Michael Clark et al (2022). Estimating the environmental impacts of 57,000 food products. PNAS.				metric	metric	independent
 table	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Environmental%20impacts%20of%20food%20(Clark%20et%20al.%202022)/Environmental%20impacts%20of%20food%20(Clark%20et%20al.%202022).csv	food
 columns	food
 	slug	name	type	unit	shortUnit	transform	annotationsColumnSlug	notes	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo	tolerance	colorScaleNumericMinValue
