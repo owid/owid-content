@@ -11,17 +11,17 @@ graphers
 	grapherId	Environmental impact Dropdown	Metric Radio	By stage of supply chain Checkbox
 	3645	Carbon footprint	Per kilogram	false
 	4986	Carbon footprint	Per kilogram	true
-	3651	Carbon footprint	Per 100 grams of protein
-	3655	Carbon footprint	Per 1000 kilocalories
-	3644	Land use	Per kilogram
-	3650	Land use	Per 100 grams of protein
-	3654	Land use	Per 1000 kilocalories
-	3646	Water use	Per kilogram
-	3652	Water use	Per 100 grams of protein
-	3950	Water use	Per 1000 kilocalories
-	3647	Scarcity-weighted water use	Per kilogram
-	3653	Scarcity-weighted water use	Per 100 grams of protein
-	3951	Scarcity-weighted water use	Per 1000 kilocalories
-	3649	Eutrophication (water pollution)	Per kilogram
-	3952	Eutrophication (water pollution)	Per 100 grams of protein
-	3953	Eutrophication (water pollution)	Per 1000 kilocalories
+	3651	Carbon footprint	Per 100 grams of protein	false
+	3655	Carbon footprint	Per 1000 kilocalories	false
+	3644	Land use	Per kilogram	false
+	3650	Land use	Per 100 grams of protein	false
+	3654	Land use	Per 1000 kilocalories	false
+	3646	Water use	Per kilogram	false
+	3652	Water use	Per 100 grams of protein	false
+	3950	Water use	Per 1000 kilocalories	false
+	3647	Scarcity-weighted water use	Per kilogram	false
+	3653	Scarcity-weighted water use	Per 100 grams of protein	false
+	3951	Scarcity-weighted water use	Per 1000 kilocalories	false
+	3649	Eutrophication (water pollution)	Per kilogram	false
+	3952	Eutrophication (water pollution)	Per 100 grams of protein	false
+	3953	Eutrophication (water pollution)	Per 1000 kilocalories	false
