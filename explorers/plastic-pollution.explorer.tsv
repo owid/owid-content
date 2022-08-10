@@ -9,17 +9,16 @@ wpBlockId
 hasMapTab	true
 hideTitleAnnotation	true
 graphers
-	title	subtitle	Metric Dropdown	Sub-metric Dropdown	Per capita Checkbox	Share of world total Checkbox	tableSlug	ySlugs	yScaleToggle	xSlug	baseColorScheme	type	hasMapTab	yAxisMin	sourceDesc	grapherId
-			Plastic waste generation		false	false					owid-distinct	LineChart	true	0		2881
-	Plastic waste exports		Waste trade	Exports	false	false	trade	plastic_waste_exports	true		owid-distinct	LineChart	true	0
-	Plastic waste exports per capita		Waste trade	Exports	true	false	trade	plastic_waste_exports_per_capita	true		owid-distinct	LineChart	true	0
-	Share of global plastic waste exports		Waste trade	Exports	false	true	trade	share_global_plastic_waste_exports	true		owid-distinct	LineChart	true	0
-	Plastic waste imports		Waste trade	Imports	false	false	trade	plastic_waste_imports	true		owid-distinct	LineChart	true	0
-	Plastic waste imports per capita		Waste trade	Imports	false	false	trade	plastic_waste_imports_per_capita	true		owid-distinct	LineChart	true	0
-	Share of global plastic waste imports		Waste trade	Imports	false	true	trade	share_global_plastic_waste_imports	true		owid-distinct	LineChart	true	0
-	Net exports of plastic waste	Net exports of plastic waste are calculated as a country's plastic waste exports minus its imports. Countries that are net exporters of plastic waste will have a positive value; those that are net importers will have a negative value.	Waste trade	Net exports	false	false	trade	plastic_waste_net_exports	true		owid-distinct	LineChart	true	0
-	Net exports of plastic waste per capita	Net exports of plastic waste are calculated as a country's plastic waste exports minus its imports. Countries that are net exporters of plastic waste will have a positive value; those that are net importers will have a negative value.	Waste trade	Net exports	true	false	trade	plastic_waste_net_exports_per_capita	true		owid-distinct	LineChart	true	0
-
+	title	subtitle	Metric Dropdown	Sub-metric Dropdown	Per capita Checkbox	Share of world total Checkbox	tableSlug	ySlugs	yScaleToggle	baseColorScheme	type	grapherId	hasMapTab	yAxisMin	sourceDesc	tab
+	Plastic waste exports		Waste trade	Exports	false	false	trade	plastic_waste_exports	true	owid-distinct	LineChart		true	0
+	Plastic waste exports per capita		Waste trade	Exports	true	false	trade	plastic_waste_exports_per_capita	true	owid-distinct	LineChart		true	0
+	Share of global plastic waste exports		Waste trade	Exports	false	true	trade	share_global_plastic_waste_exports	true	owid-distinct	LineChart		true	0
+	Plastic waste imports		Waste trade	Imports	false	false	trade	plastic_waste_imports	true	owid-distinct	LineChart		true	0
+	Plastic waste imports per capita		Waste trade	Imports	false	false	trade	plastic_waste_imports_per_capita	true	owid-distinct	LineChart		true	0
+	Share of global plastic waste imports		Waste trade	Imports	false	true	trade	share_global_plastic_waste_imports	true	owid-distinct	LineChart		true	0
+	Net exports of plastic waste	Net exports of plastic waste are calculated as a country's plastic waste exports minus its imports. Countries that are net exporters of plastic waste will have a positive value; those that are net importers will have a negative value.	Waste trade	Net exports	false	false	trade	plastic_waste_net_exports	true	owid-distinct	LineChart		true	0
+	Net exports of plastic waste per capita	Net exports of plastic waste are calculated as a country's plastic waste exports minus its imports. Countries that are net exporters of plastic waste will have a positive value; those that are net importers will have a negative value.	Waste trade	Net exports	true	false	trade	plastic_waste_net_exports_per_capita	true	owid-distinct	LineChart		true	0
+			Plastic waste generation	Exports	false	false					DiscreteBar	2881				map
 table	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Plastic%20waste%20trade%20(UN%20Comtrade%2C%202022)/Plastic%20waste%20trade%20(UN%20Comtrade%2C%202022).csv	trade
 columns	trade
 	slug	name	type	unit	shortUnit	transform	annotationsColumnSlug	notes	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo	tolerance	colorScaleNumericMinValue
