@@ -23,7 +23,7 @@ graphers
 	Monkeypox: Daily confirmed deaths per million people	7-day rolling average	new_deaths_smoothed_per_million	true	Confirmed deaths	7-day average	true	LineChart	true
 	Monkeypox: Daily confirmed deaths per million people		new_deaths_per_million	true	Confirmed deaths	Daily	true	LineChart	true
 
-table	https://raw.githubusercontent.com/owid/notebooks/main/EdouardMathieu/monkeypox/owid-monkeypox-data.csv
+table	https://raw.githubusercontent.com/owid/monkeypox/main/owid-monkeypox-data.csv
 columns
 	slug	name	type	tolerance	sourceName	sourceLink	additionalInfo	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleScheme
 	location	Country	EntityName
