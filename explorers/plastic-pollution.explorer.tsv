@@ -1,15 +1,24 @@
-explorerTitle	Data Explorer: Plastic Use, Trade and Pollution
-explorerSubtitle
+explorerTitle	Data Explorer: Plastic Waste and Pollution
+explorerSubtitle	Explore global data on plastic waste generation, pollution and trade.
 isPublished	false
 selection	World	United States	China	India	United Kingdom
 explorerSubtitle
 hideAlertBanner	true
 subNavId
 wpBlockId
-hasMapTab	true
 hideTitleAnnotation	true
+table	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Plastic%20waste%20trade%20(UN%20Comtrade%2C%202022)/Plastic%20waste%20trade%20(UN%20Comtrade%2C%202022).csv	trade
 graphers
 	title	subtitle	Metric Dropdown	Sub-metric Dropdown	Per capita Checkbox	Share of world total Checkbox	tableSlug	ySlugs	yScaleToggle	baseColorScheme	type	grapherId	hasMapTab	yAxisMin	sourceDesc	tab
+			Plastic waste generation		false	false					DiscreteBar	2881				map
+			Plastic waste generation		true	false					DiscreteBar	2882				map
+			Mismanaged waste		false	false					DiscreteBar	4880				map
+			Mismanaged waste		false	true					DiscreteBar	4870				map
+			Mismanaged waste		true	false					DiscreteBar	4873				map
+			Plastic emitted to ocean		false	false					DiscreteBar	4871				map
+			Plastic emitted to ocean		true	false					DiscreteBar	4872				map
+			Plastic emitted to ocean		false	true					DiscreteBar	4869				map
+			Probability of ocean pollution		false	false					DiscreteBar	4881				map
 	Plastic waste exports		Waste trade	Exports	false	false	trade	plastic_waste_exports	true	owid-distinct	LineChart		true	0
 	Plastic waste exports per capita		Waste trade	Exports	true	false	trade	plastic_waste_exports_per_capita	true	owid-distinct	LineChart		true	0
 	Share of global plastic waste exports		Waste trade	Exports	false	true	trade	share_global_plastic_waste_exports	true	owid-distinct	LineChart		true	0
@@ -18,8 +27,7 @@ graphers
 	Share of global plastic waste imports		Waste trade	Imports	false	true	trade	share_global_plastic_waste_imports	true	owid-distinct	LineChart		true	0
 	Net exports of plastic waste	Net exports of plastic waste are calculated as a country's plastic waste exports minus its imports. Countries that are net exporters of plastic waste will have a positive value; those that are net importers will have a negative value.	Waste trade	Net exports	false	false	trade	plastic_waste_net_exports	true	owid-distinct	LineChart		true	0
 	Net exports of plastic waste per capita	Net exports of plastic waste are calculated as a country's plastic waste exports minus its imports. Countries that are net exporters of plastic waste will have a positive value; those that are net importers will have a negative value.	Waste trade	Net exports	true	false	trade	plastic_waste_net_exports_per_capita	true	owid-distinct	LineChart		true	0
-			Plastic waste generation	Exports	false	false					DiscreteBar	2881				map
-table	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Plastic%20waste%20trade%20(UN%20Comtrade%2C%202022)/Plastic%20waste%20trade%20(UN%20Comtrade%2C%202022).csv	trade
+
 columns	trade
 	slug	name	type	unit	shortUnit	transform	annotationsColumnSlug	notes	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo	tolerance	colorScaleNumericMinValue
 	plastic_waste_exports	Waste exports	Numeric	tonnes	t				United Nations Comtrade Database	https://comtrade.un.org/data/				This dataset measures the global trade of plastic waste.<p><p>The data is sourced from the commodity category '3915 – Waste, parings and scrap, of plastics' from the UN's Comtrade Database.<p><p>These results are also published in the UNCTAD report, published at: https://unctad.org/system/files/official-document/ser-rp-2020d12_en.pdf<p><p>The metrics 'Exports', 'Imports', 'Re-Exports' and 'Re-Imports' are taken directly from the UN Comtrade Database.<p><p>We have calculated several additional metrics:<p><p>1. 'Net exports'. This is calculated as 'Exports' minus 'Imports’.<p><p>2. All of these metrics in per capita terms. These are calculated by dividing by each country's population<p><p>3. Share of the global total for each metric. These are calculated by dividing each country's figures by the total of all available countries (i.e. the world total) in each year.	4
