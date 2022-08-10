@@ -5,7 +5,7 @@ selection	World	United States	China	India	United Kingdom	Malaysia	Germany
 explorerSubtitle
 hideAlertBanner	true
 subNavId
-wpBlockId
+wpBlockId	52472
 thumbnail	https://owid.cloud/app/uploads/2022/08/Plastic-Waste-Data-Explorer.png
 hideTitleAnnotation	true
 table	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Plastic%20waste%20trade%20(UN%20Comtrade%2C%202022)/Plastic%20waste%20trade%20(UN%20Comtrade%2C%202022).csv	trade
