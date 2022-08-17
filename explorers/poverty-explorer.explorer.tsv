@@ -1,13 +1,13 @@
-explorerTitle	Poverty Data Explorer of the World Bank's database
+explorerTitle	Poverty Data Explorer of World Bank data
 selection	Madagascar	India	Vietnam	Brazil	Greece	United States
 isPublished	true
 googleSheet	https://docs.google.com/spreadsheets/d/1bVOaDcnDoF0M_zK3uof0dIH-Z4OUDxqM7QO3B9jzRbk/edit#gid=424037824
 hasMapTab	true
 
 graphers
-	title	Metric Dropdown	Poverty line Dropdown	Household survey data type Dropdown	tableSlug	ySlugs	subtitle	note	sourceDesc	relatedQuestionUrl	type	yAxisMin	facet	selectedFacetStrategy	hasMapTab	defaultView
+	title	Metric Dropdown	Poverty line Dropdown	Household survey data type Dropdown	tableSlug	ySlugs	subtitle	note	sourceDesc	relatedQuestionUrl	type	yAxisMin	facet	selectedFacetStrategy	hasMapTab
 	Poverty: Share of population living on less than $1 a day	Share in poverty	$1 a day	Show data from both income and expenditure surveys	inc_or_cons	headcount_ratio_100	This data is adjusted for inflation and for differences in the cost of living between countries.	This data is expressed in international-$ at 2011 prices.	World Bank Poverty and Inequality Platform			0
-	Share of population living in extreme poverty	Share in poverty	$1.90 a day	Show data from both income and expenditure surveys	inc_or_cons	headcount_ratio_190	Extreme poverty is defined as living below the International Poverty Line of $1.90 per day. This data is adjusted for inflation and for differences in the cost of living between countries.	This data is expressed in international-$ at 2011 prices.	World Bank Poverty and Inequality Platform			0				true
+	Share of population living in extreme poverty	Share in poverty	$1.90 a day	Show data from both income and expenditure surveys	inc_or_cons	headcount_ratio_190	Extreme poverty is defined as living below the International Poverty Line of $1.90 per day. This data is adjusted for inflation and for differences in the cost of living between countries.	This data is expressed in international-$ at 2011 prices.	World Bank Poverty and Inequality Platform			0
 	Poverty: Share of population living on less than $3.20 a day	Share in poverty	$3.20 a day	Show data from both income and expenditure surveys	inc_or_cons	headcount_ratio_320	This data is adjusted for inflation and for differences in the cost of living between countries.	This data is expressed in international-$ at 2011 prices.	World Bank Poverty and Inequality Platform			0
 	Poverty: Share of population living on less than $5.50 a day	Share in poverty	$5.50 a day	Show data from both income and expenditure surveys	inc_or_cons	headcount_ratio_550	This data is adjusted for inflation and for differences in the cost of living between countries.	This data is expressed in international-$ at 2011 prices.	World Bank Poverty and Inequality Platform			0
 	Poverty: Share of population living on less than $10 a day	Share in poverty	$10 a day	Show data from both income and expenditure surveys	inc_or_cons	headcount_ratio_1000	This data is adjusted for inflation and for differences in the cost of living between countries.	This data is expressed in international-$ at 2011 prices.	World Bank Poverty and Inequality Platform			0
