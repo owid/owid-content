@@ -1,6 +1,6 @@
 explorerTitle	FluNet Data Explorer
 explorerSubtitle
-selection	United States	France	Germany
+selection	United States	France	Germany	Australia
 isPublished	true
 thumbnail
 hideAlertBanner	true
@@ -30,17 +30,17 @@ columns
 	slug	name	type	tolerance	sourceName	sourceLink	additionalInfo	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleScheme
 	Country	Country	EntityName
 	date	Day	Date
-	AH1N12009	Daily cases	Integer					0	1;3;10;30;100;300;1000;3000	OrRd
-	AH1	Total cases	Integer	30				0	10;30;100;300;1000;3000;10000;30000	OrRd
-	AH3	Daily cases	Ratio	7				0	1;3;10;30;100;300;1000;3000	OrRd
-	AH5	Daily cases per 1M	Ratio					0	0.01;0.03;0.1;0.3;1;3;10;30	OrRd
-	AH7N9	Total cases per 1M	Ratio	30				0	0.1;0.3;1;3;10;30;100;300	OrRd
-	ANOTSUBTYPED	Daily cases per 1M	Ratio	7				0	0.01;0.03;0.1;0.3;1;3;10;30	OrRd
-	INF_A	Daily deaths	Integer					0	1;3;10;30;100;300;1000;3000	OrRd
-	BYAM	Total deaths	Integer	30				0	1;3;10;30;100;300;1000;3000	OrRd
-	BNOTDETERMINED	Daily deaths	Ratio	7				0	1;3;10;30;100;300;1000;3000	OrRd
-	INF_B	Daily deaths per 1M	Ratio					0	0.01;0.03;0.1;0.3;1;3;10;30	OrRd
-	INF_ALL	Total deaths per 1M	Ratio	30				0	0.01;0.03;0.1;0.3;1;3;10;30	OrRd
-	INF_NEGATIVE	Daily deaths per 1M	Ratio	7				0	0.01;0.03;0.1;0.3;1;3;10;30	OrRd
-	BVIC	Daily deaths per 1M	Ratio	7				0	0.01;0.03;0.1;0.3;1;3;10;30	OrRd
-	pcnt_pos	Daily deaths per 1M	Ratio	7				0	0.01;0.03;0.1;0.3;1;3;10;30	OrRd
+	AH1N12009	Cases of AH1N12009	Integer					0	1;3;10;30;100;300;1000;3000	OrRd
+	AH1	Cases of AH1	Integer					0	10;30;100;300;1000;3000;10000;30000	OrRd
+	AH3	Cases of AH3	Integer					0	1;3;10;30;100;300;1000;3000	OrRd
+	AH5	Cases of AH5	Integer					0	0.01;0.03;0.1;0.3;1;3;10;30	OrRd
+	AH7N9	Cases of AH7N9	Integer					0	0.1;0.3;1;3;10;30;100;300	OrRd
+	ANOTSUBTYPED	Other cases of strain A	Integer					0	0.01;0.03;0.1;0.3;1;3;10;30	OrRd
+	INF_A	Total Influenza A cases	Integer					0	1;3;10;30;100;300;1000;3000	OrRd
+	BYAM	Cases of B Yamagata	Integer					0	1;3;10;30;100;300;1000;3000	OrRd
+	BNOTDETERMINED	Other cases of strain B	Integer					0	1;3;10;30;100;300;1000;3000	OrRd
+	INF_B	Total Influenza B cases	Integer					0	0.01;0.03;0.1;0.3;1;3;10;30	OrRd
+	INF_ALL	Total confirmed influenza cases	Integer					0	0.01;0.03;0.1;0.3;1;3;10;30	OrRd
+	INF_NEGATIVE	Total negative tests	Integer					0	0.01;0.03;0.1;0.3;1;3;10;30	OrRd
+	BVIC	Cases of B Victoria	Integer					0	0.01;0.03;0.1;0.3;1;3;10;30	OrRd
+	pcnt_pos	Percent positive	Percentage					0	0.01;0.03;0.1;0.3;1;3;10;30	OrRd
