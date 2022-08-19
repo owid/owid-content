@@ -1,0 +1,45 @@
+explorerTitle	FluNet Data Explorer
+explorerSubtitle
+selection	World
+isPublished	true
+thumbnail
+hideAlertBanner	true
+yAxisMin	0
+hasMapTab	true
+downloadDataLink	https://raw.githubusercontent.com/owid/monkeypox/main/owid-monkeypox-data.csv
+graphers
+	title	subtitle	Flu Dropdown	hideTitleAnnotation	Relative to population Checkbox	type	yScaleToggle
+	AH1N12009	7-day rolling average	AH1N12009	true	false	LineChart	true
+	AH1		AH1	true	false	LineChart	true
+	AH3		AH3	true	false	LineChart	true
+	AH5		AH5	true	true	LineChart	true
+	AH7N9	7-day rolling average	AH7N9	true	true	LineChart	true
+	ANOTSUBTYPED		ANOTSUBTYPED	true	true	LineChart	true
+	INF_A	7-day rolling average	INF_A	true	false	LineChart	true
+	BYAM		BYAM	true	false	LineChart	true
+	BNOTDETERMINED		BNOTDETERMINED	true	false	LineChart	true
+	INF_B		INF_B	true	true	LineChart	true
+	INF_ALL	7-day rolling average	INF_ALL	true	true	LineChart	true
+	INF_NEGATIVE		INF_NEGATIVE	true	true	LineChart	true
+	BVIC		BVIC
+	pcnt_pos		pcnt_pos
+
+table	https://raw.githubusercontent.com/owid/notebooks/main/FionaSpooner/flunet/data/flunet.csv
+columns
+	slug	name	type	tolerance	additionalInfo	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleScheme	sourceLink	sourceName
+	Country	Country	EntityName
+	date	date	Date
+	AH1N12009	AH1N12009	Integer			0		OrRd
+	AH1	AH1	Integer	30		0		OrRd
+	AH3	AH3	Integer	7		0		OrRd
+	AH5	AH5	Integer			0		OrRd
+	AH7N9	AH7N9	Integer	30		0		OrRd
+	ANOTSUBTYPED	ANOTSUBTYPED	Integer	7		0		OrRd
+	INF_A	INF_A	Integer			0		OrRd
+	BYAM	BYAM	Integer	30		0		OrRd
+	BNOTDETERMINED	BNOTDETERMINED	Integer	7		0		OrRd
+	INF_B	INF_B	Integer			0		OrRd
+	INF_ALL	INF_ALL	Integer	30		0		OrRd
+	INF_NEGATIVE	INF_NEGATIVE	Integer	7		0		OrRd
+	BVIC	BVIC	Integer
+	pcnt_pos	pcnt_pos	Percentage
