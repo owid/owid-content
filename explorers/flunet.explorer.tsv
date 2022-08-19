@@ -14,17 +14,17 @@ graphers
 	Cases of AH1		AH1	true		LineChart	true	AH1
 	Cases of AH3		AH3	true		LineChart	true	AH3
 	Cases of AH5		AH5	true		LineChart	true	AH5
-	Cases of AH7N9		AH5	true		LineChart	true	AH5
-	Other cases of strain A		AH7N9	true		LineChart	true	AH7N9
-	Total Influenza A cases		ANOTSUBTYPED	true		LineChart	true	ANOTSUBTYPED
-	Cases of B Yamagata		INF_A	true		LineChart	true	INF_A
-	Other cases of strain B		BYAM	true		LineChart	true	BYAM
-	Total Influenza B cases		BNOTDETERMINED	true		LineChart	true	BNOTDETERMINED
-	Total confirmed influenza cases		INF_B	true		LineChart	true	INF_B
+	Cases of AH7N9		AH7N9	true		LineChart	true	AH7N9
+	Other cases of strain A		ANOTSUBTYPED	true		LineChart	true	ANOTSUBTYPED
+	Total Influenza A cases		INF_A	true		LineChart	true	INF_A
+	Cases of B Yamagata		BYAM	true		LineChart	true	BYAM
+	Other cases of strain B		BNOTDETERMINED	true		LineChart	true	BNOTDETERMINED
+	Total Influenza B cases		INF_B	true		LineChart	true	INF_B
+	Total confirmed influenza cases		INF_ALL	true		LineChart	true	INF_ALL
 	Total negative tests		INF_ALL	true		LineChart	true	INF_ALL
-	Cases of B Victoria		INF_ALL	true		LineChart	true	INF_ALL
-	Percent positive		BVIC	true		LineChart	true	BVIC
-			pcnt_pos	true		LineChart	true	pcnt_pos
+	Cases of B Victoria		BVIC	true		LineChart	true	BVIC
+	Percent positive		pcnt_pos	true		LineChart	true	pcnt_pos
+				true		LineChart	true
 table	https://raw.githubusercontent.com/owid/notebooks/main/FionaSpooner/flunet/data/flunet.csv
 columns
 	slug	name	type	tolerance	sourceName	sourceLink	additionalInfo	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleScheme
