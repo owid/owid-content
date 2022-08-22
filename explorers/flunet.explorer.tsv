@@ -21,7 +21,7 @@ graphers
 	Other cases of strain B		BNOTDETERMINED	true		LineChart	true	BNOTDETERMINED
 	Total Influenza B cases		INF_B	true		LineChart	true	INF_B
 	Total confirmed influenza cases		INF_ALL	true		LineChart	true	INF_ALL
-	Total negative tests		INF_ALL	true		LineChart	true	INF_ALL
+	Total negative tests		INF_NEGATIVE	true		LineChart	true	INF_NEGATIVE
 	Cases of B Victoria		BVIC	true		LineChart	true	BVIC
 	Percent positive		pcnt_pos	true		LineChart	true	pcnt_pos
 				true		LineChart	true
