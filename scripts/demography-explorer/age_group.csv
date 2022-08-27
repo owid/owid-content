@@ -1,7 +1,8 @@
 slug,csv_slug,name,title_suffix
 all,all,Total,
 none,none,None
-0_4,0_4,0–4 years,aged 0 to 4 years
+0,0,Under 1 year,of children under the age of 1
+0_4,0_4,Under 5 years,of children under the age of 5
 1_4,1_4,1–4 years,aged 1 to 4 years
 5_9,5_9,5–9 years,aged 5 to 9 years
 10_14,10_14,10–14 years,aged 10 to 14 years
@@ -26,7 +27,6 @@ aged_15,15,Aged 15,at age 15
 aged_65,65,Aged 65,at age 65
 aged_80,80,Aged 80,at age 80
 at_birth,at_birth,At birth,at birth
-0,0,Under 1 year,under 1 year
 5,5,At age 5,at age 5
 10,10,At age 10,at age 10
 15,15,At age 15,at age 15
