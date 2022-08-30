@@ -24,8 +24,13 @@ graphers
 	Total negative tests		INF_NEGATIVE	true		LineChart	true	INF_NEGATIVE
 	Cases of B Victoria		BVIC	true		LineChart	true	BVIC
 	Percent positive		pcnt_pos	true		LineChart	true	pcnt_pos
-				true		LineChart	true
-table	https://raw.githubusercontent.com/owid/notebooks/main/FionaSpooner/flunet/data/flunet.csv
+	Cases of acute respiratory illness		ari_cases			LineChart	true	ari_cases
+	Cases of influenza-like illness		ili_cases			LineChart	true	ili_cases
+	Cases of serious acute respiratory illness		sari_cases			LineChart	true	sari_cases
+	Cases of influenza-like illness per thousand outpatients		ili_cases_per_thousand_outpatients			LineChart	true	ili_cases_per_thousand_outpatients
+	Cases of acute respiratory illness per thousand outpatients		ari_cases_per_thousand_outpatients			LineChart	true	ari_cases_per_thousand_outpatients
+	Cases of serious acute respiratory illness per hundred inpatients		sari_cases_per_hundred_inpatients	true		LineChart	true	sari_cases_per_hundred_inpatients
+table	https://raw.githubusercontent.com/owid/notebooks/main/FionaSpooner/flunet/data/flu.csv
 columns
 	slug	name	type	tolerance	sourceName	sourceLink	additionalInfo	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleScheme
 	Country	Country	EntityName
@@ -44,3 +49,9 @@ columns
 	INF_NEGATIVE	Total negative tests	Integer					0	0.01;0.03;0.1;0.3;1;3;10;30	OrRd
 	BVIC	Cases of B Victoria	Integer					0	0.01;0.03;0.1;0.3;1;3;10;30	OrRd
 	pcnt_pos	Percent positive	Percentage					0	0.01;0.03;0.1;0.3;1;3;10;30	OrRd
+	ari_cases	Cases of acute respiratory illness	Integer							OrRd
+	ili_cases	Cases of influenza-like illness	Integer							OrRd
+	sari_cases	Cases of serious acute respiratory illness	Integer							OrRd
+	ili_cases_per_thousand_outpatients	Cases of influenza-like illness per thousand outpatients	Ratio							OrRd
+	ari_cases_per_thousand_outpatients	Cases of acute respiratory illness per thousand outpatients	Ratio							OrRd
+	sari_cases_per_hundred_inpatients	Cases of serious acute respiratory illness per hundred inpatients	Ratio							OrRd
