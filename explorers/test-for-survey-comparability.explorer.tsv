@@ -1,0 +1,34 @@
+explorerTitle	Test – breaks in PIP data
+selection	Madagascar
+
+graphers
+	title	Metric Dropdown	Poverty line Dropdown	Household survey data type Dropdown	Show breaks between less comparable surveys Checkbox	tableSlug	ySlugs	subtitle	note	sourceDesc	relatedQuestionUrl	type	yAxisMin	facet	selectedFacetStrategy	hasMapTab	selectedFacetStrategy
+	Share of population living in extreme poverty	Share in poverty	$1.90 a day	Show data from both income and expenditure surveys	false	inc_or_cons	headcount_ratio_190	Extreme poverty is defined as living below the International Poverty Line of $1.90 per day. This data is adjusted for inflation and for differences in the cost of living between countries.	This data is expressed in international-$ at 2011 prices.	World Bank Poverty and Inequality Platform			0
+	Share of population living in extreme poverty	Share in poverty	$1.90 a day	Show data from both income and expenditure surveys	true	headcount_ratio_190	consumption_spell_1 consumption_spell_2 consumption_spell_3 consumption_spell_4 consumption_spell_5 consumption_spell_6 income_spell_1 income_spell_2 income_spell_3 income_spell_4 income_spell_5 income_spell_6 income_spell_7	Extreme poverty is defined as living below the International Poverty Line of $1.90 per day. This data is adjusted for inflation and for differences in the cost of living between countries.	This data is expressed in international-$ at 2011 prices.	World Bank Poverty and Inequality Platform			0	entity			entity
+
+
+
+table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/old/comparability_data/headcount_ratio_190.csv	headcount_ratio_190
+columns	headcount_ratio_190
+
+	name	slug	sourceName	sourceLink	dataPublishedBy	unit	shortUnit	retrievedDate	type
+	Comparable spell (expenditure)	consumption_spell_1	World Bank Poverty and Inequality Platform	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%		Numeric
+	Comparable spell (expenditure)	consumption_spell_2	World Bank Poverty and Inequality Platform	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%		Numeric
+	Comparable spell (expenditure)	consumption_spell_3	World Bank Poverty and Inequality Platform	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%		Numeric
+	Comparable spell (expenditure)	consumption_spell_4	World Bank Poverty and Inequality Platform	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%		Numeric
+	Comparable spell (expenditure)	consumption_spell_5	World Bank Poverty and Inequality Platform	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%		Numeric
+	Comparable spell (expenditure)	consumption_spell_6	World Bank Poverty and Inequality Platform	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%		Numeric
+	Comparable spell (income)	income_spell_1	World Bank Poverty and Inequality Platform	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%		Numeric
+	Comparable spell (income)	income_spell_2	World Bank Poverty and Inequality Platform	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%		Numeric
+	Comparable spell (income)	income_spell_3	World Bank Poverty and Inequality Platform	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%		Numeric
+	Comparable spell (income)	income_spell_4	World Bank Poverty and Inequality Platform	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%		Numeric
+	Comparable spell (income)	income_spell_5	World Bank Poverty and Inequality Platform	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%		Numeric
+	Comparable spell (income)	income_spell_6	World Bank Poverty and Inequality Platform	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%		Numeric
+	Comparable spell (income)	income_spell_7	World Bank Poverty and Inequality Platform	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%		Numeric
+
+table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/poverty_inc_or_cons.csv	inc_or_cons
+columns	inc_or_cons
+
+	name	slug	sourceName	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	retrievedDate	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
+	Below $1 a day	headcount_ratio_100	World Bank Poverty and Inequality Platform	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5		Numeric	0	1;2;5;10;20;50;50.0001	true	OrRd
+	Below $1.90 a day	headcount_ratio_190	World Bank Poverty and Inequality Platform	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5		Numeric	0	1;2;5;10;20;50;50.0001	true	OrRd
