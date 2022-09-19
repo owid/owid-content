@@ -7,17 +7,17 @@ hideAlertBanner	true
 subNavId
 wpBlockId	52472
 thumbnail	https://owid.cloud/app/uploads/2022/08/Plastic-Waste-Data-Explorer.png
-hideTitleAnnotation	true
+hideTitleAnnotation	false
 table	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Plastic%20waste%20trade%20(UN%20Comtrade%2C%202022)/Plastic%20waste%20trade%20(UN%20Comtrade%2C%202022).csv	trade
 graphers
-	title	subtitle	Metric Dropdown	Sub-metric Dropdown	Per capita Checkbox	Share of world total Checkbox	tableSlug	ySlugs	yScaleToggle	baseColorScheme	type	grapherId	hasMapTab	yAxisMin	sourceDesc	tab
+	title	subtitle	Metric Dropdown	Sub-metric Dropdown	Per capita Checkbox	Share of world total Checkbox	tableSlug	ySlugs	yScaleToggle	baseColorScheme	type	grapherId	hasMapTab	yAxisMin	sourceDesc	tab	defaultView
 			Plastic waste generation		false	false					DiscreteBar	2881				map
 			Plastic waste generation		true	false					DiscreteBar	2882				map
 			Mismanaged waste		false	false					DiscreteBar	4880				map
 			Mismanaged waste		false	true					DiscreteBar	4870				map
 			Mismanaged waste		true	false					DiscreteBar	4873				map
 			Plastic emitted to ocean		false	false					DiscreteBar	4871				map
-			Plastic emitted to ocean		true	false					DiscreteBar	4872				map
+			Plastic emitted to ocean		true	false					DiscreteBar	4872				map	true
 			Plastic emitted to ocean		false	true					DiscreteBar	4869				map
 			Probability of ocean pollution		false	false					DiscreteBar	4881				map
 	Plastic waste exports		Waste trade	Exports	false	false	trade	plastic_waste_exports	true	owid-distinct	LineChart		true	0
