@@ -11,6 +11,7 @@ hasMapTab	true
 yAxisMin	0
 hideTitleAnnotation	true
 tab	map
+
 graphers
 	title	subtitle	Resource Dropdown	Metric Dropdown	Count Radio	tableSlug	ySlugs	yScaleToggle	xSlug	baseColorScheme	type	hasMapTab	note
 	Crude oil reserves	Proved reserves are fuels that are known with reasonable certainty to be recoverable in the future from known reservoirs under existing economic and operating conditions.	Oil	Reserves	Total	annual_fossil	oil_reserves	false		owid-distinct	LineChart	true
