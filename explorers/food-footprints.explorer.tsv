@@ -4,7 +4,7 @@ isPublished	true
 selection	Almonds	Bacon	Bananas	Rice	Beans	Beefburger	Pizza	Cow's milk	Penne pasta	Vegetable lasagne	Tofu	Steak pie	Beef (beef herd)	Lamb & Mutton	Beef (dairy herd)	Prawns (farmed)	Cheese	Pig Meat	Poultry Meat	Eggs	Rice	Tofu	Milk	Tomatoes	Maize	Wheat & Rye	Peas
 explorerSubtitle
 hideAlertBanner	true
-subNavId
+subNavId	explorers
 thumbnail	https://owid.cloud/app/uploads/2022/08/Env-Impacts-of-Food-Data-Explorer.png
 wpBlockId	52428
 hasMapTab	false
