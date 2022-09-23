@@ -19,6 +19,8 @@ graphers
 	714	Child health	Neonatal mortality	Rate	UN IGME
 	3799	Child health	Neonatal mortality	Number of deaths	IHME
 	3968	Child health	Neonatal mortality	Number of deaths	UN IGME
+	3475	Child health	Youth mortality	Rate	UN IGME
+		Child health	Youth mortality	Number of deaths
 	2836	Child health	Childhood stunting	Share of children	IHME
 	703	Child health	Childhood stunting	Share of children	UNICEF/WHO
 	4579	Child health	Childhood stunting	Number of children	IHME
@@ -66,7 +68,7 @@ graphers
 	1375	Maternal health	Access to modern contraceptives
 	4542	Maternal health	Postnatal health check
 	1596	Maternal health	Skilled attendant at delivery
-	471	Vaccination	DTP3 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
+	5256	Vaccination	DTP3 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
 	4563	Vaccination	DTP3 coverage	Number of children not vaccinated	UNICEF/WHO
 	1546	Vaccination	HepB3 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
 	4565	Vaccination	HepB3 coverage	Number of children not vaccinated	UNICEF/WHO
@@ -85,7 +87,7 @@ graphers
 	4571	Vaccination	RotaC coverage	Number of children not vaccinated	UNICEF/WHO
 	1547	Vaccination	BCG coverage	Share of one-year-olds vaccinated	UNICEF/WHO
 	4564	Vaccination	BCG coverage	Number of children not vaccinated	UNICEF/WHO
-	4562	Vaccination	YFV coverage	Share of one-year-olds vaccinated	UNICEF/WHO
+	3899	Vaccination	YFV coverage	Share of one-year-olds vaccinated	UNICEF/WHO
 	4570	Vaccination	YFV coverage	Number of children not vaccinated	UNICEF/WHO
 	4573	Vaccination	RCV1 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
 	4574	Vaccination	RCV1 coverage	Number of children not vaccinated	UNICEF/WHO
