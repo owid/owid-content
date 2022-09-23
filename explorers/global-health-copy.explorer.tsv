@@ -5,6 +5,7 @@ graphers
 	grapherId	Category Dropdown	Indicator Dropdown	Rate or Total Number Dropdown	Source Dropdown
 	677	Child health	Child mortality	Rate	IHME
 	712	Child health	Child mortality	Rate	UN IGME
+	952	Child health	Child mortality	Rate	UN WPP
 	421	Child health	Child mortality	Number of deaths	UN IGME
 	3772	Child health	Child mortality	Number of deaths	IHME
 	3798	Child health	Infant mortality	Rate	IHME
@@ -71,18 +72,6 @@ graphers
 	1831	Infectious diseases	Tuberculosis	Death rate
 	3613	Infectious diseases	Tuberculosis	Number of deaths
 	2285	Maternal health	HIV+ pregnant women receiving ARTs
-	844	Socioeconomic	Improved sanitation facilities	Share with access
-	1491	Socioeconomic	Improved sanitation facilities, rural	Share with access
-	3623	Socioeconomic	Improved sanitation facilities	Number of people without
-	4583	Socioeconomic	Improved sanitation facilities, rural	Number of people without
-	133	Socioeconomic	Improved water facilities	Share with access
-	1500	Socioeconomic	Improved water facilities, rural	Share with access
-	3624	Socioeconomic	Improved water facilities	Number of people without
-	4584	Socioeconomic	Improved water facilities, rural	Number of people without
-	2050	Socioeconomic	Basic handwashing facilities	Share with access
-	4541	Socioeconomic	Basic handwashing facilities, rural	Share with access
-	4585	Socioeconomic	Basic handwashing facilities	Number of people without
-	4586	Socioeconomic	Basic handwashing facilities, rural	Number of people without
 	1375	Maternal health	Access to modern contraceptives
 	4542	Maternal health	Postnatal health check
 	1596	Maternal health	Skilled attendant at delivery		UNICEF/WHO
@@ -95,36 +84,3 @@ graphers
 	1965	Health systems	Nurses and midwifes per 1,000
 	1966	Health systems	Doctors per 1,000
 	4545	Health systems	Community health workers per 1,000
-	1192	Demographic change	Births	Per 1,000
-	230	Demographic change	Fertility rate
-	3592	Demographic change	Births	Number of births
-	4546	Demographic change	Population
-	2994	Demographic change	Population density
-	225	Socioeconomic	GDP per capita (PPP)
-	3030	Socioeconomic	GDP per capita (US$)
-	4547	Socioeconomic	GINI Index
-	2699	Socioeconomic	Adult literacy rate
-	4548	Socioeconomic	Female literacy rate
-	4549	Socioeconomic	Net ODA received per capita
-	5111	Socioeconomic	Share living in extreme poverty
-	311	Socioeconomic	Undernourishment	Share of people undernourished
-	3984	Socioeconomic	Undernourishment	Number of people undernourished
-	598	Socioeconomic	Electricity access	Share of people with electricity
-	3264	Socioeconomic	Electricity access	Number of people without
-	488	Socioeconomic	CO2 emissions
-	486	Socioeconomic	CO2 emissions per capita
-	586	Socioeconomic	Energy use per capita
-	319	Education	Mean years of schooling
-	4550	Education	Mean years of schooling, women
-	4551	Education	Mean years of schooling, men
-	4540	Education	Working hours
-	3487	Education	Expected years of schooling
-	271	Education	Government spending on education
-	486	Socioeconomic	CO2 emissions per capita
-	586	Socioeconomic	Energy use per capita
-	319	Education	Mean years of schooling
-	4550	Education	Mean years of schooling, women
-	4551	Education	Mean years of schooling, men
-	4540	Education	Working hours
-	3487	Education	Expected years of schooling
-	1917	Education	Government spending on education
