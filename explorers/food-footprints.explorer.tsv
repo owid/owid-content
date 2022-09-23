@@ -1,7 +1,7 @@
 explorerTitle	Data Explorer: Environmental Impacts of Food
 explorerSubtitle	Explore the environmental impacts of specific retail food products.
 isPublished	true
-selection	Almonds	Bacon	Bananas	Rice	Beans	Beefburger	Pizza	Cow's milk	Penne pasta	Vegetable lasagne	Tofu	Steak pie	Beef (beef herd)	Lamb & Mutton	Beef (dairy herd)	Prawns (farmed)	Cheese	Pig Meat	Poultry Meat	Eggs	Rice	Tofu	Milk	Tomatoes	Maize	Wheat & Rye	Peas
+selection	Almonds	Bacon	Bananas	Beans	Beefburger	Pizza	Cow's milk	Penne pasta	Vegetable lasagne	Tofu	Steak pie	Beef (beef herd)	Lamb & Mutton	Beef (dairy herd)	Prawns (farmed)	Cheese	Pig Meat	Poultry Meat	Eggs	Rice	Milk	Tomatoes	Maize	Wheat & Rye	Peas
 explorerSubtitle
 hideAlertBanner	true
 subNavId	explorers
