@@ -51,7 +51,6 @@ graphers
 	6028	Deaths and DALYs	Total disease burden	Number	IHME
 	2198	Deaths and DALYs	Total disease burden	Age-standardized rate	IHME
 	6029	Deaths and DALYs	Total disease burden	Rate	IHME
-
 	699	Infectious diseases	HIV/AIDS	Prevalence	UNAIDS
 	2286	Infectious diseases	HIV/AIDS	Prevalence	IHME
 	1828	Infectious diseases	HIV/AIDS	Death rate	IHME
@@ -82,6 +81,12 @@ graphers
 	1961	Risk factors	Smoking	Age-standardized rate	IHME
 	6030	Risk factors	Smoking	Rate	IHME
 	6031	Risk factors	Secondhand smoke	Number	IHME
+	3812	Risk factors	Obesity	Age-standardized rate	IHME
+	6032	Risk factors	Obesity	Number	IHME
+	3895	Risk factors	Unsafe water	Age-standardized rate	IHME
+	6033	Risk factors	Unsafe water	Number	IHME
+	1959	Risk factors	Unsafe sanitation	Age-standardized rate	IHME
+	6034	Risk factors	Unsafe sanitation	Number	IHME
 	5256	Vaccination	DTP3 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
 	4563	Vaccination	DTP3 coverage	Number of children not vaccinated	UNICEF/WHO
 	1546	Vaccination	HepB3 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
