@@ -33,14 +33,18 @@ graphers
 	3874	Child health	Exclusive breastfeeding rate	Share of infants	UNICEF
 	2968	Demographic change	Life expectancy at birth	Years	World Bank
 		Demographic change	Healthy life expectancy	Years	IHME
+	126	Demography	Life expectancy at age 10	Years	UN
 	6026	Demographic change	Healthy life expectancy	Years	WHO
-	1915	Health systems	Government expenditure on health
-	555	Health systems	Health expenditure per capita
+		Health systems	Government expenditure on health
+	5653	Health	Government expenditure on health (% of GDP)	%	WHO
+	555	Health systems	Health expenditure per capita	$-constant international	WHO
 	4543	Health systems	Healthcare access and quality index		IHME
 	4544	Health systems	Healthcare access and quality index		UN/World Bank
-	1965	Health systems	Nurses and midwifes per 1,000
-	1966	Health systems	Doctors per 1,000
-	4545	Health systems	Community health workers per 1,000
+	1965	Health systems	Nurses and midwifes per 1,000	Rate	World Bank
+	1966	Health systems	Doctors per 1,000	Rate	World Bank
+	3998	Health	Hospital beds per 1,000	Rate	WHO
+	4545	Health systems	Community health workers per 1,000	Rate	World Bank
+	5238	Health	Universal Health Coverage Index	Index	WHO
 	699	Infectious diseases	HIV/AIDS	Prevalence	UNAIDS
 	2286	Infectious diseases	HIV/AIDS	Prevalence	IHME
 	1828	Infectious diseases	HIV/AIDS	Death rate	IHME
