@@ -57,13 +57,15 @@ graphers
 	762	Maternal health	Maternal mortality	Number of deaths	World Bank
 	4578	Maternal health	Maternal mortality	Number of deaths	IHME
 		Maternal health	Maternal mortality	Number of deaths	OWID
+	3595	Maternal health	Lifetime risk of maternal death	Rate	WHO
 	3872	Maternal health	Antenatal visits - 1+ visits
 	3873	Maternal health	Antenatal visits - 4+ visits
+	1596	Maternal health	Skilled attendant at delivery
 	1372	Maternal health	Prevalence of modern contraceptives
 	2285	Maternal health	HIV+ pregnant women receiving ARTs
 	1375	Maternal health	Access to modern contraceptives
 	4542	Maternal health	Postnatal health check
-	1596	Maternal health	Skilled attendant at delivery
+
 	5256	Vaccination	DTP3 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
 	4563	Vaccination	DTP3 coverage	Number of children not vaccinated	UNICEF/WHO
 	1546	Vaccination	HepB3 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
