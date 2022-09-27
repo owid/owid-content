@@ -50,6 +50,8 @@ graphers
 	3625	Deaths and DALYs	Total deaths	Age-standardized rate	IHME
 	6028	Deaths and DALYs	Total disease burden	Number	IHME
 	2198	Deaths	Total disease burden	Age-standardized rate	IHME
+	6029	Deaths	Total disease burden	Rate	IHME
+
 	699	Infectious diseases	HIV/AIDS	Prevalence	UNAIDS
 	2286	Infectious diseases	HIV/AIDS	Prevalence	IHME
 	1828	Infectious diseases	HIV/AIDS	Death rate	IHME
