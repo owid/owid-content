@@ -30,8 +30,10 @@ graphers
 	4581	Child health	Childhood wasting	Number of children	IHME
 	4580	Child health	Childhood wasting	Number of children	UNICEF/WHO
 	790	Child health	Children underweight	Share of children	UNICEF/WHO
-	3874	Child health	Exclusive breastfeeding rate
-	2968	Demographic change	Life expectancy at birth
+	3874	Child health	Exclusive breastfeeding rate	Share of infants	UNICEF
+	2968	Demographic change	Life expectancy at birth	Years	World Bank
+		Demographic change	Healthy life expectancy	Years	IHME
+	6026	Demographic change	Healthy life expectancy	Years	WHO
 	1915	Health systems	Government expenditure on health
 	555	Health systems	Health expenditure per capita
 	4543	Health systems	Healthcare access and quality index		IHME
@@ -58,14 +60,13 @@ graphers
 	4578	Maternal health	Maternal mortality	Number of deaths	IHME
 		Maternal health	Maternal mortality	Number of deaths	OWID
 	3595	Maternal health	Lifetime risk of maternal death	Rate	WHO
-	3872	Maternal health	Antenatal visits - 1+ visits
-	3873	Maternal health	Antenatal visits - 4+ visits
-	1596	Maternal health	Skilled attendant at delivery
-	1372	Maternal health	Prevalence of modern contraceptives
-	2285	Maternal health	HIV+ pregnant women receiving ARTs
-	1375	Maternal health	Access to modern contraceptives
-	4542	Maternal health	Postnatal health check
-
+	3872	Maternal health	Antenatal visits - 1+ visits	Rate	WHO
+	3873	Maternal health	Antenatal visits - 4+ visits	Rate	WHO
+	1596	Maternal health	Skilled attendant at delivery	Rate	UNICEF
+	1372	Maternal health	Prevalence of modern contraceptives	Rate	World Bank
+	2285	Maternal health	HIV+ pregnant women receiving ARTs	Rate	UNAIDS
+	1375	Maternal health	Access to modern contraceptives	Rate	World Bank
+	4542	Maternal health	Postnatal health check	Rate	World Bank
 	5256	Vaccination	DTP3 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
 	4563	Vaccination	DTP3 coverage	Number of children not vaccinated	UNICEF/WHO
 	1546	Vaccination	HepB3 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
