@@ -45,6 +45,8 @@ graphers
 	3998	Health	Hospital beds per 1,000	Rate	WHO
 	4545	Health systems	Community health workers per 1,000	Rate	World Bank
 	5238	Health	Universal Health Coverage Index	Index	WHO
+	6027	Demography	Total deaths	Number	UN WPP
+	1798	Demography	Total deaths	Rate	UN WPP
 	699	Infectious diseases	HIV/AIDS	Prevalence	UNAIDS
 	2286	Infectious diseases	HIV/AIDS	Prevalence	IHME
 	1828	Infectious diseases	HIV/AIDS	Death rate	IHME
