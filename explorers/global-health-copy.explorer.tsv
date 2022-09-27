@@ -78,6 +78,10 @@ graphers
 	2285	Maternal health	HIV+ pregnant women receiving ARTs	Rate	UNAIDS
 	1375	Maternal health	Access to modern contraceptives	Rate	World Bank
 	4542	Maternal health	Postnatal health check	Rate	World Bank
+	1469	Risk factors	Smoking	Number	IHME
+	1961	Risk factors	Smoking	Age-standardized rate	IHME
+	6030	Risk factors	Smoking	Rate	IHME
+	6031	Risk factors	Secondhand smoke	Number	IHME
 	5256	Vaccination	DTP3 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
 	4563	Vaccination	DTP3 coverage	Number of children not vaccinated	UNICEF/WHO
 	1546	Vaccination	HepB3 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
