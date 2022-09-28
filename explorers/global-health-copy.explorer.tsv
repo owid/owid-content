@@ -92,12 +92,12 @@ graphers
 	3764	Risk factors	Alcohol use	Age-standardized rate	IHME
 	6036	Risk factors	Alcohol use	Number	IHME
 	6037	Risk factors	Drug use	Number	IHME
-	1457	Risk factor	Indoor air pollution	Number	IHME
-	540	Risk factor	Indoor air pollution	Age-standardized rate	IHME
-	6038	Risk factor	Low physical activity	Number	IHME
-	6039	Risk factor	High blood pressure	Number	IHME
-	6040	Risk factor	High blood sugar	Number	IHME
-	6041	Risk factor	Unsafe sex	Number	IHME
+	1457	Risk factors	Indoor air pollution	Number	IHME
+	540	Risk factors	Indoor air pollution	Age-standardized rate	IHME
+	6038	Risk factors	Low physical activity	Number	IHME
+	6039	Risk factors	High blood pressure	Number	IHME
+	6040	Risk factors	High blood sugar	Number	IHME
+	6041	Risk factors	Unsafe sex	Number	IHME
 	5256	Vaccination	DTP3 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
 	4563	Vaccination	DTP3 coverage	Number of children not vaccinated	UNICEF/WHO
 	1546	Vaccination	HepB3 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
