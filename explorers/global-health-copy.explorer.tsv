@@ -97,6 +97,7 @@ graphers
 	6038	Risk factor	Low physical activity	Number	IHME
 	6039	Risk factor	High blood pressure	Number	IHME
 	6040	Risk factor	High blood sugar	Number	IHME
+	6041	Risk factor	Unsafe sex	Number	IHME
 	5256	Vaccination	DTP3 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
 	4563	Vaccination	DTP3 coverage	Number of children not vaccinated	UNICEF/WHO
 	1546	Vaccination	HepB3 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
