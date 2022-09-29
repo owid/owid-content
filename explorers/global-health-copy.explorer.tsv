@@ -62,8 +62,11 @@ graphers
 	6043	Infectious diseases	Malaria	Death rate	IHME
 	6042	Infectious diseases	Malaria	Death rate	WHO
 	4577	Infectious diseases	Malaria	Number of deaths	IHME
-	1831	Infectious diseases	Tuberculosis	Death rate
-	3613	Infectious diseases	Tuberculosis	Number of deaths
+	6055	Infectious diseases	Malaria	Number of deaths	WHO
+	1831	Infectious diseases	Tuberculosis	Death rate	IHME
+	3613	Infectious diseases	Tuberculosis	Number of deaths	IHME
+	6053	Injuries	Falls	Number of deaths	WHO
+	6054	Injuries	Falls	Death rate	WHO
 	3483	Maternal health	Skilled attendant at delivery		IHME
 	66	Maternal health	Maternal mortality	Rate	World Bank
 	3482	Maternal health	Maternal mortality	Rate	IHME
