@@ -27,18 +27,35 @@ graphers
 	Land used for the production of biofuels from millet		Millet	Land used for biofuels	biofuels	millet_land
 	Land used for the production of biofuels from oats		Oats	Land used for biofuels	biofuels	oats_land
 	Land used for the production of biofuels from barley		Barley	Land used for biofuels	biofuels	barley_land
-	Share of cropland used for the production of cereal biofuels		Cereals	% of cropland used for biofuels	biofuels
-	Share of cropland used for the production of maize biofuels		Maize	% of cropland used for biofuels	biofuels
-	Share of cropland used for the production of rice biofuels		Rice	% of cropland used for biofuels	biofuels
-	Share of cropland used for the production of wheat biofuels		Wheat	% of cropland used for biofuels	biofuels
-	Share of cropland used for the production of sorghum biofuels		Sorghum	% of cropland used for biofuels	biofuels
-	Share of cropland used for the production of millet biofuels		Millet	% of cropland used for biofuels	biofuels
-	Share of cropland used for the production of oat biofuels		Oats	% of cropland used for biofuels	biofuels
-	Share of cropland used for the production of barley biofuels		Barley	% of cropland used for biofuels	biofuels
-
-
-
-
+	Share of cropland used for the production of cereal biofuels		Cereals	% of cropland used for biofuels	biofuels	cereals_biofuel_share_cropland
+	Share of cropland used for the production of maize biofuels		Maize	% of cropland used for biofuels	biofuels	maize_biofuel_share_cropland
+	Share of cropland used for the production of rice biofuels		Rice	% of cropland used for biofuels	biofuels	rice_biofuel_share_cropland
+	Share of cropland used for the production of wheat biofuels		Wheat	% of cropland used for biofuels	biofuels	wheat_biofuel_share_cropland
+	Share of cropland used for the production of sorghum biofuels		Sorghum	% of cropland used for biofuels	biofuels	sorghum_biofuel_share_cropland
+	Share of cropland used for the production of millet biofuels		Millet	% of cropland used for biofuels	biofuels	millet_biofuel_share_cropland
+	Share of cropland used for the production of oat biofuels		Oats	% of cropland used for biofuels	biofuels	oat_biofuel_share_cropland
+	Share of cropland used for the production of barley biofuels		Barley	% of cropland used for biofuels	biofuels	barley_biofuel_share_cropland
+	Sugar crops used for biofuel production		Sugar crops	Tonnage used for biofuels	biofuels	sugarcrops_biofuels
+	Sugar cane used for biofuel production		Sugar cane	Tonnage used for biofuels	biofuels	sugarcane_biofuels
+	Sugar beet used for biofuel production		Sugar beet	Tonnage used for biofuels	biofuels	sugarbeet_biofuels
+	Land used for the production of biofuels from sugar crops		Sugar crops	Land used for biofuels	biofuels	sugarcrops_land
+	Land used for the production of biofuels from sugar cane		Sugar cane	Land used for biofuels	biofuels	sugarcane_land
+	Land used for the production of biofuels from sugar beet		Sugar beet	Land used for biofuels	biofuels	sugarbeet_land
+	Share of cropland used for the production of sugar crop biofuels		Sugar crops	% of cropland used for biofuels	biofuels	sugarcrops_biofuel_share_cropland
+	Share of cropland used for the production of sugar cane biofuels		Sugar cane	% of cropland used for biofuels	biofuels	sugarcane_biofuel_share_cropland
+	Share of cropland used for the production of sugar beet biofuels		Sugar beet	% of cropland used for biofuels	biofuels	sugarbeet_biofuel_share_cropland
+	Root crops used for biofuel production		Roots	Tonnage used for biofuels	biofuels
+	Cassava used for biofuel production		Cassava	Tonnage used for biofuels	biofuels
+	Potatoes used for biofuel production		Potatoes	Tonnage used for biofuels	biofuels
+	Yams used for biofuel production		Yams	Tonnage used for biofuels	biofuels
+	Land used for the production of biofuels from root crops		Roots	Land used for biofuels	biofuels
+	Land used for the production of biofuels from cassava		Cassava	Land used for biofuels	biofuels
+	Land used for the production of biofuels from potatoes		Potatoes	Land used for biofuels	biofuels
+	Land used for the production of biofuels from yams		Yams	Land used for biofuels	biofuels
+	Share of cropland used for the production of root crop biofuels		Roots	% of cropland used for biofuels	biofuels
+	Share of cropland used for the production of cassava biofuels		Cassava	% of cropland used for biofuels	biofuels
+	Share of cropland used for the production of potato biofuels		Potatoes	% of cropland used for biofuels	biofuels
+	Share of cropland used for the production of yam biofuels		Yams	% of cropland used for biofuels	biofuels
 
 columns	biofuels
 	slug	name	type	unit	shortUnit	transform	annotationsColumnSlug	notes	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo	tolerance	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleScheme
