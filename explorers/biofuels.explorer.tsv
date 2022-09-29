@@ -1,0 +1,108 @@
+explorerTitle	Data Explorer: Biofuels
+explorerSubtitle	Explore global production and land use of biofuels.
+isPublished	false
+selection	World	United States	China	India	United Kingdom	Malaysia	Germany
+explorerSubtitle
+hideAlertBanner	true
+subNavId
+wpBlockId
+thumbnail
+hideTitleAnnotation	false
+table	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Land%20use%20for%20biofuels/Land%20use%20for%20biofuels.csv	biofuels
+graphers
+	title	subtitle	Crop Dropdown	Metric Radio	tableSlug	ySlugs	yScaleToggle	baseColorScheme	type	grapherId	hasMapTab	yAxisMin	sourceDesc	tab	defaultView
+	Cereals used for biofuel production		Cereals	Tonnage used for biofuels	biofuels	cereal_biofuels
+	Maize used for biofuel production		Maize	Tonnage used for biofuels	biofuels	maize_biofuels
+	Rice used for biofuel production		Rice	Tonnage used for biofuels	biofuels	rice_biofuels
+	Wheat used for biofuel production		Wheat	Tonnage used for biofuels	biofuels	wheat_biofuels
+	Sorghum used for biofuel production		Sorghum	Tonnage used for biofuels	biofuels	sorghum_biofuels
+	Millet used for biofuel production		Millet	Tonnage used for biofuels	biofuels	millet_biofuels
+	Oats used for biofuel production		Oats	Tonnage used for biofuels	biofuels	oats_biofuels
+	Barley used for biofuel production		Barley	Tonnage used for biofuels	biofuels	barley_biofuels
+	Land used for the production of biofuels from cereals		Cereals	Land used for biofuels	biofuels	cereal_land
+	Land used for the production of biofuels from maize		Maize	Land used for biofuels	biofuels	maize_land
+	Land used for the production of biofuels from rice		Rice	Land used for biofuels	biofuels	rice_land
+	Land used for the production of biofuels from wheat		Wheat	Land used for biofuels	biofuels	wheat_land
+	Land used for the production of biofuels from sorghum		Sorghum	Land used for biofuels	biofuels	sorghum_land
+	Land used for the production of biofuels from millet		Millet	Land used for biofuels	biofuels	millet_land
+	Land used for the production of biofuels from oats		Oats	Land used for biofuels	biofuels	oats_land
+	Land used for the production of biofuels from barley		Barley	Land used for biofuels	biofuels	barley_land
+	Share of cropland used for the production of cereal biofuels		Cereals	% of cropland used for biofuels	biofuels
+	Share of cropland used for the production of maize biofuels		Maize	% of cropland used for biofuels	biofuels
+	Share of cropland used for the production of rice biofuels		Rice	% of cropland used for biofuels	biofuels
+	Share of cropland used for the production of wheat biofuels		Wheat	% of cropland used for biofuels	biofuels
+	Share of cropland used for the production of sorghum biofuels		Sorghum	% of cropland used for biofuels	biofuels
+	Share of cropland used for the production of millet biofuels		Millet	% of cropland used for biofuels	biofuels
+	Share of cropland used for the production of oat biofuels		Oats	% of cropland used for biofuels	biofuels
+	Share of cropland used for the production of barley biofuels		Barley	% of cropland used for biofuels	biofuels
+
+
+
+
+
+columns	biofuels
+	slug	name	type	unit	shortUnit	transform	annotationsColumnSlug	notes	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo	tolerance	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleScheme
+	cereal_biofuels	Cereals for biofuels
+	maize_biofuels	Maize for biofuels
+	rice_biofuels	Rice for biofuels
+	wheat_biofuels	Wheat for biofuels
+	sorghum_biofuels	Sorghum for biofuels
+	millet_biofuels	Millet for biofuels
+	oats_biofuels	Oat for biofuels
+	barley_biofuels	Barley for biofuels
+	cereals_land	Land for cereal biofuels
+	maize_land	Land for cereal biofuels
+	rice_land	Land for cereal biofuels
+	wheat_land	Land for cereal biofuels
+	sorghum_land	Land for cereal biofuels
+	millet_land	Land for cereal biofuels
+	oats_land	Land for cereal biofuels
+	rye_land	Land for cereal biofuels
+	barley_land	Land for cereal biofuels
+	cereal_main_land
+	cereal_other_land
+	cereal_main_production
+	cereal_other_production
+	cereal_other_yield
+	cereals_biofuel_share_cropland
+	maize_biofuel_share_cropland
+	rice_biofuel_share_cropland
+	wheat_biofuel_share_cropland
+	sorghum_biofuel_share_cropland
+	millet_biofuel_share_cropland
+	oats_biofuel_share_cropland
+	rye_biofuel_share_cropland
+	barley_biofuel_share_cropland
+	sugarcane_land
+	sugarbeet_land
+	sugarcrops_land
+	sugarcane_biofuel_share_cropland
+	sugarbeet_biofuel_share_cropland
+	sugarcrops_biofuel_share_cropland
+	cassava_biofuels
+	potatoes_biofuels
+	yams_biofuels
+	cassava_land
+	potatoes_land
+	yams_land
+	roots_land
+	cassava_biofuel_share_cropland
+	potatoes_biofuel_share_cropland
+	yams_biofuel_share_cropland
+	roots_biofuel_share_cropland
+	palm_biofuels
+	soybean_biofuels
+	sunflower_biofuels
+	rapeseed_biofuels
+	palm_land
+	soybeans_land
+	sunflower_land
+	rapeseed_land
+	oilcrops_land
+	palm_biofuel_share_cropland
+	soybean_biofuel_share_cropland
+	sunflower_biofuel_share_cropland
+	rapeseed_biofuel_share_cropland
+	oilcrops_biofuel_share_cropland
+	total_land_biofuels
+	total_cropland_share_biofuels
