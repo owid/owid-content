@@ -44,82 +44,99 @@ graphers
 	Share of cropland used for the production of sugar crop biofuels		Sugar crops	% of cropland used for biofuels	biofuels	sugarcrops_biofuel_share_cropland
 	Share of cropland used for the production of sugar cane biofuels		Sugar cane	% of cropland used for biofuels	biofuels	sugarcane_biofuel_share_cropland
 	Share of cropland used for the production of sugar beet biofuels		Sugar beet	% of cropland used for biofuels	biofuels	sugarbeet_biofuel_share_cropland
-	Root crops used for biofuel production		Roots	Tonnage used for biofuels	biofuels
-	Cassava used for biofuel production		Cassava	Tonnage used for biofuels	biofuels
-	Potatoes used for biofuel production		Potatoes	Tonnage used for biofuels	biofuels
-	Yams used for biofuel production		Yams	Tonnage used for biofuels	biofuels
-	Land used for the production of biofuels from root crops		Roots	Land used for biofuels	biofuels
-	Land used for the production of biofuels from cassava		Cassava	Land used for biofuels	biofuels
-	Land used for the production of biofuels from potatoes		Potatoes	Land used for biofuels	biofuels
-	Land used for the production of biofuels from yams		Yams	Land used for biofuels	biofuels
-	Share of cropland used for the production of root crop biofuels		Roots	% of cropland used for biofuels	biofuels
-	Share of cropland used for the production of cassava biofuels		Cassava	% of cropland used for biofuels	biofuels
-	Share of cropland used for the production of potato biofuels		Potatoes	% of cropland used for biofuels	biofuels
-	Share of cropland used for the production of yam biofuels		Yams	% of cropland used for biofuels	biofuels
+	Root crops used for biofuel production		Roots	Tonnage used for biofuels	biofuels	roots_biofuels
+	Cassava used for biofuel production		Cassava	Tonnage used for biofuels	biofuels	cassava_biofuels
+	Potatoes used for biofuel production		Potatoes	Tonnage used for biofuels	biofuels	potatoes_biofuels
+	Yams used for biofuel production		Yams	Tonnage used for biofuels	biofuels	yams_biofuels
+	Land used for the production of biofuels from root crops		Roots	Land used for biofuels	biofuels	roots_land
+	Land used for the production of biofuels from cassava		Cassava	Land used for biofuels	biofuels	cassava_land
+	Land used for the production of biofuels from potatoes		Potatoes	Land used for biofuels	biofuels	potatoes_land
+	Land used for the production of biofuels from yams		Yams	Land used for biofuels	biofuels	yams_land
+	Share of cropland used for the production of root crop biofuels		Roots	% of cropland used for biofuels	biofuels	roots_biofuel_share_cropland
+	Share of cropland used for the production of cassava biofuels		Cassava	% of cropland used for biofuels	biofuels	cassava_biofuel_share_cropland
+	Share of cropland used for the production of potato biofuels		Potatoes	% of cropland used for biofuels	biofuels	potatoes_biofuel_share_cropland
+	Share of cropland used for the production of yam biofuels		Yams	% of cropland used for biofuels	biofuels	yams_biofuel_share_cropland
+	Oil crops used for biofuel production		Oil crops	Tonnage used for biofuels	biofuels	oilcrops_biofuels
+	Palm oil used for biofuel production		Palm oil	Tonnage used for biofuels	biofuels	palm_biofuels
+	Soybeans used for biofuel production		Soybean	Tonnage used for biofuels	biofuels	soybean_biofuels
+	Sunflower seeds used for biofuel production		Sunflower seed	Tonnage used for biofuels	biofuels	sunflower_biofuels
+	Rapeseed used for biofuel production		Rapeseed	Tonnage used for biofuels	biofuels	rapeseed_biofuels
+	Land used for the production of biofuels from oil crops		Oil crops	Land used for biofuels	biofuels	oilcrops_land
+	Land used for the production of biofuels from palm		Palm oil	Land used for biofuels	biofuels	palm_land
+	Land used for the production of biofuels from soybeans		Soybean	Land used for biofuels	biofuels	soybean_land
+	Land used for the production of biofuels from sunflower seeds		Sunflower seed	Land used for biofuels	biofuels	sunflower_land
+	Land used for the production of biofuels from rapeseed		Rapeseed	Land used for biofuels	biofuels	rapeseed_land
+	Share of cropland used for the production of oil crop biofuels		Oil crops	% of cropland used for biofuels	biofuels	oilcrops_biofuel_share_cropland
+	Share of cropland used for the production of palm oil biofuels		Palm oil	% of cropland used for biofuels	biofuels	palm_biofuel_share_cropland
+	Share of cropland used for the production of soybean biofuels		Soybean	% of cropland used for biofuels	biofuels	soybean_biofuel_share_cropland
+	Share of cropland used for the production of sunflower seed biofuels		Sunflower seed	% of cropland used for biofuels	biofuels	sunflower_biofuel_share_cropland
+	Share of cropland used for the production of rapeseed biofuels		Rapeseed	% of cropland used for biofuels	biofuels	rapeseed_biofuel_share_cropland
+	Land used for the production of biofuels		Total crops	Land used for biofuels	biofuels	total_land_biofuels
+	Share of cropland used for the production of biofuels		Total crops	% of cropland used for biofuels	biofuels	total_cropland_share_biofuels
 
 columns	biofuels
 	slug	name	type	unit	shortUnit	transform	annotationsColumnSlug	notes	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo	tolerance	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleScheme
-	cereal_biofuels	Cereals for biofuels
-	maize_biofuels	Maize for biofuels
-	rice_biofuels	Rice for biofuels
-	wheat_biofuels	Wheat for biofuels
-	sorghum_biofuels	Sorghum for biofuels
-	millet_biofuels	Millet for biofuels
-	oats_biofuels	Oat for biofuels
-	barley_biofuels	Barley for biofuels
-	cereals_land	Land for cereal biofuels
-	maize_land	Land for cereal biofuels
-	rice_land	Land for cereal biofuels
-	wheat_land	Land for cereal biofuels
-	sorghum_land	Land for cereal biofuels
-	millet_land	Land for cereal biofuels
-	oats_land	Land for cereal biofuels
-	rye_land	Land for cereal biofuels
-	barley_land	Land for cereal biofuels
-	cereal_main_land
-	cereal_other_land
-	cereal_main_production
-	cereal_other_production
-	cereal_other_yield
-	cereals_biofuel_share_cropland
-	maize_biofuel_share_cropland
-	rice_biofuel_share_cropland
-	wheat_biofuel_share_cropland
-	sorghum_biofuel_share_cropland
-	millet_biofuel_share_cropland
-	oats_biofuel_share_cropland
-	rye_biofuel_share_cropland
-	barley_biofuel_share_cropland
-	sugarcane_land
-	sugarbeet_land
-	sugarcrops_land
-	sugarcane_biofuel_share_cropland
-	sugarbeet_biofuel_share_cropland
-	sugarcrops_biofuel_share_cropland
-	cassava_biofuels
-	potatoes_biofuels
-	yams_biofuels
-	cassava_land
-	potatoes_land
-	yams_land
-	roots_land
-	cassava_biofuel_share_cropland
-	potatoes_biofuel_share_cropland
-	yams_biofuel_share_cropland
-	roots_biofuel_share_cropland
-	palm_biofuels
-	soybean_biofuels
-	sunflower_biofuels
-	rapeseed_biofuels
-	palm_land
-	soybeans_land
-	sunflower_land
-	rapeseed_land
-	oilcrops_land
-	palm_biofuel_share_cropland
-	soybean_biofuel_share_cropland
-	sunflower_biofuel_share_cropland
-	rapeseed_biofuel_share_cropland
-	oilcrops_biofuel_share_cropland
-	total_land_biofuels
-	total_cropland_share_biofuels
+	cereal_biofuels	Cereals for biofuels	NumberOrString	tonnes	t
+	maize_biofuels	Maize for biofuels	NumberOrString	tonnes	t
+	rice_biofuels	Rice for biofuels	NumberOrString	tonnes	t
+	wheat_biofuels	Wheat for biofuels	NumberOrString	tonnes	t
+	sorghum_biofuels	Sorghum for biofuels	NumberOrString	tonnes	t
+	millet_biofuels	Millet for biofuels	NumberOrString	tonnes	t
+	oats_biofuels	Oat for biofuels	NumberOrString	tonnes	t
+	barley_biofuels	Barley for biofuels	NumberOrString	tonnes	t
+	cereals_land	Land for cereal biofuels	NumberOrString	hectares	ha
+	maize_land	Land for cereal biofuels	NumberOrString	hectares	ha
+	rice_land	Land for cereal biofuels	NumberOrString	hectares	ha
+	wheat_land	Land for cereal biofuels	NumberOrString	hectares	ha
+	sorghum_land	Land for cereal biofuels	NumberOrString	hectares	ha
+	millet_land	Land for cereal biofuels	NumberOrString	hectares	ha
+	oats_land	Land for cereal biofuels	NumberOrString	hectares	ha
+	rye_land	Land for cereal biofuels	NumberOrString	hectares	ha
+	barley_land	Land for cereal biofuels	NumberOrString	hectares	ha
+	cereal_main_land		NumberOrString	hectares	ha
+	cereal_other_land		NumberOrString	hectares	ha
+	cereal_main_production		NumberOrString	tonnes	t
+	cereal_other_production		NumberOrString	tonnes	t
+	cereal_other_yield		NumberOrString
+	cereals_biofuel_share_cropland		Percentage	%	%
+	maize_biofuel_share_cropland		Percentage	%	%
+	rice_biofuel_share_cropland		Percentage	%	%
+	wheat_biofuel_share_cropland		Percentage	%	%
+	sorghum_biofuel_share_cropland		Percentage	%	%
+	millet_biofuel_share_cropland		Percentage	%	%
+	oats_biofuel_share_cropland		Percentage	%	%
+	rye_biofuel_share_cropland		Percentage	%	%
+	barley_biofuel_share_cropland		Percentage	%	%
+	sugarcane_land		NumberOrString	hectares	ha
+	sugarbeet_land		NumberOrString	hectares	ha
+	sugarcrops_land		NumberOrString	hectares	ha
+	sugarcane_biofuel_share_cropland		Percentage	%	%
+	sugarbeet_biofuel_share_cropland		Percentage	%	%
+	sugarcrops_biofuel_share_cropland		Percentage	%	%
+	cassava_biofuels		NumberOrString	tonnes	t
+	potatoes_biofuels		NumberOrString	tonnes	t
+	yams_biofuels		NumberOrString	tonnes	t
+	cassava_land		NumberOrString	hectares	ha
+	potatoes_land		NumberOrString	hectares	ha
+	yams_land		NumberOrString	hectares	ha
+	roots_land		NumberOrString	hectares	ha
+	cassava_biofuel_share_cropland		Percentage	%	%
+	potatoes_biofuel_share_cropland		Percentage	%	%
+	yams_biofuel_share_cropland		Percentage	%	%
+	roots_biofuel_share_cropland		Percentage	%	%
+	palm_biofuels		NumberOrString	tonnes	t
+	soybean_biofuels		NumberOrString	tonnes	t
+	sunflower_biofuels		NumberOrString	tonnes	t
+	rapeseed_biofuels		NumberOrString	tonnes	t
+	palm_land		NumberOrString
+	soybeans_land		NumberOrString
+	sunflower_land		NumberOrString
+	rapeseed_land		NumberOrString
+	oilcrops_land		NumberOrString
+	palm_biofuel_share_cropland		Percentage	%	%
+	soybean_biofuel_share_cropland		Percentage	%	%
+	sunflower_biofuel_share_cropland		Percentage	%	%
+	rapeseed_biofuel_share_cropland		Percentage	%	%
+	oilcrops_biofuel_share_cropland		Percentage	%	%
+	total_land_biofuels		NumberOrString	%	%
+	total_cropland_share_biofuels		Percentage	%	%
