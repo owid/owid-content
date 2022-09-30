@@ -10,16 +10,18 @@ thumbnail
 hideTitleAnnotation	false
 table	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Land%20use%20for%20biofuels/Land%20use%20for%20biofuels.csv	biofuels
 graphers
-	title	subtitle	Biofuel or Crop Radio	Crop used Dropdown	Metric Radio	tableSlug	ySlugs	yScaleToggle	baseColorScheme	type	grapherId	hasMapTab	yAxisMin	sourceDesc	tab	defaultView
-			Biofuel production								1400				map
-	Cereals used for biofuel production		Select a crop	Cereals	Tonnage used for biofuels	biofuels	cereal_biofuels	true		LineChart		true	0		map
-	Maize used for biofuel production		Select a crop	Maize	Tonnage used for biofuels	biofuels	maize_biofuels	true		LineChart		true	0		map
-	Rice used for biofuel production		Select a crop	Rice	Tonnage used for biofuels	biofuels	rice_biofuels	true		LineChart		true	0		map
-	Wheat used for biofuel production		Select a crop	Wheat	Tonnage used for biofuels	biofuels	wheat_biofuels	true		LineChart		true	0		map
-	Sorghum used for biofuel production		Select a crop	Sorghum	Tonnage used for biofuels	biofuels	sorghum_biofuels	true		LineChart		true	0		map
-	Millet used for biofuel production		Select a crop	Millet	Tonnage used for biofuels	biofuels	millet_biofuels	true		LineChart		true	0		map
-	Oats used for biofuel production		Select a crop	Oats	Tonnage used for biofuels	biofuels	oats_biofuels	true		LineChart		true	0		map
-	Barley used for biofuel production		Select a crop	Barley	Tonnage used for biofuels	biofuels	barley_biofuels	true		LineChart		true	0		map
+	title	subtitle	Biofuel or Crop Radio	Crop used Dropdown	Metric Dropdown	tableSlug	ySlugs	yScaleToggle	baseColorScheme	type	grapherId	hasMapTab	yAxisMin	sourceDesc	tab	defaultView
+			All biofuels		Production						1400				map
+	Land used for the production of biofuels		All biofuels		Land used for biofuels	biofuels	total_land_biofuels	true		LineChart		true	0		map
+	Share of cropland used for the production of biofuels		All biofuels		% of cropland used for biofuels	biofuels	total_cropland_share_biofuels	true		LineChart		true	0		map
+	Cereals used for biofuel production		Select a crop	Cereals	Quantity used for biofuels	biofuels	cereal_biofuels	true		LineChart		true	0		map
+	Maize used for biofuel production		Select a crop	Maize	Quantity used for biofuels	biofuels	maize_biofuels	true		LineChart		true	0		map
+	Rice used for biofuel production		Select a crop	Rice	Quantity used for biofuels	biofuels	rice_biofuels	true		LineChart		true	0		map
+	Wheat used for biofuel production		Select a crop	Wheat	Quantity used for biofuels	biofuels	wheat_biofuels	true		LineChart		true	0		map
+	Sorghum used for biofuel production		Select a crop	Sorghum	Quantity used for biofuels	biofuels	sorghum_biofuels	true		LineChart		true	0		map
+	Millet used for biofuel production		Select a crop	Millet	Quantity used for biofuels	biofuels	millet_biofuels	true		LineChart		true	0		map
+	Oats used for biofuel production		Select a crop	Oats	Quantity used for biofuels	biofuels	oats_biofuels	true		LineChart		true	0		map
+	Barley used for biofuel production		Select a crop	Barley	Quantity used for biofuels	biofuels	barley_biofuels	true		LineChart		true	0		map
 	Land used for the production of biofuels from cereals		Select a crop	Cereals	Land used for biofuels	biofuels	cereals_land	true		LineChart		true	0		map
 	Land used for the production of biofuels from maize		Select a crop	Maize	Land used for biofuels	biofuels	maize_land	true		LineChart		true	0		map
 	Land used for the production of biofuels from rice		Select a crop	Rice	Land used for biofuels	biofuels	rice_land	true		LineChart		true	0		map
@@ -36,19 +38,19 @@ graphers
 	Share of cropland used for the production of millet biofuels		Select a crop	Millet	% of cropland used for biofuels	biofuels	millet_biofuel_share_cropland	true		LineChart		true	0		map
 	Share of cropland used for the production of oat biofuels		Select a crop	Oats	% of cropland used for biofuels	biofuels	oat_biofuel_share_cropland	true		LineChart		true	0		map
 	Share of cropland used for the production of barley biofuels		Select a crop	Barley	% of cropland used for biofuels	biofuels	barley_biofuel_share_cropland	true		LineChart		true	0		map
-	Sugar crops used for biofuel production		Select a crop	Sugar crops	Tonnage used for biofuels	biofuels	sugarcrops_biofuels	true		LineChart		true	0		map
-	Sugar cane used for biofuel production		Select a crop	Sugar cane	Tonnage used for biofuels	biofuels	sugarcane_biofuels	true		LineChart		true	0		map
-	Sugar beet used for biofuel production		Select a crop	Sugar beet	Tonnage used for biofuels	biofuels	sugarbeet_biofuels	true		LineChart		true	0		map
+	Sugar crops used for biofuel production		Select a crop	Sugar crops	Quantity used for biofuels	biofuels	sugarcrops_biofuels	true		LineChart		true	0		map
+	Sugar cane used for biofuel production		Select a crop	Sugar cane	Quantity used for biofuels	biofuels	sugarcane_biofuels	true		LineChart		true	0		map
+	Sugar beet used for biofuel production		Select a crop	Sugar beet	Quantity used for biofuels	biofuels	sugarbeet_biofuels	true		LineChart		true	0		map
 	Land used for the production of biofuels from sugar crops		Select a crop	Sugar crops	Land used for biofuels	biofuels	sugarcrops_land	true		LineChart		true	0		map
 	Land used for the production of biofuels from sugar cane		Select a crop	Sugar cane	Land used for biofuels	biofuels	sugarcane_land	true		LineChart		true	0		map
 	Land used for the production of biofuels from sugar beet		Select a crop	Sugar beet	Land used for biofuels	biofuels	sugarbeet_land	true		LineChart		true	0		map
 	Share of cropland used for the production of sugar crop biofuels		Select a crop	Sugar crops	% of cropland used for biofuels	biofuels	sugarcrops_biofuel_share_cropland	true		LineChart		true	0		map
 	Share of cropland used for the production of sugar cane biofuels		Select a crop	Sugar cane	% of cropland used for biofuels	biofuels	sugarcane_biofuel_share_cropland	true		LineChart		true	0		map
 	Share of cropland used for the production of sugar beet biofuels		Select a crop	Sugar beet	% of cropland used for biofuels	biofuels	sugarbeet_biofuel_share_cropland	true		LineChart		true	0		map
-	Root crops used for biofuel production		Select a crop	Roots	Tonnage used for biofuels	biofuels	roots_biofuels	true		LineChart		true	0		map
-	Cassava used for biofuel production		Select a crop	Cassava	Tonnage used for biofuels	biofuels	cassava_biofuels	true		LineChart		true	0		map
-	Potatoes used for biofuel production		Select a crop	Potatoes	Tonnage used for biofuels	biofuels	potatoes_biofuels	true		LineChart		true	0		map
-	Yams used for biofuel production		Select a crop	Yams	Tonnage used for biofuels	biofuels	yams_biofuels	true		LineChart		true	0		map
+	Root crops used for biofuel production		Select a crop	Roots	Quantity used for biofuels	biofuels	roots_biofuels	true		LineChart		true	0		map
+	Cassava used for biofuel production		Select a crop	Cassava	Quantity used for biofuels	biofuels	cassava_biofuels	true		LineChart		true	0		map
+	Potatoes used for biofuel production		Select a crop	Potatoes	Quantity used for biofuels	biofuels	potatoes_biofuels	true		LineChart		true	0		map
+	Yams used for biofuel production		Select a crop	Yams	Quantity used for biofuels	biofuels	yams_biofuels	true		LineChart		true	0		map
 	Land used for the production of biofuels from root crops		Select a crop	Roots	Land used for biofuels	biofuels	roots_land	true		LineChart		true	0		map
 	Land used for the production of biofuels from cassava		Select a crop	Cassava	Land used for biofuels	biofuels	cassava_land	true		LineChart		true	0		map
 	Land used for the production of biofuels from potatoes		Select a crop	Potatoes	Land used for biofuels	biofuels	potatoes_land	true		LineChart		true	0		map
@@ -57,11 +59,11 @@ graphers
 	Share of cropland used for the production of cassava biofuels		Select a crop	Cassava	% of cropland used for biofuels	biofuels	cassava_biofuel_share_cropland	true		LineChart		true	0		map
 	Share of cropland used for the production of potato biofuels		Select a crop	Potatoes	% of cropland used for biofuels	biofuels	potatoes_biofuel_share_cropland	true		LineChart		true	0		map
 	Share of cropland used for the production of yam biofuels		Select a crop	Yams	% of cropland used for biofuels	biofuels	yams_biofuel_share_cropland	true		LineChart		true	0		map
-	Oil crops used for biofuel production		Select a crop	Oil crops	Tonnage used for biofuels	biofuels	oilcrops_biofuels	true		LineChart		true	0		map
-	Palm oil used for biofuel production		Select a crop	Palm oil	Tonnage used for biofuels	biofuels	palm_biofuels	true		LineChart		true	0		map
-	Soybeans used for biofuel production		Select a crop	Soybean	Tonnage used for biofuels	biofuels	soybean_biofuels	true		LineChart		true	0		map
-	Sunflower seeds used for biofuel production		Select a crop	Sunflower seed	Tonnage used for biofuels	biofuels	sunflower_biofuels	true		LineChart		true	0		map
-	Rapeseed used for biofuel production		Select a crop	Rapeseed	Tonnage used for biofuels	biofuels	rapeseed_biofuels	true		LineChart		true	0		map
+	Oil crops used for biofuel production		Select a crop	Oil crops	Quantity used for biofuels	biofuels	oilcrops_biofuels	true		LineChart		true	0		map
+	Palm oil used for biofuel production		Select a crop	Palm oil	Quantity used for biofuels	biofuels	palm_biofuels	true		LineChart		true	0		map
+	Soybeans used for biofuel production		Select a crop	Soybean	Quantity used for biofuels	biofuels	soybean_biofuels	true		LineChart		true	0		map
+	Sunflower seeds used for biofuel production		Select a crop	Sunflower seed	Quantity used for biofuels	biofuels	sunflower_biofuels	true		LineChart		true	0		map
+	Rapeseed used for biofuel production		Select a crop	Rapeseed	Quantity used for biofuels	biofuels	rapeseed_biofuels	true		LineChart		true	0		map
 	Land used for the production of biofuels from oil crops		Select a crop	Oil crops	Land used for biofuels	biofuels	oilcrops_land	true		LineChart		true	0		map
 	Land used for the production of biofuels from palm		Select a crop	Palm oil	Land used for biofuels	biofuels	palm_land	true		LineChart		true	0		map
 	Land used for the production of biofuels from soybeans		Select a crop	Soybean	Land used for biofuels	biofuels	soybean_land	true		LineChart		true	0		map
@@ -72,8 +74,6 @@ graphers
 	Share of cropland used for the production of soybean biofuels		Select a crop	Soybean	% of cropland used for biofuels	biofuels	soybean_biofuel_share_cropland	true		LineChart		true	0		map
 	Share of cropland used for the production of sunflower seed biofuels		Select a crop	Sunflower seed	% of cropland used for biofuels	biofuels	sunflower_biofuel_share_cropland	true		LineChart		true	0		map
 	Share of cropland used for the production of rapeseed biofuels		Select a crop	Rapeseed	% of cropland used for biofuels	biofuels	rapeseed_biofuel_share_cropland	true		LineChart		true	0		map
-	Land used for the production of biofuels		Select a crop	Total crops	Land used for biofuels	biofuels	total_land_biofuels	true		LineChart		true	0		map
-	Share of cropland used for the production of biofuels		Select a crop	Total crops	% of cropland used for biofuels	biofuels	total_cropland_share_biofuels	true		LineChart		true	0		map
 
 columns	biofuels
 	slug	name	type	unit	shortUnit	transform	annotationsColumnSlug	notes	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo	tolerance	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleScheme
