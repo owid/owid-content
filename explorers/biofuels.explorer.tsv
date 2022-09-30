@@ -11,132 +11,132 @@ hideTitleAnnotation	false
 table	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Land%20use%20for%20biofuels/Land%20use%20for%20biofuels.csv	biofuels
 graphers
 	title	subtitle	Crop Dropdown	Metric Radio	tableSlug	ySlugs	yScaleToggle	baseColorScheme	type	grapherId	hasMapTab	yAxisMin	sourceDesc	tab	defaultView
-	Cereals used for biofuel production		Cereals	Tonnage used for biofuels	biofuels	cereal_biofuels
-	Maize used for biofuel production		Maize	Tonnage used for biofuels	biofuels	maize_biofuels
-	Rice used for biofuel production		Rice	Tonnage used for biofuels	biofuels	rice_biofuels
-	Wheat used for biofuel production		Wheat	Tonnage used for biofuels	biofuels	wheat_biofuels
-	Sorghum used for biofuel production		Sorghum	Tonnage used for biofuels	biofuels	sorghum_biofuels
-	Millet used for biofuel production		Millet	Tonnage used for biofuels	biofuels	millet_biofuels
-	Oats used for biofuel production		Oats	Tonnage used for biofuels	biofuels	oats_biofuels
-	Barley used for biofuel production		Barley	Tonnage used for biofuels	biofuels	barley_biofuels
-	Land used for the production of biofuels from cereals		Cereals	Land used for biofuels	biofuels	cereal_land
-	Land used for the production of biofuels from maize		Maize	Land used for biofuels	biofuels	maize_land
-	Land used for the production of biofuels from rice		Rice	Land used for biofuels	biofuels	rice_land
-	Land used for the production of biofuels from wheat		Wheat	Land used for biofuels	biofuels	wheat_land
-	Land used for the production of biofuels from sorghum		Sorghum	Land used for biofuels	biofuels	sorghum_land
-	Land used for the production of biofuels from millet		Millet	Land used for biofuels	biofuels	millet_land
-	Land used for the production of biofuels from oats		Oats	Land used for biofuels	biofuels	oats_land
-	Land used for the production of biofuels from barley		Barley	Land used for biofuels	biofuels	barley_land
-	Share of cropland used for the production of cereal biofuels		Cereals	% of cropland used for biofuels	biofuels	cereals_biofuel_share_cropland
-	Share of cropland used for the production of maize biofuels		Maize	% of cropland used for biofuels	biofuels	maize_biofuel_share_cropland
-	Share of cropland used for the production of rice biofuels		Rice	% of cropland used for biofuels	biofuels	rice_biofuel_share_cropland
-	Share of cropland used for the production of wheat biofuels		Wheat	% of cropland used for biofuels	biofuels	wheat_biofuel_share_cropland
-	Share of cropland used for the production of sorghum biofuels		Sorghum	% of cropland used for biofuels	biofuels	sorghum_biofuel_share_cropland
-	Share of cropland used for the production of millet biofuels		Millet	% of cropland used for biofuels	biofuels	millet_biofuel_share_cropland
-	Share of cropland used for the production of oat biofuels		Oats	% of cropland used for biofuels	biofuels	oat_biofuel_share_cropland
-	Share of cropland used for the production of barley biofuels		Barley	% of cropland used for biofuels	biofuels	barley_biofuel_share_cropland
-	Sugar crops used for biofuel production		Sugar crops	Tonnage used for biofuels	biofuels	sugarcrops_biofuels
-	Sugar cane used for biofuel production		Sugar cane	Tonnage used for biofuels	biofuels	sugarcane_biofuels
-	Sugar beet used for biofuel production		Sugar beet	Tonnage used for biofuels	biofuels	sugarbeet_biofuels
-	Land used for the production of biofuels from sugar crops		Sugar crops	Land used for biofuels	biofuels	sugarcrops_land
-	Land used for the production of biofuels from sugar cane		Sugar cane	Land used for biofuels	biofuels	sugarcane_land
-	Land used for the production of biofuels from sugar beet		Sugar beet	Land used for biofuels	biofuels	sugarbeet_land
-	Share of cropland used for the production of sugar crop biofuels		Sugar crops	% of cropland used for biofuels	biofuels	sugarcrops_biofuel_share_cropland
-	Share of cropland used for the production of sugar cane biofuels		Sugar cane	% of cropland used for biofuels	biofuels	sugarcane_biofuel_share_cropland
-	Share of cropland used for the production of sugar beet biofuels		Sugar beet	% of cropland used for biofuels	biofuels	sugarbeet_biofuel_share_cropland
-	Root crops used for biofuel production		Roots	Tonnage used for biofuels	biofuels	roots_biofuels
-	Cassava used for biofuel production		Cassava	Tonnage used for biofuels	biofuels	cassava_biofuels
-	Potatoes used for biofuel production		Potatoes	Tonnage used for biofuels	biofuels	potatoes_biofuels
-	Yams used for biofuel production		Yams	Tonnage used for biofuels	biofuels	yams_biofuels
-	Land used for the production of biofuels from root crops		Roots	Land used for biofuels	biofuels	roots_land
-	Land used for the production of biofuels from cassava		Cassava	Land used for biofuels	biofuels	cassava_land
-	Land used for the production of biofuels from potatoes		Potatoes	Land used for biofuels	biofuels	potatoes_land
-	Land used for the production of biofuels from yams		Yams	Land used for biofuels	biofuels	yams_land
-	Share of cropland used for the production of root crop biofuels		Roots	% of cropland used for biofuels	biofuels	roots_biofuel_share_cropland
-	Share of cropland used for the production of cassava biofuels		Cassava	% of cropland used for biofuels	biofuels	cassava_biofuel_share_cropland
-	Share of cropland used for the production of potato biofuels		Potatoes	% of cropland used for biofuels	biofuels	potatoes_biofuel_share_cropland
-	Share of cropland used for the production of yam biofuels		Yams	% of cropland used for biofuels	biofuels	yams_biofuel_share_cropland
-	Oil crops used for biofuel production		Oil crops	Tonnage used for biofuels	biofuels	oilcrops_biofuels
-	Palm oil used for biofuel production		Palm oil	Tonnage used for biofuels	biofuels	palm_biofuels
-	Soybeans used for biofuel production		Soybean	Tonnage used for biofuels	biofuels	soybean_biofuels
-	Sunflower seeds used for biofuel production		Sunflower seed	Tonnage used for biofuels	biofuels	sunflower_biofuels
-	Rapeseed used for biofuel production		Rapeseed	Tonnage used for biofuels	biofuels	rapeseed_biofuels
-	Land used for the production of biofuels from oil crops		Oil crops	Land used for biofuels	biofuels	oilcrops_land
-	Land used for the production of biofuels from palm		Palm oil	Land used for biofuels	biofuels	palm_land
-	Land used for the production of biofuels from soybeans		Soybean	Land used for biofuels	biofuels	soybean_land
-	Land used for the production of biofuels from sunflower seeds		Sunflower seed	Land used for biofuels	biofuels	sunflower_land
-	Land used for the production of biofuels from rapeseed		Rapeseed	Land used for biofuels	biofuels	rapeseed_land
-	Share of cropland used for the production of oil crop biofuels		Oil crops	% of cropland used for biofuels	biofuels	oilcrops_biofuel_share_cropland
-	Share of cropland used for the production of palm oil biofuels		Palm oil	% of cropland used for biofuels	biofuels	palm_biofuel_share_cropland
-	Share of cropland used for the production of soybean biofuels		Soybean	% of cropland used for biofuels	biofuels	soybean_biofuel_share_cropland
-	Share of cropland used for the production of sunflower seed biofuels		Sunflower seed	% of cropland used for biofuels	biofuels	sunflower_biofuel_share_cropland
-	Share of cropland used for the production of rapeseed biofuels		Rapeseed	% of cropland used for biofuels	biofuels	rapeseed_biofuel_share_cropland
-	Land used for the production of biofuels		Total crops	Land used for biofuels	biofuels	total_land_biofuels
-	Share of cropland used for the production of biofuels		Total crops	% of cropland used for biofuels	biofuels	total_cropland_share_biofuels
-
+	Cereals used for biofuel production		Cereals	Tonnage used for biofuels	biofuels	cereal_biofuels	true				true	0		map
+	Maize used for biofuel production		Maize	Tonnage used for biofuels	biofuels	maize_biofuels	true				true	0		map
+	Rice used for biofuel production		Rice	Tonnage used for biofuels	biofuels	rice_biofuels	true				true	0		map
+	Wheat used for biofuel production		Wheat	Tonnage used for biofuels	biofuels	wheat_biofuels	true				true	0		map
+	Sorghum used for biofuel production		Sorghum	Tonnage used for biofuels	biofuels	sorghum_biofuels	true				true	0		map
+	Millet used for biofuel production		Millet	Tonnage used for biofuels	biofuels	millet_biofuels	true				true	0		map
+	Oats used for biofuel production		Oats	Tonnage used for biofuels	biofuels	oats_biofuels	true				true	0		map
+	Barley used for biofuel production		Barley	Tonnage used for biofuels	biofuels	barley_biofuels	true				true	0		map
+	Land used for the production of biofuels from cereals		Cereals	Land used for biofuels	biofuels	cereals_land	true				true	0		map
+	Land used for the production of biofuels from maize		Maize	Land used for biofuels	biofuels	maize_land	true				true	0		map
+	Land used for the production of biofuels from rice		Rice	Land used for biofuels	biofuels	rice_land	true				true	0		map
+	Land used for the production of biofuels from wheat		Wheat	Land used for biofuels	biofuels	wheat_land	true				true	0		map
+	Land used for the production of biofuels from sorghum		Sorghum	Land used for biofuels	biofuels	sorghum_land	true				true	0		map
+	Land used for the production of biofuels from millet		Millet	Land used for biofuels	biofuels	millet_land	true				true	0		map
+	Land used for the production of biofuels from oats		Oats	Land used for biofuels	biofuels	oats_land	true				true	0		map
+	Land used for the production of biofuels from barley		Barley	Land used for biofuels	biofuels	barley_land	true				true	0		map
+	Share of cropland used for the production of cereal biofuels		Cereals	% of cropland used for biofuels	biofuels	cereals_biofuel_share_cropland	true				true	0		map
+	Share of cropland used for the production of maize biofuels		Maize	% of cropland used for biofuels	biofuels	maize_biofuel_share_cropland	true				true	0		map
+	Share of cropland used for the production of rice biofuels		Rice	% of cropland used for biofuels	biofuels	rice_biofuel_share_cropland	true				true	0		map
+	Share of cropland used for the production of wheat biofuels		Wheat	% of cropland used for biofuels	biofuels	wheat_biofuel_share_cropland	true				true	0		map
+	Share of cropland used for the production of sorghum biofuels		Sorghum	% of cropland used for biofuels	biofuels	sorghum_biofuel_share_cropland	true				true	0		map
+	Share of cropland used for the production of millet biofuels		Millet	% of cropland used for biofuels	biofuels	millet_biofuel_share_cropland	true				true	0		map
+	Share of cropland used for the production of oat biofuels		Oats	% of cropland used for biofuels	biofuels	oat_biofuel_share_cropland	true				true	0		map
+	Share of cropland used for the production of barley biofuels		Barley	% of cropland used for biofuels	biofuels	barley_biofuel_share_cropland	true				true	0		map
+	Sugar crops used for biofuel production		Sugar crops	Tonnage used for biofuels	biofuels	sugarcrops_biofuels	true				true	0		map
+	Sugar cane used for biofuel production		Sugar cane	Tonnage used for biofuels	biofuels	sugarcane_biofuels	true				true	0		map
+	Sugar beet used for biofuel production		Sugar beet	Tonnage used for biofuels	biofuels	sugarbeet_biofuels	true				true	0		map
+	Land used for the production of biofuels from sugar crops		Sugar crops	Land used for biofuels	biofuels	sugarcrops_land	true				true	0		map
+	Land used for the production of biofuels from sugar cane		Sugar cane	Land used for biofuels	biofuels	sugarcane_land	true				true	0		map
+	Land used for the production of biofuels from sugar beet		Sugar beet	Land used for biofuels	biofuels	sugarbeet_land	true				true	0		map
+	Share of cropland used for the production of sugar crop biofuels		Sugar crops	% of cropland used for biofuels	biofuels	sugarcrops_biofuel_share_cropland	true				true	0		map
+	Share of cropland used for the production of sugar cane biofuels		Sugar cane	% of cropland used for biofuels	biofuels	sugarcane_biofuel_share_cropland	true				true	0		map
+	Share of cropland used for the production of sugar beet biofuels		Sugar beet	% of cropland used for biofuels	biofuels	sugarbeet_biofuel_share_cropland	true				true	0		map
+	Root crops used for biofuel production		Roots	Tonnage used for biofuels	biofuels	roots_biofuels	true				true	0		map
+	Cassava used for biofuel production		Cassava	Tonnage used for biofuels	biofuels	cassava_biofuels	true				true	0		map
+	Potatoes used for biofuel production		Potatoes	Tonnage used for biofuels	biofuels	potatoes_biofuels	true				true	0		map
+	Yams used for biofuel production		Yams	Tonnage used for biofuels	biofuels	yams_biofuels	true				true	0		map
+	Land used for the production of biofuels from root crops		Roots	Land used for biofuels	biofuels	roots_land	true				true	0		map
+	Land used for the production of biofuels from cassava		Cassava	Land used for biofuels	biofuels	cassava_land	true				true	0		map
+	Land used for the production of biofuels from potatoes		Potatoes	Land used for biofuels	biofuels	potatoes_land	true				true	0		map
+	Land used for the production of biofuels from yams		Yams	Land used for biofuels	biofuels	yams_land	true				true	0		map
+	Share of cropland used for the production of root crop biofuels		Roots	% of cropland used for biofuels	biofuels	roots_biofuel_share_cropland	true				true	0		map
+	Share of cropland used for the production of cassava biofuels		Cassava	% of cropland used for biofuels	biofuels	cassava_biofuel_share_cropland	true				true	0		map
+	Share of cropland used for the production of potato biofuels		Potatoes	% of cropland used for biofuels	biofuels	potatoes_biofuel_share_cropland	true				true	0		map
+	Share of cropland used for the production of yam biofuels		Yams	% of cropland used for biofuels	biofuels	yams_biofuel_share_cropland	true				true	0		map
+	Oil crops used for biofuel production		Oil crops	Tonnage used for biofuels	biofuels	oilcrops_biofuels	true				true	0		map
+	Palm oil used for biofuel production		Palm oil	Tonnage used for biofuels	biofuels	palm_biofuels	true				true	0		map
+	Soybeans used for biofuel production		Soybean	Tonnage used for biofuels	biofuels	soybean_biofuels	true				true	0		map
+	Sunflower seeds used for biofuel production		Sunflower seed	Tonnage used for biofuels	biofuels	sunflower_biofuels	true				true	0		map
+	Rapeseed used for biofuel production		Rapeseed	Tonnage used for biofuels	biofuels	rapeseed_biofuels	true				true	0		map
+	Land used for the production of biofuels from oil crops		Oil crops	Land used for biofuels	biofuels	oilcrops_land	true				true	0		map
+	Land used for the production of biofuels from palm		Palm oil	Land used for biofuels	biofuels	palm_land	true				true	0		map
+	Land used for the production of biofuels from soybeans		Soybean	Land used for biofuels	biofuels	soybean_land	true				true	0		map
+	Land used for the production of biofuels from sunflower seeds		Sunflower seed	Land used for biofuels	biofuels	sunflower_land	true				true	0		map
+	Land used for the production of biofuels from rapeseed		Rapeseed	Land used for biofuels	biofuels	rapeseed_land	true				true	0		map
+	Share of cropland used for the production of oil crop biofuels		Oil crops	% of cropland used for biofuels	biofuels	oilcrops_biofuel_share_cropland	true				true	0		map
+	Share of cropland used for the production of palm oil biofuels		Palm oil	% of cropland used for biofuels	biofuels	palm_biofuel_share_cropland	true				true	0		map
+	Share of cropland used for the production of soybean biofuels		Soybean	% of cropland used for biofuels	biofuels	soybean_biofuel_share_cropland	true				true	0		map
+	Share of cropland used for the production of sunflower seed biofuels		Sunflower seed	% of cropland used for biofuels	biofuels	sunflower_biofuel_share_cropland	true				true	0		map
+	Share of cropland used for the production of rapeseed biofuels		Rapeseed	% of cropland used for biofuels	biofuels	rapeseed_biofuel_share_cropland	true				true	0		map
+	Land used for the production of biofuels		Total crops	Land used for biofuels	biofuels	total_land_biofuels	true				true	0		map
+	Share of cropland used for the production of biofuels		Total crops	% of cropland used for biofuels	biofuels	total_cropland_share_biofuels	true				true	0		map
+											true	0		map
 columns	biofuels
 	slug	name	type	unit	shortUnit	transform	annotationsColumnSlug	notes	sourceName	sourceLink	dataPublishedBy	dataPublisherSource	retrievedDate	additionalInfo	tolerance	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleScheme
-	cereal_biofuels	Cereals for biofuels	NumberOrString	tonnes	t
-	maize_biofuels	Maize for biofuels	NumberOrString	tonnes	t
-	rice_biofuels	Rice for biofuels	NumberOrString	tonnes	t
-	wheat_biofuels	Wheat for biofuels	NumberOrString	tonnes	t
-	sorghum_biofuels	Sorghum for biofuels	NumberOrString	tonnes	t
-	millet_biofuels	Millet for biofuels	NumberOrString	tonnes	t
-	oats_biofuels	Oat for biofuels	NumberOrString	tonnes	t
-	barley_biofuels	Barley for biofuels	NumberOrString	tonnes	t
-	cereals_land	Land for cereal biofuels	NumberOrString	hectares	ha
-	maize_land	Land for cereal biofuels	NumberOrString	hectares	ha
-	rice_land	Land for cereal biofuels	NumberOrString	hectares	ha
-	wheat_land	Land for cereal biofuels	NumberOrString	hectares	ha
-	sorghum_land	Land for cereal biofuels	NumberOrString	hectares	ha
-	millet_land	Land for cereal biofuels	NumberOrString	hectares	ha
-	oats_land	Land for cereal biofuels	NumberOrString	hectares	ha
-	rye_land	Land for cereal biofuels	NumberOrString	hectares	ha
-	barley_land	Land for cereal biofuels	NumberOrString	hectares	ha
-	cereal_main_land		NumberOrString	hectares	ha
-	cereal_other_land		NumberOrString	hectares	ha
-	cereal_main_production		NumberOrString	tonnes	t
-	cereal_other_production		NumberOrString	tonnes	t
-	cereal_other_yield		NumberOrString
-	cereals_biofuel_share_cropland		Percentage	%	%
-	maize_biofuel_share_cropland		Percentage	%	%
-	rice_biofuel_share_cropland		Percentage	%	%
-	wheat_biofuel_share_cropland		Percentage	%	%
-	sorghum_biofuel_share_cropland		Percentage	%	%
-	millet_biofuel_share_cropland		Percentage	%	%
-	oats_biofuel_share_cropland		Percentage	%	%
-	rye_biofuel_share_cropland		Percentage	%	%
-	barley_biofuel_share_cropland		Percentage	%	%
-	sugarcane_land		NumberOrString	hectares	ha
-	sugarbeet_land		NumberOrString	hectares	ha
-	sugarcrops_land		NumberOrString	hectares	ha
-	sugarcane_biofuel_share_cropland		Percentage	%	%
-	sugarbeet_biofuel_share_cropland		Percentage	%	%
-	sugarcrops_biofuel_share_cropland		Percentage	%	%
-	cassava_biofuels		NumberOrString	tonnes	t
-	potatoes_biofuels		NumberOrString	tonnes	t
-	yams_biofuels		NumberOrString	tonnes	t
-	cassava_land		NumberOrString	hectares	ha
-	potatoes_land		NumberOrString	hectares	ha
-	yams_land		NumberOrString	hectares	ha
-	roots_land		NumberOrString	hectares	ha
-	cassava_biofuel_share_cropland		Percentage	%	%
-	potatoes_biofuel_share_cropland		Percentage	%	%
-	yams_biofuel_share_cropland		Percentage	%	%
-	roots_biofuel_share_cropland		Percentage	%	%
-	palm_biofuels		NumberOrString	tonnes	t
-	soybean_biofuels		NumberOrString	tonnes	t
-	sunflower_biofuels		NumberOrString	tonnes	t
-	rapeseed_biofuels		NumberOrString	tonnes	t
-	palm_land		NumberOrString
-	soybeans_land		NumberOrString
-	sunflower_land		NumberOrString
-	rapeseed_land		NumberOrString
-	oilcrops_land		NumberOrString
-	palm_biofuel_share_cropland		Percentage	%	%
-	soybean_biofuel_share_cropland		Percentage	%	%
-	sunflower_biofuel_share_cropland		Percentage	%	%
-	rapeseed_biofuel_share_cropland		Percentage	%	%
-	oilcrops_biofuel_share_cropland		Percentage	%	%
-	total_land_biofuels		NumberOrString	%	%
-	total_cropland_share_biofuels		Percentage	%	%
+	cereal_biofuels	Cereals for biofuels	Integer	tonnes	t				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	maize_biofuels	Maize for biofuels	Integer	tonnes	t				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	rice_biofuels	Rice for biofuels	Integer	tonnes	t				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	wheat_biofuels	Wheat for biofuels	Integer	tonnes	t				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	sorghum_biofuels	Sorghum for biofuels	Integer	tonnes	t				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	millet_biofuels	Millet for biofuels	Integer	tonnes	t				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	oats_biofuels	Oat for biofuels	Integer	tonnes	t				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	barley_biofuels	Barley for biofuels	Integer	tonnes	t				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	cereals_land	Land for cereal biofuels	Integer	hectares	ha				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	maize_land	Land for cereal biofuels	Integer	hectares	ha				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	rice_land	Land for cereal biofuels	Integer	hectares	ha				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	wheat_land	Land for cereal biofuels	Integer	hectares	ha				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	sorghum_land	Land for cereal biofuels	Integer	hectares	ha				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	millet_land	Land for cereal biofuels	Integer	hectares	ha				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	oats_land	Land for cereal biofuels	Integer	hectares	ha				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	rye_land	Land for cereal biofuels	Integer	hectares	ha				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	barley_land	Land for cereal biofuels	Integer	hectares	ha				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	cereal_main_land		Integer	hectares	ha				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	cereal_other_land		Integer	hectares	ha				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	cereal_main_production		Integer	tonnes	t				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	cereal_other_production		Integer	tonnes	t				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	cereal_other_yield		Integer						Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	cereals_biofuel_share_cropland		Percentage	%	%				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	maize_biofuel_share_cropland		Percentage	%	%				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	rice_biofuel_share_cropland		Percentage	%	%				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	wheat_biofuel_share_cropland		Percentage	%	%				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	sorghum_biofuel_share_cropland		Percentage	%	%				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	millet_biofuel_share_cropland		Percentage	%	%				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	oats_biofuel_share_cropland		Percentage	%	%				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	rye_biofuel_share_cropland		Percentage	%	%				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	barley_biofuel_share_cropland		Percentage	%	%				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	sugarcane_land		Integer	hectares	ha				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	sugarbeet_land		Integer	hectares	ha				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	sugarcrops_land		Integer	hectares	ha				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	sugarcane_biofuel_share_cropland		Percentage	%	%				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	sugarbeet_biofuel_share_cropland		Percentage	%	%				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	sugarcrops_biofuel_share_cropland		Percentage	%	%				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	cassava_biofuels		Integer	tonnes	t				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	potatoes_biofuels		Integer	tonnes	t				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	yams_biofuels		Integer	tonnes	t				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	cassava_land		Integer	hectares	ha				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	potatoes_land		Integer	hectares	ha				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	yams_land		Integer	hectares	ha				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	roots_land		Integer	hectares	ha				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	cassava_biofuel_share_cropland		Percentage	%	%				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	potatoes_biofuel_share_cropland		Percentage	%	%				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	yams_biofuel_share_cropland		Percentage	%	%				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	roots_biofuel_share_cropland		Percentage	%	%				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	palm_biofuels		Integer	tonnes	t				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	soybean_biofuels		Integer	tonnes	t				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	sunflower_biofuels		Integer	tonnes	t				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	rapeseed_biofuels		Integer	tonnes	t				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	palm_land		Integer	hectares	ha				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	soybeans_land		Integer	hectares	ha				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	sunflower_land		Integer	hectares	ha				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	rapeseed_land		Integer	hectares	ha				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	oilcrops_land		Integer	hectares	ha				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	palm_biofuel_share_cropland		Percentage	%	%				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	soybean_biofuel_share_cropland		Percentage	%	%				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	sunflower_biofuel_share_cropland		Percentage	%	%				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	rapeseed_biofuel_share_cropland		Percentage	%	%				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	oilcrops_biofuel_share_cropland		Percentage	%	%				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	total_land_biofuels		Integer	hectares	ha				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
+	total_cropland_share_biofuels		Percentage	%	%				Food and Agriculture Organization of the United Nations	https://www.fao.org/faostat/en/	Food and Agriculture Organization of the United Nations
