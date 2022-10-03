@@ -74,7 +74,7 @@ graphers
 	1738	Injuries	Fires	Age-standardized rate	IHME
 	6071	Injuries	Fires	Number of deaths	IHME
 	6072	Injuries	Fires	Death rate	IHME
-		Injuries	Fires		WHO (GHE)
+	6073	Injuries	Fires	Number of deaths	WHO (GHE)
 		Injuries	Fires
 	2016	Injuries	Natural disasters	Number of deaths	IHME
 	1622	Injuries	Natural disasters	Death rate	IHME
