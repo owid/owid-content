@@ -71,6 +71,8 @@ graphers
 	6055	Infectious diseases	Malaria	Number of deaths	WHO
 	1831	Infectious diseases	Tuberculosis	Death rate	IHME
 	3613	Infectious diseases	Tuberculosis	Number of deaths	IHME
+	6076	Infectious diseases	Diarrheal diseases	Number of deaths	IHME
+	1726	Infectious diseases	Diarrheal diseases	Age-standardized rate	IHME
 	6053	Injuries	Falls	Number of deaths	WHO
 	6054	Injuries	Falls	Death rate	WHO
 	1738	Injuries	Fires	Age-standardized rate	IHME
