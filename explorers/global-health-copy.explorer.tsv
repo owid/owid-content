@@ -49,6 +49,7 @@ graphers
 	1798	Deaths and DALYs	Total deaths	Rate	UN WPP
 	3625	Deaths and DALYs	Total deaths	Age-standardized rate	IHME
 	6067	Deaths and DALYs	Total deaths	Number	WHO (GHE)
+	6068	Deaths and DALYs	Total deaths	Rate	WHO (GHE)
 	6028	Deaths and DALYs	Total disease burden	Number	IHME
 	2198	Deaths and DALYs	Total disease burden	Age-standardized rate	IHME
 	6029	Deaths and DALYs	Total disease burden	Rate	IHME
