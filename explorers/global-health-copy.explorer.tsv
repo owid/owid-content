@@ -74,6 +74,8 @@ graphers
 	6076	Infectious diseases	Diarrheal diseases	Number of deaths	IHME
 	6077	Infectious diseases	Diarrheal diseases	Death rate	IHME
 	1726	Infectious diseases	Diarrheal diseases	Age-standardized rate	IHME
+	6078	Infectious diseases	Meningitis	Number of deaths	IHME
+	6079	Infectious diseases	Meningitis	Age-standardized rate	IHME
 	6053	Injuries	Falls	Number of deaths	WHO
 	6054	Injuries	Falls	Death rate	WHO
 	1738	Injuries	Fires	Age-standardized rate	IHME
