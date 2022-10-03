@@ -31,6 +31,16 @@ graphers
 	4580	Child health	Childhood wasting	Number of children	UNICEF/WHO
 	790	Child health	Children underweight	Share of children	UNICEF/WHO
 	3874	Child health	Exclusive breastfeeding rate	Share of infants	UNICEF
+	6027	Deaths and DALYs	Total deaths	Number	UN WPP
+	1798	Deaths and DALYs	Total deaths	Rate	UN WPP
+	3625	Deaths and DALYs	Total deaths	Age-standardized rate	IHME
+	6067	Deaths and DALYs	Total deaths	Number	WHO (GHE)
+	6068	Deaths and DALYs	Total deaths	Rate	WHO (GHE)
+	6028	Deaths and DALYs	Total disease burden	Number	IHME
+	2198	Deaths and DALYs	Total disease burden	Age-standardized rate	IHME
+	6029	Deaths and DALYs	Total disease burden	Rate	IHME
+	6069	Deaths and DALYs	Total disease burden	Number	WHO (GHE)
+
 	2968	Demographic change	Life expectancy at birth	Years	World Bank
 		Demographic change	Healthy life expectancy	Years	IHME
 	126	Demography	Life expectancy at age 10	Years	UN
@@ -45,14 +55,6 @@ graphers
 	3998	Health	Hospital beds per 1,000	Rate	WHO
 	4545	Health systems	Community health workers per 1,000	Rate	World Bank
 	5238	Health	Universal Health Coverage Index	Index	WHO
-	6027	Deaths and DALYs	Total deaths	Number	UN WPP
-	1798	Deaths and DALYs	Total deaths	Rate	UN WPP
-	3625	Deaths and DALYs	Total deaths	Age-standardized rate	IHME
-	6067	Deaths and DALYs	Total deaths	Number	WHO (GHE)
-	6068	Deaths and DALYs	Total deaths	Rate	WHO (GHE)
-	6028	Deaths and DALYs	Total disease burden	Number	IHME
-	2198	Deaths and DALYs	Total disease burden	Age-standardized rate	IHME
-	6029	Deaths and DALYs	Total disease burden	Rate	IHME
 	699	Infectious diseases	HIV/AIDS	Prevalence	UNAIDS
 	2286	Infectious diseases	HIV/AIDS	Prevalence	IHME
 	1828	Infectious diseases	HIV/AIDS	Death rate	IHME
