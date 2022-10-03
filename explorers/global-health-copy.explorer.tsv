@@ -56,8 +56,10 @@ graphers
 	4545	Health systems	Community health workers per 1,000	Rate	World Bank
 	5238	Health systems	Universal Health Coverage Index	Index	WHO
 	699	Infectious diseases	HIV/AIDS	Prevalence	UNAIDS
+	807	Infectious diseases	HIV/AIDS	Incidence	UNAIDS
 	2286	Infectious diseases	HIV/AIDS	Prevalence	IHME
-	1828	Infectious diseases	HIV/AIDS	Death rate	IHME
+	1828	Infectious diseases	HIV/AIDS	Age-standardized rate	IHME
+	6075	Infectious diseases	HIV/AIDS	Death rate	IHME
 	4576	Infectious diseases	HIV/AIDS	Number of deaths	UNAIDS
 	4575	Infectious diseases	HIV/AIDS	Number of deaths	IHME
 	2926	Infectious diseases	Malaria	New infections	IHME
