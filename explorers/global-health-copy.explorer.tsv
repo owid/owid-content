@@ -102,6 +102,10 @@ graphers
 	2285	Maternal health	HIV+ pregnant women receiving ARTs	Rate	UNAIDS
 	1375	Maternal health	Access to modern contraceptives	Rate	World Bank
 	4542	Maternal health	Postnatal health check	Rate	World Bank
+	1714	Non-communicable diseases	Cancer	Age-standardized rate	IHME
+	1572	Non-communicable diseases	Diabetes	Prevalence	International Diabetes Federation
+	1719	Non-communicable diseases	Alzheimer's	Age-standardized rate	IHME
+	6080	Non-communicable diseases	Parkinson's disease	Age-standardized rate	IHME
 	1469	Risk factors	Smoking	Number	IHME
 	1961	Risk factors	Smoking	Age-standardized rate	IHME
 	6030	Risk factors	Smoking	Rate	IHME
