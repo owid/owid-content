@@ -107,6 +107,7 @@ graphers
 	1719	Non-communicable diseases	Alzheimer's	Age-standardized rate	IHME
 	6080	Non-communicable diseases	Parkinson's disease	Age-standardized rate	IHME
 	6081	Non-communicable diseases	Diabetes	Age-standardized rate	IHME
+	1738	Non-communicable diseases	Strokes	Age-standardized rate	IHME
 	1469	Risk factors	Smoking	Number	IHME
 	1961	Risk factors	Smoking	Age-standardized rate	IHME
 	6030	Risk factors	Smoking	Rate	IHME
