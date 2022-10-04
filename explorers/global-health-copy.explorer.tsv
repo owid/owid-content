@@ -109,6 +109,7 @@ graphers
 	6081	Non-communicable diseases	Diabetes	Age-standardized rate	IHME
 	1738	Non-communicable diseases	Strokes	Age-standardized rate	IHME
 	1752	Non-communicable diseases	Chronic respiratory disease	Age-standardized rate	IHME
+	6084	Non-communicable diseases	Liver disease	Age-standardized rate	IHME
 	1469	Risk factors	Smoking	Number	IHME
 	1961	Risk factors	Smoking	Age-standardized rate	IHME
 	6030	Risk factors	Smoking	Rate	IHME
