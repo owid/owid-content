@@ -93,6 +93,7 @@ graphers
 	6085	Injuries	Homicides	Age-standardized rate	IHME
 	1741	Injuries	Suicides	Age-standardized rate	IHME
 	3789	Injuries	Suicides	Number of deaths	IHME
+	1729	Injuries	Drowning	Age-standardized rate	IHME
 	3483	Maternal health	Skilled attendant at delivery		IHME
 	66	Maternal health	Maternal mortality	Rate	World Bank
 	3482	Maternal health	Maternal mortality	Rate	IHME
