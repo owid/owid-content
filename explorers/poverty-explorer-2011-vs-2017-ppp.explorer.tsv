@@ -1,15 +1,14 @@
-explorerTitle	Poverty Data Explorer of World Bank data
-selection	Nigeria	Mozambique	Zambia	Bolivia	Kenya	Bangladesh	Bolivia	Georgia
+explorerTitle	Poverty Data Explorer of World Bank data: 2011 vs. 2017 PPPs
+selection	World
 explorerSubtitle	<i><a href="https://github.com/owid/notebooks/blob/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/PIP_data_public_download.zip?raw=true">Download this dataset</a></i>
-isPublished	true
-googleSheet	https://docs.google.com/spreadsheets/d/1bVOaDcnDoF0M_zK3uof0dIH-Z4OUDxqM7QO3B9jzRbk/edit#gid=424037824
-hasMapTab	true
-wpBlockId	52633
+isPublished	false
+googleSheet
+hasMapTab	false
+wpBlockId
 
 graphers
 	title	Metric Dropdown	Poverty line Dropdown	Household survey data type Dropdown	Show breaks between less comparable surveys Checkbox	tableSlug	ySlugs	subtitle	note	sourceDesc	relatedQuestionUrl	type	yAxisMin	facet	selectedFacetStrategy	hasMapTab	tab	mapTargetTime	defaultView
-	Poverty: Share of population living on less than $1 a day	Share in poverty	$1 a day	Show data from both income and expenditure surveys	false	inc_or_cons	headcount_ratio_100	 This data is adjusted for inflation and for differences in the cost of living between countries.	This data is expressed in international-$ at 2017 prices.	World Bank Poverty and Inequality Platform			0				map	2019
-	Share of population living in extreme poverty	Share in poverty	$2.15 a day	Show data from both income and expenditure surveys	false	inc_or_cons	headcount_ratio_215	Extreme poverty is defined as living below the International Poverty Line of $2.15 per day. This data is adjusted for inflation and for differences in the cost of living between countries.	This data is expressed in international-$ at 2017 prices.	World Bank Poverty and Inequality Platform			0				map	2019	true
+	Share of population living in extreme poverty: 2011 vs. 2017 PPPs	Share in poverty	Extreme poverty	Show data from both income and expenditure surveys	false	inc_or_cons_2017	headcount_ratio_215	Extreme poverty is defined as living below the International Poverty Line of $2.15 per day. This data is adjusted for inflation and for differences in the cost of living between countries.	This data is expressed in international-$ at 2017 prices.	World Bank Poverty and Inequality Platform			0					2019	true
 	Poverty: Share of population living on less than $3.65 a day	Share in poverty	$3.65 a day	Show data from both income and expenditure surveys	false	inc_or_cons	headcount_ratio_365	The poverty line of $3.65 per day is set by the World Bank to be representative of the definitions of poverty adopted in lower-middle-income countries This data is adjusted for inflation and for differences in the cost of living between countries.	This data is expressed in international-$ at 2017 prices.	World Bank Poverty and Inequality Platform			0				map	2019
 	Poverty: Share of population living on less than $6.85 a day	Share in poverty	$6.85 a day	Show data from both income and expenditure surveys	false	inc_or_cons	headcount_ratio_685	The poverty line of $6.85 per day is set by the World Bank to be representative of the definitions of poverty adopted in upper-middle-income countries This data is adjusted for inflation and for differences in the cost of living between countries.	This data is expressed in international-$ at 2017 prices.	World Bank Poverty and Inequality Platform			0				map	2019
 	Poverty: Share of population living on less than $10 a day	Share in poverty	$10 a day	Show data from both income and expenditure surveys	false	inc_or_cons	headcount_ratio_1000	 This data is adjusted for inflation and for differences in the cost of living between countries.	This data is expressed in international-$ at 2017 prices.	World Bank Poverty and Inequality Platform			0				map	2019
@@ -171,8 +170,8 @@ graphers
 	P90: The income of the richest tenth	P90 (richest tenth)		Income surveys only	true	inc_only_decile9_thr	consumption_spell_1 consumption_spell_2 consumption_spell_3 consumption_spell_4 consumption_spell_5 consumption_spell_6 income_spell_1 income_spell_2 income_spell_3 income_spell_4 income_spell_5 income_spell_6 income_spell_7	P90 is the level of income per day above which 10% of the population falls. The chart shows breaks in the comparability of the underlying household survey data over time within each country individually.	This data is adjusted for inflation and for differences in the cost of living between countries. It is expressed in international-$ at 2017 prices.	World Bank Poverty and Inequality Platform			0	entity	entity	false
 	P90: The expenditure of the richest tenth	P90 (richest tenth)		Expenditure surveys only	true	cons_only_decile9_thr	consumption_spell_1 consumption_spell_2 consumption_spell_3 consumption_spell_4 consumption_spell_5 consumption_spell_6 income_spell_1 income_spell_2 income_spell_3 income_spell_4 income_spell_5 income_spell_6 income_spell_7	P90 is the level of expenditure per day above which 10% of the population falls. The chart shows breaks in the comparability of the underlying household survey data over time within each country individually.	This data is adjusted for inflation and for differences in the cost of living between countries. It is expressed in international-$ at 2017 prices.	World Bank Poverty and Inequality Platform			0	entity	entity	false
 
-table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/inc_or_cons/poverty_inc_or_cons.csv	inc_or_cons
-columns	inc_or_cons
+table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/inc_or_cons/poverty_inc_or_cons.csv	inc_or_cons_2017
+columns	inc_or_cons_2017
 
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	retrievedDate	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Below $1 a day	headcount_ratio_100	World Bank Poverty and Inequality Platform	% of population living in households with an income or expenditure per person below $1 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5		Numeric	0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
@@ -201,6 +200,12 @@ columns	inc_or_cons
 	Median income or expenditure per day	median	World Bank Poverty and Inequality Platform	The level of income or expenditure per day below which half of the population live.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	international-$ at 2017 prices	$	5		Numeric	0	1;2;5;10;20;50;50.0001	true	BuGn
 	P10	decile1_thr	World Bank Poverty and Inequality Platform	The level of income or expenditure per day below which 10% of the population falls.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	international-$ at 2017 prices	$	5		Numeric	0	1;2;5;10;20;20.0001	true	Greens
 	P90	decile9_thr	World Bank Poverty and Inequality Platform	The level of income or expenditure per day above which 10% of the population falls.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	international-$ at 2017 prices	$	5		Numeric	0	5;10;20;50;100;100.0001	true	Blues
+
+table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2011/final/OWID_internal_upload/explorer_database/inc_or_cons/poverty_inc_or_cons.csv	inc_or_cons_2011
+columns	inc_or_cons_2011
+
+	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	retrievedDate	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
+	Below $1.90 a day	headcount_ratio_190	World Bank Poverty and Inequality Platform	% of population living in households with an income or expenditure per person below $1.90 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5		Numeric	0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/inc_only/poverty_inc_only.csv	inc_only
 columns	inc_only
