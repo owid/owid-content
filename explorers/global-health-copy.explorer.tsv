@@ -30,6 +30,7 @@ graphers
 	4581	Child health	Childhood wasting	Number of children	IHME
 	4580	Child health	Childhood wasting	Number of children	UNICEF/WHO
 	790	Child health	Children underweight	Share of children	UNICEF/WHO
+	6083	Child health	Children underweight	Number of children	UNICEF/WHO
 	3874	Child health	Exclusive breastfeeding rate	Share of infants	UNICEF
 	6027	Deaths and DALYs	Total deaths	Number	UN WPP
 	1798	Deaths and DALYs	Total deaths	Rate	UN WPP
@@ -42,7 +43,6 @@ graphers
 	6069	Deaths and DALYs	Total disease burden	Number	WHO (GHE)
 	6070	Deaths and DALYs	Total disease burden	Rate	WHO (GHE)
 	2968	Demographic change	Life expectancy at birth	Years	World Bank
-		Demographic change	Healthy life expectancy	Years	IHME
 	126	Demographic change	Life expectancy at age 10	Years	UN
 	6026	Demographic change	Healthy life expectancy	Years	WHO
 		Health systems	Government expenditure on health
