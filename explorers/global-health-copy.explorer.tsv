@@ -99,6 +99,8 @@ graphers
 	6086	Injuries	Poisoning	Number of deaths	IHME
 	2036	Injuries	Alcohol use disorders	Age-standardized rate	IHME
 	2035	Injuries	Alcohol use disorders	Number of deaths	IHME
+	2156	Injuries	Drug use disorders	Age-standardized rate	IHME
+	2155	Injuries	Drug use disorders	Number of deaths	IHME
 	3483	Maternal health	Skilled attendant at delivery		IHME
 	66	Maternal health	Maternal mortality	Rate	World Bank
 	3482	Maternal health	Maternal mortality	Rate	IHME
