@@ -101,6 +101,7 @@ graphers
 	6085	Injuries	Homicides	Age-standardized rate	IHME
 	2016	Injuries	Natural disasters	Number of deaths	IHME
 	1622	Injuries	Natural disasters	Death rate	IHME
+	6107	Injuries	Natural disasters	Age-standardized rate	IHME
 	6065	Injuries	Natural disasters	Death rate	WHO
 	6066	Injuries	Natural disasters	Number of deaths	WHO
 	6086	Injuries	Poisoning	Number of deaths	IHME
