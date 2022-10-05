@@ -91,6 +91,9 @@ graphers
 	2155	Injuries	Drug use disorders	Number of deaths	IHME
 	6053	Injuries	Falls	Number of deaths	WHO
 	6054	Injuries	Falls	Death rate	WHO
+	6110	Injuries	Falls	Age-standardized rate	IHME
+	6111	Injuries	Falls	Number of deaths	IHME
+	6112	Injuries	Falls	Death rate	IHME
 	1738	Injuries	Fires	Age-standardized rate	IHME
 	6071	Injuries	Fires	Number of deaths	IHME
 	6072	Injuries	Fires	Death rate	IHME
