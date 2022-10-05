@@ -121,8 +121,8 @@ graphers
 	6087	Non-communicable diseases	Cardiovascular disease	Death rate	IHME
 	1755	Non-communicable diseases	Cardiovascular disease	Age-standardized rate	IHME
 	6088	Non-communicable diseases	Cardiovascular disease	Number of deaths	IHME
-	1752	Non-communicable diseases	Non-communicable diseases	Age-standardized rate	IHME
-	6089	Non-communicable diseases	Non-communicable diseases	Death rate	IHME
+	1752	Non-communicable diseases	Chronic respiratory disease	Age-standardized rate	IHME
+	6089	Non-communicable diseases	Chronic respiratory disease	Death rate	IHME
 	1572	Non-communicable diseases	Diabetes	Prevalence	International Diabetes Federation
 	6081	Non-communicable diseases	Diabetes	Age-standardized rate	IHME
 	6084	Non-communicable diseases	Liver disease	Age-standardized rate	IHME
