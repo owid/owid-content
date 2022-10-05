@@ -131,6 +131,7 @@ graphers
 	6084	Non-communicable diseases	Liver disease	Age-standardized rate	IHME
 	6091	Non-communicable diseases	Liver disease	Number of deaths	IHME
 	6080	Non-communicable diseases	Parkinson's disease	Age-standardized rate	IHME
+	6094	Non-communicable diseases	Parkinson's disease	Number of deaths	IHME
 	1738	Non-communicable diseases	Strokes	Age-standardized rate	IHME
 	3764	Risk factors	Alcohol use	Age-standardized rate	IHME
 	6036	Risk factors	Alcohol use	Number	IHME
