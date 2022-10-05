@@ -78,6 +78,7 @@ graphers
 	1726	Infectious diseases	Diarrheal diseases	Age-standardized rate	IHME
 	6078	Infectious diseases	Meningitis	Age-standardized rate	IHME
 	6079	Infectious diseases	Meningitis	Number of deaths	IHME
+	6101	Infectious diseases	Meningitis	Death rate	IHME
 	2036	Injuries	Alcohol use disorders	Age-standardized rate	IHME
 	2035	Injuries	Alcohol use disorders	Number of deaths	IHME
 	2847	Injuries	Conflict and terrorism	Number of deaths	IHME
