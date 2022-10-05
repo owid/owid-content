@@ -57,6 +57,9 @@ graphers
 	3998	Health systems	Hospital beds per 1,000	Rate	WHO
 	4545	Health systems	Community health workers per 1,000	Rate	World Bank
 	5238	Health systems	Universal Health Coverage Index	Index	WHO
+	6076	Infectious diseases	Diarrheal diseases	Number of deaths	IHME
+	6077	Infectious diseases	Diarrheal diseases	Death rate	IHME
+	1726	Infectious diseases	Diarrheal diseases	Age-standardized rate	IHME
 	699	Infectious diseases	HIV/AIDS	Prevalence	UNAIDS
 	807	Infectious diseases	HIV/AIDS	Incidence	UNAIDS
 	2286	Infectious diseases	HIV/AIDS	Prevalence	IHME
@@ -71,14 +74,11 @@ graphers
 	6042	Infectious diseases	Malaria	Death rate	WHO
 	4577	Infectious diseases	Malaria	Number of deaths	IHME
 	6055	Infectious diseases	Malaria	Number of deaths	WHO
-	1831	Infectious diseases	Tuberculosis	Death rate	IHME
-	3613	Infectious diseases	Tuberculosis	Number of deaths	IHME
-	6076	Infectious diseases	Diarrheal diseases	Number of deaths	IHME
-	6077	Infectious diseases	Diarrheal diseases	Death rate	IHME
-	1726	Infectious diseases	Diarrheal diseases	Age-standardized rate	IHME
 	6078	Infectious diseases	Meningitis	Age-standardized rate	IHME
 	6079	Infectious diseases	Meningitis	Number of deaths	IHME
 	6101	Infectious diseases	Meningitis	Death rate	IHME
+	1831	Infectious diseases	Tuberculosis	Death rate	IHME
+	3613	Infectious diseases	Tuberculosis	Number of deaths	IHME
 	2036	Injuries	Alcohol use disorders	Age-standardized rate	IHME
 	2035	Injuries	Alcohol use disorders	Number of deaths	IHME
 	2847	Injuries	Conflict and terrorism	Number of deaths	IHME
