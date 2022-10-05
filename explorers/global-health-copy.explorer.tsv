@@ -106,6 +106,7 @@ graphers
 	6066	Injuries	Natural disasters	Number of deaths	WHO
 	6086	Injuries	Poisoning	Number of deaths	IHME
 	6108	Injuries	Poisoning	Age-standardized rate	IHME
+	6109	Injuries	Poisoning	Death rate	IHME
 	1584	Injuries	Road accidents	Age-standardized rate	IHME
 	6095	Injuries	Road accidents	Death rate	IHME
 	1585	Injuries	Road accidents	Number of deaths	IHME
