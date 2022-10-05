@@ -1,5 +1,5 @@
 explorerTitle	Poverty Data Explorer of World Bank data: 2011 vs. 2017 prices
-selection	World
+selection	Nigeria	Mozambique	Zambia	Bolivia	Kenya	Bangladesh	Bolivia	Georgia	World
 explorerSubtitle	<i><a href="https://github.com/owid/notebooks/blob/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/PIP_data_public_download.zip?raw=true">Download this dataset</a></i>
 isPublished	false
 googleSheet
