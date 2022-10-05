@@ -88,6 +88,8 @@ graphers
 	6065	Injuries	Natural disasters	Death rate	WHO
 	6066	Injuries	Natural disasters	Number of deaths	WHO
 	1584	Injuries	Road accidents	Age-standardized rate	IHME
+	6095	Injuries	Road accidents	Death rate	IHME
+	1585	Injuries	Road accidents	Number of deaths	IHME
 	2695	Injuries	Homicides	Death rate	IHME
 	1833	Injuries	Homicides	Number of deaths	IHME
 	6085	Injuries	Homicides	Age-standardized rate	IHME
