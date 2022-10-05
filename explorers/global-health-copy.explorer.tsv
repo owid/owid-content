@@ -125,7 +125,8 @@ graphers
 	6089	Non-communicable diseases	Chronic respiratory disease	Death rate	IHME
 	6090	Non-communicable diseases	Chronic respiratory disease	Number of deaths	IHME
 	1572	Non-communicable diseases	Diabetes	Prevalence	International Diabetes Federation
-	6081	Non-communicable diseases	Diabetes	Age-standardized rate	IHME
+	6081	Non-communicable diseases	Diabetes	Number of deaths	IHME
+	6092	Non-communicable diseases	Diabetes	Age-standardized rate	IHME
 	6084	Non-communicable diseases	Liver disease	Age-standardized rate	IHME
 	6091	Non-communicable diseases	Liver disease	Number of deaths	IHME
 	6080	Non-communicable diseases	Parkinson's disease	Age-standardized rate	IHME
