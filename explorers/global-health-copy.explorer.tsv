@@ -76,6 +76,13 @@ graphers
 	1726	Infectious diseases	Diarrheal diseases	Age-standardized rate	IHME
 	6078	Infectious diseases	Meningitis	Age-standardized rate	IHME
 	6079	Infectious diseases	Meningitis	Number of deaths	IHME
+	2036	Injuries	Alcohol use disorders	Age-standardized rate	IHME
+	2035	Injuries	Alcohol use disorders	Number of deaths	IHME
+	2847	Injuries	Conflict and terrorism	Number of deaths	IHME
+	1626	Injuries	Conflict and terrorism	Death rate	IHME
+	1729	Injuries	Drowning	Age-standardized rate	IHME
+	2156	Injuries	Drug use disorders	Age-standardized rate	IHME
+	2155	Injuries	Drug use disorders	Number of deaths	IHME
 	6053	Injuries	Falls	Number of deaths	WHO
 	6054	Injuries	Falls	Death rate	WHO
 	1738	Injuries	Fires	Age-standardized rate	IHME
@@ -83,27 +90,20 @@ graphers
 	6072	Injuries	Fires	Death rate	IHME
 	6073	Injuries	Fires	Number of deaths	WHO (GHE)
 	6074	Injuries	Fires	Death rate	WHO (GHE)
+	2695	Injuries	Homicides	Death rate	IHME
+	1833	Injuries	Homicides	Number of deaths	IHME
+	6085	Injuries	Homicides	Age-standardized rate	IHME
 	2016	Injuries	Natural disasters	Number of deaths	IHME
 	1622	Injuries	Natural disasters	Death rate	IHME
 	6065	Injuries	Natural disasters	Death rate	WHO
 	6066	Injuries	Natural disasters	Number of deaths	WHO
+	6086	Injuries	Poisoning	Number of deaths	IHME
 	1584	Injuries	Road accidents	Age-standardized rate	IHME
 	6095	Injuries	Road accidents	Death rate	IHME
 	1585	Injuries	Road accidents	Number of deaths	IHME
-	2695	Injuries	Homicides	Death rate	IHME
-	1833	Injuries	Homicides	Number of deaths	IHME
-	6085	Injuries	Homicides	Age-standardized rate	IHME
 	1741	Injuries	Suicides	Age-standardized rate	IHME
 	3789	Injuries	Suicides	Number of deaths	IHME
 	6096	Injuries	Suicides	Death rate	IHME
-	1729	Injuries	Drowning	Age-standardized rate	IHME
-	2847	Injuries	Conflict and terrorism	Number of deaths	IHME
-	1626	Injuries	Conflict and terrorism	Death rate	IHME
-	6086	Injuries	Poisoning	Number of deaths	IHME
-	2036	Injuries	Alcohol use disorders	Age-standardized rate	IHME
-	2035	Injuries	Alcohol use disorders	Number of deaths	IHME
-	2156	Injuries	Drug use disorders	Age-standardized rate	IHME
-	2155	Injuries	Drug use disorders	Number of deaths	IHME
 	3483	Maternal health	Skilled attendant at delivery		IHME
 	66	Maternal health	Maternal mortality	Rate	World Bank
 	3482	Maternal health	Maternal mortality	Rate	IHME
