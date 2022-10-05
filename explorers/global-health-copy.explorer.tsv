@@ -117,6 +117,7 @@ graphers
 	1375	Maternal health	Access to modern contraceptives	Rate	World Bank
 	4542	Maternal health	Postnatal health check	Rate	World Bank
 	1719	Non-communicable diseases	Alzheimer's	Age-standardized rate	IHME
+	6093	Non-communicable diseases	Alzheimer's	Number of deaths	IHME
 	1714	Non-communicable diseases	Cancer	Age-standardized rate	IHME
 	1755	Non-communicable diseases	Cardiovascular disease	Age-standardized rate	IHME
 	6087	Non-communicable diseases	Cardiovascular disease	Death rate	IHME
