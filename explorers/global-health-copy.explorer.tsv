@@ -126,6 +126,7 @@ graphers
 	4542	Maternal health	Postnatal health check	Rate	World Bank
 	1719	Non-communicable diseases	Alzheimer's	Age-standardized rate	IHME
 	6093	Non-communicable diseases	Alzheimer's	Number of deaths	IHME
+	6104	Non-communicable diseases	Alzheimer's	Death rate	IHME
 	1714	Non-communicable diseases	Cancer	Age-standardized rate	IHME
 	1755	Non-communicable diseases	Cardiovascular disease	Age-standardized rate	IHME
 	6087	Non-communicable diseases	Cardiovascular disease	Death rate	IHME
@@ -136,6 +137,7 @@ graphers
 	1572	Non-communicable diseases	Diabetes	Prevalence	International Diabetes Federation
 	6081	Non-communicable diseases	Diabetes	Age-standardized rate	IHME
 	6092	Non-communicable diseases	Diabetes	Number of deaths	IHME
+	6103	Non-communicable diseases	Diabetes	Death rate	IHME
 	6084	Non-communicable diseases	Liver disease	Age-standardized rate	IHME
 	6091	Non-communicable diseases	Liver disease	Number of deaths	IHME
 	6101	Non-communicable diseases	Liver disease	Death rate	IHME
