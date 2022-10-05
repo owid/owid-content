@@ -32,13 +32,13 @@ graphers
 	790	Child health	Children underweight	Share of children	UNICEF/WHO
 	6083	Child health	Children underweight	Number of children	UNICEF/WHO
 	3874	Child health	Exclusive breastfeeding rate	Share of infants	UNICEF
+	3625	Deaths and DALYs	Total deaths	Age-standardized rate	IHME
 	6027	Deaths and DALYs	Total deaths	Number	UN WPP
 	1798	Deaths and DALYs	Total deaths	Rate	UN WPP
-	3625	Deaths and DALYs	Total deaths	Age-standardized rate	IHME
 	6067	Deaths and DALYs	Total deaths	Number	WHO (GHE)
 	6068	Deaths and DALYs	Total deaths	Rate	WHO (GHE)
-	6028	Deaths and DALYs	Total disease burden	Number	IHME
 	2198	Deaths and DALYs	Total disease burden	Age-standardized rate	IHME
+	6028	Deaths and DALYs	Total disease burden	Number	IHME
 	6029	Deaths and DALYs	Total disease burden	Rate	IHME
 	6069	Deaths and DALYs	Total disease burden	Number	WHO (GHE)
 	6070	Deaths and DALYs	Total disease burden	Rate	WHO (GHE)
