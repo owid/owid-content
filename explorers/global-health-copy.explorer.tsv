@@ -116,38 +116,38 @@ graphers
 	2285	Maternal health	HIV+ pregnant women receiving ARTs	Rate	UNAIDS
 	1375	Maternal health	Access to modern contraceptives	Rate	World Bank
 	4542	Maternal health	Postnatal health check	Rate	World Bank
-	1714	Non-communicable diseases	Cancer	Age-standardized rate	IHME
-	1572	Non-communicable diseases	Diabetes	Prevalence	International Diabetes Federation
 	1719	Non-communicable diseases	Alzheimer's	Age-standardized rate	IHME
-	6080	Non-communicable diseases	Parkinson's disease	Age-standardized rate	IHME
-	6081	Non-communicable diseases	Diabetes	Age-standardized rate	IHME
-	1738	Non-communicable diseases	Strokes	Age-standardized rate	IHME
-	1752	Non-communicable diseases	Chronic respiratory disease	Age-standardized rate	IHME
-	6084	Non-communicable diseases	Liver disease	Age-standardized rate	IHME
+	1714	Non-communicable diseases	Cancer	Age-standardized rate	IHME
 	6087	Non-communicable diseases	Cardiovascular disease	Death rate	IHME
 	1755	Non-communicable diseases	Cardiovascular disease	Age-standardized rate	IHME
 	6088	Non-communicable diseases	Cardiovascular disease	Number of deaths	IHME
-	1469	Risk factors	Smoking	Number	IHME
-	1961	Risk factors	Smoking	Age-standardized rate	IHME
-	6030	Risk factors	Smoking	Rate	IHME
-	6031	Risk factors	Secondhand smoke	Number	IHME
-	3812	Risk factors	Obesity	Age-standardized rate	IHME
-	6032	Risk factors	Obesity	Number	IHME
-	3895	Risk factors	Unsafe water	Age-standardized rate	IHME
-	6033	Risk factors	Unsafe water	Number	IHME
-	1959	Risk factors	Unsafe sanitation	Age-standardized rate	IHME
-	6034	Risk factors	Unsafe sanitation	Number	IHME
-	5067	Risk factors	No access to hand-washing facilities	Rate	IHME
-	6035	Risk factors	No access to hand-washing facilities	Number	IHME
+	1752	Non-communicable diseases	Chronic respiratory disease	Age-standardized rate	IHME
+	1572	Non-communicable diseases	Diabetes	Prevalence	International Diabetes Federation
+	6081	Non-communicable diseases	Diabetes	Age-standardized rate	IHME
+	6084	Non-communicable diseases	Liver disease	Age-standardized rate	IHME
+	6080	Non-communicable diseases	Parkinson's disease	Age-standardized rate	IHME
+	1738	Non-communicable diseases	Strokes	Age-standardized rate	IHME
 	3764	Risk factors	Alcohol use	Age-standardized rate	IHME
 	6036	Risk factors	Alcohol use	Number	IHME
 	6037	Risk factors	Drug use	Number	IHME
+	6039	Risk factors	High blood pressure	Number	IHME
+	6040	Risk factors	High blood sugar	Number	IHME
 	1457	Risk factors	Indoor air pollution	Number	IHME
 	540	Risk factors	Indoor air pollution	Age-standardized rate	IHME
 	6038	Risk factors	Low physical activity	Number	IHME
-	6039	Risk factors	High blood pressure	Number	IHME
-	6040	Risk factors	High blood sugar	Number	IHME
+	5067	Risk factors	No access to hand-washing facilities	Rate	IHME
+	6035	Risk factors	No access to hand-washing facilities	Number	IHME
+	3812	Risk factors	Obesity	Age-standardized rate	IHME
+	6032	Risk factors	Obesity	Number	IHME
+	6031	Risk factors	Secondhand smoke	Number	IHME
+	1469	Risk factors	Smoking	Number	IHME
+	1961	Risk factors	Smoking	Age-standardized rate	IHME
+	6030	Risk factors	Smoking	Rate	IHME
+	1959	Risk factors	Unsafe sanitation	Age-standardized rate	IHME
+	6034	Risk factors	Unsafe sanitation	Number	IHME
 	6041	Risk factors	Unsafe sex	Number	IHME
+	3895	Risk factors	Unsafe water	Age-standardized rate	IHME
+	6033	Risk factors	Unsafe water	Number	IHME
 	5256	Vaccination	DTP3 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
 	4563	Vaccination	DTP3 coverage	Number of children not vaccinated	UNICEF/WHO
 	1546	Vaccination	HepB3 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
