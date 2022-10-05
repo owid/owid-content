@@ -166,6 +166,7 @@ graphers
 	5067	Risk factors	No access to hand-washing facilities	Rate	IHME
 	6035	Risk factors	No access to hand-washing facilities	Number	IHME
 	3812	Risk factors	Obesity	Age-standardized rate	IHME
+	6118	Risk factors	Obesity	Rate	IHME
 	6032	Risk factors	Obesity	Number	IHME
 	6031	Risk factors	Secondhand smoke	Number	IHME
 	6116	Risk factors	Secondhand smoke	Age-standardized rate	IHME
@@ -178,6 +179,7 @@ graphers
 	6041	Risk factors	Unsafe sex	Number	IHME
 	3895	Risk factors	Unsafe water	Age-standardized rate	IHME
 	6033	Risk factors	Unsafe water	Number	IHME
+	6119	Risk factors	Unsafe water	Rate	IHME
 	5256	Vaccination	DTP3 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
 	4563	Vaccination	DTP3 coverage	Number of children not vaccinated	UNICEF/WHO
 	1546	Vaccination	HepB3 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
