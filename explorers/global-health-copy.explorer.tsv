@@ -91,6 +91,7 @@ graphers
 	6098	Injuries	Drowning	Number of deaths	IHME
 	2156	Injuries	Drug use disorders	Age-standardized rate	IHME
 	2155	Injuries	Drug use disorders	Number of deaths	IHME
+	6115	Injuries	Drug use disorders	Death rate	IHME
 	6053	Injuries	Falls	Number of deaths	WHO
 	6054	Injuries	Falls	Death rate	WHO
 	6110	Injuries	Falls	Age-standardized rate	IHME
