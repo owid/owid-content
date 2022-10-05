@@ -83,6 +83,7 @@ graphers
 	2035	Injuries	Alcohol use disorders	Number of deaths	IHME
 	2847	Injuries	Conflict and terrorism	Number of deaths	IHME
 	1626	Injuries	Conflict and terrorism	Death rate	IHME
+	6106	Injuries	Conflict and terrorism	Age-standardized rate	IHME
 	1729	Injuries	Drowning	Age-standardized rate	IHME
 	6097	Injuries	Drowning	Death rate	IHME
 	6098	Injuries	Drowning	Number of deaths	IHME
