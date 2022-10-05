@@ -74,8 +74,8 @@ graphers
 	6076	Infectious diseases	Diarrheal diseases	Number of deaths	IHME
 	6077	Infectious diseases	Diarrheal diseases	Death rate	IHME
 	1726	Infectious diseases	Diarrheal diseases	Age-standardized rate	IHME
-	6078	Infectious diseases	Meningitis	Number of deaths	IHME
-	6079	Infectious diseases	Meningitis	Age-standardized rate	IHME
+	6078	Infectious diseases	Meningitis	Age-standardized rate	IHME
+	6079	Infectious diseases	Meningitis	Number of deaths	IHME
 	6053	Injuries	Falls	Number of deaths	WHO
 	6054	Injuries	Falls	Death rate	WHO
 	1738	Injuries	Fires	Age-standardized rate	IHME
@@ -124,6 +124,8 @@ graphers
 	1738	Non-communicable diseases	Strokes	Age-standardized rate	IHME
 	1752	Non-communicable diseases	Chronic respiratory disease	Age-standardized rate	IHME
 	6084	Non-communicable diseases	Liver disease	Age-standardized rate	IHME
+	6087	Non-communicable diseases	Cardiovascular disease	Death rate	IHME
+	1755	Non-communicable diseases	Cardiovascular disease	Age-standardized rate	IHME
 	1469	Risk factors	Smoking	Number	IHME
 	1961	Risk factors	Smoking	Age-standardized rate	IHME
 	6030	Risk factors	Smoking	Rate	IHME
