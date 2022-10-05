@@ -168,6 +168,8 @@ graphers
 	3812	Risk factors	Obesity	Age-standardized rate	IHME
 	6032	Risk factors	Obesity	Number	IHME
 	6031	Risk factors	Secondhand smoke	Number	IHME
+	6116	Risk factors	Secondhand smoke	Age-standardized rate	IHME
+	6117	Risk factors	Secondhand smoke	Rate	IHME
 	1469	Risk factors	Smoking	Number	IHME
 	1961	Risk factors	Smoking	Age-standardized rate	IHME
 	6030	Risk factors	Smoking	Rate	IHME
