@@ -3,24 +3,24 @@ isPublished	false
 selection	India	China	South Africa	Brazil	United States	United Kingdom
 graphers
 	grapherId	Category Dropdown	Indicator Dropdown	Rate or Total Number Dropdown	Source Dropdown
-	677	Child health	Child mortality	Rate	IHME
-	712	Child health	Child mortality	Rate	UN IGME
-	952	Child health	Child mortality	Rate	UN WPP
-	421	Child health	Child mortality	Number of deaths	UN IGME
 	3772	Child health	Child mortality	Number of deaths	IHME
+	677	Child health	Child mortality	Rate	IHME
+	421	Child health	Child mortality	Number of deaths	UN IGME
+	712	Child health	Child mortality	Rate	UN IGME
 	6004	Child health	Child mortality	Number of deaths	UN WPP
-	3798	Child health	Infant mortality	Rate	IHME
-	389	Child health	Infant mortality	Rate	UN IGME
-	5942	Child health	Infant mortality	Rate	UN WPP
+	952	Child health	Child mortality	Rate	UN WPP
 	3401	Child health	Infant mortality	Number of deaths	UN IGME
+	389	Child health	Infant mortality	Rate	UN IGME
 	3969	Child health	Infant mortality	Number of deaths	IHME
+	3798	Child health	Infant mortality	Rate	IHME
 	6005	Child health	Infant mortality	Number of deaths	UN WPP
-	3485	Child health	Neonatal mortality	Rate	IHME
-	714	Child health	Neonatal mortality	Rate	UN IGME
+	5942	Child health	Infant mortality	Rate	UN WPP
 	3799	Child health	Neonatal mortality	Number of deaths	IHME
+	3485	Child health	Neonatal mortality	Rate	IHME
 	3968	Child health	Neonatal mortality	Number of deaths	UN IGME
-	3475	Child health	Youth mortality	Rate	UN IGME
+	714	Child health	Neonatal mortality	Rate	UN IGME
 		Child health	Youth mortality	Number of deaths
+	3475	Child health	Youth mortality	Rate	UN IGME
 	2836	Child health	Childhood stunting	Share of children	IHME
 	703	Child health	Childhood stunting	Share of children	UNICEF/WHO
 	4579	Child health	Childhood stunting	Number of children	IHME
@@ -118,8 +118,8 @@ graphers
 	4542	Maternal health	Postnatal health check	Rate	World Bank
 	1719	Non-communicable diseases	Alzheimer's	Age-standardized rate	IHME
 	1714	Non-communicable diseases	Cancer	Age-standardized rate	IHME
-	6087	Non-communicable diseases	Cardiovascular disease	Death rate	IHME
 	1755	Non-communicable diseases	Cardiovascular disease	Age-standardized rate	IHME
+	6087	Non-communicable diseases	Cardiovascular disease	Death rate	IHME
 	6088	Non-communicable diseases	Cardiovascular disease	Number of deaths	IHME
 	1752	Non-communicable diseases	Chronic respiratory disease	Age-standardized rate	IHME
 	6089	Non-communicable diseases	Chronic respiratory disease	Death rate	IHME
