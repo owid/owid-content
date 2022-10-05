@@ -95,6 +95,7 @@ graphers
 	6085	Injuries	Homicides	Age-standardized rate	IHME
 	1741	Injuries	Suicides	Age-standardized rate	IHME
 	3789	Injuries	Suicides	Number of deaths	IHME
+	6096	Injuries	Suicides	Death rate	IHME
 	1729	Injuries	Drowning	Age-standardized rate	IHME
 	2847	Injuries	Conflict and terrorism	Number of deaths	IHME
 	1626	Injuries	Conflict and terrorism	Death rate	IHME
