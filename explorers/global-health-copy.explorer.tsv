@@ -159,10 +159,13 @@ graphers
 	6036	Risk factors	Alcohol use	Number	IHME
 	6122	Risk factors	Alcohol use	Rate	IHME
 	6037	Risk factors	Drug use	Number	IHME
+	6123	Risk factors	Drug use	Age-standardized rate	IHME
+	6124	Risk factors	Drug use	Rate	IHME
 	6039	Risk factors	High blood pressure	Number	IHME
 	6040	Risk factors	High blood sugar	Number	IHME
 	1457	Risk factors	Indoor air pollution	Number	IHME
 	540	Risk factors	Indoor air pollution	Age-standardized rate	IHME
+	6125	Risk factors	Indoor air pollution	Rate	IHME
 	6038	Risk factors	Low physical activity	Number	IHME
 	5067	Risk factors	No access to hand-washing facilities	Rate	IHME
 	6035	Risk factors	No access to hand-washing facilities	Number	IHME
