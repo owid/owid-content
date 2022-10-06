@@ -167,6 +167,8 @@ graphers
 	540	Risk factors	Indoor air pollution	Age-standardized rate	IHME
 	6125	Risk factors	Indoor air pollution	Rate	IHME
 	6038	Risk factors	Low physical activity	Number	IHME
+	6126	Risk factors	Low physical activity	Age-standardized rate	IHME
+	6127	Risk factors	Low physical activity	Rate	IHME
 	5067	Risk factors	No access to hand-washing facilities	Rate	IHME
 	6035	Risk factors	No access to hand-washing facilities	Number	IHME
 	6121	Risk factors	No access to hand-washing facilities	Age-standardized rate	IHME
