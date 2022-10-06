@@ -165,6 +165,7 @@ graphers
 	6128	Risk factors	High blood pressure	Age-standardized rate	IHME
 	6129	Risk factors	High blood pressure	Rate	IHME
 	6040	Risk factors	High blood sugar	Number	IHME
+	6130	Risk factors	High blood sugar	Age-standardized rate	IHME
 	1457	Risk factors	Indoor air pollution	Number	IHME
 	540	Risk factors	Indoor air pollution	Age-standardized rate	IHME
 	6125	Risk factors	Indoor air pollution	Rate	IHME
