@@ -189,6 +189,7 @@ graphers
 	6034	Risk factors	Unsafe sanitation	Number	IHME
 	6120	Risk factors	Unsafe sanitation	Death rate	IHME
 	6041	Risk factors	Unsafe sex	Number	IHME
+	6132	Risk factors	Unsafe sex	Age-standardized rate	IHME
 	3895	Risk factors	Unsafe water	Age-standardized rate	IHME
 	6033	Risk factors	Unsafe water	Number	IHME
 	6119	Risk factors	Unsafe water	Rate	IHME
