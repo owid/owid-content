@@ -157,6 +157,7 @@ graphers
 	1738	Non-communicable diseases	Strokes	Age-standardized rate	IHME
 	3764	Risk factors	Alcohol use	Age-standardized rate	IHME
 	6036	Risk factors	Alcohol use	Number	IHME
+	6122	Risk factors	Alcohol use	Rate	IHME
 	6037	Risk factors	Drug use	Number	IHME
 	6039	Risk factors	High blood pressure	Number	IHME
 	6040	Risk factors	High blood sugar	Number	IHME
