@@ -165,6 +165,7 @@ graphers
 	6038	Risk factors	Low physical activity	Number	IHME
 	5067	Risk factors	No access to hand-washing facilities	Rate	IHME
 	6035	Risk factors	No access to hand-washing facilities	Number	IHME
+	6121	Risk factors	No access to hand-washing facilities	Age-standardized rate	IHME
 	3812	Risk factors	Obesity	Age-standardized rate	IHME
 	6118	Risk factors	Obesity	Rate	IHME
 	6032	Risk factors	Obesity	Number	IHME
@@ -176,6 +177,7 @@ graphers
 	6030	Risk factors	Smoking	Rate	IHME
 	1959	Risk factors	Unsafe sanitation	Age-standardized rate	IHME
 	6034	Risk factors	Unsafe sanitation	Number	IHME
+	6120	Risk factors	Unsafe sanitation	Death rate	IHME
 	6041	Risk factors	Unsafe sex	Number	IHME
 	3895	Risk factors	Unsafe water	Age-standardized rate	IHME
 	6033	Risk factors	Unsafe water	Number	IHME
