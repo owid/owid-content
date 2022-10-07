@@ -48,8 +48,8 @@ graphers
 	126	Life expectancy	Life expectancy at age 10	Years	UN
 	6026	Life expectancy	Healthy life expectancy	Years	WHO
 		Health systems	Government expenditure on health
-	5653	Health systems	Government expenditure on health (% of GDP)	%	WHO
-	555	Health systems	Health expenditure per capita	$-constant international	WHO
+	5653	Health systems	Government expenditure on health	% of GDP	WHO
+	555	Health systems	Government expenditure on health	$-constant international	WHO
 	4543	Health systems	Healthcare access and quality index		IHME
 	4544	Health systems	Healthcare access and quality index		UN/World Bank
 	1965	Health systems	Nurses and midwifes per 1,000	Rate	World Bank
