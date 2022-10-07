@@ -61,6 +61,7 @@ graphers
 	6077	Infectious diseases	Diarrheal diseases	Death rate	IHME
 	1726	Infectious diseases	Diarrheal diseases	Age-standardized rate	IHME
 	6135	Infectious diseases	Diarrheal diseases	Incidence	IHME
+	6137	Infectious diseases	Diarrheal diseases	Number of deaths	WHO
 	699	Infectious diseases	HIV/AIDS	Prevalence	UNAIDS
 	807	Infectious diseases	HIV/AIDS	Incidence	UNAIDS
 	2286	Infectious diseases	HIV/AIDS	Prevalence	IHME
@@ -130,7 +131,6 @@ graphers
 	660	Maternal health	Maternal mortality	Rate	OWID
 	762	Maternal health	Maternal mortality	Number of deaths	World Bank
 	4578	Maternal health	Maternal mortality	Number of deaths	IHME
-		Maternal health	Maternal mortality	Number of deaths	OWID
 	3595	Maternal health	Lifetime risk of maternal death	Rate	WHO
 	3872	Maternal health	Antenatal visits - 1+ visits	Rate	WHO
 	3873	Maternal health	Antenatal visits - 4+ visits	Rate	WHO
