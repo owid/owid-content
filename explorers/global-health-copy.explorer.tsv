@@ -79,6 +79,7 @@ graphers
 	6101	Infectious diseases	Meningitis	Death rate	IHME
 	1831	Infectious diseases	Tuberculosis	Age-standardized rate	IHME
 	3613	Infectious diseases	Tuberculosis	Number of deaths	IHME
+	6134	Infectious diseases	Tuberculosis	Incidence	IHME
 	6113	Infectious diseases	Tuberculosis	Death rate	IHME
 	2036	Injuries	Alcohol use disorders	Age-standardized rate	IHME
 	2035	Injuries	Alcohol use disorders	Number of deaths	IHME
