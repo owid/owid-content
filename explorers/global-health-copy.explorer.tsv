@@ -32,6 +32,20 @@ graphers
 	790	Child health	Children underweight	Share of children	UNICEF/WHO
 	6083	Child health	Children underweight	Number of children	UNICEF/WHO
 	3874	Child health	Exclusive breastfeeding rate	Share of infants	UNICEF
+	3483	Maternal health	Skilled attendant at delivery		IHME
+	66	Maternal health	Maternal mortality	Rate	World Bank
+	3482	Maternal health	Maternal mortality	Rate	IHME
+	660	Maternal health	Maternal mortality	Rate	OWID
+	762	Maternal health	Maternal mortality	Number of deaths	World Bank
+	4578	Maternal health	Maternal mortality	Number of deaths	IHME
+	3595	Maternal health	Lifetime risk of maternal death	Rate	WHO
+	3872	Maternal health	Antenatal visits - 1+ visits	Rate	WHO
+	3873	Maternal health	Antenatal visits - 4+ visits	Rate	WHO
+	1596	Maternal health	Skilled attendant at delivery	Rate	UNICEF
+	1372	Maternal health	Prevalence of modern contraceptives	Rate	World Bank
+	2285	Maternal health	HIV+ pregnant women receiving ARTs	Rate	UNAIDS
+	1375	Maternal health	Access to modern contraceptives	Rate	World Bank
+	4542	Maternal health	Postnatal health check	Rate	World Bank
 	3625	Deaths and DALYs	Total deaths	Age-standardized rate	IHME
 	6099	Deaths and DALYs	Total deaths	Number	IHME
 	6100	Deaths and DALYs	Total deaths	Rate	IHME
@@ -47,16 +61,29 @@ graphers
 	2968	Life expectancy	Life expectancy at birth	Years	World Bank
 	126	Life expectancy	Life expectancy at age 10	Years	UN
 	6026	Life expectancy	Healthy life expectancy	Years	WHO
-		Health systems	Government expenditure on health
-	5653	Health systems	Government expenditure on health	% of GDP	WHO
-	555	Health systems	Government expenditure on health	$-constant international	WHO
-	4543	Health systems	Healthcare access and quality index		IHME
-	4544	Health systems	Healthcare access and quality index		UN/World Bank
-	1965	Health systems	Nurses and midwifes per 1,000	Rate	World Bank
-	1966	Health systems	Doctors per 1,000	Rate	World Bank
-	3998	Health systems	Hospital beds per 1,000	Rate	WHO
-	4545	Health systems	Community health workers per 1,000	Rate	World Bank
-	5238	Health systems	Universal Health Coverage Index	Index	WHO
+	5256	Vaccination	DTP3 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
+	4563	Vaccination	DTP3 coverage	Number of children not vaccinated	UNICEF/WHO
+	1546	Vaccination	HepB3 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
+	4565	Vaccination	HepB3 coverage	Number of children not vaccinated	UNICEF/WHO
+	3603	Vaccination	Hib3 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
+	4566	Vaccination	Hib3 coverage	Number of children not vaccinated	UNICEF/WHO
+	4561	Vaccination	IPV1 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
+	4567	Vaccination	IPV1 coverage	Number of children not vaccinated	UNICEF/WHO
+	299	Vaccination	MCV1 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
+	4568	Vaccination	MCV1 coverage	Number of children not vaccinated	UNICEF/WHO
+	3887	Vaccination	MCV2 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
+	3594	Vaccination	PCV3 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
+	4572	Vaccination	PCV3 coverage	Number of children not vaccinated	UNICEF/WHO
+	1068	Vaccination	Pol3 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
+	4569	Vaccination	Pol3 coverage	Number of children not vaccinated	UNICEF/WHO
+	3553	Vaccination	RotaC coverage	Share of one-year-olds vaccinated	UNICEF/WHO
+	4571	Vaccination	RotaC coverage	Number of children not vaccinated	UNICEF/WHO
+	1547	Vaccination	BCG coverage	Share of one-year-olds vaccinated	UNICEF/WHO
+	4564	Vaccination	BCG coverage	Number of children not vaccinated	UNICEF/WHO
+	3899	Vaccination	YFV coverage	Share of one-year-olds vaccinated	UNICEF/WHO
+	4570	Vaccination	YFV coverage	Number of children not vaccinated	UNICEF/WHO
+	4573	Vaccination	RCV1 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
+	4574	Vaccination	RCV1 coverage	Number of children not vaccinated	UNICEF/WHO
 	6076	Infectious diseases	Diarrheal diseases	Number of deaths	IHME
 	6077	Infectious diseases	Diarrheal diseases	Death rate	IHME
 	1726	Infectious diseases	Diarrheal diseases	Age-standardized rate	IHME
@@ -126,20 +153,6 @@ graphers
 	1741	Injuries	Suicides	Age-standardized rate	IHME
 	3789	Injuries	Suicides	Number of deaths	IHME
 	6096	Injuries	Suicides	Death rate	IHME
-	3483	Maternal health	Skilled attendant at delivery		IHME
-	66	Maternal health	Maternal mortality	Rate	World Bank
-	3482	Maternal health	Maternal mortality	Rate	IHME
-	660	Maternal health	Maternal mortality	Rate	OWID
-	762	Maternal health	Maternal mortality	Number of deaths	World Bank
-	4578	Maternal health	Maternal mortality	Number of deaths	IHME
-	3595	Maternal health	Lifetime risk of maternal death	Rate	WHO
-	3872	Maternal health	Antenatal visits - 1+ visits	Rate	WHO
-	3873	Maternal health	Antenatal visits - 4+ visits	Rate	WHO
-	1596	Maternal health	Skilled attendant at delivery	Rate	UNICEF
-	1372	Maternal health	Prevalence of modern contraceptives	Rate	World Bank
-	2285	Maternal health	HIV+ pregnant women receiving ARTs	Rate	UNAIDS
-	1375	Maternal health	Access to modern contraceptives	Rate	World Bank
-	4542	Maternal health	Postnatal health check	Rate	World Bank
 	1719	Non-communicable diseases	Alzheimer's	Age-standardized rate	IHME
 	6093	Non-communicable diseases	Alzheimer's	Number of deaths	IHME
 	6104	Non-communicable diseases	Alzheimer's	Death rate	IHME
@@ -200,26 +213,12 @@ graphers
 	3895	Risk factors	Unsafe water	Age-standardized rate	IHME
 	6033	Risk factors	Unsafe water	Number	IHME
 	6119	Risk factors	Unsafe water	Rate	IHME
-	5256	Vaccination	DTP3 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
-	4563	Vaccination	DTP3 coverage	Number of children not vaccinated	UNICEF/WHO
-	1546	Vaccination	HepB3 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
-	4565	Vaccination	HepB3 coverage	Number of children not vaccinated	UNICEF/WHO
-	3603	Vaccination	Hib3 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
-	4566	Vaccination	Hib3 coverage	Number of children not vaccinated	UNICEF/WHO
-	4561	Vaccination	IPV1 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
-	4567	Vaccination	IPV1 coverage	Number of children not vaccinated	UNICEF/WHO
-	299	Vaccination	MCV1 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
-	4568	Vaccination	MCV1 coverage	Number of children not vaccinated	UNICEF/WHO
-	3887	Vaccination	MCV2 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
-	3594	Vaccination	PCV3 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
-	4572	Vaccination	PCV3 coverage	Number of children not vaccinated	UNICEF/WHO
-	1068	Vaccination	Pol3 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
-	4569	Vaccination	Pol3 coverage	Number of children not vaccinated	UNICEF/WHO
-	3553	Vaccination	RotaC coverage	Share of one-year-olds vaccinated	UNICEF/WHO
-	4571	Vaccination	RotaC coverage	Number of children not vaccinated	UNICEF/WHO
-	1547	Vaccination	BCG coverage	Share of one-year-olds vaccinated	UNICEF/WHO
-	4564	Vaccination	BCG coverage	Number of children not vaccinated	UNICEF/WHO
-	3899	Vaccination	YFV coverage	Share of one-year-olds vaccinated	UNICEF/WHO
-	4570	Vaccination	YFV coverage	Number of children not vaccinated	UNICEF/WHO
-	4573	Vaccination	RCV1 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
-	4574	Vaccination	RCV1 coverage	Number of children not vaccinated	UNICEF/WHO
+	5653	Health systems	Government expenditure on health	% of GDP	WHO
+	555	Health systems	Government expenditure on health	$-constant international	WHO
+	4543	Health systems	Healthcare access and quality index		IHME
+	4544	Health systems	Healthcare access and quality index		UN/World Bank
+	1965	Health systems	Nurses and midwifes per 1,000	Rate	World Bank
+	1966	Health systems	Doctors per 1,000	Rate	World Bank
+	3998	Health systems	Hospital beds per 1,000	Rate	WHO
+	4545	Health systems	Community health workers per 1,000	Rate	World Bank
+	5238	Health systems	Universal Health Coverage Index	Index	WHO
