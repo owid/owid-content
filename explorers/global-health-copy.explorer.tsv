@@ -60,6 +60,7 @@ graphers
 	6076	Infectious diseases	Diarrheal diseases	Number of deaths	IHME
 	6077	Infectious diseases	Diarrheal diseases	Death rate	IHME
 	1726	Infectious diseases	Diarrheal diseases	Age-standardized rate	IHME
+	6135	Infectious diseases	Diarrheal diseases	Incidence	IHME
 	699	Infectious diseases	HIV/AIDS	Prevalence	UNAIDS
 	807	Infectious diseases	HIV/AIDS	Incidence	UNAIDS
 	2286	Infectious diseases	HIV/AIDS	Prevalence	IHME
