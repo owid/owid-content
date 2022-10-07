@@ -44,9 +44,9 @@ graphers
 	6029	Deaths and DALYs	Total disease burden	Rate	IHME
 	6069	Deaths and DALYs	Total disease burden	Number	WHO (GHE)
 	6070	Deaths and DALYs	Total disease burden	Rate	WHO (GHE)
-	2968	Demographic change	Life expectancy at birth	Years	World Bank
-	126	Demographic change	Life expectancy at age 10	Years	UN
-	6026	Demographic change	Healthy life expectancy	Years	WHO
+	2968	Life expectancy	Life expectancy at birth	Years	World Bank
+	126	Life expectancy	Life expectancy at age 10	Years	UN
+	6026	Life expectancy	Healthy life expectancy	Years	WHO
 		Health systems	Government expenditure on health
 	5653	Health systems	Government expenditure on health (% of GDP)	%	WHO
 	555	Health systems	Health expenditure per capita	$-constant international	WHO
