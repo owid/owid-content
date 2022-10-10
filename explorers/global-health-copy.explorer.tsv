@@ -111,6 +111,8 @@ graphers
 	6079	Infectious diseases	Meningitis	Number of deaths	IHME
 	6101	Infectious diseases	Meningitis	Death rate	IHME
 	6136	Infectious diseases	Meningitis	Incidence	IHME
+	3733	Infectious diseases	Pneumonia	Age-standardized rate	IHME
+	6143	Infectious diseases	Pneumonia	Number of deaths	IHME
 	1831	Infectious diseases	Tuberculosis	Age-standardized rate	IHME
 	3674	Infectious diseases	Tuberculosis	Death rate	WHO
 	3613	Infectious diseases	Tuberculosis	Number of deaths	IHME
