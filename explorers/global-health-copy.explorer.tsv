@@ -212,6 +212,7 @@ graphers
 	6118	Risk factors	Obesity	Rate	IHME
 	6032	Risk factors	Obesity	Number	IHME
 	6151	Risk factors	Ozone pollution	Number	IHME
+	6154	Risk factors	Ozone pollution	Age-standardized rate	IHME
 	492	Risk factors	Particulate matter pollution	Age-standardized rate	IHME
 	6152	Risk factors	Particulate matter pollution	Number	IHME
 	6031	Risk factors	Secondhand smoke	Number	IHME
