@@ -107,7 +107,8 @@ graphers
 	6043	Infectious diseases	Malaria	Death rate	IHME
 	6042	Infectious diseases	Malaria	Death rate	WHO
 	4577	Infectious diseases	Malaria	Number of deaths	IHME
-	6055	Infectious diseases	Malaria	Number of deaths	WHO
+	6055	Infectious diseases	Malaria	Number of deaths	WHO GHO
+	6139	Infectious diseases	Malaria	Number of deaths	WHO GHE
 	6078	Infectious diseases	Meningitis	Age-standardized rate	IHME
 	6079	Infectious diseases	Meningitis	Number of deaths	IHME
 	6101	Infectious diseases	Meningitis	Death rate	IHME
