@@ -121,12 +121,13 @@ graphers
 	6145	Infectious diseases	Respiratory infections	Number of deaths	IHME
 	6146	Infectious diseases	Respiratory infections	Death rate	IHME
 	1831	Infectious diseases	Tuberculosis	Age-standardized rate	IHME
-	3674	Infectious diseases	Tuberculosis	Death rate	WHO
+	3674	Infectious diseases	Tuberculosis	Death rate	WHO GHO
 	3613	Infectious diseases	Tuberculosis	Number of deaths	IHME
-	3671	Infectious diseases	Tuberculosis	Incidence	WHO
-	3670	Infectious diseases	Tuberculosis	Incidence rate	WHO
+	3671	Infectious diseases	Tuberculosis	Incidence	WHO GHO
+	3670	Infectious diseases	Tuberculosis	Incidence rate	WHO GHO
 	6156	Infectious diseases	Tuberculosis	Incidence rate	IHME
 	6113	Infectious diseases	Tuberculosis	Death rate	IHME
+	6164	Infectious diseases	Tuberculosis	Death rate	WHO GHE
 	2847	Injuries	Conflict and terrorism	Number of deaths	IHME
 	1626	Injuries	Conflict and terrorism	Death rate	IHME
 	6106	Injuries	Conflict and terrorism	Age-standardized rate	IHME
