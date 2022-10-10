@@ -122,6 +122,7 @@ graphers
 	3613	Infectious diseases	Tuberculosis	Number of deaths	IHME
 	3671	Infectious diseases	Tuberculosis	Incidence	WHO
 	3670	Infectious diseases	Tuberculosis	Incidence rate	WHO
+	6156	Infectious diseases	Tuberculosis	Incidence rate	IHME
 	6113	Infectious diseases	Tuberculosis	Death rate	IHME
 	2847	Injuries	Conflict and terrorism	Number of deaths	IHME
 	1626	Injuries	Conflict and terrorism	Death rate	IHME
