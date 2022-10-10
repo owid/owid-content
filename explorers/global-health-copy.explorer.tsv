@@ -115,6 +115,7 @@ graphers
 	6143	Infectious diseases	Pneumonia	Number of deaths	IHME
 	6144	Infectious diseases	Respiratory infections	Age-standardized rate	IHME
 	6145	Infectious diseases	Respiratory infections	Number of deaths	IHME
+	6146	Infectious diseases	Respiratory infections	Death rate	IHME
 	1831	Infectious diseases	Tuberculosis	Age-standardized rate	IHME
 	3674	Infectious diseases	Tuberculosis	Death rate	WHO
 	3613	Infectious diseases	Tuberculosis	Number of deaths	IHME
