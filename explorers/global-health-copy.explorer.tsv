@@ -102,13 +102,14 @@ graphers
 	4575	Infectious diseases	HIV/AIDS	Number of deaths	IHME
 	6155	Infectious diseases	HIV/AIDS	Incidence	IHME
 	2926	Infectious diseases	Malaria	New infections	IHME
-	1821	Infectious diseases	Malaria	New infections	WHO
+	1821	Infectious diseases	Malaria	New infections	WHO GHO
 	1822	Infectious diseases	Malaria	Age-standardized rate	IHME
 	6043	Infectious diseases	Malaria	Death rate	IHME
-	6042	Infectious diseases	Malaria	Death rate	WHO
+	6042	Infectious diseases	Malaria	Death rate	WHO GHO
 	4577	Infectious diseases	Malaria	Number of deaths	IHME
 	6055	Infectious diseases	Malaria	Number of deaths	WHO GHO
 	6139	Infectious diseases	Malaria	Number of deaths	WHO GHE
+	6163	Infectious diseases	Malaria	Death rate	WHO GHE
 	6078	Infectious diseases	Meningitis	Age-standardized rate	IHME
 	6079	Infectious diseases	Meningitis	Number of deaths	IHME
 	6101	Infectious diseases	Meningitis	Death rate	IHME
