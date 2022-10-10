@@ -84,6 +84,7 @@ graphers
 	4570	Vaccination	YFV coverage	Number of children not vaccinated	UNICEF/WHO
 	4573	Vaccination	RCV1 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
 	4574	Vaccination	RCV1 coverage	Number of children not vaccinated	UNICEF/WHO
+	2947	Infectious diseases	All infectious diseases	Infectious diseases	IHME
 	6076	Infectious diseases	Diarrheal diseases	Number of deaths	IHME
 	6077	Infectious diseases	Diarrheal diseases	Death rate	IHME
 	1726	Infectious diseases	Diarrheal diseases	Age-standardized rate	IHME
@@ -198,6 +199,7 @@ graphers
 	3812	Risk factors	Obesity	Age-standardized rate	IHME
 	6118	Risk factors	Obesity	Rate	IHME
 	6032	Risk factors	Obesity	Number	IHME
+	492	Risk factors	Particulate matter pollution	Age-standardized rate	IHME
 	6031	Risk factors	Secondhand smoke	Number	IHME
 	6116	Risk factors	Secondhand smoke	Age-standardized rate	IHME
 	6117	Risk factors	Secondhand smoke	Rate	IHME
