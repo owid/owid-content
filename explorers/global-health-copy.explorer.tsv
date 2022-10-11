@@ -172,6 +172,8 @@ graphers
 	1755	Non-communicable diseases	Cardiovascular disease	Age-standardized rate	IHME
 	6087	Non-communicable diseases	Cardiovascular disease	Death rate	IHME
 	6088	Non-communicable diseases	Cardiovascular disease	Number of deaths	IHME
+	6166	Non-communicable diseases	Cardiovascular disease	Number of deaths	WHO-GHE
+	6167	Non-communicable diseases	Cardiovascular disease	Death rate	WHO-GHE
 	1752	Non-communicable diseases	Chronic respiratory disease	Age-standardized rate	IHME
 	6089	Non-communicable diseases	Chronic respiratory disease	Death rate	IHME
 	6090	Non-communicable diseases	Chronic respiratory disease	Number of deaths	IHME
