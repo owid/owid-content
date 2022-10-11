@@ -166,6 +166,8 @@ graphers
 	1741	Injuries	Suicides	Age-standardized rate	IHME
 	3789	Injuries	Suicides	Number of deaths	IHME
 	6096	Injuries	Suicides	Death rate	IHME
+	6182	Injuries	Suicides	Number of deaths	WHO-GHE
+	6183	Injuries	Suicides	Death rate	WHO-GHE
 	2036	Non-communicable diseases	Alcohol use disorders	Age-standardized rate	IHME
 	2035	Non-communicable diseases	Alcohol use disorders	Number of deaths	IHME
 	6114	Non-communicable diseases	Alcohol use disorders	Death rate	IHME
