@@ -197,6 +197,8 @@ graphers
 	1749	Non-communicable diseases	Malnutrition	Age-standardized rate	IHME
 	6147	Non-communicable diseases	Malnutrition	Death rate	IHME
 	6148	Non-communicable diseases	Malnutrition	Number of deaths	IHME
+	6176	Non-communicable diseases	Malnutrition	Number of deaths	WHO-GHE
+	6177	Non-communicable diseases	Malnutrition	Death rate	WHO-GHE
 	6080	Non-communicable diseases	Parkinson's disease	Age-standardized rate	IHME
 	6094	Non-communicable diseases	Parkinson's disease	Number of deaths	IHME
 	6105	Non-communicable diseases	Parkinson's disease	Death rate	IHME
