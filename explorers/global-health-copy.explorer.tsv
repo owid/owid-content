@@ -199,6 +199,8 @@ graphers
 	6149	Non-communicable diseases	Strokes	Death rate	IHME
 	1738	Non-communicable diseases	Strokes	Age-standardized rate	IHME
 	6158	Non-communicable diseases	Strokes	Number	IHME
+	6168	Non-communicable diseases	Strokes	Number	WHO-GHE
+	6169	Non-communicable diseases	Strokes	Death rate	WHO-GHE
 	3764	Risk factors	Alcohol use	Age-standardized rate	IHME
 	6036	Risk factors	Alcohol use	Number	IHME
 	6122	Risk factors	Alcohol use	Rate	IHME
