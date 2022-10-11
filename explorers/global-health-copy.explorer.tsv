@@ -117,6 +117,8 @@ graphers
 	3733	Infectious diseases	Pneumonia	Age-standardized rate	IHME
 	6143	Infectious diseases	Pneumonia	Number of deaths	IHME
 	6157	Infectious diseases	Pneumonia	Death rate	IHME
+	6194	Infectious diseases	Pneumonia	Number of deaths	WHO-GHE
+	6195	Infectious diseases	Pneumonia	Death rate	WHO-GHE
 	6144	Infectious diseases	Respiratory infections	Age-standardized rate	IHME
 	6145	Infectious diseases	Respiratory infections	Number of deaths	IHME
 	6146	Infectious diseases	Respiratory infections	Death rate	IHME
