@@ -149,6 +149,7 @@ graphers
 	1833	Injuries	Homicides	Number of deaths	IHME
 	6085	Injuries	Homicides	Age-standardized rate	IHME
 	6180	Injuries	Homicides	Number of deaths	WHO-GHE
+	6181	Injuries	Homicides	Death rate	WHO-GHE
 	2016	Injuries	Natural disasters	Number of deaths	IHME
 	1622	Injuries	Natural disasters	Death rate	IHME
 	6107	Injuries	Natural disasters	Age-standardized rate	IHME
