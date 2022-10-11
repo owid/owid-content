@@ -200,6 +200,8 @@ graphers
 	6080	Non-communicable diseases	Parkinson's disease	Age-standardized rate	IHME
 	6094	Non-communicable diseases	Parkinson's disease	Number of deaths	IHME
 	6105	Non-communicable diseases	Parkinson's disease	Death rate	IHME
+	6174	Non-communicable diseases	Parkinson's disease	Number of deaths	WHO-GHE
+	6175	Non-communicable diseases	Parkinson's disease	Death rate	WHO-GHE
 	6149	Non-communicable diseases	Strokes	Death rate	IHME
 	1738	Non-communicable diseases	Strokes	Age-standardized rate	IHME
 	6158	Non-communicable diseases	Strokes	Number	IHME
