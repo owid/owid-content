@@ -160,6 +160,8 @@ graphers
 	6086	Injuries	Poisoning	Number of deaths	IHME
 	6108	Injuries	Poisoning	Age-standardized rate	IHME
 	6109	Injuries	Poisoning	Death rate	IHME
+	6187	Injuries	Poisoning	Number of deaths	WHO-GHE
+	6188	Injuries	Poisoning	Death rate	WHO-GHE
 	1584	Injuries	Road accidents	Age-standardized rate	IHME
 	6095	Injuries	Road accidents	Death rate	IHME
 	1585	Injuries	Road accidents	Number of deaths	IHME
