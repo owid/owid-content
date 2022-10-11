@@ -135,6 +135,8 @@ graphers
 	1729	Injuries	Drowning	Age-standardized rate	IHME
 	6097	Injuries	Drowning	Death rate	IHME
 	6098	Injuries	Drowning	Number of deaths	IHME
+	6184	Injuries	Drowning	Number of deaths	WHO-GHE
+	6185	Injuries	Drowning	Death rate	WHO-GHE
 	6053	Injuries	Falls	Number of deaths	WHO
 	6054	Injuries	Falls	Death rate	WHO
 	6110	Injuries	Falls	Age-standardized rate	IHME
