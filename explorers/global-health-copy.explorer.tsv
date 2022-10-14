@@ -32,7 +32,7 @@ graphers
 	790	Child health	Children underweight	Share of children	UNICEF/WHO
 	6083	Child health	Children underweight	Number of children	UNICEF/WHO
 	3874	Child health	Exclusive breastfeeding rate	Share of infants	UNICEF
-	3483	Maternal health	Skilled attendant at delivery		IHME
+	3483	Maternal health	Skilled attendant at delivery	Share of births	IHME
 	66	Maternal health	Maternal mortality	Rate	World Bank
 	3482	Maternal health	Maternal mortality	Rate	IHME
 	660	Maternal health	Maternal mortality	Rate	OWID
@@ -63,6 +63,8 @@ graphers
 	2968	Life expectancy	Life expectancy at birth	Years	World Bank
 	126	Life expectancy	Life expectancy at age 10	Years	UN
 	6026	Life expectancy	Healthy life expectancy	Years	WHO
+	1547	Vaccination	BCG coverage	Share of one-year-olds vaccinated	UNICEF/WHO
+	4564	Vaccination	BCG coverage	Number of children not vaccinated	UNICEF/WHO
 	5256	Vaccination	DTP3 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
 	4563	Vaccination	DTP3 coverage	Number of children not vaccinated	UNICEF/WHO
 	1546	Vaccination	HepB3 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
@@ -78,14 +80,12 @@ graphers
 	4572	Vaccination	PCV3 coverage	Number of children not vaccinated	UNICEF/WHO
 	1068	Vaccination	Pol3 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
 	4569	Vaccination	Pol3 coverage	Number of children not vaccinated	UNICEF/WHO
-	3553	Vaccination	RotaC coverage	Share of one-year-olds vaccinated	UNICEF/WHO
-	4571	Vaccination	RotaC coverage	Number of children not vaccinated	UNICEF/WHO
-	1547	Vaccination	BCG coverage	Share of one-year-olds vaccinated	UNICEF/WHO
-	4564	Vaccination	BCG coverage	Number of children not vaccinated	UNICEF/WHO
-	3899	Vaccination	YFV coverage	Share of one-year-olds vaccinated	UNICEF/WHO
-	4570	Vaccination	YFV coverage	Number of children not vaccinated	UNICEF/WHO
 	4573	Vaccination	RCV1 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
 	4574	Vaccination	RCV1 coverage	Number of children not vaccinated	UNICEF/WHO
+	3553	Vaccination	RotaC coverage	Share of one-year-olds vaccinated	UNICEF/WHO
+	4571	Vaccination	RotaC coverage	Number of children not vaccinated	UNICEF/WHO
+	3899	Vaccination	YFV coverage	Share of one-year-olds vaccinated	UNICEF/WHO
+	4570	Vaccination	YFV coverage	Number of children not vaccinated	UNICEF/WHO
 	2947	Infectious diseases	All infectious diseases	Age-standardized rate	IHME
 	6140	Infectious diseases	All infectious diseases	Death rate	IHME
 	6141	Infectious diseases	All infectious diseases	Number of deaths	IHME
