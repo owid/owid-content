@@ -47,6 +47,7 @@ graphers
 	1375	Maternal health	Access to modern contraceptives	Rate	World Bank
 	4542	Maternal health	Postnatal health check	Rate	World Bank
 	6196	Deaths and DALYs	Deaths by age group	Number	UN WPP
+	5943	Deaths and DALYs	Deaths in 2021 by age	Number	UN WPP
 	3625	Deaths and DALYs	Total deaths	Age-standardized rate	IHME
 	6099	Deaths and DALYs	Total deaths	Number	IHME
 	6100	Deaths and DALYs	Total deaths	Rate	IHME
