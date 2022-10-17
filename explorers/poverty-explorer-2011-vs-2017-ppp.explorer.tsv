@@ -1,6 +1,6 @@
 explorerTitle	Poverty Data Explorer of World Bank data: 2011 vs. 2017 prices
 selection	Mozambique	Nigeria	Kenya	Bangladesh	Bolivia	World
-explorerSubtitle	<i><a href="https://github.com/owid/poverty-data">Download this dataset</a></i>
+explorerSubtitle	<i><a href="https://github.com/owid/poverty-data">Download Poverty data on GitHub</a></i>
 isPublished	true
 googleSheet
 hasMapTab	false
