@@ -5,6 +5,7 @@ isPublished	true
 googleSheet	https://docs.google.com/spreadsheets/d/1bVOaDcnDoF0M_zK3uof0dIH-Z4OUDxqM7QO3B9jzRbk/edit#gid=424037824
 hasMapTab	true
 wpBlockId	52633
+entityType	country or region
 
 graphers
 	title	Metric Dropdown	Poverty line Dropdown	Household survey data type Dropdown	Show breaks between less comparable surveys Checkbox	tableSlug	ySlugs	subtitle	note	sourceDesc	relatedQuestionUrl	type	yAxisMin	facet	selectedFacetStrategy	hasMapTab	tab	mapTargetTime	defaultView
