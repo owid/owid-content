@@ -1,6 +1,6 @@
 explorerTitle	Poverty Data Explorer of World Bank data
 selection	Nigeria	Mozambique	Zambia	Bolivia	Kenya	Bangladesh	Bolivia	Georgia
-explorerSubtitle	<i><a href="https://github.com/owid/notebooks/blob/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/PIP_data_public_download.zip?raw=true">Download this dataset</a></i>
+explorerSubtitle	<i><a href="https://github.com/owid/poverty-data">Download this dataset</a></i>
 isPublished	true
 googleSheet	https://docs.google.com/spreadsheets/d/1bVOaDcnDoF0M_zK3uof0dIH-Z4OUDxqM7QO3B9jzRbk/edit#gid=424037824
 hasMapTab	true
