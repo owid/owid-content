@@ -62,7 +62,7 @@ graphers
 	6070	Deaths and DALYs	Total disease burden	Rate	WHO (GHE)
 	2968	Life expectancy	Life expectancy at birth	Years	World Bank
 	126	Life expectancy	Life expectancy at age 10	Years	UN
-	6026	Life expectancy	Healthy life expectancy	Years	WHO
+	6026	Life expectancy	Healthy life expectancy	Years	WHO (GHO)
 	1547	Vaccination	BCG coverage	Share of one-year-olds vaccinated	UNICEF/WHO
 	4564	Vaccination	BCG coverage	Number of children not vaccinated	UNICEF/WHO
 	5256	Vaccination	DTP3 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
@@ -104,12 +104,12 @@ graphers
 	4575	Infectious diseases	HIV/AIDS	Number of deaths	IHME
 	6155	Infectious diseases	HIV/AIDS	Incidence	IHME
 	2926	Infectious diseases	Malaria	New infections	IHME
-	1821	Infectious diseases	Malaria	New infections	WHO GHO
+	1821	Infectious diseases	Malaria	New infections	WHO (GHO)
 	1822	Infectious diseases	Malaria	Age-standardized rate	IHME
 	6043	Infectious diseases	Malaria	Death rate	IHME
-	6042	Infectious diseases	Malaria	Death rate	WHO GHO
+	6042	Infectious diseases	Malaria	Death rate	WHO (GHO)
 	4577	Infectious diseases	Malaria	Number of deaths	IHME
-	6055	Infectious diseases	Malaria	Number of deaths	WHO GHO
+	6055	Infectious diseases	Malaria	Number of deaths	WHO (GHO)
 	6139	Infectious diseases	Malaria	Number of deaths	WHO GHE
 	6163	Infectious diseases	Malaria	Death rate	WHO GHE
 	6078	Infectious diseases	Meningitis	Age-standardized rate	IHME
@@ -126,10 +126,10 @@ graphers
 	6145	Infectious diseases	Respiratory infections	Number of deaths	IHME
 	6146	Infectious diseases	Respiratory infections	Death rate	IHME
 	1831	Infectious diseases	Tuberculosis	Age-standardized rate	IHME
-	3674	Infectious diseases	Tuberculosis	Death rate	WHO GHO
+	3674	Infectious diseases	Tuberculosis	Death rate	WHO (GHO)
 	3613	Infectious diseases	Tuberculosis	Number of deaths	IHME
-	3671	Infectious diseases	Tuberculosis	Incidence	WHO GHO
-	3670	Infectious diseases	Tuberculosis	Incidence rate	WHO GHO
+	3671	Infectious diseases	Tuberculosis	Incidence	WHO (GHO)
+	3670	Infectious diseases	Tuberculosis	Incidence rate	WHO (GHO)
 	6156	Infectious diseases	Tuberculosis	Incidence rate	IHME
 	6113	Infectious diseases	Tuberculosis	Death rate	IHME
 	6164	Infectious diseases	Tuberculosis	Number of deaths	WHO GHE
@@ -177,7 +177,7 @@ graphers
 	6096	Injuries	Suicides	Death rate	IHME
 	6182	Injuries	Suicides	Number of deaths	WHO-GHE
 	6183	Injuries	Suicides	Death rate	WHO-GHE
-	6193	Injuries	Suicides	Age-standardized rate	WHO-GHO
+	6193	Injuries	Suicides	Age-standardized rate	WHO (GHO)
 	2036	Non-communicable diseases	Alcohol use disorders	Age-standardized rate	IHME
 	2035	Non-communicable diseases	Alcohol use disorders	Number of deaths	IHME
 	6114	Non-communicable diseases	Alcohol use disorders	Death rate	IHME
@@ -274,12 +274,12 @@ graphers
 	3895	Risk factors	Unsafe water	Age-standardized rate	IHME
 	6033	Risk factors	Unsafe water	Number	IHME
 	6119	Risk factors	Unsafe water	Rate	IHME
-	5653	Health systems	Government expenditure on health	% of GDP	WHO
-	555	Health systems	Government expenditure on health	$-constant international	WHO
+	4545	Health systems	Community health workers per 1,000	Rate	World Bank
+	1966	Health systems	Doctors per 1,000	Rate	World Bank
+	5653	Health systems	Government expenditure on health	% of GDP	WHO (GHO)
+	555	Health systems	Government expenditure on health	$-constant international	WHO (GHO)
 	4543	Health systems	Healthcare access and quality index		IHME
 	4544	Health systems	Healthcare access and quality index		UN/World Bank
-	1965	Health systems	Nurses and midwifes per 1,000	Rate	World Bank
-	1966	Health systems	Doctors per 1,000	Rate	World Bank
 	3998	Health systems	Hospital beds per 1,000	Rate	WHO
-	4545	Health systems	Community health workers per 1,000	Rate	World Bank
+	1965	Health systems	Nurses and midwifes per 1,000	Rate	World Bank
 	5238	Health systems	Universal Health Coverage Index	Index	WHO
