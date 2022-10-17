@@ -196,6 +196,7 @@ graphers
 	6203	Non-communicable diseases	Cancer	Number of deaths	IHME
 	6204	Non-communicable diseases	Cancer	Number of deaths	WHO (GHE)
 	6205	Non-communicable diseases	Cancer	Death rate	WHO (GHE)
+	6206	Non-communicable diseases	Cancer	Death rate	IHME
 	1755	Non-communicable diseases	Cardiovascular disease	Age-standardized rate	IHME
 	6087	Non-communicable diseases	Cardiovascular disease	Death rate	IHME
 	6088	Non-communicable diseases	Cardiovascular disease	Number of deaths	IHME
