@@ -5,6 +5,7 @@ isPublished	true
 googleSheet
 hasMapTab	false
 wpBlockId	52633
+entityType	country or region
 
 graphers
 	title	ySlugs	Metric Dropdown	International-$ Dropdown	Poverty line Dropdown	Household survey data type Dropdown	tableSlug	subtitle	note	sourceDesc	relatedQuestionUrl	type	yAxisMin	facet	selectedFacetStrategy	hasMapTab	tab	mapTargetTime	yScaleToggle	defaultView
