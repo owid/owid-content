@@ -101,6 +101,7 @@ graphers
 	2286	Infectious diseases	HIV/AIDS	Prevalence	IHME
 	1828	Infectious diseases	HIV/AIDS	Age-standardized rate	IHME
 	6075	Infectious diseases	HIV/AIDS	Death rate	IHME
+	6201	Infectious diseases	HIV/AIDS	Death rate	WHO (GHE)
 	4576	Infectious diseases	HIV/AIDS	Number of deaths	UNAIDS
 	4575	Infectious diseases	HIV/AIDS	Number of deaths	IHME
 	6200	Infectious diseases	HIV/AIDS	Number of deaths	WHO (GHE)
