@@ -111,18 +111,18 @@ graphers
 	6042	Infectious diseases	Malaria	Death rate	WHO (GHO)
 	4577	Infectious diseases	Malaria	Number of deaths	IHME
 	6055	Infectious diseases	Malaria	Number of deaths	WHO (GHO)
-	6139	Infectious diseases	Malaria	Number of deaths	WHO GHE
-	6163	Infectious diseases	Malaria	Death rate	WHO GHE
+	6139	Infectious diseases	Malaria	Number of deaths	WHO (GHE)
+	6163	Infectious diseases	Malaria	Death rate	WHO (GHE)
 	6078	Infectious diseases	Meningitis	Age-standardized rate	IHME
 	6079	Infectious diseases	Meningitis	Number of deaths	IHME
 	6101	Infectious diseases	Meningitis	Death rate	IHME
 	6136	Infectious diseases	Meningitis	Incidence	IHME
-	6197	Infectious diseases	Meningitis	Number of deaths	WHO-GHE
+	6197	Infectious diseases	Meningitis	Number of deaths	WHO (GHE)
 	3733	Infectious diseases	Pneumonia	Age-standardized rate	IHME
 	6143	Infectious diseases	Pneumonia	Number of deaths	IHME
 	6157	Infectious diseases	Pneumonia	Death rate	IHME
-	6194	Infectious diseases	Pneumonia	Number of deaths	WHO-GHE
-	6195	Infectious diseases	Pneumonia	Death rate	WHO-GHE
+	6194	Infectious diseases	Pneumonia	Number of deaths	WHO (GHE)
+	6195	Infectious diseases	Pneumonia	Death rate	WHO (GHE)
 	6144	Infectious diseases	Respiratory infections	Age-standardized rate	IHME
 	6145	Infectious diseases	Respiratory infections	Number of deaths	IHME
 	6146	Infectious diseases	Respiratory infections	Death rate	IHME
@@ -133,16 +133,16 @@ graphers
 	3670	Infectious diseases	Tuberculosis	Incidence rate	WHO (GHO)
 	6156	Infectious diseases	Tuberculosis	Incidence rate	IHME
 	6113	Infectious diseases	Tuberculosis	Death rate	IHME
-	6164	Infectious diseases	Tuberculosis	Number of deaths	WHO GHE
-	6165	Infectious diseases	Tuberculosis	Death rate	WHO GHE
+	6164	Infectious diseases	Tuberculosis	Number of deaths	WHO (GHE)
+	6165	Infectious diseases	Tuberculosis	Death rate	WHO (GHE)
 	2847	Injuries	Conflict and terrorism	Number of deaths	IHME
 	1626	Injuries	Conflict and terrorism	Death rate	IHME
 	6106	Injuries	Conflict and terrorism	Age-standardized rate	IHME
 	1729	Injuries	Drowning	Age-standardized rate	IHME
 	6097	Injuries	Drowning	Death rate	IHME
 	6098	Injuries	Drowning	Number of deaths	IHME
-	6184	Injuries	Drowning	Number of deaths	WHO-GHE
-	6185	Injuries	Drowning	Death rate	WHO-GHE
+	6184	Injuries	Drowning	Number of deaths	WHO (GHE)
+	6185	Injuries	Drowning	Death rate	WHO (GHE)
 	6053	Injuries	Falls	Number of deaths	WHO
 	6054	Injuries	Falls	Death rate	WHO
 	6110	Injuries	Falls	Age-standardized rate	IHME
@@ -156,8 +156,8 @@ graphers
 	2695	Injuries	Homicides	Death rate	IHME
 	1833	Injuries	Homicides	Number of deaths	IHME
 	6085	Injuries	Homicides	Age-standardized rate	IHME
-	6180	Injuries	Homicides	Number of deaths	WHO-GHE
-	6181	Injuries	Homicides	Death rate	WHO-GHE
+	6180	Injuries	Homicides	Number of deaths	WHO (GHE)
+	6181	Injuries	Homicides	Death rate	WHO (GHE)
 	2016	Injuries	Natural disasters	Number of deaths	IHME
 	1622	Injuries	Natural disasters	Death rate	IHME
 	6107	Injuries	Natural disasters	Age-standardized rate	IHME
@@ -166,35 +166,35 @@ graphers
 	6086	Injuries	Poisoning	Number of deaths	IHME
 	6108	Injuries	Poisoning	Age-standardized rate	IHME
 	6109	Injuries	Poisoning	Death rate	IHME
-	6187	Injuries	Poisoning	Number of deaths	WHO-GHE
-	6188	Injuries	Poisoning	Death rate	WHO-GHE
+	6187	Injuries	Poisoning	Number of deaths	WHO (GHE)
+	6188	Injuries	Poisoning	Death rate	WHO (GHE)
 	1584	Injuries	Road accidents	Age-standardized rate	IHME
 	6095	Injuries	Road accidents	Death rate	IHME
 	1585	Injuries	Road accidents	Number of deaths	IHME
-	6178	Injuries	Road accidents	Number of deaths	WHO-GHE
-	6179	Injuries	Road accidents	Death rate	WHO-GHE
+	6178	Injuries	Road accidents	Number of deaths	WHO (GHE)
+	6179	Injuries	Road accidents	Death rate	WHO (GHE)
 	1741	Injuries	Suicides	Age-standardized rate	IHME
 	3789	Injuries	Suicides	Number of deaths	IHME
 	6096	Injuries	Suicides	Death rate	IHME
-	6182	Injuries	Suicides	Number of deaths	WHO-GHE
-	6183	Injuries	Suicides	Death rate	WHO-GHE
+	6182	Injuries	Suicides	Number of deaths	WHO (GHE)
+	6183	Injuries	Suicides	Death rate	WHO (GHE)
 	6193	Injuries	Suicides	Age-standardized rate	WHO (GHO)
 	2036	Non-communicable diseases	Alcohol use disorders	Age-standardized rate	IHME
 	2035	Non-communicable diseases	Alcohol use disorders	Number of deaths	IHME
 	6114	Non-communicable diseases	Alcohol use disorders	Death rate	IHME
-	6189	Non-communicable diseases	Alcohol use disorders	Number of deaths	WHO-GHE
-	6190	Non-communicable diseases	Alcohol use disorders	Death rate	WHO-GHE
+	6189	Non-communicable diseases	Alcohol use disorders	Number of deaths	WHO (GHE)
+	6190	Non-communicable diseases	Alcohol use disorders	Death rate	WHO (GHE)
 	1719	Non-communicable diseases	Alzheimer's	Age-standardized rate	IHME
 	6093	Non-communicable diseases	Alzheimer's	Number of deaths	IHME
 	6104	Non-communicable diseases	Alzheimer's	Death rate	IHME
-	6172	Non-communicable diseases	Alzheimer's	Number of deaths	WHO-GHE
-	6173	Non-communicable diseases	Alzheimer's	Death rate	WHO-GHE
+	6172	Non-communicable diseases	Alzheimer's	Number of deaths	WHO (GHE)
+	6173	Non-communicable diseases	Alzheimer's	Death rate	WHO (GHE)
 	1714	Non-communicable diseases	Cancer	Age-standardized rate	IHME
 	1755	Non-communicable diseases	Cardiovascular disease	Age-standardized rate	IHME
 	6087	Non-communicable diseases	Cardiovascular disease	Death rate	IHME
 	6088	Non-communicable diseases	Cardiovascular disease	Number of deaths	IHME
-	6166	Non-communicable diseases	Cardiovascular disease	Number of deaths	WHO-GHE
-	6167	Non-communicable diseases	Cardiovascular disease	Death rate	WHO-GHE
+	6166	Non-communicable diseases	Cardiovascular disease	Number of deaths	WHO (GHE)
+	6167	Non-communicable diseases	Cardiovascular disease	Death rate	WHO (GHE)
 	1752	Non-communicable diseases	Chronic respiratory disease	Age-standardized rate	IHME
 	6089	Non-communicable diseases	Chronic respiratory disease	Death rate	IHME
 	6090	Non-communicable diseases	Chronic respiratory disease	Number of deaths	IHME
@@ -202,34 +202,34 @@ graphers
 	6081	Non-communicable diseases	Diabetes	Age-standardized rate	IHME
 	6092	Non-communicable diseases	Diabetes	Number of deaths	IHME
 	6103	Non-communicable diseases	Diabetes	Death rate	IHME
-	6170	Non-communicable diseases	Diabetes	Number of deaths	WHO-GHE
-	6171	Non-communicable diseases	Diabetes	Death rate	WHO-GHE
+	6170	Non-communicable diseases	Diabetes	Number of deaths	WHO (GHE)
+	6171	Non-communicable diseases	Diabetes	Death rate	WHO (GHE)
 	6159	Non-communicable diseases	Digestive diseases	Age-standardized rate	IHME
 	6150	Non-communicable diseases	Digestive diseases	Number of deaths	IHME
 	6160	Non-communicable diseases	Digestive diseases	Death rate	IHME
 	2156	Non-communicable diseases	Drug use disorders	Age-standardized rate	IHME
 	2155	Non-communicable diseases	Drug use disorders	Number of deaths	IHME
 	6115	Non-communicable diseases	Drug use disorders	Death rate	IHME
-	6191	Non-communicable diseases	Drug use disorders	Number of deaths	WHO-GHE
-	6192	Non-communicable diseases	Drug use disorders	Death rate	WHO-GHE
+	6191	Non-communicable diseases	Drug use disorders	Number of deaths	WHO (GHE)
+	6192	Non-communicable diseases	Drug use disorders	Death rate	WHO (GHE)
 	6084	Non-communicable diseases	Liver disease	Age-standardized rate	IHME
 	6091	Non-communicable diseases	Liver disease	Number of deaths	IHME
 	6101	Non-communicable diseases	Liver disease	Death rate	IHME
 	1749	Non-communicable diseases	Malnutrition	Age-standardized rate	IHME
 	6147	Non-communicable diseases	Malnutrition	Death rate	IHME
 	6148	Non-communicable diseases	Malnutrition	Number of deaths	IHME
-	6176	Non-communicable diseases	Malnutrition	Number of deaths	WHO-GHE
-	6177	Non-communicable diseases	Malnutrition	Death rate	WHO-GHE
+	6176	Non-communicable diseases	Malnutrition	Number of deaths	WHO (GHE)
+	6177	Non-communicable diseases	Malnutrition	Death rate	WHO (GHE)
 	6080	Non-communicable diseases	Parkinson's disease	Age-standardized rate	IHME
 	6094	Non-communicable diseases	Parkinson's disease	Number of deaths	IHME
 	6105	Non-communicable diseases	Parkinson's disease	Death rate	IHME
-	6174	Non-communicable diseases	Parkinson's disease	Number of deaths	WHO-GHE
-	6175	Non-communicable diseases	Parkinson's disease	Death rate	WHO-GHE
+	6174	Non-communicable diseases	Parkinson's disease	Number of deaths	WHO (GHE)
+	6175	Non-communicable diseases	Parkinson's disease	Death rate	WHO (GHE)
 	6149	Non-communicable diseases	Stroke	Death rate	IHME
 	1738	Non-communicable diseases	Stroke	Age-standardized rate	IHME
 	6158	Non-communicable diseases	Stroke	Number	IHME
-	6168	Non-communicable diseases	Stroke	Number	WHO-GHE
-	6169	Non-communicable diseases	Stroke	Death rate	WHO-GHE
+	6168	Non-communicable diseases	Stroke	Number	WHO (GHE)
+	6169	Non-communicable diseases	Stroke	Death rate	WHO (GHE)
 	3764	Risk factors	Alcohol use	Age-standardized rate	IHME
 	6036	Risk factors	Alcohol use	Number	IHME
 	6122	Risk factors	Alcohol use	Rate	IHME
