@@ -193,6 +193,7 @@ graphers
 	6172	Non-communicable diseases	Alzheimer's	Number of deaths	WHO (GHE)
 	6173	Non-communicable diseases	Alzheimer's	Death rate	WHO (GHE)
 	1714	Non-communicable diseases	Cancer	Age-standardized rate	IHME
+	6203	Non-communicable diseases	Cancer	Number of deaths	IHME
 	1755	Non-communicable diseases	Cardiovascular disease	Age-standardized rate	IHME
 	6087	Non-communicable diseases	Cardiovascular disease	Death rate	IHME
 	6088	Non-communicable diseases	Cardiovascular disease	Number of deaths	IHME
