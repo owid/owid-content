@@ -32,20 +32,20 @@ graphers
 	790	Child health	Children underweight	Share of children	UNICEF/WHO
 	6083	Child health	Children underweight	Number of children	UNICEF/WHO
 	3874	Child health	Exclusive breastfeeding rate	Share of infants	UNICEF
-	3483	Maternal health	Skilled attendant at delivery	Share of births	IHME
 	66	Maternal health	Maternal mortality	Rate	World Bank
 	3482	Maternal health	Maternal mortality	Rate	IHME
 	660	Maternal health	Maternal mortality	Rate	OWID
 	762	Maternal health	Maternal mortality	Number of deaths	World Bank
 	4578	Maternal health	Maternal mortality	Number of deaths	IHME
 	3595	Maternal health	Lifetime risk of maternal death	Rate	WHO (GHO)
+	1375	Maternal health	Access to modern contraceptives	Rate	World Bank
 	3872	Maternal health	Antenatal visits - 1+ visits	Rate	WHO (GHO)
 	3873	Maternal health	Antenatal visits - 4+ visits	Rate	WHO (GHO)
-	1596	Maternal health	Skilled attendant at delivery	Rate	UNICEF
-	1372	Maternal health	Prevalence of modern contraceptives	Rate	World Bank
 	2285	Maternal health	HIV+ pregnant women receiving ARTs	Rate	UNAIDS
-	1375	Maternal health	Access to modern contraceptives	Rate	World Bank
 	4542	Maternal health	Postnatal health check	Rate	World Bank
+	1372	Maternal health	Prevalence of modern contraceptives	Rate	World Bank
+	1596	Maternal health	Skilled attendant at delivery	Rate	UNICEF
+	3483	Maternal health	Skilled attendant at delivery	Share of births	IHME
 	6196	Deaths and DALYs	Deaths by age group	Number	UN WPP
 	5943	Deaths and DALYs	Deaths in 2021 by age	Number	UN WPP
 	3625	Deaths and DALYs	Total deaths	Age-standardized rate	IHME
