@@ -97,7 +97,7 @@ graphers
 	6137	Infectious diseases	Diarrheal diseases	Number of deaths	WHO
 	6138	Infectious diseases	Diarrheal diseases	Death rate	WHO
 	699	Infectious diseases	HIV/AIDS	Prevalence	UNAIDS
-	807	Infectious diseases	HIV/AIDS	Incidence	UNAIDS
+	807	Infectious diseases	HIV/AIDS	Incidence rate	UNAIDS
 	2286	Infectious diseases	HIV/AIDS	Prevalence	IHME
 	1828	Infectious diseases	HIV/AIDS	Age-standardized rate	IHME
 	6075	Infectious diseases	HIV/AIDS	Death rate	IHME
