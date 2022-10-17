@@ -89,6 +89,7 @@ graphers
 	2947	Infectious diseases	All infectious diseases	Age-standardized rate	IHME
 	6140	Infectious diseases	All infectious diseases	Death rate	IHME
 	6141	Infectious diseases	All infectious diseases	Number of deaths	IHME
+	5698	Infectious diseases	Covid-19	Excess deaths
 	6076	Infectious diseases	Diarrheal diseases	Number of deaths	IHME
 	6077	Infectious diseases	Diarrheal diseases	Death rate	IHME
 	1726	Infectious diseases	Diarrheal diseases	Age-standardized rate	IHME
