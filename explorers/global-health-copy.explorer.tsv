@@ -121,6 +121,8 @@ graphers
 	6101	Infectious diseases	Meningitis	Death rate	IHME
 	6136	Infectious diseases	Meningitis	Incidence	IHME
 	6197	Infectious diseases	Meningitis	Number of deaths	WHO (GHE)
+	1126	Infectious diseases	Polio	Reported cases	WHO
+	1201	Infectious diseases	Polio	Reported cases per million	WHO
 	3733	Infectious diseases	Pneumonia	Age-standardized rate	IHME
 	6143	Infectious diseases	Pneumonia	Number of deaths	IHME
 	6157	Infectious diseases	Pneumonia	Death rate	IHME
