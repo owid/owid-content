@@ -3,11 +3,11 @@ isPublished	false
 selection	World	China	South Africa	Brazil	United States	United Kingdom	India
 graphers
 	grapherId	Category Dropdown	Indicator Dropdown	Metric Dropdown	Source Dropdown
-	712	Child health	Child mortality	Rate	UN IGME
+	4287	Child health	Child mortality	Rate	UN IGME
 	952	Child health	Child mortality	Rate	UN WPP
 	677	Child health	Child mortality	Rate	IHME
 	3772	Child health	Child mortality	Number of deaths	IHME
-	421	Child health	Child mortality	Number of deaths	UN IGME
+	6209	Child health	Child mortality	Number of deaths	UN IGME
 	6004	Child health	Child mortality	Number of deaths	UN WPP
 	3401	Child health	Infant mortality	Number of deaths	UN IGME
 	4828	Child health	Infant mortality	Rate	UN IGME
