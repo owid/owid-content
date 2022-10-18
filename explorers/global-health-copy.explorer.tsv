@@ -103,7 +103,7 @@ graphers
 	6075	Infectious diseases	HIV/AIDS	Death rate	IHME
 	6201	Infectious diseases	HIV/AIDS	Death rate	WHO (GHE)
 	6202	Infectious diseases	HIV/AIDS	New infections	WHO (GHO)
-	4576	Infectious diseases	HIV/AIDS	Number of deaths	UNAIDS
+	4576	Infectious diseases	HIV/AIDS	Number of deaths	WHO (GHO)
 	4575	Infectious diseases	HIV/AIDS	Number of deaths	IHME
 	6200	Infectious diseases	HIV/AIDS	Number of deaths	WHO (GHE)
 	6155	Infectious diseases	HIV/AIDS	Incidence	IHME
