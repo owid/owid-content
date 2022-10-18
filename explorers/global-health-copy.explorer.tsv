@@ -21,14 +21,14 @@ graphers
 	714	Child health	Neonatal mortality	Rate	UN IGME
 		Child health	Youth mortality	Number of deaths
 	3475	Child health	Youth mortality	Rate	UN IGME
-	2836	Child health	Childhood stunting	Share of children	IHME
 	703	Child health	Childhood stunting	Share of children	UNICEF/WHO
-	4579	Child health	Childhood stunting	Number of children	IHME
+	2836	Child health	Childhood stunting	Share of children	IHME
 	5582	Child health	Childhood stunting	Number of children	UNICEF/WHO
-	2837	Child health	Childhood wasting	Share of children	IHME
+	4579	Child health	Childhood stunting	Number of children	IHME
 	792	Child health	Childhood wasting	Share of children	UNICEF/WHO
-	4581	Child health	Childhood wasting	Number of children	IHME
+	2837	Child health	Childhood wasting	Share of children	IHME
 	4580	Child health	Childhood wasting	Number of children	UNICEF/WHO
+	4581	Child health	Childhood wasting	Number of children	IHME
 	790	Child health	Children underweight	Share of children	UNICEF/WHO
 	6083	Child health	Children underweight	Number of children	UNICEF/WHO
 	3874	Child health	Exclusive breastfeeding rate	Share of infants	UNICEF
@@ -48,18 +48,18 @@ graphers
 	3483	Maternal health	Skilled attendant at delivery	Share of births	IHME
 	6196	Deaths and DALYs	Deaths by age group	Number of deaths	UN WPP
 	5943	Deaths and DALYs	Deaths in 2021 by age	Number of deaths	UN WPP
-	3625	Deaths and DALYs	Total deaths	Age-standardized rate	IHME
-	6099	Deaths and DALYs	Total deaths	Number of deaths	IHME
-	6100	Deaths and DALYs	Total deaths	Rate	IHME
 	6027	Deaths and DALYs	Total deaths	Number of deaths	UN WPP
-	1798	Deaths and DALYs	Total deaths	Rate	UN WPP
 	6067	Deaths and DALYs	Total deaths	Number of deaths	WHO (GHE)
+	6099	Deaths and DALYs	Total deaths	Number of deaths	IHME
 	6068	Deaths and DALYs	Total deaths	Rate	WHO (GHE)
-	2198	Deaths and DALYs	Total disease burden	Age-standardized rate	IHME
-	6028	Deaths and DALYs	Total disease burden	Number of deaths	IHME
+	1798	Deaths and DALYs	Total deaths	Rate	UN WPP
+	6100	Deaths and DALYs	Total deaths	Rate	IHME
+	3625	Deaths and DALYs	Total deaths	Age-standardized rate	IHME
+	6070	Deaths and DALYs	Total disease burden	Rate	WHO (GHE)
 	6029	Deaths and DALYs	Total disease burden	Rate	IHME
 	6069	Deaths and DALYs	Total disease burden	Number of deaths	WHO (GHE)
-	6070	Deaths and DALYs	Total disease burden	Rate	WHO (GHE)
+	6028	Deaths and DALYs	Total disease burden	Number of deaths	IHME
+	2198	Deaths and DALYs	Total disease burden	Age-standardized rate	IHME
 	2968	Life expectancy	Life expectancy at birth	Years	World Bank
 	126	Life expectancy	Life expectancy at age 10	Years	UN
 	6026	Life expectancy	Healthy life expectancy	Years	WHO (GHO)
