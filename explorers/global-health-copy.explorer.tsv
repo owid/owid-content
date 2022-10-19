@@ -174,11 +174,11 @@ graphers
 	6109	Injuries	Poisoning	Death rate	IHME
 	6187	Injuries	Poisoning	Number of deaths	WHO (GHE)
 	6188	Injuries	Poisoning	Death rate	WHO (GHE)
-	1584	Injuries	Road accidents	Age-standardized rate	IHME
-	6095	Injuries	Road accidents	Death rate	IHME
-	1585	Injuries	Road accidents	Number of deaths	IHME
-	6178	Injuries	Road accidents	Number of deaths	WHO (GHE)
-	6179	Injuries	Road accidents	Death rate	WHO (GHE)
+	1584	Injuries	Road injuries	Age-standardized rate	IHME
+	6095	Injuries	Road injuries	Death rate	IHME
+	1585	Injuries	Road injuries	Number of deaths	IHME
+	6178	Injuries	Road injuries	Number of deaths	WHO (GHE)
+	6179	Injuries	Road injuries	Death rate	WHO (GHE)
 	1741	Injuries	Suicides	Age-standardized rate	IHME
 	3789	Injuries	Suicides	Number of deaths	IHME
 	6096	Injuries	Suicides	Death rate	IHME
