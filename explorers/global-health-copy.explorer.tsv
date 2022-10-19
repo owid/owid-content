@@ -237,8 +237,8 @@ graphers
 	6175	Non-communicable diseases	Parkinson's disease	Death rate	WHO (GHE)
 	6149	Non-communicable diseases	Stroke	Death rate	IHME
 	1738	Non-communicable diseases	Stroke	Age-standardized rate	IHME
-	6158	Non-communicable diseases	Stroke	Number	IHME
-	6168	Non-communicable diseases	Stroke	Number	WHO (GHE)
+	6158	Non-communicable diseases	Stroke	Number of deaths	IHME
+	6168	Non-communicable diseases	Stroke	Number of deaths	WHO (GHE)
 	6169	Non-communicable diseases	Stroke	Death rate	WHO (GHE)
 	3764	Risk factors	Alcohol use	Age-standardized rate	IHME
 	6036	Risk factors	Alcohol use	Number of deaths	IHME
