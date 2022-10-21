@@ -3,7 +3,7 @@ isPublished	false
 selection	World	China	South Africa	Brazil	United States	United Kingdom	India
 graphers
 	grapherId	Category Dropdown	Indicator Dropdown	Metric Dropdown	Source Dropdown
-	4827	Child health	Child mortality	Rate	WHO (Global Health Observatory)
+	4827	Child health	Child mortality	Rate	WHO (GHO)
 	952	Child health	Child mortality	Rate	UN WPP
 	677	Child health	Child mortality	Rate	IHME
 	6209	Child health	Child mortality	Number of deaths	UN IGME
