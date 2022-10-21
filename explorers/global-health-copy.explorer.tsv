@@ -64,7 +64,7 @@ graphers
 	6026	Life expectancy	Healthy life expectancy	Years	WHO (GHO)
 	1547	Vaccination	BCG coverage	Share of one-year-olds vaccinated	UNICEF/WHO
 	4564	Vaccination	BCG coverage	Number of children not vaccinated	UNICEF/WHO
-	5256	Vaccination	DTP3 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
+	471	Vaccination	DTP3 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
 	4563	Vaccination	DTP3 coverage	Number of children not vaccinated	UNICEF/WHO
 	1546	Vaccination	HepB3 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
 	4565	Vaccination	HepB3 coverage	Number of children not vaccinated	UNICEF/WHO
