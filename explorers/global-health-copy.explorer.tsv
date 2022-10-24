@@ -2,7 +2,7 @@ explorerTitle	Global Health Data Explorer
 isPublished	false
 selection	World	China	South Africa	Brazil	United States	United Kingdom	India	Rwanda
 graphers
-	grapherId	Category Dropdown	Indicator Dropdown	Metric Dropdown	Source Dropdown
+	grapherId	Health Area Dropdown	Indicator Dropdown	Metric Dropdown	Source Dropdown
 	4827	Child health	Child mortality	Rate	WHO (GHO)
 	952	Child health	Child mortality	Rate	UN WPP
 	677	Child health	Child mortality	Rate	IHME
