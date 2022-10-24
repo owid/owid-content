@@ -288,8 +288,8 @@ graphers
 	1966	Health systems	Doctors	Rate	World Bank
 	5653	Health systems	Government expenditure on health	% of GDP	WHO (GHO)
 	555	Health systems	Government expenditure on health	$-constant international	WHO (GHO)
-	4543	Health systems	Healthcare access and quality index	Index	IHME
-	4544	Health systems	Healthcare access and quality index	Index	UN/World Bank
+	4543	Health systems	Healthcare access and quality	Index	IHME
+	4544	Health systems	Healthcare access and quality	Index	UN/World Bank
 	3998	Health systems	Hospital beds	Rate	WHO
 	1965	Health systems	Nurses and midwives	Rate	World Bank
-	5238	Health systems	Universal Health Coverage Index	Index	WHO
+	5238	Health systems	Universal health coverage index	Index	WHO
