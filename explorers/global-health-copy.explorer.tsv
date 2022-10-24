@@ -56,8 +56,8 @@ graphers
 	3625	Deaths and DALYs	Total deaths	Age-standardized rate	IHME
 	6070	Deaths and DALYs	Total disease burden	Rate	WHO (GHE)
 	6029	Deaths and DALYs	Total disease burden	Rate	IHME
-	6069	Deaths and DALYs	Total disease burden	Number of deaths	WHO (GHE)
-	6028	Deaths and DALYs	Total disease burden	Number of deaths	IHME
+	6069	Deaths and DALYs	Total disease burden	Number of DALYs	WHO (GHE)
+	6028	Deaths and DALYs	Total disease burden	Number of DALYs	IHME
 	2198	Deaths and DALYs	Total disease burden	Age-standardized rate	IHME
 	2968	Life expectancy	Life expectancy at birth	Years	World Bank
 	126	Life expectancy	Life expectancy at age 10	Years	UN
