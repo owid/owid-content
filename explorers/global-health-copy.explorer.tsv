@@ -21,14 +21,14 @@ graphers
 	6212	Child health	Neonatal mortality	Rate	WHO (GHO)
 	6215	Child health	Youth mortality	Number of deaths	UN IGME
 	3475	Child health	Youth mortality	Rate	UN IGME
-	703	Child health	Childhood stunting	Share of children	UNICEF/WHO
-	2836	Child health	Childhood stunting	Share of children	IHME
-	5582	Child health	Childhood stunting	Number of children	UNICEF/WHO
-	4579	Child health	Childhood stunting	Number of children	IHME
-	792	Child health	Childhood wasting	Share of children	UNICEF/WHO
-	2837	Child health	Childhood wasting	Share of children	IHME
-	4580	Child health	Childhood wasting	Number of children	UNICEF/WHO
-	4581	Child health	Childhood wasting	Number of children	IHME
+	703	Child health	Children stunting	Share of children	UNICEF/WHO
+	2836	Child health	Children stunting	Share of children	IHME
+	5582	Child health	Children stunting	Number of children	UNICEF/WHO
+	4579	Child health	Children stunting	Number of children	IHME
+	792	Child health	Children wasting	Share of children	UNICEF/WHO
+	2837	Child health	Children wasting	Share of children	IHME
+	4580	Child health	Children wasting	Number of children	UNICEF/WHO
+	4581	Child health	Children wasting	Number of children	IHME
 	790	Child health	Children underweight	Share of children	UNICEF/WHO
 	6083	Child health	Children underweight	Number of children	UNICEF/WHO
 	3874	Child health	Exclusive breastfeeding rate	Share of infants	UNICEF
