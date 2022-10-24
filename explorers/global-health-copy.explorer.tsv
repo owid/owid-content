@@ -44,7 +44,7 @@ graphers
 	2285	Maternal health	HIV+ pregnant women receiving ARTs	Rate	UNAIDS
 	1375	Maternal health	Access to modern contraceptives	Rate	World Bank
 	1372	Maternal health	Prevalence of modern contraceptives	Rate	World Bank
-	1596	Maternal health	Skilled attendant at delivery	Rate	UNICEF
+	1596	Maternal health	Skilled attendant at delivery	Share of births	UNICEF
 	3483	Maternal health	Skilled attendant at delivery	Share of births	IHME
 	6196	Deaths and DALYs	Deaths by age group	Number of deaths	UN WPP
 	6027	Deaths and DALYs	Total deaths	Number of deaths	UN WPP
