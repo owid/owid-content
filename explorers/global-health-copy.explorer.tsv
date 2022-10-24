@@ -62,14 +62,12 @@ graphers
 	2968	Life expectancy	Life expectancy at birth	Years	World Bank
 	126	Life expectancy	Life expectancy at age 10	Years	UN
 	6026	Life expectancy	Healthy life expectancy	Years	WHO (GHO)
-	1547	Vaccination	Tuberculosis vaccine	Share of one-year-olds vaccinated	UNICEF/WHO
-	4564	Vaccination	Tuberculosis vaccine	Number of children not vaccinated	UNICEF/WHO
 	471	Vaccination	Diphtheria, pertussis, and tetanus vaccine	Share of one-year-olds vaccinated	UNICEF/WHO
 	4563	Vaccination	Diphtheria, pertussis, and tetanus vaccine	Number of children not vaccinated	UNICEF/WHO
-	1546	Vaccination	Hepatitis B vaccine	Share of one-year-olds vaccinated	UNICEF/WHO
-	4565	Vaccination	Hepatitis B vaccine	Number of children not vaccinated	UNICEF/WHO
 	3603	Vaccination	Haemophilus influenza type B vaccine	Share of one-year-olds vaccinated	UNICEF/WHO
 	4566	Vaccination	Haemophilus influenza type B vaccine	Number of children not vaccinated	UNICEF/WHO
+	1546	Vaccination	Hepatitis B vaccine	Share of one-year-olds vaccinated	UNICEF/WHO
+	4565	Vaccination	Hepatitis B vaccine	Number of children not vaccinated	UNICEF/WHO
 	4561	Vaccination	Inactivated polio vaccine	Share of one-year-olds vaccinated	UNICEF/WHO
 	4567	Vaccination	Inactivated polio vaccine	Number of children not vaccinated	UNICEF/WHO
 	299	Vaccination	Measles vaccine, first dose	Share of one-year-olds vaccinated	UNICEF/WHO
@@ -84,6 +82,8 @@ graphers
 	4574	Vaccination	Rubella vaccine	Number of children not vaccinated	UNICEF/WHO
 	3553	Vaccination	Rotavirus vaccine	Share of one-year-olds vaccinated	UNICEF/WHO
 	4571	Vaccination	Rotavirus vaccine	Number of children not vaccinated	UNICEF/WHO
+	1547	Vaccination	Tuberculosis vaccine	Share of one-year-olds vaccinated	UNICEF/WHO
+	4564	Vaccination	Tuberculosis vaccine	Number of children not vaccinated	UNICEF/WHO
 	3899	Vaccination	Yellow fever vaccine	Share of one-year-olds vaccinated	UNICEF/WHO
 	4570	Vaccination	Yellow fever vaccine	Number of children not vaccinated	UNICEF/WHO
 	2947	Deaths from infectious diseases	All infectious diseases	Age-standardized rate	IHME
