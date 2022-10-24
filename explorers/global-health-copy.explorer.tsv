@@ -290,8 +290,8 @@ graphers
 	209	Health systems	Government expenditure on health	% of total healthcare expenditure	WHO (GHO)
 	555	Health systems	Total expenditure on health	$-constant international per capita	WHO (GHO)
 	207	Health systems	Total expenditure on health	% of GDP	WHO (GHO)
-	210	Health systems	Out-of-pocket expenditure	% of total healthcare expenditure	WHO (GHO)
-	2690	Health systems	Out-of-pocket expenditure	$-constant international per capita	WHO (GHO)
+	210	Health systems	Out-of-pocket expenditure on health	% of total healthcare expenditure	WHO (GHO)
+	2690	Health systems	Out-of-pocket expenditure on health	$-constant international per capita	WHO (GHO)
 	3558	Health systems	Private health expenditure	$-constant international per capita	WHO (GHO)
 	4543	Health systems	Healthcare access and quality	Index	IHME
 	4544	Health systems	Healthcare access and quality	Index	UN/World Bank
