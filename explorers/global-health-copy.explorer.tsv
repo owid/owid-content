@@ -62,30 +62,30 @@ graphers
 	2968	Life expectancy	Life expectancy at birth	Years	World Bank
 	126	Life expectancy	Life expectancy at age 10	Years	UN
 	6026	Life expectancy	Healthy life expectancy	Years	WHO (GHO)
-	1547	Vaccination	Tuberculosis vacccine	Share of one-year-olds vaccinated	UNICEF/WHO
-	4564	Vaccination	Tuberculosis vacccine	Number of children not vaccinated	UNICEF/WHO
-	471	Vaccination	DTP3 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
-	4563	Vaccination	DTP3 coverage	Number of children not vaccinated	UNICEF/WHO
-	1546	Vaccination	HepB3 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
-	4565	Vaccination	HepB3 coverage	Number of children not vaccinated	UNICEF/WHO
-	3603	Vaccination	Hib3 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
-	4566	Vaccination	Hib3 coverage	Number of children not vaccinated	UNICEF/WHO
-	4561	Vaccination	IPV1 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
-	4567	Vaccination	IPV1 coverage	Number of children not vaccinated	UNICEF/WHO
-	299	Vaccination	MCV1 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
-	4568	Vaccination	MCV1 coverage	Number of children not vaccinated	UNICEF/WHO
-	3887	Vaccination	MCV2 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
-	6222	Vaccination	MCV2 coverage	Number of children not vaccinated	UNICEF/WHO
-	3594	Vaccination	PCV3 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
-	4572	Vaccination	PCV3 coverage	Number of children not vaccinated	UNICEF/WHO
-	1068	Vaccination	Pol3 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
-	4569	Vaccination	Pol3 coverage	Number of children not vaccinated	UNICEF/WHO
-	4573	Vaccination	RCV1 coverage	Share of one-year-olds vaccinated	UNICEF/WHO
-	4574	Vaccination	RCV1 coverage	Number of children not vaccinated	UNICEF/WHO
-	3553	Vaccination	RotaC coverage	Share of one-year-olds vaccinated	UNICEF/WHO
-	4571	Vaccination	RotaC coverage	Number of children not vaccinated	UNICEF/WHO
-	3899	Vaccination	YFV coverage	Share of one-year-olds vaccinated	UNICEF/WHO
-	4570	Vaccination	YFV coverage	Number of children not vaccinated	UNICEF/WHO
+	1547	Vaccination	Tuberculosis vaccine	Share of one-year-olds vaccinated	UNICEF/WHO
+	4564	Vaccination	Tuberculosis vaccine	Number of children not vaccinated	UNICEF/WHO
+	471	Vaccination	Diphtheria, pertussis, and tetanus vaccine	Share of one-year-olds vaccinated	UNICEF/WHO
+	4563	Vaccination	Diphtheria, pertussis, and tetanus vaccine	Number of children not vaccinated	UNICEF/WHO
+	1546	Vaccination	Hepatitis B vaccine	Share of one-year-olds vaccinated	UNICEF/WHO
+	4565	Vaccination	Hepatitis B vaccine	Number of children not vaccinated	UNICEF/WHO
+	3603	Vaccination	Haemophilus influenza type B vaccine	Share of one-year-olds vaccinated	UNICEF/WHO
+	4566	Vaccination	Haemophilus influenza type B vaccine	Number of children not vaccinated	UNICEF/WHO
+	4561	Vaccination	Inactivated polio vaccine	Share of one-year-olds vaccinated	UNICEF/WHO
+	4567	Vaccination	Inactivated polio vaccine	Number of children not vaccinated	UNICEF/WHO
+	299	Vaccination	Measles vaccine, first dose	Share of one-year-olds vaccinated	UNICEF/WHO
+	4568	Vaccination	Measles vaccine, first dose	Number of children not vaccinated	UNICEF/WHO
+	3887	Vaccination	Measles vaccine, second dose	Share of one-year-olds vaccinated	UNICEF/WHO
+	6222	Vaccination	Measles vaccine, second dose	Number of children not vaccinated	UNICEF/WHO
+	3594	Vaccination	Pneumonia vaccine	Share of one-year-olds vaccinated	UNICEF/WHO
+	4572	Vaccination	Pneumonia vaccine	Number of children not vaccinated	UNICEF/WHO
+	1068	Vaccination	Polio vaccine	Share of one-year-olds vaccinated	UNICEF/WHO
+	4569	Vaccination	Polio vaccine	Number of children not vaccinated	UNICEF/WHO
+	4573	Vaccination	Rubella vaccine	Share of one-year-olds vaccinated	UNICEF/WHO
+	4574	Vaccination	Rubella vaccine	Number of children not vaccinated	UNICEF/WHO
+	3553	Vaccination	Rotavirus vaccine	Share of one-year-olds vaccinated	UNICEF/WHO
+	4571	Vaccination	Rotavirus vaccine	Number of children not vaccinated	UNICEF/WHO
+	3899	Vaccination	Yellow fever vaccine	Share of one-year-olds vaccinated	UNICEF/WHO
+	4570	Vaccination	Yellow fever vaccine	Number of children not vaccinated	UNICEF/WHO
 	2947	Deaths from infectious diseases	All infectious diseases	Age-standardized rate	IHME
 	6140	Deaths from infectious diseases	All infectious diseases	Death rate	IHME
 	6141	Deaths from infectious diseases	All infectious diseases	Number of deaths	IHME
