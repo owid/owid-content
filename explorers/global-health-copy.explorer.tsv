@@ -38,8 +38,8 @@ graphers
 	762	Maternal health	Maternal mortality	Number of deaths	World Bank
 	4578	Maternal health	Maternal mortality	Number of deaths	IHME
 	3595	Maternal health	Lifetime risk of maternal death	Rate	WHO (GHO)
-	3872	Maternal health	Antenatal visits - 1+ visits	Rate	WHO (GHO)
-	3873	Maternal health	Antenatal visits - 4+ visits	Rate	WHO (GHO)
+	3872	Maternal health	Antenatal visits — 1+ visits	Rate	WHO (GHO)
+	3873	Maternal health	Antenatal visits — 4+ visits	Rate	WHO (GHO)
 	4542	Maternal health	Postnatal health check	Rate	World Bank
 	2285	Maternal health	HIV+ pregnant women receiving ARTs	Rate	UNAIDS
 	1375	Maternal health	Access to modern contraceptives	Rate	World Bank
