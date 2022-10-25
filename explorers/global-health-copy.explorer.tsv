@@ -70,8 +70,7 @@ graphers
 	4565	Vaccination	Hepatitis B	Number of children not vaccinated	UNICEF/WHO
 	299	Vaccination	Measles (first dose)	Share of one-year-olds vaccinated	UNICEF/WHO
 	4568	Vaccination	Measles (first dose)	Number of children not vaccinated	UNICEF/WHO
-	3887	Vaccination	Measles (second dose)	Share of one-year-olds vaccinated	UNICEF/WHO
-	6222	Vaccination	Measles (second dose)	Number of children not vaccinated	UNICEF/WHO
+	3887	Vaccination	Measles (second dose)	Share of children vaccinated	UNICEF/WHO
 	3594	Vaccination	Pneumonia	Share of one-year-olds vaccinated	UNICEF/WHO
 	4572	Vaccination	Pneumonia	Number of children not vaccinated	UNICEF/WHO
 	4561	Vaccination	Polio (inactivated, first dose)	Share of one-year-olds vaccinated	UNICEF/WHO
