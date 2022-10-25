@@ -59,6 +59,8 @@ graphers
 	6028	Deaths and DALYs	Total disease burden	Number of DALYs	IHME
 	2198	Deaths and DALYs	Total disease burden	Age-standardized rate	IHME
 	2968	Life expectancy	Life expectancy at birth	Years	World Bank
+	64	Life expectancy	Life expectancy at birth	Years	OWID
+	4830	Life expectancy	Life expectancy at birth	Years	WHO (GHO)
 	126	Life expectancy	Life expectancy at age 10	Years	UN
 	6026	Life expectancy	Healthy life expectancy	Years	WHO (GHO)
 	471	Vaccination coverage	Diphtheria, pertussis, and tetanus	Share of one-year-olds vaccinated	UNICEF/WHO
