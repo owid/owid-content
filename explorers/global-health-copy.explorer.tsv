@@ -71,8 +71,6 @@ graphers
 	299	Vaccination	Measles (first dose)	Share of one-year-olds vaccinated	UNICEF/WHO
 	4568	Vaccination	Measles (first dose)	Number of children not vaccinated	UNICEF/WHO
 	3887	Vaccination	Measles (second dose)	Share of children vaccinated	UNICEF/WHO
-	3594	Vaccination	Pneumonia	Share of one-year-olds vaccinated	UNICEF/WHO
-	4572	Vaccination	Pneumonia	Number of children not vaccinated	UNICEF/WHO
 	4561	Vaccination	Polio (inactivated, first dose)	Share of one-year-olds vaccinated	UNICEF/WHO
 	4567	Vaccination	Polio (inactivated, first dose)	Number of children not vaccinated	UNICEF/WHO
 	1068	Vaccination	Polio (third dose)	Share of one-year-olds vaccinated	UNICEF/WHO
@@ -81,6 +79,8 @@ graphers
 	4574	Vaccination	Rubella	Number of children not vaccinated	UNICEF/WHO
 	3553	Vaccination	Rotavirus	Share of one-year-olds vaccinated	UNICEF/WHO
 	4571	Vaccination	Rotavirus	Number of children not vaccinated	UNICEF/WHO
+	3594	Vaccination	Streptococcus pneumoniae	Share of one-year-olds vaccinated	UNICEF/WHO
+	4572	Vaccination	Streptococcus pneumoniae	Number of children not vaccinated	UNICEF/WHO
 	1547	Vaccination	Tuberculosis	Share of one-year-olds vaccinated	UNICEF/WHO
 	4564	Vaccination	Tuberculosis	Number of children not vaccinated	UNICEF/WHO
 	3899	Vaccination	Yellow fever	Share of one-year-olds vaccinated	UNICEF/WHO
