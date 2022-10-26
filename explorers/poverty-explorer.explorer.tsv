@@ -7,6 +7,7 @@ hasMapTab	true
 wpBlockId	52633
 entityType	country or region
 thumbnail	https://ourworldindata.org/uploads/2022/10/chart.png
+pickerColumnSlugs	headcount_ratio_100 headcount_ratio_215 headcount_ratio_365 headcount_ratio_685 headcount_ratio_1000 headcount_ratio_2000 headcount_ratio_3000 headcount_ratio_4000 headcount_100 headcount_215 headcount_365 headcount_685 headcount_1000 headcount_2000 headcount_3000 headcount_4000 headcount_ratio_40_median headcount_ratio_50_median headcount_ratio_60_median headcount_40_median headcount_50_median headcount_60_median mean median decile1_thr decile9_thr
 
 graphers
 	title	Metric Dropdown	Poverty line Dropdown	Household survey data type Dropdown	Show breaks between less comparable surveys Checkbox	tableSlug	ySlugs	subtitle	note	sourceDesc	relatedQuestionUrl	type	yAxisMin	facet	selectedFacetStrategy	hasMapTab	tab	mapTargetTime	defaultView
