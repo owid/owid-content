@@ -224,7 +224,7 @@ graphers
 	6192	Deaths from non-communicable diseases	Drug use disorders	Death rate	WHO (GHE)
 	6084	Deaths from non-communicable diseases	Liver disease	Age-standardized rate	IHME
 	6091	Deaths from non-communicable diseases	Liver disease	Number of deaths	IHME
-	6101	Deaths from non-communicable diseases	Liver disease	Death rate	IHME
+	6084	Deaths from non-communicable diseases	Liver disease	Death rate	IHME
 	1749	Deaths from non-communicable diseases	Malnutrition	Age-standardized rate	IHME
 	6147	Deaths from non-communicable diseases	Malnutrition	Death rate	IHME
 	6148	Deaths from non-communicable diseases	Malnutrition	Number of deaths	IHME
