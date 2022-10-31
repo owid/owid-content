@@ -1,5 +1,6 @@
 explorerTitle	Global Health Data Explorer
 isPublished	false
+thumbnail	https://owid.cloud/app/uploads/2022/10/Global-Health-Explorer.png
 selection	World	China	South Africa	Brazil	United States	United Kingdom	India	Rwanda
 graphers
 	grapherId	Health Area Dropdown	Indicator Dropdown	Metric Dropdown	Source Dropdown
