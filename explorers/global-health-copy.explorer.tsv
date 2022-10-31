@@ -294,7 +294,6 @@ graphers
 	2690	Health systems	Out-of-pocket expenditure on health	$-constant international per capita	WHO (GHO)
 	3558	Health systems	Private health expenditure	$-constant international per capita	WHO (GHO)
 	4543	Health systems	Healthcare access and quality	Index	IHME
-	4544	Health systems	Healthcare access and quality	Index	UN/World Bank
+	4544	Health systems	Healthcare access and quality	Index	WHO (GHO)
 	3998	Health systems	Hospital beds	Rate	WHO
-	1965	Health systems	Nurses and midwives	Rate	World Bank
 	5238	Health systems	Universal health coverage index	Index	WHO
