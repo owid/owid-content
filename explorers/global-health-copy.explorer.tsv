@@ -121,6 +121,7 @@ graphers
 	6101	Deaths from infectious diseases	Meningitis	Death rate	IHME
 	6136	Deaths from infectious diseases	Meningitis	Incidence	IHME
 	6197	Deaths from infectious diseases	Meningitis	Number of deaths	WHO (GHE)
+	6255	Deaths from infectious diseases	Meningitis	Death rate	WHO (GHE)
 	1126	Deaths from infectious diseases	Polio	Reported cases	WHO
 	1201	Deaths from infectious diseases	Polio	Reported cases per million	WHO
 	3733	Deaths from infectious diseases	Pneumonia	Age-standardized rate	IHME
