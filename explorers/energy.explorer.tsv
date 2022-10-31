@@ -5,9 +5,9 @@ selection	United States	United Kingdom	China	World	India	Brazil	South Africa
 subNavId	energy
 subNavCurrentId	energy-data-explorer
 graphers
-	grapherId	Total or Breakdown Radio	Select a source Dropdown	Energy or Electricity Radio	Metric Dropdown
+	grapherId	Total or Breakdown Radio	Select a source Dropdown	Energy or Electricity Radio	Metric Dropdown	defaultView
 	3868	Total		Primary energy	Annual consumption
-	586	Total		Primary energy	Per capita consumption
+	586	Total		Primary energy	Per capita consumption	true
 	4287	Total		Primary energy	Rel. change from previous year
 	4288	Total		Primary energy	Abs. change from previous year
 	4289	Total		Electricity only	Annual generation
