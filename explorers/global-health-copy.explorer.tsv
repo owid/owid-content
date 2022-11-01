@@ -198,7 +198,7 @@ graphers
 	6104	Non-communicable diseases	Alzheimer's	Death rate	IHME
 	6172	Non-communicable diseases	Alzheimer's	Number of deaths	WHO (GHE)
 	6173	Non-communicable diseases	Alzheimer's	Death rate	WHO (GHE)
-	6256	Non-communicable diseases	Alzheimer's	Prevalence	IHME
+	6256	Non-communicable diseases	Alzheimer's	Prevalence rate	IHME
 	1714	Non-communicable diseases	Cancer	Age-standardized death rate	IHME
 	6203	Non-communicable diseases	Cancer	Number of deaths	IHME
 	6204	Non-communicable diseases	Cancer	Number of deaths	WHO (GHE)
@@ -212,7 +212,7 @@ graphers
 	1752	Non-communicable diseases	Chronic respiratory disease	Age-standardized death rate	IHME
 	6089	Non-communicable diseases	Chronic respiratory disease	Death rate	IHME
 	6090	Non-communicable diseases	Chronic respiratory disease	Number of deaths	IHME
-	1572	Non-communicable diseases	Diabetes	Prevalence	International Diabetes Federation
+	1572	Non-communicable diseases	Diabetes	Prevalence rate	International Diabetes Federation
 	6081	Non-communicable diseases	Diabetes	Age-standardized death rate	IHME
 	6092	Non-communicable diseases	Diabetes	Number of deaths	IHME
 	6103	Non-communicable diseases	Diabetes	Death rate	IHME
