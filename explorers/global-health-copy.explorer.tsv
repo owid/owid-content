@@ -290,13 +290,10 @@ graphers
 	3895	Risk factors	Unsafe water	Age-standardized death rate	IHME
 	6033	Risk factors	Unsafe water	Number of deaths	IHME
 	6119	Risk factors	Unsafe water	Death rate	IHME
-	555	Health systems	Total expenditure on health	$-current international per capita	WHO (GHO)
 	207	Health systems	Total expenditure on health	% of GDP	WHO (GHO)
 	5653	Health systems	Government expenditure on health	% of GDP	WHO (GHO)
 	209	Health systems	Government expenditure on health	% of total healthcare expenditure	WHO (GHO)
 	210	Health systems	Out-of-pocket expenditure on health	% of total healthcare expenditure	WHO (GHO)
-	2690	Health systems	Out-of-pocket expenditure on health	$-current international per capita	WHO (GHO)
-	3558	Health systems	Private health expenditure	$-current international per capita	WHO (GHO)
 	4543	Health systems	Healthcare access and quality	Index	IHME
 	4544	Health systems	Healthcare access and quality	Index	WHO (GHO)
 	5238	Health systems	Universal health coverage index	Index	WHO
