@@ -67,8 +67,8 @@ graphers
 	6026	Life expectancy	Healthy life expectancy	Years	WHO (GHO)
 	471	Vaccination coverage	Diphtheria, pertussis, and tetanus	Share of one-year-olds vaccinated	UNICEF/WHO
 	4563	Vaccination coverage	Diphtheria, pertussis, and tetanus	Number of one-year-olds not vaccinated	UNICEF/WHO
-	3603	Vaccination coverage	Haemophilus influenza type B	Share of one-year-olds vaccinated	UNICEF/WHO
-	4566	Vaccination coverage	Haemophilus influenza type B	Number of one-year-olds not vaccinated	UNICEF/WHO
+	3603	Vaccination coverage	Haemophilus influenzae type B	Share of one-year-olds vaccinated	UNICEF/WHO
+	4566	Vaccination coverage	Haemophilus influenzae type B	Number of one-year-olds not vaccinated	UNICEF/WHO
 	1546	Vaccination coverage	Hepatitis B	Share of one-year-olds vaccinated	UNICEF/WHO
 	4565	Vaccination coverage	Hepatitis B	Number of one-year-olds not vaccinated	UNICEF/WHO
 	299	Vaccination coverage	Measles (first dose)	Share of one-year-olds vaccinated	UNICEF/WHO
