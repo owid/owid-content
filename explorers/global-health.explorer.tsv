@@ -151,8 +151,8 @@ graphers
 	6098	Injuries	Drowning	Number of deaths	IHME
 	6184	Injuries	Drowning	Number of deaths	WHO (GHE)
 	6185	Injuries	Drowning	Death rate	WHO (GHE)
-	6053	Injuries	Falls	Number of deaths	WHO
-	6054	Injuries	Falls	Death rate	WHO
+	6053	Injuries	Falls	Number of deaths	WHO (GHE)
+	6054	Injuries	Falls	Death rate	WHO (GHE)
 	6110	Injuries	Falls	Age-standardized death rate	IHME
 	6111	Injuries	Falls	Number of deaths	IHME
 	6112	Injuries	Falls	Death rate	IHME
@@ -170,8 +170,8 @@ graphers
 	2016	Injuries	Natural disasters	Number of deaths	IHME
 	1622	Injuries	Natural disasters	Death rate	IHME
 	6107	Injuries	Natural disasters	Age-standardized death rate	IHME
-	6065	Injuries	Natural disasters	Death rate	WHO
-	6066	Injuries	Natural disasters	Number of deaths	WHO
+	6065	Injuries	Natural disasters	Death rate	WHO (GHE)
+	6066	Injuries	Natural disasters	Number of deaths	WHO (GHE)
 	6086	Injuries	Poisoning	Number of deaths	IHME
 	6108	Injuries	Poisoning	Age-standardized death rate	IHME
 	6109	Injuries	Poisoning	Death rate	IHME
