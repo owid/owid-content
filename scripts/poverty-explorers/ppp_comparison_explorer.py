@@ -365,6 +365,9 @@ for survey in range(len(survey_type)):
     df_tables.loc[j, 'colorScaleScheme'] = "Blues"
     df_tables.loc[j, 'survey_type'] = survey_type['table_name'][survey]
     j += 1
+    
+#Make tolerance integer (to not break the parameter in the platform)
+df_tables['tolerance'] = df_tables['tolerance'].astype("Int64")
 # -
 
 # ## Grapher views
@@ -918,6 +921,9 @@ for survey in range(len(survey_type)):
 #Add PPP comparison article as related question link
 df_graphers['relatedQuestionText'] = "From $1.90 to $2.15 a day: the updated International Poverty Line"
 df_graphers['relatedQuestionUrl'] = "https://ourworldindata.org/from-1-90-to-2-15-a-day-the-updated-international-poverty-line"
+
+#Make mapTargetTime integer (to not break the parameter in the platform)
+df_graphers['mapTargetTime'] = df_graphers['mapTargetTime'].astype("Int64")
     
 #Select one default view
 df_graphers.loc[(df_graphers['ySlugs'] == "headcount_ratio_190_ppp2011 headcount_ratio_215_ppp2017") 
