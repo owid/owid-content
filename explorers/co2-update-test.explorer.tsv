@@ -1,0 +1,57 @@
+explorerTitle	CO₂ Data Explorer
+isPublished	false
+explorerSubtitle	Download the complete <i>Our World in Data</i> <a href="https://github.com/owid/co2-data">CO₂ and GHG Emissions Dataset</a>.
+selection	China	United States	India	United Kingdom	World
+subNavId	co2
+subNavCurrentId	co2-data-explorer
+wpBlockId	36228
+tab	chart
+graphers
+	grapherId	Gas Radio	Accounting Radio	Fuel or Land Use Change Dropdown	Count Dropdown	Relative to world total Checkbox
+	486	CO₂	Production-based	All fossil emissions	Per capita
+	488	CO₂	Production-based	All fossil emissions	Per country	false
+	3219	CO₂	Production-based	All fossil emissions	Per country	true
+	485	CO₂	Production-based	All fossil emissions	Cumulative	false
+	3218	CO₂	Production-based	All fossil emissions	Cumulative	true
+	4267	CO₂	Production-based	All fossil emissions	Per MWh of energy
+	530	CO₂	Production-based	All fossil emissions	Per $ of GDP
+		CO₂	Production-based	Land use change	Per capita
+		CO₂	Production-based	Land use change	Per country	false
+		CO₂	Production-based	Land use change	Per country	true
+		CO₂	Production-based	Land use change	Cumulative	false
+		CO₂	Production-based	Land use change	Cumulative	true
+		CO₂	Production-based	Fossil + land use change	Per capita
+		CO₂	Production-based	Fossil + land use change	Per country	false
+		CO₂	Production-based	Fossil + land use change	Per country	true
+		CO₂	Production-based	Fossil + land use change	Cumulative	false
+		CO₂	Production-based	Fossil + land use change	Cumulative	true
+	3621	CO₂	Consumption-based		Per country
+	3488	CO₂	Consumption-based		Per capita
+	4331	CO₂	Consumption-based		Per $ of GDP
+	696	CO₂	Consumption-based		Share of emissions embedded in trade
+	4250	CO₂	Production-based	Coal	Per country
+	4251	CO₂	Production-based	Oil	Per country
+	4253	CO₂	Production-based	Gas	Per country
+	4255	CO₂	Production-based	Cement	Per country
+	4332	CO₂	Production-based	Flaring	Per country
+	4249	CO₂	Production-based	Coal	Per capita
+	4252	CO₂	Production-based	Oil	Per capita
+	4254	CO₂	Production-based	Gas	Per capita
+	4256	CO₂	Production-based	Cement	Per capita
+	4333	CO₂	Production-based	Flaring	Per capita
+	4753	CO₂	Production-based	Coal	Cumulative	false
+	4754	CO₂	Production-based	Oil	Cumulative	false
+	4755	CO₂	Production-based	Gas	Cumulative	false
+	4756	CO₂	Production-based	Cement	Cumulative	false
+	4757	CO₂	Production-based	Flaring	Cumulative	false
+	4758	CO₂	Production-based	Coal	Cumulative	true
+	4762	CO₂	Production-based	Oil	Cumulative	true
+	4759	CO₂	Production-based	Gas	Cumulative	true
+	4761	CO₂	Production-based	Cement	Cumulative	true
+	4760	CO₂	Production-based	Flaring	Cumulative	true
+	4147	All GHGs (CO₂eq)	Production-based		Per country
+	4239	All GHGs (CO₂eq)	Production-based		Per capita
+	4222	Methane	Production-based		Per country
+	4243	Methane	Production-based		Per capita
+	4224	Nitrous oxide	Production-based		Per country
+	4244	Nitrous oxide	Production-based		Per capita
