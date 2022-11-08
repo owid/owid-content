@@ -527,7 +527,7 @@ graphers_tsv = graphers_tsv.to_csv(sep="\t", index=False)
 graphers_tsv_indented = textwrap.indent(graphers_tsv, "\t")
 
 #The dataframes are combined, including tables which are filtered by survey type and variable
-with open(outfile, "w", newline="\n") as f:
+with open(outfile, "w", newline="\n", encoding='utf-8') as f:
     f.write(header_tsv)
     f.write("\ngraphers\n" + graphers_tsv_indented)
     
