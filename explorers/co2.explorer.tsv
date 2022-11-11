@@ -7,14 +7,24 @@ subNavCurrentId	co2-data-explorer
 wpBlockId	36228
 tab	chart
 graphers
-	grapherId	Gas Radio	Accounting Radio	Fuel Dropdown	Count Dropdown	Relative to world total Checkbox
-	486	CO₂	Production-based	Total	Per capita
-	488	CO₂	Production-based	Total	Per country	false
-	3219	CO₂	Production-based	Total	Per country	true
-	485	CO₂	Production-based	Total	Cumulative	false
-	3218	CO₂	Production-based	Total	Cumulative	true
-	4267	CO₂	Production-based	Total	Per MWh of energy
-	530	CO₂	Production-based	Total	Per $ of GDP
+	grapherId	Gas Radio	Accounting Radio	Fuel or Land Use Change Dropdown	Count Dropdown	Relative to world total Checkbox
+	486	CO₂	Production-based	All fossil emissions	Per capita
+	488	CO₂	Production-based	All fossil emissions	Per country	false
+	3219	CO₂	Production-based	All fossil emissions	Per country	true
+	485	CO₂	Production-based	All fossil emissions	Cumulative	false
+	3218	CO₂	Production-based	All fossil emissions	Cumulative	true
+	4267	CO₂	Production-based	All fossil emissions	Per MWh of energy
+	530	CO₂	Production-based	All fossil emissions	Per $ of GDP
+	6266	CO₂	Production-based	Land use change	Per capita
+	6265	CO₂	Production-based	Land use change	Per country	false
+	6267	CO₂	Production-based	Land use change	Per country	true
+	6268	CO₂	Production-based	Land use change	Cumulative	false
+	6269	CO₂	Production-based	Land use change	Cumulative	true
+	6271	CO₂	Production-based	Fossil + land use change	Per capita
+	6270	CO₂	Production-based	Fossil + land use change	Per country	false
+	6272	CO₂	Production-based	Fossil + land use change	Per country	true
+	6273	CO₂	Production-based	Fossil + land use change	Cumulative	false
+	6274	CO₂	Production-based	Fossil + land use change	Cumulative	true
 	3621	CO₂	Consumption-based		Per country
 	3488	CO₂	Consumption-based		Per capita
 	4331	CO₂	Consumption-based		Per $ of GDP
