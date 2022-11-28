@@ -7,7 +7,7 @@ hideAlertBanner	true
 yAxisMin	0
 hasMapTab	true
 pickerColumnSlugs	location total_confirmed_by_confirmation total_confirmed_by_confirmation_per_million
-downloadDataLink	https://raw.githubusercontent.com/owid/monkeypox/main/owid-monkeypox-data.csv
+downloadDataLink	https://github.com/owid/monkeypox/blob/mpox_who/owid-monkeypox-data.csv
 graphers
 	title	subtitle	ySlugs	hideTitleAnnotation	Metric Radio	Frequency Radio	Relative to population Checkbox	type	yScaleToggle
 	Monkeypox: Daily confirmed cases	7-day rolling average	new_cases_smoothed	true	Confirmed cases	7-day average	false	LineChart	true
