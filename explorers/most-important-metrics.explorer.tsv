@@ -13,8 +13,11 @@ graphers
 	5451	Human rights and Democracy	Democracy	Political regime	People living in democracies
 	5537	Human rights and Democracy	Democracy	Electoral democracy	Main index
 	5685	Human rights and Democracy	Democracy	Electoral democracy	Main index weighted by population
+	5860	Human rights and Democracy	Democracy	Electoral democracy	Main index distribution
+	5861	Human rights and Democracy	Democracy	Electoral democracy	Main index distribution weighted by population
 	6233	Human rights and Democracy	Human rights		Main index
 	6237	Human rights and Democracy	Human rights		Main index weighted by population
+	6286	Human rights and Democracy	Human rights		Main index distribution
 		Human rights and Democracy	State capacity
 		Human rights and Democracy	Gender and sexual discrimination
 		Human rights and Democracy	Sovereignty
