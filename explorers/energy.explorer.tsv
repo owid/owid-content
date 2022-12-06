@@ -3,6 +3,7 @@ isPublished	true
 explorerSubtitle	Download the complete <i>Our World in Data</i> <a href="https://github.com/owid/energy-data">Energy Dataset</a>.
 selection	United States	United Kingdom	China	World	India	Brazil	South Africa
 subNavId	energy
+thumbnail	https://owid.cloud/app/uploads/2022/12/Energy-data-explorer-Thumbnail.png
 subNavCurrentId	energy-data-explorer
 graphers
 	grapherId	Total or Breakdown Radio	Select a source Dropdown	Energy or Electricity Radio	Metric Dropdown	defaultView
