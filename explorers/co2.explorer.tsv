@@ -5,6 +5,7 @@ selection	China	United States	India	United Kingdom	World
 subNavId	co2
 subNavCurrentId	co2-data-explorer
 wpBlockId	36228
+thumbnail	https://owid.cloud/app/uploads/2022/12/CO2-data-explorer-Thumbnail.png
 tab	chart
 graphers
 	grapherId	Gas Radio	Accounting Radio	Fuel or Land Use Change Dropdown	Count Dropdown	Relative to world total Checkbox
