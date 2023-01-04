@@ -263,7 +263,7 @@ for survey in range(len(survey_type)):
         #mean
         df_graphers.loc[j, 'title'] = f"Mean {survey_type.text[survey]} per {income_aggregation.aggregation[agg]}"
         df_graphers.loc[j, 'ySlugs'] = f"mean{income_aggregation.slug_suffix[agg]}"
-        df_graphers.loc[j, 'Metric Dropdown'] = "Mean income or expenditure"
+        df_graphers.loc[j, 'Metric Dropdown'] = "Mean income or consumption"
         df_graphers.loc[j, 'Decile Dropdown'] = np.nan
         df_graphers.loc[j, 'Aggregation Radio'] = f'{income_aggregation.aggregation[agg].title()}'
         df_graphers.loc[j, 'Household survey data type Dropdown'] = f'{survey_type.dropdown_option[survey]}'
@@ -287,7 +287,7 @@ for survey in range(len(survey_type)):
             #averages
             df_graphers.loc[j, 'title'] = f"Mean {survey_type.text[survey]} per {income_aggregation.aggregation[agg]} within the {deciles10.ordinal[dec10]}"
             df_graphers.loc[j, 'ySlugs'] = f"decile{deciles10.decile[dec10]}_avg{income_aggregation.slug_suffix[agg]}"
-            df_graphers.loc[j, 'Metric Dropdown'] = "Mean income or expenditure, by decile"
+            df_graphers.loc[j, 'Metric Dropdown'] = "Mean income or consumption, by decile"
             df_graphers.loc[j, 'Decile Dropdown'] = f'{deciles10.dropdown[dec10]}'
             df_graphers.loc[j, 'Aggregation Radio'] = f'{income_aggregation.aggregation[agg].title()}'
             df_graphers.loc[j, 'Household survey data type Dropdown'] = f'{survey_type.dropdown_option[survey]}'
@@ -309,7 +309,7 @@ for survey in range(len(survey_type)):
         #median
         df_graphers.loc[j, 'title'] = f"Median {survey_type.text[survey]} per {income_aggregation.aggregation[agg]}"
         df_graphers.loc[j, 'ySlugs'] = f"median{income_aggregation.slug_suffix[agg]}"
-        df_graphers.loc[j, 'Metric Dropdown'] = "Median income or expenditure"
+        df_graphers.loc[j, 'Metric Dropdown'] = "Median income or consumption"
         df_graphers.loc[j, 'Decile Dropdown'] = np.nan
         df_graphers.loc[j, 'Aggregation Radio'] = f'{income_aggregation.aggregation[agg].title()}'
         df_graphers.loc[j, 'Household survey data type Dropdown'] = f'{survey_type.dropdown_option[survey]}'
@@ -379,7 +379,7 @@ for survey in range(len(survey_type)):
         #averages - multiple deciles
         df_graphers.loc[j, 'title'] = f"Mean {survey_type.text[survey]} per {income_aggregation.aggregation[agg]} within each decile"
         df_graphers.loc[j, 'ySlugs'] = f"decile1_avg{income_aggregation.slug_suffix[agg]} decile2_avg{income_aggregation.slug_suffix[agg]} decile3_avg{income_aggregation.slug_suffix[agg]} decile4_avg{income_aggregation.slug_suffix[agg]} decile5_avg{income_aggregation.slug_suffix[agg]} decile6_avg{income_aggregation.slug_suffix[agg]} decile7_avg{income_aggregation.slug_suffix[agg]} decile8_avg{income_aggregation.slug_suffix[agg]} decile9_avg{income_aggregation.slug_suffix[agg]} decile10_avg{income_aggregation.slug_suffix[agg]}"
-        df_graphers.loc[j, 'Metric Dropdown'] = "Mean income or expenditure, by decile"
+        df_graphers.loc[j, 'Metric Dropdown'] = "Mean income or consumption, by decile"
         df_graphers.loc[j, 'Decile Dropdown'] = "All deciles"
         df_graphers.loc[j, 'Aggregation Radio'] = f'{income_aggregation.aggregation[agg].title()}'
         df_graphers.loc[j, 'Household survey data type Dropdown'] = f'{survey_type.dropdown_option[survey]}'
@@ -528,9 +528,9 @@ df_graphers_mapping = df_graphers_mapping.reset_index().set_index('decile_dropdo
 df_graphers['decile_dropdown_aux'] = df_graphers['Decile Dropdown'].map(df_graphers_mapping['index'])
 
 #Metric dropdown
-metric_dropdown_list = ["Mean income or expenditure",
-                        "Mean income or expenditure, by decile",
-                        "Median income or expenditure",
+metric_dropdown_list = ["Mean income or consumption",
+                        "Mean income or consumption, by decile",
+                        "Median income or consumption",
                         "Decile thresholds",
                         "Decile shares"]
 
