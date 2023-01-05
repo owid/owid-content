@@ -1,18 +1,19 @@
+# %% [markdown]
 # # Poverty Data Explorer of World Bank data: Expanded metrics
 # This code creates the tsv file for the expanded poverty metrics explorer from the World Bank PIP data, available [here](https://owid.cloud/admin/explorers/preview/poverty-explorer-expanded)
 
-# +
+# %%
 import pandas as pd
 import numpy as np
 import textwrap
 
 outfile = "../../explorers/poverty-explorer-expanded.explorer.tsv"
-# -
 
+# %% [markdown]
 # ## Google sheets auxiliar data
 # These spreadsheets provide with different details depending on each poverty line or survey type.
 
-# +
+# %%
 #Read Google sheets
 sheet_id = '17KJ9YcvfdmO_7-Sv2Ij0vmzAQI6rXSIqHfJtgFHN-a8'
 
@@ -30,12 +31,12 @@ povlines_rel = pd.read_csv(url)
 sheet_name = 'survey_type'
 url = f'https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}'
 survey_type = pd.read_csv(url)
-# -
 
+# %% [markdown]
 # ## Header
 # General settings of the explorer are defined here, like the title, subtitle, default country selection, publishing status and others.
 
-# +
+# %%
 #The header is defined as a dictionary first and then it is converted into a index-oriented dataframe
 header_dict = {'explorerTitle': 'Poverty Data Explorer of World Bank data: Expanded metrics',
                'selection': ['Mozambique', 'Nigeria', 'Kenya', 'Bangladesh', 'Bolivia', 'World'],
@@ -48,21 +49,21 @@ header_dict = {'explorerTitle': 'Poverty Data Explorer of World Bank data: Expan
 #Index-oriented dataframe
 df_header = pd.DataFrame.from_dict(header_dict, orient='index', columns=None)
 #Assigns a cell for each entity separated by comma (like in `selection`)
-df_header = df_header[0].apply(pd.Series)
-# -
+df_header= df_header[0].apply(pd.Series)
 
+# %% [markdown]
 # ## Tables
 # Variables are grouped by type to iterate by different poverty lines and survey types at the same time. The output is the list of all the variables being used in the explorer, with metadata.
 # ### Tables for variables not showing breaks between surveys
 # These variables consider a continous series, without breaks due to changes in surveys' methodology
 
-# +
+# %%
 #Table generation
 df_tables = pd.DataFrame()
 j=0
 
 for survey in range(len(survey_type)):
-    
+
     #Headcount ratio (abs)
     for p in range(len(povlines_abs)):
         df_tables.loc[j, 'name'] = f'Share of population below ${povlines_abs.dollars_text[p]} a day'
@@ -81,7 +82,7 @@ for survey in range(len(survey_type)):
         df_tables.loc[j, 'colorScaleScheme'] = "OrRd"
         df_tables.loc[j, 'survey_type'] = survey_type['table_name'][survey]
         j += 1
-        
+
     #Headcount (abs)
     for p in range(len(povlines_abs)):
         df_tables.loc[j, 'name'] = f'Number of people below ${povlines_abs.dollars_text[p]} a day'
@@ -100,7 +101,7 @@ for survey in range(len(survey_type)):
         df_tables.loc[j, 'colorScaleScheme'] = "Reds"
         df_tables.loc[j, 'survey_type'] = survey_type['table_name'][survey]
         j += 1
-        
+
     #Total shortfall (abs)
     for p in range(len(povlines_abs)):
         df_tables.loc[j, 'name'] = f'${povlines_abs.dollars_text[p]} a day - total daily shortfall'
@@ -119,7 +120,7 @@ for survey in range(len(survey_type)):
         df_tables.loc[j, 'colorScaleScheme'] = "Oranges"
         df_tables.loc[j, 'survey_type'] = survey_type['table_name'][survey]
         j += 1
-    
+
     #Average shortfall ($ per day)
     for p in range(len(povlines_abs)):
         df_tables.loc[j, 'name'] = f'${povlines_abs.dollars_text[p]} a day - average daily shortfall'
@@ -138,7 +139,7 @@ for survey in range(len(survey_type)):
         df_tables.loc[j, 'colorScaleScheme'] = "Purples"
         df_tables.loc[j, 'survey_type'] = survey_type['table_name'][survey]
         j += 1
-    
+
     #Average shortfall (% of poverty line) [this is the income gap ratio]
     for p in range(len(povlines_abs)):
         df_tables.loc[j, 'name'] = f'${povlines_abs.dollars_text[p]} a day - income gap ratio'
@@ -157,7 +158,7 @@ for survey in range(len(survey_type)):
         df_tables.loc[j, 'colorScaleScheme'] = "YlOrRd"
         df_tables.loc[j, 'survey_type'] = survey_type['table_name'][survey]
         j += 1
-    
+
     #Poverty gap index
     for p in range(len(povlines_abs)):
         df_tables.loc[j, 'name'] = f'${povlines_abs.dollars_text[p]} a day - poverty gap index'
@@ -176,7 +177,7 @@ for survey in range(len(survey_type)):
         df_tables.loc[j, 'colorScaleScheme'] = "RdPu"
         df_tables.loc[j, 'survey_type'] = survey_type['table_name'][survey]
         j += 1
-        
+
     #Headcount ratio (rel)
     for pct in range(len(povlines_rel)):
         df_tables.loc[j, 'name'] = f'{povlines_rel.percent[pct]} of median - share of population below poverty line'
@@ -195,7 +196,7 @@ for survey in range(len(survey_type)):
         df_tables.loc[j, 'colorScaleScheme'] = "YlOrBr"
         df_tables.loc[j, 'survey_type'] = survey_type['table_name'][survey]
         j += 1
-        
+
     #Headcount (rel)
     for pct in range(len(povlines_rel)):
         df_tables.loc[j, 'name'] = f'{povlines_rel.percent[pct]} of median - total number of people below poverty line'
@@ -214,7 +215,7 @@ for survey in range(len(survey_type)):
         df_tables.loc[j, 'colorScaleScheme'] = "YlOrBr"
         df_tables.loc[j, 'survey_type'] = survey_type['table_name'][survey]
         j += 1
-        
+
     #Total shortfall (rel)
     for pct in range(len(povlines_rel)):
         df_tables.loc[j, 'name'] = f'{povlines_rel.percent[pct]} of median - total daily shortfall'
@@ -233,7 +234,7 @@ for survey in range(len(survey_type)):
         df_tables.loc[j, 'colorScaleScheme'] = "YlOrBr"
         df_tables.loc[j, 'survey_type'] = survey_type['table_name'][survey]
         j += 1
-        
+
     #Average shortfall ($ per day)
     for pct in range(len(povlines_rel)):
         df_tables.loc[j, 'name'] = f'{povlines_rel.percent[pct]} of median - average daily shortfall'
@@ -252,7 +253,7 @@ for survey in range(len(survey_type)):
         df_tables.loc[j, 'colorScaleScheme'] = "YlOrBr"
         df_tables.loc[j, 'survey_type'] = survey_type['table_name'][survey]
         j += 1
-    
+
     #Average shortfall (% of poverty line) [this is the income gap ratio]
     for pct in range(len(povlines_rel)):
         df_tables.loc[j, 'name'] = f'{povlines_rel.percent[pct]} of median - income gap ratio'
@@ -271,7 +272,7 @@ for survey in range(len(survey_type)):
         df_tables.loc[j, 'colorScaleScheme'] = "YlOrBr"
         df_tables.loc[j, 'survey_type'] = survey_type['table_name'][survey]
         j += 1
-    
+
     #Poverty gap index
     for pct in range(len(povlines_rel)):
         df_tables.loc[j, 'name'] = f'{povlines_rel.percent[pct]} of median - poverty gap index'
@@ -290,15 +291,15 @@ for survey in range(len(survey_type)):
         df_tables.loc[j, 'colorScaleScheme'] = "YlOrBr"
         df_tables.loc[j, 'survey_type'] = survey_type['table_name'][survey]
         j += 1
-        
+
 #Make tolerance integer (to not break the parameter in the platform)
 df_tables['tolerance'] = df_tables['tolerance'].astype("Int64")
-# -
 
+# %% [markdown]
 # ### Tables for variables showing breaks between surveys
 # These variables consider a breaks in the series due to changes in surveys' methodology.
 
-# +
+# %%
 #Create master table for line breaks
 df_spells = pd.DataFrame()
 j=0
@@ -322,7 +323,7 @@ for i in range(len(df_tables)):
         df_spells.loc[j, 'colorScaleScheme'] = df_tables.colorScaleScheme[i]
         df_spells.loc[j, 'survey_type'] = df_tables.survey_type[i]
         j += 1
-        
+
     for i_spell in range(1,8):
         df_spells.loc[j, 'master_var'] = df_tables.slug[i]
         df_spells.loc[j, 'name'] = "Income surveys"
@@ -341,15 +342,15 @@ for i in range(len(df_tables)):
         df_spells.loc[j, 'colorScaleScheme'] = df_tables.colorScaleScheme[i]
         df_spells.loc[j, 'survey_type'] = df_tables.survey_type[i]
         j += 1
-        
+
 #Make tolerance integer (to not break the parameter in the platform)
 df_spells['tolerance'] = df_spells['tolerance'].astype("Int64")
-# -
 
+# %% [markdown]
 # ## Grapher views
 # Similar to the tables, this creates the grapher views by grouping by types of variables and then running by survey type and poverty lines.
 
-# +
+# %%
 #Grapher table generation
 
 df_graphers = pd.DataFrame()
@@ -357,8 +358,8 @@ df_graphers = pd.DataFrame()
 j=0
 
 for survey in range(len(survey_type)):
-    
-    #Headcount ratio (abs)    
+
+    #Headcount ratio (abs)
     for p in range(len(povlines_abs)):
 
         df_graphers.loc[j, 'title'] = f'{povlines_abs.title_share[p]}'
@@ -368,7 +369,7 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, 'Household survey data type Dropdown'] = f'{survey_type.dropdown_option[survey]}'
         df_graphers.loc[j, 'tableSlug'] = f'{survey_type.table_name[survey]}'
         df_graphers.loc[j, 'subtitle'] = f'{povlines_abs.subtitle[p]}'
-        df_graphers.loc[j, 'note'] = f"This data is measured in international-$ at 2017 prices. It relates to disposable {survey_type.text[survey]} per capita (exact definitions vary)."
+        df_graphers.loc[j, 'note'] = f"This data is measured in international-$ at 2017 prices. Depending on the country and year, it relates to disposable {survey_type.text[survey]} per capita."
         df_graphers.loc[j, 'sourceDesc'] = "World Bank Poverty and Inequality Platform"
         df_graphers.loc[j, 'type'] = np.nan
         df_graphers.loc[j, 'yAxisMin'] = 0
@@ -379,7 +380,7 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, 'mapTargetTime'] = 2019
         df_graphers.loc[j, 'survey_type'] = survey_type['table_name'][survey]
         j += 1
-        
+
     #Headcount (abs)
     for p in range(len(povlines_abs)):
 
@@ -390,7 +391,7 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, 'Household survey data type Dropdown'] = f'{survey_type.dropdown_option[survey]}'
         df_graphers.loc[j, 'tableSlug'] = f'{survey_type.table_name[survey]}'
         df_graphers.loc[j, 'subtitle'] = f'{povlines_abs.subtitle[p]}'
-        df_graphers.loc[j, 'note'] = f"This data is measured in international-$ at 2017 prices. It relates to disposable {survey_type.text[survey]} per capita (exact definitions vary)."
+        df_graphers.loc[j, 'note'] = f"This data is measured in international-$ at 2017 prices. Depending on the country and year, it relates to disposable {survey_type.text[survey]} per capita."
         df_graphers.loc[j, 'sourceDesc'] = "World Bank Poverty and Inequality Platform"
         df_graphers.loc[j, 'type'] = np.nan
         df_graphers.loc[j, 'yAxisMin'] = 0
@@ -401,7 +402,7 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, 'mapTargetTime'] = 2019
         df_graphers.loc[j, 'survey_type'] = survey_type['table_name'][survey]
         j += 1
-        
+
     #Total shortfall (abs)
     for p in range(len(povlines_abs)):
 
@@ -423,7 +424,7 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, 'mapTargetTime'] = 2019
         df_graphers.loc[j, 'survey_type'] = survey_type['table_name'][survey]
         j += 1
-    
+
     #Average shortfall ($ per day)
     for p in range(len(povlines_abs)):
 
@@ -434,7 +435,7 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, 'Household survey data type Dropdown'] = f'{survey_type.dropdown_option[survey]}'
         df_graphers.loc[j, 'tableSlug'] = f'{survey_type.table_name[survey]}'
         df_graphers.loc[j, 'subtitle'] = f'{povlines_abs.subtitle_avg_shortfall[p]}'
-        df_graphers.loc[j, 'note'] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. It relates to either disposable {survey_type.text[survey]} per capita (exact definitions vary)."
+        df_graphers.loc[j, 'note'] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. It relates to disposable {survey_type.text[survey]} per capita."
         df_graphers.loc[j, 'sourceDesc'] = "World Bank Poverty and Inequality Platform"
         df_graphers.loc[j, 'type'] = np.nan
         df_graphers.loc[j, 'yAxisMin'] = 0
@@ -445,7 +446,7 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, 'mapTargetTime'] = 2019
         df_graphers.loc[j, 'survey_type'] = survey_type['table_name'][survey]
         j += 1
-        
+
     #Average shortfall (% of poverty line)
     for p in range(len(povlines_abs)):
 
@@ -456,7 +457,7 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, 'Household survey data type Dropdown'] = f'{survey_type.dropdown_option[survey]}'
         df_graphers.loc[j, 'tableSlug'] = f'{survey_type.table_name[survey]}'
         df_graphers.loc[j, 'subtitle'] = f'{povlines_abs.subtitle_income_gap_ratio[p]}'
-        df_graphers.loc[j, 'note'] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. It relates to either disposable {survey_type.text[survey]} per capita (exact definitions vary)."
+        df_graphers.loc[j, 'note'] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. It relates to disposable {survey_type.text[survey]} per capita."
         df_graphers.loc[j, 'sourceDesc'] = "World Bank Poverty and Inequality Platform"
         df_graphers.loc[j, 'type'] = np.nan
         df_graphers.loc[j, 'yAxisMin'] = 0
@@ -467,7 +468,7 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, 'mapTargetTime'] = 2019
         df_graphers.loc[j, 'survey_type'] = survey_type['table_name'][survey]
         j += 1
-        
+
     #Poverty gap index
     for p in range(len(povlines_abs)):
 
@@ -478,7 +479,7 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, 'Household survey data type Dropdown'] = f'{survey_type.dropdown_option[survey]}'
         df_graphers.loc[j, 'tableSlug'] = f'{survey_type.table_name[survey]}'
         df_graphers.loc[j, 'subtitle'] = f'The poverty gap index is a poverty measure that reflects both the prevalence and the depth of poverty. It is calculated as the share of population in poverty multiplied by the average shortfall from the poverty line (expressed as a % of the poverty line).'
-        df_graphers.loc[j, 'note'] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. It relates to either disposable {survey_type.text[survey]} per capita (exact definitions vary)."
+        df_graphers.loc[j, 'note'] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. It relates to disposable {survey_type.text[survey]} per capita."
         df_graphers.loc[j, 'sourceDesc'] = "World Bank Poverty and Inequality Platform"
         df_graphers.loc[j, 'type'] = np.nan
         df_graphers.loc[j, 'yAxisMin'] = 0
@@ -489,7 +490,7 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, 'mapTargetTime'] = 2019
         df_graphers.loc[j, 'survey_type'] = survey_type['table_name'][survey]
         j += 1
-        
+
     #Headcount ratio (rel)
     for pct in range(len(povlines_rel)):
 
@@ -500,7 +501,7 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, 'Household survey data type Dropdown'] = f'{survey_type.dropdown_option[survey]}'
         df_graphers.loc[j, 'tableSlug'] = f'{survey_type.table_name[survey]}'
         df_graphers.loc[j, 'subtitle'] = f'Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at {povlines_rel.text[pct]} {survey_type.text[survey]}.'
-        df_graphers.loc[j, 'note'] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. It relates to either disposable {survey_type.text[survey]} per capita (exact definitions vary)."
+        df_graphers.loc[j, 'note'] = f"Depending on the country and year, the data relates to disposable {survey_type.text[survey]} per capita."
         df_graphers.loc[j, 'sourceDesc'] = "World Bank Poverty and Inequality Platform"
         df_graphers.loc[j, 'type'] = np.nan
         df_graphers.loc[j, 'yAxisMin'] = 0
@@ -511,8 +512,8 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, 'mapTargetTime'] = 2019
         df_graphers.loc[j, 'survey_type'] = survey_type['table_name'][survey]
         j += 1
-        
-    #Headcount (rel)    
+
+    #Headcount (rel)
     for pct in range(len(povlines_rel)):
 
         df_graphers.loc[j, 'title'] = f'{povlines_rel.title_number[pct]}'
@@ -522,7 +523,7 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, 'Household survey data type Dropdown'] = f'{survey_type.dropdown_option[survey]}'
         df_graphers.loc[j, 'tableSlug'] = f'{survey_type.table_name[survey]}'
         df_graphers.loc[j, 'subtitle'] = f'Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at {povlines_rel.text[pct]} {survey_type.text[survey]}.'
-        df_graphers.loc[j, 'note'] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. It relates to either disposable {survey_type.text[survey]} per capita (exact definitions vary)."
+        df_graphers.loc[j, 'note'] = f"Depending on the country and year, the data relates to disposable {survey_type.text[survey]} per capita."
         df_graphers.loc[j, 'sourceDesc'] = "World Bank Poverty and Inequality Platform"
         df_graphers.loc[j, 'type'] = np.nan
         df_graphers.loc[j, 'yAxisMin'] = 0
@@ -533,8 +534,8 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, 'mapTargetTime'] = 2019
         df_graphers.loc[j, 'survey_type'] = survey_type['table_name'][survey]
         j += 1
-        
-    #Total shortfall (rel)    
+
+    #Total shortfall (rel)
     for pct in range(len(povlines_rel)):
 
         df_graphers.loc[j, 'title'] = f'Total shortfall from a poverty line of {povlines_rel.text[pct]} {survey_type.text[survey]}'
@@ -544,7 +545,7 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, 'Household survey data type Dropdown'] = f'{survey_type.dropdown_option[survey]}'
         df_graphers.loc[j, 'tableSlug'] = f'{survey_type.table_name[survey]}'
         df_graphers.loc[j, 'subtitle'] = f'This is the amount of money that would be theoretically needed to lift the incomes of all people in poverty up to {povlines_rel.text[pct]} {survey_type.text[survey]}. This data is adjusted for inflation and for differences in the cost of living between countries.'
-        df_graphers.loc[j, 'note'] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. It relates to either disposable {survey_type.text[survey]} per capita (exact definitions vary)."
+        df_graphers.loc[j, 'note'] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. It relates to disposable {survey_type.text[survey]} per capita."
         df_graphers.loc[j, 'sourceDesc'] = "World Bank Poverty and Inequality Platform"
         df_graphers.loc[j, 'type'] = np.nan
         df_graphers.loc[j, 'yAxisMin'] = 0
@@ -555,8 +556,8 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, 'mapTargetTime'] = 2019
         df_graphers.loc[j, 'survey_type'] = survey_type['table_name'][survey]
         j += 1
-        
-    #Average shortfall ($ per day) (rel)    
+
+    #Average shortfall ($ per day) (rel)
     for pct in range(len(povlines_rel)):
 
         df_graphers.loc[j, 'title'] = f'Average shortfall from a poverty line of {povlines_rel.text[pct]} {survey_type.text[survey]}'
@@ -566,7 +567,7 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, 'Household survey data type Dropdown'] = f'{survey_type.dropdown_option[survey]}'
         df_graphers.loc[j, 'tableSlug'] = f'{survey_type.table_name[survey]}'
         df_graphers.loc[j, 'subtitle'] = f'This is the amount of money that would be theoretically needed to lift the incomes of all people in poverty up to {povlines_rel.text[pct]} {survey_type.text[survey]}, averaged across the population in poverty.'
-        df_graphers.loc[j, 'note'] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. It relates to either disposable {survey_type.text[survey]} per capita (exact definitions vary)."
+        df_graphers.loc[j, 'note'] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. It relates to disposable {survey_type.text[survey]} per capita."
         df_graphers.loc[j, 'sourceDesc'] = "World Bank Poverty and Inequality Platform"
         df_graphers.loc[j, 'type'] = np.nan
         df_graphers.loc[j, 'yAxisMin'] = 0
@@ -577,8 +578,8 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, 'mapTargetTime'] = 2019
         df_graphers.loc[j, 'survey_type'] = survey_type['table_name'][survey]
         j += 1
-        
-    #Average shortfall (% of poverty line) (rel)    
+
+    #Average shortfall (% of poverty line) (rel)
     for pct in range(len(povlines_rel)):
 
         df_graphers.loc[j, 'title'] = f'Average shortfall from a poverty line of {povlines_rel.text[pct]} {survey_type.text[survey]} (as a share of the poverty line)'
@@ -588,7 +589,7 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, 'Household survey data type Dropdown'] = f'{survey_type.dropdown_option[survey]}'
         df_graphers.loc[j, 'tableSlug'] = f'{survey_type.table_name[survey]}'
         df_graphers.loc[j, 'subtitle'] = f'This is the average shortfall expressed as a share of the poverty line, sometimes called the "income gap ratio". It captures the depth of poverty in which those below {povlines_rel.text[pct]} {survey_type.text[survey]} a day are living.'
-        df_graphers.loc[j, 'note'] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. It relates to either disposable {survey_type.text[survey]} per capita (exact definitions vary)."
+        df_graphers.loc[j, 'note'] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. It relates to disposable {survey_type.text[survey]} per capita."
         df_graphers.loc[j, 'sourceDesc'] = "World Bank Poverty and Inequality Platform"
         df_graphers.loc[j, 'type'] = np.nan
         df_graphers.loc[j, 'yAxisMin'] = 0
@@ -599,8 +600,8 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, 'mapTargetTime'] = 2019
         df_graphers.loc[j, 'survey_type'] = survey_type['table_name'][survey]
         j += 1
-        
-    #Poverty gap index (rel)    
+
+    #Poverty gap index (rel)
     for pct in range(len(povlines_rel)):
 
         df_graphers.loc[j, 'title'] = f'Poverty gap index at {povlines_rel.text[pct]} {survey_type.text[survey]}'
@@ -610,7 +611,7 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, 'Household survey data type Dropdown'] = f'{survey_type.dropdown_option[survey]}'
         df_graphers.loc[j, 'tableSlug'] = f'{survey_type.table_name[survey]}'
         df_graphers.loc[j, 'subtitle'] = f'The poverty gap index is a poverty measure that reflects both the prevalence and the depth of poverty. It is calculated as the share of population in poverty multiplied by the average shortfall from the poverty line (expressed as a % of the poverty line).'
-        df_graphers.loc[j, 'note'] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. It relates to either disposable {survey_type.text[survey]} per capita (exact definitions vary)."
+        df_graphers.loc[j, 'note'] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. It relates to disposable {survey_type.text[survey]} per capita."
         df_graphers.loc[j, 'sourceDesc'] = "World Bank Poverty and Inequality Platform"
         df_graphers.loc[j, 'type'] = np.nan
         df_graphers.loc[j, 'yAxisMin'] = 0
@@ -623,10 +624,10 @@ for survey in range(len(survey_type)):
         j += 1
 
 df_graphers['Show breaks between less comparable surveys Checkbox'] = "false"
-# -
+# %% [markdown]
 # ### Grapher views to show breaks in the curves
 
-# +
+# %%
 df_graphers_spells = pd.DataFrame()
 j=0
 
@@ -649,31 +650,31 @@ for i in range(len(df_graphers)):
     df_graphers_spells.loc[j, 'mapTargetTime'] = np.nan
     df_graphers_spells.loc[j, 'Show breaks between less comparable surveys Checkbox'] = "true"
     j += 1
-    
+
 df_graphers = pd.concat([df_graphers, df_graphers_spells], ignore_index=True)
-# -
 
 
+# %% [markdown]
 # Final adjustments to the graphers table: add `relatedQuestion` link and `defaultView`:
 
-# +
+# %%
 #Add related question link
 df_graphers['relatedQuestionText'] = np.nan
 df_graphers['relatedQuestionUrl'] = np.nan
 
 #Make mapTargetTime integer (to not break the parameter in the platform)
 df_graphers['mapTargetTime'] = df_graphers['mapTargetTime'].astype("Int64")
-    
-#Select one default view
-df_graphers.loc[(df_graphers['ySlugs'] == "headcount_ratio_215") 
-                & (df_graphers['tableSlug'] == "inc_or_cons") 
-                & (df_graphers['Show breaks between less comparable surveys Checkbox'] == "false"), ['defaultView']] = "true"
-# -
 
+#Select one default view
+df_graphers.loc[(df_graphers['ySlugs'] == "headcount_ratio_215")
+                & (df_graphers['tableSlug'] == "inc_or_cons")
+                & (df_graphers['Show breaks between less comparable surveys Checkbox'] == "false"), ['defaultView']] = "true"
+
+# %% [markdown]
 # ## Explorer generation
 # Here, the header, tables and graphers dataframes are combined to be shown in for format required for OWID data explorers.
 
-# +
+# %%
 #Define list of variables to iterate: survey types and the list of variables (the latter for spell tables)
 survey_list = list(survey_type['table_name'].unique())
 var_list = list(df_spells['master_var'].unique())
@@ -692,7 +693,7 @@ graphers_tsv_indented = textwrap.indent(graphers_tsv, "\t")
 with open(outfile, "w", newline="\n", encoding='utf-8') as f:
     f.write(header_tsv)
     f.write("\ngraphers\n" + graphers_tsv_indented)
-    
+
     for i in survey_list:
         table_tsv = df_tables[df_tables['survey_type'] == i].copy().reset_index(drop=True)
         table_tsv = table_tsv.drop(columns=['survey_type'])
@@ -700,7 +701,7 @@ with open(outfile, "w", newline="\n", encoding='utf-8') as f:
         table_tsv_indented = textwrap.indent(table_tsv, "\t")
         f.write("\ntable\t" + "https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/" + i + "/poverty_" + i + ".csv\t" + i)
         f.write("\ncolumns\t" + i + "\n\n" + table_tsv_indented)
-        
+
     for var in var_list:
         for i in survey_list:
             table_tsv = df_spells[(df_spells['master_var'] == var) & (df_spells['survey_type'] == i)].copy().reset_index(drop=True)

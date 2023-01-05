@@ -1,18 +1,19 @@
+# %% [markdown]
 # # Inequality Data Explorer of World Bank data
 # This code creates the tsv file for the inequality explorer from the World Bank PIP data, available [here](https://owid.cloud/admin/explorers/preview/pip-inequality-explorer)
 
-# +
+# %%
 import pandas as pd
 import numpy as np
 import textwrap
 
 outfile = "../../explorers/pip-inequality-explorer.explorer.tsv"
-# -
 
+# %% [markdown]
 # ## Google sheets auxiliar data
 # These spreadsheets provide with different details depending on each relative poverty line or survey type.
 
-# +
+# %%
 #Read Google sheets
 sheet_id = '1Oit-4xH6pg5fVKe5gfgd4H7CKRpAe7dQhrmkBc4IpkU'
 
@@ -25,12 +26,12 @@ povlines_rel = pd.read_csv(url)
 sheet_name = 'survey_type'
 url = f'https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}'
 survey_type = pd.read_csv(url)
-# -
 
+# %% [markdown]
 # ## Header
 # General settings of the explorer are defined here, like the title, subtitle, default country selection, publishing status and others.
 
-# +
+# %%
 #The header is defined as a dictionary first and then it is converted into a index-oriented dataframe
 header_dict = {'explorerTitle': 'Inequality Data Explorer of World Bank data',
                'selection': ['Chile', 'Brazil', 'South Africa', 'United States', 'France', 'China'],
@@ -44,14 +45,14 @@ header_dict = {'explorerTitle': 'Inequality Data Explorer of World Bank data',
 df_header = pd.DataFrame.from_dict(header_dict, orient='index', columns=None)
 #Assigns a cell for each entity separated by comma (like in `selection`)
 df_header = df_header[0].apply(pd.Series)
-# -
 
+# %% [markdown]
 # ## Tables
 # Variables are grouped by type to iterate by different survey types at the same time. The output is the list of all the variables being used in the explorer, with metadata.
 # ### Tables for variables not showing breaks between surveys
 # These variables consider a continous series, without breaks due to changes in surveys' methodology
 
-# +
+# %%
 #Table generation
 df_tables = pd.DataFrame()
 j=0
@@ -223,12 +224,12 @@ for survey in range(len(survey_type)):
     
 #Make tolerance integer (to not break the parameter in the platform)
 df_tables['tolerance'] = df_tables['tolerance'].astype("Int64")
-# -
 
+# %% [markdown]
 # ### Tables for variables showing breaks between surveys
 # These variables consider a breaks in the series due to changes in surveys' methodology.
 
-# +
+# %%
 #Create master table for line breaks
 df_spells = pd.DataFrame()
 j=0
@@ -274,12 +275,12 @@ for i in range(len(df_tables)):
         
 #Make tolerance integer (to not break the parameter in the platform)
 df_spells['tolerance'] = df_spells['tolerance'].astype("Int64")
-# -
 
+# %% [markdown]
 # ### Grapher views
 # Similar to the tables, this creates the grapher views by grouping by types of variables and then running by survey type.
 
-# +
+# %%
 #Grapher table generation
 
 df_graphers = pd.DataFrame()
@@ -295,7 +296,7 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, 'Household survey data type Dropdown'] = f'{survey_type.dropdown_option[survey]}'
     df_graphers.loc[j, 'tableSlug'] = f'{survey_type.table_name[survey]}'
     df_graphers.loc[j, 'subtitle'] = f'The Gini coefficient is a measure of the inequality of the income distribution in a population. Higher values indicate a higher level of inequality.'
-    df_graphers.loc[j, 'note'] = f"This data relates to disposable {survey_type.text[survey]} per capita (exact definitions vary)."
+    df_graphers.loc[j, 'note'] = f"Depending on the country and year, the data relates to disposable {survey_type.text[survey]} per capita."
     df_graphers.loc[j, 'sourceDesc'] = "World Bank Poverty and Inequality Platform"
     df_graphers.loc[j, 'type'] = np.nan
     df_graphers.loc[j, 'yAxisMin'] = 0
@@ -314,7 +315,7 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, 'Household survey data type Dropdown'] = f'{survey_type.dropdown_option[survey]}'
     df_graphers.loc[j, 'tableSlug'] = f'{survey_type.table_name[survey]}'
     df_graphers.loc[j, 'subtitle'] = f'This is the {survey_type.text[survey]} of the richest decile (tenth of the population) as a share of total {survey_type.text[survey]}.'
-    df_graphers.loc[j, 'note'] = f"This data relates to disposable {survey_type.text[survey]} per capita (exact definitions vary)."
+    df_graphers.loc[j, 'note'] = f"Depending on the country and year, the data relates to disposable {survey_type.text[survey]} per capita."
     df_graphers.loc[j, 'sourceDesc'] = "World Bank Poverty and Inequality Platform"
     df_graphers.loc[j, 'type'] = np.nan
     df_graphers.loc[j, 'yAxisMin'] = 0
@@ -333,7 +334,7 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, 'Household survey data type Dropdown'] = f'{survey_type.dropdown_option[survey]}'
     df_graphers.loc[j, 'tableSlug'] = f'{survey_type.table_name[survey]}'
     df_graphers.loc[j, 'subtitle'] = f'P90 and P10 are the levels of {survey_type.text[survey]} below which 90% and 10% of the population live, respectively. This variable gives the ratio of the two. It is a measure of inequality that indicates the gap between the richest and poorest tenth of the population.'
-    df_graphers.loc[j, 'note'] = f"This data relates to disposable {survey_type.text[survey]} per capita (exact definitions vary)."
+    df_graphers.loc[j, 'note'] = f"Depending on the country and year, the data relates to disposable {survey_type.text[survey]} per capita."
     df_graphers.loc[j, 'sourceDesc'] = "World Bank Poverty and Inequality Platform"
     df_graphers.loc[j, 'type'] = np.nan
     df_graphers.loc[j, 'yAxisMin'] = 0
@@ -352,7 +353,7 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, 'Household survey data type Dropdown'] = f'{survey_type.dropdown_option[survey]}'
     df_graphers.loc[j, 'tableSlug'] = f'{survey_type.table_name[survey]}'
     df_graphers.loc[j, 'subtitle'] = f'The P90/P50 ratio measures the degree of inequality within the richest half of the population. A ratio of 2 means that someone just falling in the richest tenth of the population has twice the median {survey_type.text[survey]}.'
-    df_graphers.loc[j, 'note'] = f"This data relates to disposable {survey_type.text[survey]} per capita (exact definitions vary)."
+    df_graphers.loc[j, 'note'] = f"Depending on the country and year, the data relates to disposable {survey_type.text[survey]} per capita."
     df_graphers.loc[j, 'sourceDesc'] = "World Bank Poverty and Inequality Platform"
     df_graphers.loc[j, 'type'] = np.nan
     df_graphers.loc[j, 'yAxisMin'] = 0
@@ -371,7 +372,7 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, 'Household survey data type Dropdown'] = f'{survey_type.dropdown_option[survey]}'
     df_graphers.loc[j, 'tableSlug'] = f'{survey_type.table_name[survey]}'
     df_graphers.loc[j, 'subtitle'] = f'The P50/P10 ratio measures the degree of inequality within the poorest half of the population. A ratio of 2 means that the median {survey_type.text[survey]} is two times higher than that of someone just falling in the poorest tenth of the population.'
-    df_graphers.loc[j, 'note'] = f"This data relates to disposable {survey_type.text[survey]} per capita (exact definitions vary)."
+    df_graphers.loc[j, 'note'] = f"Depending on the country and year, the data relates to disposable {survey_type.text[survey]} per capita."
     df_graphers.loc[j, 'sourceDesc'] = "World Bank Poverty and Inequality Platform"
     df_graphers.loc[j, 'type'] = np.nan
     df_graphers.loc[j, 'yAxisMin'] = 0
@@ -390,7 +391,7 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, 'Household survey data type Dropdown'] = f'{survey_type.dropdown_option[survey]}'
     df_graphers.loc[j, 'tableSlug'] = f'{survey_type.table_name[survey]}'
     df_graphers.loc[j, 'subtitle'] = f'The Palma ratio is the share of total {survey_type.text[survey]} of the top 10% divided by the share of the bottom 40%.'
-    df_graphers.loc[j, 'note'] = f"This data relates to disposable {survey_type.text[survey]} per capita (exact definitions vary)."
+    df_graphers.loc[j, 'note'] = f"Depending on the country and year, the data relates to disposable {survey_type.text[survey]} per capita."
     df_graphers.loc[j, 'sourceDesc'] = "World Bank Poverty and Inequality Platform"
     df_graphers.loc[j, 'type'] = np.nan
     df_graphers.loc[j, 'yAxisMin'] = 0
@@ -411,7 +412,7 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, 'Household survey data type Dropdown'] = f'{survey_type.dropdown_option[survey]}'
         df_graphers.loc[j, 'tableSlug'] = f'{survey_type.table_name[survey]}'
         df_graphers.loc[j, 'subtitle'] = f'Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at {povlines_rel.text[pct]} {survey_type.text[survey]}.'
-        df_graphers.loc[j, 'note'] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. It relates to either disposable {survey_type.text[survey]} per capita (exact definitions vary)."
+        df_graphers.loc[j, 'note'] = f"Depending on the country and year, the data relates to disposable {survey_type.text[survey]} per capita."
         df_graphers.loc[j, 'sourceDesc'] = "World Bank Poverty and Inequality Platform"
         df_graphers.loc[j, 'type'] = np.nan
         df_graphers.loc[j, 'yAxisMin'] = 0
@@ -430,7 +431,7 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, 'Household survey data type Dropdown'] = f'{survey_type.dropdown_option[survey]}'
     df_graphers.loc[j, 'tableSlug'] = f'{survey_type.table_name[survey]}'
     df_graphers.loc[j, 'subtitle'] = f"The mean log deviation (MLD) is a measure of inequality. An MLD of zero indicates perfect equality and it takes on larger positive values as incomes become more unequal."
-    df_graphers.loc[j, 'note'] = f"This data relates to disposable {survey_type.text[survey]} per capita (exact definitions vary)."
+    df_graphers.loc[j, 'note'] = f"Depending on the country and year, the data relates to disposable {survey_type.text[survey]} per capita."
     df_graphers.loc[j, 'sourceDesc'] = "World Bank Poverty and Inequality Platform"
     df_graphers.loc[j, 'type'] = np.nan
     df_graphers.loc[j, 'yAxisMin'] = 0
@@ -449,7 +450,7 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, 'Household survey data type Dropdown'] = f'{survey_type.dropdown_option[survey]}'
     df_graphers.loc[j, 'tableSlug'] = f'{survey_type.table_name[survey]}'
     df_graphers.loc[j, 'subtitle'] = f"The polarization index, also known as the Wolfson polarization index, measures the extent to which the distribution of {survey_type.text[survey]} is “spread out” and bi-modal. Like the Gini coefficient, the polarization index ranges from 0 (no polarization) to 1 (complete polarization)."
-    df_graphers.loc[j, 'note'] = f"This data relates to disposable {survey_type.text[survey]} per capita (exact definitions vary)."
+    df_graphers.loc[j, 'note'] = f"Depending on the country and year, the data relates to disposable {survey_type.text[survey]} per capita."
     df_graphers.loc[j, 'sourceDesc'] = "World Bank Poverty and Inequality Platform"
     df_graphers.loc[j, 'type'] = np.nan
     df_graphers.loc[j, 'yAxisMin'] = 0
@@ -462,10 +463,10 @@ for survey in range(len(survey_type)):
     j += 1
     
 df_graphers['Show breaks between less comparable surveys Checkbox'] = "false"
-# -
+# %% [markdown]
 # ### Grapher views to show breaks in the curves
 
-# +
+# %%
 df_graphers_spells = pd.DataFrame()
 j=0
 
@@ -489,11 +490,11 @@ for i in range(len(df_graphers)):
     j += 1
     
 df_graphers = pd.concat([df_graphers, df_graphers_spells], ignore_index=True)
-# -
 
+# %% [markdown]
 # Final adjustments to the graphers table: add `relatedQuestion` link and `defaultView`:
 
-# +
+# %%
 #Add related question link
 df_graphers['relatedQuestionText'] = np.nan
 df_graphers['relatedQuestionUrl'] = np.nan
@@ -505,13 +506,13 @@ df_graphers['mapTargetTime'] = df_graphers['mapTargetTime'].astype("Int64")
 df_graphers.loc[(df_graphers['ySlugs'] == "gini") 
                 & (df_graphers['Show breaks between less comparable surveys Checkbox'] == "false") 
                 & (df_graphers['tableSlug'] == "inc_or_cons"), ['defaultView']] = "true"
-# -
 
 
+# %% [markdown]
 # ## Explorer generation
 # Here, the header, tables and graphers dataframes are combined to be shown in for format required for OWID data explorers.
 
-# +
+# %%
 #Define list of variables to iterate: survey types and the list of variables (the latter for spell tables)
 survey_list = list(survey_type['table_name'].unique())
 var_list = list(df_spells['master_var'].unique())

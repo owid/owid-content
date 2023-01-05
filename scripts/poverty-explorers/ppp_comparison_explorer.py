@@ -1,18 +1,19 @@
+# %% [markdown]
 # # Poverty Data Explorer of World Bank data: 2011 vs 2017 prices
 # This code creates the tsv file for the PPP comparison explorer from the World Bank PIP data, available [here](https://ourworldindata.org/explorers/poverty-explorer-2011-vs-2017-ppp)
 
-# +
+# %%
 import pandas as pd
 import numpy as np
 import textwrap
 
 outfile = "../../explorers/poverty-explorer-2011-vs-2017-ppp.explorer.tsv"
-# -
 
+# %% [markdown]
 # ## Google sheets auxiliar data
 # These spreadsheets provide with different details depending on each poverty line (from 2011 and 2017 prices), both prices together, relative poverty or survey type.
 
-# +
+# %%
 #Read Google sheets
 sheet_id = '1mR0LPEGlY-wCp1q9lNTlDbVIG65JazKvHL16my9tH8Y'
 
@@ -40,12 +41,12 @@ povlines_rel = pd.read_csv(url)
 sheet_name = 'survey_type'
 url = f'https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}'
 survey_type = pd.read_csv(url)
-# -
 
+# %% [markdown]
 # ## Header
 # General settings of the explorer are defined here, like the title, subtitle, default country selection, publishing status and others.
 
-# +
+# %%
 #The header is defined as a dictionary first and then it is converted into a index-oriented dataframe
 header_dict = {'explorerTitle': 'Poverty Data Explorer of World Bank data: 2011 vs. 2017 prices',
                'selection': ['Mozambique', 'Nigeria', 'Kenya', 'Bangladesh', 'Bolivia', 'World'],
@@ -59,12 +60,12 @@ header_dict = {'explorerTitle': 'Poverty Data Explorer of World Bank data: 2011 
 df_header = pd.DataFrame.from_dict(header_dict, orient='index', columns=None)
 #Assigns a cell for each entity separated by comma (like in `selection`)
 df_header = df_header[0].apply(pd.Series)
-# -
 
+# %% [markdown]
 # ## Tables
 # Variables are grouped by type to iterate by different poverty lines and survey types at the same time. The output is the list of all the variables being used in the explorer, with metadata.
 
-# +
+# %%
 #Table generation
 df_tables = pd.DataFrame()
 j=0
@@ -368,12 +369,12 @@ for survey in range(len(survey_type)):
     
 #Make tolerance integer (to not break the parameter in the platform)
 df_tables['tolerance'] = df_tables['tolerance'].astype("Int64")
-# -
 
+# %% [markdown]
 # ## Grapher views
 # Similar to the tables, this creates the grapher views by grouping by types of variables and then running by survey type and poverty lines.
 
-# +
+# %%
 #Grapher table generation
 
 df_graphers = pd.DataFrame()
@@ -392,7 +393,7 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, 'Household survey data type Dropdown'] = f'{survey_type.dropdown_option[survey]}'
         df_graphers.loc[j, 'tableSlug'] = f'{survey_type.table_name[survey]}'
         df_graphers.loc[j, 'subtitle'] = f'{povlines_ppp2011.subtitle[p_2011]}'
-        df_graphers.loc[j, 'note'] = f"This data is measured in international-$ at 2011 prices. It relates to disposable {survey_type.text[survey]} per capita (exact definitions vary)."
+        df_graphers.loc[j, 'note'] = f"This data is measured in international-$ at 2011 prices. Depending on the country and year, it relates to disposable {survey_type.text[survey]} per capita."
         df_graphers.loc[j, 'sourceDesc'] = "World Bank Poverty and Inequality Platform"
         df_graphers.loc[j, 'type'] = np.nan
         df_graphers.loc[j, 'yAxisMin'] = 0
@@ -415,7 +416,7 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, 'Household survey data type Dropdown'] = f'{survey_type.dropdown_option[survey]}'
         df_graphers.loc[j, 'tableSlug'] = f'{survey_type.table_name[survey]}'
         df_graphers.loc[j, 'subtitle'] = f'{povlines_ppp2017.subtitle[p_2017]}'
-        df_graphers.loc[j, 'note'] = f"This data is measured in international-$ at 2017 prices. It relates to disposable {survey_type.text[survey]} per capita (exact definitions vary)."
+        df_graphers.loc[j, 'note'] = f"This data is measured in international-$ at 2017 prices. Depending on the country and year, it relates to disposable {survey_type.text[survey]} per capita."
         df_graphers.loc[j, 'sourceDesc'] = "World Bank Poverty and Inequality Platform"
         df_graphers.loc[j, 'type'] = np.nan
         df_graphers.loc[j, 'yAxisMin'] = 0
@@ -438,7 +439,7 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, 'Household survey data type Dropdown'] = f'{survey_type.dropdown_option[survey]}'
         df_graphers.loc[j, 'tableSlug'] = f'{survey_type.table_name[survey]}'
         df_graphers.loc[j, 'subtitle'] = f'{povlines_ppp2011.subtitle[p_2011]}'
-        df_graphers.loc[j, 'note'] = f"This data is measured in international-$ at 2011 prices. It relates to disposable {survey_type.text[survey]} per capita (exact definitions vary)."
+        df_graphers.loc[j, 'note'] = f"This data is measured in international-$ at 2011 prices. Depending on the country and year, it relates to disposable {survey_type.text[survey]} per capita."
         df_graphers.loc[j, 'sourceDesc'] = "World Bank Poverty and Inequality Platform"
         df_graphers.loc[j, 'type'] = np.nan
         df_graphers.loc[j, 'yAxisMin'] = 0
@@ -461,7 +462,7 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, 'Household survey data type Dropdown'] = f'{survey_type.dropdown_option[survey]}'
         df_graphers.loc[j, 'tableSlug'] = f'{survey_type.table_name[survey]}'
         df_graphers.loc[j, 'subtitle'] = f'{povlines_ppp2017.subtitle[p_2017]}'
-        df_graphers.loc[j, 'note'] = f"This data is measured in international-$ at 2017 prices. It relates to disposable {survey_type.text[survey]} per capita (exact definitions vary)."
+        df_graphers.loc[j, 'note'] = f"This data is measured in international-$ at 2017 prices. Depending on the country and year, it relates to disposable {survey_type.text[survey]} per capita."
         df_graphers.loc[j, 'sourceDesc'] = "World Bank Poverty and Inequality Platform"
         df_graphers.loc[j, 'type'] = np.nan
         df_graphers.loc[j, 'yAxisMin'] = 0
@@ -484,7 +485,7 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, 'Household survey data type Dropdown'] = f'{survey_type.dropdown_option[survey]}'
         df_graphers.loc[j, 'tableSlug'] = f'{survey_type.table_name[survey]}'
         df_graphers.loc[j, 'subtitle'] = f'{povlines_both.subtitle[p]}'
-        df_graphers.loc[j, 'note'] = f"This data relates to disposable {survey_type.text[survey]} per capita (exact definitions vary)."
+        df_graphers.loc[j, 'note'] = f"Depending on the country and year, the data relates to disposable {survey_type.text[survey]} per capita."
         df_graphers.loc[j, 'sourceDesc'] = "World Bank Poverty and Inequality Platform"
         df_graphers.loc[j, 'type'] = np.nan
         df_graphers.loc[j, 'yAxisMin'] = 0
@@ -507,7 +508,7 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, 'Household survey data type Dropdown'] = f'{survey_type.dropdown_option[survey]}'
         df_graphers.loc[j, 'tableSlug'] = f'{survey_type.table_name[survey]}'
         df_graphers.loc[j, 'subtitle'] = f'{povlines_both.subtitle[p]}'
-        df_graphers.loc[j, 'note'] = f"This data relates to disposable {survey_type.text[survey]} per capita (exact definitions vary)."
+        df_graphers.loc[j, 'note'] = f"Depending on the country and year, the data relates to disposable {survey_type.text[survey]} per capita."
         df_graphers.loc[j, 'sourceDesc'] = "World Bank Poverty and Inequality Platform"
         df_graphers.loc[j, 'type'] = np.nan
         df_graphers.loc[j, 'yAxisMin'] = 0
@@ -530,7 +531,7 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, 'Household survey data type Dropdown'] = f'{survey_type.dropdown_option[survey]}'
         df_graphers.loc[j, 'tableSlug'] = f'{survey_type.table_name[survey]}'
         df_graphers.loc[j, 'subtitle'] = f'Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at {povlines_rel.text[pct]} {survey_type.text[survey]}.'
-        df_graphers.loc[j, 'note'] = f"This data is measured in international-$ at 2011 prices to account for inflation and differences in the cost of living between countries. It relates to disposable {survey_type.text[survey]} per capita (exact definitions vary)."
+        df_graphers.loc[j, 'note'] = f"Depending on the country and year, the data relates to disposable {survey_type.text[survey]} per capita."
         df_graphers.loc[j, 'sourceDesc'] = "World Bank Poverty and Inequality Platform"
         df_graphers.loc[j, 'type'] = np.nan
         df_graphers.loc[j, 'yAxisMin'] = 0
@@ -553,7 +554,7 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, 'Household survey data type Dropdown'] = f'{survey_type.dropdown_option[survey]}'
         df_graphers.loc[j, 'tableSlug'] = f'{survey_type.table_name[survey]}'
         df_graphers.loc[j, 'subtitle'] = f'Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at {povlines_rel.text[pct]} {survey_type.text[survey]}.'
-        df_graphers.loc[j, 'note'] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. It relates to disposable {survey_type.text[survey]} per capita (exact definitions vary)."
+        df_graphers.loc[j, 'note'] = f"Depending on the country and year, the data relates to disposable {survey_type.text[survey]} per capita."
         df_graphers.loc[j, 'sourceDesc'] = "World Bank Poverty and Inequality Platform"
         df_graphers.loc[j, 'type'] = np.nan
         df_graphers.loc[j, 'yAxisMin'] = 0
@@ -576,7 +577,7 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, 'Household survey data type Dropdown'] = f'{survey_type.dropdown_option[survey]}'
         df_graphers.loc[j, 'tableSlug'] = f'{survey_type.table_name[survey]}'
         df_graphers.loc[j, 'subtitle'] = f'Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at {povlines_rel.text[pct]} {survey_type.text[survey]}.'
-        df_graphers.loc[j, 'note'] = f"This data is measured in international-$ at 2011 prices to account for inflation and differences in the cost of living between countries. It relates to disposable {survey_type.text[survey]} per capita (exact definitions vary)."
+        df_graphers.loc[j, 'note'] = f"Depending on the country and year, the data relates to disposable {survey_type.text[survey]} per capita."
         df_graphers.loc[j, 'sourceDesc'] = "World Bank Poverty and Inequality Platform"
         df_graphers.loc[j, 'type'] = np.nan
         df_graphers.loc[j, 'yAxisMin'] = 0
@@ -599,7 +600,7 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, 'Household survey data type Dropdown'] = f'{survey_type.dropdown_option[survey]}'
         df_graphers.loc[j, 'tableSlug'] = f'{survey_type.table_name[survey]}'
         df_graphers.loc[j, 'subtitle'] = f'Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at {povlines_rel.text[pct]} {survey_type.text[survey]}.'
-        df_graphers.loc[j, 'note'] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. It relates to disposable {survey_type.text[survey]} per capita (exact definitions vary)."
+        df_graphers.loc[j, 'note'] = f"Depending on the country and year, the data relates to disposable {survey_type.text[survey]} per capita."
         df_graphers.loc[j, 'sourceDesc'] = "World Bank Poverty and Inequality Platform"
         df_graphers.loc[j, 'type'] = np.nan
         df_graphers.loc[j, 'yAxisMin'] = 0
@@ -621,7 +622,7 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, 'Household survey data type Dropdown'] = f'{survey_type.dropdown_option[survey]}'
     df_graphers.loc[j, 'tableSlug'] = f'{survey_type.table_name[survey]}'
     df_graphers.loc[j, 'subtitle'] = f'Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at 60% of the median {survey_type.text[survey]}.'
-    df_graphers.loc[j, 'note'] = f"This data is adjusted for inflation and for differences in the cost of living between countries. It relates to disposable {survey_type.text[survey]} per capita (exact definitions vary)."
+    df_graphers.loc[j, 'note'] = f"Depending on the country and year, the data relates to disposable {survey_type.text[survey]} per capita."
     df_graphers.loc[j, 'sourceDesc'] = "World Bank Poverty and Inequality Platform"
     df_graphers.loc[j, 'type'] = np.nan
     df_graphers.loc[j, 'yAxisMin'] = 0
@@ -642,7 +643,7 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, 'Household survey data type Dropdown'] = f'{survey_type.dropdown_option[survey]}'
     df_graphers.loc[j, 'tableSlug'] = f'{survey_type.table_name[survey]}'
     df_graphers.loc[j, 'subtitle'] = f'Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at 60% of the median {survey_type.text[survey]}.'
-    df_graphers.loc[j, 'note'] = f"This data is adjusted for inflation and for differences in the cost of living between countries. It relates to disposable {survey_type.text[survey]} per capita (exact definitions vary)."
+    df_graphers.loc[j, 'note'] = f"Depending on the country and year, the data relates to disposable {survey_type.text[survey]} per capita."
     df_graphers.loc[j, 'sourceDesc'] = "World Bank Poverty and Inequality Platform"
     df_graphers.loc[j, 'type'] = np.nan
     df_graphers.loc[j, 'yAxisMin'] = 0
@@ -663,7 +664,7 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, 'Household survey data type Dropdown'] = f'{survey_type.dropdown_option[survey]}'
     df_graphers.loc[j, 'tableSlug'] = f'{survey_type.table_name[survey]}'
     df_graphers.loc[j, 'subtitle'] = "This data is adjusted for inflation and for differences in the cost of living between countries."
-    df_graphers.loc[j, 'note'] = f"This data is measured in international-$ at 2011 prices. It relates to disposable {survey_type.text[survey]} per capita (exact definitions vary)."
+    df_graphers.loc[j, 'note'] = f"This data is measured in international-$ at 2011 prices. Depending on the country and year, it relates to disposable {survey_type.text[survey]} per capita."
     df_graphers.loc[j, 'sourceDesc'] = "World Bank Poverty and Inequality Platform"
     df_graphers.loc[j, 'type'] = np.nan
     df_graphers.loc[j, 'yAxisMin'] = 0
@@ -685,7 +686,7 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, 'Household survey data type Dropdown'] = f'{survey_type.dropdown_option[survey]}'
     df_graphers.loc[j, 'tableSlug'] = f'{survey_type.table_name[survey]}'
     df_graphers.loc[j, 'subtitle'] = "This data is adjusted for inflation and for differences in the cost of living between countries."
-    df_graphers.loc[j, 'note'] = f"This data is measured in international-$ at 2017 prices. It relates to disposable {survey_type.text[survey]} per capita (exact definitions vary)."
+    df_graphers.loc[j, 'note'] = f"This data is measured in international-$ at 2017 prices. Depending on the country and year, it relates to disposable {survey_type.text[survey]} per capita."
     df_graphers.loc[j, 'sourceDesc'] = "World Bank Poverty and Inequality Platform"
     df_graphers.loc[j, 'type'] = np.nan
     df_graphers.loc[j, 'yAxisMin'] = 0
@@ -707,7 +708,7 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, 'Household survey data type Dropdown'] = f'{survey_type.dropdown_option[survey]}'
     df_graphers.loc[j, 'tableSlug'] = f'{survey_type.table_name[survey]}'
     df_graphers.loc[j, 'subtitle'] = "This data is adjusted for inflation and for differences in the cost of living between countries."
-    df_graphers.loc[j, 'note'] = f"This data relates to disposable {survey_type.text[survey]} per capita (exact definitions vary)."
+    df_graphers.loc[j, 'note'] = f"Depending on the country and year, the data relates to disposable {survey_type.text[survey]} per capita."
     df_graphers.loc[j, 'sourceDesc'] = "World Bank Poverty and Inequality Platform"
     df_graphers.loc[j, 'type'] = np.nan
     df_graphers.loc[j, 'yAxisMin'] = 0
@@ -729,7 +730,7 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, 'Household survey data type Dropdown'] = f'{survey_type.dropdown_option[survey]}'
     df_graphers.loc[j, 'tableSlug'] = f'{survey_type.table_name[survey]}'
     df_graphers.loc[j, 'subtitle'] = "This data is adjusted for inflation and for differences in the cost of living between countries."
-    df_graphers.loc[j, 'note'] = f"This data is measured in international-$ at 2011 prices. It relates to disposable {survey_type.text[survey]} per capita (exact definitions vary)."
+    df_graphers.loc[j, 'note'] = f"This data is measured in international-$ at 2011 prices. Depending on the country and year, it relates to disposable {survey_type.text[survey]} per capita."
     df_graphers.loc[j, 'sourceDesc'] = "World Bank Poverty and Inequality Platform"
     df_graphers.loc[j, 'type'] = np.nan
     df_graphers.loc[j, 'yAxisMin'] = 0
@@ -751,7 +752,7 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, 'Household survey data type Dropdown'] = f'{survey_type.dropdown_option[survey]}'
     df_graphers.loc[j, 'tableSlug'] = f'{survey_type.table_name[survey]}'
     df_graphers.loc[j, 'subtitle'] = "This data is adjusted for inflation and for differences in the cost of living between countries."
-    df_graphers.loc[j, 'note'] = f"This data is measured in international-$ at 2017 prices. It relates to disposable {survey_type.text[survey]} per capita (exact definitions vary)."
+    df_graphers.loc[j, 'note'] = f"This data is measured in international-$ at 2017 prices. Depending on the country and year, it relates to disposable {survey_type.text[survey]} per capita."
     df_graphers.loc[j, 'sourceDesc'] = "World Bank Poverty and Inequality Platform"
     df_graphers.loc[j, 'type'] = np.nan
     df_graphers.loc[j, 'yAxisMin'] = 0
@@ -773,7 +774,7 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, 'Household survey data type Dropdown'] = f'{survey_type.dropdown_option[survey]}'
     df_graphers.loc[j, 'tableSlug'] = f'{survey_type.table_name[survey]}'
     df_graphers.loc[j, 'subtitle'] = "This data is adjusted for inflation and for differences in the cost of living between countries."
-    df_graphers.loc[j, 'note'] = f"This data relates to disposable {survey_type.text[survey]} per capita (exact definitions vary)."
+    df_graphers.loc[j, 'note'] = f"Depending on the country and year, the data relates to disposable {survey_type.text[survey]} per capita."
     df_graphers.loc[j, 'sourceDesc'] = "World Bank Poverty and Inequality Platform"
     df_graphers.loc[j, 'type'] = np.nan
     df_graphers.loc[j, 'yAxisMin'] = 0
@@ -795,7 +796,7 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, 'Household survey data type Dropdown'] = f'{survey_type.dropdown_option[survey]}'
     df_graphers.loc[j, 'tableSlug'] = f'{survey_type.table_name[survey]}'
     df_graphers.loc[j, 'subtitle'] = f"P10 is the level of {survey_type.text[survey]} per day below which 10% of the population falls."
-    df_graphers.loc[j, 'note'] = f"This data is measured in international-$ at 2011 prices to account for inflation and differences in the cost of living between countries. It relates to disposable {survey_type.text[survey]} per capita (exact definitions vary)."
+    df_graphers.loc[j, 'note'] = f"This data is measured in international-$ at 2011 prices to account for inflation and differences in the cost of living between countries. It relates to disposable {survey_type.text[survey]} per capita."
     df_graphers.loc[j, 'sourceDesc'] = "World Bank Poverty and Inequality Platform"
     df_graphers.loc[j, 'type'] = np.nan
     df_graphers.loc[j, 'yAxisMin'] = 0
@@ -817,7 +818,7 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, 'Household survey data type Dropdown'] = f'{survey_type.dropdown_option[survey]}'
     df_graphers.loc[j, 'tableSlug'] = f'{survey_type.table_name[survey]}'
     df_graphers.loc[j, 'subtitle'] = f"P10 is the level of {survey_type.text[survey]} per day below which 10% of the population falls."
-    df_graphers.loc[j, 'note'] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. It relates to disposable {survey_type.text[survey]} per capita (exact definitions vary)."
+    df_graphers.loc[j, 'note'] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. It relates to disposable {survey_type.text[survey]} per capita."
     df_graphers.loc[j, 'sourceDesc'] = "World Bank Poverty and Inequality Platform"
     df_graphers.loc[j, 'type'] = np.nan
     df_graphers.loc[j, 'yAxisMin'] = 0
@@ -839,7 +840,7 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, 'Household survey data type Dropdown'] = f'{survey_type.dropdown_option[survey]}'
     df_graphers.loc[j, 'tableSlug'] = f'{survey_type.table_name[survey]}'
     df_graphers.loc[j, 'subtitle'] = f"P10 is the level of {survey_type.text[survey]} per day below which 10% of the population falls."
-    df_graphers.loc[j, 'note'] = f"This data is adjusted for inflation and for differences in the cost of living between countries. It relates to disposable {survey_type.text[survey]} per capita (exact definitions vary)."
+    df_graphers.loc[j, 'note'] = f"This data is adjusted for inflation and for differences in the cost of living between countries. It relates to disposable {survey_type.text[survey]} per capita."
     df_graphers.loc[j, 'sourceDesc'] = "World Bank Poverty and Inequality Platform"
     df_graphers.loc[j, 'type'] = np.nan
     df_graphers.loc[j, 'yAxisMin'] = 0
@@ -861,7 +862,7 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, 'Household survey data type Dropdown'] = f'{survey_type.dropdown_option[survey]}'
     df_graphers.loc[j, 'tableSlug'] = f'{survey_type.table_name[survey]}'
     df_graphers.loc[j, 'subtitle'] = f"P90 is the level of {survey_type.text[survey]} per day above which 10% of the population falls."
-    df_graphers.loc[j, 'note'] = f"This data is measured in international-$ at 2011 prices to account for inflation and differences in the cost of living between countries. It relates to disposable {survey_type.text[survey]} per capita (exact definitions vary)."
+    df_graphers.loc[j, 'note'] = f"This data is measured in international-$ at 2011 prices to account for inflation and differences in the cost of living between countries. It relates to disposable {survey_type.text[survey]} per capita."
     df_graphers.loc[j, 'sourceDesc'] = "World Bank Poverty and Inequality Platform"
     df_graphers.loc[j, 'type'] = np.nan
     df_graphers.loc[j, 'yAxisMin'] = 0
@@ -883,7 +884,7 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, 'Household survey data type Dropdown'] = f'{survey_type.dropdown_option[survey]}'
     df_graphers.loc[j, 'tableSlug'] = f'{survey_type.table_name[survey]}'
     df_graphers.loc[j, 'subtitle'] = f"P90 is the level of {survey_type.text[survey]} per day above which 10% of the population falls."
-    df_graphers.loc[j, 'note'] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. It relates to disposable {survey_type.text[survey]} per capita (exact definitions vary)."
+    df_graphers.loc[j, 'note'] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. It relates to disposable {survey_type.text[survey]} per capita."
     df_graphers.loc[j, 'sourceDesc'] = "World Bank Poverty and Inequality Platform"
     df_graphers.loc[j, 'type'] = np.nan
     df_graphers.loc[j, 'yAxisMin'] = 0
@@ -905,7 +906,7 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, 'Household survey data type Dropdown'] = f'{survey_type.dropdown_option[survey]}'
     df_graphers.loc[j, 'tableSlug'] = f'{survey_type.table_name[survey]}'
     df_graphers.loc[j, 'subtitle'] = f"P90 is the level of {survey_type.text[survey]} per day above which 10% of the population falls."
-    df_graphers.loc[j, 'note'] = f"This data is adjusted for inflation and for differences in the cost of living between countries. It relates to disposable {survey_type.text[survey]} per capita (exact definitions vary)."
+    df_graphers.loc[j, 'note'] = f"This data is adjusted for inflation and for differences in the cost of living between countries. It relates to disposable {survey_type.text[survey]} per capita."
     df_graphers.loc[j, 'sourceDesc'] = "World Bank Poverty and Inequality Platform"
     df_graphers.loc[j, 'type'] = np.nan
     df_graphers.loc[j, 'yAxisMin'] = 0
@@ -956,12 +957,12 @@ df_graphers_mapping = df_graphers_mapping.reset_index().set_index('povline_dropd
 df_graphers['povline_dropdown_aux'] = df_graphers['Poverty line Dropdown'].map(df_graphers_mapping['index'])
 df_graphers = df_graphers.sort_values('povline_dropdown_aux', ignore_index=True)
 df_graphers = df_graphers.drop(columns=['povline_dropdown_aux'])
-# -
 
+# %% [markdown]
 # ## Explorer generation
 # Here, the header, tables and graphers dataframes are combined to be shown in for format required for OWID data explorers.
 
-# +
+# %%
 #Define list of variables to iterate: survey types
 survey_list = list(survey_type['table_name'].unique())
 
