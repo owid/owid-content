@@ -497,6 +497,22 @@ df_graphers['relatedQuestionUrl'] = np.nan
 
 #Make mapTargetTime integer (to not break the parameter in the platform)
 df_graphers['mapTargetTime'] = df_graphers['mapTargetTime'].astype("Int64")
+
+#When the "Depending on" footnote is introduced, it generates unwanted texts as:
+#"Depending on the country and year, the data relates to disposable income per capita."
+#"Depending on the country and year, the data relates to disposable consumption per capita."
+
+# When int-$ are not included
+df_graphers['note'] = df_graphers['note'].str.replace("Depending on the country and year, the data relates to disposable income per capita.",
+                                                     "The data relates to disposable income per capita.", regex=False)
+df_graphers['note'] = df_graphers['note'].str.replace("Depending on the country and year, the data relates to disposable consumption per capita.",
+                                                     "The data relates to disposable consumption per capita.", regex=False)
+
+# When int-$ are included
+df_graphers['note'] = df_graphers['note'].str.replace("Depending on the country and year, it relates to disposable income per capita.",
+                                                     "It relates to disposable income per capita.", regex=False)
+df_graphers['note'] = df_graphers['note'].str.replace("Depending on the country and year, it relates to disposable consumption per capita.",
+                                                     "It relates to disposable consumption per capita.", regex=False)
     
 #Select one default view
 df_graphers.loc[(df_graphers['Decile Dropdown'] == 'All deciles') 

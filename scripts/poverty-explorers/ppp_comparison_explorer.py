@@ -919,6 +919,10 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, 'survey_type'] = survey_type['table_name'][survey]
     j += 1
 
+# %% [markdown]
+# Final adjustments to the graphers table:
+
+# %%
 #Add PPP comparison article as related question link
 df_graphers['relatedQuestionText'] = "From $1.90 to $2.15 a day: the updated International Poverty Line"
 df_graphers['relatedQuestionUrl'] = "https://ourworldindata.org/from-1-90-to-2-15-a-day-the-updated-international-poverty-line"
@@ -929,8 +933,23 @@ df_graphers['mapTargetTime'] = df_graphers['mapTargetTime'].astype("Int64")
 #Select one default view
 df_graphers.loc[(df_graphers['ySlugs'] == "headcount_ratio_190_ppp2011 headcount_ratio_215_ppp2017") 
        & (df_graphers['tableSlug'] == "inc_or_cons"), ['defaultView']] = "true"
-    
-    
+
+#When the "Depending on" footnote is introduced, it generates unwanted texts as:
+#"Depending on the country and year, the data relates to disposable income per capita."
+#"Depending on the country and year, the data relates to disposable consumption per capita."
+
+# When int-$ are not included
+df_graphers['note'] = df_graphers['note'].str.replace("Depending on the country and year, the data relates to disposable income per capita.",
+                                                     "The data relates to disposable income per capita.", regex=False)
+df_graphers['note'] = df_graphers['note'].str.replace("Depending on the country and year, the data relates to disposable consumption per capita.",
+                                                     "The data relates to disposable consumption per capita.", regex=False)
+
+# When int-$ are included
+df_graphers['note'] = df_graphers['note'].str.replace("Depending on the country and year, it relates to disposable income per capita.",
+                                                     "It relates to disposable income per capita.", regex=False)
+df_graphers['note'] = df_graphers['note'].str.replace("Depending on the country and year, it relates to disposable consumption per capita.",
+                                                     "It relates to disposable consumption per capita.", regex=False)
+       
 #Reorder dropdown menus
 povline_dropdown_list = ['$1.90 per day: International Poverty Line',
                          '$2.15 per day: International Poverty Line',
