@@ -69,7 +69,7 @@ for survey in range(len(survey_type)):
 
     #Headcount ratio (abs)
     for p in range(len(povlines_abs)):
-        df_tables.loc[j, 'name'] = f'Share of population below ${povlines_abs.dollars_text[p]} a day'
+        df_tables.loc[j, 'name'] = f'Share below ${povlines_abs.dollars_text[p]} a day'
         df_tables.loc[j, 'slug'] = f'headcount_ratio_{povlines_abs.cents[p]}'
         df_tables.loc[j, 'sourceName'] = "World Bank Poverty and Inequality Platform"
         df_tables.loc[j, 'description'] = f'% of population living in households with an {survey_type.text[survey]} per person below ${povlines_abs.dollars_text[p]} a day.'
@@ -88,7 +88,7 @@ for survey in range(len(survey_type)):
 
     #Headcount (abs)
     for p in range(len(povlines_abs)):
-        df_tables.loc[j, 'name'] = f'Number of people below ${povlines_abs.dollars_text[p]} a day'
+        df_tables.loc[j, 'name'] = f'Number below ${povlines_abs.dollars_text[p]} a day'
         df_tables.loc[j, 'slug'] = f'headcount_{povlines_abs.cents[p]}'
         df_tables.loc[j, 'sourceName'] = "World Bank Poverty and Inequality Platform"
         df_tables.loc[j, 'description'] = f'Number of people living in households with an {survey_type.text[survey]} per person below ${povlines_abs.dollars_text[p]} a day.'
