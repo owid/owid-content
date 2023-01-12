@@ -462,7 +462,7 @@ for i in range(len(df_graphers)):
     df_graphers_spells.loc[j, 'Aggregation Radio'] = df_graphers['Aggregation Radio'][i]
     df_graphers_spells.loc[j, 'Household survey data type Dropdown'] = df_graphers['Household survey data type Dropdown'][i]
     df_graphers_spells.loc[j, 'tableSlug'] = df_graphers['survey_type'][i] + "_" + df_graphers['ySlugs'][i]
-    df_graphers_spells.loc[j, 'subtitle'] = df_graphers['subtitle'][i]
+    df_graphers_spells.loc[j, 'subtitle'] = "The chart shows breaks in the comparability of the underlying household survey data over time within each country individually. " + df_graphers['subtitle'][i]
     df_graphers_spells.loc[j, 'note'] = df_graphers['note'][i]
     df_graphers_spells.loc[j, 'sourceDesc'] = df_graphers['sourceDesc'][i]
     df_graphers_spells.loc[j, 'type'] = df_graphers['type'][i]
