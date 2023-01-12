@@ -416,7 +416,7 @@ for survey in range(len(survey_type)):
     #P10
     df_graphers.loc[j, 'title'] = f"Threshold {survey_type.text[survey]} per day marking the poorest decile"
     df_graphers.loc[j, 'ySlugs'] = "decile1_thr"
-    df_graphers.loc[j, 'Metric Dropdown'] = "Income or comsumption of the poorest 10%"
+    df_graphers.loc[j, 'Metric Dropdown'] = "Income or consumption of the poorest 10%"
     df_graphers.loc[j, 'Poverty line Dropdown'] = np.nan
     df_graphers.loc[j, 'Household survey data type Dropdown'] = f'{survey_type.dropdown_option[survey]}'
     df_graphers.loc[j, 'tableSlug'] = f'{survey_type.table_name[survey]}'
@@ -437,7 +437,7 @@ for survey in range(len(survey_type)):
     #P10
     df_graphers.loc[j, 'title'] = f"Threshold {survey_type.text[survey]} per day marking the richest decile"
     df_graphers.loc[j, 'ySlugs'] = "decile9_thr"
-    df_graphers.loc[j, 'Metric Dropdown'] = "Income or comsumption of the richest 10%"
+    df_graphers.loc[j, 'Metric Dropdown'] = "Income or consumption of the richest 10%"
     df_graphers.loc[j, 'Poverty line Dropdown'] = np.nan
     df_graphers.loc[j, 'Household survey data type Dropdown'] = f'{survey_type.dropdown_option[survey]}'
     df_graphers.loc[j, 'tableSlug'] = f'{survey_type.table_name[survey]}'
@@ -470,7 +470,7 @@ for i in range(len(df_graphers)):
     df_graphers_spells.loc[j, 'Poverty line Dropdown'] = df_graphers['Poverty line Dropdown'][i]
     df_graphers_spells.loc[j, 'Household survey data type Dropdown'] = df_graphers['Household survey data type Dropdown'][i]
     df_graphers_spells.loc[j, 'tableSlug'] = df_graphers['survey_type'][i] + "_" + df_graphers['ySlugs'][i]
-    df_graphers_spells.loc[j, 'subtitle'] = df_graphers['subtitle'][i]
+    df_graphers_spells.loc[j, 'subtitle'] = "The chart shows breaks in the comparability of the underlying household survey data over time within each country individually. " + df_graphers['subtitle'][i]
     df_graphers_spells.loc[j, 'note'] = df_graphers['note'][i]
     df_graphers_spells.loc[j, 'sourceDesc'] = df_graphers['sourceDesc'][i]
     df_graphers_spells.loc[j, 'type'] = df_graphers['type'][i]
