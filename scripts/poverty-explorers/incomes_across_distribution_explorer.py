@@ -402,7 +402,7 @@ for survey in range(len(survey_type)):
     for dec10 in range(len(deciles10)):
 
         #shares
-        df_graphers.loc[j, 'title'] = f"Share of the {deciles10.ordinal[dec10]} in total {survey_type.text[survey]}"
+        df_graphers.loc[j, 'title'] = f"{survey_type.text[survey].capitalize()} share of the {deciles10.ordinal[dec10]}"
         df_graphers.loc[j, 'ySlugs'] = f"decile{deciles10.decile[dec10]}_share"
         df_graphers.loc[j, 'Metric Dropdown'] = "Decile shares"
         df_graphers.loc[j, 'Decile Dropdown'] = f'{deciles10.dropdown[dec10]}'
@@ -424,14 +424,14 @@ for survey in range(len(survey_type)):
         j += 1
         
     #shares - multiple deciles
-    df_graphers.loc[j, 'title'] = f"Share of the total {survey_type.text[survey]} per {income_aggregation.aggregation[agg]} for each decile"
+    df_graphers.loc[j, 'title'] = f"{survey_type.text[survey].capitalize()} share for each decile"
     df_graphers.loc[j, 'ySlugs'] = f"decile1_share decile2_share decile3_share decile4_share decile5_share decile6_share decile7_share decile8_share decile9_share decile10_share"
     df_graphers.loc[j, 'Metric Dropdown'] = "Decile shares"
     df_graphers.loc[j, 'Decile Dropdown'] = "All deciles"
     df_graphers.loc[j, 'Aggregation Radio'] = np.nan
     df_graphers.loc[j, 'Household survey data type Dropdown'] = f'{survey_type.dropdown_option[survey]}'
     df_graphers.loc[j, 'tableSlug'] = f'{survey_type.table_name[survey]}'
-    df_graphers.loc[j, 'subtitle'] = f"This data is adjusted for inflation and for differences in the cost of living between countries."
+    df_graphers.loc[j, 'subtitle'] = f"This is the {survey_type.text[survey]} of each decile (tenth of the population) as a share of total {survey_type.text[survey]}."
     df_graphers.loc[j, 'note'] = f"Depending on the country and year, the data relates to disposable {survey_type.text[survey]} per capita."
     df_graphers.loc[j, 'sourceDesc'] = "World Bank Poverty and Inequality Platform"
     df_graphers.loc[j, 'type'] = np.nan
