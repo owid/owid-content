@@ -42,7 +42,7 @@ header_dict = {'explorerTitle': 'Poverty Data Explorer of World Bank data: Expan
                'selection': ['Mozambique', 'Nigeria', 'Kenya', 'Bangladesh', 'Bolivia', 'World'],
                'explorerSubtitle': "<i><a href='https://github.com/owid/poverty-data'>Download Poverty data on GitHub</a></i>",
                'isPublished': 'false',
-               'googleSheet': 'https://docs.google.com/spreadsheets/d/17KJ9YcvfdmO_7-Sv2Ij0vmzAQI6rXSIqHfJtgFHN-a8',
+               'googleSheet': f'https://docs.google.com/spreadsheets/d/{sheet_id}',
                'wpBlockId': '52633',
                'entityType': 'country or region'}
 

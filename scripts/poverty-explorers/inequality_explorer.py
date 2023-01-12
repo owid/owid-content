@@ -15,7 +15,7 @@ outfile = "../../explorers/pip-inequality-explorer.explorer.tsv"
 
 # %%
 #Read Google sheets
-sheet_id = '1Oit-4xH6pg5fVKe5gfgd4H7CKRpAe7dQhrmkBc4IpkU'
+sheet_id = '17KJ9YcvfdmO_7-Sv2Ij0vmzAQI6rXSIqHfJtgFHN-a8'
 
 #Relative poverty sheet
 sheet_name = 'povlines_rel'
@@ -37,7 +37,7 @@ header_dict = {'explorerTitle': 'Inequality Data Explorer of World Bank data',
                'selection': ['Chile', 'Brazil', 'South Africa', 'United States', 'France', 'China'],
                'explorerSubtitle': "<i><a href='https://github.com/owid/poverty-data'>Download inequality data on GitHub</a></i>",
                'isPublished': 'false',
-               'googleSheet': 'https://docs.google.com/spreadsheets/d/1Oit-4xH6pg5fVKe5gfgd4H7CKRpAe7dQhrmkBc4IpkU',
+               'googleSheet': f'https://docs.google.com/spreadsheets/d/{sheet_id}',
                'wpBlockId': '52633',
                'entityType': 'country or region'}
 
