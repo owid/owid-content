@@ -1,12 +1,12 @@
-explorerTitle	Poverty Data Explorer of World Bank data						
-selection	Bangladesh	Bolivia	Georgia	Kenya	Mozambique	Nigeria	Zambia
-explorerSubtitle	<i><a href='https://github.com/owid/poverty-data'>Download Poverty data on GitHub</a></i>						
-isPublished	false						
-googleSheet	https://docs.google.com/spreadsheets/d/17KJ9YcvfdmO_7-Sv2Ij0vmzAQI6rXSIqHfJtgFHN-a8						
-wpBlockId	52633						
-entityType	country or region						
-thumbnail	https://ourworldindata.org/uploads/2022/10/chart.png						
-pickerColumnSlugs	headcount_ratio_100 headcount_ratio_215 headcount_ratio_365 headcount_ratio_685 headcount_ratio_1000 headcount_ratio_2000 headcount_ratio_3000 headcount_ratio_4000 headcount_100 headcount_215 headcount_365 headcount_685 headcount_1000 headcount_2000 headcount_3000 headcount_4000 headcount_ratio_40_median headcount_ratio_50_median headcount_ratio_60_median headcount_40_median headcount_50_median headcount_60_median mean median decile1_thr decile9_thr						
+explorerTitle	Poverty Data Explorer of World Bank data					
+selection	Bangladesh	Bolivia	Kenya	Mozambique	Nigeria	Zambia
+explorerSubtitle	<i><a href='https://github.com/owid/poverty-data'>Download Poverty data on GitHub</a></i>					
+isPublished	false					
+googleSheet	https://docs.google.com/spreadsheets/d/17KJ9YcvfdmO_7-Sv2Ij0vmzAQI6rXSIqHfJtgFHN-a8					
+wpBlockId	52633					
+entityType	country or region					
+thumbnail	https://ourworldindata.org/uploads/2022/10/chart.png					
+pickerColumnSlugs	headcount_ratio_100 headcount_ratio_215 headcount_ratio_365 headcount_ratio_685 headcount_ratio_1000 headcount_ratio_2000 headcount_ratio_3000 headcount_ratio_4000 headcount_100 headcount_215 headcount_365 headcount_685 headcount_1000 headcount_2000 headcount_3000 headcount_4000 headcount_ratio_40_median headcount_ratio_50_median headcount_ratio_60_median headcount_40_median headcount_50_median headcount_60_median mean median decile1_thr decile9_thr					
 
 graphers
 	title	ySlugs	Metric Dropdown	Poverty line Dropdown	Household survey data type Dropdown	tableSlug	subtitle	note	sourceDesc	type	yAxisMin	facet	selectedFacetStrategy	hasMapTab	tab	mapTargetTime	yScaleToggle	Show breaks between less comparable surveys Checkbox	relatedQuestionText	relatedQuestionUrl	defaultView
