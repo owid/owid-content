@@ -326,6 +326,46 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, 'mapTargetTime'] = 2019
         df_graphers.loc[j, 'survey_type'] = survey_type['table_name'][survey]
         j += 1
+        
+    #Headcount ratio (abs) - Multiple lines
+    df_graphers.loc[j, 'title'] = "Share of population living below a range of poverty lines"
+    df_graphers.loc[j, 'ySlugs'] = 'headcount_ratio_100 headcount_ratio_215 headcount_ratio_365 headcount_ratio_685 headcount_ratio_1000 headcount_ratio_2000 headcount_ratio_3000 headcount_ratio_4000'
+    df_graphers.loc[j, 'Metric Dropdown'] = "Share in poverty"
+    df_graphers.loc[j, 'Poverty line Dropdown'] = "Multiple lines"
+    df_graphers.loc[j, 'Household survey data type Dropdown'] = f'{survey_type.dropdown_option[survey]}'
+    df_graphers.loc[j, 'tableSlug'] = f'{survey_type.table_name[survey]}'
+    df_graphers.loc[j, 'subtitle'] = "This data is adjusted for inflation and for differences in the cost of living between countries."
+    df_graphers.loc[j, 'note'] = f"This data is measured in international-$ at 2017 prices. Depending on the country and year, it relates to disposable {survey_type.text[survey]} per capita."
+    df_graphers.loc[j, 'sourceDesc'] = "World Bank Poverty and Inequality Platform"
+    df_graphers.loc[j, 'type'] = np.nan
+    df_graphers.loc[j, 'yAxisMin'] = 0
+    df_graphers.loc[j, 'facet'] = "entity"
+    df_graphers.loc[j, 'selectedFacetStrategy'] = "entity"
+    df_graphers.loc[j, 'hasMapTab'] = "false"
+    df_graphers.loc[j, 'tab'] = "chart"
+    df_graphers.loc[j, 'mapTargetTime'] = 2019
+    df_graphers.loc[j, 'survey_type'] = survey_type['table_name'][survey]
+    j += 1
+
+    #Headcount (abs) - Multiple lines
+    df_graphers.loc[j, 'title'] = "Number of people living below a range of poverty lines"
+    df_graphers.loc[j, 'ySlugs'] = 'headcount_100 headcount_215 headcount_365 headcount_685 headcount_1000 headcount_2000 headcount_3000 headcount_4000'
+    df_graphers.loc[j, 'Metric Dropdown'] = "Number in poverty"
+    df_graphers.loc[j, 'Poverty line Dropdown'] = "Multiple lines"
+    df_graphers.loc[j, 'Household survey data type Dropdown'] = f'{survey_type.dropdown_option[survey]}'
+    df_graphers.loc[j, 'tableSlug'] = f'{survey_type.table_name[survey]}'
+    df_graphers.loc[j, 'subtitle'] = "This data is adjusted for inflation and for differences in the cost of living between countries."
+    df_graphers.loc[j, 'note'] = f"This data is measured in international-$ at 2017 prices. Depending on the country and year, it relates to disposable {survey_type.text[survey]} per capita."
+    df_graphers.loc[j, 'sourceDesc'] = "World Bank Poverty and Inequality Platform"
+    df_graphers.loc[j, 'type'] = np.nan
+    df_graphers.loc[j, 'yAxisMin'] = 0
+    df_graphers.loc[j, 'facet'] = "entity"
+    df_graphers.loc[j, 'selectedFacetStrategy'] = "entity"
+    df_graphers.loc[j, 'hasMapTab'] = "false"
+    df_graphers.loc[j, 'tab'] = "chart"
+    df_graphers.loc[j, 'mapTargetTime'] = 2019
+    df_graphers.loc[j, 'survey_type'] = survey_type['table_name'][survey]
+    j += 1
 
     #Headcount ratio (rel)
     for pct in range(len(povlines_rel)):
@@ -482,6 +522,9 @@ for i in range(len(df_graphers)):
     df_graphers_spells.loc[j, 'mapTargetTime'] = np.nan
     df_graphers_spells.loc[j, 'Show breaks between less comparable surveys Checkbox'] = "true"
     j += 1
+    
+#Delete spells views for multiple poverty lines
+df_graphers_spells = df_graphers_spells[~(df_graphers_spells['Poverty line Dropdown'] == "Multiple lines")].reset_index(drop=True)
 
 df_graphers = pd.concat([df_graphers, df_graphers_spells], ignore_index=True)
 
