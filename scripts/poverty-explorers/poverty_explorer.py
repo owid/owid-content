@@ -7,7 +7,7 @@ import pandas as pd
 import numpy as np
 import textwrap
 
-outfile = "../../explorers/poverty-explorer-test.explorer.tsv"
+outfile = "../../explorers/poverty-explorer-test.explorer.tsv" #Don't forget to publish when finally moving it
 
 # %% [markdown]
 # ## Google sheets auxiliar data
@@ -41,7 +41,7 @@ survey_type = pd.read_csv(url)
 header_dict = {'explorerTitle': 'Poverty Data Explorer of World Bank data',
                'selection': ['Bangladesh', 'Bolivia', 'Georgia', 'Kenya', 'Mozambique', 'Nigeria', 'Zambia'],
                'explorerSubtitle': "<i><a href='https://github.com/owid/poverty-data'>Download Poverty data on GitHub</a></i>",
-               'isPublished': 'true',
+               'isPublished': 'false',
                'googleSheet': f'https://docs.google.com/spreadsheets/d/{sheet_id}',
                'wpBlockId': '52633',
                'entityType': 'country or region',
@@ -142,6 +142,79 @@ for survey in range(len(survey_type)):
         df_tables.loc[j, 'colorScaleScheme'] = "YlOrBr"
         df_tables.loc[j, 'survey_type'] = survey_type['table_name'][survey]
         j += 1
+        
+    #mean
+    df_tables.loc[j, 'name'] = f"Mean {survey_type.text[survey]} per day"
+    df_tables.loc[j, 'slug'] = "mean"
+    df_tables.loc[j, 'sourceName'] = "World Bank Poverty and Inequality Platform"
+    df_tables.loc[j, 'description'] = f"The mean level of {survey_type.text[survey]} per day."
+    df_tables.loc[j, 'sourceLink'] = "https://pip.worldbank.org/"
+    df_tables.loc[j, 'dataPublishedBy'] = "World Bank Poverty and Inequality Platform (PIP)"
+    df_tables.loc[j, 'unit'] = "international-$ at 2017 prices"
+    df_tables.loc[j, 'shortUnit'] = "$"
+    df_tables.loc[j, 'tolerance'] = 5
+    df_tables.loc[j, 'type'] = "Numeric"
+    df_tables.loc[j, 'colorScaleNumericMinValue'] = 0
+    df_tables.loc[j, 'colorScaleNumericBins'] = "1;2;5;10;20;50;100;100.0001"
+    df_tables.loc[j, 'colorScaleEqualSizeBins'] = "true"
+    df_tables.loc[j, 'colorScaleScheme'] = "BuGn"
+    df_tables.loc[j, 'survey_type'] = survey_type['table_name'][survey]
+    j += 1
+
+    #median
+    df_tables.loc[j, 'name'] = f"Median {survey_type.text[survey]} per day"
+    df_tables.loc[j, 'slug'] = "median"
+    df_tables.loc[j, 'sourceName'] = "World Bank Poverty and Inequality Platform"
+    df_tables.loc[j, 'description'] = f"The level of {survey_type.text[survey]} per day below which half of the population live."
+    df_tables.loc[j, 'sourceLink'] = "https://pip.worldbank.org/"
+    df_tables.loc[j, 'dataPublishedBy'] = "World Bank Poverty and Inequality Platform (PIP)"
+    df_tables.loc[j, 'unit'] = "international-$ at 2017 prices"
+    df_tables.loc[j, 'shortUnit'] = "$"
+    df_tables.loc[j, 'tolerance'] = 5
+    df_tables.loc[j, 'type'] = "Numeric"
+    df_tables.loc[j, 'colorScaleNumericMinValue'] = 0
+    df_tables.loc[j, 'colorScaleNumericBins'] = "1;2;5;10;20;50;100;100.0001"
+    df_tables.loc[j, 'colorScaleEqualSizeBins'] = "true"
+    df_tables.loc[j, 'colorScaleScheme'] = "Blues"
+    df_tables.loc[j, 'survey_type'] = survey_type['table_name'][survey]
+    j += 1
+    
+    #P10
+    df_tables.loc[j, 'name'] = "Threshold income or consumption per day marking the poorest decile"
+    df_tables.loc[j, 'slug'] = "decile1_thr"
+    df_tables.loc[j, 'sourceName'] = "World Bank Poverty and Inequality Platform"
+    df_tables.loc[j, 'description'] = f"The level of {survey_type.text[survey]} per day below which 10% of the population falls."
+    df_tables.loc[j, 'sourceLink'] = "https://pip.worldbank.org/"
+    df_tables.loc[j, 'dataPublishedBy'] = "World Bank Poverty and Inequality Platform (PIP)"
+    df_tables.loc[j, 'unit'] = "international-$ at 2017 prices"
+    df_tables.loc[j, 'shortUnit'] = "$"
+    df_tables.loc[j, 'tolerance'] = 5
+    df_tables.loc[j, 'type'] = "Numeric"
+    df_tables.loc[j, 'colorScaleNumericMinValue'] = 0
+    df_tables.loc[j, 'colorScaleNumericBins'] = "1;2;5;10;20;50;100;100.0001"
+    df_tables.loc[j, 'colorScaleEqualSizeBins'] = "true"
+    df_tables.loc[j, 'colorScaleScheme'] = "Purples"
+    df_tables.loc[j, 'survey_type'] = survey_type['table_name'][survey]
+    j += 1
+    
+    #P90
+    df_tables.loc[j, 'name'] = "Threshold income or consumption per day marking the richest decile"
+    df_tables.loc[j, 'slug'] = "decile9_thr"
+    df_tables.loc[j, 'sourceName'] = "World Bank Poverty and Inequality Platform"
+    df_tables.loc[j, 'description'] = f"The level of {survey_type.text[survey]} per day below which 90% of the population falls."
+    df_tables.loc[j, 'sourceLink'] = "https://pip.worldbank.org/"
+    df_tables.loc[j, 'dataPublishedBy'] = "World Bank Poverty and Inequality Platform (PIP)"
+    df_tables.loc[j, 'unit'] = "international-$ at 2017 prices"
+    df_tables.loc[j, 'shortUnit'] = "$"
+    df_tables.loc[j, 'tolerance'] = 5
+    df_tables.loc[j, 'type'] = "Numeric"
+    df_tables.loc[j, 'colorScaleNumericMinValue'] = 0
+    df_tables.loc[j, 'colorScaleNumericBins'] = "1;2;5;10;20;50;100;100.0001"
+    df_tables.loc[j, 'colorScaleEqualSizeBins'] = "true"
+    df_tables.loc[j, 'colorScaleScheme'] = "Purples"
+    df_tables.loc[j, 'survey_type'] = survey_type['table_name'][survey]
+    j += 1
+    
 
 #Make tolerance integer (to not break the parameter in the platform)
 df_tables['tolerance'] = df_tables['tolerance'].astype("Int64")
@@ -297,6 +370,90 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, 'mapTargetTime'] = 2019
         df_graphers.loc[j, 'survey_type'] = survey_type['table_name'][survey]
         j += 1
+        
+    #mean
+    df_graphers.loc[j, 'title'] = f"Mean {survey_type.text[survey]} per day"
+    df_graphers.loc[j, 'ySlugs'] = "mean"
+    df_graphers.loc[j, 'Metric Dropdown'] = "Mean income or consumption"
+    df_graphers.loc[j, 'Poverty line Dropdown'] = np.nan
+    df_graphers.loc[j, 'Household survey data type Dropdown'] = f'{survey_type.dropdown_option[survey]}'
+    df_graphers.loc[j, 'tableSlug'] = f'{survey_type.table_name[survey]}'
+    df_graphers.loc[j, 'subtitle'] = "This data is adjusted for inflation and for differences in the cost of living between countries."
+    df_graphers.loc[j, 'note'] = f"This data is measured in international-$ at 2017 prices. Depending on the country and year, it relates to disposable {survey_type.text[survey]} per capita."
+    df_graphers.loc[j, 'sourceDesc'] = "World Bank Poverty and Inequality Platform"
+    df_graphers.loc[j, 'type'] = np.nan
+    df_graphers.loc[j, 'yAxisMin'] = 0
+    df_graphers.loc[j, 'facet'] = np.nan
+    df_graphers.loc[j, 'selectedFacetStrategy'] = np.nan
+    df_graphers.loc[j, 'hasMapTab'] = "true"
+    df_graphers.loc[j, 'tab'] = "chart"
+    df_graphers.loc[j, 'mapTargetTime'] = 2019
+    df_graphers.loc[j, 'yScaleToggle'] = "true"
+    df_graphers.loc[j, 'survey_type'] = survey_type['table_name'][survey]
+    j += 1
+    
+    #median
+    df_graphers.loc[j, 'title'] = f"Median {survey_type.text[survey]} per day"
+    df_graphers.loc[j, 'ySlugs'] = "median"
+    df_graphers.loc[j, 'Metric Dropdown'] = "Median income or consumption"
+    df_graphers.loc[j, 'Poverty line Dropdown'] = np.nan
+    df_graphers.loc[j, 'Household survey data type Dropdown'] = f'{survey_type.dropdown_option[survey]}'
+    df_graphers.loc[j, 'tableSlug'] = f'{survey_type.table_name[survey]}'
+    df_graphers.loc[j, 'subtitle'] = "This data is adjusted for inflation and for differences in the cost of living between countries."
+    df_graphers.loc[j, 'note'] = f"This data is measured in international-$ at 2017 prices. Depending on the country and year, it relates to disposable {survey_type.text[survey]} per capita."
+    df_graphers.loc[j, 'sourceDesc'] = "World Bank Poverty and Inequality Platform"
+    df_graphers.loc[j, 'type'] = np.nan
+    df_graphers.loc[j, 'yAxisMin'] = 0
+    df_graphers.loc[j, 'facet'] = np.nan
+    df_graphers.loc[j, 'selectedFacetStrategy'] = np.nan
+    df_graphers.loc[j, 'hasMapTab'] = "true"
+    df_graphers.loc[j, 'tab'] = "chart"
+    df_graphers.loc[j, 'mapTargetTime'] = 2019
+    df_graphers.loc[j, 'yScaleToggle'] = "true"
+    df_graphers.loc[j, 'survey_type'] = survey_type['table_name'][survey]
+    j += 1
+    
+    #P10
+    df_graphers.loc[j, 'title'] = f"Threshold {survey_type.text[survey]} per day marking the poorest decile"
+    df_graphers.loc[j, 'ySlugs'] = "decile1_thr"
+    df_graphers.loc[j, 'Metric Dropdown'] = "Income or comsumption of the poorest 10%"
+    df_graphers.loc[j, 'Poverty line Dropdown'] = np.nan
+    df_graphers.loc[j, 'Household survey data type Dropdown'] = f'{survey_type.dropdown_option[survey]}'
+    df_graphers.loc[j, 'tableSlug'] = f'{survey_type.table_name[survey]}'
+    df_graphers.loc[j, 'subtitle'] = f"This is the level of {survey_type.text[survey]} per day below which 10% of the population falls."
+    df_graphers.loc[j, 'note'] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. It relates to disposable {survey_type.text[survey]} per capita."
+    df_graphers.loc[j, 'sourceDesc'] = "World Bank Poverty and Inequality Platform"
+    df_graphers.loc[j, 'type'] = np.nan
+    df_graphers.loc[j, 'yAxisMin'] = 0
+    df_graphers.loc[j, 'facet'] = np.nan
+    df_graphers.loc[j, 'selectedFacetStrategy'] = np.nan
+    df_graphers.loc[j, 'hasMapTab'] = "true"
+    df_graphers.loc[j, 'tab'] = "chart"
+    df_graphers.loc[j, 'mapTargetTime'] = 2019
+    df_graphers.loc[j, 'yScaleToggle'] = "true"
+    df_graphers.loc[j, 'survey_type'] = survey_type['table_name'][survey]
+    j += 1
+    
+    #P10
+    df_graphers.loc[j, 'title'] = f"Threshold {survey_type.text[survey]} per day marking the richest decile"
+    df_graphers.loc[j, 'ySlugs'] = "decile9_thr"
+    df_graphers.loc[j, 'Metric Dropdown'] = "Income or comsumption of the richest 10%"
+    df_graphers.loc[j, 'Poverty line Dropdown'] = np.nan
+    df_graphers.loc[j, 'Household survey data type Dropdown'] = f'{survey_type.dropdown_option[survey]}'
+    df_graphers.loc[j, 'tableSlug'] = f'{survey_type.table_name[survey]}'
+    df_graphers.loc[j, 'subtitle'] = f"This is the level of {survey_type.text[survey]} per day below which 90% of the population falls."
+    df_graphers.loc[j, 'note'] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. It relates to disposable {survey_type.text[survey]} per capita."
+    df_graphers.loc[j, 'sourceDesc'] = "World Bank Poverty and Inequality Platform"
+    df_graphers.loc[j, 'type'] = np.nan
+    df_graphers.loc[j, 'yAxisMin'] = 0
+    df_graphers.loc[j, 'facet'] = np.nan
+    df_graphers.loc[j, 'selectedFacetStrategy'] = np.nan
+    df_graphers.loc[j, 'hasMapTab'] = "true"
+    df_graphers.loc[j, 'tab'] = "chart"
+    df_graphers.loc[j, 'mapTargetTime'] = 2019
+    df_graphers.loc[j, 'yScaleToggle'] = "true"
+    df_graphers.loc[j, 'survey_type'] = survey_type['table_name'][survey]
+    j += 1
 
 df_graphers['Show breaks between less comparable surveys Checkbox'] = "false"
 # %% [markdown]
