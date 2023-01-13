@@ -300,7 +300,7 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, 'facet'] = np.nan
         df_graphers.loc[j, 'selectedFacetStrategy'] = np.nan
         df_graphers.loc[j, 'hasMapTab'] = "true"
-        df_graphers.loc[j, 'tab'] = "chart"
+        df_graphers.loc[j, 'tab'] = "map"
         df_graphers.loc[j, 'mapTargetTime'] = 2019
         df_graphers.loc[j, 'survey_type'] = survey_type['table_name'][survey]
         j += 1
@@ -322,7 +322,7 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, 'facet'] = np.nan
         df_graphers.loc[j, 'selectedFacetStrategy'] = np.nan
         df_graphers.loc[j, 'hasMapTab'] = "true"
-        df_graphers.loc[j, 'tab'] = "chart"
+        df_graphers.loc[j, 'tab'] = "map"
         df_graphers.loc[j, 'mapTargetTime'] = 2019
         df_graphers.loc[j, 'survey_type'] = survey_type['table_name'][survey]
         j += 1
@@ -384,7 +384,7 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, 'facet'] = np.nan
         df_graphers.loc[j, 'selectedFacetStrategy'] = np.nan
         df_graphers.loc[j, 'hasMapTab'] = "true"
-        df_graphers.loc[j, 'tab'] = "chart"
+        df_graphers.loc[j, 'tab'] = "map"
         df_graphers.loc[j, 'mapTargetTime'] = 2019
         df_graphers.loc[j, 'survey_type'] = survey_type['table_name'][survey]
         j += 1
@@ -406,7 +406,7 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, 'facet'] = np.nan
         df_graphers.loc[j, 'selectedFacetStrategy'] = np.nan
         df_graphers.loc[j, 'hasMapTab'] = "true"
-        df_graphers.loc[j, 'tab'] = "chart"
+        df_graphers.loc[j, 'tab'] = "map"
         df_graphers.loc[j, 'mapTargetTime'] = 2019
         df_graphers.loc[j, 'survey_type'] = survey_type['table_name'][survey]
         j += 1
@@ -426,7 +426,7 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, 'facet'] = np.nan
     df_graphers.loc[j, 'selectedFacetStrategy'] = np.nan
     df_graphers.loc[j, 'hasMapTab'] = "true"
-    df_graphers.loc[j, 'tab'] = "chart"
+    df_graphers.loc[j, 'tab'] = "map"
     df_graphers.loc[j, 'mapTargetTime'] = 2019
     df_graphers.loc[j, 'yScaleToggle'] = "true"
     df_graphers.loc[j, 'survey_type'] = survey_type['table_name'][survey]
@@ -447,7 +447,7 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, 'facet'] = np.nan
     df_graphers.loc[j, 'selectedFacetStrategy'] = np.nan
     df_graphers.loc[j, 'hasMapTab'] = "true"
-    df_graphers.loc[j, 'tab'] = "chart"
+    df_graphers.loc[j, 'tab'] = "map"
     df_graphers.loc[j, 'mapTargetTime'] = 2019
     df_graphers.loc[j, 'yScaleToggle'] = "true"
     df_graphers.loc[j, 'survey_type'] = survey_type['table_name'][survey]
@@ -468,13 +468,13 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, 'facet'] = np.nan
     df_graphers.loc[j, 'selectedFacetStrategy'] = np.nan
     df_graphers.loc[j, 'hasMapTab'] = "true"
-    df_graphers.loc[j, 'tab'] = "chart"
+    df_graphers.loc[j, 'tab'] = "map"
     df_graphers.loc[j, 'mapTargetTime'] = 2019
     df_graphers.loc[j, 'yScaleToggle'] = "true"
     df_graphers.loc[j, 'survey_type'] = survey_type['table_name'][survey]
     j += 1
     
-    #P10
+    #P90
     df_graphers.loc[j, 'title'] = f"Threshold {survey_type.text[survey]} per day marking the richest decile"
     df_graphers.loc[j, 'ySlugs'] = "decile9_thr"
     df_graphers.loc[j, 'Metric Dropdown'] = "Income or consumption of the richest 10%"
@@ -489,7 +489,7 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, 'facet'] = np.nan
     df_graphers.loc[j, 'selectedFacetStrategy'] = np.nan
     df_graphers.loc[j, 'hasMapTab'] = "true"
-    df_graphers.loc[j, 'tab'] = "chart"
+    df_graphers.loc[j, 'tab'] = "map"
     df_graphers.loc[j, 'mapTargetTime'] = 2019
     df_graphers.loc[j, 'yScaleToggle'] = "true"
     df_graphers.loc[j, 'survey_type'] = survey_type['table_name'][survey]
