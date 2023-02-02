@@ -6,7 +6,7 @@ selection	Argentina	Australia	Botswana	China	World
 subNavId
 subNavCurrentId	most-important-metrics
 graphers
-	grapherId	Topic Dropdown	Metric Dropdown	Measure Dropdown	Chart Dropdown
+	grapherId	Topic area Dropdown	Topic Dropdown	Metric Dropdown	Chart Dropdown
 	3470	Human rights and Democracy	Democracy	Political regime	Main classification
 	5616	Human rights and Democracy	Democracy	Political regime	Number of democracies
 	5608	Human rights and Democracy	Democracy	Political regime	Share of democracies

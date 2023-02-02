@@ -167,6 +167,7 @@ graphers
 	6085	Injuries	Homicides	Age-standardized death rate	IHME
 	6180	Injuries	Homicides	Number of deaths	WHO (GHE)
 	6181	Injuries	Homicides	Death rate	WHO (GHE)
+	6304	Injuries	Homicides	Number of deaths	UNODC
 	1625	Injuries	Homicides	Death rate	UNODC
 	2016	Injuries	Natural disasters	Number of deaths	IHME
 	1622	Injuries	Natural disasters	Death rate	IHME
@@ -246,6 +247,8 @@ graphers
 	6158	Non-communicable diseases	Stroke	Number of deaths	IHME
 	6168	Non-communicable diseases	Stroke	Number of deaths	WHO (GHE)
 	6169	Non-communicable diseases	Stroke	Death rate	WHO (GHE)
+	489	Risk factors	Air pollution	Age-standardized death rate	IHME
+	3756	Risk factors	Air pollution	Number of deaths	IHME
 	3764	Risk factors	Alcohol use	Age-standardized death rate	IHME
 	6036	Risk factors	Alcohol use	Number of deaths	IHME
 	6122	Risk factors	Alcohol use	Death rate	IHME
