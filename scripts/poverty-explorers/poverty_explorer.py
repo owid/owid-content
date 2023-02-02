@@ -7,7 +7,7 @@ import pandas as pd
 import numpy as np
 import textwrap
 
-outfile = "../../explorers/poverty-explorer-test.explorer.tsv" #Don't forget to publish when finally moving it
+outfile = "../../explorers/poverty-explorer.explorer.tsv"
 
 # %% [markdown]
 # ## Google sheets auxiliar data
@@ -41,7 +41,7 @@ survey_type = pd.read_csv(url)
 header_dict = {'explorerTitle': 'Poverty Data Explorer of World Bank data',
                'selection': ['Bangladesh', 'Bolivia', 'Kenya', 'Mozambique', 'Nigeria', 'Zambia'],
                'explorerSubtitle': "<i><a href='https://github.com/owid/poverty-data'>Download Poverty data on GitHub</a></i>",
-               'isPublished': 'false',
+               'isPublished': 'true',
                'googleSheet': f'https://docs.google.com/spreadsheets/d/{sheet_id}',
                'wpBlockId': '52633',
                'entityType': 'country or region',
