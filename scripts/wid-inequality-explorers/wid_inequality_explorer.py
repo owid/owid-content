@@ -98,7 +98,7 @@ for tab in range(len(tables)):
         df_tables.loc[j, "slug"] = f"p0p100_gini_{welfare['slug'][wel]}"
         df_tables.loc[
             j, "description"
-        ] = f"The Gini coefficient is a measure of the inequality of the {welfare['welfare_type'][wel]} distribution in a population. Higher values indicate a higher level of inequality."
+        ] = f"The Gini coefficient is a measure of the inequality of the {welfare['welfare_type'][wel]} distribution in a population. Higher values indicate a higher level of inequality.\nThis is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]} {welfare['note'][wel]}"
         df_tables.loc[j, "unit"] = np.nan
         df_tables.loc[j, "shortUnit"] = np.nan
         df_tables.loc[j, "type"] = "Numeric"
@@ -110,11 +110,11 @@ for tab in range(len(tables)):
         # Share of the top 10%
         df_tables.loc[
             j, "name"
-        ] = f"{welfare['welfare_type'][wel].capitalize()} share of the richest 10%"
+        ] = f"{welfare['welfare_type'][wel].capitalize()} share of the richest 10% ({welfare['technical_text'][wel].capitalize()})"
         df_tables.loc[j, "slug"] = f"p90p100_share_{welfare['slug'][wel]}"
         df_tables.loc[
             j, "description"
-        ] = f"This is the {welfare['welfare_type'][wel]} of the richest 10% as a share of total {welfare['welfare_type'][wel]}."
+        ] = f"This is the {welfare['welfare_type'][wel]} of the richest 10% as a share of total {welfare['welfare_type'][wel]}.\nThis is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]} {welfare['note'][wel]}"
         df_tables.loc[j, "unit"] = "%"
         df_tables.loc[j, "shortUnit"] = "%"
         df_tables.loc[j, "type"] = "Numeric"
@@ -126,11 +126,11 @@ for tab in range(len(tables)):
         # Share of the top 1%
         df_tables.loc[
             j, "name"
-        ] = f"{welfare['welfare_type'][wel].capitalize()} share of the richest 1%"
+        ] = f"{welfare['welfare_type'][wel].capitalize()} share of the richest 1% ({welfare['technical_text'][wel].capitalize()})"
         df_tables.loc[j, "slug"] = f"p99p100_share_{welfare['slug'][wel]}"
         df_tables.loc[
             j, "description"
-        ] = f"This is the {welfare['welfare_type'][wel]} of the richest 1% as a share of total {welfare['welfare_type'][wel]}."
+        ] = f"This is the {welfare['welfare_type'][wel]} of the richest 1% as a share of total {welfare['welfare_type'][wel]}.\nThis is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]} {welfare['note'][wel]}"
         df_tables.loc[j, "unit"] = "%"
         df_tables.loc[j, "shortUnit"] = "%"
         df_tables.loc[j, "type"] = "Numeric"
@@ -142,11 +142,11 @@ for tab in range(len(tables)):
         # Share of the top 0.1%
         df_tables.loc[
             j, "name"
-        ] = f"{welfare['welfare_type'][wel].capitalize()} share of the richest 0.1%"
+        ] = f"{welfare['welfare_type'][wel].capitalize()} share of the richest 0.1% ({welfare['technical_text'][wel].capitalize()})"
         df_tables.loc[j, "slug"] = f"p99_9p100_share_{welfare['slug'][wel]}"
         df_tables.loc[
             j, "description"
-        ] = f"This is the {welfare['welfare_type'][wel]} of the richest 0.1% as a share of total {welfare['welfare_type'][wel]}."
+        ] = f"This is the {welfare['welfare_type'][wel]} of the richest 0.1% as a share of total {welfare['welfare_type'][wel]}.\nThis is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]} {welfare['note'][wel]}"
         df_tables.loc[j, "unit"] = "%"
         df_tables.loc[j, "shortUnit"] = "%"
         df_tables.loc[j, "type"] = "Numeric"
@@ -158,11 +158,11 @@ for tab in range(len(tables)):
         # Share of the top 0.01%
         df_tables.loc[
             j, "name"
-        ] = f"{welfare['welfare_type'][wel].capitalize()} share of the richest 0.01%"
+        ] = f"{welfare['welfare_type'][wel].capitalize()} share of the richest 0.01% ({welfare['technical_text'][wel].capitalize()})"
         df_tables.loc[j, "slug"] = f"p99_99p100_share_{welfare['slug'][wel]}"
         df_tables.loc[
             j, "description"
-        ] = f"This is the {welfare['welfare_type'][wel]} of the richest 0.01% as a share of total {welfare['welfare_type'][wel]}."
+        ] = f"This is the {welfare['welfare_type'][wel]} of the richest 0.01% as a share of total {welfare['welfare_type'][wel]}.\nThis is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]} {welfare['note'][wel]}"
         df_tables.loc[j, "unit"] = "%"
         df_tables.loc[j, "shortUnit"] = "%"
         df_tables.loc[j, "type"] = "Numeric"
@@ -174,11 +174,11 @@ for tab in range(len(tables)):
         # Share of the top 0.001%
         df_tables.loc[
             j, "name"
-        ] = f"{welfare['welfare_type'][wel].capitalize()} share of the richest 0.001%"
+        ] = f"{welfare['welfare_type'][wel].capitalize()} share of the richest 0.001% ({welfare['technical_text'][wel].capitalize()})"
         df_tables.loc[j, "slug"] = f"p99_999p100_share_{welfare['slug'][wel]}"
         df_tables.loc[
             j, "description"
-        ] = f"This is the {welfare['welfare_type'][wel]} of the richest 0.001% as a share of total {welfare['welfare_type'][wel]}."
+        ] = f"This is the {welfare['welfare_type'][wel]} of the richest 0.001% as a share of total {welfare['welfare_type'][wel]}.\nThis is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]} {welfare['note'][wel]}"
         df_tables.loc[j, "unit"] = "%"
         df_tables.loc[j, "shortUnit"] = "%"
         df_tables.loc[j, "type"] = "Numeric"
@@ -187,164 +187,73 @@ for tab in range(len(tables)):
         df_tables.loc[j, "colorScaleScheme"] = "Blues"
         j += 1
 
-        # # P90/P10
-        # df_tables.loc[j, "name"] = f"P90/P10 ratio"
-        # df_tables.loc[j, "slug"] = f"p90_p10_ratio"
-        # df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform"
-        # df_tables.loc[
-        #     j, "description"
-        # ] = f"P90 is the the level of {survey_type.text[survey]} below which 90% of the population lives. P10 is the level of {survey_type.text[survey]} below which 10% of the population lives. This variable gives the ratio of the two. It is a measure of inequality that indicates the gap between the richest and poorest tenth of the population. It tells you how many times richer someone just in the the poorest tenth would need to be in order to be counted in the richest tenth."
-        # df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
-        # df_tables.loc[
-        #     j, "dataPublishedBy"
-        # ] = "World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data."
-        # df_tables.loc[j, "unit"] = np.nan
-        # df_tables.loc[j, "shortUnit"] = np.nan
-        # df_tables.loc[j, "tolerance"] = 5
-        # df_tables.loc[j, "type"] = "Numeric"
-        # df_tables.loc[j, "colorScaleNumericMinValue"] = 0
-        # df_tables.loc[j, "colorScaleNumericBins"] = "0;2;4;6;8;10;12;14;16;18"
-        # df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
-        # df_tables.loc[j, "colorScaleScheme"] = "OrRd"
-        # df_tables.loc[j, "survey_type"] = survey_type["table_name"][survey]
-        # j += 1
+        # P90/P10
+        df_tables.loc[
+            j, "name"
+        ] = f"P90/P10 ratio ({welfare['technical_text'][wel].capitalize()})"
+        df_tables.loc[j, "slug"] = f"p90_p10_ratio_{welfare['slug'][wel]}"
+        df_tables.loc[
+            j, "description"
+        ] = f"P90 is the the level of {welfare['welfare_type'][wel]} below which 90% of the population lives. P10 is the level of {welfare['welfare_type'][wel]} below which 10% of the population lives. This variable gives the ratio of the two. It is a measure of inequality that indicates the gap between the richest and poorest tenth of the population. It tells you how many times richer someone just in the the poorest tenth would need to be in order to be counted in the richest tenth.\nThis is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]} {welfare['note'][wel]}"
+        df_tables.loc[j, "unit"] = np.nan
+        df_tables.loc[j, "shortUnit"] = np.nan
+        df_tables.loc[j, "type"] = "Numeric"
+        df_tables.loc[j, "colorScaleNumericMinValue"] = 0
+        df_tables.loc[j, "colorScaleNumericBins"] = "0;2;4;6;8;10;12;14;16;18"
+        df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
+        df_tables.loc[j, "colorScaleScheme"] = "OrRd"
+        j += 1
 
-        # # P90/P50
-        # df_tables.loc[j, "name"] = f"P90/P50 ratio"
-        # df_tables.loc[j, "slug"] = f"p90_p50_ratio"
-        # df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform"
-        # df_tables.loc[
-        #     j, "description"
-        # ] = f"P90 is the the level of {survey_type.text[survey]} above which 10% of the population lives. P50 is the median – the level of {survey_type.text[survey]} below which 50% of the population lives. This variable gives the ratio of the two. It is a measure of inequality within the top half of the distribution. It tells you how many times richer someone in the middle of the distribution would need to be in order to be counted in the richest tenth."
-        # df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
-        # df_tables.loc[
-        #     j, "dataPublishedBy"
-        # ] = "World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data."
-        # df_tables.loc[j, "unit"] = np.nan
-        # df_tables.loc[j, "shortUnit"] = np.nan
-        # df_tables.loc[j, "tolerance"] = 5
-        # df_tables.loc[j, "type"] = "Numeric"
-        # df_tables.loc[j, "colorScaleNumericMinValue"] = 0
-        # df_tables.loc[j, "colorScaleNumericBins"] = "0;1;2;3;4;5"
-        # df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
-        # df_tables.loc[j, "colorScaleScheme"] = "Purples"
-        # df_tables.loc[j, "survey_type"] = survey_type["table_name"][survey]
-        # j += 1
+        # P90/P50
+        df_tables.loc[
+            j, "name"
+        ] = f"P90/P50 ratio ({welfare['technical_text'][wel].capitalize()})"
+        df_tables.loc[j, "slug"] = f"p90_p50_ratio_{welfare['slug'][wel]}"
+        df_tables.loc[
+            j, "description"
+        ] = f"P90 is the the level of {welfare['welfare_type'][wel]} above which 10% of the population lives. P50 is the median – the level of {welfare['welfare_type'][wel]} below which 50% of the population lives. This variable gives the ratio of the two. It is a measure of inequality within the top half of the distribution. It tells you how many times richer someone in the middle of the distribution would need to be in order to be counted in the richest tenth.\nThis is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]} {welfare['note'][wel]}"
+        df_tables.loc[j, "unit"] = np.nan
+        df_tables.loc[j, "shortUnit"] = np.nan
+        df_tables.loc[j, "type"] = "Numeric"
+        df_tables.loc[j, "colorScaleNumericMinValue"] = 0
+        df_tables.loc[j, "colorScaleNumericBins"] = "0;1;2;3;4;5"
+        df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
+        df_tables.loc[j, "colorScaleScheme"] = "Purples"
+        j += 1
 
-        # # P50/P10
-        # df_tables.loc[j, "name"] = f"P50/P10 ratio"
-        # df_tables.loc[j, "slug"] = f"p50_p10_ratio"
-        # df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform"
-        # df_tables.loc[
-        #     j, "description"
-        # ] = f"P50 is the median – the level of {survey_type.text[survey]} below which 50% of the population lives. P10 is the the level of {survey_type.text[survey]} below which 10% of the population lives. This variable gives the ratio of the two. It is a measure of inequality within the bottom half of the distribution. It tells you how many times richer someone just in the the poorest tenth would need to be in order to be reach the median."
-        # df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
-        # df_tables.loc[
-        #     j, "dataPublishedBy"
-        # ] = "World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data."
-        # df_tables.loc[j, "unit"] = np.nan
-        # df_tables.loc[j, "shortUnit"] = np.nan
-        # df_tables.loc[j, "tolerance"] = 5
-        # df_tables.loc[j, "type"] = "Numeric"
-        # df_tables.loc[j, "colorScaleNumericMinValue"] = 0
-        # df_tables.loc[j, "colorScaleNumericBins"] = "0;0.5;1;1.5;2;2.5;3;3.5;4"
-        # df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
-        # df_tables.loc[j, "colorScaleScheme"] = "YlOrRd"
-        # df_tables.loc[j, "survey_type"] = survey_type["table_name"][survey]
-        # j += 1
+        # P50/P10
+        df_tables.loc[
+            j, "name"
+        ] = f"P50/P10 ratio ({welfare['technical_text'][wel].capitalize()})"
+        df_tables.loc[j, "slug"] = f"p50_p10_ratio_{welfare['slug'][wel]}"
+        df_tables.loc[
+            j, "description"
+        ] = f"P50 is the median – the level of {welfare['welfare_type'][wel]} below which 50% of the population lives. P10 is the the level of {welfare['welfare_type'][wel]} below which 10% of the population lives. This variable gives the ratio of the two. It is a measure of inequality within the bottom half of the distribution. It tells you how many times richer someone just in the the poorest tenth would need to be in order to be reach the median.\nThis is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]} {welfare['note'][wel]}"
+        df_tables.loc[j, "unit"] = np.nan
+        df_tables.loc[j, "shortUnit"] = np.nan
+        df_tables.loc[j, "type"] = "Numeric"
+        df_tables.loc[j, "colorScaleNumericMinValue"] = 0
+        df_tables.loc[j, "colorScaleNumericBins"] = "0;0.5;1;1.5;2;2.5;3;3.5;4"
+        df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
+        df_tables.loc[j, "colorScaleScheme"] = "YlOrRd"
+        j += 1
 
-        # # Palma ratio
-        # df_tables.loc[j, "name"] = f"Palma ratio"
-        # df_tables.loc[j, "slug"] = f"palma_ratio"
-        # df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform"
-        # df_tables.loc[
-        #     j, "description"
-        # ] = f"The Palma ratio is a measure of inequality: it is the share of total {survey_type.text[survey]} of the top 10% divided by the share of the bottom 40%."
-        # df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
-        # df_tables.loc[
-        #     j, "dataPublishedBy"
-        # ] = "World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data."
-        # df_tables.loc[j, "unit"] = np.nan
-        # df_tables.loc[j, "shortUnit"] = np.nan
-        # df_tables.loc[j, "tolerance"] = 5
-        # df_tables.loc[j, "type"] = "Numeric"
-        # df_tables.loc[j, "colorScaleNumericMinValue"] = 0
-        # df_tables.loc[j, "colorScaleNumericBins"] = "0;0.5;1;1.5;2;2.5;3;3.5;4;4.5;5"
-        # df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
-        # df_tables.loc[j, "colorScaleScheme"] = "Oranges"
-        # df_tables.loc[j, "survey_type"] = survey_type["table_name"][survey]
-        # j += 1
-
-        # # Headcount ratio (rel)
-        # for pct in range(len(povlines_rel)):
-        #     df_tables.loc[
-        #         j, "name"
-        #     ] = f"{povlines_rel.percent[pct]} of median - share of population below poverty line"
-        #     df_tables.loc[j, "slug"] = f"headcount_ratio_{povlines_rel.slug_suffix[pct]}"
-        #     df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform"
-        #     df_tables.loc[
-        #         j, "description"
-        #     ] = f"% of population living in households with an {survey_type.text[survey]} per person below {povlines_rel.percent[pct]} of the median."
-        #     df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
-        #     df_tables.loc[
-        #         j, "dataPublishedBy"
-        #     ] = "World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data."
-        #     df_tables.loc[j, "unit"] = "%"
-        #     df_tables.loc[j, "shortUnit"] = "%"
-        #     df_tables.loc[j, "tolerance"] = 5
-        #     df_tables.loc[j, "type"] = "Numeric"
-        #     df_tables.loc[j, "colorScaleNumericMinValue"] = 0
-        #     df_tables.loc[j, "colorScaleNumericBins"] = "5;10;15;20;25;30;30.0001"
-        #     df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
-        #     df_tables.loc[j, "colorScaleScheme"] = "YlOrBr"
-        #     df_tables.loc[j, "survey_type"] = survey_type["table_name"][survey]
-        #     j += 1
-
-        # # MLD
-        # df_tables.loc[j, "name"] = f"Mean Log Deviation"
-        # df_tables.loc[j, "slug"] = f"mld"
-        # df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform"
-        # df_tables.loc[
-        #     j, "description"
-        # ] = f"The mean log deviation (MLD) is a measure of inequality. An MLD of zero indicates perfect equality and it takes on larger positive values as incomes become more unequal. The measure is also referred to as 'Theil L' or 'GE(0)', in reference to the wider families of inequality measures to which the MLD belongs."
-        # df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
-        # df_tables.loc[
-        #     j, "dataPublishedBy"
-        # ] = "World Bank Poverty and Inequality Platform (PIP)"
-        # df_tables.loc[j, "unit"] = np.nan
-        # df_tables.loc[j, "shortUnit"] = np.nan
-        # df_tables.loc[j, "tolerance"] = 5
-        # df_tables.loc[j, "type"] = "Numeric"
-        # df_tables.loc[j, "colorScaleNumericMinValue"] = 0
-        # df_tables.loc[
-        #     j, "colorScaleNumericBins"
-        # ] = "0;0.1;0.2;0.3;0.4;0.5;0.6;0.7;0.8;0.9;1"
-        # df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
-        # df_tables.loc[j, "colorScaleScheme"] = "RdPu"
-        # df_tables.loc[j, "survey_type"] = survey_type["table_name"][survey]
-        # j += 1
-
-        # # Polarization
-        # df_tables.loc[j, "name"] = f"Polarization index"
-        # df_tables.loc[j, "slug"] = f"polarization"
-        # df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform"
-        # df_tables.loc[
-        #     j, "description"
-        # ] = f"The polarization index, also known as the Wolfson polarization index, measures the extent to which the distribution of {survey_type.text[survey]} is “spread out” and bi-modal. Like the Gini coefficient, the polarization index ranges from 0 (no polarization) to 1 (complete polarization). The polarization index is based on Wolfson (1994) and Ravallion and Chen (1997). See Wolfson, Michael C. 1994. “When Inequalities Diverge.” The American Economic Review 84 (2): 353–58. https://www.jstor.org/stable/2117858 and Ravallion, Martin, and Shaohua Chen. 1997. “What Can New Survey Data Tell Us about Recent Changes in Distribution and Poverty?” The World Bank Economic Review 11 (2): 357–82. https://www.jstor.org/stable/3990232."
-        # df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
-        # df_tables.loc[
-        #     j, "dataPublishedBy"
-        # ] = "World Bank Poverty and Inequality Platform (PIP)"
-        # df_tables.loc[j, "unit"] = np.nan
-        # df_tables.loc[j, "shortUnit"] = np.nan
-        # df_tables.loc[j, "tolerance"] = 5
-        # df_tables.loc[j, "type"] = "Numeric"
-        # df_tables.loc[j, "colorScaleNumericMinValue"] = 0
-        # df_tables.loc[j, "colorScaleNumericBins"] = "0;0.1;0.2;0.3;0.4;0.5;0.6;0.7"
-        # df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
-        # df_tables.loc[j, "colorScaleScheme"] = "Reds"
-        # df_tables.loc[j, "survey_type"] = survey_type["table_name"][survey]
-        # j += 1
+        # Palma ratio
+        df_tables.loc[
+            j, "name"
+        ] = f"Palma ratio ({welfare['technical_text'][wel].capitalize()})"
+        df_tables.loc[j, "slug"] = f"palma_ratio_{welfare['slug'][wel]}"
+        df_tables.loc[
+            j, "description"
+        ] = f"The Palma ratio is a measure of inequality: it is the share of total {welfare['welfare_type'][wel]} of the top 10% divided by the share of the bottom 40%.\nThis is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]} {welfare['note'][wel]}"
+        df_tables.loc[j, "unit"] = np.nan
+        df_tables.loc[j, "shortUnit"] = np.nan
+        df_tables.loc[j, "type"] = "Numeric"
+        df_tables.loc[j, "colorScaleNumericMinValue"] = 0
+        df_tables.loc[j, "colorScaleNumericBins"] = "0;0.5;1;1.5;2;2.5;3;3.5;4;4.5;5"
+        df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
+        df_tables.loc[j, "colorScaleScheme"] = "Oranges"
+        j += 1
 
     df_tables["tableSlug"] = tables["name"][tab]
 
@@ -498,185 +407,89 @@ for tab in range(len(tables)):
         df_graphers.loc[j, "mapTargetTime"] = 2019
         j += 1
 
-        # # P90/P10
-        # df_graphers.loc[j, "title"] = f"Income inequality: P90/P10 ratio"
-        # df_graphers.loc[j, "ySlugs"] = f"p90_p10_ratio"
-        # df_graphers.loc[j, "Metric Dropdown"] = "P90/P10"
-        # df_graphers.loc[
-        #     j, "Household survey data type Dropdown"
-        # ] = f"{survey_type.dropdown_option[survey]}"
-        # df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
-        # df_graphers.loc[
-        #     j, "subtitle"
-        # ] = f"P90 and P10 are the levels of {survey_type.text[survey]} below which 90% and 10% of the population live, respectively. This variable gives the ratio of the two. It is a measure of inequality that indicates the gap between the richest and poorest tenth of the population."
-        # df_graphers.loc[
-        #     j, "note"
-        # ] = f"Depending on the country and year, the data relates to disposable {survey_type.text[survey]} per capita."
-        # df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
-        # df_graphers.loc[j, "type"] = np.nan
-        # df_graphers.loc[j, "yAxisMin"] = 0
-        # df_graphers.loc[j, "facet"] = np.nan
-        # df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
-        # df_graphers.loc[j, "hasMapTab"] = "true"
-        # df_graphers.loc[j, "tab"] = "map"
-        # df_graphers.loc[j, "mapTargetTime"] = 2019
-        # df_graphers.loc[j, "survey_type"] = survey_type["table_name"][survey]
-        # j += 1
+        # P90/P10
+        df_graphers.loc[
+            j, "title"
+        ] = f"Income inequality: P90/P10 ratio {welfare['title'][wel].capitalize()}"
+        df_graphers.loc[j, "ySlugs"] = f"p90_p10_ratio_{welfare['slug'][wel]}"
+        df_graphers.loc[j, "Metric Dropdown"] = "P90/P10"
+        df_graphers.loc[
+            j, "Welfare type Dropdown"
+        ] = f"{welfare['dropdown_option'][wel]}"
+        df_graphers.loc[
+            j, "subtitle"
+        ] = f"P90 and P10 are the levels of {welfare['welfare_type'][wel]} below which 90% and 10% of the population live, respectively. This variable gives the ratio of the two. It is a measure of inequality that indicates the gap between the richest and poorest tenth of the population. {welfare['subtitle'][wel]}"
+        df_graphers.loc[j, "note"] = f"{welfare['note'][wel]}"
+        df_graphers.loc[j, "type"] = np.nan
+        df_graphers.loc[j, "facet"] = np.nan
+        df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
+        df_graphers.loc[j, "hasMapTab"] = "true"
+        df_graphers.loc[j, "tab"] = "map"
+        df_graphers.loc[j, "mapTargetTime"] = 2019
+        j += 1
 
-        # # P90/P50
-        # df_graphers.loc[j, "title"] = f"Income inequality: P90/P50 ratio"
-        # df_graphers.loc[j, "ySlugs"] = f"p90_p50_ratio"
-        # df_graphers.loc[j, "Metric Dropdown"] = "P90/P50"
-        # df_graphers.loc[
-        #     j, "Household survey data type Dropdown"
-        # ] = f"{survey_type.dropdown_option[survey]}"
-        # df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
-        # df_graphers.loc[
-        #     j, "subtitle"
-        # ] = f"The P90/P50 ratio measures the degree of inequality within the richest half of the population. A ratio of 2 means that someone just falling in the richest tenth of the population has twice the median {survey_type.text[survey]}."
-        # df_graphers.loc[
-        #     j, "note"
-        # ] = f"Depending on the country and year, the data relates to disposable {survey_type.text[survey]} per capita."
-        # df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
-        # df_graphers.loc[j, "type"] = np.nan
-        # df_graphers.loc[j, "yAxisMin"] = 0
-        # df_graphers.loc[j, "facet"] = np.nan
-        # df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
-        # df_graphers.loc[j, "hasMapTab"] = "true"
-        # df_graphers.loc[j, "tab"] = "map"
-        # df_graphers.loc[j, "mapTargetTime"] = 2019
-        # df_graphers.loc[j, "survey_type"] = survey_type["table_name"][survey]
-        # j += 1
+        # P90/P50
+        df_graphers.loc[
+            j, "title"
+        ] = f"Income inequality: P90/P50 ratio {welfare['title'][wel].capitalize()}"
+        df_graphers.loc[j, "ySlugs"] = f"p90_p50_ratio_{welfare['slug'][wel]}"
+        df_graphers.loc[j, "Metric Dropdown"] = "P90/P50"
+        df_graphers.loc[
+            j, "Welfare type Dropdown"
+        ] = f"{welfare['dropdown_option'][wel]}"
+        df_graphers.loc[
+            j, "subtitle"
+        ] = f"The P90/P50 ratio measures the degree of inequality within the richest half of the population. A ratio of 2 means that someone just falling in the richest tenth of the population has twice the median {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
+        df_graphers.loc[j, "note"] = f"{welfare['note'][wel]}"
+        df_graphers.loc[j, "type"] = np.nan
+        df_graphers.loc[j, "facet"] = np.nan
+        df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
+        df_graphers.loc[j, "hasMapTab"] = "true"
+        df_graphers.loc[j, "tab"] = "map"
+        df_graphers.loc[j, "mapTargetTime"] = 2019
+        j += 1
 
-        # # P50/P10
-        # df_graphers.loc[j, "title"] = f"Income inequality: P50/P10 ratio"
-        # df_graphers.loc[j, "ySlugs"] = f"p50_p10_ratio"
-        # df_graphers.loc[j, "Metric Dropdown"] = "P50/P10"
-        # df_graphers.loc[
-        #     j, "Household survey data type Dropdown"
-        # ] = f"{survey_type.dropdown_option[survey]}"
-        # df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
-        # df_graphers.loc[
-        #     j, "subtitle"
-        # ] = f"The P50/P10 ratio measures the degree of inequality within the poorest half of the population. A ratio of 2 means that the median {survey_type.text[survey]} is two times higher than that of someone just falling in the poorest tenth of the population."
-        # df_graphers.loc[
-        #     j, "note"
-        # ] = f"Depending on the country and year, the data relates to disposable {survey_type.text[survey]} per capita."
-        # df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
-        # df_graphers.loc[j, "type"] = np.nan
-        # df_graphers.loc[j, "yAxisMin"] = 0
-        # df_graphers.loc[j, "facet"] = np.nan
-        # df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
-        # df_graphers.loc[j, "hasMapTab"] = "true"
-        # df_graphers.loc[j, "tab"] = "map"
-        # df_graphers.loc[j, "mapTargetTime"] = 2019
-        # df_graphers.loc[j, "survey_type"] = survey_type["table_name"][survey]
-        # j += 1
+        # P50/P10
+        df_graphers.loc[
+            j, "title"
+        ] = f"Income inequality: P50/P10 ratio {welfare['title'][wel].capitalize()}"
+        df_graphers.loc[j, "ySlugs"] = f"p50_p10_ratio_{welfare['slug'][wel]}"
+        df_graphers.loc[j, "Metric Dropdown"] = "P50/P10"
+        df_graphers.loc[
+            j, "Welfare type Dropdown"
+        ] = f"{welfare['dropdown_option'][wel]}"
+        df_graphers.loc[
+            j, "subtitle"
+        ] = f"The P50/P10 ratio measures the degree of inequality within the poorest half of the population. A ratio of 2 means that the median {welfare['welfare_type'][wel]} is two times higher than that of someone just falling in the poorest tenth of the population. {welfare['subtitle'][wel]}"
+        df_graphers.loc[j, "note"] = f"{welfare['note'][wel]}"
+        df_graphers.loc[j, "type"] = np.nan
+        df_graphers.loc[j, "facet"] = np.nan
+        df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
+        df_graphers.loc[j, "hasMapTab"] = "true"
+        df_graphers.loc[j, "tab"] = "map"
+        df_graphers.loc[j, "mapTargetTime"] = 2019
+        j += 1
 
         # # Palma ratio
-        # df_graphers.loc[j, "title"] = f"Income inequality: Palma ratio"
-        # df_graphers.loc[j, "ySlugs"] = f"palma_ratio"
-        # df_graphers.loc[j, "Metric Dropdown"] = "Palma ratio"
-        # df_graphers.loc[
-        #     j, "Household survey data type Dropdown"
-        # ] = f"{survey_type.dropdown_option[survey]}"
-        # df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
-        # df_graphers.loc[
-        #     j, "subtitle"
-        # ] = f"The Palma ratio is the share of total {survey_type.text[survey]} of the top 10% divided by the share of the bottom 40%."
-        # df_graphers.loc[
-        #     j, "note"
-        # ] = f"Depending on the country and year, the data relates to disposable {survey_type.text[survey]} per capita."
-        # df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
-        # df_graphers.loc[j, "type"] = np.nan
-        # df_graphers.loc[j, "yAxisMin"] = 0
-        # df_graphers.loc[j, "facet"] = np.nan
-        # df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
-        # df_graphers.loc[j, "hasMapTab"] = "true"
-        # df_graphers.loc[j, "tab"] = "map"
-        # df_graphers.loc[j, "mapTargetTime"] = 2019
-        # df_graphers.loc[j, "survey_type"] = survey_type["table_name"][survey]
-        # j += 1
-
-        # # Headcount ratio (rel)
-        # for pct in range(len(povlines_rel)):
-        #     df_graphers.loc[j, "title"] = f"{povlines_rel.title_share[pct]}"
-        #     df_graphers.loc[
-        #         j, "ySlugs"
-        #     ] = f"headcount_ratio_{povlines_rel.slug_suffix[pct]}"
-        #     df_graphers.loc[
-        #         j, "Metric Dropdown"
-        #     ] = f"Share in relative poverty (< {povlines_rel.text[pct]})"
-        #     df_graphers.loc[
-        #         j, "Household survey data type Dropdown"
-        #     ] = f"{survey_type.dropdown_option[survey]}"
-        #     df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
-        #     df_graphers.loc[
-        #         j, "subtitle"
-        #     ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at {povlines_rel.text[pct]} {survey_type.text[survey]}."
-        #     df_graphers.loc[
-        #         j, "note"
-        #     ] = f"Depending on the country and year, the data relates to disposable {survey_type.text[survey]} per capita."
-        #     df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
-        #     df_graphers.loc[j, "type"] = np.nan
-        #     df_graphers.loc[j, "yAxisMin"] = 0
-        #     df_graphers.loc[j, "facet"] = np.nan
-        #     df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
-        #     df_graphers.loc[j, "hasMapTab"] = "true"
-        #     df_graphers.loc[j, "tab"] = "map"
-        #     df_graphers.loc[j, "mapTargetTime"] = 2019
-        #     df_graphers.loc[j, "survey_type"] = survey_type["table_name"][survey]
-        #     j += 1
-
-        # # MLD
-        # df_graphers.loc[j, "title"] = f"Income inequality: Mean log deviation"
-        # df_graphers.loc[j, "ySlugs"] = f"mld"
-        # df_graphers.loc[j, "Metric Dropdown"] = "Mean log deviation"
-        # df_graphers.loc[
-        #     j, "Household survey data type Dropdown"
-        # ] = f"{survey_type.dropdown_option[survey]}"
-        # df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
-        # df_graphers.loc[
-        #     j, "subtitle"
-        # ] = f"The mean log deviation (MLD) is a measure of inequality. An MLD of zero indicates perfect equality and it takes on larger positive values as incomes become more unequal."
-        # df_graphers.loc[
-        #     j, "note"
-        # ] = f"Depending on the country and year, the data relates to disposable {survey_type.text[survey]} per capita."
-        # df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
-        # df_graphers.loc[j, "type"] = np.nan
-        # df_graphers.loc[j, "yAxisMin"] = 0
-        # df_graphers.loc[j, "facet"] = np.nan
-        # df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
-        # df_graphers.loc[j, "hasMapTab"] = "true"
-        # df_graphers.loc[j, "tab"] = "map"
-        # df_graphers.loc[j, "mapTargetTime"] = 2019
-        # df_graphers.loc[j, "survey_type"] = survey_type["table_name"][survey]
-        # j += 1
-
-        # # Polarization
-        # df_graphers.loc[j, "title"] = f"Income inequality: Polarization index"
-        # df_graphers.loc[j, "ySlugs"] = f"polarization"
-        # df_graphers.loc[j, "Metric Dropdown"] = "Polarization index"
-        # df_graphers.loc[
-        #     j, "Household survey data type Dropdown"
-        # ] = f"{survey_type.dropdown_option[survey]}"
-        # df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
-        # df_graphers.loc[
-        #     j, "subtitle"
-        # ] = f"The polarization index, also known as the Wolfson polarization index, measures the extent to which the distribution of {survey_type.text[survey]} is “spread out” and bi-modal. Like the Gini coefficient, the polarization index ranges from 0 (no polarization) to 1 (complete polarization)."
-        # df_graphers.loc[
-        #     j, "note"
-        # ] = f"Depending on the country and year, the data relates to disposable {survey_type.text[survey]} per capita."
-        # df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
-        # df_graphers.loc[j, "type"] = np.nan
-        # df_graphers.loc[j, "yAxisMin"] = 0
-        # df_graphers.loc[j, "facet"] = np.nan
-        # df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
-        # df_graphers.loc[j, "hasMapTab"] = "true"
-        # df_graphers.loc[j, "tab"] = "map"
-        # df_graphers.loc[j, "mapTargetTime"] = 2019
-        # df_graphers.loc[j, "survey_type"] = survey_type["table_name"][survey]
-        # j += 1
+        df_graphers.loc[
+            j, "title"
+        ] = f"Income inequality: Palma ratio {welfare['title'][wel].capitalize()}"
+        df_graphers.loc[j, "ySlugs"] = f"palma_ratio_{welfare['slug'][wel]}"
+        df_graphers.loc[j, "Metric Dropdown"] = "Palma ratio"
+        df_graphers.loc[
+            j, "Welfare type Dropdown"
+        ] = f"{welfare['dropdown_option'][wel]}"
+        df_graphers.loc[
+            j, "subtitle"
+        ] = f"The Palma ratio is the share of total {welfare['welfare_type'][wel]} of the top 10% divided by the share of the bottom 40%. {welfare['subtitle'][wel]}"
+        df_graphers.loc[j, "note"] = f"{welfare['note'][wel]}"
+        df_graphers.loc[j, "type"] = np.nan
+        df_graphers.loc[j, "facet"] = np.nan
+        df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
+        df_graphers.loc[j, "hasMapTab"] = "true"
+        df_graphers.loc[j, "tab"] = "map"
+        df_graphers.loc[j, "mapTargetTime"] = 2019
+        j += 1
 
     df_graphers["tableSlug"] = tables["name"][tab]
 
