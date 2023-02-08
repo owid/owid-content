@@ -199,7 +199,7 @@ for tab in range(len(tables)):
         df_tables.loc[j, "shortUnit"] = np.nan
         df_tables.loc[j, "type"] = "Numeric"
         df_tables.loc[j, "colorScaleNumericMinValue"] = 0
-        df_tables.loc[j, "colorScaleNumericBins"] = "0;2;4;6;8;10;12;14;16;18"
+        df_tables.loc[j, "colorScaleNumericBins"] = welfare["scale_p90_p10_ratio"][wel]
         df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
         df_tables.loc[j, "colorScaleScheme"] = "OrRd"
         j += 1
@@ -216,7 +216,7 @@ for tab in range(len(tables)):
         df_tables.loc[j, "shortUnit"] = np.nan
         df_tables.loc[j, "type"] = "Numeric"
         df_tables.loc[j, "colorScaleNumericMinValue"] = 0
-        df_tables.loc[j, "colorScaleNumericBins"] = "0;1;2;3;4;5"
+        df_tables.loc[j, "colorScaleNumericBins"] = welfare["scale_p90_p50_ratio"][wel]
         df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
         df_tables.loc[j, "colorScaleScheme"] = "Purples"
         j += 1
@@ -233,7 +233,7 @@ for tab in range(len(tables)):
         df_tables.loc[j, "shortUnit"] = np.nan
         df_tables.loc[j, "type"] = "Numeric"
         df_tables.loc[j, "colorScaleNumericMinValue"] = 0
-        df_tables.loc[j, "colorScaleNumericBins"] = "0;0.5;1;1.5;2;2.5;3;3.5;4"
+        df_tables.loc[j, "colorScaleNumericBins"] = welfare["scale_p50_p10_ratio"][wel]
         df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
         df_tables.loc[j, "colorScaleScheme"] = "YlOrRd"
         j += 1
@@ -250,7 +250,7 @@ for tab in range(len(tables)):
         df_tables.loc[j, "shortUnit"] = np.nan
         df_tables.loc[j, "type"] = "Numeric"
         df_tables.loc[j, "colorScaleNumericMinValue"] = 0
-        df_tables.loc[j, "colorScaleNumericBins"] = "0;0.5;1;1.5;2;2.5;3;3.5;4;4.5;5"
+        df_tables.loc[j, "colorScaleNumericBins"] = welfare["scale_palma_ratio"][wel]
         df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
         df_tables.loc[j, "colorScaleScheme"] = "Oranges"
         j += 1
