@@ -410,7 +410,7 @@ for tab in range(len(tables)):
         # P90/P10
         df_graphers.loc[
             j, "title"
-        ] = f"Income inequality: P90/P10 ratio {welfare['title'][wel].capitalize()}"
+        ] = f"{welfare['welfare_type'][wel].capitalize()} inequality: P90/P10 ratio {welfare['title'][wel].capitalize()}"
         df_graphers.loc[j, "ySlugs"] = f"p90_p10_ratio_{welfare['slug'][wel]}"
         df_graphers.loc[j, "Metric Dropdown"] = "P90/P10"
         df_graphers.loc[
@@ -431,7 +431,7 @@ for tab in range(len(tables)):
         # P90/P50
         df_graphers.loc[
             j, "title"
-        ] = f"Income inequality: P90/P50 ratio {welfare['title'][wel].capitalize()}"
+        ] = f"{welfare['welfare_type'][wel].capitalize()} inequality: P90/P50 ratio {welfare['title'][wel].capitalize()}"
         df_graphers.loc[j, "ySlugs"] = f"p90_p50_ratio_{welfare['slug'][wel]}"
         df_graphers.loc[j, "Metric Dropdown"] = "P90/P50"
         df_graphers.loc[
@@ -452,7 +452,7 @@ for tab in range(len(tables)):
         # P50/P10
         df_graphers.loc[
             j, "title"
-        ] = f"Income inequality: P50/P10 ratio {welfare['title'][wel].capitalize()}"
+        ] = f"{welfare['welfare_type'][wel].capitalize()} inequality: P50/P10 ratio {welfare['title'][wel].capitalize()}"
         df_graphers.loc[j, "ySlugs"] = f"p50_p10_ratio_{welfare['slug'][wel]}"
         df_graphers.loc[j, "Metric Dropdown"] = "P50/P10"
         df_graphers.loc[
@@ -473,7 +473,7 @@ for tab in range(len(tables)):
         # # Palma ratio
         df_graphers.loc[
             j, "title"
-        ] = f"Income inequality: Palma ratio {welfare['title'][wel].capitalize()}"
+        ] = f"{welfare['welfare_type'][wel].capitalize()} inequality: Palma ratio {welfare['title'][wel].capitalize()}"
         df_graphers.loc[j, "ySlugs"] = f"palma_ratio_{welfare['slug'][wel]}"
         df_graphers.loc[j, "Metric Dropdown"] = "Palma ratio"
         df_graphers.loc[
