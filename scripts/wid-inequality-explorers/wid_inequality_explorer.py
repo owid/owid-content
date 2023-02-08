@@ -107,29 +107,85 @@ for tab in range(len(tables)):
         df_tables.loc[j, "colorScaleScheme"] = "Reds"
         j += 1
 
-        # # Share of the top 10%
-        # df_tables.loc[
-        #     j, "name"
-        # ] = f"Share of the richest decile in total {survey_type.text[survey]}"
-        # df_tables.loc[j, "slug"] = f"decile10_share"
-        # df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform"
-        # df_tables.loc[
-        #     j, "description"
-        # ] = f"The {survey_type.text[survey]} of the richest decile (tenth of the population) as a share of total {survey_type.text[survey]}."
-        # df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
-        # df_tables.loc[
-        #     j, "dataPublishedBy"
-        # ] = "World Bank Poverty and Inequality Platform (PIP)"
-        # df_tables.loc[j, "unit"] = "%"
-        # df_tables.loc[j, "shortUnit"] = "%"
-        # df_tables.loc[j, "tolerance"] = 5
-        # df_tables.loc[j, "type"] = "Numeric"
-        # df_tables.loc[j, "colorScaleNumericMinValue"] = 0
-        # df_tables.loc[j, "colorScaleNumericBins"] = "10;15;20;25;30;35;40;45;50"
-        # df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
-        # df_tables.loc[j, "colorScaleScheme"] = "Greens"
-        # df_tables.loc[j, "survey_type"] = survey_type["table_name"][survey]
-        # j += 1
+        # Share of the top 10%
+        df_tables.loc[
+            j, "name"
+        ] = f"{welfare['welfare_type'][wel].capitalize()} share of the richest 10%"
+        df_tables.loc[j, "slug"] = f"p90p100_share_{welfare['slug'][wel]}"
+        df_tables.loc[
+            j, "description"
+        ] = f"This is the {welfare['welfare_type'][wel]} of the richest 10% as a share of total {welfare['welfare_type'][wel]}."
+        df_tables.loc[j, "unit"] = "%"
+        df_tables.loc[j, "shortUnit"] = "%"
+        df_tables.loc[j, "type"] = "Numeric"
+        df_tables.loc[j, "colorScaleNumericBins"] = welfare["scale_top10"][wel]
+        df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
+        df_tables.loc[j, "colorScaleScheme"] = "Greens"
+        j += 1
+
+        # Share of the top 1%
+        df_tables.loc[
+            j, "name"
+        ] = f"{welfare['welfare_type'][wel].capitalize()} share of the richest 1%"
+        df_tables.loc[j, "slug"] = f"p99p100_share_{welfare['slug'][wel]}"
+        df_tables.loc[
+            j, "description"
+        ] = f"This is the {welfare['welfare_type'][wel]} of the richest 1% as a share of total {welfare['welfare_type'][wel]}."
+        df_tables.loc[j, "unit"] = "%"
+        df_tables.loc[j, "shortUnit"] = "%"
+        df_tables.loc[j, "type"] = "Numeric"
+        df_tables.loc[j, "colorScaleNumericBins"] = welfare["scale_top1"][wel]
+        df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
+        df_tables.loc[j, "colorScaleScheme"] = "Blues"
+        j += 1
+
+        # Share of the top 0.1%
+        df_tables.loc[
+            j, "name"
+        ] = f"{welfare['welfare_type'][wel].capitalize()} share of the richest 0.1%"
+        df_tables.loc[j, "slug"] = f"p99_9p100_share_{welfare['slug'][wel]}"
+        df_tables.loc[
+            j, "description"
+        ] = f"This is the {welfare['welfare_type'][wel]} of the richest 0.1% as a share of total {welfare['welfare_type'][wel]}."
+        df_tables.loc[j, "unit"] = "%"
+        df_tables.loc[j, "shortUnit"] = "%"
+        df_tables.loc[j, "type"] = "Numeric"
+        df_tables.loc[j, "colorScaleNumericBins"] = welfare["scale_top01"][wel]
+        df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
+        df_tables.loc[j, "colorScaleScheme"] = "Blues"
+        j += 1
+
+        # Share of the top 0.01%
+        df_tables.loc[
+            j, "name"
+        ] = f"{welfare['welfare_type'][wel].capitalize()} share of the richest 0.01%"
+        df_tables.loc[j, "slug"] = f"p99_99p100_share_{welfare['slug'][wel]}"
+        df_tables.loc[
+            j, "description"
+        ] = f"This is the {welfare['welfare_type'][wel]} of the richest 0.01% as a share of total {welfare['welfare_type'][wel]}."
+        df_tables.loc[j, "unit"] = "%"
+        df_tables.loc[j, "shortUnit"] = "%"
+        df_tables.loc[j, "type"] = "Numeric"
+        df_tables.loc[j, "colorScaleNumericBins"] = welfare["scale_top001"][wel]
+        df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
+        df_tables.loc[j, "colorScaleScheme"] = "Blues"
+        j += 1
+
+        # Share of the top 0.001%
+        df_tables.loc[
+            j, "name"
+        ] = f"{welfare['welfare_type'][wel].capitalize()} share of the richest 0.001%"
+        df_tables.loc[j, "slug"] = f"p99_999p100_share_{welfare['slug'][wel]}"
+        df_tables.loc[
+            j, "description"
+        ] = f"This is the {welfare['welfare_type'][wel]} of the richest 0.001% as a share of total {welfare['welfare_type'][wel]}."
+        df_tables.loc[j, "unit"] = "%"
+        df_tables.loc[j, "shortUnit"] = "%"
+        df_tables.loc[j, "type"] = "Numeric"
+        df_tables.loc[j, "colorScaleNumericBins"] = welfare["scale_top0001"][wel]
+        df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
+        df_tables.loc[j, "colorScaleScheme"] = "Blues"
+        j += 1
 
         # # P90/P10
         # df_tables.loc[j, "name"] = f"P90/P10 ratio"
@@ -337,32 +393,110 @@ for tab in range(len(tables)):
         df_graphers.loc[j, "mapTargetTime"] = 2019
         j += 1
 
-        # # Share of the top 10%
-        # df_graphers.loc[
-        #     j, "title"
-        # ] = f"{survey_type.text[survey].capitalize()} share of the top 10%"
-        # df_graphers.loc[j, "ySlugs"] = f"decile10_share"
-        # df_graphers.loc[j, "Metric Dropdown"] = "Top 10% share"
-        # df_graphers.loc[
-        #     j, "Household survey data type Dropdown"
-        # ] = f"{survey_type.dropdown_option[survey]}"
-        # df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
-        # df_graphers.loc[
-        #     j, "subtitle"
-        # ] = f"This is the {survey_type.text[survey]} of the richest decile (tenth of the population) as a share of total {survey_type.text[survey]}."
-        # df_graphers.loc[
-        #     j, "note"
-        # ] = f"Depending on the country and year, the data relates to disposable {survey_type.text[survey]} per capita."
-        # df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
-        # df_graphers.loc[j, "type"] = np.nan
-        # df_graphers.loc[j, "yAxisMin"] = 0
-        # df_graphers.loc[j, "facet"] = np.nan
-        # df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
-        # df_graphers.loc[j, "hasMapTab"] = "true"
-        # df_graphers.loc[j, "tab"] = "map"
-        # df_graphers.loc[j, "mapTargetTime"] = 2019
-        # df_graphers.loc[j, "survey_type"] = survey_type["table_name"][survey]
-        # j += 1
+        # Share of the top 10%
+        df_graphers.loc[
+            j, "title"
+        ] = f"{welfare['welfare_type'][wel].capitalize()} share of the top 10% {welfare['title'][wel].capitalize()}"
+        df_graphers.loc[j, "ySlugs"] = f"p90p100_share_{welfare['slug'][wel]}"
+        df_graphers.loc[j, "Metric Dropdown"] = "Top 10% share"
+        df_graphers.loc[
+            j, "Welfare type Dropdown"
+        ] = f"{welfare['dropdown_option'][wel]}"
+        df_graphers.loc[
+            j, "subtitle"
+        ] = f"This is the {welfare['welfare_type'][wel]} of the richest 10% as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
+        df_graphers.loc[j, "note"] = f"{welfare['note'][wel]}"
+        df_graphers.loc[j, "type"] = np.nan
+        df_graphers.loc[j, "facet"] = np.nan
+        df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
+        df_graphers.loc[j, "hasMapTab"] = "true"
+        df_graphers.loc[j, "tab"] = "map"
+        df_graphers.loc[j, "mapTargetTime"] = 2019
+        j += 1
+
+        # Share of the top 1%
+        df_graphers.loc[
+            j, "title"
+        ] = f"{welfare['welfare_type'][wel].capitalize()} share of the top 1% {welfare['title'][wel].capitalize()}"
+        df_graphers.loc[j, "ySlugs"] = f"p99p100_share_{welfare['slug'][wel]}"
+        df_graphers.loc[j, "Metric Dropdown"] = "Top 1% share"
+        df_graphers.loc[
+            j, "Welfare type Dropdown"
+        ] = f"{welfare['dropdown_option'][wel]}"
+        df_graphers.loc[
+            j, "subtitle"
+        ] = f"This is the {welfare['welfare_type'][wel]} of the richest 1% as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
+        df_graphers.loc[j, "note"] = f"{welfare['note'][wel]}"
+        df_graphers.loc[j, "type"] = np.nan
+        df_graphers.loc[j, "facet"] = np.nan
+        df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
+        df_graphers.loc[j, "hasMapTab"] = "true"
+        df_graphers.loc[j, "tab"] = "map"
+        df_graphers.loc[j, "mapTargetTime"] = 2019
+        j += 1
+
+        # Share of the top 0.1%
+        df_graphers.loc[
+            j, "title"
+        ] = f"{welfare['welfare_type'][wel].capitalize()} share of the top 0.1% {welfare['title'][wel].capitalize()}"
+        df_graphers.loc[j, "ySlugs"] = f"p99_9p100_share_{welfare['slug'][wel]}"
+        df_graphers.loc[j, "Metric Dropdown"] = "Top 0.1% share"
+        df_graphers.loc[
+            j, "Welfare type Dropdown"
+        ] = f"{welfare['dropdown_option'][wel]}"
+        df_graphers.loc[
+            j, "subtitle"
+        ] = f"This is the {welfare['welfare_type'][wel]} of the richest 0.1% as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
+        df_graphers.loc[j, "note"] = f"{welfare['note'][wel]}"
+        df_graphers.loc[j, "type"] = np.nan
+        df_graphers.loc[j, "facet"] = np.nan
+        df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
+        df_graphers.loc[j, "hasMapTab"] = "true"
+        df_graphers.loc[j, "tab"] = "map"
+        df_graphers.loc[j, "mapTargetTime"] = 2019
+        j += 1
+
+        # Share of the top 0.01%
+        df_graphers.loc[
+            j, "title"
+        ] = f"{welfare['welfare_type'][wel].capitalize()} share of the top 0.01% {welfare['title'][wel].capitalize()}"
+        df_graphers.loc[j, "ySlugs"] = f"p99_99p100_share_{welfare['slug'][wel]}"
+        df_graphers.loc[j, "Metric Dropdown"] = "Top 0.01% share"
+        df_graphers.loc[
+            j, "Welfare type Dropdown"
+        ] = f"{welfare['dropdown_option'][wel]}"
+        df_graphers.loc[
+            j, "subtitle"
+        ] = f"This is the {welfare['welfare_type'][wel]} of the richest 0.01% as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
+        df_graphers.loc[j, "note"] = f"{welfare['note'][wel]}"
+        df_graphers.loc[j, "type"] = np.nan
+        df_graphers.loc[j, "facet"] = np.nan
+        df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
+        df_graphers.loc[j, "hasMapTab"] = "true"
+        df_graphers.loc[j, "tab"] = "map"
+        df_graphers.loc[j, "mapTargetTime"] = 2019
+        j += 1
+
+        # Share of the top 0.001%
+        df_graphers.loc[
+            j, "title"
+        ] = f"{welfare['welfare_type'][wel].capitalize()} share of the top 0.001% {welfare['title'][wel].capitalize()}"
+        df_graphers.loc[j, "ySlugs"] = f"p99_999p100_share_{welfare['slug'][wel]}"
+        df_graphers.loc[j, "Metric Dropdown"] = "Top 0.001% share"
+        df_graphers.loc[
+            j, "Welfare type Dropdown"
+        ] = f"{welfare['dropdown_option'][wel]}"
+        df_graphers.loc[
+            j, "subtitle"
+        ] = f"This is the {welfare['welfare_type'][wel]} of the richest 0.001% as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
+        df_graphers.loc[j, "note"] = f"{welfare['note'][wel]}"
+        df_graphers.loc[j, "type"] = np.nan
+        df_graphers.loc[j, "facet"] = np.nan
+        df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
+        df_graphers.loc[j, "hasMapTab"] = "true"
+        df_graphers.loc[j, "tab"] = "map"
+        df_graphers.loc[j, "mapTargetTime"] = 2019
+        j += 1
 
         # # P90/P10
         # df_graphers.loc[j, "title"] = f"Income inequality: P90/P10 ratio"
@@ -555,7 +689,6 @@ df_graphers["relatedQuestionText"] = np.nan
 df_graphers["relatedQuestionUrl"] = np.nan
 
 # Add source
-df_graphers["sourceName"] = sourceName
 df_graphers["yAxisMin"] = yAxisMin
 
 # Make mapTargetTime integer (to not break the parameter in the platform)
