@@ -78,6 +78,18 @@ df_tables = pd.DataFrame()
 j = 0
 
 for tab in range(len(tables)):
+    # Define country as entityName
+    df_tables.loc[j, "name"] = "Country"
+    df_tables.loc[j, "slug"] = "country"
+    df_tables.loc[j, "type"] = "EntityName"
+    j += 1
+
+    # Define year as Year
+    df_tables.loc[j, "name"] = "Year"
+    df_tables.loc[j, "slug"] = "year"
+    df_tables.loc[j, "type"] = "Year"
+    j += 1
+
     for wel in range(len(welfare)):
         # Gini coefficient
         df_tables.loc[
@@ -90,9 +102,7 @@ for tab in range(len(tables)):
         df_tables.loc[j, "unit"] = np.nan
         df_tables.loc[j, "shortUnit"] = np.nan
         df_tables.loc[j, "type"] = "Numeric"
-        df_tables.loc[
-            j, "colorScaleNumericBins"
-        ] = "0.4;0.45;0.5;0.55;0.6;0.65;0.7;0.75;0.8"
+        df_tables.loc[j, "colorScaleNumericBins"] = welfare["scale_gini"][wel]
         df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
         df_tables.loc[j, "colorScaleScheme"] = "Reds"
         j += 1
