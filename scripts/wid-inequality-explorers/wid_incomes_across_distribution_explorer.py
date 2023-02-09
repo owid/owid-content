@@ -165,7 +165,7 @@ for tab in range(len(tables)):
         for dec10 in range(len(deciles10)):
             df_tables.loc[
                 j, "name"
-            ] = f"{welfare['welfare_type'][wel].capitalize()} - Mean ({welfare['technical_text'][wel].capitalize()})"
+            ] = f"{deciles10['ordinal'][dec10].capitalize()} - Mean ({welfare['technical_text'][wel].capitalize()})"
             df_tables.loc[
                 j, "slug"
             ] = f"{deciles10['wid_notation'][dec10]}_avg_{welfare['slug'][wel]}"
@@ -203,7 +203,7 @@ for tab in range(len(tables)):
         for dec10 in range(len(deciles10)):
             df_tables.loc[
                 j, "name"
-            ] = f"{welfare['welfare_type'][wel].capitalize()} - Share ({welfare['technical_text'][wel].capitalize()})"
+            ] = f"{deciles10['ordinal'][dec10].capitalize()} - Share ({welfare['technical_text'][wel].capitalize()})"
             df_tables.loc[
                 j, "slug"
             ] = f"{deciles10['wid_notation'][dec10]}_share_{welfare['slug'][wel]}"
