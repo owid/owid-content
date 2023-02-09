@@ -321,6 +321,7 @@ for tab in range(len(tables)):
             df_graphers.loc[
                 j, "Welfare type Dropdown"
             ] = f"{welfare['dropdown_option'][wel]}"
+            df_graphers.loc[j, "Decile/quantile Dropdown"] = deciles9["dropdown"][dec9]
             df_graphers.loc[
                 j, "subtitle"
             ] = f"This is the level of {welfare['welfare_type'][wel]} below which {deciles9['decile'][dec9]}0% of the population falls. {welfare['subtitle'][wel]}"
@@ -345,6 +346,7 @@ for tab in range(len(tables)):
             df_graphers.loc[
                 j, "Welfare type Dropdown"
             ] = f"{welfare['dropdown_option'][wel]}"
+            df_graphers.loc[j, "Decile/quantile Dropdown"] = top_pct["name"][top]
             df_graphers.loc[j, "subtitle"] = f"{welfare['subtitle'][wel]}"
             df_graphers.loc[
                 j, "note"
@@ -368,6 +370,9 @@ for tab in range(len(tables)):
             df_graphers.loc[
                 j, "Welfare type Dropdown"
             ] = f"{welfare['dropdown_option'][wel]}"
+            df_graphers.loc[j, "Decile/quantile Dropdown"] = deciles10["dropdown"][
+                dec10
+            ]
             df_graphers.loc[
                 j, "subtitle"
             ] = f"This is the mean {welfare['welfare_type'][wel]} within the {deciles10['ordinal'][dec10]} (tenth of the population). {welfare['subtitle'][wel]}"
@@ -392,6 +397,7 @@ for tab in range(len(tables)):
             df_graphers.loc[
                 j, "Welfare type Dropdown"
             ] = f"{welfare['dropdown_option'][wel]}"
+            df_graphers.loc[j, "Decile/quantile Dropdown"] = top_pct["name"][top]
             df_graphers.loc[
                 j, "subtitle"
             ] = f"This is the mean {welfare['welfare_type'][wel]} within the richest {top_pct['name'][top]}. {welfare['subtitle'][wel]}"
@@ -417,6 +423,9 @@ for tab in range(len(tables)):
             df_graphers.loc[
                 j, "Welfare type Dropdown"
             ] = f"{welfare['dropdown_option'][wel]}"
+            df_graphers.loc[j, "Decile/quantile Dropdown"] = deciles10["dropdown"][
+                dec10
+            ]
             df_graphers.loc[
                 j, "subtitle"
             ] = f"This is the {welfare['welfare_type'][wel]} of the {deciles10['ordinal'][dec10]} (tenth of the population) as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
@@ -439,6 +448,7 @@ for tab in range(len(tables)):
             df_graphers.loc[
                 j, "Welfare type Dropdown"
             ] = f"{welfare['dropdown_option'][wel]}"
+            df_graphers.loc[j, "Decile/quantile Dropdown"] = top_pct["name"][top]
             df_graphers.loc[
                 j, "subtitle"
             ] = f"This is the {welfare['welfare_type'][wel]} of the richest {top_pct['name'][top]} as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
