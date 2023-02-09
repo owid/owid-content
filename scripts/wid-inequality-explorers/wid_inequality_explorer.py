@@ -1,6 +1,6 @@
 # %% [markdown]
 # # Inequality Data Explorer of the World Inequality Database
-# This code creates the tsv file for the inequality explorer from the WID data, available [here](https://owid.cloud/admin/explorers/preview/pip-inequality-explorer)
+# This code creates the tsv file for the inequality explorer from the WID data, available [here](https://owid.cloud/admin/explorers/preview/wid-inequality)
 
 import textwrap
 from pathlib import Path
@@ -15,7 +15,7 @@ outfile = PARENT_DIR / "explorers" / "wid-inequality.explorer.tsv"
 
 # %% [markdown]
 # ## Google sheets auxiliar data
-# These spreadsheets provide with different details depending on each relative poverty line or survey type.
+# These spreadsheets provide with different details depending on each type of welfare measure or tables considered.
 
 # %%
 # Read Google sheets
@@ -61,7 +61,7 @@ df_header = df_header[0].apply(pd.Series)
 
 # %% [markdown]
 # ## Tables
-# Variables are grouped by type to iterate by different survey types at the same time. The output is the list of all the variables being used in the explorer, with metadata.
+# Variables are grouped by type of welfare to iterate by different survey types at the same time. The output is the list of all the variables being used in the explorer, with metadata.
 # ### Tables for variables not showing breaks between surveys
 # These variables consider a continous series, without breaks due to changes in surveys' methodology
 
@@ -136,7 +136,7 @@ for tab in range(len(tables)):
         df_tables.loc[j, "type"] = "Numeric"
         df_tables.loc[j, "colorScaleNumericBins"] = welfare["scale_top1"][wel]
         df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
-        df_tables.loc[j, "colorScaleScheme"] = "Blues"
+        df_tables.loc[j, "colorScaleScheme"] = "Greens"
         j += 1
 
         # Share of the top 0.1%
@@ -152,7 +152,7 @@ for tab in range(len(tables)):
         df_tables.loc[j, "type"] = "Numeric"
         df_tables.loc[j, "colorScaleNumericBins"] = welfare["scale_top01"][wel]
         df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
-        df_tables.loc[j, "colorScaleScheme"] = "Blues"
+        df_tables.loc[j, "colorScaleScheme"] = "Greens"
         j += 1
 
         # Share of the top 0.01%
@@ -168,7 +168,7 @@ for tab in range(len(tables)):
         df_tables.loc[j, "type"] = "Numeric"
         df_tables.loc[j, "colorScaleNumericBins"] = welfare["scale_top001"][wel]
         df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
-        df_tables.loc[j, "colorScaleScheme"] = "Blues"
+        df_tables.loc[j, "colorScaleScheme"] = "Greens"
         j += 1
 
         # Share of the top 0.001%
@@ -184,7 +184,7 @@ for tab in range(len(tables)):
         df_tables.loc[j, "type"] = "Numeric"
         df_tables.loc[j, "colorScaleNumericBins"] = welfare["scale_top0001"][wel]
         df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
-        df_tables.loc[j, "colorScaleScheme"] = "Blues"
+        df_tables.loc[j, "colorScaleScheme"] = "Greens"
         j += 1
 
         # P90/P10
@@ -268,7 +268,7 @@ df_tables["tolerance"] = df_tables["tolerance"].astype("Int64")
 
 # %% [markdown]
 # ### Grapher views
-# Similar to the tables, this creates the grapher views by grouping by types of variables and then running by survey type.
+# Similar to the tables, this creates the grapher views by grouping by types of variables and then running by welfare type.
 
 # %%
 # Grapher table generation
@@ -501,7 +501,7 @@ for tab in range(len(tables)):
 df_graphers["relatedQuestionText"] = np.nan
 df_graphers["relatedQuestionUrl"] = np.nan
 
-# Add source
+# Add yAxisMin
 df_graphers["yAxisMin"] = yAxisMin
 
 # Make mapTargetTime integer (to not break the parameter in the platform)
@@ -526,15 +526,14 @@ table_list = list(tables["name"].unique())
 # Header is converted into a tab-separated text
 header_tsv = df_header.to_csv(sep="\t", header=False)
 
-# Auxiliar variable `survey_type` is dropped and graphers table is converted into a tab-separated text
-# graphers_tsv = df_graphers.drop(columns=["survey_type"])
+# Graphers table is converted into a tab-separated text
 graphers_tsv = df_graphers
 graphers_tsv = graphers_tsv.to_csv(sep="\t", index=False)
 
 # This table is indented, to follow explorers' format
 graphers_tsv_indented = textwrap.indent(graphers_tsv, "\t")
 
-# The dataframes are combined, including tables which are filtered by survey type and variable
+# The dataframes are combined, including tables and links to the datasets
 with open(outfile, "w", newline="\n", encoding="utf-8") as f:
     f.write(header_tsv)
     f.write("\ngraphers\n" + graphers_tsv_indented)
