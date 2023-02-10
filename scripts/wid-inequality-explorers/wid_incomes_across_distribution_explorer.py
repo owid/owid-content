@@ -67,6 +67,7 @@ header_dict = {
     "googleSheet": f"https://docs.google.com/spreadsheets/d/{sheet_id}",
     "wpBlockId": "",
     "entityType": "country or region",
+    "pickerColumnSlugs": "p0p100_avg_pretax p0p100_avg_posttax_dis p0p100_avg_posttax_nat p0p100_avg_wealth",
 }
 
 # Index-oriented dataframe

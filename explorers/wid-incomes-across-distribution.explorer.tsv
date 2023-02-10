@@ -5,6 +5,7 @@ isPublished	false
 googleSheet	https://docs.google.com/spreadsheets/d/18T5IGnpyJwb8KL9USYvME6IaLEcYIo26ioHCpkDnwRQ					
 wpBlockId						
 entityType	country or region					
+pickerColumnSlugs	p0p100_avg_pretax p0p100_avg_posttax_dis p0p100_avg_posttax_nat p0p100_avg_wealth					
 
 graphers
 	title	ySlugs	Metric Dropdown	Welfare type Dropdown	Decile/quantile Dropdown	subtitle	note	facet	selectedFacetStrategy	hasMapTab	tab	mapTargetTime	yScaleToggle	tableSlug	relatedQuestionText	relatedQuestionUrl	yAxisMin	defaultView
