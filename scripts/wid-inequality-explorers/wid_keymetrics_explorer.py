@@ -271,6 +271,7 @@ for tab in range(len(tables)):
         df_graphers.loc[j, "hasMapTab"] = "true"
         df_graphers.loc[j, "tab"] = "map"
         df_graphers.loc[j, "mapTargetTime"] = 2019
+        df_graphers.loc[j, "yScaleToggle"] = "true"
         j += 1
 
         # Median
@@ -293,6 +294,7 @@ for tab in range(len(tables)):
         df_graphers.loc[j, "hasMapTab"] = "true"
         df_graphers.loc[j, "tab"] = "map"
         df_graphers.loc[j, "mapTargetTime"] = 2019
+        df_graphers.loc[j, "yScaleToggle"] = "true"
         j += 1
 
         # Share of the top 10%
