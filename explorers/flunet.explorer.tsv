@@ -10,6 +10,7 @@ pickerColumnSlugs
 downloadDataLink	https://raw.githubusercontent.com/owid/notebooks/main/FionaSpooner/flunet/data/flu.csv
 graphers
 	title	subtitle	ySlugs	hideTitleAnnotation	stackMode	type	yScaleToggle	Flu type Dropdown
+	Percentage of tests positive for Influenza		pcnt_pos	true		LineChart	true	pcnt_pos
 	Cases of AH1N12009		AH1N12009	true		LineChart	true	AH1N12009
 	Cases of AH1		AH1	true		LineChart	true	AH1
 	Cases of AH3		AH3	true		LineChart	true	AH3
@@ -23,7 +24,6 @@ graphers
 	Total confirmed influenza cases		INF_ALL	true		LineChart	true	INF_ALL
 	Total negative tests		INF_NEGATIVE	true		LineChart	true	INF_NEGATIVE
 	Cases of B Victoria		BVIC	true		LineChart	true	BVIC
-	Percentage of tests positive for Influenza		pcnt_pos	true		LineChart	true	pcnt_pos
 	Cases of acute respiratory illness		ari_cases			LineChart	true	ari_cases
 	Cases of influenza-like illness		ili_cases			LineChart	true	ili_cases
 	Cases of serious acute respiratory illness		sari_cases			LineChart	true	sari_cases
