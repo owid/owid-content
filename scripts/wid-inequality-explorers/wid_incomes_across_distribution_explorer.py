@@ -489,7 +489,7 @@ for tab in range(len(tables)):
         ] = f"Mean {welfare['welfare_type'][wel]} within each decile {welfare['title'][wel].capitalize()}"
         df_graphers.loc[
             j, "ySlugs"
-        ] = f"p10p20_avg_{welfare['slug'][wel]} p20p30_avg_{welfare['slug'][wel]} p30p40_avg_{welfare['slug'][wel]} p40p50_avg_{welfare['slug'][wel]} p50p60_avg_{welfare['slug'][wel]} p60p70_avg_{welfare['slug'][wel]} p70p80_avg_{welfare['slug'][wel]} p80p90_avg_{welfare['slug'][wel]} p90p100_avg_{welfare['slug'][wel]}"
+        ] = f"p0p10_avg_{welfare['slug'][wel]} p10p20_avg_{welfare['slug'][wel]} p20p30_avg_{welfare['slug'][wel]} p30p40_avg_{welfare['slug'][wel]} p40p50_avg_{welfare['slug'][wel]} p50p60_avg_{welfare['slug'][wel]} p60p70_avg_{welfare['slug'][wel]} p70p80_avg_{welfare['slug'][wel]} p80p90_avg_{welfare['slug'][wel]} p90p100_avg_{welfare['slug'][wel]}"
         df_graphers.loc[j, "Metric Dropdown"] = "Mean income or wealth, by decile"
         df_graphers.loc[
             j, "Welfare type Dropdown"
@@ -515,7 +515,7 @@ for tab in range(len(tables)):
         ] = f"{welfare['welfare_type'][wel].capitalize()} share for each decile {welfare['title'][wel].capitalize()}"
         df_graphers.loc[
             j, "ySlugs"
-        ] = f"p10p20_share_{welfare['slug'][wel]} p20p30_share_{welfare['slug'][wel]} p30p40_share_{welfare['slug'][wel]} p40p50_share_{welfare['slug'][wel]} p50p60_share_{welfare['slug'][wel]} p60p70_share_{welfare['slug'][wel]} p70p80_share_{welfare['slug'][wel]} p80p90_share_{welfare['slug'][wel]} p90p100_share_{welfare['slug'][wel]}"
+        ] = f"p0p10_share_{welfare['slug'][wel]}  p20p30_share_{welfare['slug'][wel]} p30p40_share_{welfare['slug'][wel]} p40p50_share_{welfare['slug'][wel]} p50p60_share_{welfare['slug'][wel]} p60p70_share_{welfare['slug'][wel]} p70p80_share_{welfare['slug'][wel]} p80p90_share_{welfare['slug'][wel]} p90p100_share_{welfare['slug'][wel]}"
         df_graphers.loc[j, "Metric Dropdown"] = "Decile shares"
         df_graphers.loc[
             j, "Welfare type Dropdown"
@@ -564,7 +564,7 @@ for tab in range(len(tables)):
         ] = f"Mean {welfare['welfare_type'][wel]} within each decile {welfare['title'][wel].capitalize()}"
         df_graphers.loc[
             j, "ySlugs"
-        ] = f"p10p20_avg_{welfare['slug'][wel]} p20p30_avg_{welfare['slug'][wel]} p30p40_avg_{welfare['slug'][wel]} p40p50_avg_{welfare['slug'][wel]} p50p60_avg_{welfare['slug'][wel]} p60p70_avg_{welfare['slug'][wel]} p70p80_avg_{welfare['slug'][wel]} p80p90_avg_{welfare['slug'][wel]} p90p100_avg_{welfare['slug'][wel]} p99p100_avg_{welfare['slug'][wel]} p99_9p100_avg_{welfare['slug'][wel]} p99_99p100_avg_{welfare['slug'][wel]} p99_999p100_avg_{welfare['slug'][wel]}"
+        ] = f"p0p10_avg_{welfare['slug'][wel]} p10p20_avg_{welfare['slug'][wel]} p20p30_avg_{welfare['slug'][wel]} p30p40_avg_{welfare['slug'][wel]} p40p50_avg_{welfare['slug'][wel]} p50p60_avg_{welfare['slug'][wel]} p60p70_avg_{welfare['slug'][wel]} p70p80_avg_{welfare['slug'][wel]} p80p90_avg_{welfare['slug'][wel]} p90p100_avg_{welfare['slug'][wel]} p99p100_avg_{welfare['slug'][wel]} p99_9p100_avg_{welfare['slug'][wel]} p99_99p100_avg_{welfare['slug'][wel]} p99_999p100_avg_{welfare['slug'][wel]}"
         df_graphers.loc[j, "Metric Dropdown"] = "Mean income or wealth, by decile"
         df_graphers.loc[
             j, "Welfare type Dropdown"
@@ -590,7 +590,7 @@ for tab in range(len(tables)):
         ] = f"{welfare['welfare_type'][wel].capitalize()} share for each decile {welfare['title'][wel].capitalize()}"
         df_graphers.loc[
             j, "ySlugs"
-        ] = f"p10p20_share_{welfare['slug'][wel]} p20p30_share_{welfare['slug'][wel]} p30p40_share_{welfare['slug'][wel]} p40p50_share_{welfare['slug'][wel]} p50p60_share_{welfare['slug'][wel]} p60p70_share_{welfare['slug'][wel]} p70p80_share_{welfare['slug'][wel]} p80p90_share_{welfare['slug'][wel]} p90p100_share_{welfare['slug'][wel]} p99p100_share_{welfare['slug'][wel]} p99_9p100_share_{welfare['slug'][wel]} p99_99p100_share_{welfare['slug'][wel]} p99_999p100_share_{welfare['slug'][wel]}"
+        ] = f"p0p10_share_{welfare['slug'][wel]} p10p20_share_{welfare['slug'][wel]} p20p30_share_{welfare['slug'][wel]} p30p40_share_{welfare['slug'][wel]} p40p50_share_{welfare['slug'][wel]} p50p60_share_{welfare['slug'][wel]} p60p70_share_{welfare['slug'][wel]} p70p80_share_{welfare['slug'][wel]} p80p90_share_{welfare['slug'][wel]} p90p100_share_{welfare['slug'][wel]} p99p100_share_{welfare['slug'][wel]} p99_9p100_share_{welfare['slug'][wel]} p99_99p100_share_{welfare['slug'][wel]} p99_999p100_share_{welfare['slug'][wel]}"
         df_graphers.loc[j, "Metric Dropdown"] = "Decile shares"
         df_graphers.loc[
             j, "Welfare type Dropdown"
