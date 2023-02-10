@@ -137,7 +137,7 @@ for tab in range(len(tables)):
             df_tables.loc[j, "unit"] = "international-$ at 2021 prices"
             df_tables.loc[j, "shortUnit"] = "$"
             df_tables.loc[j, "type"] = "Numeric"
-            df_tables.loc[j, "colorScaleNumericBins"] = {deciles9["scale_thr"][dec9]}
+            df_tables.loc[j, "colorScaleNumericBins"] = deciles9["scale_thr"][dec9]
             df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
             df_tables.loc[j, "colorScaleScheme"] = "Purples"
             j += 1
@@ -156,7 +156,7 @@ for tab in range(len(tables)):
             df_tables.loc[j, "unit"] = "international-$ at 2021 prices"
             df_tables.loc[j, "shortUnit"] = "$"
             df_tables.loc[j, "type"] = "Numeric"
-            df_tables.loc[j, "colorScaleNumericBins"] = {top_pct["scale_thr"][top]}
+            df_tables.loc[j, "colorScaleNumericBins"] = top_pct["scale_thr"][top]
             df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
             df_tables.loc[j, "colorScaleScheme"] = "Purples"
             j += 1
@@ -194,7 +194,7 @@ for tab in range(len(tables)):
             df_tables.loc[j, "unit"] = "international-$ at 2021 prices"
             df_tables.loc[j, "shortUnit"] = "$"
             df_tables.loc[j, "type"] = "Numeric"
-            df_tables.loc[j, "colorScaleNumericBins"] = {top_pct["scale_avg"][top]}
+            df_tables.loc[j, "colorScaleNumericBins"] = top_pct["scale_avg"][top]
             df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
             df_tables.loc[j, "colorScaleScheme"] = "Greens"
             j += 1
@@ -232,7 +232,7 @@ for tab in range(len(tables)):
             df_tables.loc[j, "unit"] = "%"
             df_tables.loc[j, "shortUnit"] = "%"
             df_tables.loc[j, "type"] = "Numeric"
-            df_tables.loc[j, "colorScaleNumericBins"] = {top_pct["scale_share"][top]}
+            df_tables.loc[j, "colorScaleNumericBins"] = top_pct["scale_share"][top]
             df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
             df_tables.loc[j, "colorScaleScheme"] = "OrRd"
             j += 1
