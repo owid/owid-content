@@ -23,7 +23,7 @@ graphers
 	Total confirmed influenza cases		INF_ALL	true		LineChart	true	INF_ALL
 	Total negative tests		INF_NEGATIVE	true		LineChart	true	INF_NEGATIVE
 	Cases of B Victoria		BVIC	true		LineChart	true	BVIC
-	Percent positive		pcnt_pos	true		LineChart	true	pcnt_pos
+	Percentage of tests positive for Influenza		pcnt_pos	true		LineChart	true	pcnt_pos
 	Cases of acute respiratory illness		ari_cases			LineChart	true	ari_cases
 	Cases of influenza-like illness		ili_cases			LineChart	true	ili_cases
 	Cases of serious acute respiratory illness		sari_cases			LineChart	true	sari_cases
