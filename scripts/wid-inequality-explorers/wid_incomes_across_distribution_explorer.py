@@ -142,25 +142,6 @@ for tab in range(len(tables)):
             df_tables.loc[j, "colorScaleScheme"] = "Purples"
             j += 1
 
-        # Thresholds - Top percentiles
-        for top in range(len(top_pct)):
-            df_tables.loc[
-                j, "name"
-            ] = f"{top_pct['name'][top].capitalize()} - Threshold ({welfare['technical_text'][wel].capitalize()})"
-            df_tables.loc[
-                j, "slug"
-            ] = f"{top_pct['wid_notation'][top]}_thr_{welfare['slug'][wel]}"
-            df_tables.loc[
-                j, "description"
-            ] = f"The level of {welfare['welfare_type'][wel]} marking the richest {top_pct['name'][top]}.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]} {welfare['note'][wel]}"
-            df_tables.loc[j, "unit"] = "international-$ at 2021 prices"
-            df_tables.loc[j, "shortUnit"] = "$"
-            df_tables.loc[j, "type"] = "Numeric"
-            df_tables.loc[j, "colorScaleNumericBins"] = top_pct["scale_thr"][top]
-            df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
-            df_tables.loc[j, "colorScaleScheme"] = "Purples"
-            j += 1
-
         # Averages - Deciles
         for dec10 in range(len(deciles10)):
             df_tables.loc[
@@ -176,25 +157,6 @@ for tab in range(len(tables)):
             df_tables.loc[j, "shortUnit"] = "$"
             df_tables.loc[j, "type"] = "Numeric"
             df_tables.loc[j, "colorScaleNumericBins"] = deciles10["scale_avg"][dec10]
-            df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
-            df_tables.loc[j, "colorScaleScheme"] = "Greens"
-            j += 1
-
-        # Averages - Top percentiles
-        for top in range(len(top_pct)):
-            df_tables.loc[
-                j, "name"
-            ] = f"{top_pct['name'][top].capitalize()} - Mean ({welfare['technical_text'][wel].capitalize()})"
-            df_tables.loc[
-                j, "slug"
-            ] = f"{top_pct['wid_notation'][top]}_avg_{welfare['slug'][wel]}"
-            df_tables.loc[
-                j, "description"
-            ] = f"This is the mean {welfare['welfare_type'][wel]} within the richest {top_pct['name'][top]}.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]} {welfare['note'][wel]}"
-            df_tables.loc[j, "unit"] = "international-$ at 2021 prices"
-            df_tables.loc[j, "shortUnit"] = "$"
-            df_tables.loc[j, "type"] = "Numeric"
-            df_tables.loc[j, "colorScaleNumericBins"] = top_pct["scale_avg"][top]
             df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
             df_tables.loc[j, "colorScaleScheme"] = "Greens"
             j += 1
@@ -216,6 +178,44 @@ for tab in range(len(tables)):
             df_tables.loc[j, "colorScaleNumericBins"] = deciles10["scale_share"][dec10]
             df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
             df_tables.loc[j, "colorScaleScheme"] = "OrRd"
+            j += 1
+
+        # Thresholds - Top percentiles
+        for top in range(len(top_pct)):
+            df_tables.loc[
+                j, "name"
+            ] = f"{top_pct['name'][top].capitalize()} - Threshold ({welfare['technical_text'][wel].capitalize()})"
+            df_tables.loc[
+                j, "slug"
+            ] = f"{top_pct['wid_notation'][top]}_thr_{welfare['slug'][wel]}"
+            df_tables.loc[
+                j, "description"
+            ] = f"The level of {welfare['welfare_type'][wel]} marking the richest {top_pct['name'][top]}.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]} {welfare['note'][wel]}"
+            df_tables.loc[j, "unit"] = "international-$ at 2021 prices"
+            df_tables.loc[j, "shortUnit"] = "$"
+            df_tables.loc[j, "type"] = "Numeric"
+            df_tables.loc[j, "colorScaleNumericBins"] = top_pct["scale_thr"][top]
+            df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
+            df_tables.loc[j, "colorScaleScheme"] = "Purples"
+            j += 1
+
+        # Averages - Top percentiles
+        for top in range(len(top_pct)):
+            df_tables.loc[
+                j, "name"
+            ] = f"{top_pct['name'][top].capitalize()} - Mean ({welfare['technical_text'][wel].capitalize()})"
+            df_tables.loc[
+                j, "slug"
+            ] = f"{top_pct['wid_notation'][top]}_avg_{welfare['slug'][wel]}"
+            df_tables.loc[
+                j, "description"
+            ] = f"This is the mean {welfare['welfare_type'][wel]} within the richest {top_pct['name'][top]}.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]} {welfare['note'][wel]}"
+            df_tables.loc[j, "unit"] = "international-$ at 2021 prices"
+            df_tables.loc[j, "shortUnit"] = "$"
+            df_tables.loc[j, "type"] = "Numeric"
+            df_tables.loc[j, "colorScaleNumericBins"] = top_pct["scale_avg"][top]
+            df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
+            df_tables.loc[j, "colorScaleScheme"] = "Greens"
             j += 1
 
         # Shares - Top percentiles
@@ -309,7 +309,7 @@ for tab in range(len(tables)):
         df_graphers.loc[j, "mapTargetTime"] = 2019
         j += 1
 
-        # Thresholds
+        # Thresholds - Deciles
         for dec9 in range(len(deciles9)):
             df_graphers.loc[
                 j, "title"
@@ -335,30 +335,7 @@ for tab in range(len(tables)):
             df_graphers.loc[j, "mapTargetTime"] = 2019
             j += 1
 
-        for top in range(len(top_pct)):
-            df_graphers.loc[
-                j, "title"
-            ] = f"Threshold {welfare['welfare_type'][wel]} marking the richest {top_pct['name'][top]} {welfare['title'][wel].capitalize()}"
-            df_graphers.loc[
-                j, "ySlugs"
-            ] = f"{top_pct['wid_notation'][top]}_thr_{welfare['slug'][wel]}"
-            df_graphers.loc[j, "Metric Dropdown"] = "Decile thresholds"
-            df_graphers.loc[
-                j, "Welfare type Dropdown"
-            ] = f"{welfare['dropdown_option'][wel]}"
-            df_graphers.loc[j, "Decile/quantile Dropdown"] = top_pct["name"][top]
-            df_graphers.loc[j, "subtitle"] = f"{welfare['subtitle'][wel]}"
-            df_graphers.loc[
-                j, "note"
-            ] = f"This data is measured in international-$ at 2021 prices to account for inflation and differences in the cost of living between countries. {welfare['note'][wel]}"
-            df_graphers.loc[j, "facet"] = np.nan
-            df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
-            df_graphers.loc[j, "hasMapTab"] = "true"
-            df_graphers.loc[j, "tab"] = "map"
-            df_graphers.loc[j, "mapTargetTime"] = 2019
-            j += 1
-
-        # Averages
+        # Averages - Deciles
         for dec10 in range(len(deciles10)):
             df_graphers.loc[
                 j, "title"
@@ -386,21 +363,20 @@ for tab in range(len(tables)):
             df_graphers.loc[j, "mapTargetTime"] = 2019
             j += 1
 
+        # Thresholds - Top
         for top in range(len(top_pct)):
             df_graphers.loc[
                 j, "title"
-            ] = f"Mean {welfare['welfare_type'][wel]} within the {top_pct['name'][top]} {welfare['title'][wel].capitalize()}"
+            ] = f"Threshold {welfare['welfare_type'][wel]} marking the richest {top_pct['name'][top]} {welfare['title'][wel].capitalize()}"
             df_graphers.loc[
                 j, "ySlugs"
-            ] = f"{top_pct['wid_notation'][top]}_avg_{welfare['slug'][wel]}"
-            df_graphers.loc[j, "Metric Dropdown"] = "Mean income or wealth, by decile"
+            ] = f"{top_pct['wid_notation'][top]}_thr_{welfare['slug'][wel]}"
+            df_graphers.loc[j, "Metric Dropdown"] = "Decile thresholds"
             df_graphers.loc[
                 j, "Welfare type Dropdown"
             ] = f"{welfare['dropdown_option'][wel]}"
             df_graphers.loc[j, "Decile/quantile Dropdown"] = top_pct["name"][top]
-            df_graphers.loc[
-                j, "subtitle"
-            ] = f"This is the mean {welfare['welfare_type'][wel]} within the richest {top_pct['name'][top]}. {welfare['subtitle'][wel]}"
+            df_graphers.loc[j, "subtitle"] = f"{welfare['subtitle'][wel]}"
             df_graphers.loc[
                 j, "note"
             ] = f"This data is measured in international-$ at 2021 prices to account for inflation and differences in the cost of living between countries. {welfare['note'][wel]}"
@@ -411,7 +387,7 @@ for tab in range(len(tables)):
             df_graphers.loc[j, "mapTargetTime"] = 2019
             j += 1
 
-        # Shares
+        # Shares - Deciles
         for dec10 in range(len(deciles10)):
             df_graphers.loc[
                 j, "title"
@@ -437,6 +413,33 @@ for tab in range(len(tables)):
             df_graphers.loc[j, "mapTargetTime"] = 2019
             j += 1
 
+        # Averages - Top
+        for top in range(len(top_pct)):
+            df_graphers.loc[
+                j, "title"
+            ] = f"Mean {welfare['welfare_type'][wel]} within the {top_pct['name'][top]} {welfare['title'][wel].capitalize()}"
+            df_graphers.loc[
+                j, "ySlugs"
+            ] = f"{top_pct['wid_notation'][top]}_avg_{welfare['slug'][wel]}"
+            df_graphers.loc[j, "Metric Dropdown"] = "Mean income or wealth, by decile"
+            df_graphers.loc[
+                j, "Welfare type Dropdown"
+            ] = f"{welfare['dropdown_option'][wel]}"
+            df_graphers.loc[j, "Decile/quantile Dropdown"] = top_pct["name"][top]
+            df_graphers.loc[
+                j, "subtitle"
+            ] = f"This is the mean {welfare['welfare_type'][wel]} within the richest {top_pct['name'][top]}. {welfare['subtitle'][wel]}"
+            df_graphers.loc[
+                j, "note"
+            ] = f"This data is measured in international-$ at 2021 prices to account for inflation and differences in the cost of living between countries. {welfare['note'][wel]}"
+            df_graphers.loc[j, "facet"] = np.nan
+            df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
+            df_graphers.loc[j, "hasMapTab"] = "true"
+            df_graphers.loc[j, "tab"] = "map"
+            df_graphers.loc[j, "mapTargetTime"] = 2019
+            j += 1
+
+        # Shares - Top
         for top in range(len(top_pct)):
             df_graphers.loc[
                 j, "title"
