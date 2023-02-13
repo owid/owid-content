@@ -49,7 +49,7 @@ graphers
 	Wealth inequality: P50/P10 ratio 	p50_p10_ratio_wealth	P50/P10	Wealth	The P50/P10 ratio measures the degree of inequality within the poorest half of the population. A ratio of 2 means that the median wealth is two times higher than that of someone just falling in the poorest tenth of the population. Wealth is defined as the total value of non-financial and financial assets (housing, land, deposits, bonds, equities, etc.) held by households, minus their debts.					true	map	2019	wid_vars			0	
 	Wealth inequality: Palma ratio 	palma_ratio_wealth	Palma ratio	Wealth	The Palma ratio is the share of total wealth of the top 10% divided by the share of the bottom 40%. Wealth is defined as the total value of non-financial and financial assets (housing, land, deposits, bonds, equities, etc.) held by households, minus their debts.					true	map	2019	wid_vars			0	
 
-table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/PabloArriagada/WID/data/final/world_inequality_database.csv	wid_vars
+table	https://catalog.ourworldindata.org/explorers/wid/2023-01-27/world_inequality_database/world_inequality_database.csv	wid_vars
 columns	wid_vars
 
 	name	slug	type	description	unit	shortUnit	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme	colorScaleNumericMinValue	sourceName	dataPublishedBy	sourceLink	tolerance
