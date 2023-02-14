@@ -24,14 +24,14 @@ graphers
 	Total confirmed influenza cases		INF_ALL	true		LineChart	true	INF_ALL
 	Total negative tests		INF_NEGATIVE	true		LineChart	true	INF_NEGATIVE
 	Cases of B Victoria		BVIC	true		LineChart	true	BVIC
-	Cases of acute respiratory illness		ari_cases			LineChart	true	ari_cases
-	Cases of influenza-like illness		ili_cases			LineChart	true	ili_cases
-	Cases of serious acute respiratory illness		sari_cases			LineChart	true	sari_cases
-	Cases of influenza-like illness per thousand outpatients		ili_cases_per_thousand_outpatients			LineChart	true	ili_cases_per_thousand_outpatients
-	Cases of acute respiratory illness per thousand outpatients		ari_cases_per_thousand_outpatients			LineChart	true	ari_cases_per_thousand_outpatients
+	Cases of acute respiratory illness		ari_cases	true		LineChart	true	ari_cases
+	Cases of influenza-like illness		ili_cases	true		LineChart	true	ili_cases
+	Cases of serious acute respiratory illness		sari_cases	true		LineChart	true	sari_cases
+	Cases of influenza-like illness per thousand outpatients		ili_cases_per_thousand_outpatients	true		LineChart	true	ili_cases_per_thousand_outpatients
+	Cases of acute respiratory illness per thousand outpatients		ari_cases_per_thousand_outpatients	true		LineChart	true	ari_cases_per_thousand_outpatients
 	Cases of serious acute respiratory illness per hundred inpatients		sari_cases_per_hundred_inpatients	true		LineChart	true	sari_cases_per_hundred_inpatients
-	SARI deaths		MORTALITY_ALLSARI			LineChart	true	MORTALITY_ALLSARI
-	ILI deaths		MORTALITY_ALLILI			LineChart	true	MORTALITY_ALLILI
+	SARI deaths		MORTALITY_ALLSARI	true		LineChart	true	MORTALITY_ALLSARI
+	ILI deaths		MORTALITY_ALLILI	true		LineChart	true	MORTALITY_ALLILI
 table	https://raw.githubusercontent.com/owid/notebooks/flu_net/FionaSpooner/flunet/data/flu.csv
 columns
 	slug	name	type	tolerance	sourceName	sourceLink	additionalInfo	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleScheme
