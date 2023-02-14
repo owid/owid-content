@@ -26,7 +26,7 @@ columns	US
 	slug	type	name
 	gini	Numeric	Equivalised gross household income
 	top1	Numeric	Share of top 1 per cent in gross income (tax units, excluding capital gains) (*)
-	poverty_rate_1	Numeric	Per cent living in households with pre-tax cash incomebelow official poverty line
+	poverty_rate_1	Numeric	Per cent living in households with pre-tax cash income  below official poverty line
 	poverty_rate_2	Numeric	Per cent living in households with equivalised disposable income below 50 per cent median (*)
 	p90_50_ratio	Numeric	Earnings at top decile as % median (*)
 	top1_1	Numeric	Share of top 1 per cent in total net wealth (individuals) (*)
