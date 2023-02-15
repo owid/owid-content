@@ -111,7 +111,7 @@ for tab in range(len(tables)):
         # Mean
         df_tables.loc[
             j, "name"
-        ] = f"Mean {welfare['welfare_type'][wel]}  ({welfare['technical_text'][wel].capitalize()})"
+        ] = f"Mean {welfare['welfare_type'][wel]} ({welfare['technical_text'][wel].capitalize()})"
         df_tables.loc[j, "slug"] = f"p0p100_avg_{welfare['slug'][wel]}"
         df_tables.loc[
             j, "description"
@@ -127,7 +127,7 @@ for tab in range(len(tables)):
         # Median
         df_tables.loc[
             j, "name"
-        ] = f"Median {welfare['welfare_type'][wel]}  ({welfare['technical_text'][wel].capitalize()})"
+        ] = f"Median {welfare['welfare_type'][wel]} ({welfare['technical_text'][wel].capitalize()})"
         df_tables.loc[j, "slug"] = f"p50p60_thr_{welfare['slug'][wel]}"
         df_tables.loc[
             j, "description"
