@@ -229,7 +229,7 @@ for tab in range(len(tables)):
                 j, "Welfare type Dropdown"
             ] = f"{welfare['dropdown_option'][wel]}"
             df_graphers.loc[j, "Equivalence scale Dropdown"] = equivalence_scales[
-                "slug"
+                "text"
             ][eq].capitalize()
             df_graphers.loc[
                 j, "subtitle"
@@ -254,7 +254,7 @@ for tab in range(len(tables)):
                 j, "Welfare type Dropdown"
             ] = f"{welfare['dropdown_option'][wel]}"
             df_graphers.loc[j, "Equivalence scale Dropdown"] = equivalence_scales[
-                "slug"
+                "text"
             ][eq].capitalize()
             df_graphers.loc[
                 j, "subtitle"
@@ -282,7 +282,7 @@ for tab in range(len(tables)):
                 j, "Welfare type Dropdown"
             ] = f"{welfare['dropdown_option'][wel]}"
             df_graphers.loc[j, "Equivalence scale Dropdown"] = equivalence_scales[
-                "slug"
+                "text"
             ][eq].capitalize()
             df_graphers.loc[
                 j, "subtitle"
@@ -310,7 +310,7 @@ for tab in range(len(tables)):
                 j, "Welfare type Dropdown"
             ] = f"{welfare['dropdown_option'][wel]}"
             df_graphers.loc[j, "Equivalence scale Dropdown"] = equivalence_scales[
-                "slug"
+                "text"
             ][eq].capitalize()
             df_graphers.loc[
                 j, "subtitle"
@@ -335,7 +335,7 @@ for tab in range(len(tables)):
                 j, "Welfare type Dropdown"
             ] = f"{welfare['dropdown_option'][wel]}"
             df_graphers.loc[j, "Equivalence scale Dropdown"] = equivalence_scales[
-                "slug"
+                "text"
             ][eq].capitalize()
             df_graphers.loc[
                 j, "subtitle"
