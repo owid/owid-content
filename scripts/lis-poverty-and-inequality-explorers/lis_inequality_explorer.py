@@ -1,6 +1,6 @@
 # %% [markdown]
-# # Inequality Data Explorer of the World Inequality Database
-# This code creates the tsv file for the inequality explorer from the WID data, available [here](https://owid.cloud/admin/explorers/preview/wid-inequality)
+# # Inequality Data Explorer of the Luxembourg Income Study
+# This code creates the tsv file for the inequality explorer from the LIS data, available [here](https://owid.cloud/admin/explorers/preview/lis-inequality)
 
 import textwrap
 from pathlib import Path
@@ -11,7 +11,7 @@ import numpy as np
 import pandas as pd
 
 PARENT_DIR = Path(__file__).parent.parent.parent.absolute()
-outfile = PARENT_DIR / "explorers" / "wid-inequality.explorer.tsv"
+outfile = PARENT_DIR / "explorers" / "lis-inequality.explorer.tsv"
 
 # %% [markdown]
 # ## Google sheets auxiliar data
@@ -19,7 +19,7 @@ outfile = PARENT_DIR / "explorers" / "wid-inequality.explorer.tsv"
 
 # %%
 # Read Google sheets
-sheet_id = "18T5IGnpyJwb8KL9USYvME6IaLEcYIo26ioHCpkDnwRQ"
+sheet_id = "1UFdwB1iBpP2tEP6GtxCHvW1GGhjsFflh42FWR80rYIg"
 
 # Welfare type sheet
 sheet_name = "welfare"
@@ -38,7 +38,7 @@ tables = pd.read_csv(url, keep_default_na=False)
 # %%
 # The header is defined as a dictionary first and then it is converted into a index-oriented dataframe
 header_dict = {
-    "explorerTitle": "Inequality Data Explorer of the World Inequality Database",
+    "explorerTitle": "Inequality Data Explorer of the Luxembourg Income Study",
     "selection": [
         "Chile",
         "Brazil",
