@@ -187,6 +187,23 @@ for tab in range(len(tables)):
                 df_tables.loc[j, "colorScaleScheme"] = "YlOrBr"
                 j += 1
 
+            # Gini coefficient
+            df_tables.loc[
+                j, "name"
+            ] = f"Gini coefficient ({welfare['technical_text'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+            df_tables.loc[
+                j, "slug"
+            ] = f"gini_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
+            df_tables.loc[
+                j, "description"
+            ] = f"The Gini coefficient is a measure of the inequality of the {welfare['welfare_type'][wel]} distribution in a population. Higher values indicate a higher level of inequality.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}Household {welfare['welfare_type'][wel]} {equivalence_scales['note'][eq]}"
+            df_tables.loc[j, "unit"] = np.nan
+            df_tables.loc[j, "shortUnit"] = np.nan
+            df_tables.loc[j, "type"] = "Numeric"
+            df_tables.loc[j, "colorScaleNumericBins"] = welfare["scale_gini"][wel]
+            df_tables.loc[j, "colorScaleScheme"] = "Reds"
+            j += 1
+
             # Mean
             df_tables.loc[
                 j, "name"
@@ -219,6 +236,42 @@ for tab in range(len(tables)):
             df_tables.loc[j, "type"] = "Numeric"
             df_tables.loc[j, "colorScaleNumericBins"] = welfare["scale_median"][wel]
             df_tables.loc[j, "colorScaleScheme"] = "Blues"
+            j += 1
+
+            # Share of the top 10%
+            df_tables.loc[
+                j, "name"
+            ] = f"{welfare['welfare_type'][wel].capitalize()} share of the richest 10% ({welfare['technical_text'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+            df_tables.loc[
+                j, "slug"
+            ] = f"share_p90_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
+            df_tables.loc[
+                j, "description"
+            ] = f"This is the {welfare['welfare_type'][wel]} of the richest 10% as a share of total {welfare['welfare_type'][wel]}.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}Household {welfare['welfare_type'][wel]} {equivalence_scales['note'][eq]}"
+            df_tables.loc[j, "unit"] = "%"
+            df_tables.loc[j, "shortUnit"] = "%"
+            df_tables.loc[j, "type"] = "Numeric"
+            df_tables.loc[j, "colorScaleNumericBins"] = welfare["scale_top10"][wel]
+            df_tables.loc[j, "colorScaleScheme"] = "Greens"
+            j += 1
+
+            # Palma ratio
+            df_tables.loc[
+                j, "name"
+            ] = f"Palma ratio ({welfare['technical_text'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+            df_tables.loc[
+                j, "slug"
+            ] = f"palma_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
+            df_tables.loc[
+                j, "description"
+            ] = f"The Palma ratio is a measure of inequality: it is the share of total {welfare['welfare_type'][wel]} of the top 10% divided by the share of the bottom 40%.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}Household {welfare['welfare_type'][wel]} {equivalence_scales['note'][eq]}"
+            df_tables.loc[j, "unit"] = np.nan
+            df_tables.loc[j, "shortUnit"] = np.nan
+            df_tables.loc[j, "type"] = "Numeric"
+            df_tables.loc[j, "colorScaleNumericBins"] = welfare["scale_palma_ratio"][
+                wel
+            ]
+            df_tables.loc[j, "colorScaleScheme"] = "Oranges"
             j += 1
 
             # P10
@@ -469,6 +522,31 @@ for tab in range(len(tables)):
                 df_graphers.loc[j, "mapTargetTime"] = 2019
                 j += 1
 
+            # Gini coefficient
+            df_graphers.loc[
+                j, "title"
+            ] = f"{welfare['welfare_type'][wel].capitalize()} inequality: Gini coefficient ({welfare['title'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+            df_graphers.loc[
+                j, "ySlugs"
+            ] = f"gini_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
+            df_graphers.loc[j, "Metric Dropdown"] = "Gini coefficient"
+            df_graphers.loc[
+                j, "Welfare type Dropdown"
+            ] = f"{welfare['dropdown_option'][wel]}"
+            df_graphers.loc[j, "Equivalence scale Dropdown"] = equivalence_scales[
+                "text"
+            ][eq].capitalize()
+            df_graphers.loc[
+                j, "subtitle"
+            ] = f"The Gini coefficient is a measure of the inequality of the {welfare['welfare_type'][wel]} distribution in a population. Higher values indicate a higher level of inequality. {welfare['subtitle'][wel]}"
+            df_graphers.loc[j, "note"] = f"{welfare['note'][wel]}"
+            df_graphers.loc[j, "facet"] = np.nan
+            df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
+            df_graphers.loc[j, "hasMapTab"] = "true"
+            df_graphers.loc[j, "tab"] = "map"
+            df_graphers.loc[j, "mapTargetTime"] = 2019
+            j += 1
+
             # Mean
             df_graphers.loc[
                 j, "title"
@@ -523,6 +601,56 @@ for tab in range(len(tables)):
             df_graphers.loc[j, "tab"] = "map"
             df_graphers.loc[j, "mapTargetTime"] = 2019
             df_graphers.loc[j, "yScaleToggle"] = "true"
+            j += 1
+
+            # Share of the top 10%
+            df_graphers.loc[
+                j, "title"
+            ] = f"{welfare['welfare_type'][wel].capitalize()} share of the top 10% ({welfare['title'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+            df_graphers.loc[
+                j, "ySlugs"
+            ] = f"share_p90_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
+            df_graphers.loc[j, "Metric Dropdown"] = "Top 10% share"
+            df_graphers.loc[
+                j, "Welfare type Dropdown"
+            ] = f"{welfare['dropdown_option'][wel]}"
+            df_graphers.loc[j, "Equivalence scale Dropdown"] = equivalence_scales[
+                "text"
+            ][eq].capitalize()
+            df_graphers.loc[
+                j, "subtitle"
+            ] = f"This is the {welfare['welfare_type'][wel]} of the richest 10% as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
+            df_graphers.loc[j, "note"] = np.nan
+            df_graphers.loc[j, "facet"] = np.nan
+            df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
+            df_graphers.loc[j, "hasMapTab"] = "true"
+            df_graphers.loc[j, "tab"] = "map"
+            df_graphers.loc[j, "mapTargetTime"] = 2019
+            j += 1
+
+            # # Palma ratio
+            df_graphers.loc[
+                j, "title"
+            ] = f"{welfare['welfare_type'][wel].capitalize()} inequality: Palma ratio ({welfare['title'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+            df_graphers.loc[
+                j, "ySlugs"
+            ] = f"palma_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
+            df_graphers.loc[j, "Metric Dropdown"] = "Palma ratio"
+            df_graphers.loc[
+                j, "Welfare type Dropdown"
+            ] = f"{welfare['dropdown_option'][wel]}"
+            df_graphers.loc[j, "Equivalence scale Dropdown"] = equivalence_scales[
+                "text"
+            ][eq].capitalize()
+            df_graphers.loc[
+                j, "subtitle"
+            ] = f"The Palma ratio is the share of total {welfare['welfare_type'][wel]} of the top 10% divided by the share of the bottom 40%. {welfare['subtitle'][wel]}"
+            df_graphers.loc[j, "note"] = np.nan
+            df_graphers.loc[j, "facet"] = np.nan
+            df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
+            df_graphers.loc[j, "hasMapTab"] = "true"
+            df_graphers.loc[j, "tab"] = "map"
+            df_graphers.loc[j, "mapTargetTime"] = 2019
             j += 1
 
             # P10

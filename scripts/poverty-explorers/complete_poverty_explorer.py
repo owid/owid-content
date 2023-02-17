@@ -689,7 +689,7 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
         df_graphers.loc[
             j, "subtitle"
-        ] = f"This is the amount of money that would be theoretically needed to lift the incomes of all people in poverty up to {povlines_rel.text[pct]} {survey_type.text[survey]}. This data is adjusted for inflation and for differences in the cost of living between countries."
+        ] = f"This is the amount of money that would be theoretically needed to lift the incomes of all people in poverty up to {povlines_rel.text[pct]} {survey_type.text[survey]}."
         df_graphers.loc[
             j, "note"
         ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. It relates to disposable {survey_type.text[survey]} per capita."
@@ -749,7 +749,7 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
         df_graphers.loc[
             j, "subtitle"
-        ] = f'This is the average shortfall expressed as a share of the poverty line, sometimes called the "income gap ratio". It captures the depth of poverty in which those below {povlines_rel.text[pct]} {survey_type.text[survey]} a day are living.'
+        ] = f'This is the average shortfall expressed as a share of the poverty line, sometimes called the "income gap ratio". It captures the depth of poverty in which those below {povlines_rel.text[pct]} {survey_type.text[survey]} are living.'
         df_graphers.loc[
             j, "note"
         ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. It relates to disposable {survey_type.text[survey]} per capita."
