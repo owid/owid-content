@@ -1,0 +1,56 @@
+explorerTitle	FluNet Data Explorer
+explorerSubtitle
+selection	United States	France	Germany	Australia
+isPublished	true
+thumbnail
+hideAlertBanner	true
+yAxisMin	0
+hasMapTab	true
+pickerColumnSlugs
+downloadDataLink	https://raw.githubusercontent.com/owid/notebooks/main/FionaSpooner/flunet/data/flu.csv
+graphers
+	title	subtitle	ySlugs	hideTitleAnnotation	stackMode	type	yScaleToggle	Flu type Dropdown
+	Weekly confirmed cases of influenza	This includes confirmed cases of any influenza virus. Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their strain or lineage.	INF_ALL	true		LineChart	true	Total influenza (cases)
+	Weekly confirmed cases of influenza A H1N1 (2009)	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to have a strain of influenza A virus related to the H1N1 ("Swine flu") pandemic that emerged in 2009.	AH1N12009	true		LineChart	true	Influenza A H1N1 (cases)
+	Weekly confirmed cases of influenza A H1	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be of the H1 strain of influenza A virus.	AH1	true		LineChart	true	Influenza A H1 (cases)
+	Weekly confirmed cases of influenza A H3	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be of the H3 strain of influenza A virus.	AH3	true		LineChart	true	Influenza B H3 (cases)
+	Weekly confirmed cases of influenza A H5	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be of the H5 strain of influenza A virus.	AH5	true		LineChart	true	Influenza A H5 (cases)
+	Weekly confirmed cases of influenza A H7N9	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be of the H7N9 strain of influenza A virus.	AH7N9	true		LineChart	true	Influenza A H7N9 (cases)
+	Weekly confirmed cases of influenza A (unknown subtype)	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be influenza A virus, but their subtype was not confirmed.	ANOTSUBTYPED	true		LineChart	true	Influenza A unknown (cases)
+	Weekly confirmed cases of influenza A	This includes confirmed cases of any strain of influenza A virus. Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their strain.	INF_A	true		LineChart	true	Total influenza A (cases)
+	Weekly confirmed cases of influenza B Victoria	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be of the Victoria lineage of influenza B virus.	BVIC	true		LineChart	true	Influenza B Victoria (cases)
+	Weekly confirmed cases of influenza B Yamagata	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be of the Yamagata lineage of influenza B virus.	BYAM	true		LineChart	true	Influenza B Yamagata (cases)
+	Weekly confirmed cases of influenza B (unknown lineage)	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be influenza B virus, but their lineage was not determined.	BNOTDETERMINED	true		LineChart	true	Influenza B unknown (cases)
+	Weekly confirmed cases of influenza B	This includes confirmed cases of any lineage of influenza B virus. Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their lineage.	INF_B	true		LineChart	true	Total influenza B (cases)
+	Weekly share of influenza tests that were positive	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype.	pcnt_pos	true		LineChart	true	Share of positive influenza tests
+	Cases of acute respiratory illness		ari_cases	true		LineChart	true	Cases of acute respiratory illness
+	Cases of influenza-like illness		ili_cases	true		LineChart	true	Cases of influenza-like illness
+	Cases of serious acute respiratory illness		sari_cases	true		LineChart	true	Cases of serious acute respiratory illness
+	Cases of influenza-like illness per thousand outpatients		ili_cases_per_thousand_outpatients	true		LineChart	true	Cases of influenza-like illness per thousand outpatients
+	Cases of acute respiratory illness per thousand outpatients		ari_cases_per_thousand_outpatients	true		LineChart	true	Cases of acute respiratory illness per thousand outpatients
+	Cases of serious acute respiratory illness per hundred inpatients		sari_cases_per_hundred_inpatients	true		LineChart	true	Cases of serious acute respiratory illness per hundred inpatients
+table	https://raw.githubusercontent.com/owid/notebooks/flu_net/FionaSpooner/flunet/data/flu.csv
+columns
+	slug	name	type	tolerance	sourceName	sourceLink	additionalInfo	colorScaleNumericMinValue	colorScaleScheme
+	Country	Country	EntityName						OrRd
+	date	Day	Date						OrRd
+	AH1N12009	Cases of AH1N12009	Integer					0	OrRd
+	AH1	Cases of AH1	Integer					0	OrRd
+	AH3	Cases of AH3	Integer					0	OrRd
+	AH5	Cases of AH5	Integer					0	OrRd
+	AH7N9	Cases of AH7N9	Integer					0	OrRd
+	ANOTSUBTYPED	Other cases of strain A	Integer					0	OrRd
+	INF_A	Total Influenza A cases	Integer					0	OrRd
+	BYAM	Cases of B Yamagata	Integer					0	OrRd
+	BNOTDETERMINED	Other cases of strain B	Integer					0	OrRd
+	INF_B	Total Influenza B cases	Integer					0	OrRd
+	INF_ALL	Total confirmed influenza cases	Integer					0	OrRd
+	INF_NEGATIVE	Total negative tests	Integer					0	OrRd
+	BVIC	Cases of B Victoria	Integer					0	OrRd
+	pcnt_pos	Percent positive	Percentage					0	OrRd
+	ari_cases	Cases of acute respiratory illness	Integer						OrRd
+	ili_cases	Cases of influenza-like illness	Integer						OrRd
+	sari_cases	Cases of serious acute respiratory illness	Integer						OrRd
+	ili_cases_per_thousand_outpatients	Cases of influenza-like illness per thousand outpatients	Ratio						OrRd
+	ari_cases_per_thousand_outpatients	Cases of acute respiratory illness per thousand outpatients	Ratio						OrRd
+	sari_cases_per_hundred_inpatients	Cases of serious acute respiratory illness per hundred inpatients	Ratio						OrRd
