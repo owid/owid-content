@@ -54,5 +54,3 @@ columns
 	ili_cases_per_thousand_outpatients	Cases of influenza-like illness per thousand outpatients	Ratio						OrRd
 	ari_cases_per_thousand_outpatients	Cases of acute respiratory illness per thousand outpatients	Ratio						OrRd
 	sari_cases_per_hundred_inpatients	Cases of serious acute respiratory illness per hundred inpatients	Ratio						OrRd
-	MORTALITY_ALLSARI	SARI deaths	Integer						OrRd
-	MORTALITY_ALLILI	ILI deaths	Integer						OrRd
