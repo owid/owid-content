@@ -113,7 +113,7 @@ for tab in range(len(tables)):
             for p in range(len(povlines_abs)):
                 df_tables.loc[
                     j, "name"
-                ] = f"Share below ${povlines_abs['dollars_text'][p]} a day ({welfare['technical_text'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+                ] = f"Share below ${povlines_abs['dollars_text'][p]} a day"
                 df_tables.loc[
                     j, "slug"
                 ] = f"headcount_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
@@ -133,7 +133,7 @@ for tab in range(len(tables)):
             for p in range(len(povlines_abs)):
                 df_tables.loc[
                     j, "name"
-                ] = f"Number below ${povlines_abs['dollars_text'][p]} a day ({welfare['technical_text'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+                ] = f"Number below ${povlines_abs['dollars_text'][p]} a day"
                 df_tables.loc[
                     j, "slug"
                 ] = f"headcount_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
@@ -145,7 +145,7 @@ for tab in range(len(tables)):
                 df_tables.loc[j, "type"] = "Numeric"
                 df_tables.loc[
                     j, "colorScaleNumericBins"
-                ] = "100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001"
+                ] = "100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000"
                 df_tables.loc[j, "colorScaleScheme"] = "Reds"
                 j += 1
 
@@ -163,7 +163,7 @@ for tab in range(len(tables)):
                 df_tables.loc[j, "unit"] = "%"
                 df_tables.loc[j, "shortUnit"] = "%"
                 df_tables.loc[j, "type"] = "Numeric"
-                df_tables.loc[j, "colorScaleNumericBins"] = "5;10;15;20;25;30;30.0001"
+                df_tables.loc[j, "colorScaleNumericBins"] = "5;10;15;20;25"
                 df_tables.loc[j, "colorScaleScheme"] = "YlOrBr"
                 j += 1
 
@@ -183,7 +183,7 @@ for tab in range(len(tables)):
                 df_tables.loc[j, "type"] = "Numeric"
                 df_tables.loc[
                     j, "colorScaleNumericBins"
-                ] = "100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001"
+                ] = "100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000"
                 df_tables.loc[j, "colorScaleScheme"] = "YlOrBr"
                 j += 1
 
@@ -274,6 +274,44 @@ for tab in range(len(tables)):
             df_tables.loc[j, "colorScaleScheme"] = "Oranges"
             j += 1
 
+            # P10
+            df_tables.loc[
+                j, "name"
+            ] = f"Threshold {welfare['welfare_type'][wel]} marking the poorest decile ({welfare['technical_text'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+            df_tables.loc[
+                j, "slug"
+            ] = f"thr_p10_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
+            df_tables.loc[
+                j, "description"
+            ] = f"The level of {welfare['welfare_type'][wel]} below which 10% of the population falls.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}Household {welfare['welfare_type'][wel]} {equivalence_scales['note'][eq]}"
+            df_tables.loc[j, "unit"] = "international-$ in 2017 prices"
+            df_tables.loc[j, "shortUnit"] = "$"
+            df_tables.loc[j, "type"] = "Numeric"
+            df_tables.loc[
+                j, "colorScaleNumericBins"
+            ] = "1000;2000;5000;10000;20000;50000;100000"
+            df_tables.loc[j, "colorScaleScheme"] = "Purples"
+            j += 1
+
+            # P90
+            df_tables.loc[
+                j, "name"
+            ] = f"Threshold {welfare['welfare_type'][wel]} per day marking the richest decile ({welfare['technical_text'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+            df_tables.loc[
+                j, "slug"
+            ] = f"thr_p90_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
+            df_tables.loc[
+                j, "description"
+            ] = f"The level of {welfare['welfare_type'][wel]} below which 90% of the population falls.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}Household {welfare['welfare_type'][wel]} {equivalence_scales['note'][eq]}"
+            df_tables.loc[j, "unit"] = "international-$ in 2017 prices"
+            df_tables.loc[j, "shortUnit"] = "$"
+            df_tables.loc[j, "type"] = "Numeric"
+            df_tables.loc[
+                j, "colorScaleNumericBins"
+            ] = "1000;2000;5000;10000;20000;50000;100000"
+            df_tables.loc[j, "colorScaleScheme"] = "Purples"
+            j += 1
+
     df_tables["tableSlug"] = tables["name"][tab]
 
 df_tables["sourceName"] = sourceName
@@ -281,7 +319,7 @@ df_tables["dataPublishedBy"] = dataPublishedBy
 df_tables["sourceLink"] = sourceLink
 df_tables["colorScaleNumericMinValue"] = colorScaleNumericMinValue
 df_tables["tolerance"] = tolerance
-df_tables.loc[j, "colorScaleEqualSizeBins"] = colorScaleEqualSizeBins
+df_tables["colorScaleEqualSizeBins"] = colorScaleEqualSizeBins
 
 # Make tolerance integer (to not break the parameter in the platform)
 df_tables["tolerance"] = df_tables["tolerance"].astype("Int64")
@@ -613,6 +651,68 @@ for tab in range(len(tables)):
             df_graphers.loc[j, "hasMapTab"] = "true"
             df_graphers.loc[j, "tab"] = "map"
             df_graphers.loc[j, "mapTargetTime"] = 2019
+            j += 1
+
+            # P10
+            df_graphers.loc[
+                j, "title"
+            ] = f"Threshold {welfare['welfare_type'][wel]} marking the poorest decile ({welfare['title'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+            df_graphers.loc[
+                j, "ySlugs"
+            ] = f"thr_p10_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
+            df_graphers.loc[
+                j, "Metric Dropdown"
+            ] = "Income or consumption of the poorest 10%"
+            df_graphers.loc[
+                j, "Welfare type Dropdown"
+            ] = f"{welfare['dropdown_option'][wel]}"
+            df_graphers.loc[j, "Equivalence scale Dropdown"] = equivalence_scales[
+                "text"
+            ][eq].capitalize()
+            df_graphers.loc[
+                j, "subtitle"
+            ] = f"This is the level of {welfare['welfare_type'][wel]} below which 10% of the population falls. {welfare['subtitle'][wel]}"
+            df_graphers.loc[
+                j, "note"
+            ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+            df_graphers.loc[j, "type"] = np.nan
+            df_graphers.loc[j, "facet"] = np.nan
+            df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
+            df_graphers.loc[j, "hasMapTab"] = "true"
+            df_graphers.loc[j, "tab"] = "map"
+            df_graphers.loc[j, "mapTargetTime"] = 2019
+            df_graphers.loc[j, "yScaleToggle"] = "true"
+            j += 1
+
+            # P90
+            df_graphers.loc[
+                j, "title"
+            ] = f"Threshold {welfare['welfare_type'][wel]} per day marking the richest decile ({welfare['title'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+            df_graphers.loc[
+                j, "ySlugs"
+            ] = f"thr_p90_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
+            df_graphers.loc[
+                j, "Metric Dropdown"
+            ] = "Income or consumption of the richest 10%"
+            df_graphers.loc[
+                j, "Welfare type Dropdown"
+            ] = f"{welfare['dropdown_option'][wel]}"
+            df_graphers.loc[j, "Equivalence scale Dropdown"] = equivalence_scales[
+                "text"
+            ][eq].capitalize()
+            df_graphers.loc[
+                j, "subtitle"
+            ] = f"This is the level of {welfare['welfare_type'][wel]} below which 90% of the population falls. {welfare['subtitle'][wel]}"
+            df_graphers.loc[
+                j, "note"
+            ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+            df_graphers.loc[j, "type"] = np.nan
+            df_graphers.loc[j, "facet"] = np.nan
+            df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
+            df_graphers.loc[j, "hasMapTab"] = "true"
+            df_graphers.loc[j, "tab"] = "map"
+            df_graphers.loc[j, "mapTargetTime"] = 2019
+            df_graphers.loc[j, "yScaleToggle"] = "true"
             j += 1
 
     df_graphers["tableSlug"] = tables["name"][tab]
