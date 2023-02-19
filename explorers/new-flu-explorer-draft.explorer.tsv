@@ -18,6 +18,7 @@ graphers
 	Reported ICU hospitalisations due to severe acute respiratory infections		reported_sari_icu	true		LineChart	SARI ICU
 	Cases of influenza-like illness per thousand outpatients		ili_cases_per_thousand_outpatients	true		LineChart	ILI rate
 	Cases of serious acute respiratory illness per hundred inpatients		sari_cases_per_hundred_inpatients	true		LineChart	SARI rate
+	Weekly share of influenza tests that were positive	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype.	pcnt_pos	true		LineChart	Share of positive influenza tests
 	Weekly confirmed cases of influenza A H1N1 (2009)	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to have a strain of influenza A virus related to the H1N1 ("Swine flu") pandemic that emerged in 2009.	ah1n12009	true		LineChart	Influenza A H1N1 (cases)
 	Weekly confirmed cases of influenza A H1	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be of the H1 strain of influenza A virus.	ah1	true		LineChart	Influenza A H1 (cases)
 	Weekly confirmed cases of influenza A H3	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be of the H3 strain of influenza A virus.	ah3	true		LineChart	Influenza B H3 (cases)
@@ -54,4 +55,5 @@ columns
 	bvic	Cases of B Victoria	Integer					0	OrRd
 	inf_b	Total Influenza B cases	Integer					0	OrRd
 	inf_all	Total confirmed influenza cases	Integer					0	OrRd
+	pcnt_pos	Weekly share of influenza tests that were positive	Numeric
 	inf_negative	Total negative tests	Integer					0	OrRd
