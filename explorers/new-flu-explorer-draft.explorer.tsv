@@ -55,5 +55,5 @@ columns
 	bvic	Cases of B Victoria	Integer					0	OrRd
 	inf_b	Total Influenza B cases	Integer					0	OrRd
 	inf_all	Total confirmed influenza cases	Integer					0	OrRd
-	pcnt_pos	Weekly share of influenza tests that were positive	Numeric
+	pcnt_pos	Weekly share of influenza tests that were positive	Percentage
 	inf_negative	Total negative tests	Integer					0	OrRd
