@@ -13,7 +13,7 @@ graphers
 	Weekly confirmed cases of influenza	This includes confirmed cases of any influenza virus. Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their strain or lineage.	inf_all	true		LineChart	Total influenza (cases)
 	Cases of acute respiratory infections		reported_ari_cases	true		LineChart	Acute respiratory infections
 	Cases of severe acute respiratory infections		reported_sari_cases	true		LineChart	Severe acute respiratory infections
-	Cases of influenza like illnesses		reported_ili_Cases	true		LineChart	Influenza-like illnesses
+	Cases of influenza like illnesses		reported_ili_cases	true		LineChart	Influenza-like illnesses
 	Reported deaths caused by severe acute respiratory infections		reported_sari_deaths	true		LineChart	SARI deaths
 	Reported ICU hospitalisations due to severe acute respiratory infections		reported_sari_icu	true		LineChart	SARI ICU
 	Cases of influenza-like illness per thousand outpatients		ili_cases_per_thousand_outpatients	true		LineChart	ILI rate
