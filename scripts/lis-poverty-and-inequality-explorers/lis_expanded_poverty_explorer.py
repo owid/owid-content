@@ -242,7 +242,7 @@ for tab in range(len(tables)):
                 df_tables.loc[j, "unit"] = "%"
                 df_tables.loc[j, "shortUnit"] = "%"
                 df_tables.loc[j, "type"] = "Numeric"
-                df_tables.loc[j, "colorScaleNumericBins"] = "5;10;15;20;25"
+                df_tables.loc[j, "colorScaleNumericBins"] = "5;10;15;20;25;30"
                 df_tables.loc[j, "colorScaleScheme"] = "YlOrBr"
                 j += 1
 

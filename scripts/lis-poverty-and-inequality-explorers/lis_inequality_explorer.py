@@ -78,11 +78,12 @@ df_header = df_header[0].apply(pd.Series)
 # %%
 # Table generation
 
-sourceName = "World Inequality Database (WID.world) (2022)"
-dataPublishedBy = "World Inequality Database (WID), https://wid.world"
-sourceLink = "https://wid.world"
+sourceName = "Luxembourg Income Study (LIS) (2022)"
+dataPublishedBy = "Luxembourg Income Study (LIS) Database, http://www.lisdatacenter.org (multiple countries; 1967-2021). Luxembourg, LIS."
+sourceLink = "https://www.lisdatacenter.org/our-data/lis-database/"
 colorScaleNumericMinValue = 0
 tolerance = 5
+colorScaleEqualSizeBins = "true"
 new_line = "<br><br>"
 
 df_tables = pd.DataFrame()
@@ -153,7 +154,6 @@ for tab in range(len(tables)):
             df_tables.loc[j, "colorScaleNumericBins"] = welfare["scale_p90_p10_ratio"][
                 wel
             ]
-            df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
             df_tables.loc[j, "colorScaleScheme"] = "OrRd"
             j += 1
 
@@ -173,7 +173,6 @@ for tab in range(len(tables)):
             df_tables.loc[j, "colorScaleNumericBins"] = welfare["scale_p90_p50_ratio"][
                 wel
             ]
-            df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
             df_tables.loc[j, "colorScaleScheme"] = "Purples"
             j += 1
 
@@ -193,7 +192,6 @@ for tab in range(len(tables)):
             df_tables.loc[j, "colorScaleNumericBins"] = welfare["scale_p50_p10_ratio"][
                 wel
             ]
-            df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
             df_tables.loc[j, "colorScaleScheme"] = "YlOrRd"
             j += 1
 
@@ -230,7 +228,7 @@ for tab in range(len(tables)):
                 df_tables.loc[j, "unit"] = "%"
                 df_tables.loc[j, "shortUnit"] = "%"
                 df_tables.loc[j, "type"] = "Numeric"
-                df_tables.loc[j, "colorScaleNumericBins"] = "5;10;15;20;25"
+                df_tables.loc[j, "colorScaleNumericBins"] = "5;10;15;20;25;30"
                 df_tables.loc[j, "colorScaleScheme"] = "YlOrBr"
                 j += 1
 
@@ -241,6 +239,7 @@ df_tables["dataPublishedBy"] = dataPublishedBy
 df_tables["sourceLink"] = sourceLink
 df_tables["colorScaleNumericMinValue"] = colorScaleNumericMinValue
 df_tables["tolerance"] = tolerance
+df_tables["colorScaleEqualSizeBins"] = colorScaleEqualSizeBins
 
 # Make tolerance integer (to not break the parameter in the platform)
 df_tables["tolerance"] = df_tables["tolerance"].astype("Int64")
