@@ -7,7 +7,7 @@ hideAlertBanner	true
 yAxisMin	0
 hasMapTab	true
 pickerColumnSlugs
-downloadDataLink	https://raw.githubusercontent.com/spoonerf/flu_test/main/explorer_file_will_delete.csv
+downloadDataLink	https://raw.githubusercontent.com/owid/notebooks/main/FionaSpooner/flunet/data/flu.csv
 graphers
 	title	subtitle	ySlugs	hideTitleAnnotation	stackMode	type	Flu type Dropdown
 	Weekly confirmed cases of influenza	This includes confirmed cases of any influenza virus. Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their strain or lineage.	inf_all	true		LineChart	Total influenza (cases)
@@ -30,7 +30,7 @@ graphers
 	Weekly confirmed cases of influenza B Yamagata	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be of the Yamagata lineage of influenza B virus.	byam	true		LineChart	Influenza B Yamagata (cases)
 	Weekly confirmed cases of influenza B (unknown lineage)	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be influenza B virus, but their lineage was not determined.	bnotdetermined	true		LineChart	Influenza B unknown (cases)
 	Weekly confirmed cases of influenza B	This includes confirmed cases of any lineage of influenza B virus. Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their lineage.	inf_b	true		LineChart	Total influenza B (cases)
-table	https://raw.githubusercontent.com/spoonerf/flu_test/main/explorer_file_will_delete.csv
+table	https://raw.githubusercontent.com/owid/etl/flunet/etl/steps/data/garden/who/latest/explorer_file_will_delete.csv
 columns
 	slug	name	type	tolerance	sourceName	sourceLink	additionalInfo	colorScaleNumericMinValue	colorScaleScheme
 	country	Country	EntityName						OrRd
