@@ -164,9 +164,9 @@ for tab in range(len(tables)):
                 df_tables.loc[j, "unit"] = "international-$ in 2017 prices"
                 df_tables.loc[j, "shortUnit"] = "$"
                 df_tables.loc[j, "type"] = "Numeric"
-                df_tables.loc[
-                    j, "colorScaleNumericBins"
-                ] = "1000000;3000000;10000000;30000000;100000000;300000000;1000000000;3000000000;10000000000"
+                df_tables.loc[j, "colorScaleNumericBins"] = povlines_abs[
+                    "scale_total_shortfall"
+                ][p]
                 df_tables.loc[j, "colorScaleScheme"] = "Oranges"
                 j += 1
 
@@ -280,9 +280,9 @@ for tab in range(len(tables)):
                 df_tables.loc[j, "unit"] = np.nan
                 df_tables.loc[j, "shortUnit"] = np.nan
                 df_tables.loc[j, "type"] = "Numeric"
-                df_tables.loc[
-                    j, "colorScaleNumericBins"
-                ] = "100000000;300000000;1000000000;3000000000;10000000000;30000000000"
+                df_tables.loc[j, "colorScaleNumericBins"] = povlines_rel[
+                    "scale_total_shortfall"
+                ][pct]
                 df_tables.loc[j, "colorScaleScheme"] = "YlOrBr"
                 j += 1
 
