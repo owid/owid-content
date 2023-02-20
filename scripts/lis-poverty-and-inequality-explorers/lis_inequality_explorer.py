@@ -311,31 +311,6 @@ for tab in range(len(tables)):
             df_graphers.loc[j, "mapTargetTime"] = 2019
             j += 1
 
-            # # Palma ratio
-            df_graphers.loc[
-                j, "title"
-            ] = f"{welfare['welfare_type'][wel].capitalize()} inequality: Palma ratio ({welfare['title'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
-            df_graphers.loc[
-                j, "ySlugs"
-            ] = f"palma_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
-            df_graphers.loc[j, "Metric Dropdown"] = "Palma ratio"
-            df_graphers.loc[
-                j, "Welfare type Dropdown"
-            ] = f"{welfare['dropdown_option'][wel]}"
-            df_graphers.loc[j, "Equivalence scale Dropdown"] = equivalence_scales[
-                "text"
-            ][eq].capitalize()
-            df_graphers.loc[
-                j, "subtitle"
-            ] = f"The Palma ratio is the share of total {welfare['welfare_type'][wel]} of the top 10% divided by the share of the bottom 40%. {welfare['subtitle'][wel]}"
-            df_graphers.loc[j, "note"] = np.nan
-            df_graphers.loc[j, "facet"] = np.nan
-            df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
-            df_graphers.loc[j, "hasMapTab"] = "true"
-            df_graphers.loc[j, "tab"] = "map"
-            df_graphers.loc[j, "mapTargetTime"] = 2019
-            j += 1
-
             # P90/P10
             df_graphers.loc[
                 j, "title"
@@ -414,6 +389,31 @@ for tab in range(len(tables)):
             df_graphers.loc[j, "mapTargetTime"] = 2019
             j += 1
 
+            # # Palma ratio
+            df_graphers.loc[
+                j, "title"
+            ] = f"{welfare['welfare_type'][wel].capitalize()} inequality: Palma ratio ({welfare['title'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+            df_graphers.loc[
+                j, "ySlugs"
+            ] = f"palma_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
+            df_graphers.loc[j, "Metric Dropdown"] = "Palma ratio"
+            df_graphers.loc[
+                j, "Welfare type Dropdown"
+            ] = f"{welfare['dropdown_option'][wel]}"
+            df_graphers.loc[j, "Equivalence scale Dropdown"] = equivalence_scales[
+                "text"
+            ][eq].capitalize()
+            df_graphers.loc[
+                j, "subtitle"
+            ] = f"The Palma ratio is the share of total {welfare['welfare_type'][wel]} of the top 10% divided by the share of the bottom 40%. {welfare['subtitle'][wel]}"
+            df_graphers.loc[j, "note"] = np.nan
+            df_graphers.loc[j, "facet"] = np.nan
+            df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
+            df_graphers.loc[j, "hasMapTab"] = "true"
+            df_graphers.loc[j, "tab"] = "map"
+            df_graphers.loc[j, "mapTargetTime"] = 2019
+            j += 1
+
             # Headcount ratio (rel)
             for pct in range(len(povlines_rel)):
                 df_graphers.loc[
@@ -424,10 +424,7 @@ for tab in range(len(tables)):
                 ] = f"headcount_ratio_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
                 df_graphers.loc[
                     j, "Metric Dropdown"
-                ] = f"Share in relative poverty (< {povlines_rel['slug_suffix'][pct]})"
-                df_graphers.loc[
-                    j, "Poverty line Dropdown"
-                ] = f"{povlines_rel['dropdown'][pct]}"
+                ] = f"Share in relative poverty (< {povlines_rel['text'][pct]})"
                 df_graphers.loc[
                     j, "Welfare type Dropdown"
                 ] = f"{welfare['dropdown_option'][wel]}"
