@@ -166,11 +166,11 @@ for tab in range(len(tables)):
                 df_tables.loc[j, "type"] = "Numeric"
                 df_tables.loc[
                     j, "colorScaleNumericBins"
-                ] = "1000000;3000000;10000000;30000000;100000000;300000000;1000000000;3000000000;10000000000;10000000000"
+                ] = "1000000;3000000;10000000;30000000;100000000;300000000;1000000000;3000000000;10000000000"
                 df_tables.loc[j, "colorScaleScheme"] = "Oranges"
                 j += 1
 
-            # Average shortfall ($ per day)
+            # Average shortfall ($)
             for p in range(len(povlines_abs)):
                 df_tables.loc[
                     j, "name"
@@ -270,7 +270,7 @@ for tab in range(len(tables)):
             for pct in range(len(povlines_rel)):
                 df_tables.loc[
                     j, "name"
-                ] = f"{povlines_rel['percent'][pct]} of median - total daily shortfall"
+                ] = f"{povlines_rel['percent'][pct]} of median - total shortfall"
                 df_tables.loc[
                     j, "slug"
                 ] = f"total_shortfall_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
@@ -282,15 +282,15 @@ for tab in range(len(tables)):
                 df_tables.loc[j, "type"] = "Numeric"
                 df_tables.loc[
                     j, "colorScaleNumericBins"
-                ] = "1000000;3000000;10000000;30000000;100000000;300000000;1000000000;3000000000;10000000000;10000000000"
+                ] = "100000000;300000000;1000000000;3000000000;10000000000;30000000000"
                 df_tables.loc[j, "colorScaleScheme"] = "YlOrBr"
                 j += 1
 
-            # Average shortfall ($ per day)
+            # Average shortfall ($)
             for pct in range(len(povlines_rel)):
                 df_tables.loc[
                     j, "name"
-                ] = f"{povlines_rel['percent'][pct]} of median - average daily shortfall"
+                ] = f"{povlines_rel['percent'][pct]} of median - average shortfall"
                 df_tables.loc[
                     j, "slug"
                 ] = f"avg_shortfall_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
@@ -524,7 +524,7 @@ for tab in range(len(tables)):
                 df_graphers.loc[j, "mapTargetTime"] = 2019
                 j += 1
 
-            # Average shortfall ($ per day)
+            # Average shortfall ($)
             for p in range(len(povlines_abs)):
                 df_graphers.loc[
                     j, "title"
@@ -532,7 +532,7 @@ for tab in range(len(tables)):
                 df_graphers.loc[
                     j, "ySlugs"
                 ] = f"avg_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
-                df_graphers.loc[j, "Metric Dropdown"] = "Average shortfall ($ per day)"
+                df_graphers.loc[j, "Metric Dropdown"] = "Average shortfall ($)"
                 df_graphers.loc[
                     j, "Poverty line Dropdown"
                 ] = f"{povlines_abs['povline_dropdown'][p]}"
@@ -716,7 +716,7 @@ for tab in range(len(tables)):
                 df_graphers.loc[j, "mapTargetTime"] = 2019
                 j += 1
 
-            # Average shortfall ($ per day) (rel)
+            # Average shortfall ($) (rel)
             for pct in range(len(povlines_rel)):
                 df_graphers.loc[
                     j, "title"
@@ -724,7 +724,7 @@ for tab in range(len(tables)):
                 df_graphers.loc[
                     j, "ySlugs"
                 ] = f"avg_shortfall_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
-                df_graphers.loc[j, "Metric Dropdown"] = "Average shortfall ($ per day)"
+                df_graphers.loc[j, "Metric Dropdown"] = "Average shortfall ($)"
                 df_graphers.loc[
                     j, "Poverty line Dropdown"
                 ] = f"{povlines_rel['dropdown'][pct]}"
