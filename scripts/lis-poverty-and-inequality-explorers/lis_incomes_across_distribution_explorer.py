@@ -380,7 +380,7 @@ for tab in range(len(tables)):
         ] = f"Threshold {welfare['welfare_type'][wel]} for each decile ({welfare['title'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
         df_graphers.loc[
             j, "ySlugs"
-        ] = f"thr_p10_{welfare['slug'][wel]} thr_p20_{welfare['slug'][wel]} thr_p30_{welfare['slug'][wel]} thr_p40_{welfare['slug'][wel]} thr_p50_{welfare['slug'][wel]} thr_p60_{welfare['slug'][wel]} thr_p70_{welfare['slug'][wel]} thr_p80_{welfare['slug'][wel]} thr_p90_{welfare['slug'][wel]}"
+        ] = f"thr_p10_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} thr_p20_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} thr_p30_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} thr_p40_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} thr_p50_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} thr_p60_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} thr_p70_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} thr_p80_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} thr_p90_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
         df_graphers.loc[j, "Metric Dropdown"] = "Decile thresholds"
         df_graphers.loc[
             j, "Welfare type Dropdown"
@@ -409,7 +409,7 @@ for tab in range(len(tables)):
         ] = f"Mean {welfare['welfare_type'][wel]} within each decile ({welfare['title'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
         df_graphers.loc[
             j, "ySlugs"
-        ] = f"avg_p10_{welfare['slug'][wel]} avg_p20_{welfare['slug'][wel]} avg_p30_{welfare['slug'][wel]} avg_p40_{welfare['slug'][wel]} avg_p50_{welfare['slug'][wel]} avg_p60_{welfare['slug'][wel]} avg_p70_{welfare['slug'][wel]} avg_p80_{welfare['slug'][wel]} avg_p90_{welfare['slug'][wel]} avg_p100_{welfare['slug'][wel]}"
+        ] = f"avg_p10_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} avg_p20_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} avg_p30_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} avg_p40_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} avg_p50_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} avg_p60_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} avg_p70_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} avg_p80_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} avg_p90_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} avg_p100_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
         df_graphers.loc[j, "Metric Dropdown"] = "Mean income or consumption, by decile"
         df_graphers.loc[
             j, "Welfare type Dropdown"
@@ -438,7 +438,7 @@ for tab in range(len(tables)):
         ] = f"{welfare['welfare_type'][wel].capitalize()} share for each decile ({welfare['title'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
         df_graphers.loc[
             j, "ySlugs"
-        ] = f"share_p10_{welfare['slug'][wel]} share_p20_{welfare['slug'][wel]} share_p30_{welfare['slug'][wel]} share_p40_{welfare['slug'][wel]} share_p50_{welfare['slug'][wel]} share_p60_{welfare['slug'][wel]} share_p70_{welfare['slug'][wel]} share_p80_{welfare['slug'][wel]} share_p90_{welfare['slug'][wel]} share_p100_{welfare['slug'][wel]}"
+        ] = f"share_p10_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p20_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p30_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p40_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p50_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p60_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p70_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p80_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p90_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p100_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
         df_graphers.loc[j, "Metric Dropdown"] = "Decile shares"
         df_graphers.loc[
             j, "Welfare type Dropdown"
