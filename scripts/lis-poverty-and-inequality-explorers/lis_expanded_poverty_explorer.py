@@ -166,7 +166,7 @@ for tab in range(len(tables)):
                 df_tables.loc[j, "type"] = "Numeric"
                 df_tables.loc[
                     j, "colorScaleNumericBins"
-                ] = "100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000"
+                ] = "1000000;3000000;10000000;30000000;100000000;300000000;1000000000;3000000000;10000000000;10000000000"
                 df_tables.loc[j, "colorScaleScheme"] = "Oranges"
                 j += 1
 
@@ -224,9 +224,7 @@ for tab in range(len(tables)):
                 df_tables.loc[j, "unit"] = "%"
                 df_tables.loc[j, "shortUnit"] = "%"
                 df_tables.loc[j, "type"] = "Numeric"
-                df_tables.loc[
-                    j, "colorScaleNumericBins"
-                ] = "10;20;30;40;50;60;70;80;90;100"
+                df_tables.loc[j, "colorScaleNumericBins"] = "10;20;30;40;50;60"
                 df_tables.loc[j, "colorScaleScheme"] = "RdPu"
                 j += 1
 
@@ -284,7 +282,7 @@ for tab in range(len(tables)):
                 df_tables.loc[j, "type"] = "Numeric"
                 df_tables.loc[
                     j, "colorScaleNumericBins"
-                ] = "100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000"
+                ] = "1000000;3000000;10000000;30000000;100000000;300000000;1000000000;3000000000;10000000000;10000000000"
                 df_tables.loc[j, "colorScaleScheme"] = "YlOrBr"
                 j += 1
 
@@ -302,7 +300,7 @@ for tab in range(len(tables)):
                 df_tables.loc[j, "unit"] = "international-$ at 2017 prices"
                 df_tables.loc[j, "shortUnit"] = "$"
                 df_tables.loc[j, "type"] = "Numeric"
-                df_tables.loc[j, "colorScaleNumericBins"] = "1;2;5;10;20"
+                df_tables.loc[j, "colorScaleNumericBins"] = "1000;2000;3000;4000;5000"
                 df_tables.loc[j, "colorScaleScheme"] = "YlOrBr"
                 j += 1
 
@@ -320,9 +318,7 @@ for tab in range(len(tables)):
                 df_tables.loc[j, "unit"] = "%"
                 df_tables.loc[j, "shortUnit"] = "%"
                 df_tables.loc[j, "type"] = "Numeric"
-                df_tables.loc[
-                    j, "colorScaleNumericBins"
-                ] = "10;20;30;40;50;60;70;80;90;100"
+                df_tables.loc[j, "colorScaleNumericBins"] = "5;10;15;20;25;30;35;40"
                 df_tables.loc[j, "colorScaleScheme"] = "YlOrBr"
                 j += 1
 
@@ -340,7 +336,7 @@ for tab in range(len(tables)):
                 df_tables.loc[j, "unit"] = "%"
                 df_tables.loc[j, "shortUnit"] = "%"
                 df_tables.loc[j, "type"] = "Numeric"
-                df_tables.loc[j, "colorScaleNumericBins"] = "3;6;9;12;15;18;21"
+                df_tables.loc[j, "colorScaleNumericBins"] = "2;4;6;8;10;12"
                 df_tables.loc[j, "colorScaleScheme"] = "YlOrBr"
                 j += 1
 
