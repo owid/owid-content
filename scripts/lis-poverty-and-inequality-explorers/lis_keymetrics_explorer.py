@@ -429,7 +429,7 @@ for tab in range(len(tables)):
                 ][eq].capitalize()
                 df_graphers.loc[
                     j, "subtitle"
-                ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at {povlines_rel['text'][pct]} {welfare['welfare_type'][wel]}."
+                ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at {povlines_rel['text'][pct]} {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
                 df_graphers.loc[j, "note"] = np.nan
                 df_graphers.loc[j, "type"] = np.nan
                 df_graphers.loc[j, "facet"] = np.nan
@@ -459,7 +459,7 @@ for tab in range(len(tables)):
                 ][eq].capitalize()
                 df_graphers.loc[
                     j, "subtitle"
-                ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at {povlines_rel['text'][pct]} {welfare['welfare_type'][wel]}."
+                ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at {povlines_rel['text'][pct]} {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
                 df_graphers.loc[j, "note"] = np.nan
                 df_graphers.loc[j, "type"] = np.nan
                 df_graphers.loc[j, "facet"] = np.nan
