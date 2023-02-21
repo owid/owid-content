@@ -188,6 +188,40 @@ for tab in range(len(tables)):
         df_tables.loc[j, "colorScaleScheme"] = "Greens"
         j += 1
 
+        # P10
+        df_tables.loc[
+            j, "name"
+        ] = f"Threshold {welfare['welfare_type'][wel]} marking the poorest decile ({welfare['technical_text'][wel].capitalize()})"
+        df_tables.loc[j, "slug"] = f"p10p20_thr_{welfare['slug'][wel]}"
+        df_tables.loc[
+            j, "description"
+        ] = f"The level of {welfare['welfare_type'][wel]} below which 10% of the population falls.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]} {welfare['note'][wel]}"
+        df_tables.loc[j, "unit"] = "international-$ in 2021 prices"
+        df_tables.loc[j, "shortUnit"] = "$"
+        df_tables.loc[j, "type"] = "Numeric"
+        df_tables.loc[
+            j, "colorScaleNumericBins"
+        ] = "1000;2000;5000;10000;20000;50000;100000"
+        df_tables.loc[j, "colorScaleScheme"] = "Purples"
+        j += 1
+
+        # P90
+        df_tables.loc[
+            j, "name"
+        ] = f"Threshold {welfare['welfare_type'][wel]} marking the richest decile ({welfare['technical_text'][wel].capitalize()})"
+        df_tables.loc[j, "slug"] = f"p90p100_thr_{welfare['slug'][wel]}"
+        df_tables.loc[
+            j, "description"
+        ] = f"The level of {welfare['welfare_type'][wel]} below which 90% of the population falls.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]} {welfare['note'][wel]}"
+        df_tables.loc[j, "unit"] = "international-$ in 2021 prices"
+        df_tables.loc[j, "shortUnit"] = "$"
+        df_tables.loc[j, "type"] = "Numeric"
+        df_tables.loc[
+            j, "colorScaleNumericBins"
+        ] = "1000;2000;5000;10000;20000;50000;100000"
+        df_tables.loc[j, "colorScaleScheme"] = "Purples"
+        j += 1
+
         # Palma ratio
         df_tables.loc[
             j, "name"
@@ -330,6 +364,52 @@ for tab in range(len(tables)):
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
         df_graphers.loc[j, "hasMapTab"] = "true"
         df_graphers.loc[j, "tab"] = "map"
+        j += 1
+
+        # P10
+        df_graphers.loc[
+            j, "title"
+        ] = f"Threshold {welfare['welfare_type'][wel]} marking the poorest decile {welfare['title'][wel].capitalize()}"
+        df_graphers.loc[j, "ySlugs"] = f"p10p20_thr_{welfare['slug'][wel]}"
+        df_graphers.loc[j, "Metric Dropdown"] = "Income or wealth of the poorest 10%"
+        df_graphers.loc[
+            j, "Welfare type Dropdown"
+        ] = f"{welfare['dropdown_option'][wel]}"
+        df_graphers.loc[
+            j, "subtitle"
+        ] = f"This is the level of {welfare['welfare_type'][wel]} below which 10% of the population falls. {welfare['subtitle'][wel]}"
+        df_graphers.loc[
+            j, "note"
+        ] = f"This data is measured in international-$ at 2021 prices to account for inflation and differences in the cost of living between countries. {welfare['note'][wel]}"
+        df_graphers.loc[j, "type"] = np.nan
+        df_graphers.loc[j, "facet"] = np.nan
+        df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
+        df_graphers.loc[j, "hasMapTab"] = "true"
+        df_graphers.loc[j, "tab"] = "map"
+        df_graphers.loc[j, "yScaleToggle"] = "true"
+        j += 1
+
+        # P90
+        df_graphers.loc[
+            j, "title"
+        ] = f"Threshold {welfare['welfare_type'][wel]} marking the richest decile {welfare['title'][wel].capitalize()}"
+        df_graphers.loc[j, "ySlugs"] = f"p90p100_thr_{welfare['slug'][wel]}"
+        df_graphers.loc[j, "Metric Dropdown"] = "Income or wealth of the richest 10%"
+        df_graphers.loc[
+            j, "Welfare type Dropdown"
+        ] = f"{welfare['dropdown_option'][wel]}"
+        df_graphers.loc[
+            j, "subtitle"
+        ] = f"This is the level of {welfare['welfare_type'][wel]} below which 90% of the population falls. {welfare['subtitle'][wel]}"
+        df_graphers.loc[
+            j, "note"
+        ] = f"This data is measured in international-$ at 2021 prices to account for inflation and differences in the cost of living between countries."
+        df_graphers.loc[j, "type"] = np.nan
+        df_graphers.loc[j, "facet"] = np.nan
+        df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
+        df_graphers.loc[j, "hasMapTab"] = "true"
+        df_graphers.loc[j, "tab"] = "map"
+        df_graphers.loc[j, "yScaleToggle"] = "true"
         j += 1
 
         # # Palma ratio
