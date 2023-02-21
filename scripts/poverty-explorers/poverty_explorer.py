@@ -182,7 +182,7 @@ for survey in range(len(survey_type)):
     df_tables.loc[
         j, "dataPublishedBy"
     ] = "World Bank Poverty and Inequality Platform (PIP)"
-    df_tables.loc[j, "unit"] = "international-$ at 2017 prices"
+    df_tables.loc[j, "unit"] = "international-$ in 2017 prices"
     df_tables.loc[j, "shortUnit"] = "$"
     df_tables.loc[j, "tolerance"] = 5
     df_tables.loc[j, "type"] = "Numeric"
@@ -204,7 +204,7 @@ for survey in range(len(survey_type)):
     df_tables.loc[
         j, "dataPublishedBy"
     ] = "World Bank Poverty and Inequality Platform (PIP)"
-    df_tables.loc[j, "unit"] = "international-$ at 2017 prices"
+    df_tables.loc[j, "unit"] = "international-$ in 2017 prices"
     df_tables.loc[j, "shortUnit"] = "$"
     df_tables.loc[j, "tolerance"] = 5
     df_tables.loc[j, "type"] = "Numeric"
@@ -228,7 +228,7 @@ for survey in range(len(survey_type)):
     df_tables.loc[
         j, "dataPublishedBy"
     ] = "World Bank Poverty and Inequality Platform (PIP)"
-    df_tables.loc[j, "unit"] = "international-$ at 2017 prices"
+    df_tables.loc[j, "unit"] = "international-$ in 2017 prices"
     df_tables.loc[j, "shortUnit"] = "$"
     df_tables.loc[j, "tolerance"] = 5
     df_tables.loc[j, "type"] = "Numeric"
@@ -252,7 +252,7 @@ for survey in range(len(survey_type)):
     df_tables.loc[
         j, "dataPublishedBy"
     ] = "World Bank Poverty and Inequality Platform (PIP)"
-    df_tables.loc[j, "unit"] = "international-$ at 2017 prices"
+    df_tables.loc[j, "unit"] = "international-$ in 2017 prices"
     df_tables.loc[j, "shortUnit"] = "$"
     df_tables.loc[j, "tolerance"] = 5
     df_tables.loc[j, "type"] = "Numeric"

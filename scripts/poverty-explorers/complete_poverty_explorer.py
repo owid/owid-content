@@ -135,7 +135,7 @@ for survey in range(len(survey_type)):
         df_tables.loc[
             j, "dataPublishedBy"
         ] = "World Bank Poverty and Inequality Platform (PIP)"
-        df_tables.loc[j, "unit"] = "international-$ at 2017 prices"
+        df_tables.loc[j, "unit"] = "international-$ in 2017 prices"
         df_tables.loc[j, "shortUnit"] = "$"
         df_tables.loc[j, "tolerance"] = 5
         df_tables.loc[j, "type"] = "Numeric"
@@ -162,7 +162,7 @@ for survey in range(len(survey_type)):
         df_tables.loc[
             j, "dataPublishedBy"
         ] = "World Bank Poverty and Inequality Platform (PIP)"
-        df_tables.loc[j, "unit"] = "international-$ at 2017 prices"
+        df_tables.loc[j, "unit"] = "international-$ in 2017 prices"
         df_tables.loc[j, "shortUnit"] = "$"
         df_tables.loc[j, "tolerance"] = 5
         df_tables.loc[j, "type"] = "Numeric"
@@ -316,7 +316,7 @@ for survey in range(len(survey_type)):
         df_tables.loc[
             j, "dataPublishedBy"
         ] = "World Bank Poverty and Inequality Platform (PIP)"
-        df_tables.loc[j, "unit"] = "international-$ at 2017 prices"
+        df_tables.loc[j, "unit"] = "international-$ in 2017 prices"
         df_tables.loc[j, "shortUnit"] = "$"
         df_tables.loc[j, "tolerance"] = 5
         df_tables.loc[j, "type"] = "Numeric"
@@ -520,7 +520,7 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, "subtitle"] = f"{povlines_abs.subtitle_total_shortfall[p]}"
         df_graphers.loc[
             j, "note"
-        ] = "This data is expressed in international-$ at 2017 prices. The cost of closing the poverty gap does not take into account costs and inefficiencies from making the necessary transfers."
+        ] = "This data is measured in international-$ at 2017 prices. The cost of closing the poverty gap does not take into account costs and inefficiencies from making the necessary transfers."
         df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "yAxisMin"] = 0

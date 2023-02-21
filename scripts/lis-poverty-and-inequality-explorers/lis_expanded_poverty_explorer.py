@@ -232,13 +232,13 @@ for tab in range(len(tables)):
             for pct in range(len(povlines_rel)):
                 df_tables.loc[
                     j, "name"
-                ] = f"{povlines_rel['percent'][pct]} of median - share of population below poverty line ({welfare['technical_text'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+                ] = f"{povlines_rel['percent'][pct]} of median DHI - share of population below poverty line ({welfare['technical_text'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
                 df_tables.loc[
                     j, "slug"
                 ] = f"headcount_ratio_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
                 df_tables.loc[
                     j, "description"
-                ] = f"% of population living in households with {welfare['welfare_type'][wel]} below {povlines_rel['percent'][pct]} of the median.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}Household {welfare['welfare_type'][wel]} {equivalence_scales['note'][eq]}"
+                ] = f"% of population living in households with {welfare['welfare_type'][wel]} below {povlines_rel['percent'][pct]} of the median disposable household income.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}Household {welfare['welfare_type'][wel]} {equivalence_scales['note'][eq]}"
                 df_tables.loc[j, "unit"] = "%"
                 df_tables.loc[j, "shortUnit"] = "%"
                 df_tables.loc[j, "type"] = "Numeric"
@@ -250,13 +250,13 @@ for tab in range(len(tables)):
             for pct in range(len(povlines_rel)):
                 df_tables.loc[
                     j, "name"
-                ] = f"{povlines_rel['percent'][pct]} of median - total number of people below poverty line"
+                ] = f"{povlines_rel['percent'][pct]} of median DHI - total number of people below poverty line"
                 df_tables.loc[
                     j, "slug"
                 ] = f"headcount_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
                 df_tables.loc[
                     j, "description"
-                ] = f"Number of people living in households with {welfare['welfare_type'][wel]} below {povlines_rel['percent'][pct]} of the median.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}Household {welfare['welfare_type'][wel]} {equivalence_scales['note'][eq]}"
+                ] = f"Number of people living in households with {welfare['welfare_type'][wel]} below {povlines_rel['percent'][pct]} of the median disposable household income.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}Household {welfare['welfare_type'][wel]} {equivalence_scales['note'][eq]}"
                 df_tables.loc[j, "unit"] = np.nan
                 df_tables.loc[j, "shortUnit"] = np.nan
                 df_tables.loc[j, "type"] = "Numeric"
@@ -270,13 +270,13 @@ for tab in range(len(tables)):
             for pct in range(len(povlines_rel)):
                 df_tables.loc[
                     j, "name"
-                ] = f"{povlines_rel['percent'][pct]} of median - total shortfall"
+                ] = f"{povlines_rel['percent'][pct]} of median DHI - total shortfall"
                 df_tables.loc[
                     j, "slug"
                 ] = f"total_shortfall_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
                 df_tables.loc[
                     j, "description"
-                ] = f"The total shortfall from a poverty line of {povlines_rel['text'][pct]} {welfare['welfare_type'][wel]}. This is the amount of money that would be theoretically needed to lift the {welfare['welfare_type'][wel]} of all people in poverty up to the poverty line. However this is not a measure of the actual cost of eliminating poverty, since it does not take into account the costs involved in making the necessary transfers nor any changes in behaviour they would bring about.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}Household {welfare['welfare_type'][wel]} {equivalence_scales['note'][eq]}"
+                ] = f"The total shortfall from a poverty line of {povlines_rel['text'][pct]} disposable household income. This is the amount of money that would be theoretically needed to lift the {welfare['welfare_type'][wel]} of all people in poverty up to the poverty line. However this is not a measure of the actual cost of eliminating poverty, since it does not take into account the costs involved in making the necessary transfers nor any changes in behaviour they would bring about.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}Household {welfare['welfare_type'][wel]} {equivalence_scales['note'][eq]}"
                 df_tables.loc[j, "unit"] = np.nan
                 df_tables.loc[j, "shortUnit"] = np.nan
                 df_tables.loc[j, "type"] = "Numeric"
@@ -290,14 +290,14 @@ for tab in range(len(tables)):
             for pct in range(len(povlines_rel)):
                 df_tables.loc[
                     j, "name"
-                ] = f"{povlines_rel['percent'][pct]} of median - average shortfall"
+                ] = f"{povlines_rel['percent'][pct]} of median DHI - average shortfall"
                 df_tables.loc[
                     j, "slug"
                 ] = f"avg_shortfall_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
                 df_tables.loc[
                     j, "description"
-                ] = f"The average shortfall from a poverty line of of {povlines_rel['text'][pct]} {welfare['welfare_type'][wel]} (averaged across the population in poverty).{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}Household {welfare['welfare_type'][wel]} {equivalence_scales['note'][eq]}"
-                df_tables.loc[j, "unit"] = "international-$ at 2017 prices"
+                ] = f"The average shortfall from a poverty line of of {povlines_rel['text'][pct]} disposable household income (averaged across the population in poverty).{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}Household {welfare['welfare_type'][wel]} {equivalence_scales['note'][eq]}"
+                df_tables.loc[j, "unit"] = "international-$ in 2017 prices"
                 df_tables.loc[j, "shortUnit"] = "$"
                 df_tables.loc[j, "type"] = "Numeric"
                 df_tables.loc[j, "colorScaleNumericBins"] = "1000;2000;3000;4000;5000"
@@ -308,13 +308,13 @@ for tab in range(len(tables)):
             for pct in range(len(povlines_rel)):
                 df_tables.loc[
                     j, "name"
-                ] = f"{povlines_rel['percent'][pct]} of median - income gap ratio"
+                ] = f"{povlines_rel['percent'][pct]} of median DHI - income gap ratio"
                 df_tables.loc[
                     j, "slug"
                 ] = f"income_gap_ratio_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
                 df_tables.loc[
                     j, "description"
-                ] = f'The average shortfall from a poverty line of of {povlines_rel.text[pct]} {welfare.welfare_type[wel]} (averaged across the population in poverty) expressed as a share of the poverty line. This metric is sometimes called the "income gap ratio". It captures the depth of poverty in which those below the poverty line are living.{new_line}This is {welfare.technical_text[wel]}. {welfare.subtitle[wel]}{new_line}Household {welfare.welfare_type[wel]} {equivalence_scales.note[eq]}'
+                ] = f'The average shortfall from a poverty line of of {povlines_rel.text[pct]} disposable household income (averaged across the population in poverty) expressed as a share of the poverty line. This metric is sometimes called the "income gap ratio". It captures the depth of poverty in which those below the poverty line are living.{new_line}This is {welfare.technical_text[wel]}. {welfare.subtitle[wel]}{new_line}Household {welfare.welfare_type[wel]} {equivalence_scales.note[eq]}'
                 df_tables.loc[j, "unit"] = "%"
                 df_tables.loc[j, "shortUnit"] = "%"
                 df_tables.loc[j, "type"] = "Numeric"
@@ -326,13 +326,13 @@ for tab in range(len(tables)):
             for pct in range(len(povlines_rel)):
                 df_tables.loc[
                     j, "name"
-                ] = f"{povlines_rel['percent'][pct]} of median - poverty gap index"
+                ] = f"{povlines_rel['percent'][pct]} of median DHI - poverty gap index"
                 df_tables.loc[
                     j, "slug"
                 ] = f"poverty_gap_index_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
                 df_tables.loc[
                     j, "description"
-                ] = f"The poverty gap index calculated at a poverty line of {povlines_rel['text'][pct]} {welfare['welfare_type'][wel]}. The poverty gap index is a measure that reflects both the depth and prevalence of poverty. It is defined as the mean shortfall of the total population from the poverty line counting the non-poor as having zero shortfall and expressed as a percentage of the poverty line. It is worth unpacking that definition a little. For those below the poverty line, the shortfall corresponds to the amount of money required in order to reach the poverty line. For those at or above the poverty line, the shortfall is counted as zero. The average shortfall is then calculated across the total population – both poor and non-poor – and then expressed as a share of the poverty line. Unlike the more commonly-used metric of the headcount ratio, the poverty gap index is thus sensitive not only to whether a person’s income falls below the poverty line or not, but also by how much – i.e. to the depth of poverty they experience.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}Household {welfare['welfare_type'][wel]} {equivalence_scales['note'][eq]}"
+                ] = f"The poverty gap index calculated at a poverty line of {povlines_rel['text'][pct]} disposable household income. The poverty gap index is a measure that reflects both the depth and prevalence of poverty. It is defined as the mean shortfall of the total population from the poverty line counting the non-poor as having zero shortfall and expressed as a percentage of the poverty line. It is worth unpacking that definition a little. For those below the poverty line, the shortfall corresponds to the amount of money required in order to reach the poverty line. For those at or above the poverty line, the shortfall is counted as zero. The average shortfall is then calculated across the total population – both poor and non-poor – and then expressed as a share of the poverty line. Unlike the more commonly-used metric of the headcount ratio, the poverty gap index is thus sensitive not only to whether a person’s income falls below the poverty line or not, but also by how much – i.e. to the depth of poverty they experience.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}Household {welfare['welfare_type'][wel]} {equivalence_scales['note'][eq]}"
                 df_tables.loc[j, "unit"] = "%"
                 df_tables.loc[j, "shortUnit"] = "%"
                 df_tables.loc[j, "type"] = "Numeric"
@@ -360,6 +360,7 @@ df_tables["tolerance"] = df_tables["tolerance"].astype("Int64")
 # Grapher table generation
 
 yAxisMin = 0
+mapTargetTime = 2019
 
 df_graphers = pd.DataFrame()
 
@@ -397,7 +398,6 @@ for tab in range(len(tables)):
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
                 df_graphers.loc[j, "hasMapTab"] = "true"
                 df_graphers.loc[j, "tab"] = "map"
-                df_graphers.loc[j, "mapTargetTime"] = 2019
                 j += 1
 
             # Headcount (abs)
@@ -429,7 +429,6 @@ for tab in range(len(tables)):
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
                 df_graphers.loc[j, "hasMapTab"] = "true"
                 df_graphers.loc[j, "tab"] = "map"
-                df_graphers.loc[j, "mapTargetTime"] = 2019
                 j += 1
 
             # Headcount ratio (abs) - Multiple lines
@@ -458,7 +457,6 @@ for tab in range(len(tables)):
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
             df_graphers.loc[j, "hasMapTab"] = "false"
             df_graphers.loc[j, "tab"] = "chart"
-            df_graphers.loc[j, "mapTargetTime"] = 2019
             j += 1
 
             # Headcount (abs) - Multiple lines
@@ -487,7 +485,6 @@ for tab in range(len(tables)):
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
             df_graphers.loc[j, "hasMapTab"] = "false"
             df_graphers.loc[j, "tab"] = "chart"
-            df_graphers.loc[j, "mapTargetTime"] = 2019
             j += 1
 
             # Total shortfall (abs)
@@ -521,7 +518,6 @@ for tab in range(len(tables)):
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
                 df_graphers.loc[j, "hasMapTab"] = "true"
                 df_graphers.loc[j, "tab"] = "map"
-                df_graphers.loc[j, "mapTargetTime"] = 2019
                 j += 1
 
             # Average shortfall ($)
@@ -553,7 +549,6 @@ for tab in range(len(tables)):
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
                 df_graphers.loc[j, "hasMapTab"] = "true"
                 df_graphers.loc[j, "tab"] = "map"
-                df_graphers.loc[j, "mapTargetTime"] = 2019
                 j += 1
 
             # Average shortfall (% of poverty line)
@@ -587,7 +582,6 @@ for tab in range(len(tables)):
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
                 df_graphers.loc[j, "hasMapTab"] = "true"
                 df_graphers.loc[j, "tab"] = "map"
-                df_graphers.loc[j, "mapTargetTime"] = 2019
                 j += 1
 
             # Poverty gap index
@@ -619,7 +613,6 @@ for tab in range(len(tables)):
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
                 df_graphers.loc[j, "hasMapTab"] = "true"
                 df_graphers.loc[j, "tab"] = "map"
-                df_graphers.loc[j, "mapTargetTime"] = 2019
                 j += 1
 
             # Headcount ratio (rel)
@@ -642,14 +635,13 @@ for tab in range(len(tables)):
                 ][eq].capitalize()
                 df_graphers.loc[
                     j, "subtitle"
-                ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at {povlines_rel['text'][pct]} {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
+                ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at {povlines_rel['text'][pct]} disposable household income. {welfare['subtitle'][wel]}"
                 df_graphers.loc[j, "note"] = np.nan
                 df_graphers.loc[j, "type"] = np.nan
                 df_graphers.loc[j, "facet"] = np.nan
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
                 df_graphers.loc[j, "hasMapTab"] = "true"
                 df_graphers.loc[j, "tab"] = "map"
-                df_graphers.loc[j, "mapTargetTime"] = 2019
                 j += 1
 
             # Headcount (rel)
@@ -672,14 +664,13 @@ for tab in range(len(tables)):
                 ][eq].capitalize()
                 df_graphers.loc[
                     j, "subtitle"
-                ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at {povlines_rel['text'][pct]} {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
+                ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at {povlines_rel['text'][pct]} disposable household income. {welfare['subtitle'][wel]}"
                 df_graphers.loc[j, "note"] = np.nan
                 df_graphers.loc[j, "type"] = np.nan
                 df_graphers.loc[j, "facet"] = np.nan
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
                 df_graphers.loc[j, "hasMapTab"] = "true"
                 df_graphers.loc[j, "tab"] = "map"
-                df_graphers.loc[j, "mapTargetTime"] = 2019
                 j += 1
 
             # Total shortfall (rel)
@@ -704,7 +695,7 @@ for tab in range(len(tables)):
                 ][eq].capitalize()
                 df_graphers.loc[
                     j, "subtitle"
-                ] = f"This is the amount of money that would be theoretically needed to lift the incomes of all people in poverty up to {povlines_rel.text[pct]} {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
+                ] = f"This is the amount of money that would be theoretically needed to lift the incomes of all people in poverty up to {povlines_rel.text[pct]} disposable household income. {welfare['subtitle'][wel]}"
                 df_graphers.loc[
                     j, "note"
                 ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
@@ -713,7 +704,6 @@ for tab in range(len(tables)):
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
                 df_graphers.loc[j, "hasMapTab"] = "true"
                 df_graphers.loc[j, "tab"] = "map"
-                df_graphers.loc[j, "mapTargetTime"] = 2019
                 j += 1
 
             # Average shortfall ($) (rel)
@@ -736,7 +726,7 @@ for tab in range(len(tables)):
                 ][eq].capitalize()
                 df_graphers.loc[
                     j, "subtitle"
-                ] = f"This is the amount of money that would be theoretically needed to lift the incomes of all people in poverty up to {povlines_rel['text'][pct]} {welfare['welfare_type'][wel]}, averaged across the population in poverty. {welfare['subtitle'][wel]}"
+                ] = f"This is the amount of money that would be theoretically needed to lift the incomes of all people in poverty up to {povlines_rel['text'][pct]} disposable household income, averaged across the population in poverty. {welfare['subtitle'][wel]}"
                 df_graphers.loc[
                     j, "note"
                 ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
@@ -745,7 +735,6 @@ for tab in range(len(tables)):
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
                 df_graphers.loc[j, "hasMapTab"] = "true"
                 df_graphers.loc[j, "tab"] = "map"
-                df_graphers.loc[j, "mapTargetTime"] = 2019
                 j += 1
 
             # Average shortfall (% of poverty line) (rel)
@@ -770,7 +759,7 @@ for tab in range(len(tables)):
                 ][eq].capitalize()
                 df_graphers.loc[
                     j, "subtitle"
-                ] = f'This is the average shortfall expressed as a share of the poverty line, sometimes called the "income gap ratio". It captures the depth of poverty in which those below {povlines_rel.text[pct]} {welfare.welfare_type[wel]} are living. {welfare.subtitle[wel]}'
+                ] = f'This is the average shortfall expressed as a share of the poverty line, sometimes called the "income gap ratio". It captures the depth of poverty in which those below {povlines_rel.text[pct]} disposable household income are living. {welfare.subtitle[wel]}'
                 df_graphers.loc[
                     j, "note"
                 ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
@@ -779,7 +768,6 @@ for tab in range(len(tables)):
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
                 df_graphers.loc[j, "hasMapTab"] = "true"
                 df_graphers.loc[j, "tab"] = "map"
-                df_graphers.loc[j, "mapTargetTime"] = 2019
                 j += 1
 
             # Poverty gap index (rel)
@@ -811,7 +799,6 @@ for tab in range(len(tables)):
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
                 df_graphers.loc[j, "hasMapTab"] = "true"
                 df_graphers.loc[j, "tab"] = "map"
-                df_graphers.loc[j, "mapTargetTime"] = 2019
                 j += 1
 
     df_graphers["tableSlug"] = tables["name"][tab]
@@ -824,8 +811,9 @@ for tab in range(len(tables)):
 df_graphers["relatedQuestionText"] = np.nan
 df_graphers["relatedQuestionUrl"] = np.nan
 
-# Add yAxisMin
+# Add yAxisMin and mapTargetTime
 df_graphers["yAxisMin"] = yAxisMin
+df_graphers["mapTargetTime"] = mapTargetTime
 
 # Make mapTargetTime integer (to not break the parameter in the platform)
 df_graphers["mapTargetTime"] = df_graphers["mapTargetTime"].astype("Int64")

@@ -133,7 +133,7 @@ for tab in range(len(tables)):
             df_tables.loc[
                 j, "description"
             ] = f"The level of {welfare['welfare_type'][wel]} below which {deciles9['decile'][dec9]}0% of the population falls.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]} {welfare['note'][wel]}"
-            df_tables.loc[j, "unit"] = "international-$ at 2021 prices"
+            df_tables.loc[j, "unit"] = "international-$ in 2021 prices"
             df_tables.loc[j, "shortUnit"] = "$"
             df_tables.loc[j, "type"] = "Numeric"
             df_tables.loc[j, "colorScaleNumericBins"] = deciles9["scale_thr"][dec9]
@@ -150,7 +150,7 @@ for tab in range(len(tables)):
             df_tables.loc[
                 j, "description"
             ] = f"This is the mean {welfare['welfare_type'][wel]} within the {deciles10['ordinal'][dec10]} (tenth of the population).{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]} {welfare['note'][wel]}"
-            df_tables.loc[j, "unit"] = "international-$ at 2021 prices"
+            df_tables.loc[j, "unit"] = "international-$ in 2021 prices"
             df_tables.loc[j, "shortUnit"] = "$"
             df_tables.loc[j, "type"] = "Numeric"
             df_tables.loc[j, "colorScaleNumericBins"] = deciles10["scale_avg"][dec10]
@@ -184,7 +184,7 @@ for tab in range(len(tables)):
             df_tables.loc[
                 j, "description"
             ] = f"The level of {welfare['welfare_type'][wel]} marking the richest {top_pct['name'][top]}.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]} {welfare['note'][wel]}"
-            df_tables.loc[j, "unit"] = "international-$ at 2021 prices"
+            df_tables.loc[j, "unit"] = "international-$ in 2021 prices"
             df_tables.loc[j, "shortUnit"] = "$"
             df_tables.loc[j, "type"] = "Numeric"
             df_tables.loc[j, "colorScaleNumericBins"] = top_pct["scale_thr"][top]
@@ -201,7 +201,7 @@ for tab in range(len(tables)):
             df_tables.loc[
                 j, "description"
             ] = f"This is the mean {welfare['welfare_type'][wel]} within the richest {top_pct['name'][top]}.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]} {welfare['note'][wel]}"
-            df_tables.loc[j, "unit"] = "international-$ at 2021 prices"
+            df_tables.loc[j, "unit"] = "international-$ in 2021 prices"
             df_tables.loc[j, "shortUnit"] = "$"
             df_tables.loc[j, "type"] = "Numeric"
             df_tables.loc[j, "colorScaleNumericBins"] = top_pct["scale_avg"][top]
@@ -245,6 +245,7 @@ df_tables["tolerance"] = df_tables["tolerance"].astype("Int64")
 # Grapher table generation
 
 yAxisMin = 0
+mapTargetTime = 2019
 
 df_graphers = pd.DataFrame()
 
@@ -272,7 +273,6 @@ for tab in range(len(tables)):
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
         df_graphers.loc[j, "hasMapTab"] = "true"
         df_graphers.loc[j, "tab"] = "map"
-        df_graphers.loc[j, "mapTargetTime"] = 2019
         df_graphers.loc[j, "yScaleToggle"] = "true"
         j += 1
 
@@ -296,7 +296,6 @@ for tab in range(len(tables)):
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
         df_graphers.loc[j, "hasMapTab"] = "true"
         df_graphers.loc[j, "tab"] = "map"
-        df_graphers.loc[j, "mapTargetTime"] = 2019
         df_graphers.loc[j, "yScaleToggle"] = "true"
         j += 1
 
@@ -323,7 +322,6 @@ for tab in range(len(tables)):
             df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
             df_graphers.loc[j, "hasMapTab"] = "true"
             df_graphers.loc[j, "tab"] = "map"
-            df_graphers.loc[j, "mapTargetTime"] = 2019
             df_graphers.loc[j, "yScaleToggle"] = "true"
             j += 1
 
@@ -352,7 +350,6 @@ for tab in range(len(tables)):
             df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
             df_graphers.loc[j, "hasMapTab"] = "true"
             df_graphers.loc[j, "tab"] = "map"
-            df_graphers.loc[j, "mapTargetTime"] = 2019
             df_graphers.loc[j, "yScaleToggle"] = "true"
             j += 1
 
@@ -379,7 +376,6 @@ for tab in range(len(tables)):
             df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
             df_graphers.loc[j, "hasMapTab"] = "true"
             df_graphers.loc[j, "tab"] = "map"
-            df_graphers.loc[j, "mapTargetTime"] = 2019
             j += 1
 
         # Thresholds - Top
@@ -403,7 +399,6 @@ for tab in range(len(tables)):
             df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
             df_graphers.loc[j, "hasMapTab"] = "true"
             df_graphers.loc[j, "tab"] = "map"
-            df_graphers.loc[j, "mapTargetTime"] = 2019
             df_graphers.loc[j, "yScaleToggle"] = "true"
             j += 1
 
@@ -430,7 +425,6 @@ for tab in range(len(tables)):
             df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
             df_graphers.loc[j, "hasMapTab"] = "true"
             df_graphers.loc[j, "tab"] = "map"
-            df_graphers.loc[j, "mapTargetTime"] = 2019
             df_graphers.loc[j, "yScaleToggle"] = "true"
             j += 1
 
@@ -455,7 +449,6 @@ for tab in range(len(tables)):
             df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
             df_graphers.loc[j, "hasMapTab"] = "true"
             df_graphers.loc[j, "tab"] = "map"
-            df_graphers.loc[j, "mapTargetTime"] = 2019
             j += 1
 
         # Thresholds - Multiple deciles
@@ -480,7 +473,6 @@ for tab in range(len(tables)):
         df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
         df_graphers.loc[j, "hasMapTab"] = "false"
         df_graphers.loc[j, "tab"] = "chart"
-        df_graphers.loc[j, "mapTargetTime"] = np.nan
         df_graphers.loc[j, "yScaleToggle"] = "true"
         j += 1
 
@@ -506,7 +498,6 @@ for tab in range(len(tables)):
         df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
         df_graphers.loc[j, "hasMapTab"] = "false"
         df_graphers.loc[j, "tab"] = "chart"
-        df_graphers.loc[j, "mapTargetTime"] = np.nan
         df_graphers.loc[j, "yScaleToggle"] = "true"
         j += 1
 
@@ -530,7 +521,6 @@ for tab in range(len(tables)):
         df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
         df_graphers.loc[j, "hasMapTab"] = "false"
         df_graphers.loc[j, "tab"] = "chart"
-        df_graphers.loc[j, "mapTargetTime"] = np.nan
         j += 1
 
         # Thresholds - Multiple deciles (including top)
@@ -555,7 +545,6 @@ for tab in range(len(tables)):
         df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
         df_graphers.loc[j, "hasMapTab"] = "false"
         df_graphers.loc[j, "tab"] = "chart"
-        df_graphers.loc[j, "mapTargetTime"] = np.nan
         df_graphers.loc[j, "yScaleToggle"] = "true"
         j += 1
 
@@ -581,7 +570,6 @@ for tab in range(len(tables)):
         df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
         df_graphers.loc[j, "hasMapTab"] = "false"
         df_graphers.loc[j, "tab"] = "chart"
-        df_graphers.loc[j, "mapTargetTime"] = np.nan
         df_graphers.loc[j, "yScaleToggle"] = "true"
         j += 1
 
@@ -605,7 +593,6 @@ for tab in range(len(tables)):
         df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
         df_graphers.loc[j, "hasMapTab"] = "false"
         df_graphers.loc[j, "tab"] = "chart"
-        df_graphers.loc[j, "mapTargetTime"] = np.nan
         j += 1
 
     df_graphers["tableSlug"] = tables["name"][tab]
@@ -618,8 +605,9 @@ for tab in range(len(tables)):
 df_graphers["relatedQuestionText"] = np.nan
 df_graphers["relatedQuestionUrl"] = np.nan
 
-# Add yAxisMin
+# Add yAxisMin and mapTargetTime
 df_graphers["yAxisMin"] = yAxisMin
+df_graphers["mapTargetTime"] = mapTargetTime
 
 # Make mapTargetTime integer (to not break the parameter in the platform)
 df_graphers["mapTargetTime"] = df_graphers["mapTargetTime"].astype("Int64")

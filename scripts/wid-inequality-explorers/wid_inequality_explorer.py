@@ -271,6 +271,7 @@ df_tables["tolerance"] = df_tables["tolerance"].astype("Int64")
 # Grapher table generation
 
 yAxisMin = 0
+mapTargetTime = 2019
 
 df_graphers = pd.DataFrame()
 
@@ -296,7 +297,6 @@ for tab in range(len(tables)):
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
         df_graphers.loc[j, "hasMapTab"] = "true"
         df_graphers.loc[j, "tab"] = "map"
-        df_graphers.loc[j, "mapTargetTime"] = 2019
         j += 1
 
         # Share of the top 10%
@@ -317,7 +317,6 @@ for tab in range(len(tables)):
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
         df_graphers.loc[j, "hasMapTab"] = "true"
         df_graphers.loc[j, "tab"] = "map"
-        df_graphers.loc[j, "mapTargetTime"] = 2019
         j += 1
 
         # Share of the top 1%
@@ -338,7 +337,6 @@ for tab in range(len(tables)):
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
         df_graphers.loc[j, "hasMapTab"] = "true"
         df_graphers.loc[j, "tab"] = "map"
-        df_graphers.loc[j, "mapTargetTime"] = 2019
         j += 1
 
         # Share of the top 0.1%
@@ -359,7 +357,6 @@ for tab in range(len(tables)):
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
         df_graphers.loc[j, "hasMapTab"] = "true"
         df_graphers.loc[j, "tab"] = "map"
-        df_graphers.loc[j, "mapTargetTime"] = 2019
         j += 1
 
         # Share of the top 0.01%
@@ -380,7 +377,6 @@ for tab in range(len(tables)):
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
         df_graphers.loc[j, "hasMapTab"] = "true"
         df_graphers.loc[j, "tab"] = "map"
-        df_graphers.loc[j, "mapTargetTime"] = 2019
         j += 1
 
         # Share of the top 0.001%
@@ -401,7 +397,6 @@ for tab in range(len(tables)):
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
         df_graphers.loc[j, "hasMapTab"] = "true"
         df_graphers.loc[j, "tab"] = "map"
-        df_graphers.loc[j, "mapTargetTime"] = 2019
         j += 1
 
         # P90/P10
@@ -422,7 +417,6 @@ for tab in range(len(tables)):
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
         df_graphers.loc[j, "hasMapTab"] = "true"
         df_graphers.loc[j, "tab"] = "map"
-        df_graphers.loc[j, "mapTargetTime"] = 2019
         j += 1
 
         # P90/P50
@@ -443,7 +437,6 @@ for tab in range(len(tables)):
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
         df_graphers.loc[j, "hasMapTab"] = "true"
         df_graphers.loc[j, "tab"] = "map"
-        df_graphers.loc[j, "mapTargetTime"] = 2019
         j += 1
 
         # P50/P10
@@ -464,7 +457,6 @@ for tab in range(len(tables)):
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
         df_graphers.loc[j, "hasMapTab"] = "true"
         df_graphers.loc[j, "tab"] = "map"
-        df_graphers.loc[j, "mapTargetTime"] = 2019
         j += 1
 
         # # Palma ratio
@@ -485,7 +477,6 @@ for tab in range(len(tables)):
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
         df_graphers.loc[j, "hasMapTab"] = "true"
         df_graphers.loc[j, "tab"] = "map"
-        df_graphers.loc[j, "mapTargetTime"] = 2019
         j += 1
 
     df_graphers["tableSlug"] = tables["name"][tab]
@@ -498,8 +489,9 @@ for tab in range(len(tables)):
 df_graphers["relatedQuestionText"] = np.nan
 df_graphers["relatedQuestionUrl"] = np.nan
 
-# Add yAxisMin
+# Add yAxisMin and mapTargetTime
 df_graphers["yAxisMin"] = yAxisMin
+df_graphers["mapTargetTime"] = mapTargetTime
 
 # Make mapTargetTime integer (to not break the parameter in the platform)
 df_graphers["mapTargetTime"] = df_graphers["mapTargetTime"].astype("Int64")

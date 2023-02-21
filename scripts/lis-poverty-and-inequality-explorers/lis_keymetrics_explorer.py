@@ -153,13 +153,13 @@ for tab in range(len(tables)):
             for pct in range(len(povlines_rel)):
                 df_tables.loc[
                     j, "name"
-                ] = f"{povlines_rel['percent'][pct]} of median - share of population below poverty line ({welfare['technical_text'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+                ] = f"{povlines_rel['percent'][pct]} of median DHI - share of population below poverty line ({welfare['technical_text'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
                 df_tables.loc[
                     j, "slug"
                 ] = f"headcount_ratio_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
                 df_tables.loc[
                     j, "description"
-                ] = f"% of population living in households with {welfare['welfare_type'][wel]} below {povlines_rel['percent'][pct]} of the median.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}Household {welfare['welfare_type'][wel]} {equivalence_scales['note'][eq]}"
+                ] = f"% of population living in households with {welfare['welfare_type'][wel]} below {povlines_rel['percent'][pct]} of the median disposable household income.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}Household {welfare['welfare_type'][wel]} {equivalence_scales['note'][eq]}"
                 df_tables.loc[j, "unit"] = "%"
                 df_tables.loc[j, "shortUnit"] = "%"
                 df_tables.loc[j, "type"] = "Numeric"
@@ -171,13 +171,13 @@ for tab in range(len(tables)):
             for pct in range(len(povlines_rel)):
                 df_tables.loc[
                     j, "name"
-                ] = f"{povlines_rel['percent'][pct]} of median - total number of people below poverty line"
+                ] = f"{povlines_rel['percent'][pct]} of median DHI - total number of people below poverty line"
                 df_tables.loc[
                     j, "slug"
                 ] = f"headcount_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
                 df_tables.loc[
                     j, "description"
-                ] = f"Number of people living in households with {welfare['welfare_type'][wel]} below {povlines_rel['percent'][pct]} of the median.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}Household {welfare['welfare_type'][wel]} {equivalence_scales['note'][eq]}"
+                ] = f"Number of people living in households with {welfare['welfare_type'][wel]} below {povlines_rel['percent'][pct]} of the median disposable household income.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}Household {welfare['welfare_type'][wel]} {equivalence_scales['note'][eq]}"
                 df_tables.loc[j, "unit"] = np.nan
                 df_tables.loc[j, "shortUnit"] = np.nan
                 df_tables.loc[j, "type"] = "Numeric"
@@ -243,7 +243,7 @@ for tab in range(len(tables)):
             # P90
             df_tables.loc[
                 j, "name"
-            ] = f"Threshold {welfare['welfare_type'][wel]} per day marking the richest decile ({welfare['technical_text'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+            ] = f"Threshold {welfare['welfare_type'][wel]} marking the richest decile ({welfare['technical_text'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
             df_tables.loc[
                 j, "slug"
             ] = f"thr_p90_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
@@ -279,6 +279,7 @@ df_tables["tolerance"] = df_tables["tolerance"].astype("Int64")
 # Grapher table generation
 
 yAxisMin = 0
+mapTargetTime = 2019
 
 df_graphers = pd.DataFrame()
 
@@ -316,7 +317,6 @@ for tab in range(len(tables)):
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
                 df_graphers.loc[j, "hasMapTab"] = "true"
                 df_graphers.loc[j, "tab"] = "map"
-                df_graphers.loc[j, "mapTargetTime"] = 2019
                 j += 1
 
             # Headcount (abs)
@@ -348,7 +348,6 @@ for tab in range(len(tables)):
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
                 df_graphers.loc[j, "hasMapTab"] = "true"
                 df_graphers.loc[j, "tab"] = "map"
-                df_graphers.loc[j, "mapTargetTime"] = 2019
                 j += 1
 
             # Headcount ratio (abs) - Multiple lines
@@ -377,7 +376,6 @@ for tab in range(len(tables)):
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
             df_graphers.loc[j, "hasMapTab"] = "false"
             df_graphers.loc[j, "tab"] = "chart"
-            df_graphers.loc[j, "mapTargetTime"] = 2019
             j += 1
 
             # Headcount (abs) - Multiple lines
@@ -406,7 +404,6 @@ for tab in range(len(tables)):
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
             df_graphers.loc[j, "hasMapTab"] = "false"
             df_graphers.loc[j, "tab"] = "chart"
-            df_graphers.loc[j, "mapTargetTime"] = 2019
             j += 1
 
             # Headcount ratio (rel)
@@ -429,14 +426,13 @@ for tab in range(len(tables)):
                 ][eq].capitalize()
                 df_graphers.loc[
                     j, "subtitle"
-                ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at {povlines_rel['text'][pct]} {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
+                ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at {povlines_rel['text'][pct]} disposable household income. {welfare['subtitle'][wel]}"
                 df_graphers.loc[j, "note"] = np.nan
                 df_graphers.loc[j, "type"] = np.nan
                 df_graphers.loc[j, "facet"] = np.nan
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
                 df_graphers.loc[j, "hasMapTab"] = "true"
                 df_graphers.loc[j, "tab"] = "map"
-                df_graphers.loc[j, "mapTargetTime"] = 2019
                 j += 1
 
             # Headcount (rel)
@@ -459,14 +455,13 @@ for tab in range(len(tables)):
                 ][eq].capitalize()
                 df_graphers.loc[
                     j, "subtitle"
-                ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at {povlines_rel['text'][pct]} {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
+                ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at {povlines_rel['text'][pct]} disposable household income. {welfare['subtitle'][wel]}"
                 df_graphers.loc[j, "note"] = np.nan
                 df_graphers.loc[j, "type"] = np.nan
                 df_graphers.loc[j, "facet"] = np.nan
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
                 df_graphers.loc[j, "hasMapTab"] = "true"
                 df_graphers.loc[j, "tab"] = "map"
-                df_graphers.loc[j, "mapTargetTime"] = 2019
                 j += 1
 
             # Mean
@@ -493,7 +488,6 @@ for tab in range(len(tables)):
             df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
             df_graphers.loc[j, "hasMapTab"] = "true"
             df_graphers.loc[j, "tab"] = "map"
-            df_graphers.loc[j, "mapTargetTime"] = 2019
             df_graphers.loc[j, "yScaleToggle"] = "true"
             j += 1
 
@@ -521,7 +515,6 @@ for tab in range(len(tables)):
             df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
             df_graphers.loc[j, "hasMapTab"] = "true"
             df_graphers.loc[j, "tab"] = "map"
-            df_graphers.loc[j, "mapTargetTime"] = 2019
             df_graphers.loc[j, "yScaleToggle"] = "true"
             j += 1
 
@@ -552,14 +545,13 @@ for tab in range(len(tables)):
             df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
             df_graphers.loc[j, "hasMapTab"] = "true"
             df_graphers.loc[j, "tab"] = "map"
-            df_graphers.loc[j, "mapTargetTime"] = 2019
             df_graphers.loc[j, "yScaleToggle"] = "true"
             j += 1
 
             # P90
             df_graphers.loc[
                 j, "title"
-            ] = f"Threshold {welfare['welfare_type'][wel]} per day marking the richest decile ({welfare['title'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+            ] = f"Threshold {welfare['welfare_type'][wel]} marking the richest decile ({welfare['title'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
             df_graphers.loc[
                 j, "ySlugs"
             ] = f"thr_p90_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
@@ -583,7 +575,6 @@ for tab in range(len(tables)):
             df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
             df_graphers.loc[j, "hasMapTab"] = "true"
             df_graphers.loc[j, "tab"] = "map"
-            df_graphers.loc[j, "mapTargetTime"] = 2019
             df_graphers.loc[j, "yScaleToggle"] = "true"
             j += 1
 
@@ -597,8 +588,9 @@ for tab in range(len(tables)):
 df_graphers["relatedQuestionText"] = np.nan
 df_graphers["relatedQuestionUrl"] = np.nan
 
-# Add yAxisMin
+# Add yAxisMin and mapTargetTime
 df_graphers["yAxisMin"] = yAxisMin
+df_graphers["mapTargetTime"] = mapTargetTime
 
 # Make mapTargetTime integer (to not break the parameter in the platform)
 df_graphers["mapTargetTime"] = df_graphers["mapTargetTime"].astype("Int64")
