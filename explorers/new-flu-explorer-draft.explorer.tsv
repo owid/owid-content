@@ -30,7 +30,19 @@ graphers
 	Weekly confirmed cases of influenza B Yamagata	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be of the Yamagata lineage of influenza B virus.	byam	true		LineChart	Influenza B Yamagata (cases)
 	Weekly confirmed cases of influenza B (unknown lineage)	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be influenza B virus, but their lineage was not determined.	bnotdetermined	true		LineChart	Influenza B unknown (cases)
 	Weekly confirmed cases of influenza B	This includes confirmed cases of any lineage of influenza B virus. Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their lineage.	inf_b	true		LineChart	Total influenza B (cases)
-table	https://raw.githubusercontent.com/spoonerf/flu_test/main/explorer_file_will_delete.csv
+	Weekly confirmed cases of influenza A H1N1 (2009) - Sentinel		ah1n12009sentinel
+	Weekly confirmed cases of influenza A H1N1 (2009) - Non-sentinel		ah1n12009nonsentinel
+	Weekly confirmed cases of influenza A H1N1 (2009)- Not defined		ah1n12009notdefined
+	Weekly confirmed cases of influenza A H1N1 (2009) - Combined		ah1n12009combined
+			ah1sentinel
+			ah1nonsentinel
+			ah1notdefined
+			ah1combined
+			ah3sentinel
+			ah3nonsentinel
+			ah3notdefined
+			ah3combined
+table	https://raw.githubusercontent.com/spoonerf/flu_test/main/flu_output.csv
 columns
 	slug	name	type	tolerance	sourceName	sourceLink	additionalInfo	colorScaleNumericMinValue	colorScaleScheme
 	country	Country	EntityName						OrRd
@@ -43,9 +55,18 @@ columns
 	ili_cases_per_thousand_outpatients	Cases of influenza-like illness per thousand outpatients	Integer						OrRd
 	sari_cases_per_hundred_inpatients	Cases of acute respiratory illness per thousand outpatients	Integer						OrRd
 	ari_cases_per_thousand_outpatients	Cases of serious acute respiratory illness per hundred inpatients	Integer						OrRd
-	ah1n12009	Cases of AH1N12009	Integer					0	OrRd
-	ah1	Cases of AH1	Integer					0	OrRd
-	ah3	Cases of AH3	Integer					0	OrRd
+	ah1n12009sentinel	Cases of AH1N12009 - Sentinel
+	ah1n12009nonsentinel		Integer					0	OrRd
+	ah1n12009notdefined
+	ah1n12009combined
+	ah1sentinel
+	ah1nonsentinel
+	ah1notdefined
+	ah1combined
+	ah3sentinel
+	ah3nonsentinel
+	ah3notdefined	Cases of AH3	Integer					0	OrRd
+	ah3combined
 	ah5	Cases of AH5	Integer					0	OrRd
 	ah7n9	Cases of AH7N9	Integer					0	OrRd
 	a_no_subtype	Other cases of strain A	Integer					0	OrRd
