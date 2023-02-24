@@ -10,7 +10,7 @@ pickerColumnSlugs
 downloadDataLink	https://raw.githubusercontent.com/spoonerf/flu_test/main/explorer_file_will_delete.csv
 graphers
 	title	subtitle	ySlugs	hideTitleAnnotation	stackMode	type	Flu type Dropdown
-	Weekly confirmed cases of influenza	This includes confirmed cases of any influenza virus. Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their strain or lineage.	inf_all	true		LineChart	Confirmed influenza cases (all types)
+	Weekly confirmed cases of influenza	This includes confirmed cases of any influenza virus. Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their strain or lineage.	inf_allcombined	true		LineChart	Confirmed influenza cases (all types)
 	Cases of acute respiratory infections		reported_ari_cases	true		LineChart	Acute respiratory infections
 	Cases of severe acute respiratory infections		reported_sari_cases	true		LineChart	Severe acute respiratory infections
 	Cases of influenza like illnesses		reported_ili_cases	true		LineChart	Influenza-like illnesses
@@ -75,6 +75,6 @@ columns
 	bnotdetermined	Other cases of strain B	Integer					0	OrRd
 	bvic	Cases of B Victoria	Integer					0	OrRd
 	inf_b	Total Influenza B cases	Integer					0	OrRd
-	inf_all	Total confirmed influenza cases	Integer					0	OrRd
+	inf_allcombined	Total confirmed influenza cases	Integer					0	OrRd
 	pcnt_pos	Weekly share of influenza tests that were positive	Percentage
 	inf_negative	Total negative tests	Integer					0	OrRd
