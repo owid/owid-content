@@ -512,7 +512,6 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "yAxisMin"] = 0
-        df_graphers.loc[j, "facet"] = np.nan
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
         df_graphers.loc[j, "hasMapTab"] = "true"
         df_graphers.loc[j, "tab"] = "map"
@@ -542,7 +541,6 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "yAxisMin"] = 0
-        df_graphers.loc[j, "facet"] = np.nan
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
         df_graphers.loc[j, "hasMapTab"] = "true"
         df_graphers.loc[j, "tab"] = "map"
@@ -572,7 +570,6 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "yAxisMin"] = 0
-        df_graphers.loc[j, "facet"] = np.nan
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
         df_graphers.loc[j, "hasMapTab"] = "true"
         df_graphers.loc[j, "tab"] = "map"
@@ -602,7 +599,6 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "yAxisMin"] = 0
-        df_graphers.loc[j, "facet"] = np.nan
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
         df_graphers.loc[j, "hasMapTab"] = "true"
         df_graphers.loc[j, "tab"] = "map"
@@ -632,7 +628,6 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "yAxisMin"] = 0
-        df_graphers.loc[j, "facet"] = "entity"
         df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
         df_graphers.loc[j, "hasMapTab"] = np.nan
         df_graphers.loc[j, "tab"] = np.nan
@@ -662,7 +657,6 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "yAxisMin"] = 0
-        df_graphers.loc[j, "facet"] = "entity"
         df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
         df_graphers.loc[j, "hasMapTab"] = np.nan
         df_graphers.loc[j, "tab"] = np.nan
@@ -692,7 +686,6 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "yAxisMin"] = 0
-        df_graphers.loc[j, "facet"] = np.nan
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
         df_graphers.loc[j, "hasMapTab"] = "true"
         df_graphers.loc[j, "tab"] = "map"
@@ -722,7 +715,6 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "yAxisMin"] = 0
-        df_graphers.loc[j, "facet"] = np.nan
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
         df_graphers.loc[j, "hasMapTab"] = "true"
         df_graphers.loc[j, "tab"] = "map"
@@ -752,7 +744,6 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "yAxisMin"] = 0
-        df_graphers.loc[j, "facet"] = np.nan
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
         df_graphers.loc[j, "hasMapTab"] = "true"
         df_graphers.loc[j, "tab"] = "map"
@@ -782,7 +773,6 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "yAxisMin"] = 0
-        df_graphers.loc[j, "facet"] = np.nan
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
         df_graphers.loc[j, "hasMapTab"] = "true"
         df_graphers.loc[j, "tab"] = "map"
@@ -813,7 +803,6 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
     df_graphers.loc[j, "type"] = np.nan
     df_graphers.loc[j, "yAxisMin"] = 0
-    df_graphers.loc[j, "facet"] = "entity"
     df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
     df_graphers.loc[j, "hasMapTab"] = np.nan
     df_graphers.loc[j, "tab"] = np.nan
@@ -844,7 +833,6 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
     df_graphers.loc[j, "type"] = np.nan
     df_graphers.loc[j, "yAxisMin"] = 0
-    df_graphers.loc[j, "facet"] = "entity"
     df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
     df_graphers.loc[j, "hasMapTab"] = np.nan
     df_graphers.loc[j, "tab"] = np.nan
@@ -873,7 +861,6 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
     df_graphers.loc[j, "type"] = np.nan
     df_graphers.loc[j, "yAxisMin"] = 0
-    df_graphers.loc[j, "facet"] = np.nan
     df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
     df_graphers.loc[j, "hasMapTab"] = "true"
     df_graphers.loc[j, "tab"] = "map"
@@ -903,7 +890,6 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
     df_graphers.loc[j, "type"] = np.nan
     df_graphers.loc[j, "yAxisMin"] = 0
-    df_graphers.loc[j, "facet"] = np.nan
     df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
     df_graphers.loc[j, "hasMapTab"] = "true"
     df_graphers.loc[j, "tab"] = "map"
@@ -933,7 +919,6 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
     df_graphers.loc[j, "type"] = np.nan
     df_graphers.loc[j, "yAxisMin"] = 0
-    df_graphers.loc[j, "facet"] = "entity"
     df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
     df_graphers.loc[j, "hasMapTab"] = np.nan
     df_graphers.loc[j, "tab"] = np.nan
@@ -963,7 +948,6 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
     df_graphers.loc[j, "type"] = np.nan
     df_graphers.loc[j, "yAxisMin"] = 0
-    df_graphers.loc[j, "facet"] = np.nan
     df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
     df_graphers.loc[j, "hasMapTab"] = "true"
     df_graphers.loc[j, "tab"] = "map"
@@ -993,7 +977,6 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
     df_graphers.loc[j, "type"] = np.nan
     df_graphers.loc[j, "yAxisMin"] = 0
-    df_graphers.loc[j, "facet"] = np.nan
     df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
     df_graphers.loc[j, "hasMapTab"] = "true"
     df_graphers.loc[j, "tab"] = "map"
@@ -1023,7 +1006,6 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
     df_graphers.loc[j, "type"] = np.nan
     df_graphers.loc[j, "yAxisMin"] = 0
-    df_graphers.loc[j, "facet"] = "entity"
     df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
     df_graphers.loc[j, "hasMapTab"] = np.nan
     df_graphers.loc[j, "tab"] = np.nan
@@ -1053,7 +1035,6 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
     df_graphers.loc[j, "type"] = np.nan
     df_graphers.loc[j, "yAxisMin"] = 0
-    df_graphers.loc[j, "facet"] = np.nan
     df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
     df_graphers.loc[j, "hasMapTab"] = "true"
     df_graphers.loc[j, "tab"] = "map"
@@ -1083,7 +1064,6 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
     df_graphers.loc[j, "type"] = np.nan
     df_graphers.loc[j, "yAxisMin"] = 0
-    df_graphers.loc[j, "facet"] = np.nan
     df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
     df_graphers.loc[j, "hasMapTab"] = "true"
     df_graphers.loc[j, "tab"] = "map"
@@ -1113,7 +1093,6 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
     df_graphers.loc[j, "type"] = np.nan
     df_graphers.loc[j, "yAxisMin"] = 0
-    df_graphers.loc[j, "facet"] = "entity"
     df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
     df_graphers.loc[j, "hasMapTab"] = np.nan
     df_graphers.loc[j, "tab"] = np.nan
@@ -1143,7 +1122,6 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
     df_graphers.loc[j, "type"] = np.nan
     df_graphers.loc[j, "yAxisMin"] = 0
-    df_graphers.loc[j, "facet"] = np.nan
     df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
     df_graphers.loc[j, "hasMapTab"] = "true"
     df_graphers.loc[j, "tab"] = "map"
@@ -1173,7 +1151,6 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
     df_graphers.loc[j, "type"] = np.nan
     df_graphers.loc[j, "yAxisMin"] = 0
-    df_graphers.loc[j, "facet"] = np.nan
     df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
     df_graphers.loc[j, "hasMapTab"] = "true"
     df_graphers.loc[j, "tab"] = "map"
@@ -1203,7 +1180,6 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
     df_graphers.loc[j, "type"] = np.nan
     df_graphers.loc[j, "yAxisMin"] = 0
-    df_graphers.loc[j, "facet"] = "entity"
     df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
     df_graphers.loc[j, "hasMapTab"] = np.nan
     df_graphers.loc[j, "tab"] = np.nan

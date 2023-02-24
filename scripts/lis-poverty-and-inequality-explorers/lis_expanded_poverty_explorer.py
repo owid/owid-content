@@ -394,7 +394,6 @@ for tab in range(len(tables)):
                     j, "note"
                 ] = f"This data is measured in international-$ at 2017 prices."
                 df_graphers.loc[j, "type"] = np.nan
-                df_graphers.loc[j, "facet"] = np.nan
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
                 df_graphers.loc[j, "hasMapTab"] = "true"
                 df_graphers.loc[j, "tab"] = "map"
@@ -425,7 +424,6 @@ for tab in range(len(tables)):
                     j, "note"
                 ] = f"This data is measured in international-$ at 2017 prices."
                 df_graphers.loc[j, "type"] = np.nan
-                df_graphers.loc[j, "facet"] = np.nan
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
                 df_graphers.loc[j, "hasMapTab"] = "true"
                 df_graphers.loc[j, "tab"] = "map"
@@ -453,7 +451,6 @@ for tab in range(len(tables)):
                 j, "note"
             ] = f"This data is measured in international-$ at 2017 prices."
             df_graphers.loc[j, "type"] = np.nan
-            df_graphers.loc[j, "facet"] = "entity"
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
             df_graphers.loc[j, "hasMapTab"] = "false"
             df_graphers.loc[j, "tab"] = "chart"
@@ -481,7 +478,6 @@ for tab in range(len(tables)):
                 j, "note"
             ] = f"This data is measured in international-$ at 2017 prices."
             df_graphers.loc[j, "type"] = np.nan
-            df_graphers.loc[j, "facet"] = "entity"
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
             df_graphers.loc[j, "hasMapTab"] = "false"
             df_graphers.loc[j, "tab"] = "chart"
@@ -514,7 +510,6 @@ for tab in range(len(tables)):
                     j, "note"
                 ] = "This data is expressed in international-$ at 2017 prices. The cost of closing the poverty gap does not take into account costs and inefficiencies from making the necessary transfers."
                 df_graphers.loc[j, "type"] = np.nan
-                df_graphers.loc[j, "facet"] = np.nan
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
                 df_graphers.loc[j, "hasMapTab"] = "true"
                 df_graphers.loc[j, "tab"] = "map"
@@ -545,7 +540,6 @@ for tab in range(len(tables)):
                     j, "note"
                 ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
                 df_graphers.loc[j, "type"] = np.nan
-                df_graphers.loc[j, "facet"] = np.nan
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
                 df_graphers.loc[j, "hasMapTab"] = "true"
                 df_graphers.loc[j, "tab"] = "map"
@@ -578,7 +572,6 @@ for tab in range(len(tables)):
                     j, "note"
                 ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
                 df_graphers.loc[j, "type"] = np.nan
-                df_graphers.loc[j, "facet"] = np.nan
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
                 df_graphers.loc[j, "hasMapTab"] = "true"
                 df_graphers.loc[j, "tab"] = "map"
@@ -609,7 +602,6 @@ for tab in range(len(tables)):
                     j, "note"
                 ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
                 df_graphers.loc[j, "type"] = np.nan
-                df_graphers.loc[j, "facet"] = np.nan
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
                 df_graphers.loc[j, "hasMapTab"] = "true"
                 df_graphers.loc[j, "tab"] = "map"
@@ -638,7 +630,6 @@ for tab in range(len(tables)):
                 ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at {povlines_rel['text'][pct]} disposable household income. {welfare['subtitle'][wel]}"
                 df_graphers.loc[j, "note"] = np.nan
                 df_graphers.loc[j, "type"] = np.nan
-                df_graphers.loc[j, "facet"] = np.nan
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
                 df_graphers.loc[j, "hasMapTab"] = "true"
                 df_graphers.loc[j, "tab"] = "map"
@@ -667,7 +658,6 @@ for tab in range(len(tables)):
                 ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at {povlines_rel['text'][pct]} disposable household income. {welfare['subtitle'][wel]}"
                 df_graphers.loc[j, "note"] = np.nan
                 df_graphers.loc[j, "type"] = np.nan
-                df_graphers.loc[j, "facet"] = np.nan
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
                 df_graphers.loc[j, "hasMapTab"] = "true"
                 df_graphers.loc[j, "tab"] = "map"
@@ -700,7 +690,6 @@ for tab in range(len(tables)):
                     j, "note"
                 ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
                 df_graphers.loc[j, "type"] = np.nan
-                df_graphers.loc[j, "facet"] = np.nan
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
                 df_graphers.loc[j, "hasMapTab"] = "true"
                 df_graphers.loc[j, "tab"] = "map"
@@ -731,7 +720,6 @@ for tab in range(len(tables)):
                     j, "note"
                 ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
                 df_graphers.loc[j, "type"] = np.nan
-                df_graphers.loc[j, "facet"] = np.nan
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
                 df_graphers.loc[j, "hasMapTab"] = "true"
                 df_graphers.loc[j, "tab"] = "map"
@@ -764,7 +752,6 @@ for tab in range(len(tables)):
                     j, "note"
                 ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
                 df_graphers.loc[j, "type"] = np.nan
-                df_graphers.loc[j, "facet"] = np.nan
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
                 df_graphers.loc[j, "hasMapTab"] = "true"
                 df_graphers.loc[j, "tab"] = "map"
@@ -795,7 +782,6 @@ for tab in range(len(tables)):
                     j, "note"
                 ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
                 df_graphers.loc[j, "type"] = np.nan
-                df_graphers.loc[j, "facet"] = np.nan
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
                 df_graphers.loc[j, "hasMapTab"] = "true"
                 df_graphers.loc[j, "tab"] = "map"

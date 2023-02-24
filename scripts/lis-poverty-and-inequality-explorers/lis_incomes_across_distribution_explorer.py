@@ -254,7 +254,6 @@ for tab in range(len(tables)):
             df_graphers.loc[
                 j, "note"
             ] = f"This data is measured in international-$ at 2017 prices."
-            df_graphers.loc[j, "facet"] = np.nan
             df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
             df_graphers.loc[j, "hasMapTab"] = "true"
             df_graphers.loc[j, "tab"] = "map"
@@ -282,7 +281,6 @@ for tab in range(len(tables)):
             df_graphers.loc[
                 j, "note"
             ] = f"This data is measured in international-$ at 2017 prices."
-            df_graphers.loc[j, "facet"] = np.nan
             df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
             df_graphers.loc[j, "hasMapTab"] = "true"
             df_graphers.loc[j, "tab"] = "map"
@@ -311,7 +309,6 @@ for tab in range(len(tables)):
                 df_graphers.loc[
                     j, "note"
                 ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
-                df_graphers.loc[j, "facet"] = np.nan
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
                 df_graphers.loc[j, "hasMapTab"] = "true"
                 df_graphers.loc[j, "tab"] = "map"
@@ -342,7 +339,6 @@ for tab in range(len(tables)):
                 df_graphers.loc[
                     j, "note"
                 ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
-                df_graphers.loc[j, "facet"] = np.nan
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
                 df_graphers.loc[j, "hasMapTab"] = "true"
                 df_graphers.loc[j, "tab"] = "map"
@@ -369,7 +365,6 @@ for tab in range(len(tables)):
                     j, "subtitle"
                 ] = f"This is the {welfare['welfare_type'][wel]} of the {deciles10['ordinal'][dec10]} (tenth of the population) as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
                 df_graphers.loc[j, "note"] = np.nan
-                df_graphers.loc[j, "facet"] = np.nan
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
                 df_graphers.loc[j, "hasMapTab"] = "true"
                 df_graphers.loc[j, "tab"] = "map"
@@ -396,7 +391,6 @@ for tab in range(len(tables)):
             df_graphers.loc[
                 j, "note"
             ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
-            df_graphers.loc[j, "facet"] = "entity"
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
             df_graphers.loc[j, "hasMapTab"] = "false"
             df_graphers.loc[j, "tab"] = "chart"
@@ -426,7 +420,6 @@ for tab in range(len(tables)):
             df_graphers.loc[
                 j, "note"
             ] = f"This data is measured in international-$ at 2017 prices."
-            df_graphers.loc[j, "facet"] = "entity"
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
             df_graphers.loc[j, "hasMapTab"] = "false"
             df_graphers.loc[j, "tab"] = "chart"
@@ -452,7 +445,6 @@ for tab in range(len(tables)):
                 j, "subtitle"
             ] = f"This is the {welfare['welfare_type'][wel]} of each decile (tenth of the population) as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
             df_graphers.loc[j, "note"] = np.nan
-            df_graphers.loc[j, "facet"] = "entity"
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
             df_graphers.loc[j, "hasMapTab"] = "false"
             df_graphers.loc[j, "tab"] = "chart"

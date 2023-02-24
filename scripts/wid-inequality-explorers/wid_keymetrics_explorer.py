@@ -278,7 +278,6 @@ for tab in range(len(tables)):
             j, "subtitle"
         ] = f"The Gini coefficient is a measure of the inequality of the {welfare['welfare_type'][wel]} distribution in a population. Higher values indicate a higher level of inequality. {welfare['subtitle'][wel]}"
         df_graphers.loc[j, "note"] = f"{welfare['note'][wel]}"
-        df_graphers.loc[j, "facet"] = np.nan
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
         df_graphers.loc[j, "hasMapTab"] = "true"
         df_graphers.loc[j, "tab"] = "map"
@@ -299,7 +298,6 @@ for tab in range(len(tables)):
         df_graphers.loc[
             j, "note"
         ] = f"This data is measured in international-$ at 2021 prices. {welfare['note'][wel]}"
-        df_graphers.loc[j, "facet"] = np.nan
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
         df_graphers.loc[j, "hasMapTab"] = "true"
         df_graphers.loc[j, "tab"] = "map"
@@ -321,7 +319,6 @@ for tab in range(len(tables)):
         df_graphers.loc[
             j, "note"
         ] = f"This data is measured in international-$ at 2021 prices. {welfare['note'][wel]}"
-        df_graphers.loc[j, "facet"] = np.nan
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
         df_graphers.loc[j, "hasMapTab"] = "true"
         df_graphers.loc[j, "tab"] = "map"
@@ -341,7 +338,6 @@ for tab in range(len(tables)):
             j, "subtitle"
         ] = f"This is the {welfare['welfare_type'][wel]} of the richest 10% as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
         df_graphers.loc[j, "note"] = f"{welfare['note'][wel]}"
-        df_graphers.loc[j, "facet"] = np.nan
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
         df_graphers.loc[j, "hasMapTab"] = "true"
         df_graphers.loc[j, "tab"] = "map"
@@ -360,7 +356,6 @@ for tab in range(len(tables)):
             j, "subtitle"
         ] = f"This is the {welfare['welfare_type'][wel]} of the richest 1% as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
         df_graphers.loc[j, "note"] = f"{welfare['note'][wel]}"
-        df_graphers.loc[j, "facet"] = np.nan
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
         df_graphers.loc[j, "hasMapTab"] = "true"
         df_graphers.loc[j, "tab"] = "map"
@@ -382,7 +377,6 @@ for tab in range(len(tables)):
             j, "note"
         ] = f"This data is measured in international-$ at 2021 prices to account for inflation and differences in the cost of living between countries. {welfare['note'][wel]}"
         df_graphers.loc[j, "type"] = np.nan
-        df_graphers.loc[j, "facet"] = np.nan
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
         df_graphers.loc[j, "hasMapTab"] = "true"
         df_graphers.loc[j, "tab"] = "map"
@@ -405,7 +399,6 @@ for tab in range(len(tables)):
             j, "note"
         ] = f"This data is measured in international-$ at 2021 prices to account for inflation and differences in the cost of living between countries."
         df_graphers.loc[j, "type"] = np.nan
-        df_graphers.loc[j, "facet"] = np.nan
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
         df_graphers.loc[j, "hasMapTab"] = "true"
         df_graphers.loc[j, "tab"] = "map"
@@ -425,7 +418,6 @@ for tab in range(len(tables)):
             j, "subtitle"
         ] = f"The Palma ratio is the share of total {welfare['welfare_type'][wel]} of the top 10% divided by the share of the bottom 40%. {welfare['subtitle'][wel]}"
         df_graphers.loc[j, "note"] = f"{welfare['note'][wel]}"
-        df_graphers.loc[j, "facet"] = np.nan
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
         df_graphers.loc[j, "hasMapTab"] = "true"
         df_graphers.loc[j, "tab"] = "map"

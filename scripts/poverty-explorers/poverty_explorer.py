@@ -357,7 +357,6 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "yAxisMin"] = 0
-        df_graphers.loc[j, "facet"] = np.nan
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
         df_graphers.loc[j, "hasMapTab"] = "true"
         df_graphers.loc[j, "tab"] = "map"
@@ -384,7 +383,6 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "yAxisMin"] = 0
-        df_graphers.loc[j, "facet"] = np.nan
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
         df_graphers.loc[j, "hasMapTab"] = "true"
         df_graphers.loc[j, "tab"] = "map"
@@ -414,7 +412,6 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
     df_graphers.loc[j, "type"] = np.nan
     df_graphers.loc[j, "yAxisMin"] = 0
-    df_graphers.loc[j, "facet"] = "entity"
     df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
     df_graphers.loc[j, "hasMapTab"] = "false"
     df_graphers.loc[j, "tab"] = "chart"
@@ -444,7 +441,6 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
     df_graphers.loc[j, "type"] = np.nan
     df_graphers.loc[j, "yAxisMin"] = 0
-    df_graphers.loc[j, "facet"] = "entity"
     df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
     df_graphers.loc[j, "hasMapTab"] = "false"
     df_graphers.loc[j, "tab"] = "chart"
@@ -473,7 +469,6 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "yAxisMin"] = 0
-        df_graphers.loc[j, "facet"] = np.nan
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
         df_graphers.loc[j, "hasMapTab"] = "true"
         df_graphers.loc[j, "tab"] = "map"
@@ -500,7 +495,6 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "yAxisMin"] = 0
-        df_graphers.loc[j, "facet"] = np.nan
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
         df_graphers.loc[j, "hasMapTab"] = "true"
         df_graphers.loc[j, "tab"] = "map"
@@ -526,7 +520,6 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
     df_graphers.loc[j, "type"] = np.nan
     df_graphers.loc[j, "yAxisMin"] = 0
-    df_graphers.loc[j, "facet"] = np.nan
     df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
     df_graphers.loc[j, "hasMapTab"] = "true"
     df_graphers.loc[j, "tab"] = "map"
@@ -553,7 +546,6 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
     df_graphers.loc[j, "type"] = np.nan
     df_graphers.loc[j, "yAxisMin"] = 0
-    df_graphers.loc[j, "facet"] = np.nan
     df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
     df_graphers.loc[j, "hasMapTab"] = "true"
     df_graphers.loc[j, "tab"] = "map"
@@ -582,7 +574,6 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
     df_graphers.loc[j, "type"] = np.nan
     df_graphers.loc[j, "yAxisMin"] = 0
-    df_graphers.loc[j, "facet"] = np.nan
     df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
     df_graphers.loc[j, "hasMapTab"] = "true"
     df_graphers.loc[j, "tab"] = "map"
@@ -611,7 +602,6 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
     df_graphers.loc[j, "type"] = np.nan
     df_graphers.loc[j, "yAxisMin"] = 0
-    df_graphers.loc[j, "facet"] = np.nan
     df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
     df_graphers.loc[j, "hasMapTab"] = "true"
     df_graphers.loc[j, "tab"] = "map"
@@ -654,7 +644,6 @@ for i in range(len(df_graphers)):
     df_graphers_spells.loc[j, "sourceDesc"] = df_graphers["sourceDesc"][i]
     df_graphers_spells.loc[j, "type"] = df_graphers["type"][i]
     df_graphers_spells.loc[j, "yAxisMin"] = df_graphers["yAxisMin"][i]
-    df_graphers_spells.loc[j, "facet"] = "entity"
     df_graphers_spells.loc[j, "selectedFacetStrategy"] = "entity"
     df_graphers_spells.loc[j, "hasMapTab"] = "false"
     df_graphers_spells.loc[j, "tab"] = np.nan
