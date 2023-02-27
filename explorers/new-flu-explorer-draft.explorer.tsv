@@ -20,7 +20,6 @@ graphers
 	Reported deaths caused by severe acute respiratory infections		reported_sari_deaths	true		LineChart	SARI deaths	-4039
 	Cases of influenza-like illness per thousand outpatients		ili_cases_per_thousand_outpatients	true		LineChart	ILI rate	-4039
 	Cases of serious acute respiratory illness per hundred inpatients		sari_cases_per_hundred_inpatients	true		LineChart	SARI rate	-4039
-	Cases of acute respiratory illness per hundred inpatients		ari_cases_per_thousand_outpatients	true		LineChart	ARI rate	-4039
 	Weekly share of influenza tests that were positive	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype.	pcnt_poscombined	true		LineChart	Share of positive influenza tests - combined	-4039
 	Weekly share of influenza tests that were positive	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype.	pcnt_possentinel	true		LineChart	Share of positive influenza tests - sentinel	-4039
 	Weekly share of influenza tests that were positive	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype.	pcnt_posnonsentinel	true		LineChart	Share of positive influenza tests - non-sentinel	-4039
@@ -92,7 +91,6 @@ columns
 	reported_sari_deaths	Reported deaths caused by severe acute respiratory infections	Integer					0	OrRd
 	ili_cases_per_thousand_outpatients	Cases of influenza-like illness per thousand outpatients	Numeric					0	OrRd
 	sari_cases_per_hundred_inpatients	Cases of acute respiratory illness per thousand outpatients	Numeric					0	OrRd
-	ari_cases_per_thousand_outpatients	Cases of serious acute respiratory illness per hundred inpatients	Numeric					0	OrRd
 	ah1n12009sentinel	Cases of AH1N12009 - sentinel	Integer					0	OrRd
 	ah1n12009nonsentinel	Cases of AH1N12009 - non-sentinel	Integer					0	OrRd
 	ah1n12009notdefined	Cases of AH1N12009 - not defined	Integer					0	OrRd
