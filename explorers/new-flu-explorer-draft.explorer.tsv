@@ -9,8 +9,8 @@ hasMapTab	true
 pickerColumnSlugs
 downloadDataLink	https://raw.githubusercontent.com/spoonerf/flu_test/main/explorer_file_will_delete.csv
 graphers
-	title	subtitle	ySlugs	hideTitleAnnotation	stackMode	type	Flu type Dropdown
-	Weekly confirmed cases of influenza	This includes confirmed cases of any influenza virus. Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their strain or lineage.	inf_allcombined	true		LineChart	Confirmed influenza cases (all types)
+	title	subtitle	ySlugs	hideTitleAnnotation	stackMode	type	Flu type Dropdown	timelineMinTime
+	Weekly confirmed cases of influenza	This includes confirmed cases of any influenza virus. Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their strain or lineage.	inf_allcombined	true		LineChart	Confirmed influenza cases (all types)	2009
 	Cases of acute respiratory infections		reported_ari_cases	true		LineChart	Acute respiratory infections
 	Cases of severe acute respiratory infections		reported_sari_cases	true		LineChart	Severe acute respiratory infections
 	Cases of influenza like illnesses		reported_ili_cases	true		LineChart	Influenza-like illnesses
