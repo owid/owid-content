@@ -143,14 +143,14 @@ columns
 	inf_negativenonsentinel	Total negative tests - nonsentinel	Integer					0	OrRd
 	inf_negativenotdefined	Total negative tests - not defined	Integer					0	OrRd
 	inf_negativecombined	Total negative tests - combined	Integer					0	OrRd
-	spec_processedsentinel	Specimens processed - sentinel	Integer					0	OrRd
-	spec_processednonsentinel	Specimens processed - non-sentinel	Integer					0	OrRd
-	spec_processednotdefined	Specimens processed - not defined	Integer					0	OrRd
-	spec_processedcombined	Specimens processed - combined	Integer					0	OrRd
-	spec_receivedsentinel	Specimens received - sentinel	Integer					0	OrRd
-	spec_receivednonsentinel	Specimens received - non-sentinel	Integer					0	OrRd
-	spec_receivednotdefined	Specimens received - not defined	Integer					0	OrRd
-	spec_receivedcombined	Specimens received - combined	Integer					0	OrRd
+	spec_processed_nbsentinel	Specimens processed - sentinel	Integer					0	OrRd
+	spec_processed_nbnonsentinel	Specimens processed - non-sentinel	Integer					0	OrRd
+	spec_processed_nbnotdefined	Specimens processed - not defined	Integer					0	OrRd
+	spec_processed_nbcombined	Specimens processed - combined	Integer					0	OrRd
+	spec_received_nbsentinel	Specimens received - sentinel	Integer					0	OrRd
+	spec_received_nbnonsentinel	Specimens received - non-sentinel	Integer					0	OrRd
+	spec_received_nbnotdefined	Specimens received - not defined	Integer					0	OrRd
+	spec_received_nbcombined	Specimens received - combined	Integer					0	OrRd
 	pcnt_possentinel	Weekly share of influenza tests that were positive - sentinel	Percentage					0	OrRd
 	pcnt_posnonsentinel	Weekly share of influenza tests that were positive - non-sentinel	Percentage					0	OrRd
 	pcnt_posnotdefined	Weekly share of influenza tests that were positive - not defined	Percentage					0	OrRd
