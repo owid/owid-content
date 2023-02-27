@@ -56,6 +56,8 @@ columns
 	ili_cases_per_thousand_outpatients	Cases of influenza-like illness per thousand outpatients	Integer						OrRd
 	sari_cases_per_hundred_inpatients	Cases of acute respiratory illness per thousand outpatients	Integer						OrRd
 	ari_cases_per_thousand_outpatients	Cases of serious acute respiratory illness per hundred inpatients	Integer						OrRd
+	pcnt_possentinel	Weekly share of influenza tests that were positive - Sentinel	Percentage
+	pcnt_poscombined	Weekly share of influenza tests that were positive - Sentinel	Percentage
 	ah1n12009sentinel
 	ah1n12009nonsentinel		Integer					0	OrRd
 	ah1n12009notdefined
@@ -77,5 +79,5 @@ columns
 	bvic	Cases of B Victoria	Integer					0	OrRd
 	inf_b	Total Influenza B cases	Integer					0	OrRd
 	inf_allcombined	Total confirmed influenza cases	Integer					0	OrRd
-	pcnt_possentinel	Weekly share of influenza tests that were positive - Sentinel	Percentage
+
 	inf_negative	Total negative tests	Integer					0	OrRd
