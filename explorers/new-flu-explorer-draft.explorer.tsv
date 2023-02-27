@@ -53,9 +53,9 @@ columns
 	reported_ili_Cases	Cases of influenza like illnesses	Integer					0	OrRd
 	reported_sari_deaths	Reported deaths caused by severe acute respiratory infections	Integer					0	OrRd
 	reported_sari_icu	Reported ICU hospitalisations due to severe acute respiratory infections	Integer					0	OrRd
-	ili_cases_per_thousand_outpatients	Cases of influenza-like illness per thousand outpatients	Integer					0	OrRd
-	sari_cases_per_hundred_inpatients	Cases of acute respiratory illness per thousand outpatients	Integer					0	OrRd
-	ari_cases_per_thousand_outpatients	Cases of serious acute respiratory illness per hundred inpatients	Integer					0	OrRd
+	ili_cases_per_thousand_outpatients	Cases of influenza-like illness per thousand outpatients	Numeric					0	OrRd
+	sari_cases_per_hundred_inpatients	Cases of acute respiratory illness per thousand outpatients	Numeric					0	OrRd
+	ari_cases_per_thousand_outpatients	Cases of serious acute respiratory illness per hundred inpatients	Numeric					0	OrRd
 	ah1n12009sentinel	Cases of AH1N12009 - sentinel	Integer					0	OrRd
 	ah1n12009nonsentinel	Cases of AH1N12009 - non-sentinel	Integer					0	OrRd
 	ah1n12009notdefined	Cases of AH1N12009 - not defined	Integer					0	OrRd
@@ -96,12 +96,27 @@ columns
 	bnotdeterminednonsentinel	Other cases of strain B - non-sentinel	Integer					0	OrRd
 	bnotdeterminednotdefined	Other cases of strain B - not defined	Integer					0	OrRd
 	bnotdeterminedcombined	Other cases of strain B - combined	Integer					0	OrRd
-	inf_bsentinel	Total Influenza B cases - sentinel						0	OrRd
+	inf_bsentinel	Total Influenza B cases - sentinel	Integer					0	OrRd
 	inf_bnonsentinel	Total Influenza B cases - non-sentinel	Integer					0	OrRd
-	inf_bnotdefined	Total Influenza B cases - not defined
-	inf_bcombined	Total Influenza B cases - combined
-	inf_allcombined	Total confirmed influenza cases	Integer					0	OrRd
-								0	OrRd
-	inf_negative	Total negative tests	Integer					0	OrRd
-	pcnt_possentinel	Weekly share of influenza tests that were positive - Sentinel	Percentage					0	OrRd
-	pcnt_poscombined	Weekly share of influenza tests that were positive - Sentinel	Percentage					0	OrRd
+	inf_bnotdefined	Total Influenza B cases - not defined	Integer					0	OrRd
+	inf_bcombined	Total Influenza B cases - combined	Integer					0	OrRd
+	inf_allsentinel	Total confirmed influenza cases - sentinel	Integer					0	OrRd
+	inf_allnonsentinel	Total confirmed influenza cases - nonsentinel	Integer					0	OrRd
+	inf_allnotdefined	Total confirmed influenza cases - not defined	Integer					0	OrRd
+	inf_allcombined	Total confirmed influenza cases - combined	Integer					0	OrRd
+	inf_negativesentinel	Total negative tests - sentinel	Integer					0	OrRd
+	inf_negativenonsentinel	Total negative tests - nonsentinel	Integer					0	OrRd
+	inf_negativenotdefined	Total negative tests - not defined	Integer					0	OrRd
+	inf_negativecombined	Total negative tests - combined	Integer					0	OrRd
+	spec_processedsentinel	Specimens processed - sentinel	Integer					0	OrRd
+	spec_processednonsentinel	Specimens processed - non-sentinel	Integer					0	OrRd
+	spec_processednotdefined	Specimens processed - not defined	Integer					0	OrRd
+	spec_processedcombined	Specimens processed - combined	Integer					0	OrRd
+	spec_receivedsentinel	Specimens received - sentinel	Integer					0	OrRd
+	spec_receivednonsentinel	Specimens received - non-sentinel	Integer					0	OrRd
+	spec_receivednotdefined	Specimens received - not defined	Integer					0	OrRd
+	spec_receivedcombined	Specimens received - combined	Integer					0	OrRd
+	pcnt_possentinel	Weekly share of influenza tests that were positive - sentinel	Percentage					0	OrRd
+	pcnt_posnonsentinel	Weekly share of influenza tests that were positive - non-sentinel	Percentage					0	OrRd
+	pcnt_posnotdefined	Weekly share of influenza tests that were positive - not defined	Percentage					0	OrRd
+	pcnt_poscombined	Weekly share of influenza tests that were positive - combined	Percentage					0	OrRd
