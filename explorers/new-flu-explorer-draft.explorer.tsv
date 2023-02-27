@@ -72,14 +72,14 @@ graphers
 	Weekly negative tests for influenza		inf_negativenonsentinel	true		LineChart	Negative tests - nonsentinel	-4039
 	Weekly negative tests for influenza		inf_negativenotdefined	true		LineChart	Negative tests - not defined	-4039
 	Weekly negative tests for influenza		inf_negativecombined	true		LineChart	Negative tests - combined	-4039
-	Specimens processed for testing for influenza		spec_processedsentinel	true		LineChart	Specimens processed - sentinel	-4039
-	Specimens processed for testing for influenza		spec_processednonsentinel	true		LineChart	Specimens processed - nonsentinel	-4039
-	Specimens processed for testing for influenza		spec_processednotdefined	true		LineChart	Specimens processed - not defined	-4039
-	Specimens processed for testing for influenza		spec_processedcombined	true		LineChart	Specimens processed - combined	-4039
-	Specimens received for testing for influenza		spec_receivedsentinel	true		LineChart	Specimens received - sentinel	-4039
-	Specimens received for testing for influenza		spec_receivednonsentinel	true		LineChart	Specimens received - nonsentinel	-4039
-	Specimens received for testing for influenza		spec_receivednotdefined	true		LineChart	Specimens received - not defined	-4039
-	Specimens received for testing for influenza		spec_receivedcombined	true		LineChart	Specimens received - combined	-4039
+	Specimens processed for testing for influenza		spec_processed_nbsentinel	true		LineChart	Specimens processed - sentinel	-4039
+	Specimens processed for testing for influenza		spec_processed_nbnonsentinel	true		LineChart	Specimens processed - nonsentinel	-4039
+	Specimens processed for testing for influenza		spec_processed_nbnotdefined	true		LineChart	Specimens processed - not defined	-4039
+	Specimens processed for testing for influenza		spec_processed_nbcombined	true		LineChart	Specimens processed - combined	-4039
+	Specimens received for testing for influenza		spec_received_nbsentinel	true		LineChart	Specimens received - sentinel	-4039
+	Specimens received for testing for influenza		spec_received_nbnonsentinel	true		LineChart	Specimens received - nonsentinel	-4039
+	Specimens received for testing for influenza		spec_received_nbnotdefined	true		LineChart	Specimens received - not defined	-4039
+	Specimens received for testing for influenza		spec_received_nbcombined	true		LineChart	Specimens received - combined	-4039
 table	https://raw.githubusercontent.com/spoonerf/flu_test/main/flu_output.csv
 columns
 	slug	name	type	tolerance	sourceName	sourceLink	additionalInfo	colorScaleNumericMinValue	colorScaleScheme
