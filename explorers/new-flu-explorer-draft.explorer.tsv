@@ -46,38 +46,62 @@ graphers
 table	https://raw.githubusercontent.com/spoonerf/flu_test/main/flu_output.csv
 columns
 	slug	name	type	tolerance	sourceName	sourceLink	additionalInfo	colorScaleNumericMinValue	colorScaleScheme
-	country	Country	EntityName						OrRd
-	date	Day	Date						OrRd
-	reported_ari_cases	Cases of acute respiratory infections	Integer						OrRd
-	reported_sari_cases	Cases of severe acute respiratory infections	Integer						OrRd
-	reported_ili_Cases	Cases of influenza like illnesses	Integer						OrRd
-	reported_sari_deaths	Reported deaths caused by severe acute respiratory infections	Integer						OrRd
-	reported_sari_icu	Reported ICU hospitalisations due to severe acute respiratory infections	Integer						OrRd
-	ili_cases_per_thousand_outpatients	Cases of influenza-like illness per thousand outpatients	Integer						OrRd
-	sari_cases_per_hundred_inpatients	Cases of acute respiratory illness per thousand outpatients	Integer						OrRd
-	ari_cases_per_thousand_outpatients	Cases of serious acute respiratory illness per hundred inpatients	Integer						OrRd
-	pcnt_possentinel	Weekly share of influenza tests that were positive - Sentinel	Percentage
-	pcnt_poscombined	Weekly share of influenza tests that were positive - Sentinel	Percentage
-	ah1n12009sentinel
-	ah1n12009nonsentinel		Integer					0	OrRd
-	ah1n12009notdefined
-	ah1n12009combined
-	ah1sentinel
-	ah1nonsentinel
-	ah1notdefined
-	ah1combined
-	ah3sentinel
-	ah3nonsentinel
-	ah3notdefined	Cases of AH3	Integer					0	OrRd
-	ah3combined
-	ah5	Cases of AH5	Integer					0	OrRd
-	ah7n9	Cases of AH7N9	Integer					0	OrRd
-	a_no_subtype	Other cases of strain A	Integer					0	OrRd
-	inf_a	Total Influenza A cases	Integer					0	OrRd
-	byam	Cases of B Yamagata	Integer					0	OrRd
-	bnotdetermined	Other cases of strain B	Integer					0	OrRd
-	bvic	Cases of B Victoria	Integer					0	OrRd
-	inf_b	Total Influenza B cases	Integer					0	OrRd
+	country	Country	EntityName					0	OrRd
+	date	Day	Date					0	OrRd
+	reported_ari_cases	Cases of acute respiratory infections	Integer					0	OrRd
+	reported_sari_cases	Cases of severe acute respiratory infections	Integer					0	OrRd
+	reported_ili_Cases	Cases of influenza like illnesses	Integer					0	OrRd
+	reported_sari_deaths	Reported deaths caused by severe acute respiratory infections	Integer					0	OrRd
+	reported_sari_icu	Reported ICU hospitalisations due to severe acute respiratory infections	Integer					0	OrRd
+	ili_cases_per_thousand_outpatients	Cases of influenza-like illness per thousand outpatients	Integer					0	OrRd
+	sari_cases_per_hundred_inpatients	Cases of acute respiratory illness per thousand outpatients	Integer					0	OrRd
+	ari_cases_per_thousand_outpatients	Cases of serious acute respiratory illness per hundred inpatients	Integer					0	OrRd
+	ah1n12009sentinel	Cases of AH1N12009 - sentinel	Integer					0	OrRd
+	ah1n12009nonsentinel	Cases of AH1N12009 - non-sentinel	Integer					0	OrRd
+	ah1n12009notdefined	Cases of AH1N12009 - not defined	Integer					0	OrRd
+	ah1n12009combined	Cases of AH1N12009 - combined	Integer					0	OrRd
+	ah1sentinel	Cases of AH1 - sentinel	Integer					0	OrRd
+	ah1nonsentinel	Cases of AH1 - non-sentinel	Integer					0	OrRd
+	ah1notdefined	Cases of AH1 - not defined	Integer					0	OrRd
+	ah1combined	Cases of AH1 - combined	Integer					0	OrRd
+	ah3sentinel	Cases of AH3 - sentinel	Integer					0	OrRd
+	ah3nonsentinel	Cases of AH3 - non-sentinel	Integer					0	OrRd
+	ah3notdefined	Cases of AH3 - not defined	Integer					0	OrRd
+	ah3combined	Cases of AH3 - combined	Integer					0	OrRd
+	ah5sentinel	Cases of AH5 - sentinel	Integer					0	OrRd
+	ah5nonsentinel	Cases of AH5- non-sentinel	Integer					0	OrRd
+	ah5notdefined	Cases of AH5 - not defined	Integer					0	OrRd
+	ah5combined	Cases of AH5 - combined	Integer					0	OrRd
+	ah7n9sentinel	Cases of AH7N9 - sentinel	Integer					0	OrRd
+	ah7n9nonsentinel	Cases of AH7N9- non-sentinel	Integer					0	OrRd
+	ah7n9notdefined	Cases of AH7N9 - not defined	Integer					0	OrRd
+	ah7n9combined	Cases of AH7N9 - combined	Integer					0	OrRd
+	a_no_subtypesentinel	Other cases of strain A - sentinel	Integer					0	OrRd
+	a_no_subtypenonsentinel	Other cases of strain A - non-sentinel	Integer					0	OrRd
+	a_no_subtypenotdefined	Other cases of strain A - not defined	Integer					0	OrRd
+	a_no_subtypecombined	Other cases of strain A - combined	Integer					0	OrRd
+	inf_asentinel	Total Influenza A cases - sentinel	Integer					0	OrRd
+	inf_anonsentinel	Total Influenza A cases - non-sentinel	Integer					0	OrRd
+	inf_anotdefined	Total Influenza A cases - not defined	Integer					0	OrRd
+	inf_acombined	Total Influenza A cases - combined	Integer					0	OrRd
+	byamsentinel	Cases of B Yamagata - sentinel	Integer					0	OrRd
+	byamnonsentinel	Cases of B Yamagata - non-sentinel	Integer					0	OrRd
+	byamnotdefined	Cases of B Yamagata - not defined	Integer					0	OrRd
+	byamcombined	Cases of B Yamagata - combined	Integer					0	OrRd
+	bvicsentinel	Cases of B Victoria - sentinel	Integer					0	OrRd
+	bvicnonsentinel	Cases of B Victoria - non-sentinel	Integer					0	OrRd
+	bvicnotdefined	Cases of B Victoria - not defined	Integer					0	OrRd
+	bviccombined	Cases of B Victoria - combined	Integer					0	OrRd
+	bnotdeterminedsentinel	Other cases of strain B - sentinel	Integer					0	OrRd
+	bnotdeterminednonsentinel	Other cases of strain B - non-sentinel	Integer					0	OrRd
+	bnotdeterminednotdefined	Other cases of strain B - not defined	Integer					0	OrRd
+	bnotdeterminedcombined	Other cases of strain B - combined	Integer					0	OrRd
+	inf_bsentinel	Total Influenza B cases - sentinel						0	OrRd
+	inf_bnonsentinel	Total Influenza B cases - non-sentinel	Integer					0	OrRd
+	inf_bnotdefined	Total Influenza B cases - not defined
+	inf_bcombined	Total Influenza B cases - combined
 	inf_allcombined	Total confirmed influenza cases	Integer					0	OrRd
-
+								0	OrRd
 	inf_negative	Total negative tests	Integer					0	OrRd
+	pcnt_possentinel	Weekly share of influenza tests that were positive - Sentinel	Percentage					0	OrRd
+	pcnt_poscombined	Weekly share of influenza tests that were positive - Sentinel	Percentage					0	OrRd
