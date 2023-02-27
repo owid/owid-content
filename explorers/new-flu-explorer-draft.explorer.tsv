@@ -11,38 +11,38 @@ downloadDataLink	https://raw.githubusercontent.com/spoonerf/flu_test/main/explor
 graphers
 	title	subtitle	ySlugs	hideTitleAnnotation	stackMode	type	Flu type Dropdown	timelineMinTime
 	Weekly confirmed cases of influenza	This includes confirmed cases of any influenza virus. Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their strain or lineage.	inf_allcombined	true		LineChart	Confirmed influenza cases (all types)	2009
-	Cases of acute respiratory infections		reported_ari_cases	true		LineChart	Acute respiratory infections
-	Cases of severe acute respiratory infections		reported_sari_cases	true		LineChart	Severe acute respiratory infections
-	Cases of influenza like illnesses		reported_ili_cases	true		LineChart	Influenza-like illnesses
-	Reported deaths caused by severe acute respiratory infections		reported_sari_deaths	true		LineChart	SARI deaths
-	Reported ICU hospitalisations due to severe acute respiratory infections		reported_sari_icu	true		LineChart	SARI ICU
-	Cases of influenza-like illness per thousand outpatients		ili_cases_per_thousand_outpatients	true		LineChart	ILI rate
-	Cases of serious acute respiratory illness per hundred inpatients		sari_cases_per_hundred_inpatients	true		LineChart	SARI rate
-	Weekly share of influenza tests that were positive		pcnt_possentinel	true		LineChart	Share of positive influenza tests - sentinel
-	Weekly share of influenza tests that were positive	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype.	pcnt_poscombined	true		LineChart	Share of positive influenza tests - combined
-	Weekly confirmed cases of influenza A H1N1 (2009)	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to have a strain of influenza A virus related to the H1N1 ("Swine flu") pandemic that emerged in 2009.	ah1n12009	true		LineChart	Influenza A H1N1 (cases)
-	Weekly confirmed cases of influenza A H1	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be of the H1 strain of influenza A virus.	ah1	true		LineChart	Influenza A H1 (cases)
-	Weekly confirmed cases of influenza A H3	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be of the H3 strain of influenza A virus.	ah3	true		LineChart	Influenza A H3 (cases)
-	Weekly confirmed cases of influenza A H5	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be of the H5 strain of influenza A virus.	ah5	true		LineChart	Influenza A H5 (cases)
-	Weekly confirmed cases of influenza A H7N9	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be of the H7N9 strain of influenza A virus.	ah7n9	true		LineChart	Influenza A H7N9 (cases)
-	Weekly confirmed cases of influenza A (unknown subtype)	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be influenza A virus, but their subtype was not confirmed.	a_no_subtype	true		LineChart	Influenza A unknown (cases)
-	Weekly confirmed cases of influenza A	This includes confirmed cases of any strain of influenza A virus. Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their strain.	inf_a	true		LineChart	Total influenza A (cases)
-	Weekly confirmed cases of influenza B Victoria	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be of the Victoria lineage of influenza B virus.	bvic	true		LineChart	Influenza B Victoria (cases)
-	Weekly confirmed cases of influenza B Yamagata	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be of the Yamagata lineage of influenza B virus.	byam	true		LineChart	Influenza B Yamagata (cases)
-	Weekly confirmed cases of influenza B (unknown lineage)	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be influenza B virus, but their lineage was not determined.	bnotdetermined	true		LineChart	Influenza B unknown (cases)
-	Weekly confirmed cases of influenza B	This includes confirmed cases of any lineage of influenza B virus. Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their lineage.	inf_b	true		LineChart	Total influenza B (cases)
-	Weekly confirmed cases of influenza A H1N1 (2009) - Sentinel		ah1n12009sentinel	true		LineChart	H1N1 Sentinel
-	Weekly confirmed cases of influenza A H1N1 (2009) - Non-sentinel		ah1n12009nonsentinel	true		LineChart	H1N1 Non-sentinel
-	Weekly confirmed cases of influenza A H1N1 (2009)- Not defined		ah1n12009notdefined	true		LineChart	H1N1 - not defined
-	Weekly confirmed cases of influenza A H1N1 (2009) - Combined		ah1n12009combined	true		LineChart	H1N1- Combined
-			ah1sentinel	true		LineChart
-			ah1nonsentinel	true		LineChart
-			ah1notdefined	true		LineChart
-			ah1combined	true		LineChart
-			ah3sentinel	true		LineChart
-			ah3nonsentinel	true		LineChart
-			ah3notdefined	true		LineChart
-			ah3combined	true		LineChart
+	Cases of acute respiratory infections		reported_ari_cases	true		LineChart	Acute respiratory infections	2009
+	Cases of severe acute respiratory infections		reported_sari_cases	true		LineChart	Severe acute respiratory infections	2009
+	Cases of influenza like illnesses		reported_ili_cases	true		LineChart	Influenza-like illnesses	2009
+	Reported deaths caused by severe acute respiratory infections		reported_sari_deaths	true		LineChart	SARI deaths	2009
+	Reported ICU hospitalisations due to severe acute respiratory infections		reported_sari_icu	true		LineChart	SARI ICU	2009
+	Cases of influenza-like illness per thousand outpatients		ili_cases_per_thousand_outpatients	true		LineChart	ILI rate	2009
+	Cases of serious acute respiratory illness per hundred inpatients		sari_cases_per_hundred_inpatients	true		LineChart	SARI rate	2009
+	Weekly share of influenza tests that were positive		pcnt_possentinel	true		LineChart	Share of positive influenza tests - sentinel	2009
+	Weekly share of influenza tests that were positive	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype.	pcnt_poscombined	true		LineChart	Share of positive influenza tests - combined	2009
+	Weekly confirmed cases of influenza A H1N1 (2009)	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to have a strain of influenza A virus related to the H1N1 ("Swine flu") pandemic that emerged in 2009.	ah1n12009	true		LineChart	Influenza A H1N1 (cases)	2009
+	Weekly confirmed cases of influenza A H1	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be of the H1 strain of influenza A virus.	ah1	true		LineChart	Influenza A H1 (cases)	2009
+	Weekly confirmed cases of influenza A H3	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be of the H3 strain of influenza A virus.	ah3	true		LineChart	Influenza A H3 (cases)	2009
+	Weekly confirmed cases of influenza A H5	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be of the H5 strain of influenza A virus.	ah5	true		LineChart	Influenza A H5 (cases)	2009
+	Weekly confirmed cases of influenza A H7N9	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be of the H7N9 strain of influenza A virus.	ah7n9	true		LineChart	Influenza A H7N9 (cases)	2009
+	Weekly confirmed cases of influenza A (unknown subtype)	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be influenza A virus, but their subtype was not confirmed.	a_no_subtype	true		LineChart	Influenza A unknown (cases)	2009
+	Weekly confirmed cases of influenza A	This includes confirmed cases of any strain of influenza A virus. Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their strain.	inf_a	true		LineChart	Total influenza A (cases)	2009
+	Weekly confirmed cases of influenza B Victoria	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be of the Victoria lineage of influenza B virus.	bvic	true		LineChart	Influenza B Victoria (cases)	2009
+	Weekly confirmed cases of influenza B Yamagata	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be of the Yamagata lineage of influenza B virus.	byam	true		LineChart	Influenza B Yamagata (cases)	2009
+	Weekly confirmed cases of influenza B (unknown lineage)	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be influenza B virus, but their lineage was not determined.	bnotdetermined	true		LineChart	Influenza B unknown (cases)	2009
+	Weekly confirmed cases of influenza B	This includes confirmed cases of any lineage of influenza B virus. Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their lineage.	inf_b	true		LineChart	Total influenza B (cases)	2009
+	Weekly confirmed cases of influenza A H1N1 (2009) - Sentinel		ah1n12009sentinel	true		LineChart	H1N1 Sentinel	2009
+	Weekly confirmed cases of influenza A H1N1 (2009) - Non-sentinel		ah1n12009nonsentinel	true		LineChart	H1N1 Non-sentinel	2009
+	Weekly confirmed cases of influenza A H1N1 (2009)- Not defined		ah1n12009notdefined	true		LineChart	H1N1 - not defined	2009
+	Weekly confirmed cases of influenza A H1N1 (2009) - Combined		ah1n12009combined	true		LineChart	H1N1- Combined	2009
+			ah1sentinel	true		LineChart		2009
+			ah1nonsentinel	true		LineChart		2009
+			ah1notdefined	true		LineChart		2009
+			ah1combined	true		LineChart		2009
+			ah3sentinel	true		LineChart		2009
+			ah3nonsentinel	true		LineChart		2009
+			ah3notdefined	true		LineChart		2009
+			ah3combined	true		LineChart		2009
 table	https://raw.githubusercontent.com/spoonerf/flu_test/main/flu_output.csv
 columns
 	slug	name	type	tolerance	sourceName	sourceLink	additionalInfo	colorScaleNumericMinValue	colorScaleScheme
