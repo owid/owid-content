@@ -322,7 +322,7 @@ for tab in range(len(tables)):
             for p in range(len(povlines_abs)):
                 df_graphers.loc[
                     j, "title"
-                ] = f"{povlines_abs.title_number[p]} ({welfare['title'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+                ] = f"{povlines_abs['title_number'][p]} ({welfare['title'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
                 df_graphers.loc[
                     j, "ySlugs"
                 ] = f"headcount_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
@@ -569,6 +569,122 @@ for tab in range(len(tables)):
             j += 1
 
         # Comparisons between equivalized and per capita measures
+        # Headcount ratio (abs)
+        for p in range(len(povlines_abs)):
+            df_graphers.loc[
+                j, "title"
+            ] = f"{povlines_abs['title_share'][p]} ({welfare['title'][wel].capitalize()}, equivalized vs. per capita)"
+            df_graphers.loc[
+                j, "ySlugs"
+            ] = f"headcount_ratio_{welfare['slug'][wel]}_eq_{povlines_abs['cents'][p]} headcount_ratio_{welfare['slug'][wel]}_pc_{povlines_abs['cents'][p]}"
+            df_graphers.loc[j, "Metric Dropdown"] = "Share in poverty"
+            df_graphers.loc[
+                j, "Poverty line Dropdown"
+            ] = f"{povlines_abs['povline_dropdown'][p]}"
+            df_graphers.loc[
+                j, "Welfare type Dropdown"
+            ] = f"{welfare['dropdown_option'][wel]}"
+            df_graphers.loc[
+                j, "Equivalence scale Dropdown"
+            ] = "Equivalized vs. per capita"
+            df_graphers.loc[
+                j, "subtitle"
+            ] = f"{povlines_abs['subtitle'][p]} {welfare['subtitle'][wel]}"
+            df_graphers.loc[
+                j, "note"
+            ] = f"This data is measured in international-$ at 2017 prices."
+            df_graphers.loc[j, "type"] = np.nan
+            df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
+            df_graphers.loc[j, "hasMapTab"] = "false"
+            df_graphers.loc[j, "tab"] = "chart"
+            j += 1
+
+        # Headcount (abs)
+        for p in range(len(povlines_abs)):
+            df_graphers.loc[
+                j, "title"
+            ] = f"{povlines_abs['title_number'][p]} ({welfare['title'][wel].capitalize()}, equivalized vs. per capita"
+            df_graphers.loc[
+                j, "ySlugs"
+            ] = f"headcount_{welfare['slug'][wel]}_eq_{povlines_abs['cents'][p]} headcount_{welfare['slug'][wel]}_pc_{povlines_abs['cents'][p]}"
+            df_graphers.loc[j, "Metric Dropdown"] = "Number in poverty"
+            df_graphers.loc[
+                j, "Poverty line Dropdown"
+            ] = f"{povlines_abs['povline_dropdown'][p]}"
+            df_graphers.loc[
+                j, "Welfare type Dropdown"
+            ] = f"{welfare['dropdown_option'][wel]}"
+            df_graphers.loc[
+                j, "Equivalence scale Dropdown"
+            ] = "Equivalized vs. per capita"
+            df_graphers.loc[
+                j, "subtitle"
+            ] = f"{povlines_abs['subtitle'][p]} {welfare['subtitle'][wel]}"
+            df_graphers.loc[
+                j, "note"
+            ] = f"This data is measured in international-$ at 2017 prices."
+            df_graphers.loc[j, "type"] = np.nan
+            df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
+            df_graphers.loc[j, "hasMapTab"] = "false"
+            df_graphers.loc[j, "tab"] = "chart"
+            j += 1
+
+        # Headcount ratio (rel)
+        for pct in range(len(povlines_rel)):
+            df_graphers.loc[
+                j, "title"
+            ] = f"{povlines_rel['title_share'][pct]} ({welfare['title'][wel].capitalize()}, equivalized vs. per capita)"
+            df_graphers.loc[
+                j, "ySlugs"
+            ] = f"headcount_ratio_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_eq headcount_ratio_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_pc"
+            df_graphers.loc[j, "Metric Dropdown"] = "Share in poverty"
+            df_graphers.loc[
+                j, "Poverty line Dropdown"
+            ] = f"{povlines_rel['dropdown'][pct]}"
+            df_graphers.loc[
+                j, "Welfare type Dropdown"
+            ] = f"{welfare['dropdown_option'][wel]}"
+            df_graphers.loc[
+                j, "Equivalence scale Dropdown"
+            ] = "Equivalized vs. per capita"
+            df_graphers.loc[
+                j, "subtitle"
+            ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at {povlines_rel['text'][pct]} disposable household income. {welfare['subtitle'][wel]}"
+            df_graphers.loc[j, "note"] = np.nan
+            df_graphers.loc[j, "type"] = np.nan
+            df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
+            df_graphers.loc[j, "hasMapTab"] = "false"
+            df_graphers.loc[j, "tab"] = "chart"
+            j += 1
+
+        # Headcount (rel)
+        for pct in range(len(povlines_rel)):
+            df_graphers.loc[
+                j, "title"
+            ] = f"{povlines_rel['title_number'][pct]} ({welfare['title'][wel].capitalize()}, equivalized vs. per capita)"
+            df_graphers.loc[
+                j, "ySlugs"
+            ] = f"headcount_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_eq headcount_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_pc"
+            df_graphers.loc[j, "Metric Dropdown"] = "Number in poverty"
+            df_graphers.loc[
+                j, "Poverty line Dropdown"
+            ] = f"{povlines_rel['dropdown'][pct]}"
+            df_graphers.loc[
+                j, "Welfare type Dropdown"
+            ] = f"{welfare['dropdown_option'][wel]}"
+            df_graphers.loc[
+                j, "Equivalence scale Dropdown"
+            ] = "Equivalized vs. per capita"
+            df_graphers.loc[
+                j, "subtitle"
+            ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at {povlines_rel['text'][pct]} disposable household income. {welfare['subtitle'][wel]}"
+            df_graphers.loc[j, "note"] = np.nan
+            df_graphers.loc[j, "type"] = np.nan
+            df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
+            df_graphers.loc[j, "hasMapTab"] = "false"
+            df_graphers.loc[j, "tab"] = "chart"
+            j += 1
+
         # Mean
         df_graphers.loc[
             j, "title"
