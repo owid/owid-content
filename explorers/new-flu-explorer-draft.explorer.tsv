@@ -18,7 +18,6 @@ graphers
 	Cases of severe acute respiratory infections		reported_sari_cases	true		LineChart	Severe acute respiratory infections	-4039
 	Cases of influenza like illnesses		reported_ili_cases	true		LineChart	Influenza-like illnesses	-4039
 	Reported deaths caused by severe acute respiratory infections		reported_sari_deaths	true		LineChart	SARI deaths	-4039
-	Reported ICU hospitalisations due to severe acute respiratory infections		reported_sari_icu	true		LineChart	SARI ICU	-4039
 	Cases of influenza-like illness per thousand outpatients		ili_cases_per_thousand_outpatients	true		LineChart	ILI rate	-4039
 	Cases of serious acute respiratory illness per hundred inpatients		sari_cases_per_hundred_inpatients	true		LineChart	SARI rate	-4039
 	Cases of acute respiratory illness per hundred inpatients		ari_cases_per_thousand_outpatients	true		LineChart	ARI rate	-4039
@@ -91,7 +90,6 @@ columns
 	reported_sari_cases	Cases of severe acute respiratory infections	Integer					0	OrRd
 	reported_ili_cases	Cases of influenza like illnesses	Integer					0	OrRd
 	reported_sari_deaths	Reported deaths caused by severe acute respiratory infections	Integer					0	OrRd
-	reported_sari_icu	Reported ICU hospitalisations due to severe acute respiratory infections	Integer					0	OrRd
 	ili_cases_per_thousand_outpatients	Cases of influenza-like illness per thousand outpatients	Numeric					0	OrRd
 	sari_cases_per_hundred_inpatients	Cases of acute respiratory illness per thousand outpatients	Numeric					0	OrRd
 	ari_cases_per_thousand_outpatients	Cases of serious acute respiratory illness per hundred inpatients	Numeric					0	OrRd
