@@ -568,6 +568,109 @@ for tab in range(len(tables)):
             df_graphers.loc[j, "yScaleToggle"] = "true"
             j += 1
 
+        # Comparisons between equivalized and per capita measures
+        # Mean
+        df_graphers.loc[
+            j, "title"
+        ] = f"Mean {welfare['welfare_type'][wel]} ({welfare['title'][wel].capitalize()}, equivalized vs. per capita)"
+        df_graphers.loc[
+            j, "ySlugs"
+        ] = f"mean_{welfare['slug'][wel]}_eq mean_{welfare['slug'][wel]}_pc"
+        df_graphers.loc[j, "Metric Dropdown"] = "Mean income or consumption"
+        df_graphers.loc[
+            j, "Welfare type Dropdown"
+        ] = f"{welfare['dropdown_option'][wel]}"
+        df_graphers.loc[j, "Equivalence scale Dropdown"] = "Equivalized vs. per capita"
+        df_graphers.loc[
+            j, "subtitle"
+        ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]}"
+        df_graphers.loc[
+            j, "note"
+        ] = f"This data is measured in international-$ at 2017 prices."
+        df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
+        df_graphers.loc[j, "hasMapTab"] = "false"
+        df_graphers.loc[j, "tab"] = "chart"
+        df_graphers.loc[j, "yScaleToggle"] = "true"
+        j += 1
+
+        # Median
+        df_graphers.loc[
+            j, "title"
+        ] = f"Median {welfare['welfare_type'][wel]} ({welfare['title'][wel].capitalize()}, equivalized vs. per capita)"
+        df_graphers.loc[
+            j, "ySlugs"
+        ] = f"median_{welfare['slug'][wel]}_eq median_{welfare['slug'][wel]}_pc"
+        df_graphers.loc[j, "Metric Dropdown"] = "Median income or consumption"
+        df_graphers.loc[
+            j, "Welfare type Dropdown"
+        ] = f"{welfare['dropdown_option'][wel]}"
+        df_graphers.loc[j, "Equivalence scale Dropdown"] = "Equivalized vs. per capita"
+        df_graphers.loc[
+            j, "subtitle"
+        ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]}"
+        df_graphers.loc[
+            j, "note"
+        ] = f"This data is measured in international-$ at 2017 prices."
+        df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
+        df_graphers.loc[j, "hasMapTab"] = "false"
+        df_graphers.loc[j, "tab"] = "chart"
+        df_graphers.loc[j, "yScaleToggle"] = "true"
+        j += 1
+
+        # P10
+        df_graphers.loc[
+            j, "title"
+        ] = f"Threshold {welfare['welfare_type'][wel]} marking the poorest decile ({welfare['title'][wel].capitalize()}, equivalized vs. per capita)"
+        df_graphers.loc[
+            j, "ySlugs"
+        ] = f"thr_p10_{welfare['slug'][wel]}_eq thr_p10_{welfare['slug'][wel]}_pc"
+        df_graphers.loc[
+            j, "Metric Dropdown"
+        ] = "Income or consumption of the poorest 10%"
+        df_graphers.loc[
+            j, "Welfare type Dropdown"
+        ] = f"{welfare['dropdown_option'][wel]}"
+        df_graphers.loc[j, "Equivalence scale Dropdown"] = "Equivalized vs. per capita"
+        df_graphers.loc[
+            j, "subtitle"
+        ] = f"This is the level of {welfare['welfare_type'][wel]} below which 10% of the population falls. {welfare['subtitle'][wel]}"
+        df_graphers.loc[
+            j, "note"
+        ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+        df_graphers.loc[j, "type"] = np.nan
+        df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
+        df_graphers.loc[j, "hasMapTab"] = "false"
+        df_graphers.loc[j, "tab"] = "chart"
+        df_graphers.loc[j, "yScaleToggle"] = "true"
+        j += 1
+
+        # P90
+        df_graphers.loc[
+            j, "title"
+        ] = f"Threshold {welfare['welfare_type'][wel]} marking the richest decile ({welfare['title'][wel].capitalize()}, equivalized vs. per capita)"
+        df_graphers.loc[
+            j, "ySlugs"
+        ] = f"thr_p90_{welfare['slug'][wel]}_eq thr_p90_{welfare['slug'][wel]}_pc"
+        df_graphers.loc[
+            j, "Metric Dropdown"
+        ] = "Income or consumption of the richest 10%"
+        df_graphers.loc[
+            j, "Welfare type Dropdown"
+        ] = f"{welfare['dropdown_option'][wel]}"
+        df_graphers.loc[j, "Equivalence scale Dropdown"] = "Equivalized vs. per capita"
+        df_graphers.loc[
+            j, "subtitle"
+        ] = f"This is the level of {welfare['welfare_type'][wel]} below which 90% of the population falls. {welfare['subtitle'][wel]}"
+        df_graphers.loc[
+            j, "note"
+        ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+        df_graphers.loc[j, "type"] = np.nan
+        df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
+        df_graphers.loc[j, "hasMapTab"] = "false"
+        df_graphers.loc[j, "tab"] = "chart"
+        df_graphers.loc[j, "yScaleToggle"] = "true"
+        j += 1
+
     df_graphers["tableSlug"] = tables["name"][tab]
 
 # %% [markdown]
