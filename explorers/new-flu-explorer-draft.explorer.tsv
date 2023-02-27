@@ -80,7 +80,7 @@ graphers
 	Specimens received for testing for influenza		spec_received_nbnonsentinel	true		LineChart	Specimens received - nonsentinel	-4039
 	Specimens received for testing for influenza		spec_received_nbnotdefined	true		LineChart	Specimens received - not defined	-4039
 	Specimens received for testing for influenza		spec_received_nbcombined	true		LineChart	Specimens received - combined	-4039
-table	https://raw.githubusercontent.com/spoonerf/flu_test/main/flu_output.csv
+table	https://raw.githubusercontent.com/spoonerf/flu_test/main/flu_output_clean.csv
 columns
 	slug	name	type	tolerance	sourceName	sourceLink	additionalInfo	colorScaleNumericMinValue	colorScaleScheme
 	country	Country	EntityName					0	OrRd
