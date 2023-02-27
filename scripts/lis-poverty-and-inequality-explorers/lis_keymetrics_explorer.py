@@ -113,7 +113,7 @@ for tab in range(len(tables)):
             for p in range(len(povlines_abs)):
                 df_tables.loc[
                     j, "name"
-                ] = f"Share below ${povlines_abs['dollars_text'][p]} a day"
+                ] = f"Share below ${povlines_abs['dollars_text'][p]} a day ({equivalence_scales['text'][eq]})"
                 df_tables.loc[
                     j, "slug"
                 ] = f"headcount_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
@@ -133,7 +133,7 @@ for tab in range(len(tables)):
             for p in range(len(povlines_abs)):
                 df_tables.loc[
                     j, "name"
-                ] = f"Number below ${povlines_abs['dollars_text'][p]} a day"
+                ] = f"Number below ${povlines_abs['dollars_text'][p]} a day ({equivalence_scales['text'][eq]})"
                 df_tables.loc[
                     j, "slug"
                 ] = f"headcount_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
