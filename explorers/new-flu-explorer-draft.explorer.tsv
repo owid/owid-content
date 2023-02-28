@@ -168,3 +168,14 @@ columns
 	bviccombined_zfilled	B Victoria	Integer						0
 	bnotdeterminedcombined_zfilled	B other	Integer						0
 	inf_bcombined_zfilled	All Influenza B	Integer						0
+	ah1n12009sentinel_zfilled	AH1N12009	Integer
+	ah1sentinel_zfilled	AH1	Integer
+	ah3sentinel_zfilled	AH3	Integer
+	ah5sentinel_zfilled	AH5	Integer
+	ah7n9sentinel_zfilled	AH7N9	Integer
+	a_no_subtypesentinel_zfilled	A other	Integer
+	inf_asentinel_zfilled	All Influenza A	Integer
+	byamsentinel_zfilled	B Yamagata	Integer
+	bvicsentinel_zfilled	B Victoria	Integer
+	bnotdeterminedsentinel_zfilled	B other	Integer
+	inf_bsentinel_zfilled	All Influenza B	Integer
