@@ -18,11 +18,11 @@ outfile = PARENT_DIR / "explorers" / "inequality.explorer.tsv"
 # These spreadsheets provide with different details depending on each type of welfare measure or tables considered.
 
 # %%
-# Luxembourg Income Study
+# LUXEMBOURG INCOME STUDY
 # Read Google sheets
 sheet_id = "1UFdwB1iBpP2tEP6GtxCHvW1GGhjsFflh42FWR80rYIg"
 
-# All the tables sheet (this contains PIP, WID and LIS dataset information, it is located in the LIS spreadsheet)
+# All the tables sheet (this contains PIP, WID and LIS dataset information, it is located in the LIS spreadsheet because there is no unified sheet for this)
 sheet_name = "all_the_tables"
 url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
 all_the_tables = pd.read_csv(url, keep_default_na=False)
@@ -65,7 +65,7 @@ header_dict = {
     ],
     "explorerSubtitle": "",
     "isPublished": "false",
-    "googleSheet": f"https://docs.google.com/spreadsheets/d/{sheet_id}",
+    "googleSheet": "",
     "wpBlockId": "",
     "entityType": "country or region",
 }
@@ -310,10 +310,7 @@ for tab in range(len(lis_tables)):
             df_graphers.loc[j, "Metric Dropdown"] = "Gini coefficient"
             df_graphers.loc[
                 j, "Welfare type Dropdown"
-            ] = f"{lis_welfare['dropdown_option'][wel]}"
-            df_graphers.loc[j, "Equivalence scale Dropdown"] = lis_equivalence_scales[
-                "text"
-            ][eq].capitalize()
+            ] = f"{lis_welfare['dropdown_option'][wel]} ({lis_equivalence_scales['text'][eq]})"
             df_graphers.loc[
                 j, "subtitle"
             ] = f"The Gini coefficient is a measure of the inequality of the {lis_welfare['welfare_type'][wel]} distribution in a population. Higher values indicate a higher level of inequality. {lis_welfare['subtitle'][wel]}"
@@ -334,10 +331,7 @@ for tab in range(len(lis_tables)):
             df_graphers.loc[j, "Metric Dropdown"] = "Top 10% share"
             df_graphers.loc[
                 j, "Welfare type Dropdown"
-            ] = f"{lis_welfare['dropdown_option'][wel]}"
-            df_graphers.loc[j, "Equivalence scale Dropdown"] = lis_equivalence_scales[
-                "text"
-            ][eq].capitalize()
+            ] = f"{lis_welfare['dropdown_option'][wel]} ({lis_equivalence_scales['text'][eq]})"
             df_graphers.loc[
                 j, "subtitle"
             ] = f"This is the {lis_welfare['welfare_type'][wel]} of the richest 10% as a share of total {lis_welfare['welfare_type'][wel]}. {lis_welfare['subtitle'][wel]}"
@@ -358,10 +352,7 @@ for tab in range(len(lis_tables)):
             df_graphers.loc[j, "Metric Dropdown"] = "Bottom 50% share"
             df_graphers.loc[
                 j, "Welfare type Dropdown"
-            ] = f"{lis_welfare['dropdown_option'][wel]}"
-            df_graphers.loc[j, "Equivalence scale Dropdown"] = lis_equivalence_scales[
-                "text"
-            ][eq].capitalize()
+            ] = f"{lis_welfare['dropdown_option'][wel]} ({lis_equivalence_scales['text'][eq]})"
             df_graphers.loc[
                 j, "subtitle"
             ] = f"This is the {lis_welfare['welfare_type'][wel]} of the poorest 50% as a share of total {lis_welfare['welfare_type'][wel]}. {lis_welfare['subtitle'][wel]}"
@@ -382,10 +373,7 @@ for tab in range(len(lis_tables)):
             df_graphers.loc[j, "Metric Dropdown"] = "P90/P10"
             df_graphers.loc[
                 j, "Welfare type Dropdown"
-            ] = f"{lis_welfare['dropdown_option'][wel]}"
-            df_graphers.loc[j, "Equivalence scale Dropdown"] = lis_equivalence_scales[
-                "text"
-            ][eq].capitalize()
+            ] = f"{lis_welfare['dropdown_option'][wel]} ({lis_equivalence_scales['text'][eq]})"
             df_graphers.loc[
                 j, "subtitle"
             ] = f"P90 and P10 are the levels of {lis_welfare['welfare_type'][wel]} below which 90% and 10% of the population live, respectively. This variable gives the ratio of the two. It is a measure of inequality that indicates the gap between the richest and poorest tenth of the population. {lis_welfare['subtitle'][wel]}"
@@ -407,10 +395,7 @@ for tab in range(len(lis_tables)):
             df_graphers.loc[j, "Metric Dropdown"] = "P90/P50"
             df_graphers.loc[
                 j, "Welfare type Dropdown"
-            ] = f"{lis_welfare['dropdown_option'][wel]}"
-            df_graphers.loc[j, "Equivalence scale Dropdown"] = lis_equivalence_scales[
-                "text"
-            ][eq].capitalize()
+            ] = f"{lis_welfare['dropdown_option'][wel]} ({lis_equivalence_scales['text'][eq]})"
             df_graphers.loc[
                 j, "subtitle"
             ] = f"The P90/P50 ratio measures the degree of inequality within the richest half of the population. A ratio of 2 means that someone just falling in the richest tenth of the population has twice the median {lis_welfare['welfare_type'][wel]}. {lis_welfare['subtitle'][wel]}"
@@ -432,10 +417,7 @@ for tab in range(len(lis_tables)):
             df_graphers.loc[j, "Metric Dropdown"] = "P50/P10"
             df_graphers.loc[
                 j, "Welfare type Dropdown"
-            ] = f"{lis_welfare['dropdown_option'][wel]}"
-            df_graphers.loc[j, "Equivalence scale Dropdown"] = lis_equivalence_scales[
-                "text"
-            ][eq].capitalize()
+            ] = f"{lis_welfare['dropdown_option'][wel]} ({lis_equivalence_scales['text'][eq]})"
             df_graphers.loc[
                 j, "subtitle"
             ] = f"The P50/P10 ratio measures the degree of inequality within the poorest half of the population. A ratio of 2 means that the median {lis_welfare['welfare_type'][wel]} is two times higher than that of someone just falling in the poorest tenth of the population. {lis_welfare['subtitle'][wel]}"
@@ -457,10 +439,7 @@ for tab in range(len(lis_tables)):
             df_graphers.loc[j, "Metric Dropdown"] = "Palma ratio"
             df_graphers.loc[
                 j, "Welfare type Dropdown"
-            ] = f"{lis_welfare['dropdown_option'][wel]}"
-            df_graphers.loc[j, "Equivalence scale Dropdown"] = lis_equivalence_scales[
-                "text"
-            ][eq].capitalize()
+            ] = f"{lis_welfare['dropdown_option'][wel]} ({lis_equivalence_scales['text'][eq]})"
             df_graphers.loc[
                 j, "subtitle"
             ] = f"The Palma ratio is the share of total {lis_welfare['welfare_type'][wel]} of the top 10% divided by the share of the bottom 40%. {lis_welfare['subtitle'][wel]}"
@@ -471,32 +450,28 @@ for tab in range(len(lis_tables)):
             j += 1
 
             # Headcount ratio (rel)
-            for pct in range(len(lis_povlines_rel)):
-                df_graphers.loc[
-                    j, "title"
-                ] = f"{lis_povlines_rel['title_share'][pct]} ({lis_welfare['title'][wel].capitalize()}, {lis_equivalence_scales['text'][eq]})"
-                df_graphers.loc[
-                    j, "ySlugs"
-                ] = f"headcount_ratio_{lis_povlines_rel['slug_suffix'][pct]}_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
-                df_graphers.loc[j, "Source Dropdown"] = lis_tables["source_name"][tab]
-                df_graphers.loc[
-                    j, "Metric Dropdown"
-                ] = f"Share in relative poverty (< {lis_povlines_rel['text'][pct]})"
-                df_graphers.loc[
-                    j, "Welfare type Dropdown"
-                ] = f"{lis_welfare['dropdown_option'][wel]}"
-                df_graphers.loc[
-                    j, "Equivalence scale Dropdown"
-                ] = lis_equivalence_scales["text"][eq].capitalize()
-                df_graphers.loc[
-                    j, "subtitle"
-                ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at {lis_povlines_rel['text'][pct]} {lis_welfare['welfare_type'][wel]}. {lis_welfare['subtitle'][wel]}"
-                df_graphers.loc[j, "note"] = np.nan
-                df_graphers.loc[j, "type"] = np.nan
-                df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
-                df_graphers.loc[j, "hasMapTab"] = "true"
-                df_graphers.loc[j, "tab"] = "map"
-                j += 1
+            df_graphers.loc[
+                j, "title"
+            ] = f"Relative poverty: Share of people below 50% of the median income ({lis_welfare['title'][wel].capitalize()}, {lis_equivalence_scales['text'][eq]})"
+            df_graphers.loc[
+                j, "ySlugs"
+            ] = f"headcount_ratio_50_median_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
+            df_graphers.loc[j, "Source Dropdown"] = lis_tables["source_name"][tab]
+            df_graphers.loc[
+                j, "Metric Dropdown"
+            ] = f"Share in relative poverty (< 50% of the median)"
+            df_graphers.loc[
+                j, "Welfare type Dropdown"
+            ] = f"{lis_welfare['dropdown_option'][wel]} ({lis_equivalence_scales['text'][eq]})"
+            df_graphers.loc[
+                j, "subtitle"
+            ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at 50% of the median {lis_welfare['welfare_type'][wel]}. {lis_welfare['subtitle'][wel]}"
+            df_graphers.loc[j, "note"] = np.nan
+            df_graphers.loc[j, "type"] = np.nan
+            df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
+            df_graphers.loc[j, "hasMapTab"] = "true"
+            df_graphers.loc[j, "tab"] = "map"
+            j += 1
 
     df_graphers["tableSlug"] = lis_tables["name"][tab]
 
@@ -517,9 +492,9 @@ df_graphers["mapTargetTime"] = df_graphers["mapTargetTime"].astype("Int64")
 
 # Select one default view
 df_graphers.loc[
-    (df_graphers["Metric Dropdown"] == "Gini coefficient")
-    & (df_graphers["Welfare type Dropdown"] == "Disposable income")
-    & (df_graphers["Equivalence scale Dropdown"] == "Equivalized"),
+    (df_graphers["Source Dropdown"] == "Luxembourg Income Study (LIS)")
+    & (df_graphers["Metric Dropdown"] == "Gini coefficient")
+    & (df_graphers["Welfare type Dropdown"] == "Disposable income (equivalized)"),
     ["defaultView"],
 ] = "true"
 
