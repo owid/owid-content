@@ -724,7 +724,7 @@ for tab in range(len(wid_tables)):
             j, "title"
         ] = f"{wid_welfare['welfare_type'][wel].capitalize()} inequality: Gini coefficient {wid_welfare['title'][wel].capitalize()}"
         df_graphers_wid.loc[j, "ySlugs"] = f"p0p100_gini_{wid_welfare['slug'][wel]}"
-        df_graphers_lis.loc[j, "Source Dropdown"] = wid_tables["source_name"][tab]
+        df_graphers_wid.loc[j, "Source Dropdown"] = wid_tables["source_name"][tab]
         df_graphers_wid.loc[j, "Metric Dropdown"] = "Gini coefficient"
         df_graphers_wid.loc[
             j, "Welfare type Dropdown"
@@ -744,7 +744,7 @@ for tab in range(len(wid_tables)):
             j, "title"
         ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the top 10% {wid_welfare['title'][wel].capitalize()}"
         df_graphers_wid.loc[j, "ySlugs"] = f"p90p100_share_{wid_welfare['slug'][wel]}"
-        df_graphers_lis.loc[j, "Source Dropdown"] = wid_tables["source_name"][tab]
+        df_graphers_wid.loc[j, "Source Dropdown"] = wid_tables["source_name"][tab]
         df_graphers_wid.loc[j, "Metric Dropdown"] = "Top 10% share"
         df_graphers_wid.loc[
             j, "Welfare type Dropdown"
@@ -764,7 +764,7 @@ for tab in range(len(wid_tables)):
             j, "title"
         ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the top 1% {wid_welfare['title'][wel].capitalize()}"
         df_graphers_wid.loc[j, "ySlugs"] = f"p99p100_share_{wid_welfare['slug'][wel]}"
-        df_graphers_lis.loc[j, "Source Dropdown"] = wid_tables["source_name"][tab]
+        df_graphers_wid.loc[j, "Source Dropdown"] = wid_tables["source_name"][tab]
         df_graphers_wid.loc[j, "Metric Dropdown"] = "Top 1% share"
         df_graphers_wid.loc[
             j, "Welfare type Dropdown"
@@ -784,7 +784,7 @@ for tab in range(len(wid_tables)):
             j, "title"
         ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the top 0.1% {wid_welfare['title'][wel].capitalize()}"
         df_graphers_wid.loc[j, "ySlugs"] = f"p99_9p100_share_{wid_welfare['slug'][wel]}"
-        df_graphers_lis.loc[j, "Source Dropdown"] = wid_tables["source_name"][tab]
+        df_graphers_wid.loc[j, "Source Dropdown"] = wid_tables["source_name"][tab]
         df_graphers_wid.loc[j, "Metric Dropdown"] = "Top 0.1% share"
         df_graphers_wid.loc[
             j, "Welfare type Dropdown"
@@ -806,7 +806,7 @@ for tab in range(len(wid_tables)):
         df_graphers_wid.loc[
             j, "ySlugs"
         ] = f"p99_99p100_share_{wid_welfare['slug'][wel]}"
-        df_graphers_lis.loc[j, "Source Dropdown"] = wid_tables["source_name"][tab]
+        df_graphers_wid.loc[j, "Source Dropdown"] = wid_tables["source_name"][tab]
         df_graphers_wid.loc[j, "Metric Dropdown"] = "Top 0.01% share"
         df_graphers_wid.loc[
             j, "Welfare type Dropdown"
@@ -828,7 +828,7 @@ for tab in range(len(wid_tables)):
         df_graphers_wid.loc[
             j, "ySlugs"
         ] = f"p99_999p100_share_{wid_welfare['slug'][wel]}"
-        df_graphers_lis.loc[j, "Source Dropdown"] = wid_tables["source_name"][tab]
+        df_graphers_wid.loc[j, "Source Dropdown"] = wid_tables["source_name"][tab]
         df_graphers_wid.loc[j, "Metric Dropdown"] = "Top 0.001% share"
         df_graphers_wid.loc[
             j, "Welfare type Dropdown"
@@ -848,7 +848,7 @@ for tab in range(len(wid_tables)):
             j, "title"
         ] = f"{wid_welfare['welfare_type'][wel].capitalize()} inequality: P90/P10 ratio {wid_welfare['title'][wel].capitalize()}"
         df_graphers_wid.loc[j, "ySlugs"] = f"p90_p10_ratio_{wid_welfare['slug'][wel]}"
-        df_graphers_lis.loc[j, "Source Dropdown"] = wid_tables["source_name"][tab]
+        df_graphers_wid.loc[j, "Source Dropdown"] = wid_tables["source_name"][tab]
         df_graphers_wid.loc[j, "Metric Dropdown"] = "P90/P10"
         df_graphers_wid.loc[
             j, "Welfare type Dropdown"
@@ -868,7 +868,7 @@ for tab in range(len(wid_tables)):
             j, "title"
         ] = f"{wid_welfare['welfare_type'][wel].capitalize()} inequality: P90/P50 ratio {wid_welfare['title'][wel].capitalize()}"
         df_graphers_wid.loc[j, "ySlugs"] = f"p90_p50_ratio_{wid_welfare['slug'][wel]}"
-        df_graphers_lis.loc[j, "Source Dropdown"] = wid_tables["source_name"][tab]
+        df_graphers_wid.loc[j, "Source Dropdown"] = wid_tables["source_name"][tab]
         df_graphers_wid.loc[j, "Metric Dropdown"] = "P90/P50"
         df_graphers_wid.loc[
             j, "Welfare type Dropdown"
@@ -888,7 +888,7 @@ for tab in range(len(wid_tables)):
             j, "title"
         ] = f"{wid_welfare['welfare_type'][wel].capitalize()} inequality: P50/P10 ratio {wid_welfare['title'][wel].capitalize()}"
         df_graphers_wid.loc[j, "ySlugs"] = f"p50_p10_ratio_{wid_welfare['slug'][wel]}"
-        df_graphers_lis.loc[j, "Source Dropdown"] = wid_tables["source_name"][tab]
+        df_graphers_wid.loc[j, "Source Dropdown"] = wid_tables["source_name"][tab]
         df_graphers_wid.loc[j, "Metric Dropdown"] = "P50/P10"
         df_graphers_wid.loc[
             j, "Welfare type Dropdown"
@@ -908,7 +908,7 @@ for tab in range(len(wid_tables)):
             j, "title"
         ] = f"{wid_welfare['welfare_type'][wel].capitalize()} inequality: Palma ratio {wid_welfare['title'][wel].capitalize()}"
         df_graphers_wid.loc[j, "ySlugs"] = f"palma_ratio_{wid_welfare['slug'][wel]}"
-        df_graphers_lis.loc[j, "Source Dropdown"] = wid_tables["source_name"][tab]
+        df_graphers_wid.loc[j, "Source Dropdown"] = wid_tables["source_name"][tab]
         df_graphers_wid.loc[j, "Metric Dropdown"] = "Palma ratio"
         df_graphers_wid.loc[
             j, "Welfare type Dropdown"
