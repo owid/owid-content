@@ -19,8 +19,8 @@ graphers
 	Cases of severe acute respiratory infections		reported_sari_cases	true		LineChart	Severe acute respiratory infections		-4043
 	Cases of influenza like illnesses		reported_ili_cases	true		LineChart	Influenza-like illnesses		-4043
 	Reported deaths caused by severe acute respiratory infections		reported_sari_deaths	true		LineChart	SARI deaths		-4043
-	Cases of influenza-like illness per thousand outpatients		ili_cases_per_thousand_outpatients	true		LineChart	ILI rate		-4043
-	Cases of serious acute respiratory illness per hundred inpatients		sari_cases_per_hundred_inpatients	true		LineChart	SARI rate		-4043
+	Cases of influenza-like illness per 1,000 outpatients		ili_cases_per_thousand_outpatients	true		LineChart	ILI rate		-4043
+	Cases of serious acute respiratory illness per 100 inpatients		sari_cases_per_hundred_inpatients	true		LineChart	SARI rate		-4043
 	Weekly share of influenza tests that were positive	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype.	pcnt_poscombined	true		LineChart	Share of positive influenza tests	Combined	-4043
 	Weekly share of influenza tests that were positive	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype.	pcnt_possentinel	true		LineChart	Share of positive influenza tests	Sentinel	-4043
 	Weekly share of influenza tests that were positive	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype.	pcnt_posnonsentinel	true		LineChart	Share of positive influenza tests	Non-sentinel	-4043
