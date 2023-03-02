@@ -1087,9 +1087,10 @@ for survey in range(len(pip_survey_type)):
     # Gini coefficient
     df_graphers_pip.loc[j, "title"] = f"Income inequality: Gini coefficient"
     df_graphers_pip.loc[j, "ySlugs"] = f"gini"
+    df_graphers_pip.loc[j, "Source Dropdown"] = pip_survey_type["source_name"][tab]
     df_graphers_pip.loc[j, "Metric Dropdown"] = "Gini coefficient"
     df_graphers_pip.loc[
-        j, "Household survey data type Dropdown"
+        j, "Welfare type Dropdown"
     ] = f"{pip_survey_type.dropdown_option[survey]}"
     df_graphers_pip.loc[j, "tableSlug"] = f"{pip_survey_type.table_name[survey]}"
     df_graphers_pip.loc[
@@ -1098,13 +1099,10 @@ for survey in range(len(pip_survey_type)):
     df_graphers_pip.loc[
         j, "note"
     ] = f"Depending on the country and year, the data relates to disposable {pip_survey_type.text[survey]} per capita."
-    df_graphers_pip.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
     df_graphers_pip.loc[j, "type"] = np.nan
-    df_graphers_pip.loc[j, "yAxisMin"] = 0
     df_graphers_pip.loc[j, "selectedFacetStrategy"] = np.nan
     df_graphers_pip.loc[j, "hasMapTab"] = "true"
     df_graphers_pip.loc[j, "tab"] = "map"
-    df_graphers_pip.loc[j, "mapTargetTime"] = 2019
     j += 1
 
     # Share of the top 10%
@@ -1112,9 +1110,10 @@ for survey in range(len(pip_survey_type)):
         j, "title"
     ] = f"{pip_survey_type.text[survey].capitalize()} share of the top 10%"
     df_graphers_pip.loc[j, "ySlugs"] = f"decile10_share"
+    df_graphers_pip.loc[j, "Source Dropdown"] = pip_survey_type["source_name"][tab]
     df_graphers_pip.loc[j, "Metric Dropdown"] = "Top 10% share"
     df_graphers_pip.loc[
-        j, "Household survey data type Dropdown"
+        j, "Welfare type Dropdown"
     ] = f"{pip_survey_type.dropdown_option[survey]}"
     df_graphers_pip.loc[j, "tableSlug"] = f"{pip_survey_type.table_name[survey]}"
     df_graphers_pip.loc[
@@ -1123,21 +1122,19 @@ for survey in range(len(pip_survey_type)):
     df_graphers_pip.loc[
         j, "note"
     ] = f"Depending on the country and year, the data relates to disposable {pip_survey_type.text[survey]} per capita."
-    df_graphers_pip.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
     df_graphers_pip.loc[j, "type"] = np.nan
-    df_graphers_pip.loc[j, "yAxisMin"] = 0
     df_graphers_pip.loc[j, "selectedFacetStrategy"] = np.nan
     df_graphers_pip.loc[j, "hasMapTab"] = "true"
     df_graphers_pip.loc[j, "tab"] = "map"
-    df_graphers_pip.loc[j, "mapTargetTime"] = 2019
     j += 1
 
     # P90/P10
     df_graphers_pip.loc[j, "title"] = f"Income inequality: P90/P10 ratio"
     df_graphers_pip.loc[j, "ySlugs"] = f"p90_p10_ratio"
+    df_graphers_pip.loc[j, "Source Dropdown"] = pip_survey_type["source_name"][tab]
     df_graphers_pip.loc[j, "Metric Dropdown"] = "P90/P10"
     df_graphers_pip.loc[
-        j, "Household survey data type Dropdown"
+        j, "Welfare type Dropdown"
     ] = f"{pip_survey_type.dropdown_option[survey]}"
     df_graphers_pip.loc[j, "tableSlug"] = f"{pip_survey_type.table_name[survey]}"
     df_graphers_pip.loc[
@@ -1146,21 +1143,19 @@ for survey in range(len(pip_survey_type)):
     df_graphers_pip.loc[
         j, "note"
     ] = f"Depending on the country and year, the data relates to disposable {pip_survey_type.text[survey]} per capita."
-    df_graphers_pip.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
     df_graphers_pip.loc[j, "type"] = np.nan
-    df_graphers_pip.loc[j, "yAxisMin"] = 0
     df_graphers_pip.loc[j, "selectedFacetStrategy"] = np.nan
     df_graphers_pip.loc[j, "hasMapTab"] = "true"
     df_graphers_pip.loc[j, "tab"] = "map"
-    df_graphers_pip.loc[j, "mapTargetTime"] = 2019
     j += 1
 
     # P90/P50
     df_graphers_pip.loc[j, "title"] = f"Income inequality: P90/P50 ratio"
     df_graphers_pip.loc[j, "ySlugs"] = f"p90_p50_ratio"
+    df_graphers_pip.loc[j, "Source Dropdown"] = pip_survey_type["source_name"][tab]
     df_graphers_pip.loc[j, "Metric Dropdown"] = "P90/P50"
     df_graphers_pip.loc[
-        j, "Household survey data type Dropdown"
+        j, "Welfare type Dropdown"
     ] = f"{pip_survey_type.dropdown_option[survey]}"
     df_graphers_pip.loc[j, "tableSlug"] = f"{pip_survey_type.table_name[survey]}"
     df_graphers_pip.loc[
@@ -1169,21 +1164,19 @@ for survey in range(len(pip_survey_type)):
     df_graphers_pip.loc[
         j, "note"
     ] = f"Depending on the country and year, the data relates to disposable {pip_survey_type.text[survey]} per capita."
-    df_graphers_pip.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
     df_graphers_pip.loc[j, "type"] = np.nan
-    df_graphers_pip.loc[j, "yAxisMin"] = 0
     df_graphers_pip.loc[j, "selectedFacetStrategy"] = np.nan
     df_graphers_pip.loc[j, "hasMapTab"] = "true"
     df_graphers_pip.loc[j, "tab"] = "map"
-    df_graphers_pip.loc[j, "mapTargetTime"] = 2019
     j += 1
 
     # P50/P10
     df_graphers_pip.loc[j, "title"] = f"Income inequality: P50/P10 ratio"
     df_graphers_pip.loc[j, "ySlugs"] = f"p50_p10_ratio"
+    df_graphers_pip.loc[j, "Source Dropdown"] = pip_survey_type["source_name"][tab]
     df_graphers_pip.loc[j, "Metric Dropdown"] = "P50/P10"
     df_graphers_pip.loc[
-        j, "Household survey data type Dropdown"
+        j, "Welfare type Dropdown"
     ] = f"{pip_survey_type.dropdown_option[survey]}"
     df_graphers_pip.loc[j, "tableSlug"] = f"{pip_survey_type.table_name[survey]}"
     df_graphers_pip.loc[
@@ -1192,21 +1185,19 @@ for survey in range(len(pip_survey_type)):
     df_graphers_pip.loc[
         j, "note"
     ] = f"Depending on the country and year, the data relates to disposable {pip_survey_type.text[survey]} per capita."
-    df_graphers_pip.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
     df_graphers_pip.loc[j, "type"] = np.nan
-    df_graphers_pip.loc[j, "yAxisMin"] = 0
     df_graphers_pip.loc[j, "selectedFacetStrategy"] = np.nan
     df_graphers_pip.loc[j, "hasMapTab"] = "true"
     df_graphers_pip.loc[j, "tab"] = "map"
-    df_graphers_pip.loc[j, "mapTargetTime"] = 2019
     j += 1
 
     # Palma ratio
     df_graphers_pip.loc[j, "title"] = f"Income inequality: Palma ratio"
     df_graphers_pip.loc[j, "ySlugs"] = f"palma_ratio"
+    df_graphers_pip.loc[j, "Source Dropdown"] = pip_survey_type["source_name"][tab]
     df_graphers_pip.loc[j, "Metric Dropdown"] = "Palma ratio"
     df_graphers_pip.loc[
-        j, "Household survey data type Dropdown"
+        j, "Welfare type Dropdown"
     ] = f"{pip_survey_type.dropdown_option[survey]}"
     df_graphers_pip.loc[j, "tableSlug"] = f"{pip_survey_type.table_name[survey]}"
     df_graphers_pip.loc[
@@ -1215,13 +1206,10 @@ for survey in range(len(pip_survey_type)):
     df_graphers_pip.loc[
         j, "note"
     ] = f"Depending on the country and year, the data relates to disposable {pip_survey_type.text[survey]} per capita."
-    df_graphers_pip.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
     df_graphers_pip.loc[j, "type"] = np.nan
-    df_graphers_pip.loc[j, "yAxisMin"] = 0
     df_graphers_pip.loc[j, "selectedFacetStrategy"] = np.nan
     df_graphers_pip.loc[j, "hasMapTab"] = "true"
     df_graphers_pip.loc[j, "tab"] = "map"
-    df_graphers_pip.loc[j, "mapTargetTime"] = 2019
     j += 1
 
     # Headcount ratio (rel)
@@ -1229,11 +1217,12 @@ for survey in range(len(pip_survey_type)):
         j, "title"
     ] = "Relative poverty: Share of people below 50% of the median"
     df_graphers_pip.loc[j, "ySlugs"] = f"headcount_ratio_50_median"
+    df_graphers_pip.loc[j, "Source Dropdown"] = pip_survey_type["source_name"][tab]
     df_graphers_pip.loc[
         j, "Metric Dropdown"
     ] = f"Share in relative poverty (< 50% of the median)"
     df_graphers_pip.loc[
-        j, "Household survey data type Dropdown"
+        j, "Welfare type Dropdown"
     ] = f"{pip_survey_type.dropdown_option[survey]}"
     df_graphers_pip.loc[j, "tableSlug"] = f"{pip_survey_type.table_name[survey]}"
     df_graphers_pip.loc[
@@ -1242,13 +1231,10 @@ for survey in range(len(pip_survey_type)):
     df_graphers_pip.loc[
         j, "note"
     ] = f"Depending on the country and year, the data relates to disposable {pip_survey_type.text[survey]} per capita."
-    df_graphers_pip.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
     df_graphers_pip.loc[j, "type"] = np.nan
-    df_graphers_pip.loc[j, "yAxisMin"] = 0
     df_graphers_pip.loc[j, "selectedFacetStrategy"] = np.nan
     df_graphers_pip.loc[j, "hasMapTab"] = "true"
     df_graphers_pip.loc[j, "tab"] = "map"
-    df_graphers_pip.loc[j, "mapTargetTime"] = 2019
     j += 1
 
 # Add yAxisMin and mapTargetTime
@@ -1256,7 +1242,9 @@ df_graphers_pip["yAxisMin"] = yAxisMin
 df_graphers_pip["mapTargetTime"] = mapTargetTime
 
 # Concatenate all the graphers dataframes
-df_graphers = pd.concat([df_graphers_lis, df_graphers_wid], ignore_index=True)
+df_graphers = pd.concat(
+    [df_graphers_lis, df_graphers_wid, df_graphers_pip], ignore_index=True
+)
 
 # %% [markdown]
 # Final adjustments to the graphers table: add `relatedQuestion` link and `defaultView`:
