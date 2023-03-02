@@ -87,7 +87,7 @@ graphers
 	Specimens received for testing for influenza		spec_received_nbcombined	true		LineChart	Specimens received	Combined	-4043
 table	https://owid-catalog.nyc3.digitaloceanspaces.com/explorers%2Fwho%2Flatest%2Fflu%2Fflu.csv
 columns
-	slug	name	type	tolerance	sourceName	sourceLink	additionalInfo	colorScaleNumericMinValue
+	slug	name	type	tolerance	sourceName	sourceLink	additionalInfo	colorScaleNumericMinValue	color
 	country	Country	EntityName					0
 	date	Day	Date					0
 	reported_ari_cases	Cases of acute respiratory infections	Integer					0
@@ -160,47 +160,47 @@ columns
 	pcnt_posnonsentinel	Weekly share of influenza tests that were positive - non-sentinel	Percentage					0
 	pcnt_posnotdefined	Weekly share of influenza tests that were positive - not defined	Percentage					0
 	pcnt_poscombined	Weekly share of influenza tests that were positive - combined	Percentage					0
-	ah1n12009combined_zfilled	AH1N12009	Integer					0
-	ah1combined_zfilled	AH1	Integer					0
-	ah3combined_zfilled	AH3	Integer					0
-	ah5combined_zfilled	AH5	Integer					0
-	ah7n9combined_zfilled	AH7N9	Integer					0
-	a_no_subtypecombined_zfilled	A other	Integer					0
+	ah1n12009combined_zfilled	AH1N12009	Integer					0	#580014
+	ah1combined_zfilled	AH1	Integer					0	#751929
+	ah3combined_zfilled	AH3	Integer					0	#942F41
+	ah5combined_zfilled	AH5	Integer					0	#B24559
+	ah7n9combined_zfilled	AH7N9	Integer					0	#CB6073
+	a_no_subtypecombined_zfilled	A other	Integer					0	#DE8091
 	inf_acombined_zfilled	All Influenza A	Integer					0
-	byamcombined_zfilled	B Yamagata	Integer					0
-	bviccombined_zfilled	B Victoria	Integer					0
-	bnotdeterminedcombined_zfilled	B other	Integer					0
+	byamcombined_zfilled	B Yamagata	Integer					0	#005D59
+	bviccombined_zfilled	B Victoria	Integer					0	#259790
+	bnotdeterminedcombined_zfilled	B other	Integer					0	#4CB3AC
 	inf_bcombined_zfilled	All Influenza B	Integer					0
-	ah1n12009sentinel_zfilled	AH1N12009	Integer
-	ah1sentinel_zfilled	AH1	Integer
-	ah3sentinel_zfilled	AH3	Integer
-	ah5sentinel_zfilled	AH5	Integer
-	ah7n9sentinel_zfilled	AH7N9	Integer
-	a_no_subtypesentinel_zfilled	A other	Integer
+	ah1n12009sentinel_zfilled	AH1N12009	Integer						#580014
+	ah1sentinel_zfilled	AH1	Integer						#751929
+	ah3sentinel_zfilled	AH3	Integer						#942F41
+	ah5sentinel_zfilled	AH5	Integer						#B24559
+	ah7n9sentinel_zfilled	AH7N9	Integer						#CB6073
+	a_no_subtypesentinel_zfilled	A other	Integer						#DE8091
 	inf_asentinel_zfilled	All Influenza A	Integer
-	byamsentinel_zfilled	B Yamagata	Integer
-	bvicsentinel_zfilled	B Victoria	Integer
-	bnotdeterminedsentinel_zfilled	B other	Integer
+	byamsentinel_zfilled	B Yamagata	Integer						#005D59
+	bvicsentinel_zfilled	B Victoria	Integer						#259790
+	bnotdeterminedsentinel_zfilled	B other	Integer						#4CB3AC
 	inf_bsentinel_zfilled	All Influenza B	Integer
-	ah1n12009nonsentinel_zfilled	AH1N12009	Integer
-	ah1nonsentinel_zfilled	AH1	Integer
-	ah3nonsentinel_zfilled	AH3	Integer
-	ah5nonsentinel_zfilled	AH5	Integer
-	ah7n9nonsentinel_zfilled	AH7N9	Integer
-	a_no_subtypenonsentinel_zfilled	A other	Integer
+	ah1n12009nonsentinel_zfilled	AH1N12009	Integer						#580014
+	ah1nonsentinel_zfilled	AH1	Integer						#751929
+	ah3nonsentinel_zfilled	AH3	Integer						#942F41
+	ah5nonsentinel_zfilled	AH5	Integer						#B24559
+	ah7n9nonsentinel_zfilled	AH7N9	Integer						#CB6073
+	a_no_subtypenonsentinel_zfilled	A other	Integer						#DE8091
 	inf_anonsentinel_zfilled	All Influenza A	Integer
-	byamnonsentinel_zfilled	B Yamagata	Integer
-	bvicnonsentinel_zfilled	B Victoria	Integer
-	bnotdeterminednonsentinel_zfilled	B other	Integer
+	byamnonsentinel_zfilled	B Yamagata	Integer						#005D59
+	bvicnonsentinel_zfilled	B Victoria	Integer						#259790
+	bnotdeterminednonsentinel_zfilled	B other	Integer						#4CB3AC
 	inf_bnonsentinel_zfilled	All Influenza B	Integer
-	ah1n12009notdefined_zfilled	AH1N12009	Integer
-	ah1notdefined_zfilled	AH1	Integer
-	ah3notdefined_zfilled	AH3	Integer
-	ah5notdefined_zfilled	AH5	Integer
-	ah7n9notdefined_zfilled	AH7N9	Integer
-	a_no_subtypenotdefined_zfilled	A other	Integer
+	ah1n12009notdefined_zfilled	AH1N12009	Integer						#580014
+	ah1notdefined_zfilled	AH1	Integer						#751929
+	ah3notdefined_zfilled	AH3	Integer						#942F41
+	ah5notdefined_zfilled	AH5	Integer						#B24559
+	ah7n9notdefined_zfilled	AH7N9	Integer						#CB6073
+	a_no_subtypenotdefined_zfilled	A other	Integer						#DE8091
 	inf_anotdefined_zfilled	All Influenza A	Integer
-	byamnotdefined_zfilled	B Yamagata	Integer
-	bvicnotdefined_zfilled	B Victoria	Integer
-	bnotdeterminednotdefined_zfilled	B other	Integer
+	byamnotdefined_zfilled	B Yamagata	Integer						#005D59
+	bvicnotdefined_zfilled	B Victoria	Integer						#259790
+	bnotdeterminednotdefined_zfilled	B other	Integer						#4CB3AC
 	inf_bnotdefined_zfilled	All Influenza B	Integer
