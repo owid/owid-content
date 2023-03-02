@@ -361,6 +361,24 @@ for tab in range(len(wid_tables)):
         df_tables_wid.loc[j, "colorScaleScheme"] = "Greens"
         j += 1
 
+        # Share of the bottom 50%
+        df_tables_wid.loc[
+            j, "name"
+        ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the bottom 50% ({wid_welfare['technical_text'][wel].capitalize()})"
+        df_tables_wid.loc[j, "slug"] = f"p0p50_share_{wid_welfare['slug'][wel]}"
+        df_tables_wid.loc[
+            j, "description"
+        ] = f"This is the {wid_welfare['welfare_type'][wel]} of the poorest 50% as a share of total {wid_welfare['welfare_type'][wel]}.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} {wid_welfare['note'][wel]}"
+        df_tables_wid.loc[j, "unit"] = "%"
+        df_tables_wid.loc[j, "shortUnit"] = "%"
+        df_tables_wid.loc[j, "type"] = "Numeric"
+        df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare["scale_bottom50"][
+            wel
+        ]
+        df_tables_wid.loc[j, "colorScaleEqualSizeBins"] = "true"
+        df_tables_wid.loc[j, "colorScaleScheme"] = "Blues"
+        j += 1
+
         # Share of the top 1%
         df_tables_wid.loc[
             j, "name"
@@ -902,6 +920,25 @@ for tab in range(len(wid_tables)):
         df_graphers_wid.loc[j, "tab"] = "map"
         j += 1
 
+        # Share of the bottom 50%
+        df_graphers_wid.loc[
+            j, "title"
+        ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the bottom 50% {wid_welfare['title'][wel].capitalize()}"
+        df_graphers_wid.loc[j, "ySlugs"] = f"p0p50_share_{wid_welfare['slug'][wel]}"
+        df_graphers_wid.loc[j, "Source Dropdown"] = wid_tables["source_name"][tab]
+        df_graphers_wid.loc[j, "Metric Dropdown"] = "Bottom 50% share"
+        df_graphers_wid.loc[
+            j, "Welfare type Dropdown"
+        ] = f"{wid_welfare['dropdown_option'][wel]}"
+        df_graphers_wid.loc[
+            j, "subtitle"
+        ] = f"This is the {wid_welfare['welfare_type'][wel]} of the poorest 50% as a share of total {wid_welfare['welfare_type'][wel]}. {wid_welfare['subtitle'][wel]}"
+        df_graphers_wid.loc[j, "note"] = f"{wid_welfare['note'][wel]}"
+        df_graphers_wid.loc[j, "selectedFacetStrategy"] = np.nan
+        df_graphers_wid.loc[j, "hasMapTab"] = "true"
+        df_graphers_wid.loc[j, "tab"] = "map"
+        j += 1
+
         # Share of the top 1%
         df_graphers_wid.loc[
             j, "title"
@@ -1072,6 +1109,22 @@ for tab in range(len(wid_tables)):
 # Add yAxisMin and mapTargetTime
 df_graphers_wid["yAxisMin"] = yAxisMin
 df_graphers_wid["mapTargetTime"] = mapTargetTime
+
+# Remove some views for wealth that might be misleading because of negative values in the first deciles of the distribution
+vars_to_keep = [
+    "Top 10% share",
+    "Bottom 50% share",
+    "Top 1% share",
+    "Top 0.1% share",
+    "Top 0.01% share",
+    "Top 0.001% share",
+]
+df_graphers_wid = df_graphers_wid[
+    ~(
+        (df_graphers_wid["Welfare type Dropdown"] == "Wealth")
+        & ~(df_graphers_wid["Metric Dropdown"].isin(vars_to_keep))
+    )
+]
 
 ###########################################################################################
 # WORLD BANK POVERTY AND INEQUALITY PLATFORM
