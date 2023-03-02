@@ -98,3 +98,11 @@ graphers
 	1410	Select a source	Wind	Electricity only	Annual generation
 	4459	Select a source	Wind	Electricity only	Per capita generation
 	4323	Select a source	Wind	Electricity only	Share of total
+	6363	Select a source	Solar and wind	Primary energy	Annual consumption
+	6364	Select a source	Solar and wind	Primary energy	Per capita consumption
+	6365	Select a source	Solar and wind	Primary energy	Share of total
+	6366	Select a source	Solar and wind	Primary energy	Rel. change from previous year
+	6367	Select a source	Solar and wind	Primary energy	Abs. change from previous year
+	6368	Select a source	Solar and wind	Electricity only	Annual generation
+	6369	Select a source	Solar and wind	Electricity only	Per capita generation
+	6370	Select a source	Solar and wind	Electricity only	Share of total
