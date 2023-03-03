@@ -165,29 +165,29 @@ columns
 	ah3combined_zfilled	AH3	Integer					0	#942F41
 	ah5combined_zfilled	AH5	Integer					0	#B24559
 	ah7n9combined_zfilled	AH7N9	Integer					0	#CB6073
-	a_no_subtypecombined_zfilled	A other	Integer					0	#DE8091
+	a_no_subtypecombined_zfilled	A Other	Integer					0	#DE8091
 	inf_acombined_zfilled	All Influenza A	Integer					0
 	byamcombined_zfilled	B Yamagata	Integer					0	#005D59
 	bviccombined_zfilled	B Victoria	Integer					0	#259790
-	bnotdeterminedcombined_zfilled	B other	Integer					0	#4CB3AC
+	bnotdeterminedcombined_zfilled	B Other	Integer					0	#4CB3AC
 	inf_bcombined_zfilled	All Influenza B	Integer					0
 	ah1n12009sentinel_zfilled	AH1N12009	Integer						#580014
 	ah1sentinel_zfilled	AH1	Integer						#751929
 	ah3sentinel_zfilled	AH3	Integer						#942F41
 	ah5sentinel_zfilled	AH5	Integer						#B24559
 	ah7n9sentinel_zfilled	AH7N9	Integer						#CB6073
-	a_no_subtypesentinel_zfilled	A other	Integer						#DE8091
+	a_no_subtypesentinel_zfilled	A Other	Integer						#DE8091
 	inf_asentinel_zfilled	All Influenza A	Integer
 	byamsentinel_zfilled	B Yamagata	Integer						#005D59
 	bvicsentinel_zfilled	B Victoria	Integer						#259790
-	bnotdeterminedsentinel_zfilled	B other	Integer						#4CB3AC
+	bnotdeterminedsentinel_zfilled	B Other	Integer						#4CB3AC
 	inf_bsentinel_zfilled	All Influenza B	Integer
 	ah1n12009nonsentinel_zfilled	AH1N12009	Integer						#580014
 	ah1nonsentinel_zfilled	AH1	Integer						#751929
 	ah3nonsentinel_zfilled	AH3	Integer						#942F41
 	ah5nonsentinel_zfilled	AH5	Integer						#B24559
 	ah7n9nonsentinel_zfilled	AH7N9	Integer						#CB6073
-	a_no_subtypenonsentinel_zfilled	A other	Integer						#DE8091
+	a_no_subtypenonsentinel_zfilled	A Other	Integer						#DE8091
 	inf_anonsentinel_zfilled	All Influenza A	Integer
 	byamnonsentinel_zfilled	B Yamagata	Integer						#005D59
 	bvicnonsentinel_zfilled	B Victoria	Integer						#259790
@@ -202,5 +202,5 @@ columns
 	inf_anotdefined_zfilled	All Influenza A	Integer
 	byamnotdefined_zfilled	B Yamagata	Integer						#005D59
 	bvicnotdefined_zfilled	B Victoria	Integer						#259790
-	bnotdeterminednotdefined_zfilled	B other	Integer						#4CB3AC
+	bnotdeterminednotdefined_zfilled	B Other	Integer						#4CB3AC
 	inf_bnotdefined_zfilled	All Influenza B	Integer
