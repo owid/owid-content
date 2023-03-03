@@ -191,14 +191,14 @@ columns
 	inf_anonsentinel_zfilled	All Influenza A	Integer
 	byamnonsentinel_zfilled	B Yamagata	Integer						#005D59
 	bvicnonsentinel_zfilled	B Victoria	Integer						#259790
-	bnotdeterminednonsentinel_zfilled	B other	Integer						#4CB3AC
+	bnotdeterminednonsentinel_zfilled	B Other	Integer						#4CB3AC
 	inf_bnonsentinel_zfilled	All Influenza B	Integer
 	ah1n12009notdefined_zfilled	AH1N12009	Integer						#580014
 	ah1notdefined_zfilled	AH1	Integer						#751929
 	ah3notdefined_zfilled	AH3	Integer						#942F41
 	ah5notdefined_zfilled	AH5	Integer						#B24559
 	ah7n9notdefined_zfilled	AH7N9	Integer						#CB6073
-	a_no_subtypenotdefined_zfilled	A other	Integer						#DE8091
+	a_no_subtypenotdefined_zfilled	A Other	Integer						#DE8091
 	inf_anotdefined_zfilled	All Influenza A	Integer
 	byamnotdefined_zfilled	B Yamagata	Integer						#005D59
 	bvicnotdefined_zfilled	B Victoria	Integer						#259790
