@@ -15,6 +15,7 @@ graphers
 	Weekly confirmed cases of influenza	This includes confirmed cases of any influenza virus. Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their strain or lineage.	inf_allnonsentinel	true		LineChart	Direct measure	Confirmed influenza cases (all types)	Weekly	Non-sentinel	-4043
 	Weekly confirmed cases of influenza	This includes confirmed cases of any influenza virus. Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their strain or lineage.	inf_allnotdefined	true		LineChart	Direct measure	Confirmed influenza cases (all types)	Weekly	Not defined	-4043
 	Weekly confirmed cases of influenza	This includes confirmed cases of any influenza virus. Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their strain or lineage.	inf_allcombined inf_allsentinel inf_allnonsentinel inf_allnotdefined	true		LineChart	Direct measure	Confirmed influenza cases (by surveillance)	Weekly		-4043	metric	independent	false
+	Monthly confirmed cases of influenza	This includes confirmed cases of any influenza virus. Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their strain or lineage.	inf_allcombined_monthly inf_allsentinel_monthly inf_allnonsentinel_monthly inf_allnotdefined_monthly			LineChart	Direct measure	Confirmed influenza cases (by surveillance)	Monthly		-4043	metric	independent	false
 	Weekly confirmed cases of influenza (by type)	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype.	ah1n12009combined_zfilled ah1combined_zfilled ah3combined_zfilled ah5combined_zfilled ah7n9combined_zfilled a_no_subtypecombined_zfilled byamcombined_zfilled bviccombined_zfilled bnotdeterminedcombined_zfilled	true		StackedBar	Direct measure	Confirmed influenza cases (by type)	Weekly	Combined	-4043	entity	independent	false
 	Weekly confirmed cases of influenza (by type)	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype.	ah1n12009sentinel_zfilled ah1sentinel_zfilled ah3sentinel_zfilled ah5sentinel_zfilled ah7n9sentinel_zfilled a_no_subtypesentinel_zfilled byamsentinel_zfilled bvicsentinel_zfilled bnotdeterminedsentinel_zfilled	true		StackedBar	Direct measure	Confirmed influenza cases (by type)	Weekly	Sentinel	-4043	entity	independent	false
 	Weekly confirmed cases of influenza (by type)	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype.	ah1n12009nonsentinel_zfilled ah1nonsentinel_zfilled ah3nonsentinel_zfilled	true		StackedBar	Direct measure	Confirmed influenza cases (by type)	Weekly	Non-sentinel	-4043	entity	independent	false
@@ -197,12 +198,10 @@ columns
 	slug	name	type	tolerance	sourceName	sourceLink	additionalInfo	colorScaleNumericMinValue	color
 	country	Country	EntityName					0
 	month_date	Month	Date					0
-	reported_ari_cases	Cases of acute respiratory infections	Integer					0
-	reported_sari_cases	Cases of severe acute respiratory infections	Integer					0
-	reported_ili_cases	Cases of influenza like illnesses	Integer					0
-	reported_sari_deaths	Reported deaths caused by severe acute respiratory infections	Integer					0
-	ili_cases_per_thousand_outpatients	Cases of influenza-like illness per thousand outpatients	Numeric					0
-	sari_cases_per_hundred_inpatients	Cases of acute respiratory illness per thousand outpatients	Numeric					0
+	reported_ari_cases_monthly	Cases of acute respiratory infections	Integer					0
+	reported_sari_cases_monthly	Cases of severe acute respiratory infections	Integer					0
+	reported_ili_cases_monthly	Cases of influenza like illnesses	Integer					0
+	reported_sari_deaths_monthly	Reported deaths caused by severe acute respiratory infections	Integer					0
 	ah1n12009sentinel	Sentinel	Integer					0
 	ah1n12009nonsentinel	Non-sentinel	Integer					0
 	ah1n12009notdefined	Not defined	Integer					0
@@ -247,10 +246,10 @@ columns
 	inf_bnonsentinel	Non-sentinel	Integer					0
 	inf_bnotdefined	Not defined	Integer					0
 	inf_bcombined	Combined	Integer					0
-	inf_allsentinel	Sentinel	Integer					0
-	inf_allnonsentinel	Non-sentinel	Integer					0
-	inf_allnotdefined	Not defined	Integer					0
-	inf_allcombined	Combined	Integer					0
+	inf_allsentinel_monthly	Sentinel	Integer					0
+	inf_allnonsentinel_monthly	Non-sentinel	Integer					0
+	inf_allnotdefined_monthly	Not defined	Integer					0
+	inf_allcombined_monthly	Combined	Integer					0
 	inf_negativesentinel	Sentinel	Integer					0
 	inf_negativenonsentinel	Non-sentinel	Integer					0
 	inf_negativenotdefined	Not defined	Integer					0
@@ -263,10 +262,6 @@ columns
 	spec_received_nbnonsentinel	Non-sentinel	Integer					0
 	spec_received_nbnotdefined	Not defined	Integer					0
 	spec_received_nbcombined	Combined	Integer					0
-	pcnt_possentinel	Sentinel	Percentage					0
-	pcnt_posnonsentinel	Non-sentinel	Percentage					0
-	pcnt_posnotdefined	Not defined	Percentage					0
-	pcnt_poscombined	Combined	Percentage					0
 	ah1n12009combined_zfilled	AH1N12009	Integer					0	#580014
 	ah1combined_zfilled	AH1	Integer					0	#751929
 	ah3combined_zfilled	AH3	Integer					0	#942F41
