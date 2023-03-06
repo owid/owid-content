@@ -255,7 +255,7 @@ columns	flu_weekly
 	bvicnotdefined_zfilled	B Victoria	Integer						#259790
 	bnotdeterminednotdefined_zfilled	B Other	Integer						#4CB3AC
 	inf_bnotdefined_zfilled	All Influenza B	Integer
-table	https://raw.githubusercontent.com/spoonerf/flu_test/main/flu_monthly.csv	flu_monthly
+table	https://owid-catalog.nyc3.digitaloceanspaces.com/explorers%2Fwho%2Flatest%2Fflu%2Fflu_monthly.csv	flu_monthly
 columns	flu_monthly
 	slug	name	type	tolerance	sourceName	sourceLink	additionalInfo	colorScaleNumericMinValue	color
 	country	Country	EntityName					0
