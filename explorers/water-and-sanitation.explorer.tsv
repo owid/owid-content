@@ -14,6 +14,7 @@ table	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Water
 downloadDataLink
 hideTitleAnnotation	true
 pickerColumnSlugs
+
 graphers
 	title	subtitle	Resource Radio	Level of Access Dropdown	Residence Radio	Relative to population Radio	tableSlug	ySlugs	yScaleToggle	xSlug	colorSlug	type	hasMapTab	grapherId	sourceDesc	note	hideTitleAnnotation	tab
 	Share of the population with access to safely managed drinking water	Safely managed drinking water is water from an improved water source which is located on premises, available when needed and free from contamination.	Drinking water	Safely managed	Total	Share of population	water	wat_sm	false			LineChart	true					map

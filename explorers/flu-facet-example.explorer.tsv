@@ -1,0 +1,135 @@
+explorerTitle	Influenza Data Explorer
+explorerSubtitle
+selection	United States	France	Germany	Australia
+isPublished	false
+thumbnail
+hideAlertBanner	true
+yAxisMin	0
+hasMapTab	true
+pickerColumnSlugs
+downloadDataLink	https://raw.githubusercontent.com/spoonerf/flu_test/main/explorer_file_will_delete.csv
+graphers
+	title	subtitle	ySlugs	hideTitleAnnotation	stackMode	type	Flu type Dropdown	Surveillance type Dropdown	timelineMinTime	facetYDomain	hasMapTab
+	Weekly confirmed cases of influenza (by type)	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype.	ah1n12009combined_zfilled ah1combined_zfilled ah3combined_zfilled ah5combined_zfilled ah7n9combined_zfilled a_no_subtypecombined_zfilled byamcombined_zfilled bviccombined_zfilled bnotdeterminedcombined_zfilled	true		StackedBar	Influenza cases (by type)	Combined	-4043	independent	false
+	Weekly confirmed cases of influenza (by type)	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype.	ah1n12009sentinel_zfilled ah1sentinel_zfilled ah3sentinel_zfilled ah5sentinel_zfilled ah7n9sentinel_zfilled a_no_subtypesentinel_zfilled byamsentinel_zfilled bvicsentinel_zfilled bnotdeterminedsentinel_zfilled	true		StackedBar	Influenza cases (by type)	Sentinel	-4043	independent	false
+	Weekly confirmed cases of influenza (by type)	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype.	ah1n12009nonsentinel_zfilled ah1nonsentinel_zfilled ah3nonsentinel_zfilled	true		StackedBar	Influenza cases (by type)	Non-sentinel	-4043	independent	false
+	Weekly confirmed cases of influenza (by type)	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype.	ah1n12009notdefined_zfilled ah1notdefined_zfilled ah3notdefined_zfilled ah5notdefined_zfilled ah7n9notdefined_zfilled a_no_subtypenotdefined_zfilled byamnotdefined_zfilled bvicnotdefined_zfilled bnotdeterminednotdefined_zfilled	true		StackedBar	Influenza cases (by type)	Not defined	-4043	independent	false
+table	https://owid-catalog.nyc3.digitaloceanspaces.com/explorers%2Fwho%2Flatest%2Fflu%2Fflu.csv
+columns
+	slug	name	type	tolerance	sourceName	sourceLink	additionalInfo	colorScaleNumericMinValue
+	country	Country	EntityName					0
+	date	Day	Date					0
+	reported_ari_cases	Cases of acute respiratory infections	Integer					0
+	reported_sari_cases	Cases of severe acute respiratory infections	Integer					0
+	reported_ili_cases	Cases of influenza like illnesses	Integer					0
+	reported_sari_deaths	Reported deaths caused by severe acute respiratory infections	Integer					0
+	ili_cases_per_thousand_outpatients	Cases of influenza-like illness per thousand outpatients	Numeric					0
+	sari_cases_per_hundred_inpatients	Cases of acute respiratory illness per thousand outpatients	Numeric					0
+	ah1n12009sentinel	Cases of AH1N12009 - sentinel	Integer					0
+	ah1n12009nonsentinel	Cases of AH1N12009 - non-sentinel	Integer					0
+	ah1n12009notdefined	Cases of AH1N12009 - not defined	Integer					0
+	ah1n12009combined	Cases of AH1N12009 - combined	Integer					0
+	ah1sentinel	Cases of AH1 - sentinel	Integer					0
+	ah1nonsentinel	Cases of AH1 - non-sentinel	Integer					0
+	ah1notdefined	Cases of AH1 - not defined	Integer					0
+	ah1combined	Cases of AH1 - combined	Integer					0
+	ah3sentinel	Cases of AH3 - sentinel	Integer					0
+	ah3nonsentinel	Cases of AH3 - non-sentinel	Integer					0
+	ah3notdefined	Cases of AH3 - not defined	Integer					0
+	ah3combined	Cases of AH3 - combined	Integer					0
+	ah5sentinel	Cases of AH5 - sentinel	Integer					0
+	ah5nonsentinel	Cases of AH5- non-sentinel	Integer					0
+	ah5notdefined	Cases of AH5 - not defined	Integer					0
+	ah5combined	Cases of AH5 - combined	Integer					0
+	ah7n9sentinel	Cases of AH7N9 - sentinel	Integer					0
+	ah7n9nonsentinel	Cases of AH7N9- non-sentinel	Integer					0
+	ah7n9notdefined	Cases of AH7N9 - not defined	Integer					0
+	ah7n9combined	Cases of AH7N9 - combined	Integer					0
+	a_no_subtypesentinel	Other cases of strain A - sentinel	Integer					0
+	a_no_subtypenonsentinel	Other cases of strain A - non-sentinel	Integer					0
+	a_no_subtypenotdefined	Other cases of strain A - not defined	Integer					0
+	a_no_subtypecombined	Other cases of strain A - combined	Integer					0
+	inf_asentinel	Total Influenza A cases - sentinel	Integer					0
+	inf_anonsentinel	Total Influenza A cases - non-sentinel	Integer					0
+	inf_anotdefined	Total Influenza A cases - not defined	Integer					0
+	inf_acombined	Total Influenza A cases - combined	Integer					0
+	byamsentinel	Cases of B Yamagata - sentinel	Integer					0
+	byamnonsentinel	Cases of B Yamagata - non-sentinel	Integer					0
+	byamnotdefined	Cases of B Yamagata - not defined	Integer					0
+	byamcombined	Cases of B Yamagata - combined	Integer					0
+	bvicsentinel	Cases of B Victoria - sentinel	Integer					0
+	bvicnonsentinel	Cases of B Victoria - non-sentinel	Integer					0
+	bvicnotdefined	Cases of B Victoria - not defined	Integer					0
+	bviccombined	Cases of B Victoria - combined	Integer					0
+	bnotdeterminedsentinel	Other cases of strain B - sentinel	Integer					0
+	bnotdeterminednonsentinel	Other cases of strain B - non-sentinel	Integer					0
+	bnotdeterminednotdefined	Other cases of strain B - not defined	Integer					0
+	bnotdeterminedcombined	Other cases of strain B - combined	Integer					0
+	inf_bsentinel	Total Influenza B cases - sentinel	Integer					0
+	inf_bnonsentinel	Total Influenza B cases - non-sentinel	Integer					0
+	inf_bnotdefined	Total Influenza B cases - not defined	Integer					0
+	inf_bcombined	Total Influenza B cases - combined	Integer					0
+	inf_allsentinel	Total confirmed influenza cases - sentinel	Integer					0
+	inf_allnonsentinel	Total confirmed influenza cases - nonsentinel	Integer					0
+	inf_allnotdefined	Total confirmed influenza cases - not defined	Integer					0
+	inf_allcombined	Total confirmed influenza cases - combined	Integer					0
+	inf_negativesentinel	Total negative tests - sentinel	Integer					0
+	inf_negativenonsentinel	Total negative tests - nonsentinel	Integer					0
+	inf_negativenotdefined	Total negative tests - not defined	Integer					0
+	inf_negativecombined	Total negative tests - combined	Integer					0
+	spec_processed_nbsentinel	Specimens processed - sentinel	Integer					0
+	spec_processed_nbnonsentinel	Specimens processed - non-sentinel	Integer					0
+	spec_processed_nbnotdefined	Specimens processed - not defined	Integer					0
+	spec_processed_nbcombined	Specimens processed - combined	Integer					0
+	spec_received_nbsentinel	Specimens received - sentinel	Integer					0
+	spec_received_nbnonsentinel	Specimens received - non-sentinel	Integer					0
+	spec_received_nbnotdefined	Specimens received - not defined	Integer					0
+	spec_received_nbcombined	Specimens received - combined	Integer					0
+	pcnt_possentinel	Weekly share of influenza tests that were positive - sentinel	Percentage					0
+	pcnt_posnonsentinel	Weekly share of influenza tests that were positive - non-sentinel	Percentage					0
+	pcnt_posnotdefined	Weekly share of influenza tests that were positive - not defined	Percentage					0
+	pcnt_poscombined	Weekly share of influenza tests that were positive - combined	Percentage					0
+	ah1n12009combined_zfilled	AH1N12009	Integer					0
+	ah1combined_zfilled	AH1	Integer					0
+	ah3combined_zfilled	AH3	Integer					0
+	ah5combined_zfilled	AH5	Integer					0
+	ah7n9combined_zfilled	AH7N9	Integer					0
+	a_no_subtypecombined_zfilled	A other	Integer					0
+	inf_acombined_zfilled	All Influenza A	Integer					0
+	byamcombined_zfilled	B Yamagata	Integer					0
+	bviccombined_zfilled	B Victoria	Integer					0
+	bnotdeterminedcombined_zfilled	B other	Integer					0
+	inf_bcombined_zfilled	All Influenza B	Integer					0
+	ah1n12009sentinel_zfilled	AH1N12009	Integer
+	ah1sentinel_zfilled	AH1	Integer
+	ah3sentinel_zfilled	AH3	Integer
+	ah5sentinel_zfilled	AH5	Integer
+	ah7n9sentinel_zfilled	AH7N9	Integer
+	a_no_subtypesentinel_zfilled	A other	Integer
+	inf_asentinel_zfilled	All Influenza A	Integer
+	byamsentinel_zfilled	B Yamagata	Integer
+	bvicsentinel_zfilled	B Victoria	Integer
+	bnotdeterminedsentinel_zfilled	B other	Integer
+	inf_bsentinel_zfilled	All Influenza B	Integer
+	ah1n12009nonsentinel_zfilled	AH1N12009	Integer
+	ah1nonsentinel_zfilled	AH1	Integer
+	ah3nonsentinel_zfilled	AH3	Integer
+	ah5nonsentinel_zfilled	AH5	Integer
+	ah7n9nonsentinel_zfilled	AH7N9	Integer
+	a_no_subtypenonsentinel_zfilled	A other	Integer
+	inf_anonsentinel_zfilled	All Influenza A	Integer
+	byamnonsentinel_zfilled	B Yamagata	Integer
+	bvicnonsentinel_zfilled	B Victoria	Integer
+	bnotdeterminednonsentinel_zfilled	B other	Integer
+	inf_bnonsentinel_zfilled	All Influenza B	Integer
+	ah1n12009notdefined_zfilled	AH1N12009	Integer
+	ah1notdefined_zfilled	AH1	Integer
+	ah3notdefined_zfilled	AH3	Integer
+	ah5notdefined_zfilled	AH5	Integer
+	ah7n9notdefined_zfilled	AH7N9	Integer
+	a_no_subtypenotdefined_zfilled	A other	Integer
+	inf_anotdefined_zfilled	All Influenza A	Integer
+	byamnotdefined_zfilled	B Yamagata	Integer
+	bvicnotdefined_zfilled	B Victoria	Integer
+	bnotdeterminednotdefined_zfilled	B other	Integer
+	inf_bnotdefined_zfilled	All Influenza B	Integer

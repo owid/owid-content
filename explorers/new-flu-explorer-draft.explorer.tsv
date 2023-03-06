@@ -1,0 +1,194 @@
+explorerTitle	Influenza Data Explorer
+explorerSubtitle
+selection	United States	France	Germany	Australia
+isPublished	false
+thumbnail
+hideAlertBanner	true
+yAxisMin	0
+hasMapTab	true
+pickerColumnSlugs
+downloadDataLink	https://raw.githubusercontent.com/spoonerf/flu_test/main/explorer_file_will_delete.csv
+graphers
+	title	subtitle	ySlugs	hideTitleAnnotation	stackMode	type	Direct or indirect measure Dropdown		Illness type Dropdown	Surveillance type Dropdown	timelineMinTime	selectedFacetStrategy	facetYDomain	hasMapTab
+	Weekly confirmed cases of influenza	This includes confirmed cases of any influenza virus. Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their strain or lineage.	inf_allcombined	true		LineChart	Direct measure		Confirmed influenza cases	Combined	-4043
+	Weekly confirmed cases of influenza	This includes confirmed cases of any influenza virus. Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their strain or lineage.	inf_allsentinel	true		LineChart	Direct measure		Confirmed influenza cases (all types)	Sentinel	-4043
+	Weekly confirmed cases of influenza	This includes confirmed cases of any influenza virus. Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their strain or lineage.	inf_allnonsentinel	true		LineChart	Direct measure		Confirmed influenza cases (all types)	Non-sentinel	-4043
+	Weekly confirmed cases of influenza	This includes confirmed cases of any influenza virus. Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their strain or lineage.	inf_allnotdefined	true		LineChart	Direct measure		Confirmed influenza cases (all types)	Not defined	-4043
+	Weekly confirmed cases of influenza	This includes confirmed cases of any influenza virus. Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their strain or lineage.	inf_allcombined inf_allsentinel inf_allnonsentinel inf_allnotdefined	true		LineChart	Direct measure		Confirmed influenza cases (by surveillance)		-4043	metric
+	Weekly confirmed cases of influenza (by type)	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype.	ah1n12009combined_zfilled ah1combined_zfilled ah3combined_zfilled ah5combined_zfilled ah7n9combined_zfilled a_no_subtypecombined_zfilled byamcombined_zfilled bviccombined_zfilled bnotdeterminedcombined_zfilled	true		StackedBar	Direct measure		Confirmed influenza cases (by type)	Combined	-4043	entity	independent	false
+	Weekly confirmed cases of influenza (by type)	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype.	ah1n12009sentinel_zfilled ah1sentinel_zfilled ah3sentinel_zfilled ah5sentinel_zfilled ah7n9sentinel_zfilled a_no_subtypesentinel_zfilled byamsentinel_zfilled bvicsentinel_zfilled bnotdeterminedsentinel_zfilled	true		StackedBar	Direct measure		Confirmed influenza cases (by type)	Sentinel	-4043	entity	independent	false
+	Weekly confirmed cases of influenza (by type)	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype.	ah1n12009nonsentinel_zfilled ah1nonsentinel_zfilled ah3nonsentinel_zfilled	true		StackedBar	Direct measure		Confirmed influenza cases (by type)	Non-sentinel	-4043	entity	independent	false
+	Weekly confirmed cases of influenza (by type)	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype.	ah1n12009notdefined_zfilled ah1notdefined_zfilled ah3notdefined_zfilled ah5notdefined_zfilled ah7n9notdefined_zfilled a_no_subtypenotdefined_zfilled byamnotdefined_zfilled bvicnotdefined_zfilled bnotdeterminednotdefined_zfilled	true		StackedBar	Direct measure		Confirmed influenza cases (by type)	Not defined	-4043	entity	independent	false
+	Cases of acute respiratory infections		reported_ari_cases	true		LineChart	Indirect measure		Acute respiratory infections		-4043
+	Cases of severe acute respiratory infections		reported_sari_cases	true		LineChart	Indirect measure		Severe acute respiratory infections		-4043
+	Cases of influenza like illnesses		reported_ili_cases	true		LineChart	Indirect measure		Influenza-like illnesses		-4043
+	Cases of flu-like illnesses		reported_ari_cases reported_sari_cases reported_ili_cases	true		LineChart	Indirect measure		Comparison		-4043	metric	independent	false
+	Cases of influenza-like illness per 1,000 outpatients		ili_cases_per_thousand_outpatients	true		LineChart	Indirect measure		ILI rate		-4043
+	Cases of serious acute respiratory illness per 100 inpatients		sari_cases_per_hundred_inpatients	true		LineChart	Indirect measure		SARI rate		-4043
+	Weekly share of influenza tests that were positive	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype.	pcnt_poscombined	true		LineChart	Direct measure		Share of positive influenza tests	Combined	-4043
+	Weekly share of influenza tests that were positive	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype.	pcnt_possentinel	true		LineChart	Direct measure		Share of positive influenza tests	Sentinel	-4043
+	Weekly share of influenza tests that were positive	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype.	pcnt_posnonsentinel	true		LineChart	Direct measure		Share of positive influenza tests	Non-sentinel	-4043
+	Weekly share of influenza tests that were positive	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype.	pcnt_posnotdefined	true		LineChart	Direct measure		Share of positive influenza tests	Not defined	-4043
+	Weekly confirmed cases of influenza A	This includes confirmed cases of any strain of influenza A virus. Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their strain.	inf_asentinel	true		LineChart	Direct measure		Total influenza A (cases)	Sentinel	-4043
+	Weekly confirmed cases of influenza A	This includes confirmed cases of any strain of influenza A virus. Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their strain.	inf_anonsentinel	true		LineChart	Direct measure		Total influenza A (cases)	Non-sentinel	-4043
+	Weekly confirmed cases of influenza A	This includes confirmed cases of any strain of influenza A virus. Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their strain.	inf_anotdefined	true		LineChart	Direct measure		Total influenza A (cases)	Not defined	-4043
+	Weekly confirmed cases of influenza A	This includes confirmed cases of any strain of influenza A virus. Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their strain.	inf_acombined	true		LineChart	Direct measure		Total influenza A (cases)	Combined	-4043
+	Weekly confirmed cases of influenza A H1N1 (2009)	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to have a strain of influenza A virus related to the H1N1 ("Swine flu") pandemic that emerged in 2009.	ah1n12009sentinel	true		LineChart	Direct measure		Influenza A H1N12009 (cases)	Sentinel	-4043
+	Weekly confirmed cases of influenza A H1N1 (2009)	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to have a strain of influenza A virus related to the H1N1 ("Swine flu") pandemic that emerged in 2009.	ah1n12009nonsentinel	true		LineChart	Direct measure		Influenza A H1N12009 (cases)	Non-sentinel	-4043
+	Weekly confirmed cases of influenza A H1N1 (2009)	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to have a strain of influenza A virus related to the H1N1 ("Swine flu") pandemic that emerged in 2009.	ah1n12009notdefined	true		LineChart	Direct measure		Influenza A H1N12009 (cases)	Not defined	-4043
+	Weekly confirmed cases of influenza A H1N1 (2009)	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to have a strain of influenza A virus related to the H1N1 ("Swine flu") pandemic that emerged in 2009.	ah1n12009combined	true		LineChart	Direct measure		Influenza A H1N12009 (cases)	Combined	-4043
+	Weekly confirmed cases of influenza A H1	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be of the H1 strain of influenza A virus.	ah1sentinel	true		LineChart	Direct measure		Influenza A H1N1 (cases)	Sentinel	-4043
+	Weekly confirmed cases of influenza A H1	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be of the H1 strain of influenza A virus.	ah1nonsentinel	true		LineChart	Direct measure		Influenza A H1N1 (cases)	Non-sentinel	-4043
+	Weekly confirmed cases of influenza A H1	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be of the H1 strain of influenza A virus.	ah1notdefined	true		LineChart	Direct measure		Influenza A H1N1 (cases)	Not defined	-4043
+	Weekly confirmed cases of influenza A H1	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be of the H1 strain of influenza A virus.	ah1combined	true		LineChart	Direct measure		Influenza A H1N1 (cases)	Combined	-4043
+	Weekly confirmed cases of influenza A H3	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be of the H3 strain of influenza A virus.	ah3sentinel	true		LineChart	Direct measure		Influenza A H3 (cases)	Sentinel	-4043
+	Weekly confirmed cases of influenza A H3	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be of the H3 strain of influenza A virus.	ah3nonsentinel	true		LineChart	Direct measure		Influenza A H3 (cases)	Non-sentinel	-4043
+	Weekly confirmed cases of influenza A H3	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be of the H3 strain of influenza A virus.	ah3notdefined	true		LineChart	Direct measure		Influenza A H3 (cases)	Not defined	-4043
+	Weekly confirmed cases of influenza A H3	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be of the H3 strain of influenza A virus.	ah3combined	true		LineChart	Direct measure		Influenza A H3 (cases)	Combined	-4043
+	Weekly confirmed cases of influenza A H5	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be of the H5 strain of influenza A virus.	ah5sentinel	true		LineChart	Direct measure		Influenza A H5 (cases)	Sentinel	-4043
+	Weekly confirmed cases of influenza A H5	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be of the H5 strain of influenza A virus.	ah5nonsentinel	true		LineChart	Direct measure		Influenza A H5 (cases)	Non-sentinel	-4043
+	Weekly confirmed cases of influenza A H5	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be of the H5 strain of influenza A virus.	ah5notdefined	true		LineChart	Direct measure		Influenza A H5 (cases)	Not defined	-4043
+	Weekly confirmed cases of influenza A H5	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be of the H5 strain of influenza A virus.	ah5combined	true		LineChart	Direct measure		Influenza A H5 (cases)	Combined	-4043
+	Weekly confirmed cases of influenza A H7N9	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be of the H7N9 strain of influenza A virus.	ah7n9sentinel	true		LineChart	Direct measure		Influenza A H7N9 (cases)	Sentinel	-4043
+	Weekly confirmed cases of influenza A H7N9	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be of the H7N9 strain of influenza A virus.	ah7n9nonsentinel	true		LineChart	Direct measure		Influenza A H7N9 (cases)	Non-sentinel	-4043
+	Weekly confirmed cases of influenza A H7N9	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be of the H7N9 strain of influenza A virus.	ah7n9notdefined	true		LineChart	Direct measure		Influenza A H7N9 (cases)	Not defined	-4043
+	Weekly confirmed cases of influenza A H7N9	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be of the H7N9 strain of influenza A virus.	ah7n9combined	true		LineChart	Direct measure		Influenza A H7N9 (cases)	Combined	-4043
+	Weekly confirmed cases of influenza A (unknown subtype)	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be influenza A virus, but their subtype was not confirmed.	a_no_subtypesentinel	true		LineChart	Direct measure		Influenza A unknown (cases)	Sentinel	-4043
+	Weekly confirmed cases of influenza A (unknown subtype)	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be influenza A virus, but their subtype was not confirmed.	a_no_subtypenonsentinel	true		LineChart	Direct measure		Influenza A unknown (cases)	Non-sentinel	-4043
+	Weekly confirmed cases of influenza A (unknown subtype)	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be influenza A virus, but their subtype was not confirmed.	a_no_subtypenotdefined	true		LineChart	Direct measure		Influenza A unknown (cases)	Not defined	-4043
+	Weekly confirmed cases of influenza A (unknown subtype)	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be influenza A virus, but their subtype was not confirmed.	a_no_subtypecombined	true		LineChart	Direct measure		Influenza A unknown (cases)	Combined	-4043
+	Weekly confirmed cases of influenza B	This includes confirmed cases of any lineage of influenza B virus. Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their lineage.	inf_bsentinel	true		LineChart	Direct measure		Total influenza B (cases)	Sentinel	-4043
+	Weekly confirmed cases of influenza B	This includes confirmed cases of any lineage of influenza B virus. Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their lineage.	inf_bnonsentinel	true		LineChart	Direct measure		Total influenza B (cases)	Non-sentinel	-4043
+	Weekly confirmed cases of influenza B	This includes confirmed cases of any lineage of influenza B virus. Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their lineage.	inf_bnotdefined	true		LineChart	Direct measure		Total influenza B (cases)	Not defined	-4043
+	Weekly confirmed cases of influenza B	This includes confirmed cases of any lineage of influenza B virus. Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their lineage.	inf_bcombined	true		LineChart	Direct measure		Total influenza B (cases)	Combined	-4043
+	Weekly confirmed cases of influenza B Yamagata	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be of the Yamagata lineage of influenza B virus.	byamsentinel	true		LineChart	Direct measure		Influenza B Yamagata (cases)	Sentinel	-4043
+	Weekly confirmed cases of influenza B Yamagata	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be of the Yamagata lineage of influenza B virus.	byamnonsentinel	true		LineChart	Direct measure		Influenza B Yamagata (cases)	Non-sentinel	-4043
+	Weekly confirmed cases of influenza B Yamagata	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be of the Yamagata lineage of influenza B virus.	byamnotdefined	true		LineChart	Direct measure		Influenza B Yamagata (cases)	Not defined	-4043
+	Weekly confirmed cases of influenza B Yamagata	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be of the Yamagata lineage of influenza B virus.	byamcombined	true		LineChart	Direct measure		Influenza B Yamagata (cases)	Combined	-4043
+	Weekly confirmed cases of influenza B Victoria	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be of the Victoria lineage of influenza B virus.	bvicsentinel	true		LineChart	Direct measure		Influenza B Victoria (cases)	Sentinel	-4043
+	Weekly confirmed cases of influenza B Victoria	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be of the Victoria lineage of influenza B virus.	bvicnonsentinel	true		LineChart	Direct measure		Influenza B Victoria (cases)	Non-sentinel	-4043
+	Weekly confirmed cases of influenza B Victoria	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be of the Victoria lineage of influenza B virus.	bvicnotdefined	true		LineChart	Direct measure		Influenza B Victoria (cases)	Not defined	-4043
+	Weekly confirmed cases of influenza B Victoria	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be of the Victoria lineage of influenza B virus.	bviccombined	true		LineChart	Direct measure		Influenza B Victoria (cases)	Combined	-4043
+	Weekly confirmed cases of influenza B (unknown lineage)	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be influenza B virus, but their lineage was not determined.	bnotdeterminedsentinel	true		LineChart	Direct measure		Influenza B unknown (cases)	Sentinel	-4043
+	Weekly confirmed cases of influenza B (unknown lineage)	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be influenza B virus, but their lineage was not determined.	bnotdeterminednonsentinel	true		LineChart	Direct measure		Influenza B unknown (cases)	Non-sentinel	-4043
+	Weekly confirmed cases of influenza B (unknown lineage)	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be influenza B virus, but their lineage was not determined.	bnotdeterminednotdefined	true		LineChart	Direct measure		Influenza B unknown (cases)	Not defined	-4043
+	Weekly confirmed cases of influenza B (unknown lineage)	Only a fraction of potential cases of influenza are tested by labs to confirm whether they have influenza and to identify their subtype. This shows the number of cases that were confirmed to be influenza B virus, but their lineage was not determined.	bnotdeterminedcombined	true		LineChart	Direct measure		Influenza B unknown (cases)	Combined	-4043
+table	https://owid-catalog.nyc3.digitaloceanspaces.com/explorers%2Fwho%2Flatest%2Fflu%2Fflu.csv
+columns
+	slug	name	type	tolerance	sourceName	sourceLink	additionalInfo	colorScaleNumericMinValue	color
+	country	Country	EntityName					0
+	date	Day	Date					0
+	reported_ari_cases	Cases of acute respiratory infections	Integer					0
+	reported_sari_cases	Cases of severe acute respiratory infections	Integer					0
+	reported_ili_cases	Cases of influenza like illnesses	Integer					0
+	reported_sari_deaths	Reported deaths caused by severe acute respiratory infections	Integer					0
+	ili_cases_per_thousand_outpatients	Cases of influenza-like illness per thousand outpatients	Numeric					0
+	sari_cases_per_hundred_inpatients	Cases of acute respiratory illness per thousand outpatients	Numeric					0
+	ah1n12009sentinel	Sentinel	Integer					0
+	ah1n12009nonsentinel	Non-sentinel	Integer					0
+	ah1n12009notdefined	Not defined	Integer					0
+	ah1n12009combined	Combined	Integer					0
+	ah1sentinel	Sentinel	Integer					0
+	ah1nonsentinel	Non-sentinel	Integer					0
+	ah1notdefined	Not defined	Integer					0
+	ah1combined	Combined	Integer					0
+	ah3sentinel	Sentinel	Integer					0
+	ah3nonsentinel	Non-sentinel	Integer					0
+	ah3notdefined	Not defined	Integer					0
+	ah3combined	Combined	Integer					0
+	ah5sentinel	Sentinel	Integer					0
+	ah5nonsentinel	Non-sentinel	Integer					0
+	ah5notdefined	Not defined	Integer					0
+	ah5combined	Combined	Integer					0
+	ah7n9sentinel	Sentinel	Integer					0
+	ah7n9nonsentinel	Non-sentinel	Integer					0
+	ah7n9notdefined	Not defined	Integer					0
+	ah7n9combined	Combined	Integer					0
+	a_no_subtypesentinel	Sentinel	Integer					0
+	a_no_subtypenonsentinel	Non-sentinel	Integer					0
+	a_no_subtypenotdefined	Not defined	Integer					0
+	a_no_subtypecombined	Combined	Integer					0
+	inf_asentinel	Sentinel	Integer					0
+	inf_anonsentinel	Non-sentinel	Integer					0
+	inf_anotdefined	Not defined	Integer					0
+	inf_acombined	Combined	Integer					0
+	byamsentinel	Sentinel	Integer					0
+	byamnonsentinel	Non-sentinel	Integer					0
+	byamnotdefined	Not defined	Integer					0
+	byamcombined	Combined	Integer					0
+	bvicsentinel	Sentinel	Integer					0
+	bvicnonsentinel	Non-sentinel	Integer					0
+	bvicnotdefined	Not defined	Integer					0
+	bviccombined	Combined	Integer					0
+	bnotdeterminedsentinel	Sentinel	Integer					0
+	bnotdeterminednonsentinel	Non-sentinel	Integer					0
+	bnotdeterminednotdefined	Not defined	Integer					0
+	bnotdeterminedcombined	Combined	Integer					0
+	inf_bsentinel	Sentinel	Integer					0
+	inf_bnonsentinel	Non-sentinel	Integer					0
+	inf_bnotdefined	Not defined	Integer					0
+	inf_bcombined	Combined	Integer					0
+	inf_allsentinel	Sentinel	Integer					0
+	inf_allnonsentinel	Non-sentinel	Integer					0
+	inf_allnotdefined	Not defined	Integer					0
+	inf_allcombined	Combined	Integer					0
+	inf_negativesentinel	Sentinel	Integer					0
+	inf_negativenonsentinel	Non-sentinel	Integer					0
+	inf_negativenotdefined	Not defined	Integer					0
+	inf_negativecombined	Combined	Integer					0
+	spec_processed_nbsentinel	Sentinel	Integer					0
+	spec_processed_nbnonsentinel	Non-sentinel	Integer					0
+	spec_processed_nbnotdefined	Not defined	Integer					0
+	spec_processed_nbcombined	Combined	Integer					0
+	spec_received_nbsentinel	Sentinel	Integer					0
+	spec_received_nbnonsentinel	Non-sentinel	Integer					0
+	spec_received_nbnotdefined	Not defined	Integer					0
+	spec_received_nbcombined	Combined	Integer					0
+	pcnt_possentinel	Sentinel	Percentage					0
+	pcnt_posnonsentinel	Non-sentinel	Percentage					0
+	pcnt_posnotdefined	Not defined	Percentage					0
+	pcnt_poscombined	Combined	Percentage					0
+	ah1n12009combined_zfilled	AH1N12009	Integer					0	#580014
+	ah1combined_zfilled	AH1	Integer					0	#751929
+	ah3combined_zfilled	AH3	Integer					0	#942F41
+	ah5combined_zfilled	AH5	Integer					0	#B24559
+	ah7n9combined_zfilled	AH7N9	Integer					0	#CB6073
+	a_no_subtypecombined_zfilled	A Other	Integer					0	#DE8091
+	inf_acombined_zfilled	All Influenza A	Integer					0
+	byamcombined_zfilled	B Yamagata	Integer					0	#005D59
+	bviccombined_zfilled	B Victoria	Integer					0	#259790
+	bnotdeterminedcombined_zfilled	B Other	Integer					0	#4CB3AC
+	inf_bcombined_zfilled	All Influenza B	Integer					0
+	ah1n12009sentinel_zfilled	AH1N12009	Integer						#580014
+	ah1sentinel_zfilled	AH1	Integer						#751929
+	ah3sentinel_zfilled	AH3	Integer						#942F41
+	ah5sentinel_zfilled	AH5	Integer						#B24559
+	ah7n9sentinel_zfilled	AH7N9	Integer						#CB6073
+	a_no_subtypesentinel_zfilled	A Other	Integer						#DE8091
+	inf_asentinel_zfilled	All Influenza A	Integer
+	byamsentinel_zfilled	B Yamagata	Integer						#005D59
+	bvicsentinel_zfilled	B Victoria	Integer						#259790
+	bnotdeterminedsentinel_zfilled	B Other	Integer						#4CB3AC
+	inf_bsentinel_zfilled	All Influenza B	Integer
+	ah1n12009nonsentinel_zfilled	AH1N12009	Integer						#580014
+	ah1nonsentinel_zfilled	AH1	Integer						#751929
+	ah3nonsentinel_zfilled	AH3	Integer						#942F41
+	ah5nonsentinel_zfilled	AH5	Integer						#B24559
+	ah7n9nonsentinel_zfilled	AH7N9	Integer						#CB6073
+	a_no_subtypenonsentinel_zfilled	A Other	Integer						#DE8091
+	inf_anonsentinel_zfilled	All Influenza A	Integer
+	byamnonsentinel_zfilled	B Yamagata	Integer						#005D59
+	bvicnonsentinel_zfilled	B Victoria	Integer						#259790
+	bnotdeterminednonsentinel_zfilled	B Other	Integer						#4CB3AC
+	inf_bnonsentinel_zfilled	All Influenza B	Integer
+	ah1n12009notdefined_zfilled	AH1N12009	Integer						#580014
+	ah1notdefined_zfilled	AH1	Integer						#751929
+	ah3notdefined_zfilled	AH3	Integer						#942F41
+	ah5notdefined_zfilled	AH5	Integer						#B24559
+	ah7n9notdefined_zfilled	AH7N9	Integer						#CB6073
+	a_no_subtypenotdefined_zfilled	A Other	Integer						#DE8091
+	inf_anotdefined_zfilled	All Influenza A	Integer
+	byamnotdefined_zfilled	B Yamagata	Integer						#005D59
+	bvicnotdefined_zfilled	B Victoria	Integer						#259790
+	bnotdeterminednotdefined_zfilled	B Other	Integer						#4CB3AC
+	inf_bnotdefined_zfilled	All Influenza B	Integer
