@@ -13,8 +13,8 @@ thumbnail
 pickerColumnSlugs
 
 graphers
-	title	subtitle	View Dropdown	ySlugs	yScaleToggle	xSlug	colorSlug	type	tableSlug	hideTitleAnnotation	hasMapTab	sortBy	sortColumnSlug	hideTotalValueLabel	facet	selectedFacetStrategy
-	Access to electricity			access_to_electricity access_to_clean_water access_to_electricity access_to_clean_water access_to_electricity access_to_clean_water access_to_electricity access_to_clean_water		gdp_per_capita		ScatterPlot	electricity						metric	metric
+	title	subtitle	View Dropdown	ySlugs	yScaleToggle	xSlug	colorSlug	type	tableSlug	hideTitleAnnotation	hasMapTab	sortBy	sortColumnSlug	hideTotalValueLabel	selectedFacetStrategy
+	Access to electricity			access_to_electricity access_to_clean_water access_to_electricity access_to_clean_water access_to_electricity access_to_clean_water access_to_electricity access_to_clean_water		gdp_per_capita		ScatterPlot	electricity						metric
 
 
 

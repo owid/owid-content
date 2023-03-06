@@ -3,10 +3,10 @@ explorerSubtitle	It's a demo
 selection	United States
 hideControls	false
 graphers
-	title	ySlugs	subtitle		type	yScaleToggle	facet this thing Checkbox	facet
+	title	ySlugs	subtitle		type	yScaleToggle	facet this thing Checkbox
 
-	Inequality in the United States	gini top1 poverty_rate_1 poverty_rate_2 p90_50_ratio top1_1 top1_2	ineq		LineChart	true	true	column
-	Inequality in the United States	gini top1 poverty_rate_1 poverty_rate_2 p90_50_ratio top1_1 top1_2	ineq		LineChart	true	false	country
+	Inequality in the United States	gini top1 poverty_rate_1 poverty_rate_2 p90_50_ratio top1_1 top1_2	ineq		LineChart	true	true
+	Inequality in the United States	gini top1 poverty_rate_1 poverty_rate_2 p90_50_ratio top1_1 top1_2	ineq		LineChart	true	false
 
 
 
