@@ -71,9 +71,9 @@ url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sh
 pip_povlines_rel = pd.read_csv(url)
 
 # Survey type sheet
-sheet_name = "survey_type"
+sheet_name = "table"
 url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
-pip_survey_type = pd.read_csv(url)
+pip_tables = pd.read_csv(url)
 
 # %% [markdown]
 # ## Header
@@ -126,7 +126,7 @@ new_line = "<br><br>"
 df_tables_pip = pd.DataFrame()
 j = 0
 
-for survey in range(len(pip_survey_type)):
+for survey in range(len(pip_tables)):
     # Gini coefficient
     df_tables_pip.loc[j, "name"] = f"Gini coefficient"
     df_tables_pip.loc[j, "slug"] = f"gini"
@@ -141,24 +141,24 @@ for survey in range(len(pip_survey_type)):
     ] = "0.2;0.25;0.3;0.35;0.4;0.45;0.5;0.55;0.6"
     df_tables_pip.loc[j, "colorScaleEqualSizeBins"] = "true"
     df_tables_pip.loc[j, "colorScaleScheme"] = "Reds"
-    df_tables_pip.loc[j, "tableSlug"] = pip_survey_type["table_name"][survey]
+    df_tables_pip.loc[j, "tableSlug"] = pip_tables["table_name"][survey]
     j += 1
 
     # Share of the top 10%
     df_tables_pip.loc[
         j, "name"
-    ] = f"Share of the richest decile in total {pip_survey_type.text[survey]}"
+    ] = f"Share of the richest decile in total {pip_tables.text[survey]}"
     df_tables_pip.loc[j, "slug"] = f"decile10_share"
     df_tables_pip.loc[
         j, "description"
-    ] = f"The {pip_survey_type.text[survey]} of the richest decile (tenth of the population) as a share of total {pip_survey_type.text[survey]}."
+    ] = f"The {pip_tables.text[survey]} of the richest decile (tenth of the population) as a share of total {pip_tables.text[survey]}."
     df_tables_pip.loc[j, "unit"] = "%"
     df_tables_pip.loc[j, "shortUnit"] = "%"
     df_tables_pip.loc[j, "type"] = "Numeric"
     df_tables_pip.loc[j, "colorScaleNumericBins"] = "10;15;20;25;30;35;40;45;50"
     df_tables_pip.loc[j, "colorScaleEqualSizeBins"] = "true"
     df_tables_pip.loc[j, "colorScaleScheme"] = "Greens"
-    df_tables_pip.loc[j, "tableSlug"] = pip_survey_type["table_name"][survey]
+    df_tables_pip.loc[j, "tableSlug"] = pip_tables["table_name"][survey]
     j += 1
 
     # P90/P10
@@ -166,14 +166,14 @@ for survey in range(len(pip_survey_type)):
     df_tables_pip.loc[j, "slug"] = f"p90_p10_ratio"
     df_tables_pip.loc[
         j, "description"
-    ] = f"P90 is the the level of {pip_survey_type.text[survey]} below which 90% of the population lives. P10 is the level of {pip_survey_type.text[survey]} below which 10% of the population lives. This variable gives the ratio of the two. It is a measure of inequality that indicates the gap between the richest and poorest tenth of the population. It tells you how many times richer someone just in the the poorest tenth would need to be in order to be counted in the richest tenth."
+    ] = f"P90 is the the level of {pip_tables.text[survey]} below which 90% of the population lives. P10 is the level of {pip_tables.text[survey]} below which 10% of the population lives. This variable gives the ratio of the two. It is a measure of inequality that indicates the gap between the richest and poorest tenth of the population. It tells you how many times richer someone just in the the poorest tenth would need to be in order to be counted in the richest tenth."
     df_tables_pip.loc[j, "unit"] = np.nan
     df_tables_pip.loc[j, "shortUnit"] = np.nan
     df_tables_pip.loc[j, "type"] = "Numeric"
     df_tables_pip.loc[j, "colorScaleNumericBins"] = "0;2;4;6;8;10;12;14;16;18"
     df_tables_pip.loc[j, "colorScaleEqualSizeBins"] = "true"
     df_tables_pip.loc[j, "colorScaleScheme"] = "OrRd"
-    df_tables_pip.loc[j, "tableSlug"] = pip_survey_type["table_name"][survey]
+    df_tables_pip.loc[j, "tableSlug"] = pip_tables["table_name"][survey]
     j += 1
 
     # P90/P50
@@ -181,14 +181,14 @@ for survey in range(len(pip_survey_type)):
     df_tables_pip.loc[j, "slug"] = f"p90_p50_ratio"
     df_tables_pip.loc[
         j, "description"
-    ] = f"P90 is the the level of {pip_survey_type.text[survey]} above which 10% of the population lives. P50 is the median – the level of {pip_survey_type.text[survey]} below which 50% of the population lives. This variable gives the ratio of the two. It is a measure of inequality within the top half of the distribution. It tells you how many times richer someone in the middle of the distribution would need to be in order to be counted in the richest tenth."
+    ] = f"P90 is the the level of {pip_tables.text[survey]} above which 10% of the population lives. P50 is the median – the level of {pip_tables.text[survey]} below which 50% of the population lives. This variable gives the ratio of the two. It is a measure of inequality within the top half of the distribution. It tells you how many times richer someone in the middle of the distribution would need to be in order to be counted in the richest tenth."
     df_tables_pip.loc[j, "unit"] = np.nan
     df_tables_pip.loc[j, "shortUnit"] = np.nan
     df_tables_pip.loc[j, "type"] = "Numeric"
     df_tables_pip.loc[j, "colorScaleNumericBins"] = "0;1;2;3;4;5"
     df_tables_pip.loc[j, "colorScaleEqualSizeBins"] = "true"
     df_tables_pip.loc[j, "colorScaleScheme"] = "Purples"
-    df_tables_pip.loc[j, "tableSlug"] = pip_survey_type["table_name"][survey]
+    df_tables_pip.loc[j, "tableSlug"] = pip_tables["table_name"][survey]
     j += 1
 
     # P50/P10
@@ -196,14 +196,14 @@ for survey in range(len(pip_survey_type)):
     df_tables_pip.loc[j, "slug"] = f"p50_p10_ratio"
     df_tables_pip.loc[
         j, "description"
-    ] = f"P50 is the median – the level of {pip_survey_type.text[survey]} below which 50% of the population lives. P10 is the the level of {pip_survey_type.text[survey]} below which 10% of the population lives. This variable gives the ratio of the two. It is a measure of inequality within the bottom half of the distribution. It tells you how many times richer someone just in the the poorest tenth would need to be in order to be reach the median."
+    ] = f"P50 is the median – the level of {pip_tables.text[survey]} below which 50% of the population lives. P10 is the the level of {pip_tables.text[survey]} below which 10% of the population lives. This variable gives the ratio of the two. It is a measure of inequality within the bottom half of the distribution. It tells you how many times richer someone just in the the poorest tenth would need to be in order to be reach the median."
     df_tables_pip.loc[j, "unit"] = np.nan
     df_tables_pip.loc[j, "shortUnit"] = np.nan
     df_tables_pip.loc[j, "type"] = "Numeric"
     df_tables_pip.loc[j, "colorScaleNumericBins"] = "0;0.5;1;1.5;2;2.5;3;3.5;4"
     df_tables_pip.loc[j, "colorScaleEqualSizeBins"] = "true"
     df_tables_pip.loc[j, "colorScaleScheme"] = "YlOrRd"
-    df_tables_pip.loc[j, "tableSlug"] = pip_survey_type["table_name"][survey]
+    df_tables_pip.loc[j, "tableSlug"] = pip_tables["table_name"][survey]
     j += 1
 
     # Palma ratio
@@ -211,14 +211,14 @@ for survey in range(len(pip_survey_type)):
     df_tables_pip.loc[j, "slug"] = f"palma_ratio"
     df_tables_pip.loc[
         j, "description"
-    ] = f"The Palma ratio is a measure of inequality: it is the share of total {pip_survey_type.text[survey]} of the top 10% divided by the share of the bottom 40%."
+    ] = f"The Palma ratio is a measure of inequality: it is the share of total {pip_tables.text[survey]} of the top 10% divided by the share of the bottom 40%."
     df_tables_pip.loc[j, "unit"] = np.nan
     df_tables_pip.loc[j, "shortUnit"] = np.nan
     df_tables_pip.loc[j, "type"] = "Numeric"
     df_tables_pip.loc[j, "colorScaleNumericBins"] = "0;0.5;1;1.5;2;2.5;3;3.5;4;4.5;5"
     df_tables_pip.loc[j, "colorScaleEqualSizeBins"] = "true"
     df_tables_pip.loc[j, "colorScaleScheme"] = "Oranges"
-    df_tables_pip.loc[j, "tableSlug"] = pip_survey_type["table_name"][survey]
+    df_tables_pip.loc[j, "tableSlug"] = pip_tables["table_name"][survey]
     j += 1
 
     # Headcount ratio (rel)
@@ -228,14 +228,14 @@ for survey in range(len(pip_survey_type)):
     df_tables_pip.loc[j, "slug"] = f"headcount_ratio_50_median"
     df_tables_pip.loc[
         j, "description"
-    ] = f"% of population living in households with an {pip_survey_type.text[survey]} per person below 50% of the median."
+    ] = f"% of population living in households with an {pip_tables.text[survey]} per person below 50% of the median."
     df_tables_pip.loc[j, "unit"] = "%"
     df_tables_pip.loc[j, "shortUnit"] = "%"
     df_tables_pip.loc[j, "type"] = "Numeric"
     df_tables_pip.loc[j, "colorScaleNumericBins"] = "5;10;15;20;25;30;30.0001"
     df_tables_pip.loc[j, "colorScaleEqualSizeBins"] = "true"
     df_tables_pip.loc[j, "colorScaleScheme"] = "YlOrBr"
-    df_tables_pip.loc[j, "tableSlug"] = pip_survey_type["table_name"][survey]
+    df_tables_pip.loc[j, "tableSlug"] = pip_tables["table_name"][survey]
     j += 1
 
 df_tables_pip["sourceName"] = sourceName
@@ -659,7 +659,7 @@ df_tables_lis["tolerance"] = tolerance
 df_tables_lis["colorScaleEqualSizeBins"] = colorScaleEqualSizeBins
 
 # Concatenate all the tables into one
-df_tables = pd.concat([df_tables_lis, df_tables_wid, df_tables_pip], ignore_index=True)
+df_tables = pd.concat([df_tables_pip, df_tables_wid, df_tables_lis], ignore_index=True)
 # Make tolerance integer (to not break the parameter in the platform)
 df_tables["tolerance"] = df_tables["tolerance"].astype("Int64")
 
@@ -680,22 +680,21 @@ df_graphers_pip = pd.DataFrame()
 
 j = 0
 
-for survey in range(len(pip_survey_type)):
+for survey in range(len(pip_tables)):
     # Gini coefficient
     df_graphers_pip.loc[j, "title"] = f"Income inequality: Gini coefficient"
     df_graphers_pip.loc[j, "ySlugs"] = f"gini"
-    df_graphers_pip.loc[j, "Data source Dropdown"] = pip_survey_type["source_name"][tab]
-    df_graphers_pip.loc[j, "Metric Dropdown"] = "Gini coefficient"
     df_graphers_pip.loc[
-        j, "Welfare type Dropdown"
-    ] = f"{pip_survey_type.dropdown_option[survey]}"
-    df_graphers_pip.loc[j, "tableSlug"] = f"{pip_survey_type.table_name[survey]}"
+        j, "Data source Dropdown"
+    ] = f"{pip_tables['source_name'][tab]} - {pip_tables['dropdown_option'][survey]}"
+    df_graphers_pip.loc[j, "Metric Dropdown"] = "Gini coefficient"
+    df_graphers_pip.loc[j, "tableSlug"] = f"{pip_tables.table_name[survey]}"
     df_graphers_pip.loc[
         j, "subtitle"
     ] = f"The Gini coefficient is a measure of the inequality of the income distribution in a population. Higher values indicate a higher level of inequality."
     df_graphers_pip.loc[
         j, "note"
-    ] = f"Depending on the country and year, the data relates to disposable {pip_survey_type.text[survey]} per capita."
+    ] = f"Depending on the country and year, the data relates to disposable {pip_tables.text[survey]} per capita."
     df_graphers_pip.loc[j, "type"] = np.nan
     df_graphers_pip.loc[j, "selectedFacetStrategy"] = np.nan
     df_graphers_pip.loc[j, "hasMapTab"] = "true"
@@ -705,20 +704,19 @@ for survey in range(len(pip_survey_type)):
     # Share of the top 10%
     df_graphers_pip.loc[
         j, "title"
-    ] = f"{pip_survey_type.text[survey].capitalize()} share of the top 10%"
+    ] = f"{pip_tables.text[survey].capitalize()} share of the top 10%"
     df_graphers_pip.loc[j, "ySlugs"] = f"decile10_share"
-    df_graphers_pip.loc[j, "Data source Dropdown"] = pip_survey_type["source_name"][tab]
-    df_graphers_pip.loc[j, "Metric Dropdown"] = "Top 10% share"
     df_graphers_pip.loc[
-        j, "Welfare type Dropdown"
-    ] = f"{pip_survey_type.dropdown_option[survey]}"
-    df_graphers_pip.loc[j, "tableSlug"] = f"{pip_survey_type.table_name[survey]}"
+        j, "Data source Dropdown"
+    ] = f"{pip_tables['source_name'][tab]} - {pip_tables['dropdown_option'][survey]}"
+    df_graphers_pip.loc[j, "Metric Dropdown"] = "Top 10% share"
+    df_graphers_pip.loc[j, "tableSlug"] = f"{pip_tables.table_name[survey]}"
     df_graphers_pip.loc[
         j, "subtitle"
-    ] = f"This is the {pip_survey_type.text[survey]} of the richest decile (tenth of the population) as a share of total {pip_survey_type.text[survey]}."
+    ] = f"This is the {pip_tables.text[survey]} of the richest decile (tenth of the population) as a share of total {pip_tables.text[survey]}."
     df_graphers_pip.loc[
         j, "note"
-    ] = f"Depending on the country and year, the data relates to disposable {pip_survey_type.text[survey]} per capita."
+    ] = f"Depending on the country and year, the data relates to disposable {pip_tables.text[survey]} per capita."
     df_graphers_pip.loc[j, "type"] = np.nan
     df_graphers_pip.loc[j, "selectedFacetStrategy"] = np.nan
     df_graphers_pip.loc[j, "hasMapTab"] = "true"
@@ -728,18 +726,17 @@ for survey in range(len(pip_survey_type)):
     # P90/P10
     df_graphers_pip.loc[j, "title"] = f"Income inequality: P90/P10 ratio"
     df_graphers_pip.loc[j, "ySlugs"] = f"p90_p10_ratio"
-    df_graphers_pip.loc[j, "Data source Dropdown"] = pip_survey_type["source_name"][tab]
-    df_graphers_pip.loc[j, "Metric Dropdown"] = "P90/P10"
     df_graphers_pip.loc[
-        j, "Welfare type Dropdown"
-    ] = f"{pip_survey_type.dropdown_option[survey]}"
-    df_graphers_pip.loc[j, "tableSlug"] = f"{pip_survey_type.table_name[survey]}"
+        j, "Data source Dropdown"
+    ] = f"{pip_tables['source_name'][tab]} - {pip_tables['dropdown_option'][survey]}"
+    df_graphers_pip.loc[j, "Metric Dropdown"] = "P90/P10"
+    df_graphers_pip.loc[j, "tableSlug"] = f"{pip_tables.table_name[survey]}"
     df_graphers_pip.loc[
         j, "subtitle"
-    ] = f"P90 and P10 are the levels of {pip_survey_type.text[survey]} below which 90% and 10% of the population live, respectively. This variable gives the ratio of the two. It is a measure of inequality that indicates the gap between the richest and poorest tenth of the population."
+    ] = f"P90 and P10 are the levels of {pip_tables.text[survey]} below which 90% and 10% of the population live, respectively. This variable gives the ratio of the two. It is a measure of inequality that indicates the gap between the richest and poorest tenth of the population."
     df_graphers_pip.loc[
         j, "note"
-    ] = f"Depending on the country and year, the data relates to disposable {pip_survey_type.text[survey]} per capita."
+    ] = f"Depending on the country and year, the data relates to disposable {pip_tables.text[survey]} per capita."
     df_graphers_pip.loc[j, "type"] = np.nan
     df_graphers_pip.loc[j, "selectedFacetStrategy"] = np.nan
     df_graphers_pip.loc[j, "hasMapTab"] = "true"
@@ -749,18 +746,17 @@ for survey in range(len(pip_survey_type)):
     # P90/P50
     df_graphers_pip.loc[j, "title"] = f"Income inequality: P90/P50 ratio"
     df_graphers_pip.loc[j, "ySlugs"] = f"p90_p50_ratio"
-    df_graphers_pip.loc[j, "Data source Dropdown"] = pip_survey_type["source_name"][tab]
-    df_graphers_pip.loc[j, "Metric Dropdown"] = "P90/P50"
     df_graphers_pip.loc[
-        j, "Welfare type Dropdown"
-    ] = f"{pip_survey_type.dropdown_option[survey]}"
-    df_graphers_pip.loc[j, "tableSlug"] = f"{pip_survey_type.table_name[survey]}"
+        j, "Data source Dropdown"
+    ] = f"{pip_tables['source_name'][tab]} - {pip_tables['dropdown_option'][survey]}"
+    df_graphers_pip.loc[j, "Metric Dropdown"] = "P90/P50"
+    df_graphers_pip.loc[j, "tableSlug"] = f"{pip_tables.table_name[survey]}"
     df_graphers_pip.loc[
         j, "subtitle"
-    ] = f"The P90/P50 ratio measures the degree of inequality within the richest half of the population. A ratio of 2 means that someone just falling in the richest tenth of the population has twice the median {pip_survey_type.text[survey]}."
+    ] = f"The P90/P50 ratio measures the degree of inequality within the richest half of the population. A ratio of 2 means that someone just falling in the richest tenth of the population has twice the median {pip_tables.text[survey]}."
     df_graphers_pip.loc[
         j, "note"
-    ] = f"Depending on the country and year, the data relates to disposable {pip_survey_type.text[survey]} per capita."
+    ] = f"Depending on the country and year, the data relates to disposable {pip_tables.text[survey]} per capita."
     df_graphers_pip.loc[j, "type"] = np.nan
     df_graphers_pip.loc[j, "selectedFacetStrategy"] = np.nan
     df_graphers_pip.loc[j, "hasMapTab"] = "true"
@@ -770,18 +766,17 @@ for survey in range(len(pip_survey_type)):
     # P50/P10
     df_graphers_pip.loc[j, "title"] = f"Income inequality: P50/P10 ratio"
     df_graphers_pip.loc[j, "ySlugs"] = f"p50_p10_ratio"
-    df_graphers_pip.loc[j, "Data source Dropdown"] = pip_survey_type["source_name"][tab]
-    df_graphers_pip.loc[j, "Metric Dropdown"] = "P50/P10"
     df_graphers_pip.loc[
-        j, "Welfare type Dropdown"
-    ] = f"{pip_survey_type.dropdown_option[survey]}"
-    df_graphers_pip.loc[j, "tableSlug"] = f"{pip_survey_type.table_name[survey]}"
+        j, "Data source Dropdown"
+    ] = f"{pip_tables['source_name'][tab]} - {pip_tables['dropdown_option'][survey]}"
+    df_graphers_pip.loc[j, "Metric Dropdown"] = "P50/P10"
+    df_graphers_pip.loc[j, "tableSlug"] = f"{pip_tables.table_name[survey]}"
     df_graphers_pip.loc[
         j, "subtitle"
-    ] = f"The P50/P10 ratio measures the degree of inequality within the poorest half of the population. A ratio of 2 means that the median {pip_survey_type.text[survey]} is two times higher than that of someone just falling in the poorest tenth of the population."
+    ] = f"The P50/P10 ratio measures the degree of inequality within the poorest half of the population. A ratio of 2 means that the median {pip_tables.text[survey]} is two times higher than that of someone just falling in the poorest tenth of the population."
     df_graphers_pip.loc[
         j, "note"
-    ] = f"Depending on the country and year, the data relates to disposable {pip_survey_type.text[survey]} per capita."
+    ] = f"Depending on the country and year, the data relates to disposable {pip_tables.text[survey]} per capita."
     df_graphers_pip.loc[j, "type"] = np.nan
     df_graphers_pip.loc[j, "selectedFacetStrategy"] = np.nan
     df_graphers_pip.loc[j, "hasMapTab"] = "true"
@@ -791,18 +786,17 @@ for survey in range(len(pip_survey_type)):
     # Palma ratio
     df_graphers_pip.loc[j, "title"] = f"Income inequality: Palma ratio"
     df_graphers_pip.loc[j, "ySlugs"] = f"palma_ratio"
-    df_graphers_pip.loc[j, "Data source Dropdown"] = pip_survey_type["source_name"][tab]
-    df_graphers_pip.loc[j, "Metric Dropdown"] = "Palma ratio"
     df_graphers_pip.loc[
-        j, "Welfare type Dropdown"
-    ] = f"{pip_survey_type.dropdown_option[survey]}"
-    df_graphers_pip.loc[j, "tableSlug"] = f"{pip_survey_type.table_name[survey]}"
+        j, "Data source Dropdown"
+    ] = f"{pip_tables['source_name'][tab]} - {pip_tables['dropdown_option'][survey]}"
+    df_graphers_pip.loc[j, "Metric Dropdown"] = "Palma ratio"
+    df_graphers_pip.loc[j, "tableSlug"] = f"{pip_tables.table_name[survey]}"
     df_graphers_pip.loc[
         j, "subtitle"
-    ] = f"The Palma ratio is the share of total {pip_survey_type.text[survey]} of the top 10% divided by the share of the bottom 40%."
+    ] = f"The Palma ratio is the share of total {pip_tables.text[survey]} of the top 10% divided by the share of the bottom 40%."
     df_graphers_pip.loc[
         j, "note"
-    ] = f"Depending on the country and year, the data relates to disposable {pip_survey_type.text[survey]} per capita."
+    ] = f"Depending on the country and year, the data relates to disposable {pip_tables.text[survey]} per capita."
     df_graphers_pip.loc[j, "type"] = np.nan
     df_graphers_pip.loc[j, "selectedFacetStrategy"] = np.nan
     df_graphers_pip.loc[j, "hasMapTab"] = "true"
@@ -814,20 +808,19 @@ for survey in range(len(pip_survey_type)):
         j, "title"
     ] = "Relative poverty: Share of people below 50% of the median"
     df_graphers_pip.loc[j, "ySlugs"] = f"headcount_ratio_50_median"
-    df_graphers_pip.loc[j, "Data source Dropdown"] = pip_survey_type["source_name"][tab]
+    df_graphers_pip.loc[
+        j, "Data source Dropdown"
+    ] = f"{pip_tables['source_name'][tab]} - {pip_tables['dropdown_option'][survey]}"
     df_graphers_pip.loc[
         j, "Metric Dropdown"
     ] = f"Share in relative poverty (< 50% of the median)"
-    df_graphers_pip.loc[
-        j, "Welfare type Dropdown"
-    ] = f"{pip_survey_type.dropdown_option[survey]}"
-    df_graphers_pip.loc[j, "tableSlug"] = f"{pip_survey_type.table_name[survey]}"
+    df_graphers_pip.loc[j, "tableSlug"] = f"{pip_tables.table_name[survey]}"
     df_graphers_pip.loc[
         j, "subtitle"
-    ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at 50% of the median {pip_survey_type.text[survey]}."
+    ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at 50% of the median {pip_tables.text[survey]}."
     df_graphers_pip.loc[
         j, "note"
-    ] = f"Depending on the country and year, the data relates to disposable {pip_survey_type.text[survey]} per capita."
+    ] = f"Depending on the country and year, the data relates to disposable {pip_tables.text[survey]} per capita."
     df_graphers_pip.loc[j, "type"] = np.nan
     df_graphers_pip.loc[j, "selectedFacetStrategy"] = np.nan
     df_graphers_pip.loc[j, "hasMapTab"] = "true"
@@ -1312,7 +1305,7 @@ df_graphers_wid = df_graphers_wid[
 
 # Concatenate all the graphers dataframes
 df_graphers = pd.concat(
-    [df_graphers_lis, df_graphers_wid, df_graphers_pip], ignore_index=True
+    [df_graphers_pip, df_graphers_wid, df_graphers_lis], ignore_index=True
 )
 
 # %% [markdown]
