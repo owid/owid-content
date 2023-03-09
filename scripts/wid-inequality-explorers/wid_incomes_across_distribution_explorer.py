@@ -598,6 +598,9 @@ df_graphers["mapTargetTime"] = mapTargetTime
 # Make mapTargetTime integer (to not break the parameter in the platform)
 df_graphers["mapTargetTime"] = df_graphers["mapTargetTime"].astype("Int64")
 
+# Correct title for wealth values (there is a space before the comma)
+df_graphers["title"] = df_graphers["title"].str.strip()
+
 # Select one default view
 df_graphers.loc[
     (df_graphers["Metric Dropdown"] == "Decile thresholds")

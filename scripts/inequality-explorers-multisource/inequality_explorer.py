@@ -1060,6 +1060,9 @@ for tab in range(len(wid_tables)):
 
     df_graphers_wid["tableSlug"] = wid_tables["name"][tab]
 
+# Correct title for wealth values (there is a space before the comma)
+df_graphers_wid["title"] = df_graphers_wid["title"].str.strip()
+
 ###########################################################################################
 # LUXEMBOURG INCOME STUDY (LIS)
 ###########################################################################################
