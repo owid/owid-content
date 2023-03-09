@@ -194,7 +194,7 @@ columns	flu_weekly
 	inf_allsentinel	Sentinel	Integer	0	FluNet, World Health Organization (2023)	https://www.who.int/teams/global-influenza-programme/surveillance-and-monitoring/influenza-surveillance-outputs		0
 	inf_allnonsentinel	Non-sentinel	Integer	0	FluNet, World Health Organization (2023)	https://www.who.int/teams/global-influenza-programme/surveillance-and-monitoring/influenza-surveillance-outputs		0
 	inf_allnotdefined	Not defined	Integer	0	FluNet, World Health Organization (2023)	https://www.who.int/teams/global-influenza-programme/surveillance-and-monitoring/influenza-surveillance-outputs		0
-	inf_allcombined	Combined	Integer	4	FluNet, World Health Organization (2023)	https://www.who.int/teams/global-influenza-programme/surveillance-and-monitoring/influenza-surveillance-outputs		0
+	inf_allcombined	Combined	Integer	30	FluNet, World Health Organization (2023)	https://www.who.int/teams/global-influenza-programme/surveillance-and-monitoring/influenza-surveillance-outputs		0
 	inf_negativesentinel	Sentinel	Integer	0	FluNet, World Health Organization (2023)	https://www.who.int/teams/global-influenza-programme/surveillance-and-monitoring/influenza-surveillance-outputs		0
 	inf_negativenonsentinel	Non-sentinel	Integer	0	FluNet, World Health Organization (2023)	https://www.who.int/teams/global-influenza-programme/surveillance-and-monitoring/influenza-surveillance-outputs		0
 	inf_negativenotdefined	Not defined	Integer	0	FluNet, World Health Organization (2023)	https://www.who.int/teams/global-influenza-programme/surveillance-and-monitoring/influenza-surveillance-outputs		0
