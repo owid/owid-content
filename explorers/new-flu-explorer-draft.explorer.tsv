@@ -141,8 +141,8 @@ columns	flu_weekly
 	slug	name	type	tolerance	sourceName	sourceLink	additionalInfo	colorScaleNumericMinValue	color
 	country	Country	EntityName					0
 	date	Day	Date					0
-	reported_ari_cases	Cases of acute respiratory infections	Integer	0	FluID, World Health Organization (2023)	https://www.who.int/teams/global-influenza-programme/surveillance-and-monitoring/influenza-surveillance-outputs		0
-	reported_sari_cases	Cases of severe acute respiratory infections	Integer	0	FluID, World Health Organization (2023)	https://www.who.int/teams/global-influenza-programme/surveillance-and-monitoring/influenza-surveillance-outputs		0
+	reported_ari_cases	Cases of acute respiratory infections	Integer	4	FluID, World Health Organization (2023)	https://www.who.int/teams/global-influenza-programme/surveillance-and-monitoring/influenza-surveillance-outputs		0
+	reported_sari_cases	Cases of severe acute respiratory infections	Integer	4	FluID, World Health Organization (2023)	https://www.who.int/teams/global-influenza-programme/surveillance-and-monitoring/influenza-surveillance-outputs		0
 	reported_ili_cases	Cases of influenza like illnesses	Integer	0	FluID, World Health Organization (2023)	https://www.who.int/teams/global-influenza-programme/surveillance-and-monitoring/influenza-surveillance-outputs		0
 	reported_sari_deaths	Reported deaths caused by severe acute respiratory infections	Integer	0	FluID, World Health Organization (2023)	https://www.who.int/teams/global-influenza-programme/surveillance-and-monitoring/influenza-surveillance-outputs		0
 	ili_cases_per_thousand_outpatients	Cases of influenza-like illness per thousand outpatients	Numeric	0	FluID, World Health Organization (2023)	https://www.who.int/teams/global-influenza-programme/surveillance-and-monitoring/influenza-surveillance-outputs		0
@@ -194,7 +194,7 @@ columns	flu_weekly
 	inf_allsentinel	Sentinel	Integer	0	FluNet, World Health Organization (2023)	https://www.who.int/teams/global-influenza-programme/surveillance-and-monitoring/influenza-surveillance-outputs		0
 	inf_allnonsentinel	Non-sentinel	Integer	0	FluNet, World Health Organization (2023)	https://www.who.int/teams/global-influenza-programme/surveillance-and-monitoring/influenza-surveillance-outputs		0
 	inf_allnotdefined	Not defined	Integer	0	FluNet, World Health Organization (2023)	https://www.who.int/teams/global-influenza-programme/surveillance-and-monitoring/influenza-surveillance-outputs		0
-	inf_allcombined	Combined	Integer	0	FluNet, World Health Organization (2023)	https://www.who.int/teams/global-influenza-programme/surveillance-and-monitoring/influenza-surveillance-outputs		0
+	inf_allcombined	Combined	Integer	4	FluNet, World Health Organization (2023)	https://www.who.int/teams/global-influenza-programme/surveillance-and-monitoring/influenza-surveillance-outputs		0
 	inf_negativesentinel	Sentinel	Integer	0	FluNet, World Health Organization (2023)	https://www.who.int/teams/global-influenza-programme/surveillance-and-monitoring/influenza-surveillance-outputs		0
 	inf_negativenonsentinel	Non-sentinel	Integer	0	FluNet, World Health Organization (2023)	https://www.who.int/teams/global-influenza-programme/surveillance-and-monitoring/influenza-surveillance-outputs		0
 	inf_negativenotdefined	Not defined	Integer	0	FluNet, World Health Organization (2023)	https://www.who.int/teams/global-influenza-programme/surveillance-and-monitoring/influenza-surveillance-outputs		0
