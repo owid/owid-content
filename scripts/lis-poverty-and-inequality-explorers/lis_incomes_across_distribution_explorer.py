@@ -604,7 +604,7 @@ df_graphers["mapTargetTime"] = df_graphers["mapTargetTime"].astype("Int64")
 # Select one default view
 df_graphers.loc[
     (df_graphers["Metric Dropdown"] == "Decile thresholds")
-    & (df_graphers["Welfare type Dropdown"] == "Disposable income")
+    & (df_graphers["Welfare type Dropdown"] == "Income before tax")
     & (df_graphers["Equivalence scale Dropdown"] == "Equivalized")
     & (df_graphers["Decile Dropdown"] == "All deciles"),
     ["defaultView"],

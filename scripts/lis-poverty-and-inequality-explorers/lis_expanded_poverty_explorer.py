@@ -1172,7 +1172,7 @@ df_graphers.loc[
         df_graphers["Poverty line Dropdown"]
         == "$2.15 per day: International Poverty Line"
     )
-    & (df_graphers["Welfare type Dropdown"] == "Disposable income")
+    & (df_graphers["Welfare type Dropdown"] == "Income before tax")
     & (df_graphers["Equivalence scale Dropdown"] == "Equivalized"),
     ["defaultView"],
 ] = "true"
