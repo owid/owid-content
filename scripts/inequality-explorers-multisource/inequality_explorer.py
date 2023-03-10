@@ -92,7 +92,7 @@ header_dict = {
         "China",
     ],
     "explorerSubtitle": "",
-    "isPublished": "false",
+    "isPublished": "true",
     "googleSheet": "",
     "wpBlockId": "",
     "entityType": "country or region",

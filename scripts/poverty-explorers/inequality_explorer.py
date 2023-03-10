@@ -48,7 +48,7 @@ header_dict = {
         "China",
     ],
     "explorerSubtitle": "<i><a href='https://github.com/owid/poverty-data'>Download inequality data on GitHub</a></i>",
-    "isPublished": "false",
+    "isPublished": "true",
     "googleSheet": f"https://docs.google.com/spreadsheets/d/{sheet_id}",
     "wpBlockId": "52633",
     "entityType": "country or region",
