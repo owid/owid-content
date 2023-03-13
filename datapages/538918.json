@@ -1,0 +1,105 @@
+{
+  "title": "Annual CO₂ emissions per capita",
+  "tags": [
+    "CO2 and greenhouse gas emissions"
+  ],
+  "sources": [
+    {
+      "title": "Global Carbon Project",
+      "processingInfo": "Processing and <a href>substantial modifications</a> by Our World in Data.",
+      "dateRange": "1974-2020",
+      "lastUpdated": "2022-10-03",
+      "nextUpdate": "2023-05-15"
+    }
+  ],
+  "explorerUrl": "https://ourworldindata.org/grapher/annual-co2-emissions-per-capita",
+  "keyInformation": {
+    "summary": "We have the option of writing a summary sentence here – this is (probably) what would get included in the codebook entry for this variable.",
+    "items": [
+      {
+        "content": "This data relates to production-based CO2 emissions – it allocates emissions to each country on the basis of where the CO2 was emitted.",
+        "url": ""
+      },
+      {
+        "content": "This data measures Carbon dioxide (CO₂) emissions from fossil fuels and industry and does not include emissions from land use change, deforestation, soils, or vegetation. ",
+        "url": ""
+      },
+      {
+        "content": "Emissions from international aviation and shipping are not included in any country or region’s emissions. They are only included in the global total emissions.  ",
+        "url": ""
+      }
+    ],
+    "faq": {
+      "title": "How does the Global Carbon Project describe this metric?",
+      "content": ""
+    }
+  },
+  "relatedResearch": [
+    {
+      "title": "Where in the world do people emit the most CO2?",
+      "url": "https://ourworldindata.org/co2-emissions",
+      "authors": [
+        "Hannah Ritchie"
+      ],
+      "imageUrl": "https://ourworldindata.org/exports/annual-co2-emissions-per-country-da8ccccaf5fc9d6bab92c3527f0cc596_v44_850x600.svg"
+    }
+  ],
+  "relatedData": [
+    {
+      "type": "Data Explorer",
+      "imageUrl": "",
+      "title": "CO2 Data Explorer",
+      "source": "Global Carbon Project",
+      "url": "https://ourworldindata.org/explorers/co2",
+      "content": "Compare a range of metrics tracking emissions of  CO2 and other Greenhouse Gas."
+    },
+    {
+      "title": "Consumption-based CO2 emissions per capita",
+      "url": "https://ourworldindata.org/explorers/co2",
+      "content": "How do per capita CO2 emissions compare when we adjust for trade?"
+    },
+    {
+      "title": "Annual share of global CO2 emissions",
+      "url": "https://ourworldindata.org/explorers/co2",
+      "content": "What share of global CO2 emissions do different countries contribute?"
+    },
+    {
+      "title": "Annual CO2 emissions from land-use change per capita",
+      "url": "https://ourworldindata.org/explorers/co2",
+      "source": "Global Carbon Project, 2022"
+    },
+    {
+      "title": "Annual CO2 emissions by world region",
+      "url": "https://ourworldindata.org/explorers/co2",
+      "source": "Global Carbon Project, 2022"
+    },
+    {
+      "title": "Annual CO2 emissions from cement",
+      "url": "https://ourworldindata.org/explorers/co2",
+      "source": "Global Carbon Project, 2022"
+    }
+  ],
+  "relatedCharts": {
+    "title": "Explore charts that include this data",
+    "items": [
+      {
+        "title": "Carbon intensity of electricity",
+        "slug": "carbon-intensity-electricity",
+        "isKeyChart": true
+      }
+    ]
+  },
+  "faqs": {
+    "title": "What you should know about this data",
+    "items": [
+      {
+        "title": "Does this data account for emissions embedded in traded goods?",
+        "content": "<p>This data relates to  production-based CO2 emissions. This is the metric typically reported by countries, and the method used to set targets and monitor progress towards them. It does not adjust for emissions embedded in traded goods. It allocates emissions to each country on the basis of where the CO2 was emitted. For example, If China burns coal to produce goods that are then sold and shipped to the UK, these emissions are allocated to China.<p><p>We also provide data on consumption-based CO2 emissions. This does adjust for emissions embedded in traded goods and services. Emissions are allocated to the country where the final goods are used. In the example above, the emissions would instead be allocated to the UK.</p>   <p>Unless specified as consumption-based emissions in our charts or data, it is production-based CO2 emissions that are being used.</p>"
+      },
+      {
+        "title": "Are emissions from land use change included?",
+        "content": "<p>Until the 2022 update of the Global Carbon Budget, national emissions data was only available for CO2 emissions from fossil fuels and industrial processes (such as cement production). It did not include emissions from land use change.</p><p>The 2022 update – for the first time – includes land use estimates for countries, extending back to 1750.</p><p>The quality of these estimates is better for some countries than others. In our chart here we show the project’s assessment of the data quality for each country.</p><p>Since the estimates of emissions for fossil fuels and industry are much more certain than for land use change, we still adopt the former as our main CO2 emissions metric. However, we now also include charts on land use change, and combined emissions from fossil fuels, industry and land use.</p>"
+      }
+    ]
+  }
+}
