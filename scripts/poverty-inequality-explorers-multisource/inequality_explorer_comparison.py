@@ -587,7 +587,9 @@ for tab in range(len(merged_tables)):
 
     for view in range(len(source_checkbox)):
         # Gini coefficient
-        df_graphers.loc[j, "title"] = "Income inequality: Gini coefficient (before tax)"
+        df_graphers.loc[
+            j, "title"
+        ] = f"Income inequality: Gini coefficient ({source_checkbox['type_title'][view]})"
         df_graphers.loc[j, "ySlugs"] = source_checkbox["gini"][view]
         df_graphers.loc[j, "Income type Dropdown"] = "Before tax"
         df_graphers.loc[j, "Metric Dropdown"] = "Gini coefficient"
@@ -674,17 +676,18 @@ for tab in range(len(merged_tables)):
 
     # AFTER TAX
 
-    # Gini coefficient
-    df_graphers.loc[j, "title"] = "Income inequality: Gini coefficient (after tax)"
-    df_graphers.loc[j, "ySlugs"] = "gini p0p100_gini_posttax_nat gini_dhi_eq"
-    df_graphers.loc[j, "Income type Dropdown"] = "After tax"
-    df_graphers.loc[j, "Metric Dropdown"] = "Gini coefficient"
-    df_graphers.loc[
-        j, "subtitle"
-    ] = f"The Gini coefficient is a measure of the inequality of the income distribution in a population. Higher values indicate a higher level of inequality."
-    df_graphers.loc[j, "note"] = ""
-    df_graphers.loc[j, "type"] = np.nan
-    j += 1
+    # for view in range(len(source_checkbox)):
+    # # Gini coefficient
+    # df_graphers.loc[j, "title"] = "Income inequality: Gini coefficient (after tax)"
+    # df_graphers.loc[j, "ySlugs"] = "gini p0p100_gini_posttax_nat gini_dhi_eq"
+    # df_graphers.loc[j, "Income type Dropdown"] = "After tax"
+    # df_graphers.loc[j, "Metric Dropdown"] = "Gini coefficient"
+    # df_graphers.loc[
+    #     j, "subtitle"
+    # ] = f"The Gini coefficient is a measure of the inequality of the income distribution in a population. Higher values indicate a higher level of inequality."
+    # df_graphers.loc[j, "note"] = ""
+    # df_graphers.loc[j, "type"] = np.nan
+    # j += 1
 
     # Share of the top 10%
     df_graphers.loc[j, "title"] = "Income share of the top 10% (after tax)"
@@ -808,7 +811,10 @@ df_graphers["mapTargetTime"] = df_graphers["mapTargetTime"].astype("Int64")
 # Select one default view
 df_graphers.loc[
     (df_graphers["Income type Dropdown"] == "After tax")
-    & (df_graphers["Metric Dropdown"] == "Gini coefficient"),
+    & (df_graphers["Metric Dropdown"] == "Gini coefficient")
+    & (df_graphers["PIP Checkbox"] == "true")
+    & (df_graphers["WID Checkbox"] == "true")
+    & (df_graphers["LIS Checkbox"] == "true"),
     ["defaultView"],
 ] = "true"
 
