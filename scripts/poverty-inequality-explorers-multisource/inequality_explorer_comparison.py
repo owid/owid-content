@@ -607,190 +607,146 @@ for tab in range(len(merged_tables)):
         df_graphers.loc[j, "type"] = np.nan
         j += 1
 
-    # Share of the top 10%
-    df_graphers.loc[j, "title"] = "Income share of the top 10% (before tax)"
-    df_graphers.loc[j, "ySlugs"] = "p90p100_share_pretax share_p90_mi_eq"
-    df_graphers.loc[j, "Income type Dropdown"] = "Before tax"
-    df_graphers.loc[j, "Metric Dropdown"] = "Top 10% share"
-    df_graphers.loc[
-        j, "subtitle"
-    ] = f"This is the income of the richest 10% as a share of total income."
-    df_graphers.loc[j, "note"] = ""
-    df_graphers.loc[j, "type"] = np.nan
-    j += 1
+    for view in range(len(source_checkbox)):
+        # Share of the top 10%
+        df_graphers.loc[
+            j, "title"
+        ] = f"Income share of the top 10% ({source_checkbox['type_title'][view]})"
+        df_graphers.loc[j, "ySlugs"] = source_checkbox["top10"][view]
+        df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
+            view
+        ].capitalize()
+        df_graphers.loc[j, "Metric Dropdown"] = "Top 10% share"
+        df_graphers.loc[j, "PIP Checkbox"] = source_checkbox["pip"][view]
+        df_graphers.loc[j, "WID Checkbox"] = source_checkbox["wid"][view]
+        df_graphers.loc[j, "LIS Checkbox"] = source_checkbox["lis"][view]
+        df_graphers.loc[
+            j, "subtitle"
+        ] = f"This is the income of the richest 10% as a share of total income."
+        df_graphers.loc[j, "note"] = ""
+        df_graphers.loc[j, "type"] = np.nan
+        j += 1
 
-    # Share of the bottom 50%
-    df_graphers.loc[j, "title"] = "Income share of the bottom 50% (before tax)"
-    df_graphers.loc[j, "ySlugs"] = "p0p50_share_pretax share_bottom50_mi_eq"
-    df_graphers.loc[j, "Income type Dropdown"] = "Before tax"
-    df_graphers.loc[j, "Metric Dropdown"] = "Bottom 50% share"
-    df_graphers.loc[
-        j, "subtitle"
-    ] = f"This is the income of the poorest 50% as a share of total income."
-    df_graphers.loc[j, "note"] = ""
-    j += 1
+    for view in range(len(source_checkbox)):
+        # Share of the bottom 50%
+        df_graphers.loc[
+            j, "title"
+        ] = f"Income share of the bottom 50% ({source_checkbox['type_title'][view]})"
+        df_graphers.loc[j, "ySlugs"] = source_checkbox["bottom50"][view]
+        df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
+            view
+        ].capitalize()
+        df_graphers.loc[j, "Metric Dropdown"] = "Bottom 50% share"
+        df_graphers.loc[j, "PIP Checkbox"] = source_checkbox["pip"][view]
+        df_graphers.loc[j, "WID Checkbox"] = source_checkbox["wid"][view]
+        df_graphers.loc[j, "LIS Checkbox"] = source_checkbox["lis"][view]
+        df_graphers.loc[
+            j, "subtitle"
+        ] = f"This is the income of the poorest 50% as a share of total income."
+        df_graphers.loc[j, "note"] = ""
+        j += 1
 
-    # P90/P10
-    df_graphers.loc[j, "title"] = "Income inequality: P90/P10 ratio (before tax)"
-    df_graphers.loc[j, "ySlugs"] = "p90_p10_ratio_pretax p90_p10_ratio_mi_eq"
-    df_graphers.loc[j, "Income type Dropdown"] = "Before tax"
-    df_graphers.loc[j, "Metric Dropdown"] = "P90/P10"
-    df_graphers.loc[
-        j, "subtitle"
-    ] = f"P90 and P10 are the levels of income below which 90% and 10% of the population live, respectively. This variable gives the ratio of the two. It is a measure of inequality that indicates the gap between the richest and poorest tenth of the population."
-    df_graphers.loc[j, "note"] = ""
-    df_graphers.loc[j, "type"] = np.nan
-    j += 1
+    for view in range(len(source_checkbox)):
+        # P90/P10
+        df_graphers.loc[
+            j, "title"
+        ] = f"Income inequality: P90/P10 ratio ({source_checkbox['type_title'][view]})"
+        df_graphers.loc[j, "ySlugs"] = source_checkbox["p90_p10"][view]
+        df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
+            view
+        ].capitalize()
+        df_graphers.loc[j, "Metric Dropdown"] = "P90/P10"
+        df_graphers.loc[j, "PIP Checkbox"] = source_checkbox["pip"][view]
+        df_graphers.loc[j, "WID Checkbox"] = source_checkbox["wid"][view]
+        df_graphers.loc[j, "LIS Checkbox"] = source_checkbox["lis"][view]
+        df_graphers.loc[
+            j, "subtitle"
+        ] = f"P90 and P10 are the levels of income below which 90% and 10% of the population live, respectively. This variable gives the ratio of the two. It is a measure of inequality that indicates the gap between the richest and poorest tenth of the population."
+        df_graphers.loc[j, "note"] = ""
+        df_graphers.loc[j, "type"] = np.nan
+        j += 1
 
-    # P90/P50
-    df_graphers.loc[j, "title"] = "Income inequality: P90/P50 ratio (before tax)"
-    df_graphers.loc[j, "ySlugs"] = "p90_p50_ratio_pretax p90_p50_ratio_mi_eq"
-    df_graphers.loc[j, "Income type Dropdown"] = "Before tax"
-    df_graphers.loc[j, "Metric Dropdown"] = "P90/P50"
-    df_graphers.loc[
-        j, "subtitle"
-    ] = f"The P90/P50 ratio measures the degree of inequality within the richest half of the population. A ratio of 2 means that someone just falling in the richest tenth of the population has twice the median income."
-    df_graphers.loc[j, "note"] = ""
-    df_graphers.loc[j, "type"] = np.nan
-    j += 1
+    for view in range(len(source_checkbox)):
+        # P90/P50
+        df_graphers.loc[
+            j, "title"
+        ] = f"Income inequality: P90/P50 ratio ({source_checkbox['type_title'][view]})"
+        df_graphers.loc[j, "ySlugs"] = source_checkbox["p90_p50"][view]
+        df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
+            view
+        ].capitalize()
+        df_graphers.loc[j, "Metric Dropdown"] = "P90/P50"
+        df_graphers.loc[j, "PIP Checkbox"] = source_checkbox["pip"][view]
+        df_graphers.loc[j, "WID Checkbox"] = source_checkbox["wid"][view]
+        df_graphers.loc[j, "LIS Checkbox"] = source_checkbox["lis"][view]
+        df_graphers.loc[
+            j, "subtitle"
+        ] = f"The P90/P50 ratio measures the degree of inequality within the richest half of the population. A ratio of 2 means that someone just falling in the richest tenth of the population has twice the median income."
+        df_graphers.loc[j, "note"] = ""
+        df_graphers.loc[j, "type"] = np.nan
+        j += 1
 
-    # P50/P10
-    df_graphers.loc[j, "title"] = "Income inequality: P50/P10 ratio (before tax)"
-    df_graphers.loc[j, "ySlugs"] = "p50_p10_ratio_pretax p50_p10_ratio_mi_eq"
-    df_graphers.loc[j, "Income type Dropdown"] = "Before tax"
-    df_graphers.loc[j, "Metric Dropdown"] = "P50/P10"
-    df_graphers.loc[
-        j, "subtitle"
-    ] = f"The P50/P10 ratio measures the degree of inequality within the poorest half of the population. A ratio of 2 means that the median income is two times higher than that of someone just falling in the poorest tenth of the population."
-    df_graphers.loc[j, "note"] = ""
-    df_graphers.loc[j, "type"] = np.nan
-    j += 1
+    for view in range(len(source_checkbox)):
+        # P50/P10
+        df_graphers.loc[
+            j, "title"
+        ] = f"Income inequality: P50/P10 ratio ({source_checkbox['type_title'][view]})"
+        df_graphers.loc[j, "ySlugs"] = source_checkbox["p50_p10"][view]
+        df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
+            view
+        ].capitalize()
+        df_graphers.loc[j, "Metric Dropdown"] = "P50/P10"
+        df_graphers.loc[j, "PIP Checkbox"] = source_checkbox["pip"][view]
+        df_graphers.loc[j, "WID Checkbox"] = source_checkbox["wid"][view]
+        df_graphers.loc[j, "LIS Checkbox"] = source_checkbox["lis"][view]
+        df_graphers.loc[
+            j, "subtitle"
+        ] = f"The P50/P10 ratio measures the degree of inequality within the poorest half of the population. A ratio of 2 means that the median income is two times higher than that of someone just falling in the poorest tenth of the population."
+        df_graphers.loc[j, "note"] = ""
+        df_graphers.loc[j, "type"] = np.nan
+        j += 1
 
-    # # Palma ratio
-    df_graphers.loc[j, "title"] = "Income inequality: Palma ratio (before tax)"
-    df_graphers.loc[j, "ySlugs"] = "palma_ratio_pretax palma_ratio_mi_eq"
-    df_graphers.loc[j, "Income type Dropdown"] = "Before tax"
-    df_graphers.loc[j, "Metric Dropdown"] = "Palma ratio"
-    df_graphers.loc[
-        j, "subtitle"
-    ] = f"The Palma ratio is the share of total income of the top 10% divided by the share of the bottom 40%."
-    df_graphers.loc[j, "note"] = ""
-    df_graphers.loc[j, "type"] = np.nan
-    j += 1
+    for view in range(len(source_checkbox)):
+        # Palma ratio
+        df_graphers.loc[
+            j, "title"
+        ] = f"Income inequality: Palma ratio ({source_checkbox['type_title'][view]})"
+        df_graphers.loc[j, "ySlugs"] = source_checkbox["palma"][view]
+        df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
+            view
+        ].capitalize()
+        df_graphers.loc[j, "Metric Dropdown"] = "Palma ratio"
+        df_graphers.loc[j, "PIP Checkbox"] = source_checkbox["pip"][view]
+        df_graphers.loc[j, "WID Checkbox"] = source_checkbox["wid"][view]
+        df_graphers.loc[j, "LIS Checkbox"] = source_checkbox["lis"][view]
+        df_graphers.loc[
+            j, "subtitle"
+        ] = f"The Palma ratio is the share of total income of the top 10% divided by the share of the bottom 40%."
+        df_graphers.loc[j, "note"] = ""
+        df_graphers.loc[j, "type"] = np.nan
+        j += 1
 
-    # AFTER TAX
-
-    # for view in range(len(source_checkbox)):
-    # # Gini coefficient
-    # df_graphers.loc[j, "title"] = "Income inequality: Gini coefficient (after tax)"
-    # df_graphers.loc[j, "ySlugs"] = "gini p0p100_gini_posttax_nat gini_dhi_eq"
-    # df_graphers.loc[j, "Income type Dropdown"] = "After tax"
-    # df_graphers.loc[j, "Metric Dropdown"] = "Gini coefficient"
-    # df_graphers.loc[
-    #     j, "subtitle"
-    # ] = f"The Gini coefficient is a measure of the inequality of the income distribution in a population. Higher values indicate a higher level of inequality."
-    # df_graphers.loc[j, "note"] = ""
-    # df_graphers.loc[j, "type"] = np.nan
-    # j += 1
-
-    # Share of the top 10%
-    df_graphers.loc[j, "title"] = "Income share of the top 10% (after tax)"
-    df_graphers.loc[
-        j, "ySlugs"
-    ] = "decile10_share p90p100_share_posttax_nat share_p90_dhi_eq"
-    df_graphers.loc[j, "Income type Dropdown"] = "After tax"
-    df_graphers.loc[j, "Metric Dropdown"] = "Top 10% share"
-    df_graphers.loc[
-        j, "subtitle"
-    ] = f"This is the income of the richest 10% as a share of total income."
-    df_graphers.loc[j, "note"] = ""
-    df_graphers.loc[j, "type"] = np.nan
-    j += 1
-
-    # Share of the bottom 50%
-    df_graphers.loc[j, "title"] = "Income share of the bottom 50% (after tax)"
-    df_graphers.loc[j, "ySlugs"] = "p0p50_share_posttax_nat share_bottom50_dhi_eq"
-    df_graphers.loc[j, "Income type Dropdown"] = "After tax"
-    df_graphers.loc[j, "Metric Dropdown"] = "Bottom 50% share"
-    df_graphers.loc[
-        j, "subtitle"
-    ] = f"This is the income of the poorest 50% as a share of total income."
-    df_graphers.loc[j, "note"] = ""
-    j += 1
-
-    # P90/P10
-    df_graphers.loc[j, "title"] = "Income inequality: P90/P10 ratio (after tax)"
-    df_graphers.loc[
-        j, "ySlugs"
-    ] = "p90_p10_ratio p90_p10_ratio_posttax_nat p90_p10_ratio_dhi_eq"
-    df_graphers.loc[j, "Income type Dropdown"] = "After tax"
-    df_graphers.loc[j, "Metric Dropdown"] = "P90/P10"
-    df_graphers.loc[
-        j, "subtitle"
-    ] = f"P90 and P10 are the levels of income below which 90% and 10% of the population live, respectively. This variable gives the ratio of the two. It is a measure of inequality that indicates the gap between the richest and poorest tenth of the population."
-    df_graphers.loc[j, "note"] = ""
-    df_graphers.loc[j, "type"] = np.nan
-    j += 1
-
-    # P90/P50
-    df_graphers.loc[j, "title"] = "Income inequality: P90/P50 ratio (after tax)"
-    df_graphers.loc[
-        j, "ySlugs"
-    ] = "p90_p50_ratio p90_p50_ratio_posttax_nat p90_p50_ratio_dhi_eq"
-    df_graphers.loc[j, "Income type Dropdown"] = "After tax"
-    df_graphers.loc[j, "Metric Dropdown"] = "P90/P50"
-    df_graphers.loc[
-        j, "subtitle"
-    ] = f"The P90/P50 ratio measures the degree of inequality within the richest half of the population. A ratio of 2 means that someone just falling in the richest tenth of the population has twice the median income."
-    df_graphers.loc[j, "note"] = ""
-    df_graphers.loc[j, "type"] = np.nan
-    j += 1
-
-    # P50/P10
-    df_graphers.loc[j, "title"] = "Income inequality: P50/P10 ratio (after tax)"
-    df_graphers.loc[
-        j, "ySlugs"
-    ] = "p50_p10_ratio p50_p10_ratio_posttax_nat p50_p10_ratio_dhi_eq"
-    df_graphers.loc[j, "Income type Dropdown"] = "After tax"
-    df_graphers.loc[j, "Metric Dropdown"] = "P50/P10"
-    df_graphers.loc[
-        j, "subtitle"
-    ] = f"The P50/P10 ratio measures the degree of inequality within the poorest half of the population. A ratio of 2 means that the median income is two times higher than that of someone just falling in the poorest tenth of the population."
-    df_graphers.loc[j, "note"] = ""
-    df_graphers.loc[j, "type"] = np.nan
-    j += 1
-
-    # # Palma ratio
-    df_graphers.loc[j, "title"] = "Income inequality: Palma ratio (after tax)"
-    df_graphers.loc[
-        j, "ySlugs"
-    ] = "palma_ratio palma_ratio_posttax_nat palma_ratio_dhi_eq"
-    df_graphers.loc[j, "Income type Dropdown"] = "After tax"
-    df_graphers.loc[j, "Metric Dropdown"] = "Palma ratio"
-    df_graphers.loc[
-        j, "subtitle"
-    ] = f"The Palma ratio is the share of total income of the top 10% divided by the share of the bottom 40%."
-    df_graphers.loc[j, "note"] = ""
-    df_graphers.loc[j, "type"] = np.nan
-    j += 1
-
-    # Headcount ratio (rel)
-    df_graphers.loc[
-        j, "title"
-    ] = f"Relative poverty: Share of people below 50% of the median income (after tax)"
-    df_graphers.loc[
-        j, "ySlugs"
-    ] = f"headcount_ratio_50_median headcount_ratio_50_median_dhi_eq"
-    df_graphers.loc[j, "Income type Dropdown"] = "After tax"
-    df_graphers.loc[
-        j, "Metric Dropdown"
-    ] = f"Share in relative poverty (< 50% of the median)"
-    df_graphers.loc[
-        j, "subtitle"
-    ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at 50% of the median income."
-    df_graphers.loc[j, "note"] = ""
-    df_graphers.loc[j, "type"] = np.nan
-    j += 1
+    for view in range(len(source_checkbox)):
+        # Headcount ratio (rel)
+        df_graphers.loc[
+            j, "title"
+        ] = f"Relative poverty: Share of people below 50% of the median income ({source_checkbox['type_title'][view]})"
+        df_graphers.loc[j, "ySlugs"] = source_checkbox["relative"][view]
+        df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
+            view
+        ].capitalize()
+        df_graphers.loc[
+            j, "Metric Dropdown"
+        ] = f"Share in relative poverty (< 50% of the median)"
+        df_graphers.loc[j, "PIP Checkbox"] = source_checkbox["pip"][view]
+        df_graphers.loc[j, "WID Checkbox"] = source_checkbox["wid"][view]
+        df_graphers.loc[j, "LIS Checkbox"] = source_checkbox["lis"][view]
+        df_graphers.loc[
+            j, "subtitle"
+        ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at 50% of the median income."
+        df_graphers.loc[j, "note"] = ""
+        df_graphers.loc[j, "type"] = np.nan
+        j += 1
 
     df_graphers["tableSlug"] = merged_tables["name"][tab]
 
