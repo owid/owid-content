@@ -591,7 +591,9 @@ for tab in range(len(merged_tables)):
             j, "title"
         ] = f"Income inequality: Gini coefficient ({source_checkbox['type_title'][view]})"
         df_graphers.loc[j, "ySlugs"] = source_checkbox["gini"][view]
-        df_graphers.loc[j, "Income type Dropdown"] = "Before tax"
+        df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
+            view
+        ].capitalize()
         df_graphers.loc[j, "Metric Dropdown"] = "Gini coefficient"
         df_graphers.loc[j, "PIP Checkbox"] = source_checkbox["pip"][view]
         df_graphers.loc[j, "WID Checkbox"] = source_checkbox["wid"][view]
