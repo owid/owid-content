@@ -757,6 +757,9 @@ df_graphers["selectedFacetStrategy"] = selectedFacetStrategy
 df_graphers["hasMapTab"] = hasMapTab
 df_graphers["tab"] = tab_parameter
 
+# Drop rows with empty ySlugs (they make the checkbox system fail)
+df_graphers = df_graphers[df_graphers["ySlugs"] != ""].reset_index(drop=True)
+
 # %% [markdown]
 # Final adjustments to the graphers table: add `relatedQuestion` link and `defaultView`:
 
