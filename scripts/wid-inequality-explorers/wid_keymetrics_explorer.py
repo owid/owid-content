@@ -68,7 +68,7 @@ df_header = df_header[0].apply(pd.Series)
 # %%
 # Table generation
 
-sourceName = "World Inequality Database (WID.world) (2022)"
+sourceName = "World Inequality Database (WID.world) (2023)"
 dataPublishedBy = "World Inequality Database (WID), https://wid.world"
 sourceLink = "https://wid.world"
 colorScaleNumericMinValue = 0

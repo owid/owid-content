@@ -258,7 +258,7 @@ df_tables_pip["tolerance"] = tolerance
 
 # Table generation
 
-sourceName = "World Inequality Database (WID.world) (2022)"
+sourceName = "World Inequality Database (WID.world) (2023)"
 dataPublishedBy = "World Inequality Database (WID), https://wid.world"
 sourceLink = "https://wid.world"
 colorScaleNumericMinValue = 0
@@ -393,8 +393,8 @@ df_tables_wid["tolerance"] = tolerance
 ###########################################################################################
 # LUXEMBOURG INCOME STUDY (LIS)
 ###########################################################################################
-sourceName = "Luxembourg Income Study (LIS) (2022)"
-dataPublishedBy = "Luxembourg Income Study (LIS) Database, http://www.lisdatacenter.org (multiple countries; 1967-2021). Luxembourg, LIS."
+sourceName = "Luxembourg Income Study (LIS) (2023)"
+dataPublishedBy = "Luxembourg Income Study (LIS) Database, http://www.lisdatacenter.org (multiple countries; 1967-2020). Luxembourg, LIS."
 sourceLink = "https://www.lisdatacenter.org/our-data/lis-database/"
 colorScaleNumericMinValue = 0
 tolerance = 5
