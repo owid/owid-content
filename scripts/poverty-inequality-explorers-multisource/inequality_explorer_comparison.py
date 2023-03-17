@@ -1,5 +1,5 @@
 # %% [markdown]
-# # Source Comparison Inequality Data Explorer
+# # Inequality Data Explorer - Source Comparison
 # This code creates the tsv file for the comparison inequality explorer, available [here](https://owid.cloud/admin/explorers/preview/inequality_comparison)
 
 import textwrap
@@ -568,12 +568,6 @@ df_tables["tolerance"] = df_tables["tolerance"].astype("Int64")
 # %%
 # Grapher table generation
 
-###########################################################################################
-# WORLD INEQUALITY DATABASE (WID)
-###########################################################################################
-
-# Grapher table generation
-
 yAxisMin = 0
 mapTargetTime = 2019
 selectedFacetStrategy = "entity"
@@ -585,8 +579,6 @@ df_graphers = pd.DataFrame()
 j = 0
 
 for tab in range(len(merged_tables)):
-    # BEFORE TAX
-
     for view in range(len(source_checkbox)):
         # Gini coefficient
         df_graphers.loc[
