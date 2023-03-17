@@ -30,7 +30,9 @@ merged_tables = pd.read_csv(url, keep_default_na=False)
 # Source checkbox covers all the possible combinations to get for the multi-source selector
 sheet_name = "source_checkbox"
 url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
-source_checkbox = pd.read_csv(url, keep_default_na=False)
+source_checkbox = pd.read_csv(
+    url, keep_default_na=False, dtype={"pip": "str", "wid": "str", "lis": "str"}
+)
 
 # LUXEMBOURG INCOME STUDY
 # Read Google sheets
