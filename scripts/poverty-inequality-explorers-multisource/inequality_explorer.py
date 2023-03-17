@@ -18,14 +18,18 @@ outfile = PARENT_DIR / "explorers" / "inequality.explorer.tsv"
 # These spreadsheets provide with different details depending on each type of welfare measure or tables considered.
 
 # %%
-# LUXEMBOURG INCOME STUDY
+# MULTI-SOURCE
 # Read Google sheets
-sheet_id = "1UFdwB1iBpP2tEP6GtxCHvW1GGhjsFflh42FWR80rYIg"
+sheet_id = "1wcFsNZCEn_6SJ05BFkXKLUyvCrnigfR8eeemGKgAYsI"
 
-# All the tables sheet (this contains PIP, WID and LIS dataset information, it is located in the LIS spreadsheet because there is no unified sheet for this)
+# All the tables sheet (this contains PIP, WID and LIS dataset information)
 sheet_name = "all_the_tables"
 url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
 all_the_tables = pd.read_csv(url, keep_default_na=False)
+
+# LUXEMBOURG INCOME STUDY
+# Read Google sheets
+sheet_id = "1UFdwB1iBpP2tEP6GtxCHvW1GGhjsFflh42FWR80rYIg"
 
 # Welfare type sheet
 sheet_name = "welfare"

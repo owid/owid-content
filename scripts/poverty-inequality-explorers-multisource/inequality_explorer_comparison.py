@@ -18,14 +18,23 @@ outfile = PARENT_DIR / "explorers" / "inequality_comparison.explorer.tsv"
 # These spreadsheets provide with different details depending on each type of welfare measure or tables considered.
 
 # %%
-# LUXEMBOURG INCOME STUDY
+# MULTI-SOURCE
 # Read Google sheets
-sheet_id = "1UFdwB1iBpP2tEP6GtxCHvW1GGhjsFflh42FWR80rYIg"
+sheet_id = "1wcFsNZCEn_6SJ05BFkXKLUyvCrnigfR8eeemGKgAYsI"
 
-# All the tables sheet (this contains PIP, WID and LIS dataset information, it is located in the LIS spreadsheet because there is no unified sheet for this)
+# Merged sheet (this contains PIP, WID and LIS dataset information together in one file)
 sheet_name = "merged_tables"
 url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
 merged_tables = pd.read_csv(url, keep_default_na=False)
+
+# Source checkbox covers all the possible combinations to get for the multi-source selector
+sheet_name = "source_checkbox"
+url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
+source_checkbox = pd.read_csv(url, keep_default_na=False)
+
+# LUXEMBOURG INCOME STUDY
+# Read Google sheets
+sheet_id = "1UFdwB1iBpP2tEP6GtxCHvW1GGhjsFflh42FWR80rYIg"
 
 # Welfare type sheet
 sheet_name = "welfare"
@@ -576,17 +585,21 @@ j = 0
 for tab in range(len(merged_tables)):
     # BEFORE TAX
 
-    # Gini coefficient
-    df_graphers.loc[j, "title"] = "Income inequality: Gini coefficient (before tax)"
-    df_graphers.loc[j, "ySlugs"] = "p0p100_gini_pretax gini_mi_eq"
-    df_graphers.loc[j, "Income type Dropdown"] = "Before tax"
-    df_graphers.loc[j, "Metric Dropdown"] = "Gini coefficient"
-    df_graphers.loc[
-        j, "subtitle"
-    ] = f"The Gini coefficient is a measure of the inequality of the income distribution in a population. Higher values indicate a higher level of inequality."
-    df_graphers.loc[j, "note"] = ""
-    df_graphers.loc[j, "type"] = np.nan
-    j += 1
+    for view in range(len(source_checkbox)):
+        # Gini coefficient
+        df_graphers.loc[j, "title"] = "Income inequality: Gini coefficient (before tax)"
+        df_graphers.loc[j, "ySlugs"] = source_checkbox["gini"][view]
+        df_graphers.loc[j, "Income type Dropdown"] = "Before tax"
+        df_graphers.loc[j, "Metric Dropdown"] = "Gini coefficient"
+        df_graphers.loc[j, "PIP Checkbox"] = source_checkbox["pip"][view]
+        df_graphers.loc[j, "WID Checkbox"] = source_checkbox["wid"][view]
+        df_graphers.loc[j, "LIS Checkbox"] = source_checkbox["lis"][view]
+        df_graphers.loc[
+            j, "subtitle"
+        ] = f"The Gini coefficient is a measure of the inequality of the income distribution in a population. Higher values indicate a higher level of inequality."
+        df_graphers.loc[j, "note"] = ""
+        df_graphers.loc[j, "type"] = np.nan
+        j += 1
 
     # Share of the top 10%
     df_graphers.loc[j, "title"] = "Income share of the top 10% (before tax)"
