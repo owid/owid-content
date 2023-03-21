@@ -751,11 +751,26 @@ df_graphers["metric_dropdown_aux"] = df_graphers["Metric Dropdown"].map(
     df_graphers_mapping["index"]
 )
 
+# Equivalence scales dropdown
+eq_dropdown_list = ["Equivalized", "Per capita", "Equivalized vs. per capita"]
+
+df_graphers_mapping = pd.DataFrame(
+    {
+        "eq_dropdown": eq_dropdown_list,
+    }
+)
+df_graphers_mapping = df_graphers_mapping.reset_index().set_index("eq_dropdown")
+df_graphers["eq_dropdown_aux"] = df_graphers["Equivalence scale Dropdown"].map(
+    df_graphers_mapping["index"]
+)
+
 # Sort by auxiliary variables and drop
 df_graphers = df_graphers.sort_values(
-    ["decile_dropdown_aux", "metric_dropdown_aux"], ignore_index=True
+    ["decile_dropdown_aux", "metric_dropdown_aux", "eq_dropdown_aux"], ignore_index=True
 )
-df_graphers = df_graphers.drop(columns=["metric_dropdown_aux", "decile_dropdown_aux"])
+df_graphers = df_graphers.drop(
+    columns=["metric_dropdown_aux", "decile_dropdown_aux", "eq_dropdown_aux"]
+)
 
 # %% [markdown]
 # ## Explorer generation
