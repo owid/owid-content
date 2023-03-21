@@ -233,57 +233,286 @@ j = 0
 for tab in range(len(tables)):
     for wel in range(len(welfare)):
         for eq in range(len(equivalence_scales)):
+            for rel_toggle in ["absolute", "relative"]:
+                # Mean
+                df_graphers.loc[
+                    j, "title"
+                ] = f"Mean {welfare['welfare_type'][wel]} ({welfare['title'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+                df_graphers.loc[
+                    j, "ySlugs"
+                ] = f"mean_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
+                df_graphers.loc[j, "Metric Dropdown"] = "Mean income or consumption"
+                df_graphers.loc[j, "Decile Dropdown"] = np.nan
+                df_graphers.loc[
+                    j, "Welfare type Dropdown"
+                ] = f"{welfare['dropdown_option'][wel]}"
+                df_graphers.loc[j, "Equivalence scale Dropdown"] = equivalence_scales[
+                    "text"
+                ][eq].capitalize()
+                df_graphers.loc[j, "Relative change Checkbox"] = rel_toggle
+                df_graphers.loc[
+                    j, "subtitle"
+                ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]}"
+                df_graphers.loc[
+                    j, "note"
+                ] = f"This data is measured in international-$ at 2017 prices."
+                df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
+                df_graphers.loc[j, "hasMapTab"] = "true"
+                df_graphers.loc[j, "tab"] = "map"
+                df_graphers.loc[j, "yScaleToggle"] = "true"
+                j += 1
+
+                # Median
+                df_graphers.loc[
+                    j, "title"
+                ] = f"Median {welfare['welfare_type'][wel]} ({welfare['title'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+                df_graphers.loc[
+                    j, "ySlugs"
+                ] = f"median_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
+                df_graphers.loc[j, "Metric Dropdown"] = "Median income or consumption"
+                df_graphers.loc[j, "Decile Dropdown"] = np.nan
+                df_graphers.loc[
+                    j, "Welfare type Dropdown"
+                ] = f"{welfare['dropdown_option'][wel]}"
+                df_graphers.loc[j, "Equivalence scale Dropdown"] = equivalence_scales[
+                    "text"
+                ][eq].capitalize()
+                df_graphers.loc[j, "Relative change Checkbox"] = rel_toggle
+                df_graphers.loc[
+                    j, "subtitle"
+                ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]}"
+                df_graphers.loc[
+                    j, "note"
+                ] = f"This data is measured in international-$ at 2017 prices."
+                df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
+                df_graphers.loc[j, "hasMapTab"] = "true"
+                df_graphers.loc[j, "tab"] = "map"
+                df_graphers.loc[j, "yScaleToggle"] = "true"
+                j += 1
+
+                # Thresholds - Deciles
+                for dec9 in range(len(deciles9)):
+                    df_graphers.loc[
+                        j, "title"
+                    ] = f"Threshold {welfare['welfare_type'][wel]} marking the {deciles9['ordinal'][dec9]} ({welfare['title'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+                    df_graphers.loc[
+                        j, "ySlugs"
+                    ] = f"thr_{deciles9['lis_notation'][dec9]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
+                    df_graphers.loc[j, "Metric Dropdown"] = "Decile thresholds"
+                    df_graphers.loc[j, "Decile Dropdown"] = deciles9["dropdown"][dec9]
+                    df_graphers.loc[
+                        j, "Welfare type Dropdown"
+                    ] = f"{welfare['dropdown_option'][wel]}"
+                    df_graphers.loc[
+                        j, "Equivalence scale Dropdown"
+                    ] = equivalence_scales["text"][eq].capitalize()
+                    df_graphers.loc[j, "Relative change Checkbox"] = rel_toggle
+                    df_graphers.loc[
+                        j, "subtitle"
+                    ] = f"This is the level of {welfare['welfare_type'][wel]} below which {deciles9['decile'][dec9]}0% of the population falls. {welfare['subtitle'][wel]}"
+                    df_graphers.loc[
+                        j, "note"
+                    ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+                    df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
+                    df_graphers.loc[j, "hasMapTab"] = "true"
+                    df_graphers.loc[j, "tab"] = "map"
+                    df_graphers.loc[j, "yScaleToggle"] = "true"
+                    j += 1
+
+                # Averages - Deciles
+                for dec10 in range(len(deciles10)):
+                    df_graphers.loc[
+                        j, "title"
+                    ] = f"Mean {welfare['welfare_type'][wel]} within the {deciles10['ordinal'][dec10]} ({welfare['title'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+                    df_graphers.loc[
+                        j, "ySlugs"
+                    ] = f"avg_{deciles10['lis_notation'][dec10]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
+                    df_graphers.loc[
+                        j, "Metric Dropdown"
+                    ] = "Mean income or consumption, by decile"
+                    df_graphers.loc[j, "Decile Dropdown"] = deciles10["dropdown"][dec10]
+                    df_graphers.loc[
+                        j, "Welfare type Dropdown"
+                    ] = f"{welfare['dropdown_option'][wel]}"
+                    df_graphers.loc[
+                        j, "Equivalence scale Dropdown"
+                    ] = equivalence_scales["text"][eq].capitalize()
+                    df_graphers.loc[j, "Relative change Checkbox"] = rel_toggle
+                    df_graphers.loc[
+                        j, "subtitle"
+                    ] = f"This is the mean {welfare['welfare_type'][wel]} within the {deciles10['ordinal'][dec10]} (tenth of the population). {welfare['subtitle'][wel]}"
+                    df_graphers.loc[
+                        j, "note"
+                    ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+                    df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
+                    df_graphers.loc[j, "hasMapTab"] = "true"
+                    df_graphers.loc[j, "tab"] = "map"
+                    df_graphers.loc[j, "yScaleToggle"] = "true"
+                    j += 1
+
+                # Shares - Deciles
+                for dec10 in range(len(deciles10)):
+                    df_graphers.loc[
+                        j, "title"
+                    ] = f"{welfare['welfare_type'][wel].capitalize()} share of the {deciles10['ordinal'][dec10]} ({welfare['title'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+                    df_graphers.loc[
+                        j, "ySlugs"
+                    ] = f"share_{deciles10['lis_notation'][dec10]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
+                    df_graphers.loc[j, "Metric Dropdown"] = "Decile shares"
+                    df_graphers.loc[j, "Decile Dropdown"] = deciles10["dropdown"][dec10]
+                    df_graphers.loc[
+                        j, "Welfare type Dropdown"
+                    ] = f"{welfare['dropdown_option'][wel]}"
+                    df_graphers.loc[
+                        j, "Equivalence scale Dropdown"
+                    ] = equivalence_scales["text"][eq].capitalize()
+                    df_graphers.loc[j, "Relative change Checkbox"] = rel_toggle
+                    df_graphers.loc[
+                        j, "subtitle"
+                    ] = f"This is the {welfare['welfare_type'][wel]} of the {deciles10['ordinal'][dec10]} (tenth of the population) as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
+                    df_graphers.loc[j, "note"] = np.nan
+                    df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
+                    df_graphers.loc[j, "hasMapTab"] = "true"
+                    df_graphers.loc[j, "tab"] = "map"
+                    j += 1
+
+                # Thresholds - Multiple deciles
+                df_graphers.loc[
+                    j, "title"
+                ] = f"Threshold {welfare['welfare_type'][wel]} for each decile ({welfare['title'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+                df_graphers.loc[
+                    j, "ySlugs"
+                ] = f"thr_p10_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} thr_p20_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} thr_p30_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} thr_p40_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} thr_p50_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} thr_p60_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} thr_p70_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} thr_p80_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} thr_p90_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
+                df_graphers.loc[j, "Metric Dropdown"] = "Decile thresholds"
+                df_graphers.loc[j, "Decile Dropdown"] = "All deciles"
+                df_graphers.loc[
+                    j, "Welfare type Dropdown"
+                ] = f"{welfare['dropdown_option'][wel]}"
+                df_graphers.loc[j, "Equivalence scale Dropdown"] = equivalence_scales[
+                    "text"
+                ][eq].capitalize()
+                df_graphers.loc[j, "Relative change Checkbox"] = rel_toggle
+                df_graphers.loc[
+                    j, "subtitle"
+                ] = f"This is the level of income or consumption per year below which 10%, 20%, 30%, etc. of the population falls. {welfare['subtitle'][wel]}"
+                df_graphers.loc[
+                    j, "note"
+                ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+                df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
+                df_graphers.loc[j, "hasMapTab"] = "false"
+                df_graphers.loc[j, "tab"] = "chart"
+                df_graphers.loc[j, "yScaleToggle"] = "true"
+                j += 1
+
+                # Averages - Multiple deciles
+                df_graphers.loc[
+                    j, "title"
+                ] = f"Mean {welfare['welfare_type'][wel]} within each decile ({welfare['title'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+                df_graphers.loc[
+                    j, "ySlugs"
+                ] = f"avg_p10_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} avg_p20_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} avg_p30_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} avg_p40_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} avg_p50_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} avg_p60_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} avg_p70_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} avg_p80_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} avg_p90_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} avg_p100_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
+                df_graphers.loc[
+                    j, "Metric Dropdown"
+                ] = "Mean income or consumption, by decile"
+                df_graphers.loc[j, "Decile Dropdown"] = "All deciles"
+                df_graphers.loc[
+                    j, "Welfare type Dropdown"
+                ] = f"{welfare['dropdown_option'][wel]}"
+                df_graphers.loc[j, "Equivalence scale Dropdown"] = equivalence_scales[
+                    "text"
+                ][eq].capitalize()
+                df_graphers.loc[j, "Relative change Checkbox"] = rel_toggle
+                df_graphers.loc[
+                    j, "subtitle"
+                ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]}"
+                df_graphers.loc[
+                    j, "note"
+                ] = f"This data is measured in international-$ at 2017 prices."
+                df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
+                df_graphers.loc[j, "hasMapTab"] = "false"
+                df_graphers.loc[j, "tab"] = "chart"
+                df_graphers.loc[j, "yScaleToggle"] = "true"
+                j += 1
+
+                # Shares - Multiple deciles
+                df_graphers.loc[
+                    j, "title"
+                ] = f"{welfare['welfare_type'][wel].capitalize()} share for each decile ({welfare['title'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+                df_graphers.loc[
+                    j, "ySlugs"
+                ] = f"share_p10_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p20_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p30_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p40_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p50_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p60_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p70_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p80_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p90_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p100_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
+                df_graphers.loc[j, "Metric Dropdown"] = "Decile shares"
+                df_graphers.loc[j, "Decile Dropdown"] = "All deciles"
+                df_graphers.loc[
+                    j, "Welfare type Dropdown"
+                ] = f"{welfare['dropdown_option'][wel]}"
+                df_graphers.loc[j, "Equivalence scale Dropdown"] = equivalence_scales[
+                    "text"
+                ][eq].capitalize()
+                df_graphers.loc[j, "Relative change Checkbox"] = rel_toggle
+                df_graphers.loc[
+                    j, "subtitle"
+                ] = f"This is the {welfare['welfare_type'][wel]} of each decile (tenth of the population) as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
+                df_graphers.loc[j, "note"] = np.nan
+                df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
+                df_graphers.loc[j, "hasMapTab"] = "false"
+                df_graphers.loc[j, "tab"] = "chart"
+                j += 1
+
+            # Compare equivalence scales
             # Mean
             df_graphers.loc[
                 j, "title"
-            ] = f"Mean {welfare['welfare_type'][wel]} ({welfare['title'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+            ] = f"Mean {welfare['welfare_type'][wel]} ({welfare['title'][wel].capitalize()}, equivalized vs. per capita)"
             df_graphers.loc[
                 j, "ySlugs"
-            ] = f"mean_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
+            ] = f"mean_{welfare['slug'][wel]}_eq mean_{welfare['slug'][wel]}_pc"
             df_graphers.loc[j, "Metric Dropdown"] = "Mean income or consumption"
             df_graphers.loc[j, "Decile Dropdown"] = np.nan
             df_graphers.loc[
                 j, "Welfare type Dropdown"
             ] = f"{welfare['dropdown_option'][wel]}"
-            df_graphers.loc[j, "Equivalence scale Dropdown"] = equivalence_scales[
-                "text"
-            ][eq].capitalize()
+            df_graphers.loc[
+                j, "Equivalence scale Dropdown"
+            ] = "Equivalized vs. per capita"
+            df_graphers.loc[j, "Relative change Checkbox"] = rel_toggle
             df_graphers.loc[
                 j, "subtitle"
             ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]}"
             df_graphers.loc[
                 j, "note"
             ] = f"This data is measured in international-$ at 2017 prices."
-            df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
-            df_graphers.loc[j, "hasMapTab"] = "true"
-            df_graphers.loc[j, "tab"] = "map"
+            df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
+            df_graphers.loc[j, "hasMapTab"] = "false"
+            df_graphers.loc[j, "tab"] = "chart"
             df_graphers.loc[j, "yScaleToggle"] = "true"
             j += 1
 
             # Median
             df_graphers.loc[
                 j, "title"
-            ] = f"Median {welfare['welfare_type'][wel]} ({welfare['title'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+            ] = f"Median {welfare['welfare_type'][wel]} ({welfare['title'][wel].capitalize()}, equivalized vs. per capita)"
             df_graphers.loc[
                 j, "ySlugs"
-            ] = f"median_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
+            ] = f"median_{welfare['slug'][wel]}_eq median_{welfare['slug'][wel]}_pc"
             df_graphers.loc[j, "Metric Dropdown"] = "Median income or consumption"
             df_graphers.loc[j, "Decile Dropdown"] = np.nan
             df_graphers.loc[
                 j, "Welfare type Dropdown"
             ] = f"{welfare['dropdown_option'][wel]}"
-            df_graphers.loc[j, "Equivalence scale Dropdown"] = equivalence_scales[
-                "text"
-            ][eq].capitalize()
+            df_graphers.loc[
+                j, "Equivalence scale Dropdown"
+            ] = "Equivalized vs. per capita"
+            df_graphers.loc[j, "Relative change Checkbox"] = rel_toggle
             df_graphers.loc[
                 j, "subtitle"
             ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]}"
             df_graphers.loc[
                 j, "note"
             ] = f"This data is measured in international-$ at 2017 prices."
-            df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
-            df_graphers.loc[j, "hasMapTab"] = "true"
-            df_graphers.loc[j, "tab"] = "map"
+            df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
+            df_graphers.loc[j, "hasMapTab"] = "false"
+            df_graphers.loc[j, "tab"] = "chart"
             df_graphers.loc[j, "yScaleToggle"] = "true"
             j += 1
 
@@ -291,27 +520,28 @@ for tab in range(len(tables)):
             for dec9 in range(len(deciles9)):
                 df_graphers.loc[
                     j, "title"
-                ] = f"Threshold {welfare['welfare_type'][wel]} marking the {deciles9['ordinal'][dec9]} ({welfare['title'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+                ] = f"Threshold {welfare['welfare_type'][wel]} marking the {deciles9['ordinal'][dec9]} ({welfare['title'][wel].capitalize()}, equivalized vs. per capita)"
                 df_graphers.loc[
                     j, "ySlugs"
-                ] = f"thr_{deciles9['lis_notation'][dec9]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
+                ] = f"thr_{deciles9['lis_notation'][dec9]}_{welfare['slug'][wel]}_eq thr_{deciles9['lis_notation'][dec9]}_{welfare['slug'][wel]}_pc"
                 df_graphers.loc[j, "Metric Dropdown"] = "Decile thresholds"
                 df_graphers.loc[j, "Decile Dropdown"] = deciles9["dropdown"][dec9]
                 df_graphers.loc[
                     j, "Welfare type Dropdown"
                 ] = f"{welfare['dropdown_option'][wel]}"
-                df_graphers.loc[j, "Equivalence scale Dropdown"] = equivalence_scales[
-                    "text"
-                ][eq].capitalize()
+                df_graphers.loc[
+                    j, "Equivalence scale Dropdown"
+                ] = "Equivalized vs. per capita"
+                df_graphers.loc[j, "Relative change Checkbox"] = rel_toggle
                 df_graphers.loc[
                     j, "subtitle"
                 ] = f"This is the level of {welfare['welfare_type'][wel]} below which {deciles9['decile'][dec9]}0% of the population falls. {welfare['subtitle'][wel]}"
                 df_graphers.loc[
                     j, "note"
                 ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
-                df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
-                df_graphers.loc[j, "hasMapTab"] = "true"
-                df_graphers.loc[j, "tab"] = "map"
+                df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
+                df_graphers.loc[j, "hasMapTab"] = "false"
+                df_graphers.loc[j, "tab"] = "chart"
                 df_graphers.loc[j, "yScaleToggle"] = "true"
                 j += 1
 
@@ -319,10 +549,10 @@ for tab in range(len(tables)):
             for dec10 in range(len(deciles10)):
                 df_graphers.loc[
                     j, "title"
-                ] = f"Mean {welfare['welfare_type'][wel]} within the {deciles10['ordinal'][dec10]} ({welfare['title'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+                ] = f"Mean {welfare['welfare_type'][wel]} within the {deciles10['ordinal'][dec10]} ({welfare['title'][wel].capitalize()}, equivalized vs. per capita)"
                 df_graphers.loc[
                     j, "ySlugs"
-                ] = f"avg_{deciles10['lis_notation'][dec10]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
+                ] = f"avg_{deciles10['lis_notation'][dec10]}_{welfare['slug'][wel]}_eq avg_{deciles10['lis_notation'][dec10]}_{welfare['slug'][wel]}_pc"
                 df_graphers.loc[
                     j, "Metric Dropdown"
                 ] = "Mean income or consumption, by decile"
@@ -330,18 +560,19 @@ for tab in range(len(tables)):
                 df_graphers.loc[
                     j, "Welfare type Dropdown"
                 ] = f"{welfare['dropdown_option'][wel]}"
-                df_graphers.loc[j, "Equivalence scale Dropdown"] = equivalence_scales[
-                    "text"
-                ][eq].capitalize()
+                df_graphers.loc[
+                    j, "Equivalence scale Dropdown"
+                ] = "Equivalized vs. per capita"
+                df_graphers.loc[j, "Relative change Checkbox"] = rel_toggle
                 df_graphers.loc[
                     j, "subtitle"
                 ] = f"This is the mean {welfare['welfare_type'][wel]} within the {deciles10['ordinal'][dec10]} (tenth of the population). {welfare['subtitle'][wel]}"
                 df_graphers.loc[
                     j, "note"
                 ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
-                df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
-                df_graphers.loc[j, "hasMapTab"] = "true"
-                df_graphers.loc[j, "tab"] = "map"
+                df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
+                df_graphers.loc[j, "hasMapTab"] = "false"
+                df_graphers.loc[j, "tab"] = "chart"
                 df_graphers.loc[j, "yScaleToggle"] = "true"
                 j += 1
 
@@ -349,240 +580,27 @@ for tab in range(len(tables)):
             for dec10 in range(len(deciles10)):
                 df_graphers.loc[
                     j, "title"
-                ] = f"{welfare['welfare_type'][wel].capitalize()} share of the {deciles10['ordinal'][dec10]} ({welfare['title'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+                ] = f"{welfare['welfare_type'][wel].capitalize()} share of the {deciles10['ordinal'][dec10]} ({welfare['title'][wel].capitalize()}, equivalized vs. per capita)"
                 df_graphers.loc[
                     j, "ySlugs"
-                ] = f"share_{deciles10['lis_notation'][dec10]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
+                ] = f"share_{deciles10['lis_notation'][dec10]}_{welfare['slug'][wel]}_eq share_{deciles10['lis_notation'][dec10]}_{welfare['slug'][wel]}_pc"
                 df_graphers.loc[j, "Metric Dropdown"] = "Decile shares"
                 df_graphers.loc[j, "Decile Dropdown"] = deciles10["dropdown"][dec10]
                 df_graphers.loc[
                     j, "Welfare type Dropdown"
                 ] = f"{welfare['dropdown_option'][wel]}"
-                df_graphers.loc[j, "Equivalence scale Dropdown"] = equivalence_scales[
-                    "text"
-                ][eq].capitalize()
+                df_graphers.loc[
+                    j, "Equivalence scale Dropdown"
+                ] = "Equivalized vs. per capita"
+                df_graphers.loc[j, "Relative change Checkbox"] = rel_toggle
                 df_graphers.loc[
                     j, "subtitle"
                 ] = f"This is the {welfare['welfare_type'][wel]} of the {deciles10['ordinal'][dec10]} (tenth of the population) as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
                 df_graphers.loc[j, "note"] = np.nan
-                df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
-                df_graphers.loc[j, "hasMapTab"] = "true"
-                df_graphers.loc[j, "tab"] = "map"
+                df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
+                df_graphers.loc[j, "hasMapTab"] = "false"
+                df_graphers.loc[j, "tab"] = "chart"
                 j += 1
-
-            # Thresholds - Multiple deciles
-            df_graphers.loc[
-                j, "title"
-            ] = f"Threshold {welfare['welfare_type'][wel]} for each decile ({welfare['title'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
-            df_graphers.loc[
-                j, "ySlugs"
-            ] = f"thr_p10_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} thr_p20_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} thr_p30_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} thr_p40_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} thr_p50_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} thr_p60_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} thr_p70_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} thr_p80_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} thr_p90_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
-            df_graphers.loc[j, "Metric Dropdown"] = "Decile thresholds"
-            df_graphers.loc[j, "Decile Dropdown"] = "All deciles"
-            df_graphers.loc[
-                j, "Welfare type Dropdown"
-            ] = f"{welfare['dropdown_option'][wel]}"
-            df_graphers.loc[j, "Equivalence scale Dropdown"] = equivalence_scales[
-                "text"
-            ][eq].capitalize()
-            df_graphers.loc[
-                j, "subtitle"
-            ] = f"This is the level of income or consumption per year below which 10%, 20%, 30%, etc. of the population falls. {welfare['subtitle'][wel]}"
-            df_graphers.loc[
-                j, "note"
-            ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
-            df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
-            df_graphers.loc[j, "hasMapTab"] = "false"
-            df_graphers.loc[j, "tab"] = "chart"
-            df_graphers.loc[j, "yScaleToggle"] = "true"
-            j += 1
-
-            # Averages - Multiple deciles
-            df_graphers.loc[
-                j, "title"
-            ] = f"Mean {welfare['welfare_type'][wel]} within each decile ({welfare['title'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
-            df_graphers.loc[
-                j, "ySlugs"
-            ] = f"avg_p10_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} avg_p20_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} avg_p30_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} avg_p40_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} avg_p50_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} avg_p60_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} avg_p70_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} avg_p80_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} avg_p90_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} avg_p100_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
-            df_graphers.loc[
-                j, "Metric Dropdown"
-            ] = "Mean income or consumption, by decile"
-            df_graphers.loc[j, "Decile Dropdown"] = "All deciles"
-            df_graphers.loc[
-                j, "Welfare type Dropdown"
-            ] = f"{welfare['dropdown_option'][wel]}"
-            df_graphers.loc[j, "Equivalence scale Dropdown"] = equivalence_scales[
-                "text"
-            ][eq].capitalize()
-            df_graphers.loc[
-                j, "subtitle"
-            ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]}"
-            df_graphers.loc[
-                j, "note"
-            ] = f"This data is measured in international-$ at 2017 prices."
-            df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
-            df_graphers.loc[j, "hasMapTab"] = "false"
-            df_graphers.loc[j, "tab"] = "chart"
-            df_graphers.loc[j, "yScaleToggle"] = "true"
-            j += 1
-
-            # Shares - Multiple deciles
-            df_graphers.loc[
-                j, "title"
-            ] = f"{welfare['welfare_type'][wel].capitalize()} share for each decile ({welfare['title'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
-            df_graphers.loc[
-                j, "ySlugs"
-            ] = f"share_p10_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p20_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p30_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p40_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p50_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p60_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p70_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p80_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p90_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p100_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
-            df_graphers.loc[j, "Metric Dropdown"] = "Decile shares"
-            df_graphers.loc[j, "Decile Dropdown"] = "All deciles"
-            df_graphers.loc[
-                j, "Welfare type Dropdown"
-            ] = f"{welfare['dropdown_option'][wel]}"
-            df_graphers.loc[j, "Equivalence scale Dropdown"] = equivalence_scales[
-                "text"
-            ][eq].capitalize()
-            df_graphers.loc[
-                j, "subtitle"
-            ] = f"This is the {welfare['welfare_type'][wel]} of each decile (tenth of the population) as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
-            df_graphers.loc[j, "note"] = np.nan
-            df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
-            df_graphers.loc[j, "hasMapTab"] = "false"
-            df_graphers.loc[j, "tab"] = "chart"
-            j += 1
-
-        # Compare equivalence scales
-        # Mean
-        df_graphers.loc[
-            j, "title"
-        ] = f"Mean {welfare['welfare_type'][wel]} ({welfare['title'][wel].capitalize()}, equivalized vs. per capita)"
-        df_graphers.loc[
-            j, "ySlugs"
-        ] = f"mean_{welfare['slug'][wel]}_eq mean_{welfare['slug'][wel]}_pc"
-        df_graphers.loc[j, "Metric Dropdown"] = "Mean income or consumption"
-        df_graphers.loc[j, "Decile Dropdown"] = np.nan
-        df_graphers.loc[
-            j, "Welfare type Dropdown"
-        ] = f"{welfare['dropdown_option'][wel]}"
-        df_graphers.loc[j, "Equivalence scale Dropdown"] = "Equivalized vs. per capita"
-        df_graphers.loc[
-            j, "subtitle"
-        ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]}"
-        df_graphers.loc[
-            j, "note"
-        ] = f"This data is measured in international-$ at 2017 prices."
-        df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
-        df_graphers.loc[j, "hasMapTab"] = "false"
-        df_graphers.loc[j, "tab"] = "chart"
-        df_graphers.loc[j, "yScaleToggle"] = "true"
-        j += 1
-
-        # Median
-        df_graphers.loc[
-            j, "title"
-        ] = f"Median {welfare['welfare_type'][wel]} ({welfare['title'][wel].capitalize()}, equivalized vs. per capita)"
-        df_graphers.loc[
-            j, "ySlugs"
-        ] = f"median_{welfare['slug'][wel]}_eq median_{welfare['slug'][wel]}_pc"
-        df_graphers.loc[j, "Metric Dropdown"] = "Median income or consumption"
-        df_graphers.loc[j, "Decile Dropdown"] = np.nan
-        df_graphers.loc[
-            j, "Welfare type Dropdown"
-        ] = f"{welfare['dropdown_option'][wel]}"
-        df_graphers.loc[j, "Equivalence scale Dropdown"] = "Equivalized vs. per capita"
-        df_graphers.loc[
-            j, "subtitle"
-        ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]}"
-        df_graphers.loc[
-            j, "note"
-        ] = f"This data is measured in international-$ at 2017 prices."
-        df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
-        df_graphers.loc[j, "hasMapTab"] = "false"
-        df_graphers.loc[j, "tab"] = "chart"
-        df_graphers.loc[j, "yScaleToggle"] = "true"
-        j += 1
-
-        # Thresholds - Deciles
-        for dec9 in range(len(deciles9)):
-            df_graphers.loc[
-                j, "title"
-            ] = f"Threshold {welfare['welfare_type'][wel]} marking the {deciles9['ordinal'][dec9]} ({welfare['title'][wel].capitalize()}, equivalized vs. per capita)"
-            df_graphers.loc[
-                j, "ySlugs"
-            ] = f"thr_{deciles9['lis_notation'][dec9]}_{welfare['slug'][wel]}_eq thr_{deciles9['lis_notation'][dec9]}_{welfare['slug'][wel]}_pc"
-            df_graphers.loc[j, "Metric Dropdown"] = "Decile thresholds"
-            df_graphers.loc[j, "Decile Dropdown"] = deciles9["dropdown"][dec9]
-            df_graphers.loc[
-                j, "Welfare type Dropdown"
-            ] = f"{welfare['dropdown_option'][wel]}"
-            df_graphers.loc[
-                j, "Equivalence scale Dropdown"
-            ] = "Equivalized vs. per capita"
-            df_graphers.loc[
-                j, "subtitle"
-            ] = f"This is the level of {welfare['welfare_type'][wel]} below which {deciles9['decile'][dec9]}0% of the population falls. {welfare['subtitle'][wel]}"
-            df_graphers.loc[
-                j, "note"
-            ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
-            df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
-            df_graphers.loc[j, "hasMapTab"] = "false"
-            df_graphers.loc[j, "tab"] = "chart"
-            df_graphers.loc[j, "yScaleToggle"] = "true"
-            j += 1
-
-        # Averages - Deciles
-        for dec10 in range(len(deciles10)):
-            df_graphers.loc[
-                j, "title"
-            ] = f"Mean {welfare['welfare_type'][wel]} within the {deciles10['ordinal'][dec10]} ({welfare['title'][wel].capitalize()}, equivalized vs. per capita)"
-            df_graphers.loc[
-                j, "ySlugs"
-            ] = f"avg_{deciles10['lis_notation'][dec10]}_{welfare['slug'][wel]}_eq avg_{deciles10['lis_notation'][dec10]}_{welfare['slug'][wel]}_pc"
-            df_graphers.loc[
-                j, "Metric Dropdown"
-            ] = "Mean income or consumption, by decile"
-            df_graphers.loc[j, "Decile Dropdown"] = deciles10["dropdown"][dec10]
-            df_graphers.loc[
-                j, "Welfare type Dropdown"
-            ] = f"{welfare['dropdown_option'][wel]}"
-            df_graphers.loc[
-                j, "Equivalence scale Dropdown"
-            ] = "Equivalized vs. per capita"
-            df_graphers.loc[
-                j, "subtitle"
-            ] = f"This is the mean {welfare['welfare_type'][wel]} within the {deciles10['ordinal'][dec10]} (tenth of the population). {welfare['subtitle'][wel]}"
-            df_graphers.loc[
-                j, "note"
-            ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
-            df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
-            df_graphers.loc[j, "hasMapTab"] = "false"
-            df_graphers.loc[j, "tab"] = "chart"
-            df_graphers.loc[j, "yScaleToggle"] = "true"
-            j += 1
-
-        # Shares - Deciles
-        for dec10 in range(len(deciles10)):
-            df_graphers.loc[
-                j, "title"
-            ] = f"{welfare['welfare_type'][wel].capitalize()} share of the {deciles10['ordinal'][dec10]} ({welfare['title'][wel].capitalize()}, equivalized vs. per capita)"
-            df_graphers.loc[
-                j, "ySlugs"
-            ] = f"share_{deciles10['lis_notation'][dec10]}_{welfare['slug'][wel]}_eq share_{deciles10['lis_notation'][dec10]}_{welfare['slug'][wel]}_pc"
-            df_graphers.loc[j, "Metric Dropdown"] = "Decile shares"
-            df_graphers.loc[j, "Decile Dropdown"] = deciles10["dropdown"][dec10]
-            df_graphers.loc[
-                j, "Welfare type Dropdown"
-            ] = f"{welfare['dropdown_option'][wel]}"
-            df_graphers.loc[
-                j, "Equivalence scale Dropdown"
-            ] = "Equivalized vs. per capita"
-            df_graphers.loc[
-                j, "subtitle"
-            ] = f"This is the {welfare['welfare_type'][wel]} of the {deciles10['ordinal'][dec10]} (tenth of the population) as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
-            df_graphers.loc[j, "note"] = np.nan
-            df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
-            df_graphers.loc[j, "hasMapTab"] = "false"
-            df_graphers.loc[j, "tab"] = "chart"
-            j += 1
 
     df_graphers["tableSlug"] = tables["name"][tab]
 
@@ -606,7 +624,8 @@ df_graphers.loc[
     (df_graphers["Metric Dropdown"] == "Decile thresholds")
     & (df_graphers["Welfare type Dropdown"] == "Income before tax")
     & (df_graphers["Equivalence scale Dropdown"] == "Equivalized")
-    & (df_graphers["Decile Dropdown"] == "All deciles"),
+    & (df_graphers["Decile Dropdown"] == "All deciles")
+    & (df_graphers["Relative change Checkbox"] == "absolute"),
     ["defaultView"],
 ] = "true"
 
