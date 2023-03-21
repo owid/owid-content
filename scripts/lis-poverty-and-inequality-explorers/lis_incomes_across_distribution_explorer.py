@@ -54,7 +54,7 @@ top_pct = pd.read_csv(url, keep_default_na=False)
 # Relative toggle (to switch between absolute and relative values)
 sheet_name = "relative_toggle"
 url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
-relative_toggle = pd.read_csv(url, keep_default_na=False)
+relative_toggle = pd.read_csv(url, keep_default_na=False, dtype={"checkbox": "str"})
 
 # %% [markdown]
 # ## Header
@@ -699,7 +699,7 @@ df_graphers.loc[
     & (df_graphers["Welfare type Dropdown"] == "Income before tax")
     & (df_graphers["Equivalence scale Dropdown"] == "Equivalized")
     & (df_graphers["Decile Dropdown"] == "All deciles")
-    & (df_graphers["Relative change Checkbox"] == "absolute"),
+    & (df_graphers["Relative change Checkbox"] == "false"),
     ["defaultView"],
 ] = "true"
 
