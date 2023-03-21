@@ -6,14 +6,12 @@ isPublished	false
 
 
 graphers
-	title	ySlugs	subtitle	type	Metric Radio	Stacked Checkbox	stackMode	defaultView
-	Messages per day	messages_in_public_channels_smooth messages_in_private_channels_smooth messages_in_shared_channels_smooth messages_in_dms_smooth	14-day average	StackedArea	Messages	false	absolute
-	Messages per day	messages_in_public_channels_smooth messages_in_private_channels_smooth messages_in_shared_channels_smooth messages_in_dms_smooth	14-day average	StackedArea	Messages	true	relative
+	title	ySlugs	subtitle	type	Metric Radio	Stacked Checkbox	stackMode	tableSlug
+	Messages per day	messages_in_public_channels_smooth messages_in_private_channels_smooth messages_in_shared_channels_smooth messages_in_dms_smooth	14-day average	StackedArea	Messages	false	absolute	messages
+	Messages per day	messages_in_public_channels_smooth messages_in_private_channels_smooth messages_in_shared_channels_smooth messages_in_dms_smooth	14-day average	StackedArea	Messages	true	relative	messages
 
-
-
-table	https://owid-public.nyc3.digitaloceanspaces.com/owid-slack-analytics-2022-05-05.csv
-columns
+table	https://owid-public.nyc3.digitaloceanspaces.com/owid-slack-analytics-2022-05-05.csv	messages
+columns	messages
 	slug	type	name	unit	shortUnit	transform
 	date	Date	Date
 	entity	EntityName	Entity
