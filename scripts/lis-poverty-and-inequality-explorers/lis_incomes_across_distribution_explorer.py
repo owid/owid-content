@@ -51,6 +51,11 @@ sheet_name = "top_pct"
 url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
 top_pct = pd.read_csv(url, keep_default_na=False)
 
+# Relative toggle (to switch between absolute and relative values)
+sheet_name = "relative_toggle"
+url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
+relative_toggle = pd.read_csv(url, keep_default_na=False)
+
 # %% [markdown]
 # ## Header
 # General settings of the explorer are defined here, like the title, subtitle, default country selection, publishing status and others.
@@ -233,7 +238,7 @@ j = 0
 for tab in range(len(tables)):
     for wel in range(len(welfare)):
         for eq in range(len(equivalence_scales)):
-            for rel_toggle in ["absolute", "relative"]:
+            for rel_toggle in range(len(relative_toggle)):
                 # Mean
                 df_graphers.loc[
                     j, "title"
@@ -249,7 +254,12 @@ for tab in range(len(tables)):
                 df_graphers.loc[j, "Equivalence scale Dropdown"] = equivalence_scales[
                     "text"
                 ][eq].capitalize()
-                df_graphers.loc[j, "Relative change Checkbox"] = rel_toggle
+                df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
+                    "checkbox"
+                ][rel_toggle]
+                df_graphers.loc[j, "stackMode"] = relative_toggle["stack_mode"][
+                    rel_toggle
+                ]
                 df_graphers.loc[
                     j, "subtitle"
                 ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]}"
@@ -277,7 +287,12 @@ for tab in range(len(tables)):
                 df_graphers.loc[j, "Equivalence scale Dropdown"] = equivalence_scales[
                     "text"
                 ][eq].capitalize()
-                df_graphers.loc[j, "Relative change Checkbox"] = rel_toggle
+                df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
+                    "checkbox"
+                ][rel_toggle]
+                df_graphers.loc[j, "stackMode"] = relative_toggle["stack_mode"][
+                    rel_toggle
+                ]
                 df_graphers.loc[
                     j, "subtitle"
                 ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]}"
@@ -306,7 +321,12 @@ for tab in range(len(tables)):
                     df_graphers.loc[
                         j, "Equivalence scale Dropdown"
                     ] = equivalence_scales["text"][eq].capitalize()
-                    df_graphers.loc[j, "Relative change Checkbox"] = rel_toggle
+                    df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
+                        "checkbox"
+                    ][rel_toggle]
+                    df_graphers.loc[j, "stackMode"] = relative_toggle["stack_mode"][
+                        rel_toggle
+                    ]
                     df_graphers.loc[
                         j, "subtitle"
                     ] = f"This is the level of {welfare['welfare_type'][wel]} below which {deciles9['decile'][dec9]}0% of the population falls. {welfare['subtitle'][wel]}"
@@ -337,7 +357,12 @@ for tab in range(len(tables)):
                     df_graphers.loc[
                         j, "Equivalence scale Dropdown"
                     ] = equivalence_scales["text"][eq].capitalize()
-                    df_graphers.loc[j, "Relative change Checkbox"] = rel_toggle
+                    df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
+                        "checkbox"
+                    ][rel_toggle]
+                    df_graphers.loc[j, "stackMode"] = relative_toggle["stack_mode"][
+                        rel_toggle
+                    ]
                     df_graphers.loc[
                         j, "subtitle"
                     ] = f"This is the mean {welfare['welfare_type'][wel]} within the {deciles10['ordinal'][dec10]} (tenth of the population). {welfare['subtitle'][wel]}"
@@ -366,7 +391,12 @@ for tab in range(len(tables)):
                     df_graphers.loc[
                         j, "Equivalence scale Dropdown"
                     ] = equivalence_scales["text"][eq].capitalize()
-                    df_graphers.loc[j, "Relative change Checkbox"] = rel_toggle
+                    df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
+                        "checkbox"
+                    ][rel_toggle]
+                    df_graphers.loc[j, "stackMode"] = relative_toggle["stack_mode"][
+                        rel_toggle
+                    ]
                     df_graphers.loc[
                         j, "subtitle"
                     ] = f"This is the {welfare['welfare_type'][wel]} of the {deciles10['ordinal'][dec10]} (tenth of the population) as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
@@ -391,7 +421,12 @@ for tab in range(len(tables)):
                 df_graphers.loc[j, "Equivalence scale Dropdown"] = equivalence_scales[
                     "text"
                 ][eq].capitalize()
-                df_graphers.loc[j, "Relative change Checkbox"] = rel_toggle
+                df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
+                    "checkbox"
+                ][rel_toggle]
+                df_graphers.loc[j, "stackMode"] = relative_toggle["stack_mode"][
+                    rel_toggle
+                ]
                 df_graphers.loc[
                     j, "subtitle"
                 ] = f"This is the level of income or consumption per year below which 10%, 20%, 30%, etc. of the population falls. {welfare['subtitle'][wel]}"
@@ -421,7 +456,12 @@ for tab in range(len(tables)):
                 df_graphers.loc[j, "Equivalence scale Dropdown"] = equivalence_scales[
                     "text"
                 ][eq].capitalize()
-                df_graphers.loc[j, "Relative change Checkbox"] = rel_toggle
+                df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
+                    "checkbox"
+                ][rel_toggle]
+                df_graphers.loc[j, "stackMode"] = relative_toggle["stack_mode"][
+                    rel_toggle
+                ]
                 df_graphers.loc[
                     j, "subtitle"
                 ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]}"
@@ -449,7 +489,12 @@ for tab in range(len(tables)):
                 df_graphers.loc[j, "Equivalence scale Dropdown"] = equivalence_scales[
                     "text"
                 ][eq].capitalize()
-                df_graphers.loc[j, "Relative change Checkbox"] = rel_toggle
+                df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
+                    "checkbox"
+                ][rel_toggle]
+                df_graphers.loc[j, "stackMode"] = relative_toggle["stack_mode"][
+                    rel_toggle
+                ]
                 df_graphers.loc[
                     j, "subtitle"
                 ] = f"This is the {welfare['welfare_type'][wel]} of each decile (tenth of the population) as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
@@ -475,7 +520,10 @@ for tab in range(len(tables)):
             df_graphers.loc[
                 j, "Equivalence scale Dropdown"
             ] = "Equivalized vs. per capita"
-            df_graphers.loc[j, "Relative change Checkbox"] = rel_toggle
+            df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
+                "checkbox"
+            ][rel_toggle]
+            df_graphers.loc[j, "stackMode"] = relative_toggle["stack_mode"][rel_toggle]
             df_graphers.loc[
                 j, "subtitle"
             ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]}"
@@ -503,7 +551,10 @@ for tab in range(len(tables)):
             df_graphers.loc[
                 j, "Equivalence scale Dropdown"
             ] = "Equivalized vs. per capita"
-            df_graphers.loc[j, "Relative change Checkbox"] = rel_toggle
+            df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
+                "checkbox"
+            ][rel_toggle]
+            df_graphers.loc[j, "stackMode"] = relative_toggle["stack_mode"][rel_toggle]
             df_graphers.loc[
                 j, "subtitle"
             ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]}"
@@ -532,7 +583,12 @@ for tab in range(len(tables)):
                 df_graphers.loc[
                     j, "Equivalence scale Dropdown"
                 ] = "Equivalized vs. per capita"
-                df_graphers.loc[j, "Relative change Checkbox"] = rel_toggle
+                df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
+                    "checkbox"
+                ][rel_toggle]
+                df_graphers.loc[j, "stackMode"] = relative_toggle["stack_mode"][
+                    rel_toggle
+                ]
                 df_graphers.loc[
                     j, "subtitle"
                 ] = f"This is the level of {welfare['welfare_type'][wel]} below which {deciles9['decile'][dec9]}0% of the population falls. {welfare['subtitle'][wel]}"
@@ -563,7 +619,12 @@ for tab in range(len(tables)):
                 df_graphers.loc[
                     j, "Equivalence scale Dropdown"
                 ] = "Equivalized vs. per capita"
-                df_graphers.loc[j, "Relative change Checkbox"] = rel_toggle
+                df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
+                    "checkbox"
+                ][rel_toggle]
+                df_graphers.loc[j, "stackMode"] = relative_toggle["stack_mode"][
+                    rel_toggle
+                ]
                 df_graphers.loc[
                     j, "subtitle"
                 ] = f"This is the mean {welfare['welfare_type'][wel]} within the {deciles10['ordinal'][dec10]} (tenth of the population). {welfare['subtitle'][wel]}"
@@ -592,7 +653,12 @@ for tab in range(len(tables)):
                 df_graphers.loc[
                     j, "Equivalence scale Dropdown"
                 ] = "Equivalized vs. per capita"
-                df_graphers.loc[j, "Relative change Checkbox"] = rel_toggle
+                df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
+                    "checkbox"
+                ][rel_toggle]
+                df_graphers.loc[j, "stackMode"] = relative_toggle["stack_mode"][
+                    rel_toggle
+                ]
                 df_graphers.loc[
                     j, "subtitle"
                 ] = f"This is the {welfare['welfare_type'][wel]} of the {deciles10['ordinal'][dec10]} (tenth of the population) as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
@@ -618,6 +684,14 @@ df_graphers["mapTargetTime"] = mapTargetTime
 
 # Make mapTargetTime integer (to not break the parameter in the platform)
 df_graphers["mapTargetTime"] = df_graphers["mapTargetTime"].astype("Int64")
+
+# Remove relative toggle values for shares
+df_graphers = df_graphers[
+    ~(
+        (df_graphers["Metric Dropdown"] == "Decile shares")
+        & (df_graphers["stackMode"] == "relative")
+    )
+]
 
 # Select one default view
 df_graphers.loc[
