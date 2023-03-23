@@ -1,11 +1,15 @@
 {
   "title": "Annual CO₂ emissions per capita",
-  "tags": [
-    "CO2 and greenhouse gas emissions"
+  "topicTagsLinks": [
+    {
+      "title": "CO2 and greenhouse gas emissions",
+      "url": "https://ourworldindata.org/co2-and-greenhouse-gaz-emissions"
+    }
   ],
   "sources": [
     {
-      "title": "Global Carbon Project",
+      "shortName":"Global Carbon Project",
+      "longName": "Global Carbon Project",
       "processingInfo": "Processing and <a href>substantial modifications</a> by Our World in Data.",
       "dateRange": "1974-2020",
       "lastUpdated": "2022-10-03",
