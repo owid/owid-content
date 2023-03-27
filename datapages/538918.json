@@ -4,6 +4,10 @@
         {
             "title": "CO2 and greenhouse gas emissions",
             "url": "https://ourworldindata.org/co2-and-greenhouse-gaz-emissions"
+        },
+        {
+            "title": "Climate change",
+            "url": "https://ourworldindata.org/climate-change"
         }
     ],
     "sourceShortName": "Global Carbon Project",
