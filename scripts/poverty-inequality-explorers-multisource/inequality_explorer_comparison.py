@@ -589,9 +589,13 @@ for tab in range(len(merged_tables)):
             view
         ].capitalize()
         df_graphers.loc[j, "Metric Dropdown"] = "Gini coefficient"
-        df_graphers.loc[j, "PIP Checkbox"] = source_checkbox["pip"][view]
-        df_graphers.loc[j, "WID Checkbox"] = source_checkbox["wid"][view]
-        df_graphers.loc[j, "LIS Checkbox"] = source_checkbox["lis"][view]
+        df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
+        df_graphers.loc[j, "World Inequality Database Checkbox"] = source_checkbox[
+            "wid"
+        ][view]
+        df_graphers.loc[j, "Luxembourg Income Study Checkbox"] = source_checkbox["lis"][
+            view
+        ]
         df_graphers.loc[
             j, "subtitle"
         ] = f"The Gini coefficient is a measure of the inequality of the income distribution in a population. Higher values indicate a higher level of inequality."
@@ -609,9 +613,13 @@ for tab in range(len(merged_tables)):
             view
         ].capitalize()
         df_graphers.loc[j, "Metric Dropdown"] = "Top 10% share"
-        df_graphers.loc[j, "PIP Checkbox"] = source_checkbox["pip"][view]
-        df_graphers.loc[j, "WID Checkbox"] = source_checkbox["wid"][view]
-        df_graphers.loc[j, "LIS Checkbox"] = source_checkbox["lis"][view]
+        df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
+        df_graphers.loc[j, "World Inequality Database Checkbox"] = source_checkbox[
+            "wid"
+        ][view]
+        df_graphers.loc[j, "Luxembourg Income Study Checkbox"] = source_checkbox["lis"][
+            view
+        ]
         df_graphers.loc[
             j, "subtitle"
         ] = f"This is the income of the richest 10% as a share of total income."
@@ -629,9 +637,13 @@ for tab in range(len(merged_tables)):
             view
         ].capitalize()
         df_graphers.loc[j, "Metric Dropdown"] = "Bottom 50% share"
-        df_graphers.loc[j, "PIP Checkbox"] = source_checkbox["pip"][view]
-        df_graphers.loc[j, "WID Checkbox"] = source_checkbox["wid"][view]
-        df_graphers.loc[j, "LIS Checkbox"] = source_checkbox["lis"][view]
+        df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
+        df_graphers.loc[j, "World Inequality Database Checkbox"] = source_checkbox[
+            "wid"
+        ][view]
+        df_graphers.loc[j, "Luxembourg Income Study Checkbox"] = source_checkbox["lis"][
+            view
+        ]
         df_graphers.loc[
             j, "subtitle"
         ] = f"This is the income of the poorest 50% as a share of total income."
@@ -648,9 +660,13 @@ for tab in range(len(merged_tables)):
             view
         ].capitalize()
         df_graphers.loc[j, "Metric Dropdown"] = "P90/P10"
-        df_graphers.loc[j, "PIP Checkbox"] = source_checkbox["pip"][view]
-        df_graphers.loc[j, "WID Checkbox"] = source_checkbox["wid"][view]
-        df_graphers.loc[j, "LIS Checkbox"] = source_checkbox["lis"][view]
+        df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
+        df_graphers.loc[j, "World Inequality Database Checkbox"] = source_checkbox[
+            "wid"
+        ][view]
+        df_graphers.loc[j, "Luxembourg Income Study Checkbox"] = source_checkbox["lis"][
+            view
+        ]
         df_graphers.loc[
             j, "subtitle"
         ] = f"P90 and P10 are the levels of income below which 90% and 10% of the population live, respectively. This variable gives the ratio of the two. It is a measure of inequality that indicates the gap between the richest and poorest tenth of the population."
@@ -668,9 +684,13 @@ for tab in range(len(merged_tables)):
             view
         ].capitalize()
         df_graphers.loc[j, "Metric Dropdown"] = "P90/P50"
-        df_graphers.loc[j, "PIP Checkbox"] = source_checkbox["pip"][view]
-        df_graphers.loc[j, "WID Checkbox"] = source_checkbox["wid"][view]
-        df_graphers.loc[j, "LIS Checkbox"] = source_checkbox["lis"][view]
+        df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
+        df_graphers.loc[j, "World Inequality Database Checkbox"] = source_checkbox[
+            "wid"
+        ][view]
+        df_graphers.loc[j, "Luxembourg Income Study Checkbox"] = source_checkbox["lis"][
+            view
+        ]
         df_graphers.loc[
             j, "subtitle"
         ] = f"The P90/P50 ratio measures the degree of inequality within the richest half of the population. A ratio of 2 means that someone just falling in the richest tenth of the population has twice the median income."
@@ -688,9 +708,13 @@ for tab in range(len(merged_tables)):
             view
         ].capitalize()
         df_graphers.loc[j, "Metric Dropdown"] = "P50/P10"
-        df_graphers.loc[j, "PIP Checkbox"] = source_checkbox["pip"][view]
-        df_graphers.loc[j, "WID Checkbox"] = source_checkbox["wid"][view]
-        df_graphers.loc[j, "LIS Checkbox"] = source_checkbox["lis"][view]
+        df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
+        df_graphers.loc[j, "World Inequality Database Checkbox"] = source_checkbox[
+            "wid"
+        ][view]
+        df_graphers.loc[j, "Luxembourg Income Study Checkbox"] = source_checkbox["lis"][
+            view
+        ]
         df_graphers.loc[
             j, "subtitle"
         ] = f"The P50/P10 ratio measures the degree of inequality within the poorest half of the population. A ratio of 2 means that the median income is two times higher than that of someone just falling in the poorest tenth of the population."
@@ -708,9 +732,13 @@ for tab in range(len(merged_tables)):
             view
         ].capitalize()
         df_graphers.loc[j, "Metric Dropdown"] = "Palma ratio"
-        df_graphers.loc[j, "PIP Checkbox"] = source_checkbox["pip"][view]
-        df_graphers.loc[j, "WID Checkbox"] = source_checkbox["wid"][view]
-        df_graphers.loc[j, "LIS Checkbox"] = source_checkbox["lis"][view]
+        df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
+        df_graphers.loc[j, "World Inequality Database Checkbox"] = source_checkbox[
+            "wid"
+        ][view]
+        df_graphers.loc[j, "Luxembourg Income Study Checkbox"] = source_checkbox["lis"][
+            view
+        ]
         df_graphers.loc[
             j, "subtitle"
         ] = f"The Palma ratio is the share of total income of the top 10% divided by the share of the bottom 40%."
@@ -730,9 +758,13 @@ for tab in range(len(merged_tables)):
         df_graphers.loc[
             j, "Metric Dropdown"
         ] = f"Share in relative poverty (< 50% of the median)"
-        df_graphers.loc[j, "PIP Checkbox"] = source_checkbox["pip"][view]
-        df_graphers.loc[j, "WID Checkbox"] = source_checkbox["wid"][view]
-        df_graphers.loc[j, "LIS Checkbox"] = source_checkbox["lis"][view]
+        df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
+        df_graphers.loc[j, "World Inequality Database Checkbox"] = source_checkbox[
+            "wid"
+        ][view]
+        df_graphers.loc[j, "Luxembourg Income Study Checkbox"] = source_checkbox["lis"][
+            view
+        ]
         df_graphers.loc[
             j, "subtitle"
         ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at 50% of the median income."
@@ -767,9 +799,9 @@ df_graphers["mapTargetTime"] = df_graphers["mapTargetTime"].astype("Int64")
 df_graphers.loc[
     (df_graphers["Income type Dropdown"] == "After tax")
     & (df_graphers["Metric Dropdown"] == "Gini coefficient")
-    & (df_graphers["PIP Checkbox"] == "true")
-    & (df_graphers["WID Checkbox"] == "true")
-    & (df_graphers["LIS Checkbox"] == "true"),
+    & (df_graphers["World Bank PIP Checkbox"] == "true")
+    & (df_graphers["World Inequality Database Checkbox"] == "true")
+    & (df_graphers["Luxembourg Income Study Checkbox"] == "true"),
     ["defaultView"],
 ] = "true"
 
