@@ -603,7 +603,6 @@ for tab in range(len(merged_tables)):
         df_graphers.loc[j, "type"] = np.nan
         j += 1
 
-    for view in range(len(source_checkbox)):
         # Share of the top 10%
         df_graphers.loc[
             j, "title"
@@ -627,7 +626,6 @@ for tab in range(len(merged_tables)):
         df_graphers.loc[j, "type"] = np.nan
         j += 1
 
-    for view in range(len(source_checkbox)):
         # Share of the bottom 50%
         df_graphers.loc[
             j, "title"
@@ -650,7 +648,6 @@ for tab in range(len(merged_tables)):
         df_graphers.loc[j, "note"] = ""
         j += 1
 
-    for view in range(len(source_checkbox)):
         # P90/P10
         df_graphers.loc[
             j, "title"
@@ -674,7 +671,6 @@ for tab in range(len(merged_tables)):
         df_graphers.loc[j, "type"] = np.nan
         j += 1
 
-    for view in range(len(source_checkbox)):
         # P90/P50
         df_graphers.loc[
             j, "title"
@@ -698,7 +694,6 @@ for tab in range(len(merged_tables)):
         df_graphers.loc[j, "type"] = np.nan
         j += 1
 
-    for view in range(len(source_checkbox)):
         # P50/P10
         df_graphers.loc[
             j, "title"
@@ -722,7 +717,6 @@ for tab in range(len(merged_tables)):
         df_graphers.loc[j, "type"] = np.nan
         j += 1
 
-    for view in range(len(source_checkbox)):
         # Palma ratio
         df_graphers.loc[
             j, "title"
@@ -746,7 +740,6 @@ for tab in range(len(merged_tables)):
         df_graphers.loc[j, "type"] = np.nan
         j += 1
 
-    for view in range(len(source_checkbox)):
         # Headcount ratio (rel)
         df_graphers.loc[
             j, "title"
