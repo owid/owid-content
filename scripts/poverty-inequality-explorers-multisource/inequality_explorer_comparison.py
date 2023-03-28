@@ -1,6 +1,6 @@
 # %% [markdown]
 # # Inequality Data Explorer - Source Comparison
-# This code creates the tsv file for the comparison inequality explorer, available [here](https://owid.cloud/admin/explorers/preview/inequality_comparison)
+# This code creates the tsv file for the inequality comparison explorer, available [here](https://owid.cloud/admin/explorers/preview/inequality-comparison)
 
 import textwrap
 from pathlib import Path
@@ -11,7 +11,7 @@ import numpy as np
 import pandas as pd
 
 PARENT_DIR = Path(__file__).parent.parent.parent.absolute()
-outfile = PARENT_DIR / "explorers" / "inequality_comparison.explorer.tsv"
+outfile = PARENT_DIR / "explorers" / "inequality-comparison.explorer.tsv"
 
 # %% [markdown]
 # ## Google sheets auxiliar data

@@ -1,6 +1,6 @@
 # %% [markdown]
-# # Inequality Data Explorer - Source Comparison
-# This code creates the tsv file for the poverty comparison explorer, available [here](https://owid.cloud/admin/explorers/preview/poverty-comparison)
+# # Incomes Across the Distribution Explorer - Source Comparison
+# This code creates the tsv file for the incomes across the distribution comparison explorer, available [here](https://owid.cloud/admin/explorers/preview/incomes-across-distribution-comparison)
 
 import textwrap
 from pathlib import Path
@@ -11,7 +11,9 @@ import numpy as np
 import pandas as pd
 
 PARENT_DIR = Path(__file__).parent.parent.parent.absolute()
-outfile = PARENT_DIR / "explorers" / "poverty-comparison.explorer.tsv"
+outfile = (
+    PARENT_DIR / "explorers" / "incomes-across-distribution-comparison.explorer.tsv"
+)
 
 # %% [markdown]
 # ## Google sheets auxiliar data
