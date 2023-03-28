@@ -35,10 +35,6 @@ url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sh
 source_checkbox = pd.read_csv(
     url, keep_default_na=False, dtype={"pip": "str", "wid": "str", "lis": "str"}
 )
-# Remove WID combination, as there is no poverty data there
-source_checkbox = source_checkbox[source_checkbox["wid"] == "false"].reset_index(
-    drop=True
-)
 
 # LUXEMBOURG INCOME STUDY
 # Read Google sheets
@@ -54,15 +50,19 @@ sheet_name = "equivalence_scales"
 url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
 lis_equivalence_scales = pd.read_csv(url, keep_default_na=False)
 
-# Absolute poverty sheet
-sheet_name = "povlines_abs"
-url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
-lis_povlines_abs = pd.read_csv(url, dtype={"dollars_text": "str"})
-
 # Relative poverty sheet
 sheet_name = "povlines_rel"
 url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
 lis_povlines_rel = pd.read_csv(url)
+
+# WORLD INEQUALITY DATABASE
+# Read Google sheets
+sheet_id = "18T5IGnpyJwb8KL9USYvME6IaLEcYIo26ioHCpkDnwRQ"
+
+# Welfare type sheet
+sheet_name = "welfare"
+url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
+wid_welfare = pd.read_csv(url, keep_default_na=False)
 
 # WORLD BANK POVERTY AND INEQUALITY PLATFORM
 # Read Google sheets
@@ -73,15 +73,22 @@ sheet_name = "table"
 url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
 pip_tables = pd.read_csv(url)
 
-# Absolute poverty sheet
-sheet_name = "povlines_abs"
+# Settings for 10 deciles variables (share, avg) sheet
+sheet_name = "deciles10"
 url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
-pip_povlines_abs = pd.read_csv(url, dtype={"dollars_text": "str"})
+pip_deciles10 = pd.read_csv(url, dtype={"dropdown": "str", "decile": "str"})
 
-# Relative poverty sheet
-sheet_name = "povlines_rel"
+# Settings for 9 deciles variables (thr) sheet
+sheet_name = "deciles9"
 url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
-pip_povlines_rel = pd.read_csv(url)
+pip_deciles9 = pd.read_csv(url, dtype={"dropdown": "str", "decile": "str"})
+
+# Income aggregation sheet (day, month, year)
+sheet_name = "income_aggregation"
+url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
+pip_income_aggregation = pd.read_csv(
+    url, keep_default_na=False, dtype={"multiplier": "str"}
+)
 
 # %% [markdown]
 # ## Header
@@ -90,7 +97,7 @@ pip_povlines_rel = pd.read_csv(url)
 # %%
 # The header is defined as a dictionary first and then it is converted into a index-oriented dataframe
 header_dict = {
-    "explorerTitle": "Poverty Data Explorer - Source comparison",
+    "explorerTitle": "Incomes Across the Distribution Explorer - Source comparison",
     "selection": [
         "Chile",
         "Brazil",
@@ -148,230 +155,103 @@ for tab in range(len(pip_tables)):
     df_tables_pip.loc[j, "type"] = "Year"
     j += 1
 
-    # Headcount ratio (abs)
-    for p in range(len(pip_povlines_abs)):
+    for agg in range(len(pip_income_aggregation)):
+        # mean
         df_tables_pip.loc[
             j, "name"
-        ] = f"Share below ${pip_povlines_abs.dollars_text[p]} a day (PIP)"
-        df_tables_pip.loc[j, "slug"] = f"headcount_ratio_{pip_povlines_abs.cents[p]}"
+        ] = f"Mean {pip_tables.text[tab]} per {pip_income_aggregation.aggregation[agg]} (PIP)"
+        df_tables_pip.loc[j, "slug"] = f"mean{pip_income_aggregation.slug_suffix[agg]}"
         df_tables_pip.loc[
             j, "description"
-        ] = f"% of population living in households with an {pip_tables.text[tab]} per person below ${pip_povlines_abs.dollars_text[p]} a day."
+        ] = f"The mean level of {pip_tables.text[tab]} per {pip_income_aggregation.aggregation[agg]}."
+        df_tables_pip.loc[j, "unit"] = "international-$ in 2017 prices"
+        df_tables_pip.loc[j, "shortUnit"] = "$"
+        df_tables_pip.loc[j, "type"] = "Numeric"
+        df_tables_pip.loc[j, "colorScaleNumericBins"] = pip_income_aggregation.scale[
+            agg
+        ]
+        df_tables_pip.loc[j, "colorScaleScheme"] = "BuGn"
+        df_tables_pip.loc[
+            j, "transform"
+        ] = f"multiplyBy mean {pip_income_aggregation.multiplier[agg]}"
+        j += 1
+
+        # median
+        df_tables_pip.loc[
+            j, "name"
+        ] = f"Median {pip_tables.text[tab]} per {pip_income_aggregation.aggregation[agg]} (PIP)"
+        df_tables_pip.loc[
+            j, "slug"
+        ] = f"median{pip_income_aggregation.slug_suffix[agg]}"
+        df_tables_pip.loc[
+            j, "description"
+        ] = f"The level of {pip_tables.text[tab]} per {pip_income_aggregation.aggregation[agg]} below which half of the population live."
+        df_tables_pip.loc[j, "unit"] = "international-$ in 2017 prices"
+        df_tables_pip.loc[j, "shortUnit"] = "$"
+        df_tables_pip.loc[j, "type"] = "Numeric"
+        df_tables_pip.loc[j, "colorScaleNumericBins"] = pip_income_aggregation.scale[
+            agg
+        ]
+        df_tables_pip.loc[j, "colorScaleScheme"] = "Blues"
+        df_tables_pip.loc[
+            j, "transform"
+        ] = f"multiplyBy median {pip_income_aggregation.multiplier[agg]}"
+        j += 1
+
+        for dec9 in range(len(pip_deciles9)):
+            # thresholds
+            df_tables_pip.loc[j, "name"] = f"{pip_deciles9.ordinal[dec9]} (PIP)"
+            df_tables_pip.loc[
+                j, "slug"
+            ] = f"decile{pip_deciles9.decile[dec9]}_thr{pip_income_aggregation.slug_suffix[agg]}"
+            df_tables_pip.loc[
+                j, "description"
+            ] = f"The level of {pip_tables.text[tab]} per {pip_income_aggregation.aggregation[agg]} below which {pip_deciles9.decile[dec9]}0% of the population falls."
+            df_tables_pip.loc[j, "unit"] = "international-$ in 2017 prices"
+            df_tables_pip.loc[j, "shortUnit"] = "$"
+            df_tables_pip.loc[j, "type"] = "Numeric"
+            df_tables_pip.loc[
+                j, "colorScaleNumericBins"
+            ] = pip_income_aggregation.scale[agg]
+            df_tables_pip.loc[j, "colorScaleScheme"] = "Purples"
+            df_tables_pip.loc[
+                j, "transform"
+            ] = f"multiplyBy decile{pip_deciles9.decile[dec9]}_thr {pip_income_aggregation.multiplier[agg]}"
+            j += 1
+
+        for dec10 in range(len(pip_deciles10)):
+            # averages
+            df_tables_pip.loc[j, "name"] = f"{pip_deciles10.ordinal[dec10]} (PIP)"
+            df_tables_pip.loc[
+                j, "slug"
+            ] = f"decile{pip_deciles10.decile[dec10]}_avg{pip_income_aggregation.slug_suffix[agg]}"
+            df_tables_pip.loc[
+                j, "description"
+            ] = f"The mean {pip_tables.text[tab]} per {pip_income_aggregation.aggregation[agg]} within the {pip_deciles10.ordinal[dec10]} (tenth of the population)."
+            df_tables_pip.loc[j, "unit"] = "international-$ in 2017 prices"
+            df_tables_pip.loc[j, "shortUnit"] = "$"
+            df_tables_pip.loc[j, "type"] = "Numeric"
+            df_tables_pip.loc[
+                j, "colorScaleNumericBins"
+            ] = pip_income_aggregation.scale[agg]
+            df_tables_pip.loc[j, "colorScaleScheme"] = "Greens"
+            df_tables_pip.loc[
+                j, "transform"
+            ] = f"multiplyBy decile{pip_deciles10.decile[dec10]}_avg {pip_income_aggregation.multiplier[agg]}"
+            j += 1
+
+    for dec10 in range(len(pip_deciles10)):
+        # shares
+        df_tables_pip.loc[j, "name"] = f"{pip_deciles10.ordinal[dec10]} (PIP)"
+        df_tables_pip.loc[j, "slug"] = f"decile{pip_deciles10.decile[dec10]}_share"
+        df_tables_pip.loc[
+            j, "description"
+        ] = f"The {pip_tables.text[tab]} of the {pip_deciles10.ordinal[dec10]} (tenth of the population) as a share of total {pip_tables.text[tab]}."
         df_tables_pip.loc[j, "unit"] = "%"
         df_tables_pip.loc[j, "shortUnit"] = "%"
         df_tables_pip.loc[j, "type"] = "Numeric"
-        df_tables_pip.loc[
-            j, "colorScaleNumericBins"
-        ] = "3;10;20;30;40;50;60;70;80;90;100"
+        df_tables_pip.loc[j, "colorScaleNumericBins"] = pip_deciles10.scale_share[dec10]
         df_tables_pip.loc[j, "colorScaleScheme"] = "OrRd"
-        j += 1
-
-    # Headcount (abs)
-    for p in range(len(pip_povlines_abs)):
-        df_tables_pip.loc[
-            j, "name"
-        ] = f"Number below ${pip_povlines_abs.dollars_text[p]} a day (PIP)"
-        df_tables_pip.loc[j, "slug"] = f"headcount_{pip_povlines_abs.cents[p]}"
-        df_tables_pip.loc[
-            j, "description"
-        ] = f"Number of people living in households with an {pip_tables.text[tab]} per person below ${pip_povlines_abs.dollars_text[p]} a day."
-        df_tables_pip.loc[j, "unit"] = np.nan
-        df_tables_pip.loc[j, "shortUnit"] = np.nan
-        df_tables_pip.loc[j, "type"] = "Numeric"
-        df_tables_pip.loc[
-            j, "colorScaleNumericBins"
-        ] = "100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001"
-        df_tables_pip.loc[j, "colorScaleScheme"] = "Reds"
-        j += 1
-
-    # Total shortfall (abs)
-    for p in range(len(pip_povlines_abs)):
-        df_tables_pip.loc[
-            j, "name"
-        ] = f"${pip_povlines_abs.dollars_text[p]} a day - total daily shortfall (PIP)"
-        df_tables_pip.loc[j, "slug"] = f"total_shortfall_{pip_povlines_abs.cents[p]}"
-        df_tables_pip.loc[
-            j, "description"
-        ] = f"The total shortfall from a poverty line of ${pip_povlines_abs.dollars_text[p]} a day. This is the amount of money that would be theoretically needed to lift the {pip_tables.text[tab]} of all people in poverty up to the poverty line. However this is not a measure of the actual cost of eliminating poverty, since it does not take into account the costs involved in making the necessary transfers nor any changes in behaviour they would bring about."
-        df_tables_pip.loc[j, "unit"] = "international-$ in 2017 prices"
-        df_tables_pip.loc[j, "shortUnit"] = "$"
-        df_tables_pip.loc[j, "type"] = "Numeric"
-        df_tables_pip.loc[
-            j, "colorScaleNumericBins"
-        ] = "100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001"
-        df_tables_pip.loc[j, "colorScaleScheme"] = "Oranges"
-        df_tables_pip.loc[
-            j, "transform"
-        ] = f"multiplyBy total_shortfall_{pip_povlines_abs.cents[p]} 365"
-        j += 1
-
-    # Average shortfall ($ per day)
-    for p in range(len(pip_povlines_abs)):
-        df_tables_pip.loc[
-            j, "name"
-        ] = f"${pip_povlines_abs.dollars_text[p]} a day - average daily shortfall (PIP)"
-        df_tables_pip.loc[j, "slug"] = f"avg_shortfall_{pip_povlines_abs.cents[p]}"
-        df_tables_pip.loc[
-            j, "description"
-        ] = f"The average shortfall from a poverty line of ${pip_povlines_abs.dollars_text[p]} a day (averaged across the population in poverty)."
-        df_tables_pip.loc[j, "unit"] = "international-$ in 2017 prices"
-        df_tables_pip.loc[j, "shortUnit"] = "$"
-        df_tables_pip.loc[j, "type"] = "Numeric"
-        df_tables_pip.loc[
-            j, "colorScaleNumericBins"
-        ] = pip_povlines_abs.scale_avg_shortfall[p]
-        df_tables_pip.loc[j, "colorScaleScheme"] = "Purples"
-        df_tables_pip.loc[
-            j, "transform"
-        ] = f"multiplyBy avg_shortfall_{pip_povlines_abs.cents[p]} 365"
-        j += 1
-
-    # Average shortfall (% of poverty line) [this is the income gap ratio]
-    for p in range(len(pip_povlines_abs)):
-        df_tables_pip.loc[
-            j, "name"
-        ] = f"${pip_povlines_abs.dollars_text[p]} a day - income gap ratio (PIP)"
-        df_tables_pip.loc[j, "slug"] = f"income_gap_ratio_{pip_povlines_abs.cents[p]}"
-        df_tables_pip.loc[
-            j, "description"
-        ] = f'The average shortfall from a poverty line of ${pip_povlines_abs.dollars_text[p]} a day (averaged across the population in poverty) expressed as a share of the poverty line. This metric is sometimes called the "income gap ratio". It captures the depth of poverty in which those below the poverty line are living.'
-        df_tables_pip.loc[j, "unit"] = "%"
-        df_tables_pip.loc[j, "shortUnit"] = "%"
-        df_tables_pip.loc[j, "type"] = "Numeric"
-        df_tables_pip.loc[j, "colorScaleNumericBins"] = "10;20;30;40;50;60;70;80;90;100"
-        df_tables_pip.loc[j, "colorScaleScheme"] = "YlOrRd"
-        j += 1
-
-    # Poverty gap index
-    for p in range(len(pip_povlines_abs)):
-        df_tables_pip.loc[
-            j, "name"
-        ] = f"${pip_povlines_abs.dollars_text[p]} a day - poverty gap index (PIP)"
-        df_tables_pip.loc[j, "slug"] = f"poverty_gap_index_{pip_povlines_abs.cents[p]}"
-        df_tables_pip.loc[
-            j, "description"
-        ] = f"The poverty gap index calculated at a poverty line of ${pip_povlines_abs.dollars_text[p]} a day. The poverty gap index is a measure that reflects both the depth and prevalence of poverty. It is defined as the mean shortfall of the total population from the poverty line counting the non-poor as having zero shortfall and expressed as a percentage of the poverty line. It is worth unpacking that definition a little. For those below the poverty line, the shortfall corresponds to the amount of money required in order to reach the poverty line. For those at or above the poverty line, the shortfall is counted as zero. The average shortfall is then calculated across the total population – both poor and non-poor – and then expressed as a share of the poverty line. Unlike the more commonly-used metric of the headcount ratio, the poverty gap index is thus sensitive not only to whether a person’s income falls below the poverty line or not, but also by how much – i.e. to the depth of poverty they experience."
-        df_tables_pip.loc[j, "unit"] = "%"
-        df_tables_pip.loc[j, "shortUnit"] = "%"
-        df_tables_pip.loc[j, "type"] = "Numeric"
-        df_tables_pip.loc[j, "colorScaleNumericBins"] = "10;20;30;40;50;60;70;80;90;100"
-        df_tables_pip.loc[j, "colorScaleScheme"] = "RdPu"
-        j += 1
-
-    # Headcount ratio (rel)
-    for pct in range(len(pip_povlines_rel)):
-        df_tables_pip.loc[
-            j, "name"
-        ] = f"{pip_povlines_rel.percent[pct]} of median - share of population below poverty line (PIP)"
-        df_tables_pip.loc[
-            j, "slug"
-        ] = f"headcount_ratio_{pip_povlines_rel.slug_suffix[pct]}"
-        df_tables_pip.loc[
-            j, "description"
-        ] = f"% of population living in households with an {pip_tables.text[tab]} per person below {pip_povlines_rel.percent[pct]} of the median."
-        df_tables_pip.loc[j, "unit"] = "%"
-        df_tables_pip.loc[j, "shortUnit"] = "%"
-        df_tables_pip.loc[j, "type"] = "Numeric"
-        df_tables_pip.loc[j, "colorScaleNumericBins"] = "5;10;15;20;25;30;30.0001"
-        df_tables_pip.loc[j, "colorScaleScheme"] = "YlOrBr"
-        j += 1
-
-    # Headcount (rel)
-    for pct in range(len(pip_povlines_rel)):
-        df_tables_pip.loc[
-            j, "name"
-        ] = f"{pip_povlines_rel.percent[pct]} of median - total number of people below poverty line (PIP)"
-        df_tables_pip.loc[j, "slug"] = f"headcount_{pip_povlines_rel.slug_suffix[pct]}"
-        df_tables_pip.loc[
-            j, "description"
-        ] = f"Number of people living in households with an {pip_tables.text[tab]} per person below {pip_povlines_rel.percent[pct]} of the median."
-        df_tables_pip.loc[j, "unit"] = np.nan
-        df_tables_pip.loc[j, "shortUnit"] = np.nan
-        df_tables_pip.loc[j, "type"] = "Numeric"
-        df_tables_pip.loc[
-            j, "colorScaleNumericBins"
-        ] = "100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001"
-        df_tables_pip.loc[j, "colorScaleScheme"] = "YlOrBr"
-        j += 1
-
-    # Total shortfall (rel)
-    for pct in range(len(pip_povlines_rel)):
-        df_tables_pip.loc[
-            j, "name"
-        ] = f"{pip_povlines_rel.percent[pct]} of median - total daily shortfall (PIP)"
-        df_tables_pip.loc[
-            j, "slug"
-        ] = f"total_shortfall_{pip_povlines_rel.slug_suffix[pct]}"
-        df_tables_pip.loc[
-            j, "description"
-        ] = f"The total shortfall from a poverty line of {pip_povlines_rel.text[pct]} {pip_tables.text[tab]}. This is the amount of money that would be theoretically needed to lift the {pip_tables.text[tab]} of all people in poverty up to the poverty line. However this is not a measure of the actual cost of eliminating poverty, since it does not take into account the costs involved in making the necessary transfers nor any changes in behaviour they would bring about."
-        df_tables_pip.loc[j, "unit"] = np.nan
-        df_tables_pip.loc[j, "shortUnit"] = np.nan
-        df_tables_pip.loc[j, "type"] = "Numeric"
-        df_tables_pip.loc[
-            j, "colorScaleNumericBins"
-        ] = "100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001"
-        df_tables_pip.loc[j, "colorScaleScheme"] = "YlOrBr"
-        df_tables_pip.loc[
-            j, "transform"
-        ] = f"multiplyBy total_shortfall_{pip_povlines_rel.slug_suffix[pct]} 365"
-        j += 1
-
-    # Average shortfall ($ per day)
-    for pct in range(len(pip_povlines_rel)):
-        df_tables_pip.loc[
-            j, "name"
-        ] = f"{pip_povlines_rel.percent[pct]} of median - average daily shortfall (PIP)"
-        df_tables_pip.loc[
-            j, "slug"
-        ] = f"avg_shortfall_{pip_povlines_rel.slug_suffix[pct]}"
-        df_tables_pip.loc[
-            j, "description"
-        ] = f"The average shortfall from a poverty line of of {pip_povlines_rel.text[pct]} {pip_tables.text[tab]} (averaged across the population in poverty)."
-        df_tables_pip.loc[j, "unit"] = "international-$ in 2017 prices"
-        df_tables_pip.loc[j, "shortUnit"] = "$"
-        df_tables_pip.loc[j, "type"] = "Numeric"
-        df_tables_pip.loc[j, "colorScaleNumericBins"] = "1;2;5;10;20;20.0001"
-        df_tables_pip.loc[j, "colorScaleScheme"] = "YlOrBr"
-        df_tables_pip.loc[
-            j, "transform"
-        ] = f"multiplyBy avg_shortfall_{pip_povlines_rel.slug_suffix[pct]} 365"
-        j += 1
-
-    # Average shortfall (% of poverty line) [this is the income gap ratio]
-    for pct in range(len(pip_povlines_rel)):
-        df_tables_pip.loc[
-            j, "name"
-        ] = f"{pip_povlines_rel.percent[pct]} of median - income gap ratio (PIP)"
-        df_tables_pip.loc[
-            j, "slug"
-        ] = f"income_gap_ratio_{pip_povlines_rel.slug_suffix[pct]}"
-        df_tables_pip.loc[
-            j, "description"
-        ] = f'The average shortfall from a poverty line of of {pip_povlines_rel.text[pct]} {pip_tables.text[tab]} (averaged across the population in poverty) expressed as a share of the poverty line. This metric is sometimes called the "income gap ratio". It captures the depth of poverty in which those below the poverty line are living.'
-        df_tables_pip.loc[j, "unit"] = "%"
-        df_tables_pip.loc[j, "shortUnit"] = "%"
-        df_tables_pip.loc[j, "type"] = "Numeric"
-        df_tables_pip.loc[j, "colorScaleNumericBins"] = "10;20;30;40;50;60;70;80;90;100"
-        df_tables_pip.loc[j, "colorScaleScheme"] = "YlOrBr"
-        j += 1
-
-    # Poverty gap index
-    for pct in range(len(pip_povlines_rel)):
-        df_tables_pip.loc[
-            j, "name"
-        ] = f"{pip_povlines_rel.percent[pct]} of median - poverty gap index (PIP)"
-        df_tables_pip.loc[
-            j, "slug"
-        ] = f"poverty_gap_index_{pip_povlines_rel.slug_suffix[pct]}"
-        df_tables_pip.loc[
-            j, "description"
-        ] = f"The poverty gap index calculated at a poverty line of {pip_povlines_rel.text[pct]} {pip_tables.text[tab]}. The poverty gap index is a measure that reflects both the depth and prevalence of poverty. It is defined as the mean shortfall of the total population from the poverty line counting the non-poor as having zero shortfall and expressed as a percentage of the poverty line. It is worth unpacking that definition a little. For those below the poverty line, the shortfall corresponds to the amount of money required in order to reach the poverty line. For those at or above the poverty line, the shortfall is counted as zero. The average shortfall is then calculated across the total population – both poor and non-poor – and then expressed as a share of the poverty line. Unlike the more commonly-used metric of the headcount ratio, the poverty gap index is thus sensitive not only to whether a person’s income falls below the poverty line or not, but also by how much – i.e. to the depth of poverty they experience."
-        df_tables_pip.loc[j, "unit"] = "%"
-        df_tables_pip.loc[j, "shortUnit"] = "%"
-        df_tables_pip.loc[j, "type"] = "Numeric"
-        df_tables_pip.loc[j, "colorScaleNumericBins"] = "3;6;9;12;15;18;21"
-        df_tables_pip.loc[j, "colorScaleScheme"] = "YlOrBr"
         j += 1
 
 df_tables_pip["tableSlug"] = tableSlug
@@ -380,6 +260,144 @@ df_tables_pip["dataPublishedBy"] = dataPublishedBy
 df_tables_pip["sourceLink"] = sourceLink
 df_tables_pip["colorScaleNumericMinValue"] = colorScaleNumericMinValue
 df_tables_pip["tolerance"] = tolerance
+
+###########################################################################################
+# WORLD INEQUALITY DATABASE (WID)
+###########################################################################################
+
+# Table generation
+
+sourceName = "World Inequality Database (WID.world) (2023)"
+dataPublishedBy = "World Inequality Database (WID), https://wid.world"
+sourceLink = "https://wid.world"
+colorScaleNumericMinValue = 0
+tolerance = 5
+new_line = "<br><br>"
+
+df_tables_wid = pd.DataFrame()
+j = 0
+
+for tab in range(len(merged_tables)):
+    for wel in range(len(wid_welfare)):
+        # Gini coefficient
+        df_tables_wid.loc[j, "name"] = f"Gini coefficient (WID)"
+        df_tables_wid.loc[j, "slug"] = f"p0p100_gini_{wid_welfare['slug'][wel]}"
+        df_tables_wid.loc[
+            j, "description"
+        ] = f"The Gini coefficient is a measure of the inequality of the {wid_welfare['welfare_type'][wel]} distribution in a population. Higher values indicate a higher level of inequality.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} {wid_welfare['note'][wel]}"
+        df_tables_wid.loc[j, "unit"] = np.nan
+        df_tables_wid.loc[j, "shortUnit"] = np.nan
+        df_tables_wid.loc[j, "type"] = "Numeric"
+        df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare["scale_gini"][wel]
+        df_tables_wid.loc[j, "colorScaleEqualSizeBins"] = "true"
+        df_tables_wid.loc[j, "colorScaleScheme"] = "Reds"
+        j += 1
+
+        # Share of the top 10%
+        df_tables_wid.loc[
+            j, "name"
+        ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the richest 10% (WID)"
+        df_tables_wid.loc[j, "slug"] = f"p90p100_share_{wid_welfare['slug'][wel]}"
+        df_tables_wid.loc[
+            j, "description"
+        ] = f"This is the {wid_welfare['welfare_type'][wel]} of the richest 10% as a share of total {wid_welfare['welfare_type'][wel]}.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} {wid_welfare['note'][wel]}"
+        df_tables_wid.loc[j, "unit"] = "%"
+        df_tables_wid.loc[j, "shortUnit"] = "%"
+        df_tables_wid.loc[j, "type"] = "Numeric"
+        df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare["scale_top10"][wel]
+        df_tables_wid.loc[j, "colorScaleEqualSizeBins"] = "true"
+        df_tables_wid.loc[j, "colorScaleScheme"] = "Greens"
+        j += 1
+
+        # Share of the bottom 50%
+        df_tables_wid.loc[
+            j, "name"
+        ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the bottom 50% (WID)"
+        df_tables_wid.loc[j, "slug"] = f"p0p50_share_{wid_welfare['slug'][wel]}"
+        df_tables_wid.loc[
+            j, "description"
+        ] = f"This is the {wid_welfare['welfare_type'][wel]} of the poorest 50% as a share of total {wid_welfare['welfare_type'][wel]}.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} {wid_welfare['note'][wel]}"
+        df_tables_wid.loc[j, "unit"] = "%"
+        df_tables_wid.loc[j, "shortUnit"] = "%"
+        df_tables_wid.loc[j, "type"] = "Numeric"
+        df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare["scale_bottom50"][
+            wel
+        ]
+        df_tables_wid.loc[j, "colorScaleEqualSizeBins"] = "true"
+        df_tables_wid.loc[j, "colorScaleScheme"] = "Blues"
+        j += 1
+
+        # P90/P10
+        df_tables_wid.loc[j, "name"] = f"P90/P10 ratio (WID)"
+        df_tables_wid.loc[j, "slug"] = f"p90_p10_ratio_{wid_welfare['slug'][wel]}"
+        df_tables_wid.loc[
+            j, "description"
+        ] = f"P90 is the the level of {wid_welfare['welfare_type'][wel]} below which 90% of the population lives. P10 is the level of {wid_welfare['welfare_type'][wel]} below which 10% of the population lives. This variable gives the ratio of the two. It is a measure of inequality that indicates the gap between the richest and poorest tenth of the population. It tells you how many times richer someone just in the the poorest tenth would need to be in order to be counted in the richest tenth.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} {wid_welfare['note'][wel]}"
+        df_tables_wid.loc[j, "unit"] = np.nan
+        df_tables_wid.loc[j, "shortUnit"] = np.nan
+        df_tables_wid.loc[j, "type"] = "Numeric"
+        df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare[
+            "scale_p90_p10_ratio"
+        ][wel]
+        df_tables_wid.loc[j, "colorScaleEqualSizeBins"] = "true"
+        df_tables_wid.loc[j, "colorScaleScheme"] = "OrRd"
+        j += 1
+
+        # P90/P50
+        df_tables_wid.loc[j, "name"] = f"P90/P50 ratio (WID)"
+        df_tables_wid.loc[j, "slug"] = f"p90_p50_ratio_{wid_welfare['slug'][wel]}"
+        df_tables_wid.loc[
+            j, "description"
+        ] = f"P90 is the the level of {wid_welfare['welfare_type'][wel]} above which 10% of the population lives. P50 is the median – the level of {wid_welfare['welfare_type'][wel]} below which 50% of the population lives. This variable gives the ratio of the two. It is a measure of inequality within the top half of the distribution. It tells you how many times richer someone in the middle of the distribution would need to be in order to be counted in the richest tenth.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} {wid_welfare['note'][wel]}"
+        df_tables_wid.loc[j, "unit"] = np.nan
+        df_tables_wid.loc[j, "shortUnit"] = np.nan
+        df_tables_wid.loc[j, "type"] = "Numeric"
+        df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare[
+            "scale_p90_p50_ratio"
+        ][wel]
+        df_tables_wid.loc[j, "colorScaleEqualSizeBins"] = "true"
+        df_tables_wid.loc[j, "colorScaleScheme"] = "Purples"
+        j += 1
+
+        # P50/P10
+        df_tables_wid.loc[j, "name"] = f"P50/P10 ratio (WID)"
+        df_tables_wid.loc[j, "slug"] = f"p50_p10_ratio_{wid_welfare['slug'][wel]}"
+        df_tables_wid.loc[
+            j, "description"
+        ] = f"P50 is the median – the level of {wid_welfare['welfare_type'][wel]} below which 50% of the population lives. P10 is the the level of {wid_welfare['welfare_type'][wel]} below which 10% of the population lives. This variable gives the ratio of the two. It is a measure of inequality within the bottom half of the distribution. It tells you how many times richer someone just in the the poorest tenth would need to be in order to be reach the median.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} {wid_welfare['note'][wel]}"
+        df_tables_wid.loc[j, "unit"] = np.nan
+        df_tables_wid.loc[j, "shortUnit"] = np.nan
+        df_tables_wid.loc[j, "type"] = "Numeric"
+        df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare[
+            "scale_p50_p10_ratio"
+        ][wel]
+        df_tables_wid.loc[j, "colorScaleEqualSizeBins"] = "true"
+        df_tables_wid.loc[j, "colorScaleScheme"] = "YlOrRd"
+        j += 1
+
+        # Palma ratio
+        df_tables_wid.loc[j, "name"] = f"Palma ratio (WID)"
+        df_tables_wid.loc[j, "slug"] = f"palma_ratio_{wid_welfare['slug'][wel]}"
+        df_tables_wid.loc[
+            j, "description"
+        ] = f"The Palma ratio is a measure of inequality: it is the share of total {wid_welfare['welfare_type'][wel]} of the top 10% divided by the share of the bottom 40%.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} {wid_welfare['note'][wel]}"
+        df_tables_wid.loc[j, "unit"] = np.nan
+        df_tables_wid.loc[j, "shortUnit"] = np.nan
+        df_tables_wid.loc[j, "type"] = "Numeric"
+        df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare[
+            "scale_palma_ratio"
+        ][wel]
+        df_tables_wid.loc[j, "colorScaleEqualSizeBins"] = "true"
+        df_tables_wid.loc[j, "colorScaleScheme"] = "Oranges"
+        j += 1
+
+    df_tables_wid["tableSlug"] = merged_tables["name"][tab]
+
+df_tables_wid["sourceName"] = sourceName
+df_tables_wid["dataPublishedBy"] = dataPublishedBy
+df_tables_wid["sourceLink"] = sourceLink
+df_tables_wid["colorScaleNumericMinValue"] = colorScaleNumericMinValue
+df_tables_wid["tolerance"] = tolerance
 
 ###########################################################################################
 # LUXEMBOURG INCOME STUDY (LIS)
@@ -398,237 +416,145 @@ j = 0
 for tab in range(len(merged_tables)):
     for wel in range(len(lis_welfare)):
         for eq in range(len(lis_equivalence_scales)):
-            # Headcount ratio (abs)
-            for p in range(len(lis_povlines_abs)):
-                df_tables_lis.loc[
-                    j, "name"
-                ] = f"Share below ${lis_povlines_abs['dollars_text'][p]} a day (LIS)"
-                df_tables_lis.loc[
-                    j, "slug"
-                ] = f"headcount_ratio_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}_{lis_povlines_abs['cents'][p]}"
-                df_tables_lis.loc[
-                    j, "description"
-                ] = f"% of population living in households with {lis_welfare['welfare_type'][wel]} below ${lis_povlines_abs['dollars_text'][p]} a day.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}Household {lis_welfare['welfare_type'][wel]} {lis_equivalence_scales['note'][eq]}"
-                df_tables_lis.loc[j, "unit"] = "%"
-                df_tables_lis.loc[j, "shortUnit"] = "%"
-                df_tables_lis.loc[j, "type"] = "Numeric"
-                df_tables_lis.loc[
-                    j, "colorScaleNumericBins"
-                ] = "3;10;20;30;40;50;60;70;80;90;100"
-                df_tables_lis.loc[j, "colorScaleScheme"] = "OrRd"
-                j += 1
+            # Gini coefficient
+            df_tables_lis.loc[j, "name"] = f"Gini coefficient (LIS)"
+            df_tables_lis.loc[
+                j, "slug"
+            ] = f"gini_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
+            df_tables_lis.loc[
+                j, "description"
+            ] = f"The Gini coefficient is a measure of the inequality of the {lis_welfare['welfare_type'][wel]} distribution in a population. Higher values indicate a higher level of inequality.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}Household {lis_welfare['welfare_type'][wel]} {lis_equivalence_scales['note'][eq]}"
+            df_tables_lis.loc[j, "unit"] = np.nan
+            df_tables_lis.loc[j, "shortUnit"] = np.nan
+            df_tables_lis.loc[j, "type"] = "Numeric"
+            df_tables_lis.loc[j, "colorScaleNumericBins"] = lis_welfare["scale_gini"][
+                wel
+            ]
+            df_tables_lis.loc[j, "colorScaleScheme"] = "Reds"
+            j += 1
 
-            # Headcount (abs)
-            for p in range(len(lis_povlines_abs)):
-                df_tables_lis.loc[
-                    j, "name"
-                ] = f"Number below ${lis_povlines_abs['dollars_text'][p]} a day (LIS)"
-                df_tables_lis.loc[
-                    j, "slug"
-                ] = f"headcount_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}_{lis_povlines_abs['cents'][p]}"
-                df_tables_lis.loc[
-                    j, "description"
-                ] = f"Number of people living in households with {lis_welfare['welfare_type'][wel]} below ${lis_povlines_abs['dollars_text'][p]} a day.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}Household {lis_welfare['welfare_type'][wel]} {lis_equivalence_scales['note'][eq]}"
-                df_tables_lis.loc[j, "unit"] = np.nan
-                df_tables_lis.loc[j, "shortUnit"] = np.nan
-                df_tables_lis.loc[j, "type"] = "Numeric"
-                df_tables_lis.loc[
-                    j, "colorScaleNumericBins"
-                ] = "100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000"
-                df_tables_lis.loc[j, "colorScaleScheme"] = "Reds"
-                j += 1
+            # Share of the top 10%
+            df_tables_lis.loc[
+                j, "name"
+            ] = f"{lis_welfare['welfare_type'][wel].capitalize()} share of the richest 10% (LIS)"
+            df_tables_lis.loc[
+                j, "slug"
+            ] = f"share_p90_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
+            df_tables_lis.loc[
+                j, "description"
+            ] = f"This is the {lis_welfare['welfare_type'][wel]} of the richest 10% as a share of total {lis_welfare['welfare_type'][wel]}.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}Household {lis_welfare['welfare_type'][wel]} {lis_equivalence_scales['note'][eq]}"
+            df_tables_lis.loc[j, "unit"] = "%"
+            df_tables_lis.loc[j, "shortUnit"] = "%"
+            df_tables_lis.loc[j, "type"] = "Numeric"
+            df_tables_lis.loc[j, "colorScaleNumericBins"] = lis_welfare["scale_top10"][
+                wel
+            ]
+            df_tables_lis.loc[j, "colorScaleScheme"] = "Greens"
+            j += 1
 
-            # Total shortfall (abs)
-            for p in range(len(lis_povlines_abs)):
-                df_tables_lis.loc[
-                    j, "name"
-                ] = f"${lis_povlines_abs['dollars_text'][p]} a day - total shortfall (LIS)"
-                df_tables_lis.loc[
-                    j, "slug"
-                ] = f"total_shortfall_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}_{lis_povlines_abs.cents[p]}"
-                df_tables_lis.loc[
-                    j, "description"
-                ] = f"The total shortfall from a poverty line of ${lis_povlines_abs['dollars_text'][p]} a day. This is the amount of money that would be theoretically needed to lift the {lis_welfare['welfare_type'][wel]} of all people in poverty up to the poverty line. However this is not a measure of the actual cost of eliminating poverty, since it does not take into account the costs involved in making the necessary transfers nor any changes in behaviour they would bring about.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}Household {lis_welfare['welfare_type'][wel]} {lis_equivalence_scales['note'][eq]}"
-                df_tables_lis.loc[j, "unit"] = "international-$ in 2017 prices"
-                df_tables_lis.loc[j, "shortUnit"] = "$"
-                df_tables_lis.loc[j, "type"] = "Numeric"
-                df_tables_lis.loc[j, "colorScaleNumericBins"] = lis_povlines_abs[
-                    "scale_total_shortfall"
-                ][p]
-                df_tables_lis.loc[j, "colorScaleScheme"] = "Oranges"
-                j += 1
+            # Share of the bottom 50%
+            df_tables_lis.loc[
+                j, "name"
+            ] = f"{lis_welfare['welfare_type'][wel].capitalize()} share of the bottom 50% (LIS)"
+            df_tables_lis.loc[
+                j, "slug"
+            ] = f"share_bottom50_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
+            df_tables_lis.loc[
+                j, "description"
+            ] = f"This is the {lis_welfare['welfare_type'][wel]} of the poorest 50% as a share of total {lis_welfare['welfare_type'][wel]}.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}Household {lis_welfare['welfare_type'][wel]} {lis_equivalence_scales['note'][eq]}"
+            df_tables_lis.loc[j, "unit"] = "%"
+            df_tables_lis.loc[j, "shortUnit"] = "%"
+            df_tables_lis.loc[j, "type"] = "Numeric"
+            df_tables_lis.loc[j, "colorScaleNumericBins"] = lis_welfare[
+                "scale_bottom50"
+            ][wel]
+            df_tables_lis.loc[j, "colorScaleScheme"] = "Blues"
+            j += 1
 
-            # Average shortfall ($)
-            for p in range(len(lis_povlines_abs)):
-                df_tables_lis.loc[
-                    j, "name"
-                ] = f"${lis_povlines_abs['dollars_text'][p]} a day - average shortfall (LIS)"
-                df_tables_lis.loc[
-                    j, "slug"
-                ] = f"avg_shortfall_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}_{lis_povlines_abs['cents'][p]}"
-                df_tables_lis.loc[
-                    j, "description"
-                ] = f"The average shortfall from a poverty line of ${lis_povlines_abs['dollars_text'][p]} (averaged across the population in poverty).{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}Household {lis_welfare['welfare_type'][wel]} {lis_equivalence_scales['note'][eq]}"
-                df_tables_lis.loc[j, "unit"] = "international-$ in 2017 prices"
-                df_tables_lis.loc[j, "shortUnit"] = "$"
-                df_tables_lis.loc[j, "type"] = "Numeric"
-                df_tables_lis.loc[j, "colorScaleNumericBins"] = lis_povlines_abs[
-                    "scale_avg_shortfall"
-                ][p]
-                df_tables_lis.loc[j, "colorScaleScheme"] = "Purples"
-                j += 1
+            # P90/P10
+            df_tables_lis.loc[j, "name"] = f"P90/P10 ratio (LIS)"
+            df_tables_lis.loc[
+                j, "slug"
+            ] = f"p90_p10_ratio_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
+            df_tables_lis.loc[
+                j, "description"
+            ] = f"P90 is the the level of {lis_welfare['welfare_type'][wel]} below which 90% of the population lives. P10 is the level of {lis_welfare['welfare_type'][wel]} below which 10% of the population lives. This variable gives the ratio of the two. It is a measure of inequality that indicates the gap between the richest and poorest tenth of the population. It tells you how many times richer someone just in the the poorest tenth would need to be in order to be counted in the richest tenth.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}Household {lis_welfare['welfare_type'][wel]} {lis_equivalence_scales['note'][eq]}"
+            df_tables_lis.loc[j, "unit"] = np.nan
+            df_tables_lis.loc[j, "shortUnit"] = np.nan
+            df_tables_lis.loc[j, "type"] = "Numeric"
+            df_tables_lis.loc[j, "colorScaleNumericBins"] = lis_welfare[
+                "scale_p90_p10_ratio"
+            ][wel]
+            df_tables_lis.loc[j, "colorScaleScheme"] = "OrRd"
+            j += 1
 
-            # Average shortfall (% of poverty line) [this is the income gap ratio]
-            for p in range(len(lis_povlines_abs)):
-                df_tables_lis.loc[
-                    j, "name"
-                ] = f"${lis_povlines_abs['dollars_text'][p]} a day - income gap ratio (LIS)"
-                df_tables_lis.loc[
-                    j, "slug"
-                ] = f"income_gap_ratio_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}_{lis_povlines_abs['cents'][p]}"
-                df_tables_lis.loc[
-                    j, "description"
-                ] = f'The average shortfall from a poverty line of ${lis_povlines_abs.dollars_text[p]} a day (averaged across the population in poverty) expressed as a share of the poverty line. This metric is sometimes called the "income gap ratio". It captures the depth of poverty in which those below the poverty line are living.{new_line}This is {lis_welfare.technical_text[wel]}. {lis_welfare.subtitle[wel]}{new_line}Household {lis_welfare.welfare_type[wel]} {lis_equivalence_scales.note[eq]}'
-                df_tables_lis.loc[j, "unit"] = "%"
-                df_tables_lis.loc[j, "shortUnit"] = "%"
-                df_tables_lis.loc[j, "type"] = "Numeric"
-                df_tables_lis.loc[
-                    j, "colorScaleNumericBins"
-                ] = "10;20;30;40;50;60;70;80;90;100"
-                df_tables_lis.loc[j, "colorScaleScheme"] = "YlOrRd"
-                j += 1
+            # P90/P50
+            df_tables_lis.loc[j, "name"] = f"P90/P50 ratio (LIS)"
+            df_tables_lis.loc[
+                j, "slug"
+            ] = f"p90_p50_ratio_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
+            df_tables_lis.loc[
+                j, "description"
+            ] = f"P90 is the the level of {lis_welfare['welfare_type'][wel]} above which 10% of the population lives. P50 is the median – the level of {lis_welfare['welfare_type'][wel]} below which 50% of the population lives. This variable gives the ratio of the two. It is a measure of inequality within the top half of the distribution. It tells you how many times richer someone in the middle of the distribution would need to be in order to be counted in the richest tenth.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}Household {lis_welfare['welfare_type'][wel]} {lis_equivalence_scales['note'][eq]}"
+            df_tables_lis.loc[j, "unit"] = np.nan
+            df_tables_lis.loc[j, "shortUnit"] = np.nan
+            df_tables_lis.loc[j, "type"] = "Numeric"
+            df_tables_lis.loc[j, "colorScaleNumericBins"] = lis_welfare[
+                "scale_p90_p50_ratio"
+            ][wel]
+            df_tables_lis.loc[j, "colorScaleScheme"] = "Purples"
+            j += 1
 
-            # Poverty gap index
-            for p in range(len(lis_povlines_abs)):
-                df_tables_lis.loc[
-                    j, "name"
-                ] = f"${lis_povlines_abs['dollars_text'][p]} a day - poverty gap index (LIS)"
-                df_tables_lis.loc[
-                    j, "slug"
-                ] = f"poverty_gap_index_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}_{lis_povlines_abs['cents'][p]}"
-                df_tables_lis.loc[
-                    j, "description"
-                ] = f"The poverty gap index calculated at a poverty line of ${lis_povlines_abs['dollars_text'][p]} a day. The poverty gap index is a measure that reflects both the depth and prevalence of poverty. It is defined as the mean shortfall of the total population from the poverty line counting the non-poor as having zero shortfall and expressed as a percentage of the poverty line. It is worth unpacking that definition a little. For those below the poverty line, the shortfall corresponds to the amount of money required in order to reach the poverty line. For those at or above the poverty line, the shortfall is counted as zero. The average shortfall is then calculated across the total population – both poor and non-poor – and then expressed as a share of the poverty line. Unlike the more commonly-used metric of the headcount ratio, the poverty gap index is thus sensitive not only to whether a person’s income falls below the poverty line or not, but also by how much – i.e. to the depth of poverty they experience.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}Household {lis_welfare['welfare_type'][wel]} {lis_equivalence_scales['note'][eq]}"
-                df_tables_lis.loc[j, "unit"] = "%"
-                df_tables_lis.loc[j, "shortUnit"] = "%"
-                df_tables_lis.loc[j, "type"] = "Numeric"
-                df_tables_lis.loc[j, "colorScaleNumericBins"] = "10;20;30;40;50;60"
-                df_tables_lis.loc[j, "colorScaleScheme"] = "RdPu"
-                j += 1
+            # P50/P10
+            df_tables_lis.loc[j, "name"] = f"P50/P10 ratio (LIS)"
+            df_tables_lis.loc[
+                j, "slug"
+            ] = f"p50_p10_ratio_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
+            df_tables_lis.loc[
+                j, "description"
+            ] = f"P50 is the median – the level of {lis_welfare['welfare_type'][wel]} below which 50% of the population lives. P10 is the the level of {lis_welfare['welfare_type'][wel]} below which 10% of the population lives. This variable gives the ratio of the two. It is a measure of inequality within the bottom half of the distribution. It tells you how many times richer someone just in the the poorest tenth would need to be in order to be reach the median.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}Household {lis_welfare['welfare_type'][wel]} {lis_equivalence_scales['note'][eq]}"
+            df_tables_lis.loc[j, "unit"] = np.nan
+            df_tables_lis.loc[j, "shortUnit"] = np.nan
+            df_tables_lis.loc[j, "type"] = "Numeric"
+            df_tables_lis.loc[j, "colorScaleNumericBins"] = lis_welfare[
+                "scale_p50_p10_ratio"
+            ][wel]
+            df_tables_lis.loc[j, "colorScaleScheme"] = "YlOrRd"
+            j += 1
+
+            # Palma ratio
+            df_tables_lis.loc[j, "name"] = f"Palma ratio (LIS)"
+            df_tables_lis.loc[
+                j, "slug"
+            ] = f"palma_ratio_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
+            df_tables_lis.loc[
+                j, "description"
+            ] = f"The Palma ratio is a measure of inequality: it is the share of total {lis_welfare['welfare_type'][wel]} of the top 10% divided by the share of the bottom 40%.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}Household {lis_welfare['welfare_type'][wel]} {lis_equivalence_scales['note'][eq]}"
+            df_tables_lis.loc[j, "unit"] = np.nan
+            df_tables_lis.loc[j, "shortUnit"] = np.nan
+            df_tables_lis.loc[j, "type"] = "Numeric"
+            df_tables_lis.loc[j, "colorScaleNumericBins"] = lis_welfare[
+                "scale_palma_ratio"
+            ][wel]
+            df_tables_lis.loc[j, "colorScaleScheme"] = "Oranges"
+            j += 1
 
             # Headcount ratio (rel)
-            for pct in range(len(lis_povlines_rel)):
-                df_tables_lis.loc[
-                    j, "name"
-                ] = f"{lis_povlines_rel['percent'][pct]} of median {lis_welfare['welfare_type'][wel]} - share of population below poverty line (LIS)"
-                df_tables_lis.loc[
-                    j, "slug"
-                ] = f"headcount_ratio_{lis_povlines_rel['slug_suffix'][pct]}_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
-                df_tables_lis.loc[
-                    j, "description"
-                ] = f"% of population living in households with {lis_welfare['welfare_type'][wel]} below {lis_povlines_rel['percent'][pct]} of the median {lis_welfare['welfare_type'][wel]}.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}Household {lis_welfare['welfare_type'][wel]} {lis_equivalence_scales['note'][eq]}"
-                df_tables_lis.loc[j, "unit"] = "%"
-                df_tables_lis.loc[j, "shortUnit"] = "%"
-                df_tables_lis.loc[j, "type"] = "Numeric"
-                df_tables_lis.loc[j, "colorScaleNumericBins"] = "5;10;15;20;25;30"
-                df_tables_lis.loc[j, "colorScaleScheme"] = "YlOrBr"
-                j += 1
-
-            # Headcount (rel)
-            for pct in range(len(lis_povlines_rel)):
-                df_tables_lis.loc[
-                    j, "name"
-                ] = f"{lis_povlines_rel['percent'][pct]} of median {lis_welfare['welfare_type'][wel]} - total number of people below poverty line (LIS)"
-                df_tables_lis.loc[
-                    j, "slug"
-                ] = f"headcount_{lis_povlines_rel['slug_suffix'][pct]}_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
-                df_tables_lis.loc[
-                    j, "description"
-                ] = f"Number of people living in households with {lis_welfare['welfare_type'][wel]} below {lis_povlines_rel['percent'][pct]} of the median {lis_welfare['welfare_type'][wel]}.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}Household {lis_welfare['welfare_type'][wel]} {lis_equivalence_scales['note'][eq]}"
-                df_tables_lis.loc[j, "unit"] = np.nan
-                df_tables_lis.loc[j, "shortUnit"] = np.nan
-                df_tables_lis.loc[j, "type"] = "Numeric"
-                df_tables_lis.loc[
-                    j, "colorScaleNumericBins"
-                ] = "100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000"
-                df_tables_lis.loc[j, "colorScaleScheme"] = "YlOrBr"
-                j += 1
-
-            # Total shortfall (rel)
-            for pct in range(len(lis_povlines_rel)):
-                df_tables_lis.loc[
-                    j, "name"
-                ] = f"{lis_povlines_rel['percent'][pct]} of median {lis_welfare['welfare_type'][wel]} - total shortfall (LIS)"
-                df_tables_lis.loc[
-                    j, "slug"
-                ] = f"total_shortfall_{lis_povlines_rel['slug_suffix'][pct]}_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
-                df_tables_lis.loc[
-                    j, "description"
-                ] = f"The total shortfall from a poverty line of {lis_povlines_rel['text'][pct]} {lis_welfare['welfare_type'][wel]}. This is the amount of money that would be theoretically needed to lift the {lis_welfare['welfare_type'][wel]} of all people in poverty up to the poverty line. However this is not a measure of the actual cost of eliminating poverty, since it does not take into account the costs involved in making the necessary transfers nor any changes in behaviour they would bring about.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}Household {lis_welfare['welfare_type'][wel]} {lis_equivalence_scales['note'][eq]}"
-                df_tables_lis.loc[j, "unit"] = np.nan
-                df_tables_lis.loc[j, "shortUnit"] = np.nan
-                df_tables_lis.loc[j, "type"] = "Numeric"
-                df_tables_lis.loc[j, "colorScaleNumericBins"] = lis_povlines_rel[
-                    "scale_total_shortfall"
-                ][pct]
-                df_tables_lis.loc[j, "colorScaleScheme"] = "YlOrBr"
-                j += 1
-
-            # Average shortfall ($)
-            for pct in range(len(lis_povlines_rel)):
-                df_tables_lis.loc[
-                    j, "name"
-                ] = f"{lis_povlines_rel['percent'][pct]} of median {lis_welfare['welfare_type'][wel]} - average shortfall (LIS)"
-                df_tables_lis.loc[
-                    j, "slug"
-                ] = f"avg_shortfall_{lis_povlines_rel['slug_suffix'][pct]}_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
-                df_tables_lis.loc[
-                    j, "description"
-                ] = f"The average shortfall from a poverty line of of {lis_povlines_rel['text'][pct]} {lis_welfare['welfare_type'][wel]} (averaged across the population in poverty).{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}Household {lis_welfare['welfare_type'][wel]} {lis_equivalence_scales['note'][eq]}"
-                df_tables_lis.loc[j, "unit"] = "international-$ in 2017 prices"
-                df_tables_lis.loc[j, "shortUnit"] = "$"
-                df_tables_lis.loc[j, "type"] = "Numeric"
-                df_tables_lis.loc[
-                    j, "colorScaleNumericBins"
-                ] = "1000;2000;3000;4000;5000"
-                df_tables_lis.loc[j, "colorScaleScheme"] = "YlOrBr"
-                j += 1
-
-            # Average shortfall (% of poverty line) [this is the income gap ratio]
-            for pct in range(len(lis_povlines_rel)):
-                df_tables_lis.loc[
-                    j, "name"
-                ] = f"{lis_povlines_rel['percent'][pct]} of median {lis_welfare['welfare_type'][wel]} - income gap ratio (LIS)"
-                df_tables_lis.loc[
-                    j, "slug"
-                ] = f"income_gap_ratio_{lis_povlines_rel['slug_suffix'][pct]}_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
-                df_tables_lis.loc[
-                    j, "description"
-                ] = f'The average shortfall from a poverty line of of {lis_povlines_rel.text[pct]} {lis_welfare.welfare_type[wel]} (averaged across the population in poverty) expressed as a share of the poverty line. This metric is sometimes called the "income gap ratio". It captures the depth of poverty in which those below the poverty line are living.{new_line}This is {lis_welfare.technical_text[wel]}. {lis_welfare.subtitle[wel]}{new_line}Household {lis_welfare.welfare_type[wel]} {lis_equivalence_scales.note[eq]}'
-                df_tables_lis.loc[j, "unit"] = "%"
-                df_tables_lis.loc[j, "shortUnit"] = "%"
-                df_tables_lis.loc[j, "type"] = "Numeric"
-                df_tables_lis.loc[j, "colorScaleNumericBins"] = "5;10;15;20;25;30;35;40"
-                df_tables_lis.loc[j, "colorScaleScheme"] = "YlOrBr"
-                j += 1
-
-            # Poverty gap index
-            for pct in range(len(lis_povlines_rel)):
-                df_tables_lis.loc[
-                    j, "name"
-                ] = f"{lis_povlines_rel['percent'][pct]} of median {lis_welfare['welfare_type'][wel]} - poverty gap index (LIS)"
-                df_tables_lis.loc[
-                    j, "slug"
-                ] = f"poverty_gap_index_{lis_povlines_rel['slug_suffix'][pct]}_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
-                df_tables_lis.loc[
-                    j, "description"
-                ] = f"The poverty gap index calculated at a poverty line of {lis_povlines_rel['text'][pct]} {lis_welfare['welfare_type'][wel]}. The poverty gap index is a measure that reflects both the depth and prevalence of poverty. It is defined as the mean shortfall of the total population from the poverty line counting the non-poor as having zero shortfall and expressed as a percentage of the poverty line. It is worth unpacking that definition a little. For those below the poverty line, the shortfall corresponds to the amount of money required in order to reach the poverty line. For those at or above the poverty line, the shortfall is counted as zero. The average shortfall is then calculated across the total population – both poor and non-poor – and then expressed as a share of the poverty line. Unlike the more commonly-used metric of the headcount ratio, the poverty gap index is thus sensitive not only to whether a person’s income falls below the poverty line or not, but also by how much – i.e. to the depth of poverty they experience.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}Household {lis_welfare['welfare_type'][wel]} {lis_equivalence_scales['note'][eq]}"
-                df_tables_lis.loc[j, "unit"] = "%"
-                df_tables_lis.loc[j, "shortUnit"] = "%"
-                df_tables_lis.loc[j, "type"] = "Numeric"
-                df_tables_lis.loc[j, "colorScaleNumericBins"] = "2;4;6;8;10;12"
-                df_tables_lis.loc[j, "colorScaleScheme"] = "YlOrBr"
-                j += 1
+            df_tables_lis.loc[
+                j, "name"
+            ] = f"50% of median {lis_welfare['welfare_type'][wel]} - share of population below poverty line (LIS)"
+            df_tables_lis.loc[
+                j, "slug"
+            ] = f"headcount_ratio_50_median_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
+            df_tables_lis.loc[
+                j, "description"
+            ] = f"% of population living in households with {lis_welfare['welfare_type'][wel]} below 50% of the median {lis_welfare['welfare_type'][wel]}.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}Household {lis_welfare['welfare_type'][wel]} {lis_equivalence_scales['note'][eq]}"
+            df_tables_lis.loc[j, "unit"] = "%"
+            df_tables_lis.loc[j, "shortUnit"] = "%"
+            df_tables_lis.loc[j, "type"] = "Numeric"
+            df_tables_lis.loc[j, "colorScaleNumericBins"] = "5;10;15;20;25;30"
+            df_tables_lis.loc[j, "colorScaleScheme"] = "YlOrBr"
+            j += 1
 
     df_tables_lis["tableSlug"] = merged_tables["name"][tab]
 
@@ -640,7 +566,7 @@ df_tables_lis["tolerance"] = tolerance
 df_tables_lis["colorScaleEqualSizeBins"] = colorScaleEqualSizeBins
 
 # Concatenate all the tables into one
-df_tables = pd.concat([df_tables_pip, df_tables_lis], ignore_index=True)
+df_tables = pd.concat([df_tables_pip, df_tables_wid, df_tables_lis], ignore_index=True)
 # Make tolerance integer (to not break the parameter in the platform)
 df_tables["tolerance"] = df_tables["tolerance"].astype("Int64")
 
@@ -663,327 +589,190 @@ j = 0
 
 for tab in range(len(merged_tables)):
     for view in range(len(source_checkbox)):
-        for p in range(len(lis_povlines_abs)):
-            # Headcount ratio (abs)
-            df_graphers.loc[
-                j, "title"
-            ] = f"{lis_povlines_abs['title_share'][p]} ({source_checkbox['type_title'][view]})"
-            df_graphers.loc[j, "ySlugs"] = source_checkbox["headcount_ratio"][
-                view
-            ].replace("{p}", str(lis_povlines_abs["cents"][p]))
-            df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
-                view
-            ].capitalize()
-            df_graphers.loc[j, "Metric Dropdown"] = "Share in poverty"
-            df_graphers.loc[
-                j, "Poverty line Dropdown"
-            ] = f"{lis_povlines_abs['povline_dropdown'][p]}"
-            df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
-            df_graphers.loc[j, "Luxembourg Income Study Checkbox"] = source_checkbox[
-                "lis"
-            ][view]
-            df_graphers.loc[j, "subtitle"] = f"{lis_povlines_abs['subtitle'][p]}"
-            df_graphers.loc[
-                j, "note"
-            ] = f"This data is measured in international-$ at 2017 prices."
-            df_graphers.loc[j, "type"] = np.nan
-            j += 1
+        # Gini coefficient
+        df_graphers.loc[
+            j, "title"
+        ] = f"Income inequality: Gini coefficient ({source_checkbox['type_title'][view]})"
+        df_graphers.loc[j, "ySlugs"] = source_checkbox["gini"][view]
+        df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
+            view
+        ].capitalize()
+        df_graphers.loc[j, "Metric Dropdown"] = "Gini coefficient"
+        df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
+        df_graphers.loc[j, "World Inequality Database Checkbox"] = source_checkbox[
+            "wid"
+        ][view]
+        df_graphers.loc[j, "Luxembourg Income Study Checkbox"] = source_checkbox["lis"][
+            view
+        ]
+        df_graphers.loc[
+            j, "subtitle"
+        ] = f"The Gini coefficient is a measure of the inequality of the income distribution in a population. Higher values indicate a higher level of inequality."
+        df_graphers.loc[j, "note"] = ""
+        df_graphers.loc[j, "type"] = np.nan
+        j += 1
 
-            # Headcount (abs)
-            df_graphers.loc[
-                j, "title"
-            ] = f"{lis_povlines_abs.title_number[p]} ({source_checkbox['type_title'][view]})"
-            df_graphers.loc[j, "ySlugs"] = source_checkbox["headcount"][view].replace(
-                "{p}", str(lis_povlines_abs["cents"][p])
-            )
-            df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
-                view
-            ].capitalize()
-            df_graphers.loc[j, "Metric Dropdown"] = "Number in poverty"
-            df_graphers.loc[
-                j, "Poverty line Dropdown"
-            ] = f"{lis_povlines_abs['povline_dropdown'][p]}"
-            df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
-            df_graphers.loc[j, "Luxembourg Income Study Checkbox"] = source_checkbox[
-                "lis"
-            ][view]
-            df_graphers.loc[j, "subtitle"] = f"{lis_povlines_abs['subtitle'][p]}"
-            df_graphers.loc[
-                j, "note"
-            ] = f"This data is measured in international-$ at 2017 prices."
-            df_graphers.loc[j, "type"] = np.nan
-            j += 1
+        # Share of the top 10%
+        df_graphers.loc[
+            j, "title"
+        ] = f"Income share of the top 10% ({source_checkbox['type_title'][view]})"
+        df_graphers.loc[j, "ySlugs"] = source_checkbox["top10"][view]
+        df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
+            view
+        ].capitalize()
+        df_graphers.loc[j, "Metric Dropdown"] = "Top 10% share"
+        df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
+        df_graphers.loc[j, "World Inequality Database Checkbox"] = source_checkbox[
+            "wid"
+        ][view]
+        df_graphers.loc[j, "Luxembourg Income Study Checkbox"] = source_checkbox["lis"][
+            view
+        ]
+        df_graphers.loc[
+            j, "subtitle"
+        ] = f"This is the income of the richest 10% as a share of total income."
+        df_graphers.loc[j, "note"] = ""
+        df_graphers.loc[j, "type"] = np.nan
+        j += 1
 
-            # Total shortfall (abs)
-            df_graphers.loc[
-                j, "title"
-            ] = f"{lis_povlines_abs['title_total_shortfall'][p]} ({source_checkbox['type_title'][view]})"
-            df_graphers.loc[j, "ySlugs"] = source_checkbox["total_shortfall"][
-                view
-            ].replace("{p}", str(lis_povlines_abs["cents"][p]))
-            df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
-                view
-            ].capitalize()
-            df_graphers.loc[j, "Metric Dropdown"] = "Total shortfall from poverty line"
-            df_graphers.loc[
-                j, "Poverty line Dropdown"
-            ] = f"{lis_povlines_abs['povline_dropdown'][p]}"
-            df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
-            df_graphers.loc[j, "Luxembourg Income Study Checkbox"] = source_checkbox[
-                "lis"
-            ][view]
-            df_graphers.loc[
-                j, "subtitle"
-            ] = f"{lis_povlines_abs['subtitle_total_shortfall'][p]}"
-            df_graphers.loc[
-                j, "note"
-            ] = "This data is expressed in international-$ at 2017 prices. The cost of closing the poverty gap does not take into account costs and inefficiencies from making the necessary transfers."
-            df_graphers.loc[j, "type"] = np.nan
-            j += 1
+        # Share of the bottom 50%
+        df_graphers.loc[
+            j, "title"
+        ] = f"Income share of the bottom 50% ({source_checkbox['type_title'][view]})"
+        df_graphers.loc[j, "ySlugs"] = source_checkbox["bottom50"][view]
+        df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
+            view
+        ].capitalize()
+        df_graphers.loc[j, "Metric Dropdown"] = "Bottom 50% share"
+        df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
+        df_graphers.loc[j, "World Inequality Database Checkbox"] = source_checkbox[
+            "wid"
+        ][view]
+        df_graphers.loc[j, "Luxembourg Income Study Checkbox"] = source_checkbox["lis"][
+            view
+        ]
+        df_graphers.loc[
+            j, "subtitle"
+        ] = f"This is the income of the poorest 50% as a share of total income."
+        df_graphers.loc[j, "note"] = ""
+        j += 1
 
-            # Average shortfall ($)
-            df_graphers.loc[
-                j, "title"
-            ] = f"{lis_povlines_abs['title_avg_shortfall'][p]} ({source_checkbox['type_title'][view]})"
-            df_graphers.loc[j, "ySlugs"] = source_checkbox["avg_shortfall"][
-                view
-            ].replace("{p}", str(lis_povlines_abs["cents"][p]))
-            df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
-                view
-            ].capitalize()
-            df_graphers.loc[j, "Metric Dropdown"] = "Average shortfall ($)"
-            df_graphers.loc[
-                j, "Poverty line Dropdown"
-            ] = f"{lis_povlines_abs['povline_dropdown'][p]}"
-            df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
-            df_graphers.loc[j, "Luxembourg Income Study Checkbox"] = source_checkbox[
-                "lis"
-            ][view]
-            df_graphers.loc[
-                j, "subtitle"
-            ] = f"{lis_povlines_abs['subtitle_avg_shortfall'][p]}"
-            df_graphers.loc[
-                j, "note"
-            ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
-            df_graphers.loc[j, "type"] = np.nan
-            j += 1
+        # P90/P10
+        df_graphers.loc[
+            j, "title"
+        ] = f"Income inequality: P90/P10 ratio ({source_checkbox['type_title'][view]})"
+        df_graphers.loc[j, "ySlugs"] = source_checkbox["p90_p10"][view]
+        df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
+            view
+        ].capitalize()
+        df_graphers.loc[j, "Metric Dropdown"] = "P90/P10"
+        df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
+        df_graphers.loc[j, "World Inequality Database Checkbox"] = source_checkbox[
+            "wid"
+        ][view]
+        df_graphers.loc[j, "Luxembourg Income Study Checkbox"] = source_checkbox["lis"][
+            view
+        ]
+        df_graphers.loc[
+            j, "subtitle"
+        ] = f"P90 and P10 are the levels of income below which 90% and 10% of the population live, respectively. This variable gives the ratio of the two. It is a measure of inequality that indicates the gap between the richest and poorest tenth of the population."
+        df_graphers.loc[j, "note"] = ""
+        df_graphers.loc[j, "type"] = np.nan
+        j += 1
 
-            # Average shortfall (% of poverty line)
-            df_graphers.loc[
-                j, "title"
-            ] = f"{lis_povlines_abs['title_income_gap_ratio'][p]} ({source_checkbox['type_title'][view]})"
-            df_graphers.loc[j, "ySlugs"] = source_checkbox["income_gap_ratio"][
-                view
-            ].replace("{p}", str(lis_povlines_abs["cents"][p]))
-            df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
-                view
-            ].capitalize()
-            df_graphers.loc[
-                j, "Metric Dropdown"
-            ] = "Average shortfall (% of poverty line)"
-            df_graphers.loc[
-                j, "Poverty line Dropdown"
-            ] = f"{lis_povlines_abs.povline_dropdown[p]}"
-            df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
-            df_graphers.loc[j, "Luxembourg Income Study Checkbox"] = source_checkbox[
-                "lis"
-            ][view]
-            df_graphers.loc[
-                j, "subtitle"
-            ] = f"{lis_povlines_abs['subtitle_income_gap_ratio'][p]}"
-            df_graphers.loc[
-                j, "note"
-            ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
-            df_graphers.loc[j, "type"] = np.nan
-            j += 1
+        # P90/P50
+        df_graphers.loc[
+            j, "title"
+        ] = f"Income inequality: P90/P50 ratio ({source_checkbox['type_title'][view]})"
+        df_graphers.loc[j, "ySlugs"] = source_checkbox["p90_p50"][view]
+        df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
+            view
+        ].capitalize()
+        df_graphers.loc[j, "Metric Dropdown"] = "P90/P50"
+        df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
+        df_graphers.loc[j, "World Inequality Database Checkbox"] = source_checkbox[
+            "wid"
+        ][view]
+        df_graphers.loc[j, "Luxembourg Income Study Checkbox"] = source_checkbox["lis"][
+            view
+        ]
+        df_graphers.loc[
+            j, "subtitle"
+        ] = f"The P90/P50 ratio measures the degree of inequality within the richest half of the population. A ratio of 2 means that someone just falling in the richest tenth of the population has twice the median income."
+        df_graphers.loc[j, "note"] = ""
+        df_graphers.loc[j, "type"] = np.nan
+        j += 1
 
-            # Poverty gap index
-            df_graphers.loc[
-                j, "title"
-            ] = f"Poverty gap index at ${lis_povlines_abs['dollars_text'][p]} a day ({source_checkbox['type_title'][view]})"
-            df_graphers.loc[j, "ySlugs"] = source_checkbox["poverty_gap_index"][
-                view
-            ].replace("{p}", str(lis_povlines_abs["cents"][p]))
-            df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
-                view
-            ].capitalize()
-            df_graphers.loc[j, "Metric Dropdown"] = "Poverty gap index"
-            df_graphers.loc[
-                j, "Poverty line Dropdown"
-            ] = f"{lis_povlines_abs['povline_dropdown'][p]}"
-            df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
-            df_graphers.loc[j, "Luxembourg Income Study Checkbox"] = source_checkbox[
-                "lis"
-            ][view]
-            df_graphers.loc[
-                j, "subtitle"
-            ] = f"The poverty gap index is a poverty measure that reflects both the prevalence and the depth of poverty. It is calculated as the share of population in poverty multiplied by the average shortfall from the poverty line (expressed as a % of the poverty line)."
-            df_graphers.loc[
-                j, "note"
-            ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
-            df_graphers.loc[j, "type"] = np.nan
-            j += 1
+        # P50/P10
+        df_graphers.loc[
+            j, "title"
+        ] = f"Income inequality: P50/P10 ratio ({source_checkbox['type_title'][view]})"
+        df_graphers.loc[j, "ySlugs"] = source_checkbox["p50_p10"][view]
+        df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
+            view
+        ].capitalize()
+        df_graphers.loc[j, "Metric Dropdown"] = "P50/P10"
+        df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
+        df_graphers.loc[j, "World Inequality Database Checkbox"] = source_checkbox[
+            "wid"
+        ][view]
+        df_graphers.loc[j, "Luxembourg Income Study Checkbox"] = source_checkbox["lis"][
+            view
+        ]
+        df_graphers.loc[
+            j, "subtitle"
+        ] = f"The P50/P10 ratio measures the degree of inequality within the poorest half of the population. A ratio of 2 means that the median income is two times higher than that of someone just falling in the poorest tenth of the population."
+        df_graphers.loc[j, "note"] = ""
+        df_graphers.loc[j, "type"] = np.nan
+        j += 1
+
+        # Palma ratio
+        df_graphers.loc[
+            j, "title"
+        ] = f"Income inequality: Palma ratio ({source_checkbox['type_title'][view]})"
+        df_graphers.loc[j, "ySlugs"] = source_checkbox["palma"][view]
+        df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
+            view
+        ].capitalize()
+        df_graphers.loc[j, "Metric Dropdown"] = "Palma ratio"
+        df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
+        df_graphers.loc[j, "World Inequality Database Checkbox"] = source_checkbox[
+            "wid"
+        ][view]
+        df_graphers.loc[j, "Luxembourg Income Study Checkbox"] = source_checkbox["lis"][
+            view
+        ]
+        df_graphers.loc[
+            j, "subtitle"
+        ] = f"The Palma ratio is the share of total income of the top 10% divided by the share of the bottom 40%."
+        df_graphers.loc[j, "note"] = ""
+        df_graphers.loc[j, "type"] = np.nan
+        j += 1
 
         # Headcount ratio (rel)
-        for pct in range(len(lis_povlines_rel)):
-            df_graphers.loc[
-                j, "title"
-            ] = f"{lis_povlines_rel['title_share'][pct]} ({source_checkbox['type_title'][view]})"
-            df_graphers.loc[j, "ySlugs"] = source_checkbox["headcount_ratio_rel"][
-                view
-            ].replace("{pct}", lis_povlines_rel["slug_suffix"][pct])
-            df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
-                view
-            ].capitalize()
-            df_graphers.loc[j, "Metric Dropdown"] = "Share in poverty"
-            df_graphers.loc[
-                j, "Poverty line Dropdown"
-            ] = f"{lis_povlines_rel['dropdown'][pct]}"
-            df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
-            df_graphers.loc[j, "Luxembourg Income Study Checkbox"] = source_checkbox[
-                "lis"
-            ][view]
-            df_graphers.loc[
-                j, "subtitle"
-            ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at {lis_povlines_rel['text'][pct]}"
-            df_graphers.loc[j, "note"] = np.nan
-            df_graphers.loc[j, "type"] = np.nan
-            j += 1
-
-            # Headcount (rel)
-            df_graphers.loc[
-                j, "title"
-            ] = f"{lis_povlines_rel['title_number'][pct]} ({source_checkbox['type_title'][view]})"
-            df_graphers.loc[j, "ySlugs"] = source_checkbox["headcount_rel"][
-                view
-            ].replace("{pct}", lis_povlines_rel["slug_suffix"][pct])
-            df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
-                view
-            ].capitalize()
-            df_graphers.loc[j, "Metric Dropdown"] = "Number in poverty"
-            df_graphers.loc[
-                j, "Poverty line Dropdown"
-            ] = f"{lis_povlines_rel['dropdown'][pct]}"
-            df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
-            df_graphers.loc[j, "Luxembourg Income Study Checkbox"] = source_checkbox[
-                "lis"
-            ][view]
-            df_graphers.loc[
-                j, "subtitle"
-            ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at {lis_povlines_rel['text'][pct]}"
-            df_graphers.loc[j, "note"] = np.nan
-            df_graphers.loc[j, "type"] = np.nan
-            j += 1
-
-            # Total shortfall (rel)
-            df_graphers.loc[
-                j, "title"
-            ] = f"Total shortfall from a poverty line of {lis_povlines_rel['text'][pct]} income ({source_checkbox['type_title'][view]})"
-            df_graphers.loc[j, "ySlugs"] = source_checkbox["total_shortfall_rel"][
-                view
-            ].replace("{pct}", lis_povlines_rel["slug_suffix"][pct])
-            df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
-                view
-            ].capitalize()
-            df_graphers.loc[j, "Metric Dropdown"] = "Total shortfall from poverty line"
-            df_graphers.loc[
-                j, "Poverty line Dropdown"
-            ] = f"{lis_povlines_rel['dropdown'][pct]}"
-            df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
-            df_graphers.loc[j, "Luxembourg Income Study Checkbox"] = source_checkbox[
-                "lis"
-            ][view]
-            df_graphers.loc[
-                j, "subtitle"
-            ] = f"This is the amount of money that would be theoretically needed to lift the incomes of all people in poverty up to {lis_povlines_rel.text[pct]}"
-            df_graphers.loc[
-                j, "note"
-            ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
-            df_graphers.loc[j, "type"] = np.nan
-            j += 1
-
-            # Average shortfall ($) (rel)
-            df_graphers.loc[
-                j, "title"
-            ] = f"Average shortfall from a poverty line of {lis_povlines_rel['text'][pct]} income ({source_checkbox['type_title'][view]})"
-            df_graphers.loc[j, "ySlugs"] = source_checkbox["avg_shortfall_rel"][
-                view
-            ].replace("{pct}", lis_povlines_rel["slug_suffix"][pct])
-            df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
-                view
-            ].capitalize()
-            df_graphers.loc[j, "Metric Dropdown"] = "Average shortfall ($)"
-            df_graphers.loc[
-                j, "Poverty line Dropdown"
-            ] = f"{lis_povlines_rel['dropdown'][pct]}"
-            df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
-            df_graphers.loc[j, "Luxembourg Income Study Checkbox"] = source_checkbox[
-                "lis"
-            ][view]
-            df_graphers.loc[
-                j, "subtitle"
-            ] = f"This is the amount of money that would be theoretically needed to lift the incomes of all people in poverty up to {lis_povlines_rel['text'][pct]} income, averaged across the population in poverty."
-            df_graphers.loc[
-                j, "note"
-            ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
-            df_graphers.loc[j, "type"] = np.nan
-            j += 1
-
-            # Average shortfall (% of poverty line) (rel)
-            df_graphers.loc[
-                j, "title"
-            ] = f"Average shortfall from a poverty line of {lis_povlines_rel['text'][pct]} income (as a share of the poverty line) ({source_checkbox['type_title'][view]})"
-            df_graphers.loc[j, "ySlugs"] = source_checkbox["income_gap_ratio_rel"][
-                view
-            ].replace("{pct}", lis_povlines_rel["slug_suffix"][pct])
-            df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
-                view
-            ].capitalize()
-            df_graphers.loc[
-                j, "Metric Dropdown"
-            ] = "Average shortfall (% of poverty line)"
-            df_graphers.loc[
-                j, "Poverty line Dropdown"
-            ] = f"{lis_povlines_rel['dropdown'][pct]}"
-            df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
-            df_graphers.loc[j, "Luxembourg Income Study Checkbox"] = source_checkbox[
-                "lis"
-            ][view]
-            df_graphers.loc[
-                j, "subtitle"
-            ] = f'This is the average shortfall expressed as a share of the poverty line, sometimes called the "income gap ratio". It captures the depth of poverty in which those below {lis_povlines_rel.text[pct]} income are living.'
-            df_graphers.loc[
-                j, "note"
-            ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
-            df_graphers.loc[j, "type"] = np.nan
-            j += 1
-
-            # Poverty gap index (rel)
-            df_graphers.loc[
-                j, "title"
-            ] = f"Poverty gap index at {lis_povlines_rel['text'][pct]} income ({source_checkbox['type_title'][view]})"
-            df_graphers.loc[j, "ySlugs"] = source_checkbox["poverty_gap_index_rel"][
-                view
-            ].replace("{pct}", lis_povlines_rel["slug_suffix"][pct])
-            df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
-                view
-            ].capitalize()
-            df_graphers.loc[j, "Metric Dropdown"] = "Poverty gap index"
-            df_graphers.loc[
-                j, "Poverty line Dropdown"
-            ] = f"{lis_povlines_rel['dropdown'][pct]}"
-            df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
-            df_graphers.loc[j, "Luxembourg Income Study Checkbox"] = source_checkbox[
-                "lis"
-            ][view]
-            df_graphers.loc[
-                j, "subtitle"
-            ] = f"The poverty gap index is a poverty measure that reflects both the prevalence and the depth of poverty. It is calculated as the share of population in poverty multiplied by the average shortfall from the poverty line (expressed as a % of the poverty line)."
-            df_graphers.loc[
-                j, "note"
-            ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
-            df_graphers.loc[j, "type"] = np.nan
-            j += 1
+        df_graphers.loc[
+            j, "title"
+        ] = f"Relative poverty: Share of people below 50% of the median income ({source_checkbox['type_title'][view]})"
+        df_graphers.loc[j, "ySlugs"] = source_checkbox["relative"][view]
+        df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
+            view
+        ].capitalize()
+        df_graphers.loc[
+            j, "Metric Dropdown"
+        ] = f"Share in relative poverty (< 50% of the median)"
+        df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
+        df_graphers.loc[j, "World Inequality Database Checkbox"] = source_checkbox[
+            "wid"
+        ][view]
+        df_graphers.loc[j, "Luxembourg Income Study Checkbox"] = source_checkbox["lis"][
+            view
+        ]
+        df_graphers.loc[
+            j, "subtitle"
+        ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at 50% of the median income."
+        df_graphers.loc[j, "note"] = ""
+        df_graphers.loc[j, "type"] = np.nan
+        j += 1
 
     df_graphers["tableSlug"] = merged_tables["name"][tab]
 
@@ -1011,12 +800,9 @@ df_graphers["mapTargetTime"] = df_graphers["mapTargetTime"].astype("Int64")
 # Select one default view
 df_graphers.loc[
     (df_graphers["Income type Dropdown"] == "After tax")
-    & (df_graphers["Metric Dropdown"] == "Share in poverty")
-    & (
-        df_graphers["Poverty line Dropdown"]
-        == "$2.15 per day: International Poverty Line"
-    )
+    & (df_graphers["Metric Dropdown"] == "Gini coefficient")
     & (df_graphers["World Bank PIP Checkbox"] == "true")
+    & (df_graphers["World Inequality Database Checkbox"] == "true")
     & (df_graphers["Luxembourg Income Study Checkbox"] == "true"),
     ["defaultView"],
 ] = "true"
