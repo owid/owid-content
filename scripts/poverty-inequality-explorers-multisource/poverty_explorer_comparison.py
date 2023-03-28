@@ -219,6 +219,9 @@ for tab in range(len(pip_tables)):
             j, "colorScaleNumericBins"
         ] = pip_povlines_abs.scale_avg_shortfall[p]
         df_tables_pip.loc[j, "colorScaleScheme"] = "Purples"
+        df_tables_pip.loc[
+            j, "transform"
+        ] = f"multiplyBy avg_shortfall_{pip_povlines_abs.cents[p]} 365"
         j += 1
 
     # Average shortfall (% of poverty line) [this is the income gap ratio]
@@ -307,6 +310,9 @@ for tab in range(len(pip_tables)):
             j, "colorScaleNumericBins"
         ] = "100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001"
         df_tables_pip.loc[j, "colorScaleScheme"] = "YlOrBr"
+        df_tables_pip.loc[
+            j, "transform"
+        ] = f"multiplyBy total_shortfall_{pip_povlines_rel.slug_suffix[pct]} 365"
         j += 1
 
     # Average shortfall ($ per day)
@@ -325,6 +331,9 @@ for tab in range(len(pip_tables)):
         df_tables_pip.loc[j, "type"] = "Numeric"
         df_tables_pip.loc[j, "colorScaleNumericBins"] = "1;2;5;10;20;20.0001"
         df_tables_pip.loc[j, "colorScaleScheme"] = "YlOrBr"
+        df_tables_pip.loc[
+            j, "transform"
+        ] = f"multiplyBy avg_shortfall_{pip_povlines_rel.slug_suffix[pct]} 365"
         j += 1
 
     # Average shortfall (% of poverty line) [this is the income gap ratio]
