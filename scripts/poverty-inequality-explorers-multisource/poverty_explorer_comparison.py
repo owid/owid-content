@@ -198,6 +198,9 @@ for tab in range(len(pip_tables)):
             j, "colorScaleNumericBins"
         ] = "100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001"
         df_tables_pip.loc[j, "colorScaleScheme"] = "Oranges"
+        df_tables_pip.loc[
+            j, "transform"
+        ] = f"multiplyBy total_shortfall_{pip_povlines_abs.cents[p]} 365"
         j += 1
 
     # Average shortfall ($ per day)
