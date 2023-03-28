@@ -654,7 +654,9 @@ for tab in range(len(merged_tables)):
             df_graphers.loc[
                 j, "title"
             ] = f"{lis_povlines_abs['title_share'][p]} ({source_checkbox['type_title'][view]})"
-            df_graphers.loc[j, "ySlugs"] = source_checkbox["headcount_ratio"][view]
+            df_graphers.loc[j, "ySlugs"] = source_checkbox["headcount_ratio"][
+                view
+            ].replace("{p}", str(lis_povlines_abs["cents"][p]))
             df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
                 view
             ].capitalize()
@@ -1036,7 +1038,11 @@ df_graphers["mapTargetTime"] = df_graphers["mapTargetTime"].astype("Int64")
 # Select one default view
 df_graphers.loc[
     (df_graphers["Income type Dropdown"] == "After tax")
-    & (df_graphers["Metric Dropdown"] == "Gini coefficient")
+    & (df_graphers["Metric Dropdown"] == "Share in poverty")
+    & (
+        df_graphers["Poverty line Dropdown"]
+        == "$2.15 per day: International Poverty Line"
+    )
     & (df_graphers["World Bank PIP Checkbox"] == "true")
     & (df_graphers["Luxembourg Income Study Checkbox"] == "true"),
     ["defaultView"],
