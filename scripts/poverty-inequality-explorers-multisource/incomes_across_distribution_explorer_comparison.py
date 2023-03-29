@@ -591,7 +591,7 @@ for tab in range(len(merged_tables)):
             ].capitalize()
             df_graphers.loc[j, "Metric Dropdown"] = "Mean income or consumption"
             df_graphers.loc[j, "Decile Dropdown"] = np.nan
-            df_graphers.loc[j, "Aggregation Checkbox"] = lis_income_aggregation[
+            df_graphers.loc[j, "Aggregation Radio"] = lis_income_aggregation[
                 "aggregation"
             ][agg].capitalize()
             df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
