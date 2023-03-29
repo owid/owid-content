@@ -585,7 +585,9 @@ for tab in range(len(merged_tables)):
             df_graphers.loc[
                 j, "title"
             ] = f"Mean income per {lis_income_aggregation['aggregation'][agg]} ({source_checkbox['type_title'][view]})"
-            df_graphers.loc[j, "ySlugs"] = source_checkbox["mean"][view]
+            df_graphers.loc[j, "ySlugs"] = source_checkbox["mean"][view].replace(
+                "{agg}", lis_income_aggregation["slug_suffix"][agg]
+            )
             df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
                 view
             ].capitalize()
@@ -983,7 +985,8 @@ df_graphers["mapTargetTime"] = df_graphers["mapTargetTime"].astype("Int64")
 # Select one default view
 df_graphers.loc[
     (df_graphers["Income type Dropdown"] == "After tax")
-    & (df_graphers["Metric Dropdown"] == "Gini coefficient")
+    & (df_graphers["Metric Dropdown"] == "Mean income or consumption")
+    & (df_graphers["Aggregation Radio"] == "Year")
     & (df_graphers["World Bank PIP Checkbox"] == "true")
     & (df_graphers["World Inequality Database Checkbox"] == "true")
     & (df_graphers["Luxembourg Income Study Checkbox"] == "true"),
