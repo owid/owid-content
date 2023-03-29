@@ -179,7 +179,7 @@
             },
             "retrievedFromUrl": "https://zenodo.org/record/7215364/files/...",
             "codeUrl": "https://ourworldindata.org/explorers/co2",
-            "datasetDownloadOptions": {
+            "sourceDownloadOptions": {
                 "basic": [
                     {
                         "csv": {
@@ -207,8 +207,8 @@
                     }
                 ]
             },
-            "datasetCitation": "Global Carbon Project. (2022). Supplemental data of Global Carbon Budget 2022 (Version 1.0) [Data set]. Global Carbon Project. https://doi.org/10.18160/gcp-2022",
-            "datasetLicenseLink": {
+            "sourceCitation": "Global Carbon Project. (2022). Supplemental data of Global Carbon Budget 2022 (Version 1.0) [Data set]. Global Carbon Project. https://doi.org/10.18160/gcp-2022",
+            "sourceLicenseLink": {
                 "title": "CC BY 4.0",
                 "url": "https://creativecommons.org/licenses/by/4.0/"
             }
