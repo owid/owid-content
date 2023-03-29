@@ -8,6 +8,10 @@
         {
             "title": "Climate change",
             "url": "https://ourworldindata.org/climate-change"
+        },
+        {
+            "title": "Energy",
+            "url": "https://ourworldindata.org/energy"
         }
     ],
     "sourceShortName": "Global Carbon Project",
