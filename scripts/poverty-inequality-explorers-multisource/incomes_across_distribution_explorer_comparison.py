@@ -466,6 +466,9 @@ for tab in range(len(merged_tables)):
                     "scale_mean"
                 ][wel]
                 df_tables_lis.loc[j, "colorScaleScheme"] = "BuGn"
+                df_tables_lis.loc[
+                    j, "transform"
+                ] = f"multiplyBy mean_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]} {lis_income_aggregation['multiplier'][agg]}"
                 j += 1
 
                 # Median
@@ -485,6 +488,9 @@ for tab in range(len(merged_tables)):
                     "scale_median"
                 ][wel]
                 df_tables_lis.loc[j, "colorScaleScheme"] = "Blues"
+                df_tables_lis.loc[
+                    j, "transform"
+                ] = f"multiplyBy median_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]} {lis_income_aggregation['multiplier'][agg]}"
                 j += 1
 
                 # Thresholds - Deciles
@@ -505,6 +511,9 @@ for tab in range(len(merged_tables)):
                         "scale_thr"
                     ][dec9]
                     df_tables_lis.loc[j, "colorScaleScheme"] = "Purples"
+                    df_tables_lis.loc[
+                        j, "transform"
+                    ] = f"multiplyBy thr_{lis_deciles9['lis_notation'][dec9]}_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]} {lis_income_aggregation['multiplier'][agg]}"
                     j += 1
 
                 # Averages - Deciles
@@ -525,6 +534,9 @@ for tab in range(len(merged_tables)):
                         "scale_avg"
                     ][dec10]
                     df_tables_lis.loc[j, "colorScaleScheme"] = "Greens"
+                    df_tables_lis.loc[
+                        j, "transform"
+                    ] = f"multiplyBy avg_{lis_deciles10['lis_notation'][dec10]}_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]} {lis_income_aggregation['multiplier'][agg]}"
                     j += 1
 
             # Shares - Deciles
