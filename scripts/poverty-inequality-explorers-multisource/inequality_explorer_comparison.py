@@ -153,7 +153,6 @@ for tab in range(len(pip_tables)):
     df_tables_pip.loc[
         j, "colorScaleNumericBins"
     ] = "0.2;0.25;0.3;0.35;0.4;0.45;0.5;0.55;0.6"
-    df_tables_pip.loc[j, "colorScaleEqualSizeBins"] = "true"
     df_tables_pip.loc[j, "colorScaleScheme"] = "Reds"
     j += 1
 
@@ -169,7 +168,6 @@ for tab in range(len(pip_tables)):
     df_tables_pip.loc[j, "shortUnit"] = "%"
     df_tables_pip.loc[j, "type"] = "Numeric"
     df_tables_pip.loc[j, "colorScaleNumericBins"] = "10;15;20;25;30;35;40;45;50"
-    df_tables_pip.loc[j, "colorScaleEqualSizeBins"] = "true"
     df_tables_pip.loc[j, "colorScaleScheme"] = "Greens"
     j += 1
 
@@ -183,7 +181,6 @@ for tab in range(len(pip_tables)):
     df_tables_pip.loc[j, "shortUnit"] = np.nan
     df_tables_pip.loc[j, "type"] = "Numeric"
     df_tables_pip.loc[j, "colorScaleNumericBins"] = "0;2;4;6;8;10;12;14;16;18"
-    df_tables_pip.loc[j, "colorScaleEqualSizeBins"] = "true"
     df_tables_pip.loc[j, "colorScaleScheme"] = "OrRd"
     j += 1
 
@@ -197,7 +194,6 @@ for tab in range(len(pip_tables)):
     df_tables_pip.loc[j, "shortUnit"] = np.nan
     df_tables_pip.loc[j, "type"] = "Numeric"
     df_tables_pip.loc[j, "colorScaleNumericBins"] = "0;1;2;3;4;5"
-    df_tables_pip.loc[j, "colorScaleEqualSizeBins"] = "true"
     df_tables_pip.loc[j, "colorScaleScheme"] = "Purples"
     j += 1
 
@@ -211,7 +207,6 @@ for tab in range(len(pip_tables)):
     df_tables_pip.loc[j, "shortUnit"] = np.nan
     df_tables_pip.loc[j, "type"] = "Numeric"
     df_tables_pip.loc[j, "colorScaleNumericBins"] = "0;0.5;1;1.5;2;2.5;3;3.5;4"
-    df_tables_pip.loc[j, "colorScaleEqualSizeBins"] = "true"
     df_tables_pip.loc[j, "colorScaleScheme"] = "YlOrRd"
     j += 1
 
@@ -225,7 +220,6 @@ for tab in range(len(pip_tables)):
     df_tables_pip.loc[j, "shortUnit"] = np.nan
     df_tables_pip.loc[j, "type"] = "Numeric"
     df_tables_pip.loc[j, "colorScaleNumericBins"] = "0;0.5;1;1.5;2;2.5;3;3.5;4;4.5;5"
-    df_tables_pip.loc[j, "colorScaleEqualSizeBins"] = "true"
     df_tables_pip.loc[j, "colorScaleScheme"] = "Oranges"
     j += 1
 
@@ -241,7 +235,6 @@ for tab in range(len(pip_tables)):
     df_tables_pip.loc[j, "shortUnit"] = "%"
     df_tables_pip.loc[j, "type"] = "Numeric"
     df_tables_pip.loc[j, "colorScaleNumericBins"] = "5;10;15;20;25;30;30.0001"
-    df_tables_pip.loc[j, "colorScaleEqualSizeBins"] = "true"
     df_tables_pip.loc[j, "colorScaleScheme"] = "YlOrBr"
     j += 1
 
@@ -251,6 +244,7 @@ df_tables_pip["dataPublishedBy"] = dataPublishedBy
 df_tables_pip["sourceLink"] = sourceLink
 df_tables_pip["colorScaleNumericMinValue"] = colorScaleNumericMinValue
 df_tables_pip["tolerance"] = tolerance
+df_tables_pip["colorScaleEqualSizeBins"] = colorScaleEqualSizeBins
 
 ###########################################################################################
 # WORLD INEQUALITY DATABASE (WID)
@@ -263,6 +257,7 @@ dataPublishedBy = "World Inequality Database (WID), https://wid.world"
 sourceLink = "https://wid.world"
 colorScaleNumericMinValue = 0
 tolerance = 5
+colorScaleEqualSizeBins = "true"
 new_line = "<br><br>"
 
 df_tables_wid = pd.DataFrame()
@@ -280,7 +275,6 @@ for tab in range(len(merged_tables)):
         df_tables_wid.loc[j, "shortUnit"] = np.nan
         df_tables_wid.loc[j, "type"] = "Numeric"
         df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare["scale_gini"][wel]
-        df_tables_wid.loc[j, "colorScaleEqualSizeBins"] = "true"
         df_tables_wid.loc[j, "colorScaleScheme"] = "Reds"
         j += 1
 
@@ -296,7 +290,6 @@ for tab in range(len(merged_tables)):
         df_tables_wid.loc[j, "shortUnit"] = "%"
         df_tables_wid.loc[j, "type"] = "Numeric"
         df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare["scale_top10"][wel]
-        df_tables_wid.loc[j, "colorScaleEqualSizeBins"] = "true"
         df_tables_wid.loc[j, "colorScaleScheme"] = "Greens"
         j += 1
 
@@ -314,7 +307,6 @@ for tab in range(len(merged_tables)):
         df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare["scale_bottom50"][
             wel
         ]
-        df_tables_wid.loc[j, "colorScaleEqualSizeBins"] = "true"
         df_tables_wid.loc[j, "colorScaleScheme"] = "Blues"
         j += 1
 
@@ -330,7 +322,6 @@ for tab in range(len(merged_tables)):
         df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare[
             "scale_p90_p10_ratio"
         ][wel]
-        df_tables_wid.loc[j, "colorScaleEqualSizeBins"] = "true"
         df_tables_wid.loc[j, "colorScaleScheme"] = "OrRd"
         j += 1
 
@@ -346,7 +337,6 @@ for tab in range(len(merged_tables)):
         df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare[
             "scale_p90_p50_ratio"
         ][wel]
-        df_tables_wid.loc[j, "colorScaleEqualSizeBins"] = "true"
         df_tables_wid.loc[j, "colorScaleScheme"] = "Purples"
         j += 1
 
@@ -362,7 +352,6 @@ for tab in range(len(merged_tables)):
         df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare[
             "scale_p50_p10_ratio"
         ][wel]
-        df_tables_wid.loc[j, "colorScaleEqualSizeBins"] = "true"
         df_tables_wid.loc[j, "colorScaleScheme"] = "YlOrRd"
         j += 1
 
@@ -378,7 +367,6 @@ for tab in range(len(merged_tables)):
         df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare[
             "scale_palma_ratio"
         ][wel]
-        df_tables_wid.loc[j, "colorScaleEqualSizeBins"] = "true"
         df_tables_wid.loc[j, "colorScaleScheme"] = "Oranges"
         j += 1
 
@@ -389,6 +377,7 @@ df_tables_wid["dataPublishedBy"] = dataPublishedBy
 df_tables_wid["sourceLink"] = sourceLink
 df_tables_wid["colorScaleNumericMinValue"] = colorScaleNumericMinValue
 df_tables_wid["tolerance"] = tolerance
+df_tables_wid["colorScaleEqualSizeBins"] = colorScaleEqualSizeBins
 
 ###########################################################################################
 # LUXEMBOURG INCOME STUDY (LIS)
