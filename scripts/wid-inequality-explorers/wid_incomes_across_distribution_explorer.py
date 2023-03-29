@@ -124,6 +124,22 @@ for tab in range(len(tables)):
         df_tables.loc[j, "colorScaleScheme"] = "BuGn"
         j += 1
 
+        # Median
+        df_tables.loc[
+            j, "name"
+        ] = f"Median {welfare['welfare_type'][wel]} ({welfare['technical_text'][wel].capitalize()})"
+        df_tables.loc[j, "slug"] = f"median_{welfare['slug'][wel]}"
+        df_tables.loc[
+            j, "description"
+        ] = f"This is the level of {welfare['welfare_type'][wel]} below which 50% of the population falls.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]} {welfare['note'][wel]}"
+        df_tables.loc[j, "unit"] = "international-$ in 2021 prices"
+        df_tables.loc[j, "shortUnit"] = "$"
+        df_tables.loc[j, "type"] = "Numeric"
+        df_tables.loc[j, "colorScaleNumericBins"] = welfare["scale_median"][wel]
+        df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
+        df_tables.loc[j, "colorScaleScheme"] = "Blues"
+        j += 1
+
         # Thresholds - Deciles
         for dec9 in range(len(deciles9)):
             df_tables.loc[j, "name"] = f"{deciles9['ordinal'][dec9].capitalize()}"
@@ -279,7 +295,7 @@ for tab in range(len(tables)):
         df_graphers.loc[
             j, "title"
         ] = f"Median {welfare['welfare_type'][wel]} {welfare['title'][wel].capitalize()}"
-        df_graphers.loc[j, "ySlugs"] = f"p50p60_thr_{welfare['slug'][wel]}"
+        df_graphers.loc[j, "ySlugs"] = f"median_{welfare['slug'][wel]}"
         df_graphers.loc[j, "Metric Dropdown"] = "Median income or wealth"
         df_graphers.loc[
             j, "Welfare type Dropdown"
