@@ -8,7 +8,7 @@ wpBlockId	36228
 thumbnail	https://owid.cloud/app/uploads/2022/12/CO2-data-explorer-Thumbnail.png
 tab	chart
 graphers
-	grapherId	Gas Radio	Accounting Radio	Fuel or Land Use Change Dropdown	Count Dropdown	Relative to world total Checkbox
+	grapherId	Gas or Warming Dropdown	Accounting Radio	Fuel or Land Use Change Dropdown	Count Dropdown	Relative to world total Checkbox
 	486	CO₂	Production-based	All fossil emissions	Per capita
 	488	CO₂	Production-based	All fossil emissions	Per country	false
 	3219	CO₂	Production-based	All fossil emissions	Per country	true
@@ -50,9 +50,14 @@ graphers
 	4759	CO₂	Production-based	Gas	Cumulative	true
 	4761	CO₂	Production-based	Cement	Cumulative	true
 	4760	CO₂	Production-based	Flaring	Cumulative	true
-	4147	All GHGs (CO₂eq)	Production-based		Per country
+	4147	All GHGs (CO₂eq)	Production-based		Per country	false
 	4239	All GHGs (CO₂eq)	Production-based		Per capita
-	4222	Methane	Production-based		Per country
+	6448	All GHGs (CO₂eq)	Production-based		Per country	true
+	4222	Methane	Production-based		Per country	false
 	4243	Methane	Production-based		Per capita
-	4224	Nitrous oxide	Production-based		Per country
+	6453	Methane	Production-based		Per country	true
+	4224	Nitrous oxide	Production-based		Per country	false
 	4244	Nitrous oxide	Production-based		Per capita
+	6454	Nitrous oxide	Production-based		Per country	true
+	6447	Warming impact	Production-based		Per country	false
+	6446	Warming impact	Production-based		Per country	true
