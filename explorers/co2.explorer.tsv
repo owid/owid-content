@@ -59,5 +59,7 @@ graphers
 	4224	Nitrous oxide	Production-based		Per country	false
 	4244	Nitrous oxide	Production-based		Per capita
 	6454	Nitrous oxide	Production-based		Per country	true
-	6447	Warming impact	Production-based		Per country	false
-	6446	Warming impact	Production-based		Per country	true
+	6447	Warming impact	Production-based	Fossil + land use change	Per country	false
+	6446	Warming impact	Production-based	Fossil + land use change	Per country	true
+	6461	Warming impact	Production-based	All fossil emissions	Per country	false
+	6462	Warming impact	Production-based	Land use change	Per country	false
