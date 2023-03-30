@@ -1,4 +1,9 @@
 {
+    "status": "published",
+    "showDataPageOnChartIds": [
+        486,
+        4639
+    ],
     "title": "Annual CO₂ emissions per capita",
     "topicTagsLinks": [
         {
