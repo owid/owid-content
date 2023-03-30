@@ -608,13 +608,9 @@ for tab in range(len(merged_tables)):
             df_graphers.loc[j, "Aggregation Radio"] = lis_income_aggregation[
                 "aggregation"
             ][agg].capitalize()
-            df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
-            df_graphers.loc[j, "World Inequality Database Checkbox"] = source_checkbox[
-                "wid"
-            ][view]
-            df_graphers.loc[j, "Luxembourg Income Study Checkbox"] = source_checkbox[
-                "lis"
-            ][view]
+            df_graphers.loc[j, "PIP Checkbox"] = source_checkbox["pip"][view]
+            df_graphers.loc[j, "WID Checkbox"] = source_checkbox["wid"][view]
+            df_graphers.loc[j, "LIS Checkbox"] = source_checkbox["lis"][view]
             df_graphers.loc[
                 j, "subtitle"
             ] = f"This data is adjusted for inflation and for differences in the cost of living between countries."
@@ -999,9 +995,9 @@ df_graphers.loc[
     (df_graphers["Income type Dropdown"] == "After tax")
     & (df_graphers["Metric Dropdown"] == "Mean income or consumption")
     & (df_graphers["Aggregation Radio"] == "Year")
-    & (df_graphers["World Bank PIP Checkbox"] == "true")
-    & (df_graphers["World Inequality Database Checkbox"] == "true")
-    & (df_graphers["Luxembourg Income Study Checkbox"] == "true"),
+    & (df_graphers["PIP Checkbox"] == "true")
+    & (df_graphers["WID Checkbox"] == "true")
+    & (df_graphers["LIS Checkbox"] == "true"),
     ["defaultView"],
 ] = "true"
 

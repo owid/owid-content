@@ -7,7 +7,7 @@ wpBlockId
 entityType	country or region					
 
 graphers
-	title	ySlugs	Income type Dropdown	Metric Dropdown	Decile Dropdown	Aggregation Radio	World Bank PIP Checkbox	World Inequality Database Checkbox	Luxembourg Income Study Checkbox	subtitle	note	yScaleToggle	tableSlug	yAxisMin	mapTargetTime	selectedFacetStrategy	hasMapTab	tab	relatedQuestionText	relatedQuestionUrl	defaultView
+	title	ySlugs	Income type Dropdown	Metric Dropdown	Decile Dropdown	Aggregation Radio	PIP Checkbox	WID Checkbox	LIS Checkbox	subtitle	note	yScaleToggle	tableSlug	yAxisMin	mapTargetTime	selectedFacetStrategy	hasMapTab	tab	relatedQuestionText	relatedQuestionUrl	defaultView
 	Mean income per day (before tax)	p0p100_avg_pretax_day mean_mi_eq_day	Before tax	Mean income or consumption		Day	false	true	true	This data is adjusted for inflation and for differences in the cost of living between countries.	This data is measured in international-$ at 2017 prices.	true	poverty_inequality	0	2019	entity	false	chart			
 	Mean income per month (before tax)	p0p100_avg_pretax_month mean_mi_eq_month	Before tax	Mean income or consumption		Month	false	true	true	This data is adjusted for inflation and for differences in the cost of living between countries.	This data is measured in international-$ at 2017 prices.	true	poverty_inequality	0	2019	entity	false	chart			
 	Mean income per year (before tax)	p0p100_avg_pretax_year mean_mi_eq_year	Before tax	Mean income or consumption		Year	false	true	true	This data is adjusted for inflation and for differences in the cost of living between countries.	This data is measured in international-$ at 2017 prices.	true	poverty_inequality	0	2019	entity	false	chart			
