@@ -7,7 +7,7 @@ subNavId	co2
 subNavCurrentId	climate-impacts
 wpBlockId	45009
 hasMapTab	false
-hideTitleAnnotation	true
+hideAnnotationFieldsInTitle	true
 graphers
 	title	subtitle	Metric Dropdown	Long-run series? Checkbox	tableSlug	ySlugs	yScaleToggle	yAxisMin	selectedFacetStrategy	facetYDomain	baseColorScheme	type	hasMapTab	note	relatedQuestionUrl	relatedQuestionText
 	Global warming: monthly temperature anomaly	The combined land-surface air and sea-surface water temperature anomaly is given as the deviation from the 1951–1980 mean.	Temperature anomaly	false	monthly	temperature_anomaly	false				owid-distinct	LineChart	false		https://ourworldindata.org/explorers/climate-change	Data explorer: how is the Earth's climate changing?

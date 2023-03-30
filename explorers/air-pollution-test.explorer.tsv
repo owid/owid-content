@@ -8,7 +8,7 @@ subNavCurrentId
 thumbnail
 hasMapTab	true
 yAxisMin	0
-hideTitleAnnotation	true
+hideAnnotationFieldsInTitle	true
 tab	map
 graphers
 	grapherId	title	subtitle	Measure Dropdown	Sub-metric Dropdown	Data source Dropdown	Per capita Checkbox	tableSlug	ySlugs	yScaleToggle	xSlug	baseColorScheme	type	hasMapTab	note

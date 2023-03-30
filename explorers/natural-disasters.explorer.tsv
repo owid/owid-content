@@ -9,7 +9,7 @@ wpBlockId	46066
 yAxisMin	0
 table	https://catalog.ourworldindata.org/explorers/emdat/2022-12-07/natural_disasters/natural_disasters_yearly.csv	annual
 table	https://catalog.ourworldindata.org/explorers/emdat/2022-12-07/natural_disasters/natural_disasters_decadal.csv	decadal
-hideTitleAnnotation	true
+hideAnnotationFieldsInTitle	true
 graphers
 	title	subtitle	Disaster Type Dropdown	Impact Dropdown	Timespan Radio	Per capita Checkbox	tableSlug	ySlugs	yScaleToggle	xSlug	colorSlug	type	grapherId	sourceDesc	note	tab	hasMapTab
 	Decadal average: Annual number of deaths from disasters	Disasters include all geophysical, meteorological and climate events including earthquakes, volcanic activity, landslides, drought, wildfires, storms, and flooding. Decadal figures are measured as the annual average over the subsequent ten-year period.	All disasters	Deaths	Decadal average	false	decadal	deaths_all_disasters	true			StackedBar			Decadal figures are measured as the annual average over the subsequent ten-year period. This means figures for ‘1900’ represent the average from 1900 to 1909; ‘1910’ is the average from 1910 to 1919 etc.

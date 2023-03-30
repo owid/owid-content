@@ -6,7 +6,7 @@ explorerSubtitle	Explore available data on the world's fish stocks.
 hideAlertBanner	true
 hasMapTab	false
 table	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Fish%20stocks%20(RAMLegacy)/Fish%20stocks%20(RAMLegacy).csv	fish
-hideTitleAnnotation	true
+hideAnnotationFieldsInTitle	true
 pickerColumnSlugs
 entityType	fish stock
 graphers

@@ -8,7 +8,7 @@ subNavId	explorers
 thumbnail	https://owid.cloud/app/uploads/2022/08/Env-Impacts-of-Food-Data-Explorer.png
 wpBlockId	52428
 hasMapTab	false
-hideTitleAnnotation	true
+hideAnnotationFieldsInTitle	true
 entityType	food
 graphers
 	grapherId	Commodity or Specific Food Product Radio	Environmental Impact Dropdown	Kilogram / Protein / Calories Dropdown	By stage of supply chain Checkbox	title	subtitle	tableSlug	ySlugs	baseColorScheme	type	sourceDesc	note	relatedQuestionUrl	relatedQuestionText	selectedFacetStrategy	facetYDomain

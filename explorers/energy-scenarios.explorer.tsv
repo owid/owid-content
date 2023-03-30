@@ -7,7 +7,7 @@ subNavId
 entityType	source
 hasMapTab	true
 table	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Energy%20land%20use%20scenario%20analysis%20(OWID%20based%20on%20UNECE%20%26%20EMBER)/Energy%20land%20use%20scenario%20analysis%20(OWID%20based%20on%20UNECE%20%26%20EMBER).csv	energy
-hideTitleAnnotation	true
+hideAnnotationFieldsInTitle	true
 graphers
 	title	subtitle	Electricity source Dropdown	Absolute or Share Radio	tableSlug	ySlugs	yScaleToggle	xSlug	baseColorScheme	type	hasMapTab	grapherId	sourceDesc	yAxisMin	note	tab
 	Estimated share of land used for electricity production	Land use is based on life-cycle analysis, so includes land used by a power plant plus any used in fuel or material supply chains (e.g. mining).	Actual electricity mix	Share of land area	energy	land_actual_total_share	false		owid-distinct	LineChart	true			0	Figures are used to provide a magnitude estimate, and come with significant uncertainty.	map

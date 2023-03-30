@@ -8,7 +8,7 @@ subNavId
 thumbnail	https://owid.cloud/app/uploads/2022/08/Air-Pollution-Data-Explorer.png
 wpBlockId	52429
 hasMapTab	true
-hideTitleAnnotation	true
+hideAnnotationFieldsInTitle	true
 graphers
 	title	subtitle	Pollutant Dropdown	Fuel Dropdown	Per capita Checkbox	tableSlug	ySlugs	yScaleToggle	yAxisMin	baseColorScheme	type	hasMapTab	sourceDesc	note	relatedQuestionUrl	relatedQuestionText	selectedFacetStrategy	facetYDomain
 	Emissions of air pollutants		All pollutants	From all fuels (Total)	false	pollution	nox so2 co oc nmvoc bc nh3	true	0	owid-distinct	LineChart	false					metric	independent

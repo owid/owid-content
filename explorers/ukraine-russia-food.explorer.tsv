@@ -8,7 +8,7 @@ subNavCurrentId
 thumbnail	https://owid.cloud/wp/wp-admin/upload.php?item=50297
 hasMapTab	true
 yAxisMin	0
-hideTitleAnnotation	true
+hideAnnotationFieldsInTitle	true
 tab	map
 graphers
 	title	subtitle	Crop Radio	Metric Dropdown	Adjustment Radio	Imports from... Radio	tableSlug	ySlugs	yScaleToggle	xSlug	baseColorScheme	type	note	defaultView

@@ -10,7 +10,7 @@ hasMapTab	true
 yAxisMin
 table	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Biodiversity%20habitat%20loss%20(Williams%20et%20al.%202021)/Biodiversity%20habitat%20loss%20(Williams%20et%20al.%202021).csv	habitat
 downloadDataLink	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Biodiversity%20habitat%20loss%20(Williams%20et%20al.%202021)/Biodiversity%20habitat%20loss%20(Williams%20et%20al.%202021).csv
-hideTitleAnnotation	true
+hideAnnotationFieldsInTitle	true
 tab	map
 graphers
 	title	subtitle	Projected change by 2050 Radio	Species Group Radio	Scenario Dropdown	tableSlug	ySlugs	yScaleToggle	xSlug	baseColorScheme	type	hasMapTab	grapherId	sourceDesc	note

@@ -10,10 +10,10 @@ hasMapTab	true
 yAxisMin	0
 table	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Attainable%20yields%20(Mueller%20et%20al.%202012)/Attainable%20yields%20(Mueller%20et%20al.%202012).csv	attainable
 downloadDataLink	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Attainable%20yields%20(Mueller%20et%20al.%202012)/Attainable%20yields%20(Mueller%20et%20al.%202012).csv
-hideTitleAnnotation	true
+hideAnnotationFieldsInTitle	true
 pickerColumnSlugs
 graphers
-	title	subtitle	Crop Dropdown	Metric Radio	tableSlug	ySlugs	yScaleToggle	xSlug	colorSlug	type	hasMapTab	grapherId	sourceDesc	note	hideTitleAnnotation
+	title	subtitle	Crop Dropdown	Metric Radio	tableSlug	ySlugs	yScaleToggle	xSlug	colorSlug	type	hasMapTab	grapherId	sourceDesc	note	hideAnnotationFieldsInTitle
 			Wheat	Actual yield								879
 	Wheat: Attainable yield	Attainable yields are estimates of feasible crop yields calculated from high-yielding areas of similar climate. They are more conservative than biophysical ‘potential yields’, but should be achievable using current technologies and management (e.g. fertilizers and irrigation). Attainable yields are based on assessments for the year 2000. Attainable yield pre-2000 may be lower; and post-2000 may be higher than these values.	Wheat	Attainable yield	attainable	wheat_attainable	false			DiscreteBar	true		Mueller, N. et al. (2012). Closing yield gaps through nutrient and water management. Nature.		true
 	Wheat: Yield gap	Yield gaps measure the difference between actual and attainable yields. Attainable yields are estimates of feasible crop yields calculated from high-yielding areas of similar climate. They are more conservative than biophysical ‘potential yields’, but should be achievable using current technologies and management (e.g. fertilizers and irrigation).	Wheat	Yield gap	attainable	wheat_yield_gap	false			LineChart	true		Our World in Data based on Mueller et al. (2012) and Food and Agriculture Organization of the United Nations	Attainable yields are based on assessments for the year 2000. Attainable yield pre-2000 may be lower; and post-2000 may be higher than these values.

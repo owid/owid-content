@@ -9,7 +9,7 @@ wpBlockId	47482
 entityType	source
 hasMapTab	false
 table	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Life-cycle%20impacts%20of%20energy%20sources%20(UNECE)/Life-cycle%20impacts%20of%20energy%20sources%20(UNECE).csv	energy
-hideTitleAnnotation	true
+hideAnnotationFieldsInTitle	true
 graphers
 	title	subtitle	Impact metric Dropdown	Sub-metric Dropdown	tableSlug	ySlugs	yScaleToggle	xSlug	baseColorScheme	type	hasMapTab	grapherId	sourceDesc	note	relatedQuestionUrl	relatedQuestionText
 	Greenhouse gas emissions per unit of electricity	Lifecycle greenhouse gas emissions measure amount of total greenhouse gases emitted over a technology's full supply chain. This includes emissions from the burning of fuels, in addition to those generated through the mining of materials, and production of energy technologies. This is measured per megawatt-hour of electricity.	Greenhouse gas emissions		energy	ghg_emissions	false		owid-distinct	DiscreteBar	false

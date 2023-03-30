@@ -10,7 +10,7 @@ downloadDataLink	https://covid.ourworldindata.org/data/vaccinations/us_state_vac
 thumbnail	https://ourworldindata.org/app/uploads/2021/01/vaccinations-usa-768x402.png
 pickerColumnSlugs	location population total_vaccinations_per_hundred people_vaccinated_per_hundred people_fully_vaccinated_per_hundred
 graphers
-	title	subtitle	Metric Dropdown	Interval Dropdown	Relative to Population Checkbox	ySlugs	yScaleToggle	xSlug	colorSlug	type	tableSlug	hideTitleAnnotation	hasMapTab	sortBy	sortColumnSlug
+	title	subtitle	Metric Dropdown	Interval Dropdown	Relative to Population Checkbox	ySlugs	yScaleToggle	xSlug	colorSlug	type	tableSlug	hideAnnotationFieldsInTitle	hasMapTab	sortBy	sortColumnSlug
 	US: Share of people who completed the initial COVID-19 vaccination protocol	Share of the total population who received all doses prescribed by the initial vaccination protocol.	People fully vaccinated	Cumulative	true	people_fully_vaccinated_per_hundred	true			LineChart		true
 	US: Number of people who received at least one dose of COVID-19 vaccine	Total number of people who received at least one vaccine dose. This may not equal the number of people that are fully vaccinated if the vaccine requires two doses.	People vaccinated	Cumulative	false	people_vaccinated	true			LineChart		true
 	US: Number of people who completed the initial COVID-19 vaccination protocol	Total number of people who received all doses prescribed by the initial vaccination protocol.	People fully vaccinated	Cumulative	false	people_fully_vaccinated	true			LineChart		true

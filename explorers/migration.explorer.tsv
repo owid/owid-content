@@ -9,7 +9,7 @@ subNavCurrentId
 wpBlockId	49910
 hasMapTab	true
 yAxisMin	0
-hideTitleAnnotation	true
+hideAnnotationFieldsInTitle	true
 tab	map
 graphers
 	title	subtitle	Metric Dropdown	Period Radio	Sub-metric Radio	tableSlug	ySlugs	yScaleToggle	xSlug	baseColorScheme	type	hasMapTab	note	relatedQuestionText	relatedQuestionUrl

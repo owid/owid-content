@@ -12,11 +12,11 @@ yAxisMin	0
 wpBlockId	43865
 table	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Water%20and%20Sanitation%20(WHO%20WASH%2C%202021)/Water%20and%20Sanitation%20(WHO%20WASH%2C%202021).csv	water
 downloadDataLink
-hideTitleAnnotation	true
+hideAnnotationFieldsInTitle	true
 pickerColumnSlugs
 
 graphers
-	title	subtitle	Resource Radio	Level of Access Dropdown	Residence Radio	Relative to population Radio	tableSlug	ySlugs	yScaleToggle	xSlug	colorSlug	type	hasMapTab	grapherId	sourceDesc	note	hideTitleAnnotation	tab
+	title	subtitle	Resource Radio	Level of Access Dropdown	Residence Radio	Relative to population Radio	tableSlug	ySlugs	yScaleToggle	xSlug	colorSlug	type	hasMapTab	grapherId	sourceDesc	note	hideAnnotationFieldsInTitle	tab
 	Share of the population with access to safely managed drinking water	Safely managed drinking water is water from an improved water source which is located on premises, available when needed and free from contamination.	Drinking water	Safely managed	Total	Share of population	water	wat_sm	false			LineChart	true					map
 	Share of the population with access to basic drinking water	Basic drinking water is water from an improved source, where the collection time is not more than 30 minutes for a roundtrip.	Drinking water	Basic	Total	Share of population	water	wat_bas	false			LineChart	true					map
 	Share of the population that relies on limited drinking water facilities	Limited drinking water is water from an improved source, where the collection time exceeds 30 minutes for a roundtrip.	Drinking water	Limited	Total	Share of population	water	wat_lim	false			LineChart	true					map

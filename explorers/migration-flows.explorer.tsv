@@ -9,7 +9,7 @@ subNavId
 subNavCurrentId
 hasMapTab	true
 yAxisMin	0
-hideTitleAnnotation	true
+hideAnnotationFieldsInTitle	true
 tab	map
 graphers
 	title	subtitle	Select a country Dropdown	Outflow or Inflow Radio	tableSlug	ySlugs	yScaleToggle	xSlug	baseColorScheme	type	hasMapTab	note

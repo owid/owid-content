@@ -7,7 +7,7 @@ subNavId
 entityType	country
 hasMapTab	true
 table	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Agricultural%20total%20factor%20productivity%20(USDA)/Agricultural%20total%20factor%20productivity%20(USDA).csv	agri
-hideTitleAnnotation	true
+hideAnnotationFieldsInTitle	true
 graphers
 	title	subtitle	Inputs, Output or Productivity Radio	Metric Dropdown	tableSlug	ySlugs	yScaleToggle	xSlug	baseColorScheme	type	hasMapTab	grapherId	sourceDesc	note
 			Inputs	Index	agri	inputs	true		owid-distinct	LineChart	true

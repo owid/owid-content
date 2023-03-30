@@ -7,7 +7,7 @@ hideAlertBanner	true
 subNavId
 wpBlockId
 thumbnail
-hideTitleAnnotation	false
+hideAnnotationFieldsInTitle	false
 table	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Land%20use%20for%20biofuels/Land%20use%20for%20biofuels.csv	biofuels
 graphers
 	title	subtitle	Biofuel or Crop Radio	Crop used Dropdown	Metric Dropdown	tableSlug	ySlugs	yScaleToggle	baseColorScheme	type	grapherId	hasMapTab	yAxisMin	sourceDesc	tab	defaultView	timelineMinTime

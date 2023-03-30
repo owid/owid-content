@@ -9,7 +9,7 @@ subNavCurrentId
 thumbnail	https://owid.cloud/app/uploads/2022/03/Fossil-Fuels-Data-Explorer.png
 hasMapTab	true
 yAxisMin	0
-hideTitleAnnotation	true
+hideAnnotationFieldsInTitle	true
 tab	map
 
 graphers

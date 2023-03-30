@@ -8,7 +8,7 @@ subNavCurrentId
 thumbnail
 hasMapTab	false
 yAxisMin	0
-hideTitleAnnotation	true
+hideAnnotationFieldsInTitle	true
 tab	chart
 graphers
 	title	subtitle	Commodity Dropdown	tableSlug	ySlugs	yScaleToggle	xSlug	baseColorScheme	type	note

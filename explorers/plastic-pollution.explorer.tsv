@@ -7,7 +7,7 @@ hideAlertBanner	true
 subNavId
 wpBlockId	52472
 thumbnail	https://owid.cloud/app/uploads/2022/08/Plastic-Waste-Data-Explorer.png
-hideTitleAnnotation	false
+hideAnnotationFieldsInTitle	false
 table	https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Plastic%20waste%20trade%20(UN%20Comtrade%2C%202022)/Plastic%20waste%20trade%20(UN%20Comtrade%2C%202022).csv	trade
 graphers
 	title	subtitle	Metric Dropdown	Sub-metric Dropdown	Per capita Checkbox	Share of world total Checkbox	tableSlug	ySlugs	yScaleToggle	baseColorScheme	type	grapherId	hasMapTab	yAxisMin	sourceDesc	tab	defaultView
