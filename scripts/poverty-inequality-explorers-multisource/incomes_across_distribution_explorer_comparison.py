@@ -36,6 +36,20 @@ source_checkbox = pd.read_csv(
     url, keep_default_na=False, dtype={"pip": "str", "wid": "str", "lis": "str"}
 )
 
+# Deciles9 sheet (needed to handle thresholds data)
+sheet_name = "deciles9"
+url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
+deciles9 = pd.read_csv(
+    url, keep_default_na=False, dtype={"dropdown": "str", "decile": "str"}
+)
+
+# Deciles10 sheet (needed to handle average and share data)
+sheet_name = "deciles10"
+url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
+deciles10 = pd.read_csv(
+    url, keep_default_na=False, dtype={"dropdown": "str", "decile": "str"}
+)
+
 # LUXEMBOURG INCOME STUDY
 # Read Google sheets
 sheet_id = "1UFdwB1iBpP2tEP6GtxCHvW1GGhjsFflh42FWR80rYIg"
@@ -189,6 +203,76 @@ for tab in range(len(pip_tables)):
     df_tables_pip.loc[j, "type"] = "Year"
     j += 1
 
+    # I need the original variables to not break the aggregations
+    # mean
+    df_tables_pip.loc[j, "name"] = f"Mean {pip_tables.text[tab]} (PIP)"
+    df_tables_pip.loc[j, "slug"] = "mean"
+    df_tables_pip.loc[
+        j, "description"
+    ] = f"The mean level of {pip_tables.text[tab]} per day."
+    df_tables_pip.loc[j, "unit"] = "international-$ in 2017 prices"
+    df_tables_pip.loc[j, "shortUnit"] = "$"
+    df_tables_pip.loc[j, "type"] = "Numeric"
+    df_tables_pip.loc[j, "colorScaleNumericBins"] = "1;2;5;10;20;50;100;100.0001"
+    df_tables_pip.loc[j, "colorScaleScheme"] = "BuGn"
+    j += 1
+
+    # median
+    df_tables_pip.loc[j, "name"] = f"Median {pip_tables.text[tab]} (PIP)"
+    df_tables_pip.loc[j, "slug"] = "median"
+    df_tables_pip.loc[
+        j, "description"
+    ] = f"The level of {pip_tables.text[tab]} per day below which half of the population live."
+    df_tables_pip.loc[j, "unit"] = "international-$ in 2017 prices"
+    df_tables_pip.loc[j, "shortUnit"] = "$"
+    df_tables_pip.loc[j, "type"] = "Numeric"
+    df_tables_pip.loc[j, "colorScaleNumericBins"] = "1;2;5;10;20;50;100;100.0001"
+    df_tables_pip.loc[j, "colorScaleScheme"] = "Blues"
+    j += 1
+
+    for dec9 in range(len(pip_deciles9)):
+        # thresholds
+        df_tables_pip.loc[j, "name"] = f"{pip_deciles9.ordinal[dec9]} (PIP)"
+        df_tables_pip.loc[j, "slug"] = f"decile{pip_deciles9.decile[dec9]}_thr"
+        df_tables_pip.loc[
+            j, "description"
+        ] = f"The level of {pip_tables.text[tab]} per day below which {pip_deciles9.decile[dec9]}0% of the population falls."
+        df_tables_pip.loc[j, "unit"] = "international-$ in 2017 prices"
+        df_tables_pip.loc[j, "shortUnit"] = "$"
+        df_tables_pip.loc[j, "type"] = "Numeric"
+        df_tables_pip.loc[j, "colorScaleNumericBins"] = "1;2;5;10;20;50;100;100.0001"
+        df_tables_pip.loc[j, "colorScaleScheme"] = "Purples"
+        j += 1
+
+    for dec10 in range(len(pip_deciles10)):
+        # averages
+        df_tables_pip.loc[j, "name"] = f"{pip_deciles10.ordinal[dec10]} (PIP)"
+        df_tables_pip.loc[j, "slug"] = f"decile{pip_deciles10.decile[dec10]}_avg"
+        df_tables_pip.loc[
+            j, "description"
+        ] = f"The mean {pip_tables.text[tab]} per day within the {pip_deciles10.ordinal[dec10]} (tenth of the population)."
+        df_tables_pip.loc[j, "unit"] = "international-$ in 2017 prices"
+        df_tables_pip.loc[j, "shortUnit"] = "$"
+        df_tables_pip.loc[j, "type"] = "Numeric"
+        df_tables_pip.loc[j, "colorScaleNumericBins"] = "1;2;5;10;20;50;100;100.0001"
+        df_tables_pip.loc[j, "colorScaleScheme"] = "Greens"
+        j += 1
+
+    for dec10 in range(len(pip_deciles10)):
+        # shares
+        df_tables_pip.loc[j, "name"] = f"{pip_deciles10.ordinal[dec10]} (PIP)"
+        df_tables_pip.loc[j, "slug"] = f"decile{pip_deciles10.decile[dec10]}_share"
+        df_tables_pip.loc[
+            j, "description"
+        ] = f"The {pip_tables.text[tab]} of the {pip_deciles10.ordinal[dec10]} (tenth of the population) as a share of total {pip_tables.text[tab]}."
+        df_tables_pip.loc[j, "unit"] = "%"
+        df_tables_pip.loc[j, "shortUnit"] = "%"
+        df_tables_pip.loc[j, "type"] = "Numeric"
+        df_tables_pip.loc[j, "colorScaleNumericBins"] = pip_deciles10.scale_share[dec10]
+        df_tables_pip.loc[j, "colorScaleScheme"] = "OrRd"
+        j += 1
+
+    # Daily, monthly, annual aggregations
     for agg in range(len(pip_income_aggregation)):
         # mean
         df_tables_pip.loc[j, "name"] = f"Mean {pip_tables.text[tab]} (PIP)"
@@ -270,20 +354,6 @@ for tab in range(len(pip_tables)):
             ] = f"multiplyBy decile{pip_deciles10.decile[dec10]}_avg {pip_income_aggregation.multiplier[agg]}"
             j += 1
 
-    for dec10 in range(len(pip_deciles10)):
-        # shares
-        df_tables_pip.loc[j, "name"] = f"{pip_deciles10.ordinal[dec10]} (PIP)"
-        df_tables_pip.loc[j, "slug"] = f"decile{pip_deciles10.decile[dec10]}_share"
-        df_tables_pip.loc[
-            j, "description"
-        ] = f"The {pip_tables.text[tab]} of the {pip_deciles10.ordinal[dec10]} (tenth of the population) as a share of total {pip_tables.text[tab]}."
-        df_tables_pip.loc[j, "unit"] = "%"
-        df_tables_pip.loc[j, "shortUnit"] = "%"
-        df_tables_pip.loc[j, "type"] = "Numeric"
-        df_tables_pip.loc[j, "colorScaleNumericBins"] = pip_deciles10.scale_share[dec10]
-        df_tables_pip.loc[j, "colorScaleScheme"] = "OrRd"
-        j += 1
-
 df_tables_pip["tableSlug"] = tableSlug
 df_tables_pip["sourceName"] = sourceName
 df_tables_pip["dataPublishedBy"] = dataPublishedBy
@@ -311,6 +381,96 @@ j = 0
 
 for tab in range(len(merged_tables)):
     for wel in range(len(wid_welfare)):
+        # I need the original variables to not break the aggregations
+        # Mean
+        df_tables_wid.loc[j, "name"] = f"Mean {wid_welfare['welfare_type'][wel]} (WID)"
+        df_tables_wid.loc[j, "slug"] = f"p0p100_avg_{wid_welfare['slug'][wel]}"
+        df_tables_wid.loc[
+            j, "description"
+        ] = f"Mean {wid_welfare['welfare_type'][wel]}.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} {wid_welfare['note'][wel]}"
+        df_tables_wid.loc[j, "unit"] = "international-$ in 2021 prices"
+        df_tables_wid.loc[j, "shortUnit"] = "$"
+        df_tables_wid.loc[j, "type"] = "Numeric"
+        df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare["scale_mean"][wel]
+        df_tables_wid.loc[j, "colorScaleScheme"] = "BuGn"
+        j += 1
+
+        # Median
+        df_tables_wid.loc[
+            j, "name"
+        ] = f"Median {wid_welfare['welfare_type'][wel]} (WID)"
+        df_tables_wid.loc[j, "slug"] = f"median_{wid_welfare['slug'][wel]}"
+        df_tables_wid.loc[
+            j, "description"
+        ] = f"This is the level of {wid_welfare['welfare_type'][wel]} below which 50% of the population falls.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} {wid_welfare['note'][wel]}"
+        df_tables_wid.loc[j, "unit"] = "international-$ in 2021 prices"
+        df_tables_wid.loc[j, "shortUnit"] = "$"
+        df_tables_wid.loc[j, "type"] = "Numeric"
+        df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare["scale_median"][wel]
+        df_tables_wid.loc[j, "colorScaleScheme"] = "Blues"
+        j += 1
+
+        # Thresholds - Deciles
+        for dec9 in range(len(wid_deciles9)):
+            df_tables_wid.loc[
+                j, "name"
+            ] = f"{wid_deciles9['ordinal'][dec9].capitalize()} (WID)"
+            df_tables_wid.loc[
+                j, "slug"
+            ] = f"{wid_deciles9['wid_notation'][dec9]}_thr_{wid_welfare['slug'][wel]}"
+            df_tables_wid.loc[
+                j, "description"
+            ] = f"The level of {wid_welfare['welfare_type'][wel]} below which {wid_deciles9['decile'][dec9]}0% of the population falls.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} {wid_welfare['note'][wel]}"
+            df_tables_wid.loc[j, "unit"] = "international-$ in 2021 prices"
+            df_tables_wid.loc[j, "shortUnit"] = "$"
+            df_tables_wid.loc[j, "type"] = "Numeric"
+            df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_deciles9["scale_thr"][
+                dec9
+            ]
+            df_tables_wid.loc[j, "colorScaleScheme"] = "Purples"
+            j += 1
+
+        # Averages - Deciles
+        for dec10 in range(len(wid_deciles10)):
+            df_tables_wid.loc[
+                j, "name"
+            ] = f"{wid_deciles10['ordinal'][dec10].capitalize()} (WID)"
+            df_tables_wid.loc[
+                j, "slug"
+            ] = f"{wid_deciles10['wid_notation'][dec10]}_avg_{wid_welfare['slug'][wel]}"
+            df_tables_wid.loc[
+                j, "description"
+            ] = f"This is the mean {wid_welfare['welfare_type'][wel]} within the {wid_deciles10['ordinal'][dec10]} (tenth of the population).{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} {wid_welfare['note'][wel]}"
+            df_tables_wid.loc[j, "unit"] = "international-$ in 2021 prices"
+            df_tables_wid.loc[j, "shortUnit"] = "$"
+            df_tables_wid.loc[j, "type"] = "Numeric"
+            df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_deciles10["scale_avg"][
+                dec10
+            ]
+            df_tables_wid.loc[j, "colorScaleScheme"] = "Greens"
+            j += 1
+
+        # Shares - Deciles
+        for dec10 in range(len(wid_deciles10)):
+            df_tables_wid.loc[
+                j, "name"
+            ] = f"{wid_deciles10['ordinal'][dec10].capitalize()} (WID)"
+            df_tables_wid.loc[
+                j, "slug"
+            ] = f"{wid_deciles10['wid_notation'][dec10]}_share_{wid_welfare['slug'][wel]}"
+            df_tables_wid.loc[
+                j, "description"
+            ] = f"This is the {wid_welfare['welfare_type'][wel]} of the {wid_deciles10['ordinal'][dec10]} (tenth of the population) as a share of total {wid_welfare['welfare_type'][wel]}.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} {wid_welfare['note'][wel]}"
+            df_tables_wid.loc[j, "unit"] = "%"
+            df_tables_wid.loc[j, "shortUnit"] = "%"
+            df_tables_wid.loc[j, "type"] = "Numeric"
+            df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_deciles10[
+                "scale_share"
+            ][dec10]
+            df_tables_wid.loc[j, "colorScaleScheme"] = "OrRd"
+            j += 1
+
+        # Daily, monthly, annual aggregations
         for agg in range(len(wid_income_aggregation)):
             # Mean
             df_tables_wid.loc[
@@ -402,26 +562,6 @@ for tab in range(len(merged_tables)):
                 ] = f"multiplyBy {wid_deciles10['wid_notation'][dec10]}_avg_{wid_welfare['slug'][wel]} {wid_income_aggregation['multiplier'][agg]}"
                 j += 1
 
-        # Shares - Deciles
-        for dec10 in range(len(wid_deciles10)):
-            df_tables_wid.loc[
-                j, "name"
-            ] = f"{wid_deciles10['ordinal'][dec10].capitalize()} (WID)"
-            df_tables_wid.loc[
-                j, "slug"
-            ] = f"{wid_deciles10['wid_notation'][dec10]}_share_{wid_welfare['slug'][wel]}"
-            df_tables_wid.loc[
-                j, "description"
-            ] = f"This is the {wid_welfare['welfare_type'][wel]} of the {wid_deciles10['ordinal'][dec10]} (tenth of the population) as a share of total {wid_welfare['welfare_type'][wel]}.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} {wid_welfare['note'][wel]}"
-            df_tables_wid.loc[j, "unit"] = "%"
-            df_tables_wid.loc[j, "shortUnit"] = "%"
-            df_tables_wid.loc[j, "type"] = "Numeric"
-            df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_deciles10[
-                "scale_share"
-            ][dec10]
-            df_tables_wid.loc[j, "colorScaleScheme"] = "OrRd"
-            j += 1
-
     df_tables_wid["tableSlug"] = merged_tables["name"][tab]
 
 df_tables_wid["sourceName"] = sourceName
@@ -448,6 +588,106 @@ j = 0
 for tab in range(len(merged_tables)):
     for wel in range(len(lis_welfare)):
         for eq in range(len(lis_equivalence_scales)):
+            # I need the original variables to not break the aggregations
+            # Mean
+            df_tables_lis.loc[
+                j, "name"
+            ] = f"Mean {lis_welfare['welfare_type'][wel]} (LIS)"
+            df_tables_lis.loc[
+                j, "slug"
+            ] = f"mean_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
+            df_tables_lis.loc[
+                j, "description"
+            ] = f"Mean {lis_welfare['welfare_type'][wel]}.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}Household {lis_welfare['welfare_type'][wel]} {lis_equivalence_scales['note'][eq]}"
+            df_tables_lis.loc[j, "unit"] = "international-$ in 2017 prices"
+            df_tables_lis.loc[j, "shortUnit"] = "$"
+            df_tables_lis.loc[j, "type"] = "Numeric"
+            df_tables_lis.loc[j, "colorScaleNumericBins"] = lis_welfare["scale_mean"][
+                wel
+            ]
+            df_tables_lis.loc[j, "colorScaleScheme"] = "BuGn"
+            j += 1
+
+            # Median
+            df_tables_lis.loc[
+                j, "name"
+            ] = f"Median {lis_welfare['welfare_type'][wel]} (LIS)"
+            df_tables_lis.loc[
+                j, "slug"
+            ] = f"median_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
+            df_tables_lis.loc[
+                j, "description"
+            ] = f"The level of {lis_welfare['welfare_type'][wel]} below which half of the population live.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}Household {lis_welfare['welfare_type'][wel]} {lis_equivalence_scales['note'][eq]}"
+            df_tables_lis.loc[j, "unit"] = "international-$ in 2017 prices"
+            df_tables_lis.loc[j, "shortUnit"] = "$"
+            df_tables_lis.loc[j, "type"] = "Numeric"
+            df_tables_lis.loc[j, "colorScaleNumericBins"] = lis_welfare["scale_median"][
+                wel
+            ]
+            df_tables_lis.loc[j, "colorScaleScheme"] = "Blues"
+            j += 1
+
+            # Thresholds - Deciles
+            for dec9 in range(len(lis_deciles9)):
+                df_tables_lis.loc[
+                    j, "name"
+                ] = f"{lis_deciles9['ordinal'][dec9].capitalize()} (LIS)"
+                df_tables_lis.loc[
+                    j, "slug"
+                ] = f"thr_{lis_deciles9['lis_notation'][dec9]}_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
+                df_tables_lis.loc[
+                    j, "description"
+                ] = f"The level of {lis_welfare['welfare_type'][wel]} below which {lis_deciles9['decile'][dec9]}0% of the population falls.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}Household {lis_welfare['welfare_type'][wel]} {lis_equivalence_scales['note'][eq]}"
+                df_tables_lis.loc[j, "unit"] = "international-$ in 2017 prices"
+                df_tables_lis.loc[j, "shortUnit"] = "$"
+                df_tables_lis.loc[j, "type"] = "Numeric"
+                df_tables_lis.loc[j, "colorScaleNumericBins"] = lis_deciles9[
+                    "scale_thr"
+                ][dec9]
+                df_tables_lis.loc[j, "colorScaleScheme"] = "Purples"
+                j += 1
+
+            # Averages - Deciles
+            for dec10 in range(len(lis_deciles10)):
+                df_tables_lis.loc[
+                    j, "name"
+                ] = f"{lis_deciles10['ordinal'][dec10].capitalize()} (LIS)"
+                df_tables_lis.loc[
+                    j, "slug"
+                ] = f"avg_{lis_deciles10['lis_notation'][dec10]}_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
+                df_tables_lis.loc[
+                    j, "description"
+                ] = f"This is the mean {lis_welfare['welfare_type'][wel]} within the {lis_deciles10['ordinal'][dec10]} (tenth of the population).{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}Household {lis_welfare['welfare_type'][wel]} {lis_equivalence_scales['note'][eq]}"
+                df_tables_lis.loc[j, "unit"] = "international-$ in 2017 prices"
+                df_tables_lis.loc[j, "shortUnit"] = "$"
+                df_tables_lis.loc[j, "type"] = "Numeric"
+                df_tables_lis.loc[j, "colorScaleNumericBins"] = lis_deciles10[
+                    "scale_avg"
+                ][dec10]
+                df_tables_lis.loc[j, "colorScaleScheme"] = "Greens"
+                j += 1
+
+            # Shares - Deciles
+            for dec10 in range(len(lis_deciles10)):
+                df_tables_lis.loc[
+                    j, "name"
+                ] = f"{lis_deciles10['ordinal'][dec10].capitalize()} (LIS)"
+                df_tables_lis.loc[
+                    j, "slug"
+                ] = f"share_{lis_deciles10['lis_notation'][dec10]}_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
+                df_tables_lis.loc[
+                    j, "description"
+                ] = f"This is the {lis_welfare['welfare_type'][wel]} of the {lis_deciles10['ordinal'][dec10]} (tenth of the population) as a share of total {lis_welfare['welfare_type'][wel]}.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}Household {lis_welfare['welfare_type'][wel]} {lis_equivalence_scales['note'][eq]}"
+                df_tables_lis.loc[j, "unit"] = "%"
+                df_tables_lis.loc[j, "shortUnit"] = "%"
+                df_tables_lis.loc[j, "type"] = "Numeric"
+                df_tables_lis.loc[j, "colorScaleNumericBins"] = lis_deciles10[
+                    "scale_share"
+                ][dec10]
+                df_tables_lis.loc[j, "colorScaleScheme"] = "OrRd"
+                j += 1
+
+            # Daily, monthly, annual aggregations
             for agg in range(len(lis_income_aggregation)):
                 # Mean
                 df_tables_lis.loc[
@@ -539,26 +779,6 @@ for tab in range(len(merged_tables)):
                     ] = f"multiplyBy avg_{lis_deciles10['lis_notation'][dec10]}_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]} {lis_income_aggregation['multiplier'][agg]}"
                     j += 1
 
-            # Shares - Deciles
-            for dec10 in range(len(lis_deciles10)):
-                df_tables_lis.loc[
-                    j, "name"
-                ] = f"{lis_deciles10['ordinal'][dec10].capitalize()} (LIS)"
-                df_tables_lis.loc[
-                    j, "slug"
-                ] = f"share_{lis_deciles10['lis_notation'][dec10]}_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
-                df_tables_lis.loc[
-                    j, "description"
-                ] = f"This is the {lis_welfare['welfare_type'][wel]} of the {lis_deciles10['ordinal'][dec10]} (tenth of the population) as a share of total {lis_welfare['welfare_type'][wel]}.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}Household {lis_welfare['welfare_type'][wel]} {lis_equivalence_scales['note'][eq]}"
-                df_tables_lis.loc[j, "unit"] = "%"
-                df_tables_lis.loc[j, "shortUnit"] = "%"
-                df_tables_lis.loc[j, "type"] = "Numeric"
-                df_tables_lis.loc[j, "colorScaleNumericBins"] = lis_deciles10[
-                    "scale_share"
-                ][dec10]
-                df_tables_lis.loc[j, "colorScaleScheme"] = "OrRd"
-                j += 1
-
     df_tables_lis["tableSlug"] = merged_tables["name"][tab]
 
 df_tables_lis["sourceName"] = sourceName
@@ -620,352 +840,103 @@ for tab in range(len(merged_tables)):
             df_graphers.loc[j, "yScaleToggle"] = "true"
             j += 1
 
-        #     # Median
-        #     df_graphers.loc[
-        #         j, "title"
-        #     ] = f"Median per {lis_income_aggregation['aggregation'][agg]} ({source_checkbox['type_title'][view]})"
-        #     df_graphers.loc[
-        #         j, "ySlugs"
-        #     ] = f"median_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
-        #     df_graphers.loc[j, "Metric Dropdown"] = "Median income or consumption"
-        #     df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
-        #     df_graphers.loc[j, "World Inequality Database Checkbox"] = source_checkbox[
-        #         "wid"
-        #     ][view]
-        #     df_graphers.loc[j, "Luxembourg Income Study Checkbox"] = source_checkbox[
-        #         "lis"
-        #     ][view]
-        #     df_graphers.loc[j, "Decile Dropdown"] = np.nan
-        #     df_graphers.loc[
-        #         j, "Welfare type Dropdown"
-        #     ] = f"{welfare['dropdown_option'][wel]}"
-        #     df_graphers.loc[j, "Equivalence scale Dropdown"] = equivalence_scales[
-        #         "text"
-        #     ][eq].capitalize()
-        #     df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
-        #         "checkbox"
-        #     ][rel_toggle]
-        #     df_graphers.loc[j, "stackMode"] = relative_toggle["stack_mode"][rel_toggle]
-        #     df_graphers.loc[
-        #         j, "subtitle"
-        #     ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]}"
-        #     df_graphers.loc[
-        #         j, "note"
-        #     ] = f"This data is measured in international-$ at 2017 prices."
-        #     df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
-        #     df_graphers.loc[j, "hasMapTab"] = "true"
-        #     df_graphers.loc[j, "tab"] = "map"
-        #     df_graphers.loc[j, "yScaleToggle"] = "true"
-        #     j += 1
+            # Median
+            df_graphers.loc[
+                j, "title"
+            ] = f"Median income per {lis_income_aggregation['aggregation'][agg]} ({source_checkbox['type_title'][view]})"
+            df_graphers.loc[j, "ySlugs"] = source_checkbox["median"][view].replace(
+                "{agg}", lis_income_aggregation["slug_suffix"][agg]
+            )
+            df_graphers.loc[j, "Metric Dropdown"] = "Median income or consumption"
+            df_graphers.loc[j, "Decile Dropdown"] = np.nan
+            df_graphers.loc[j, "PIP Checkbox"] = source_checkbox["pip"][view]
+            df_graphers.loc[j, "WID Checkbox"] = source_checkbox["wid"][view]
+            df_graphers.loc[j, "LIS Checkbox"] = source_checkbox["lis"][view]
+            df_graphers.loc[
+                j, "subtitle"
+            ] = f"This data is adjusted for inflation and for differences in the cost of living between countries."
+            df_graphers.loc[
+                j, "note"
+            ] = f"This data is measured in international-$ at 2017 prices."
+            df_graphers.loc[j, "yScaleToggle"] = "true"
+            j += 1
 
-        #     # Thresholds - Deciles
-        #     for dec9 in range(len(deciles9)):
-        #         df_graphers.loc[
-        #             j, "title"
-        #         ] = f"Threshold {welfare['welfare_type'][wel]} marking the {deciles9['ordinal'][dec9]} ({source_checkbox['type_title'][view]})"
-        #         df_graphers.loc[
-        #             j, "ySlugs"
-        #         ] = f"thr_{deciles9['lis_notation'][dec9]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
-        #         df_graphers.loc[j, "Metric Dropdown"] = "Decile thresholds"
-        #         df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][
-        #             view
-        #         ]
-        #         df_graphers.loc[
-        #             j, "World Inequality Database Checkbox"
-        #         ] = source_checkbox["wid"][view]
-        #         df_graphers.loc[
-        #             j, "Luxembourg Income Study Checkbox"
-        #         ] = source_checkbox["lis"][view]
-        #         df_graphers.loc[j, "Decile Dropdown"] = deciles9["dropdown"][dec9]
-        #         df_graphers.loc[
-        #             j, "Welfare type Dropdown"
-        #         ] = f"{welfare['dropdown_option'][wel]}"
-        #         df_graphers.loc[j, "Equivalence scale Dropdown"] = equivalence_scales[
-        #             "text"
-        #         ][eq].capitalize()
-        #         df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
-        #             "checkbox"
-        #         ][rel_toggle]
-        #         df_graphers.loc[j, "stackMode"] = relative_toggle["stack_mode"][
-        #             rel_toggle
-        #         ]
-        #         df_graphers.loc[
-        #             j, "subtitle"
-        #         ] = f"This is the level of {welfare['welfare_type'][wel]} below which {deciles9['decile'][dec9]}0% of the population falls. {welfare['subtitle'][wel]}"
-        #         df_graphers.loc[
-        #             j, "note"
-        #         ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
-        #         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
-        #         df_graphers.loc[j, "hasMapTab"] = "true"
-        #         df_graphers.loc[j, "tab"] = "map"
-        #         df_graphers.loc[j, "yScaleToggle"] = "true"
-        #         j += 1
+            # Thresholds - Deciles
+            for dec9 in range(len(deciles9)):
+                df_graphers.loc[
+                    j, "title"
+                ] = f"Threshold income marking the {deciles9['ordinal'][dec9]} ({source_checkbox['type_title'][view]})"
+                df_graphers.loc[j, "ySlugs"] = (
+                    source_checkbox["thr"][view]
+                    .replace("{agg}", lis_income_aggregation["slug_suffix"][agg])
+                    .replace("{dec9_pip}", deciles9["decile"][dec9])
+                    .replace("{dec9_wid}", deciles9["wid_notation"][dec9])
+                    .replace("{dec9_lis}", deciles9["lis_notation"][dec9])
+                )
+                df_graphers.loc[j, "Metric Dropdown"] = "Decile thresholds"
+                df_graphers.loc[j, "Decile Dropdown"] = deciles9["dropdown"][dec9]
+                df_graphers.loc[j, "PIP Checkbox"] = source_checkbox["pip"][view]
+                df_graphers.loc[j, "WID Checkbox"] = source_checkbox["wid"][view]
+                df_graphers.loc[j, "LIS Checkbox"] = source_checkbox["lis"][view]
+                df_graphers.loc[
+                    j, "subtitle"
+                ] = f"This is the level of income below which {deciles9['decile'][dec9]}0% of the population falls."
+                df_graphers.loc[
+                    j, "note"
+                ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+                df_graphers.loc[j, "yScaleToggle"] = "true"
+                j += 1
 
-        #     # Averages - Deciles
-        #     for dec10 in range(len(deciles10)):
-        #         df_graphers.loc[
-        #             j, "title"
-        #         ] = f"Mean {welfare['welfare_type'][wel]} within the {deciles10['ordinal'][dec10]} ({source_checkbox['type_title'][view]})"
-        #         df_graphers.loc[
-        #             j, "ySlugs"
-        #         ] = f"avg_{deciles10['lis_notation'][dec10]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
-        #         df_graphers.loc[
-        #             j, "Metric Dropdown"
-        #         ] = "Mean income or consumption, by decile"
-        #         df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][
-        #             view
-        #         ]
-        #         df_graphers.loc[
-        #             j, "World Inequality Database Checkbox"
-        #         ] = source_checkbox["wid"][view]
-        #         df_graphers.loc[
-        #             j, "Luxembourg Income Study Checkbox"
-        #         ] = source_checkbox["lis"][view]
-        #         df_graphers.loc[j, "Decile Dropdown"] = deciles10["dropdown"][dec10]
-        #         df_graphers.loc[
-        #             j, "Welfare type Dropdown"
-        #         ] = f"{welfare['dropdown_option'][wel]}"
-        #         df_graphers.loc[j, "Equivalence scale Dropdown"] = equivalence_scales[
-        #             "text"
-        #         ][eq].capitalize()
-        #         df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
-        #             "checkbox"
-        #         ][rel_toggle]
-        #         df_graphers.loc[j, "stackMode"] = relative_toggle["stack_mode"][
-        #             rel_toggle
-        #         ]
-        #         df_graphers.loc[
-        #             j, "subtitle"
-        #         ] = f"This is the mean {welfare['welfare_type'][wel]} within the {deciles10['ordinal'][dec10]} (tenth of the population). {welfare['subtitle'][wel]}"
-        #         df_graphers.loc[
-        #             j, "note"
-        #         ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
-        #         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
-        #         df_graphers.loc[j, "hasMapTab"] = "true"
-        #         df_graphers.loc[j, "tab"] = "map"
-        #         df_graphers.loc[j, "yScaleToggle"] = "true"
-        #         j += 1
+            # Averages - Deciles
+            for dec10 in range(len(deciles10)):
+                df_graphers.loc[
+                    j, "title"
+                ] = f"Mean income within the {deciles10['ordinal'][dec10]} ({source_checkbox['type_title'][view]})"
+                df_graphers.loc[j, "ySlugs"] = (
+                    source_checkbox["avg"][view]
+                    .replace("{agg}", lis_income_aggregation["slug_suffix"][agg])
+                    .replace("{dec10_pip}", deciles10["decile"][dec10])
+                    .replace("{dec10_wid}", deciles10["wid_notation"][dec10])
+                    .replace("{dec10_lis}", deciles10["lis_notation"][dec10])
+                )
+                df_graphers.loc[
+                    j, "Metric Dropdown"
+                ] = "Mean income or consumption, by decile"
+                df_graphers.loc[j, "Decile Dropdown"] = deciles10["dropdown"][dec10]
+                df_graphers.loc[j, "PIP Checkbox"] = source_checkbox["pip"][view]
+                df_graphers.loc[j, "WID Checkbox"] = source_checkbox["wid"][view]
+                df_graphers.loc[j, "LIS Checkbox"] = source_checkbox["lis"][view]
+                df_graphers.loc[
+                    j, "subtitle"
+                ] = f"This is the mean income within the {deciles10['ordinal'][dec10]} (tenth of the population)."
+                df_graphers.loc[
+                    j, "note"
+                ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+                df_graphers.loc[j, "yScaleToggle"] = "true"
+                j += 1
 
-        # # Shares - Deciles
-        # for dec10 in range(len(deciles10)):
-        #     df_graphers.loc[
-        #         j, "title"
-        #     ] = f"{welfare['welfare_type'][wel].capitalize()} share of the {deciles10['ordinal'][dec10]} ({source_checkbox['type_title'][view]})"
-        #     df_graphers.loc[
-        #         j, "ySlugs"
-        #     ] = f"share_{deciles10['lis_notation'][dec10]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
-        #     df_graphers.loc[j, "Metric Dropdown"] = "Decile shares"
-        #     df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
-        #     df_graphers.loc[j, "World Inequality Database Checkbox"] = source_checkbox[
-        #         "wid"
-        #     ][view]
-        #     df_graphers.loc[j, "Luxembourg Income Study Checkbox"] = source_checkbox[
-        #         "lis"
-        #     ][view]
-        #     df_graphers.loc[j, "Decile Dropdown"] = deciles10["dropdown"][dec10]
-        #     df_graphers.loc[
-        #         j, "Welfare type Dropdown"
-        #     ] = f"{welfare['dropdown_option'][wel]}"
-        #     df_graphers.loc[j, "Equivalence scale Dropdown"] = equivalence_scales[
-        #         "text"
-        #     ][eq].capitalize()
-        #     df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
-        #         "checkbox"
-        #     ][rel_toggle]
-        #     df_graphers.loc[j, "stackMode"] = relative_toggle["stack_mode"][rel_toggle]
-        #     df_graphers.loc[
-        #         j, "subtitle"
-        #     ] = f"This is the {welfare['welfare_type'][wel]} of the {deciles10['ordinal'][dec10]} (tenth of the population) as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
-        #     df_graphers.loc[j, "note"] = np.nan
-        #     df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
-        #     df_graphers.loc[j, "hasMapTab"] = "true"
-        #     df_graphers.loc[j, "tab"] = "map"
-        #     j += 1
-
-        # # Gini coefficient
-        # df_graphers.loc[
-        #     j, "title"
-        # ] = f"Income inequality: Gini coefficient ({source_checkbox['type_title'][view]})"
-        # df_graphers.loc[j, "ySlugs"] = source_checkbox["gini"][view]
-        # df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
-        #     view
-        # ].capitalize()
-        # df_graphers.loc[j, "Metric Dropdown"] = "Gini coefficient"
-        # df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
-        # df_graphers.loc[j, "World Inequality Database Checkbox"] = source_checkbox[
-        #     "wid"
-        # ][view]
-        # df_graphers.loc[j, "Luxembourg Income Study Checkbox"] = source_checkbox["lis"][
-        #     view
-        # ]
-        # df_graphers.loc[
-        #     j, "subtitle"
-        # ] = f"The Gini coefficient is a measure of the inequality of the income distribution in a population. Higher values indicate a higher level of inequality."
-        # df_graphers.loc[j, "note"] = ""
-        # df_graphers.loc[j, "type"] = np.nan
-        # j += 1
-
-        # # Share of the top 10%
-        # df_graphers.loc[
-        #     j, "title"
-        # ] = f"Income share of the top 10% ({source_checkbox['type_title'][view]})"
-        # df_graphers.loc[j, "ySlugs"] = source_checkbox["top10"][view]
-        # df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
-        #     view
-        # ].capitalize()
-        # df_graphers.loc[j, "Metric Dropdown"] = "Top 10% share"
-        # df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
-        # df_graphers.loc[j, "World Inequality Database Checkbox"] = source_checkbox[
-        #     "wid"
-        # ][view]
-        # df_graphers.loc[j, "Luxembourg Income Study Checkbox"] = source_checkbox["lis"][
-        #     view
-        # ]
-        # df_graphers.loc[
-        #     j, "subtitle"
-        # ] = f"This is the income of the richest 10% as a share of total income."
-        # df_graphers.loc[j, "note"] = ""
-        # df_graphers.loc[j, "type"] = np.nan
-        # j += 1
-
-        # # Share of the bottom 50%
-        # df_graphers.loc[
-        #     j, "title"
-        # ] = f"Income share of the bottom 50% ({source_checkbox['type_title'][view]})"
-        # df_graphers.loc[j, "ySlugs"] = source_checkbox["bottom50"][view]
-        # df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
-        #     view
-        # ].capitalize()
-        # df_graphers.loc[j, "Metric Dropdown"] = "Bottom 50% share"
-        # df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
-        # df_graphers.loc[j, "World Inequality Database Checkbox"] = source_checkbox[
-        #     "wid"
-        # ][view]
-        # df_graphers.loc[j, "Luxembourg Income Study Checkbox"] = source_checkbox["lis"][
-        #     view
-        # ]
-        # df_graphers.loc[
-        #     j, "subtitle"
-        # ] = f"This is the income of the poorest 50% as a share of total income."
-        # df_graphers.loc[j, "note"] = ""
-        # j += 1
-
-        # # P90/P10
-        # df_graphers.loc[
-        #     j, "title"
-        # ] = f"Income inequality: P90/P10 ratio ({source_checkbox['type_title'][view]})"
-        # df_graphers.loc[j, "ySlugs"] = source_checkbox["p90_p10"][view]
-        # df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
-        #     view
-        # ].capitalize()
-        # df_graphers.loc[j, "Metric Dropdown"] = "P90/P10"
-        # df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
-        # df_graphers.loc[j, "World Inequality Database Checkbox"] = source_checkbox[
-        #     "wid"
-        # ][view]
-        # df_graphers.loc[j, "Luxembourg Income Study Checkbox"] = source_checkbox["lis"][
-        #     view
-        # ]
-        # df_graphers.loc[
-        #     j, "subtitle"
-        # ] = f"P90 and P10 are the levels of income below which 90% and 10% of the population live, respectively. This variable gives the ratio of the two. It is a measure of inequality that indicates the gap between the richest and poorest tenth of the population."
-        # df_graphers.loc[j, "note"] = ""
-        # df_graphers.loc[j, "type"] = np.nan
-        # j += 1
-
-        # # P90/P50
-        # df_graphers.loc[
-        #     j, "title"
-        # ] = f"Income inequality: P90/P50 ratio ({source_checkbox['type_title'][view]})"
-        # df_graphers.loc[j, "ySlugs"] = source_checkbox["p90_p50"][view]
-        # df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
-        #     view
-        # ].capitalize()
-        # df_graphers.loc[j, "Metric Dropdown"] = "P90/P50"
-        # df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
-        # df_graphers.loc[j, "World Inequality Database Checkbox"] = source_checkbox[
-        #     "wid"
-        # ][view]
-        # df_graphers.loc[j, "Luxembourg Income Study Checkbox"] = source_checkbox["lis"][
-        #     view
-        # ]
-        # df_graphers.loc[
-        #     j, "subtitle"
-        # ] = f"The P90/P50 ratio measures the degree of inequality within the richest half of the population. A ratio of 2 means that someone just falling in the richest tenth of the population has twice the median income."
-        # df_graphers.loc[j, "note"] = ""
-        # df_graphers.loc[j, "type"] = np.nan
-        # j += 1
-
-        # # P50/P10
-        # df_graphers.loc[
-        #     j, "title"
-        # ] = f"Income inequality: P50/P10 ratio ({source_checkbox['type_title'][view]})"
-        # df_graphers.loc[j, "ySlugs"] = source_checkbox["p50_p10"][view]
-        # df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
-        #     view
-        # ].capitalize()
-        # df_graphers.loc[j, "Metric Dropdown"] = "P50/P10"
-        # df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
-        # df_graphers.loc[j, "World Inequality Database Checkbox"] = source_checkbox[
-        #     "wid"
-        # ][view]
-        # df_graphers.loc[j, "Luxembourg Income Study Checkbox"] = source_checkbox["lis"][
-        #     view
-        # ]
-        # df_graphers.loc[
-        #     j, "subtitle"
-        # ] = f"The P50/P10 ratio measures the degree of inequality within the poorest half of the population. A ratio of 2 means that the median income is two times higher than that of someone just falling in the poorest tenth of the population."
-        # df_graphers.loc[j, "note"] = ""
-        # df_graphers.loc[j, "type"] = np.nan
-        # j += 1
-
-        # # Palma ratio
-        # df_graphers.loc[
-        #     j, "title"
-        # ] = f"Income inequality: Palma ratio ({source_checkbox['type_title'][view]})"
-        # df_graphers.loc[j, "ySlugs"] = source_checkbox["palma"][view]
-        # df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
-        #     view
-        # ].capitalize()
-        # df_graphers.loc[j, "Metric Dropdown"] = "Palma ratio"
-        # df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
-        # df_graphers.loc[j, "World Inequality Database Checkbox"] = source_checkbox[
-        #     "wid"
-        # ][view]
-        # df_graphers.loc[j, "Luxembourg Income Study Checkbox"] = source_checkbox["lis"][
-        #     view
-        # ]
-        # df_graphers.loc[
-        #     j, "subtitle"
-        # ] = f"The Palma ratio is the share of total income of the top 10% divided by the share of the bottom 40%."
-        # df_graphers.loc[j, "note"] = ""
-        # df_graphers.loc[j, "type"] = np.nan
-        # j += 1
-
-        # # Headcount ratio (rel)
-        # df_graphers.loc[
-        #     j, "title"
-        # ] = f"Relative poverty: Share of people below 50% of the median income ({source_checkbox['type_title'][view]})"
-        # df_graphers.loc[j, "ySlugs"] = source_checkbox["relative"][view]
-        # df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
-        #     view
-        # ].capitalize()
-        # df_graphers.loc[
-        #     j, "Metric Dropdown"
-        # ] = f"Share in relative poverty (< 50% of the median)"
-        # df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
-        # df_graphers.loc[j, "World Inequality Database Checkbox"] = source_checkbox[
-        #     "wid"
-        # ][view]
-        # df_graphers.loc[j, "Luxembourg Income Study Checkbox"] = source_checkbox["lis"][
-        #     view
-        # ]
-        # df_graphers.loc[
-        #     j, "subtitle"
-        # ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at 50% of the median income."
-        # df_graphers.loc[j, "note"] = ""
-        # df_graphers.loc[j, "type"] = np.nan
-        # j += 1
+        # Shares - Deciles
+        for dec10 in range(len(deciles10)):
+            df_graphers.loc[
+                j, "title"
+            ] = f"Income share of the {deciles10['ordinal'][dec10]} ({source_checkbox['type_title'][view]})"
+            df_graphers.loc[j, "ySlugs"] = (
+                source_checkbox["share"][view]
+                .replace("{agg}", lis_income_aggregation["slug_suffix"][agg])
+                .replace("{dec10_pip}", deciles10["decile"][dec10])
+                .replace("{dec10_wid}", deciles10["wid_notation"][dec10])
+                .replace("{dec10_lis}", deciles10["lis_notation"][dec10])
+            )
+            df_graphers.loc[j, "Metric Dropdown"] = "Decile shares"
+            df_graphers.loc[j, "Decile Dropdown"] = deciles10["dropdown"][dec10]
+            df_graphers.loc[j, "PIP Checkbox"] = source_checkbox["pip"][view]
+            df_graphers.loc[j, "WID Checkbox"] = source_checkbox["wid"][view]
+            df_graphers.loc[j, "LIS Checkbox"] = source_checkbox["lis"][view]
+            df_graphers.loc[
+                j, "subtitle"
+            ] = f"This is the income of the {deciles10['ordinal'][dec10]} (tenth of the population) as a share of total income."
+            df_graphers.loc[j, "note"] = np.nan
+            j += 1
 
     df_graphers["tableSlug"] = merged_tables["name"][tab]
 
