@@ -10,7 +10,7 @@ from multisource import (
     inequality_explorer_comparison,
     poverty_explorer_comparison,
 )
-from pip import (
+from wbpip import (
     pip_expanded_poverty_explorer,
     pip_incomes_across_distribution_explorer,
     pip_inequality_explorer,
