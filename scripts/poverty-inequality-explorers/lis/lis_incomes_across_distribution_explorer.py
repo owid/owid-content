@@ -265,7 +265,7 @@ for tab in range(len(tables)):
                 ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]}"
                 df_graphers.loc[
                     j, "note"
-                ] = f"This data is measured in international-$ at 2017 prices."
+                ] = f"This data is measured in international-$ at 2017 prices. {equivalence_scales['note'][eq]}"
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
                 df_graphers.loc[j, "hasMapTab"] = "true"
                 df_graphers.loc[j, "tab"] = "map"
@@ -298,7 +298,7 @@ for tab in range(len(tables)):
                 ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]}"
                 df_graphers.loc[
                     j, "note"
-                ] = f"This data is measured in international-$ at 2017 prices."
+                ] = f"This data is measured in international-$ at 2017 prices. {equivalence_scales['note'][eq]}"
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
                 df_graphers.loc[j, "hasMapTab"] = "true"
                 df_graphers.loc[j, "tab"] = "map"
@@ -332,7 +332,7 @@ for tab in range(len(tables)):
                     ] = f"This is the level of {welfare['welfare_type'][wel]} below which {deciles9['decile'][dec9]}0% of the population falls. {welfare['subtitle'][wel]}"
                     df_graphers.loc[
                         j, "note"
-                    ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+                    ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. {equivalence_scales['note'][eq]}"
                     df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
                     df_graphers.loc[j, "hasMapTab"] = "true"
                     df_graphers.loc[j, "tab"] = "map"
@@ -368,7 +368,7 @@ for tab in range(len(tables)):
                     ] = f"This is the mean {welfare['welfare_type'][wel]} within the {deciles10['ordinal'][dec10]} (tenth of the population). {welfare['subtitle'][wel]}"
                     df_graphers.loc[
                         j, "note"
-                    ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+                    ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. {equivalence_scales['note'][eq]}"
                     df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
                     df_graphers.loc[j, "hasMapTab"] = "true"
                     df_graphers.loc[j, "tab"] = "map"
@@ -400,7 +400,7 @@ for tab in range(len(tables)):
                     df_graphers.loc[
                         j, "subtitle"
                     ] = f"This is the {welfare['welfare_type'][wel]} of the {deciles10['ordinal'][dec10]} (tenth of the population) as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
-                    df_graphers.loc[j, "note"] = np.nan
+                    df_graphers.loc[j, "note"] = equivalence_scales["note"][eq]
                     df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
                     df_graphers.loc[j, "hasMapTab"] = "true"
                     df_graphers.loc[j, "tab"] = "map"
@@ -432,7 +432,7 @@ for tab in range(len(tables)):
                 ] = f"This is the level of income or consumption per year below which 10%, 20%, 30%, etc. of the population falls. {welfare['subtitle'][wel]}"
                 df_graphers.loc[
                     j, "note"
-                ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+                ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. {equivalence_scales['note'][eq]}"
                 df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
                 df_graphers.loc[j, "hasMapTab"] = "false"
                 df_graphers.loc[j, "tab"] = "chart"
@@ -467,7 +467,7 @@ for tab in range(len(tables)):
                 ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]}"
                 df_graphers.loc[
                     j, "note"
-                ] = f"This data is measured in international-$ at 2017 prices."
+                ] = f"This data is measured in international-$ at 2017 prices. {equivalence_scales['note'][eq]}"
                 df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
                 df_graphers.loc[j, "hasMapTab"] = "false"
                 df_graphers.loc[j, "tab"] = "chart"
@@ -498,7 +498,7 @@ for tab in range(len(tables)):
                 df_graphers.loc[
                     j, "subtitle"
                 ] = f"This is the {welfare['welfare_type'][wel]} of each decile (tenth of the population) as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
-                df_graphers.loc[j, "note"] = np.nan
+                df_graphers.loc[j, "note"] = equivalence_scales["note"][eq]
                 df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
                 df_graphers.loc[j, "hasMapTab"] = "false"
                 df_graphers.loc[j, "tab"] = "chart"
