@@ -119,7 +119,7 @@ for tab in range(len(tables)):
                 ] = f"headcount_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
                 df_tables.loc[
                     j, "description"
-                ] = f"% of population living in households with {welfare['welfare_type'][wel]} below ${povlines_abs['dollars_text'][p]} a day.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}Household {welfare['welfare_type'][wel]} {equivalence_scales['note'][eq]}"
+                ] = f"% of population living in households with {welfare['welfare_type'][wel]} below ${povlines_abs['dollars_text'][p]} a day.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}{equivalence_scales['note'][eq]}"
                 df_tables.loc[j, "unit"] = "%"
                 df_tables.loc[j, "shortUnit"] = "%"
                 df_tables.loc[j, "type"] = "Numeric"
@@ -139,7 +139,7 @@ for tab in range(len(tables)):
                 ] = f"headcount_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
                 df_tables.loc[
                     j, "description"
-                ] = f"Number of people living in households with {welfare['welfare_type'][wel]} below ${povlines_abs['dollars_text'][p]} a day.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}Household {welfare['welfare_type'][wel]} {equivalence_scales['note'][eq]}"
+                ] = f"Number of people living in households with {welfare['welfare_type'][wel]} below ${povlines_abs['dollars_text'][p]} a day.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}{equivalence_scales['note'][eq]}"
                 df_tables.loc[j, "unit"] = np.nan
                 df_tables.loc[j, "shortUnit"] = np.nan
                 df_tables.loc[j, "type"] = "Numeric"
@@ -159,7 +159,7 @@ for tab in range(len(tables)):
                 ] = f"headcount_ratio_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
                 df_tables.loc[
                     j, "description"
-                ] = f"% of population living in households with {welfare['welfare_type'][wel]} below {povlines_rel['percent'][pct]} of the median {welfare['welfare_type'][wel]}.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}Household {welfare['welfare_type'][wel]} {equivalence_scales['note'][eq]}"
+                ] = f"% of population living in households with {welfare['welfare_type'][wel]} below {povlines_rel['percent'][pct]} of the median {welfare['welfare_type'][wel]}.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}{equivalence_scales['note'][eq]}"
                 df_tables.loc[j, "unit"] = "%"
                 df_tables.loc[j, "shortUnit"] = "%"
                 df_tables.loc[j, "type"] = "Numeric"
@@ -177,7 +177,7 @@ for tab in range(len(tables)):
                 ] = f"headcount_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
                 df_tables.loc[
                     j, "description"
-                ] = f"Number of people living in households with {welfare['welfare_type'][wel]} below {povlines_rel['percent'][pct]} of the median {welfare['welfare_type'][wel]}.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}Household {welfare['welfare_type'][wel]} {equivalence_scales['note'][eq]}"
+                ] = f"Number of people living in households with {welfare['welfare_type'][wel]} below {povlines_rel['percent'][pct]} of the median {welfare['welfare_type'][wel]}.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}{equivalence_scales['note'][eq]}"
                 df_tables.loc[j, "unit"] = np.nan
                 df_tables.loc[j, "shortUnit"] = np.nan
                 df_tables.loc[j, "type"] = "Numeric"
@@ -196,7 +196,7 @@ for tab in range(len(tables)):
             ] = f"mean_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
             df_tables.loc[
                 j, "description"
-            ] = f"Mean {welfare['welfare_type'][wel]}.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}Household {welfare['welfare_type'][wel]} {equivalence_scales['note'][eq]}"
+            ] = f"Mean {welfare['welfare_type'][wel]}.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}{equivalence_scales['note'][eq]}"
             df_tables.loc[j, "unit"] = "international-$ in 2017 prices"
             df_tables.loc[j, "shortUnit"] = "$"
             df_tables.loc[j, "type"] = "Numeric"
@@ -213,7 +213,7 @@ for tab in range(len(tables)):
             ] = f"median_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
             df_tables.loc[
                 j, "description"
-            ] = f"This is the level of {welfare['welfare_type'][wel]} below which 50% of the population falls.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}Household {welfare['welfare_type'][wel]} {equivalence_scales['note'][eq]}"
+            ] = f"This is the level of {welfare['welfare_type'][wel]} below which 50% of the population falls.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}{equivalence_scales['note'][eq]}"
             df_tables.loc[j, "unit"] = "international-$ in 2017 prices"
             df_tables.loc[j, "shortUnit"] = "$"
             df_tables.loc[j, "type"] = "Numeric"
@@ -230,7 +230,7 @@ for tab in range(len(tables)):
             ] = f"thr_p10_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
             df_tables.loc[
                 j, "description"
-            ] = f"The level of {welfare['welfare_type'][wel]} below which 10% of the population falls.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}Household {welfare['welfare_type'][wel]} {equivalence_scales['note'][eq]}"
+            ] = f"The level of {welfare['welfare_type'][wel]} below which 10% of the population falls.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}{equivalence_scales['note'][eq]}"
             df_tables.loc[j, "unit"] = "international-$ in 2017 prices"
             df_tables.loc[j, "shortUnit"] = "$"
             df_tables.loc[j, "type"] = "Numeric"
@@ -249,7 +249,7 @@ for tab in range(len(tables)):
             ] = f"thr_p90_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
             df_tables.loc[
                 j, "description"
-            ] = f"The level of {welfare['welfare_type'][wel]} below which 90% of the population falls.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}Household {welfare['welfare_type'][wel]} {equivalence_scales['note'][eq]}"
+            ] = f"The level of {welfare['welfare_type'][wel]} below which 90% of the population falls.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}{equivalence_scales['note'][eq]}"
             df_tables.loc[j, "unit"] = "international-$ in 2017 prices"
             df_tables.loc[j, "shortUnit"] = "$"
             df_tables.loc[j, "type"] = "Numeric"
@@ -292,7 +292,7 @@ for tab in range(len(tables)):
             for p in range(len(povlines_abs)):
                 df_graphers.loc[
                     j, "title"
-                ] = f"{povlines_abs['title_share'][p]} ({welfare['title'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+                ] = f"{povlines_abs['title_share'][p]} ({welfare['title'][wel]})"
                 df_graphers.loc[
                     j, "ySlugs"
                 ] = f"headcount_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
@@ -311,7 +311,7 @@ for tab in range(len(tables)):
                 ] = f"{povlines_abs['subtitle'][p]} {welfare['subtitle'][wel]}"
                 df_graphers.loc[
                     j, "note"
-                ] = f"This data is measured in international-$ at 2017 prices."
+                ] = f"This data is measured in international-$ at 2017 prices. {equivalence_scales['note'][eq]}"
                 df_graphers.loc[j, "type"] = np.nan
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
                 df_graphers.loc[j, "hasMapTab"] = "true"
@@ -322,7 +322,7 @@ for tab in range(len(tables)):
             for p in range(len(povlines_abs)):
                 df_graphers.loc[
                     j, "title"
-                ] = f"{povlines_abs['title_number'][p]} ({welfare['title'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+                ] = f"{povlines_abs['title_number'][p]} ({welfare['title'][wel]})"
                 df_graphers.loc[
                     j, "ySlugs"
                 ] = f"headcount_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
@@ -341,7 +341,7 @@ for tab in range(len(tables)):
                 ] = f"{povlines_abs['subtitle'][p]} {welfare['subtitle'][wel]}"
                 df_graphers.loc[
                     j, "note"
-                ] = f"This data is measured in international-$ at 2017 prices."
+                ] = f"This data is measured in international-$ at 2017 prices. {equivalence_scales['note'][eq]}"
                 df_graphers.loc[j, "type"] = np.nan
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
                 df_graphers.loc[j, "hasMapTab"] = "true"
@@ -351,7 +351,7 @@ for tab in range(len(tables)):
             # Headcount ratio (abs) - Multiple lines
             df_graphers.loc[
                 j, "title"
-            ] = f"Share of population living below a range of poverty lines ({welfare['title'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+            ] = f"Share of population living below a range of poverty lines ({welfare['title'][wel]})"
             df_graphers.loc[
                 j, "ySlugs"
             ] = f"headcount_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_100 headcount_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_215 headcount_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_365 headcount_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_685 headcount_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_1000 headcount_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_2000 headcount_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_3000 headcount_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_4000"
@@ -368,7 +368,7 @@ for tab in range(len(tables)):
             ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]}"
             df_graphers.loc[
                 j, "note"
-            ] = f"This data is measured in international-$ at 2017 prices."
+            ] = f"This data is measured in international-$ at 2017 prices. {equivalence_scales['note'][eq]}"
             df_graphers.loc[j, "type"] = np.nan
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
             df_graphers.loc[j, "hasMapTab"] = "false"
@@ -378,7 +378,7 @@ for tab in range(len(tables)):
             # Headcount (abs) - Multiple lines
             df_graphers.loc[
                 j, "title"
-            ] = f"Number of people living below a range of poverty lines ({welfare['title'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+            ] = f"Number of people living below a range of poverty lines ({welfare['title'][wel]})"
             df_graphers.loc[
                 j, "ySlugs"
             ] = f"headcount_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_100 headcount_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_215 headcount_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_365 headcount_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_685 headcount_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_1000 headcount_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_2000 headcount_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_3000 headcount_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_4000"
@@ -395,7 +395,7 @@ for tab in range(len(tables)):
             ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]}"
             df_graphers.loc[
                 j, "note"
-            ] = f"This data is measured in international-$ at 2017 prices."
+            ] = f"This data is measured in international-$ at 2017 prices. {equivalence_scales['note'][eq]}"
             df_graphers.loc[j, "type"] = np.nan
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
             df_graphers.loc[j, "hasMapTab"] = "false"
@@ -406,7 +406,7 @@ for tab in range(len(tables)):
             for pct in range(len(povlines_rel)):
                 df_graphers.loc[
                     j, "title"
-                ] = f"{povlines_rel['title_share'][pct]} ({welfare['title'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+                ] = f"{povlines_rel['title_share'][pct]} ({welfare['title'][wel]})"
                 df_graphers.loc[
                     j, "ySlugs"
                 ] = f"headcount_ratio_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
@@ -423,7 +423,7 @@ for tab in range(len(tables)):
                 df_graphers.loc[
                     j, "subtitle"
                 ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at {povlines_rel['text'][pct]} {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
-                df_graphers.loc[j, "note"] = np.nan
+                df_graphers.loc[j, "note"] = equivalence_scales["note"][eq]
                 df_graphers.loc[j, "type"] = np.nan
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
                 df_graphers.loc[j, "hasMapTab"] = "true"
@@ -434,7 +434,7 @@ for tab in range(len(tables)):
             for pct in range(len(povlines_rel)):
                 df_graphers.loc[
                     j, "title"
-                ] = f"{povlines_rel['title_number'][pct]} ({welfare['title'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+                ] = f"{povlines_rel['title_number'][pct]} ({welfare['title'][wel]})"
                 df_graphers.loc[
                     j, "ySlugs"
                 ] = f"headcount_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
@@ -451,7 +451,7 @@ for tab in range(len(tables)):
                 df_graphers.loc[
                     j, "subtitle"
                 ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at {povlines_rel['text'][pct]} {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
-                df_graphers.loc[j, "note"] = np.nan
+                df_graphers.loc[j, "note"] = equivalence_scales["note"][eq]
                 df_graphers.loc[j, "type"] = np.nan
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
                 df_graphers.loc[j, "hasMapTab"] = "true"
@@ -461,7 +461,7 @@ for tab in range(len(tables)):
             # Mean
             df_graphers.loc[
                 j, "title"
-            ] = f"Mean {welfare['welfare_type'][wel]} ({welfare['title'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+            ] = f"Mean {welfare['welfare_type'][wel]} ({welfare['title'][wel]})"
             df_graphers.loc[
                 j, "ySlugs"
             ] = f"mean_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
@@ -477,7 +477,7 @@ for tab in range(len(tables)):
             ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]}"
             df_graphers.loc[
                 j, "note"
-            ] = f"This data is measured in international-$ at 2017 prices."
+            ] = f"This data is measured in international-$ at 2017 prices. {equivalence_scales['note'][eq]}"
             df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
             df_graphers.loc[j, "hasMapTab"] = "true"
             df_graphers.loc[j, "tab"] = "map"
@@ -487,7 +487,7 @@ for tab in range(len(tables)):
             # Median
             df_graphers.loc[
                 j, "title"
-            ] = f"Median {welfare['welfare_type'][wel]} ({welfare['title'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+            ] = f"Median {welfare['welfare_type'][wel]} ({welfare['title'][wel]})"
             df_graphers.loc[
                 j, "ySlugs"
             ] = f"median_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
@@ -503,7 +503,7 @@ for tab in range(len(tables)):
             ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]}"
             df_graphers.loc[
                 j, "note"
-            ] = f"This data is measured in international-$ at 2017 prices."
+            ] = f"This data is measured in international-$ at 2017 prices. {equivalence_scales['note'][eq]}"
             df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
             df_graphers.loc[j, "hasMapTab"] = "true"
             df_graphers.loc[j, "tab"] = "map"
@@ -513,7 +513,7 @@ for tab in range(len(tables)):
             # P10
             df_graphers.loc[
                 j, "title"
-            ] = f"Threshold {welfare['welfare_type'][wel]} marking the poorest decile ({welfare['title'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+            ] = f"Threshold {welfare['welfare_type'][wel]} marking the poorest decile ({welfare['title'][wel]})"
             df_graphers.loc[
                 j, "ySlugs"
             ] = f"thr_p10_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
@@ -531,7 +531,7 @@ for tab in range(len(tables)):
             ] = f"This is the level of {welfare['welfare_type'][wel]} below which 10% of the population falls. {welfare['subtitle'][wel]}"
             df_graphers.loc[
                 j, "note"
-            ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+            ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. {equivalence_scales['note'][eq]}"
             df_graphers.loc[j, "type"] = np.nan
             df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
             df_graphers.loc[j, "hasMapTab"] = "true"
@@ -542,7 +542,7 @@ for tab in range(len(tables)):
             # P90
             df_graphers.loc[
                 j, "title"
-            ] = f"Threshold {welfare['welfare_type'][wel]} marking the richest decile ({welfare['title'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+            ] = f"Threshold {welfare['welfare_type'][wel]} marking the richest decile ({welfare['title'][wel]})"
             df_graphers.loc[
                 j, "ySlugs"
             ] = f"thr_p90_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
@@ -560,7 +560,7 @@ for tab in range(len(tables)):
             ] = f"This is the level of {welfare['welfare_type'][wel]} below which 90% of the population falls. {welfare['subtitle'][wel]}"
             df_graphers.loc[
                 j, "note"
-            ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+            ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. {equivalence_scales['note'][eq]}"
             df_graphers.loc[j, "type"] = np.nan
             df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
             df_graphers.loc[j, "hasMapTab"] = "true"
@@ -573,7 +573,7 @@ for tab in range(len(tables)):
         for p in range(len(povlines_abs)):
             df_graphers.loc[
                 j, "title"
-            ] = f"{povlines_abs['title_share'][p]} ({welfare['title'][wel].capitalize()}, equivalized vs. per capita)"
+            ] = f"{povlines_abs['title_share'][p]} ({welfare['title'][wel]}, equivalized vs. per capita)"
             df_graphers.loc[
                 j, "ySlugs"
             ] = f"headcount_ratio_{welfare['slug'][wel]}_eq_{povlines_abs['cents'][p]} headcount_ratio_{welfare['slug'][wel]}_pc_{povlines_abs['cents'][p]}"
@@ -603,7 +603,7 @@ for tab in range(len(tables)):
         for p in range(len(povlines_abs)):
             df_graphers.loc[
                 j, "title"
-            ] = f"{povlines_abs['title_number'][p]} ({welfare['title'][wel].capitalize()}, equivalized vs. per capita"
+            ] = f"{povlines_abs['title_number'][p]} ({welfare['title'][wel]}, equivalized vs. per capita"
             df_graphers.loc[
                 j, "ySlugs"
             ] = f"headcount_{welfare['slug'][wel]}_eq_{povlines_abs['cents'][p]} headcount_{welfare['slug'][wel]}_pc_{povlines_abs['cents'][p]}"
@@ -633,7 +633,7 @@ for tab in range(len(tables)):
         for pct in range(len(povlines_rel)):
             df_graphers.loc[
                 j, "title"
-            ] = f"{povlines_rel['title_share'][pct]} ({welfare['title'][wel].capitalize()}, equivalized vs. per capita)"
+            ] = f"{povlines_rel['title_share'][pct]} ({welfare['title'][wel]}, equivalized vs. per capita)"
             df_graphers.loc[
                 j, "ySlugs"
             ] = f"headcount_ratio_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_eq headcount_ratio_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_pc"
@@ -661,7 +661,7 @@ for tab in range(len(tables)):
         for pct in range(len(povlines_rel)):
             df_graphers.loc[
                 j, "title"
-            ] = f"{povlines_rel['title_number'][pct]} ({welfare['title'][wel].capitalize()}, equivalized vs. per capita)"
+            ] = f"{povlines_rel['title_number'][pct]} ({welfare['title'][wel]}, equivalized vs. per capita)"
             df_graphers.loc[
                 j, "ySlugs"
             ] = f"headcount_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_eq headcount_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_pc"
@@ -688,7 +688,7 @@ for tab in range(len(tables)):
         # Mean
         df_graphers.loc[
             j, "title"
-        ] = f"Mean {welfare['welfare_type'][wel]} ({welfare['title'][wel].capitalize()}, equivalized vs. per capita)"
+        ] = f"Mean {welfare['welfare_type'][wel]} ({welfare['title'][wel]}, equivalized vs. per capita)"
         df_graphers.loc[
             j, "ySlugs"
         ] = f"mean_{welfare['slug'][wel]}_eq mean_{welfare['slug'][wel]}_pc"
@@ -712,7 +712,7 @@ for tab in range(len(tables)):
         # Median
         df_graphers.loc[
             j, "title"
-        ] = f"Median {welfare['welfare_type'][wel]} ({welfare['title'][wel].capitalize()}, equivalized vs. per capita)"
+        ] = f"Median {welfare['welfare_type'][wel]} ({welfare['title'][wel]}, equivalized vs. per capita)"
         df_graphers.loc[
             j, "ySlugs"
         ] = f"median_{welfare['slug'][wel]}_eq median_{welfare['slug'][wel]}_pc"
@@ -736,7 +736,7 @@ for tab in range(len(tables)):
         # P10
         df_graphers.loc[
             j, "title"
-        ] = f"Threshold {welfare['welfare_type'][wel]} marking the poorest decile ({welfare['title'][wel].capitalize()}, equivalized vs. per capita)"
+        ] = f"Threshold {welfare['welfare_type'][wel]} marking the poorest decile ({welfare['title'][wel]}, equivalized vs. per capita)"
         df_graphers.loc[
             j, "ySlugs"
         ] = f"thr_p10_{welfare['slug'][wel]}_eq thr_p10_{welfare['slug'][wel]}_pc"
@@ -763,7 +763,7 @@ for tab in range(len(tables)):
         # P90
         df_graphers.loc[
             j, "title"
-        ] = f"Threshold {welfare['welfare_type'][wel]} marking the richest decile ({welfare['title'][wel].capitalize()}, equivalized vs. per capita)"
+        ] = f"Threshold {welfare['welfare_type'][wel]} marking the richest decile ({welfare['title'][wel]}, equivalized vs. per capita)"
         df_graphers.loc[
             j, "ySlugs"
         ] = f"thr_p90_{welfare['slug'][wel]}_eq thr_p90_{welfare['slug'][wel]}_pc"

@@ -129,7 +129,7 @@ for tab in range(len(tables)):
             ] = f"mean_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
             df_tables.loc[
                 j, "description"
-            ] = f"Mean {welfare['welfare_type'][wel]}.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}Household {welfare['welfare_type'][wel]} {equivalence_scales['note'][eq]}"
+            ] = f"Mean {welfare['welfare_type'][wel]}.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}{equivalence_scales['note'][eq]}"
             df_tables.loc[j, "unit"] = "international-$ in 2017 prices"
             df_tables.loc[j, "shortUnit"] = "$"
             df_tables.loc[j, "type"] = "Numeric"
@@ -146,7 +146,7 @@ for tab in range(len(tables)):
             ] = f"median_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
             df_tables.loc[
                 j, "description"
-            ] = f"The level of {welfare['welfare_type'][wel]} below which half of the population live.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}Household {welfare['welfare_type'][wel]} {equivalence_scales['note'][eq]}"
+            ] = f"The level of {welfare['welfare_type'][wel]} below which half of the population live.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}{equivalence_scales['note'][eq]}"
             df_tables.loc[j, "unit"] = "international-$ in 2017 prices"
             df_tables.loc[j, "shortUnit"] = "$"
             df_tables.loc[j, "type"] = "Numeric"
@@ -162,7 +162,7 @@ for tab in range(len(tables)):
                 ] = f"thr_{deciles9['lis_notation'][dec9]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
                 df_tables.loc[
                     j, "description"
-                ] = f"The level of {welfare['welfare_type'][wel]} below which {deciles9['decile'][dec9]}0% of the population falls.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}Household {welfare['welfare_type'][wel]} {equivalence_scales['note'][eq]}"
+                ] = f"The level of {welfare['welfare_type'][wel]} below which {deciles9['decile'][dec9]}0% of the population falls.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}{equivalence_scales['note'][eq]}"
                 df_tables.loc[j, "unit"] = "international-$ in 2017 prices"
                 df_tables.loc[j, "shortUnit"] = "$"
                 df_tables.loc[j, "type"] = "Numeric"
@@ -179,7 +179,7 @@ for tab in range(len(tables)):
                 ] = f"avg_{deciles10['lis_notation'][dec10]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
                 df_tables.loc[
                     j, "description"
-                ] = f"This is the mean {welfare['welfare_type'][wel]} within the {deciles10['ordinal'][dec10]} (tenth of the population).{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}Household {welfare['welfare_type'][wel]} {equivalence_scales['note'][eq]}"
+                ] = f"This is the mean {welfare['welfare_type'][wel]} within the {deciles10['ordinal'][dec10]} (tenth of the population).{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}{equivalence_scales['note'][eq]}"
                 df_tables.loc[j, "unit"] = "international-$ in 2017 prices"
                 df_tables.loc[j, "shortUnit"] = "$"
                 df_tables.loc[j, "type"] = "Numeric"
@@ -198,7 +198,7 @@ for tab in range(len(tables)):
                 ] = f"share_{deciles10['lis_notation'][dec10]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
                 df_tables.loc[
                     j, "description"
-                ] = f"This is the {welfare['welfare_type'][wel]} of the {deciles10['ordinal'][dec10]} (tenth of the population) as a share of total {welfare['welfare_type'][wel]}.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}Household {welfare['welfare_type'][wel]} {equivalence_scales['note'][eq]}"
+                ] = f"This is the {welfare['welfare_type'][wel]} of the {deciles10['ordinal'][dec10]} (tenth of the population) as a share of total {welfare['welfare_type'][wel]}.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}{equivalence_scales['note'][eq]}"
                 df_tables.loc[j, "unit"] = "%"
                 df_tables.loc[j, "shortUnit"] = "%"
                 df_tables.loc[j, "type"] = "Numeric"
@@ -242,7 +242,7 @@ for tab in range(len(tables)):
                 # Mean
                 df_graphers.loc[
                     j, "title"
-                ] = f"Mean {welfare['welfare_type'][wel]} ({welfare['title'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+                ] = f"Mean {welfare['welfare_type'][wel]} ({welfare['title'][wel]})"
                 df_graphers.loc[
                     j, "ySlugs"
                 ] = f"mean_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
@@ -275,7 +275,7 @@ for tab in range(len(tables)):
                 # Median
                 df_graphers.loc[
                     j, "title"
-                ] = f"Median {welfare['welfare_type'][wel]} ({welfare['title'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+                ] = f"Median {welfare['welfare_type'][wel]} ({welfare['title'][wel]})"
                 df_graphers.loc[
                     j, "ySlugs"
                 ] = f"median_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
@@ -309,7 +309,7 @@ for tab in range(len(tables)):
                 for dec9 in range(len(deciles9)):
                     df_graphers.loc[
                         j, "title"
-                    ] = f"Threshold {welfare['welfare_type'][wel]} marking the {deciles9['ordinal'][dec9]} ({welfare['title'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+                    ] = f"Threshold {welfare['welfare_type'][wel]} marking the {deciles9['ordinal'][dec9]} ({welfare['title'][wel]})"
                     df_graphers.loc[
                         j, "ySlugs"
                     ] = f"thr_{deciles9['lis_notation'][dec9]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
@@ -343,7 +343,7 @@ for tab in range(len(tables)):
                 for dec10 in range(len(deciles10)):
                     df_graphers.loc[
                         j, "title"
-                    ] = f"Mean {welfare['welfare_type'][wel]} within the {deciles10['ordinal'][dec10]} ({welfare['title'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+                    ] = f"Mean {welfare['welfare_type'][wel]} within the {deciles10['ordinal'][dec10]} ({welfare['title'][wel]})"
                     df_graphers.loc[
                         j, "ySlugs"
                     ] = f"avg_{deciles10['lis_notation'][dec10]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
@@ -379,7 +379,7 @@ for tab in range(len(tables)):
                 for dec10 in range(len(deciles10)):
                     df_graphers.loc[
                         j, "title"
-                    ] = f"{welfare['welfare_type'][wel].capitalize()} share of the {deciles10['ordinal'][dec10]} ({welfare['title'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+                    ] = f"{welfare['welfare_type'][wel].capitalize()} share of the {deciles10['ordinal'][dec10]} ({welfare['title'][wel]})"
                     df_graphers.loc[
                         j, "ySlugs"
                     ] = f"share_{deciles10['lis_notation'][dec10]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
@@ -409,7 +409,7 @@ for tab in range(len(tables)):
                 # Thresholds - Multiple deciles
                 df_graphers.loc[
                     j, "title"
-                ] = f"Threshold {welfare['welfare_type'][wel]} for each decile ({welfare['title'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+                ] = f"Threshold {welfare['welfare_type'][wel]} for each decile ({welfare['title'][wel]})"
                 df_graphers.loc[
                     j, "ySlugs"
                 ] = f"thr_p10_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} thr_p20_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} thr_p30_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} thr_p40_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} thr_p50_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} thr_p60_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} thr_p70_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} thr_p80_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} thr_p90_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
@@ -442,7 +442,7 @@ for tab in range(len(tables)):
                 # Averages - Multiple deciles
                 df_graphers.loc[
                     j, "title"
-                ] = f"Mean {welfare['welfare_type'][wel]} within each decile ({welfare['title'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+                ] = f"Mean {welfare['welfare_type'][wel]} within each decile ({welfare['title'][wel]})"
                 df_graphers.loc[
                     j, "ySlugs"
                 ] = f"avg_p10_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} avg_p20_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} avg_p30_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} avg_p40_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} avg_p50_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} avg_p60_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} avg_p70_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} avg_p80_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} avg_p90_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} avg_p100_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
@@ -477,7 +477,7 @@ for tab in range(len(tables)):
                 # Shares - Multiple deciles
                 df_graphers.loc[
                     j, "title"
-                ] = f"{welfare['welfare_type'][wel].capitalize()} share for each decile ({welfare['title'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+                ] = f"{welfare['welfare_type'][wel].capitalize()} share for each decile ({welfare['title'][wel]})"
                 df_graphers.loc[
                     j, "ySlugs"
                 ] = f"share_p10_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p20_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p30_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p40_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p50_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p60_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p70_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p80_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p90_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p100_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
