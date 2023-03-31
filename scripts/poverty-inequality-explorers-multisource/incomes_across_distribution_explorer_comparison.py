@@ -992,6 +992,59 @@ df_graphers.loc[
     ["defaultView"],
 ] = "true"
 
+# Reorder dropdown menus
+# Decile dropdown
+decile_dropdown_list = [
+    np.nan,
+    "1 (poorest)",
+    "2",
+    "3",
+    "4",
+    "5",
+    "5 (median)",
+    "6",
+    "7",
+    "8",
+    "9",
+    "9 (richest)",
+    "10 (richest)",
+    "All deciles",
+]
+
+df_graphers_mapping = pd.DataFrame(
+    {
+        "decile_dropdown": decile_dropdown_list,
+    }
+)
+df_graphers_mapping = df_graphers_mapping.reset_index().set_index("decile_dropdown")
+df_graphers["decile_dropdown_aux"] = df_graphers["Decile Dropdown"].map(
+    df_graphers_mapping["index"]
+)
+
+# Metric dropdown
+metric_dropdown_list = [
+    "Mean income or consumption",
+    "Mean income or consumption, by decile",
+    "Median income or consumption",
+    "Decile thresholds",
+    "Decile shares",
+]
+
+df_graphers_mapping = pd.DataFrame(
+    {
+        "metric_dropdown": metric_dropdown_list,
+    }
+)
+df_graphers_mapping = df_graphers_mapping.reset_index().set_index("metric_dropdown")
+df_graphers["metric_dropdown_aux"] = df_graphers["Metric Dropdown"].map(
+    df_graphers_mapping["index"]
+)
+
+# Sort by auxiliary variables and drop
+df_graphers = df_graphers.sort_values(
+    ["decile_dropdown_aux", "metric_dropdown_aux"], ignore_index=True
+)
+df_graphers = df_graphers.drop(columns=["metric_dropdown_aux", "decile_dropdown_aux"])
 
 # %% [markdown]
 # ## Explorer generation
