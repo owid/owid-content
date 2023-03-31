@@ -940,7 +940,6 @@ for tab in range(len(merged_tables)):
             ] = f"Income share of the {deciles10['ordinal'][dec10]} ({source_checkbox['type_title'][view]})"
             df_graphers.loc[j, "ySlugs"] = (
                 source_checkbox["share"][view]
-                .replace("{agg}", lis_income_aggregation["slug_suffix"][agg])
                 .replace("{dec10_pip}", deciles10["decile"][dec10])
                 .replace("{dec10_wid}", deciles10["wid_notation"][dec10])
                 .replace("{dec10_lis}", deciles10["lis_notation"][dec10])
