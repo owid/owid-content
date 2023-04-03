@@ -430,102 +430,6 @@ for tab in range(len(tables)):
             df_graphers.loc[j, "yScaleToggle"] = "true"
             j += 1
 
-        # Shares - Deciles
-        for dec10 in range(len(deciles10)):
-            df_graphers.loc[
-                j, "title"
-            ] = f"{welfare['welfare_type'][wel].capitalize()} share of the {deciles10['ordinal'][dec10]} {welfare['title'][wel].capitalize()}"
-            df_graphers.loc[
-                j, "ySlugs"
-            ] = f"{deciles10['wid_notation'][dec10]}_share_{welfare['slug'][wel]}"
-            df_graphers.loc[j, "Metric Dropdown"] = "Decile shares"
-            df_graphers.loc[
-                j, "Resource type Dropdown"
-            ] = f"{welfare['dropdown_option'][wel]}"
-            df_graphers.loc[j, "Decile/quantile Dropdown"] = deciles10["dropdown"][
-                dec10
-            ]
-            df_graphers.loc[j, "Relative change Checkbox"] = "false"
-            df_graphers.loc[j, "stackMode"] = "absolute"
-            df_graphers.loc[
-                j, "subtitle"
-            ] = f"This is the {welfare['welfare_type'][wel]} of the {deciles10['ordinal'][dec10]} (tenth of the population) as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
-            df_graphers.loc[j, "note"] = f"{welfare['note'][wel]}"
-            df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
-            df_graphers.loc[j, "hasMapTab"] = "true"
-            df_graphers.loc[j, "tab"] = "map"
-            j += 1
-
-        # Shares - Top
-        for top in range(len(top_pct)):
-            df_graphers.loc[
-                j, "title"
-            ] = f"{welfare['welfare_type'][wel].capitalize()} share of the richest {top_pct['name'][top]} {welfare['title'][wel].capitalize()}"
-            df_graphers.loc[
-                j, "ySlugs"
-            ] = f"{top_pct['wid_notation'][top]}_share_{welfare['slug'][wel]}"
-            df_graphers.loc[j, "Metric Dropdown"] = "Decile shares"
-            df_graphers.loc[
-                j, "Resource type Dropdown"
-            ] = f"{welfare['dropdown_option'][wel]}"
-            df_graphers.loc[j, "Decile/quantile Dropdown"] = top_pct["name"][top]
-            df_graphers.loc[j, "Relative change Checkbox"] = "false"
-            df_graphers.loc[j, "stackMode"] = "absolute"
-            df_graphers.loc[
-                j, "subtitle"
-            ] = f"This is the {welfare['welfare_type'][wel]} of the richest {top_pct['name'][top]} as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
-            df_graphers.loc[j, "note"] = f"{welfare['note'][wel]}"
-            df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
-            df_graphers.loc[j, "hasMapTab"] = "true"
-            df_graphers.loc[j, "tab"] = "map"
-            j += 1
-
-        # Shares - Multiple deciles
-        df_graphers.loc[
-            j, "title"
-        ] = f"{welfare['welfare_type'][wel].capitalize()} share for each decile {welfare['title'][wel].capitalize()}"
-        df_graphers.loc[
-            j, "ySlugs"
-        ] = f"p0p10_share_{welfare['slug'][wel]} p20p30_share_{welfare['slug'][wel]} p30p40_share_{welfare['slug'][wel]} p40p50_share_{welfare['slug'][wel]} p50p60_share_{welfare['slug'][wel]} p60p70_share_{welfare['slug'][wel]} p70p80_share_{welfare['slug'][wel]} p80p90_share_{welfare['slug'][wel]} p90p100_share_{welfare['slug'][wel]}"
-        df_graphers.loc[j, "Metric Dropdown"] = "Decile shares"
-        df_graphers.loc[
-            j, "Resource type Dropdown"
-        ] = f"{welfare['dropdown_option'][wel]}"
-        df_graphers.loc[j, "Decile/quantile Dropdown"] = "All deciles"
-        df_graphers.loc[j, "Relative change Checkbox"] = "false"
-        df_graphers.loc[j, "stackMode"] = "absolute"
-        df_graphers.loc[
-            j, "subtitle"
-        ] = f"This is the {welfare['welfare_type'][wel]} of each decile (tenth of the population) as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
-        df_graphers.loc[j, "note"] = f"{welfare['note'][wel]}"
-        df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
-        df_graphers.loc[j, "hasMapTab"] = "false"
-        df_graphers.loc[j, "tab"] = "chart"
-        j += 1
-
-        # Shares - Multiple deciles (including top)
-        df_graphers.loc[
-            j, "title"
-        ] = f"{welfare['welfare_type'][wel].capitalize()} share for each decile {welfare['title'][wel].capitalize()}"
-        df_graphers.loc[
-            j, "ySlugs"
-        ] = f"p0p10_share_{welfare['slug'][wel]} p10p20_share_{welfare['slug'][wel]} p20p30_share_{welfare['slug'][wel]} p30p40_share_{welfare['slug'][wel]} p40p50_share_{welfare['slug'][wel]} p50p60_share_{welfare['slug'][wel]} p60p70_share_{welfare['slug'][wel]} p70p80_share_{welfare['slug'][wel]} p80p90_share_{welfare['slug'][wel]} p90p100_share_{welfare['slug'][wel]} p99p100_share_{welfare['slug'][wel]} p99_9p100_share_{welfare['slug'][wel]} p99_99p100_share_{welfare['slug'][wel]} p99_999p100_share_{welfare['slug'][wel]}"
-        df_graphers.loc[j, "Metric Dropdown"] = "Decile shares"
-        df_graphers.loc[
-            j, "Resource type Dropdown"
-        ] = f"{welfare['dropdown_option'][wel]}"
-        df_graphers.loc[j, "Decile/quantile Dropdown"] = "All deciles + top"
-        df_graphers.loc[j, "Relative change Checkbox"] = "false"
-        df_graphers.loc[j, "stackMode"] = "absolute"
-        df_graphers.loc[
-            j, "subtitle"
-        ] = f"This is the {welfare['welfare_type'][wel]} of each decile (tenth of the population) as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
-        df_graphers.loc[j, "note"] = f"{welfare['note'][wel]}"
-        df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
-        df_graphers.loc[j, "hasMapTab"] = "false"
-        df_graphers.loc[j, "tab"] = "chart"
-        j += 1
-
         for rel_toggle in range(len(relative_toggle)):
             # Thresholds - Multiple deciles
             df_graphers.loc[
@@ -638,6 +542,102 @@ for tab in range(len(tables)):
             df_graphers.loc[j, "tab"] = "chart"
             df_graphers.loc[j, "yScaleToggle"] = "true"
             j += 1
+
+        # Shares - Deciles
+        for dec10 in range(len(deciles10)):
+            df_graphers.loc[
+                j, "title"
+            ] = f"{welfare['welfare_type'][wel].capitalize()} share of the {deciles10['ordinal'][dec10]} {welfare['title'][wel].capitalize()}"
+            df_graphers.loc[
+                j, "ySlugs"
+            ] = f"{deciles10['wid_notation'][dec10]}_share_{welfare['slug'][wel]}"
+            df_graphers.loc[j, "Metric Dropdown"] = "Decile shares"
+            df_graphers.loc[
+                j, "Resource type Dropdown"
+            ] = f"{welfare['dropdown_option'][wel]}"
+            df_graphers.loc[j, "Decile/quantile Dropdown"] = deciles10["dropdown"][
+                dec10
+            ]
+            df_graphers.loc[j, "Relative change Checkbox"] = "false"
+            df_graphers.loc[j, "stackMode"] = "absolute"
+            df_graphers.loc[
+                j, "subtitle"
+            ] = f"This is the {welfare['welfare_type'][wel]} of the {deciles10['ordinal'][dec10]} (tenth of the population) as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
+            df_graphers.loc[j, "note"] = f"{welfare['note'][wel]}"
+            df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
+            df_graphers.loc[j, "hasMapTab"] = "true"
+            df_graphers.loc[j, "tab"] = "map"
+            j += 1
+
+        # Shares - Top
+        for top in range(len(top_pct)):
+            df_graphers.loc[
+                j, "title"
+            ] = f"{welfare['welfare_type'][wel].capitalize()} share of the richest {top_pct['name'][top]} {welfare['title'][wel].capitalize()}"
+            df_graphers.loc[
+                j, "ySlugs"
+            ] = f"{top_pct['wid_notation'][top]}_share_{welfare['slug'][wel]}"
+            df_graphers.loc[j, "Metric Dropdown"] = "Decile shares"
+            df_graphers.loc[
+                j, "Resource type Dropdown"
+            ] = f"{welfare['dropdown_option'][wel]}"
+            df_graphers.loc[j, "Decile/quantile Dropdown"] = top_pct["name"][top]
+            df_graphers.loc[j, "Relative change Checkbox"] = "false"
+            df_graphers.loc[j, "stackMode"] = "absolute"
+            df_graphers.loc[
+                j, "subtitle"
+            ] = f"This is the {welfare['welfare_type'][wel]} of the richest {top_pct['name'][top]} as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
+            df_graphers.loc[j, "note"] = f"{welfare['note'][wel]}"
+            df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
+            df_graphers.loc[j, "hasMapTab"] = "true"
+            df_graphers.loc[j, "tab"] = "map"
+            j += 1
+
+        # Shares - Multiple deciles
+        df_graphers.loc[
+            j, "title"
+        ] = f"{welfare['welfare_type'][wel].capitalize()} share for each decile {welfare['title'][wel].capitalize()}"
+        df_graphers.loc[
+            j, "ySlugs"
+        ] = f"p0p10_share_{welfare['slug'][wel]} p20p30_share_{welfare['slug'][wel]} p30p40_share_{welfare['slug'][wel]} p40p50_share_{welfare['slug'][wel]} p50p60_share_{welfare['slug'][wel]} p60p70_share_{welfare['slug'][wel]} p70p80_share_{welfare['slug'][wel]} p80p90_share_{welfare['slug'][wel]} p90p100_share_{welfare['slug'][wel]}"
+        df_graphers.loc[j, "Metric Dropdown"] = "Decile shares"
+        df_graphers.loc[
+            j, "Resource type Dropdown"
+        ] = f"{welfare['dropdown_option'][wel]}"
+        df_graphers.loc[j, "Decile/quantile Dropdown"] = "All deciles"
+        df_graphers.loc[j, "Relative change Checkbox"] = "false"
+        df_graphers.loc[j, "stackMode"] = "absolute"
+        df_graphers.loc[
+            j, "subtitle"
+        ] = f"This is the {welfare['welfare_type'][wel]} of each decile (tenth of the population) as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
+        df_graphers.loc[j, "note"] = f"{welfare['note'][wel]}"
+        df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
+        df_graphers.loc[j, "hasMapTab"] = "false"
+        df_graphers.loc[j, "tab"] = "chart"
+        j += 1
+
+        # Shares - Multiple deciles (including top)
+        df_graphers.loc[
+            j, "title"
+        ] = f"{welfare['welfare_type'][wel].capitalize()} share for each decile {welfare['title'][wel].capitalize()}"
+        df_graphers.loc[
+            j, "ySlugs"
+        ] = f"p0p10_share_{welfare['slug'][wel]} p10p20_share_{welfare['slug'][wel]} p20p30_share_{welfare['slug'][wel]} p30p40_share_{welfare['slug'][wel]} p40p50_share_{welfare['slug'][wel]} p50p60_share_{welfare['slug'][wel]} p60p70_share_{welfare['slug'][wel]} p70p80_share_{welfare['slug'][wel]} p80p90_share_{welfare['slug'][wel]} p90p100_share_{welfare['slug'][wel]} p99p100_share_{welfare['slug'][wel]} p99_9p100_share_{welfare['slug'][wel]} p99_99p100_share_{welfare['slug'][wel]} p99_999p100_share_{welfare['slug'][wel]}"
+        df_graphers.loc[j, "Metric Dropdown"] = "Decile shares"
+        df_graphers.loc[
+            j, "Resource type Dropdown"
+        ] = f"{welfare['dropdown_option'][wel]}"
+        df_graphers.loc[j, "Decile/quantile Dropdown"] = "All deciles + top"
+        df_graphers.loc[j, "Relative change Checkbox"] = "false"
+        df_graphers.loc[j, "stackMode"] = "absolute"
+        df_graphers.loc[
+            j, "subtitle"
+        ] = f"This is the {welfare['welfare_type'][wel]} of each decile (tenth of the population) as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
+        df_graphers.loc[j, "note"] = f"{welfare['note'][wel]}"
+        df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
+        df_graphers.loc[j, "hasMapTab"] = "false"
+        df_graphers.loc[j, "tab"] = "chart"
+        j += 1
 
     df_graphers["tableSlug"] = tables["name"][tab]
 

@@ -355,87 +355,6 @@ for tab in range(len(tables)):
                 df_graphers.loc[j, "yScaleToggle"] = "true"
                 j += 1
 
-            # Shares - Deciles
-            for dec10 in range(len(deciles10)):
-                df_graphers.loc[
-                    j, "title"
-                ] = f"{welfare['welfare_type'][wel].capitalize()} share of the {deciles10['ordinal'][dec10]} ({welfare['title'][wel]})"
-                df_graphers.loc[
-                    j, "ySlugs"
-                ] = f"share_{deciles10['lis_notation'][dec10]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
-                df_graphers.loc[j, "Metric Dropdown"] = "Decile shares"
-                df_graphers.loc[j, "Decile Dropdown"] = deciles10["dropdown"][dec10]
-                df_graphers.loc[
-                    j, "Income type Dropdown"
-                ] = f"{welfare['dropdown_option'][wel]}"
-                df_graphers.loc[j, "Equivalence scale Dropdown"] = equivalence_scales[
-                    "text"
-                ][eq].capitalize()
-                df_graphers.loc[j, "Relative change Checkbox"] = "false"
-                df_graphers.loc[j, "stackMode"] = "absolute"
-                df_graphers.loc[
-                    j, "subtitle"
-                ] = f"This is the {welfare['welfare_type'][wel]} of the {deciles10['ordinal'][dec10]} (tenth of the population) as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
-                df_graphers.loc[j, "note"] = equivalence_scales["note"][eq]
-                df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
-                df_graphers.loc[j, "hasMapTab"] = "true"
-                df_graphers.loc[j, "tab"] = "map"
-                j += 1
-
-            # Shares - Multiple deciles
-            df_graphers.loc[
-                j, "title"
-            ] = f"{welfare['welfare_type'][wel].capitalize()} share for each decile ({welfare['title'][wel]})"
-            df_graphers.loc[
-                j, "ySlugs"
-            ] = f"share_p10_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p20_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p30_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p40_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p50_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p60_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p70_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p80_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p90_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p100_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
-            df_graphers.loc[j, "Metric Dropdown"] = "Decile shares"
-            df_graphers.loc[j, "Decile Dropdown"] = "All deciles"
-            df_graphers.loc[
-                j, "Income type Dropdown"
-            ] = f"{welfare['dropdown_option'][wel]}"
-            df_graphers.loc[j, "Equivalence scale Dropdown"] = equivalence_scales[
-                "text"
-            ][eq].capitalize()
-            df_graphers.loc[j, "Relative change Checkbox"] = "false"
-            df_graphers.loc[j, "stackMode"] = "absolute"
-            df_graphers.loc[
-                j, "subtitle"
-            ] = f"This is the {welfare['welfare_type'][wel]} of each decile (tenth of the population) as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
-            df_graphers.loc[j, "note"] = equivalence_scales["note"][eq]
-            df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
-            df_graphers.loc[j, "hasMapTab"] = "false"
-            df_graphers.loc[j, "tab"] = "chart"
-            j += 1
-
-            # Compare equivalence scales (without relative change)
-            # Shares - Deciles
-            for dec10 in range(len(deciles10)):
-                df_graphers.loc[
-                    j, "title"
-                ] = f"{welfare['welfare_type'][wel].capitalize()} share of the {deciles10['ordinal'][dec10]} ({welfare['title'][wel]}, equivalized vs. per capita)"
-                df_graphers.loc[
-                    j, "ySlugs"
-                ] = f"share_{deciles10['lis_notation'][dec10]}_{welfare['slug'][wel]}_eq share_{deciles10['lis_notation'][dec10]}_{welfare['slug'][wel]}_pc"
-                df_graphers.loc[j, "Metric Dropdown"] = "Decile shares"
-                df_graphers.loc[j, "Decile Dropdown"] = deciles10["dropdown"][dec10]
-                df_graphers.loc[
-                    j, "Income type Dropdown"
-                ] = f"{welfare['dropdown_option'][wel]}"
-                df_graphers.loc[
-                    j, "Equivalence scale Dropdown"
-                ] = "Equivalized vs. per capita"
-                df_graphers.loc[j, "Relative change Checkbox"] = "false"
-                df_graphers.loc[j, "stackMode"] = "absolute"
-                df_graphers.loc[
-                    j, "subtitle"
-                ] = f"This is the {welfare['welfare_type'][wel]} of the {deciles10['ordinal'][dec10]} (tenth of the population) as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
-                df_graphers.loc[j, "note"] = np.nan
-                df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
-                df_graphers.loc[j, "hasMapTab"] = "false"
-                df_graphers.loc[j, "tab"] = "chart"
-                j += 1
-
             # Relative toggle is only added for these graphs: multiple avg and thr lines and equivalence comparison (no shares)
             for rel_toggle in range(len(relative_toggle)):
                 # Thresholds - Multiple deciles
@@ -642,6 +561,87 @@ for tab in range(len(tables)):
                     df_graphers.loc[j, "tab"] = "chart"
                     df_graphers.loc[j, "yScaleToggle"] = "true"
                     j += 1
+
+            # Shares - Deciles
+            for dec10 in range(len(deciles10)):
+                df_graphers.loc[
+                    j, "title"
+                ] = f"{welfare['welfare_type'][wel].capitalize()} share of the {deciles10['ordinal'][dec10]} ({welfare['title'][wel]})"
+                df_graphers.loc[
+                    j, "ySlugs"
+                ] = f"share_{deciles10['lis_notation'][dec10]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
+                df_graphers.loc[j, "Metric Dropdown"] = "Decile shares"
+                df_graphers.loc[j, "Decile Dropdown"] = deciles10["dropdown"][dec10]
+                df_graphers.loc[
+                    j, "Income type Dropdown"
+                ] = f"{welfare['dropdown_option'][wel]}"
+                df_graphers.loc[j, "Equivalence scale Dropdown"] = equivalence_scales[
+                    "text"
+                ][eq].capitalize()
+                df_graphers.loc[j, "Relative change Checkbox"] = "false"
+                df_graphers.loc[j, "stackMode"] = "absolute"
+                df_graphers.loc[
+                    j, "subtitle"
+                ] = f"This is the {welfare['welfare_type'][wel]} of the {deciles10['ordinal'][dec10]} (tenth of the population) as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
+                df_graphers.loc[j, "note"] = equivalence_scales["note"][eq]
+                df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
+                df_graphers.loc[j, "hasMapTab"] = "true"
+                df_graphers.loc[j, "tab"] = "map"
+                j += 1
+
+            # Shares - Multiple deciles
+            df_graphers.loc[
+                j, "title"
+            ] = f"{welfare['welfare_type'][wel].capitalize()} share for each decile ({welfare['title'][wel]})"
+            df_graphers.loc[
+                j, "ySlugs"
+            ] = f"share_p10_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p20_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p30_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p40_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p50_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p60_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p70_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p80_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p90_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p100_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
+            df_graphers.loc[j, "Metric Dropdown"] = "Decile shares"
+            df_graphers.loc[j, "Decile Dropdown"] = "All deciles"
+            df_graphers.loc[
+                j, "Income type Dropdown"
+            ] = f"{welfare['dropdown_option'][wel]}"
+            df_graphers.loc[j, "Equivalence scale Dropdown"] = equivalence_scales[
+                "text"
+            ][eq].capitalize()
+            df_graphers.loc[j, "Relative change Checkbox"] = "false"
+            df_graphers.loc[j, "stackMode"] = "absolute"
+            df_graphers.loc[
+                j, "subtitle"
+            ] = f"This is the {welfare['welfare_type'][wel]} of each decile (tenth of the population) as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
+            df_graphers.loc[j, "note"] = equivalence_scales["note"][eq]
+            df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
+            df_graphers.loc[j, "hasMapTab"] = "false"
+            df_graphers.loc[j, "tab"] = "chart"
+            j += 1
+
+            # Compare equivalence scales (without relative change)
+            # Shares - Deciles
+            for dec10 in range(len(deciles10)):
+                df_graphers.loc[
+                    j, "title"
+                ] = f"{welfare['welfare_type'][wel].capitalize()} share of the {deciles10['ordinal'][dec10]} ({welfare['title'][wel]}, equivalized vs. per capita)"
+                df_graphers.loc[
+                    j, "ySlugs"
+                ] = f"share_{deciles10['lis_notation'][dec10]}_{welfare['slug'][wel]}_eq share_{deciles10['lis_notation'][dec10]}_{welfare['slug'][wel]}_pc"
+                df_graphers.loc[j, "Metric Dropdown"] = "Decile shares"
+                df_graphers.loc[j, "Decile Dropdown"] = deciles10["dropdown"][dec10]
+                df_graphers.loc[
+                    j, "Income type Dropdown"
+                ] = f"{welfare['dropdown_option'][wel]}"
+                df_graphers.loc[
+                    j, "Equivalence scale Dropdown"
+                ] = "Equivalized vs. per capita"
+                df_graphers.loc[j, "Relative change Checkbox"] = "false"
+                df_graphers.loc[j, "stackMode"] = "absolute"
+                df_graphers.loc[
+                    j, "subtitle"
+                ] = f"This is the {welfare['welfare_type'][wel]} of the {deciles10['ordinal'][dec10]} (tenth of the population) as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
+                df_graphers.loc[j, "note"] = np.nan
+                df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
+                df_graphers.loc[j, "hasMapTab"] = "false"
+                df_graphers.loc[j, "tab"] = "chart"
+                j += 1
 
     df_graphers["tableSlug"] = tables["name"][tab]
 
