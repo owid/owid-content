@@ -485,7 +485,7 @@ for tab in range(len(tables)):
                 # Mean
                 df_graphers.loc[
                     j, "title"
-                ] = f"Mean {welfare['welfare_type'][wel]} ({welfare['title'][wel].capitalize()}, equivalized vs. per capita)"
+                ] = f"Mean {welfare['welfare_type'][wel]} ({welfare['title'][wel]}, equivalized vs. per capita)"
                 df_graphers.loc[
                     j, "ySlugs"
                 ] = f"mean_{welfare['slug'][wel]}_eq mean_{welfare['slug'][wel]}_pc"
@@ -518,7 +518,7 @@ for tab in range(len(tables)):
                 # Median
                 df_graphers.loc[
                     j, "title"
-                ] = f"Median {welfare['welfare_type'][wel]} ({welfare['title'][wel].capitalize()}, equivalized vs. per capita)"
+                ] = f"Median {welfare['welfare_type'][wel]} ({welfare['title'][wel]}, equivalized vs. per capita)"
                 df_graphers.loc[
                     j, "ySlugs"
                 ] = f"median_{welfare['slug'][wel]}_eq median_{welfare['slug'][wel]}_pc"
@@ -552,7 +552,7 @@ for tab in range(len(tables)):
                 for dec9 in range(len(deciles9)):
                     df_graphers.loc[
                         j, "title"
-                    ] = f"Threshold {welfare['welfare_type'][wel]} marking the {deciles9['ordinal'][dec9]} ({welfare['title'][wel].capitalize()}, equivalized vs. per capita)"
+                    ] = f"Threshold {welfare['welfare_type'][wel]} marking the {deciles9['ordinal'][dec9]} ({welfare['title'][wel]}, equivalized vs. per capita)"
                     df_graphers.loc[
                         j, "ySlugs"
                     ] = f"thr_{deciles9['lis_notation'][dec9]}_{welfare['slug'][wel]}_eq thr_{deciles9['lis_notation'][dec9]}_{welfare['slug'][wel]}_pc"
@@ -586,7 +586,7 @@ for tab in range(len(tables)):
                 for dec10 in range(len(deciles10)):
                     df_graphers.loc[
                         j, "title"
-                    ] = f"Mean {welfare['welfare_type'][wel]} within the {deciles10['ordinal'][dec10]} ({welfare['title'][wel].capitalize()}, equivalized vs. per capita)"
+                    ] = f"Mean {welfare['welfare_type'][wel]} within the {deciles10['ordinal'][dec10]} ({welfare['title'][wel]}, equivalized vs. per capita)"
                     df_graphers.loc[
                         j, "ySlugs"
                     ] = f"avg_{deciles10['lis_notation'][dec10]}_{welfare['slug'][wel]}_eq avg_{deciles10['lis_notation'][dec10]}_{welfare['slug'][wel]}_pc"
@@ -622,7 +622,7 @@ for tab in range(len(tables)):
                 for dec10 in range(len(deciles10)):
                     df_graphers.loc[
                         j, "title"
-                    ] = f"{welfare['welfare_type'][wel].capitalize()} share of the {deciles10['ordinal'][dec10]} ({welfare['title'][wel].capitalize()}, equivalized vs. per capita)"
+                    ] = f"{welfare['welfare_type'][wel].capitalize()} share of the {deciles10['ordinal'][dec10]} ({welfare['title'][wel]}, equivalized vs. per capita)"
                     df_graphers.loc[
                         j, "ySlugs"
                     ] = f"share_{deciles10['lis_notation'][dec10]}_{welfare['slug'][wel]}_eq share_{deciles10['lis_notation'][dec10]}_{welfare['slug'][wel]}_pc"
