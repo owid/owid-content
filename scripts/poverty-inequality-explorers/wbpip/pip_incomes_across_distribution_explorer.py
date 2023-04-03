@@ -38,10 +38,16 @@ income_aggregation = pd.read_csv(
     url, keep_default_na=False, dtype={"multiplier": "str"}
 )
 
+# Relative toggle (to switch between absolute and relative values)
+sheet_name = "relative_toggle"
+url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
+relative_toggle = pd.read_csv(url, keep_default_na=False, dtype={"checkbox": "str"})
+
 # Survey type sheet
 sheet_name = "survey_type"
 url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
 survey_type = pd.read_csv(url)
+
 # %% [markdown]
 # ## Header
 # General settings of the explorer are defined here, like the title, subtitle, default country selection, publishing status and others.
@@ -322,129 +328,270 @@ j = 0
 
 for survey in range(len(survey_type)):
     for agg in range(len(income_aggregation)):
-        # mean
-        df_graphers.loc[
-            j, "title"
-        ] = f"Mean {survey_type.text[survey]} per {income_aggregation.aggregation[agg]}"
-        df_graphers.loc[j, "ySlugs"] = f"mean{income_aggregation.slug_suffix[agg]}"
-        df_graphers.loc[j, "Metric Dropdown"] = "Mean income or consumption"
-        df_graphers.loc[j, "Decile Dropdown"] = np.nan
-        df_graphers.loc[
-            j, "Aggregation Radio"
-        ] = f"{income_aggregation.aggregation[agg].title()}"
-        df_graphers.loc[
-            j, "Household survey data type Dropdown"
-        ] = f"{survey_type.dropdown_option[survey]}"
-        df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
-        df_graphers.loc[
-            j, "subtitle"
-        ] = "This data is adjusted for inflation and for differences in the cost of living between countries."
-        df_graphers.loc[
-            j, "note"
-        ] = f"This data is measured in international-$ at 2017 prices. Depending on the country and year, it relates to disposable {survey_type.text[survey]} per capita."
-        df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
-        df_graphers.loc[j, "type"] = np.nan
-        df_graphers.loc[j, "yAxisMin"] = 0
-        df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
-        df_graphers.loc[j, "hasMapTab"] = "true"
-        df_graphers.loc[j, "tab"] = "map"
-        df_graphers.loc[j, "mapTargetTime"] = 2019
-        df_graphers.loc[j, "yScaleToggle"] = "true"
-        df_graphers.loc[j, "survey_type"] = survey_type["table_name"][survey]
-        j += 1
-
-        for dec10 in range(len(deciles10)):
-            # averages
+        for rel_toggle in range(len(relative_toggle)):
+            # mean
             df_graphers.loc[
                 j, "title"
-            ] = f"Mean {survey_type.text[survey]} per {income_aggregation.aggregation[agg]} within the {deciles10.ordinal[dec10]}"
+            ] = f"Mean {survey_type.text[survey]} per {income_aggregation.aggregation[agg]}"
+            df_graphers.loc[j, "ySlugs"] = f"mean{income_aggregation.slug_suffix[agg]}"
+            df_graphers.loc[j, "Metric Dropdown"] = "Mean income or consumption"
+            df_graphers.loc[j, "Decile Dropdown"] = np.nan
+            df_graphers.loc[
+                j, "Aggregation Radio"
+            ] = f"{income_aggregation.aggregation[agg].title()}"
+            df_graphers.loc[
+                j, "Household survey data type Dropdown"
+            ] = f"{survey_type.dropdown_option[survey]}"
+            df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
+                "checkbox"
+            ][rel_toggle]
+            df_graphers.loc[j, "stackMode"] = relative_toggle["stack_mode"][rel_toggle]
+            df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
+            df_graphers.loc[
+                j, "subtitle"
+            ] = "This data is adjusted for inflation and for differences in the cost of living between countries."
+            df_graphers.loc[
+                j, "note"
+            ] = f"This data is measured in international-$ at 2017 prices. Depending on the country and year, it relates to disposable {survey_type.text[survey]} per capita."
+            df_graphers.loc[
+                j, "sourceDesc"
+            ] = "World Bank Poverty and Inequality Platform"
+            df_graphers.loc[j, "type"] = np.nan
+            df_graphers.loc[j, "yAxisMin"] = 0
+            df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
+            df_graphers.loc[j, "hasMapTab"] = "true"
+            df_graphers.loc[j, "tab"] = "map"
+            df_graphers.loc[j, "mapTargetTime"] = 2019
+            df_graphers.loc[j, "yScaleToggle"] = "true"
+            df_graphers.loc[j, "survey_type"] = survey_type["table_name"][survey]
+            j += 1
+
+            for dec10 in range(len(deciles10)):
+                # averages
+                df_graphers.loc[
+                    j, "title"
+                ] = f"Mean {survey_type.text[survey]} per {income_aggregation.aggregation[agg]} within the {deciles10.ordinal[dec10]}"
+                df_graphers.loc[
+                    j, "ySlugs"
+                ] = f"decile{deciles10.decile[dec10]}_avg{income_aggregation.slug_suffix[agg]}"
+                df_graphers.loc[
+                    j, "Metric Dropdown"
+                ] = "Mean income or consumption, by decile"
+                df_graphers.loc[j, "Decile Dropdown"] = f"{deciles10.dropdown[dec10]}"
+                df_graphers.loc[
+                    j, "Aggregation Radio"
+                ] = f"{income_aggregation.aggregation[agg].title()}"
+                df_graphers.loc[
+                    j, "Household survey data type Dropdown"
+                ] = f"{survey_type.dropdown_option[survey]}"
+                df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
+                    "checkbox"
+                ][rel_toggle]
+                df_graphers.loc[j, "stackMode"] = relative_toggle["stack_mode"][
+                    rel_toggle
+                ]
+                df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
+                df_graphers.loc[
+                    j, "subtitle"
+                ] = f"This is the mean {survey_type.text[survey]} per {income_aggregation.aggregation[agg]} within the {deciles10.ordinal[dec10]} (tenth of the population)."
+                df_graphers.loc[
+                    j, "note"
+                ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. It relates to disposable {survey_type.text[survey]} per capita."
+                df_graphers.loc[
+                    j, "sourceDesc"
+                ] = "World Bank Poverty and Inequality Platform"
+                df_graphers.loc[j, "type"] = np.nan
+                df_graphers.loc[j, "yAxisMin"] = 0
+                df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
+                df_graphers.loc[j, "hasMapTab"] = "true"
+                df_graphers.loc[j, "tab"] = "map"
+                df_graphers.loc[j, "mapTargetTime"] = 2019
+                df_graphers.loc[j, "yScaleToggle"] = "true"
+                df_graphers.loc[j, "survey_type"] = survey_type["table_name"][survey]
+                j += 1
+
+            # median
+            df_graphers.loc[
+                j, "title"
+            ] = f"Median {survey_type.text[survey]} per {income_aggregation.aggregation[agg]}"
             df_graphers.loc[
                 j, "ySlugs"
-            ] = f"decile{deciles10.decile[dec10]}_avg{income_aggregation.slug_suffix[agg]}"
+            ] = f"median{income_aggregation.slug_suffix[agg]}"
+            df_graphers.loc[j, "Metric Dropdown"] = "Median income or consumption"
+            df_graphers.loc[j, "Decile Dropdown"] = np.nan
+            df_graphers.loc[
+                j, "Aggregation Radio"
+            ] = f"{income_aggregation.aggregation[agg].title()}"
+            df_graphers.loc[
+                j, "Household survey data type Dropdown"
+            ] = f"{survey_type.dropdown_option[survey]}"
+            df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
+                "checkbox"
+            ][rel_toggle]
+            df_graphers.loc[j, "stackMode"] = relative_toggle["stack_mode"][rel_toggle]
+            df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
+            df_graphers.loc[
+                j, "subtitle"
+            ] = "This data is adjusted for inflation and for differences in the cost of living between countries."
+            df_graphers.loc[
+                j, "note"
+            ] = f"This data is measured in international-$ at 2017 prices. Depending on the country and year, it relates to disposable {survey_type.text[survey]} per capita."
+            df_graphers.loc[
+                j, "sourceDesc"
+            ] = "World Bank Poverty and Inequality Platform"
+            df_graphers.loc[j, "type"] = np.nan
+            df_graphers.loc[j, "yAxisMin"] = 0
+            df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
+            df_graphers.loc[j, "hasMapTab"] = "true"
+            df_graphers.loc[j, "tab"] = "map"
+            df_graphers.loc[j, "mapTargetTime"] = 2019
+            df_graphers.loc[j, "yScaleToggle"] = "true"
+            df_graphers.loc[j, "survey_type"] = survey_type["table_name"][survey]
+            j += 1
+
+            for dec9 in range(len(deciles9)):
+                # thresholds
+                df_graphers.loc[
+                    j, "title"
+                ] = f"Threshold {survey_type.text[survey]} per {income_aggregation.aggregation[agg]} marking the {deciles9.ordinal[dec9]}"
+                df_graphers.loc[
+                    j, "ySlugs"
+                ] = f"decile{deciles9.decile[dec9]}_thr{income_aggregation.slug_suffix[agg]}"
+                df_graphers.loc[j, "Metric Dropdown"] = "Decile thresholds"
+                df_graphers.loc[j, "Decile Dropdown"] = f"{deciles9.dropdown[dec9]}"
+                df_graphers.loc[
+                    j, "Aggregation Radio"
+                ] = f"{income_aggregation.aggregation[agg].title()}"
+                df_graphers.loc[
+                    j, "Household survey data type Dropdown"
+                ] = f"{survey_type.dropdown_option[survey]}"
+                df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
+                    "checkbox"
+                ][rel_toggle]
+                df_graphers.loc[j, "stackMode"] = relative_toggle["stack_mode"][
+                    rel_toggle
+                ]
+                df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
+                df_graphers.loc[
+                    j, "subtitle"
+                ] = f"This is the level of {survey_type.text[survey]} per {income_aggregation.aggregation[agg]} below which {deciles9.decile[dec9]}0% of the population falls."
+                df_graphers.loc[
+                    j, "note"
+                ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. It relates to disposable {survey_type.text[survey]} per capita."
+                df_graphers.loc[
+                    j, "sourceDesc"
+                ] = "World Bank Poverty and Inequality Platform"
+                df_graphers.loc[j, "type"] = np.nan
+                df_graphers.loc[j, "yAxisMin"] = 0
+                df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
+                df_graphers.loc[j, "hasMapTab"] = "true"
+                df_graphers.loc[j, "tab"] = "map"
+                df_graphers.loc[j, "mapTargetTime"] = 2019
+                df_graphers.loc[j, "yScaleToggle"] = "true"
+                df_graphers.loc[j, "survey_type"] = survey_type["table_name"][survey]
+                j += 1
+
+            # thresholds - multiple deciles
+            df_graphers.loc[
+                j, "title"
+            ] = f"Threshold {survey_type.text[survey]} per {income_aggregation.aggregation[agg]} for each decile"
+            df_graphers.loc[
+                j, "ySlugs"
+            ] = f"decile1_thr{income_aggregation.slug_suffix[agg]} decile2_thr{income_aggregation.slug_suffix[agg]} decile3_thr{income_aggregation.slug_suffix[agg]} decile4_thr{income_aggregation.slug_suffix[agg]} decile5_thr{income_aggregation.slug_suffix[agg]} decile6_thr{income_aggregation.slug_suffix[agg]} decile7_thr{income_aggregation.slug_suffix[agg]} decile8_thr{income_aggregation.slug_suffix[agg]} decile9_thr{income_aggregation.slug_suffix[agg]}"
+            df_graphers.loc[j, "Metric Dropdown"] = "Decile thresholds"
+            df_graphers.loc[j, "Decile Dropdown"] = "All deciles"
+            df_graphers.loc[
+                j, "Aggregation Radio"
+            ] = f"{income_aggregation.aggregation[agg].title()}"
+            df_graphers.loc[
+                j, "Household survey data type Dropdown"
+            ] = f"{survey_type.dropdown_option[survey]}"
+            df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
+                "checkbox"
+            ][rel_toggle]
+            df_graphers.loc[j, "stackMode"] = relative_toggle["stack_mode"][rel_toggle]
+            df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
+            df_graphers.loc[
+                j, "subtitle"
+            ] = f"This is the level of {survey_type.text[survey]} per year below which 10%, 20%, 30%, etc. of the population falls. This data is adjusted for inflation and for differences in the cost of living between countries."
+            df_graphers.loc[
+                j, "note"
+            ] = f"This data is measured in international-$ at 2017 prices. Depending on the country and year, it relates to disposable {survey_type.text[survey]} per capita."
+            df_graphers.loc[
+                j, "sourceDesc"
+            ] = "World Bank Poverty and Inequality Platform"
+            df_graphers.loc[j, "type"] = np.nan
+            df_graphers.loc[j, "yAxisMin"] = 0
+            df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
+            df_graphers.loc[j, "hasMapTab"] = np.nan
+            df_graphers.loc[j, "tab"] = np.nan
+            df_graphers.loc[j, "mapTargetTime"] = np.nan
+            df_graphers.loc[j, "yScaleToggle"] = "true"
+            df_graphers.loc[j, "survey_type"] = survey_type["table_name"][survey]
+            j += 1
+
+            # averages - multiple deciles
+            df_graphers.loc[
+                j, "title"
+            ] = f"Mean {survey_type.text[survey]} per {income_aggregation.aggregation[agg]} within each decile"
+            df_graphers.loc[
+                j, "ySlugs"
+            ] = f"decile1_avg{income_aggregation.slug_suffix[agg]} decile2_avg{income_aggregation.slug_suffix[agg]} decile3_avg{income_aggregation.slug_suffix[agg]} decile4_avg{income_aggregation.slug_suffix[agg]} decile5_avg{income_aggregation.slug_suffix[agg]} decile6_avg{income_aggregation.slug_suffix[agg]} decile7_avg{income_aggregation.slug_suffix[agg]} decile8_avg{income_aggregation.slug_suffix[agg]} decile9_avg{income_aggregation.slug_suffix[agg]} decile10_avg{income_aggregation.slug_suffix[agg]}"
             df_graphers.loc[
                 j, "Metric Dropdown"
             ] = "Mean income or consumption, by decile"
-            df_graphers.loc[j, "Decile Dropdown"] = f"{deciles10.dropdown[dec10]}"
+            df_graphers.loc[j, "Decile Dropdown"] = "All deciles"
             df_graphers.loc[
                 j, "Aggregation Radio"
             ] = f"{income_aggregation.aggregation[agg].title()}"
             df_graphers.loc[
                 j, "Household survey data type Dropdown"
             ] = f"{survey_type.dropdown_option[survey]}"
+            df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
+                "checkbox"
+            ][rel_toggle]
+            df_graphers.loc[j, "stackMode"] = relative_toggle["stack_mode"][rel_toggle]
             df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
             df_graphers.loc[
                 j, "subtitle"
-            ] = f"This is the mean {survey_type.text[survey]} per {income_aggregation.aggregation[agg]} within the {deciles10.ordinal[dec10]} (tenth of the population)."
+            ] = f"This data is adjusted for inflation and for differences in the cost of living between countries."
             df_graphers.loc[
                 j, "note"
-            ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. It relates to disposable {survey_type.text[survey]} per capita."
+            ] = f"This data is measured in international-$ at 2017 prices. Depending on the country and year, it relates to disposable {survey_type.text[survey]} per capita."
             df_graphers.loc[
                 j, "sourceDesc"
             ] = "World Bank Poverty and Inequality Platform"
             df_graphers.loc[j, "type"] = np.nan
             df_graphers.loc[j, "yAxisMin"] = 0
-            df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
-            df_graphers.loc[j, "hasMapTab"] = "true"
-            df_graphers.loc[j, "tab"] = "map"
-            df_graphers.loc[j, "mapTargetTime"] = 2019
+            df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
+            df_graphers.loc[j, "hasMapTab"] = np.nan
+            df_graphers.loc[j, "tab"] = np.nan
+            df_graphers.loc[j, "mapTargetTime"] = np.nan
             df_graphers.loc[j, "yScaleToggle"] = "true"
             df_graphers.loc[j, "survey_type"] = survey_type["table_name"][survey]
             j += 1
 
-        # median
-        df_graphers.loc[
-            j, "title"
-        ] = f"Median {survey_type.text[survey]} per {income_aggregation.aggregation[agg]}"
-        df_graphers.loc[j, "ySlugs"] = f"median{income_aggregation.slug_suffix[agg]}"
-        df_graphers.loc[j, "Metric Dropdown"] = "Median income or consumption"
-        df_graphers.loc[j, "Decile Dropdown"] = np.nan
-        df_graphers.loc[
-            j, "Aggregation Radio"
-        ] = f"{income_aggregation.aggregation[agg].title()}"
-        df_graphers.loc[
-            j, "Household survey data type Dropdown"
-        ] = f"{survey_type.dropdown_option[survey]}"
-        df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
-        df_graphers.loc[
-            j, "subtitle"
-        ] = "This data is adjusted for inflation and for differences in the cost of living between countries."
-        df_graphers.loc[
-            j, "note"
-        ] = f"This data is measured in international-$ at 2017 prices. Depending on the country and year, it relates to disposable {survey_type.text[survey]} per capita."
-        df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
-        df_graphers.loc[j, "type"] = np.nan
-        df_graphers.loc[j, "yAxisMin"] = 0
-        df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
-        df_graphers.loc[j, "hasMapTab"] = "true"
-        df_graphers.loc[j, "tab"] = "map"
-        df_graphers.loc[j, "mapTargetTime"] = 2019
-        df_graphers.loc[j, "yScaleToggle"] = "true"
-        df_graphers.loc[j, "survey_type"] = survey_type["table_name"][survey]
-        j += 1
-
-        for dec9 in range(len(deciles9)):
-            # thresholds
+        for dec10 in range(len(deciles10)):
+            # shares
             df_graphers.loc[
                 j, "title"
-            ] = f"Threshold {survey_type.text[survey]} per {income_aggregation.aggregation[agg]} marking the {deciles9.ordinal[dec9]}"
-            df_graphers.loc[
-                j, "ySlugs"
-            ] = f"decile{deciles9.decile[dec9]}_thr{income_aggregation.slug_suffix[agg]}"
-            df_graphers.loc[j, "Metric Dropdown"] = "Decile thresholds"
-            df_graphers.loc[j, "Decile Dropdown"] = f"{deciles9.dropdown[dec9]}"
-            df_graphers.loc[
-                j, "Aggregation Radio"
-            ] = f"{income_aggregation.aggregation[agg].title()}"
+            ] = f"{survey_type.text[survey].capitalize()} share of the {deciles10.ordinal[dec10]}"
+            df_graphers.loc[j, "ySlugs"] = f"decile{deciles10.decile[dec10]}_share"
+            df_graphers.loc[j, "Metric Dropdown"] = "Decile shares"
+            df_graphers.loc[j, "Decile Dropdown"] = f"{deciles10.dropdown[dec10]}"
+            df_graphers.loc[j, "Aggregation Radio"] = np.nan
             df_graphers.loc[
                 j, "Household survey data type Dropdown"
             ] = f"{survey_type.dropdown_option[survey]}"
+            df_graphers.loc[j, "Relative change Checkbox"] = "false"
+            df_graphers.loc[j, "stackMode"] = "absolute"
             df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
             df_graphers.loc[
                 j, "subtitle"
-            ] = f"This is the level of {survey_type.text[survey]} per {income_aggregation.aggregation[agg]} below which {deciles9.decile[dec9]}0% of the population falls."
+            ] = f"This is the {survey_type.text[survey]} of the {deciles10.ordinal[dec10]} (tenth of the population) as a share of total {survey_type.text[survey]}."
             df_graphers.loc[
                 j, "note"
-            ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. It relates to disposable {survey_type.text[survey]} per capita."
+            ] = f"Depending on the country and year, the data relates to disposable {survey_type.text[survey]} per capita."
             df_graphers.loc[
                 j, "sourceDesc"
             ] = "World Bank Poverty and Inequality Platform"
@@ -454,105 +601,9 @@ for survey in range(len(survey_type)):
             df_graphers.loc[j, "hasMapTab"] = "true"
             df_graphers.loc[j, "tab"] = "map"
             df_graphers.loc[j, "mapTargetTime"] = 2019
-            df_graphers.loc[j, "yScaleToggle"] = "true"
+            df_graphers.loc[j, "yScaleToggle"] = "false"
             df_graphers.loc[j, "survey_type"] = survey_type["table_name"][survey]
             j += 1
-
-        # thresholds - multiple deciles
-        df_graphers.loc[
-            j, "title"
-        ] = f"Threshold {survey_type.text[survey]} per {income_aggregation.aggregation[agg]} for each decile"
-        df_graphers.loc[
-            j, "ySlugs"
-        ] = f"decile1_thr{income_aggregation.slug_suffix[agg]} decile2_thr{income_aggregation.slug_suffix[agg]} decile3_thr{income_aggregation.slug_suffix[agg]} decile4_thr{income_aggregation.slug_suffix[agg]} decile5_thr{income_aggregation.slug_suffix[agg]} decile6_thr{income_aggregation.slug_suffix[agg]} decile7_thr{income_aggregation.slug_suffix[agg]} decile8_thr{income_aggregation.slug_suffix[agg]} decile9_thr{income_aggregation.slug_suffix[agg]}"
-        df_graphers.loc[j, "Metric Dropdown"] = "Decile thresholds"
-        df_graphers.loc[j, "Decile Dropdown"] = "All deciles"
-        df_graphers.loc[
-            j, "Aggregation Radio"
-        ] = f"{income_aggregation.aggregation[agg].title()}"
-        df_graphers.loc[
-            j, "Household survey data type Dropdown"
-        ] = f"{survey_type.dropdown_option[survey]}"
-        df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
-        df_graphers.loc[
-            j, "subtitle"
-        ] = f"This is the level of {survey_type.text[survey]} per year below which 10%, 20%, 30%, etc. of the population falls. This data is adjusted for inflation and for differences in the cost of living between countries."
-        df_graphers.loc[
-            j, "note"
-        ] = f"This data is measured in international-$ at 2017 prices. Depending on the country and year, it relates to disposable {survey_type.text[survey]} per capita."
-        df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
-        df_graphers.loc[j, "type"] = np.nan
-        df_graphers.loc[j, "yAxisMin"] = 0
-        df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
-        df_graphers.loc[j, "hasMapTab"] = np.nan
-        df_graphers.loc[j, "tab"] = np.nan
-        df_graphers.loc[j, "mapTargetTime"] = np.nan
-        df_graphers.loc[j, "yScaleToggle"] = "true"
-        df_graphers.loc[j, "survey_type"] = survey_type["table_name"][survey]
-        j += 1
-
-        # averages - multiple deciles
-        df_graphers.loc[
-            j, "title"
-        ] = f"Mean {survey_type.text[survey]} per {income_aggregation.aggregation[agg]} within each decile"
-        df_graphers.loc[
-            j, "ySlugs"
-        ] = f"decile1_avg{income_aggregation.slug_suffix[agg]} decile2_avg{income_aggregation.slug_suffix[agg]} decile3_avg{income_aggregation.slug_suffix[agg]} decile4_avg{income_aggregation.slug_suffix[agg]} decile5_avg{income_aggregation.slug_suffix[agg]} decile6_avg{income_aggregation.slug_suffix[agg]} decile7_avg{income_aggregation.slug_suffix[agg]} decile8_avg{income_aggregation.slug_suffix[agg]} decile9_avg{income_aggregation.slug_suffix[agg]} decile10_avg{income_aggregation.slug_suffix[agg]}"
-        df_graphers.loc[j, "Metric Dropdown"] = "Mean income or consumption, by decile"
-        df_graphers.loc[j, "Decile Dropdown"] = "All deciles"
-        df_graphers.loc[
-            j, "Aggregation Radio"
-        ] = f"{income_aggregation.aggregation[agg].title()}"
-        df_graphers.loc[
-            j, "Household survey data type Dropdown"
-        ] = f"{survey_type.dropdown_option[survey]}"
-        df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
-        df_graphers.loc[
-            j, "subtitle"
-        ] = f"This data is adjusted for inflation and for differences in the cost of living between countries."
-        df_graphers.loc[
-            j, "note"
-        ] = f"This data is measured in international-$ at 2017 prices. Depending on the country and year, it relates to disposable {survey_type.text[survey]} per capita."
-        df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
-        df_graphers.loc[j, "type"] = np.nan
-        df_graphers.loc[j, "yAxisMin"] = 0
-        df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
-        df_graphers.loc[j, "hasMapTab"] = np.nan
-        df_graphers.loc[j, "tab"] = np.nan
-        df_graphers.loc[j, "mapTargetTime"] = np.nan
-        df_graphers.loc[j, "yScaleToggle"] = "true"
-        df_graphers.loc[j, "survey_type"] = survey_type["table_name"][survey]
-        j += 1
-
-    for dec10 in range(len(deciles10)):
-        # shares
-        df_graphers.loc[
-            j, "title"
-        ] = f"{survey_type.text[survey].capitalize()} share of the {deciles10.ordinal[dec10]}"
-        df_graphers.loc[j, "ySlugs"] = f"decile{deciles10.decile[dec10]}_share"
-        df_graphers.loc[j, "Metric Dropdown"] = "Decile shares"
-        df_graphers.loc[j, "Decile Dropdown"] = f"{deciles10.dropdown[dec10]}"
-        df_graphers.loc[j, "Aggregation Radio"] = np.nan
-        df_graphers.loc[
-            j, "Household survey data type Dropdown"
-        ] = f"{survey_type.dropdown_option[survey]}"
-        df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
-        df_graphers.loc[
-            j, "subtitle"
-        ] = f"This is the {survey_type.text[survey]} of the {deciles10.ordinal[dec10]} (tenth of the population) as a share of total {survey_type.text[survey]}."
-        df_graphers.loc[
-            j, "note"
-        ] = f"Depending on the country and year, the data relates to disposable {survey_type.text[survey]} per capita."
-        df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
-        df_graphers.loc[j, "type"] = np.nan
-        df_graphers.loc[j, "yAxisMin"] = 0
-        df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
-        df_graphers.loc[j, "hasMapTab"] = "true"
-        df_graphers.loc[j, "tab"] = "map"
-        df_graphers.loc[j, "mapTargetTime"] = 2019
-        df_graphers.loc[j, "yScaleToggle"] = "false"
-        df_graphers.loc[j, "survey_type"] = survey_type["table_name"][survey]
-        j += 1
 
     # shares - multiple deciles
     df_graphers.loc[
@@ -568,6 +619,8 @@ for survey in range(len(survey_type)):
         j, "Household survey data type Dropdown"
     ] = f"{survey_type.dropdown_option[survey]}"
     df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
+    df_graphers.loc[j, "Relative change Checkbox"] = "false"
+    df_graphers.loc[j, "stackMode"] = "absolute"
     df_graphers.loc[
         j, "subtitle"
     ] = f"This is the {survey_type.text[survey]} of each decile (tenth of the population) as a share of total {survey_type.text[survey]}."
@@ -605,6 +658,10 @@ for i in range(len(df_graphers)):
     df_graphers_spells.loc[j, "Household survey data type Dropdown"] = df_graphers[
         "Household survey data type Dropdown"
     ][i]
+    df_graphers_spells.loc[j, "Relative change Checkbox"] = df_graphers[
+        "Relative change Checkbox"
+    ][i]
+    df_graphers_spells.loc[j, "stackMode"] = df_graphers["stackMode"][i]
     df_graphers_spells.loc[j, "tableSlug"] = (
         df_graphers["survey_type"][i] + "_" + df_graphers["ySlugs"][i]
     )
@@ -694,7 +751,8 @@ df_graphers.loc[
     & (df_graphers["Metric Dropdown"] == "Decile thresholds")
     & (df_graphers["Aggregation Radio"] == "Day")
     & (df_graphers["Show breaks between less comparable surveys Checkbox"] == "false")
-    & (df_graphers["tableSlug"] == "inc_or_cons"),
+    & (df_graphers["tableSlug"] == "inc_or_cons")
+    & (df_graphers["Relative change Checkbox"] == "false"),
     ["defaultView"],
 ] = "true"
 
