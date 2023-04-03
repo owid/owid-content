@@ -139,7 +139,7 @@ for survey in range(len(survey_type)):
 
         for dec9 in range(len(deciles9)):
             # thresholds
-            df_tables.loc[j, "name"] = deciles9.ordinal[dec9]
+            df_tables.loc[j, "name"] = deciles9.ordinal[dec9].capitalize()
             df_tables.loc[
                 j, "slug"
             ] = f"decile{deciles9.decile[dec9]}_thr{income_aggregation.slug_suffix[agg]}"
@@ -169,7 +169,7 @@ for survey in range(len(survey_type)):
 
         for dec10 in range(len(deciles10)):
             # averages
-            df_tables.loc[j, "name"] = deciles10.ordinal[dec10]
+            df_tables.loc[j, "name"] = deciles10.ordinal[dec10].capitalize()
             df_tables.loc[
                 j, "slug"
             ] = f"decile{deciles10.decile[dec10]}_avg{income_aggregation.slug_suffix[agg]}"
@@ -199,7 +199,7 @@ for survey in range(len(survey_type)):
 
     for dec10 in range(len(deciles10)):
         # shares
-        df_tables.loc[j, "name"] = deciles10.ordinal[dec10]
+        df_tables.loc[j, "name"] = deciles10.ordinal[dec10].capitalize()
         df_tables.loc[j, "slug"] = f"decile{deciles10.decile[dec10]}_share"
         df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform"
         df_tables.loc[

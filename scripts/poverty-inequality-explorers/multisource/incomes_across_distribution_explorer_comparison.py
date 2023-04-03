@@ -233,7 +233,9 @@ for tab in range(len(pip_tables)):
 
     for dec9 in range(len(pip_deciles9)):
         # thresholds
-        df_tables_pip.loc[j, "name"] = f"{pip_deciles9.ordinal[dec9]} (PIP)"
+        df_tables_pip.loc[
+            j, "name"
+        ] = f"{pip_deciles9.ordinal[dec9].capitalize()} (PIP)"
         df_tables_pip.loc[j, "slug"] = f"decile{pip_deciles9.decile[dec9]}_thr"
         df_tables_pip.loc[
             j, "description"
@@ -247,7 +249,9 @@ for tab in range(len(pip_tables)):
 
     for dec10 in range(len(pip_deciles10)):
         # averages
-        df_tables_pip.loc[j, "name"] = f"{pip_deciles10.ordinal[dec10]} (PIP)"
+        df_tables_pip.loc[
+            j, "name"
+        ] = f"{pip_deciles10.ordinal[dec10].capitalize()} (PIP)"
         df_tables_pip.loc[j, "slug"] = f"decile{pip_deciles10.decile[dec10]}_avg"
         df_tables_pip.loc[
             j, "description"
@@ -261,7 +265,9 @@ for tab in range(len(pip_tables)):
 
     for dec10 in range(len(pip_deciles10)):
         # shares
-        df_tables_pip.loc[j, "name"] = f"{pip_deciles10.ordinal[dec10]} (PIP)"
+        df_tables_pip.loc[
+            j, "name"
+        ] = f"{pip_deciles10.ordinal[dec10].capitalize()} (PIP)"
         df_tables_pip.loc[j, "slug"] = f"decile{pip_deciles10.decile[dec10]}_share"
         df_tables_pip.loc[
             j, "description"
@@ -315,7 +321,9 @@ for tab in range(len(pip_tables)):
 
         for dec9 in range(len(pip_deciles9)):
             # thresholds
-            df_tables_pip.loc[j, "name"] = f"{pip_deciles9.ordinal[dec9]} (PIP)"
+            df_tables_pip.loc[
+                j, "name"
+            ] = f"{pip_deciles9.ordinal[dec9].capitalize()} (PIP)"
             df_tables_pip.loc[
                 j, "slug"
             ] = f"decile{pip_deciles9.decile[dec9]}_thr{pip_income_aggregation.slug_suffix[agg]}"
@@ -336,7 +344,9 @@ for tab in range(len(pip_tables)):
 
         for dec10 in range(len(pip_deciles10)):
             # averages
-            df_tables_pip.loc[j, "name"] = f"{pip_deciles10.ordinal[dec10]} (PIP)"
+            df_tables_pip.loc[
+                j, "name"
+            ] = f"{pip_deciles10.ordinal[dec10].capitalize()} (PIP)"
             df_tables_pip.loc[
                 j, "slug"
             ] = f"decile{pip_deciles10.decile[dec10]}_avg{pip_income_aggregation.slug_suffix[agg]}"
