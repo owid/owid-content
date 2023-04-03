@@ -46,6 +46,11 @@ sheet_name = "top_pct"
 url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
 top_pct = pd.read_csv(url, keep_default_na=False)
 
+# Relative toggle (to switch between absolute and relative values)
+sheet_name = "relative_toggle"
+url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
+relative_toggle = pd.read_csv(url, keep_default_na=False, dtype={"checkbox": "str"})
+
 # %% [markdown]
 # ## Header
 # General settings of the explorer are defined here, like the title, subtitle, default country selection, publishing status and others.
@@ -269,99 +274,298 @@ j = 0
 
 for tab in range(len(tables)):
     for wel in range(len(welfare)):
-        # Mean
-        df_graphers.loc[
-            j, "title"
-        ] = f"Mean {welfare['welfare_type'][wel]} {welfare['title'][wel].capitalize()}"
-        df_graphers.loc[j, "ySlugs"] = f"p0p100_avg_{welfare['slug'][wel]}"
-        df_graphers.loc[j, "Metric Dropdown"] = "Mean income or wealth"
-        df_graphers.loc[
-            j, "Resource type Dropdown"
-        ] = f"{welfare['dropdown_option'][wel]}"
-        df_graphers.loc[j, "Decile/quantile Dropdown"] = np.nan
-        df_graphers.loc[
-            j, "subtitle"
-        ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]}"
-        df_graphers.loc[
-            j, "note"
-        ] = f"This data is measured in international-$ at 2021 prices. {welfare['note'][wel]}"
-        df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
-        df_graphers.loc[j, "hasMapTab"] = "true"
-        df_graphers.loc[j, "tab"] = "map"
-        df_graphers.loc[j, "yScaleToggle"] = "true"
-        j += 1
-
-        # Median
-        df_graphers.loc[
-            j, "title"
-        ] = f"Median {welfare['welfare_type'][wel]} {welfare['title'][wel].capitalize()}"
-        df_graphers.loc[j, "ySlugs"] = f"median_{welfare['slug'][wel]}"
-        df_graphers.loc[j, "Metric Dropdown"] = "Median income or wealth"
-        df_graphers.loc[
-            j, "Resource type Dropdown"
-        ] = f"{welfare['dropdown_option'][wel]}"
-        df_graphers.loc[j, "Decile/quantile Dropdown"] = np.nan
-        df_graphers.loc[
-            j, "subtitle"
-        ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]}"
-        df_graphers.loc[
-            j, "note"
-        ] = f"This data is measured in international-$ at 2021 prices. {welfare['note'][wel]}"
-        df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
-        df_graphers.loc[j, "hasMapTab"] = "true"
-        df_graphers.loc[j, "tab"] = "map"
-        df_graphers.loc[j, "yScaleToggle"] = "true"
-        j += 1
-
-        # Thresholds - Deciles
-        for dec9 in range(len(deciles9)):
+        for rel_toggle in range(len(relative_toggle)):
+            # Mean
             df_graphers.loc[
                 j, "title"
-            ] = f"Threshold {welfare['welfare_type'][wel]} marking the {deciles9['ordinal'][dec9]} {welfare['title'][wel].capitalize()}"
-            df_graphers.loc[
-                j, "ySlugs"
-            ] = f"{deciles9['wid_notation'][dec9]}_thr_{welfare['slug'][wel]}"
-            df_graphers.loc[j, "Metric Dropdown"] = "Decile thresholds"
+            ] = f"Mean {welfare['welfare_type'][wel]} {welfare['title'][wel].capitalize()}"
+            df_graphers.loc[j, "ySlugs"] = f"p0p100_avg_{welfare['slug'][wel]}"
+            df_graphers.loc[j, "Metric Dropdown"] = "Mean income or wealth"
             df_graphers.loc[
                 j, "Resource type Dropdown"
             ] = f"{welfare['dropdown_option'][wel]}"
-            df_graphers.loc[j, "Decile/quantile Dropdown"] = deciles9["dropdown"][dec9]
+            df_graphers.loc[j, "Decile/quantile Dropdown"] = np.nan
+            df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
+                "checkbox"
+            ][rel_toggle]
+            df_graphers.loc[j, "stackMode"] = relative_toggle["stack_mode"][rel_toggle]
             df_graphers.loc[
                 j, "subtitle"
-            ] = f"This is the level of {welfare['welfare_type'][wel]} below which {deciles9['decile'][dec9]}0% of the population falls. {welfare['subtitle'][wel]}"
+            ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]}"
             df_graphers.loc[
                 j, "note"
-            ] = f"This data is measured in international-$ at 2021 prices to account for inflation and differences in the cost of living between countries. {welfare['note'][wel]}"
+            ] = f"This data is measured in international-$ at 2021 prices. {welfare['note'][wel]}"
             df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
             df_graphers.loc[j, "hasMapTab"] = "true"
             df_graphers.loc[j, "tab"] = "map"
             df_graphers.loc[j, "yScaleToggle"] = "true"
             j += 1
 
-        # Averages - Deciles
-        for dec10 in range(len(deciles10)):
+            # Median
             df_graphers.loc[
                 j, "title"
-            ] = f"Mean {welfare['welfare_type'][wel]} within the {deciles10['ordinal'][dec10]} {welfare['title'][wel].capitalize()}"
+            ] = f"Median {welfare['welfare_type'][wel]} {welfare['title'][wel].capitalize()}"
+            df_graphers.loc[j, "ySlugs"] = f"median_{welfare['slug'][wel]}"
+            df_graphers.loc[j, "Metric Dropdown"] = "Median income or wealth"
+            df_graphers.loc[
+                j, "Resource type Dropdown"
+            ] = f"{welfare['dropdown_option'][wel]}"
+            df_graphers.loc[j, "Decile/quantile Dropdown"] = np.nan
+            df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
+                "checkbox"
+            ][rel_toggle]
+            df_graphers.loc[j, "stackMode"] = relative_toggle["stack_mode"][rel_toggle]
+            df_graphers.loc[
+                j, "subtitle"
+            ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]}"
+            df_graphers.loc[
+                j, "note"
+            ] = f"This data is measured in international-$ at 2021 prices. {welfare['note'][wel]}"
+            df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
+            df_graphers.loc[j, "hasMapTab"] = "true"
+            df_graphers.loc[j, "tab"] = "map"
+            df_graphers.loc[j, "yScaleToggle"] = "true"
+            j += 1
+
+            # Thresholds - Deciles
+            for dec9 in range(len(deciles9)):
+                df_graphers.loc[
+                    j, "title"
+                ] = f"Threshold {welfare['welfare_type'][wel]} marking the {deciles9['ordinal'][dec9]} {welfare['title'][wel].capitalize()}"
+                df_graphers.loc[
+                    j, "ySlugs"
+                ] = f"{deciles9['wid_notation'][dec9]}_thr_{welfare['slug'][wel]}"
+                df_graphers.loc[j, "Metric Dropdown"] = "Decile thresholds"
+                df_graphers.loc[
+                    j, "Resource type Dropdown"
+                ] = f"{welfare['dropdown_option'][wel]}"
+                df_graphers.loc[j, "Decile/quantile Dropdown"] = deciles9["dropdown"][
+                    dec9
+                ]
+                df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
+                    "checkbox"
+                ][rel_toggle]
+                df_graphers.loc[j, "stackMode"] = relative_toggle["stack_mode"][
+                    rel_toggle
+                ]
+                df_graphers.loc[
+                    j, "subtitle"
+                ] = f"This is the level of {welfare['welfare_type'][wel]} below which {deciles9['decile'][dec9]}0% of the population falls. {welfare['subtitle'][wel]}"
+                df_graphers.loc[
+                    j, "note"
+                ] = f"This data is measured in international-$ at 2021 prices to account for inflation and differences in the cost of living between countries. {welfare['note'][wel]}"
+                df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
+                df_graphers.loc[j, "hasMapTab"] = "true"
+                df_graphers.loc[j, "tab"] = "map"
+                df_graphers.loc[j, "yScaleToggle"] = "true"
+                j += 1
+
+            # Averages - Deciles
+            for dec10 in range(len(deciles10)):
+                df_graphers.loc[
+                    j, "title"
+                ] = f"Mean {welfare['welfare_type'][wel]} within the {deciles10['ordinal'][dec10]} {welfare['title'][wel].capitalize()}"
+                df_graphers.loc[
+                    j, "ySlugs"
+                ] = f"{deciles10['wid_notation'][dec10]}_avg_{welfare['slug'][wel]}"
+                df_graphers.loc[
+                    j, "Metric Dropdown"
+                ] = "Mean income or wealth, by decile"
+                df_graphers.loc[
+                    j, "Resource type Dropdown"
+                ] = f"{welfare['dropdown_option'][wel]}"
+                df_graphers.loc[j, "Decile/quantile Dropdown"] = deciles10["dropdown"][
+                    dec10
+                ]
+                df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
+                    "checkbox"
+                ][rel_toggle]
+                df_graphers.loc[j, "stackMode"] = relative_toggle["stack_mode"][
+                    rel_toggle
+                ]
+                df_graphers.loc[
+                    j, "subtitle"
+                ] = f"This is the mean {welfare['welfare_type'][wel]} within the {deciles10['ordinal'][dec10]} (tenth of the population). {welfare['subtitle'][wel]}"
+                df_graphers.loc[
+                    j, "note"
+                ] = f"This data is measured in international-$ at 2021 prices to account for inflation and differences in the cost of living between countries. {welfare['note'][wel]}"
+                df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
+                df_graphers.loc[j, "hasMapTab"] = "true"
+                df_graphers.loc[j, "tab"] = "map"
+                df_graphers.loc[j, "yScaleToggle"] = "true"
+                j += 1
+
+            # Thresholds - Top
+            for top in range(len(top_pct)):
+                df_graphers.loc[
+                    j, "title"
+                ] = f"Threshold {welfare['welfare_type'][wel]} marking the richest {top_pct['name'][top]} {welfare['title'][wel].capitalize()}"
+                df_graphers.loc[
+                    j, "ySlugs"
+                ] = f"{top_pct['wid_notation'][top]}_thr_{welfare['slug'][wel]}"
+                df_graphers.loc[j, "Metric Dropdown"] = "Decile thresholds"
+                df_graphers.loc[
+                    j, "Resource type Dropdown"
+                ] = f"{welfare['dropdown_option'][wel]}"
+                df_graphers.loc[j, "Decile/quantile Dropdown"] = top_pct["name"][top]
+                df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
+                    "checkbox"
+                ][rel_toggle]
+                df_graphers.loc[j, "stackMode"] = relative_toggle["stack_mode"][
+                    rel_toggle
+                ]
+                df_graphers.loc[j, "subtitle"] = f"{welfare['subtitle'][wel]}"
+                df_graphers.loc[
+                    j, "note"
+                ] = f"This data is measured in international-$ at 2021 prices to account for inflation and differences in the cost of living between countries. {welfare['note'][wel]}"
+                df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
+                df_graphers.loc[j, "hasMapTab"] = "true"
+                df_graphers.loc[j, "tab"] = "map"
+                df_graphers.loc[j, "yScaleToggle"] = "true"
+                j += 1
+
+            # Averages - Top
+            for top in range(len(top_pct)):
+                df_graphers.loc[
+                    j, "title"
+                ] = f"Mean {welfare['welfare_type'][wel]} within the {top_pct['name'][top]} {welfare['title'][wel].capitalize()}"
+                df_graphers.loc[
+                    j, "ySlugs"
+                ] = f"{top_pct['wid_notation'][top]}_avg_{welfare['slug'][wel]}"
+                df_graphers.loc[
+                    j, "Metric Dropdown"
+                ] = "Mean income or wealth, by decile"
+                df_graphers.loc[
+                    j, "Resource type Dropdown"
+                ] = f"{welfare['dropdown_option'][wel]}"
+                df_graphers.loc[j, "Decile/quantile Dropdown"] = top_pct["name"][top]
+                df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
+                    "checkbox"
+                ][rel_toggle]
+                df_graphers.loc[j, "stackMode"] = relative_toggle["stack_mode"][
+                    rel_toggle
+                ]
+                df_graphers.loc[
+                    j, "subtitle"
+                ] = f"This is the mean {welfare['welfare_type'][wel]} within the richest {top_pct['name'][top]}. {welfare['subtitle'][wel]}"
+                df_graphers.loc[
+                    j, "note"
+                ] = f"This data is measured in international-$ at 2021 prices to account for inflation and differences in the cost of living between countries. {welfare['note'][wel]}"
+                df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
+                df_graphers.loc[j, "hasMapTab"] = "true"
+                df_graphers.loc[j, "tab"] = "map"
+                df_graphers.loc[j, "yScaleToggle"] = "true"
+                j += 1
+
+            # Thresholds - Multiple deciles
+            df_graphers.loc[
+                j, "title"
+            ] = f"Threshold {welfare['welfare_type'][wel]} for each decile {welfare['title'][wel].capitalize()}"
             df_graphers.loc[
                 j, "ySlugs"
-            ] = f"{deciles10['wid_notation'][dec10]}_avg_{welfare['slug'][wel]}"
+            ] = f"p10p20_thr_{welfare['slug'][wel]} p20p30_thr_{welfare['slug'][wel]} p30p40_thr_{welfare['slug'][wel]} p40p50_thr_{welfare['slug'][wel]} p50p60_thr_{welfare['slug'][wel]} p60p70_thr_{welfare['slug'][wel]} p70p80_thr_{welfare['slug'][wel]} p80p90_thr_{welfare['slug'][wel]} p90p100_thr_{welfare['slug'][wel]}"
+            df_graphers.loc[j, "Metric Dropdown"] = "Decile thresholds"
+            df_graphers.loc[
+                j, "Resource type Dropdown"
+            ] = f"{welfare['dropdown_option'][wel]}"
+            df_graphers.loc[j, "Decile/quantile Dropdown"] = "All deciles"
+            df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
+                "checkbox"
+            ][rel_toggle]
+            df_graphers.loc[j, "stackMode"] = relative_toggle["stack_mode"][rel_toggle]
+            df_graphers.loc[
+                j, "subtitle"
+            ] = f"This is the level of income or consumption per year below which 10%, 20%, 30%, etc. of the population falls. {welfare['subtitle'][wel]}"
+            df_graphers.loc[
+                j, "note"
+            ] = f"This data is measured in international-$ at 2021 prices to account for inflation and differences in the cost of living between countries. {welfare['note'][wel]}"
+            df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
+            df_graphers.loc[j, "hasMapTab"] = "false"
+            df_graphers.loc[j, "tab"] = "chart"
+            df_graphers.loc[j, "yScaleToggle"] = "true"
+            j += 1
+
+            # Averages - Multiple deciles
+            df_graphers.loc[
+                j, "title"
+            ] = f"Mean {welfare['welfare_type'][wel]} within each decile {welfare['title'][wel].capitalize()}"
+            df_graphers.loc[
+                j, "ySlugs"
+            ] = f"p0p10_avg_{welfare['slug'][wel]} p10p20_avg_{welfare['slug'][wel]} p20p30_avg_{welfare['slug'][wel]} p30p40_avg_{welfare['slug'][wel]} p40p50_avg_{welfare['slug'][wel]} p50p60_avg_{welfare['slug'][wel]} p60p70_avg_{welfare['slug'][wel]} p70p80_avg_{welfare['slug'][wel]} p80p90_avg_{welfare['slug'][wel]} p90p100_avg_{welfare['slug'][wel]}"
             df_graphers.loc[j, "Metric Dropdown"] = "Mean income or wealth, by decile"
             df_graphers.loc[
                 j, "Resource type Dropdown"
             ] = f"{welfare['dropdown_option'][wel]}"
-            df_graphers.loc[j, "Decile/quantile Dropdown"] = deciles10["dropdown"][
-                dec10
-            ]
+            df_graphers.loc[j, "Decile/quantile Dropdown"] = "All deciles"
+            df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
+                "checkbox"
+            ][rel_toggle]
+            df_graphers.loc[j, "stackMode"] = relative_toggle["stack_mode"][rel_toggle]
             df_graphers.loc[
                 j, "subtitle"
-            ] = f"This is the mean {welfare['welfare_type'][wel]} within the {deciles10['ordinal'][dec10]} (tenth of the population). {welfare['subtitle'][wel]}"
+            ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]}"
+            df_graphers.loc[
+                j, "note"
+            ] = f"This data is measured in international-$ at 2021 prices. {welfare['note'][wel]}"
+            df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
+            df_graphers.loc[j, "hasMapTab"] = "false"
+            df_graphers.loc[j, "tab"] = "chart"
+            df_graphers.loc[j, "yScaleToggle"] = "true"
+            j += 1
+
+            # Thresholds - Multiple deciles (including top)
+            df_graphers.loc[
+                j, "title"
+            ] = f"Threshold {welfare['welfare_type'][wel]} for each decile {welfare['title'][wel].capitalize()}"
+            df_graphers.loc[
+                j, "ySlugs"
+            ] = f"p10p20_thr_{welfare['slug'][wel]} p20p30_thr_{welfare['slug'][wel]} p30p40_thr_{welfare['slug'][wel]} p40p50_thr_{welfare['slug'][wel]} p50p60_thr_{welfare['slug'][wel]} p60p70_thr_{welfare['slug'][wel]} p70p80_thr_{welfare['slug'][wel]} p80p90_thr_{welfare['slug'][wel]} p90p100_thr_{welfare['slug'][wel]} p99p100_thr_{welfare['slug'][wel]} p99_9p100_thr_{welfare['slug'][wel]} p99_99p100_thr_{welfare['slug'][wel]} p99_999p100_thr_{welfare['slug'][wel]}"
+            df_graphers.loc[j, "Metric Dropdown"] = "Decile thresholds"
+            df_graphers.loc[
+                j, "Resource type Dropdown"
+            ] = f"{welfare['dropdown_option'][wel]}"
+            df_graphers.loc[j, "Decile/quantile Dropdown"] = "All deciles + top"
+            df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
+                "checkbox"
+            ][rel_toggle]
+            df_graphers.loc[j, "stackMode"] = relative_toggle["stack_mode"][rel_toggle]
+            df_graphers.loc[
+                j, "subtitle"
+            ] = f"This is the level of income or consumption per year below which 10%, 20%, 30%, etc. of the population falls. {welfare['subtitle'][wel]}"
             df_graphers.loc[
                 j, "note"
             ] = f"This data is measured in international-$ at 2021 prices to account for inflation and differences in the cost of living between countries. {welfare['note'][wel]}"
-            df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
-            df_graphers.loc[j, "hasMapTab"] = "true"
-            df_graphers.loc[j, "tab"] = "map"
+            df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
+            df_graphers.loc[j, "hasMapTab"] = "false"
+            df_graphers.loc[j, "tab"] = "chart"
+            df_graphers.loc[j, "yScaleToggle"] = "true"
+            j += 1
+
+            # Averages - Multiple deciles (including top)
+            df_graphers.loc[
+                j, "title"
+            ] = f"Mean {welfare['welfare_type'][wel]} within each decile {welfare['title'][wel].capitalize()}"
+            df_graphers.loc[
+                j, "ySlugs"
+            ] = f"p0p10_avg_{welfare['slug'][wel]} p10p20_avg_{welfare['slug'][wel]} p20p30_avg_{welfare['slug'][wel]} p30p40_avg_{welfare['slug'][wel]} p40p50_avg_{welfare['slug'][wel]} p50p60_avg_{welfare['slug'][wel]} p60p70_avg_{welfare['slug'][wel]} p70p80_avg_{welfare['slug'][wel]} p80p90_avg_{welfare['slug'][wel]} p90p100_avg_{welfare['slug'][wel]} p99p100_avg_{welfare['slug'][wel]} p99_9p100_avg_{welfare['slug'][wel]} p99_99p100_avg_{welfare['slug'][wel]} p99_999p100_avg_{welfare['slug'][wel]}"
+            df_graphers.loc[j, "Metric Dropdown"] = "Mean income or wealth, by decile"
+            df_graphers.loc[
+                j, "Resource type Dropdown"
+            ] = f"{welfare['dropdown_option'][wel]}"
+            df_graphers.loc[j, "Decile/quantile Dropdown"] = "All deciles + top"
+            df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
+                "checkbox"
+            ][rel_toggle]
+            df_graphers.loc[j, "stackMode"] = relative_toggle["stack_mode"][rel_toggle]
+            df_graphers.loc[
+                j, "subtitle"
+            ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]}"
+            df_graphers.loc[
+                j, "note"
+            ] = f"This data is measured in international-$ at 2021 prices. {welfare['note'][wel]}"
+            df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
+            df_graphers.loc[j, "hasMapTab"] = "false"
+            df_graphers.loc[j, "tab"] = "chart"
             df_graphers.loc[j, "yScaleToggle"] = "true"
             j += 1
 
@@ -380,6 +584,8 @@ for tab in range(len(tables)):
             df_graphers.loc[j, "Decile/quantile Dropdown"] = deciles10["dropdown"][
                 dec10
             ]
+            df_graphers.loc[j, "Relative change Checkbox"] = "false"
+            df_graphers.loc[j, "stackMode"] = "absolute"
             df_graphers.loc[
                 j, "subtitle"
             ] = f"This is the {welfare['welfare_type'][wel]} of the {deciles10['ordinal'][dec10]} (tenth of the population) as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
@@ -387,54 +593,6 @@ for tab in range(len(tables)):
             df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
             df_graphers.loc[j, "hasMapTab"] = "true"
             df_graphers.loc[j, "tab"] = "map"
-            j += 1
-
-        # Thresholds - Top
-        for top in range(len(top_pct)):
-            df_graphers.loc[
-                j, "title"
-            ] = f"Threshold {welfare['welfare_type'][wel]} marking the richest {top_pct['name'][top]} {welfare['title'][wel].capitalize()}"
-            df_graphers.loc[
-                j, "ySlugs"
-            ] = f"{top_pct['wid_notation'][top]}_thr_{welfare['slug'][wel]}"
-            df_graphers.loc[j, "Metric Dropdown"] = "Decile thresholds"
-            df_graphers.loc[
-                j, "Resource type Dropdown"
-            ] = f"{welfare['dropdown_option'][wel]}"
-            df_graphers.loc[j, "Decile/quantile Dropdown"] = top_pct["name"][top]
-            df_graphers.loc[j, "subtitle"] = f"{welfare['subtitle'][wel]}"
-            df_graphers.loc[
-                j, "note"
-            ] = f"This data is measured in international-$ at 2021 prices to account for inflation and differences in the cost of living between countries. {welfare['note'][wel]}"
-            df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
-            df_graphers.loc[j, "hasMapTab"] = "true"
-            df_graphers.loc[j, "tab"] = "map"
-            df_graphers.loc[j, "yScaleToggle"] = "true"
-            j += 1
-
-        # Averages - Top
-        for top in range(len(top_pct)):
-            df_graphers.loc[
-                j, "title"
-            ] = f"Mean {welfare['welfare_type'][wel]} within the {top_pct['name'][top]} {welfare['title'][wel].capitalize()}"
-            df_graphers.loc[
-                j, "ySlugs"
-            ] = f"{top_pct['wid_notation'][top]}_avg_{welfare['slug'][wel]}"
-            df_graphers.loc[j, "Metric Dropdown"] = "Mean income or wealth, by decile"
-            df_graphers.loc[
-                j, "Resource type Dropdown"
-            ] = f"{welfare['dropdown_option'][wel]}"
-            df_graphers.loc[j, "Decile/quantile Dropdown"] = top_pct["name"][top]
-            df_graphers.loc[
-                j, "subtitle"
-            ] = f"This is the mean {welfare['welfare_type'][wel]} within the richest {top_pct['name'][top]}. {welfare['subtitle'][wel]}"
-            df_graphers.loc[
-                j, "note"
-            ] = f"This data is measured in international-$ at 2021 prices to account for inflation and differences in the cost of living between countries. {welfare['note'][wel]}"
-            df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
-            df_graphers.loc[j, "hasMapTab"] = "true"
-            df_graphers.loc[j, "tab"] = "map"
-            df_graphers.loc[j, "yScaleToggle"] = "true"
             j += 1
 
         # Shares - Top
@@ -450,6 +608,8 @@ for tab in range(len(tables)):
                 j, "Resource type Dropdown"
             ] = f"{welfare['dropdown_option'][wel]}"
             df_graphers.loc[j, "Decile/quantile Dropdown"] = top_pct["name"][top]
+            df_graphers.loc[j, "Relative change Checkbox"] = "false"
+            df_graphers.loc[j, "stackMode"] = "absolute"
             df_graphers.loc[
                 j, "subtitle"
             ] = f"This is the {welfare['welfare_type'][wel]} of the richest {top_pct['name'][top]} as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
@@ -458,54 +618,6 @@ for tab in range(len(tables)):
             df_graphers.loc[j, "hasMapTab"] = "true"
             df_graphers.loc[j, "tab"] = "map"
             j += 1
-
-        # Thresholds - Multiple deciles
-        df_graphers.loc[
-            j, "title"
-        ] = f"Threshold {welfare['welfare_type'][wel]} for each decile {welfare['title'][wel].capitalize()}"
-        df_graphers.loc[
-            j, "ySlugs"
-        ] = f"p10p20_thr_{welfare['slug'][wel]} p20p30_thr_{welfare['slug'][wel]} p30p40_thr_{welfare['slug'][wel]} p40p50_thr_{welfare['slug'][wel]} p50p60_thr_{welfare['slug'][wel]} p60p70_thr_{welfare['slug'][wel]} p70p80_thr_{welfare['slug'][wel]} p80p90_thr_{welfare['slug'][wel]} p90p100_thr_{welfare['slug'][wel]}"
-        df_graphers.loc[j, "Metric Dropdown"] = "Decile thresholds"
-        df_graphers.loc[
-            j, "Resource type Dropdown"
-        ] = f"{welfare['dropdown_option'][wel]}"
-        df_graphers.loc[j, "Decile/quantile Dropdown"] = "All deciles"
-        df_graphers.loc[
-            j, "subtitle"
-        ] = f"This is the level of income or consumption per year below which 10%, 20%, 30%, etc. of the population falls. {welfare['subtitle'][wel]}"
-        df_graphers.loc[
-            j, "note"
-        ] = f"This data is measured in international-$ at 2021 prices to account for inflation and differences in the cost of living between countries. {welfare['note'][wel]}"
-        df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
-        df_graphers.loc[j, "hasMapTab"] = "false"
-        df_graphers.loc[j, "tab"] = "chart"
-        df_graphers.loc[j, "yScaleToggle"] = "true"
-        j += 1
-
-        # Averages - Multiple deciles
-        df_graphers.loc[
-            j, "title"
-        ] = f"Mean {welfare['welfare_type'][wel]} within each decile {welfare['title'][wel].capitalize()}"
-        df_graphers.loc[
-            j, "ySlugs"
-        ] = f"p0p10_avg_{welfare['slug'][wel]} p10p20_avg_{welfare['slug'][wel]} p20p30_avg_{welfare['slug'][wel]} p30p40_avg_{welfare['slug'][wel]} p40p50_avg_{welfare['slug'][wel]} p50p60_avg_{welfare['slug'][wel]} p60p70_avg_{welfare['slug'][wel]} p70p80_avg_{welfare['slug'][wel]} p80p90_avg_{welfare['slug'][wel]} p90p100_avg_{welfare['slug'][wel]}"
-        df_graphers.loc[j, "Metric Dropdown"] = "Mean income or wealth, by decile"
-        df_graphers.loc[
-            j, "Resource type Dropdown"
-        ] = f"{welfare['dropdown_option'][wel]}"
-        df_graphers.loc[j, "Decile/quantile Dropdown"] = "All deciles"
-        df_graphers.loc[
-            j, "subtitle"
-        ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]}"
-        df_graphers.loc[
-            j, "note"
-        ] = f"This data is measured in international-$ at 2021 prices. {welfare['note'][wel]}"
-        df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
-        df_graphers.loc[j, "hasMapTab"] = "false"
-        df_graphers.loc[j, "tab"] = "chart"
-        df_graphers.loc[j, "yScaleToggle"] = "true"
-        j += 1
 
         # Shares - Multiple deciles
         df_graphers.loc[
@@ -519,6 +631,8 @@ for tab in range(len(tables)):
             j, "Resource type Dropdown"
         ] = f"{welfare['dropdown_option'][wel]}"
         df_graphers.loc[j, "Decile/quantile Dropdown"] = "All deciles"
+        df_graphers.loc[j, "Relative change Checkbox"] = "false"
+        df_graphers.loc[j, "stackMode"] = "absolute"
         df_graphers.loc[
             j, "subtitle"
         ] = f"This is the {welfare['welfare_type'][wel]} of each decile (tenth of the population) as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
@@ -526,54 +640,6 @@ for tab in range(len(tables)):
         df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
         df_graphers.loc[j, "hasMapTab"] = "false"
         df_graphers.loc[j, "tab"] = "chart"
-        j += 1
-
-        # Thresholds - Multiple deciles (including top)
-        df_graphers.loc[
-            j, "title"
-        ] = f"Threshold {welfare['welfare_type'][wel]} for each decile {welfare['title'][wel].capitalize()}"
-        df_graphers.loc[
-            j, "ySlugs"
-        ] = f"p10p20_thr_{welfare['slug'][wel]} p20p30_thr_{welfare['slug'][wel]} p30p40_thr_{welfare['slug'][wel]} p40p50_thr_{welfare['slug'][wel]} p50p60_thr_{welfare['slug'][wel]} p60p70_thr_{welfare['slug'][wel]} p70p80_thr_{welfare['slug'][wel]} p80p90_thr_{welfare['slug'][wel]} p90p100_thr_{welfare['slug'][wel]} p99p100_thr_{welfare['slug'][wel]} p99_9p100_thr_{welfare['slug'][wel]} p99_99p100_thr_{welfare['slug'][wel]} p99_999p100_thr_{welfare['slug'][wel]}"
-        df_graphers.loc[j, "Metric Dropdown"] = "Decile thresholds"
-        df_graphers.loc[
-            j, "Resource type Dropdown"
-        ] = f"{welfare['dropdown_option'][wel]}"
-        df_graphers.loc[j, "Decile/quantile Dropdown"] = "All deciles + top"
-        df_graphers.loc[
-            j, "subtitle"
-        ] = f"This is the level of income or consumption per year below which 10%, 20%, 30%, etc. of the population falls. {welfare['subtitle'][wel]}"
-        df_graphers.loc[
-            j, "note"
-        ] = f"This data is measured in international-$ at 2021 prices to account for inflation and differences in the cost of living between countries. {welfare['note'][wel]}"
-        df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
-        df_graphers.loc[j, "hasMapTab"] = "false"
-        df_graphers.loc[j, "tab"] = "chart"
-        df_graphers.loc[j, "yScaleToggle"] = "true"
-        j += 1
-
-        # Averages - Multiple deciles (including top)
-        df_graphers.loc[
-            j, "title"
-        ] = f"Mean {welfare['welfare_type'][wel]} within each decile {welfare['title'][wel].capitalize()}"
-        df_graphers.loc[
-            j, "ySlugs"
-        ] = f"p0p10_avg_{welfare['slug'][wel]} p10p20_avg_{welfare['slug'][wel]} p20p30_avg_{welfare['slug'][wel]} p30p40_avg_{welfare['slug'][wel]} p40p50_avg_{welfare['slug'][wel]} p50p60_avg_{welfare['slug'][wel]} p60p70_avg_{welfare['slug'][wel]} p70p80_avg_{welfare['slug'][wel]} p80p90_avg_{welfare['slug'][wel]} p90p100_avg_{welfare['slug'][wel]} p99p100_avg_{welfare['slug'][wel]} p99_9p100_avg_{welfare['slug'][wel]} p99_99p100_avg_{welfare['slug'][wel]} p99_999p100_avg_{welfare['slug'][wel]}"
-        df_graphers.loc[j, "Metric Dropdown"] = "Mean income or wealth, by decile"
-        df_graphers.loc[
-            j, "Resource type Dropdown"
-        ] = f"{welfare['dropdown_option'][wel]}"
-        df_graphers.loc[j, "Decile/quantile Dropdown"] = "All deciles + top"
-        df_graphers.loc[
-            j, "subtitle"
-        ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]}"
-        df_graphers.loc[
-            j, "note"
-        ] = f"This data is measured in international-$ at 2021 prices. {welfare['note'][wel]}"
-        df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
-        df_graphers.loc[j, "hasMapTab"] = "false"
-        df_graphers.loc[j, "tab"] = "chart"
-        df_graphers.loc[j, "yScaleToggle"] = "true"
         j += 1
 
         # Shares - Multiple deciles (including top)
@@ -588,6 +654,8 @@ for tab in range(len(tables)):
             j, "Resource type Dropdown"
         ] = f"{welfare['dropdown_option'][wel]}"
         df_graphers.loc[j, "Decile/quantile Dropdown"] = "All deciles + top"
+        df_graphers.loc[j, "Relative change Checkbox"] = "false"
+        df_graphers.loc[j, "stackMode"] = "absolute"
         df_graphers.loc[
             j, "subtitle"
         ] = f"This is the {welfare['welfare_type'][wel]} of each decile (tenth of the population) as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
@@ -621,7 +689,8 @@ df_graphers["title"] = df_graphers["title"].str.strip()
 df_graphers.loc[
     (df_graphers["Metric Dropdown"] == "Decile thresholds")
     & (df_graphers["Resource type Dropdown"] == "Income before tax")
-    & (df_graphers["Decile/quantile Dropdown"] == "All deciles"),
+    & (df_graphers["Decile/quantile Dropdown"] == "All deciles")
+    & (df_graphers["Relative change Checkbox"] == "false"),
     ["defaultView"],
 ] = "true"
 
