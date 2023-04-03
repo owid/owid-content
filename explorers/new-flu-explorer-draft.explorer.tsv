@@ -146,7 +146,7 @@ columns	flu_weekly
 	reported_ili_cases	Cases of influenza-like illnesses	Integer	30	FluID, World Health Organization (2023)		0
 	reported_sari_deaths	Reported deaths caused by severe acute respiratory infections	Integer	30	FluID, World Health Organization (2023)		0
 	ili_cases_per_thousand_outpatients	Cases of influenza-like illness per thousand outpatients	Numeric	30	FluID, World Health Organization (2023)		0
-	sari_cases_per_hundred_inpatients	Cases of acute respiratory illness per thousand outpatients	Numeric	30	FluID, World Health Organization (2023)		0
+	sari_cases_per_hundred_inpatients	Cases of severe acute respiratory infection per hundred inpatients	Numeric	30	FluID, World Health Organization (2023)		0
 	ah1n12009sentinel	Sentinel surveillance	Integer	30	FluNet, World Health Organization (2023)		0
 	ah1n12009nonsentinel	Non-sentinel surveillance	Integer	30	FluNet, World Health Organization (2023)		0
 	ah1n12009notdefined	Undefined surveillance	Integer	30	FluNet, World Health Organization (2023)		0
@@ -265,7 +265,7 @@ columns	flu_monthly
 	reported_ili_cases	Cases of influenza-like illnesses	Integer	30	FluID, World Health Organization (2023)		0
 	reported_sari_deaths	Reported deaths caused by severe acute respiratory infections	Integer	30	FluID, World Health Organization (2023)		0
 	ili_cases_per_thousand_outpatients	Cases of influenza-like illness per thousand outpatients	Numeric	30	FluID, World Health Organization (2023)		0
-	sari_cases_per_hundred_inpatients	Cases of acute respiratory illness per thousand outpatients	Numeric	30	FluID, World Health Organization (2023)		0
+	sari_cases_per_hundred_inpatients	Cases of severe acute respiratory infection per hundred inpatients	Numeric	30	FluID, World Health Organization (2023)		0
 	ah1n12009sentinel	Sentinel surveillance	Integer	30	FluNet, World Health Organization (2023)		0
 	ah1n12009nonsentinel	Non-sentinel surveillance	Integer	30	FluNet, World Health Organization (2023)		0
 	ah1n12009notdefined	Undefined surveillance	Integer	30	FluNet, World Health Organization (2023)		0
