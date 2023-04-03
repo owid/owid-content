@@ -285,9 +285,7 @@ for tab in range(len(tables)):
         ] = f"{welfare['welfare_type'][wel].capitalize()} inequality: Gini coefficient {welfare['title'][wel].capitalize()}"
         df_graphers.loc[j, "ySlugs"] = f"p0p100_gini_{welfare['slug'][wel]}"
         df_graphers.loc[j, "Metric Dropdown"] = "Gini coefficient"
-        df_graphers.loc[
-            j, "Resource type Dropdown"
-        ] = f"{welfare['dropdown_option'][wel]}"
+        df_graphers.loc[j, "Data type Dropdown"] = f"{welfare['dropdown_option'][wel]}"
         df_graphers.loc[
             j, "subtitle"
         ] = f"The Gini coefficient is a measure of the inequality of the {welfare['welfare_type'][wel]} distribution in a population. Higher values indicate a higher level of inequality. {welfare['subtitle'][wel]}"
@@ -304,9 +302,7 @@ for tab in range(len(tables)):
         ] = f"{welfare['welfare_type'][wel].capitalize()} share of the top 10% {welfare['title'][wel].capitalize()}"
         df_graphers.loc[j, "ySlugs"] = f"p90p100_share_{welfare['slug'][wel]}"
         df_graphers.loc[j, "Metric Dropdown"] = "Top 10% share"
-        df_graphers.loc[
-            j, "Resource type Dropdown"
-        ] = f"{welfare['dropdown_option'][wel]}"
+        df_graphers.loc[j, "Data type Dropdown"] = f"{welfare['dropdown_option'][wel]}"
         df_graphers.loc[
             j, "subtitle"
         ] = f"This is the {welfare['welfare_type'][wel]} of the richest 10% as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
@@ -323,9 +319,7 @@ for tab in range(len(tables)):
         ] = f"{welfare['welfare_type'][wel].capitalize()} share of the top 1% {welfare['title'][wel].capitalize()}"
         df_graphers.loc[j, "ySlugs"] = f"p99p100_share_{welfare['slug'][wel]}"
         df_graphers.loc[j, "Metric Dropdown"] = "Top 1% share"
-        df_graphers.loc[
-            j, "Resource type Dropdown"
-        ] = f"{welfare['dropdown_option'][wel]}"
+        df_graphers.loc[j, "Data type Dropdown"] = f"{welfare['dropdown_option'][wel]}"
         df_graphers.loc[
             j, "subtitle"
         ] = f"This is the {welfare['welfare_type'][wel]} of the richest 1% as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
@@ -342,9 +336,7 @@ for tab in range(len(tables)):
         ] = f"{welfare['welfare_type'][wel].capitalize()} share of the top 0.1% {welfare['title'][wel].capitalize()}"
         df_graphers.loc[j, "ySlugs"] = f"p99_9p100_share_{welfare['slug'][wel]}"
         df_graphers.loc[j, "Metric Dropdown"] = "Top 0.1% share"
-        df_graphers.loc[
-            j, "Resource type Dropdown"
-        ] = f"{welfare['dropdown_option'][wel]}"
+        df_graphers.loc[j, "Data type Dropdown"] = f"{welfare['dropdown_option'][wel]}"
         df_graphers.loc[
             j, "subtitle"
         ] = f"This is the {welfare['welfare_type'][wel]} of the richest 0.1% as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
@@ -361,9 +353,7 @@ for tab in range(len(tables)):
         ] = f"{welfare['welfare_type'][wel].capitalize()} share of the top 0.01% {welfare['title'][wel].capitalize()}"
         df_graphers.loc[j, "ySlugs"] = f"p99_99p100_share_{welfare['slug'][wel]}"
         df_graphers.loc[j, "Metric Dropdown"] = "Top 0.01% share"
-        df_graphers.loc[
-            j, "Resource type Dropdown"
-        ] = f"{welfare['dropdown_option'][wel]}"
+        df_graphers.loc[j, "Data type Dropdown"] = f"{welfare['dropdown_option'][wel]}"
         df_graphers.loc[
             j, "subtitle"
         ] = f"This is the {welfare['welfare_type'][wel]} of the richest 0.01% as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
@@ -380,9 +370,7 @@ for tab in range(len(tables)):
         ] = f"{welfare['welfare_type'][wel].capitalize()} share of the top 0.001% {welfare['title'][wel].capitalize()}"
         df_graphers.loc[j, "ySlugs"] = f"p99_999p100_share_{welfare['slug'][wel]}"
         df_graphers.loc[j, "Metric Dropdown"] = "Top 0.001% share"
-        df_graphers.loc[
-            j, "Resource type Dropdown"
-        ] = f"{welfare['dropdown_option'][wel]}"
+        df_graphers.loc[j, "Data type Dropdown"] = f"{welfare['dropdown_option'][wel]}"
         df_graphers.loc[
             j, "subtitle"
         ] = f"This is the {welfare['welfare_type'][wel]} of the richest 0.001% as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
@@ -399,9 +387,7 @@ for tab in range(len(tables)):
         ] = f"{welfare['welfare_type'][wel].capitalize()} inequality: P90/P10 ratio {welfare['title'][wel].capitalize()}"
         df_graphers.loc[j, "ySlugs"] = f"p90_p10_ratio_{welfare['slug'][wel]}"
         df_graphers.loc[j, "Metric Dropdown"] = "P90/P10"
-        df_graphers.loc[
-            j, "Resource type Dropdown"
-        ] = f"{welfare['dropdown_option'][wel]}"
+        df_graphers.loc[j, "Data type Dropdown"] = f"{welfare['dropdown_option'][wel]}"
         df_graphers.loc[
             j, "subtitle"
         ] = f"P90 and P10 are the levels of {welfare['welfare_type'][wel]} below which 90% and 10% of the population live, respectively. This variable gives the ratio of the two. It is a measure of inequality that indicates the gap between the richest and poorest tenth of the population. {welfare['subtitle'][wel]}"
@@ -418,9 +404,7 @@ for tab in range(len(tables)):
         ] = f"{welfare['welfare_type'][wel].capitalize()} inequality: P90/P50 ratio {welfare['title'][wel].capitalize()}"
         df_graphers.loc[j, "ySlugs"] = f"p90_p50_ratio_{welfare['slug'][wel]}"
         df_graphers.loc[j, "Metric Dropdown"] = "P90/P50"
-        df_graphers.loc[
-            j, "Resource type Dropdown"
-        ] = f"{welfare['dropdown_option'][wel]}"
+        df_graphers.loc[j, "Data type Dropdown"] = f"{welfare['dropdown_option'][wel]}"
         df_graphers.loc[
             j, "subtitle"
         ] = f"The P90/P50 ratio measures the degree of inequality within the richest half of the population. A ratio of 2 means that someone just falling in the richest tenth of the population has twice the median {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
@@ -437,9 +421,7 @@ for tab in range(len(tables)):
         ] = f"{welfare['welfare_type'][wel].capitalize()} inequality: P50/P10 ratio {welfare['title'][wel].capitalize()}"
         df_graphers.loc[j, "ySlugs"] = f"p50_p10_ratio_{welfare['slug'][wel]}"
         df_graphers.loc[j, "Metric Dropdown"] = "P50/P10"
-        df_graphers.loc[
-            j, "Resource type Dropdown"
-        ] = f"{welfare['dropdown_option'][wel]}"
+        df_graphers.loc[j, "Data type Dropdown"] = f"{welfare['dropdown_option'][wel]}"
         df_graphers.loc[
             j, "subtitle"
         ] = f"The P50/P10 ratio measures the degree of inequality within the poorest half of the population. A ratio of 2 means that the median {welfare['welfare_type'][wel]} is two times higher than that of someone just falling in the poorest tenth of the population. {welfare['subtitle'][wel]}"
@@ -456,9 +438,7 @@ for tab in range(len(tables)):
         ] = f"{welfare['welfare_type'][wel].capitalize()} inequality: Palma ratio {welfare['title'][wel].capitalize()}"
         df_graphers.loc[j, "ySlugs"] = f"palma_ratio_{welfare['slug'][wel]}"
         df_graphers.loc[j, "Metric Dropdown"] = "Palma ratio"
-        df_graphers.loc[
-            j, "Resource type Dropdown"
-        ] = f"{welfare['dropdown_option'][wel]}"
+        df_graphers.loc[j, "Data type Dropdown"] = f"{welfare['dropdown_option'][wel]}"
         df_graphers.loc[
             j, "subtitle"
         ] = f"The Palma ratio is the share of total {welfare['welfare_type'][wel]} of the top 10% divided by the share of the bottom 40%. {welfare['subtitle'][wel]}"
@@ -492,7 +472,7 @@ df_graphers["title"] = df_graphers["title"].str.strip()
 # Select one default view
 df_graphers.loc[
     (df_graphers["Metric Dropdown"] == "Gini coefficient")
-    & (df_graphers["Resource type Dropdown"] == "Income before tax"),
+    & (df_graphers["Data type Dropdown"] == "Income before tax"),
     ["defaultView"],
 ] = "true"
 

@@ -7,7 +7,7 @@ wpBlockId
 entityType	country or region					
 
 graphers
-	title	ySlugs	Metric Dropdown	Resource type Dropdown	subtitle	note	type	selectedFacetStrategy	hasMapTab	tab	tableSlug	relatedQuestionText	relatedQuestionUrl	yAxisMin	mapTargetTime	defaultView
+	title	ySlugs	Metric Dropdown	Data type Dropdown	subtitle	note	type	selectedFacetStrategy	hasMapTab	tab	tableSlug	relatedQuestionText	relatedQuestionUrl	yAxisMin	mapTargetTime	defaultView
 	Income inequality: Gini coefficient (before tax)	p0p100_gini_pretax	Gini coefficient	Income before tax	The Gini coefficient is a measure of the inequality of the income distribution in a population. Higher values indicate a higher level of inequality. Income here is measured before the payment and receipt of taxes and benefits.	Income is also measured after payment of public and private pensions.			true	map	wid_vars			0	2019	true
 	Income share of the top 10% (before tax)	p90p100_share_pretax	Top 10% share	Income before tax	This is the income of the richest 10% as a share of total income. Income here is measured before the payment and receipt of taxes and benefits.	Income is also measured after payment of public and private pensions.			true	map	wid_vars			0	2019	
 	Income share of the top 1% (before tax)	p99p100_share_pretax	Top 1% share	Income before tax	This is the income of the richest 1% as a share of total income. Income here is measured before the payment and receipt of taxes and benefits.	Income is also measured after payment of public and private pensions.			true	map	wid_vars			0	2019	

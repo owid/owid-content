@@ -280,9 +280,7 @@ for tab in range(len(tables)):
         ] = f"Mean {welfare['welfare_type'][wel]} {welfare['title'][wel].capitalize()}"
         df_graphers.loc[j, "ySlugs"] = f"p0p100_avg_{welfare['slug'][wel]}"
         df_graphers.loc[j, "Metric Dropdown"] = "Mean income or wealth"
-        df_graphers.loc[
-            j, "Resource type Dropdown"
-        ] = f"{welfare['dropdown_option'][wel]}"
+        df_graphers.loc[j, "Data type Dropdown"] = f"{welfare['dropdown_option'][wel]}"
         df_graphers.loc[j, "Decile/quantile Dropdown"] = np.nan
         df_graphers.loc[j, "Relative change Checkbox"] = "false"
         df_graphers.loc[j, "stackMode"] = "absolute"
@@ -304,9 +302,7 @@ for tab in range(len(tables)):
         ] = f"Median {welfare['welfare_type'][wel]} {welfare['title'][wel].capitalize()}"
         df_graphers.loc[j, "ySlugs"] = f"median_{welfare['slug'][wel]}"
         df_graphers.loc[j, "Metric Dropdown"] = "Median income or wealth"
-        df_graphers.loc[
-            j, "Resource type Dropdown"
-        ] = f"{welfare['dropdown_option'][wel]}"
+        df_graphers.loc[j, "Data type Dropdown"] = f"{welfare['dropdown_option'][wel]}"
         df_graphers.loc[j, "Decile/quantile Dropdown"] = np.nan
         df_graphers.loc[j, "Relative change Checkbox"] = "false"
         df_graphers.loc[j, "stackMode"] = "absolute"
@@ -332,7 +328,7 @@ for tab in range(len(tables)):
             ] = f"{deciles9['wid_notation'][dec9]}_thr_{welfare['slug'][wel]}"
             df_graphers.loc[j, "Metric Dropdown"] = "Decile thresholds"
             df_graphers.loc[
-                j, "Resource type Dropdown"
+                j, "Data type Dropdown"
             ] = f"{welfare['dropdown_option'][wel]}"
             df_graphers.loc[j, "Decile/quantile Dropdown"] = deciles9["dropdown"][dec9]
             df_graphers.loc[j, "Relative change Checkbox"] = "false"
@@ -359,7 +355,7 @@ for tab in range(len(tables)):
             ] = f"{deciles10['wid_notation'][dec10]}_avg_{welfare['slug'][wel]}"
             df_graphers.loc[j, "Metric Dropdown"] = "Mean income or wealth, by decile"
             df_graphers.loc[
-                j, "Resource type Dropdown"
+                j, "Data type Dropdown"
             ] = f"{welfare['dropdown_option'][wel]}"
             df_graphers.loc[j, "Decile/quantile Dropdown"] = deciles10["dropdown"][
                 dec10
@@ -388,7 +384,7 @@ for tab in range(len(tables)):
             ] = f"{top_pct['wid_notation'][top]}_thr_{welfare['slug'][wel]}"
             df_graphers.loc[j, "Metric Dropdown"] = "Decile thresholds"
             df_graphers.loc[
-                j, "Resource type Dropdown"
+                j, "Data type Dropdown"
             ] = f"{welfare['dropdown_option'][wel]}"
             df_graphers.loc[j, "Decile/quantile Dropdown"] = top_pct["name"][top]
             df_graphers.loc[j, "Relative change Checkbox"] = "false"
@@ -413,7 +409,7 @@ for tab in range(len(tables)):
             ] = f"{top_pct['wid_notation'][top]}_avg_{welfare['slug'][wel]}"
             df_graphers.loc[j, "Metric Dropdown"] = "Mean income or wealth, by decile"
             df_graphers.loc[
-                j, "Resource type Dropdown"
+                j, "Data type Dropdown"
             ] = f"{welfare['dropdown_option'][wel]}"
             df_graphers.loc[j, "Decile/quantile Dropdown"] = top_pct["name"][top]
             df_graphers.loc[j, "Relative change Checkbox"] = "false"
@@ -440,7 +436,7 @@ for tab in range(len(tables)):
             ] = f"p10p20_thr_{welfare['slug'][wel]} p20p30_thr_{welfare['slug'][wel]} p30p40_thr_{welfare['slug'][wel]} p40p50_thr_{welfare['slug'][wel]} p50p60_thr_{welfare['slug'][wel]} p60p70_thr_{welfare['slug'][wel]} p70p80_thr_{welfare['slug'][wel]} p80p90_thr_{welfare['slug'][wel]} p90p100_thr_{welfare['slug'][wel]}"
             df_graphers.loc[j, "Metric Dropdown"] = "Decile thresholds"
             df_graphers.loc[
-                j, "Resource type Dropdown"
+                j, "Data type Dropdown"
             ] = f"{welfare['dropdown_option'][wel]}"
             df_graphers.loc[j, "Decile/quantile Dropdown"] = "All deciles"
             df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
@@ -468,7 +464,7 @@ for tab in range(len(tables)):
             ] = f"p0p10_avg_{welfare['slug'][wel]} p10p20_avg_{welfare['slug'][wel]} p20p30_avg_{welfare['slug'][wel]} p30p40_avg_{welfare['slug'][wel]} p40p50_avg_{welfare['slug'][wel]} p50p60_avg_{welfare['slug'][wel]} p60p70_avg_{welfare['slug'][wel]} p70p80_avg_{welfare['slug'][wel]} p80p90_avg_{welfare['slug'][wel]} p90p100_avg_{welfare['slug'][wel]}"
             df_graphers.loc[j, "Metric Dropdown"] = "Mean income or wealth, by decile"
             df_graphers.loc[
-                j, "Resource type Dropdown"
+                j, "Data type Dropdown"
             ] = f"{welfare['dropdown_option'][wel]}"
             df_graphers.loc[j, "Decile/quantile Dropdown"] = "All deciles"
             df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
@@ -496,7 +492,7 @@ for tab in range(len(tables)):
             ] = f"p10p20_thr_{welfare['slug'][wel]} p20p30_thr_{welfare['slug'][wel]} p30p40_thr_{welfare['slug'][wel]} p40p50_thr_{welfare['slug'][wel]} p50p60_thr_{welfare['slug'][wel]} p60p70_thr_{welfare['slug'][wel]} p70p80_thr_{welfare['slug'][wel]} p80p90_thr_{welfare['slug'][wel]} p90p100_thr_{welfare['slug'][wel]} p99p100_thr_{welfare['slug'][wel]} p99_9p100_thr_{welfare['slug'][wel]} p99_99p100_thr_{welfare['slug'][wel]} p99_999p100_thr_{welfare['slug'][wel]}"
             df_graphers.loc[j, "Metric Dropdown"] = "Decile thresholds"
             df_graphers.loc[
-                j, "Resource type Dropdown"
+                j, "Data type Dropdown"
             ] = f"{welfare['dropdown_option'][wel]}"
             df_graphers.loc[j, "Decile/quantile Dropdown"] = "All deciles + top"
             df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
@@ -524,7 +520,7 @@ for tab in range(len(tables)):
             ] = f"p0p10_avg_{welfare['slug'][wel]} p10p20_avg_{welfare['slug'][wel]} p20p30_avg_{welfare['slug'][wel]} p30p40_avg_{welfare['slug'][wel]} p40p50_avg_{welfare['slug'][wel]} p50p60_avg_{welfare['slug'][wel]} p60p70_avg_{welfare['slug'][wel]} p70p80_avg_{welfare['slug'][wel]} p80p90_avg_{welfare['slug'][wel]} p90p100_avg_{welfare['slug'][wel]} p99p100_avg_{welfare['slug'][wel]} p99_9p100_avg_{welfare['slug'][wel]} p99_99p100_avg_{welfare['slug'][wel]} p99_999p100_avg_{welfare['slug'][wel]}"
             df_graphers.loc[j, "Metric Dropdown"] = "Mean income or wealth, by decile"
             df_graphers.loc[
-                j, "Resource type Dropdown"
+                j, "Data type Dropdown"
             ] = f"{welfare['dropdown_option'][wel]}"
             df_graphers.loc[j, "Decile/quantile Dropdown"] = "All deciles + top"
             df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
@@ -553,7 +549,7 @@ for tab in range(len(tables)):
             ] = f"{deciles10['wid_notation'][dec10]}_share_{welfare['slug'][wel]}"
             df_graphers.loc[j, "Metric Dropdown"] = "Decile shares"
             df_graphers.loc[
-                j, "Resource type Dropdown"
+                j, "Data type Dropdown"
             ] = f"{welfare['dropdown_option'][wel]}"
             df_graphers.loc[j, "Decile/quantile Dropdown"] = deciles10["dropdown"][
                 dec10
@@ -579,7 +575,7 @@ for tab in range(len(tables)):
             ] = f"{top_pct['wid_notation'][top]}_share_{welfare['slug'][wel]}"
             df_graphers.loc[j, "Metric Dropdown"] = "Decile shares"
             df_graphers.loc[
-                j, "Resource type Dropdown"
+                j, "Data type Dropdown"
             ] = f"{welfare['dropdown_option'][wel]}"
             df_graphers.loc[j, "Decile/quantile Dropdown"] = top_pct["name"][top]
             df_graphers.loc[j, "Relative change Checkbox"] = "false"
@@ -601,9 +597,7 @@ for tab in range(len(tables)):
             j, "ySlugs"
         ] = f"p0p10_share_{welfare['slug'][wel]} p20p30_share_{welfare['slug'][wel]} p30p40_share_{welfare['slug'][wel]} p40p50_share_{welfare['slug'][wel]} p50p60_share_{welfare['slug'][wel]} p60p70_share_{welfare['slug'][wel]} p70p80_share_{welfare['slug'][wel]} p80p90_share_{welfare['slug'][wel]} p90p100_share_{welfare['slug'][wel]}"
         df_graphers.loc[j, "Metric Dropdown"] = "Decile shares"
-        df_graphers.loc[
-            j, "Resource type Dropdown"
-        ] = f"{welfare['dropdown_option'][wel]}"
+        df_graphers.loc[j, "Data type Dropdown"] = f"{welfare['dropdown_option'][wel]}"
         df_graphers.loc[j, "Decile/quantile Dropdown"] = "All deciles"
         df_graphers.loc[j, "Relative change Checkbox"] = "false"
         df_graphers.loc[j, "stackMode"] = "absolute"
@@ -624,9 +618,7 @@ for tab in range(len(tables)):
             j, "ySlugs"
         ] = f"p0p10_share_{welfare['slug'][wel]} p10p20_share_{welfare['slug'][wel]} p20p30_share_{welfare['slug'][wel]} p30p40_share_{welfare['slug'][wel]} p40p50_share_{welfare['slug'][wel]} p50p60_share_{welfare['slug'][wel]} p60p70_share_{welfare['slug'][wel]} p70p80_share_{welfare['slug'][wel]} p80p90_share_{welfare['slug'][wel]} p90p100_share_{welfare['slug'][wel]} p99p100_share_{welfare['slug'][wel]} p99_9p100_share_{welfare['slug'][wel]} p99_99p100_share_{welfare['slug'][wel]} p99_999p100_share_{welfare['slug'][wel]}"
         df_graphers.loc[j, "Metric Dropdown"] = "Decile shares"
-        df_graphers.loc[
-            j, "Resource type Dropdown"
-        ] = f"{welfare['dropdown_option'][wel]}"
+        df_graphers.loc[j, "Data type Dropdown"] = f"{welfare['dropdown_option'][wel]}"
         df_graphers.loc[j, "Decile/quantile Dropdown"] = "All deciles + top"
         df_graphers.loc[j, "Relative change Checkbox"] = "false"
         df_graphers.loc[j, "stackMode"] = "absolute"
@@ -662,7 +654,7 @@ df_graphers["title"] = df_graphers["title"].str.strip()
 # Select one default view
 df_graphers.loc[
     (df_graphers["Metric Dropdown"] == "Decile thresholds")
-    & (df_graphers["Resource type Dropdown"] == "Income before tax")
+    & (df_graphers["Data type Dropdown"] == "Income before tax")
     & (df_graphers["Decile/quantile Dropdown"] == "All deciles")
     & (df_graphers["Relative change Checkbox"] == "false"),
     ["defaultView"],
