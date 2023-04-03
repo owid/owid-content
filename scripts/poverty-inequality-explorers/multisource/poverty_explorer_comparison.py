@@ -490,7 +490,7 @@ for tab in range(len(merged_tables)):
                 ] = f"income_gap_ratio_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}_{lis_povlines_abs['cents'][p]}"
                 df_tables_lis.loc[
                     j, "description"
-                ] = f'The average shortfall from a poverty line of ${lis_povlines_abs.dollars_text[p]} a day (averaged across the population in poverty) expressed as a share of the poverty line. This metric is sometimes called the "income gap ratio". It captures the depth of poverty in which those below the poverty line are living.{new_line}This is {lis_welfare.technical_text[wel]}. {lis_welfare.subtitle[wel]}{new_line}{lis_equivalence_scales.note[eq]}'
+                ] = f'The average shortfall from a poverty line of ${lis_povlines_abs.dollars_text[p]} a day (averaged across the population in poverty) expressed as a share of the poverty line. This metric is sometimes called the "income gap ratio". It captures the depth of poverty in which those below the poverty line are living.{new_line}This is {lis_welfare.technical_text[wel]}. {lis_welfare.subtitle[wel]}{new_line}{lis_equivalence_scales.description[eq]}'
                 df_tables_lis.loc[j, "unit"] = "%"
                 df_tables_lis.loc[j, "shortUnit"] = "%"
                 df_tables_lis.loc[j, "type"] = "Numeric"
@@ -612,7 +612,7 @@ for tab in range(len(merged_tables)):
                 ] = f"income_gap_ratio_{lis_povlines_rel['slug_suffix'][pct]}_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
                 df_tables_lis.loc[
                     j, "description"
-                ] = f'The average shortfall from a poverty line of of {lis_povlines_rel.text[pct]} {lis_welfare.welfare_type[wel]} (averaged across the population in poverty) expressed as a share of the poverty line. This metric is sometimes called the "income gap ratio". It captures the depth of poverty in which those below the poverty line are living.{new_line}This is {lis_welfare.technical_text[wel]}. {lis_welfare.subtitle[wel]}{new_line}{lis_equivalence_scales.note[eq]}'
+                ] = f'The average shortfall from a poverty line of of {lis_povlines_rel.text[pct]} {lis_welfare.welfare_type[wel]} (averaged across the population in poverty) expressed as a share of the poverty line. This metric is sometimes called the "income gap ratio". It captures the depth of poverty in which those below the poverty line are living.{new_line}This is {lis_welfare.technical_text[wel]}. {lis_welfare.subtitle[wel]}{new_line}{lis_equivalence_scales.description[eq]}'
                 df_tables_lis.loc[j, "unit"] = "%"
                 df_tables_lis.loc[j, "shortUnit"] = "%"
                 df_tables_lis.loc[j, "type"] = "Numeric"

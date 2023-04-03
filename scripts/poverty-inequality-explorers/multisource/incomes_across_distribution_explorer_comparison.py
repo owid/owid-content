@@ -609,7 +609,7 @@ for tab in range(len(merged_tables)):
             ] = f"mean_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
             df_tables_lis.loc[
                 j, "description"
-            ] = f"Mean {lis_welfare['welfare_type'][wel]}.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}{lis_equivalence_scales['note'][eq]}"
+            ] = f"Mean {lis_welfare['welfare_type'][wel]}.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}{lis_equivalence_scales['description'][eq]}"
             df_tables_lis.loc[j, "unit"] = "international-$ in 2017 prices"
             df_tables_lis.loc[j, "shortUnit"] = "$"
             df_tables_lis.loc[j, "type"] = "Numeric"
@@ -629,7 +629,7 @@ for tab in range(len(merged_tables)):
             ] = f"median_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
             df_tables_lis.loc[
                 j, "description"
-            ] = f"The level of {lis_welfare['welfare_type'][wel]} below which half of the population live.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}{lis_equivalence_scales['note'][eq]}"
+            ] = f"The level of {lis_welfare['welfare_type'][wel]} below which half of the population live.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}{lis_equivalence_scales['description'][eq]}"
             df_tables_lis.loc[j, "unit"] = "international-$ in 2017 prices"
             df_tables_lis.loc[j, "shortUnit"] = "$"
             df_tables_lis.loc[j, "type"] = "Numeric"
@@ -650,7 +650,7 @@ for tab in range(len(merged_tables)):
                 ] = f"thr_{lis_deciles9['lis_notation'][dec9]}_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
                 df_tables_lis.loc[
                     j, "description"
-                ] = f"The level of {lis_welfare['welfare_type'][wel]} below which {lis_deciles9['decile'][dec9]}0% of the population falls.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}{lis_equivalence_scales['note'][eq]}"
+                ] = f"The level of {lis_welfare['welfare_type'][wel]} below which {lis_deciles9['decile'][dec9]}0% of the population falls.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}{lis_equivalence_scales['description'][eq]}"
                 df_tables_lis.loc[j, "unit"] = "international-$ in 2017 prices"
                 df_tables_lis.loc[j, "shortUnit"] = "$"
                 df_tables_lis.loc[j, "type"] = "Numeric"
@@ -671,7 +671,7 @@ for tab in range(len(merged_tables)):
                 ] = f"avg_{lis_deciles10['lis_notation'][dec10]}_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
                 df_tables_lis.loc[
                     j, "description"
-                ] = f"This is the mean {lis_welfare['welfare_type'][wel]} within the {lis_deciles10['ordinal'][dec10]} (tenth of the population).{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}{lis_equivalence_scales['note'][eq]}"
+                ] = f"This is the mean {lis_welfare['welfare_type'][wel]} within the {lis_deciles10['ordinal'][dec10]} (tenth of the population).{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}{lis_equivalence_scales['description'][eq]}"
                 df_tables_lis.loc[j, "unit"] = "international-$ in 2017 prices"
                 df_tables_lis.loc[j, "shortUnit"] = "$"
                 df_tables_lis.loc[j, "type"] = "Numeric"
@@ -692,7 +692,7 @@ for tab in range(len(merged_tables)):
                 ] = f"share_{lis_deciles10['lis_notation'][dec10]}_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
                 df_tables_lis.loc[
                     j, "description"
-                ] = f"This is the {lis_welfare['welfare_type'][wel]} of the {lis_deciles10['ordinal'][dec10]} (tenth of the population) as a share of total {lis_welfare['welfare_type'][wel]}.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}{lis_equivalence_scales['note'][eq]}"
+                ] = f"This is the {lis_welfare['welfare_type'][wel]} of the {lis_deciles10['ordinal'][dec10]} (tenth of the population) as a share of total {lis_welfare['welfare_type'][wel]}.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}{lis_equivalence_scales['description'][eq]}"
                 df_tables_lis.loc[j, "unit"] = "%"
                 df_tables_lis.loc[j, "shortUnit"] = "%"
                 df_tables_lis.loc[j, "type"] = "Numeric"
@@ -714,7 +714,7 @@ for tab in range(len(merged_tables)):
                 ] = f"mean_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}{lis_income_aggregation['slug_suffix'][agg]}"
                 df_tables_lis.loc[
                     j, "description"
-                ] = f"Mean {lis_welfare['welfare_type'][wel]}.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}{lis_equivalence_scales['note'][eq]}"
+                ] = f"Mean {lis_welfare['welfare_type'][wel]}.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}{lis_equivalence_scales['description'][eq]}"
                 df_tables_lis.loc[j, "unit"] = "international-$ in 2017 prices"
                 df_tables_lis.loc[j, "shortUnit"] = "$"
                 df_tables_lis.loc[j, "type"] = "Numeric"
@@ -737,7 +737,7 @@ for tab in range(len(merged_tables)):
                 ] = f"median_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}{lis_income_aggregation['slug_suffix'][agg]}"
                 df_tables_lis.loc[
                     j, "description"
-                ] = f"The level of {lis_welfare['welfare_type'][wel]} below which half of the population live.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}{lis_equivalence_scales['note'][eq]}"
+                ] = f"The level of {lis_welfare['welfare_type'][wel]} below which half of the population live.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}{lis_equivalence_scales['description'][eq]}"
                 df_tables_lis.loc[j, "unit"] = "international-$ in 2017 prices"
                 df_tables_lis.loc[j, "shortUnit"] = "$"
                 df_tables_lis.loc[j, "type"] = "Numeric"
@@ -761,7 +761,7 @@ for tab in range(len(merged_tables)):
                     ] = f"thr_{lis_deciles9['lis_notation'][dec9]}_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}{lis_income_aggregation['slug_suffix'][agg]}"
                     df_tables_lis.loc[
                         j, "description"
-                    ] = f"The level of {lis_welfare['welfare_type'][wel]} below which {lis_deciles9['decile'][dec9]}0% of the population falls.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}{lis_equivalence_scales['note'][eq]}"
+                    ] = f"The level of {lis_welfare['welfare_type'][wel]} below which {lis_deciles9['decile'][dec9]}0% of the population falls.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}{lis_equivalence_scales['description'][eq]}"
                     df_tables_lis.loc[j, "unit"] = "international-$ in 2017 prices"
                     df_tables_lis.loc[j, "shortUnit"] = "$"
                     df_tables_lis.loc[j, "type"] = "Numeric"
@@ -787,7 +787,7 @@ for tab in range(len(merged_tables)):
                     ] = f"avg_{lis_deciles10['lis_notation'][dec10]}_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}{lis_income_aggregation['slug_suffix'][agg]}"
                     df_tables_lis.loc[
                         j, "description"
-                    ] = f"This is the mean {lis_welfare['welfare_type'][wel]} within the {lis_deciles10['ordinal'][dec10]} (tenth of the population).{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}{lis_equivalence_scales['note'][eq]}"
+                    ] = f"This is the mean {lis_welfare['welfare_type'][wel]} within the {lis_deciles10['ordinal'][dec10]} (tenth of the population).{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}{lis_equivalence_scales['description'][eq]}"
                     df_tables_lis.loc[j, "unit"] = "international-$ in 2017 prices"
                     df_tables_lis.loc[j, "shortUnit"] = "$"
                     df_tables_lis.loc[j, "type"] = "Numeric"
