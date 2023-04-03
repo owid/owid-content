@@ -559,6 +559,7 @@ for tab in range(len(lis_tables)):
                 "scale_bottom50"
             ][wel]
             df_tables_lis.loc[j, "colorScaleScheme"] = "Blues"
+            df_tables_lis.loc[j, "equivalized"] = lis_equivalence_scales["text"][eq]
             j += 1
 
             # P90/P10
@@ -578,6 +579,7 @@ for tab in range(len(lis_tables)):
                 "scale_p90_p10_ratio"
             ][wel]
             df_tables_lis.loc[j, "colorScaleScheme"] = "OrRd"
+            df_tables_lis.loc[j, "equivalized"] = lis_equivalence_scales["text"][eq]
             j += 1
 
             # P90/P50
@@ -597,6 +599,7 @@ for tab in range(len(lis_tables)):
                 "scale_p90_p50_ratio"
             ][wel]
             df_tables_lis.loc[j, "colorScaleScheme"] = "Purples"
+            df_tables_lis.loc[j, "equivalized"] = lis_equivalence_scales["text"][eq]
             j += 1
 
             # P50/P10
@@ -616,6 +619,7 @@ for tab in range(len(lis_tables)):
                 "scale_p50_p10_ratio"
             ][wel]
             df_tables_lis.loc[j, "colorScaleScheme"] = "YlOrRd"
+            df_tables_lis.loc[j, "equivalized"] = lis_equivalence_scales["text"][eq]
             j += 1
 
             # Palma ratio
@@ -635,6 +639,7 @@ for tab in range(len(lis_tables)):
                 "scale_palma_ratio"
             ][wel]
             df_tables_lis.loc[j, "colorScaleScheme"] = "Oranges"
+            df_tables_lis.loc[j, "equivalized"] = lis_equivalence_scales["text"][eq]
             j += 1
 
             # Headcount ratio (rel)
@@ -652,6 +657,7 @@ for tab in range(len(lis_tables)):
             df_tables_lis.loc[j, "type"] = "Numeric"
             df_tables_lis.loc[j, "colorScaleNumericBins"] = "5;10;15;20;25;30"
             df_tables_lis.loc[j, "colorScaleScheme"] = "YlOrBr"
+            df_tables_lis.loc[j, "equivalized"] = lis_equivalence_scales["text"][eq]
             j += 1
 
     df_tables_lis["tableSlug"] = lis_tables["name"][tab]
@@ -662,6 +668,13 @@ df_tables_lis["sourceLink"] = sourceLink
 df_tables_lis["colorScaleNumericMinValue"] = colorScaleNumericMinValue
 df_tables_lis["tolerance"] = tolerance
 df_tables_lis["colorScaleEqualSizeBins"] = colorScaleEqualSizeBins
+
+# Remove all the rows that have the "per capita" value in the equivalized column
+df_tables_lis = df_tables_lis[df_tables_lis["equivalized"] != "per capita"].reset_index(
+    drop=True
+)
+# Drop the equivalized column
+df_tables_lis = df_tables_lis.drop(columns=["equivalized"])
 
 # Concatenate all the tables into one
 df_tables = pd.concat([df_tables_pip, df_tables_wid, df_tables_lis], ignore_index=True)

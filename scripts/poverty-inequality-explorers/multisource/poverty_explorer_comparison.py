@@ -414,6 +414,7 @@ for tab in range(len(merged_tables)):
                     j, "colorScaleNumericBins"
                 ] = "3;10;20;30;40;50;60;70;80;90;100"
                 df_tables_lis.loc[j, "colorScaleScheme"] = "OrRd"
+                df_tables_lis.loc[j, "equivalized"] = lis_equivalence_scales["text"][eq]
                 j += 1
 
             # Headcount (abs)
@@ -434,6 +435,7 @@ for tab in range(len(merged_tables)):
                     j, "colorScaleNumericBins"
                 ] = "100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000"
                 df_tables_lis.loc[j, "colorScaleScheme"] = "Reds"
+                df_tables_lis.loc[j, "equivalized"] = lis_equivalence_scales["text"][eq]
                 j += 1
 
             # Total shortfall (abs)
@@ -454,6 +456,7 @@ for tab in range(len(merged_tables)):
                     "scale_total_shortfall"
                 ][p]
                 df_tables_lis.loc[j, "colorScaleScheme"] = "Oranges"
+                df_tables_lis.loc[j, "equivalized"] = lis_equivalence_scales["text"][eq]
                 j += 1
 
             # Average shortfall ($)
@@ -474,6 +477,7 @@ for tab in range(len(merged_tables)):
                     "scale_avg_shortfall"
                 ][p]
                 df_tables_lis.loc[j, "colorScaleScheme"] = "Purples"
+                df_tables_lis.loc[j, "equivalized"] = lis_equivalence_scales["text"][eq]
                 j += 1
 
             # Average shortfall (% of poverty line) [this is the income gap ratio]
@@ -494,6 +498,7 @@ for tab in range(len(merged_tables)):
                     j, "colorScaleNumericBins"
                 ] = "10;20;30;40;50;60;70;80;90;100"
                 df_tables_lis.loc[j, "colorScaleScheme"] = "YlOrRd"
+                df_tables_lis.loc[j, "equivalized"] = lis_equivalence_scales["text"][eq]
                 j += 1
 
             # Poverty gap index
@@ -512,6 +517,7 @@ for tab in range(len(merged_tables)):
                 df_tables_lis.loc[j, "type"] = "Numeric"
                 df_tables_lis.loc[j, "colorScaleNumericBins"] = "10;20;30;40;50;60"
                 df_tables_lis.loc[j, "colorScaleScheme"] = "RdPu"
+                df_tables_lis.loc[j, "equivalized"] = lis_equivalence_scales["text"][eq]
                 j += 1
 
             # Headcount ratio (rel)
@@ -530,6 +536,7 @@ for tab in range(len(merged_tables)):
                 df_tables_lis.loc[j, "type"] = "Numeric"
                 df_tables_lis.loc[j, "colorScaleNumericBins"] = "5;10;15;20;25;30"
                 df_tables_lis.loc[j, "colorScaleScheme"] = "YlOrBr"
+                df_tables_lis.loc[j, "equivalized"] = lis_equivalence_scales["text"][eq]
                 j += 1
 
             # Headcount (rel)
@@ -550,6 +557,7 @@ for tab in range(len(merged_tables)):
                     j, "colorScaleNumericBins"
                 ] = "100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000"
                 df_tables_lis.loc[j, "colorScaleScheme"] = "YlOrBr"
+                df_tables_lis.loc[j, "equivalized"] = lis_equivalence_scales["text"][eq]
                 j += 1
 
             # Total shortfall (rel)
@@ -570,6 +578,7 @@ for tab in range(len(merged_tables)):
                     "scale_total_shortfall"
                 ][pct]
                 df_tables_lis.loc[j, "colorScaleScheme"] = "YlOrBr"
+                df_tables_lis.loc[j, "equivalized"] = lis_equivalence_scales["text"][eq]
                 j += 1
 
             # Average shortfall ($)
@@ -590,6 +599,7 @@ for tab in range(len(merged_tables)):
                     j, "colorScaleNumericBins"
                 ] = "1000;2000;3000;4000;5000"
                 df_tables_lis.loc[j, "colorScaleScheme"] = "YlOrBr"
+                df_tables_lis.loc[j, "equivalized"] = lis_equivalence_scales["text"][eq]
                 j += 1
 
             # Average shortfall (% of poverty line) [this is the income gap ratio]
@@ -608,6 +618,7 @@ for tab in range(len(merged_tables)):
                 df_tables_lis.loc[j, "type"] = "Numeric"
                 df_tables_lis.loc[j, "colorScaleNumericBins"] = "5;10;15;20;25;30;35;40"
                 df_tables_lis.loc[j, "colorScaleScheme"] = "YlOrBr"
+                df_tables_lis.loc[j, "equivalized"] = lis_equivalence_scales["text"][eq]
                 j += 1
 
             # Poverty gap index
@@ -626,6 +637,7 @@ for tab in range(len(merged_tables)):
                 df_tables_lis.loc[j, "type"] = "Numeric"
                 df_tables_lis.loc[j, "colorScaleNumericBins"] = "2;4;6;8;10;12"
                 df_tables_lis.loc[j, "colorScaleScheme"] = "YlOrBr"
+                df_tables_lis.loc[j, "equivalized"] = lis_equivalence_scales["text"][eq]
                 j += 1
 
     df_tables_lis["tableSlug"] = merged_tables["name"][tab]
@@ -636,6 +648,13 @@ df_tables_lis["sourceLink"] = sourceLink
 df_tables_lis["colorScaleNumericMinValue"] = colorScaleNumericMinValue
 df_tables_lis["tolerance"] = tolerance
 df_tables_lis["colorScaleEqualSizeBins"] = colorScaleEqualSizeBins
+
+# Remove all the rows that have the "per capita" value in the equivalized column
+df_tables_lis = df_tables_lis[df_tables_lis["equivalized"] != "per capita"].reset_index(
+    drop=True
+)
+# Drop the equivalized column
+df_tables_lis = df_tables_lis.drop(columns=["equivalized"])
 
 # Concatenate all the tables into one
 df_tables = pd.concat([df_tables_pip, df_tables_lis], ignore_index=True)
