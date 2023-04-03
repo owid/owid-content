@@ -97,6 +97,7 @@ header_dict = {
     "googleSheet": "",
     "wpBlockId": "",
     "entityType": "country or region",
+    "pickerColumnSlugs": "gini decile10_share palma_ratio headcount_ratio_50_median p0p100_gini_pretax p90p100_share_pretax palma_ratio_pretax p0p100_gini_posttax_dis p90p100_share_posttax_dis palma_ratio_posttax_dis gini_mi_eq share_p100_mi_eq palma_ratio_mi_eq headcount_ratio_50_median_mi_eq gini_dhi_eq share_p100_dhi_eq palma_ratio_dhi_eq headcount_ratio_50_median_dhi_eq",
 }
 
 # Index-oriented dataframe

@@ -5,6 +5,7 @@ isPublished	true
 googleSheet	https://docs.google.com/spreadsheets/d/17KJ9YcvfdmO_7-Sv2Ij0vmzAQI6rXSIqHfJtgFHN-a8					
 wpBlockId	52633					
 entityType	country or region					
+pickerColumnSlugs	mean_year median_year decile9_thr_year decile10_avg_year decile10_share_year					
 
 graphers
 	title	ySlugs	Metric Dropdown	Decile Dropdown	Aggregation Radio	Household survey data type Dropdown	tableSlug	subtitle	note	sourceDesc	type	yAxisMin	selectedFacetStrategy	hasMapTab	tab	mapTargetTime	yScaleToggle	Show breaks between less comparable surveys Checkbox	relatedQuestionText	relatedQuestionUrl	defaultView

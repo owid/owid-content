@@ -5,6 +5,7 @@ isPublished	true
 googleSheet	https://docs.google.com/spreadsheets/d/17KJ9YcvfdmO_7-Sv2Ij0vmzAQI6rXSIqHfJtgFHN-a8					
 wpBlockId	52633					
 entityType	country or region					
+pickerColumnSlugs	gini decile10_share palma_ratio headcount_ratio_50_median					
 
 graphers
 	title	ySlugs	Metric Dropdown	Household survey data type Dropdown	tableSlug	subtitle	note	sourceDesc	type	yAxisMin	selectedFacetStrategy	hasMapTab	tab	mapTargetTime	Show breaks between less comparable surveys Checkbox	relatedQuestionText	relatedQuestionUrl	defaultView

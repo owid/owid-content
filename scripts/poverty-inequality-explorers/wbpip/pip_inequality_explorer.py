@@ -52,6 +52,7 @@ header_dict = {
     "googleSheet": f"https://docs.google.com/spreadsheets/d/{sheet_id}",
     "wpBlockId": "52633",
     "entityType": "country or region",
+    "pickerColumnSlugs": "gini decile10_share palma_ratio headcount_ratio_50_median",
 }
 
 # Index-oriented dataframe

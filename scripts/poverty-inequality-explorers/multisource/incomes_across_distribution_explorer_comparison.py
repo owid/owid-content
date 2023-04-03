@@ -159,6 +159,7 @@ header_dict = {
     "googleSheet": "",
     "wpBlockId": "",
     "entityType": "country or region",
+    "pickerColumnSlugs": "mean_year median_year p0p100_avg_pretax_year p0p100_avg_posttax_nat_year median_pretax_year median_posttax_nat_year mean_mi_eq_year median_mi_eq_year mean_dhi_eq_year median_dhi_eq_year decile9_thr_year decile10_avg_year decile10_share_year p90p100_thr_pretax_year p90p100_avg_pretax_year p90p100_share_pretax_year p90p100_thr_posttax_nat_year p90p100_avg_posttax_nat_year p90p100_share_posttax_nat_year thr_p90_mi_eq_year avg_p100_mi_eq_year share_p100_mi_eq_year thr_p90_dhi_eq_year avg_p100_dhi_eq_year share_p100_dhi_eq_year",
 }
 
 # Index-oriented dataframe
@@ -606,6 +607,7 @@ for tab in range(len(merged_tables)):
                 wel
             ]
             df_tables_lis.loc[j, "colorScaleScheme"] = "BuGn"
+            df_tables_lis.loc[j, "equivalized"] = lis_equivalence_scales["text"][eq]
             j += 1
 
             # Median
@@ -625,6 +627,7 @@ for tab in range(len(merged_tables)):
                 wel
             ]
             df_tables_lis.loc[j, "colorScaleScheme"] = "Blues"
+            df_tables_lis.loc[j, "equivalized"] = lis_equivalence_scales["text"][eq]
             j += 1
 
             # Thresholds - Deciles
@@ -645,6 +648,7 @@ for tab in range(len(merged_tables)):
                     "scale_thr"
                 ][dec9]
                 df_tables_lis.loc[j, "colorScaleScheme"] = "Purples"
+                df_tables_lis.loc[j, "equivalized"] = lis_equivalence_scales["text"][eq]
                 j += 1
 
             # Averages - Deciles
@@ -665,6 +669,7 @@ for tab in range(len(merged_tables)):
                     "scale_avg"
                 ][dec10]
                 df_tables_lis.loc[j, "colorScaleScheme"] = "Greens"
+                df_tables_lis.loc[j, "equivalized"] = lis_equivalence_scales["text"][eq]
                 j += 1
 
             # Shares - Deciles
@@ -685,6 +690,7 @@ for tab in range(len(merged_tables)):
                     "scale_share"
                 ][dec10]
                 df_tables_lis.loc[j, "colorScaleScheme"] = "OrRd"
+                df_tables_lis.loc[j, "equivalized"] = lis_equivalence_scales["text"][eq]
                 j += 1
 
             # Daily, monthly, annual aggregations
@@ -709,6 +715,7 @@ for tab in range(len(merged_tables)):
                 df_tables_lis.loc[
                     j, "transform"
                 ] = f"multiplyBy mean_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]} {lis_income_aggregation['multiplier'][agg]}"
+                df_tables_lis.loc[j, "equivalized"] = lis_equivalence_scales["text"][eq]
                 j += 1
 
                 # Median
@@ -731,6 +738,7 @@ for tab in range(len(merged_tables)):
                 df_tables_lis.loc[
                     j, "transform"
                 ] = f"multiplyBy median_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]} {lis_income_aggregation['multiplier'][agg]}"
+                df_tables_lis.loc[j, "equivalized"] = lis_equivalence_scales["text"][eq]
                 j += 1
 
                 # Thresholds - Deciles
@@ -754,6 +762,9 @@ for tab in range(len(merged_tables)):
                     df_tables_lis.loc[
                         j, "transform"
                     ] = f"multiplyBy thr_{lis_deciles9['lis_notation'][dec9]}_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]} {lis_income_aggregation['multiplier'][agg]}"
+                    df_tables_lis.loc[j, "equivalized"] = lis_equivalence_scales[
+                        "text"
+                    ][eq]
                     j += 1
 
                 # Averages - Deciles
@@ -777,6 +788,9 @@ for tab in range(len(merged_tables)):
                     df_tables_lis.loc[
                         j, "transform"
                     ] = f"multiplyBy avg_{lis_deciles10['lis_notation'][dec10]}_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]} {lis_income_aggregation['multiplier'][agg]}"
+                    df_tables_lis.loc[j, "equivalized"] = lis_equivalence_scales[
+                        "text"
+                    ][eq]
                     j += 1
 
     df_tables_lis["tableSlug"] = merged_tables["name"][tab]
@@ -787,6 +801,13 @@ df_tables_lis["sourceLink"] = sourceLink
 df_tables_lis["colorScaleNumericMinValue"] = colorScaleNumericMinValue
 df_tables_lis["tolerance"] = tolerance
 df_tables_lis["colorScaleEqualSizeBins"] = colorScaleEqualSizeBins
+
+# Remove all the rows that have the "per capita" value in the equivalized column
+df_tables_lis = df_tables_lis[df_tables_lis["equivalized"] != "per capita"].reset_index(
+    drop=True
+)
+# Drop the equivalized column
+df_tables_lis = df_tables_lis.drop(columns=["equivalized"])
 
 # Concatenate all the tables into one
 df_tables = pd.concat([df_tables_pip, df_tables_wid, df_tables_lis], ignore_index=True)

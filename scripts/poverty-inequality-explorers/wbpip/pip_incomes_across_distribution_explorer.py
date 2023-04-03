@@ -56,6 +56,7 @@ header_dict = {
     "googleSheet": f"https://docs.google.com/spreadsheets/d/{sheet_id}",
     "wpBlockId": "52633",
     "entityType": "country or region",
+    "pickerColumnSlugs": "mean_year median_year decile9_thr_year decile10_avg_year decile10_share_year",
 }
 
 # Index-oriented dataframe
