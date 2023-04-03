@@ -1090,7 +1090,7 @@ for tab in range(len(lis_tables)):
             ] = f"gini_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
             df_graphers_lis.loc[
                 j, "Data source Dropdown"
-            ] = f"{lis_tables['source_name'][tab]} - {lis_welfare['dropdown_option'][wel]}"
+            ] = f"{lis_tables['source_name'][tab]} - {lis_welfare['welfare_type'][wel].capitalize()} {lis_welfare['title'][wel]}"
             df_graphers_lis.loc[j, "Metric Dropdown"] = "Gini coefficient"
             df_graphers_lis.loc[
                 j, "equivalized"
@@ -1113,7 +1113,7 @@ for tab in range(len(lis_tables)):
             ] = f"share_p90_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
             df_graphers_lis.loc[
                 j, "Data source Dropdown"
-            ] = f"{lis_tables['source_name'][tab]} - {lis_welfare['dropdown_option'][wel]}"
+            ] = f"{lis_tables['source_name'][tab]} - {lis_welfare['welfare_type'][wel].capitalize()} {lis_welfare['title'][wel]}"
             df_graphers_lis.loc[j, "Metric Dropdown"] = "Top 10% share"
             df_graphers_lis.loc[
                 j, "equivalized"
@@ -1136,7 +1136,7 @@ for tab in range(len(lis_tables)):
             ] = f"share_bottom50_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
             df_graphers_lis.loc[
                 j, "Data source Dropdown"
-            ] = f"{lis_tables['source_name'][tab]} - {lis_welfare['dropdown_option'][wel]}"
+            ] = f"{lis_tables['source_name'][tab]} - {lis_welfare['welfare_type'][wel].capitalize()} {lis_welfare['title'][wel]}"
             df_graphers_lis.loc[j, "Metric Dropdown"] = "Bottom 50% share"
             df_graphers_lis.loc[
                 j, "equivalized"
@@ -1159,7 +1159,7 @@ for tab in range(len(lis_tables)):
             ] = f"p90_p10_ratio_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
             df_graphers_lis.loc[
                 j, "Data source Dropdown"
-            ] = f"{lis_tables['source_name'][tab]} - {lis_welfare['dropdown_option'][wel]}"
+            ] = f"{lis_tables['source_name'][tab]} - {lis_welfare['welfare_type'][wel].capitalize()} {lis_welfare['title'][wel]}"
             df_graphers_lis.loc[j, "Metric Dropdown"] = "P90/P10"
             df_graphers_lis.loc[
                 j, "equivalized"
@@ -1183,7 +1183,7 @@ for tab in range(len(lis_tables)):
             ] = f"p90_p50_ratio_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
             df_graphers_lis.loc[
                 j, "Data source Dropdown"
-            ] = f"{lis_tables['source_name'][tab]} - {lis_welfare['dropdown_option'][wel]}"
+            ] = f"{lis_tables['source_name'][tab]} - {lis_welfare['welfare_type'][wel].capitalize()} {lis_welfare['title'][wel]}"
             df_graphers_lis.loc[j, "Metric Dropdown"] = "P90/P50"
             df_graphers_lis.loc[
                 j, "equivalized"
@@ -1207,7 +1207,7 @@ for tab in range(len(lis_tables)):
             ] = f"p50_p10_ratio_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
             df_graphers_lis.loc[
                 j, "Data source Dropdown"
-            ] = f"{lis_tables['source_name'][tab]} - {lis_welfare['dropdown_option'][wel]}"
+            ] = f"{lis_tables['source_name'][tab]} - {lis_welfare['welfare_type'][wel].capitalize()} {lis_welfare['title'][wel]}"
             df_graphers_lis.loc[j, "Metric Dropdown"] = "P50/P10"
             df_graphers_lis.loc[
                 j, "equivalized"
@@ -1231,7 +1231,7 @@ for tab in range(len(lis_tables)):
             ] = f"palma_ratio_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
             df_graphers_lis.loc[
                 j, "Data source Dropdown"
-            ] = f"{lis_tables['source_name'][tab]} - {lis_welfare['dropdown_option'][wel]}"
+            ] = f"{lis_tables['source_name'][tab]} - {lis_welfare['welfare_type'][wel].capitalize()} {lis_welfare['title'][wel]}"
             df_graphers_lis.loc[j, "Metric Dropdown"] = "Palma ratio"
             df_graphers_lis.loc[
                 j, "equivalized"
@@ -1254,7 +1254,7 @@ for tab in range(len(lis_tables)):
             ] = f"headcount_ratio_50_median_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
             df_graphers_lis.loc[
                 j, "Data source Dropdown"
-            ] = f"{lis_tables['source_name'][tab]} - {lis_welfare['dropdown_option'][wel]}"
+            ] = f"{lis_tables['source_name'][tab]} - {lis_welfare['welfare_type'][wel].capitalize()} {lis_welfare['title'][wel]}"
             df_graphers_lis.loc[
                 j, "Metric Dropdown"
             ] = f"Share in relative poverty (< 50% of the median)"

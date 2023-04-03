@@ -286,7 +286,7 @@ for tab in range(len(tables)):
         df_graphers.loc[j, "ySlugs"] = f"p0p100_gini_{welfare['slug'][wel]}"
         df_graphers.loc[j, "Metric Dropdown"] = "Gini coefficient"
         df_graphers.loc[
-            j, "Welfare type Dropdown"
+            j, "Resource type Dropdown"
         ] = f"{welfare['dropdown_option'][wel]}"
         df_graphers.loc[
             j, "subtitle"
@@ -305,7 +305,7 @@ for tab in range(len(tables)):
         df_graphers.loc[j, "ySlugs"] = f"p90p100_share_{welfare['slug'][wel]}"
         df_graphers.loc[j, "Metric Dropdown"] = "Top 10% share"
         df_graphers.loc[
-            j, "Welfare type Dropdown"
+            j, "Resource type Dropdown"
         ] = f"{welfare['dropdown_option'][wel]}"
         df_graphers.loc[
             j, "subtitle"
@@ -324,7 +324,7 @@ for tab in range(len(tables)):
         df_graphers.loc[j, "ySlugs"] = f"p99p100_share_{welfare['slug'][wel]}"
         df_graphers.loc[j, "Metric Dropdown"] = "Top 1% share"
         df_graphers.loc[
-            j, "Welfare type Dropdown"
+            j, "Resource type Dropdown"
         ] = f"{welfare['dropdown_option'][wel]}"
         df_graphers.loc[
             j, "subtitle"
@@ -343,7 +343,7 @@ for tab in range(len(tables)):
         df_graphers.loc[j, "ySlugs"] = f"p99_9p100_share_{welfare['slug'][wel]}"
         df_graphers.loc[j, "Metric Dropdown"] = "Top 0.1% share"
         df_graphers.loc[
-            j, "Welfare type Dropdown"
+            j, "Resource type Dropdown"
         ] = f"{welfare['dropdown_option'][wel]}"
         df_graphers.loc[
             j, "subtitle"
@@ -362,7 +362,7 @@ for tab in range(len(tables)):
         df_graphers.loc[j, "ySlugs"] = f"p99_99p100_share_{welfare['slug'][wel]}"
         df_graphers.loc[j, "Metric Dropdown"] = "Top 0.01% share"
         df_graphers.loc[
-            j, "Welfare type Dropdown"
+            j, "Resource type Dropdown"
         ] = f"{welfare['dropdown_option'][wel]}"
         df_graphers.loc[
             j, "subtitle"
@@ -381,7 +381,7 @@ for tab in range(len(tables)):
         df_graphers.loc[j, "ySlugs"] = f"p99_999p100_share_{welfare['slug'][wel]}"
         df_graphers.loc[j, "Metric Dropdown"] = "Top 0.001% share"
         df_graphers.loc[
-            j, "Welfare type Dropdown"
+            j, "Resource type Dropdown"
         ] = f"{welfare['dropdown_option'][wel]}"
         df_graphers.loc[
             j, "subtitle"
@@ -400,7 +400,7 @@ for tab in range(len(tables)):
         df_graphers.loc[j, "ySlugs"] = f"p90_p10_ratio_{welfare['slug'][wel]}"
         df_graphers.loc[j, "Metric Dropdown"] = "P90/P10"
         df_graphers.loc[
-            j, "Welfare type Dropdown"
+            j, "Resource type Dropdown"
         ] = f"{welfare['dropdown_option'][wel]}"
         df_graphers.loc[
             j, "subtitle"
@@ -419,7 +419,7 @@ for tab in range(len(tables)):
         df_graphers.loc[j, "ySlugs"] = f"p90_p50_ratio_{welfare['slug'][wel]}"
         df_graphers.loc[j, "Metric Dropdown"] = "P90/P50"
         df_graphers.loc[
-            j, "Welfare type Dropdown"
+            j, "Resource type Dropdown"
         ] = f"{welfare['dropdown_option'][wel]}"
         df_graphers.loc[
             j, "subtitle"
@@ -438,7 +438,7 @@ for tab in range(len(tables)):
         df_graphers.loc[j, "ySlugs"] = f"p50_p10_ratio_{welfare['slug'][wel]}"
         df_graphers.loc[j, "Metric Dropdown"] = "P50/P10"
         df_graphers.loc[
-            j, "Welfare type Dropdown"
+            j, "Resource type Dropdown"
         ] = f"{welfare['dropdown_option'][wel]}"
         df_graphers.loc[
             j, "subtitle"
@@ -457,7 +457,7 @@ for tab in range(len(tables)):
         df_graphers.loc[j, "ySlugs"] = f"palma_ratio_{welfare['slug'][wel]}"
         df_graphers.loc[j, "Metric Dropdown"] = "Palma ratio"
         df_graphers.loc[
-            j, "Welfare type Dropdown"
+            j, "Resource type Dropdown"
         ] = f"{welfare['dropdown_option'][wel]}"
         df_graphers.loc[
             j, "subtitle"
@@ -492,7 +492,7 @@ df_graphers["title"] = df_graphers["title"].str.strip()
 # Select one default view
 df_graphers.loc[
     (df_graphers["Metric Dropdown"] == "Gini coefficient")
-    & (df_graphers["Welfare type Dropdown"] == "Income before tax"),
+    & (df_graphers["Resource type Dropdown"] == "Income before tax"),
     ["defaultView"],
 ] = "true"
 
