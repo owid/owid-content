@@ -6,7 +6,7 @@ thumbnail
 hideAlertBanner	true
 yAxisMin	0
 hasMapTab	true
-pickerColumnSlugs
+pickerColumnSlugs	Country
 downloadDataLink	https://owid-catalog.nyc3.digitaloceanspaces.com/explorers%2Fwho%2Flatest%2Fflu%2Fflu.csv
 graphers
 	title	subtitle	ySlugs	tableSlug	type	Confirmed cases or Symptoms Radio	Interval Radio	Type Dropdown	Surveillance type Dropdown	timelineMinTime	selectedFacetStrategy	facetYDomain	hasMapTab	note	sortBy
