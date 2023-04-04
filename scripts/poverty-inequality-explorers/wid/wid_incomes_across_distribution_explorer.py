@@ -871,6 +871,11 @@ df_graphers = df_graphers[
     )
 ].reset_index(drop=True)
 
+# Disable aggregation radio buttons for wealth
+df_graphers.loc[
+    df_graphers["Data type Dropdown"] == "Wealth", ["Aggregation Radio"]
+] = np.nan
+
 # In column title, replace "wealth per year" by "wealth"
 df_graphers["title"] = df_graphers["title"].str.replace("wealth per year", "wealth")
 
