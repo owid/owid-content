@@ -231,6 +231,9 @@ for tab in range(len(tables)):
                 df_tables.loc[j, "type"] = "Numeric"
                 df_tables.loc[j, "colorScaleNumericBins"] = welfare["scale_mean"][wel]
                 df_tables.loc[j, "colorScaleScheme"] = "BuGn"
+                df_tables.loc[
+                    j, "transform"
+                ] = f"multiplyBy mean_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} {income_aggregation['multiplier'][agg]}"
                 j += 1
 
                 # Median
@@ -248,6 +251,10 @@ for tab in range(len(tables)):
                 df_tables.loc[j, "type"] = "Numeric"
                 df_tables.loc[j, "colorScaleNumericBins"] = welfare["scale_median"][wel]
                 df_tables.loc[j, "colorScaleScheme"] = "Blues"
+                df_tables.loc[
+                    j, "transform"
+                ] = f"multiplyBy median_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} {income_aggregation['multiplier'][agg]}"
+
                 j += 1
 
                 # Thresholds - Deciles
@@ -268,6 +275,10 @@ for tab in range(len(tables)):
                         dec9
                     ]
                     df_tables.loc[j, "colorScaleScheme"] = "Purples"
+                    df_tables.loc[
+                        j, "transform"
+                    ] = f"multiplyBy thr_{deciles9['lis_notation'][dec9]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} {income_aggregation['multiplier'][agg]}"
+
                     j += 1
 
                 # Averages - Deciles
@@ -288,6 +299,9 @@ for tab in range(len(tables)):
                         dec10
                     ]
                     df_tables.loc[j, "colorScaleScheme"] = "Greens"
+                    df_tables.loc[
+                        j, "transform"
+                    ] = f"multiplyBy avg_{deciles10['lis_notation'][dec10]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} {income_aggregation['multiplier'][agg]}"
                     j += 1
 
     df_tables["tableSlug"] = tables["name"][tab]
