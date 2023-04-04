@@ -812,6 +812,7 @@ df_graphers.loc[
     & (df_graphers["Income type Dropdown"] == "Before tax")
     & (df_graphers["Equivalence scale Dropdown"] == "Equivalized")
     & (df_graphers["Decile Dropdown"] == "All deciles")
+    & (df_graphers["Aggregation Radio"] == "Year")
     & (df_graphers["Relative change Checkbox"] == "false"),
     ["defaultView"],
 ] = "true"
