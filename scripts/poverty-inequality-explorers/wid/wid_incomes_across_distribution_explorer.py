@@ -407,6 +407,7 @@ df_tables = df_tables[
 ].reset_index(drop=True)
 
 # Replace brackets for wealth (they have a completely different range)
+# For deciles
 df_tables.loc[
     (df_tables["slug"].str.contains("wealth_year"))
     & (df_tables["name"].str.contains("decile"))
@@ -414,12 +415,13 @@ df_tables.loc[
     "colorScaleNumericBins",
 ] = "1000;3000;10000;30000;100000;300000;1000000;3000000"
 
+# For top percentiles
 df_tables.loc[
     (df_tables["slug"].str.contains("wealth_year"))
     & (df_tables["name"].str.contains("Top"))
     & ~(df_tables["slug"].str.contains("share")),
     "colorScaleNumericBins",
-] = "10000;30000;100000;300000;1000000;3000000;10000000;30000000;100000000;300000000"
+] = "100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000"
 
 # %% [markdown]
 # ### Grapher views
