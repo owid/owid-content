@@ -398,6 +398,14 @@ df_tables["tolerance"] = tolerance
 # Make tolerance integer (to not break the parameter in the platform)
 df_tables["tolerance"] = df_tables["tolerance"].astype("Int64")
 
+# Remove rows with the slug column containing "wealth_day" and "wealth_month"
+df_tables = df_tables[
+    ~(
+        (df_tables["slug"].str.contains("wealth_day"))
+        | (df_tables["slug"].str.contains("wealth_month"))
+    )
+].reset_index(drop=True)
+
 # %% [markdown]
 # ### Grapher views
 # Similar to the tables, this creates the grapher views by grouping by types of variables and then running by welfare type.
@@ -851,6 +859,20 @@ df_graphers["mapTargetTime"] = df_graphers["mapTargetTime"].astype("Int64")
 
 # Correct title for wealth values (there is a space before the comma)
 df_graphers["title"] = df_graphers["title"].str.strip()
+
+# Drop rows where the Data type Dropdown column is "Wealth" and the Aggregation Radio column is "Day" or "Month"
+df_graphers = df_graphers[
+    ~(
+        (df_graphers["Data type Dropdown"] == "Wealth")
+        & (
+            (df_graphers["Aggregation Radio"] == "Day")
+            | (df_graphers["Aggregation Radio"] == "Month")
+        )
+    )
+].reset_index(drop=True)
+
+# In column title, replace "wealth per year" by "wealth"
+df_graphers["title"] = df_graphers["title"].str.replace("wealth per year", "wealth")
 
 # Select one default view
 df_graphers.loc[
