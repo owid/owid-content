@@ -423,10 +423,10 @@ for tab in range(len(tables)):
                 j, "ySlugs"
             ] = f"p0p100_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]}"
             df_graphers.loc[j, "Metric Dropdown"] = "Mean income or wealth"
+            df_graphers.loc[j, "Decile/quantile Dropdown"] = np.nan
             df_graphers.loc[
                 j, "Data type Dropdown"
             ] = f"{welfare['dropdown_option'][wel]}"
-            df_graphers.loc[j, "Decile/quantile Dropdown"] = np.nan
             df_graphers.loc[
                 j, "Aggregation Radio"
             ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
@@ -452,10 +452,10 @@ for tab in range(len(tables)):
                 j, "ySlugs"
             ] = f"median_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]}"
             df_graphers.loc[j, "Metric Dropdown"] = "Median income or wealth"
+            df_graphers.loc[j, "Decile/quantile Dropdown"] = np.nan
             df_graphers.loc[
                 j, "Data type Dropdown"
             ] = f"{welfare['dropdown_option'][wel]}"
-            df_graphers.loc[j, "Decile/quantile Dropdown"] = np.nan
             df_graphers.loc[
                 j, "Aggregation Radio"
             ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
@@ -482,12 +482,12 @@ for tab in range(len(tables)):
                     j, "ySlugs"
                 ] = f"{deciles9['wid_notation'][dec9]}_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]}"
                 df_graphers.loc[j, "Metric Dropdown"] = "Decile thresholds"
-                df_graphers.loc[
-                    j, "Data type Dropdown"
-                ] = f"{welfare['dropdown_option'][wel]}"
                 df_graphers.loc[j, "Decile/quantile Dropdown"] = deciles9["dropdown"][
                     dec9
                 ]
+                df_graphers.loc[
+                    j, "Data type Dropdown"
+                ] = f"{welfare['dropdown_option'][wel]}"
                 df_graphers.loc[
                     j, "Aggregation Radio"
                 ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
@@ -516,12 +516,12 @@ for tab in range(len(tables)):
                 df_graphers.loc[
                     j, "Metric Dropdown"
                 ] = "Mean income or wealth, by decile"
-                df_graphers.loc[
-                    j, "Data type Dropdown"
-                ] = f"{welfare['dropdown_option'][wel]}"
                 df_graphers.loc[j, "Decile/quantile Dropdown"] = deciles10["dropdown"][
                     dec10
                 ]
+                df_graphers.loc[
+                    j, "Data type Dropdown"
+                ] = f"{welfare['dropdown_option'][wel]}"
                 df_graphers.loc[
                     j, "Aggregation Radio"
                 ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
@@ -548,10 +548,10 @@ for tab in range(len(tables)):
                     j, "ySlugs"
                 ] = f"{top_pct['wid_notation'][top]}_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]}"
                 df_graphers.loc[j, "Metric Dropdown"] = "Decile thresholds"
+                df_graphers.loc[j, "Decile/quantile Dropdown"] = top_pct["name"][top]
                 df_graphers.loc[
                     j, "Data type Dropdown"
                 ] = f"{welfare['dropdown_option'][wel]}"
-                df_graphers.loc[j, "Decile/quantile Dropdown"] = top_pct["name"][top]
                 df_graphers.loc[
                     j, "Aggregation Radio"
                 ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
@@ -578,10 +578,10 @@ for tab in range(len(tables)):
                 df_graphers.loc[
                     j, "Metric Dropdown"
                 ] = "Mean income or wealth, by decile"
+                df_graphers.loc[j, "Decile/quantile Dropdown"] = top_pct["name"][top]
                 df_graphers.loc[
                     j, "Data type Dropdown"
                 ] = f"{welfare['dropdown_option'][wel]}"
-                df_graphers.loc[j, "Decile/quantile Dropdown"] = top_pct["name"][top]
                 df_graphers.loc[
                     j, "Aggregation Radio"
                 ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
@@ -608,10 +608,10 @@ for tab in range(len(tables)):
                     j, "ySlugs"
                 ] = f"p10p20_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p20p30_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p30p40_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p40p50_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p50p60_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p60p70_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p70p80_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p80p90_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p90p100_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]}"
                 df_graphers.loc[j, "Metric Dropdown"] = "Decile thresholds"
+                df_graphers.loc[j, "Decile/quantile Dropdown"] = "All deciles"
                 df_graphers.loc[
                     j, "Data type Dropdown"
                 ] = f"{welfare['dropdown_option'][wel]}"
-                df_graphers.loc[j, "Decile/quantile Dropdown"] = "All deciles"
                 df_graphers.loc[
                     j, "Aggregation Radio"
                 ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
@@ -643,10 +643,10 @@ for tab in range(len(tables)):
                 df_graphers.loc[
                     j, "Metric Dropdown"
                 ] = "Mean income or wealth, by decile"
+                df_graphers.loc[j, "Decile/quantile Dropdown"] = "All deciles"
                 df_graphers.loc[
                     j, "Data type Dropdown"
                 ] = f"{welfare['dropdown_option'][wel]}"
-                df_graphers.loc[j, "Decile/quantile Dropdown"] = "All deciles"
                 df_graphers.loc[
                     j, "Aggregation Radio"
                 ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
@@ -676,10 +676,10 @@ for tab in range(len(tables)):
                     j, "ySlugs"
                 ] = f"p10p20_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p20p30_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p30p40_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p40p50_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p50p60_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p60p70_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p70p80_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p80p90_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p90p100_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p99p100_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p99_9p100_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p99_99p100_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p99_999p100_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]}"
                 df_graphers.loc[j, "Metric Dropdown"] = "Decile thresholds"
+                df_graphers.loc[j, "Decile/quantile Dropdown"] = "All deciles + top"
                 df_graphers.loc[
                     j, "Data type Dropdown"
                 ] = f"{welfare['dropdown_option'][wel]}"
-                df_graphers.loc[j, "Decile/quantile Dropdown"] = "All deciles + top"
                 df_graphers.loc[
                     j, "Aggregation Radio"
                 ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
@@ -711,10 +711,10 @@ for tab in range(len(tables)):
                 df_graphers.loc[
                     j, "Metric Dropdown"
                 ] = "Mean income or wealth, by decile"
+                df_graphers.loc[j, "Decile/quantile Dropdown"] = "All deciles + top"
                 df_graphers.loc[
                     j, "Data type Dropdown"
                 ] = f"{welfare['dropdown_option'][wel]}"
-                df_graphers.loc[j, "Decile/quantile Dropdown"] = "All deciles + top"
                 df_graphers.loc[
                     j, "Aggregation Radio"
                 ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
@@ -745,12 +745,12 @@ for tab in range(len(tables)):
                 j, "ySlugs"
             ] = f"{deciles10['wid_notation'][dec10]}_share_{welfare['slug'][wel]}"
             df_graphers.loc[j, "Metric Dropdown"] = "Decile shares"
-            df_graphers.loc[
-                j, "Data type Dropdown"
-            ] = f"{welfare['dropdown_option'][wel]}"
             df_graphers.loc[j, "Decile/quantile Dropdown"] = deciles10["dropdown"][
                 dec10
             ]
+            df_graphers.loc[
+                j, "Data type Dropdown"
+            ] = f"{welfare['dropdown_option'][wel]}"
             df_graphers.loc[j, "Aggregation Radio"] = np.nan
             df_graphers.loc[j, "Relative change Checkbox"] = "false"
             df_graphers.loc[j, "stackMode"] = "absolute"
@@ -772,10 +772,10 @@ for tab in range(len(tables)):
                 j, "ySlugs"
             ] = f"{top_pct['wid_notation'][top]}_share_{welfare['slug'][wel]}"
             df_graphers.loc[j, "Metric Dropdown"] = "Decile shares"
+            df_graphers.loc[j, "Decile/quantile Dropdown"] = top_pct["name"][top]
             df_graphers.loc[
                 j, "Data type Dropdown"
             ] = f"{welfare['dropdown_option'][wel]}"
-            df_graphers.loc[j, "Decile/quantile Dropdown"] = top_pct["name"][top]
             df_graphers.loc[j, "Aggregation Radio"] = np.nan
             df_graphers.loc[j, "Relative change Checkbox"] = "false"
             df_graphers.loc[j, "stackMode"] = "absolute"
@@ -796,8 +796,8 @@ for tab in range(len(tables)):
             j, "ySlugs"
         ] = f"p0p10_share_{welfare['slug'][wel]} p20p30_share_{welfare['slug'][wel]} p30p40_share_{welfare['slug'][wel]} p40p50_share_{welfare['slug'][wel]} p50p60_share_{welfare['slug'][wel]} p60p70_share_{welfare['slug'][wel]} p70p80_share_{welfare['slug'][wel]} p80p90_share_{welfare['slug'][wel]} p90p100_share_{welfare['slug'][wel]}"
         df_graphers.loc[j, "Metric Dropdown"] = "Decile shares"
-        df_graphers.loc[j, "Data type Dropdown"] = f"{welfare['dropdown_option'][wel]}"
         df_graphers.loc[j, "Decile/quantile Dropdown"] = "All deciles"
+        df_graphers.loc[j, "Data type Dropdown"] = f"{welfare['dropdown_option'][wel]}"
         df_graphers.loc[j, "Aggregation Radio"] = np.nan
         df_graphers.loc[j, "Relative change Checkbox"] = "false"
         df_graphers.loc[j, "stackMode"] = "absolute"
@@ -818,8 +818,8 @@ for tab in range(len(tables)):
             j, "ySlugs"
         ] = f"p0p10_share_{welfare['slug'][wel]} p10p20_share_{welfare['slug'][wel]} p20p30_share_{welfare['slug'][wel]} p30p40_share_{welfare['slug'][wel]} p40p50_share_{welfare['slug'][wel]} p50p60_share_{welfare['slug'][wel]} p60p70_share_{welfare['slug'][wel]} p70p80_share_{welfare['slug'][wel]} p80p90_share_{welfare['slug'][wel]} p90p100_share_{welfare['slug'][wel]} p99p100_share_{welfare['slug'][wel]} p99_9p100_share_{welfare['slug'][wel]} p99_99p100_share_{welfare['slug'][wel]} p99_999p100_share_{welfare['slug'][wel]}"
         df_graphers.loc[j, "Metric Dropdown"] = "Decile shares"
-        df_graphers.loc[j, "Data type Dropdown"] = f"{welfare['dropdown_option'][wel]}"
         df_graphers.loc[j, "Decile/quantile Dropdown"] = "All deciles + top"
+        df_graphers.loc[j, "Data type Dropdown"] = f"{welfare['dropdown_option'][wel]}"
         df_graphers.loc[j, "Aggregation Radio"] = np.nan
         df_graphers.loc[j, "Relative change Checkbox"] = "false"
         df_graphers.loc[j, "stackMode"] = "absolute"
