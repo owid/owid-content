@@ -406,6 +406,20 @@ df_tables = df_tables[
     )
 ].reset_index(drop=True)
 
+df_tables.loc[
+    (df_tables["slug"].str.contains("wealth_year"))
+    & (df_tables["name"].str.contains("decile"))
+    & ~(df_tables["slug"].str.contains("share")),
+    "colorScaleNumericBins",
+] = "1000;3000;10000;30000;100000;300000;1000000;3000000"
+
+df_tables.loc[
+    (df_tables["slug"].str.contains("wealth_year"))
+    & (df_tables["name"].str.contains("Top"))
+    & ~(df_tables["slug"].str.contains("share")),
+    "colorScaleNumericBins",
+] = "10000;30000;100000;300000;1000000;3000000;10000000;30000000"
+
 # %% [markdown]
 # ### Grapher views
 # Similar to the tables, this creates the grapher views by grouping by types of variables and then running by welfare type.
