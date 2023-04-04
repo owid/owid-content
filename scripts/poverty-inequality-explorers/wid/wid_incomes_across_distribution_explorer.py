@@ -421,7 +421,7 @@ df_tables.loc[
     & (df_tables["name"].str.contains("Top"))
     & ~(df_tables["slug"].str.contains("share")),
     "colorScaleNumericBins",
-] = "100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000"
+] = "100000;300000;1000000;3000000;10000000;30000000;100000000"
 
 # %% [markdown]
 # ### Grapher views
