@@ -851,6 +851,7 @@ df_graphers.loc[
     (df_graphers["Metric Dropdown"] == "Decile thresholds")
     & (df_graphers["Data type Dropdown"] == "Income before tax")
     & (df_graphers["Decile/quantile Dropdown"] == "All deciles")
+    & (df_graphers["Aggregation Radio"] == "Year")
     & (df_graphers["Relative change Checkbox"] == "false"),
     ["defaultView"],
 ] = "true"
