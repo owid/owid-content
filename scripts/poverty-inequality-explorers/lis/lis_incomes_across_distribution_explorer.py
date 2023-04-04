@@ -275,9 +275,9 @@ for tab in range(len(tables)):
                     df_tables.loc[j, "unit"] = "international-$ in 2017 prices"
                     df_tables.loc[j, "shortUnit"] = "$"
                     df_tables.loc[j, "type"] = "Numeric"
-                    df_tables.loc[j, "colorScaleNumericBins"] = deciles9["scale_thr"][
-                        dec9
-                    ]
+                    df_tables.loc[j, "colorScaleNumericBins"] = income_aggregation[
+                        "scale"
+                    ][agg]
                     df_tables.loc[j, "colorScaleScheme"] = "Purples"
                     df_tables.loc[
                         j, "transform"
@@ -299,9 +299,9 @@ for tab in range(len(tables)):
                     df_tables.loc[j, "unit"] = "international-$ in 2017 prices"
                     df_tables.loc[j, "shortUnit"] = "$"
                     df_tables.loc[j, "type"] = "Numeric"
-                    df_tables.loc[j, "colorScaleNumericBins"] = deciles10["scale_avg"][
-                        dec10
-                    ]
+                    df_tables.loc[j, "colorScaleNumericBins"] = income_aggregation[
+                        "scale"
+                    ][agg]
                     df_tables.loc[j, "colorScaleScheme"] = "Greens"
                     df_tables.loc[
                         j, "transform"
