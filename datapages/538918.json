@@ -19,8 +19,9 @@
             "url": "https://ourworldindata.org/energy"
         }
     ],
-    "sourceShortName": "Global Carbon Project",
-    "sourceLongName": "Global Carbon Project",
+    "variantDescription1": "Global Carbon Project",
+    "variantDescription2": "Historical estimates",
+    "sourceName": "Global Carbon Project",
     "owidProcessingLevel": "Processing and <a href>substantial modifications</a> by Our World in Data.",
     "dateRange": "1974-2020",
     "lastUpdated": "2022-10-03",
@@ -206,34 +207,6 @@
             },
             "retrievedFromUrl": "https://zenodo.org/record/7215364/files/...",
             "codeUrl": "https://ourworldindata.org/explorers/co2",
-            "sourceDownloadOptions": {
-                "basic": [
-                    {
-                        "csv": {
-                            "description": "Some kind of explanation of what CSVs are used for.",
-                            "url": "https://ourworldindata.org/exports/annual-co2-emissions-per-country-da8ccccaf5fc9d6bab92c3527f0cc596_v44.csv"
-                        },
-                        "xls": {
-                            "description": "Some kind of explanation of what XLSs are used for.",
-                            "url": "https://ourworldindata.org/exports/annual-co2-emissions-per-country-da8ccccaf5fc9d6bab92c3527f0cc596_v44.xls"
-                        }
-                    }
-                ],
-                "advanced": [
-                    {
-                        "type": "code",
-                        "title": "Python",
-                        "description": "",
-                        "codeSnippet": "<pre>from owid import catalog</pre>"
-                    },
-                    {
-                        "type": "url",
-                        "title": "URL",
-                        "description": "",
-                        "url": "https://ourworldindata.org/co2-and-greenhouse-gaz-emissions.csv"
-                    }
-                ]
-            },
             "sourceCitation": "Global Carbon Project. (2022). Supplemental data of Global Carbon Budget 2022 (Version 1.0) [Data set]. Global Carbon Project. https://doi.org/10.18160/gcp-2022",
             "sourceLicenseLink": {
                 "title": "CC BY 4.0",
