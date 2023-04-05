@@ -37,12 +37,28 @@
     },
     "relatedResearch": [
         {
-            "title": "Where in the world do people emit the most CO2?",
-            "url": "https://ourworldindata.org/co2-emissions",
+            "title": "From $1.90 to $2.15 a day: the updated International Poverty Line",
+            "url": "https://ourworldindata.org/from-1-90-to-2-15-a-day-the-updated-international-poverty-line",
             "authors": [
-                "Hannah Ritchie"
+                "Joe Hasell"
             ],
-            "imageUrl": "https://ourworldindata.org/exports/annual-co2-emissions-per-country-da8ccccaf5fc9d6bab92c3527f0cc596_v44_850x600.svg"
+            "imageUrl": "https://ourworldindata.org/uploads/2022/10/Poverty-line-thumbnail-768x402.png"
+        },
+        {
+            "title": "Extreme poverty: how far have we come, how far do we still have to go?",
+            "url": "https://ourworldindata.org/extreme-poverty-in-brief",
+            "authors": [
+                "Max Roser"
+            ],
+            "imageUrl": "https://ourworldindata.org/uploads/2021/11/Featured-Image-for-the-post-768x422.png"
+        },
+        {
+            "title": "The economies that are home to the poorest billions of people need to grow if we want global poverty to decline substantially",
+            "url": "https://ourworldindata.org/extreme-poverty-in-brief",
+            "authors": [
+                "Max Roser"
+            ],
+            "imageUrl": "https://ourworldindata.org/uploads/2021/02/Screen-Shot-2021-02-23-at-11.48.16-768x410.png"
         }
     ],
     "relatedData": [
