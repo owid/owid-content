@@ -54,7 +54,7 @@
         },
         {
             "title": "The economies that are home to the poorest billions of people need to grow if we want global poverty to decline substantially",
-            "url": "https://ourworldindata.org/extreme-poverty-in-brief",
+            "url": "https://ourworldindata.org/poverty-growth-needed",
             "authors": [
                 "Max Roser"
             ],
@@ -72,27 +72,29 @@
         },
         {
             "title": "Consumption-based CO2 emissions per capita",
-            "url": "https://ourworldindata.org/explorers/co2",
+            "url": "https://ourworldindata.org/grapher/consumption-co2-per-capita",
+            "source": "PIP",
             "content": "How do per capita CO2 emissions compare when we adjust for trade?"
         },
         {
             "title": "Annual share of global CO2 emissions",
-            "url": "https://ourworldindata.org/explorers/co2",
+            "url": "https://ourworldindata.org/grapher/annual-share-of-co2-emissions",
+            "source": "World Inequality Database",
             "content": "What share of global CO2 emissions do different countries contribute?"
         },
         {
             "title": "Annual CO2 emissions from land-use change per capita",
-            "url": "https://ourworldindata.org/explorers/co2",
+            "url": "https://ourworldindata.org/grapher/co2-land-use-per-capita?country=USA~GBR~European+Union+%2827%29~CHN~IND~AUS~BRA~MEX~IDN",
             "source": "Global Carbon Project, 2022"
         },
         {
             "title": "Annual CO2 emissions by world region",
-            "url": "https://ourworldindata.org/explorers/co2",
+            "url": "https://ourworldindata.org/grapher/annual-co-emissions-by-region",
             "source": "Global Carbon Project, 2022"
         },
         {
             "title": "Annual CO2 emissions from cement",
-            "url": "https://ourworldindata.org/explorers/co2",
+            "url": "https://ourworldindata.org/grapher/annual-co2-cement",
             "source": "Global Carbon Project, 2022"
         }
     ],
