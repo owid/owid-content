@@ -100,23 +100,25 @@
         }
     ],
     "relatedCharts": {
-        "title": "Explore charts that include this data",
         "items": [
             {
-                "title": "Carbon intensity of electricity",
-                "slug": "carbon-intensity-electricity"
+                "title": "People without clean cooking fuels",
+                "slug": "people-without-clean-cooking-fuels-region"
             },
             {
-                "title": "Carbon intensity of electricity",
-                "slug": "carbon-intensity-electricity"
+                "title": "Old-age dependency ratio",
+                "slug": "age-dependency-ratio-old",
+                "variantName": "Historical estimates",
+                "isKeyChart": true
             },
             {
-                "title": "Carbon intensity of electricity",
-                "slug": "carbon-intensity-electricity"
+                "title": "Value added in the agricultural sector as of GDP vs GDP per capita",
+                "slug": "value-added-in-the-agricultural-sector-as-of-gdp-vs-gdp-per-capita",
+                "variantName":"World Bank"
             },
             {
-                "title": "Carbon intensity of electricity",
-                "slug": "carbon-intensity-electricity"
+                "title": "Number of people employed in agriculture",
+                "slug": "number-of-people-employed-in-agriculture"
             }
         ]
     },
