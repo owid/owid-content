@@ -14,15 +14,20 @@ import textwrap
 from os import path
 import sys
 
+# Latest ETL version of the food explorer (https://github.com/owid/etl/tree/master/etl/steps/data/explorers/faostat/).
+VERSION = "2023-02-22"
+
 outfile = "../../explorers/global-food.explorer.tsv"
 
 default_view = '`Food Dropdown` == "Maize (corn)" and `Metric Dropdown` == "Production" and `Per Capita Checkbox` == "false"'
+
+DATA_FILES_URL = f"https://catalog.ourworldindata.org/explorers/faostat/{VERSION}/food_explorer/"
 
 # %%
 
 
 def food_url(food):
-    return f"https://catalog.ourworldindata.org/explorers/owid/latest/food_explorer/{food}.csv"
+    return f"{DATA_FILES_URL}{food}.csv"
 
 
 def substitute_title(row):
