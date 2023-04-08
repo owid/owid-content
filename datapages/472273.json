@@ -24,7 +24,7 @@
     "dateRange": "1974-2020",
     "lastUpdated": "2022-10-03",
     "nextUpdate": "2023-05-15",
-    "variableSubtitle": "<p>Annual total production-based emissions of carbon dioxide (CO<sub>2</sub>), excluding land-use change, measured in tonnes per person. This is based on territorial emissions, which do not account for emissions embedded in traded goods.</p>”,
+    "variableSubtitle": "<p>Annual total production-based emissions of carbon dioxide (CO<sub>2</sub>), excluding land-use change, measured in tonnes per person. This is based on territorial emissions, which do not account for emissions embedded in traded goods.</p>",
     "keyInfoText": "<ul><li>Extreme poverty here is defined as living below the International Poverty Line of $2.15 per day.   </li><li>The data is measured in international-$ at 2017 prices – this adjusts for inflation and for differences in the cost of living between countries.</li><li>Depending on the country and year, the data relates to either disposable income or consumption per capita, depending on the country and year.</li><li>Non-market sources of income, including food grown by subsistence farmers for their own consumption, are taken into account.</li></ul>",
     "owidProcessingInfo": {
         "title": "This is how we modified this data",
