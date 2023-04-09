@@ -3,29 +3,21 @@
     "showDataPageOnChartIds": [
         373
     ],
-    "title": "Gini Coefficient",
+    "title": "Gini coefficient",
     "topicTagsLinks": [
         {
-            "title": "CO2 and greenhouse gas emissions",
-            "url": "https://ourworldindata.org/co2-and-greenhouse-gaz-emissions"
-        },
-        {
-            "title": "Climate change",
-            "url": "https://ourworldindata.org/climate-change"
-        },
-        {
-            "title": "Energy",
-            "url": "https://ourworldindata.org/energy"
+            "title": "Income Inequality",
+            "url": "https://ourworldindata.org/income-inequality"
         }
     ],
     "variantDescription1": "World Bank, PIP",
     "sourceName": "World Bank, Poverty and Inequality Platform",
     "owidProcessingLevel": "<a href>Processed and adapted</a> by Our World in Data",
-    "dateRange": "1974-2020",
+    "dateRange": "1967-2021",
     "lastUpdated": "2022-10-03",
-    "nextUpdate": "2023-05-15",
-    "variableSubtitle": "<p>Annual total production-based emissions of carbon dioxide (CO<sub>2</sub>), excluding land-use change, measured in tonnes per person. This is based on territorial emissions, which do not account for emissions embedded in traded goods.</p>",
-    "keyInfoText": "<ul><li>Extreme poverty here is defined as living below the International Poverty Line of $2.15 per day.   </li><li>The data is measured in international-$ at 2017 prices – this adjusts for inflation and for differences in the cost of living between countries.</li><li>Depending on the country and year, the data relates to either disposable income or consumption per capita, depending on the country and year.</li><li>Non-market sources of income, including food grown by subsistence farmers for their own consumption, are taken into account.</li></ul>",
+    "nextUpdate": "2023-6-01",
+    "variableSubtitle": "Inequality, as measured by the Gini coefficient – a measure that ranges between 0 and 1, where higher values indicate higher inequality. Depending on the country and year, the data relates to either disposable income or consumption per capita.",
+    "keyInfoText": "<ul><li>The Gini coefficient is a measure of inequality that ranges between 0 and 1, where higher values indicate higher inequality.  </li><li>Depending on the country and year, the data relates to either disposable income or consumption per capita, depending on the country and year.</li><li>Non-market sources of income, including food grown by subsistence farmers for their own consumption, are taken into account.</li></ul>",
     "owidProcessingInfo": {
         "title": "This is how we modified this data",
         "content": "<em>Description of how we modified this data.</em>"
