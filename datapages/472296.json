@@ -24,7 +24,7 @@
     },
     "sourceVariableDescription": {
         "title": "How does the Poverty and Inequality Platform (PIP) describe this metric?",
-        "content": "<em>Description from upstream provider. Only show the accordion if content provided.</em>"
+        "content": "<head> <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script> <script src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-chtml.js"></script> </head> <body> <p>This is an example of LaTeX in HTML: $$E = mc^2$$</p> </body>"
     },
     "relatedResearch": [
         {
