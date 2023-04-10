@@ -27,7 +27,7 @@
     "variableSubtitle": "The share of population living below the International Poverty Line of $2.15 per day. This data is adjusted for inflation and for differences in the cost of living between countries.",
     "keyInfoText": "<ul><li>Extreme poverty here is defined as living below the International Poverty Line of $2.15 per day.   </li><li>The data is measured in international-$ at 2017 prices – this adjusts for inflation and for differences in the cost of living between countries.</li><li>Depending on the country and year, the data relates to either disposable income or consumption per capita, depending on the country and year.</li><li>Non-market sources of income, including food grown by subsistence farmers for their own consumption, are taken into account.</li></ul>",
     "owidProcessingInfo": {
-      "title": 
+      "title": "How did we prepare this data?"
       "content": "<p>For a small number of country-year observations, estimates for both income and consumption are available in the World Bank PIP database. In these cases we keep only the consumption estimate in order to obtain a single series for each country.</p><p>In <a href="https://github.com/owid/poverty-data#a-global-dataset-of-poverty-and-inequality-measures-prepared-by-our-world-in-data-from-the-world-banks-poverty-and-inequality-platform-pip-database>this dataset</a> you can find the data with all income and consumption data points kept.</p>"
         },
     "relatedResearch": [
