@@ -32,6 +32,10 @@
         "title": "This is how we modified this data",
         "content": "<em>Description of how we modified this data.</em>"
     },
+    "sourceVariableDescription": {
+        "title": "How does the Poverty and Inequality Platform (PIP) describe this metric?",
+        "content": "<em>Description from upstream provider. Only show the accordion if content provided.</em>"
+    },
     "relatedResearch": [
         {
             "title": "From $1.90 to $2.15 a day: the updated International Poverty Line",
