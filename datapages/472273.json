@@ -61,7 +61,6 @@
             "type": "Data Explorer",
             "imageUrl": "",
             "title": "CO2 Data Explorer",
-            "source": "Global Carbon Project",
             "url": "https://ourworldindata.org/explorers/co2",
             "content": "Compare a range of metrics tracking emissions of  CO2 and other Greenhouse Gas."
         },
