@@ -19,17 +19,13 @@
         }
     ],
     "variantDescription1": "World Bank, PIP",
-    "sourceName": "World Bank, Poverty and Inequality Platform",
-    "owidProcessingLevel": "<a href>Processed and adapted</a> by Our World in Data",
+    "nameOfSource": "World Bank, Poverty and Inequality Platform",
+    "owidProcessingLevel": "<a href>Processed</a> by Our World in Data",
     "dateRange": "1967-2021",
     "lastUpdated": "2022-10-03",
     "nextUpdate": "2023-06-01",
-    "variableSubtitle": "The share of population living below the International Poverty Line of $2.15 per day. This data is adjusted for inflation and for differences in the cost of living between countries.",
+    "subtitle": "The share of population living below the International Poverty Line of $2.15 per day. This data is adjusted for inflation and for differences in the cost of living between countries.",
     "keyInfoText": "<ul><li>Extreme poverty here is defined as living below the International Poverty Line of $2.15 per day.   </li><li>The data is measured in international-$ at 2017 prices – this adjusts for inflation and for differences in the cost of living between countries.</li><li>Depending on the country and year, the data relates to either disposable income or consumption per capita, depending on the country and year.</li><li>Non-market sources of income, including food grown by subsistence farmers for their own consumption, are taken into account.</li></ul>",
-    "owidProcessingInfo": {
-        "title": "This is how we modified this data",
-        "content": "<em>Description of how we modified this data.</em>"
-    },
     "relatedResearch": [
         {
             "title": "From $1.90 to $2.15 a day: the updated International Poverty Line",
@@ -60,62 +56,90 @@
         {
             "type": "Data Explorer",
             "imageUrl": "",
-            "title": "CO2 Data Explorer",
-            "url": "https://ourworldindata.org/explorers/co2",
-            "content": "Compare a range of metrics tracking emissions of  CO2 and other Greenhouse Gas."
+            "title": "Poverty Data Explorer of the World Bank Data",
+            "url": "https://ourworldindata.org/explorers/poverty-explorer",
+            "content": "Explore a range of metrics for higher and lower poverty lines."
         },
         {
-            "title": "Consumption-based CO2 emissions per capita",
-            "url": "https://ourworldindata.org/grapher/consumption-co2-per-capita",
-            "source": "PIP",
-            "content": "How do per capita CO2 emissions compare when we adjust for trade?"
+            "title": "Number of people living in extreme poverty",
+            "url": "https://ourworldindata.org/grapher/total-population-in-extreme-poverty",
+            "source": "World Bank, PIP",
+            "content": "See data for the <em>total</em> number of people living in extreme poverty"
         },
         {
-            "title": "Annual share of global CO2 emissions",
-            "url": "https://ourworldindata.org/grapher/annual-share-of-co2-emissions",
-            "source": "World Inequality Database",
-            "content": "What share of global CO2 emissions do different countries contribute?"
+            "title": "Share of population living on less than $30 a day",
+            "url": "https://ourworldindata.org/grapher/poverty-share-on-less-than-30-per-day",
+            "source": "World Bank, PIP",
+            "content": "How do estimates compare when we use a higher poverty line, more typical of the lines used in high-income countries?"
         },
         {
-            "title": "Annual CO2 emissions from land-use change per capita",
-            "url": "https://ourworldindata.org/grapher/co2-land-use-per-capita?country=USA~GBR~European+Union+%2827%29~CHN~IND~AUS~BRA~MEX~IDN",
-            "source": "Global Carbon Project, 2022"
+            "title": "Share of population below 60% of median income or consumption",
+            "url": "https://ourworldindata.org/grapher/relative-poverty-share-of-people-below-60-of-the-median",
+            "source": "World Bank, PIP"
         },
         {
-            "title": "Annual CO2 emissions by world region",
-            "url": "https://ourworldindata.org/grapher/annual-co-emissions-by-region",
-            "source": "Global Carbon Project, 2022"
+            "title": "Mean income or consumption per day",
+            "url": "https://ourworldindata.org/grapher/daily-mean-income",
+            "source": "World Bank, PIP"
         },
         {
-            "title": "Annual CO2 emissions from cement",
-            "url": "https://ourworldindata.org/grapher/annual-co2-cement",
-            "source": "Global Carbon Project, 2022"
+            "title": "Gini coefficient",
+            "url": "https://ourworldindata.org/grapher/economic-inequality-gini-index",
+            "source": "World Bank, PIP"
         }
     ],
     "relatedCharts": {
         "title": "Explore charts that include this data",
         "items": [
             {
-                "title": "Carbon intensity of electricity",
-                "slug": "carbon-intensity-electricity"
+                "title": "Extreme poverty and child mortality",
+                "slug": "poverty-and-child-mortality"
             },
             {
-                "title": "Carbon intensity of electricity",
-                "slug": "carbon-intensity-electricity"
+                "title": "Share of population living in extreme poverty vs GDP per capita ",
+                "slug": "the-share-of-people-living-in-extreme-poverty-vs-gdp-per-capita"
             },
             {
-                "title": "Carbon intensity of electricity",
-                "slug": "carbon-intensity-electricity"
+                "title": "Share of population living with less than $2.15 and $3.65 per day ",
+                "slug": "share-of-population-living-with-less-than-190-and-320-per-day"
             },
             {
-                "title": "Carbon intensity of electricity",
-                "slug": "carbon-intensity-electricity"
+                "title": "How does extreme monetary poverty compare to multidimensional poverty?",
+                "slug": "MPI-vs-Consumption"
+            },
+            {
+                "title": "How does extreme monetary poverty compare to multidimensional poverty?",
+                "slug": "MPI-vs-Consumption"
+            },
+            {
+                "title": "Comparison of extreme poverty estimates, World Bank PIP vs Bradshaw & Mayhew (2011)",
+                "slug": "comparison-extreme-poverty-rich-countries"
+            },
+            {
+                "title": "Share in extreme poverty vs. poverty gap index",
+                "slug": "poverty-headcount-rate-vs-poverty-gap"
+            },
+            {
+                "title": "CO₂ emissions per capita vs. share in extreme poverty",
+                "slug": "co-emissions-per-capita-vs-the-share-of-people-living-in-extreme-poverty"
+            },
+            {
+                "title": "Energy use per capita vs. share in extreme poverty",
+                "slug": "energy-use-per-capita-vs-share-of-population-in-extreme-poverty"
+            },
+            {
+                "title": "Child mortality vs. share in extreme poverty",
+                "slug": "extreme-poverty-vs-child-mortality"
+            },
+            {
+                "title": "Prevalence of undernourishment vs. share in extreme poverty ",
+                "slug": "prevalence-of-undernourishment-vs-share-of-population-living-in-absolute-poverty"
             }
         ]
     },
     "faqsGoogleDocEditLink": "https://docs.google.com/document/d/1grxiYxwchZfVV8EgGoS6KOQ3Az3ukaQO0IE2CPGG7CE/edit",
     "dataset": {
-        "datasetName": "<em>Our World in Data’s Collection</em> of the Global Carbon Budget Data ",
+        "datasetName": "World Bank Poverty and Inequality Platform Dataset – Processed and adapted by Our World in Data",
         "datasetDescription": "<p>Variables include each country, region and World Bank income group's share of the global population; production-based (territorial); and consumption-based (trade-adjusted) carbon dioxide emissions.</p><p>This was calculated by Our World in Data based on CO₂ figures produced by the Global Carbon Project. This is given as production (territorial) emissions in addition to trade-adjusted consumption-based emissions. Consumption-based emissions are national or regional emissions which have been adjusted for trade (i.e. territorial/production emissions minus emissions embedded in exports, plus emissions embedded in imports). If a country's consumption-based emissions are higher than its production emissions it is a net importer of carbon dioxide.Note that consumption-based emissions are not available for all countries; although those without complete data are a small fraction (3%) of the global total. Each country's share of world emissions are based on the share of the global total minus categories termed 'bunkers' and 'statistical differences' (which include cross-boundary emissions such as international travel and shipping.Calculation of each country's share of the global population is calculated using our population dataset, based on different sources).Data on global emissions has been converted by Our World in Data from tonnes of carbon to tonnes of carbon dioxide (CO₂) using a conversion factor of 3.664.Our World in Data have renamed bunker fuels as \"International transport\" for improved clarity, which includes emissions from international aviation and shipping.Emissions from the Kuwaiti oil fires in 1991 have been included as part of Kuwait's emissions for that year.</p>",
         "featuredVariables": [
             {
