@@ -20,12 +20,11 @@
         }
     ],
     "variantDescription1": "Global Carbon Project",
-    "variantDescription2": "Historical estimates",
     "nameOfSource": "Global Carbon Project",
     "owidProcessingLevel": "<a href>Processed and adapted</a> by Our World in Data",
-    "dateRange": "1974-2020",
-    "lastUpdated": "2022-10-03",
-    "nextUpdate": "2023-05-15",
+    "dateRange": "17750-2021",
+    "lastUpdated": "2022-11-11",
+    "nextUpdate": "2023-11-11",
     "subtitle": "<p>Annual total production-based emissions of carbon dioxide (CO<sub>2</sub>), excluding land-use change, measured in tonnes per person. This is based on territorial emissions, which do not account for emissions embedded in traded goods.</p>",
     "keyInfoText": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
     "descriptionFromSource": {
