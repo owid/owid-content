@@ -26,10 +26,6 @@
     "nextUpdate": "2023-06-01",
     "subtitle": "The share of population living below the International Poverty Line of $2.15 per day. This data is adjusted for inflation and for differences in the cost of living between countries.",
     "keyInfoText": "<ul><li>Extreme poverty here is defined as living below the International Poverty Line of $2.15 per day.   </li><li>The data is measured in international-$ at 2017 prices – this adjusts for inflation and for differences in the cost of living between countries.</li><li>Depending on the country and year, the data relates to either disposable income or consumption per capita, depending on the country and year.</li><li>Non-market sources of income, including food grown by subsistence farmers for their own consumption, are taken into account.</li></ul>",
-    "descriptionFromSource": {
-        "title": "How does the Poverty and Inequality Platform (PIP) describe this metric?",
-        "content": "<em>Description from upstream provider. Only show the accordion if content provided.</em>"
-    },
     "relatedResearch": [
         {
             "title": "From $1.90 to $2.15 a day: the updated International Poverty Line",
