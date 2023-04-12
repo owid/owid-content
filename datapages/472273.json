@@ -56,59 +56,84 @@
         {
             "type": "Data Explorer",
             "imageUrl": "",
-            "title": "CO2 Data Explorer",
-            "source": "Global Carbon Project",
-            "url": "https://ourworldindata.org/explorers/co2",
-            "content": "Compare a range of metrics tracking emissions of  CO2 and other Greenhouse Gas."
+            "title": "Poverty Data Explorer of the World Bank Data",
+            "url": "https://ourworldindata.org/explorers/poverty-explorer",
+            "content": "Explore a range of metrics for higher and lower poverty lines."
         },
         {
-            "title": "Consumption-based CO2 emissions per capita",
-            "url": "https://ourworldindata.org/grapher/consumption-co2-per-capita",
-            "source": "PIP",
-            "content": "How do per capita CO2 emissions compare when we adjust for trade?"
+            "title": "Number of people living in extreme poverty",
+            "url": "https://ourworldindata.org/grapher/total-population-in-extreme-poverty",
+            "source": "World Bank, PIP",
+            "content": "See data for the <em>total</em> number of people living in extreme poverty"
         },
         {
-            "title": "Annual share of global CO2 emissions",
-            "url": "https://ourworldindata.org/grapher/annual-share-of-co2-emissions",
-            "source": "World Inequality Database",
-            "content": "What share of global CO2 emissions do different countries contribute?"
+            "title": "Share of population living on less than $30 a day",
+            "url": "https://ourworldindata.org/grapher/poverty-share-on-less-than-30-per-day",
+            "source": "World Bank, PIP",
+            "content": "How do estimates compare when we use a higher poverty line, more typical of the lines used in high-income countries?"
         },
         {
-            "title": "Annual CO2 emissions from land-use change per capita",
-            "url": "https://ourworldindata.org/grapher/co2-land-use-per-capita?country=USA~GBR~European+Union+%2827%29~CHN~IND~AUS~BRA~MEX~IDN",
-            "source": "Global Carbon Project, 2022"
+            "title": "Share of population below 60% of median income or consumption",
+            "url": "https://ourworldindata.org/grapher/relative-poverty-share-of-people-below-60-of-the-median",
+            "source": "World Bank, PIP"
         },
         {
-            "title": "Annual CO2 emissions by world region",
-            "url": "https://ourworldindata.org/grapher/annual-co-emissions-by-region",
-            "source": "Global Carbon Project, 2022"
+            "title": "Mean income or consumption per day",
+            "url": "https://ourworldindata.org/grapher/daily-mean-income",
+            "source": "World Bank, PIP"
         },
         {
-            "title": "Annual CO2 emissions from cement",
-            "url": "https://ourworldindata.org/grapher/annual-co2-cement",
-            "source": "Global Carbon Project, 2022"
+            "title": "Gini coefficient",
+            "url": "https://ourworldindata.org/grapher/economic-inequality-gini-index",
+            "source": "World Bank, PIP"
         }
     ],
     "relatedCharts": {
+        "title": "Explore charts that include this data",
         "items": [
             {
-                "title": "People without clean cooking fuels",
-                "slug": "people-without-clean-cooking-fuels-region"
+                "title": "Extreme poverty and child mortality",
+                "slug": "poverty-and-child-mortality"
             },
             {
-                "title": "Old-age dependency ratio",
-                "slug": "age-dependency-ratio-old",
-                "variantName": "Historical estimates",
-                "isKeyChart": true
+                "title": "Share of population living in extreme poverty vs GDP per capita ",
+                "slug": "the-share-of-people-living-in-extreme-poverty-vs-gdp-per-capita"
             },
             {
-                "title": "Value added in the agricultural sector as of GDP vs GDP per capita",
-                "slug": "value-added-in-the-agricultural-sector-as-of-gdp-vs-gdp-per-capita",
-                "variantName": "World Bank"
+                "title": "Share of population living with less than $2.15 and $3.65 per day ",
+                "slug": "share-of-population-living-with-less-than-190-and-320-per-day"
             },
             {
-                "title": "Number of people employed in agriculture",
-                "slug": "number-of-people-employed-in-agriculture"
+                "title": "How does extreme monetary poverty compare to multidimensional poverty?",
+                "slug": "MPI-vs-Consumption"
+            },
+            {
+                "title": "How does extreme monetary poverty compare to multidimensional poverty?",
+                "slug": "MPI-vs-Consumption"
+            },
+            {
+                "title": "Comparison of extreme poverty estimates, World Bank PIP vs Bradshaw & Mayhew (2011)",
+                "slug": "comparison-extreme-poverty-rich-countries"
+            },
+            {
+                "title": "Share in extreme poverty vs. poverty gap index",
+                "slug": "poverty-headcount-rate-vs-poverty-gap"
+            },
+            {
+                "title": "CO₂ emissions per capita vs. share in extreme poverty",
+                "slug": "co-emissions-per-capita-vs-the-share-of-people-living-in-extreme-poverty"
+            },
+            {
+                "title": "Energy use per capita vs. share in extreme poverty",
+                "slug": "energy-use-per-capita-vs-share-of-population-in-extreme-poverty"
+            },
+            {
+                "title": "Child mortality vs. share in extreme poverty",
+                "slug": "extreme-poverty-vs-child-mortality"
+            },
+            {
+                "title": "Prevalence of undernourishment vs. share in extreme poverty ",
+                "slug": "prevalence-of-undernourishment-vs-share-of-population-living-in-absolute-poverty"
             }
         ]
     },
