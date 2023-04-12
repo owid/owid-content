@@ -139,7 +139,7 @@
     },
     "faqsGoogleDocEditLink": "https://docs.google.com/document/d/1grxiYxwchZfVV8EgGoS6KOQ3Az3ukaQO0IE2CPGG7CE/edit",
     "datasetName": "World Bank Poverty and Inequality Platform Dataset – Processed and adapted by Our World in Data",
-    "datasetDescription": "A high level summary of where we get the data from and the processing steps we took to prepare it.",
+    "datasetDescription": "<p>A high level summary of where we get the data from and the processing steps we took to prepare it.</p>",
     "datasetVariableProcessingInfo": "Measures of relative poverty are not directly available in the PIP data. To calculate this metric we take the median income or consumption for the country and year, calculate a relative poverty line – in this case 60% of the median – and then run a specific query on the PIP API to return the share of population below that line.",
     "datasetFeaturedVariables": [
         {
