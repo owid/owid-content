@@ -3,19 +3,19 @@
     "showDataPageOnChartIds": [
         5111
     ],
-    "title": "Banana production",
+    "title": "Share of population living in extreme poverty",
     "topicTagsLinks": [
         {
-            "title": "CO2 and greenhouse gas emissions",
-            "url": "https://ourworldindata.org/co2-and-greenhouse-gaz-emissions"
+            "title": "Poverty",
+            "url": "https://ourworldindata.org/poverty"
         },
         {
-            "title": "Climate change",
+            "title": "Economic Growth",
             "url": "https://ourworldindata.org/climate-change"
         },
         {
-            "title": "Energy",
-            "url": "https://ourworldindata.org/energy"
+            "title": "Economic Inequality",
+            "url": "https://ourworldindata.org/income-inequality"
         }
     ],
     "variantDescription1": "Global Carbon Project",
