@@ -113,7 +113,6 @@
             }
         ]
     },
-    "faqs": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
     "datasetName": "<em>Our World in Data’s Collection</em> of the Global Carbon Budget Data ",
     "datasetDescription": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
     "datasetVariableProcessingInfo": "Measures of relative poverty are not directly available in the PIP data. To calculate this metric we take the median income or consumption for the country and year, calculate a relative poverty line – in this case 60% of the median – and then run a specific query on the PIP API to return the share of population below that line.",
