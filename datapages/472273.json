@@ -57,37 +57,36 @@
         {
             "type": "Data Explorer",
             "imageUrl": "",
-            "title": "CO2 Data Explorer",
-            "source": "Global Carbon Project",
-            "url": "https://ourworldindata.org/explorers/co2",
-            "content": "Compare a range of metrics tracking emissions of  CO2 and other Greenhouse Gas."
+            "title": "Poverty Data Explorer of the World Bank Data",
+            "url": "https://ourworldindata.org/explorers/poverty-explorer",
+            "content": "Explore a range of metrics for higher and lower poverty lines."
         },
         {
-            "title": "Consumption-based CO2 emissions per capita",
-            "url": "https://ourworldindata.org/grapher/consumption-co2-per-capita",
-            "source": "PIP",
-            "content": "How do per capita CO2 emissions compare when we adjust for trade?"
+            "title": "Number of people living in extreme poverty",
+            "url": "https://ourworldindata.org/grapher/total-population-in-extreme-poverty",
+            "source": "World Bank, PIP",
+            "content": "See data for the <em>total</em> number of people living in extreme poverty"
         },
         {
-            "title": "Annual share of global CO2 emissions",
-            "url": "https://ourworldindata.org/grapher/annual-share-of-co2-emissions",
-            "source": "World Inequality Database",
-            "content": "What share of global CO2 emissions do different countries contribute?"
+            "title": "Share of population living on less than $30 a day",
+            "url": "https://ourworldindata.org/grapher/poverty-share-on-less-than-30-per-day",
+            "source": "World Bank, PIP",
+            "content": "How do estimates compare when we use a higher poverty line, more typical of the lines used in high-income countries?"
         },
         {
-            "title": "Annual CO2 emissions from land-use change per capita",
-            "url": "https://ourworldindata.org/grapher/co2-land-use-per-capita?country=USA~GBR~European+Union+%2827%29~CHN~IND~AUS~BRA~MEX~IDN",
-            "source": "Global Carbon Project, 2022"
+            "title": "Share of population below 60% of median income or consumption",
+            "url": "https://ourworldindata.org/grapher/relative-poverty-share-of-people-below-60-of-the-median",
+            "source": "World Bank, PIP"
         },
         {
-            "title": "Annual CO2 emissions by world region",
-            "url": "https://ourworldindata.org/grapher/annual-co-emissions-by-region",
-            "source": "Global Carbon Project, 2022"
+            "title": "Mean income or consumption per day",
+            "url": "https://ourworldindata.org/grapher/daily-mean-income",
+            "source": "World Bank, PIP"
         },
         {
-            "title": "Annual CO2 emissions from cement",
-            "url": "https://ourworldindata.org/grapher/annual-co2-cement",
-            "source": "Global Carbon Project, 2022"
+            "title": "Gini coefficient",
+            "url": "https://ourworldindata.org/grapher/economic-inequality-gini-index",
+            "source": "World Bank, PIP"
         }
     ],
     "relatedCharts": {
