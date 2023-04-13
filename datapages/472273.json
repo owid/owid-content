@@ -208,7 +208,7 @@
     "sources": [
         {
             "sourceName": "World Bank Poverty and Inequality Platform",
-            "sourceDescription": "<p>&ldquo;The Poverty and Inequality Platform (PIP) is an interactive computational tool that offers users quick access to the World Bank's estimates of poverty, inequality, and shared prosperity. PIP provides a comprehensive view of global, regional, and country-level trends for more than 160 economies around the world.&rdquo;</p><p>More details are available at the PIP website: <a href=\"https://pip.worldbank.org/about\">https://pip.worldbank.org/about</a>.</p>",
+            "sourceDescription": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
             "sourceRetrievedOn": "2022-10-03",
             "sourceRetrievedFromUrl": "https://pip.worldbank.org/",
             "sourceCodeUrl": "https://ourworldindata.org/explorers/co2"
