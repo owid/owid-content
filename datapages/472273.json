@@ -26,6 +26,10 @@
     "lastUpdated": "2022-10-03",
     "nextUpdate": "2023-06-01",
     "subtitle": "The share of population living below the International Poverty Line of $2.15 per day. This data is adjusted for inflation and for differences in the cost of living between countries.",
+    "descriptionFromSource": {
+        "title": "[ADD TITLE IF NEEDED]",
+        "content": "EDIT IN GDOC: create a heading 1 with the key name 'descriptionFromSource' and add content below it"
+    },    
     "keyInfoText": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
     "relatedResearch": [
         {
@@ -141,10 +145,10 @@
     "faqs": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
     "datasetName": "World Bank Poverty and Inequality Platform Dataset – Processed and adapted by Our World in Data",
     "datasetDescription": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
-    "datasetVariableProcessingInfo": "Measures of relative poverty are not directly available in the PIP data. To calculate this metric we take the median income or consumption for the country and year, calculate a relative poverty line – in this case 60% of the median – and then run a specific query on the PIP API to return the share of population below that line.",
+    "datasetVariableProcessingInfo": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
     "datasetFeaturedVariables": [
             {
-                "variableName": "Annual CO₂ emissions per capita"
+                "variableName": "Share of population living in extreme poverty"
             },
             {
                 "variableName": "Annual consumption-based CO₂ emissions",
