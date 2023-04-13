@@ -25,6 +25,7 @@
     "dateRange": "1967-2021",
     "lastUpdated": "2022-10-03",
     "nextUpdate": "2023-06-01",
+    "subtitle": "The share of population living below the International Poverty Line of $2.15 per day. This data is adjusted for inflation and for differences in the cost of living between countries.",
     "descriptionFromSource": {
         "title": "[ADD TITLE IF NEEDED]",
         "content": "EDIT IN GDOC: create a heading 1 with the key name 'descriptionFromSource' and add content below it"
