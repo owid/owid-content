@@ -18,10 +18,10 @@
     "variantDescription1": "World Bank, PIP",
     "nameOfSource": "Our World in Data",
     "owidProcessingLevel": "<a href>Derived from</a> World Bank Poverty and Inequality Platform",
-    "dateRange": "1974-2020",
+    "dateRange": "1967-2021",
     "lastUpdated": "2022-10-03",
-    "nextUpdate": "2023-05-15",
-    "subtitle": "Annual total production-based emissions of carbon dioxide (CO₂), excluding land-use change, measured in tonnes per person. This is based on territorial emissions, which do not account for emissions embedded in traded goods.",
+    "nextUpdate": "June 2023",
+    "subtitle": "A measure of relative poverty – the share of the population with an income or consumption below 60% of the median in their country.",
     "keyInfoText": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
     "descriptionFromSource": {
         "title": "How does the Poverty and Inequality Platform (PIP) describe this metric?",
@@ -29,20 +29,12 @@
     },
     "relatedResearch": [
         {
-            "title": "From $1.90 to $2.15 a day: the updated International Poverty Line",
-            "url": "https://ourworldindata.org/from-1-90-to-2-15-a-day-the-updated-international-poverty-line",
-            "authors": [
-                "Joe Hasell"
-            ],
-            "imageUrl": "https://ourworldindata.org/uploads/2022/10/Poverty-line-thumbnail-768x402.png"
-        },
-        {
-            "title": "Extreme poverty: how far have we come, how far do we still have to go?",
-            "url": "https://ourworldindata.org/extreme-poverty-in-brief",
+            "title": "Global poverty in an unequal world: Who is considered poor in a rich country? And what does this mean for our understanding of global poverty?",
+            "url": "https://ourworldindata.org/higher-poverty-global-line",
             "authors": [
                 "Max Roser"
             ],
-            "imageUrl": "https://ourworldindata.org/uploads/2021/11/Featured-Image-for-the-post-768x422.png"
+            "imageUrl": "https://ourworldindata.org/uploads/2021/03/Screen-Shot-2021-03-05-at-14.35.22.png"
         },
         {
             "title": "The economies that are home to the poorest billions of people need to grow if we want global poverty to decline substantially",
