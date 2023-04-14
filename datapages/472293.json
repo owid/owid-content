@@ -3,26 +3,21 @@
     "showDataPageOnChartIds": [
         5923
     ],
-    "title": "Banana production",
+    "title": "Share of population below 60% of median income or consumption",
     "googleDocEditLink": "https://docs.google.com/document/d/1Hns_n-AlL8bei7vqz9-F8uWQ_07ZFCGOyme4KCXxCds/edit",
     "topicTagsLinks": [
         {
-            "title": "CO2 and greenhouse gas emissions",
-            "url": "https://ourworldindata.org/co2-and-greenhouse-gaz-emissions"
+            "title": "Poverty",
+            "url": "https://ourworldindata.org/poverty"
         },
         {
-            "title": "Climate change",
-            "url": "https://ourworldindata.org/climate-change"
-        },
-        {
-            "title": "Energy",
-            "url": "https://ourworldindata.org/energy"
+            "title": "Income Inequality",
+            "url": "https://ourworldindata.org/income-inequality"
         }
     ],
-    "variantDescription1": "Global Carbon Project",
-    "variantDescription2": "Historical estimates",
-    "nameOfSource": "Global Carbon Project",
-    "owidProcessingLevel": "<a href>Processed and adapted</a> by Our World in Data",
+    "variantDescription1": "World Bank, PIP",
+    "nameOfSource": "Our World in Data",
+    "owidProcessingLevel": "<a href>Derived from</a> World Bank Poverty and Inequality Platform",
     "dateRange": "1974-2020",
     "lastUpdated": "2022-10-03",
     "nextUpdate": "2023-05-15",
