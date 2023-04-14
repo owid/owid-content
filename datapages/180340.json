@@ -91,6 +91,9 @@
     "datasetVariableProcessingInfo": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
     "datasetFeaturedVariables": [
         {
+            "variableName": "Annual number of objects launched into space"
+        },
+        {
             "variableName": "Cumulative number of objects launched into space",
             "variableSubtitle": "The cumulative version of this variable."
         }
