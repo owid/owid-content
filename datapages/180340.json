@@ -20,11 +20,11 @@
         }
     ],
     "variantDescription1": "United Nations",
-    "nameOfSource": "Global Carbon Project",
+    "nameOfSource": "United Nations Office for Outer Space Affairs, Online Index of Objects Launched into Outer Space",
     "owidProcessingLevel": "<a href>Processed and adapted</a> by Our World in Data",
-    "dateRange": "1974-2020",
-    "lastUpdated": "2022-10-03",
-    "nextUpdate": "Fall 2023",
+    "dateRange": "1957-2022",
+    "lastUpdated": "2023-01-03",
+    "nextUpdate": "January 2024",
     "subtitle": "Annual production of bananas, measured in tonnes.",
     "keyInfoText": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
     "descriptionFromSource": {
