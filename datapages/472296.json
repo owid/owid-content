@@ -65,21 +65,21 @@
         {
             "type": "Data Explorer",
             "imageUrl": "",
-            "title": "Poverty Data Explorer of the World Bank Data",
+            "title": "Inequality Data Explorer of the World Bank Data",
             "url": "https://ourworldindata.org/explorers/poverty-explorer",
-            "content": "Explore a range of metrics for higher and lower poverty lines."
+            "content": "Explore a range of inequality metrics from the World Bank data."
         },
         {
-            "title": "Number of people living in extreme poverty",
-            "url": "https://ourworldindata.org/grapher/total-population-in-extreme-poverty",
+            "title": "Income share of the top 10% ",
+            "url": "https://ourworldindata.org/grapher/income-share-of-the-top-10-pip?country=BRA~FRA~CHN~ZAF",
             "source": "World Bank, PIP",
-            "content": "See data for the <em>total</em> number of people living in extreme poverty"
+            "content": "See World Bank data for another common metric of inequality"
         },
         {
-            "title": "Share of population living on less than $30 a day",
-            "url": "https://ourworldindata.org/grapher/poverty-share-on-less-than-30-per-day",
-            "source": "World Bank, PIP",
-            "content": "How do estimates compare when we use a higher poverty line, more typical of the lines used in high-income countries?"
+            "title": "Income share of the top 1%",
+            "url": "https://ourworldindata.org/grapher/income-share-of-the-top-1-pretax-national-income?tab=map",
+            "source": "Before tax | World Inequality Database",
+            "content": "Inequality estimates from the World Inequality Database aim to provide better estimates of the very top of the income distribution."
         },
         {
             "title": "Share of population below 60% of median income or consumption",
@@ -92,14 +92,9 @@
             "source": "World Bank, PIP"
         },
         {
-            "title": "Gini coefficient",
-            "url": "https://ourworldindata.org/grapher/economic-inequality-gini-index",
+            "title": "Share of population in extreme poverty",
+            "url": "https://ourworldindata.org/grapher/share-of-population-in-extreme-poverty",
             "source": "World Bank, PIP"
-        },
-        {
-            "title": "GDP per capita",
-            "url": "https://ourworldindata.org/grapher/gdp-per-capita-worldbank",
-            "source": "World Bank"
         }
     ],
     "relatedCharts": {
