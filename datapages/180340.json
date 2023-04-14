@@ -34,8 +34,8 @@
     "relatedResearch": [],
     "relatedData": [
         {
-            "type": "Data Explorer",
-            "imageUrl": "",
+            "type": "Chart",
+            "imageUrl": "https://ourworldindata.org/default-grapher-thumbnail.png",
             "title": "Cumulative number of objects launched into space",
             "source": "United Nations",
             "url": "https://ourworldindata.org/grapher/cumulative-number-of-objects-launched-into-outer-space",
