@@ -1,0 +1,223 @@
+{
+    "status": "draft",
+    "showDataPageOnChartIds": [
+        373
+    ],
+    "title": "Share of Population living in extreme popverty",
+    "googleDocEditLink": "https://docs.google.com/document/d/1kbgYBlCFFhD09uOg8kFG5U-SqbQTV6QH0MADiyqORlY/edit",
+    "topicTagsLinks": [
+        {
+            "title": "Poverty",
+            "url": "https://ourworldindata.org/povertys"
+        },
+        {
+            "title": "Economic Growth",
+            "url": "https://ourworldindata.org/economic-growth"
+        },
+        {
+            "title": "Economic Inequality",
+            "url": "https://ourworldindata.org/income-inequality"
+        }
+    ],
+    "variantDescription1": "World Bank, PIP",
+    "nameOfSource": "World Bank, Poverty and Inequality Platform",
+    "owidProcessingLevel": "<a href>Processed</a> by Our World in Data",
+    "dateRange": "1967-2021",
+    "lastUpdated": "2022-10-03",
+    "nextUpdate": "June 2023",
+    "subtitle": "The share of population living below the International Poverty Line of $2.15 per day. This data is adjusted for inflation and for differences in the cost of living between countries.",
+    "keyInfoText": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
+    "descriptionFromSource": {
+        "title": "[NOT USED]",
+        "content": "EDIT IN GDOC: create a heading 1 with the key name 'descriptionFromSource' and add content below it"
+    },
+    "relatedResearch": [
+        {
+            "title": "From $1.90 to $2.15 a day: the updated International Poverty Line",
+            "url": "https://ourworldindata.org/from-1-90-to-2-15-a-day-the-updated-international-poverty-line",
+            "authors": [
+                "Joe Hasell"
+            ],
+            "imageUrl": "https://ourworldindata.org/uploads/2022/10/Poverty-line-thumbnail-768x402.png"
+        },
+        {
+            "title": "Extreme poverty: how far have we come, how far do we still have to go?",
+            "url": "https://ourworldindata.org/extreme-poverty-in-brief",
+            "authors": [
+                "Max Roser"
+            ],
+            "imageUrl": "https://ourworldindata.org/uploads/2021/11/Featured-Image-for-the-post-768x422.png"
+        },
+        {
+            "title": "The economies that are home to the poorest billions of people need to grow if we want global poverty to decline substantially",
+            "url": "https://ourworldindata.org/poverty-growth-needed",
+            "authors": [
+                "Max Roser"
+            ],
+            "imageUrl": "https://ourworldindata.org/uploads/2021/02/Screen-Shot-2021-02-23-at-11.48.16-768x410.png"
+        }
+    ],
+    "relatedData": [
+        {
+            "type": "Data Explorer",
+            "imageUrl": "",
+            "title": "Poverty Data Explorer of the World Bank Data",
+            "url": "https://ourworldindata.org/explorers/poverty-explorer",
+            "content": "Explore a range of metrics for higher and lower poverty lines."
+        },
+        {
+            "title": "Number of people living in extreme poverty",
+            "url": "https://ourworldindata.org/grapher/total-population-in-extreme-poverty",
+            "source": "World Bank, PIP",
+            "content": "See data for the <em>total</em> number of people living in extreme poverty"
+        },
+        {
+            "title": "Share of population living on less than $30 a day",
+            "url": "https://ourworldindata.org/grapher/poverty-share-on-less-than-30-per-day",
+            "source": "World Bank, PIP",
+            "content": "How do estimates compare when we use a higher poverty line, more typical of the lines used in high-income countries?"
+        },
+        {
+            "title": "Share of population below 60% of median income or consumption",
+            "url": "https://ourworldindata.org/grapher/relative-poverty-share-of-people-below-60-of-the-median",
+            "source": "World Bank, PIP"
+        },
+        {
+            "title": "Mean income or consumption per day",
+            "url": "https://ourworldindata.org/grapher/daily-mean-income",
+            "source": "World Bank, PIP"
+        },
+        {
+            "title": "Gini coefficient",
+            "url": "https://ourworldindata.org/grapher/economic-inequality-gini-index",
+            "source": "World Bank, PIP"
+        },
+        {
+            "title": "GDP per capita",
+            "url": "https://ourworldindata.org/grapher/gdp-per-capita-worldbank",
+            "source": "World Bank"
+        }
+    ],
+    "relatedCharts": {
+        "title": "Explore charts that include this data",
+        "items": [
+            {
+                "title": "Extreme poverty and child mortality",
+                "slug": "poverty-and-child-mortality"
+            },
+            {
+                "title": "Share of population living in extreme poverty vs GDP per capita ",
+                "slug": "the-share-of-people-living-in-extreme-poverty-vs-gdp-per-capita"
+            },
+            {
+                "title": "Share of population living with less than $2.15 and $3.65 per day ",
+                "slug": "share-of-population-living-with-less-than-190-and-320-per-day"
+            },
+            {
+                "title": "How does extreme monetary poverty compare to multidimensional poverty?",
+                "slug": "MPI-vs-Consumption"
+            },
+            {
+                "title": "How does extreme monetary poverty compare to multidimensional poverty?",
+                "slug": "MPI-vs-Consumption"
+            },
+            {
+                "title": "Comparison of extreme poverty estimates, World Bank PIP vs Bradshaw & Mayhew (2011)",
+                "slug": "comparison-extreme-poverty-rich-countries"
+            },
+            {
+                "title": "Share in extreme poverty vs. poverty gap index",
+                "slug": "poverty-headcount-rate-vs-poverty-gap"
+            },
+            {
+                "title": "CO₂ emissions per capita vs. share in extreme poverty",
+                "slug": "co-emissions-per-capita-vs-the-share-of-people-living-in-extreme-poverty"
+            },
+            {
+                "title": "Energy use per capita vs. share in extreme poverty",
+                "slug": "energy-use-per-capita-vs-share-of-population-in-extreme-poverty"
+            },
+            {
+                "title": "Child mortality vs. share in extreme poverty",
+                "slug": "extreme-poverty-vs-child-mortality"
+            },
+            {
+                "title": "Prevalence of undernourishment vs. share in extreme poverty ",
+                "slug": "prevalence-of-undernourishment-vs-share-of-population-living-in-absolute-poverty"
+            }
+        ]
+    },
+    "faqs": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
+    "datasetName": "World Bank Poverty and Inequality Platform Dataset – Processed and adapted by Our World in Data",
+    "datasetDescription": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
+    "datasetVariableProcessingInfo": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
+    "datasetFeaturedVariables": [
+        {
+            "variableName": "Share of population below 60% of median income or consumption"
+        },
+        {
+            "variableName": "Share of population living on less than $30 a day",
+            "variableSubtitle": "The share of population living below $30 per day. This data is adjusted for inflation and for differences in the cost of living between countries."
+        },
+        {
+            "variableName": "Poverty gap index at $2.15 a day",
+            "variableSubtitle": "A measure that reflects both the prevalence and the depth of poverty, as measured by the International Poverty Line of $2.15 per day. It is calculated as the mean shortfall from the poverty line counting the non-poor as having zero shortfall, and expressed as a percentage of the poverty line."
+        },
+        {
+            "variableName": "Share of income or consumption received by the richest 10%",
+            "variableSubtitle": "The income or consumption received by the richest 10% of households, as a share of the total."
+        },
+        {
+            "variableName": "Median income or consumption per day",
+            "variableSubtitle": "Mean income or consumption per day. This data is adjusted for inflation and for differences in the cost of living between countries."
+        }
+    ],
+    "datasetSeeAllVariablesLink": {
+        "title": "See all 100+ metrics",
+        "url": "https://ourworldindata.org/explorers/co2"
+    },
+    "datasetCodeUrl": "https://ourworldindata.org/explorers/co2",
+    "datasetDownloadOptions": {
+        "basic": [
+            {
+                "csv": {
+                    "description": "Some kind of explanation of what CSVs are used for.",
+                    "url": "https://ourworldindata.org/exports/annual-co2-emissions-per-country-da8ccccaf5fc9d6bab92c3527f0cc596_v44.csv"
+                },
+                "xls": {
+                    "description": "Some kind of explanation of what XLSs are used for.",
+                    "url": "https://ourworldindata.org/exports/annual-co2-emissions-per-country-da8ccccaf5fc9d6bab92c3527f0cc596_v44.xls"
+                }
+            }
+        ],
+        "advanced": [
+            {
+                "type": "code",
+                "title": "Python",
+                "description": "",
+                "codeSnippet": "<pre>from owid import catalog</pre>"
+            },
+            {
+                "type": "url",
+                "title": "URL",
+                "description": "",
+                "url": "https://ourworldindata.org/co2-and-greenhouse-gaz-emissions.csv"
+            }
+        ]
+    },
+    "datasetCitation": "Global Carbon Project. (2022). Supplemental data of Global Carbon Budget 2022 (Version 1.0) [Data set]. Global Carbon Project. https://doi.org/10.18160/gcp-2022",
+    "datasetLicenseLink": {
+        "title": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "sources": [
+        {
+            "sourceName": "World Bank Poverty and Inequality Platform",
+            "sourceDescription": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
+            "sourceRetrievedOn": "2022-10-03",
+            "sourceRetrievedFromUrl": "https://pip.worldbank.org/",
+            "sourceCodeUrl": "https://ourworldindata.org/explorers/co2"
+        }
+    ],
+    "anomaliesListText": "In a <a href=\"https://ourworldindata.org\">separate article</a>, we discuss some unexpected or seemingly anomalous datapoints in this data that have come to our attention."
+}
