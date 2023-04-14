@@ -156,19 +156,19 @@
                 "variableName": "Share of population living in extreme poverty"
             },
             {
-                "variableName": "Annual consumption-based CO₂ emissions",
+                "variableName": "Share of population living on less than $30 a day",
                 "variableSubtitle": "CO₂ emissions from fossil fuels and industry, adjusted for trade"
             },
             {
-                "variableName": "Annual CO₂ emissions from cement",
+                "variableName": "Poverty gap index at $2.15 a day",
                 "variableSubtitle": "CO₂ emissions from cement production"
             },
             {
-                "variableName": "Annual CO₂ emissions from land-use change per capita",
+                "variableName": "Share of income or consumption received by the richest 10%",
                 "variableSubtitle": "CO₂ emissions from land-use change"
             },
             {
-                "variableName": "Annual share of global CO₂ emissions",
+                "variableName": "Median income or consumption per day",
                 "variableSubtitle": "Share of global CO₂ emissions"
             }
         ],
