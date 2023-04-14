@@ -7,16 +7,16 @@
     "googleDocEditLink": "https://docs.google.com/document/d/1kbgYBlCFFhD09uOg8kFG5U-SqbQTV6QH0MADiyqORlY/edit",
     "topicTagsLinks": [
         {
-            "title": "CO2 and greenhouse gas emissions",
-            "url": "https://ourworldindata.org/co2-and-greenhouse-gaz-emissions"
+            "title": "Poverty",
+            "url": "https://ourworldindata.org/povertys"
         },
         {
-            "title": "Climate change",
-            "url": "https://ourworldindata.org/climate-change"
+            "title": "Economic Growth",
+            "url": "https://ourworldindata.org/economic-growth"
         },
         {
-            "title": "Energy",
-            "url": "https://ourworldindata.org/energy"
+            "title": "Economic Inequality",
+            "url": "https://ourworldindata.org/income-inequality"
         }
     ],
     "variantDescription1": "Global Carbon Project",
