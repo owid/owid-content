@@ -1,0 +1,202 @@
+{
+    "status": "draft",
+    "showDataPageOnChartIds": [
+        5923
+    ],
+    "title": "Banana production",
+    "googleDocEditLink": "https://docs.google.com/document/d/1XHpp9OU-UHZWD515v3V1KDY-YlSU5_-Hs_4_wGCGm1k/edit",
+    "topicTagsLinks": [
+        {
+            "title": "CO2 and greenhouse gas emissions",
+            "url": "https://ourworldindata.org/co2-and-greenhouse-gaz-emissions"
+        },
+        {
+            "title": "Climate change",
+            "url": "https://ourworldindata.org/climate-change"
+        },
+        {
+            "title": "Energy",
+            "url": "https://ourworldindata.org/energy"
+        }
+    ],
+    "variantDescription1": "Global Carbon Project",
+    "variantDescription2": "Historical estimates",
+    "nameOfSource": "Global Carbon Project",
+    "owidProcessingLevel": "<a href>Processed and adapted</a> by Our World in Data",
+    "dateRange": "1974-2020",
+    "lastUpdated": "2022-10-03",
+    "nextUpdate": "2023-05-15",
+    "subtitle": "Annual total production-based emissions of carbon dioxide (CO₂), excluding land-use change, measured in tonnes per person. This is based on territorial emissions, which do not account for emissions embedded in traded goods.",
+    "keyInfoText": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
+    "descriptionFromSource": {
+        "title": "How does the Poverty and Inequality Platform (PIP) describe this metric?",
+        "content": "EDIT IN GDOC: create a heading 1 with the key name 'descriptionFromSource' and add content below it"
+    },
+    "relatedResearch": [
+        {
+            "title": "From $1.90 to $2.15 a day: the updated International Poverty Line",
+            "url": "https://ourworldindata.org/from-1-90-to-2-15-a-day-the-updated-international-poverty-line",
+            "authors": [
+                "Joe Hasell"
+            ],
+            "imageUrl": "https://ourworldindata.org/uploads/2022/10/Poverty-line-thumbnail-768x402.png"
+        },
+        {
+            "title": "Extreme poverty: how far have we come, how far do we still have to go?",
+            "url": "https://ourworldindata.org/extreme-poverty-in-brief",
+            "authors": [
+                "Max Roser"
+            ],
+            "imageUrl": "https://ourworldindata.org/uploads/2021/11/Featured-Image-for-the-post-768x422.png"
+        },
+        {
+            "title": "The economies that are home to the poorest billions of people need to grow if we want global poverty to decline substantially",
+            "url": "https://ourworldindata.org/poverty-growth-needed",
+            "authors": [
+                "Max Roser"
+            ],
+            "imageUrl": "https://ourworldindata.org/uploads/2021/02/Screen-Shot-2021-02-23-at-11.48.16-768x410.png"
+        }
+    ],
+    "relatedData": [
+        {
+            "type": "Data Explorer",
+            "imageUrl": "",
+            "title": "CO2 Data Explorer",
+            "source": "Global Carbon Project",
+            "url": "https://ourworldindata.org/explorers/co2",
+            "content": "Compare a range of metrics tracking emissions of  CO2 and other Greenhouse Gas."
+        },
+        {
+            "title": "Consumption-based CO2 emissions per capita",
+            "url": "https://ourworldindata.org/grapher/consumption-co2-per-capita",
+            "source": "PIP",
+            "content": "How do per capita CO2 emissions compare when we adjust for trade?"
+        },
+        {
+            "title": "Annual share of global CO2 emissions",
+            "url": "https://ourworldindata.org/grapher/annual-share-of-co2-emissions",
+            "source": "World Inequality Database",
+            "content": "What share of global CO2 emissions do different countries contribute?"
+        },
+        {
+            "title": "Annual CO2 emissions from land-use change per capita",
+            "url": "https://ourworldindata.org/grapher/co2-land-use-per-capita?country=USA~GBR~European+Union+%2827%29~CHN~IND~AUS~BRA~MEX~IDN",
+            "source": "Global Carbon Project, 2022"
+        },
+        {
+            "title": "Annual CO2 emissions by world region",
+            "url": "https://ourworldindata.org/grapher/annual-co-emissions-by-region",
+            "source": "Global Carbon Project, 2022"
+        },
+        {
+            "title": "Annual CO2 emissions from cement",
+            "url": "https://ourworldindata.org/grapher/annual-co2-cement",
+            "source": "Global Carbon Project, 2022"
+        }
+    ],
+    "relatedCharts": {
+        "items": [
+            {
+                "title": "People without clean cooking fuels",
+                "slug": "people-without-clean-cooking-fuels-region"
+            },
+            {
+                "title": "Old-age dependency ratio",
+                "slug": "age-dependency-ratio-old",
+                "variantName": "Historical estimates",
+                "isKeyChart": true
+            },
+            {
+                "title": "Value added in the agricultural sector as of GDP vs GDP per capita",
+                "slug": "value-added-in-the-agricultural-sector-as-of-gdp-vs-gdp-per-capita",
+                "variantName": "World Bank"
+            },
+            {
+                "title": "Number of people employed in agriculture",
+                "slug": "number-of-people-employed-in-agriculture"
+            }
+        ]
+    },
+    "faqs": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
+    "datasetName": "<em>Our World in Data’s Collection</em> of the Global Carbon Budget Data ",
+    "datasetDescription": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
+    "datasetVariableProcessingInfo": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
+    "datasetFeaturedVariables": [
+        {
+            "variableName": "Annual CO₂ emissions per capita"
+        },
+        {
+            "variableName": "Annual consumption-based CO₂ emissions",
+            "variableSubtitle": "CO₂ emissions from fossil fuels and industry, adjusted for trade"
+        },
+        {
+            "variableName": "Annual CO₂ emissions from cement",
+            "variableSubtitle": "CO₂ emissions from cement production"
+        },
+        {
+            "variableName": "Annual CO₂ emissions from land-use change per capita",
+            "variableSubtitle": "CO₂ emissions from land-use change"
+        },
+        {
+            "variableName": "Annual share of global CO₂ emissions",
+            "variableSubtitle": "Share of global CO₂ emissions"
+        }
+    ],
+    "datasetSeeAllVariablesLink": {
+        "title": "See all 128 metrics",
+        "url": "https://ourworldindata.org/explorers/co2"
+    },
+    "datasetCodeUrl": "https://ourworldindata.org/explorers/co2",
+    "datasetDownloadOptions": {
+        "basic": [
+            {
+                "csv": {
+                    "description": "Some kind of explanation of what CSVs are used for.",
+                    "url": "https://ourworldindata.org/exports/annual-co2-emissions-per-country-da8ccccaf5fc9d6bab92c3527f0cc596_v44.csv"
+                },
+                "xls": {
+                    "description": "Some kind of explanation of what XLSs are used for.",
+                    "url": "https://ourworldindata.org/exports/annual-co2-emissions-per-country-da8ccccaf5fc9d6bab92c3527f0cc596_v44.xls"
+                }
+            }
+        ],
+        "advanced": [
+            {
+                "type": "code",
+                "title": "Python",
+                "description": "",
+                "codeSnippet": "<pre>from owid import catalog</pre>"
+            },
+            {
+                "type": "url",
+                "title": "URL",
+                "description": "",
+                "url": "https://ourworldindata.org/co2-and-greenhouse-gaz-emissions.csv"
+            }
+        ]
+    },
+    "datasetCitation": "Global Carbon Project. (2022). Supplemental data of Global Carbon Budget 2022 (Version 1.0) [Data set]. Global Carbon Project. https://doi.org/10.18160/gcp-2022",
+    "datasetLicenseLink": {
+        "title": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "sources": [
+        {
+            "sourceName": "Global Carbon Project",
+            "sourceDescription": "<p>The annually published Global Carbon Budget is a report produced by a community researchers to announce a global carbon budget quantifying carbon dioxide (CO2) emissions for the prior year. The report determines the input of CO2 to the atmosphere by emissions from human activities, balanced by output (storage) in the carbon reservoirs on land or in the ocean. Thanks to the Global Carbon Budget, the research community can better understand and monitor the global carbon cycle, while the report provides a highly valuable resource within a climate policy framework.</p><p>The Global Carbon Budget is done by the researchers of the Global Carbon Project (GCP), including scientists from the ICOS community. The Global Carbon Budget relies on the ICOS data that is available in different global data networks, such as the World Meteorological Organization's Global Atmosphere Watch (WMO GAW) and Surface Ocean CO2 Atlas (SOCAT).<em>More details at https://www.icos-cp.eu/science-and-impact/global-carbon-budget.</em></p>",
+            "sourceRetrievedOn": "2021-09-01",
+            "sourceRetrievedFromUrl": "https://zenodo.org/record/7215364/files/...",
+            "sourceCodeUrl": "https://ourworldindata.org/explorers/co2"
+        },
+        {
+            "sourceName": "Hypothetical source 2",
+            "sourceDescription": "<p>The annually published Global Carbon Budget is a report produced by a community researchers to announce a global carbon budget quantifying carbon dioxide (CO2) emissions for the prior year. The report determines the input of CO2 to the atmosphere by emissions from human activities, balanced by output (storage) in the carbon reservoirs on land or in the ocean. Thanks to the Global Carbon Budget, the research community can better understand and monitor the global carbon cycle, while the report provides a highly valuable resource within a climate policy framework.</p><p>The Global Carbon Budget is done by the researchers of the Global Carbon Project (GCP), including scientists from the ICOS community. The Global Carbon Budget relies on the ICOS data that is available in different global data networks, such as the World Meteorological Organization's Global Atmosphere Watch (WMO GAW) and Surface Ocean CO2 Atlas (SOCAT).<em>More details at https://www.icos-cp.eu/science-and-impact/global-carbon-budget.</em></p>"
+        },
+        {
+            "sourceName": "Hypothetical source 3",
+            "sourceDescription": "<p>The annually published Global Carbon Budget is a report produced by a community researchers to announce a global carbon budget quantifying carbon dioxide (CO2) emissions for the prior year. The report determines the input of CO2 to the atmosphere by emissions from human activities, balanced by output (storage) in the carbon reservoirs on land or in the ocean. Thanks to the Global Carbon Budget, the research community can better understand and monitor the global carbon cycle, while the report provides a highly valuable resource within a climate policy framework.</p><p>The Global Carbon Budget is done by the researchers of the Global Carbon Project (GCP), including scientists from the ICOS community. The Global Carbon Budget relies on the ICOS data that is available in different global data networks, such as the World Meteorological Organization's Global Atmosphere Watch (WMO GAW) and Surface Ocean CO2 Atlas (SOCAT).<em>More details at https://www.icos-cp.eu/science-and-impact/global-carbon-budget.</em></p>"
+        }
+    ],
+    "anomaliesListText": "In a <a href=\"https://ourworldindata.org\">separate article</a>, we discuss some unexpected or seemingly anomalous datapoints in this data that have come to our attention."
+}
