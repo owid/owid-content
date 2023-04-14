@@ -3,20 +3,20 @@
     "showDataPageOnChartIds": [
         5476
     ],
-    "title": "Banana production",
+    "title": "Annual number of objects launched into space",
     "googleDocEditLink": "https://docs.google.com/document/d/1AjDyphxx0Upegp0EhAFPgokji_dhL_WoeHIPZAzXAMg/edit",
     "topicTagsLinks": [
         {
-            "title": "CO2 and greenhouse gas emissions",
-            "url": "https://ourworldindata.org/co2-and-greenhouse-gaz-emissions"
+            "title": "Space Exploration and Satellites",
+            "url": "https://ourworldindata.org/space-exploration-satellites"
         },
         {
-            "title": "Climate change",
-            "url": "https://ourworldindata.org/climate-change"
+            "title": "Technological Change",
+            "url": "https://ourworldindata.org/technological-change"
         },
         {
-            "title": "Energy",
-            "url": "https://ourworldindata.org/energy"
+            "title": "Research and Development",
+            "url": "https://ourworldindata.org/research-and-development"
         }
     ],
     "variantDescription1": "Global Carbon Project",
