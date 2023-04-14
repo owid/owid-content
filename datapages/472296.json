@@ -11,10 +11,6 @@
             "url": "https://ourworldindata.org/povertys"
         },
         {
-            "title": "Economic Growth",
-            "url": "https://ourworldindata.org/economic-growth"
-        },
-        {
             "title": "Economic Inequality",
             "url": "https://ourworldindata.org/income-inequality"
         }
@@ -25,7 +21,7 @@
     "dateRange": "1967-2021",
     "lastUpdated": "2022-10-03",
     "nextUpdate": "June 2023",
-    "subtitle": "The share of population living below the International Poverty Line of $2.15 per day. This data is adjusted for inflation and for differences in the cost of living between countries.",
+    "subtitle": "Inequality, as measured by the Gini coefficient – a measure that ranges between 0 and 1, where higher values indicate higher inequality. Depending on the country and year, the data relates to either disposable income or consumption per capita.",
     "keyInfoText": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
     "descriptionFromSource": {
         "title": "[NOT USED]",
@@ -33,28 +29,36 @@
     },
     "relatedResearch": [
         {
-            "title": "From $1.90 to $2.15 a day: the updated International Poverty Line",
-            "url": "https://ourworldindata.org/from-1-90-to-2-15-a-day-the-updated-international-poverty-line",
+            "title": "Is income inequality rising around the world?",
+            "url": "https://ourworldindata.org/income-inequality-since-1990",
             "authors": [
                 "Joe Hasell"
             ],
-            "imageUrl": "https://ourworldindata.org/uploads/2022/10/Poverty-line-thumbnail-768x402.png"
+            "imageUrl": "https://ourworldindata.org/uploads/2018/10/gini-index-around-2015-1990-2015-countries-vs-gini-index-around-1990-1990-2015-countries.png"
         },
         {
-            "title": "Extreme poverty: how far have we come, how far do we still have to go?",
-            "url": "https://ourworldindata.org/extreme-poverty-in-brief",
+            "title": "Global economic inequality: what matters most for your living conditions is not who you are, but where you are?",
+            "url": "https://ourworldindata.org/global-economic-inequality-introduction",
             "authors": [
                 "Max Roser"
             ],
-            "imageUrl": "https://ourworldindata.org/uploads/2021/11/Featured-Image-for-the-post-768x422.png"
+            "imageUrl": "https://ourworldindata.org/uploads/2021/11/Screen-Shot-2021-11-27-at-12.08.06.png"
         },
         {
-            "title": "The economies that are home to the poorest billions of people need to grow if we want global poverty to decline substantially",
-            "url": "https://ourworldindata.org/poverty-growth-needed",
+            "title": "Is trade a major driver of income inequality?",
+            "url": "https://ourworldindata.org/trade-and-income-inequality",
             "authors": [
-                "Max Roser"
+                "Esteban Ortiz-Ospina"
             ],
-            "imageUrl": "https://ourworldindata.org/uploads/2021/02/Screen-Shot-2021-02-23-at-11.48.16-768x410.png"
+            "imageUrl": "https://ourworldindata.org/uploads/2018/07/Top-Incomes.png"
+        },
+        {
+            "title": "Global inequalities in CO₂ emissions, based on consumption",
+            "url": "https://ourworldindata.org/global-inequalities-co2-consumption",
+            "authors": [
+                "Hannah Ritchie"
+            ],
+            "imageUrl": "https://ourworldindata.org/uploads/2018/12/consumption-co2-emissions-vs-population.png"
         }
     ],
     "relatedData": [
