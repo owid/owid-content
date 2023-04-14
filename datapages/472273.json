@@ -152,26 +152,26 @@
     "datasetDescription": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
     "datasetVariableProcessingInfo": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
     "datasetFeaturedVariables": [
-            {
-                "variableName": "Share of population living in extreme poverty"
-            },
-            {
-                "variableName": "Share of population living on less than $30 a day",
-                "variableSubtitle": "CO₂ emissions from fossil fuels and industry, adjusted for trade"
-            },
-            {
-                "variableName": "Poverty gap index at $2.15 a day",
-                "variableSubtitle": "CO₂ emissions from cement production"
-            },
-            {
-                "variableName": "Share of income or consumption received by the richest 10%",
-                "variableSubtitle": "CO₂ emissions from land-use change"
-            },
-            {
-                "variableName": "Median income or consumption per day",
-                "variableSubtitle": "Share of global CO₂ emissions"
-            }
-        ],
+        {
+            "variableName": "Share of population below 60% of median income or consumption"
+        },
+        {
+            "variableName": "Share of population living on less than $30 a day",
+            "variableSubtitle": "The share of population living below $30 per day. This data is adjusted for inflation and for differences in the cost of living between countries."
+        },
+        {
+            "variableName": "Poverty gap index at $2.15 a day",
+            "variableSubtitle": "A measure that reflects both the prevalence and the depth of poverty, as measured by the International Poverty Line of $2.15 per day. It is calculated as the mean shortfall from the poverty line counting the non-poor as having zero shortfall, and expressed as a percentage of the poverty line."
+        },
+        {
+            "variableName": "Share of income or consumption received by the richest 10%",
+            "variableSubtitle": "The income or consumption received by the richest 10% of households, as a share of the total."
+        },
+        {
+            "variableName": "Median income or consumption per day",
+            "variableSubtitle": "Mean income or consumption per day. This data is adjusted for inflation and for differences in the cost of living between countries."
+        }
+    ],
     "datasetSeeAllVariablesLink": {
         "title": "See all 100+ metrics",
         "url": "https://ourworldindata.org/explorers/co2"
