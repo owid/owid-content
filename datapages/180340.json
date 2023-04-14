@@ -36,37 +36,30 @@
         {
             "type": "Data Explorer",
             "imageUrl": "",
-            "title": "CO2 Data Explorer",
-            "source": "Global Carbon Project",
-            "url": "https://ourworldindata.org/explorers/co2",
-            "content": "Compare a range of metrics tracking emissions of  CO2 and other Greenhouse Gas."
+            "title": "Cumulative number of objects launched into space",
+            "source": "United Nations",
+            "url": "https://ourworldindata.org/grapher/cumulative-number-of-objects-launched-into-outer-space",
+            "content": "The cumulative version of this data."
         },
         {
-            "title": "Consumption-based CO2 emissions per capita",
-            "url": "https://ourworldindata.org/grapher/consumption-co2-per-capita",
-            "source": "PIP",
-            "content": "How do per capita CO2 emissions compare when we adjust for trade?"
+            "title": "Number of payloads and rocket bodies in space, by orbit",
+            "url": "https://ourworldindata.org/grapher/space-objects-by-orbit",
+            "source": "United States Space Force"
         },
         {
-            "title": "Annual share of global CO2 emissions",
-            "url": "https://ourworldindata.org/grapher/annual-share-of-co2-emissions",
-            "source": "World Inequality Database",
-            "content": "What share of global CO2 emissions do different countries contribute?"
+            "title": "Number of tracked objects in low Earth orbit, by type",
+            "url": "https://ourworldindata.org/grapher/low-earth-orbits-objects",
+            "source": "United States Space Force"
         },
         {
-            "title": "Annual CO2 emissions from land-use change per capita",
-            "url": "https://ourworldindata.org/grapher/co2-land-use-per-capita?country=USA~GBR~European+Union+%2827%29~CHN~IND~AUS~BRA~MEX~IDN",
-            "source": "Global Carbon Project, 2022"
+            "title": "Cost of space launches to low Earth orbit",
+            "url": "https://ourworldindata.org/grapher/cost-space-launches-low-earth-orbit",
+            "source": "CSIS"
         },
         {
-            "title": "Annual CO2 emissions by world region",
-            "url": "https://ourworldindata.org/grapher/annual-co-emissions-by-region",
-            "source": "Global Carbon Project, 2022"
-        },
-        {
-            "title": "Annual CO2 emissions from cement",
-            "url": "https://ourworldindata.org/grapher/annual-co2-cement",
-            "source": "Global Carbon Project, 2022"
+            "title": "Annual number of human visits to space",
+            "url": "https://ourworldindata.org/grapher/annual-space-visits",
+            "source": "CSIS"
         }
     ],
     "relatedCharts": {
