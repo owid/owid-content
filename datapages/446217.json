@@ -3,24 +3,23 @@
     "showDataPageOnChartIds": [
         755
     ],
-    "title": "Banana production",
+    "title": "Share of the population using the Internet",
     "googleDocEditLink": "https://docs.google.com/document/d/1E1sLXZmwU1SSVDFvMsJNbOAreHaKnRXqmJDqCAUfdDE/edit",
     "topicTagsLinks": [
         {
-            "title": "CO2 and greenhouse gas emissions",
-            "url": "https://ourworldindata.org/co2-and-greenhouse-gaz-emissions"
+            "title": "Technological Change",
+            "url": "https://ourworldindata.org/technological-change"
         },
         {
-            "title": "Climate change",
-            "url": "https://ourworldindata.org/climate-change"
+            "title": "Internet",
+            "url": "https://ourworldindata.org/internet"
         },
         {
-            "title": "Energy",
-            "url": "https://ourworldindata.org/energy"
+            "title": "Loneliness and Social Connections",
+            "url": "https://ourworldindata.org/social-connections-and-loneliness"
         }
     ],
-    "variantDescription1": "Global Carbon Project",
-    "variantDescription2": "Historical estimates",
+    "variantDescription1": "International Telecommunication Union",
     "nameOfSource": "Global Carbon Project",
     "owidProcessingLevel": "<a href>Processed and adapted</a> by Our World in Data",
     "dateRange": "1974-2020",
