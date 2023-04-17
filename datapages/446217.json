@@ -80,6 +80,11 @@
             "title": "Adoption of communication technologies per 100 people",
             "url": "https://ourworldindata.org/grapher/ict-adoption-per-100-people",
             "source": "International Telecommunication Union"
+        },
+        {
+            "title": "Daily hours spent with digital media in the United States",
+            "url": "https://ourworldindata.org/grapher/daily-hours-spent-with-digital-media-per-adult-user",
+            "source": "BOND Internet Trends"
         }
     ],
     "relatedCharts": {
