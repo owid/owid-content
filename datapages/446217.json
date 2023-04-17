@@ -41,20 +41,20 @@
             "imageUrl": "https://ourworldindata.org/uploads/2018/09/Share-of-internet-users-768x981.png"
         },
         {
-            "title": "Extreme poverty: how far have we come, how far do we still have to go?",
-            "url": "https://ourworldindata.org/extreme-poverty-in-brief",
+            "title": "The rise of social media",
+            "url": "https://ourworldindata.org/rise-of-social-media",
             "authors": [
-                "Max Roser"
+                "Esteban Ortiz-Ospina"
             ],
-            "imageUrl": "https://ourworldindata.org/uploads/2021/11/Featured-Image-for-the-post-768x422.png"
+            "imageUrl": "https://ourworldindata.org/default-thumbnail.jpg"
         },
         {
-            "title": "The economies that are home to the poorest billions of people need to grow if we want global poverty to decline substantially",
-            "url": "https://ourworldindata.org/poverty-growth-needed",
+            "title": "Are Facebook and other social media platforms bad for our well-being?",
+            "url": "https://ourworldindata.org/social-media-wellbeing",
             "authors": [
-                "Max Roser"
+                "Esteban Ortiz-Ospina"
             ],
-            "imageUrl": "https://ourworldindata.org/uploads/2021/02/Screen-Shot-2021-02-23-at-11.48.16-768x410.png"
+            "imageUrl": "https://ourworldindata.org/uploads/2019/09/subjective-well-being-1-v2-768x402.png"
         }
     ],
     "relatedData": [
