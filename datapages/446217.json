@@ -20,15 +20,15 @@
         }
     ],
     "variantDescription1": "International Telecommunication Union",
-    "nameOfSource": "Global Carbon Project",
-    "owidProcessingLevel": "<a href>Processed and adapted</a> by Our World in Data",
-    "dateRange": "1974-2020",
-    "lastUpdated": "2022-10-03",
-    "nextUpdate": "Fall 2023",
-    "subtitle": "Annual production of bananas, measured in tonnes.",
+    "nameOfSource": "International Telecommunication Union",
+    "owidProcessingLevel": "<a href>Processed</a> by Our World in Data",
+    "dateRange": "1990-2020",
+    "lastUpdated": "2022-06-02",
+    "nextUpdate": "May 2023",
+    "subtitle": "Share of the population who used the Internet in the last three months.",
     "keyInfoText": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
     "descriptionFromSource": {
-        "title": "How does the source – World Bank Poverty and Inequality Platform – describe this metric?",
+        "title": "How does the source – International Telecommunication Union – describe this metric?",
         "content": "EDIT IN GDOC: create a heading 1 with the key name 'descriptionFromSource' and add content below it"
     },
     "relatedResearch": [
