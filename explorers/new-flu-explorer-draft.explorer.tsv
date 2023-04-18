@@ -4,6 +4,7 @@ selection	Northern Hemisphere	Southern Hemisphere
 isPublished	false
 thumbnail
 hideAlertBanner	true
+hideAnnotationFieldsInTitle	true
 yAxisMin	0
 wpBlockId	56732
 hasMapTab	true
