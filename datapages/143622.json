@@ -1,125 +1,108 @@
 {
     "status": "draft",
     "showDataPageOnChartIds": [
-        486
+        828
     ],
-    "title": "Banana production",
-    "googleDocEditLink": "https://docs.google.com/document/d/1kQ5ZXxUhOpnHT1OQtywpc_QvaQtU7nZzk7s-LXvsMSc/edit",
+    "title": "Living Planet Index",
+    "googleDocEditLink": "https://docs.google.com/document/d/1T9FGcsgohMuG4cQtXhaeJ4B18lOcQ7Ktzwemhrk96TU/edit",
     "topicTagsLinks": [
         {
-            "title": "CO2 and greenhouse gas emissions",
-            "url": "https://ourworldindata.org/co2-and-greenhouse-gaz-emissions"
-        },
-        {
-            "title": "Climate change",
-            "url": "https://ourworldindata.org/climate-change"
-        },
-        {
-            "title": "Energy",
-            "url": "https://ourworldindata.org/energy"
+            "title": "Biodiversity",
+            "url": "https://ourworldindata.org/biodiversity"
         }
     ],
-    "variantDescription1": "Global Carbon Project",
-    "variantDescription2": "Historical estimates",
-    "nameOfSource": "Global Carbon Project",
-    "owidProcessingLevel": "<a href>Processed and adapted</a> by Our World in Data",
-    "dateRange": "1974-2020",
-    "lastUpdated": "2022-10-03",
-    "nextUpdate": "2023-05-15",
-    "subtitle": "Annual total production-based emissions of carbon dioxide (CO₂), excluding land-use change, measured in tonnes per person. This is based on territorial emissions, which do not account for emissions embedded in traded goods.",
+    "variantDescription1": "Zoological Society of London",
+    "variantDescription2": "",
+    "nameOfSource": "World Wildlife Fund (WWF) and Zoological Society of London",
+    "owidProcessingLevel": "<a href>Processed</a> by Our World in Data",
+    "dateRange": "1970-2018",
+    "lastUpdated": "2022-10-13",
+    "nextUpdate": "Fall 2024",
+    "subtitle": "The Living Planet Index (LPI) measures the average decline in monitored wildlife populations. The index value measures the change in abundance in 31,821 populations across 5,230 species relative to the year 1970 (i.e. 1970 = 100%).",
     "keyInfoText": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
     "descriptionFromSource": {
-        "title": "How does the Poverty and Inequality Platform (PIP) describe this metric?",
+        "title": "How does the source – Zoological Society of London – describe this metric?",
         "content": "EDIT IN GDOC: create a heading 1 with the key name 'descriptionFromSource' and add content below it"
     },
     "relatedResearch": [
         {
-            "title": "From $1.90 to $2.15 a day: the updated International Poverty Line",
-            "url": "https://ourworldindata.org/from-1-90-to-2-15-a-day-the-updated-international-poverty-line",
+            "title": "Living Planet Index: what does an average decline of 69% really mean?",
+            "url": "https://ourworldindata.org/living-planet-index-decline",
             "authors": [
-                "Joe Hasell"
+                "Hannah Ritchie"
             ],
-            "imageUrl": "https://ourworldindata.org/uploads/2022/10/Poverty-line-thumbnail-768x402.png"
+            "imageUrl": "https://ourworldindata.org/uploads/2021/03/Living-Planet-Index-thumbnail-800x421.png"
         },
         {
-            "title": "Extreme poverty: how far have we come, how far do we still have to go?",
-            "url": "https://ourworldindata.org/extreme-poverty-in-brief",
+            "title": "How the Living Planet project helps us understand how the world’s wildlife is changing",
+            "url": "https://ourworldindata.org/living-planet-index-understanding",
             "authors": [
-                "Max Roser"
+                "Hannah Ritchie"
             ],
-            "imageUrl": "https://ourworldindata.org/uploads/2021/11/Featured-Image-for-the-post-768x422.png"
+            "imageUrl": "https://ourworldindata.org/uploads/2022/11/Living-planet-index-shares-increasing-declining-thumbnail-800x419.png"
         },
         {
-            "title": "The economies that are home to the poorest billions of people need to grow if we want global poverty to decline substantially",
-            "url": "https://ourworldindata.org/poverty-growth-needed",
+            "title": "How does the Living Planet Index vary by region?",
+            "url": "https://ourworldindata.org/living-planet-index-region",
             "authors": [
-                "Max Roser"
+                "Hannah Ritchie"
             ],
-            "imageUrl": "https://ourworldindata.org/uploads/2021/02/Screen-Shot-2021-02-23-at-11.48.16-768x410.png"
+            "imageUrl": "https://ourworldindata.org/uploads/2022/10/Living-planet-index-region-thumbnail-800x419.png"
+        },
+        {
+            "title": "FAQs on the Living Planet Index",
+            "url": "https://ourworldindata.org/faq-living-planet-index",
+            "authors": [
+                "Hannah Ritchie"
+            ],
+            "imageUrl": "https://ourworldindata.org/uploads/2021/03/Living-Planet-Index-thumbnail-800x421.png"
         }
     ],
     "relatedData": [
         {
             "type": "Data Explorer",
-            "imageUrl": "",
-            "title": "CO2 Data Explorer",
-            "source": "Global Carbon Project",
-            "url": "https://ourworldindata.org/explorers/co2",
-            "content": "Compare a range of metrics tracking emissions of  CO2 and other Greenhouse Gas."
+            "title": "Habitat Loss Data Explorer",
+            "source": "Williams et al. (2021)",
+            "url": "https://ourworldindata.org/explorers/habitat-loss",
+            "content": "Explore projections of species' habitat loss, and the impact of dietary and agricultural interventions."
         },
         {
-            "title": "Consumption-based CO2 emissions per capita",
-            "url": "https://ourworldindata.org/grapher/consumption-co2-per-capita",
-            "source": "PIP",
-            "content": "How do per capita CO2 emissions compare when we adjust for trade?"
-        },
+            "type": "Data Explorer",
+            "title": "Fish Stocks Data Explorer",
+            "url": "https://ourworldindata.org/explorers/fish-stocks",
+            "source": "RAM Legacy Stock Assessment Database.",
+            "content": "Explore available data on the world's fish stocks."
+        }, 
         {
-            "title": "Annual share of global CO2 emissions",
-            "url": "https://ourworldindata.org/grapher/annual-share-of-co2-emissions",
-            "source": "World Inequality Database",
-            "content": "What share of global CO2 emissions do different countries contribute?"
-        },
+            "title": "Red List Index",
+            "slug": "https://ourworldindata.org/grapher/red-list-index",
+            "source": "Birdlife International and International Union for Conservation of Nature",
+            "content": "The Red List Index shows trends in overall extinction risk for groups of species."
+            },
         {
-            "title": "Annual CO2 emissions from land-use change per capita",
-            "url": "https://ourworldindata.org/grapher/co2-land-use-per-capita?country=USA~GBR~European+Union+%2827%29~CHN~IND~AUS~BRA~MEX~IDN",
-            "source": "Global Carbon Project, 2022"
-        },
-        {
-            "title": "Annual CO2 emissions by world region",
-            "url": "https://ourworldindata.org/grapher/annual-co-emissions-by-region",
-            "source": "Global Carbon Project, 2022"
-        },
-        {
-            "title": "Annual CO2 emissions from cement",
-            "url": "https://ourworldindata.org/grapher/annual-co2-cement",
-            "source": "Global Carbon Project, 2022"
-        }
+            "title": "Share of species threatened with extinction",
+            "slug": "https://ourworldindata.org/grapher/share-threatened-species",
+            "source": "International Union for Conservation of Nature"
+            },
+         {
+            "title": "Number of species evaluated for their level of extinction risk",
+            "slug": "https://ourworldindata.org/grapher/number-species-evaluated-iucn",
+            "source": "International Union for Conservation of Nature"
+            }  
+        
     ],
     "relatedCharts": {
-        "items": [
+        "items": [  
             {
-                "title": "People without clean cooking fuels",
-                "slug": "people-without-clean-cooking-fuels-region"
-            },
-            {
-                "title": "Old-age dependency ratio",
-                "slug": "age-dependency-ratio-old",
-                "variantName": "Historical estimates",
-                "isKeyChart": true
-            },
-            {
-                "title": "Value added in the agricultural sector as of GDP vs GDP per capita",
-                "slug": "value-added-in-the-agricultural-sector-as-of-gdp-vs-gdp-per-capita",
-                "variantName": "World Bank"
-            },
-            {
-                "title": "Number of people employed in agriculture",
-                "slug": "number-of-people-employed-in-agriculture"
+            "title": "Living Planet Index by region",
+            "slug": "living-planet-index-by-region",
+            "variantName": "World Wildlife Fund (WWF) and Zoological Society of London",
+            "isKeyChart": true
             }
         ]
     },
     "faqs": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
-    "datasetName": "<em>Our World in Data’s Collection</em> of the Global Carbon Budget Data ",
+    "datasetName": "Living Planet Index – Processed by Our World in Data",
     "datasetDescription": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
     "datasetVariableProcessingInfo": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
     "datasetFeaturedVariables": [

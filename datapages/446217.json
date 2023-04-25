@@ -1,85 +1,90 @@
 {
     "status": "draft",
     "showDataPageOnChartIds": [
-        5923
+        755
     ],
-    "title": "Share of population below 60% of median income or consumption",
-    "googleDocEditLink": "https://docs.google.com/document/d/1Hns_n-AlL8bei7vqz9-F8uWQ_07ZFCGOyme4KCXxCds/edit",
+    "title": "Share of the population using the Internet",
+    "googleDocEditLink": "https://docs.google.com/document/d/1E1sLXZmwU1SSVDFvMsJNbOAreHaKnRXqmJDqCAUfdDE/edit",
     "topicTagsLinks": [
         {
-            "title": "Poverty",
-            "url": "https://ourworldindata.org/poverty"
+            "title": "Technological Change",
+            "url": "https://ourworldindata.org/technological-change"
         },
         {
-            "title": "Income Inequality",
-            "url": "https://ourworldindata.org/income-inequality"
+            "title": "Internet",
+            "url": "https://ourworldindata.org/internet"
+        },
+        {
+            "title": "Loneliness and Social Connections",
+            "url": "https://ourworldindata.org/social-connections-and-loneliness"
         }
     ],
-    "variantDescription1": "World Bank, PIP",
-    "nameOfSource": "Our World in Data",
-    "owidProcessingLevel": "<a href>Derived from</a> World Bank Poverty and Inequality Platform",
-    "dateRange": "1967-2021",
-    "lastUpdated": "2022-10-03",
-    "nextUpdate": "June 2023",
-    "subtitle": "A measure of relative poverty – the share of the population with an income or consumption below 60% of the median in their country.",
+    "variantDescription1": "International Telecommunication Union",
+    "nameOfSource": "International Telecommunication Union",
+    "owidProcessingLevel": "<a href>Processed</a> by Our World in Data",
+    "dateRange": "1990-2020",
+    "lastUpdated": "2022-06-02",
+    "nextUpdate": "May 2023",
+    "subtitle": "Share of the population who used the Internet in the last three months.",
     "keyInfoText": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
     "descriptionFromSource": {
-        "title": "How does the Poverty and Inequality Platform (PIP) describe this metric?",
+        "title": "How does the source – International Telecommunication Union – describe this metric?",
         "content": "EDIT IN GDOC: create a heading 1 with the key name 'descriptionFromSource' and add content below it"
     },
     "relatedResearch": [
         {
-            "title": "Global poverty in an unequal world: Who is considered poor in a rich country? And what does this mean for our understanding of global poverty?",
-            "url": "https://ourworldindata.org/higher-poverty-global-line",
+            "title": "The Internet’s history has just begun",
+            "url": "https://ourworldindata.org/internet-history-just-begun",
             "authors": [
                 "Max Roser"
             ],
-            "imageUrl": "https://ourworldindata.org/uploads/2021/03/Screen-Shot-2021-03-05-at-14.35.22.png"
+            "imageUrl": "https://ourworldindata.org/uploads/2018/09/Share-of-internet-users-768x981.png"
         },
         {
-            "title": "The economies that are home to the poorest billions of people need to grow if we want global poverty to decline substantially",
-            "url": "https://ourworldindata.org/poverty-growth-needed",
+            "title": "The rise of social media",
+            "url": "https://ourworldindata.org/rise-of-social-media",
             "authors": [
-                "Max Roser"
+                "Esteban Ortiz-Ospina"
             ],
-            "imageUrl": "https://ourworldindata.org/uploads/2021/02/Screen-Shot-2021-02-23-at-11.48.16-768x410.png"
+            "imageUrl": "https://ourworldindata.org/default-thumbnail.jpg"
+        },
+        {
+            "title": "Are Facebook and other social media platforms bad for our well-being?",
+            "url": "https://ourworldindata.org/social-media-wellbeing",
+            "authors": [
+                "Esteban Ortiz-Ospina"
+            ],
+            "imageUrl": "https://ourworldindata.org/uploads/2019/09/subjective-well-being-1-v2-768x402.png"
         }
     ],
     "relatedData": [
         {
-            "type": "Data Explorer",
+            "type": "Chart",
             "imageUrl": "",
-            "title": "Poverty Data Explorer of the World Bank Data",
-            "url": "https://ourworldindata.org/explorers/poverty-explorer",
-            "content": "Explore a range of metrics for higher and lower poverty lines."
+            "title": "Number of people using the Internet",
+            "source": "International Telecommunication Union, UN",
+            "url": "https://ourworldindata.org/grapher/number-of-internet-users",
+            "content": "The same metric, shown in absolute numbers."
         },
         {
-            "title": "Number of people living in extreme poverty",
-            "url": "https://ourworldindata.org/grapher/total-population-in-extreme-poverty",
-            "source": "World Bank, PIP",
-            "content": "See data for the <em>total</em> number of people living in extreme poverty"
+            "title": "Share of US adults who use the Internet, by age",
+            "url": "https://ourworldindata.org/grapher/share-us-adults-use-internet-age",
+            "source": "Pew Research Center"
         },
         {
-            "title": "Share of population below 50% of median income or consumption",
-            "url": "https://ourworldindata.org/grapher/relative-poverty-share-of-people-below-50-of-the-median?country=IRN~BEL~DNK~BOL~IDN",
-            "source": "World Bank, PIP",
-            "content":"See poverty rates as measured against a lower relative poverty line"
+            "title": "Landline Internet subscriptions per 100 people",
+            "url": "https://ourworldindata.org/grapher/broadband-penetration-by-country",
+            "source": "International Telecommunication Union"
         },
         {
-            "title": "Share of population living on less than $30 a day",
-            "url": "https://ourworldindata.org/grapher/poverty-share-on-less-than-30-per-day",
-            "source": "World Bank, PIP",
-            "content": "How do estimates compare when we use a higher poverty line, more typical of the lines used in high-income countries?"
+            "title": "Adoption of communication technologies per 100 people",
+            "url": "https://ourworldindata.org/grapher/ict-adoption-per-100-people",
+            "source": "International Telecommunication Union"
         },
         {
-            "title": "Mean income or consumption per day",
-            "url": "https://ourworldindata.org/grapher/daily-mean-income",
-            "source": "World Bank, PIP"
-        },
-        {
-            "title": "Gini coefficient",
-            "url": "https://ourworldindata.org/grapher/economic-inequality-gini-index",
-            "source": "World Bank, PIP"
+            "title": "Daily hours spent with digital media in the United States",
+            "url": "https://ourworldindata.org/grapher/daily-hours-spent-with-digital-media-per-adult-user",
+            "source": "BOND Internet Trends"
         }
     ],
     "relatedCharts": {
@@ -106,32 +111,29 @@
         ]
     },
     "faqs": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
-    "datasetName": "World Bank Poverty and Inequality Platform Dataset – Processed and adapted by Our World in Data",
+    "datasetName": "World Bank World Development Indicators – Processed by Our World in Data",
     "datasetDescription": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
     "datasetVariableProcessingInfo": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
     "datasetFeaturedVariables": [
         {
-            "variableName": "Share of population below 60% of median income or consumption"
+            "variableName": "Share of the population using the Internet"
         },
         {
-            "variableName": "Share of population living on less than $30 a day",
-            "variableSubtitle": "The share of population living below $30 per day. This data is adjusted for inflation and for differences in the cost of living between countries."
+            "variableName": "Mobile cellular subscriptions (per 100 people)"
         },
         {
-            "variableName": "Poverty gap index at $2.15 a day",
-            "variableSubtitle": "A measure that reflects both the prevalence and the depth of poverty, as measured by the International Poverty Line of $2.15 per day. It is calculated as the mean shortfall from the poverty line counting the non-poor as having zero shortfall, and expressed as a percentage of the poverty line."
+            "variableName": "Secure Internet servers (per 1 million people)"
         },
         {
-            "variableName": "Share of income or consumption received by the richest 10%",
-            "variableSubtitle": "The income or consumption received by the richest 10% of households, as a share of the total."
+            "variableName": "Fixed telephone subscriptions (per 100 people)"
         },
         {
-            "variableName": "Median income or consumption per day",
-            "variableSubtitle": "Mean income or consumption per day. This data is adjusted for inflation and for differences in the cost of living between countries."
+            "variableName": "Fixed broadband subscriptions (per 100 people)",
+            "variableSubtitle": "Subscriptions to fixed access to the public Internet with a download speed of at least 256 kbit/s."
         }
     ],
     "datasetSeeAllVariablesLink": {
-        "title": "See all 128 metrics",
+        "title": "See all 500 metrics",
         "url": "https://ourworldindata.org/explorers/co2"
     },
     "datasetCodeUrl": "https://ourworldindata.org/explorers/co2",
@@ -170,10 +172,10 @@
     },
     "sources": [
         {
-            "sourceName": "World Bank Poverty and Inequality Platform",
+            "sourceName": "World Bank World Development Indicators",
             "sourceDescription": "<p>The annually published Global Carbon Budget is a report produced by a community researchers to announce a global carbon budget quantifying carbon dioxide (CO2) emissions for the prior year. The report determines the input of CO2 to the atmosphere by emissions from human activities, balanced by output (storage) in the carbon reservoirs on land or in the ocean. Thanks to the Global Carbon Budget, the research community can better understand and monitor the global carbon cycle, while the report provides a highly valuable resource within a climate policy framework.</p><p>The Global Carbon Budget is done by the researchers of the Global Carbon Project (GCP), including scientists from the ICOS community. The Global Carbon Budget relies on the ICOS data that is available in different global data networks, such as the World Meteorological Organization's Global Atmosphere Watch (WMO GAW) and Surface Ocean CO2 Atlas (SOCAT).<em>More details at https://www.icos-cp.eu/science-and-impact/global-carbon-budget.</em></p>",
-            "sourceRetrievedOn": "2022-10-03",
-            "sourceRetrievedFromUrl": "https://pip.worldbank.org/",
+            "sourceRetrievedOn": "2022-06-02",
+            "sourceRetrievedFromUrl": "https://zenodo.org/record/7215364/files/...",
             "sourceCodeUrl": "https://ourworldindata.org/explorers/co2"
         }
     ],

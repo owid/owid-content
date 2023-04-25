@@ -4,7 +4,7 @@
         2789
     ],
     "title": "Banana production",
-    "googleDocEditLink": "https://docs.google.com/document/d/1VnKSJajJzka-kOqpNMyorX1o_4Ei1NzyNFKybaxkpEY/edit",
+    "googleDocEditLink": "https://docs.google.com/document/d/1XHpp9OU-UHZWD515v3V1KDY-YlSU5_-Hs_4_wGCGm1k/edit",
     "topicTagsLinks": [
         {
             "title": "CO2 and greenhouse gas emissions",
@@ -25,11 +25,11 @@
     "owidProcessingLevel": "<a href>Processed and adapted</a> by Our World in Data",
     "dateRange": "1974-2020",
     "lastUpdated": "2022-10-03",
-    "nextUpdate": "Fall 2023",
-    "subtitle": "Annual production of bananas, measured in tonnes.",
+    "nextUpdate": "2023-05-15",
+    "subtitle": "Annual total production-based emissions of carbon dioxide (CO₂), excluding land-use change, measured in tonnes per person. This is based on territorial emissions, which do not account for emissions embedded in traded goods.",
     "keyInfoText": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
     "descriptionFromSource": {
-        "title": "How does the source – World Bank Poverty and Inequality Platform – describe this metric?",
+        "title": "How does the Poverty and Inequality Platform (PIP) describe this metric?",
         "content": "EDIT IN GDOC: create a heading 1 with the key name 'descriptionFromSource' and add content below it"
     },
     "relatedResearch": [
@@ -119,7 +119,7 @@
         ]
     },
     "faqs": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
-    "datasetName": "Global Carbon Budget Dataset – Processed and adapted by Our World in Data",
+    "datasetName": "<em>Our World in Data’s Collection</em> of the Global Carbon Budget Data ",
     "datasetDescription": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
     "datasetVariableProcessingInfo": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
     "datasetFeaturedVariables": [

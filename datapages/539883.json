@@ -1,125 +1,89 @@
 {
     "status": "draft",
     "showDataPageOnChartIds": [
-        486
+        5572
     ],
-    "title": "Banana production",
-    "googleDocEditLink": "https://docs.google.com/document/d/1kQ5ZXxUhOpnHT1OQtywpc_QvaQtU7nZzk7s-LXvsMSc/edit",
+    "title": "Share of deaths that are registered",
+    "googleDocEditLink": "https://docs.google.com/document/d/1d8kXnxp4RnumPlNmuaos5PRlx0KLpf4sMMB6_nBzNdc/edit",
     "topicTagsLinks": [
         {
-            "title": "CO2 and greenhouse gas emissions",
-            "url": "https://ourworldindata.org/co2-and-greenhouse-gaz-emissions"
-        },
+            "title": "World Population Growth",
+            "url": "https://ourworldindata.org/world-population-growth"
+        }, 
         {
-            "title": "Climate change",
-            "url": "https://ourworldindata.org/climate-change"
-        },
-        {
-            "title": "Energy",
-            "url": "https://ourworldindata.org/energy"
+            "title": "Causes of Death",
+            "url":"https://ourworldindata.org/causes-of-death"
         }
     ],
-    "variantDescription1": "Global Carbon Project",
-    "variantDescription2": "Historical estimates",
-    "nameOfSource": "Global Carbon Project",
-    "owidProcessingLevel": "<a href>Processed and adapted</a> by Our World in Data",
-    "dateRange": "1974-2020",
-    "lastUpdated": "2022-10-03",
-    "nextUpdate": "2023-05-15",
-    "subtitle": "Annual total production-based emissions of carbon dioxide (CO₂), excluding land-use change, measured in tonnes per person. This is based on territorial emissions, which do not account for emissions embedded in traded goods.",
+    "variantDescription1": "Ariel Karlinsky (2021)",
+    "variantDescription2": "",
+    "nameOfSource": "Ariel Karlinsky (2021)",
+    "owidProcessingLevel": "<a href>Processed</a> by Our World in Data",
+    "dateRange": "2015-2019",
+    "lastUpdated": "2022-12-28",
+    "nextUpdate": "Summer 2023",
+    "subtitle": "The number of deaths reported in a country's vital registration system as a share of total expected deaths. Expected deaths are taken as the average of estimates from three international sources: the UN, WHO, and IHME.",
     "keyInfoText": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
     "descriptionFromSource": {
-        "title": "How does the Poverty and Inequality Platform (PIP) describe this metric?",
+        "title": "How does the source – Ariel Karlinsky (2021) – describe this metric?",
         "content": "EDIT IN GDOC: create a heading 1 with the key name 'descriptionFromSource' and add content below it"
     },
     "relatedResearch": [
         {
-            "title": "From $1.90 to $2.15 a day: the updated International Poverty Line",
-            "url": "https://ourworldindata.org/from-1-90-to-2-15-a-day-the-updated-international-poverty-line",
+            "title": "World Population Growth",
+            "url": "https://ourworldindata.org/world-population-growth",
             "authors": [
-                "Joe Hasell"
+                "Max Roser, Hannah Ritchie, Esteban Ortiz-Ospina and Lucas Rodés-Guirao"
             ],
-            "imageUrl": "https://ourworldindata.org/uploads/2022/10/Poverty-line-thumbnail-768x402.png"
+            "imageUrl": "https://ourworldindata.org/uploads/2019/10/Screen-Shot-2019-10-31-at-12.02.19-150x103.png"
         },
         {
-            "title": "Extreme poverty: how far have we come, how far do we still have to go?",
-            "url": "https://ourworldindata.org/extreme-poverty-in-brief",
+            "title": "Causes of death",
+            "url": "https://ourworldindata.org/causes-of-death",
             "authors": [
-                "Max Roser"
+                "Hannah Ritchie, Fiona Spooner, Max Roser"
             ],
-            "imageUrl": "https://ourworldindata.org/uploads/2021/11/Featured-Image-for-the-post-768x422.png"
-        },
-        {
-            "title": "The economies that are home to the poorest billions of people need to grow if we want global poverty to decline substantially",
-            "url": "https://ourworldindata.org/poverty-growth-needed",
-            "authors": [
-                "Max Roser"
-            ],
-            "imageUrl": "https://ourworldindata.org/uploads/2021/02/Screen-Shot-2021-02-23-at-11.48.16-768x410.png"
+            "imageUrl": "https://ourworldindata.org/uploads/2019/12/annual-number-of-deaths-by-cause-3-150x106.png"
         }
     ],
     "relatedData": [
         {
+            "title": "Share of deaths for which the cause is registered",
+            "source": "WHO, Global Health Observatory, 2022",
+            "url": "https://ourworldindata.org/grapher/share-of-deaths-cause-is-registered",
+            "content": "The share of deaths that have been registered with a cause of death."
+        },
+        {
+            "title": "Share of births that are registered",
+            "url": "https://ourworldindata.org/grapher/share-of-births-registered",
+            "source": "UNICEF",
+            "content": "The percentage of children under age 5 whose births were registered at the time of the survey."
+        },
+        {
+            "title": "Deaths registered with an ill-defined cause of death",
+            "url": "https://ourworldindata.org/grapher/deaths-registered-with-an-ill-defined-cause-of-death",
+            "source": "WHO, Global Health Observatory, 2022",
+            "content": "The share of total deaths that were registered with an ill-defined cause of death."
+        },
+        {
+            "title": "World population living in countries with cause-of-death registration",
+            "url": "https://ourworldindata.org/grapher/cause-of-death-registration-population?country=RUS~NZL~EGY~NIC~IRQ~QAT~CHN~USA~DEU~IND~MYS",
+            "source": "WHO, Global Health Observatory, 2022"
+        },
+        {
             "type": "Data Explorer",
-            "imageUrl": "",
-            "title": "CO2 Data Explorer",
-            "source": "Global Carbon Project",
-            "url": "https://ourworldindata.org/explorers/co2",
-            "content": "Compare a range of metrics tracking emissions of  CO2 and other Greenhouse Gas."
-        },
-        {
-            "title": "Consumption-based CO2 emissions per capita",
-            "url": "https://ourworldindata.org/grapher/consumption-co2-per-capita",
-            "source": "PIP",
-            "content": "How do per capita CO2 emissions compare when we adjust for trade?"
-        },
-        {
-            "title": "Annual share of global CO2 emissions",
-            "url": "https://ourworldindata.org/grapher/annual-share-of-co2-emissions",
-            "source": "World Inequality Database",
-            "content": "What share of global CO2 emissions do different countries contribute?"
-        },
-        {
-            "title": "Annual CO2 emissions from land-use change per capita",
-            "url": "https://ourworldindata.org/grapher/co2-land-use-per-capita?country=USA~GBR~European+Union+%2827%29~CHN~IND~AUS~BRA~MEX~IDN",
-            "source": "Global Carbon Project, 2022"
-        },
-        {
-            "title": "Annual CO2 emissions by world region",
-            "url": "https://ourworldindata.org/grapher/annual-co-emissions-by-region",
-            "source": "Global Carbon Project, 2022"
-        },
-        {
-            "title": "Annual CO2 emissions from cement",
-            "url": "https://ourworldindata.org/grapher/annual-co2-cement",
-            "source": "Global Carbon Project, 2022"
+            "title": "Population & Demography Data Explorer",
+            "url": "https://ourworldindata.org/explorers/population-and-demography",
+            "source": "United Nations, World Population Prospects, 2022"
         }
+
     ],
     "relatedCharts": {
         "items": [
-            {
-                "title": "People without clean cooking fuels",
-                "slug": "people-without-clean-cooking-fuels-region"
-            },
-            {
-                "title": "Old-age dependency ratio",
-                "slug": "age-dependency-ratio-old",
-                "variantName": "Historical estimates",
-                "isKeyChart": true
-            },
-            {
-                "title": "Value added in the agricultural sector as of GDP vs GDP per capita",
-                "slug": "value-added-in-the-agricultural-sector-as-of-gdp-vs-gdp-per-capita",
-                "variantName": "World Bank"
-            },
-            {
-                "title": "Number of people employed in agriculture",
-                "slug": "number-of-people-employed-in-agriculture"
-            }
         ]
     },
     "faqs": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
-    "datasetName": "<em>Our World in Data’s Collection</em> of the Global Carbon Budget Data ",
+    "datasetName": "Ariel Karlinsky (2021) – Processed and adapted by Our World in Data",
     "datasetDescription": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
     "datasetVariableProcessingInfo": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
     "datasetFeaturedVariables": [
@@ -183,7 +147,7 @@
     },
     "sources": [
         {
-            "sourceName": "Global Carbon Project",
+            "sourceName": "Ariel Karlinksy (2021)",
             "sourceDescription": "<p>The annually published Global Carbon Budget is a report produced by a community researchers to announce a global carbon budget quantifying carbon dioxide (CO2) emissions for the prior year. The report determines the input of CO2 to the atmosphere by emissions from human activities, balanced by output (storage) in the carbon reservoirs on land or in the ocean. Thanks to the Global Carbon Budget, the research community can better understand and monitor the global carbon cycle, while the report provides a highly valuable resource within a climate policy framework.</p><p>The Global Carbon Budget is done by the researchers of the Global Carbon Project (GCP), including scientists from the ICOS community. The Global Carbon Budget relies on the ICOS data that is available in different global data networks, such as the World Meteorological Organization's Global Atmosphere Watch (WMO GAW) and Surface Ocean CO2 Atlas (SOCAT).<em>More details at https://www.icos-cp.eu/science-and-impact/global-carbon-budget.</em></p>",
             "sourceRetrievedOn": "2021-09-01",
             "sourceRetrievedFromUrl": "https://zenodo.org/record/7215364/files/...",

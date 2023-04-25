@@ -3,196 +3,219 @@
     "showDataPageOnChartIds": [
         373
     ],
-    "title": "Gini coefficient",
+    "title": "Gini Coefficient",
+    "googleDocEditLink": "https://docs.google.com/document/d/1__qnfvbuEsT5EkU-3-TF65jShUuOefyxvy5CUmZRAvI/edit",
     "topicTagsLinks": [
         {
-            "title": "Income Inequality",
+            "title": "Poverty",
+            "url": "https://ourworldindata.org/povertys"
+        },
+        {
+            "title": "Economic Inequality",
             "url": "https://ourworldindata.org/income-inequality"
         }
     ],
     "variantDescription1": "World Bank, PIP",
-    "sourceName": "World Bank, Poverty and Inequality Platform",
-    "owidProcessingLevel": "<a href>Processed and adapted</a> by Our World in Data",
+    "nameOfSource": "World Bank, Poverty and Inequality Platform",
+    "owidProcessingLevel": "<a href>Processed</a> by Our World in Data",
     "dateRange": "1967-2021",
     "lastUpdated": "2022-10-03",
-    "nextUpdate": "2023-6-01",
-    "variableSubtitle": "Inequality, as measured by the Gini coefficient – a measure that ranges between 0 and 1, where higher values indicate higher inequality. Depending on the country and year, the data relates to either disposable income or consumption per capita.",
-    "keyInfoText": "<ul><li>The Gini coefficient is a measure of inequality that ranges between 0 and 1, where higher values indicate higher inequality.  </li><li>Depending on the country and year, the data relates to either disposable income or consumption per capita, depending on the country and year.</li><li>Non-market sources of income, including food grown by subsistence farmers for their own consumption, are taken into account.</li></ul>",
-    "owidProcessingInfo": {
-        "title": "This is how we modified this data",
-        "content": "<em>Description of how we modified this data.</em>"
+    "nextUpdate": "June 2023",
+    "subtitle": "Inequality, as measured by the Gini coefficient – a measure that ranges between 0 and 1, where higher values indicate higher inequality. Depending on the country and year, the data relates to either disposable income or consumption per capita.",
+    "keyInfoText": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
+    "descriptionFromSource": {
+        "title": "[NOT USED]",
+        "content": "EDIT IN GDOC: create a heading 1 with the key name 'descriptionFromSource' and add content below it"
     },
     "relatedResearch": [
         {
-            "title": "From $1.90 to $2.15 a day: the updated International Poverty Line",
-            "url": "https://ourworldindata.org/from-1-90-to-2-15-a-day-the-updated-international-poverty-line",
+            "title": "Is income inequality rising around the world?",
+            "url": "https://ourworldindata.org/income-inequality-since-1990",
             "authors": [
                 "Joe Hasell"
             ],
-            "imageUrl": "https://ourworldindata.org/uploads/2022/10/Poverty-line-thumbnail-768x402.png"
+            "imageUrl": "https://ourworldindata.org/uploads/2018/10/gini-index-around-2015-1990-2015-countries-vs-gini-index-around-1990-1990-2015-countries.png"
         },
         {
-            "title": "Extreme poverty: how far have we come, how far do we still have to go?",
-            "url": "https://ourworldindata.org/extreme-poverty-in-brief",
+            "title": "Global economic inequality: what matters most for your living conditions is not who you are, but where you are?",
+            "url": "https://ourworldindata.org/global-economic-inequality-introduction",
             "authors": [
                 "Max Roser"
             ],
-            "imageUrl": "https://ourworldindata.org/uploads/2021/11/Featured-Image-for-the-post-768x422.png"
+            "imageUrl": "https://ourworldindata.org/uploads/2021/11/Screen-Shot-2021-11-27-at-12.08.06.png"
         },
         {
-            "title": "The economies that are home to the poorest billions of people need to grow if we want global poverty to decline substantially",
-            "url": "https://ourworldindata.org/poverty-growth-needed",
+            "title": "Is trade a major driver of income inequality?",
+            "url": "https://ourworldindata.org/trade-and-income-inequality",
             "authors": [
-                "Max Roser"
+                "Esteban Ortiz-Ospina"
             ],
-            "imageUrl": "https://ourworldindata.org/uploads/2021/02/Screen-Shot-2021-02-23-at-11.48.16-768x410.png"
+            "imageUrl": "https://ourworldindata.org/uploads/2018/07/Top-Incomes.png"
+        },
+        {
+            "title": "Global inequalities in CO₂ emissions, based on consumption",
+            "url": "https://ourworldindata.org/global-inequalities-co2-consumption",
+            "authors": [
+                "Hannah Ritchie"
+            ],
+            "imageUrl": "https://ourworldindata.org/uploads/2018/12/consumption-co2-emissions-vs-population.png"
         }
     ],
     "relatedData": [
         {
             "type": "Data Explorer",
             "imageUrl": "",
-            "title": "CO2 Data Explorer",
-            "source": "Global Carbon Project",
-            "url": "https://ourworldindata.org/explorers/co2",
-            "content": "Compare a range of metrics tracking emissions of  CO2 and other Greenhouse Gas."
+            "title": "Inequality Data Explorer of the World Bank Data",
+            "url": "https://ourworldindata.org/explorers/poverty-explorer",
+            "content": "Explore a range of inequality metrics from the World Bank data."
         },
         {
-            "title": "Consumption-based CO2 emissions per capita",
-            "url": "https://ourworldindata.org/grapher/consumption-co2-per-capita",
-            "source": "PIP",
-            "content": "How do per capita CO2 emissions compare when we adjust for trade?"
+            "title": "Income share of the top 10% ",
+            "url": "https://ourworldindata.org/grapher/income-share-of-the-top-10-pip?country=BRA~FRA~CHN~ZAF",
+            "source": "World Bank, PIP",
+            "content": "See World Bank data for another common metric of inequality"
         },
         {
-            "title": "Annual share of global CO2 emissions",
-            "url": "https://ourworldindata.org/grapher/annual-share-of-co2-emissions",
-            "source": "World Inequality Database",
-            "content": "What share of global CO2 emissions do different countries contribute?"
+            "title": "Income share of the top 1%",
+            "url": "https://ourworldindata.org/grapher/income-share-of-the-top-1-pretax-national-income?tab=map",
+            "source": "Before tax | World Inequality Database",
+            "content": "Inequality estimates from the World Inequality Database aim to provide better estimates of the very top of the income distribution."
         },
         {
-            "title": "Annual CO2 emissions from land-use change per capita",
-            "url": "https://ourworldindata.org/grapher/co2-land-use-per-capita?country=USA~GBR~European+Union+%2827%29~CHN~IND~AUS~BRA~MEX~IDN",
-            "source": "Global Carbon Project, 2022"
+            "title": "Share of population below 60% of median income or consumption",
+            "url": "https://ourworldindata.org/grapher/relative-poverty-share-of-people-below-60-of-the-median",
+            "source": "World Bank, PIP"
         },
         {
-            "title": "Annual CO2 emissions by world region",
-            "url": "https://ourworldindata.org/grapher/annual-co-emissions-by-region",
-            "source": "Global Carbon Project, 2022"
+            "title": "Mean income or consumption per day",
+            "url": "https://ourworldindata.org/grapher/daily-mean-income",
+            "source": "World Bank, PIP"
         },
         {
-            "title": "Annual CO2 emissions from cement",
-            "url": "https://ourworldindata.org/grapher/annual-co2-cement",
-            "source": "Global Carbon Project, 2022"
+            "title": "Share of population in extreme poverty",
+            "url": "https://ourworldindata.org/grapher/share-of-population-in-extreme-poverty",
+            "source": "World Bank, PIP"
         }
     ],
     "relatedCharts": {
+        "title": "Explore charts that include this data",
         "items": [
             {
-                "title": "People without clean cooking fuels",
-                "slug": "people-without-clean-cooking-fuels-region"
+                "title": "Extreme poverty and child mortality",
+                "slug": "poverty-and-child-mortality"
             },
             {
-                "title": "Old-age dependency ratio",
-                "slug": "age-dependency-ratio-old",
-                "variantName": "Historical estimates",
-                "isKeyChart": true
+                "title": "Share of population living in extreme poverty vs GDP per capita ",
+                "slug": "the-share-of-people-living-in-extreme-poverty-vs-gdp-per-capita"
             },
             {
-                "title": "Value added in the agricultural sector as of GDP vs GDP per capita",
-                "slug": "value-added-in-the-agricultural-sector-as-of-gdp-vs-gdp-per-capita",
-                "variantName":"World Bank"
+                "title": "Share of population living with less than $2.15 and $3.65 per day ",
+                "slug": "share-of-population-living-with-less-than-190-and-320-per-day"
             },
             {
-                "title": "Number of people employed in agriculture",
-                "slug": "number-of-people-employed-in-agriculture"
+                "title": "How does extreme monetary poverty compare to multidimensional poverty?",
+                "slug": "MPI-vs-Consumption"
+            },
+            {
+                "title": "How does extreme monetary poverty compare to multidimensional poverty?",
+                "slug": "MPI-vs-Consumption"
+            },
+            {
+                "title": "Comparison of extreme poverty estimates, World Bank PIP vs Bradshaw & Mayhew (2011)",
+                "slug": "comparison-extreme-poverty-rich-countries"
+            },
+            {
+                "title": "Share in extreme poverty vs. poverty gap index",
+                "slug": "poverty-headcount-rate-vs-poverty-gap"
+            },
+            {
+                "title": "CO₂ emissions per capita vs. share in extreme poverty",
+                "slug": "co-emissions-per-capita-vs-the-share-of-people-living-in-extreme-poverty"
+            },
+            {
+                "title": "Energy use per capita vs. share in extreme poverty",
+                "slug": "energy-use-per-capita-vs-share-of-population-in-extreme-poverty"
+            },
+            {
+                "title": "Child mortality vs. share in extreme poverty",
+                "slug": "extreme-poverty-vs-child-mortality"
+            },
+            {
+                "title": "Prevalence of undernourishment vs. share in extreme poverty ",
+                "slug": "prevalence-of-undernourishment-vs-share-of-population-living-in-absolute-poverty"
             }
         ]
     },
-    "faqsGoogleDocEditLink": "https://docs.google.com/document/d/1grxiYxwchZfVV8EgGoS6KOQ3Az3ukaQO0IE2CPGG7CE/edit",
-    "dataset": {
-        "datasetName": "<em>Our World in Data’s Collection</em> of the Global Carbon Budget Data ",
-        "datasetDescription": "<p>Variables include each country, region and World Bank income group's share of the global population; production-based (territorial); and consumption-based (trade-adjusted) carbon dioxide emissions.</p><p>This was calculated by Our World in Data based on CO₂ figures produced by the Global Carbon Project. This is given as production (territorial) emissions in addition to trade-adjusted consumption-based emissions. Consumption-based emissions are national or regional emissions which have been adjusted for trade (i.e. territorial/production emissions minus emissions embedded in exports, plus emissions embedded in imports). If a country's consumption-based emissions are higher than its production emissions it is a net importer of carbon dioxide.Note that consumption-based emissions are not available for all countries; although those without complete data are a small fraction (3%) of the global total. Each country's share of world emissions are based on the share of the global total minus categories termed 'bunkers' and 'statistical differences' (which include cross-boundary emissions such as international travel and shipping.Calculation of each country's share of the global population is calculated using our population dataset, based on different sources).Data on global emissions has been converted by Our World in Data from tonnes of carbon to tonnes of carbon dioxide (CO₂) using a conversion factor of 3.664.Our World in Data have renamed bunker fuels as \"International transport\" for improved clarity, which includes emissions from international aviation and shipping.Emissions from the Kuwaiti oil fires in 1991 have been included as part of Kuwait's emissions for that year.</p>",
-        "featuredVariables": [
+    "faqs": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
+    "datasetName": "World Bank Poverty and Inequality Platform Dataset – Processed and adapted by Our World in Data",
+    "datasetDescription": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
+    "datasetVariableProcessingInfo": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
+    "datasetFeaturedVariables": [
+        {
+            "variableName": "Gini coefficient"
+        },
+        {
+            "variableName": "Share of population living on less than $30 a day",
+            "variableSubtitle": "The share of population living below $30 per day. This data is adjusted for inflation and for differences in the cost of living between countries."
+        },
+        {
+            "variableName": "Poverty gap index at $2.15 a day",
+            "variableSubtitle": "A measure that reflects both the prevalence and the depth of poverty, as measured by the International Poverty Line of $2.15 per day. It is calculated as the mean shortfall from the poverty line counting the non-poor as having zero shortfall, and expressed as a percentage of the poverty line."
+        },
+        {
+            "variableName": "Share of income or consumption received by the richest 10%",
+            "variableSubtitle": "The income or consumption received by the richest 10% of households, as a share of the total."
+        },
+        {
+            "variableName": "Median income or consumption per day",
+            "variableSubtitle": "Mean income or consumption per day. This data is adjusted for inflation and for differences in the cost of living between countries."
+        }
+    ],
+    "datasetSeeAllVariablesLink": {
+        "title": "See all 100+ metrics",
+        "url": "https://ourworldindata.org/explorers/co2"
+    },
+    "datasetCodeUrl": "https://ourworldindata.org/explorers/co2",
+    "datasetDownloadOptions": {
+        "basic": [
             {
-                "variableName": "Annual CO₂ emissions per capita"
-            },
-            {
-                "variableName": "Annual consumption-based CO₂ emissions",
-                "variableSubtitle": "CO₂ emissions from fossil fuels and industry, adjusted for trade"
-            },
-            {
-                "variableName": "Annual CO₂ emissions from cement",
-                "variableSubtitle": "CO₂ emissions from cement production"
-            },
-            {
-                "variableName": "Annual CO₂ emissions from land-use change per capita",
-                "variableSubtitle": "CO₂ emissions from land-use change"
-            },
-            {
-                "variableName": "Annual share of global CO₂ emissions",
-                "variableSubtitle": "Share of global CO₂ emissions"
+                "csv": {
+                    "description": "Some kind of explanation of what CSVs are used for.",
+                    "url": "https://ourworldindata.org/exports/annual-co2-emissions-per-country-da8ccccaf5fc9d6bab92c3527f0cc596_v44.csv"
+                },
+                "xls": {
+                    "description": "Some kind of explanation of what XLSs are used for.",
+                    "url": "https://ourworldindata.org/exports/annual-co2-emissions-per-country-da8ccccaf5fc9d6bab92c3527f0cc596_v44.xls"
+                }
             }
         ],
-        "seeAllVariablesLink": {
-            "title": "See all 128 metrics",
-            "url": "https://ourworldindata.org/explorers/co2"
-        },
-        "codeUrl": "https://ourworldindata.org/explorers/co2",
-        "datasetDownloadOptions": {
-            "basic": [
-                {
-                    "csv": {
-                        "description": "Some kind of explanation of what CSVs are used for.",
-                        "url": "https://ourworldindata.org/exports/annual-co2-emissions-per-country-da8ccccaf5fc9d6bab92c3527f0cc596_v44.csv"
-                    },
-                    "xls": {
-                        "description": "Some kind of explanation of what XLSs are used for.",
-                        "url": "https://ourworldindata.org/exports/annual-co2-emissions-per-country-da8ccccaf5fc9d6bab92c3527f0cc596_v44.xls"
-                    }
-                }
-            ],
-            "advanced": [
-                {
-                    "type": "code",
-                    "title": "Python",
-                    "description": "",
-                    "codeSnippet": "<pre>from owid import catalog</pre>"
-                },
-                {
-                    "type": "url",
-                    "title": "URL",
-                    "description": "",
-                    "url": "https://ourworldindata.org/co2-and-greenhouse-gaz-emissions.csv"
-                }
-            ]
-        },
-        "datasetCitation": "Global Carbon Project. (2022). Supplemental data of Global Carbon Budget 2022 (Version 1.0) [Data set]. Global Carbon Project. https://doi.org/10.18160/gcp-2022",
-        "datasetLicenseLink": {
-            "title": "CC BY 4.0",
-            "url": "https://creativecommons.org/licenses/by/4.0/"
-        }
+        "advanced": [
+            {
+                "type": "code",
+                "title": "Python",
+                "description": "",
+                "codeSnippet": "<pre>from owid import catalog</pre>"
+            },
+            {
+                "type": "url",
+                "title": "URL",
+                "description": "",
+                "url": "https://ourworldindata.org/co2-and-greenhouse-gaz-emissions.csv"
+            }
+        ]
+    },
+    "datasetCitation": "Global Carbon Project. (2022). Supplemental data of Global Carbon Budget 2022 (Version 1.0) [Data set]. Global Carbon Project. https://doi.org/10.18160/gcp-2022",
+    "datasetLicenseLink": {
+        "title": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
     },
     "sources": [
         {
-            "name": "Global Carbon Project",
-            "description": "<p>The annually published Global Carbon Budget is a report produced by a community researchers to announce a global carbon budget quantifying carbon dioxide (CO2) emissions for the prior year. The report determines the input of CO2 to the atmosphere by emissions from human activities, balanced by output (storage) in the carbon reservoirs on land or in the ocean. Thanks to the Global Carbon Budget, the research community can better understand and monitor the global carbon cycle, while the report provides a highly valuable resource within a climate policy framework.</p><p>The Global Carbon Budget is done by the researchers of the Global Carbon Project (GCP), including scientists from the ICOS community. The Global Carbon Budget relies on the ICOS data that is available in different global data networks, such as the World Meteorological Organization's Global Atmosphere Watch (WMO GAW) and Surface Ocean CO2 Atlas (SOCAT).<em>More details at https://www.icos-cp.eu/science-and-impact/global-carbon-budget.</em></p>",
-            "retrievedOn": "2021-09-01",
-            "nextUpdate": "2023-05-15",
-            "retrievedFromUrl": "https://zenodo.org/record/7215364/files/...",
-            "codeUrl": "https://ourworldindata.org/explorers/co2",
-            "sourceCitation": "Global Carbon Project. (2022). Supplemental data of Global Carbon Budget 2022 (Version 1.0) [Data set]. Global Carbon Project. https://doi.org/10.18160/gcp-2022",
-            "licenseLink": {
-                "title": "CC BY 4.0",
-                "url": "https://creativecommons.org/licenses/by/4.0/"
-            }
-        },
-        {
-            "name": "Hypothetical source 2",
-            "description": "<p>The annually published Global Carbon Budget is a report produced by a community researchers to announce a global carbon budget quantifying carbon dioxide (CO2) emissions for the prior year. The report determines the input of CO2 to the atmosphere by emissions from human activities, balanced by output (storage) in the carbon reservoirs on land or in the ocean. Thanks to the Global Carbon Budget, the research community can better understand and monitor the global carbon cycle, while the report provides a highly valuable resource within a climate policy framework.</p><p>The Global Carbon Budget is done by the researchers of the Global Carbon Project (GCP), including scientists from the ICOS community. The Global Carbon Budget relies on the ICOS data that is available in different global data networks, such as the World Meteorological Organization's Global Atmosphere Watch (WMO GAW) and Surface Ocean CO2 Atlas (SOCAT).<em>More details at https://www.icos-cp.eu/science-and-impact/global-carbon-budget.</em></p>"
-        },
-        {
-            "name": "Hypothetical source 3",
-            "description": "<p>The annually published Global Carbon Budget is a report produced by a community researchers to announce a global carbon budget quantifying carbon dioxide (CO2) emissions for the prior year. The report determines the input of CO2 to the atmosphere by emissions from human activities, balanced by output (storage) in the carbon reservoirs on land or in the ocean. Thanks to the Global Carbon Budget, the research community can better understand and monitor the global carbon cycle, while the report provides a highly valuable resource within a climate policy framework.</p><p>The Global Carbon Budget is done by the researchers of the Global Carbon Project (GCP), including scientists from the ICOS community. The Global Carbon Budget relies on the ICOS data that is available in different global data networks, such as the World Meteorological Organization's Global Atmosphere Watch (WMO GAW) and Surface Ocean CO2 Atlas (SOCAT).<em>More details at https://www.icos-cp.eu/science-and-impact/global-carbon-budget.</em></p>"
+            "sourceName": "World Bank Poverty and Inequality Platform",
+            "sourceDescription": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
+            "sourceRetrievedOn": "2022-10-03",
+            "sourceRetrievedFromUrl": "https://pip.worldbank.org/",
+            "sourceCodeUrl": "https://ourworldindata.org/explorers/co2"
         }
     ],
     "anomaliesListText": "In a <a href=\"https://ourworldindata.org\">separate article</a>, we discuss some unexpected or seemingly anomalous datapoints in this data that have come to our attention."

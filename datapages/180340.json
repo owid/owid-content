@@ -1,0 +1,149 @@
+{
+    "status": "draft",
+    "showDataPageOnChartIds": [
+        5476
+    ],
+    "title": "Annual number of objects launched into space",
+    "googleDocEditLink": "https://docs.google.com/document/d/1AjDyphxx0Upegp0EhAFPgokji_dhL_WoeHIPZAzXAMg/edit",
+    "topicTagsLinks": [
+        {
+            "title": "Space Exploration and Satellites",
+            "url": "https://ourworldindata.org/space-exploration-satellites"
+        },
+        {
+            "title": "Technological Change",
+            "url": "https://ourworldindata.org/technological-change"
+        },
+        {
+            "title": "Research and Development",
+            "url": "https://ourworldindata.org/research-and-development"
+        }
+    ],
+    "variantDescription1": "United Nations",
+    "nameOfSource": "United Nations Office for Outer Space Affairs, Online Index of Objects Launched into Outer Space",
+    "owidProcessingLevel": "<a href>Processed and adapted</a> by Our World in Data",
+    "dateRange": "1957-2022",
+    "lastUpdated": "2023-01-03",
+    "nextUpdate": "January 2024",
+    "subtitle": "Annual number of satellites, probes, landers, crewed spacecrafts, and space station flight elements, launched into Earth orbit or beyond.",
+    "keyInfoText": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
+    "descriptionFromSource": {
+        "title": "How does the source – the United Nations Office for Outer Space Affairs – describe this metric?",
+        "content": "EDIT IN GDOC: create a heading 1 with the key name 'descriptionFromSource' and add content below it"
+    },
+    "relatedResearch": [],
+    "relatedData": [
+        {
+            "type": "Chart",
+            "imageUrl": "",
+            "title": "Cumulative number of objects launched into space",
+            "source": "United Nations",
+            "url": "https://ourworldindata.org/grapher/cumulative-number-of-objects-launched-into-outer-space",
+            "content": "The cumulative version of this data."
+        },
+        {
+            "title": "Number of payloads and rocket bodies in space, by orbit",
+            "url": "https://ourworldindata.org/grapher/space-objects-by-orbit",
+            "source": "United States Space Force"
+        },
+        {
+            "title": "Number of tracked objects in low Earth orbit, by type",
+            "url": "https://ourworldindata.org/grapher/low-earth-orbits-objects",
+            "source": "United States Space Force"
+        },
+        {
+            "title": "Cost of space launches to low Earth orbit",
+            "url": "https://ourworldindata.org/grapher/cost-space-launches-low-earth-orbit",
+            "source": "CSIS"
+        },
+        {
+            "title": "Annual number of human visits to space",
+            "url": "https://ourworldindata.org/grapher/annual-space-visits",
+            "source": "CSIS"
+        }
+    ],
+    "relatedCharts": {
+        "items": [
+            {
+                "title": "People without clean cooking fuels",
+                "slug": "people-without-clean-cooking-fuels-region"
+            },
+            {
+                "title": "Old-age dependency ratio",
+                "slug": "age-dependency-ratio-old",
+                "variantName": "Historical estimates",
+                "isKeyChart": true
+            },
+            {
+                "title": "Value added in the agricultural sector as of GDP vs GDP per capita",
+                "slug": "value-added-in-the-agricultural-sector-as-of-gdp-vs-gdp-per-capita",
+                "variantName": "World Bank"
+            },
+            {
+                "title": "Number of people employed in agriculture",
+                "slug": "number-of-people-employed-in-agriculture"
+            }
+        ]
+    },
+    "faqs": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
+    "datasetName": "United Nations - Online Index of Objects Launched into Outer Space – Processed and adapted by Our World in Data",
+    "datasetDescription": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
+    "datasetVariableProcessingInfo": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
+    "datasetFeaturedVariables": [
+        {
+            "variableName": "Annual number of objects launched into space"
+        },
+        {
+            "variableName": "Cumulative number of objects launched into space",
+            "variableSubtitle": "The cumulative version of this variable."
+        }
+    ],
+    "datasetSeeAllVariablesLink": {
+        "title": "See all 128 metrics",
+        "url": "https://ourworldindata.org/explorers/co2"
+    },
+    "datasetCodeUrl": "https://ourworldindata.org/explorers/co2",
+    "datasetDownloadOptions": {
+        "basic": [
+            {
+                "csv": {
+                    "description": "Some kind of explanation of what CSVs are used for.",
+                    "url": "https://ourworldindata.org/exports/annual-co2-emissions-per-country-da8ccccaf5fc9d6bab92c3527f0cc596_v44.csv"
+                },
+                "xls": {
+                    "description": "Some kind of explanation of what XLSs are used for.",
+                    "url": "https://ourworldindata.org/exports/annual-co2-emissions-per-country-da8ccccaf5fc9d6bab92c3527f0cc596_v44.xls"
+                }
+            }
+        ],
+        "advanced": [
+            {
+                "type": "code",
+                "title": "Python",
+                "description": "",
+                "codeSnippet": "<pre>from owid import catalog</pre>"
+            },
+            {
+                "type": "url",
+                "title": "URL",
+                "description": "",
+                "url": "https://ourworldindata.org/co2-and-greenhouse-gaz-emissions.csv"
+            }
+        ]
+    },
+    "datasetCitation": "Global Carbon Project. (2022). Supplemental data of Global Carbon Budget 2022 (Version 1.0) [Data set]. Global Carbon Project. https://doi.org/10.18160/gcp-2022",
+    "datasetLicenseLink": {
+        "title": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "sources": [
+        {
+            "sourceName": "United Nations Office for Outer Space Affairs, Online Index of Objects Launched into Outer Space",
+            "sourceDescription": "<p>The Online Index of Objects Launched into Outer Space is a register of objects launched into outer space maintained by the United Nations Office for Outer Space Affairs since 1962.</p>",
+            "sourceRetrievedOn": "2023-01-03",
+            "sourceRetrievedFromUrl": "https://www.unoosa.org/oosa/osoindex/search-ng.jspx",
+            "sourceCodeUrl": "https://github.com/owid/notebooks/tree/main/EdouardMathieu/2021_12_outer_space_objects"
+        }
+    ],
+    "anomaliesListText": "In a <a href=\"https://ourworldindata.org\">separate article</a>, we discuss some unexpected or seemingly anomalous datapoints in this data that have come to our attention."
+}

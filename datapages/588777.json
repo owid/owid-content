@@ -1,35 +1,29 @@
 {
     "status": "draft",
     "showDataPageOnChartIds": [
-        486
+        4013
     ],
-    "title": "Banana production",
-    "googleDocEditLink": "https://docs.google.com/document/d/1kQ5ZXxUhOpnHT1OQtywpc_QvaQtU7nZzk7s-LXvsMSc/edit",
+    "title": "Tomato production",
+    "googleDocEditLink": "https://docs.google.com/document/d/1jy2LioYXsu_zqUz6M_u-3q-VdaDaktauAQxoyeeKUcg/edit",
     "topicTagsLinks": [
         {
-            "title": "CO2 and greenhouse gas emissions",
-            "url": "https://ourworldindata.org/co2-and-greenhouse-gaz-emissions"
+            "title": "Crop Yields",
+            "url": "https://ourworldindata.org/crop-yieldss"
         },
         {
-            "title": "Climate change",
-            "url": "https://ourworldindata.org/climate-change"
-        },
-        {
-            "title": "Energy",
-            "url": "https://ourworldindata.org/energy"
+            "title": "Agricultural Production",
+            "url": "https://ourworldindata.org/agricultural-production"
         }
     ],
-    "variantDescription1": "Global Carbon Project",
-    "variantDescription2": "Historical estimates",
-    "nameOfSource": "Global Carbon Project",
-    "owidProcessingLevel": "<a href>Processed and adapted</a> by Our World in Data",
-    "dateRange": "1974-2020",
-    "lastUpdated": "2022-10-03",
-    "nextUpdate": "2023-05-15",
-    "subtitle": "Annual total production-based emissions of carbon dioxide (CO₂), excluding land-use change, measured in tonnes per person. This is based on territorial emissions, which do not account for emissions embedded in traded goods.",
+    "variantDescription1": "FAO",
+    "nameOfSource": "Food and Agriculture Organization of the United Nations",
+    "owidProcessingLevel": "<a href>Processed</a> by Our World in Data",
+    "dateRange": "1961-2021",
+    "lastUpdated": "2023-02-22",
+    "nextUpdate": "Spring 2024",
     "keyInfoText": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
     "descriptionFromSource": {
-        "title": "How does the Poverty and Inequality Platform (PIP) describe this metric?",
+        "title": "How does the source – FAO – describe this metric?",
         "content": "EDIT IN GDOC: create a heading 1 with the key name 'descriptionFromSource' and add content below it"
     },
     "relatedResearch": [
