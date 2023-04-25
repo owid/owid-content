@@ -21,74 +21,64 @@
     "subtitle": "The Living Planet Index (LPI) measures the average decline in monitored wildlife populations. The index value measures the change in abundance in 31,821 populations across 5,230 species relative to the year 1970 (i.e. 1970 = 100%).",
     "keyInfoText": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
     "descriptionFromSource": {
-        "title": "How does the source – World Bank Poverty and Inequality Platform – describe this metric?",
+        "title": "How does the source – Zoological Society of London – describe this metric?",
         "content": "EDIT IN GDOC: create a heading 1 with the key name 'descriptionFromSource' and add content below it"
     },
     "relatedResearch": [
         {
-            "title": "From $1.90 to $2.15 a day: the updated International Poverty Line",
-            "url": "https://ourworldindata.org/from-1-90-to-2-15-a-day-the-updated-international-poverty-line",
+            "title": "Living Planet Index: what does an average decline of 69% really mean?",
+            "url": "https://ourworldindata.org/living-planet-index-decline",
             "authors": [
-                "Joe Hasell"
+                "Hannah Ritchie"
             ],
-            "imageUrl": "https://ourworldindata.org/uploads/2022/10/Poverty-line-thumbnail-768x402.png"
+            "imageUrl": "https://ourworldindata.org/uploads/2021/03/Living-Planet-Index-thumbnail-800x421.png"
         },
         {
-            "title": "Extreme poverty: how far have we come, how far do we still have to go?",
-            "url": "https://ourworldindata.org/extreme-poverty-in-brief",
+            "title": "How the Living Planet project helps us understand how the world’s wildlife is changing",
+            "url": "https://ourworldindata.org/living-planet-index-understanding",
             "authors": [
-                "Max Roser"
+                "Hannah Ritchie"
             ],
-            "imageUrl": "https://ourworldindata.org/uploads/2021/11/Featured-Image-for-the-post-768x422.png"
+            "imageUrl": "https://ourworldindata.org/uploads/2022/11/Living-planet-index-shares-increasing-declining-thumbnail-800x419.png"
         },
         {
-            "title": "The economies that are home to the poorest billions of people need to grow if we want global poverty to decline substantially",
-            "url": "https://ourworldindata.org/poverty-growth-needed",
+            "title": "How does the Living Planet Index vary by region?",
+            "url": "https://ourworldindata.org/living-planet-index-region",
             "authors": [
-                "Max Roser"
+                "Hannah Ritchie"
             ],
-            "imageUrl": "https://ourworldindata.org/uploads/2021/02/Screen-Shot-2021-02-23-at-11.48.16-768x410.png"
+            "imageUrl": "https://ourworldindata.org/uploads/2022/10/Living-planet-index-region-thumbnail-800x419.png"
+        },
+        {
+            "title": "FAQs on the Living Planet Index",
+            "url": "https://ourworldindata.org/faq-living-planet-index",
+            "authors": [
+                "Hannah Ritchie"
+            ],
+            "imageUrl": "https://ourworldindata.org/uploads/2021/03/Living-Planet-Index-thumbnail-800x421.png"
         }
     ],
     "relatedData": [
         {
             "type": "Data Explorer",
             "imageUrl": "",
-            "title": "CO2 Data Explorer",
-            "source": "Global Carbon Project",
-            "url": "https://ourworldindata.org/explorers/co2",
-            "content": "Compare a range of metrics tracking emissions of  CO2 and other Greenhouse Gas."
+            "title": "Habitat Loss Data Explorer",
+            "source": "Williams et al. (2021)",
+            "url": "https://ourworldindata.org/explorers/habitat-loss",
+            "content": "Explore projections of species' habitat loss, and the impact of dietary and agricultural interventions."
         },
         {
-            "title": "Consumption-based CO2 emissions per capita",
-            "url": "https://ourworldindata.org/grapher/consumption-co2-per-capita",
-            "source": "PIP",
-            "content": "How do per capita CO2 emissions compare when we adjust for trade?"
-        },
-        {
-            "title": "Annual share of global CO2 emissions",
-            "url": "https://ourworldindata.org/grapher/annual-share-of-co2-emissions",
-            "source": "World Inequality Database",
-            "content": "What share of global CO2 emissions do different countries contribute?"
-        },
-        {
-            "title": "Annual CO2 emissions from land-use change per capita",
-            "url": "https://ourworldindata.org/grapher/co2-land-use-per-capita?country=USA~GBR~European+Union+%2827%29~CHN~IND~AUS~BRA~MEX~IDN",
-            "source": "Global Carbon Project, 2022"
-        },
-        {
-            "title": "Annual CO2 emissions by world region",
-            "url": "https://ourworldindata.org/grapher/annual-co-emissions-by-region",
-            "source": "Global Carbon Project, 2022"
-        },
-        {
-            "title": "Annual CO2 emissions from cement",
-            "url": "https://ourworldindata.org/grapher/annual-co2-cement",
-            "source": "Global Carbon Project, 2022"
+            "type": "Data Explorer",
+            "title": "Fish Stocks Data Explorer",
+            "url": "https://ourworldindata.org/explorers/fish-stocks",
+            "source": "RAM Legacy Stock Assessment Database.",
+            "content": "Explore available data on the world's fish stocks."
         }
     ],
     "relatedCharts": {
         "items": [
+            
+            
             {
                 "title": "People without clean cooking fuels",
                 "slug": "people-without-clean-cooking-fuels-region"
