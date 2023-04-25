@@ -9,6 +9,10 @@
         {
             "title": "World Population Growth",
             "url": "https://ourworldindata.org/world-population-growth"
+        }, 
+        {
+            "title": "Causes of death",
+            "url":"https://ourworldindata.org/causes-of-death"
         }
     ],
     "variantDescription1": "Karlinsky (2021)",
