@@ -87,7 +87,7 @@
          {
             "title": "Number of species evaluated for their level of extinction risk",
             "slug": "https://ourworldindata.org/grapher/number-species-evaluated-iucn",
-            "variantName": "International Union for Conservation of Nature"
+            "source": "International Union for Conservation of Nature"
             }  
         
     ],
