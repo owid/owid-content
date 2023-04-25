@@ -1,3 +1,6 @@
 # Jupyter notebook and checkpoints.
 *.ipynb
 .ipynb_checkpoints
+
+# pycache folders
+__pycache__/

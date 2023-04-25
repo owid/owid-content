@@ -10,7 +10,7 @@ import numpy as np
 # %%
 import pandas as pd
 
-PARENT_DIR = Path(__file__).parent.parent.parent.absolute()
+PARENT_DIR = Path(__file__).parent.parent.parent.parent.absolute()
 outfile = PARENT_DIR / "explorers" / "poverty-explorer-expanded.explorer.tsv"
 
 # %% [markdown]
@@ -46,7 +46,7 @@ header_dict = {
     "explorerTitle": "Poverty Data Explorer of World Bank data: Expanded metrics",
     "selection": ["Mozambique", "Nigeria", "Kenya", "Bangladesh", "Bolivia", "World"],
     "explorerSubtitle": "<i><a href='https://github.com/owid/poverty-data'>Download Poverty data on GitHub</a></i>",
-    "isPublished": "false",
+    "isPublished": "true",
     "googleSheet": f"https://docs.google.com/spreadsheets/d/{sheet_id}",
     "wpBlockId": "52633",
     "entityType": "country or region",

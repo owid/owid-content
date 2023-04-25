@@ -10,7 +10,7 @@ import numpy as np
 # %%
 import pandas as pd
 
-PARENT_DIR = Path(__file__).parent.parent.parent.absolute()
+PARENT_DIR = Path(__file__).parent.parent.parent.parent.absolute()
 outfile = PARENT_DIR / "explorers" / "pip-inequality-explorer.explorer.tsv"
 
 # %% [markdown]
@@ -48,10 +48,11 @@ header_dict = {
         "China",
     ],
     "explorerSubtitle": "<i><a href='https://github.com/owid/poverty-data'>Download inequality data on GitHub</a></i>",
-    "isPublished": "false",
+    "isPublished": "true",
     "googleSheet": f"https://docs.google.com/spreadsheets/d/{sheet_id}",
     "wpBlockId": "52633",
     "entityType": "country or region",
+    "pickerColumnSlugs": "gini decile10_share palma_ratio headcount_ratio_50_median",
 }
 
 # Index-oriented dataframe

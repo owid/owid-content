@@ -10,7 +10,7 @@ import numpy as np
 # %%
 import pandas as pd
 
-PARENT_DIR = Path(__file__).parent.parent.parent.absolute()
+PARENT_DIR = Path(__file__).parent.parent.parent.parent.absolute()
 outfile = PARENT_DIR / "explorers" / "inequality.explorer.tsv"
 
 # %% [markdown]
@@ -18,14 +18,18 @@ outfile = PARENT_DIR / "explorers" / "inequality.explorer.tsv"
 # These spreadsheets provide with different details depending on each type of welfare measure or tables considered.
 
 # %%
-# LUXEMBOURG INCOME STUDY
+# MULTI-SOURCE
 # Read Google sheets
-sheet_id = "1UFdwB1iBpP2tEP6GtxCHvW1GGhjsFflh42FWR80rYIg"
+sheet_id = "1wcFsNZCEn_6SJ05BFkXKLUyvCrnigfR8eeemGKgAYsI"
 
-# All the tables sheet (this contains PIP, WID and LIS dataset information, it is located in the LIS spreadsheet because there is no unified sheet for this)
+# All the tables sheet (this contains PIP, WID and LIS dataset information)
 sheet_name = "all_the_tables"
 url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
 all_the_tables = pd.read_csv(url, keep_default_na=False)
+
+# LUXEMBOURG INCOME STUDY
+# Read Google sheets
+sheet_id = "1UFdwB1iBpP2tEP6GtxCHvW1GGhjsFflh42FWR80rYIg"
 
 # Welfare type sheet
 sheet_name = "welfare"
@@ -92,10 +96,11 @@ header_dict = {
         "China",
     ],
     "explorerSubtitle": "",
-    "isPublished": "false",
+    "isPublished": "true",
     "googleSheet": "",
     "wpBlockId": "",
     "entityType": "country or region",
+    "pickerColumnSlugs": "gini decile10_share palma_ratio headcount_ratio_50_median p0p100_gini_pretax p90p100_share_pretax palma_ratio_pretax p0p100_gini_posttax_dis p90p100_share_posttax_dis palma_ratio_posttax_dis gini_mi_eq share_p100_mi_eq palma_ratio_mi_eq headcount_ratio_50_median_mi_eq gini_dhi_eq share_p100_dhi_eq palma_ratio_dhi_eq headcount_ratio_50_median_dhi_eq",
 }
 
 # Index-oriented dataframe
@@ -128,7 +133,7 @@ j = 0
 
 for survey in range(len(pip_tables)):
     # Gini coefficient
-    df_tables_pip.loc[j, "name"] = f"Gini coefficient"
+    df_tables_pip.loc[j, "name"] = f"Gini coefficient (PIP)"
     df_tables_pip.loc[j, "slug"] = f"gini"
     df_tables_pip.loc[
         j, "description"
@@ -147,7 +152,7 @@ for survey in range(len(pip_tables)):
     # Share of the top 10%
     df_tables_pip.loc[
         j, "name"
-    ] = f"Share of the richest decile in total {pip_tables.text[survey]}"
+    ] = f"Share of the richest decile in total {pip_tables.text[survey]} (PIP)"
     df_tables_pip.loc[j, "slug"] = f"decile10_share"
     df_tables_pip.loc[
         j, "description"
@@ -162,7 +167,7 @@ for survey in range(len(pip_tables)):
     j += 1
 
     # P90/P10
-    df_tables_pip.loc[j, "name"] = f"P90/P10 ratio"
+    df_tables_pip.loc[j, "name"] = f"P90/P10 ratio (PIP)"
     df_tables_pip.loc[j, "slug"] = f"p90_p10_ratio"
     df_tables_pip.loc[
         j, "description"
@@ -177,7 +182,7 @@ for survey in range(len(pip_tables)):
     j += 1
 
     # P90/P50
-    df_tables_pip.loc[j, "name"] = f"P90/P50 ratio"
+    df_tables_pip.loc[j, "name"] = f"P90/P50 ratio (PIP)"
     df_tables_pip.loc[j, "slug"] = f"p90_p50_ratio"
     df_tables_pip.loc[
         j, "description"
@@ -192,7 +197,7 @@ for survey in range(len(pip_tables)):
     j += 1
 
     # P50/P10
-    df_tables_pip.loc[j, "name"] = f"P50/P10 ratio"
+    df_tables_pip.loc[j, "name"] = f"P50/P10 ratio (PIP)"
     df_tables_pip.loc[j, "slug"] = f"p50_p10_ratio"
     df_tables_pip.loc[
         j, "description"
@@ -207,7 +212,7 @@ for survey in range(len(pip_tables)):
     j += 1
 
     # Palma ratio
-    df_tables_pip.loc[j, "name"] = f"Palma ratio"
+    df_tables_pip.loc[j, "name"] = f"Palma ratio (PIP)"
     df_tables_pip.loc[j, "slug"] = f"palma_ratio"
     df_tables_pip.loc[
         j, "description"
@@ -224,7 +229,7 @@ for survey in range(len(pip_tables)):
     # Headcount ratio (rel)
     df_tables_pip.loc[
         j, "name"
-    ] = f"50% of median - share of population below poverty line"
+    ] = f"50% of median - share of population below poverty line (PIP)"
     df_tables_pip.loc[j, "slug"] = f"headcount_ratio_50_median"
     df_tables_pip.loc[
         j, "description"
@@ -250,7 +255,7 @@ df_tables_pip["tolerance"] = tolerance
 
 # Table generation
 
-sourceName = "World Inequality Database (WID.world) (2022)"
+sourceName = "World Inequality Database (WID.world) (2023)"
 dataPublishedBy = "World Inequality Database (WID), https://wid.world"
 sourceLink = "https://wid.world"
 colorScaleNumericMinValue = 0
@@ -277,7 +282,7 @@ for tab in range(len(wid_tables)):
         # Gini coefficient
         df_tables_wid.loc[
             j, "name"
-        ] = f"Gini coefficient ({wid_welfare['technical_text'][wel].capitalize()})"
+        ] = f"Gini coefficient ({wid_welfare['technical_text'][wel].capitalize()}) (WID)"
         df_tables_wid.loc[j, "slug"] = f"p0p100_gini_{wid_welfare['slug'][wel]}"
         df_tables_wid.loc[
             j, "description"
@@ -293,7 +298,7 @@ for tab in range(len(wid_tables)):
         # Share of the top 10%
         df_tables_wid.loc[
             j, "name"
-        ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the richest 10% ({wid_welfare['technical_text'][wel].capitalize()})"
+        ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the richest 10% ({wid_welfare['technical_text'][wel].capitalize()}) (WID)"
         df_tables_wid.loc[j, "slug"] = f"p90p100_share_{wid_welfare['slug'][wel]}"
         df_tables_wid.loc[
             j, "description"
@@ -309,7 +314,7 @@ for tab in range(len(wid_tables)):
         # Share of the bottom 50%
         df_tables_wid.loc[
             j, "name"
-        ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the bottom 50% ({wid_welfare['technical_text'][wel].capitalize()})"
+        ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the bottom 50% ({wid_welfare['technical_text'][wel].capitalize()}) (WID)"
         df_tables_wid.loc[j, "slug"] = f"p0p50_share_{wid_welfare['slug'][wel]}"
         df_tables_wid.loc[
             j, "description"
@@ -327,7 +332,7 @@ for tab in range(len(wid_tables)):
         # Share of the top 1%
         df_tables_wid.loc[
             j, "name"
-        ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the richest 1% ({wid_welfare['technical_text'][wel].capitalize()})"
+        ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the richest 1% ({wid_welfare['technical_text'][wel].capitalize()}) (WID)"
         df_tables_wid.loc[j, "slug"] = f"p99p100_share_{wid_welfare['slug'][wel]}"
         df_tables_wid.loc[
             j, "description"
@@ -343,7 +348,7 @@ for tab in range(len(wid_tables)):
         # Share of the top 0.1%
         df_tables_wid.loc[
             j, "name"
-        ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the richest 0.1% ({wid_welfare['technical_text'][wel].capitalize()})"
+        ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the richest 0.1% ({wid_welfare['technical_text'][wel].capitalize()}) (WID)"
         df_tables_wid.loc[j, "slug"] = f"p99_9p100_share_{wid_welfare['slug'][wel]}"
         df_tables_wid.loc[
             j, "description"
@@ -359,7 +364,7 @@ for tab in range(len(wid_tables)):
         # Share of the top 0.01%
         df_tables_wid.loc[
             j, "name"
-        ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the richest 0.01% ({wid_welfare['technical_text'][wel].capitalize()})"
+        ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the richest 0.01% ({wid_welfare['technical_text'][wel].capitalize()}) (WID)"
         df_tables_wid.loc[j, "slug"] = f"p99_99p100_share_{wid_welfare['slug'][wel]}"
         df_tables_wid.loc[
             j, "description"
@@ -375,7 +380,7 @@ for tab in range(len(wid_tables)):
         # Share of the top 0.001%
         df_tables_wid.loc[
             j, "name"
-        ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the richest 0.001% ({wid_welfare['technical_text'][wel].capitalize()})"
+        ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the richest 0.001% ({wid_welfare['technical_text'][wel].capitalize()}) (WID)"
         df_tables_wid.loc[j, "slug"] = f"p99_999p100_share_{wid_welfare['slug'][wel]}"
         df_tables_wid.loc[
             j, "description"
@@ -393,7 +398,7 @@ for tab in range(len(wid_tables)):
         # P90/P10
         df_tables_wid.loc[
             j, "name"
-        ] = f"P90/P10 ratio ({wid_welfare['technical_text'][wel].capitalize()})"
+        ] = f"P90/P10 ratio ({wid_welfare['technical_text'][wel].capitalize()}) (WID)"
         df_tables_wid.loc[j, "slug"] = f"p90_p10_ratio_{wid_welfare['slug'][wel]}"
         df_tables_wid.loc[
             j, "description"
@@ -411,7 +416,7 @@ for tab in range(len(wid_tables)):
         # P90/P50
         df_tables_wid.loc[
             j, "name"
-        ] = f"P90/P50 ratio ({wid_welfare['technical_text'][wel].capitalize()})"
+        ] = f"P90/P50 ratio ({wid_welfare['technical_text'][wel].capitalize()}) (WID)"
         df_tables_wid.loc[j, "slug"] = f"p90_p50_ratio_{wid_welfare['slug'][wel]}"
         df_tables_wid.loc[
             j, "description"
@@ -429,7 +434,7 @@ for tab in range(len(wid_tables)):
         # P50/P10
         df_tables_wid.loc[
             j, "name"
-        ] = f"P50/P10 ratio ({wid_welfare['technical_text'][wel].capitalize()})"
+        ] = f"P50/P10 ratio ({wid_welfare['technical_text'][wel].capitalize()}) (WID)"
         df_tables_wid.loc[j, "slug"] = f"p50_p10_ratio_{wid_welfare['slug'][wel]}"
         df_tables_wid.loc[
             j, "description"
@@ -447,7 +452,7 @@ for tab in range(len(wid_tables)):
         # Palma ratio
         df_tables_wid.loc[
             j, "name"
-        ] = f"Palma ratio ({wid_welfare['technical_text'][wel].capitalize()})"
+        ] = f"Palma ratio ({wid_welfare['technical_text'][wel].capitalize()}) (WID)"
         df_tables_wid.loc[j, "slug"] = f"palma_ratio_{wid_welfare['slug'][wel]}"
         df_tables_wid.loc[
             j, "description"
@@ -473,8 +478,8 @@ df_tables_wid["tolerance"] = tolerance
 ###########################################################################################
 # LUXEMBOURG INCOME STUDY (LIS)
 ###########################################################################################
-sourceName = "Luxembourg Income Study (LIS) (2022)"
-dataPublishedBy = "Luxembourg Income Study (LIS) Database, http://www.lisdatacenter.org (multiple countries; 1967-2021). Luxembourg, LIS."
+sourceName = "Luxembourg Income Study (LIS) (2023)"
+dataPublishedBy = "Luxembourg Income Study (LIS) Database, http://www.lisdatacenter.org (multiple countries; 1967-2020). Luxembourg, LIS."
 sourceLink = "https://www.lisdatacenter.org/our-data/lis-database/"
 colorScaleNumericMinValue = 0
 tolerance = 5
@@ -502,13 +507,13 @@ for tab in range(len(lis_tables)):
             # Gini coefficient
             df_tables_lis.loc[
                 j, "name"
-            ] = f"Gini coefficient ({lis_welfare['technical_text'][wel].capitalize()}, {lis_equivalence_scales['text'][eq]})"
+            ] = f"Gini coefficient ({lis_welfare['technical_text'][wel].capitalize()}, {lis_equivalence_scales['text'][eq]}) (LIS)"
             df_tables_lis.loc[
                 j, "slug"
             ] = f"gini_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
             df_tables_lis.loc[
                 j, "description"
-            ] = f"The Gini coefficient is a measure of the inequality of the {lis_welfare['welfare_type'][wel]} distribution in a population. Higher values indicate a higher level of inequality.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}Household {lis_welfare['welfare_type'][wel]} {lis_equivalence_scales['note'][eq]}"
+            ] = f"The Gini coefficient is a measure of the inequality of the {lis_welfare['welfare_type'][wel]} distribution in a population. Higher values indicate a higher level of inequality.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}{lis_equivalence_scales['description'][eq]}"
             df_tables_lis.loc[j, "unit"] = np.nan
             df_tables_lis.loc[j, "shortUnit"] = np.nan
             df_tables_lis.loc[j, "type"] = "Numeric"
@@ -516,18 +521,19 @@ for tab in range(len(lis_tables)):
                 wel
             ]
             df_tables_lis.loc[j, "colorScaleScheme"] = "Reds"
+            df_tables_lis.loc[j, "equivalized"] = lis_equivalence_scales["text"][eq]
             j += 1
 
             # Share of the top 10%
             df_tables_lis.loc[
                 j, "name"
-            ] = f"{lis_welfare['welfare_type'][wel].capitalize()} share of the richest 10% ({lis_welfare['technical_text'][wel].capitalize()}, {lis_equivalence_scales['text'][eq]})"
+            ] = f"{lis_welfare['welfare_type'][wel].capitalize()} share of the richest 10% ({lis_welfare['technical_text'][wel].capitalize()}, {lis_equivalence_scales['text'][eq]}) (LIS)"
             df_tables_lis.loc[
                 j, "slug"
             ] = f"share_p90_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
             df_tables_lis.loc[
                 j, "description"
-            ] = f"This is the {lis_welfare['welfare_type'][wel]} of the richest 10% as a share of total {lis_welfare['welfare_type'][wel]}.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}Household {lis_welfare['welfare_type'][wel]} {lis_equivalence_scales['note'][eq]}"
+            ] = f"This is the {lis_welfare['welfare_type'][wel]} of the richest 10% as a share of total {lis_welfare['welfare_type'][wel]}.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}{lis_equivalence_scales['description'][eq]}"
             df_tables_lis.loc[j, "unit"] = "%"
             df_tables_lis.loc[j, "shortUnit"] = "%"
             df_tables_lis.loc[j, "type"] = "Numeric"
@@ -535,18 +541,19 @@ for tab in range(len(lis_tables)):
                 wel
             ]
             df_tables_lis.loc[j, "colorScaleScheme"] = "Greens"
+            df_tables_lis.loc[j, "equivalized"] = lis_equivalence_scales["text"][eq]
             j += 1
 
             # Share of the bottom 50%
             df_tables_lis.loc[
                 j, "name"
-            ] = f"{lis_welfare['welfare_type'][wel].capitalize()} share of the bottom 50% ({lis_welfare['technical_text'][wel].capitalize()}, {lis_equivalence_scales['text'][eq]})"
+            ] = f"{lis_welfare['welfare_type'][wel].capitalize()} share of the bottom 50% ({lis_welfare['technical_text'][wel].capitalize()}, {lis_equivalence_scales['text'][eq]}) (LIS)"
             df_tables_lis.loc[
                 j, "slug"
             ] = f"share_bottom50_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
             df_tables_lis.loc[
                 j, "description"
-            ] = f"This is the {lis_welfare['welfare_type'][wel]} of the poorest 50% as a share of total {lis_welfare['welfare_type'][wel]}.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}Household {lis_welfare['welfare_type'][wel]} {lis_equivalence_scales['note'][eq]}"
+            ] = f"This is the {lis_welfare['welfare_type'][wel]} of the poorest 50% as a share of total {lis_welfare['welfare_type'][wel]}.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}{lis_equivalence_scales['description'][eq]}"
             df_tables_lis.loc[j, "unit"] = "%"
             df_tables_lis.loc[j, "shortUnit"] = "%"
             df_tables_lis.loc[j, "type"] = "Numeric"
@@ -554,18 +561,19 @@ for tab in range(len(lis_tables)):
                 "scale_bottom50"
             ][wel]
             df_tables_lis.loc[j, "colorScaleScheme"] = "Blues"
+            df_tables_lis.loc[j, "equivalized"] = lis_equivalence_scales["text"][eq]
             j += 1
 
             # P90/P10
             df_tables_lis.loc[
                 j, "name"
-            ] = f"P90/P10 ratio ({lis_welfare['technical_text'][wel].capitalize()}, {lis_equivalence_scales['text'][eq]})"
+            ] = f"P90/P10 ratio ({lis_welfare['technical_text'][wel].capitalize()}, {lis_equivalence_scales['text'][eq]}) (LIS)"
             df_tables_lis.loc[
                 j, "slug"
             ] = f"p90_p10_ratio_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
             df_tables_lis.loc[
                 j, "description"
-            ] = f"P90 is the the level of {lis_welfare['welfare_type'][wel]} below which 90% of the population lives. P10 is the level of {lis_welfare['welfare_type'][wel]} below which 10% of the population lives. This variable gives the ratio of the two. It is a measure of inequality that indicates the gap between the richest and poorest tenth of the population. It tells you how many times richer someone just in the the poorest tenth would need to be in order to be counted in the richest tenth.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}Household {lis_welfare['welfare_type'][wel]} {lis_equivalence_scales['note'][eq]}"
+            ] = f"P90 is the the level of {lis_welfare['welfare_type'][wel]} below which 90% of the population lives. P10 is the level of {lis_welfare['welfare_type'][wel]} below which 10% of the population lives. This variable gives the ratio of the two. It is a measure of inequality that indicates the gap between the richest and poorest tenth of the population. It tells you how many times richer someone just in the the poorest tenth would need to be in order to be counted in the richest tenth.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}{lis_equivalence_scales['description'][eq]}"
             df_tables_lis.loc[j, "unit"] = np.nan
             df_tables_lis.loc[j, "shortUnit"] = np.nan
             df_tables_lis.loc[j, "type"] = "Numeric"
@@ -573,18 +581,19 @@ for tab in range(len(lis_tables)):
                 "scale_p90_p10_ratio"
             ][wel]
             df_tables_lis.loc[j, "colorScaleScheme"] = "OrRd"
+            df_tables_lis.loc[j, "equivalized"] = lis_equivalence_scales["text"][eq]
             j += 1
 
             # P90/P50
             df_tables_lis.loc[
                 j, "name"
-            ] = f"P90/P50 ratio ({lis_welfare['technical_text'][wel].capitalize()}, {lis_equivalence_scales['text'][eq]})"
+            ] = f"P90/P50 ratio ({lis_welfare['technical_text'][wel].capitalize()}, {lis_equivalence_scales['text'][eq]}) (LIS)"
             df_tables_lis.loc[
                 j, "slug"
             ] = f"p90_p50_ratio_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
             df_tables_lis.loc[
                 j, "description"
-            ] = f"P90 is the the level of {lis_welfare['welfare_type'][wel]} above which 10% of the population lives. P50 is the median – the level of {lis_welfare['welfare_type'][wel]} below which 50% of the population lives. This variable gives the ratio of the two. It is a measure of inequality within the top half of the distribution. It tells you how many times richer someone in the middle of the distribution would need to be in order to be counted in the richest tenth.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}Household {lis_welfare['welfare_type'][wel]} {lis_equivalence_scales['note'][eq]}"
+            ] = f"P90 is the the level of {lis_welfare['welfare_type'][wel]} above which 10% of the population lives. P50 is the median – the level of {lis_welfare['welfare_type'][wel]} below which 50% of the population lives. This variable gives the ratio of the two. It is a measure of inequality within the top half of the distribution. It tells you how many times richer someone in the middle of the distribution would need to be in order to be counted in the richest tenth.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}{lis_equivalence_scales['description'][eq]}"
             df_tables_lis.loc[j, "unit"] = np.nan
             df_tables_lis.loc[j, "shortUnit"] = np.nan
             df_tables_lis.loc[j, "type"] = "Numeric"
@@ -592,18 +601,19 @@ for tab in range(len(lis_tables)):
                 "scale_p90_p50_ratio"
             ][wel]
             df_tables_lis.loc[j, "colorScaleScheme"] = "Purples"
+            df_tables_lis.loc[j, "equivalized"] = lis_equivalence_scales["text"][eq]
             j += 1
 
             # P50/P10
             df_tables_lis.loc[
                 j, "name"
-            ] = f"P50/P10 ratio ({lis_welfare['technical_text'][wel].capitalize()}, {lis_equivalence_scales['text'][eq]})"
+            ] = f"P50/P10 ratio ({lis_welfare['technical_text'][wel].capitalize()}, {lis_equivalence_scales['text'][eq]}) (LIS)"
             df_tables_lis.loc[
                 j, "slug"
             ] = f"p50_p10_ratio_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
             df_tables_lis.loc[
                 j, "description"
-            ] = f"P50 is the median – the level of {lis_welfare['welfare_type'][wel]} below which 50% of the population lives. P10 is the the level of {lis_welfare['welfare_type'][wel]} below which 10% of the population lives. This variable gives the ratio of the two. It is a measure of inequality within the bottom half of the distribution. It tells you how many times richer someone just in the the poorest tenth would need to be in order to be reach the median.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}Household {lis_welfare['welfare_type'][wel]} {lis_equivalence_scales['note'][eq]}"
+            ] = f"P50 is the median – the level of {lis_welfare['welfare_type'][wel]} below which 50% of the population lives. P10 is the the level of {lis_welfare['welfare_type'][wel]} below which 10% of the population lives. This variable gives the ratio of the two. It is a measure of inequality within the bottom half of the distribution. It tells you how many times richer someone just in the the poorest tenth would need to be in order to be reach the median.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}{lis_equivalence_scales['description'][eq]}"
             df_tables_lis.loc[j, "unit"] = np.nan
             df_tables_lis.loc[j, "shortUnit"] = np.nan
             df_tables_lis.loc[j, "type"] = "Numeric"
@@ -611,18 +621,19 @@ for tab in range(len(lis_tables)):
                 "scale_p50_p10_ratio"
             ][wel]
             df_tables_lis.loc[j, "colorScaleScheme"] = "YlOrRd"
+            df_tables_lis.loc[j, "equivalized"] = lis_equivalence_scales["text"][eq]
             j += 1
 
             # Palma ratio
             df_tables_lis.loc[
                 j, "name"
-            ] = f"Palma ratio ({lis_welfare['technical_text'][wel].capitalize()}, {lis_equivalence_scales['text'][eq]})"
+            ] = f"Palma ratio ({lis_welfare['technical_text'][wel].capitalize()}, {lis_equivalence_scales['text'][eq]}) (LIS)"
             df_tables_lis.loc[
                 j, "slug"
             ] = f"palma_ratio_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
             df_tables_lis.loc[
                 j, "description"
-            ] = f"The Palma ratio is a measure of inequality: it is the share of total {lis_welfare['welfare_type'][wel]} of the top 10% divided by the share of the bottom 40%.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}Household {lis_welfare['welfare_type'][wel]} {lis_equivalence_scales['note'][eq]}"
+            ] = f"The Palma ratio is a measure of inequality: it is the share of total {lis_welfare['welfare_type'][wel]} of the top 10% divided by the share of the bottom 40%.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}{lis_equivalence_scales['description'][eq]}"
             df_tables_lis.loc[j, "unit"] = np.nan
             df_tables_lis.loc[j, "shortUnit"] = np.nan
             df_tables_lis.loc[j, "type"] = "Numeric"
@@ -630,23 +641,25 @@ for tab in range(len(lis_tables)):
                 "scale_palma_ratio"
             ][wel]
             df_tables_lis.loc[j, "colorScaleScheme"] = "Oranges"
+            df_tables_lis.loc[j, "equivalized"] = lis_equivalence_scales["text"][eq]
             j += 1
 
             # Headcount ratio (rel)
             df_tables_lis.loc[
                 j, "name"
-            ] = f"50% of median {lis_welfare['welfare_type'][wel]} - share of population below poverty line ({lis_welfare['technical_text'][wel].capitalize()}, {lis_equivalence_scales['text'][eq]})"
+            ] = f"50% of median {lis_welfare['welfare_type'][wel]} - share of population below poverty line ({lis_welfare['technical_text'][wel].capitalize()}, {lis_equivalence_scales['text'][eq]}) (LIS)"
             df_tables_lis.loc[
                 j, "slug"
             ] = f"headcount_ratio_50_median_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
             df_tables_lis.loc[
                 j, "description"
-            ] = f"% of population living in households with {lis_welfare['welfare_type'][wel]} below 50% of the median {lis_welfare['welfare_type'][wel]}.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}Household {lis_welfare['welfare_type'][wel]} {lis_equivalence_scales['note'][eq]}"
+            ] = f"% of population living in households with {lis_welfare['welfare_type'][wel]} below 50% of the median {lis_welfare['welfare_type'][wel]}.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}{lis_equivalence_scales['description'][eq]}"
             df_tables_lis.loc[j, "unit"] = "%"
             df_tables_lis.loc[j, "shortUnit"] = "%"
             df_tables_lis.loc[j, "type"] = "Numeric"
             df_tables_lis.loc[j, "colorScaleNumericBins"] = "5;10;15;20;25;30"
             df_tables_lis.loc[j, "colorScaleScheme"] = "YlOrBr"
+            df_tables_lis.loc[j, "equivalized"] = lis_equivalence_scales["text"][eq]
             j += 1
 
     df_tables_lis["tableSlug"] = lis_tables["name"][tab]
@@ -657,6 +670,13 @@ df_tables_lis["sourceLink"] = sourceLink
 df_tables_lis["colorScaleNumericMinValue"] = colorScaleNumericMinValue
 df_tables_lis["tolerance"] = tolerance
 df_tables_lis["colorScaleEqualSizeBins"] = colorScaleEqualSizeBins
+
+# Remove all the rows that have the "per capita" value in the equivalized column
+df_tables_lis = df_tables_lis[df_tables_lis["equivalized"] != "per capita"].reset_index(
+    drop=True
+)
+# Drop the equivalized column
+df_tables_lis = df_tables_lis.drop(columns=["equivalized"])
 
 # Concatenate all the tables into one
 df_tables = pd.concat([df_tables_pip, df_tables_wid, df_tables_lis], ignore_index=True)
@@ -1086,7 +1106,7 @@ for tab in range(len(lis_tables)):
             ] = f"gini_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
             df_graphers_lis.loc[
                 j, "Data source Dropdown"
-            ] = f"{lis_tables['source_name'][tab]} - {lis_welfare['dropdown_option'][wel]}"
+            ] = f"{lis_tables['source_name'][tab]} - {lis_welfare['welfare_type'][wel].capitalize()} {lis_welfare['title'][wel]}"
             df_graphers_lis.loc[j, "Metric Dropdown"] = "Gini coefficient"
             df_graphers_lis.loc[
                 j, "equivalized"
@@ -1094,9 +1114,7 @@ for tab in range(len(lis_tables)):
             df_graphers_lis.loc[
                 j, "subtitle"
             ] = f"The Gini coefficient is a measure of the inequality of the {lis_welfare['welfare_type'][wel]} distribution in a population. Higher values indicate a higher level of inequality. {lis_welfare['subtitle'][wel]}"
-            df_graphers_lis.loc[
-                j, "note"
-            ] = f"Household {lis_welfare['welfare_type'][wel]} {lis_equivalence_scales['note'][eq]}"
+            df_graphers_lis.loc[j, "note"] = f"{lis_equivalence_scales['note'][eq]}"
             df_graphers_lis.loc[j, "selectedFacetStrategy"] = np.nan
             df_graphers_lis.loc[j, "hasMapTab"] = "true"
             df_graphers_lis.loc[j, "tab"] = "map"
@@ -1111,7 +1129,7 @@ for tab in range(len(lis_tables)):
             ] = f"share_p90_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
             df_graphers_lis.loc[
                 j, "Data source Dropdown"
-            ] = f"{lis_tables['source_name'][tab]} - {lis_welfare['dropdown_option'][wel]}"
+            ] = f"{lis_tables['source_name'][tab]} - {lis_welfare['welfare_type'][wel].capitalize()} {lis_welfare['title'][wel]}"
             df_graphers_lis.loc[j, "Metric Dropdown"] = "Top 10% share"
             df_graphers_lis.loc[
                 j, "equivalized"
@@ -1119,9 +1137,7 @@ for tab in range(len(lis_tables)):
             df_graphers_lis.loc[
                 j, "subtitle"
             ] = f"This is the {lis_welfare['welfare_type'][wel]} of the richest 10% as a share of total {lis_welfare['welfare_type'][wel]}. {lis_welfare['subtitle'][wel]}"
-            df_graphers_lis.loc[
-                j, "note"
-            ] = f"Household {lis_welfare['welfare_type'][wel]} {lis_equivalence_scales['note'][eq]}"
+            df_graphers_lis.loc[j, "note"] = f"{lis_equivalence_scales['note'][eq]}"
             df_graphers_lis.loc[j, "selectedFacetStrategy"] = np.nan
             df_graphers_lis.loc[j, "hasMapTab"] = "true"
             df_graphers_lis.loc[j, "tab"] = "map"
@@ -1136,7 +1152,7 @@ for tab in range(len(lis_tables)):
             ] = f"share_bottom50_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
             df_graphers_lis.loc[
                 j, "Data source Dropdown"
-            ] = f"{lis_tables['source_name'][tab]} - {lis_welfare['dropdown_option'][wel]}"
+            ] = f"{lis_tables['source_name'][tab]} - {lis_welfare['welfare_type'][wel].capitalize()} {lis_welfare['title'][wel]}"
             df_graphers_lis.loc[j, "Metric Dropdown"] = "Bottom 50% share"
             df_graphers_lis.loc[
                 j, "equivalized"
@@ -1144,9 +1160,7 @@ for tab in range(len(lis_tables)):
             df_graphers_lis.loc[
                 j, "subtitle"
             ] = f"This is the {lis_welfare['welfare_type'][wel]} of the poorest 50% as a share of total {lis_welfare['welfare_type'][wel]}. {lis_welfare['subtitle'][wel]}"
-            df_graphers_lis.loc[
-                j, "note"
-            ] = f"Household {lis_welfare['welfare_type'][wel]} {lis_equivalence_scales['note'][eq]}"
+            df_graphers_lis.loc[j, "note"] = f"{lis_equivalence_scales['note'][eq]}"
             df_graphers_lis.loc[j, "selectedFacetStrategy"] = np.nan
             df_graphers_lis.loc[j, "hasMapTab"] = "true"
             df_graphers_lis.loc[j, "tab"] = "map"
@@ -1161,7 +1175,7 @@ for tab in range(len(lis_tables)):
             ] = f"p90_p10_ratio_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
             df_graphers_lis.loc[
                 j, "Data source Dropdown"
-            ] = f"{lis_tables['source_name'][tab]} - {lis_welfare['dropdown_option'][wel]}"
+            ] = f"{lis_tables['source_name'][tab]} - {lis_welfare['welfare_type'][wel].capitalize()} {lis_welfare['title'][wel]}"
             df_graphers_lis.loc[j, "Metric Dropdown"] = "P90/P10"
             df_graphers_lis.loc[
                 j, "equivalized"
@@ -1169,9 +1183,7 @@ for tab in range(len(lis_tables)):
             df_graphers_lis.loc[
                 j, "subtitle"
             ] = f"P90 and P10 are the levels of {lis_welfare['welfare_type'][wel]} below which 90% and 10% of the population live, respectively. This variable gives the ratio of the two. It is a measure of inequality that indicates the gap between the richest and poorest tenth of the population. {lis_welfare['subtitle'][wel]}"
-            df_graphers_lis.loc[
-                j, "note"
-            ] = f"Household {lis_welfare['welfare_type'][wel]} {lis_equivalence_scales['note'][eq]}"
+            df_graphers_lis.loc[j, "note"] = f"{lis_equivalence_scales['note'][eq]}"
             df_graphers_lis.loc[j, "type"] = np.nan
             df_graphers_lis.loc[j, "selectedFacetStrategy"] = np.nan
             df_graphers_lis.loc[j, "hasMapTab"] = "true"
@@ -1187,7 +1199,7 @@ for tab in range(len(lis_tables)):
             ] = f"p90_p50_ratio_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
             df_graphers_lis.loc[
                 j, "Data source Dropdown"
-            ] = f"{lis_tables['source_name'][tab]} - {lis_welfare['dropdown_option'][wel]}"
+            ] = f"{lis_tables['source_name'][tab]} - {lis_welfare['welfare_type'][wel].capitalize()} {lis_welfare['title'][wel]}"
             df_graphers_lis.loc[j, "Metric Dropdown"] = "P90/P50"
             df_graphers_lis.loc[
                 j, "equivalized"
@@ -1195,9 +1207,7 @@ for tab in range(len(lis_tables)):
             df_graphers_lis.loc[
                 j, "subtitle"
             ] = f"The P90/P50 ratio measures the degree of inequality within the richest half of the population. A ratio of 2 means that someone just falling in the richest tenth of the population has twice the median {lis_welfare['welfare_type'][wel]}. {lis_welfare['subtitle'][wel]}"
-            df_graphers_lis.loc[
-                j, "note"
-            ] = f"Household {lis_welfare['welfare_type'][wel]} {lis_equivalence_scales['note'][eq]}"
+            df_graphers_lis.loc[j, "note"] = f"{lis_equivalence_scales['note'][eq]}"
             df_graphers_lis.loc[j, "type"] = np.nan
             df_graphers_lis.loc[j, "selectedFacetStrategy"] = np.nan
             df_graphers_lis.loc[j, "hasMapTab"] = "true"
@@ -1213,7 +1223,7 @@ for tab in range(len(lis_tables)):
             ] = f"p50_p10_ratio_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
             df_graphers_lis.loc[
                 j, "Data source Dropdown"
-            ] = f"{lis_tables['source_name'][tab]} - {lis_welfare['dropdown_option'][wel]}"
+            ] = f"{lis_tables['source_name'][tab]} - {lis_welfare['welfare_type'][wel].capitalize()} {lis_welfare['title'][wel]}"
             df_graphers_lis.loc[j, "Metric Dropdown"] = "P50/P10"
             df_graphers_lis.loc[
                 j, "equivalized"
@@ -1221,9 +1231,7 @@ for tab in range(len(lis_tables)):
             df_graphers_lis.loc[
                 j, "subtitle"
             ] = f"The P50/P10 ratio measures the degree of inequality within the poorest half of the population. A ratio of 2 means that the median {lis_welfare['welfare_type'][wel]} is two times higher than that of someone just falling in the poorest tenth of the population. {lis_welfare['subtitle'][wel]}"
-            df_graphers_lis.loc[
-                j, "note"
-            ] = f"Household {lis_welfare['welfare_type'][wel]} {lis_equivalence_scales['note'][eq]}"
+            df_graphers_lis.loc[j, "note"] = f"{lis_equivalence_scales['note'][eq]}"
             df_graphers_lis.loc[j, "type"] = np.nan
             df_graphers_lis.loc[j, "selectedFacetStrategy"] = np.nan
             df_graphers_lis.loc[j, "hasMapTab"] = "true"
@@ -1239,7 +1247,7 @@ for tab in range(len(lis_tables)):
             ] = f"palma_ratio_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
             df_graphers_lis.loc[
                 j, "Data source Dropdown"
-            ] = f"{lis_tables['source_name'][tab]} - {lis_welfare['dropdown_option'][wel]}"
+            ] = f"{lis_tables['source_name'][tab]} - {lis_welfare['welfare_type'][wel].capitalize()} {lis_welfare['title'][wel]}"
             df_graphers_lis.loc[j, "Metric Dropdown"] = "Palma ratio"
             df_graphers_lis.loc[
                 j, "equivalized"
@@ -1247,9 +1255,7 @@ for tab in range(len(lis_tables)):
             df_graphers_lis.loc[
                 j, "subtitle"
             ] = f"The Palma ratio is the share of total {lis_welfare['welfare_type'][wel]} of the top 10% divided by the share of the bottom 40%. {lis_welfare['subtitle'][wel]}"
-            df_graphers_lis.loc[
-                j, "note"
-            ] = f"Household {lis_welfare['welfare_type'][wel]} {lis_equivalence_scales['note'][eq]}"
+            df_graphers_lis.loc[j, "note"] = f"{lis_equivalence_scales['note'][eq]}"
             df_graphers_lis.loc[j, "selectedFacetStrategy"] = np.nan
             df_graphers_lis.loc[j, "hasMapTab"] = "true"
             df_graphers_lis.loc[j, "tab"] = "map"
@@ -1264,7 +1270,7 @@ for tab in range(len(lis_tables)):
             ] = f"headcount_ratio_50_median_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
             df_graphers_lis.loc[
                 j, "Data source Dropdown"
-            ] = f"{lis_tables['source_name'][tab]} - {lis_welfare['dropdown_option'][wel]}"
+            ] = f"{lis_tables['source_name'][tab]} - {lis_welfare['welfare_type'][wel].capitalize()} {lis_welfare['title'][wel]}"
             df_graphers_lis.loc[
                 j, "Metric Dropdown"
             ] = f"Share in relative poverty (< 50% of the median)"
@@ -1274,9 +1280,7 @@ for tab in range(len(lis_tables)):
             df_graphers_lis.loc[
                 j, "subtitle"
             ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at 50% of the median {lis_welfare['welfare_type'][wel]}. {lis_welfare['subtitle'][wel]}"
-            df_graphers_lis.loc[
-                j, "note"
-            ] = f"Household {lis_welfare['welfare_type'][wel]} {lis_equivalence_scales['note'][eq]}"
+            df_graphers_lis.loc[j, "note"] = f"{lis_equivalence_scales['note'][eq]}"
             df_graphers_lis.loc[j, "type"] = np.nan
             df_graphers_lis.loc[j, "selectedFacetStrategy"] = np.nan
             df_graphers_lis.loc[j, "hasMapTab"] = "true"

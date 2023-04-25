@@ -10,7 +10,7 @@ import numpy as np
 # %%
 import pandas as pd
 
-PARENT_DIR = Path(__file__).parent.parent.parent.absolute()
+PARENT_DIR = Path(__file__).parent.parent.parent.parent.absolute()
 outfile = PARENT_DIR / "explorers" / "wid-keymetrics.explorer.tsv"
 
 # %% [markdown]
@@ -48,7 +48,7 @@ header_dict = {
         "China",
     ],
     "explorerSubtitle": "",
-    "isPublished": "false",
+    "isPublished": "true",
     "googleSheet": f"https://docs.google.com/spreadsheets/d/{sheet_id}",
     "wpBlockId": "",
     "entityType": "country or region",
@@ -68,7 +68,7 @@ df_header = df_header[0].apply(pd.Series)
 # %%
 # Table generation
 
-sourceName = "World Inequality Database (WID.world) (2022)"
+sourceName = "World Inequality Database (WID.world) (2023)"
 dataPublishedBy = "World Inequality Database (WID), https://wid.world"
 sourceLink = "https://wid.world"
 colorScaleNumericMinValue = 0
@@ -128,7 +128,7 @@ for tab in range(len(tables)):
         df_tables.loc[
             j, "name"
         ] = f"Median {welfare['welfare_type'][wel]} ({welfare['technical_text'][wel].capitalize()})"
-        df_tables.loc[j, "slug"] = f"p50p60_thr_{welfare['slug'][wel]}"
+        df_tables.loc[j, "slug"] = f"median_{welfare['slug'][wel]}"
         df_tables.loc[
             j, "description"
         ] = f"This is the level of {welfare['welfare_type'][wel]} below which 50% of the population falls.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]} {welfare['note'][wel]}"
@@ -271,9 +271,7 @@ for tab in range(len(tables)):
         ] = f"{welfare['welfare_type'][wel].capitalize()} inequality: Gini coefficient {welfare['title'][wel].capitalize()}"
         df_graphers.loc[j, "ySlugs"] = f"p0p100_gini_{welfare['slug'][wel]}"
         df_graphers.loc[j, "Metric Dropdown"] = "Gini coefficient"
-        df_graphers.loc[
-            j, "Welfare type Dropdown"
-        ] = f"{welfare['dropdown_option'][wel]}"
+        df_graphers.loc[j, "Data type Dropdown"] = f"{welfare['dropdown_option'][wel]}"
         df_graphers.loc[
             j, "subtitle"
         ] = f"The Gini coefficient is a measure of the inequality of the {welfare['welfare_type'][wel]} distribution in a population. Higher values indicate a higher level of inequality. {welfare['subtitle'][wel]}"
@@ -289,9 +287,7 @@ for tab in range(len(tables)):
         ] = f"Mean {welfare['welfare_type'][wel]} {welfare['title'][wel].capitalize()}"
         df_graphers.loc[j, "ySlugs"] = f"p0p100_avg_{welfare['slug'][wel]}"
         df_graphers.loc[j, "Metric Dropdown"] = "Mean income or wealth"
-        df_graphers.loc[
-            j, "Welfare type Dropdown"
-        ] = f"{welfare['dropdown_option'][wel]}"
+        df_graphers.loc[j, "Data type Dropdown"] = f"{welfare['dropdown_option'][wel]}"
         df_graphers.loc[
             j, "subtitle"
         ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]}"
@@ -308,11 +304,9 @@ for tab in range(len(tables)):
         df_graphers.loc[
             j, "title"
         ] = f"Median {welfare['welfare_type'][wel]} {welfare['title'][wel].capitalize()}"
-        df_graphers.loc[j, "ySlugs"] = f"p50p60_thr_{welfare['slug'][wel]}"
+        df_graphers.loc[j, "ySlugs"] = f"median_{welfare['slug'][wel]}"
         df_graphers.loc[j, "Metric Dropdown"] = "Median income or wealth"
-        df_graphers.loc[
-            j, "Welfare type Dropdown"
-        ] = f"{welfare['dropdown_option'][wel]}"
+        df_graphers.loc[j, "Data type Dropdown"] = f"{welfare['dropdown_option'][wel]}"
         df_graphers.loc[
             j, "subtitle"
         ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]}"
@@ -331,9 +325,7 @@ for tab in range(len(tables)):
         ] = f"{welfare['welfare_type'][wel].capitalize()} share of the top 10% {welfare['title'][wel].capitalize()}"
         df_graphers.loc[j, "ySlugs"] = f"p90p100_share_{welfare['slug'][wel]}"
         df_graphers.loc[j, "Metric Dropdown"] = "Top 10% share"
-        df_graphers.loc[
-            j, "Welfare type Dropdown"
-        ] = f"{welfare['dropdown_option'][wel]}"
+        df_graphers.loc[j, "Data type Dropdown"] = f"{welfare['dropdown_option'][wel]}"
         df_graphers.loc[
             j, "subtitle"
         ] = f"This is the {welfare['welfare_type'][wel]} of the richest 10% as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
@@ -349,9 +341,7 @@ for tab in range(len(tables)):
         ] = f"{welfare['welfare_type'][wel].capitalize()} share of the top 1% {welfare['title'][wel].capitalize()}"
         df_graphers.loc[j, "ySlugs"] = f"p99p100_share_{welfare['slug'][wel]}"
         df_graphers.loc[j, "Metric Dropdown"] = "Top 1% share"
-        df_graphers.loc[
-            j, "Welfare type Dropdown"
-        ] = f"{welfare['dropdown_option'][wel]}"
+        df_graphers.loc[j, "Data type Dropdown"] = f"{welfare['dropdown_option'][wel]}"
         df_graphers.loc[
             j, "subtitle"
         ] = f"This is the {welfare['welfare_type'][wel]} of the richest 1% as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
@@ -367,9 +357,7 @@ for tab in range(len(tables)):
         ] = f"Threshold {welfare['welfare_type'][wel]} marking the poorest decile {welfare['title'][wel].capitalize()}"
         df_graphers.loc[j, "ySlugs"] = f"p10p20_thr_{welfare['slug'][wel]}"
         df_graphers.loc[j, "Metric Dropdown"] = "Income or wealth of the poorest 10%"
-        df_graphers.loc[
-            j, "Welfare type Dropdown"
-        ] = f"{welfare['dropdown_option'][wel]}"
+        df_graphers.loc[j, "Data type Dropdown"] = f"{welfare['dropdown_option'][wel]}"
         df_graphers.loc[
             j, "subtitle"
         ] = f"This is the level of {welfare['welfare_type'][wel]} below which 10% of the population falls. {welfare['subtitle'][wel]}"
@@ -389,9 +377,7 @@ for tab in range(len(tables)):
         ] = f"Threshold {welfare['welfare_type'][wel]} marking the richest decile {welfare['title'][wel].capitalize()}"
         df_graphers.loc[j, "ySlugs"] = f"p90p100_thr_{welfare['slug'][wel]}"
         df_graphers.loc[j, "Metric Dropdown"] = "Income or wealth of the richest 10%"
-        df_graphers.loc[
-            j, "Welfare type Dropdown"
-        ] = f"{welfare['dropdown_option'][wel]}"
+        df_graphers.loc[j, "Data type Dropdown"] = f"{welfare['dropdown_option'][wel]}"
         df_graphers.loc[
             j, "subtitle"
         ] = f"This is the level of {welfare['welfare_type'][wel]} below which 90% of the population falls. {welfare['subtitle'][wel]}"
@@ -411,9 +397,7 @@ for tab in range(len(tables)):
         ] = f"{welfare['welfare_type'][wel].capitalize()} inequality: Palma ratio {welfare['title'][wel].capitalize()}"
         df_graphers.loc[j, "ySlugs"] = f"palma_ratio_{welfare['slug'][wel]}"
         df_graphers.loc[j, "Metric Dropdown"] = "Palma ratio"
-        df_graphers.loc[
-            j, "Welfare type Dropdown"
-        ] = f"{welfare['dropdown_option'][wel]}"
+        df_graphers.loc[j, "Data type Dropdown"] = f"{welfare['dropdown_option'][wel]}"
         df_graphers.loc[
             j, "subtitle"
         ] = f"The Palma ratio is the share of total {welfare['welfare_type'][wel]} of the top 10% divided by the share of the bottom 40%. {welfare['subtitle'][wel]}"
@@ -446,7 +430,7 @@ df_graphers["title"] = df_graphers["title"].str.strip()
 # Select one default view
 df_graphers.loc[
     (df_graphers["Metric Dropdown"] == "Gini coefficient")
-    & (df_graphers["Welfare type Dropdown"] == "Income before tax"),
+    & (df_graphers["Data type Dropdown"] == "Income before tax"),
     ["defaultView"],
 ] = "true"
 
