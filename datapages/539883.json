@@ -66,21 +66,17 @@
             "content": "The share of total deaths that were registered with an ill-defined cause of death."
         },
         {
+            "title": "World population living in countries with cause-of-death registration",
+            "url": "https://ourworldindata.org/grapher/cause-of-death-registration-population?country=RUS~NZL~EGY~NIC~IRQ~QAT~CHN~USA~DEU~IND~MYS",
+            "source": "WHO, Global Health Observatory, 2022"
+        },
+        {
             "type": "Data Explorer",
             "title": "Population & Demography Data Explorer",
             "url": "https://ourworldindata.org/explorers/population-and-demography",
             "source": "United Nations, World Population Prospects, 2022"
-        },
-        {
-            "title": "Annual CO2 emissions by world region",
-            "url": "https://ourworldindata.org/grapher/annual-co-emissions-by-region",
-            "source": "Global Carbon Project, 2022"
-        },
-        {
-            "title": "Annual CO2 emissions from cement",
-            "url": "https://ourworldindata.org/grapher/annual-co2-cement",
-            "source": "Global Carbon Project, 2022"
         }
+
     ],
     "relatedCharts": {
         "items": [
