@@ -26,28 +26,20 @@
     },
     "relatedResearch": [
         {
-            "title": "From $1.90 to $2.15 a day: the updated International Poverty Line",
-            "url": "https://ourworldindata.org/from-1-90-to-2-15-a-day-the-updated-international-poverty-line",
+            "title": "World Population Growth",
+            "url": "https://ourworldindata.org/world-population-growth",
             "authors": [
-                "Joe Hasell"
+                "Max Roser, Hannah Ritchie, Esteban Ortiz-Ospina and Lucas Rodés-Guirao"
             ],
-            "imageUrl": "https://ourworldindata.org/uploads/2022/10/Poverty-line-thumbnail-768x402.png"
+            "imageUrl": "https://ourworldindata.org/uploads/2019/10/Screen-Shot-2019-10-31-at-12.02.19-150x103.png"
         },
         {
-            "title": "Extreme poverty: how far have we come, how far do we still have to go?",
-            "url": "https://ourworldindata.org/extreme-poverty-in-brief",
+            "title": "Causes of death",
+            "url": "https://ourworldindata.org/causes-of-death",
             "authors": [
-                "Max Roser"
+                "Hannah Ritchie, Fiona Spooner, Max Roser"
             ],
-            "imageUrl": "https://ourworldindata.org/uploads/2021/11/Featured-Image-for-the-post-768x422.png"
-        },
-        {
-            "title": "The economies that are home to the poorest billions of people need to grow if we want global poverty to decline substantially",
-            "url": "https://ourworldindata.org/poverty-growth-needed",
-            "authors": [
-                "Max Roser"
-            ],
-            "imageUrl": "https://ourworldindata.org/uploads/2021/02/Screen-Shot-2021-02-23-at-11.48.16-768x410.png"
+            "imageUrl": "https://ourworldindata.org/uploads/2019/12/annual-number-of-deaths-by-cause-3-150x106.png"
         }
     ],
     "relatedData": [
