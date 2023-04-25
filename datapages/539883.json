@@ -44,29 +44,28 @@
     ],
     "relatedData": [
         {
+            "title": "Share of deaths for which the cause is registered",
+            "source": "WHO, Global Health Observatory, 2022",
+            "url": "https://ourworldindata.org/grapher/share-of-deaths-cause-is-registered",
+            "content": "The share of deaths that have been registered with a cause of death."
+        },
+        {
+            "title": "Share of births that are registered",
+            "url": "https://ourworldindata.org/grapher/share-of-births-registered",
+            "source": "UNICEF",
+            "content": "The percentage of children under age 5 whose births were registered at the time of the survey."
+        },
+        {
+            "title": "Deaths registered with an ill-defined cause of death",
+            "url": "https://ourworldindata.org/grapher/deaths-registered-with-an-ill-defined-cause-of-death",
+            "source": "WHO, Global Health Observatory, 2022",
+            "content": "The share of total deaths that were registered with an ill-defined cause of death."
+        },
+        {
             "type": "Data Explorer",
-            "imageUrl": "",
-            "title": "CO2 Data Explorer",
-            "source": "Global Carbon Project",
-            "url": "https://ourworldindata.org/explorers/co2",
-            "content": "Compare a range of metrics tracking emissions of  CO2 and other Greenhouse Gas."
-        },
-        {
-            "title": "Consumption-based CO2 emissions per capita",
-            "url": "https://ourworldindata.org/grapher/consumption-co2-per-capita",
-            "source": "PIP",
-            "content": "How do per capita CO2 emissions compare when we adjust for trade?"
-        },
-        {
-            "title": "Annual share of global CO2 emissions",
-            "url": "https://ourworldindata.org/grapher/annual-share-of-co2-emissions",
-            "source": "World Inequality Database",
-            "content": "What share of global CO2 emissions do different countries contribute?"
-        },
-        {
-            "title": "Annual CO2 emissions from land-use change per capita",
-            "url": "https://ourworldindata.org/grapher/co2-land-use-per-capita?country=USA~GBR~European+Union+%2827%29~CHN~IND~AUS~BRA~MEX~IDN",
-            "source": "Global Carbon Project, 2022"
+            "title": "Population & Demography Data Explorer",
+            "url": "https://ourworldindata.org/explorers/population-and-demography",
+            "source": "United Nations, World Population Prospects, 2022"
         },
         {
             "title": "Annual CO2 emissions by world region",
@@ -81,25 +80,6 @@
     ],
     "relatedCharts": {
         "items": [
-            {
-                "title": "People without clean cooking fuels",
-                "slug": "people-without-clean-cooking-fuels-region"
-            },
-            {
-                "title": "Old-age dependency ratio",
-                "slug": "age-dependency-ratio-old",
-                "variantName": "Historical estimates",
-                "isKeyChart": true
-            },
-            {
-                "title": "Value added in the agricultural sector as of GDP vs GDP per capita",
-                "slug": "value-added-in-the-agricultural-sector-as-of-gdp-vs-gdp-per-capita",
-                "variantName": "World Bank"
-            },
-            {
-                "title": "Number of people employed in agriculture",
-                "slug": "number-of-people-employed-in-agriculture"
-            }
         ]
     },
     "faqs": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
