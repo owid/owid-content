@@ -3,30 +3,26 @@
     "showDataPageOnChartIds": [
         5982
     ],
-    "title": "Banana production",
+    "title": "Income share of the top 1%",
     "googleDocEditLink": "https://docs.google.com/document/d/1Is4QMFi_YsOlx75FhbXOfIPGdac4ehI1OcOxo8kXXaY/edit",
     "topicTagsLinks": [
         {
-            "title": "CO2 and greenhouse gas emissions",
-            "url": "https://ourworldindata.org/co2-and-greenhouse-gaz-emissions"
+            "title": "Inequality",
+            "url": "https://ourworldindata.org/income-inequality"
         },
         {
-            "title": "Climate change",
-            "url": "https://ourworldindata.org/climate-change"
-        },
-        {
-            "title": "Energy",
-            "url": "https://ourworldindata.org/energy"
+            "title": "Global economic inequality",
+            "url": "https://ourworldindata.org/global-economic-inequality"
         }
     ],
-    "variantDescription1": "Global Carbon Project",
-    "variantDescription2": "Historical estimates",
-    "nameOfSource": "Global Carbon Project",
-    "owidProcessingLevel": "<a href>Processed and adapted</a> by Our World in Data",
-    "dateRange": "1974-2020",
-    "lastUpdated": "2022-10-03",
-    "nextUpdate": "2023-05-15",
-    "subtitle": "Annual total production-based emissions of carbon dioxide (CO₂), excluding land-use change, measured in tonnes per person. This is based on territorial emissions, which do not account for emissions embedded in traded goods.",
+    "variantDescription1": "World Inequality Database",
+    "variantDescription2": "Before tax",
+    "nameOfSource": "World Inequality Database (WID.world) (2023)",
+    "owidProcessingLevel": "<a href>Processed</a> by Our World in Data",
+    "dateRange": "1820-2021",
+    "lastUpdated": "2023-03-29",
+    "nextUpdate": "2023-06-15",
+    "subtitle": "This is the income of the richest 1% as a share of total income. Income here is measured before the payment and receipt of taxes and benefits. It is also measured after payment of public and private pensions.",
     "keyInfoText": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
     "descriptionFromSource": {
         "title": "How does the Poverty and Inequality Platform (PIP) describe this metric?",
@@ -34,66 +30,42 @@
     },
     "relatedResearch": [
         {
-            "title": "From $1.90 to $2.15 a day: the updated International Poverty Line",
-            "url": "https://ourworldindata.org/from-1-90-to-2-15-a-day-the-updated-international-poverty-line",
+            "title": "Global economic inequality: what matters most for your living conditions is not who you are, but where you are",
+            "url": "https://ourworldindata.org/global-economic-inequality-introduction",
             "authors": [
-                "Joe Hasell"
+                "Max Roser"
             ],
             "imageUrl": "https://ourworldindata.org/uploads/2022/10/Poverty-line-thumbnail-768x402.png"
         },
         {
-            "title": "Extreme poverty: how far have we come, how far do we still have to go?",
-            "url": "https://ourworldindata.org/extreme-poverty-in-brief",
+            "title": "Is income inequality rising around the world?",
+            "url": "https://ourworldindata.org/income-inequality-since-1990",
             "authors": [
-                "Max Roser"
+                "Joe Hasell"
             ],
             "imageUrl": "https://ourworldindata.org/uploads/2021/11/Featured-Image-for-the-post-768x422.png"
-        },
-        {
-            "title": "The economies that are home to the poorest billions of people need to grow if we want global poverty to decline substantially",
-            "url": "https://ourworldindata.org/poverty-growth-needed",
-            "authors": [
-                "Max Roser"
-            ],
-            "imageUrl": "https://ourworldindata.org/uploads/2021/02/Screen-Shot-2021-02-23-at-11.48.16-768x410.png"
         }
     ],
     "relatedData": [
         {
-            "type": "Data Explorer",
-            "imageUrl": "",
-            "title": "CO2 Data Explorer",
-            "source": "Global Carbon Project",
-            "url": "https://ourworldindata.org/explorers/co2",
-            "content": "Compare a range of metrics tracking emissions of  CO2 and other Greenhouse Gas."
-        },
-        {
-            "title": "Consumption-based CO2 emissions per capita",
-            "url": "https://ourworldindata.org/grapher/consumption-co2-per-capita",
-            "source": "PIP",
-            "content": "How do per capita CO2 emissions compare when we adjust for trade?"
-        },
-        {
-            "title": "Annual share of global CO2 emissions",
-            "url": "https://ourworldindata.org/grapher/annual-share-of-co2-emissions",
+            "title": "Income share of the top 1% (after tax)",
+            "url": "https://ourworldindata.org/grapher/income-share-of-the-top-1-after-tax",
             "source": "World Inequality Database",
-            "content": "What share of global CO2 emissions do different countries contribute?"
+            "content": "See how incomes are concentrated after redistribution"
         },
         {
-            "title": "Annual CO2 emissions from land-use change per capita",
-            "url": "https://ourworldindata.org/grapher/co2-land-use-per-capita?country=USA~GBR~European+Union+%2827%29~CHN~IND~AUS~BRA~MEX~IDN",
-            "source": "Global Carbon Project, 2022"
+            "title": "Income share of the top 10% (before tax)",
+            "url": "https://ourworldindata.org/grapher/income-share-of-the-top-10-pretax-national-income",
+            "source": "World Inequality Database",
+            "content": "See how incomes are concentrated in the top 10%"
         },
         {
-            "title": "Annual CO2 emissions by world region",
-            "url": "https://ourworldindata.org/grapher/annual-co-emissions-by-region",
-            "source": "Global Carbon Project, 2022"
-        },
-        {
-            "title": "Annual CO2 emissions from cement",
-            "url": "https://ourworldindata.org/grapher/annual-co2-cement",
-            "source": "Global Carbon Project, 2022"
+            "title": "Income share of the top 10%",
+            "url": "https://ourworldindata.org/grapher/income-share-of-the-top-10-pip",
+            "source": "World Bank PIP",
+            "content": "See how income and consumption are concentrated in the top 10% in the World Bank Poverty and Inequality Platform"
         }
+
     ],
     "relatedCharts": {
         "items": [
@@ -119,7 +91,7 @@
         ]
     },
     "faqs": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
-    "datasetName": "<em>Our World in Data’s Collection</em> of the Global Carbon Budget Data ",
+    "datasetName": "World Inequality Database – Processed by Our World in Data ",
     "datasetDescription": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
     "datasetVariableProcessingInfo": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
     "datasetFeaturedVariables": [
@@ -183,19 +155,11 @@
     },
     "sources": [
         {
-            "sourceName": "Global Carbon Project",
+            "sourceName": "World Inequality Database (WID.world)",
             "sourceDescription": "<p>The annually published Global Carbon Budget is a report produced by a community researchers to announce a global carbon budget quantifying carbon dioxide (CO2) emissions for the prior year. The report determines the input of CO2 to the atmosphere by emissions from human activities, balanced by output (storage) in the carbon reservoirs on land or in the ocean. Thanks to the Global Carbon Budget, the research community can better understand and monitor the global carbon cycle, while the report provides a highly valuable resource within a climate policy framework.</p><p>The Global Carbon Budget is done by the researchers of the Global Carbon Project (GCP), including scientists from the ICOS community. The Global Carbon Budget relies on the ICOS data that is available in different global data networks, such as the World Meteorological Organization's Global Atmosphere Watch (WMO GAW) and Surface Ocean CO2 Atlas (SOCAT).<em>More details at https://www.icos-cp.eu/science-and-impact/global-carbon-budget.</em></p>",
-            "sourceRetrievedOn": "2021-09-01",
-            "sourceRetrievedFromUrl": "https://zenodo.org/record/7215364/files/...",
+            "sourceRetrievedOn": "2023-03-29",
+            "sourceRetrievedFromUrl": "https://wid.world/",
             "sourceCodeUrl": "https://ourworldindata.org/explorers/co2"
-        },
-        {
-            "sourceName": "Hypothetical source 2",
-            "sourceDescription": "<p>The annually published Global Carbon Budget is a report produced by a community researchers to announce a global carbon budget quantifying carbon dioxide (CO2) emissions for the prior year. The report determines the input of CO2 to the atmosphere by emissions from human activities, balanced by output (storage) in the carbon reservoirs on land or in the ocean. Thanks to the Global Carbon Budget, the research community can better understand and monitor the global carbon cycle, while the report provides a highly valuable resource within a climate policy framework.</p><p>The Global Carbon Budget is done by the researchers of the Global Carbon Project (GCP), including scientists from the ICOS community. The Global Carbon Budget relies on the ICOS data that is available in different global data networks, such as the World Meteorological Organization's Global Atmosphere Watch (WMO GAW) and Surface Ocean CO2 Atlas (SOCAT).<em>More details at https://www.icos-cp.eu/science-and-impact/global-carbon-budget.</em></p>"
-        },
-        {
-            "sourceName": "Hypothetical source 3",
-            "sourceDescription": "<p>The annually published Global Carbon Budget is a report produced by a community researchers to announce a global carbon budget quantifying carbon dioxide (CO2) emissions for the prior year. The report determines the input of CO2 to the atmosphere by emissions from human activities, balanced by output (storage) in the carbon reservoirs on land or in the ocean. Thanks to the Global Carbon Budget, the research community can better understand and monitor the global carbon cycle, while the report provides a highly valuable resource within a climate policy framework.</p><p>The Global Carbon Budget is done by the researchers of the Global Carbon Project (GCP), including scientists from the ICOS community. The Global Carbon Budget relies on the ICOS data that is available in different global data networks, such as the World Meteorological Organization's Global Atmosphere Watch (WMO GAW) and Surface Ocean CO2 Atlas (SOCAT).<em>More details at https://www.icos-cp.eu/science-and-impact/global-carbon-budget.</em></p>"
         }
     ],
     "anomaliesListText": "In a <a href=\"https://ourworldindata.org\">separate article</a>, we discuss some unexpected or seemingly anomalous datapoints in this data that have come to our attention."
