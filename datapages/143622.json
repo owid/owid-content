@@ -61,7 +61,6 @@
     "relatedData": [
         {
             "type": "Data Explorer",
-            "imageUrl": "",
             "title": "Habitat Loss Data Explorer",
             "source": "Williams et al. (2021)",
             "url": "https://ourworldindata.org/explorers/habitat-loss",
@@ -69,7 +68,6 @@
         },
         {
             "type": "Data Explorer",
-            "imageUrl": "",
             "title": "Fish Stocks Data Explorer",
             "url": "https://ourworldindata.org/explorers/fish-stocks",
             "source": "RAM Legacy Stock Assessment Database.",
