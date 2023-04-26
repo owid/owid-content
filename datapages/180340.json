@@ -106,6 +106,5 @@
             "sourceRetrievedFromUrl": "https://www.unoosa.org/oosa/osoindex/search-ng.jspx",
             "sourceCodeUrl": "https://github.com/owid/notebooks/tree/main/EdouardMathieu/2021_12_outer_space_objects"
         }
-    ],
-    "anomaliesListText": "In a <a href=\"https://ourworldindata.org\">separate article</a>, we discuss some unexpected or seemingly anomalous datapoints in this data that have come to our attention."
+    ]
 }

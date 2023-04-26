@@ -140,6 +140,5 @@
             "sourceRetrievedFromUrl": "https://zenodo.org/record/7215364/files/...",
             "sourceCodeUrl": "https://ourworldindata.org/explorers/co2"
         }
-    ],
-    "anomaliesListText": "In a <a href=\"https://ourworldindata.org\">separate article</a>, we discuss some unexpected or seemingly anomalous datapoints in this data that have come to our attention."
+    ]
 }
