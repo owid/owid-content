@@ -133,34 +133,6 @@
         }
     ],
     "datasetCodeUrl": "https://ourworldindata.org/explorers/co2",
-    "datasetDownloadOptions": {
-        "basic": [
-            {
-                "csv": {
-                    "description": "Some kind of explanation of what CSVs are used for.",
-                    "url": "https://ourworldindata.org/exports/annual-co2-emissions-per-country-da8ccccaf5fc9d6bab92c3527f0cc596_v44.csv"
-                },
-                "xls": {
-                    "description": "Some kind of explanation of what XLSs are used for.",
-                    "url": "https://ourworldindata.org/exports/annual-co2-emissions-per-country-da8ccccaf5fc9d6bab92c3527f0cc596_v44.xls"
-                }
-            }
-        ],
-        "advanced": [
-            {
-                "type": "code",
-                "title": "Python",
-                "description": "",
-                "codeSnippet": "<pre>from owid import catalog</pre>"
-            },
-            {
-                "type": "url",
-                "title": "URL",
-                "description": "",
-                "url": "https://ourworldindata.org/co2-and-greenhouse-gaz-emissions.csv"
-            }
-        ]
-    },
     "datasetCitation": "Global Carbon Project. (2022). Supplemental data of Global Carbon Budget 2022 (Version 1.0) [Data set]. Global Carbon Project. https://doi.org/10.18160/gcp-2022",
     "datasetLicenseLink": {
         "title": "CC BY 4.0",
