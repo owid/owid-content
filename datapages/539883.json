@@ -9,10 +9,10 @@
         {
             "title": "World Population Growth",
             "url": "https://ourworldindata.org/world-population-growth"
-        }, 
+        },
         {
             "title": "Causes of Death",
-            "url":"https://ourworldindata.org/causes-of-death"
+            "url": "https://ourworldindata.org/causes-of-death"
         }
     ],
     "variantDescription1": "Ariel Karlinsky (2021)",
@@ -76,11 +76,9 @@
             "url": "https://ourworldindata.org/explorers/population-and-demography",
             "source": "United Nations, World Population Prospects, 2022"
         }
-
     ],
     "relatedCharts": {
-        "items": [
-        ]
+        "items": []
     },
     "faqs": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
     "datasetName": "Ariel Karlinsky (2021) – Processed and adapted by Our World in Data",

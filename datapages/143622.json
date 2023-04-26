@@ -72,32 +72,31 @@
             "url": "https://ourworldindata.org/explorers/fish-stocks",
             "source": "RAM Legacy Stock Assessment Database.",
             "content": "Explore available data on the world's fish stocks."
-        }, 
+        },
         {
             "title": "Red List Index",
             "slug": "https://ourworldindata.org/grapher/red-list-index",
             "source": "Birdlife International and International Union for Conservation of Nature",
             "content": "The Red List Index shows trends in overall extinction risk for groups of species."
-            },
+        },
         {
             "title": "Share of species threatened with extinction",
             "slug": "https://ourworldindata.org/grapher/share-threatened-species",
             "source": "International Union for Conservation of Nature"
-            },
-         {
+        },
+        {
             "title": "Number of species evaluated for their level of extinction risk",
             "slug": "https://ourworldindata.org/grapher/number-species-evaluated-iucn",
             "source": "International Union for Conservation of Nature"
-            }  
-        
+        }
     ],
     "relatedCharts": {
-        "items": [  
+        "items": [
             {
-            "title": "Living Planet Index by region",
-            "slug": "living-planet-index-by-region",
-            "variantName": "World Wildlife Fund (WWF) and Zoological Society of London",
-            "isKeyChart": true
+                "title": "Living Planet Index by region",
+                "slug": "living-planet-index-by-region",
+                "variantName": "World Wildlife Fund (WWF) and Zoological Society of London",
+                "isKeyChart": true
             }
         ]
     },
