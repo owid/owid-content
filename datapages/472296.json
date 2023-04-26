@@ -23,8 +23,7 @@
     "nextUpdate": "June 2023",
     "subtitle": "Inequality, as measured by the Gini coefficient – a measure that ranges between 0 and 1, where higher values indicate higher inequality. Depending on the country and year, the data relates to either disposable income or consumption per capita.",
     "descriptionFromSource": {
-        "title": "[NOT USED]",
-        "content": "EDIT IN GDOC: create a heading 1 with the key name 'descriptionFromSource' and add content below it"
+        "title": "[NOT USED]"
     },
     "relatedResearch": [
         {

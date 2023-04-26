@@ -27,8 +27,7 @@
     "nextUpdate": "January 2024",
     "subtitle": "Annual number of satellites, probes, landers, crewed spacecrafts, and space station flight elements, launched into Earth orbit or beyond.",
     "descriptionFromSource": {
-        "title": "How does the source – the United Nations Office for Outer Space Affairs – describe this metric?",
-        "content": "EDIT IN GDOC: create a heading 1 with the key name 'descriptionFromSource' and add content below it"
+        "title": "How does the source – the United Nations Office for Outer Space Affairs – describe this metric?"
     },
     "relatedResearch": [],
     "relatedData": [

@@ -24,8 +24,7 @@
     "nextUpdate": "2023-06-15",
     "subtitle": "This is the income of the richest 1% as a share of total income. Income here is measured before the payment and receipt of taxes and benefits. It is also measured after payment of public and private pensions.",
     "descriptionFromSource": {
-        "title": "How does the Poverty and Inequality Platform (PIP) describe this metric?",
-        "content": "EDIT IN GDOC: create a heading 1 with the key name 'descriptionFromSource' and add content below it"
+        "title": "How does the Poverty and Inequality Platform (PIP) describe this metric?"
     },
     "relatedResearch": [
         {
