@@ -127,10 +127,6 @@
             "variableSubtitle": "Subscriptions to fixed access to the public Internet with a download speed of at least 256 kbit/s."
         }
     ],
-    "datasetSeeAllVariablesLink": {
-        "title": "See all 500 metrics",
-        "url": "https://ourworldindata.org/explorers/co2"
-    },
     "datasetCodeUrl": "https://ourworldindata.org/explorers/co2",
     "datasetDownloadOptions": {
         "basic": [

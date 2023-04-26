@@ -138,10 +138,6 @@
             "variableSubtitle": "Share of global CO₂ emissions"
         }
     ],
-    "datasetSeeAllVariablesLink": {
-        "title": "See all 128 metrics",
-        "url": "https://ourworldindata.org/explorers/co2"
-    },
     "datasetCodeUrl": "https://ourworldindata.org/explorers/co2",
     "datasetDownloadOptions": {
         "basic": [

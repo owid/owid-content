@@ -125,10 +125,6 @@
             "variableSubtitle": "Mean income or consumption per day. This data is adjusted for inflation and for differences in the cost of living between countries."
         }
     ],
-    "datasetSeeAllVariablesLink": {
-        "title": "See all 128 metrics",
-        "url": "https://ourworldindata.org/explorers/co2"
-    },
     "datasetCodeUrl": "https://ourworldindata.org/explorers/co2",
     "datasetDownloadOptions": {
         "basic": [
