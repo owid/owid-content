@@ -84,7 +84,6 @@
         ]
     },
     "datasetName": "United Nations - Online Index of Objects Launched into Outer Space – Processed and adapted by Our World in Data",
-    "datasetVariableProcessingInfo": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
     "datasetFeaturedVariables": [
         {
             "variableName": "Annual number of objects launched into space"

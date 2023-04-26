@@ -104,7 +104,6 @@
         ]
     },
     "datasetName": "World Bank Poverty and Inequality Platform Dataset – Processed and adapted by Our World in Data",
-    "datasetVariableProcessingInfo": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
     "datasetFeaturedVariables": [
         {
             "variableName": "Share of population below 60% of median income or consumption"

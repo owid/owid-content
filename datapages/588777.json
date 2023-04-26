@@ -111,7 +111,6 @@
         ]
     },
     "datasetName": "<em>Our World in Data’s Collection</em> of the Global Carbon Budget Data ",
-    "datasetVariableProcessingInfo": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
     "datasetFeaturedVariables": [
         {
             "variableName": "Annual CO₂ emissions per capita"

@@ -109,7 +109,6 @@
         ]
     },
     "datasetName": "World Bank World Development Indicators – Processed by Our World in Data",
-    "datasetVariableProcessingInfo": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
     "datasetFeaturedVariables": [
         {
             "variableName": "Share of the population using the Internet"
