@@ -49,37 +49,27 @@
         {
             "type": "Data Explorer",
             "imageUrl": "",
-            "title": "CO2 Data Explorer",
-            "source": "Global Carbon Project",
-            "url": "https://ourworldindata.org/explorers/co2",
-            "content": "Compare a range of metrics tracking emissions of  CO2 and other Greenhouse Gas."
+            "title": "Share of people who say they are happy",
+            "source": "World Value Survey",
+            "url": "https://ourworldindata.org/grapher/share-of-people-who-say-they-are-happy",
+            "content": "See estimates for a different measure of self-reported wellbeing from a another global survey"
         },
         {
-            "title": "Consumption-based CO2 emissions per capita",
-            "url": "https://ourworldindata.org/grapher/consumption-co2-per-capita",
-            "source": "PIP",
-            "content": "How do per capita CO2 emissions compare when we adjust for trade?"
+            "title": "Share who say they are 'very satisfied' or 'fairly satisfied' with their life",
+            "url": "https://ourworldindata.org/grapher/share-of-people-who-say-they-are-happy-Eurobarometer",
+            "source": "Eurobarometer",
+            "content": "Data on self-reported life satisfaction using an alternative survey question, collected within European countries."
         },
         {
-            "title": "Annual share of global CO2 emissions",
-            "url": "https://ourworldindata.org/grapher/annual-share-of-co2-emissions",
-            "source": "World Inequality Database",
-            "content": "What share of global CO2 emissions do different countries contribute?"
+            "title": "Conditional correlation between log income and life satisfaction",
+            "url": "https://ourworldindata.org/grapher/correlation-income-and-life-satisfaction",
+            "source": "World Happiness Report (2017)",
+            "content": "How strong is the correlation between people's income and the life satisfaction they report, accounting for other factors?"
         },
         {
-            "title": "Annual CO2 emissions from land-use change per capita",
-            "url": "https://ourworldindata.org/grapher/co2-land-use-per-capita?country=USA~GBR~European+Union+%2827%29~CHN~IND~AUS~BRA~MEX~IDN",
-            "source": "Global Carbon Project, 2022"
-        },
-        {
-            "title": "Annual CO2 emissions by world region",
-            "url": "https://ourworldindata.org/grapher/annual-co-emissions-by-region",
-            "source": "Global Carbon Project, 2022"
-        },
-        {
-            "title": "Annual CO2 emissions from cement",
-            "url": "https://ourworldindata.org/grapher/annual-co2-cement",
-            "source": "Global Carbon Project, 2022"
+            "title": "Conditional correlation between log income and mental illness",
+            "url": "https://ourworldindata.org/grapher/correlation-mental-illness-and-life-satisfaction",
+            "source": "World Happiness Report (2017)"
         }
     ],
     "relatedCharts": {
