@@ -101,7 +101,6 @@
     "sources": [
         {
             "sourceName": "United Nations Office for Outer Space Affairs, Online Index of Objects Launched into Outer Space",
-            "sourceDescription": "<p>The Online Index of Objects Launched into Outer Space is a register of objects launched into outer space maintained by the United Nations Office for Outer Space Affairs since 1962.</p>",
             "sourceRetrievedOn": "2023-01-03",
             "sourceRetrievedFromUrl": "https://www.unoosa.org/oosa/osoindex/search-ng.jspx",
             "sourceCodeUrl": "https://github.com/owid/notebooks/tree/main/EdouardMathieu/2021_12_outer_space_objects"

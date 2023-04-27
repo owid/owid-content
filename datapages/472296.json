@@ -174,7 +174,6 @@
     "sources": [
         {
             "sourceName": "World Bank Poverty and Inequality Platform",
-            "sourceDescription": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
             "sourceRetrievedOn": "2022-10-03",
             "sourceRetrievedFromUrl": "https://pip.worldbank.org/",
             "sourceCodeUrl": "https://ourworldindata.org/explorers/co2"

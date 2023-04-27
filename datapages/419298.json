@@ -130,7 +130,6 @@
         }
     ],
     "datasetCodeUrl": "https://ourworldindata.org/explorers/co2",
-
     "datasetLicenseLink": {
         "title": "CC BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -138,7 +137,6 @@
     "sources": [
         {
             "sourceName": "V-Dem",
-            "sourceDescription": "Varieties of Democracy (V-Dem) is a a multidimensional and disaggregated dataset that reflects the complexity of the concept of democracy as a system of rule that goes beyond the simple presence of elections. The V-Dem project distinguishes between five high-level principles of democracy: electoral, liberal, participatory, deliberative, and egalitarian, and collects data to measure these principles.<em>More details at https://v-dem.net/.</em></p>",
             "sourceRetrievedOn": "2023-03-02",
             "sourceRetrievedFromUrl": "http://v-dem.net/vdemds.html",
             "sourceCodeUrl": "https://github.com/owid/notebooks/tree/main/BastianHerre/democracy"

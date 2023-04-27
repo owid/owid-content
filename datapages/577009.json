@@ -161,7 +161,6 @@
     "sources": [
         {
             "sourceName": "World Happiness Report (2023)",
-            "sourceDescription": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
             "sourceRetrievedOn": "2023-03-20",
             "sourceRetrievedFromUrl": "https://happiness-report.s3.amazonaws.com/2023/DataForFigure2.1WHR2023.xls",
             "sourceCodeUrl": "https://ourworldindata.org/explorers/co2"
