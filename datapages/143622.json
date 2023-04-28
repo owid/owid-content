@@ -99,7 +99,6 @@
         ]
     },
     "datasetName": "Living Planet Index – Processed by Our World in Data",
-    "datasetCodeUrl": "https://ourworldindata.org/explorers/co2",
     "datasetLicenseLink": {
         "title": "CC BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
