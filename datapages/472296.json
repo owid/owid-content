@@ -145,27 +145,6 @@
         ]
     },
     "datasetName": "World Bank Poverty and Inequality Platform Dataset – Processed and adapted by Our World in Data",
-    "datasetFeaturedVariables": [
-        {
-            "variableName": "Gini coefficient"
-        },
-        {
-            "variableName": "Share of population living on less than $30 a day",
-            "variableSubtitle": "The share of population living below $30 per day. This data is adjusted for inflation and for differences in the cost of living between countries."
-        },
-        {
-            "variableName": "Poverty gap index at $2.15 a day",
-            "variableSubtitle": "A measure that reflects both the prevalence and the depth of poverty, as measured by the International Poverty Line of $2.15 per day. It is calculated as the mean shortfall from the poverty line counting the non-poor as having zero shortfall, and expressed as a percentage of the poverty line."
-        },
-        {
-            "variableName": "Share of income or consumption received by the richest 10%",
-            "variableSubtitle": "The income or consumption received by the richest 10% of households, as a share of the total."
-        },
-        {
-            "variableName": "Median income or consumption per day",
-            "variableSubtitle": "Mean income or consumption per day. This data is adjusted for inflation and for differences in the cost of living between countries."
-        }
-    ],
     "datasetCodeUrl": "https://ourworldindata.org/explorers/co2",
     "datasetLicenseLink": {
         "title": "CC BY 4.0",

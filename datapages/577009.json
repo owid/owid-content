@@ -99,27 +99,6 @@
     "datasetName": "World Happiness Report (2023) – Processed by <em>Our World in Data</em>",
     "datasetDescription": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
     "datasetVariableProcessingInfo": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
-    "datasetFeaturedVariables": [
-        {
-            "variableName": "Annual CO₂ emissions per capita"
-        },
-        {
-            "variableName": "Annual consumption-based CO₂ emissions",
-            "variableSubtitle": "CO₂ emissions from fossil fuels and industry, adjusted for trade"
-        },
-        {
-            "variableName": "Annual CO₂ emissions from cement",
-            "variableSubtitle": "CO₂ emissions from cement production"
-        },
-        {
-            "variableName": "Annual CO₂ emissions from land-use change per capita",
-            "variableSubtitle": "CO₂ emissions from land-use change"
-        },
-        {
-            "variableName": "Annual share of global CO₂ emissions",
-            "variableSubtitle": "Share of global CO₂ emissions"
-        }
-    ],
     "datasetSeeAllVariablesLink": {
         "title": "See all 128 metrics",
         "url": "https://ourworldindata.org/explorers/co2"
