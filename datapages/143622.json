@@ -99,10 +99,6 @@
         ]
     },
     "datasetName": "Living Planet Index – Processed by Our World in Data",
-    "datasetLicenseLink": {
-        "title": "CC BY 4.0",
-        "url": "https://creativecommons.org/licenses/by/4.0/"
-    },
     "sources": [
         {
             "sourceName": "Global Carbon Project",

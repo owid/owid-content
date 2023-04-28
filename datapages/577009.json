@@ -132,10 +132,6 @@
         ]
     },
     "datasetCitation": "Global Carbon Project. (2022). Supplemental data of Global Carbon Budget 2022 (Version 1.0) [Data set]. Global Carbon Project. https://doi.org/10.18160/gcp-2022",
-    "datasetLicenseLink": {
-        "title": "Licensing and copyright",
-        "url": "https://ourworldindata.org/faqs#how-is-your-work-copyrighted"
-    },
     "sources": [
         {
             "sourceName": "World Happiness Report (2023)",
