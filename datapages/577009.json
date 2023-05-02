@@ -18,7 +18,6 @@
     "lastUpdated": "2023-03-20",
     "nextUpdate": "Summer 2024",
     "subtitle": "Average of survey responses to the 'Cantril Ladder' question in the Gallup World Poll. The survey question asks respondents to think of a ladder, with the best possible life for them being a 10, and the worst possible life being a 0.",
-    "keyInfoText": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
     "relatedResearch": [
         {
             "title": "Collective pessimism and our inability to guess the happiness of others",
@@ -95,43 +94,7 @@
             }
         ]
     },
-    "faqs": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
     "datasetName": "World Happiness Report (2023) – Processed by <em>Our World in Data</em>",
-    "datasetDescription": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
-    "datasetVariableProcessingInfo": "EDIT IN GDOC: create a heading 1 with this key name and add content below it",
-    "datasetSeeAllVariablesLink": {
-        "title": "See all 128 metrics",
-        "url": "https://ourworldindata.org/explorers/co2"
-    },
-    "datasetDownloadOptions": {
-        "basic": [
-            {
-                "csv": {
-                    "description": "Some kind of explanation of what CSVs are used for.",
-                    "url": "https://ourworldindata.org/exports/annual-co2-emissions-per-country-da8ccccaf5fc9d6bab92c3527f0cc596_v44.csv"
-                },
-                "xls": {
-                    "description": "Some kind of explanation of what XLSs are used for.",
-                    "url": "https://ourworldindata.org/exports/annual-co2-emissions-per-country-da8ccccaf5fc9d6bab92c3527f0cc596_v44.xls"
-                }
-            }
-        ],
-        "advanced": [
-            {
-                "type": "code",
-                "title": "Python",
-                "description": "",
-                "codeSnippet": "<pre>from owid import catalog</pre>"
-            },
-            {
-                "type": "url",
-                "title": "URL",
-                "description": "",
-                "url": "https://ourworldindata.org/co2-and-greenhouse-gaz-emissions.csv"
-            }
-        ]
-    },
-    "datasetCitation": "Global Carbon Project. (2022). Supplemental data of Global Carbon Budget 2022 (Version 1.0) [Data set]. Global Carbon Project. https://doi.org/10.18160/gcp-2022",
     "sources": [
         {
             "sourceName": "World Happiness Report (2023)",
@@ -139,6 +102,5 @@
             "sourceRetrievedFromUrl": "https://happiness-report.s3.amazonaws.com/2023/DataForFigure2.1WHR2023.xls",
             "sourceCodeUrl": "https://ourworldindata.org/explorers/co2"
         }
-    ],
-    "anomaliesListText": "In a <a href=\"https://ourworldindata.org\">separate article</a>, we discuss some unexpected or seemingly anomalous datapoints in this data that have come to our attention."
+    ]
 }
