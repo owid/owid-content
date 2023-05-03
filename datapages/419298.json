@@ -29,15 +29,15 @@
             "authors": [
                 "Bastian Herre"
             ],
-            "imageUrl": "https://ourworldindata.org/uploads/2021/11/Featured-Image-for-the-post-768x422.png"
+            "imageUrl": "https://ourworldindata.org/uploads/2022/06/democracies_measurement.png"
         },
         {
-            "title": "The ‘Varieties of Democracy’ data: how do researchers measure democracy?",
-            "url": "https://ourworldindata.org/vdem-electoral-democracy-data",
+            "title": "People around the world have gained democratic rights, but some have many more rights than others",
+            "url": "https://ourworldindata.org/democratic-world",
             "authors": [
                 "Bastian Herre"
             ],
-            "imageUrl": "https://ourworldindata.org/uploads/2022/10/Poverty-line-thumbnail-768x402.png"
+            "imageUrl": "https://ourworldindata.org/uploads/2022/07/democratic_world-e1657029841780.png"
         },
         {
             "title": "The world has recently become less democratic",
@@ -45,15 +45,7 @@
             "authors": [
                 "Bastian Herre"
             ],
-            "imageUrl": "https://ourworldindata.org/uploads/2021/02/Screen-Shot-2021-02-23-at-11.48.16-768x410.png"
-        },
-        {
-            "title": "200 years ago, everyone lacked democratic rights. Now, billions of people have them",
-            "url": "https://ourworldindata.org/democratic-rights",
-            "authors": [
-                "Bastian Herre"
-            ],
-            "imageUrl": "https://ourworldindata.org/uploads/2021/02/Screen-Shot-2021-02-23-at-11.48.16-768x410.png"
+            "imageUrl": "https://ourworldindata.org/uploads/2022/09/less-democratic2-e1662990170102.png"
         }
     ],
     "relatedData": [
