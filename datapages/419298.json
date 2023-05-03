@@ -24,14 +24,6 @@
     },
     "relatedResearch": [
         {
-            "title": "Democracy data: how do researchers measure democracy?",
-            "url": "https://ourworldindata.org/democracies-measurement",
-            "authors": [
-                "Bastian Herre"
-            ],
-            "imageUrl": "https://ourworldindata.org/uploads/2022/06/democracies_measurement.png"
-        },
-        {
             "title": "People around the world have gained democratic rights, but some have many more rights than others",
             "url": "https://ourworldindata.org/democratic-world",
             "authors": [
@@ -46,6 +38,14 @@
                 "Bastian Herre"
             ],
             "imageUrl": "https://ourworldindata.org/uploads/2022/09/less-democratic2-e1662990170102.png"
+        },
+        {
+            "title": "Democracy data: how do researchers measure democracy?",
+            "url": "https://ourworldindata.org/democracies-measurement",
+            "authors": [
+                "Bastian Herre"
+            ],
+            "imageUrl": "https://ourworldindata.org/uploads/2022/06/democracies_measurement.png"
         }
     ],
     "relatedData": [
