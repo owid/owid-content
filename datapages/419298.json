@@ -58,34 +58,34 @@
             "content": "Explore the world's political systems with the leading approaches of measuring democracy."
         },
         {
-            "title": "Distribution of electoral democracy",
+            "title": "Distribution of the electoral democracy index",
             "url": "https://ourworldindata.org/grapher/distribution-electoral-democracy-vdem",
             "source": "V-Dem",
             "content": "How democratic are countries relative to each other?"
         },
         {
-            "title": "Distribution of electoral democracy (weighted by population)",
+            "title": "Distribution of the electoral democracy index (weighted by population)",
             "url": "hhttps://ourworldindata.org/grapher/distribution-electoral-democracy-popw-vdem",
             "source": "V-Dem",
             "content": "How democratic are countries with large and small populations?"
         },
         {
-            "title": "Liberal democracy",
+            "title": "Liberal democracy index",
             "url": "https://ourworldindata.org/grapher/liberal-democracy",
             "source": "V-Dem"
         },
         {
-            "title": "Participatory democracy",
+            "title": "Participatory democracy index",
             "url": "https://ourworldindata.org/grapher/participatory-democracy-vdem",
             "source": "V-Dem"
         },
         {
-            "title": "Deliberative democracy",
+            "title": "Deliberative democracy index",
             "url": "https://ourworldindata.org/grapher/deliberative-democracy-vdem",
             "source": "V-Dem"
         },
         {
-            "title": "Egalitarian democracy",
+            "title": "Egalitarian democracy index",
             "url": "https://ourworldindata.org/grapher/egalitarian-democracy-vdem",
             "source": "V-Dem"
         }
