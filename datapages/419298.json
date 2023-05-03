@@ -61,19 +61,33 @@
             "title": "Distribution of electoral democracy",
             "url": "https://ourworldindata.org/grapher/distribution-electoral-democracy-vdem",
             "source": "V-Dem",
-            "content": "How the electoral democracy index is distributed?"
+            "content": "How democratic are countries relative to each other?"
         },
         {
-            "title": "Countries that are democracies and autocracies",
-            "url": "https://ourworldindata.org/grapher/countries-democracies-autocracies-row",
-            "source": "Regimes of the World",
-            "content": "Which percentage of each global region is a democracy or autocracy?"
+            "title": "Distribution of electoral democracy (weighted by population)",
+            "url": "hhttps://ourworldindata.org/grapher/distribution-electoral-democracy-popw-vdem",
+            "source": "V-Dem",
+            "content": "How democratic are countries with large and small populations?"
         },
         {
             "title": "Liberal democracy",
             "url": "https://ourworldindata.org/grapher/liberal-democracy",
             "source": "V-Dem",
-            "content": "How liberal are the political systems of the world?"
+        },
+        {
+            "title": "Participatory democracy",
+            "url": "https://ourworldindata.org/grapher/participatory-democracy-vdem",
+            "source": "V-Dem",
+        },
+        {
+            "title": "Deliberative democracy",
+            "url": "https://ourworldindata.org/grapher/deliberative-democracy-vdem",
+            "source": "V-Dem",
+        },
+        {
+            "title": "Egalitarian democracy",
+            "url": "https://ourworldindata.org/grapher/egalitarian-democracy-vdem",
+            "source": "V-Dem",
         }
     ],
     "relatedCharts": {
