@@ -72,12 +72,22 @@
         {
             "title": "Liberal democracy",
             "url": "https://ourworldindata.org/grapher/liberal-democracy",
-            "source": "V-Dem",
+            "source": "V-Dem"
         },
         {
             "title": "Participatory democracy",
             "url": "https://ourworldindata.org/grapher/participatory-democracy-vdem",
-            "source": "V-Dem",
+            "source": "V-Dem"
+        },
+        {
+            "title": "Deliberative democracy",
+            "url": "https://ourworldindata.org/grapher/deliberative-democracy-vdem",
+            "source": "V-Dem"
+        },
+        {
+            "title": "Egalitarian democracy",
+            "url": "https://ourworldindata.org/grapher/egalitarian-democracy-vdem",
+            "source": "V-Dem"
         }
     ],
     "relatedCharts": {
