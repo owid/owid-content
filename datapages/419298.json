@@ -68,6 +68,16 @@
             "url": "hhttps://ourworldindata.org/grapher/distribution-electoral-democracy-popw-vdem",
             "source": "V-Dem",
             "content": "How democratic are countries with large and small populations?"
+        },
+        {
+            "title": "Liberal democracy",
+            "url": "https://ourworldindata.org/grapher/liberal-democracy",
+            "source": "V-Dem",
+        },
+        {
+            "title": "Participatory democracy",
+            "url": "https://ourworldindata.org/grapher/participatory-democracy-vdem",
+            "source": "V-Dem",
         }
     ],
     "relatedCharts": {
