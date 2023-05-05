@@ -25,8 +25,8 @@
     "owidProcessingLevel": "<a href>Processed and adapted</a> by Our World in Data",
     "dateRange": "1990-2020",
     "lastUpdated": "2023-04-28",
-    "nextUpdate": "2023-05-15",
-    "subtitle": "Annual total production-based emissions of carbon dioxide (CO₂), excluding land-use change, measured in tonnes per person. This is based on territorial emissions, which do not account for emissions embedded in traded goods.",
+    "nextUpdate": "2023-11-11",
+    "subtitle": "[Consumption-based emissions](hover::general::consumptionbasedemissions) are national emissions that have been adjusted for trade. It's production-based emissions minus emissions embedded in exports, plus emissions embedded in imports. Emissions are measured in tonnes per capita.",
     "descriptionFromSource": {
         "title": "How does the Poverty and Inequality Platform (PIP) describe this metric?",
         "content": "EDIT IN GDOC: create a heading 1 with the key name 'descriptionFromSource' and add content below it"
