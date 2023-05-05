@@ -101,10 +101,10 @@
     "datasetName": "Living Planet Index – Processed by Our World in Data",
     "sources": [
         {
-            "sourceName": "Global Carbon Project",
-            "sourceRetrievedOn": "2021-09-01",
-            "sourceRetrievedFromUrl": "https://zenodo.org/record/7215364/files/...",
-            "sourceCodeUrl": "https://ourworldindata.org/explorers/co2"
+            "sourceName": "Zoological Society of London",
+            "sourceRetrievedOn": "2022-10-13",
+            "sourceRetrievedFromUrl": "https://stats.livingplanetindex.org/",
+            "sourceCodeUrl": ""
         },
         {
             "sourceName": "Hypothetical source 2"
