@@ -43,6 +43,41 @@
             "imageUrl": "https://ourworldindata.org/uploads/2020/08/CO2-Landing-page-150x79.png"
         },
         {
+            "title": "How do CO2 emissions compare when we adjust for trade?",
+            "url": "https://ourworldindata.org/consumption-based-co2",
+            "authors": [
+                "Hannah Ritchie"
+            ],
+            "imageUrl": "https://ourworldindata.org/uploads/2019/10/production-vs-consumption-co2-emissions-3-150x106.png"
+        },
+        {
+            "title": "CO2 emissions",
+            "url": "https://ourworldindata.org/co2-emissions",
+            "authors": [
+                "Hannah Ritchie",
+                "Max Roser"
+            ],
+            "imageUrl": "https://ourworldindata.org/uploads/2022/03/Screenshot-2022-03-04-at-16.51.31-150x94.png"
+        },
+        {
+            "title": "CO2 emissions by fuel",
+            "url": "https://ourworldindata.org/emissions-by-fuel",
+            "authors": [
+                "Hannah Ritchie",
+                "Max Roser"
+            ],
+            "imageUrl": "https://ourworldindata.org/uploads/2020/08/CO2-by-source-150x106.png"
+        },
+        {
+            "title": "Greenhouse gas emissions",
+            "url": "https://ourworldindata.org/greenhouse-gas-emissions",
+            "authors": [
+                "Hannah Ritchie",
+                "Max Roser"
+            ],
+            "imageUrl": "https://ourworldindata.org/uploads/2020/08/Global-GHG-Emissions-by-gas-150x50.png"
+        },        
+        {
             "title": "Energy",
             "url": "https://ourworldindata.org/energy",
             "authors": [
@@ -53,13 +88,13 @@
             "imageUrl": "https://ourworldindata.org/uploads/2021/02/Energy-150x79.png"
         },
         {
-            "title": "CO2 emissions by fuel",
-            "url": "https://ourworldindata.org/emissions-by-fuel",
+            "title": "Emissions drivers",
+            "url": "https://ourworldindata.org/emissions-drivers",
             "authors": [
                 "Hannah Ritchie",
                 "Max Roser"
             ],
-            "imageUrl": "https://ourworldindata.org/uploads/2020/08/CO2-by-source-150x106.png"
+            "imageUrl": "https://ourworldindata.org/uploads/2020/08/kaya-identity-co2-1-150x106.png"
         }
     ],
     "relatedData": [
