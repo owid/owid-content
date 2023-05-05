@@ -43,20 +43,23 @@
             "imageUrl": "https://ourworldindata.org/uploads/2020/08/CO2-Landing-page-150x79.png"
         },
         {
-            "title": "Extreme poverty: how far have we come, how far do we still have to go?",
-            "url": "https://ourworldindata.org/extreme-poverty-in-brief",
+            "title": "Energy",
+            "url": "https://ourworldindata.org/energy",
             "authors": [
-                "Max Roser"
+                "Hannah Ritchie",
+                "Max Roser",
+                "Pablo Rosado"
             ],
-            "imageUrl": "https://ourworldindata.org/uploads/2021/11/Featured-Image-for-the-post-768x422.png"
+            "imageUrl": "https://ourworldindata.org/uploads/2021/02/Energy-150x79.png"
         },
         {
-            "title": "The economies that are home to the poorest billions of people need to grow if we want global poverty to decline substantially",
-            "url": "https://ourworldindata.org/poverty-growth-needed",
+            "title": "CO2 emissions by fuel",
+            "url": "https://ourworldindata.org/emissions-by-fuel",
             "authors": [
+                "Hannah Ritchie",
                 "Max Roser"
             ],
-            "imageUrl": "https://ourworldindata.org/uploads/2021/02/Screen-Shot-2021-02-23-at-11.48.16-768x410.png"
+            "imageUrl": "https://ourworldindata.org/uploads/2020/08/CO2-by-source-150x106.png"
         }
     ],
     "relatedData": [
