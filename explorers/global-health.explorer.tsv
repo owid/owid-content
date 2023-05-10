@@ -28,7 +28,6 @@ graphers
 	5582	Child health	Childhood stunting	Number of children	UNICEF/WHO
 	4579	Child health	Childhood stunting	Number of children	IHME
 	792	Child health	Childhood wasting	Share of children	UNICEF/WHO
-	2837	Child health	Childhood wasting	Share of children	IHME
 	4580	Child health	Childhood wasting	Number of children	UNICEF/WHO
 	4581	Child health	Childhood wasting	Number of children	IHME
 	790	Child health	Children underweight	Share of children	UNICEF/WHO
@@ -47,7 +46,6 @@ graphers
 	1375	Maternal health	Access to modern contraceptives	Rate	World Bank
 	1372	Maternal health	Prevalence of modern contraceptives	Rate	World Bank
 	1596	Maternal health	Skilled attendant at delivery	Share of births	UNICEF
-	3483	Maternal health	Skilled attendant at delivery	Share of births	IHME
 	6027	Deaths and DALYs	Total deaths	Number of deaths	UN WPP
 	6067	Deaths and DALYs	Total deaths	Number of deaths	WHO (GHE)
 	6099	Deaths and DALYs	Total deaths	Number of deaths	IHME
