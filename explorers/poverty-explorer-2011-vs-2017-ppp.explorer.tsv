@@ -203,7 +203,6 @@ graphers
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_vs/final/OWID_internal_upload/explorer_database/inc_or_cons/poverty_inc_or_cons.csv	inc_or_cons
 columns	inc_or_cons
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Share of population below $1 a day (2011 prices)	headcount_ratio_100_ppp2011	World Bank Poverty and Inequality Platform	% of population living in households with an income or consumption per person below $1 a day (2011 prices).	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
 	Share of population below $1.90 a day (2011 prices)	headcount_ratio_190_ppp2011	World Bank Poverty and Inequality Platform	% of population living in households with an income or consumption per person below $1.90 a day (2011 prices).	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
@@ -260,7 +259,6 @@ columns	inc_or_cons
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_vs/final/OWID_internal_upload/explorer_database/inc_only/poverty_inc_only.csv	inc_only
 columns	inc_only
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Share of population below $1 a day (2011 prices)	headcount_ratio_100_ppp2011	World Bank Poverty and Inequality Platform	% of population living in households with an income per person below $1 a day (2011 prices).	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
 	Share of population below $1.90 a day (2011 prices)	headcount_ratio_190_ppp2011	World Bank Poverty and Inequality Platform	% of population living in households with an income per person below $1.90 a day (2011 prices).	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
@@ -317,7 +315,6 @@ columns	inc_only
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_vs/final/OWID_internal_upload/explorer_database/cons_only/poverty_cons_only.csv	cons_only
 columns	cons_only
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Share of population below $1 a day (2011 prices)	headcount_ratio_100_ppp2011	World Bank Poverty and Inequality Platform	% of population living in households with an consumption per person below $1 a day (2011 prices).	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
 	Share of population below $1.90 a day (2011 prices)	headcount_ratio_190_ppp2011	World Bank Poverty and Inequality Platform	% of population living in households with an consumption per person below $1.90 a day (2011 prices).	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
