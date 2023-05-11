@@ -23,7 +23,7 @@
             "url": "https://ourworldindata.org/famines"
         }
     ],
-    "variantDescription1": "UN",
+    "variantDescription1": "UNICEF/WHO",
     "variantDescription2": "",
     "nameOfSource": "UNICEF, World Health Organization and World Bank",
     "owidProcessingLevel": "<a href>Processed</a> by Our World in Data",
@@ -63,11 +63,10 @@
     "relatedData": [
         {
             "type": "Data Explorer",
-            "imageUrl": "",
-            "title": "CO2 Data Explorer",
-            "source": "Global Carbon Project",
-            "url": "https://ourworldindata.org/explorers/co2",
-            "content": "Compare a range of metrics tracking emissions of  CO2 and other Greenhouse Gas."
+            "imageUrl": "https://ourworldindata.org/uploads/2022/10/Global-Health-Explorer.png",
+            "title": "Global Health Explorer",
+            "url": "https://ourworldindata.org/explorers/global-health?facet=none&country=OWID_WRL~CHN~ZAF~BRA~USA~GBR~IND~RWA&Health+Area=Child+health&Indicator=Childhood+stunting&Metric=Share+of+children&Source=UNICEF%2FWHO",
+            "content": "Explore a wide range of metrics on global health and healthcare."
         },
         {
             "title": "Consumption-based CO2 emissions per capita",
