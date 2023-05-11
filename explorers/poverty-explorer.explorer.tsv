@@ -175,7 +175,6 @@ graphers
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/inc_or_cons/poverty_inc_or_cons.csv	inc_or_cons
 columns	inc_or_cons
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Share below $1 a day	headcount_ratio_100	World Bank Poverty and Inequality Platform	% of population living in households with an income or consumption per person below $1 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
 	Share below $2.15 a day	headcount_ratio_215	World Bank Poverty and Inequality Platform	% of population living in households with an income or consumption per person below $2.15 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
@@ -206,7 +205,6 @@ columns	inc_or_cons
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/inc_only/poverty_inc_only.csv	inc_only
 columns	inc_only
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Share below $1 a day	headcount_ratio_100	World Bank Poverty and Inequality Platform	% of population living in households with an income per person below $1 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
 	Share below $2.15 a day	headcount_ratio_215	World Bank Poverty and Inequality Platform	% of population living in households with an income per person below $2.15 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
@@ -237,7 +235,6 @@ columns	inc_only
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/cons_only/poverty_cons_only.csv	cons_only
 columns	cons_only
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Share below $1 a day	headcount_ratio_100	World Bank Poverty and Inequality Platform	% of population living in households with an consumption per person below $1 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
 	Share below $2.15 a day	headcount_ratio_215	World Bank Poverty and Inequality Platform	% of population living in households with an consumption per person below $2.15 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
@@ -268,7 +265,6 @@ columns	cons_only
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_or_cons/headcount_ratio_100.csv	inc_or_cons_headcount_ratio_100
 columns	inc_or_cons_headcount_ratio_100
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	% of population living in households with an income or consumption per person below $1 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	% of population living in households with an income or consumption per person below $1 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
@@ -286,7 +282,6 @@ columns	inc_or_cons_headcount_ratio_100
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_only/headcount_ratio_100.csv	inc_only_headcount_ratio_100
 columns	inc_only_headcount_ratio_100
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	% of population living in households with an income per person below $1 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	% of population living in households with an income per person below $1 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
@@ -304,7 +299,6 @@ columns	inc_only_headcount_ratio_100
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/cons_only/headcount_ratio_100.csv	cons_only_headcount_ratio_100
 columns	cons_only_headcount_ratio_100
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	% of population living in households with an consumption per person below $1 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	% of population living in households with an consumption per person below $1 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
@@ -322,7 +316,6 @@ columns	cons_only_headcount_ratio_100
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_or_cons/headcount_ratio_215.csv	inc_or_cons_headcount_ratio_215
 columns	inc_or_cons_headcount_ratio_215
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	% of population living in households with an income or consumption per person below $2.15 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	% of population living in households with an income or consumption per person below $2.15 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
@@ -340,7 +333,6 @@ columns	inc_or_cons_headcount_ratio_215
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_only/headcount_ratio_215.csv	inc_only_headcount_ratio_215
 columns	inc_only_headcount_ratio_215
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	% of population living in households with an income per person below $2.15 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	% of population living in households with an income per person below $2.15 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
@@ -358,7 +350,6 @@ columns	inc_only_headcount_ratio_215
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/cons_only/headcount_ratio_215.csv	cons_only_headcount_ratio_215
 columns	cons_only_headcount_ratio_215
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	% of population living in households with an consumption per person below $2.15 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	% of population living in households with an consumption per person below $2.15 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
@@ -376,7 +367,6 @@ columns	cons_only_headcount_ratio_215
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_or_cons/headcount_ratio_365.csv	inc_or_cons_headcount_ratio_365
 columns	inc_or_cons_headcount_ratio_365
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	% of population living in households with an income or consumption per person below $3.65 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	% of population living in households with an income or consumption per person below $3.65 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
@@ -394,7 +384,6 @@ columns	inc_or_cons_headcount_ratio_365
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_only/headcount_ratio_365.csv	inc_only_headcount_ratio_365
 columns	inc_only_headcount_ratio_365
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	% of population living in households with an income per person below $3.65 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	% of population living in households with an income per person below $3.65 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
@@ -412,7 +401,6 @@ columns	inc_only_headcount_ratio_365
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/cons_only/headcount_ratio_365.csv	cons_only_headcount_ratio_365
 columns	cons_only_headcount_ratio_365
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	% of population living in households with an consumption per person below $3.65 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	% of population living in households with an consumption per person below $3.65 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
@@ -430,7 +418,6 @@ columns	cons_only_headcount_ratio_365
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_or_cons/headcount_ratio_685.csv	inc_or_cons_headcount_ratio_685
 columns	inc_or_cons_headcount_ratio_685
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	% of population living in households with an income or consumption per person below $6.85 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	% of population living in households with an income or consumption per person below $6.85 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
@@ -448,7 +435,6 @@ columns	inc_or_cons_headcount_ratio_685
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_only/headcount_ratio_685.csv	inc_only_headcount_ratio_685
 columns	inc_only_headcount_ratio_685
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	% of population living in households with an income per person below $6.85 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	% of population living in households with an income per person below $6.85 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
@@ -466,7 +452,6 @@ columns	inc_only_headcount_ratio_685
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/cons_only/headcount_ratio_685.csv	cons_only_headcount_ratio_685
 columns	cons_only_headcount_ratio_685
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	% of population living in households with an consumption per person below $6.85 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	% of population living in households with an consumption per person below $6.85 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
@@ -484,7 +469,6 @@ columns	cons_only_headcount_ratio_685
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_or_cons/headcount_ratio_1000.csv	inc_or_cons_headcount_ratio_1000
 columns	inc_or_cons_headcount_ratio_1000
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	% of population living in households with an income or consumption per person below $10 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	% of population living in households with an income or consumption per person below $10 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
@@ -502,7 +486,6 @@ columns	inc_or_cons_headcount_ratio_1000
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_only/headcount_ratio_1000.csv	inc_only_headcount_ratio_1000
 columns	inc_only_headcount_ratio_1000
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	% of population living in households with an income per person below $10 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	% of population living in households with an income per person below $10 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
@@ -520,7 +503,6 @@ columns	inc_only_headcount_ratio_1000
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/cons_only/headcount_ratio_1000.csv	cons_only_headcount_ratio_1000
 columns	cons_only_headcount_ratio_1000
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	% of population living in households with an consumption per person below $10 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	% of population living in households with an consumption per person below $10 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
@@ -538,7 +520,6 @@ columns	cons_only_headcount_ratio_1000
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_or_cons/headcount_ratio_2000.csv	inc_or_cons_headcount_ratio_2000
 columns	inc_or_cons_headcount_ratio_2000
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	% of population living in households with an income or consumption per person below $20 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	% of population living in households with an income or consumption per person below $20 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
@@ -556,7 +537,6 @@ columns	inc_or_cons_headcount_ratio_2000
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_only/headcount_ratio_2000.csv	inc_only_headcount_ratio_2000
 columns	inc_only_headcount_ratio_2000
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	% of population living in households with an income per person below $20 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	% of population living in households with an income per person below $20 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
@@ -574,7 +554,6 @@ columns	inc_only_headcount_ratio_2000
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/cons_only/headcount_ratio_2000.csv	cons_only_headcount_ratio_2000
 columns	cons_only_headcount_ratio_2000
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	% of population living in households with an consumption per person below $20 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	% of population living in households with an consumption per person below $20 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
@@ -592,7 +571,6 @@ columns	cons_only_headcount_ratio_2000
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_or_cons/headcount_ratio_3000.csv	inc_or_cons_headcount_ratio_3000
 columns	inc_or_cons_headcount_ratio_3000
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	% of population living in households with an income or consumption per person below $30 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	% of population living in households with an income or consumption per person below $30 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
@@ -610,7 +588,6 @@ columns	inc_or_cons_headcount_ratio_3000
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_only/headcount_ratio_3000.csv	inc_only_headcount_ratio_3000
 columns	inc_only_headcount_ratio_3000
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	% of population living in households with an income per person below $30 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	% of population living in households with an income per person below $30 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
@@ -628,7 +605,6 @@ columns	inc_only_headcount_ratio_3000
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/cons_only/headcount_ratio_3000.csv	cons_only_headcount_ratio_3000
 columns	cons_only_headcount_ratio_3000
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	% of population living in households with an consumption per person below $30 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	% of population living in households with an consumption per person below $30 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
@@ -646,7 +622,6 @@ columns	cons_only_headcount_ratio_3000
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_or_cons/headcount_ratio_4000.csv	inc_or_cons_headcount_ratio_4000
 columns	inc_or_cons_headcount_ratio_4000
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	% of population living in households with an income or consumption per person below $40 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	% of population living in households with an income or consumption per person below $40 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
@@ -664,7 +639,6 @@ columns	inc_or_cons_headcount_ratio_4000
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_only/headcount_ratio_4000.csv	inc_only_headcount_ratio_4000
 columns	inc_only_headcount_ratio_4000
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	% of population living in households with an income per person below $40 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	% of population living in households with an income per person below $40 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
@@ -682,7 +656,6 @@ columns	inc_only_headcount_ratio_4000
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/cons_only/headcount_ratio_4000.csv	cons_only_headcount_ratio_4000
 columns	cons_only_headcount_ratio_4000
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	% of population living in households with an consumption per person below $40 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	% of population living in households with an consumption per person below $40 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	3;10;20;30;40;50;60;70;80;90;100	true	OrRd
@@ -700,7 +673,6 @@ columns	cons_only_headcount_ratio_4000
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_or_cons/headcount_100.csv	inc_or_cons_headcount_100
 columns	inc_or_cons_headcount_100
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	Number of people living in households with an income or consumption per person below $1 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	Reds
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	Number of people living in households with an income or consumption per person below $1 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	Reds
@@ -718,7 +690,6 @@ columns	inc_or_cons_headcount_100
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_only/headcount_100.csv	inc_only_headcount_100
 columns	inc_only_headcount_100
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	Number of people living in households with an income per person below $1 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	Reds
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	Number of people living in households with an income per person below $1 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	Reds
@@ -736,7 +707,6 @@ columns	inc_only_headcount_100
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/cons_only/headcount_100.csv	cons_only_headcount_100
 columns	cons_only_headcount_100
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	Number of people living in households with an consumption per person below $1 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	Reds
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	Number of people living in households with an consumption per person below $1 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	Reds
@@ -754,7 +724,6 @@ columns	cons_only_headcount_100
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_or_cons/headcount_215.csv	inc_or_cons_headcount_215
 columns	inc_or_cons_headcount_215
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	Number of people living in households with an income or consumption per person below $2.15 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	Reds
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	Number of people living in households with an income or consumption per person below $2.15 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	Reds
@@ -772,7 +741,6 @@ columns	inc_or_cons_headcount_215
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_only/headcount_215.csv	inc_only_headcount_215
 columns	inc_only_headcount_215
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	Number of people living in households with an income per person below $2.15 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	Reds
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	Number of people living in households with an income per person below $2.15 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	Reds
@@ -790,7 +758,6 @@ columns	inc_only_headcount_215
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/cons_only/headcount_215.csv	cons_only_headcount_215
 columns	cons_only_headcount_215
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	Number of people living in households with an consumption per person below $2.15 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	Reds
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	Number of people living in households with an consumption per person below $2.15 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	Reds
@@ -808,7 +775,6 @@ columns	cons_only_headcount_215
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_or_cons/headcount_365.csv	inc_or_cons_headcount_365
 columns	inc_or_cons_headcount_365
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	Number of people living in households with an income or consumption per person below $3.65 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	Reds
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	Number of people living in households with an income or consumption per person below $3.65 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	Reds
@@ -826,7 +792,6 @@ columns	inc_or_cons_headcount_365
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_only/headcount_365.csv	inc_only_headcount_365
 columns	inc_only_headcount_365
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	Number of people living in households with an income per person below $3.65 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	Reds
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	Number of people living in households with an income per person below $3.65 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	Reds
@@ -844,7 +809,6 @@ columns	inc_only_headcount_365
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/cons_only/headcount_365.csv	cons_only_headcount_365
 columns	cons_only_headcount_365
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	Number of people living in households with an consumption per person below $3.65 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	Reds
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	Number of people living in households with an consumption per person below $3.65 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	Reds
@@ -862,7 +826,6 @@ columns	cons_only_headcount_365
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_or_cons/headcount_685.csv	inc_or_cons_headcount_685
 columns	inc_or_cons_headcount_685
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	Number of people living in households with an income or consumption per person below $6.85 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	Reds
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	Number of people living in households with an income or consumption per person below $6.85 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	Reds
@@ -880,7 +843,6 @@ columns	inc_or_cons_headcount_685
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_only/headcount_685.csv	inc_only_headcount_685
 columns	inc_only_headcount_685
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	Number of people living in households with an income per person below $6.85 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	Reds
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	Number of people living in households with an income per person below $6.85 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	Reds
@@ -898,7 +860,6 @@ columns	inc_only_headcount_685
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/cons_only/headcount_685.csv	cons_only_headcount_685
 columns	cons_only_headcount_685
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	Number of people living in households with an consumption per person below $6.85 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	Reds
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	Number of people living in households with an consumption per person below $6.85 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	Reds
@@ -916,7 +877,6 @@ columns	cons_only_headcount_685
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_or_cons/headcount_1000.csv	inc_or_cons_headcount_1000
 columns	inc_or_cons_headcount_1000
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	Number of people living in households with an income or consumption per person below $10 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	Reds
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	Number of people living in households with an income or consumption per person below $10 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	Reds
@@ -934,7 +894,6 @@ columns	inc_or_cons_headcount_1000
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_only/headcount_1000.csv	inc_only_headcount_1000
 columns	inc_only_headcount_1000
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	Number of people living in households with an income per person below $10 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	Reds
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	Number of people living in households with an income per person below $10 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	Reds
@@ -952,7 +911,6 @@ columns	inc_only_headcount_1000
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/cons_only/headcount_1000.csv	cons_only_headcount_1000
 columns	cons_only_headcount_1000
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	Number of people living in households with an consumption per person below $10 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	Reds
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	Number of people living in households with an consumption per person below $10 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	Reds
@@ -970,7 +928,6 @@ columns	cons_only_headcount_1000
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_or_cons/headcount_2000.csv	inc_or_cons_headcount_2000
 columns	inc_or_cons_headcount_2000
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	Number of people living in households with an income or consumption per person below $20 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	Reds
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	Number of people living in households with an income or consumption per person below $20 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	Reds
@@ -988,7 +945,6 @@ columns	inc_or_cons_headcount_2000
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_only/headcount_2000.csv	inc_only_headcount_2000
 columns	inc_only_headcount_2000
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	Number of people living in households with an income per person below $20 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	Reds
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	Number of people living in households with an income per person below $20 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	Reds
@@ -1006,7 +962,6 @@ columns	inc_only_headcount_2000
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/cons_only/headcount_2000.csv	cons_only_headcount_2000
 columns	cons_only_headcount_2000
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	Number of people living in households with an consumption per person below $20 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	Reds
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	Number of people living in households with an consumption per person below $20 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	Reds
@@ -1024,7 +979,6 @@ columns	cons_only_headcount_2000
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_or_cons/headcount_3000.csv	inc_or_cons_headcount_3000
 columns	inc_or_cons_headcount_3000
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	Number of people living in households with an income or consumption per person below $30 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	Reds
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	Number of people living in households with an income or consumption per person below $30 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	Reds
@@ -1042,7 +996,6 @@ columns	inc_or_cons_headcount_3000
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_only/headcount_3000.csv	inc_only_headcount_3000
 columns	inc_only_headcount_3000
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	Number of people living in households with an income per person below $30 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	Reds
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	Number of people living in households with an income per person below $30 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	Reds
@@ -1060,7 +1013,6 @@ columns	inc_only_headcount_3000
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/cons_only/headcount_3000.csv	cons_only_headcount_3000
 columns	cons_only_headcount_3000
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	Number of people living in households with an consumption per person below $30 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	Reds
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	Number of people living in households with an consumption per person below $30 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	Reds
@@ -1078,7 +1030,6 @@ columns	cons_only_headcount_3000
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_or_cons/headcount_4000.csv	inc_or_cons_headcount_4000
 columns	inc_or_cons_headcount_4000
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	Number of people living in households with an income or consumption per person below $40 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	Reds
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	Number of people living in households with an income or consumption per person below $40 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	Reds
@@ -1096,7 +1047,6 @@ columns	inc_or_cons_headcount_4000
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_only/headcount_4000.csv	inc_only_headcount_4000
 columns	inc_only_headcount_4000
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	Number of people living in households with an income per person below $40 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	Reds
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	Number of people living in households with an income per person below $40 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	Reds
@@ -1114,7 +1064,6 @@ columns	inc_only_headcount_4000
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/cons_only/headcount_4000.csv	cons_only_headcount_4000
 columns	cons_only_headcount_4000
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	Number of people living in households with an consumption per person below $40 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	Reds
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	Number of people living in households with an consumption per person below $40 a day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	Reds
@@ -1132,7 +1081,6 @@ columns	cons_only_headcount_4000
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_or_cons/headcount_ratio_40_median.csv	inc_or_cons_headcount_ratio_40_median
 columns	inc_or_cons_headcount_ratio_40_median
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	% of population living in households with an income or consumption per person below 40% of the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.	%	%	5	Numeric	0.0	5;10;15;20;25;30;30.0001	true	YlOrBr
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	% of population living in households with an income or consumption per person below 40% of the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.	%	%	5	Numeric	0.0	5;10;15;20;25;30;30.0001	true	YlOrBr
@@ -1150,7 +1098,6 @@ columns	inc_or_cons_headcount_ratio_40_median
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_only/headcount_ratio_40_median.csv	inc_only_headcount_ratio_40_median
 columns	inc_only_headcount_ratio_40_median
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	% of population living in households with an income per person below 40% of the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.	%	%	5	Numeric	0.0	5;10;15;20;25;30;30.0001	true	YlOrBr
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	% of population living in households with an income per person below 40% of the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.	%	%	5	Numeric	0.0	5;10;15;20;25;30;30.0001	true	YlOrBr
@@ -1168,7 +1115,6 @@ columns	inc_only_headcount_ratio_40_median
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/cons_only/headcount_ratio_40_median.csv	cons_only_headcount_ratio_40_median
 columns	cons_only_headcount_ratio_40_median
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	% of population living in households with an consumption per person below 40% of the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.	%	%	5	Numeric	0.0	5;10;15;20;25;30;30.0001	true	YlOrBr
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	% of population living in households with an consumption per person below 40% of the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.	%	%	5	Numeric	0.0	5;10;15;20;25;30;30.0001	true	YlOrBr
@@ -1186,7 +1132,6 @@ columns	cons_only_headcount_ratio_40_median
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_or_cons/headcount_ratio_50_median.csv	inc_or_cons_headcount_ratio_50_median
 columns	inc_or_cons_headcount_ratio_50_median
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	% of population living in households with an income or consumption per person below 50% of the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.	%	%	5	Numeric	0.0	5;10;15;20;25;30;30.0001	true	YlOrBr
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	% of population living in households with an income or consumption per person below 50% of the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.	%	%	5	Numeric	0.0	5;10;15;20;25;30;30.0001	true	YlOrBr
@@ -1204,7 +1149,6 @@ columns	inc_or_cons_headcount_ratio_50_median
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_only/headcount_ratio_50_median.csv	inc_only_headcount_ratio_50_median
 columns	inc_only_headcount_ratio_50_median
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	% of population living in households with an income per person below 50% of the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.	%	%	5	Numeric	0.0	5;10;15;20;25;30;30.0001	true	YlOrBr
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	% of population living in households with an income per person below 50% of the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.	%	%	5	Numeric	0.0	5;10;15;20;25;30;30.0001	true	YlOrBr
@@ -1222,7 +1166,6 @@ columns	inc_only_headcount_ratio_50_median
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/cons_only/headcount_ratio_50_median.csv	cons_only_headcount_ratio_50_median
 columns	cons_only_headcount_ratio_50_median
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	% of population living in households with an consumption per person below 50% of the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.	%	%	5	Numeric	0.0	5;10;15;20;25;30;30.0001	true	YlOrBr
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	% of population living in households with an consumption per person below 50% of the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.	%	%	5	Numeric	0.0	5;10;15;20;25;30;30.0001	true	YlOrBr
@@ -1240,7 +1183,6 @@ columns	cons_only_headcount_ratio_50_median
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_or_cons/headcount_ratio_60_median.csv	inc_or_cons_headcount_ratio_60_median
 columns	inc_or_cons_headcount_ratio_60_median
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	% of population living in households with an income or consumption per person below 60% of the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.	%	%	5	Numeric	0.0	5;10;15;20;25;30;30.0001	true	YlOrBr
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	% of population living in households with an income or consumption per person below 60% of the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.	%	%	5	Numeric	0.0	5;10;15;20;25;30;30.0001	true	YlOrBr
@@ -1258,7 +1200,6 @@ columns	inc_or_cons_headcount_ratio_60_median
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_only/headcount_ratio_60_median.csv	inc_only_headcount_ratio_60_median
 columns	inc_only_headcount_ratio_60_median
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	% of population living in households with an income per person below 60% of the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.	%	%	5	Numeric	0.0	5;10;15;20;25;30;30.0001	true	YlOrBr
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	% of population living in households with an income per person below 60% of the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.	%	%	5	Numeric	0.0	5;10;15;20;25;30;30.0001	true	YlOrBr
@@ -1276,7 +1217,6 @@ columns	inc_only_headcount_ratio_60_median
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/cons_only/headcount_ratio_60_median.csv	cons_only_headcount_ratio_60_median
 columns	cons_only_headcount_ratio_60_median
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	% of population living in households with an consumption per person below 60% of the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.	%	%	5	Numeric	0.0	5;10;15;20;25;30;30.0001	true	YlOrBr
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	% of population living in households with an consumption per person below 60% of the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.	%	%	5	Numeric	0.0	5;10;15;20;25;30;30.0001	true	YlOrBr
@@ -1294,7 +1234,6 @@ columns	cons_only_headcount_ratio_60_median
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_or_cons/headcount_40_median.csv	inc_or_cons_headcount_40_median
 columns	inc_or_cons_headcount_40_median
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	Number of people living in households with an income or consumption per person below 40% of the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	YlOrBr
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	Number of people living in households with an income or consumption per person below 40% of the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	YlOrBr
@@ -1312,7 +1251,6 @@ columns	inc_or_cons_headcount_40_median
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_only/headcount_40_median.csv	inc_only_headcount_40_median
 columns	inc_only_headcount_40_median
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	Number of people living in households with an income per person below 40% of the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	YlOrBr
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	Number of people living in households with an income per person below 40% of the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	YlOrBr
@@ -1330,7 +1268,6 @@ columns	inc_only_headcount_40_median
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/cons_only/headcount_40_median.csv	cons_only_headcount_40_median
 columns	cons_only_headcount_40_median
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	Number of people living in households with an consumption per person below 40% of the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	YlOrBr
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	Number of people living in households with an consumption per person below 40% of the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	YlOrBr
@@ -1348,7 +1285,6 @@ columns	cons_only_headcount_40_median
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_or_cons/headcount_50_median.csv	inc_or_cons_headcount_50_median
 columns	inc_or_cons_headcount_50_median
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	Number of people living in households with an income or consumption per person below 50% of the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	YlOrBr
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	Number of people living in households with an income or consumption per person below 50% of the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	YlOrBr
@@ -1366,7 +1302,6 @@ columns	inc_or_cons_headcount_50_median
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_only/headcount_50_median.csv	inc_only_headcount_50_median
 columns	inc_only_headcount_50_median
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	Number of people living in households with an income per person below 50% of the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	YlOrBr
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	Number of people living in households with an income per person below 50% of the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	YlOrBr
@@ -1384,7 +1319,6 @@ columns	inc_only_headcount_50_median
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/cons_only/headcount_50_median.csv	cons_only_headcount_50_median
 columns	cons_only_headcount_50_median
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	Number of people living in households with an consumption per person below 50% of the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	YlOrBr
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	Number of people living in households with an consumption per person below 50% of the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	YlOrBr
@@ -1402,7 +1336,6 @@ columns	cons_only_headcount_50_median
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_or_cons/headcount_60_median.csv	inc_or_cons_headcount_60_median
 columns	inc_or_cons_headcount_60_median
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	Number of people living in households with an income or consumption per person below 60% of the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	YlOrBr
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	Number of people living in households with an income or consumption per person below 60% of the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	YlOrBr
@@ -1420,7 +1353,6 @@ columns	inc_or_cons_headcount_60_median
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_only/headcount_60_median.csv	inc_only_headcount_60_median
 columns	inc_only_headcount_60_median
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	Number of people living in households with an income per person below 60% of the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	YlOrBr
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	Number of people living in households with an income per person below 60% of the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	YlOrBr
@@ -1438,7 +1370,6 @@ columns	inc_only_headcount_60_median
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/cons_only/headcount_60_median.csv	cons_only_headcount_60_median
 columns	cons_only_headcount_60_median
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	Number of people living in households with an consumption per person below 60% of the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	YlOrBr
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	Number of people living in households with an consumption per person below 60% of the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.			5	Numeric	0.0	100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001	true	YlOrBr
@@ -1456,7 +1387,6 @@ columns	cons_only_headcount_60_median
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_or_cons/mean.csv	inc_or_cons_mean
 columns	inc_or_cons_mean
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	The mean level of income or consumption per day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	international-$ in 2017 prices	$	5	Numeric	0.0	1;2;5;10;20;50;100;100.0001	true	BuGn
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	The mean level of income or consumption per day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	international-$ in 2017 prices	$	5	Numeric	0.0	1;2;5;10;20;50;100;100.0001	true	BuGn
@@ -1474,7 +1404,6 @@ columns	inc_or_cons_mean
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_only/mean.csv	inc_only_mean
 columns	inc_only_mean
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	The mean level of income per day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	international-$ in 2017 prices	$	5	Numeric	0.0	1;2;5;10;20;50;100;100.0001	true	BuGn
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	The mean level of income per day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	international-$ in 2017 prices	$	5	Numeric	0.0	1;2;5;10;20;50;100;100.0001	true	BuGn
@@ -1492,7 +1421,6 @@ columns	inc_only_mean
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/cons_only/mean.csv	cons_only_mean
 columns	cons_only_mean
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	The mean level of consumption per day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	international-$ in 2017 prices	$	5	Numeric	0.0	1;2;5;10;20;50;100;100.0001	true	BuGn
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	The mean level of consumption per day.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	international-$ in 2017 prices	$	5	Numeric	0.0	1;2;5;10;20;50;100;100.0001	true	BuGn
@@ -1510,7 +1438,6 @@ columns	cons_only_mean
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_or_cons/median.csv	inc_or_cons_median
 columns	inc_or_cons_median
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	The level of income or consumption per day below which half of the population live.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	international-$ in 2017 prices	$	5	Numeric	0.0	1;2;5;10;20;50;100;100.0001	true	Blues
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	The level of income or consumption per day below which half of the population live.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	international-$ in 2017 prices	$	5	Numeric	0.0	1;2;5;10;20;50;100;100.0001	true	Blues
@@ -1528,7 +1455,6 @@ columns	inc_or_cons_median
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_only/median.csv	inc_only_median
 columns	inc_only_median
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	The level of income per day below which half of the population live.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	international-$ in 2017 prices	$	5	Numeric	0.0	1;2;5;10;20;50;100;100.0001	true	Blues
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	The level of income per day below which half of the population live.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	international-$ in 2017 prices	$	5	Numeric	0.0	1;2;5;10;20;50;100;100.0001	true	Blues
@@ -1546,7 +1472,6 @@ columns	inc_only_median
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/cons_only/median.csv	cons_only_median
 columns	cons_only_median
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	The level of consumption per day below which half of the population live.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	international-$ in 2017 prices	$	5	Numeric	0.0	1;2;5;10;20;50;100;100.0001	true	Blues
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	The level of consumption per day below which half of the population live.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	international-$ in 2017 prices	$	5	Numeric	0.0	1;2;5;10;20;50;100;100.0001	true	Blues
@@ -1564,7 +1489,6 @@ columns	cons_only_median
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_or_cons/decile1_thr.csv	inc_or_cons_decile1_thr
 columns	inc_or_cons_decile1_thr
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	The level of income or consumption per day below which 10% of the population falls.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	international-$ in 2017 prices	$	5	Numeric	0.0	1;2;5;10;20;50;100;100.0001	true	Purples
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	The level of income or consumption per day below which 10% of the population falls.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	international-$ in 2017 prices	$	5	Numeric	0.0	1;2;5;10;20;50;100;100.0001	true	Purples
@@ -1582,7 +1506,6 @@ columns	inc_or_cons_decile1_thr
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_only/decile1_thr.csv	inc_only_decile1_thr
 columns	inc_only_decile1_thr
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	The level of income per day below which 10% of the population falls.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	international-$ in 2017 prices	$	5	Numeric	0.0	1;2;5;10;20;50;100;100.0001	true	Purples
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	The level of income per day below which 10% of the population falls.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	international-$ in 2017 prices	$	5	Numeric	0.0	1;2;5;10;20;50;100;100.0001	true	Purples
@@ -1600,7 +1523,6 @@ columns	inc_only_decile1_thr
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/cons_only/decile1_thr.csv	cons_only_decile1_thr
 columns	cons_only_decile1_thr
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	The level of consumption per day below which 10% of the population falls.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	international-$ in 2017 prices	$	5	Numeric	0.0	1;2;5;10;20;50;100;100.0001	true	Purples
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	The level of consumption per day below which 10% of the population falls.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	international-$ in 2017 prices	$	5	Numeric	0.0	1;2;5;10;20;50;100;100.0001	true	Purples
@@ -1618,7 +1540,6 @@ columns	cons_only_decile1_thr
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_or_cons/decile9_thr.csv	inc_or_cons_decile9_thr
 columns	inc_or_cons_decile9_thr
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	The level of income or consumption per day below which 90% of the population falls.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	international-$ in 2017 prices	$	5	Numeric	0.0	1;2;5;10;20;50;100;100.0001	true	Purples
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	The level of income or consumption per day below which 90% of the population falls.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	international-$ in 2017 prices	$	5	Numeric	0.0	1;2;5;10;20;50;100;100.0001	true	Purples
@@ -1636,7 +1557,6 @@ columns	inc_or_cons_decile9_thr
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_only/decile9_thr.csv	inc_only_decile9_thr
 columns	inc_only_decile9_thr
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	The level of income per day below which 90% of the population falls.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	international-$ in 2017 prices	$	5	Numeric	0.0	1;2;5;10;20;50;100;100.0001	true	Purples
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	The level of income per day below which 90% of the population falls.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	international-$ in 2017 prices	$	5	Numeric	0.0	1;2;5;10;20;50;100;100.0001	true	Purples
@@ -1654,7 +1574,6 @@ columns	inc_only_decile9_thr
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/cons_only/decile9_thr.csv	cons_only_decile9_thr
 columns	cons_only_decile9_thr
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	The level of consumption per day below which 90% of the population falls.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	international-$ in 2017 prices	$	5	Numeric	0.0	1;2;5;10;20;50;100;100.0001	true	Purples
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	The level of consumption per day below which 90% of the population falls.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	international-$ in 2017 prices	$	5	Numeric	0.0	1;2;5;10;20;50;100;100.0001	true	Purples
