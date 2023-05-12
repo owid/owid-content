@@ -90,7 +90,6 @@ graphers
 
 table	https://catalog.ourworldindata.org/explorers/poverty_inequality/2023-03-01/poverty_inequality/poverty_inequality.csv	poverty_inequality
 columns	poverty_inequality
-
 	name	slug	type	description	unit	shortUnit	colorScaleNumericBins	colorScaleScheme	sourceName	dataPublishedBy	sourceLink	colorScaleNumericMinValue	tolerance	colorScaleEqualSizeBins
 	Country	country	EntityName						World Bank Poverty and Inequality Platform (PIP) (2022)	World Bank. (2022). Poverty and Inequality Platform (version 20220909_2017_01_02_PROD) [Data set]. World Bank Group. https://pip.worldbank.org/. Accessed  2022-10-03.	https://pip.worldbank.org/	0	5	true
 	Year	year	Year						World Bank Poverty and Inequality Platform (PIP) (2022)	World Bank. (2022). Poverty and Inequality Platform (version 20220909_2017_01_02_PROD) [Data set]. World Bank Group. https://pip.worldbank.org/. Accessed  2022-10-03.	https://pip.worldbank.org/	0	5	true

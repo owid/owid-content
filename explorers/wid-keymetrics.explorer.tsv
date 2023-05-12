@@ -35,7 +35,6 @@ graphers
 
 table	https://catalog.ourworldindata.org/explorers/wid/2023-01-27/world_inequality_database/world_inequality_database.csv	wid_vars
 columns	wid_vars
-
 	name	slug	type	description	unit	shortUnit	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme	sourceName	dataPublishedBy	sourceLink	colorScaleNumericMinValue	tolerance
 	Country	country	EntityName							World Inequality Database (WID.world) (2023)	World Inequality Database (WID), https://wid.world	https://wid.world	0	5
 	Year	year	Year							World Inequality Database (WID.world) (2023)	World Inequality Database (WID), https://wid.world	https://wid.world	0	5

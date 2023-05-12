@@ -923,4 +923,4 @@ with open(outfile, "w", newline="\n", encoding="utf-8") as f:
         table_tsv = table_tsv.to_csv(sep="\t", index=False)
         table_tsv_indented = textwrap.indent(table_tsv, "\t")
         f.write("\ntable\t" + tables["link"][tab] + "\t" + tables["name"][tab])
-        f.write("\ncolumns\t" + tables["name"][tab] + "\n\n" + table_tsv_indented)
+        f.write("\ncolumns\t" + tables["name"][tab] + "\n" + table_tsv_indented)

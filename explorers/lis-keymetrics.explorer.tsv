@@ -175,7 +175,6 @@ graphers
 
 table	https://catalog.ourworldindata.org/explorers/lis/2023-01-18/luxembourg_income_study/luxembourg_income_study.csv	lis_vars
 columns	lis_vars
-
 	name	slug	type	description	unit	shortUnit	colorScaleNumericBins	colorScaleScheme	sourceName	dataPublishedBy	sourceLink	colorScaleNumericMinValue	tolerance	colorScaleEqualSizeBins
 	Country	country	EntityName						Luxembourg Income Study (LIS) (2023)	Luxembourg Income Study (LIS) Database, http://www.lisdatacenter.org (multiple countries; 1967-2020). Luxembourg, LIS.	https://www.lisdatacenter.org/our-data/lis-database/	0	5	true
 	Year	year	Year						Luxembourg Income Study (LIS) (2023)	Luxembourg Income Study (LIS) Database, http://www.lisdatacenter.org (multiple countries; 1967-2020). Luxembourg, LIS.	https://www.lisdatacenter.org/our-data/lis-database/	0	5	true

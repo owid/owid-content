@@ -78,7 +78,6 @@ graphers
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/inc_or_cons/poverty_inc_or_cons.csv	inc_or_cons
 columns	inc_or_cons
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Gini coefficient	gini	World Bank Poverty and Inequality Platform	The Gini coefficient measures inequality on a scale between 0 and 1, where higher values indicate greater inequality.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	0.2;0.25;0.3;0.35;0.4;0.45;0.5;0.55;0.6	true	Reds
 	Share of the richest decile in total income or consumption	decile10_share	World Bank Poverty and Inequality Platform	The income or consumption of the richest decile (tenth of the population) as a share of total income or consumption.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	10;15;20;25;30;35;40;45;50	true	Greens
@@ -94,7 +93,6 @@ columns	inc_or_cons
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/inc_only/poverty_inc_only.csv	inc_only
 columns	inc_only
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Gini coefficient	gini	World Bank Poverty and Inequality Platform	The Gini coefficient measures inequality on a scale between 0 and 1, where higher values indicate greater inequality.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	0.2;0.25;0.3;0.35;0.4;0.45;0.5;0.55;0.6	true	Reds
 	Share of the richest decile in total income	decile10_share	World Bank Poverty and Inequality Platform	The income of the richest decile (tenth of the population) as a share of total income.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	10;15;20;25;30;35;40;45;50	true	Greens
@@ -110,7 +108,6 @@ columns	inc_only
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/cons_only/poverty_cons_only.csv	cons_only
 columns	cons_only
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Gini coefficient	gini	World Bank Poverty and Inequality Platform	The Gini coefficient measures inequality on a scale between 0 and 1, where higher values indicate greater inequality.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	0.2;0.25;0.3;0.35;0.4;0.45;0.5;0.55;0.6	true	Reds
 	Share of the richest decile in total consumption	decile10_share	World Bank Poverty and Inequality Platform	The consumption of the richest decile (tenth of the population) as a share of total consumption.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	10;15;20;25;30;35;40;45;50	true	Greens
@@ -126,7 +123,6 @@ columns	cons_only
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_or_cons/gini.csv	inc_or_cons_gini
 columns	inc_or_cons_gini
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	The Gini coefficient measures inequality on a scale between 0 and 1, where higher values indicate greater inequality.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	0.2;0.25;0.3;0.35;0.4;0.45;0.5;0.55;0.6	true	Reds
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	The Gini coefficient measures inequality on a scale between 0 and 1, where higher values indicate greater inequality.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	0.2;0.25;0.3;0.35;0.4;0.45;0.5;0.55;0.6	true	Reds
@@ -144,7 +140,6 @@ columns	inc_or_cons_gini
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_only/gini.csv	inc_only_gini
 columns	inc_only_gini
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	The Gini coefficient measures inequality on a scale between 0 and 1, where higher values indicate greater inequality.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	0.2;0.25;0.3;0.35;0.4;0.45;0.5;0.55;0.6	true	Reds
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	The Gini coefficient measures inequality on a scale between 0 and 1, where higher values indicate greater inequality.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	0.2;0.25;0.3;0.35;0.4;0.45;0.5;0.55;0.6	true	Reds
@@ -162,7 +157,6 @@ columns	inc_only_gini
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/cons_only/gini.csv	cons_only_gini
 columns	cons_only_gini
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	The Gini coefficient measures inequality on a scale between 0 and 1, where higher values indicate greater inequality.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	0.2;0.25;0.3;0.35;0.4;0.45;0.5;0.55;0.6	true	Reds
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	The Gini coefficient measures inequality on a scale between 0 and 1, where higher values indicate greater inequality.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	0.2;0.25;0.3;0.35;0.4;0.45;0.5;0.55;0.6	true	Reds
@@ -180,7 +174,6 @@ columns	cons_only_gini
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_or_cons/decile10_share.csv	inc_or_cons_decile10_share
 columns	inc_or_cons_decile10_share
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	The income or consumption of the richest decile (tenth of the population) as a share of total income or consumption.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	10;15;20;25;30;35;40;45;50	true	Greens
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	The income or consumption of the richest decile (tenth of the population) as a share of total income or consumption.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	10;15;20;25;30;35;40;45;50	true	Greens
@@ -198,7 +191,6 @@ columns	inc_or_cons_decile10_share
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_only/decile10_share.csv	inc_only_decile10_share
 columns	inc_only_decile10_share
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	The income of the richest decile (tenth of the population) as a share of total income.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	10;15;20;25;30;35;40;45;50	true	Greens
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	The income of the richest decile (tenth of the population) as a share of total income.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	10;15;20;25;30;35;40;45;50	true	Greens
@@ -216,7 +208,6 @@ columns	inc_only_decile10_share
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/cons_only/decile10_share.csv	cons_only_decile10_share
 columns	cons_only_decile10_share
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	The consumption of the richest decile (tenth of the population) as a share of total consumption.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	10;15;20;25;30;35;40;45;50	true	Greens
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	The consumption of the richest decile (tenth of the population) as a share of total consumption.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)	%	%	5	Numeric	0.0	10;15;20;25;30;35;40;45;50	true	Greens
@@ -234,7 +225,6 @@ columns	cons_only_decile10_share
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_or_cons/p90_p10_ratio.csv	inc_or_cons_p90_p10_ratio
 columns	inc_or_cons_p90_p10_ratio
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	P90 is the the level of income or consumption below which 90% of the population lives. P10 is the level of income or consumption below which 10% of the population lives. This variable gives the ratio of the two. It is a measure of inequality that indicates the gap between the richest and poorest tenth of the population. It tells you how many times richer someone just in the the poorest tenth would need to be in order to be counted in the richest tenth.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.			5	Numeric	0.0	0;2;4;6;8;10;12;14;16;18	true	OrRd
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	P90 is the the level of income or consumption below which 90% of the population lives. P10 is the level of income or consumption below which 10% of the population lives. This variable gives the ratio of the two. It is a measure of inequality that indicates the gap between the richest and poorest tenth of the population. It tells you how many times richer someone just in the the poorest tenth would need to be in order to be counted in the richest tenth.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.			5	Numeric	0.0	0;2;4;6;8;10;12;14;16;18	true	OrRd
@@ -252,7 +242,6 @@ columns	inc_or_cons_p90_p10_ratio
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_only/p90_p10_ratio.csv	inc_only_p90_p10_ratio
 columns	inc_only_p90_p10_ratio
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	P90 is the the level of income below which 90% of the population lives. P10 is the level of income below which 10% of the population lives. This variable gives the ratio of the two. It is a measure of inequality that indicates the gap between the richest and poorest tenth of the population. It tells you how many times richer someone just in the the poorest tenth would need to be in order to be counted in the richest tenth.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.			5	Numeric	0.0	0;2;4;6;8;10;12;14;16;18	true	OrRd
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	P90 is the the level of income below which 90% of the population lives. P10 is the level of income below which 10% of the population lives. This variable gives the ratio of the two. It is a measure of inequality that indicates the gap between the richest and poorest tenth of the population. It tells you how many times richer someone just in the the poorest tenth would need to be in order to be counted in the richest tenth.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.			5	Numeric	0.0	0;2;4;6;8;10;12;14;16;18	true	OrRd
@@ -270,7 +259,6 @@ columns	inc_only_p90_p10_ratio
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/cons_only/p90_p10_ratio.csv	cons_only_p90_p10_ratio
 columns	cons_only_p90_p10_ratio
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	P90 is the the level of consumption below which 90% of the population lives. P10 is the level of consumption below which 10% of the population lives. This variable gives the ratio of the two. It is a measure of inequality that indicates the gap between the richest and poorest tenth of the population. It tells you how many times richer someone just in the the poorest tenth would need to be in order to be counted in the richest tenth.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.			5	Numeric	0.0	0;2;4;6;8;10;12;14;16;18	true	OrRd
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	P90 is the the level of consumption below which 90% of the population lives. P10 is the level of consumption below which 10% of the population lives. This variable gives the ratio of the two. It is a measure of inequality that indicates the gap between the richest and poorest tenth of the population. It tells you how many times richer someone just in the the poorest tenth would need to be in order to be counted in the richest tenth.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.			5	Numeric	0.0	0;2;4;6;8;10;12;14;16;18	true	OrRd
@@ -288,7 +276,6 @@ columns	cons_only_p90_p10_ratio
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_or_cons/p90_p50_ratio.csv	inc_or_cons_p90_p50_ratio
 columns	inc_or_cons_p90_p50_ratio
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	P90 is the the level of income or consumption above which 10% of the population lives. P50 is the median – the level of income or consumption below which 50% of the population lives. This variable gives the ratio of the two. It is a measure of inequality within the top half of the distribution. It tells you how many times richer someone in the middle of the distribution would need to be in order to be counted in the richest tenth.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.			5	Numeric	0.0	0;1;2;3;4;5	true	Purples
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	P90 is the the level of income or consumption above which 10% of the population lives. P50 is the median – the level of income or consumption below which 50% of the population lives. This variable gives the ratio of the two. It is a measure of inequality within the top half of the distribution. It tells you how many times richer someone in the middle of the distribution would need to be in order to be counted in the richest tenth.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.			5	Numeric	0.0	0;1;2;3;4;5	true	Purples
@@ -306,7 +293,6 @@ columns	inc_or_cons_p90_p50_ratio
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_only/p90_p50_ratio.csv	inc_only_p90_p50_ratio
 columns	inc_only_p90_p50_ratio
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	P90 is the the level of income above which 10% of the population lives. P50 is the median – the level of income below which 50% of the population lives. This variable gives the ratio of the two. It is a measure of inequality within the top half of the distribution. It tells you how many times richer someone in the middle of the distribution would need to be in order to be counted in the richest tenth.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.			5	Numeric	0.0	0;1;2;3;4;5	true	Purples
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	P90 is the the level of income above which 10% of the population lives. P50 is the median – the level of income below which 50% of the population lives. This variable gives the ratio of the two. It is a measure of inequality within the top half of the distribution. It tells you how many times richer someone in the middle of the distribution would need to be in order to be counted in the richest tenth.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.			5	Numeric	0.0	0;1;2;3;4;5	true	Purples
@@ -324,7 +310,6 @@ columns	inc_only_p90_p50_ratio
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/cons_only/p90_p50_ratio.csv	cons_only_p90_p50_ratio
 columns	cons_only_p90_p50_ratio
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	P90 is the the level of consumption above which 10% of the population lives. P50 is the median – the level of consumption below which 50% of the population lives. This variable gives the ratio of the two. It is a measure of inequality within the top half of the distribution. It tells you how many times richer someone in the middle of the distribution would need to be in order to be counted in the richest tenth.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.			5	Numeric	0.0	0;1;2;3;4;5	true	Purples
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	P90 is the the level of consumption above which 10% of the population lives. P50 is the median – the level of consumption below which 50% of the population lives. This variable gives the ratio of the two. It is a measure of inequality within the top half of the distribution. It tells you how many times richer someone in the middle of the distribution would need to be in order to be counted in the richest tenth.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.			5	Numeric	0.0	0;1;2;3;4;5	true	Purples
@@ -342,7 +327,6 @@ columns	cons_only_p90_p50_ratio
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_or_cons/p50_p10_ratio.csv	inc_or_cons_p50_p10_ratio
 columns	inc_or_cons_p50_p10_ratio
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	P50 is the median – the level of income or consumption below which 50% of the population lives. P10 is the the level of income or consumption below which 10% of the population lives. This variable gives the ratio of the two. It is a measure of inequality within the bottom half of the distribution. It tells you how many times richer someone just in the the poorest tenth would need to be in order to be reach the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.			5	Numeric	0.0	0;0.5;1;1.5;2;2.5;3;3.5;4	true	YlOrRd
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	P50 is the median – the level of income or consumption below which 50% of the population lives. P10 is the the level of income or consumption below which 10% of the population lives. This variable gives the ratio of the two. It is a measure of inequality within the bottom half of the distribution. It tells you how many times richer someone just in the the poorest tenth would need to be in order to be reach the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.			5	Numeric	0.0	0;0.5;1;1.5;2;2.5;3;3.5;4	true	YlOrRd
@@ -360,7 +344,6 @@ columns	inc_or_cons_p50_p10_ratio
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_only/p50_p10_ratio.csv	inc_only_p50_p10_ratio
 columns	inc_only_p50_p10_ratio
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	P50 is the median – the level of income below which 50% of the population lives. P10 is the the level of income below which 10% of the population lives. This variable gives the ratio of the two. It is a measure of inequality within the bottom half of the distribution. It tells you how many times richer someone just in the the poorest tenth would need to be in order to be reach the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.			5	Numeric	0.0	0;0.5;1;1.5;2;2.5;3;3.5;4	true	YlOrRd
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	P50 is the median – the level of income below which 50% of the population lives. P10 is the the level of income below which 10% of the population lives. This variable gives the ratio of the two. It is a measure of inequality within the bottom half of the distribution. It tells you how many times richer someone just in the the poorest tenth would need to be in order to be reach the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.			5	Numeric	0.0	0;0.5;1;1.5;2;2.5;3;3.5;4	true	YlOrRd
@@ -378,7 +361,6 @@ columns	inc_only_p50_p10_ratio
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/cons_only/p50_p10_ratio.csv	cons_only_p50_p10_ratio
 columns	cons_only_p50_p10_ratio
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	P50 is the median – the level of consumption below which 50% of the population lives. P10 is the the level of consumption below which 10% of the population lives. This variable gives the ratio of the two. It is a measure of inequality within the bottom half of the distribution. It tells you how many times richer someone just in the the poorest tenth would need to be in order to be reach the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.			5	Numeric	0.0	0;0.5;1;1.5;2;2.5;3;3.5;4	true	YlOrRd
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	P50 is the median – the level of consumption below which 50% of the population lives. P10 is the the level of consumption below which 10% of the population lives. This variable gives the ratio of the two. It is a measure of inequality within the bottom half of the distribution. It tells you how many times richer someone just in the the poorest tenth would need to be in order to be reach the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.			5	Numeric	0.0	0;0.5;1;1.5;2;2.5;3;3.5;4	true	YlOrRd
@@ -396,7 +378,6 @@ columns	cons_only_p50_p10_ratio
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_or_cons/palma_ratio.csv	inc_or_cons_palma_ratio
 columns	inc_or_cons_palma_ratio
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	The Palma ratio is a measure of inequality: it is the share of total income or consumption of the top 10% divided by the share of the bottom 40%.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.			5	Numeric	0.0	0;0.5;1;1.5;2;2.5;3;3.5;4;4.5;5	true	Oranges
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	The Palma ratio is a measure of inequality: it is the share of total income or consumption of the top 10% divided by the share of the bottom 40%.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.			5	Numeric	0.0	0;0.5;1;1.5;2;2.5;3;3.5;4;4.5;5	true	Oranges
@@ -414,7 +395,6 @@ columns	inc_or_cons_palma_ratio
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_only/palma_ratio.csv	inc_only_palma_ratio
 columns	inc_only_palma_ratio
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	The Palma ratio is a measure of inequality: it is the share of total income of the top 10% divided by the share of the bottom 40%.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.			5	Numeric	0.0	0;0.5;1;1.5;2;2.5;3;3.5;4;4.5;5	true	Oranges
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	The Palma ratio is a measure of inequality: it is the share of total income of the top 10% divided by the share of the bottom 40%.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.			5	Numeric	0.0	0;0.5;1;1.5;2;2.5;3;3.5;4;4.5;5	true	Oranges
@@ -432,7 +412,6 @@ columns	inc_only_palma_ratio
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/cons_only/palma_ratio.csv	cons_only_palma_ratio
 columns	cons_only_palma_ratio
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	The Palma ratio is a measure of inequality: it is the share of total consumption of the top 10% divided by the share of the bottom 40%.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.			5	Numeric	0.0	0;0.5;1;1.5;2;2.5;3;3.5;4;4.5;5	true	Oranges
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	The Palma ratio is a measure of inequality: it is the share of total consumption of the top 10% divided by the share of the bottom 40%.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.			5	Numeric	0.0	0;0.5;1;1.5;2;2.5;3;3.5;4;4.5;5	true	Oranges
@@ -450,7 +429,6 @@ columns	cons_only_palma_ratio
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_or_cons/headcount_ratio_40_median.csv	inc_or_cons_headcount_ratio_40_median
 columns	inc_or_cons_headcount_ratio_40_median
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	% of population living in households with an income or consumption per person below 40% of the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.	%	%	5	Numeric	0.0	5;10;15;20;25;30;30.0001	true	YlOrBr
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	% of population living in households with an income or consumption per person below 40% of the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.	%	%	5	Numeric	0.0	5;10;15;20;25;30;30.0001	true	YlOrBr
@@ -468,7 +446,6 @@ columns	inc_or_cons_headcount_ratio_40_median
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_only/headcount_ratio_40_median.csv	inc_only_headcount_ratio_40_median
 columns	inc_only_headcount_ratio_40_median
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	% of population living in households with an income per person below 40% of the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.	%	%	5	Numeric	0.0	5;10;15;20;25;30;30.0001	true	YlOrBr
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	% of population living in households with an income per person below 40% of the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.	%	%	5	Numeric	0.0	5;10;15;20;25;30;30.0001	true	YlOrBr
@@ -486,7 +463,6 @@ columns	inc_only_headcount_ratio_40_median
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/cons_only/headcount_ratio_40_median.csv	cons_only_headcount_ratio_40_median
 columns	cons_only_headcount_ratio_40_median
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	% of population living in households with an consumption per person below 40% of the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.	%	%	5	Numeric	0.0	5;10;15;20;25;30;30.0001	true	YlOrBr
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	% of population living in households with an consumption per person below 40% of the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.	%	%	5	Numeric	0.0	5;10;15;20;25;30;30.0001	true	YlOrBr
@@ -504,7 +480,6 @@ columns	cons_only_headcount_ratio_40_median
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_or_cons/headcount_ratio_50_median.csv	inc_or_cons_headcount_ratio_50_median
 columns	inc_or_cons_headcount_ratio_50_median
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	% of population living in households with an income or consumption per person below 50% of the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.	%	%	5	Numeric	0.0	5;10;15;20;25;30;30.0001	true	YlOrBr
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	% of population living in households with an income or consumption per person below 50% of the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.	%	%	5	Numeric	0.0	5;10;15;20;25;30;30.0001	true	YlOrBr
@@ -522,7 +497,6 @@ columns	inc_or_cons_headcount_ratio_50_median
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_only/headcount_ratio_50_median.csv	inc_only_headcount_ratio_50_median
 columns	inc_only_headcount_ratio_50_median
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	% of population living in households with an income per person below 50% of the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.	%	%	5	Numeric	0.0	5;10;15;20;25;30;30.0001	true	YlOrBr
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	% of population living in households with an income per person below 50% of the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.	%	%	5	Numeric	0.0	5;10;15;20;25;30;30.0001	true	YlOrBr
@@ -540,7 +514,6 @@ columns	inc_only_headcount_ratio_50_median
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/cons_only/headcount_ratio_50_median.csv	cons_only_headcount_ratio_50_median
 columns	cons_only_headcount_ratio_50_median
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	% of population living in households with an consumption per person below 50% of the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.	%	%	5	Numeric	0.0	5;10;15;20;25;30;30.0001	true	YlOrBr
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	% of population living in households with an consumption per person below 50% of the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.	%	%	5	Numeric	0.0	5;10;15;20;25;30;30.0001	true	YlOrBr
@@ -558,7 +531,6 @@ columns	cons_only_headcount_ratio_50_median
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_or_cons/headcount_ratio_60_median.csv	inc_or_cons_headcount_ratio_60_median
 columns	inc_or_cons_headcount_ratio_60_median
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	% of population living in households with an income or consumption per person below 60% of the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.	%	%	5	Numeric	0.0	5;10;15;20;25;30;30.0001	true	YlOrBr
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	% of population living in households with an income or consumption per person below 60% of the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.	%	%	5	Numeric	0.0	5;10;15;20;25;30;30.0001	true	YlOrBr
@@ -576,7 +548,6 @@ columns	inc_or_cons_headcount_ratio_60_median
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_only/headcount_ratio_60_median.csv	inc_only_headcount_ratio_60_median
 columns	inc_only_headcount_ratio_60_median
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	% of population living in households with an income per person below 60% of the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.	%	%	5	Numeric	0.0	5;10;15;20;25;30;30.0001	true	YlOrBr
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	% of population living in households with an income per person below 60% of the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.	%	%	5	Numeric	0.0	5;10;15;20;25;30;30.0001	true	YlOrBr
@@ -594,7 +565,6 @@ columns	inc_only_headcount_ratio_60_median
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/cons_only/headcount_ratio_60_median.csv	cons_only_headcount_ratio_60_median
 columns	cons_only_headcount_ratio_60_median
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	% of population living in households with an consumption per person below 60% of the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.	%	%	5	Numeric	0.0	5;10;15;20;25;30;30.0001	true	YlOrBr
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	% of population living in households with an consumption per person below 60% of the median.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data.	%	%	5	Numeric	0.0	5;10;15;20;25;30;30.0001	true	YlOrBr
@@ -612,7 +582,6 @@ columns	cons_only_headcount_ratio_60_median
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_or_cons/mld.csv	inc_or_cons_mld
 columns	inc_or_cons_mld
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	The mean log deviation (MLD) is a measure of inequality. An MLD of zero indicates perfect equality and it takes on larger positive values as incomes become more unequal. The measure is also referred to as 'Theil L' or 'GE(0)', in reference to the wider families of inequality measures to which the MLD belongs.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	0;0.1;0.2;0.3;0.4;0.5;0.6;0.7;0.8;0.9;1	true	RdPu
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	The mean log deviation (MLD) is a measure of inequality. An MLD of zero indicates perfect equality and it takes on larger positive values as incomes become more unequal. The measure is also referred to as 'Theil L' or 'GE(0)', in reference to the wider families of inequality measures to which the MLD belongs.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	0;0.1;0.2;0.3;0.4;0.5;0.6;0.7;0.8;0.9;1	true	RdPu
@@ -630,7 +599,6 @@ columns	inc_or_cons_mld
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_only/mld.csv	inc_only_mld
 columns	inc_only_mld
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	The mean log deviation (MLD) is a measure of inequality. An MLD of zero indicates perfect equality and it takes on larger positive values as incomes become more unequal. The measure is also referred to as 'Theil L' or 'GE(0)', in reference to the wider families of inequality measures to which the MLD belongs.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	0;0.1;0.2;0.3;0.4;0.5;0.6;0.7;0.8;0.9;1	true	RdPu
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	The mean log deviation (MLD) is a measure of inequality. An MLD of zero indicates perfect equality and it takes on larger positive values as incomes become more unequal. The measure is also referred to as 'Theil L' or 'GE(0)', in reference to the wider families of inequality measures to which the MLD belongs.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	0;0.1;0.2;0.3;0.4;0.5;0.6;0.7;0.8;0.9;1	true	RdPu
@@ -648,7 +616,6 @@ columns	inc_only_mld
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/cons_only/mld.csv	cons_only_mld
 columns	cons_only_mld
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	The mean log deviation (MLD) is a measure of inequality. An MLD of zero indicates perfect equality and it takes on larger positive values as incomes become more unequal. The measure is also referred to as 'Theil L' or 'GE(0)', in reference to the wider families of inequality measures to which the MLD belongs.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	0;0.1;0.2;0.3;0.4;0.5;0.6;0.7;0.8;0.9;1	true	RdPu
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	The mean log deviation (MLD) is a measure of inequality. An MLD of zero indicates perfect equality and it takes on larger positive values as incomes become more unequal. The measure is also referred to as 'Theil L' or 'GE(0)', in reference to the wider families of inequality measures to which the MLD belongs.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	0;0.1;0.2;0.3;0.4;0.5;0.6;0.7;0.8;0.9;1	true	RdPu
@@ -666,7 +633,6 @@ columns	cons_only_mld
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_or_cons/polarization.csv	inc_or_cons_polarization
 columns	inc_or_cons_polarization
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	The polarization index, also known as the Wolfson polarization index, measures the extent to which the distribution of income or consumption is “spread out” and bi-modal. Like the Gini coefficient, the polarization index ranges from 0 (no polarization) to 1 (complete polarization). The polarization index is based on Wolfson (1994) and Ravallion and Chen (1997). See Wolfson, Michael C. 1994. “When Inequalities Diverge.” The American Economic Review 84 (2): 353–58. https://www.jstor.org/stable/2117858 and Ravallion, Martin, and Shaohua Chen. 1997. “What Can New Survey Data Tell Us about Recent Changes in Distribution and Poverty?” The World Bank Economic Review 11 (2): 357–82. https://www.jstor.org/stable/3990232.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	0;0.1;0.2;0.3;0.4;0.5;0.6;0.7	true	Reds
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	The polarization index, also known as the Wolfson polarization index, measures the extent to which the distribution of income or consumption is “spread out” and bi-modal. Like the Gini coefficient, the polarization index ranges from 0 (no polarization) to 1 (complete polarization). The polarization index is based on Wolfson (1994) and Ravallion and Chen (1997). See Wolfson, Michael C. 1994. “When Inequalities Diverge.” The American Economic Review 84 (2): 353–58. https://www.jstor.org/stable/2117858 and Ravallion, Martin, and Shaohua Chen. 1997. “What Can New Survey Data Tell Us about Recent Changes in Distribution and Poverty?” The World Bank Economic Review 11 (2): 357–82. https://www.jstor.org/stable/3990232.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	0;0.1;0.2;0.3;0.4;0.5;0.6;0.7	true	Reds
@@ -684,7 +650,6 @@ columns	inc_or_cons_polarization
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/inc_only/polarization.csv	inc_only_polarization
 columns	inc_only_polarization
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	The polarization index, also known as the Wolfson polarization index, measures the extent to which the distribution of income is “spread out” and bi-modal. Like the Gini coefficient, the polarization index ranges from 0 (no polarization) to 1 (complete polarization). The polarization index is based on Wolfson (1994) and Ravallion and Chen (1997). See Wolfson, Michael C. 1994. “When Inequalities Diverge.” The American Economic Review 84 (2): 353–58. https://www.jstor.org/stable/2117858 and Ravallion, Martin, and Shaohua Chen. 1997. “What Can New Survey Data Tell Us about Recent Changes in Distribution and Poverty?” The World Bank Economic Review 11 (2): 357–82. https://www.jstor.org/stable/3990232.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	0;0.1;0.2;0.3;0.4;0.5;0.6;0.7	true	Reds
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	The polarization index, also known as the Wolfson polarization index, measures the extent to which the distribution of income is “spread out” and bi-modal. Like the Gini coefficient, the polarization index ranges from 0 (no polarization) to 1 (complete polarization). The polarization index is based on Wolfson (1994) and Ravallion and Chen (1997). See Wolfson, Michael C. 1994. “When Inequalities Diverge.” The American Economic Review 84 (2): 353–58. https://www.jstor.org/stable/2117858 and Ravallion, Martin, and Shaohua Chen. 1997. “What Can New Survey Data Tell Us about Recent Changes in Distribution and Poverty?” The World Bank Economic Review 11 (2): 357–82. https://www.jstor.org/stable/3990232.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	0;0.1;0.2;0.3;0.4;0.5;0.6;0.7	true	Reds
@@ -702,7 +667,6 @@ columns	inc_only_polarization
 
 table	https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_2017/final/OWID_internal_upload/explorer_database/comparability_data/cons_only/polarization.csv	cons_only_polarization
 columns	cons_only_polarization
-
 	name	slug	sourceName	description	sourceLink	dataPublishedBy	unit	shortUnit	tolerance	type	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme
 	Consumption surveys	consumption_spell_1	World Bank Poverty and Inequality Platform	The polarization index, also known as the Wolfson polarization index, measures the extent to which the distribution of consumption is “spread out” and bi-modal. Like the Gini coefficient, the polarization index ranges from 0 (no polarization) to 1 (complete polarization). The polarization index is based on Wolfson (1994) and Ravallion and Chen (1997). See Wolfson, Michael C. 1994. “When Inequalities Diverge.” The American Economic Review 84 (2): 353–58. https://www.jstor.org/stable/2117858 and Ravallion, Martin, and Shaohua Chen. 1997. “What Can New Survey Data Tell Us about Recent Changes in Distribution and Poverty?” The World Bank Economic Review 11 (2): 357–82. https://www.jstor.org/stable/3990232.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	0;0.1;0.2;0.3;0.4;0.5;0.6;0.7	true	Reds
 	Consumption surveys	consumption_spell_2	World Bank Poverty and Inequality Platform	The polarization index, also known as the Wolfson polarization index, measures the extent to which the distribution of consumption is “spread out” and bi-modal. Like the Gini coefficient, the polarization index ranges from 0 (no polarization) to 1 (complete polarization). The polarization index is based on Wolfson (1994) and Ravallion and Chen (1997). See Wolfson, Michael C. 1994. “When Inequalities Diverge.” The American Economic Review 84 (2): 353–58. https://www.jstor.org/stable/2117858 and Ravallion, Martin, and Shaohua Chen. 1997. “What Can New Survey Data Tell Us about Recent Changes in Distribution and Poverty?” The World Bank Economic Review 11 (2): 357–82. https://www.jstor.org/stable/3990232.	https://pip.worldbank.org/	World Bank Poverty and Inequality Platform (PIP)			5	Numeric	0.0	0;0.1;0.2;0.3;0.4;0.5;0.6;0.7	true	Reds

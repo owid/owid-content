@@ -840,4 +840,4 @@ with open(outfile, "w", newline="\n", encoding="utf-8") as f:
             + "\t"
             + tab
         )
-        f.write("\ncolumns\t" + tab + "\n\n" + table_tsv_indented)
+        f.write("\ncolumns\t" + tab + "\n" + table_tsv_indented)

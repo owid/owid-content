@@ -705,7 +705,7 @@ with open(outfile, "w", newline="\n", encoding="utf-8") as f:
             + ".csv\t"
             + i
         )
-        f.write("\ncolumns\t" + i + "\n\n" + table_tsv_indented)
+        f.write("\ncolumns\t" + i + "\n" + table_tsv_indented)
 
     for var in var_list:
         for i in survey_list:
@@ -730,4 +730,4 @@ with open(outfile, "w", newline="\n", encoding="utf-8") as f:
                 + "_"
                 + var
             )
-            f.write("\ncolumns\t" + i + "_" + var + "\n\n" + table_tsv_indented)
+            f.write("\ncolumns\t" + i + "_" + var + "\n" + table_tsv_indented)

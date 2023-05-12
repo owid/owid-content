@@ -1312,4 +1312,4 @@ with open(outfile, "w", newline="\n", encoding="utf-8") as f:
             + ".csv\t"
             + i
         )
-        f.write("\ncolumns\t" + i + "\n\n" + table_tsv_indented)
+        f.write("\ncolumns\t" + i + "\n" + table_tsv_indented)

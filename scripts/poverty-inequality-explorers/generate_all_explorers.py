@@ -1,3 +1,7 @@
+"""
+This script generates all explorers for the poverty and inequality project. Make sure all the explorers are imported in this file.
+"""
+
 from lis import (
     lis_expanded_poverty_explorer,
     lis_incomes_across_distribution_explorer,
