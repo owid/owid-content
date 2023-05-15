@@ -70,31 +70,26 @@
             "content": "Explore a wide range of metrics on global health and healthcare."
         },
         {
-            "title": "Consumption-based CO2 emissions per capita",
-            "url": "https://ourworldindata.org/grapher/consumption-co2-per-capita",
-            "source": "PIP",
-            "content": "How do per capita CO2 emissions compare when we adjust for trade?"
+            "title": "Share of the population that is undernourished",
+            "url": "https://ourworldindata.org/grapher/prevalence-of-undernourishment",
+            "source": "FAO",
+            "content": "The share of individuals with a food intake that is insufficient to meet dietary energy requirements for a normal healthy, active life."
         },
         {
-            "title": "Annual share of global CO2 emissions",
-            "url": "https://ourworldindata.org/grapher/annual-share-of-co2-emissions",
-            "source": "World Inequality Database",
-            "content": "What share of global CO2 emissions do different countries contribute?"
+            "title": "Share of children who are stunted",
+            "url": "https://ourworldindata.org/grapher/child-stunting-ihme",
+            "source": "IHME",
+            "content": "Compare the same indicator from a different source."
         },
         {
-            "title": "Annual CO2 emissions from land-use change per capita",
-            "url": "https://ourworldindata.org/grapher/co2-land-use-per-capita?country=USA~GBR~European+Union+%2827%29~CHN~IND~AUS~BRA~MEX~IDN",
-            "source": "Global Carbon Project, 2022"
+            "title": "Number of children who are stunted",
+            "url": "https://ourworldindata.org/grapher/number-children-stunted-ihme",
+            "source": "IHME"
         },
         {
-            "title": "Annual CO2 emissions by world region",
-            "url": "https://ourworldindata.org/grapher/annual-co-emissions-by-region",
-            "source": "Global Carbon Project, 2022"
-        },
-        {
-            "title": "Annual CO2 emissions from cement",
-            "url": "https://ourworldindata.org/grapher/annual-co2-cement",
-            "source": "Global Carbon Project, 2022"
+            "title": "Hidden hunger in pre-school children",
+            "url": "https://ourworldindata.org/grapher/global-hidden-hunger-index-in-pre-school-children",
+            "source": "Muthayya et al. (2013)"
         }
     ],
     "relatedCharts": {
