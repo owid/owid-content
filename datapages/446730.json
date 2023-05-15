@@ -92,12 +92,12 @@
             }
         ]
     },
-    "datasetName": "<em>Our World in Data’s Collection</em> of the Global Carbon Budget Data ",
+    "datasetName": "World Development Indicators (World Bank) – Processed by Our World in Data",
     "sources": [
         {
-            "sourceName": "Global Carbon Project",
-            "sourceRetrievedOn": "2021-09-01",
-            "sourceRetrievedFromUrl": "https://zenodo.org/record/7215364/files/...",
+            "sourceName": "World Bank World Development Indicators",
+            "sourceRetrievedOn": "2022-06-02",
+            "sourceRetrievedFromUrl": "	https://datacatalog.worldbank.org/search/dataset/0037712/World-Development-Indicators",
             "sourceCodeUrl": "https://ourworldindata.org/explorers/co2"
         },
         {
