@@ -34,32 +34,6 @@
     "descriptionFromSource": {
         "title": "How does the data provider – the World Bank – describe this metric?"
     },
-    "relatedResearch": [
-        {
-            "title": "From $1.90 to $2.15 a day: the updated International Poverty Line",
-            "url": "https://ourworldindata.org/from-1-90-to-2-15-a-day-the-updated-international-poverty-line",
-            "authors": [
-                "Joe Hasell"
-            ],
-            "imageUrl": "https://ourworldindata.org/uploads/2022/10/Poverty-line-thumbnail-768x402.png"
-        },
-        {
-            "title": "Extreme poverty: how far have we come, how far do we still have to go?",
-            "url": "https://ourworldindata.org/extreme-poverty-in-brief",
-            "authors": [
-                "Max Roser"
-            ],
-            "imageUrl": "https://ourworldindata.org/uploads/2021/11/Featured-Image-for-the-post-768x422.png"
-        },
-        {
-            "title": "The economies that are home to the poorest billions of people need to grow if we want global poverty to decline substantially",
-            "url": "https://ourworldindata.org/poverty-growth-needed",
-            "authors": [
-                "Max Roser"
-            ],
-            "imageUrl": "https://ourworldindata.org/uploads/2021/02/Screen-Shot-2021-02-23-at-11.48.16-768x410.png"
-        }
-    ],
     "relatedData": [
         {
             "type": "Data Explorer",
