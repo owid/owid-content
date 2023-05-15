@@ -99,12 +99,6 @@
             "sourceRetrievedOn": "2022-06-02",
             "sourceRetrievedFromUrl": "https://datacatalog.worldbank.org/search/dataset/0037712/World-Development-Indicators",
             "sourceCodeUrl": "https://ourworldindata.org/explorers/co2"
-        },
-        {
-            "sourceName": "Hypothetical source 2"
-        },
-        {
-            "sourceName": "Hypothetical source 3"
         }
     ]
 }
