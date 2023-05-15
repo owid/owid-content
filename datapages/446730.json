@@ -34,6 +34,9 @@
     "descriptionFromSource": {
         "title": "How does the data provider – the World Bank – describe this metric?"
     },
+    "relatedResearch": [
+       
+    ],
     "relatedData": [
         {
             "type": "Data Explorer",
