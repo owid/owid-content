@@ -1,7 +1,7 @@
 explorerTitle	Influenza Data Explorer
 explorerSubtitle	Visualizing the data produced by the World Health Organization on influenza.
 selection	Northern Hemisphere	Southern Hemisphere
-isPublished	false
+isPublished	true
 thumbnail
 hideAlertBanner	true
 hideAnnotationFieldsInTitle	true
