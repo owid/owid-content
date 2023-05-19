@@ -20,6 +20,7 @@
         }
     ],
     "variantDescription1": "World Bank, PIP",
+    "variantDescription2": "",
     "nameOfSource": "World Bank, Poverty and Inequality Platform",
     "owidProcessingLevel": "<a href>Processed</a> by Our World in Data",
     "dateRange": "1967-2021",
@@ -60,6 +61,7 @@
             "type": "Data Explorer",
             "imageUrl": "",
             "title": "Poverty Data Explorer of the World Bank Data",
+            "source": "World Bank, PIP",
             "url": "https://ourworldindata.org/explorers/poverty-explorer",
             "content": "Explore a range of metrics for higher and lower poverty lines."
         },
