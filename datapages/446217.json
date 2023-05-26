@@ -114,7 +114,7 @@
         {
             "sourceName": "World Bank World Development Indicators",
             "sourceRetrievedOn": "2022-06-02",
-            "sourceRetrievedFromUrl": "https://zenodo.org/record/7215364/files/...",
+            "sourceRetrievedFromUrl": "https://datacatalog.worldbank.org/search/dataset/0037712/World-Development-Indicators",
             "sourceCodeUrl": "https://ourworldindata.org/explorers/co2"
         }
     ]
