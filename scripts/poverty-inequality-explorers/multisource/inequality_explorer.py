@@ -708,9 +708,9 @@ for survey in range(len(pip_tables)):
     df_graphers_pip.loc[j, "title"] = f"Income inequality: Gini coefficient"
     df_graphers_pip.loc[j, "ySlugs"] = f"gini"
     df_graphers_pip.loc[
-        j, "Data source Dropdown"
+        j, "Data source Radio"
     ] = f"{pip_tables['source_name'][tab]} - {pip_tables['dropdown_option'][survey]}"
-    df_graphers_pip.loc[j, "Metric Dropdown"] = "Gini coefficient"
+    df_graphers_pip.loc[j, "Measure Dropdown"] = "Gini coefficient"
     df_graphers_pip.loc[j, "tableSlug"] = f"{pip_tables.table_name[survey]}"
     df_graphers_pip.loc[
         j, "subtitle"
@@ -730,9 +730,9 @@ for survey in range(len(pip_tables)):
     ] = f"{pip_tables.text[survey].capitalize()} share of the top 10%"
     df_graphers_pip.loc[j, "ySlugs"] = f"decile10_share"
     df_graphers_pip.loc[
-        j, "Data source Dropdown"
+        j, "Data source Radio"
     ] = f"{pip_tables['source_name'][tab]} - {pip_tables['dropdown_option'][survey]}"
-    df_graphers_pip.loc[j, "Metric Dropdown"] = "Top 10% share"
+    df_graphers_pip.loc[j, "Measure Dropdown"] = "Top 10% share"
     df_graphers_pip.loc[j, "tableSlug"] = f"{pip_tables.table_name[survey]}"
     df_graphers_pip.loc[
         j, "subtitle"
@@ -750,9 +750,9 @@ for survey in range(len(pip_tables)):
     df_graphers_pip.loc[j, "title"] = f"Income inequality: P90/P10 ratio"
     df_graphers_pip.loc[j, "ySlugs"] = f"p90_p10_ratio"
     df_graphers_pip.loc[
-        j, "Data source Dropdown"
+        j, "Data source Radio"
     ] = f"{pip_tables['source_name'][tab]} - {pip_tables['dropdown_option'][survey]}"
-    df_graphers_pip.loc[j, "Metric Dropdown"] = "P90/P10"
+    df_graphers_pip.loc[j, "Measure Dropdown"] = "P90/P10"
     df_graphers_pip.loc[j, "tableSlug"] = f"{pip_tables.table_name[survey]}"
     df_graphers_pip.loc[
         j, "subtitle"
@@ -770,9 +770,9 @@ for survey in range(len(pip_tables)):
     df_graphers_pip.loc[j, "title"] = f"Income inequality: P90/P50 ratio"
     df_graphers_pip.loc[j, "ySlugs"] = f"p90_p50_ratio"
     df_graphers_pip.loc[
-        j, "Data source Dropdown"
+        j, "Data source Radio"
     ] = f"{pip_tables['source_name'][tab]} - {pip_tables['dropdown_option'][survey]}"
-    df_graphers_pip.loc[j, "Metric Dropdown"] = "P90/P50"
+    df_graphers_pip.loc[j, "Measure Dropdown"] = "P90/P50"
     df_graphers_pip.loc[j, "tableSlug"] = f"{pip_tables.table_name[survey]}"
     df_graphers_pip.loc[
         j, "subtitle"
@@ -790,9 +790,9 @@ for survey in range(len(pip_tables)):
     df_graphers_pip.loc[j, "title"] = f"Income inequality: P50/P10 ratio"
     df_graphers_pip.loc[j, "ySlugs"] = f"p50_p10_ratio"
     df_graphers_pip.loc[
-        j, "Data source Dropdown"
+        j, "Data source Radio"
     ] = f"{pip_tables['source_name'][tab]} - {pip_tables['dropdown_option'][survey]}"
-    df_graphers_pip.loc[j, "Metric Dropdown"] = "P50/P10"
+    df_graphers_pip.loc[j, "Measure Dropdown"] = "P50/P10"
     df_graphers_pip.loc[j, "tableSlug"] = f"{pip_tables.table_name[survey]}"
     df_graphers_pip.loc[
         j, "subtitle"
@@ -810,9 +810,9 @@ for survey in range(len(pip_tables)):
     df_graphers_pip.loc[j, "title"] = f"Income inequality: Palma ratio"
     df_graphers_pip.loc[j, "ySlugs"] = f"palma_ratio"
     df_graphers_pip.loc[
-        j, "Data source Dropdown"
+        j, "Data source Radio"
     ] = f"{pip_tables['source_name'][tab]} - {pip_tables['dropdown_option'][survey]}"
-    df_graphers_pip.loc[j, "Metric Dropdown"] = "Palma ratio"
+    df_graphers_pip.loc[j, "Measure Dropdown"] = "Palma ratio"
     df_graphers_pip.loc[j, "tableSlug"] = f"{pip_tables.table_name[survey]}"
     df_graphers_pip.loc[
         j, "subtitle"
@@ -832,10 +832,10 @@ for survey in range(len(pip_tables)):
     ] = "Relative poverty: Share of people below 50% of the median"
     df_graphers_pip.loc[j, "ySlugs"] = f"headcount_ratio_50_median"
     df_graphers_pip.loc[
-        j, "Data source Dropdown"
+        j, "Data source Radio"
     ] = f"{pip_tables['source_name'][tab]} - {pip_tables['dropdown_option'][survey]}"
     df_graphers_pip.loc[
-        j, "Metric Dropdown"
+        j, "Measure Dropdown"
     ] = f"Share in relative poverty (< 50% of the median)"
     df_graphers_pip.loc[j, "tableSlug"] = f"{pip_tables.table_name[survey]}"
     df_graphers_pip.loc[
@@ -875,9 +875,9 @@ for tab in range(len(wid_tables)):
         ] = f"{wid_welfare['welfare_type'][wel].capitalize()} inequality: Gini coefficient {wid_welfare['title'][wel].capitalize()}"
         df_graphers_wid.loc[j, "ySlugs"] = f"p0p100_gini_{wid_welfare['slug'][wel]}"
         df_graphers_wid.loc[
-            j, "Data source Dropdown"
+            j, "Data source Radio"
         ] = f"{wid_tables['source_name'][tab]} - {wid_welfare['dropdown_option'][wel]}"
-        df_graphers_wid.loc[j, "Metric Dropdown"] = "Gini coefficient"
+        df_graphers_wid.loc[j, "Measure Dropdown"] = "Gini coefficient"
         df_graphers_wid.loc[
             j, "subtitle"
         ] = f"The Gini coefficient is a measure of the inequality of the {wid_welfare['welfare_type'][wel]} distribution in a population. Higher values indicate a higher level of inequality. {wid_welfare['subtitle'][wel]}"
@@ -894,9 +894,9 @@ for tab in range(len(wid_tables)):
         ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the top 10% {wid_welfare['title'][wel].capitalize()}"
         df_graphers_wid.loc[j, "ySlugs"] = f"p90p100_share_{wid_welfare['slug'][wel]}"
         df_graphers_wid.loc[
-            j, "Data source Dropdown"
+            j, "Data source Radio"
         ] = f"{wid_tables['source_name'][tab]} - {wid_welfare['dropdown_option'][wel]}"
-        df_graphers_wid.loc[j, "Metric Dropdown"] = "Top 10% share"
+        df_graphers_wid.loc[j, "Measure Dropdown"] = "Top 10% share"
         df_graphers_wid.loc[
             j, "subtitle"
         ] = f"This is the {wid_welfare['welfare_type'][wel]} of the richest 10% as a share of total {wid_welfare['welfare_type'][wel]}. {wid_welfare['subtitle'][wel]}"
@@ -913,9 +913,9 @@ for tab in range(len(wid_tables)):
         ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the bottom 50% {wid_welfare['title'][wel].capitalize()}"
         df_graphers_wid.loc[j, "ySlugs"] = f"p0p50_share_{wid_welfare['slug'][wel]}"
         df_graphers_wid.loc[
-            j, "Data source Dropdown"
+            j, "Data source Radio"
         ] = f"{wid_tables['source_name'][tab]} - {wid_welfare['dropdown_option'][wel]}"
-        df_graphers_wid.loc[j, "Metric Dropdown"] = "Bottom 50% share"
+        df_graphers_wid.loc[j, "Measure Dropdown"] = "Bottom 50% share"
         df_graphers_wid.loc[
             j, "subtitle"
         ] = f"This is the {wid_welfare['welfare_type'][wel]} of the poorest 50% as a share of total {wid_welfare['welfare_type'][wel]}. {wid_welfare['subtitle'][wel]}"
@@ -931,9 +931,9 @@ for tab in range(len(wid_tables)):
         ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the top 1% {wid_welfare['title'][wel].capitalize()}"
         df_graphers_wid.loc[j, "ySlugs"] = f"p99p100_share_{wid_welfare['slug'][wel]}"
         df_graphers_wid.loc[
-            j, "Data source Dropdown"
+            j, "Data source Radio"
         ] = f"{wid_tables['source_name'][tab]} - {wid_welfare['dropdown_option'][wel]}"
-        df_graphers_wid.loc[j, "Metric Dropdown"] = "Top 1% share"
+        df_graphers_wid.loc[j, "Measure Dropdown"] = "Top 1% share"
         df_graphers_wid.loc[
             j, "subtitle"
         ] = f"This is the {wid_welfare['welfare_type'][wel]} of the richest 1% as a share of total {wid_welfare['welfare_type'][wel]}. {wid_welfare['subtitle'][wel]}"
@@ -950,9 +950,9 @@ for tab in range(len(wid_tables)):
         ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the top 0.1% {wid_welfare['title'][wel].capitalize()}"
         df_graphers_wid.loc[j, "ySlugs"] = f"p99_9p100_share_{wid_welfare['slug'][wel]}"
         df_graphers_wid.loc[
-            j, "Data source Dropdown"
+            j, "Data source Radio"
         ] = f"{wid_tables['source_name'][tab]} - {wid_welfare['dropdown_option'][wel]}"
-        df_graphers_wid.loc[j, "Metric Dropdown"] = "Top 0.1% share"
+        df_graphers_wid.loc[j, "Measure Dropdown"] = "Top 0.1% share"
         df_graphers_wid.loc[
             j, "subtitle"
         ] = f"This is the {wid_welfare['welfare_type'][wel]} of the richest 0.1% as a share of total {wid_welfare['welfare_type'][wel]}. {wid_welfare['subtitle'][wel]}"
@@ -971,9 +971,9 @@ for tab in range(len(wid_tables)):
             j, "ySlugs"
         ] = f"p99_99p100_share_{wid_welfare['slug'][wel]}"
         df_graphers_wid.loc[
-            j, "Data source Dropdown"
+            j, "Data source Radio"
         ] = f"{wid_tables['source_name'][tab]} - {wid_welfare['dropdown_option'][wel]}"
-        df_graphers_wid.loc[j, "Metric Dropdown"] = "Top 0.01% share"
+        df_graphers_wid.loc[j, "Measure Dropdown"] = "Top 0.01% share"
         df_graphers_wid.loc[
             j, "subtitle"
         ] = f"This is the {wid_welfare['welfare_type'][wel]} of the richest 0.01% as a share of total {wid_welfare['welfare_type'][wel]}. {wid_welfare['subtitle'][wel]}"
@@ -992,9 +992,9 @@ for tab in range(len(wid_tables)):
             j, "ySlugs"
         ] = f"p99_999p100_share_{wid_welfare['slug'][wel]}"
         df_graphers_wid.loc[
-            j, "Data source Dropdown"
+            j, "Data source Radio"
         ] = f"{wid_tables['source_name'][tab]} - {wid_welfare['dropdown_option'][wel]}"
-        df_graphers_wid.loc[j, "Metric Dropdown"] = "Top 0.001% share"
+        df_graphers_wid.loc[j, "Measure Dropdown"] = "Top 0.001% share"
         df_graphers_wid.loc[
             j, "subtitle"
         ] = f"This is the {wid_welfare['welfare_type'][wel]} of the richest 0.001% as a share of total {wid_welfare['welfare_type'][wel]}. {wid_welfare['subtitle'][wel]}"
@@ -1011,9 +1011,9 @@ for tab in range(len(wid_tables)):
         ] = f"{wid_welfare['welfare_type'][wel].capitalize()} inequality: P90/P10 ratio {wid_welfare['title'][wel].capitalize()}"
         df_graphers_wid.loc[j, "ySlugs"] = f"p90_p10_ratio_{wid_welfare['slug'][wel]}"
         df_graphers_wid.loc[
-            j, "Data source Dropdown"
+            j, "Data source Radio"
         ] = f"{wid_tables['source_name'][tab]} - {wid_welfare['dropdown_option'][wel]}"
-        df_graphers_wid.loc[j, "Metric Dropdown"] = "P90/P10"
+        df_graphers_wid.loc[j, "Measure Dropdown"] = "P90/P10"
         df_graphers_wid.loc[
             j, "subtitle"
         ] = f"P90 and P10 are the levels of {wid_welfare['welfare_type'][wel]} below which 90% and 10% of the population live, respectively. This variable gives the ratio of the two. It is a measure of inequality that indicates the gap between the richest and poorest tenth of the population. {wid_welfare['subtitle'][wel]}"
@@ -1030,9 +1030,9 @@ for tab in range(len(wid_tables)):
         ] = f"{wid_welfare['welfare_type'][wel].capitalize()} inequality: P90/P50 ratio {wid_welfare['title'][wel].capitalize()}"
         df_graphers_wid.loc[j, "ySlugs"] = f"p90_p50_ratio_{wid_welfare['slug'][wel]}"
         df_graphers_wid.loc[
-            j, "Data source Dropdown"
+            j, "Data source Radio"
         ] = f"{wid_tables['source_name'][tab]} - {wid_welfare['dropdown_option'][wel]}"
-        df_graphers_wid.loc[j, "Metric Dropdown"] = "P90/P50"
+        df_graphers_wid.loc[j, "Measure Dropdown"] = "P90/P50"
         df_graphers_wid.loc[
             j, "subtitle"
         ] = f"The P90/P50 ratio measures the degree of inequality within the richest half of the population. A ratio of 2 means that someone just falling in the richest tenth of the population has twice the median {wid_welfare['welfare_type'][wel]}. {wid_welfare['subtitle'][wel]}"
@@ -1049,9 +1049,9 @@ for tab in range(len(wid_tables)):
         ] = f"{wid_welfare['welfare_type'][wel].capitalize()} inequality: P50/P10 ratio {wid_welfare['title'][wel].capitalize()}"
         df_graphers_wid.loc[j, "ySlugs"] = f"p50_p10_ratio_{wid_welfare['slug'][wel]}"
         df_graphers_wid.loc[
-            j, "Data source Dropdown"
+            j, "Data source Radio"
         ] = f"{wid_tables['source_name'][tab]} - {wid_welfare['dropdown_option'][wel]}"
-        df_graphers_wid.loc[j, "Metric Dropdown"] = "P50/P10"
+        df_graphers_wid.loc[j, "Measure Dropdown"] = "P50/P10"
         df_graphers_wid.loc[
             j, "subtitle"
         ] = f"The P50/P10 ratio measures the degree of inequality within the poorest half of the population. A ratio of 2 means that the median {wid_welfare['welfare_type'][wel]} is two times higher than that of someone just falling in the poorest tenth of the population. {wid_welfare['subtitle'][wel]}"
@@ -1068,9 +1068,9 @@ for tab in range(len(wid_tables)):
         ] = f"{wid_welfare['welfare_type'][wel].capitalize()} inequality: Palma ratio {wid_welfare['title'][wel].capitalize()}"
         df_graphers_wid.loc[j, "ySlugs"] = f"palma_ratio_{wid_welfare['slug'][wel]}"
         df_graphers_wid.loc[
-            j, "Data source Dropdown"
+            j, "Data source Radio"
         ] = f"{wid_tables['source_name'][tab]} - {wid_welfare['dropdown_option'][wel]}"
-        df_graphers_wid.loc[j, "Metric Dropdown"] = "Palma ratio"
+        df_graphers_wid.loc[j, "Measure Dropdown"] = "Palma ratio"
         df_graphers_wid.loc[
             j, "subtitle"
         ] = f"The Palma ratio is the share of total {wid_welfare['welfare_type'][wel]} of the top 10% divided by the share of the bottom 40%. {wid_welfare['subtitle'][wel]}"
@@ -1114,9 +1114,9 @@ df_graphers_wid["mapTargetTime"] = mapTargetTime
 #                 j, "ySlugs"
 #             ] = f"gini_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
 #             df_graphers_lis.loc[
-#                 j, "Data source Dropdown"
+#                 j, "Data source Radio"
 #             ] = f"{lis_tables['source_name'][tab]} - {lis_welfare['welfare_type'][wel].capitalize()} {lis_welfare['title'][wel]}"
-#             df_graphers_lis.loc[j, "Metric Dropdown"] = "Gini coefficient"
+#             df_graphers_lis.loc[j, "Measure Dropdown"] = "Gini coefficient"
 #             df_graphers_lis.loc[
 #                 j, "equivalized"
 #             ] = f"{lis_equivalence_scales['text'][eq]}"
@@ -1137,9 +1137,9 @@ df_graphers_wid["mapTargetTime"] = mapTargetTime
 #                 j, "ySlugs"
 #             ] = f"share_p90_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
 #             df_graphers_lis.loc[
-#                 j, "Data source Dropdown"
+#                 j, "Data source Radio"
 #             ] = f"{lis_tables['source_name'][tab]} - {lis_welfare['welfare_type'][wel].capitalize()} {lis_welfare['title'][wel]}"
-#             df_graphers_lis.loc[j, "Metric Dropdown"] = "Top 10% share"
+#             df_graphers_lis.loc[j, "Measure Dropdown"] = "Top 10% share"
 #             df_graphers_lis.loc[
 #                 j, "equivalized"
 #             ] = f"{lis_equivalence_scales['text'][eq]}"
@@ -1160,9 +1160,9 @@ df_graphers_wid["mapTargetTime"] = mapTargetTime
 #                 j, "ySlugs"
 #             ] = f"share_bottom50_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
 #             df_graphers_lis.loc[
-#                 j, "Data source Dropdown"
+#                 j, "Data source Radio"
 #             ] = f"{lis_tables['source_name'][tab]} - {lis_welfare['welfare_type'][wel].capitalize()} {lis_welfare['title'][wel]}"
-#             df_graphers_lis.loc[j, "Metric Dropdown"] = "Bottom 50% share"
+#             df_graphers_lis.loc[j, "Measure Dropdown"] = "Bottom 50% share"
 #             df_graphers_lis.loc[
 #                 j, "equivalized"
 #             ] = f"{lis_equivalence_scales['text'][eq]}"
@@ -1183,9 +1183,9 @@ df_graphers_wid["mapTargetTime"] = mapTargetTime
 #                 j, "ySlugs"
 #             ] = f"p90_p10_ratio_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
 #             df_graphers_lis.loc[
-#                 j, "Data source Dropdown"
+#                 j, "Data source Radio"
 #             ] = f"{lis_tables['source_name'][tab]} - {lis_welfare['welfare_type'][wel].capitalize()} {lis_welfare['title'][wel]}"
-#             df_graphers_lis.loc[j, "Metric Dropdown"] = "P90/P10"
+#             df_graphers_lis.loc[j, "Measure Dropdown"] = "P90/P10"
 #             df_graphers_lis.loc[
 #                 j, "equivalized"
 #             ] = f"{lis_equivalence_scales['text'][eq]}"
@@ -1207,9 +1207,9 @@ df_graphers_wid["mapTargetTime"] = mapTargetTime
 #                 j, "ySlugs"
 #             ] = f"p90_p50_ratio_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
 #             df_graphers_lis.loc[
-#                 j, "Data source Dropdown"
+#                 j, "Data source Radio"
 #             ] = f"{lis_tables['source_name'][tab]} - {lis_welfare['welfare_type'][wel].capitalize()} {lis_welfare['title'][wel]}"
-#             df_graphers_lis.loc[j, "Metric Dropdown"] = "P90/P50"
+#             df_graphers_lis.loc[j, "Measure Dropdown"] = "P90/P50"
 #             df_graphers_lis.loc[
 #                 j, "equivalized"
 #             ] = f"{lis_equivalence_scales['text'][eq]}"
@@ -1231,9 +1231,9 @@ df_graphers_wid["mapTargetTime"] = mapTargetTime
 #                 j, "ySlugs"
 #             ] = f"p50_p10_ratio_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
 #             df_graphers_lis.loc[
-#                 j, "Data source Dropdown"
+#                 j, "Data source Radio"
 #             ] = f"{lis_tables['source_name'][tab]} - {lis_welfare['welfare_type'][wel].capitalize()} {lis_welfare['title'][wel]}"
-#             df_graphers_lis.loc[j, "Metric Dropdown"] = "P50/P10"
+#             df_graphers_lis.loc[j, "Measure Dropdown"] = "P50/P10"
 #             df_graphers_lis.loc[
 #                 j, "equivalized"
 #             ] = f"{lis_equivalence_scales['text'][eq]}"
@@ -1255,9 +1255,9 @@ df_graphers_wid["mapTargetTime"] = mapTargetTime
 #                 j, "ySlugs"
 #             ] = f"palma_ratio_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
 #             df_graphers_lis.loc[
-#                 j, "Data source Dropdown"
+#                 j, "Data source Radio"
 #             ] = f"{lis_tables['source_name'][tab]} - {lis_welfare['welfare_type'][wel].capitalize()} {lis_welfare['title'][wel]}"
-#             df_graphers_lis.loc[j, "Metric Dropdown"] = "Palma ratio"
+#             df_graphers_lis.loc[j, "Measure Dropdown"] = "Palma ratio"
 #             df_graphers_lis.loc[
 #                 j, "equivalized"
 #             ] = f"{lis_equivalence_scales['text'][eq]}"
@@ -1278,10 +1278,10 @@ df_graphers_wid["mapTargetTime"] = mapTargetTime
 #                 j, "ySlugs"
 #             ] = f"headcount_ratio_50_median_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
 #             df_graphers_lis.loc[
-#                 j, "Data source Dropdown"
+#                 j, "Data source Radio"
 #             ] = f"{lis_tables['source_name'][tab]} - {lis_welfare['welfare_type'][wel].capitalize()} {lis_welfare['title'][wel]}"
 #             df_graphers_lis.loc[
-#                 j, "Metric Dropdown"
+#                 j, "Measure Dropdown"
 #             ] = f"Share in relative poverty (< 50% of the median)"
 #             df_graphers_lis.loc[
 #                 j, "equivalized"
@@ -1321,11 +1321,8 @@ vars_to_keep = [
 ]
 df_graphers_wid = df_graphers_wid[
     ~(
-        (
-            df_graphers_wid["Data source Dropdown"]
-            == "World Inequality Database - Wealth"
-        )
-        & ~(df_graphers_wid["Metric Dropdown"].isin(vars_to_keep))
+        (df_graphers_wid["Data source Radio"] == "World Inequality Database - Wealth")
+        & ~(df_graphers_wid["Measure Dropdown"].isin(vars_to_keep))
     )
 ]
 
@@ -1350,10 +1347,10 @@ df_graphers["mapTargetTime"] = df_graphers["mapTargetTime"].astype("Int64")
 # Select one default view
 df_graphers.loc[
     (
-        df_graphers["Data source Dropdown"]
+        df_graphers["Data source Radio"]
         == "World Bank Poverty and Inequality Platform - Income after tax or consumption"
     )
-    & (df_graphers["Metric Dropdown"] == "Gini coefficient"),
+    & (df_graphers["Measure Dropdown"] == "Gini coefficient"),
     ["defaultView"],
 ] = "true"
 
