@@ -105,12 +105,6 @@
             "sourceRetrievedOn": "2022-10-13",
             "sourceRetrievedFromUrl": "https://stats.livingplanetindex.org/",
             "sourceCodeUrl": ""
-        },
-        {
-            "sourceName": "Hypothetical source 2"
-        },
-        {
-            "sourceName": "Hypothetical source 3"
         }
     ]
 }
