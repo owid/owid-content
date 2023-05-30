@@ -756,8 +756,10 @@ for tab in range(len(wid_tables)):
         df_graphers_wid.loc[j, "Measure Dropdown"] = "Gini coefficient"
         df_graphers_wid.loc[
             j, "subtitle"
-        ] = f"The Gini coefficient is a measure of the inequality of the {wid_welfare['welfare_type'][wel]} distribution in a population. Higher values indicate a higher level of inequality. {wid_welfare['subtitle'][wel]}"
-        df_graphers_wid.loc[j, "note"] = f"{wid_welfare['note'][wel]}"
+        ] = f"The Gini coefficient is a measure of the inequality of the income distribution in a population. Higher values indicate a higher level of inequality. Income here is measured before taxes and benefits."
+        df_graphers_wid.loc[
+            j, "note"
+        ] = f"Income is measured before payment of taxes and non-pension benefits, but after the payment of public and private pensions."
         df_graphers_wid.loc[j, "type"] = np.nan
         df_graphers_wid.loc[j, "selectedFacetStrategy"] = np.nan
         df_graphers_wid.loc[j, "hasMapTab"] = "true"
@@ -775,8 +777,10 @@ for tab in range(len(wid_tables)):
         df_graphers_wid.loc[j, "Measure Dropdown"] = "Top 10% share"
         df_graphers_wid.loc[
             j, "subtitle"
-        ] = f"This is the {wid_welfare['welfare_type'][wel]} of the richest 10% as a share of total {wid_welfare['welfare_type'][wel]}. {wid_welfare['subtitle'][wel]}"
-        df_graphers_wid.loc[j, "note"] = f"{wid_welfare['note'][wel]}"
+        ] = f"The share of income received by the richest 10% of the population. Income here is measured before taxes and benefits."
+        df_graphers_wid.loc[
+            j, "note"
+        ] = f"Income is measured before payment of taxes and non-pension benefits, but after the payment of public and private pensions."
         df_graphers_wid.loc[j, "type"] = np.nan
         df_graphers_wid.loc[j, "selectedFacetStrategy"] = np.nan
         df_graphers_wid.loc[j, "hasMapTab"] = "true"
@@ -794,8 +798,10 @@ for tab in range(len(wid_tables)):
         df_graphers_wid.loc[j, "Measure Dropdown"] = "Top 1% share"
         df_graphers_wid.loc[
             j, "subtitle"
-        ] = f"This is the {wid_welfare['welfare_type'][wel]} of the richest 1% as a share of total {wid_welfare['welfare_type'][wel]}. {wid_welfare['subtitle'][wel]}"
-        df_graphers_wid.loc[j, "note"] = f"{wid_welfare['note'][wel]}"
+        ] = f"The share of income received by the richest 1% of the population. Income here is measured before taxes and benefits."
+        df_graphers_wid.loc[
+            j, "note"
+        ] = f"Income is measured before payment of taxes and non-pension benefits, but after the payment of public and private pensions."
         df_graphers_wid.loc[j, "type"] = np.nan
         df_graphers_wid.loc[j, "selectedFacetStrategy"] = np.nan
         df_graphers_wid.loc[j, "hasMapTab"] = "true"
@@ -813,8 +819,10 @@ for tab in range(len(wid_tables)):
         df_graphers_wid.loc[j, "Measure Dropdown"] = "Top 0.1% share"
         df_graphers_wid.loc[
             j, "subtitle"
-        ] = f"This is the {wid_welfare['welfare_type'][wel]} of the richest 0.1% as a share of total {wid_welfare['welfare_type'][wel]}. {wid_welfare['subtitle'][wel]}"
-        df_graphers_wid.loc[j, "note"] = f"{wid_welfare['note'][wel]}"
+        ] = f"The share of income received by the richest 0.1% of the population. Income here is measured before taxes and benefits."
+        df_graphers_wid.loc[
+            j, "note"
+        ] = f"Income is measured before payment of taxes and non-pension benefits, but after the payment of public and private pensions."
         df_graphers_wid.loc[j, "type"] = np.nan
         df_graphers_wid.loc[j, "selectedFacetStrategy"] = np.nan
         df_graphers_wid.loc[j, "hasMapTab"] = "true"
@@ -832,8 +840,10 @@ for tab in range(len(wid_tables)):
         df_graphers_wid.loc[j, "Measure Dropdown"] = "Poorest 50% share"
         df_graphers_wid.loc[
             j, "subtitle"
-        ] = f"This is the {wid_welfare['welfare_type'][wel]} of the poorest 50% as a share of total {wid_welfare['welfare_type'][wel]}. {wid_welfare['subtitle'][wel]}"
-        df_graphers_wid.loc[j, "note"] = f"{wid_welfare['note'][wel]}"
+        ] = f"The share of income received by the poorest 50% of the population. Income here is measured before taxes and benefits."
+        df_graphers_wid.loc[
+            j, "note"
+        ] = f"Income is measured before payment of taxes and non-pension benefits, but after the payment of public and private pensions."
         df_graphers_wid.loc[j, "selectedFacetStrategy"] = np.nan
         df_graphers_wid.loc[j, "hasMapTab"] = "true"
         df_graphers_wid.loc[j, "tab"] = "map"
@@ -905,8 +915,10 @@ for tab in range(len(wid_tables)):
         df_graphers_wid.loc[j, "Measure Dropdown"] = "Palma ratio"
         df_graphers_wid.loc[
             j, "subtitle"
-        ] = f"The Palma ratio is the share of total {wid_welfare['welfare_type'][wel]} of the top 10% divided by the share of the bottom 40%. {wid_welfare['subtitle'][wel]}"
-        df_graphers_wid.loc[j, "note"] = f"{wid_welfare['note'][wel]}"
+        ] = f"The share of income of the richest 10% divided by the share of the poorest 40%. Income here is measured before taxes and benefits."
+        df_graphers_wid.loc[
+            j, "note"
+        ] = f"Income is measured before payment of taxes and non-pension benefits, but after the payment of public and private pensions."
         df_graphers_wid.loc[j, "type"] = np.nan
         df_graphers_wid.loc[j, "selectedFacetStrategy"] = np.nan
         df_graphers_wid.loc[j, "hasMapTab"] = "true"
@@ -946,10 +958,8 @@ for survey in range(len(pip_tables)):
     df_graphers_pip.loc[j, "tableSlug"] = f"{pip_tables.table_name[survey]}"
     df_graphers_pip.loc[
         j, "subtitle"
-    ] = f"The Gini coefficient is a measure of the inequality of the income distribution in a population. Higher values indicate a higher level of inequality."
-    df_graphers_pip.loc[
-        j, "note"
-    ] = f"Depending on the country and year, the data relates to disposable {pip_tables.text[survey]} per capita."
+    ] = f"The Gini coefficient is a measure of the inequality of the income distribution in a population. Higher values indicate a higher level of inequality. Depending on the country and year, the data relates to income measured after taxes and benefits, or consumption."
+    df_graphers_pip.loc[j, "note"] = ""
     df_graphers_pip.loc[j, "type"] = np.nan
     df_graphers_pip.loc[j, "selectedFacetStrategy"] = np.nan
     df_graphers_pip.loc[j, "hasMapTab"] = "true"
@@ -968,10 +978,10 @@ for survey in range(len(pip_tables)):
     df_graphers_pip.loc[j, "tableSlug"] = f"{pip_tables.table_name[survey]}"
     df_graphers_pip.loc[
         j, "subtitle"
-    ] = f"This is the {pip_tables.text[survey]} of the richest decile (tenth of the population) as a share of total {pip_tables.text[survey]}."
+    ] = f"The share of after tax income or consumption received by the richest 10% of the population."
     df_graphers_pip.loc[
         j, "note"
-    ] = f"Depending on the country and year, the data relates to disposable {pip_tables.text[survey]} per capita."
+    ] = f"Depending on the country and year, the data relates to income measured after taxes and benefits, or consumption."
     df_graphers_pip.loc[j, "type"] = np.nan
     df_graphers_pip.loc[j, "selectedFacetStrategy"] = np.nan
     df_graphers_pip.loc[j, "hasMapTab"] = "true"
@@ -990,10 +1000,10 @@ for survey in range(len(pip_tables)):
     df_graphers_pip.loc[j, "tableSlug"] = f"{pip_tables.table_name[survey]}"
     df_graphers_pip.loc[
         j, "subtitle"
-    ] = f"This is the {pip_tables.text[survey]} of the poorest 50% as a share of total {pip_tables.text[survey]}."
+    ] = f"The share of after tax income or consumption received by the poorest 50% of the population."
     df_graphers_pip.loc[
         j, "note"
-    ] = f"Depending on the country and year, the data relates to disposable {pip_tables.text[survey]} per capita."
+    ] = f"Depending on the country and year, the data relates to income measured after taxes and benefits, or consumption."
     df_graphers_pip.loc[j, "type"] = np.nan
     df_graphers_pip.loc[j, "selectedFacetStrategy"] = np.nan
     df_graphers_pip.loc[j, "hasMapTab"] = "true"
@@ -1070,10 +1080,10 @@ for survey in range(len(pip_tables)):
     df_graphers_pip.loc[j, "tableSlug"] = f"{pip_tables.table_name[survey]}"
     df_graphers_pip.loc[
         j, "subtitle"
-    ] = f"The Palma ratio is the share of total {pip_tables.text[survey]} of the top 10% divided by the share of the bottom 40%."
+    ] = f"The share of after tax income or consumption of the richest 10% divided by the share of the poorest 40%."
     df_graphers_pip.loc[
         j, "note"
-    ] = f"Depending on the country and year, the data relates to disposable {pip_tables.text[survey]} per capita."
+    ] = f"Depending on the country and year, the data relates to income measured after taxes and benefits, or consumption."
     df_graphers_pip.loc[j, "type"] = np.nan
     df_graphers_pip.loc[j, "selectedFacetStrategy"] = np.nan
     df_graphers_pip.loc[j, "hasMapTab"] = "true"
