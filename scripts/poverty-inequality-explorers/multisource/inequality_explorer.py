@@ -180,50 +180,67 @@ for survey in range(len(pip_tables)):
     df_tables_pip.loc[j, "tableSlug"] = pip_tables["table_name"][survey]
     j += 1
 
-    # P90/P10
-    df_tables_pip.loc[j, "name"] = f"P90/P10 ratio (PIP)"
-    df_tables_pip.loc[j, "slug"] = f"p90_p10_ratio"
+    # Share of the bottom 50%
+    df_tables_pip.loc[
+        j, "name"
+    ] = f"Share of the poorest 50% in total {pip_tables.text[survey]} (PIP)"
+    df_tables_pip.loc[j, "slug"] = f"bottom50_share"
     df_tables_pip.loc[
         j, "description"
-    ] = f"P90 is the the level of {pip_tables.text[survey]} below which 90% of the population lives. P10 is the level of {pip_tables.text[survey]} below which 10% of the population lives. This variable gives the ratio of the two. It is a measure of inequality that indicates the gap between the richest and poorest tenth of the population. It tells you how many times richer someone just in the the poorest tenth would need to be in order to be counted in the richest tenth."
-    df_tables_pip.loc[j, "unit"] = np.nan
-    df_tables_pip.loc[j, "shortUnit"] = np.nan
+    ] = f"The {pip_tables.text[survey]} of the poorest 50% as a share of total {pip_tables.text[survey]}."
+    df_tables_pip.loc[j, "unit"] = "%"
+    df_tables_pip.loc[j, "shortUnit"] = "%"
     df_tables_pip.loc[j, "type"] = "Numeric"
-    df_tables_pip.loc[j, "colorScaleNumericBins"] = "0;2;4;6;8;10;12;14;16;18"
+    df_tables_pip.loc[j, "colorScaleNumericBins"] = "10;15;20;25;30;35;40;45;50"
     df_tables_pip.loc[j, "colorScaleEqualSizeBins"] = "true"
-    df_tables_pip.loc[j, "colorScaleScheme"] = "OrRd"
+    df_tables_pip.loc[j, "colorScaleScheme"] = "Greens"
     df_tables_pip.loc[j, "tableSlug"] = pip_tables["table_name"][survey]
     j += 1
 
-    # P90/P50
-    df_tables_pip.loc[j, "name"] = f"P90/P50 ratio (PIP)"
-    df_tables_pip.loc[j, "slug"] = f"p90_p50_ratio"
-    df_tables_pip.loc[
-        j, "description"
-    ] = f"P90 is the the level of {pip_tables.text[survey]} above which 10% of the population lives. P50 is the median – the level of {pip_tables.text[survey]} below which 50% of the population lives. This variable gives the ratio of the two. It is a measure of inequality within the top half of the distribution. It tells you how many times richer someone in the middle of the distribution would need to be in order to be counted in the richest tenth."
-    df_tables_pip.loc[j, "unit"] = np.nan
-    df_tables_pip.loc[j, "shortUnit"] = np.nan
-    df_tables_pip.loc[j, "type"] = "Numeric"
-    df_tables_pip.loc[j, "colorScaleNumericBins"] = "0;1;2;3;4;5"
-    df_tables_pip.loc[j, "colorScaleEqualSizeBins"] = "true"
-    df_tables_pip.loc[j, "colorScaleScheme"] = "Purples"
-    df_tables_pip.loc[j, "tableSlug"] = pip_tables["table_name"][survey]
-    j += 1
+    # # P90/P10
+    # df_tables_pip.loc[j, "name"] = f"P90/P10 ratio (PIP)"
+    # df_tables_pip.loc[j, "slug"] = f"p90_p10_ratio"
+    # df_tables_pip.loc[
+    #     j, "description"
+    # ] = f"P90 is the the level of {pip_tables.text[survey]} below which 90% of the population lives. P10 is the level of {pip_tables.text[survey]} below which 10% of the population lives. This variable gives the ratio of the two. It is a measure of inequality that indicates the gap between the richest and poorest tenth of the population. It tells you how many times richer someone just in the the poorest tenth would need to be in order to be counted in the richest tenth."
+    # df_tables_pip.loc[j, "unit"] = np.nan
+    # df_tables_pip.loc[j, "shortUnit"] = np.nan
+    # df_tables_pip.loc[j, "type"] = "Numeric"
+    # df_tables_pip.loc[j, "colorScaleNumericBins"] = "0;2;4;6;8;10;12;14;16;18"
+    # df_tables_pip.loc[j, "colorScaleEqualSizeBins"] = "true"
+    # df_tables_pip.loc[j, "colorScaleScheme"] = "OrRd"
+    # df_tables_pip.loc[j, "tableSlug"] = pip_tables["table_name"][survey]
+    # j += 1
 
-    # P50/P10
-    df_tables_pip.loc[j, "name"] = f"P50/P10 ratio (PIP)"
-    df_tables_pip.loc[j, "slug"] = f"p50_p10_ratio"
-    df_tables_pip.loc[
-        j, "description"
-    ] = f"P50 is the median – the level of {pip_tables.text[survey]} below which 50% of the population lives. P10 is the the level of {pip_tables.text[survey]} below which 10% of the population lives. This variable gives the ratio of the two. It is a measure of inequality within the bottom half of the distribution. It tells you how many times richer someone just in the the poorest tenth would need to be in order to be reach the median."
-    df_tables_pip.loc[j, "unit"] = np.nan
-    df_tables_pip.loc[j, "shortUnit"] = np.nan
-    df_tables_pip.loc[j, "type"] = "Numeric"
-    df_tables_pip.loc[j, "colorScaleNumericBins"] = "0;0.5;1;1.5;2;2.5;3;3.5;4"
-    df_tables_pip.loc[j, "colorScaleEqualSizeBins"] = "true"
-    df_tables_pip.loc[j, "colorScaleScheme"] = "YlOrRd"
-    df_tables_pip.loc[j, "tableSlug"] = pip_tables["table_name"][survey]
-    j += 1
+    # # P90/P50
+    # df_tables_pip.loc[j, "name"] = f"P90/P50 ratio (PIP)"
+    # df_tables_pip.loc[j, "slug"] = f"p90_p50_ratio"
+    # df_tables_pip.loc[
+    #     j, "description"
+    # ] = f"P90 is the the level of {pip_tables.text[survey]} above which 10% of the population lives. P50 is the median – the level of {pip_tables.text[survey]} below which 50% of the population lives. This variable gives the ratio of the two. It is a measure of inequality within the top half of the distribution. It tells you how many times richer someone in the middle of the distribution would need to be in order to be counted in the richest tenth."
+    # df_tables_pip.loc[j, "unit"] = np.nan
+    # df_tables_pip.loc[j, "shortUnit"] = np.nan
+    # df_tables_pip.loc[j, "type"] = "Numeric"
+    # df_tables_pip.loc[j, "colorScaleNumericBins"] = "0;1;2;3;4;5"
+    # df_tables_pip.loc[j, "colorScaleEqualSizeBins"] = "true"
+    # df_tables_pip.loc[j, "colorScaleScheme"] = "Purples"
+    # df_tables_pip.loc[j, "tableSlug"] = pip_tables["table_name"][survey]
+    # j += 1
+
+    # # P50/P10
+    # df_tables_pip.loc[j, "name"] = f"P50/P10 ratio (PIP)"
+    # df_tables_pip.loc[j, "slug"] = f"p50_p10_ratio"
+    # df_tables_pip.loc[
+    #     j, "description"
+    # ] = f"P50 is the median – the level of {pip_tables.text[survey]} below which 50% of the population lives. P10 is the the level of {pip_tables.text[survey]} below which 10% of the population lives. This variable gives the ratio of the two. It is a measure of inequality within the bottom half of the distribution. It tells you how many times richer someone just in the the poorest tenth would need to be in order to be reach the median."
+    # df_tables_pip.loc[j, "unit"] = np.nan
+    # df_tables_pip.loc[j, "shortUnit"] = np.nan
+    # df_tables_pip.loc[j, "type"] = "Numeric"
+    # df_tables_pip.loc[j, "colorScaleNumericBins"] = "0;0.5;1;1.5;2;2.5;3;3.5;4"
+    # df_tables_pip.loc[j, "colorScaleEqualSizeBins"] = "true"
+    # df_tables_pip.loc[j, "colorScaleScheme"] = "YlOrRd"
+    # df_tables_pip.loc[j, "tableSlug"] = pip_tables["table_name"][survey]
+    # j += 1
 
     # Palma ratio
     df_tables_pip.loc[j, "name"] = f"Palma ratio (PIP)"
@@ -325,24 +342,6 @@ for tab in range(len(wid_tables)):
         df_tables_wid.loc[j, "colorScaleScheme"] = "Greens"
         j += 1
 
-        # Share of the bottom 50%
-        df_tables_wid.loc[
-            j, "name"
-        ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the bottom 50% ({wid_welfare['technical_text'][wel].capitalize()}) (WID)"
-        df_tables_wid.loc[j, "slug"] = f"p0p50_share_{wid_welfare['slug'][wel]}"
-        df_tables_wid.loc[
-            j, "description"
-        ] = f"This is the {wid_welfare['welfare_type'][wel]} of the poorest 50% as a share of total {wid_welfare['welfare_type'][wel]}.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} {wid_welfare['note'][wel]}"
-        df_tables_wid.loc[j, "unit"] = "%"
-        df_tables_wid.loc[j, "shortUnit"] = "%"
-        df_tables_wid.loc[j, "type"] = "Numeric"
-        df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare["scale_bottom50"][
-            wel
-        ]
-        df_tables_wid.loc[j, "colorScaleEqualSizeBins"] = "true"
-        df_tables_wid.loc[j, "colorScaleScheme"] = "Blues"
-        j += 1
-
         # Share of the top 1%
         df_tables_wid.loc[
             j, "name"
@@ -375,93 +374,111 @@ for tab in range(len(wid_tables)):
         df_tables_wid.loc[j, "colorScaleScheme"] = "Greens"
         j += 1
 
-        # Share of the top 0.01%
+        # Share of the bottom 50%
         df_tables_wid.loc[
             j, "name"
-        ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the richest 0.01% ({wid_welfare['technical_text'][wel].capitalize()}) (WID)"
-        df_tables_wid.loc[j, "slug"] = f"p99_99p100_share_{wid_welfare['slug'][wel]}"
+        ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the bottom 50% ({wid_welfare['technical_text'][wel].capitalize()}) (WID)"
+        df_tables_wid.loc[j, "slug"] = f"p0p50_share_{wid_welfare['slug'][wel]}"
         df_tables_wid.loc[
             j, "description"
-        ] = f"This is the {wid_welfare['welfare_type'][wel]} of the richest 0.01% as a share of total {wid_welfare['welfare_type'][wel]}.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} {wid_welfare['note'][wel]}"
+        ] = f"This is the {wid_welfare['welfare_type'][wel]} of the poorest 50% as a share of total {wid_welfare['welfare_type'][wel]}.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} {wid_welfare['note'][wel]}"
         df_tables_wid.loc[j, "unit"] = "%"
         df_tables_wid.loc[j, "shortUnit"] = "%"
         df_tables_wid.loc[j, "type"] = "Numeric"
-        df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare["scale_top001"][wel]
-        df_tables_wid.loc[j, "colorScaleEqualSizeBins"] = "true"
-        df_tables_wid.loc[j, "colorScaleScheme"] = "Greens"
-        j += 1
-
-        # Share of the top 0.001%
-        df_tables_wid.loc[
-            j, "name"
-        ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the richest 0.001% ({wid_welfare['technical_text'][wel].capitalize()}) (WID)"
-        df_tables_wid.loc[j, "slug"] = f"p99_999p100_share_{wid_welfare['slug'][wel]}"
-        df_tables_wid.loc[
-            j, "description"
-        ] = f"This is the {wid_welfare['welfare_type'][wel]} of the richest 0.001% as a share of total {wid_welfare['welfare_type'][wel]}.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} {wid_welfare['note'][wel]}"
-        df_tables_wid.loc[j, "unit"] = "%"
-        df_tables_wid.loc[j, "shortUnit"] = "%"
-        df_tables_wid.loc[j, "type"] = "Numeric"
-        df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare["scale_top0001"][
+        df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare["scale_bottom50"][
             wel
         ]
         df_tables_wid.loc[j, "colorScaleEqualSizeBins"] = "true"
-        df_tables_wid.loc[j, "colorScaleScheme"] = "Greens"
+        df_tables_wid.loc[j, "colorScaleScheme"] = "Blues"
         j += 1
 
-        # P90/P10
-        df_tables_wid.loc[
-            j, "name"
-        ] = f"P90/P10 ratio ({wid_welfare['technical_text'][wel].capitalize()}) (WID)"
-        df_tables_wid.loc[j, "slug"] = f"p90_p10_ratio_{wid_welfare['slug'][wel]}"
-        df_tables_wid.loc[
-            j, "description"
-        ] = f"P90 is the the level of {wid_welfare['welfare_type'][wel]} below which 90% of the population lives. P10 is the level of {wid_welfare['welfare_type'][wel]} below which 10% of the population lives. This variable gives the ratio of the two. It is a measure of inequality that indicates the gap between the richest and poorest tenth of the population. It tells you how many times richer someone just in the the poorest tenth would need to be in order to be counted in the richest tenth.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} {wid_welfare['note'][wel]}"
-        df_tables_wid.loc[j, "unit"] = np.nan
-        df_tables_wid.loc[j, "shortUnit"] = np.nan
-        df_tables_wid.loc[j, "type"] = "Numeric"
-        df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare[
-            "scale_p90_p10_ratio"
-        ][wel]
-        df_tables_wid.loc[j, "colorScaleEqualSizeBins"] = "true"
-        df_tables_wid.loc[j, "colorScaleScheme"] = "OrRd"
-        j += 1
+        # # Share of the top 0.01%
+        # df_tables_wid.loc[
+        #     j, "name"
+        # ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the richest 0.01% ({wid_welfare['technical_text'][wel].capitalize()}) (WID)"
+        # df_tables_wid.loc[j, "slug"] = f"p99_99p100_share_{wid_welfare['slug'][wel]}"
+        # df_tables_wid.loc[
+        #     j, "description"
+        # ] = f"This is the {wid_welfare['welfare_type'][wel]} of the richest 0.01% as a share of total {wid_welfare['welfare_type'][wel]}.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} {wid_welfare['note'][wel]}"
+        # df_tables_wid.loc[j, "unit"] = "%"
+        # df_tables_wid.loc[j, "shortUnit"] = "%"
+        # df_tables_wid.loc[j, "type"] = "Numeric"
+        # df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare["scale_top001"][wel]
+        # df_tables_wid.loc[j, "colorScaleEqualSizeBins"] = "true"
+        # df_tables_wid.loc[j, "colorScaleScheme"] = "Greens"
+        # j += 1
 
-        # P90/P50
-        df_tables_wid.loc[
-            j, "name"
-        ] = f"P90/P50 ratio ({wid_welfare['technical_text'][wel].capitalize()}) (WID)"
-        df_tables_wid.loc[j, "slug"] = f"p90_p50_ratio_{wid_welfare['slug'][wel]}"
-        df_tables_wid.loc[
-            j, "description"
-        ] = f"P90 is the the level of {wid_welfare['welfare_type'][wel]} above which 10% of the population lives. P50 is the median – the level of {wid_welfare['welfare_type'][wel]} below which 50% of the population lives. This variable gives the ratio of the two. It is a measure of inequality within the top half of the distribution. It tells you how many times richer someone in the middle of the distribution would need to be in order to be counted in the richest tenth.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} {wid_welfare['note'][wel]}"
-        df_tables_wid.loc[j, "unit"] = np.nan
-        df_tables_wid.loc[j, "shortUnit"] = np.nan
-        df_tables_wid.loc[j, "type"] = "Numeric"
-        df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare[
-            "scale_p90_p50_ratio"
-        ][wel]
-        df_tables_wid.loc[j, "colorScaleEqualSizeBins"] = "true"
-        df_tables_wid.loc[j, "colorScaleScheme"] = "Purples"
-        j += 1
+        # # Share of the top 0.001%
+        # df_tables_wid.loc[
+        #     j, "name"
+        # ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the richest 0.001% ({wid_welfare['technical_text'][wel].capitalize()}) (WID)"
+        # df_tables_wid.loc[j, "slug"] = f"p99_999p100_share_{wid_welfare['slug'][wel]}"
+        # df_tables_wid.loc[
+        #     j, "description"
+        # ] = f"This is the {wid_welfare['welfare_type'][wel]} of the richest 0.001% as a share of total {wid_welfare['welfare_type'][wel]}.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} {wid_welfare['note'][wel]}"
+        # df_tables_wid.loc[j, "unit"] = "%"
+        # df_tables_wid.loc[j, "shortUnit"] = "%"
+        # df_tables_wid.loc[j, "type"] = "Numeric"
+        # df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare["scale_top0001"][
+        #     wel
+        # ]
+        # df_tables_wid.loc[j, "colorScaleEqualSizeBins"] = "true"
+        # df_tables_wid.loc[j, "colorScaleScheme"] = "Greens"
+        # j += 1
 
-        # P50/P10
-        df_tables_wid.loc[
-            j, "name"
-        ] = f"P50/P10 ratio ({wid_welfare['technical_text'][wel].capitalize()}) (WID)"
-        df_tables_wid.loc[j, "slug"] = f"p50_p10_ratio_{wid_welfare['slug'][wel]}"
-        df_tables_wid.loc[
-            j, "description"
-        ] = f"P50 is the median – the level of {wid_welfare['welfare_type'][wel]} below which 50% of the population lives. P10 is the the level of {wid_welfare['welfare_type'][wel]} below which 10% of the population lives. This variable gives the ratio of the two. It is a measure of inequality within the bottom half of the distribution. It tells you how many times richer someone just in the the poorest tenth would need to be in order to be reach the median.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} {wid_welfare['note'][wel]}"
-        df_tables_wid.loc[j, "unit"] = np.nan
-        df_tables_wid.loc[j, "shortUnit"] = np.nan
-        df_tables_wid.loc[j, "type"] = "Numeric"
-        df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare[
-            "scale_p50_p10_ratio"
-        ][wel]
-        df_tables_wid.loc[j, "colorScaleEqualSizeBins"] = "true"
-        df_tables_wid.loc[j, "colorScaleScheme"] = "YlOrRd"
-        j += 1
+        # # P90/P10
+        # df_tables_wid.loc[
+        #     j, "name"
+        # ] = f"P90/P10 ratio ({wid_welfare['technical_text'][wel].capitalize()}) (WID)"
+        # df_tables_wid.loc[j, "slug"] = f"p90_p10_ratio_{wid_welfare['slug'][wel]}"
+        # df_tables_wid.loc[
+        #     j, "description"
+        # ] = f"P90 is the the level of {wid_welfare['welfare_type'][wel]} below which 90% of the population lives. P10 is the level of {wid_welfare['welfare_type'][wel]} below which 10% of the population lives. This variable gives the ratio of the two. It is a measure of inequality that indicates the gap between the richest and poorest tenth of the population. It tells you how many times richer someone just in the the poorest tenth would need to be in order to be counted in the richest tenth.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} {wid_welfare['note'][wel]}"
+        # df_tables_wid.loc[j, "unit"] = np.nan
+        # df_tables_wid.loc[j, "shortUnit"] = np.nan
+        # df_tables_wid.loc[j, "type"] = "Numeric"
+        # df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare[
+        #     "scale_p90_p10_ratio"
+        # ][wel]
+        # df_tables_wid.loc[j, "colorScaleEqualSizeBins"] = "true"
+        # df_tables_wid.loc[j, "colorScaleScheme"] = "OrRd"
+        # j += 1
+
+        # # P90/P50
+        # df_tables_wid.loc[
+        #     j, "name"
+        # ] = f"P90/P50 ratio ({wid_welfare['technical_text'][wel].capitalize()}) (WID)"
+        # df_tables_wid.loc[j, "slug"] = f"p90_p50_ratio_{wid_welfare['slug'][wel]}"
+        # df_tables_wid.loc[
+        #     j, "description"
+        # ] = f"P90 is the the level of {wid_welfare['welfare_type'][wel]} above which 10% of the population lives. P50 is the median – the level of {wid_welfare['welfare_type'][wel]} below which 50% of the population lives. This variable gives the ratio of the two. It is a measure of inequality within the top half of the distribution. It tells you how many times richer someone in the middle of the distribution would need to be in order to be counted in the richest tenth.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} {wid_welfare['note'][wel]}"
+        # df_tables_wid.loc[j, "unit"] = np.nan
+        # df_tables_wid.loc[j, "shortUnit"] = np.nan
+        # df_tables_wid.loc[j, "type"] = "Numeric"
+        # df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare[
+        #     "scale_p90_p50_ratio"
+        # ][wel]
+        # df_tables_wid.loc[j, "colorScaleEqualSizeBins"] = "true"
+        # df_tables_wid.loc[j, "colorScaleScheme"] = "Purples"
+        # j += 1
+
+        # # P50/P10
+        # df_tables_wid.loc[
+        #     j, "name"
+        # ] = f"P50/P10 ratio ({wid_welfare['technical_text'][wel].capitalize()}) (WID)"
+        # df_tables_wid.loc[j, "slug"] = f"p50_p10_ratio_{wid_welfare['slug'][wel]}"
+        # df_tables_wid.loc[
+        #     j, "description"
+        # ] = f"P50 is the median – the level of {wid_welfare['welfare_type'][wel]} below which 50% of the population lives. P10 is the the level of {wid_welfare['welfare_type'][wel]} below which 10% of the population lives. This variable gives the ratio of the two. It is a measure of inequality within the bottom half of the distribution. It tells you how many times richer someone just in the the poorest tenth would need to be in order to be reach the median.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} {wid_welfare['note'][wel]}"
+        # df_tables_wid.loc[j, "unit"] = np.nan
+        # df_tables_wid.loc[j, "shortUnit"] = np.nan
+        # df_tables_wid.loc[j, "type"] = "Numeric"
+        # df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare[
+        #     "scale_p50_p10_ratio"
+        # ][wel]
+        # df_tables_wid.loc[j, "colorScaleEqualSizeBins"] = "true"
+        # df_tables_wid.loc[j, "colorScaleScheme"] = "YlOrRd"
+        # j += 1
 
         # Palma ratio
         df_tables_wid.loc[
@@ -716,167 +733,6 @@ df_tables["tolerance"] = df_tables["tolerance"].astype("Int64")
 # Grapher table generation
 
 ###########################################################################################
-# WORLD BANK POVERTY AND INEQUALITY PLATFORM
-###########################################################################################
-yAxisMin = 0
-mapTargetTime = 2019
-
-df_graphers_pip = pd.DataFrame()
-
-j = 0
-
-for survey in range(len(pip_tables)):
-    # Gini coefficient
-    df_graphers_pip.loc[j, "title"] = f"Income inequality: Gini coefficient"
-    df_graphers_pip.loc[j, "ySlugs"] = f"gini"
-    df_graphers_pip.loc[
-        j, "Data source Radio"
-    ] = f"{pip_tables['source_name'][tab]} - {pip_tables['dropdown_option'][survey]}"
-    df_graphers_pip.loc[j, "Measure Dropdown"] = "Gini coefficient"
-    df_graphers_pip.loc[j, "tableSlug"] = f"{pip_tables.table_name[survey]}"
-    df_graphers_pip.loc[
-        j, "subtitle"
-    ] = f"The Gini coefficient is a measure of the inequality of the income distribution in a population. Higher values indicate a higher level of inequality."
-    df_graphers_pip.loc[
-        j, "note"
-    ] = f"Depending on the country and year, the data relates to disposable {pip_tables.text[survey]} per capita."
-    df_graphers_pip.loc[j, "type"] = np.nan
-    df_graphers_pip.loc[j, "selectedFacetStrategy"] = np.nan
-    df_graphers_pip.loc[j, "hasMapTab"] = "true"
-    df_graphers_pip.loc[j, "tab"] = "map"
-    j += 1
-
-    # Share of the top 10%
-    df_graphers_pip.loc[
-        j, "title"
-    ] = f"{pip_tables.text[survey].capitalize()} share of the top 10%"
-    df_graphers_pip.loc[j, "ySlugs"] = f"decile10_share"
-    df_graphers_pip.loc[
-        j, "Data source Radio"
-    ] = f"{pip_tables['source_name'][tab]} - {pip_tables['dropdown_option'][survey]}"
-    df_graphers_pip.loc[j, "Measure Dropdown"] = "Top 10% share"
-    df_graphers_pip.loc[j, "tableSlug"] = f"{pip_tables.table_name[survey]}"
-    df_graphers_pip.loc[
-        j, "subtitle"
-    ] = f"This is the {pip_tables.text[survey]} of the richest decile (tenth of the population) as a share of total {pip_tables.text[survey]}."
-    df_graphers_pip.loc[
-        j, "note"
-    ] = f"Depending on the country and year, the data relates to disposable {pip_tables.text[survey]} per capita."
-    df_graphers_pip.loc[j, "type"] = np.nan
-    df_graphers_pip.loc[j, "selectedFacetStrategy"] = np.nan
-    df_graphers_pip.loc[j, "hasMapTab"] = "true"
-    df_graphers_pip.loc[j, "tab"] = "map"
-    j += 1
-
-    # P90/P10
-    df_graphers_pip.loc[j, "title"] = f"Income inequality: P90/P10 ratio"
-    df_graphers_pip.loc[j, "ySlugs"] = f"p90_p10_ratio"
-    df_graphers_pip.loc[
-        j, "Data source Radio"
-    ] = f"{pip_tables['source_name'][tab]} - {pip_tables['dropdown_option'][survey]}"
-    df_graphers_pip.loc[j, "Measure Dropdown"] = "P90/P10"
-    df_graphers_pip.loc[j, "tableSlug"] = f"{pip_tables.table_name[survey]}"
-    df_graphers_pip.loc[
-        j, "subtitle"
-    ] = f"P90 and P10 are the levels of {pip_tables.text[survey]} below which 90% and 10% of the population live, respectively. This variable gives the ratio of the two. It is a measure of inequality that indicates the gap between the richest and poorest tenth of the population."
-    df_graphers_pip.loc[
-        j, "note"
-    ] = f"Depending on the country and year, the data relates to disposable {pip_tables.text[survey]} per capita."
-    df_graphers_pip.loc[j, "type"] = np.nan
-    df_graphers_pip.loc[j, "selectedFacetStrategy"] = np.nan
-    df_graphers_pip.loc[j, "hasMapTab"] = "true"
-    df_graphers_pip.loc[j, "tab"] = "map"
-    j += 1
-
-    # P90/P50
-    df_graphers_pip.loc[j, "title"] = f"Income inequality: P90/P50 ratio"
-    df_graphers_pip.loc[j, "ySlugs"] = f"p90_p50_ratio"
-    df_graphers_pip.loc[
-        j, "Data source Radio"
-    ] = f"{pip_tables['source_name'][tab]} - {pip_tables['dropdown_option'][survey]}"
-    df_graphers_pip.loc[j, "Measure Dropdown"] = "P90/P50"
-    df_graphers_pip.loc[j, "tableSlug"] = f"{pip_tables.table_name[survey]}"
-    df_graphers_pip.loc[
-        j, "subtitle"
-    ] = f"The P90/P50 ratio measures the degree of inequality within the richest half of the population. A ratio of 2 means that someone just falling in the richest tenth of the population has twice the median {pip_tables.text[survey]}."
-    df_graphers_pip.loc[
-        j, "note"
-    ] = f"Depending on the country and year, the data relates to disposable {pip_tables.text[survey]} per capita."
-    df_graphers_pip.loc[j, "type"] = np.nan
-    df_graphers_pip.loc[j, "selectedFacetStrategy"] = np.nan
-    df_graphers_pip.loc[j, "hasMapTab"] = "true"
-    df_graphers_pip.loc[j, "tab"] = "map"
-    j += 1
-
-    # P50/P10
-    df_graphers_pip.loc[j, "title"] = f"Income inequality: P50/P10 ratio"
-    df_graphers_pip.loc[j, "ySlugs"] = f"p50_p10_ratio"
-    df_graphers_pip.loc[
-        j, "Data source Radio"
-    ] = f"{pip_tables['source_name'][tab]} - {pip_tables['dropdown_option'][survey]}"
-    df_graphers_pip.loc[j, "Measure Dropdown"] = "P50/P10"
-    df_graphers_pip.loc[j, "tableSlug"] = f"{pip_tables.table_name[survey]}"
-    df_graphers_pip.loc[
-        j, "subtitle"
-    ] = f"The P50/P10 ratio measures the degree of inequality within the poorest half of the population. A ratio of 2 means that the median {pip_tables.text[survey]} is two times higher than that of someone just falling in the poorest tenth of the population."
-    df_graphers_pip.loc[
-        j, "note"
-    ] = f"Depending on the country and year, the data relates to disposable {pip_tables.text[survey]} per capita."
-    df_graphers_pip.loc[j, "type"] = np.nan
-    df_graphers_pip.loc[j, "selectedFacetStrategy"] = np.nan
-    df_graphers_pip.loc[j, "hasMapTab"] = "true"
-    df_graphers_pip.loc[j, "tab"] = "map"
-    j += 1
-
-    # Palma ratio
-    df_graphers_pip.loc[j, "title"] = f"Income inequality: Palma ratio"
-    df_graphers_pip.loc[j, "ySlugs"] = f"palma_ratio"
-    df_graphers_pip.loc[
-        j, "Data source Radio"
-    ] = f"{pip_tables['source_name'][tab]} - {pip_tables['dropdown_option'][survey]}"
-    df_graphers_pip.loc[j, "Measure Dropdown"] = "Palma ratio"
-    df_graphers_pip.loc[j, "tableSlug"] = f"{pip_tables.table_name[survey]}"
-    df_graphers_pip.loc[
-        j, "subtitle"
-    ] = f"The Palma ratio is the share of total {pip_tables.text[survey]} of the top 10% divided by the share of the bottom 40%."
-    df_graphers_pip.loc[
-        j, "note"
-    ] = f"Depending on the country and year, the data relates to disposable {pip_tables.text[survey]} per capita."
-    df_graphers_pip.loc[j, "type"] = np.nan
-    df_graphers_pip.loc[j, "selectedFacetStrategy"] = np.nan
-    df_graphers_pip.loc[j, "hasMapTab"] = "true"
-    df_graphers_pip.loc[j, "tab"] = "map"
-    j += 1
-
-    # Headcount ratio (rel)
-    df_graphers_pip.loc[
-        j, "title"
-    ] = "Relative poverty: Share of people below 50% of the median"
-    df_graphers_pip.loc[j, "ySlugs"] = f"headcount_ratio_50_median"
-    df_graphers_pip.loc[
-        j, "Data source Radio"
-    ] = f"{pip_tables['source_name'][tab]} - {pip_tables['dropdown_option'][survey]}"
-    df_graphers_pip.loc[
-        j, "Measure Dropdown"
-    ] = f"Share in relative poverty (< 50% of the median)"
-    df_graphers_pip.loc[j, "tableSlug"] = f"{pip_tables.table_name[survey]}"
-    df_graphers_pip.loc[
-        j, "subtitle"
-    ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at 50% of the median {pip_tables.text[survey]}."
-    df_graphers_pip.loc[
-        j, "note"
-    ] = f"Depending on the country and year, the data relates to disposable {pip_tables.text[survey]} per capita."
-    df_graphers_pip.loc[j, "type"] = np.nan
-    df_graphers_pip.loc[j, "selectedFacetStrategy"] = np.nan
-    df_graphers_pip.loc[j, "hasMapTab"] = "true"
-    df_graphers_pip.loc[j, "tab"] = "map"
-    j += 1
-
-# Add yAxisMin and mapTargetTime
-df_graphers_pip["yAxisMin"] = yAxisMin
-df_graphers_pip["mapTargetTime"] = mapTargetTime
-
-###########################################################################################
 # WORLD INEQUALITY DATABASE (WID)
 ###########################################################################################
 
@@ -929,24 +785,6 @@ for tab in range(len(wid_tables)):
         df_graphers_wid.loc[j, "tab"] = "map"
         j += 1
 
-        # Share of the bottom 50%
-        df_graphers_wid.loc[
-            j, "title"
-        ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the bottom 50% {wid_welfare['title'][wel].capitalize()}"
-        df_graphers_wid.loc[j, "ySlugs"] = f"p0p50_share_{wid_welfare['slug'][wel]}"
-        df_graphers_wid.loc[
-            j, "Data source Radio"
-        ] = f"{wid_tables['source_name'][tab]} - {wid_welfare['dropdown_option'][wel]}"
-        df_graphers_wid.loc[j, "Measure Dropdown"] = "Bottom 50% share"
-        df_graphers_wid.loc[
-            j, "subtitle"
-        ] = f"This is the {wid_welfare['welfare_type'][wel]} of the poorest 50% as a share of total {wid_welfare['welfare_type'][wel]}. {wid_welfare['subtitle'][wel]}"
-        df_graphers_wid.loc[j, "note"] = f"{wid_welfare['note'][wel]}"
-        df_graphers_wid.loc[j, "selectedFacetStrategy"] = np.nan
-        df_graphers_wid.loc[j, "hasMapTab"] = "true"
-        df_graphers_wid.loc[j, "tab"] = "map"
-        j += 1
-
         # Share of the top 1%
         df_graphers_wid.loc[
             j, "title"
@@ -985,104 +823,80 @@ for tab in range(len(wid_tables)):
         df_graphers_wid.loc[j, "tab"] = "map"
         j += 1
 
-        # Share of the top 0.01%
+        # Share of the bottom 50%
         df_graphers_wid.loc[
             j, "title"
-        ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the top 0.01% {wid_welfare['title'][wel].capitalize()}"
-        df_graphers_wid.loc[
-            j, "ySlugs"
-        ] = f"p99_99p100_share_{wid_welfare['slug'][wel]}"
+        ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the bottom 50% {wid_welfare['title'][wel].capitalize()}"
+        df_graphers_wid.loc[j, "ySlugs"] = f"p0p50_share_{wid_welfare['slug'][wel]}"
         df_graphers_wid.loc[
             j, "Data source Radio"
         ] = f"{wid_tables['source_name'][tab]} - {wid_welfare['dropdown_option'][wel]}"
-        df_graphers_wid.loc[j, "Measure Dropdown"] = "Top 0.01% share"
+        df_graphers_wid.loc[j, "Measure Dropdown"] = "Poorest 50% share"
         df_graphers_wid.loc[
             j, "subtitle"
-        ] = f"This is the {wid_welfare['welfare_type'][wel]} of the richest 0.01% as a share of total {wid_welfare['welfare_type'][wel]}. {wid_welfare['subtitle'][wel]}"
+        ] = f"This is the {wid_welfare['welfare_type'][wel]} of the poorest 50% as a share of total {wid_welfare['welfare_type'][wel]}. {wid_welfare['subtitle'][wel]}"
         df_graphers_wid.loc[j, "note"] = f"{wid_welfare['note'][wel]}"
-        df_graphers_wid.loc[j, "type"] = np.nan
         df_graphers_wid.loc[j, "selectedFacetStrategy"] = np.nan
         df_graphers_wid.loc[j, "hasMapTab"] = "true"
         df_graphers_wid.loc[j, "tab"] = "map"
         j += 1
 
-        # Share of the top 0.001%
-        df_graphers_wid.loc[
-            j, "title"
-        ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the top 0.001% {wid_welfare['title'][wel].capitalize()}"
-        df_graphers_wid.loc[
-            j, "ySlugs"
-        ] = f"p99_999p100_share_{wid_welfare['slug'][wel]}"
-        df_graphers_wid.loc[
-            j, "Data source Radio"
-        ] = f"{wid_tables['source_name'][tab]} - {wid_welfare['dropdown_option'][wel]}"
-        df_graphers_wid.loc[j, "Measure Dropdown"] = "Top 0.001% share"
-        df_graphers_wid.loc[
-            j, "subtitle"
-        ] = f"This is the {wid_welfare['welfare_type'][wel]} of the richest 0.001% as a share of total {wid_welfare['welfare_type'][wel]}. {wid_welfare['subtitle'][wel]}"
-        df_graphers_wid.loc[j, "note"] = f"{wid_welfare['note'][wel]}"
-        df_graphers_wid.loc[j, "type"] = np.nan
-        df_graphers_wid.loc[j, "selectedFacetStrategy"] = np.nan
-        df_graphers_wid.loc[j, "hasMapTab"] = "true"
-        df_graphers_wid.loc[j, "tab"] = "map"
-        j += 1
+        # # P90/P10
+        # df_graphers_wid.loc[
+        #     j, "title"
+        # ] = f"{wid_welfare['welfare_type'][wel].capitalize()} inequality: P90/P10 ratio {wid_welfare['title'][wel].capitalize()}"
+        # df_graphers_wid.loc[j, "ySlugs"] = f"p90_p10_ratio_{wid_welfare['slug'][wel]}"
+        # df_graphers_wid.loc[
+        #     j, "Data source Radio"
+        # ] = f"{wid_tables['source_name'][tab]} - {wid_welfare['dropdown_option'][wel]}"
+        # df_graphers_wid.loc[j, "Measure Dropdown"] = "P90/P10"
+        # df_graphers_wid.loc[
+        #     j, "subtitle"
+        # ] = f"P90 and P10 are the levels of {wid_welfare['welfare_type'][wel]} below which 90% and 10% of the population live, respectively. This variable gives the ratio of the two. It is a measure of inequality that indicates the gap between the richest and poorest tenth of the population. {wid_welfare['subtitle'][wel]}"
+        # df_graphers_wid.loc[j, "note"] = f"{wid_welfare['note'][wel]}"
+        # df_graphers_wid.loc[j, "type"] = np.nan
+        # df_graphers_wid.loc[j, "selectedFacetStrategy"] = np.nan
+        # df_graphers_wid.loc[j, "hasMapTab"] = "true"
+        # df_graphers_wid.loc[j, "tab"] = "map"
+        # j += 1
 
-        # P90/P10
-        df_graphers_wid.loc[
-            j, "title"
-        ] = f"{wid_welfare['welfare_type'][wel].capitalize()} inequality: P90/P10 ratio {wid_welfare['title'][wel].capitalize()}"
-        df_graphers_wid.loc[j, "ySlugs"] = f"p90_p10_ratio_{wid_welfare['slug'][wel]}"
-        df_graphers_wid.loc[
-            j, "Data source Radio"
-        ] = f"{wid_tables['source_name'][tab]} - {wid_welfare['dropdown_option'][wel]}"
-        df_graphers_wid.loc[j, "Measure Dropdown"] = "P90/P10"
-        df_graphers_wid.loc[
-            j, "subtitle"
-        ] = f"P90 and P10 are the levels of {wid_welfare['welfare_type'][wel]} below which 90% and 10% of the population live, respectively. This variable gives the ratio of the two. It is a measure of inequality that indicates the gap between the richest and poorest tenth of the population. {wid_welfare['subtitle'][wel]}"
-        df_graphers_wid.loc[j, "note"] = f"{wid_welfare['note'][wel]}"
-        df_graphers_wid.loc[j, "type"] = np.nan
-        df_graphers_wid.loc[j, "selectedFacetStrategy"] = np.nan
-        df_graphers_wid.loc[j, "hasMapTab"] = "true"
-        df_graphers_wid.loc[j, "tab"] = "map"
-        j += 1
+        # # P90/P50
+        # df_graphers_wid.loc[
+        #     j, "title"
+        # ] = f"{wid_welfare['welfare_type'][wel].capitalize()} inequality: P90/P50 ratio {wid_welfare['title'][wel].capitalize()}"
+        # df_graphers_wid.loc[j, "ySlugs"] = f"p90_p50_ratio_{wid_welfare['slug'][wel]}"
+        # df_graphers_wid.loc[
+        #     j, "Data source Radio"
+        # ] = f"{wid_tables['source_name'][tab]} - {wid_welfare['dropdown_option'][wel]}"
+        # df_graphers_wid.loc[j, "Measure Dropdown"] = "P90/P50"
+        # df_graphers_wid.loc[
+        #     j, "subtitle"
+        # ] = f"The P90/P50 ratio measures the degree of inequality within the richest half of the population. A ratio of 2 means that someone just falling in the richest tenth of the population has twice the median {wid_welfare['welfare_type'][wel]}. {wid_welfare['subtitle'][wel]}"
+        # df_graphers_wid.loc[j, "note"] = f"{wid_welfare['note'][wel]}"
+        # df_graphers_wid.loc[j, "type"] = np.nan
+        # df_graphers_wid.loc[j, "selectedFacetStrategy"] = np.nan
+        # df_graphers_wid.loc[j, "hasMapTab"] = "true"
+        # df_graphers_wid.loc[j, "tab"] = "map"
+        # j += 1
 
-        # P90/P50
-        df_graphers_wid.loc[
-            j, "title"
-        ] = f"{wid_welfare['welfare_type'][wel].capitalize()} inequality: P90/P50 ratio {wid_welfare['title'][wel].capitalize()}"
-        df_graphers_wid.loc[j, "ySlugs"] = f"p90_p50_ratio_{wid_welfare['slug'][wel]}"
-        df_graphers_wid.loc[
-            j, "Data source Radio"
-        ] = f"{wid_tables['source_name'][tab]} - {wid_welfare['dropdown_option'][wel]}"
-        df_graphers_wid.loc[j, "Measure Dropdown"] = "P90/P50"
-        df_graphers_wid.loc[
-            j, "subtitle"
-        ] = f"The P90/P50 ratio measures the degree of inequality within the richest half of the population. A ratio of 2 means that someone just falling in the richest tenth of the population has twice the median {wid_welfare['welfare_type'][wel]}. {wid_welfare['subtitle'][wel]}"
-        df_graphers_wid.loc[j, "note"] = f"{wid_welfare['note'][wel]}"
-        df_graphers_wid.loc[j, "type"] = np.nan
-        df_graphers_wid.loc[j, "selectedFacetStrategy"] = np.nan
-        df_graphers_wid.loc[j, "hasMapTab"] = "true"
-        df_graphers_wid.loc[j, "tab"] = "map"
-        j += 1
-
-        # P50/P10
-        df_graphers_wid.loc[
-            j, "title"
-        ] = f"{wid_welfare['welfare_type'][wel].capitalize()} inequality: P50/P10 ratio {wid_welfare['title'][wel].capitalize()}"
-        df_graphers_wid.loc[j, "ySlugs"] = f"p50_p10_ratio_{wid_welfare['slug'][wel]}"
-        df_graphers_wid.loc[
-            j, "Data source Radio"
-        ] = f"{wid_tables['source_name'][tab]} - {wid_welfare['dropdown_option'][wel]}"
-        df_graphers_wid.loc[j, "Measure Dropdown"] = "P50/P10"
-        df_graphers_wid.loc[
-            j, "subtitle"
-        ] = f"The P50/P10 ratio measures the degree of inequality within the poorest half of the population. A ratio of 2 means that the median {wid_welfare['welfare_type'][wel]} is two times higher than that of someone just falling in the poorest tenth of the population. {wid_welfare['subtitle'][wel]}"
-        df_graphers_wid.loc[j, "note"] = f"{wid_welfare['note'][wel]}"
-        df_graphers_wid.loc[j, "type"] = np.nan
-        df_graphers_wid.loc[j, "selectedFacetStrategy"] = np.nan
-        df_graphers_wid.loc[j, "hasMapTab"] = "true"
-        df_graphers_wid.loc[j, "tab"] = "map"
-        j += 1
+        # # P50/P10
+        # df_graphers_wid.loc[
+        #     j, "title"
+        # ] = f"{wid_welfare['welfare_type'][wel].capitalize()} inequality: P50/P10 ratio {wid_welfare['title'][wel].capitalize()}"
+        # df_graphers_wid.loc[j, "ySlugs"] = f"p50_p10_ratio_{wid_welfare['slug'][wel]}"
+        # df_graphers_wid.loc[
+        #     j, "Data source Radio"
+        # ] = f"{wid_tables['source_name'][tab]} - {wid_welfare['dropdown_option'][wel]}"
+        # df_graphers_wid.loc[j, "Measure Dropdown"] = "P50/P10"
+        # df_graphers_wid.loc[
+        #     j, "subtitle"
+        # ] = f"The P50/P10 ratio measures the degree of inequality within the poorest half of the population. A ratio of 2 means that the median {wid_welfare['welfare_type'][wel]} is two times higher than that of someone just falling in the poorest tenth of the population. {wid_welfare['subtitle'][wel]}"
+        # df_graphers_wid.loc[j, "note"] = f"{wid_welfare['note'][wel]}"
+        # df_graphers_wid.loc[j, "type"] = np.nan
+        # df_graphers_wid.loc[j, "selectedFacetStrategy"] = np.nan
+        # df_graphers_wid.loc[j, "hasMapTab"] = "true"
+        # df_graphers_wid.loc[j, "tab"] = "map"
+        # j += 1
 
         # # Palma ratio
         df_graphers_wid.loc[
@@ -1114,6 +928,189 @@ df_graphers_wid = df_graphers_wid[
 # Add yAxisMin and mapTargetTime
 df_graphers_wid["yAxisMin"] = yAxisMin
 df_graphers_wid["mapTargetTime"] = mapTargetTime
+
+###########################################################################################
+# WORLD BANK POVERTY AND INEQUALITY PLATFORM
+###########################################################################################
+yAxisMin = 0
+mapTargetTime = 2019
+
+df_graphers_pip = pd.DataFrame()
+
+j = 0
+
+for survey in range(len(pip_tables)):
+    # Gini coefficient
+    df_graphers_pip.loc[j, "title"] = f"Income inequality: Gini coefficient"
+    df_graphers_pip.loc[j, "ySlugs"] = f"gini"
+    df_graphers_pip.loc[
+        j, "Data source Radio"
+    ] = f"{pip_tables['source_name'][tab]} - {pip_tables['dropdown_option'][survey]}"
+    df_graphers_pip.loc[j, "Measure Dropdown"] = "Gini coefficient"
+    df_graphers_pip.loc[j, "tableSlug"] = f"{pip_tables.table_name[survey]}"
+    df_graphers_pip.loc[
+        j, "subtitle"
+    ] = f"The Gini coefficient is a measure of the inequality of the income distribution in a population. Higher values indicate a higher level of inequality."
+    df_graphers_pip.loc[
+        j, "note"
+    ] = f"Depending on the country and year, the data relates to disposable {pip_tables.text[survey]} per capita."
+    df_graphers_pip.loc[j, "type"] = np.nan
+    df_graphers_pip.loc[j, "selectedFacetStrategy"] = np.nan
+    df_graphers_pip.loc[j, "hasMapTab"] = "true"
+    df_graphers_pip.loc[j, "tab"] = "map"
+    j += 1
+
+    # Share of the top 10%
+    df_graphers_pip.loc[
+        j, "title"
+    ] = f"{pip_tables.text[survey].capitalize()} share of the top 10%"
+    df_graphers_pip.loc[j, "ySlugs"] = f"decile10_share"
+    df_graphers_pip.loc[
+        j, "Data source Radio"
+    ] = f"{pip_tables['source_name'][tab]} - {pip_tables['dropdown_option'][survey]}"
+    df_graphers_pip.loc[j, "Measure Dropdown"] = "Top 10% share"
+    df_graphers_pip.loc[j, "tableSlug"] = f"{pip_tables.table_name[survey]}"
+    df_graphers_pip.loc[
+        j, "subtitle"
+    ] = f"This is the {pip_tables.text[survey]} of the richest decile (tenth of the population) as a share of total {pip_tables.text[survey]}."
+    df_graphers_pip.loc[
+        j, "note"
+    ] = f"Depending on the country and year, the data relates to disposable {pip_tables.text[survey]} per capita."
+    df_graphers_pip.loc[j, "type"] = np.nan
+    df_graphers_pip.loc[j, "selectedFacetStrategy"] = np.nan
+    df_graphers_pip.loc[j, "hasMapTab"] = "true"
+    df_graphers_pip.loc[j, "tab"] = "map"
+    j += 1
+
+    # Share of the bottom 50%
+    df_graphers_pip.loc[
+        j, "title"
+    ] = f"{pip_tables.text[survey].capitalize()} share of the poorest 50%"
+    df_graphers_pip.loc[j, "ySlugs"] = f"bottom50_share"
+    df_graphers_pip.loc[
+        j, "Data source Radio"
+    ] = f"{pip_tables['source_name'][tab]} - {pip_tables['dropdown_option'][survey]}"
+    df_graphers_pip.loc[j, "Measure Dropdown"] = "Poorest 50% share"
+    df_graphers_pip.loc[j, "tableSlug"] = f"{pip_tables.table_name[survey]}"
+    df_graphers_pip.loc[
+        j, "subtitle"
+    ] = f"This is the {pip_tables.text[survey]} of the poorest 50% as a share of total {pip_tables.text[survey]}."
+    df_graphers_pip.loc[
+        j, "note"
+    ] = f"Depending on the country and year, the data relates to disposable {pip_tables.text[survey]} per capita."
+    df_graphers_pip.loc[j, "type"] = np.nan
+    df_graphers_pip.loc[j, "selectedFacetStrategy"] = np.nan
+    df_graphers_pip.loc[j, "hasMapTab"] = "true"
+    df_graphers_pip.loc[j, "tab"] = "map"
+    j += 1
+
+    # # P90/P10
+    # df_graphers_pip.loc[j, "title"] = f"Income inequality: P90/P10 ratio"
+    # df_graphers_pip.loc[j, "ySlugs"] = f"p90_p10_ratio"
+    # df_graphers_pip.loc[
+    #     j, "Data source Radio"
+    # ] = f"{pip_tables['source_name'][tab]} - {pip_tables['dropdown_option'][survey]}"
+    # df_graphers_pip.loc[j, "Measure Dropdown"] = "P90/P10"
+    # df_graphers_pip.loc[j, "tableSlug"] = f"{pip_tables.table_name[survey]}"
+    # df_graphers_pip.loc[
+    #     j, "subtitle"
+    # ] = f"P90 and P10 are the levels of {pip_tables.text[survey]} below which 90% and 10% of the population live, respectively. This variable gives the ratio of the two. It is a measure of inequality that indicates the gap between the richest and poorest tenth of the population."
+    # df_graphers_pip.loc[
+    #     j, "note"
+    # ] = f"Depending on the country and year, the data relates to disposable {pip_tables.text[survey]} per capita."
+    # df_graphers_pip.loc[j, "type"] = np.nan
+    # df_graphers_pip.loc[j, "selectedFacetStrategy"] = np.nan
+    # df_graphers_pip.loc[j, "hasMapTab"] = "true"
+    # df_graphers_pip.loc[j, "tab"] = "map"
+    # j += 1
+
+    # # P90/P50
+    # df_graphers_pip.loc[j, "title"] = f"Income inequality: P90/P50 ratio"
+    # df_graphers_pip.loc[j, "ySlugs"] = f"p90_p50_ratio"
+    # df_graphers_pip.loc[
+    #     j, "Data source Radio"
+    # ] = f"{pip_tables['source_name'][tab]} - {pip_tables['dropdown_option'][survey]}"
+    # df_graphers_pip.loc[j, "Measure Dropdown"] = "P90/P50"
+    # df_graphers_pip.loc[j, "tableSlug"] = f"{pip_tables.table_name[survey]}"
+    # df_graphers_pip.loc[
+    #     j, "subtitle"
+    # ] = f"The P90/P50 ratio measures the degree of inequality within the richest half of the population. A ratio of 2 means that someone just falling in the richest tenth of the population has twice the median {pip_tables.text[survey]}."
+    # df_graphers_pip.loc[
+    #     j, "note"
+    # ] = f"Depending on the country and year, the data relates to disposable {pip_tables.text[survey]} per capita."
+    # df_graphers_pip.loc[j, "type"] = np.nan
+    # df_graphers_pip.loc[j, "selectedFacetStrategy"] = np.nan
+    # df_graphers_pip.loc[j, "hasMapTab"] = "true"
+    # df_graphers_pip.loc[j, "tab"] = "map"
+    # j += 1
+
+    # # P50/P10
+    # df_graphers_pip.loc[j, "title"] = f"Income inequality: P50/P10 ratio"
+    # df_graphers_pip.loc[j, "ySlugs"] = f"p50_p10_ratio"
+    # df_graphers_pip.loc[
+    #     j, "Data source Radio"
+    # ] = f"{pip_tables['source_name'][tab]} - {pip_tables['dropdown_option'][survey]}"
+    # df_graphers_pip.loc[j, "Measure Dropdown"] = "P50/P10"
+    # df_graphers_pip.loc[j, "tableSlug"] = f"{pip_tables.table_name[survey]}"
+    # df_graphers_pip.loc[
+    #     j, "subtitle"
+    # ] = f"The P50/P10 ratio measures the degree of inequality within the poorest half of the population. A ratio of 2 means that the median {pip_tables.text[survey]} is two times higher than that of someone just falling in the poorest tenth of the population."
+    # df_graphers_pip.loc[
+    #     j, "note"
+    # ] = f"Depending on the country and year, the data relates to disposable {pip_tables.text[survey]} per capita."
+    # df_graphers_pip.loc[j, "type"] = np.nan
+    # df_graphers_pip.loc[j, "selectedFacetStrategy"] = np.nan
+    # df_graphers_pip.loc[j, "hasMapTab"] = "true"
+    # df_graphers_pip.loc[j, "tab"] = "map"
+    # j += 1
+
+    # Palma ratio
+    df_graphers_pip.loc[j, "title"] = f"Income inequality: Palma ratio"
+    df_graphers_pip.loc[j, "ySlugs"] = f"palma_ratio"
+    df_graphers_pip.loc[
+        j, "Data source Radio"
+    ] = f"{pip_tables['source_name'][tab]} - {pip_tables['dropdown_option'][survey]}"
+    df_graphers_pip.loc[j, "Measure Dropdown"] = "Palma ratio"
+    df_graphers_pip.loc[j, "tableSlug"] = f"{pip_tables.table_name[survey]}"
+    df_graphers_pip.loc[
+        j, "subtitle"
+    ] = f"The Palma ratio is the share of total {pip_tables.text[survey]} of the top 10% divided by the share of the bottom 40%."
+    df_graphers_pip.loc[
+        j, "note"
+    ] = f"Depending on the country and year, the data relates to disposable {pip_tables.text[survey]} per capita."
+    df_graphers_pip.loc[j, "type"] = np.nan
+    df_graphers_pip.loc[j, "selectedFacetStrategy"] = np.nan
+    df_graphers_pip.loc[j, "hasMapTab"] = "true"
+    df_graphers_pip.loc[j, "tab"] = "map"
+    j += 1
+
+    # Headcount ratio (rel)
+    df_graphers_pip.loc[
+        j, "title"
+    ] = "Relative poverty: Share of people below 50% of the median"
+    df_graphers_pip.loc[j, "ySlugs"] = f"headcount_ratio_50_median"
+    df_graphers_pip.loc[
+        j, "Data source Radio"
+    ] = f"{pip_tables['source_name'][tab]} - {pip_tables['dropdown_option'][survey]}"
+    df_graphers_pip.loc[
+        j, "Measure Dropdown"
+    ] = f"Share in relative poverty (< 50% of the median)"
+    df_graphers_pip.loc[j, "tableSlug"] = f"{pip_tables.table_name[survey]}"
+    df_graphers_pip.loc[
+        j, "subtitle"
+    ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at 50% of the median {pip_tables.text[survey]}."
+    df_graphers_pip.loc[
+        j, "note"
+    ] = f"Depending on the country and year, the data relates to disposable {pip_tables.text[survey]} per capita."
+    df_graphers_pip.loc[j, "type"] = np.nan
+    df_graphers_pip.loc[j, "selectedFacetStrategy"] = np.nan
+    df_graphers_pip.loc[j, "hasMapTab"] = "true"
+    df_graphers_pip.loc[j, "tab"] = "map"
+    j += 1
+
+# Add yAxisMin and mapTargetTime
+df_graphers_pip["yAxisMin"] = yAxisMin
+df_graphers_pip["mapTargetTime"] = mapTargetTime
 
 # We are removing LIS from this main explorer
 # ###########################################################################################
@@ -1186,7 +1183,7 @@ df_graphers_wid["mapTargetTime"] = mapTargetTime
 #             df_graphers_lis.loc[
 #                 j, "Data source Radio"
 #             ] = f"{lis_tables['source_name'][tab]} - {lis_welfare['welfare_type'][wel].capitalize()} {lis_welfare['title'][wel]}"
-#             df_graphers_lis.loc[j, "Measure Dropdown"] = "Bottom 50% share"
+#             df_graphers_lis.loc[j, "Measure Dropdown"] = "Poorest 50% share"
 #             df_graphers_lis.loc[
 #                 j, "equivalized"
 #             ] = f"{lis_equivalence_scales['text'][eq]}"
@@ -1334,28 +1331,11 @@ df_graphers_wid["mapTargetTime"] = mapTargetTime
 # df_graphers_lis["yAxisMin"] = yAxisMin
 # df_graphers_lis["mapTargetTime"] = mapTargetTime
 
-# Remove some views for wealth that might be misleading because of negative values in the first deciles of the distribution
-vars_to_keep = [
-    "Top 10% share",
-    "Bottom 50% share",
-    "Top 1% share",
-    "Top 0.1% share",
-    "Top 0.01% share",
-    "Top 0.001% share",
-]
-df_graphers_wid = df_graphers_wid[
-    ~(
-        (df_graphers_wid["Data source Radio"] == "World Inequality Database - Wealth")
-        & ~(df_graphers_wid["Measure Dropdown"].isin(vars_to_keep))
-    )
-]
-
-
 # Concatenate all the graphers dataframes
 # df_graphers = pd.concat(
 #     [df_graphers_pip, df_graphers_wid, df_graphers_lis], ignore_index=True
 # )
-df_graphers = pd.concat([df_graphers_pip, df_graphers_wid], ignore_index=True)
+df_graphers = pd.concat([df_graphers_wid, df_graphers_pip], ignore_index=True)
 
 # %% [markdown]
 # Final adjustments to the graphers table: add `relatedQuestion` link and `defaultView`:
