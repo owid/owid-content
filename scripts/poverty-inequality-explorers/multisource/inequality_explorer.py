@@ -748,9 +748,7 @@ j = 0
 for tab in range(len(wid_tables)):
     for wel in range(len(wid_welfare)):
         # Gini coefficient
-        df_graphers_wid.loc[
-            j, "title"
-        ] = f"{wid_welfare['welfare_type'][wel].capitalize()} inequality: Gini coefficient {wid_welfare['title'][wel].capitalize()}"
+        df_graphers_wid.loc[j, "title"] = f"Gini coefficient"
         df_graphers_wid.loc[j, "ySlugs"] = f"p0p100_gini_{wid_welfare['slug'][wel]}"
         df_graphers_wid.loc[
             j, "Data source Radio"
@@ -769,7 +767,7 @@ for tab in range(len(wid_tables)):
         # Share of the top 10%
         df_graphers_wid.loc[
             j, "title"
-        ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the top 10% {wid_welfare['title'][wel].capitalize()}"
+        ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the top 10%"
         df_graphers_wid.loc[j, "ySlugs"] = f"p90p100_share_{wid_welfare['slug'][wel]}"
         df_graphers_wid.loc[
             j, "Data source Radio"
@@ -788,7 +786,7 @@ for tab in range(len(wid_tables)):
         # Share of the top 1%
         df_graphers_wid.loc[
             j, "title"
-        ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the top 1% {wid_welfare['title'][wel].capitalize()}"
+        ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the top 1%"
         df_graphers_wid.loc[j, "ySlugs"] = f"p99p100_share_{wid_welfare['slug'][wel]}"
         df_graphers_wid.loc[
             j, "Data source Radio"
@@ -807,7 +805,7 @@ for tab in range(len(wid_tables)):
         # Share of the top 0.1%
         df_graphers_wid.loc[
             j, "title"
-        ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the top 0.1% {wid_welfare['title'][wel].capitalize()}"
+        ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the top 0.1%"
         df_graphers_wid.loc[j, "ySlugs"] = f"p99_9p100_share_{wid_welfare['slug'][wel]}"
         df_graphers_wid.loc[
             j, "Data source Radio"
@@ -826,7 +824,7 @@ for tab in range(len(wid_tables)):
         # Share of the bottom 50%
         df_graphers_wid.loc[
             j, "title"
-        ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the bottom 50% {wid_welfare['title'][wel].capitalize()}"
+        ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the bottom 50%"
         df_graphers_wid.loc[j, "ySlugs"] = f"p0p50_share_{wid_welfare['slug'][wel]}"
         df_graphers_wid.loc[
             j, "Data source Radio"
@@ -844,7 +842,7 @@ for tab in range(len(wid_tables)):
         # # P90/P10
         # df_graphers_wid.loc[
         #     j, "title"
-        # ] = f"{wid_welfare['welfare_type'][wel].capitalize()} inequality: P90/P10 ratio {wid_welfare['title'][wel].capitalize()}"
+        # ] = f"P90/P10 ratio"
         # df_graphers_wid.loc[j, "ySlugs"] = f"p90_p10_ratio_{wid_welfare['slug'][wel]}"
         # df_graphers_wid.loc[
         #     j, "Data source Radio"
@@ -863,7 +861,7 @@ for tab in range(len(wid_tables)):
         # # P90/P50
         # df_graphers_wid.loc[
         #     j, "title"
-        # ] = f"{wid_welfare['welfare_type'][wel].capitalize()} inequality: P90/P50 ratio {wid_welfare['title'][wel].capitalize()}"
+        # ] = f"P90/P50 ratio"
         # df_graphers_wid.loc[j, "ySlugs"] = f"p90_p50_ratio_{wid_welfare['slug'][wel]}"
         # df_graphers_wid.loc[
         #     j, "Data source Radio"
@@ -882,7 +880,7 @@ for tab in range(len(wid_tables)):
         # # P50/P10
         # df_graphers_wid.loc[
         #     j, "title"
-        # ] = f"{wid_welfare['welfare_type'][wel].capitalize()} inequality: P50/P10 ratio {wid_welfare['title'][wel].capitalize()}"
+        # ] = f"P50/P10 ratio"
         # df_graphers_wid.loc[j, "ySlugs"] = f"p50_p10_ratio_{wid_welfare['slug'][wel]}"
         # df_graphers_wid.loc[
         #     j, "Data source Radio"
@@ -899,9 +897,7 @@ for tab in range(len(wid_tables)):
         # j += 1
 
         # # Palma ratio
-        df_graphers_wid.loc[
-            j, "title"
-        ] = f"{wid_welfare['welfare_type'][wel].capitalize()} inequality: Palma ratio {wid_welfare['title'][wel].capitalize()}"
+        df_graphers_wid.loc[j, "title"] = f"Palma ratio"
         df_graphers_wid.loc[j, "ySlugs"] = f"palma_ratio_{wid_welfare['slug'][wel]}"
         df_graphers_wid.loc[
             j, "Data source Radio"
@@ -941,7 +937,7 @@ j = 0
 
 for survey in range(len(pip_tables)):
     # Gini coefficient
-    df_graphers_pip.loc[j, "title"] = f"Income inequality: Gini coefficient"
+    df_graphers_pip.loc[j, "title"] = f"Gini coefficient"
     df_graphers_pip.loc[j, "ySlugs"] = f"gini"
     df_graphers_pip.loc[
         j, "Data source Radio"
@@ -1005,7 +1001,7 @@ for survey in range(len(pip_tables)):
     j += 1
 
     # # P90/P10
-    # df_graphers_pip.loc[j, "title"] = f"Income inequality: P90/P10 ratio"
+    # df_graphers_pip.loc[j, "title"] = f"P90/P10 ratio"
     # df_graphers_pip.loc[j, "ySlugs"] = f"p90_p10_ratio"
     # df_graphers_pip.loc[
     #     j, "Data source Radio"
@@ -1025,7 +1021,7 @@ for survey in range(len(pip_tables)):
     # j += 1
 
     # # P90/P50
-    # df_graphers_pip.loc[j, "title"] = f"Income inequality: P90/P50 ratio"
+    # df_graphers_pip.loc[j, "title"] = f"P90/P50 ratio"
     # df_graphers_pip.loc[j, "ySlugs"] = f"p90_p50_ratio"
     # df_graphers_pip.loc[
     #     j, "Data source Radio"
@@ -1045,7 +1041,7 @@ for survey in range(len(pip_tables)):
     # j += 1
 
     # # P50/P10
-    # df_graphers_pip.loc[j, "title"] = f"Income inequality: P50/P10 ratio"
+    # df_graphers_pip.loc[j, "title"] = f"P50/P10 ratio"
     # df_graphers_pip.loc[j, "ySlugs"] = f"p50_p10_ratio"
     # df_graphers_pip.loc[
     #     j, "Data source Radio"
@@ -1065,7 +1061,7 @@ for survey in range(len(pip_tables)):
     # j += 1
 
     # Palma ratio
-    df_graphers_pip.loc[j, "title"] = f"Income inequality: Palma ratio"
+    df_graphers_pip.loc[j, "title"] = f"Palma ratio"
     df_graphers_pip.loc[j, "ySlugs"] = f"palma_ratio"
     df_graphers_pip.loc[
         j, "Data source Radio"
@@ -1130,7 +1126,7 @@ df_graphers_pip["mapTargetTime"] = mapTargetTime
 #             # Gini coefficient
 #             df_graphers_lis.loc[
 #                 j, "title"
-#             ] = f"{lis_welfare['welfare_type'][wel].capitalize()} inequality: Gini coefficient ({lis_welfare['title'][wel]})"
+#             ] = f"Gini coefficient"
 #             df_graphers_lis.loc[
 #                 j, "ySlugs"
 #             ] = f"gini_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
@@ -1153,7 +1149,7 @@ df_graphers_pip["mapTargetTime"] = mapTargetTime
 #             # Share of the top 10%
 #             df_graphers_lis.loc[
 #                 j, "title"
-#             ] = f"{lis_welfare['welfare_type'][wel].capitalize()} share of the top 10% ({lis_welfare['title'][wel]})"
+#             ] = f"{lis_welfare['welfare_type'][wel].capitalize()} share of the top 10%"
 #             df_graphers_lis.loc[
 #                 j, "ySlugs"
 #             ] = f"share_p90_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
@@ -1176,7 +1172,7 @@ df_graphers_pip["mapTargetTime"] = mapTargetTime
 #             # Share of the bottom 50%
 #             df_graphers_lis.loc[
 #                 j, "title"
-#             ] = f"{lis_welfare['welfare_type'][wel].capitalize()} share of the bottom 50% ({lis_welfare['title'][wel]})"
+#             ] = f"{lis_welfare['welfare_type'][wel].capitalize()} share of the bottom 50%"
 #             df_graphers_lis.loc[
 #                 j, "ySlugs"
 #             ] = f"share_bottom50_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
@@ -1199,7 +1195,7 @@ df_graphers_pip["mapTargetTime"] = mapTargetTime
 #             # P90/P10
 #             df_graphers_lis.loc[
 #                 j, "title"
-#             ] = f"{lis_welfare['welfare_type'][wel].capitalize()} inequality: P90/P10 ratio ({lis_welfare['title'][wel]})"
+#             ] = f"P90/P10 ratio"
 #             df_graphers_lis.loc[
 #                 j, "ySlugs"
 #             ] = f"p90_p10_ratio_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
@@ -1223,7 +1219,7 @@ df_graphers_pip["mapTargetTime"] = mapTargetTime
 #             # P90/P50
 #             df_graphers_lis.loc[
 #                 j, "title"
-#             ] = f"{lis_welfare['welfare_type'][wel].capitalize()} inequality: P90/P50 ratio ({lis_welfare['title'][wel]})"
+#             ] = f"P90/P50 ratio"
 #             df_graphers_lis.loc[
 #                 j, "ySlugs"
 #             ] = f"p90_p50_ratio_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
@@ -1247,7 +1243,7 @@ df_graphers_pip["mapTargetTime"] = mapTargetTime
 #             # P50/P10
 #             df_graphers_lis.loc[
 #                 j, "title"
-#             ] = f"{lis_welfare['welfare_type'][wel].capitalize()} inequality: P50/P10 ratio ({lis_welfare['title'][wel]})"
+#             ] = f"P50/P10 ratio"
 #             df_graphers_lis.loc[
 #                 j, "ySlugs"
 #             ] = f"p50_p10_ratio_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
@@ -1271,7 +1267,7 @@ df_graphers_pip["mapTargetTime"] = mapTargetTime
 #             # # Palma ratio
 #             df_graphers_lis.loc[
 #                 j, "title"
-#             ] = f"{lis_welfare['welfare_type'][wel].capitalize()} inequality: Palma ratio ({lis_welfare['title'][wel]})"
+#             ] = f"Palma ratio"
 #             df_graphers_lis.loc[
 #                 j, "ySlugs"
 #             ] = f"palma_ratio_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
@@ -1294,7 +1290,7 @@ df_graphers_pip["mapTargetTime"] = mapTargetTime
 #             # Headcount ratio (rel)
 #             df_graphers_lis.loc[
 #                 j, "title"
-#             ] = f"Relative poverty: Share of people below 50% of the median income ({lis_welfare['title'][wel]})"
+#             ] = f"Relative poverty: Share of people below 50% of the median income"
 #             df_graphers_lis.loc[
 #                 j, "ySlugs"
 #             ] = f"headcount_ratio_50_median_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
