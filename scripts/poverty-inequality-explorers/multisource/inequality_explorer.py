@@ -247,7 +247,7 @@ for survey in range(len(pip_tables)):
     df_tables_pip.loc[j, "slug"] = f"palma_ratio"
     df_tables_pip.loc[
         j, "description"
-    ] = f"The Palma ratio is a measure of inequality: it is the share of total {pip_tables.text[survey]} of the top 10% divided by the share of the bottom 40%."
+    ] = f"The Palma ratio is a measure of inequality: it is the share of total {pip_tables.text[survey]} of the richest 10% divided by the share of the poorest 40%."
     df_tables_pip.loc[j, "unit"] = np.nan
     df_tables_pip.loc[j, "shortUnit"] = np.nan
     df_tables_pip.loc[j, "type"] = "Numeric"
@@ -769,12 +769,12 @@ for tab in range(len(wid_tables)):
         # Share of the top 10%
         df_graphers_wid.loc[
             j, "title"
-        ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the top 10%"
+        ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the richest 10%"
         df_graphers_wid.loc[j, "ySlugs"] = f"p90p100_share_{wid_welfare['slug'][wel]}"
         df_graphers_wid.loc[
             j, "Data source Radio"
         ] = f"{wid_tables['source_name'][tab]} - {wid_welfare['dropdown_option'][wel]}"
-        df_graphers_wid.loc[j, "Measure Dropdown"] = "Top 10% share"
+        df_graphers_wid.loc[j, "Measure Dropdown"] = "Share of the richest 10%"
         df_graphers_wid.loc[
             j, "subtitle"
         ] = f"The share of income received by the richest 10% of the population. Income here is measured before taxes and benefits."
@@ -790,12 +790,12 @@ for tab in range(len(wid_tables)):
         # Share of the top 1%
         df_graphers_wid.loc[
             j, "title"
-        ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the top 1%"
+        ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the richest 1%"
         df_graphers_wid.loc[j, "ySlugs"] = f"p99p100_share_{wid_welfare['slug'][wel]}"
         df_graphers_wid.loc[
             j, "Data source Radio"
         ] = f"{wid_tables['source_name'][tab]} - {wid_welfare['dropdown_option'][wel]}"
-        df_graphers_wid.loc[j, "Measure Dropdown"] = "Top 1% share"
+        df_graphers_wid.loc[j, "Measure Dropdown"] = "Share of the richest 1%"
         df_graphers_wid.loc[
             j, "subtitle"
         ] = f"The share of income received by the richest 1% of the population. Income here is measured before taxes and benefits."
@@ -811,12 +811,12 @@ for tab in range(len(wid_tables)):
         # Share of the top 0.1%
         df_graphers_wid.loc[
             j, "title"
-        ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the top 0.1%"
+        ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the richest 0.1%"
         df_graphers_wid.loc[j, "ySlugs"] = f"p99_9p100_share_{wid_welfare['slug'][wel]}"
         df_graphers_wid.loc[
             j, "Data source Radio"
         ] = f"{wid_tables['source_name'][tab]} - {wid_welfare['dropdown_option'][wel]}"
-        df_graphers_wid.loc[j, "Measure Dropdown"] = "Top 0.1% share"
+        df_graphers_wid.loc[j, "Measure Dropdown"] = "Share of the richest 0.1%"
         df_graphers_wid.loc[
             j, "subtitle"
         ] = f"The share of income received by the richest 0.1% of the population. Income here is measured before taxes and benefits."
@@ -832,12 +832,12 @@ for tab in range(len(wid_tables)):
         # Share of the bottom 50%
         df_graphers_wid.loc[
             j, "title"
-        ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the bottom 50%"
+        ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the poorest 50%"
         df_graphers_wid.loc[j, "ySlugs"] = f"p0p50_share_{wid_welfare['slug'][wel]}"
         df_graphers_wid.loc[
             j, "Data source Radio"
         ] = f"{wid_tables['source_name'][tab]} - {wid_welfare['dropdown_option'][wel]}"
-        df_graphers_wid.loc[j, "Measure Dropdown"] = "Poorest 50% share"
+        df_graphers_wid.loc[j, "Measure Dropdown"] = "Share of the poorest 50%"
         df_graphers_wid.loc[
             j, "subtitle"
         ] = f"The share of income received by the poorest 50% of the population. Income here is measured before taxes and benefits."
@@ -969,12 +969,12 @@ for survey in range(len(pip_tables)):
     # Share of the top 10%
     df_graphers_pip.loc[
         j, "title"
-    ] = f"{pip_tables.text[survey].capitalize()} share of the top 10%"
+    ] = f"{pip_tables.text[survey].capitalize()} share of the richest 10%"
     df_graphers_pip.loc[j, "ySlugs"] = f"decile10_share"
     df_graphers_pip.loc[
         j, "Data source Radio"
     ] = f"{pip_tables['source_name'][tab]} - {pip_tables['dropdown_option'][survey]}"
-    df_graphers_pip.loc[j, "Measure Dropdown"] = "Top 10% share"
+    df_graphers_pip.loc[j, "Measure Dropdown"] = "Share of the richest 10%"
     df_graphers_pip.loc[j, "tableSlug"] = f"{pip_tables.table_name[survey]}"
     df_graphers_pip.loc[
         j, "subtitle"
@@ -1155,14 +1155,14 @@ df_graphers_pip["mapTargetTime"] = mapTargetTime
 #             # Share of the top 10%
 #             df_graphers_lis.loc[
 #                 j, "title"
-#             ] = f"{lis_welfare['welfare_type'][wel].capitalize()} share of the top 10%"
+#             ] = f"{lis_welfare['welfare_type'][wel].capitalize()} share of the richest 10%"
 #             df_graphers_lis.loc[
 #                 j, "ySlugs"
 #             ] = f"share_p90_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
 #             df_graphers_lis.loc[
 #                 j, "Data source Radio"
 #             ] = f"{lis_tables['source_name'][tab]} - {lis_welfare['welfare_type'][wel].capitalize()} {lis_welfare['title'][wel]}"
-#             df_graphers_lis.loc[j, "Measure Dropdown"] = "Top 10% share"
+#             df_graphers_lis.loc[j, "Measure Dropdown"] = "Share of the richest 10%"
 #             df_graphers_lis.loc[
 #                 j, "equivalized"
 #             ] = f"{lis_equivalence_scales['text'][eq]}"
@@ -1178,14 +1178,14 @@ df_graphers_pip["mapTargetTime"] = mapTargetTime
 #             # Share of the bottom 50%
 #             df_graphers_lis.loc[
 #                 j, "title"
-#             ] = f"{lis_welfare['welfare_type'][wel].capitalize()} share of the bottom 50%"
+#             ] = f"{lis_welfare['welfare_type'][wel].capitalize()} share of the poorest 50%"
 #             df_graphers_lis.loc[
 #                 j, "ySlugs"
 #             ] = f"share_bottom50_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
 #             df_graphers_lis.loc[
 #                 j, "Data source Radio"
 #             ] = f"{lis_tables['source_name'][tab]} - {lis_welfare['welfare_type'][wel].capitalize()} {lis_welfare['title'][wel]}"
-#             df_graphers_lis.loc[j, "Measure Dropdown"] = "Poorest 50% share"
+#             df_graphers_lis.loc[j, "Measure Dropdown"] = "Share of the poorest 50%"
 #             df_graphers_lis.loc[
 #                 j, "equivalized"
 #             ] = f"{lis_equivalence_scales['text'][eq]}"
