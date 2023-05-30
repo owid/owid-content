@@ -27,29 +27,29 @@ sheet_name = "all_the_tables"
 url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
 all_the_tables = pd.read_csv(url, keep_default_na=False)
 
-# LUXEMBOURG INCOME STUDY
-# Read Google sheets
-sheet_id = "1UFdwB1iBpP2tEP6GtxCHvW1GGhjsFflh42FWR80rYIg"
+# # LUXEMBOURG INCOME STUDY
+# # Read Google sheets
+# sheet_id = "1UFdwB1iBpP2tEP6GtxCHvW1GGhjsFflh42FWR80rYIg"
 
-# Welfare type sheet
-sheet_name = "welfare"
-url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
-lis_welfare = pd.read_csv(url, keep_default_na=False)
+# # Welfare type sheet
+# sheet_name = "welfare"
+# url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
+# lis_welfare = pd.read_csv(url, keep_default_na=False)
 
-# Equivalence scales
-sheet_name = "equivalence_scales"
-url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
-lis_equivalence_scales = pd.read_csv(url, keep_default_na=False)
+# # Equivalence scales
+# sheet_name = "equivalence_scales"
+# url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
+# lis_equivalence_scales = pd.read_csv(url, keep_default_na=False)
 
-# Relative poverty sheet
-sheet_name = "povlines_rel"
-url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
-lis_povlines_rel = pd.read_csv(url)
+# # Relative poverty sheet
+# sheet_name = "povlines_rel"
+# url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
+# lis_povlines_rel = pd.read_csv(url)
 
-# Tables sheet
-sheet_name = "tables"
-url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
-lis_tables = pd.read_csv(url, keep_default_na=False)
+# # Tables sheet
+# sheet_name = "tables"
+# url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
+# lis_tables = pd.read_csv(url, keep_default_na=False)
 
 # WORLD INEQUALITY DATABASE
 # Read Google sheets
@@ -132,6 +132,20 @@ df_tables_pip = pd.DataFrame()
 j = 0
 
 for survey in range(len(pip_tables)):
+    # Define country as entityName
+    df_tables_pip.loc[j, "name"] = "Country"
+    df_tables_pip.loc[j, "slug"] = "Entity"
+    df_tables_pip.loc[j, "type"] = "EntityName"
+    df_tables_pip.loc[j, "tableSlug"] = pip_tables["table_name"][survey]
+    j += 1
+
+    # Define year as Year
+    df_tables_pip.loc[j, "name"] = "Year"
+    df_tables_pip.loc[j, "slug"] = "Year"
+    df_tables_pip.loc[j, "type"] = "Year"
+    df_tables_pip.loc[j, "tableSlug"] = pip_tables["table_name"][survey]
+    j += 1
+
     # Gini coefficient
     df_tables_pip.loc[j, "name"] = f"Gini coefficient (PIP)"
     df_tables_pip.loc[j, "slug"] = f"gini"
@@ -474,6 +488,14 @@ df_tables_wid["dataPublishedBy"] = dataPublishedBy
 df_tables_wid["sourceLink"] = sourceLink
 df_tables_wid["colorScaleNumericMinValue"] = colorScaleNumericMinValue
 df_tables_wid["tolerance"] = tolerance
+
+# Keep only pretax national values for WID:
+df_tables_wid = df_tables_wid[
+    ~(
+        (df_tables_wid["slug"].str.contains("posttax_nat"))
+        | (df_tables_wid["slug"].str.contains("wealth"))
+    )
+].reset_index(drop=True)
 
 # We decided to drop LIS from the main inequality explorer:
 
@@ -1083,8 +1105,10 @@ for tab in range(len(wid_tables)):
 
     df_graphers_wid["tableSlug"] = wid_tables["name"][tab]
 
-# Correct title for wealth values (there is a space before the comma)
-df_graphers_wid["title"] = df_graphers_wid["title"].str.strip()
+# Keep only pretax national values for WID:
+df_graphers_wid = df_graphers_wid[
+    df_graphers_wid["ySlugs"].str.contains("pretax")
+].reset_index(drop=True)
 
 # %% [markdown]
 # Add yAxisMin and mapTargetTime
