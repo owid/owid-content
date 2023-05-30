@@ -1081,23 +1081,19 @@ for survey in range(len(pip_tables)):
     j += 1
 
     # Headcount ratio (rel)
-    df_graphers_pip.loc[
-        j, "title"
-    ] = "Relative poverty: Share of people below 50% of the median"
+    df_graphers_pip.loc[j, "title"] = "Share in relative poverty"
     df_graphers_pip.loc[j, "ySlugs"] = f"headcount_ratio_50_median"
     df_graphers_pip.loc[
         j, "Data source Radio"
     ] = f"{pip_tables['source_name'][tab]} - {pip_tables['dropdown_option'][survey]}"
-    df_graphers_pip.loc[
-        j, "Measure Dropdown"
-    ] = f"Share in relative poverty (< 50% of the median)"
+    df_graphers_pip.loc[j, "Measure Dropdown"] = f"Share in relative poverty"
     df_graphers_pip.loc[j, "tableSlug"] = f"{pip_tables.table_name[survey]}"
     df_graphers_pip.loc[
         j, "subtitle"
-    ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at 50% of the median {pip_tables.text[survey]}."
+    ] = f"The share of population with after tax {pip_tables.text[survey]} below 50% of the median. Relative poverty is a measure of the extent of inequality within the bottom of the distribution."
     df_graphers_pip.loc[
         j, "note"
-    ] = f"Depending on the country and year, the data relates to disposable {pip_tables.text[survey]} per capita."
+    ] = f"Depending on the country and year, the data relates to income measured after taxes and benefits, or consumption."
     df_graphers_pip.loc[j, "type"] = np.nan
     df_graphers_pip.loc[j, "selectedFacetStrategy"] = np.nan
     df_graphers_pip.loc[j, "hasMapTab"] = "true"
@@ -1348,7 +1344,7 @@ df_graphers["mapTargetTime"] = df_graphers["mapTargetTime"].astype("Int64")
 df_graphers.loc[
     (
         df_graphers["Data source Radio"]
-        == "World Bank Poverty and Inequality Platform - Income after tax or consumption"
+        == "World Inequality Database - Income before tax"
     )
     & (df_graphers["Measure Dropdown"] == "Gini coefficient"),
     ["defaultView"],
