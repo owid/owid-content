@@ -134,14 +134,14 @@ j = 0
 for survey in range(len(pip_tables)):
     # Define country as entityName
     df_tables_pip.loc[j, "name"] = "Country"
-    df_tables_pip.loc[j, "slug"] = "Entity"
+    df_tables_pip.loc[j, "slug"] = "country"
     df_tables_pip.loc[j, "type"] = "EntityName"
     df_tables_pip.loc[j, "tableSlug"] = pip_tables["table_name"][survey]
     j += 1
 
     # Define year as Year
     df_tables_pip.loc[j, "name"] = "Year"
-    df_tables_pip.loc[j, "slug"] = "Year"
+    df_tables_pip.loc[j, "slug"] = "year"
     df_tables_pip.loc[j, "type"] = "Year"
     df_tables_pip.loc[j, "tableSlug"] = pip_tables["table_name"][survey]
     j += 1
