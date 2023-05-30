@@ -68,7 +68,7 @@
             "type": "Data Explorer",
             "title": "Fish Stocks Data Explorer",
             "url": "https://ourworldindata.org/explorers/fish-stocks",
-            "source": "RAM Legacy Stock Assessment Database.",
+            "source": "RAM Legacy Stock Assessment Database",
             "content": "Explore available data on the world's fish stocks."
         },
         {
