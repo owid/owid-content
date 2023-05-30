@@ -16,6 +16,7 @@
         }
     ],
     "variantDescription1": "World Bank, PIP",
+    "variantDescription2": "",
     "nameOfSource": "World Bank, Poverty and Inequality Platform",
     "owidProcessingLevel": "<a href>Processed</a> by Our World in Data",
     "dateRange": "1967-2021",
@@ -65,6 +66,7 @@
             "imageUrl": "",
             "title": "Inequality Data Explorer of the World Bank Data",
             "url": "https://ourworldindata.org/explorers/poverty-explorer",
+            "source": "World Bank, PIP",
             "content": "Explore a range of inequality metrics from the World Bank data."
         },
         {
