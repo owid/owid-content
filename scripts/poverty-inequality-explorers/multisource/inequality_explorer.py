@@ -996,7 +996,7 @@ for survey in range(len(pip_tables)):
     df_graphers_pip.loc[
         j, "Data source Radio"
     ] = f"{pip_tables['source_name'][tab]} - {pip_tables['dropdown_option'][survey]}"
-    df_graphers_pip.loc[j, "Measure Dropdown"] = "Poorest 50% share"
+    df_graphers_pip.loc[j, "Measure Dropdown"] = "Share of the poorest 50%"
     df_graphers_pip.loc[j, "tableSlug"] = f"{pip_tables.table_name[survey]}"
     df_graphers_pip.loc[
         j, "subtitle"
