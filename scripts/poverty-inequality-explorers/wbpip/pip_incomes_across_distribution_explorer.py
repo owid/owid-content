@@ -339,7 +339,7 @@ for survey in range(len(survey_type)):
             j, "title"
         ] = f"Mean {survey_type.text[survey]} per {income_aggregation.aggregation[agg]}"
         df_graphers.loc[j, "ySlugs"] = f"mean{income_aggregation.slug_suffix[agg]}"
-        df_graphers.loc[j, "Metric Dropdown"] = "Mean income or consumption"
+        df_graphers.loc[j, "Measure Dropdown"] = "Mean income or consumption"
         df_graphers.loc[j, "Decile Dropdown"] = np.nan
         df_graphers.loc[
             j, "Household survey data type Dropdown"
@@ -371,7 +371,7 @@ for survey in range(len(survey_type)):
             j, "title"
         ] = f"Median {survey_type.text[survey]} per {income_aggregation.aggregation[agg]}"
         df_graphers.loc[j, "ySlugs"] = f"median{income_aggregation.slug_suffix[agg]}"
-        df_graphers.loc[j, "Metric Dropdown"] = "Median income or consumption"
+        df_graphers.loc[j, "Measure Dropdown"] = "Median income or consumption"
         df_graphers.loc[j, "Decile Dropdown"] = np.nan
         df_graphers.loc[
             j, "Household survey data type Dropdown"
@@ -406,7 +406,7 @@ for survey in range(len(survey_type)):
             df_graphers.loc[
                 j, "ySlugs"
             ] = f"decile{deciles9.decile[dec9]}_thr{income_aggregation.slug_suffix[agg]}"
-            df_graphers.loc[j, "Metric Dropdown"] = "Decile thresholds"
+            df_graphers.loc[j, "Measure Dropdown"] = "Decile thresholds"
             df_graphers.loc[j, "Decile Dropdown"] = f"{deciles9.dropdown[dec9]}"
             df_graphers.loc[
                 j, "Household survey data type Dropdown"
@@ -442,7 +442,7 @@ for survey in range(len(survey_type)):
                 j, "ySlugs"
             ] = f"decile{deciles10.decile[dec10]}_avg{income_aggregation.slug_suffix[agg]}"
             df_graphers.loc[
-                j, "Metric Dropdown"
+                j, "Measure Dropdown"
             ] = "Mean income or consumption, by decile"
             df_graphers.loc[j, "Decile Dropdown"] = f"{deciles10.dropdown[dec10]}"
             df_graphers.loc[
@@ -479,7 +479,7 @@ for survey in range(len(survey_type)):
             df_graphers.loc[
                 j, "ySlugs"
             ] = f"decile1_thr{income_aggregation.slug_suffix[agg]} decile2_thr{income_aggregation.slug_suffix[agg]} decile3_thr{income_aggregation.slug_suffix[agg]} decile4_thr{income_aggregation.slug_suffix[agg]} decile5_thr{income_aggregation.slug_suffix[agg]} decile6_thr{income_aggregation.slug_suffix[agg]} decile7_thr{income_aggregation.slug_suffix[agg]} decile8_thr{income_aggregation.slug_suffix[agg]} decile9_thr{income_aggregation.slug_suffix[agg]}"
-            df_graphers.loc[j, "Metric Dropdown"] = "Decile thresholds"
+            df_graphers.loc[j, "Measure Dropdown"] = "Decile thresholds"
             df_graphers.loc[j, "Decile Dropdown"] = "All deciles"
             df_graphers.loc[
                 j, "Household survey data type Dropdown"
@@ -516,7 +516,7 @@ for survey in range(len(survey_type)):
                 j, "ySlugs"
             ] = f"decile1_avg{income_aggregation.slug_suffix[agg]} decile2_avg{income_aggregation.slug_suffix[agg]} decile3_avg{income_aggregation.slug_suffix[agg]} decile4_avg{income_aggregation.slug_suffix[agg]} decile5_avg{income_aggregation.slug_suffix[agg]} decile6_avg{income_aggregation.slug_suffix[agg]} decile7_avg{income_aggregation.slug_suffix[agg]} decile8_avg{income_aggregation.slug_suffix[agg]} decile9_avg{income_aggregation.slug_suffix[agg]} decile10_avg{income_aggregation.slug_suffix[agg]}"
             df_graphers.loc[
-                j, "Metric Dropdown"
+                j, "Measure Dropdown"
             ] = "Mean income or consumption, by decile"
             df_graphers.loc[j, "Decile Dropdown"] = "All deciles"
             df_graphers.loc[
@@ -553,7 +553,7 @@ for survey in range(len(survey_type)):
             j, "title"
         ] = f"{survey_type.text[survey].capitalize()} share of the {deciles10.ordinal[dec10]}"
         df_graphers.loc[j, "ySlugs"] = f"decile{deciles10.decile[dec10]}_share"
-        df_graphers.loc[j, "Metric Dropdown"] = "Decile shares"
+        df_graphers.loc[j, "Measure Dropdown"] = "Decile shares"
         df_graphers.loc[j, "Decile Dropdown"] = f"{deciles10.dropdown[dec10]}"
         df_graphers.loc[
             j, "Household survey data type Dropdown"
@@ -585,7 +585,7 @@ for survey in range(len(survey_type)):
     df_graphers.loc[
         j, "ySlugs"
     ] = f"decile1_share decile2_share decile3_share decile4_share decile5_share decile6_share decile7_share decile8_share decile9_share decile10_share"
-    df_graphers.loc[j, "Metric Dropdown"] = "Decile shares"
+    df_graphers.loc[j, "Measure Dropdown"] = "Decile shares"
     df_graphers.loc[j, "Decile Dropdown"] = "All deciles"
     df_graphers.loc[
         j, "Household survey data type Dropdown"
@@ -624,7 +624,7 @@ for i in range(len(df_graphers)):
     df_graphers_spells.loc[
         j, "ySlugs"
     ] = "consumption_spell_1 consumption_spell_2 consumption_spell_3 consumption_spell_4 consumption_spell_5 consumption_spell_6 income_spell_1 income_spell_2 income_spell_3 income_spell_4 income_spell_5 income_spell_6 income_spell_7"
-    df_graphers_spells.loc[j, "Metric Dropdown"] = df_graphers["Metric Dropdown"][i]
+    df_graphers_spells.loc[j, "Measure Dropdown"] = df_graphers["Measure Dropdown"][i]
     df_graphers_spells.loc[j, "Decile Dropdown"] = df_graphers["Decile Dropdown"][i]
     df_graphers_spells.loc[j, "Household survey data type Dropdown"] = df_graphers[
         "Household survey data type Dropdown"
@@ -719,7 +719,7 @@ df_graphers["note"] = df_graphers["note"].str.replace(
 # Select one default view
 df_graphers.loc[
     (df_graphers["Decile Dropdown"] == "All deciles")
-    & (df_graphers["Metric Dropdown"] == "Decile thresholds")
+    & (df_graphers["Measure Dropdown"] == "Decile thresholds")
     & (df_graphers["Period Radio"] == "Day")
     & (df_graphers["Show breaks between less comparable surveys Checkbox"] == "false")
     & (df_graphers["tableSlug"] == "inc_or_cons")
@@ -772,7 +772,7 @@ df_graphers_mapping = pd.DataFrame(
     }
 )
 df_graphers_mapping = df_graphers_mapping.reset_index().set_index("metric_dropdown")
-df_graphers["metric_dropdown_aux"] = df_graphers["Metric Dropdown"].map(
+df_graphers["metric_dropdown_aux"] = df_graphers["Measure Dropdown"].map(
     df_graphers_mapping["index"]
 )
 

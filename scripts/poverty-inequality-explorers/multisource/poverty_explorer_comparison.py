@@ -688,7 +688,7 @@ for tab in range(len(merged_tables)):
             df_graphers.loc[j, "ySlugs"] = source_checkbox["headcount_ratio"][
                 view
             ].replace("{p}", str(lis_povlines_abs["cents"][p]))
-            df_graphers.loc[j, "Metric Dropdown"] = "Share in poverty"
+            df_graphers.loc[j, "Measure Dropdown"] = "Share in poverty"
             df_graphers.loc[
                 j, "Poverty line Dropdown"
             ] = f"{lis_povlines_abs['povline_dropdown'][p]}"
@@ -713,7 +713,7 @@ for tab in range(len(merged_tables)):
             df_graphers.loc[j, "ySlugs"] = source_checkbox["headcount"][view].replace(
                 "{p}", str(lis_povlines_abs["cents"][p])
             )
-            df_graphers.loc[j, "Metric Dropdown"] = "Number in poverty"
+            df_graphers.loc[j, "Measure Dropdown"] = "Number in poverty"
             df_graphers.loc[
                 j, "Poverty line Dropdown"
             ] = f"{lis_povlines_abs['povline_dropdown'][p]}"
@@ -738,7 +738,7 @@ for tab in range(len(merged_tables)):
             df_graphers.loc[j, "ySlugs"] = source_checkbox["total_shortfall"][
                 view
             ].replace("{p}", str(lis_povlines_abs["cents"][p]))
-            df_graphers.loc[j, "Metric Dropdown"] = "Total shortfall from poverty line"
+            df_graphers.loc[j, "Measure Dropdown"] = "Total shortfall from poverty line"
             df_graphers.loc[
                 j, "Poverty line Dropdown"
             ] = f"{lis_povlines_abs['povline_dropdown'][p]}"
@@ -765,7 +765,7 @@ for tab in range(len(merged_tables)):
             df_graphers.loc[j, "ySlugs"] = source_checkbox["avg_shortfall"][
                 view
             ].replace("{p}", str(lis_povlines_abs["cents"][p]))
-            df_graphers.loc[j, "Metric Dropdown"] = "Average shortfall ($)"
+            df_graphers.loc[j, "Measure Dropdown"] = "Average shortfall ($)"
             df_graphers.loc[
                 j, "Poverty line Dropdown"
             ] = f"{lis_povlines_abs['povline_dropdown'][p]}"
@@ -793,7 +793,7 @@ for tab in range(len(merged_tables)):
                 view
             ].replace("{p}", str(lis_povlines_abs["cents"][p]))
             df_graphers.loc[
-                j, "Metric Dropdown"
+                j, "Measure Dropdown"
             ] = "Average shortfall (% of poverty line)"
             df_graphers.loc[
                 j, "Poverty line Dropdown"
@@ -821,7 +821,7 @@ for tab in range(len(merged_tables)):
             df_graphers.loc[j, "ySlugs"] = source_checkbox["poverty_gap_index"][
                 view
             ].replace("{p}", str(lis_povlines_abs["cents"][p]))
-            df_graphers.loc[j, "Metric Dropdown"] = "Poverty gap index"
+            df_graphers.loc[j, "Measure Dropdown"] = "Poverty gap index"
             df_graphers.loc[
                 j, "Poverty line Dropdown"
             ] = f"{lis_povlines_abs['povline_dropdown'][p]}"
@@ -849,7 +849,7 @@ for tab in range(len(merged_tables)):
             df_graphers.loc[j, "ySlugs"] = source_checkbox["headcount_ratio_rel"][
                 view
             ].replace("{pct}", lis_povlines_rel["slug_suffix"][pct])
-            df_graphers.loc[j, "Metric Dropdown"] = "Share in poverty"
+            df_graphers.loc[j, "Measure Dropdown"] = "Share in poverty"
             df_graphers.loc[
                 j, "Poverty line Dropdown"
             ] = f"{lis_povlines_rel['dropdown'][pct]}"
@@ -874,7 +874,7 @@ for tab in range(len(merged_tables)):
             df_graphers.loc[j, "ySlugs"] = source_checkbox["headcount_rel"][
                 view
             ].replace("{pct}", lis_povlines_rel["slug_suffix"][pct])
-            df_graphers.loc[j, "Metric Dropdown"] = "Number in poverty"
+            df_graphers.loc[j, "Measure Dropdown"] = "Number in poverty"
             df_graphers.loc[
                 j, "Poverty line Dropdown"
             ] = f"{lis_povlines_rel['dropdown'][pct]}"
@@ -899,7 +899,7 @@ for tab in range(len(merged_tables)):
             df_graphers.loc[j, "ySlugs"] = source_checkbox["total_shortfall_rel"][
                 view
             ].replace("{pct}", lis_povlines_rel["slug_suffix"][pct])
-            df_graphers.loc[j, "Metric Dropdown"] = "Total shortfall from poverty line"
+            df_graphers.loc[j, "Measure Dropdown"] = "Total shortfall from poverty line"
             df_graphers.loc[
                 j, "Poverty line Dropdown"
             ] = f"{lis_povlines_rel['dropdown'][pct]}"
@@ -926,7 +926,7 @@ for tab in range(len(merged_tables)):
             df_graphers.loc[j, "ySlugs"] = source_checkbox["avg_shortfall_rel"][
                 view
             ].replace("{pct}", lis_povlines_rel["slug_suffix"][pct])
-            df_graphers.loc[j, "Metric Dropdown"] = "Average shortfall ($)"
+            df_graphers.loc[j, "Measure Dropdown"] = "Average shortfall ($)"
             df_graphers.loc[
                 j, "Poverty line Dropdown"
             ] = f"{lis_povlines_rel['dropdown'][pct]}"
@@ -954,7 +954,7 @@ for tab in range(len(merged_tables)):
                 view
             ].replace("{pct}", lis_povlines_rel["slug_suffix"][pct])
             df_graphers.loc[
-                j, "Metric Dropdown"
+                j, "Measure Dropdown"
             ] = "Average shortfall (% of poverty line)"
             df_graphers.loc[
                 j, "Poverty line Dropdown"
@@ -982,7 +982,7 @@ for tab in range(len(merged_tables)):
             df_graphers.loc[j, "ySlugs"] = source_checkbox["poverty_gap_index_rel"][
                 view
             ].replace("{pct}", lis_povlines_rel["slug_suffix"][pct])
-            df_graphers.loc[j, "Metric Dropdown"] = "Poverty gap index"
+            df_graphers.loc[j, "Measure Dropdown"] = "Poverty gap index"
             df_graphers.loc[
                 j, "Poverty line Dropdown"
             ] = f"{lis_povlines_rel['dropdown'][pct]}"
@@ -1027,7 +1027,7 @@ df_graphers["mapTargetTime"] = df_graphers["mapTargetTime"].astype("Int64")
 
 # Select one default view
 df_graphers.loc[
-    (df_graphers["Metric Dropdown"] == "Share in poverty")
+    (df_graphers["Measure Dropdown"] == "Share in poverty")
     & (
         df_graphers["Poverty line Dropdown"]
         == "$2.15 per day: International Poverty Line"

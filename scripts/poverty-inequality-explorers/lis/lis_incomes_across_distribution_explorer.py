@@ -345,7 +345,7 @@ for tab in range(len(tables)):
                 df_graphers.loc[
                     j, "ySlugs"
                 ] = f"mean_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}{income_aggregation['slug_suffix'][agg]}"
-                df_graphers.loc[j, "Metric Dropdown"] = "Mean income or consumption"
+                df_graphers.loc[j, "Measure Dropdown"] = "Mean income or consumption"
                 df_graphers.loc[j, "Decile Dropdown"] = np.nan
                 df_graphers.loc[
                     j, "Income type Dropdown"
@@ -377,7 +377,7 @@ for tab in range(len(tables)):
                 df_graphers.loc[
                     j, "ySlugs"
                 ] = f"median_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}{income_aggregation['slug_suffix'][agg]}"
-                df_graphers.loc[j, "Metric Dropdown"] = "Median income or consumption"
+                df_graphers.loc[j, "Measure Dropdown"] = "Median income or consumption"
                 df_graphers.loc[j, "Decile Dropdown"] = np.nan
                 df_graphers.loc[
                     j, "Income type Dropdown"
@@ -410,7 +410,7 @@ for tab in range(len(tables)):
                     df_graphers.loc[
                         j, "ySlugs"
                     ] = f"thr_{deciles9['lis_notation'][dec9]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}{income_aggregation['slug_suffix'][agg]}"
-                    df_graphers.loc[j, "Metric Dropdown"] = "Decile thresholds"
+                    df_graphers.loc[j, "Measure Dropdown"] = "Decile thresholds"
                     df_graphers.loc[j, "Decile Dropdown"] = deciles9["dropdown"][dec9]
                     df_graphers.loc[
                         j, "Income type Dropdown"
@@ -445,7 +445,7 @@ for tab in range(len(tables)):
                         j, "ySlugs"
                     ] = f"avg_{deciles10['lis_notation'][dec10]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}{income_aggregation['slug_suffix'][agg]}"
                     df_graphers.loc[
-                        j, "Metric Dropdown"
+                        j, "Measure Dropdown"
                     ] = "Mean income or consumption, by decile"
                     df_graphers.loc[j, "Decile Dropdown"] = deciles10["dropdown"][dec10]
                     df_graphers.loc[
@@ -481,7 +481,7 @@ for tab in range(len(tables)):
                     df_graphers.loc[
                         j, "ySlugs"
                     ] = f"thr_p10_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}{income_aggregation['slug_suffix'][agg]} thr_p20_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}{income_aggregation['slug_suffix'][agg]} thr_p30_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}{income_aggregation['slug_suffix'][agg]} thr_p40_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}{income_aggregation['slug_suffix'][agg]} thr_p50_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}{income_aggregation['slug_suffix'][agg]} thr_p60_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}{income_aggregation['slug_suffix'][agg]} thr_p70_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}{income_aggregation['slug_suffix'][agg]} thr_p80_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}{income_aggregation['slug_suffix'][agg]} thr_p90_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}{income_aggregation['slug_suffix'][agg]}"
-                    df_graphers.loc[j, "Metric Dropdown"] = "Decile thresholds"
+                    df_graphers.loc[j, "Measure Dropdown"] = "Decile thresholds"
                     df_graphers.loc[j, "Decile Dropdown"] = "All deciles"
                     df_graphers.loc[
                         j, "Income type Dropdown"
@@ -519,7 +519,7 @@ for tab in range(len(tables)):
                         j, "ySlugs"
                     ] = f"avg_p10_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}{income_aggregation['slug_suffix'][agg]} avg_p20_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}{income_aggregation['slug_suffix'][agg]} avg_p30_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}{income_aggregation['slug_suffix'][agg]} avg_p40_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}{income_aggregation['slug_suffix'][agg]} avg_p50_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}{income_aggregation['slug_suffix'][agg]} avg_p60_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}{income_aggregation['slug_suffix'][agg]} avg_p70_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}{income_aggregation['slug_suffix'][agg]} avg_p80_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}{income_aggregation['slug_suffix'][agg]} avg_p90_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}{income_aggregation['slug_suffix'][agg]} avg_p100_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}{income_aggregation['slug_suffix'][agg]}"
                     df_graphers.loc[
-                        j, "Metric Dropdown"
+                        j, "Measure Dropdown"
                     ] = "Mean income or consumption, by decile"
                     df_graphers.loc[j, "Decile Dropdown"] = "All deciles"
                     df_graphers.loc[
@@ -558,7 +558,7 @@ for tab in range(len(tables)):
                     # df_graphers.loc[
                     #     j, "ySlugs"
                     # ] = f"mean_{welfare['slug'][wel]}_eq{income_aggregation['slug_suffix'][agg]} mean_{welfare['slug'][wel]}_pc{income_aggregation['slug_suffix'][agg]}"
-                    # df_graphers.loc[j, "Metric Dropdown"] = "Mean income or consumption"
+                    # df_graphers.loc[j, "Measure Dropdown"] = "Mean income or consumption"
                     # df_graphers.loc[j, "Decile Dropdown"] = np.nan
                     # df_graphers.loc[
                     #     j, "Income type Dropdown"
@@ -595,7 +595,7 @@ for tab in range(len(tables)):
                     #     j, "ySlugs"
                     # ] = f"median_{welfare['slug'][wel]}_eq{income_aggregation['slug_suffix'][agg]} median_{welfare['slug'][wel]}_pc{income_aggregation['slug_suffix'][agg]}"
                     # df_graphers.loc[
-                    #     j, "Metric Dropdown"
+                    #     j, "Measure Dropdown"
                     # ] = "Median income or consumption"
                     # df_graphers.loc[j, "Decile Dropdown"] = np.nan
                     # df_graphers.loc[
@@ -633,7 +633,7 @@ for tab in range(len(tables)):
                     #     df_graphers.loc[
                     #         j, "ySlugs"
                     #     ] = f"thr_{deciles9['lis_notation'][dec9]}_{welfare['slug'][wel]}_eq{income_aggregation['slug_suffix'][agg]} thr_{deciles9['lis_notation'][dec9]}_{welfare['slug'][wel]}_pc{income_aggregation['slug_suffix'][agg]}"
-                    #     df_graphers.loc[j, "Metric Dropdown"] = "Decile thresholds"
+                    #     df_graphers.loc[j, "Measure Dropdown"] = "Decile thresholds"
                     #     df_graphers.loc[j, "Decile Dropdown"] = deciles9["dropdown"][
                     #         dec9
                     #     ]
@@ -673,7 +673,7 @@ for tab in range(len(tables)):
                     #         j, "ySlugs"
                     #     ] = f"avg_{deciles10['lis_notation'][dec10]}_{welfare['slug'][wel]}_eq{income_aggregation['slug_suffix'][agg]} avg_{deciles10['lis_notation'][dec10]}_{welfare['slug'][wel]}_pc{income_aggregation['slug_suffix'][agg]}"
                     #     df_graphers.loc[
-                    #         j, "Metric Dropdown"
+                    #         j, "Measure Dropdown"
                     #     ] = "Mean income or consumption, by decile"
                     #     df_graphers.loc[j, "Decile Dropdown"] = deciles10["dropdown"][
                     #         dec10
@@ -713,7 +713,7 @@ for tab in range(len(tables)):
                 df_graphers.loc[
                     j, "ySlugs"
                 ] = f"share_{deciles10['lis_notation'][dec10]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
-                df_graphers.loc[j, "Metric Dropdown"] = "Decile shares"
+                df_graphers.loc[j, "Measure Dropdown"] = "Decile shares"
                 df_graphers.loc[j, "Decile Dropdown"] = deciles10["dropdown"][dec10]
                 df_graphers.loc[
                     j, "Income type Dropdown"
@@ -740,7 +740,7 @@ for tab in range(len(tables)):
             df_graphers.loc[
                 j, "ySlugs"
             ] = f"share_p10_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p20_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p30_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p40_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p50_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p60_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p70_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p80_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p90_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} share_p100_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
-            df_graphers.loc[j, "Metric Dropdown"] = "Decile shares"
+            df_graphers.loc[j, "Measure Dropdown"] = "Decile shares"
             df_graphers.loc[j, "Decile Dropdown"] = "All deciles"
             df_graphers.loc[
                 j, "Income type Dropdown"
@@ -769,7 +769,7 @@ for tab in range(len(tables)):
             #     df_graphers.loc[
             #         j, "ySlugs"
             #     ] = f"share_{deciles10['lis_notation'][dec10]}_{welfare['slug'][wel]}_eq share_{deciles10['lis_notation'][dec10]}_{welfare['slug'][wel]}_pc"
-            #     df_graphers.loc[j, "Metric Dropdown"] = "Decile shares"
+            #     df_graphers.loc[j, "Measure Dropdown"] = "Decile shares"
             #     df_graphers.loc[j, "Decile Dropdown"] = deciles10["dropdown"][dec10]
             #     df_graphers.loc[
             #         j, "Income type Dropdown"
@@ -809,14 +809,14 @@ df_graphers["mapTargetTime"] = df_graphers["mapTargetTime"].astype("Int64")
 # Remove relative toggle values for shares
 df_graphers = df_graphers[
     ~(
-        (df_graphers["Metric Dropdown"] == "Decile shares")
+        (df_graphers["Measure Dropdown"] == "Decile shares")
         & (df_graphers["stackMode"] == "relative")
     )
 ]
 
 # Select one default view
 df_graphers.loc[
-    (df_graphers["Metric Dropdown"] == "Decile thresholds")
+    (df_graphers["Measure Dropdown"] == "Decile thresholds")
     & (df_graphers["Income type Dropdown"] == "After tax")
     & (
         df_graphers["Adjust for household composition (equivalized income) Checkbox"]
@@ -872,7 +872,7 @@ df_graphers_mapping = pd.DataFrame(
     }
 )
 df_graphers_mapping = df_graphers_mapping.reset_index().set_index("metric_dropdown")
-df_graphers["metric_dropdown_aux"] = df_graphers["Metric Dropdown"].map(
+df_graphers["metric_dropdown_aux"] = df_graphers["Measure Dropdown"].map(
     df_graphers_mapping["index"]
 )
 
