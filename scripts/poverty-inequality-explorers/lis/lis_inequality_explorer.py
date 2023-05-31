@@ -260,8 +260,8 @@ df_graphers = pd.DataFrame()
 j = 0
 
 for tab in range(len(tables)):
-    for wel in range(len(welfare)):
-        for eq in range(len(equivalence_scales)):
+    for eq in range(len(equivalence_scales)):
+        for wel in range(len(welfare)):
             # Gini coefficient
             df_graphers.loc[
                 j, "title"
@@ -429,6 +429,161 @@ for tab in range(len(tables)):
                 df_graphers.loc[j, "hasMapTab"] = "true"
                 df_graphers.loc[j, "tab"] = "map"
                 j += 1
+
+        # COMPARE BEFORE AND AFTER TAX
+        # Gini coefficient
+        df_graphers.loc[
+            j, "title"
+        ] = f"{welfare['welfare_type'][wel].capitalize()} inequality: Gini coefficient (after tax vs. before tax)"
+        df_graphers.loc[
+            j, "ySlugs"
+        ] = f"gini_mi_{equivalence_scales['slug'][eq]} gini_dhi_{equivalence_scales['slug'][eq]}"
+        df_graphers.loc[j, "Measure Dropdown"] = "Gini coefficient"
+        df_graphers.loc[j, "Income type Dropdown"] = "After tax vs. Before tax"
+        df_graphers.loc[
+            j, "Adjust for household composition (equivalized income) Checkbox"
+        ] = equivalence_scales["checkbox"][eq]
+        df_graphers.loc[
+            j, "subtitle"
+        ] = f"The Gini coefficient is a measure of the inequality of the {welfare['welfare_type'][wel]} distribution in a population. Higher values indicate a higher level of inequality. {welfare['subtitle'][wel]}"
+        df_graphers.loc[j, "note"] = equivalence_scales["note"][eq]
+        df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
+        df_graphers.loc[j, "hasMapTab"] = "false"
+        df_graphers.loc[j, "tab"] = "chart"
+        j += 1
+
+        # Share of the top 10%
+        df_graphers.loc[
+            j, "title"
+        ] = f"{welfare['welfare_type'][wel].capitalize()} share of the top 10% (after tax vs. before tax)"
+        df_graphers.loc[
+            j, "ySlugs"
+        ] = f"share_p90_mi_{equivalence_scales['slug'][eq]} share_p90_dhi_{equivalence_scales['slug'][eq]}"
+        df_graphers.loc[j, "Measure Dropdown"] = "Top 10% share"
+        df_graphers.loc[j, "Income type Dropdown"] = "After tax vs. Before tax"
+        df_graphers.loc[
+            j, "Adjust for household composition (equivalized income) Checkbox"
+        ] = equivalence_scales["checkbox"][eq]
+        df_graphers.loc[
+            j, "subtitle"
+        ] = f"This is the {welfare['welfare_type'][wel]} of the richest 10% as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
+        df_graphers.loc[j, "note"] = equivalence_scales["note"][eq]
+        df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
+        df_graphers.loc[j, "hasMapTab"] = "false"
+        df_graphers.loc[j, "tab"] = "chart"
+        j += 1
+
+        # P90/P10
+        df_graphers.loc[
+            j, "title"
+        ] = f"{welfare['welfare_type'][wel].capitalize()} inequality: P90/P10 ratio (after tax vs. before tax)"
+        df_graphers.loc[
+            j, "ySlugs"
+        ] = f"p90_p10_ratio_mi_{equivalence_scales['slug'][eq]} p90_p10_ratio_dhi_{equivalence_scales['slug'][eq]}"
+        df_graphers.loc[j, "Measure Dropdown"] = "P90/P10"
+        df_graphers.loc[j, "Income type Dropdown"] = "After tax vs. Before tax"
+        df_graphers.loc[
+            j, "Adjust for household composition (equivalized income) Checkbox"
+        ] = equivalence_scales["checkbox"][eq]
+        df_graphers.loc[
+            j, "subtitle"
+        ] = f"P90 and P10 are the levels of {welfare['welfare_type'][wel]} below which 90% and 10% of the population live, respectively. This variable gives the ratio of the two. It is a measure of inequality that indicates the gap between the richest and poorest tenth of the population. {welfare['subtitle'][wel]}"
+        df_graphers.loc[j, "note"] = equivalence_scales["note"][eq]
+        df_graphers.loc[j, "type"] = np.nan
+        df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
+        df_graphers.loc[j, "hasMapTab"] = "false"
+        df_graphers.loc[j, "tab"] = "chart"
+        j += 1
+
+        # P90/P50
+        df_graphers.loc[
+            j, "title"
+        ] = f"{welfare['welfare_type'][wel].capitalize()} inequality: P90/P50 ratio (after tax vs. before tax)"
+        df_graphers.loc[
+            j, "ySlugs"
+        ] = f"p90_p50_ratio_mi_{equivalence_scales['slug'][eq]} p90_p50_ratio_dhi_{equivalence_scales['slug'][eq]}"
+        df_graphers.loc[j, "Measure Dropdown"] = "P90/P50"
+        df_graphers.loc[j, "Income type Dropdown"] = "After tax vs. Before tax"
+        df_graphers.loc[
+            j, "Adjust for household composition (equivalized income) Checkbox"
+        ] = equivalence_scales["checkbox"][eq]
+        df_graphers.loc[
+            j, "subtitle"
+        ] = f"The P90/P50 ratio measures the degree of inequality within the richest half of the population. A ratio of 2 means that someone just falling in the richest tenth of the population has twice the median {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
+        df_graphers.loc[j, "note"] = equivalence_scales["note"][eq]
+        df_graphers.loc[j, "type"] = np.nan
+        df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
+        df_graphers.loc[j, "hasMapTab"] = "false"
+        df_graphers.loc[j, "tab"] = "chart"
+        j += 1
+
+        # P50/P10
+        df_graphers.loc[
+            j, "title"
+        ] = f"{welfare['welfare_type'][wel].capitalize()} inequality: P50/P10 ratio (after tax vs. before tax)"
+        df_graphers.loc[
+            j, "ySlugs"
+        ] = f"p50_p10_ratio_mi_{equivalence_scales['slug'][eq]} p50_p10_ratio_dhi_{equivalence_scales['slug'][eq]}"
+        df_graphers.loc[j, "Measure Dropdown"] = "P50/P10"
+        df_graphers.loc[j, "Income type Dropdown"] = "After tax vs. Before tax"
+        df_graphers.loc[
+            j, "Adjust for household composition (equivalized income) Checkbox"
+        ] = equivalence_scales["checkbox"][eq]
+        df_graphers.loc[
+            j, "subtitle"
+        ] = f"The P50/P10 ratio measures the degree of inequality within the poorest half of the population. A ratio of 2 means that the median {welfare['welfare_type'][wel]} is two times higher than that of someone just falling in the poorest tenth of the population. {welfare['subtitle'][wel]}"
+        df_graphers.loc[j, "note"] = equivalence_scales["note"][eq]
+        df_graphers.loc[j, "type"] = np.nan
+        df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
+        df_graphers.loc[j, "hasMapTab"] = "false"
+        df_graphers.loc[j, "tab"] = "chart"
+        j += 1
+
+        # # Palma ratio
+        df_graphers.loc[
+            j, "title"
+        ] = f"{welfare['welfare_type'][wel].capitalize()} inequality: Palma ratio (after tax vs. before tax)"
+        df_graphers.loc[
+            j, "ySlugs"
+        ] = f"palma_ratio_mi_{equivalence_scales['slug'][eq]} palma_ratio_dhi_{equivalence_scales['slug'][eq]}"
+        df_graphers.loc[j, "Measure Dropdown"] = "Palma ratio"
+        df_graphers.loc[j, "Income type Dropdown"] = "After tax vs. Before tax"
+        df_graphers.loc[
+            j, "Adjust for household composition (equivalized income) Checkbox"
+        ] = equivalence_scales["checkbox"][eq]
+        df_graphers.loc[
+            j, "subtitle"
+        ] = f"The Palma ratio is the share of total {welfare['welfare_type'][wel]} of the top 10% divided by the share of the bottom 40%. {welfare['subtitle'][wel]}"
+        df_graphers.loc[j, "note"] = equivalence_scales["note"][eq]
+        df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
+        df_graphers.loc[j, "hasMapTab"] = "false"
+        df_graphers.loc[j, "tab"] = "chart"
+        j += 1
+
+        # Headcount ratio (rel)
+        for pct in range(len(povlines_rel)):
+            df_graphers.loc[
+                j, "title"
+            ] = f"{povlines_rel['title_share'][pct]} (after tax vs. before tax)"
+            df_graphers.loc[
+                j, "ySlugs"
+            ] = f"headcount_ratio_{povlines_rel['slug_suffix'][pct]}_mi_{equivalence_scales['slug'][eq]} headcount_ratio_{povlines_rel['slug_suffix'][pct]}_dhi_{equivalence_scales['slug'][eq]}"
+            df_graphers.loc[
+                j, "Measure Dropdown"
+            ] = f"Share in relative poverty (< {povlines_rel['text'][pct]})"
+            df_graphers.loc[j, "Income type Dropdown"] = "After tax vs. Before tax"
+            df_graphers.loc[
+                j, "Adjust for household composition (equivalized income) Checkbox"
+            ] = equivalence_scales["checkbox"][eq]
+            df_graphers.loc[
+                j, "subtitle"
+            ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at {povlines_rel['text'][pct]} {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
+            df_graphers.loc[j, "note"] = equivalence_scales["note"][eq]
+            df_graphers.loc[j, "type"] = np.nan
+            df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
+            df_graphers.loc[j, "hasMapTab"] = "false"
+            df_graphers.loc[j, "tab"] = "chart"
+            j += 1
 
         # # Compare equivalized and per capita values
         # # Gini coefficient
