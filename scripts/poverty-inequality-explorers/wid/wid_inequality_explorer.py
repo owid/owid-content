@@ -472,7 +472,7 @@ df_graphers["title"] = df_graphers["title"].str.strip()
 # Select one default view
 df_graphers.loc[
     (df_graphers["Metric Dropdown"] == "Gini coefficient")
-    & (df_graphers["Data type Dropdown"] == "Income before tax"),
+    & (df_graphers["Data type Dropdown"] == "Income after tax"),
     ["defaultView"],
 ] = "true"
 

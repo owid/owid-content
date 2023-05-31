@@ -899,7 +899,7 @@ df_graphers["title"] = df_graphers["title"].str.replace("wealth per year", "weal
 # Select one default view
 df_graphers.loc[
     (df_graphers["Metric Dropdown"] == "Decile thresholds")
-    & (df_graphers["Data type Dropdown"] == "Income before tax")
+    & (df_graphers["Data type Dropdown"] == "Income after tax")
     & (df_graphers["Decile/quantile Dropdown"] == "All deciles")
     & (df_graphers["Aggregation Radio"] == "Year")
     & (df_graphers["Relative change Checkbox"] == "false"),

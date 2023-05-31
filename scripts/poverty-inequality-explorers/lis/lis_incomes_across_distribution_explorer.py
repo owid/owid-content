@@ -813,7 +813,7 @@ df_graphers = df_graphers[
 # Select one default view
 df_graphers.loc[
     (df_graphers["Metric Dropdown"] == "Decile thresholds")
-    & (df_graphers["Income type Dropdown"] == "Before tax")
+    & (df_graphers["Income type Dropdown"] == "After tax")
     & (df_graphers["Equivalence scale Dropdown"] == "Equivalized")
     & (df_graphers["Decile Dropdown"] == "All deciles")
     & (df_graphers["Aggregation Radio"] == "Year")
