@@ -33,10 +33,12 @@ url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sh
 source_checkbox = pd.read_csv(
     url, keep_default_na=False, dtype={"pip": "str", "wid": "str", "lis": "str"}
 )
-# Remove WID combination, as there is no poverty data there
-source_checkbox = source_checkbox[source_checkbox["wid"] == "false"].reset_index(
-    drop=True
-)
+# Only get the combination where PIP and LIS are true
+source_checkbox = source_checkbox[
+    (source_checkbox["wid"] == "false")
+    & (source_checkbox["pip"] == "true")
+    & (source_checkbox["lis"] == "true")
+].reset_index(drop=True)
 
 # LUXEMBOURG INCOME STUDY
 # Read Google sheets
@@ -649,10 +651,10 @@ df_tables_lis["colorScaleNumericMinValue"] = colorScaleNumericMinValue
 df_tables_lis["tolerance"] = tolerance
 df_tables_lis["colorScaleEqualSizeBins"] = colorScaleEqualSizeBins
 
-# Remove all the rows that have the "per capita" value in the equivalized column
-df_tables_lis = df_tables_lis[df_tables_lis["equivalized"] != "per capita"].reset_index(
-    drop=True
-)
+# Remove all the rows that have the "equivalized" value in the equivalized column
+df_tables_lis = df_tables_lis[
+    df_tables_lis["equivalized"] != "equivalized"
+].reset_index(drop=True)
 # Drop the equivalized column
 df_tables_lis = df_tables_lis.drop(columns=["equivalized"])
 
@@ -695,10 +697,6 @@ for tab in range(len(merged_tables)):
             df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
                 view
             ].capitalize()
-            df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
-            df_graphers.loc[j, "Luxembourg Income Study Checkbox"] = source_checkbox[
-                "lis"
-            ][view]
             df_graphers.loc[j, "subtitle"] = f"{lis_povlines_abs['subtitle'][p]}"
             df_graphers.loc[
                 j, "note"
@@ -720,10 +718,6 @@ for tab in range(len(merged_tables)):
             df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
                 view
             ].capitalize()
-            df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
-            df_graphers.loc[j, "Luxembourg Income Study Checkbox"] = source_checkbox[
-                "lis"
-            ][view]
             df_graphers.loc[j, "subtitle"] = f"{lis_povlines_abs['subtitle'][p]}"
             df_graphers.loc[
                 j, "note"
@@ -745,10 +739,6 @@ for tab in range(len(merged_tables)):
             df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
                 view
             ].capitalize()
-            df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
-            df_graphers.loc[j, "Luxembourg Income Study Checkbox"] = source_checkbox[
-                "lis"
-            ][view]
             df_graphers.loc[
                 j, "subtitle"
             ] = f"{lis_povlines_abs['subtitle_total_shortfall'][p]}"
@@ -772,10 +762,6 @@ for tab in range(len(merged_tables)):
             df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
                 view
             ].capitalize()
-            df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
-            df_graphers.loc[j, "Luxembourg Income Study Checkbox"] = source_checkbox[
-                "lis"
-            ][view]
             df_graphers.loc[
                 j, "subtitle"
             ] = f"{lis_povlines_abs['subtitle_avg_shortfall'][p]}"
@@ -801,10 +787,6 @@ for tab in range(len(merged_tables)):
             df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
                 view
             ].capitalize()
-            df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
-            df_graphers.loc[j, "Luxembourg Income Study Checkbox"] = source_checkbox[
-                "lis"
-            ][view]
             df_graphers.loc[
                 j, "subtitle"
             ] = f"{lis_povlines_abs['subtitle_income_gap_ratio'][p]}"
@@ -828,10 +810,6 @@ for tab in range(len(merged_tables)):
             df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
                 view
             ].capitalize()
-            df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
-            df_graphers.loc[j, "Luxembourg Income Study Checkbox"] = source_checkbox[
-                "lis"
-            ][view]
             df_graphers.loc[
                 j, "subtitle"
             ] = f"The poverty gap index is a poverty measure that reflects both the prevalence and the depth of poverty. It is calculated as the share of population in poverty multiplied by the average shortfall from the poverty line (expressed as a % of the poverty line)."
@@ -856,10 +834,6 @@ for tab in range(len(merged_tables)):
             df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
                 view
             ].capitalize()
-            df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
-            df_graphers.loc[j, "Luxembourg Income Study Checkbox"] = source_checkbox[
-                "lis"
-            ][view]
             df_graphers.loc[
                 j, "subtitle"
             ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at {lis_povlines_rel['text'][pct]}"
@@ -881,10 +855,6 @@ for tab in range(len(merged_tables)):
             df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
                 view
             ].capitalize()
-            df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
-            df_graphers.loc[j, "Luxembourg Income Study Checkbox"] = source_checkbox[
-                "lis"
-            ][view]
             df_graphers.loc[
                 j, "subtitle"
             ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at {lis_povlines_rel['text'][pct]}"
@@ -906,10 +876,6 @@ for tab in range(len(merged_tables)):
             df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
                 view
             ].capitalize()
-            df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
-            df_graphers.loc[j, "Luxembourg Income Study Checkbox"] = source_checkbox[
-                "lis"
-            ][view]
             df_graphers.loc[
                 j, "subtitle"
             ] = f"This is the amount of money that would be theoretically needed to lift the incomes of all people in poverty up to {lis_povlines_rel.text[pct]}"
@@ -933,10 +899,6 @@ for tab in range(len(merged_tables)):
             df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
                 view
             ].capitalize()
-            df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
-            df_graphers.loc[j, "Luxembourg Income Study Checkbox"] = source_checkbox[
-                "lis"
-            ][view]
             df_graphers.loc[
                 j, "subtitle"
             ] = f"This is the amount of money that would be theoretically needed to lift the incomes of all people in poverty up to {lis_povlines_rel['text'][pct]} income, averaged across the population in poverty."
@@ -962,10 +924,6 @@ for tab in range(len(merged_tables)):
             df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
                 view
             ].capitalize()
-            df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
-            df_graphers.loc[j, "Luxembourg Income Study Checkbox"] = source_checkbox[
-                "lis"
-            ][view]
             df_graphers.loc[
                 j, "subtitle"
             ] = f'This is the average shortfall expressed as a share of the poverty line, sometimes called the "income gap ratio". It captures the depth of poverty in which those below {lis_povlines_rel.text[pct]} income are living.'
@@ -989,10 +947,6 @@ for tab in range(len(merged_tables)):
             df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
                 view
             ].capitalize()
-            df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
-            df_graphers.loc[j, "Luxembourg Income Study Checkbox"] = source_checkbox[
-                "lis"
-            ][view]
             df_graphers.loc[
                 j, "subtitle"
             ] = f"The poverty gap index is a poverty measure that reflects both the prevalence and the depth of poverty. It is calculated as the share of population in poverty multiplied by the average shortfall from the poverty line (expressed as a % of the poverty line)."
@@ -1032,9 +986,7 @@ df_graphers.loc[
         df_graphers["Poverty line Dropdown"]
         == "$2.15 per day: International Poverty Line"
     )
-    & (df_graphers["Income type Dropdown"] == "After tax")
-    & (df_graphers["World Bank PIP Checkbox"] == "true")
-    & (df_graphers["Luxembourg Income Study Checkbox"] == "true"),
+    & (df_graphers["Income type Dropdown"] == "After tax"),
     ["defaultView"],
 ] = "true"
 

@@ -812,10 +812,11 @@ df_tables_lis["colorScaleNumericMinValue"] = colorScaleNumericMinValue
 df_tables_lis["tolerance"] = tolerance
 df_tables_lis["colorScaleEqualSizeBins"] = colorScaleEqualSizeBins
 
-# Remove all the rows that have the "per capita" value in the equivalized column
-df_tables_lis = df_tables_lis[df_tables_lis["equivalized"] != "per capita"].reset_index(
-    drop=True
-)
+# Remove all the rows that have the "equivalized" value in the equivalized column
+df_tables_lis = df_tables_lis[
+    df_tables_lis["equivalized"] != "equivalized"
+].reset_index(drop=True)
+
 # Drop the equivalized column
 df_tables_lis = df_tables_lis.drop(columns=["equivalized"])
 
