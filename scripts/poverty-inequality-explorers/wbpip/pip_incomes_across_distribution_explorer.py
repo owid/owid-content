@@ -345,7 +345,7 @@ for survey in range(len(survey_type)):
             j, "Household survey data type Dropdown"
         ] = f"{survey_type.dropdown_option[survey]}"
         df_graphers.loc[
-            j, "Aggregation Radio"
+            j, "Period Radio"
         ] = f"{income_aggregation.aggregation[agg].title()}"
         df_graphers.loc[j, "Relative change Checkbox"] = "false"
         df_graphers.loc[j, "stackMode"] = "absolute"
@@ -377,7 +377,7 @@ for survey in range(len(survey_type)):
             j, "Household survey data type Dropdown"
         ] = f"{survey_type.dropdown_option[survey]}"
         df_graphers.loc[
-            j, "Aggregation Radio"
+            j, "Period Radio"
         ] = f"{income_aggregation.aggregation[agg].title()}"
         df_graphers.loc[j, "Relative change Checkbox"] = "false"
         df_graphers.loc[j, "stackMode"] = "absolute"
@@ -412,7 +412,7 @@ for survey in range(len(survey_type)):
                 j, "Household survey data type Dropdown"
             ] = f"{survey_type.dropdown_option[survey]}"
             df_graphers.loc[
-                j, "Aggregation Radio"
+                j, "Period Radio"
             ] = f"{income_aggregation.aggregation[agg].title()}"
             df_graphers.loc[j, "Relative change Checkbox"] = "false"
             df_graphers.loc[j, "stackMode"] = "absolute"
@@ -449,7 +449,7 @@ for survey in range(len(survey_type)):
                 j, "Household survey data type Dropdown"
             ] = f"{survey_type.dropdown_option[survey]}"
             df_graphers.loc[
-                j, "Aggregation Radio"
+                j, "Period Radio"
             ] = f"{income_aggregation.aggregation[agg].title()}"
             df_graphers.loc[j, "Relative change Checkbox"] = "false"
             df_graphers.loc[j, "stackMode"] = "absolute"
@@ -485,7 +485,7 @@ for survey in range(len(survey_type)):
                 j, "Household survey data type Dropdown"
             ] = f"{survey_type.dropdown_option[survey]}"
             df_graphers.loc[
-                j, "Aggregation Radio"
+                j, "Period Radio"
             ] = f"{income_aggregation.aggregation[agg].title()}"
             df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
                 "checkbox"
@@ -523,7 +523,7 @@ for survey in range(len(survey_type)):
                 j, "Household survey data type Dropdown"
             ] = f"{survey_type.dropdown_option[survey]}"
             df_graphers.loc[
-                j, "Aggregation Radio"
+                j, "Period Radio"
             ] = f"{income_aggregation.aggregation[agg].title()}"
             df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
                 "checkbox"
@@ -558,7 +558,7 @@ for survey in range(len(survey_type)):
         df_graphers.loc[
             j, "Household survey data type Dropdown"
         ] = f"{survey_type.dropdown_option[survey]}"
-        df_graphers.loc[j, "Aggregation Radio"] = np.nan
+        df_graphers.loc[j, "Period Radio"] = np.nan
         df_graphers.loc[j, "Relative change Checkbox"] = "false"
         df_graphers.loc[j, "stackMode"] = "absolute"
         df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
@@ -590,7 +590,7 @@ for survey in range(len(survey_type)):
     df_graphers.loc[
         j, "Household survey data type Dropdown"
     ] = f"{survey_type.dropdown_option[survey]}"
-    df_graphers.loc[j, "Aggregation Radio"] = np.nan
+    df_graphers.loc[j, "Period Radio"] = np.nan
     df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
     df_graphers.loc[j, "Relative change Checkbox"] = "false"
     df_graphers.loc[j, "stackMode"] = "absolute"
@@ -629,7 +629,7 @@ for i in range(len(df_graphers)):
     df_graphers_spells.loc[j, "Household survey data type Dropdown"] = df_graphers[
         "Household survey data type Dropdown"
     ][i]
-    df_graphers_spells.loc[j, "Aggregation Radio"] = df_graphers["Aggregation Radio"][i]
+    df_graphers_spells.loc[j, "Period Radio"] = df_graphers["Period Radio"][i]
     df_graphers_spells.loc[j, "Relative change Checkbox"] = df_graphers[
         "Relative change Checkbox"
     ][i]
@@ -720,7 +720,7 @@ df_graphers["note"] = df_graphers["note"].str.replace(
 df_graphers.loc[
     (df_graphers["Decile Dropdown"] == "All deciles")
     & (df_graphers["Metric Dropdown"] == "Decile thresholds")
-    & (df_graphers["Aggregation Radio"] == "Day")
+    & (df_graphers["Period Radio"] == "Day")
     & (df_graphers["Show breaks between less comparable surveys Checkbox"] == "false")
     & (df_graphers["tableSlug"] == "inc_or_cons")
     & (df_graphers["Relative change Checkbox"] == "false"),

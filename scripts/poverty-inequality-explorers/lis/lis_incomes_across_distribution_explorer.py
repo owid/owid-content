@@ -351,7 +351,7 @@ for tab in range(len(tables)):
                     j, "Income type Dropdown"
                 ] = f"{welfare['dropdown_option'][wel]}"
                 df_graphers.loc[
-                    j, "Aggregation Radio"
+                    j, "Period Radio"
                 ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
                 df_graphers.loc[
                     j, "Adjust for household composition (equivalized income) Checkbox"
@@ -383,7 +383,7 @@ for tab in range(len(tables)):
                     j, "Income type Dropdown"
                 ] = f"{welfare['dropdown_option'][wel]}"
                 df_graphers.loc[
-                    j, "Aggregation Radio"
+                    j, "Period Radio"
                 ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
                 df_graphers.loc[
                     j, "Adjust for household composition (equivalized income) Checkbox"
@@ -416,7 +416,7 @@ for tab in range(len(tables)):
                         j, "Income type Dropdown"
                     ] = f"{welfare['dropdown_option'][wel]}"
                     df_graphers.loc[
-                        j, "Aggregation Radio"
+                        j, "Period Radio"
                     ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
                     df_graphers.loc[
                         j,
@@ -452,7 +452,7 @@ for tab in range(len(tables)):
                         j, "Income type Dropdown"
                     ] = f"{welfare['dropdown_option'][wel]}"
                     df_graphers.loc[
-                        j, "Aggregation Radio"
+                        j, "Period Radio"
                     ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
                     df_graphers.loc[
                         j,
@@ -487,7 +487,7 @@ for tab in range(len(tables)):
                         j, "Income type Dropdown"
                     ] = f"{welfare['dropdown_option'][wel]}"
                     df_graphers.loc[
-                        j, "Aggregation Radio"
+                        j, "Period Radio"
                     ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
                     df_graphers.loc[
                         j,
@@ -526,7 +526,7 @@ for tab in range(len(tables)):
                         j, "Income type Dropdown"
                     ] = f"{welfare['dropdown_option'][wel]}"
                     df_graphers.loc[
-                        j, "Aggregation Radio"
+                        j, "Period Radio"
                     ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
                     df_graphers.loc[
                         j,
@@ -564,7 +564,7 @@ for tab in range(len(tables)):
                     #     j, "Income type Dropdown"
                     # ] = f"{welfare['dropdown_option'][wel]}"
                     # df_graphers.loc[
-                    #     j, "Aggregation Radio"
+                    #     j, "Period Radio"
                     # ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
                     # df_graphers.loc[
                     #     j, "Equivalence scale Dropdown"
@@ -602,7 +602,7 @@ for tab in range(len(tables)):
                     #     j, "Income type Dropdown"
                     # ] = f"{welfare['dropdown_option'][wel]}"
                     # df_graphers.loc[
-                    #     j, "Aggregation Radio"
+                    #     j, "Period Radio"
                     # ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
                     # df_graphers.loc[
                     #     j, "Equivalence scale Dropdown"
@@ -641,7 +641,7 @@ for tab in range(len(tables)):
                     #         j, "Income type Dropdown"
                     #     ] = f"{welfare['dropdown_option'][wel]}"
                     #     df_graphers.loc[
-                    #         j, "Aggregation Radio"
+                    #         j, "Period Radio"
                     #     ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
                     #     df_graphers.loc[
                     #         j, "Equivalence scale Dropdown"
@@ -682,7 +682,7 @@ for tab in range(len(tables)):
                     #         j, "Income type Dropdown"
                     #     ] = f"{welfare['dropdown_option'][wel]}"
                     #     df_graphers.loc[
-                    #         j, "Aggregation Radio"
+                    #         j, "Period Radio"
                     #     ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
                     #     df_graphers.loc[
                     #         j, "Equivalence scale Dropdown"
@@ -718,7 +718,7 @@ for tab in range(len(tables)):
                 df_graphers.loc[
                     j, "Income type Dropdown"
                 ] = f"{welfare['dropdown_option'][wel]}"
-                df_graphers.loc[j, "Aggregation Radio"] = np.nan
+                df_graphers.loc[j, "Period Radio"] = np.nan
                 df_graphers.loc[
                     j, "Adjust for household composition (equivalized income) Checkbox"
                 ] = equivalence_scales["checkbox"][eq]
@@ -745,7 +745,7 @@ for tab in range(len(tables)):
             df_graphers.loc[
                 j, "Income type Dropdown"
             ] = f"{welfare['dropdown_option'][wel]}"
-            df_graphers.loc[j, "Aggregation Radio"] = np.nan
+            df_graphers.loc[j, "Period Radio"] = np.nan
             df_graphers.loc[
                 j, "Adjust for household composition (equivalized income) Checkbox"
             ] = equivalence_scales["checkbox"][eq]
@@ -774,7 +774,7 @@ for tab in range(len(tables)):
             #     df_graphers.loc[
             #         j, "Income type Dropdown"
             #     ] = f"{welfare['dropdown_option'][wel]}"
-            #     df_graphers.loc[j, "Aggregation Radio"] = np.nan
+            #     df_graphers.loc[j, "Period Radio"] = np.nan
             #     df_graphers.loc[
             #         j, "Equivalence scale Dropdown"
             #     ] = "Equivalized vs. per capita"
@@ -823,7 +823,7 @@ df_graphers.loc[
         == "false"
     )
     & (df_graphers["Decile Dropdown"] == "All deciles")
-    & (df_graphers["Aggregation Radio"] == "Year")
+    & (df_graphers["Period Radio"] == "Year")
     & (df_graphers["Relative change Checkbox"] == "false"),
     ["defaultView"],
 ] = "true"

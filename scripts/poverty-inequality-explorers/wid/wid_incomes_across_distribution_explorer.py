@@ -453,7 +453,7 @@ for tab in range(len(tables)):
                 j, "Data type Dropdown"
             ] = f"{welfare['dropdown_option'][wel]}"
             df_graphers.loc[
-                j, "Aggregation Radio"
+                j, "Period Radio"
             ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
             df_graphers.loc[j, "Relative change Checkbox"] = "false"
             df_graphers.loc[j, "stackMode"] = "absolute"
@@ -482,7 +482,7 @@ for tab in range(len(tables)):
                 j, "Data type Dropdown"
             ] = f"{welfare['dropdown_option'][wel]}"
             df_graphers.loc[
-                j, "Aggregation Radio"
+                j, "Period Radio"
             ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
             df_graphers.loc[j, "Relative change Checkbox"] = "false"
             df_graphers.loc[j, "stackMode"] = "absolute"
@@ -514,7 +514,7 @@ for tab in range(len(tables)):
                     j, "Data type Dropdown"
                 ] = f"{welfare['dropdown_option'][wel]}"
                 df_graphers.loc[
-                    j, "Aggregation Radio"
+                    j, "Period Radio"
                 ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
                 df_graphers.loc[j, "Relative change Checkbox"] = "false"
                 df_graphers.loc[j, "stackMode"] = "absolute"
@@ -548,7 +548,7 @@ for tab in range(len(tables)):
                     j, "Data type Dropdown"
                 ] = f"{welfare['dropdown_option'][wel]}"
                 df_graphers.loc[
-                    j, "Aggregation Radio"
+                    j, "Period Radio"
                 ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
                 df_graphers.loc[j, "Relative change Checkbox"] = "false"
                 df_graphers.loc[j, "stackMode"] = "absolute"
@@ -578,7 +578,7 @@ for tab in range(len(tables)):
                     j, "Data type Dropdown"
                 ] = f"{welfare['dropdown_option'][wel]}"
                 df_graphers.loc[
-                    j, "Aggregation Radio"
+                    j, "Period Radio"
                 ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
                 df_graphers.loc[j, "Relative change Checkbox"] = "false"
                 df_graphers.loc[j, "stackMode"] = "absolute"
@@ -608,7 +608,7 @@ for tab in range(len(tables)):
                     j, "Data type Dropdown"
                 ] = f"{welfare['dropdown_option'][wel]}"
                 df_graphers.loc[
-                    j, "Aggregation Radio"
+                    j, "Period Radio"
                 ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
                 df_graphers.loc[j, "Relative change Checkbox"] = "false"
                 df_graphers.loc[j, "stackMode"] = "absolute"
@@ -638,7 +638,7 @@ for tab in range(len(tables)):
                     j, "Data type Dropdown"
                 ] = f"{welfare['dropdown_option'][wel]}"
                 df_graphers.loc[
-                    j, "Aggregation Radio"
+                    j, "Period Radio"
                 ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
                 df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
                     "checkbox"
@@ -673,7 +673,7 @@ for tab in range(len(tables)):
                     j, "Data type Dropdown"
                 ] = f"{welfare['dropdown_option'][wel]}"
                 df_graphers.loc[
-                    j, "Aggregation Radio"
+                    j, "Period Radio"
                 ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
                 df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
                     "checkbox"
@@ -706,7 +706,7 @@ for tab in range(len(tables)):
                     j, "Data type Dropdown"
                 ] = f"{welfare['dropdown_option'][wel]}"
                 df_graphers.loc[
-                    j, "Aggregation Radio"
+                    j, "Period Radio"
                 ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
                 df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
                     "checkbox"
@@ -741,7 +741,7 @@ for tab in range(len(tables)):
                     j, "Data type Dropdown"
                 ] = f"{welfare['dropdown_option'][wel]}"
                 df_graphers.loc[
-                    j, "Aggregation Radio"
+                    j, "Period Radio"
                 ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
                 df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
                     "checkbox"
@@ -776,7 +776,7 @@ for tab in range(len(tables)):
             df_graphers.loc[
                 j, "Data type Dropdown"
             ] = f"{welfare['dropdown_option'][wel]}"
-            df_graphers.loc[j, "Aggregation Radio"] = np.nan
+            df_graphers.loc[j, "Period Radio"] = np.nan
             df_graphers.loc[j, "Relative change Checkbox"] = "false"
             df_graphers.loc[j, "stackMode"] = "absolute"
             df_graphers.loc[
@@ -801,7 +801,7 @@ for tab in range(len(tables)):
             df_graphers.loc[
                 j, "Data type Dropdown"
             ] = f"{welfare['dropdown_option'][wel]}"
-            df_graphers.loc[j, "Aggregation Radio"] = np.nan
+            df_graphers.loc[j, "Period Radio"] = np.nan
             df_graphers.loc[j, "Relative change Checkbox"] = "false"
             df_graphers.loc[j, "stackMode"] = "absolute"
             df_graphers.loc[
@@ -823,7 +823,7 @@ for tab in range(len(tables)):
         df_graphers.loc[j, "Metric Dropdown"] = "Decile shares"
         df_graphers.loc[j, "Decile/quantile Dropdown"] = "All deciles"
         df_graphers.loc[j, "Data type Dropdown"] = f"{welfare['dropdown_option'][wel]}"
-        df_graphers.loc[j, "Aggregation Radio"] = np.nan
+        df_graphers.loc[j, "Period Radio"] = np.nan
         df_graphers.loc[j, "Relative change Checkbox"] = "false"
         df_graphers.loc[j, "stackMode"] = "absolute"
         df_graphers.loc[
@@ -845,7 +845,7 @@ for tab in range(len(tables)):
         df_graphers.loc[j, "Metric Dropdown"] = "Decile shares"
         df_graphers.loc[j, "Decile/quantile Dropdown"] = "All deciles + top"
         df_graphers.loc[j, "Data type Dropdown"] = f"{welfare['dropdown_option'][wel]}"
-        df_graphers.loc[j, "Aggregation Radio"] = np.nan
+        df_graphers.loc[j, "Period Radio"] = np.nan
         df_graphers.loc[j, "Relative change Checkbox"] = "false"
         df_graphers.loc[j, "stackMode"] = "absolute"
         df_graphers.loc[
@@ -882,15 +882,15 @@ df_graphers = df_graphers[
     ~(
         (df_graphers["Data type Dropdown"] == "Wealth")
         & (
-            (df_graphers["Aggregation Radio"] == "Day")
-            | (df_graphers["Aggregation Radio"] == "Month")
+            (df_graphers["Period Radio"] == "Day")
+            | (df_graphers["Period Radio"] == "Month")
         )
     )
 ].reset_index(drop=True)
 
 # Disable aggregation radio buttons for wealth
 df_graphers.loc[
-    df_graphers["Data type Dropdown"] == "Wealth", ["Aggregation Radio"]
+    df_graphers["Data type Dropdown"] == "Wealth", ["Period Radio"]
 ] = np.nan
 
 # In column title, replace "wealth per year" by "wealth"
@@ -901,7 +901,7 @@ df_graphers.loc[
     (df_graphers["Metric Dropdown"] == "Decile thresholds")
     & (df_graphers["Data type Dropdown"] == "Income after tax")
     & (df_graphers["Decile/quantile Dropdown"] == "All deciles")
-    & (df_graphers["Aggregation Radio"] == "Year")
+    & (df_graphers["Period Radio"] == "Year")
     & (df_graphers["Relative change Checkbox"] == "false"),
     ["defaultView"],
 ] = "true"
