@@ -694,9 +694,6 @@ for tab in range(len(merged_tables)):
             df_graphers.loc[
                 j, "Poverty line Dropdown"
             ] = f"{lis_povlines_abs['povline_dropdown'][p]}"
-            df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
-                view
-            ].capitalize()
             df_graphers.loc[j, "subtitle"] = f"{lis_povlines_abs['subtitle'][p]}"
             df_graphers.loc[
                 j, "note"
@@ -715,9 +712,6 @@ for tab in range(len(merged_tables)):
             df_graphers.loc[
                 j, "Poverty line Dropdown"
             ] = f"{lis_povlines_abs['povline_dropdown'][p]}"
-            df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
-                view
-            ].capitalize()
             df_graphers.loc[j, "subtitle"] = f"{lis_povlines_abs['subtitle'][p]}"
             df_graphers.loc[
                 j, "note"
@@ -736,9 +730,6 @@ for tab in range(len(merged_tables)):
             df_graphers.loc[
                 j, "Poverty line Dropdown"
             ] = f"{lis_povlines_abs['povline_dropdown'][p]}"
-            df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
-                view
-            ].capitalize()
             df_graphers.loc[
                 j, "subtitle"
             ] = f"{lis_povlines_abs['subtitle_total_shortfall'][p]}"
@@ -759,9 +750,6 @@ for tab in range(len(merged_tables)):
             df_graphers.loc[
                 j, "Poverty line Dropdown"
             ] = f"{lis_povlines_abs['povline_dropdown'][p]}"
-            df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
-                view
-            ].capitalize()
             df_graphers.loc[
                 j, "subtitle"
             ] = f"{lis_povlines_abs['subtitle_avg_shortfall'][p]}"
@@ -784,9 +772,6 @@ for tab in range(len(merged_tables)):
             df_graphers.loc[
                 j, "Poverty line Dropdown"
             ] = f"{lis_povlines_abs.povline_dropdown[p]}"
-            df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
-                view
-            ].capitalize()
             df_graphers.loc[
                 j, "subtitle"
             ] = f"{lis_povlines_abs['subtitle_income_gap_ratio'][p]}"
@@ -807,9 +792,6 @@ for tab in range(len(merged_tables)):
             df_graphers.loc[
                 j, "Poverty line Dropdown"
             ] = f"{lis_povlines_abs['povline_dropdown'][p]}"
-            df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
-                view
-            ].capitalize()
             df_graphers.loc[
                 j, "subtitle"
             ] = f"The poverty gap index is a poverty measure that reflects both the prevalence and the depth of poverty. It is calculated as the share of population in poverty multiplied by the average shortfall from the poverty line (expressed as a % of the poverty line)."
@@ -831,9 +813,6 @@ for tab in range(len(merged_tables)):
             df_graphers.loc[
                 j, "Poverty line Dropdown"
             ] = f"{lis_povlines_rel['dropdown'][pct]}"
-            df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
-                view
-            ].capitalize()
             df_graphers.loc[
                 j, "subtitle"
             ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at {lis_povlines_rel['text'][pct]}"
@@ -852,9 +831,6 @@ for tab in range(len(merged_tables)):
             df_graphers.loc[
                 j, "Poverty line Dropdown"
             ] = f"{lis_povlines_rel['dropdown'][pct]}"
-            df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
-                view
-            ].capitalize()
             df_graphers.loc[
                 j, "subtitle"
             ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at {lis_povlines_rel['text'][pct]}"
@@ -873,9 +849,6 @@ for tab in range(len(merged_tables)):
             df_graphers.loc[
                 j, "Poverty line Dropdown"
             ] = f"{lis_povlines_rel['dropdown'][pct]}"
-            df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
-                view
-            ].capitalize()
             df_graphers.loc[
                 j, "subtitle"
             ] = f"This is the amount of money that would be theoretically needed to lift the incomes of all people in poverty up to {lis_povlines_rel.text[pct]}"
@@ -896,9 +869,6 @@ for tab in range(len(merged_tables)):
             df_graphers.loc[
                 j, "Poverty line Dropdown"
             ] = f"{lis_povlines_rel['dropdown'][pct]}"
-            df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
-                view
-            ].capitalize()
             df_graphers.loc[
                 j, "subtitle"
             ] = f"This is the amount of money that would be theoretically needed to lift the incomes of all people in poverty up to {lis_povlines_rel['text'][pct]} income, averaged across the population in poverty."
@@ -921,9 +891,6 @@ for tab in range(len(merged_tables)):
             df_graphers.loc[
                 j, "Poverty line Dropdown"
             ] = f"{lis_povlines_rel['dropdown'][pct]}"
-            df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
-                view
-            ].capitalize()
             df_graphers.loc[
                 j, "subtitle"
             ] = f'This is the average shortfall expressed as a share of the poverty line, sometimes called the "income gap ratio". It captures the depth of poverty in which those below {lis_povlines_rel.text[pct]} income are living.'
@@ -944,9 +911,6 @@ for tab in range(len(merged_tables)):
             df_graphers.loc[
                 j, "Poverty line Dropdown"
             ] = f"{lis_povlines_rel['dropdown'][pct]}"
-            df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
-                view
-            ].capitalize()
             df_graphers.loc[
                 j, "subtitle"
             ] = f"The poverty gap index is a poverty measure that reflects both the prevalence and the depth of poverty. It is calculated as the share of population in poverty multiplied by the average shortfall from the poverty line (expressed as a % of the poverty line)."
@@ -985,8 +949,7 @@ df_graphers.loc[
     & (
         df_graphers["Poverty line Dropdown"]
         == "$2.15 per day: International Poverty Line"
-    )
-    & (df_graphers["Income type Dropdown"] == "After tax"),
+    ),
     ["defaultView"],
 ] = "true"
 
