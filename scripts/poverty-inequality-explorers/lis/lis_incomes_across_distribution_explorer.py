@@ -29,7 +29,7 @@ welfare = pd.read_csv(url, keep_default_na=False)
 # Equivalence scales
 sheet_name = "equivalence_scales"
 url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
-equivalence_scales = pd.read_csv(url, keep_default_na=False)
+equivalence_scales = pd.read_csv(url, keep_default_na=False, dtype={"checkbox": "str"})
 
 # Tables sheet
 sheet_name = "tables"
