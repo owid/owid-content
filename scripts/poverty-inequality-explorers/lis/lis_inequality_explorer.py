@@ -439,7 +439,7 @@ for tab in range(len(tables)):
             j, "ySlugs"
         ] = f"gini_mi_{equivalence_scales['slug'][eq]} gini_dhi_{equivalence_scales['slug'][eq]}"
         df_graphers.loc[j, "Measure Dropdown"] = "Gini coefficient"
-        df_graphers.loc[j, "Income type Dropdown"] = "After tax vs. Before tax"
+        df_graphers.loc[j, "Income type Dropdown"] = "After tax vs. before tax"
         df_graphers.loc[
             j, "Adjust for household composition (equivalized income) Checkbox"
         ] = equivalence_scales["checkbox"][eq]
@@ -460,7 +460,7 @@ for tab in range(len(tables)):
             j, "ySlugs"
         ] = f"share_p90_mi_{equivalence_scales['slug'][eq]} share_p90_dhi_{equivalence_scales['slug'][eq]}"
         df_graphers.loc[j, "Measure Dropdown"] = "Top 10% share"
-        df_graphers.loc[j, "Income type Dropdown"] = "After tax vs. Before tax"
+        df_graphers.loc[j, "Income type Dropdown"] = "After tax vs. before tax"
         df_graphers.loc[
             j, "Adjust for household composition (equivalized income) Checkbox"
         ] = equivalence_scales["checkbox"][eq]
@@ -481,7 +481,7 @@ for tab in range(len(tables)):
             j, "ySlugs"
         ] = f"p90_p10_ratio_mi_{equivalence_scales['slug'][eq]} p90_p10_ratio_dhi_{equivalence_scales['slug'][eq]}"
         df_graphers.loc[j, "Measure Dropdown"] = "P90/P10"
-        df_graphers.loc[j, "Income type Dropdown"] = "After tax vs. Before tax"
+        df_graphers.loc[j, "Income type Dropdown"] = "After tax vs. before tax"
         df_graphers.loc[
             j, "Adjust for household composition (equivalized income) Checkbox"
         ] = equivalence_scales["checkbox"][eq]
@@ -503,7 +503,7 @@ for tab in range(len(tables)):
             j, "ySlugs"
         ] = f"p90_p50_ratio_mi_{equivalence_scales['slug'][eq]} p90_p50_ratio_dhi_{equivalence_scales['slug'][eq]}"
         df_graphers.loc[j, "Measure Dropdown"] = "P90/P50"
-        df_graphers.loc[j, "Income type Dropdown"] = "After tax vs. Before tax"
+        df_graphers.loc[j, "Income type Dropdown"] = "After tax vs. before tax"
         df_graphers.loc[
             j, "Adjust for household composition (equivalized income) Checkbox"
         ] = equivalence_scales["checkbox"][eq]
@@ -525,7 +525,7 @@ for tab in range(len(tables)):
             j, "ySlugs"
         ] = f"p50_p10_ratio_mi_{equivalence_scales['slug'][eq]} p50_p10_ratio_dhi_{equivalence_scales['slug'][eq]}"
         df_graphers.loc[j, "Measure Dropdown"] = "P50/P10"
-        df_graphers.loc[j, "Income type Dropdown"] = "After tax vs. Before tax"
+        df_graphers.loc[j, "Income type Dropdown"] = "After tax vs. before tax"
         df_graphers.loc[
             j, "Adjust for household composition (equivalized income) Checkbox"
         ] = equivalence_scales["checkbox"][eq]
@@ -547,7 +547,7 @@ for tab in range(len(tables)):
             j, "ySlugs"
         ] = f"palma_ratio_mi_{equivalence_scales['slug'][eq]} palma_ratio_dhi_{equivalence_scales['slug'][eq]}"
         df_graphers.loc[j, "Measure Dropdown"] = "Palma ratio"
-        df_graphers.loc[j, "Income type Dropdown"] = "After tax vs. Before tax"
+        df_graphers.loc[j, "Income type Dropdown"] = "After tax vs. before tax"
         df_graphers.loc[
             j, "Adjust for household composition (equivalized income) Checkbox"
         ] = equivalence_scales["checkbox"][eq]
@@ -571,7 +571,7 @@ for tab in range(len(tables)):
             df_graphers.loc[
                 j, "Measure Dropdown"
             ] = f"Share in relative poverty (< {povlines_rel['text'][pct]})"
-            df_graphers.loc[j, "Income type Dropdown"] = "After tax vs. Before tax"
+            df_graphers.loc[j, "Income type Dropdown"] = "After tax vs. before tax"
             df_graphers.loc[
                 j, "Adjust for household composition (equivalized income) Checkbox"
             ] = equivalence_scales["checkbox"][eq]
@@ -762,7 +762,7 @@ df_graphers["mapTargetTime"] = df_graphers["mapTargetTime"].astype("Int64")
 # Select one default view
 df_graphers.loc[
     (df_graphers["Measure Dropdown"] == "Gini coefficient")
-    & (df_graphers["Income type Dropdown"] == "After tax")
+    & (df_graphers["Income type Dropdown"] == "After tax vs. before tax")
     & (
         df_graphers["Adjust for household composition (equivalized income) Checkbox"]
         == "false"
