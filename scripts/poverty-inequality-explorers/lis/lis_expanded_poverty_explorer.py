@@ -1175,7 +1175,7 @@ df_graphers.loc[
     & (df_graphers["Income type Dropdown"] == "After tax")
     & (
         df_graphers["Adjust for household composition (equivalized income) Checkbox"]
-        == "true"
+        == "false"
     ),
     ["defaultView"],
 ] = "true"
