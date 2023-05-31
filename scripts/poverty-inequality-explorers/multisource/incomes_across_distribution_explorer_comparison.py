@@ -851,11 +851,11 @@ for tab in range(len(merged_tables)):
             df_graphers.loc[j, "ySlugs"] = source_checkbox["mean"][view].replace(
                 "{agg}", lis_income_aggregation["slug_suffix"][agg]
             )
+            df_graphers.loc[j, "Metric Dropdown"] = "Mean income or consumption"
+            df_graphers.loc[j, "Decile Dropdown"] = np.nan
             df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
                 view
             ].capitalize()
-            df_graphers.loc[j, "Metric Dropdown"] = "Mean income or consumption"
-            df_graphers.loc[j, "Decile Dropdown"] = np.nan
             df_graphers.loc[j, "Aggregation Radio"] = lis_income_aggregation[
                 "aggregation"
             ][agg].capitalize()
@@ -878,11 +878,11 @@ for tab in range(len(merged_tables)):
             df_graphers.loc[j, "ySlugs"] = source_checkbox["median"][view].replace(
                 "{agg}", lis_income_aggregation["slug_suffix"][agg]
             )
+            df_graphers.loc[j, "Metric Dropdown"] = "Median income or consumption"
+            df_graphers.loc[j, "Decile Dropdown"] = np.nan
             df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
                 view
             ].capitalize()
-            df_graphers.loc[j, "Metric Dropdown"] = "Median income or consumption"
-            df_graphers.loc[j, "Decile Dropdown"] = np.nan
             df_graphers.loc[j, "Aggregation Radio"] = lis_income_aggregation[
                 "aggregation"
             ][agg].capitalize()
@@ -910,11 +910,11 @@ for tab in range(len(merged_tables)):
                     .replace("{dec9_wid}", deciles9["wid_notation"][dec9])
                     .replace("{dec9_lis}", deciles9["lis_notation"][dec9])
                 )
+                df_graphers.loc[j, "Metric Dropdown"] = "Decile thresholds"
+                df_graphers.loc[j, "Decile Dropdown"] = deciles9["dropdown"][dec9]
                 df_graphers.loc[j, "Income type Dropdown"] = source_checkbox[
                     "type_title"
                 ][view].capitalize()
-                df_graphers.loc[j, "Metric Dropdown"] = "Decile thresholds"
-                df_graphers.loc[j, "Decile Dropdown"] = deciles9["dropdown"][dec9]
                 df_graphers.loc[j, "Aggregation Radio"] = lis_income_aggregation[
                     "aggregation"
                 ][agg].capitalize()
@@ -942,13 +942,13 @@ for tab in range(len(merged_tables)):
                     .replace("{dec10_wid}", deciles10["wid_notation"][dec10])
                     .replace("{dec10_lis}", deciles10["lis_notation"][dec10])
                 )
-                df_graphers.loc[j, "Income type Dropdown"] = source_checkbox[
-                    "type_title"
-                ][view].capitalize()
                 df_graphers.loc[
                     j, "Metric Dropdown"
                 ] = "Mean income or consumption, by decile"
                 df_graphers.loc[j, "Decile Dropdown"] = deciles10["dropdown"][dec10]
+                df_graphers.loc[j, "Income type Dropdown"] = source_checkbox[
+                    "type_title"
+                ][view].capitalize()
                 df_graphers.loc[j, "Aggregation Radio"] = lis_income_aggregation[
                     "aggregation"
                 ][agg].capitalize()
@@ -975,11 +975,11 @@ for tab in range(len(merged_tables)):
                 .replace("{dec10_wid}", deciles10["wid_notation"][dec10])
                 .replace("{dec10_lis}", deciles10["lis_notation"][dec10])
             )
+            df_graphers.loc[j, "Metric Dropdown"] = "Decile shares"
+            df_graphers.loc[j, "Decile Dropdown"] = deciles10["dropdown"][dec10]
             df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
                 view
             ].capitalize()
-            df_graphers.loc[j, "Metric Dropdown"] = "Decile shares"
-            df_graphers.loc[j, "Decile Dropdown"] = deciles10["dropdown"][dec10]
             df_graphers.loc[j, "PIP Checkbox"] = source_checkbox["pip"][view]
             df_graphers.loc[j, "WID Checkbox"] = source_checkbox["wid"][view]
             df_graphers.loc[j, "LIS Checkbox"] = source_checkbox["lis"][view]
@@ -1014,8 +1014,8 @@ df_graphers["mapTargetTime"] = df_graphers["mapTargetTime"].astype("Int64")
 
 # Select one default view
 df_graphers.loc[
-    (df_graphers["Income type Dropdown"] == "After tax")
-    & (df_graphers["Metric Dropdown"] == "Mean income or consumption")
+    (df_graphers["Metric Dropdown"] == "Mean income or consumption")
+    & (df_graphers["Income type Dropdown"] == "After tax")
     & (df_graphers["Aggregation Radio"] == "Year")
     & (df_graphers["PIP Checkbox"] == "true")
     & (df_graphers["WID Checkbox"] == "true")

@@ -590,10 +590,10 @@ for tab in range(len(merged_tables)):
             j, "title"
         ] = f"Income inequality: Gini coefficient ({source_checkbox['type_title'][view]})"
         df_graphers.loc[j, "ySlugs"] = source_checkbox["gini"][view]
+        df_graphers.loc[j, "Metric Dropdown"] = "Gini coefficient"
         df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
             view
         ].capitalize()
-        df_graphers.loc[j, "Metric Dropdown"] = "Gini coefficient"
         df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
         df_graphers.loc[j, "World Inequality Database Checkbox"] = source_checkbox[
             "wid"
@@ -613,10 +613,10 @@ for tab in range(len(merged_tables)):
             j, "title"
         ] = f"Income share of the top 10% ({source_checkbox['type_title'][view]})"
         df_graphers.loc[j, "ySlugs"] = source_checkbox["top10"][view]
+        df_graphers.loc[j, "Metric Dropdown"] = "Top 10% share"
         df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
             view
         ].capitalize()
-        df_graphers.loc[j, "Metric Dropdown"] = "Top 10% share"
         df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
         df_graphers.loc[j, "World Inequality Database Checkbox"] = source_checkbox[
             "wid"
@@ -636,10 +636,10 @@ for tab in range(len(merged_tables)):
             j, "title"
         ] = f"Income share of the bottom 50% ({source_checkbox['type_title'][view]})"
         df_graphers.loc[j, "ySlugs"] = source_checkbox["bottom50"][view]
+        df_graphers.loc[j, "Metric Dropdown"] = "Bottom 50% share"
         df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
             view
         ].capitalize()
-        df_graphers.loc[j, "Metric Dropdown"] = "Bottom 50% share"
         df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
         df_graphers.loc[j, "World Inequality Database Checkbox"] = source_checkbox[
             "wid"
@@ -658,10 +658,10 @@ for tab in range(len(merged_tables)):
             j, "title"
         ] = f"Income inequality: P90/P10 ratio ({source_checkbox['type_title'][view]})"
         df_graphers.loc[j, "ySlugs"] = source_checkbox["p90_p10"][view]
+        df_graphers.loc[j, "Metric Dropdown"] = "P90/P10"
         df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
             view
         ].capitalize()
-        df_graphers.loc[j, "Metric Dropdown"] = "P90/P10"
         df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
         df_graphers.loc[j, "World Inequality Database Checkbox"] = source_checkbox[
             "wid"
@@ -681,10 +681,10 @@ for tab in range(len(merged_tables)):
             j, "title"
         ] = f"Income inequality: P90/P50 ratio ({source_checkbox['type_title'][view]})"
         df_graphers.loc[j, "ySlugs"] = source_checkbox["p90_p50"][view]
+        df_graphers.loc[j, "Metric Dropdown"] = "P90/P50"
         df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
             view
         ].capitalize()
-        df_graphers.loc[j, "Metric Dropdown"] = "P90/P50"
         df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
         df_graphers.loc[j, "World Inequality Database Checkbox"] = source_checkbox[
             "wid"
@@ -704,10 +704,10 @@ for tab in range(len(merged_tables)):
             j, "title"
         ] = f"Income inequality: P50/P10 ratio ({source_checkbox['type_title'][view]})"
         df_graphers.loc[j, "ySlugs"] = source_checkbox["p50_p10"][view]
+        df_graphers.loc[j, "Metric Dropdown"] = "P50/P10"
         df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
             view
         ].capitalize()
-        df_graphers.loc[j, "Metric Dropdown"] = "P50/P10"
         df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
         df_graphers.loc[j, "World Inequality Database Checkbox"] = source_checkbox[
             "wid"
@@ -727,10 +727,10 @@ for tab in range(len(merged_tables)):
             j, "title"
         ] = f"Income inequality: Palma ratio ({source_checkbox['type_title'][view]})"
         df_graphers.loc[j, "ySlugs"] = source_checkbox["palma"][view]
+        df_graphers.loc[j, "Metric Dropdown"] = "Palma ratio"
         df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
             view
         ].capitalize()
-        df_graphers.loc[j, "Metric Dropdown"] = "Palma ratio"
         df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
         df_graphers.loc[j, "World Inequality Database Checkbox"] = source_checkbox[
             "wid"
@@ -750,12 +750,12 @@ for tab in range(len(merged_tables)):
             j, "title"
         ] = f"Relative poverty: Share of people below 50% of the median income ({source_checkbox['type_title'][view]})"
         df_graphers.loc[j, "ySlugs"] = source_checkbox["relative"][view]
-        df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
-            view
-        ].capitalize()
         df_graphers.loc[
             j, "Metric Dropdown"
         ] = f"Share in relative poverty (< 50% of the median)"
+        df_graphers.loc[j, "Income type Dropdown"] = source_checkbox["type_title"][
+            view
+        ].capitalize()
         df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
         df_graphers.loc[j, "World Inequality Database Checkbox"] = source_checkbox[
             "wid"
@@ -795,8 +795,8 @@ df_graphers["mapTargetTime"] = df_graphers["mapTargetTime"].astype("Int64")
 
 # Select one default view
 df_graphers.loc[
-    (df_graphers["Income type Dropdown"] == "After tax")
-    & (df_graphers["Metric Dropdown"] == "Gini coefficient")
+    (df_graphers["Metric Dropdown"] == "Gini coefficient")
+    & (df_graphers["Income type Dropdown"] == "After tax")
     & (df_graphers["World Bank PIP Checkbox"] == "true")
     & (df_graphers["World Inequality Database Checkbox"] == "true")
     & (df_graphers["Luxembourg Income Study Checkbox"] == "true"),
