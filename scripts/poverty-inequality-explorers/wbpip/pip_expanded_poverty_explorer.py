@@ -75,7 +75,9 @@ for survey in range(len(survey_type)):
             j, "name"
         ] = f"Share of population below ${povlines_abs.dollars_text[p]} a day"
         df_tables.loc[j, "slug"] = f"headcount_ratio_{povlines_abs.cents[p]}"
-        df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform"
+        df_tables.loc[
+            j, "sourceName"
+        ] = "World Bank Poverty and Inequality Platform (2022)"
         df_tables.loc[
             j, "description"
         ] = f"% of population living in households with an {survey_type.text[survey]} per person below ${povlines_abs.dollars_text[p]} a day."
@@ -100,7 +102,9 @@ for survey in range(len(survey_type)):
             j, "name"
         ] = f"Number of people below ${povlines_abs.dollars_text[p]} a day"
         df_tables.loc[j, "slug"] = f"headcount_{povlines_abs.cents[p]}"
-        df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform"
+        df_tables.loc[
+            j, "sourceName"
+        ] = "World Bank Poverty and Inequality Platform (2022)"
         df_tables.loc[
             j, "description"
         ] = f"Number of people living in households with an {survey_type.text[survey]} per person below ${povlines_abs.dollars_text[p]} a day."
@@ -127,7 +131,9 @@ for survey in range(len(survey_type)):
             j, "name"
         ] = f"${povlines_abs.dollars_text[p]} a day - total daily shortfall"
         df_tables.loc[j, "slug"] = f"total_shortfall_{povlines_abs.cents[p]}"
-        df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform"
+        df_tables.loc[
+            j, "sourceName"
+        ] = "World Bank Poverty and Inequality Platform (2022)"
         df_tables.loc[
             j, "description"
         ] = f"The total shortfall from a poverty line of ${povlines_abs.dollars_text[p]} a day. This is the amount of money that would be theoretically needed to lift the {survey_type.text[survey]} of all people in poverty up to the poverty line. However this is not a measure of the actual cost of eliminating poverty, since it does not take into account the costs involved in making the necessary transfers nor any changes in behaviour they would bring about."
@@ -154,7 +160,9 @@ for survey in range(len(survey_type)):
             j, "name"
         ] = f"${povlines_abs.dollars_text[p]} a day - average daily shortfall"
         df_tables.loc[j, "slug"] = f"avg_shortfall_{povlines_abs.cents[p]}"
-        df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform"
+        df_tables.loc[
+            j, "sourceName"
+        ] = "World Bank Poverty and Inequality Platform (2022)"
         df_tables.loc[
             j, "description"
         ] = f"The average shortfall from a poverty line of ${povlines_abs.dollars_text[p]} a day (averaged across the population in poverty)."
@@ -179,7 +187,9 @@ for survey in range(len(survey_type)):
             j, "name"
         ] = f"${povlines_abs.dollars_text[p]} a day - income gap ratio"
         df_tables.loc[j, "slug"] = f"income_gap_ratio_{povlines_abs.cents[p]}"
-        df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform"
+        df_tables.loc[
+            j, "sourceName"
+        ] = "World Bank Poverty and Inequality Platform (2022)"
         df_tables.loc[
             j, "description"
         ] = f'The average shortfall from a poverty line of ${povlines_abs.dollars_text[p]} a day (averaged across the population in poverty) expressed as a share of the poverty line. This metric is sometimes called the "income gap ratio". It captures the depth of poverty in which those below the poverty line are living.'
@@ -204,7 +214,9 @@ for survey in range(len(survey_type)):
             j, "name"
         ] = f"${povlines_abs.dollars_text[p]} a day - poverty gap index"
         df_tables.loc[j, "slug"] = f"poverty_gap_index_{povlines_abs.cents[p]}"
-        df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform"
+        df_tables.loc[
+            j, "sourceName"
+        ] = "World Bank Poverty and Inequality Platform (2022)"
         df_tables.loc[
             j, "description"
         ] = f"The poverty gap index calculated at a poverty line of ${povlines_abs.dollars_text[p]} a day. The poverty gap index is a measure that reflects both the depth and prevalence of poverty. It is defined as the mean shortfall of the total population from the poverty line counting the non-poor as having zero shortfall and expressed as a percentage of the poverty line. It is worth unpacking that definition a little. For those below the poverty line, the shortfall corresponds to the amount of money required in order to reach the poverty line. For those at or above the poverty line, the shortfall is counted as zero. The average shortfall is then calculated across the total population – both poor and non-poor – and then expressed as a share of the poverty line. Unlike the more commonly-used metric of the headcount ratio, the poverty gap index is thus sensitive not only to whether a person’s income falls below the poverty line or not, but also by how much – i.e. to the depth of poverty they experience."
@@ -229,7 +241,9 @@ for survey in range(len(survey_type)):
             j, "name"
         ] = f"{povlines_rel.percent[pct]} of median - share of population below poverty line"
         df_tables.loc[j, "slug"] = f"headcount_ratio_{povlines_rel.slug_suffix[pct]}"
-        df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform"
+        df_tables.loc[
+            j, "sourceName"
+        ] = "World Bank Poverty and Inequality Platform (2022)"
         df_tables.loc[
             j, "description"
         ] = f"% of population living in households with an {survey_type.text[survey]} per person below {povlines_rel.percent[pct]} of the median."
@@ -254,7 +268,9 @@ for survey in range(len(survey_type)):
             j, "name"
         ] = f"{povlines_rel.percent[pct]} of median - total number of people below poverty line"
         df_tables.loc[j, "slug"] = f"headcount_{povlines_rel.slug_suffix[pct]}"
-        df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform"
+        df_tables.loc[
+            j, "sourceName"
+        ] = "World Bank Poverty and Inequality Platform (2022)"
         df_tables.loc[
             j, "description"
         ] = f"Number of people living in households with an {survey_type.text[survey]} per person below {povlines_rel.percent[pct]} of the median."
@@ -281,7 +297,9 @@ for survey in range(len(survey_type)):
             j, "name"
         ] = f"{povlines_rel.percent[pct]} of median - total daily shortfall"
         df_tables.loc[j, "slug"] = f"total_shortfall_{povlines_rel.slug_suffix[pct]}"
-        df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform"
+        df_tables.loc[
+            j, "sourceName"
+        ] = "World Bank Poverty and Inequality Platform (2022)"
         df_tables.loc[
             j, "description"
         ] = f"The total shortfall from a poverty line of {povlines_rel.text[pct]} {survey_type.text[survey]}. This is the amount of money that would be theoretically needed to lift the {survey_type.text[survey]} of all people in poverty up to the poverty line. However this is not a measure of the actual cost of eliminating poverty, since it does not take into account the costs involved in making the necessary transfers nor any changes in behaviour they would bring about."
@@ -308,7 +326,9 @@ for survey in range(len(survey_type)):
             j, "name"
         ] = f"{povlines_rel.percent[pct]} of median - average daily shortfall"
         df_tables.loc[j, "slug"] = f"avg_shortfall_{povlines_rel.slug_suffix[pct]}"
-        df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform"
+        df_tables.loc[
+            j, "sourceName"
+        ] = "World Bank Poverty and Inequality Platform (2022)"
         df_tables.loc[
             j, "description"
         ] = f"The average shortfall from a poverty line of of {povlines_rel.text[pct]} {survey_type.text[survey]} (averaged across the population in poverty)."
@@ -333,7 +353,9 @@ for survey in range(len(survey_type)):
             j, "name"
         ] = f"{povlines_rel.percent[pct]} of median - income gap ratio"
         df_tables.loc[j, "slug"] = f"income_gap_ratio_{povlines_rel.slug_suffix[pct]}"
-        df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform"
+        df_tables.loc[
+            j, "sourceName"
+        ] = "World Bank Poverty and Inequality Platform (2022)"
         df_tables.loc[
             j, "description"
         ] = f'The average shortfall from a poverty line of of {povlines_rel.text[pct]} {survey_type.text[survey]} (averaged across the population in poverty) expressed as a share of the poverty line. This metric is sometimes called the "income gap ratio". It captures the depth of poverty in which those below the poverty line are living.'
@@ -358,7 +380,9 @@ for survey in range(len(survey_type)):
             j, "name"
         ] = f"{povlines_rel.percent[pct]} of median - poverty gap index"
         df_tables.loc[j, "slug"] = f"poverty_gap_index_{povlines_rel.slug_suffix[pct]}"
-        df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform"
+        df_tables.loc[
+            j, "sourceName"
+        ] = "World Bank Poverty and Inequality Platform (2022)"
         df_tables.loc[
             j, "description"
         ] = f"The poverty gap index calculated at a poverty line of {povlines_rel.text[pct]} {survey_type.text[survey]}. The poverty gap index is a measure that reflects both the depth and prevalence of poverty. It is defined as the mean shortfall of the total population from the poverty line counting the non-poor as having zero shortfall and expressed as a percentage of the poverty line. It is worth unpacking that definition a little. For those below the poverty line, the shortfall corresponds to the amount of money required in order to reach the poverty line. For those at or above the poverty line, the shortfall is counted as zero. The average shortfall is then calculated across the total population – both poor and non-poor – and then expressed as a share of the poverty line. Unlike the more commonly-used metric of the headcount ratio, the poverty gap index is thus sensitive not only to whether a person’s income falls below the poverty line or not, but also by how much – i.e. to the depth of poverty they experience."
@@ -467,7 +491,9 @@ for survey in range(len(survey_type)):
         df_graphers.loc[
             j, "note"
         ] = f"This data is measured in international-$ at 2017 prices. Depending on the country and year, it relates to disposable {survey_type.text[survey]} per capita."
-        df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
+        df_graphers.loc[
+            j, "sourceDesc"
+        ] = "World Bank Poverty and Inequality Platform (2022)"
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "yAxisMin"] = 0
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -493,7 +519,9 @@ for survey in range(len(survey_type)):
         df_graphers.loc[
             j, "note"
         ] = f"This data is measured in international-$ at 2017 prices. Depending on the country and year, it relates to disposable {survey_type.text[survey]} per capita."
-        df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
+        df_graphers.loc[
+            j, "sourceDesc"
+        ] = "World Bank Poverty and Inequality Platform (2022)"
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "yAxisMin"] = 0
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -519,7 +547,9 @@ for survey in range(len(survey_type)):
         df_graphers.loc[
             j, "note"
         ] = "This data is measured in international-$ at 2017 prices. The cost of closing the poverty gap does not take into account costs and inefficiencies from making the necessary transfers."
-        df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
+        df_graphers.loc[
+            j, "sourceDesc"
+        ] = "World Bank Poverty and Inequality Platform (2022)"
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "yAxisMin"] = 0
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -545,7 +575,9 @@ for survey in range(len(survey_type)):
         df_graphers.loc[
             j, "note"
         ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. It relates to disposable {survey_type.text[survey]} per capita."
-        df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
+        df_graphers.loc[
+            j, "sourceDesc"
+        ] = "World Bank Poverty and Inequality Platform (2022)"
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "yAxisMin"] = 0
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -571,7 +603,9 @@ for survey in range(len(survey_type)):
         df_graphers.loc[
             j, "note"
         ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. It relates to disposable {survey_type.text[survey]} per capita."
-        df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
+        df_graphers.loc[
+            j, "sourceDesc"
+        ] = "World Bank Poverty and Inequality Platform (2022)"
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "yAxisMin"] = 0
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -601,7 +635,9 @@ for survey in range(len(survey_type)):
         df_graphers.loc[
             j, "note"
         ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. It relates to disposable {survey_type.text[survey]} per capita."
-        df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
+        df_graphers.loc[
+            j, "sourceDesc"
+        ] = "World Bank Poverty and Inequality Platform (2022)"
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "yAxisMin"] = 0
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -629,7 +665,9 @@ for survey in range(len(survey_type)):
         df_graphers.loc[
             j, "note"
         ] = f"Depending on the country and year, the data relates to disposable {survey_type.text[survey]} per capita."
-        df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
+        df_graphers.loc[
+            j, "sourceDesc"
+        ] = "World Bank Poverty and Inequality Platform (2022)"
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "yAxisMin"] = 0
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -655,7 +693,9 @@ for survey in range(len(survey_type)):
         df_graphers.loc[
             j, "note"
         ] = f"Depending on the country and year, the data relates to disposable {survey_type.text[survey]} per capita."
-        df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
+        df_graphers.loc[
+            j, "sourceDesc"
+        ] = "World Bank Poverty and Inequality Platform (2022)"
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "yAxisMin"] = 0
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -685,7 +725,9 @@ for survey in range(len(survey_type)):
         df_graphers.loc[
             j, "note"
         ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. It relates to disposable {survey_type.text[survey]} per capita."
-        df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
+        df_graphers.loc[
+            j, "sourceDesc"
+        ] = "World Bank Poverty and Inequality Platform (2022)"
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "yAxisMin"] = 0
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -713,7 +755,9 @@ for survey in range(len(survey_type)):
         df_graphers.loc[
             j, "note"
         ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. It relates to disposable {survey_type.text[survey]} per capita."
-        df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
+        df_graphers.loc[
+            j, "sourceDesc"
+        ] = "World Bank Poverty and Inequality Platform (2022)"
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "yAxisMin"] = 0
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -743,7 +787,9 @@ for survey in range(len(survey_type)):
         df_graphers.loc[
             j, "note"
         ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. It relates to disposable {survey_type.text[survey]} per capita."
-        df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
+        df_graphers.loc[
+            j, "sourceDesc"
+        ] = "World Bank Poverty and Inequality Platform (2022)"
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "yAxisMin"] = 0
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -773,7 +819,9 @@ for survey in range(len(survey_type)):
         df_graphers.loc[
             j, "note"
         ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. It relates to disposable {survey_type.text[survey]} per capita."
-        df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
+        df_graphers.loc[
+            j, "sourceDesc"
+        ] = "World Bank Poverty and Inequality Platform (2022)"
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "yAxisMin"] = 0
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan

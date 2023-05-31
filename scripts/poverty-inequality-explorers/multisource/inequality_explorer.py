@@ -119,7 +119,7 @@ df_header = df_header[0].apply(pd.Series)
 ###########################################################################################
 # WORLD BANK POVERTY AND INEQUALITY PLATFORM
 ###########################################################################################
-sourceName = "World Bank Poverty and Inequality Platform (PIP) (2022)"
+sourceName = "World Bank Poverty and Inequality Platform (2022)"
 dataPublishedBy = "World Bank. (2022). Poverty and Inequality Platform (version 20220909_2017_01_02_PROD) [Data set]. World Bank Group. https://pip.worldbank.org/. Accessed  2022-10-03."
 sourceLink = "https://pip.worldbank.org/"
 colorScaleNumericMinValue = 0
@@ -519,7 +519,7 @@ df_tables_wid = df_tables_wid[
 # ###########################################################################################
 # # LUXEMBOURG INCOME STUDY (LIS)
 # ###########################################################################################
-# sourceName = "Luxembourg Income Study (LIS) (2023)"
+# sourceName = "Luxembourg Income Study (2023)"
 # dataPublishedBy = "Luxembourg Income Study (LIS) Database, http://www.lisdatacenter.org (multiple countries; 1967-2020). Luxembourg, LIS."
 # sourceLink = "https://www.lisdatacenter.org/our-data/lis-database/"
 # colorScaleNumericMinValue = 0

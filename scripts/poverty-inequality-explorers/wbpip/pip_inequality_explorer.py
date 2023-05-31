@@ -75,7 +75,7 @@ for survey in range(len(survey_type)):
     # Gini coefficient
     df_tables.loc[j, "name"] = f"Gini coefficient"
     df_tables.loc[j, "slug"] = f"gini"
-    df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform"
+    df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform (2022)"
     df_tables.loc[
         j, "description"
     ] = f"The Gini coefficient measures inequality on a scale between 0 and 1, where higher values indicate greater inequality."
@@ -101,7 +101,7 @@ for survey in range(len(survey_type)):
         j, "name"
     ] = f"Share of the richest decile in total {survey_type.text[survey]}"
     df_tables.loc[j, "slug"] = f"decile10_share"
-    df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform"
+    df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform (2022)"
     df_tables.loc[
         j, "description"
     ] = f"The {survey_type.text[survey]} of the richest decile (tenth of the population) as a share of total {survey_type.text[survey]}."
@@ -123,7 +123,7 @@ for survey in range(len(survey_type)):
     # P90/P10
     df_tables.loc[j, "name"] = f"P90/P10 ratio"
     df_tables.loc[j, "slug"] = f"p90_p10_ratio"
-    df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform"
+    df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform (2022)"
     df_tables.loc[
         j, "description"
     ] = f"P90 is the the level of {survey_type.text[survey]} below which 90% of the population lives. P10 is the level of {survey_type.text[survey]} below which 10% of the population lives. This variable gives the ratio of the two. It is a measure of inequality that indicates the gap between the richest and poorest tenth of the population. It tells you how many times richer someone just in the the poorest tenth would need to be in order to be counted in the richest tenth."
@@ -145,7 +145,7 @@ for survey in range(len(survey_type)):
     # P90/P50
     df_tables.loc[j, "name"] = f"P90/P50 ratio"
     df_tables.loc[j, "slug"] = f"p90_p50_ratio"
-    df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform"
+    df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform (2022)"
     df_tables.loc[
         j, "description"
     ] = f"P90 is the the level of {survey_type.text[survey]} above which 10% of the population lives. P50 is the median – the level of {survey_type.text[survey]} below which 50% of the population lives. This variable gives the ratio of the two. It is a measure of inequality within the top half of the distribution. It tells you how many times richer someone in the middle of the distribution would need to be in order to be counted in the richest tenth."
@@ -167,7 +167,7 @@ for survey in range(len(survey_type)):
     # P50/P10
     df_tables.loc[j, "name"] = f"P50/P10 ratio"
     df_tables.loc[j, "slug"] = f"p50_p10_ratio"
-    df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform"
+    df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform (2022)"
     df_tables.loc[
         j, "description"
     ] = f"P50 is the median – the level of {survey_type.text[survey]} below which 50% of the population lives. P10 is the the level of {survey_type.text[survey]} below which 10% of the population lives. This variable gives the ratio of the two. It is a measure of inequality within the bottom half of the distribution. It tells you how many times richer someone just in the the poorest tenth would need to be in order to be reach the median."
@@ -189,7 +189,7 @@ for survey in range(len(survey_type)):
     # Palma ratio
     df_tables.loc[j, "name"] = f"Palma ratio"
     df_tables.loc[j, "slug"] = f"palma_ratio"
-    df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform"
+    df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform (2022)"
     df_tables.loc[
         j, "description"
     ] = f"The Palma ratio is a measure of inequality: it is the share of total {survey_type.text[survey]} of the top 10% divided by the share of the bottom 40%."
@@ -214,7 +214,9 @@ for survey in range(len(survey_type)):
             j, "name"
         ] = f"{povlines_rel.percent[pct]} of median - share of population below poverty line"
         df_tables.loc[j, "slug"] = f"headcount_ratio_{povlines_rel.slug_suffix[pct]}"
-        df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform"
+        df_tables.loc[
+            j, "sourceName"
+        ] = "World Bank Poverty and Inequality Platform (2022)"
         df_tables.loc[
             j, "description"
         ] = f"% of population living in households with an {survey_type.text[survey]} per person below {povlines_rel.percent[pct]} of the median."
@@ -236,7 +238,7 @@ for survey in range(len(survey_type)):
     # MLD
     df_tables.loc[j, "name"] = f"Mean Log Deviation"
     df_tables.loc[j, "slug"] = f"mld"
-    df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform"
+    df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform (2022)"
     df_tables.loc[
         j, "description"
     ] = f"The mean log deviation (MLD) is a measure of inequality. An MLD of zero indicates perfect equality and it takes on larger positive values as incomes become more unequal. The measure is also referred to as 'Theil L' or 'GE(0)', in reference to the wider families of inequality measures to which the MLD belongs."
@@ -260,7 +262,7 @@ for survey in range(len(survey_type)):
     # Polarization
     df_tables.loc[j, "name"] = f"Polarization index"
     df_tables.loc[j, "slug"] = f"polarization"
-    df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform"
+    df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform (2022)"
     df_tables.loc[
         j, "description"
     ] = f"The polarization index, also known as the Wolfson polarization index, measures the extent to which the distribution of {survey_type.text[survey]} is “spread out” and bi-modal. Like the Gini coefficient, the polarization index ranges from 0 (no polarization) to 1 (complete polarization). The polarization index is based on Wolfson (1994) and Ravallion and Chen (1997). See Wolfson, Michael C. 1994. “When Inequalities Diverge.” The American Economic Review 84 (2): 353–58. https://www.jstor.org/stable/2117858 and Ravallion, Martin, and Shaohua Chen. 1997. “What Can New Survey Data Tell Us about Recent Changes in Distribution and Poverty?” The World Bank Economic Review 11 (2): 357–82. https://www.jstor.org/stable/3990232."
@@ -367,7 +369,9 @@ for survey in range(len(survey_type)):
     df_graphers.loc[
         j, "note"
     ] = f"Depending on the country and year, the data relates to disposable {survey_type.text[survey]} per capita."
-    df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
+    df_graphers.loc[
+        j, "sourceDesc"
+    ] = "World Bank Poverty and Inequality Platform (2022)"
     df_graphers.loc[j, "type"] = np.nan
     df_graphers.loc[j, "yAxisMin"] = 0
     df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -393,7 +397,9 @@ for survey in range(len(survey_type)):
     df_graphers.loc[
         j, "note"
     ] = f"Depending on the country and year, the data relates to disposable {survey_type.text[survey]} per capita."
-    df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
+    df_graphers.loc[
+        j, "sourceDesc"
+    ] = "World Bank Poverty and Inequality Platform (2022)"
     df_graphers.loc[j, "type"] = np.nan
     df_graphers.loc[j, "yAxisMin"] = 0
     df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -417,7 +423,9 @@ for survey in range(len(survey_type)):
     df_graphers.loc[
         j, "note"
     ] = f"Depending on the country and year, the data relates to disposable {survey_type.text[survey]} per capita."
-    df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
+    df_graphers.loc[
+        j, "sourceDesc"
+    ] = "World Bank Poverty and Inequality Platform (2022)"
     df_graphers.loc[j, "type"] = np.nan
     df_graphers.loc[j, "yAxisMin"] = 0
     df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -441,7 +449,9 @@ for survey in range(len(survey_type)):
     df_graphers.loc[
         j, "note"
     ] = f"Depending on the country and year, the data relates to disposable {survey_type.text[survey]} per capita."
-    df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
+    df_graphers.loc[
+        j, "sourceDesc"
+    ] = "World Bank Poverty and Inequality Platform (2022)"
     df_graphers.loc[j, "type"] = np.nan
     df_graphers.loc[j, "yAxisMin"] = 0
     df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -465,7 +475,9 @@ for survey in range(len(survey_type)):
     df_graphers.loc[
         j, "note"
     ] = f"Depending on the country and year, the data relates to disposable {survey_type.text[survey]} per capita."
-    df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
+    df_graphers.loc[
+        j, "sourceDesc"
+    ] = "World Bank Poverty and Inequality Platform (2022)"
     df_graphers.loc[j, "type"] = np.nan
     df_graphers.loc[j, "yAxisMin"] = 0
     df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -489,7 +501,9 @@ for survey in range(len(survey_type)):
     df_graphers.loc[
         j, "note"
     ] = f"Depending on the country and year, the data relates to disposable {survey_type.text[survey]} per capita."
-    df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
+    df_graphers.loc[
+        j, "sourceDesc"
+    ] = "World Bank Poverty and Inequality Platform (2022)"
     df_graphers.loc[j, "type"] = np.nan
     df_graphers.loc[j, "yAxisMin"] = 0
     df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -518,7 +532,9 @@ for survey in range(len(survey_type)):
         df_graphers.loc[
             j, "note"
         ] = f"Depending on the country and year, the data relates to disposable {survey_type.text[survey]} per capita."
-        df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
+        df_graphers.loc[
+            j, "sourceDesc"
+        ] = "World Bank Poverty and Inequality Platform (2022)"
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "yAxisMin"] = 0
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -542,7 +558,9 @@ for survey in range(len(survey_type)):
     df_graphers.loc[
         j, "note"
     ] = f"Depending on the country and year, the data relates to disposable {survey_type.text[survey]} per capita."
-    df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
+    df_graphers.loc[
+        j, "sourceDesc"
+    ] = "World Bank Poverty and Inequality Platform (2022)"
     df_graphers.loc[j, "type"] = np.nan
     df_graphers.loc[j, "yAxisMin"] = 0
     df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -566,7 +584,9 @@ for survey in range(len(survey_type)):
     df_graphers.loc[
         j, "note"
     ] = f"Depending on the country and year, the data relates to disposable {survey_type.text[survey]} per capita."
-    df_graphers.loc[j, "sourceDesc"] = "World Bank Poverty and Inequality Platform"
+    df_graphers.loc[
+        j, "sourceDesc"
+    ] = "World Bank Poverty and Inequality Platform (2022)"
     df_graphers.loc[j, "type"] = np.nan
     df_graphers.loc[j, "yAxisMin"] = 0
     df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
