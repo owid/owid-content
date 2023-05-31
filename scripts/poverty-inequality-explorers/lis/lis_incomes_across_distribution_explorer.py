@@ -335,8 +335,8 @@ df_graphers = pd.DataFrame()
 j = 0
 
 for tab in range(len(tables)):
-    for wel in range(len(welfare)):
-        for eq in range(len(equivalence_scales)):
+    for eq in range(len(equivalence_scales)):
+        for wel in range(len(welfare)):
             for agg in range(len(income_aggregation)):
                 # Mean
                 df_graphers.loc[
@@ -754,6 +754,33 @@ for tab in range(len(tables)):
             df_graphers.loc[
                 j, "subtitle"
             ] = f"This is the {welfare['welfare_type'][wel]} of each decile (tenth of the population) as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
+            df_graphers.loc[j, "note"] = equivalence_scales["note"][eq]
+            df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
+            df_graphers.loc[j, "hasMapTab"] = "false"
+            df_graphers.loc[j, "tab"] = "chart"
+            j += 1
+
+        # BEFORE VS. AFTER TAX
+        # Shares - Deciles
+        for dec10 in range(len(deciles10)):
+            df_graphers.loc[
+                j, "title"
+            ] = f"{welfare['welfare_type'][wel].capitalize()} share of the {deciles10['ordinal'][dec10]} (After tax vs. before tax)"
+            df_graphers.loc[
+                j, "ySlugs"
+            ] = f"share_{deciles10['lis_notation'][dec10]}_mi_{equivalence_scales['slug'][eq]} share_{deciles10['lis_notation'][dec10]}_dhi_{equivalence_scales['slug'][eq]}"
+            df_graphers.loc[j, "Measure Dropdown"] = "Decile shares"
+            df_graphers.loc[j, "Decile Dropdown"] = deciles10["dropdown"][dec10]
+            df_graphers.loc[j, "Income type Dropdown"] = "After tax vs. before tax"
+            df_graphers.loc[j, "Period Radio"] = np.nan
+            df_graphers.loc[
+                j, "Adjust for household composition (equivalized income) Checkbox"
+            ] = equivalence_scales["checkbox"][eq]
+            df_graphers.loc[j, "Relative change Checkbox"] = "false"
+            df_graphers.loc[j, "stackMode"] = "absolute"
+            df_graphers.loc[
+                j, "subtitle"
+            ] = f"This is the {welfare['welfare_type'][wel]} of the {deciles10['ordinal'][dec10]} (tenth of the population) as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
             df_graphers.loc[j, "note"] = equivalence_scales["note"][eq]
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
             df_graphers.loc[j, "hasMapTab"] = "false"
