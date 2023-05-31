@@ -979,7 +979,6 @@ df_graphers.loc[
         df_graphers["Adjust for household composition (equivalized income) Checkbox"]
         == "false"
     )
-    & (df_graphers["Decile Dropdown"] == np.nan)
     & (df_graphers["Period Radio"] == "Year")
     & (df_graphers["Relative change Checkbox"] == "false"),
     ["defaultView"],
