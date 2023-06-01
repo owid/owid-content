@@ -508,10 +508,7 @@ df_tables_wid["tolerance"] = tolerance
 
 # Keep only pretax national values for WID:
 df_tables_wid = df_tables_wid[
-    ~(
-        (df_tables_wid["slug"].str.contains("posttax_nat"))
-        | (df_tables_wid["slug"].str.contains("wealth"))
-    )
+    ~(df_tables_wid["slug"].str.contains("posttax_nat"))
 ].reset_index(drop=True)
 
 # We decided to drop LIS from the main inequality explorer:
