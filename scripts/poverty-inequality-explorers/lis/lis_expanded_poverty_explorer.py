@@ -377,7 +377,7 @@ for tab in range(len(tables)):
                 df_graphers.loc[
                     j, "ySlugs"
                 ] = f"headcount_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
-                df_graphers.loc[j, "Measure Dropdown"] = "Share in poverty"
+                df_graphers.loc[j, "Indicator Dropdown"] = "Share in poverty"
                 df_graphers.loc[
                     j, "Poverty line Dropdown"
                 ] = f"{povlines_abs['povline_dropdown'][p]}"
@@ -407,7 +407,7 @@ for tab in range(len(tables)):
                 df_graphers.loc[
                     j, "ySlugs"
                 ] = f"headcount_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
-                df_graphers.loc[j, "Measure Dropdown"] = "Number in poverty"
+                df_graphers.loc[j, "Indicator Dropdown"] = "Number in poverty"
                 df_graphers.loc[
                     j, "Poverty line Dropdown"
                 ] = f"{povlines_abs['povline_dropdown'][p]}"
@@ -436,7 +436,7 @@ for tab in range(len(tables)):
             df_graphers.loc[
                 j, "ySlugs"
             ] = f"headcount_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_100 headcount_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_215 headcount_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_365 headcount_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_685 headcount_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_1000 headcount_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_2000 headcount_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_3000 headcount_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_4000"
-            df_graphers.loc[j, "Measure Dropdown"] = "Share in poverty"
+            df_graphers.loc[j, "Indicator Dropdown"] = "Share in poverty"
             df_graphers.loc[j, "Poverty line Dropdown"] = "Multiple lines"
             df_graphers.loc[
                 j, "Income type Dropdown"
@@ -463,7 +463,7 @@ for tab in range(len(tables)):
             df_graphers.loc[
                 j, "ySlugs"
             ] = f"headcount_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_100 headcount_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_215 headcount_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_365 headcount_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_685 headcount_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_1000 headcount_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_2000 headcount_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_3000 headcount_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_4000"
-            df_graphers.loc[j, "Measure Dropdown"] = "Number in poverty"
+            df_graphers.loc[j, "Indicator Dropdown"] = "Number in poverty"
             df_graphers.loc[j, "Poverty line Dropdown"] = "Multiple lines"
             df_graphers.loc[
                 j, "Income type Dropdown"
@@ -492,7 +492,7 @@ for tab in range(len(tables)):
                     j, "ySlugs"
                 ] = f"total_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs.cents[p]}"
                 df_graphers.loc[
-                    j, "Measure Dropdown"
+                    j, "Indicator Dropdown"
                 ] = "Total shortfall from poverty line"
                 df_graphers.loc[
                     j, "Poverty line Dropdown"
@@ -523,7 +523,7 @@ for tab in range(len(tables)):
                 df_graphers.loc[
                     j, "ySlugs"
                 ] = f"avg_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
-                df_graphers.loc[j, "Measure Dropdown"] = "Average shortfall ($)"
+                df_graphers.loc[j, "Indicator Dropdown"] = "Average shortfall ($)"
                 df_graphers.loc[
                     j, "Poverty line Dropdown"
                 ] = f"{povlines_abs['povline_dropdown'][p]}"
@@ -554,7 +554,7 @@ for tab in range(len(tables)):
                     j, "ySlugs"
                 ] = f"income_gap_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
                 df_graphers.loc[
-                    j, "Measure Dropdown"
+                    j, "Indicator Dropdown"
                 ] = "Average shortfall (% of poverty line)"
                 df_graphers.loc[
                     j, "Poverty line Dropdown"
@@ -585,7 +585,7 @@ for tab in range(len(tables)):
                 df_graphers.loc[
                     j, "ySlugs"
                 ] = f"poverty_gap_index_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
-                df_graphers.loc[j, "Measure Dropdown"] = "Poverty gap index"
+                df_graphers.loc[j, "Indicator Dropdown"] = "Poverty gap index"
                 df_graphers.loc[
                     j, "Poverty line Dropdown"
                 ] = f"{povlines_abs['povline_dropdown'][p]}"
@@ -615,7 +615,7 @@ for tab in range(len(tables)):
                 df_graphers.loc[
                     j, "ySlugs"
                 ] = f"headcount_ratio_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
-                df_graphers.loc[j, "Measure Dropdown"] = "Share in poverty"
+                df_graphers.loc[j, "Indicator Dropdown"] = "Share in poverty"
                 df_graphers.loc[
                     j, "Poverty line Dropdown"
                 ] = f"{povlines_rel['dropdown'][pct]}"
@@ -643,7 +643,7 @@ for tab in range(len(tables)):
                 df_graphers.loc[
                     j, "ySlugs"
                 ] = f"headcount_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
-                df_graphers.loc[j, "Measure Dropdown"] = "Number in poverty"
+                df_graphers.loc[j, "Indicator Dropdown"] = "Number in poverty"
                 df_graphers.loc[
                     j, "Poverty line Dropdown"
                 ] = f"{povlines_rel['dropdown'][pct]}"
@@ -672,7 +672,7 @@ for tab in range(len(tables)):
                     j, "ySlugs"
                 ] = f"total_shortfall_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
                 df_graphers.loc[
-                    j, "Measure Dropdown"
+                    j, "Indicator Dropdown"
                 ] = "Total shortfall from poverty line"
                 df_graphers.loc[
                     j, "Poverty line Dropdown"
@@ -703,7 +703,7 @@ for tab in range(len(tables)):
                 df_graphers.loc[
                     j, "ySlugs"
                 ] = f"avg_shortfall_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
-                df_graphers.loc[j, "Measure Dropdown"] = "Average shortfall ($)"
+                df_graphers.loc[j, "Indicator Dropdown"] = "Average shortfall ($)"
                 df_graphers.loc[
                     j, "Poverty line Dropdown"
                 ] = f"{povlines_rel['dropdown'][pct]}"
@@ -734,7 +734,7 @@ for tab in range(len(tables)):
                     j, "ySlugs"
                 ] = f"income_gap_ratio_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
                 df_graphers.loc[
-                    j, "Measure Dropdown"
+                    j, "Indicator Dropdown"
                 ] = "Average shortfall (% of poverty line)"
                 df_graphers.loc[
                     j, "Poverty line Dropdown"
@@ -765,7 +765,7 @@ for tab in range(len(tables)):
                 df_graphers.loc[
                     j, "ySlugs"
                 ] = f"poverty_gap_index_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
-                df_graphers.loc[j, "Measure Dropdown"] = "Poverty gap index"
+                df_graphers.loc[j, "Indicator Dropdown"] = "Poverty gap index"
                 df_graphers.loc[
                     j, "Poverty line Dropdown"
                 ] = f"{povlines_rel['dropdown'][pct]}"
@@ -796,7 +796,7 @@ for tab in range(len(tables)):
             df_graphers.loc[
                 j, "ySlugs"
             ] = f"headcount_ratio_mi_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]} headcount_ratio_dhi_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
-            df_graphers.loc[j, "Measure Dropdown"] = "Share in poverty"
+            df_graphers.loc[j, "Indicator Dropdown"] = "Share in poverty"
             df_graphers.loc[
                 j, "Poverty line Dropdown"
             ] = f"{povlines_abs['povline_dropdown'][p]}"
@@ -822,7 +822,7 @@ for tab in range(len(tables)):
             df_graphers.loc[
                 j, "ySlugs"
             ] = f"headcount_mi_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]} headcount_dhi_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
-            df_graphers.loc[j, "Measure Dropdown"] = "Number in poverty"
+            df_graphers.loc[j, "Indicator Dropdown"] = "Number in poverty"
             df_graphers.loc[
                 j, "Poverty line Dropdown"
             ] = f"{povlines_abs['povline_dropdown'][p]}"
@@ -848,7 +848,9 @@ for tab in range(len(tables)):
             df_graphers.loc[
                 j, "ySlugs"
             ] = f"total_shortfall_mi_{equivalence_scales['slug'][eq]}_{povlines_abs.cents[p]} total_shortfall_dhi_{equivalence_scales['slug'][eq]}_{povlines_abs.cents[p]}"
-            df_graphers.loc[j, "Measure Dropdown"] = "Total shortfall from poverty line"
+            df_graphers.loc[
+                j, "Indicator Dropdown"
+            ] = "Total shortfall from poverty line"
             df_graphers.loc[
                 j, "Poverty line Dropdown"
             ] = f"{povlines_abs['povline_dropdown'][p]}"
@@ -876,7 +878,7 @@ for tab in range(len(tables)):
             df_graphers.loc[
                 j, "ySlugs"
             ] = f"avg_shortfall_mi_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]} avg_shortfall_dhi_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
-            df_graphers.loc[j, "Measure Dropdown"] = "Average shortfall ($)"
+            df_graphers.loc[j, "Indicator Dropdown"] = "Average shortfall ($)"
             df_graphers.loc[
                 j, "Poverty line Dropdown"
             ] = f"{povlines_abs['povline_dropdown'][p]}"
@@ -905,7 +907,7 @@ for tab in range(len(tables)):
                 j, "ySlugs"
             ] = f"income_gap_ratio_mi_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]} income_gap_ratio_dhi_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
             df_graphers.loc[
-                j, "Measure Dropdown"
+                j, "Indicator Dropdown"
             ] = "Average shortfall (% of poverty line)"
             df_graphers.loc[
                 j, "Poverty line Dropdown"
@@ -934,7 +936,7 @@ for tab in range(len(tables)):
             df_graphers.loc[
                 j, "ySlugs"
             ] = f"poverty_gap_index_mi_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]} poverty_gap_index_dhi_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
-            df_graphers.loc[j, "Measure Dropdown"] = "Poverty gap index"
+            df_graphers.loc[j, "Indicator Dropdown"] = "Poverty gap index"
             df_graphers.loc[
                 j, "Poverty line Dropdown"
             ] = f"{povlines_abs['povline_dropdown'][p]}"
@@ -962,7 +964,7 @@ for tab in range(len(tables)):
             df_graphers.loc[
                 j, "ySlugs"
             ] = f"headcount_ratio_{povlines_rel['slug_suffix'][pct]}_mi_{equivalence_scales['slug'][eq]} headcount_ratio_{povlines_rel['slug_suffix'][pct]}_dhi_{equivalence_scales['slug'][eq]}"
-            df_graphers.loc[j, "Measure Dropdown"] = "Share in poverty"
+            df_graphers.loc[j, "Indicator Dropdown"] = "Share in poverty"
             df_graphers.loc[
                 j, "Poverty line Dropdown"
             ] = f"{povlines_rel['dropdown'][pct]}"
@@ -988,7 +990,7 @@ for tab in range(len(tables)):
             df_graphers.loc[
                 j, "ySlugs"
             ] = f"headcount_{povlines_rel['slug_suffix'][pct]}_mi_{equivalence_scales['slug'][eq]} headcount_{povlines_rel['slug_suffix'][pct]}_dhi_{equivalence_scales['slug'][eq]}"
-            df_graphers.loc[j, "Measure Dropdown"] = "Number in poverty"
+            df_graphers.loc[j, "Indicator Dropdown"] = "Number in poverty"
             df_graphers.loc[
                 j, "Poverty line Dropdown"
             ] = f"{povlines_rel['dropdown'][pct]}"
@@ -1014,7 +1016,9 @@ for tab in range(len(tables)):
             df_graphers.loc[
                 j, "ySlugs"
             ] = f"total_shortfall_{povlines_rel['slug_suffix'][pct]}_mi_{equivalence_scales['slug'][eq]} total_shortfall_{povlines_rel['slug_suffix'][pct]}_dhi_{equivalence_scales['slug'][eq]}"
-            df_graphers.loc[j, "Measure Dropdown"] = "Total shortfall from poverty line"
+            df_graphers.loc[
+                j, "Indicator Dropdown"
+            ] = "Total shortfall from poverty line"
             df_graphers.loc[
                 j, "Poverty line Dropdown"
             ] = f"{povlines_rel['dropdown'][pct]}"
@@ -1042,7 +1046,7 @@ for tab in range(len(tables)):
             df_graphers.loc[
                 j, "ySlugs"
             ] = f"avg_shortfall_{povlines_rel['slug_suffix'][pct]}_mi_{equivalence_scales['slug'][eq]} avg_shortfall_{povlines_rel['slug_suffix'][pct]}_dhi_{equivalence_scales['slug'][eq]}"
-            df_graphers.loc[j, "Measure Dropdown"] = "Average shortfall ($)"
+            df_graphers.loc[j, "Indicator Dropdown"] = "Average shortfall ($)"
             df_graphers.loc[
                 j, "Poverty line Dropdown"
             ] = f"{povlines_rel['dropdown'][pct]}"
@@ -1071,7 +1075,7 @@ for tab in range(len(tables)):
                 j, "ySlugs"
             ] = f"income_gap_ratio_{povlines_rel['slug_suffix'][pct]}_mi_{equivalence_scales['slug'][eq]} income_gap_ratio_{povlines_rel['slug_suffix'][pct]}_dhi_{equivalence_scales['slug'][eq]}"
             df_graphers.loc[
-                j, "Measure Dropdown"
+                j, "Indicator Dropdown"
             ] = "Average shortfall (% of poverty line)"
             df_graphers.loc[
                 j, "Poverty line Dropdown"
@@ -1100,7 +1104,7 @@ for tab in range(len(tables)):
             df_graphers.loc[
                 j, "ySlugs"
             ] = f"poverty_gap_index_{povlines_rel['slug_suffix'][pct]}_mi_{equivalence_scales['slug'][eq]} poverty_gap_index_{povlines_rel['slug_suffix'][pct]}_dhi_{equivalence_scales['slug'][eq]}"
-            df_graphers.loc[j, "Measure Dropdown"] = "Poverty gap index"
+            df_graphers.loc[j, "Indicator Dropdown"] = "Poverty gap index"
             df_graphers.loc[
                 j, "Poverty line Dropdown"
             ] = f"{povlines_rel['dropdown'][pct]}"
@@ -1129,7 +1133,7 @@ for tab in range(len(tables)):
         #     df_graphers.loc[
         #         j, "ySlugs"
         #     ] = f"headcount_ratio_{welfare['slug'][wel]}_eq_{povlines_abs['cents'][p]} headcount_ratio_{welfare['slug'][wel]}_pc_{povlines_abs['cents'][p]}"
-        #     df_graphers.loc[j, "Measure Dropdown"] = "Share in poverty"
+        #     df_graphers.loc[j, "Indicator Dropdown"] = "Share in poverty"
         #     df_graphers.loc[
         #         j, "Poverty line Dropdown"
         #     ] = f"{povlines_abs['povline_dropdown'][p]}"
@@ -1159,7 +1163,7 @@ for tab in range(len(tables)):
         #     df_graphers.loc[
         #         j, "ySlugs"
         #     ] = f"headcount_{welfare['slug'][wel]}_eq_{povlines_abs['cents'][p]} headcount_{welfare['slug'][wel]}_pc_{povlines_abs['cents'][p]}"
-        #     df_graphers.loc[j, "Measure Dropdown"] = "Number in poverty"
+        #     df_graphers.loc[j, "Indicator Dropdown"] = "Number in poverty"
         #     df_graphers.loc[
         #         j, "Poverty line Dropdown"
         #     ] = f"{povlines_abs['povline_dropdown'][p]}"
@@ -1189,7 +1193,7 @@ for tab in range(len(tables)):
         #     df_graphers.loc[
         #         j, "ySlugs"
         #     ] = f"total_shortfall_{welfare['slug'][wel]}_eq_{povlines_abs.cents[p]} total_shortfall_{welfare['slug'][wel]}_pc_{povlines_abs.cents[p]}"
-        #     df_graphers.loc[j, "Measure Dropdown"] = "Total shortfall from poverty line"
+        #     df_graphers.loc[j, "Indicator Dropdown"] = "Total shortfall from poverty line"
         #     df_graphers.loc[
         #         j, "Poverty line Dropdown"
         #     ] = f"{povlines_abs['povline_dropdown'][p]}"
@@ -1219,7 +1223,7 @@ for tab in range(len(tables)):
         #     df_graphers.loc[
         #         j, "ySlugs"
         #     ] = f"avg_shortfall_{welfare['slug'][wel]}_eq_{povlines_abs['cents'][p]} avg_shortfall_{welfare['slug'][wel]}_pc_{povlines_abs['cents'][p]}"
-        #     df_graphers.loc[j, "Measure Dropdown"] = "Average shortfall ($)"
+        #     df_graphers.loc[j, "Indicator Dropdown"] = "Average shortfall ($)"
         #     df_graphers.loc[
         #         j, "Poverty line Dropdown"
         #     ] = f"{povlines_abs['povline_dropdown'][p]}"
@@ -1250,7 +1254,7 @@ for tab in range(len(tables)):
         #         j, "ySlugs"
         #     ] = f"income_gap_ratio_{welfare['slug'][wel]}_eq_{povlines_abs['cents'][p]} income_gap_ratio_{welfare['slug'][wel]}_pc_{povlines_abs['cents'][p]}"
         #     df_graphers.loc[
-        #         j, "Measure Dropdown"
+        #         j, "Indicator Dropdown"
         #     ] = "Average shortfall (% of poverty line)"
         #     df_graphers.loc[
         #         j, "Poverty line Dropdown"
@@ -1281,7 +1285,7 @@ for tab in range(len(tables)):
         #     df_graphers.loc[
         #         j, "ySlugs"
         #     ] = f"poverty_gap_index_{welfare['slug'][wel]}_eq_{povlines_abs['cents'][p]} poverty_gap_index_{welfare['slug'][wel]}_pc_{povlines_abs['cents'][p]}"
-        #     df_graphers.loc[j, "Measure Dropdown"] = "Poverty gap index"
+        #     df_graphers.loc[j, "Indicator Dropdown"] = "Poverty gap index"
         #     df_graphers.loc[
         #         j, "Poverty line Dropdown"
         #     ] = f"{povlines_abs['povline_dropdown'][p]}"
@@ -1311,7 +1315,7 @@ for tab in range(len(tables)):
         #     df_graphers.loc[
         #         j, "ySlugs"
         #     ] = f"headcount_ratio_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_eq headcount_ratio_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_pc"
-        #     df_graphers.loc[j, "Measure Dropdown"] = "Share in poverty"
+        #     df_graphers.loc[j, "Indicator Dropdown"] = "Share in poverty"
         #     df_graphers.loc[
         #         j, "Poverty line Dropdown"
         #     ] = f"{povlines_rel['dropdown'][pct]}"
@@ -1339,7 +1343,7 @@ for tab in range(len(tables)):
         #     df_graphers.loc[
         #         j, "ySlugs"
         #     ] = f"headcount_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_eq headcount_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_pc"
-        #     df_graphers.loc[j, "Measure Dropdown"] = "Number in poverty"
+        #     df_graphers.loc[j, "Indicator Dropdown"] = "Number in poverty"
         #     df_graphers.loc[
         #         j, "Poverty line Dropdown"
         #     ] = f"{povlines_rel['dropdown'][pct]}"
@@ -1367,7 +1371,7 @@ for tab in range(len(tables)):
         #     df_graphers.loc[
         #         j, "ySlugs"
         #     ] = f"total_shortfall_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_eq total_shortfall_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_pc"
-        #     df_graphers.loc[j, "Measure Dropdown"] = "Total shortfall from poverty line"
+        #     df_graphers.loc[j, "Indicator Dropdown"] = "Total shortfall from poverty line"
         #     df_graphers.loc[
         #         j, "Poverty line Dropdown"
         #     ] = f"{povlines_rel['dropdown'][pct]}"
@@ -1397,7 +1401,7 @@ for tab in range(len(tables)):
         #     df_graphers.loc[
         #         j, "ySlugs"
         #     ] = f"avg_shortfall_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_eq avg_shortfall_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_pc"
-        #     df_graphers.loc[j, "Measure Dropdown"] = "Average shortfall ($)"
+        #     df_graphers.loc[j, "Indicator Dropdown"] = "Average shortfall ($)"
         #     df_graphers.loc[
         #         j, "Poverty line Dropdown"
         #     ] = f"{povlines_rel['dropdown'][pct]}"
@@ -1428,7 +1432,7 @@ for tab in range(len(tables)):
         #         j, "ySlugs"
         #     ] = f"income_gap_ratio_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_eq income_gap_ratio_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_pc"
         #     df_graphers.loc[
-        #         j, "Measure Dropdown"
+        #         j, "Indicator Dropdown"
         #     ] = "Average shortfall (% of poverty line)"
         #     df_graphers.loc[
         #         j, "Poverty line Dropdown"
@@ -1459,7 +1463,7 @@ for tab in range(len(tables)):
         #     df_graphers.loc[
         #         j, "ySlugs"
         #     ] = f"poverty_gap_index_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_eq poverty_gap_index_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_pc"
-        #     df_graphers.loc[j, "Measure Dropdown"] = "Poverty gap index"
+        #     df_graphers.loc[j, "Indicator Dropdown"] = "Poverty gap index"
         #     df_graphers.loc[
         #         j, "Poverty line Dropdown"
         #     ] = f"{povlines_rel['dropdown'][pct]}"
@@ -1500,7 +1504,7 @@ df_graphers["mapTargetTime"] = df_graphers["mapTargetTime"].astype("Int64")
 
 # Select one default view
 df_graphers.loc[
-    (df_graphers["Measure Dropdown"] == "Share in poverty")
+    (df_graphers["Indicator Dropdown"] == "Share in poverty")
     & (
         df_graphers["Poverty line Dropdown"]
         == "$2.15 per day: International Poverty Line"

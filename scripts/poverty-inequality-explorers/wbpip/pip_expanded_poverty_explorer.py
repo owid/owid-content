@@ -479,7 +479,7 @@ for survey in range(len(survey_type)):
     for p in range(len(povlines_abs)):
         df_graphers.loc[j, "title"] = f"{povlines_abs.title_share[p]}"
         df_graphers.loc[j, "ySlugs"] = f"headcount_ratio_{povlines_abs.cents[p]}"
-        df_graphers.loc[j, "Measure Dropdown"] = "Share in poverty"
+        df_graphers.loc[j, "Indicator Dropdown"] = "Share in poverty"
         df_graphers.loc[
             j, "Poverty line Dropdown"
         ] = f"{povlines_abs.povline_dropdown[p]}"
@@ -507,7 +507,7 @@ for survey in range(len(survey_type)):
     for p in range(len(povlines_abs)):
         df_graphers.loc[j, "title"] = f"{povlines_abs.title_number[p]}"
         df_graphers.loc[j, "ySlugs"] = f"headcount_{povlines_abs.cents[p]}"
-        df_graphers.loc[j, "Measure Dropdown"] = "Number in poverty"
+        df_graphers.loc[j, "Indicator Dropdown"] = "Number in poverty"
         df_graphers.loc[
             j, "Poverty line Dropdown"
         ] = f"{povlines_abs.povline_dropdown[p]}"
@@ -535,7 +535,7 @@ for survey in range(len(survey_type)):
     for p in range(len(povlines_abs)):
         df_graphers.loc[j, "title"] = f"{povlines_abs.title_total_shortfall[p]}"
         df_graphers.loc[j, "ySlugs"] = f"total_shortfall_{povlines_abs.cents[p]}"
-        df_graphers.loc[j, "Measure Dropdown"] = "Total shortfall from poverty line"
+        df_graphers.loc[j, "Indicator Dropdown"] = "Total shortfall from poverty line"
         df_graphers.loc[
             j, "Poverty line Dropdown"
         ] = f"{povlines_abs.povline_dropdown[p]}"
@@ -563,7 +563,7 @@ for survey in range(len(survey_type)):
     for p in range(len(povlines_abs)):
         df_graphers.loc[j, "title"] = f"{povlines_abs.title_avg_shortfall[p]}"
         df_graphers.loc[j, "ySlugs"] = f"avg_shortfall_{povlines_abs.cents[p]}"
-        df_graphers.loc[j, "Measure Dropdown"] = "Average shortfall ($ per day)"
+        df_graphers.loc[j, "Indicator Dropdown"] = "Average shortfall ($ per day)"
         df_graphers.loc[
             j, "Poverty line Dropdown"
         ] = f"{povlines_abs.povline_dropdown[p]}"
@@ -591,7 +591,9 @@ for survey in range(len(survey_type)):
     for p in range(len(povlines_abs)):
         df_graphers.loc[j, "title"] = f"{povlines_abs.title_income_gap_ratio[p]}"
         df_graphers.loc[j, "ySlugs"] = f"income_gap_ratio_{povlines_abs.cents[p]}"
-        df_graphers.loc[j, "Measure Dropdown"] = "Average shortfall (% of poverty line)"
+        df_graphers.loc[
+            j, "Indicator Dropdown"
+        ] = "Average shortfall (% of poverty line)"
         df_graphers.loc[
             j, "Poverty line Dropdown"
         ] = f"{povlines_abs.povline_dropdown[p]}"
@@ -621,7 +623,7 @@ for survey in range(len(survey_type)):
             j, "title"
         ] = f"Poverty gap index at ${povlines_abs.dollars_text[p]} a day"
         df_graphers.loc[j, "ySlugs"] = f"poverty_gap_index_{povlines_abs.cents[p]}"
-        df_graphers.loc[j, "Measure Dropdown"] = "Poverty gap index"
+        df_graphers.loc[j, "Indicator Dropdown"] = "Poverty gap index"
         df_graphers.loc[
             j, "Poverty line Dropdown"
         ] = f"{povlines_abs.povline_dropdown[p]}"
@@ -653,7 +655,7 @@ for survey in range(len(survey_type)):
         df_graphers.loc[
             j, "ySlugs"
         ] = f"headcount_ratio_{povlines_rel.slug_suffix[pct]}"
-        df_graphers.loc[j, "Measure Dropdown"] = "Share in poverty"
+        df_graphers.loc[j, "Indicator Dropdown"] = "Share in poverty"
         df_graphers.loc[j, "Poverty line Dropdown"] = f"{povlines_rel.dropdown[pct]}"
         df_graphers.loc[
             j, "Household survey data type Dropdown"
@@ -681,7 +683,7 @@ for survey in range(len(survey_type)):
     for pct in range(len(povlines_rel)):
         df_graphers.loc[j, "title"] = f"{povlines_rel.title_number[pct]}"
         df_graphers.loc[j, "ySlugs"] = f"headcount_{povlines_rel.slug_suffix[pct]}"
-        df_graphers.loc[j, "Measure Dropdown"] = "Number in poverty"
+        df_graphers.loc[j, "Indicator Dropdown"] = "Number in poverty"
         df_graphers.loc[j, "Poverty line Dropdown"] = f"{povlines_rel.dropdown[pct]}"
         df_graphers.loc[
             j, "Household survey data type Dropdown"
@@ -713,7 +715,7 @@ for survey in range(len(survey_type)):
         df_graphers.loc[
             j, "ySlugs"
         ] = f"total_shortfall_{povlines_rel.slug_suffix[pct]}"
-        df_graphers.loc[j, "Measure Dropdown"] = "Total shortfall from poverty line"
+        df_graphers.loc[j, "Indicator Dropdown"] = "Total shortfall from poverty line"
         df_graphers.loc[j, "Poverty line Dropdown"] = f"{povlines_rel.dropdown[pct]}"
         df_graphers.loc[
             j, "Household survey data type Dropdown"
@@ -743,7 +745,7 @@ for survey in range(len(survey_type)):
             j, "title"
         ] = f"Average shortfall from a poverty line of {povlines_rel.text[pct]} {survey_type.text[survey]}"
         df_graphers.loc[j, "ySlugs"] = f"avg_shortfall_{povlines_rel.slug_suffix[pct]}"
-        df_graphers.loc[j, "Measure Dropdown"] = "Average shortfall ($ per day)"
+        df_graphers.loc[j, "Indicator Dropdown"] = "Average shortfall ($ per day)"
         df_graphers.loc[j, "Poverty line Dropdown"] = f"{povlines_rel.dropdown[pct]}"
         df_graphers.loc[
             j, "Household survey data type Dropdown"
@@ -775,7 +777,9 @@ for survey in range(len(survey_type)):
         df_graphers.loc[
             j, "ySlugs"
         ] = f"income_gap_ratio_{povlines_rel.slug_suffix[pct]}"
-        df_graphers.loc[j, "Measure Dropdown"] = "Average shortfall (% of poverty line)"
+        df_graphers.loc[
+            j, "Indicator Dropdown"
+        ] = "Average shortfall (% of poverty line)"
         df_graphers.loc[j, "Poverty line Dropdown"] = f"{povlines_rel.dropdown[pct]}"
         df_graphers.loc[
             j, "Household survey data type Dropdown"
@@ -807,7 +811,7 @@ for survey in range(len(survey_type)):
         df_graphers.loc[
             j, "ySlugs"
         ] = f"poverty_gap_index_{povlines_rel.slug_suffix[pct]}"
-        df_graphers.loc[j, "Measure Dropdown"] = "Poverty gap index"
+        df_graphers.loc[j, "Indicator Dropdown"] = "Poverty gap index"
         df_graphers.loc[j, "Poverty line Dropdown"] = f"{povlines_rel.dropdown[pct]}"
         df_graphers.loc[
             j, "Household survey data type Dropdown"
@@ -844,7 +848,9 @@ for i in range(len(df_graphers)):
     df_graphers_spells.loc[
         j, "ySlugs"
     ] = "consumption_spell_1 consumption_spell_2 consumption_spell_3 consumption_spell_4 consumption_spell_5 consumption_spell_6 income_spell_1 income_spell_2 income_spell_3 income_spell_4 income_spell_5 income_spell_6 income_spell_7"
-    df_graphers_spells.loc[j, "Measure Dropdown"] = df_graphers["Measure Dropdown"][i]
+    df_graphers_spells.loc[j, "Indicator Dropdown"] = df_graphers["Indicator Dropdown"][
+        i
+    ]
     df_graphers_spells.loc[j, "Poverty line Dropdown"] = df_graphers[
         "Poverty line Dropdown"
     ][i]

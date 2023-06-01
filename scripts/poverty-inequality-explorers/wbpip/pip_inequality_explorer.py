@@ -358,7 +358,7 @@ for survey in range(len(survey_type)):
     # Gini coefficient
     df_graphers.loc[j, "title"] = f"Income inequality: Gini coefficient"
     df_graphers.loc[j, "ySlugs"] = f"gini"
-    df_graphers.loc[j, "Measure Dropdown"] = "Gini coefficient"
+    df_graphers.loc[j, "Indicator Dropdown"] = "Gini coefficient"
     df_graphers.loc[
         j, "Household survey data type Dropdown"
     ] = f"{survey_type.dropdown_option[survey]}"
@@ -386,7 +386,7 @@ for survey in range(len(survey_type)):
         j, "title"
     ] = f"{survey_type.text[survey].capitalize()} share of the top 10%"
     df_graphers.loc[j, "ySlugs"] = f"decile10_share"
-    df_graphers.loc[j, "Measure Dropdown"] = "Top 10% share"
+    df_graphers.loc[j, "Indicator Dropdown"] = "Top 10% share"
     df_graphers.loc[
         j, "Household survey data type Dropdown"
     ] = f"{survey_type.dropdown_option[survey]}"
@@ -412,7 +412,7 @@ for survey in range(len(survey_type)):
     # P90/P10
     df_graphers.loc[j, "title"] = f"Income inequality: P90/P10 ratio"
     df_graphers.loc[j, "ySlugs"] = f"p90_p10_ratio"
-    df_graphers.loc[j, "Measure Dropdown"] = "P90/P10"
+    df_graphers.loc[j, "Indicator Dropdown"] = "P90/P10"
     df_graphers.loc[
         j, "Household survey data type Dropdown"
     ] = f"{survey_type.dropdown_option[survey]}"
@@ -438,7 +438,7 @@ for survey in range(len(survey_type)):
     # P90/P50
     df_graphers.loc[j, "title"] = f"Income inequality: P90/P50 ratio"
     df_graphers.loc[j, "ySlugs"] = f"p90_p50_ratio"
-    df_graphers.loc[j, "Measure Dropdown"] = "P90/P50"
+    df_graphers.loc[j, "Indicator Dropdown"] = "P90/P50"
     df_graphers.loc[
         j, "Household survey data type Dropdown"
     ] = f"{survey_type.dropdown_option[survey]}"
@@ -464,7 +464,7 @@ for survey in range(len(survey_type)):
     # P50/P10
     df_graphers.loc[j, "title"] = f"Income inequality: P50/P10 ratio"
     df_graphers.loc[j, "ySlugs"] = f"p50_p10_ratio"
-    df_graphers.loc[j, "Measure Dropdown"] = "P50/P10"
+    df_graphers.loc[j, "Indicator Dropdown"] = "P50/P10"
     df_graphers.loc[
         j, "Household survey data type Dropdown"
     ] = f"{survey_type.dropdown_option[survey]}"
@@ -490,7 +490,7 @@ for survey in range(len(survey_type)):
     # Palma ratio
     df_graphers.loc[j, "title"] = f"Income inequality: Palma ratio"
     df_graphers.loc[j, "ySlugs"] = f"palma_ratio"
-    df_graphers.loc[j, "Measure Dropdown"] = "Palma ratio"
+    df_graphers.loc[j, "Indicator Dropdown"] = "Palma ratio"
     df_graphers.loc[
         j, "Household survey data type Dropdown"
     ] = f"{survey_type.dropdown_option[survey]}"
@@ -520,7 +520,7 @@ for survey in range(len(survey_type)):
             j, "ySlugs"
         ] = f"headcount_ratio_{povlines_rel.slug_suffix[pct]}"
         df_graphers.loc[
-            j, "Measure Dropdown"
+            j, "Indicator Dropdown"
         ] = f"Share in relative poverty (< {povlines_rel.text[pct]})"
         df_graphers.loc[
             j, "Household survey data type Dropdown"
@@ -547,7 +547,7 @@ for survey in range(len(survey_type)):
     # MLD
     df_graphers.loc[j, "title"] = f"Income inequality: Mean log deviation"
     df_graphers.loc[j, "ySlugs"] = f"mld"
-    df_graphers.loc[j, "Measure Dropdown"] = "Mean log deviation"
+    df_graphers.loc[j, "Indicator Dropdown"] = "Mean log deviation"
     df_graphers.loc[
         j, "Household survey data type Dropdown"
     ] = f"{survey_type.dropdown_option[survey]}"
@@ -573,7 +573,7 @@ for survey in range(len(survey_type)):
     # Polarization
     df_graphers.loc[j, "title"] = f"Income inequality: Polarization index"
     df_graphers.loc[j, "ySlugs"] = f"polarization"
-    df_graphers.loc[j, "Measure Dropdown"] = "Polarization index"
+    df_graphers.loc[j, "Indicator Dropdown"] = "Polarization index"
     df_graphers.loc[
         j, "Household survey data type Dropdown"
     ] = f"{survey_type.dropdown_option[survey]}"
@@ -609,7 +609,9 @@ for i in range(len(df_graphers)):
     df_graphers_spells.loc[
         j, "ySlugs"
     ] = "consumption_spell_1 consumption_spell_2 consumption_spell_3 consumption_spell_4 consumption_spell_5 consumption_spell_6 income_spell_1 income_spell_2 income_spell_3 income_spell_4 income_spell_5 income_spell_6 income_spell_7"
-    df_graphers_spells.loc[j, "Measure Dropdown"] = df_graphers["Measure Dropdown"][i]
+    df_graphers_spells.loc[j, "Indicator Dropdown"] = df_graphers["Indicator Dropdown"][
+        i
+    ]
     df_graphers_spells.loc[j, "Household survey data type Dropdown"] = df_graphers[
         "Household survey data type Dropdown"
     ][i]

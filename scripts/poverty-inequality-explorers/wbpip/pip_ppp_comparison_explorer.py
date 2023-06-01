@@ -512,7 +512,7 @@ for survey in range(len(survey_type)):
         df_graphers.loc[
             j, "ySlugs"
         ] = f"headcount_ratio_{povlines_ppp2011.cents[p_2011]}_ppp2011"
-        df_graphers.loc[j, "Measure Dropdown"] = "Share in poverty"
+        df_graphers.loc[j, "Indicator Dropdown"] = "Share in poverty"
         df_graphers.loc[j, "International-$ Dropdown"] = "2011 prices"
         df_graphers.loc[
             j, "Poverty line Dropdown"
@@ -540,7 +540,7 @@ for survey in range(len(survey_type)):
         df_graphers.loc[
             j, "ySlugs"
         ] = f"headcount_ratio_{povlines_ppp2017.cents[p_2017]}_ppp2017"
-        df_graphers.loc[j, "Measure Dropdown"] = "Share in poverty"
+        df_graphers.loc[j, "Indicator Dropdown"] = "Share in poverty"
         df_graphers.loc[j, "International-$ Dropdown"] = "2017 prices"
         df_graphers.loc[
             j, "Poverty line Dropdown"
@@ -568,7 +568,7 @@ for survey in range(len(survey_type)):
         df_graphers.loc[
             j, "ySlugs"
         ] = f"headcount_{povlines_ppp2011.cents[p_2011]}_ppp2011"
-        df_graphers.loc[j, "Measure Dropdown"] = "Number in poverty"
+        df_graphers.loc[j, "Indicator Dropdown"] = "Number in poverty"
         df_graphers.loc[j, "International-$ Dropdown"] = "2011 prices"
         df_graphers.loc[
             j, "Poverty line Dropdown"
@@ -596,7 +596,7 @@ for survey in range(len(survey_type)):
         df_graphers.loc[
             j, "ySlugs"
         ] = f"headcount_{povlines_ppp2017.cents[p_2017]}_ppp2017"
-        df_graphers.loc[j, "Measure Dropdown"] = "Number in poverty"
+        df_graphers.loc[j, "Indicator Dropdown"] = "Number in poverty"
         df_graphers.loc[j, "International-$ Dropdown"] = "2017 prices"
         df_graphers.loc[
             j, "Poverty line Dropdown"
@@ -624,7 +624,7 @@ for survey in range(len(survey_type)):
         df_graphers.loc[
             j, "ySlugs"
         ] = f"headcount_ratio_{povlines_both.cents_2011[p]}_ppp2011 headcount_ratio_{povlines_both.cents_2017[p]}_ppp2017"
-        df_graphers.loc[j, "Measure Dropdown"] = "Share in poverty"
+        df_graphers.loc[j, "Indicator Dropdown"] = "Share in poverty"
         df_graphers.loc[j, "International-$ Dropdown"] = "Compare 2017 and 2011 prices"
         df_graphers.loc[
             j, "Poverty line Dropdown"
@@ -652,7 +652,7 @@ for survey in range(len(survey_type)):
         df_graphers.loc[
             j, "ySlugs"
         ] = f"headcount_{povlines_both.cents_2011[p]}_ppp2011 headcount_{povlines_both.cents_2017[p]}_ppp2017"
-        df_graphers.loc[j, "Measure Dropdown"] = "Number in poverty"
+        df_graphers.loc[j, "Indicator Dropdown"] = "Number in poverty"
         df_graphers.loc[j, "International-$ Dropdown"] = "Compare 2017 and 2011 prices"
         df_graphers.loc[
             j, "Poverty line Dropdown"
@@ -680,7 +680,7 @@ for survey in range(len(survey_type)):
         df_graphers.loc[
             j, "ySlugs"
         ] = f"headcount_ratio_{povlines_rel.slug_suffix[pct]}_ppp2011"
-        df_graphers.loc[j, "Measure Dropdown"] = "Share in poverty"
+        df_graphers.loc[j, "Indicator Dropdown"] = "Share in poverty"
         df_graphers.loc[j, "International-$ Dropdown"] = "2011 prices"
         df_graphers.loc[j, "Poverty line Dropdown"] = f"{povlines_rel.dropdown[pct]}"
         df_graphers.loc[
@@ -708,7 +708,7 @@ for survey in range(len(survey_type)):
         df_graphers.loc[
             j, "ySlugs"
         ] = f"headcount_ratio_{povlines_rel.slug_suffix[pct]}_ppp2017"
-        df_graphers.loc[j, "Measure Dropdown"] = "Share in poverty"
+        df_graphers.loc[j, "Indicator Dropdown"] = "Share in poverty"
         df_graphers.loc[j, "International-$ Dropdown"] = "2017 prices"
         df_graphers.loc[j, "Poverty line Dropdown"] = f"{povlines_rel.dropdown[pct]}"
         df_graphers.loc[
@@ -736,7 +736,7 @@ for survey in range(len(survey_type)):
         df_graphers.loc[
             j, "ySlugs"
         ] = f"headcount_{povlines_rel.slug_suffix[pct]}_ppp2011"
-        df_graphers.loc[j, "Measure Dropdown"] = "Number in poverty"
+        df_graphers.loc[j, "Indicator Dropdown"] = "Number in poverty"
         df_graphers.loc[j, "International-$ Dropdown"] = "2011 prices"
         df_graphers.loc[j, "Poverty line Dropdown"] = f"{povlines_rel.dropdown[pct]}"
         df_graphers.loc[
@@ -764,7 +764,7 @@ for survey in range(len(survey_type)):
         df_graphers.loc[
             j, "ySlugs"
         ] = f"headcount_{povlines_rel.slug_suffix[pct]}_ppp2017"
-        df_graphers.loc[j, "Measure Dropdown"] = "Number in poverty"
+        df_graphers.loc[j, "Indicator Dropdown"] = "Number in poverty"
         df_graphers.loc[j, "International-$ Dropdown"] = "2017 prices"
         df_graphers.loc[j, "Poverty line Dropdown"] = f"{povlines_rel.dropdown[pct]}"
         df_graphers.loc[
@@ -793,7 +793,7 @@ for survey in range(len(survey_type)):
     df_graphers.loc[
         j, "ySlugs"
     ] = f"headcount_ratio_60_median_ppp2011 headcount_ratio_60_median_ppp2017"
-    df_graphers.loc[j, "Measure Dropdown"] = "Share in poverty"
+    df_graphers.loc[j, "Indicator Dropdown"] = "Share in poverty"
     df_graphers.loc[j, "International-$ Dropdown"] = "Compare 2017 and 2011 prices"
     df_graphers.loc[j, "Poverty line Dropdown"] = f"Relative poverty: 60% of median"
     df_graphers.loc[
@@ -822,7 +822,7 @@ for survey in range(len(survey_type)):
     df_graphers.loc[
         j, "ySlugs"
     ] = f"headcount_60_median_ppp2011 headcount_60_median_ppp2017"
-    df_graphers.loc[j, "Measure Dropdown"] = "Number in poverty"
+    df_graphers.loc[j, "Indicator Dropdown"] = "Number in poverty"
     df_graphers.loc[j, "International-$ Dropdown"] = "Compare 2017 and 2011 prices"
     df_graphers.loc[j, "Poverty line Dropdown"] = f"Relative poverty: 60% of median"
     df_graphers.loc[
@@ -849,7 +849,7 @@ for survey in range(len(survey_type)):
         j, "title"
     ] = f"Mean {survey_type.text[survey]} per day (2011 prices)"
     df_graphers.loc[j, "ySlugs"] = "mean_ppp2011"
-    df_graphers.loc[j, "Measure Dropdown"] = "Mean income or consumption"
+    df_graphers.loc[j, "Indicator Dropdown"] = "Mean income or consumption"
     df_graphers.loc[j, "International-$ Dropdown"] = "2011 prices"
     df_graphers.loc[j, "Poverty line Dropdown"] = np.nan
     df_graphers.loc[
@@ -877,7 +877,7 @@ for survey in range(len(survey_type)):
         j, "title"
     ] = f"Mean {survey_type.text[survey]} per day (2017 prices)"
     df_graphers.loc[j, "ySlugs"] = "mean_ppp2017"
-    df_graphers.loc[j, "Measure Dropdown"] = "Mean income or consumption"
+    df_graphers.loc[j, "Indicator Dropdown"] = "Mean income or consumption"
     df_graphers.loc[j, "International-$ Dropdown"] = "2017 prices"
     df_graphers.loc[j, "Poverty line Dropdown"] = np.nan
     df_graphers.loc[
@@ -905,7 +905,7 @@ for survey in range(len(survey_type)):
         j, "title"
     ] = f"Mean {survey_type.text[survey]} per day: 2011 vs. 2017 prices"
     df_graphers.loc[j, "ySlugs"] = "mean_ppp2011 mean_ppp2017"
-    df_graphers.loc[j, "Measure Dropdown"] = "Mean income or consumption"
+    df_graphers.loc[j, "Indicator Dropdown"] = "Mean income or consumption"
     df_graphers.loc[j, "International-$ Dropdown"] = "Compare 2017 and 2011 prices"
     df_graphers.loc[j, "Poverty line Dropdown"] = np.nan
     df_graphers.loc[
@@ -933,7 +933,7 @@ for survey in range(len(survey_type)):
         j, "title"
     ] = f"Median {survey_type.text[survey]} per day (2011 prices)"
     df_graphers.loc[j, "ySlugs"] = "median_ppp2011"
-    df_graphers.loc[j, "Measure Dropdown"] = "Median income or consumption"
+    df_graphers.loc[j, "Indicator Dropdown"] = "Median income or consumption"
     df_graphers.loc[j, "International-$ Dropdown"] = "2011 prices"
     df_graphers.loc[j, "Poverty line Dropdown"] = np.nan
     df_graphers.loc[
@@ -961,7 +961,7 @@ for survey in range(len(survey_type)):
         j, "title"
     ] = f"Median {survey_type.text[survey]} per day (2017 prices)"
     df_graphers.loc[j, "ySlugs"] = "median_ppp2017"
-    df_graphers.loc[j, "Measure Dropdown"] = "Median income or consumption"
+    df_graphers.loc[j, "Indicator Dropdown"] = "Median income or consumption"
     df_graphers.loc[j, "International-$ Dropdown"] = "2017 prices"
     df_graphers.loc[j, "Poverty line Dropdown"] = np.nan
     df_graphers.loc[
@@ -989,7 +989,7 @@ for survey in range(len(survey_type)):
         j, "title"
     ] = f"Median {survey_type.text[survey]} per day: 2011 vs. 2017 prices"
     df_graphers.loc[j, "ySlugs"] = "median_ppp2011 median_ppp2017"
-    df_graphers.loc[j, "Measure Dropdown"] = "Median income or consumption"
+    df_graphers.loc[j, "Indicator Dropdown"] = "Median income or consumption"
     df_graphers.loc[j, "International-$ Dropdown"] = "Compare 2017 and 2011 prices"
     df_graphers.loc[j, "Poverty line Dropdown"] = np.nan
     df_graphers.loc[
@@ -1017,7 +1017,7 @@ for survey in range(len(survey_type)):
         j, "title"
     ] = f"P10: The {survey_type.text[survey]} of the poorest tenth (2011 prices)"
     df_graphers.loc[j, "ySlugs"] = "decile1_thr_ppp2011"
-    df_graphers.loc[j, "Measure Dropdown"] = "P10 (poorest tenth)"
+    df_graphers.loc[j, "Indicator Dropdown"] = "P10 (poorest tenth)"
     df_graphers.loc[j, "International-$ Dropdown"] = "2011 prices"
     df_graphers.loc[j, "Poverty line Dropdown"] = np.nan
     df_graphers.loc[
@@ -1045,7 +1045,7 @@ for survey in range(len(survey_type)):
         j, "title"
     ] = f"P10: The {survey_type.text[survey]} of the poorest tenth (2017 prices)"
     df_graphers.loc[j, "ySlugs"] = "decile1_thr_ppp2017"
-    df_graphers.loc[j, "Measure Dropdown"] = "P10 (poorest tenth)"
+    df_graphers.loc[j, "Indicator Dropdown"] = "P10 (poorest tenth)"
     df_graphers.loc[j, "International-$ Dropdown"] = "2017 prices"
     df_graphers.loc[j, "Poverty line Dropdown"] = np.nan
     df_graphers.loc[
@@ -1073,7 +1073,7 @@ for survey in range(len(survey_type)):
         j, "title"
     ] = f"P10: The {survey_type.text[survey]} of the poorest tenth (2011 vs. 2017 prices)"
     df_graphers.loc[j, "ySlugs"] = "decile1_thr_ppp2011 decile1_thr_ppp2017"
-    df_graphers.loc[j, "Measure Dropdown"] = "P10 (poorest tenth)"
+    df_graphers.loc[j, "Indicator Dropdown"] = "P10 (poorest tenth)"
     df_graphers.loc[j, "International-$ Dropdown"] = "Compare 2017 and 2011 prices"
     df_graphers.loc[j, "Poverty line Dropdown"] = np.nan
     df_graphers.loc[
@@ -1101,7 +1101,7 @@ for survey in range(len(survey_type)):
         j, "title"
     ] = f"P90: The {survey_type.text[survey]} of the richest tenth (2011 prices)"
     df_graphers.loc[j, "ySlugs"] = "decile9_thr_ppp2011"
-    df_graphers.loc[j, "Measure Dropdown"] = "P90 (richest tenth)"
+    df_graphers.loc[j, "Indicator Dropdown"] = "P90 (richest tenth)"
     df_graphers.loc[j, "International-$ Dropdown"] = "2011 prices"
     df_graphers.loc[j, "Poverty line Dropdown"] = np.nan
     df_graphers.loc[
@@ -1129,7 +1129,7 @@ for survey in range(len(survey_type)):
         j, "title"
     ] = f"P90: The {survey_type.text[survey]} of the richest tenth (2017 prices)"
     df_graphers.loc[j, "ySlugs"] = "decile9_thr_ppp2017"
-    df_graphers.loc[j, "Measure Dropdown"] = "P90 (richest tenth)"
+    df_graphers.loc[j, "Indicator Dropdown"] = "P90 (richest tenth)"
     df_graphers.loc[j, "International-$ Dropdown"] = "2017 prices"
     df_graphers.loc[j, "Poverty line Dropdown"] = np.nan
     df_graphers.loc[
@@ -1157,7 +1157,7 @@ for survey in range(len(survey_type)):
         j, "title"
     ] = f"P90: The {survey_type.text[survey]} of the richest tenth (2011 vs. 2017 prices)"
     df_graphers.loc[j, "ySlugs"] = "decile9_thr_ppp2011 decile9_thr_ppp2017"
-    df_graphers.loc[j, "Measure Dropdown"] = "P90 (richest tenth)"
+    df_graphers.loc[j, "Indicator Dropdown"] = "P90 (richest tenth)"
     df_graphers.loc[j, "International-$ Dropdown"] = "Compare 2017 and 2011 prices"
     df_graphers.loc[j, "Poverty line Dropdown"] = np.nan
     df_graphers.loc[
