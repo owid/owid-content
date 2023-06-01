@@ -491,9 +491,6 @@ for survey in range(len(survey_type)):
         df_graphers.loc[
             j, "note"
         ] = f"This data is measured in international-$ at 2017 prices. Depending on the country and year, it relates to disposable {survey_type.text[survey]} per capita."
-        df_graphers.loc[
-            j, "sourceDesc"
-        ] = "World Bank Poverty and Inequality Platform (2022)"
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "yAxisMin"] = 0
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -519,9 +516,6 @@ for survey in range(len(survey_type)):
         df_graphers.loc[
             j, "note"
         ] = f"This data is measured in international-$ at 2017 prices. Depending on the country and year, it relates to disposable {survey_type.text[survey]} per capita."
-        df_graphers.loc[
-            j, "sourceDesc"
-        ] = "World Bank Poverty and Inequality Platform (2022)"
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "yAxisMin"] = 0
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -547,9 +541,6 @@ for survey in range(len(survey_type)):
         df_graphers.loc[
             j, "note"
         ] = "This data is measured in international-$ at 2017 prices. The cost of closing the poverty gap does not take into account costs and inefficiencies from making the necessary transfers."
-        df_graphers.loc[
-            j, "sourceDesc"
-        ] = "World Bank Poverty and Inequality Platform (2022)"
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "yAxisMin"] = 0
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -575,9 +566,6 @@ for survey in range(len(survey_type)):
         df_graphers.loc[
             j, "note"
         ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. It relates to disposable {survey_type.text[survey]} per capita."
-        df_graphers.loc[
-            j, "sourceDesc"
-        ] = "World Bank Poverty and Inequality Platform (2022)"
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "yAxisMin"] = 0
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -605,9 +593,6 @@ for survey in range(len(survey_type)):
         df_graphers.loc[
             j, "note"
         ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. It relates to disposable {survey_type.text[survey]} per capita."
-        df_graphers.loc[
-            j, "sourceDesc"
-        ] = "World Bank Poverty and Inequality Platform (2022)"
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "yAxisMin"] = 0
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -637,9 +622,6 @@ for survey in range(len(survey_type)):
         df_graphers.loc[
             j, "note"
         ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. It relates to disposable {survey_type.text[survey]} per capita."
-        df_graphers.loc[
-            j, "sourceDesc"
-        ] = "World Bank Poverty and Inequality Platform (2022)"
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "yAxisMin"] = 0
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -667,9 +649,6 @@ for survey in range(len(survey_type)):
         df_graphers.loc[
             j, "note"
         ] = f"Depending on the country and year, the data relates to disposable {survey_type.text[survey]} per capita."
-        df_graphers.loc[
-            j, "sourceDesc"
-        ] = "World Bank Poverty and Inequality Platform (2022)"
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "yAxisMin"] = 0
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -695,9 +674,6 @@ for survey in range(len(survey_type)):
         df_graphers.loc[
             j, "note"
         ] = f"Depending on the country and year, the data relates to disposable {survey_type.text[survey]} per capita."
-        df_graphers.loc[
-            j, "sourceDesc"
-        ] = "World Bank Poverty and Inequality Platform (2022)"
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "yAxisMin"] = 0
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -727,9 +703,6 @@ for survey in range(len(survey_type)):
         df_graphers.loc[
             j, "note"
         ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. It relates to disposable {survey_type.text[survey]} per capita."
-        df_graphers.loc[
-            j, "sourceDesc"
-        ] = "World Bank Poverty and Inequality Platform (2022)"
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "yAxisMin"] = 0
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -757,9 +730,6 @@ for survey in range(len(survey_type)):
         df_graphers.loc[
             j, "note"
         ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. It relates to disposable {survey_type.text[survey]} per capita."
-        df_graphers.loc[
-            j, "sourceDesc"
-        ] = "World Bank Poverty and Inequality Platform (2022)"
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "yAxisMin"] = 0
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -791,9 +761,6 @@ for survey in range(len(survey_type)):
         df_graphers.loc[
             j, "note"
         ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. It relates to disposable {survey_type.text[survey]} per capita."
-        df_graphers.loc[
-            j, "sourceDesc"
-        ] = "World Bank Poverty and Inequality Platform (2022)"
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "yAxisMin"] = 0
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -823,9 +790,6 @@ for survey in range(len(survey_type)):
         df_graphers.loc[
             j, "note"
         ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. It relates to disposable {survey_type.text[survey]} per capita."
-        df_graphers.loc[
-            j, "sourceDesc"
-        ] = "World Bank Poverty and Inequality Platform (2022)"
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "yAxisMin"] = 0
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -868,7 +832,6 @@ for i in range(len(df_graphers)):
     )
 
     df_graphers_spells.loc[j, "note"] = df_graphers["note"][i]
-    df_graphers_spells.loc[j, "sourceDesc"] = df_graphers["sourceDesc"][i]
     df_graphers_spells.loc[j, "type"] = df_graphers["type"][i]
     df_graphers_spells.loc[j, "yAxisMin"] = df_graphers["yAxisMin"][i]
     df_graphers_spells.loc[j, "selectedFacetStrategy"] = "entity"
