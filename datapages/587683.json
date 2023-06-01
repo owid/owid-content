@@ -20,7 +20,7 @@
         }
     ],
     "variantSource": "Global Carbon Project",
-    "variantDescription2": "Historical estimates",
+    "variantMethods": "Historical estimates",
     "nameOfSource": "Global Carbon Project",
     "owidProcessingLevel": "<a href>Processed and adapted</a> by Our World in Data",
     "dateRange": "1974-2020",

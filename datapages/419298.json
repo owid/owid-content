@@ -12,7 +12,7 @@
         }
     ],
     "variantSource": "V-Dem",
-    "variantDescription2": "",
+    "variantMethods": "",
     "nameOfSource": "OWID based on V-Dem (v13)",
     "owidProcessingLevel": "<a href>Processed and adapted</a> by Our World in Data",
     "dateRange": "1789-2022",

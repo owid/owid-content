@@ -16,7 +16,7 @@
         }
     ],
     "variantSource": "World Inequality Database",
-    "variantDescription2": "Before tax",
+    "variantMethods": "Before tax",
     "nameOfSource": "World Inequality Database (WID.world) (2023)",
     "owidProcessingLevel": "<a href>Processed</a> by Our World in Data",
     "dateRange": "1820-2021",
