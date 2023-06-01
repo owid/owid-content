@@ -382,7 +382,7 @@ for tab in range(len(tables)):
                     j, "Poverty line Dropdown"
                 ] = f"{povlines_abs['povline_dropdown'][p]}"
                 df_graphers.loc[
-                    j, "Income type Dropdown"
+                    j, "Income measure Dropdown"
                 ] = f"{welfare['dropdown_option'][wel]}"
                 df_graphers.loc[
                     j, "Adjust for household composition (equivalized income) Checkbox"
@@ -412,7 +412,7 @@ for tab in range(len(tables)):
                     j, "Poverty line Dropdown"
                 ] = f"{povlines_abs['povline_dropdown'][p]}"
                 df_graphers.loc[
-                    j, "Income type Dropdown"
+                    j, "Income measure Dropdown"
                 ] = f"{welfare['dropdown_option'][wel]}"
                 df_graphers.loc[
                     j, "Adjust for household composition (equivalized income) Checkbox"
@@ -439,7 +439,7 @@ for tab in range(len(tables)):
             df_graphers.loc[j, "Indicator Dropdown"] = "Share in poverty"
             df_graphers.loc[j, "Poverty line Dropdown"] = "Multiple lines"
             df_graphers.loc[
-                j, "Income type Dropdown"
+                j, "Income measure Dropdown"
             ] = f"{welfare['dropdown_option'][wel]}"
             df_graphers.loc[
                 j, "Adjust for household composition (equivalized income) Checkbox"
@@ -466,7 +466,7 @@ for tab in range(len(tables)):
             df_graphers.loc[j, "Indicator Dropdown"] = "Number in poverty"
             df_graphers.loc[j, "Poverty line Dropdown"] = "Multiple lines"
             df_graphers.loc[
-                j, "Income type Dropdown"
+                j, "Income measure Dropdown"
             ] = f"{welfare['dropdown_option'][wel]}"
             df_graphers.loc[
                 j, "Adjust for household composition (equivalized income) Checkbox"
@@ -498,7 +498,7 @@ for tab in range(len(tables)):
                     j, "Poverty line Dropdown"
                 ] = f"{povlines_abs['povline_dropdown'][p]}"
                 df_graphers.loc[
-                    j, "Income type Dropdown"
+                    j, "Income measure Dropdown"
                 ] = f"{welfare['dropdown_option'][wel]}"
                 df_graphers.loc[
                     j, "Adjust for household composition (equivalized income) Checkbox"
@@ -528,7 +528,7 @@ for tab in range(len(tables)):
                     j, "Poverty line Dropdown"
                 ] = f"{povlines_abs['povline_dropdown'][p]}"
                 df_graphers.loc[
-                    j, "Income type Dropdown"
+                    j, "Income measure Dropdown"
                 ] = f"{welfare['dropdown_option'][wel]}"
                 df_graphers.loc[
                     j, "Adjust for household composition (equivalized income) Checkbox"
@@ -560,7 +560,7 @@ for tab in range(len(tables)):
                     j, "Poverty line Dropdown"
                 ] = f"{povlines_abs.povline_dropdown[p]}"
                 df_graphers.loc[
-                    j, "Income type Dropdown"
+                    j, "Income measure Dropdown"
                 ] = f"{welfare['dropdown_option'][wel]}"
                 df_graphers.loc[
                     j, "Adjust for household composition (equivalized income) Checkbox"
@@ -590,7 +590,7 @@ for tab in range(len(tables)):
                     j, "Poverty line Dropdown"
                 ] = f"{povlines_abs['povline_dropdown'][p]}"
                 df_graphers.loc[
-                    j, "Income type Dropdown"
+                    j, "Income measure Dropdown"
                 ] = f"{welfare['dropdown_option'][wel]}"
                 df_graphers.loc[
                     j, "Adjust for household composition (equivalized income) Checkbox"
@@ -620,7 +620,7 @@ for tab in range(len(tables)):
                     j, "Poverty line Dropdown"
                 ] = f"{povlines_rel['dropdown'][pct]}"
                 df_graphers.loc[
-                    j, "Income type Dropdown"
+                    j, "Income measure Dropdown"
                 ] = f"{welfare['dropdown_option'][wel]}"
                 df_graphers.loc[
                     j, "Adjust for household composition (equivalized income) Checkbox"
@@ -648,7 +648,7 @@ for tab in range(len(tables)):
                     j, "Poverty line Dropdown"
                 ] = f"{povlines_rel['dropdown'][pct]}"
                 df_graphers.loc[
-                    j, "Income type Dropdown"
+                    j, "Income measure Dropdown"
                 ] = f"{welfare['dropdown_option'][wel]}"
                 df_graphers.loc[
                     j, "Adjust for household composition (equivalized income) Checkbox"
@@ -678,7 +678,7 @@ for tab in range(len(tables)):
                     j, "Poverty line Dropdown"
                 ] = f"{povlines_rel['dropdown'][pct]}"
                 df_graphers.loc[
-                    j, "Income type Dropdown"
+                    j, "Income measure Dropdown"
                 ] = f"{welfare['dropdown_option'][wel]}"
                 df_graphers.loc[
                     j, "Adjust for household composition (equivalized income) Checkbox"
@@ -708,7 +708,7 @@ for tab in range(len(tables)):
                     j, "Poverty line Dropdown"
                 ] = f"{povlines_rel['dropdown'][pct]}"
                 df_graphers.loc[
-                    j, "Income type Dropdown"
+                    j, "Income measure Dropdown"
                 ] = f"{welfare['dropdown_option'][wel]}"
                 df_graphers.loc[
                     j, "Adjust for household composition (equivalized income) Checkbox"
@@ -740,7 +740,7 @@ for tab in range(len(tables)):
                     j, "Poverty line Dropdown"
                 ] = f"{povlines_rel['dropdown'][pct]}"
                 df_graphers.loc[
-                    j, "Income type Dropdown"
+                    j, "Income measure Dropdown"
                 ] = f"{welfare['dropdown_option'][wel]}"
                 df_graphers.loc[
                     j, "Adjust for household composition (equivalized income) Checkbox"
@@ -770,7 +770,7 @@ for tab in range(len(tables)):
                     j, "Poverty line Dropdown"
                 ] = f"{povlines_rel['dropdown'][pct]}"
                 df_graphers.loc[
-                    j, "Income type Dropdown"
+                    j, "Income measure Dropdown"
                 ] = f"{welfare['dropdown_option'][wel]}"
                 df_graphers.loc[
                     j, "Adjust for household composition (equivalized income) Checkbox"
@@ -800,7 +800,7 @@ for tab in range(len(tables)):
             df_graphers.loc[
                 j, "Poverty line Dropdown"
             ] = f"{povlines_abs['povline_dropdown'][p]}"
-            df_graphers.loc[j, "Income type Dropdown"] = "After tax vs. before tax"
+            df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
             df_graphers.loc[
                 j, "Adjust for household composition (equivalized income) Checkbox"
             ] = equivalence_scales["checkbox"][eq]
@@ -826,7 +826,7 @@ for tab in range(len(tables)):
             df_graphers.loc[
                 j, "Poverty line Dropdown"
             ] = f"{povlines_abs['povline_dropdown'][p]}"
-            df_graphers.loc[j, "Income type Dropdown"] = "After tax vs. before tax"
+            df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
             df_graphers.loc[
                 j, "Adjust for household composition (equivalized income) Checkbox"
             ] = equivalence_scales["checkbox"][eq]
@@ -854,7 +854,7 @@ for tab in range(len(tables)):
             df_graphers.loc[
                 j, "Poverty line Dropdown"
             ] = f"{povlines_abs['povline_dropdown'][p]}"
-            df_graphers.loc[j, "Income type Dropdown"] = "After tax vs. before tax"
+            df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
             df_graphers.loc[
                 j, "Adjust for household composition (equivalized income) Checkbox"
             ] = equivalence_scales["checkbox"][eq]
@@ -882,7 +882,7 @@ for tab in range(len(tables)):
             df_graphers.loc[
                 j, "Poverty line Dropdown"
             ] = f"{povlines_abs['povline_dropdown'][p]}"
-            df_graphers.loc[j, "Income type Dropdown"] = "After tax vs. before tax"
+            df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
             df_graphers.loc[
                 j, "Adjust for household composition (equivalized income) Checkbox"
             ] = equivalence_scales["checkbox"][eq]
@@ -912,7 +912,7 @@ for tab in range(len(tables)):
             df_graphers.loc[
                 j, "Poverty line Dropdown"
             ] = f"{povlines_abs.povline_dropdown[p]}"
-            df_graphers.loc[j, "Income type Dropdown"] = "After tax vs. before tax"
+            df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
             df_graphers.loc[
                 j, "Adjust for household composition (equivalized income) Checkbox"
             ] = equivalence_scales["checkbox"][eq]
@@ -940,7 +940,7 @@ for tab in range(len(tables)):
             df_graphers.loc[
                 j, "Poverty line Dropdown"
             ] = f"{povlines_abs['povline_dropdown'][p]}"
-            df_graphers.loc[j, "Income type Dropdown"] = "After tax vs. before tax"
+            df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
             df_graphers.loc[
                 j, "Adjust for household composition (equivalized income) Checkbox"
             ] = equivalence_scales["checkbox"][eq]
@@ -968,7 +968,7 @@ for tab in range(len(tables)):
             df_graphers.loc[
                 j, "Poverty line Dropdown"
             ] = f"{povlines_rel['dropdown'][pct]}"
-            df_graphers.loc[j, "Income type Dropdown"] = "After tax vs. before tax"
+            df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
             df_graphers.loc[
                 j, "Adjust for household composition (equivalized income) Checkbox"
             ] = equivalence_scales["checkbox"][eq]
@@ -994,7 +994,7 @@ for tab in range(len(tables)):
             df_graphers.loc[
                 j, "Poverty line Dropdown"
             ] = f"{povlines_rel['dropdown'][pct]}"
-            df_graphers.loc[j, "Income type Dropdown"] = "After tax vs. before tax"
+            df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
             df_graphers.loc[
                 j, "Adjust for household composition (equivalized income) Checkbox"
             ] = equivalence_scales["checkbox"][eq]
@@ -1022,7 +1022,7 @@ for tab in range(len(tables)):
             df_graphers.loc[
                 j, "Poverty line Dropdown"
             ] = f"{povlines_rel['dropdown'][pct]}"
-            df_graphers.loc[j, "Income type Dropdown"] = "After tax vs. before tax"
+            df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
             df_graphers.loc[
                 j, "Adjust for household composition (equivalized income) Checkbox"
             ] = equivalence_scales["checkbox"][eq]
@@ -1050,7 +1050,7 @@ for tab in range(len(tables)):
             df_graphers.loc[
                 j, "Poverty line Dropdown"
             ] = f"{povlines_rel['dropdown'][pct]}"
-            df_graphers.loc[j, "Income type Dropdown"] = "After tax vs. before tax"
+            df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
             df_graphers.loc[
                 j, "Adjust for household composition (equivalized income) Checkbox"
             ] = equivalence_scales["checkbox"][eq]
@@ -1080,7 +1080,7 @@ for tab in range(len(tables)):
             df_graphers.loc[
                 j, "Poverty line Dropdown"
             ] = f"{povlines_rel['dropdown'][pct]}"
-            df_graphers.loc[j, "Income type Dropdown"] = "After tax vs. before tax"
+            df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
             df_graphers.loc[
                 j, "Adjust for household composition (equivalized income) Checkbox"
             ] = equivalence_scales["checkbox"][eq]
@@ -1108,7 +1108,7 @@ for tab in range(len(tables)):
             df_graphers.loc[
                 j, "Poverty line Dropdown"
             ] = f"{povlines_rel['dropdown'][pct]}"
-            df_graphers.loc[j, "Income type Dropdown"] = "After tax vs. before tax"
+            df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
             df_graphers.loc[
                 j, "Adjust for household composition (equivalized income) Checkbox"
             ] = equivalence_scales["checkbox"][eq]
@@ -1138,7 +1138,7 @@ for tab in range(len(tables)):
         #         j, "Poverty line Dropdown"
         #     ] = f"{povlines_abs['povline_dropdown'][p]}"
         #     df_graphers.loc[
-        #         j, "Income type Dropdown"
+        #         j, "Income measure Dropdown"
         #     ] = f"{welfare['dropdown_option'][wel]}"
         #     df_graphers.loc[
         #         j, "Equivalence scale Dropdown"
@@ -1168,7 +1168,7 @@ for tab in range(len(tables)):
         #         j, "Poverty line Dropdown"
         #     ] = f"{povlines_abs['povline_dropdown'][p]}"
         #     df_graphers.loc[
-        #         j, "Income type Dropdown"
+        #         j, "Income measure Dropdown"
         #     ] = f"{welfare['dropdown_option'][wel]}"
         #     df_graphers.loc[
         #         j, "Equivalence scale Dropdown"
@@ -1198,7 +1198,7 @@ for tab in range(len(tables)):
         #         j, "Poverty line Dropdown"
         #     ] = f"{povlines_abs['povline_dropdown'][p]}"
         #     df_graphers.loc[
-        #         j, "Income type Dropdown"
+        #         j, "Income measure Dropdown"
         #     ] = f"{welfare['dropdown_option'][wel]}"
         #     df_graphers.loc[
         #         j, "Equivalence scale Dropdown"
@@ -1228,7 +1228,7 @@ for tab in range(len(tables)):
         #         j, "Poverty line Dropdown"
         #     ] = f"{povlines_abs['povline_dropdown'][p]}"
         #     df_graphers.loc[
-        #         j, "Income type Dropdown"
+        #         j, "Income measure Dropdown"
         #     ] = f"{welfare['dropdown_option'][wel]}"
         #     df_graphers.loc[
         #         j, "Equivalence scale Dropdown"
@@ -1260,7 +1260,7 @@ for tab in range(len(tables)):
         #         j, "Poverty line Dropdown"
         #     ] = f"{povlines_abs.povline_dropdown[p]}"
         #     df_graphers.loc[
-        #         j, "Income type Dropdown"
+        #         j, "Income measure Dropdown"
         #     ] = f"{welfare['dropdown_option'][wel]}"
         #     df_graphers.loc[
         #         j, "Equivalence scale Dropdown"
@@ -1290,7 +1290,7 @@ for tab in range(len(tables)):
         #         j, "Poverty line Dropdown"
         #     ] = f"{povlines_abs['povline_dropdown'][p]}"
         #     df_graphers.loc[
-        #         j, "Income type Dropdown"
+        #         j, "Income measure Dropdown"
         #     ] = f"{welfare['dropdown_option'][wel]}"
         #     df_graphers.loc[
         #         j, "Equivalence scale Dropdown"
@@ -1320,7 +1320,7 @@ for tab in range(len(tables)):
         #         j, "Poverty line Dropdown"
         #     ] = f"{povlines_rel['dropdown'][pct]}"
         #     df_graphers.loc[
-        #         j, "Income type Dropdown"
+        #         j, "Income measure Dropdown"
         #     ] = f"{welfare['dropdown_option'][wel]}"
         #     df_graphers.loc[
         #         j, "Equivalence scale Dropdown"
@@ -1348,7 +1348,7 @@ for tab in range(len(tables)):
         #         j, "Poverty line Dropdown"
         #     ] = f"{povlines_rel['dropdown'][pct]}"
         #     df_graphers.loc[
-        #         j, "Income type Dropdown"
+        #         j, "Income measure Dropdown"
         #     ] = f"{welfare['dropdown_option'][wel]}"
         #     df_graphers.loc[
         #         j, "Equivalence scale Dropdown"
@@ -1376,7 +1376,7 @@ for tab in range(len(tables)):
         #         j, "Poverty line Dropdown"
         #     ] = f"{povlines_rel['dropdown'][pct]}"
         #     df_graphers.loc[
-        #         j, "Income type Dropdown"
+        #         j, "Income measure Dropdown"
         #     ] = f"{welfare['dropdown_option'][wel]}"
         #     df_graphers.loc[
         #         j, "Equivalence scale Dropdown"
@@ -1406,7 +1406,7 @@ for tab in range(len(tables)):
         #         j, "Poverty line Dropdown"
         #     ] = f"{povlines_rel['dropdown'][pct]}"
         #     df_graphers.loc[
-        #         j, "Income type Dropdown"
+        #         j, "Income measure Dropdown"
         #     ] = f"{welfare['dropdown_option'][wel]}"
         #     df_graphers.loc[
         #         j, "Equivalence scale Dropdown"
@@ -1438,7 +1438,7 @@ for tab in range(len(tables)):
         #         j, "Poverty line Dropdown"
         #     ] = f"{povlines_rel['dropdown'][pct]}"
         #     df_graphers.loc[
-        #         j, "Income type Dropdown"
+        #         j, "Income measure Dropdown"
         #     ] = f"{welfare['dropdown_option'][wel]}"
         #     df_graphers.loc[
         #         j, "Equivalence scale Dropdown"
@@ -1468,7 +1468,7 @@ for tab in range(len(tables)):
         #         j, "Poverty line Dropdown"
         #     ] = f"{povlines_rel['dropdown'][pct]}"
         #     df_graphers.loc[
-        #         j, "Income type Dropdown"
+        #         j, "Income measure Dropdown"
         #     ] = f"{welfare['dropdown_option'][wel]}"
         #     df_graphers.loc[
         #         j, "Equivalence scale Dropdown"
@@ -1509,7 +1509,7 @@ df_graphers.loc[
         df_graphers["Poverty line Dropdown"]
         == "$2.15 per day: International Poverty Line"
     )
-    & (df_graphers["Income type Dropdown"] == "After tax vs. before tax")
+    & (df_graphers["Income measure Dropdown"] == "After tax vs. before tax")
     & (
         df_graphers["Adjust for household composition (equivalized income) Checkbox"]
         == "false"
