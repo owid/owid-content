@@ -33,7 +33,7 @@
     "relatedData": [
         {
             "type": "Chart",
-            "imageUrl": "",            
+            "imageUrl": "",
             "title": "Cumulative number of objects launched into space",
             "source": "United Nations",
             "url": "https://ourworldindata.org/grapher/cumulative-number-of-objects-launched-into-outer-space",
@@ -60,29 +60,6 @@
             "source": "CSIS"
         }
     ],
-    "relatedCharts": {
-        "items": [
-            {
-                "title": "People without clean cooking fuels",
-                "slug": "people-without-clean-cooking-fuels-region"
-            },
-            {
-                "title": "Old-age dependency ratio",
-                "slug": "age-dependency-ratio-old",
-                "variantName": "Historical estimates",
-                "isKeyChart": true
-            },
-            {
-                "title": "Value added in the agricultural sector as of GDP vs GDP per capita",
-                "slug": "value-added-in-the-agricultural-sector-as-of-gdp-vs-gdp-per-capita",
-                "variantName": "World Bank"
-            },
-            {
-                "title": "Number of people employed in agriculture",
-                "slug": "number-of-people-employed-in-agriculture"
-            }
-        ]
-    },
     "datasetName": "United Nations - Online Index of Objects Launched into Outer Space – Processed and adapted by Our World in Data",
     "sources": [
         {

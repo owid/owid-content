@@ -97,55 +97,6 @@
             "source": "World Bank"
         }
     ],
-    "relatedCharts": {
-        "title": "Explore charts that include this data",
-        "items": [
-            {
-                "title": "Extreme poverty and child mortality",
-                "slug": "poverty-and-child-mortality"
-            },
-            {
-                "title": "Share of population living in extreme poverty vs GDP per capita ",
-                "slug": "the-share-of-people-living-in-extreme-poverty-vs-gdp-per-capita"
-            },
-            {
-                "title": "Share of population living with less than $2.15 and $3.65 per day ",
-                "slug": "share-of-population-living-with-less-than-190-and-320-per-day"
-            },
-            {
-                "title": "How does extreme monetary poverty compare to multidimensional poverty?",
-                "slug": "MPI-vs-Consumption"
-            },
-            {
-                "title": "How does extreme monetary poverty compare to multidimensional poverty?",
-                "slug": "MPI-vs-Consumption"
-            },
-            {
-                "title": "Comparison of extreme poverty estimates, World Bank PIP vs Bradshaw & Mayhew (2011)",
-                "slug": "comparison-extreme-poverty-rich-countries"
-            },
-            {
-                "title": "Share in extreme poverty vs. poverty gap index",
-                "slug": "poverty-headcount-rate-vs-poverty-gap"
-            },
-            {
-                "title": "CO₂ emissions per capita vs. share in extreme poverty",
-                "slug": "co-emissions-per-capita-vs-the-share-of-people-living-in-extreme-poverty"
-            },
-            {
-                "title": "Energy use per capita vs. share in extreme poverty",
-                "slug": "energy-use-per-capita-vs-share-of-population-in-extreme-poverty"
-            },
-            {
-                "title": "Child mortality vs. share in extreme poverty",
-                "slug": "extreme-poverty-vs-child-mortality"
-            },
-            {
-                "title": "Prevalence of undernourishment vs. share in extreme poverty ",
-                "slug": "prevalence-of-undernourishment-vs-share-of-population-living-in-absolute-poverty"
-            }
-        ]
-    },
     "datasetName": "World Bank Poverty and Inequality Platform Dataset – Processed and adapted by Our World in Data",
     "sources": [
         {

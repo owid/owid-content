@@ -87,16 +87,6 @@
             "source": "International Union for Conservation of Nature"
         }
     ],
-    "relatedCharts": {
-        "items": [
-            {
-                "title": "Living Planet Index by region",
-                "slug": "living-planet-index-by-region",
-                "variantName": "World Wildlife Fund (WWF) and Zoological Society of London",
-                "isKeyChart": true
-            }
-        ]
-    },
     "datasetName": "Living Planet Index – Processed by Our World in Data",
     "sources": [
         {

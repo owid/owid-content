@@ -64,29 +64,6 @@
             "content": "See how income and consumption are concentrated in the top 10% in the World Bank Poverty and Inequality Platform"
         }
     ],
-    "relatedCharts": {
-        "items": [
-            {
-                "title": "People without clean cooking fuels",
-                "slug": "people-without-clean-cooking-fuels-region"
-            },
-            {
-                "title": "Old-age dependency ratio",
-                "slug": "age-dependency-ratio-old",
-                "variantName": "Historical estimates",
-                "isKeyChart": true
-            },
-            {
-                "title": "Value added in the agricultural sector as of GDP vs GDP per capita",
-                "slug": "value-added-in-the-agricultural-sector-as-of-gdp-vs-gdp-per-capita",
-                "variantName": "World Bank"
-            },
-            {
-                "title": "Number of people employed in agriculture",
-                "slug": "number-of-people-employed-in-agriculture"
-            }
-        ]
-    },
     "datasetName": "World Inequality Database – Processed by Our World in Data ",
     "sources": [
         {

@@ -85,29 +85,6 @@
             "source": "BOND Internet Trends"
         }
     ],
-    "relatedCharts": {
-        "items": [
-            {
-                "title": "People without clean cooking fuels",
-                "slug": "people-without-clean-cooking-fuels-region"
-            },
-            {
-                "title": "Old-age dependency ratio",
-                "slug": "age-dependency-ratio-old",
-                "variantName": "Historical estimates",
-                "isKeyChart": true
-            },
-            {
-                "title": "Value added in the agricultural sector as of GDP vs GDP per capita",
-                "slug": "value-added-in-the-agricultural-sector-as-of-gdp-vs-gdp-per-capita",
-                "variantName": "World Bank"
-            },
-            {
-                "title": "Number of people employed in agriculture",
-                "slug": "number-of-people-employed-in-agriculture"
-            }
-        ]
-    },
     "datasetName": "World Bank World Development Indicators – Processed by Our World in Data",
     "sources": [
         {
