@@ -272,7 +272,7 @@ for tab in range(len(tables)):
             # Mean
             df_tables.loc[
                 j, "name"
-            ] = f"Mean {welfare['welfare_type'][wel]} {welfare['title'][wel]})"
+            ] = f"Mean {welfare['welfare_type'][wel]} {welfare['title'][wel]}"
             df_tables.loc[
                 j, "slug"
             ] = f"p0p100_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]}"
