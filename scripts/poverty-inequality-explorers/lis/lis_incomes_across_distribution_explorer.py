@@ -131,7 +131,7 @@ for tab in range(len(tables)):
             # Mean
             df_tables.loc[
                 j, "name"
-            ] = f"Mean {welfare['welfare_type'][wel]} ({welfare['technical_text'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+            ] = f"Mean {welfare['welfare_type'][wel]} ({welfare['title'][wel]})"
             df_tables.loc[
                 j, "slug"
             ] = f"mean_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
@@ -148,7 +148,7 @@ for tab in range(len(tables)):
             # Median
             df_tables.loc[
                 j, "name"
-            ] = f"Median {welfare['welfare_type'][wel]} ({welfare['technical_text'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+            ] = f"Median {welfare['welfare_type'][wel]} ({welfare['title'][wel]})"
             df_tables.loc[
                 j, "slug"
             ] = f"median_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
@@ -164,7 +164,9 @@ for tab in range(len(tables)):
 
             # Thresholds - Deciles
             for dec9 in range(len(deciles9)):
-                df_tables.loc[j, "name"] = f"{deciles9['ordinal'][dec9].capitalize()}"
+                df_tables.loc[
+                    j, "name"
+                ] = f"{deciles9['ordinal'][dec9].capitalize()} ({welfare['title'][wel]})"
                 df_tables.loc[
                     j, "slug"
                 ] = f"thr_{deciles9['lis_notation'][dec9]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
@@ -180,7 +182,9 @@ for tab in range(len(tables)):
 
             # Averages - Deciles
             for dec10 in range(len(deciles10)):
-                df_tables.loc[j, "name"] = f"{deciles10['ordinal'][dec10].capitalize()}"
+                df_tables.loc[
+                    j, "name"
+                ] = f"{deciles10['ordinal'][dec10].capitalize()} ({welfare['title'][wel]})"
                 df_tables.loc[
                     j, "slug"
                 ] = f"avg_{deciles10['lis_notation'][dec10]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
@@ -198,7 +202,9 @@ for tab in range(len(tables)):
 
             # Shares - Deciles
             for dec10 in range(len(deciles10)):
-                df_tables.loc[j, "name"] = f"{deciles10['ordinal'][dec10].capitalize()}"
+                df_tables.loc[
+                    j, "name"
+                ] = f"{deciles10['ordinal'][dec10].capitalize()} ({welfare['title'][wel]})"
                 df_tables.loc[
                     j, "slug"
                 ] = f"share_{deciles10['lis_notation'][dec10]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
@@ -219,7 +225,7 @@ for tab in range(len(tables)):
                 # Mean
                 df_tables.loc[
                     j, "name"
-                ] = f"Mean {welfare['welfare_type'][wel]} ({welfare['technical_text'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+                ] = f"Mean {welfare['welfare_type'][wel]} ({welfare['title'][wel]})"
                 df_tables.loc[
                     j, "slug"
                 ] = f"mean_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}{income_aggregation['slug_suffix'][agg]}"
@@ -241,7 +247,7 @@ for tab in range(len(tables)):
                 # Median
                 df_tables.loc[
                     j, "name"
-                ] = f"Median {welfare['welfare_type'][wel]} ({welfare['technical_text'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+                ] = f"Median {welfare['welfare_type'][wel]} ({welfare['title'][wel]})"
                 df_tables.loc[
                     j, "slug"
                 ] = f"median_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}{income_aggregation['slug_suffix'][agg]}"
@@ -265,7 +271,7 @@ for tab in range(len(tables)):
                 for dec9 in range(len(deciles9)):
                     df_tables.loc[
                         j, "name"
-                    ] = f"{deciles9['ordinal'][dec9].capitalize()}"
+                    ] = f"{deciles9['ordinal'][dec9].capitalize()} ({welfare['title'][wel]})"
                     df_tables.loc[
                         j, "slug"
                     ] = f"thr_{deciles9['lis_notation'][dec9]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}{income_aggregation['slug_suffix'][agg]}"
@@ -289,7 +295,7 @@ for tab in range(len(tables)):
                 for dec10 in range(len(deciles10)):
                     df_tables.loc[
                         j, "name"
-                    ] = f"{deciles10['ordinal'][dec10].capitalize()}"
+                    ] = f"{deciles10['ordinal'][dec10].capitalize()} ({welfare['title'][wel]})"
                     df_tables.loc[
                         j, "slug"
                     ] = f"avg_{deciles10['lis_notation'][dec10]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}{income_aggregation['slug_suffix'][agg]}"
