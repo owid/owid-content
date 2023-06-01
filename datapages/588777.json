@@ -15,7 +15,7 @@
             "url": "https://ourworldindata.org/agricultural-production"
         }
     ],
-    "variantDescription1": "FAO",
+    "variantSource": "FAO",
     "nameOfSource": "Food and Agriculture Organization of the United Nations",
     "owidProcessingLevel": "<a href>Processed</a> by Our World in Data",
     "dateRange": "1961-2021",

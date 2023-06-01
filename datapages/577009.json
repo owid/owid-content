@@ -11,7 +11,7 @@
             "url": "https://ourworldindata.org/happiness-and-life-satisfaction/"
         }
     ],
-    "variantDescription1": "World Happiness Report",
+    "variantSource": "World Happiness Report",
     "nameOfSource": "World Happiness Report (2023)",
     "owidProcessingLevel": "<a href>Processed</a> by Our World in Data",
     "dateRange": "2003-2021",

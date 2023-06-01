@@ -15,7 +15,7 @@
             "url": "https://ourworldindata.org/income-inequality"
         }
     ],
-    "variantDescription1": "World Bank, PIP",
+    "variantSource": "World Bank, PIP",
     "variantDescription2": "",
     "nameOfSource": "World Bank, Poverty and Inequality Platform",
     "owidProcessingLevel": "<a href>Processed and adapted</a> by Our World in Data",

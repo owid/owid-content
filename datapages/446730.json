@@ -23,7 +23,7 @@
             "url": "https://ourworldindata.org/famines"
         }
     ],
-    "variantDescription1": "UNICEF/WHO",
+    "variantSource": "UNICEF/WHO",
     "variantDescription2": "",
     "nameOfSource": "UNICEF, World Health Organization and World Bank",
     "owidProcessingLevel": "<a href>Processed</a> by Our World in Data",

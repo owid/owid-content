@@ -11,7 +11,7 @@
             "url": "https://ourworldindata.org/democracy"
         }
     ],
-    "variantDescription1": "V-Dem",
+    "variantSource": "V-Dem",
     "variantDescription2": "",
     "nameOfSource": "OWID based on V-Dem (v13)",
     "owidProcessingLevel": "<a href>Processed and adapted</a> by Our World in Data",

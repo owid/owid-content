@@ -15,7 +15,7 @@
             "url": "https://ourworldindata.org/global-economic-inequality"
         }
     ],
-    "variantDescription1": "World Inequality Database",
+    "variantSource": "World Inequality Database",
     "variantDescription2": "Before tax",
     "nameOfSource": "World Inequality Database (WID.world) (2023)",
     "owidProcessingLevel": "<a href>Processed</a> by Our World in Data",
