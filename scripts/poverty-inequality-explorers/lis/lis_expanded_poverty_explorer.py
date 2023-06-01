@@ -190,6 +190,29 @@ for tab in range(len(tables)):
                 df_tables.loc[j, "colorScaleScheme"] = "Purples"
                 j += 1
 
+            # Average shortfall ($): Daily value
+            for p in range(len(povlines_abs)):
+                df_tables.loc[
+                    j, "name"
+                ] = f"${povlines_abs['dollars_text'][p]} a day - average shortfall ({welfare['title'][wel]})"
+                df_tables.loc[
+                    j, "slug"
+                ] = f"avg_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}_day"
+                df_tables.loc[
+                    j, "description"
+                ] = f"The average shortfall from a poverty line of ${povlines_abs['dollars_text'][p]} (averaged across the population in poverty).{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}{equivalence_scales['description'][eq]}"
+                df_tables.loc[j, "unit"] = "international-$ in 2017 prices"
+                df_tables.loc[j, "shortUnit"] = "$"
+                df_tables.loc[j, "type"] = "Numeric"
+                df_tables.loc[j, "colorScaleNumericBins"] = povlines_abs[
+                    "scale_avg_shortfall"
+                ][p]
+                df_tables.loc[j, "colorScaleScheme"] = "Purples"
+                df_tables.loc[
+                    j, "transform"
+                ] = f"multiplyBy avg_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]} 0.00274"
+                j += 1
+
             # Average shortfall (% of poverty line) [this is the income gap ratio]
             for p in range(len(povlines_abs)):
                 df_tables.loc[
@@ -302,6 +325,27 @@ for tab in range(len(tables)):
                 df_tables.loc[j, "type"] = "Numeric"
                 df_tables.loc[j, "colorScaleNumericBins"] = "1000;2000;3000;4000;5000"
                 df_tables.loc[j, "colorScaleScheme"] = "YlOrBr"
+                j += 1
+
+            # Average shortfall ($): Daily value
+            for pct in range(len(povlines_rel)):
+                df_tables.loc[
+                    j, "name"
+                ] = f"{povlines_rel['percent'][pct]} of median {welfare['welfare_type'][wel]} - average shortfall ({welfare['title'][wel]})"
+                df_tables.loc[
+                    j, "slug"
+                ] = f"avg_shortfall_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_day"
+                df_tables.loc[
+                    j, "description"
+                ] = f"The average shortfall from a poverty line of of {povlines_rel['text'][pct]} {welfare['welfare_type'][wel]} (averaged across the population in poverty).{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}{equivalence_scales['description'][eq]}"
+                df_tables.loc[j, "unit"] = "international-$ in 2017 prices"
+                df_tables.loc[j, "shortUnit"] = "$"
+                df_tables.loc[j, "type"] = "Numeric"
+                df_tables.loc[j, "colorScaleNumericBins"] = "1;2;5;10;20;20.0001"
+                df_tables.loc[j, "colorScaleScheme"] = "YlOrBr"
+                df_tables.loc[
+                    j, "transform"
+                ] = f"multiplyBy avg_shortfall_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} 0.00274"
                 j += 1
 
             # Average shortfall (% of poverty line) [this is the income gap ratio]
@@ -522,7 +566,7 @@ for tab in range(len(tables)):
                 ] = f"{povlines_abs['title_avg_shortfall'][p]} ({welfare['title'][wel]})"
                 df_graphers.loc[
                     j, "ySlugs"
-                ] = f"avg_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
+                ] = f"avg_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}_day"
                 df_graphers.loc[j, "Indicator Dropdown"] = "Average shortfall ($)"
                 df_graphers.loc[
                     j, "Poverty line Dropdown"
@@ -702,7 +746,7 @@ for tab in range(len(tables)):
                 ] = f"Average shortfall from a poverty line of {povlines_rel['text'][pct]} {welfare['welfare_type'][wel]} ({welfare['title'][wel]})"
                 df_graphers.loc[
                     j, "ySlugs"
-                ] = f"avg_shortfall_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
+                ] = f"avg_shortfall_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_day"
                 df_graphers.loc[j, "Indicator Dropdown"] = "Average shortfall ($)"
                 df_graphers.loc[
                     j, "Poverty line Dropdown"
@@ -881,7 +925,7 @@ for tab in range(len(tables)):
             ] = f"{povlines_abs['title_avg_shortfall'][p]} (After vs. before tax)"
             df_graphers.loc[
                 j, "ySlugs"
-            ] = f"avg_shortfall_mi_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]} avg_shortfall_dhi_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
+            ] = f"avg_shortfall_mi_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}_day avg_shortfall_dhi_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}_day"
             df_graphers.loc[j, "Indicator Dropdown"] = "Average shortfall ($)"
             df_graphers.loc[
                 j, "Poverty line Dropdown"
@@ -1049,7 +1093,7 @@ for tab in range(len(tables)):
             ] = f"Average shortfall from a poverty line of {povlines_rel['text'][pct]} income (After vs. before tax)"
             df_graphers.loc[
                 j, "ySlugs"
-            ] = f"avg_shortfall_{povlines_rel['slug_suffix'][pct]}_mi_{equivalence_scales['slug'][eq]} avg_shortfall_{povlines_rel['slug_suffix'][pct]}_dhi_{equivalence_scales['slug'][eq]}"
+            ] = f"avg_shortfall_{povlines_rel['slug_suffix'][pct]}_mi_{equivalence_scales['slug'][eq]}_day avg_shortfall_{povlines_rel['slug_suffix'][pct]}_dhi_{equivalence_scales['slug'][eq]}_day"
             df_graphers.loc[j, "Indicator Dropdown"] = "Average shortfall ($)"
             df_graphers.loc[
                 j, "Poverty line Dropdown"

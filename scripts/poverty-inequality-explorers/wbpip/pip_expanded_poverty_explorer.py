@@ -154,6 +154,38 @@ for survey in range(len(survey_type)):
         df_tables.loc[j, "survey_type"] = survey_type["table_name"][survey]
         j += 1
 
+    # Total shortfall (abs): Yearly value
+    for p in range(len(povlines_abs)):
+        df_tables.loc[
+            j, "name"
+        ] = f"${povlines_abs.dollars_text[p]} a day - total shortfall"
+        df_tables.loc[j, "slug"] = f"total_shortfall_{povlines_abs.cents[p]}_year"
+        df_tables.loc[
+            j, "sourceName"
+        ] = "World Bank Poverty and Inequality Platform (2022)"
+        df_tables.loc[
+            j, "description"
+        ] = f"The total shortfall from a poverty line of ${povlines_abs.dollars_text[p]} a day. This is the amount of money that would be theoretically needed to lift the {survey_type.text[survey]} of all people in poverty up to the poverty line. However this is not a measure of the actual cost of eliminating poverty, since it does not take into account the costs involved in making the necessary transfers nor any changes in behaviour they would bring about."
+        df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
+        df_tables.loc[
+            j, "dataPublishedBy"
+        ] = "World Bank Poverty and Inequality Platform (PIP)"
+        df_tables.loc[j, "unit"] = "international-$ in 2017 prices"
+        df_tables.loc[j, "shortUnit"] = "$"
+        df_tables.loc[j, "tolerance"] = 5
+        df_tables.loc[j, "type"] = "Numeric"
+        df_tables.loc[j, "colorScaleNumericMinValue"] = 0
+        df_tables.loc[j, "colorScaleNumericBins"] = povlines_abs.scale_total_shortfall[
+            p
+        ]
+        df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
+        df_tables.loc[j, "colorScaleScheme"] = "Oranges"
+        df_tables.loc[j, "survey_type"] = survey_type["table_name"][survey]
+        df_tables.loc[
+            j, "transform"
+        ] = f"multiplyBy total_shortfall_{povlines_abs.cents[p]} 365"
+        j += 1
+
     # Average shortfall ($ per day)
     for p in range(len(povlines_abs)):
         df_tables.loc[
@@ -318,6 +350,40 @@ for survey in range(len(survey_type)):
         df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
         df_tables.loc[j, "colorScaleScheme"] = "YlOrBr"
         df_tables.loc[j, "survey_type"] = survey_type["table_name"][survey]
+        j += 1
+
+    # Total shortfall (rel): Yearly value
+    for pct in range(len(povlines_rel)):
+        df_tables.loc[
+            j, "name"
+        ] = f"{povlines_rel.percent[pct]} of median - total shortfall"
+        df_tables.loc[
+            j, "slug"
+        ] = f"total_shortfall_{povlines_rel.slug_suffix[pct]}_year"
+        df_tables.loc[
+            j, "sourceName"
+        ] = "World Bank Poverty and Inequality Platform (2022)"
+        df_tables.loc[
+            j, "description"
+        ] = f"The total shortfall from a poverty line of {povlines_rel.text[pct]} {survey_type.text[survey]}. This is the amount of money that would be theoretically needed to lift the {survey_type.text[survey]} of all people in poverty up to the poverty line. However this is not a measure of the actual cost of eliminating poverty, since it does not take into account the costs involved in making the necessary transfers nor any changes in behaviour they would bring about."
+        df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
+        df_tables.loc[
+            j, "dataPublishedBy"
+        ] = "World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data."
+        df_tables.loc[j, "unit"] = np.nan
+        df_tables.loc[j, "shortUnit"] = np.nan
+        df_tables.loc[j, "tolerance"] = 5
+        df_tables.loc[j, "type"] = "Numeric"
+        df_tables.loc[j, "colorScaleNumericMinValue"] = 0
+        df_tables.loc[j, "colorScaleNumericBins"] = povlines_rel.scale_total_shortfall[
+            pct
+        ]
+        df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
+        df_tables.loc[j, "colorScaleScheme"] = "YlOrBr"
+        df_tables.loc[j, "survey_type"] = survey_type["table_name"][survey]
+        df_tables.loc[
+            j, "transform"
+        ] = f"multiplyBy total_shortfall_{povlines_rel.slug_suffix[pct]} 365"
         j += 1
 
     # Average shortfall ($ per day)
@@ -584,7 +650,7 @@ for survey in range(len(survey_type)):
     # Total shortfall (abs)
     for p in range(len(povlines_abs)):
         df_graphers.loc[j, "title"] = f"{povlines_abs.title_total_shortfall[p]}"
-        df_graphers.loc[j, "ySlugs"] = f"total_shortfall_{povlines_abs.cents[p]}"
+        df_graphers.loc[j, "ySlugs"] = f"total_shortfall_{povlines_abs.cents[p]}_year"
         df_graphers.loc[j, "Indicator Dropdown"] = "Total shortfall from poverty line"
         df_graphers.loc[
             j, "Poverty line Dropdown"
@@ -746,7 +812,7 @@ for survey in range(len(survey_type)):
         ] = f"Total shortfall from a poverty line of {povlines_rel.text[pct]} {survey_type.text[survey]}"
         df_graphers.loc[
             j, "ySlugs"
-        ] = f"total_shortfall_{povlines_rel.slug_suffix[pct]}"
+        ] = f"total_shortfall_{povlines_rel.slug_suffix[pct]}_year"
         df_graphers.loc[j, "Indicator Dropdown"] = "Total shortfall from poverty line"
         df_graphers.loc[j, "Poverty line Dropdown"] = f"{povlines_rel.dropdown[pct]}"
         df_graphers.loc[
