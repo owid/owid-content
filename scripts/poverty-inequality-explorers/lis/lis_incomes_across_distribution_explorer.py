@@ -559,76 +559,16 @@ for tab in range(len(tables)):
                     j += 1
 
             # BEFORE VS. AFTER TAX
-            # Mean
-            df_graphers.loc[
-                j, "title"
-            ] = f"Mean income per {income_aggregation['aggregation'][agg]} (After tax vs. before tax)"
-            df_graphers.loc[
-                j, "ySlugs"
-            ] = f"mean_mi_{equivalence_scales['slug'][eq]}{income_aggregation['slug_suffix'][agg]} mean_dhi_{equivalence_scales['slug'][eq]}{income_aggregation['slug_suffix'][agg]}"
-            df_graphers.loc[j, "Indicator Dropdown"] = "Mean income or consumption"
-            df_graphers.loc[j, "Decile Dropdown"] = np.nan
-            df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
-            df_graphers.loc[
-                j, "Period Radio"
-            ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
-            df_graphers.loc[
-                j, "Adjust for household composition (equivalized income) Checkbox"
-            ] = equivalence_scales["checkbox"][eq]
-            df_graphers.loc[j, "Relative change Checkbox"] = "false"
-            df_graphers.loc[j, "stackMode"] = "absolute"
-            df_graphers.loc[
-                j, "subtitle"
-            ] = f"This data is adjusted for inflation and for differences in the cost of living between countries."
-            df_graphers.loc[
-                j, "note"
-            ] = f"This data is measured in international-$ at 2017 prices. {equivalence_scales['note'][eq]}"
-            df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
-            df_graphers.loc[j, "hasMapTab"] = "false"
-            df_graphers.loc[j, "tab"] = "chart"
-            df_graphers.loc[j, "yScaleToggle"] = "true"
-            j += 1
-
-            # Median
-            df_graphers.loc[
-                j, "title"
-            ] = f"Median income per {income_aggregation['aggregation'][agg]} (After tax vs. before tax)"
-            df_graphers.loc[
-                j, "ySlugs"
-            ] = f"median_mi_{equivalence_scales['slug'][eq]}{income_aggregation['slug_suffix'][agg]} median_dhi_{equivalence_scales['slug'][eq]}{income_aggregation['slug_suffix'][agg]}"
-            df_graphers.loc[j, "Indicator Dropdown"] = "Median income or consumption"
-            df_graphers.loc[j, "Decile Dropdown"] = np.nan
-            df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
-            df_graphers.loc[
-                j, "Period Radio"
-            ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
-            df_graphers.loc[
-                j, "Adjust for household composition (equivalized income) Checkbox"
-            ] = equivalence_scales["checkbox"][eq]
-            df_graphers.loc[j, "Relative change Checkbox"] = "false"
-            df_graphers.loc[j, "stackMode"] = "absolute"
-            df_graphers.loc[
-                j, "subtitle"
-            ] = f"This data is adjusted for inflation and for differences in the cost of living between countries."
-            df_graphers.loc[
-                j, "note"
-            ] = f"This data is measured in international-$ at 2017 prices. {equivalence_scales['note'][eq]}"
-            df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
-            df_graphers.loc[j, "hasMapTab"] = "false"
-            df_graphers.loc[j, "tab"] = "chart"
-            df_graphers.loc[j, "yScaleToggle"] = "true"
-            j += 1
-
-            # Thresholds - Deciles
-            for dec9 in range(len(deciles9)):
+            for rel_toggle in range(len(relative_toggle)):
+                # Mean
                 df_graphers.loc[
                     j, "title"
-                ] = f"Threshold income per {income_aggregation['aggregation'][agg]} marking the {deciles9['ordinal'][dec9]} (After tax vs. before tax)"
+                ] = f"Mean income per {income_aggregation['aggregation'][agg]} (After tax vs. before tax)"
                 df_graphers.loc[
                     j, "ySlugs"
-                ] = f"thr_{deciles9['lis_notation'][dec9]}_mi_{equivalence_scales['slug'][eq]}{income_aggregation['slug_suffix'][agg]} thr_{deciles9['lis_notation'][dec9]}_dhi_{equivalence_scales['slug'][eq]}{income_aggregation['slug_suffix'][agg]}"
-                df_graphers.loc[j, "Indicator Dropdown"] = "Decile thresholds"
-                df_graphers.loc[j, "Decile Dropdown"] = deciles9["dropdown"][dec9]
+                ] = f"mean_mi_{equivalence_scales['slug'][eq]}{income_aggregation['slug_suffix'][agg]} mean_dhi_{equivalence_scales['slug'][eq]}{income_aggregation['slug_suffix'][agg]}"
+                df_graphers.loc[j, "Indicator Dropdown"] = "Mean income or consumption"
+                df_graphers.loc[j, "Decile Dropdown"] = np.nan
                 df_graphers.loc[
                     j, "Income measure Dropdown"
                 ] = "After tax vs. before tax"
@@ -636,35 +576,37 @@ for tab in range(len(tables)):
                     j, "Period Radio"
                 ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
                 df_graphers.loc[
-                    j,
-                    "Adjust for household composition (equivalized income) Checkbox",
+                    j, "Adjust for household composition (equivalized income) Checkbox"
                 ] = equivalence_scales["checkbox"][eq]
-                df_graphers.loc[j, "Relative change Checkbox"] = "false"
-                df_graphers.loc[j, "stackMode"] = "absolute"
+                df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
+                    "checkbox"
+                ][rel_toggle]
+                df_graphers.loc[j, "stackMode"] = relative_toggle["stack_mode"][
+                    rel_toggle
+                ]
                 df_graphers.loc[
                     j, "subtitle"
-                ] = f"This is the level of income below which {deciles9['decile'][dec9]}0% of the population falls."
+                ] = f"This data is adjusted for inflation and for differences in the cost of living between countries."
                 df_graphers.loc[
                     j, "note"
-                ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. {equivalence_scales['note'][eq]}"
+                ] = f"This data is measured in international-$ at 2017 prices. {equivalence_scales['note'][eq]}"
                 df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
                 df_graphers.loc[j, "hasMapTab"] = "false"
                 df_graphers.loc[j, "tab"] = "chart"
                 df_graphers.loc[j, "yScaleToggle"] = "true"
                 j += 1
 
-            # Averages - Deciles
-            for dec10 in range(len(deciles10)):
+                # Median
                 df_graphers.loc[
                     j, "title"
-                ] = f"Mean income per {income_aggregation['aggregation'][agg]} within the {deciles10['ordinal'][dec10]} (After tax vs. before tax)"
+                ] = f"Median income per {income_aggregation['aggregation'][agg]} (After tax vs. before tax)"
                 df_graphers.loc[
                     j, "ySlugs"
-                ] = f"avg_{deciles10['lis_notation'][dec10]}_mi_{equivalence_scales['slug'][eq]}{income_aggregation['slug_suffix'][agg]} avg_{deciles10['lis_notation'][dec10]}_dhi_{equivalence_scales['slug'][eq]}{income_aggregation['slug_suffix'][agg]}"
+                ] = f"median_mi_{equivalence_scales['slug'][eq]}{income_aggregation['slug_suffix'][agg]} median_dhi_{equivalence_scales['slug'][eq]}{income_aggregation['slug_suffix'][agg]}"
                 df_graphers.loc[
                     j, "Indicator Dropdown"
-                ] = "Mean income or consumption, by decile"
-                df_graphers.loc[j, "Decile Dropdown"] = deciles10["dropdown"][dec10]
+                ] = "Median income or consumption"
+                df_graphers.loc[j, "Decile Dropdown"] = np.nan
                 df_graphers.loc[
                     j, "Income measure Dropdown"
                 ] = "After tax vs. before tax"
@@ -672,22 +614,103 @@ for tab in range(len(tables)):
                     j, "Period Radio"
                 ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
                 df_graphers.loc[
-                    j,
-                    "Adjust for household composition (equivalized income) Checkbox",
+                    j, "Adjust for household composition (equivalized income) Checkbox"
                 ] = equivalence_scales["checkbox"][eq]
-                df_graphers.loc[j, "Relative change Checkbox"] = "false"
-                df_graphers.loc[j, "stackMode"] = "absolute"
+                df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
+                    "checkbox"
+                ][rel_toggle]
+                df_graphers.loc[j, "stackMode"] = relative_toggle["stack_mode"][
+                    rel_toggle
+                ]
                 df_graphers.loc[
                     j, "subtitle"
-                ] = f"This is the mean income within the {deciles10['ordinal'][dec10]} (tenth of the population)."
+                ] = f"This data is adjusted for inflation and for differences in the cost of living between countries."
                 df_graphers.loc[
                     j, "note"
-                ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. {equivalence_scales['note'][eq]}"
+                ] = f"This data is measured in international-$ at 2017 prices. {equivalence_scales['note'][eq]}"
                 df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
                 df_graphers.loc[j, "hasMapTab"] = "false"
                 df_graphers.loc[j, "tab"] = "chart"
                 df_graphers.loc[j, "yScaleToggle"] = "true"
                 j += 1
+
+                # Thresholds - Deciles
+                for dec9 in range(len(deciles9)):
+                    df_graphers.loc[
+                        j, "title"
+                    ] = f"Threshold income per {income_aggregation['aggregation'][agg]} marking the {deciles9['ordinal'][dec9]} (After tax vs. before tax)"
+                    df_graphers.loc[
+                        j, "ySlugs"
+                    ] = f"thr_{deciles9['lis_notation'][dec9]}_mi_{equivalence_scales['slug'][eq]}{income_aggregation['slug_suffix'][agg]} thr_{deciles9['lis_notation'][dec9]}_dhi_{equivalence_scales['slug'][eq]}{income_aggregation['slug_suffix'][agg]}"
+                    df_graphers.loc[j, "Indicator Dropdown"] = "Decile thresholds"
+                    df_graphers.loc[j, "Decile Dropdown"] = deciles9["dropdown"][dec9]
+                    df_graphers.loc[
+                        j, "Income measure Dropdown"
+                    ] = "After tax vs. before tax"
+                    df_graphers.loc[
+                        j, "Period Radio"
+                    ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
+                    df_graphers.loc[
+                        j,
+                        "Adjust for household composition (equivalized income) Checkbox",
+                    ] = equivalence_scales["checkbox"][eq]
+                    df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
+                        "checkbox"
+                    ][rel_toggle]
+                    df_graphers.loc[j, "stackMode"] = relative_toggle["stack_mode"][
+                        rel_toggle
+                    ]
+                    df_graphers.loc[
+                        j, "subtitle"
+                    ] = f"This is the level of income below which {deciles9['decile'][dec9]}0% of the population falls."
+                    df_graphers.loc[
+                        j, "note"
+                    ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. {equivalence_scales['note'][eq]}"
+                    df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
+                    df_graphers.loc[j, "hasMapTab"] = "false"
+                    df_graphers.loc[j, "tab"] = "chart"
+                    df_graphers.loc[j, "yScaleToggle"] = "true"
+                    j += 1
+
+                # Averages - Deciles
+                for dec10 in range(len(deciles10)):
+                    df_graphers.loc[
+                        j, "title"
+                    ] = f"Mean income per {income_aggregation['aggregation'][agg]} within the {deciles10['ordinal'][dec10]} (After tax vs. before tax)"
+                    df_graphers.loc[
+                        j, "ySlugs"
+                    ] = f"avg_{deciles10['lis_notation'][dec10]}_mi_{equivalence_scales['slug'][eq]}{income_aggregation['slug_suffix'][agg]} avg_{deciles10['lis_notation'][dec10]}_dhi_{equivalence_scales['slug'][eq]}{income_aggregation['slug_suffix'][agg]}"
+                    df_graphers.loc[
+                        j, "Indicator Dropdown"
+                    ] = "Mean income or consumption, by decile"
+                    df_graphers.loc[j, "Decile Dropdown"] = deciles10["dropdown"][dec10]
+                    df_graphers.loc[
+                        j, "Income measure Dropdown"
+                    ] = "After tax vs. before tax"
+                    df_graphers.loc[
+                        j, "Period Radio"
+                    ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
+                    df_graphers.loc[
+                        j,
+                        "Adjust for household composition (equivalized income) Checkbox",
+                    ] = equivalence_scales["checkbox"][eq]
+                    df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
+                        "checkbox"
+                    ][rel_toggle]
+                    df_graphers.loc[j, "stackMode"] = relative_toggle["stack_mode"][
+                        rel_toggle
+                    ]
+                    df_graphers.loc[
+                        j, "subtitle"
+                    ] = f"This is the mean income within the {deciles10['ordinal'][dec10]} (tenth of the population)."
+                    df_graphers.loc[
+                        j, "note"
+                    ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. {equivalence_scales['note'][eq]}"
+                    df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
+                    df_graphers.loc[j, "hasMapTab"] = "false"
+                    df_graphers.loc[j, "tab"] = "chart"
+                    df_graphers.loc[j, "yScaleToggle"] = "true"
+                    j += 1
 
                 # # Compare equivalence scales
                 # # Mean
