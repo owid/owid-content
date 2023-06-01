@@ -783,9 +783,9 @@ for tab in range(len(tables)):
         df_graphers.loc[
             j, "note"
         ] = f"This data is measured in international-$ at 2021 prices."
-        df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
-        df_graphers.loc[j, "hasMapTab"] = "true"
-        df_graphers.loc[j, "tab"] = "map"
+        df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
+        df_graphers.loc[j, "hasMapTab"] = "false"
+        df_graphers.loc[j, "tab"] = "chart"
         df_graphers.loc[j, "yScaleToggle"] = "true"
         j += 1
 
@@ -810,9 +810,9 @@ for tab in range(len(tables)):
         df_graphers.loc[
             j, "note"
         ] = f"This data is measured in international-$ at 2021 prices."
-        df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
-        df_graphers.loc[j, "hasMapTab"] = "true"
-        df_graphers.loc[j, "tab"] = "map"
+        df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
+        df_graphers.loc[j, "hasMapTab"] = "false"
+        df_graphers.loc[j, "tab"] = "chart"
         df_graphers.loc[j, "yScaleToggle"] = "true"
         j += 1
 
@@ -838,9 +838,9 @@ for tab in range(len(tables)):
             df_graphers.loc[
                 j, "note"
             ] = f"This data is measured in international-$ at 2021 prices to account for inflation and differences in the cost of living between countries."
-            df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
-            df_graphers.loc[j, "hasMapTab"] = "true"
-            df_graphers.loc[j, "tab"] = "map"
+            df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
+            df_graphers.loc[j, "hasMapTab"] = "false"
+            df_graphers.loc[j, "tab"] = "chart"
             df_graphers.loc[j, "yScaleToggle"] = "true"
             j += 1
 
@@ -868,9 +868,9 @@ for tab in range(len(tables)):
             df_graphers.loc[
                 j, "note"
             ] = f"This data is measured in international-$ at 2021 prices to account for inflation and differences in the cost of living between countries."
-            df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
-            df_graphers.loc[j, "hasMapTab"] = "true"
-            df_graphers.loc[j, "tab"] = "map"
+            df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
+            df_graphers.loc[j, "hasMapTab"] = "false"
+            df_graphers.loc[j, "tab"] = "chart"
             df_graphers.loc[j, "yScaleToggle"] = "true"
             j += 1
 
@@ -894,9 +894,9 @@ for tab in range(len(tables)):
             df_graphers.loc[
                 j, "note"
             ] = f"This data is measured in international-$ at 2021 prices to account for inflation and differences in the cost of living between countries."
-            df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
-            df_graphers.loc[j, "hasMapTab"] = "true"
-            df_graphers.loc[j, "tab"] = "map"
+            df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
+            df_graphers.loc[j, "hasMapTab"] = "false"
+            df_graphers.loc[j, "tab"] = "chart"
             df_graphers.loc[j, "yScaleToggle"] = "true"
             j += 1
 
@@ -922,9 +922,9 @@ for tab in range(len(tables)):
             df_graphers.loc[
                 j, "note"
             ] = f"This data is measured in international-$ at 2021 prices to account for inflation and differences in the cost of living between countries."
-            df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
-            df_graphers.loc[j, "hasMapTab"] = "true"
-            df_graphers.loc[j, "tab"] = "map"
+            df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
+            df_graphers.loc[j, "hasMapTab"] = "false"
+            df_graphers.loc[j, "tab"] = "chart"
             df_graphers.loc[j, "yScaleToggle"] = "true"
             j += 1
 
@@ -1045,9 +1045,9 @@ for tab in range(len(tables)):
             j, "subtitle"
         ] = f"This is the income of the {deciles10['ordinal'][dec10]} (tenth of the population) as a share of total income."
         df_graphers.loc[j, "note"] = ""
-        df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
-        df_graphers.loc[j, "hasMapTab"] = "true"
-        df_graphers.loc[j, "tab"] = "map"
+        df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
+        df_graphers.loc[j, "hasMapTab"] = "false"
+        df_graphers.loc[j, "tab"] = "chart"
         j += 1
 
     # Shares - Top
@@ -1068,9 +1068,9 @@ for tab in range(len(tables)):
             j, "subtitle"
         ] = f"This is the income of the richest {top_pct['name'][top]} as a share of total income."
         df_graphers.loc[j, "note"] = ""
-        df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
-        df_graphers.loc[j, "hasMapTab"] = "true"
-        df_graphers.loc[j, "tab"] = "map"
+        df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
+        df_graphers.loc[j, "hasMapTab"] = "false"
+        df_graphers.loc[j, "tab"] = "chart"
         j += 1
 
     df_graphers["tableSlug"] = tables["name"][tab]
