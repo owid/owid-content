@@ -71,8 +71,7 @@
         {
             "sourceName": "World Bank World Development Indicators",
             "sourceRetrievedOn": "2022-06-02",
-            "sourceRetrievedFromUrl": "https://datacatalog.worldbank.org/search/dataset/0037712/World-Development-Indicators",
-            "sourceCodeUrl": "https://ourworldindata.org/explorers/co2"
+            "sourceRetrievedFromUrl": "https://datacatalog.worldbank.org/search/dataset/0037712/World-Development-Indicators"
         }
     ]
 }

@@ -69,8 +69,7 @@
         {
             "sourceName": "World Inequality Database (WID.world)",
             "sourceRetrievedOn": "2023-03-29",
-            "sourceRetrievedFromUrl": "https://wid.world/",
-            "sourceCodeUrl": "https://ourworldindata.org/explorers/co2"
+            "sourceRetrievedFromUrl": "https://wid.world/"
         }
     ]
 }

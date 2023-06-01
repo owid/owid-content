@@ -92,8 +92,7 @@
         {
             "sourceName": "Global Carbon Project",
             "sourceRetrievedOn": "2021-09-01",
-            "sourceRetrievedFromUrl": "https://zenodo.org/record/7215364/files/...",
-            "sourceCodeUrl": "https://ourworldindata.org/explorers/co2"
+            "sourceRetrievedFromUrl": "https://zenodo.org/record/7215364/files/..."
         },
         {
             "sourceName": "Hypothetical source 2"

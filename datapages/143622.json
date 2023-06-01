@@ -92,8 +92,7 @@
         {
             "sourceName": "Zoological Society of London",
             "sourceRetrievedOn": "2022-10-13",
-            "sourceRetrievedFromUrl": "https://stats.livingplanetindex.org/",
-            "sourceCodeUrl": ""
+            "sourceRetrievedFromUrl": "https://stats.livingplanetindex.org/"
         }
     ]
 }
