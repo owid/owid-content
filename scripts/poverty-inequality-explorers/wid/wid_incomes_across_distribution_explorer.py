@@ -425,7 +425,7 @@ for tab in range(len(tables)):
             df_graphers.loc[j, "Indicator Dropdown"] = "Mean income"
             df_graphers.loc[j, "Decile/quantile Dropdown"] = np.nan
             df_graphers.loc[
-                j, "Measure of welfare Dropdown"
+                j, "Income measure Dropdown"
             ] = f"{welfare['dropdown_option'][wel]}"
             df_graphers.loc[
                 j, "Period Radio"
@@ -454,7 +454,7 @@ for tab in range(len(tables)):
             df_graphers.loc[j, "Indicator Dropdown"] = "Median income"
             df_graphers.loc[j, "Decile/quantile Dropdown"] = np.nan
             df_graphers.loc[
-                j, "Measure of welfare Dropdown"
+                j, "Income measure Dropdown"
             ] = f"{welfare['dropdown_option'][wel]}"
             df_graphers.loc[
                 j, "Period Radio"
@@ -486,7 +486,7 @@ for tab in range(len(tables)):
                     dec9
                 ]
                 df_graphers.loc[
-                    j, "Measure of welfare Dropdown"
+                    j, "Income measure Dropdown"
                 ] = f"{welfare['dropdown_option'][wel]}"
                 df_graphers.loc[
                     j, "Period Radio"
@@ -518,7 +518,7 @@ for tab in range(len(tables)):
                     dec10
                 ]
                 df_graphers.loc[
-                    j, "Measure of welfare Dropdown"
+                    j, "Income measure Dropdown"
                 ] = f"{welfare['dropdown_option'][wel]}"
                 df_graphers.loc[
                     j, "Period Radio"
@@ -548,7 +548,7 @@ for tab in range(len(tables)):
                 df_graphers.loc[j, "Indicator Dropdown"] = "Decile thresholds"
                 df_graphers.loc[j, "Decile/quantile Dropdown"] = top_pct["name"][top]
                 df_graphers.loc[
-                    j, "Measure of welfare Dropdown"
+                    j, "Income measure Dropdown"
                 ] = f"{welfare['dropdown_option'][wel]}"
                 df_graphers.loc[
                     j, "Period Radio"
@@ -576,7 +576,7 @@ for tab in range(len(tables)):
                 df_graphers.loc[j, "Indicator Dropdown"] = "Mean income, by decile"
                 df_graphers.loc[j, "Decile/quantile Dropdown"] = top_pct["name"][top]
                 df_graphers.loc[
-                    j, "Measure of welfare Dropdown"
+                    j, "Income measure Dropdown"
                 ] = f"{welfare['dropdown_option'][wel]}"
                 df_graphers.loc[
                     j, "Period Radio"
@@ -606,7 +606,7 @@ for tab in range(len(tables)):
                 df_graphers.loc[j, "Indicator Dropdown"] = "Decile thresholds"
                 df_graphers.loc[j, "Decile/quantile Dropdown"] = "All deciles"
                 df_graphers.loc[
-                    j, "Measure of welfare Dropdown"
+                    j, "Income measure Dropdown"
                 ] = f"{welfare['dropdown_option'][wel]}"
                 df_graphers.loc[
                     j, "Period Radio"
@@ -639,7 +639,7 @@ for tab in range(len(tables)):
                 df_graphers.loc[j, "Indicator Dropdown"] = "Mean income, by decile"
                 df_graphers.loc[j, "Decile/quantile Dropdown"] = "All deciles"
                 df_graphers.loc[
-                    j, "Measure of welfare Dropdown"
+                    j, "Income measure Dropdown"
                 ] = f"{welfare['dropdown_option'][wel]}"
                 df_graphers.loc[
                     j, "Period Radio"
@@ -672,7 +672,7 @@ for tab in range(len(tables)):
                 df_graphers.loc[j, "Indicator Dropdown"] = "Decile thresholds"
                 df_graphers.loc[j, "Decile/quantile Dropdown"] = "All deciles + top"
                 df_graphers.loc[
-                    j, "Measure of welfare Dropdown"
+                    j, "Income measure Dropdown"
                 ] = f"{welfare['dropdown_option'][wel]}"
                 df_graphers.loc[
                     j, "Period Radio"
@@ -705,7 +705,7 @@ for tab in range(len(tables)):
                 df_graphers.loc[j, "Indicator Dropdown"] = "Mean income, by decile"
                 df_graphers.loc[j, "Decile/quantile Dropdown"] = "All deciles + top"
                 df_graphers.loc[
-                    j, "Measure of welfare Dropdown"
+                    j, "Income measure Dropdown"
                 ] = f"{welfare['dropdown_option'][wel]}"
                 df_graphers.loc[
                     j, "Period Radio"
@@ -739,7 +739,7 @@ for tab in range(len(tables)):
         df_graphers.loc[j, "Indicator Dropdown"] = "Mean income"
         df_graphers.loc[j, "Decile/quantile Dropdown"] = np.nan
         df_graphers.loc[
-            j, "Measure of welfare Dropdown"
+            j, "Income measure Dropdown"
         ] = "Income after tax vs. before tax"
         df_graphers.loc[
             j, "Period Radio"
@@ -768,7 +768,7 @@ for tab in range(len(tables)):
         df_graphers.loc[j, "Indicator Dropdown"] = "Median income"
         df_graphers.loc[j, "Decile/quantile Dropdown"] = np.nan
         df_graphers.loc[
-            j, "Measure of welfare Dropdown"
+            j, "Income measure Dropdown"
         ] = "Income after tax vs. before tax"
         df_graphers.loc[
             j, "Period Radio"
@@ -798,7 +798,7 @@ for tab in range(len(tables)):
             df_graphers.loc[j, "Indicator Dropdown"] = "Decile thresholds"
             df_graphers.loc[j, "Decile/quantile Dropdown"] = deciles9["dropdown"][dec9]
             df_graphers.loc[
-                j, "Measure of welfare Dropdown"
+                j, "Income measure Dropdown"
             ] = "Income after tax vs. before tax"
             df_graphers.loc[
                 j, "Period Radio"
@@ -830,7 +830,7 @@ for tab in range(len(tables)):
                 dec10
             ]
             df_graphers.loc[
-                j, "Measure of welfare Dropdown"
+                j, "Income measure Dropdown"
             ] = "Income after tax vs. before tax"
             df_graphers.loc[
                 j, "Period Radio"
@@ -860,7 +860,7 @@ for tab in range(len(tables)):
             df_graphers.loc[j, "Indicator Dropdown"] = "Decile thresholds"
             df_graphers.loc[j, "Decile/quantile Dropdown"] = top_pct["name"][top]
             df_graphers.loc[
-                j, "Measure of welfare Dropdown"
+                j, "Income measure Dropdown"
             ] = "Income after tax vs. before tax"
             df_graphers.loc[
                 j, "Period Radio"
@@ -888,7 +888,7 @@ for tab in range(len(tables)):
             df_graphers.loc[j, "Indicator Dropdown"] = "Mean income, by decile"
             df_graphers.loc[j, "Decile/quantile Dropdown"] = top_pct["name"][top]
             df_graphers.loc[
-                j, "Measure of welfare Dropdown"
+                j, "Income measure Dropdown"
             ] = "Income after tax vs. before tax"
             df_graphers.loc[
                 j, "Period Radio"
@@ -922,7 +922,7 @@ for tab in range(len(tables)):
                 dec10
             ]
             df_graphers.loc[
-                j, "Measure of welfare Dropdown"
+                j, "Income measure Dropdown"
             ] = f"{welfare['dropdown_option'][wel]}"
             df_graphers.loc[j, "Period Radio"] = np.nan
             df_graphers.loc[j, "Relative change Checkbox"] = "false"
@@ -947,7 +947,7 @@ for tab in range(len(tables)):
             df_graphers.loc[j, "Indicator Dropdown"] = "Decile shares"
             df_graphers.loc[j, "Decile/quantile Dropdown"] = top_pct["name"][top]
             df_graphers.loc[
-                j, "Measure of welfare Dropdown"
+                j, "Income measure Dropdown"
             ] = f"{welfare['dropdown_option'][wel]}"
             df_graphers.loc[j, "Period Radio"] = np.nan
             df_graphers.loc[j, "Relative change Checkbox"] = "false"
@@ -971,7 +971,7 @@ for tab in range(len(tables)):
         df_graphers.loc[j, "Indicator Dropdown"] = "Decile shares"
         df_graphers.loc[j, "Decile/quantile Dropdown"] = "All deciles"
         df_graphers.loc[
-            j, "Measure of welfare Dropdown"
+            j, "Income measure Dropdown"
         ] = "Income after tax vs. before tax"
         df_graphers.loc[j, "Period Radio"] = np.nan
         df_graphers.loc[j, "Relative change Checkbox"] = "false"
@@ -995,7 +995,7 @@ for tab in range(len(tables)):
         df_graphers.loc[j, "Indicator Dropdown"] = "Decile shares"
         df_graphers.loc[j, "Decile/quantile Dropdown"] = "All deciles + top"
         df_graphers.loc[
-            j, "Measure of welfare Dropdown"
+            j, "Income measure Dropdown"
         ] = "Income after tax vs. before tax"
         df_graphers.loc[j, "Period Radio"] = np.nan
         df_graphers.loc[j, "Relative change Checkbox"] = "false"
@@ -1021,7 +1021,7 @@ for tab in range(len(tables)):
         df_graphers.loc[j, "Indicator Dropdown"] = "Decile shares"
         df_graphers.loc[j, "Decile/quantile Dropdown"] = deciles10["dropdown"][dec10]
         df_graphers.loc[
-            j, "Measure of welfare Dropdown"
+            j, "Income measure Dropdown"
         ] = "Income after tax vs. before tax"
         df_graphers.loc[j, "Period Radio"] = np.nan
         df_graphers.loc[j, "Relative change Checkbox"] = "false"
@@ -1046,7 +1046,7 @@ for tab in range(len(tables)):
         df_graphers.loc[j, "Indicator Dropdown"] = "Decile shares"
         df_graphers.loc[j, "Decile/quantile Dropdown"] = top_pct["name"][top]
         df_graphers.loc[
-            j, "Measure of welfare Dropdown"
+            j, "Income measure Dropdown"
         ] = "Income after tax vs. before tax"
         df_graphers.loc[j, "Period Radio"] = np.nan
         df_graphers.loc[j, "Relative change Checkbox"] = "false"
@@ -1080,7 +1080,7 @@ df_graphers["mapTargetTime"] = df_graphers["mapTargetTime"].astype("Int64")
 # Select one default view
 df_graphers.loc[
     (df_graphers["Indicator Dropdown"] == "Mean income")
-    & (df_graphers["Measure of welfare Dropdown"] == "Income after tax vs. before tax")
+    & (df_graphers["Income measure Dropdown"] == "Income after tax vs. before tax")
     & (df_graphers["Period Radio"] == "Year")
     & (df_graphers["Relative change Checkbox"] == "false"),
     ["defaultView"],

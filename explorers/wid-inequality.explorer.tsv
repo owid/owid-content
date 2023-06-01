@@ -7,7 +7,7 @@ wpBlockId
 entityType	country or region					
 
 graphers
-	title	ySlugs	Indicator Dropdown	Measure of welfare Dropdown	subtitle	note	type	selectedFacetStrategy	hasMapTab	tab	tableSlug	relatedQuestionText	relatedQuestionUrl	yAxisMin	mapTargetTime	defaultView
+	title	ySlugs	Indicator Dropdown	Income measure Dropdown	subtitle	note	type	selectedFacetStrategy	hasMapTab	tab	tableSlug	relatedQuestionText	relatedQuestionUrl	yAxisMin	mapTargetTime	defaultView
 	Income inequality: Gini coefficient (after tax)	p0p100_gini_posttax_nat	Gini coefficient	Income after tax	The Gini coefficient is a measure of the inequality of the income distribution in a population. Higher values indicate a higher level of inequality. Income here is measured after the payment and receipt of taxes and benefits.				true	map	wid_vars			0	2019	
 	Income share of the top 10% (after tax)	p90p100_share_posttax_nat	Top 10% share	Income after tax	This is the income of the richest 10% as a share of total income. Income here is measured after the payment and receipt of taxes and benefits.				true	map	wid_vars			0	2019	
 	Income share of the top 1% (after tax)	p99p100_share_posttax_nat	Top 1% share	Income after tax	This is the income of the richest 1% as a share of total income. Income here is measured after the payment and receipt of taxes and benefits.				true	map	wid_vars			0	2019	
