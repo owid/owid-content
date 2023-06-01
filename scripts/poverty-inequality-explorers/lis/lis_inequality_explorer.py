@@ -106,9 +106,7 @@ for tab in range(len(tables)):
     for wel in range(len(welfare)):
         for eq in range(len(equivalence_scales)):
             # Gini coefficient
-            df_tables.loc[
-                j, "name"
-            ] = f"Gini coefficient ({welfare['technical_text'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+            df_tables.loc[j, "name"] = f"Gini coefficient ({welfare['title'][wel]})"
             df_tables.loc[
                 j, "slug"
             ] = f"gini_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
@@ -125,7 +123,7 @@ for tab in range(len(tables)):
             # Share of the top 10%
             df_tables.loc[
                 j, "name"
-            ] = f"{welfare['welfare_type'][wel].capitalize()} share of the richest 10% ({welfare['technical_text'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+            ] = f"{welfare['welfare_type'][wel].capitalize()} share of the richest 10% ({welfare['title'][wel]})"
             df_tables.loc[
                 j, "slug"
             ] = f"share_p90_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
@@ -140,9 +138,7 @@ for tab in range(len(tables)):
             j += 1
 
             # P90/P10
-            df_tables.loc[
-                j, "name"
-            ] = f"P90/P10 ratio ({welfare['technical_text'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+            df_tables.loc[j, "name"] = f"P90/P10 ratio ({welfare['title'][wel]})"
             df_tables.loc[
                 j, "slug"
             ] = f"p90_p10_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
@@ -159,9 +155,7 @@ for tab in range(len(tables)):
             j += 1
 
             # P90/P50
-            df_tables.loc[
-                j, "name"
-            ] = f"P90/P50 ratio ({welfare['technical_text'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+            df_tables.loc[j, "name"] = f"P90/P50 ratio ({welfare['title'][wel]})"
             df_tables.loc[
                 j, "slug"
             ] = f"p90_p50_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
@@ -178,9 +172,7 @@ for tab in range(len(tables)):
             j += 1
 
             # P50/P10
-            df_tables.loc[
-                j, "name"
-            ] = f"P50/P10 ratio ({welfare['technical_text'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+            df_tables.loc[j, "name"] = f"P50/P10 ratio ({welfare['title'][wel]})"
             df_tables.loc[
                 j, "slug"
             ] = f"p50_p10_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
@@ -197,9 +189,7 @@ for tab in range(len(tables)):
             j += 1
 
             # Palma ratio
-            df_tables.loc[
-                j, "name"
-            ] = f"Palma ratio ({welfare['technical_text'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+            df_tables.loc[j, "name"] = f"Palma ratio ({welfare['title'][wel]})"
             df_tables.loc[
                 j, "slug"
             ] = f"palma_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
@@ -219,7 +209,7 @@ for tab in range(len(tables)):
             for pct in range(len(povlines_rel)):
                 df_tables.loc[
                     j, "name"
-                ] = f"{povlines_rel['percent'][pct]} of median {welfare['welfare_type'][wel]} - share of population below poverty line ({welfare['technical_text'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+                ] = f"{povlines_rel['percent'][pct]} of median {welfare['welfare_type'][wel]} - share of population below poverty line ({welfare['title'][wel]})"
                 df_tables.loc[
                     j, "slug"
                 ] = f"headcount_ratio_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"

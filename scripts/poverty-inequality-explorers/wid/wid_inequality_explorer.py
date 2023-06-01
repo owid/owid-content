@@ -93,9 +93,7 @@ for tab in range(len(tables)):
 
     for wel in range(len(welfare)):
         # Gini coefficient
-        df_tables.loc[
-            j, "name"
-        ] = f"Gini coefficient ({welfare['technical_text'][wel].capitalize()})"
+        df_tables.loc[j, "name"] = f"Gini coefficient {welfare['title'][wel]}"
         df_tables.loc[j, "slug"] = f"p0p100_gini_{welfare['slug'][wel]}"
         df_tables.loc[
             j, "description"
@@ -111,7 +109,7 @@ for tab in range(len(tables)):
         # Share of the top 10%
         df_tables.loc[
             j, "name"
-        ] = f"{welfare['welfare_type'][wel].capitalize()} share of the richest 10% ({welfare['technical_text'][wel].capitalize()})"
+        ] = f"{welfare['welfare_type'][wel].capitalize()} share of the richest 10% {welfare['title'][wel]}"
         df_tables.loc[j, "slug"] = f"p90p100_share_{welfare['slug'][wel]}"
         df_tables.loc[
             j, "description"
@@ -127,7 +125,7 @@ for tab in range(len(tables)):
         # Share of the top 1%
         df_tables.loc[
             j, "name"
-        ] = f"{welfare['welfare_type'][wel].capitalize()} share of the richest 1% ({welfare['technical_text'][wel].capitalize()})"
+        ] = f"{welfare['welfare_type'][wel].capitalize()} share of the richest 1% {welfare['title'][wel]}"
         df_tables.loc[j, "slug"] = f"p99p100_share_{welfare['slug'][wel]}"
         df_tables.loc[
             j, "description"
@@ -143,7 +141,7 @@ for tab in range(len(tables)):
         # Share of the top 0.1%
         df_tables.loc[
             j, "name"
-        ] = f"{welfare['welfare_type'][wel].capitalize()} share of the richest 0.1% ({welfare['technical_text'][wel].capitalize()})"
+        ] = f"{welfare['welfare_type'][wel].capitalize()} share of the richest 0.1% {welfare['title'][wel]}"
         df_tables.loc[j, "slug"] = f"p99_9p100_share_{welfare['slug'][wel]}"
         df_tables.loc[
             j, "description"
@@ -159,7 +157,7 @@ for tab in range(len(tables)):
         # Share of the top 0.01%
         df_tables.loc[
             j, "name"
-        ] = f"{welfare['welfare_type'][wel].capitalize()} share of the richest 0.01% ({welfare['technical_text'][wel].capitalize()})"
+        ] = f"{welfare['welfare_type'][wel].capitalize()} share of the richest 0.01% {welfare['title'][wel]}"
         df_tables.loc[j, "slug"] = f"p99_99p100_share_{welfare['slug'][wel]}"
         df_tables.loc[
             j, "description"
@@ -175,7 +173,7 @@ for tab in range(len(tables)):
         # Share of the top 0.001%
         df_tables.loc[
             j, "name"
-        ] = f"{welfare['welfare_type'][wel].capitalize()} share of the richest 0.001% ({welfare['technical_text'][wel].capitalize()})"
+        ] = f"{welfare['welfare_type'][wel].capitalize()} share of the richest 0.001% {welfare['title'][wel]}"
         df_tables.loc[j, "slug"] = f"p99_999p100_share_{welfare['slug'][wel]}"
         df_tables.loc[
             j, "description"
@@ -189,9 +187,7 @@ for tab in range(len(tables)):
         j += 1
 
         # P90/P10
-        df_tables.loc[
-            j, "name"
-        ] = f"P90/P10 ratio ({welfare['technical_text'][wel].capitalize()})"
+        df_tables.loc[j, "name"] = f"P90/P10 ratio {welfare['title'][wel]}"
         df_tables.loc[j, "slug"] = f"p90_p10_ratio_{welfare['slug'][wel]}"
         df_tables.loc[
             j, "description"
@@ -205,9 +201,7 @@ for tab in range(len(tables)):
         j += 1
 
         # P90/P50
-        df_tables.loc[
-            j, "name"
-        ] = f"P90/P50 ratio ({welfare['technical_text'][wel].capitalize()})"
+        df_tables.loc[j, "name"] = f"P90/P50 ratio {welfare['title'][wel]}"
         df_tables.loc[j, "slug"] = f"p90_p50_ratio_{welfare['slug'][wel]}"
         df_tables.loc[
             j, "description"
@@ -221,9 +215,7 @@ for tab in range(len(tables)):
         j += 1
 
         # P50/P10
-        df_tables.loc[
-            j, "name"
-        ] = f"P50/P10 ratio ({welfare['technical_text'][wel].capitalize()})"
+        df_tables.loc[j, "name"] = f"P50/P10 ratio {welfare['title'][wel]}"
         df_tables.loc[j, "slug"] = f"p50_p10_ratio_{welfare['slug'][wel]}"
         df_tables.loc[
             j, "description"
@@ -237,9 +229,7 @@ for tab in range(len(tables)):
         j += 1
 
         # Palma ratio
-        df_tables.loc[
-            j, "name"
-        ] = f"Palma ratio ({welfare['technical_text'][wel].capitalize()})"
+        df_tables.loc[j, "name"] = f"Palma ratio {welfare['title'][wel]}"
         df_tables.loc[j, "slug"] = f"palma_ratio_{welfare['slug'][wel]}"
         df_tables.loc[
             j, "description"

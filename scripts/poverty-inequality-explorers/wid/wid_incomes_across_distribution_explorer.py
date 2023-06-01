@@ -124,7 +124,7 @@ for tab in range(len(tables)):
         # Mean
         df_tables.loc[
             j, "name"
-        ] = f"Mean {welfare['welfare_type'][wel]} ({welfare['technical_text'][wel].capitalize()})"
+        ] = f"Mean {welfare['welfare_type'][wel]} {welfare['title'][wel]}"
         df_tables.loc[j, "slug"] = f"p0p100_avg_{welfare['slug'][wel]}"
         df_tables.loc[
             j, "description"
@@ -140,7 +140,7 @@ for tab in range(len(tables)):
         # Median
         df_tables.loc[
             j, "name"
-        ] = f"Median {welfare['welfare_type'][wel]} ({welfare['technical_text'][wel].capitalize()})"
+        ] = f"Median {welfare['welfare_type'][wel]} {welfare['title'][wel]}"
         df_tables.loc[j, "slug"] = f"median_{welfare['slug'][wel]}"
         df_tables.loc[
             j, "description"
@@ -155,7 +155,9 @@ for tab in range(len(tables)):
 
         # Thresholds - Deciles
         for dec9 in range(len(deciles9)):
-            df_tables.loc[j, "name"] = f"{deciles9['ordinal'][dec9].capitalize()}"
+            df_tables.loc[
+                j, "name"
+            ] = f"{deciles9['ordinal'][dec9].capitalize()} {welfare['title'][wel]}"
             df_tables.loc[
                 j, "slug"
             ] = f"{deciles9['wid_notation'][dec9]}_thr_{welfare['slug'][wel]}"
@@ -172,7 +174,9 @@ for tab in range(len(tables)):
 
         # Averages - Deciles
         for dec10 in range(len(deciles10)):
-            df_tables.loc[j, "name"] = f"{deciles10['ordinal'][dec10].capitalize()}"
+            df_tables.loc[
+                j, "name"
+            ] = f"{deciles10['ordinal'][dec10].capitalize()} {welfare['title'][wel]}"
             df_tables.loc[
                 j, "slug"
             ] = f"{deciles10['wid_notation'][dec10]}_avg_{welfare['slug'][wel]}"
@@ -189,7 +193,9 @@ for tab in range(len(tables)):
 
         # Shares - Deciles
         for dec10 in range(len(deciles10)):
-            df_tables.loc[j, "name"] = f"{deciles10['ordinal'][dec10].capitalize()}"
+            df_tables.loc[
+                j, "name"
+            ] = f"{deciles10['ordinal'][dec10].capitalize()} {welfare['title'][wel]}"
             df_tables.loc[
                 j, "slug"
             ] = f"{deciles10['wid_notation'][dec10]}_share_{welfare['slug'][wel]}"
@@ -206,7 +212,9 @@ for tab in range(len(tables)):
 
         # Thresholds - Top percentiles
         for top in range(len(top_pct)):
-            df_tables.loc[j, "name"] = f"{top_pct['name'][top].capitalize()}"
+            df_tables.loc[
+                j, "name"
+            ] = f"{top_pct['name'][top].capitalize()} {welfare['title'][wel]}"
             df_tables.loc[
                 j, "slug"
             ] = f"{top_pct['wid_notation'][top]}_thr_{welfare['slug'][wel]}"
@@ -223,7 +231,9 @@ for tab in range(len(tables)):
 
         # Averages - Top percentiles
         for top in range(len(top_pct)):
-            df_tables.loc[j, "name"] = f"{top_pct['name'][top].capitalize()}"
+            df_tables.loc[
+                j, "name"
+            ] = f"{top_pct['name'][top].capitalize()} {welfare['title'][wel]}"
             df_tables.loc[
                 j, "slug"
             ] = f"{top_pct['wid_notation'][top]}_avg_{welfare['slug'][wel]}"
@@ -240,7 +250,9 @@ for tab in range(len(tables)):
 
         # Shares - Top percentiles
         for top in range(len(top_pct)):
-            df_tables.loc[j, "name"] = f"{top_pct['name'][top].capitalize()}"
+            df_tables.loc[
+                j, "name"
+            ] = f"{top_pct['name'][top].capitalize()} {welfare['title'][wel]}"
             df_tables.loc[
                 j, "slug"
             ] = f"{top_pct['wid_notation'][top]}_share_{welfare['slug'][wel]}"
@@ -260,7 +272,7 @@ for tab in range(len(tables)):
             # Mean
             df_tables.loc[
                 j, "name"
-            ] = f"Mean {welfare['welfare_type'][wel]} ({welfare['technical_text'][wel].capitalize()})"
+            ] = f"Mean {welfare['welfare_type'][wel]} {welfare['title'][wel]})"
             df_tables.loc[
                 j, "slug"
             ] = f"p0p100_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]}"
@@ -281,7 +293,7 @@ for tab in range(len(tables)):
             # Median
             df_tables.loc[
                 j, "name"
-            ] = f"Median {welfare['welfare_type'][wel]} ({welfare['technical_text'][wel].capitalize()})"
+            ] = f"Median {welfare['welfare_type'][wel]} {welfare['title'][wel]}"
             df_tables.loc[
                 j, "slug"
             ] = f"median_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]}"
@@ -301,7 +313,9 @@ for tab in range(len(tables)):
 
             # Thresholds - Deciles
             for dec9 in range(len(deciles9)):
-                df_tables.loc[j, "name"] = f"{deciles9['ordinal'][dec9].capitalize()}"
+                df_tables.loc[
+                    j, "name"
+                ] = f"{deciles9['ordinal'][dec9].capitalize()} {welfare['title'][wel]}"
                 df_tables.loc[
                     j, "slug"
                 ] = f"{deciles9['wid_notation'][dec9]}_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]}"
@@ -323,7 +337,9 @@ for tab in range(len(tables)):
 
             # Averages - Deciles
             for dec10 in range(len(deciles10)):
-                df_tables.loc[j, "name"] = f"{deciles10['ordinal'][dec10].capitalize()}"
+                df_tables.loc[
+                    j, "name"
+                ] = f"{deciles10['ordinal'][dec10].capitalize()} {welfare['title'][wel]}"
                 df_tables.loc[
                     j, "slug"
                 ] = f"{deciles10['wid_notation'][dec10]}_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]}"
@@ -345,7 +361,9 @@ for tab in range(len(tables)):
 
             # Thresholds - Top percentiles
             for top in range(len(top_pct)):
-                df_tables.loc[j, "name"] = f"{top_pct['name'][top].capitalize()}"
+                df_tables.loc[
+                    j, "name"
+                ] = f"{top_pct['name'][top].capitalize()} {welfare['title'][wel]}"
                 df_tables.loc[
                     j, "slug"
                 ] = f"{top_pct['wid_notation'][top]}_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]}"
@@ -367,7 +385,9 @@ for tab in range(len(tables)):
 
             # Averages - Top percentiles
             for top in range(len(top_pct)):
-                df_tables.loc[j, "name"] = f"{top_pct['name'][top].capitalize()}"
+                df_tables.loc[
+                    j, "name"
+                ] = f"{top_pct['name'][top].capitalize()} {welfare['title'][wel]}"
                 df_tables.loc[
                     j, "slug"
                 ] = f"{top_pct['wid_notation'][top]}_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]}"
