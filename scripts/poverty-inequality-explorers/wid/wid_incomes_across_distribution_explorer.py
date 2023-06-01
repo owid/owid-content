@@ -438,8 +438,8 @@ df_graphers = pd.DataFrame()
 j = 0
 
 for tab in range(len(tables)):
-    for wel in range(len(welfare)):
-        for agg in range(len(income_aggregation)):
+    for agg in range(len(income_aggregation)):
+        for wel in range(len(welfare)):
             # Mean
             df_graphers.loc[
                 j, "title"
@@ -761,6 +761,175 @@ for tab in range(len(tables)):
                 df_graphers.loc[j, "yScaleToggle"] = "true"
                 j += 1
 
+        # BEFORE VS. AFTER TAX
+        # Mean
+        df_graphers.loc[
+            j, "title"
+        ] = f"Mean income per {income_aggregation['aggregation'][agg]} (After tax vs. before tax)"
+        df_graphers.loc[
+            j, "ySlugs"
+        ] = f"p0p100_avg_pretax{income_aggregation['slug_suffix'][agg]} p0p100_avg_posttax_nat{income_aggregation['slug_suffix'][agg]}"
+        df_graphers.loc[j, "Measure Dropdown"] = "Mean income or wealth"
+        df_graphers.loc[j, "Decile/quantile Dropdown"] = np.nan
+        df_graphers.loc[j, "Data type Dropdown"] = "Income after tax vs. before tax"
+        df_graphers.loc[
+            j, "Period Radio"
+        ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
+        df_graphers.loc[j, "Relative change Checkbox"] = "false"
+        df_graphers.loc[j, "stackMode"] = "absolute"
+        df_graphers.loc[
+            j, "subtitle"
+        ] = f"This data is adjusted for inflation and for differences in the cost of living between countries."
+        df_graphers.loc[
+            j, "note"
+        ] = f"This data is measured in international-$ at 2021 prices."
+        df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
+        df_graphers.loc[j, "hasMapTab"] = "true"
+        df_graphers.loc[j, "tab"] = "map"
+        df_graphers.loc[j, "yScaleToggle"] = "true"
+        j += 1
+
+        # Median
+        df_graphers.loc[
+            j, "title"
+        ] = f"Median income per {income_aggregation['aggregation'][agg]} (After tax vs. before tax)"
+        df_graphers.loc[
+            j, "ySlugs"
+        ] = f"median_pretax{income_aggregation['slug_suffix'][agg]} median_posttax_nat{income_aggregation['slug_suffix'][agg]}"
+        df_graphers.loc[j, "Measure Dropdown"] = "Median income or wealth"
+        df_graphers.loc[j, "Decile/quantile Dropdown"] = np.nan
+        df_graphers.loc[j, "Data type Dropdown"] = "Income after tax vs. before tax"
+        df_graphers.loc[
+            j, "Period Radio"
+        ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
+        df_graphers.loc[j, "Relative change Checkbox"] = "false"
+        df_graphers.loc[j, "stackMode"] = "absolute"
+        df_graphers.loc[
+            j, "subtitle"
+        ] = f"This data is adjusted for inflation and for differences in the cost of living between countries."
+        df_graphers.loc[
+            j, "note"
+        ] = f"This data is measured in international-$ at 2021 prices."
+        df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
+        df_graphers.loc[j, "hasMapTab"] = "true"
+        df_graphers.loc[j, "tab"] = "map"
+        df_graphers.loc[j, "yScaleToggle"] = "true"
+        j += 1
+
+        # Thresholds - Deciles
+        for dec9 in range(len(deciles9)):
+            df_graphers.loc[
+                j, "title"
+            ] = f"Threshold income per {income_aggregation['aggregation'][agg]} marking the {deciles9['ordinal'][dec9]} (After tax vs. before tax)"
+            df_graphers.loc[
+                j, "ySlugs"
+            ] = f"{deciles9['wid_notation'][dec9]}_thr_pretax{income_aggregation['slug_suffix'][agg]} {deciles9['wid_notation'][dec9]}_thr_posttax_nat{income_aggregation['slug_suffix'][agg]}"
+            df_graphers.loc[j, "Measure Dropdown"] = "Decile thresholds"
+            df_graphers.loc[j, "Decile/quantile Dropdown"] = deciles9["dropdown"][dec9]
+            df_graphers.loc[j, "Data type Dropdown"] = "Income after tax vs. before tax"
+            df_graphers.loc[
+                j, "Period Radio"
+            ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
+            df_graphers.loc[j, "Relative change Checkbox"] = "false"
+            df_graphers.loc[j, "stackMode"] = "absolute"
+            df_graphers.loc[
+                j, "subtitle"
+            ] = f"This is the level of income below which {deciles9['decile'][dec9]}0% of the population falls."
+            df_graphers.loc[
+                j, "note"
+            ] = f"This data is measured in international-$ at 2021 prices to account for inflation and differences in the cost of living between countries."
+            df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
+            df_graphers.loc[j, "hasMapTab"] = "true"
+            df_graphers.loc[j, "tab"] = "map"
+            df_graphers.loc[j, "yScaleToggle"] = "true"
+            j += 1
+
+        # Averages - Deciles
+        for dec10 in range(len(deciles10)):
+            df_graphers.loc[
+                j, "title"
+            ] = f"Mean income per {income_aggregation['aggregation'][agg]} within the {deciles10['ordinal'][dec10]} (After tax vs. before tax)"
+            df_graphers.loc[
+                j, "ySlugs"
+            ] = f"{deciles10['wid_notation'][dec10]}_avg_pretax{income_aggregation['slug_suffix'][agg]} {deciles10['wid_notation'][dec10]}_avg_posttax_nat{income_aggregation['slug_suffix'][agg]}"
+            df_graphers.loc[j, "Measure Dropdown"] = "Mean income or wealth, by decile"
+            df_graphers.loc[j, "Decile/quantile Dropdown"] = deciles10["dropdown"][
+                dec10
+            ]
+            df_graphers.loc[j, "Data type Dropdown"] = "Income after tax vs. before tax"
+            df_graphers.loc[
+                j, "Period Radio"
+            ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
+            df_graphers.loc[j, "Relative change Checkbox"] = "false"
+            df_graphers.loc[j, "stackMode"] = "absolute"
+            df_graphers.loc[
+                j, "subtitle"
+            ] = f"This is the mean income within the {deciles10['ordinal'][dec10]} (tenth of the population)."
+            df_graphers.loc[
+                j, "note"
+            ] = f"This data is measured in international-$ at 2021 prices to account for inflation and differences in the cost of living between countries."
+            df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
+            df_graphers.loc[j, "hasMapTab"] = "true"
+            df_graphers.loc[j, "tab"] = "map"
+            df_graphers.loc[j, "yScaleToggle"] = "true"
+            j += 1
+
+        # Thresholds - Top
+        for top in range(len(top_pct)):
+            df_graphers.loc[
+                j, "title"
+            ] = f"Threshold income per {income_aggregation['aggregation'][agg]} marking the richest {top_pct['name'][top]} (After tax vs. before tax)"
+            df_graphers.loc[
+                j, "ySlugs"
+            ] = f"{top_pct['wid_notation'][top]}_thr_pretax{income_aggregation['slug_suffix'][agg]} {top_pct['wid_notation'][top]}_thr_posttax_nat{income_aggregation['slug_suffix'][agg]}"
+            df_graphers.loc[j, "Measure Dropdown"] = "Decile thresholds"
+            df_graphers.loc[j, "Decile/quantile Dropdown"] = top_pct["name"][top]
+            df_graphers.loc[j, "Data type Dropdown"] = "Income after tax vs. before tax"
+            df_graphers.loc[
+                j, "Period Radio"
+            ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
+            df_graphers.loc[j, "Relative change Checkbox"] = "false"
+            df_graphers.loc[j, "stackMode"] = "absolute"
+            df_graphers.loc[j, "subtitle"] = ""
+            df_graphers.loc[
+                j, "note"
+            ] = f"This data is measured in international-$ at 2021 prices to account for inflation and differences in the cost of living between countries."
+            df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
+            df_graphers.loc[j, "hasMapTab"] = "true"
+            df_graphers.loc[j, "tab"] = "map"
+            df_graphers.loc[j, "yScaleToggle"] = "true"
+            j += 1
+
+        # Averages - Top
+        for top in range(len(top_pct)):
+            df_graphers.loc[
+                j, "title"
+            ] = f"Mean income per {income_aggregation['aggregation'][agg]} within the {top_pct['name'][top]} (After tax vs. before tax)"
+            df_graphers.loc[
+                j, "ySlugs"
+            ] = f"{top_pct['wid_notation'][top]}_avg_pretax{income_aggregation['slug_suffix'][agg]} {top_pct['wid_notation'][top]}_avg_posttax_nat{income_aggregation['slug_suffix'][agg]}"
+            df_graphers.loc[j, "Measure Dropdown"] = "Mean income or wealth, by decile"
+            df_graphers.loc[j, "Decile/quantile Dropdown"] = top_pct["name"][top]
+            df_graphers.loc[j, "Data type Dropdown"] = "Income after tax vs. before tax"
+            df_graphers.loc[
+                j, "Period Radio"
+            ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
+            df_graphers.loc[j, "Relative change Checkbox"] = "false"
+            df_graphers.loc[j, "stackMode"] = "absolute"
+            df_graphers.loc[
+                j, "subtitle"
+            ] = f"This is the mean income within the richest {top_pct['name'][top]}."
+            df_graphers.loc[
+                j, "note"
+            ] = f"This data is measured in international-$ at 2021 prices to account for inflation and differences in the cost of living between countries."
+            df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
+            df_graphers.loc[j, "hasMapTab"] = "true"
+            df_graphers.loc[j, "tab"] = "map"
+            df_graphers.loc[j, "yScaleToggle"] = "true"
+            j += 1
+
+    # This is an adaptation of the code to make both before and after tax graphs and share graphs
+    for wel in range(len(welfare)):
         # Shares - Deciles
         for dec10 in range(len(deciles10)):
             df_graphers.loc[
@@ -822,7 +991,7 @@ for tab in range(len(tables)):
         ] = f"p0p10_share_{welfare['slug'][wel]} p20p30_share_{welfare['slug'][wel]} p30p40_share_{welfare['slug'][wel]} p40p50_share_{welfare['slug'][wel]} p50p60_share_{welfare['slug'][wel]} p60p70_share_{welfare['slug'][wel]} p70p80_share_{welfare['slug'][wel]} p80p90_share_{welfare['slug'][wel]} p90p100_share_{welfare['slug'][wel]}"
         df_graphers.loc[j, "Measure Dropdown"] = "Decile shares"
         df_graphers.loc[j, "Decile/quantile Dropdown"] = "All deciles"
-        df_graphers.loc[j, "Data type Dropdown"] = f"{welfare['dropdown_option'][wel]}"
+        df_graphers.loc[j, "Data type Dropdown"] = "Income after tax vs. before tax"
         df_graphers.loc[j, "Period Radio"] = np.nan
         df_graphers.loc[j, "Relative change Checkbox"] = "false"
         df_graphers.loc[j, "stackMode"] = "absolute"
@@ -844,7 +1013,7 @@ for tab in range(len(tables)):
         ] = f"p0p10_share_{welfare['slug'][wel]} p10p20_share_{welfare['slug'][wel]} p20p30_share_{welfare['slug'][wel]} p30p40_share_{welfare['slug'][wel]} p40p50_share_{welfare['slug'][wel]} p50p60_share_{welfare['slug'][wel]} p60p70_share_{welfare['slug'][wel]} p70p80_share_{welfare['slug'][wel]} p80p90_share_{welfare['slug'][wel]} p90p100_share_{welfare['slug'][wel]} p99p100_share_{welfare['slug'][wel]} p99_9p100_share_{welfare['slug'][wel]} p99_99p100_share_{welfare['slug'][wel]} p99_999p100_share_{welfare['slug'][wel]}"
         df_graphers.loc[j, "Measure Dropdown"] = "Decile shares"
         df_graphers.loc[j, "Decile/quantile Dropdown"] = "All deciles + top"
-        df_graphers.loc[j, "Data type Dropdown"] = f"{welfare['dropdown_option'][wel]}"
+        df_graphers.loc[j, "Data type Dropdown"] = "Income after tax vs. before tax"
         df_graphers.loc[j, "Period Radio"] = np.nan
         df_graphers.loc[j, "Relative change Checkbox"] = "false"
         df_graphers.loc[j, "stackMode"] = "absolute"
@@ -855,6 +1024,53 @@ for tab in range(len(tables)):
         df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
         df_graphers.loc[j, "hasMapTab"] = "false"
         df_graphers.loc[j, "tab"] = "chart"
+        j += 1
+
+    # BEFORE VS. AFTER TAX
+    # Shares - Deciles
+    for dec10 in range(len(deciles10)):
+        df_graphers.loc[
+            j, "title"
+        ] = f"Income share of the {deciles10['ordinal'][dec10]} (After tax vs. before tax)"
+        df_graphers.loc[
+            j, "ySlugs"
+        ] = f"{deciles10['wid_notation'][dec10]}_share_pretax {deciles10['wid_notation'][dec10]}_share_posttax_nat"
+        df_graphers.loc[j, "Measure Dropdown"] = "Decile shares"
+        df_graphers.loc[j, "Decile/quantile Dropdown"] = deciles10["dropdown"][dec10]
+        df_graphers.loc[j, "Data type Dropdown"] = "Income after tax vs. before tax"
+        df_graphers.loc[j, "Period Radio"] = np.nan
+        df_graphers.loc[j, "Relative change Checkbox"] = "false"
+        df_graphers.loc[j, "stackMode"] = "absolute"
+        df_graphers.loc[
+            j, "subtitle"
+        ] = f"This is the income of the {deciles10['ordinal'][dec10]} (tenth of the population) as a share of total income."
+        df_graphers.loc[j, "note"] = ""
+        df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
+        df_graphers.loc[j, "hasMapTab"] = "true"
+        df_graphers.loc[j, "tab"] = "map"
+        j += 1
+
+    # Shares - Top
+    for top in range(len(top_pct)):
+        df_graphers.loc[
+            j, "title"
+        ] = f"Income share of the richest {top_pct['name'][top]} (After tax vs. before tax)"
+        df_graphers.loc[
+            j, "ySlugs"
+        ] = f"{top_pct['wid_notation'][top]}_share_pretax {top_pct['wid_notation'][top]}_share_posttax_nat"
+        df_graphers.loc[j, "Measure Dropdown"] = "Decile shares"
+        df_graphers.loc[j, "Decile/quantile Dropdown"] = top_pct["name"][top]
+        df_graphers.loc[j, "Data type Dropdown"] = "Income after tax vs. before tax"
+        df_graphers.loc[j, "Period Radio"] = np.nan
+        df_graphers.loc[j, "Relative change Checkbox"] = "false"
+        df_graphers.loc[j, "stackMode"] = "absolute"
+        df_graphers.loc[
+            j, "subtitle"
+        ] = f"This is the income of the richest {top_pct['name'][top]} as a share of total income."
+        df_graphers.loc[j, "note"] = ""
+        df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
+        df_graphers.loc[j, "hasMapTab"] = "true"
+        df_graphers.loc[j, "tab"] = "map"
         j += 1
 
     df_graphers["tableSlug"] = tables["name"][tab]
@@ -898,9 +1114,8 @@ df_graphers["title"] = df_graphers["title"].str.replace("wealth per year", "weal
 
 # Select one default view
 df_graphers.loc[
-    (df_graphers["Measure Dropdown"] == "Decile thresholds")
-    & (df_graphers["Data type Dropdown"] == "Income after tax")
-    & (df_graphers["Decile/quantile Dropdown"] == "All deciles")
+    (df_graphers["Measure Dropdown"] == "Mean income or wealth")
+    & (df_graphers["Data type Dropdown"] == "Income after tax vs. before tax")
     & (df_graphers["Period Radio"] == "Year")
     & (df_graphers["Relative change Checkbox"] == "false"),
     ["defaultView"],

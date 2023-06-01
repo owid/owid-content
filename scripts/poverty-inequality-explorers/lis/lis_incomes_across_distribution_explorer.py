@@ -554,7 +554,7 @@ for tab in range(len(tables)):
             # Mean
             df_graphers.loc[
                 j, "title"
-            ] = f"Mean {welfare['welfare_type'][wel]} per {income_aggregation['aggregation'][agg]} (After tax vs. before tax)"
+            ] = f"Mean income per {income_aggregation['aggregation'][agg]} (After tax vs. before tax)"
             df_graphers.loc[
                 j, "ySlugs"
             ] = f"mean_mi_{equivalence_scales['slug'][eq]}{income_aggregation['slug_suffix'][agg]} mean_dhi_{equivalence_scales['slug'][eq]}{income_aggregation['slug_suffix'][agg]}"
@@ -571,7 +571,7 @@ for tab in range(len(tables)):
             df_graphers.loc[j, "stackMode"] = "absolute"
             df_graphers.loc[
                 j, "subtitle"
-            ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]}"
+            ] = f"This data is adjusted for inflation and for differences in the cost of living between countries."
             df_graphers.loc[
                 j, "note"
             ] = f"This data is measured in international-$ at 2017 prices. {equivalence_scales['note'][eq]}"
@@ -584,7 +584,7 @@ for tab in range(len(tables)):
             # Median
             df_graphers.loc[
                 j, "title"
-            ] = f"Median {welfare['welfare_type'][wel]} per {income_aggregation['aggregation'][agg]} (After tax vs. before tax)"
+            ] = f"Median income per {income_aggregation['aggregation'][agg]} (After tax vs. before tax)"
             df_graphers.loc[
                 j, "ySlugs"
             ] = f"median_mi_{equivalence_scales['slug'][eq]}{income_aggregation['slug_suffix'][agg]} median_dhi_{equivalence_scales['slug'][eq]}{income_aggregation['slug_suffix'][agg]}"
@@ -601,7 +601,7 @@ for tab in range(len(tables)):
             df_graphers.loc[j, "stackMode"] = "absolute"
             df_graphers.loc[
                 j, "subtitle"
-            ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]}"
+            ] = f"This data is adjusted for inflation and for differences in the cost of living between countries."
             df_graphers.loc[
                 j, "note"
             ] = f"This data is measured in international-$ at 2017 prices. {equivalence_scales['note'][eq]}"
@@ -615,7 +615,7 @@ for tab in range(len(tables)):
             for dec9 in range(len(deciles9)):
                 df_graphers.loc[
                     j, "title"
-                ] = f"Threshold {welfare['welfare_type'][wel]} per {income_aggregation['aggregation'][agg]} marking the {deciles9['ordinal'][dec9]} (After tax vs. before tax)"
+                ] = f"Threshold income per {income_aggregation['aggregation'][agg]} marking the {deciles9['ordinal'][dec9]} (After tax vs. before tax)"
                 df_graphers.loc[
                     j, "ySlugs"
                 ] = f"thr_{deciles9['lis_notation'][dec9]}_mi_{equivalence_scales['slug'][eq]}{income_aggregation['slug_suffix'][agg]} thr_{deciles9['lis_notation'][dec9]}_dhi_{equivalence_scales['slug'][eq]}{income_aggregation['slug_suffix'][agg]}"
@@ -633,7 +633,7 @@ for tab in range(len(tables)):
                 df_graphers.loc[j, "stackMode"] = "absolute"
                 df_graphers.loc[
                     j, "subtitle"
-                ] = f"This is the level of {welfare['welfare_type'][wel]} below which {deciles9['decile'][dec9]}0% of the population falls. {welfare['subtitle'][wel]}"
+                ] = f"This is the level of income below which {deciles9['decile'][dec9]}0% of the population falls."
                 df_graphers.loc[
                     j, "note"
                 ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. {equivalence_scales['note'][eq]}"
@@ -647,7 +647,7 @@ for tab in range(len(tables)):
             for dec10 in range(len(deciles10)):
                 df_graphers.loc[
                     j, "title"
-                ] = f"Mean {welfare['welfare_type'][wel]} per {income_aggregation['aggregation'][agg]} within the {deciles10['ordinal'][dec10]} (After tax vs. before tax)"
+                ] = f"Mean income per {income_aggregation['aggregation'][agg]} within the {deciles10['ordinal'][dec10]} (After tax vs. before tax)"
                 df_graphers.loc[
                     j, "ySlugs"
                 ] = f"avg_{deciles10['lis_notation'][dec10]}_mi_{equivalence_scales['slug'][eq]}{income_aggregation['slug_suffix'][agg]} avg_{deciles10['lis_notation'][dec10]}_dhi_{equivalence_scales['slug'][eq]}{income_aggregation['slug_suffix'][agg]}"
@@ -667,7 +667,7 @@ for tab in range(len(tables)):
                 df_graphers.loc[j, "stackMode"] = "absolute"
                 df_graphers.loc[
                     j, "subtitle"
-                ] = f"This is the mean {welfare['welfare_type'][wel]} within the {deciles10['ordinal'][dec10]} (tenth of the population). {welfare['subtitle'][wel]}"
+                ] = f"This is the mean income within the {deciles10['ordinal'][dec10]} (tenth of the population)."
                 df_graphers.loc[
                     j, "note"
                 ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. {equivalence_scales['note'][eq]}"
@@ -895,7 +895,7 @@ for tab in range(len(tables)):
         for dec10 in range(len(deciles10)):
             df_graphers.loc[
                 j, "title"
-            ] = f"{welfare['welfare_type'][wel].capitalize()} share of the {deciles10['ordinal'][dec10]} (After tax vs. before tax)"
+            ] = f"Income share of the {deciles10['ordinal'][dec10]} (After tax vs. before tax)"
             df_graphers.loc[
                 j, "ySlugs"
             ] = f"share_{deciles10['lis_notation'][dec10]}_mi_{equivalence_scales['slug'][eq]} share_{deciles10['lis_notation'][dec10]}_dhi_{equivalence_scales['slug'][eq]}"
@@ -910,7 +910,7 @@ for tab in range(len(tables)):
             df_graphers.loc[j, "stackMode"] = "absolute"
             df_graphers.loc[
                 j, "subtitle"
-            ] = f"This is the {welfare['welfare_type'][wel]} of the {deciles10['ordinal'][dec10]} (tenth of the population) as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
+            ] = f"This is the income of the {deciles10['ordinal'][dec10]} (tenth of the population) as a share of total income."
             df_graphers.loc[j, "note"] = equivalence_scales["note"][eq]
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
             df_graphers.loc[j, "hasMapTab"] = "false"
