@@ -114,7 +114,7 @@ for tab in range(len(tables)):
             for p in range(len(povlines_abs)):
                 df_tables.loc[
                     j, "name"
-                ] = f"Share below ${povlines_abs['dollars_text'][p]} a day ({equivalence_scales['text'][eq]})"
+                ] = f"Share below ${povlines_abs['dollars_text'][p]} a day ({welfare['title'][wel]})"
                 df_tables.loc[
                     j, "slug"
                 ] = f"headcount_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
@@ -134,7 +134,7 @@ for tab in range(len(tables)):
             for p in range(len(povlines_abs)):
                 df_tables.loc[
                     j, "name"
-                ] = f"Number below ${povlines_abs['dollars_text'][p]} a day ({equivalence_scales['text'][eq]})"
+                ] = f"Number below ${povlines_abs['dollars_text'][p]} a day ({welfare['title'][wel]})"
                 df_tables.loc[
                     j, "slug"
                 ] = f"headcount_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
@@ -154,7 +154,7 @@ for tab in range(len(tables)):
             for p in range(len(povlines_abs)):
                 df_tables.loc[
                     j, "name"
-                ] = f"${povlines_abs['dollars_text'][p]} a day - total shortfall ({equivalence_scales['text'][eq]})"
+                ] = f"${povlines_abs['dollars_text'][p]} a day - total shortfall ({welfare['title'][wel]})"
                 df_tables.loc[
                     j, "slug"
                 ] = f"total_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs.cents[p]}"
@@ -174,7 +174,7 @@ for tab in range(len(tables)):
             for p in range(len(povlines_abs)):
                 df_tables.loc[
                     j, "name"
-                ] = f"${povlines_abs['dollars_text'][p]} a day - average shortfall ({equivalence_scales['text'][eq]})"
+                ] = f"${povlines_abs['dollars_text'][p]} a day - average shortfall ({welfare['title'][wel]})"
                 df_tables.loc[
                     j, "slug"
                 ] = f"avg_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
@@ -194,7 +194,7 @@ for tab in range(len(tables)):
             for p in range(len(povlines_abs)):
                 df_tables.loc[
                     j, "name"
-                ] = f"${povlines_abs['dollars_text'][p]} a day - income gap ratio ({equivalence_scales['text'][eq]})"
+                ] = f"${povlines_abs['dollars_text'][p]} a day - income gap ratio ({welfare['title'][wel]})"
                 df_tables.loc[
                     j, "slug"
                 ] = f"income_gap_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
@@ -214,7 +214,7 @@ for tab in range(len(tables)):
             for p in range(len(povlines_abs)):
                 df_tables.loc[
                     j, "name"
-                ] = f"${povlines_abs['dollars_text'][p]} a day - poverty gap index ({equivalence_scales['text'][eq]})"
+                ] = f"${povlines_abs['dollars_text'][p]} a day - poverty gap index ({welfare['title'][wel]})"
                 df_tables.loc[
                     j, "slug"
                 ] = f"poverty_gap_index_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
@@ -232,7 +232,7 @@ for tab in range(len(tables)):
             for pct in range(len(povlines_rel)):
                 df_tables.loc[
                     j, "name"
-                ] = f"{povlines_rel['percent'][pct]} of median {welfare['welfare_type'][wel]} - share of population below poverty line ({welfare['technical_text'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+                ] = f"{povlines_rel['percent'][pct]} of median {welfare['welfare_type'][wel]} - share of population below poverty line ({welfare['title'][wel]})"
                 df_tables.loc[
                     j, "slug"
                 ] = f"headcount_ratio_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
@@ -250,7 +250,7 @@ for tab in range(len(tables)):
             for pct in range(len(povlines_rel)):
                 df_tables.loc[
                     j, "name"
-                ] = f"{povlines_rel['percent'][pct]} of median {welfare['welfare_type'][wel]} - total number of people below poverty line ({welfare['technical_text'][wel].capitalize()}, {equivalence_scales['text'][eq]})"
+                ] = f"{povlines_rel['percent'][pct]} of median {welfare['welfare_type'][wel]} - total number of people below poverty line ({welfare['title'][wel]})"
                 df_tables.loc[
                     j, "slug"
                 ] = f"headcount_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
@@ -270,7 +270,7 @@ for tab in range(len(tables)):
             for pct in range(len(povlines_rel)):
                 df_tables.loc[
                     j, "name"
-                ] = f"{povlines_rel['percent'][pct]} of median {welfare['welfare_type'][wel]} - total shortfall ({equivalence_scales['text'][eq]})"
+                ] = f"{povlines_rel['percent'][pct]} of median {welfare['welfare_type'][wel]} - total shortfall ({welfare['title'][wel]})"
                 df_tables.loc[
                     j, "slug"
                 ] = f"total_shortfall_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
@@ -290,7 +290,7 @@ for tab in range(len(tables)):
             for pct in range(len(povlines_rel)):
                 df_tables.loc[
                     j, "name"
-                ] = f"{povlines_rel['percent'][pct]} of median {welfare['welfare_type'][wel]} - average shortfall ({equivalence_scales['text'][eq]})"
+                ] = f"{povlines_rel['percent'][pct]} of median {welfare['welfare_type'][wel]} - average shortfall ({welfare['title'][wel]})"
                 df_tables.loc[
                     j, "slug"
                 ] = f"avg_shortfall_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
@@ -308,7 +308,7 @@ for tab in range(len(tables)):
             for pct in range(len(povlines_rel)):
                 df_tables.loc[
                     j, "name"
-                ] = f"{povlines_rel['percent'][pct]} of median {welfare['welfare_type'][wel]} - income gap ratio ({equivalence_scales['text'][eq]})"
+                ] = f"{povlines_rel['percent'][pct]} of median {welfare['welfare_type'][wel]} - income gap ratio ({welfare['title'][wel]})"
                 df_tables.loc[
                     j, "slug"
                 ] = f"income_gap_ratio_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
@@ -326,7 +326,7 @@ for tab in range(len(tables)):
             for pct in range(len(povlines_rel)):
                 df_tables.loc[
                     j, "name"
-                ] = f"{povlines_rel['percent'][pct]} of median {welfare['welfare_type'][wel]} - poverty gap index ({equivalence_scales['text'][eq]})"
+                ] = f"{povlines_rel['percent'][pct]} of median {welfare['welfare_type'][wel]} - poverty gap index ({welfare['title'][wel]})"
                 df_tables.loc[
                     j, "slug"
                 ] = f"poverty_gap_index_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
