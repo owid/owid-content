@@ -360,7 +360,8 @@ for tab in range(len(tables)):
                     j, "Period Radio"
                 ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
                 df_graphers.loc[
-                    j, "Adjust for household composition (equivalized income) Checkbox"
+                    j,
+                    "Adjust for cost sharing within households (equivalized income) Checkbox",
                 ] = equivalence_scales["checkbox"][eq]
                 df_graphers.loc[j, "Relative change Checkbox"] = "false"
                 df_graphers.loc[j, "stackMode"] = "absolute"
@@ -394,7 +395,8 @@ for tab in range(len(tables)):
                     j, "Period Radio"
                 ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
                 df_graphers.loc[
-                    j, "Adjust for household composition (equivalized income) Checkbox"
+                    j,
+                    "Adjust for cost sharing within households (equivalized income) Checkbox",
                 ] = equivalence_scales["checkbox"][eq]
                 df_graphers.loc[j, "Relative change Checkbox"] = "false"
                 df_graphers.loc[j, "stackMode"] = "absolute"
@@ -428,7 +430,7 @@ for tab in range(len(tables)):
                     ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
                     df_graphers.loc[
                         j,
-                        "Adjust for household composition (equivalized income) Checkbox",
+                        "Adjust for cost sharing within households (equivalized income) Checkbox",
                     ] = equivalence_scales["checkbox"][eq]
                     df_graphers.loc[j, "Relative change Checkbox"] = "false"
                     df_graphers.loc[j, "stackMode"] = "absolute"
@@ -464,7 +466,7 @@ for tab in range(len(tables)):
                     ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
                     df_graphers.loc[
                         j,
-                        "Adjust for household composition (equivalized income) Checkbox",
+                        "Adjust for cost sharing within households (equivalized income) Checkbox",
                     ] = equivalence_scales["checkbox"][eq]
                     df_graphers.loc[j, "Relative change Checkbox"] = "false"
                     df_graphers.loc[j, "stackMode"] = "absolute"
@@ -499,7 +501,7 @@ for tab in range(len(tables)):
                     ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
                     df_graphers.loc[
                         j,
-                        "Adjust for household composition (equivalized income) Checkbox",
+                        "Adjust for cost sharing within households (equivalized income) Checkbox",
                     ] = equivalence_scales["checkbox"][eq]
                     df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
                         "checkbox"
@@ -538,7 +540,7 @@ for tab in range(len(tables)):
                     ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
                     df_graphers.loc[
                         j,
-                        "Adjust for household composition (equivalized income) Checkbox",
+                        "Adjust for cost sharing within households (equivalized income) Checkbox",
                     ] = equivalence_scales["checkbox"][eq]
                     df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
                         "checkbox"
@@ -573,7 +575,8 @@ for tab in range(len(tables)):
                 j, "Period Radio"
             ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
             df_graphers.loc[
-                j, "Adjust for household composition (equivalized income) Checkbox"
+                j,
+                "Adjust for cost sharing within households (equivalized income) Checkbox",
             ] = equivalence_scales["checkbox"][eq]
             df_graphers.loc[j, "Relative change Checkbox"] = "false"
             df_graphers.loc[j, "stackMode"] = "absolute"
@@ -603,7 +606,8 @@ for tab in range(len(tables)):
                 j, "Period Radio"
             ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
             df_graphers.loc[
-                j, "Adjust for household composition (equivalized income) Checkbox"
+                j,
+                "Adjust for cost sharing within households (equivalized income) Checkbox",
             ] = equivalence_scales["checkbox"][eq]
             df_graphers.loc[j, "Relative change Checkbox"] = "false"
             df_graphers.loc[j, "stackMode"] = "absolute"
@@ -637,7 +641,7 @@ for tab in range(len(tables)):
                 ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
                 df_graphers.loc[
                     j,
-                    "Adjust for household composition (equivalized income) Checkbox",
+                    "Adjust for cost sharing within households (equivalized income) Checkbox",
                 ] = equivalence_scales["checkbox"][eq]
                 df_graphers.loc[j, "Relative change Checkbox"] = "false"
                 df_graphers.loc[j, "stackMode"] = "absolute"
@@ -673,7 +677,7 @@ for tab in range(len(tables)):
                 ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
                 df_graphers.loc[
                     j,
-                    "Adjust for household composition (equivalized income) Checkbox",
+                    "Adjust for cost sharing within households (equivalized income) Checkbox",
                 ] = equivalence_scales["checkbox"][eq]
                 df_graphers.loc[j, "Relative change Checkbox"] = "false"
                 df_graphers.loc[j, "stackMode"] = "absolute"
@@ -862,7 +866,8 @@ for tab in range(len(tables)):
                 ] = f"{welfare['dropdown_option'][wel]}"
                 df_graphers.loc[j, "Period Radio"] = np.nan
                 df_graphers.loc[
-                    j, "Adjust for household composition (equivalized income) Checkbox"
+                    j,
+                    "Adjust for cost sharing within households (equivalized income) Checkbox",
                 ] = equivalence_scales["checkbox"][eq]
                 df_graphers.loc[j, "Relative change Checkbox"] = "false"
                 df_graphers.loc[j, "stackMode"] = "absolute"
@@ -889,7 +894,8 @@ for tab in range(len(tables)):
             ] = f"{welfare['dropdown_option'][wel]}"
             df_graphers.loc[j, "Period Radio"] = np.nan
             df_graphers.loc[
-                j, "Adjust for household composition (equivalized income) Checkbox"
+                j,
+                "Adjust for cost sharing within households (equivalized income) Checkbox",
             ] = equivalence_scales["checkbox"][eq]
             df_graphers.loc[j, "Relative change Checkbox"] = "false"
             df_graphers.loc[j, "stackMode"] = "absolute"
@@ -916,7 +922,8 @@ for tab in range(len(tables)):
             df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
             df_graphers.loc[j, "Period Radio"] = np.nan
             df_graphers.loc[
-                j, "Adjust for household composition (equivalized income) Checkbox"
+                j,
+                "Adjust for cost sharing within households (equivalized income) Checkbox",
             ] = equivalence_scales["checkbox"][eq]
             df_graphers.loc[j, "Relative change Checkbox"] = "false"
             df_graphers.loc[j, "stackMode"] = "absolute"
@@ -990,7 +997,9 @@ df_graphers.loc[
     & (df_graphers["Income measure Dropdown"] == "After tax")
     & (df_graphers["Period Radio"] == "Year")
     & (
-        df_graphers["Adjust for household composition (equivalized income) Checkbox"]
+        df_graphers[
+            "Adjust for cost sharing within households (equivalized income) Checkbox"
+        ]
         == "false"
     )
     & (df_graphers["Relative change Checkbox"] == "false"),

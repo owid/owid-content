@@ -429,11 +429,12 @@ for tab in range(len(tables)):
                     j, "Income measure Dropdown"
                 ] = f"{welfare['dropdown_option'][wel]}"
                 df_graphers.loc[
-                    j, "Adjust for household composition (equivalized income) Checkbox"
+                    j,
+                    "Adjust for cost sharing within households (equivalized income) Checkbox",
                 ] = equivalence_scales["checkbox"][eq]
                 df_graphers.loc[
                     j, "subtitle"
-                ] = f"{povlines_abs['subtitle'][p]} {welfare['subtitle'][wel]} {equivalence_scales['note'][eq]}"
+                ] = f"{povlines_abs['subtitle'][p]} {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
                 df_graphers.loc[
                     j, "note"
                 ] = f"This data is measured in international-$ at 2017 prices."
@@ -459,11 +460,12 @@ for tab in range(len(tables)):
                     j, "Income measure Dropdown"
                 ] = f"{welfare['dropdown_option'][wel]}"
                 df_graphers.loc[
-                    j, "Adjust for household composition (equivalized income) Checkbox"
+                    j,
+                    "Adjust for cost sharing within households (equivalized income) Checkbox",
                 ] = equivalence_scales["checkbox"][eq]
                 df_graphers.loc[
                     j, "subtitle"
-                ] = f"{povlines_abs['subtitle'][p]} {welfare['subtitle'][wel]} {equivalence_scales['note'][eq]}"
+                ] = f"{povlines_abs['subtitle'][p]} {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
                 df_graphers.loc[
                     j, "note"
                 ] = f"This data is measured in international-$ at 2017 prices."
@@ -491,11 +493,12 @@ for tab in range(len(tables)):
                     j, "Income measure Dropdown"
                 ] = f"{welfare['dropdown_option'][wel]}"
                 df_graphers.loc[
-                    j, "Adjust for household composition (equivalized income) Checkbox"
+                    j,
+                    "Adjust for cost sharing within households (equivalized income) Checkbox",
                 ] = equivalence_scales["checkbox"][eq]
                 df_graphers.loc[
                     j, "subtitle"
-                ] = f"{povlines_abs['subtitle_total_shortfall'][p]} {welfare['subtitle'][wel]} {equivalence_scales['note'][eq]}"
+                ] = f"{povlines_abs['subtitle_total_shortfall'][p]} {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
                 df_graphers.loc[
                     j, "note"
                 ] = "This data is expressed in international-$ at 2017 prices. The cost of closing the poverty gap does not take into account costs and inefficiencies from making the necessary transfers."
@@ -521,11 +524,12 @@ for tab in range(len(tables)):
                     j, "Income measure Dropdown"
                 ] = f"{welfare['dropdown_option'][wel]}"
                 df_graphers.loc[
-                    j, "Adjust for household composition (equivalized income) Checkbox"
+                    j,
+                    "Adjust for cost sharing within households (equivalized income) Checkbox",
                 ] = equivalence_scales["checkbox"][eq]
                 df_graphers.loc[
                     j, "subtitle"
-                ] = f"{povlines_abs['subtitle_avg_shortfall'][p]} {welfare['subtitle'][wel]} {equivalence_scales['note'][eq]}"
+                ] = f"{povlines_abs['subtitle_avg_shortfall'][p]} {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
                 df_graphers.loc[
                     j, "note"
                 ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
@@ -553,11 +557,12 @@ for tab in range(len(tables)):
                     j, "Income measure Dropdown"
                 ] = f"{welfare['dropdown_option'][wel]}"
                 df_graphers.loc[
-                    j, "Adjust for household composition (equivalized income) Checkbox"
+                    j,
+                    "Adjust for cost sharing within households (equivalized income) Checkbox",
                 ] = equivalence_scales["checkbox"][eq]
                 df_graphers.loc[
                     j, "subtitle"
-                ] = f"{povlines_abs['subtitle_income_gap_ratio'][p]} {welfare['subtitle'][wel]} {equivalence_scales['note'][eq]}"
+                ] = f"{povlines_abs['subtitle_income_gap_ratio'][p]} {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
                 df_graphers.loc[
                     j, "note"
                 ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
@@ -583,11 +588,12 @@ for tab in range(len(tables)):
                     j, "Income measure Dropdown"
                 ] = f"{welfare['dropdown_option'][wel]}"
                 df_graphers.loc[
-                    j, "Adjust for household composition (equivalized income) Checkbox"
+                    j,
+                    "Adjust for cost sharing within households (equivalized income) Checkbox",
                 ] = equivalence_scales["checkbox"][eq]
                 df_graphers.loc[
                     j, "subtitle"
-                ] = f"The poverty gap index is a poverty measure that reflects both the prevalence and the depth of poverty. It is calculated as the share of population in poverty multiplied by the average shortfall from the poverty line (expressed as a % of the poverty line). {welfare['subtitle'][wel]} {equivalence_scales['note'][eq]}"
+                ] = f"The poverty gap index is a poverty measure that reflects both the prevalence and the depth of poverty. It is calculated as the share of population in poverty multiplied by the average shortfall from the poverty line (expressed as a % of the poverty line). {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
                 df_graphers.loc[
                     j, "note"
                 ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
@@ -611,11 +617,12 @@ for tab in range(len(tables)):
                 j, "Income measure Dropdown"
             ] = f"{welfare['dropdown_option'][wel]}"
             df_graphers.loc[
-                j, "Adjust for household composition (equivalized income) Checkbox"
+                j,
+                "Adjust for cost sharing within households (equivalized income) Checkbox",
             ] = equivalence_scales["checkbox"][eq]
             df_graphers.loc[
                 j, "subtitle"
-            ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]} {equivalence_scales['note'][eq]}"
+            ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
             df_graphers.loc[
                 j, "note"
             ] = f"This data is measured in international-$ at 2017 prices."
@@ -638,11 +645,12 @@ for tab in range(len(tables)):
                 j, "Income measure Dropdown"
             ] = f"{welfare['dropdown_option'][wel]}"
             df_graphers.loc[
-                j, "Adjust for household composition (equivalized income) Checkbox"
+                j,
+                "Adjust for cost sharing within households (equivalized income) Checkbox",
             ] = equivalence_scales["checkbox"][eq]
             df_graphers.loc[
                 j, "subtitle"
-            ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]} {equivalence_scales['note'][eq]}"
+            ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
             df_graphers.loc[
                 j, "note"
             ] = f"This data is measured in international-$ at 2017 prices."
@@ -668,11 +676,12 @@ for tab in range(len(tables)):
                 j, "Income measure Dropdown"
             ] = f"{welfare['dropdown_option'][wel]}"
             df_graphers.loc[
-                j, "Adjust for household composition (equivalized income) Checkbox"
+                j,
+                "Adjust for cost sharing within households (equivalized income) Checkbox",
             ] = equivalence_scales["checkbox"][eq]
             df_graphers.loc[
                 j, "subtitle"
-            ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]} {equivalence_scales['note'][eq]}"
+            ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
             df_graphers.loc[
                 j, "note"
             ] = "This data is expressed in international-$ at 2017 prices. The cost of closing the poverty gap does not take into account costs and inefficiencies from making the necessary transfers."
@@ -695,11 +704,12 @@ for tab in range(len(tables)):
                 j, "Income measure Dropdown"
             ] = f"{welfare['dropdown_option'][wel]}"
             df_graphers.loc[
-                j, "Adjust for household composition (equivalized income) Checkbox"
+                j,
+                "Adjust for cost sharing within households (equivalized income) Checkbox",
             ] = equivalence_scales["checkbox"][eq]
             df_graphers.loc[
                 j, "subtitle"
-            ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]} {equivalence_scales['note'][eq]}"
+            ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
             df_graphers.loc[
                 j, "note"
             ] = f"This data is measured in international-$ at 2017 prices."
@@ -724,11 +734,12 @@ for tab in range(len(tables)):
                 j, "Income measure Dropdown"
             ] = f"{welfare['dropdown_option'][wel]}"
             df_graphers.loc[
-                j, "Adjust for household composition (equivalized income) Checkbox"
+                j,
+                "Adjust for cost sharing within households (equivalized income) Checkbox",
             ] = equivalence_scales["checkbox"][eq]
             df_graphers.loc[
                 j, "subtitle"
-            ] = f"{welfare['subtitle'][wel]} {equivalence_scales['note'][eq]}"
+            ] = f"{welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
             df_graphers.loc[
                 j, "note"
             ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
@@ -751,11 +762,12 @@ for tab in range(len(tables)):
                 j, "Income measure Dropdown"
             ] = f"{welfare['dropdown_option'][wel]}"
             df_graphers.loc[
-                j, "Adjust for household composition (equivalized income) Checkbox"
+                j,
+                "Adjust for cost sharing within households (equivalized income) Checkbox",
             ] = equivalence_scales["checkbox"][eq]
             df_graphers.loc[
                 j, "subtitle"
-            ] = f"{welfare['subtitle'][wel]} {equivalence_scales['note'][eq]}"
+            ] = f"{welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
             df_graphers.loc[
                 j, "note"
             ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
@@ -782,11 +794,12 @@ for tab in range(len(tables)):
                     j, "Income measure Dropdown"
                 ] = f"{welfare['dropdown_option'][wel]}"
                 df_graphers.loc[
-                    j, "Adjust for household composition (equivalized income) Checkbox"
+                    j,
+                    "Adjust for cost sharing within households (equivalized income) Checkbox",
                 ] = equivalence_scales["checkbox"][eq]
                 df_graphers.loc[
                     j, "subtitle"
-                ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at {povlines_rel['text'][pct]} {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]} {equivalence_scales['note'][eq]}"
+                ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at {povlines_rel['text'][pct]} {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
                 df_graphers.loc[j, "note"] = ""
                 df_graphers.loc[j, "type"] = np.nan
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -810,11 +823,12 @@ for tab in range(len(tables)):
                     j, "Income measure Dropdown"
                 ] = f"{welfare['dropdown_option'][wel]}"
                 df_graphers.loc[
-                    j, "Adjust for household composition (equivalized income) Checkbox"
+                    j,
+                    "Adjust for cost sharing within households (equivalized income) Checkbox",
                 ] = equivalence_scales["checkbox"][eq]
                 df_graphers.loc[
                     j, "subtitle"
-                ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at {povlines_rel['text'][pct]} {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]} {equivalence_scales['note'][eq]}"
+                ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at {povlines_rel['text'][pct]} {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
                 df_graphers.loc[j, "note"] = ""
                 df_graphers.loc[j, "type"] = np.nan
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -840,11 +854,12 @@ for tab in range(len(tables)):
                     j, "Income measure Dropdown"
                 ] = f"{welfare['dropdown_option'][wel]}"
                 df_graphers.loc[
-                    j, "Adjust for household composition (equivalized income) Checkbox"
+                    j,
+                    "Adjust for cost sharing within households (equivalized income) Checkbox",
                 ] = equivalence_scales["checkbox"][eq]
                 df_graphers.loc[
                     j, "subtitle"
-                ] = f"This is the amount of money that would be theoretically needed to lift the incomes of all people in poverty up to {povlines_rel.text[pct]} {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]} {equivalence_scales['note'][eq]}"
+                ] = f"This is the amount of money that would be theoretically needed to lift the incomes of all people in poverty up to {povlines_rel.text[pct]} {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
                 df_graphers.loc[
                     j, "note"
                 ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
@@ -870,11 +885,12 @@ for tab in range(len(tables)):
                     j, "Income measure Dropdown"
                 ] = f"{welfare['dropdown_option'][wel]}"
                 df_graphers.loc[
-                    j, "Adjust for household composition (equivalized income) Checkbox"
+                    j,
+                    "Adjust for cost sharing within households (equivalized income) Checkbox",
                 ] = equivalence_scales["checkbox"][eq]
                 df_graphers.loc[
                     j, "subtitle"
-                ] = f"This is the amount of money that would be theoretically needed to lift the incomes of all people in poverty up to {povlines_rel['text'][pct]} {welfare['welfare_type'][wel]}, averaged across the population in poverty. {welfare['subtitle'][wel]} {equivalence_scales['note'][eq]}"
+                ] = f"This is the amount of money that would be theoretically needed to lift the incomes of all people in poverty up to {povlines_rel['text'][pct]} {welfare['welfare_type'][wel]}, averaged across the population in poverty. {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
                 df_graphers.loc[
                     j, "note"
                 ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
@@ -902,7 +918,8 @@ for tab in range(len(tables)):
                     j, "Income measure Dropdown"
                 ] = f"{welfare['dropdown_option'][wel]}"
                 df_graphers.loc[
-                    j, "Adjust for household composition (equivalized income) Checkbox"
+                    j,
+                    "Adjust for cost sharing within households (equivalized income) Checkbox",
                 ] = equivalence_scales["checkbox"][eq]
                 df_graphers.loc[
                     j, "subtitle"
@@ -932,11 +949,12 @@ for tab in range(len(tables)):
                     j, "Income measure Dropdown"
                 ] = f"{welfare['dropdown_option'][wel]}"
                 df_graphers.loc[
-                    j, "Adjust for household composition (equivalized income) Checkbox"
+                    j,
+                    "Adjust for cost sharing within households (equivalized income) Checkbox",
                 ] = equivalence_scales["checkbox"][eq]
                 df_graphers.loc[
                     j, "subtitle"
-                ] = f"The poverty gap index is a poverty measure that reflects both the prevalence and the depth of poverty. It is calculated as the share of population in poverty multiplied by the average shortfall from the poverty line (expressed as a % of the poverty line). {welfare['subtitle'][wel]} {equivalence_scales['note'][eq]}"
+                ] = f"The poverty gap index is a poverty measure that reflects both the prevalence and the depth of poverty. It is calculated as the share of population in poverty multiplied by the average shortfall from the poverty line (expressed as a % of the poverty line). {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
                 df_graphers.loc[
                     j, "note"
                 ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
@@ -961,11 +979,12 @@ for tab in range(len(tables)):
             ] = f"{povlines_abs['povline_dropdown'][p]}"
             df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
             df_graphers.loc[
-                j, "Adjust for household composition (equivalized income) Checkbox"
+                j,
+                "Adjust for cost sharing within households (equivalized income) Checkbox",
             ] = equivalence_scales["checkbox"][eq]
             df_graphers.loc[
                 j, "subtitle"
-            ] = f"{povlines_abs['subtitle'][p]} {equivalence_scales['note'][eq]}"
+            ] = f"{povlines_abs['subtitle'][p]} {equivalence_scales['subtitle'][eq]}"
             df_graphers.loc[
                 j, "note"
             ] = f"This data is measured in international-$ at 2017 prices."
@@ -989,11 +1008,12 @@ for tab in range(len(tables)):
             ] = f"{povlines_abs['povline_dropdown'][p]}"
             df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
             df_graphers.loc[
-                j, "Adjust for household composition (equivalized income) Checkbox"
+                j,
+                "Adjust for cost sharing within households (equivalized income) Checkbox",
             ] = equivalence_scales["checkbox"][eq]
             df_graphers.loc[
                 j, "subtitle"
-            ] = f"{povlines_abs['subtitle'][p]} {equivalence_scales['note'][eq]}"
+            ] = f"{povlines_abs['subtitle'][p]} {equivalence_scales['subtitle'][eq]}"
             df_graphers.loc[
                 j, "note"
             ] = f"This data is measured in international-$ at 2017 prices."
@@ -1019,11 +1039,12 @@ for tab in range(len(tables)):
             ] = f"{povlines_abs['povline_dropdown'][p]}"
             df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
             df_graphers.loc[
-                j, "Adjust for household composition (equivalized income) Checkbox"
+                j,
+                "Adjust for cost sharing within households (equivalized income) Checkbox",
             ] = equivalence_scales["checkbox"][eq]
             df_graphers.loc[
                 j, "subtitle"
-            ] = f"{povlines_abs['subtitle_total_shortfall'][p]} {equivalence_scales['note'][eq]}"
+            ] = f"{povlines_abs['subtitle_total_shortfall'][p]} {equivalence_scales['subtitle'][eq]}"
             df_graphers.loc[
                 j, "note"
             ] = "This data is expressed in international-$ at 2017 prices. The cost of closing the poverty gap does not take into account costs and inefficiencies from making the necessary transfers."
@@ -1047,11 +1068,12 @@ for tab in range(len(tables)):
             ] = f"{povlines_abs['povline_dropdown'][p]}"
             df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
             df_graphers.loc[
-                j, "Adjust for household composition (equivalized income) Checkbox"
+                j,
+                "Adjust for cost sharing within households (equivalized income) Checkbox",
             ] = equivalence_scales["checkbox"][eq]
             df_graphers.loc[
                 j, "subtitle"
-            ] = f"{povlines_abs['subtitle_avg_shortfall'][p]} {equivalence_scales['note'][eq]}"
+            ] = f"{povlines_abs['subtitle_avg_shortfall'][p]} {equivalence_scales['subtitle'][eq]}"
             df_graphers.loc[
                 j, "note"
             ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
@@ -1077,11 +1099,12 @@ for tab in range(len(tables)):
             ] = f"{povlines_abs.povline_dropdown[p]}"
             df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
             df_graphers.loc[
-                j, "Adjust for household composition (equivalized income) Checkbox"
+                j,
+                "Adjust for cost sharing within households (equivalized income) Checkbox",
             ] = equivalence_scales["checkbox"][eq]
             df_graphers.loc[
                 j, "subtitle"
-            ] = f"{povlines_abs['subtitle_income_gap_ratio'][p]} {equivalence_scales['note'][eq]}"
+            ] = f"{povlines_abs['subtitle_income_gap_ratio'][p]} {equivalence_scales['subtitle'][eq]}"
             df_graphers.loc[
                 j, "note"
             ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
@@ -1105,11 +1128,12 @@ for tab in range(len(tables)):
             ] = f"{povlines_abs['povline_dropdown'][p]}"
             df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
             df_graphers.loc[
-                j, "Adjust for household composition (equivalized income) Checkbox"
+                j,
+                "Adjust for cost sharing within households (equivalized income) Checkbox",
             ] = equivalence_scales["checkbox"][eq]
             df_graphers.loc[
                 j, "subtitle"
-            ] = f"The poverty gap index is a poverty measure that reflects both the prevalence and the depth of poverty. It is calculated as the share of population in poverty multiplied by the average shortfall from the poverty line (expressed as a % of the poverty line). {equivalence_scales['note'][eq]}"
+            ] = f"The poverty gap index is a poverty measure that reflects both the prevalence and the depth of poverty. It is calculated as the share of population in poverty multiplied by the average shortfall from the poverty line (expressed as a % of the poverty line). {equivalence_scales['subtitle'][eq]}"
             df_graphers.loc[
                 j, "note"
             ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
@@ -1133,11 +1157,12 @@ for tab in range(len(tables)):
             ] = f"{povlines_rel['dropdown'][pct]}"
             df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
             df_graphers.loc[
-                j, "Adjust for household composition (equivalized income) Checkbox"
+                j,
+                "Adjust for cost sharing within households (equivalized income) Checkbox",
             ] = equivalence_scales["checkbox"][eq]
             df_graphers.loc[
                 j, "subtitle"
-            ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at {povlines_rel['text'][pct]} income. {equivalence_scales['note'][eq]}"
+            ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at {povlines_rel['text'][pct]} income. {equivalence_scales['subtitle'][eq]}"
             df_graphers.loc[j, "note"] = ""
             df_graphers.loc[j, "type"] = np.nan
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
@@ -1159,11 +1184,12 @@ for tab in range(len(tables)):
             ] = f"{povlines_rel['dropdown'][pct]}"
             df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
             df_graphers.loc[
-                j, "Adjust for household composition (equivalized income) Checkbox"
+                j,
+                "Adjust for cost sharing within households (equivalized income) Checkbox",
             ] = equivalence_scales["checkbox"][eq]
             df_graphers.loc[
                 j, "subtitle"
-            ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at {povlines_rel['text'][pct]} income. {equivalence_scales['note'][eq]}"
+            ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at {povlines_rel['text'][pct]} income. {equivalence_scales['subtitle'][eq]}"
             df_graphers.loc[j, "note"] = ""
             df_graphers.loc[j, "type"] = np.nan
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
@@ -1187,11 +1213,12 @@ for tab in range(len(tables)):
             ] = f"{povlines_rel['dropdown'][pct]}"
             df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
             df_graphers.loc[
-                j, "Adjust for household composition (equivalized income) Checkbox"
+                j,
+                "Adjust for cost sharing within households (equivalized income) Checkbox",
             ] = equivalence_scales["checkbox"][eq]
             df_graphers.loc[
                 j, "subtitle"
-            ] = f"This is the amount of money that would be theoretically needed to lift the incomes of all people in poverty up to {povlines_rel.text[pct]} income. {equivalence_scales['note'][eq]}"
+            ] = f"This is the amount of money that would be theoretically needed to lift the incomes of all people in poverty up to {povlines_rel.text[pct]} income. {equivalence_scales['subtitle'][eq]}"
             df_graphers.loc[
                 j, "note"
             ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
@@ -1215,11 +1242,12 @@ for tab in range(len(tables)):
             ] = f"{povlines_rel['dropdown'][pct]}"
             df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
             df_graphers.loc[
-                j, "Adjust for household composition (equivalized income) Checkbox"
+                j,
+                "Adjust for cost sharing within households (equivalized income) Checkbox",
             ] = equivalence_scales["checkbox"][eq]
             df_graphers.loc[
                 j, "subtitle"
-            ] = f"This is the amount of money that would be theoretically needed to lift the incomes of all people in poverty up to {povlines_rel['text'][pct]} income, averaged across the population in poverty. {equivalence_scales['note'][eq]}"
+            ] = f"This is the amount of money that would be theoretically needed to lift the incomes of all people in poverty up to {povlines_rel['text'][pct]} income, averaged across the population in poverty. {equivalence_scales['subtitle'][eq]}"
             df_graphers.loc[
                 j, "note"
             ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
@@ -1245,7 +1273,8 @@ for tab in range(len(tables)):
             ] = f"{povlines_rel['dropdown'][pct]}"
             df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
             df_graphers.loc[
-                j, "Adjust for household composition (equivalized income) Checkbox"
+                j,
+                "Adjust for cost sharing within households (equivalized income) Checkbox",
             ] = equivalence_scales["checkbox"][eq]
             df_graphers.loc[
                 j, "subtitle"
@@ -1273,11 +1302,12 @@ for tab in range(len(tables)):
             ] = f"{povlines_rel['dropdown'][pct]}"
             df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
             df_graphers.loc[
-                j, "Adjust for household composition (equivalized income) Checkbox"
+                j,
+                "Adjust for cost sharing within households (equivalized income) Checkbox",
             ] = equivalence_scales["checkbox"][eq]
             df_graphers.loc[
                 j, "subtitle"
-            ] = f"The poverty gap index is a poverty measure that reflects both the prevalence and the depth of poverty. It is calculated as the share of population in poverty multiplied by the average shortfall from the poverty line (expressed as a % of the poverty line). {equivalence_scales['note'][eq]}"
+            ] = f"The poverty gap index is a poverty measure that reflects both the prevalence and the depth of poverty. It is calculated as the share of population in poverty multiplied by the average shortfall from the poverty line (expressed as a % of the poverty line). {equivalence_scales['subtitle'][eq]}"
             df_graphers.loc[
                 j, "note"
             ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
@@ -1671,7 +1701,9 @@ df_graphers.loc[
     & (df_graphers["Poverty line Dropdown"] == "$30 per day")
     & (df_graphers["Income measure Dropdown"] == "After tax")
     & (
-        df_graphers["Adjust for household composition (equivalized income) Checkbox"]
+        df_graphers[
+            "Adjust for cost sharing within households (equivalized income) Checkbox"
+        ]
         == "false"
     ),
     ["defaultView"],

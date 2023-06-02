@@ -264,7 +264,8 @@ for tab in range(len(tables)):
                 j, "Income measure Dropdown"
             ] = f"{welfare['dropdown_option'][wel]}"
             df_graphers.loc[
-                j, "Adjust for household composition (equivalized income) Checkbox"
+                j,
+                "Adjust for cost sharing within households (equivalized income) Checkbox",
             ] = equivalence_scales["checkbox"][eq]
             df_graphers.loc[
                 j, "subtitle"
@@ -287,7 +288,8 @@ for tab in range(len(tables)):
                 j, "Income measure Dropdown"
             ] = f"{welfare['dropdown_option'][wel]}"
             df_graphers.loc[
-                j, "Adjust for household composition (equivalized income) Checkbox"
+                j,
+                "Adjust for cost sharing within households (equivalized income) Checkbox",
             ] = equivalence_scales["checkbox"][eq]
             df_graphers.loc[
                 j, "subtitle"
@@ -310,7 +312,7 @@ for tab in range(len(tables)):
             #     j, "Income measure Dropdown"
             # ] = f"{welfare['dropdown_option'][wel]}"
             # df_graphers.loc[
-            #     j, "Adjust for household composition (equivalized income) Checkbox"
+            #     j, "Adjust for cost sharing within households (equivalized income) Checkbox"
             # ] = equivalence_scales["checkbox"][eq]
             # df_graphers.loc[
             #     j, "subtitle"
@@ -334,7 +336,7 @@ for tab in range(len(tables)):
             #     j, "Income measure Dropdown"
             # ] = f"{welfare['dropdown_option'][wel]}"
             # df_graphers.loc[
-            #     j, "Adjust for household composition (equivalized income) Checkbox"
+            #     j, "Adjust for cost sharing within households (equivalized income) Checkbox"
             # ] = equivalence_scales["checkbox"][eq]
             # df_graphers.loc[
             #     j, "subtitle"
@@ -358,7 +360,7 @@ for tab in range(len(tables)):
             #     j, "Income measure Dropdown"
             # ] = f"{welfare['dropdown_option'][wel]}"
             # df_graphers.loc[
-            #     j, "Adjust for household composition (equivalized income) Checkbox"
+            #     j, "Adjust for cost sharing within households (equivalized income) Checkbox"
             # ] = equivalence_scales["checkbox"][eq]
             # df_graphers.loc[
             #     j, "subtitle"
@@ -382,7 +384,8 @@ for tab in range(len(tables)):
                 j, "Income measure Dropdown"
             ] = f"{welfare['dropdown_option'][wel]}"
             df_graphers.loc[
-                j, "Adjust for household composition (equivalized income) Checkbox"
+                j,
+                "Adjust for cost sharing within households (equivalized income) Checkbox",
             ] = equivalence_scales["checkbox"][eq]
             df_graphers.loc[
                 j, "subtitle"
@@ -408,7 +411,8 @@ for tab in range(len(tables)):
                     j, "Income measure Dropdown"
                 ] = f"{welfare['dropdown_option'][wel]}"
                 df_graphers.loc[
-                    j, "Adjust for household composition (equivalized income) Checkbox"
+                    j,
+                    "Adjust for cost sharing within households (equivalized income) Checkbox",
                 ] = equivalence_scales["checkbox"][eq]
                 df_graphers.loc[
                     j, "subtitle"
@@ -431,7 +435,7 @@ for tab in range(len(tables)):
         df_graphers.loc[j, "Indicator Dropdown"] = "Gini coefficient"
         df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
         df_graphers.loc[
-            j, "Adjust for household composition (equivalized income) Checkbox"
+            j, "Adjust for cost sharing within households (equivalized income) Checkbox"
         ] = equivalence_scales["checkbox"][eq]
         df_graphers.loc[
             j, "subtitle"
@@ -452,7 +456,7 @@ for tab in range(len(tables)):
         df_graphers.loc[j, "Indicator Dropdown"] = "Share of the richest 10%"
         df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
         df_graphers.loc[
-            j, "Adjust for household composition (equivalized income) Checkbox"
+            j, "Adjust for cost sharing within households (equivalized income) Checkbox"
         ] = equivalence_scales["checkbox"][eq]
         df_graphers.loc[
             j, "subtitle"
@@ -473,7 +477,7 @@ for tab in range(len(tables)):
         # df_graphers.loc[j, "Indicator Dropdown"] = "P90/P10"
         # df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
         # df_graphers.loc[
-        #     j, "Adjust for household composition (equivalized income) Checkbox"
+        #     j, "Adjust for cost sharing within households (equivalized income) Checkbox"
         # ] = equivalence_scales["checkbox"][eq]
         # df_graphers.loc[
         #     j, "subtitle"
@@ -495,7 +499,7 @@ for tab in range(len(tables)):
         # df_graphers.loc[j, "Indicator Dropdown"] = "P90/P50"
         # df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
         # df_graphers.loc[
-        #     j, "Adjust for household composition (equivalized income) Checkbox"
+        #     j, "Adjust for cost sharing within households (equivalized income) Checkbox"
         # ] = equivalence_scales["checkbox"][eq]
         # df_graphers.loc[
         #     j, "subtitle"
@@ -517,7 +521,7 @@ for tab in range(len(tables)):
         # df_graphers.loc[j, "Indicator Dropdown"] = "P50/P10"
         # df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
         # df_graphers.loc[
-        #     j, "Adjust for household composition (equivalized income) Checkbox"
+        #     j, "Adjust for cost sharing within households (equivalized income) Checkbox"
         # ] = equivalence_scales["checkbox"][eq]
         # df_graphers.loc[
         #     j, "subtitle"
@@ -539,7 +543,7 @@ for tab in range(len(tables)):
         df_graphers.loc[j, "Indicator Dropdown"] = "Palma ratio"
         df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
         df_graphers.loc[
-            j, "Adjust for household composition (equivalized income) Checkbox"
+            j, "Adjust for cost sharing within households (equivalized income) Checkbox"
         ] = equivalence_scales["checkbox"][eq]
         df_graphers.loc[
             j, "subtitle"
@@ -563,7 +567,8 @@ for tab in range(len(tables)):
             ] = f"Share in relative poverty (< {povlines_rel['text'][pct]})"
             df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
             df_graphers.loc[
-                j, "Adjust for household composition (equivalized income) Checkbox"
+                j,
+                "Adjust for cost sharing within households (equivalized income) Checkbox",
             ] = equivalence_scales["checkbox"][eq]
             df_graphers.loc[
                 j, "subtitle"
@@ -754,7 +759,9 @@ df_graphers.loc[
     (df_graphers["Indicator Dropdown"] == "Gini coefficient")
     & (df_graphers["Income measure Dropdown"] == "After tax")
     & (
-        df_graphers["Adjust for household composition (equivalized income) Checkbox"]
+        df_graphers[
+            "Adjust for cost sharing within households (equivalized income) Checkbox"
+        ]
         == "false"
     ),
     ["defaultView"],
