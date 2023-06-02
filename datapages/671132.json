@@ -136,27 +136,6 @@
         }
     ],
     "datasetName": "Global Carbon Budget – Processed and adapted by Our World in Data",
-    "datasetFeaturedVariables": [
-        {
-            "variableName": "Annual consumption-based CO₂ emissions (per capita)"
-        },
-        {
-            "variableName": "Annual consumption-based CO₂ emissions",
-            "variableSubtitle": "Annual consumption-based emissions of carbon dioxide (CO₂), measured in tonnes."
-        },
-        {
-            "variableName": "Share of global annual CO₂ consumption-based emissions",
-            "variableSubtitle": "Annual consumption-based emissions of carbon dioxide (CO₂), measured as a percentage of global consumption-based emissions of CO₂ in the same year."
-        },
-        {
-            "variableName": "Annual CO₂ emissions",
-            "variableSubtitle": "Annual total production-based emissions of carbon dioxide (CO₂), excluding land-use change, measured in tonnes."
-        },
-        {
-            "variableName": "Annual CO₂ emissions including land-use change",
-            "variableSubtitle": "Annual total production-based emissions of carbon dioxide (CO₂), including land-use change, measured in tonnes."
-        }
-    ],
     "datasetCodeUrl": "https://ourworldindata.org/explorers/co2",
     "datasetLicenseLink": {
         "title": "CC BY 4.0",
