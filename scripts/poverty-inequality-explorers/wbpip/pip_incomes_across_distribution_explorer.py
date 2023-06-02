@@ -347,6 +347,9 @@ for survey in range(len(survey_type)):
         df_graphers.loc[
             j, "Period Radio"
         ] = f"{income_aggregation.aggregation[agg].title()}"
+        df_graphers.loc[
+            j, "Show breaks between less comparable surveys Checkbox"
+        ] = "false"
         df_graphers.loc[j, "Relative change Checkbox"] = "false"
         df_graphers.loc[j, "stackMode"] = "absolute"
         df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
@@ -379,6 +382,9 @@ for survey in range(len(survey_type)):
         df_graphers.loc[
             j, "Period Radio"
         ] = f"{income_aggregation.aggregation[agg].title()}"
+        df_graphers.loc[
+            j, "Show breaks between less comparable surveys Checkbox"
+        ] = "false"
         df_graphers.loc[j, "Relative change Checkbox"] = "false"
         df_graphers.loc[j, "stackMode"] = "absolute"
         df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
@@ -414,6 +420,9 @@ for survey in range(len(survey_type)):
             df_graphers.loc[
                 j, "Period Radio"
             ] = f"{income_aggregation.aggregation[agg].title()}"
+            df_graphers.loc[
+                j, "Show breaks between less comparable surveys Checkbox"
+            ] = "false"
             df_graphers.loc[j, "Relative change Checkbox"] = "false"
             df_graphers.loc[j, "stackMode"] = "absolute"
             df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
@@ -451,6 +460,9 @@ for survey in range(len(survey_type)):
             df_graphers.loc[
                 j, "Period Radio"
             ] = f"{income_aggregation.aggregation[agg].title()}"
+            df_graphers.loc[
+                j, "Show breaks between less comparable surveys Checkbox"
+            ] = "false"
             df_graphers.loc[j, "Relative change Checkbox"] = "false"
             df_graphers.loc[j, "stackMode"] = "absolute"
             df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
@@ -487,6 +499,9 @@ for survey in range(len(survey_type)):
             df_graphers.loc[
                 j, "Period Radio"
             ] = f"{income_aggregation.aggregation[agg].title()}"
+            df_graphers.loc[
+                j, "Show breaks between less comparable surveys Checkbox"
+            ] = "false"
             df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
                 "checkbox"
             ][rel_toggle]
@@ -525,6 +540,9 @@ for survey in range(len(survey_type)):
             df_graphers.loc[
                 j, "Period Radio"
             ] = f"{income_aggregation.aggregation[agg].title()}"
+            df_graphers.loc[
+                j, "Show breaks between less comparable surveys Checkbox"
+            ] = "false"
             df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
                 "checkbox"
             ][rel_toggle]
@@ -559,6 +577,9 @@ for survey in range(len(survey_type)):
             j, "Household survey data type Dropdown"
         ] = f"{survey_type.dropdown_option[survey]}"
         df_graphers.loc[j, "Period Radio"] = np.nan
+        df_graphers.loc[
+            j, "Show breaks between less comparable surveys Checkbox"
+        ] = "false"
         df_graphers.loc[j, "Relative change Checkbox"] = "false"
         df_graphers.loc[j, "stackMode"] = "absolute"
         df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
@@ -591,6 +612,7 @@ for survey in range(len(survey_type)):
         j, "Household survey data type Dropdown"
     ] = f"{survey_type.dropdown_option[survey]}"
     df_graphers.loc[j, "Period Radio"] = np.nan
+    df_graphers.loc[j, "Show breaks between less comparable surveys Checkbox"] = "false"
     df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
     df_graphers.loc[j, "Relative change Checkbox"] = "false"
     df_graphers.loc[j, "stackMode"] = "absolute"
