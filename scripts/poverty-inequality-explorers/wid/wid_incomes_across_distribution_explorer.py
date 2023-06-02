@@ -752,7 +752,7 @@ for tab in range(len(tables)):
         # Mean
         df_graphers.loc[
             j, "title"
-        ] = f"Mean income per {income_aggregation['aggregation'][agg]} (After tax vs. before tax)"
+        ] = f"Mean income per {income_aggregation['aggregation'][agg]} (after tax vs. before tax)"
         df_graphers.loc[
             j, "ySlugs"
         ] = f"p0p100_avg_pretax{income_aggregation['slug_suffix'][agg]} p0p100_avg_posttax_nat{income_aggregation['slug_suffix'][agg]}"
@@ -779,7 +779,7 @@ for tab in range(len(tables)):
         # Median
         df_graphers.loc[
             j, "title"
-        ] = f"Median income per {income_aggregation['aggregation'][agg]} (After tax vs. before tax)"
+        ] = f"Median income per {income_aggregation['aggregation'][agg]} (after tax vs. before tax)"
         df_graphers.loc[
             j, "ySlugs"
         ] = f"median_pretax{income_aggregation['slug_suffix'][agg]} median_posttax_nat{income_aggregation['slug_suffix'][agg]}"
@@ -807,7 +807,7 @@ for tab in range(len(tables)):
         for dec9 in range(len(deciles9)):
             df_graphers.loc[
                 j, "title"
-            ] = f"Threshold income per {income_aggregation['aggregation'][agg]} marking the {deciles9['ordinal'][dec9]} (After tax vs. before tax)"
+            ] = f"Threshold income per {income_aggregation['aggregation'][agg]} marking the {deciles9['ordinal'][dec9]} (after tax vs. before tax)"
             df_graphers.loc[
                 j, "ySlugs"
             ] = f"{deciles9['wid_notation'][dec9]}_thr_pretax{income_aggregation['slug_suffix'][agg]} {deciles9['wid_notation'][dec9]}_thr_posttax_nat{income_aggregation['slug_suffix'][agg]}"
@@ -835,7 +835,7 @@ for tab in range(len(tables)):
         for dec10 in range(len(deciles10)):
             df_graphers.loc[
                 j, "title"
-            ] = f"Mean income per {income_aggregation['aggregation'][agg]} within the {deciles10['ordinal'][dec10]} (After tax vs. before tax)"
+            ] = f"Mean income per {income_aggregation['aggregation'][agg]} within the {deciles10['ordinal'][dec10]} (after tax vs. before tax)"
             df_graphers.loc[
                 j, "ySlugs"
             ] = f"{deciles10['wid_notation'][dec10]}_avg_pretax{income_aggregation['slug_suffix'][agg]} {deciles10['wid_notation'][dec10]}_avg_posttax_nat{income_aggregation['slug_suffix'][agg]}"
@@ -865,7 +865,7 @@ for tab in range(len(tables)):
         for top in range(len(top_pct)):
             df_graphers.loc[
                 j, "title"
-            ] = f"Threshold income per {income_aggregation['aggregation'][agg]} marking the richest {top_pct['name'][top]} (After tax vs. before tax)"
+            ] = f"Threshold income per {income_aggregation['aggregation'][agg]} marking the richest {top_pct['name'][top]} (after tax vs. before tax)"
             df_graphers.loc[
                 j, "ySlugs"
             ] = f"{top_pct['wid_notation'][top]}_thr_pretax{income_aggregation['slug_suffix'][agg]} {top_pct['wid_notation'][top]}_thr_posttax_nat{income_aggregation['slug_suffix'][agg]}"
@@ -891,7 +891,7 @@ for tab in range(len(tables)):
         for top in range(len(top_pct)):
             df_graphers.loc[
                 j, "title"
-            ] = f"Mean income per {income_aggregation['aggregation'][agg]} within the {top_pct['name'][top]} (After tax vs. before tax)"
+            ] = f"Mean income per {income_aggregation['aggregation'][agg]} within the {top_pct['name'][top]} (after tax vs. before tax)"
             df_graphers.loc[
                 j, "ySlugs"
             ] = f"{top_pct['wid_notation'][top]}_avg_pretax{income_aggregation['slug_suffix'][agg]} {top_pct['wid_notation'][top]}_avg_posttax_nat{income_aggregation['slug_suffix'][agg]}"
@@ -1018,7 +1018,7 @@ for tab in range(len(tables)):
     for dec10 in range(len(deciles10)):
         df_graphers.loc[
             j, "title"
-        ] = f"Income share of the {deciles10['ordinal'][dec10]} (After tax vs. before tax)"
+        ] = f"Income share of the {deciles10['ordinal'][dec10]} (after tax vs. before tax)"
         df_graphers.loc[
             j, "ySlugs"
         ] = f"{deciles10['wid_notation'][dec10]}_share_pretax {deciles10['wid_notation'][dec10]}_share_posttax_nat"
@@ -1041,7 +1041,7 @@ for tab in range(len(tables)):
     for top in range(len(top_pct)):
         df_graphers.loc[
             j, "title"
-        ] = f"Income share of the richest {top_pct['name'][top]} (After tax vs. before tax)"
+        ] = f"Income share of the richest {top_pct['name'][top]} (after tax vs. before tax)"
         df_graphers.loc[
             j, "ySlugs"
         ] = f"{top_pct['wid_notation'][top]}_share_pretax {top_pct['wid_notation'][top]}_share_posttax_nat"

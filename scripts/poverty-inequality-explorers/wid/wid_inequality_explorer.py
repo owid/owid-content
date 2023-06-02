@@ -463,7 +463,7 @@ for tab in range(len(tables)):
     # Gini coefficient
     df_graphers.loc[
         j, "title"
-    ] = f"Income inequality: Gini coefficient (After tax vs. before tax)"
+    ] = f"Income inequality: Gini coefficient (after tax vs. before tax)"
     df_graphers.loc[j, "ySlugs"] = f"p0p100_gini_pretax p0p100_gini_posttax_nat"
     df_graphers.loc[j, "Indicator Dropdown"] = "Gini coefficient"
     df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
@@ -480,7 +480,7 @@ for tab in range(len(tables)):
     # Share of the top 10%
     df_graphers.loc[
         j, "title"
-    ] = f"Income share of the top 10% (After tax vs. before tax)"
+    ] = f"Income share of the top 10% (after tax vs. before tax)"
     df_graphers.loc[j, "ySlugs"] = f"p90p100_share_pretax p90p100_share_posttax_nat"
     df_graphers.loc[j, "Indicator Dropdown"] = "Share of the richest 10%"
     df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
@@ -497,7 +497,7 @@ for tab in range(len(tables)):
     # Share of the top 1%
     df_graphers.loc[
         j, "title"
-    ] = f"Income share of the top 1% (After tax vs. before tax)"
+    ] = f"Income share of the top 1% (after tax vs. before tax)"
     df_graphers.loc[j, "ySlugs"] = f"p99p100_share_pretax p99p100_share_posttax_nat"
     df_graphers.loc[j, "Indicator Dropdown"] = "Share of the richest 1%"
     df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
@@ -514,7 +514,7 @@ for tab in range(len(tables)):
     # Share of the top 0.1%
     df_graphers.loc[
         j, "title"
-    ] = f"Income share of the top 0.1% (After tax vs. before tax)"
+    ] = f"Income share of the top 0.1% (after tax vs. before tax)"
     df_graphers.loc[j, "ySlugs"] = f"p99_9p100_share_pretax p99_9p100_share_posttax_nat"
     df_graphers.loc[j, "Indicator Dropdown"] = "Share of the richest 0.1%"
     df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
@@ -531,7 +531,7 @@ for tab in range(len(tables)):
     # Share of the top 0.01%
     df_graphers.loc[
         j, "title"
-    ] = f"Income share of the top 0.01% (After tax vs. before tax)"
+    ] = f"Income share of the top 0.01% (after tax vs. before tax)"
     df_graphers.loc[
         j, "ySlugs"
     ] = f"p99_99p100_share_pretax p99_99p100_share_posttax_nat"
@@ -550,7 +550,7 @@ for tab in range(len(tables)):
     # Share of the top 0.001%
     df_graphers.loc[
         j, "title"
-    ] = f"Income share of the top 0.001% (After tax vs. before tax)"
+    ] = f"Income share of the top 0.001% (after tax vs. before tax)"
     df_graphers.loc[
         j, "ySlugs"
     ] = f"p99_999p100_share_pretax p99_999p100_share_posttax_nat"
@@ -569,7 +569,7 @@ for tab in range(len(tables)):
     # # P90/P10
     # df_graphers.loc[
     #     j, "title"
-    # ] = f"Income inequality: P90/P10 ratio (After tax vs. before tax)"
+    # ] = f"Income inequality: P90/P10 ratio (after tax vs. before tax)"
     # df_graphers.loc[j, "ySlugs"] = f"p90_p10_ratio_pretax p90_p10_ratio_posttax_nat"
     # df_graphers.loc[j, "Indicator Dropdown"] = "P90/P10"
     # df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
@@ -586,7 +586,7 @@ for tab in range(len(tables)):
     # # P90/P50
     # df_graphers.loc[
     #     j, "title"
-    # ] = f"Income inequality: P90/P50 ratio (After tax vs. before tax)"
+    # ] = f"Income inequality: P90/P50 ratio (after tax vs. before tax)"
     # df_graphers.loc[j, "ySlugs"] = f"p90_p50_ratio_pretax p90_p50_ratio_posttax_nat"
     # df_graphers.loc[j, "Indicator Dropdown"] = "P90/P50"
     # df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
@@ -603,7 +603,7 @@ for tab in range(len(tables)):
     # # P50/P10
     # df_graphers.loc[
     #     j, "title"
-    # ] = f"Income inequality: P50/P10 ratio (After tax vs. before tax)"
+    # ] = f"Income inequality: P50/P10 ratio (after tax vs. before tax)"
     # df_graphers.loc[j, "ySlugs"] = f"p50_p10_ratio_pretax p50_p10_ratio_posttax_nat"
     # df_graphers.loc[j, "Indicator Dropdown"] = "P50/P10"
     # df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
@@ -620,7 +620,7 @@ for tab in range(len(tables)):
     # # Palma ratio
     df_graphers.loc[
         j, "title"
-    ] = f"Income inequality: Palma ratio (After tax vs. before tax)"
+    ] = f"Income inequality: Palma ratio (after tax vs. before tax)"
     df_graphers.loc[j, "ySlugs"] = f"palma_ratio_pretax palma_ratio_posttax_nat"
     df_graphers.loc[j, "Indicator Dropdown"] = "Palma ratio"
     df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
