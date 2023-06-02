@@ -985,13 +985,14 @@ df_graphers = df_graphers[
 
 # Select one default view
 df_graphers.loc[
-    (df_graphers["Indicator Dropdown"] == "Mean income or consumption")
-    & (df_graphers["Income measure Dropdown"] == "After tax vs. before tax")
+    (df_graphers["Indicator Dropdown"] == "Decile thresholds")
+    & (df_graphers["Decile Dropdown"] == "All deciles")
+    & (df_graphers["Income measure Dropdown"] == "After tax")
+    & (df_graphers["Period Radio"] == "Year")
     & (
         df_graphers["Adjust for household composition (equivalized income) Checkbox"]
         == "false"
     )
-    & (df_graphers["Period Radio"] == "Year")
     & (df_graphers["Relative change Checkbox"] == "false"),
     ["defaultView"],
 ] = "true"

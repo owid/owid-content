@@ -1553,8 +1553,8 @@ df_graphers["mapTargetTime"] = df_graphers["mapTargetTime"].astype("Int64")
 # Select one default view
 df_graphers.loc[
     (df_graphers["Indicator Dropdown"] == "Share in poverty")
-    & (df_graphers["Poverty line Dropdown"] == "$10 per day")
-    & (df_graphers["Income measure Dropdown"] == "After tax vs. before tax")
+    & (df_graphers["Poverty line Dropdown"] == "$30 per day")
+    & (df_graphers["Income measure Dropdown"] == "After tax")
     & (
         df_graphers["Adjust for household composition (equivalized income) Checkbox"]
         == "false"
