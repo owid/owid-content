@@ -682,6 +682,34 @@ for tab in range(len(tables)):
             df_graphers.loc[j, "tab"] = "chart"
             j += 1
 
+            # Average shortfall ($)
+            df_graphers.loc[
+                j, "title"
+            ] = f"Average shortfall from a range of poverty lines ({welfare['title'][wel]})"
+            df_graphers.loc[
+                j, "ySlugs"
+            ] = f"total_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_100_day total_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_200_day total_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_500_day total_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_1000_day total_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_2000_day total_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_3000_day total_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_4000_day"
+            df_graphers.loc[j, "Indicator Dropdown"] = "Average shortfall ($)"
+            df_graphers.loc[j, "Poverty line Dropdown"] = "Multiple lines"
+            df_graphers.loc[
+                j, "Income measure Dropdown"
+            ] = f"{welfare['dropdown_option'][wel]}"
+            df_graphers.loc[
+                j, "Adjust for household composition (equivalized income) Checkbox"
+            ] = equivalence_scales["checkbox"][eq]
+            df_graphers.loc[
+                j, "subtitle"
+            ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]} {equivalence_scales['note'][eq]}"
+            df_graphers.loc[
+                j, "note"
+            ] = f"This data is measured in international-$ at 2017 prices."
+            df_graphers.loc[j, "type"] = np.nan
+            df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
+            df_graphers.loc[j, "hasMapTab"] = "false"
+            df_graphers.loc[j, "tab"] = "chart"
+            j += 1
+
+            # RELATIVE POVERTY
             # Headcount ratio (rel)
             for pct in range(len(povlines_rel)):
                 df_graphers.loc[
