@@ -143,7 +143,7 @@ for tab in range(len(pip_tables)):
     j += 1
 
     # Gini coefficient
-    df_tables_pip.loc[j, "name"] = f"Gini coefficient (PIP)"
+    df_tables_pip.loc[j, "name"] = f"Gini coefficient (PIP data)"
     df_tables_pip.loc[j, "slug"] = f"gini"
     df_tables_pip.loc[
         j, "description"
@@ -160,7 +160,7 @@ for tab in range(len(pip_tables)):
     # Share of the top 10%
     df_tables_pip.loc[
         j, "name"
-    ] = f"Share of the richest decile in total {pip_tables.text[tab]} (PIP)"
+    ] = f"Share of the richest decile in total {pip_tables.text[tab]} (PIP data)"
     df_tables_pip.loc[j, "slug"] = f"decile10_share"
     df_tables_pip.loc[
         j, "description"
@@ -173,7 +173,7 @@ for tab in range(len(pip_tables)):
     j += 1
 
     # # P90/P10
-    # df_tables_pip.loc[j, "name"] = f"P90/P10 ratio (PIP)"
+    # df_tables_pip.loc[j, "name"] = f"P90/P10 ratio (PIP data)"
     # df_tables_pip.loc[j, "slug"] = f"p90_p10_ratio"
     # df_tables_pip.loc[
     #     j, "description"
@@ -186,7 +186,7 @@ for tab in range(len(pip_tables)):
     # j += 1
 
     # # P90/P50
-    # df_tables_pip.loc[j, "name"] = f"P90/P50 ratio (PIP)"
+    # df_tables_pip.loc[j, "name"] = f"P90/P50 ratio (PIP data)"
     # df_tables_pip.loc[j, "slug"] = f"p90_p50_ratio"
     # df_tables_pip.loc[
     #     j, "description"
@@ -199,7 +199,7 @@ for tab in range(len(pip_tables)):
     # j += 1
 
     # # P50/P10
-    # df_tables_pip.loc[j, "name"] = f"P50/P10 ratio (PIP)"
+    # df_tables_pip.loc[j, "name"] = f"P50/P10 ratio (PIP data)"
     # df_tables_pip.loc[j, "slug"] = f"p50_p10_ratio"
     # df_tables_pip.loc[
     #     j, "description"
@@ -212,7 +212,7 @@ for tab in range(len(pip_tables)):
     # j += 1
 
     # Palma ratio
-    df_tables_pip.loc[j, "name"] = f"Palma ratio (PIP)"
+    df_tables_pip.loc[j, "name"] = f"Palma ratio (PIP data)"
     df_tables_pip.loc[j, "slug"] = f"palma_ratio"
     df_tables_pip.loc[
         j, "description"
@@ -227,7 +227,7 @@ for tab in range(len(pip_tables)):
     # Headcount ratio (rel)
     df_tables_pip.loc[
         j, "name"
-    ] = f"50% of median - share of population below poverty line (PIP)"
+    ] = f"50% of median - share of population below poverty line (PIP data)"
     df_tables_pip.loc[j, "slug"] = f"headcount_ratio_50_median"
     df_tables_pip.loc[
         j, "description"
@@ -267,7 +267,7 @@ j = 0
 for tab in range(len(merged_tables)):
     for wel in range(len(wid_welfare)):
         # Gini coefficient
-        df_tables_wid.loc[j, "name"] = f"Gini coefficient (WID)"
+        df_tables_wid.loc[j, "name"] = f"Gini coefficient (WID data)"
         df_tables_wid.loc[j, "slug"] = f"p0p100_gini_{wid_welfare['slug'][wel]}"
         df_tables_wid.loc[
             j, "description"
@@ -282,7 +282,7 @@ for tab in range(len(merged_tables)):
         # Share of the top 10%
         df_tables_wid.loc[
             j, "name"
-        ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the richest 10% (WID)"
+        ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the richest 10% (WID data)"
         df_tables_wid.loc[j, "slug"] = f"p90p100_share_{wid_welfare['slug'][wel]}"
         df_tables_wid.loc[
             j, "description"
@@ -297,7 +297,7 @@ for tab in range(len(merged_tables)):
         # Share of the bottom 50%
         df_tables_wid.loc[
             j, "name"
-        ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the bottom 50% (WID)"
+        ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the bottom 50% (WID data)"
         df_tables_wid.loc[j, "slug"] = f"p0p50_share_{wid_welfare['slug'][wel]}"
         df_tables_wid.loc[
             j, "description"
@@ -312,7 +312,7 @@ for tab in range(len(merged_tables)):
         j += 1
 
         # # P90/P10
-        # df_tables_wid.loc[j, "name"] = f"P90/P10 ratio (WID)"
+        # df_tables_wid.loc[j, "name"] = f"P90/P10 ratio (WID data)"
         # df_tables_wid.loc[j, "slug"] = f"p90_p10_ratio_{wid_welfare['slug'][wel]}"
         # df_tables_wid.loc[
         #     j, "description"
@@ -327,7 +327,7 @@ for tab in range(len(merged_tables)):
         # j += 1
 
         # # P90/P50
-        # df_tables_wid.loc[j, "name"] = f"P90/P50 ratio (WID)"
+        # df_tables_wid.loc[j, "name"] = f"P90/P50 ratio (WID data)"
         # df_tables_wid.loc[j, "slug"] = f"p90_p50_ratio_{wid_welfare['slug'][wel]}"
         # df_tables_wid.loc[
         #     j, "description"
@@ -342,7 +342,7 @@ for tab in range(len(merged_tables)):
         # j += 1
 
         # # P50/P10
-        # df_tables_wid.loc[j, "name"] = f"P50/P10 ratio (WID)"
+        # df_tables_wid.loc[j, "name"] = f"P50/P10 ratio (WID data)"
         # df_tables_wid.loc[j, "slug"] = f"p50_p10_ratio_{wid_welfare['slug'][wel]}"
         # df_tables_wid.loc[
         #     j, "description"
@@ -357,7 +357,7 @@ for tab in range(len(merged_tables)):
         # j += 1
 
         # Palma ratio
-        df_tables_wid.loc[j, "name"] = f"Palma ratio (WID)"
+        df_tables_wid.loc[j, "name"] = f"Palma ratio (WID data)"
         df_tables_wid.loc[j, "slug"] = f"palma_ratio_{wid_welfare['slug'][wel]}"
         df_tables_wid.loc[
             j, "description"
@@ -398,7 +398,7 @@ for tab in range(len(merged_tables)):
     for wel in range(len(lis_welfare)):
         for eq in range(len(lis_equivalence_scales)):
             # Gini coefficient
-            df_tables_lis.loc[j, "name"] = f"Gini coefficient (LIS)"
+            df_tables_lis.loc[j, "name"] = f"Gini coefficient (LIS data)"
             df_tables_lis.loc[
                 j, "slug"
             ] = f"gini_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
@@ -418,7 +418,7 @@ for tab in range(len(merged_tables)):
             # Share of the top 10%
             df_tables_lis.loc[
                 j, "name"
-            ] = f"{lis_welfare['welfare_type'][wel].capitalize()} share of the richest 10% (LIS)"
+            ] = f"{lis_welfare['welfare_type'][wel].capitalize()} share of the richest 10% (LIS data)"
             df_tables_lis.loc[
                 j, "slug"
             ] = f"share_p90_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
@@ -438,7 +438,7 @@ for tab in range(len(merged_tables)):
             # Share of the bottom 50%
             df_tables_lis.loc[
                 j, "name"
-            ] = f"{lis_welfare['welfare_type'][wel].capitalize()} share of the bottom 50% (LIS)"
+            ] = f"{lis_welfare['welfare_type'][wel].capitalize()} share of the bottom 50% (LIS data)"
             df_tables_lis.loc[
                 j, "slug"
             ] = f"share_bottom50_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
@@ -456,7 +456,7 @@ for tab in range(len(merged_tables)):
             j += 1
 
             # # P90/P10
-            # df_tables_lis.loc[j, "name"] = f"P90/P10 ratio (LIS)"
+            # df_tables_lis.loc[j, "name"] = f"P90/P10 ratio (LIS data)"
             # df_tables_lis.loc[
             #     j, "slug"
             # ] = f"p90_p10_ratio_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
@@ -474,7 +474,7 @@ for tab in range(len(merged_tables)):
             # j += 1
 
             # # P90/P50
-            # df_tables_lis.loc[j, "name"] = f"P90/P50 ratio (LIS)"
+            # df_tables_lis.loc[j, "name"] = f"P90/P50 ratio (LIS data)"
             # df_tables_lis.loc[
             #     j, "slug"
             # ] = f"p90_p50_ratio_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
@@ -492,7 +492,7 @@ for tab in range(len(merged_tables)):
             # j += 1
 
             # # P50/P10
-            # df_tables_lis.loc[j, "name"] = f"P50/P10 ratio (LIS)"
+            # df_tables_lis.loc[j, "name"] = f"P50/P10 ratio (LIS data)"
             # df_tables_lis.loc[
             #     j, "slug"
             # ] = f"p50_p10_ratio_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
@@ -510,7 +510,7 @@ for tab in range(len(merged_tables)):
             # j += 1
 
             # Palma ratio
-            df_tables_lis.loc[j, "name"] = f"Palma ratio (LIS)"
+            df_tables_lis.loc[j, "name"] = f"Palma ratio (LIS data)"
             df_tables_lis.loc[
                 j, "slug"
             ] = f"palma_ratio_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
@@ -530,7 +530,7 @@ for tab in range(len(merged_tables)):
             # Headcount ratio (rel)
             df_tables_lis.loc[
                 j, "name"
-            ] = f"50% of median {lis_welfare['welfare_type'][wel]} - share of population below poverty line (LIS)"
+            ] = f"50% of median {lis_welfare['welfare_type'][wel]} - share of population below poverty line (LIS data)"
             df_tables_lis.loc[
                 j, "slug"
             ] = f"headcount_ratio_50_median_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"

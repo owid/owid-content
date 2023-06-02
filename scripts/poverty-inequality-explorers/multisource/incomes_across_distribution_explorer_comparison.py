@@ -206,7 +206,7 @@ for tab in range(len(pip_tables)):
 
     # I need the original variables to not break the aggregations
     # mean
-    df_tables_pip.loc[j, "name"] = f"Mean {pip_tables.text[tab]} (PIP)"
+    df_tables_pip.loc[j, "name"] = f"Mean {pip_tables.text[tab]} (PIP data)"
     df_tables_pip.loc[j, "slug"] = "mean"
     df_tables_pip.loc[
         j, "description"
@@ -219,7 +219,7 @@ for tab in range(len(pip_tables)):
     j += 1
 
     # median
-    df_tables_pip.loc[j, "name"] = f"Median {pip_tables.text[tab]} (PIP)"
+    df_tables_pip.loc[j, "name"] = f"Median {pip_tables.text[tab]} (PIP data)"
     df_tables_pip.loc[j, "slug"] = "median"
     df_tables_pip.loc[
         j, "description"
@@ -235,7 +235,7 @@ for tab in range(len(pip_tables)):
         # thresholds
         df_tables_pip.loc[
             j, "name"
-        ] = f"{pip_deciles9.ordinal[dec9].capitalize()} (PIP)"
+        ] = f"{pip_deciles9.ordinal[dec9].capitalize()} (PIP data)"
         df_tables_pip.loc[j, "slug"] = f"decile{pip_deciles9.decile[dec9]}_thr"
         df_tables_pip.loc[
             j, "description"
@@ -251,7 +251,7 @@ for tab in range(len(pip_tables)):
         # averages
         df_tables_pip.loc[
             j, "name"
-        ] = f"{pip_deciles10.ordinal[dec10].capitalize()} (PIP)"
+        ] = f"{pip_deciles10.ordinal[dec10].capitalize()} (PIP data)"
         df_tables_pip.loc[j, "slug"] = f"decile{pip_deciles10.decile[dec10]}_avg"
         df_tables_pip.loc[
             j, "description"
@@ -267,7 +267,7 @@ for tab in range(len(pip_tables)):
         # shares
         df_tables_pip.loc[
             j, "name"
-        ] = f"{pip_deciles10.ordinal[dec10].capitalize()} (PIP)"
+        ] = f"{pip_deciles10.ordinal[dec10].capitalize()} (PIP data)"
         df_tables_pip.loc[j, "slug"] = f"decile{pip_deciles10.decile[dec10]}_share"
         df_tables_pip.loc[
             j, "description"
@@ -282,7 +282,7 @@ for tab in range(len(pip_tables)):
     # Daily, monthly, annual aggregations
     for agg in range(len(pip_income_aggregation)):
         # mean
-        df_tables_pip.loc[j, "name"] = f"Mean {pip_tables.text[tab]} (PIP)"
+        df_tables_pip.loc[j, "name"] = f"Mean {pip_tables.text[tab]} (PIP data)"
         df_tables_pip.loc[j, "slug"] = f"mean{pip_income_aggregation.slug_suffix[agg]}"
         df_tables_pip.loc[
             j, "description"
@@ -300,7 +300,7 @@ for tab in range(len(pip_tables)):
         j += 1
 
         # median
-        df_tables_pip.loc[j, "name"] = f"Median {pip_tables.text[tab]} (PIP)"
+        df_tables_pip.loc[j, "name"] = f"Median {pip_tables.text[tab]} (PIP data)"
         df_tables_pip.loc[
             j, "slug"
         ] = f"median{pip_income_aggregation.slug_suffix[agg]}"
@@ -323,7 +323,7 @@ for tab in range(len(pip_tables)):
             # thresholds
             df_tables_pip.loc[
                 j, "name"
-            ] = f"{pip_deciles9.ordinal[dec9].capitalize()} (PIP)"
+            ] = f"{pip_deciles9.ordinal[dec9].capitalize()} (PIP data)"
             df_tables_pip.loc[
                 j, "slug"
             ] = f"decile{pip_deciles9.decile[dec9]}_thr{pip_income_aggregation.slug_suffix[agg]}"
@@ -346,7 +346,7 @@ for tab in range(len(pip_tables)):
             # averages
             df_tables_pip.loc[
                 j, "name"
-            ] = f"{pip_deciles10.ordinal[dec10].capitalize()} (PIP)"
+            ] = f"{pip_deciles10.ordinal[dec10].capitalize()} (PIP data)"
             df_tables_pip.loc[
                 j, "slug"
             ] = f"decile{pip_deciles10.decile[dec10]}_avg{pip_income_aggregation.slug_suffix[agg]}"
@@ -394,7 +394,9 @@ for tab in range(len(merged_tables)):
     for wel in range(len(wid_welfare)):
         # I need the original variables to not break the aggregations
         # Mean
-        df_tables_wid.loc[j, "name"] = f"Mean {wid_welfare['welfare_type'][wel]} (WID)"
+        df_tables_wid.loc[
+            j, "name"
+        ] = f"Mean {wid_welfare['welfare_type'][wel]} (WID data)"
         df_tables_wid.loc[j, "slug"] = f"p0p100_avg_{wid_welfare['slug'][wel]}"
         df_tables_wid.loc[
             j, "description"
@@ -409,7 +411,7 @@ for tab in range(len(merged_tables)):
         # Median
         df_tables_wid.loc[
             j, "name"
-        ] = f"Median {wid_welfare['welfare_type'][wel]} (WID)"
+        ] = f"Median {wid_welfare['welfare_type'][wel]} (WID data)"
         df_tables_wid.loc[j, "slug"] = f"median_{wid_welfare['slug'][wel]}"
         df_tables_wid.loc[
             j, "description"
@@ -425,7 +427,7 @@ for tab in range(len(merged_tables)):
         for dec9 in range(len(wid_deciles9)):
             df_tables_wid.loc[
                 j, "name"
-            ] = f"{wid_deciles9['ordinal'][dec9].capitalize()} (WID)"
+            ] = f"{wid_deciles9['ordinal'][dec9].capitalize()} (WID data)"
             df_tables_wid.loc[
                 j, "slug"
             ] = f"{wid_deciles9['wid_notation'][dec9]}_thr_{wid_welfare['slug'][wel]}"
@@ -445,7 +447,7 @@ for tab in range(len(merged_tables)):
         for dec10 in range(len(wid_deciles10)):
             df_tables_wid.loc[
                 j, "name"
-            ] = f"{wid_deciles10['ordinal'][dec10].capitalize()} (WID)"
+            ] = f"{wid_deciles10['ordinal'][dec10].capitalize()} (WID data)"
             df_tables_wid.loc[
                 j, "slug"
             ] = f"{wid_deciles10['wid_notation'][dec10]}_avg_{wid_welfare['slug'][wel]}"
@@ -465,7 +467,7 @@ for tab in range(len(merged_tables)):
         for dec10 in range(len(wid_deciles10)):
             df_tables_wid.loc[
                 j, "name"
-            ] = f"{wid_deciles10['ordinal'][dec10].capitalize()} (WID)"
+            ] = f"{wid_deciles10['ordinal'][dec10].capitalize()} (WID data)"
             df_tables_wid.loc[
                 j, "slug"
             ] = f"{wid_deciles10['wid_notation'][dec10]}_share_{wid_welfare['slug'][wel]}"
@@ -486,7 +488,7 @@ for tab in range(len(merged_tables)):
             # Mean
             df_tables_wid.loc[
                 j, "name"
-            ] = f"Mean {wid_welfare['welfare_type'][wel]} (WID)"
+            ] = f"Mean {wid_welfare['welfare_type'][wel]} (WID data)"
             df_tables_wid.loc[
                 j, "slug"
             ] = f"p0p100_avg_{wid_welfare['slug'][wel]}{wid_income_aggregation['slug_suffix'][agg]}"
@@ -508,7 +510,7 @@ for tab in range(len(merged_tables)):
             # Median
             df_tables_wid.loc[
                 j, "name"
-            ] = f"Median {wid_welfare['welfare_type'][wel]} (WID)"
+            ] = f"Median {wid_welfare['welfare_type'][wel]} (WID data)"
             df_tables_wid.loc[
                 j, "slug"
             ] = f"median_{wid_welfare['slug'][wel]}{wid_income_aggregation['slug_suffix'][agg]}"
@@ -531,7 +533,7 @@ for tab in range(len(merged_tables)):
             for dec9 in range(len(wid_deciles9)):
                 df_tables_wid.loc[
                     j, "name"
-                ] = f"{wid_deciles9['ordinal'][dec9].capitalize()} (WID)"
+                ] = f"{wid_deciles9['ordinal'][dec9].capitalize()} (WID data)"
                 df_tables_wid.loc[
                     j, "slug"
                 ] = f"{wid_deciles9['wid_notation'][dec9]}_thr_{wid_welfare['slug'][wel]}{wid_income_aggregation['slug_suffix'][agg]}"
@@ -554,7 +556,7 @@ for tab in range(len(merged_tables)):
             for dec10 in range(len(wid_deciles10)):
                 df_tables_wid.loc[
                     j, "name"
-                ] = f"{wid_deciles10['ordinal'][dec10].capitalize()} (WID)"
+                ] = f"{wid_deciles10['ordinal'][dec10].capitalize()} (WID data)"
                 df_tables_wid.loc[
                     j, "slug"
                 ] = f"{wid_deciles10['wid_notation'][dec10]}_avg_{wid_welfare['slug'][wel]}{wid_income_aggregation['slug_suffix'][agg]}"
@@ -603,7 +605,7 @@ for tab in range(len(merged_tables)):
             # Mean
             df_tables_lis.loc[
                 j, "name"
-            ] = f"Mean {lis_welfare['welfare_type'][wel]} (LIS)"
+            ] = f"Mean {lis_welfare['welfare_type'][wel]} (LIS data)"
             df_tables_lis.loc[
                 j, "slug"
             ] = f"mean_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
@@ -623,7 +625,7 @@ for tab in range(len(merged_tables)):
             # Median
             df_tables_lis.loc[
                 j, "name"
-            ] = f"Median {lis_welfare['welfare_type'][wel]} (LIS)"
+            ] = f"Median {lis_welfare['welfare_type'][wel]} (LIS data)"
             df_tables_lis.loc[
                 j, "slug"
             ] = f"median_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
@@ -644,7 +646,7 @@ for tab in range(len(merged_tables)):
             for dec9 in range(len(lis_deciles9)):
                 df_tables_lis.loc[
                     j, "name"
-                ] = f"{lis_deciles9['ordinal'][dec9].capitalize()} (LIS)"
+                ] = f"{lis_deciles9['ordinal'][dec9].capitalize()} (LIS data)"
                 df_tables_lis.loc[
                     j, "slug"
                 ] = f"thr_{lis_deciles9['lis_notation'][dec9]}_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
@@ -665,7 +667,7 @@ for tab in range(len(merged_tables)):
             for dec10 in range(len(lis_deciles10)):
                 df_tables_lis.loc[
                     j, "name"
-                ] = f"{lis_deciles10['ordinal'][dec10].capitalize()} (LIS)"
+                ] = f"{lis_deciles10['ordinal'][dec10].capitalize()} (LIS data)"
                 df_tables_lis.loc[
                     j, "slug"
                 ] = f"avg_{lis_deciles10['lis_notation'][dec10]}_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
@@ -686,7 +688,7 @@ for tab in range(len(merged_tables)):
             for dec10 in range(len(lis_deciles10)):
                 df_tables_lis.loc[
                     j, "name"
-                ] = f"{lis_deciles10['ordinal'][dec10].capitalize()} (LIS)"
+                ] = f"{lis_deciles10['ordinal'][dec10].capitalize()} (LIS data)"
                 df_tables_lis.loc[
                     j, "slug"
                 ] = f"share_{lis_deciles10['lis_notation'][dec10]}_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
@@ -708,7 +710,7 @@ for tab in range(len(merged_tables)):
                 # Mean
                 df_tables_lis.loc[
                     j, "name"
-                ] = f"Mean {lis_welfare['welfare_type'][wel]} (LIS)"
+                ] = f"Mean {lis_welfare['welfare_type'][wel]} (LIS data)"
                 df_tables_lis.loc[
                     j, "slug"
                 ] = f"mean_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}{lis_income_aggregation['slug_suffix'][agg]}"
@@ -731,7 +733,7 @@ for tab in range(len(merged_tables)):
                 # Median
                 df_tables_lis.loc[
                     j, "name"
-                ] = f"Median {lis_welfare['welfare_type'][wel]} (LIS)"
+                ] = f"Median {lis_welfare['welfare_type'][wel]} (LIS data)"
                 df_tables_lis.loc[
                     j, "slug"
                 ] = f"median_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}{lis_income_aggregation['slug_suffix'][agg]}"
@@ -755,7 +757,7 @@ for tab in range(len(merged_tables)):
                 for dec9 in range(len(lis_deciles9)):
                     df_tables_lis.loc[
                         j, "name"
-                    ] = f"{lis_deciles9['ordinal'][dec9].capitalize()} (LIS)"
+                    ] = f"{lis_deciles9['ordinal'][dec9].capitalize()} (LIS data)"
                     df_tables_lis.loc[
                         j, "slug"
                     ] = f"thr_{lis_deciles9['lis_notation'][dec9]}_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}{lis_income_aggregation['slug_suffix'][agg]}"
@@ -781,7 +783,7 @@ for tab in range(len(merged_tables)):
                 for dec10 in range(len(lis_deciles10)):
                     df_tables_lis.loc[
                         j, "name"
-                    ] = f"{lis_deciles10['ordinal'][dec10].capitalize()} (LIS)"
+                    ] = f"{lis_deciles10['ordinal'][dec10].capitalize()} (LIS data)"
                     df_tables_lis.loc[
                         j, "slug"
                     ] = f"avg_{lis_deciles10['lis_notation'][dec10]}_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}{lis_income_aggregation['slug_suffix'][agg]}"
