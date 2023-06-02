@@ -473,60 +473,6 @@ for tab in range(len(tables)):
                 df_graphers.loc[j, "tab"] = "map"
                 j += 1
 
-            # Headcount ratio (abs) - Multiple lines
-            df_graphers.loc[
-                j, "title"
-            ] = f"Share of population living below a range of poverty lines ({welfare['title'][wel]})"
-            df_graphers.loc[
-                j, "ySlugs"
-            ] = f"headcount_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_100 headcount_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_215 headcount_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_365 headcount_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_685 headcount_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_1000 headcount_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_2000 headcount_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_3000 headcount_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_4000"
-            df_graphers.loc[j, "Indicator Dropdown"] = "Share in poverty"
-            df_graphers.loc[j, "Poverty line Dropdown"] = "Multiple lines"
-            df_graphers.loc[
-                j, "Income measure Dropdown"
-            ] = f"{welfare['dropdown_option'][wel]}"
-            df_graphers.loc[
-                j, "Adjust for household composition (equivalized income) Checkbox"
-            ] = equivalence_scales["checkbox"][eq]
-            df_graphers.loc[
-                j, "subtitle"
-            ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]} {equivalence_scales['note'][eq]}"
-            df_graphers.loc[
-                j, "note"
-            ] = f"This data is measured in international-$ at 2017 prices."
-            df_graphers.loc[j, "type"] = np.nan
-            df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
-            df_graphers.loc[j, "hasMapTab"] = "false"
-            df_graphers.loc[j, "tab"] = "chart"
-            j += 1
-
-            # Headcount (abs) - Multiple lines
-            df_graphers.loc[
-                j, "title"
-            ] = f"Number of people living below a range of poverty lines ({welfare['title'][wel]})"
-            df_graphers.loc[
-                j, "ySlugs"
-            ] = f"headcount_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_100 headcount_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_215 headcount_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_365 headcount_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_685 headcount_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_1000 headcount_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_2000 headcount_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_3000 headcount_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_4000"
-            df_graphers.loc[j, "Indicator Dropdown"] = "Number in poverty"
-            df_graphers.loc[j, "Poverty line Dropdown"] = "Multiple lines"
-            df_graphers.loc[
-                j, "Income measure Dropdown"
-            ] = f"{welfare['dropdown_option'][wel]}"
-            df_graphers.loc[
-                j, "Adjust for household composition (equivalized income) Checkbox"
-            ] = equivalence_scales["checkbox"][eq]
-            df_graphers.loc[
-                j, "subtitle"
-            ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]} {equivalence_scales['note'][eq]}"
-            df_graphers.loc[
-                j, "note"
-            ] = f"This data is measured in international-$ at 2017 prices."
-            df_graphers.loc[j, "type"] = np.nan
-            df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
-            df_graphers.loc[j, "hasMapTab"] = "false"
-            df_graphers.loc[j, "tab"] = "chart"
-            j += 1
-
             # Total shortfall (abs)
             for p in range(len(povlines_abs)):
                 df_graphers.loc[
@@ -650,6 +596,91 @@ for tab in range(len(tables)):
                 df_graphers.loc[j, "hasMapTab"] = "true"
                 df_graphers.loc[j, "tab"] = "map"
                 j += 1
+
+            # MULTIPLE LINES
+            # Headcount ratio (abs) - Multiple lines
+            df_graphers.loc[
+                j, "title"
+            ] = f"Share of population living below a range of poverty lines ({welfare['title'][wel]})"
+            df_graphers.loc[
+                j, "ySlugs"
+            ] = f"headcount_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_100 headcount_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_200 headcount_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_500 headcount_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_1000 headcount_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_2000 headcount_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_3000 headcount_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_4000"
+            df_graphers.loc[j, "Indicator Dropdown"] = "Share in poverty"
+            df_graphers.loc[j, "Poverty line Dropdown"] = "Multiple lines"
+            df_graphers.loc[
+                j, "Income measure Dropdown"
+            ] = f"{welfare['dropdown_option'][wel]}"
+            df_graphers.loc[
+                j, "Adjust for household composition (equivalized income) Checkbox"
+            ] = equivalence_scales["checkbox"][eq]
+            df_graphers.loc[
+                j, "subtitle"
+            ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]} {equivalence_scales['note'][eq]}"
+            df_graphers.loc[
+                j, "note"
+            ] = f"This data is measured in international-$ at 2017 prices."
+            df_graphers.loc[j, "type"] = np.nan
+            df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
+            df_graphers.loc[j, "hasMapTab"] = "false"
+            df_graphers.loc[j, "tab"] = "chart"
+            j += 1
+
+            # Headcount (abs) - Multiple lines
+            df_graphers.loc[
+                j, "title"
+            ] = f"Number of people living below a range of poverty lines ({welfare['title'][wel]})"
+            df_graphers.loc[
+                j, "ySlugs"
+            ] = f"headcount_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_100 headcount_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_200 headcount_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_500 headcount_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_1000 headcount_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_2000 headcount_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_3000 headcount_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_4000"
+            df_graphers.loc[j, "Indicator Dropdown"] = "Number in poverty"
+            df_graphers.loc[j, "Poverty line Dropdown"] = "Multiple lines"
+            df_graphers.loc[
+                j, "Income measure Dropdown"
+            ] = f"{welfare['dropdown_option'][wel]}"
+            df_graphers.loc[
+                j, "Adjust for household composition (equivalized income) Checkbox"
+            ] = equivalence_scales["checkbox"][eq]
+            df_graphers.loc[
+                j, "subtitle"
+            ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]} {equivalence_scales['note'][eq]}"
+            df_graphers.loc[
+                j, "note"
+            ] = f"This data is measured in international-$ at 2017 prices."
+            df_graphers.loc[j, "type"] = np.nan
+            df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
+            df_graphers.loc[j, "hasMapTab"] = "false"
+            df_graphers.loc[j, "tab"] = "chart"
+            j += 1
+
+            # Total shortfall (abs) - Multiple lines
+
+            df_graphers.loc[
+                j, "title"
+            ] = f"Total shortfall from a range of poverty lines ({welfare['title'][wel]})"
+            df_graphers.loc[
+                j, "ySlugs"
+            ] = f"total_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_100 total_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_200 total_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_500 total_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_1000 total_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_2000 total_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_3000 total_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_4000"
+            df_graphers.loc[
+                j, "Indicator Dropdown"
+            ] = "Total shortfall from poverty line"
+            df_graphers.loc[j, "Poverty line Dropdown"] = "Multiple lines"
+            df_graphers.loc[
+                j, "Income measure Dropdown"
+            ] = f"{welfare['dropdown_option'][wel]}"
+            df_graphers.loc[
+                j, "Adjust for household composition (equivalized income) Checkbox"
+            ] = equivalence_scales["checkbox"][eq]
+            df_graphers.loc[
+                j, "subtitle"
+            ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]} {equivalence_scales['note'][eq]}"
+            df_graphers.loc[
+                j, "note"
+            ] = "This data is expressed in international-$ at 2017 prices. The cost of closing the poverty gap does not take into account costs and inefficiencies from making the necessary transfers."
+            df_graphers.loc[j, "type"] = np.nan
+            df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
+            df_graphers.loc[j, "hasMapTab"] = "false"
+            df_graphers.loc[j, "tab"] = "chart"
+            j += 1
 
             # Headcount ratio (rel)
             for pct in range(len(povlines_rel)):
