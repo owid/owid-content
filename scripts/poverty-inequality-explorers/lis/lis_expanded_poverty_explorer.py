@@ -738,6 +738,33 @@ for tab in range(len(tables)):
             df_graphers.loc[j, "tab"] = "chart"
             j += 1
 
+            # Poverty gap index - Multiple lines
+            df_graphers.loc[
+                j, "title"
+            ] = f"Poverty gap index at a range of poverty lines ({welfare['title'][wel]})"
+            df_graphers.loc[
+                j, "ySlugs"
+            ] = f"poverty_gap_index_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_100 poverty_gap_index_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_200 poverty_gap_index_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_500 poverty_gap_index_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_1000 poverty_gap_index_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_2000 poverty_gap_index_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_3000 poverty_gap_index_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_4000"
+            df_graphers.loc[j, "Indicator Dropdown"] = "Poverty gap index"
+            df_graphers.loc[j, "Poverty line Dropdown"] = f"Multiple lines"
+            df_graphers.loc[
+                j, "Income measure Dropdown"
+            ] = f"{welfare['dropdown_option'][wel]}"
+            df_graphers.loc[
+                j, "Adjust for household composition (equivalized income) Checkbox"
+            ] = equivalence_scales["checkbox"][eq]
+            df_graphers.loc[
+                j, "subtitle"
+            ] = f"{welfare['subtitle'][wel]} {equivalence_scales['note'][eq]}"
+            df_graphers.loc[
+                j, "note"
+            ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+            df_graphers.loc[j, "type"] = np.nan
+            df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
+            df_graphers.loc[j, "hasMapTab"] = "false"
+            df_graphers.loc[j, "tab"] = "chart"
+            j += 1
+
             # RELATIVE POVERTY
             # Headcount ratio (rel)
             for pct in range(len(povlines_rel)):
