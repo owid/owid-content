@@ -682,13 +682,13 @@ for tab in range(len(tables)):
             df_graphers.loc[j, "tab"] = "chart"
             j += 1
 
-            # Average shortfall ($)
+            # Average shortfall ($) - Miltiple lines
             df_graphers.loc[
                 j, "title"
             ] = f"Average shortfall from a range of poverty lines ({welfare['title'][wel]})"
             df_graphers.loc[
                 j, "ySlugs"
-            ] = f"total_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_100_day total_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_200_day total_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_500_day total_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_1000_day total_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_2000_day total_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_3000_day total_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_4000_day"
+            ] = f"avg_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_100_day avg_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_200_day avg_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_500_day avg_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_1000_day avg_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_2000_day avg_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_3000_day avg_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_4000_day"
             df_graphers.loc[j, "Indicator Dropdown"] = "Average shortfall ($)"
             df_graphers.loc[j, "Poverty line Dropdown"] = "Multiple lines"
             df_graphers.loc[
