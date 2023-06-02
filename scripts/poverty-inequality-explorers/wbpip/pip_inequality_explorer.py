@@ -383,7 +383,7 @@ for survey in range(len(survey_type)):
         j, "title"
     ] = f"{survey_type.text[survey].capitalize()} share of the top 10%"
     df_graphers.loc[j, "ySlugs"] = f"decile10_share"
-    df_graphers.loc[j, "Indicator Dropdown"] = "Top 10% share"
+    df_graphers.loc[j, "Indicator Dropdown"] = "Share of the richest 10%"
     df_graphers.loc[
         j, "Household survey data type Dropdown"
     ] = f"{survey_type.dropdown_option[survey]}"

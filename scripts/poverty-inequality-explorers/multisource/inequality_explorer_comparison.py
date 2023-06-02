@@ -172,44 +172,44 @@ for tab in range(len(pip_tables)):
     df_tables_pip.loc[j, "colorScaleScheme"] = "Greens"
     j += 1
 
-    # P90/P10
-    df_tables_pip.loc[j, "name"] = f"P90/P10 ratio (PIP)"
-    df_tables_pip.loc[j, "slug"] = f"p90_p10_ratio"
-    df_tables_pip.loc[
-        j, "description"
-    ] = f"P90 is the the level of {pip_tables.text[tab]} below which 90% of the population lives. P10 is the level of {pip_tables.text[tab]} below which 10% of the population lives. This variable gives the ratio of the two. It is a measure of inequality that indicates the gap between the richest and poorest tenth of the population. It tells you how many times richer someone just in the the poorest tenth would need to be in order to be counted in the richest tenth."
-    df_tables_pip.loc[j, "unit"] = np.nan
-    df_tables_pip.loc[j, "shortUnit"] = np.nan
-    df_tables_pip.loc[j, "type"] = "Numeric"
-    df_tables_pip.loc[j, "colorScaleNumericBins"] = "0;2;4;6;8;10;12;14;16;18"
-    df_tables_pip.loc[j, "colorScaleScheme"] = "OrRd"
-    j += 1
+    # # P90/P10
+    # df_tables_pip.loc[j, "name"] = f"P90/P10 ratio (PIP)"
+    # df_tables_pip.loc[j, "slug"] = f"p90_p10_ratio"
+    # df_tables_pip.loc[
+    #     j, "description"
+    # ] = f"P90 is the the level of {pip_tables.text[tab]} below which 90% of the population lives. P10 is the level of {pip_tables.text[tab]} below which 10% of the population lives. This variable gives the ratio of the two. It is a measure of inequality that indicates the gap between the richest and poorest tenth of the population. It tells you how many times richer someone just in the the poorest tenth would need to be in order to be counted in the richest tenth."
+    # df_tables_pip.loc[j, "unit"] = np.nan
+    # df_tables_pip.loc[j, "shortUnit"] = np.nan
+    # df_tables_pip.loc[j, "type"] = "Numeric"
+    # df_tables_pip.loc[j, "colorScaleNumericBins"] = "0;2;4;6;8;10;12;14;16;18"
+    # df_tables_pip.loc[j, "colorScaleScheme"] = "OrRd"
+    # j += 1
 
-    # P90/P50
-    df_tables_pip.loc[j, "name"] = f"P90/P50 ratio (PIP)"
-    df_tables_pip.loc[j, "slug"] = f"p90_p50_ratio"
-    df_tables_pip.loc[
-        j, "description"
-    ] = f"P90 is the the level of {pip_tables.text[tab]} above which 10% of the population lives. P50 is the median – the level of {pip_tables.text[tab]} below which 50% of the population lives. This variable gives the ratio of the two. It is a measure of inequality within the top half of the distribution. It tells you how many times richer someone in the middle of the distribution would need to be in order to be counted in the richest tenth."
-    df_tables_pip.loc[j, "unit"] = np.nan
-    df_tables_pip.loc[j, "shortUnit"] = np.nan
-    df_tables_pip.loc[j, "type"] = "Numeric"
-    df_tables_pip.loc[j, "colorScaleNumericBins"] = "0;1;2;3;4;5"
-    df_tables_pip.loc[j, "colorScaleScheme"] = "Purples"
-    j += 1
+    # # P90/P50
+    # df_tables_pip.loc[j, "name"] = f"P90/P50 ratio (PIP)"
+    # df_tables_pip.loc[j, "slug"] = f"p90_p50_ratio"
+    # df_tables_pip.loc[
+    #     j, "description"
+    # ] = f"P90 is the the level of {pip_tables.text[tab]} above which 10% of the population lives. P50 is the median – the level of {pip_tables.text[tab]} below which 50% of the population lives. This variable gives the ratio of the two. It is a measure of inequality within the top half of the distribution. It tells you how many times richer someone in the middle of the distribution would need to be in order to be counted in the richest tenth."
+    # df_tables_pip.loc[j, "unit"] = np.nan
+    # df_tables_pip.loc[j, "shortUnit"] = np.nan
+    # df_tables_pip.loc[j, "type"] = "Numeric"
+    # df_tables_pip.loc[j, "colorScaleNumericBins"] = "0;1;2;3;4;5"
+    # df_tables_pip.loc[j, "colorScaleScheme"] = "Purples"
+    # j += 1
 
-    # P50/P10
-    df_tables_pip.loc[j, "name"] = f"P50/P10 ratio (PIP)"
-    df_tables_pip.loc[j, "slug"] = f"p50_p10_ratio"
-    df_tables_pip.loc[
-        j, "description"
-    ] = f"P50 is the median – the level of {pip_tables.text[tab]} below which 50% of the population lives. P10 is the the level of {pip_tables.text[tab]} below which 10% of the population lives. This variable gives the ratio of the two. It is a measure of inequality within the bottom half of the distribution. It tells you how many times richer someone just in the the poorest tenth would need to be in order to be reach the median."
-    df_tables_pip.loc[j, "unit"] = np.nan
-    df_tables_pip.loc[j, "shortUnit"] = np.nan
-    df_tables_pip.loc[j, "type"] = "Numeric"
-    df_tables_pip.loc[j, "colorScaleNumericBins"] = "0;0.5;1;1.5;2;2.5;3;3.5;4"
-    df_tables_pip.loc[j, "colorScaleScheme"] = "YlOrRd"
-    j += 1
+    # # P50/P10
+    # df_tables_pip.loc[j, "name"] = f"P50/P10 ratio (PIP)"
+    # df_tables_pip.loc[j, "slug"] = f"p50_p10_ratio"
+    # df_tables_pip.loc[
+    #     j, "description"
+    # ] = f"P50 is the median – the level of {pip_tables.text[tab]} below which 50% of the population lives. P10 is the the level of {pip_tables.text[tab]} below which 10% of the population lives. This variable gives the ratio of the two. It is a measure of inequality within the bottom half of the distribution. It tells you how many times richer someone just in the the poorest tenth would need to be in order to be reach the median."
+    # df_tables_pip.loc[j, "unit"] = np.nan
+    # df_tables_pip.loc[j, "shortUnit"] = np.nan
+    # df_tables_pip.loc[j, "type"] = "Numeric"
+    # df_tables_pip.loc[j, "colorScaleNumericBins"] = "0;0.5;1;1.5;2;2.5;3;3.5;4"
+    # df_tables_pip.loc[j, "colorScaleScheme"] = "YlOrRd"
+    # j += 1
 
     # Palma ratio
     df_tables_pip.loc[j, "name"] = f"Palma ratio (PIP)"
@@ -311,50 +311,50 @@ for tab in range(len(merged_tables)):
         df_tables_wid.loc[j, "colorScaleScheme"] = "Blues"
         j += 1
 
-        # P90/P10
-        df_tables_wid.loc[j, "name"] = f"P90/P10 ratio (WID)"
-        df_tables_wid.loc[j, "slug"] = f"p90_p10_ratio_{wid_welfare['slug'][wel]}"
-        df_tables_wid.loc[
-            j, "description"
-        ] = f"P90 is the the level of {wid_welfare['welfare_type'][wel]} below which 90% of the population lives. P10 is the level of {wid_welfare['welfare_type'][wel]} below which 10% of the population lives. This variable gives the ratio of the two. It is a measure of inequality that indicates the gap between the richest and poorest tenth of the population. It tells you how many times richer someone just in the the poorest tenth would need to be in order to be counted in the richest tenth.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} {wid_welfare['note'][wel]}"
-        df_tables_wid.loc[j, "unit"] = np.nan
-        df_tables_wid.loc[j, "shortUnit"] = np.nan
-        df_tables_wid.loc[j, "type"] = "Numeric"
-        df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare[
-            "scale_p90_p10_ratio"
-        ][wel]
-        df_tables_wid.loc[j, "colorScaleScheme"] = "OrRd"
-        j += 1
+        # # P90/P10
+        # df_tables_wid.loc[j, "name"] = f"P90/P10 ratio (WID)"
+        # df_tables_wid.loc[j, "slug"] = f"p90_p10_ratio_{wid_welfare['slug'][wel]}"
+        # df_tables_wid.loc[
+        #     j, "description"
+        # ] = f"P90 is the the level of {wid_welfare['welfare_type'][wel]} below which 90% of the population lives. P10 is the level of {wid_welfare['welfare_type'][wel]} below which 10% of the population lives. This variable gives the ratio of the two. It is a measure of inequality that indicates the gap between the richest and poorest tenth of the population. It tells you how many times richer someone just in the the poorest tenth would need to be in order to be counted in the richest tenth.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} {wid_welfare['note'][wel]}"
+        # df_tables_wid.loc[j, "unit"] = np.nan
+        # df_tables_wid.loc[j, "shortUnit"] = np.nan
+        # df_tables_wid.loc[j, "type"] = "Numeric"
+        # df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare[
+        #     "scale_p90_p10_ratio"
+        # ][wel]
+        # df_tables_wid.loc[j, "colorScaleScheme"] = "OrRd"
+        # j += 1
 
-        # P90/P50
-        df_tables_wid.loc[j, "name"] = f"P90/P50 ratio (WID)"
-        df_tables_wid.loc[j, "slug"] = f"p90_p50_ratio_{wid_welfare['slug'][wel]}"
-        df_tables_wid.loc[
-            j, "description"
-        ] = f"P90 is the the level of {wid_welfare['welfare_type'][wel]} above which 10% of the population lives. P50 is the median – the level of {wid_welfare['welfare_type'][wel]} below which 50% of the population lives. This variable gives the ratio of the two. It is a measure of inequality within the top half of the distribution. It tells you how many times richer someone in the middle of the distribution would need to be in order to be counted in the richest tenth.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} {wid_welfare['note'][wel]}"
-        df_tables_wid.loc[j, "unit"] = np.nan
-        df_tables_wid.loc[j, "shortUnit"] = np.nan
-        df_tables_wid.loc[j, "type"] = "Numeric"
-        df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare[
-            "scale_p90_p50_ratio"
-        ][wel]
-        df_tables_wid.loc[j, "colorScaleScheme"] = "Purples"
-        j += 1
+        # # P90/P50
+        # df_tables_wid.loc[j, "name"] = f"P90/P50 ratio (WID)"
+        # df_tables_wid.loc[j, "slug"] = f"p90_p50_ratio_{wid_welfare['slug'][wel]}"
+        # df_tables_wid.loc[
+        #     j, "description"
+        # ] = f"P90 is the the level of {wid_welfare['welfare_type'][wel]} above which 10% of the population lives. P50 is the median – the level of {wid_welfare['welfare_type'][wel]} below which 50% of the population lives. This variable gives the ratio of the two. It is a measure of inequality within the top half of the distribution. It tells you how many times richer someone in the middle of the distribution would need to be in order to be counted in the richest tenth.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} {wid_welfare['note'][wel]}"
+        # df_tables_wid.loc[j, "unit"] = np.nan
+        # df_tables_wid.loc[j, "shortUnit"] = np.nan
+        # df_tables_wid.loc[j, "type"] = "Numeric"
+        # df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare[
+        #     "scale_p90_p50_ratio"
+        # ][wel]
+        # df_tables_wid.loc[j, "colorScaleScheme"] = "Purples"
+        # j += 1
 
-        # P50/P10
-        df_tables_wid.loc[j, "name"] = f"P50/P10 ratio (WID)"
-        df_tables_wid.loc[j, "slug"] = f"p50_p10_ratio_{wid_welfare['slug'][wel]}"
-        df_tables_wid.loc[
-            j, "description"
-        ] = f"P50 is the median – the level of {wid_welfare['welfare_type'][wel]} below which 50% of the population lives. P10 is the the level of {wid_welfare['welfare_type'][wel]} below which 10% of the population lives. This variable gives the ratio of the two. It is a measure of inequality within the bottom half of the distribution. It tells you how many times richer someone just in the the poorest tenth would need to be in order to be reach the median.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} {wid_welfare['note'][wel]}"
-        df_tables_wid.loc[j, "unit"] = np.nan
-        df_tables_wid.loc[j, "shortUnit"] = np.nan
-        df_tables_wid.loc[j, "type"] = "Numeric"
-        df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare[
-            "scale_p50_p10_ratio"
-        ][wel]
-        df_tables_wid.loc[j, "colorScaleScheme"] = "YlOrRd"
-        j += 1
+        # # P50/P10
+        # df_tables_wid.loc[j, "name"] = f"P50/P10 ratio (WID)"
+        # df_tables_wid.loc[j, "slug"] = f"p50_p10_ratio_{wid_welfare['slug'][wel]}"
+        # df_tables_wid.loc[
+        #     j, "description"
+        # ] = f"P50 is the median – the level of {wid_welfare['welfare_type'][wel]} below which 50% of the population lives. P10 is the the level of {wid_welfare['welfare_type'][wel]} below which 10% of the population lives. This variable gives the ratio of the two. It is a measure of inequality within the bottom half of the distribution. It tells you how many times richer someone just in the the poorest tenth would need to be in order to be reach the median.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} {wid_welfare['note'][wel]}"
+        # df_tables_wid.loc[j, "unit"] = np.nan
+        # df_tables_wid.loc[j, "shortUnit"] = np.nan
+        # df_tables_wid.loc[j, "type"] = "Numeric"
+        # df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare[
+        #     "scale_p50_p10_ratio"
+        # ][wel]
+        # df_tables_wid.loc[j, "colorScaleScheme"] = "YlOrRd"
+        # j += 1
 
         # Palma ratio
         df_tables_wid.loc[j, "name"] = f"Palma ratio (WID)"
@@ -455,59 +455,59 @@ for tab in range(len(merged_tables)):
             df_tables_lis.loc[j, "equivalized"] = lis_equivalence_scales["text"][eq]
             j += 1
 
-            # P90/P10
-            df_tables_lis.loc[j, "name"] = f"P90/P10 ratio (LIS)"
-            df_tables_lis.loc[
-                j, "slug"
-            ] = f"p90_p10_ratio_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
-            df_tables_lis.loc[
-                j, "description"
-            ] = f"P90 is the the level of {lis_welfare['welfare_type'][wel]} below which 90% of the population lives. P10 is the level of {lis_welfare['welfare_type'][wel]} below which 10% of the population lives. This variable gives the ratio of the two. It is a measure of inequality that indicates the gap between the richest and poorest tenth of the population. It tells you how many times richer someone just in the the poorest tenth would need to be in order to be counted in the richest tenth.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}{lis_equivalence_scales['description'][eq]}"
-            df_tables_lis.loc[j, "unit"] = np.nan
-            df_tables_lis.loc[j, "shortUnit"] = np.nan
-            df_tables_lis.loc[j, "type"] = "Numeric"
-            df_tables_lis.loc[j, "colorScaleNumericBins"] = lis_welfare[
-                "scale_p90_p10_ratio"
-            ][wel]
-            df_tables_lis.loc[j, "colorScaleScheme"] = "OrRd"
-            df_tables_lis.loc[j, "equivalized"] = lis_equivalence_scales["text"][eq]
-            j += 1
+            # # P90/P10
+            # df_tables_lis.loc[j, "name"] = f"P90/P10 ratio (LIS)"
+            # df_tables_lis.loc[
+            #     j, "slug"
+            # ] = f"p90_p10_ratio_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
+            # df_tables_lis.loc[
+            #     j, "description"
+            # ] = f"P90 is the the level of {lis_welfare['welfare_type'][wel]} below which 90% of the population lives. P10 is the level of {lis_welfare['welfare_type'][wel]} below which 10% of the population lives. This variable gives the ratio of the two. It is a measure of inequality that indicates the gap between the richest and poorest tenth of the population. It tells you how many times richer someone just in the the poorest tenth would need to be in order to be counted in the richest tenth.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}{lis_equivalence_scales['description'][eq]}"
+            # df_tables_lis.loc[j, "unit"] = np.nan
+            # df_tables_lis.loc[j, "shortUnit"] = np.nan
+            # df_tables_lis.loc[j, "type"] = "Numeric"
+            # df_tables_lis.loc[j, "colorScaleNumericBins"] = lis_welfare[
+            #     "scale_p90_p10_ratio"
+            # ][wel]
+            # df_tables_lis.loc[j, "colorScaleScheme"] = "OrRd"
+            # df_tables_lis.loc[j, "equivalized"] = lis_equivalence_scales["text"][eq]
+            # j += 1
 
-            # P90/P50
-            df_tables_lis.loc[j, "name"] = f"P90/P50 ratio (LIS)"
-            df_tables_lis.loc[
-                j, "slug"
-            ] = f"p90_p50_ratio_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
-            df_tables_lis.loc[
-                j, "description"
-            ] = f"P90 is the the level of {lis_welfare['welfare_type'][wel]} above which 10% of the population lives. P50 is the median – the level of {lis_welfare['welfare_type'][wel]} below which 50% of the population lives. This variable gives the ratio of the two. It is a measure of inequality within the top half of the distribution. It tells you how many times richer someone in the middle of the distribution would need to be in order to be counted in the richest tenth.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}{lis_equivalence_scales['description'][eq]}"
-            df_tables_lis.loc[j, "unit"] = np.nan
-            df_tables_lis.loc[j, "shortUnit"] = np.nan
-            df_tables_lis.loc[j, "type"] = "Numeric"
-            df_tables_lis.loc[j, "colorScaleNumericBins"] = lis_welfare[
-                "scale_p90_p50_ratio"
-            ][wel]
-            df_tables_lis.loc[j, "colorScaleScheme"] = "Purples"
-            df_tables_lis.loc[j, "equivalized"] = lis_equivalence_scales["text"][eq]
-            j += 1
+            # # P90/P50
+            # df_tables_lis.loc[j, "name"] = f"P90/P50 ratio (LIS)"
+            # df_tables_lis.loc[
+            #     j, "slug"
+            # ] = f"p90_p50_ratio_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
+            # df_tables_lis.loc[
+            #     j, "description"
+            # ] = f"P90 is the the level of {lis_welfare['welfare_type'][wel]} above which 10% of the population lives. P50 is the median – the level of {lis_welfare['welfare_type'][wel]} below which 50% of the population lives. This variable gives the ratio of the two. It is a measure of inequality within the top half of the distribution. It tells you how many times richer someone in the middle of the distribution would need to be in order to be counted in the richest tenth.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}{lis_equivalence_scales['description'][eq]}"
+            # df_tables_lis.loc[j, "unit"] = np.nan
+            # df_tables_lis.loc[j, "shortUnit"] = np.nan
+            # df_tables_lis.loc[j, "type"] = "Numeric"
+            # df_tables_lis.loc[j, "colorScaleNumericBins"] = lis_welfare[
+            #     "scale_p90_p50_ratio"
+            # ][wel]
+            # df_tables_lis.loc[j, "colorScaleScheme"] = "Purples"
+            # df_tables_lis.loc[j, "equivalized"] = lis_equivalence_scales["text"][eq]
+            # j += 1
 
-            # P50/P10
-            df_tables_lis.loc[j, "name"] = f"P50/P10 ratio (LIS)"
-            df_tables_lis.loc[
-                j, "slug"
-            ] = f"p50_p10_ratio_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
-            df_tables_lis.loc[
-                j, "description"
-            ] = f"P50 is the median – the level of {lis_welfare['welfare_type'][wel]} below which 50% of the population lives. P10 is the the level of {lis_welfare['welfare_type'][wel]} below which 10% of the population lives. This variable gives the ratio of the two. It is a measure of inequality within the bottom half of the distribution. It tells you how many times richer someone just in the the poorest tenth would need to be in order to be reach the median.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}{lis_equivalence_scales['description'][eq]}"
-            df_tables_lis.loc[j, "unit"] = np.nan
-            df_tables_lis.loc[j, "shortUnit"] = np.nan
-            df_tables_lis.loc[j, "type"] = "Numeric"
-            df_tables_lis.loc[j, "colorScaleNumericBins"] = lis_welfare[
-                "scale_p50_p10_ratio"
-            ][wel]
-            df_tables_lis.loc[j, "colorScaleScheme"] = "YlOrRd"
-            df_tables_lis.loc[j, "equivalized"] = lis_equivalence_scales["text"][eq]
-            j += 1
+            # # P50/P10
+            # df_tables_lis.loc[j, "name"] = f"P50/P10 ratio (LIS)"
+            # df_tables_lis.loc[
+            #     j, "slug"
+            # ] = f"p50_p10_ratio_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
+            # df_tables_lis.loc[
+            #     j, "description"
+            # ] = f"P50 is the median – the level of {lis_welfare['welfare_type'][wel]} below which 50% of the population lives. P10 is the the level of {lis_welfare['welfare_type'][wel]} below which 10% of the population lives. This variable gives the ratio of the two. It is a measure of inequality within the bottom half of the distribution. It tells you how many times richer someone just in the the poorest tenth would need to be in order to be reach the median.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}{lis_equivalence_scales['description'][eq]}"
+            # df_tables_lis.loc[j, "unit"] = np.nan
+            # df_tables_lis.loc[j, "shortUnit"] = np.nan
+            # df_tables_lis.loc[j, "type"] = "Numeric"
+            # df_tables_lis.loc[j, "colorScaleNumericBins"] = lis_welfare[
+            #     "scale_p50_p10_ratio"
+            # ][wel]
+            # df_tables_lis.loc[j, "colorScaleScheme"] = "YlOrRd"
+            # df_tables_lis.loc[j, "equivalized"] = lis_equivalence_scales["text"][eq]
+            # j += 1
 
             # Palma ratio
             df_tables_lis.loc[j, "name"] = f"Palma ratio (LIS)"
@@ -613,7 +613,7 @@ for tab in range(len(merged_tables)):
             j, "title"
         ] = f"Income share of the top 10% ({source_checkbox['type_title'][view]})"
         df_graphers.loc[j, "ySlugs"] = source_checkbox["top10"][view]
-        df_graphers.loc[j, "Indicator Dropdown"] = "Top 10% share"
+        df_graphers.loc[j, "Indicator Dropdown"] = "Share of the richest 10%"
         df_graphers.loc[j, "Income measure Dropdown"] = source_checkbox["type_title"][
             view
         ].capitalize()
@@ -636,7 +636,7 @@ for tab in range(len(merged_tables)):
             j, "title"
         ] = f"Income share of the bottom 50% ({source_checkbox['type_title'][view]})"
         df_graphers.loc[j, "ySlugs"] = source_checkbox["bottom50"][view]
-        df_graphers.loc[j, "Indicator Dropdown"] = "Bottom 50% share"
+        df_graphers.loc[j, "Indicator Dropdown"] = "Share of the poorest 50%"
         df_graphers.loc[j, "Income measure Dropdown"] = source_checkbox["type_title"][
             view
         ].capitalize()
@@ -653,74 +653,74 @@ for tab in range(len(merged_tables)):
         df_graphers.loc[j, "note"] = ""
         j += 1
 
-        # P90/P10
-        df_graphers.loc[
-            j, "title"
-        ] = f"Income inequality: P90/P10 ratio ({source_checkbox['type_title'][view]})"
-        df_graphers.loc[j, "ySlugs"] = source_checkbox["p90_p10"][view]
-        df_graphers.loc[j, "Indicator Dropdown"] = "P90/P10"
-        df_graphers.loc[j, "Income measure Dropdown"] = source_checkbox["type_title"][
-            view
-        ].capitalize()
-        df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
-        df_graphers.loc[j, "World Inequality Database Checkbox"] = source_checkbox[
-            "wid"
-        ][view]
-        df_graphers.loc[j, "Luxembourg Income Study Checkbox"] = source_checkbox["lis"][
-            view
-        ]
-        df_graphers.loc[
-            j, "subtitle"
-        ] = f"P90 and P10 are the levels of income below which 90% and 10% of the population live, respectively. This variable gives the ratio of the two. It is a measure of inequality that indicates the gap between the richest and poorest tenth of the population."
-        df_graphers.loc[j, "note"] = ""
-        df_graphers.loc[j, "type"] = np.nan
-        j += 1
+        # # P90/P10
+        # df_graphers.loc[
+        #     j, "title"
+        # ] = f"Income inequality: P90/P10 ratio ({source_checkbox['type_title'][view]})"
+        # df_graphers.loc[j, "ySlugs"] = source_checkbox["p90_p10"][view]
+        # df_graphers.loc[j, "Indicator Dropdown"] = "P90/P10"
+        # df_graphers.loc[j, "Income measure Dropdown"] = source_checkbox["type_title"][
+        #     view
+        # ].capitalize()
+        # df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
+        # df_graphers.loc[j, "World Inequality Database Checkbox"] = source_checkbox[
+        #     "wid"
+        # ][view]
+        # df_graphers.loc[j, "Luxembourg Income Study Checkbox"] = source_checkbox["lis"][
+        #     view
+        # ]
+        # df_graphers.loc[
+        #     j, "subtitle"
+        # ] = f"P90 and P10 are the levels of income below which 90% and 10% of the population live, respectively. This variable gives the ratio of the two. It is a measure of inequality that indicates the gap between the richest and poorest tenth of the population."
+        # df_graphers.loc[j, "note"] = ""
+        # df_graphers.loc[j, "type"] = np.nan
+        # j += 1
 
-        # P90/P50
-        df_graphers.loc[
-            j, "title"
-        ] = f"Income inequality: P90/P50 ratio ({source_checkbox['type_title'][view]})"
-        df_graphers.loc[j, "ySlugs"] = source_checkbox["p90_p50"][view]
-        df_graphers.loc[j, "Indicator Dropdown"] = "P90/P50"
-        df_graphers.loc[j, "Income measure Dropdown"] = source_checkbox["type_title"][
-            view
-        ].capitalize()
-        df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
-        df_graphers.loc[j, "World Inequality Database Checkbox"] = source_checkbox[
-            "wid"
-        ][view]
-        df_graphers.loc[j, "Luxembourg Income Study Checkbox"] = source_checkbox["lis"][
-            view
-        ]
-        df_graphers.loc[
-            j, "subtitle"
-        ] = f"The P90/P50 ratio measures the degree of inequality within the richest half of the population. A ratio of 2 means that someone just falling in the richest tenth of the population has twice the median income."
-        df_graphers.loc[j, "note"] = ""
-        df_graphers.loc[j, "type"] = np.nan
-        j += 1
+        # # P90/P50
+        # df_graphers.loc[
+        #     j, "title"
+        # ] = f"Income inequality: P90/P50 ratio ({source_checkbox['type_title'][view]})"
+        # df_graphers.loc[j, "ySlugs"] = source_checkbox["p90_p50"][view]
+        # df_graphers.loc[j, "Indicator Dropdown"] = "P90/P50"
+        # df_graphers.loc[j, "Income measure Dropdown"] = source_checkbox["type_title"][
+        #     view
+        # ].capitalize()
+        # df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
+        # df_graphers.loc[j, "World Inequality Database Checkbox"] = source_checkbox[
+        #     "wid"
+        # ][view]
+        # df_graphers.loc[j, "Luxembourg Income Study Checkbox"] = source_checkbox["lis"][
+        #     view
+        # ]
+        # df_graphers.loc[
+        #     j, "subtitle"
+        # ] = f"The P90/P50 ratio measures the degree of inequality within the richest half of the population. A ratio of 2 means that someone just falling in the richest tenth of the population has twice the median income."
+        # df_graphers.loc[j, "note"] = ""
+        # df_graphers.loc[j, "type"] = np.nan
+        # j += 1
 
-        # P50/P10
-        df_graphers.loc[
-            j, "title"
-        ] = f"Income inequality: P50/P10 ratio ({source_checkbox['type_title'][view]})"
-        df_graphers.loc[j, "ySlugs"] = source_checkbox["p50_p10"][view]
-        df_graphers.loc[j, "Indicator Dropdown"] = "P50/P10"
-        df_graphers.loc[j, "Income measure Dropdown"] = source_checkbox["type_title"][
-            view
-        ].capitalize()
-        df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
-        df_graphers.loc[j, "World Inequality Database Checkbox"] = source_checkbox[
-            "wid"
-        ][view]
-        df_graphers.loc[j, "Luxembourg Income Study Checkbox"] = source_checkbox["lis"][
-            view
-        ]
-        df_graphers.loc[
-            j, "subtitle"
-        ] = f"The P50/P10 ratio measures the degree of inequality within the poorest half of the population. A ratio of 2 means that the median income is two times higher than that of someone just falling in the poorest tenth of the population."
-        df_graphers.loc[j, "note"] = ""
-        df_graphers.loc[j, "type"] = np.nan
-        j += 1
+        # # P50/P10
+        # df_graphers.loc[
+        #     j, "title"
+        # ] = f"Income inequality: P50/P10 ratio ({source_checkbox['type_title'][view]})"
+        # df_graphers.loc[j, "ySlugs"] = source_checkbox["p50_p10"][view]
+        # df_graphers.loc[j, "Indicator Dropdown"] = "P50/P10"
+        # df_graphers.loc[j, "Income measure Dropdown"] = source_checkbox["type_title"][
+        #     view
+        # ].capitalize()
+        # df_graphers.loc[j, "World Bank PIP Checkbox"] = source_checkbox["pip"][view]
+        # df_graphers.loc[j, "World Inequality Database Checkbox"] = source_checkbox[
+        #     "wid"
+        # ][view]
+        # df_graphers.loc[j, "Luxembourg Income Study Checkbox"] = source_checkbox["lis"][
+        #     view
+        # ]
+        # df_graphers.loc[
+        #     j, "subtitle"
+        # ] = f"The P50/P10 ratio measures the degree of inequality within the poorest half of the population. A ratio of 2 means that the median income is two times higher than that of someone just falling in the poorest tenth of the population."
+        # df_graphers.loc[j, "note"] = ""
+        # df_graphers.loc[j, "type"] = np.nan
+        # j += 1
 
         # Palma ratio
         df_graphers.loc[

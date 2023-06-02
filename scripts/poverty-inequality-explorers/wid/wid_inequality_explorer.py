@@ -293,7 +293,7 @@ for tab in range(len(tables)):
             j, "title"
         ] = f"{welfare['welfare_type'][wel].capitalize()} share of the top 10% {welfare['title'][wel].capitalize()}"
         df_graphers.loc[j, "ySlugs"] = f"p90p100_share_{welfare['slug'][wel]}"
-        df_graphers.loc[j, "Indicator Dropdown"] = "Top 10% share"
+        df_graphers.loc[j, "Indicator Dropdown"] = "Share of the richest 10%"
         df_graphers.loc[
             j, "Income measure Dropdown"
         ] = f"{welfare['dropdown_option'][wel]}"
@@ -312,7 +312,7 @@ for tab in range(len(tables)):
             j, "title"
         ] = f"{welfare['welfare_type'][wel].capitalize()} share of the top 1% {welfare['title'][wel].capitalize()}"
         df_graphers.loc[j, "ySlugs"] = f"p99p100_share_{welfare['slug'][wel]}"
-        df_graphers.loc[j, "Indicator Dropdown"] = "Top 1% share"
+        df_graphers.loc[j, "Indicator Dropdown"] = "Share of the richest 1%"
         df_graphers.loc[
             j, "Income measure Dropdown"
         ] = f"{welfare['dropdown_option'][wel]}"
@@ -331,7 +331,7 @@ for tab in range(len(tables)):
             j, "title"
         ] = f"{welfare['welfare_type'][wel].capitalize()} share of the top 0.1% {welfare['title'][wel].capitalize()}"
         df_graphers.loc[j, "ySlugs"] = f"p99_9p100_share_{welfare['slug'][wel]}"
-        df_graphers.loc[j, "Indicator Dropdown"] = "Top 0.1% share"
+        df_graphers.loc[j, "Indicator Dropdown"] = "Share of the richest 0.1%"
         df_graphers.loc[
             j, "Income measure Dropdown"
         ] = f"{welfare['dropdown_option'][wel]}"
@@ -350,7 +350,7 @@ for tab in range(len(tables)):
             j, "title"
         ] = f"{welfare['welfare_type'][wel].capitalize()} share of the top 0.01% {welfare['title'][wel].capitalize()}"
         df_graphers.loc[j, "ySlugs"] = f"p99_99p100_share_{welfare['slug'][wel]}"
-        df_graphers.loc[j, "Indicator Dropdown"] = "Top 0.01% share"
+        df_graphers.loc[j, "Indicator Dropdown"] = "Share of the richest 0.01%"
         df_graphers.loc[
             j, "Income measure Dropdown"
         ] = f"{welfare['dropdown_option'][wel]}"
@@ -369,7 +369,7 @@ for tab in range(len(tables)):
             j, "title"
         ] = f"{welfare['welfare_type'][wel].capitalize()} share of the top 0.001% {welfare['title'][wel].capitalize()}"
         df_graphers.loc[j, "ySlugs"] = f"p99_999p100_share_{welfare['slug'][wel]}"
-        df_graphers.loc[j, "Indicator Dropdown"] = "Top 0.001% share"
+        df_graphers.loc[j, "Indicator Dropdown"] = "Share of the richest 0.001%"
         df_graphers.loc[
             j, "Income measure Dropdown"
         ] = f"{welfare['dropdown_option'][wel]}"
@@ -482,7 +482,7 @@ for tab in range(len(tables)):
         j, "title"
     ] = f"Income share of the top 10% (After tax vs. before tax)"
     df_graphers.loc[j, "ySlugs"] = f"p90p100_share_pretax p90p100_share_posttax_nat"
-    df_graphers.loc[j, "Indicator Dropdown"] = "Top 10% share"
+    df_graphers.loc[j, "Indicator Dropdown"] = "Share of the richest 10%"
     df_graphers.loc[j, "Income measure Dropdown"] = "Income after tax vs. before tax"
     df_graphers.loc[
         j, "subtitle"
@@ -499,7 +499,7 @@ for tab in range(len(tables)):
         j, "title"
     ] = f"Income share of the top 1% (After tax vs. before tax)"
     df_graphers.loc[j, "ySlugs"] = f"p99p100_share_pretax p99p100_share_posttax_nat"
-    df_graphers.loc[j, "Indicator Dropdown"] = "Top 1% share"
+    df_graphers.loc[j, "Indicator Dropdown"] = "Share of the richest 1%"
     df_graphers.loc[j, "Income measure Dropdown"] = "Income after tax vs. before tax"
     df_graphers.loc[
         j, "subtitle"
@@ -516,7 +516,7 @@ for tab in range(len(tables)):
         j, "title"
     ] = f"Income share of the top 0.1% (After tax vs. before tax)"
     df_graphers.loc[j, "ySlugs"] = f"p99_9p100_share_pretax p99_9p100_share_posttax_nat"
-    df_graphers.loc[j, "Indicator Dropdown"] = "Top 0.1% share"
+    df_graphers.loc[j, "Indicator Dropdown"] = "Share of the richest 0.1%"
     df_graphers.loc[j, "Income measure Dropdown"] = "Income after tax vs. before tax"
     df_graphers.loc[
         j, "subtitle"
@@ -535,7 +535,7 @@ for tab in range(len(tables)):
     df_graphers.loc[
         j, "ySlugs"
     ] = f"p99_99p100_share_pretax p99_99p100_share_posttax_nat"
-    df_graphers.loc[j, "Indicator Dropdown"] = "Top 0.01% share"
+    df_graphers.loc[j, "Indicator Dropdown"] = "Share of the richest 0.01%"
     df_graphers.loc[j, "Income measure Dropdown"] = "Income after tax vs. before tax"
     df_graphers.loc[
         j, "subtitle"
@@ -554,7 +554,7 @@ for tab in range(len(tables)):
     df_graphers.loc[
         j, "ySlugs"
     ] = f"p99_999p100_share_pretax p99_999p100_share_posttax_nat"
-    df_graphers.loc[j, "Indicator Dropdown"] = "Top 0.001% share"
+    df_graphers.loc[j, "Indicator Dropdown"] = "Share of the richest 0.001%"
     df_graphers.loc[j, "Income measure Dropdown"] = "Income after tax vs. before tax"
     df_graphers.loc[
         j, "subtitle"

@@ -282,7 +282,7 @@ for tab in range(len(tables)):
             df_graphers.loc[
                 j, "ySlugs"
             ] = f"share_p90_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
-            df_graphers.loc[j, "Indicator Dropdown"] = "Top 10% share"
+            df_graphers.loc[j, "Indicator Dropdown"] = "Share of the richest 10%"
             df_graphers.loc[
                 j, "Income measure Dropdown"
             ] = f"{welfare['dropdown_option'][wel]}"
@@ -449,7 +449,7 @@ for tab in range(len(tables)):
         df_graphers.loc[
             j, "ySlugs"
         ] = f"share_p90_mi_{equivalence_scales['slug'][eq]} share_p90_dhi_{equivalence_scales['slug'][eq]}"
-        df_graphers.loc[j, "Indicator Dropdown"] = "Top 10% share"
+        df_graphers.loc[j, "Indicator Dropdown"] = "Share of the richest 10%"
         df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
         df_graphers.loc[
             j, "Adjust for household composition (equivalized income) Checkbox"
@@ -604,7 +604,7 @@ for tab in range(len(tables)):
         # df_graphers.loc[
         #     j, "ySlugs"
         # ] = f"share_p90_{welfare['slug'][wel]}_eq share_p90_{welfare['slug'][wel]}_pc"
-        # df_graphers.loc[j, "Indicator Dropdown"] = "Top 10% share"
+        # df_graphers.loc[j, "Indicator Dropdown"] = "Share of the richest 10%"
         # df_graphers.loc[
         #     j, "Income measure Dropdown"
         # ] = f"{welfare['dropdown_option'][wel]}"
