@@ -259,27 +259,27 @@ for survey in range(len(survey_type)):
     df_tables.loc[j, "survey_type"] = survey_type["table_name"][survey]
     j += 1
 
-    # Polarization
-    df_tables.loc[j, "name"] = f"Polarization index"
-    df_tables.loc[j, "slug"] = f"polarization"
-    df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform (2022)"
-    df_tables.loc[
-        j, "description"
-    ] = f"The polarization index, also known as the Wolfson polarization index, measures the extent to which the distribution of {survey_type.text[survey]} is “spread out” and bi-modal. Like the Gini coefficient, the polarization index ranges from 0 (no polarization) to 1 (complete polarization). The polarization index is based on Wolfson (1994) and Ravallion and Chen (1997). See Wolfson, Michael C. 1994. “When Inequalities Diverge.” The American Economic Review 84 (2): 353–58. https://www.jstor.org/stable/2117858 and Ravallion, Martin, and Shaohua Chen. 1997. “What Can New Survey Data Tell Us about Recent Changes in Distribution and Poverty?” The World Bank Economic Review 11 (2): 357–82. https://www.jstor.org/stable/3990232."
-    df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
-    df_tables.loc[
-        j, "dataPublishedBy"
-    ] = "World Bank Poverty and Inequality Platform (PIP)"
-    df_tables.loc[j, "unit"] = np.nan
-    df_tables.loc[j, "shortUnit"] = np.nan
-    df_tables.loc[j, "tolerance"] = 5
-    df_tables.loc[j, "type"] = "Numeric"
-    df_tables.loc[j, "colorScaleNumericMinValue"] = 0
-    df_tables.loc[j, "colorScaleNumericBins"] = "0;0.1;0.2;0.3;0.4;0.5;0.6;0.7"
-    df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
-    df_tables.loc[j, "colorScaleScheme"] = "Reds"
-    df_tables.loc[j, "survey_type"] = survey_type["table_name"][survey]
-    j += 1
+    # # Polarization
+    # df_tables.loc[j, "name"] = f"Polarization index"
+    # df_tables.loc[j, "slug"] = f"polarization"
+    # df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform (2022)"
+    # df_tables.loc[
+    #     j, "description"
+    # ] = f"The polarization index, also known as the Wolfson polarization index, measures the extent to which the distribution of {survey_type.text[survey]} is “spread out” and bi-modal. Like the Gini coefficient, the polarization index ranges from 0 (no polarization) to 1 (complete polarization). The polarization index is based on Wolfson (1994) and Ravallion and Chen (1997). See Wolfson, Michael C. 1994. “When Inequalities Diverge.” The American Economic Review 84 (2): 353–58. https://www.jstor.org/stable/2117858 and Ravallion, Martin, and Shaohua Chen. 1997. “What Can New Survey Data Tell Us about Recent Changes in Distribution and Poverty?” The World Bank Economic Review 11 (2): 357–82. https://www.jstor.org/stable/3990232."
+    # df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
+    # df_tables.loc[
+    #     j, "dataPublishedBy"
+    # ] = "World Bank Poverty and Inequality Platform (PIP)"
+    # df_tables.loc[j, "unit"] = np.nan
+    # df_tables.loc[j, "shortUnit"] = np.nan
+    # df_tables.loc[j, "tolerance"] = 5
+    # df_tables.loc[j, "type"] = "Numeric"
+    # df_tables.loc[j, "colorScaleNumericMinValue"] = 0
+    # df_tables.loc[j, "colorScaleNumericBins"] = "0;0.1;0.2;0.3;0.4;0.5;0.6;0.7"
+    # df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
+    # df_tables.loc[j, "colorScaleScheme"] = "Reds"
+    # df_tables.loc[j, "survey_type"] = survey_type["table_name"][survey]
+    # j += 1
 
 # Make tolerance integer (to not break the parameter in the platform)
 df_tables["tolerance"] = df_tables["tolerance"].astype("Int64")
@@ -546,28 +546,28 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, "survey_type"] = survey_type["table_name"][survey]
     j += 1
 
-    # Polarization
-    df_graphers.loc[j, "title"] = f"Income inequality: Polarization index"
-    df_graphers.loc[j, "ySlugs"] = f"polarization"
-    df_graphers.loc[j, "Indicator Dropdown"] = "Polarization index"
-    df_graphers.loc[
-        j, "Household survey data type Dropdown"
-    ] = f"{survey_type.dropdown_option[survey]}"
-    df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
-    df_graphers.loc[
-        j, "subtitle"
-    ] = f"The polarization index, also known as the Wolfson polarization index, measures the extent to which the distribution of {survey_type.text[survey]} is “spread out” and bi-modal. Like the Gini coefficient, the polarization index ranges from 0 (no polarization) to 1 (complete polarization)."
-    df_graphers.loc[
-        j, "note"
-    ] = f"Depending on the country and year, the data relates to disposable {survey_type.text[survey]} per capita."
-    df_graphers.loc[j, "type"] = np.nan
-    df_graphers.loc[j, "yAxisMin"] = 0
-    df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
-    df_graphers.loc[j, "hasMapTab"] = "true"
-    df_graphers.loc[j, "tab"] = "map"
-    df_graphers.loc[j, "mapTargetTime"] = 2019
-    df_graphers.loc[j, "survey_type"] = survey_type["table_name"][survey]
-    j += 1
+    # # Polarization
+    # df_graphers.loc[j, "title"] = f"Income inequality: Polarization index"
+    # df_graphers.loc[j, "ySlugs"] = f"polarization"
+    # df_graphers.loc[j, "Indicator Dropdown"] = "Polarization index"
+    # df_graphers.loc[
+    #     j, "Household survey data type Dropdown"
+    # ] = f"{survey_type.dropdown_option[survey]}"
+    # df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
+    # df_graphers.loc[
+    #     j, "subtitle"
+    # ] = f"The polarization index, also known as the Wolfson polarization index, measures the extent to which the distribution of {survey_type.text[survey]} is “spread out” and bi-modal. Like the Gini coefficient, the polarization index ranges from 0 (no polarization) to 1 (complete polarization)."
+    # df_graphers.loc[
+    #     j, "note"
+    # ] = f"Depending on the country and year, the data relates to disposable {survey_type.text[survey]} per capita."
+    # df_graphers.loc[j, "type"] = np.nan
+    # df_graphers.loc[j, "yAxisMin"] = 0
+    # df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
+    # df_graphers.loc[j, "hasMapTab"] = "true"
+    # df_graphers.loc[j, "tab"] = "map"
+    # df_graphers.loc[j, "mapTargetTime"] = 2019
+    # df_graphers.loc[j, "survey_type"] = survey_type["table_name"][survey]
+    # j += 1
 
 df_graphers["Show breaks between less comparable surveys Checkbox"] = "false"
 # %% [markdown]
