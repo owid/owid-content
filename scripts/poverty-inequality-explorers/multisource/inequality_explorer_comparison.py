@@ -736,6 +736,14 @@ df_graphers["tab"] = tab_parameter
 # Drop rows with empty ySlugs (they make the checkbox system fail)
 df_graphers = df_graphers[df_graphers["ySlugs"] != ""].reset_index(drop=True)
 
+# Remove relative poverty view for before tax (no PIP data)
+df_graphers = df_graphers[
+    ~(
+        (df_graphers["Income measure Dropdown"] == "Before tax")
+        & (df_graphers["Indicator Dropdown"] == "Share in relative poverty")
+    )
+].reset_index(drop=True)
+
 # %% [markdown]
 # Final adjustments to the graphers table: add `relatedQuestion` link and `defaultView`:
 
