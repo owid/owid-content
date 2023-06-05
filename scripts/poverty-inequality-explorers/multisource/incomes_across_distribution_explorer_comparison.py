@@ -66,6 +66,11 @@ deciles10 = pd.read_csv(
     url, keep_default_na=False, dtype={"dropdown": "str", "decile": "str"}
 )
 
+# Relative toggle (to switch between absolute and relative values)
+sheet_name = "relative_toggle"
+url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
+relative_toggle = pd.read_csv(url, keep_default_na=False, dtype={"checkbox": "str"})
+
 # LUXEMBOURG INCOME STUDY
 # Read Google sheets
 sheet_id = "1UFdwB1iBpP2tEP6GtxCHvW1GGhjsFflh42FWR80rYIg"
@@ -863,113 +868,140 @@ j = 0
 for tab in range(len(merged_tables)):
     for view in range(len(source_checkbox)):
         for agg in range(len(lis_income_aggregation)):
-            # Mean
-            df_graphers.loc[
-                j, "title"
-            ] = f"Mean income per {lis_income_aggregation['aggregation'][agg]} ({source_checkbox['type_title'][view]})"
-            df_graphers.loc[j, "ySlugs"] = source_checkbox["mean"][view].replace(
-                "{agg}", lis_income_aggregation["slug_suffix"][agg]
-            )
-            df_graphers.loc[j, "Indicator Dropdown"] = "Mean income or consumption"
-            df_graphers.loc[j, "Decile Dropdown"] = np.nan
-            df_graphers.loc[j, "Income measure Dropdown"] = source_checkbox[
-                "type_title"
-            ][view].capitalize()
-            df_graphers.loc[j, "Period Radio"] = lis_income_aggregation["aggregation"][
-                agg
-            ].capitalize()
-            df_graphers.loc[
-                j, "subtitle"
-            ] = f"This data is adjusted for inflation and for differences in the cost of living between countries."
-            df_graphers.loc[
-                j, "note"
-            ] = f"This data is measured in international-$ at 2017 prices."
-            df_graphers.loc[j, "yScaleToggle"] = "true"
-            j += 1
-
-            # Median
-            df_graphers.loc[
-                j, "title"
-            ] = f"Median income per {lis_income_aggregation['aggregation'][agg]} ({source_checkbox['type_title'][view]})"
-            df_graphers.loc[j, "ySlugs"] = source_checkbox["median"][view].replace(
-                "{agg}", lis_income_aggregation["slug_suffix"][agg]
-            )
-            df_graphers.loc[j, "Indicator Dropdown"] = "Median income or consumption"
-            df_graphers.loc[j, "Decile Dropdown"] = np.nan
-            df_graphers.loc[j, "Income measure Dropdown"] = source_checkbox[
-                "type_title"
-            ][view].capitalize()
-            df_graphers.loc[j, "Period Radio"] = lis_income_aggregation["aggregation"][
-                agg
-            ].capitalize()
-            df_graphers.loc[
-                j, "subtitle"
-            ] = f"This data is adjusted for inflation and for differences in the cost of living between countries."
-            df_graphers.loc[
-                j, "note"
-            ] = f"This data is measured in international-$ at 2017 prices."
-            df_graphers.loc[j, "yScaleToggle"] = "true"
-            j += 1
-
-            # Thresholds - Deciles
-            for dec9 in range(len(deciles9)):
+            for rel_toggle in range(len(relative_toggle)):
+                # Mean
                 df_graphers.loc[
                     j, "title"
-                ] = f"Threshold income marking the {deciles9['ordinal'][dec9]} ({source_checkbox['type_title'][view]})"
-                df_graphers.loc[j, "ySlugs"] = (
-                    source_checkbox["thr"][view]
-                    .replace("{agg}", lis_income_aggregation["slug_suffix"][agg])
-                    .replace("{dec9_pip}", deciles9["decile"][dec9])
-                    .replace("{dec9_wid}", deciles9["wid_notation"][dec9])
-                    .replace("{dec9_lis}", deciles9["lis_notation"][dec9])
+                ] = f"Mean income per {lis_income_aggregation['aggregation'][agg]} ({source_checkbox['type_title'][view]})"
+                df_graphers.loc[j, "ySlugs"] = source_checkbox["mean"][view].replace(
+                    "{agg}", lis_income_aggregation["slug_suffix"][agg]
                 )
-                df_graphers.loc[j, "Indicator Dropdown"] = "Decile thresholds"
-                df_graphers.loc[j, "Decile Dropdown"] = deciles9["dropdown"][dec9]
+                df_graphers.loc[j, "Indicator Dropdown"] = "Mean income or consumption"
+                df_graphers.loc[j, "Decile Dropdown"] = np.nan
                 df_graphers.loc[j, "Income measure Dropdown"] = source_checkbox[
                     "type_title"
                 ][view].capitalize()
                 df_graphers.loc[j, "Period Radio"] = lis_income_aggregation[
                     "aggregation"
                 ][agg].capitalize()
+                df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
+                    "checkbox"
+                ][rel_toggle]
+                df_graphers.loc[j, "stackMode"] = relative_toggle["stack_mode"][
+                    rel_toggle
+                ]
                 df_graphers.loc[
                     j, "subtitle"
-                ] = f"This is the level of income below which {deciles9['decile'][dec9]}0% of the population falls."
+                ] = f"This data is adjusted for inflation and for differences in the cost of living between countries."
                 df_graphers.loc[
                     j, "note"
-                ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+                ] = f"This data is measured in international-$ at 2017 prices."
                 df_graphers.loc[j, "yScaleToggle"] = "true"
                 j += 1
 
-            # Averages - Deciles
-            for dec10 in range(len(deciles10)):
+                # Median
                 df_graphers.loc[
                     j, "title"
-                ] = f"Mean income within the {deciles10['ordinal'][dec10]} ({source_checkbox['type_title'][view]})"
-                df_graphers.loc[j, "ySlugs"] = (
-                    source_checkbox["avg"][view]
-                    .replace("{agg}", lis_income_aggregation["slug_suffix"][agg])
-                    .replace("{dec10_pip}", deciles10["decile"][dec10])
-                    .replace("{dec10_wid}", deciles10["wid_notation"][dec10])
-                    .replace("{dec10_lis}", deciles10["lis_notation"][dec10])
+                ] = f"Median income per {lis_income_aggregation['aggregation'][agg]} ({source_checkbox['type_title'][view]})"
+                df_graphers.loc[j, "ySlugs"] = source_checkbox["median"][view].replace(
+                    "{agg}", lis_income_aggregation["slug_suffix"][agg]
                 )
                 df_graphers.loc[
                     j, "Indicator Dropdown"
-                ] = "Mean income or consumption, by decile"
-                df_graphers.loc[j, "Decile Dropdown"] = deciles10["dropdown"][dec10]
+                ] = "Median income or consumption"
+                df_graphers.loc[j, "Decile Dropdown"] = np.nan
                 df_graphers.loc[j, "Income measure Dropdown"] = source_checkbox[
                     "type_title"
                 ][view].capitalize()
                 df_graphers.loc[j, "Period Radio"] = lis_income_aggregation[
                     "aggregation"
                 ][agg].capitalize()
+                df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
+                    "checkbox"
+                ][rel_toggle]
+                df_graphers.loc[j, "stackMode"] = relative_toggle["stack_mode"][
+                    rel_toggle
+                ]
                 df_graphers.loc[
                     j, "subtitle"
-                ] = f"This is the mean income within the {deciles10['ordinal'][dec10]} (tenth of the population)."
+                ] = f"This data is adjusted for inflation and for differences in the cost of living between countries."
                 df_graphers.loc[
                     j, "note"
-                ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+                ] = f"This data is measured in international-$ at 2017 prices."
                 df_graphers.loc[j, "yScaleToggle"] = "true"
                 j += 1
+
+                # Thresholds - Deciles
+                for dec9 in range(len(deciles9)):
+                    df_graphers.loc[
+                        j, "title"
+                    ] = f"Threshold income marking the {deciles9['ordinal'][dec9]} ({source_checkbox['type_title'][view]})"
+                    df_graphers.loc[j, "ySlugs"] = (
+                        source_checkbox["thr"][view]
+                        .replace("{agg}", lis_income_aggregation["slug_suffix"][agg])
+                        .replace("{dec9_pip}", deciles9["decile"][dec9])
+                        .replace("{dec9_wid}", deciles9["wid_notation"][dec9])
+                        .replace("{dec9_lis}", deciles9["lis_notation"][dec9])
+                    )
+                    df_graphers.loc[j, "Indicator Dropdown"] = "Decile thresholds"
+                    df_graphers.loc[j, "Decile Dropdown"] = deciles9["dropdown"][dec9]
+                    df_graphers.loc[j, "Income measure Dropdown"] = source_checkbox[
+                        "type_title"
+                    ][view].capitalize()
+                    df_graphers.loc[j, "Period Radio"] = lis_income_aggregation[
+                        "aggregation"
+                    ][agg].capitalize()
+                    df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
+                        "checkbox"
+                    ][rel_toggle]
+                    df_graphers.loc[j, "stackMode"] = relative_toggle["stack_mode"][
+                        rel_toggle
+                    ]
+                    df_graphers.loc[
+                        j, "subtitle"
+                    ] = f"This is the level of income below which {deciles9['decile'][dec9]}0% of the population falls."
+                    df_graphers.loc[
+                        j, "note"
+                    ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+                    df_graphers.loc[j, "yScaleToggle"] = "true"
+                    j += 1
+
+                # Averages - Deciles
+                for dec10 in range(len(deciles10)):
+                    df_graphers.loc[
+                        j, "title"
+                    ] = f"Mean income within the {deciles10['ordinal'][dec10]} ({source_checkbox['type_title'][view]})"
+                    df_graphers.loc[j, "ySlugs"] = (
+                        source_checkbox["avg"][view]
+                        .replace("{agg}", lis_income_aggregation["slug_suffix"][agg])
+                        .replace("{dec10_pip}", deciles10["decile"][dec10])
+                        .replace("{dec10_wid}", deciles10["wid_notation"][dec10])
+                        .replace("{dec10_lis}", deciles10["lis_notation"][dec10])
+                    )
+                    df_graphers.loc[
+                        j, "Indicator Dropdown"
+                    ] = "Mean income or consumption, by decile"
+                    df_graphers.loc[j, "Decile Dropdown"] = deciles10["dropdown"][dec10]
+                    df_graphers.loc[j, "Income measure Dropdown"] = source_checkbox[
+                        "type_title"
+                    ][view].capitalize()
+                    df_graphers.loc[j, "Period Radio"] = lis_income_aggregation[
+                        "aggregation"
+                    ][agg].capitalize()
+                    df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
+                        "checkbox"
+                    ][rel_toggle]
+                    df_graphers.loc[j, "stackMode"] = relative_toggle["stack_mode"][
+                        rel_toggle
+                    ]
+                    df_graphers.loc[
+                        j, "subtitle"
+                    ] = f"This is the mean income within the {deciles10['ordinal'][dec10]} (tenth of the population)."
+                    df_graphers.loc[
+                        j, "note"
+                    ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+                    df_graphers.loc[j, "yScaleToggle"] = "true"
+                    j += 1
 
         # Shares - Deciles
         for dec10 in range(len(deciles10)):
@@ -1020,7 +1052,8 @@ df_graphers["mapTargetTime"] = df_graphers["mapTargetTime"].astype("Int64")
 df_graphers.loc[
     (df_graphers["Indicator Dropdown"] == "Mean income or consumption")
     & (df_graphers["Income measure Dropdown"] == "After tax")
-    & (df_graphers["Period Radio"] == "Year"),
+    & (df_graphers["Period Radio"] == "Year")
+    & (df_graphers["Relative change Checkbox"] == "false"),
     ["defaultView"],
 ] = "true"
 
