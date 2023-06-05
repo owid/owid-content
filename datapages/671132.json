@@ -146,7 +146,7 @@
             "sourceName": "Our World in Data reference population dataset",
             "sourceDescription": "",
             "sourceRetrievedOn": "2023-03-31",
-            "sourceRetrievedFromUrl": "https://github.com/owid/etl/tree/master/etl/steps/data/garden/demography/2023-03-31/population"
+            "sourceRetrievedFromUrl": ""
         }
     ]
 }
