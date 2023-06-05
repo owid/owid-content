@@ -551,30 +551,27 @@ for tab in range(len(tables)):
         j += 1
 
         # Headcount ratio (rel)
-        for pct in range(len(povlines_rel)):
-            df_graphers.loc[
-                j, "title"
-            ] = f"{povlines_rel['title_share'][pct]} (after tax vs. before tax)"
-            df_graphers.loc[
-                j, "ySlugs"
-            ] = f"headcount_ratio_{povlines_rel['slug_suffix'][pct]}_mi_{equivalence_scales['slug'][eq]} headcount_ratio_{povlines_rel['slug_suffix'][pct]}_dhi_{equivalence_scales['slug'][eq]}"
-            df_graphers.loc[
-                j, "Indicator Dropdown"
-            ] = f"Share in relative poverty (< {povlines_rel['text'][pct]})"
-            df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
-            df_graphers.loc[
-                j,
-                "Adjust for cost sharing within households (equivalized income) Checkbox",
-            ] = equivalence_scales["checkbox"][eq]
-            df_graphers.loc[
-                j, "subtitle"
-            ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at {povlines_rel['text'][pct]} income."
-            df_graphers.loc[j, "note"] = equivalence_scales["note"][eq]
-            df_graphers.loc[j, "type"] = np.nan
-            df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
-            df_graphers.loc[j, "hasMapTab"] = "false"
-            df_graphers.loc[j, "tab"] = "chart"
-            j += 1
+        df_graphers.loc[
+            j, "title"
+        ] = f"Share in relative poverty (after tax vs. before tax)"
+        df_graphers.loc[
+            j, "ySlugs"
+        ] = f"headcount_ratio_50_median_mi_{equivalence_scales['slug'][eq]} headcount_ratio_50_median_dhi_{equivalence_scales['slug'][eq]}"
+        df_graphers.loc[j, "Indicator Dropdown"] = f"Share in relative poverty"
+        df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
+        df_graphers.loc[
+            j,
+            "Adjust for cost sharing within households (equivalized income) Checkbox",
+        ] = equivalence_scales["checkbox"][eq]
+        df_graphers.loc[
+            j, "subtitle"
+        ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at 50% of the median income."
+        df_graphers.loc[j, "note"] = equivalence_scales["note"][eq]
+        df_graphers.loc[j, "type"] = np.nan
+        df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
+        df_graphers.loc[j, "hasMapTab"] = "false"
+        df_graphers.loc[j, "tab"] = "chart"
+        j += 1
 
         # # Compare equivalized and per capita values
         # # Gini coefficient
