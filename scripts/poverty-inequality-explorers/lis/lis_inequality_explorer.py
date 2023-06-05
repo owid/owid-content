@@ -137,6 +137,23 @@ for tab in range(len(tables)):
             df_tables.loc[j, "colorScaleScheme"] = "Greens"
             j += 1
 
+            # Share of the bottom 50%
+            df_tables.loc[
+                j, "name"
+            ] = f"{welfare['welfare_type'][wel].capitalize()} share of the poorest 50% ({welfare['title'][wel]})"
+            df_tables.loc[
+                j, "slug"
+            ] = f"share_bottom50_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
+            df_tables.loc[
+                j, "description"
+            ] = f"This is the {welfare['welfare_type'][wel]} of the poorest 50% as a share of total {welfare['welfare_type'][wel]}.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}{equivalence_scales['description'][eq]}"
+            df_tables.loc[j, "unit"] = "%"
+            df_tables.loc[j, "shortUnit"] = "%"
+            df_tables.loc[j, "type"] = "Numeric"
+            df_tables.loc[j, "colorScaleNumericBins"] = welfare["scale_bottom50"][wel]
+            df_tables.loc[j, "colorScaleScheme"] = "Blues"
+            j += 1
+
             # # P90/P10
             # df_tables.loc[j, "name"] = f"P90/P10 ratio ({welfare['title'][wel]})"
             # df_tables.loc[
@@ -293,6 +310,30 @@ for tab in range(len(tables)):
             df_graphers.loc[
                 j, "subtitle"
             ] = f"This is the {welfare['welfare_type'][wel]} of the richest 10% as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
+            df_graphers.loc[j, "note"] = equivalence_scales["note"][eq]
+            df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
+            df_graphers.loc[j, "hasMapTab"] = "true"
+            df_graphers.loc[j, "tab"] = "map"
+            j += 1
+
+            # Share of the bottom 50%
+            df_graphers.loc[
+                j, "title"
+            ] = f"{welfare['welfare_type'][wel].capitalize()} share of the poorest 50% ({welfare['title'][wel]})"
+            df_graphers.loc[
+                j, "ySlugs"
+            ] = f"share_bottom50_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
+            df_graphers.loc[j, "Indicator Dropdown"] = "Share of the poorest 50%"
+            df_graphers.loc[
+                j, "Income measure Dropdown"
+            ] = f"{welfare['dropdown_option'][wel]}"
+            df_graphers.loc[
+                j,
+                "Adjust for cost sharing within households (equivalized income) Checkbox",
+            ] = equivalence_scales["checkbox"][eq]
+            df_graphers.loc[
+                j, "subtitle"
+            ] = f"This is the {welfare['welfare_type'][wel]} of the poorest 50% as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
             df_graphers.loc[j, "note"] = equivalence_scales["note"][eq]
             df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
             df_graphers.loc[j, "hasMapTab"] = "true"
@@ -457,6 +498,27 @@ for tab in range(len(tables)):
         df_graphers.loc[
             j, "subtitle"
         ] = f"This is the income of the richest 10% as a share of total income."
+        df_graphers.loc[j, "note"] = equivalence_scales["note"][eq]
+        df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
+        df_graphers.loc[j, "hasMapTab"] = "false"
+        df_graphers.loc[j, "tab"] = "chart"
+        j += 1
+
+        # Share of the bottom 50%
+        df_graphers.loc[
+            j, "title"
+        ] = f"Income share of the poorest 50% (after tax vs. before tax)"
+        df_graphers.loc[
+            j, "ySlugs"
+        ] = f"share_bottom50_mi_{equivalence_scales['slug'][eq]} share_bottom50_dhi_{equivalence_scales['slug'][eq]}"
+        df_graphers.loc[j, "Indicator Dropdown"] = "Share of the poorest 50%"
+        df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
+        df_graphers.loc[
+            j, "Adjust for cost sharing within households (equivalized income) Checkbox"
+        ] = equivalence_scales["checkbox"][eq]
+        df_graphers.loc[
+            j, "subtitle"
+        ] = f"This is the income of the poorest 50% as a share of total income."
         df_graphers.loc[j, "note"] = equivalence_scales["note"][eq]
         df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
         df_graphers.loc[j, "hasMapTab"] = "false"
