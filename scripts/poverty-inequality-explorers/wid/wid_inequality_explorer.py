@@ -154,37 +154,37 @@ for tab in range(len(tables)):
         df_tables.loc[j, "colorScaleScheme"] = "Greens"
         j += 1
 
-        # Share of the top 0.01%
-        df_tables.loc[
-            j, "name"
-        ] = f"{welfare['welfare_type'][wel].capitalize()} share of the richest 0.01% {welfare['title'][wel]}"
-        df_tables.loc[j, "slug"] = f"p99_99p100_share_{welfare['slug'][wel]}"
-        df_tables.loc[
-            j, "description"
-        ] = f"This is the {welfare['welfare_type'][wel]} of the richest 0.01% as a share of total {welfare['welfare_type'][wel]}.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]} {welfare['note'][wel]}"
-        df_tables.loc[j, "unit"] = "%"
-        df_tables.loc[j, "shortUnit"] = "%"
-        df_tables.loc[j, "type"] = "Numeric"
-        df_tables.loc[j, "colorScaleNumericBins"] = welfare["scale_top001"][wel]
-        df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
-        df_tables.loc[j, "colorScaleScheme"] = "Greens"
-        j += 1
+        # # Share of the top 0.01%
+        # df_tables.loc[
+        #     j, "name"
+        # ] = f"{welfare['welfare_type'][wel].capitalize()} share of the richest 0.01% {welfare['title'][wel]}"
+        # df_tables.loc[j, "slug"] = f"p99_99p100_share_{welfare['slug'][wel]}"
+        # df_tables.loc[
+        #     j, "description"
+        # ] = f"This is the {welfare['welfare_type'][wel]} of the richest 0.01% as a share of total {welfare['welfare_type'][wel]}.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]} {welfare['note'][wel]}"
+        # df_tables.loc[j, "unit"] = "%"
+        # df_tables.loc[j, "shortUnit"] = "%"
+        # df_tables.loc[j, "type"] = "Numeric"
+        # df_tables.loc[j, "colorScaleNumericBins"] = welfare["scale_top001"][wel]
+        # df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
+        # df_tables.loc[j, "colorScaleScheme"] = "Greens"
+        # j += 1
 
-        # Share of the top 0.001%
-        df_tables.loc[
-            j, "name"
-        ] = f"{welfare['welfare_type'][wel].capitalize()} share of the richest 0.001% {welfare['title'][wel]}"
-        df_tables.loc[j, "slug"] = f"p99_999p100_share_{welfare['slug'][wel]}"
-        df_tables.loc[
-            j, "description"
-        ] = f"This is the {welfare['welfare_type'][wel]} of the richest 0.001% as a share of total {welfare['welfare_type'][wel]}.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]} {welfare['note'][wel]}"
-        df_tables.loc[j, "unit"] = "%"
-        df_tables.loc[j, "shortUnit"] = "%"
-        df_tables.loc[j, "type"] = "Numeric"
-        df_tables.loc[j, "colorScaleNumericBins"] = welfare["scale_top0001"][wel]
-        df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
-        df_tables.loc[j, "colorScaleScheme"] = "Greens"
-        j += 1
+        # # Share of the top 0.001%
+        # df_tables.loc[
+        #     j, "name"
+        # ] = f"{welfare['welfare_type'][wel].capitalize()} share of the richest 0.001% {welfare['title'][wel]}"
+        # df_tables.loc[j, "slug"] = f"p99_999p100_share_{welfare['slug'][wel]}"
+        # df_tables.loc[
+        #     j, "description"
+        # ] = f"This is the {welfare['welfare_type'][wel]} of the richest 0.001% as a share of total {welfare['welfare_type'][wel]}.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]} {welfare['note'][wel]}"
+        # df_tables.loc[j, "unit"] = "%"
+        # df_tables.loc[j, "shortUnit"] = "%"
+        # df_tables.loc[j, "type"] = "Numeric"
+        # df_tables.loc[j, "colorScaleNumericBins"] = welfare["scale_top0001"][wel]
+        # df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
+        # df_tables.loc[j, "colorScaleScheme"] = "Greens"
+        # j += 1
 
         # Share of the bottom 50%
         df_tables.loc[
