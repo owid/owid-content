@@ -186,6 +186,22 @@ for tab in range(len(tables)):
         df_tables.loc[j, "colorScaleScheme"] = "Greens"
         j += 1
 
+        # Share of the bottom 50%
+        df_tables.loc[
+            j, "name"
+        ] = f"{welfare['welfare_type'][wel].capitalize()} share of the poorest 50% {welfare['title'][wel]}"
+        df_tables.loc[j, "slug"] = f"p0p50_share_{welfare['slug'][wel]}"
+        df_tables.loc[
+            j, "description"
+        ] = f"This is the {welfare['welfare_type'][wel]} of the poorest 50% as a share of total {welfare['welfare_type'][wel]}.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]} {welfare['note'][wel]}"
+        df_tables.loc[j, "unit"] = "%"
+        df_tables.loc[j, "shortUnit"] = "%"
+        df_tables.loc[j, "type"] = "Numeric"
+        df_tables.loc[j, "colorScaleNumericBins"] = welfare["scale_bottom50"][wel]
+        df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
+        df_tables.loc[j, "colorScaleScheme"] = "Blues"
+        j += 1
+
         # # P90/P10
         # df_tables.loc[j, "name"] = f"P90/P10 ratio {welfare['title'][wel]}"
         # df_tables.loc[j, "slug"] = f"p90_p10_ratio_{welfare['slug'][wel]}"
@@ -376,6 +392,25 @@ for tab in range(len(tables)):
         df_graphers.loc[
             j, "subtitle"
         ] = f"This is the {welfare['welfare_type'][wel]} of the richest 0.001% as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
+        df_graphers.loc[j, "note"] = f"{welfare['note'][wel]}"
+        df_graphers.loc[j, "type"] = np.nan
+        df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
+        df_graphers.loc[j, "hasMapTab"] = "true"
+        df_graphers.loc[j, "tab"] = "map"
+        j += 1
+
+        # Share of the bottom 50%
+        df_graphers.loc[
+            j, "title"
+        ] = f"{welfare['welfare_type'][wel].capitalize()} share of the poorest 50% {welfare['title'][wel].capitalize()}"
+        df_graphers.loc[j, "ySlugs"] = f"p0p50_share_{welfare['slug'][wel]}"
+        df_graphers.loc[j, "Indicator Dropdown"] = "Share of the poorest 50%"
+        df_graphers.loc[
+            j, "Income measure Dropdown"
+        ] = f"{welfare['dropdown_option'][wel]}"
+        df_graphers.loc[
+            j, "subtitle"
+        ] = f"This is the {welfare['welfare_type'][wel]} of the poorest 50% as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
         df_graphers.loc[j, "note"] = f"{welfare['note'][wel]}"
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
