@@ -34,6 +34,22 @@ source_checkbox = pd.read_csv(
     url, keep_default_na=False, dtype={"pip": "str", "wid": "str", "lis": "str"}
 )
 
+# Only get the combinations where all the sources are available (pre and post tax)
+source_checkbox = source_checkbox[
+    (
+        (source_checkbox["type"] == "pre")
+        & (source_checkbox["wid"] == "true")
+        & (source_checkbox["pip"] == "false")
+        & (source_checkbox["lis"] == "true")
+    )
+    | (
+        (source_checkbox["type"] == "post")
+        & (source_checkbox["wid"] == "true")
+        & (source_checkbox["pip"] == "true")
+        & (source_checkbox["lis"] == "true")
+    )
+].reset_index(drop=True)
+
 # LUXEMBOURG INCOME STUDY
 # Read Google sheets
 sheet_id = "1UFdwB1iBpP2tEP6GtxCHvW1GGhjsFflh42FWR80rYIg"

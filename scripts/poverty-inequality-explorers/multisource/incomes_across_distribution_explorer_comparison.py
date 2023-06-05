@@ -36,6 +36,22 @@ source_checkbox = pd.read_csv(
     url, keep_default_na=False, dtype={"pip": "str", "wid": "str", "lis": "str"}
 )
 
+# Only get the combinations where all the sources are available (pre and post tax)
+source_checkbox = source_checkbox[
+    (
+        (source_checkbox["type"] == "pre")
+        & (source_checkbox["wid"] == "true")
+        & (source_checkbox["pip"] == "false")
+        & (source_checkbox["lis"] == "true")
+    )
+    | (
+        (source_checkbox["type"] == "post")
+        & (source_checkbox["wid"] == "true")
+        & (source_checkbox["pip"] == "true")
+        & (source_checkbox["lis"] == "true")
+    )
+].reset_index(drop=True)
+
 # Deciles9 sheet (needed to handle thresholds data)
 sheet_name = "deciles9"
 url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
