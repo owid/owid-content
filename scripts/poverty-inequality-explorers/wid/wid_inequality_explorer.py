@@ -286,9 +286,7 @@ j = 0
 for tab in range(len(tables)):
     for wel in range(len(welfare)):
         # Gini coefficient
-        df_graphers.loc[
-            j, "title"
-        ] = f"{welfare['welfare_type'][wel].capitalize()} inequality: Gini coefficient {welfare['title'][wel].capitalize()}"
+        df_graphers.loc[j, "title"] = f"Gini coefficient {welfare['title'][wel]}"
         df_graphers.loc[j, "ySlugs"] = f"p0p100_gini_{welfare['slug'][wel]}"
         df_graphers.loc[j, "Indicator Dropdown"] = "Gini coefficient"
         df_graphers.loc[
@@ -307,7 +305,7 @@ for tab in range(len(tables)):
         # Share of the top 10%
         df_graphers.loc[
             j, "title"
-        ] = f"{welfare['welfare_type'][wel].capitalize()} share of the top 10% {welfare['title'][wel].capitalize()}"
+        ] = f"{welfare['welfare_type'][wel].capitalize()} share of the richest 10% {welfare['title'][wel]}"
         df_graphers.loc[j, "ySlugs"] = f"p90p100_share_{welfare['slug'][wel]}"
         df_graphers.loc[j, "Indicator Dropdown"] = "Share of the richest 10%"
         df_graphers.loc[
@@ -315,7 +313,7 @@ for tab in range(len(tables)):
         ] = f"{welfare['dropdown_option'][wel]}"
         df_graphers.loc[
             j, "subtitle"
-        ] = f"This is the {welfare['welfare_type'][wel]} of the richest 10% as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
+        ] = f"The share of {welfare['welfare_type'][wel]} received by the richest 10% of the population. {welfare['subtitle'][wel]}"
         df_graphers.loc[j, "note"] = f"{welfare['note'][wel]}"
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -326,7 +324,7 @@ for tab in range(len(tables)):
         # Share of the top 1%
         df_graphers.loc[
             j, "title"
-        ] = f"{welfare['welfare_type'][wel].capitalize()} share of the top 1% {welfare['title'][wel].capitalize()}"
+        ] = f"{welfare['welfare_type'][wel].capitalize()} share of the richest 1% {welfare['title'][wel]}"
         df_graphers.loc[j, "ySlugs"] = f"p99p100_share_{welfare['slug'][wel]}"
         df_graphers.loc[j, "Indicator Dropdown"] = "Share of the richest 1%"
         df_graphers.loc[
@@ -334,7 +332,7 @@ for tab in range(len(tables)):
         ] = f"{welfare['dropdown_option'][wel]}"
         df_graphers.loc[
             j, "subtitle"
-        ] = f"This is the {welfare['welfare_type'][wel]} of the richest 1% as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
+        ] = f"The share of {welfare['welfare_type'][wel]} received by the richest 1% of the population. {welfare['subtitle'][wel]}"
         df_graphers.loc[j, "note"] = f"{welfare['note'][wel]}"
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -345,7 +343,7 @@ for tab in range(len(tables)):
         # Share of the top 0.1%
         df_graphers.loc[
             j, "title"
-        ] = f"{welfare['welfare_type'][wel].capitalize()} share of the top 0.1% {welfare['title'][wel].capitalize()}"
+        ] = f"{welfare['welfare_type'][wel].capitalize()} share of the richest 0.1% {welfare['title'][wel]}"
         df_graphers.loc[j, "ySlugs"] = f"p99_9p100_share_{welfare['slug'][wel]}"
         df_graphers.loc[j, "Indicator Dropdown"] = "Share of the richest 0.1%"
         df_graphers.loc[
@@ -353,7 +351,7 @@ for tab in range(len(tables)):
         ] = f"{welfare['dropdown_option'][wel]}"
         df_graphers.loc[
             j, "subtitle"
-        ] = f"This is the {welfare['welfare_type'][wel]} of the richest 0.1% as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
+        ] = f"The share of {welfare['welfare_type'][wel]} received by the richest 0.1% of the population. {welfare['subtitle'][wel]}"
         df_graphers.loc[j, "note"] = f"{welfare['note'][wel]}"
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -361,48 +359,48 @@ for tab in range(len(tables)):
         df_graphers.loc[j, "tab"] = "map"
         j += 1
 
-        # Share of the top 0.01%
-        df_graphers.loc[
-            j, "title"
-        ] = f"{welfare['welfare_type'][wel].capitalize()} share of the top 0.01% {welfare['title'][wel].capitalize()}"
-        df_graphers.loc[j, "ySlugs"] = f"p99_99p100_share_{welfare['slug'][wel]}"
-        df_graphers.loc[j, "Indicator Dropdown"] = "Share of the richest 0.01%"
-        df_graphers.loc[
-            j, "Income measure Dropdown"
-        ] = f"{welfare['dropdown_option'][wel]}"
-        df_graphers.loc[
-            j, "subtitle"
-        ] = f"This is the {welfare['welfare_type'][wel]} of the richest 0.01% as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
-        df_graphers.loc[j, "note"] = f"{welfare['note'][wel]}"
-        df_graphers.loc[j, "type"] = np.nan
-        df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
-        df_graphers.loc[j, "hasMapTab"] = "true"
-        df_graphers.loc[j, "tab"] = "map"
-        j += 1
+        # # Share of the top 0.01%
+        # df_graphers.loc[
+        #     j, "title"
+        # ] = f"{welfare['welfare_type'][wel].capitalize()} share of the richest 0.01% {welfare['title'][wel]}"
+        # df_graphers.loc[j, "ySlugs"] = f"p99_99p100_share_{welfare['slug'][wel]}"
+        # df_graphers.loc[j, "Indicator Dropdown"] = "Share of the richest 0.01%"
+        # df_graphers.loc[
+        #     j, "Income measure Dropdown"
+        # ] = f"{welfare['dropdown_option'][wel]}"
+        # df_graphers.loc[
+        #     j, "subtitle"
+        # ] = f"The share of {welfare['welfare_type'][wel]} received by the richest 0.01% of the population. {welfare['subtitle'][wel]}"
+        # df_graphers.loc[j, "note"] = f"{welfare['note'][wel]}"
+        # df_graphers.loc[j, "type"] = np.nan
+        # df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
+        # df_graphers.loc[j, "hasMapTab"] = "true"
+        # df_graphers.loc[j, "tab"] = "map"
+        # j += 1
 
-        # Share of the top 0.001%
-        df_graphers.loc[
-            j, "title"
-        ] = f"{welfare['welfare_type'][wel].capitalize()} share of the top 0.001% {welfare['title'][wel].capitalize()}"
-        df_graphers.loc[j, "ySlugs"] = f"p99_999p100_share_{welfare['slug'][wel]}"
-        df_graphers.loc[j, "Indicator Dropdown"] = "Share of the richest 0.001%"
-        df_graphers.loc[
-            j, "Income measure Dropdown"
-        ] = f"{welfare['dropdown_option'][wel]}"
-        df_graphers.loc[
-            j, "subtitle"
-        ] = f"This is the {welfare['welfare_type'][wel]} of the richest 0.001% as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
-        df_graphers.loc[j, "note"] = f"{welfare['note'][wel]}"
-        df_graphers.loc[j, "type"] = np.nan
-        df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
-        df_graphers.loc[j, "hasMapTab"] = "true"
-        df_graphers.loc[j, "tab"] = "map"
-        j += 1
+        # # Share of the top 0.001%
+        # df_graphers.loc[
+        #     j, "title"
+        # ] = f"{welfare['welfare_type'][wel].capitalize()} share of the richest 0.001% {welfare['title'][wel]}"
+        # df_graphers.loc[j, "ySlugs"] = f"p99_999p100_share_{welfare['slug'][wel]}"
+        # df_graphers.loc[j, "Indicator Dropdown"] = "Share of the richest 0.001%"
+        # df_graphers.loc[
+        #     j, "Income measure Dropdown"
+        # ] = f"{welfare['dropdown_option'][wel]}"
+        # df_graphers.loc[
+        #     j, "subtitle"
+        # ] = f"The share of {welfare['welfare_type'][wel]} received by the richest 0.001% of the population. {welfare['subtitle'][wel]}"
+        # df_graphers.loc[j, "note"] = f"{welfare['note'][wel]}"
+        # df_graphers.loc[j, "type"] = np.nan
+        # df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
+        # df_graphers.loc[j, "hasMapTab"] = "true"
+        # df_graphers.loc[j, "tab"] = "map"
+        # j += 1
 
         # Share of the bottom 50%
         df_graphers.loc[
             j, "title"
-        ] = f"{welfare['welfare_type'][wel].capitalize()} share of the poorest 50% {welfare['title'][wel].capitalize()}"
+        ] = f"{welfare['welfare_type'][wel].capitalize()} share of the poorest 50% {welfare['title'][wel]}"
         df_graphers.loc[j, "ySlugs"] = f"p0p50_share_{welfare['slug'][wel]}"
         df_graphers.loc[j, "Indicator Dropdown"] = "Share of the poorest 50%"
         df_graphers.loc[
@@ -410,7 +408,7 @@ for tab in range(len(tables)):
         ] = f"{welfare['dropdown_option'][wel]}"
         df_graphers.loc[
             j, "subtitle"
-        ] = f"This is the {welfare['welfare_type'][wel]} of the poorest 50% as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
+        ] = f"The share of {welfare['welfare_type'][wel]} received by the poorest 50% of the population. {welfare['subtitle'][wel]}"
         df_graphers.loc[j, "note"] = f"{welfare['note'][wel]}"
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -476,9 +474,7 @@ for tab in range(len(tables)):
         # j += 1
 
         # # Palma ratio
-        df_graphers.loc[
-            j, "title"
-        ] = f"{welfare['welfare_type'][wel].capitalize()} inequality: Palma ratio {welfare['title'][wel].capitalize()}"
+        df_graphers.loc[j, "title"] = f"Palma ratio {welfare['title'][wel]}"
         df_graphers.loc[j, "ySlugs"] = f"palma_ratio_{welfare['slug'][wel]}"
         df_graphers.loc[j, "Indicator Dropdown"] = "Palma ratio"
         df_graphers.loc[
@@ -486,7 +482,7 @@ for tab in range(len(tables)):
         ] = f"{welfare['dropdown_option'][wel]}"
         df_graphers.loc[
             j, "subtitle"
-        ] = f"The Palma ratio is the share of total {welfare['welfare_type'][wel]} of the top 10% divided by the share of the bottom 40%. {welfare['subtitle'][wel]}"
+        ] = f"The share of {welfare['welfare_type'][wel]} of the richest 10% divided by the share of the poorest 40%. {welfare['subtitle'][wel]}"
         df_graphers.loc[j, "note"] = f"{welfare['note'][wel]}"
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -496,9 +492,7 @@ for tab in range(len(tables)):
 
     # BEFORE VS. AFTER TAX
     # Gini coefficient
-    df_graphers.loc[
-        j, "title"
-    ] = f"Income inequality: Gini coefficient (after tax vs. before tax)"
+    df_graphers.loc[j, "title"] = f"Gini coefficient (after tax vs. before tax)"
     df_graphers.loc[j, "ySlugs"] = f"p0p100_gini_pretax p0p100_gini_posttax_nat"
     df_graphers.loc[j, "Indicator Dropdown"] = "Gini coefficient"
     df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
@@ -515,13 +509,13 @@ for tab in range(len(tables)):
     # Share of the top 10%
     df_graphers.loc[
         j, "title"
-    ] = f"Income share of the top 10% (after tax vs. before tax)"
+    ] = f"Income share of the richest 10% (after tax vs. before tax)"
     df_graphers.loc[j, "ySlugs"] = f"p90p100_share_pretax p90p100_share_posttax_nat"
     df_graphers.loc[j, "Indicator Dropdown"] = "Share of the richest 10%"
     df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
     df_graphers.loc[
         j, "subtitle"
-    ] = f"This is the income of the richest 10% as a share of total income."
+    ] = f"The share of income received by the richest 10% of the population."
     df_graphers.loc[j, "note"] = ""
     df_graphers.loc[j, "type"] = np.nan
     df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
@@ -532,13 +526,13 @@ for tab in range(len(tables)):
     # Share of the top 1%
     df_graphers.loc[
         j, "title"
-    ] = f"Income share of the top 1% (after tax vs. before tax)"
+    ] = f"Income share of the richest 1% (after tax vs. before tax)"
     df_graphers.loc[j, "ySlugs"] = f"p99p100_share_pretax p99p100_share_posttax_nat"
     df_graphers.loc[j, "Indicator Dropdown"] = "Share of the richest 1%"
     df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
     df_graphers.loc[
         j, "subtitle"
-    ] = f"This is the income of the richest 1% as a share of total income."
+    ] = f"The share of income received by the richest 1% of the population."
     df_graphers.loc[j, "note"] = ""
     df_graphers.loc[j, "type"] = np.nan
     df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
@@ -549,13 +543,13 @@ for tab in range(len(tables)):
     # Share of the top 0.1%
     df_graphers.loc[
         j, "title"
-    ] = f"Income share of the top 0.1% (after tax vs. before tax)"
+    ] = f"Income share of the richest 0.1% (after tax vs. before tax)"
     df_graphers.loc[j, "ySlugs"] = f"p99_9p100_share_pretax p99_9p100_share_posttax_nat"
     df_graphers.loc[j, "Indicator Dropdown"] = "Share of the richest 0.1%"
     df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
     df_graphers.loc[
         j, "subtitle"
-    ] = f"This is the income of the richest 0.1% as a share of total income."
+    ] = f"The share of income received by the richest 0.1% of the population."
     df_graphers.loc[j, "note"] = ""
     df_graphers.loc[j, "type"] = np.nan
     df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
@@ -563,43 +557,43 @@ for tab in range(len(tables)):
     df_graphers.loc[j, "tab"] = "chart"
     j += 1
 
-    # Share of the top 0.01%
-    df_graphers.loc[
-        j, "title"
-    ] = f"Income share of the top 0.01% (after tax vs. before tax)"
-    df_graphers.loc[
-        j, "ySlugs"
-    ] = f"p99_99p100_share_pretax p99_99p100_share_posttax_nat"
-    df_graphers.loc[j, "Indicator Dropdown"] = "Share of the richest 0.01%"
-    df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
-    df_graphers.loc[
-        j, "subtitle"
-    ] = f"This is the income of the richest 0.01% as a share of total income."
-    df_graphers.loc[j, "note"] = ""
-    df_graphers.loc[j, "type"] = np.nan
-    df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
-    df_graphers.loc[j, "hasMapTab"] = "false"
-    df_graphers.loc[j, "tab"] = "chart"
-    j += 1
+    # # Share of the top 0.01%
+    # df_graphers.loc[
+    #     j, "title"
+    # ] = f"Income share of the richest 0.01% (after tax vs. before tax)"
+    # df_graphers.loc[
+    #     j, "ySlugs"
+    # ] = f"p99_99p100_share_pretax p99_99p100_share_posttax_nat"
+    # df_graphers.loc[j, "Indicator Dropdown"] = "Share of the richest 0.01%"
+    # df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
+    # df_graphers.loc[
+    #     j, "subtitle"
+    # ] = f"The share of income received by the richest 0.01% of the population."
+    # df_graphers.loc[j, "note"] = ""
+    # df_graphers.loc[j, "type"] = np.nan
+    # df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
+    # df_graphers.loc[j, "hasMapTab"] = "false"
+    # df_graphers.loc[j, "tab"] = "chart"
+    # j += 1
 
-    # Share of the top 0.001%
-    df_graphers.loc[
-        j, "title"
-    ] = f"Income share of the top 0.001% (after tax vs. before tax)"
-    df_graphers.loc[
-        j, "ySlugs"
-    ] = f"p99_999p100_share_pretax p99_999p100_share_posttax_nat"
-    df_graphers.loc[j, "Indicator Dropdown"] = "Share of the richest 0.001%"
-    df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
-    df_graphers.loc[
-        j, "subtitle"
-    ] = f"This is the income of the richest 0.001% as a share of total income."
-    df_graphers.loc[j, "note"] = ""
-    df_graphers.loc[j, "type"] = np.nan
-    df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
-    df_graphers.loc[j, "hasMapTab"] = "false"
-    df_graphers.loc[j, "tab"] = "chart"
-    j += 1
+    # # Share of the top 0.001%
+    # df_graphers.loc[
+    #     j, "title"
+    # ] = f"Income share of the richest 0.001% (after tax vs. before tax)"
+    # df_graphers.loc[
+    #     j, "ySlugs"
+    # ] = f"p99_999p100_share_pretax p99_999p100_share_posttax_nat"
+    # df_graphers.loc[j, "Indicator Dropdown"] = "Share of the richest 0.001%"
+    # df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
+    # df_graphers.loc[
+    #     j, "subtitle"
+    # ] = f"The share of income received by the richest 0.001% of the population."
+    # df_graphers.loc[j, "note"] = ""
+    # df_graphers.loc[j, "type"] = np.nan
+    # df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
+    # df_graphers.loc[j, "hasMapTab"] = "false"
+    # df_graphers.loc[j, "tab"] = "chart"
+    # j += 1
 
     # # P90/P10
     # df_graphers.loc[
@@ -653,15 +647,13 @@ for tab in range(len(tables)):
     # j += 1
 
     # # Palma ratio
-    df_graphers.loc[
-        j, "title"
-    ] = f"Income inequality: Palma ratio (after tax vs. before tax)"
+    df_graphers.loc[j, "title"] = f"Palma ratio (after tax vs. before tax)"
     df_graphers.loc[j, "ySlugs"] = f"palma_ratio_pretax palma_ratio_posttax_nat"
     df_graphers.loc[j, "Indicator Dropdown"] = "Palma ratio"
     df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
     df_graphers.loc[
         j, "subtitle"
-    ] = f"The Palma ratio is the share of total income of the top 10% divided by the share of the bottom 40%."
+    ] = f"The share of income of the richest 10% divided by the share of the poorest 40%."
     df_graphers.loc[j, "note"] = ""
     df_graphers.loc[j, "type"] = np.nan
     df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
