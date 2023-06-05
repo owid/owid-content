@@ -209,31 +209,26 @@ for survey in range(len(survey_type)):
     j += 1
 
     # Headcount ratio (rel)
-    for pct in range(len(povlines_rel)):
-        df_tables.loc[
-            j, "name"
-        ] = f"{povlines_rel.percent[pct]} of median - share of population below poverty line"
-        df_tables.loc[j, "slug"] = f"headcount_ratio_{povlines_rel.slug_suffix[pct]}"
-        df_tables.loc[
-            j, "sourceName"
-        ] = "World Bank Poverty and Inequality Platform (2022)"
-        df_tables.loc[
-            j, "description"
-        ] = f"% of population living in households with an {survey_type.text[survey]} per person below {povlines_rel.percent[pct]} of the median."
-        df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
-        df_tables.loc[
-            j, "dataPublishedBy"
-        ] = "World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data."
-        df_tables.loc[j, "unit"] = "%"
-        df_tables.loc[j, "shortUnit"] = "%"
-        df_tables.loc[j, "tolerance"] = 5
-        df_tables.loc[j, "type"] = "Numeric"
-        df_tables.loc[j, "colorScaleNumericMinValue"] = 0
-        df_tables.loc[j, "colorScaleNumericBins"] = "5;10;15;20;25;30;30.0001"
-        df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
-        df_tables.loc[j, "colorScaleScheme"] = "YlOrBr"
-        df_tables.loc[j, "survey_type"] = survey_type["table_name"][survey]
-        j += 1
+    df_tables.loc[j, "name"] = f"Share in relative poverty"
+    df_tables.loc[j, "slug"] = f"headcount_ratio_50_median"
+    df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform (2022)"
+    df_tables.loc[
+        j, "description"
+    ] = f"% of population living in households with an {survey_type.text[survey]} per person below 50% of the median."
+    df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
+    df_tables.loc[
+        j, "dataPublishedBy"
+    ] = "World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data."
+    df_tables.loc[j, "unit"] = "%"
+    df_tables.loc[j, "shortUnit"] = "%"
+    df_tables.loc[j, "tolerance"] = 5
+    df_tables.loc[j, "type"] = "Numeric"
+    df_tables.loc[j, "colorScaleNumericMinValue"] = 0
+    df_tables.loc[j, "colorScaleNumericBins"] = "5;10;15;20;25;30;30.0001"
+    df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
+    df_tables.loc[j, "colorScaleScheme"] = "YlOrBr"
+    df_tables.loc[j, "survey_type"] = survey_type["table_name"][survey]
+    j += 1
 
     # MLD
     df_tables.loc[j, "name"] = f"Mean Log Deviation"
@@ -496,32 +491,27 @@ for survey in range(len(survey_type)):
     j += 1
 
     # Headcount ratio (rel)
-    for pct in range(len(povlines_rel)):
-        df_graphers.loc[j, "title"] = f"{povlines_rel.title_share[pct]}"
-        df_graphers.loc[
-            j, "ySlugs"
-        ] = f"headcount_ratio_{povlines_rel.slug_suffix[pct]}"
-        df_graphers.loc[
-            j, "Indicator Dropdown"
-        ] = f"Share in relative poverty (< {povlines_rel.text[pct]})"
-        df_graphers.loc[
-            j, "Household survey data type Dropdown"
-        ] = f"{survey_type.dropdown_option[survey]}"
-        df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
-        df_graphers.loc[
-            j, "subtitle"
-        ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at {povlines_rel.text[pct]} {survey_type.text[survey]}."
-        df_graphers.loc[
-            j, "note"
-        ] = f"Depending on the country and year, the data relates to disposable {survey_type.text[survey]} per capita."
-        df_graphers.loc[j, "type"] = np.nan
-        df_graphers.loc[j, "yAxisMin"] = 0
-        df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
-        df_graphers.loc[j, "hasMapTab"] = "true"
-        df_graphers.loc[j, "tab"] = "map"
-        df_graphers.loc[j, "mapTargetTime"] = 2019
-        df_graphers.loc[j, "survey_type"] = survey_type["table_name"][survey]
-        j += 1
+    df_graphers.loc[j, "title"] = f"Share in relative poverty"
+    df_graphers.loc[j, "ySlugs"] = f"headcount_ratio_50_median"
+    df_graphers.loc[j, "Indicator Dropdown"] = f"Share in relative poverty"
+    df_graphers.loc[
+        j, "Household survey data type Dropdown"
+    ] = f"{survey_type.dropdown_option[survey]}"
+    df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
+    df_graphers.loc[
+        j, "subtitle"
+    ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at 50% of the median {survey_type.text[survey]}."
+    df_graphers.loc[
+        j, "note"
+    ] = f"Depending on the country and year, the data relates to disposable {survey_type.text[survey]} per capita."
+    df_graphers.loc[j, "type"] = np.nan
+    df_graphers.loc[j, "yAxisMin"] = 0
+    df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
+    df_graphers.loc[j, "hasMapTab"] = "true"
+    df_graphers.loc[j, "tab"] = "map"
+    df_graphers.loc[j, "mapTargetTime"] = 2019
+    df_graphers.loc[j, "survey_type"] = survey_type["table_name"][survey]
+    j += 1
 
     # MLD
     df_graphers.loc[j, "title"] = f"Income inequality: Mean log deviation"
