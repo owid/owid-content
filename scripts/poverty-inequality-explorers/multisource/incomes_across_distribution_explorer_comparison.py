@@ -878,9 +878,6 @@ for tab in range(len(merged_tables)):
             df_graphers.loc[j, "Period Radio"] = lis_income_aggregation["aggregation"][
                 agg
             ].capitalize()
-            df_graphers.loc[j, "PIP Checkbox"] = source_checkbox["pip"][view]
-            df_graphers.loc[j, "WID Checkbox"] = source_checkbox["wid"][view]
-            df_graphers.loc[j, "LIS Checkbox"] = source_checkbox["lis"][view]
             df_graphers.loc[
                 j, "subtitle"
             ] = f"This data is adjusted for inflation and for differences in the cost of living between countries."
@@ -905,9 +902,6 @@ for tab in range(len(merged_tables)):
             df_graphers.loc[j, "Period Radio"] = lis_income_aggregation["aggregation"][
                 agg
             ].capitalize()
-            df_graphers.loc[j, "PIP Checkbox"] = source_checkbox["pip"][view]
-            df_graphers.loc[j, "WID Checkbox"] = source_checkbox["wid"][view]
-            df_graphers.loc[j, "LIS Checkbox"] = source_checkbox["lis"][view]
             df_graphers.loc[
                 j, "subtitle"
             ] = f"This data is adjusted for inflation and for differences in the cost of living between countries."
@@ -937,9 +931,6 @@ for tab in range(len(merged_tables)):
                 df_graphers.loc[j, "Period Radio"] = lis_income_aggregation[
                     "aggregation"
                 ][agg].capitalize()
-                df_graphers.loc[j, "PIP Checkbox"] = source_checkbox["pip"][view]
-                df_graphers.loc[j, "WID Checkbox"] = source_checkbox["wid"][view]
-                df_graphers.loc[j, "LIS Checkbox"] = source_checkbox["lis"][view]
                 df_graphers.loc[
                     j, "subtitle"
                 ] = f"This is the level of income below which {deciles9['decile'][dec9]}0% of the population falls."
@@ -971,9 +962,6 @@ for tab in range(len(merged_tables)):
                 df_graphers.loc[j, "Period Radio"] = lis_income_aggregation[
                     "aggregation"
                 ][agg].capitalize()
-                df_graphers.loc[j, "PIP Checkbox"] = source_checkbox["pip"][view]
-                df_graphers.loc[j, "WID Checkbox"] = source_checkbox["wid"][view]
-                df_graphers.loc[j, "LIS Checkbox"] = source_checkbox["lis"][view]
                 df_graphers.loc[
                     j, "subtitle"
                 ] = f"This is the mean income within the {deciles10['ordinal'][dec10]} (tenth of the population)."
@@ -999,9 +987,6 @@ for tab in range(len(merged_tables)):
             df_graphers.loc[j, "Income measure Dropdown"] = source_checkbox[
                 "type_title"
             ][view].capitalize()
-            df_graphers.loc[j, "PIP Checkbox"] = source_checkbox["pip"][view]
-            df_graphers.loc[j, "WID Checkbox"] = source_checkbox["wid"][view]
-            df_graphers.loc[j, "LIS Checkbox"] = source_checkbox["lis"][view]
             df_graphers.loc[
                 j, "subtitle"
             ] = f"This is the income of the {deciles10['ordinal'][dec10]} (tenth of the population) as a share of total income."
@@ -1035,10 +1020,7 @@ df_graphers["mapTargetTime"] = df_graphers["mapTargetTime"].astype("Int64")
 df_graphers.loc[
     (df_graphers["Indicator Dropdown"] == "Mean income or consumption")
     & (df_graphers["Income measure Dropdown"] == "After tax")
-    & (df_graphers["Period Radio"] == "Year")
-    & (df_graphers["PIP Checkbox"] == "true")
-    & (df_graphers["WID Checkbox"] == "true")
-    & (df_graphers["LIS Checkbox"] == "true"),
+    & (df_graphers["Period Radio"] == "Year"),
     ["defaultView"],
 ] = "true"
 
