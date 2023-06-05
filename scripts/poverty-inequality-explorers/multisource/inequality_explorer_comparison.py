@@ -241,9 +241,7 @@ for tab in range(len(pip_tables)):
     j += 1
 
     # Headcount ratio (rel)
-    df_tables_pip.loc[
-        j, "name"
-    ] = f"50% of median - share of population below poverty line (PIP data)"
+    df_tables_pip.loc[j, "name"] = f"Share in relative poverty (PIP data)"
     df_tables_pip.loc[j, "slug"] = f"headcount_ratio_50_median"
     df_tables_pip.loc[
         j, "description"
@@ -544,9 +542,7 @@ for tab in range(len(merged_tables)):
             j += 1
 
             # Headcount ratio (rel)
-            df_tables_lis.loc[
-                j, "name"
-            ] = f"50% of median {lis_welfare['welfare_type'][wel]} - share of population below poverty line (LIS data)"
+            df_tables_lis.loc[j, "name"] = f"Share in relative poverty (LIS data)"
             df_tables_lis.loc[
                 j, "slug"
             ] = f"headcount_ratio_50_median_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
@@ -717,9 +713,7 @@ for tab in range(len(merged_tables)):
             j, "title"
         ] = f"Relative poverty: Share of people below 50% of the median income ({source_checkbox['type_title'][view]})"
         df_graphers.loc[j, "ySlugs"] = source_checkbox["relative"][view]
-        df_graphers.loc[
-            j, "Indicator Dropdown"
-        ] = f"Share in relative poverty (< 50% of the median)"
+        df_graphers.loc[j, "Indicator Dropdown"] = f"Share in relative poverty"
         df_graphers.loc[j, "Income measure Dropdown"] = source_checkbox["type_title"][
             view
         ].capitalize()
