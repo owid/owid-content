@@ -188,6 +188,21 @@ for tab in range(len(pip_tables)):
     df_tables_pip.loc[j, "colorScaleScheme"] = "Greens"
     j += 1
 
+    # Share of the bottom 50%
+    df_tables_pip.loc[
+        j, "name"
+    ] = f"Share of the poorest 50% in total {pip_tables.text[tab]} (PIP data)"
+    df_tables_pip.loc[j, "slug"] = f"bottom50_share"
+    df_tables_pip.loc[
+        j, "description"
+    ] = f"The {pip_tables.text[tab]} of the poorest 50% as a share of total {pip_tables.text[tab]}."
+    df_tables_pip.loc[j, "unit"] = "%"
+    df_tables_pip.loc[j, "shortUnit"] = "%"
+    df_tables_pip.loc[j, "type"] = "Numeric"
+    df_tables_pip.loc[j, "colorScaleNumericBins"] = "5;10;15;20;25;30;35"
+    df_tables_pip.loc[j, "colorScaleScheme"] = "Blues"
+    j += 1
+
     # # P90/P10
     # df_tables_pip.loc[j, "name"] = f"P90/P10 ratio (PIP data)"
     # df_tables_pip.loc[j, "slug"] = f"p90_p10_ratio"
