@@ -615,7 +615,7 @@ for tab in range(len(merged_tables)):
         # Gini coefficient
         df_graphers.loc[
             j, "title"
-        ] = f"Income inequality: Gini coefficient ({source_checkbox['type_title'][view]})"
+        ] = f"Gini coefficient ({source_checkbox['type_title'][view]})"
         df_graphers.loc[j, "ySlugs"] = source_checkbox["gini"][view]
         df_graphers.loc[j, "Indicator Dropdown"] = "Gini coefficient"
         df_graphers.loc[j, "Income measure Dropdown"] = source_checkbox["type_title"][
@@ -631,7 +631,7 @@ for tab in range(len(merged_tables)):
         # Share of the top 10%
         df_graphers.loc[
             j, "title"
-        ] = f"Income share of the top 10% ({source_checkbox['type_title'][view]})"
+        ] = f"Income share of the richest 10% ({source_checkbox['type_title'][view]})"
         df_graphers.loc[j, "ySlugs"] = source_checkbox["top10"][view]
         df_graphers.loc[j, "Indicator Dropdown"] = "Share of the richest 10%"
         df_graphers.loc[j, "Income measure Dropdown"] = source_checkbox["type_title"][
@@ -639,7 +639,7 @@ for tab in range(len(merged_tables)):
         ].capitalize()
         df_graphers.loc[
             j, "subtitle"
-        ] = f"This is the income of the richest 10% as a share of total income."
+        ] = f"The share of income received by the richest 10% of the population."
         df_graphers.loc[j, "note"] = ""
         df_graphers.loc[j, "type"] = np.nan
         j += 1
@@ -647,7 +647,7 @@ for tab in range(len(merged_tables)):
         # Share of the bottom 50%
         df_graphers.loc[
             j, "title"
-        ] = f"Income share of the bottom 50% ({source_checkbox['type_title'][view]})"
+        ] = f"Income share of the poorest 50% ({source_checkbox['type_title'][view]})"
         df_graphers.loc[j, "ySlugs"] = source_checkbox["bottom50"][view]
         df_graphers.loc[j, "Indicator Dropdown"] = "Share of the poorest 50%"
         df_graphers.loc[j, "Income measure Dropdown"] = source_checkbox["type_title"][
@@ -655,7 +655,7 @@ for tab in range(len(merged_tables)):
         ].capitalize()
         df_graphers.loc[
             j, "subtitle"
-        ] = f"This is the income of the poorest 50% as a share of total income."
+        ] = f"The share of income received by the poorest 50% of the population."
         df_graphers.loc[j, "note"] = ""
         j += 1
 
@@ -710,7 +710,7 @@ for tab in range(len(merged_tables)):
         # Palma ratio
         df_graphers.loc[
             j, "title"
-        ] = f"Income inequality: Palma ratio ({source_checkbox['type_title'][view]})"
+        ] = f"Palma ratio ({source_checkbox['type_title'][view]})"
         df_graphers.loc[j, "ySlugs"] = source_checkbox["palma"][view]
         df_graphers.loc[j, "Indicator Dropdown"] = "Palma ratio"
         df_graphers.loc[j, "Income measure Dropdown"] = source_checkbox["type_title"][
@@ -718,7 +718,7 @@ for tab in range(len(merged_tables)):
         ].capitalize()
         df_graphers.loc[
             j, "subtitle"
-        ] = f"The Palma ratio is the share of total income of the top 10% divided by the share of the bottom 40%."
+        ] = f"The share of income of the richest 10% divided by the share of the poorest 40%."
         df_graphers.loc[j, "note"] = ""
         df_graphers.loc[j, "type"] = np.nan
         j += 1
@@ -726,7 +726,7 @@ for tab in range(len(merged_tables)):
         # Headcount ratio (rel)
         df_graphers.loc[
             j, "title"
-        ] = f"Relative poverty: Share of people below 50% of the median income ({source_checkbox['type_title'][view]})"
+        ] = f"Share in relative poverty ({source_checkbox['type_title'][view]})"
         df_graphers.loc[j, "ySlugs"] = source_checkbox["relative"][view]
         df_graphers.loc[j, "Indicator Dropdown"] = f"Share in relative poverty"
         df_graphers.loc[j, "Income measure Dropdown"] = source_checkbox["type_title"][
@@ -734,7 +734,7 @@ for tab in range(len(merged_tables)):
         ].capitalize()
         df_graphers.loc[
             j, "subtitle"
-        ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at 50% of the median income."
+        ] = f"The share of population with income below 50% of the median. Relative poverty is a measure of the extent of inequality within the bottom of the distribution."
         df_graphers.loc[j, "note"] = ""
         df_graphers.loc[j, "type"] = np.nan
         j += 1
