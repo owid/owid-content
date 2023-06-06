@@ -251,7 +251,9 @@ for survey in range(len(pip_tables)):
     df_tables_pip.loc[j, "unit"] = np.nan
     df_tables_pip.loc[j, "shortUnit"] = np.nan
     df_tables_pip.loc[j, "type"] = "Numeric"
-    df_tables_pip.loc[j, "colorScaleNumericBins"] = "0;0.5;1;1.5;2;2.5;3;3.5;4;4.5;5"
+    df_tables_pip.loc[
+        j, "colorScaleNumericBins"
+    ] = "0;0.5;1;1.5;2;2.5;3;3.5;4;4.5;5;5.5"
     df_tables_pip.loc[j, "colorScaleEqualSizeBins"] = "true"
     df_tables_pip.loc[j, "colorScaleScheme"] = "Oranges"
     df_tables_pip.loc[j, "tableSlug"] = pip_tables["table_name"][survey]
