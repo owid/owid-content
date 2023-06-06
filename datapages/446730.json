@@ -11,16 +11,8 @@
             "url": "https://ourworldindata.org/hunger-and-undernourishment"
         },
         {
-            "title": "Child and Infant Mortality",
-            "url": "https://ourworldindata.org/child-mortality"
-        },
-        {
             "title": "Micronutrient Deficiency",
             "url": "https://ourworldindata.org/micronutrient-deficiency"
-        },
-        {
-            "title": "Famines",
-            "url": "https://ourworldindata.org/famines"
         }
     ],
     "variantSource": "UNICEF/WHO",
