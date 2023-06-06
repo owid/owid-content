@@ -785,7 +785,7 @@ for survey in range(len(survey_type)):
     df_graphers.loc[
         j, "ySlugs"
     ] = "avg_shortfall_100 avg_shortfall_215 avg_shortfall_365 avg_shortfall_685 avg_shortfall_1000 avg_shortfall_2000 avg_shortfall_3000 avg_shortfall_4000"
-    df_graphers.loc[j, "Indicator Dropdown"] = "Average shortfall ($)"
+    df_graphers.loc[j, "Indicator Dropdown"] = "Average shortfall ($ per day)"
     df_graphers.loc[j, "Poverty line Dropdown"] = "Multiple lines"
     df_graphers.loc[
         j, "Household survey data type Dropdown"
