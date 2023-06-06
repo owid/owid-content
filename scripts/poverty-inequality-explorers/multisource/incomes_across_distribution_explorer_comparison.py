@@ -1021,7 +1021,7 @@ for tab in range(len(merged_tables)):
             ][view].capitalize()
             df_graphers.loc[
                 j, "subtitle"
-            ] = f"This is the income of the {deciles10['ordinal'][dec10]} (tenth of the population) as a share of total income."
+            ] = f"The share of income received by the {deciles10['ordinal'][dec10]}."
             df_graphers.loc[j, "note"] = np.nan
             j += 1
 

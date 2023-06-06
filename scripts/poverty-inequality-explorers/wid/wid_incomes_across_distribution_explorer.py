@@ -937,7 +937,7 @@ for tab in range(len(tables)):
             df_graphers.loc[j, "stackMode"] = "absolute"
             df_graphers.loc[
                 j, "subtitle"
-            ] = f"This is the {welfare['welfare_type'][wel]} of the {deciles10['ordinal'][dec10]} (tenth of the population) as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
+            ] = f"The share of {welfare['welfare_type'][wel]} received by the {deciles10['ordinal'][dec10]} (tenth of the population). {welfare['subtitle'][wel]}"
             df_graphers.loc[j, "note"] = f"{welfare['note'][wel]}"
             df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
             df_graphers.loc[j, "hasMapTab"] = "true"
@@ -984,7 +984,7 @@ for tab in range(len(tables)):
         df_graphers.loc[j, "stackMode"] = "absolute"
         df_graphers.loc[
             j, "subtitle"
-        ] = f"This is the {welfare['welfare_type'][wel]} of each decile (tenth of the population) as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
+        ] = f"The share of {welfare['welfare_type'][wel]} received by each decile (tenth of the population). {welfare['subtitle'][wel]}"
         df_graphers.loc[j, "note"] = f"{welfare['note'][wel]}"
         df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
         df_graphers.loc[j, "hasMapTab"] = "false"
@@ -1006,7 +1006,7 @@ for tab in range(len(tables)):
         df_graphers.loc[j, "stackMode"] = "absolute"
         df_graphers.loc[
             j, "subtitle"
-        ] = f"This is the {welfare['welfare_type'][wel]} of each decile (tenth of the population) as a share of total {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]}"
+        ] = f"The share of {welfare['welfare_type'][wel]} received by each decile (tenth of the population). {welfare['subtitle'][wel]}"
         df_graphers.loc[j, "note"] = f"{welfare['note'][wel]}"
         df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
         df_graphers.loc[j, "hasMapTab"] = "false"
@@ -1030,7 +1030,7 @@ for tab in range(len(tables)):
         df_graphers.loc[j, "stackMode"] = "absolute"
         df_graphers.loc[
             j, "subtitle"
-        ] = f"This is the income of the {deciles10['ordinal'][dec10]} (tenth of the population) as a share of total income."
+        ] = f"The share of income received by the {deciles10['ordinal'][dec10]} (tenth of the population)."
         df_graphers.loc[j, "note"] = ""
         df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
         df_graphers.loc[j, "hasMapTab"] = "false"
@@ -1053,7 +1053,7 @@ for tab in range(len(tables)):
         df_graphers.loc[j, "stackMode"] = "absolute"
         df_graphers.loc[
             j, "subtitle"
-        ] = f"This is the income of the richest {top_pct['name'][top]} as a share of total income."
+        ] = f"The share of income received by the richest {top_pct['name'][top]} of the population."
         df_graphers.loc[j, "note"] = ""
         df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
         df_graphers.loc[j, "hasMapTab"] = "false"
