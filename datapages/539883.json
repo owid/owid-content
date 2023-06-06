@@ -77,14 +77,8 @@
     "sources": [
         {
             "sourceName": "Ariel Karlinksy (2021)",
-            "sourceRetrievedOn": "2021-09-01",
-            "sourceRetrievedFromUrl": "https://zenodo.org/record/7215364/files/..."
-        },
-        {
-            "sourceName": "Hypothetical source 2"
-        },
-        {
-            "sourceName": "Hypothetical source 3"
+            "sourceRetrievedOn": "2022-12-28",
+            "sourceRetrievedFromUrl": "https://github.com/akarlinsky/death_registration"
         }
     ]
 }
