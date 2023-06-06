@@ -76,7 +76,7 @@
     ],
     "sources": [
         {
-            "sourceName": "World Happiness Report (2023)",
+            "sourceName": "World Happiness Report",
             "sourceRetrievedOn": "2023-03-20",
             "sourceRetrievedFromUrl": "https://happiness-report.s3.amazonaws.com/2023/DataForFigure2.1WHR2023.xls"
         }
