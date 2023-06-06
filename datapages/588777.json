@@ -17,7 +17,7 @@
     ],
     "variantSource": "FAO",
     "nameOfSource": "Food and Agriculture Organization of the United Nations",
-    "owidProcessingLevel": "<a href=http://staging-site-datapages/admin/grapher/tomato-production#sources-and-processing>Processed</a> by Our World in Data",
+    "owidProcessingLevel": "<a href=#sources-and-processing>Processed</a> by Our World in Data",
     "dateRange": "1961-2021",
     "lastUpdated": "2023-02-22",
     "nextUpdate": "Spring 2024",
