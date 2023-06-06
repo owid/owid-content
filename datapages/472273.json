@@ -21,7 +21,7 @@
     ],
     "variantSource": "World Bank, PIP",
     "nameOfSource": "World Bank, Poverty and Inequality Platform",
-    "owidProcessingLevel": "<a href>Processed</a> by Our World in Data",
+    "owidProcessingLevel": "<a href=#sources-and-processing>Processed</a> by Our World in Data",
     "dateRange": "1967-2021",
     "lastUpdated": "2022-10-03",
     "nextUpdate": "June 2023",
@@ -68,7 +68,7 @@
             "title": "Number of people living in extreme poverty",
             "url": "https://ourworldindata.org/grapher/total-population-in-extreme-poverty",
             "source": "World Bank, PIP",
-            "content": "See data for the <em>total</em> number of people living in extreme poverty"
+            "content": "See data for the total number of people living in extreme poverty"
         },
         {
             "title": "Share of population living on less than $30 a day",
