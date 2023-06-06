@@ -176,7 +176,7 @@ for tab in range(len(pip_tables)):
     # Share of the top 10%
     df_tables_pip.loc[
         j, "name"
-    ] = f"Share of the richest decile in total {pip_tables.text[tab]} (PIP data)"
+    ] = f"{pip_tables.text[tab].capitalize()} share of the richest 10% (PIP data)"
     df_tables_pip.loc[j, "slug"] = f"decile10_share"
     df_tables_pip.loc[
         j, "description"
@@ -191,7 +191,7 @@ for tab in range(len(pip_tables)):
     # Share of the bottom 50%
     df_tables_pip.loc[
         j, "name"
-    ] = f"Share of the poorest 50% in total {pip_tables.text[tab]} (PIP data)"
+    ] = f"{pip_tables.text[tab].capitalize()} share of the poorest 50% (PIP data)"
     df_tables_pip.loc[j, "slug"] = f"bottom50_share"
     df_tables_pip.loc[
         j, "description"
