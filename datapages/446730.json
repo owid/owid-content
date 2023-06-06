@@ -17,7 +17,7 @@
     ],
     "variantSource": "UNICEF/WHO",
     "nameOfSource": "UNICEF, World Health Organization and World Bank",
-    "owidProcessingLevel": "<a href=http://staging-site-datapages/admin/grapher/share-of-children-younger-than-5-who-suffer-from-stunting#sources-and-processing>Processed</a> by Our World in Data",
+    "owidProcessingLevel": "<a href=#sources-and-processing>Processed</a> by Our World in Data",
     "dateRange": "1983-2020",
     "lastUpdated": "2022-06-02",
     "nextUpdate": "June 2023",
