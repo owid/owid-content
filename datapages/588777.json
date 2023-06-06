@@ -79,14 +79,8 @@
     "sources": [
         {
             "sourceName": "Global Carbon Project",
-            "sourceRetrievedOn": "2021-09-01",
-            "sourceRetrievedFromUrl": "https://zenodo.org/record/7215364/files/..."
-        },
-        {
-            "sourceName": "Hypothetical source 2"
-        },
-        {
-            "sourceName": "Hypothetical source 3"
+            "sourceRetrievedOn": "2023-02-22",
+            "sourceRetrievedFromUrl": "https://www.fao.org/faostat/en/#data/QCL"
         }
     ]
 }
