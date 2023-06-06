@@ -52,10 +52,10 @@
             "content": "Explore crop yields across the world"
         },
         {
-            "title": "Consumption-based CO2 emissions per capita",
-            "url": "https://ourworldindata.org/grapher/consumption-co2-per-capita",
-            "source": "PIP",
-            "content": "How do per capita CO2 emissions compare when we adjust for trade?"
+            "title": "Cereal production",
+            "url": "https://ourworldindata.org/grapher/cereal-production",
+            "source": "FAO",
+            "content": ""
         },
         {
             "title": "Annual share of global CO2 emissions",
