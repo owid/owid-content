@@ -351,7 +351,7 @@ j = 0
 
 for survey in range(len(survey_type)):
     # Gini coefficient
-    df_graphers.loc[j, "title"] = f"Income inequality: Gini coefficient"
+    df_graphers.loc[j, "title"] = f"Gini coefficient"
     df_graphers.loc[j, "ySlugs"] = f"gini"
     df_graphers.loc[j, "Indicator Dropdown"] = "Gini coefficient"
     df_graphers.loc[
@@ -376,7 +376,7 @@ for survey in range(len(survey_type)):
     # Share of the top 10%
     df_graphers.loc[
         j, "title"
-    ] = f"{survey_type.text[survey].capitalize()} share of the top 10%"
+    ] = f"{survey_type.text[survey].capitalize()} share of the richest 10%"
     df_graphers.loc[j, "ySlugs"] = f"decile10_share"
     df_graphers.loc[j, "Indicator Dropdown"] = "Share of the richest 10%"
     df_graphers.loc[
@@ -468,7 +468,7 @@ for survey in range(len(survey_type)):
     # j += 1
 
     # Palma ratio
-    df_graphers.loc[j, "title"] = f"Income inequality: Palma ratio"
+    df_graphers.loc[j, "title"] = f"Palma ratio"
     df_graphers.loc[j, "ySlugs"] = f"palma_ratio"
     df_graphers.loc[j, "Indicator Dropdown"] = "Palma ratio"
     df_graphers.loc[
@@ -477,7 +477,7 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
     df_graphers.loc[
         j, "subtitle"
-    ] = f"The Palma ratio is the share of total {survey_type.text[survey]} of the top 10% divided by the share of the bottom 40%."
+    ] = f"The Palma ratio is the share of total {survey_type.text[survey]} of the richest 10% divided by the share of the poorest 40%."
     df_graphers.loc[
         j, "note"
     ] = f"Depending on the country and year, the data relates to disposable {survey_type.text[survey]} per capita."
@@ -514,7 +514,7 @@ for survey in range(len(survey_type)):
     j += 1
 
     # MLD
-    df_graphers.loc[j, "title"] = f"Income inequality: Mean log deviation"
+    df_graphers.loc[j, "title"] = f"Mean log deviation"
     df_graphers.loc[j, "ySlugs"] = f"mld"
     df_graphers.loc[j, "Indicator Dropdown"] = "Mean log deviation"
     df_graphers.loc[
