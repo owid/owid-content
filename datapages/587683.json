@@ -62,13 +62,15 @@
             "title": "CO2 Data Explorer",
             "source": "Global Carbon Project",
             "url": "https://ourworldindata.org/explorers/co2",
-            "content": "Compare a range of metrics tracking emissions of  CO2 and other Greenhouse Gas."
+            "content": "Compare a range of metrics tracking emissions of  CO2 and other Greenhouse Gas.",
+            "featured": true
         },
         {
             "title": "Consumption-based CO2 emissions per capita",
             "url": "https://ourworldindata.org/grapher/consumption-co2-per-capita",
             "source": "PIP",
-            "content": "How do per capita CO2 emissions compare when we adjust for trade?"
+            "content": "How do per capita CO2 emissions compare when we adjust for trade?",
+            "featured": true
         },
         {
             "title": "Annual share of global CO2 emissions",
