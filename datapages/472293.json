@@ -46,7 +46,6 @@
     "relatedData": [
         {
             "type": "Data Explorer",
-            "imageUrl": "",
             "title": "Poverty Data Explorer of the World Bank Data",
             "url": "https://ourworldindata.org/explorers/poverty-explorer",
             "source": "World Bank, PIP",

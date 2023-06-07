@@ -45,7 +45,6 @@
     "relatedData": [
         {
             "type": "Data Explorer",
-            "imageUrl": "",
             "title": "Crop Yields Data Explorer",
             "source": "FAO; Mueller et al. (2012)",
             "url": "https://ourworldindata.org/explorers/crop-yields?facet=none&country=IND~USA~ITA~GBR~NGA~LKA~BRA~PER~AGO&hideControls=false&Crop=Tomato&Metric=Actual+yield",

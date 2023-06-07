@@ -50,7 +50,6 @@
     "relatedData": [
         {
             "type": "Chart",
-            "imageUrl": "https://ourworldindata.org/uploads/2023/06/share-of-people-who-say-they-are-happy.png",
             "title": "Share of people who say they are happy",
             "source": "World Value Survey",
             "url": "https://ourworldindata.org/grapher/share-of-people-who-say-they-are-happy",

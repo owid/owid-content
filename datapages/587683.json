@@ -59,7 +59,6 @@
     "relatedData": [
         {
             "type": "Data Explorer",
-            "imageUrl": "",
             "title": "CO2 Data Explorer",
             "source": "Global Carbon Project",
             "url": "https://ourworldindata.org/explorers/co2",
