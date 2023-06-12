@@ -14,7 +14,7 @@ graphers
 	3219	CO₂	Production-based	All fossil emissions	Per country	true
 	485	CO₂	Production-based	All fossil emissions	Cumulative	false
 	3218	CO₂	Production-based	All fossil emissions	Cumulative	true
-	4267	CO₂	Production-based	All fossil emissions	Per MWh of energy
+	4267	CO₂	Production-based	All fossil emissions	Per kWh of energy
 	530	CO₂	Production-based	All fossil emissions	Per $ of GDP
 	6266	CO₂	Production-based	Land use change	Per capita
 	6265	CO₂	Production-based	Land use change	Per country	false
