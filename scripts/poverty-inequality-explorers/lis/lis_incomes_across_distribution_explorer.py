@@ -84,7 +84,7 @@ header_dict = {
     "googleSheet": f"https://docs.google.com/spreadsheets/d/{sheet_id}",
     "wpBlockId": "",
     "entityType": "country or region",
-    "pickerColumnSlugs": "mean_mi_eq_year median_mi_eq_year mean_dhi_eq_year median_dhi_eq_year thr_p90_mi_eq_year avg_p100_mi_eq_year share_p100_mi_eq_year thr_p90_dhi_eq_year avg_p100_dhi_eq_year share_p100_dhi_eq_year",
+    "pickerColumnSlugs": "mean_mi_eq_year median_mi_eq_year mean_dhi_eq_year median_dhi_eq_year",
 }
 
 # Index-oriented dataframe

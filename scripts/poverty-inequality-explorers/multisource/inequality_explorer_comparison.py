@@ -113,7 +113,7 @@ header_dict = {
     "googleSheet": "",
     "wpBlockId": "",
     "entityType": "country or region",
-    "pickerColumnSlugs": "gini decile10_share palma_ratio headcount_ratio_50_median p0p100_gini_pretax p90p100_share_pretax palma_ratio_pretax p0p100_gini_posttax_dis p90p100_share_posttax_dis palma_ratio_posttax_dis gini_mi_pc share_p100_mi_pc palma_ratio_mi_pc headcount_ratio_50_median_mi_pc gini_dhi_pc share_p100_dhi_pc palma_ratio_dhi_pc headcount_ratio_50_median_dhi_pc",
+    "pickerColumnSlugs": "gini decile10_share palma_ratio headcount_ratio_50_median p0p100_gini_posttax_nat p90p100_share_posttax_nat palma_ratio_posttax_nat gini_dhi_pc share_p100_dhi_pc palma_ratio_dhi_pc headcount_ratio_50_median_dhi_pc",
 }
 
 # Index-oriented dataframe

@@ -5,7 +5,7 @@ isPublished	true
 googleSheet	https://docs.google.com/spreadsheets/d/1UFdwB1iBpP2tEP6GtxCHvW1GGhjsFflh42FWR80rYIg					
 wpBlockId						
 entityType	country or region					
-pickerColumnSlugs	mean_mi_eq_year median_mi_eq_year mean_dhi_eq_year median_dhi_eq_year thr_p90_mi_eq_year avg_p100_mi_eq_year share_p100_mi_eq_year thr_p90_dhi_eq_year avg_p100_dhi_eq_year share_p100_dhi_eq_year					
+pickerColumnSlugs	mean_mi_eq_year median_mi_eq_year mean_dhi_eq_year median_dhi_eq_year					
 
 graphers
 	title	ySlugs	Indicator Dropdown	Decile Dropdown	Income measure Dropdown	Period Radio	Adjust for cost sharing within households (equivalized income) Checkbox	Relative change Checkbox	stackMode	subtitle	note	selectedFacetStrategy	hasMapTab	tab	yScaleToggle	tableSlug	relatedQuestionText	relatedQuestionUrl	yAxisMin	mapTargetTime	defaultView
