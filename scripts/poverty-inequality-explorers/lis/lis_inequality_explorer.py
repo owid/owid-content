@@ -134,7 +134,7 @@ for tab in range(len(tables)):
             df_tables.loc[j, "shortUnit"] = "%"
             df_tables.loc[j, "type"] = "Numeric"
             df_tables.loc[j, "colorScaleNumericBins"] = welfare["scale_top10"][wel]
-            df_tables.loc[j, "colorScaleScheme"] = "Reds"
+            df_tables.loc[j, "colorScaleScheme"] = "OrRd"
             j += 1
 
             # Share of the bottom 50%
