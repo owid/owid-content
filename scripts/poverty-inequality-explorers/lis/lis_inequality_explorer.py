@@ -298,7 +298,7 @@ for tab in range(len(tables)):
             ] = f"{welfare['welfare_type'][wel].capitalize()} share of the richest 10% ({welfare['title'][wel]})"
             df_graphers.loc[
                 j, "ySlugs"
-            ] = f"share_p90_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
+            ] = f"share_p100_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
             df_graphers.loc[j, "Indicator Dropdown"] = "Share of the richest 10%"
             df_graphers.loc[
                 j, "Income measure Dropdown"
@@ -485,7 +485,7 @@ for tab in range(len(tables)):
         ] = f"Income share of the richest 10% (after tax vs. before tax)"
         df_graphers.loc[
             j, "ySlugs"
-        ] = f"share_p90_mi_{equivalence_scales['slug'][eq]} share_p90_dhi_{equivalence_scales['slug'][eq]}"
+        ] = f"share_p100_mi_{equivalence_scales['slug'][eq]} share_p100_dhi_{equivalence_scales['slug'][eq]}"
         df_graphers.loc[j, "Indicator Dropdown"] = "Share of the richest 10%"
         df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
         df_graphers.loc[
@@ -657,7 +657,7 @@ for tab in range(len(tables)):
         # ] = f"{welfare['welfare_type'][wel].capitalize()} share of the top 10% ({welfare['title'][wel]}, equivalized vs. per capita)"
         # df_graphers.loc[
         #     j, "ySlugs"
-        # ] = f"share_p90_{welfare['slug'][wel]}_eq share_p90_{welfare['slug'][wel]}_pc"
+        # ] = f"share_p100_{welfare['slug'][wel]}_eq share_p100_{welfare['slug'][wel]}_pc"
         # df_graphers.loc[j, "Indicator Dropdown"] = "Share of the richest 10%"
         # df_graphers.loc[
         #     j, "Income measure Dropdown"

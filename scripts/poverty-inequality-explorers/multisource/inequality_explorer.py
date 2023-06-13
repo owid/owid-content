@@ -1153,7 +1153,7 @@ df_graphers_pip["mapTargetTime"] = mapTargetTime
 #             ] = f"{lis_welfare['welfare_type'][wel].capitalize()} share of the richest 10%"
 #             df_graphers_lis.loc[
 #                 j, "ySlugs"
-#             ] = f"share_p90_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
+#             ] = f"share_p100_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
 #             df_graphers_lis.loc[
 #                 j, "Data Radio"
 #             ] = f"{lis_tables['source_name'][tab]} - {lis_welfare['welfare_type'][wel].capitalize()} {lis_welfare['title'][wel]}"
