@@ -68,6 +68,7 @@ header_dict = {
     "googleSheet": f"https://docs.google.com/spreadsheets/d/{sheet_id}",
     "wpBlockId": "",
     "entityType": "country or region",
+    "pickerColumnSlugs": "headcount_ratio_mi_pc_3000 headcount_ratio_dhi_pc_3000 headcount_mi_pc_3000 headcount_dhi_pc_3000 total_shortfall_mi_pc_3000 total_shortfall_dhi_pc_3000 avg_shortfall_mi_pc_3000 avg_shortfall_dhi_pc_3000 income_gap_ratio_mi_pc_3000 income_gap_ratio_dhi_pc_3000 poverty_gap_index_mi_pc_3000 poverty_gap_index_dhi_pc_3000 headcount_ratio_50_median_mi_pc headcount_50_median_mi_pc total_shortfall_50_median_mi_pc avg_shortfall_50_median_mi_pc income_gap_ratio_50_median_mi_pc poverty_gap_index_50_median_mi_pc",
 }
 
 # Index-oriented dataframe

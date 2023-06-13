@@ -5,6 +5,7 @@ isPublished	true
 googleSheet	https://docs.google.com/spreadsheets/d/1UFdwB1iBpP2tEP6GtxCHvW1GGhjsFflh42FWR80rYIg					
 wpBlockId						
 entityType	country or region					
+pickerColumnSlugs	headcount_ratio_mi_pc_3000 headcount_ratio_dhi_pc_3000 headcount_mi_pc_3000 headcount_dhi_pc_3000 total_shortfall_mi_pc_3000 total_shortfall_dhi_pc_3000 avg_shortfall_mi_pc_3000 avg_shortfall_dhi_pc_3000 income_gap_ratio_mi_pc_3000 income_gap_ratio_dhi_pc_3000 poverty_gap_index_mi_pc_3000 poverty_gap_index_dhi_pc_3000 headcount_ratio_50_median_mi_pc headcount_50_median_mi_pc total_shortfall_50_median_mi_pc avg_shortfall_50_median_mi_pc income_gap_ratio_50_median_mi_pc poverty_gap_index_50_median_mi_pc					
 
 graphers
 	title	ySlugs	Indicator Dropdown	Poverty line Dropdown	Income measure Dropdown	Adjust for cost sharing within households (equivalized income) Checkbox	subtitle	note	type	selectedFacetStrategy	hasMapTab	tab	tableSlug	relatedQuestionText	relatedQuestionUrl	yAxisMin	mapTargetTime	defaultView
