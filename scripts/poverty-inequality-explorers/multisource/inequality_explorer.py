@@ -566,7 +566,7 @@ df_tables_wid = df_tables_wid[
 #             ] = f"{lis_welfare['welfare_type'][wel].capitalize()} share of the richest 10% ({lis_welfare['technical_text'][wel].capitalize()}, {lis_equivalence_scales['text'][eq]}) (LIS)"
 #             df_tables_lis.loc[
 #                 j, "slug"
-#             ] = f"share_p90_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
+#             ] = f"share_p100_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
 #             df_tables_lis.loc[
 #                 j, "description"
 #             ] = f"This is the {lis_welfare['welfare_type'][wel]} of the richest 10% as a share of total {lis_welfare['welfare_type'][wel]}.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}{lis_equivalence_scales['description'][eq]}"

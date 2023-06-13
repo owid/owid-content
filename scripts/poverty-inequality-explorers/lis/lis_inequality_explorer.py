@@ -126,7 +126,7 @@ for tab in range(len(tables)):
             ] = f"{welfare['welfare_type'][wel].capitalize()} share of the richest 10% ({welfare['title'][wel]})"
             df_tables.loc[
                 j, "slug"
-            ] = f"share_p90_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
+            ] = f"share_p100_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
             df_tables.loc[
                 j, "description"
             ] = f"This is the {welfare['welfare_type'][wel]} of the richest 10% as a share of total {welfare['welfare_type'][wel]}.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}{equivalence_scales['description'][eq]}"
