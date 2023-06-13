@@ -157,9 +157,9 @@ for survey in range(len(pip_tables)):
     df_tables_pip.loc[j, "type"] = "Numeric"
     df_tables_pip.loc[
         j, "colorScaleNumericBins"
-    ] = "0.2;0.25;0.3;0.35;0.4;0.45;0.5;0.55;0.6"
+    ] = "0.25;0.3;0.35;0.4;0.45;0.5;0.55;0.6"
     df_tables_pip.loc[j, "colorScaleEqualSizeBins"] = "true"
-    df_tables_pip.loc[j, "colorScaleScheme"] = "Reds"
+    df_tables_pip.loc[j, "colorScaleScheme"] = "Oranges"
     df_tables_pip.loc[j, "tableSlug"] = pip_tables["table_name"][survey]
     j += 1
 
@@ -174,9 +174,9 @@ for survey in range(len(pip_tables)):
     df_tables_pip.loc[j, "unit"] = "%"
     df_tables_pip.loc[j, "shortUnit"] = "%"
     df_tables_pip.loc[j, "type"] = "Numeric"
-    df_tables_pip.loc[j, "colorScaleNumericBins"] = "10;15;20;25;30;35;40;45;50"
+    df_tables_pip.loc[j, "colorScaleNumericBins"] = "20;25;30;35;40;45;50"
     df_tables_pip.loc[j, "colorScaleEqualSizeBins"] = "true"
-    df_tables_pip.loc[j, "colorScaleScheme"] = "Greens"
+    df_tables_pip.loc[j, "colorScaleScheme"] = "Reds"
     df_tables_pip.loc[j, "tableSlug"] = pip_tables["table_name"][survey]
     j += 1
 
@@ -191,7 +191,7 @@ for survey in range(len(pip_tables)):
     df_tables_pip.loc[j, "unit"] = "%"
     df_tables_pip.loc[j, "shortUnit"] = "%"
     df_tables_pip.loc[j, "type"] = "Numeric"
-    df_tables_pip.loc[j, "colorScaleNumericBins"] = "5;10;15;20;25;30;35"
+    df_tables_pip.loc[j, "colorScaleNumericBins"] = "10;15;20;25;30;35"
     df_tables_pip.loc[j, "colorScaleEqualSizeBins"] = "true"
     df_tables_pip.loc[j, "colorScaleScheme"] = "Blues"
     df_tables_pip.loc[j, "tableSlug"] = pip_tables["table_name"][survey]
@@ -251,11 +251,9 @@ for survey in range(len(pip_tables)):
     df_tables_pip.loc[j, "unit"] = np.nan
     df_tables_pip.loc[j, "shortUnit"] = np.nan
     df_tables_pip.loc[j, "type"] = "Numeric"
-    df_tables_pip.loc[
-        j, "colorScaleNumericBins"
-    ] = "0;0.5;1;1.5;2;2.5;3;3.5;4;4.5;5;5.5"
+    df_tables_pip.loc[j, "colorScaleNumericBins"] = "0.5;1;1.5;2;2.5;3;3.5;4;4.5;5;5.5"
     df_tables_pip.loc[j, "colorScaleEqualSizeBins"] = "true"
-    df_tables_pip.loc[j, "colorScaleScheme"] = "Oranges"
+    df_tables_pip.loc[j, "colorScaleScheme"] = "YlOrBr"
     df_tables_pip.loc[j, "tableSlug"] = pip_tables["table_name"][survey]
     j += 1
 
@@ -323,7 +321,7 @@ for tab in range(len(wid_tables)):
         df_tables_wid.loc[j, "type"] = "Numeric"
         df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare["scale_gini"][wel]
         df_tables_wid.loc[j, "colorScaleEqualSizeBins"] = "true"
-        df_tables_wid.loc[j, "colorScaleScheme"] = "Reds"
+        df_tables_wid.loc[j, "colorScaleScheme"] = "Oranges"
         j += 1
 
         # Share of the top 10%
@@ -339,7 +337,7 @@ for tab in range(len(wid_tables)):
         df_tables_wid.loc[j, "type"] = "Numeric"
         df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare["scale_top10"][wel]
         df_tables_wid.loc[j, "colorScaleEqualSizeBins"] = "true"
-        df_tables_wid.loc[j, "colorScaleScheme"] = "Greens"
+        df_tables_wid.loc[j, "colorScaleScheme"] = "Reds"
         j += 1
 
         # Share of the top 1%
@@ -355,7 +353,7 @@ for tab in range(len(wid_tables)):
         df_tables_wid.loc[j, "type"] = "Numeric"
         df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare["scale_top1"][wel]
         df_tables_wid.loc[j, "colorScaleEqualSizeBins"] = "true"
-        df_tables_wid.loc[j, "colorScaleScheme"] = "Greens"
+        df_tables_wid.loc[j, "colorScaleScheme"] = "OrRd"
         j += 1
 
         # Share of the top 0.1%
@@ -371,7 +369,7 @@ for tab in range(len(wid_tables)):
         df_tables_wid.loc[j, "type"] = "Numeric"
         df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare["scale_top01"][wel]
         df_tables_wid.loc[j, "colorScaleEqualSizeBins"] = "true"
-        df_tables_wid.loc[j, "colorScaleScheme"] = "Greens"
+        df_tables_wid.loc[j, "colorScaleScheme"] = "OrRd"
         j += 1
 
         # Share of the bottom 50%
@@ -405,7 +403,7 @@ for tab in range(len(wid_tables)):
         # df_tables_wid.loc[j, "type"] = "Numeric"
         # df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare["scale_top001"][wel]
         # df_tables_wid.loc[j, "colorScaleEqualSizeBins"] = "true"
-        # df_tables_wid.loc[j, "colorScaleScheme"] = "Greens"
+        # df_tables_wid.loc[j, "colorScaleScheme"] = "OrRd"
         # j += 1
 
         # # Share of the top 0.001%
@@ -423,7 +421,7 @@ for tab in range(len(wid_tables)):
         #     wel
         # ]
         # df_tables_wid.loc[j, "colorScaleEqualSizeBins"] = "true"
-        # df_tables_wid.loc[j, "colorScaleScheme"] = "Greens"
+        # df_tables_wid.loc[j, "colorScaleScheme"] = "OrRd"
         # j += 1
 
         # # P90/P10
@@ -495,7 +493,7 @@ for tab in range(len(wid_tables)):
             "scale_palma_ratio"
         ][wel]
         df_tables_wid.loc[j, "colorScaleEqualSizeBins"] = "true"
-        df_tables_wid.loc[j, "colorScaleScheme"] = "Oranges"
+        df_tables_wid.loc[j, "colorScaleScheme"] = "YlOrBr"
         j += 1
 
     df_tables_wid["tableSlug"] = wid_tables["name"][tab]
@@ -558,7 +556,7 @@ df_tables_wid = df_tables_wid[
 #             df_tables_lis.loc[j, "colorScaleNumericBins"] = lis_welfare["scale_gini"][
 #                 wel
 #             ]
-#             df_tables_lis.loc[j, "colorScaleScheme"] = "Reds"
+#             df_tables_lis.loc[j, "colorScaleScheme"] = "Oranges"
 #             df_tables_lis.loc[j, "equivalized"] = lis_equivalence_scales["text"][eq]
 #             j += 1
 
@@ -578,7 +576,7 @@ df_tables_wid = df_tables_wid[
 #             df_tables_lis.loc[j, "colorScaleNumericBins"] = lis_welfare["scale_top10"][
 #                 wel
 #             ]
-#             df_tables_lis.loc[j, "colorScaleScheme"] = "Greens"
+#             df_tables_lis.loc[j, "colorScaleScheme"] = "Reds"
 #             df_tables_lis.loc[j, "equivalized"] = lis_equivalence_scales["text"][eq]
 #             j += 1
 
@@ -678,7 +676,7 @@ df_tables_wid = df_tables_wid[
 #             df_tables_lis.loc[j, "colorScaleNumericBins"] = lis_welfare[
 #                 "scale_palma_ratio"
 #             ][wel]
-#             df_tables_lis.loc[j, "colorScaleScheme"] = "Oranges"
+#             df_tables_lis.loc[j, "colorScaleScheme"] = "YlOrBr"
 #             df_tables_lis.loc[j, "equivalized"] = lis_equivalence_scales["text"][eq]
 #             j += 1
 

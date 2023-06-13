@@ -104,7 +104,7 @@ for tab in range(len(tables)):
         df_tables.loc[j, "type"] = "Numeric"
         df_tables.loc[j, "colorScaleNumericBins"] = welfare["scale_gini"][wel]
         df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
-        df_tables.loc[j, "colorScaleScheme"] = "Reds"
+        df_tables.loc[j, "colorScaleScheme"] = "Oranges"
         j += 1
 
         # Share of the top 10%
@@ -120,7 +120,7 @@ for tab in range(len(tables)):
         df_tables.loc[j, "type"] = "Numeric"
         df_tables.loc[j, "colorScaleNumericBins"] = welfare["scale_top10"][wel]
         df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
-        df_tables.loc[j, "colorScaleScheme"] = "Greens"
+        df_tables.loc[j, "colorScaleScheme"] = "Reds"
         j += 1
 
         # Share of the top 1%
@@ -136,7 +136,7 @@ for tab in range(len(tables)):
         df_tables.loc[j, "type"] = "Numeric"
         df_tables.loc[j, "colorScaleNumericBins"] = welfare["scale_top1"][wel]
         df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
-        df_tables.loc[j, "colorScaleScheme"] = "Greens"
+        df_tables.loc[j, "colorScaleScheme"] = "OrRd"
         j += 1
 
         # Share of the top 0.1%
@@ -152,7 +152,7 @@ for tab in range(len(tables)):
         df_tables.loc[j, "type"] = "Numeric"
         df_tables.loc[j, "colorScaleNumericBins"] = welfare["scale_top01"][wel]
         df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
-        df_tables.loc[j, "colorScaleScheme"] = "Greens"
+        df_tables.loc[j, "colorScaleScheme"] = "OrRd"
         j += 1
 
         # # Share of the top 0.01%
@@ -168,7 +168,7 @@ for tab in range(len(tables)):
         # df_tables.loc[j, "type"] = "Numeric"
         # df_tables.loc[j, "colorScaleNumericBins"] = welfare["scale_top001"][wel]
         # df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
-        # df_tables.loc[j, "colorScaleScheme"] = "Greens"
+        # df_tables.loc[j, "colorScaleScheme"] = "OrRd"
         # j += 1
 
         # # Share of the top 0.001%
@@ -184,7 +184,7 @@ for tab in range(len(tables)):
         # df_tables.loc[j, "type"] = "Numeric"
         # df_tables.loc[j, "colorScaleNumericBins"] = welfare["scale_top0001"][wel]
         # df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
-        # df_tables.loc[j, "colorScaleScheme"] = "Greens"
+        # df_tables.loc[j, "colorScaleScheme"] = "OrRd"
         # j += 1
 
         # Share of the bottom 50%

@@ -117,7 +117,7 @@ for tab in range(len(tables)):
             df_tables.loc[j, "shortUnit"] = np.nan
             df_tables.loc[j, "type"] = "Numeric"
             df_tables.loc[j, "colorScaleNumericBins"] = welfare["scale_gini"][wel]
-            df_tables.loc[j, "colorScaleScheme"] = "Reds"
+            df_tables.loc[j, "colorScaleScheme"] = "Oranges"
             j += 1
 
             # Share of the top 10%
@@ -134,7 +134,7 @@ for tab in range(len(tables)):
             df_tables.loc[j, "shortUnit"] = "%"
             df_tables.loc[j, "type"] = "Numeric"
             df_tables.loc[j, "colorScaleNumericBins"] = welfare["scale_top10"][wel]
-            df_tables.loc[j, "colorScaleScheme"] = "Greens"
+            df_tables.loc[j, "colorScaleScheme"] = "Reds"
             j += 1
 
             # Share of the bottom 50%
@@ -219,7 +219,7 @@ for tab in range(len(tables)):
             df_tables.loc[j, "colorScaleNumericBins"] = welfare["scale_palma_ratio"][
                 wel
             ]
-            df_tables.loc[j, "colorScaleScheme"] = "Oranges"
+            df_tables.loc[j, "colorScaleScheme"] = "YlOrBr"
             j += 1
 
             # Headcount ratio (rel)
@@ -235,7 +235,9 @@ for tab in range(len(tables)):
             df_tables.loc[j, "unit"] = "%"
             df_tables.loc[j, "shortUnit"] = "%"
             df_tables.loc[j, "type"] = "Numeric"
-            df_tables.loc[j, "colorScaleNumericBins"] = "5;10;15;20;25;30"
+            df_tables.loc[j, "colorScaleNumericBins"] = welfare[
+                "scale_relative_poverty"
+            ][wel]
             df_tables.loc[j, "colorScaleScheme"] = "YlOrBr"
             j += 1
 

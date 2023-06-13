@@ -169,8 +169,8 @@ for tab in range(len(pip_tables)):
     df_tables_pip.loc[j, "type"] = "Numeric"
     df_tables_pip.loc[
         j, "colorScaleNumericBins"
-    ] = "0.2;0.25;0.3;0.35;0.4;0.45;0.5;0.55;0.6"
-    df_tables_pip.loc[j, "colorScaleScheme"] = "Reds"
+    ] = "0.25;0.3;0.35;0.4;0.45;0.5;0.55;0.6"
+    df_tables_pip.loc[j, "colorScaleScheme"] = "Oranges"
     j += 1
 
     # Share of the top 10%
@@ -184,8 +184,8 @@ for tab in range(len(pip_tables)):
     df_tables_pip.loc[j, "unit"] = "%"
     df_tables_pip.loc[j, "shortUnit"] = "%"
     df_tables_pip.loc[j, "type"] = "Numeric"
-    df_tables_pip.loc[j, "colorScaleNumericBins"] = "10;15;20;25;30;35;40;45;50"
-    df_tables_pip.loc[j, "colorScaleScheme"] = "Greens"
+    df_tables_pip.loc[j, "colorScaleNumericBins"] = "20;25;30;35;40;45;50"
+    df_tables_pip.loc[j, "colorScaleScheme"] = "Reds"
     j += 1
 
     # Share of the bottom 50%
@@ -199,7 +199,7 @@ for tab in range(len(pip_tables)):
     df_tables_pip.loc[j, "unit"] = "%"
     df_tables_pip.loc[j, "shortUnit"] = "%"
     df_tables_pip.loc[j, "type"] = "Numeric"
-    df_tables_pip.loc[j, "colorScaleNumericBins"] = "5;10;15;20;25;30;35"
+    df_tables_pip.loc[j, "colorScaleNumericBins"] = "10;15;20;25;30;35"
     df_tables_pip.loc[j, "colorScaleScheme"] = "Blues"
     j += 1
 
@@ -251,8 +251,8 @@ for tab in range(len(pip_tables)):
     df_tables_pip.loc[j, "unit"] = np.nan
     df_tables_pip.loc[j, "shortUnit"] = np.nan
     df_tables_pip.loc[j, "type"] = "Numeric"
-    df_tables_pip.loc[j, "colorScaleNumericBins"] = "0;0.5;1;1.5;2;2.5;3;3.5;4;4.5;5"
-    df_tables_pip.loc[j, "colorScaleScheme"] = "Oranges"
+    df_tables_pip.loc[j, "colorScaleNumericBins"] = "0.5;1;1.5;2;2.5;3;3.5;4;4.5;5;5.5"
+    df_tables_pip.loc[j, "colorScaleScheme"] = "YlOrBr"
     j += 1
 
     # Headcount ratio (rel)
@@ -264,7 +264,7 @@ for tab in range(len(pip_tables)):
     df_tables_pip.loc[j, "unit"] = "%"
     df_tables_pip.loc[j, "shortUnit"] = "%"
     df_tables_pip.loc[j, "type"] = "Numeric"
-    df_tables_pip.loc[j, "colorScaleNumericBins"] = "5;10;15;20;25;30;30.0001"
+    df_tables_pip.loc[j, "colorScaleNumericBins"] = "5;10;15;20;25;30"
     df_tables_pip.loc[j, "colorScaleScheme"] = "YlOrBr"
     j += 1
 
@@ -305,7 +305,7 @@ for tab in range(len(merged_tables)):
         df_tables_wid.loc[j, "shortUnit"] = np.nan
         df_tables_wid.loc[j, "type"] = "Numeric"
         df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare["scale_gini"][wel]
-        df_tables_wid.loc[j, "colorScaleScheme"] = "Reds"
+        df_tables_wid.loc[j, "colorScaleScheme"] = "Oranges"
         j += 1
 
         # Share of the top 10%
@@ -320,7 +320,7 @@ for tab in range(len(merged_tables)):
         df_tables_wid.loc[j, "shortUnit"] = "%"
         df_tables_wid.loc[j, "type"] = "Numeric"
         df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare["scale_top10"][wel]
-        df_tables_wid.loc[j, "colorScaleScheme"] = "Greens"
+        df_tables_wid.loc[j, "colorScaleScheme"] = "Reds"
         j += 1
 
         # Share of the bottom 50%
@@ -397,7 +397,7 @@ for tab in range(len(merged_tables)):
         df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare[
             "scale_palma_ratio"
         ][wel]
-        df_tables_wid.loc[j, "colorScaleScheme"] = "Oranges"
+        df_tables_wid.loc[j, "colorScaleScheme"] = "YlOrBr"
         j += 1
 
     df_tables_wid["tableSlug"] = merged_tables["name"][tab]
@@ -440,7 +440,7 @@ for tab in range(len(merged_tables)):
             df_tables_lis.loc[j, "colorScaleNumericBins"] = lis_welfare["scale_gini"][
                 wel
             ]
-            df_tables_lis.loc[j, "colorScaleScheme"] = "Reds"
+            df_tables_lis.loc[j, "colorScaleScheme"] = "Oranges"
             df_tables_lis.loc[j, "equivalized"] = lis_equivalence_scales["text"][eq]
             j += 1
 
@@ -460,7 +460,7 @@ for tab in range(len(merged_tables)):
             df_tables_lis.loc[j, "colorScaleNumericBins"] = lis_welfare["scale_top10"][
                 wel
             ]
-            df_tables_lis.loc[j, "colorScaleScheme"] = "Greens"
+            df_tables_lis.loc[j, "colorScaleScheme"] = "Reds"
             df_tables_lis.loc[j, "equivalized"] = lis_equivalence_scales["text"][eq]
             j += 1
 
@@ -552,7 +552,7 @@ for tab in range(len(merged_tables)):
             df_tables_lis.loc[j, "colorScaleNumericBins"] = lis_welfare[
                 "scale_palma_ratio"
             ][wel]
-            df_tables_lis.loc[j, "colorScaleScheme"] = "Oranges"
+            df_tables_lis.loc[j, "colorScaleScheme"] = "YlOrBr"
             df_tables_lis.loc[j, "equivalized"] = lis_equivalence_scales["text"][eq]
             j += 1
 
@@ -567,7 +567,9 @@ for tab in range(len(merged_tables)):
             df_tables_lis.loc[j, "unit"] = "%"
             df_tables_lis.loc[j, "shortUnit"] = "%"
             df_tables_lis.loc[j, "type"] = "Numeric"
-            df_tables_lis.loc[j, "colorScaleNumericBins"] = "5;10;15;20;25;30"
+            df_tables_lis.loc[j, "colorScaleNumericBins"] = lis_welfare[
+                "scale_relative_poverty"
+            ][wel]
             df_tables_lis.loc[j, "colorScaleScheme"] = "YlOrBr"
             df_tables_lis.loc[j, "equivalized"] = lis_equivalence_scales["text"][eq]
             j += 1
