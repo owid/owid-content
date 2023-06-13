@@ -326,7 +326,7 @@ for tab in range(len(merged_tables)):
         # Share of the bottom 50%
         df_tables_wid.loc[
             j, "name"
-        ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the bottom 50% (WID data)"
+        ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the poorest 50% (WID data)"
         df_tables_wid.loc[j, "slug"] = f"p0p50_share_{wid_welfare['slug'][wel]}"
         df_tables_wid.loc[
             j, "description"
@@ -467,7 +467,7 @@ for tab in range(len(merged_tables)):
             # Share of the bottom 50%
             df_tables_lis.loc[
                 j, "name"
-            ] = f"{lis_welfare['welfare_type'][wel].capitalize()} share of the bottom 50% (LIS data)"
+            ] = f"{lis_welfare['welfare_type'][wel].capitalize()} share of the poorest 50% (LIS data)"
             df_tables_lis.loc[
                 j, "slug"
             ] = f"share_bottom50_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"

@@ -189,7 +189,7 @@ for tab in range(len(pip_tables)):
     for p in range(len(pip_povlines_abs)):
         df_tables_pip.loc[
             j, "name"
-        ] = f"${pip_povlines_abs.dollars_text[p]} a day - total daily shortfall (PIP data)"
+        ] = f"Total daily shortfall - ${pip_povlines_abs.dollars_text[p]} a day (PIP data)"
         df_tables_pip.loc[j, "slug"] = f"total_shortfall_{pip_povlines_abs.cents[p]}"
         df_tables_pip.loc[
             j, "description"
@@ -207,7 +207,7 @@ for tab in range(len(pip_tables)):
     for p in range(len(pip_povlines_abs)):
         df_tables_pip.loc[
             j, "name"
-        ] = f"${pip_povlines_abs.dollars_text[p]} a day - total shortfall (PIP data)"
+        ] = f"Total shortfall - ${pip_povlines_abs.dollars_text[p]} a day (PIP data)"
         df_tables_pip.loc[
             j, "slug"
         ] = f"total_shortfall_{pip_povlines_abs.cents[p]}_year"
@@ -230,7 +230,7 @@ for tab in range(len(pip_tables)):
     for p in range(len(pip_povlines_abs)):
         df_tables_pip.loc[
             j, "name"
-        ] = f"${pip_povlines_abs.dollars_text[p]} a day - average daily shortfall (PIP data)"
+        ] = f"Average shortfall - ${pip_povlines_abs.dollars_text[p]} a day (PIP data)"
         df_tables_pip.loc[j, "slug"] = f"avg_shortfall_{pip_povlines_abs.cents[p]}"
         df_tables_pip.loc[
             j, "description"
@@ -248,7 +248,7 @@ for tab in range(len(pip_tables)):
     for p in range(len(pip_povlines_abs)):
         df_tables_pip.loc[
             j, "name"
-        ] = f"${pip_povlines_abs.dollars_text[p]} a day - income gap ratio (PIP data)"
+        ] = f"Income gap ratio - ${pip_povlines_abs.dollars_text[p]} a day (PIP data)"
         df_tables_pip.loc[j, "slug"] = f"income_gap_ratio_{pip_povlines_abs.cents[p]}"
         df_tables_pip.loc[
             j, "description"
@@ -264,7 +264,7 @@ for tab in range(len(pip_tables)):
     for p in range(len(pip_povlines_abs)):
         df_tables_pip.loc[
             j, "name"
-        ] = f"${pip_povlines_abs.dollars_text[p]} a day - poverty gap index (PIP data)"
+        ] = f"Poverty gap index - ${pip_povlines_abs.dollars_text[p]} a day (PIP data)"
         df_tables_pip.loc[j, "slug"] = f"poverty_gap_index_{pip_povlines_abs.cents[p]}"
         df_tables_pip.loc[
             j, "description"
@@ -280,7 +280,7 @@ for tab in range(len(pip_tables)):
     for pct in range(len(pip_povlines_rel)):
         df_tables_pip.loc[
             j, "name"
-        ] = f"{pip_povlines_rel.percent[pct]} of median - share of population below poverty line (PIP data)"
+        ] = f"Share below {pip_povlines_rel.percent[pct]} of median (PIP data)"
         df_tables_pip.loc[
             j, "slug"
         ] = f"headcount_ratio_{pip_povlines_rel.slug_suffix[pct]}"
@@ -298,7 +298,7 @@ for tab in range(len(pip_tables)):
     for pct in range(len(pip_povlines_rel)):
         df_tables_pip.loc[
             j, "name"
-        ] = f"{pip_povlines_rel.percent[pct]} of median - total number of people below poverty line (PIP data)"
+        ] = f"Number below {pip_povlines_rel.percent[pct]} of median (PIP data)"
         df_tables_pip.loc[j, "slug"] = f"headcount_{pip_povlines_rel.slug_suffix[pct]}"
         df_tables_pip.loc[
             j, "description"
@@ -316,7 +316,7 @@ for tab in range(len(pip_tables)):
     for pct in range(len(pip_povlines_rel)):
         df_tables_pip.loc[
             j, "name"
-        ] = f"{pip_povlines_rel.percent[pct]} of median - total daily shortfall (PIP data)"
+        ] = f"Total daily shortfall - {pip_povlines_rel.percent[pct]} of median (PIP data)"
         df_tables_pip.loc[
             j, "slug"
         ] = f"total_shortfall_{pip_povlines_rel.slug_suffix[pct]}"
@@ -336,7 +336,7 @@ for tab in range(len(pip_tables)):
     for pct in range(len(pip_povlines_rel)):
         df_tables_pip.loc[
             j, "name"
-        ] = f"{pip_povlines_rel.percent[pct]} of median - total daily shortfall (PIP data)"
+        ] = f"Total shortfall - {pip_povlines_rel.percent[pct]} of median (PIP data)"
         df_tables_pip.loc[
             j, "slug"
         ] = f"total_shortfall_{pip_povlines_rel.slug_suffix[pct]}_year"
@@ -359,7 +359,7 @@ for tab in range(len(pip_tables)):
     for pct in range(len(pip_povlines_rel)):
         df_tables_pip.loc[
             j, "name"
-        ] = f"{pip_povlines_rel.percent[pct]} of median - average daily shortfall (PIP data)"
+        ] = f"Average shortfall - {pip_povlines_rel.percent[pct]} of median (PIP data)"
         df_tables_pip.loc[
             j, "slug"
         ] = f"avg_shortfall_{pip_povlines_rel.slug_suffix[pct]}"
@@ -377,7 +377,7 @@ for tab in range(len(pip_tables)):
     for pct in range(len(pip_povlines_rel)):
         df_tables_pip.loc[
             j, "name"
-        ] = f"{pip_povlines_rel.percent[pct]} of median - income gap ratio (PIP data)"
+        ] = f"Income gap ratio - {pip_povlines_rel.percent[pct]} of median (PIP data)"
         df_tables_pip.loc[
             j, "slug"
         ] = f"income_gap_ratio_{pip_povlines_rel.slug_suffix[pct]}"
@@ -395,7 +395,7 @@ for tab in range(len(pip_tables)):
     for pct in range(len(pip_povlines_rel)):
         df_tables_pip.loc[
             j, "name"
-        ] = f"{pip_povlines_rel.percent[pct]} of median - poverty gap index (PIP data)"
+        ] = f"Poverty gap index - {pip_povlines_rel.percent[pct]} of median (PIP data)"
         df_tables_pip.loc[
             j, "slug"
         ] = f"poverty_gap_index_{pip_povlines_rel.slug_suffix[pct]}"
@@ -480,7 +480,7 @@ for tab in range(len(merged_tables)):
             for p in range(len(pip_povlines_abs)):
                 df_tables_lis.loc[
                     j, "name"
-                ] = f"${pip_povlines_abs['dollars_text'][p]} a day - total shortfall (LIS data)"
+                ] = f"Total shortfall - ${pip_povlines_abs['dollars_text'][p]} a day (LIS data)"
                 df_tables_lis.loc[
                     j, "slug"
                 ] = f"total_shortfall_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}_{pip_povlines_abs.cents[p]}"
@@ -501,7 +501,7 @@ for tab in range(len(merged_tables)):
             for p in range(len(pip_povlines_abs)):
                 df_tables_lis.loc[
                     j, "name"
-                ] = f"${pip_povlines_abs['dollars_text'][p]} a day - average shortfall (LIS data)"
+                ] = f"Average yearly shortfall - ${pip_povlines_abs['dollars_text'][p]} a day (LIS data)"
                 df_tables_lis.loc[
                     j, "slug"
                 ] = f"avg_shortfall_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}_{pip_povlines_abs['cents'][p]}"
@@ -522,7 +522,7 @@ for tab in range(len(merged_tables)):
             for p in range(len(pip_povlines_abs)):
                 df_tables_lis.loc[
                     j, "name"
-                ] = f"${pip_povlines_abs['dollars_text'][p]} a day - average shortfall (LIS data)"
+                ] = f"Average shortfall - ${pip_povlines_abs['dollars_text'][p]} a day (LIS data)"
                 df_tables_lis.loc[
                     j, "slug"
                 ] = f"avg_shortfall_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}_{pip_povlines_abs['cents'][p]}_day"
@@ -546,7 +546,7 @@ for tab in range(len(merged_tables)):
             for p in range(len(pip_povlines_abs)):
                 df_tables_lis.loc[
                     j, "name"
-                ] = f"${pip_povlines_abs['dollars_text'][p]} a day - income gap ratio (LIS data)"
+                ] = f"Income gap ratio - ${pip_povlines_abs['dollars_text'][p]} a day (LIS data)"
                 df_tables_lis.loc[
                     j, "slug"
                 ] = f"income_gap_ratio_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}_{pip_povlines_abs['cents'][p]}"
@@ -567,7 +567,7 @@ for tab in range(len(merged_tables)):
             for p in range(len(pip_povlines_abs)):
                 df_tables_lis.loc[
                     j, "name"
-                ] = f"${pip_povlines_abs['dollars_text'][p]} a day - poverty gap index (LIS data)"
+                ] = f"Poverty gap index - ${pip_povlines_abs['dollars_text'][p]} a day (LIS data)"
                 df_tables_lis.loc[
                     j, "slug"
                 ] = f"poverty_gap_index_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}_{pip_povlines_abs['cents'][p]}"
@@ -586,7 +586,7 @@ for tab in range(len(merged_tables)):
             for pct in range(len(lis_povlines_rel)):
                 df_tables_lis.loc[
                     j, "name"
-                ] = f"{lis_povlines_rel['percent'][pct]} of median {lis_welfare['welfare_type'][wel]} - share of population below poverty line (LIS data)"
+                ] = f"Share below {lis_povlines_rel['percent'][pct]} of median (LIS data)"
                 df_tables_lis.loc[
                     j, "slug"
                 ] = f"headcount_ratio_{lis_povlines_rel['slug_suffix'][pct]}_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
@@ -605,7 +605,7 @@ for tab in range(len(merged_tables)):
             for pct in range(len(lis_povlines_rel)):
                 df_tables_lis.loc[
                     j, "name"
-                ] = f"{lis_povlines_rel['percent'][pct]} of median {lis_welfare['welfare_type'][wel]} - total number of people below poverty line (LIS data)"
+                ] = f"Number below {lis_povlines_rel['percent'][pct]} of median (LIS data)"
                 df_tables_lis.loc[
                     j, "slug"
                 ] = f"headcount_{lis_povlines_rel['slug_suffix'][pct]}_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
@@ -626,7 +626,7 @@ for tab in range(len(merged_tables)):
             for pct in range(len(lis_povlines_rel)):
                 df_tables_lis.loc[
                     j, "name"
-                ] = f"{lis_povlines_rel['percent'][pct]} of median {lis_welfare['welfare_type'][wel]} - total shortfall (LIS data)"
+                ] = f"Total shortfall - {lis_povlines_rel['percent'][pct]} of median (LIS data)"
                 df_tables_lis.loc[
                     j, "slug"
                 ] = f"total_shortfall_{lis_povlines_rel['slug_suffix'][pct]}_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
@@ -647,7 +647,7 @@ for tab in range(len(merged_tables)):
             for pct in range(len(lis_povlines_rel)):
                 df_tables_lis.loc[
                     j, "name"
-                ] = f"{lis_povlines_rel['percent'][pct]} of median {lis_welfare['welfare_type'][wel]} - average shortfall (LIS data)"
+                ] = f"Average yearly shortfall - {lis_povlines_rel['percent'][pct]} of median (LIS data)"
                 df_tables_lis.loc[
                     j, "slug"
                 ] = f"avg_shortfall_{lis_povlines_rel['slug_suffix'][pct]}_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
@@ -668,7 +668,7 @@ for tab in range(len(merged_tables)):
             for pct in range(len(lis_povlines_rel)):
                 df_tables_lis.loc[
                     j, "name"
-                ] = f"{lis_povlines_rel['percent'][pct]} of median {lis_welfare['welfare_type'][wel]} - average shortfall (LIS data)"
+                ] = f"Average shortfall - {lis_povlines_rel['percent'][pct]} of median (LIS data)"
                 df_tables_lis.loc[
                     j, "slug"
                 ] = f"avg_shortfall_{lis_povlines_rel['slug_suffix'][pct]}_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}_day"
@@ -692,7 +692,7 @@ for tab in range(len(merged_tables)):
             for pct in range(len(lis_povlines_rel)):
                 df_tables_lis.loc[
                     j, "name"
-                ] = f"{lis_povlines_rel['percent'][pct]} of median {lis_welfare['welfare_type'][wel]} - income gap ratio (LIS data)"
+                ] = f"Income gap ratio - {lis_povlines_rel['percent'][pct]} of median (LIS data)"
                 df_tables_lis.loc[
                     j, "slug"
                 ] = f"income_gap_ratio_{lis_povlines_rel['slug_suffix'][pct]}_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
@@ -711,7 +711,7 @@ for tab in range(len(merged_tables)):
             for pct in range(len(lis_povlines_rel)):
                 df_tables_lis.loc[
                     j, "name"
-                ] = f"{lis_povlines_rel['percent'][pct]} of median {lis_welfare['welfare_type'][wel]} - poverty gap index (LIS data)"
+                ] = f"Poverty gap index - {lis_povlines_rel['percent'][pct]} of median (LIS data)"
                 df_tables_lis.loc[
                     j, "slug"
                 ] = f"poverty_gap_index_{lis_povlines_rel['slug_suffix'][pct]}_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
