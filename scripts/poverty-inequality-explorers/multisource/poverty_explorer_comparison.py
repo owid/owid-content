@@ -104,6 +104,7 @@ header_dict = {
     "googleSheet": "",
     "wpBlockId": "",
     "entityType": "country or region",
+    "pickerColumnSlugs": "headcount_ratio_215 headcount_ratio_365 headcount_ratio_685 headcount_ratio_3000 headcount_215 headcount_365 headcount_685 headcount_3000 headcount_ratio_50_median headcount_50_median headcount_ratio_dhi_pc_215 headcount_ratio_dhi_pc_365 headcount_ratio_dhi_pc_685 headcount_ratio_dhi_pc_3000 headcount_dhi_pc_215 headcount_dhi_pc_365 headcount_dhi_pc_3000 headcount_dhi_pc_685 headcount_ratio_50_median_dhi_pc headcount_50_median_dhi_pc headcount_ratio_50_median_dhi_pc headcount_50_median_dhi_pc",
 }
 
 # Index-oriented dataframe

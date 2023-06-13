@@ -79,7 +79,7 @@ header_dict = {
     "googleSheet": f"https://docs.google.com/spreadsheets/d/{sheet_id}",
     "wpBlockId": "",
     "entityType": "country or region",
-    "pickerColumnSlugs": "p0p100_avg_pretax p0p100_avg_posttax_nat median_pretax median_posttax_nat",
+    "pickerColumnSlugs": "p0p100_avg_pretax_year p0p100_avg_posttax_nat_year median_pretax_year median_posttax_nat_year p90p100_avg_pretax_year p90p100_avg_posttax_nat_year p90p100_thr_pretax_year p90p100_thr_posttax_nat_year p90p100_share_pretax p90p100_share_posttax_nat p99p100_avg_pretax_year p99p100_avg_posttax_nat_year p99p100_thr_pretax_year p99p100_thr_posttax_nat p99p100_share_pretax p99p100_share_posttax_nat",
 }
 
 # Index-oriented dataframe

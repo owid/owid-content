@@ -52,6 +52,7 @@ header_dict = {
     "googleSheet": f"https://docs.google.com/spreadsheets/d/{sheet_id}",
     "wpBlockId": "",
     "entityType": "country or region",
+    "pickerColumnSlugs": "p0p100_gini_pretax p0p100_gini_posttax_nat p90p100_share_pretax p90p100_share_posttax_nat p99p100_share_pretax p99p100_share_posttax_nat palma_ratio_pretax palma_ratio_posttax_nat",
 }
 
 # Index-oriented dataframe
