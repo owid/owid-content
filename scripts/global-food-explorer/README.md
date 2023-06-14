@@ -13,7 +13,7 @@ You need Python 3.9 with `poetry` installed, then run `make`. It will generate t
 ### `global-food-explorer.py`
 
 This is the Python script that combines all the input files into a single `.explorer.tsv` file.
-Set it up using `poetry install` and run it using `poetry run python global-food-explorer.yml`.
+Set it up using `poetry install` and run it using `poetry run python global-food-explorer.py`.
 
 There is also a GitHub action set up that will automatically generate the explorer config for every Pull Request or push to `staging` or `master`.
 
