@@ -22,7 +22,7 @@ jobs:
         with:
           ref: ${{ github.head_ref }}
       - name: Install poetry
-        uses: abatilo/actions-poetry@v2.1.4
+        uses: abatilo/actions-poetry@v2
 
       - name: Install dependencies
         run: cd scripts/global-food-explorer && poetry install
