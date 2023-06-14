@@ -15,7 +15,7 @@ from os import path
 import sys
 
 # Latest ETL version of the food explorer (https://github.com/owid/etl/tree/master/etl/steps/data/explorers/faostat/).
-VERSION = "2023-02-22"
+VERSION = "2023-06-12"
 
 outfile = "../../explorers/global-food.explorer.tsv"
 
