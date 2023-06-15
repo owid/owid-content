@@ -48,19 +48,22 @@
             "title": "Share of deaths for which the cause is registered",
             "source": "WHO, Global Health Observatory, 2022",
             "url": "https://ourworldindata.org/grapher/share-of-deaths-cause-is-registered",
-            "content": "The share of deaths that have been registered with a cause of death."
+            "content": "The share of deaths that have been registered with a cause of death.",
+            "featured": true
         },
         {
             "title": "Share of births that are registered",
             "url": "https://ourworldindata.org/grapher/share-of-births-registered",
             "source": "UNICEF",
-            "content": "The percentage of children under age 5 whose births were registered at the time of the survey."
+            "content": "The percentage of children under age 5 whose births were registered at the time of the survey.",
+            "featured": true
         },
         {
             "title": "Deaths registered with an ill-defined cause of death",
             "url": "https://ourworldindata.org/grapher/deaths-registered-with-an-ill-defined-cause-of-death",
             "source": "WHO, Global Health Observatory, 2022",
-            "content": "The share of total deaths that were registered with an ill-defined cause of death."
+            "content": "The share of total deaths that were registered with an ill-defined cause of death.",
+            "featured": true
         },
         {
             "title": "World population living in countries with cause-of-death registration",
