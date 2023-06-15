@@ -61,14 +61,16 @@
             "title": "Habitat Loss Data Explorer",
             "source": "Williams et al. (2021)",
             "url": "https://ourworldindata.org/explorers/habitat-loss",
-            "content": "Explore projections of species' habitat loss, and the impact of dietary and agricultural interventions."
+            "content": "Explore projections of species' habitat loss, and the impact of dietary and agricultural interventions.",
+            "featured": true
         },
         {
             "type": "Data Explorer",
             "title": "Fish Stocks Data Explorer",
             "url": "https://ourworldindata.org/explorers/fish-stocks",
             "source": "RAM Legacy Stock Assessment Database",
-            "content": "Explore available data on the world's fish stocks."
+            "content": "Explore available data on the world's fish stocks.",
+            "featured": true
         },
         {
             "title": "Red List Index",
