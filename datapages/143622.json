@@ -96,6 +96,6 @@
             "sourceRetrievedFromUrl": "https://stats.livingplanetindex.org/"
         }
     ],
-    "citationData": "World Wildlife Fund (WWF) and Zoological Society of London – Processed by Our World in Data (2022). World Wildlife Fund (WWF) and Zoological Society of London. 2022; Living Planet Report 2022 – Building a nature-positive society. Almond, R.E.A., Grooten, M., Juffe Bignoli, D. & Petersen, T. (Eds). WWF, Gland, Switzerland. Processed by Our World in Data and accessed via Our World in Data (2023) “Data Page: Living Planet Index – Zoological Society of London” available at [ourworldindata.org/grapher/global-living-planet-index]. Accessed {date}",
-    "citationDatapage": "Our World in Data (2023). “Data Page: Living Planet Index – Zoological Society of London” available at [ourworldindata.org/grapher/global-living-planet-index]"
+    "citationData": "World Wildlife Fund (WWF) and Zoological Society of London – Processed by Our World in Data (2022). World Wildlife Fund (WWF) and Zoological Society of London. 2022; Living Planet Report 2022 – Building a nature-positive society. Almond, R.E.A., Grooten, M., Juffe Bignoli, D. & Petersen, T. (Eds). WWF, Gland, Switzerland. Processed by Our World in Data and accessed via https://ourworldindata.org/grapher/global-living-planet-index. Accessed {date}",
+    "citationDatapage": "Our World in Data (2023). “Data Page: Living Planet Index – Zoological Society of London” available at https://ourworldindata.org/grapher/global-living-planet-index"
 }
