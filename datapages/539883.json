@@ -62,8 +62,7 @@
             "title": "Deaths registered with an ill-defined cause of death",
             "url": "https://ourworldindata.org/grapher/deaths-registered-with-an-ill-defined-cause-of-death",
             "source": "WHO, Global Health Observatory, 2022",
-            "content": "The share of total deaths that were registered with an ill-defined cause of death.",
-            "featured": true
+            "content": "The share of total deaths that were registered with an ill-defined cause of death."
         },
         {
             "title": "World population living in countries with cause-of-death registration",
