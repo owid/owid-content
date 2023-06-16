@@ -90,7 +90,7 @@
     ],
     "sources": [
         {
-            "sourceName": "V-Dem",
+            "sourceName": "V-Dem (v13)",
             "sourceRetrievedOn": "2 March 2023",
             "sourceRetrievedFromUrl": "http://v-dem.net/vdemds.html"
         }
