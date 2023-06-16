@@ -14,12 +14,12 @@
     "variantSource": "Zoological Society of London",
     "nameOfSource": "World Wildlife Fund (WWF) and Zoological Society of London",
     "owidProcessingLevel": "<a href=#sources-and-processing>Processed</a> by Our World in Data",
-    "dateRange": "1970-2018",
-    "lastUpdated": "2022-10-13",
-    "nextUpdate": "Fall 2024",
+    "dateRange": "1970–2018",
+    "lastUpdated": "13 October 2022",
+    "nextUpdate": "October 2024",
     "subtitle": "The Living Planet Index (LPI) measures the average decline in monitored wildlife populations. The index value measures the change in abundance in 31,821 populations across 5,230 species relative to the year 1970 (i.e. 1970 = 100%).",
     "descriptionFromSource": {
-        "title": "How does the source – Zoological Society of London – describe this indicator?"
+        "title": "How does the source — WWF and Zoological Society of London — describe this indicator?"
     },
     "relatedResearch": [
         {
@@ -61,14 +61,16 @@
             "title": "Habitat Loss Data Explorer",
             "source": "Williams et al. (2021)",
             "url": "https://ourworldindata.org/explorers/habitat-loss",
-            "content": "Explore projections of species' habitat loss, and the impact of dietary and agricultural interventions."
+            "content": "Explore projections of species' habitat loss, and the impact of dietary and agricultural interventions.",
+            "featured": true
         },
         {
             "type": "Data Explorer",
             "title": "Fish Stocks Data Explorer",
             "url": "https://ourworldindata.org/explorers/fish-stocks",
             "source": "RAM Legacy Stock Assessment Database",
-            "content": "Explore available data on the world's fish stocks."
+            "content": "Explore available data on the world's fish stocks.",
+            "featured": true
         },
         {
             "title": "Red List Index",
@@ -90,8 +92,10 @@
     "sources": [
         {
             "sourceName": "Zoological Society of London",
-            "sourceRetrievedOn": "2022-10-13",
+            "sourceRetrievedOn": "13 October 2022",
             "sourceRetrievedFromUrl": "https://stats.livingplanetindex.org/"
         }
-    ]
+    ],
+    "citationData": "World Wildlife Fund (WWF) and Zoological Society of London — Processed by Our World in Data (2022). World Wildlife Fund (WWF) and Zoological Society of London, 2022. Living Planet Report 2022 — Building a nature-positive society. Almond, R.E.A., Grooten, M., Juffe Bignoli, D. & Petersen, T. (Eds). WWF, Gland, Switzerland. Processed by Our World in Data and accessed via 'https://ourworldindata.org/grapher/global-living-planet-index'. Accessed {date}",
+    "citationDatapage": "Our World in Data (2023). “Data Page: Living Planet Index – Zoological Society of London”. Retrieved from: 'https://ourworldindata.org/grapher/global-living-planet-index' [Online Resource]"
 }

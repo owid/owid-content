@@ -106,5 +106,7 @@
         {
             "sourceName": "Hypothetical source 3"
         }
-    ]
+    ],
+    "citationData": "World Bank, PIP – Processed by Our World in Data (2023). World Bank, 2022; Poverty and Inequality Platform (version {version_ID}). World Bank Group. www.pip.worldbank.org. Processed by Our World in Data and accessed via Our World in Data (2023) “Data Page: Share in Extreme poverty – World Bank, PIP” available at [data page link]. Accessed {date}",
+    "citationDatapage": "Our World in Data (2019) “Data Page: Share in Extreme Poverty – World Bank PIP” available at [data page URL]."
 }
