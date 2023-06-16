@@ -53,13 +53,15 @@
             "title": "Democracy Data Explorer",
             "source": "",
             "url": "https://ourworldindata.org/explorers/democracy",
-            "content": "Explore the world's political systems with the leading approaches of measuring democracy."
+            "content": "Explore the world's political systems with the leading approaches of measuring democracy.",
+            "featured": true
         },
         {
             "title": "Distribution of the electoral democracy index",
             "url": "https://ourworldindata.org/grapher/distribution-electoral-democracy-vdem",
             "source": "V-Dem",
-            "content": "How democratic are countries relative to each other?"
+            "content": "How democratic are countries relative to each other?",
+             "featured": true
         },
         {
             "title": "Distribution of the electoral democracy index (weighted by population)",
