@@ -14,12 +14,12 @@
     "variantSource": "V-Dem",
     "nameOfSource": "OWID based on V-Dem (v13)",
     "owidProcessingLevel": "<a href=#sources-and-processing>Processed and adapted</a> by Our World in Data",
-    "dateRange": "1789-2022",
-    "lastUpdated": "2023-03-02",
+    "dateRange": "1789–2022",
+    "lastUpdated": "2 March 2023",
     "nextUpdate": "March 2024",
     "subtitle": "Based on the expert assessments and index by V-Dem. It captures to which extent political leaders are elected under comprehensive voting rights in free and fair elections, and freedoms of association and expression are guaranteed. It ranges from 0 to 1 (most democratic).",
     "descriptionFromSource": {
-        "title": "How does V-Dem describe this metric?"
+        "title": "How does the source — V-Dem — describe this metric?"
     },
     "relatedResearch": [
         {
@@ -91,7 +91,7 @@
     "sources": [
         {
             "sourceName": "V-Dem",
-            "sourceRetrievedOn": "2023-03-02",
+            "sourceRetrievedOn": "2 March 2023",
             "sourceRetrievedFromUrl": "http://v-dem.net/vdemds.html"
         }
     ]
