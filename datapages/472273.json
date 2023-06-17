@@ -22,9 +22,9 @@
     "variantSource": "World Bank, PIP",
     "nameOfSource": "World Bank, Poverty and Inequality Platform",
     "owidProcessingLevel": "<a href>Processed</a> by Our World in Data",
-    "dateRange": "1967-2021",
-    "lastUpdated": "2022-10-03",
-    "nextUpdate": "Summer 2023",
+    "dateRange": "1967–2021",
+    "lastUpdated": "3 October 2022",
+    "nextUpdate": "July 2023",
     "subtitle": "The share of population living below the International Poverty Line of $2.15 per day. This data is adjusted for inflation and for differences in the cost of living between countries.",
     "descriptionFromSource": {
         "title": "[NOT USED]"
@@ -61,13 +61,15 @@
             "title": "Poverty Data Explorer of the World Bank Data",
             "source": "World Bank, PIP",
             "url": "https://ourworldindata.org/explorers/poverty-explorer",
-            "content": "Explore a range of metrics for higher and lower poverty lines."
+            "content": "Explore a range of metrics for higher and lower poverty lines.",
+            "featured": true
         },
         {
             "title": "Number of people living in extreme poverty",
             "url": "https://ourworldindata.org/grapher/total-population-in-extreme-poverty",
             "source": "World Bank, PIP",
-            "content": "See data for the total number of people living in extreme poverty"
+            "content": "See data for the total number of people living in extreme poverty",
+            "featured": true
         },
         {
             "title": "Share of population living on less than $30 a day",
@@ -99,7 +101,7 @@
     "sources": [
         {
             "sourceName": "World Bank Poverty and Inequality Platform",
-            "sourceRetrievedOn": "2022-10-03",
+            "sourceRetrievedOn": "3 October 2022",
             "sourceRetrievedFromUrl": "https://pip.worldbank.org/"
         }
     ]
