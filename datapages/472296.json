@@ -35,20 +35,12 @@
             "imageUrl": "https://ourworldindata.org/uploads/2018/10/gini-index-around-2015-1990-2015-countries-vs-gini-index-around-1990-1990-2015-countries.png"
         },
         {
-            "title": "Global economic inequality: what matters most for your living conditions is not who you are, but where you are?",
+            "title": "Global economic inequality: what matters most for your living conditions is not who you are, but where you are",
             "url": "https://ourworldindata.org/global-economic-inequality-introduction",
             "authors": [
                 "Max Roser"
             ],
             "imageUrl": "https://ourworldindata.org/uploads/2021/11/Screen-Shot-2021-11-27-at-12.08.06.png"
-        },
-        {
-            "title": "Is trade a major driver of income inequality?",
-            "url": "https://ourworldindata.org/trade-and-income-inequality",
-            "authors": [
-                "Esteban Ortiz-Ospina"
-            ],
-            "imageUrl": "https://ourworldindata.org/uploads/2018/07/Top-Incomes.png"
         },
         {
             "title": "Global inequalities in CO₂ emissions, based on consumption",
