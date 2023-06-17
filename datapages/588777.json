@@ -1,0 +1,112 @@
+{
+    "status": "draft",
+    "showDataPageOnChartIds": [
+        4013
+    ],
+    "title": "Banana production",
+    "googleDocEditLink": "https://docs.google.com/document/d/1XHpp9OU-UHZWD515v3V1KDY-YlSU5_-Hs_4_wGCGm1k/edit",
+    "topicTagsLinks": [
+        {
+            "title": "CO2 and greenhouse gas emissions",
+            "url": "https://ourworldindata.org/co2-and-greenhouse-gaz-emissions"
+        },
+        {
+            "title": "Climate change",
+            "url": "https://ourworldindata.org/climate-change"
+        },
+        {
+            "title": "Energy",
+            "url": "https://ourworldindata.org/energy"
+        }
+    ],
+    "variantSource": "Global Carbon Project",
+    "variantMethods": "Historical estimates",
+    "nameOfSource": "Global Carbon Project",
+    "owidProcessingLevel": "<a href>Processed and adapted</a> by Our World in Data",
+    "dateRange": "1974-2020",
+    "lastUpdated": "2022-10-03",
+    "nextUpdate": "2023-05-15",
+    "subtitle": "Annual total production-based emissions of carbon dioxide (CO₂), excluding land-use change, measured in tonnes per person. This is based on territorial emissions, which do not account for emissions embedded in traded goods.",
+    "descriptionFromSource": {
+        "title": "How does the Poverty and Inequality Platform (PIP) describe this metric?"
+    },
+    "relatedResearch": [
+        {
+            "title": "From $1.90 to $2.15 a day: the updated International Poverty Line",
+            "url": "https://ourworldindata.org/from-1-90-to-2-15-a-day-the-updated-international-poverty-line",
+            "authors": [
+                "Joe Hasell"
+            ],
+            "imageUrl": "https://ourworldindata.org/uploads/2022/10/Poverty-line-thumbnail-768x402.png"
+        },
+        {
+            "title": "Extreme poverty: how far have we come, how far do we still have to go?",
+            "url": "https://ourworldindata.org/extreme-poverty-in-brief",
+            "authors": [
+                "Max Roser"
+            ],
+            "imageUrl": "https://ourworldindata.org/uploads/2021/11/Featured-Image-for-the-post-768x422.png"
+        },
+        {
+            "title": "The economies that are home to the poorest billions of people need to grow if we want global poverty to decline substantially",
+            "url": "https://ourworldindata.org/poverty-growth-needed",
+            "authors": [
+                "Max Roser"
+            ],
+            "imageUrl": "https://ourworldindata.org/uploads/2021/02/Screen-Shot-2021-02-23-at-11.48.16-768x410.png"
+        }
+    ],
+    "relatedData": [
+        {
+            "type": "Data Explorer",
+            "title": "CO2 Data Explorer",
+            "source": "Global Carbon Project",
+            "url": "https://ourworldindata.org/explorers/co2",
+            "content": "Compare a range of metrics tracking emissions of  CO2 and other Greenhouse Gas.",
+            "featured": true
+        },
+        {
+            "title": "Consumption-based CO2 emissions per capita",
+            "url": "https://ourworldindata.org/grapher/consumption-co2-per-capita",
+            "source": "PIP",
+            "content": "How do per capita CO2 emissions compare when we adjust for trade?",
+            "featured": true
+        },
+        {
+            "title": "Annual share of global CO2 emissions",
+            "url": "https://ourworldindata.org/grapher/annual-share-of-co2-emissions",
+            "source": "World Inequality Database",
+            "content": "What share of global CO2 emissions do different countries contribute?"
+        },
+        {
+            "title": "Annual CO2 emissions from land-use change per capita",
+            "url": "https://ourworldindata.org/grapher/co2-land-use-per-capita?country=USA~GBR~European+Union+%2827%29~CHN~IND~AUS~BRA~MEX~IDN",
+            "source": "Global Carbon Project, 2022"
+        },
+        {
+            "title": "Annual CO2 emissions by world region",
+            "url": "https://ourworldindata.org/grapher/annual-co-emissions-by-region",
+            "source": "Global Carbon Project, 2022"
+        },
+        {
+            "title": "Annual CO2 emissions from cement",
+            "url": "https://ourworldindata.org/grapher/annual-co2-cement",
+            "source": "Global Carbon Project, 2022"
+        }
+    ],
+    "sources": [
+        {
+            "sourceName": "Global Carbon Project",
+            "sourceRetrievedOn": "2021-09-01",
+            "sourceRetrievedFromUrl": "https://zenodo.org/record/7215364/files/..."
+        },
+        {
+            "sourceName": "Hypothetical source 2"
+        },
+        {
+            "sourceName": "Hypothetical source 3"
+        }
+    ],
+    "citationData": "World Bank, PIP – Processed by Our World in Data (2023). World Bank, 2022; Poverty and Inequality Platform (version {version_ID}). World Bank Group. www.pip.worldbank.org. Processed by Our World in Data and accessed via Our World in Data (2023) “Data Page: Share in Extreme poverty – World Bank, PIP” available at [data page link]. Accessed {date}",
+    "citationDatapage": "Our World in Data (2019) “Data Page: Share in Extreme Poverty – World Bank PIP” available at [data page URL]."
+}
