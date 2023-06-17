@@ -14,9 +14,9 @@
     "variantSource": "World Happiness Report",
     "nameOfSource": "World Happiness Report (2023)",
     "owidProcessingLevel": "<a href=h#sources-and-processing>Processed</a> by Our World in Data",
-    "dateRange": "2003-2021",
-    "lastUpdated": "2023-03-20",
-    "nextUpdate": "Summer 2024",
+    "dateRange": "2003–2021",
+    "lastUpdated": "20 March 2023",
+    "nextUpdate": "April 2024",
     "descriptionFromSource": {
         "title": ""
     },
@@ -49,17 +49,18 @@
     ],
     "relatedData": [
         {
-            "type": "Chart",
             "title": "Share of people who say they are happy",
             "source": "World Value Survey",
             "url": "https://ourworldindata.org/grapher/share-of-people-who-say-they-are-happy",
-            "content": "See estimates for a different measure of self-reported wellbeing from another global survey"
+            "content": "See estimates for a different measure of self-reported wellbeing from another global survey",
+            "featured": true
         },
         {
             "title": "Share who say they are 'very satisfied' or 'fairly satisfied' with their life",
             "url": "https://ourworldindata.org/grapher/share-of-people-who-say-they-are-happy-Eurobarometer",
             "source": "Eurobarometer",
-            "content": "Data on self-reported life satisfaction using an alternative survey question, collected within European countries."
+            "content": "Data on self-reported life satisfaction using an alternative survey question, collected within European countries.",
+            "featured": true
         },
         {
             "title": "Conditional correlation between log income and life satisfaction",
@@ -76,7 +77,7 @@
     "sources": [
         {
             "sourceName": "World Happiness Report",
-            "sourceRetrievedOn": "2023-03-20",
+            "sourceRetrievedOn": "20 March 2023",
             "sourceRetrievedFromUrl": "https://happiness-report.s3.amazonaws.com/2023/DataForFigure2.1WHR2023.xls"
         }
     ]
