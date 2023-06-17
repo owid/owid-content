@@ -18,11 +18,11 @@
     "variantSource": "FAO",
     "nameOfSource": "Food and Agriculture Organization of the United Nations",
     "owidProcessingLevel": "<a href=#sources-and-processing>Processed</a> by Our World in Data",
-    "dateRange": "1961-2021",
-    "lastUpdated": "2023-02-22",
-    "nextUpdate": "Spring 2024",
+    "dateRange": "1961–2021",
+    "lastUpdated": "12 June 2023",
+    "nextUpdate": "June 2024",
     "descriptionFromSource": {
-        "title": "How does the source – FAO – describe this metric?"
+        "title": "How does the source — FAO — describe this metric?"
     },
     "relatedResearch": [
         {
@@ -78,7 +78,7 @@
     "sources": [
         {
             "sourceName": "Global Carbon Project",
-            "sourceRetrievedOn": "2023-02-22",
+            "sourceRetrievedOn": "12 June 2023",
             "sourceRetrievedFromUrl": "https://www.fao.org/faostat/en/#data/QCL"
         }
     ]
