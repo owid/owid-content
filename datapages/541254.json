@@ -17,12 +17,12 @@
     ],
     "variantSource": "World Inequality Database",
     "variantMethods": "Before tax",
-    "nameOfSource": "World Inequality Database (WID.world) (2023)",
+    "nameOfSource": "World Inequality Database",
     "owidProcessingLevel": "<a href>Processed</a> by Our World in Data",
-    "dateRange": "1820-2021",
-    "lastUpdated": "2023-03-29",
-    "nextUpdate": "2023-06-15",
-    "subtitle": "This is the income of the richest 1% as a share of total income. Income here is measured before the payment and receipt of taxes and benefits. It is also measured after payment of public and private pensions.",
+    "dateRange": "1820–2021",
+    "lastUpdated": "12 June 2023",
+    "nextUpdate": "June 2024",
+    "subtitle": "This is the income of the richest 1% as a share of total income. Income here is measured before the payment and receipt of taxes and non-pension benefits but after payment of public and private pensions.",
     "descriptionFromSource": {
         "title": "How does the Poverty and Inequality Platform (PIP) describe this metric?"
     },
@@ -46,9 +46,9 @@
     ],
     "relatedData": [
         {
-            "title": "Income share of the top 1% (after tax)",
+            "title": "Income share of the top 1%",
             "url": "https://ourworldindata.org/grapher/income-share-of-the-top-1-after-tax",
-            "source": "World Inequality Database",
+            "source": "After tax | World Inequality Database",
             "content": "See how incomes are concentrated after redistribution"
         },
         {
@@ -67,7 +67,7 @@
     "sources": [
         {
             "sourceName": "World Inequality Database (WID.world)",
-            "sourceRetrievedOn": "2023-03-29",
+            "sourceRetrievedOn": "12 June 2023",
             "sourceRetrievedFromUrl": "https://wid.world/"
         }
     ]
