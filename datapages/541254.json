@@ -24,17 +24,9 @@
     "nextUpdate": "June 2024",
     "subtitle": "This is the income of the richest 1% as a share of total income. Income here is measured before the payment and receipt of taxes and non-pension benefits but after payment of public and private pensions.",
     "descriptionFromSource": {
-        "title": "How does the Poverty and Inequality Platform (PIP) describe this metric?"
+        "title": ""
     },
     "relatedResearch": [
-        {
-            "title": "Global economic inequality: what matters most for your living conditions is not who you are, but where you are",
-            "url": "https://ourworldindata.org/global-economic-inequality-introduction",
-            "authors": [
-                "Max Roser"
-            ],
-            "imageUrl": "https://ourworldindata.org/uploads/2022/10/Poverty-line-thumbnail-768x402.png"
-        },
         {
             "title": "Is income inequality rising around the world?",
             "url": "https://ourworldindata.org/income-inequality-since-1990",
@@ -42,6 +34,22 @@
                 "Joe Hasell"
             ],
             "imageUrl": "https://ourworldindata.org/uploads/2021/11/Featured-Image-for-the-post-768x422.png"
+        },
+        {
+            "title": "Global inequalities in CO₂ emissions, based on consumption",
+            "url": "https://ourworldindata.org/global-inequalities-co2-consumption",
+            "authors": [
+                "Hannah Ritchie"
+            ],
+            "imageUrl": "https://ourworldindata.org/uploads/2018/12/consumption-co2-emissions-vs-population.png"
+        },
+        {
+            "title": "Global economic inequality: what matters most for your living conditions is not who you are, but where you are",
+            "url": "https://ourworldindata.org/global-economic-inequality-introduction",
+            "authors": [
+                "Max Roser"
+            ],
+            "imageUrl": "https://ourworldindata.org/uploads/2022/10/Poverty-line-thumbnail-768x402.png"
         }
     ],
     "relatedData": [
