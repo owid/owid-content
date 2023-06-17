@@ -23,11 +23,11 @@
     "nameOfSource": "International Telecommunication Union (via World Bank)",
     "owidProcessingLevel": "<a href=#sources-and-processing>Processed</a> by Our World in Data",
     "dateRange": "1990-2020",
-    "lastUpdated": "2022-06-02",
-    "nextUpdate": "June 2023",
+    "lastUpdated": "2 June 2022",
+    "nextUpdate": "July 2023",
     "subtitle": "Share of the population who used the Internet in the last three months.",
     "descriptionFromSource": {
-        "title": "How does the data provider – the World Bank – describe this indicator?"
+        "title": "How does the data provider — the World Bank — describe this indicator?"
     },
     "relatedResearch": [
         {
@@ -61,12 +61,14 @@
             "title": "Number of people using the Internet",
             "source": "International Telecommunication Union, UN",
             "url": "https://ourworldindata.org/grapher/number-of-internet-users",
-            "content": "The same metric, shown in absolute numbers."
+            "content": "The same metric, shown in absolute numbers.",
+            "featured": true
         },
         {
             "title": "Share of US adults who use the Internet, by age",
             "url": "https://ourworldindata.org/grapher/share-us-adults-use-internet-age",
-            "source": "Pew Research Center"
+            "source": "Pew Research Center",
+            "featured": true
         },
         {
             "title": "Landline Internet subscriptions per 100 people",
@@ -87,7 +89,7 @@
     "sources": [
         {
             "sourceName": "World Bank World Development Indicators",
-            "sourceRetrievedOn": "2022-06-02",
+            "sourceRetrievedOn": "2 June 2022",
             "sourceRetrievedFromUrl": "https://datacatalog.worldbank.org/search/dataset/0037712/World-Development-Indicators"
         }
     ]
