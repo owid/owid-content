@@ -22,12 +22,12 @@
     "variantSource": "Global Carbon Project",
     "nameOfSource": "Global Carbon Project",
     "owidProcessingLevel": "<a href=#sources-and-processing>Processed and adapted</a> by Our World in Data",
-    "dateRange": "1990-2020",
-    "lastUpdated": "2023-04-28",
-    "nextUpdate": "2023-11-11",
+    "dateRange": "1990–2020",
+    "lastUpdated": "28 April 2023",
+    "nextUpdate": "November 2023",
     "subtitle": "Consumption-based emissions are national emissions that have been adjusted for trade. It's production-based emissions minus emissions embedded in exports, plus emissions embedded in imports. Emissions are measured in tonnes per capita.",
     "descriptionFromSource": {
-        "title": "How does the source - Global Carbon Project (GCP) - describe this metric?",
+        "title": "How does the source — Global Carbon Project — describe this metric?",
         "content": "EDIT IN GDOC: create a heading 1 with the key name 'descriptionFromSource' and add content below it"
     },
     "relatedResearch": [
@@ -102,31 +102,30 @@
             "title": "CO₂ and Greenhouse Gas Emissions Data Explorer",
             "source": "",
             "url": "https://ourworldindata.org/explorers/co2",
-            "content": "Compare a range of metrics tracking emissions of CO2 and other Greenhouse Gases."
+            "content": "Compare a range of metrics tracking emissions of CO2 and other Greenhouse Gases.",
+            "featured": true
+        },
+        {
+            "title": "Per capita production-based CO₂ emissions",
+            "url": "https://ourworldindata.org/grapher/co-emissions-per-capita",
+            "source": "Global Carbon Project",
+            "content": "See emissions data without adjusting for trade, available for much earlier periods.",
+            "featured": true
         },
         {
             "title": "Consumption-based CO₂ emissions",
             "url": "https://ourworldindata.org/grapher/consumption-co2-emissions",
-            "source": "Global Carbon Project",
-            "content": "How do consumption-based CO₂ emissions compare when we adjust for trade?"
+            "source": "Global Carbon Project"
         },
         {
             "title": "Production vs. consumption-based CO₂ emissions",
             "url": "https://ourworldindata.org/grapher/production-vs-consumption-co2-emissions",
-            "source": "Global Carbon Project",
-            "content": "How do consumption-based CO₂ emissions compare to production-based emissions?"
-        },
-        {
-            "title": "Production-based CO₂ emissions per capita",
-            "url": "https://ourworldindata.org/grapher/co-emissions-per-capita",
-            "source": "Global Carbon Project",
-            "content": "Per capita production-based emissions."
+            "source": "Global Carbon Project"
         },
         {
             "title": "Annual share of global CO₂ emissions",
             "url": "https://ourworldindata.org/grapher/annual-share-of-co2-emissions",
-            "source": "Global Carbon Project",
-            "content": "What share of global CO₂ emissions do different countries contribute?"
+            "source": "Global Carbon Project"
         },
         {
             "title": "Annual CO2 emissions by world region",
@@ -138,13 +137,13 @@
         {
             "sourceName": "Global Carbon Project",
             "sourceDescription": "",
-            "sourceRetrievedOn": "2023-04-28",
+            "sourceRetrievedOn": "28 April 2023",
             "sourceRetrievedFromUrl": "https://globalcarbonbudget.org/carbonbudget/"
         },
          {
             "sourceName": "Our World in Data reference population dataset",
             "sourceDescription": "",
-            "sourceRetrievedOn": "2023-03-31",
+            "sourceRetrievedOn": "31 March 2023",
             "sourceRetrievedFromUrl": ""
         }
     ]
