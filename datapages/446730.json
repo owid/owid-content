@@ -18,12 +18,12 @@
     "variantSource": "UNICEF/WHO",
     "nameOfSource": "UNICEF, World Health Organization and World Bank",
     "owidProcessingLevel": "<a href=#sources-and-processing>Processed</a> by Our World in Data",
-    "dateRange": "1983-2020",
-    "lastUpdated": "2022-06-02",
+    "dateRange": "1983–2020",
+    "lastUpdated": "2 June 2022",
     "nextUpdate": "June 2023",
     "subtitle": "The share of children younger than five years old whose growth is stunted. Stunting is when a child is significantly shorter than the average for their age. Stunted growth is a consequence of poor nutrition and/or repeated infection.",
     "descriptionFromSource": {
-        "title": "How does the data provider – the World Bank – describe this metric?"
+        "title": "How does the data provider — the World Bank — describe this metric?"
     },
     "relatedResearch": [],
     "relatedData": [
@@ -32,19 +32,21 @@
             "title": "Global Health Explorer",
             "source": "Data from various sources",
             "url": "https://ourworldindata.org/explorers/global-health?facet=none&country=OWID_WRL~CHN~ZAF~BRA~USA~GBR~IND~RWA&Health+Area=Child+health&Indicator=Childhood+stunting&Metric=Share+of+children&Source=UNICEF%2FWHO",
-            "content": "Explore a wide range of metrics on global health and healthcare."
+            "content": "Explore a wide range of metrics on global health and healthcare.",
+            "featured": true
+        },
+        {
+            "title": "Share of children who are stunted",
+            "url": "https://ourworldindata.org/grapher/child-stunting-ihme",
+            "source": "IHME",
+            "content": "Compare the same indicator from a different source.",
+            "featured": true
         },
         {
             "title": "Share of the population that is undernourished",
             "url": "https://ourworldindata.org/grapher/prevalence-of-undernourishment",
             "source": "FAO",
             "content": "See data for another common metric of malnutrition – the share of population with a food intake below that needed for an normal healthy, active life."
-        },
-        {
-            "title": "Share of children who are stunted",
-            "url": "https://ourworldindata.org/grapher/child-stunting-ihme",
-            "source": "IHME",
-            "content": "Compare the same indicator from a different source."
         },
         {
             "title": "Number of children who are stunted",
@@ -60,7 +62,7 @@
     "sources": [
         {
             "sourceName": "World Bank World Development Indicators",
-            "sourceRetrievedOn": "2022-06-02",
+            "sourceRetrievedOn": "2 June 2022",
             "sourceRetrievedFromUrl": "https://datacatalog.worldbank.org/search/dataset/0037712/World-Development-Indicators"
         }
     ]
