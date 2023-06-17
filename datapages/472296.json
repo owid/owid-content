@@ -18,10 +18,10 @@
     "variantSource": "World Bank, PIP",
     "nameOfSource": "World Bank, Poverty and Inequality Platform",
     "owidProcessingLevel": "<a href>Processed</a> by Our World in Data",
-    "dateRange": "1967-2021",
-    "lastUpdated": "2022-10-03",
-    "nextUpdate": "June 2023",
-    "subtitle": "Inequality, as measured by the Gini coefficient – a measure that ranges between 0 and 1, where higher values indicate higher inequality. Depending on the country and year, the data relates to either disposable income or consumption per capita.",
+    "dateRange": "1967–2021",
+    "lastUpdated": "3 October 2022",
+    "nextUpdate": "July 2023",
+    "subtitle": "Inequality, as measured by the Gini coefficient — a measure that ranges between 0 and 1, where higher values indicate higher inequality. Depending on the country and year, the data relates to either disposable income or consumption per capita.",
     "descriptionFromSource": {
         "title": "[NOT USED]"
     },
@@ -61,24 +61,20 @@
     ],
     "relatedData": [
         {
-            "type": "Data Explorer",
-            "title": "Inequality Data Explorer of the World Bank Data",
-            "url": "https://ourworldindata.org/explorers/poverty-explorer",
-            "source": "World Bank, PIP",
-            "content": "Explore a range of inequality metrics from the World Bank data."
-        },
-        {
-            "title": "Income share of the top 10% ",
-            "url": "https://ourworldindata.org/grapher/income-share-of-the-top-10-pip?country=BRA~FRA~CHN~ZAF",
-            "source": "World Bank, PIP",
-            "content": "See World Bank data for another common metric of inequality"
-        },
-        {
             "title": "Income share of the top 1%",
             "url": "https://ourworldindata.org/grapher/income-share-of-the-top-1-pretax-national-income?tab=map",
             "source": "Before tax | World Inequality Database",
-            "content": "Inequality estimates from the World Inequality Database aim to provide better estimates of the very top of the income distribution."
+            "content": "Data providing a better view of the how concentrated income is at the very top of the distribution.",
+            "featured": true
         },
+        {
+            "title": "Income share of the top 10%",
+            "url": "https://ourworldindata.org/grapher/income-share-of-the-top-10-pip?country=BRA~FRA~CHN~ZAF",
+            "source": "World Bank, PIP",
+            "content": "See World Bank data for another common metric of inequality",
+            "featured": true
+        },
+ 
         {
             "title": "Share of population below 60% of median income or consumption",
             "url": "https://ourworldindata.org/grapher/relative-poverty-share-of-people-below-60-of-the-median",
@@ -98,7 +94,7 @@
     "sources": [
         {
             "sourceName": "World Bank Poverty and Inequality Platform",
-            "sourceRetrievedOn": "2022-10-03",
+            "sourceRetrievedOn": "3 October 2022",
             "sourceRetrievedFromUrl": "https://pip.worldbank.org/"
         }
     ]
