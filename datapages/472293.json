@@ -18,10 +18,10 @@
     "variantSource": "World Bank, PIP",
     "nameOfSource": "World Bank, Poverty and Inequality Platform",
     "owidProcessingLevel": "<a href>Processed and adapted</a> by Our World in Data",
-    "dateRange": "1967-2021",
-    "lastUpdated": "2022-10-03",
-    "nextUpdate": "June 2023",
-    "subtitle": "A measure of relative poverty – the share of the population with an income or consumption below 60% of the median in their country.",
+    "dateRange": "1967–2021",
+    "lastUpdated": "3 October 2022",
+    "nextUpdate": "July 2023",
+    "subtitle": "A measure of relative poverty — the share of the population with an income or consumption below 60% of the median in their country.",
     "descriptionFromSource": {
         "title": "How does the Poverty and Inequality Platform (PIP) describe this metric?"
     },
@@ -49,13 +49,15 @@
             "title": "Poverty Data Explorer of the World Bank Data",
             "url": "https://ourworldindata.org/explorers/poverty-explorer",
             "source": "World Bank, PIP",
-            "content": "Explore a range of metrics for higher and lower poverty lines."
+            "content": "Explore a range of metrics for higher and lower poverty lines.",
+            "featured": true
         },
         {
             "title": "Number of people living in extreme poverty",
             "url": "https://ourworldindata.org/grapher/total-population-in-extreme-poverty",
             "source": "World Bank, PIP",
-            "content": "See data for the <em>total</em> number of people living in extreme poverty"
+            "content": "See data for the share of people living in absolute poverty – below the International Poverty Line of $2.15 per day",
+            "featured": true
         },
         {
             "title": "Share of population below 50% of median income or consumption",
@@ -83,7 +85,7 @@
     "sources": [
         {
             "sourceName": "World Bank Poverty and Inequality Platform",
-            "sourceRetrievedOn": "2022-10-03",
+            "sourceRetrievedOn": "3 October 2022",
             "sourceRetrievedFromUrl": "https://pip.worldbank.org/"
         }
     ]
