@@ -30,7 +30,6 @@
         {
             "type": "Data Explorer",
             "title": "Global Health Explorer",
-            "source": "Data from various sources",
             "url": "https://ourworldindata.org/explorers/global-health?facet=none&country=OWID_WRL~CHN~ZAF~BRA~USA~GBR~IND~RWA&Health+Area=Child+health&Indicator=Childhood+stunting&Metric=Share+of+children&Source=UNICEF%2FWHO",
             "content": "Explore a wide range of metrics on global health and healthcare.",
             "featured": true
