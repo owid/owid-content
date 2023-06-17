@@ -53,8 +53,8 @@
             "featured": true
         },
         {
-            "title": "Number of people living in extreme poverty",
-            "url": "https://ourworldindata.org/grapher/total-population-in-extreme-poverty",
+            "title": "Share of population living in extreme poverty",
+            "url": "https://ourworldindata.org/grapher/share-of-population-in-extreme-poverty",
             "source": "World Bank, PIP",
             "content": "See data for the share of people living in absolute poverty – below the International Poverty Line of $2.15 per day",
             "featured": true
