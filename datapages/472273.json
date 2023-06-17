@@ -58,7 +58,7 @@
     "relatedData": [
         {
             "type": "Data Explorer",
-            "title": "Poverty Data Explorer of the World Bank Data",
+            "title": "Poverty Data Explorer of World Bank Data",
             "source": "World Bank, PIP",
             "url": "https://ourworldindata.org/explorers/poverty-explorer",
             "content": "Explore a range of metrics for higher and lower poverty lines.",
