@@ -18,21 +18,21 @@
     "variantSource": "United Nations",
     "nameOfSource": "United Nations Office for Outer Space Affairs, Online Index of Objects Launched into Outer Space",
     "owidProcessingLevel": "<a href=#sources-and-processing>Processed and adapted</a> by Our World in Data",
-    "dateRange": "1957-2022",
-    "lastUpdated": "2023-01-03",
+    "dateRange": "1957–2022",
+    "lastUpdated": "1 March 2023",
     "nextUpdate": "January 2024",
     "subtitle": "Annual number of satellites, probes, landers, crewed spacecrafts, and space station flight elements, launched into Earth orbit or beyond.",
     "descriptionFromSource": {
-        "title": "How does the source – the United Nations Office for Outer Space Affairs – describe this indicator?"
+        "title": "How does the source — the United Nations Office for Outer Space Affairs — describe this indicator?"
     },
     "relatedResearch": [],
     "relatedData": [
         {
-            "type": "Chart",
             "title": "Cumulative number of objects launched into space",
             "source": "United Nations",
             "url": "https://ourworldindata.org/grapher/cumulative-number-of-objects-launched-into-outer-space",
-            "content": "The cumulative version of this data."
+            "content": "The cumulative version of this data.",
+            "featured": true
         },
         {
             "title": "Number of payloads and rocket bodies in space, by orbit",
@@ -58,7 +58,7 @@
     "sources": [
         {
             "sourceName": "United Nations Office for Outer Space Affairs, Online Index of Objects Launched into Outer Space",
-            "sourceRetrievedOn": "2023-01-03",
+            "sourceRetrievedOn": "1 March 20233",
             "sourceRetrievedFromUrl": "https://www.unoosa.org/oosa/osoindex/search-ng.jspx"
         }
     ]
