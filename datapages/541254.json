@@ -54,7 +54,14 @@
     ],
     "relatedData": [
         {
-            "title": "Income share of the top 10%",
+            "title": "Income share of the richest 1% before and after tax",
+            "url": "https://ourworldindata.org/grapher/income-share-top-1-after-vs-before-tax-wid-scatter",
+            "source": "Before tax – World Inequality Database",
+            "content": "See how the share of the richest 1% changes before and after taxes and benefits.",
+            "featured": true
+        },
+        {
+            "title": "Income share of the richest 10%",
             "url": "https://ourworldindata.org/grapher/income-share-of-the-top-10-pretax-national-income",
             "source": "Before tax – World Inequality Database"
         },
