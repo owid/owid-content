@@ -96,7 +96,5 @@
             "sourceRetrievedOn": "2 March 2023",
             "sourceRetrievedFromUrl": "http://v-dem.net/vdemds.html"
         }
-    ],
-     "citationData": "V-Dem — Processed and adapted by Our World in Data (2023). Coppedge, Michael, John Gerring, Carl Henrik Knutsen, Staffan I. Lindberg, Jan Teorell, David Altman, Michael Bernhard, Agnes Cornell, M. Steven Fish, Lisa Gastaldi, Haakon Gjerløw, Adam Glynn, Ana Good God, Sandra Grahn, Allen Hicken, Katrin Kinzelbach, Joshua Krusell, Kyle L. Marquardt, Kelly McMann, Valeriya Mechkova, Juraj Medzihorsky, Natalia Natsika, Anja Neundorf, Pamela Paxton, Daniel Pemstein, Josefine Pernes, Oskar Rydén, Johannes von Römer, Brigitte Seim, Rachel Sigman, Svend-Erik Skaaning, Jeffrey Staton, Aksel Sundström, Eitan Tzelgov, Yi-ting Wang, Tore Wig, Steven Wilson and Daniel Ziblatt. 2023. “V-Dem Dataset v13” Varieties of Democracy (V-Dem) Project. Processed by Our World in Data and accessed via https://ourworldindata.org/grapher/electoral-democracy. Accessed {date}",
-     "citationDatapage": "Our World in Data (2023). “Data Page: Electoral democracy index — V-Dem”. Retrieved from: ‘https://ourworldindata.org/grapher/electoral-democracy' [Online Resource]"
+    ]
 }
