@@ -55,14 +55,14 @@
     "relatedData": [
          {
             "title": "Wealth share of the richest 1%",
-            "url": "https://ourworldindata.org/grapher/income-share-of-the-top-10-pretax-national-income",
+            "url": "https://ourworldindata.org/grapher/wealth-share-richest-1-percent",
             "source": "World Inequality Database",
             "content": "See data on the concentration of wealth, rather than income.",
             "featured": true
         },
         {
             "title": "Income share of the richest 10%",
-            "url": "https://ourworldindata.org/grapher/income-share-of-the-top-10-pretax-national-income",
+            "url": "https://ourworldindata.org/grapher/income-share-top-10-before-tax-wid",
             "source": "Before tax – World Inequality Database"
         },
         {
