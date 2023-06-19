@@ -54,21 +54,14 @@
     ],
     "relatedData": [
         {
-            "title": "Income share of the top 1%",
-            "url": "https://ourworldindata.org/grapher/income-share-of-the-top-1-after-tax",
-            "source": "After tax - World Inequality Database",
-            "content": "See how incomes are concentrated after redistribution through taxes and benefits.",
-            "featured": true
-        },
-        {
             "title": "Income share of the top 10%",
             "url": "https://ourworldindata.org/grapher/income-share-of-the-top-10-pretax-national-income",
             "source": "Before tax – World Inequality Database"
         },
         {
-            "title": "Gini coefficient",
-            "url": "https://ourworldindata.org/grapher/economic-inequality-gini-index",
-            "source": "World Bank, PIP"
+            "title": "Income share of the richest 1% vs. Gini coefficient",
+            "url": "https://ourworldindata.org/grapher/share-of-the-top-1-vs-gini-coefficient-before-tax-wid",
+            "source": "Before tax – World Inequality Database"
         }
     ],
     "sources": [
