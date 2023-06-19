@@ -67,6 +67,11 @@
         },
         {
             "title": "Gini coefficient",
+            "url": "https://ourworldindata.org/grapher/gini-coefficient-before-tax-wid",
+            "source": "Before tax – World Inequality Database"
+        },
+        {
+            "title": "Gini coefficient",
             "url": "https://ourworldindata.org/grapher/economic-inequality-gini-index",
             "source": "World Bank, PIP"
         }
