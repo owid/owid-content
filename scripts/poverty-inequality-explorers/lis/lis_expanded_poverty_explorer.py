@@ -248,7 +248,9 @@ for tab in range(len(tables)):
                 df_tables.loc[j, "unit"] = "%"
                 df_tables.loc[j, "shortUnit"] = "%"
                 df_tables.loc[j, "type"] = "Numeric"
-                df_tables.loc[j, "colorScaleNumericBins"] = "10;20;30;40;50;60"
+                df_tables.loc[j, "colorScaleNumericBins"] = povlines_abs[
+                    f"scale_poverty_gap_index_{welfare['slug'][wel]}"
+                ][p]
                 df_tables.loc[j, "colorScaleScheme"] = "RdPu"
                 j += 1
 
