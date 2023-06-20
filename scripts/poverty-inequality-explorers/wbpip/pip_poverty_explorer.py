@@ -117,7 +117,7 @@ for survey in range(len(survey_type)):
         df_tables.loc[j, "colorScaleNumericMinValue"] = 0
         df_tables.loc[
             j, "colorScaleNumericBins"
-        ] = "100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001"
+        ] = "100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;3000000000;10000000000"
         df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
         df_tables.loc[j, "colorScaleScheme"] = "Reds"
         df_tables.loc[j, "survey_type"] = survey_type["table_name"][survey]
@@ -144,7 +144,9 @@ for survey in range(len(survey_type)):
         df_tables.loc[j, "tolerance"] = 5
         df_tables.loc[j, "type"] = "Numeric"
         df_tables.loc[j, "colorScaleNumericMinValue"] = 0
-        df_tables.loc[j, "colorScaleNumericBins"] = "5;10;15;20;25;30;30.0001"
+        df_tables.loc[j, "colorScaleNumericBins"] = povlines_rel[
+            "scale_headcount_ratio"
+        ][pct]
         df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
         df_tables.loc[j, "colorScaleScheme"] = "YlOrBr"
         df_tables.loc[j, "survey_type"] = survey_type["table_name"][survey]
@@ -173,7 +175,7 @@ for survey in range(len(survey_type)):
         df_tables.loc[j, "colorScaleNumericMinValue"] = 0
         df_tables.loc[
             j, "colorScaleNumericBins"
-        ] = "100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001"
+        ] = "100000;300000;1000000;3000000;10000000;30000000;100000000"
         df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
         df_tables.loc[j, "colorScaleScheme"] = "YlOrBr"
         df_tables.loc[j, "survey_type"] = survey_type["table_name"][survey]
