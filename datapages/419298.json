@@ -96,7 +96,5 @@
             "sourceRetrievedOn": "2 March 2023",
             "sourceRetrievedFromUrl": "http://v-dem.net/vdemds.html"
         }
-    ],
-    "citationData": "V-Dem — Processed and adapted by Our World in Data (2023). Coppedge, Michael, John Gerring, Carl Henrik Knutsen and others. 2023. “V-Dem Dataset v13” Varieties of Democracy (V-Dem) Project. Processed by Our World in Data and accessed via https://ourworldindata.org/grapher/electoral-democracy. Accessed {date}",
-    "citationDatapage": "Our World in Data (2023). “Data Page: Electoral democracy index — V-Dem”. Retrieved from: ‘https://ourworldindata.org/grapher/electoral-democracy' [Online Resource]"
+    ]
 }
