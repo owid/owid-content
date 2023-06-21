@@ -48,7 +48,7 @@
             "type": "Data Explorer",
             "title": "Population & Demography Data Explorer",
             "url": "https://ourworldindata.org/explorers/population-and-demography",
-            "source": "United Nations, World Population Prospects, 2022"
+            "source": "United Nations, World Population Prospects, 2022",
             "content": "Explore a range of deomgraphic indicators and projections, broken down by sex and age group.",
             "featured": true
         },        
