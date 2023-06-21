@@ -57,19 +57,6 @@
             "featured": true
         },
         {
-            "title": "Distribution of the electoral democracy index",
-            "url": "https://ourworldindata.org/grapher/distribution-electoral-democracy-vdem",
-            "source": "V-Dem",
-            "content": "How democratic are countries relative to each other?",
-             "featured": true
-        },
-        {
-            "title": "Distribution of the electoral democracy index (weighted by population)",
-            "url": "hhttps://ourworldindata.org/grapher/distribution-electoral-democracy-popw-vdem",
-            "source": "V-Dem",
-            "content": "How democratic are countries with large and small populations?"
-        },
-        {
             "title": "Liberal democracy index",
             "url": "https://ourworldindata.org/grapher/liberal-democracy",
             "source": "V-Dem"
