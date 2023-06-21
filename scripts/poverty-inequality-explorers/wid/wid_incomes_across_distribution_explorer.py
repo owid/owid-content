@@ -44,7 +44,7 @@ deciles10 = pd.read_csv(url, keep_default_na=False)
 # Top sheet (needed to handle data at the top of the distribution)
 sheet_name = "top_pct"
 url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
-top_pct = pd.read_csv(url, keep_default_na=False)
+top_pct = pd.read_csv(url, keep_default_na=False, dtype={"percentage": "str"})
 
 # Relative toggle (to switch between absolute and relative values)
 sheet_name = "relative_toggle"
@@ -700,7 +700,7 @@ for tab in range(len(tables)):
                 ] = f"Threshold {welfare['welfare_type'][wel]} per {income_aggregation['aggregation'][agg]} for each decile {welfare['title'][wel].capitalize()}"
                 df_graphers.loc[
                     j, "ySlugs"
-                ] = f"p10p20_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p20p30_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p30p40_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p40p50_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p50p60_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p60p70_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p70p80_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p80p90_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p90p100_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p99p100_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p99_9p100_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p99_99p100_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p99_999p100_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]}"
+                ] = f"p10p20_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p20p30_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p30p40_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p40p50_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p50p60_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p60p70_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p70p80_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p80p90_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p90p100_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p99p100_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p99_9p100_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]}"
                 df_graphers.loc[j, "Indicator Dropdown"] = "Decile thresholds"
                 df_graphers.loc[j, "Decile/quantile Dropdown"] = "All deciles + top"
                 df_graphers.loc[
@@ -733,7 +733,7 @@ for tab in range(len(tables)):
                 ] = f"Mean {welfare['welfare_type'][wel]} per {income_aggregation['aggregation'][agg]} within each decile {welfare['title'][wel].capitalize()}"
                 df_graphers.loc[
                     j, "ySlugs"
-                ] = f"p0p10_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p10p20_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p20p30_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p30p40_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p40p50_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p50p60_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p60p70_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p70p80_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p80p90_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p90p100_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p99p100_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p99_9p100_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p99_99p100_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p99_999p100_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]}"
+                ] = f"p0p10_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p10p20_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p20p30_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p30p40_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p40p50_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p50p60_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p60p70_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p70p80_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p80p90_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p90p100_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p99p100_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p99_9p100_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]}"
                 df_graphers.loc[j, "Indicator Dropdown"] = "Mean income, by decile"
                 df_graphers.loc[j, "Decile/quantile Dropdown"] = "All deciles + top"
                 df_graphers.loc[
@@ -1015,7 +1015,7 @@ for tab in range(len(tables)):
         ] = f"{welfare['welfare_type'][wel].capitalize()} share for each decile {welfare['title'][wel].capitalize()}"
         df_graphers.loc[
             j, "ySlugs"
-        ] = f"p0p10_share_{welfare['slug'][wel]} p10p20_share_{welfare['slug'][wel]} p20p30_share_{welfare['slug'][wel]} p30p40_share_{welfare['slug'][wel]} p40p50_share_{welfare['slug'][wel]} p50p60_share_{welfare['slug'][wel]} p60p70_share_{welfare['slug'][wel]} p70p80_share_{welfare['slug'][wel]} p80p90_share_{welfare['slug'][wel]} p90p100_share_{welfare['slug'][wel]} p99p100_share_{welfare['slug'][wel]} p99_9p100_share_{welfare['slug'][wel]} p99_99p100_share_{welfare['slug'][wel]} p99_999p100_share_{welfare['slug'][wel]}"
+        ] = f"p0p10_share_{welfare['slug'][wel]} p10p20_share_{welfare['slug'][wel]} p20p30_share_{welfare['slug'][wel]} p30p40_share_{welfare['slug'][wel]} p40p50_share_{welfare['slug'][wel]} p50p60_share_{welfare['slug'][wel]} p60p70_share_{welfare['slug'][wel]} p70p80_share_{welfare['slug'][wel]} p80p90_share_{welfare['slug'][wel]} p90p100_share_{welfare['slug'][wel]} p99p100_share_{welfare['slug'][wel]} p99_9p100_share_{welfare['slug'][wel]}"
         df_graphers.loc[j, "Indicator Dropdown"] = "Decile shares"
         df_graphers.loc[j, "Decile/quantile Dropdown"] = "All deciles + top"
         df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
