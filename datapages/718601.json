@@ -46,17 +46,22 @@
         {
             "type": "Data Explorer",
             "title": "Crop Yields Data Explorer",
-            "source": "FAO; Mueller et al. (2012)",
             "url": "https://ourworldindata.org/explorers/crop-yields?facet=none&country=IND~USA~ITA~GBR~NGA~LKA~BRA~PER~AGO&hideControls=false&Crop=Tomato&Metric=Actual+yield",
             "content": "Explore crop yields across the world",
             "featured": true
         },
         {
+            "type": "Data Explorer",
+            "title": "Global Food Explorer",
+            "url": "https://ourworldindata.org/explorers/global-food?facet=none&country=USA~DEU~FRA~GBR~BRA~ZAF&Food=Tomatoes&Metric=Production&Per+Capita=false",
+            "content": "Explore the world's food system crop-by-crop, from production to plate.",
+            "featured": true
+        },        
+        {
             "title": "Agricultural output",
             "url": "https://ourworldindata.org/grapher/agricultural-output-dollars",
             "source": "USDA",
-            "content": "See how the value of crop and livestock production has changed over time in different countries.",
-            "featured": true
+            "content": "See how the value of crop and livestock production has changed over time in different countries."
         },
         {
             "title": "Cereal production",
