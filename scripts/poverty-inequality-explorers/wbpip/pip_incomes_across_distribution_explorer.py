@@ -283,7 +283,9 @@ for survey in range(len(survey_type)):
             df_tables.loc[j, "tolerance"] = 5
             df_tables.loc[j, "type"] = "Numeric"
             df_tables.loc[j, "colorScaleNumericMinValue"] = 0
-            df_tables.loc[j, "colorScaleNumericBins"] = income_aggregation.scale[agg]
+            df_tables.loc[j, "colorScaleNumericBins"] = deciles9[
+                f"scale_thr_{income_aggregation.aggregation[agg]}"
+            ][dec9]
             df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
             df_tables.loc[j, "colorScaleScheme"] = "Purples"
             df_tables.loc[
