@@ -264,7 +264,9 @@ for tab in range(len(tables)):
             df_tables.loc[j, "unit"] = "%"
             df_tables.loc[j, "shortUnit"] = "%"
             df_tables.loc[j, "type"] = "Numeric"
-            df_tables.loc[j, "colorScaleNumericBins"] = top_pct["scale_share"][top]
+            df_tables.loc[j, "colorScaleNumericBins"] = top_pct[
+                f"scale_share_{welfare['slug'][wel]}"
+            ][top]
             df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
             df_tables.loc[j, "colorScaleScheme"] = "OrRd"
             j += 1
@@ -379,9 +381,9 @@ for tab in range(len(tables)):
                 df_tables.loc[j, "unit"] = "international-$ in 2021 prices"
                 df_tables.loc[j, "shortUnit"] = "$"
                 df_tables.loc[j, "type"] = "Numeric"
-                df_tables.loc[j, "colorScaleNumericBins"] = income_aggregation[
-                    "scale_top"
-                ][agg]
+                df_tables.loc[j, "colorScaleNumericBins"] = top_pct[
+                    f"scale_thr_{welfare['slug'][wel]}_{income_aggregation['aggregation'][agg]}"
+                ][top]
                 df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
                 df_tables.loc[j, "colorScaleScheme"] = "Purples"
                 df_tables.loc[
@@ -403,9 +405,9 @@ for tab in range(len(tables)):
                 df_tables.loc[j, "unit"] = "international-$ in 2021 prices"
                 df_tables.loc[j, "shortUnit"] = "$"
                 df_tables.loc[j, "type"] = "Numeric"
-                df_tables.loc[j, "colorScaleNumericBins"] = income_aggregation[
-                    "scale_top"
-                ][agg]
+                df_tables.loc[j, "colorScaleNumericBins"] = top_pct[
+                    f"scale_avg_{welfare['slug'][wel]}_{income_aggregation['aggregation'][agg]}"
+                ][top]
                 df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
                 df_tables.loc[j, "colorScaleScheme"] = "Greens"
                 df_tables.loc[
@@ -572,7 +574,9 @@ for tab in range(len(tables)):
                     j, "ySlugs"
                 ] = f"{top_pct['wid_notation'][top]}_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]}"
                 df_graphers.loc[j, "Indicator Dropdown"] = "Decile thresholds"
-                df_graphers.loc[j, "Decile/quantile Dropdown"] = top_pct["name"][top]
+                df_graphers.loc[j, "Decile/quantile Dropdown"] = top_pct["name"][
+                    top
+                ].capitalize()
                 df_graphers.loc[
                     j, "Income measure Dropdown"
                 ] = f"{welfare['dropdown_option'][wel]}"
@@ -600,7 +604,9 @@ for tab in range(len(tables)):
                     j, "ySlugs"
                 ] = f"{top_pct['wid_notation'][top]}_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]}"
                 df_graphers.loc[j, "Indicator Dropdown"] = "Mean income, by decile"
-                df_graphers.loc[j, "Decile/quantile Dropdown"] = top_pct["name"][top]
+                df_graphers.loc[j, "Decile/quantile Dropdown"] = top_pct["name"][
+                    top
+                ].capitalize()
                 df_graphers.loc[
                     j, "Income measure Dropdown"
                 ] = f"{welfare['dropdown_option'][wel]}"
@@ -876,7 +882,9 @@ for tab in range(len(tables)):
                 j, "ySlugs"
             ] = f"{top_pct['wid_notation'][top]}_thr_pretax{income_aggregation['slug_suffix'][agg]} {top_pct['wid_notation'][top]}_thr_posttax_nat{income_aggregation['slug_suffix'][agg]}"
             df_graphers.loc[j, "Indicator Dropdown"] = "Decile thresholds"
-            df_graphers.loc[j, "Decile/quantile Dropdown"] = top_pct["name"][top]
+            df_graphers.loc[j, "Decile/quantile Dropdown"] = top_pct["name"][
+                top
+            ].capitalize()
             df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
             df_graphers.loc[
                 j, "Period Radio"
@@ -902,7 +910,9 @@ for tab in range(len(tables)):
                 j, "ySlugs"
             ] = f"{top_pct['wid_notation'][top]}_avg_pretax{income_aggregation['slug_suffix'][agg]} {top_pct['wid_notation'][top]}_avg_posttax_nat{income_aggregation['slug_suffix'][agg]}"
             df_graphers.loc[j, "Indicator Dropdown"] = "Mean income, by decile"
-            df_graphers.loc[j, "Decile/quantile Dropdown"] = top_pct["name"][top]
+            df_graphers.loc[j, "Decile/quantile Dropdown"] = top_pct["name"][
+                top
+            ].capitalize()
             df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
             df_graphers.loc[
                 j, "Period Radio"
@@ -959,7 +969,9 @@ for tab in range(len(tables)):
                 j, "ySlugs"
             ] = f"{top_pct['wid_notation'][top]}_share_{welfare['slug'][wel]}"
             df_graphers.loc[j, "Indicator Dropdown"] = "Decile shares"
-            df_graphers.loc[j, "Decile/quantile Dropdown"] = top_pct["name"][top]
+            df_graphers.loc[j, "Decile/quantile Dropdown"] = top_pct["name"][
+                top
+            ].capitalize()
             df_graphers.loc[
                 j, "Income measure Dropdown"
             ] = f"{welfare['dropdown_option'][wel]}"
@@ -1052,7 +1064,9 @@ for tab in range(len(tables)):
             j, "ySlugs"
         ] = f"{top_pct['wid_notation'][top]}_share_pretax {top_pct['wid_notation'][top]}_share_posttax_nat"
         df_graphers.loc[j, "Indicator Dropdown"] = "Decile shares"
-        df_graphers.loc[j, "Decile/quantile Dropdown"] = top_pct["name"][top]
+        df_graphers.loc[j, "Decile/quantile Dropdown"] = top_pct["name"][
+            top
+        ].capitalize()
         df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
         df_graphers.loc[j, "Period Radio"] = np.nan
         df_graphers.loc[j, "Relative change Checkbox"] = "false"
