@@ -82,6 +82,127 @@ df_tables = pd.DataFrame()
 j = 0
 
 for survey in range(len(survey_type)):
+    # Raw variables to not break aggregations
+    # mean
+    df_tables.loc[j, "name"] = f"Mean {survey_type.text[survey]} per day"
+    df_tables.loc[j, "slug"] = f"mean"
+    df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform (2022)"
+    df_tables.loc[
+        j, "description"
+    ] = f"The mean level of {survey_type.text[survey]} per day."
+    df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
+    df_tables.loc[
+        j, "dataPublishedBy"
+    ] = "World Bank Poverty and Inequality Platform (PIP)"
+    df_tables.loc[j, "unit"] = "international-$ in 2017 prices"
+    df_tables.loc[j, "shortUnit"] = "$"
+    df_tables.loc[j, "tolerance"] = 5
+    df_tables.loc[j, "type"] = "Numeric"
+    df_tables.loc[j, "colorScaleNumericMinValue"] = 0
+    df_tables.loc[j, "colorScaleNumericBins"] = "1;2;5;10;20;50;100"
+    df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
+    df_tables.loc[j, "colorScaleScheme"] = "BuGn"
+    df_tables.loc[j, "survey_type"] = survey_type["table_name"][survey]
+    j += 1
+
+    # median
+    df_tables.loc[j, "name"] = f"Median {survey_type.text[survey]} per day"
+    df_tables.loc[j, "slug"] = f"median"
+    df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform (2022)"
+    df_tables.loc[
+        j, "description"
+    ] = f"The level of {survey_type.text[survey]} per day below which half of the population live."
+    df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
+    df_tables.loc[
+        j, "dataPublishedBy"
+    ] = "World Bank Poverty and Inequality Platform (PIP)"
+    df_tables.loc[j, "unit"] = "international-$ in 2017 prices"
+    df_tables.loc[j, "shortUnit"] = "$"
+    df_tables.loc[j, "tolerance"] = 5
+    df_tables.loc[j, "type"] = "Numeric"
+    df_tables.loc[j, "colorScaleNumericMinValue"] = 0
+    df_tables.loc[j, "colorScaleNumericBins"] = "1;2;5;10;20;50;100"
+    df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
+    df_tables.loc[j, "colorScaleScheme"] = "Blues"
+    df_tables.loc[j, "survey_type"] = survey_type["table_name"][survey]
+    j += 1
+
+    for dec9 in range(len(deciles9)):
+        # thresholds
+        df_tables.loc[j, "name"] = deciles9.ordinal[dec9].capitalize()
+        df_tables.loc[j, "slug"] = f"decile{deciles9.decile[dec9]}_thr"
+        df_tables.loc[
+            j, "sourceName"
+        ] = "World Bank Poverty and Inequality Platform (2022)"
+        df_tables.loc[
+            j, "description"
+        ] = f"The level of {survey_type.text[survey]} per day below which {deciles9.decile[dec9]}0% of the population falls."
+        df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
+        df_tables.loc[
+            j, "dataPublishedBy"
+        ] = "World Bank Poverty and Inequality Platform (PIP)"
+        df_tables.loc[j, "unit"] = "international-$ in 2017 prices"
+        df_tables.loc[j, "shortUnit"] = "$"
+        df_tables.loc[j, "tolerance"] = 5
+        df_tables.loc[j, "type"] = "Numeric"
+        df_tables.loc[j, "colorScaleNumericMinValue"] = 0
+        df_tables.loc[j, "colorScaleNumericBins"] = "1;2;5;10;20;50;100"
+        df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
+        df_tables.loc[j, "colorScaleScheme"] = "Purples"
+        df_tables.loc[j, "survey_type"] = survey_type["table_name"][survey]
+        j += 1
+
+    for dec10 in range(len(deciles10)):
+        # averages
+        df_tables.loc[j, "name"] = deciles10.ordinal[dec10].capitalize()
+        df_tables.loc[j, "slug"] = f"decile{deciles10.decile[dec10]}_avg"
+        df_tables.loc[
+            j, "sourceName"
+        ] = "World Bank Poverty and Inequality Platform (2022)"
+        df_tables.loc[
+            j, "description"
+        ] = f"The mean {survey_type.text[survey]} per day within the {deciles10.ordinal[dec10]} (tenth of the population)."
+        df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
+        df_tables.loc[
+            j, "dataPublishedBy"
+        ] = "World Bank Poverty and Inequality Platform (PIP)"
+        df_tables.loc[j, "unit"] = "international-$ in 2017 prices"
+        df_tables.loc[j, "shortUnit"] = "$"
+        df_tables.loc[j, "tolerance"] = 5
+        df_tables.loc[j, "type"] = "Numeric"
+        df_tables.loc[j, "colorScaleNumericMinValue"] = 0
+        df_tables.loc[j, "colorScaleNumericBins"] = "1;2;5;10;20;50;100"
+        df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
+        df_tables.loc[j, "colorScaleScheme"] = "Greens"
+        df_tables.loc[j, "survey_type"] = survey_type["table_name"][survey]
+        j += 1
+
+    for dec10 in range(len(deciles10)):
+        # shares
+        df_tables.loc[j, "name"] = deciles10.ordinal[dec10].capitalize()
+        df_tables.loc[j, "slug"] = f"decile{deciles10.decile[dec10]}_share"
+        df_tables.loc[
+            j, "sourceName"
+        ] = "World Bank Poverty and Inequality Platform (2022)"
+        df_tables.loc[
+            j, "description"
+        ] = f"The {survey_type.text[survey]} of the {deciles10.ordinal[dec10]} (tenth of the population) as a share of total {survey_type.text[survey]}."
+        df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
+        df_tables.loc[
+            j, "dataPublishedBy"
+        ] = "World Bank Poverty and Inequality Platform (PIP)"
+        df_tables.loc[j, "unit"] = "%"
+        df_tables.loc[j, "shortUnit"] = "%"
+        df_tables.loc[j, "tolerance"] = 5
+        df_tables.loc[j, "type"] = "Numeric"
+        df_tables.loc[j, "colorScaleNumericMinValue"] = 0
+        df_tables.loc[j, "colorScaleNumericBins"] = deciles10.scale_share[dec10]
+        df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
+        df_tables.loc[j, "colorScaleScheme"] = "OrRd"
+        df_tables.loc[j, "survey_type"] = survey_type["table_name"][survey]
+        j += 1
+
+    # Aggregations
     for agg in range(len(income_aggregation)):
         # mean
         df_tables.loc[
@@ -192,7 +313,9 @@ for survey in range(len(survey_type)):
             df_tables.loc[j, "tolerance"] = 5
             df_tables.loc[j, "type"] = "Numeric"
             df_tables.loc[j, "colorScaleNumericMinValue"] = 0
-            df_tables.loc[j, "colorScaleNumericBins"] = income_aggregation.scale[agg]
+            df_tables.loc[j, "colorScaleNumericBins"] = deciles10[
+                f"scale_avg_{income_aggregation.aggregation[agg]}"
+            ][dec10]
             df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
             df_tables.loc[j, "colorScaleScheme"] = "Greens"
             df_tables.loc[
@@ -200,31 +323,6 @@ for survey in range(len(survey_type)):
             ] = f"multiplyBy decile{deciles10.decile[dec10]}_avg {income_aggregation.multiplier[agg]}"
             df_tables.loc[j, "survey_type"] = survey_type["table_name"][survey]
             j += 1
-
-    for dec10 in range(len(deciles10)):
-        # shares
-        df_tables.loc[j, "name"] = deciles10.ordinal[dec10].capitalize()
-        df_tables.loc[j, "slug"] = f"decile{deciles10.decile[dec10]}_share"
-        df_tables.loc[
-            j, "sourceName"
-        ] = "World Bank Poverty and Inequality Platform (2022)"
-        df_tables.loc[
-            j, "description"
-        ] = f"The {survey_type.text[survey]} of the {deciles10.ordinal[dec10]} (tenth of the population) as a share of total {survey_type.text[survey]}."
-        df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
-        df_tables.loc[
-            j, "dataPublishedBy"
-        ] = "World Bank Poverty and Inequality Platform (PIP)"
-        df_tables.loc[j, "unit"] = "%"
-        df_tables.loc[j, "shortUnit"] = "%"
-        df_tables.loc[j, "tolerance"] = 5
-        df_tables.loc[j, "type"] = "Numeric"
-        df_tables.loc[j, "colorScaleNumericMinValue"] = 0
-        df_tables.loc[j, "colorScaleNumericBins"] = deciles10.scale_share[dec10]
-        df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
-        df_tables.loc[j, "colorScaleScheme"] = "OrRd"
-        df_tables.loc[j, "survey_type"] = survey_type["table_name"][survey]
-        j += 1
 
 # Make tolerance integer (to not break the parameter in the platform)
 df_tables["tolerance"] = df_tables["tolerance"].astype("Int64")

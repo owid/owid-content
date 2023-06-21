@@ -264,7 +264,6 @@ for tab in range(len(tables)):
                 df_tables.loc[
                     j, "transform"
                 ] = f"multiplyBy median_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} {income_aggregation['multiplier'][agg]}"
-
                 j += 1
 
                 # Thresholds - Deciles
@@ -288,7 +287,6 @@ for tab in range(len(tables)):
                     df_tables.loc[
                         j, "transform"
                     ] = f"multiplyBy thr_{deciles9['lis_notation'][dec9]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} {income_aggregation['multiplier'][agg]}"
-
                     j += 1
 
                 # Averages - Deciles
