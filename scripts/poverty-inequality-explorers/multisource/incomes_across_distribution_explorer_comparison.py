@@ -425,7 +425,7 @@ for tab in range(len(merged_tables)):
         df_tables_wid.loc[j, "unit"] = "international-$ in 2021 prices"
         df_tables_wid.loc[j, "shortUnit"] = "$"
         df_tables_wid.loc[j, "type"] = "Numeric"
-        df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare["scale_mean"][wel]
+        # df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare["scale_mean"][wel]
         df_tables_wid.loc[j, "colorScaleScheme"] = "BuGn"
         j += 1
 
@@ -440,7 +440,7 @@ for tab in range(len(merged_tables)):
         df_tables_wid.loc[j, "unit"] = "international-$ in 2021 prices"
         df_tables_wid.loc[j, "shortUnit"] = "$"
         df_tables_wid.loc[j, "type"] = "Numeric"
-        df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare["scale_median"][wel]
+        # df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare["scale_median"][wel]
         df_tables_wid.loc[j, "colorScaleScheme"] = "Blues"
         j += 1
 
@@ -458,9 +458,9 @@ for tab in range(len(merged_tables)):
             df_tables_wid.loc[j, "unit"] = "international-$ in 2021 prices"
             df_tables_wid.loc[j, "shortUnit"] = "$"
             df_tables_wid.loc[j, "type"] = "Numeric"
-            df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_deciles9["scale_thr"][
-                dec9
-            ]
+            # df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_deciles9["scale_thr"][
+            #     dec9
+            # ]
             df_tables_wid.loc[j, "colorScaleScheme"] = "Purples"
             j += 1
 
@@ -478,9 +478,9 @@ for tab in range(len(merged_tables)):
             df_tables_wid.loc[j, "unit"] = "international-$ in 2021 prices"
             df_tables_wid.loc[j, "shortUnit"] = "$"
             df_tables_wid.loc[j, "type"] = "Numeric"
-            df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_deciles10["scale_avg"][
-                dec10
-            ]
+            # df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_deciles10["scale_avg"][
+            #     dec10
+            # ]
             df_tables_wid.loc[j, "colorScaleScheme"] = "Greens"
             j += 1
 
@@ -498,9 +498,9 @@ for tab in range(len(merged_tables)):
             df_tables_wid.loc[j, "unit"] = "%"
             df_tables_wid.loc[j, "shortUnit"] = "%"
             df_tables_wid.loc[j, "type"] = "Numeric"
-            df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_deciles10[
-                "scale_share"
-            ][dec10]
+            # df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_deciles10[
+            #     "scale_share"
+            # ][dec10]
             df_tables_wid.loc[j, "colorScaleScheme"] = "OrRd"
             j += 1
 
@@ -519,9 +519,9 @@ for tab in range(len(merged_tables)):
             df_tables_wid.loc[j, "unit"] = "international-$ in 2021 prices"
             df_tables_wid.loc[j, "shortUnit"] = "$"
             df_tables_wid.loc[j, "type"] = "Numeric"
-            df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare["scale_mean"][
-                wel
-            ]
+            # df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare["scale_mean"][
+            #     wel
+            # ]
             df_tables_wid.loc[j, "colorScaleScheme"] = "BuGn"
             df_tables_wid.loc[
                 j, "transform"
@@ -541,9 +541,9 @@ for tab in range(len(merged_tables)):
             df_tables_wid.loc[j, "unit"] = "international-$ in 2021 prices"
             df_tables_wid.loc[j, "shortUnit"] = "$"
             df_tables_wid.loc[j, "type"] = "Numeric"
-            df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare["scale_median"][
-                wel
-            ]
+            # df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare["scale_median"][
+            #     wel
+            # ]
             df_tables_wid.loc[j, "colorScaleScheme"] = "Blues"
             df_tables_wid.loc[
                 j, "transform"
@@ -564,9 +564,9 @@ for tab in range(len(merged_tables)):
                 df_tables_wid.loc[j, "unit"] = "international-$ in 2021 prices"
                 df_tables_wid.loc[j, "shortUnit"] = "$"
                 df_tables_wid.loc[j, "type"] = "Numeric"
-                df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_deciles9[
-                    "scale_thr"
-                ][dec9]
+                # df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_deciles9[
+                #     "scale_thr"
+                # ][dec9]
                 df_tables_wid.loc[j, "colorScaleScheme"] = "Purples"
                 df_tables_wid.loc[
                     j, "transform"
@@ -587,9 +587,9 @@ for tab in range(len(merged_tables)):
                 df_tables_wid.loc[j, "unit"] = "international-$ in 2021 prices"
                 df_tables_wid.loc[j, "shortUnit"] = "$"
                 df_tables_wid.loc[j, "type"] = "Numeric"
-                df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_deciles10[
-                    "scale_avg"
-                ][dec10]
+                # df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_deciles10[
+                #     "scale_avg"
+                # ][dec10]
                 df_tables_wid.loc[j, "colorScaleScheme"] = "Greens"
                 df_tables_wid.loc[
                     j, "transform"
