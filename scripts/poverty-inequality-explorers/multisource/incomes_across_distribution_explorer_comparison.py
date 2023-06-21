@@ -677,9 +677,9 @@ for tab in range(len(merged_tables)):
                 df_tables_lis.loc[j, "unit"] = "international-$ in 2017 prices"
                 df_tables_lis.loc[j, "shortUnit"] = "$"
                 df_tables_lis.loc[j, "type"] = "Numeric"
-                df_tables_lis.loc[j, "colorScaleNumericBins"] = lis_deciles9[
-                    "scale_thr"
-                ][dec9]
+                # df_tables_lis.loc[j, "colorScaleNumericBins"] = lis_deciles9[
+                #     "scale_thr"
+                # ][dec9]
                 df_tables_lis.loc[j, "colorScaleScheme"] = "Purples"
                 df_tables_lis.loc[j, "equivalized"] = lis_equivalence_scales["text"][eq]
                 j += 1
@@ -698,9 +698,9 @@ for tab in range(len(merged_tables)):
                 df_tables_lis.loc[j, "unit"] = "international-$ in 2017 prices"
                 df_tables_lis.loc[j, "shortUnit"] = "$"
                 df_tables_lis.loc[j, "type"] = "Numeric"
-                df_tables_lis.loc[j, "colorScaleNumericBins"] = lis_deciles10[
-                    "scale_avg"
-                ][dec10]
+                # df_tables_lis.loc[j, "colorScaleNumericBins"] = lis_deciles10[
+                #     "scale_avg"
+                # ][dec10]
                 df_tables_lis.loc[j, "colorScaleScheme"] = "Greens"
                 df_tables_lis.loc[j, "equivalized"] = lis_equivalence_scales["text"][eq]
                 j += 1
@@ -719,9 +719,9 @@ for tab in range(len(merged_tables)):
                 df_tables_lis.loc[j, "unit"] = "%"
                 df_tables_lis.loc[j, "shortUnit"] = "%"
                 df_tables_lis.loc[j, "type"] = "Numeric"
-                df_tables_lis.loc[j, "colorScaleNumericBins"] = lis_deciles10[
-                    "scale_share"
-                ][dec10]
+                # df_tables_lis.loc[j, "colorScaleNumericBins"] = lis_deciles10[
+                #     "scale_share"
+                # ][dec10]
                 df_tables_lis.loc[j, "colorScaleScheme"] = "OrRd"
                 df_tables_lis.loc[j, "equivalized"] = lis_equivalence_scales["text"][eq]
                 j += 1
@@ -741,9 +741,9 @@ for tab in range(len(merged_tables)):
                 df_tables_lis.loc[j, "unit"] = "international-$ in 2017 prices"
                 df_tables_lis.loc[j, "shortUnit"] = "$"
                 df_tables_lis.loc[j, "type"] = "Numeric"
-                df_tables_lis.loc[j, "colorScaleNumericBins"] = lis_welfare[
-                    "scale_mean"
-                ][wel]
+                # df_tables_lis.loc[j, "colorScaleNumericBins"] = lis_welfare[
+                #     "scale_mean"
+                # ][wel]
                 df_tables_lis.loc[j, "colorScaleScheme"] = "BuGn"
                 df_tables_lis.loc[
                     j, "transform"
@@ -764,9 +764,9 @@ for tab in range(len(merged_tables)):
                 df_tables_lis.loc[j, "unit"] = "international-$ in 2017 prices"
                 df_tables_lis.loc[j, "shortUnit"] = "$"
                 df_tables_lis.loc[j, "type"] = "Numeric"
-                df_tables_lis.loc[j, "colorScaleNumericBins"] = lis_welfare[
-                    "scale_median"
-                ][wel]
+                # df_tables_lis.loc[j, "colorScaleNumericBins"] = lis_welfare[
+                #     "scale_median"
+                # ][wel]
                 df_tables_lis.loc[j, "colorScaleScheme"] = "Blues"
                 df_tables_lis.loc[
                     j, "transform"
@@ -788,9 +788,9 @@ for tab in range(len(merged_tables)):
                     df_tables_lis.loc[j, "unit"] = "international-$ in 2017 prices"
                     df_tables_lis.loc[j, "shortUnit"] = "$"
                     df_tables_lis.loc[j, "type"] = "Numeric"
-                    df_tables_lis.loc[j, "colorScaleNumericBins"] = lis_deciles9[
-                        "scale_thr"
-                    ][dec9]
+                    # df_tables_lis.loc[j, "colorScaleNumericBins"] = lis_deciles9[
+                    #     "scale_thr"
+                    # ][dec9]
                     df_tables_lis.loc[j, "colorScaleScheme"] = "Purples"
                     df_tables_lis.loc[
                         j, "transform"
@@ -814,9 +814,9 @@ for tab in range(len(merged_tables)):
                     df_tables_lis.loc[j, "unit"] = "international-$ in 2017 prices"
                     df_tables_lis.loc[j, "shortUnit"] = "$"
                     df_tables_lis.loc[j, "type"] = "Numeric"
-                    df_tables_lis.loc[j, "colorScaleNumericBins"] = lis_deciles10[
-                        "scale_avg"
-                    ][dec10]
+                    # df_tables_lis.loc[j, "colorScaleNumericBins"] = lis_deciles10[
+                    #     "scale_avg"
+                    # ][dec10]
                     df_tables_lis.loc[j, "colorScaleScheme"] = "Greens"
                     df_tables_lis.loc[
                         j, "transform"
