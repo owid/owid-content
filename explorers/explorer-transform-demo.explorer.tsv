@@ -1,0 +1,39 @@
+explorerTitle	Explorer transforms demo
+isPublished	false
+explorerSubtitle	It's a demo, you know?
+entityType	region
+selection	World
+yAxisMin	0
+graphers
+	Type Dropdown	type	ySlugs	title	selectedFacetStrategy
+	Base data only	LineChart	base	Something
+	All big values	LineChart	base times_2 rolling subtract where	Something and another
+	All small values	LineChart	per_capita percentage_of time_since percent_change	Something else
+	All (faceted)	LineChart	base times_2 rolling subtract where per_capita percentage_of time_since percent_change	Something faceted	metric
+table
+	entityName	year	base	population
+	World	2000	200000000	6148898816
+	World	2001	191000000	6230747136
+	World	2002	187500000	6312407552
+	World	2003	214000000	6393898496
+	World	2004	189000000	6475751424
+	World	2005	201000000	6558176256
+	World	2006	210500000	6641416192
+	World	2007	252000000	6725948416
+	World	2008	212000000	6811597312
+	World	2009	207000000	6898306048
+	World	2010	201900000	6985603072
+
+columns
+	slug	name	type	transform	color
+	entityName	Country	EntityName
+	year	Year	Year
+	base	Base variable	Integer		#000000
+	per_capita	divideBy population	Numeric	divideBy base population
+	times_2	multiplyBy 2	Numeric	multiplyBy base 2
+	rolling	rollingAverage 7	Numeric	rollingAverage year entityName base 7
+	percentage_of	asPercentageOf population	Percentage	asPercentageOf base population
+	subtract	subtract (rolling - base)	Numeric	subtract rolling base
+	percent_change	percentChange	Percentage	percentChange year entityName base 7
+	time_since	timeSinceEntityExceededThreshold	Integer	timeSinceEntityExceededThreshold year entityName base 210000000
+	where	where	Integer	base where base isGreaterThanOrEqual 200000000
