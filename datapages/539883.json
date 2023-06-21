@@ -45,6 +45,14 @@
     ],
     "relatedData": [
         {
+            "type": "Data Explorer",
+            "title": "Population & Demography Data Explorer",
+            "url": "https://ourworldindata.org/explorers/population-and-demography",
+            "source": "United Nations, World Population Prospects, 2022"
+            "content": "Explore a range of deomgraphic indicators and projections, broken down by sex and age group.",
+            "featured": true
+        },        
+        {
             "title": "Share of deaths for which the cause is registered",
             "source": "WHO, Global Health Observatory, 2022",
             "url": "https://ourworldindata.org/grapher/share-of-deaths-cause-is-registered",
@@ -55,8 +63,7 @@
             "title": "Share of births that are registered",
             "url": "https://ourworldindata.org/grapher/share-of-births-registered",
             "source": "UNICEF",
-            "content": "The percentage of children under age 5 whose births were registered at the time of the survey.",
-            "featured": true
+            "content": "The percentage of children under age 5 whose births were registered at the time of the survey."
         },
         {
             "title": "Deaths registered with an ill-defined cause of death",
@@ -68,12 +75,6 @@
             "title": "World population living in countries with cause-of-death registration",
             "url": "https://ourworldindata.org/grapher/cause-of-death-registration-population?country=RUS~NZL~EGY~NIC~IRQ~QAT~CHN~USA~DEU~IND~MYS",
             "source": "WHO, Global Health Observatory, 2022"
-        },
-        {
-            "type": "Data Explorer",
-            "title": "Population & Demography Data Explorer",
-            "url": "https://ourworldindata.org/explorers/population-and-demography",
-            "source": "United Nations, World Population Prospects, 2022"
         }
     ],
     "sources": [
