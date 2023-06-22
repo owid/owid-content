@@ -393,7 +393,7 @@ df_spells = df_spells[~df_spells["master_var"].str.contains("_year")].reset_inde
     drop=True
 )
 
-# Create new rows for monthly and yearly aggregations
+# Create new rows for daily, monthly and yearly aggregations
 # Drop shares, because they are not aggregated
 df_spells_agg = (
     df_spells[~df_spells["master_var"].str.contains("_share")]
@@ -401,22 +401,46 @@ df_spells_agg = (
     .reset_index(drop=True)
 )
 
-# Create monthly columns
-df_spells_month = df_spells_agg.copy()
-df_spells_month["transform"] = "multiplyBy " + df_spells_month["slug"] + " 30"
-df_spells_month["slug"] = df_spells_month["slug"] + "_month"
-df_spells_month["description"] = df_spells_month["description"].str.replace(
-    "day", "month"
-)
-
-# Create yearly columns
-df_spells_year = df_spells_agg.copy()
-df_spells_year["transform"] = "multiplyBy " + df_spells_year["slug"] + " 365"
-df_spells_year["slug"] = df_spells_year["slug"] + "_year"
-df_spells_year["description"] = df_spells_year["description"].str.replace("day", "year")
+# Create columns for each aggregation
+df_spells_consolidated = pd.DataFrame()
+for agg in range(len(income_aggregation)):
+    df_spells_period = df_spells_agg.copy()
+    df_spells_period["transform"] = (
+        "multiplyBy "
+        + df_spells_period["slug"]
+        + " "
+        + income_aggregation["multiplier"][agg]
+    )
+    df_spells_period["slug"] = (
+        df_spells_period["slug"] + income_aggregation["slug_suffix"][agg]
+    )
+    df_spells_period["description"] = df_spells_period["description"].str.replace(
+        "day", income_aggregation["aggregation"][agg]
+    )
+    df_spells_consolidated = pd.concat(
+        [df_spells_consolidated, df_spells_period], ignore_index=True
+    )
 
 # Concatenate all the spells tables
-df_spells = pd.concat([df_spells, df_spells_month, df_spells_year], ignore_index=True)
+df_spells = pd.concat([df_spells, df_spells_consolidated], ignore_index=True)
+
+
+# # Create monthly columns
+# df_spells_month = df_spells_agg.copy()
+# df_spells_month["transform"] = "multiplyBy " + df_spells_month["slug"] + " 30"
+# df_spells_month["slug"] = df_spells_month["slug"] + "_month"
+# df_spells_month["description"] = df_spells_month["description"].str.replace(
+#     "day", "month"
+# )
+
+# # Create yearly columns
+# df_spells_year = df_spells_agg.copy()
+# df_spells_year["transform"] = "multiplyBy " + df_spells_year["slug"] + " 365"
+# df_spells_year["slug"] = df_spells_year["slug"] + "_year"
+# df_spells_year["description"] = df_spells_year["description"].str.replace("day", "year")
+
+# # Concatenate all the spells tables
+# df_spells = pd.concat([df_spells, df_spells_month, df_spells_year], ignore_index=True)
 
 # Make tolerance integer (to not break the parameter in the platform)
 df_spells["tolerance"] = df_spells["tolerance"].astype("Int64")
@@ -784,20 +808,34 @@ df_graphers_spells = df_graphers_spells[
     ~(df_graphers_spells["Decile Dropdown"] == "All deciles")
 ].reset_index(drop=True)
 
-df_graphers_spells.loc[
-    df_graphers_spells["tableSlug"].str.contains("_month"), ["ySlugs"]
-] = "consumption_spell_1_month consumption_spell_2_month consumption_spell_3_month consumption_spell_4_month consumption_spell_5_month consumption_spell_6_month income_spell_1_month income_spell_2_month income_spell_3_month income_spell_4_month income_spell_5_month income_spell_6_month income_spell_7_month"
-df_graphers_spells.loc[
-    df_graphers_spells["tableSlug"].str.contains("_year"), ["ySlugs"]
-] = "consumption_spell_1_year consumption_spell_2_year consumption_spell_3_year consumption_spell_4_year consumption_spell_5_year consumption_spell_6_year income_spell_1_year income_spell_2_year income_spell_3_year income_spell_4_year income_spell_5_year income_spell_6_year income_spell_7_year"
+# Modify views to be able to see spells
+for agg in range(len(income_aggregation)):
+    df_graphers_spells.loc[
+        df_graphers_spells["tableSlug"].str.contains(
+            income_aggregation["slug_suffix"][agg]
+        ),
+        ["ySlugs"],
+    ] = f"consumption_spell_1{income_aggregation['slug_suffix'][agg]} consumption_spell_2{income_aggregation['slug_suffix'][agg]} consumption_spell_3{income_aggregation['slug_suffix'][agg]} consumption_spell_4{income_aggregation['slug_suffix'][agg]} consumption_spell_5{income_aggregation['slug_suffix'][agg]} consumption_spell_6{income_aggregation['slug_suffix'][agg]} income_spell_1{income_aggregation['slug_suffix'][agg]} income_spell_2{income_aggregation['slug_suffix'][agg]} income_spell_3{income_aggregation['slug_suffix'][agg]} income_spell_4{income_aggregation['slug_suffix'][agg]} income_spell_5{income_aggregation['slug_suffix'][agg]} income_spell_6{income_aggregation['slug_suffix'][agg]} income_spell_7{income_aggregation['slug_suffix'][agg]}"
+    # Modify tableSlug to redirect aggregation views to original tables
+    df_graphers_spells["tableSlug"] = df_graphers_spells["tableSlug"].str.removesuffix(
+        income_aggregation["slug_suffix"][agg]
+    )
 
-# Modify tableSlug to redirect _month and _year to the daily tables
-df_graphers_spells["tableSlug"] = df_graphers_spells["tableSlug"].str.removesuffix(
-    "_month"
-)
-df_graphers_spells["tableSlug"] = df_graphers_spells["tableSlug"].str.removesuffix(
-    "_year"
-)
+# df_graphers_spells.loc[
+#     df_graphers_spells["tableSlug"].str.contains("_month"), ["ySlugs"]
+# ] = "consumption_spell_1_month consumption_spell_2_month consumption_spell_3_month consumption_spell_4_month consumption_spell_5_month consumption_spell_6_month income_spell_1_month income_spell_2_month income_spell_3_month income_spell_4_month income_spell_5_month income_spell_6_month income_spell_7_month"
+
+# df_graphers_spells.loc[
+#     df_graphers_spells["tableSlug"].str.contains("_year"), ["ySlugs"]
+# ] = "consumption_spell_1_year consumption_spell_2_year consumption_spell_3_year consumption_spell_4_year consumption_spell_5_year consumption_spell_6_year income_spell_1_year income_spell_2_year income_spell_3_year income_spell_4_year income_spell_5_year income_spell_6_year income_spell_7_year"
+
+# # Modify tableSlug to redirect _month and _year to the daily tables
+# df_graphers_spells["tableSlug"] = df_graphers_spells["tableSlug"].str.removesuffix(
+#     "_month"
+# )
+# df_graphers_spells["tableSlug"] = df_graphers_spells["tableSlug"].str.removesuffix(
+#     "_year"
+# )
 
 df_graphers = pd.concat([df_graphers, df_graphers_spells], ignore_index=True)
 
