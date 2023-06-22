@@ -473,7 +473,7 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
     df_graphers.loc[
         j, "subtitle"
-    ] = f"The Palma ratio is the share of total {survey_type.text[survey]} of the richest 10% divided by the share of the poorest 40%."
+    ] = f"The Palma ratio is the share of total {survey_type.text[survey]} received by the richest 10% divided by the share of the poorest 40%."
     df_graphers.loc[
         j, "note"
     ] = f"Depending on the country and year, the data relates to disposable {survey_type.text[survey]} per capita."
@@ -487,7 +487,7 @@ for survey in range(len(survey_type)):
     j += 1
 
     # Headcount ratio (rel)
-    df_graphers.loc[j, "title"] = f"Share in relative poverty"
+    df_graphers.loc[j, "title"] = f"Share of people in relative poverty"
     df_graphers.loc[j, "ySlugs"] = f"headcount_ratio_50_median"
     df_graphers.loc[j, "Indicator Dropdown"] = f"Share in relative poverty"
     df_graphers.loc[

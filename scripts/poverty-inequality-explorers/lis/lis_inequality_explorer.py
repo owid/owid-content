@@ -427,7 +427,7 @@ for tab in range(len(tables)):
             ] = equivalence_scales["checkbox"][eq]
             df_graphers.loc[
                 j, "subtitle"
-            ] = f"The share of {welfare['welfare_type'][wel]} of the richest 10% divided by the share of the poorest 40%. {welfare['subtitle'][wel]}"
+            ] = f"The share of {welfare['welfare_type'][wel]} received by the richest 10% divided by the share of the poorest 40%. {welfare['subtitle'][wel]}"
             df_graphers.loc[j, "note"] = equivalence_scales["note"][eq]
             df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
             df_graphers.loc[j, "hasMapTab"] = "true"
@@ -437,7 +437,7 @@ for tab in range(len(tables)):
             # Headcount ratio (rel)
             df_graphers.loc[
                 j, "title"
-            ] = f"Share in relative poverty ({welfare['title'][wel]})"
+            ] = f"Share of people in relative poverty ({welfare['title'][wel]})"
             df_graphers.loc[
                 j, "ySlugs"
             ] = f"headcount_ratio_50_median_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
@@ -451,7 +451,7 @@ for tab in range(len(tables)):
             ] = equivalence_scales["checkbox"][eq]
             df_graphers.loc[
                 j, "subtitle"
-            ] = f"The share of the population with {welfare['welfare_type'][wel]} below 50% of the median. Relative poverty is a measure of the extent of inequality within the bottom of the distribution. {welfare['subtitle'][wel]}"
+            ] = f"The share of the population with {welfare['welfare_type'][wel]} below 50% of the median. Relative poverty reflects the extent of inequality within the bottom of the distribution. {welfare['subtitle'][wel]}"
             df_graphers.loc[j, "note"] = equivalence_scales["note"][eq]
             df_graphers.loc[j, "type"] = np.nan
             df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -599,7 +599,7 @@ for tab in range(len(tables)):
         ] = equivalence_scales["checkbox"][eq]
         df_graphers.loc[
             j, "subtitle"
-        ] = f"The share of income of the richest 10% divided by the share of the poorest 40%."
+        ] = f"The share of income received by the richest 10% divided by the share of the poorest 40%."
         df_graphers.loc[j, "note"] = equivalence_scales["note"][eq]
         df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
         df_graphers.loc[j, "hasMapTab"] = "false"
@@ -609,7 +609,7 @@ for tab in range(len(tables)):
         # Headcount ratio (rel)
         df_graphers.loc[
             j, "title"
-        ] = f"Share in relative poverty (after tax vs. before tax)"
+        ] = f"Share of people in relative poverty (after tax vs. before tax)"
         df_graphers.loc[
             j, "ySlugs"
         ] = f"headcount_ratio_50_median_mi_{equivalence_scales['slug'][eq]} headcount_ratio_50_median_dhi_{equivalence_scales['slug'][eq]}"
@@ -621,7 +621,7 @@ for tab in range(len(tables)):
         ] = equivalence_scales["checkbox"][eq]
         df_graphers.loc[
             j, "subtitle"
-        ] = f"The share of the population with {welfare['welfare_type'][wel]} below 50% of the median. Relative poverty is a measure of the extent of inequality within the bottom of the distribution."
+        ] = f"The share of the population with {welfare['welfare_type'][wel]} below 50% of the median. Relative poverty reflects the extent of inequality within the bottom of the distribution."
         df_graphers.loc[j, "note"] = equivalence_scales["note"][eq]
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
