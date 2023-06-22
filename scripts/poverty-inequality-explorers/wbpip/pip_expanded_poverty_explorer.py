@@ -527,6 +527,28 @@ for i in range(len(df_tables)):
         df_spells.loc[j, "survey_type"] = df_tables.survey_type[i]
         j += 1
 
+# Create new rows for total shortfall, which is converted to a yearly value
+
+# Delete rows that have yearly data (there are no files names as such)
+df_spells = df_spells[~df_spells["master_var"].str.contains("_year")].reset_index(
+    drop=True
+)
+
+# Create a new dataframe df_spells_shortfall, which keeps master_var that contains total_shortfall
+df_spells_shortfall = df_spells[
+    df_spells["master_var"].str.contains("total_shortfall")
+].reset_index(drop=True)
+
+# Create yearly columns
+df_spells_shortfall["transform"] = "multiplyBy " + df_spells_shortfall["slug"] + " 365"
+df_spells_shortfall["slug"] = df_spells_shortfall["slug"] + "_year"
+df_spells_shortfall["description"] = df_spells_shortfall["description"].str.replace(
+    "day", "year"
+)
+
+# Concatenate all the spells tables
+df_spells = pd.concat([df_spells, df_spells_shortfall], ignore_index=True)
+
 # Make tolerance integer (to not break the parameter in the platform)
 df_spells["tolerance"] = df_spells["tolerance"].astype("Int64")
 
@@ -1076,8 +1098,19 @@ df_graphers_spells = df_graphers_spells[
     ~(df_graphers_spells["Poverty line Dropdown"] == "Multiple lines")
 ].reset_index(drop=True)
 
-df_graphers = pd.concat([df_graphers, df_graphers_spells], ignore_index=True)
+# Modify views to be able to see spells for aggregated data
 
+# Add suffix to ySlugs
+df_graphers_spells.loc[
+    df_graphers_spells["tableSlug"].str.contains("_year"), ["ySlugs"]
+] = "consumption_spell_1_year consumption_spell_2_year consumption_spell_3_year consumption_spell_4_year consumption_spell_5_year consumption_spell_6_year income_spell_1_year income_spell_2_year income_spell_3_year income_spell_4_year income_spell_5_year income_spell_6_year income_spell_7_year"
+
+# Remove suffix from tableSlug
+df_graphers_spells["tableSlug"] = df_graphers_spells["tableSlug"].str.removesuffix(
+    "_year"
+)
+
+df_graphers = pd.concat([df_graphers, df_graphers_spells], ignore_index=True)
 
 # %% [markdown]
 # Final adjustments to the graphers table: add `relatedQuestion` link and `defaultView`:

@@ -808,7 +808,7 @@ df_graphers_spells = df_graphers_spells[
     ~(df_graphers_spells["Decile Dropdown"] == "All deciles")
 ].reset_index(drop=True)
 
-# Modify views to be able to see spells
+# Modify views to be able to see spells for aggregated data
 for agg in range(len(income_aggregation)):
     df_graphers_spells.loc[
         df_graphers_spells["tableSlug"].str.contains(
