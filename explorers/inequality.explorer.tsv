@@ -21,7 +21,7 @@ graphers
 	Palma ratio	palma_ratio	World Bank - Income after tax or consumption	Palma ratio	The share of after tax income or consumption of the richest 10% divided by the share of the poorest 40%.	Depending on the country and year, the data relates to income measured after taxes and benefits, or consumption.			true	map	pip_vars	0	2019			
 	Share in relative poverty	headcount_ratio_50_median	World Bank - Income after tax or consumption	Share in relative poverty	The share of population with after tax income or consumption below 50% of the median. Relative poverty is a measure of the extent of inequality within the bottom of the distribution.	Depending on the country and year, the data relates to income measured after taxes and benefits, or consumption.			true	map	pip_vars	0	2019			
 
-table	https://catalog.ourworldindata.org/explorers/poverty_inequality/2023-03-01/poverty_inequality/poverty_inequality.csv	pip_vars
+table	https://catalog.ourworldindata.org/explorers/poverty_inequality/2023-03-01/poverty_inequality/pip_inequality.csv	pip_vars
 columns	pip_vars
 	name	slug	type	description	unit	shortUnit	colorScaleNumericBins	colorScaleEqualSizeBins	colorScaleScheme	sourceName	dataPublishedBy	sourceLink	colorScaleNumericMinValue	tolerance
 	Country	country	EntityName							World Bank Poverty and Inequality Platform (2022)	World Bank. (2022). Poverty and Inequality Platform (version 20220909_2017_01_02_PROD) [Data set]. World Bank Group. https://pip.worldbank.org/. Accessed  2022-10-03.	https://pip.worldbank.org/	0	5
