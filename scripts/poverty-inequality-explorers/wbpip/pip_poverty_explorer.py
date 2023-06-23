@@ -197,7 +197,7 @@ for survey in range(len(survey_type)):
     df_tables.loc[j, "tolerance"] = 5
     df_tables.loc[j, "type"] = "Numeric"
     df_tables.loc[j, "colorScaleNumericMinValue"] = 0
-    df_tables.loc[j, "colorScaleNumericBins"] = "1;2;5;10;20;50;100;100.0001"
+    df_tables.loc[j, "colorScaleNumericBins"] = "1;2;5;10;20;50;100"
     df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
     df_tables.loc[j, "colorScaleScheme"] = "BuGn"
     df_tables.loc[j, "survey_type"] = survey_type["table_name"][survey]
@@ -219,7 +219,7 @@ for survey in range(len(survey_type)):
     df_tables.loc[j, "tolerance"] = 5
     df_tables.loc[j, "type"] = "Numeric"
     df_tables.loc[j, "colorScaleNumericMinValue"] = 0
-    df_tables.loc[j, "colorScaleNumericBins"] = "1;2;5;10;20;50;100;100.0001"
+    df_tables.loc[j, "colorScaleNumericBins"] = "1;2;5;10;20;50;100"
     df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
     df_tables.loc[j, "colorScaleScheme"] = "Blues"
     df_tables.loc[j, "survey_type"] = survey_type["table_name"][survey]
@@ -243,7 +243,7 @@ for survey in range(len(survey_type)):
     df_tables.loc[j, "tolerance"] = 5
     df_tables.loc[j, "type"] = "Numeric"
     df_tables.loc[j, "colorScaleNumericMinValue"] = 0
-    df_tables.loc[j, "colorScaleNumericBins"] = "1;2;5;10;20;50;100;100.0001"
+    df_tables.loc[j, "colorScaleNumericBins"] = "1;2;5;10;20;50"
     df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
     df_tables.loc[j, "colorScaleScheme"] = "Purples"
     df_tables.loc[j, "survey_type"] = survey_type["table_name"][survey]
@@ -267,7 +267,7 @@ for survey in range(len(survey_type)):
     df_tables.loc[j, "tolerance"] = 5
     df_tables.loc[j, "type"] = "Numeric"
     df_tables.loc[j, "colorScaleNumericMinValue"] = 0
-    df_tables.loc[j, "colorScaleNumericBins"] = "1;2;5;10;20;50;100;100.0001"
+    df_tables.loc[j, "colorScaleNumericBins"] = "1;2;5;10;20;50;100;200"
     df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
     df_tables.loc[j, "colorScaleScheme"] = "Purples"
     df_tables.loc[j, "survey_type"] = survey_type["table_name"][survey]
