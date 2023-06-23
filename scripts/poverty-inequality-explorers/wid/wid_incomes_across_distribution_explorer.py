@@ -338,9 +338,6 @@ for tab in range(len(tables)):
                 ][dec9]
                 df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
                 df_tables.loc[j, "colorScaleScheme"] = "Purples"
-                df_tables.loc[j, "colorScaleLegendDescription"] = {
-                    deciles9["ordinal"][dec9].capitalize()
-                }
                 df_tables.loc[
                     j, "transform"
                 ] = f"multiplyBy {deciles9['wid_notation'][dec9]}_thr_{welfare['slug'][wel]} {income_aggregation['multiplier'][agg]}"
