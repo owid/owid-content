@@ -11,55 +11,55 @@ subNavCurrentId	democracy-data
 graphers
 	grapherId	Dataset Dropdown	Metric Dropdown	Sub-metric Dropdown
 	5537	Varieties of Democracy	Electoral democracy	Main index
-	3461	Varieties of Democracy	Electoral democracy	Elected officials
+	3461	Varieties of Democracy	Electoral democracy	Elected political leaders index
 	3457	Varieties of Democracy	Electoral democracy	Share of adult citizens who have the right to vote
-	5538	Varieties of Democracy	Electoral democracy	Free and fair elections
-	5539	Varieties of Democracy	Electoral democracy	Freedom of association
-	5540	Varieties of Democracy	Electoral democracy	Freedom of expression
+	5538	Varieties of Democracy	Electoral democracy	Free and fair elections index
+	5539	Varieties of Democracy	Electoral democracy	Freedom of association index
+	5540	Varieties of Democracy	Electoral democracy	Freedom of expression index
 	5685	Varieties of Democracy	Electoral democracy	Main index weighted by population
 	5860	Varieties of Democracy	Electoral democracy	Main index distribution
 	5861	Varieties of Democracy	Electoral democracy	Main index distribution weighted by population
 	3376	Varieties of Democracy	Liberal democracy	Main index
-	5537	Varieties of Democracy	Liberal democracy	Electoral democracy
-	5736	Varieties of Democracy	Liberal democracy	Liberal political institutions
-	5615	Varieties of Democracy	Liberal democracy	Individual liberties and equality before the law
-	5741	Varieties of Democracy	Liberal democracy	Judicial constraints on the executive
-	5742	Varieties of Democracy	Liberal democracy	Legislative constraints on the executive
+	5537	Varieties of Democracy	Liberal democracy	Electoral democracy index
+	5736	Varieties of Democracy	Liberal democracy	Liberal political institutions index
+	5615	Varieties of Democracy	Liberal democracy	Individual liberties and equality before the law index
+	5741	Varieties of Democracy	Liberal democracy	Judicial constraints on the executive index
+	5742	Varieties of Democracy	Liberal democracy	Legislative constraints on the executive index
 	5684	Varieties of Democracy	Liberal democracy	­Main index weighted by population
 	5863	Varieties of Democracy	Liberal democracy	­Main index distribution
 	5862	Varieties of Democracy	Liberal democracy	­Main index distribution weighted by population
 	5743	Varieties of Democracy	Participatory democracy	Main index
-	5537	Varieties of Democracy	Participatory democracy	Electoral democracy
-	5687	Varieties of Democracy	Participatory democracy	Participatory political institutions
-	5747	Varieties of Democracy	Participatory democracy	Strong elected regional governments
-	5746	Varieties of Democracy	Participatory democracy	Strong elected local governments
-	5744	Varieties of Democracy	Participatory democracy	Civil society participation
-	5745	Varieties of Democracy	Participatory democracy	Direct popular voting
+	5537	Varieties of Democracy	Participatory democracy	Electoral democracy index
+	5687	Varieties of Democracy	Participatory democracy	Participatory political institutions index
+	5747	Varieties of Democracy	Participatory democracy	Strong elected regional governments index
+	5746	Varieties of Democracy	Participatory democracy	Strong elected local governments index
+	5744	Varieties of Democracy	Participatory democracy	Civil society participation index
+	5745	Varieties of Democracy	Participatory democracy	Direct popular voting index
 	5687	Varieties of Democracy	Participatory democracy	­­Main index weighted by population
 	5864	Varieties of Democracy	Participatory democracy	­­Main index distribution
 	5865	Varieties of Democracy	Participatory democracy	­­Main index distribution weighted by population
 	5689	Varieties of Democracy	Deliberative democracy	Main index
-	5537	Varieties of Democracy	Deliberative democracy	Electoral democracy
-	5748	Varieties of Democracy	Deliberative democracy	Deliberative political institutions
-	5749	Varieties of Democracy	Deliberative democracy	Justified political positions
-	5750	Varieties of Democracy	Deliberative democracy	Common good justifications
-	5751	Varieties of Democracy	Deliberative democracy	Respect for counterarguments
-	5752	Varieties of Democracy	Deliberative democracy	Elite consultations
-	5753	Varieties of Democracy	Deliberative democracy	Engaged society
+	5537	Varieties of Democracy	Deliberative democracy	Electoral democracy index
+	5748	Varieties of Democracy	Deliberative democracy	Deliberative political institutions index
+	5749	Varieties of Democracy	Deliberative democracy	Justified political positions score
+	5750	Varieties of Democracy	Deliberative democracy	Common good justifications score
+	5751	Varieties of Democracy	Deliberative democracy	Respect for counterarguments score
+	5752	Varieties of Democracy	Deliberative democracy	Elite consultations score
+	5753	Varieties of Democracy	Deliberative democracy	Engaged society score
 	5691	Varieties of Democracy	Deliberative democracy	­­­Main index weighted by population
 	5867	Varieties of Democracy	Deliberative democracy	­­­Main index distribution
 	5866	Varieties of Democracy	Deliberative democracy	­­­Main index distribution weighted by population
 	5688	Varieties of Democracy	Egalitarian democracy	Main index
-	5537	Varieties of Democracy	Egalitarian democracy	Electoral democracy
-	5754	Varieties of Democracy	Egalitarian democracy	Egalitarian political institutions
-	5755	Varieties of Democracy	Egalitarian democracy	Equal rights protection
-	5756	Varieties of Democracy	Egalitarian democracy	Equal access to power
-	5757	Varieties of Democracy	Egalitarian democracy	Equal resource distribution
+	5537	Varieties of Democracy	Egalitarian democracy	Electoral democracy index
+	5754	Varieties of Democracy	Egalitarian democracy	Egalitarian political institutions index
+	5755	Varieties of Democracy	Egalitarian democracy	Equal rights protection index
+	5756	Varieties of Democracy	Egalitarian democracy	Equal access to power index
+	5757	Varieties of Democracy	Egalitarian democracy	Equal resource distribution index
 	5692	Varieties of Democracy	Egalitarian democracy	­­­­Main index weighted by population
-	5844	Varieties of Democracy	Varieties of democracy	Main indices
-	5686	Varieties of Democracy	Varieties of democracy	Main indices weighted by population
 	5869	Varieties of Democracy	Egalitarian democracy	­­­­Main index distribution
 	5868	Varieties of Democracy	Egalitarian democracy	­­­­Main index distribution weighted by population
+	5844	Varieties of Democracy	Varieties of democracy	Main indices
+	5686	Varieties of Democracy	Varieties of democracy	Main indices weighted by population
 	3470	Regimes of the World	­Political regime	Main classification
 	5608	Regimes of the World	­Political regime	Number and share of democracies
 	5451	Regimes of the World	­Political regime	People living in democracies
@@ -120,11 +120,11 @@ graphers
 	5704	Boix-Miller-Rosato	Democracy with women's right to vote	People living in long-standing democracies
 	5709	Boix-Miller-Rosato	Democracy with women's right to vote	Experience with democracy
 	5789	Polity	­­­Democracy	Main index
-	5790	Polity	­­­Democracy	Competitiveness of executive recruitment
-	5791	Polity	­­­Democracy	Openness of executive recruitment
-	5792	Polity	­­­Democracy	Constraints on the executive
-	5795	Polity	­­­Democracy	Regulation of political participation
-	5794	Polity	­­­Democracy	Competitiveness of political participation
+	5790	Polity	­­­Democracy	Competitiveness of executive recruitment score
+	5791	Polity	­­­Democracy	Openness of executive recruitment score
+	5792	Polity	­­­Democracy	Constraints on the executive score
+	5795	Polity	­­­Democracy	Regulation of political participation score
+	5794	Polity	­­­Democracy	Competitiveness of political participation score
 	5793	Polity	­­­Democracy	­­­­­Main index weighted by population
 	5877	Polity	­­­Democracy	­­­­­Main index distribution
 	5871	Polity	­­­Democracy	­­­­­Main index distribution weighted by population
@@ -136,47 +136,47 @@ graphers
 	5802	Polity	­­­Political regime	People living in long-standing democracies
 	5804	Polity	­­­Political regime	Experience with democracy
 	5712	Freedom House	­­­­Freedom	Main classification
-	5725	Freedom House	­­­­Freedom	Political rights (score)
-	5726	Freedom House	­­­­Freedom	Political rights (rating)
-	5727	Freedom House	­­­­Freedom	Civil liberties (score)
-	5724	Freedom House	­­­­Freedom	Civil liberties (rating)
+	5725	Freedom House	­­­­Freedom	Political rights score
+	5726	Freedom House	­­­­Freedom	Political rights rating
+	5727	Freedom House	­­­­Freedom	Civil liberties score
+	5724	Freedom House	­­­­Freedom	Civil liberties rating
 	5786	Freedom House	­­­­Freedom	Number and share of free countries and territories
 	5720	Freedom House	­­­­Freedom	People living in free countries and territories
 	5713	Freedom House	­­­­Electoral democracy	Main classification
 	5787	Freedom House	­­­­Electoral democracy	Democratic electoral institutions
-	5725	Freedom House	­­­­Electoral democracy	­Political rights (score)
-	5726	Freedom House	­­­­Electoral democracy	­Political rights (rating)
-	5727	Freedom House	­­­­Electoral democracy	­Civil liberties (score)
-	5724	Freedom House	­­­­Electoral democracy	­Civil liberties (rating)
+	5725	Freedom House	­­­­Electoral democracy	Political rights score
+	5726	Freedom House	­­­­Electoral democracy	Political rights rating
+	5727	Freedom House	­­­­Electoral democracy	Civil liberties score
+	5724	Freedom House	­­­­Electoral democracy	Civil liberties rating
 	5717	Freedom House	­­­­Electoral democracy	­Number and share of democracies
 	5718	Freedom House	­­­­Electoral democracy	­People living in democracies
 	5814	Bertelsmann Transformation Index	­­­­­Democratic features	Main index
-	5815	Bertelsmann Transformation Index	­­­­­Democratic features	Stateness
-	5816	Bertelsmann Transformation Index	­­­­­Democratic features	Political participation
-	5817	Bertelsmann Transformation Index	­­­­­Democratic features	Rule of law
-	5818	Bertelsmann Transformation Index	­­­­­Democratic features	Stability of democratic institutions
-	5819	Bertelsmann Transformation Index	­­­­­Democratic features	Political and social integration
+	5815	Bertelsmann Transformation Index	­­­­­Democratic features	Stateness index
+	5816	Bertelsmann Transformation Index	­­­­­Democratic features	Political participation index
+	5817	Bertelsmann Transformation Index	­­­­­Democratic features	Rule of law index
+	5818	Bertelsmann Transformation Index	­­­­­Democratic features	Stability of democratic institutions index
+	5819	Bertelsmann Transformation Index	­­­­­Democratic features	Political and social integration index
 	5823	Bertelsmann Transformation Index	­­­­­Democratic features	­­­­­­Main index weighted by population
 	5872	Bertelsmann Transformation Index	­­­­­Democratic features	­­­­­­Main index distribution
 	5873	Bertelsmann Transformation Index	­­­­­Democratic features	­­­­­­Main index distribution weighted by population
 	5806	Bertelsmann Transformation Index	­­­­­Political regime	Main classification
-	5807	Bertelsmann Transformation Index	­­­­­Political regime	Basic state functions
-	5808	Bertelsmann Transformation Index	­­­­­Political regime	­­Free and fair elections
-	5809	Bertelsmann Transformation Index	­­­­­Political regime	Effective power to govern
-	5810	Bertelsmann Transformation Index	­­­­­Political regime	­Freedom of association
-	5811	Bertelsmann Transformation Index	­­­­­Political regime	­Freedom of expression
-	5812	Bertelsmann Transformation Index	­­­­­Political regime	Separation of powers
-	5813	Bertelsmann Transformation Index	­­­­­Political regime	Civil rights
+	5807	Bertelsmann Transformation Index	­­­­­Political regime	Basic state functions score
+	5808	Bertelsmann Transformation Index	­­­­­Political regime	­­Free and fair elections score
+	5809	Bertelsmann Transformation Index	­­­­­Political regime	Effective power to govern score
+	5810	Bertelsmann Transformation Index	­­­­­Political regime	­Freedom of association score
+	5811	Bertelsmann Transformation Index	­­­­­Political regime	­Freedom of expression score
+	5812	Bertelsmann Transformation Index	­­­­­Political regime	Separation of powers score
+	5813	Bertelsmann Transformation Index	­­­­­Political regime	Civil rights score
 	5814	Bertelsmann Transformation Index	­­­­­Political regime	Democratic features
 	5821	Bertelsmann Transformation Index	­­­­­Political regime	­­Number and share of democracies
 	5822	Bertelsmann Transformation Index	­­­­­Political regime	­­People living in democracies
 	5826	Economist Intelligence Unit	­­­­Democracy	Main index
 	5833	Economist Intelligence Unit	­­­­Democracy	Political regime
-	5830	Economist Intelligence Unit	­­­­Democracy	Electoral pluralism
-	5829	Economist Intelligence Unit	­­­­Democracy	Functioning government
-	5876	Economist Intelligence Unit	­­­­Democracy	­Political participation
-	5828	Economist Intelligence Unit	­­­­Democracy	Democratic culture
-	5827	Economist Intelligence Unit	­­­­Democracy	­Civil liberties
+	5830	Economist Intelligence Unit	­­­­Democracy	Electoral pluralism index
+	5829	Economist Intelligence Unit	­­­­Democracy	Functioning government index
+	5876	Economist Intelligence Unit	­­­­Democracy	­Political participation index
+	5828	Economist Intelligence Unit	­­­­Democracy	Democratic culture index
+	5827	Economist Intelligence Unit	­­­­Democracy	­Civil liberties index
 	5834	Economist Intelligence Unit	­­­­Democracy	­­­Number and share of democracies
 	5832	Economist Intelligence Unit	­­­­Democracy	­­­People living in democracies
 	5835	Economist Intelligence Unit	­­­­Democracy	­­­­­­­Main index weighted by population
