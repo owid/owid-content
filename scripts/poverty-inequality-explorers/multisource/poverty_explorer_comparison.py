@@ -819,7 +819,7 @@ for tab in range(len(merged_tables)):
             ] = f"{pip_povlines_abs['subtitle_total_shortfall'][p]}"
             df_graphers.loc[
                 j, "note"
-            ] = f"{datasets_description} This data is expressed in international-$ at 2017 prices. The cost of closing the poverty gap does not take into account costs and inefficiencies from making the necessary transfers."
+            ] = f"{datasets_description} This data is expressed in international-$ at 2017 prices."
             df_graphers.loc[j, "type"] = np.nan
             j += 1
 
