@@ -473,7 +473,7 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
     df_graphers.loc[
         j, "subtitle"
-    ] = f"The Palma ratio is the share of total {survey_type.text[survey]} received by the richest 10% divided by the share of the poorest 40%."
+    ] = f"The share of {survey_type.text[survey]} received by the richest 10% divided by the share of the poorest 40%."
     df_graphers.loc[
         j, "note"
     ] = f"Depending on the country and year, the data relates to disposable {survey_type.text[survey]} per capita."
