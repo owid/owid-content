@@ -86,7 +86,7 @@ pip_tables = pd.read_csv(url)
 # %%
 # The header is defined as a dictionary first and then it is converted into a index-oriented dataframe
 header_dict = {
-    "explorerTitle": "Inequality Data Explorer",
+    "explorerTitle": "Economic Inequality Data Explorer",
     "selection": [
         "Chile",
         "Brazil",
