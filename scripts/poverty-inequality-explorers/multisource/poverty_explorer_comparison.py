@@ -768,9 +768,7 @@ for tab in range(len(merged_tables)):
     for view in range(len(source_checkbox)):
         for p in range(len(pip_povlines_abs)):
             # Headcount ratio (abs)
-            df_graphers.loc[
-                j, "title"
-            ] = f"{pip_povlines_abs['title_share'][p]} ({source_checkbox['type_title'][view]})"
+            df_graphers.loc[j, "title"] = f"{pip_povlines_abs['title_share'][p]}"
             df_graphers.loc[j, "ySlugs"] = source_checkbox["headcount_ratio"][
                 view
             ].replace("{p}", str(pip_povlines_abs["cents"][p]))
@@ -786,9 +784,7 @@ for tab in range(len(merged_tables)):
             j += 1
 
             # Headcount (abs)
-            df_graphers.loc[
-                j, "title"
-            ] = f"{pip_povlines_abs.title_number[p]} ({source_checkbox['type_title'][view]})"
+            df_graphers.loc[j, "title"] = f"{pip_povlines_abs.title_number[p]}"
             df_graphers.loc[j, "ySlugs"] = source_checkbox["headcount"][view].replace(
                 "{p}", str(pip_povlines_abs["cents"][p])
             )
@@ -806,7 +802,7 @@ for tab in range(len(merged_tables)):
             # Total shortfall (abs)
             df_graphers.loc[
                 j, "title"
-            ] = f"{pip_povlines_abs['title_total_shortfall'][p]} ({source_checkbox['type_title'][view]})"
+            ] = f"{pip_povlines_abs['title_total_shortfall'][p]}"
             df_graphers.loc[j, "ySlugs"] = source_checkbox["total_shortfall"][
                 view
             ].replace("{p}", str(pip_povlines_abs["cents"][p]))
@@ -828,7 +824,7 @@ for tab in range(len(merged_tables)):
             # Average shortfall ($)
             df_graphers.loc[
                 j, "title"
-            ] = f"{pip_povlines_abs['title_avg_shortfall'][p]} ({source_checkbox['type_title'][view]})"
+            ] = f"{pip_povlines_abs['title_avg_shortfall'][p]}"
             df_graphers.loc[j, "ySlugs"] = source_checkbox["avg_shortfall"][
                 view
             ].replace("{p}", str(pip_povlines_abs["cents"][p]))
@@ -848,7 +844,7 @@ for tab in range(len(merged_tables)):
             # Average shortfall (% of poverty line)
             df_graphers.loc[
                 j, "title"
-            ] = f"{pip_povlines_abs['title_income_gap_ratio'][p]} ({source_checkbox['type_title'][view]})"
+            ] = f"{pip_povlines_abs['title_income_gap_ratio'][p]}"
             df_graphers.loc[j, "ySlugs"] = source_checkbox["income_gap_ratio"][
                 view
             ].replace("{p}", str(pip_povlines_abs["cents"][p]))
@@ -870,7 +866,7 @@ for tab in range(len(merged_tables)):
             # Poverty gap index
             df_graphers.loc[
                 j, "title"
-            ] = f"Poverty gap index at ${pip_povlines_abs['dollars_text'][p]} a day ({source_checkbox['type_title'][view]})"
+            ] = f"Poverty gap index at ${pip_povlines_abs['dollars_text'][p]} a day"
             df_graphers.loc[j, "ySlugs"] = source_checkbox["poverty_gap_index"][
                 view
             ].replace("{p}", str(pip_povlines_abs["cents"][p]))
@@ -889,9 +885,7 @@ for tab in range(len(merged_tables)):
 
         # Headcount ratio (rel)
         for pct in range(len(pip_povlines_rel)):
-            df_graphers.loc[
-                j, "title"
-            ] = f"{pip_povlines_rel['title_share'][pct]} ({source_checkbox['type_title'][view]})"
+            df_graphers.loc[j, "title"] = f"{pip_povlines_rel['title_share'][pct]}"
             df_graphers.loc[j, "ySlugs"] = source_checkbox["headcount_ratio_rel"][
                 view
             ].replace("{pct}", pip_povlines_rel["slug_suffix"][pct])
@@ -907,9 +901,7 @@ for tab in range(len(merged_tables)):
             j += 1
 
             # Headcount (rel)
-            df_graphers.loc[
-                j, "title"
-            ] = f"{pip_povlines_rel['title_number'][pct]} ({source_checkbox['type_title'][view]})"
+            df_graphers.loc[j, "title"] = f"{pip_povlines_rel['title_number'][pct]}"
             df_graphers.loc[j, "ySlugs"] = source_checkbox["headcount_rel"][
                 view
             ].replace("{pct}", pip_povlines_rel["slug_suffix"][pct])
@@ -927,7 +919,7 @@ for tab in range(len(merged_tables)):
             # Total shortfall (rel)
             df_graphers.loc[
                 j, "title"
-            ] = f"Total shortfall from a poverty line of {pip_povlines_rel['text'][pct]} income ({source_checkbox['type_title'][view]})"
+            ] = f"Total shortfall from a poverty line of {pip_povlines_rel['text'][pct]} income"
             df_graphers.loc[j, "ySlugs"] = source_checkbox["total_shortfall_rel"][
                 view
             ].replace("{pct}", pip_povlines_rel["slug_suffix"][pct])
@@ -949,7 +941,7 @@ for tab in range(len(merged_tables)):
             # Average shortfall ($) (rel)
             df_graphers.loc[
                 j, "title"
-            ] = f"Average shortfall from a poverty line of {pip_povlines_rel['text'][pct]} income ({source_checkbox['type_title'][view]})"
+            ] = f"Average shortfall from a poverty line of {pip_povlines_rel['text'][pct]} income"
             df_graphers.loc[j, "ySlugs"] = source_checkbox["avg_shortfall_rel"][
                 view
             ].replace("{pct}", pip_povlines_rel["slug_suffix"][pct])
@@ -969,7 +961,7 @@ for tab in range(len(merged_tables)):
             # Average shortfall (% of poverty line) (rel)
             df_graphers.loc[
                 j, "title"
-            ] = f"Average shortfall from a poverty line of {pip_povlines_rel['text'][pct]} income (as a share of the poverty line) ({source_checkbox['type_title'][view]})"
+            ] = f"Average shortfall from a poverty line of {pip_povlines_rel['text'][pct]} income (as a share of the poverty line)"
             df_graphers.loc[j, "ySlugs"] = source_checkbox["income_gap_ratio_rel"][
                 view
             ].replace("{pct}", pip_povlines_rel["slug_suffix"][pct])
@@ -991,7 +983,7 @@ for tab in range(len(merged_tables)):
             # Poverty gap index (rel)
             df_graphers.loc[
                 j, "title"
-            ] = f"Poverty gap index at {pip_povlines_rel['text'][pct]} income ({source_checkbox['type_title'][view]})"
+            ] = f"Poverty gap index at {pip_povlines_rel['text'][pct]} income"
             df_graphers.loc[j, "ySlugs"] = source_checkbox["poverty_gap_index_rel"][
                 view
             ].replace("{pct}", pip_povlines_rel["slug_suffix"][pct])
