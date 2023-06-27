@@ -127,7 +127,15 @@ tolerance = 5
 colorScaleEqualSizeBins = "true"
 new_line = "<br><br>"
 
-additional_description = "Depending on the country and year, the data relates to either disposable income or consumption per capita.<br>Non-market sources of income, including food grown by subsistence farmers for their own consumption, are taken into account.<br><br>NOTES ON OUR PROCESSING STEP FOR THIS INDICATOR<br>For a small number of country-year observations, the World Bank PIP data contains two estimates: one based on income data and one based on consumption data. In these cases we keep only the consumption estimate in order to obtain a single series for each country.<br>You can find the data with all available income and consumption data points, including these overlapping estimates, in our <a href=”https://github.com/owid/poverty-data#a-global-dataset-of-poverty-and-inequality-measures-prepared-by-our-world-in-data-from-the-world-banks-poverty-and-inequality-platform-pip-database”>complete dataset</a> of the World Bank PIP data."
+additional_description = new_line.join(
+    [
+        "Depending on the country and year, the data relates either to income measured after taxes and benefits, or to consumption per capita.",
+        "Non-market sources of income, including food grown by subsistence farmers for their own consumption, are taken into account.",
+        "NOTES ON OUR PROCESSING STEP FOR THIS INDICATOR",
+        "For a small number of country-year observations, the World Bank PIP data contains two estimates: one based on income data and one based on consumption data. In these cases we keep only the consumption estimate in order to obtain a single series for each country.",
+        "You can find the data with all available income and consumption data points, including these overlapping estimates, in our <a href=”https://github.com/owid/poverty-data#a-global-dataset-of-poverty-and-inequality-measures-prepared-by-our-world-in-data-from-the-world-banks-poverty-and-inequality-platform-pip-database”>complete dataset</a> of the World Bank PIP data.",
+    ]
+)
 ppp_description = "The data is measured in international-$ at 2017 prices – this adjusts for inflation and for differences in the cost of living between countries."
 
 # Table generation
@@ -152,9 +160,9 @@ for survey in range(len(pip_tables)):
     # Gini coefficient
     df_tables_pip.loc[j, "name"] = f"Gini coefficient (PIP data)"
     df_tables_pip.loc[j, "slug"] = f"gini"
-    df_tables_pip.loc[j, "description"] = "<br>".join(
+    df_tables_pip.loc[j, "description"] = new_line.join(
         [
-            "The Gini coefficient measures inequality on a scale between 0 and 1, where higher values indicate greater inequality.",
+            "The Gini coefficient is a measure of the inequality of the income distribution in a population. Higher values indicate a higher level of inequality.",
             additional_description,
         ]
     )
@@ -174,9 +182,12 @@ for survey in range(len(pip_tables)):
         j, "name"
     ] = f"{pip_tables.text[survey].capitalize()} share of the richest 10% (PIP data)"
     df_tables_pip.loc[j, "slug"] = f"decile10_share"
-    df_tables_pip.loc[
-        j, "description"
-    ] = f"The {pip_tables.text[survey]} of the richest decile (tenth of the population) as a share of total {pip_tables.text[survey]}."
+    df_tables_pip.loc[j, "description"] = new_line.join(
+        [
+            f"The share of after tax income or consumption received by the richest 10% of the population.",
+            additional_description,
+        ]
+    )
     df_tables_pip.loc[j, "unit"] = "%"
     df_tables_pip.loc[j, "shortUnit"] = "%"
     df_tables_pip.loc[j, "type"] = "Numeric"
@@ -191,9 +202,12 @@ for survey in range(len(pip_tables)):
         j, "name"
     ] = f"{pip_tables.text[survey].capitalize()} share of the poorest 50% (PIP data)"
     df_tables_pip.loc[j, "slug"] = f"bottom50_share"
-    df_tables_pip.loc[
-        j, "description"
-    ] = f"The {pip_tables.text[survey]} of the poorest 50% as a share of total {pip_tables.text[survey]}."
+    df_tables_pip.loc[j, "description"] = new_line.join(
+        [
+            f"The share of after tax income or consumption received by the poorest 50% of the population.",
+            additional_description,
+        ]
+    )
     df_tables_pip.loc[j, "unit"] = "%"
     df_tables_pip.loc[j, "shortUnit"] = "%"
     df_tables_pip.loc[j, "type"] = "Numeric"
@@ -251,9 +265,12 @@ for survey in range(len(pip_tables)):
     # Palma ratio
     df_tables_pip.loc[j, "name"] = f"Palma ratio (PIP data)"
     df_tables_pip.loc[j, "slug"] = f"palma_ratio"
-    df_tables_pip.loc[
-        j, "description"
-    ] = f"The Palma ratio is a measure of inequality: it is the share of total {pip_tables.text[survey]} of the richest 10% divided by the share of the poorest 40%."
+    df_tables_pip.loc[j, "description"] = new_line.join(
+        [
+            f"The share of after tax income or consumption received by the richest 10% divided by the share of the poorest 40%.",
+            additional_description,
+        ]
+    )
     df_tables_pip.loc[j, "unit"] = np.nan
     df_tables_pip.loc[j, "shortUnit"] = np.nan
     df_tables_pip.loc[j, "type"] = "Numeric"
@@ -266,9 +283,12 @@ for survey in range(len(pip_tables)):
     # Headcount ratio (rel)
     df_tables_pip.loc[j, "name"] = f"Share in relative poverty (PIP data)"
     df_tables_pip.loc[j, "slug"] = f"headcount_ratio_50_median"
-    df_tables_pip.loc[
-        j, "description"
-    ] = f"% of population living in households with an {pip_tables.text[survey]} per person below 50% of the median."
+    df_tables_pip.loc[j, "description"] = new_line.join(
+        [
+            f"The share of population with after tax income or consumption below 50% of the median. Relative poverty reflects the extent of inequality within the bottom of the distribution.",
+            additional_description,
+        ]
+    )
     df_tables_pip.loc[j, "unit"] = "%"
     df_tables_pip.loc[j, "shortUnit"] = "%"
     df_tables_pip.loc[j, "type"] = "Numeric"
@@ -297,6 +317,9 @@ colorScaleNumericMinValue = 0
 tolerance = 5
 new_line = "<br><br>"
 
+additional_description = "The World Inequality Database calculates incomes at the top by merging income surveys with tax records and rescaling the distribution to national account aggregates."
+ppp_description = "The data is measured in international-$ at 2021 prices – this adjusts for inflation and for differences in the cost of living between countries."
+
 df_tables_wid = pd.DataFrame()
 j = 0
 
@@ -319,9 +342,13 @@ for tab in range(len(wid_tables)):
             j, "name"
         ] = f"Gini coefficient {wid_welfare['title'][wel]} (WID data)"
         df_tables_wid.loc[j, "slug"] = f"p0p100_gini_{wid_welfare['slug'][wel]}"
-        df_tables_wid.loc[
-            j, "description"
-        ] = f"The Gini coefficient is a measure of the inequality of the {wid_welfare['welfare_type'][wel]} distribution in a population. Higher values indicate a higher level of inequality.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} {wid_welfare['note'][wel]}"
+        df_tables_wid.loc[j, "description"] = new_line.join(
+            [
+                f"The Gini coefficient is a measure of the inequality of the {wid_welfare['welfare_type'][wel]} distribution in a population. Higher values indicate a higher level of inequality.",
+                wid_welfare["description"][wel],
+                additional_description,
+            ]
+        )
         df_tables_wid.loc[j, "unit"] = np.nan
         df_tables_wid.loc[j, "shortUnit"] = np.nan
         df_tables_wid.loc[j, "type"] = "Numeric"
@@ -335,9 +362,13 @@ for tab in range(len(wid_tables)):
             j, "name"
         ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the richest 10% {wid_welfare['title'][wel]} (WID data)"
         df_tables_wid.loc[j, "slug"] = f"p90p100_share_{wid_welfare['slug'][wel]}"
-        df_tables_wid.loc[
-            j, "description"
-        ] = f"This is the {wid_welfare['welfare_type'][wel]} of the richest 10% as a share of total {wid_welfare['welfare_type'][wel]}.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} {wid_welfare['note'][wel]}"
+        df_tables_wid.loc[j, "description"] = new_line.join(
+            [
+                f"The share of {wid_welfare['welfare_type'][wel]} received by the richest 10% of the population.",
+                wid_welfare["description"][wel],
+                additional_description,
+            ]
+        )
         df_tables_wid.loc[j, "unit"] = "%"
         df_tables_wid.loc[j, "shortUnit"] = "%"
         df_tables_wid.loc[j, "type"] = "Numeric"
@@ -351,9 +382,13 @@ for tab in range(len(wid_tables)):
             j, "name"
         ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the richest 1% {wid_welfare['title'][wel]} (WID data)"
         df_tables_wid.loc[j, "slug"] = f"p99p100_share_{wid_welfare['slug'][wel]}"
-        df_tables_wid.loc[
-            j, "description"
-        ] = f"This is the {wid_welfare['welfare_type'][wel]} of the richest 1% as a share of total {wid_welfare['welfare_type'][wel]}.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} {wid_welfare['note'][wel]}"
+        df_tables_wid.loc[j, "description"] = new_line.join(
+            [
+                f"The share of {wid_welfare['welfare_type'][wel]} received by the richest 1% of the population.",
+                wid_welfare["description"][wel],
+                additional_description,
+            ]
+        )
         df_tables_wid.loc[j, "unit"] = "%"
         df_tables_wid.loc[j, "shortUnit"] = "%"
         df_tables_wid.loc[j, "type"] = "Numeric"
@@ -367,9 +402,13 @@ for tab in range(len(wid_tables)):
             j, "name"
         ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the richest 0.1% {wid_welfare['title'][wel]} (WID data)"
         df_tables_wid.loc[j, "slug"] = f"p99_9p100_share_{wid_welfare['slug'][wel]}"
-        df_tables_wid.loc[
-            j, "description"
-        ] = f"This is the {wid_welfare['welfare_type'][wel]} of the richest 0.1% as a share of total {wid_welfare['welfare_type'][wel]}.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} {wid_welfare['note'][wel]}"
+        df_tables_wid.loc[j, "description"] = new_line.join(
+            [
+                f"The share of {wid_welfare['welfare_type'][wel]} received by the richest 0.1% of the population.",
+                wid_welfare["description"][wel],
+                additional_description,
+            ]
+        )
         df_tables_wid.loc[j, "unit"] = "%"
         df_tables_wid.loc[j, "shortUnit"] = "%"
         df_tables_wid.loc[j, "type"] = "Numeric"
@@ -383,9 +422,13 @@ for tab in range(len(wid_tables)):
             j, "name"
         ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the poorest 50% {wid_welfare['title'][wel]} (WID data)"
         df_tables_wid.loc[j, "slug"] = f"p0p50_share_{wid_welfare['slug'][wel]}"
-        df_tables_wid.loc[
-            j, "description"
-        ] = f"This is the {wid_welfare['welfare_type'][wel]} of the poorest 50% as a share of total {wid_welfare['welfare_type'][wel]}.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} {wid_welfare['note'][wel]}"
+        df_tables_wid.loc[j, "description"] = new_line.join(
+            [
+                f"The share of {wid_welfare['welfare_type'][wel]} received by the poorest 50% of the population.",
+                wid_welfare["description"][wel],
+                additional_description,
+            ]
+        )
         df_tables_wid.loc[j, "unit"] = "%"
         df_tables_wid.loc[j, "shortUnit"] = "%"
         df_tables_wid.loc[j, "type"] = "Numeric"
@@ -489,9 +532,13 @@ for tab in range(len(wid_tables)):
             j, "name"
         ] = f"Palma ratio {wid_welfare['title'][wel]} (WID data)"
         df_tables_wid.loc[j, "slug"] = f"palma_ratio_{wid_welfare['slug'][wel]}"
-        df_tables_wid.loc[
-            j, "description"
-        ] = f"The Palma ratio is a measure of inequality: it is the share of total {wid_welfare['welfare_type'][wel]} of the top 10% divided by the share of the bottom 40%.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} {wid_welfare['note'][wel]}"
+        df_tables_wid.loc[j, "description"] = new_line.join(
+            [
+                f"The Palma ratio is a measure of inequality: it is the share of total {wid_welfare['welfare_type'][wel]} of the top 10% divided by the share of the bottom 40%.",
+                wid_welfare["description"][wel],
+                additional_description,
+            ]
+        )
         df_tables_wid.loc[j, "unit"] = np.nan
         df_tables_wid.loc[j, "shortUnit"] = np.nan
         df_tables_wid.loc[j, "type"] = "Numeric"
@@ -959,7 +1006,7 @@ for survey in range(len(pip_tables)):
     df_graphers_pip.loc[j, "tableSlug"] = f"{pip_tables.table_name[survey]}"
     df_graphers_pip.loc[
         j, "subtitle"
-    ] = f"The Gini coefficient is a measure of the inequality of the income distribution in a population. Higher values indicate a higher level of inequality. Depending on the country and year, the data relates either to income measured after taxes and benefits, or to consumption."
+    ] = f"The Gini coefficient is a measure of the inequality of the income distribution in a population. Higher values indicate a higher level of inequality. Depending on the country and year, the data relates either to income measured after taxes and benefits or to consumption per capita."
     df_graphers_pip.loc[j, "note"] = ""
     df_graphers_pip.loc[j, "type"] = np.nan
     df_graphers_pip.loc[j, "selectedFacetStrategy"] = np.nan
@@ -982,7 +1029,7 @@ for survey in range(len(pip_tables)):
     ] = f"The share of after tax income or consumption received by the richest 10% of the population."
     df_graphers_pip.loc[
         j, "note"
-    ] = f"Depending on the country and year, the data relates either to income measured after taxes and benefits, or to consumption."
+    ] = f"Depending on the country and year, the data relates either to income measured after taxes and benefits or to consumption per capita."
     df_graphers_pip.loc[j, "type"] = np.nan
     df_graphers_pip.loc[j, "selectedFacetStrategy"] = np.nan
     df_graphers_pip.loc[j, "hasMapTab"] = "true"
@@ -1004,7 +1051,7 @@ for survey in range(len(pip_tables)):
     ] = f"The share of after tax income or consumption received by the poorest 50% of the population."
     df_graphers_pip.loc[
         j, "note"
-    ] = f"Depending on the country and year, the data relates either to income measured after taxes and benefits, or to consumption."
+    ] = f"Depending on the country and year, the data relates either to income measured after taxes and benefits or to consumption per capita."
     df_graphers_pip.loc[j, "type"] = np.nan
     df_graphers_pip.loc[j, "selectedFacetStrategy"] = np.nan
     df_graphers_pip.loc[j, "hasMapTab"] = "true"
@@ -1084,7 +1131,7 @@ for survey in range(len(pip_tables)):
     ] = f"The share of after tax income or consumption received by the richest 10% divided by the share of the poorest 40%."
     df_graphers_pip.loc[
         j, "note"
-    ] = f"Depending on the country and year, the data relates either to income measured after taxes and benefits, or to consumption."
+    ] = f"Depending on the country and year, the data relates either to income measured after taxes and benefits or to consumption per capita."
     df_graphers_pip.loc[j, "type"] = np.nan
     df_graphers_pip.loc[j, "selectedFacetStrategy"] = np.nan
     df_graphers_pip.loc[j, "hasMapTab"] = "true"
@@ -1104,7 +1151,7 @@ for survey in range(len(pip_tables)):
     ] = f"The share of population with after tax {pip_tables.text[survey]} below 50% of the median. Relative poverty reflects the extent of inequality within the bottom of the distribution."
     df_graphers_pip.loc[
         j, "note"
-    ] = f"Depending on the country and year, the data relates either to income measured after taxes and benefits, or to consumption."
+    ] = f"Depending on the country and year, the data relates either to income measured after taxes and benefits or to consumption per capita."
     df_graphers_pip.loc[j, "type"] = np.nan
     df_graphers_pip.loc[j, "selectedFacetStrategy"] = np.nan
     df_graphers_pip.loc[j, "hasMapTab"] = "true"
