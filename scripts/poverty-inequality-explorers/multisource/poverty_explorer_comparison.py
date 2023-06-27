@@ -90,7 +90,7 @@ pip_povlines_rel = pd.read_csv(url)
 # %%
 # The header is defined as a dictionary first and then it is converted into a index-oriented dataframe
 header_dict = {
-    "explorerTitle": "Poverty Data Explorer: Compare World Bank and LIS data",
+    "explorerTitle": "Poverty Data Explorer",
     "selection": [
         "Chile",
         "Brazil",
@@ -99,7 +99,7 @@ header_dict = {
         "France",
         "China",
     ],
-    "explorerSubtitle": "",
+    "explorerSubtitle": "Compare World Bank and LIS data",
     "isPublished": "true",
     "googleSheet": "",
     "wpBlockId": "",

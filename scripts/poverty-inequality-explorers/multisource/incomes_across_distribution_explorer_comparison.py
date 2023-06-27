@@ -166,7 +166,7 @@ pip_income_aggregation = pd.read_csv(
 # %%
 # The header is defined as a dictionary first and then it is converted into a index-oriented dataframe
 header_dict = {
-    "explorerTitle": "Incomes Across the Distribution Data Explorer: Compare World Bank, WID and LIS data",
+    "explorerTitle": "Incomes Across the Distribution Data Explorer",
     "selection": [
         "Chile",
         "Brazil",
@@ -175,7 +175,7 @@ header_dict = {
         "France",
         "China",
     ],
-    "explorerSubtitle": "",
+    "explorerSubtitle": "Compare World Bank, WID and LIS data",
     "isPublished": "true",
     "googleSheet": "",
     "wpBlockId": "",

@@ -38,7 +38,7 @@ survey_type = pd.read_csv(url)
 # %%
 # The header is defined as a dictionary first and then it is converted into a index-oriented dataframe
 header_dict = {
-    "explorerTitle": "Inequality Data Explorer: World Bank data",
+    "explorerTitle": "Inequality Data Explorer",
     "selection": [
         "Chile",
         "Brazil",
@@ -47,7 +47,7 @@ header_dict = {
         "France",
         "China",
     ],
-    "explorerSubtitle": "<i><a href='https://github.com/owid/poverty-data'>Download inequality data on GitHub</a></i>",
+    "explorerSubtitle": "World Bank data",
     "isPublished": "true",
     "googleSheet": f"https://docs.google.com/spreadsheets/d/{sheet_id}",
     "wpBlockId": "52633",
