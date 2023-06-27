@@ -890,12 +890,10 @@ for tab in range(len(merged_tables)):
                 df_graphers.loc[j, "stackMode"] = relative_toggle["stack_mode"][
                     rel_toggle
                 ]
-                df_graphers.loc[
-                    j, "subtitle"
-                ] = f"This data is adjusted for inflation and for differences in the cost of living between countries."
+                df_graphers.loc[j, "subtitle"] = f"{source_checkbox['note'][view]}"
                 df_graphers.loc[
                     j, "note"
-                ] = f"This data is measured in international-$ at 2017 prices."
+                ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
                 df_graphers.loc[j, "yScaleToggle"] = "true"
                 j += 1
 
@@ -922,12 +920,10 @@ for tab in range(len(merged_tables)):
                 df_graphers.loc[j, "stackMode"] = relative_toggle["stack_mode"][
                     rel_toggle
                 ]
-                df_graphers.loc[
-                    j, "subtitle"
-                ] = f"This data is adjusted for inflation and for differences in the cost of living between countries."
+                df_graphers.loc[j, "subtitle"] = f"{source_checkbox['note'][view]}"
                 df_graphers.loc[
                     j, "note"
-                ] = f"This data is measured in international-$ at 2017 prices."
+                ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
                 df_graphers.loc[j, "yScaleToggle"] = "true"
                 j += 1
 
@@ -959,7 +955,7 @@ for tab in range(len(merged_tables)):
                     ]
                     df_graphers.loc[
                         j, "subtitle"
-                    ] = f"This is the level of income below which {deciles9['decile'][dec9]}0% of the population falls."
+                    ] = f"The level of income below which {deciles9['decile'][dec9]}0% of the population falls. {source_checkbox['note'][view]}"
                     df_graphers.loc[
                         j, "note"
                     ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
@@ -996,7 +992,7 @@ for tab in range(len(merged_tables)):
                     ]
                     df_graphers.loc[
                         j, "subtitle"
-                    ] = f"This is the mean income within the {deciles10['ordinal'][dec10]} (tenth of the population)."
+                    ] = f"The mean income within the {deciles10['ordinal'][dec10]} (tenth of the population). {source_checkbox['note'][view]}"
                     df_graphers.loc[
                         j, "note"
                     ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
@@ -1021,7 +1017,7 @@ for tab in range(len(merged_tables)):
             ][view].capitalize()
             df_graphers.loc[
                 j, "subtitle"
-            ] = f"The share of income received by the {deciles10['ordinal'][dec10]}."
+            ] = f"The share of income received by the {deciles10['ordinal'][dec10]}. {source_checkbox['note'][view]}"
             df_graphers.loc[j, "note"] = np.nan
             j += 1
 
