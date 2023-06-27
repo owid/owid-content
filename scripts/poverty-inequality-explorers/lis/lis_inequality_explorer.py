@@ -112,7 +112,7 @@ for tab in range(len(tables)):
             ] = f"gini_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
             df_tables.loc[
                 j, "description"
-            ] = f"The Gini coefficient is a measure of the inequality of the {welfare['welfare_type'][wel]} distribution in a population. Higher values indicate a higher level of inequality.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}{equivalence_scales['description'][eq]}"
+            ] = f"The Gini coefficient measures inequality on a scale between 0 and 1, where higher values indicate greater inequality.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}{equivalence_scales['description'][eq]}"
             df_tables.loc[j, "unit"] = np.nan
             df_tables.loc[j, "shortUnit"] = np.nan
             df_tables.loc[j, "type"] = "Numeric"
@@ -285,7 +285,7 @@ for tab in range(len(tables)):
             ] = equivalence_scales["checkbox"][eq]
             df_graphers.loc[
                 j, "subtitle"
-            ] = f"The Gini coefficient is a measure of the inequality of the {welfare['welfare_type'][wel]} distribution in a population. Higher values indicate a higher level of inequality. {welfare['subtitle'][wel]}"
+            ] = f"The Gini coefficient measures inequality on a scale between 0 and 1, where higher values indicate greater inequality. {welfare['subtitle'][wel]}"
             df_graphers.loc[j, "note"] = equivalence_scales["note"][eq]
             df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
             df_graphers.loc[j, "hasMapTab"] = "true"
@@ -472,7 +472,7 @@ for tab in range(len(tables)):
         ] = equivalence_scales["checkbox"][eq]
         df_graphers.loc[
             j, "subtitle"
-        ] = f"The Gini coefficient is a measure of the inequality of the income distribution in a population. Higher values indicate a higher level of inequality."
+        ] = f"The Gini coefficient measures inequality on a scale between 0 and 1, where higher values indicate greater inequality."
         df_graphers.loc[j, "note"] = equivalence_scales["note"][eq]
         df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
         df_graphers.loc[j, "hasMapTab"] = "false"

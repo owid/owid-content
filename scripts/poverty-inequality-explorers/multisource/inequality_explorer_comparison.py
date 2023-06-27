@@ -300,7 +300,7 @@ for tab in range(len(merged_tables)):
         df_tables_wid.loc[j, "slug"] = f"p0p100_gini_{wid_welfare['slug'][wel]}"
         df_tables_wid.loc[
             j, "description"
-        ] = f"The Gini coefficient is a measure of the inequality of the {wid_welfare['welfare_type'][wel]} distribution in a population. Higher values indicate a higher level of inequality.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} {wid_welfare['note'][wel]}"
+        ] = f"The Gini coefficient measures inequality on a scale between 0 and 1, where higher values indicate greater inequality.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} {wid_welfare['note'][wel]}"
         df_tables_wid.loc[j, "unit"] = np.nan
         df_tables_wid.loc[j, "shortUnit"] = np.nan
         df_tables_wid.loc[j, "type"] = "Numeric"
@@ -433,7 +433,7 @@ for tab in range(len(merged_tables)):
             ] = f"gini_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
             df_tables_lis.loc[
                 j, "description"
-            ] = f"The Gini coefficient is a measure of the inequality of the {lis_welfare['welfare_type'][wel]} distribution in a population. Higher values indicate a higher level of inequality.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}{lis_equivalence_scales['description'][eq]}"
+            ] = f"The Gini coefficient measures inequality on a scale between 0 and 1, where higher values indicate greater inequality.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}{lis_equivalence_scales['description'][eq]}"
             df_tables_lis.loc[j, "unit"] = np.nan
             df_tables_lis.loc[j, "shortUnit"] = np.nan
             df_tables_lis.loc[j, "type"] = "Numeric"
@@ -625,7 +625,7 @@ for tab in range(len(merged_tables)):
         ].capitalize()
         df_graphers.loc[
             j, "subtitle"
-        ] = f"The Gini coefficient is a measure of the inequality of the income distribution in a population. Higher values indicate a higher level of inequality."
+        ] = f"The Gini coefficient measures inequality on a scale between 0 and 1, where higher values indicate greater inequality."
         df_graphers.loc[j, "note"] = ""
         df_graphers.loc[j, "type"] = np.nan
         j += 1

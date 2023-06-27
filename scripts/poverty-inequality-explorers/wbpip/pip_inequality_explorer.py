@@ -356,7 +356,7 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
     df_graphers.loc[
         j, "subtitle"
-    ] = f"The Gini coefficient is a measure of the inequality of the income distribution in a population. Higher values indicate a higher level of inequality."
+    ] = f"The Gini coefficient measures inequality on a scale between 0 and 1, where higher values indicate greater inequality."
     df_graphers.loc[
         j, "note"
     ] = f"Depending on the country and year, the data relates to disposable {survey_type.text[survey]} per capita."

@@ -132,6 +132,11 @@ additional_description = new_line.join(
         "Depending on the country and year, the data relates either to income measured after taxes and benefits, or to consumption per capita.",
         "Non-market sources of income, including food grown by subsistence farmers for their own consumption, are taken into account.",
         "NOTES ON OUR PROCESSING STEP FOR THIS INDICATOR",
+    ]
+)
+
+processing_description = new_line.join(
+    [
         "For a small number of country-year observations, the World Bank PIP data contains two estimates: one based on income data and one based on consumption data. In these cases we keep only the consumption estimate in order to obtain a single series for each country.",
         "You can find the data with all available income and consumption data points, including these overlapping estimates, in our <a href=”https://github.com/owid/poverty-data#a-global-dataset-of-poverty-and-inequality-measures-prepared-by-our-world-in-data-from-the-world-banks-poverty-and-inequality-platform-pip-database”>complete dataset</a> of the World Bank PIP data.",
     ]
@@ -162,8 +167,9 @@ for survey in range(len(pip_tables)):
     df_tables_pip.loc[j, "slug"] = f"gini"
     df_tables_pip.loc[j, "description"] = new_line.join(
         [
-            "The Gini coefficient is a measure of the inequality of the income distribution in a population. Higher values indicate a higher level of inequality.",
+            "The Gini coefficient measures inequality on a scale between 0 and 1, where higher values indicate greater inequality.",
             additional_description,
+            processing_description,
         ]
     )
     df_tables_pip.loc[j, "unit"] = np.nan
@@ -186,6 +192,7 @@ for survey in range(len(pip_tables)):
         [
             f"The share of after tax income or consumption received by the richest 10% of the population.",
             additional_description,
+            processing_description,
         ]
     )
     df_tables_pip.loc[j, "unit"] = "%"
@@ -206,6 +213,7 @@ for survey in range(len(pip_tables)):
         [
             f"The share of after tax income or consumption received by the poorest 50% of the population.",
             additional_description,
+            processing_description,
         ]
     )
     df_tables_pip.loc[j, "unit"] = "%"
@@ -269,6 +277,7 @@ for survey in range(len(pip_tables)):
         [
             f"The share of after tax income or consumption received by the richest 10% divided by the share of the poorest 40%.",
             additional_description,
+            processing_description,
         ]
     )
     df_tables_pip.loc[j, "unit"] = np.nan
@@ -287,6 +296,8 @@ for survey in range(len(pip_tables)):
         [
             f"The share of population with after tax income or consumption below 50% of the median. Relative poverty reflects the extent of inequality within the bottom of the distribution.",
             additional_description,
+            "Measures of relative poverty are not directly available in the World Bank PIP data. To calculate this metric we take the median income or consumption for the country and year, calculate a relative poverty line – in this case 50% of the median – and then run a specific query on the PIP API to return the share of population below that line.",
+            processing_description,
         ]
     )
     df_tables_pip.loc[j, "unit"] = "%"
@@ -344,7 +355,7 @@ for tab in range(len(wid_tables)):
         df_tables_wid.loc[j, "slug"] = f"p0p100_gini_{wid_welfare['slug'][wel]}"
         df_tables_wid.loc[j, "description"] = new_line.join(
             [
-                f"The Gini coefficient is a measure of the inequality of the {wid_welfare['welfare_type'][wel]} distribution in a population. Higher values indicate a higher level of inequality.",
+                f"The Gini coefficient measures inequality on a scale between 0 and 1, where higher values indicate greater inequality.",
                 wid_welfare["description"][wel],
                 additional_description,
             ]
@@ -446,7 +457,7 @@ for tab in range(len(wid_tables)):
         # df_tables_wid.loc[j, "slug"] = f"p99_99p100_share_{wid_welfare['slug'][wel]}"
         # df_tables_wid.loc[
         #     j, "description"
-        # ] = f"This is the {wid_welfare['welfare_type'][wel]} of the richest 0.01% as a share of total {wid_welfare['welfare_type'][wel]}.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} {wid_welfare['note'][wel]}"
+        # ] = f"This is the {wid_welfare['welfare_type'][wel]} of the richest 0.01% as a share of total {wid_welfare['welfare_type'][wel]}.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} wid_welfare['note'][wel]"
         # df_tables_wid.loc[j, "unit"] = "%"
         # df_tables_wid.loc[j, "shortUnit"] = "%"
         # df_tables_wid.loc[j, "type"] = "Numeric"
@@ -462,7 +473,7 @@ for tab in range(len(wid_tables)):
         # df_tables_wid.loc[j, "slug"] = f"p99_999p100_share_{wid_welfare['slug'][wel]}"
         # df_tables_wid.loc[
         #     j, "description"
-        # ] = f"This is the {wid_welfare['welfare_type'][wel]} of the richest 0.001% as a share of total {wid_welfare['welfare_type'][wel]}.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} {wid_welfare['note'][wel]}"
+        # ] = f"This is the {wid_welfare['welfare_type'][wel]} of the richest 0.001% as a share of total {wid_welfare['welfare_type'][wel]}.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} wid_welfare['note'][wel]"
         # df_tables_wid.loc[j, "unit"] = "%"
         # df_tables_wid.loc[j, "shortUnit"] = "%"
         # df_tables_wid.loc[j, "type"] = "Numeric"
@@ -480,7 +491,7 @@ for tab in range(len(wid_tables)):
         # df_tables_wid.loc[j, "slug"] = f"p90_p10_ratio_{wid_welfare['slug'][wel]}"
         # df_tables_wid.loc[
         #     j, "description"
-        # ] = f"P90 is the the level of {wid_welfare['welfare_type'][wel]} below which 90% of the population lives. P10 is the level of {wid_welfare['welfare_type'][wel]} below which 10% of the population lives. This variable gives the ratio of the two. It is a measure of inequality that indicates the gap between the richest and poorest tenth of the population. It tells you how many times richer someone just in the the poorest tenth would need to be in order to be counted in the richest tenth.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} {wid_welfare['note'][wel]}"
+        # ] = f"P90 is the the level of {wid_welfare['welfare_type'][wel]} below which 90% of the population lives. P10 is the level of {wid_welfare['welfare_type'][wel]} below which 10% of the population lives. This variable gives the ratio of the two. It is a measure of inequality that indicates the gap between the richest and poorest tenth of the population. It tells you how many times richer someone just in the the poorest tenth would need to be in order to be counted in the richest tenth.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} wid_welfare['note'][wel]"
         # df_tables_wid.loc[j, "unit"] = np.nan
         # df_tables_wid.loc[j, "shortUnit"] = np.nan
         # df_tables_wid.loc[j, "type"] = "Numeric"
@@ -498,7 +509,7 @@ for tab in range(len(wid_tables)):
         # df_tables_wid.loc[j, "slug"] = f"p90_p50_ratio_{wid_welfare['slug'][wel]}"
         # df_tables_wid.loc[
         #     j, "description"
-        # ] = f"P90 is the the level of {wid_welfare['welfare_type'][wel]} above which 10% of the population lives. P50 is the median – the level of {wid_welfare['welfare_type'][wel]} below which 50% of the population lives. This variable gives the ratio of the two. It is a measure of inequality within the top half of the distribution. It tells you how many times richer someone in the middle of the distribution would need to be in order to be counted in the richest tenth.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} {wid_welfare['note'][wel]}"
+        # ] = f"P90 is the the level of {wid_welfare['welfare_type'][wel]} above which 10% of the population lives. P50 is the median – the level of {wid_welfare['welfare_type'][wel]} below which 50% of the population lives. This variable gives the ratio of the two. It is a measure of inequality within the top half of the distribution. It tells you how many times richer someone in the middle of the distribution would need to be in order to be counted in the richest tenth.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} wid_welfare['note'][wel]"
         # df_tables_wid.loc[j, "unit"] = np.nan
         # df_tables_wid.loc[j, "shortUnit"] = np.nan
         # df_tables_wid.loc[j, "type"] = "Numeric"
@@ -516,7 +527,7 @@ for tab in range(len(wid_tables)):
         # df_tables_wid.loc[j, "slug"] = f"p50_p10_ratio_{wid_welfare['slug'][wel]}"
         # df_tables_wid.loc[
         #     j, "description"
-        # ] = f"P50 is the median – the level of {wid_welfare['welfare_type'][wel]} below which 50% of the population lives. P10 is the the level of {wid_welfare['welfare_type'][wel]} below which 10% of the population lives. This variable gives the ratio of the two. It is a measure of inequality within the bottom half of the distribution. It tells you how many times richer someone just in the the poorest tenth would need to be in order to be reach the median.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} {wid_welfare['note'][wel]}"
+        # ] = f"P50 is the median – the level of {wid_welfare['welfare_type'][wel]} below which 50% of the population lives. P10 is the the level of {wid_welfare['welfare_type'][wel]} below which 10% of the population lives. This variable gives the ratio of the two. It is a measure of inequality within the bottom half of the distribution. It tells you how many times richer someone just in the the poorest tenth would need to be in order to be reach the median.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} wid_welfare['note'][wel]"
         # df_tables_wid.loc[j, "unit"] = np.nan
         # df_tables_wid.loc[j, "shortUnit"] = np.nan
         # df_tables_wid.loc[j, "type"] = "Numeric"
@@ -602,7 +613,7 @@ df_tables_wid = df_tables_wid[
 #             ] = f"gini_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
 #             df_tables_lis.loc[
 #                 j, "description"
-#             ] = f"The Gini coefficient is a measure of the inequality of the {lis_welfare['welfare_type'][wel]} distribution in a population. Higher values indicate a higher level of inequality.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}{lis_equivalence_scales['description'][eq]}"
+#             ] = f"The Gini coefficient measures inequality on a scale between 0 and 1, where higher values indicate greater inequality.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}{lis_equivalence_scales['description'][eq]}"
 #             df_tables_lis.loc[j, "unit"] = np.nan
 #             df_tables_lis.loc[j, "shortUnit"] = np.nan
 #             df_tables_lis.loc[j, "type"] = "Numeric"
@@ -804,10 +815,8 @@ for tab in range(len(wid_tables)):
         df_graphers_wid.loc[j, "Indicator Dropdown"] = "Gini coefficient"
         df_graphers_wid.loc[
             j, "subtitle"
-        ] = f"The Gini coefficient is a measure of the inequality of the income distribution in a population. Higher values indicate a higher level of inequality. Income here is measured before taxes and benefits."
-        df_graphers_wid.loc[
-            j, "note"
-        ] = f"Income is measured before payment of taxes and non-pension benefits, but after the payment of public and private pensions."
+        ] = f"The Gini coefficient measures inequality on a scale between 0 and 1, where higher values indicate greater inequality. {wid_welfare['subtitle'][wel]}"
+        df_graphers_wid.loc[j, "note"] = wid_welfare["note"][wel]
         df_graphers_wid.loc[j, "type"] = np.nan
         df_graphers_wid.loc[j, "selectedFacetStrategy"] = np.nan
         df_graphers_wid.loc[j, "hasMapTab"] = "true"
@@ -825,10 +834,8 @@ for tab in range(len(wid_tables)):
         df_graphers_wid.loc[j, "Indicator Dropdown"] = "Share of the richest 10%"
         df_graphers_wid.loc[
             j, "subtitle"
-        ] = f"The share of income received by the richest 10% of the population. Income here is measured before taxes and benefits."
-        df_graphers_wid.loc[
-            j, "note"
-        ] = f"Income is measured before payment of taxes and non-pension benefits, but after the payment of public and private pensions."
+        ] = f"The share of income received by the richest 10% of the population. {wid_welfare['subtitle'][wel]}"
+        df_graphers_wid.loc[j, "note"] = wid_welfare["note"][wel]
         df_graphers_wid.loc[j, "type"] = np.nan
         df_graphers_wid.loc[j, "selectedFacetStrategy"] = np.nan
         df_graphers_wid.loc[j, "hasMapTab"] = "true"
@@ -846,10 +853,8 @@ for tab in range(len(wid_tables)):
         df_graphers_wid.loc[j, "Indicator Dropdown"] = "Share of the richest 1%"
         df_graphers_wid.loc[
             j, "subtitle"
-        ] = f"The share of income received by the richest 1% of the population. Income here is measured before taxes and benefits."
-        df_graphers_wid.loc[
-            j, "note"
-        ] = f"Income is measured before payment of taxes and non-pension benefits, but after the payment of public and private pensions."
+        ] = f"The share of income received by the richest 1% of the population. {wid_welfare['subtitle'][wel]}"
+        df_graphers_wid.loc[j, "note"] = wid_welfare["note"][wel]
         df_graphers_wid.loc[j, "type"] = np.nan
         df_graphers_wid.loc[j, "selectedFacetStrategy"] = np.nan
         df_graphers_wid.loc[j, "hasMapTab"] = "true"
@@ -867,10 +872,8 @@ for tab in range(len(wid_tables)):
         df_graphers_wid.loc[j, "Indicator Dropdown"] = "Share of the richest 0.1%"
         df_graphers_wid.loc[
             j, "subtitle"
-        ] = f"The share of income received by the richest 0.1% of the population. Income here is measured before taxes and benefits."
-        df_graphers_wid.loc[
-            j, "note"
-        ] = f"Income is measured before payment of taxes and non-pension benefits, but after the payment of public and private pensions."
+        ] = f"The share of income received by the richest 0.1% of the population. {wid_welfare['subtitle'][wel]}"
+        df_graphers_wid.loc[j, "note"] = wid_welfare["note"][wel]
         df_graphers_wid.loc[j, "type"] = np.nan
         df_graphers_wid.loc[j, "selectedFacetStrategy"] = np.nan
         df_graphers_wid.loc[j, "hasMapTab"] = "true"
@@ -888,10 +891,8 @@ for tab in range(len(wid_tables)):
         df_graphers_wid.loc[j, "Indicator Dropdown"] = "Share of the poorest 50%"
         df_graphers_wid.loc[
             j, "subtitle"
-        ] = f"The share of income received by the poorest 50% of the population. Income here is measured before taxes and benefits."
-        df_graphers_wid.loc[
-            j, "note"
-        ] = f"Income is measured before payment of taxes and non-pension benefits, but after the payment of public and private pensions."
+        ] = f"The share of income received by the poorest 50% of the population. {wid_welfare['subtitle'][wel]}"
+        df_graphers_wid.loc[j, "note"] = wid_welfare["note"][wel]
         df_graphers_wid.loc[j, "selectedFacetStrategy"] = np.nan
         df_graphers_wid.loc[j, "hasMapTab"] = "true"
         df_graphers_wid.loc[j, "tab"] = "map"
@@ -909,7 +910,7 @@ for tab in range(len(wid_tables)):
         # df_graphers_wid.loc[
         #     j, "subtitle"
         # ] = f"P90 and P10 are the levels of {wid_welfare['welfare_type'][wel]} below which 90% and 10% of the population live, respectively. This variable gives the ratio of the two. It is a measure of inequality that indicates the gap between the richest and poorest tenth of the population. {wid_welfare['subtitle'][wel]}"
-        # df_graphers_wid.loc[j, "note"] = f"{wid_welfare['note'][wel]}"
+        # df_graphers_wid.loc[j, "note"] = f"wid_welfare['note'][wel]"
         # df_graphers_wid.loc[j, "type"] = np.nan
         # df_graphers_wid.loc[j, "selectedFacetStrategy"] = np.nan
         # df_graphers_wid.loc[j, "hasMapTab"] = "true"
@@ -963,10 +964,8 @@ for tab in range(len(wid_tables)):
         df_graphers_wid.loc[j, "Indicator Dropdown"] = "Palma ratio"
         df_graphers_wid.loc[
             j, "subtitle"
-        ] = f"The share of income received by the richest 10% divided by the share of the poorest 40%. Income here is measured before taxes and benefits."
-        df_graphers_wid.loc[
-            j, "note"
-        ] = f"Income is measured before payment of taxes and non-pension benefits, but after the payment of public and private pensions."
+        ] = f"The share of income received by the richest 10% divided by the share of the poorest 40%. {wid_welfare['subtitle'][wel]}"
+        df_graphers_wid.loc[j, "note"] = wid_welfare["note"][wel]
         df_graphers_wid.loc[j, "type"] = np.nan
         df_graphers_wid.loc[j, "selectedFacetStrategy"] = np.nan
         df_graphers_wid.loc[j, "hasMapTab"] = "true"
@@ -1006,7 +1005,7 @@ for survey in range(len(pip_tables)):
     df_graphers_pip.loc[j, "tableSlug"] = f"{pip_tables.table_name[survey]}"
     df_graphers_pip.loc[
         j, "subtitle"
-    ] = f"The Gini coefficient is a measure of the inequality of the income distribution in a population. Higher values indicate a higher level of inequality. Depending on the country and year, the data relates either to income measured after taxes and benefits or to consumption per capita."
+    ] = f"The Gini coefficient measures inequality on a scale between 0 and 1, where higher values indicate greater inequality. Depending on the country and year, the data relates either to income measured after taxes and benefits or to consumption per capita."
     df_graphers_pip.loc[j, "note"] = ""
     df_graphers_pip.loc[j, "type"] = np.nan
     df_graphers_pip.loc[j, "selectedFacetStrategy"] = np.nan
@@ -1193,7 +1192,7 @@ df_graphers_pip["mapTargetTime"] = mapTargetTime
 #             ] = f"{lis_equivalence_scales['text'][eq]}"
 #             df_graphers_lis.loc[
 #                 j, "subtitle"
-#             ] = f"The Gini coefficient is a measure of the inequality of the {lis_welfare['welfare_type'][wel]} distribution in a population. Higher values indicate a higher level of inequality. {lis_welfare['subtitle'][wel]}"
+#             ] = f"The Gini coefficient measures inequality on a scale between 0 and 1, where higher values indicate greater inequality. {lis_welfare['subtitle'][wel]}"
 #             df_graphers_lis.loc[j, "note"] = f"{lis_equivalence_scales['note'][eq]}"
 #             df_graphers_lis.loc[j, "selectedFacetStrategy"] = np.nan
 #             df_graphers_lis.loc[j, "hasMapTab"] = "true"
