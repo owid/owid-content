@@ -221,7 +221,7 @@ for survey in range(len(survey_type)):
         ] = "World Bank Poverty and Inequality Platform (2022)"
         df_tables.loc[
             j, "description"
-        ] = f'The average shortfall from a poverty line of ${povlines_abs.dollars_text[p]} a day (averaged across the population in poverty) expressed as a share of the poverty line. This metric is sometimes called the "income gap ratio". It captures the depth of poverty in which those below the poverty line are living.'
+        ] = f'The average shortfall from a poverty line of ${povlines_abs.dollars_text[p]} a day (averaged across the population in poverty) expressed as a share of the poverty line. This metric is sometimes called the "income gap ratio". It captures the depth of poverty of those living on less than the poverty line.'
         df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
         df_tables.loc[
             j, "dataPublishedBy"
@@ -423,7 +423,7 @@ for survey in range(len(survey_type)):
         ] = "World Bank Poverty and Inequality Platform (2022)"
         df_tables.loc[
             j, "description"
-        ] = f'The average shortfall from a poverty line of of {povlines_rel.text[pct]} {survey_type.text[survey]} (averaged across the population in poverty) expressed as a share of the poverty line. This metric is sometimes called the "income gap ratio". It captures the depth of poverty in which those below the poverty line are living.'
+        ] = f'The average shortfall from a poverty line of of {povlines_rel.text[pct]} {survey_type.text[survey]} (averaged across the population in poverty) expressed as a share of the poverty line. This metric is sometimes called the "income gap ratio". It captures the depth of poverty of those living on less than the poverty line.'
         df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
         df_tables.loc[
             j, "dataPublishedBy"
@@ -1007,7 +1007,7 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
         df_graphers.loc[
             j, "subtitle"
-        ] = f'This is the average shortfall expressed as a share of the poverty line, sometimes called the "income gap ratio". It captures the depth of poverty in which those below {povlines_rel.text[pct]} {survey_type.text[survey]} are living.'
+        ] = f'This is the average shortfall expressed as a share of the poverty line, sometimes called the "income gap ratio". It captures the depth of poverty of those living on less than {povlines_rel.text[pct]} {survey_type.text[survey]}'
         df_graphers.loc[
             j, "note"
         ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. It relates to disposable {survey_type.text[survey]} per capita."

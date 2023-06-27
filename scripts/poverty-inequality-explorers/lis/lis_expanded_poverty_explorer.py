@@ -224,7 +224,7 @@ for tab in range(len(tables)):
                 ] = f"income_gap_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
                 df_tables.loc[
                     j, "description"
-                ] = f'The average shortfall from a poverty line of ${povlines_abs.dollars_text[p]} a day (averaged across the population in poverty) expressed as a share of the poverty line. This metric is sometimes called the "income gap ratio". It captures the depth of poverty in which those below the poverty line are living.{new_line}This is {welfare.technical_text[wel]}. {welfare.subtitle[wel]}{new_line}{equivalence_scales.description[eq]}'
+                ] = f'The average shortfall from a poverty line of ${povlines_abs.dollars_text[p]} a day (averaged across the population in poverty) expressed as a share of the poverty line. This metric is sometimes called the "income gap ratio". It captures the depth of poverty of those living on less than the poverty line.{new_line}This is {welfare.technical_text[wel]}. {welfare.subtitle[wel]}{new_line}{equivalence_scales.description[eq]}'
                 df_tables.loc[j, "unit"] = "%"
                 df_tables.loc[j, "shortUnit"] = "%"
                 df_tables.loc[j, "type"] = "Numeric"
@@ -361,7 +361,7 @@ for tab in range(len(tables)):
                 ] = f"income_gap_ratio_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
                 df_tables.loc[
                     j, "description"
-                ] = f'The average shortfall from a poverty line of of {povlines_rel.text[pct]} {welfare.welfare_type[wel]} (averaged across the population in poverty) expressed as a share of the poverty line. This metric is sometimes called the "income gap ratio". It captures the depth of poverty in which those below the poverty line are living.{new_line}This is {welfare.technical_text[wel]}. {welfare.subtitle[wel]}{new_line}{equivalence_scales.description[eq]}'
+                ] = f'The average shortfall from a poverty line of of {povlines_rel.text[pct]} {welfare.welfare_type[wel]} (averaged across the population in poverty) expressed as a share of the poverty line. This metric is sometimes called the "income gap ratio". It captures the depth of poverty of those living on less than the poverty line.{new_line}This is {welfare.technical_text[wel]}. {welfare.subtitle[wel]}{new_line}{equivalence_scales.description[eq]}'
                 df_tables.loc[j, "unit"] = "%"
                 df_tables.loc[j, "shortUnit"] = "%"
                 df_tables.loc[j, "type"] = "Numeric"
@@ -926,7 +926,7 @@ for tab in range(len(tables)):
                 ] = equivalence_scales["checkbox"][eq]
                 df_graphers.loc[
                     j, "subtitle"
-                ] = f'This is the average shortfall expressed as a share of the poverty line, sometimes called the "income gap ratio". It captures the depth of poverty in which those below {povlines_rel.text[pct]} {welfare.welfare_type[wel]} are living. {welfare.subtitle[wel]} {equivalence_scales.note[eq]}'
+                ] = f'This is the average shortfall expressed as a share of the poverty line, sometimes called the "income gap ratio". It captures the depth of poverty of those living on less than {povlines_rel.text[pct]} {welfare.welfare_type[wel]}. {welfare.subtitle[wel]} {equivalence_scales.note[eq]}'
                 df_graphers.loc[
                     j, "note"
                 ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
@@ -1281,7 +1281,7 @@ for tab in range(len(tables)):
             ] = equivalence_scales["checkbox"][eq]
             df_graphers.loc[
                 j, "subtitle"
-            ] = f'This is the average shortfall expressed as a share of the poverty line, sometimes called the "income gap ratio". It captures the depth of poverty in which those below {povlines_rel.text[pct]} income are living. {equivalence_scales.note[eq]}'
+            ] = f'This is the average shortfall expressed as a share of the poverty line, sometimes called the "income gap ratio". It captures the depth of poverty of those living on less than {povlines_rel.text[pct]} income. {equivalence_scales.note[eq]}'
             df_graphers.loc[
                 j, "note"
             ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
