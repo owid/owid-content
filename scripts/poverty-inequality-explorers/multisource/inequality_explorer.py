@@ -127,6 +127,9 @@ tolerance = 5
 colorScaleEqualSizeBins = "true"
 new_line = "<br><br>"
 
+additional_description = "Depending on the country and year, the data relates to either disposable income or consumption per capita.<br>Non-market sources of income, including food grown by subsistence farmers for their own consumption, are taken into account.<br><br>NOTES ON OUR PROCESSING STEP FOR THIS INDICATOR<br>For a small number of country-year observations, the World Bank PIP data contains two estimates: one based on income data and one based on consumption data. In these cases we keep only the consumption estimate in order to obtain a single series for each country.<br>You can find the data with all available income and consumption data points, including these overlapping estimates, in our <a href=”https://github.com/owid/poverty-data#a-global-dataset-of-poverty-and-inequality-measures-prepared-by-our-world-in-data-from-the-world-banks-poverty-and-inequality-platform-pip-database”>complete dataset</a> of the World Bank PIP data."
+ppp_description = "The data is measured in international-$ at 2017 prices – this adjusts for inflation and for differences in the cost of living between countries."
+
 # Table generation
 df_tables_pip = pd.DataFrame()
 j = 0
@@ -149,9 +152,12 @@ for survey in range(len(pip_tables)):
     # Gini coefficient
     df_tables_pip.loc[j, "name"] = f"Gini coefficient (PIP data)"
     df_tables_pip.loc[j, "slug"] = f"gini"
-    df_tables_pip.loc[
-        j, "description"
-    ] = f"The Gini coefficient measures inequality on a scale between 0 and 1, where higher values indicate greater inequality."
+    df_tables_pip.loc[j, "description"] = "<br>".join(
+        [
+            "The Gini coefficient measures inequality on a scale between 0 and 1, where higher values indicate greater inequality.",
+            additional_description,
+        ]
+    )
     df_tables_pip.loc[j, "unit"] = np.nan
     df_tables_pip.loc[j, "shortUnit"] = np.nan
     df_tables_pip.loc[j, "type"] = "Numeric"
