@@ -764,6 +764,8 @@ df_graphers = pd.DataFrame()
 
 j = 0
 
+datasets_description = "LIS data relates to income after taxes and benefits per capita. Depending on the country and year, PIP data relates to income measured after taxes and benefits or consumption per capita."
+
 for tab in range(len(merged_tables)):
     for view in range(len(source_checkbox)):
         for p in range(len(pip_povlines_abs)):
@@ -776,10 +778,10 @@ for tab in range(len(merged_tables)):
             df_graphers.loc[
                 j, "Poverty line Dropdown"
             ] = f"{pip_povlines_abs['povline_dropdown'][p]}"
-            df_graphers.loc[j, "subtitle"] = f"{pip_povlines_abs['subtitle'][p]}"
+            df_graphers.loc[j, "subtitle"] = datasets_description
             df_graphers.loc[
                 j, "note"
-            ] = f"This data is measured in international-$ at 2017 prices."
+            ] = f"{pip_povlines_abs['subtitle'][p]} This data is measured in international-$ at 2017 prices."
             df_graphers.loc[j, "type"] = np.nan
             j += 1
 
@@ -792,10 +794,10 @@ for tab in range(len(merged_tables)):
             df_graphers.loc[
                 j, "Poverty line Dropdown"
             ] = f"{pip_povlines_abs['povline_dropdown'][p]}"
-            df_graphers.loc[j, "subtitle"] = f"{pip_povlines_abs['subtitle'][p]}"
+            df_graphers.loc[j, "subtitle"] = datasets_description
             df_graphers.loc[
                 j, "note"
-            ] = f"This data is measured in international-$ at 2017 prices."
+            ] = f"{pip_povlines_abs['subtitle'][p]} This data is measured in international-$ at 2017 prices."
             df_graphers.loc[j, "type"] = np.nan
             j += 1
 
@@ -817,7 +819,7 @@ for tab in range(len(merged_tables)):
             ] = f"{pip_povlines_abs['subtitle_total_shortfall'][p]}"
             df_graphers.loc[
                 j, "note"
-            ] = "This data is expressed in international-$ at 2017 prices. The cost of closing the poverty gap does not take into account costs and inefficiencies from making the necessary transfers."
+            ] = f"{datasets_description} This data is expressed in international-$ at 2017 prices. The cost of closing the poverty gap does not take into account costs and inefficiencies from making the necessary transfers."
             df_graphers.loc[j, "type"] = np.nan
             j += 1
 
@@ -837,7 +839,7 @@ for tab in range(len(merged_tables)):
             ] = f"{pip_povlines_abs['subtitle_avg_shortfall'][p]}"
             df_graphers.loc[
                 j, "note"
-            ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+            ] = f"{datasets_description} This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
             df_graphers.loc[j, "type"] = np.nan
             j += 1
 
@@ -859,7 +861,7 @@ for tab in range(len(merged_tables)):
             ] = f"{pip_povlines_abs['subtitle_income_gap_ratio'][p]}"
             df_graphers.loc[
                 j, "note"
-            ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+            ] = f"{datasets_description} This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
             df_graphers.loc[j, "type"] = np.nan
             j += 1
 
@@ -879,7 +881,7 @@ for tab in range(len(merged_tables)):
             ] = f"The poverty gap index is a poverty measure that reflects both the prevalence and the depth of poverty. It is calculated as the share of population in poverty multiplied by the average shortfall from the poverty line (expressed as a % of the poverty line)."
             df_graphers.loc[
                 j, "note"
-            ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+            ] = f"{datasets_description} This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
             df_graphers.loc[j, "type"] = np.nan
             j += 1
 
@@ -893,10 +895,10 @@ for tab in range(len(merged_tables)):
             df_graphers.loc[
                 j, "Poverty line Dropdown"
             ] = f"{pip_povlines_rel['dropdown'][pct]}"
+            df_graphers.loc[j, "subtitle"] = datasets_description
             df_graphers.loc[
-                j, "subtitle"
+                j, "note"
             ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at {pip_povlines_rel['text'][pct]}"
-            df_graphers.loc[j, "note"] = np.nan
             df_graphers.loc[j, "type"] = np.nan
             j += 1
 
@@ -909,10 +911,10 @@ for tab in range(len(merged_tables)):
             df_graphers.loc[
                 j, "Poverty line Dropdown"
             ] = f"{pip_povlines_rel['dropdown'][pct]}"
+            df_graphers.loc[j, "subtitle"] = datasets_description
             df_graphers.loc[
-                j, "subtitle"
+                j, "note"
             ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at {pip_povlines_rel['text'][pct]}"
-            df_graphers.loc[j, "note"] = np.nan
             df_graphers.loc[j, "type"] = np.nan
             j += 1
 
@@ -934,7 +936,7 @@ for tab in range(len(merged_tables)):
             ] = f"This is the amount of money that would be theoretically needed to lift the incomes of all people in poverty up to {pip_povlines_rel.text[pct]}"
             df_graphers.loc[
                 j, "note"
-            ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+            ] = f"{datasets_description} This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
             df_graphers.loc[j, "type"] = np.nan
             j += 1
 
@@ -954,7 +956,7 @@ for tab in range(len(merged_tables)):
             ] = f"This is the amount of money that would be theoretically needed to lift the incomes of all people in poverty up to {pip_povlines_rel['text'][pct]} income, averaged across the population in poverty."
             df_graphers.loc[
                 j, "note"
-            ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+            ] = f"{datasets_description} This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
             df_graphers.loc[j, "type"] = np.nan
             j += 1
 
@@ -976,7 +978,7 @@ for tab in range(len(merged_tables)):
             ] = f'This is the average shortfall expressed as a share of the poverty line, sometimes called the "income gap ratio". It captures the depth of poverty of those living on less than {pip_povlines_rel.text[pct]} income.'
             df_graphers.loc[
                 j, "note"
-            ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+            ] = f"{datasets_description} This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
             df_graphers.loc[j, "type"] = np.nan
             j += 1
 
@@ -996,7 +998,7 @@ for tab in range(len(merged_tables)):
             ] = f"The poverty gap index is a poverty measure that reflects both the prevalence and the depth of poverty. It is calculated as the share of population in poverty multiplied by the average shortfall from the poverty line (expressed as a % of the poverty line)."
             df_graphers.loc[
                 j, "note"
-            ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+            ] = f"{datasets_description} This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
             df_graphers.loc[j, "type"] = np.nan
             j += 1
 
