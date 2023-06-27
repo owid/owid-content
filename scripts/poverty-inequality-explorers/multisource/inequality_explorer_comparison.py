@@ -608,6 +608,10 @@ selectedFacetStrategy = "entity"
 hasMapTab = "false"
 tab_parameter = "chart"
 
+datasets_description_subtitle = (
+    "The definition of income varies across the data sources."
+)
+
 df_graphers = pd.DataFrame()
 
 j = 0
@@ -625,8 +629,8 @@ for tab in range(len(merged_tables)):
         ].capitalize()
         df_graphers.loc[
             j, "subtitle"
-        ] = f"The Gini coefficient measures inequality on a scale between 0 and 1, where higher values indicate greater inequality."
-        df_graphers.loc[j, "note"] = ""
+        ] = f"The Gini coefficient measures inequality on a scale between 0 and 1, where higher values indicate greater inequality. {datasets_description_subtitle}"
+        df_graphers.loc[j, "note"] = source_checkbox["note"][view]
         df_graphers.loc[j, "type"] = np.nan
         j += 1
 
@@ -641,8 +645,8 @@ for tab in range(len(merged_tables)):
         ].capitalize()
         df_graphers.loc[
             j, "subtitle"
-        ] = f"The share of income received by the richest 10% of the population."
-        df_graphers.loc[j, "note"] = ""
+        ] = f"The share of income received by the richest 10% of the population. {datasets_description_subtitle}"
+        df_graphers.loc[j, "note"] = source_checkbox["note"][view]
         df_graphers.loc[j, "type"] = np.nan
         j += 1
 
@@ -657,8 +661,8 @@ for tab in range(len(merged_tables)):
         ].capitalize()
         df_graphers.loc[
             j, "subtitle"
-        ] = f"The share of income received by the poorest 50% of the population."
-        df_graphers.loc[j, "note"] = ""
+        ] = f"The share of income received by the poorest 50% of the population. {datasets_description_subtitle}"
+        df_graphers.loc[j, "note"] = source_checkbox["note"][view]
         j += 1
 
         # # P90/P10
@@ -720,8 +724,8 @@ for tab in range(len(merged_tables)):
         ].capitalize()
         df_graphers.loc[
             j, "subtitle"
-        ] = f"The share of income received by the richest 10% divided by the share of the poorest 40%."
-        df_graphers.loc[j, "note"] = ""
+        ] = f"The share of income received by the richest 10% divided by the share of the poorest 40%. {datasets_description_subtitle}"
+        df_graphers.loc[j, "note"] = source_checkbox["note"][view]
         df_graphers.loc[j, "type"] = np.nan
         j += 1
 
@@ -736,8 +740,8 @@ for tab in range(len(merged_tables)):
         ].capitalize()
         df_graphers.loc[
             j, "subtitle"
-        ] = f"The share of population with income below 50% of the median. Relative poverty reflects the extent of inequality within the bottom of the distribution."
-        df_graphers.loc[j, "note"] = ""
+        ] = f"The share of population with income below 50% of the median. Relative poverty reflects the extent of inequality within the bottom of the distribution. {datasets_description_subtitle}"
+        df_graphers.loc[j, "note"] = source_checkbox["note"][view]
         df_graphers.loc[j, "type"] = np.nan
         j += 1
 

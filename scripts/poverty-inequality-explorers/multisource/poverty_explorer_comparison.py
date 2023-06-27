@@ -760,11 +760,11 @@ selectedFacetStrategy = "entity"
 hasMapTab = "false"
 tab_parameter = "chart"
 
+datasets_description = "LIS data relates to income after taxes and benefits per capita. Depending on the country and year, PIP data relates to income measured after taxes and benefits or consumption per capita."
+
 df_graphers = pd.DataFrame()
 
 j = 0
-
-datasets_description = "LIS data relates to income after taxes and benefits per capita. Depending on the country and year, PIP data relates to income measured after taxes and benefits or consumption per capita."
 
 for tab in range(len(merged_tables)):
     for view in range(len(source_checkbox)):
