@@ -295,7 +295,7 @@ for tab in range(len(tables)):
         ] = f"{welfare['dropdown_option'][wel]}"
         df_graphers.loc[
             j, "subtitle"
-        ] = f"The Gini coefficient measures inequality on a scale between 0 and 1, where higher values indicate greater inequality. {welfare['subtitle'][wel]}"
+        ] = f"The Gini coefficient measures inequality on a scale between 0 and 1, where higher values indicate greater inequality. {welfare['subtitle_ineq'][wel]}"
         df_graphers.loc[j, "note"] = f"{welfare['note'][wel]}"
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan

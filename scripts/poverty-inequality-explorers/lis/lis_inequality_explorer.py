@@ -285,7 +285,7 @@ for tab in range(len(tables)):
             ] = equivalence_scales["checkbox"][eq]
             df_graphers.loc[
                 j, "subtitle"
-            ] = f"The Gini coefficient measures inequality on a scale between 0 and 1, where higher values indicate greater inequality. {welfare['subtitle'][wel]}"
+            ] = f"The Gini coefficient measures inequality on a scale between 0 and 1, where higher values indicate greater inequality. {welfare['subtitle_ineq'][wel]}"
             df_graphers.loc[j, "note"] = equivalence_scales["note"][eq]
             df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
             df_graphers.loc[j, "hasMapTab"] = "true"
