@@ -408,6 +408,14 @@ tolerance = 5
 colorScaleEqualSizeBins = "true"
 new_line = "<br><br>"
 
+additional_description = new_line.join(
+    [
+        "The data is estimated from a combination of household surveys, tax records and national accounts data. This combination can provide a more accurate picture of the incomes of the richest, which tend to be captured poorly in household survey data alone.",
+        "These underlying data sources are not always available. For some countries, observations are extrapolated from data relating to other years, or are sometimes modeled based on data observed in other countries.",
+    ]
+)
+ppp_description = "The data is measured in international-$ at 2021 prices – this adjusts for inflation and for differences in the cost of living between countries."
+
 df_tables_wid = pd.DataFrame()
 j = 0
 
@@ -419,9 +427,14 @@ for tab in range(len(merged_tables)):
             j, "name"
         ] = f"Mean {wid_welfare['welfare_type'][wel]} (WID data)"
         df_tables_wid.loc[j, "slug"] = f"p0p100_avg_{wid_welfare['slug'][wel]}"
-        df_tables_wid.loc[
-            j, "description"
-        ] = f"Mean {wid_welfare['welfare_type'][wel]}.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} {wid_welfare['note'][wel]}"
+        df_tables_wid.loc[j, "description"] = new_line.join(
+            [
+                f"Mean {wid_welfare['welfare_type'][wel]}",
+                wid_welfare["description"][wel],
+                ppp_description,
+                additional_description,
+            ]
+        )
         df_tables_wid.loc[j, "unit"] = "international-$ in 2021 prices"
         df_tables_wid.loc[j, "shortUnit"] = "$"
         df_tables_wid.loc[j, "type"] = "Numeric"
@@ -434,9 +447,14 @@ for tab in range(len(merged_tables)):
             j, "name"
         ] = f"Median {wid_welfare['welfare_type'][wel]} (WID data)"
         df_tables_wid.loc[j, "slug"] = f"median_{wid_welfare['slug'][wel]}"
-        df_tables_wid.loc[
-            j, "description"
-        ] = f"This is the level of {wid_welfare['welfare_type'][wel]} below which 50% of the population falls.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} {wid_welfare['note'][wel]}"
+        df_tables_wid.loc[j, "description"] = new_line.join(
+            [
+                f"This is the level of {wid_welfare['welfare_type'][wel]} below which 50% of the population falls.",
+                wid_welfare["description"][wel],
+                ppp_description,
+                additional_description,
+            ]
+        )
         df_tables_wid.loc[j, "unit"] = "international-$ in 2021 prices"
         df_tables_wid.loc[j, "shortUnit"] = "$"
         df_tables_wid.loc[j, "type"] = "Numeric"
@@ -452,9 +470,14 @@ for tab in range(len(merged_tables)):
             df_tables_wid.loc[
                 j, "slug"
             ] = f"{wid_deciles9['wid_notation'][dec9]}_thr_{wid_welfare['slug'][wel]}"
-            df_tables_wid.loc[
-                j, "description"
-            ] = f"The level of {wid_welfare['welfare_type'][wel]} below which {wid_deciles9['decile'][dec9]}0% of the population falls.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} {wid_welfare['note'][wel]}"
+            df_tables_wid.loc[j, "description"] = new_line.join(
+                [
+                    f"The level of {wid_welfare['welfare_type'][wel]} below which {wid_deciles9['decile'][dec9]}0% of the population falls.",
+                    wid_welfare["description"][wel],
+                    ppp_description,
+                    additional_description,
+                ]
+            )
             df_tables_wid.loc[j, "unit"] = "international-$ in 2021 prices"
             df_tables_wid.loc[j, "shortUnit"] = "$"
             df_tables_wid.loc[j, "type"] = "Numeric"
@@ -472,9 +495,14 @@ for tab in range(len(merged_tables)):
             df_tables_wid.loc[
                 j, "slug"
             ] = f"{wid_deciles10['wid_notation'][dec10]}_avg_{wid_welfare['slug'][wel]}"
-            df_tables_wid.loc[
-                j, "description"
-            ] = f"This is the mean {wid_welfare['welfare_type'][wel]} within the {wid_deciles10['ordinal'][dec10]} (tenth of the population).{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} {wid_welfare['note'][wel]}"
+            df_tables_wid.loc[j, "description"] = new_line.join(
+                [
+                    f"The mean {wid_welfare['welfare_type'][wel]} within the {wid_deciles10['ordinal'][dec10]} (tenth of the population).",
+                    wid_welfare["description"][wel],
+                    ppp_description,
+                    additional_description,
+                ]
+            )
             df_tables_wid.loc[j, "unit"] = "international-$ in 2021 prices"
             df_tables_wid.loc[j, "shortUnit"] = "$"
             df_tables_wid.loc[j, "type"] = "Numeric"
@@ -492,9 +520,13 @@ for tab in range(len(merged_tables)):
             df_tables_wid.loc[
                 j, "slug"
             ] = f"{wid_deciles10['wid_notation'][dec10]}_share_{wid_welfare['slug'][wel]}"
-            df_tables_wid.loc[
-                j, "description"
-            ] = f"This is the {wid_welfare['welfare_type'][wel]} of the {wid_deciles10['ordinal'][dec10]} (tenth of the population) as a share of total {wid_welfare['welfare_type'][wel]}.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} {wid_welfare['note'][wel]}"
+            df_tables_wid.loc[j, "description"] = new_line.join(
+                [
+                    f"The share of {wid_welfare['welfare_type'][wel]} received by the {wid_deciles10['ordinal'][dec10]} (tenth of the population).",
+                    wid_welfare["description"][wel],
+                    additional_description,
+                ]
+            )
             df_tables_wid.loc[j, "unit"] = "%"
             df_tables_wid.loc[j, "shortUnit"] = "%"
             df_tables_wid.loc[j, "type"] = "Numeric"
@@ -513,9 +545,14 @@ for tab in range(len(merged_tables)):
             df_tables_wid.loc[
                 j, "slug"
             ] = f"p0p100_avg_{wid_welfare['slug'][wel]}{wid_income_aggregation['slug_suffix'][agg]}"
-            df_tables_wid.loc[
-                j, "description"
-            ] = f"Mean {wid_welfare['welfare_type'][wel]}.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} {wid_welfare['note'][wel]}"
+            df_tables_wid.loc[j, "description"] = new_line.join(
+                [
+                    f"Mean {wid_welfare['welfare_type'][wel]}.",
+                    wid_welfare["description"][wel],
+                    ppp_description,
+                    additional_description,
+                ]
+            )
             df_tables_wid.loc[j, "unit"] = "international-$ in 2021 prices"
             df_tables_wid.loc[j, "shortUnit"] = "$"
             df_tables_wid.loc[j, "type"] = "Numeric"
@@ -535,9 +572,14 @@ for tab in range(len(merged_tables)):
             df_tables_wid.loc[
                 j, "slug"
             ] = f"median_{wid_welfare['slug'][wel]}{wid_income_aggregation['slug_suffix'][agg]}"
-            df_tables_wid.loc[
-                j, "description"
-            ] = f"This is the level of {wid_welfare['welfare_type'][wel]} below which 50% of the population falls.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} {wid_welfare['note'][wel]}"
+            df_tables_wid.loc[j, "description"] = new_line.join(
+                [
+                    f"This is the level of {wid_welfare['welfare_type'][wel]} below which 50% of the population falls.",
+                    wid_welfare["description"][wel],
+                    ppp_description,
+                    additional_description,
+                ]
+            )
             df_tables_wid.loc[j, "unit"] = "international-$ in 2021 prices"
             df_tables_wid.loc[j, "shortUnit"] = "$"
             df_tables_wid.loc[j, "type"] = "Numeric"
@@ -558,9 +600,14 @@ for tab in range(len(merged_tables)):
                 df_tables_wid.loc[
                     j, "slug"
                 ] = f"{wid_deciles9['wid_notation'][dec9]}_thr_{wid_welfare['slug'][wel]}{wid_income_aggregation['slug_suffix'][agg]}"
-                df_tables_wid.loc[
-                    j, "description"
-                ] = f"The level of {wid_welfare['welfare_type'][wel]} below which {wid_deciles9['decile'][dec9]}0% of the population falls.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} {wid_welfare['note'][wel]}"
+                df_tables_wid.loc[j, "description"] = new_line.join(
+                    [
+                        f"The level of {wid_welfare['welfare_type'][wel]} below which {wid_deciles9['decile'][dec9]}0% of the population falls.",
+                        wid_welfare["description"][wel],
+                        ppp_description,
+                        additional_description,
+                    ]
+                )
                 df_tables_wid.loc[j, "unit"] = "international-$ in 2021 prices"
                 df_tables_wid.loc[j, "shortUnit"] = "$"
                 df_tables_wid.loc[j, "type"] = "Numeric"
@@ -581,9 +628,14 @@ for tab in range(len(merged_tables)):
                 df_tables_wid.loc[
                     j, "slug"
                 ] = f"{wid_deciles10['wid_notation'][dec10]}_avg_{wid_welfare['slug'][wel]}{wid_income_aggregation['slug_suffix'][agg]}"
-                df_tables_wid.loc[
-                    j, "description"
-                ] = f"This is the mean {wid_welfare['welfare_type'][wel]} within the {wid_deciles10['ordinal'][dec10]} (tenth of the population).{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} {wid_welfare['note'][wel]}"
+                df_tables_wid.loc[j, "description"] = new_line.join(
+                    [
+                        f"The mean {wid_welfare['welfare_type'][wel]} within the {wid_deciles10['ordinal'][dec10]} (tenth of the population).",
+                        wid_welfare["description"][wel],
+                        ppp_description,
+                        additional_description,
+                    ]
+                )
                 df_tables_wid.loc[j, "unit"] = "international-$ in 2021 prices"
                 df_tables_wid.loc[j, "shortUnit"] = "$"
                 df_tables_wid.loc[j, "type"] = "Numeric"

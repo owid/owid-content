@@ -550,7 +550,7 @@ for tab in range(len(wid_tables)):
         df_tables_wid.loc[j, "slug"] = f"palma_ratio_{wid_welfare['slug'][wel]}"
         df_tables_wid.loc[j, "description"] = new_line.join(
             [
-                f"The Palma ratio is a measure of inequality: it is the share of total {wid_welfare['welfare_type'][wel]} of the top 10% divided by the share of the bottom 40%.",
+                f"The share of income received by the richest 10% divided by the share of the poorest 40%.",
                 wid_welfare["description"][wel],
                 additional_description,
             ]

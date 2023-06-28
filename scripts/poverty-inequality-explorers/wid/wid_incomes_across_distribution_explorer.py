@@ -103,6 +103,14 @@ colorScaleNumericMinValue = 0
 tolerance = 5
 new_line = "<br><br>"
 
+additional_description = new_line.join(
+    [
+        "The data is estimated from a combination of household surveys, tax records and national accounts data. This combination can provide a more accurate picture of the incomes of the richest, which tend to be captured poorly in household survey data alone.",
+        "These underlying data sources are not always available. For some countries, observations are extrapolated from data relating to other years, or are sometimes modeled based on data observed in other countries.",
+    ]
+)
+ppp_description = "The data is measured in international-$ at 2021 prices – this adjusts for inflation and for differences in the cost of living between countries."
+
 df_tables = pd.DataFrame()
 j = 0
 
@@ -126,9 +134,14 @@ for tab in range(len(tables)):
             j, "name"
         ] = f"Mean {welfare['welfare_type'][wel]} {welfare['title'][wel]}"
         df_tables.loc[j, "slug"] = f"p0p100_avg_{welfare['slug'][wel]}"
-        df_tables.loc[
-            j, "description"
-        ] = f"Mean {welfare['welfare_type'][wel]}.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]} {welfare['note'][wel]}"
+        df_tables.loc[j, "description"] = new_line.join(
+            [
+                f"Mean {welfare['welfare_type'][wel]}",
+                welfare["description"][wel],
+                ppp_description,
+                additional_description,
+            ]
+        )
         df_tables.loc[j, "unit"] = "international-$ in 2021 prices"
         df_tables.loc[j, "shortUnit"] = "$"
         df_tables.loc[j, "type"] = "Numeric"
@@ -142,9 +155,14 @@ for tab in range(len(tables)):
             j, "name"
         ] = f"Median {welfare['welfare_type'][wel]} {welfare['title'][wel]}"
         df_tables.loc[j, "slug"] = f"median_{welfare['slug'][wel]}"
-        df_tables.loc[
-            j, "description"
-        ] = f"This is the level of {welfare['welfare_type'][wel]} below which 50% of the population falls.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]} {welfare['note'][wel]}"
+        df_tables.loc[j, "description"] = new_line.join(
+            [
+                f"This is the level of {welfare['welfare_type'][wel]} below which 50% of the population falls.",
+                welfare["description"][wel],
+                ppp_description,
+                additional_description,
+            ]
+        )
         df_tables.loc[j, "unit"] = "international-$ in 2021 prices"
         df_tables.loc[j, "shortUnit"] = "$"
         df_tables.loc[j, "type"] = "Numeric"
@@ -161,9 +179,14 @@ for tab in range(len(tables)):
             df_tables.loc[
                 j, "slug"
             ] = f"{deciles9['wid_notation'][dec9]}_thr_{welfare['slug'][wel]}"
-            df_tables.loc[
-                j, "description"
-            ] = f"The level of {welfare['welfare_type'][wel]} below which {deciles9['decile'][dec9]}0% of the population falls.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]} {welfare['note'][wel]}"
+            df_tables.loc[j, "description"] = new_line.join(
+                [
+                    f"The level of {welfare['welfare_type'][wel]} below which {deciles9['decile'][dec9]}0% of the population falls.",
+                    welfare["description"][wel],
+                    ppp_description,
+                    additional_description,
+                ]
+            )
             df_tables.loc[j, "unit"] = "international-$ in 2021 prices"
             df_tables.loc[j, "shortUnit"] = "$"
             df_tables.loc[j, "type"] = "Numeric"
@@ -180,9 +203,14 @@ for tab in range(len(tables)):
             df_tables.loc[
                 j, "slug"
             ] = f"{deciles10['wid_notation'][dec10]}_avg_{welfare['slug'][wel]}"
-            df_tables.loc[
-                j, "description"
-            ] = f"This is the mean {welfare['welfare_type'][wel]} within the {deciles10['ordinal'][dec10]} (tenth of the population).{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]} {welfare['note'][wel]}"
+            df_tables.loc[j, "description"] = new_line.join(
+                [
+                    f"The mean {welfare['welfare_type'][wel]} within the {deciles10['ordinal'][dec10]} (tenth of the population).",
+                    welfare["description"][wel],
+                    ppp_description,
+                    additional_description,
+                ]
+            )
             df_tables.loc[j, "unit"] = "international-$ in 2021 prices"
             df_tables.loc[j, "shortUnit"] = "$"
             df_tables.loc[j, "type"] = "Numeric"
@@ -199,9 +227,13 @@ for tab in range(len(tables)):
             df_tables.loc[
                 j, "slug"
             ] = f"{deciles10['wid_notation'][dec10]}_share_{welfare['slug'][wel]}"
-            df_tables.loc[
-                j, "description"
-            ] = f"This is the {welfare['welfare_type'][wel]} of the {deciles10['ordinal'][dec10]} (tenth of the population) as a share of total {welfare['welfare_type'][wel]}.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]} {welfare['note'][wel]}"
+            df_tables.loc[j, "description"] = new_line.join(
+                [
+                    f"The share of {welfare['welfare_type'][wel]} received by the {deciles10['ordinal'][dec10]} (tenth of the population).",
+                    welfare["description"][wel],
+                    additional_description,
+                ]
+            )
             df_tables.loc[j, "unit"] = "%"
             df_tables.loc[j, "shortUnit"] = "%"
             df_tables.loc[j, "type"] = "Numeric"
@@ -220,9 +252,14 @@ for tab in range(len(tables)):
             df_tables.loc[
                 j, "slug"
             ] = f"{top_pct['wid_notation'][top]}_thr_{welfare['slug'][wel]}"
-            df_tables.loc[
-                j, "description"
-            ] = f"The level of {welfare['welfare_type'][wel]} marking the richest {top_pct['name'][top]}.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]} {welfare['note'][wel]}"
+            df_tables.loc[j, "description"] = new_line.join(
+                [
+                    f"The level of {welfare['welfare_type'][wel]} marking the richest {top_pct['percentage'][top]}",
+                    welfare["description"][wel],
+                    ppp_description,
+                    additional_description,
+                ]
+            )
             df_tables.loc[j, "unit"] = "international-$ in 2021 prices"
             df_tables.loc[j, "shortUnit"] = "$"
             df_tables.loc[j, "type"] = "Numeric"
@@ -239,9 +276,14 @@ for tab in range(len(tables)):
             df_tables.loc[
                 j, "slug"
             ] = f"{top_pct['wid_notation'][top]}_avg_{welfare['slug'][wel]}"
-            df_tables.loc[
-                j, "description"
-            ] = f"This is the mean {welfare['welfare_type'][wel]} within the richest {top_pct['name'][top]}.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]} {welfare['note'][wel]}"
+            df_tables.loc[j, "description"] = new_line.join(
+                [
+                    f"The mean {welfare['welfare_type'][wel]} within the richest {top_pct['percentage'][top]}.",
+                    welfare["description"][wel],
+                    ppp_description,
+                    additional_description,
+                ]
+            )
             df_tables.loc[j, "unit"] = "international-$ in 2021 prices"
             df_tables.loc[j, "shortUnit"] = "$"
             df_tables.loc[j, "type"] = "Numeric"
@@ -258,9 +300,13 @@ for tab in range(len(tables)):
             df_tables.loc[
                 j, "slug"
             ] = f"{top_pct['wid_notation'][top]}_share_{welfare['slug'][wel]}"
-            df_tables.loc[
-                j, "description"
-            ] = f"This is the {welfare['welfare_type'][wel]} of the {top_pct['name'][top]} as a share of total {welfare['welfare_type'][wel]}.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]} {welfare['note'][wel]}"
+            df_tables.loc[j, "description"] = new_line.join(
+                [
+                    f"The share of {welfare['welfare_type'][wel]} received by the richest {top_pct['percentage'][top]} of the population.",
+                    welfare["description"][wel],
+                    additional_description,
+                ]
+            )
             df_tables.loc[j, "unit"] = "%"
             df_tables.loc[j, "shortUnit"] = "%"
             df_tables.loc[j, "type"] = "Numeric"
@@ -280,9 +326,14 @@ for tab in range(len(tables)):
             df_tables.loc[
                 j, "slug"
             ] = f"p0p100_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]}"
-            df_tables.loc[
-                j, "description"
-            ] = f"Mean {welfare['welfare_type'][wel]}.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]} {welfare['note'][wel]}"
+            df_tables.loc[j, "description"] = new_line.join(
+                [
+                    f"Mean {welfare['welfare_type'][wel]}.",
+                    welfare["description"][wel],
+                    ppp_description,
+                    additional_description,
+                ]
+            )
             df_tables.loc[j, "unit"] = "international-$ in 2021 prices"
             df_tables.loc[j, "shortUnit"] = "$"
             df_tables.loc[j, "type"] = "Numeric"
@@ -303,9 +354,14 @@ for tab in range(len(tables)):
             df_tables.loc[
                 j, "slug"
             ] = f"median_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]}"
-            df_tables.loc[
-                j, "description"
-            ] = f"This is the level of {welfare['welfare_type'][wel]} below which 50% of the population falls.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]} {welfare['note'][wel]}"
+            df_tables.loc[j, "description"] = new_line.join(
+                [
+                    f"This is the level of {welfare['welfare_type'][wel]} below which 50% of the population falls.",
+                    welfare["description"][wel],
+                    ppp_description,
+                    additional_description,
+                ]
+            )
             df_tables.loc[j, "unit"] = "international-$ in 2021 prices"
             df_tables.loc[j, "shortUnit"] = "$"
             df_tables.loc[j, "type"] = "Numeric"
@@ -327,9 +383,14 @@ for tab in range(len(tables)):
                 df_tables.loc[
                     j, "slug"
                 ] = f"{deciles9['wid_notation'][dec9]}_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]}"
-                df_tables.loc[
-                    j, "description"
-                ] = f"The level of {welfare['welfare_type'][wel]} below which {deciles9['decile'][dec9]}0% of the population falls.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]} {welfare['note'][wel]}"
+                df_tables.loc[j, "description"] = new_line.join(
+                    [
+                        f"The level of {welfare['welfare_type'][wel]} below which {deciles9['decile'][dec9]}0% of the population falls.",
+                        welfare["description"][wel],
+                        ppp_description,
+                        additional_description,
+                    ]
+                )
                 df_tables.loc[j, "unit"] = "international-$ in 2021 prices"
                 df_tables.loc[j, "shortUnit"] = "$"
                 df_tables.loc[j, "type"] = "Numeric"
@@ -351,9 +412,14 @@ for tab in range(len(tables)):
                 df_tables.loc[
                     j, "slug"
                 ] = f"{deciles10['wid_notation'][dec10]}_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]}"
-                df_tables.loc[
-                    j, "description"
-                ] = f"This is the mean {welfare['welfare_type'][wel]} within the {deciles10['ordinal'][dec10]} (tenth of the population).{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]} {welfare['note'][wel]}"
+                df_tables.loc[j, "description"] = new_line.join(
+                    [
+                        f"The mean {welfare['welfare_type'][wel]} within the {deciles10['ordinal'][dec10]} (tenth of the population).",
+                        welfare["description"][wel],
+                        ppp_description,
+                        additional_description,
+                    ]
+                )
                 df_tables.loc[j, "unit"] = "international-$ in 2021 prices"
                 df_tables.loc[j, "shortUnit"] = "$"
                 df_tables.loc[j, "type"] = "Numeric"
@@ -375,9 +441,14 @@ for tab in range(len(tables)):
                 df_tables.loc[
                     j, "slug"
                 ] = f"{top_pct['wid_notation'][top]}_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]}"
-                df_tables.loc[
-                    j, "description"
-                ] = f"The level of {welfare['welfare_type'][wel]} marking the richest {top_pct['name'][top]}.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]} {welfare['note'][wel]}"
+                df_tables.loc[j, "description"] = new_line.join(
+                    [
+                        f"The level of {welfare['welfare_type'][wel]} marking the richest {top_pct['percentage'][top]}",
+                        welfare["description"][wel],
+                        ppp_description,
+                        additional_description,
+                    ]
+                )
                 df_tables.loc[j, "unit"] = "international-$ in 2021 prices"
                 df_tables.loc[j, "shortUnit"] = "$"
                 df_tables.loc[j, "type"] = "Numeric"
@@ -399,9 +470,14 @@ for tab in range(len(tables)):
                 df_tables.loc[
                     j, "slug"
                 ] = f"{top_pct['wid_notation'][top]}_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]}"
-                df_tables.loc[
-                    j, "description"
-                ] = f"This is the mean {welfare['welfare_type'][wel]} within the richest {top_pct['name'][top]}.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]} {welfare['note'][wel]}"
+                df_tables.loc[j, "description"] = new_line.join(
+                    [
+                        f"The mean {welfare['welfare_type'][wel]} within the richest {top_pct['percentage'][top]}.",
+                        welfare["description"][wel],
+                        ppp_description,
+                        additional_description,
+                    ]
+                )
                 df_tables.loc[j, "unit"] = "international-$ in 2021 prices"
                 df_tables.loc[j, "shortUnit"] = "$"
                 df_tables.loc[j, "type"] = "Numeric"
@@ -569,7 +645,7 @@ for tab in range(len(tables)):
             for top in range(len(top_pct)):
                 df_graphers.loc[
                     j, "title"
-                ] = f"Threshold {welfare['welfare_type'][wel]} per {income_aggregation['aggregation'][agg]} marking the richest {top_pct['name'][top]} {welfare['title'][wel].capitalize()}"
+                ] = f"Threshold {welfare['welfare_type'][wel]} per {income_aggregation['aggregation'][agg]} marking the richest {top_pct['percentage'][top]} {welfare['title'][wel].capitalize()}"
                 df_graphers.loc[
                     j, "ySlugs"
                 ] = f"{top_pct['wid_notation'][top]}_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]}"
@@ -599,7 +675,7 @@ for tab in range(len(tables)):
             for top in range(len(top_pct)):
                 df_graphers.loc[
                     j, "title"
-                ] = f"Mean {welfare['welfare_type'][wel]} per {income_aggregation['aggregation'][agg]} within the {top_pct['name'][top]} {welfare['title'][wel].capitalize()}"
+                ] = f"Mean {welfare['welfare_type'][wel]} per {income_aggregation['aggregation'][agg]} within the richest {top_pct['percentage'][top]} {welfare['title'][wel].capitalize()}"
                 df_graphers.loc[
                     j, "ySlugs"
                 ] = f"{top_pct['wid_notation'][top]}_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]}"
@@ -877,7 +953,7 @@ for tab in range(len(tables)):
         for top in range(len(top_pct)):
             df_graphers.loc[
                 j, "title"
-            ] = f"Threshold income per {income_aggregation['aggregation'][agg]} marking the richest {top_pct['name'][top]} (after tax vs. before tax)"
+            ] = f"Threshold income per {income_aggregation['aggregation'][agg]} marking the richest {top_pct['percentage'][top]} (after tax vs. before tax)"
             df_graphers.loc[
                 j, "ySlugs"
             ] = f"{top_pct['wid_notation'][top]}_thr_pretax{income_aggregation['slug_suffix'][agg]} {top_pct['wid_notation'][top]}_thr_posttax_nat{income_aggregation['slug_suffix'][agg]}"
@@ -905,7 +981,7 @@ for tab in range(len(tables)):
         for top in range(len(top_pct)):
             df_graphers.loc[
                 j, "title"
-            ] = f"Mean income per {income_aggregation['aggregation'][agg]} within the {top_pct['name'][top]} (after tax vs. before tax)"
+            ] = f"Mean income per {income_aggregation['aggregation'][agg]} within the richest {top_pct['percentage'][top]} (after tax vs. before tax)"
             df_graphers.loc[
                 j, "ySlugs"
             ] = f"{top_pct['wid_notation'][top]}_avg_pretax{income_aggregation['slug_suffix'][agg]} {top_pct['wid_notation'][top]}_avg_posttax_nat{income_aggregation['slug_suffix'][agg]}"
@@ -964,7 +1040,7 @@ for tab in range(len(tables)):
         for top in range(len(top_pct)):
             df_graphers.loc[
                 j, "title"
-            ] = f"{welfare['welfare_type'][wel].capitalize()} share of the richest {top_pct['name'][top]} {welfare['title'][wel].capitalize()}"
+            ] = f"{welfare['welfare_type'][wel].capitalize()} share of the richest {top_pct['percentage'][top]} {welfare['title'][wel].capitalize()}"
             df_graphers.loc[
                 j, "ySlugs"
             ] = f"{top_pct['wid_notation'][top]}_share_{welfare['slug'][wel]}"
@@ -1059,7 +1135,7 @@ for tab in range(len(tables)):
     for top in range(len(top_pct)):
         df_graphers.loc[
             j, "title"
-        ] = f"Income share of the richest {top_pct['name'][top]} (after tax vs. before tax)"
+        ] = f"Income share of the richest {top_pct['percentage'][top]} (after tax vs. before tax)"
         df_graphers.loc[
             j, "ySlugs"
         ] = f"{top_pct['wid_notation'][top]}_share_pretax {top_pct['wid_notation'][top]}_share_posttax_nat"

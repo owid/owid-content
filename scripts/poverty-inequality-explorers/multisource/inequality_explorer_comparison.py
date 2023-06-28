@@ -290,6 +290,14 @@ tolerance = 5
 colorScaleEqualSizeBins = "true"
 new_line = "<br><br>"
 
+additional_description = new_line.join(
+    [
+        "The data is estimated from a combination of household surveys, tax records and national accounts data. This combination can provide a more accurate picture of the incomes of the richest, which tend to be captured poorly in household survey data alone.",
+        "These underlying data sources are not always available. For some countries, observations are extrapolated from data relating to other years, or are sometimes modeled based on data observed in other countries.",
+    ]
+)
+ppp_description = "The data is measured in international-$ at 2021 prices – this adjusts for inflation and for differences in the cost of living between countries."
+
 df_tables_wid = pd.DataFrame()
 j = 0
 
@@ -298,9 +306,13 @@ for tab in range(len(merged_tables)):
         # Gini coefficient
         df_tables_wid.loc[j, "name"] = f"Gini coefficient (WID data)"
         df_tables_wid.loc[j, "slug"] = f"p0p100_gini_{wid_welfare['slug'][wel]}"
-        df_tables_wid.loc[
-            j, "description"
-        ] = f"The Gini coefficient measures inequality on a scale between 0 and 1, where higher values indicate greater inequality.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} {wid_welfare['note'][wel]}"
+        df_tables_wid.loc[j, "description"] = new_line.join(
+            [
+                f"The Gini coefficient measures inequality on a scale between 0 and 1, where higher values indicate greater inequality.",
+                wid_welfare["description"][wel],
+                additional_description,
+            ]
+        )
         df_tables_wid.loc[j, "unit"] = np.nan
         df_tables_wid.loc[j, "shortUnit"] = np.nan
         df_tables_wid.loc[j, "type"] = "Numeric"
@@ -313,9 +325,13 @@ for tab in range(len(merged_tables)):
             j, "name"
         ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the richest 10% (WID data)"
         df_tables_wid.loc[j, "slug"] = f"p90p100_share_{wid_welfare['slug'][wel]}"
-        df_tables_wid.loc[
-            j, "description"
-        ] = f"This is the {wid_welfare['welfare_type'][wel]} of the richest 10% as a share of total {wid_welfare['welfare_type'][wel]}.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} {wid_welfare['note'][wel]}"
+        df_tables_wid.loc[j, "description"] = new_line.join(
+            [
+                f"The share of {wid_welfare['welfare_type'][wel]} received by the richest 10% of the population.",
+                wid_welfare["description"][wel],
+                additional_description,
+            ]
+        )
         df_tables_wid.loc[j, "unit"] = "%"
         df_tables_wid.loc[j, "shortUnit"] = "%"
         df_tables_wid.loc[j, "type"] = "Numeric"
@@ -328,9 +344,13 @@ for tab in range(len(merged_tables)):
             j, "name"
         ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the poorest 50% (WID data)"
         df_tables_wid.loc[j, "slug"] = f"p0p50_share_{wid_welfare['slug'][wel]}"
-        df_tables_wid.loc[
-            j, "description"
-        ] = f"This is the {wid_welfare['welfare_type'][wel]} of the poorest 50% as a share of total {wid_welfare['welfare_type'][wel]}.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} {wid_welfare['note'][wel]}"
+        df_tables_wid.loc[j, "description"] = new_line.join(
+            [
+                f"The share of {wid_welfare['welfare_type'][wel]} received by the poorest 50% of the population.",
+                wid_welfare["description"][wel],
+                additional_description,
+            ]
+        )
         df_tables_wid.loc[j, "unit"] = "%"
         df_tables_wid.loc[j, "shortUnit"] = "%"
         df_tables_wid.loc[j, "type"] = "Numeric"
@@ -388,9 +408,13 @@ for tab in range(len(merged_tables)):
         # Palma ratio
         df_tables_wid.loc[j, "name"] = f"Palma ratio (WID data)"
         df_tables_wid.loc[j, "slug"] = f"palma_ratio_{wid_welfare['slug'][wel]}"
-        df_tables_wid.loc[
-            j, "description"
-        ] = f"The Palma ratio is a measure of inequality: it is the share of total {wid_welfare['welfare_type'][wel]} of the top 10% divided by the share of the bottom 40%.{new_line}This is {wid_welfare['technical_text'][wel]}. {wid_welfare['subtitle'][wel]} {wid_welfare['note'][wel]}"
+        df_tables_wid.loc[j, "description"] = new_line.join(
+            [
+                f"The share of income received by the richest 10% divided by the share of the poorest 40%.",
+                wid_welfare["description"][wel],
+                additional_description,
+            ]
+        )
         df_tables_wid.loc[j, "unit"] = np.nan
         df_tables_wid.loc[j, "shortUnit"] = np.nan
         df_tables_wid.loc[j, "type"] = "Numeric"
