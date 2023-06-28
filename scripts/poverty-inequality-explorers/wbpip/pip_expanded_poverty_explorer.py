@@ -1124,10 +1124,8 @@ df_graphers["relatedQuestionUrl"] = np.nan
 df_graphers["mapTargetTime"] = df_graphers["mapTargetTime"].astype("Int64")
 
 # When the "Depending on" footnote is introduced, it generates unwanted texts as:
-# "Depending on the country and year, the data relates to disposable income per capita."
-# "Depending on the country and year, the data relates to disposable consumption per capita."
-
-# Depending on the country and year, the data relates to {survey_type.detailed_text[survey]} per capita.
+# "Depending on the country and year, the data relates to income measured after taxes and benefits per capita."
+# "Depending on the country and year, the data relates to consumption per capita."
 
 # When int-$ are not included
 df_graphers["note"] = df_graphers["note"].str.replace(
