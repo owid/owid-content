@@ -328,7 +328,12 @@ colorScaleNumericMinValue = 0
 tolerance = 5
 new_line = "<br><br>"
 
-additional_description = "The World Inequality Database calculates incomes at the top by merging income surveys with tax records and rescaling the distribution to national account aggregates."
+additional_description = new_line.join(
+    [
+        "The data is estimated from a combination of household surveys, tax records and national accounts data. This combination can provide a more accurate picture of the incomes of the richest, which tend to be captured poorly in household survey data alone.",
+        "These underlying data sources are not always available. For some countries, observations are extrapolated from data relating to other years, or are sometimes modeled based on data observed in other countries.",
+    ]
+)
 ppp_description = "The data is measured in international-$ at 2021 prices – this adjusts for inflation and for differences in the cost of living between countries."
 
 df_tables_wid = pd.DataFrame()
