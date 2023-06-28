@@ -141,6 +141,23 @@ colorScaleEqualSizeBins = "true"
 tableSlug = "poverty_inequality"
 new_line = "<br><br>"
 
+additional_description = new_line.join(
+    [
+        "Depending on the country and year, the data relates to income measured after taxes and benefits or consumption per capita.",
+        "Non-market sources of income, including food grown by subsistence farmers for their own consumption, are taken into account.",
+    ]
+)
+
+notes_title = "NOTES ON OUR PROCESSING STEP FOR THIS INDICATOR"
+
+processing_description = new_line.join(
+    [
+        "For a small number of country-year observations, the World Bank PIP data contains two estimates: one based on income data and one based on consumption data. In these cases we keep only the consumption estimate in order to obtain a single series for each country.",
+        "You can find the data with all available income and consumption data points, including these overlapping estimates, in our <a href=”https://github.com/owid/poverty-data#a-global-dataset-of-poverty-and-inequality-measures-prepared-by-our-world-in-data-from-the-world-banks-poverty-and-inequality-platform-pip-database”>complete dataset</a> of the World Bank PIP data.",
+    ]
+)
+ppp_description = "The data is measured in international-$ at 2017 prices – this adjusts for inflation and for differences in the cost of living between countries."
+
 # Table generation
 df_tables_pip = pd.DataFrame()
 j = 0
@@ -161,9 +178,14 @@ for tab in range(len(pip_tables)):
     # Gini coefficient
     df_tables_pip.loc[j, "name"] = f"Gini coefficient (PIP data)"
     df_tables_pip.loc[j, "slug"] = f"gini"
-    df_tables_pip.loc[
-        j, "description"
-    ] = f"The Gini coefficient measures inequality on a scale between 0 and 1, where higher values indicate greater inequality."
+    df_tables_pip.loc[j, "description"] = new_line.join(
+        [
+            "The Gini coefficient measures inequality on a scale between 0 and 1, where higher values indicate greater inequality.",
+            additional_description,
+            notes_title,
+            processing_description,
+        ]
+    )
     df_tables_pip.loc[j, "unit"] = np.nan
     df_tables_pip.loc[j, "shortUnit"] = np.nan
     df_tables_pip.loc[j, "type"] = "Numeric"
@@ -178,9 +200,14 @@ for tab in range(len(pip_tables)):
         j, "name"
     ] = f"{pip_tables.text[tab].capitalize()} share of the richest 10% (PIP data)"
     df_tables_pip.loc[j, "slug"] = f"decile10_share"
-    df_tables_pip.loc[
-        j, "description"
-    ] = f"The {pip_tables.text[tab]} of the richest decile (tenth of the population) as a share of total {pip_tables.text[tab]}."
+    df_tables_pip.loc[j, "description"] = new_line.join(
+        [
+            f"The share of after tax income or consumption received by the richest 10% of the population.",
+            additional_description,
+            notes_title,
+            processing_description,
+        ]
+    )
     df_tables_pip.loc[j, "unit"] = "%"
     df_tables_pip.loc[j, "shortUnit"] = "%"
     df_tables_pip.loc[j, "type"] = "Numeric"
@@ -193,9 +220,14 @@ for tab in range(len(pip_tables)):
         j, "name"
     ] = f"{pip_tables.text[tab].capitalize()} share of the poorest 50% (PIP data)"
     df_tables_pip.loc[j, "slug"] = f"bottom50_share"
-    df_tables_pip.loc[
-        j, "description"
-    ] = f"The {pip_tables.text[tab]} of the poorest 50% as a share of total {pip_tables.text[tab]}."
+    df_tables_pip.loc[j, "description"] = new_line.join(
+        [
+            f"The share of after tax income or consumption received by the poorest 50% of the population.",
+            additional_description,
+            notes_title,
+            processing_description,
+        ]
+    )
     df_tables_pip.loc[j, "unit"] = "%"
     df_tables_pip.loc[j, "shortUnit"] = "%"
     df_tables_pip.loc[j, "type"] = "Numeric"
@@ -245,9 +277,14 @@ for tab in range(len(pip_tables)):
     # Palma ratio
     df_tables_pip.loc[j, "name"] = f"Palma ratio (PIP data)"
     df_tables_pip.loc[j, "slug"] = f"palma_ratio"
-    df_tables_pip.loc[
-        j, "description"
-    ] = f"The Palma ratio is a measure of inequality: it is the share of total {pip_tables.text[tab]} of the top 10% divided by the share of the bottom 40%."
+    df_tables_pip.loc[j, "description"] = new_line.join(
+        [
+            f"The share of after tax income or consumption received by the richest 10% divided by the share of the poorest 40%.",
+            additional_description,
+            notes_title,
+            processing_description,
+        ]
+    )
     df_tables_pip.loc[j, "unit"] = np.nan
     df_tables_pip.loc[j, "shortUnit"] = np.nan
     df_tables_pip.loc[j, "type"] = "Numeric"
@@ -258,9 +295,15 @@ for tab in range(len(pip_tables)):
     # Headcount ratio (rel)
     df_tables_pip.loc[j, "name"] = f"Share in relative poverty (PIP data)"
     df_tables_pip.loc[j, "slug"] = f"headcount_ratio_50_median"
-    df_tables_pip.loc[
-        j, "description"
-    ] = f"% of population living in households with an {pip_tables.text[tab]} per person below 50% of the median."
+    df_tables_pip.loc[j, "description"] = new_line.join(
+        [
+            f"The share of population with after tax income or consumption below 50% of the median. Relative poverty reflects the extent of inequality within the bottom of the distribution.",
+            additional_description,
+            notes_title,
+            "Measures of relative poverty are not directly available in the World Bank PIP data. To calculate this metric we take the median income or consumption for the country and year, calculate a relative poverty line – in this case 50% of the median – and then run a specific query on the PIP API to return the share of population below that line.",
+            processing_description,
+        ]
+    )
     df_tables_pip.loc[j, "unit"] = "%"
     df_tables_pip.loc[j, "shortUnit"] = "%"
     df_tables_pip.loc[j, "type"] = "Numeric"

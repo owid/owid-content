@@ -208,6 +208,23 @@ colorScaleEqualSizeBins = "true"
 tableSlug = "poverty_inequality"
 new_line = "<br><br>"
 
+additional_description = new_line.join(
+    [
+        "Depending on the country and year, the data relates to income measured after taxes and benefits or consumption per capita.",
+        "Non-market sources of income, including food grown by subsistence farmers for their own consumption, are taken into account.",
+    ]
+)
+
+notes_title = "NOTES ON OUR PROCESSING STEP FOR THIS INDICATOR"
+
+processing_description = new_line.join(
+    [
+        "For a small number of country-year observations, the World Bank PIP data contains two estimates: one based on income data and one based on consumption data. In these cases we keep only the consumption estimate in order to obtain a single series for each country.",
+        "You can find the data with all available income and consumption data points, including these overlapping estimates, in our <a href=”https://github.com/owid/poverty-data#a-global-dataset-of-poverty-and-inequality-measures-prepared-by-our-world-in-data-from-the-world-banks-poverty-and-inequality-platform-pip-database”>complete dataset</a> of the World Bank PIP data.",
+    ]
+)
+ppp_description = "The data is measured in international-$ at 2017 prices – this adjusts for inflation and for differences in the cost of living between countries."
+
 # Table generation
 df_tables_pip = pd.DataFrame()
 j = 0
@@ -229,9 +246,15 @@ for tab in range(len(pip_tables)):
     # mean
     df_tables_pip.loc[j, "name"] = f"Mean {pip_tables.text[tab]} (PIP data)"
     df_tables_pip.loc[j, "slug"] = "mean"
-    df_tables_pip.loc[
-        j, "description"
-    ] = f"The mean level of {pip_tables.text[tab]} per day."
+    df_tables_pip.loc[j, "description"] = new_line.join(
+        [
+            f"Mean {pip_tables.text[tab]}.",
+            additional_description,
+            ppp_description,
+            notes_title,
+            processing_description,
+        ]
+    )
     df_tables_pip.loc[j, "unit"] = "international-$ in 2017 prices"
     df_tables_pip.loc[j, "shortUnit"] = "$"
     df_tables_pip.loc[j, "type"] = "Numeric"
@@ -242,9 +265,15 @@ for tab in range(len(pip_tables)):
     # median
     df_tables_pip.loc[j, "name"] = f"Median {pip_tables.text[tab]} (PIP data)"
     df_tables_pip.loc[j, "slug"] = "median"
-    df_tables_pip.loc[
-        j, "description"
-    ] = f"The level of {pip_tables.text[tab]} per day below which half of the population live."
+    df_tables_pip.loc[j, "description"] = new_line.join(
+        [
+            f"The level of {pip_tables.text[tab]} per day below which half of the population live.",
+            additional_description,
+            ppp_description,
+            notes_title,
+            processing_description,
+        ]
+    )
     df_tables_pip.loc[j, "unit"] = "international-$ in 2017 prices"
     df_tables_pip.loc[j, "shortUnit"] = "$"
     df_tables_pip.loc[j, "type"] = "Numeric"
@@ -258,9 +287,15 @@ for tab in range(len(pip_tables)):
             j, "name"
         ] = f"{pip_deciles9.ordinal[dec9].capitalize()} (PIP data)"
         df_tables_pip.loc[j, "slug"] = f"decile{pip_deciles9.decile[dec9]}_thr"
-        df_tables_pip.loc[
-            j, "description"
-        ] = f"The level of {pip_tables.text[tab]} per day below which {pip_deciles9.decile[dec9]}0% of the population falls."
+        df_tables_pip.loc[j, "description"] = new_line.join(
+            [
+                f"The level of {pip_tables.text[tab]} per day below which {pip_deciles9.decile[dec9]}0% of the population falls.",
+                additional_description,
+                ppp_description,
+                notes_title,
+                processing_description,
+            ]
+        )
         df_tables_pip.loc[j, "unit"] = "international-$ in 2017 prices"
         df_tables_pip.loc[j, "shortUnit"] = "$"
         df_tables_pip.loc[j, "type"] = "Numeric"
@@ -274,9 +309,15 @@ for tab in range(len(pip_tables)):
             j, "name"
         ] = f"{pip_deciles10.ordinal[dec10].capitalize()} (PIP data)"
         df_tables_pip.loc[j, "slug"] = f"decile{pip_deciles10.decile[dec10]}_avg"
-        df_tables_pip.loc[
-            j, "description"
-        ] = f"The mean {pip_tables.text[tab]} per day within the {pip_deciles10.ordinal[dec10]} (tenth of the population)."
+        df_tables_pip.loc[j, "description"] = new_line.join(
+            [
+                f"The mean {pip_tables.text[tab]} per day within the {pip_deciles10.ordinal[dec10]} (tenth of the population).",
+                additional_description,
+                ppp_description,
+                notes_title,
+                processing_description,
+            ]
+        )
         df_tables_pip.loc[j, "unit"] = "international-$ in 2017 prices"
         df_tables_pip.loc[j, "shortUnit"] = "$"
         df_tables_pip.loc[j, "type"] = "Numeric"
@@ -290,9 +331,14 @@ for tab in range(len(pip_tables)):
             j, "name"
         ] = f"{pip_deciles10.ordinal[dec10].capitalize()} (PIP data)"
         df_tables_pip.loc[j, "slug"] = f"decile{pip_deciles10.decile[dec10]}_share"
-        df_tables_pip.loc[
-            j, "description"
-        ] = f"The {pip_tables.text[tab]} of the {pip_deciles10.ordinal[dec10]} (tenth of the population) as a share of total {pip_tables.text[tab]}."
+        df_tables_pip.loc[j, "description"] = new_line.join(
+            [
+                f"The share of {pip_tables.text[tab]} received by the {pip_deciles10.ordinal[dec10]} (tenth of the population).",
+                additional_description,
+                notes_title,
+                processing_description,
+            ]
+        )
         df_tables_pip.loc[j, "unit"] = "%"
         df_tables_pip.loc[j, "shortUnit"] = "%"
         df_tables_pip.loc[j, "type"] = "Numeric"
@@ -305,9 +351,15 @@ for tab in range(len(pip_tables)):
         # mean
         df_tables_pip.loc[j, "name"] = f"Mean {pip_tables.text[tab]} (PIP data)"
         df_tables_pip.loc[j, "slug"] = f"mean{pip_income_aggregation.slug_suffix[agg]}"
-        df_tables_pip.loc[
-            j, "description"
-        ] = f"The mean level of {pip_tables.text[tab]} per {pip_income_aggregation.aggregation[agg]}."
+        df_tables_pip.loc[j, "description"] = new_line.join(
+            [
+                f"The mean level of {pip_tables.text[tab]} per {pip_income_aggregation.aggregation[agg]}.",
+                additional_description,
+                ppp_description,
+                notes_title,
+                processing_description,
+            ]
+        )
         df_tables_pip.loc[j, "unit"] = "international-$ in 2017 prices"
         df_tables_pip.loc[j, "shortUnit"] = "$"
         df_tables_pip.loc[j, "type"] = "Numeric"
@@ -325,9 +377,15 @@ for tab in range(len(pip_tables)):
         df_tables_pip.loc[
             j, "slug"
         ] = f"median{pip_income_aggregation.slug_suffix[agg]}"
-        df_tables_pip.loc[
-            j, "description"
-        ] = f"The level of {pip_tables.text[tab]} per {pip_income_aggregation.aggregation[agg]} below which half of the population live."
+        df_tables_pip.loc[j, "description"] = new_line.join(
+            [
+                f"The level of {pip_tables.text[tab]} per {pip_income_aggregation.aggregation[agg]} below which half of the population live.",
+                additional_description,
+                ppp_description,
+                notes_title,
+                processing_description,
+            ]
+        )
         df_tables_pip.loc[j, "unit"] = "international-$ in 2017 prices"
         df_tables_pip.loc[j, "shortUnit"] = "$"
         df_tables_pip.loc[j, "type"] = "Numeric"
@@ -348,9 +406,15 @@ for tab in range(len(pip_tables)):
             df_tables_pip.loc[
                 j, "slug"
             ] = f"decile{pip_deciles9.decile[dec9]}_thr{pip_income_aggregation.slug_suffix[agg]}"
-            df_tables_pip.loc[
-                j, "description"
-            ] = f"The level of {pip_tables.text[tab]} per {pip_income_aggregation.aggregation[agg]} below which {pip_deciles9.decile[dec9]}0% of the population falls."
+            df_tables_pip.loc[j, "description"] = new_line.join(
+                [
+                    f"The level of {pip_tables.text[tab]} per {pip_income_aggregation.aggregation[agg]} below which {pip_deciles9.decile[dec9]}0% of the population falls.",
+                    additional_description,
+                    ppp_description,
+                    notes_title,
+                    processing_description,
+                ]
+            )
             df_tables_pip.loc[j, "unit"] = "international-$ in 2017 prices"
             df_tables_pip.loc[j, "shortUnit"] = "$"
             df_tables_pip.loc[j, "type"] = "Numeric"
@@ -371,9 +435,15 @@ for tab in range(len(pip_tables)):
             df_tables_pip.loc[
                 j, "slug"
             ] = f"decile{pip_deciles10.decile[dec10]}_avg{pip_income_aggregation.slug_suffix[agg]}"
-            df_tables_pip.loc[
-                j, "description"
-            ] = f"The mean {pip_tables.text[tab]} per {pip_income_aggregation.aggregation[agg]} within the {pip_deciles10.ordinal[dec10]} (tenth of the population)."
+            df_tables_pip.loc[j, "description"] = new_line.join(
+                [
+                    f"The mean {pip_tables.text[tab]} per {pip_income_aggregation.aggregation[agg]} within the {pip_deciles10.ordinal[dec10]} (tenth of the population).",
+                    additional_description,
+                    ppp_description,
+                    notes_title,
+                    processing_description,
+                ]
+            )
             df_tables_pip.loc[j, "unit"] = "international-$ in 2017 prices"
             df_tables_pip.loc[j, "shortUnit"] = "$"
             df_tables_pip.loc[j, "type"] = "Numeric"

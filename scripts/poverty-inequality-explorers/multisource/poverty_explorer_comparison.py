@@ -132,6 +132,23 @@ colorScaleEqualSizeBins = "true"
 tableSlug = "poverty_inequality"
 new_line = "<br><br>"
 
+additional_description = new_line.join(
+    [
+        "Depending on the country and year, the data relates to income measured after taxes and benefits or consumption per capita.",
+        "Non-market sources of income, including food grown by subsistence farmers for their own consumption, are taken into account.",
+    ]
+)
+
+notes_title = "NOTES ON OUR PROCESSING STEP FOR THIS INDICATOR"
+
+processing_description = new_line.join(
+    [
+        "For a small number of country-year observations, the World Bank PIP data contains two estimates: one based on income data and one based on consumption data. In these cases we keep only the consumption estimate in order to obtain a single series for each country.",
+        "You can find the data with all available income and consumption data points, including these overlapping estimates, in our <a href=”https://github.com/owid/poverty-data#a-global-dataset-of-poverty-and-inequality-measures-prepared-by-our-world-in-data-from-the-world-banks-poverty-and-inequality-platform-pip-database”>complete dataset</a> of the World Bank PIP data.",
+    ]
+)
+ppp_description = "The data is measured in international-$ at 2017 prices – this adjusts for inflation and for differences in the cost of living between countries."
+
 # Table generation
 df_tables_pip = pd.DataFrame()
 j = 0
@@ -155,9 +172,15 @@ for tab in range(len(pip_tables)):
             j, "name"
         ] = f"Share below ${pip_povlines_abs.dollars_text[p]} a day (PIP data)"
         df_tables_pip.loc[j, "slug"] = f"headcount_ratio_{pip_povlines_abs.cents[p]}"
-        df_tables_pip.loc[
-            j, "description"
-        ] = f"% of population living in households with an {pip_tables.text[tab]} per person below ${pip_povlines_abs.dollars_text[p]} a day."
+        df_tables_pip.loc[j, "description"] = new_line.join(
+            [
+                f"% of population living in households with {pip_tables.text[tab]} below ${pip_povlines_abs.dollars_text[p]} a day.",
+                additional_description,
+                ppp_description,
+                notes_title,
+                processing_description,
+            ]
+        )
         df_tables_pip.loc[j, "unit"] = "%"
         df_tables_pip.loc[j, "shortUnit"] = "%"
         df_tables_pip.loc[j, "type"] = "Numeric"
@@ -173,9 +196,15 @@ for tab in range(len(pip_tables)):
             j, "name"
         ] = f"Number below ${pip_povlines_abs.dollars_text[p]} a day (PIP data)"
         df_tables_pip.loc[j, "slug"] = f"headcount_{pip_povlines_abs.cents[p]}"
-        df_tables_pip.loc[
-            j, "description"
-        ] = f"Number of people living in households with an {pip_tables.text[tab]} per person below ${pip_povlines_abs.dollars_text[p]} a day."
+        df_tables_pip.loc[j, "description"] = new_line.join(
+            [
+                f"Number of people living in households with {pip_tables.text[tab]} per person below ${pip_povlines_abs.dollars_text[p]} a day.",
+                additional_description,
+                ppp_description,
+                notes_title,
+                processing_description,
+            ]
+        )
         df_tables_pip.loc[j, "unit"] = np.nan
         df_tables_pip.loc[j, "shortUnit"] = np.nan
         df_tables_pip.loc[j, "type"] = "Numeric"
@@ -191,9 +220,15 @@ for tab in range(len(pip_tables)):
             j, "name"
         ] = f"Total daily shortfall - ${pip_povlines_abs.dollars_text[p]} a day (PIP data)"
         df_tables_pip.loc[j, "slug"] = f"total_shortfall_{pip_povlines_abs.cents[p]}"
-        df_tables_pip.loc[
-            j, "description"
-        ] = f"The total shortfall from a poverty line of ${pip_povlines_abs.dollars_text[p]} a day. This is the amount of money that would be theoretically needed to lift the {pip_tables.text[tab]} of all people in poverty up to the poverty line. However this is not a measure of the actual cost of eliminating poverty, since it does not take into account the costs involved in making the necessary transfers nor any changes in behaviour they would bring about."
+        df_tables_pip.loc[j, "description"] = new_line.join(
+            [
+                f"The total shortfall from a poverty line of ${pip_povlines_abs.dollars_text[p]} a day. This is the amount of money that would be theoretically needed to lift the {pip_tables.text[tab]} of all people in poverty up to the poverty line. However this is not a measure of the actual cost of eliminating poverty, since it does not take into account the costs involved in making the necessary transfers nor any changes in behaviour they would bring about.",
+                additional_description,
+                ppp_description,
+                notes_title,
+                processing_description,
+            ]
+        )
         df_tables_pip.loc[j, "unit"] = "international-$ in 2017 prices"
         df_tables_pip.loc[j, "shortUnit"] = "$"
         df_tables_pip.loc[j, "type"] = "Numeric"
@@ -211,9 +246,15 @@ for tab in range(len(pip_tables)):
         df_tables_pip.loc[
             j, "slug"
         ] = f"total_shortfall_{pip_povlines_abs.cents[p]}_year"
-        df_tables_pip.loc[
-            j, "description"
-        ] = f"The total shortfall from a poverty line of ${pip_povlines_abs.dollars_text[p]} a day. This is the amount of money that would be theoretically needed to lift the {pip_tables.text[tab]} of all people in poverty up to the poverty line. However this is not a measure of the actual cost of eliminating poverty, since it does not take into account the costs involved in making the necessary transfers nor any changes in behaviour they would bring about."
+        df_tables_pip.loc[j, "description"] = new_line.join(
+            [
+                f"The total shortfall from a poverty line of ${pip_povlines_abs.dollars_text[p]} a day. This is the amount of money that would be theoretically needed to lift the {pip_tables.text[tab]} of all people in poverty up to the poverty line. However this is not a measure of the actual cost of eliminating poverty, since it does not take into account the costs involved in making the necessary transfers nor any changes in behaviour they would bring about.",
+                additional_description,
+                ppp_description,
+                notes_title,
+                processing_description,
+            ]
+        )
         df_tables_pip.loc[j, "unit"] = "international-$ in 2017 prices"
         df_tables_pip.loc[j, "shortUnit"] = "$"
         df_tables_pip.loc[j, "type"] = "Numeric"
@@ -232,9 +273,15 @@ for tab in range(len(pip_tables)):
             j, "name"
         ] = f"Average shortfall - ${pip_povlines_abs.dollars_text[p]} a day (PIP data)"
         df_tables_pip.loc[j, "slug"] = f"avg_shortfall_{pip_povlines_abs.cents[p]}"
-        df_tables_pip.loc[
-            j, "description"
-        ] = f"The average shortfall from a poverty line of ${pip_povlines_abs.dollars_text[p]} a day (averaged across the population in poverty)."
+        df_tables_pip.loc[j, "description"] = new_line.join(
+            [
+                f"The average shortfall from a poverty line of ${pip_povlines_abs.dollars_text[p]} a day (averaged across the population in poverty).",
+                additional_description,
+                ppp_description,
+                notes_title,
+                processing_description,
+            ]
+        )
         df_tables_pip.loc[j, "unit"] = "international-$ in 2017 prices"
         df_tables_pip.loc[j, "shortUnit"] = "$"
         df_tables_pip.loc[j, "type"] = "Numeric"
@@ -250,9 +297,15 @@ for tab in range(len(pip_tables)):
             j, "name"
         ] = f"Income gap ratio - ${pip_povlines_abs.dollars_text[p]} a day (PIP data)"
         df_tables_pip.loc[j, "slug"] = f"income_gap_ratio_{pip_povlines_abs.cents[p]}"
-        df_tables_pip.loc[
-            j, "description"
-        ] = f'The average shortfall from a poverty line of ${pip_povlines_abs.dollars_text[p]} a day (averaged across the population in poverty) expressed as a share of the poverty line. This metric is sometimes called the "income gap ratio". It captures the depth of poverty of those living on less than the poverty line.'
+        df_tables_pip.loc[j, "description"] = new_line.join(
+            [
+                f'The average shortfall from a poverty line of ${pip_povlines_abs.dollars_text[p]} a day (averaged across the population in poverty) expressed as a share of the poverty line. This metric is sometimes called the "income gap ratio". It captures the depth of poverty of those living on less than the poverty line.',
+                additional_description,
+                ppp_description,
+                notes_title,
+                processing_description,
+            ]
+        )
         df_tables_pip.loc[j, "unit"] = "%"
         df_tables_pip.loc[j, "shortUnit"] = "%"
         df_tables_pip.loc[j, "type"] = "Numeric"
@@ -266,9 +319,15 @@ for tab in range(len(pip_tables)):
             j, "name"
         ] = f"Poverty gap index - ${pip_povlines_abs.dollars_text[p]} a day (PIP data)"
         df_tables_pip.loc[j, "slug"] = f"poverty_gap_index_{pip_povlines_abs.cents[p]}"
-        df_tables_pip.loc[
-            j, "description"
-        ] = f"The poverty gap index calculated at a poverty line of ${pip_povlines_abs.dollars_text[p]} a day. The poverty gap index is a measure that reflects both the depth and prevalence of poverty. It is defined as the mean shortfall of the total population from the poverty line counting the non-poor as having zero shortfall and expressed as a percentage of the poverty line. It is worth unpacking that definition a little. For those below the poverty line, the shortfall corresponds to the amount of money required in order to reach the poverty line. For those at or above the poverty line, the shortfall is counted as zero. The average shortfall is then calculated across the total population – both poor and non-poor – and then expressed as a share of the poverty line. Unlike the more commonly-used metric of the headcount ratio, the poverty gap index is thus sensitive not only to whether a person’s income falls below the poverty line or not, but also by how much – i.e. to the depth of poverty they experience."
+        df_tables_pip.loc[j, "description"] = new_line.join(
+            [
+                f"The poverty gap index calculated at a poverty line of ${pip_povlines_abs.dollars_text[p]} a day. The poverty gap index is a measure that reflects both the depth and prevalence of poverty. It is defined as the mean shortfall of the total population from the poverty line counting the non-poor as having zero shortfall and expressed as a percentage of the poverty line. It is worth unpacking that definition a little. For those below the poverty line, the shortfall corresponds to the amount of money required in order to reach the poverty line. For those at or above the poverty line, the shortfall is counted as zero. The average shortfall is then calculated across the total population – both poor and non-poor – and then expressed as a share of the poverty line. Unlike the more commonly-used metric of the headcount ratio, the poverty gap index is thus sensitive not only to whether a person’s income falls below the poverty line or not, but also by how much – i.e. to the depth of poverty they experience.",
+                additional_description,
+                ppp_description,
+                notes_title,
+                processing_description,
+            ]
+        )
         df_tables_pip.loc[j, "unit"] = "%"
         df_tables_pip.loc[j, "shortUnit"] = "%"
         df_tables_pip.loc[j, "type"] = "Numeric"
@@ -284,9 +343,15 @@ for tab in range(len(pip_tables)):
         df_tables_pip.loc[
             j, "slug"
         ] = f"headcount_ratio_{pip_povlines_rel.slug_suffix[pct]}"
-        df_tables_pip.loc[
-            j, "description"
-        ] = f"% of population living in households with an {pip_tables.text[tab]} per person below {pip_povlines_rel.percent[pct]} of the median."
+        df_tables_pip.loc[j, "description"] = new_line.join(
+            [
+                f"% of population living in households with an {pip_tables.text[tab]} per person below {pip_povlines_rel.percent[pct]} of the median.",
+                additional_description,
+                notes_title,
+                f"Measures of relative poverty are not directly available in the World Bank PIP data. To calculate this metric we take the median income or consumption for the country and year, calculate a relative poverty line – in this case {pip_povlines_rel.text[pct]} – and then run a specific query on the PIP API to return the share of population below that line.",
+                processing_description,
+            ]
+        )
         df_tables_pip.loc[j, "unit"] = "%"
         df_tables_pip.loc[j, "shortUnit"] = "%"
         df_tables_pip.loc[j, "type"] = "Numeric"
@@ -300,9 +365,15 @@ for tab in range(len(pip_tables)):
             j, "name"
         ] = f"Number below {pip_povlines_rel.percent[pct]} of median (PIP data)"
         df_tables_pip.loc[j, "slug"] = f"headcount_{pip_povlines_rel.slug_suffix[pct]}"
-        df_tables_pip.loc[
-            j, "description"
-        ] = f"Number of people living in households with an {pip_tables.text[tab]} per person below {pip_povlines_rel.percent[pct]} of the median."
+        df_tables_pip.loc[j, "description"] = new_line.join(
+            [
+                f"Number of people living in households with an {pip_tables.text[tab]} per person below {pip_povlines_rel.percent[pct]} of the median.",
+                additional_description,
+                notes_title,
+                f"Measures of relative poverty are not directly available in the World Bank PIP data. To calculate this metric we take the median income or consumption for the country and year, calculate a relative poverty line – in this case {pip_povlines_rel.text[pct]} – and then run a specific query on the PIP API to return the share of population below that line.",
+                processing_description,
+            ]
+        )
         df_tables_pip.loc[j, "unit"] = np.nan
         df_tables_pip.loc[j, "shortUnit"] = np.nan
         df_tables_pip.loc[j, "type"] = "Numeric"
@@ -320,9 +391,15 @@ for tab in range(len(pip_tables)):
         df_tables_pip.loc[
             j, "slug"
         ] = f"total_shortfall_{pip_povlines_rel.slug_suffix[pct]}"
-        df_tables_pip.loc[
-            j, "description"
-        ] = f"The total shortfall from a poverty line of {pip_povlines_rel.text[pct]} {pip_tables.text[tab]}. This is the amount of money that would be theoretically needed to lift the {pip_tables.text[tab]} of all people in poverty up to the poverty line. However this is not a measure of the actual cost of eliminating poverty, since it does not take into account the costs involved in making the necessary transfers nor any changes in behaviour they would bring about."
+        df_tables_pip.loc[j, "description"] = new_line.join(
+            [
+                f"The total shortfall from a poverty line of {pip_povlines_rel.text[pct]} {pip_tables.text[tab]}. This is the amount of money that would be theoretically needed to lift the {pip_tables.text[tab]} of all people in poverty up to the poverty line. However this is not a measure of the actual cost of eliminating poverty, since it does not take into account the costs involved in making the necessary transfers nor any changes in behaviour they would bring about.",
+                additional_description,
+                notes_title,
+                f"Measures of relative poverty are not directly available in the World Bank PIP data. To calculate this metric we take the median income or consumption for the country and year, calculate a relative poverty line – in this case {pip_povlines_rel.text[pct]} – and then run a specific query on the PIP API to return the share of population below that line.",
+                processing_description,
+            ]
+        )
         df_tables_pip.loc[j, "unit"] = np.nan
         df_tables_pip.loc[j, "shortUnit"] = np.nan
         df_tables_pip.loc[j, "type"] = "Numeric"
@@ -340,9 +417,15 @@ for tab in range(len(pip_tables)):
         df_tables_pip.loc[
             j, "slug"
         ] = f"total_shortfall_{pip_povlines_rel.slug_suffix[pct]}_year"
-        df_tables_pip.loc[
-            j, "description"
-        ] = f"The total shortfall from a poverty line of {pip_povlines_rel.text[pct]} {pip_tables.text[tab]}. This is the amount of money that would be theoretically needed to lift the {pip_tables.text[tab]} of all people in poverty up to the poverty line. However this is not a measure of the actual cost of eliminating poverty, since it does not take into account the costs involved in making the necessary transfers nor any changes in behaviour they would bring about."
+        df_tables_pip.loc[j, "description"] = new_line.join(
+            [
+                f"The total shortfall from a poverty line of {pip_povlines_rel.text[pct]} {pip_tables.text[tab]}. This is the amount of money that would be theoretically needed to lift the {pip_tables.text[tab]} of all people in poverty up to the poverty line. However this is not a measure of the actual cost of eliminating poverty, since it does not take into account the costs involved in making the necessary transfers nor any changes in behaviour they would bring about.",
+                additional_description,
+                notes_title,
+                f"Measures of relative poverty are not directly available in the World Bank PIP data. To calculate this metric we take the median income or consumption for the country and year, calculate a relative poverty line – in this case {pip_povlines_rel.text[pct]} – and then run a specific query on the PIP API to return the share of population below that line.",
+                processing_description,
+            ]
+        )
         df_tables_pip.loc[j, "unit"] = np.nan
         df_tables_pip.loc[j, "shortUnit"] = np.nan
         df_tables_pip.loc[j, "type"] = "Numeric"
@@ -363,9 +446,15 @@ for tab in range(len(pip_tables)):
         df_tables_pip.loc[
             j, "slug"
         ] = f"avg_shortfall_{pip_povlines_rel.slug_suffix[pct]}"
-        df_tables_pip.loc[
-            j, "description"
-        ] = f"The average shortfall from a poverty line of of {pip_povlines_rel.text[pct]} {pip_tables.text[tab]} (averaged across the population in poverty)."
+        df_tables_pip.loc[j, "description"] = new_line.join(
+            [
+                f"The average shortfall from a poverty line of of {pip_povlines_rel.text[pct]} {pip_tables.text[tab]} (averaged across the population in poverty).",
+                additional_description,
+                notes_title,
+                f"Measures of relative poverty are not directly available in the World Bank PIP data. To calculate this metric we take the median income or consumption for the country and year, calculate a relative poverty line – in this case {pip_povlines_rel.text[pct]} – and then run a specific query on the PIP API to return the share of population below that line.",
+                processing_description,
+            ]
+        )
         df_tables_pip.loc[j, "unit"] = "international-$ in 2017 prices"
         df_tables_pip.loc[j, "shortUnit"] = "$"
         df_tables_pip.loc[j, "type"] = "Numeric"
@@ -381,9 +470,15 @@ for tab in range(len(pip_tables)):
         df_tables_pip.loc[
             j, "slug"
         ] = f"income_gap_ratio_{pip_povlines_rel.slug_suffix[pct]}"
-        df_tables_pip.loc[
-            j, "description"
-        ] = f'The average shortfall from a poverty line of of {pip_povlines_rel.text[pct]} {pip_tables.text[tab]} (averaged across the population in poverty) expressed as a share of the poverty line. This metric is sometimes called the "income gap ratio". It captures the depth of poverty of those living on less than the poverty line.'
+        df_tables_pip.loc[j, "description"] = new_line.join(
+            [
+                f'The average shortfall from a poverty line of of {pip_povlines_rel.text[pct]} {pip_tables.text[tab]} (averaged across the population in poverty) expressed as a share of the poverty line. This metric is sometimes called the "income gap ratio". It captures the depth of poverty of those living on less than the poverty line.',
+                additional_description,
+                notes_title,
+                f"Measures of relative poverty are not directly available in the World Bank PIP data. To calculate this metric we take the median income or consumption for the country and year, calculate a relative poverty line – in this case {pip_povlines_rel.text[pct]} – and then run a specific query on the PIP API to return the share of population below that line.",
+                processing_description,
+            ]
+        )
         df_tables_pip.loc[j, "unit"] = "%"
         df_tables_pip.loc[j, "shortUnit"] = "%"
         df_tables_pip.loc[j, "type"] = "Numeric"
@@ -399,9 +494,15 @@ for tab in range(len(pip_tables)):
         df_tables_pip.loc[
             j, "slug"
         ] = f"poverty_gap_index_{pip_povlines_rel.slug_suffix[pct]}"
-        df_tables_pip.loc[
-            j, "description"
-        ] = f"The poverty gap index calculated at a poverty line of {pip_povlines_rel.text[pct]} {pip_tables.text[tab]}. The poverty gap index is a measure that reflects both the depth and prevalence of poverty. It is defined as the mean shortfall of the total population from the poverty line counting the non-poor as having zero shortfall and expressed as a percentage of the poverty line. It is worth unpacking that definition a little. For those below the poverty line, the shortfall corresponds to the amount of money required in order to reach the poverty line. For those at or above the poverty line, the shortfall is counted as zero. The average shortfall is then calculated across the total population – both poor and non-poor – and then expressed as a share of the poverty line. Unlike the more commonly-used metric of the headcount ratio, the poverty gap index is thus sensitive not only to whether a person’s income falls below the poverty line or not, but also by how much – i.e. to the depth of poverty they experience."
+        df_tables_pip.loc[j, "description"] = new_line.join(
+            [
+                f"The poverty gap index calculated at a poverty line of {pip_povlines_rel.text[pct]} {pip_tables.text[tab]}. The poverty gap index is a measure that reflects both the depth and prevalence of poverty. It is defined as the mean shortfall of the total population from the poverty line counting the non-poor as having zero shortfall and expressed as a percentage of the poverty line. It is worth unpacking that definition a little. For those below the poverty line, the shortfall corresponds to the amount of money required in order to reach the poverty line. For those at or above the poverty line, the shortfall is counted as zero. The average shortfall is then calculated across the total population – both poor and non-poor – and then expressed as a share of the poverty line. Unlike the more commonly-used metric of the headcount ratio, the poverty gap index is thus sensitive not only to whether a person’s income falls below the poverty line or not, but also by how much – i.e. to the depth of poverty they experience.",
+                additional_description,
+                notes_title,
+                f"Measures of relative poverty are not directly available in the World Bank PIP data. To calculate this metric we take the median income or consumption for the country and year, calculate a relative poverty line – in this case {pip_povlines_rel.text[pct]} – and then run a specific query on the PIP API to return the share of population below that line.",
+                processing_description,
+            ]
+        )
         df_tables_pip.loc[j, "unit"] = "%"
         df_tables_pip.loc[j, "shortUnit"] = "%"
         df_tables_pip.loc[j, "type"] = "Numeric"
