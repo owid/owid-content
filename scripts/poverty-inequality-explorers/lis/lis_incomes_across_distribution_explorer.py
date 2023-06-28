@@ -548,10 +548,10 @@ for tab in range(len(tables)):
                     ]
                     df_graphers.loc[
                         j, "subtitle"
-                    ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]}"
+                    ] = f"The mean {welfare['welfare_type'][wel]} per {income_aggregation['aggregation'][agg]} within each decile (tenth of the population). {welfare['subtitle'][wel]}"
                     df_graphers.loc[
                         j, "note"
-                    ] = f"This data is measured in international-$ at 2017 prices. {equivalence_scales['note'][eq]}"
+                    ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. {equivalence_scales['note'][eq]}"
                     df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
                     df_graphers.loc[j, "hasMapTab"] = "false"
                     df_graphers.loc[j, "tab"] = "chart"
