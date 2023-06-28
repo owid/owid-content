@@ -473,7 +473,7 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
     df_graphers.loc[
         j, "subtitle"
-    ] = f"The share of {survey_type.text[survey]} received by the richest 10% divided by the share of the poorest 40%."
+    ] = f"The share of {survey_type.text_ineq[survey]} received by the richest 10% divided by the share of the poorest 40%."
     df_graphers.loc[
         j, "note"
     ] = f"Depending on the country and year, the data relates to {survey_type.detailed_text[survey]} per capita."
@@ -496,7 +496,7 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
     df_graphers.loc[
         j, "subtitle"
-    ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at 50% of the median {survey_type.text[survey]}."
+    ] = f"The share of population with {survey_type.text_ineq[survey]} below 50% of the median. Relative poverty reflects the extent of inequality within the bottom of the distribution."
     df_graphers.loc[
         j, "note"
     ] = f"Depending on the country and year, the data relates to {survey_type.detailed_text[survey]} per capita."

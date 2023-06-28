@@ -1147,7 +1147,7 @@ for survey in range(len(pip_tables)):
     df_graphers_pip.loc[j, "tableSlug"] = f"{pip_tables.table_name[survey]}"
     df_graphers_pip.loc[
         j, "subtitle"
-    ] = f"The share of population with after tax {pip_tables.text[survey]} below 50% of the median. Relative poverty reflects the extent of inequality within the bottom of the distribution."
+    ] = f"The share of population with after tax income or consumption below 50% of the median. Relative poverty reflects the extent of inequality within the bottom of the distribution."
     df_graphers_pip.loc[
         j, "note"
     ] = f"Depending on the country and year, the data relates to income measured after taxes and benefits or consumption per capita."
