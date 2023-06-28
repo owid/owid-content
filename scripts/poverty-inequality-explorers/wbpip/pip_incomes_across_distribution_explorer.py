@@ -552,7 +552,7 @@ for survey in range(len(survey_type)):
             df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
             df_graphers.loc[
                 j, "subtitle"
-            ] = f"The level of {survey_type.text[survey]} per {income_aggregation.aggregation[agg]} below which {deciles9.decile[dec9]}0% of the population falls."
+            ] = f"The level of {survey_type.text_ineq[survey]} per {income_aggregation.aggregation[agg]} below which {deciles9.decile[dec9]}0% of the population falls."
             df_graphers.loc[
                 j, "note"
             ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} per capita."
@@ -592,7 +592,7 @@ for survey in range(len(survey_type)):
             df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
             df_graphers.loc[
                 j, "subtitle"
-            ] = f"The mean {survey_type.text[survey]} per {income_aggregation.aggregation[agg]} within the {deciles10.ordinal[dec10]} (tenth of the population)."
+            ] = f"The mean {survey_type.text_ineq[survey]} per {income_aggregation.aggregation[agg]} within the {deciles10.ordinal[dec10]} (tenth of the population)."
             df_graphers.loc[
                 j, "note"
             ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} per capita."
@@ -633,7 +633,7 @@ for survey in range(len(survey_type)):
             df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
             df_graphers.loc[
                 j, "subtitle"
-            ] = f"The level of {survey_type.text[survey]} per year below which 10%, 20%, 30%, etc. of the population falls. This data is adjusted for inflation and for differences in the cost of living between countries."
+            ] = f"The level of {survey_type.text_ineq[survey]} per {income_aggregation.aggregation[agg]} below which 10%, 20%, 30%, etc. of the population falls. This data is adjusted for inflation and for differences in the cost of living between countries."
             df_graphers.loc[
                 j, "note"
             ] = f"This data is measured in international-$ at 2017 prices. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} per capita."
@@ -709,7 +709,7 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
         df_graphers.loc[
             j, "subtitle"
-        ] = f"The {survey_type.text[survey]} of the {deciles10.ordinal[dec10]} (tenth of the population) as a share of total {survey_type.text[survey]}."
+        ] = f"The share of {survey_type.text_ineq[survey]} received by the {deciles10.ordinal[dec10]} (tenth of the population)."
         df_graphers.loc[
             j, "note"
         ] = f"Depending on the country and year, the data relates to {survey_type.detailed_text[survey]} per capita."
@@ -742,7 +742,7 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, "stackMode"] = "absolute"
     df_graphers.loc[
         j, "subtitle"
-    ] = f"The {survey_type.text[survey]} of each decile (tenth of the population) as a share of total {survey_type.text[survey]}."
+    ] = f"The share of {survey_type.text_ineq[survey]} received by each decile (tenth of the population)."
     df_graphers.loc[
         j, "note"
     ] = f"Depending on the country and year, the data relates to {survey_type.detailed_text[survey]} per capita."

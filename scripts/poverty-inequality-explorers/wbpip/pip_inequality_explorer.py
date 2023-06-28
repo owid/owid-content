@@ -381,7 +381,7 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
     df_graphers.loc[
         j, "subtitle"
-    ] = f"This is the {survey_type.text[survey]} of the richest decile (tenth of the population) as a share of total {survey_type.text[survey]}."
+    ] = f"The share of {survey_type.text_ineq[survey]} received by the richest 10% of the population."
     df_graphers.loc[
         j, "note"
     ] = f"Depending on the country and year, the data relates to {survey_type.detailed_text[survey]} per capita."
