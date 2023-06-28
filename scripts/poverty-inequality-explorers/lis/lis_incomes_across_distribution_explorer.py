@@ -434,7 +434,7 @@ for tab in range(len(tables)):
                     df_graphers.loc[j, "stackMode"] = "absolute"
                     df_graphers.loc[
                         j, "subtitle"
-                    ] = f"The level of {welfare['welfare_type'][wel]} below which {deciles9['decile'][dec9]}0% of the population falls. {welfare['subtitle'][wel]}"
+                    ] = f"The level of {welfare['welfare_type'][wel]} per {income_aggregation['aggregation'][agg]} below which {deciles9['decile'][dec9]}0% of the population falls. {welfare['subtitle'][wel]}"
                     df_graphers.loc[
                         j, "note"
                     ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. {equivalence_scales['note'][eq]}"
@@ -470,7 +470,7 @@ for tab in range(len(tables)):
                     df_graphers.loc[j, "stackMode"] = "absolute"
                     df_graphers.loc[
                         j, "subtitle"
-                    ] = f"The mean {welfare['welfare_type'][wel]} within the {deciles10['ordinal'][dec10]} (tenth of the population). {welfare['subtitle'][wel]}"
+                    ] = f"The mean {welfare['welfare_type'][wel]} per {income_aggregation['aggregation'][agg]} within the {deciles10['ordinal'][dec10]} (tenth of the population). {welfare['subtitle'][wel]}"
                     df_graphers.loc[
                         j, "note"
                     ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. {equivalence_scales['note'][eq]}"
@@ -509,7 +509,7 @@ for tab in range(len(tables)):
                     ]
                     df_graphers.loc[
                         j, "subtitle"
-                    ] = f"The level of income or consumption per year below which 10%, 20%, 30%, etc. of the population falls. {welfare['subtitle'][wel]}"
+                    ] = f"The level of income or consumption per {income_aggregation['aggregation'][agg]} below which 10%, 20%, 30%, etc. of the population falls. {welfare['subtitle'][wel]}"
                     df_graphers.loc[
                         j, "note"
                     ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. {equivalence_scales['note'][eq]}"
@@ -645,7 +645,7 @@ for tab in range(len(tables)):
                 df_graphers.loc[j, "stackMode"] = "absolute"
                 df_graphers.loc[
                     j, "subtitle"
-                ] = f"The level of income below which {deciles9['decile'][dec9]}0% of the population falls."
+                ] = f"The level of income per {income_aggregation['aggregation'][agg]} below which {deciles9['decile'][dec9]}0% of the population falls."
                 df_graphers.loc[
                     j, "note"
                 ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. {equivalence_scales['note'][eq]}"
@@ -681,7 +681,7 @@ for tab in range(len(tables)):
                 df_graphers.loc[j, "stackMode"] = "absolute"
                 df_graphers.loc[
                     j, "subtitle"
-                ] = f"The mean income within the {deciles10['ordinal'][dec10]} (tenth of the population)."
+                ] = f"The mean income per {income_aggregation['aggregation'][agg]} within the {deciles10['ordinal'][dec10]} (tenth of the population)."
                 df_graphers.loc[
                     j, "note"
                 ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. {equivalence_scales['note'][eq]}"
