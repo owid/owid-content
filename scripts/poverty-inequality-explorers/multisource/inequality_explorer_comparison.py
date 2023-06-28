@@ -487,6 +487,25 @@ tolerance = 5
 colorScaleEqualSizeBins = "true"
 new_line = "<br><br>"
 
+notes_title = "NOTES ON OUR PROCESSING STEP FOR THIS INDICATOR"
+
+processing_description = new_line.join(
+    [
+        "The Luxembourg Income Study data is created from standardized household survey microdata available in their <a href='https://www.lisdatacenter.org/data-access/lissy/'>LISSY platform</a>. The estimations follow the methodology available in LIS, Key Figures and DART platform.",
+        "After tax income is obtained by using the disposable household income variable (dhi)",
+        "Before tax income is estimated by calculating the sum of income from labor and capital (variable hifactor), cash transfers and in-kind goods and services from privates (hiprivate) and private pensions (hi33). This is done only for surveys where tax and contributions are fully captured, collected or imputed.",
+        "Income data is converted from local currency into international-$ by dividing by the <a href='https://www.lisdatacenter.org/resources/ppp-deflators/'>LIS PPP factor</a>, available as an additional database in the system.",
+        "Incomes are top and bottom-coded by replacing negative values with zeros and setting boundaries for extreme values of log income: at the top Q3 plus 3 times the interquartile range (Q3-Q1), and at the bottom Q1 minus 3 times the interquartile range.",
+        "Incomes are equivalized by dividing each household observation by the square root of the number of household members (nhhmem). Per capita estimates are calculated by dividing incomes by the number of household members.",
+    ]
+)
+
+processing_poverty = "Poverty indicators are obtained by using <a href='https://ideas.repec.org/c/boc/bocode/s366004.html'>Stata’s povdeco function</a>. Weights are set as the product between the number of household members (nhhmem) and the normalized household weight (hwgt). The function generates FGT(0) and FGT(1), headcount ratio and poverty gap index. After extraction, further data processing steps are done to estimate other poverty indicators using these values, population and poverty lines for absolute and relative poverty."
+processing_gini_mean_median = "Gini coefficients are obtained by using <a href='https://ideas.repec.org/c/boc/bocode/s366007.html'>Stata’s ineqdec0 function</a>. Weights are set as the product between the number of household members (nhhmem) and the normalized household weight (hwgt). From this function, mean and median values are also calculated."
+processing_distribution = "Income shares and thresholds by decile are obtained by using <a href='https://ideas.repec.org/c/boc/bocode/s366005.html'>Stata’s sumdist function</a>. The parameters set are again the weight (nhhmem*hwgt) and the number of quantile groups (10). Threshold ratios, share ratios and averages by decile are estimated after the use of LISSY with this data."
+
+ppp_description = "The data is measured in international-$ at 2017 prices – this adjusts for inflation and for differences in the cost of living between countries."
+
 df_tables_lis = pd.DataFrame()
 j = 0
 
@@ -498,9 +517,16 @@ for tab in range(len(merged_tables)):
             df_tables_lis.loc[
                 j, "slug"
             ] = f"gini_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
-            df_tables_lis.loc[
-                j, "description"
-            ] = f"The Gini coefficient measures inequality on a scale between 0 and 1, where higher values indicate greater inequality.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}{lis_equivalence_scales['description'][eq]}"
+            df_tables_lis.loc[j, "description"] = new_line.join(
+                [
+                    f"The Gini coefficient measures inequality on a scale between 0 and 1, where higher values indicate greater inequality.",
+                    lis_welfare["description"][wel],
+                    lis_equivalence_scales["description"][eq],
+                    notes_title,
+                    processing_description,
+                    processing_gini_mean_median,
+                ]
+            )
             df_tables_lis.loc[j, "unit"] = np.nan
             df_tables_lis.loc[j, "shortUnit"] = np.nan
             df_tables_lis.loc[j, "type"] = "Numeric"
@@ -518,9 +544,16 @@ for tab in range(len(merged_tables)):
             df_tables_lis.loc[
                 j, "slug"
             ] = f"share_p100_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
-            df_tables_lis.loc[
-                j, "description"
-            ] = f"This is the {lis_welfare['welfare_type'][wel]} of the richest 10% as a share of total {lis_welfare['welfare_type'][wel]}.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}{lis_equivalence_scales['description'][eq]}"
+            df_tables_lis.loc[j, "description"] = new_line.join(
+                [
+                    f"The share of {lis_welfare['welfare_type'][wel]} received by the richest 10% of the population.",
+                    lis_welfare["description"][wel],
+                    lis_equivalence_scales["description"][eq],
+                    notes_title,
+                    processing_description,
+                    processing_distribution,
+                ]
+            )
             df_tables_lis.loc[j, "unit"] = "%"
             df_tables_lis.loc[j, "shortUnit"] = "%"
             df_tables_lis.loc[j, "type"] = "Numeric"
@@ -538,9 +571,16 @@ for tab in range(len(merged_tables)):
             df_tables_lis.loc[
                 j, "slug"
             ] = f"share_bottom50_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
-            df_tables_lis.loc[
-                j, "description"
-            ] = f"This is the {lis_welfare['welfare_type'][wel]} of the poorest 50% as a share of total {lis_welfare['welfare_type'][wel]}.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}{lis_equivalence_scales['description'][eq]}"
+            df_tables_lis.loc[j, "description"] = new_line.join(
+                [
+                    f"The share of {lis_welfare['welfare_type'][wel]} received by the poorest 50% of the population.",
+                    lis_welfare["description"][wel],
+                    lis_equivalence_scales["description"][eq],
+                    notes_title,
+                    processing_description,
+                    processing_distribution,
+                ]
+            )
             df_tables_lis.loc[j, "unit"] = "%"
             df_tables_lis.loc[j, "shortUnit"] = "%"
             df_tables_lis.loc[j, "type"] = "Numeric"
@@ -610,9 +650,16 @@ for tab in range(len(merged_tables)):
             df_tables_lis.loc[
                 j, "slug"
             ] = f"palma_ratio_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
-            df_tables_lis.loc[
-                j, "description"
-            ] = f"The Palma ratio is a measure of inequality: it is the share of total {lis_welfare['welfare_type'][wel]} of the top 10% divided by the share of the bottom 40%.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}{lis_equivalence_scales['description'][eq]}"
+            df_tables_lis.loc[j, "description"] = new_line.join(
+                [
+                    f"The share of {lis_welfare['welfare_type'][wel]} received by the richest 10% divided by the share of the poorest 40%.",
+                    lis_welfare["description"][wel],
+                    lis_equivalence_scales["description"][eq],
+                    notes_title,
+                    processing_description,
+                    processing_distribution,
+                ]
+            )
             df_tables_lis.loc[j, "unit"] = np.nan
             df_tables_lis.loc[j, "shortUnit"] = np.nan
             df_tables_lis.loc[j, "type"] = "Numeric"
@@ -628,9 +675,16 @@ for tab in range(len(merged_tables)):
             df_tables_lis.loc[
                 j, "slug"
             ] = f"headcount_ratio_50_median_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
-            df_tables_lis.loc[
-                j, "description"
-            ] = f"% of population living in households with {lis_welfare['welfare_type'][wel]} below 50% of the median {lis_welfare['welfare_type'][wel]}.{new_line}This is {lis_welfare['technical_text'][wel]}. {lis_welfare['subtitle'][wel]}{new_line}{lis_equivalence_scales['description'][eq]}"
+            df_tables_lis.loc[j, "description"] = new_line.join(
+                [
+                    f"The share of the population with {lis_welfare['welfare_type'][wel]} below 50% of the median. Relative poverty reflects the extent of inequality within the bottom of the distribution.",
+                    lis_welfare["description"][wel],
+                    lis_equivalence_scales["description"][eq],
+                    notes_title,
+                    processing_description,
+                    processing_poverty,
+                ]
+            )
             df_tables_lis.loc[j, "unit"] = "%"
             df_tables_lis.loc[j, "shortUnit"] = "%"
             df_tables_lis.loc[j, "type"] = "Numeric"

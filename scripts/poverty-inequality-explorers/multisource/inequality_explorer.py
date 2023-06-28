@@ -131,9 +131,10 @@ additional_description = new_line.join(
     [
         "Depending on the country and year, the data relates to income measured after taxes and benefits or consumption per capita.",
         "Non-market sources of income, including food grown by subsistence farmers for their own consumption, are taken into account.",
-        "NOTES ON OUR PROCESSING STEP FOR THIS INDICATOR",
     ]
 )
+
+notes_title = "NOTES ON OUR PROCESSING STEP FOR THIS INDICATOR"
 
 processing_description = new_line.join(
     [
@@ -169,6 +170,7 @@ for survey in range(len(pip_tables)):
         [
             "The Gini coefficient measures inequality on a scale between 0 and 1, where higher values indicate greater inequality.",
             additional_description,
+            notes_title,
             processing_description,
         ]
     )
@@ -192,6 +194,7 @@ for survey in range(len(pip_tables)):
         [
             f"The share of after tax income or consumption received by the richest 10% of the population.",
             additional_description,
+            notes_title,
             processing_description,
         ]
     )
@@ -213,6 +216,7 @@ for survey in range(len(pip_tables)):
         [
             f"The share of after tax income or consumption received by the poorest 50% of the population.",
             additional_description,
+            notes_title,
             processing_description,
         ]
     )
@@ -277,6 +281,7 @@ for survey in range(len(pip_tables)):
         [
             f"The share of after tax income or consumption received by the richest 10% divided by the share of the poorest 40%.",
             additional_description,
+            notes_title,
             processing_description,
         ]
     )
@@ -296,6 +301,7 @@ for survey in range(len(pip_tables)):
         [
             f"The share of population with after tax income or consumption below 50% of the median. Relative poverty reflects the extent of inequality within the bottom of the distribution.",
             additional_description,
+            notes_title,
             "Measures of relative poverty are not directly available in the World Bank PIP data. To calculate this metric we take the median income or consumption for the country and year, calculate a relative poverty line – in this case 50% of the median – and then run a specific query on the PIP API to return the share of population below that line.",
             processing_description,
         ]

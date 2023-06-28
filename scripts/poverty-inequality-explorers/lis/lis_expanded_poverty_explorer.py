@@ -93,6 +93,25 @@ tolerance = 5
 colorScaleEqualSizeBins = "true"
 new_line = "<br><br>"
 
+notes_title = "NOTES ON OUR PROCESSING STEP FOR THIS INDICATOR"
+
+processing_description = new_line.join(
+    [
+        "The Luxembourg Income Study data is created from standardized household survey microdata available in their <a href='https://www.lisdatacenter.org/data-access/lissy/'>LISSY platform</a>. The estimations follow the methodology available in LIS, Key Figures and DART platform.",
+        "After tax income is obtained by using the disposable household income variable (dhi)",
+        "Before tax income is estimated by calculating the sum of income from labor and capital (variable hifactor), cash transfers and in-kind goods and services from privates (hiprivate) and private pensions (hi33). This is done only for surveys where tax and contributions are fully captured, collected or imputed.",
+        "Income data is converted from local currency into international-$ by dividing by the <a href='https://www.lisdatacenter.org/resources/ppp-deflators/'>LIS PPP factor</a>, available as an additional database in the system.",
+        "Incomes are top and bottom-coded by replacing negative values with zeros and setting boundaries for extreme values of log income: at the top Q3 plus 3 times the interquartile range (Q3-Q1), and at the bottom Q1 minus 3 times the interquartile range.",
+        "Incomes are equivalized by dividing each household observation by the square root of the number of household members (nhhmem). Per capita estimates are calculated by dividing incomes by the number of household members.",
+    ]
+)
+
+processing_poverty = "Poverty indicators are obtained by using <a href='https://ideas.repec.org/c/boc/bocode/s366004.html'>Stata’s povdeco function</a>. Weights are set as the product between the number of household members (nhhmem) and the normalized household weight (hwgt). The function generates FGT(0) and FGT(1), headcount ratio and poverty gap index. After extraction, further data processing steps are done to estimate other poverty indicators using these values, population and poverty lines for absolute and relative poverty."
+processing_gini_mean_median = "Gini coefficients are obtained by using <a href='https://ideas.repec.org/c/boc/bocode/s366007.html'>Stata’s ineqdec0 function</a>. Weights are set as the product between the number of household members (nhhmem) and the normalized household weight (hwgt). From this function, mean and median values are also calculated."
+processing_distribution = "Income shares and thresholds by decile are obtained by using <a href='https://ideas.repec.org/c/boc/bocode/s366005.html'>Stata’s sumdist function</a>. The parameters set are again the weight (nhhmem*hwgt) and the number of quantile groups (10). Threshold ratios, share ratios and averages by decile are estimated after the use of LISSY with this data."
+
+ppp_description = "The data is measured in international-$ at 2017 prices – this adjusts for inflation and for differences in the cost of living between countries."
+
 df_tables = pd.DataFrame()
 j = 0
 
@@ -119,9 +138,17 @@ for tab in range(len(tables)):
                 df_tables.loc[
                     j, "slug"
                 ] = f"headcount_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
-                df_tables.loc[
-                    j, "description"
-                ] = f"% of population living in households with {welfare['welfare_type'][wel]} below ${povlines_abs['dollars_text'][p]} a day.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}{equivalence_scales['description'][eq]}"
+                df_tables.loc[j, "description"] = new_line.join(
+                    [
+                        f"% of population living in households with {welfare['welfare_type'][wel]} below ${povlines_abs['dollars_text'][p]} a day.",
+                        welfare["description"][wel],
+                        equivalence_scales["description"][eq],
+                        ppp_description,
+                        notes_title,
+                        processing_description,
+                        processing_poverty,
+                    ]
+                )
                 df_tables.loc[j, "unit"] = "%"
                 df_tables.loc[j, "shortUnit"] = "%"
                 df_tables.loc[j, "type"] = "Numeric"
@@ -139,9 +166,17 @@ for tab in range(len(tables)):
                 df_tables.loc[
                     j, "slug"
                 ] = f"headcount_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
-                df_tables.loc[
-                    j, "description"
-                ] = f"Number of people living in households with {welfare['welfare_type'][wel]} below ${povlines_abs['dollars_text'][p]} a day.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}{equivalence_scales['description'][eq]}"
+                df_tables.loc[j, "description"] = new_line.join(
+                    [
+                        f"Number of people living in households with {welfare['welfare_type'][wel]} below ${povlines_abs['dollars_text'][p]} a day.",
+                        welfare["description"][wel],
+                        equivalence_scales["description"][eq],
+                        ppp_description,
+                        notes_title,
+                        processing_description,
+                        processing_poverty,
+                    ]
+                )
                 df_tables.loc[j, "unit"] = np.nan
                 df_tables.loc[j, "shortUnit"] = np.nan
                 df_tables.loc[j, "type"] = "Numeric"
@@ -159,9 +194,17 @@ for tab in range(len(tables)):
                 df_tables.loc[
                     j, "slug"
                 ] = f"total_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs.cents[p]}"
-                df_tables.loc[
-                    j, "description"
-                ] = f"The total shortfall from a poverty line of ${povlines_abs['dollars_text'][p]} a day. This is the amount of money that would be theoretically needed to lift the {welfare['welfare_type'][wel]} of all people in poverty up to the poverty line. However this is not a measure of the actual cost of eliminating poverty, since it does not take into account the costs involved in making the necessary transfers nor any changes in behaviour they would bring about.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}{equivalence_scales['description'][eq]}"
+                df_tables.loc[j, "description"] = new_line.join(
+                    [
+                        f"The total shortfall from a poverty line of ${povlines_abs['dollars_text'][p]} a day. This is the amount of money that would be theoretically needed to lift the {welfare['welfare_type'][wel]} of all people in poverty up to the poverty line. However this is not a measure of the actual cost of eliminating poverty, since it does not take into account the costs involved in making the necessary transfers nor any changes in behaviour they would bring about.",
+                        welfare["description"][wel],
+                        equivalence_scales["description"][eq],
+                        ppp_description,
+                        notes_title,
+                        processing_description,
+                        processing_poverty,
+                    ]
+                )
                 df_tables.loc[j, "unit"] = "international-$ in 2017 prices"
                 df_tables.loc[j, "shortUnit"] = "$"
                 df_tables.loc[j, "type"] = "Numeric"
@@ -179,9 +222,17 @@ for tab in range(len(tables)):
                 df_tables.loc[
                     j, "slug"
                 ] = f"avg_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
-                df_tables.loc[
-                    j, "description"
-                ] = f"The average shortfall from a poverty line of ${povlines_abs['dollars_text'][p]} (averaged across the population in poverty).{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}{equivalence_scales['description'][eq]}"
+                df_tables.loc[j, "description"] = new_line.join(
+                    [
+                        f"The average shortfall from a poverty line of ${povlines_abs['dollars_text'][p]} (averaged across the population in poverty).",
+                        welfare["description"][wel],
+                        equivalence_scales["description"][eq],
+                        ppp_description,
+                        notes_title,
+                        processing_description,
+                        processing_poverty,
+                    ]
+                )
                 df_tables.loc[j, "unit"] = "international-$ in 2017 prices"
                 df_tables.loc[j, "shortUnit"] = "$"
                 df_tables.loc[j, "type"] = "Numeric"
@@ -199,9 +250,17 @@ for tab in range(len(tables)):
                 df_tables.loc[
                     j, "slug"
                 ] = f"avg_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}_day"
-                df_tables.loc[
-                    j, "description"
-                ] = f"The average shortfall from a poverty line of ${povlines_abs['dollars_text'][p]} (averaged across the population in poverty).{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}{equivalence_scales['description'][eq]}"
+                df_tables.loc[j, "description"] = new_line.join(
+                    [
+                        f"The average shortfall from a poverty line of ${povlines_abs['dollars_text'][p]} (averaged across the population in poverty).",
+                        welfare["description"][wel],
+                        equivalence_scales["description"][eq],
+                        ppp_description,
+                        notes_title,
+                        processing_description,
+                        processing_poverty,
+                    ]
+                )
                 df_tables.loc[j, "unit"] = "international-$ in 2017 prices"
                 df_tables.loc[j, "shortUnit"] = "$"
                 df_tables.loc[j, "type"] = "Numeric"
@@ -222,9 +281,17 @@ for tab in range(len(tables)):
                 df_tables.loc[
                     j, "slug"
                 ] = f"income_gap_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
-                df_tables.loc[
-                    j, "description"
-                ] = f'The average shortfall from a poverty line of ${povlines_abs.dollars_text[p]} a day (averaged across the population in poverty) expressed as a share of the poverty line. This metric is sometimes called the "income gap ratio". It captures the depth of poverty of those living on less than the poverty line.{new_line}This is {welfare.technical_text[wel]}. {welfare.subtitle[wel]}{new_line}{equivalence_scales.description[eq]}'
+                df_tables.loc[j, "description"] = new_line.join(
+                    [
+                        f'The average shortfall from a poverty line of ${povlines_abs.dollars_text[p]} a day (averaged across the population in poverty) expressed as a share of the poverty line. This metric is sometimes called the "income gap ratio". It captures the depth of poverty of those living on less than the poverty line.',
+                        welfare["description"][wel],
+                        equivalence_scales["description"][eq],
+                        ppp_description,
+                        notes_title,
+                        processing_description,
+                        processing_poverty,
+                    ]
+                )
                 df_tables.loc[j, "unit"] = "%"
                 df_tables.loc[j, "shortUnit"] = "%"
                 df_tables.loc[j, "type"] = "Numeric"
@@ -242,9 +309,17 @@ for tab in range(len(tables)):
                 df_tables.loc[
                     j, "slug"
                 ] = f"poverty_gap_index_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
-                df_tables.loc[
-                    j, "description"
-                ] = f"The poverty gap index calculated at a poverty line of ${povlines_abs['dollars_text'][p]} a day. The poverty gap index is a measure that reflects both the depth and prevalence of poverty. It is defined as the mean shortfall of the total population from the poverty line counting the non-poor as having zero shortfall and expressed as a percentage of the poverty line. It is worth unpacking that definition a little. For those below the poverty line, the shortfall corresponds to the amount of money required in order to reach the poverty line. For those at or above the poverty line, the shortfall is counted as zero. The average shortfall is then calculated across the total population – both poor and non-poor – and then expressed as a share of the poverty line. Unlike the more commonly-used metric of the headcount ratio, the poverty gap index is thus sensitive not only to whether a person’s income falls below the poverty line or not, but also by how much – i.e. to the depth of poverty they experience.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}{equivalence_scales['description'][eq]}"
+                df_tables.loc[j, "description"] = new_line.join(
+                    [
+                        f"The poverty gap index calculated at a poverty line of ${povlines_abs['dollars_text'][p]} a day. The poverty gap index is a measure that reflects both the depth and prevalence of poverty. It is defined as the mean shortfall of the total population from the poverty line counting the non-poor as having zero shortfall and expressed as a percentage of the poverty line. It is worth unpacking that definition a little. For those below the poverty line, the shortfall corresponds to the amount of money required in order to reach the poverty line. For those at or above the poverty line, the shortfall is counted as zero. The average shortfall is then calculated across the total population – both poor and non-poor – and then expressed as a share of the poverty line. Unlike the more commonly-used metric of the headcount ratio, the poverty gap index is thus sensitive not only to whether a person’s income falls below the poverty line or not, but also by how much – i.e. to the depth of poverty they experience.",
+                        welfare["description"][wel],
+                        equivalence_scales["description"][eq],
+                        ppp_description,
+                        notes_title,
+                        processing_description,
+                        processing_poverty,
+                    ]
+                )
                 df_tables.loc[j, "unit"] = "%"
                 df_tables.loc[j, "shortUnit"] = "%"
                 df_tables.loc[j, "type"] = "Numeric"
@@ -262,9 +337,16 @@ for tab in range(len(tables)):
                 df_tables.loc[
                     j, "slug"
                 ] = f"headcount_ratio_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
-                df_tables.loc[
-                    j, "description"
-                ] = f"% of population living in households with {welfare['welfare_type'][wel]} below {povlines_rel['percent'][pct]} of the median {welfare['welfare_type'][wel]}.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}{equivalence_scales['description'][eq]}"
+                df_tables.loc[j, "description"] = new_line.join(
+                    [
+                        "% of population living in households with {welfare['welfare_type'][wel]} below {povlines_rel['percent'][pct]} of the median {welfare['welfare_type'][wel]}.",
+                        welfare["description"][wel],
+                        equivalence_scales["description"][eq],
+                        notes_title,
+                        processing_description,
+                        processing_poverty,
+                    ]
+                )
                 df_tables.loc[j, "unit"] = "%"
                 df_tables.loc[j, "shortUnit"] = "%"
                 df_tables.loc[j, "type"] = "Numeric"
@@ -280,9 +362,16 @@ for tab in range(len(tables)):
                 df_tables.loc[
                     j, "slug"
                 ] = f"headcount_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
-                df_tables.loc[
-                    j, "description"
-                ] = f"Number of people living in households with {welfare['welfare_type'][wel]} below {povlines_rel['percent'][pct]} of the median {welfare['welfare_type'][wel]}.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}{equivalence_scales['description'][eq]}"
+                df_tables.loc[j, "description"] = new_line.join(
+                    [
+                        f"Number of people living in households with {welfare['welfare_type'][wel]} below {povlines_rel['percent'][pct]} of the median {welfare['welfare_type'][wel]}.",
+                        welfare["description"][wel],
+                        equivalence_scales["description"][eq],
+                        notes_title,
+                        processing_description,
+                        processing_poverty,
+                    ]
+                )
                 df_tables.loc[j, "unit"] = np.nan
                 df_tables.loc[j, "shortUnit"] = np.nan
                 df_tables.loc[j, "type"] = "Numeric"
@@ -300,9 +389,16 @@ for tab in range(len(tables)):
                 df_tables.loc[
                     j, "slug"
                 ] = f"total_shortfall_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
-                df_tables.loc[
-                    j, "description"
-                ] = f"The total shortfall from a poverty line of {povlines_rel['text'][pct]} {welfare['welfare_type'][wel]}. This is the amount of money that would be theoretically needed to lift the {welfare['welfare_type'][wel]} of all people in poverty up to the poverty line. However this is not a measure of the actual cost of eliminating poverty, since it does not take into account the costs involved in making the necessary transfers nor any changes in behaviour they would bring about.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}{equivalence_scales['description'][eq]}"
+                df_tables.loc[j, "description"] = new_line.join(
+                    [
+                        f"The total shortfall from a poverty line of {povlines_rel['text'][pct]} {welfare['welfare_type'][wel]}. This is the amount of money that would be theoretically needed to lift the {welfare['welfare_type'][wel]} of all people in poverty up to the poverty line. However this is not a measure of the actual cost of eliminating poverty, since it does not take into account the costs involved in making the necessary transfers nor any changes in behaviour they would bring about.",
+                        welfare["description"][wel],
+                        equivalence_scales["description"][eq],
+                        notes_title,
+                        processing_description,
+                        processing_poverty,
+                    ]
+                )
                 df_tables.loc[j, "unit"] = np.nan
                 df_tables.loc[j, "shortUnit"] = np.nan
                 df_tables.loc[j, "type"] = "Numeric"
@@ -320,9 +416,16 @@ for tab in range(len(tables)):
                 df_tables.loc[
                     j, "slug"
                 ] = f"avg_shortfall_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
-                df_tables.loc[
-                    j, "description"
-                ] = f"The average shortfall from a poverty line of of {povlines_rel['text'][pct]} {welfare['welfare_type'][wel]} (averaged across the population in poverty).{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}{equivalence_scales['description'][eq]}"
+                df_tables.loc[j, "description"] = new_line.join(
+                    [
+                        f"The average shortfall from a poverty line of of {povlines_rel['text'][pct]} {welfare['welfare_type'][wel]} (averaged across the population in poverty).",
+                        welfare["description"][wel],
+                        equivalence_scales["description"][eq],
+                        notes_title,
+                        processing_description,
+                        processing_poverty,
+                    ]
+                )
                 df_tables.loc[j, "unit"] = "international-$ in 2017 prices"
                 df_tables.loc[j, "shortUnit"] = "$"
                 df_tables.loc[j, "type"] = "Numeric"
@@ -338,9 +441,16 @@ for tab in range(len(tables)):
                 df_tables.loc[
                     j, "slug"
                 ] = f"avg_shortfall_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_day"
-                df_tables.loc[
-                    j, "description"
-                ] = f"The average shortfall from a poverty line of of {povlines_rel['text'][pct]} {welfare['welfare_type'][wel]} (averaged across the population in poverty).{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}{equivalence_scales['description'][eq]}"
+                df_tables.loc[j, "description"] = new_line.join(
+                    [
+                        f"The average shortfall from a poverty line of of {povlines_rel['text'][pct]} {welfare['welfare_type'][wel]} (averaged across the population in poverty).",
+                        welfare["description"][wel],
+                        equivalence_scales["description"][eq],
+                        notes_title,
+                        processing_description,
+                        processing_poverty,
+                    ]
+                )
                 df_tables.loc[j, "unit"] = "international-$ in 2017 prices"
                 df_tables.loc[j, "shortUnit"] = "$"
                 df_tables.loc[j, "type"] = "Numeric"
@@ -359,9 +469,16 @@ for tab in range(len(tables)):
                 df_tables.loc[
                     j, "slug"
                 ] = f"income_gap_ratio_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
-                df_tables.loc[
-                    j, "description"
-                ] = f'The average shortfall from a poverty line of of {povlines_rel.text[pct]} {welfare.welfare_type[wel]} (averaged across the population in poverty) expressed as a share of the poverty line. This metric is sometimes called the "income gap ratio". It captures the depth of poverty of those living on less than the poverty line.{new_line}This is {welfare.technical_text[wel]}. {welfare.subtitle[wel]}{new_line}{equivalence_scales.description[eq]}'
+                df_tables.loc[j, "description"] = new_line.join(
+                    [
+                        f'The average shortfall from a poverty line of of {povlines_rel.text[pct]} {welfare.welfare_type[wel]} (averaged across the population in poverty) expressed as a share of the poverty line. This metric is sometimes called the "income gap ratio". It captures the depth of poverty of those living on less than the poverty line.',
+                        welfare["description"][wel],
+                        equivalence_scales["description"][eq],
+                        notes_title,
+                        processing_description,
+                        processing_poverty,
+                    ]
+                )
                 df_tables.loc[j, "unit"] = "%"
                 df_tables.loc[j, "shortUnit"] = "%"
                 df_tables.loc[j, "type"] = "Numeric"
@@ -377,9 +494,16 @@ for tab in range(len(tables)):
                 df_tables.loc[
                     j, "slug"
                 ] = f"poverty_gap_index_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
-                df_tables.loc[
-                    j, "description"
-                ] = f"The poverty gap index calculated at a poverty line of {povlines_rel['text'][pct]} {welfare['welfare_type'][wel]}. The poverty gap index is a measure that reflects both the depth and prevalence of poverty. It is defined as the mean shortfall of the total population from the poverty line counting the non-poor as having zero shortfall and expressed as a percentage of the poverty line. It is worth unpacking that definition a little. For those below the poverty line, the shortfall corresponds to the amount of money required in order to reach the poverty line. For those at or above the poverty line, the shortfall is counted as zero. The average shortfall is then calculated across the total population – both poor and non-poor – and then expressed as a share of the poverty line. Unlike the more commonly-used metric of the headcount ratio, the poverty gap index is thus sensitive not only to whether a person’s income falls below the poverty line or not, but also by how much – i.e. to the depth of poverty they experience.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]}{new_line}{equivalence_scales['description'][eq]}"
+                df_tables.loc[j, "description"] = new_line.join(
+                    [
+                        f"The poverty gap index calculated at a poverty line of {povlines_rel['text'][pct]} {welfare['welfare_type'][wel]}. The poverty gap index is a measure that reflects both the depth and prevalence of poverty. It is defined as the mean shortfall of the total population from the poverty line counting the non-poor as having zero shortfall and expressed as a percentage of the poverty line. It is worth unpacking that definition a little. For those below the poverty line, the shortfall corresponds to the amount of money required in order to reach the poverty line. For those at or above the poverty line, the shortfall is counted as zero. The average shortfall is then calculated across the total population – both poor and non-poor – and then expressed as a share of the poverty line. Unlike the more commonly-used metric of the headcount ratio, the poverty gap index is thus sensitive not only to whether a person’s income falls below the poverty line or not, but also by how much – i.e. to the depth of poverty they experience.",
+                        welfare["description"][wel],
+                        equivalence_scales["description"][eq],
+                        notes_title,
+                        processing_description,
+                        processing_poverty,
+                    ]
+                )
                 df_tables.loc[j, "unit"] = "%"
                 df_tables.loc[j, "shortUnit"] = "%"
                 df_tables.loc[j, "type"] = "Numeric"
