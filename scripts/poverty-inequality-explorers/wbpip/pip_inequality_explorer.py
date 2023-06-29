@@ -356,10 +356,8 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
     df_graphers.loc[
         j, "subtitle"
-    ] = f"The Gini coefficient measures inequality on a scale between 0 and 1, where higher values indicate greater inequality."
-    df_graphers.loc[
-        j, "note"
-    ] = f"Depending on the country and year, the data relates to {survey_type.detailed_text[survey]} per capita."
+    ] = f"The Gini coefficient measures inequality on a scale between 0 and 1, where higher values indicate greater inequality. Depending on the country and year, the data relates to {survey_type.detailed_text[survey]} per capita."
+    df_graphers.loc[j, "note"] = ""
     df_graphers.loc[j, "type"] = np.nan
     df_graphers.loc[j, "yAxisMin"] = 0
     df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -633,6 +631,18 @@ df_graphers["note"] = df_graphers["note"].str.replace(
 df_graphers["note"] = df_graphers["note"].str.replace(
     "Depending on the country and year, it relates to consumption per capita.",
     "It relates to consumption per capita.",
+    regex=False,
+)
+
+# For Gini subtitle:
+df_graphers["subtitle"] = df_graphers["subtitle"].str.replace(
+    "Depending on the country and year, the data relates to income measured after taxes and benefits per capita.",
+    "The data relates to income measured after taxes and benefits per capita.",
+    regex=False,
+)
+df_graphers["subtitle"] = df_graphers["subtitle"].str.replace(
+    "Depending on the country and year, the data relates to consumption per capita.",
+    "The data relates to consumption per capita.",
     regex=False,
 )
 
