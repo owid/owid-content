@@ -1,7 +1,7 @@
 explorerTitle	Population & Demography Data Explorer
 explorerSubtitle	Visualizing data from the United Nations World Population Prospects.
 isPublished	true
-selection	China	India	United States	Indonesia	Pakistan
+selection	China	India	United States	Indonesia	Pakistan	Nigeria	Brazil	Japan
 wpBlockId	52216
 hasMapTab	true
 thumbnail	https://owid.cloud/app/uploads/2022/07/Population-Data-Explorer.png
