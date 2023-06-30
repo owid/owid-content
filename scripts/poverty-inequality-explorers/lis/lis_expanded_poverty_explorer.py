@@ -54,7 +54,7 @@ tables = pd.read_csv(url, keep_default_na=False)
 # %%
 # The header is defined as a dictionary first and then it is converted into a index-oriented dataframe
 header_dict = {
-    "explorerTitle": "Poverty Data Explorer",
+    "explorerTitle": "Poverty Data Explorer (LIS data)",
     "selection": [
         "Chile",
         "Brazil",
