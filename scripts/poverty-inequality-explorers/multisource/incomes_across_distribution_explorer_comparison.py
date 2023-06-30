@@ -1092,9 +1092,7 @@ for tab in range(len(merged_tables)):
             ].capitalize()
             df_graphers.loc[j, "hideRelativeToggle"] = "false"
             df_graphers.loc[j, "subtitle"] = f"{source_checkbox['note'][view]}"
-            df_graphers.loc[
-                j, "note"
-            ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+            df_graphers.loc[j, "note"] = f"{source_checkbox['note_ppp'][view]}"
             df_graphers.loc[j, "yScaleToggle"] = "true"
             j += 1
 
@@ -1115,9 +1113,7 @@ for tab in range(len(merged_tables)):
             ].capitalize()
             df_graphers.loc[j, "hideRelativeToggle"] = "false"
             df_graphers.loc[j, "subtitle"] = f"{source_checkbox['note'][view]}"
-            df_graphers.loc[
-                j, "note"
-            ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+            df_graphers.loc[j, "note"] = f"{source_checkbox['note_ppp'][view]}"
             df_graphers.loc[j, "yScaleToggle"] = "true"
             j += 1
 
@@ -1145,9 +1141,7 @@ for tab in range(len(merged_tables)):
                 df_graphers.loc[
                     j, "subtitle"
                 ] = f"The level of income per {lis_income_aggregation['aggregation'][agg]} below which {deciles9['decile'][dec9]}0% of the population falls. {source_checkbox['note'][view]}"
-                df_graphers.loc[
-                    j, "note"
-                ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+                df_graphers.loc[j, "note"] = f"{source_checkbox['note_ppp'][view]}"
                 df_graphers.loc[j, "yScaleToggle"] = "true"
                 j += 1
 
@@ -1177,9 +1171,7 @@ for tab in range(len(merged_tables)):
                 df_graphers.loc[
                     j, "subtitle"
                 ] = f"The mean income per {lis_income_aggregation['aggregation'][agg]} within the {deciles10['ordinal'][dec10]} (tenth of the population). {source_checkbox['note'][view]}"
-                df_graphers.loc[
-                    j, "note"
-                ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+                df_graphers.loc[j, "note"] = f"{source_checkbox['note_ppp'][view]}"
                 df_graphers.loc[j, "yScaleToggle"] = "true"
                 j += 1
 
