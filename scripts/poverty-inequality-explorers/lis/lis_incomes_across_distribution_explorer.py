@@ -51,11 +51,6 @@ sheet_name = "top_pct"
 url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
 top_pct = pd.read_csv(url, keep_default_na=False)
 
-# Relative toggle (to switch between absolute and relative values)
-sheet_name = "relative_toggle"
-url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
-relative_toggle = pd.read_csv(url, keep_default_na=False, dtype={"checkbox": "str"})
-
 # Income aggregation sheet (day, month, year)
 sheet_name = "income_aggregation"
 url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
@@ -284,9 +279,10 @@ for tab in range(len(tables)):
                 df_tables.loc[
                     j, "name"
                 ] = f"Mean {welfare['welfare_type'][wel]} ({welfare['title'][wel]})"
-                df_tables.loc[j, "slug"] = df_tables.loc[
-                    j, "description"
-                ] = new_line.join(
+                df_tables.loc[
+                    j, "slug"
+                ] = f"mean_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}{income_aggregation['slug_suffix'][agg]}"
+                df_tables.loc[j, "description"] = new_line.join(
                     [
                         f"Mean {welfare['welfare_type'][wel]}.",
                         welfare["description"][wel],
