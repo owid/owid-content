@@ -148,7 +148,7 @@ additional_description = new_line.join(
     ]
 )
 
-notes_title = "NOTES ON OUR PROCESSING STEP FOR THIS INDICATOR"
+notes_title = "NOTES ON HOW WE PROCESSED THIS INDICATOR"
 
 processing_description = new_line.join(
     [
@@ -487,7 +487,7 @@ tolerance = 5
 colorScaleEqualSizeBins = "true"
 new_line = "<br><br>"
 
-notes_title = "NOTES ON OUR PROCESSING STEP FOR THIS INDICATOR"
+notes_title = "NOTES ON HOW WE PROCESSED THIS INDICATOR"
 
 processing_description = new_line.join(
     [

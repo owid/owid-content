@@ -46,11 +46,6 @@ sheet_name = "top_pct"
 url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
 top_pct = pd.read_csv(url, keep_default_na=False, dtype={"percentage": "str"})
 
-# Relative toggle (to switch between absolute and relative values)
-sheet_name = "relative_toggle"
-url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
-relative_toggle = pd.read_csv(url, keep_default_na=False, dtype={"checkbox": "str"})
-
 # Income aggregation sheet (day, month, year)
 sheet_name = "income_aggregation"
 url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
@@ -534,8 +529,6 @@ for tab in range(len(tables)):
             df_graphers.loc[
                 j, "Period Radio"
             ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
-            df_graphers.loc[j, "Relative change Checkbox"] = "false"
-            df_graphers.loc[j, "stackMode"] = "absolute"
             df_graphers.loc[
                 j, "subtitle"
             ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]}"
@@ -563,8 +556,6 @@ for tab in range(len(tables)):
             df_graphers.loc[
                 j, "Period Radio"
             ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
-            df_graphers.loc[j, "Relative change Checkbox"] = "false"
-            df_graphers.loc[j, "stackMode"] = "absolute"
             df_graphers.loc[
                 j, "subtitle"
             ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]}"
@@ -595,8 +586,6 @@ for tab in range(len(tables)):
                 df_graphers.loc[
                     j, "Period Radio"
                 ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
-                df_graphers.loc[j, "Relative change Checkbox"] = "false"
-                df_graphers.loc[j, "stackMode"] = "absolute"
                 df_graphers.loc[
                     j, "subtitle"
                 ] = f"The level of {welfare['welfare_type'][wel]} per {income_aggregation['aggregation'][agg]} below which {deciles9['decile'][dec9]}0% of the population falls. {welfare['subtitle'][wel]}"
@@ -627,8 +616,6 @@ for tab in range(len(tables)):
                 df_graphers.loc[
                     j, "Period Radio"
                 ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
-                df_graphers.loc[j, "Relative change Checkbox"] = "false"
-                df_graphers.loc[j, "stackMode"] = "absolute"
                 df_graphers.loc[
                     j, "subtitle"
                 ] = f"The mean {welfare['welfare_type'][wel]} per {income_aggregation['aggregation'][agg]} within the {deciles10['ordinal'][dec10]} (tenth of the population). {welfare['subtitle'][wel]}"
@@ -659,8 +646,6 @@ for tab in range(len(tables)):
                 df_graphers.loc[
                     j, "Period Radio"
                 ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
-                df_graphers.loc[j, "Relative change Checkbox"] = "false"
-                df_graphers.loc[j, "stackMode"] = "absolute"
                 df_graphers.loc[j, "subtitle"] = f"{welfare['subtitle'][wel]}"
                 df_graphers.loc[
                     j, "note"
@@ -689,8 +674,6 @@ for tab in range(len(tables)):
                 df_graphers.loc[
                     j, "Period Radio"
                 ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
-                df_graphers.loc[j, "Relative change Checkbox"] = "false"
-                df_graphers.loc[j, "stackMode"] = "absolute"
                 df_graphers.loc[
                     j, "subtitle"
                 ] = f"The mean {welfare['welfare_type'][wel]} per {income_aggregation['aggregation'][agg]} within the richest {top_pct['percentage'][top]} of the population. {welfare['subtitle'][wel]}"
@@ -703,138 +686,117 @@ for tab in range(len(tables)):
                 df_graphers.loc[j, "yScaleToggle"] = "true"
                 j += 1
 
-            for rel_toggle in range(len(relative_toggle)):
-                # Thresholds - Multiple deciles
-                df_graphers.loc[
-                    j, "title"
-                ] = f"Threshold {welfare['welfare_type'][wel]} per {income_aggregation['aggregation'][agg]} for each decile {welfare['title'][wel].capitalize()}"
-                df_graphers.loc[
-                    j, "ySlugs"
-                ] = f"p10p20_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p20p30_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p30p40_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p40p50_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p50p60_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p60p70_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p70p80_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p80p90_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p90p100_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]}"
-                df_graphers.loc[j, "Indicator Dropdown"] = "Decile thresholds"
-                df_graphers.loc[j, "Decile/quantile Dropdown"] = "All deciles"
-                df_graphers.loc[
-                    j, "Income measure Dropdown"
-                ] = f"{welfare['dropdown_option'][wel]}"
-                df_graphers.loc[
-                    j, "Period Radio"
-                ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
-                df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
-                    "checkbox"
-                ][rel_toggle]
-                df_graphers.loc[j, "stackMode"] = relative_toggle["stack_mode"][
-                    rel_toggle
-                ]
-                df_graphers.loc[
-                    j, "subtitle"
-                ] = f"The level of income per {income_aggregation['aggregation'][agg]} below which 10%, 20%, 30%, etc. of the population falls. {welfare['subtitle'][wel]}"
-                df_graphers.loc[
-                    j, "note"
-                ] = f"This data is measured in international-$ at 2021 prices to account for inflation and differences in the cost of living between countries. {welfare['note'][wel]}"
-                df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
-                df_graphers.loc[j, "hasMapTab"] = "false"
-                df_graphers.loc[j, "tab"] = "chart"
-                df_graphers.loc[j, "yScaleToggle"] = "true"
-                j += 1
+            # Thresholds - Multiple deciles
+            df_graphers.loc[
+                j, "title"
+            ] = f"Threshold {welfare['welfare_type'][wel]} per {income_aggregation['aggregation'][agg]} for each decile {welfare['title'][wel].capitalize()}"
+            df_graphers.loc[
+                j, "ySlugs"
+            ] = f"p10p20_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p20p30_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p30p40_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p40p50_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p50p60_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p60p70_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p70p80_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p80p90_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p90p100_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]}"
+            df_graphers.loc[j, "Indicator Dropdown"] = "Decile thresholds"
+            df_graphers.loc[j, "Decile/quantile Dropdown"] = "All deciles"
+            df_graphers.loc[
+                j, "Income measure Dropdown"
+            ] = f"{welfare['dropdown_option'][wel]}"
+            df_graphers.loc[
+                j, "Period Radio"
+            ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
+            df_graphers.loc[j, "hideRelativeToggle"] = "false"
+            df_graphers.loc[
+                j, "subtitle"
+            ] = f"The level of income per {income_aggregation['aggregation'][agg]} below which 10%, 20%, 30%, etc. of the population falls. {welfare['subtitle'][wel]}"
+            df_graphers.loc[
+                j, "note"
+            ] = f"This data is measured in international-$ at 2021 prices to account for inflation and differences in the cost of living between countries. {welfare['note'][wel]}"
+            df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
+            df_graphers.loc[j, "hasMapTab"] = "false"
+            df_graphers.loc[j, "tab"] = "chart"
+            df_graphers.loc[j, "yScaleToggle"] = "true"
+            j += 1
 
-                # Averages - Multiple deciles
-                df_graphers.loc[
-                    j, "title"
-                ] = f"Mean {welfare['welfare_type'][wel]} per {income_aggregation['aggregation'][agg]} within each decile {welfare['title'][wel].capitalize()}"
-                df_graphers.loc[
-                    j, "ySlugs"
-                ] = f"p0p10_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p10p20_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p20p30_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p30p40_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p40p50_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p50p60_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p60p70_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p70p80_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p80p90_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p90p100_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]}"
-                df_graphers.loc[j, "Indicator Dropdown"] = "Mean income, by decile"
-                df_graphers.loc[j, "Decile/quantile Dropdown"] = "All deciles"
-                df_graphers.loc[
-                    j, "Income measure Dropdown"
-                ] = f"{welfare['dropdown_option'][wel]}"
-                df_graphers.loc[
-                    j, "Period Radio"
-                ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
-                df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
-                    "checkbox"
-                ][rel_toggle]
-                df_graphers.loc[j, "stackMode"] = relative_toggle["stack_mode"][
-                    rel_toggle
-                ]
-                df_graphers.loc[
-                    j, "subtitle"
-                ] = f"The mean {welfare['welfare_type'][wel]} per {income_aggregation['aggregation'][agg]} within each decile (tenth of the population). {welfare['subtitle'][wel]}"
-                df_graphers.loc[
-                    j, "note"
-                ] = f"This data is measured in international-$ at 2021 prices to account for inflation and differences in the cost of living between countries. {welfare['note'][wel]}"
-                df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
-                df_graphers.loc[j, "hasMapTab"] = "false"
-                df_graphers.loc[j, "tab"] = "chart"
-                df_graphers.loc[j, "yScaleToggle"] = "true"
-                j += 1
+            # Averages - Multiple deciles
+            df_graphers.loc[
+                j, "title"
+            ] = f"Mean {welfare['welfare_type'][wel]} per {income_aggregation['aggregation'][agg]} within each decile {welfare['title'][wel].capitalize()}"
+            df_graphers.loc[
+                j, "ySlugs"
+            ] = f"p0p10_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p10p20_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p20p30_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p30p40_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p40p50_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p50p60_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p60p70_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p70p80_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p80p90_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p90p100_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]}"
+            df_graphers.loc[j, "Indicator Dropdown"] = "Mean income, by decile"
+            df_graphers.loc[j, "Decile/quantile Dropdown"] = "All deciles"
+            df_graphers.loc[
+                j, "Income measure Dropdown"
+            ] = f"{welfare['dropdown_option'][wel]}"
+            df_graphers.loc[
+                j, "Period Radio"
+            ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
+            df_graphers.loc[j, "hideRelativeToggle"] = "false"
+            df_graphers.loc[
+                j, "subtitle"
+            ] = f"The mean {welfare['welfare_type'][wel]} per {income_aggregation['aggregation'][agg]} within each decile (tenth of the population). {welfare['subtitle'][wel]}"
+            df_graphers.loc[
+                j, "note"
+            ] = f"This data is measured in international-$ at 2021 prices to account for inflation and differences in the cost of living between countries. {welfare['note'][wel]}"
+            df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
+            df_graphers.loc[j, "hasMapTab"] = "false"
+            df_graphers.loc[j, "tab"] = "chart"
+            df_graphers.loc[j, "yScaleToggle"] = "true"
+            j += 1
 
-                # Thresholds - Multiple deciles (including top)
-                df_graphers.loc[
-                    j, "title"
-                ] = f"Threshold {welfare['welfare_type'][wel]} per {income_aggregation['aggregation'][agg]} for each decile {welfare['title'][wel].capitalize()}"
-                df_graphers.loc[
-                    j, "ySlugs"
-                ] = f"p10p20_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p20p30_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p30p40_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p40p50_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p50p60_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p60p70_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p70p80_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p80p90_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p90p100_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p99p100_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p99_9p100_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]}"
-                df_graphers.loc[j, "Indicator Dropdown"] = "Decile thresholds"
-                df_graphers.loc[j, "Decile/quantile Dropdown"] = "All deciles + top"
-                df_graphers.loc[
-                    j, "Income measure Dropdown"
-                ] = f"{welfare['dropdown_option'][wel]}"
-                df_graphers.loc[
-                    j, "Period Radio"
-                ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
-                df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
-                    "checkbox"
-                ][rel_toggle]
-                df_graphers.loc[j, "stackMode"] = relative_toggle["stack_mode"][
-                    rel_toggle
-                ]
-                df_graphers.loc[
-                    j, "subtitle"
-                ] = f"The level of income per {income_aggregation['aggregation'][agg]} below which 10%, 20%, 30%, etc. of the population falls. {welfare['subtitle'][wel]}"
-                df_graphers.loc[
-                    j, "note"
-                ] = f"This data is measured in international-$ at 2021 prices to account for inflation and differences in the cost of living between countries. {welfare['note'][wel]}"
-                df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
-                df_graphers.loc[j, "hasMapTab"] = "false"
-                df_graphers.loc[j, "tab"] = "chart"
-                df_graphers.loc[j, "yScaleToggle"] = "true"
-                j += 1
+            # Thresholds - Multiple deciles (including top)
+            df_graphers.loc[
+                j, "title"
+            ] = f"Threshold {welfare['welfare_type'][wel]} per {income_aggregation['aggregation'][agg]} for each decile {welfare['title'][wel].capitalize()}"
+            df_graphers.loc[
+                j, "ySlugs"
+            ] = f"p10p20_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p20p30_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p30p40_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p40p50_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p50p60_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p60p70_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p70p80_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p80p90_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p90p100_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p99p100_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p99_9p100_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]}"
+            df_graphers.loc[j, "Indicator Dropdown"] = "Decile thresholds"
+            df_graphers.loc[j, "Decile/quantile Dropdown"] = "All deciles + top"
+            df_graphers.loc[
+                j, "Income measure Dropdown"
+            ] = f"{welfare['dropdown_option'][wel]}"
+            df_graphers.loc[
+                j, "Period Radio"
+            ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
+            df_graphers.loc[j, "hideRelativeToggle"] = "false"
+            df_graphers.loc[
+                j, "subtitle"
+            ] = f"The level of income per {income_aggregation['aggregation'][agg]} below which 10%, 20%, 30%, etc. of the population falls. {welfare['subtitle'][wel]}"
+            df_graphers.loc[
+                j, "note"
+            ] = f"This data is measured in international-$ at 2021 prices to account for inflation and differences in the cost of living between countries. {welfare['note'][wel]}"
+            df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
+            df_graphers.loc[j, "hasMapTab"] = "false"
+            df_graphers.loc[j, "tab"] = "chart"
+            df_graphers.loc[j, "yScaleToggle"] = "true"
+            j += 1
 
-                # Averages - Multiple deciles (including top)
-                df_graphers.loc[
-                    j, "title"
-                ] = f"Mean {welfare['welfare_type'][wel]} per {income_aggregation['aggregation'][agg]} within each decile {welfare['title'][wel].capitalize()}"
-                df_graphers.loc[
-                    j, "ySlugs"
-                ] = f"p0p10_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p10p20_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p20p30_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p30p40_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p40p50_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p50p60_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p60p70_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p70p80_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p80p90_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p90p100_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p99p100_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p99_9p100_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]}"
-                df_graphers.loc[j, "Indicator Dropdown"] = "Mean income, by decile"
-                df_graphers.loc[j, "Decile/quantile Dropdown"] = "All deciles + top"
-                df_graphers.loc[
-                    j, "Income measure Dropdown"
-                ] = f"{welfare['dropdown_option'][wel]}"
-                df_graphers.loc[
-                    j, "Period Radio"
-                ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
-                df_graphers.loc[j, "Relative change Checkbox"] = relative_toggle[
-                    "checkbox"
-                ][rel_toggle]
-                df_graphers.loc[j, "stackMode"] = relative_toggle["stack_mode"][
-                    rel_toggle
-                ]
-                df_graphers.loc[
-                    j, "subtitle"
-                ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]}"
-                df_graphers.loc[
-                    j, "note"
-                ] = f"This data is measured in international-$ at 2021 prices. {welfare['note'][wel]}"
-                df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
-                df_graphers.loc[j, "hasMapTab"] = "false"
-                df_graphers.loc[j, "tab"] = "chart"
-                df_graphers.loc[j, "yScaleToggle"] = "true"
-                j += 1
+            # Averages - Multiple deciles (including top)
+            df_graphers.loc[
+                j, "title"
+            ] = f"Mean {welfare['welfare_type'][wel]} per {income_aggregation['aggregation'][agg]} within each decile {welfare['title'][wel].capitalize()}"
+            df_graphers.loc[
+                j, "ySlugs"
+            ] = f"p0p10_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p10p20_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p20p30_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p30p40_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p40p50_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p50p60_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p60p70_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p70p80_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p80p90_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p90p100_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p99p100_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]} p99_9p100_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]}"
+            df_graphers.loc[j, "Indicator Dropdown"] = "Mean income, by decile"
+            df_graphers.loc[j, "Decile/quantile Dropdown"] = "All deciles + top"
+            df_graphers.loc[
+                j, "Income measure Dropdown"
+            ] = f"{welfare['dropdown_option'][wel]}"
+            df_graphers.loc[
+                j, "Period Radio"
+            ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
+            df_graphers.loc[j, "hideRelativeToggle"] = "false"
+            df_graphers.loc[
+                j, "subtitle"
+            ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]}"
+            df_graphers.loc[
+                j, "note"
+            ] = f"This data is measured in international-$ at 2021 prices. {welfare['note'][wel]}"
+            df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
+            df_graphers.loc[j, "hasMapTab"] = "false"
+            df_graphers.loc[j, "tab"] = "chart"
+            df_graphers.loc[j, "yScaleToggle"] = "true"
+            j += 1
 
         # BEFORE VS. AFTER TAX
         # Mean
@@ -850,8 +812,6 @@ for tab in range(len(tables)):
         df_graphers.loc[
             j, "Period Radio"
         ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
-        df_graphers.loc[j, "Relative change Checkbox"] = "false"
-        df_graphers.loc[j, "stackMode"] = "absolute"
         df_graphers.loc[
             j, "subtitle"
         ] = f"This data is adjusted for inflation and for differences in the cost of living between countries."
@@ -877,8 +837,6 @@ for tab in range(len(tables)):
         df_graphers.loc[
             j, "Period Radio"
         ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
-        df_graphers.loc[j, "Relative change Checkbox"] = "false"
-        df_graphers.loc[j, "stackMode"] = "absolute"
         df_graphers.loc[
             j, "subtitle"
         ] = f"This data is adjusted for inflation and for differences in the cost of living between countries."
@@ -905,8 +863,6 @@ for tab in range(len(tables)):
             df_graphers.loc[
                 j, "Period Radio"
             ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
-            df_graphers.loc[j, "Relative change Checkbox"] = "false"
-            df_graphers.loc[j, "stackMode"] = "absolute"
             df_graphers.loc[
                 j, "subtitle"
             ] = f"The level of income per {income_aggregation['aggregation'][agg]} below which {deciles9['decile'][dec9]}0% of the population falls."
@@ -935,8 +891,6 @@ for tab in range(len(tables)):
             df_graphers.loc[
                 j, "Period Radio"
             ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
-            df_graphers.loc[j, "Relative change Checkbox"] = "false"
-            df_graphers.loc[j, "stackMode"] = "absolute"
             df_graphers.loc[
                 j, "subtitle"
             ] = f"The mean income per {income_aggregation['aggregation'][agg]} within the {deciles10['ordinal'][dec10]} (tenth of the population)."
@@ -965,8 +919,6 @@ for tab in range(len(tables)):
             df_graphers.loc[
                 j, "Period Radio"
             ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
-            df_graphers.loc[j, "Relative change Checkbox"] = "false"
-            df_graphers.loc[j, "stackMode"] = "absolute"
             df_graphers.loc[j, "subtitle"] = ""
             df_graphers.loc[
                 j, "note"
@@ -993,8 +945,6 @@ for tab in range(len(tables)):
             df_graphers.loc[
                 j, "Period Radio"
             ] = f"{income_aggregation['aggregation'][agg].capitalize()}"
-            df_graphers.loc[j, "Relative change Checkbox"] = "false"
-            df_graphers.loc[j, "stackMode"] = "absolute"
             df_graphers.loc[
                 j, "subtitle"
             ] = f"This is the mean income per {income_aggregation['aggregation'][agg]} within the richest {top_pct['percentage'][top]} of the population."
@@ -1025,8 +975,6 @@ for tab in range(len(tables)):
                 j, "Income measure Dropdown"
             ] = f"{welfare['dropdown_option'][wel]}"
             df_graphers.loc[j, "Period Radio"] = np.nan
-            df_graphers.loc[j, "Relative change Checkbox"] = "false"
-            df_graphers.loc[j, "stackMode"] = "absolute"
             df_graphers.loc[
                 j, "subtitle"
             ] = f"The share of {welfare['welfare_type'][wel]} received by the {deciles10['ordinal'][dec10]} (tenth of the population). {welfare['subtitle'][wel]}"
@@ -1052,8 +1000,6 @@ for tab in range(len(tables)):
                 j, "Income measure Dropdown"
             ] = f"{welfare['dropdown_option'][wel]}"
             df_graphers.loc[j, "Period Radio"] = np.nan
-            df_graphers.loc[j, "Relative change Checkbox"] = "false"
-            df_graphers.loc[j, "stackMode"] = "absolute"
             df_graphers.loc[
                 j, "subtitle"
             ] = f"The share of {welfare['welfare_type'][wel]} received by the richest {top_pct['percentage'][top]} of the population. {welfare['subtitle'][wel]}"
@@ -1074,8 +1020,6 @@ for tab in range(len(tables)):
         df_graphers.loc[j, "Decile/quantile Dropdown"] = "All deciles"
         df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
         df_graphers.loc[j, "Period Radio"] = np.nan
-        df_graphers.loc[j, "Relative change Checkbox"] = "false"
-        df_graphers.loc[j, "stackMode"] = "absolute"
         df_graphers.loc[
             j, "subtitle"
         ] = f"The share of {welfare['welfare_type'][wel]} received by each decile (tenth of the population). {welfare['subtitle'][wel]}"
@@ -1096,8 +1040,6 @@ for tab in range(len(tables)):
         df_graphers.loc[j, "Decile/quantile Dropdown"] = "All deciles + top"
         df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
         df_graphers.loc[j, "Period Radio"] = np.nan
-        df_graphers.loc[j, "Relative change Checkbox"] = "false"
-        df_graphers.loc[j, "stackMode"] = "absolute"
         df_graphers.loc[
             j, "subtitle"
         ] = f"The share of {welfare['welfare_type'][wel]} received by each decile (tenth of the population). {welfare['subtitle'][wel]}"
@@ -1120,8 +1062,6 @@ for tab in range(len(tables)):
         df_graphers.loc[j, "Decile/quantile Dropdown"] = deciles10["dropdown"][dec10]
         df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
         df_graphers.loc[j, "Period Radio"] = np.nan
-        df_graphers.loc[j, "Relative change Checkbox"] = "false"
-        df_graphers.loc[j, "stackMode"] = "absolute"
         df_graphers.loc[
             j, "subtitle"
         ] = f"The share of income received by the {deciles10['ordinal'][dec10]} (tenth of the population)."
@@ -1145,8 +1085,6 @@ for tab in range(len(tables)):
         ].capitalize()
         df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
         df_graphers.loc[j, "Period Radio"] = np.nan
-        df_graphers.loc[j, "Relative change Checkbox"] = "false"
-        df_graphers.loc[j, "stackMode"] = "absolute"
         df_graphers.loc[
             j, "subtitle"
         ] = f"The share of income received by the richest {top_pct['percentage'][top]} of the population."
@@ -1178,8 +1116,7 @@ df_graphers.loc[
     (df_graphers["Indicator Dropdown"] == "Decile thresholds")
     & (df_graphers["Decile/quantile Dropdown"] == "All deciles")
     & (df_graphers["Income measure Dropdown"] == "After tax")
-    & (df_graphers["Period Radio"] == "Year")
-    & (df_graphers["Relative change Checkbox"] == "false"),
+    & (df_graphers["Period Radio"] == "Year"),
     ["defaultView"],
 ] = "true"
 
