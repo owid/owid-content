@@ -80,7 +80,7 @@ header_dict = {
         "China",
     ],
     "explorerSubtitle": "Luxembourg Income Study data",
-    "isPublished": "false",
+    "isPublished": "true",
     "googleSheet": f"https://docs.google.com/spreadsheets/d/{sheet_id}",
     "wpBlockId": "",
     "entityType": "country or region",

@@ -176,7 +176,7 @@ header_dict = {
         "China",
     ],
     "explorerSubtitle": "Compare World Bank, WID and LIS data",
-    "isPublished": "false",
+    "isPublished": "true",
     "googleSheet": "",
     "wpBlockId": "",
     "entityType": "country or region",
