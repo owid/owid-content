@@ -42,10 +42,10 @@ header_dict = {
     "selection": [
         "Chile",
         "Brazil",
-        "Mexico",
+        "South Africa",
         "United States",
         "France",
-        "Greece",
+        "China",
     ],
     "explorerSubtitle": "",
     "isPublished": "true",
