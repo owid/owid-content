@@ -48,7 +48,7 @@ tables = pd.read_csv(url, keep_default_na=False)
 # %%
 # The header is defined as a dictionary first and then it is converted into a index-oriented dataframe
 header_dict = {
-    "explorerTitle": "Inequality Data Explorer (LIS data)",
+    "explorerTitle": "Inequality Data Explorer: Luxembourg Income Study data",
     "selection": [
         "Chile",
         "Brazil",
@@ -57,7 +57,7 @@ header_dict = {
         "France",
         "China",
     ],
-    "explorerSubtitle": "Luxembourg Income Study data",
+    "explorerSubtitle": "",
     "isPublished": "true",
     "googleSheet": f"https://docs.google.com/spreadsheets/d/{sheet_id}",
     "wpBlockId": "",

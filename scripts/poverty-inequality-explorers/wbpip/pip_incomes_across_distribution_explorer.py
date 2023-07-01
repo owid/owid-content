@@ -50,9 +50,9 @@ survey_type = pd.read_csv(url)
 # %%
 # The header is defined as a dictionary first and then it is converted into a index-oriented dataframe
 header_dict = {
-    "explorerTitle": "Incomes Across the Distribution Data Explorer (PIP data)",
+    "explorerTitle": "Incomes Across the Distribution Data Explorer: World Bank data",
     "selection": ["Mozambique", "Nigeria", "Kenya", "Bangladesh", "Bolivia", "World"],
-    "explorerSubtitle": "World Bank data",
+    "explorerSubtitle": "",
     "isPublished": "true",
     "googleSheet": f"https://docs.google.com/spreadsheets/d/{sheet_id}",
     "wpBlockId": "52633",
