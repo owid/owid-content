@@ -104,7 +104,7 @@ additional_description = new_line.join(
         "These underlying data sources are not always available. For some countries, observations are extrapolated from data relating to other years, or are sometimes modeled based on data observed in other countries.",
     ]
 )
-ppp_description = "The data is measured in international-$ at 2021 prices – this adjusts for inflation and for differences in the cost of living between countries."
+ppp_description = "The data is measured in international-$ at 2022 prices – this adjusts for inflation and for differences in the cost of living between countries."
 
 df_tables = pd.DataFrame()
 j = 0
@@ -137,7 +137,7 @@ for tab in range(len(tables)):
                 additional_description,
             ]
         )
-        df_tables.loc[j, "unit"] = "international-$ in 2021 prices"
+        df_tables.loc[j, "unit"] = "international-$ in 2022 prices"
         df_tables.loc[j, "shortUnit"] = "$"
         df_tables.loc[j, "type"] = "Numeric"
         df_tables.loc[j, "colorScaleNumericBins"] = welfare["scale_mean"][wel]
@@ -158,7 +158,7 @@ for tab in range(len(tables)):
                 additional_description,
             ]
         )
-        df_tables.loc[j, "unit"] = "international-$ in 2021 prices"
+        df_tables.loc[j, "unit"] = "international-$ in 2022 prices"
         df_tables.loc[j, "shortUnit"] = "$"
         df_tables.loc[j, "type"] = "Numeric"
         # df_tables.loc[j, "colorScaleNumericBins"] = welfare["scale_median"][wel]
@@ -182,7 +182,7 @@ for tab in range(len(tables)):
                     additional_description,
                 ]
             )
-            df_tables.loc[j, "unit"] = "international-$ in 2021 prices"
+            df_tables.loc[j, "unit"] = "international-$ in 2022 prices"
             df_tables.loc[j, "shortUnit"] = "$"
             df_tables.loc[j, "type"] = "Numeric"
             # df_tables.loc[j, "colorScaleNumericBins"] = deciles9["scale_thr"][dec9]
@@ -206,7 +206,7 @@ for tab in range(len(tables)):
                     additional_description,
                 ]
             )
-            df_tables.loc[j, "unit"] = "international-$ in 2021 prices"
+            df_tables.loc[j, "unit"] = "international-$ in 2022 prices"
             df_tables.loc[j, "shortUnit"] = "$"
             df_tables.loc[j, "type"] = "Numeric"
             # df_tables.loc[j, "colorScaleNumericBins"] = deciles10["scale_avg"][dec10]
@@ -255,7 +255,7 @@ for tab in range(len(tables)):
                     additional_description,
                 ]
             )
-            df_tables.loc[j, "unit"] = "international-$ in 2021 prices"
+            df_tables.loc[j, "unit"] = "international-$ in 2022 prices"
             df_tables.loc[j, "shortUnit"] = "$"
             df_tables.loc[j, "type"] = "Numeric"
             # df_tables.loc[j, "colorScaleNumericBins"] = top_pct["scale_thr"][top]
@@ -279,7 +279,7 @@ for tab in range(len(tables)):
                     additional_description,
                 ]
             )
-            df_tables.loc[j, "unit"] = "international-$ in 2021 prices"
+            df_tables.loc[j, "unit"] = "international-$ in 2022 prices"
             df_tables.loc[j, "shortUnit"] = "$"
             df_tables.loc[j, "type"] = "Numeric"
             # df_tables.loc[j, "colorScaleNumericBins"] = top_pct["scale_avg"][top]
@@ -329,7 +329,7 @@ for tab in range(len(tables)):
                     additional_description,
                 ]
             )
-            df_tables.loc[j, "unit"] = "international-$ in 2021 prices"
+            df_tables.loc[j, "unit"] = "international-$ in 2022 prices"
             df_tables.loc[j, "shortUnit"] = "$"
             df_tables.loc[j, "type"] = "Numeric"
             df_tables.loc[j, "colorScaleNumericBins"] = income_aggregation[
@@ -357,7 +357,7 @@ for tab in range(len(tables)):
                     additional_description,
                 ]
             )
-            df_tables.loc[j, "unit"] = "international-$ in 2021 prices"
+            df_tables.loc[j, "unit"] = "international-$ in 2022 prices"
             df_tables.loc[j, "shortUnit"] = "$"
             df_tables.loc[j, "type"] = "Numeric"
             df_tables.loc[j, "colorScaleNumericBins"] = income_aggregation[
@@ -386,7 +386,7 @@ for tab in range(len(tables)):
                         additional_description,
                     ]
                 )
-                df_tables.loc[j, "unit"] = "international-$ in 2021 prices"
+                df_tables.loc[j, "unit"] = "international-$ in 2022 prices"
                 df_tables.loc[j, "shortUnit"] = "$"
                 df_tables.loc[j, "type"] = "Numeric"
                 df_tables.loc[j, "colorScaleNumericBins"] = deciles9[
@@ -415,7 +415,7 @@ for tab in range(len(tables)):
                         additional_description,
                     ]
                 )
-                df_tables.loc[j, "unit"] = "international-$ in 2021 prices"
+                df_tables.loc[j, "unit"] = "international-$ in 2022 prices"
                 df_tables.loc[j, "shortUnit"] = "$"
                 df_tables.loc[j, "type"] = "Numeric"
                 df_tables.loc[j, "colorScaleNumericBins"] = deciles10[
@@ -444,7 +444,7 @@ for tab in range(len(tables)):
                         additional_description,
                     ]
                 )
-                df_tables.loc[j, "unit"] = "international-$ in 2021 prices"
+                df_tables.loc[j, "unit"] = "international-$ in 2022 prices"
                 df_tables.loc[j, "shortUnit"] = "$"
                 df_tables.loc[j, "type"] = "Numeric"
                 df_tables.loc[j, "colorScaleNumericBins"] = top_pct[
@@ -473,7 +473,7 @@ for tab in range(len(tables)):
                         additional_description,
                     ]
                 )
-                df_tables.loc[j, "unit"] = "international-$ in 2021 prices"
+                df_tables.loc[j, "unit"] = "international-$ in 2022 prices"
                 df_tables.loc[j, "shortUnit"] = "$"
                 df_tables.loc[j, "type"] = "Numeric"
                 df_tables.loc[j, "colorScaleNumericBins"] = top_pct[
@@ -534,7 +534,7 @@ for tab in range(len(tables)):
             ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]}"
             df_graphers.loc[
                 j, "note"
-            ] = f"This data is measured in international-$ at 2021 prices. {welfare['note'][wel]}"
+            ] = f"This data is measured in international-$ at 2022 prices. {welfare['note'][wel]}"
             df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
             df_graphers.loc[j, "hasMapTab"] = "true"
             df_graphers.loc[j, "tab"] = "map"
@@ -561,7 +561,7 @@ for tab in range(len(tables)):
             ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]}"
             df_graphers.loc[
                 j, "note"
-            ] = f"This data is measured in international-$ at 2021 prices. {welfare['note'][wel]}"
+            ] = f"This data is measured in international-$ at 2022 prices. {welfare['note'][wel]}"
             df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
             df_graphers.loc[j, "hasMapTab"] = "true"
             df_graphers.loc[j, "tab"] = "map"
@@ -591,7 +591,7 @@ for tab in range(len(tables)):
                 ] = f"The level of {welfare['welfare_type'][wel]} per {income_aggregation['aggregation'][agg]} below which {deciles9['decile'][dec9]}0% of the population falls. {welfare['subtitle'][wel]}"
                 df_graphers.loc[
                     j, "note"
-                ] = f"This data is measured in international-$ at 2021 prices to account for inflation and differences in the cost of living between countries. {welfare['note'][wel]}"
+                ] = f"This data is measured in international-$ at 2022 prices to account for inflation and differences in the cost of living between countries. {welfare['note'][wel]}"
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
                 df_graphers.loc[j, "hasMapTab"] = "true"
                 df_graphers.loc[j, "tab"] = "map"
@@ -621,7 +621,7 @@ for tab in range(len(tables)):
                 ] = f"The mean {welfare['welfare_type'][wel]} per {income_aggregation['aggregation'][agg]} within the {deciles10['ordinal'][dec10]} (tenth of the population). {welfare['subtitle'][wel]}"
                 df_graphers.loc[
                     j, "note"
-                ] = f"This data is measured in international-$ at 2021 prices to account for inflation and differences in the cost of living between countries. {welfare['note'][wel]}"
+                ] = f"This data is measured in international-$ at 2022 prices to account for inflation and differences in the cost of living between countries. {welfare['note'][wel]}"
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
                 df_graphers.loc[j, "hasMapTab"] = "true"
                 df_graphers.loc[j, "tab"] = "map"
@@ -649,7 +649,7 @@ for tab in range(len(tables)):
                 df_graphers.loc[j, "subtitle"] = f"{welfare['subtitle'][wel]}"
                 df_graphers.loc[
                     j, "note"
-                ] = f"This data is measured in international-$ at 2021 prices to account for inflation and differences in the cost of living between countries. {welfare['note'][wel]}"
+                ] = f"This data is measured in international-$ at 2022 prices to account for inflation and differences in the cost of living between countries. {welfare['note'][wel]}"
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
                 df_graphers.loc[j, "hasMapTab"] = "true"
                 df_graphers.loc[j, "tab"] = "map"
@@ -679,7 +679,7 @@ for tab in range(len(tables)):
                 ] = f"The mean {welfare['welfare_type'][wel]} per {income_aggregation['aggregation'][agg]} within the richest {top_pct['percentage'][top]} of the population. {welfare['subtitle'][wel]}"
                 df_graphers.loc[
                     j, "note"
-                ] = f"This data is measured in international-$ at 2021 prices to account for inflation and differences in the cost of living between countries. {welfare['note'][wel]}"
+                ] = f"This data is measured in international-$ at 2022 prices to account for inflation and differences in the cost of living between countries. {welfare['note'][wel]}"
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
                 df_graphers.loc[j, "hasMapTab"] = "true"
                 df_graphers.loc[j, "tab"] = "map"
@@ -707,7 +707,7 @@ for tab in range(len(tables)):
             ] = f"The level of income per {income_aggregation['aggregation'][agg]} below which 10%, 20%, 30%, etc. of the population falls. {welfare['subtitle'][wel]}"
             df_graphers.loc[
                 j, "note"
-            ] = f"This data is measured in international-$ at 2021 prices to account for inflation and differences in the cost of living between countries. {welfare['note'][wel]}"
+            ] = f"This data is measured in international-$ at 2022 prices to account for inflation and differences in the cost of living between countries. {welfare['note'][wel]}"
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
             df_graphers.loc[j, "hasMapTab"] = "false"
             df_graphers.loc[j, "tab"] = "chart"
@@ -735,7 +735,7 @@ for tab in range(len(tables)):
             ] = f"The mean {welfare['welfare_type'][wel]} per {income_aggregation['aggregation'][agg]} within each decile (tenth of the population). {welfare['subtitle'][wel]}"
             df_graphers.loc[
                 j, "note"
-            ] = f"This data is measured in international-$ at 2021 prices to account for inflation and differences in the cost of living between countries. {welfare['note'][wel]}"
+            ] = f"This data is measured in international-$ at 2022 prices to account for inflation and differences in the cost of living between countries. {welfare['note'][wel]}"
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
             df_graphers.loc[j, "hasMapTab"] = "false"
             df_graphers.loc[j, "tab"] = "chart"
@@ -763,7 +763,7 @@ for tab in range(len(tables)):
             ] = f"The level of income per {income_aggregation['aggregation'][agg]} below which 10%, 20%, 30%, etc. of the population falls. {welfare['subtitle'][wel]}"
             df_graphers.loc[
                 j, "note"
-            ] = f"This data is measured in international-$ at 2021 prices to account for inflation and differences in the cost of living between countries. {welfare['note'][wel]}"
+            ] = f"This data is measured in international-$ at 2022 prices to account for inflation and differences in the cost of living between countries. {welfare['note'][wel]}"
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
             df_graphers.loc[j, "hasMapTab"] = "false"
             df_graphers.loc[j, "tab"] = "chart"
@@ -791,7 +791,7 @@ for tab in range(len(tables)):
             ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]}"
             df_graphers.loc[
                 j, "note"
-            ] = f"This data is measured in international-$ at 2021 prices. {welfare['note'][wel]}"
+            ] = f"This data is measured in international-$ at 2022 prices. {welfare['note'][wel]}"
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
             df_graphers.loc[j, "hasMapTab"] = "false"
             df_graphers.loc[j, "tab"] = "chart"
@@ -817,7 +817,7 @@ for tab in range(len(tables)):
         ] = f"This data is adjusted for inflation and for differences in the cost of living between countries."
         df_graphers.loc[
             j, "note"
-        ] = f"This data is measured in international-$ at 2021 prices."
+        ] = f"This data is measured in international-$ at 2022 prices."
         df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
         df_graphers.loc[j, "hasMapTab"] = "false"
         df_graphers.loc[j, "tab"] = "chart"
@@ -842,7 +842,7 @@ for tab in range(len(tables)):
         ] = f"This data is adjusted for inflation and for differences in the cost of living between countries."
         df_graphers.loc[
             j, "note"
-        ] = f"This data is measured in international-$ at 2021 prices."
+        ] = f"This data is measured in international-$ at 2022 prices."
         df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
         df_graphers.loc[j, "hasMapTab"] = "false"
         df_graphers.loc[j, "tab"] = "chart"
@@ -868,7 +868,7 @@ for tab in range(len(tables)):
             ] = f"The level of income per {income_aggregation['aggregation'][agg]} below which {deciles9['decile'][dec9]}0% of the population falls."
             df_graphers.loc[
                 j, "note"
-            ] = f"This data is measured in international-$ at 2021 prices to account for inflation and differences in the cost of living between countries."
+            ] = f"This data is measured in international-$ at 2022 prices to account for inflation and differences in the cost of living between countries."
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
             df_graphers.loc[j, "hasMapTab"] = "false"
             df_graphers.loc[j, "tab"] = "chart"
@@ -896,7 +896,7 @@ for tab in range(len(tables)):
             ] = f"The mean income per {income_aggregation['aggregation'][agg]} within the {deciles10['ordinal'][dec10]} (tenth of the population)."
             df_graphers.loc[
                 j, "note"
-            ] = f"This data is measured in international-$ at 2021 prices to account for inflation and differences in the cost of living between countries."
+            ] = f"This data is measured in international-$ at 2022 prices to account for inflation and differences in the cost of living between countries."
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
             df_graphers.loc[j, "hasMapTab"] = "false"
             df_graphers.loc[j, "tab"] = "chart"
@@ -922,7 +922,7 @@ for tab in range(len(tables)):
             df_graphers.loc[j, "subtitle"] = ""
             df_graphers.loc[
                 j, "note"
-            ] = f"This data is measured in international-$ at 2021 prices to account for inflation and differences in the cost of living between countries."
+            ] = f"This data is measured in international-$ at 2022 prices to account for inflation and differences in the cost of living between countries."
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
             df_graphers.loc[j, "hasMapTab"] = "false"
             df_graphers.loc[j, "tab"] = "chart"
@@ -950,7 +950,7 @@ for tab in range(len(tables)):
             ] = f"This is the mean income per {income_aggregation['aggregation'][agg]} within the richest {top_pct['percentage'][top]} of the population."
             df_graphers.loc[
                 j, "note"
-            ] = f"This data is measured in international-$ at 2021 prices to account for inflation and differences in the cost of living between countries."
+            ] = f"This data is measured in international-$ at 2022 prices to account for inflation and differences in the cost of living between countries."
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
             df_graphers.loc[j, "hasMapTab"] = "false"
             df_graphers.loc[j, "tab"] = "chart"
