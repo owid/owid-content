@@ -294,7 +294,9 @@ for tab in range(len(tables)):
             df_tables.loc[j, "colorScaleNumericBins"] = welfare[
                 "scale_relative_poverty"
             ][wel]
-            df_tables.loc[j, "colorScaleNumericMinValue"] = 100
+            df_tables.loc[j, "colorScaleNumericMinValue"] = welfare[
+                "min_relative_poverty"
+            ][wel]
             df_tables.loc[j, "colorScaleScheme"] = "YlOrBr"
             j += 1
 
