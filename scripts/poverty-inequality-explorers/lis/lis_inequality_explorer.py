@@ -82,7 +82,6 @@ df_header = df_header[0].apply(pd.Series)
 sourceName = "Luxembourg Income Study (2023)"
 dataPublishedBy = "Luxembourg Income Study (LIS) Database, http://www.lisdatacenter.org (multiple countries; 1967-2021). Luxembourg, LIS."
 sourceLink = "https://www.lisdatacenter.org/our-data/lis-database/"
-colorScaleNumericMinValue = 0
 tolerance = 5
 colorScaleEqualSizeBins = "true"
 new_line = "<br><br>"
@@ -143,6 +142,7 @@ for tab in range(len(tables)):
             df_tables.loc[j, "shortUnit"] = np.nan
             df_tables.loc[j, "type"] = "Numeric"
             df_tables.loc[j, "colorScaleNumericBins"] = welfare["scale_gini"][wel]
+            df_tables.loc[j, "colorScaleNumericMinValue"] = 1
             df_tables.loc[j, "colorScaleScheme"] = "Oranges"
             j += 1
 
@@ -167,6 +167,7 @@ for tab in range(len(tables)):
             df_tables.loc[j, "shortUnit"] = "%"
             df_tables.loc[j, "type"] = "Numeric"
             df_tables.loc[j, "colorScaleNumericBins"] = welfare["scale_top10"][wel]
+            df_tables.loc[j, "colorScaleNumericMinValue"] = 100
             df_tables.loc[j, "colorScaleScheme"] = "OrRd"
             j += 1
 
@@ -191,6 +192,7 @@ for tab in range(len(tables)):
             df_tables.loc[j, "shortUnit"] = "%"
             df_tables.loc[j, "type"] = "Numeric"
             df_tables.loc[j, "colorScaleNumericBins"] = welfare["scale_bottom50"][wel]
+            df_tables.loc[j, "colorScaleNumericMinValue"] = 100
             df_tables.loc[j, "colorScaleScheme"] = "Blues"
             j += 1
 
@@ -292,6 +294,7 @@ for tab in range(len(tables)):
             df_tables.loc[j, "colorScaleNumericBins"] = welfare[
                 "scale_relative_poverty"
             ][wel]
+            df_tables.loc[j, "colorScaleNumericMinValue"] = 100
             df_tables.loc[j, "colorScaleScheme"] = "YlOrBr"
             j += 1
 
@@ -300,7 +303,6 @@ for tab in range(len(tables)):
 df_tables["sourceName"] = sourceName
 df_tables["dataPublishedBy"] = dataPublishedBy
 df_tables["sourceLink"] = sourceLink
-df_tables["colorScaleNumericMinValue"] = colorScaleNumericMinValue
 df_tables["tolerance"] = tolerance
 df_tables["colorScaleEqualSizeBins"] = colorScaleEqualSizeBins
 
