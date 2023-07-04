@@ -122,7 +122,6 @@ df_header = df_header[0].apply(pd.Series)
 sourceName = "World Bank Poverty and Inequality Platform (2022)"
 dataPublishedBy = "World Bank. (2022). Poverty and Inequality Platform (version 20220909_2017_01_02_PROD) [Data set]. World Bank Group. https://pip.worldbank.org/. Accessed  2022-10-03."
 sourceLink = "https://pip.worldbank.org/"
-colorScaleNumericMinValue = 0
 tolerance = 5
 colorScaleEqualSizeBins = "true"
 new_line = "<br><br>"
@@ -180,6 +179,7 @@ for survey in range(len(pip_tables)):
     df_tables_pip.loc[
         j, "colorScaleNumericBins"
     ] = "0.25;0.3;0.35;0.4;0.45;0.5;0.55;0.6"
+    df_tables_pip.loc[j, "colorScaleNumericMinValue"] = 1
     df_tables_pip.loc[j, "colorScaleEqualSizeBins"] = "true"
     df_tables_pip.loc[j, "colorScaleScheme"] = "Oranges"
     df_tables_pip.loc[j, "tableSlug"] = pip_tables["table_name"][survey]
@@ -202,6 +202,7 @@ for survey in range(len(pip_tables)):
     df_tables_pip.loc[j, "shortUnit"] = "%"
     df_tables_pip.loc[j, "type"] = "Numeric"
     df_tables_pip.loc[j, "colorScaleNumericBins"] = "20;25;30;35;40;45;50"
+    df_tables_pip.loc[j, "colorScaleNumericMinValue"] = 100
     df_tables_pip.loc[j, "colorScaleEqualSizeBins"] = "true"
     df_tables_pip.loc[j, "colorScaleScheme"] = "OrRd"
     df_tables_pip.loc[j, "tableSlug"] = pip_tables["table_name"][survey]
@@ -224,6 +225,7 @@ for survey in range(len(pip_tables)):
     df_tables_pip.loc[j, "shortUnit"] = "%"
     df_tables_pip.loc[j, "type"] = "Numeric"
     df_tables_pip.loc[j, "colorScaleNumericBins"] = "10;15;20;25;30;35"
+    df_tables_pip.loc[j, "colorScaleNumericMinValue"] = 100
     df_tables_pip.loc[j, "colorScaleEqualSizeBins"] = "true"
     df_tables_pip.loc[j, "colorScaleScheme"] = "Blues"
     df_tables_pip.loc[j, "tableSlug"] = pip_tables["table_name"][survey]
@@ -289,6 +291,7 @@ for survey in range(len(pip_tables)):
     df_tables_pip.loc[j, "shortUnit"] = np.nan
     df_tables_pip.loc[j, "type"] = "Numeric"
     df_tables_pip.loc[j, "colorScaleNumericBins"] = "0.5;1;1.5;2;2.5;3;3.5;4;4.5;5;5.5"
+    df_tables_pip.loc[j, "colorScaleNumericMinValue"] = 0
     df_tables_pip.loc[j, "colorScaleEqualSizeBins"] = "true"
     df_tables_pip.loc[j, "colorScaleScheme"] = "YlOrBr"
     df_tables_pip.loc[j, "tableSlug"] = pip_tables["table_name"][survey]
@@ -310,6 +313,7 @@ for survey in range(len(pip_tables)):
     df_tables_pip.loc[j, "shortUnit"] = "%"
     df_tables_pip.loc[j, "type"] = "Numeric"
     df_tables_pip.loc[j, "colorScaleNumericBins"] = "3;6;9;12;15;18;21;24;27"
+    df_tables_pip.loc[j, "colorScaleNumericMinValue"] = 0
     df_tables_pip.loc[j, "colorScaleEqualSizeBins"] = "true"
     df_tables_pip.loc[j, "colorScaleScheme"] = "YlOrBr"
     df_tables_pip.loc[j, "tableSlug"] = pip_tables["table_name"][survey]
@@ -318,7 +322,6 @@ for survey in range(len(pip_tables)):
 df_tables_pip["sourceName"] = sourceName
 df_tables_pip["dataPublishedBy"] = dataPublishedBy
 df_tables_pip["sourceLink"] = sourceLink
-df_tables_pip["colorScaleNumericMinValue"] = colorScaleNumericMinValue
 df_tables_pip["tolerance"] = tolerance
 
 ###########################################################################################
@@ -330,7 +333,6 @@ df_tables_pip["tolerance"] = tolerance
 sourceName = "World Inequality Database (WID.world) (2023)"
 dataPublishedBy = "World Inequality Database (WID), https://wid.world"
 sourceLink = "https://wid.world"
-colorScaleNumericMinValue = 0
 tolerance = 5
 new_line = "<br><br>"
 
@@ -375,6 +377,7 @@ for tab in range(len(wid_tables)):
         df_tables_wid.loc[j, "shortUnit"] = np.nan
         df_tables_wid.loc[j, "type"] = "Numeric"
         df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare["scale_gini"][wel]
+        df_tables_wid.loc[j, "colorScaleNumericMinValue"] = 1
         df_tables_wid.loc[j, "colorScaleEqualSizeBins"] = "true"
         df_tables_wid.loc[j, "colorScaleScheme"] = "Oranges"
         j += 1
@@ -395,6 +398,7 @@ for tab in range(len(wid_tables)):
         df_tables_wid.loc[j, "shortUnit"] = "%"
         df_tables_wid.loc[j, "type"] = "Numeric"
         df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare["scale_top10"][wel]
+        df_tables_wid.loc[j, "colorScaleNumericMinValue"] = 100
         df_tables_wid.loc[j, "colorScaleEqualSizeBins"] = "true"
         df_tables_wid.loc[j, "colorScaleScheme"] = "OrRd"
         j += 1
@@ -415,6 +419,7 @@ for tab in range(len(wid_tables)):
         df_tables_wid.loc[j, "shortUnit"] = "%"
         df_tables_wid.loc[j, "type"] = "Numeric"
         df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare["scale_top1"][wel]
+        df_tables_wid.loc[j, "colorScaleNumericMinValue"] = 0
         df_tables_wid.loc[j, "colorScaleEqualSizeBins"] = "true"
         df_tables_wid.loc[j, "colorScaleScheme"] = "OrRd"
         j += 1
@@ -435,6 +440,7 @@ for tab in range(len(wid_tables)):
         df_tables_wid.loc[j, "shortUnit"] = "%"
         df_tables_wid.loc[j, "type"] = "Numeric"
         df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare["scale_top01"][wel]
+        df_tables_wid.loc[j, "colorScaleNumericMinValue"] = 0
         df_tables_wid.loc[j, "colorScaleEqualSizeBins"] = "true"
         df_tables_wid.loc[j, "colorScaleScheme"] = "OrRd"
         j += 1
@@ -457,6 +463,7 @@ for tab in range(len(wid_tables)):
         df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare["scale_bottom50"][
             wel
         ]
+        df_tables_wid.loc[j, "colorScaleNumericMinValue"] = 100
         df_tables_wid.loc[j, "colorScaleEqualSizeBins"] = "true"
         df_tables_wid.loc[j, "colorScaleScheme"] = "Blues"
         j += 1
@@ -567,6 +574,7 @@ for tab in range(len(wid_tables)):
         df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare[
             "scale_palma_ratio"
         ][wel]
+        df_tables_wid.loc[j, "colorScaleNumericMinValue"] = 0
         df_tables_wid.loc[j, "colorScaleEqualSizeBins"] = "true"
         df_tables_wid.loc[j, "colorScaleScheme"] = "YlOrBr"
         j += 1
@@ -576,7 +584,6 @@ for tab in range(len(wid_tables)):
 df_tables_wid["sourceName"] = sourceName
 df_tables_wid["dataPublishedBy"] = dataPublishedBy
 df_tables_wid["sourceLink"] = sourceLink
-df_tables_wid["colorScaleNumericMinValue"] = colorScaleNumericMinValue
 df_tables_wid["tolerance"] = tolerance
 
 # Keep only pretax national values for WID:
