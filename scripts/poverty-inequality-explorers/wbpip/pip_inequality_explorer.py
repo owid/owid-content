@@ -87,7 +87,7 @@ for survey in range(len(survey_type)):
     df_tables.loc[j, "shortUnit"] = np.nan
     df_tables.loc[j, "tolerance"] = 5
     df_tables.loc[j, "type"] = "Numeric"
-    df_tables.loc[j, "colorScaleNumericMinValue"] = 0
+    df_tables.loc[j, "colorScaleNumericMinValue"] = 1
     df_tables.loc[j, "colorScaleNumericBins"] = "0.25;0.3;0.35;0.4;0.45;0.5;0.55;0.6"
     df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
     df_tables.loc[j, "colorScaleScheme"] = "Oranges"
@@ -97,7 +97,7 @@ for survey in range(len(survey_type)):
     # Share of the top 10%
     df_tables.loc[
         j, "name"
-    ] = f"Share of the richest decile in total {survey_type.text[survey]}"
+    ] = f"{survey_type.text[survey].capitalize()} share of the richest 10%"
     df_tables.loc[j, "slug"] = f"decile10_share"
     df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform (2022)"
     df_tables.loc[
@@ -111,7 +111,7 @@ for survey in range(len(survey_type)):
     df_tables.loc[j, "shortUnit"] = "%"
     df_tables.loc[j, "tolerance"] = 5
     df_tables.loc[j, "type"] = "Numeric"
-    df_tables.loc[j, "colorScaleNumericMinValue"] = 0
+    df_tables.loc[j, "colorScaleNumericMinValue"] = 100
     df_tables.loc[j, "colorScaleNumericBins"] = "20;25;30;35;40;45;50"
     df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
     df_tables.loc[j, "colorScaleScheme"] = "OrRd"
