@@ -122,7 +122,6 @@ df_header = df_header[0].apply(pd.Series)
 sourceName = "World Bank Poverty and Inequality Platform (2022)"
 dataPublishedBy = "World Bank. (2022). Poverty and Inequality Platform (version 20220909_2017_01_02_PROD) [Data set]. World Bank Group. https://pip.worldbank.org/. Accessed  2022-10-03."
 sourceLink = "https://pip.worldbank.org/"
-colorScaleNumericMinValue = 0
 tolerance = 5
 colorScaleEqualSizeBins = "true"
 new_line = "<br><br>"
@@ -180,6 +179,7 @@ for survey in range(len(pip_tables)):
     df_tables_pip.loc[
         j, "colorScaleNumericBins"
     ] = "0.25;0.3;0.35;0.4;0.45;0.5;0.55;0.6"
+    df_tables_pip.loc[j, "colorScaleNumericMinValue"] = 1
     df_tables_pip.loc[j, "colorScaleEqualSizeBins"] = "true"
     df_tables_pip.loc[j, "colorScaleScheme"] = "Oranges"
     df_tables_pip.loc[j, "tableSlug"] = pip_tables["table_name"][survey]
@@ -202,6 +202,7 @@ for survey in range(len(pip_tables)):
     df_tables_pip.loc[j, "shortUnit"] = "%"
     df_tables_pip.loc[j, "type"] = "Numeric"
     df_tables_pip.loc[j, "colorScaleNumericBins"] = "20;25;30;35;40;45;50"
+    df_tables_pip.loc[j, "colorScaleNumericMinValue"] = 1
     df_tables_pip.loc[j, "colorScaleEqualSizeBins"] = "true"
     df_tables_pip.loc[j, "colorScaleScheme"] = "OrRd"
     df_tables_pip.loc[j, "tableSlug"] = pip_tables["table_name"][survey]
@@ -224,6 +225,7 @@ for survey in range(len(pip_tables)):
     df_tables_pip.loc[j, "shortUnit"] = "%"
     df_tables_pip.loc[j, "type"] = "Numeric"
     df_tables_pip.loc[j, "colorScaleNumericBins"] = "10;15;20;25;30;35"
+    df_tables_pip.loc[j, "colorScaleNumericMinValue"] = 1
     df_tables_pip.loc[j, "colorScaleEqualSizeBins"] = "true"
     df_tables_pip.loc[j, "colorScaleScheme"] = "Blues"
     df_tables_pip.loc[j, "tableSlug"] = pip_tables["table_name"][survey]
@@ -318,7 +320,6 @@ for survey in range(len(pip_tables)):
 df_tables_pip["sourceName"] = sourceName
 df_tables_pip["dataPublishedBy"] = dataPublishedBy
 df_tables_pip["sourceLink"] = sourceLink
-df_tables_pip["colorScaleNumericMinValue"] = colorScaleNumericMinValue
 df_tables_pip["tolerance"] = tolerance
 
 ###########################################################################################
