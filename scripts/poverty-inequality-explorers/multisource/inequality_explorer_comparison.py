@@ -180,7 +180,7 @@ for tab in range(len(pip_tables)):
     df_tables_pip.loc[j, "slug"] = f"gini"
     df_tables_pip.loc[j, "description"] = new_line.join(
         [
-            "The Gini coefficient measures inequality on a scale between 0 and 1, where higher values indicate greater inequality.",
+            "The Gini coefficient measures inequality on a scale from 0 to 1. Higher values indicate higher inequality.",
             additional_description,
             notes_title,
             processing_description,
@@ -351,7 +351,7 @@ for tab in range(len(merged_tables)):
         df_tables_wid.loc[j, "slug"] = f"p0p100_gini_{wid_welfare['slug'][wel]}"
         df_tables_wid.loc[j, "description"] = new_line.join(
             [
-                f"The Gini coefficient measures inequality on a scale between 0 and 1, where higher values indicate greater inequality.",
+                f"The Gini coefficient measures inequality on a scale from 0 to 1. Higher values indicate higher inequality.",
                 wid_welfare["description"][wel],
                 additional_description,
             ]
@@ -519,7 +519,7 @@ for tab in range(len(merged_tables)):
             ] = f"gini_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
             df_tables_lis.loc[j, "description"] = new_line.join(
                 [
-                    f"The Gini coefficient measures inequality on a scale between 0 and 1, where higher values indicate greater inequality.",
+                    f"The Gini coefficient measures inequality on a scale from 0 to 1. Higher values indicate higher inequality.",
                     lis_welfare["description"][wel],
                     lis_equivalence_scales["description"][eq],
                     notes_title,
@@ -750,7 +750,7 @@ for tab in range(len(merged_tables)):
         ].capitalize()
         df_graphers.loc[
             j, "subtitle"
-        ] = f"The Gini coefficient measures inequality on a scale between 0 and 1, where higher values indicate greater inequality. {datasets_description_subtitle}"
+        ] = f"The Gini coefficient measures inequality on a scale from 0 to 1. Higher values indicate higher inequality. {datasets_description_subtitle}"
         df_graphers.loc[j, "note"] = source_checkbox["note"][view]
         df_graphers.loc[j, "type"] = np.nan
         j += 1

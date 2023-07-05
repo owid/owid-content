@@ -97,7 +97,7 @@ for tab in range(len(tables)):
         df_tables.loc[j, "slug"] = f"p0p100_gini_{welfare['slug'][wel]}"
         df_tables.loc[
             j, "description"
-        ] = f"The Gini coefficient measures inequality on a scale between 0 and 1, where higher values indicate greater inequality.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]} {welfare['note'][wel]}"
+        ] = f"The Gini coefficient measures inequality on a scale from 0 to 1. Higher values indicate higher inequality.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]} {welfare['note'][wel]}"
         df_tables.loc[j, "unit"] = np.nan
         df_tables.loc[j, "shortUnit"] = np.nan
         df_tables.loc[j, "type"] = "Numeric"
@@ -299,7 +299,7 @@ for tab in range(len(tables)):
         ] = f"{welfare['dropdown_option'][wel]}"
         df_graphers.loc[
             j, "subtitle"
-        ] = f"The Gini coefficient measures inequality on a scale between 0 and 1, where higher values indicate greater inequality. {welfare['subtitle_ineq'][wel]}"
+        ] = f"The Gini coefficient measures inequality on a scale from 0 to 1. Higher values indicate higher inequality. {welfare['subtitle_ineq'][wel]}"
         df_graphers.loc[j, "note"] = f"{welfare['note'][wel]}"
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -503,7 +503,7 @@ for tab in range(len(tables)):
     df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
     df_graphers.loc[
         j, "subtitle"
-    ] = f"The Gini coefficient measures inequality on a scale between 0 and 1, where higher values indicate greater inequality."
+    ] = f"The Gini coefficient measures inequality on a scale from 0 to 1. Higher values indicate higher inequality."
     df_graphers.loc[j, "note"] = ""
     df_graphers.loc[j, "type"] = np.nan
     df_graphers.loc[j, "selectedFacetStrategy"] = "entity"

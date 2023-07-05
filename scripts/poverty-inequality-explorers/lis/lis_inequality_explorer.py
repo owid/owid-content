@@ -130,7 +130,7 @@ for tab in range(len(tables)):
             ] = f"gini_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
             df_tables.loc[j, "description"] = new_line.join(
                 [
-                    f"The Gini coefficient measures inequality on a scale between 0 and 1, where higher values indicate greater inequality.",
+                    f"The Gini coefficient measures inequality on a scale from 0 to 1. Higher values indicate higher inequality.",
                     welfare["description"][wel],
                     equivalence_scales["description"][eq],
                     notes_title,
@@ -344,7 +344,7 @@ for tab in range(len(tables)):
             ] = equivalence_scales["checkbox"][eq]
             df_graphers.loc[
                 j, "subtitle"
-            ] = f"The Gini coefficient measures inequality on a scale between 0 and 1, where higher values indicate greater inequality. {welfare['subtitle_ineq'][wel]}"
+            ] = f"The Gini coefficient measures inequality on a scale from 0 to 1. Higher values indicate higher inequality. {welfare['subtitle_ineq'][wel]}"
             df_graphers.loc[j, "note"] = equivalence_scales["note"][eq]
             df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
             df_graphers.loc[j, "hasMapTab"] = "true"
@@ -531,7 +531,7 @@ for tab in range(len(tables)):
         ] = equivalence_scales["checkbox"][eq]
         df_graphers.loc[
             j, "subtitle"
-        ] = f"The Gini coefficient measures inequality on a scale between 0 and 1, where higher values indicate greater inequality."
+        ] = f"The Gini coefficient measures inequality on a scale from 0 to 1. Higher values indicate higher inequality."
         df_graphers.loc[j, "note"] = equivalence_scales["note"][eq]
         df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
         df_graphers.loc[j, "hasMapTab"] = "false"
