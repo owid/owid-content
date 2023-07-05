@@ -224,7 +224,7 @@ for survey in range(len(pip_tables)):
     df_tables_pip.loc[j, "unit"] = "%"
     df_tables_pip.loc[j, "shortUnit"] = "%"
     df_tables_pip.loc[j, "type"] = "Numeric"
-    df_tables_pip.loc[j, "colorScaleNumericBins"] = "10;15;20;25;30;35"
+    df_tables_pip.loc[j, "colorScaleNumericBins"] = "15;20;25;30;35"
     df_tables_pip.loc[j, "colorScaleNumericMinValue"] = 100
     df_tables_pip.loc[j, "colorScaleEqualSizeBins"] = "true"
     df_tables_pip.loc[j, "colorScaleScheme"] = "Blues"
