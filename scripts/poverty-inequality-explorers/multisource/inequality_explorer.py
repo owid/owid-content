@@ -128,7 +128,7 @@ new_line = "<br><br>"
 
 additional_description = new_line.join(
     [
-        "Depending on the country and year, the data relates to income measured after taxes and benefits or consumption per capita. 'Per capita' means that the incomes of each household are attributed equally to each member of the household (including children).",
+        "Depending on the country and year, the data relates to income measured after taxes and benefits, or consumption, per capita. 'Per capita' means that the incomes of each household are attributed equally to each member of the household (including children).",
         "Non-market sources of income, including food grown by subsistence farmers for their own consumption, are taken into account.",
     ]
 )
@@ -1023,7 +1023,7 @@ for survey in range(len(pip_tables)):
     df_graphers_pip.loc[j, "tableSlug"] = f"{pip_tables.table_name[survey]}"
     df_graphers_pip.loc[
         j, "subtitle"
-    ] = f"The Gini coefficient measures inequality on a scale between 0 and 1, where higher values indicate greater inequality. Depending on the country and year, the data relates to income measured after taxes and benefits or consumption per capita."
+    ] = f"The Gini coefficient measures inequality on a scale between 0 and 1, where higher values indicate greater inequality. Depending on the country and year, the data relates to income measured after taxes and benefits, or consumption, per capita."
     df_graphers_pip.loc[j, "note"] = ""
     df_graphers_pip.loc[j, "type"] = np.nan
     df_graphers_pip.loc[j, "selectedFacetStrategy"] = np.nan
@@ -1046,7 +1046,7 @@ for survey in range(len(pip_tables)):
     ] = f"The share of after tax income or consumption received by the richest 10% of the population."
     df_graphers_pip.loc[
         j, "note"
-    ] = f"Depending on the country and year, the data relates to income measured after taxes and benefits or consumption per capita."
+    ] = f"Depending on the country and year, the data relates to income measured after taxes and benefits, or consumption, per capita."
     df_graphers_pip.loc[j, "type"] = np.nan
     df_graphers_pip.loc[j, "selectedFacetStrategy"] = np.nan
     df_graphers_pip.loc[j, "hasMapTab"] = "true"
@@ -1068,7 +1068,7 @@ for survey in range(len(pip_tables)):
     ] = f"The share of after tax income or consumption received by the poorest 50% of the population."
     df_graphers_pip.loc[
         j, "note"
-    ] = f"Depending on the country and year, the data relates to income measured after taxes and benefits or consumption per capita."
+    ] = f"Depending on the country and year, the data relates to income measured after taxes and benefits, or consumption, per capita."
     df_graphers_pip.loc[j, "type"] = np.nan
     df_graphers_pip.loc[j, "selectedFacetStrategy"] = np.nan
     df_graphers_pip.loc[j, "hasMapTab"] = "true"
@@ -1148,7 +1148,7 @@ for survey in range(len(pip_tables)):
     ] = f"The share of after tax income or consumption received by the richest 10% divided by the share of the poorest 40%. Higher values indicate more inequality."
     df_graphers_pip.loc[
         j, "note"
-    ] = f"Depending on the country and year, the data relates to income measured after taxes and benefits or consumption per capita."
+    ] = f"Depending on the country and year, the data relates to income measured after taxes and benefits, or consumption, per capita."
     df_graphers_pip.loc[j, "type"] = np.nan
     df_graphers_pip.loc[j, "selectedFacetStrategy"] = np.nan
     df_graphers_pip.loc[j, "hasMapTab"] = "true"
@@ -1168,7 +1168,7 @@ for survey in range(len(pip_tables)):
     ] = f"The share of population with after tax income or consumption below 50% of the median. Relative poverty reflects the extent of inequality within the bottom of the distribution."
     df_graphers_pip.loc[
         j, "note"
-    ] = f"Depending on the country and year, the data relates to income measured after taxes and benefits or consumption per capita."
+    ] = f"Depending on the country and year, the data relates to income measured after taxes and benefits, or consumption, per capita."
     df_graphers_pip.loc[j, "type"] = np.nan
     df_graphers_pip.loc[j, "selectedFacetStrategy"] = np.nan
     df_graphers_pip.loc[j, "hasMapTab"] = "true"

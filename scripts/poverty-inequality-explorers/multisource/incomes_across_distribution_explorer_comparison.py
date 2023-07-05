@@ -205,7 +205,7 @@ new_line = "<br><br>"
 
 additional_description = new_line.join(
     [
-        "Depending on the country and year, the data relates to income measured after taxes and benefits or consumption per capita.",
+        "Depending on the country and year, the data relates to income measured after taxes and benefits, or consumption, per capita.",
         "Non-market sources of income, including food grown by subsistence farmers for their own consumption, are taken into account.",
     ]
 )
