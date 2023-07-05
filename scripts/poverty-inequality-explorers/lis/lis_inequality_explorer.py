@@ -254,7 +254,7 @@ for tab in range(len(tables)):
             ] = f"palma_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
             df_tables.loc[j, "description"] = new_line.join(
                 [
-                    f"The share of {welfare['welfare_type'][wel]} received by the richest 10% divided by the share of the poorest 40%. Higher values indicate more inequality.",
+                    f"The Palma ratio is a measure of inequality that divides the share received by the richest 10% by the share of the poorest 40%. Higher values indicate higher inequality.",
                     welfare["description"][wel],
                     equivalence_scales["description"][eq],
                     notes_title,
@@ -486,7 +486,7 @@ for tab in range(len(tables)):
             ] = equivalence_scales["checkbox"][eq]
             df_graphers.loc[
                 j, "subtitle"
-            ] = f"The share of {welfare['welfare_type'][wel]} received by the richest 10% divided by the share of the poorest 40%. Higher values indicate more inequality. {welfare['subtitle'][wel]}"
+            ] = f"The Palma ratio is a measure of inequality that divides the share received by the richest 10% by the share of the poorest 40%. Higher values indicate higher inequality. {welfare['subtitle_ineq'][wel]}"
             df_graphers.loc[j, "note"] = equivalence_scales["note"][eq]
             df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
             df_graphers.loc[j, "hasMapTab"] = "true"
@@ -658,7 +658,7 @@ for tab in range(len(tables)):
         ] = equivalence_scales["checkbox"][eq]
         df_graphers.loc[
             j, "subtitle"
-        ] = f"The share of income received by the richest 10% divided by the share of the poorest 40%. Higher values indicate more inequality."
+        ] = f"The Palma ratio is a measure of inequality that divides the share received by the richest 10% by the share of the poorest 40%. Higher values indicate higher inequality."
         df_graphers.loc[j, "note"] = equivalence_scales["note"][eq]
         df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
         df_graphers.loc[j, "hasMapTab"] = "false"

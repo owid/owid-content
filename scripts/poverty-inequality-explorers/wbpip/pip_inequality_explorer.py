@@ -190,7 +190,7 @@ for survey in range(len(survey_type)):
     df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform (2022)"
     df_tables.loc[
         j, "description"
-    ] = f"The share of {survey_type.text_ineq[survey]} received by the richest 10% divided by the share of the poorest 40%. Higher values indicate more inequality."
+    ] = f"The Palma ratio is a measure of inequality that divides the share received by the richest 10% by the share of the poorest 40%. Higher values indicate higher inequality."
     df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
     df_tables.loc[
         j, "dataPublishedBy"
@@ -471,10 +471,8 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
     df_graphers.loc[
         j, "subtitle"
-    ] = f"The share of {survey_type.text_ineq[survey]} received by the richest 10% divided by the share of the poorest 40%. Higher values indicate more inequality."
-    df_graphers.loc[
-        j, "note"
-    ] = f"Depending on the country and year, the data relates to {survey_type.detailed_text[survey]} per capita."
+    ] = f"The Palma ratio is a measure of inequality that divides the share received by the richest 10% by the share of the poorest 40%. Higher values indicate higher inequality. Depending on the country and year, the data relates to {survey_type.detailed_text[survey]} per capita."
+    df_graphers.loc[j, "note"] = ""
     df_graphers.loc[j, "type"] = np.nan
     df_graphers.loc[j, "yAxisMin"] = 0
     df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -634,7 +632,7 @@ df_graphers["note"] = df_graphers["note"].str.replace(
     regex=False,
 )
 
-# For Gini subtitle:
+# For Gini/Palma subtitle:
 df_graphers["subtitle"] = df_graphers["subtitle"].str.replace(
     "Depending on the country and year, the data relates to income measured after taxes and benefits per capita.",
     "The data relates to income measured after taxes and benefits per capita.",

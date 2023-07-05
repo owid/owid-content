@@ -279,7 +279,7 @@ for tab in range(len(pip_tables)):
     df_tables_pip.loc[j, "slug"] = f"palma_ratio"
     df_tables_pip.loc[j, "description"] = new_line.join(
         [
-            f"The share of after tax income or consumption received by the richest 10% divided by the share of the poorest 40%. Higher values indicate more inequality.",
+            f"The Palma ratio is a measure of inequality that divides the share received by the richest 10% by the share of the poorest 40%. Higher values indicate higher inequality.",
             additional_description,
             notes_title,
             processing_description,
@@ -453,7 +453,7 @@ for tab in range(len(merged_tables)):
         df_tables_wid.loc[j, "slug"] = f"palma_ratio_{wid_welfare['slug'][wel]}"
         df_tables_wid.loc[j, "description"] = new_line.join(
             [
-                f"The share of income received by the richest 10% divided by the share of the poorest 40%. Higher values indicate more inequality.",
+                f"The Palma ratio is a measure of inequality that divides the share received by the richest 10% by the share of the poorest 40%. Higher values indicate higher inequality.",
                 wid_welfare["description"][wel],
                 additional_description,
             ]
@@ -652,7 +652,7 @@ for tab in range(len(merged_tables)):
             ] = f"palma_ratio_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
             df_tables_lis.loc[j, "description"] = new_line.join(
                 [
-                    f"The share of {lis_welfare['welfare_type'][wel]} received by the richest 10% divided by the share of the poorest 40%. Higher values indicate more inequality.",
+                    f"The Palma ratio is a measure of inequality that divides the share received by the richest 10% by the share of the poorest 40%. Higher values indicate higher inequality.",
                     lis_welfare["description"][wel],
                     lis_equivalence_scales["description"][eq],
                     notes_title,
@@ -845,7 +845,7 @@ for tab in range(len(merged_tables)):
         ].capitalize()
         df_graphers.loc[
             j, "subtitle"
-        ] = f"The share of income received by the richest 10% divided by the share of the poorest 40%. Higher values indicate more inequality. {datasets_description_subtitle}"
+        ] = f"The Palma ratio is a measure of inequality that divides the share received by the richest 10% by the share of the poorest 40%. Higher values indicate higher inequality. {datasets_description_subtitle}"
         df_graphers.loc[j, "note"] = source_checkbox["note"][view]
         df_graphers.loc[j, "type"] = np.nan
         j += 1
