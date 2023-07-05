@@ -261,7 +261,7 @@ for tab in range(len(tables)):
         df_tables.loc[j, "colorScaleNumericBins"] = welfare["scale_palma_ratio"][wel]
         df_tables.loc[j, "colorScaleNumericMinValue"] = 0
         df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
-        df_tables.loc[j, "colorScaleScheme"] = "Oranges"
+        df_tables.loc[j, "colorScaleScheme"] = "YlOrBr"
         j += 1
 
     df_tables["tableSlug"] = tables["name"][tab]
