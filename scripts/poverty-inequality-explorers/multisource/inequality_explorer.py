@@ -281,7 +281,7 @@ for survey in range(len(pip_tables)):
     df_tables_pip.loc[j, "slug"] = f"palma_ratio"
     df_tables_pip.loc[j, "description"] = new_line.join(
         [
-            f"The share of after tax income or consumption received by the richest 10% divided by the share of the poorest 40%.",
+            f"The share of after tax income or consumption received by the richest 10% divided by the share of the poorest 40%. Higher values indicate more inequality.",
             additional_description,
             notes_title,
             processing_description,
@@ -563,7 +563,7 @@ for tab in range(len(wid_tables)):
         df_tables_wid.loc[j, "slug"] = f"palma_ratio_{wid_welfare['slug'][wel]}"
         df_tables_wid.loc[j, "description"] = new_line.join(
             [
-                f"The share of income received by the richest 10% divided by the share of the poorest 40%.",
+                f"The share of income received by the richest 10% divided by the share of the poorest 40%. Higher values indicate more inequality.",
                 wid_welfare["description"][wel],
                 additional_description,
             ]
@@ -982,7 +982,7 @@ for tab in range(len(wid_tables)):
         df_graphers_wid.loc[j, "Indicator Dropdown"] = "Palma ratio"
         df_graphers_wid.loc[
             j, "subtitle"
-        ] = f"The share of income received by the richest 10% divided by the share of the poorest 40%. {wid_welfare['subtitle'][wel]}"
+        ] = f"The share of income received by the richest 10% divided by the share of the poorest 40%. Higher values indicate more inequality. {wid_welfare['subtitle'][wel]}"
         df_graphers_wid.loc[j, "note"] = wid_welfare["note"][wel]
         df_graphers_wid.loc[j, "type"] = np.nan
         df_graphers_wid.loc[j, "selectedFacetStrategy"] = np.nan
@@ -1145,7 +1145,7 @@ for survey in range(len(pip_tables)):
     df_graphers_pip.loc[j, "tableSlug"] = f"{pip_tables.table_name[survey]}"
     df_graphers_pip.loc[
         j, "subtitle"
-    ] = f"The share of after tax income or consumption received by the richest 10% divided by the share of the poorest 40%."
+    ] = f"The share of after tax income or consumption received by the richest 10% divided by the share of the poorest 40%. Higher values indicate more inequality."
     df_graphers_pip.loc[
         j, "note"
     ] = f"Depending on the country and year, the data relates to income measured after taxes and benefits or consumption per capita."

@@ -254,7 +254,7 @@ for tab in range(len(tables)):
         df_tables.loc[j, "slug"] = f"palma_ratio_{welfare['slug'][wel]}"
         df_tables.loc[
             j, "description"
-        ] = f"The Palma ratio is a measure of inequality: it is the share of total {welfare['welfare_type'][wel]} of the top 10% divided by the share of the bottom 40%.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]} {welfare['note'][wel]}"
+        ] = f"The share of {welfare['welfare_type'][wel]} received by the richest 10% divided by the share of the poorest 40%. Higher values indicate more inequality.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]} {welfare['note'][wel]}"
         df_tables.loc[j, "unit"] = np.nan
         df_tables.loc[j, "shortUnit"] = np.nan
         df_tables.loc[j, "type"] = "Numeric"
@@ -487,7 +487,7 @@ for tab in range(len(tables)):
         ] = f"{welfare['dropdown_option'][wel]}"
         df_graphers.loc[
             j, "subtitle"
-        ] = f"The share of {welfare['welfare_type'][wel]} received by the richest 10% divided by the share of the poorest 40%. {welfare['subtitle'][wel]}"
+        ] = f"The share of {welfare['welfare_type'][wel]} received by the richest 10% divided by the share of the poorest 40%. Higher values indicate more inequality. {welfare['subtitle'][wel]}"
         df_graphers.loc[j, "note"] = f"{welfare['note'][wel]}"
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -658,7 +658,7 @@ for tab in range(len(tables)):
     df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
     df_graphers.loc[
         j, "subtitle"
-    ] = f"The share of income received by the richest 10% divided by the share of the poorest 40%."
+    ] = f"The share of income received by the richest 10% divided by the share of the poorest 40%. Higher values indicate more inequality."
     df_graphers.loc[j, "note"] = ""
     df_graphers.loc[j, "type"] = np.nan
     df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
