@@ -72,7 +72,7 @@ header_dict = {
     "explorerSubtitle": "",
     "isPublished": "true",
     "googleSheet": f"https://docs.google.com/spreadsheets/d/{sheet_id}",
-    "wpBlockId": "",
+    "wpBlockId": "57750",
     "entityType": "country or region",
     "pickerColumnSlugs": "p0p100_avg_pretax_year p0p100_avg_posttax_nat_year median_pretax_year median_posttax_nat_year",
 }

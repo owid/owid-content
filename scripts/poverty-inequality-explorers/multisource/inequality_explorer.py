@@ -98,7 +98,7 @@ header_dict = {
     "explorerSubtitle": "",
     "isPublished": "true",
     "googleSheet": "",
-    "wpBlockId": "",
+    "wpBlockId": "57760",
     "entityType": "country or region",
     "pickerColumnSlugs": "gini decile10_share palma_ratio headcount_ratio_50_median p0p100_gini_pretax p90p100_share_pretax palma_ratio_pretax",
 }

@@ -77,7 +77,7 @@ header_dict = {
     "explorerSubtitle": "",
     "isPublished": "true",
     "googleSheet": f"https://docs.google.com/spreadsheets/d/{sheet_id}",
-    "wpBlockId": "",
+    "wpBlockId": "57755",
     "entityType": "country or region",
     "pickerColumnSlugs": "mean_mi_eq_year median_mi_eq_year mean_dhi_eq_year median_dhi_eq_year",
 }

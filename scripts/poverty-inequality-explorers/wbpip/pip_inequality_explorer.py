@@ -50,7 +50,7 @@ header_dict = {
     "explorerSubtitle": "",
     "isPublished": "true",
     "googleSheet": f"https://docs.google.com/spreadsheets/d/{sheet_id}",
-    "wpBlockId": "52633",
+    "wpBlockId": "57756",
     "entityType": "country or region",
     "pickerColumnSlugs": "gini decile10_share palma_ratio headcount_ratio_50_median",
 }

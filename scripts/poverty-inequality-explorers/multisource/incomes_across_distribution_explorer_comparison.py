@@ -173,7 +173,7 @@ header_dict = {
     "explorerSubtitle": "",
     "isPublished": "true",
     "googleSheet": "",
-    "wpBlockId": "",
+    "wpBlockId": "57742",
     "entityType": "country or region",
     "pickerColumnSlugs": "mean_year median_year p0p100_avg_posttax_nat_year median_posttax_nat_year mean_dhi_pc_year median_dhi_pc_year",
 }

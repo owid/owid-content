@@ -60,7 +60,7 @@ header_dict = {
     "explorerSubtitle": "<i><a href='https://github.com/owid/poverty-data'>Download Poverty data on GitHub</a></i>",
     "isPublished": "true",
     "googleSheet": f"https://docs.google.com/spreadsheets/d/{sheet_id}",
-    "wpBlockId": "52633",
+    "wpBlockId": "57756",
     "entityType": "country or region",
 }
 
