@@ -1,0 +1,15 @@
+explorerTitle	Sample indicator-based explorer
+selection	World
+
+graphers
+	Example Charts Radio	Doubled Checkbox	yVariableIds	xVariableId	sizeVariableId	type	timelineMinTime	timelineMaxTime	stackMode	title	ySlugs
+	Life expectancy	false	539022
+	Life expectancy vs GDP per capita	false	539022	446390	525709	ScatterPlot	2020	2020
+	Women in parliament	false	576672 576673 576674 576675 576676 576677			StackedArea			relative	Share of countries by women in parliament
+	Life expectancy	true									life_expectancy_doubled
+columns
+	variableId	name	slug	transform	type	unit	shortUnit
+	539022	Life expectancy
+	576672	No women
+	576673	Less than 10% women
+		Life expectancy (doubled)	life_expectancy_doubled	multiplyBy 539022 2	Numeric	years	years
