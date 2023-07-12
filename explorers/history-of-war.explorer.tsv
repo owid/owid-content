@@ -9,9 +9,9 @@ subNavId
 subNavCurrentId	democracy-data
 
 graphers
-	yVariableIds	Dataset Dropdown	Metric Dropdown	Estimate Radio
-	737193	UCDP	Ongoing conflicts
-	737195	UCDP	New Conflicts
-	737192	UCDP	Fatalities	Low
-	737191	UCDP	Fatalities	Best
-	737194	UCDP	Fatalities	High
+	yVariableIds	Dataset Dropdown	Metric Dropdown	Estimate Radio	type
+	737193	UCDP	Ongoing conflicts		LineChart
+	737195	UCDP	New Conflicts		LineChart
+	737192	UCDP	Fatalities in ongoing conflicts	Low	LineChart
+	737191	UCDP	Fatalities in ongoing conflicts	Best	LineChart
+	737194	UCDP	Fatalities in ongoing conflicts	High	LineChart
