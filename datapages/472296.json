@@ -12,7 +12,7 @@
         },
         {
             "title": "Economic Inequality",
-            "url": "https://ourworldindata.org/income-inequality"
+            "url": "https://ourworldindata.org/economic-inequality"
         }
     ],
     "variantSource": "World Bank, PIP",
@@ -66,7 +66,7 @@
             "content": "See another common metric of inequality from the same source.",
             "featured": true
         },
- 
+
         {
             "title": "Share of population below 60% of median income or consumption",
             "url": "https://ourworldindata.org/grapher/relative-poverty-share-of-people-below-60-of-the-median",
