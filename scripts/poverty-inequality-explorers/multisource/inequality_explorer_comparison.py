@@ -108,10 +108,10 @@ header_dict = {
         "France",
         "China",
     ],
-    "explorerSubtitle": "57742",
+    "explorerSubtitle": "",
     "isPublished": "true",
     "googleSheet": "",
-    "wpBlockId": "",
+    "wpBlockId": "57742",
     "entityType": "country or region",
     "pickerColumnSlugs": "gini decile10_share palma_ratio headcount_ratio_50_median p0p100_gini_posttax_nat p90p100_share_posttax_nat palma_ratio_posttax_nat gini_dhi_pc share_p100_dhi_pc palma_ratio_dhi_pc headcount_ratio_50_median_dhi_pc",
 }
