@@ -6,7 +6,7 @@ explorerSubtitle	Explore the history of conflicts in the world in the last years
 selection	World
 
 subNavId
-subNavCurrentId	democracy-data
+subNavCurrentId	conflict-data
 
 graphers
 	yVariableIds	Dataset Dropdown	Metric Dropdown	Conflict type Dropdown	Estimate Radio	type
