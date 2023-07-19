@@ -67,6 +67,23 @@ df_header = df_header[0].apply(pd.Series)
 # These variables consider a continous series, without breaks due to changes in surveys' methodology
 
 # %%
+new_line = "<br><br>"
+
+additional_description = new_line.join(
+    [
+        "Non-market sources of income, including food grown by subsistence farmers for their own consumption, are taken into account.",
+    ]
+)
+
+notes_title = "NOTES ON HOW WE PROCESSED THIS INDICATOR"
+
+processing_description = new_line.join(
+    [
+        "For a small number of country-year observations, the World Bank PIP data contains two estimates: one based on income data and one based on consumption data. In these cases we keep only the consumption estimate in order to obtain a single series for each country.",
+        "You can find the data with all available income and consumption data points, including these overlapping estimates, in our <a href='https://github.com/owid/poverty-data#a-global-dataset-of-poverty-and-inequality-measures-prepared-by-our-world-in-data-from-the-world-banks-poverty-and-inequality-platform-pip-database'>complete dataset</a> of the World Bank PIP data.",
+    ]
+)
+
 # Table generation
 df_tables = pd.DataFrame()
 j = 0
@@ -76,9 +93,15 @@ for survey in range(len(survey_type)):
     df_tables.loc[j, "name"] = f"Gini coefficient"
     df_tables.loc[j, "slug"] = f"gini"
     df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform (2022)"
-    df_tables.loc[
-        j, "description"
-    ] = f"The Gini coefficient measures inequality on a scale from 0 to 1. Higher values indicate higher inequality."
+    df_tables.loc[j, "description"] = new_line.join(
+        [
+            f"The Gini coefficient measures inequality on a scale from 0 to 1. Higher values indicate higher inequality.",
+            survey_type.description[survey],
+            additional_description,
+            notes_title,
+            processing_description,
+        ]
+    )
     df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
     df_tables.loc[
         j, "dataPublishedBy"
@@ -100,9 +123,15 @@ for survey in range(len(survey_type)):
     ] = f"{survey_type.text[survey].capitalize()} share of the richest 10%"
     df_tables.loc[j, "slug"] = f"decile10_share"
     df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform (2022)"
-    df_tables.loc[
-        j, "description"
-    ] = f"The {survey_type.text[survey]} of the richest decile (tenth of the population) as a share of total {survey_type.text[survey]}."
+    df_tables.loc[j, "description"] = new_line.join(
+        [
+            f"The {survey_type.text[survey]} of the richest decile (tenth of the population) as a share of total {survey_type.text[survey]}.",
+            survey_type.description[survey],
+            additional_description,
+            notes_title,
+            processing_description,
+        ]
+    )
     df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
     df_tables.loc[
         j, "dataPublishedBy"
@@ -188,9 +217,15 @@ for survey in range(len(survey_type)):
     df_tables.loc[j, "name"] = f"Palma ratio"
     df_tables.loc[j, "slug"] = f"palma_ratio"
     df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform (2022)"
-    df_tables.loc[
-        j, "description"
-    ] = f"The Palma ratio is a measure of inequality that divides the share received by the richest 10% by the share of the poorest 40%. Higher values indicate higher inequality."
+    df_tables.loc[j, "description"] = new_line.join(
+        [
+            f"The Palma ratio is a measure of inequality that divides the share received by the richest 10% by the share of the poorest 40%. Higher values indicate higher inequality.",
+            survey_type.description[survey],
+            additional_description,
+            notes_title,
+            processing_description,
+        ]
+    )
     df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
     df_tables.loc[
         j, "dataPublishedBy"
@@ -210,9 +245,15 @@ for survey in range(len(survey_type)):
     df_tables.loc[j, "name"] = f"Share in relative poverty"
     df_tables.loc[j, "slug"] = f"headcount_ratio_50_median"
     df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform (2022)"
-    df_tables.loc[
-        j, "description"
-    ] = f"% of population living in households with an {survey_type.text[survey]} per person below 50% of the median."
+    df_tables.loc[j, "description"] = new_line.join(
+        [
+            f"% of population living in households with an {survey_type.text[survey]} per person below 50% of the median.",
+            survey_type.description[survey],
+            additional_description,
+            notes_title,
+            processing_description,
+        ]
+    )
     df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
     df_tables.loc[
         j, "dataPublishedBy"
@@ -232,9 +273,15 @@ for survey in range(len(survey_type)):
     df_tables.loc[j, "name"] = f"Mean Log Deviation"
     df_tables.loc[j, "slug"] = f"mld"
     df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform (2022)"
-    df_tables.loc[
-        j, "description"
-    ] = f"The mean log deviation (MLD) is a measure of inequality. An MLD of zero indicates perfect equality and it takes on larger positive values as incomes become more unequal. The measure is also referred to as 'Theil L' or 'GE(0)', in reference to the wider families of inequality measures to which the MLD belongs."
+    df_tables.loc[j, "description"] = new_line.join(
+        [
+            f"The mean log deviation (MLD) is a measure of inequality. An MLD of zero indicates perfect equality and it takes on larger positive values as incomes become more unequal. The measure is also referred to as 'Theil L' or 'GE(0)', in reference to the wider families of inequality measures to which the MLD belongs.",
+            survey_type.description[survey],
+            additional_description,
+            notes_title,
+            processing_description,
+        ]
+    )
     df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
     df_tables.loc[
         j, "dataPublishedBy"

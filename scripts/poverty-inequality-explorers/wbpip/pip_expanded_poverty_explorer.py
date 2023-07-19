@@ -65,6 +65,24 @@ df_header = df_header[0].apply(pd.Series)
 # These variables consider a continous series, without breaks due to changes in surveys' methodology
 
 # %%
+new_line = "<br><br>"
+
+additional_description = new_line.join(
+    [
+        "Non-market sources of income, including food grown by subsistence farmers for their own consumption, are taken into account.",
+    ]
+)
+
+notes_title = "NOTES ON HOW WE PROCESSED THIS INDICATOR"
+
+processing_description = new_line.join(
+    [
+        "For a small number of country-year observations, the World Bank PIP data contains two estimates: one based on income data and one based on consumption data. In these cases we keep only the consumption estimate in order to obtain a single series for each country.",
+        "You can find the data with all available income and consumption data points, including these overlapping estimates, in our <a href='https://github.com/owid/poverty-data#a-global-dataset-of-poverty-and-inequality-measures-prepared-by-our-world-in-data-from-the-world-banks-poverty-and-inequality-platform-pip-database'>complete dataset</a> of the World Bank PIP data.",
+    ]
+)
+ppp_description = "The data is measured in international-$ at 2017 prices – this adjusts for inflation and for differences in the cost of living between countries."
+
 # Table generation
 df_tables = pd.DataFrame()
 j = 0
@@ -77,9 +95,16 @@ for survey in range(len(survey_type)):
         df_tables.loc[
             j, "sourceName"
         ] = "World Bank Poverty and Inequality Platform (2022)"
-        df_tables.loc[
-            j, "description"
-        ] = f"% of population living in households with an {survey_type.text[survey]} per person below ${povlines_abs.dollars_text[p]} a day."
+        df_tables.loc[j, "description"] = new_line.join(
+            [
+                f"% of population living in households with an {survey_type.text[survey]} per person below ${povlines_abs.dollars_text[p]} a day.",
+                ppp_description,
+                survey_type.description[survey],
+                additional_description,
+                notes_title,
+                processing_description,
+            ]
+        )
         df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
         df_tables.loc[
             j, "dataPublishedBy"
@@ -102,9 +127,16 @@ for survey in range(len(survey_type)):
         df_tables.loc[
             j, "sourceName"
         ] = "World Bank Poverty and Inequality Platform (2022)"
-        df_tables.loc[
-            j, "description"
-        ] = f"Number of people living in households with an {survey_type.text[survey]} per person below ${povlines_abs.dollars_text[p]} a day."
+        df_tables.loc[j, "description"] = new_line.join(
+            [
+                f"Number of people living in households with an {survey_type.text[survey]} per person below ${povlines_abs.dollars_text[p]} a day.",
+                ppp_description,
+                survey_type.description[survey],
+                additional_description,
+                notes_title,
+                processing_description,
+            ]
+        )
         df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
         df_tables.loc[
             j, "dataPublishedBy"
@@ -131,9 +163,16 @@ for survey in range(len(survey_type)):
         df_tables.loc[
             j, "sourceName"
         ] = "World Bank Poverty and Inequality Platform (2022)"
-        df_tables.loc[
-            j, "description"
-        ] = f"The total shortfall from a poverty line of ${povlines_abs.dollars_text[p]} a day. This is the amount of money that would be theoretically needed to lift the {survey_type.text[survey]} of all people in poverty up to the poverty line. However this is not a measure of the actual cost of eliminating poverty, since it does not take into account the costs involved in making the necessary transfers nor any changes in behaviour they would bring about."
+        df_tables.loc[j, "description"] = new_line.join(
+            [
+                f"The total shortfall from a poverty line of ${povlines_abs.dollars_text[p]} a day. This is the amount of money that would be theoretically needed to lift the {survey_type.text[survey]} of all people in poverty up to the poverty line. However this is not a measure of the actual cost of eliminating poverty, since it does not take into account the costs involved in making the necessary transfers nor any changes in behaviour they would bring about.",
+                ppp_description,
+                survey_type.description[survey],
+                additional_description,
+                notes_title,
+                processing_description,
+            ]
+        )
         df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
         df_tables.loc[
             j, "dataPublishedBy"
@@ -160,9 +199,16 @@ for survey in range(len(survey_type)):
         df_tables.loc[
             j, "sourceName"
         ] = "World Bank Poverty and Inequality Platform (2022)"
-        df_tables.loc[
-            j, "description"
-        ] = f"The total shortfall from a poverty line of ${povlines_abs.dollars_text[p]} a day. This is the amount of money that would be theoretically needed to lift the {survey_type.text[survey]} of all people in poverty up to the poverty line. However this is not a measure of the actual cost of eliminating poverty, since it does not take into account the costs involved in making the necessary transfers nor any changes in behaviour they would bring about."
+        df_tables.loc[j, "description"] = new_line.join(
+            [
+                f"The total shortfall from a poverty line of ${povlines_abs.dollars_text[p]} a day. This is the amount of money that would be theoretically needed to lift the {survey_type.text[survey]} of all people in poverty up to the poverty line. However this is not a measure of the actual cost of eliminating poverty, since it does not take into account the costs involved in making the necessary transfers nor any changes in behaviour they would bring about.",
+                ppp_description,
+                survey_type.description[survey],
+                additional_description,
+                notes_title,
+                processing_description,
+            ]
+        )
         df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
         df_tables.loc[
             j, "dataPublishedBy"
@@ -192,9 +238,16 @@ for survey in range(len(survey_type)):
         df_tables.loc[
             j, "sourceName"
         ] = "World Bank Poverty and Inequality Platform (2022)"
-        df_tables.loc[
-            j, "description"
-        ] = f"The average shortfall from a poverty line of ${povlines_abs.dollars_text[p]} a day (averaged across the population in poverty)."
+        df_tables.loc[j, "description"] = new_line.join(
+            [
+                f"The average shortfall from a poverty line of ${povlines_abs.dollars_text[p]} a day (averaged across the population in poverty).",
+                ppp_description,
+                survey_type.description[survey],
+                additional_description,
+                notes_title,
+                processing_description,
+            ]
+        )
         df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
         df_tables.loc[
             j, "dataPublishedBy"
@@ -219,9 +272,16 @@ for survey in range(len(survey_type)):
         df_tables.loc[
             j, "sourceName"
         ] = "World Bank Poverty and Inequality Platform (2022)"
-        df_tables.loc[
-            j, "description"
-        ] = f'The average shortfall from a poverty line of ${povlines_abs.dollars_text[p]} a day (averaged across the population in poverty) expressed as a share of the poverty line. This metric is sometimes called the "income gap ratio". It captures the depth of poverty of those living on less than the poverty line.'
+        df_tables.loc[j, "description"] = new_line.join(
+            [
+                f'The average shortfall from a poverty line of ${povlines_abs.dollars_text[p]} a day (averaged across the population in poverty) expressed as a share of the poverty line. This metric is sometimes called the "income gap ratio". It captures the depth of poverty of those living on less than the poverty line.',
+                ppp_description,
+                survey_type.description[survey],
+                additional_description,
+                notes_title,
+                processing_description,
+            ]
+        )
         df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
         df_tables.loc[
             j, "dataPublishedBy"
@@ -246,9 +306,16 @@ for survey in range(len(survey_type)):
         df_tables.loc[
             j, "sourceName"
         ] = "World Bank Poverty and Inequality Platform (2022)"
-        df_tables.loc[
-            j, "description"
-        ] = f"The poverty gap index calculated at a poverty line of ${povlines_abs.dollars_text[p]} a day. The poverty gap index is a measure that reflects both the depth and prevalence of poverty. It is defined as the mean shortfall of the total population from the poverty line counting the non-poor as having zero shortfall and expressed as a percentage of the poverty line. It is worth unpacking that definition a little. For those below the poverty line, the shortfall corresponds to the amount of money required in order to reach the poverty line. For those at or above the poverty line, the shortfall is counted as zero. The average shortfall is then calculated across the total population – both poor and non-poor – and then expressed as a share of the poverty line. Unlike the more commonly-used metric of the headcount ratio, the poverty gap index is thus sensitive not only to whether a person’s income falls below the poverty line or not, but also by how much – i.e. to the depth of poverty they experience."
+        df_tables.loc[j, "description"] = new_line.join(
+            [
+                f"The poverty gap index calculated at a poverty line of ${povlines_abs.dollars_text[p]} a day. The poverty gap index is a measure that reflects both the depth and prevalence of poverty. It is defined as the mean shortfall of the total population from the poverty line counting the non-poor as having zero shortfall and expressed as a percentage of the poverty line. It is worth unpacking that definition a little. For those below the poverty line, the shortfall corresponds to the amount of money required in order to reach the poverty line. For those at or above the poverty line, the shortfall is counted as zero. The average shortfall is then calculated across the total population – both poor and non-poor – and then expressed as a share of the poverty line. Unlike the more commonly-used metric of the headcount ratio, the poverty gap index is thus sensitive not only to whether a person’s income falls below the poverty line or not, but also by how much – i.e. to the depth of poverty they experience.",
+                ppp_description,
+                survey_type.description[survey],
+                additional_description,
+                notes_title,
+                processing_description,
+            ]
+        )
         df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
         df_tables.loc[
             j, "dataPublishedBy"
@@ -273,9 +340,15 @@ for survey in range(len(survey_type)):
         df_tables.loc[
             j, "sourceName"
         ] = "World Bank Poverty and Inequality Platform (2022)"
-        df_tables.loc[
-            j, "description"
-        ] = f"% of population living in households with an {survey_type.text[survey]} per person below {povlines_rel.percent[pct]} of the median."
+        df_tables.loc[j, "description"] = new_line.join(
+            [
+                f"% of population living in households with an {survey_type.text[survey]} per person below {povlines_rel.percent[pct]} of the median.",
+                survey_type.description[survey],
+                additional_description,
+                notes_title,
+                processing_description,
+            ]
+        )
         df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
         df_tables.loc[
             j, "dataPublishedBy"
@@ -300,9 +373,15 @@ for survey in range(len(survey_type)):
         df_tables.loc[
             j, "sourceName"
         ] = "World Bank Poverty and Inequality Platform (2022)"
-        df_tables.loc[
-            j, "description"
-        ] = f"Number of people living in households with an {survey_type.text[survey]} per person below {povlines_rel.percent[pct]} of the median."
+        df_tables.loc[j, "description"] = new_line.join(
+            [
+                f"Number of people living in households with an {survey_type.text[survey]} per person below {povlines_rel.percent[pct]} of the median.",
+                survey_type.description[survey],
+                additional_description,
+                notes_title,
+                processing_description,
+            ]
+        )
         df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
         df_tables.loc[
             j, "dataPublishedBy"
@@ -329,9 +408,15 @@ for survey in range(len(survey_type)):
         df_tables.loc[
             j, "sourceName"
         ] = "World Bank Poverty and Inequality Platform (2022)"
-        df_tables.loc[
-            j, "description"
-        ] = f"The total shortfall from a poverty line of {povlines_rel.text[pct]} {survey_type.text[survey]}. This is the amount of money that would be theoretically needed to lift the {survey_type.text[survey]} of all people in poverty up to the poverty line. However this is not a measure of the actual cost of eliminating poverty, since it does not take into account the costs involved in making the necessary transfers nor any changes in behaviour they would bring about."
+        df_tables.loc[j, "description"] = new_line.join(
+            [
+                f"The total shortfall from a poverty line of {povlines_rel.text[pct]} {survey_type.text[survey]}. This is the amount of money that would be theoretically needed to lift the {survey_type.text[survey]} of all people in poverty up to the poverty line. However this is not a measure of the actual cost of eliminating poverty, since it does not take into account the costs involved in making the necessary transfers nor any changes in behaviour they would bring about.",
+                survey_type.description[survey],
+                additional_description,
+                notes_title,
+                processing_description,
+            ]
+        )
         df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
         df_tables.loc[
             j, "dataPublishedBy"
@@ -360,9 +445,15 @@ for survey in range(len(survey_type)):
         df_tables.loc[
             j, "sourceName"
         ] = "World Bank Poverty and Inequality Platform (2022)"
-        df_tables.loc[
-            j, "description"
-        ] = f"The total shortfall from a poverty line of {povlines_rel.text[pct]} {survey_type.text[survey]}. This is the amount of money that would be theoretically needed to lift the {survey_type.text[survey]} of all people in poverty up to the poverty line. However this is not a measure of the actual cost of eliminating poverty, since it does not take into account the costs involved in making the necessary transfers nor any changes in behaviour they would bring about."
+        df_tables.loc[j, "description"] = new_line.join(
+            [
+                f"The total shortfall from a poverty line of {povlines_rel.text[pct]} {survey_type.text[survey]}. This is the amount of money that would be theoretically needed to lift the {survey_type.text[survey]} of all people in poverty up to the poverty line. However this is not a measure of the actual cost of eliminating poverty, since it does not take into account the costs involved in making the necessary transfers nor any changes in behaviour they would bring about.",
+                survey_type.description[survey],
+                additional_description,
+                notes_title,
+                processing_description,
+            ]
+        )
         df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
         df_tables.loc[
             j, "dataPublishedBy"
@@ -392,9 +483,15 @@ for survey in range(len(survey_type)):
         df_tables.loc[
             j, "sourceName"
         ] = "World Bank Poverty and Inequality Platform (2022)"
-        df_tables.loc[
-            j, "description"
-        ] = f"The average shortfall from a poverty line of of {povlines_rel.text[pct]} {survey_type.text[survey]} (averaged across the population in poverty)."
+        df_tables.loc[j, "description"] = new_line.join(
+            [
+                f"The average shortfall from a poverty line of of {povlines_rel.text[pct]} {survey_type.text[survey]} (averaged across the population in poverty).",
+                survey_type.description[survey],
+                additional_description,
+                notes_title,
+                processing_description,
+            ]
+        )
         df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
         df_tables.loc[
             j, "dataPublishedBy"
@@ -421,9 +518,15 @@ for survey in range(len(survey_type)):
         df_tables.loc[
             j, "sourceName"
         ] = "World Bank Poverty and Inequality Platform (2022)"
-        df_tables.loc[
-            j, "description"
-        ] = f'The average shortfall from a poverty line of of {povlines_rel.text[pct]} {survey_type.text[survey]} (averaged across the population in poverty) expressed as a share of the poverty line. This metric is sometimes called the "income gap ratio". It captures the depth of poverty of those living on less than the poverty line.'
+        df_tables.loc[j, "description"] = new_line.join(
+            [
+                f'The average shortfall from a poverty line of of {povlines_rel.text[pct]} {survey_type.text[survey]} (averaged across the population in poverty) expressed as a share of the poverty line. This metric is sometimes called the "income gap ratio". It captures the depth of poverty of those living on less than the poverty line.',
+                survey_type.description[survey],
+                additional_description,
+                notes_title,
+                processing_description,
+            ]
+        )
         df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
         df_tables.loc[
             j, "dataPublishedBy"
@@ -448,9 +551,15 @@ for survey in range(len(survey_type)):
         df_tables.loc[
             j, "sourceName"
         ] = "World Bank Poverty and Inequality Platform (2022)"
-        df_tables.loc[
-            j, "description"
-        ] = f"The poverty gap index calculated at a poverty line of {povlines_rel.text[pct]} {survey_type.text[survey]}. The poverty gap index is a measure that reflects both the depth and prevalence of poverty. It is defined as the mean shortfall of the total population from the poverty line counting the non-poor as having zero shortfall and expressed as a percentage of the poverty line. It is worth unpacking that definition a little. For those below the poverty line, the shortfall corresponds to the amount of money required in order to reach the poverty line. For those at or above the poverty line, the shortfall is counted as zero. The average shortfall is then calculated across the total population – both poor and non-poor – and then expressed as a share of the poverty line. Unlike the more commonly-used metric of the headcount ratio, the poverty gap index is thus sensitive not only to whether a person’s income falls below the poverty line or not, but also by how much – i.e. to the depth of poverty they experience."
+        df_tables.loc[j, "description"] = new_line.join(
+            [
+                f"The poverty gap index calculated at a poverty line of {povlines_rel.text[pct]} {survey_type.text[survey]}. The poverty gap index is a measure that reflects both the depth and prevalence of poverty. It is defined as the mean shortfall of the total population from the poverty line counting the non-poor as having zero shortfall and expressed as a percentage of the poverty line. It is worth unpacking that definition a little. For those below the poverty line, the shortfall corresponds to the amount of money required in order to reach the poverty line. For those at or above the poverty line, the shortfall is counted as zero. The average shortfall is then calculated across the total population – both poor and non-poor – and then expressed as a share of the poverty line. Unlike the more commonly-used metric of the headcount ratio, the poverty gap index is thus sensitive not only to whether a person’s income falls below the poverty line or not, but also by how much – i.e. to the depth of poverty they experience.",
+                survey_type.description[survey],
+                additional_description,
+                notes_title,
+                processing_description,
+            ]
+        )
         df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
         df_tables.loc[
             j, "dataPublishedBy"
