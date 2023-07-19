@@ -75,6 +75,14 @@ sourceLink = "https://wid.world"
 tolerance = 5
 new_line = "<br><br>"
 
+additional_description = new_line.join(
+    [
+        "The data is estimated from a combination of household surveys, tax records and national accounts data. This combination can provide a more accurate picture of the incomes of the richest, which tend to be captured poorly in household survey data alone.",
+        "These underlying data sources are not always available. For some countries, observations are extrapolated from data relating to other years, or are sometimes modeled based on data observed in other countries.",
+    ]
+)
+ppp_description = "The data is measured in international-$ at 2022 prices – this adjusts for inflation and for differences in the cost of living between countries."
+
 df_tables = pd.DataFrame()
 j = 0
 
@@ -95,9 +103,13 @@ for tab in range(len(tables)):
         # Gini coefficient
         df_tables.loc[j, "name"] = f"Gini coefficient {welfare['title'][wel]}"
         df_tables.loc[j, "slug"] = f"p0p100_gini_{welfare['slug'][wel]}"
-        df_tables.loc[
-            j, "description"
-        ] = f"The Gini coefficient measures inequality on a scale from 0 to 1. Higher values indicate higher inequality.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]} {welfare['note'][wel]}"
+        df_tables.loc[j, "description"] = new_line.join(
+            [
+                f"The Gini coefficient measures inequality on a scale from 0 to 1. Higher values indicate higher inequality.",
+                welfare["description"][wel],
+                additional_description,
+            ]
+        )
         df_tables.loc[j, "unit"] = np.nan
         df_tables.loc[j, "shortUnit"] = np.nan
         df_tables.loc[j, "type"] = "Numeric"
@@ -112,9 +124,13 @@ for tab in range(len(tables)):
             j, "name"
         ] = f"{welfare['welfare_type'][wel].capitalize()} share of the richest 10% {welfare['title'][wel]}"
         df_tables.loc[j, "slug"] = f"p90p100_share_{welfare['slug'][wel]}"
-        df_tables.loc[
-            j, "description"
-        ] = f"This is the {welfare['welfare_type'][wel]} of the richest 10% as a share of total {welfare['welfare_type'][wel]}.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]} {welfare['note'][wel]}"
+        df_tables.loc[j, "description"] = new_line.join(
+            [
+                f"This is the {welfare['welfare_type'][wel]} of the richest 10% as a share of total {welfare['welfare_type'][wel]}.",
+                welfare["description"][wel],
+                additional_description,
+            ]
+        )
         df_tables.loc[j, "unit"] = "%"
         df_tables.loc[j, "shortUnit"] = "%"
         df_tables.loc[j, "type"] = "Numeric"
@@ -129,9 +145,13 @@ for tab in range(len(tables)):
             j, "name"
         ] = f"{welfare['welfare_type'][wel].capitalize()} share of the richest 1% {welfare['title'][wel]}"
         df_tables.loc[j, "slug"] = f"p99p100_share_{welfare['slug'][wel]}"
-        df_tables.loc[
-            j, "description"
-        ] = f"This is the {welfare['welfare_type'][wel]} of the richest 1% as a share of total {welfare['welfare_type'][wel]}.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]} {welfare['note'][wel]}"
+        df_tables.loc[j, "description"] = new_line.join(
+            [
+                f"This is the {welfare['welfare_type'][wel]} of the richest 1% as a share of total {welfare['welfare_type'][wel]}",
+                welfare["description"][wel],
+                additional_description,
+            ]
+        )
         df_tables.loc[j, "unit"] = "%"
         df_tables.loc[j, "shortUnit"] = "%"
         df_tables.loc[j, "type"] = "Numeric"
@@ -146,9 +166,13 @@ for tab in range(len(tables)):
             j, "name"
         ] = f"{welfare['welfare_type'][wel].capitalize()} share of the richest 0.1% {welfare['title'][wel]}"
         df_tables.loc[j, "slug"] = f"p99_9p100_share_{welfare['slug'][wel]}"
-        df_tables.loc[
-            j, "description"
-        ] = f"This is the {welfare['welfare_type'][wel]} of the richest 0.1% as a share of total {welfare['welfare_type'][wel]}.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]} {welfare['note'][wel]}"
+        df_tables.loc[j, "description"] = new_line.join(
+            [
+                f"This is the {welfare['welfare_type'][wel]} of the richest 0.1% as a share of total {welfare['welfare_type'][wel]}",
+                welfare["description"][wel],
+                additional_description,
+            ]
+        )
         df_tables.loc[j, "unit"] = "%"
         df_tables.loc[j, "shortUnit"] = "%"
         df_tables.loc[j, "type"] = "Numeric"
@@ -195,9 +219,13 @@ for tab in range(len(tables)):
             j, "name"
         ] = f"{welfare['welfare_type'][wel].capitalize()} share of the poorest 50% {welfare['title'][wel]}"
         df_tables.loc[j, "slug"] = f"p0p50_share_{welfare['slug'][wel]}"
-        df_tables.loc[
-            j, "description"
-        ] = f"This is the {welfare['welfare_type'][wel]} of the poorest 50% as a share of total {welfare['welfare_type'][wel]}.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]} {welfare['note'][wel]}"
+        df_tables.loc[j, "description"] = new_line.join(
+            [
+                f"This is the {welfare['welfare_type'][wel]} of the poorest 50% as a share of total {welfare['welfare_type'][wel]}.",
+                welfare["description"][wel],
+                additional_description,
+            ]
+        )
         df_tables.loc[j, "unit"] = "%"
         df_tables.loc[j, "shortUnit"] = "%"
         df_tables.loc[j, "type"] = "Numeric"
@@ -252,9 +280,13 @@ for tab in range(len(tables)):
         # Palma ratio
         df_tables.loc[j, "name"] = f"Palma ratio {welfare['title'][wel]}"
         df_tables.loc[j, "slug"] = f"palma_ratio_{welfare['slug'][wel]}"
-        df_tables.loc[
-            j, "description"
-        ] = f"The Palma ratio is a measure of inequality that divides the share received by the richest 10% by the share of the poorest 40%. Higher values indicate higher inequality.{new_line}This is {welfare['technical_text'][wel]}. {welfare['subtitle'][wel]} {welfare['note'][wel]}"
+        df_tables.loc[j, "description"] = new_line.join(
+            [
+                f"The Palma ratio is a measure of inequality that divides the share received by the richest 10% by the share of the poorest 40%. Higher values indicate higher inequality.",
+                welfare["description"][wel],
+                additional_description,
+            ]
+        )
         df_tables.loc[j, "unit"] = np.nan
         df_tables.loc[j, "shortUnit"] = np.nan
         df_tables.loc[j, "type"] = "Numeric"
