@@ -74,6 +74,25 @@ df_header = df_header[0].apply(pd.Series)
 # Variables are grouped by type to iterate by different poverty lines and survey types at the same time. The output is the list of all the variables being used in the explorer, with metadata.
 
 # %%
+new_line = "<br><br>"
+
+additional_description = new_line.join(
+    [
+        "Non-market sources of income, including food grown by subsistence farmers for their own consumption, are taken into account.",
+    ]
+)
+
+notes_title = "NOTES ON HOW WE PROCESSED THIS INDICATOR"
+
+processing_description = new_line.join(
+    [
+        "For a small number of country-year observations, the World Bank PIP data contains two estimates: one based on income data and one based on consumption data. In these cases we keep only the consumption estimate in order to obtain a single series for each country.",
+        "You can find the data with all available income and consumption data points, including these overlapping estimates, in our <a href='https://github.com/owid/poverty-data#a-global-dataset-of-poverty-and-inequality-measures-prepared-by-our-world-in-data-from-the-world-banks-poverty-and-inequality-platform-pip-database'>complete dataset</a> of the World Bank PIP data.",
+    ]
+)
+ppp_description_2017 = "The data is measured in international-$ at 2017 prices – this adjusts for inflation and for differences in the cost of living between countries."
+ppp_description_2011 = "The data is measured in international-$ at 2011 prices – this adjusts for inflation and for differences in the cost of living between countries."
+
 # Table generation
 df_tables = pd.DataFrame()
 j = 0
@@ -84,15 +103,23 @@ for survey in range(len(survey_type)):
         df_tables.loc[
             j, "name"
         ] = f"Share of population below ${povlines_ppp2011.dollars_text[p_2011]} a day (2011 prices)"
+
         df_tables.loc[
             j, "slug"
         ] = f"headcount_ratio_{povlines_ppp2011.cents[p_2011]}_ppp2011"
         df_tables.loc[
             j, "sourceName"
         ] = "World Bank Poverty and Inequality Platform (2022)"
-        df_tables.loc[
-            j, "description"
-        ] = f"% of population living in households with an {survey_type.text[survey]} per person below ${povlines_ppp2011.dollars_text[p_2011]} a day (2011 prices)."
+        df_tables.loc[j, "description"] = new_line.join(
+            [
+                f"% of population living in households with an {survey_type.text[survey]} per person below ${povlines_ppp2011.dollars_text[p_2011]} a day (2011 prices).",
+                ppp_description_2011,
+                survey_type.description[survey],
+                additional_description,
+                notes_title,
+                processing_description,
+            ]
+        )
         df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
         df_tables.loc[
             j, "dataPublishedBy"
@@ -119,9 +146,16 @@ for survey in range(len(survey_type)):
         df_tables.loc[
             j, "sourceName"
         ] = "World Bank Poverty and Inequality Platform (2022)"
-        df_tables.loc[
-            j, "description"
-        ] = f"% of population living in households with an {survey_type.text[survey]} per person below ${povlines_ppp2017.dollars_text[p_2017]} a day (2017 prices)."
+        df_tables.loc[j, "description"] = new_line.join(
+            [
+                f"% of population living in households with an {survey_type.text[survey]} per person below ${povlines_ppp2017.dollars_text[p_2017]} a day (2017 prices).",
+                ppp_description_2017,
+                survey_type.description[survey],
+                additional_description,
+                notes_title,
+                processing_description,
+            ]
+        )
         df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
         df_tables.loc[
             j, "dataPublishedBy"
@@ -146,9 +180,16 @@ for survey in range(len(survey_type)):
         df_tables.loc[
             j, "sourceName"
         ] = "World Bank Poverty and Inequality Platform (2022)"
-        df_tables.loc[
-            j, "description"
-        ] = f"Number of people living in households with an {survey_type.text[survey]} per person below ${povlines_ppp2011.dollars_text[p_2011]} a day (2011 prices)."
+        df_tables.loc[j, "description"] = new_line.join(
+            [
+                f"Number of people living in households with an {survey_type.text[survey]} per person below ${povlines_ppp2011.dollars_text[p_2011]} a day (2011 prices).",
+                ppp_description_2011,
+                survey_type.description[survey],
+                additional_description,
+                notes_title,
+                processing_description,
+            ]
+        )
         df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
         df_tables.loc[
             j, "dataPublishedBy"
@@ -175,9 +216,16 @@ for survey in range(len(survey_type)):
         df_tables.loc[
             j, "sourceName"
         ] = "World Bank Poverty and Inequality Platform (2022)"
-        df_tables.loc[
-            j, "description"
-        ] = f"Number of people living in households with an {survey_type.text[survey]} per person below ${povlines_ppp2017.dollars_text[p_2017]} a day (2017 prices)."
+        df_tables.loc[j, "description"] = new_line.join(
+            [
+                f"Number of people living in households with an {survey_type.text[survey]} per person below ${povlines_ppp2017.dollars_text[p_2017]} a day (2017 prices).",
+                ppp_description_2017,
+                survey_type.description[survey],
+                additional_description,
+                notes_title,
+                processing_description,
+            ]
+        )
         df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
         df_tables.loc[
             j, "dataPublishedBy"
@@ -206,9 +254,15 @@ for survey in range(len(survey_type)):
         df_tables.loc[
             j, "sourceName"
         ] = "World Bank Poverty and Inequality Platform (2022)"
-        df_tables.loc[
-            j, "description"
-        ] = f"% of population living in households with an {survey_type.text[survey]} per person below {povlines_rel.percent[pct]} of the median (2011 prices)."
+        df_tables.loc[j, "description"] = new_line.join(
+            [
+                f"% of population living in households with an {survey_type.text[survey]} per person below {povlines_rel.percent[pct]} of the median (2011 prices).",
+                survey_type.description[survey],
+                additional_description,
+                notes_title,
+                processing_description,
+            ]
+        )
         df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
         df_tables.loc[
             j, "dataPublishedBy"
@@ -235,9 +289,15 @@ for survey in range(len(survey_type)):
         df_tables.loc[
             j, "sourceName"
         ] = "World Bank Poverty and Inequality Platform (2022)"
-        df_tables.loc[
-            j, "description"
-        ] = f"% of population living in households with an {survey_type.text[survey]} per person below {povlines_rel.percent[pct]} of the median (2017 prices)."
+        df_tables.loc[j, "description"] = new_line.join(
+            [
+                f"% of population living in households with an {survey_type.text[survey]} per person below {povlines_rel.percent[pct]} of the median (2017 prices).",
+                survey_type.description[survey],
+                additional_description,
+                notes_title,
+                processing_description,
+            ]
+        )
         df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
         df_tables.loc[
             j, "dataPublishedBy"
@@ -262,9 +322,15 @@ for survey in range(len(survey_type)):
         df_tables.loc[
             j, "sourceName"
         ] = "World Bank Poverty and Inequality Platform (2022)"
-        df_tables.loc[
-            j, "description"
-        ] = f"Number of people living in households with an {survey_type.text[survey]} per person below {povlines_rel.percent[pct]} of the median (2011 prices)."
+        df_tables.loc[j, "description"] = new_line.join(
+            [
+                f"Number of people living in households with an {survey_type.text[survey]} per person below {povlines_rel.percent[pct]} of the median (2011 prices).",
+                survey_type.description[survey],
+                additional_description,
+                notes_title,
+                processing_description,
+            ]
+        )
         df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
         df_tables.loc[
             j, "dataPublishedBy"
@@ -291,9 +357,15 @@ for survey in range(len(survey_type)):
         df_tables.loc[
             j, "sourceName"
         ] = "World Bank Poverty and Inequality Platform (2022)"
-        df_tables.loc[
-            j, "description"
-        ] = f"Number of people living in households with an {survey_type.text[survey]} per person below {povlines_rel.percent[pct]} of the median (2017 prices)."
+        df_tables.loc[j, "description"] = new_line.join(
+            [
+                f"Number of people living in households with an {survey_type.text[survey]} per person below {povlines_rel.percent[pct]} of the median (2017 prices).",
+                survey_type.description[survey],
+                additional_description,
+                notes_title,
+                processing_description,
+            ]
+        )
         df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
         df_tables.loc[
             j, "dataPublishedBy"
@@ -315,9 +387,16 @@ for survey in range(len(survey_type)):
     df_tables.loc[j, "name"] = f"Mean {survey_type.text[survey]} per day (2011 prices)"
     df_tables.loc[j, "slug"] = "mean_ppp2011"
     df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform (2022)"
-    df_tables.loc[
-        j, "description"
-    ] = f"The mean level of {survey_type.text[survey]} per day (2011 prices)."
+    df_tables.loc[j, "description"] = new_line.join(
+        [
+            f"The mean level of {survey_type.text[survey]} per day (2011 prices).",
+            ppp_description_2011,
+            survey_type.description[survey],
+            additional_description,
+            notes_title,
+            processing_description,
+        ]
+    )
     df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
     df_tables.loc[
         j, "dataPublishedBy"
@@ -337,9 +416,16 @@ for survey in range(len(survey_type)):
     df_tables.loc[j, "name"] = f"Mean {survey_type.text[survey]} per day (2017 prices)"
     df_tables.loc[j, "slug"] = "mean_ppp2017"
     df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform (2022)"
-    df_tables.loc[
-        j, "description"
-    ] = f"The mean level of {survey_type.text[survey]} per day (2017 prices)."
+    df_tables.loc[j, "description"] = new_line.join(
+        [
+            f"The mean level of {survey_type.text[survey]} per day (2017 prices).",
+            ppp_description_2017,
+            survey_type.description[survey],
+            additional_description,
+            notes_title,
+            processing_description,
+        ]
+    )
     df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
     df_tables.loc[
         j, "dataPublishedBy"
@@ -361,9 +447,16 @@ for survey in range(len(survey_type)):
     ] = f"Median {survey_type.text[survey]} per day (2011 prices)"
     df_tables.loc[j, "slug"] = "median_ppp2011"
     df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform (2022)"
-    df_tables.loc[
-        j, "description"
-    ] = f"The level of {survey_type.text[survey]} per day below which half of the population live (2011 prices)."
+    df_tables.loc[j, "description"] = new_line.join(
+        [
+            f"The level of {survey_type.text[survey]} per day below which half of the population live (2011 prices).",
+            ppp_description_2011,
+            survey_type.description[survey],
+            additional_description,
+            notes_title,
+            processing_description,
+        ]
+    )
     df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
     df_tables.loc[
         j, "dataPublishedBy"
@@ -385,9 +478,16 @@ for survey in range(len(survey_type)):
     ] = f"Median {survey_type.text[survey]} per day (2017 prices)"
     df_tables.loc[j, "slug"] = "median_ppp2017"
     df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform (2022)"
-    df_tables.loc[
-        j, "description"
-    ] = f"The level of {survey_type.text[survey]} per day below which half of the population live (2017 prices)."
+    df_tables.loc[j, "description"] = new_line.join(
+        [
+            f"The level of {survey_type.text[survey]} per day below which half of the population live (2017 prices).",
+            ppp_description_2017,
+            survey_type.description[survey],
+            additional_description,
+            notes_title,
+            processing_description,
+        ]
+    )
     df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
     df_tables.loc[
         j, "dataPublishedBy"
@@ -407,9 +507,16 @@ for survey in range(len(survey_type)):
     df_tables.loc[j, "name"] = "P10 (2011 prices)"
     df_tables.loc[j, "slug"] = "decile1_thr_ppp2011"
     df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform (2022)"
-    df_tables.loc[
-        j, "description"
-    ] = f"The level of {survey_type.text[survey]} per day below which 10% of the population falls (2011 prices)."
+    df_tables.loc[j, "description"] = new_line.join(
+        [
+            f"The level of {survey_type.text[survey]} per day below which 10% of the population falls (2011 prices).",
+            ppp_description_2011,
+            survey_type.description[survey],
+            additional_description,
+            notes_title,
+            processing_description,
+        ]
+    )
     df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
     df_tables.loc[
         j, "dataPublishedBy"
@@ -429,9 +536,16 @@ for survey in range(len(survey_type)):
     df_tables.loc[j, "name"] = "P10 (2017 prices)"
     df_tables.loc[j, "slug"] = "decile1_thr_ppp2017"
     df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform (2022)"
-    df_tables.loc[
-        j, "description"
-    ] = f"The level of {survey_type.text[survey]} per day below which 10% of the population falls (2017 prices)."
+    df_tables.loc[j, "description"] = new_line.join(
+        [
+            f"The level of {survey_type.text[survey]} per day below which 10% of the population falls (2017 prices).",
+            ppp_description_2017,
+            survey_type.description[survey],
+            additional_description,
+            notes_title,
+            processing_description,
+        ]
+    )
     df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
     df_tables.loc[
         j, "dataPublishedBy"
@@ -451,9 +565,16 @@ for survey in range(len(survey_type)):
     df_tables.loc[j, "name"] = "P90 (2011 prices)"
     df_tables.loc[j, "slug"] = "decile9_thr_ppp2011"
     df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform (2022)"
-    df_tables.loc[
-        j, "description"
-    ] = f"The level of {survey_type.text[survey]} per day above which 10% of the population falls (2011 prices)."
+    df_tables.loc[j, "description"] = new_line.join(
+        [
+            f"The level of {survey_type.text[survey]} per day below which 90% of the population falls (2011 prices).",
+            ppp_description_2011,
+            survey_type.description[survey],
+            additional_description,
+            notes_title,
+            processing_description,
+        ]
+    )
     df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
     df_tables.loc[
         j, "dataPublishedBy"
@@ -473,9 +594,16 @@ for survey in range(len(survey_type)):
     df_tables.loc[j, "name"] = "P90 (2017 prices)"
     df_tables.loc[j, "slug"] = "decile9_thr_ppp2017"
     df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform (2022)"
-    df_tables.loc[
-        j, "description"
-    ] = f"The level of {survey_type.text[survey]} per day above which 10% of the population falls (2017 prices)."
+    df_tables.loc[j, "description"] = new_line.join(
+        [
+            f"The level of {survey_type.text[survey]} per day below which 90% of the population falls (2017 prices).",
+            ppp_description_2017,
+            survey_type.description[survey],
+            additional_description,
+            notes_title,
+            processing_description,
+        ]
+    )
     df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
     df_tables.loc[
         j, "dataPublishedBy"
