@@ -564,7 +564,7 @@ for tab in range(len(tables)):
                 ] = f"{povlines_abs['subtitle'][p]} {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
                 df_graphers.loc[
                     j, "note"
-                ] = f"This data is measured in international-$ at 2017 prices."
+                ] = f"This data is expressed in international-$ at 2017 prices."
                 df_graphers.loc[j, "type"] = np.nan
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
                 df_graphers.loc[j, "hasMapTab"] = "true"
@@ -595,7 +595,7 @@ for tab in range(len(tables)):
                 ] = f"{povlines_abs['subtitle'][p]} {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
                 df_graphers.loc[
                     j, "note"
-                ] = f"This data is measured in international-$ at 2017 prices."
+                ] = f"This data is expressed in international-$ at 2017 prices."
                 df_graphers.loc[j, "type"] = np.nan
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
                 df_graphers.loc[j, "hasMapTab"] = "true"
@@ -752,7 +752,7 @@ for tab in range(len(tables)):
             ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
             df_graphers.loc[
                 j, "note"
-            ] = f"This data is measured in international-$ at 2017 prices."
+            ] = f"This data is expressed in international-$ at 2017 prices."
             df_graphers.loc[j, "type"] = np.nan
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
             df_graphers.loc[j, "hasMapTab"] = "false"
@@ -780,7 +780,7 @@ for tab in range(len(tables)):
             ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
             df_graphers.loc[
                 j, "note"
-            ] = f"This data is measured in international-$ at 2017 prices."
+            ] = f"This data is expressed in international-$ at 2017 prices."
             df_graphers.loc[j, "type"] = np.nan
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
             df_graphers.loc[j, "hasMapTab"] = "false"
@@ -839,7 +839,7 @@ for tab in range(len(tables)):
             ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
             df_graphers.loc[
                 j, "note"
-            ] = f"This data is measured in international-$ at 2017 prices."
+            ] = f"This data is expressed in international-$ at 2017 prices."
             df_graphers.loc[j, "type"] = np.nan
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
             df_graphers.loc[j, "hasMapTab"] = "false"
@@ -1114,7 +1114,7 @@ for tab in range(len(tables)):
             ] = f"{povlines_abs['subtitle'][p]} {equivalence_scales['subtitle'][eq]}"
             df_graphers.loc[
                 j, "note"
-            ] = f"This data is measured in international-$ at 2017 prices."
+            ] = f"This data is expressed in international-$ at 2017 prices."
             df_graphers.loc[j, "type"] = np.nan
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
             df_graphers.loc[j, "hasMapTab"] = "false"
@@ -1143,7 +1143,7 @@ for tab in range(len(tables)):
             ] = f"{povlines_abs['subtitle'][p]} {equivalence_scales['subtitle'][eq]}"
             df_graphers.loc[
                 j, "note"
-            ] = f"This data is measured in international-$ at 2017 prices."
+            ] = f"This data is expressed in international-$ at 2017 prices."
             df_graphers.loc[j, "type"] = np.nan
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
             df_graphers.loc[j, "hasMapTab"] = "false"
@@ -1468,7 +1468,7 @@ for tab in range(len(tables)):
         #     ] = f"{povlines_abs['subtitle'][p]} {welfare['subtitle'][wel]}"
         #     df_graphers.loc[
         #         j, "note"
-        #     ] = f"This data is measured in international-$ at 2017 prices."
+        #     ] = f"This data is expressed in international-$ at 2017 prices."
         #     df_graphers.loc[j, "type"] = np.nan
         #     df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
         #     df_graphers.loc[j, "hasMapTab"] = "false"
@@ -1498,7 +1498,7 @@ for tab in range(len(tables)):
         #     ] = f"{povlines_abs['subtitle'][p]} {welfare['subtitle'][wel]}"
         #     df_graphers.loc[
         #         j, "note"
-        #     ] = f"This data is measured in international-$ at 2017 prices."
+        #     ] = f"This data is expressed in international-$ at 2017 prices."
         #     df_graphers.loc[j, "type"] = np.nan
         #     df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
         #     df_graphers.loc[j, "hasMapTab"] = "false"
