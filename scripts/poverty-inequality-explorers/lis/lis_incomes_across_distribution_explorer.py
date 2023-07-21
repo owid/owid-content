@@ -575,7 +575,7 @@ for tab in range(len(tables)):
                 df_graphers.loc[j, "hideRelativeToggle"] = "false"
                 df_graphers.loc[
                     j, "subtitle"
-                ] = f"The level of income or consumption per {income_aggregation['aggregation'][agg]} below which 10%, 20%, 30%, etc. of the population falls. {welfare['subtitle'][wel]}"
+                ] = f"The level of income per {income_aggregation['aggregation'][agg]} below which 10%, 20%, 30%, etc. of the population falls. {welfare['subtitle'][wel]}"
                 df_graphers.loc[
                     j, "note"
                 ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. {equivalence_scales['note'][eq]}"
