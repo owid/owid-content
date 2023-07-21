@@ -696,10 +696,10 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
         df_graphers.loc[
             j, "subtitle"
-        ] = f"The level of {survey_type.text_ineq[survey]} per person per {income_aggregation.aggregation[agg]} below which 10%, 20%, 30%, etc. of the population falls. This data is adjusted for inflation and for differences in the cost of living between countries."
+        ] = f"The level of {survey_type.text_ineq[survey]} per person per {income_aggregation.aggregation[agg]} below which 10%, 20%, 30%, etc. of the population falls."
         df_graphers.loc[
             j, "note"
-        ] = f"This data is measured in international-$ at 2017 prices. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} per capita."
+        ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} per capita."
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "yAxisMin"] = 0
         df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
