@@ -262,7 +262,7 @@ for tab in range(len(pip_tables)):
     df_tables_pip.loc[j, "slug"] = "median"
     df_tables_pip.loc[j, "description"] = new_line.join(
         [
-            f"The level of {pip_tables.text[tab]} per day below which half of the population live.",
+            f"The level of {pip_tables.text[tab]} per day below which half of the population falls.",
             additional_description,
             ppp_description,
             notes_title,
@@ -374,7 +374,7 @@ for tab in range(len(pip_tables)):
         ] = f"median{pip_income_aggregation.slug_suffix[agg]}"
         df_tables_pip.loc[j, "description"] = new_line.join(
             [
-                f"The level of {pip_tables.text[tab]} per {pip_income_aggregation.aggregation[agg]} below which half of the population live.",
+                f"The level of {pip_tables.text[tab]} per {pip_income_aggregation.aggregation[agg]} below which half of the population falls.",
                 additional_description,
                 ppp_description,
                 notes_title,
@@ -514,7 +514,7 @@ for tab in range(len(merged_tables)):
         df_tables_wid.loc[j, "slug"] = f"median_{wid_welfare['slug'][wel]}"
         df_tables_wid.loc[j, "description"] = new_line.join(
             [
-                f"This is the level of {wid_welfare['welfare_type'][wel]} below which 50% of the population falls.",
+                f"This is the level of {wid_welfare['welfare_type'][wel]} below which half of the population falls.",
                 wid_welfare["description"][wel],
                 ppp_description,
                 additional_description,
@@ -796,7 +796,7 @@ for tab in range(len(merged_tables)):
             ] = f"median_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
             df_tables_lis.loc[j, "description"] = new_line.join(
                 [
-                    f"The level of {lis_welfare['welfare_type'][wel]} below which half of the population live.",
+                    f"The level of {lis_welfare['welfare_type'][wel]} below which half of the population falls.",
                     lis_welfare["description"][wel],
                     lis_equivalence_scales["description"][eq],
                     ppp_description,
@@ -943,7 +943,7 @@ for tab in range(len(merged_tables)):
                 ] = f"median_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}{lis_income_aggregation['slug_suffix'][agg]}"
                 df_tables_lis.loc[j, "description"] = new_line.join(
                     [
-                        f"The level of {lis_welfare['welfare_type'][wel]} below which half of the population live.",
+                        f"The level of {lis_welfare['welfare_type'][wel]} below which half of the population falls.",
                         lis_welfare["description"][wel],
                         lis_equivalence_scales["description"][eq],
                         ppp_description,

@@ -152,7 +152,7 @@ for tab in range(len(tables)):
         df_tables.loc[j, "slug"] = f"median_{welfare['slug'][wel]}"
         df_tables.loc[j, "description"] = new_line.join(
             [
-                f"This is the level of {welfare['welfare_type'][wel]} below which 50% of the population falls.",
+                f"The level of {welfare['welfare_type'][wel]} below which half of the population falls.",
                 welfare["description"][wel],
                 ppp_description,
                 additional_description,
@@ -323,7 +323,7 @@ for tab in range(len(tables)):
             ] = f"p0p100_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]}"
             df_tables.loc[j, "description"] = new_line.join(
                 [
-                    f"Mean {welfare['welfare_type'][wel]}.",
+                    f"Mean {welfare['welfare_type'][wel]} per {income_aggregation['aggregation'][agg]}.",
                     welfare["description"][wel],
                     ppp_description,
                     additional_description,
@@ -351,7 +351,7 @@ for tab in range(len(tables)):
             ] = f"median_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]}"
             df_tables.loc[j, "description"] = new_line.join(
                 [
-                    f"This is the level of {welfare['welfare_type'][wel]} below which 50% of the population falls.",
+                    f"The level of {welfare['welfare_type'][wel]} per {income_aggregation['aggregation'][agg]} below which hald of the population falls.",
                     welfare["description"][wel],
                     ppp_description,
                     additional_description,
@@ -380,7 +380,7 @@ for tab in range(len(tables)):
                 ] = f"{deciles9['wid_notation'][dec9]}_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]}"
                 df_tables.loc[j, "description"] = new_line.join(
                     [
-                        f"The level of {welfare['welfare_type'][wel]} below which {deciles9['decile'][dec9]}0% of the population falls.",
+                        f"The level of {welfare['welfare_type'][wel]} per {income_aggregation['aggregation'][agg]} below which {deciles9['decile'][dec9]}0% of the population falls.",
                         welfare["description"][wel],
                         ppp_description,
                         additional_description,
@@ -409,7 +409,7 @@ for tab in range(len(tables)):
                 ] = f"{deciles10['wid_notation'][dec10]}_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]}"
                 df_tables.loc[j, "description"] = new_line.join(
                     [
-                        f"The mean {welfare['welfare_type'][wel]} within the {deciles10['ordinal'][dec10]} (tenth of the population).",
+                        f"The mean {welfare['welfare_type'][wel]} per {income_aggregation['aggregation'][agg]} within the {deciles10['ordinal'][dec10]} (tenth of the population).",
                         welfare["description"][wel],
                         ppp_description,
                         additional_description,
@@ -438,7 +438,7 @@ for tab in range(len(tables)):
                 ] = f"{top_pct['wid_notation'][top]}_thr_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]}"
                 df_tables.loc[j, "description"] = new_line.join(
                     [
-                        f"The level of {welfare['welfare_type'][wel]} marking the richest {top_pct['percentage'][top]}",
+                        f"The level of {welfare['welfare_type'][wel]} per {income_aggregation['aggregation'][agg]} marking the richest {top_pct['percentage'][top]}",
                         welfare["description"][wel],
                         ppp_description,
                         additional_description,
@@ -467,7 +467,7 @@ for tab in range(len(tables)):
                 ] = f"{top_pct['wid_notation'][top]}_avg_{welfare['slug'][wel]}{income_aggregation['slug_suffix'][agg]}"
                 df_tables.loc[j, "description"] = new_line.join(
                     [
-                        f"The mean {welfare['welfare_type'][wel]} within the richest {top_pct['percentage'][top]}.",
+                        f"The mean {welfare['welfare_type'][wel]} per {income_aggregation['aggregation'][agg]} within the richest {top_pct['percentage'][top]}.",
                         welfare["description"][wel],
                         ppp_description,
                         additional_description,

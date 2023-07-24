@@ -126,7 +126,7 @@ for tab in range(len(tables)):
         df_tables.loc[j, "slug"] = f"p90p100_share_{welfare['slug'][wel]}"
         df_tables.loc[j, "description"] = new_line.join(
             [
-                f"This is the {welfare['welfare_type'][wel]} of the richest 10% as a share of total {welfare['welfare_type'][wel]}.",
+                f"The share of {welfare['welfare_type'][wel]} received by the richest 10% of the population.",
                 welfare["description"][wel],
                 additional_description,
             ]
@@ -147,7 +147,7 @@ for tab in range(len(tables)):
         df_tables.loc[j, "slug"] = f"p99p100_share_{welfare['slug'][wel]}"
         df_tables.loc[j, "description"] = new_line.join(
             [
-                f"This is the {welfare['welfare_type'][wel]} of the richest 1% as a share of total {welfare['welfare_type'][wel]}",
+                f"The share of {welfare['welfare_type'][wel]} received by the richest 1% of the population.",
                 welfare["description"][wel],
                 additional_description,
             ]
@@ -168,7 +168,7 @@ for tab in range(len(tables)):
         df_tables.loc[j, "slug"] = f"p99_9p100_share_{welfare['slug'][wel]}"
         df_tables.loc[j, "description"] = new_line.join(
             [
-                f"This is the {welfare['welfare_type'][wel]} of the richest 0.1% as a share of total {welfare['welfare_type'][wel]}",
+                f"The share of {welfare['welfare_type'][wel]} received by the richest 0.1% of the population.",
                 welfare["description"][wel],
                 additional_description,
             ]
@@ -189,7 +189,7 @@ for tab in range(len(tables)):
         df_tables.loc[j, "slug"] = f"p0p50_share_{welfare['slug'][wel]}"
         df_tables.loc[j, "description"] = new_line.join(
             [
-                f"This is the {welfare['welfare_type'][wel]} of the poorest 50% as a share of total {welfare['welfare_type'][wel]}.",
+                f"The share of {welfare['welfare_type'][wel]} received by the poorest 50% of the population.",
                 welfare["description"][wel],
                 additional_description,
             ]

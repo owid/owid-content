@@ -181,7 +181,7 @@ for survey in range(len(survey_type)):
     df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform (2022)"
     df_tables.loc[j, "description"] = new_line.join(
         [
-            f"% of population living in households with an {survey_type.text[survey]} per person below 50% of the median.",
+            f"The share of population with {survey_type.text_ineq[survey]} below 50% of the median. Relative poverty reflects the extent of inequality within the bottom of the distribution.",
             survey_type.description[survey],
             additional_description,
             notes_title,

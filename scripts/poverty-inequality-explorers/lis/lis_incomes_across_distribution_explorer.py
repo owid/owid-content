@@ -176,7 +176,7 @@ for tab in range(len(tables)):
             ] = f"median_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
             df_tables.loc[j, "description"] = new_line.join(
                 [
-                    f"The level of {welfare['welfare_type'][wel]} below which half of the population live.",
+                    f"The level of {welfare['welfare_type'][wel]} below which half of the population falls.",
                     welfare["description"][wel],
                     equivalence_scales["description"][eq],
                     ppp_description,
@@ -284,7 +284,7 @@ for tab in range(len(tables)):
                 ] = f"mean_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}{income_aggregation['slug_suffix'][agg]}"
                 df_tables.loc[j, "description"] = new_line.join(
                     [
-                        f"Mean {welfare['welfare_type'][wel]}.",
+                        f"Mean {welfare['welfare_type'][wel]} per {income_aggregation['aggregation'][agg]}.",
                         welfare["description"][wel],
                         equivalence_scales["description"][eq],
                         ppp_description,
@@ -314,7 +314,7 @@ for tab in range(len(tables)):
                 ] = f"median_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}{income_aggregation['slug_suffix'][agg]}"
                 df_tables.loc[j, "description"] = new_line.join(
                     [
-                        f"The level of {welfare['welfare_type'][wel]} below which half of the population live.",
+                        f"The level of {welfare['welfare_type'][wel]} per {income_aggregation['aggregation'][agg]} below which half of the population falls.",
                         welfare["description"][wel],
                         equivalence_scales["description"][eq],
                         ppp_description,
@@ -345,7 +345,7 @@ for tab in range(len(tables)):
                     ] = f"thr_{deciles9['lis_notation'][dec9]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}{income_aggregation['slug_suffix'][agg]}"
                     df_tables.loc[j, "description"] = new_line.join(
                         [
-                            f"The level of {welfare['welfare_type'][wel]} below which {deciles9['decile'][dec9]}0% of the population falls.",
+                            f"The level of {welfare['welfare_type'][wel]} per {income_aggregation['aggregation'][agg]} below which {deciles9['decile'][dec9]}0% of the population falls.",
                             welfare["description"][wel],
                             equivalence_scales["description"][eq],
                             ppp_description,
@@ -376,7 +376,7 @@ for tab in range(len(tables)):
                     ] = f"avg_{deciles10['lis_notation'][dec10]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}{income_aggregation['slug_suffix'][agg]}"
                     df_tables.loc[j, "description"] = new_line.join(
                         [
-                            f"The mean {welfare['welfare_type'][wel]} within the {deciles10['ordinal'][dec10]} (tenth of the population).",
+                            f"The mean {welfare['welfare_type'][wel]} per {income_aggregation['aggregation'][agg]} within the {deciles10['ordinal'][dec10]} (tenth of the population).",
                             welfare["description"][wel],
                             equivalence_scales["description"][eq],
                             ppp_description,

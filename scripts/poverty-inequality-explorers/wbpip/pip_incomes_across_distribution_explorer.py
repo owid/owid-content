@@ -131,7 +131,7 @@ for survey in range(len(survey_type)):
     df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform (2022)"
     df_tables.loc[j, "description"] = new_line.join(
         [
-            f"The level of {survey_type.text[survey]} per person per day below which half of the population live.",
+            f"The level of {survey_type.text[survey]} per person per day below which half of the population falls.",
             ppp_description,
             survey_type.description[survey],
             additional_description,
@@ -297,7 +297,7 @@ for survey in range(len(survey_type)):
         ] = "World Bank Poverty and Inequality Platform (2022)"
         df_tables.loc[j, "description"] = new_line.join(
             [
-                f"The level of {survey_type.text[survey]} per person per {income_aggregation.aggregation[agg]} below which half of the population live.",
+                f"The level of {survey_type.text[survey]} per person per {income_aggregation.aggregation[agg]} below which half of the population falls.",
                 ppp_description,
                 survey_type.description[survey],
                 additional_description,
@@ -498,24 +498,6 @@ for agg in range(len(income_aggregation)):
 
 # Concatenate all the spells tables
 df_spells = pd.concat([df_spells, df_spells_consolidated], ignore_index=True)
-
-
-# # Create monthly columns
-# df_spells_month = df_spells_agg.copy()
-# df_spells_month["transform"] = "multiplyBy " + df_spells_month["slug"] + " 30"
-# df_spells_month["slug"] = df_spells_month["slug"] + "_month"
-# df_spells_month["description"] = df_spells_month["description"].str.replace(
-#     "day", "month"
-# )
-
-# # Create yearly columns
-# df_spells_year = df_spells_agg.copy()
-# df_spells_year["transform"] = "multiplyBy " + df_spells_year["slug"] + " 365"
-# df_spells_year["slug"] = df_spells_year["slug"] + "_year"
-# df_spells_year["description"] = df_spells_year["description"].str.replace("day", "year")
-
-# # Concatenate all the spells tables
-# df_spells = pd.concat([df_spells, df_spells_month, df_spells_year], ignore_index=True)
 
 # Make tolerance integer (to not break the parameter in the platform)
 df_spells["tolerance"] = df_spells["tolerance"].astype("Int64")
