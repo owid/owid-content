@@ -18,9 +18,9 @@
     "variantSource": "UNICEF/WHO",
     "nameOfSource": "UNICEF, World Health Organization and World Bank",
     "owidProcessingLevel": "<a href=#sources-and-processing>Processed</a> by Our World in Data",
-    "dateRange": "1983–2020",
-    "lastUpdated": "2 June 2022",
-    "nextUpdate": "June 2023",
+    "dateRange": "1983–2021",
+    "lastUpdated": "29 May 2023",
+    "nextUpdate": "June 2024",
     "subtitle": "The share of children younger than five years old whose growth is stunted. Stunting is when a child is significantly shorter than the average for their age. Stunted growth is a consequence of poor nutrition and/or repeated infection.",
     "descriptionFromSource": {
         "title": "How does the data provider — the World Bank — describe this metric?"
@@ -61,7 +61,7 @@
     "sources": [
         {
             "sourceName": "World Bank World Development Indicators",
-            "sourceRetrievedOn": "2 June 2022",
+            "sourceRetrievedOn": "29 May 2023",
             "sourceRetrievedFromUrl": "https://datacatalog.worldbank.org/search/dataset/0037712/World-Development-Indicators"
         }
     ]
