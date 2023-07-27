@@ -1,21 +1,36 @@
 
-explorerTitle	History of War Explorer
+explorerTitle	Conflict Data Explorer
 isPublished	false
 thumbnail
-explorerSubtitle	Explore the history of conflicts in the world in the last years.
+explorerSubtitle	Explore the world's conflicts with the leading approaches to measuring them.
 selection	World
 
 subNavId
 subNavCurrentId	conflict-data
 
 graphers
-	yVariableIds	Dataset Dropdown	Metric Dropdown	Conflict type Dropdown	Estimate Radio	type
-	737193	UCDP	Ongoing conflicts	All		LineChart
-	737195	UCDP	New Conflicts	All		LineChart
-	737192	UCDP	Fatalities in ongoing conflicts	All	Low	LineChart
-	737191	UCDP	Fatalities in ongoing conflicts	All	Best	LineChart
-	737194	UCDP	Fatalities in ongoing conflicts	All	High	LineChart
-	737738	Project Mars	Ongoing conflicts	All		LineChart
-	737741	Project Mars	New Conflicts	All		LineChart
-	737739	Project Mars	Fatalities in ongoing conflicts (soldiers)	All	Low	LineChart
-	737740	Project Mars	Fatalities in ongoing conflicts (soldiers)	All	High	LineChart
+	yVariableIds	Dataset Dropdown	Metric Dropdown	Conflict type Dropdown	Sub-metric Radio	type	timelineMinTime	title
+	737193	Uppsala Conflict Data Program	Ongoing conflicts	All armed conflicts				Ongoing armed conflicts
+	737195	Uppsala Conflict Data Program	New conflicts	All armed conflicts	none			New armed conflicts
+	737195 737203 737208 737223 737227	Uppsala Conflict Data Program	New conflicts	All armed conflicts	by type		1990	New armed conflicts
+	737203 737218 737212 737198	Uppsala Conflict Data Program	New conflicts	State-based conflicts	by type	StackedBar		New state-based conflicts
+	737191 737192 737194	Uppsala Conflict Data Program	Conflict deaths	All armed conflicts
+
+
+
+
+
+columns
+	variableId	name
+	737193	All conflicts
+	737195	All conflicts
+	737191	Best estimate
+	737192	Low estimate
+	737194	High estimate
+	737203	Interstate
+	737208	Intrastate
+	737223	Non-state
+	737227	One-sided violence
+	737218	Non-internationalized intrastate
+	737212	Internationalized intrastate
+	737198	Extrasystemic
