@@ -10,11 +10,16 @@ subNavCurrentId	conflict-data
 
 graphers
 	yVariableIds	Dataset Dropdown	Metric Dropdown	Conflict type Dropdown	Sub-metric Radio	type	timelineMinTime	title
-	737193	Uppsala Conflict Data Program	Ongoing conflicts	All armed conflicts				Ongoing armed conflicts
-	737195	Uppsala Conflict Data Program	New conflicts	All armed conflicts	none			New armed conflicts
-	737195 737203 737208 737223 737227	Uppsala Conflict Data Program	New conflicts	All armed conflicts	by type		1990	New armed conflicts
-	737203 737218 737212 737198	Uppsala Conflict Data Program	New conflicts	State-based conflicts	by type	StackedBar		New state-based conflicts
-	737191 737192 737194	Uppsala Conflict Data Program	Conflict deaths	All armed conflicts
+	737193	Uppsala Conflict Data Program	Ongoing conflicts	All armed conflicts	none			Ongoing armed conflicts
+	737201 737206 737221 737226	Uppsala Conflict Data Program	Ongoing conflicts	All armed conflicts	by type	StackedArea		Ongoing armed conflicts by type
+	737201 737216 737211 737196	Uppsala Conflict Data Program	Ongoing conflicts	State-based conflicts	by type	StackedArea		Ongoing state-based conflicts by type
+	737195	Uppsala Conflict Data Program	New conflicts	All armed conflicts	none	LineChart		New armed conflicts
+	737203 737208 737223 737227	Uppsala Conflict Data Program	New conflicts	All armed conflicts	by type	LineChart	1990	New armed conflicts by type
+	737203 737218 737212 737198	Uppsala Conflict Data Program	New conflicts	State-based conflicts	by type	StackedBar		New state-based conflicts by type
+	737191 737192 737194	Uppsala Conflict Data Program	Conflict deaths	All armed conflicts	none	LineChart		Deaths in armed conflicts
+	737197 737202 737217 737222	Uppsala Conflict Data Program	Conflict deaths	All armed conflicts	by type	StackedBar		Deaths in armed conflict by type
+	737191	Uppsala Conflict Data Program	Conflict deaths	All armed conflicts	by region	StackedBar		Deaths in armed conflicts by region
+	737197 737213 737207	Uppsala Conflict Data Program	Conflict deaths	State-based conflicts	by type	StackedBar		Deaths in state-based conflicts by type
 
 
 
@@ -34,3 +39,16 @@ columns
 	737218	Non-internationalized intrastate
 	737212	Internationalized intrastate
 	737198	Extrasystemic
+	737201	Interstate
+	737206	Intrastate
+	737221	Non-state
+	737226	One-sided violence
+	737216	Non-internationalized intrastate
+	737211	Internationalized intrastate
+	737196	Extrasystemic
+	737197	Interstate
+	737202	Intrastate
+	737217	Non-state
+	737222	One-sided violence
+	737213	Non-internationalized intrastate
+	737207	Internationalized intrastate
