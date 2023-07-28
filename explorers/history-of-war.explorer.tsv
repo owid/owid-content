@@ -1,52 +1,69 @@
 
 explorerTitle	Conflict Data Explorer
-isPublished	false
+isPublished	FALSE
 thumbnail
 explorerSubtitle	Explore the world's conflicts with the leading approaches to measuring them.
 selection	World
-
+wpBlockId
 subNavId
 subNavCurrentId	conflict-data
-
+entityType	region
 graphers
-	yVariableIds	Dataset Dropdown	Metric Dropdown	Conflict type Dropdown	Sub-metric Radio	type	timelineMinTime	title
-	737193	Uppsala Conflict Data Program	Ongoing conflicts	All armed conflicts	none			Ongoing armed conflicts
-	737201 737206 737221 737226	Uppsala Conflict Data Program	Ongoing conflicts	All armed conflicts	by type	StackedArea		Ongoing armed conflicts by type
-	737201 737216 737211 737196	Uppsala Conflict Data Program	Ongoing conflicts	State-based conflicts	by type	StackedArea		Ongoing state-based conflicts by type
-	737195	Uppsala Conflict Data Program	New conflicts	All armed conflicts	none	LineChart		New armed conflicts
-	737203 737208 737223 737227	Uppsala Conflict Data Program	New conflicts	All armed conflicts	by type	LineChart	1990	New armed conflicts by type
-	737203 737218 737212 737198	Uppsala Conflict Data Program	New conflicts	State-based conflicts	by type	StackedBar		New state-based conflicts by type
-	737191 737192 737194	Uppsala Conflict Data Program	Conflict deaths	All armed conflicts	none	LineChart		Deaths in armed conflicts
-	737197 737202 737217 737222	Uppsala Conflict Data Program	Conflict deaths	All armed conflicts	by type	StackedBar		Deaths in armed conflict by type
-	737191	Uppsala Conflict Data Program	Conflict deaths	All armed conflicts	by region	StackedBar		Deaths in armed conflicts by region
-	737197 737213 737207	Uppsala Conflict Data Program	Conflict deaths	State-based conflicts	by type	StackedBar		Deaths in state-based conflicts by type
-
-
-
-
+	yVariableIds	Dataset Dropdown	Metric Dropdown	Conflict type Dropdown	Sub-metric Dropdown	type	timelineMinTime	yAxisMin	title
+	737193	Uppsala Conflict Data Program	Ongoing conflicts	All armed conflicts	all	LineChart		0	Ongoing armed conflicts
+	737201	Uppsala Conflict Data Program	Ongoing conflicts	Interstate conflicts		LineChart		0	Ongoing interstate conflicts
+	737206	Uppsala Conflict Data Program	Ongoing conflicts	Intrastate conflicts	all	LineChart		0	Ongoing intrastate conflicts
+	737221	Uppsala Conflict Data Program	Ongoing conflicts	Non-state conflicts		LineChart		0	Ongoing non-state conflicts
+	737226	Uppsala Conflict Data Program	Ongoing conflicts	One-sided violence		LineChart		0	Ongoing conflicts of one-sided violence
+	737198	Uppsala Conflict Data Program	Ongoing conflicts	Extrasystemic conflicts		LineChart		0	Ongoing extrasystemic conflicts
+	737212	Uppsala Conflict Data Program	Ongoing conflicts	Intrastate conflicts	non-internationalized	LineChart		0	Ongoing non-internationalized intrastate conflicts
+	737218	Uppsala Conflict Data Program	Ongoing conflicts	Intrastate conflicts	internationalized	LineChart		0	Ongoing internationalized intrastate conflicts
+	737201 737206 737221 737226	Uppsala Conflict Data Program	Ongoing conflicts	All armed conflicts	by type	StackedArea		0	Ongoing armed conflicts by type
+	737201 737216 737211 737196	Uppsala Conflict Data Program	Ongoing conflicts	State-based conflicts	by type	StackedArea		0	Ongoing state-based conflicts by type
+	737195	Uppsala Conflict Data Program	New conflicts	All armed conflicts	all	LineChart		0	New armed conflicts
+	737203	Uppsala Conflict Data Program	New conflicts	Interstate conflicts		LineChart		0	New interstate conflicts
+	737208	Uppsala Conflict Data Program	New conflicts	Intrastate conflicts	all	LineChart		0	New intrastate conflicts
+	737223	Uppsala Conflict Data Program	New conflicts	Non-state conflicts		LineChart		0	New non-state conflicts
+	737227	Uppsala Conflict Data Program	New conflicts	One-sided violence		LineChart		0	New conflicts of one-sided violence
+	737198	Uppsala Conflict Data Program	New conflicts	Extrasystemic conflicts		LineChart		0	New extrasystemic conflicts
+	737218	Uppsala Conflict Data Program	New conflicts	Intrastate conflicts	non-internationalized	LineChart		0	New non-internationalized intrastate conflicts
+	737212	Uppsala Conflict Data Program	New conflicts	Intrastate conflicts	internationalized	LineChart		0	New internationalized intrastate conflicts
+	737203 737208 737223 737227	Uppsala Conflict Data Program	New conflicts	All armed conflicts	by type	LineChart	1990	0	New armed conflicts by type
+	737203 737218 737212 737198	Uppsala Conflict Data Program	New conflicts	State-based conflicts	by type	StackedBar		0	New state-based conflicts by type
+	737191 737192 737194	Uppsala Conflict Data Program	Conflict deaths	All armed conflicts	all	LineChart		0	Deaths in armed conflicts
+	737197 737200 737199	Uppsala Conflict Data Program	Conflict deaths	Interstate conflicts		LineChart		0	Deaths in interstate conflicts
+	737202	Uppsala Conflict Data Program	Conflict deaths	Intrastate conflicts	all	LineChart		0	Deaths in intrastate conflicts
+	737217	Uppsala Conflict Data Program	Conflict deaths	Non-state conflicts		LineChart		0	Deaths in non-state conflicts
+	737222	Uppsala Conflict Data Program	Conflict deaths	One-sided violence		LineChart		0	Deaths from one-sided violence
+	737213	Uppsala Conflict Data Program	Conflict deaths	Intrastate conflicts	non-internationalized	LineChart		0	Deaths in non-internationalized intrastate conflicts
+	737207	Uppsala Conflict Data Program	Conflict deaths	Intrastate conflicts	internationalized	LineChart		0	Deaths in internationalized intrastate conflicts
+	737197 737202 737217 737222	Uppsala Conflict Data Program	Conflict deaths	All armed conflicts	by type	StackedBar		0	Deaths in armed conflict by type
+	737197 737213 737207	Uppsala Conflict Data Program	Conflict deaths	State-based conflicts	by type	StackedBar		0	Deaths in state-based conflicts by type
 
 columns
 	variableId	name
 	737193	All conflicts
-	737195	All conflicts
-	737191	Best estimate
-	737192	Low estimate
-	737194	High estimate
-	737203	Interstate
-	737208	Intrastate
-	737223	Non-state
-	737227	One-sided violence
-	737218	Non-internationalized intrastate
-	737212	Internationalized intrastate
-	737198	Extrasystemic
 	737201	Interstate
 	737206	Intrastate
 	737221	Non-state
 	737226	One-sided violence
+	737196	Extrasystemic
 	737216	Non-internationalized intrastate
 	737211	Internationalized intrastate
-	737196	Extrasystemic
+	737195	All conflicts
+	737203	Interstate
+	737208	Intrastate
+	737223	Non-state
+	737227	One-sided violence
+	737198	Extrasystemic
+	737218	Non-internationalized intrastate
+	737212	Internationalized intrastate
+	737191	Best estimate
+	737192	Low estimate
+	737194	High estimate
 	737197	Interstate
+	737200	Low estimate
+	737199	High estimate
 	737202	Intrastate
 	737217	Non-state
 	737222	One-sided violence
