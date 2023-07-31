@@ -39,27 +39,27 @@ graphers
 	737207 737210 737209	Uppsala Conflict Data Program	Conflict deaths	Intrastate conflicts	internationalized	LineChart		0	Deaths in internationalized intrastate conflicts
 	737197 737202 737217 737222	Uppsala Conflict Data Program	Conflict deaths	All armed conflicts	by type	StackedBar		0	Deaths in armed conflict by type
 	737197 737213 737207	Uppsala Conflict Data Program	Conflict deaths	State-based conflicts	by type	StackedBar		0	Deaths in state-based conflicts by type
-	737738	Project Mars	Ongoing conflicts	All conventional wars		LineChart		0	Ongoing conventional wars
+	737738	Project Mars	Ongoing conflicts	All conventional wars	all	LineChart		0	Ongoing conventional wars
 	737742	Project Mars	Ongoing conflicts	Civil wars		LineChart		0	Ongoing conventional civil wars
 	737746	Project Mars	Ongoing conflicts	Non-civil wars		LineChart		0	Ongoing other conventional wars
 	737742 737746	Project Mars	Ongoing conflicts	All armed conflicts	by type	StackedArea		0	Ongoing conventional wars by type
-	737741	Project Mars	New conflicts	All conventional wars		LineChart		0	New conventional wars
+	737741	Project Mars	New conflicts	All conventional wars	all	LineChart		0	New conventional wars
 	737745	Project Mars	New conflicts	Civil wars		LineChart		0	New conventional civil wars
 	737749	Project Mars	New conflicts	Non-civil wars		LineChart		0	New other conventional wars
 	737745 737749	Project Mars	New conflicts	All armed conflicts	by type	StackedBar		0	New conventional wars by type
-	737739 737740	Project Mars	Conflict deaths	All conventional wars		LineChart		0	Deaths in conventional wars
+	737739 737740	Project Mars	Conflict deaths	All conventional wars	all	LineChart		0	Deaths in conventional wars
 	737743 737744	Project Mars	Conflict deaths	Civil wars		LineChart		0	Deaths in conventional civil wars
 	737747 737748	Project Mars	Conflict deaths	Non-civil wars		LineChart		0	Deaths in other conventional wars
 	737743 737747	Project Mars	Conflict deaths	All armed conflicts	by type	StackedBar		0	Deaths in conventional wars by type
-	739074	Conflict Catalog	Ongoing conflicts	All major conflicts		LineChart		0	Ongoing major conflicts
+	739074	Conflict Catalog	Ongoing conflicts	All major conflicts	all	LineChart		0	Ongoing major conflicts
 	739077	Conflict Catalog	Ongoing conflicts	Internal conflicts		LineChart		0	Ongoing internal conflicts
 		Conflict Catalog	Ongoing conflicts	Interstate conflicts		LineChart		0	Ongoing interstate conflicts
 	739077	Conflict Catalog	Ongoing conflicts	All major conflicts	by type	StackedArea		0	Ongoing major conflicts by type
-	739075	Conflict Catalog	New conflicts	All major conflicts		LineChart		0	New major conflicts
+	739075	Conflict Catalog	New conflicts	All major conflicts	all	LineChart		0	New major conflicts
 	739079	Conflict Catalog	New conflicts	Internal conflicts		LineChart		0	New internal conflicts
 		Conflict Catalog	New conflicts	Interstate conflicts		LineChart		0	New interstate conflicts
 	739079	Conflict Catalog	New conflicts	All major conflicts	by type	StackedBar		0	New major conflicts by type
-	739076	Conflict Catalog	Conflict deaths	All major conflicts		LineChart		0	Deaths in major conflicts
+	739076	Conflict Catalog	Conflict deaths	All major conflicts	all	LineChart		0	Deaths in major conflicts
 	739078	Conflict Catalog	Conflict deaths	Internal conflicts		LineChart		0	Deaths in internal conflicts
 		Conflict Catalog	Conflict deaths	Interstate conflicts		LineChart		0	Deaths in interstate conflicts
 	739078	Conflict Catalog	Conflict deaths	All major conflicts	by type	StackedBar		0	Deaths in major conflicts by type
