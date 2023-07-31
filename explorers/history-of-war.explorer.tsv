@@ -42,7 +42,7 @@ graphers
 	737738	Project Mars	Ongoing conflicts	All conventional wars	all	LineChart		0	Ongoing conventional wars
 	737742	Project Mars	Ongoing conflicts	Civil wars		LineChart		0	Ongoing conventional civil wars
 	737746	Project Mars	Ongoing conflicts	Non-civil wars		LineChart		0	Ongoing other conventional wars
-	737742 737746	Project Mars	Ongoing conflicts	All conventional wars	by type	StackedArea		0	Ongoing conventional wars by type
+	737742 737746	Project Mars	Ongoing conflicts	All conventional wars	by type	StackedBar		0	Ongoing conventional wars by type
 	737741	Project Mars	New conflicts	All conventional wars	all	LineChart		0	New conventional wars
 	737745	Project Mars	New conflicts	Civil wars		LineChart		0	New conventional civil wars
 	737749	Project Mars	New conflicts	Non-civil wars		LineChart		0	New other conventional wars
@@ -54,7 +54,7 @@ graphers
 	739074	Conflict Catalog	Ongoing conflicts	All major conflicts	all	LineChart		0	Ongoing major conflicts
 	739077	Conflict Catalog	Ongoing conflicts	Internal conflicts		LineChart		0	Ongoing internal conflicts
 		Conflict Catalog	Ongoing conflicts	Interstate conflicts		LineChart		0	Ongoing interstate conflicts
-	739077	Conflict Catalog	Ongoing conflicts	All major conflicts	by type	StackedArea		0	Ongoing major conflicts by type
+	739077	Conflict Catalog	Ongoing conflicts	All major conflicts	by type	StackedBar		0	Ongoing major conflicts by type
 	739075	Conflict Catalog	New conflicts	All major conflicts	all	LineChart		0	New major conflicts
 	739079	Conflict Catalog	New conflicts	Internal conflicts		LineChart		0	New internal conflicts
 		Conflict Catalog	New conflicts	Interstate conflicts		LineChart		0	New interstate conflicts
