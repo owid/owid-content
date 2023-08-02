@@ -58,7 +58,7 @@ graphers
 	783616	Correlates of War – Wars	Ongoing conflicts	Non-state wars		LineChart		0	Ongoing non-state wars
 	783613	Correlates of War – Wars	Ongoing conflicts	Intrastate wars	non-internationalized	LineChart		0	Ongoing non-internationalized intrastate wars
 	783610	Correlates of War – Wars	Ongoing conflicts	Intrastate wars	internationalized	LineChart		0	Ongoing internationalized intrastate wars
-	783604 783601 783616 783613 783610	Correlates of War – Wars	Ongoing conflicts	All wars	by type	StackedBar		0	Ongoing wars by type
+	783610 783613 783616 783601 783604	Correlates of War – Wars	Ongoing conflicts	All wars	by type	StackedBar		0	Ongoing wars by type
 	783600	Correlates of War – Wars	New conflicts	All wars	all	LineChart		0	New wars
 	783606	Correlates of War – Wars	New conflicts	Interstate wars		LineChart		0	New interstate wars
 	783609	Correlates of War – Wars	New conflicts	Intrastate wars	all	LineChart		0	New intrastate wars
@@ -66,7 +66,7 @@ graphers
 	783618	Correlates of War – Wars	New conflicts	Non-state wars		LineChart		0	New non-state wars
 	783615	Correlates of War – Wars	New conflicts	Intrastate wars	non-internationalized	LineChart		0	New non-internationalized intrastate wars
 	783611	Correlates of War – Wars	New conflicts	Intrastate wars	internationalized	LineChart		0	New internationalized intrastate wars
-	783606 783603 783618 783615 783611	Correlates of War – Wars	New conflicts	All wars	by type	StackedBar		0	New wars by type
+	783611 783615 783618 783603 783606	Correlates of War – Wars	New conflicts	All wars	by type	StackedBar		0	New wars by type
 	783599	Correlates of War – Wars	Conflict deaths	All wars	all	LineChart		0	Deaths in wars
 	783605	Correlates of War – Wars	Conflict deaths	Interstate wars		LineChart		0	Deaths in interstate wars
 	783607	Correlates of War – Wars	Conflict deaths	Intrastate wars	all	LineChart		0	Deaths in intrastate wars
@@ -74,7 +74,7 @@ graphers
 	783617	Correlates of War – Wars	Conflict deaths	Non-state wars		LineChart		0	Deaths in non-state wars
 	783614	Correlates of War – Wars	Conflict deaths	Intrastate wars	non-internationalized	LineChart		0	Deaths in non-internationalized intrastate wars
 	783612	Correlates of War – Wars	Conflict deaths	Intrastate wars	internationalized	LineChart		0	Deaths in internationalized intrastate wars
-	783605 783602 783617 783614 783612	Correlates of War – Wars	Conflict deaths	All wars	by type	StackedBar		0	Deaths in wars by type
+	783612 783614 783617 783602 783605	Correlates of War – Wars	Conflict deaths	All wars	by type	StackedBar		0	Deaths in wars by type
 	739074	Conflict Catalog	Ongoing conflicts	All major conflicts	all	LineChart		0	Ongoing major conflicts
 	739077	Conflict Catalog	Ongoing conflicts	Internal conflicts		LineChart		0	Ongoing internal conflicts
 	772635	Conflict Catalog	Ongoing conflicts	Interstate conflicts		LineChart		0	Ongoing interstate conflicts
@@ -93,21 +93,21 @@ graphers
 	783575	PRIO Battledeaths v3.1	Ongoing conflicts	Extrasystemic conflicts		LineChart		0	Ongoing extrasystemic conflicts
 	783592	PRIO Battledeaths v3.1	Ongoing conflicts	Intrastate conflicts	non-internationalized	LineChart		0	Ongoing non-internationalized intrastate conflicts
 	783587	PRIO Battledeaths v3.1	Ongoing conflicts	Intrastate conflicts	internationalized	LineChart		0	Ongoing internationalized intrastate conflicts
-	783579 783575 783592 783587	PRIO Battledeaths v3.1	Ongoing conflicts	All armed conflicts	by type	StackedArea		0	Ongoing armed conflicts by type
+	783592 783587 783575 783579	PRIO Battledeaths v3.1	Ongoing conflicts	All armed conflicts	by type	StackedArea		0	Ongoing armed conflicts by type
 	783573	PRIO Battledeaths v3.1	New conflicts	All armed conflicts	all	LineChart		0	New armed conflicts
 	783582	PRIO Battledeaths v3.1	New conflicts	Interstate conflicts		LineChart		0	New interstate conflicts
 	783584	PRIO Battledeaths v3.1	New conflicts	Intrastate conflicts	all	LineChart		0	New intrastate conflicts
 	783577	PRIO Battledeaths v3.1	New conflicts	Extrasystemic conflicts		LineChart		0	New extrasystemic conflicts
 	783597	PRIO Battledeaths v3.1	New conflicts	Intrastate conflicts	non-internationalized	LineChart		0	New non-internationalized intrastate conflicts
 	783590	PRIO Battledeaths v3.1	New conflicts	Intrastate conflicts	internationalized	LineChart		0	New internationalized intrastate conflicts
-	783582 783577 783597 783590	PRIO Battledeaths v3.1	New conflicts	All armed conflicts	by type	StackedBar		0	New armed conflicts by type
+	783597 783590 783577 783582	PRIO Battledeaths v3.1	New conflicts	All armed conflicts	by type	StackedBar		0	New armed conflicts by type
 	783569 783570 783571	PRIO Battledeaths v3.1	Conflict deaths	All armed conflicts	all	LineChart		0	Deaths in armed conflicts
 	783581 783578 783580	PRIO Battledeaths v3.1	Conflict deaths	Interstate conflicts		LineChart		0	Deaths in interstate conflicts
 	783586 783583 783589	PRIO Battledeaths v3.1	Conflict deaths	Intrastate conflicts	all	LineChart		0	Deaths in intrastate conflicts
 	783574 783572 783576	PRIO Battledeaths v3.1	Conflict deaths	Extrasystemic conflicts		LineChart		0	Deaths in extrasystemic conflicts
 	783595 783591 783596	PRIO Battledeaths v3.1	Conflict deaths	Intrastate conflicts	non-internationalized	LineChart		0	Deaths in non-internationalized intrastate conflicts
 	783588 783594 783593	PRIO Battledeaths v3.1	Conflict deaths	Intrastate conflicts	internationalized	LineChart		0	Deaths in internationalized intrastate conflicts
-	783581 783574 783595 783588	PRIO Battledeaths v3.1	Conflict deaths	All armed conflicts	by type	StackedBar		0	Deaths in armed conflict by type
+	783595 783588 783574 783581	PRIO Battledeaths v3.1	Conflict deaths	All armed conflicts	by type	StackedBar		0	Deaths in armed conflict by type
 
 columns
 	variableId	name
