@@ -53,7 +53,7 @@ graphers
 	737743 737747	Project Mars	Conflict deaths	All conventional wars	by type	StackedBar		0	Deaths in conventional wars by type
 	783598	Correlates of War – Wars	Ongoing conflicts	All wars	all	LineChart		0	Ongoing wars
 	783604	Correlates of War – Wars	Ongoing conflicts	Interstate wars		LineChart		0	Ongoing interstate wars
-	783608	Correlates of War – Wars	Ongoing conflicts	Intrastate wars		LineChart		0	Ongoing intrastate wars
+	783608	Correlates of War – Wars	Ongoing conflicts	Intrastate wars	all	LineChart		0	Ongoing intrastate wars
 	783601	Correlates of War – Wars	Ongoing conflicts	Extra-state wars		LineChart		0	Ongoing extra-state wars
 	783616	Correlates of War – Wars	Ongoing conflicts	Non-state wars		LineChart		0	Ongoing non-state wars
 	783613	Correlates of War – Wars	Ongoing conflicts	Intrastate conflicts	non-internationalized	LineChart		0	Ongoing non-internationalized intrastate wars
@@ -61,7 +61,7 @@ graphers
 	783604 783601 783616 783613 783610	Correlates of War – Wars	Ongoing conflicts	All wars	by type	StackedBar		0	Ongoing wars by type
 	783600	Correlates of War – Wars	New conflicts	All wars	all	LineChart		0	New wars
 	783606	Correlates of War – Wars	New conflicts	Interstate wars		LineChart		0	New interstate wars
-	783609	Correlates of War – Wars	New conflicts	Intrastate wars		LineChart		0	New intrastate wars
+	783609	Correlates of War – Wars	New conflicts	Intrastate wars	all	LineChart		0	New intrastate wars
 	783603	Correlates of War – Wars	New conflicts	Extra-state wars		LineChart		0	New extra-state wars
 	783618	Correlates of War – Wars	New conflicts	Non-state wars		LineChart		0	New non-state wars
 	783615	Correlates of War – Wars	New conflicts	Intrastate conflicts	non-internationalized	LineChart		0	New non-internationalized intrastate wars
@@ -69,7 +69,7 @@ graphers
 	783606 783603 783618 783615 783611	Correlates of War – Wars	New conflicts	All wars	by type	StackedBar		0	New wars by type
 	783599	Correlates of War – Wars	Conflict deaths	All wars	all	LineChart		0	Deaths in wars
 	783605	Correlates of War – Wars	Conflict deaths	Interstate wars		LineChart		0	Deaths in interstate wars
-	783607	Correlates of War – Wars	Conflict deaths	Intrastate wars		LineChart		0	Deaths in intrastate wars
+	783607	Correlates of War – Wars	Conflict deaths	Intrastate wars	all	LineChart		0	Deaths in intrastate wars
 	783602	Correlates of War – Wars	Conflict deaths	Extra-state wars		LineChart		0	Deaths in extra-state wars
 	783617	Correlates of War – Wars	Conflict deaths	Non-state wars		LineChart		0	Deaths in non-state wars
 	783614	Correlates of War – Wars	Conflict deaths	Intrastate conflicts	non-internationalized	LineChart		0	Deaths in non-internationalized intrastate wars
