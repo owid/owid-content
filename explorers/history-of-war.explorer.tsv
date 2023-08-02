@@ -53,16 +53,16 @@ graphers
 	737743 737747	Project Mars	Conflict deaths	All conventional wars	by type	StackedBar		0	Deaths in conventional wars by type
 	739074	Conflict Catalog	Ongoing conflicts	All major conflicts	all	LineChart		0	Ongoing major conflicts
 	739077	Conflict Catalog	Ongoing conflicts	Internal conflicts		LineChart		0	Ongoing internal conflicts
-		Conflict Catalog	Ongoing conflicts	Interstate conflicts		LineChart		0	Ongoing interstate conflicts
-	739077	Conflict Catalog	Ongoing conflicts	All major conflicts	by type	StackedBar		0	Ongoing major conflicts by type
+	772635	Conflict Catalog	Ongoing conflicts	Interstate conflicts		LineChart		0	Ongoing interstate conflicts
+	739077 772635	Conflict Catalog	Ongoing conflicts	All major conflicts	by type	StackedBar		0	Ongoing major conflicts by type
 	739075	Conflict Catalog	New conflicts	All major conflicts	all	LineChart		0	New major conflicts
 	739079	Conflict Catalog	New conflicts	Internal conflicts		LineChart		0	New internal conflicts
-		Conflict Catalog	New conflicts	Interstate conflicts		LineChart		0	New interstate conflicts
-	739079	Conflict Catalog	New conflicts	All major conflicts	by type	StackedBar		0	New major conflicts by type
+	772636	Conflict Catalog	New conflicts	Interstate conflicts		LineChart		0	New interstate conflicts
+	739079 772636	Conflict Catalog	New conflicts	All major conflicts	by type	StackedBar		0	New major conflicts by type
 	739076	Conflict Catalog	Conflict deaths	All major conflicts	all	LineChart		0	Deaths in major conflicts
 	739078	Conflict Catalog	Conflict deaths	Internal conflicts		LineChart		0	Deaths in internal conflicts
-		Conflict Catalog	Conflict deaths	Interstate conflicts		LineChart		0	Deaths in interstate conflicts
-	739078	Conflict Catalog	Conflict deaths	All major conflicts	by type	StackedBar		0	Deaths in major conflicts by type
+	772637	Conflict Catalog	Conflict deaths	Interstate conflicts		LineChart		0	Deaths in interstate conflicts
+	739078 772637	Conflict Catalog	Conflict deaths	All major conflicts	by type	StackedBar		0	Deaths in major conflicts by type
 
 columns
 	variableId	name
@@ -117,10 +117,10 @@ columns
 	737748	High estimate
 	739074	All conflicts
 	739077	Internal
-		Interstate
+	772635	Interstate
 	739075	All conflicts
 	739079	Internal
-		Interstate
+	772636	Interstate
 	739076	All conflicts
 	739078	Internal
-		Interstate
+	772637	Interstate
