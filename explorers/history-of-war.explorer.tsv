@@ -15,11 +15,11 @@ graphers
 	737206	Uppsala Conflict Data Program	Ongoing conflicts	Intrastate conflicts	all	LineChart		0	Ongoing intrastate conflicts
 	737221	Uppsala Conflict Data Program	Ongoing conflicts	Non-state conflicts		LineChart		0	Ongoing non-state conflicts
 	737226	Uppsala Conflict Data Program	Ongoing conflicts	One-sided violence		LineChart		0	Ongoing conflicts of one-sided violence
-	737198	Uppsala Conflict Data Program	Ongoing conflicts	Extrasystemic conflicts		LineChart		0	Ongoing extrasystemic conflicts
-	737212	Uppsala Conflict Data Program	Ongoing conflicts	Intrastate conflicts	non-internationalized	LineChart		0	Ongoing non-internationalized intrastate conflicts
-	737218	Uppsala Conflict Data Program	Ongoing conflicts	Intrastate conflicts	internationalized	LineChart		0	Ongoing internationalized intrastate conflicts
-	737201 737206 737221 737226	Uppsala Conflict Data Program	Ongoing conflicts	All armed conflicts	by type	StackedArea		0	Ongoing armed conflicts by type
-	737201 737216 737211 737196	Uppsala Conflict Data Program	Ongoing conflicts	State-based conflicts	by type	StackedArea		0	Ongoing state-based conflicts by type
+	737196	Uppsala Conflict Data Program	Ongoing conflicts	Extrasystemic conflicts		LineChart		0	Ongoing extrasystemic conflicts
+	737216	Uppsala Conflict Data Program	Ongoing conflicts	Intrastate conflicts	non-internationalized	LineChart		0	Ongoing non-internationalized intrastate conflicts
+	737211	Uppsala Conflict Data Program	Ongoing conflicts	Intrastate conflicts	internationalized	LineChart		0	Ongoing internationalized intrastate conflicts
+	737226 737221 737206 737201 737196	Uppsala Conflict Data Program	Ongoing conflicts	All armed conflicts	by type	StackedArea		0	Ongoing armed conflicts by type
+	737211 737216 737196 737201	Uppsala Conflict Data Program	Ongoing conflicts	State-based conflicts	by type	StackedArea		0	Ongoing state-based conflicts by type
 	737195	Uppsala Conflict Data Program	New conflicts	All armed conflicts	all	LineChart		0	New armed conflicts
 	737203	Uppsala Conflict Data Program	New conflicts	Interstate conflicts		LineChart		0	New interstate conflicts
 	737208	Uppsala Conflict Data Program	New conflicts	Intrastate conflicts	all	LineChart		0	New intrastate conflicts
@@ -28,8 +28,8 @@ graphers
 	737198	Uppsala Conflict Data Program	New conflicts	Extrasystemic conflicts		LineChart		0	New extrasystemic conflicts
 	737218	Uppsala Conflict Data Program	New conflicts	Intrastate conflicts	non-internationalized	LineChart		0	New non-internationalized intrastate conflicts
 	737212	Uppsala Conflict Data Program	New conflicts	Intrastate conflicts	internationalized	LineChart		0	New internationalized intrastate conflicts
-	737203 737208 737223 737227	Uppsala Conflict Data Program	New conflicts	All armed conflicts	by type	StackedBar	1990	0	New armed conflicts by type
-	737203 737218 737212 737198	Uppsala Conflict Data Program	New conflicts	State-based conflicts	by type	StackedBar		0	New state-based conflicts by type
+	737227 737223 737208 737203 737198	Uppsala Conflict Data Program	New conflicts	All armed conflicts	by type	StackedBar		0	New armed conflicts by type
+	737212 737218 737198 737203	Uppsala Conflict Data Program	New conflicts	State-based conflicts	by type	StackedBar		0	New state-based conflicts by type
 	737191 737192 737194	Uppsala Conflict Data Program	Conflict deaths	All armed conflicts	all	LineChart		0	Deaths in armed conflicts
 	737197 737200 737199	Uppsala Conflict Data Program	Conflict deaths	Interstate conflicts		LineChart		0	Deaths in interstate conflicts
 	737202 737205 737204	Uppsala Conflict Data Program	Conflict deaths	Intrastate conflicts	all	LineChart		0	Deaths in intrastate conflicts
@@ -37,8 +37,8 @@ graphers
 	737222 737225 737224	Uppsala Conflict Data Program	Conflict deaths	One-sided violence		LineChart		0	Deaths from one-sided violence
 	737213 737215 737214	Uppsala Conflict Data Program	Conflict deaths	Intrastate conflicts	non-internationalized	LineChart		0	Deaths in non-internationalized intrastate conflicts
 	737207 737210 737209	Uppsala Conflict Data Program	Conflict deaths	Intrastate conflicts	internationalized	LineChart		0	Deaths in internationalized intrastate conflicts
-	737197 737202 737217 737222	Uppsala Conflict Data Program	Conflict deaths	All armed conflicts	by type	StackedBar		0	Deaths in armed conflict by type
-	737197 737213 737207	Uppsala Conflict Data Program	Conflict deaths	State-based conflicts	by type	StackedBar		0	Deaths in state-based conflicts by type
+	737222 737217 737202 737197	Uppsala Conflict Data Program	Conflict deaths	All armed conflicts	by type	StackedBar		0	Deaths in armed conflict by type
+	737207  737213 737197	Uppsala Conflict Data Program	Conflict deaths	State-based conflicts	by type	StackedBar		0	Deaths in state-based conflicts by type
 	737738	Project Mars	Ongoing conflicts	All conventional wars	all	LineChart		0	Ongoing conventional wars
 	737742	Project Mars	Ongoing conflicts	Civil wars		LineChart		0	Ongoing conventional civil wars
 	737746	Project Mars	Ongoing conflicts	Other wars		LineChart		0	Ongoing other conventional wars
