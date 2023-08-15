@@ -1,0 +1,67 @@
+explorerTitle	Animal Welfare Data Explorer
+isPublished	FALSE
+thumbnail
+explorerSubtitle	Explore the number of animals slaughtered, raised, and welfare impacts.
+selection	World	United States	China	India	Brazil	United Kingdom
+wpBlockId
+subNavId
+subNavCurrentId
+entityType	country
+graphers
+	yVariableIds	Metric Dropdown	Animal Dropdown	Per person Checkbox	title	subtitle	type	timelineMinTime	yAxisMin	hasMapTab
+	718096	Animals slaughtered	All animals (total)	false	Number of land animals slaughtered for meat per year		LineChart		0	true
+	718097	Animals slaughtered	All animals (total)	true	Number of land animals slaughtered for meat per person		LineChart		0	true
+	718036	Animals slaughtered	Chickens	false	Number of chickens slaughtered for meat per year		LineChart		0	true
+	718037	Animals slaughtered	Chickens	true	Number of chickens slaughtered for meat per person	The number of slaughtered animals is divided by the population of a country to give an estimate of the number slaughtered per person.	LineChart		0	true
+	718041	Animals slaughtered	Duck	false	Number of ducks slaughtered for meat per year		LineChart		0	true
+	718042	Animals slaughtered	Duck	true	Number of ducks slaughtered for meat per person	The number of slaughtered animals is divided by the population of a country to give an estimate of the number slaughtered per person.	LineChart		0	true
+	718100	Animals slaughtered	Turkeys	false	Number of turkeys slaughtered for meat per year		LineChart		0	true
+	718101	Animals slaughtered	Turkeys	true	Number of turkeys slaughtered for meat per person	The number of slaughtered animals is divided by the population of a country to give an estimate of the number slaughtered per person.	LineChart		0	true
+	718056	Animals slaughtered	Geese	false	Number of geese slaughtered for meat per year		LineChart		0	true
+	718057	Animals slaughtered	Geese	true	Number of geese slaughtered for meat per person	The number of slaughtered animals is divided by the population of a country to give an estimate of the number slaughtered per person.	LineChart		0	true
+	718011	Animals slaughtered	Pigeons and other birds	false	Number of pigeons slaughtered for meat per year		LineChart		0	true
+	718012	Animals slaughtered	Pigeons and other birds	true	Number of pigeons slaughtered for meat per person	The number of slaughtered animals is divided by the population of a country to give an estimate of the number slaughtered per person.	LineChart		0	true
+	718081	Animals slaughtered	Poultry (total)	false	Number of poultry birds slaughtered for meat per year		LineChart		0	true
+	718082	Animals slaughtered	Poultry (total)	true	Number of poultry birds slaughtered for meat per person	The number of slaughtered animals is divided by the population of a country to give an estimate of the number slaughtered per person.	LineChart		0	true
+	718076	Animals slaughtered	Pigs	false	Number of pigs slaughtered for meat per year		LineChart		0	true
+	718077	Animals slaughtered	Pigs	true	Number of pigs slaughtered for meat per person	The number of slaughtered animals is divided by the population of a country to give an estimate of the number slaughtered per person.	LineChart		0	true
+	718051	Animals slaughtered	Goat	false	Number of goats slaughtered for meat per year		LineChart		0	true
+	718052	Animals slaughtered	Goat	true	Number of goats slaughtered for meat per person	The number of slaughtered animals is divided by the population of a country to give an estimate of the number slaughtered per person.	LineChart		0	true
+	718066	Animals slaughtered	Sheep	false	Number of sheep slaughtered for meat per year		LineChart		0	true
+	718067	Animals slaughtered	Sheep	true	Number of sheep slaughtered for meat per person	The number of slaughtered animals is divided by the population of a country to give an estimate of the number slaughtered per person.	LineChart		0	true
+	717996	Animals slaughtered	Cows	false	Number of cows slaughtered for meat per year		LineChart		0	true
+	717997	Animals slaughtered	Cows	true	Number of cows slaughtered for meat per person	The number of slaughtered animals is divided by the population of a country to give an estimate of the number slaughtered per person.	LineChart		0	true
+	718026	Animals slaughtered	Buffalo	false	Number of buffalo slaughtered for meat per year		LineChart		0	true
+	718027	Animals slaughtered	Buffalo	true	Number of buffalo slaughtered for meat per person	The number of slaughtered animals is divided by the population of a country to give an estimate of the number slaughtered per person.	LineChart		0	true
+	718021	Animals slaughtered	Cows and buffalo	false	Number of cows and buffalo slaughtered for meat per year		LineChart		0	true
+	718022	Animals slaughtered	Cows and buffalo	true	Number of cows and buffalo slaughtered for meat per person	The number of slaughtered animals is divided by the population of a country to give an estimate of the number slaughtered per person.	LineChart		0	true
+	718061	Animals slaughtered	Horse	false	Number of horses slaughtered for meat per year		LineChart		0	true
+	718062	Animals slaughtered	Horse	true	Number of horses slaughtered for meat per person	The number of slaughtered animals is divided by the population of a country to give an estimate of the number slaughtered per person.	LineChart		0	true
+	718031	Animals slaughtered	Camels	false	Number of camels slaughtered for meat per year		LineChart		0	true
+	718032	Animals slaughtered	Camels	true	Number of camels slaughtered for meat per person	The number of slaughtered animals is divided by the population of a country to give an estimate of the number slaughtered per person.	LineChart		0	true
+	718070	Animals slaughtered	Mule	false	Number of mule slaughtered for meat per year		LineChart		0	true
+	718071	Animals slaughtered	Mule	true	Number of mules slaughtered for meat per person	The number of slaughtered animals is divided by the population of a country to give an estimate of the number slaughtered per person.	LineChart		0	true
+	718061	Animals slaughtered	Ass	false	Number of asses slaughtered for meat per year		LineChart		0	true
+	718062	Animals slaughtered	Ass	true	Number of asses slaughtered for meat per person	The number of slaughtered animals is divided by the population of a country to give an estimate of the number slaughtered per person.	LineChart		0	true
+	718086	Animals slaughtered	Rabbit	false	Number of rabbits slaughtered for meat per year		LineChart		0	true
+	718087	Animals slaughtered	Rabbit	true	Number of rabbits slaughtered for meat per person	The number of slaughtered animals is divided by the population of a country to give an estimate of the number slaughtered per person.	LineChart		0	true
+	718045	Animals slaughtered	Game	false	Number of game animals slaughtered for meat per year		LineChart		0	true
+	718046	Animals slaughtered	Game	true	Number of game animals slaughtered for meat per person	The number of slaughtered animals is divided by the population of a country to give an estimate of the number slaughtered per person.	LineChart		0	true
+	717658	Live animals (stocks)	Chickens	false	Number of chickens	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.	LineChart		0	true
+	717748	Live animals (stocks)	Duck	false	Number of ducks	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.	LineChart		0	true
+	718624	Live animals (stocks)	Turkeys	false	Number of turkeys	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.	LineChart		0	true
+	717748	Live animals (stocks)	Duck	false	Number of ducks	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.	LineChart		0	true
+	717837	Live animals (stocks)	Geese	false	Number of geese	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.	LineChart		0	true
+	718377	Live animals (stocks)	Poultry (total)	false	Number of poultry birds	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.	LineChart		0	true
+	718571	Live animals (stocks)	Pigs	false	Number of pigs	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.	LineChart		0	true
+	717848	Live animals (stocks)	Goat	false	Number of goats	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.	LineChart		0	true
+	718476	Live animals (stocks)	Sheep	false	Number of sheep	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.	LineChart		0	true
+	717620	Live animals (stocks)	Cows	false	Number of cows	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.	LineChart		0	true
+	717560	Live animals (stocks)	Buffalo	false	Number of buffalo	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.	LineChart		0	true
+	717614	Live animals (stocks)	Cows and buffalo	false	Number of cows and buffaloes	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.	LineChart		0	true
+	717903	Live animals (stocks)	Horse	false	Number of horses	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.	LineChart		0	true
+	717577	Live animals (stocks)	Camels	false	Number of camels	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.	LineChart		0	true
+	718132	Live animals (stocks)	Mule	false	Number of mules	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.	LineChart		0	true
+	717490	Live animals (stocks)	Ass	false	Number of asses	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.	LineChart		0	true
+	718403	Live animals (stocks)	Rabbit	false	Number of rabbits	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.	LineChart		0	true
+	717524	Live animals (stocks)	Bees	false	Number of bees	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.	LineChart		0	true
