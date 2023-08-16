@@ -67,14 +67,12 @@ graphers
 	717490	Live animals (stocks)	Ass	false	Number of asses	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.		LineChart	0	true	true
 	718403	Live animals (stocks)	Rabbit	false	Number of rabbits	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.		LineChart	0	true	true
 	717524	Live animals (stocks)	Bees	false	Number of bees	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.		LineChart	0	true	true
-	789690	Animals killed per kilogram of product (direct)			Number of lives lost per kilogram of product	The estimated number of animal lives that go toward each kilogram of animal product purchased for retail sale. This only includes direct deaths e.g. the pork numbers include only the deaths of pigs slaughtered for food.		DiscreteBar		false
-	789691	Animals killed per kilogram of product (total)			Number of lives lost per kilogram, including indirect deaths	The estimated number of animal lives that go toward each kilogram of animal product purchased for retail sale. This includes direct and indirect deaths e.g. pork numbers include pigs slaughtered for food (direct) but also those who die pre-slaughter and feed fish given to those pigs (indirect).		DiscreteBar		false
 	783621 783620	Cage and cage-free hens			Number of laying hens in cages and cage-free housing			StackedDiscreteBar
 		Battery cage laws
 		Fur ban laws
 		Debeaking laws
 columns
-	variableId	tolerance	name	sourceName
+	variableId	tolerance	name	sourceName	colorScaleScheme
 	783621	10
 	783620	10
 	791804		Midpoint	Fishcount
@@ -83,3 +81,59 @@ columns
 	791807		Midpoint	Fishcount
 	791808		Upper bound	Fishcount
 	791809		Lower bound	Fishcount
+	718096				YlOrBr
+	718097				YlOrBr
+	718036				YlGn
+	718037				YlGn
+	718041				Blues
+	718042				Blues
+	718100				YlOrRd
+	718101				YlOrRd
+	718056				Purples
+	718057				Purples
+	718011				Greens
+	718012				Greens
+	718081				YlGnBu
+	718082				YlGnBu
+	718076				YlOrBr
+	718077				YlOrBr
+	718051				YlGn
+	718052				YlGn
+	718066				Blues
+	718067				Blues
+	717996				YlOrRd
+	717997				YlOrRd
+	718026				Purples
+	718027				Purples
+	718021				Greens
+	718022				Greens
+	718061				YlGnBu
+	718062				YlGnBu
+	718031				YlOrBr
+	718032				YlOrBr
+	718070				YlGn
+	718071				YlGn
+	718061				Blues
+	718062				Blues
+	718086				YlOrRd
+	718087				YlOrRd
+	718045				Purples
+	718046				Purples
+	717658				Greens
+	717748				Greens
+	718624				YlGnBu
+	717748				YlGnBu
+	717837				YlOrBr
+	718377				YlOrBr
+	718571				YlGn
+	717848				YlGn
+	718476				Blues
+	717620				Blues
+	717560				YlOrRd
+	717614				YlOrRd
+	717903				Purples
+	717577				Purples
+	718132				Greens
+	717490				Greens
+	718403				YlGnBu
+	717524				YlGnBu
