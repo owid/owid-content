@@ -52,18 +52,18 @@ graphers
 	737747 737748		Project Mars	Conflict deaths	Other wars		LineChart	0	Deaths in other conventional wars
 	737743 737747		Project Mars	Conflict deaths	All conventional wars	by type	StackedBar	0	Deaths in conventional wars by type
 	792335		Militarized Interstate Confrontations	Ongoing conflicts	All conflicts	all	LineChart	0	Ongoing militarized interstate confrontations
-	792327		Militarized Interstate Confrontations	Ongoing conflicts	Display of force		LineChart	0	Ongoing displays of force in interstate confrontations
-	792329		Militarized Interstate Confrontations	Ongoing conflicts	Threat of force		LineChart	0	Ongoing threats of force in interstate confrontations
-	792332		Militarized Interstate Confrontations	Ongoing conflicts	Use of force		LineChart	0	Ongoing uses of force in interstate confrontations
+	792327		Militarized Interstate Confrontations	Ongoing conflicts	Displays of force		LineChart	0	Ongoing displays of force in interstate confrontations
+	792329		Militarized Interstate Confrontations	Ongoing conflicts	Threats of force		LineChart	0	Ongoing threats of force in interstate confrontations
+	792332		Militarized Interstate Confrontations	Ongoing conflicts	Uses of force		LineChart	0	Ongoing uses of force in interstate confrontations
 	792333		Militarized Interstate Confrontations	Ongoing conflicts	Wars		LineChart	0	Ongoing interstate wars
 	792327 792329 792332 792333		Militarized Interstate Confrontations	Ongoing conflicts	All conflicts	by type	StackedBar	0	Ongoing militarized interstate confrontation by hostility level
 	792338		Militarized Interstate Confrontations	New conflicts	All conflicts	all	LineChart	0	New militarized interstate confrontations
-	792328		Militarized Interstate Confrontations	New conflicts	Display of force		LineChart	0	New displays of force in interstate confrontations
-	792330		Militarized Interstate Confrontations	New conflicts	Threat of force		LineChart	0	New threats of force in interstate confrontations
-	792331		Militarized Interstate Confrontations	New conflicts	Use of force		LineChart	0	New uses of force in interstate confrontations
+	792328		Militarized Interstate Confrontations	New conflicts	Displays of force		LineChart	0	New displays of force in interstate confrontations
+	792330		Militarized Interstate Confrontations	New conflicts	Threats of force		LineChart	0	New threats of force in interstate confrontations
+	792331		Militarized Interstate Confrontations	New conflicts	Uses of force		LineChart	0	New uses of force in interstate confrontations
 	792334		Militarized Interstate Confrontations	New conflicts	Wars		LineChart	0	New interstate wars
 	792328 792330 792331 792334		Militarized Interstate Confrontations	New conflicts	All conflicts	by type	StackedBar	0	New militarized interstate confrontation by hostility level
-	792336 792337		Militarized Interstate Confrontations	Conflict deaths	All conflicts		LineChart	0	Deaths in militarized interstate confrontations
+	792337 792336		Militarized Interstate Confrontations	Conflict deaths	All conflicts		LineChart	0	Deaths in militarized interstate confrontations
 	783598		Correlates of War – Wars	Ongoing conflicts	All wars	all	LineChart	0	Ongoing wars
 	783604		Correlates of War – Wars	Ongoing conflicts	Interstate wars		LineChart	0	Ongoing interstate wars
 	783608		Correlates of War – Wars	Ongoing conflicts	Intrastate wars	all	LineChart	0	Ongoing intrastate wars
@@ -71,7 +71,7 @@ graphers
 	783616		Correlates of War – Wars	Ongoing conflicts	Non-state wars		LineChart	0	Ongoing non-state wars
 	783613		Correlates of War – Wars	Ongoing conflicts	Intrastate wars	non-internationalized	LineChart	0	Ongoing non-internationalized intrastate wars
 	783610		Correlates of War – Wars	Ongoing conflicts	Intrastate wars	internationalized	LineChart	0	Ongoing internationalized intrastate wars
-	783610 783613 783616 783601 783604		Correlates of War – Wars	Ongoing conflicts	All wars	by type	StackedBar	0	Ongoing wars by type
+	783604 783601 783616 783613 783610 		Correlates of War – Wars	Ongoing conflicts	All wars	by type	StackedBar	0	Ongoing wars by type
 	783600		Correlates of War – Wars	New conflicts	All wars	all	LineChart	0	New wars
 	783606		Correlates of War – Wars	New conflicts	Interstate wars		LineChart	0	New interstate wars
 	783609		Correlates of War – Wars	New conflicts	Intrastate wars	all	LineChart	0	New intrastate wars
@@ -79,7 +79,7 @@ graphers
 	783618		Correlates of War – Wars	New conflicts	Non-state wars		LineChart	0	New non-state wars
 	783615		Correlates of War – Wars	New conflicts	Intrastate wars	non-internationalized	LineChart	0	New non-internationalized intrastate wars
 	783611		Correlates of War – Wars	New conflicts	Intrastate wars	internationalized	LineChart	0	New internationalized intrastate wars
-	783611 783615 783618 783603 783606		Correlates of War – Wars	New conflicts	All wars	by type	StackedBar	0	New wars by type
+	783606 783603 783618 783615 783611		Correlates of War – Wars	New conflicts	All wars	by type	StackedBar	0	New wars by type
 	783599		Correlates of War – Wars	Conflict deaths	All wars	all	LineChart	0	Deaths in wars
 	783605		Correlates of War – Wars	Conflict deaths	Interstate wars		LineChart	0	Deaths in interstate wars
 	783607		Correlates of War – Wars	Conflict deaths	Intrastate wars	all	LineChart	0	Deaths in intrastate wars
@@ -191,14 +191,14 @@ columns
 	737747	Other wars
 	737748	High estimate
 	792335	All conflicts
-	792327	Display of force
-	792329	Threat of force
-	792332	Use of force
+	792327	Displays of force
+	792329	Threats of force
+	792332	Uses of force
 	792333	Wars
 	792338	All conflicts
-	792328	Display of force
-	792330	Threat of force
-	792331	Use of force
+	792328	Displays of force
+	792330	Threats of force
+	792331	Uses of force
 	792334	Wars
 	792336	Low estimate
 	792337	High estimate
