@@ -1,6 +1,6 @@
 
 explorerTitle	Conflict Data Explorer
-isPublished	false
+isPublished	FALSE
 thumbnail
 explorerSubtitle	Explore the world's conflicts with the leading approaches to measuring them.
 selection	World
@@ -48,8 +48,8 @@ graphers
 	737749		Project Mars	New conflicts	Other wars		LineChart	0	New other conventional wars
 	737745 737749		Project Mars	New conflicts	All conventional wars	by type	StackedBar	0	New conventional wars by type
 	737739 737740		Project Mars	Conflict deaths	All conventional wars	all	LineChart	0	Deaths in conventional wars
-	737743 737744		Project Mars	Conflict deaths	Civil wars		LineChart	0	Deaths in conventional civil wars
-	737747 737748		Project Mars	Conflict deaths	Other wars		LineChart	0	Deaths in other conventional wars
+	737744	civil_low	Project Mars	Conflict deaths	Civil wars		LineChart	0	Deaths in conventional civil wars
+	737748	other_low	Project Mars	Conflict deaths	Other wars		LineChart	0	Deaths in other conventional wars
 	737743 737747		Project Mars	Conflict deaths	All conventional wars	by type	StackedBar	0	Deaths in conventional wars by type
 	792335		Militarized Interstate Confrontations	Ongoing conflicts	All conflicts	all	LineChart	0	Ongoing militarized interstate confrontations
 	792327		Militarized Interstate Confrontations	Ongoing conflicts	Displays of force		LineChart	0	Ongoing displays of force in interstate confrontations
@@ -130,11 +130,11 @@ graphers
 	783590		PRIO Battledeaths v3.1	New conflicts	Intrastate conflicts	internationalized	LineChart	0	New internationalized intrastate conflicts
 	783597 783590 783577 783582		PRIO Battledeaths v3.1	New conflicts	All armed conflicts	by type	StackedBar	0	New armed conflicts by type
 	783569 783570 783571		PRIO Battledeaths v3.1	Conflict deaths	All armed conflicts	all	LineChart	0	Deaths in armed conflicts
-	783581 783578 783580		PRIO Battledeaths v3.1	Conflict deaths	Interstate conflicts		LineChart	0	Deaths in interstate conflicts
-	783586 783583 783589		PRIO Battledeaths v3.1	Conflict deaths	Intrastate conflicts	all	LineChart	0	Deaths in intrastate conflicts
-	783574 783572 783576		PRIO Battledeaths v3.1	Conflict deaths	Extrasystemic conflicts		LineChart	0	Deaths in extrasystemic conflicts
-	783595 783591 783596		PRIO Battledeaths v3.1	Conflict deaths	Intrastate conflicts	non-internationalized	LineChart	0	Deaths in non-internationalized intrastate conflicts
-	783588 783594 783593		PRIO Battledeaths v3.1	Conflict deaths	Intrastate conflicts	internationalized	LineChart	0	Deaths in internationalized intrastate conflicts
+	783578 783580	interstate_prio_best	PRIO Battledeaths v3.1	Conflict deaths	Interstate conflicts		LineChart	0	Deaths in interstate conflicts
+	783583 783589	intrastate_prio_best	PRIO Battledeaths v3.1	Conflict deaths	Intrastate conflicts	all	LineChart	0	Deaths in intrastate conflicts
+	783572 783576	extrasyst_prio_best	PRIO Battledeaths v3.1	Conflict deaths	Extrasystemic conflicts		LineChart	0	Deaths in extrasystemic conflicts
+	783591 783596	nonint_intrastate_prio_best	PRIO Battledeaths v3.1	Conflict deaths	Intrastate conflicts	non-internationalized	LineChart	0	Deaths in non-internationalized intrastate conflicts
+	783594 783593	int_intrastate_prio_best	PRIO Battledeaths v3.1	Conflict deaths	Intrastate conflicts	internationalized	LineChart	0	Deaths in internationalized intrastate conflicts
 	783595 783588 783574 783581		PRIO Battledeaths v3.1	Conflict deaths	All armed conflicts	by type	StackedBar	0	Deaths in armed conflict by type
 
 
@@ -193,8 +193,10 @@ columns
 	737740	High estimate
 	737743	Civil wars
 	737744	High estimate
+		Low estimate	civil_low	duplicate 737743
 	737747	Other wars
 	737748	High estimate
+		Low estimate	other_low	duplicate 737747
 	792335	All conflicts
 	792327	Displays of force
 	792329	Threats of force
@@ -255,18 +257,23 @@ columns
 	783581	Interstate
 	783578	Low estimate
 	783580	High estimate
+		Best estimate	interstate_prio_best	duplicate 783581
 	783586	Intrastate
 	783583	Low estimate
 	783589	High estimate
+		Best estimate	intrastate_prio_best	duplicate 783586
 	783574	Extra-systemic
 	783572	Low estimate
 	783576	High estimate
+		Best estimate	extrasyst_prio_best	duplicate 783574
 	783595	Non-internationalized intrastate
 	783591	Low estimate
 	783596	High estimate
+		Best estimate	nonint_intrastate_prio_best	duplicate 783595
 	783588	Internationalized intrastate
 	783594	Low estimate
 	783593	High estimate
+		Best estimate	int_intrastate_prio_best	duplicate 783588
 	789711	All conflicts
 	789703	No militarized action
 	789701	Displays of force
