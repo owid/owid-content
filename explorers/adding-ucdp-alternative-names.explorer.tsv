@@ -56,13 +56,13 @@ graphers
 	792329		Militarized Interstate Confrontations	Ongoing conflicts	Threats of force		LineChart	0	Ongoing threats of force in interstate confrontations
 	792332		Militarized Interstate Confrontations	Ongoing conflicts	Uses of force		LineChart	0	Ongoing uses of force in interstate confrontations
 	792333		Militarized Interstate Confrontations	Ongoing conflicts	Wars		LineChart	0	Ongoing interstate wars
-	792327 792329 792332 792333		Militarized Interstate Confrontations	Ongoing conflicts	All conflicts	by type	StackedBar	0	Ongoing militarized interstate confrontation by hostility level
+	792327 792329 792332 792333		Militarized Interstate Confrontations	Ongoing conflicts	All conflicts	by type	StackedBar	0	Ongoing militarized interstate confrontations by hostility level
 	792338		Militarized Interstate Confrontations	New conflicts	All conflicts	all	LineChart	0	New militarized interstate confrontations
 	792328		Militarized Interstate Confrontations	New conflicts	Displays of force		LineChart	0	New displays of force in interstate confrontations
 	792330		Militarized Interstate Confrontations	New conflicts	Threats of force		LineChart	0	New threats of force in interstate confrontations
 	792331		Militarized Interstate Confrontations	New conflicts	Uses of force		LineChart	0	New uses of force in interstate confrontations
 	792334		Militarized Interstate Confrontations	New conflicts	Wars		LineChart	0	New interstate wars
-	792328 792330 792331 792334		Militarized Interstate Confrontations	New conflicts	All conflicts	by type	StackedBar	0	New militarized interstate confrontation by hostility level
+	792328 792330 792331 792334		Militarized Interstate Confrontations	New conflicts	All conflicts	by type	StackedBar	0	New militarized interstate confrontations by hostility level
 	792337 792336		Militarized Interstate Confrontations	Conflict deaths	All conflicts		LineChart	0	Deaths in militarized interstate confrontations
 	783598		Correlates of War – Wars	Ongoing conflicts	All wars	all	LineChart	0	Ongoing wars
 	783604		Correlates of War – Wars	Ongoing conflicts	Interstate wars		LineChart	0	Ongoing interstate wars
