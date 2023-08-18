@@ -1,0 +1,282 @@
+
+explorerTitle	Conflict Data Explorer
+isPublished	FALSE
+thumbnail
+explorerSubtitle	Explore the world's conflicts with the leading approaches to measuring them.
+selection	World
+wpBlockId
+subNavId
+subNavCurrentId	conflict-data
+entityType	region
+graphers
+	yVariableIds	ySlugs	Dataset Dropdown	Metric Dropdown	Conflict type Dropdown	Sub-metric Dropdown	type	yAxisMin	title
+	737193		Uppsala Conflict Data Program	Ongoing conflicts	All armed conflicts	all	LineChart	0	Ongoing armed conflicts
+	737201		Uppsala Conflict Data Program	Ongoing conflicts	Interstate conflicts		LineChart	0	Ongoing interstate conflicts
+	737206		Uppsala Conflict Data Program	Ongoing conflicts	Intrastate conflicts	all	LineChart	0	Ongoing intrastate conflicts
+	737221		Uppsala Conflict Data Program	Ongoing conflicts	Non-state conflicts		LineChart	0	Ongoing non-state conflicts
+	737226		Uppsala Conflict Data Program	Ongoing conflicts	One-sided violence		LineChart	0	Ongoing conflicts of one-sided violence
+	737196		Uppsala Conflict Data Program	Ongoing conflicts	Extrasystemic conflicts		LineChart	0	Ongoing extrasystemic conflicts
+	737216		Uppsala Conflict Data Program	Ongoing conflicts	Intrastate conflicts	non-internationalized	LineChart	0	Ongoing non-internationalized intrastate conflicts
+	737211		Uppsala Conflict Data Program	Ongoing conflicts	Intrastate conflicts	internationalized	LineChart	0	Ongoing internationalized intrastate conflicts
+	737226 737221 737206 737201 737196		Uppsala Conflict Data Program	Ongoing conflicts	All armed conflicts	by type	StackedArea	0	Ongoing armed conflicts by type
+	737211 737216 737196 737201		Uppsala Conflict Data Program	Ongoing conflicts	State-based conflicts	by type	StackedArea	0	Ongoing state-based conflicts by type
+	737195		Uppsala Conflict Data Program	New conflicts	All armed conflicts	all	LineChart	0	New armed conflicts
+	737203		Uppsala Conflict Data Program	New conflicts	Interstate conflicts		LineChart	0	New interstate conflicts
+	737208		Uppsala Conflict Data Program	New conflicts	Intrastate conflicts	all	LineChart	0	New intrastate conflicts
+	737223		Uppsala Conflict Data Program	New conflicts	Non-state conflicts		LineChart	0	New non-state conflicts
+	737227		Uppsala Conflict Data Program	New conflicts	One-sided violence		LineChart	0	New conflicts of one-sided violence
+	737198		Uppsala Conflict Data Program	New conflicts	Extrasystemic conflicts		LineChart	0	New extrasystemic conflicts
+	737218		Uppsala Conflict Data Program	New conflicts	Intrastate conflicts	non-internationalized	LineChart	0	New non-internationalized intrastate conflicts
+	737212		Uppsala Conflict Data Program	New conflicts	Intrastate conflicts	internationalized	LineChart	0	New internationalized intrastate conflicts
+	737227 737223 737208 737203 737198		Uppsala Conflict Data Program	New conflicts	All armed conflicts	by type	StackedBar	0	New armed conflicts by type
+	737212 737218 737198 737203		Uppsala Conflict Data Program	New conflicts	State-based conflicts	by type	StackedBar	0	New state-based conflicts by type
+	737191 737192 737194		Uppsala Conflict Data Program	Conflict deaths	All armed conflicts	all	LineChart	0	Deaths in armed conflicts
+	737200 737199	interstate_best	Uppsala Conflict Data Program	Conflict deaths	Interstate conflicts		LineChart	0	Deaths in interstate conflicts
+	737205 737204	intrastate_best	Uppsala Conflict Data Program	Conflict deaths	Intrastate conflicts	all	LineChart	0	Deaths in intrastate conflicts
+	737220 737219	nonstate_best	Uppsala Conflict Data Program	Conflict deaths	Non-state conflicts		LineChart	0	Deaths in non-state conflicts
+	737225 737224	onesided_violence_best	Uppsala Conflict Data Program	Conflict deaths	One-sided violence		LineChart	0	Deaths from one-sided violence
+	737215 737214	nonint_intrastate_best	Uppsala Conflict Data Program	Conflict deaths	Intrastate conflicts	non-internationalized	LineChart	0	Deaths in non-internationalized intrastate conflicts
+	737210 737209	int_intrastate_best	Uppsala Conflict Data Program	Conflict deaths	Intrastate conflicts	internationalized	LineChart	0	Deaths in internationalized intrastate conflicts
+	737222 737217 737202 737197		Uppsala Conflict Data Program	Conflict deaths	All armed conflicts	by type	StackedBar	0	Deaths in armed conflict by type
+	737207 737213 737197		Uppsala Conflict Data Program	Conflict deaths	State-based conflicts	by type	StackedBar	0	Deaths in state-based conflicts by type
+	737738		Project Mars	Ongoing conflicts	All conventional wars	all	LineChart	0	Ongoing conventional wars
+	737742		Project Mars	Ongoing conflicts	Civil wars		LineChart	0	Ongoing conventional civil wars
+	737746		Project Mars	Ongoing conflicts	Other wars		LineChart	0	Ongoing other conventional wars
+	737742 737746		Project Mars	Ongoing conflicts	All conventional wars	by type	StackedBar	0	Ongoing conventional wars by type
+	737741		Project Mars	New conflicts	All conventional wars	all	LineChart	0	New conventional wars
+	737745		Project Mars	New conflicts	Civil wars		LineChart	0	New conventional civil wars
+	737749		Project Mars	New conflicts	Other wars		LineChart	0	New other conventional wars
+	737745 737749		Project Mars	New conflicts	All conventional wars	by type	StackedBar	0	New conventional wars by type
+	737739 737740		Project Mars	Conflict deaths	All conventional wars	all	LineChart	0	Deaths in conventional wars
+	737743 737744		Project Mars	Conflict deaths	Civil wars		LineChart	0	Deaths in conventional civil wars
+	737747 737748		Project Mars	Conflict deaths	Other wars		LineChart	0	Deaths in other conventional wars
+	737743 737747		Project Mars	Conflict deaths	All conventional wars	by type	StackedBar	0	Deaths in conventional wars by type
+	792335		Militarized Interstate Confrontations	Ongoing conflicts	All conflicts	all	LineChart	0	Ongoing militarized interstate confrontations
+	792327		Militarized Interstate Confrontations	Ongoing conflicts	Displays of force		LineChart	0	Ongoing displays of force in interstate confrontations
+	792329		Militarized Interstate Confrontations	Ongoing conflicts	Threats of force		LineChart	0	Ongoing threats of force in interstate confrontations
+	792332		Militarized Interstate Confrontations	Ongoing conflicts	Uses of force		LineChart	0	Ongoing uses of force in interstate confrontations
+	792333		Militarized Interstate Confrontations	Ongoing conflicts	Wars		LineChart	0	Ongoing interstate wars
+	792327 792329 792332 792333		Militarized Interstate Confrontations	Ongoing conflicts	All conflicts	by type	StackedBar	0	Ongoing militarized interstate confrontation by hostility level
+	792338		Militarized Interstate Confrontations	New conflicts	All conflicts	all	LineChart	0	New militarized interstate confrontations
+	792328		Militarized Interstate Confrontations	New conflicts	Displays of force		LineChart	0	New displays of force in interstate confrontations
+	792330		Militarized Interstate Confrontations	New conflicts	Threats of force		LineChart	0	New threats of force in interstate confrontations
+	792331		Militarized Interstate Confrontations	New conflicts	Uses of force		LineChart	0	New uses of force in interstate confrontations
+	792334		Militarized Interstate Confrontations	New conflicts	Wars		LineChart	0	New interstate wars
+	792328 792330 792331 792334		Militarized Interstate Confrontations	New conflicts	All conflicts	by type	StackedBar	0	New militarized interstate confrontation by hostility level
+	792337 792336		Militarized Interstate Confrontations	Conflict deaths	All conflicts		LineChart	0	Deaths in militarized interstate confrontations
+	783598		Correlates of War – Wars	Ongoing conflicts	All wars	all	LineChart	0	Ongoing wars
+	783604		Correlates of War – Wars	Ongoing conflicts	Interstate wars		LineChart	0	Ongoing interstate wars
+	783608		Correlates of War – Wars	Ongoing conflicts	Intrastate wars	all	LineChart	0	Ongoing intrastate wars
+	783601		Correlates of War – Wars	Ongoing conflicts	Extra-state wars		LineChart	0	Ongoing extra-state wars
+	783616		Correlates of War – Wars	Ongoing conflicts	Non-state wars		LineChart	0	Ongoing non-state wars
+	783613		Correlates of War – Wars	Ongoing conflicts	Intrastate wars	non-internationalized	LineChart	0	Ongoing non-internationalized intrastate wars
+	783610		Correlates of War – Wars	Ongoing conflicts	Intrastate wars	internationalized	LineChart	0	Ongoing internationalized intrastate wars
+	783604 783601 783616 783613 783610 		Correlates of War – Wars	Ongoing conflicts	All wars	by type	StackedBar	0	Ongoing wars by type
+	783600		Correlates of War – Wars	New conflicts	All wars	all	LineChart	0	New wars
+	783606		Correlates of War – Wars	New conflicts	Interstate wars		LineChart	0	New interstate wars
+	783609		Correlates of War – Wars	New conflicts	Intrastate wars	all	LineChart	0	New intrastate wars
+	783603		Correlates of War – Wars	New conflicts	Extra-state wars		LineChart	0	New extra-state wars
+	783618		Correlates of War – Wars	New conflicts	Non-state wars		LineChart	0	New non-state wars
+	783615		Correlates of War – Wars	New conflicts	Intrastate wars	non-internationalized	LineChart	0	New non-internationalized intrastate wars
+	783611		Correlates of War – Wars	New conflicts	Intrastate wars	internationalized	LineChart	0	New internationalized intrastate wars
+	783606 783603 783618 783615 783611		Correlates of War – Wars	New conflicts	All wars	by type	StackedBar	0	New wars by type
+	783599		Correlates of War – Wars	Conflict deaths	All wars	all	LineChart	0	Deaths in wars
+	783605		Correlates of War – Wars	Conflict deaths	Interstate wars		LineChart	0	Deaths in interstate wars
+	783607		Correlates of War – Wars	Conflict deaths	Intrastate wars	all	LineChart	0	Deaths in intrastate wars
+	783602		Correlates of War – Wars	Conflict deaths	Extra-state wars		LineChart	0	Deaths in extra-state wars
+	783617		Correlates of War – Wars	Conflict deaths	Non-state wars		LineChart	0	Deaths in non-state wars
+	783614		Correlates of War – Wars	Conflict deaths	Intrastate wars	non-internationalized	LineChart	0	Deaths in non-internationalized intrastate wars
+	783612		Correlates of War – Wars	Conflict deaths	Intrastate wars	internationalized	LineChart	0	Deaths in internationalized intrastate wars
+	783612 783614 783617 783602 783605		Correlates of War – Wars	Conflict deaths	All wars	by type	StackedBar	0	Deaths in wars by type
+	789711		Correlates of War — Militarized Interstate Disputes	Ongoing conflicts	All conflicts	all	LineChart	0	Ongoing interstate conflicts
+	789703		Correlates of War — Militarized Interstate Disputes	Ongoing conflicts	No militarized action		LineChart	0	Ongoing interstate conflicts without militarized action
+	789701		Correlates of War — Militarized Interstate Disputes	Ongoing conflicts	Displays of force		LineChart	0	Ongoing interstate conflicts with displays of force
+	789705		Correlates of War — Militarized Interstate Disputes	Ongoing conflicts	Threats of force		LineChart	0	Ongoing interstate conflicts with threats of force
+	789707		Correlates of War — Militarized Interstate Disputes	Ongoing conflicts	Uses of force		LineChart	0	Ongoing interstate conflicts with uses of force
+	789709		Correlates of War — Militarized Interstate Disputes	Ongoing conflicts	Wars		LineChart	0	Ongoing interstate wars
+	789709 789707 789705 789701 789703		Correlates of War — Militarized Interstate Disputes	Ongoing conflicts	All conflicts	by type	StackedBar	0	Ongoing interstate conflicts by type
+	789713		Correlates of War — Militarized Interstate Disputes	New conflicts	All conflicts	all	LineChart	0	New interstate conflicts
+	789704		Correlates of War — Militarized Interstate Disputes	New conflicts	No militarized action		LineChart	0	New interstate conflicts without militarized action
+	789702		Correlates of War — Militarized Interstate Disputes	New conflicts	Displays of force		LineChart	0	New interstate conflicts with displays of force
+	789706		Correlates of War — Militarized Interstate Disputes	New conflicts	Threats of force		LineChart	0	New interstate conflicts with threats of force
+	789708		Correlates of War — Militarized Interstate Disputes	New conflicts	Uses of force		LineChart	0	New interstate conflicts with uses of force
+	789710		Correlates of War — Militarized Interstate Disputes	New conflicts	Wars		LineChart	0	New interstate wars
+	789710 789708 789706 789702 789704		Correlates of War — Militarized Interstate Disputes	New conflicts	All conflicts	by type	StackedBar	0	New interstate conflicts by type
+	789712		Correlates of War — Militarized Interstate Disputes	Conflict deaths	All conflicts		LineChart	0	Deaths in interstate conflicts
+	739074		Conflict Catalog	Ongoing conflicts	All major conflicts	all	LineChart	0	Ongoing major conflicts
+	739077		Conflict Catalog	Ongoing conflicts	Internal conflicts		LineChart	0	Ongoing internal conflicts
+	772635		Conflict Catalog	Ongoing conflicts	Interstate conflicts		LineChart	0	Ongoing interstate conflicts
+	739077 772635		Conflict Catalog	Ongoing conflicts	All major conflicts	by type	StackedBar	0	Ongoing major conflicts by type
+	739075		Conflict Catalog	New conflicts	All major conflicts	all	LineChart	0	New major conflicts
+	739079		Conflict Catalog	New conflicts	Internal conflicts		LineChart	0	New internal conflicts
+	772636		Conflict Catalog	New conflicts	Interstate conflicts		LineChart	0	New interstate conflicts
+	739079 772636		Conflict Catalog	New conflicts	All major conflicts	by type	StackedBar	0	New major conflicts by type
+	739076		Conflict Catalog	Conflict deaths	All major conflicts	all	LineChart	0	Deaths in major conflicts
+	739078		Conflict Catalog	Conflict deaths	Internal conflicts		LineChart	0	Deaths in internal conflicts
+	772637		Conflict Catalog	Conflict deaths	Interstate conflicts		LineChart	0	Deaths in interstate conflicts
+	739078 772637		Conflict Catalog	Conflict deaths	All major conflicts	by type	StackedBar	0	Deaths in major conflicts by type
+	783568		PRIO Battledeaths v3.1	Ongoing conflicts	All armed conflicts	all	LineChart	0	Ongoing armed conflicts
+	783579		PRIO Battledeaths v3.1	Ongoing conflicts	Interstate conflicts		LineChart	0	Ongoing interstate conflicts
+	783585		PRIO Battledeaths v3.1	Ongoing conflicts	Intrastate conflicts	all	LineChart	0	Ongoing intrastate conflicts
+	783575		PRIO Battledeaths v3.1	Ongoing conflicts	Extrasystemic conflicts		LineChart	0	Ongoing extrasystemic conflicts
+	783592		PRIO Battledeaths v3.1	Ongoing conflicts	Intrastate conflicts	non-internationalized	LineChart	0	Ongoing non-internationalized intrastate conflicts
+	783587		PRIO Battledeaths v3.1	Ongoing conflicts	Intrastate conflicts	internationalized	LineChart	0	Ongoing internationalized intrastate conflicts
+	783592 783587 783575 783579		PRIO Battledeaths v3.1	Ongoing conflicts	All armed conflicts	by type	StackedArea	0	Ongoing armed conflicts by type
+	783573		PRIO Battledeaths v3.1	New conflicts	All armed conflicts	all	LineChart	0	New armed conflicts
+	783582		PRIO Battledeaths v3.1	New conflicts	Interstate conflicts		LineChart	0	New interstate conflicts
+	783584		PRIO Battledeaths v3.1	New conflicts	Intrastate conflicts	all	LineChart	0	New intrastate conflicts
+	783577		PRIO Battledeaths v3.1	New conflicts	Extrasystemic conflicts		LineChart	0	New extrasystemic conflicts
+	783597		PRIO Battledeaths v3.1	New conflicts	Intrastate conflicts	non-internationalized	LineChart	0	New non-internationalized intrastate conflicts
+	783590		PRIO Battledeaths v3.1	New conflicts	Intrastate conflicts	internationalized	LineChart	0	New internationalized intrastate conflicts
+	783597 783590 783577 783582		PRIO Battledeaths v3.1	New conflicts	All armed conflicts	by type	StackedBar	0	New armed conflicts by type
+	783569 783570 783571		PRIO Battledeaths v3.1	Conflict deaths	All armed conflicts	all	LineChart	0	Deaths in armed conflicts
+	783581 783578 783580		PRIO Battledeaths v3.1	Conflict deaths	Interstate conflicts		LineChart	0	Deaths in interstate conflicts
+	783586 783583 783589		PRIO Battledeaths v3.1	Conflict deaths	Intrastate conflicts	all	LineChart	0	Deaths in intrastate conflicts
+	783574 783572 783576		PRIO Battledeaths v3.1	Conflict deaths	Extrasystemic conflicts		LineChart	0	Deaths in extrasystemic conflicts
+	783595 783591 783596		PRIO Battledeaths v3.1	Conflict deaths	Intrastate conflicts	non-internationalized	LineChart	0	Deaths in non-internationalized intrastate conflicts
+	783588 783594 783593		PRIO Battledeaths v3.1	Conflict deaths	Intrastate conflicts	internationalized	LineChart	0	Deaths in internationalized intrastate conflicts
+	783595 783588 783574 783581		PRIO Battledeaths v3.1	Conflict deaths	All armed conflicts	by type	StackedBar	0	Deaths in armed conflict by type
+
+
+columns
+	variableId	name	slug	transform
+	737193	All conflicts
+	737201	Interstate
+	737206	Intrastate
+	737221	Non-state
+	737226	One-sided violence
+	737196	Extrasystemic
+	737216	Non-internationalized intrastate
+	737211	Internationalized intrastate
+	737195	All conflicts
+	737203	Interstate
+	737208	Intrastate
+	737223	Non-state
+	737227	One-sided violence
+	737198	Extrasystemic
+	737218	Non-internationalized intrastate
+	737212	Internationalized intrastate
+	737191	Best estimate
+	737192	Low estimate
+	737194	High estimate
+	737197	Interstate
+	737200	Low estimate
+	737199	High estimate
+		Best estimate	interstate_best	duplicate 737197
+	737202	Intrastate
+	737205	Low estimate
+	737204	High estimate
+		Best estimate	intrastate_best	duplicate 737202
+	737217	Non-state
+	737220	Low estimate
+	737219	High estimate
+		Best estimate	nonstate_best	duplicate 737217
+	737222	One-sided violence
+	737225	Low estimate
+	737224	High estimate
+		Best estimate	onesided_violence_best	duplicate 737222
+	737213	Non-internationalized intrastate
+	737215	Low estimate
+	737214	High estimate
+		Best estimate	nonint_intrastate_best	duplicate 737213
+	737207	Internationalized intrastate
+	737210	Low estimate
+	737209	High estimate
+		Best estimate	int_intrastate_best	duplicate 737207
+	737738	All wars
+	737742	Civil wars
+	737746	Other wars
+	737741	All wars
+	737745	Civil wars
+	737749	Other wars
+	737739	Low estimate
+	737740	High estimate
+	737743	Civil wars
+	737744	High estimate
+	737747	Other wars
+	737748	High estimate
+	792335	All conflicts
+	792327	Displays of force
+	792329	Threats of force
+	792332	Uses of force
+	792333	Wars
+	792338	All conflicts
+	792328	Displays of force
+	792330	Threats of force
+	792331	Uses of force
+	792334	Wars
+	792336	Low estimate
+	792337	High estimate
+	783598	All wars
+	783604	Interstate wars
+	783608	Intrastate wars
+	783601	Extra-state wars
+	783616	Non-state wars
+	783613	Non-internationalized intrastate
+	783610	Internationalized intrastate
+	783600	All wars
+	783606	Interstate wars
+	783609	Intrastate wars
+	783603	Extra-state wars
+	783618	Non-state wars
+	783615	Non-internationalized intrastate
+	783611	Internationalized intrastate
+	783599	All wars
+	783605	Interstate wars
+	783607	Intrastate wars
+	783602	Extra-state wars
+	783617	Non-state wars
+	783614	Non-internationalized intrastate
+	783612	Internationalized intrastate
+	739074	All conflicts
+	739077	Internal
+	772635	Interstate
+	739075	All conflicts
+	739079	Internal
+	772636	Interstate
+	739076	All conflicts
+	739078	Internal
+	772637	Interstate
+	783568	All conflicts
+	783579	Interstate
+	783585	Intrastate
+	783575	Extrasystemic
+	783592	Non-internationalized intrastate
+	783587	Internationalized intrastate
+	783573	All conflicts
+	783582	Interstate
+	783584	Intrastate
+	783577	Extrasystemic
+	783597	Non-internationalized intrastate
+	783590	Internationalized intrastate
+	783569	Best estimate
+	783570	Low estimate
+	783571	High estimate
+	783581	Interstate
+	783578	Low estimate
+	783580	High estimate
+	783586	Intrastate
+	783583	Low estimate
+	783589	High estimate
+	783574	Extra-systemic
+	783572	Low estimate
+	783576	High estimate
+	783595	Non-internationalized intrastate
+	783591	Low estimate
+	783596	High estimate
+	783588	Internationalized intrastate
+	783594	Low estimate
+	783593	High estimate
+	789711	All conflicts
+	789703	No militarized action
+	789701	Displays of force
+	789705	Threats of force
+	789707	Uses of force
+	789709	Wars
+	789713	All conflicts
+	789704	No militarized action
+	789702	Displays of force
+	789706	Threats of force
+	789708	Uses of force
+	789710	Wars
+	789712	Deaths
