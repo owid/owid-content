@@ -1,6 +1,6 @@
 
 explorerTitle	Conflict Data Explorer
-isPublished	FALSE
+isPublished	false
 thumbnail
 explorerSubtitle	Explore the world's conflicts with the leading approaches to measuring them.
 selection	World
@@ -33,39 +33,37 @@ graphers
 	783569 783570 783571		All state-based conflicts	Deaths		all	Peace Research Institute Oslo	LineChart	0	Deaths in state-based conflicts
 	737201		Interstate conflicts	Frequency	Ongoing	all	Uppsala Conflict Data Program	LineChart	0	Ongoing interstate conflicts
 	792335		Interstate conflicts	Frequency	Ongoing	all	Militarized Interstate Confrontations	LineChart	0	Ongoing interstate conflicts
-	789711		Interstate conflicts	Frequency	Ongoing	all	Correlates of War — Militarized Interstate Disputes	LineChart	0	Ongoing interstate conflicts
+	810765		Interstate conflicts	Frequency	Ongoing	all	Correlates of War — Militarized Interstate Disputes	LineChart	0	Ongoing interstate conflicts
 	783579		Interstate conflicts	Frequency	Ongoing	all	Peace Research Institute Oslo	LineChart	0	Ongoing interstate conflicts
 	772635		Interstate conflicts	Frequency	Ongoing	all	Conflict Catalog	LineChart	0	Ongoing interstate conflicts
 	792329 792327 792332 792333		Interstate conflicts	Frequency	Ongoing	by type	Militarized Interstate Confrontations	StackedBar	0	Ongoing interstate conflicts by type
-	789709 789707 789701 789705 789703		Interstate conflicts	Frequency	Ongoing	by type	Correlates of War — Militarized Interstate Disputes	StackedBar	0	Ongoing interstate conflicts by type
-	789703		Interstate conflicts	Frequency	Ongoing	no militarized action	Correlates of War — Militarized Interstate Disputes	LineChart	0	Ongoing interstate conflicts without militarized action
+	810759 810757 810761 810763		Interstate conflicts	Frequency	Ongoing	by type	Correlates of War — Militarized Interstate Disputes	StackedBar	0	Ongoing interstate conflicts by type
 	792329		Interstate conflicts	Frequency	Ongoing	threats of force	Militarized Interstate Confrontations	LineChart	0	Ongoing threats of force in interstate conflicts
-	789705		Interstate conflicts	Frequency	Ongoing	threats of force	Correlates of War — Militarized Interstate Disputes	LineChart	0	Ongoing interstate conflicts with threats of force
+	810759		Interstate conflicts	Frequency	Ongoing	threats of force	Correlates of War — Militarized Interstate Disputes	LineChart	0	Ongoing interstate conflicts with threats of force
 	792327		Interstate conflicts	Frequency	Ongoing	displays of force	Militarized Interstate Confrontations	LineChart	0	Ongoing displays of force in interstate conflicts
-	789701		Interstate conflicts	Frequency	Ongoing	displays of force	Correlates of War — Militarized Interstate Disputes	LineChart	0	Ongoing interstate conflicts with displays of force
+	810757		Interstate conflicts	Frequency	Ongoing	displays of force	Correlates of War — Militarized Interstate Disputes	LineChart	0	Ongoing interstate conflicts with displays of force
 	792332		Interstate conflicts	Frequency	Ongoing	uses of force	Militarized Interstate Confrontations	LineChart	0	Ongoing uses of force in interstate conflicts
-	789707		Interstate conflicts	Frequency	Ongoing	uses of force	Correlates of War — Militarized Interstate Disputes	LineChart	0	Ongoing interstate conflicts with uses of force
+	810761		Interstate conflicts	Frequency	Ongoing	uses of force	Correlates of War — Militarized Interstate Disputes	LineChart	0	Ongoing interstate conflicts with uses of force
 	792333		Interstate conflicts	Frequency	Ongoing	wars	Militarized Interstate Confrontations	LineChart	0	Ongoing interstate wars
-	789709		Interstate conflicts	Frequency	Ongoing	wars	Correlates of War — Militarized Interstate Disputes	LineChart	0	Ongoing interstate wars
+	810763		Interstate conflicts	Frequency	Ongoing	wars	Correlates of War — Militarized Interstate Disputes	LineChart	0	Ongoing interstate wars
 	737203		Interstate conflicts	Frequency	New	all	Uppsala Conflict Data Program	LineChart	0	New interstate conflicts
 	792338		Interstate conflicts	Frequency	New	all	Militarized Interstate Confrontations	LineChart	0	New interstate conflicts
-	789713		Interstate conflicts	Frequency	New	all	Correlates of War — Militarized Interstate Disputes	LineChart	0	New interstate conflicts
+	810766		Interstate conflicts	Frequency	New	all	Correlates of War — Militarized Interstate Disputes	LineChart	0	New interstate conflicts
 	783582		Interstate conflicts	Frequency	New	all	Peace Research Institute Oslo	LineChart	0	New interstate conflicts
 	772636		Interstate conflicts	Frequency	New	all	Conflict Catalog	LineChart	0	New interstate conflicts
 	792330 792328 792331 792334		Interstate conflicts	Frequency	New	by type	Militarized Interstate Confrontations	StackedBar	0	New interstate confrontations by type
-	789710 789708 789702 789706 789704		Interstate conflicts	Frequency	New	by type	Correlates of War — Militarized Interstate Disputes	StackedBar	0	New interstate conflicts by type
-	789704		Interstate conflicts	Frequency	New	no militarized action	Correlates of War — Militarized Interstate Disputes	LineChart	0	New interstate conflicts without militarized action
+	810760 810758 810762 810764		Interstate conflicts	Frequency	New	by type	Correlates of War — Militarized Interstate Disputes	StackedBar	0	New interstate conflicts by type
 	792330		Interstate conflicts	Frequency	New	threats of force	Militarized Interstate Confrontations	LineChart	0	New threats of force in interstate conflicts
-	789706		Interstate conflicts	Frequency	New	threats of force	Correlates of War — Militarized Interstate Disputes	LineChart	0	New interstate conflicts with threats of force
+	810760		Interstate conflicts	Frequency	New	threats of force	Correlates of War — Militarized Interstate Disputes	LineChart	0	New interstate conflicts with threats of force
 	792328		Interstate conflicts	Frequency	New	displays of force	Militarized Interstate Confrontations	LineChart	0	New displays of force in interstate conflicts
-	789702		Interstate conflicts	Frequency	New	displays of force	Correlates of War — Militarized Interstate Disputes	LineChart	0	New interstate conflicts with displays of force
+	810758		Interstate conflicts	Frequency	New	displays of force	Correlates of War — Militarized Interstate Disputes	LineChart	0	New interstate conflicts with displays of force
 	792331		Interstate conflicts	Frequency	New	uses of force	Militarized Interstate Confrontations	LineChart	0	New uses of force in interstate conflicts
-	789708		Interstate conflicts	Frequency	New	uses of force	Correlates of War — Militarized Interstate Disputes	LineChart	0	New interstate conflicts with uses of force
+	810762		Interstate conflicts	Frequency	New	uses of force	Correlates of War — Militarized Interstate Disputes	LineChart	0	New interstate conflicts with uses of force
 	792334		Interstate conflicts	Frequency	New	wars	Militarized Interstate Confrontations	LineChart	0	New interstate wars
-	789710		Interstate conflicts	Frequency	New	wars	Correlates of War — Militarized Interstate Disputes	LineChart	0	New interstate wars
+	810764		Interstate conflicts	Frequency	New	wars	Correlates of War — Militarized Interstate Disputes	LineChart	0	New interstate wars
 	737200 737199	interstate_best	Interstate conflicts	Deaths			Uppsala Conflict Data Program	LineChart	0	Deaths in interstate conflicts
 	792337 792336		Interstate conflicts	Deaths			Militarized Interstate Confrontations	LineChart	0	Deaths in militarized interstate confrontations
-	789712		Interstate conflicts	Deaths			Correlates of War — Militarized Interstate Disputes	LineChart	0	Deaths in interstate conflicts
+	810750 810749 810745 810743 810748 810741 810753 810755		Interstate conflicts	Deaths			Correlates of War — Militarized Interstate Disputes	StackedBar	0	Deaths in interstate conflicts
 	783578 783580	interstate_prio_best	Interstate conflicts	Deaths			Peace Research Institute Oslo	LineChart	0	Deaths in interstate conflicts
 	772637		Interstate conflicts	Deaths			Conflict Catalog	LineChart	0	Deaths in interstate conflicts
 	737206		Intrastate conflicts	Frequency	Ongoing	all	Uppsala Conflict Data Program	LineChart	0	Ongoing intrastate conflicts
@@ -116,7 +114,7 @@ graphers
 	783604		Interstate wars	Frequency	Ongoing		Correlates of War – Wars	LineChart	0	Ongoing interstate wars
 	737749		Interstate wars	Frequency	New		Project Mars	LineChart	0	New interstate wars
 	783606		Interstate wars	Frequency	New		Correlates of War – Wars	LineChart	0	New interstate wars
-	737748	other_low	Interstate wars	Deaths			Project Mars	LineChart	0	Deaths in interstate wars
+	737748	interstate_low	Interstate wars	Deaths			Project Mars	LineChart	0	Deaths in interstate wars
 	783605		Interstate wars	Deaths			Correlates of War – Wars	LineChart	0	Deaths in interstate wars
 	737742		Intrastate wars	Frequency	Ongoing	all	Project Mars	LineChart	0	Ongoing civil wars
 	783608		Intrastate wars	Frequency	Ongoing	all	Correlates of War – Wars	LineChart	0	Ongoing intrastate wars
@@ -184,18 +182,18 @@ columns
 		Best estimate	int_intrastate_best	duplicate 737207
 	737738	All wars
 	737742	Civil wars
-	737746	Other wars
+	737746	Interstate wars
 	737741	All wars
 	737745	Civil wars
-	737749	Other wars
+	737749	Interstate wars
 	737739	Low estimate
 	737740	High estimate
 	737743	Civil wars
 	737744	High estimate
 		Low estimate	civil_low	duplicate 737743
-	737747	Other wars
+	737747	Interstate wars
 	737748	High estimate
-		Low estimate	other_low	duplicate 737747
+		Low estimate	interstate_low	duplicate 737747
 	792335	All conflicts
 	792327	Displays of force
 	792329	Threats of force
@@ -273,16 +271,21 @@ columns
 	783594	Low estimate
 	783593	High estimate
 		Best estimate	int_intrastate_prio_best	duplicate 783588
-	789711	All conflicts
-	789703	No militarized action
-	789701	Displays of force
-	789705	Threats of force
-	789707	Uses of force
-	789709	Wars
-	789713	All conflicts
-	789704	No militarized action
-	789702	Displays of force
-	789706	Threats of force
-	789708	Uses of force
-	789710	Wars
-	789712	Deaths
+	810765	All conflicts
+	810757	Displays of force
+	810759	Threats of force
+	810761	Uses of force
+	810763	Wars
+	810766	All conflicts
+	810758	Displays of force
+	810760	Threats of force
+	810762	Uses of force
+	810764	Wars
+	810753	No deaths
+	810741	1-25 deaths
+	810748	26-100 deaths
+	810743	101-250 deaths
+	810745	251-500 deaths
+	810749	501-999 deaths
+	810750	1000 deaths or more
+	810755	No deaths data
