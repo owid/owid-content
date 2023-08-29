@@ -1,0 +1,291 @@
+
+explorerTitle	[FOR DEBUGGING] Conflict Data Explorer
+isPublished	false
+thumbnail
+explorerSubtitle	Explore the world's conflicts with the leading approaches to measuring them.
+
+wpBlockId
+subNavId
+subNavCurrentId	conflict-data
+entityType	region
+graphers
+	yVariableIds	ySlugs	Conflict type Dropdown	Metric Dropdown	Sub-metric Dropdown	Sub-type Dropdown	Source Dropdown	type	yAxisMin	title	subtitle	note
+	737193		All armed conflicts	Frequency	Ongoing	all	Uppsala Conflict Data Program	LineChart	0	Ongoing armed conflicts	Disagreements between organized groups, or between one organized group and civilians, that cause at least 25 deaths during a year.
+	739074		All armed conflicts	Frequency	Ongoing	all	Conflict Catalog	LineChart	0	Ongoing violent political conflicts	Disagreements between organized groups that cause at least 32 deaths during a year.
+	737226 737221 737206 737201 737196		All armed conflicts	Frequency	Ongoing	by type	Uppsala Conflict Data Program	StackedArea	0	Ongoing armed conflicts by type	[Interstate](#dod:interstate-conflict), [intrastate](#dod:intrastate-conflict), [extrasystemic](#dod:extrasystemic-conflict), [non-state](#dod:nonstate-conflict) conflicts, and [one-sided violence](#dod:onesided-violence) that cause at least 25 deaths during a year.	We count a conflict as ongoing in a region even if the conflict is also ongoing in other regions. The sum across all regions can therefore be higher than the total number of ongoing conflicts.
+	739077 772635		All armed conflicts	Frequency	Ongoing	by type	Conflict Catalog	StackedBar	0	Ongoing violent political conflicts by type	[Interstate](#dod:interstate-conflict) and [internal](#dod:internal-conflict) conflicts that cause at least 32 deaths during a year.	We count a conflict as ongoing in a region even if the conflict is also ongoing in other regions. The sum across all regions can therefore be higher than the total number of ongoing conflicts.
+	737195		All armed conflicts	Frequency	New	all	Uppsala Conflict Data Program	LineChart	0	New armed conflicts	Disagreements between organized groups, or between one organized group and civilians, that cause at least 25 deaths during a year for the first time.
+	739075		All armed conflicts	Frequency	New	all	Conflict Catalog	LineChart	0	New violent political conflicts	Disagreements between organized groups that cause at least 32 deaths during a year for the first time.
+	737227 737223 737208 737203 737198		All armed conflicts	Frequency	New	by type	Uppsala Conflict Data Program	StackedBar	0	New armed conflicts by type	[Interstate](#dod:interstate-conflict), [intrastate](#dod:intrastate-conflict), [extrasystemic](#dod:extrasystemic-conflict), [non-state](#dod:nonstate-conflict) conflicts, and [one-sided violence](#dod:onesided-violence) that cause at least 25 deaths during a year for the first time.	We count a conflict as new in a region even if the conflict started earlier or at the same time in another region. The sum across all regions can therefore be higher than the total number of new conflicts.
+	739079 772636		All armed conflicts	Frequency	New	by type	Conflict Catalog	StackedBar	0	New violent political conflicts by type	[Interstate](#dod:interstate-conflict) and [internal](#dod:internal-conflict) conflicts that cause at least 32 deaths during a year for the first time.	We count a conflict as new in a region even if the conflict started at the same time in another region. The sum across all regions can therefore be higher than the total number of new conflicts.
+	737191 737192 737194		All armed conflicts	Deaths		all	Uppsala Conflict Data Program	LineChart	0	Deaths in armed conflicts	Disagreements between organized groups, or between one organized group and civilians, that cause at least 25 deaths during a year. Deaths of combatants and civilians due to fighting.
+	739076		All armed conflicts	Deaths		all	Conflict Catalog	LineChart	0	Deaths in violent political conflicts	Disagreements between organized groups that cause at least 32 deaths during a year. Deaths of combatants and civilians due to fighting, disease, and starvation.
+	737222 737217 737202 737197		All armed conflicts	Deaths		by type	Uppsala Conflict Data Program	StackedBar	0	Deaths in armed conflicts by type	[Interstate](#dod:interstate-conflict), [intrastate](#dod:intrastate-conflict), [extrasystemic](#dod:extrasystemic-conflict), [non-state](#dod:nonstate-conflict) conflicts, and [one-sided violence](#dod:onesided-violence) that cause at least 25 deaths during a year. Deaths of combatants and civilians due to fighting.
+	739078 772637		All armed conflicts	Deaths		by type	Conflict Catalog	StackedBar	0	Deaths in violent political conflicts by type	[Interstate](#dod:interstate-conflict) and [internal](#dod:internal-conflict) conflicts that cause at least 32 deaths during a year. Deaths of combatants and civilians due to fighting, disease, and starvation.
+	737211 737216 737196 737201		All state-based conflicts	Frequency	Ongoing	by type	Uppsala Conflict Data Program	StackedArea	0	Ongoing state-based conflicts by type	[Interstate](#dod:interstate-conflict), [intrastate](#dod:intrastate-conflict), and [extrasystemic](#dod:extrasystemic-conflict) conflicts that cause at least 25 deaths during a year.	We count a conflict as ongoing in a region even if the conflict is also ongoing in other regions. The sum across all regions can therefore be higher than the total number of ongoing conflicts.
+	783592 783587 783575 783579		All state-based conflicts	Frequency	Ongoing	by type	Peace Research Institute Oslo	StackedArea	0	Ongoing state-based conflicts by type	[Interstate](#dod:interstate-conflict), [intrastate](#dod:intrastate-conflict), and [extrasystemic](#dod:extrasystemic-conflict) conflicts that cause at least 25 deaths during a year.	We count a conflict as ongoing in a region even if the conflict is also ongoing in other regions. The sum across all regions can therefore be higher than the total number of ongoing conflicts.
+	783568		All state-based conflicts	Frequency	Ongoing	all	Peace Research Institute Oslo	LineChart	0	Ongoing state-based conflicts	[Interstate](#dod:interstate-conflict), [intrastate](#dod:intrastate-conflict), and [extrasystemic](#dod:extrasystemic-conflict) conflicts that cause at least 25 deaths during a year.
+	737212 737218 737198 737203		All state-based conflicts	Frequency	New	by type	Uppsala Conflict Data Program	StackedBar	0	New state-based conflicts by type	[Interstate](#dod:interstate-conflict), [intrastate](#dod:intrastate-conflict), and [extrasystemic](#dod:extrasystemic-conflict) conflicts that cause at least 25 deaths during a year for the first time.	We count a conflict as new in a region even if the conflict started earlier or at the same time in another region. The sum across all regions can therefore be higher than the total number of new conflicts.
+	783597 783590 783577 783582		All state-based conflicts	Frequency	New	by type	Peace Research Institute Oslo	StackedBar	0	New state-based conflicts by type	[Interstate](#dod:interstate-conflict), [intrastate](#dod:intrastate-conflict), and [extrasystemic](#dod:extrasystemic-conflict) conflicts that cause at least 25 deaths during a year for the first time.	We count a conflict as new in a region even if the conflict started earlier or at the same time in another region. The sum across all regions can therefore be higher than the total number of new conflicts.
+	783573		All state-based conflicts	Frequency	New	all	Peace Research Institute Oslo	LineChart	0	New state-based conflicts	[Interstate](#dod:interstate-conflict), [intrastate](#dod:intrastate-conflict), and [extrasystemic](#dod:extrasystemic-conflict) conflicts that cause at least 25 deaths during a year for the first time.
+	737207 737213 737197		All state-based conflicts	Deaths		by type	Uppsala Conflict Data Program	StackedBar	0	Deaths in state-based conflicts by type	[Interstate](#dod:interstate-conflict), [intrastate](#dod:intrastate-conflict), and [extrasystemic](#dod:extrasystemic-conflict) conflicts that cause at least 25 deaths during a year. Deaths of combatants and civilians due to fighting.
+	783595 783588 783574 783581		All state-based conflicts	Deaths		by type	Peace Research Institute Oslo	StackedBar	0	Deaths in state-based conflicts by type	[Interstate](#dod:interstate-conflict), [intrastate](#dod:intrastate-conflict), and [extrasystemic](#dod:extrasystemic-conflict) conflicts that cause at least 25 deaths during a year. Deaths of combatants and civilians due to fighting.
+	783569 783570 783571		All state-based conflicts	Deaths		all	Peace Research Institute Oslo	LineChart	0	Deaths in state-based conflicts	[Interstate](#dod:interstate-conflict), [intrastate](#dod:intrastate-conflict), and [extrasystemic](#dod:extrasystemic-conflict) conflicts that cause at least 25 deaths during a year. Deaths of combatants and civilians due to fighting.
+	737201		Interstate conflicts	Frequency	Ongoing	all	Uppsala Conflict Data Program	LineChart	0	Ongoing interstate conflicts	Conflicts between states that cause at least 25 deaths during a year.
+	792335		Interstate conflicts	Frequency	Ongoing	all	Militarized Interstate Confrontations	LineChart	0	Ongoing interstate conflicts	Disagreements between states where force is threatened, displayed, or used.
+	810765		Interstate conflicts	Frequency	Ongoing	all	Correlates of War — Militarized Interstate Disputes	LineChart	0	Ongoing interstate conflicts	Disagreements between states where force is threatened, displayed, or used.
+	783579		Interstate conflicts	Frequency	Ongoing	all	Peace Research Institute Oslo	LineChart	0	Ongoing interstate conflicts	Conflicts between states that cause at least 25 deaths during a year.
+	772635		Interstate conflicts	Frequency	Ongoing	all	Conflict Catalog	LineChart	0	Ongoing interstate conflicts	Conflicts between states that cause at least 32 deaths during a year.
+	792329 792327 792332 792333		Interstate conflicts	Frequency	Ongoing	by type	Militarized Interstate Confrontations	StackedBar	0	Ongoing interstate conflicts by type	Threats, displays, and uses of force in disagreements between states.	We count a conflict as ongoing in a region even if the conflict is also ongoing in other regions. The sum across all regions can therefore be higher than the total number of ongoing conflicts.
+	810759 810757 810761 810763		Interstate conflicts	Frequency	Ongoing	by type	Correlates of War — Militarized Interstate Disputes	StackedBar	0	Ongoing interstate conflicts by type	Threats, displays, and uses of force in disagreements between states.	We count a conflict as ongoing in a region even if the conflict is also ongoing in other regions. The sum across all regions can therefore be higher than the total number of ongoing conflicts.
+	792329		Interstate conflicts	Frequency	Ongoing	threats of force	Militarized Interstate Confrontations	LineChart	0	Ongoing threats of force in interstate conflicts	Conflicts between states where at most the use of force is threatened.
+	810759		Interstate conflicts	Frequency	Ongoing	threats of force	Correlates of War — Militarized Interstate Disputes	LineChart	0	Ongoing interstate conflicts with threats of force	Conflicts between states where at most the use of force is threatened over their entire duration.
+	792327		Interstate conflicts	Frequency	Ongoing	displays of force	Militarized Interstate Confrontations	LineChart	0	Ongoing displays of force in interstate conflicts	Conflicts between states where at most force is displayed.
+	810757		Interstate conflicts	Frequency	Ongoing	displays of force	Correlates of War — Militarized Interstate Disputes	LineChart	0	Ongoing interstate conflicts with displays of force	Conflicts between states where at most force is displayed over their entire duration.
+	792332		Interstate conflicts	Frequency	Ongoing	uses of force	Militarized Interstate Confrontations	LineChart	0	Ongoing uses of force in interstate conflicts	Conflicts between states where force is used, but causes fewer than 1,000 deaths combatant deaths due to fighting during a year.
+	810761		Interstate conflicts	Frequency	Ongoing	uses of force	Correlates of War — Militarized Interstate Disputes	LineChart	0	Ongoing interstate conflicts with uses of force	Conflicts between states where force is used but causes fewer than 1,000 deaths over their entire duration.
+	792333		Interstate conflicts	Frequency	Ongoing	wars	Militarized Interstate Confrontations	LineChart	0	Ongoing interstate wars	Conflicts between states that cause at least 1,000 combatant deaths due to fighting during a year.
+	810763		Interstate conflicts	Frequency	Ongoing	wars	Correlates of War — Militarized Interstate Disputes	LineChart	0	Ongoing interstate wars	Conflicts between states that causes at least 1,000 combatant deaths due to fighting over their entire duration.
+	737203		Interstate conflicts	Frequency	New	all	Uppsala Conflict Data Program	LineChart	0	New interstate conflicts	Conflicts between states that cause at least 25 deaths during a year for the first time.
+	792338		Interstate conflicts	Frequency	New	all	Militarized Interstate Confrontations	LineChart	0	New interstate conflicts	Disagreements between states where force is threatened, displayed, or used for the first time.
+	810766		Interstate conflicts	Frequency	New	all	Correlates of War — Militarized Interstate Disputes	LineChart	0	New interstate conflicts	Disagreements between states where force is threatened, displayed, or used for the first time.
+	783582		Interstate conflicts	Frequency	New	all	Peace Research Institute Oslo	LineChart	0	New interstate conflicts	Conflicts between states that cause at least 25 deaths during a year for the first time.
+	772636		Interstate conflicts	Frequency	New	all	Conflict Catalog	LineChart	0	New interstate conflicts	Conflicts between states that cause at least 32 deaths during a year for the first time.
+	792330 792328 792331 792334		Interstate conflicts	Frequency	New	by type	Militarized Interstate Confrontations	StackedBar	0	New interstate confrontations by type	New threats, displays, and uses of force in disagreements between states.	We count a conflict as new in a region even if the conflict started earlier or at the same time in another region. The sum across all regions can therefore be higher than the total number of new conflicts.
+	810760 810758 810762 810764		Interstate conflicts	Frequency	New	by type	Correlates of War — Militarized Interstate Disputes	StackedBar	0	New interstate conflicts by type	New threats, displays, and uses of force in disagreements between states.	We count a conflict as new in a region even if the conflict started at the same time in another region. The sum across all regions can therefore be higher than the total number of new conflicts.
+	792330		Interstate conflicts	Frequency	New	threats of force	Militarized Interstate Confrontations	LineChart	0	New threats of force in interstate conflicts	New conflicts between states where at most the use of force is threatened.
+	810760		Interstate conflicts	Frequency	New	threats of force	Correlates of War — Militarized Interstate Disputes	LineChart	0	New interstate conflicts with threats of force	New conflicts between states where at most the use of force is threatened.
+	792328		Interstate conflicts	Frequency	New	displays of force	Militarized Interstate Confrontations	LineChart	0	New displays of force in interstate conflicts	New conflicts between states where at most force is displayed.
+	810758		Interstate conflicts	Frequency	New	displays of force	Correlates of War — Militarized Interstate Disputes	LineChart	0	New interstate conflicts with displays of force	New conflicts between states where at most force is displayed.
+	792331		Interstate conflicts	Frequency	New	uses of force	Militarized Interstate Confrontations	LineChart	0	New uses of force in interstate conflicts	New conflicts between states where force is used, but causes fewer than 1,000 deaths combatant deaths due to fighting during a year.
+	810762		Interstate conflicts	Frequency	New	uses of force	Correlates of War — Militarized Interstate Disputes	LineChart	0	New interstate conflicts with uses of force	New conflicts between states where force is used, but causes fewer than 1,000 deaths combatant deaths due to fighting during a year.
+	792334		Interstate conflicts	Frequency	New	wars	Militarized Interstate Confrontations	LineChart	0	New interstate wars	New conflicts between states that cause at least 1,000 combatant deaths due to fighting during a year.
+	810764		Interstate conflicts	Frequency	New	wars	Correlates of War — Militarized Interstate Disputes	LineChart	0	New interstate wars	New conflicts between states that cause at least 1,000 combatant deaths due to fighting during a year.
+	737200 737199	interstate_best	Interstate conflicts	Deaths			Uppsala Conflict Data Program	LineChart	0	Deaths in interstate conflicts	Conflicts between states that cause at least 25 deaths during a year. Deaths of combatants and civilians due to fighting.
+	792337 792336		Interstate conflicts	Deaths			Militarized Interstate Confrontations	LineChart	0	Deaths in militarized interstate confrontations	Disagreements between states where force is threatened, displayed, or used. Deaths of combatants due to fighting.
+	810755 810753 810741 810748 810743 810745 810749 810750		Interstate conflicts	Deaths			Correlates of War — Militarized Interstate Disputes	StackedBar	0	Deaths in interstate conflicts	Disagreements between states where force is threatened, displayed, or used. Deaths of combatants due to fighting.
+	783578 783580	interstate_prio_best	Interstate conflicts	Deaths			Peace Research Institute Oslo	LineChart	0	Deaths in interstate conflicts	Conflicts between states that cause at least 25 deaths during a year. Deaths of combatants and civilians due to fighting.
+	772637		Interstate conflicts	Deaths			Conflict Catalog	LineChart	0	Deaths in interstate conflicts	Conflicts between states that cause at least 32 deaths during a year. Deaths of combatants and civilians due to fighting, disease, and starvation.
+	737206		Intrastate conflicts	Frequency	Ongoing	all	Uppsala Conflict Data Program	LineChart	0	Ongoing intrastate conflicts	Conflicts between a state and a non-state armed group that cause at least 25 deaths during a year.
+	783585		Intrastate conflicts	Frequency	Ongoing	all	Peace Research Institute Oslo	LineChart	0	Ongoing intrastate conflicts	Conflicts between a state and a non-state armed group that cause at least 25 deaths during ayear.
+	739077		Intrastate conflicts	Frequency	Ongoing	all	Conflict Catalog	LineChart	0	Ongoing internal conflicts	Conflicts between a state and a non-state armed groups, between non-state armed groups, or between an armed group and civilians, that cause at least 32 deaths during a year. Deaths of combatants and civilians due to fighting, disease, and starvation.
+	737216		Intrastate conflicts	Frequency	Ongoing	non-internationalized	Uppsala Conflict Data Program	LineChart	0	Ongoing non-internationalized intrastate conflicts	Conflicts between a state and a non-state armed group, without involvement of a foreign state, that cause at least 25 deaths during a year.
+	783592		Intrastate conflicts	Frequency	Ongoing	non-internationalized	Peace Research Institute Oslo	LineChart	0	Ongoing non-internationalized intrastate conflicts	Conflicts between a state and a non-state armed group, without involvement of a foreign state, that cause at least 25 deaths during a year.
+	737211		Intrastate conflicts	Frequency	Ongoing	internationalized	Uppsala Conflict Data Program	LineChart	0	Ongoing internationalized intrastate conflicts	Conflicts between a state and a non-state armed group, with involvement of a foreign state, that cause at least 25 deaths during a year.
+	783587		Intrastate conflicts	Frequency	Ongoing	internationalized	Peace Research Institute Oslo	LineChart	0	Ongoing internationalized intrastate conflicts	Conflicts between a state and a non-state armed group, with involvement of a foreign state, that cause at least 25 deaths during a year.
+	737208		Intrastate conflicts	Frequency	New	all	Uppsala Conflict Data Program	LineChart	0	New intrastate conflicts	Conflicts between a state and a non-state armed group that cause at least 25 deaths during a year for the first time.
+	783584		Intrastate conflicts	Frequency	New	all	Peace Research Institute Oslo	LineChart	0	New intrastate conflicts	Conflicts between a state and a non-state armed group that cause at least 25 deaths during a year for the first time.
+	739079		Intrastate conflicts	Frequency	New	all	Conflict Catalog	LineChart	0	New internal conflicts	Conflicts between a state and a non-state armed groups, between non-state armed groups, or between an armed group and civilians, that cause at least 32 deaths during a year for the first time.
+	737218		Intrastate conflicts	Frequency	New	non-internationalized	Uppsala Conflict Data Program	LineChart	0	New non-internationalized intrastate conflicts	Conflicts between a state and a non-state armed group, without involvement of a foreign state, that cause at least 25 deaths during a year for the first time.
+	783597		Intrastate conflicts	Frequency	New	non-internationalized	Peace Research Institute Oslo	LineChart	0	New non-internationalized intrastate conflicts	Conflicts between a state and a non-state armed group, without involvement of a foreign state, that cause at least 25 deaths during a year for the first time.
+	737212		Intrastate conflicts	Frequency	New	internationalized	Uppsala Conflict Data Program	LineChart	0	New internationalized intrastate conflicts	Conflicts between a state and a non-state armed group, with involvement of a foreign state, that cause at least 25 deaths during a year for the first time.
+	783590		Intrastate conflicts	Frequency	New	internationalized	Peace Research Institute Oslo	LineChart	0	New internationalized intrastate conflicts	Conflicts between a state and a non-state armed group, with involvement of a foreign state, that cause at least 25 deaths during a year for the first time.
+	737205 737204	intrastate_best	Intrastate conflicts	Deaths		all	Uppsala Conflict Data Program	LineChart	0	Deaths in intrastate conflicts	Conflicts between a state and a non-state armed group that cause  at least 25 deaths during a year. Deaths of combatants and civilians due to fighting.
+	783583 783589	intrastate_prio_best	Intrastate conflicts	Deaths		all	Peace Research Institute Oslo	LineChart	0	Deaths in intrastate conflicts	Conflicts between a state and a non-state armed group that cause  at least 25 deaths during a year. Deaths of combatants and civilians due to fighting.
+	739078		Intrastate conflicts	Deaths		all	Conflict Catalog	LineChart	0	Deaths in internal conflicts	Conflicts between a state and a non-state armed groups, between non-state armed groups, or between an armed group and civilians, that cause at least 32 deaths during a year. Deaths of combatants and civilians due to fighting, disease, and starvation.
+	737215 737214	nonint_intrastate_best	Intrastate conflicts	Deaths		non-internationalized	Uppsala Conflict Data Program	LineChart	0	Deaths in non-internationalized intrastate conflicts	Conflicts between a state and a non-state armed group, without involvement of a foreign state, that cause at least 25 deaths during a year. Deaths of combatants and civilians due to fighting.
+	783591 783596	nonint_intrastate_prio_best	Intrastate conflicts	Deaths		non-internationalized	Peace Research Institute Oslo	LineChart	0	Deaths in non-internationalized intrastate conflicts	Conflicts between a state and a non-state armed group, without involvement of a foreign state, that cause at least 25 deaths during a year. Deaths of combatants and civilians due to fighting.
+	737210 737209	int_intrastate_best	Intrastate conflicts	Deaths		internationalized	Uppsala Conflict Data Program	LineChart	0	Deaths in internationalized intrastate conflicts	Conflicts between a state and a non-state armed group, with involvement of a foreign state, that cause at least 25 deaths during a year. Deaths of combatants and civilians due to fighting.
+	783594 783593	int_intrastate_prio_best	Intrastate conflicts	Deaths		internationalized	Peace Research Institute Oslo	LineChart	0	Deaths in internationalized intrastate conflicts	Conflicts between a state and a non-state armed group, with involvement of a foreign state, that cause at least 25 deaths during a year. Deaths of combatants and civilians due to fighting.
+	737196		Extrastate conflicts	Frequency	Ongoing		Uppsala Conflict Data Program	LineChart	0	Ongoing extrasystemic conflicts	Conflicts between a state and a non-state armed group outside its territory that cause at least 25 deaths during a year.
+	783575		Extrastate conflicts	Frequency	Ongoing		Peace Research Institute Oslo	LineChart	0	Ongoing extrasystemic conflicts	Conflicts between a state and a non-state armed group outside its territory that cause at least 25 deaths during a year.
+	737198		Extrastate conflicts	Frequency	New		Uppsala Conflict Data Program	LineChart	0	New extrasystemic conflicts	Conflicts between a state and a non-state armed group outside its territory that cause at least 25 deaths during a year for the first time.
+	783577		Extrastate conflicts	Frequency	New		Peace Research Institute Oslo	LineChart	0	New extrasystemic conflicts	Conflicts between a state and a non-state armed group outside its territory that cause at least 25 deaths during a year for the first time.
+	783572 783576		Extrastate conflicts	Deaths			Peace Research Institute Oslo	LineChart	0	Deaths in extrasystemic conflicts	Conflicts between a state and a non-state armed group outside its territory that cause at least 25 deaths during a year. Deaths of combatants and civilians due to fighting.
+	737221		Non-state conflicts	Frequency	Ongoing		Uppsala Conflict Data Program	LineChart	0	Ongoing non-state conflicts	Conflicts between non-state armed groups that cause  at least 25 deaths during a year.
+	737223		Non-state conflicts	Frequency	New		Uppsala Conflict Data Program	LineChart	0	New non-state conflicts	Conflicts between non-state armed groups that cause  at least 25 deaths during a year for the first time.
+	737220 737219	nonstate_best	Non-state conflicts	Deaths			Uppsala Conflict Data Program	LineChart	0	Deaths in non-state conflicts	Conflicts between non-state armed groups that cause at least 25 deaths during a year. Deaths of combatants and civilians due to fighting.
+	737226		One-sided violence	Frequency	Ongoing		Uppsala Conflict Data Program	LineChart	0	Ongoing conflicts of one-sided violence	Uses of armed force by a state or non-state armed group against civilians that cause at least 25 deaths during a year.
+	737227		One-sided violence	Frequency	New		Uppsala Conflict Data Program	LineChart	0	New conflicts of one-sided violence	Uses of armed force by a state or non-state armed group against civilians that cause at least 25 deaths during a year for the first time.
+	737225 737224	onesided_violence_best	One-sided violence	Deaths			Uppsala Conflict Data Program	LineChart	0	Deaths from one-sided violence	Uses of armed force by a state or non-state armed group against civilians that cause at least 25 deaths during a year. Deaths of combatants and civilians due to fighting.
+	737738		All wars	Frequency	Ongoing	all	Project Mars	LineChart	0	Ongoing wars	Conflicts between combatants with differentiated militaries and clear frontlines causing at least 500 deaths over their duration.
+	783598		All wars	Frequency	Ongoing	all	Correlates of War – Wars	LineChart	0	Ongoing wars	Conflicts between organized armed groups that cause at least 1,000 deaths during a year.
+	737742 737746		All wars	Frequency	Ongoing	by type	Project Mars	StackedBar	0	Ongoing wars by type	[Interstate](#dod:interstate-war-mars) and [civil](#dod:civil-war) wars that cause at least 500 deaths over their duration.	We count a war as ongoing in a region even if the war is also ongoing in other regions. The sum across all regions can therefore be higher than the total number of ongoing wars.
+	783604 783601 783616 783613 783610 		All wars	Frequency	Ongoing	by type	Correlates of War – Wars	StackedBar	0	Ongoing wars by type	[Interstate](#dod:interstate-war-cow), [intrastate](#dod:intrastate-war-cow), [extrastate](#dod:extrastate-war), and [non-state](#dod:nonstate-war-cow) wars that cause at least 1,000 deaths during a year.	We count a war as ongoing in a region even if the conflict is also ongoing in other regions. The sum across all regions can therefore be higher than the total number of ongoing wars.
+	737741		All wars	Frequency	New	all	Project Mars	LineChart	0	New wars	Start years of conflicts between combatants with differentiated militaries and clear frontlines that cause at least 500 deaths over their duration.
+	783600		All wars	Frequency	New	all	Correlates of War – Wars	LineChart	0	New wars	Conflicts between organized armed groups that cause at least 1,000 deaths during a year for the first time.
+	737745 737749		All wars	Frequency	New	by type	Project Mars	StackedBar	0	New wars by type	Start years of [interstate](#dod:interstate-war-mars) and [civil](#dod:civil-war) wars that cause at least 500 deaths over their duration.	We count a war as new in a region even if the war started earlier or at the same time in another region. The sum across all regions can therefore be higher than the total number of wars.
+	783606 783603 783618 783615 783611		All wars	Frequency	New	by type	Correlates of War – Wars	StackedBar	0	New wars by type	[Interstate](#dod:interstate-war-cow), [intrastate](#dod:intrastate-war-cow), [extrastate](#dod:extrastate-war), and [non-state](#dod:nonstate-war-cow) wars that cause at least 1,000 deaths during a year for the first time.
+	737739 737740		All wars	Deaths		all	Project Mars	LineChart	0	Deaths in wars	Conflicts between combatants with differentiated militaries and clear frontlines that cause at least 500 deaths over their duration. Deaths of combatants due to fighting. 
+	783599		All wars	Deaths		all	Correlates of War – Wars	LineChart	0	Deaths in wars	Conflicts between organized armed groups that cause at least 1,000 deaths during a year. Deaths of combatants due to fighting, disease, and starvation.
+	737743 737747		All wars	Deaths		by type	Project Mars	StackedBar	0	Deaths in wars by type	[Interstate](#dod:interstate-war-mars) and [civil](#dod:civil-war) wars that cause at least 500 deaths over their duration. Deaths of combatants due to fighting.
+	783612 783614 783617 783602 783605		All wars	Deaths		by type	Correlates of War – Wars	StackedBar	0	Deaths in wars by type	[Interstate](#dod:interstate-war-cow), [intrastate](#dod:intrastate-war-cow), [extrastate](#dod:extrastate-war), and [non-state](#dod:nonstate-war-cow) wars that cause at least 1,000 deaths during a year. Deaths of combatants due to fighting, disease, and starvation.
+	737746		Interstate wars	Frequency	Ongoing		Project Mars	LineChart	0	Ongoing interstate wars	[Conventional wars](#dod:conventional-war) where combatants are part of different political authorities.
+	783604		Interstate wars	Frequency	Ongoing		Correlates of War – Wars	LineChart	0	Ongoing interstate wars	Conflicts between states that cause at least 1,000 deaths during a year.
+	737749		Interstate wars	Frequency	New		Project Mars	LineChart	0	New interstate wars	Start years of [conventional](#dod:conventional-war) wars where combatants are part of different political authorities.
+	783606		Interstate wars	Frequency	New		Correlates of War – Wars	LineChart	0	New interstate wars	Conflicts between states that cause at least 1,000 deaths during a year for the first time.
+	737748	interstate_low	Interstate wars	Deaths			Project Mars	LineChart	0	Deaths in interstate wars	[Conventional wars](#dod:conventional-war) where combatants are part of different political authorities. Deaths of combatants due to fighting.
+	783605		Interstate wars	Deaths			Correlates of War – Wars	LineChart	0	Deaths in interstate wars	Conflicts between states that cause at least 1,000 deaths during a year. Deaths of combatants due to fighting, disease, and starvation.
+	737742		Intrastate wars	Frequency	Ongoing	all	Project Mars	LineChart	0	Ongoing civil wars	[Conventional wars](#dod:conventional-war) where combatants were previously part of the same political authority and now at least one seeks control or secession.
+	783608		Intrastate wars	Frequency	Ongoing	all	Correlates of War – Wars	LineChart	0	Ongoing intrastate wars	Conflicts between a state and a non-state armed group or between non-state armed groups that cause at least 1,000 deaths during a year.
+	783613		Intrastate wars	Frequency	Ongoing	non-internationalized	Correlates of War – Wars	LineChart	0	Ongoing non-internationalized intrastate wars	Conflicts between a state and a non-state armed group, or between non-state armed groups, without involvement of a foreign state, that cause at least 1,000 deaths during a year.
+	783610		Intrastate wars	Frequency	Ongoing	internationalized	Correlates of War – Wars	LineChart	0	Ongoing internationalized intrastate wars	Conflicts between a state and a non-state armed group, or between non-state armed groups, with involvement of a foreign state, that cause at least 1,000 deaths during a year.
+	737745		Intrastate wars	Frequency	New	all	Project Mars	LineChart	0	New civil wars	Start years of [conventional wars](#dod:conventional-war) where combatants were previously part of the same political authority and now at least one seeks control or secession.
+	783609		Intrastate wars	Frequency	New	all	Correlates of War – Wars	LineChart	0	New intrastate wars	Conflicts between a state and a non-state armed group or between non-state armed groups that cause at least 1,000 deaths during a year for the first time.
+	783615		Intrastate wars	Frequency	New	non-internationalized	Correlates of War – Wars	LineChart	0	New non-internationalized intrastate wars	Conflicts between a state and a non-state armed group, or between non-state armed groups, without involvement of a foreign state, that cause at least 1,000 deaths during a year for the first time.
+	783611		Intrastate wars	Frequency	New	internationalized	Correlates of War – Wars	LineChart	0	New internationalized intrastate wars	Conflicts between a state and a non-state armed group, or between non-state armed groups, with involvement of a foreign state, that cause at least 1,000 deaths during a year for the first time.
+	737744	civil_low	Intrastate wars	Deaths		all	Project Mars	LineChart	0	Deaths in civil wars	[Conventional wars](#dod:conventional-war) where combatants were previously part of the same political authority and now at least one seeks control or secession. Deaths of combatants due to fighting.
+	783607		Intrastate wars	Deaths		all	Correlates of War – Wars	LineChart	0	Deaths in intrastate wars	Conflicts between a state and a non-state armed group or between non-state armed groups that cause at least 1,000 deaths during a year. Deaths of combatants due to fighting, disease, and starvation.
+	783614		Intrastate wars	Deaths		non-internationalized	Correlates of War – Wars	LineChart	0	Deaths in non-internationalized intrastate wars	Conflicts between a state and a non-state armed group, or between non-state armed groups, without involvement of a foreign state, that cause at least 1,000 deaths during a year. Deaths of combatants due to fighting, disease, and starvation.
+	783612		Intrastate wars	Deaths		internationalized	Correlates of War – Wars	LineChart	0	Deaths in internationalized intrastate wars	Conflicts between a state and a non-state armed group, or between non-state armed groups, with involvement of a foreign state, that cause at least 1,000 deaths during a year. Deaths of combatants due to fighting, disease, and starvation.
+	783601		Extrastate wars	Frequency	Ongoing		Correlates of War – Wars	LineChart	0	Ongoing extrastate wars	Conflicts between a state and a non-state region it seeks to control, or between a state and a colony that seeks policy change or independence, and that cause at least 1,000 deaths during a year.
+	783603		Extrastate wars	Frequency	New		Correlates of War – Wars	LineChart	0	New extrastate wars	Conflicts between a state and a non-state region it seeks to control, or between a state and a colony that seeks policy change or independence, and that cause at least 1,000 deaths during a year for the first time.
+	783602		Extrastate wars	Deaths			Correlates of War – Wars	LineChart	0	Deaths in extrastate wars	Conflicts between a state and a non-state region it seeks to control, or between a state and a colony that seeks policy change or independence, and that cause at least 1,000 deaths during a year. Deaths of combatants due to fighting, disease, and starvation.
+	783616		Non-state wars	Frequency	Ongoing		Correlates of War – Wars	LineChart	0	Ongoing non-state wars	Conflicts between non-state armed groups within a region without a state or across state broders, that cause at least 1,000 deaths during a year.
+	783618		Non-state wars	Frequency	New		Correlates of War – Wars	LineChart	0	New non-state wars	Conflicts between non-state armed groups within a region without a state or across state broders, that cause at least 1,000 deaths during a year for the first time.
+	783617		Non-state wars	Deaths			Correlates of War – Wars	LineChart	0	Deaths in non-state wars	Conflicts between non-state armed groups within a region without a state or across state broders, that cause at least 1,000 deaths during a year. Deaths of combatants due to fighting, disease, and starvation.
+
+columns
+	variableId	name	slug	transform
+	737193	All conflicts
+	737201	Interstate
+	737206	Intrastate
+	737221	Non-state
+	737226	One-sided violence
+	737196	Extrasystemic
+	737216	Non-internationalized intrastate
+	737211	Internationalized intrastate
+	737195	All conflicts
+	737203	Interstate
+	737208	Intrastate
+	737223	Non-state
+	737227	One-sided violence
+	737198	Extrasystemic
+	737218	Non-internationalized intrastate
+	737212	Internationalized intrastate
+	737191	Best estimate
+	737192	Low estimate
+	737194	High estimate
+	737197	Interstate
+	737200	Low estimate
+	737199	High estimate
+		Best estimate	interstate_best	duplicate 737197
+	737202	Intrastate
+	737205	Low estimate
+	737204	High estimate
+		Best estimate	intrastate_best	duplicate 737202
+	737217	Non-state
+	737220	Low estimate
+	737219	High estimate
+		Best estimate	nonstate_best	duplicate 737217
+	737222	One-sided violence
+	737225	Low estimate
+	737224	High estimate
+		Best estimate	onesided_violence_best	duplicate 737222
+	737213	Non-internationalized intrastate
+	737215	Low estimate
+	737214	High estimate
+		Best estimate	nonint_intrastate_best	duplicate 737213
+	737207	Internationalized intrastate
+	737210	Low estimate
+	737209	High estimate
+		Best estimate	int_intrastate_best	duplicate 737207
+	737738	All wars
+	737742	Civil wars
+	737746	Interstate wars
+	737741	All wars
+	737745	Civil wars
+	737749	Interstate wars
+	737739	Low estimate
+	737740	High estimate
+	737743	Civil wars
+	737744	High estimate
+		Low estimate	civil_low	duplicate 737743
+	737747	Interstate wars
+	737748	High estimate
+		Low estimate	interstate_low	duplicate 737747
+	792335	All conflicts
+	792327	Displays of force
+	792329	Threats of force
+	792332	Uses of force
+	792333	Wars
+	792338	All conflicts
+	792328	Displays of force
+	792330	Threats of force
+	792331	Uses of force
+	792334	Wars
+	792336	Low estimate
+	792337	High estimate
+	783598	All wars
+	783604	Interstate wars
+	783608	Intrastate wars
+	783601	Extra-state wars
+	783616	Non-state wars
+	783613	Non-internationalized intrastate
+	783610	Internationalized intrastate
+	783600	All wars
+	783606	Interstate wars
+	783609	Intrastate wars
+	783603	Extra-state wars
+	783618	Non-state wars
+	783615	Non-internationalized intrastate
+	783611	Internationalized intrastate
+	783599	All wars
+	783605	Interstate wars
+	783607	Intrastate wars
+	783602	Extra-state wars
+	783617	Non-state wars
+	783614	Non-internationalized intrastate
+	783612	Internationalized intrastate
+	739074	All conflicts
+	739077	Internal
+	772635	Interstate
+	739075	All conflicts
+	739079	Internal
+	772636	Interstate
+	739076	All conflicts
+	739078	Internal
+	772637	Interstate
+	783568	All conflicts
+	783579	Interstate
+	783585	Intrastate
+	783575	Extrasystemic
+	783592	Non-internationalized intrastate
+	783587	Internationalized intrastate
+	783573	All conflicts
+	783582	Interstate
+	783584	Intrastate
+	783577	Extrasystemic
+	783597	Non-internationalized intrastate
+	783590	Internationalized intrastate
+	783569	Best estimate
+	783570	Low estimate
+	783571	High estimate
+	783581	Interstate
+	783578	Low estimate
+	783580	High estimate
+		Best estimate	interstate_prio_best	duplicate 783581
+	783586	Intrastate
+	783583	Low estimate
+	783589	High estimate
+		Best estimate	intrastate_prio_best	duplicate 783586
+	783574	Extra-systemic
+	783572	Low estimate
+	783576	High estimate
+		Best estimate	extrasyst_prio_best	duplicate 783574
+	783595	Non-internationalized intrastate
+	783591	Low estimate
+	783596	High estimate
+		Best estimate	nonint_intrastate_prio_best	duplicate 783595
+	783588	Internationalized intrastate
+	783594	Low estimate
+	783593	High estimate
+		Best estimate	int_intrastate_prio_best	duplicate 783588
+	810765	All conflicts
+	810757	Displays of force
+	810759	Threats of force
+	810761	Uses of force
+	810763	Wars
+	810766	All conflicts
+	810758	Displays of force
+	810760	Threats of force
+	810762	Uses of force
+	810764	Wars
+	810753	No deaths
+	810741	1-25 deaths
+	810748	26-100 deaths
+	810743	101-250 deaths
+	810745	251-500 deaths
+	810749	501-999 deaths
+	810750	1000 deaths or more
+	810755	No deaths data
