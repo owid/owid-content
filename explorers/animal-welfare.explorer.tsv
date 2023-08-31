@@ -1,7 +1,7 @@
 explorerTitle	Animal Welfare Data Explorer
-isPublished	FALSE
+isPublished	true
 thumbnail
-explorerSubtitle	Explore the number of animals slaughtered, raised, and welfare impacts.
+explorerSubtitle	Explore the number of animals slaughtered and welfare impacts.
 selection	World	United States	China	India	Brazil	United Kingdom
 wpBlockId
 subNavId
@@ -69,9 +69,7 @@ graphers
 	718403	Live animals (stocks)	Rabbit	false	Number of rabbits	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.		LineChart	0	true	true
 	717524	Live animals (stocks)	Bees	false	Number of bees	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.		LineChart	0	true	true
 	783621 783620	Cage and cage-free hens			Number of laying hens in cages and cage-free housing			StackedDiscreteBar
-		Battery cage laws
-		Fur ban laws
-		Debeaking laws
+
 columns
 	variableId	tolerance	name	sourceName	colorScaleScheme
 	783621	10
