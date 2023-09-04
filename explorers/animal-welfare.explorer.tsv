@@ -69,9 +69,9 @@ graphers
 	718403	Live animals (stocks)	Rabbit	false	Number of rabbits	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.		LineChart	0	true	true
 	717524	Live animals (stocks)	Bees	false	Number of bees	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.		LineChart	0	true	true
 	783621 783620	Cage and cage-free hens			Number of laying hens in cages and cage-free housing			StackedDiscreteBar
-
+	811038	Banned chick culling		false	Which countries have banned chick culling?	Chick culling is the process of separating and killing unwanted male and unhealthy female chicks that cannot produce eggs in industrialized egg facilities.		WorldMap
 columns
-	variableId	tolerance	name	sourceName	colorScaleScheme
+	variableId	tolerance	name	sourceName	colorScaleScheme	colorScaleInvert	colorScaleCategoricalBins
 	783621	10
 	783620	10
 	792288		Midpoint	Fishcount
@@ -139,3 +139,4 @@ columns
 	717490				Greens
 	718403				YlGnBu
 	717524				YlGnBu
+	811038				OwidCategoricalC	true
