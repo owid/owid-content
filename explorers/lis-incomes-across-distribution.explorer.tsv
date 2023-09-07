@@ -476,7 +476,7 @@ graphers
 	Income share for each decile (after tax)	share_p10_dhi_pc share_p20_dhi_pc share_p30_dhi_pc share_p40_dhi_pc share_p50_dhi_pc share_p60_dhi_pc share_p70_dhi_pc share_p80_dhi_pc share_p90_dhi_pc share_p100_dhi_pc	Decile shares	All deciles	After tax		false	The share of income received by each decile (tenth of the population). Income here is measured after taxes and benefits.		entity	false	chart			lis_vars			0	2019	
 	Income share for each decile (before tax)	share_p10_mi_pc share_p20_mi_pc share_p30_mi_pc share_p40_mi_pc share_p50_mi_pc share_p60_mi_pc share_p70_mi_pc share_p80_mi_pc share_p90_mi_pc share_p100_mi_pc	Decile shares	All deciles	Before tax		false	The share of income received by each decile (tenth of the population). Income here is measured before taxes and benefits.		entity	false	chart			lis_vars			0	2019	
 
-table	https://catalog.ourworldindata.org/explorers/lis/2023-01-18/luxembourg_income_study/luxembourg_income_study.csv	lis_vars
+table	https://catalog.ourworldindata.org/explorers/lis/2023-08-30/luxembourg_income_study/luxembourg_income_study.csv	lis_vars
 columns	lis_vars
 	name	slug	type	description	unit	shortUnit	colorScaleNumericBins	colorScaleScheme	transform	sourceName	dataPublishedBy	sourceLink	colorScaleNumericMinValue	tolerance	colorScaleEqualSizeBins
 	Country	country	EntityName							Luxembourg Income Study (2023)	Luxembourg Income Study (LIS) Database, http://www.lisdatacenter.org (multiple countries; 1967-2021). Luxembourg, LIS.	https://www.lisdatacenter.org/our-data/lis-database/	0	5	true
