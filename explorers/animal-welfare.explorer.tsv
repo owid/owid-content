@@ -71,6 +71,8 @@ graphers
 	783621 783620	Cage and cage-free hens			Number of laying hens in cages and cage-free housing			StackedDiscreteBar
 	811038	Bans on chick culling		false	Bans on chick culling	Chick culling is the process of separating and killing unwanted male and unhealthy female chicks that cannot produce eggs in industrialized egg facilities.		WorldMap
 	812252	Bans on bullfighting		false	Bans on bullfighting	Bullfighting is a physical contest that involves a bullfighter attempting to subdue, immobilize, or kill a bull.		WorldMap
+	812277	Bans on fur farming		false	Bans on animal fur farming			WorldMap
+
 columns
 	variableId	tolerance	name	sourceName	colorScaleScheme	colorScaleInvert	colorScaleCategoricalBins
 	783621	10
@@ -141,4 +143,5 @@ columns
 	718403				YlGnBu
 	717524				YlGnBu
 	811038				OwidCategoricalC	true
-	812252				OwidCategoricalC
+	812252				OwidCategoricalC	true
+	812277				OwidCategoricalC	true
