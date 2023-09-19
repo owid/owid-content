@@ -14,6 +14,7 @@ graphers
 	792288 792290 792289	Animals slaughtered	Wild-caught fish	false	Number of wild-caught fish killed for food	Estimates of the number of wild fish killed per year are uncertain – that's why upper and lower-bound estimates are shown. This data is calculated based on annual catch figures from 2007 to 2016 in tonnes, and estimated mean weights for fish species.	This estimate does not include unrecorded fish capture, such as fish caught illegally and those caught as bycatch and discards.	DiscreteBar		true
 	812307 812305 812306	Animals slaughtered	Wild-caught fish	true	Number of wild-caught fish killed for food per person	Estimates of the number of wild fish killed per year are uncertain – that's why upper and lower-bound estimates are shown. This data is calculated based on annual catch figures from 2007 to 2016 in tonnes, and estimated mean weights for fish species.	This estimate does not include unrecorded fish capture, such as fish caught illegally and those caught as bycatch and discards.	DiscreteBar		true
 	791804 791805 791806	Animals slaughtered	Farmed fish	false	Number of farmed fish killed for food	Estimates of the number of farmed fish killed per year are uncertain – that's why upper and lower-bound estimates are shown.	Data does not include lobsters, farmed fish used as bait, and species without estimates of mean weight (which could be an additional 17% of fish production).	DiscreteBar		true
+	812310 812308 812309	Animals slaughtered	Farmed fish	true	Number of farmed fish killed for food per person	Estimates of the number of farmed fish killed per year are uncertain – that's why upper and lower-bound estimates are shown.	Data does not include lobsters, farmed fish used as bait, and species without estimates of mean weight (which could be an additional 17% of fish production).	DiscreteBar		true
 	791807 791808 791809	Animals slaughtered	Farmed crustaceans	false	Number of farmed crustaceans killed for food	Decapod crustaceans are animals such as shrimps, crabs, lobsters, prawns, and crayfish. Estimates are uncertain – that's why upper and lower-bound estimates are shown.		DiscreteBar		true
 	718036	Animals slaughtered	Chickens	false	Number of chickens slaughtered for meat per year	This data is based on the country of production, not consumption.		LineChart	0	true	true
 	718037	Animals slaughtered	Chickens	true	Number of chickens slaughtered for meat per person	The number of slaughtered animals is divided by the population of a country to give an estimate of the number slaughtered per person.		LineChart	0	true	true
@@ -85,8 +86,11 @@ columns
 	792289		Lower bound	Fishcount
 	812306		Lower bound	Fishcount
 	791804		Midpoint	Fishcount				10000000;30000000;100000000;300000000;1000000000;3000000000;10000000000;30000000000;100000000000;
+	812310		Midpoint	Fishcount
 	791805		Upper bound	Fishcount
+	812308		Upper bound	Fishcount
 	791806		Lower bound	Fishcount
+	812309		Lower bound	Fishcount
 	791807		Midpoint	Fishcount				10000000;30000000;100000000;300000000;1000000000;3000000000;10000000000;30000000000;100000000000;300000000000;
 	791808		Upper bound	Fishcount
 	791809		Lower bound	Fishcount
