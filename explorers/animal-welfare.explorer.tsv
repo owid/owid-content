@@ -39,8 +39,6 @@ graphers
 	717997	Animals slaughtered	Cows	true	Number of cows slaughtered for meat per person	The number of slaughtered animals is divided by the population of a country to give an estimate of the number slaughtered per person.		LineChart	0	true	true
 	718026	Animals slaughtered	Buffaloes	false	Number of buffalo slaughtered for meat per year	This data is based on the country of production, not consumption.		LineChart	0	true	true
 	718027	Animals slaughtered	Buffaloes	true	Number of buffalo slaughtered for meat per person	The number of slaughtered animals is divided by the population of a country to give an estimate of the number slaughtered per person.		LineChart	0	true	true
-	718021	Animals slaughtered	Cows and buffaloes	false	Number of cows and buffalo slaughtered for meat per year	This data is based on the country of production, not consumption.		LineChart	0	true	true
-	718022	Animals slaughtered	Cows and buffaloes	true	Number of cows and buffalo slaughtered for meat per person	The number of slaughtered animals is divided by the population of a country to give an estimate of the number slaughtered per person.		LineChart	0	true	true
 	718061	Animals slaughtered	Horses	false	Number of horses slaughtered for meat per year	This data is based on the country of production, not consumption.		LineChart	0	true	true
 	718062	Animals slaughtered	Horses	true	Number of horses slaughtered for meat per person	The number of slaughtered animals is divided by the population of a country to give an estimate of the number slaughtered per person.		LineChart	0	true	true
 	718031	Animals slaughtered	Camels	false	Number of camels slaughtered for meat per year	This data is based on the country of production, not consumption.		LineChart	0	true	true
@@ -122,8 +120,6 @@ columns
 	717997				YlOrRd			0.01;0.02;0.05;0.1;0.2;0.5;1;
 	718026				Purples			100000;300000;1000000;3000000;30000000
 	718027				Purples			0.01;0.03;0.1;0.3;
-	718021				Greens			100000;300000;1000000;3000000;30000000;100000000;
-	718022				Greens			0.01;0.02;0.05;0.1;0.2;0.5;1;
 	718061				YlGnBu			10000;30000;100000;300000;1000000;3000000;
 	718062				YlGnBu			0.001;0.003;0.01;0.03;0.1;0.3;
 	718031				YlOrBr			10000;30000;100000;300000;1000000;
