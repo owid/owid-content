@@ -62,7 +62,6 @@ graphers
 	718476	Live animals (stocks)	Sheep	false	Number of sheep	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.		LineChart	0	true	true
 	717620	Live animals (stocks)	Cows	false	Number of cows	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.		LineChart	0	true	true
 	717560	Live animals (stocks)	Buffalo	false	Number of buffalo	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.		LineChart	0	true	true
-	717614	Live animals (stocks)	Cows and buffalo	false	Number of cows and buffaloes	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.		LineChart	0	true	true
 	717903	Live animals (stocks)	Horse	false	Number of horses	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.		LineChart	0	true	true
 	717577	Live animals (stocks)	Camels	false	Number of camels	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.		LineChart	0	true	true
 	718132	Live animals (stocks)	Mule	false	Number of mules	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.		LineChart	0	true	true
@@ -143,7 +142,6 @@ columns
 	718476				Blues
 	717620				Blues
 	717560				YlOrRd
-	717614				YlOrRd
 	717903				Purples
 	717577				Purples
 	718132				Greens
