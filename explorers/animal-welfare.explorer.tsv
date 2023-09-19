@@ -74,7 +74,7 @@ graphers
 	812277	Bans on fur farming		false	Bans on animal fur farming			WorldMap
 
 columns
-	variableId	tolerance	name	sourceName	colorScaleScheme	colorScaleInvert	colorScaleCategoricalBins
+	variableId	tolerance	name	sourceName	colorScaleScheme	colorScaleInvert	colorScaleCategoricalBins	colorScaleNumericBins
 	783621	10
 	783620	10
 	792288		Midpoint	Fishcount
@@ -86,14 +86,14 @@ columns
 	791807		Midpoint	Fishcount
 	791808		Upper bound	Fishcount
 	791809		Lower bound	Fishcount
-	718096				YlOrBr
-	718097				YlOrBr
-	718036				YlGn
-	718037				YlGn
-	718041				Blues
-	718042				Blues
+	718096				YlOrBr			30000000;100000000;300000000;1000000000;3000000000;10000000000;30000000000
+	718097				YlOrBr			5;10;15;20;25;30;35
+	718036				YlGn			30000000;100000000;300000000;1000000000;3000000000;10000000000
+	718037				YlGn			5;10;15;20;25;30;35
+	718041				Blues			1000000;3000000;10000000;30000000;100000000;300000000;1000000000;3000000000
+	718042				Blues			0.01;0.03;0.1;0.3;1;3;10
 	718100				YlOrRd
-	718101				YlOrRd
+	718101				YlOrRd			0.01;0.03;0.1;0.3;1;3;
 	718056				Purples
 	718057				Purples
 	718011				Greens
