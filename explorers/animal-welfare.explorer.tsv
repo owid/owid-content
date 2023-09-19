@@ -74,7 +74,7 @@ graphers
 	812277	Bans on fur farming		false	Bans on animal fur farming			WorldMap
 
 columns
-	variableId	tolerance	name	sourceName	colorScaleScheme	colorScaleInvert	colorScaleCategoricalBins	colorScaleNumericBins
+	variableId	tolerance	name	sourceName	colorScaleScheme	colorScaleInvert	colorScaleCategoricalBins	colorScaleNumericBins	unit	shortUnit
 	783621	10
 	783620	10
 	792288		Midpoint	Fishcount				100000000;300000000;1000000000;3000000000;10000000000;30000000000;100000000000;300000000000;1000000000000
@@ -147,7 +147,7 @@ columns
 	718132				Greens
 	717490				Greens
 	718403				YlGnBu
-	717524				YlGnBu
+	717524				YlGnBu				bees	bees
 	811038				OwidCategoricalC	true
 	812252				OwidCategoricalC	true
 	812277				OwidCategoricalC	true
