@@ -68,7 +68,7 @@ graphers
 	717490	Live animals (stocks)	Donkey	false	Number of asses	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.		LineChart	0	true	true
 	718403	Live animals (stocks)	Rabbit	false	Number of rabbits	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.		LineChart	0	true	true
 	717524	Live animals (stocks)	Bees	false	Number of bees	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.		LineChart	0	true	true
-	783621 783620	Cage and cage-free hens			Number of laying hens in cages and cage-free housing			StackedDiscreteBar
+	783621 783620	Cage and cage-free hens		false	Number of laying hens in cages and cage-free housing			StackedDiscreteBar
 	811038	Bans on chick culling		false	Bans on chick culling	Chick culling is the process of separating and killing unwanted male and unhealthy female chicks that cannot produce eggs in industrialized egg facilities.		WorldMap
 	812252	Bans on bullfighting		false	Bans on bullfighting	Bullfighting is a physical contest that involves a bullfighter attempting to subdue, immobilize, or kill a bull.		WorldMap
 	812277	Bans on fur farming		false	Bans on animal fur farming			WorldMap
@@ -131,8 +131,7 @@ columns
 	718087				YlOrRd			0.01;0.02;0.05;0.1;0.2;0.5;1;2;
 	718045				Purples
 	718046				Purples
-	717658				Greens
-	717748				Greens
+	717658				Greens			10000000;30000000;100000000;300000000;1000000000;3000000000;10000000000
 	718624				YlGnBu
 	717748				YlGnBu
 	717837				YlOrBr
