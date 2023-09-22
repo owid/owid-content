@@ -91,7 +91,7 @@ sourceLink = "https://www.lisdatacenter.org/our-data/lis-database/"
 colorScaleNumericMinValue = 0
 tolerance = 5
 colorScaleEqualSizeBins = "true"
-new_line = "<br><br>"
+new_line = "\\n\\n"
 
 notes_title = "NOTES ON HOW WE PROCESSED THIS INDICATOR"
 
