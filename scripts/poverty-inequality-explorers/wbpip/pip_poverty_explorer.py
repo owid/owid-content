@@ -45,7 +45,7 @@ survey_type = pd.read_csv(url)
 header_dict = {
     "explorerTitle": "Poverty Data Explorer: Key indicators from World Bank data",
     "selection": ["Bangladesh", "Bolivia", "Kenya", "Mozambique", "Nigeria", "Zambia"],
-    "explorerSubtitle": "[*Download Poverty data on GitHub*](https://github.com/owid/poverty-data)",
+    "explorerSubtitle": "<i><a href='https://github.com/owid/poverty-data'>Download Poverty data on GitHub</a></i>",
     "isPublished": "true",
     "googleSheet": f"https://docs.google.com/spreadsheets/d/{sheet_id}",
     "wpBlockId": "57756",
