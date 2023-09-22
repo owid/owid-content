@@ -45,7 +45,7 @@ survey_type = pd.read_csv(url)
 header_dict = {
     "explorerTitle": "Poverty Data Explorer: Key indicators from World Bank data",
     "selection": ["Bangladesh", "Bolivia", "Kenya", "Mozambique", "Nigeria", "Zambia"],
-    "explorerSubtitle": "<i><a href='https://github.com/owid/poverty-data'>Download Poverty data on GitHub</a></i>",
+    "explorerSubtitle": "[*Download Poverty data on GitHub*](https://github.com/owid/poverty-data)",
     "isPublished": "true",
     "googleSheet": f"https://docs.google.com/spreadsheets/d/{sheet_id}",
     "wpBlockId": "57756",
@@ -66,7 +66,7 @@ df_header = df_header[0].apply(pd.Series)
 # These variables consider a continous series, without breaks due to changes in surveys' methodology
 
 # %%
-new_line = "<br><br>"
+new_line = "\\n\\n"
 
 additional_description = new_line.join(
     [
@@ -79,7 +79,7 @@ notes_title = "NOTES ON HOW WE PROCESSED THIS INDICATOR"
 processing_description = new_line.join(
     [
         "For a small number of country-year observations, the World Bank PIP data contains two estimates: one based on income data and one based on consumption data. In these cases we keep only the consumption estimate in order to obtain a single series for each country.",
-        "You can find the data with all available income and consumption data points, including these overlapping estimates, in our <a href='https://github.com/owid/poverty-data#a-global-dataset-of-poverty-and-inequality-measures-prepared-by-our-world-in-data-from-the-world-banks-poverty-and-inequality-platform-pip-database'>complete dataset</a> of the World Bank PIP data.",
+        "You can find the data with all available income and consumption data points, including these overlapping estimates, in our [complete dataset](https://github.com/owid/poverty-data#a-global-dataset-of-poverty-and-inequality-measures-prepared-by-our-world-in-data-from-the-world-banks-poverty-and-inequality-platform-pip-database) of the World Bank PIP data.",
     ]
 )
 ppp_description = "The data is measured in international-$ at 2017 prices – this adjusts for inflation and for differences in the cost of living between countries."

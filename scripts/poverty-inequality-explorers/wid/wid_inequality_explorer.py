@@ -73,7 +73,7 @@ sourceName = "World Inequality Database (WID.world) (2023)"
 dataPublishedBy = "World Inequality Database (WID), https://wid.world"
 sourceLink = "https://wid.world"
 tolerance = 5
-new_line = "<br><br>"
+new_line = "\\n\\n"
 
 additional_description = new_line.join(
     [
