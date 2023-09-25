@@ -45,7 +45,7 @@ survey_type = pd.read_csv(url)
 header_dict = {
     "explorerTitle": "Poverty Data Explorer: Key indicators from World Bank data",
     "selection": ["Bangladesh", "Bolivia", "Kenya", "Mozambique", "Nigeria", "Zambia"],
-    "explorerSubtitle": "<i><a href='https://github.com/owid/poverty-data'>Download Poverty data on GitHub</a></i>",
+    "explorerSubtitle": "[_Download Poverty data on GitHub_](https://github.com/owid/poverty-data)",
     "isPublished": "true",
     "googleSheet": f"https://docs.google.com/spreadsheets/d/{sheet_id}",
     "wpBlockId": "57756",
@@ -66,7 +66,7 @@ df_header = df_header[0].apply(pd.Series)
 # These variables consider a continous series, without breaks due to changes in surveys' methodology
 
 # %%
-new_line = "<br><br>"
+new_line = "\\n\\n"
 
 additional_description = new_line.join(
     [

@@ -72,7 +72,7 @@ df_header = df_header[0].apply(pd.Series)
 # These variables consider a continous series, without breaks due to changes in surveys' methodology
 
 # %%
-new_line = "<br><br>"
+new_line = "\\n\\n"
 
 additional_description = new_line.join(
     [

@@ -84,13 +84,12 @@ dataPublishedBy = "Luxembourg Income Study (LIS) Database, http://www.lisdatacen
 sourceLink = "https://www.lisdatacenter.org/our-data/lis-database/"
 tolerance = 5
 colorScaleEqualSizeBins = "true"
-new_line = "<br><br>"
+new_line = "\\n\\n"
 
 notes_title = "NOTES ON HOW WE PROCESSED THIS INDICATOR"
 
 processing_description = new_line.join(
     [
-        "The Luxembourg Income Study data is created from standardized household survey microdata available in their [LISSY platform](https://www.lisdatacenter.org/data-access/lissy). The estimations follow the methodology available in LIS, Key Figures and DART platform.",
         "After tax income is obtained by using the disposable household income variable (dhi)",
         "Before tax income is estimated by calculating the sum of income from labor and capital (variable hifactor), cash transfers and in-kind goods and services from privates (hiprivate) and private pensions (hi33). This is done only for surveys where tax and contributions are fully captured, collected or imputed.",
         "Income data is converted from local currency into international-$ by dividing by the [LIS PPP factor](https://www.lisdatacenter.org/resources/ppp-deflators/), available as an additional database in the system.",

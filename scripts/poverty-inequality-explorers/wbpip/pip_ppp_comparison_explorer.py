@@ -57,7 +57,7 @@ survey_type = pd.read_csv(url)
 header_dict = {
     "explorerTitle": "Poverty Data Explorer: World Bank data - 2011 vs. 2017 prices",
     "selection": ["Mozambique", "Nigeria", "Kenya", "Bangladesh", "Bolivia", "World"],
-    "explorerSubtitle": "<i><a href='https://github.com/owid/poverty-data'>Download Poverty data on GitHub</a></i>",
+    "explorerSubtitle": "[_Download Poverty data on GitHub_](https://github.com/owid/poverty-data)",
     "isPublished": "true",
     "googleSheet": f"https://docs.google.com/spreadsheets/d/{sheet_id}",
     "wpBlockId": "57756",
@@ -74,7 +74,7 @@ df_header = df_header[0].apply(pd.Series)
 # Variables are grouped by type to iterate by different poverty lines and survey types at the same time. The output is the list of all the variables being used in the explorer, with metadata.
 
 # %%
-new_line = "<br><br>"
+new_line = "\\n\\n"
 
 additional_description = new_line.join(
     [

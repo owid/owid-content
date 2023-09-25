@@ -102,7 +102,7 @@ dataPublishedBy = "World Bank. (2022). Poverty and Inequality Platform (version 
 sourceLink = "https://pip.worldbank.org/"
 tolerance = 5
 colorScaleEqualSizeBins = "true"
-new_line = "<br><br>"
+new_line = "\\n\\n"
 
 additional_description = new_line.join(
     [
@@ -267,7 +267,7 @@ sourceName = "World Inequality Database (WID.world) (2023)"
 dataPublishedBy = "World Inequality Database (WID), https://wid.world"
 sourceLink = "https://wid.world"
 tolerance = 5
-new_line = "<br><br>"
+new_line = "\\n\\n"
 
 additional_description = new_line.join(
     [
