@@ -1,7 +1,7 @@
 explorerTitle	scatter faceting
 isPublished	false
 selection
-explorerSubtitle	Download the complete <em>Our World in Data</em> <a href="https://github.com/owid/covid-19-data/tree/master/public/data" target="_blank" rel="noopener noreferrer">COVID-19 dataset.</a>
+explorerSubtitle	Download the complete _Our World in Data_ [COVID-19 dataset.](https://github.com/owid/covid-19-data/tree/master/public/data)
 hideAlertBanner	true
 subNavId	coronavirus
 subNavCurrentId	data-explorer

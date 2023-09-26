@@ -1,7 +1,7 @@
 explorerTitle	US COVID-19 Vaccination Data Explorer
 isPublished	true
 selection	United States	California	Texas	Florida	New York State	Pennsylvania	Illinois	Ohio	Georgia	North Carolina
-explorerSubtitle	Download the <em>Our World in Data</em> <a href="https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations#united-states-vaccination-data" target="_blank" rel="noopener noreferrer">dataset on US COVID-19 vaccination.</a>
+explorerSubtitle	Download the _Our World in Data_ [dataset on US COVID-19 vaccination.](https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations#united-states-vaccination-data)
 entityType	state
 hideAlertBanner	true
 hasMapTab	false
