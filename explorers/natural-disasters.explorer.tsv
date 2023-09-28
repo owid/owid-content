@@ -26,6 +26,9 @@ graphers
 			All disasters (by type)	Deaths	Decadal average	false						StackedBar	5427			chart	false
 			All disasters (by type)	Deaths	Decadal average	true						StackedBar	5421			chart	false
 			All disasters (by type)	Economic damages (% GDP)	Decadal average	false						StackedBar	5428			chart	false
+			All disasters (by type)	Deaths	Annual	false						StackedBar	730			chart	false
+			All disasters (by type)	Deaths	Annual	true						StackedBar	7175			chart	false
+			All disasters (by type)	Economic damages (% GDP)	Annual	false						StackedBar	7174			chart	false
 	Decadal average: Annual number of deaths from drought	Decadal figures are measured as the annual average over the subsequent ten-year period.	Drought	Deaths	Decadal average	false	decadal	deaths_drought	true			StackedBar			Decadal figures are measured as the annual average over the subsequent ten-year period. This means figures for ‘1900’ represent the average from 1900 to 1909; ‘1910’ is the average from 1910 to 1919 etc.
 	Decadal average: Annual number of people injured from drought	Decadal figures are measured as the annual average over the subsequent ten-year period.	Drought	Injuries	Decadal average	false	decadal	injured_drought	true			StackedBar			Decadal figures are measured as the annual average over the subsequent ten-year period. This means figures for ‘1900’ represent the average from 1900 to 1909; ‘1910’ is the average from 1910 to 1919 etc.
 	Decadal average: Annual number of people requiring immediate assistance during drought	Decadal figures are measured as the annual average over the subsequent ten-year period.	Drought	Requiring assistance	Decadal average	false	decadal	affected_drought	true			StackedBar			Decadal figures are measured as the annual average over the subsequent ten-year period. This means figures for ‘1900’ represent the average from 1900 to 1909; ‘1910’ is the average from 1910 to 1919 etc.
