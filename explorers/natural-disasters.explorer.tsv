@@ -7,8 +7,8 @@ hasMapTab	true
 tab	chart
 wpBlockId	46066
 yAxisMin	0
-table	https://catalog.ourworldindata.org/explorers/emdat/2022-12-07/natural_disasters/natural_disasters_yearly.csv	annual
-table	https://catalog.ourworldindata.org/explorers/emdat/2022-12-07/natural_disasters/natural_disasters_decadal.csv	decadal
+table	https://catalog.ourworldindata.org/explorers/emdat/2023-09-20/natural_disasters/natural_disasters_yearly.csv	annual
+table	https://catalog.ourworldindata.org/explorers/emdat/2023-09-20/natural_disasters/natural_disasters_decadal.csv	decadal
 hideAnnotationFieldsInTitle	true
 graphers
 	title	subtitle	Disaster Type Dropdown	Impact Dropdown	Timespan Radio	Per capita Checkbox	tableSlug	ySlugs	yScaleToggle	xSlug	colorSlug	type	grapherId	sourceDesc	note	tab	hasMapTab
