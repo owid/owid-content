@@ -134,7 +134,7 @@ new_line = "\\n\\n"
 
 additional_description = new_line.join(
     [
-        "Depending on the country and year, the data relates to income measured after taxes and benefits, or consumption, per capita.",
+        "Depending on the country and year, the data relates to income measured after taxes and benefits, or to consumption, per capita.",
         "Non-market sources of income, including food grown by subsistence farmers for their own consumption, are taken into account.",
     ]
 )
@@ -985,7 +985,7 @@ selectedFacetStrategy = "entity"
 hasMapTab = "false"
 tab_parameter = "chart"
 
-datasets_description = "LIS data relates to income after taxes and benefits per capita. Depending on the country and year, PIP data relates to income measured after taxes and benefits, or consumption, per capita."
+datasets_description = "LIS data relates to income after taxes and benefits per capita. Depending on the country and year, PIP data relates to income measured after taxes and benefits, or to consumption, per capita."
 
 df_graphers = pd.DataFrame()
 
