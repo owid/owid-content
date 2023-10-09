@@ -5,22 +5,22 @@ wpBlockId	54262
 selection	World	China	South Africa	Brazil	United States	United Kingdom	India	Rwanda
 graphers
 	grapherId	Health Area Dropdown	Indicator Dropdown	Metric Dropdown	Source Dropdown
-	4827	Child health	Child mortality	Rate	WHO (GHO)
+	4827	Child health	Child mortality	Rate	UN IGME
 	952	Child health	Child mortality	Rate	UN WPP
 	677	Child health	Child mortality	Rate	IHME
-	6209	Child health	Child mortality	Number of deaths	WHO (GHO)
+	6209	Child health	Child mortality	Number of deaths	UN IGME
 	6004	Child health	Child mortality	Number of deaths	UN WPP
 	3772	Child health	Child mortality	Number of deaths	IHME
-	6210	Child health	Infant mortality	Number of deaths	WHO (GHO)
-	4828	Child health	Infant mortality	Rate	WHO (GHO)
+	3401	Child health	Infant mortality	Number of deaths	UN IGME
+	389	Child health	Infant mortality	Rate	UN IGME
 	3969	Child health	Infant mortality	Number of deaths	IHME
 	3798	Child health	Infant mortality	Rate	IHME
 	6005	Child health	Infant mortality	Number of deaths	UN WPP
 	5942	Child health	Infant mortality	Rate	UN WPP
 	3799	Child health	Neonatal mortality	Number of deaths	IHME
 	3485	Child health	Neonatal mortality	Rate	IHME
-	6211	Child health	Neonatal mortality	Number of deaths	WHO (GHO)
-	6212	Child health	Neonatal mortality	Rate	WHO (GHO)
+	3968	Child health	Neonatal mortality	Number of deaths	UN IGME
+	714	Child health	Neonatal mortality	Rate	UN IGME
 	6215	Child health	Youth mortality	Number of deaths	UN IGME
 	3475	Child health	Youth mortality	Rate	UN IGME
 	703	Child health	Childhood stunting	Share of children	UNICEF/WHO
