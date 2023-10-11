@@ -5,7 +5,7 @@ wpBlockId	54262
 selection	World	China	South Africa	Brazil	United States	United Kingdom	India	Rwanda
 graphers
 	grapherId	Health Area Dropdown	Indicator Dropdown	Metric Dropdown	Source Dropdown
-	4827	Child health	Child mortality	Rate	UN IGME
+	712	Child health	Child mortality	Rate	UN IGME
 	952	Child health	Child mortality	Rate	UN WPP
 	677	Child health	Child mortality	Rate	IHME
 	6209	Child health	Child mortality	Number of deaths	UN IGME
