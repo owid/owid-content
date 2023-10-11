@@ -1,0 +1,32 @@
+explorerTitle	Data Explorer: Plastic Waste and Pollution
+explorerSubtitle	Explore global data on plastic waste generation, pollution and trade.
+isPublished
+selection	World	United States	China	India	United Kingdom
+explorerSubtitle
+hideAlertBanner
+subNavId
+wpBlockId	52472
+thumbnail	https://owid.cloud/app/uploads/2022/08/Plastic-Waste-Data-Explorer.png
+hideAnnotationFieldsInTitle
+graphers
+		yVariableIds	Metric Dropdown	Sub-metric Dropdown	Per capita Checkbox	Share of world total Checkbox	title	subtitle	note	type	yAxisMin	hasMapTab	yScaleToggle
+		97679	Plastic waste generation	  	  FALSE	  FALSE	Plastic waste generation	This measures total plastic waste generation prior to management and therefore does not represent the quantity of		DiscreteBar		true	true
+			Plastic waste generation		TRUE	FALSE		plastic at risk of polluting waterways, rivers and the ocean environment.		DiscreteBar		true	true
+			Mismanaged waste		FALSE	FALSE				DiscreteBar		true	true
+			Mismanaged waste		FALSE	TRUE				DiscreteBar		true	true
+			Mismanaged waste		TRUE	FALSE				DiscreteBar		true	true
+			Plastic emitted to ocean		FALSE	FALSE				DiscreteBar		true	true
+			Plastic emitted to ocean		TRUE	FALSE				DiscreteBar		true	true
+			Plastic emitted to ocean		FALSE	TRUE				DiscreteBar		true	true
+			Probability of ocean pollution		FALSE	FALSE				DiscreteBar		true	true
+			Waste trade	Exports	FALSE	FALSE	Plastic waste exports			LineChart	0	true	true
+			Waste trade	Exports	TRUE	FALSE	Plastic waste exports per capita			LineChart	0	true	true
+			Waste trade	Exports	FALSE	TRUE	Share of global plastic waste exports			LineChart	0	true	true
+			Waste trade	Imports	FALSE	FALSE	Plastic waste imports			LineChart	0	true	true
+			Waste trade	Imports	TRUE	FALSE	Plastic waste imports per capita			LineChart	0	true	true
+			Waste trade	Imports	FALSE	TRUE	Share of global plastic waste imports			LineChart	0	true	true
+			Waste trade	Net exports	FALSE	FALSE	Net exports of plastic waste	Net exports of plastic waste are calculated as a country's plastic waste exports minus its imports. Countries that are net exporters of plastic waste will have a positive value; those that are net importers will have a negative value.		LineChart	0	true	true
+			Waste trade	Net exports	TRUE	FALSE	Net exports of plastic waste per capita	Net exports of plastic waste are calculated as a country's plastic waste exports minus its imports. Countries that are net exporters of plastic waste will have a positive value; those that are net importers will have a negative value.		LineChart	0	true	true
+columns
+	variableId	tolerance	name	sourceName	colorScaleScheme	colorScaleInvert	colorScaleCategoricalBins	colorScaleNumericBins	unit	shortUnit
+	97679	5
