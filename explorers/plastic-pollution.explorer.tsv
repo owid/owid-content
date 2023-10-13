@@ -44,7 +44,7 @@ columns
 	146462			Meijer et al. (2021)	OrRd			0.01;0.03;0.1;0.3;1;3
 	146460			Meijer et al. (2021)	PuBu			0.1;0.5;1;5;10;50
 	146455			Meijer et al. (2021)	OrRd			0.1;0.5;1;5;10
-	815163			United Nations Comtrade Database (2023)	BuPu			100;500;1000;5000;10000;50000;100000;500000;5000000
+	815163			United Nations Comtrade Database (2023)	BuPu			100;500;1000;5000;10000;50000;100000;500000;500000
 	815190			United Nations Comtrade Database (2023)	BuPu			0.1;0.5;1;5;10;50
 	815193			United Nations Comtrade Database (2023)	RdPu			0.1;0.5;1;5;10;10
 	815161			United Nations Comtrade Database (2023)	PuBuGn			100;500;1000;5000;10000;50000;100000;500000;5000000
