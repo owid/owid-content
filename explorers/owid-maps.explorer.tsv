@@ -1,0 +1,22 @@
+explorerTitle	OWID in maps
+isPublished	false
+thumbnail
+explorerSubtitle	Explore OWIDers' tavels
+selection	World
+wpBlockId
+subNavId
+subNavCurrentId	owid-in-maps
+entityType	region
+
+
+
+
+
+
+
+
+
+graphers
+	yVariableIds	ySlugs	Indicator Dropdown	Person Dropdown	Normalise Radio	type	yAxisMin	title	subtitle	note	yScaleToggle	hasMapTab	tab
+	815496		Countries visited	Antoinette		LineChart	0					true	map
+	815498		Countries visited	Bastian		LineChart	0					true	map
