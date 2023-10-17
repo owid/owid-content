@@ -16,7 +16,7 @@ entityType	region
 graphers
 	yVariableIds	ySlugs	Indicator Dropdown	Person Dropdown				type	yAxisMin	title	subtitle	note	yScaleToggle	tab
 	815534		Countries visited	Anyone						Countries visited by someone				map
-	815496 815592		Countries visited	Antoinette
+	815496 815592		Countries visited	Antoinette				Marimekko
 	815498		Countries visited	Bastian
 	815500		Countries visited	Charlie
 	815502		Countries visited	Ed
