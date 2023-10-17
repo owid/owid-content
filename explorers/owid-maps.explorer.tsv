@@ -23,8 +23,8 @@ graphers
 		815593		Countries visited	Bastian	true	false		Marimekko								123
 		815500		Countries visited	Charlie	false	false
 		815594		Countries visited	Charlie	true	false		Marimekko								123
-		815502		Countries visited	Ed	false	false
-		815595		Countries visited	Ed	true	false		Marimekko								123
+		815633		Countries visited	Ed	false	false
+		815634		Countries visited	Ed	true	false		Marimekko								123
 		815504		Countries visited	Esteban	false	false
 		815596		Countries visited	Esteban	true	false		Marimekko								123
 		815506		Countries visited	Fiona	false	false
@@ -77,3 +77,4 @@ graphers
 		815531		Countries visited (type of visit)	Valerie	false	false
 		815631		Number of country visitors	All	false	false
 		815592 815593 815594 815595 815596 815597 815598 815599 815600 815601 815602 815603 815604 815605 815606 815607 815608 815609 815610		Number of country visitors	All	false	true		DiscreteBar									true		false
+		815635
