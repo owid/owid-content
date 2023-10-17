@@ -15,6 +15,17 @@ entityType	region
 
 graphers
 	yVariableIds	ySlugs	Indicator Dropdown	Person Dropdown				type	yAxisMin	title	subtitle	note	yScaleToggle
+	815494		Countries visited	Everyone
 	815496		Countries visited	Antoinette
 	815498		Countries visited	Bastian
 	815500		Countries visited	Charlie
+	815502		Countries visited	Ed
+	815504		Countries visited	Esteban
+	815506		Countries visited	Fiona
+	815508		Countries visited	Ike
+	815510		Countries visited	Lars
+	815512		Countries visited	Lucas
+	815514		Countries visited	Marcel
+	815516		Countries visited	Marwa
+	815518		Countries visited	Max
+	815520		Countries visited	Mojmir
