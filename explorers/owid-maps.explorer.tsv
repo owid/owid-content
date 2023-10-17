@@ -14,45 +14,44 @@ entityType	region
 
 
 graphers
-	yVariableIds	ySlugs	Indicator Dropdown	Person Dropdown				type	yAxisMin	title	subtitle	note	yScaleToggle	tab
-	815534		Countries visited	Anyone						Countries visited by someone				map
-	815496		Countries visited	Antoinette
-	815592		Countries visited	Antoinette2				Marimekko						chart
-	815498		Countries visited	Bastian
-	815500		Countries visited	Charlie
-	815502		Countries visited	Ed
-	815504		Countries visited	Esteban
-	815506		Countries visited	Fiona
-	815508		Countries visited	Ike
-	815510		Countries visited	Lars
-	815512		Countries visited	Lucas
-	815514		Countries visited	Marcel
-	815516		Countries visited	Marwa
-	815518		Countries visited	Max
-	815520		Countries visited	Mojmir
-	815522		Countries visited	Natasha
-	815524		Countries visited	Pablo A
-	815526		Countries visited	Pablo R
-	815528		Countries visited	Saloni
-	815530		Countries visited	Sophia
-	815532		Countries visited	Valerie
-	815533		Countries visited (type of visit)	Anyone
-	815495		Countries visited (type of visit)	Antoinette
-	815497		Countries visited (type of visit)	Bastian
-	815499		Countries visited (type of visit)	Charlie
-	815501		Countries visited (type of visit)	Ed
-	815503		Countries visited (type of visit)	Esteban
-	815505		Countries visited (type of visit)	Fiona
-	815507		Countries visited (type of visit)	Ike
-	815509		Countries visited (type of visit)	Lars
-	815511		Countries visited (type of visit)	Lucas
-	815513		Countries visited (type of visit)	Marcel
-	815515		Countries visited (type of visit)	Marwa
-	815517		Countries visited (type of visit)	Max
-	815519		Countries visited (type of visit)	Mojmir
-	815521		Countries visited (type of visit)	Natasha
-	815523		Countries visited (type of visit)	Pablo A
-	815525		Countries visited (type of visit)	Pablo R
-	815527		Countries visited (type of visit)	Saloni
-	815529		Countries visited (type of visit)	Sophia
-	815531		Countries visited (type of visit)	Valerie
+		yVariableIds	ySlugs	Indicator Dropdown	Person Dropdown				type	yAxisMin	title	subtitle	note	yScaleToggle	tab
+		815534		Countries visited	Anyone						Countries visited by someone				map
+		815496		Countries visited	Antoinette
+		815498		Countries visited	Bastian
+		815500		Countries visited	Charlie
+		815502		Countries visited	Ed
+		815504		Countries visited	Esteban
+		815506		Countries visited	Fiona
+		815508		Countries visited	Ike
+		815510		Countries visited	Lars
+		815512		Countries visited	Lucas
+		815514		Countries visited	Marcel
+		815516		Countries visited	Marwa
+		815518		Countries visited	Max
+		815520		Countries visited	Mojmir
+		815522		Countries visited	Natasha
+		815524		Countries visited	Pablo A
+		815526		Countries visited	Pablo R
+		815528		Countries visited	Saloni
+		815530		Countries visited	Sophia
+		815532		Countries visited	Valerie
+		815533		Countries visited (type of visit)	Anyone
+		815495		Countries visited (type of visit)	Antoinette
+		815497		Countries visited (type of visit)	Bastian
+		815499		Countries visited (type of visit)	Charlie
+		815501		Countries visited (type of visit)	Ed
+		815503		Countries visited (type of visit)	Esteban
+		815505		Countries visited (type of visit)	Fiona
+		815507		Countries visited (type of visit)	Ike
+		815509		Countries visited (type of visit)	Lars
+		815511		Countries visited (type of visit)	Lucas
+		815513		Countries visited (type of visit)	Marcel
+		815515		Countries visited (type of visit)	Marwa
+		815517		Countries visited (type of visit)	Max
+		815519		Countries visited (type of visit)	Mojmir
+		815521		Countries visited (type of visit)	Natasha
+		815523		Countries visited (type of visit)	Pablo A
+		815525		Countries visited (type of visit)	Pablo R
+		815527		Countries visited (type of visit)	Saloni
+		815529		Countries visited (type of visit)	Sophia
+		815531		Countries visited (type of visit)	Valerie
