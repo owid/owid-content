@@ -77,4 +77,4 @@ graphers
 		815531		Countries visited (type of visit)	Valerie	false
 		815631		Country visitors	All	false
 		815592 815593 815594 815596 815597 815598 815599 815600 815601 815602 815603 815604 815605 815606 815607 815608 815609 815610 815634		Country visitors	By person	false			DiscreteBar									true		false
-		815635		Number of visitors by region	All	false					Number of visits by region									false	state
+		815635 815636 815637 815638 815639 815640		Number of visitors by region	All	false					Number of visits by region									false	state
