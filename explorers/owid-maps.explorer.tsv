@@ -14,7 +14,7 @@ entityType	region
 
 
 graphers
-	grapherId	yVariableIds	ySlugs	Indicator Dropdown	Person Dropdown	List countries Checkbox			type	yAxisMin	title	subtitle	note	yScaleToggle	tab	colorSlug	colorVariableId	hasMapTab	hideRelativeToggle	id
+	grapherId	yVariableIds	ySlugs	Indicator Dropdown	Person Dropdown	List countries Checkbox	Show visitors Checkbox		type	yAxisMin	title	subtitle	note	yScaleToggle	tab	colorSlug	colorVariableId	hasMapTab	hideRelativeToggle	id
 		815534		Countries visited	All	false					Countries visited by someone				map
 		815611		Countries visited	All	true			Marimekko		Countries visited by someone						123
 		815496		Countries visited	Antoinette	false
@@ -55,25 +55,25 @@ graphers
 		815609		Countries visited	Sophia	true			Marimekko								123
 		815532		Countries visited	Valerie	false
 		815610		Countries visited	Valerie	true			Marimekko								123
-		815533		Countries visited (type of visit)	All
-		815495		Countries visited (type of visit)	Antoinette
-		815497		Countries visited (type of visit)	Bastian
-		815499		Countries visited (type of visit)	Charlie
-		815501		Countries visited (type of visit)	Ed
-		815503		Countries visited (type of visit)	Esteban
-		815505		Countries visited (type of visit)	Fiona
-		815507		Countries visited (type of visit)	Ike
-		815509		Countries visited (type of visit)	Lars
-		815511		Countries visited (type of visit)	Lucas
-		815513		Countries visited (type of visit)	Marcel
-		815515		Countries visited (type of visit)	Marwa
-		815517		Countries visited (type of visit)	Max
-		815519		Countries visited (type of visit)	Mojmir
-		815521		Countries visited (type of visit)	Natasha
-		815523		Countries visited (type of visit)	Pablo A
-		815525		Countries visited (type of visit)	Pablo R
-		815527		Countries visited (type of visit)	Saloni
-		815529		Countries visited (type of visit)	Sophia
-		815531		Countries visited (type of visit)	Valerie
-		815631		Number of country visitors	All
-		815592 815593		Test	All				DiscreteBar									true
+		815533		Countries visited (type of visit)	All	false
+		815495		Countries visited (type of visit)	Antoinette	false
+		815497		Countries visited (type of visit)	Bastian	false
+		815499		Countries visited (type of visit)	Charlie	false
+		815501		Countries visited (type of visit)	Ed	false
+		815503		Countries visited (type of visit)	Esteban	false
+		815505		Countries visited (type of visit)	Fiona	false
+		815507		Countries visited (type of visit)	Ike	false
+		815509		Countries visited (type of visit)	Lars	false
+		815511		Countries visited (type of visit)	Lucas	false
+		815513		Countries visited (type of visit)	Marcel	false
+		815515		Countries visited (type of visit)	Marwa	false
+		815517		Countries visited (type of visit)	Max	false
+		815519		Countries visited (type of visit)	Mojmir	false
+		815521		Countries visited (type of visit)	Natasha	false
+		815523		Countries visited (type of visit)	Pablo A	false
+		815525		Countries visited (type of visit)	Pablo R	false
+		815527		Countries visited (type of visit)	Saloni	false
+		815529		Countries visited (type of visit)	Sophia	false
+		815531		Countries visited (type of visit)	Valerie	false
+		815631		Number of country visitors	All	false
+		815592 815593		Number of country visitors	All	false	true		DiscreteBar									true
