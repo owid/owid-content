@@ -15,65 +15,65 @@ entityType	region
 
 graphers
 	grapherId	yVariableIds	ySlugs	Indicator Dropdown	Person Dropdown	List countries Checkbox	Show visitors Checkbox		type	yAxisMin	title	subtitle	note	yScaleToggle	tab	colorSlug	colorVariableId	hasMapTab	hideRelativeToggle	id
-		815534		Countries visited	All	false					Countries visited by someone				map
-		815611		Countries visited	All	true			Marimekko		Countries visited by someone						123
-		815496		Countries visited	Antoinette	false
-		815592		Countries visited	Antoinette	true			Marimekko								123
-		815498		Countries visited	Bastian	false
-		815593		Countries visited	Bastian	true			Marimekko								123
-		815500		Countries visited	Charlie	false
-		815594		Countries visited	Charlie	true			Marimekko								123
-		815502		Countries visited	Ed	false
-		815595		Countries visited	Ed	true			Marimekko								123
-		815504		Countries visited	Esteban	false
-		815596		Countries visited	Esteban	true			Marimekko								123
-		815506		Countries visited	Fiona	false
-		815597		Countries visited	Fiona	true			Marimekko								123
-		815508		Countries visited	Ike	false
-		815598		Countries visited	Ike	true			Marimekko								123
-		815510		Countries visited	Lars	false
-		815599		Countries visited	Lars	true			Marimekko								123
-		815512		Countries visited	Lucas	false
-		815600		Countries visited	Lucas	true			Marimekko								123
-		815514		Countries visited	Marcel	false
-		815601		Countries visited	Marcel	true			Marimekko								123
-		815516		Countries visited	Marwa	false
-		815602		Countries visited	Marwa	true			Marimekko								123
-		815518		Countries visited	Max	false
-		815603		Countries visited	Max	true			Marimekko								123
-		815520		Countries visited	Mojmir	false
-		815604		Countries visited	Mojmir	true			Marimekko								123
-		815522		Countries visited	Natasha	false
-		815605		Countries visited	Natasha	true			Marimekko								123
-		815524		Countries visited	Pablo A	false
-		815606		Countries visited	Pablo A	true			Marimekko								123
-		815526		Countries visited	Pablo R	false
-		815607		Countries visited	Pablo R	true			Marimekko								123
-		815528		Countries visited	Saloni	false
-		815608		Countries visited	Saloni	true			Marimekko								123
-		815530		Countries visited	Sophia	false
-		815609		Countries visited	Sophia	true			Marimekko								123
-		815532		Countries visited	Valerie	false
-		815610		Countries visited	Valerie	true			Marimekko								123
-		815533		Countries visited (type of visit)	All	false
-		815495		Countries visited (type of visit)	Antoinette	false
-		815497		Countries visited (type of visit)	Bastian	false
-		815499		Countries visited (type of visit)	Charlie	false
-		815501		Countries visited (type of visit)	Ed	false
-		815503		Countries visited (type of visit)	Esteban	false
-		815505		Countries visited (type of visit)	Fiona	false
-		815507		Countries visited (type of visit)	Ike	false
-		815509		Countries visited (type of visit)	Lars	false
-		815511		Countries visited (type of visit)	Lucas	false
-		815513		Countries visited (type of visit)	Marcel	false
-		815515		Countries visited (type of visit)	Marwa	false
-		815517		Countries visited (type of visit)	Max	false
-		815519		Countries visited (type of visit)	Mojmir	false
-		815521		Countries visited (type of visit)	Natasha	false
-		815523		Countries visited (type of visit)	Pablo A	false
-		815525		Countries visited (type of visit)	Pablo R	false
-		815527		Countries visited (type of visit)	Saloni	false
-		815529		Countries visited (type of visit)	Sophia	false
-		815531		Countries visited (type of visit)	Valerie	false
-		815631		Number of country visitors	All	false
+		815534		Countries visited	All	false	false				Countries visited by someone				map
+		815611		Countries visited	All	true	false		Marimekko		Countries visited by someone						123
+		815496		Countries visited	Antoinette	false	false
+		815592		Countries visited	Antoinette	true	false		Marimekko								123
+		815498		Countries visited	Bastian	false	false
+		815593		Countries visited	Bastian	true	false		Marimekko								123
+		815500		Countries visited	Charlie	false	false
+		815594		Countries visited	Charlie	true	false		Marimekko								123
+		815502		Countries visited	Ed	false	false
+		815595		Countries visited	Ed	true	false		Marimekko								123
+		815504		Countries visited	Esteban	false	false
+		815596		Countries visited	Esteban	true	false		Marimekko								123
+		815506		Countries visited	Fiona	false	false
+		815597		Countries visited	Fiona	true	false		Marimekko								123
+		815508		Countries visited	Ike	false	false
+		815598		Countries visited	Ike	true	false		Marimekko								123
+		815510		Countries visited	Lars	false	false
+		815599		Countries visited	Lars	true	false		Marimekko								123
+		815512		Countries visited	Lucas	false	false
+		815600		Countries visited	Lucas	true	false		Marimekko								123
+		815514		Countries visited	Marcel	false	false
+		815601		Countries visited	Marcel	true	false		Marimekko								123
+		815516		Countries visited	Marwa	false	false
+		815602		Countries visited	Marwa	true	false		Marimekko								123
+		815518		Countries visited	Max	false	false
+		815603		Countries visited	Max	true	false		Marimekko								123
+		815520		Countries visited	Mojmir	false	false
+		815604		Countries visited	Mojmir	true	false		Marimekko								123
+		815522		Countries visited	Natasha	false	false
+		815605		Countries visited	Natasha	true	false		Marimekko								123
+		815524		Countries visited	Pablo A	false	false
+		815606		Countries visited	Pablo A	true	false		Marimekko								123
+		815526		Countries visited	Pablo R	false	false
+		815607		Countries visited	Pablo R	true	false		Marimekko								123
+		815528		Countries visited	Saloni	false	false
+		815608		Countries visited	Saloni	true	false		Marimekko								123
+		815530		Countries visited	Sophia	false	false
+		815609		Countries visited	Sophia	true	false		Marimekko								123
+		815532		Countries visited	Valerie	false	false
+		815610		Countries visited	Valerie	true	false		Marimekko								123
+		815533		Countries visited (type of visit)	All	false	false
+		815495		Countries visited (type of visit)	Antoinette	false	false
+		815497		Countries visited (type of visit)	Bastian	false	false
+		815499		Countries visited (type of visit)	Charlie	false	false
+		815501		Countries visited (type of visit)	Ed	false	false
+		815503		Countries visited (type of visit)	Esteban	false	false
+		815505		Countries visited (type of visit)	Fiona	false	false
+		815507		Countries visited (type of visit)	Ike	false	false
+		815509		Countries visited (type of visit)	Lars	false	false
+		815511		Countries visited (type of visit)	Lucas	false	false
+		815513		Countries visited (type of visit)	Marcel	false	false
+		815515		Countries visited (type of visit)	Marwa	false	false
+		815517		Countries visited (type of visit)	Max	false	false
+		815519		Countries visited (type of visit)	Mojmir	false	false
+		815521		Countries visited (type of visit)	Natasha	false	false
+		815523		Countries visited (type of visit)	Pablo A	false	false
+		815525		Countries visited (type of visit)	Pablo R	false	false
+		815527		Countries visited (type of visit)	Saloni	false	false
+		815529		Countries visited (type of visit)	Sophia	false	false
+		815531		Countries visited (type of visit)	Valerie	false	false
+		815631		Number of country visitors	All	false	false
 		815592 815593		Number of country visitors	All	false	true		DiscreteBar									true
