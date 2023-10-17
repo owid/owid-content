@@ -14,7 +14,7 @@ entityType	region
 
 
 graphers
-	grapherId	yVariableIds	ySlugs	Indicator Dropdown	Person Dropdown	List countries Checkbox			type	yAxisMin	title	subtitle	note	yScaleToggle	tab	colorSlug	colorVariableId	hasMapTab	hideRelativeToggle	hasMapTab	entityType
+	grapherId	yVariableIds	ySlugs	Indicator Dropdown	Person Dropdown	List countries Checkbox			type	yAxisMin	title	subtitle	note	yScaleToggle	tab	colorSlug	colorVariableId	hasMapTab	hideRelativeToggle	hasMapTab
 		815534		Countries visited	All	false					Countries visited by someone				map
 		815611		Countries visited	All	true			Marimekko		Countries visited by someone						123
 		815496		Countries visited	Antoinette	false
