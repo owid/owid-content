@@ -15,8 +15,8 @@ entityType	region
 
 graphers
 	grapherId	yVariableIds	ySlugs	Indicator Dropdown	Person Dropdown	List countries Checkbox			type	yAxisMin	title	subtitle	note	yScaleToggle	tab	colorSlug	colorVariableId
-		815534		Countries visited	Anyone	false					Countries visited by someone				map
-		815611		Countries visited	Anyone	true			Marimekko		Countries visited by someone						123
+		815534		Countries visited	All	false					Countries visited by someone				map
+		815611		Countries visited	All	true			Marimekko		Countries visited by someone						123
 		815496		Countries visited	Antoinette	false
 		815592		Countries visited	Antoinette	true			Marimekko								123
 		815498		Countries visited	Bastian	false
@@ -55,7 +55,7 @@ graphers
 		815609		Countries visited	Sophia	true			Marimekko								123
 		815532		Countries visited	Valerie	false
 		815610		Countries visited	Valerie	true			Marimekko								123
-		815533		Countries visited (type of visit)	Anyone
+		815533		Countries visited (type of visit)	All
 		815495		Countries visited (type of visit)	Antoinette
 		815497		Countries visited (type of visit)	Bastian
 		815499		Countries visited (type of visit)	Charlie
@@ -75,3 +75,4 @@ graphers
 		815527		Countries visited (type of visit)	Saloni
 		815529		Countries visited (type of visit)	Sophia
 		815531		Countries visited (type of visit)	Valerie
+		815631		Number of country visitors	All
