@@ -15,11 +15,11 @@ entityType	region
 graphers
 	yVariableIds	ySlugs	Indicator Dropdown	Person Dropdown				type	yAxisMin	title	subtitle	note	yScaleToggle
 	815497		Visited countries	Antoinette				LineChart	0	Ongoing armed conflicts	Disagreements between organized groups, or between one organized group and civilians, that cause at least 25 deaths during a year.
-	812637		All armed conflicts	Frequency				LineChart	0	Ongoing violent political conflicts	Disagreements between organized groups, or between one organized group and civilians, that cause at least 32 deaths during a year.
-	812767 812762 812747 812742 812737		All armed conflicts	Frequency				StackedArea	0	Ongoing armed conflicts by type	[Interstate](#dod:interstate-conflict), [intrastate](#dod:intrastate-conflict), [extrasystemic](#dod:extrasystemic-conflict), [non-state](#dod:nonstate-conflict) conflicts, and [one-sided violence](#dod:onesided-violence) that cause at least 25 deaths during a year.	We count a conflict as ongoing in a region even if the conflict is also ongoing in other regions. The sum across all regions can therefore be higher than the total number of ongoing conflicts.
-	812640 812666		All armed conflicts	Frequency				StackedBar	0	Ongoing violent political conflicts by type	[Interstate](#dod:interstate-conflict) and [internal](#dod:internal-conflict) conflicts that cause at least 32 deaths during a year.	We count a conflict as ongoing in a region even if the conflict is also ongoing in other regions. The sum across all regions can therefore be higher than the total number of ongoing conflicts.
-	812736		All armed conflicts	Frequency				LineChart	0	New armed conflicts	Disagreements between organized groups, or between one organized group and civilians, that cause at least 25 deaths during a year for the first time.
-	812639		All armed conflicts	Frequency				LineChart	0	New violent political conflicts	Disagreements between organized groups, or between one organized group and civilians, that cause at least 32 deaths during a year.
+
+
+
+
+
 
 
 
