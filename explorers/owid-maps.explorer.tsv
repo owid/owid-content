@@ -6,7 +6,7 @@ explorerSubtitle	Explore the world's conflicts with the leading approaches to me
 selection	World
 wpBlockId
 subNavId
-subNavCurrentId	conflict-data
+subNavCurrentId	owid-maps
 entityType	region
 graphers
 	yVariableIds	ySlugs	Conflict type Dropdown	Metric Dropdown	Sub-metric Dropdown	Sub-type Dropdown	Source Dropdown	type	yAxisMin	title	subtitle	note	yScaleToggle
