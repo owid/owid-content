@@ -58,7 +58,7 @@ graphers
 	6069	Deaths and DALYs	Total disease burden	Number of DALYs	WHO (GHE)
 	6028	Deaths and DALYs	Total disease burden	Number of DALYs	IHME
 	2198	Deaths and DALYs	Total disease burden	Age-standardized rate	IHME
-	2968	Life expectancy	Life expectancy at birth	Years	World Bank
+	2502	Life expectancy	Life expectancy at birth	Years	OECD
 	64	Life expectancy	Life expectancy at birth	Years	OWID (spliced)
 	6262	Life expectancy	Life expectancy at birth	Years	UN WPP
 	4830	Life expectancy	Life expectancy at birth	Years	WHO (GHO)
