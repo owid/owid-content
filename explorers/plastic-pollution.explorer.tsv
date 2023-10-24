@@ -1,7 +1,7 @@
 explorerTitle	Data Explorer: Plastic Waste and Pollution
 explorerSubtitle	Explore global data on plastic waste generation, pollution and trade.
 isPublished	true
-selection	United States	China	India	Canada	United Kingdom	Malaysia	Germany
+selection	United States	China	India
 explorerSubtitle
 hideAlertBanner
 subNavId
@@ -32,23 +32,23 @@ graphers
 		815290	Waste trade	Net exports	true	false	Net exports of plastic waste per capita	Net exports of plastic waste are calculated as a country's plastic waste exports minus its imports.	Countries that are net exporters of plastic waste will have a positive value; those that are net importers will have a negative value.	LineChart	0	true	true	United Nations Comtrade Database (2023)		map
 columns
 	variableId	tolerance	name	sourceName	colorScaleScheme	colorScaleInvert	colorScaleCategoricalBins	colorScaleNumericBins	unit	shortUnit
-	97679			Jambeck et al. (2015)	Reds			1000000;2500000;5000000;10000000;25000000;50000000
-	65358			Jambeck et al. (2015)	PuBuGn			0.1;0.2;0.3;0.4;0.5;0.6
+	97679			Jambeck et al. (2015)	Reds			1000000;2500000;5000000;7500000;10000000;10000000
+	65358			Jambeck et al. (2015)	PuBuGn			0.1;0.2;0.3;0.4;0.4
 	814672			OECD (2023)	YlGn
 	146456			Meijer et al. (2021)	OrRd			250000;500000;1000000;2500000;5000000;10000000;10000000
 	814670			OECD (2023)
 	814676			OECD (2023)
-	146459			Meijer et al. (2021)	PuBuGn			0.1;0.5;1;5;10;15
-	146461			Meijer et al. (2021)	Reds			1;5;10;15;20;25
-	146457			Meijer et al. (2021)	YlOrRd			1000;5000;10000;50000;100000;100000
-	146462			Meijer et al. (2021)	OrRd			0.01;0.03;0.1;0.3;1;3
-	146460			Meijer et al. (2021)	PuBu			0.1;0.5;1;5;10;50
-	146455			Meijer et al. (2021)	OrRd			0.1;0.5;1;5;10
-	815163			United Nations Comtrade Database (2023)	BuPu			100;500;1000;5000;10000;50000;100000;500000;500000
-	815190			United Nations Comtrade Database (2023)	BuPu			0.1;0.5;1;5;10;50
-	815193			United Nations Comtrade Database (2023)	RdPu			0.1;0.5;1;5;10;10
-	815161			United Nations Comtrade Database (2023)	PuBuGn			100;500;1000;5000;10000;50000;100000;500000;5000000
-	815189			United Nations Comtrade Database (2023)	PuBuGn			0.1;0.5;1;5;10;50
-	815192			United Nations Comtrade Database (2023)	RdPu			0.1;0.5;1;5;10;50
+	146459			Meijer et al. (2021)	PuBuGn			0.01;0.1;1;10;10
+	146461			Meijer et al. (2021)	Reds			5;10;15;20;20
+	146457			Meijer et al. (2021)	YlOrRd			10;100;1000;10000;100000;100000
+	146462			Meijer et al. (2021)	OrRd			0.001;0.01;0.1;1;1
+	146460			Meijer et al. (2021)	PuBu			0.001;0.01;0.1;1;10;10
+	146455			Meijer et al. (2021)	OrRd			0.01;0.1;1;10;10
+	815163			United Nations Comtrade Database (2023)	BuPu			100;1000;10000;100000;1000000
+	815190			United Nations Comtrade Database (2023)	BuPu			0.01;0.1;1;10;10
+	815193			United Nations Comtrade Database (2023)	RdPu			0.01;0.1;1;10;10
+	815161			United Nations Comtrade Database (2023)	PuBuGn			500;5000;50000;500000;5000000
+	815189			United Nations Comtrade Database (2023)	PuBuGn			0.01;0.1;1;10;10
+	815192			United Nations Comtrade Database (2023)	RdPu			0.01;0.1;1;10;10
 	815191			United Nations Comtrade Database (2023)	RdBu			-500000;-100000;-50000;-10000;0;10000;50000;100000;500000;1000000
 	815290			United Nations Comtrade Database (2023)	RdBu			-5;-4;-3;-2;-1;0;1;2;3;4;5;5
