@@ -246,6 +246,8 @@ graphers
 	6168	Non-communicable diseases	Stroke	Number of deaths	WHO (GHE)
 	6169	Non-communicable diseases	Stroke	Death rate	WHO (GHE)
 	7341	Neglected tropical diseases	Buruli ulcer	Endemicity	WHO
+	7205	Neglected tropical diseases	Dengue fever	Deaths	IHME
+	5018	Neglected tropical diseases	Dengue fever	Incidence	IHME
 	5838	Neglected tropical diseases	Guinea worm disease	Endemicity	WHO
 	2064	Neglected tropical diseases	Guinea worm disease	Reported cases	WHO
 	7342	Neglected tropical diseases	Leprosy	Reported cases	WHO
