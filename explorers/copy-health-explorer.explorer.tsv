@@ -246,6 +246,8 @@ graphers
 	6168	Non-communicable diseases	Stroke	Number of deaths	WHO (GHE)
 	6169	Non-communicable diseases	Stroke	Death rate	WHO (GHE)
 	7341	Neglected tropical diseases	Buruli ulcer	Endemicity	WHO
+	5838	Neglected tropical diseases	Guinea worm disease	Endemicity	WHO
+	2064	Neglected tropical diseases	Guinea worm disease	Reported cases	WHO
 	489	Risk factors	Air pollution	Age-standardized death rate	IHME
 	3756	Risk factors	Air pollution	Number of deaths	IHME
 	3764	Risk factors	Alcohol use	Age-standardized death rate	IHME
