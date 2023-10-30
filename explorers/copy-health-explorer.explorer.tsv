@@ -248,6 +248,8 @@ graphers
 	7341	Neglected tropical diseases	Buruli ulcer	Endemicity	WHO
 	5838	Neglected tropical diseases	Guinea worm disease	Endemicity	WHO
 	2064	Neglected tropical diseases	Guinea worm disease	Reported cases	WHO
+	7342	Neglected tropical diseases	Leprosy	Reported cases	WHO
+	3795	Neglected tropical diseases	Lymphatic filiarisis	Prevalence	IHME
 	489	Risk factors	Air pollution	Age-standardized death rate	IHME
 	3756	Risk factors	Air pollution	Number of deaths	IHME
 	3764	Risk factors	Alcohol use	Age-standardized death rate	IHME
