@@ -252,6 +252,7 @@ graphers
 	3795	Neglected tropical diseases	Lymphatic filiarisis	Prevalence	IHME
 	3814	Neglected tropical diseases	Onchocerciasis	Prevalence rate	IHME
 	3340	Neglected tropical diseases	Trachoma	Prevalence rate	IHME
+	5980	Neglected tropical diseases	Yaws	Endemicity	WHO
 	489	Risk factors	Air pollution	Age-standardized death rate	IHME
 	3756	Risk factors	Air pollution	Number of deaths	IHME
 	3764	Risk factors	Alcohol use	Age-standardized death rate	IHME
