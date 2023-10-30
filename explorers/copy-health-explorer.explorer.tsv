@@ -1,5 +1,5 @@
-explorerTitle	Global Health Data Explorer
-isPublished	false
+explorerTitle	Global Health Data Explorer (v2)
+isPublished	true
 thumbnail	https://owid.cloud/app/uploads/2022/10/Global-Health-Explorer.png
 wpBlockId	54262
 selection	World	China	South Africa	Brazil	United States	United Kingdom	India	Rwanda
@@ -245,6 +245,7 @@ graphers
 	6158	Non-communicable diseases	Stroke	Number of deaths	IHME
 	6168	Non-communicable diseases	Stroke	Number of deaths	WHO (GHE)
 	6169	Non-communicable diseases	Stroke	Death rate	WHO (GHE)
+	7341	Neglected tropical diseases	Buruli ulcer	Endemicity	WHO
 	489	Risk factors	Air pollution	Age-standardized death rate	IHME
 	3756	Risk factors	Air pollution	Number of deaths	IHME
 	3764	Risk factors	Alcohol use	Age-standardized death rate	IHME
