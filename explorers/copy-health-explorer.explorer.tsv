@@ -133,6 +133,7 @@ graphers
 	6144	Infectious diseases	Respiratory infections	Age-standardized death rate	IHME
 	6145	Infectious diseases	Respiratory infections	Number of deaths	IHME
 	6146	Infectious diseases	Respiratory infections	Death rate	IHME
+	7070	Infectious diseases	Respiratory infections	Age-standardized death rate	WHO (MD)
 	1831	Infectious diseases	Tuberculosis	Age-standardized death rate	IHME
 	3674	Infectious diseases	Tuberculosis	Death rate	WHO (GHO)
 	3613	Infectious diseases	Tuberculosis	Number of deaths	IHME
@@ -204,11 +205,13 @@ graphers
 	6204	Non-communicable diseases	Cancer	Number of deaths	WHO (GHE)
 	6205	Non-communicable diseases	Cancer	Death rate	WHO (GHE)
 	6206	Non-communicable diseases	Cancer	Death rate	IHME
+	7067	Non-communicable diseases	Cancer	Age-standardized death rate	WHO (MD)
 	1755	Non-communicable diseases	Cardiovascular disease	Age-standardized death rate	IHME
 	6087	Non-communicable diseases	Cardiovascular disease	Death rate	IHME
 	6088	Non-communicable diseases	Cardiovascular disease	Number of deaths	IHME
 	6166	Non-communicable diseases	Cardiovascular disease	Number of deaths	WHO (GHE)
 	6167	Non-communicable diseases	Cardiovascular disease	Death rate	WHO (GHE)
+	7068	Non-communicable diseases	Cardiovascular disease	Age-standardized death rate	WHO (MD)
 	1752	Non-communicable diseases	Chronic respiratory disease	Age-standardized death rate	IHME
 	6089	Non-communicable diseases	Chronic respiratory disease	Death rate	IHME
 	6090	Non-communicable diseases	Chronic respiratory disease	Number of deaths	IHME
