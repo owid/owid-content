@@ -258,6 +258,8 @@ graphers
 	3814	Neglected tropical diseases	Onchocerciasis	Prevalence rate	IHME
 	7348	Neglected tropical diseases	Rabies	Reported deaths	WHO
 	3340	Neglected tropical diseases	Trachoma	Prevalence rate	IHME
+	7358	Neglected tropical diseases	Leishmaniasis (cutaneous)	Endemicity	WHO
+	7361	Neglected tropical diseases	Leishmaniasis (visceral)	Endemicity	WHO
 	5980	Neglected tropical diseases	Yaws	Endemicity	WHO
 	5981	Neglected tropical diseases	Yaws	Reported cases	WHO
 	489	Risk factors	Air pollution	Age-standardized death rate	IHME
