@@ -17,20 +17,20 @@ graphers
 	grapherId	yVariableIds	ySlugs	Indicator Dropdown	Person Dropdown	List countries Checkbox			type	yAxisMin	title	subtitle	note	yScaleToggle		colorSlug	colorVariableId	tab	hideRelativeToggle	hasMapTab	baseColorScheme
 		815934		Countries visited	All	false					Countries visited by someone							map
 		815935		Countries visited	All	true			Marimekko		Countries visited by someone						123
-		815496		Countries visited	Antoinette	false
-		815592		Countries visited	Antoinette	true			Marimekko								123
-		815498		Countries visited	Bastian	false
-		815593		Countries visited	Bastian	true			Marimekko								123
-		815500		Countries visited	Charlie	false
-		815594		Countries visited	Charlie	true			Marimekko								123
-		815633		Countries visited	Ed	false
-		815634		Countries visited	Ed	true			Marimekko								123
-		815504		Countries visited	Esteban	false
-		815596		Countries visited	Esteban	true			Marimekko								123
-		815506		Countries visited	Fiona	false
-		815597		Countries visited	Fiona	true			Marimekko								123
-		815508		Countries visited	Ike	false
-		815598		Countries visited	Ike	true			Marimekko								123
+		815877		Countries visited	Antoinette	false
+		815878		Countries visited	Antoinette	true			Marimekko								123
+		815880		Countries visited	Bastian	false
+		815881		Countries visited	Bastian	true			Marimekko								123
+		815883		Countries visited	Charlie	false
+		815884		Countries visited	Charlie	true			Marimekko								123
+		815886		Countries visited	Ed	false
+		815887		Countries visited	Ed	true			Marimekko								123
+		815889		Countries visited	Esteban	false
+		815890		Countries visited	Esteban	true			Marimekko								123
+		815892		Countries visited	Fiona	false
+		815893		Countries visited	Fiona	true			Marimekko								123
+		815895		Countries visited	Ike	false
+		815896		Countries visited	Ike	true			Marimekko								123
 		815510		Countries visited	Lars	false
 		815599		Countries visited	Lars	true			Marimekko								123
 		815512		Countries visited	Lucas	false
