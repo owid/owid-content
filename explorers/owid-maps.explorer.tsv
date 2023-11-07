@@ -76,5 +76,5 @@ graphers
 		815927		Countries visited (type of visit)	Sophia	false
 		815930		Countries visited (type of visit)	Valerie	false
 		815936		Country visitors	All	false												map
-		815592 815593 815594 815596 815597 815598 815599 815600 815601 815602 815603 815604 815605 815606 815607 815608 815609 815610 815634		Country visitors	By person	false			DiscreteBar											false
-		815635 815636 815637 815638 815639 815640		Number of visitors by region	All	false			StackedDiscreteBar		Number of visits by region									false	continents
+		815878 815881 815884 815887		Country visitors	By person	false			DiscreteBar											false
+		815937 815938 815939 815940 815941 815942		Number of visitors by region	All	false			StackedDiscreteBar		Number of visits by region									false	continents
