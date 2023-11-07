@@ -39,42 +39,42 @@ graphers
 		815905		Countries visited	Marcel	true			Marimekko								123
 		815907		Countries visited	Marwa	false
 		815908		Countries visited	Marwa	true			Marimekko								123
-		815518		Countries visited	Max	false
-		815603		Countries visited	Max	true			Marimekko								123
-		815520		Countries visited	Mojmir	false
-		815604		Countries visited	Mojmir	true			Marimekko								123
-		815522		Countries visited	Natasha	false
-		815605		Countries visited	Natasha	true			Marimekko								123
-		815524		Countries visited	Pablo A	false
-		815606		Countries visited	Pablo A	true			Marimekko								123
-		815526		Countries visited	Pablo R	false
-		815607		Countries visited	Pablo R	true			Marimekko								123
-		815528		Countries visited	Saloni	false
-		815608		Countries visited	Saloni	true			Marimekko								123
-		815530		Countries visited	Sophia	false
-		815609		Countries visited	Sophia	true			Marimekko								123
-		815532		Countries visited	Valerie	false
-		815610		Countries visited	Valerie	true			Marimekko								123
-		815533		Countries visited (type of visit)	All	false
-		815495		Countries visited (type of visit)	Antoinette	false
-		815497		Countries visited (type of visit)	Bastian	false
-		815499		Countries visited (type of visit)	Charlie	false
-		815501		Countries visited (type of visit)	Ed	false
-		815503		Countries visited (type of visit)	Esteban	false
-		815505		Countries visited (type of visit)	Fiona	false
-		815507		Countries visited (type of visit)	Ike	false
-		815509		Countries visited (type of visit)	Lars	false
-		815511		Countries visited (type of visit)	Lucas	false
-		815513		Countries visited (type of visit)	Marcel	false
-		815515		Countries visited (type of visit)	Marwa	false
-		815517		Countries visited (type of visit)	Max	false
-		815519		Countries visited (type of visit)	Mojmir	false
-		815521		Countries visited (type of visit)	Natasha	false
-		815523		Countries visited (type of visit)	Pablo A	false
-		815525		Countries visited (type of visit)	Pablo R	false
-		815527		Countries visited (type of visit)	Saloni	false
-		815529		Countries visited (type of visit)	Sophia	false
-		815531		Countries visited (type of visit)	Valerie	false
-		815631		Country visitors	All	false												map
+		815910		Countries visited	Max	false
+		815911		Countries visited	Max	true			Marimekko								123
+		815913		Countries visited	Mojmir	false
+		815914		Countries visited	Mojmir	true			Marimekko								123
+		815916		Countries visited	Natasha	false
+		815917		Countries visited	Natasha	true			Marimekko								123
+		815919		Countries visited	Pablo A	false
+		815920		Countries visited	Pablo A	true			Marimekko								123
+		815922		Countries visited	Pablo R	false
+		815923		Countries visited	Pablo R	true			Marimekko								123
+		815925		Countries visited	Saloni	false
+		815926		Countries visited	Saloni	true			Marimekko								123
+		815928		Countries visited	Sophia	false
+		815929		Countries visited	Sophia	true			Marimekko								123
+		815931		Countries visited	Valerie	false
+		815932		Countries visited	Valerie	true			Marimekko								123
+		815933		Countries visited (type of visit)	All	false
+		815876		Countries visited (type of visit)	Antoinette	false
+		815879		Countries visited (type of visit)	Bastian	false
+		815882		Countries visited (type of visit)	Charlie	false
+		815885		Countries visited (type of visit)	Ed	false
+		815888		Countries visited (type of visit)	Esteban	false
+		815891		Countries visited (type of visit)	Fiona	false
+		815894		Countries visited (type of visit)	Ike	false
+		815897		Countries visited (type of visit)	Lars	false
+		815900		Countries visited (type of visit)	Lucas	false
+		815903		Countries visited (type of visit)	Marcel	false
+		815906		Countries visited (type of visit)	Marwa	false
+		815909		Countries visited (type of visit)	Max	false
+		815912		Countries visited (type of visit)	Mojmir	false
+		815915		Countries visited (type of visit)	Natasha	false
+		815918		Countries visited (type of visit)	Pablo A	false
+		815921		Countries visited (type of visit)	Pablo R	false
+		815924		Countries visited (type of visit)	Saloni	false
+		815927		Countries visited (type of visit)	Sophia	false
+		815930		Countries visited (type of visit)	Valerie	false
+		815936		Country visitors	All	false												map
 		815592 815593 815594 815596 815597 815598 815599 815600 815601 815602 815603 815604 815605 815606 815607 815608 815609 815610 815634		Country visitors	By person	false			DiscreteBar											false
 		815635 815636 815637 815638 815639 815640		Number of visitors by region	All	false			StackedDiscreteBar		Number of visits by region									false	continents
