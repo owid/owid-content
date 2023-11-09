@@ -59,6 +59,8 @@ graphers
 		815929		Countries visited	Sophia	true			Marimekko								123
 		815931		Countries visited	Valerie	false
 		815932		Countries visited	Valerie	true			Marimekko								123
+		815964		Countries visited	Veronika	false
+		815965		Countries visited	Veronika	true			Marimekko								123
 		815933		Countries visited (type of visit)	All	false
 		815876		Countries visited (type of visit)	Antoinette	false
 		815879		Countries visited (type of visit)	Bastian	false
@@ -74,8 +76,8 @@ graphers
 		815906		Countries visited (type of visit)	Marwa	false
 		815909		Countries visited (type of visit)	Max	false
 		815912		Countries visited (type of visit)	Mojmir	false
-		815912		Countries visited (type of visit)	Natalie	false
-		815960		Countries visited (type of visit)	Natasha	false
+		815960		Countries visited (type of visit)	Natalie	false
+		815915		Countries visited (type of visit)	Natasha	false
 		815918		Countries visited (type of visit)	Pablo A	false
 		815921		Countries visited (type of visit)	Pablo R	false
 		815924		Countries visited (type of visit)	Saloni	false
