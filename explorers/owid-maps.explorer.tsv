@@ -23,6 +23,8 @@ graphers
 		815881		Countries visited	Bastian	true			Marimekko								123
 		815883		Countries visited	Charlie	false
 		815884		Countries visited	Charlie	true			Marimekko								123
+		815958		Countries visited	Daniel	false
+		815959		Countries visited	Daniel	true			Marimekko								123
 		815886		Countries visited	Ed	false
 		815887		Countries visited	Ed	true			Marimekko								123
 		815889		Countries visited	Esteban	false
@@ -59,6 +61,7 @@ graphers
 		815876		Countries visited (type of visit)	Antoinette	false
 		815879		Countries visited (type of visit)	Bastian	false
 		815882		Countries visited (type of visit)	Charlie	false
+		815957		Countries visited (type of visit)	Daniel	false
 		815885		Countries visited (type of visit)	Ed	false
 		815888		Countries visited (type of visit)	Esteban	false
 		815891		Countries visited (type of visit)	Fiona	false
@@ -76,5 +79,5 @@ graphers
 		815927		Countries visited (type of visit)	Sophia	false
 		815930		Countries visited (type of visit)	Valerie	false
 		815936		Country visitors	All	false												map
-		815932 815929 815926 815923 815920 815917 815914 815911 815908 815905 815902 815899 815896 815893 815890 815887 815884 815881 815878		Country visitors	By person	false			DiscreteBar											false
+		815932 815929 815926 815923 815920 815917 815914 815911 815908 815905 815902 815899 815896 815893 815890 815887 815884 815881 815878 815959		Country visitors	By person	false			DiscreteBar											false
 		815937 815938 815939 815940 815941 815942		Number of visitors by region	All	false			StackedDiscreteBar		Number of visits by region									false	continents
