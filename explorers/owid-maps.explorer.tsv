@@ -83,6 +83,7 @@ graphers
 		815924		Countries visited (type of visit)	Saloni	false
 		815927		Countries visited (type of visit)	Sophia	false
 		815930		Countries visited (type of visit)	Valerie	false
+		815963		Countries visited (type of visit)	Veronika	false
 		815936		Country visitors	All	false												map
-		815932 815929 815926 815923 815920 815917 815914 815911 815908 815905 815902 815899 815896 815893 815890 815887 815884 815881 815878		Country visitors	By person	false			DiscreteBar											false
+		815932 815929 815926 815923 815920 815917 815914 815911 815908 815905 815902 815899 815896 815893 815890 815887 815884 815881 815878 815965 815959 815962		Country visitors	By person	false			DiscreteBar											false
 		815937 815938 815939 815940 815941 815942		Number of visitors by region	All	false			StackedDiscreteBar		Number of visits by region									false	continents
