@@ -248,6 +248,8 @@ graphers
 	6158	Non-communicable diseases	Stroke	Number of deaths	IHME
 	6168	Non-communicable diseases	Stroke	Number of deaths	WHO (GHE)
 	6169	Non-communicable diseases	Stroke	Death rate	WHO (GHE)
+	7376	Neglected tropical diseases	African trypanosomiasis (acute)	Reported cases	WHO
+	7375	Neglected tropical diseases	African trypanosomiasis (chronic)	Reported cases	WHO
 	7341	Neglected tropical diseases	Buruli ulcer	Endemicity	WHO
 	7205	Neglected tropical diseases	Dengue fever	Deaths	IHME
 	5018	Neglected tropical diseases	Dengue fever	Incidence	IHME
