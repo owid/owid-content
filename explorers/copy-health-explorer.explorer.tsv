@@ -62,7 +62,8 @@ graphers
 	64	Life expectancy	Life expectancy at birth	Years	OWID (spliced)
 	6262	Life expectancy	Life expectancy at birth	Years	UN WPP
 	4830	Life expectancy	Life expectancy at birth	Years	WHO (GHO)
-	126	Life expectancy	Life expectancy at age 15	Years	UN
+	2928	Life expectancy	Life expectancy by sex	Years	HMD; UN WPP
+	7287	Life expectancy	Life expectancy by age	Years	HMD; UN WPP
 	6026	Life expectancy	Healthy life expectancy	Years	WHO (GHO)
 	471	Vaccination coverage	Diphtheria, pertussis, and tetanus	Share of one-year-olds vaccinated	UNICEF/WHO
 	4563	Vaccination coverage	Diphtheria, pertussis, and tetanus	Number of one-year-olds not vaccinated	UNICEF/WHO
@@ -255,6 +256,8 @@ graphers
 	5018	Neglected tropical diseases	Dengue fever	Incidence	IHME
 	5838	Neglected tropical diseases	Guinea worm disease	Endemicity	WHO
 	2064	Neglected tropical diseases	Guinea worm disease	Reported cases	WHO
+	7358	Neglected tropical diseases	Leishmaniasis (cutaneous)	Endemicity	WHO
+	7361	Neglected tropical diseases	Leishmaniasis (visceral)	Endemicity	WHO
 	7342	Neglected tropical diseases	Leprosy	Reported cases	WHO
 	3795	Neglected tropical diseases	Lymphatic filiarisis	Prevalence	IHME
 	3814	Neglected tropical diseases	Onchocerciasis	Prevalence rate	IHME
@@ -262,8 +265,6 @@ graphers
 	7348	Neglected tropical diseases	Rabies	Reported deaths	WHO
 	3340	Neglected tropical diseases	Trachoma	Prevalence rate	IHME
 	7382	Neglected tropical diseases	Trachoma	Elimination status	WHO
-	7358	Neglected tropical diseases	Leishmaniasis (cutaneous)	Endemicity	WHO
-	7361	Neglected tropical diseases	Leishmaniasis (visceral)	Endemicity	WHO
 	5980	Neglected tropical diseases	Yaws	Endemicity	WHO
 	5981	Neglected tropical diseases	Yaws	Reported cases	WHO
 	489	Risk factors	Air pollution	Age-standardized death rate	IHME
