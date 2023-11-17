@@ -63,7 +63,7 @@ graphers
 	6262	Life expectancy	Life expectancy at birth	Years	UN WPP
 	4830	Life expectancy	Life expectancy at birth	Years	WHO (GHO)
 	2928	Life expectancy	Life expectancy by sex	Years	HMD; UN WPP	entity
-	7287	Life expectancy	Life expectancy by age	Years	HMD; UN WPP
+	7287	Life expectancy	Life expectancy by age	Years	HMD; UN WPP	entity
 	6026	Life expectancy	Healthy life expectancy	Years	WHO (GHO)
 	471	Vaccination coverage	Diphtheria, pertussis, and tetanus	Share of one-year-olds vaccinated	UNICEF/WHO
 	4563	Vaccination coverage	Diphtheria, pertussis, and tetanus	Number of one-year-olds not vaccinated	UNICEF/WHO
