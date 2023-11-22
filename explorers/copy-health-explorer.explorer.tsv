@@ -216,6 +216,7 @@ graphers
 	1752	Non-communicable diseases	Chronic respiratory diseases	Age-standardized death rate	IHME
 	6089	Non-communicable diseases	Chronic respiratory diseases	Death rate	IHME
 	6090	Non-communicable diseases	Chronic respiratory diseases	Number of deaths	IHME
+	7393	Non-communicable diseases	Chronic respiratory diseases	Age-standardized death rate	WHO (MD)
 	1572	Non-communicable diseases	Diabetes	Prevalence rate	International Diabetes Federation
 	6081	Non-communicable diseases	Diabetes	Age-standardized death rate	IHME
 	6092	Non-communicable diseases	Diabetes	Number of deaths	IHME
