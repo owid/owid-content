@@ -227,6 +227,7 @@ graphers
 	6159	Non-communicable diseases	Digestive diseases	Age-standardized death rate	IHME
 	6150	Non-communicable diseases	Digestive diseases	Number of deaths	IHME
 	6160	Non-communicable diseases	Digestive diseases	Death rate	IHME
+	7401	Non-communicable diseases	Digestive diseases	Age-standardized death rate	WHO (MD)
 	2156	Non-communicable diseases	Drug use disorders	Age-standardized death rate	IHME
 	2155	Non-communicable diseases	Drug use disorders	Number of deaths	IHME
 	6115	Non-communicable diseases	Drug use disorders	Death rate	IHME
