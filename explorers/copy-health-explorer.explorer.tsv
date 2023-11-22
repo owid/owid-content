@@ -222,6 +222,7 @@ graphers
 	6103	Non-communicable diseases	Diabetes	Death rate	IHME
 	6170	Non-communicable diseases	Diabetes	Number of deaths	WHO (GHE)
 	6171	Non-communicable diseases	Diabetes	Death rate	WHO (GHE)
+	7391	Non-communicable diseases	Diabetes	Age-standardized death rate	WHO (MD)
 	6159	Non-communicable diseases	Digestive diseases	Age-standardized death rate	IHME
 	6150	Non-communicable diseases	Digestive diseases	Number of deaths	IHME
 	6160	Non-communicable diseases	Digestive diseases	Death rate	IHME
