@@ -78,10 +78,10 @@ graphers
 	4567	Vaccination coverage	Polio (inactivated, first dose)	Number of one-year-olds not vaccinated	UNICEF/WHO
 	1068	Vaccination coverage	Polio (third dose)	Share of one-year-olds vaccinated	UNICEF/WHO
 	4569	Vaccination coverage	Polio (third dose)	Number of one-year-olds not vaccinated	UNICEF/WHO
-	4573	Vaccination coverage	Rubella	Share of one-year-olds vaccinated	UNICEF/WHO
-	4574	Vaccination coverage	Rubella	Number of one-year-olds not vaccinated	UNICEF/WHO
 	3553	Vaccination coverage	Rotavirus	Share of one-year-olds vaccinated	UNICEF/WHO
 	4571	Vaccination coverage	Rotavirus	Number of one-year-olds not vaccinated	UNICEF/WHO
+	4573	Vaccination coverage	Rubella	Share of one-year-olds vaccinated	UNICEF/WHO
+	4574	Vaccination coverage	Rubella	Number of one-year-olds not vaccinated	UNICEF/WHO
 	3594	Vaccination coverage	Streptococcus pneumoniae	Share of one-year-olds vaccinated	UNICEF/WHO
 	4572	Vaccination coverage	Streptococcus pneumoniae	Number of one-year-olds not vaccinated	UNICEF/WHO
 	1547	Vaccination coverage	Tuberculosis (BCG)	Share of one-year-olds vaccinated	UNICEF/WHO
@@ -261,7 +261,7 @@ graphers
 	3814	Neglected tropical diseases	Onchocerciasis	Prevalence rate	IHME
 	7372	Neglected tropical diseases	Onchocerciasis	Endemicity	WHO
 	7348	Neglected tropical diseases	Rabies	Reported deaths	WHO
-	7387	Neglected tropical diseases	Snakebite Envenoming	Age-standardized death rate	IHME
+	7387	Neglected tropical diseases	Snakebite envenoming	Age-standardized death rate	IHME
 	3340	Neglected tropical diseases	Trachoma	Prevalence rate	IHME
 	7382	Neglected tropical diseases	Trachoma	Elimination status	WHO
 	7376	Neglected tropical diseases	Trypanosomiasis, human African (acute)	Reported cases	WHO
