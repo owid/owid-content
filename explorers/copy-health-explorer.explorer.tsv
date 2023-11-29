@@ -8,6 +8,7 @@ graphers
 	712	Child health	Child mortality	Rate	UN IGME
 	952	Child health	Child mortality	Rate	UN WPP
 	677	Child health	Child mortality	Rate	IHME
+	2562	Child health	Child mortality	Rate	OWID (spliced)
 	6209	Child health	Child mortality	Number of deaths	UN IGME
 	6004	Child health	Child mortality	Number of deaths	UN WPP
 	3772	Child health	Child mortality	Number of deaths	IHME
