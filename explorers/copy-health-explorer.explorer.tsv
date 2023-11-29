@@ -44,11 +44,11 @@ graphers
 	3595	Maternal health	Lifetime risk of maternal death	Rate	WHO (GHO)
 	3872	Maternal health	Antenatal visits — 1+ visits	Rate	WHO (GHO)
 	3873	Maternal health	Antenatal visits — 4+ visits	Rate	WHO (GHO)
+	1596	Maternal health	Skilled attendant at delivery	Share of births	UNICEF
 	4542	Maternal health	Postnatal health check	Rate	World Bank
 	2285	Maternal health	HIV+ pregnant women receiving ARTs	Rate	UNAIDS
 	1375	Maternal health	Access to modern contraceptives	Rate	World Bank
 	1372	Maternal health	Prevalence of modern contraceptives	Rate	World Bank
-	1596	Maternal health	Skilled attendant at delivery	Share of births	UNICEF
 	6027	Deaths and DALYs	Total deaths	Number of deaths	UN WPP
 	6067	Deaths and DALYs	Total deaths	Number of deaths	WHO (GHE)
 	6099	Deaths and DALYs	Total deaths	Number of deaths	IHME
