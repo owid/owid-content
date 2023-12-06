@@ -662,28 +662,28 @@ columns
 	815722	Low estimate
 	815721	High estimate
 		Best estimate	int_intrastate_rate_ucdprio_best	duplicate 815720
-	816853	Best estimate			1;10;100;1000;10000	OrRd
+	816853	Best estimate			1;10;100;1000;10000;100000	OrRd
 	816854	Low estimate
 	816855	High estimate
-	816856	Best estimate			0.01;0.1;1;10;100	OrRd
+	816856	Best estimate			0.01;0.1;1;10;100;1000	OrRd
 	816857	Low estimate
 	816858	High estimate
 	816861	Interstate
 	816862	Low estimate
 	816863	High estimate
-		Best estimate	interstate_country_ucdp_best	duplicate 816861	1;10;100;1000;10000	OrRd
+		Best estimate	interstate_country_ucdp_best	duplicate 816861	1;10;100;1000;10000;100000	OrRd
 	816864	Interstate
 	816865	Low estimate
 	816866	High estimate
-		Best estimate	interstate_rate_country_ucdp_best	duplicate 816864	0.01;0.1;1;10;100	OrRd
+		Best estimate	interstate_rate_country_ucdp_best	duplicate 816864	0.01;0.1;1;10;100;1000	OrRd
 	816869	Intrastate
 	816870	Low estimate
 	816871	High estimate
-		Best estimate	intrastate_country_ucdp_best	duplicate 816869	1;10;100;1000;10000	OrRd
+		Best estimate	intrastate_country_ucdp_best	duplicate 816869	1;10;100;1000;10000;100000	OrRd
 	816872	Intrastate
 	816873	Low estimate
 	816874	High estimate
-		Best estimate	intrastate_rate_country_ucdp_best	duplicate 816872	0.01;0.1;1;10;100	OrRd
+		Best estimate	intrastate_rate_country_ucdp_best	duplicate 816872	0.01;0.1;1;10;100;1000	OrRd
 	816877	Internationalized intrastate
 	816880	Internationalized intrastate
 	816885	Non-internationalized intrastate
@@ -691,23 +691,23 @@ columns
 	816893	Non-state
 	816894	Low estimate
 	816895	High estimate
-		Best estimate	nonstate_country_ucdp_best	duplicate 816893	1;10;100;1000;10000	OrRd
+		Best estimate	nonstate_country_ucdp_best	duplicate 816893	1;10;100;1000;10000;100000	OrRd
 	816896	Non-state
 	816897	Low estimate
 	816899	High estimate
-		Best estimate	nonstate_rate_country_ucdp_best	duplicate 816896	0.01;0.1;1;10;100	OrRd
+		Best estimate	nonstate_rate_country_ucdp_best	duplicate 816896	0.01;0.1;1;10;100;1000	OrRd
 	816901	One-sided violence
 	816902	Low estimate
 	816903	High estimate
-		Best estimate	onesided_violence_country_ucdp_best	duplicate 816901	1;10;100;1000;10000	OrRd
+		Best estimate	onesided_violence_country_ucdp_best	duplicate 816901	1;10;100;1000;10000;100000	OrRd
 	816904	One-sided violence
 	816905	Low estimate
 	816906	High estimate
-		Best estimate	onesided_violence_rate_country_ucdp_best	duplicate 816904	0.01;0.1;1;10;100	OrRd
-	816909	Best estimate			1;10;100;1000;10000	OrRd
+		Best estimate	onesided_violence_rate_country_ucdp_best	duplicate 816904	0.01;0.1;1;10;100;1000	OrRd
+	816909	Best estimate			1;10;100;1000;10000;100000	OrRd
 	816910	Low estimate
 	816911	High estimate
-	816912	Best estimate			0.01;0.1;1;10;100	OrRd
+	816912	Best estimate			0.01;0.1;1;10;100;1000	OrRd
 	816913	Low estimate
 	816915	High estimate
 	816852				0,#92C5DE,No;1,#F4A582,Yes
