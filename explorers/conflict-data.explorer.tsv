@@ -404,14 +404,14 @@ columns
 	812729	Interstate wars
 	812728	Civil wars
 	812585	Interstate wars
-	812575	Low estimate
-	812576	High estimate
+	812575	Low estimate					#00295B
+	812576	High estimate					#B13507
 	812726	Civil wars
-	812727	High estimate
-		Low estimate	civil_low	duplicate 812726
+	812727	High estimate					#B13507
+		Low estimate	civil_low	duplicate 812726			#00295B
 	812730	Interstate wars
-	812731	High estimate
-		Low estimate	interstate_low	duplicate 812730
+	812731	High estimate					#B13507
+		Low estimate	interstate_low	duplicate 812730			#00295B
 	812712	Displays of force
 	812714	Threats of force
 	812716	Uses of force
@@ -420,8 +420,8 @@ columns
 	812715	Threats of force
 	812717	Uses of force
 	812719	Wars
-	812721	Low estimate
-	812722	High estimate
+	812721	Low estimate					#00295B
+	812722	High estimate					#B13507
 	812592	Interstate wars
 	812589	Extrastate wars
 	812604	Non-state wars
@@ -541,14 +541,14 @@ columns
 	815269	Interstate wars
 	815266	Civil wars
 	815271	Interstate wars
-	815557	Low estimate
-	815556	High estimate
+	815557	Low estimate					#00295B
+	815556	High estimate					#B13507
 	815559	Civil wars
-	815558	High estimate
-		Low estimate	civil_rate_low	duplicate 815559
+	815558	High estimate					#B13507
+		Low estimate	civil_rate_low	duplicate 815559			#00295B
 	815561	Interstate wars
-	815560	High estimate
-		Low estimate	interstate_rate_low	duplicate 815561
+	815560	High estimate					#B13507
+		Low estimate	interstate_rate_low	duplicate 815561			#00295B
 	814745	Displays of force
 	814749	Threats of force
 	814753	Uses of force
@@ -557,8 +557,8 @@ columns
 	814747	Threats of force
 	814755	Uses of force
 	814759	Wars
-	815551	Low estimate
-	815552	High estimate
+	815551	Low estimate					#00295B
+	815552	High estimate					#B13507
 	814827	Interstate wars
 	814822	Extrastate wars
 	814842	Non-state wars
