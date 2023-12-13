@@ -1,9 +1,14 @@
 explorerTitle	Conflict Deaths Data Explorer
-isPublished	false
+isPublished	true
 thumbnail	https://ourworldindata.org/images/published/war-and-peace-featured-image.png
-selection	China	South Africa	Brazil	United States	United Kingdom	India	Rwanda
+selection	Ethiopia	Ukraine	Mexico	Mali	Yemen	Somalia
 graphers
 	grapherId	Conflict Type Dropdown	Indicator Dropdown
 	7440	All armed conflicts	Deaths
 	7442	All armed conflicts	Death rate
 	7439	Type breakdown	Deaths
+	7441	Type breakdown	Death rate
+	7451	Interstate conflicts	Deaths
+	7452	Intrastate conflicts	Deaths
+	7453	Non-state conflicts	Deaths
+	7454	One-sided violence	Deaths
