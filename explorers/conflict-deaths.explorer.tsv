@@ -1,7 +1,7 @@
 explorerTitle	Conflict Deaths Data Explorer
 isPublished	false
 thumbnail	https://ourworldindata.org/images/published/war-and-peace-featured-image.png
-selection	Syria	Afghanistan	Ethiopia	Eritrea	Iraq	Mexico	Ukraine
+selection	Syria	Afghanistan	Ethiopia	Ukraine	Iraq	Mexico
 graphers
 	grapherId	Conflict Type Dropdown	Indicator Dropdown
 	7440	All armed conflicts	Deaths
