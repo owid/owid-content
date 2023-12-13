@@ -662,7 +662,7 @@ columns
 	815722	Low estimate					#C3AEA6
 	815721	High estimate					#C3AEA6
 		Best estimate	int_intrastate_rate_ucdprio_best	duplicate 815720			#B13507
-	816853	Best estimate			1;10;100;1000;10000;100000	OrRd	#B13507
+	816853	Best estimate			0.99, #E8F4EA, 0;10;100;1000;10000;100000	OrRd	#B13507
 	816854	Low estimate					#C3AEA6
 	816855	High estimate					#C3AEA6
 	816856	Best estimate			0.01;0.1;1;10;100;1000	OrRd	#B13507
@@ -671,7 +671,7 @@ columns
 	816861	Interstate
 	816862	Low estimate					#C3AEA6
 	816863	High estimate					#C3AEA6
-		Best estimate	interstate_country_ucdp_best	duplicate 816861	1;10;100;1000;10000;100000	OrRd	#B13507
+		Best estimate	interstate_country_ucdp_best	duplicate 816861	0.99, #E8F4EA, 0;10;100;1000;10000;100000	OrRd	#B13507
 	816864	Interstate
 	816865	Low estimate					#C3AEA6
 	816866	High estimate					#C3AEA6
@@ -679,7 +679,7 @@ columns
 	816869	Intrastate
 	816870	Low estimate					#C3AEA6
 	816871	High estimate					#C3AEA6
-		Best estimate	intrastate_country_ucdp_best	duplicate 816869	1;10;100;1000;10000;100000	OrRd	#B13507
+		Best estimate	intrastate_country_ucdp_best	duplicate 816869	0.99, #E8F4EA, 0;10;100;1000;10000;100000	OrRd	#B13507
 	816872	Intrastate
 	816873	Low estimate					#C3AEA6
 	816874	High estimate					#C3AEA6
@@ -691,7 +691,7 @@ columns
 	816893	Non-state
 	816894	Low estimate					#C3AEA6
 	816895	High estimate					#C3AEA6
-		Best estimate	nonstate_country_ucdp_best	duplicate 816893	1;10;100;1000;10000;100000	OrRd	#B13507
+		Best estimate	nonstate_country_ucdp_best	duplicate 816893	0.99, #E8F4EA, 0;10;100;1000;10000;100000	OrRd	#B13507
 	816896	Non-state
 	816897	Low estimate					#C3AEA6
 	816899	High estimate					#C3AEA6
@@ -699,12 +699,12 @@ columns
 	816901	One-sided violence
 	816902	Low estimate					#C3AEA6
 	816903	High estimate					#C3AEA6
-		Best estimate	onesided_violence_country_ucdp_best	duplicate 816901	1;10;100;1000;10000;100000	OrRd	#B13507
+		Best estimate	onesided_violence_country_ucdp_best	duplicate 816901	0.99, #E8F4EA, 0;10;100;1000;10000;100000	OrRd	#B13507
 	816904	One-sided violence
 	816905	Low estimate					#C3AEA6
 	816906	High estimate					#C3AEA6
 		Best estimate	onesided_violence_rate_country_ucdp_best	duplicate 816904	0.01;0.1;1;10;100;1000	OrRd	#B13507
-	816909	Best estimate			1;10;100;1000;10000;100000	OrRd	#B13507
+	816909	Best estimate			0.99, #E8F4EA, 0;10;100;1000;10000;100000	OrRd	#B13507
 	816910	Low estimate					#C3AEA6
 	816911	High estimate					#C3AEA6
 	816912	Best estimate			0.01;0.1;1;10;100;1000	OrRd	#B13507
