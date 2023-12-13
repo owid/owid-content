@@ -1,0 +1,21 @@
+
+explorerTitle	Core Conflict Data Explorer
+isPublished	false
+explorerSubtitle	Explore the world's conflicts with the most important charts to capture them.
+subNavCurrentId	conflict-data-core
+graphers
+	grapherId	First Dropdown	Second Dropdown	Third Dropdown
+	2670	Deaths	State-based conflicts	by region
+	5598	Deaths	State-based conflicts	by type
+	6740	Deaths	Armed conflicts	by region
+	6742	Deaths	Armed conflicts	by type
+	7440	Deaths	Armed conflicts	by country
+	7439	Deaths	Armed conflicts	by country and type
+	7451	Deaths	Interstate conflicts	by country
+	7452	Deaths	Intrastate conflicts	by country
+	7476	Deaths	Wars	by region
+	7270	Deaths	Wars	by type
+	7439	Deaths	Armed conflicts	by country
+	5600	Number	State-based conflicts	by type
+	2587	Number	Armed conflicts	by type
+	7463	Number	Wars	by type
