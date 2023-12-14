@@ -3,60 +3,32 @@ explorerTitle	Country Conflict Data Explorer
 isPublished	false
 thumbnail
 explorerSubtitle	Explore deaths across the world's countries with the most important charts to capture them.
-selection
+selection	Afghanistan Ethiopia Syria Ukraine
 subNavCurrentId	country-conflict
 graphers
-	yVariableIds	ySlugs	Conflict type Dropdown	Measure Dropdown	Conflict sub-type Dropdown	type	yAxisMin	title	subtitle	hideRelativeToggle	hideAnnotationFieldsInTitle	selectedFacetStrategy	hasMapTab	tab	relatedQuestionText	relatedQuestionUrl
-	816853 816854 816855		All armed conflicts	Deaths	all	LineChart	0	Deaths in armed conflicts	Deaths of combatants and civilians due to fighting on that state's current territory. Disagreements between organized groups, or between one organized group and civilians, that cause at least 25 deaths during a year.		true	entity	true	map	How do different approaches measure armed conflicts and their deaths?	https://ourworldindata.org/conflict-data-how-do-researchers-measure-armed-conflicts-and-their-deaths
-	816901 816893 816869 816861		All armed conflicts	Deaths	by type	StackedBar	0	Deaths in armed conflicts by type	Deaths of combatants and civilians due to fighting on that state's current territory. [Interstate](#dod:interstate-conflict), [intrastate](#dod:intrastate-conflict), [extrasystemic](#dod:extrasystemic-conflict), [non-state](#dod:nonstate-conflict) conflicts, and [one-sided violence](#dod:onesided-violence) that cause at least 25 deaths during a year.	false	true	entity			How do different approaches measure armed conflicts and their deaths?	https://ourworldindata.org/conflict-data-how-do-researchers-measure-armed-conflicts-and-their-deaths
-	816862 816863	interstate_country_ucdp_best	Interstate conflicts	Deaths		LineChart	0	Deaths in interstate conflicts	Deaths of combatants and civilians due to fighting on that state's current territory. Conflicts between states that cause at least 25 deaths during a year.		true	entity	true	map	How do different approaches measure armed conflicts and their deaths?	https://ourworldindata.org/conflict-data-how-do-researchers-measure-armed-conflicts-and-their-deaths
-	816870 816871	intrastate_country_ucdp_best	Intrastate conflicts	Deaths		LineChart	0	Deaths in intrastate conflicts	Deaths of combatants and civilians due to fighting on that state's current territory. Conflicts between a state and a non-state armed group that cause at least 25 deaths during a year.		true	entity	true	map	How do different approaches measure armed conflicts and their deaths?	https://ourworldindata.org/conflict-data-how-do-researchers-measure-armed-conflicts-and-their-deaths
-	816894 816895	nonstate_country_ucdp_best	Non-state conflicts	Deaths		LineChart	0	Deaths in non-state conflicts	Deaths of combatants and civilians due to fighting on that state's current territory. Conflicts between non-state armed groups that cause at least 25 deaths during a year.		true	entity	true	map	How do different approaches measure armed conflicts and their deaths?	https://ourworldindata.org/conflict-data-how-do-researchers-measure-armed-conflicts-and-their-deaths
-	816902 816903	onesided_violence_country_ucdp_best	One-sided violence	Deaths		LineChart	0	Deaths from one-sided violence	Deaths of civilians on that state's current territory. Uses of armed force by a state or non-state armed group against civilians that cause at least 25 deaths during a year.		true	entity	true	map	How do different approaches measure armed conflicts and their deaths?	https://ourworldindata.org/conflict-data-how-do-researchers-measure-armed-conflicts-and-their-deaths
-	816856 816857 816858		All armed conflicts	Death rate	all	LineChart	0	Death rate in armed conflicts	Deaths of combatants and civilians due to fighting on that state's current territory, per 100,000 people. Disagreements between organized groups, or between one organized group and civilians, that cause at least 25 deaths during a year.		true	entity	true	map	How do different approaches measure armed conflicts and their deaths?	https://ourworldindata.org/conflict-data-how-do-researchers-measure-armed-conflicts-and-their-deaths
-	816904 816896 816872 816864		All armed conflicts	Death rate	by type	StackedBar	0	Death rate in armed conflict by type	Deaths of combatants and civilians due to fighting on that state's current territory, per 100,000 people. [Interstate](#dod:interstate-conflict), [intrastate](#dod:intrastate-conflict), [extrasystemic](#dod:extrasystemic-conflict), [non-state](#dod:nonstate-conflict) conflicts, and [one-sided violence](#dod:onesided-violence) that cause at least 25 deaths during a year.	false	true	entity			How do different approaches measure armed conflicts and their deaths?	https://ourworldindata.org/conflict-data-how-do-researchers-measure-armed-conflicts-and-their-deaths
-	816865 816866	interstate_rate_country_ucdp_best	Interstate conflicts	Death rate		LineChart	0	Death rate in interstate conflicts	Deaths of combatants and civilians due to fighting on that state's current territory, per 100,000 people. Conflicts between states that cause at least 25 deaths during a year. 		true	entity	true	map	How do different approaches measure armed conflicts and their deaths?	https://ourworldindata.org/conflict-data-how-do-researchers-measure-armed-conflicts-and-their-deaths
-	816873 816874	intrastate_rate_country_ucdp_best	Intrastate conflicts	Death rate		LineChart	0	Death rate in intrastate conflicts	Deaths of combatants and civilians due to fighting on that state's current territory, per 100,000 people. Conflicts between a state and a non-state armed group that cause at least 25 deaths during a year.		true	entity	true	map	How do different approaches measure armed conflicts and their deaths?	https://ourworldindata.org/conflict-data-how-do-researchers-measure-armed-conflicts-and-their-deaths
-	816897 816899	nonstate_rate_country_ucdp_best	Non-state conflicts	Death rate		LineChart	0	Death rate in non-state conflicts	Deaths of combatants and civilians due to fighting on that state's current territory, per 100,000 people. Conflicts between non-state armed groups that cause at least 25 deaths during a year.		true	entity	true	map	How do different approaches measure armed conflicts and their deaths?	https://ourworldindata.org/conflict-data-how-do-researchers-measure-armed-conflicts-and-their-deaths
-	816905 816906	onesided_violence_rate_country_ucdp_best	One-sided violence	Death rate		LineChart	0	Death rate from one-sided violence	Deaths of civilians on that state's current territory, per 100,000 people. Uses of armed force by a state or non-state armed group against civilians that cause at least 25 deaths during a year.		true	entity	true	map	How do different approaches measure armed conflicts and their deaths?	https://ourworldindata.org/conflict-data-how-do-researchers-measure-armed-conflicts-and-their-deaths
+	yVariableIds	Conflict type Dropdown	Measure Dropdown	Conflict sub-type Dropdown	type	yAxisMin	title	subtitle	hideRelativeToggle	hideAnnotationFieldsInTitle	selectedFacetStrategy	hasMapTab	tab	relatedQuestionText	relatedQuestionUrl
+	816853	All armed conflicts	Deaths	all	LineChart	0	Deaths in armed conflicts	Included are deaths of combatants and civilians due to fighting in [armed conflicts](#dod:armed-conflict-ucdp) that were ongoing that year.		true	entity	true	map	How do different approaches measure armed conflicts and their deaths?	https://ourworldindata.org/conflict-data-how-do-researchers-measure-armed-conflicts-and-their-deaths
+	816901 816893 816869 816861	All armed conflicts	Deaths	by type	StackedBar	0	Deaths in armed conflicts by type	Included are deaths of combatants and civilians due to fighting in [interstate](#dod:interstate-conflict), [intrastate](#dod:intrastate-conflict), [extrasystemic](#dod:extrasystemic-conflict), [non-state](#dod:nonstate-conflict) conflicts, and [one-sided violence](#dod:onesided-violence).	false	true	entity			How do different approaches measure armed conflicts and their deaths?	https://ourworldindata.org/conflict-data-how-do-researchers-measure-armed-conflicts-and-their-deaths
+	816861	Interstate conflicts	Deaths		LineChart	0	Deaths in interstate conflicts	Included are deaths of combatants and civilians due to fighting in [interstate conflicts](#dod:interstate-ucdp) that were ongoing that year.		true	entity	true	map	How do different approaches measure armed conflicts and their deaths?	https://ourworldindata.org/conflict-data-how-do-researchers-measure-armed-conflicts-and-their-deaths
+	816869	Intrastate conflicts	Deaths		LineChart	0	Deaths in intrastate conflicts	Included are deaths of combatants and civilians due to fighting in [intrastate conflicts](#dod:intrastate-ucdp) that were ongoing that year.		true	entity	true	map	How do different approaches measure armed conflicts and their deaths?	https://ourworldindata.org/conflict-data-how-do-researchers-measure-armed-conflicts-and-their-deaths
+	816893	Non-state conflicts	Deaths		LineChart	0	Deaths in non-state conflicts	Included are deaths of combatants and civilians due to fighting in [non-state conflicts](#dod:nonstate-ucdp) that were ongoing that year.		true	entity	true	map	How do different approaches measure armed conflicts and their deaths?	https://ourworldindata.org/conflict-data-how-do-researchers-measure-armed-conflicts-and-their-deaths
+	816901	One-sided violence	Deaths		LineChart	0	Deaths from one-sided violence	Included are deaths of civilians by [one-sided violence](#dod:onesided-ucdp) that was ongoing that year.		true	entity	true	map	How do different approaches measure armed conflicts and their deaths?	https://ourworldindata.org/conflict-data-how-do-researchers-measure-armed-conflicts-and-their-deaths
+	816856	All armed conflicts	Death rate	all	LineChart	0	Death rate in armed conflicts	Deaths of combatants and civilians due to fighting, per 100,000 people. Included are [armed conflicts](#dod:armed-conflict-ucdp) that were ongoing that year.		true	entity	true	map	How do different approaches measure armed conflicts and their deaths?	https://ourworldindata.org/conflict-data-how-do-researchers-measure-armed-conflicts-and-their-deaths
+	816904 816896 816872 816864	All armed conflicts	Death rate	by type	StackedBar	0	Death rate in armed conflict by type	Deaths of combatants and civilians due to fighting, per 100,000 people. Included are [interstate](#dod:interstate-conflict), [intrastate](#dod:intrastate-conflict), [extrasystemic](#dod:extrasystemic-conflict), [non-state](#dod:nonstate-conflict) conflicts, and [one-sided violence](#dod:onesided-violence).	false	true	entity			How do different approaches measure armed conflicts and their deaths?	https://ourworldindata.org/conflict-data-how-do-researchers-measure-armed-conflicts-and-their-deaths
+	816864	Interstate conflicts	Death rate		LineChart	0	Death rate in interstate conflicts	Deaths of combatants and civilians due to fighting, per 100,000 people. Included are [interstate conflicts](#dod:interstate-ucdp) that were ongoing that year.		true	entity	true	map	How do different approaches measure armed conflicts and their deaths?	https://ourworldindata.org/conflict-data-how-do-researchers-measure-armed-conflicts-and-their-deaths
+	816872	Intrastate conflicts	Death rate		LineChart	0	Death rate in intrastate conflicts	Deaths of combatants and civilians due to fighting, per 100,000 people. Included are [intrastate conflicts](#dod:intrastate-ucdp) that were ongoing that year.		true	entity	true	map	How do different approaches measure armed conflicts and their deaths?	https://ourworldindata.org/conflict-data-how-do-researchers-measure-armed-conflicts-and-their-deaths
+	816896	Non-state conflicts	Death rate		LineChart	0	Death rate in non-state conflicts	Deaths of combatants and civilians due to fighting, per 100,000 people. Included are [non-state conflicts](#dod:nonstate-ucdp) that were ongoing that year.		true	entity	true	map	How do different approaches measure armed conflicts and their deaths?	https://ourworldindata.org/conflict-data-how-do-researchers-measure-armed-conflicts-and-their-deaths
+	816904	One-sided violence	Death rate		LineChart	0	Death rate from one-sided violence	Deaths of combatants and civilians due to fighting, per 100,000 people. Included is [one-sided violence](#dod:onesided-ucdp) that was ongoing that year.		true	entity	true	map	How do different approaches measure armed conflicts and their deaths?	https://ourworldindata.org/conflict-data-how-do-researchers-measure-armed-conflicts-and-their-deaths
 
 columns
-	variableId	name	slug	transform	colorScaleNumericBins	colorScaleScheme	color
-	816853	Best estimate			0.99, #E8F4EA, 0;10;100;1000;10000;100000	OrRd	#B13507
-	816854	Low estimate					#C3AEA6
-	816855	High estimate					#C3AEA6
-	816901	One-sided violence
-		Best estimate	onesided_violence_country_ucdp_best	duplicate 816901	0.99, #E8F4EA, 0;10;100;1000;10000;100000	OrRd	#B13507
-	816902	Low estimate					#C3AEA6
-	816903	High estimate					#C3AEA6
-	816893	Non-state
-		Best estimate	nonstate_country_ucdp_best	duplicate 816893	0.99, #E8F4EA, 0;10;100;1000;10000;100000	OrRd	#B13507
-	816894	Low estimate					#C3AEA6
-	816895	High estimate					#C3AEA6
-	816869	Intrastate
-		Best estimate	intrastate_country_ucdp_best	duplicate 816869	0.99, #E8F4EA, 0;10;100;1000;10000;100000	OrRd	#B13507
-	816870	Low estimate					#C3AEA6
-	816871	High estimate					#C3AEA6
-	816861	Interstate
-		Best estimate	interstate_country_ucdp_best	duplicate 816861	0.99, #E8F4EA, 0;10;100;1000;10000;100000	OrRd	#B13507
-	816862	Low estimate					#C3AEA6
-	816863	High estimate					#C3AEA6
-	816856	Best estimate			0.1; 0.3; 1; 3; 10; 30; 100	OrRd	#B13507
-	816857	Low estimate					#C3AEA6
-	816858	High estimate					#C3AEA6
-	816904	One-sided violence
-		Best estimate	onesided_violence_country_ucdp_best	duplicate 816901	0.99, #E8F4EA, 0;10;100;1000;10000;100000	OrRd	#B13507
-	816905	Low estimate					#C3AEA6
-	816906	High estimate					#C3AEA6
-	816896	Non-state
-		Best estimate	nonstate_rate_country_ucdp_best	duplicate 816896	0.1; 0.3; 1; 3; 10; 30; 100	OrRd	#B13507
-	816897	Low estimate					#C3AEA6
-	816899	High estimate					#C3AEA6
-	816872	Intrastate
-		Best estimate	intrastate_rate_country_ucdp_best	duplicate 816872	0.1; 0.3; 1; 3; 10; 30; 100	OrRd	#B13507
-	816873	Low estimate					#C3AEA6
-	816874	High estimate					#C3AEA6
-	816864	Interstate
-		Best estimate	interstate_rate_country_ucdp_best	duplicate 816864	0.1; 0.3; 1; 3; 10; 30; 100	OrRd	#B13507
-	816865	Low estimate					#C3AEA6
-	816866	High estimate					#C3AEA6
+	variableId	name	colorScaleNumericBins	colorScaleScheme
+	816853		0.99, #E8F4EA, 0;10;100;1000;10000;100000	OrRd
+	816901	Interstate	0.99, #E8F4EA, 0;10;100;1000;10000;100000	OrRd
+	816893	Intrastate	0.99, #E8F4EA, 0;10;100;1000;10000;100000	OrRd
+	816869	Non-state	0.99, #E8F4EA, 0;10;100;1000;10000;100000	OrRd
+	816861	One-sided violence	0.99, #E8F4EA, 0;10;100;1000;10000;100000	OrRd
+	816856		0.1; 0.3; 1; 3; 10; 30; 100	OrRd
+	816904	Interstate	0.99, #E8F4EA, 0;10;100;1000;10000;100000	OrRd
+	816896	Intrastate	0.1; 0.3; 1; 3; 10; 30; 100	OrRd
+	816872	Non-state	0.1; 0.3; 1; 3; 10; 30; 100	OrRd
+	816864	One-sided violence	0.1; 0.3; 1; 3; 10; 30; 100	OrRd
