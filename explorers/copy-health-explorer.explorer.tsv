@@ -142,7 +142,7 @@ graphers
 	3674	Infectious diseases	Tuberculosis	Death rate	WHO (GHO)
 	3613	Infectious diseases	Tuberculosis	Number of deaths	IHME
 	3671	Infectious diseases	Tuberculosis	Incidence	WHO
-	3670	Infectious diseases	Tuberculosis	Incidence rate	WHO (GHO)
+	2657	Infectious diseases	Tuberculosis	Incidence rate	WHO
 	6156	Infectious diseases	Tuberculosis	Incidence rate	IHME
 	6113	Infectious diseases	Tuberculosis	Death rate	IHME
 	6164	Infectious diseases	Tuberculosis	Number of deaths	WHO (GHE)
