@@ -1,4 +1,4 @@
-
+selection	Spain	India	Hong Kong	United States	United Kingdom	China	Nigeria	Russia
 explorerTitle	Population Source Explorer
 isPublished	false
 thumbnail
@@ -6,18 +6,18 @@ explorerSubtitle	Explore country populations as per different sources
 
 wpBlockId
 subNavId
-subNavCurrentId	conflict-data
+subNavCurrentId	population-source
 entityType	region
 graphers
 	yVariableIds	ySlugs	Source Dropdown	Projections Checkbox	type	yAxisMin	title	subtitle	note
 	819330		HYDE (3.3)	flase	LineChart	0	Population
-	818109		Fariss et al. (2022)	false
-	520907		UN WPP (2022)	false
-	539738		Penn World Table (2021)	false
-	417486		Maddison Project Database 2020	false
-	597930		OWID (2023)	false
-	597929		OWID (2023)	true
-
+	818109		Fariss et al. (2022)	false	LineChart
+	520907		UN WPP (2022)	false	LineChart
+	539738		Penn World Table (2021)	false	LineChart
+	417486		Maddison Project Database 2020	false	LineChart
+	597930		OWID (2023)	false	LineChart
+	597929		OWID (2023)	true	LineChart
+	819330 818109 520907 539738 417486		All	false	LineChart
 
 
 columns
