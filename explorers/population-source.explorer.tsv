@@ -11,16 +11,19 @@ entityType	region
 graphers
 	yVariableIds	ySlugs	Source Dropdown	Projections Checkbox	type	yAxisMin	title	subtitle	note
 	819330		HYDE (3.3)	flase	LineChart	0	Population
-	818109		Fariss et al. (2022)	false	LineChart
-	520907		UN WPP (2022)	false	LineChart
-	539738		Penn World Table (2021)	false	LineChart
-	417486		Maddison Project Database 2020	false	LineChart
-	597930		OWID (2023)	false	LineChart
-	597929		OWID (2023)	true	LineChart
-	819330 818109 520907 539738 417486		All	false	LineChart
+	818109		Fariss et al. (2022)	false	LineChart		Population
+	520907		UN WPP (2022)	false	LineChart		Population
+	539738		Penn World Table (2021)	false	LineChart		Population
+	417486		Maddison Project Database 2020	false	LineChart		Population
+	597930		OWID (2023)	false	LineChart		Population
+	597929		OWID (2023)	true	LineChart		Population with projections
+	819330 818109 520907 539738 417486		All	false	LineChart		Population comparison
 
 
 columns
 	variableId	name	slug
-	819330	PopulationHyde
-	818109	PopulationFariss
+	819330	HYDE (3.3)
+	818109	Fariss et al. (2022)
+	520907	UN WPP (2022)
+	539738	Penn World Table (2021)
+	417486	Maddison Project Database 2020
