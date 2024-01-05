@@ -10,7 +10,7 @@ subNavCurrentId	population-source
 entityType	region
 graphers
 	yVariableIds	ySlugs	Source Dropdown	Projections Checkbox	type	yAxisMin	title	subtitle	selectedFacetStrategy
-	819330		HYDE (3.3)		LineChart	0	Population
+	819330		HYDE (2023)		LineChart	0	Population
 	818109		Fariss et al. (2022)		LineChart		Population
 	520907		UN WPP (2022)		LineChart		Population
 	539738		Penn World Table (2021)		LineChart		Population
