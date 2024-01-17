@@ -1,0 +1,34 @@
+
+explorerTitle	Countries in Conflict Data Explorer
+isPublished	false
+thumbnail
+explorerSubtitle	Explore conflict deaths and death rates across the world's countries.
+selection	Afghanistan	Ethiopia	Syria	Ukraine
+subNavCurrentId	country-conflict
+graphers
+	yVariableIds	Measure Dropdown	Conflict type Dropdown	Conflict sub-type Dropdown	type	yAxisMin	title	subtitle	hideRelativeToggle	hideAnnotationFieldsInTitle	selectedFacetStrategy	hasMapTab	tab	relatedQuestionText	relatedQuestionUrl
+	816853	Deaths	All armed conflicts	all	LineChart	0	Deaths in armed conflicts	Included are deaths of combatants and civilians due to fighting in [armed conflicts](#dod:armed-conflict-ucdp) that were ongoing that year.		true		true	map	How do different approaches measure armed conflicts and their deaths?	https://ourworldindata.org/conflict-data-how-do-researchers-measure-armed-conflicts-and-their-deaths
+	816901 816893 816869 816861	Deaths	All armed conflicts	by type	StackedBar	0	Deaths in armed conflicts	Included are deaths of combatants and civilians due to fighting in [interstate](#dod:interstate-ucdp), [intrastate](#dod:intrastate-ucdp), [extrasystemic](#dod:extrasystemic-ucdp), [non-state](#dod:nonstate-ucdp) conflicts, and [one-sided violence](#dod:onesided-ucdp) that were ongoing that year.	false	true	entity			How do different approaches measure armed conflicts and their deaths?	https://ourworldindata.org/conflict-data-how-do-researchers-measure-armed-conflicts-and-their-deaths
+	816861	Deaths	Interstate conflicts		LineChart	0	Deaths in interstate conflicts	Included are deaths of combatants and civilians due to fighting in [interstate conflicts](#dod:interstate-ucdp) that were ongoing that year.		true		true	map	How do different approaches measure armed conflicts and their deaths?	https://ourworldindata.org/conflict-data-how-do-researchers-measure-armed-conflicts-and-their-deaths
+	816869	Deaths	Intrastate conflicts		LineChart	0	Deaths in intrastate conflicts	Included are deaths of combatants and civilians due to fighting in [intrastate conflicts](#dod:intrastate-ucdp) that were ongoing that year.		true		true	map	How do different approaches measure armed conflicts and their deaths?	https://ourworldindata.org/conflict-data-how-do-researchers-measure-armed-conflicts-and-their-deaths
+	816893	Deaths	Non-state conflicts		LineChart	0	Deaths in non-state conflicts	Included are deaths of combatants and civilians due to fighting in [non-state conflicts](#dod:nonstate-ucdp) that were ongoing that year.		true		true	map	How do different approaches measure armed conflicts and their deaths?	https://ourworldindata.org/conflict-data-how-do-researchers-measure-armed-conflicts-and-their-deaths
+	816901	Deaths	One-sided violence		LineChart	0	Deaths from one-sided violence	Included are deaths of civilians from [one-sided violence](#dod:onesided-ucdp) that was ongoing that year.		true		true	map	How do different approaches measure armed conflicts and their deaths?	https://ourworldindata.org/conflict-data-how-do-researchers-measure-armed-conflicts-and-their-deaths
+	816856	Death rate	All armed conflicts	all	LineChart	0	Death rate in armed conflicts	Deaths of combatants and civilians due to fighting, per 100,000 people. Included are [armed conflicts](#dod:armed-conflict-ucdp) that were ongoing that year.		true		true	map	How do different approaches measure armed conflicts and their deaths?	https://ourworldindata.org/conflict-data-how-do-researchers-measure-armed-conflicts-and-their-deaths
+	816904 816896 816872 816864	Death rate	All armed conflicts	by type	StackedBar	0	Death rate in armed conflicts	Deaths of combatants and civilians due to fighting, per 100,000 people. Included are [interstate](#dod:interstate-ucdp), [intrastate](#dod:intrastate-ucdp), [extrasystemic](#dod:extrasystemic-ucdp), [non-state](#dod:nonstate-ucdp) conflicts, and [one-sided violence](#dod:onesided-ucdp) that were ongoing that year.	false	true	entity			How do different approaches measure armed conflicts and their deaths?	https://ourworldindata.org/conflict-data-how-do-researchers-measure-armed-conflicts-and-their-deaths
+	816864	Death rate	Interstate conflicts		LineChart	0	Death rate in interstate conflicts	Deaths of combatants and civilians due to fighting, per 100,000 people. Included are [interstate conflicts](#dod:interstate-ucdp) that were ongoing that year.		true		true	map	How do different approaches measure armed conflicts and their deaths?	https://ourworldindata.org/conflict-data-how-do-researchers-measure-armed-conflicts-and-their-deaths
+	816872	Death rate	Intrastate conflicts		LineChart	0	Death rate in intrastate conflicts	Deaths of combatants and civilians due to fighting, per 100,000 people. Included are [intrastate conflicts](#dod:intrastate-ucdp) that were ongoing that year.		true		true	map	How do different approaches measure armed conflicts and their deaths?	https://ourworldindata.org/conflict-data-how-do-researchers-measure-armed-conflicts-and-their-deaths
+	816896	Death rate	Non-state conflicts		LineChart	0	Death rate in non-state conflicts	Deaths of combatants and civilians due to fighting, per 100,000 people. Included are [non-state conflicts](#dod:nonstate-ucdp) that were ongoing that year.		true		true	map	How do different approaches measure armed conflicts and their deaths?	https://ourworldindata.org/conflict-data-how-do-researchers-measure-armed-conflicts-and-their-deaths
+	816904	Death rate	One-sided violence		LineChart	0	Death rate from one-sided violence	Deaths of civilians from [one-sided violence](#dod:onesided-ucdp) that was ongoing that year, per 100,000 people.		true		true	map	How do different approaches measure armed conflicts and their deaths?	https://ourworldindata.org/conflict-data-how-do-researchers-measure-armed-conflicts-and-their-deaths
+
+columns
+	variableId	name	colorScaleNumericBins	colorScaleScheme
+	816853		0.99, #E8F4EA, 0;10;100;1000;10000;100000	OrRd
+	816861	Interstate	0.99, #E8F4EA, 0;10;100;1000;10000;100000	OrRd
+	816869	Intrastate	0.99, #E8F4EA, 0;10;100;1000;10000;100000	OrRd
+	816893	Non-state	0.99, #E8F4EA, 0;10;100;1000;10000;100000	OrRd
+	816901	One-sided violence	0.99, #E8F4EA, 0;10;100;1000;10000;100000	OrRd
+	816856		0.1; 0.3; 1; 3; 10; 30; 100	OrRd
+	816864	Interstate	0.1; 0.3; 1; 3; 10; 30; 100	OrRd
+	816872	Intrastate	0.1; 0.3; 1; 3; 10; 30; 100	OrRd
+	816896	Non-state	0.1; 0.3; 1; 3; 10; 30; 100	OrRd
+	816904	One-sided violence	0.1; 0.3; 1; 3; 10; 30; 100	OrRd
