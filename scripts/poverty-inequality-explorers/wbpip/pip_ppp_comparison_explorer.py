@@ -1425,9 +1425,7 @@ with open(outfile, "w", newline="\n", encoding="utf-8") as f:
         table_tsv_indented = textwrap.indent(table_tsv, "\t")
         f.write(
             "\ntable\t"
-            + "https://raw.githubusercontent.com/owid/notebooks/main/BetterDataDocs/JoeHasell/PIP/data/ppp_vs/final/OWID_internal_upload/explorer_database/"
-            + i
-            + "/poverty_"
+            + "https://catalog.ourworldindata.org/explorers/wb/latest/world_bank_pip/"
             + i
             + ".csv\t"
             + i
