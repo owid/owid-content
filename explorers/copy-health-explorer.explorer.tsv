@@ -147,7 +147,9 @@ graphers
 	6113	Infectious diseases	Tuberculosis	Death rate	IHME
 	6164	Infectious diseases	Tuberculosis	Number of deaths	WHO (GHE)
 	6165	Infectious diseases	Tuberculosis	Death rate	WHO (GHE)
+	7440	Injuries	Conflict and terrorism	Number of deaths	UCDP
 	2847	Injuries	Conflict and terrorism	Number of deaths	IHME
+	7442	Injuries	Conflict and terrorism	Death rate	UCDP
 	1626	Injuries	Conflict and terrorism	Death rate	IHME
 	6106	Injuries	Conflict and terrorism	Age-standardized death rate	IHME
 	1729	Injuries	Drowning	Age-standardized death rate	IHME
