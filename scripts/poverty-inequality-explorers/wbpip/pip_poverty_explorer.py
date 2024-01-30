@@ -739,7 +739,7 @@ df_graphers["note"] = df_graphers["note"].str.replace(
 # Select one default view
 df_graphers.loc[
     (df_graphers["ySlugs"] == "headcount_ratio_215")
-    & (df_graphers["tableSlug"] == "inc_or_cons")
+    & (df_graphers["tableSlug"] == "income_consumption_2017")
     & (df_graphers["Show breaks between less comparable surveys Checkbox"] == "false"),
     ["defaultView"],
 ] = "true"

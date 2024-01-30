@@ -1214,7 +1214,7 @@ df_graphers["mapTargetTime"] = df_graphers["mapTargetTime"].astype("Int64")
 # Select one default view
 df_graphers.loc[
     (df_graphers["ySlugs"] == "headcount_ratio_190_ppp2011 headcount_ratio_215_ppp2017")
-    & (df_graphers["tableSlug"] == "inc_or_cons"),
+    & (df_graphers["tableSlug"] == "income_consumption_2011_2017"),
     ["defaultView"],
 ] = "true"
 

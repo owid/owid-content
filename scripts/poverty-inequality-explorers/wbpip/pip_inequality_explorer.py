@@ -511,7 +511,7 @@ df_graphers["subtitle"] = df_graphers["subtitle"].str.replace(
 df_graphers.loc[
     (df_graphers["ySlugs"] == "gini")
     & (df_graphers["Show breaks between less comparable surveys Checkbox"] == "false")
-    & (df_graphers["tableSlug"] == "inc_or_cons"),
+    & (df_graphers["tableSlug"] == "income_consumption_2017"),
     ["defaultView"],
 ] = "true"
 
