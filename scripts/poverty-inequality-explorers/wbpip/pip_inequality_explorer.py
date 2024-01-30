@@ -10,6 +10,8 @@ import numpy as np
 # %%
 import pandas as pd
 
+from ..common_parameters import *
+
 PARENT_DIR = Path(__file__).parent.parent.parent.parent.absolute()
 outfile = PARENT_DIR / "explorers" / "pip-inequality-explorer.explorer.tsv"
 
@@ -67,7 +69,16 @@ df_header = df_header[0].apply(pd.Series)
 # These variables consider a continous series, without breaks due to changes in surveys' methodology
 
 # %%
-new_line = "\\n\\n"
+sourceName = SOURCE_NAME_PIP
+dataPublishedBy = DATA_PUBLISHED_BY_PIP
+sourceLink = SOURCE_LINK_PIP
+colorScaleNumericMinValue = COLOR_SCALE_NUMERIC_MIN_VALUE
+tolerance = TOLERANCE
+colorScaleEqualSizeBins = COLOR_SCALE_EQUAL_SIZEBINS
+new_line = NEW_LINE
+
+yAxisMin = Y_AXIS_MIN
+mapTargetTime = MAP_TARGET_TIME
 
 additional_description = new_line.join(
     [
@@ -92,7 +103,6 @@ for survey in range(len(survey_type)):
     # Gini coefficient
     df_tables.loc[j, "name"] = f"Gini coefficient"
     df_tables.loc[j, "slug"] = f"gini"
-    df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform (2022)"
     df_tables.loc[j, "description"] = new_line.join(
         [
             f"The Gini coefficient measures inequality on a scale from 0 to 1. Higher values indicate higher inequality.",
@@ -102,17 +112,11 @@ for survey in range(len(survey_type)):
             processing_description,
         ]
     )
-    df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
-    df_tables.loc[
-        j, "dataPublishedBy"
-    ] = "World Bank Poverty and Inequality Platform (PIP)"
     df_tables.loc[j, "unit"] = np.nan
     df_tables.loc[j, "shortUnit"] = np.nan
-    df_tables.loc[j, "tolerance"] = 5
     df_tables.loc[j, "type"] = "Numeric"
     df_tables.loc[j, "colorScaleNumericMinValue"] = 1
     df_tables.loc[j, "colorScaleNumericBins"] = "0.25;0.3;0.35;0.4;0.45;0.5;0.55;0.6"
-    df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
     df_tables.loc[j, "colorScaleScheme"] = "Oranges"
     df_tables.loc[j, "survey_type"] = survey_type["table_name"][survey]
     j += 1
@@ -122,7 +126,6 @@ for survey in range(len(survey_type)):
         j, "name"
     ] = f"{survey_type.text[survey].capitalize()} share of the richest 10%"
     df_tables.loc[j, "slug"] = f"decile10_share"
-    df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform (2022)"
     df_tables.loc[j, "description"] = new_line.join(
         [
             f"The {survey_type.text[survey]} of the richest decile (tenth of the population) as a share of total {survey_type.text[survey]}.",
@@ -132,17 +135,11 @@ for survey in range(len(survey_type)):
             processing_description,
         ]
     )
-    df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
-    df_tables.loc[
-        j, "dataPublishedBy"
-    ] = "World Bank Poverty and Inequality Platform (PIP)"
     df_tables.loc[j, "unit"] = "%"
     df_tables.loc[j, "shortUnit"] = "%"
-    df_tables.loc[j, "tolerance"] = 5
     df_tables.loc[j, "type"] = "Numeric"
     df_tables.loc[j, "colorScaleNumericMinValue"] = 100
     df_tables.loc[j, "colorScaleNumericBins"] = "20;25;30;35;40;45;50"
-    df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
     df_tables.loc[j, "colorScaleScheme"] = "OrRd"
     df_tables.loc[j, "survey_type"] = survey_type["table_name"][survey]
     j += 1
@@ -150,7 +147,6 @@ for survey in range(len(survey_type)):
     # Palma ratio
     df_tables.loc[j, "name"] = f"Palma ratio"
     df_tables.loc[j, "slug"] = f"palma_ratio"
-    df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform (2022)"
     df_tables.loc[j, "description"] = new_line.join(
         [
             f"The Palma ratio is a measure of inequality that divides the share received by the richest 10% by the share of the poorest 40%. Higher values indicate higher inequality.",
@@ -160,17 +156,11 @@ for survey in range(len(survey_type)):
             processing_description,
         ]
     )
-    df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
-    df_tables.loc[
-        j, "dataPublishedBy"
-    ] = "World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data."
     df_tables.loc[j, "unit"] = np.nan
     df_tables.loc[j, "shortUnit"] = np.nan
-    df_tables.loc[j, "tolerance"] = 5
     df_tables.loc[j, "type"] = "Numeric"
     df_tables.loc[j, "colorScaleNumericMinValue"] = 0
     df_tables.loc[j, "colorScaleNumericBins"] = "0.5;1;1.5;2;2.5;3;3.5;4;4.5;5;5.5"
-    df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
     df_tables.loc[j, "colorScaleScheme"] = "YlOrBr"
     df_tables.loc[j, "survey_type"] = survey_type["table_name"][survey]
     j += 1
@@ -178,7 +168,6 @@ for survey in range(len(survey_type)):
     # Headcount ratio (rel)
     df_tables.loc[j, "name"] = f"Share in relative poverty"
     df_tables.loc[j, "slug"] = f"headcount_ratio_50_median"
-    df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform (2022)"
     df_tables.loc[j, "description"] = new_line.join(
         [
             f"The share of population with {survey_type.text_ineq[survey]} below 50% of the median. Relative poverty reflects the extent of inequality within the bottom of the distribution.",
@@ -188,17 +177,11 @@ for survey in range(len(survey_type)):
             processing_description,
         ]
     )
-    df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
-    df_tables.loc[
-        j, "dataPublishedBy"
-    ] = "World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data."
     df_tables.loc[j, "unit"] = "%"
     df_tables.loc[j, "shortUnit"] = "%"
-    df_tables.loc[j, "tolerance"] = 5
     df_tables.loc[j, "type"] = "Numeric"
     df_tables.loc[j, "colorScaleNumericMinValue"] = 0
     df_tables.loc[j, "colorScaleNumericBins"] = "3;6;9;12;15;18;21;24;27"
-    df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
     df_tables.loc[j, "colorScaleScheme"] = "YlOrBr"
     df_tables.loc[j, "survey_type"] = survey_type["table_name"][survey]
     j += 1
@@ -206,7 +189,6 @@ for survey in range(len(survey_type)):
     # MLD
     df_tables.loc[j, "name"] = f"Mean Log Deviation"
     df_tables.loc[j, "slug"] = f"mld"
-    df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform (2022)"
     df_tables.loc[j, "description"] = new_line.join(
         [
             f"The mean log deviation (MLD) is a measure of inequality. An MLD of zero indicates perfect equality and it takes on larger positive values as incomes become more unequal. The measure is also referred to as 'Theil L' or 'GE(0)', in reference to the wider families of inequality measures to which the MLD belongs.",
@@ -216,20 +198,20 @@ for survey in range(len(survey_type)):
             processing_description,
         ]
     )
-    df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
-    df_tables.loc[
-        j, "dataPublishedBy"
-    ] = "World Bank Poverty and Inequality Platform (PIP)"
     df_tables.loc[j, "unit"] = np.nan
     df_tables.loc[j, "shortUnit"] = np.nan
-    df_tables.loc[j, "tolerance"] = 5
     df_tables.loc[j, "type"] = "Numeric"
     df_tables.loc[j, "colorScaleNumericMinValue"] = 0
     df_tables.loc[j, "colorScaleNumericBins"] = "0.1;0.2;0.3;0.4;0.5;0.6;0.7;0.8;0.9;1"
-    df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
     df_tables.loc[j, "colorScaleScheme"] = "RdPu"
     df_tables.loc[j, "survey_type"] = survey_type["table_name"][survey]
     j += 1
+
+df_tables["sourceName"] = sourceName
+df_tables["dataPublishedBy"] = dataPublishedBy
+df_tables["sourceLink"] = sourceLink
+df_tables["tolerance"] = tolerance
+df_tables["colorScaleEqualSizeBins"] = colorScaleEqualSizeBins
 
 # Make tolerance integer (to not break the parameter in the platform)
 df_tables["tolerance"] = df_tables["tolerance"].astype("Int64")
@@ -318,11 +300,11 @@ for survey in range(len(survey_type)):
     ] = f"The Gini coefficient measures inequality on a scale from 0 to 1. Higher values indicate higher inequality. Depending on the country and year, the data relates to {survey_type.detailed_text[survey]} per capita."
     df_graphers.loc[j, "note"] = ""
     df_graphers.loc[j, "type"] = np.nan
-    df_graphers.loc[j, "yAxisMin"] = 0
+    df_graphers.loc[j, "yAxisMin"] = yAxisMin
     df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
     df_graphers.loc[j, "hasMapTab"] = "true"
     df_graphers.loc[j, "tab"] = "map"
-    df_graphers.loc[j, "mapTargetTime"] = 2019
+    df_graphers.loc[j, "mapTargetTime"] = mapTargetTime
     df_graphers.loc[j, "survey_type"] = survey_type["table_name"][survey]
     j += 1
 
@@ -343,11 +325,11 @@ for survey in range(len(survey_type)):
         j, "note"
     ] = f"Depending on the country and year, the data relates to {survey_type.detailed_text[survey]} per capita."
     df_graphers.loc[j, "type"] = np.nan
-    df_graphers.loc[j, "yAxisMin"] = 0
+    df_graphers.loc[j, "yAxisMin"] = yAxisMin
     df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
     df_graphers.loc[j, "hasMapTab"] = "true"
     df_graphers.loc[j, "tab"] = "map"
-    df_graphers.loc[j, "mapTargetTime"] = 2019
+    df_graphers.loc[j, "mapTargetTime"] = mapTargetTime
     df_graphers.loc[j, "survey_type"] = survey_type["table_name"][survey]
     j += 1
 
@@ -364,11 +346,11 @@ for survey in range(len(survey_type)):
     ] = f"The Palma ratio is a measure of inequality that divides the share received by the richest 10% by the share of the poorest 40%. Higher values indicate higher inequality. Depending on the country and year, the data relates to {survey_type.detailed_text[survey]} per capita."
     df_graphers.loc[j, "note"] = ""
     df_graphers.loc[j, "type"] = np.nan
-    df_graphers.loc[j, "yAxisMin"] = 0
+    df_graphers.loc[j, "yAxisMin"] = yAxisMin
     df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
     df_graphers.loc[j, "hasMapTab"] = "true"
     df_graphers.loc[j, "tab"] = "map"
-    df_graphers.loc[j, "mapTargetTime"] = 2019
+    df_graphers.loc[j, "mapTargetTime"] = mapTargetTime
     df_graphers.loc[j, "survey_type"] = survey_type["table_name"][survey]
     j += 1
 
@@ -387,11 +369,11 @@ for survey in range(len(survey_type)):
         j, "note"
     ] = f"Depending on the country and year, the data relates to {survey_type.detailed_text[survey]} per capita."
     df_graphers.loc[j, "type"] = np.nan
-    df_graphers.loc[j, "yAxisMin"] = 0
+    df_graphers.loc[j, "yAxisMin"] = yAxisMin
     df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
     df_graphers.loc[j, "hasMapTab"] = "true"
     df_graphers.loc[j, "tab"] = "map"
-    df_graphers.loc[j, "mapTargetTime"] = 2019
+    df_graphers.loc[j, "mapTargetTime"] = mapTargetTime
     df_graphers.loc[j, "survey_type"] = survey_type["table_name"][survey]
     j += 1
 
@@ -410,11 +392,11 @@ for survey in range(len(survey_type)):
         j, "note"
     ] = f"Depending on the country and year, the data relates to {survey_type.detailed_text[survey]} per capita."
     df_graphers.loc[j, "type"] = np.nan
-    df_graphers.loc[j, "yAxisMin"] = 0
+    df_graphers.loc[j, "yAxisMin"] = yAxisMin
     df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
     df_graphers.loc[j, "hasMapTab"] = "true"
     df_graphers.loc[j, "tab"] = "map"
-    df_graphers.loc[j, "mapTargetTime"] = 2019
+    df_graphers.loc[j, "mapTargetTime"] = mapTargetTime
     df_graphers.loc[j, "survey_type"] = survey_type["table_name"][survey]
     j += 1
 

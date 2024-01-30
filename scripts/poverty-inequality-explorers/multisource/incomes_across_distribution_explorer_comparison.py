@@ -10,6 +10,8 @@ import numpy as np
 # %%
 import pandas as pd
 
+from ..common_parameters import *
+
 PARENT_DIR = Path(__file__).parent.parent.parent.parent.absolute()
 outfile = (
     PARENT_DIR / "explorers" / "incomes-across-distribution-comparison.explorer.tsv"
@@ -194,14 +196,14 @@ df_header = df_header[0].apply(pd.Series)
 ###########################################################################################
 # WORLD BANK POVERTY AND INEQUALITY PLATFORM
 ###########################################################################################
-sourceName = "World Bank Poverty and Inequality Platform (2022)"
-dataPublishedBy = "World Bank. (2022). Poverty and Inequality Platform (version 20220909_2017_01_02_PROD) [Data set]. World Bank Group. https://pip.worldbank.org/. Accessed  2022-10-03."
-sourceLink = "https://pip.worldbank.org/"
-colorScaleNumericMinValue = 0
-tolerance = 5
-colorScaleEqualSizeBins = "true"
+sourceName = SOURCE_NAME_PIP
+dataPublishedBy = DATA_PUBLISHED_BY_PIP
+sourceLink = SOURCE_LINK_PIP
+colorScaleNumericMinValue = COLOR_SCALE_NUMERIC_MIN_VALUE
+tolerance = TOLERANCE
+colorScaleEqualSizeBins = COLOR_SCALE_EQUAL_SIZEBINS
 tableSlug = "poverty_inequality"
-new_line = "\\n\\n"
+new_line = NEW_LINE
 
 additional_description = new_line.join(
     [
@@ -1062,8 +1064,8 @@ df_tables["tolerance"] = df_tables["tolerance"].astype("Int64")
 # %%
 # Grapher table generation
 
-yAxisMin = 0
-mapTargetTime = 2019
+yAxisMin = Y_AXIS_MIN
+mapTargetTime = MAP_TARGET_TIME
 selectedFacetStrategy = "entity"
 hasMapTab = "false"
 tab_parameter = "chart"

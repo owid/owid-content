@@ -10,6 +10,8 @@ import numpy as np
 # %%
 import pandas as pd
 
+from ..common_parameters import *
+
 PARENT_DIR = Path(__file__).parent.parent.parent.parent.absolute()
 outfile = PARENT_DIR / "explorers" / "poverty-explorer-2011-vs-2017-ppp.explorer.tsv"
 
@@ -74,7 +76,16 @@ df_header = df_header[0].apply(pd.Series)
 # Variables are grouped by type to iterate by different poverty lines and survey types at the same time. The output is the list of all the variables being used in the explorer, with metadata.
 
 # %%
-new_line = "\\n\\n"
+sourceName = SOURCE_NAME_PIP
+dataPublishedBy = DATA_PUBLISHED_BY_PIP
+sourceLink = SOURCE_LINK_PIP
+colorScaleNumericMinValue = COLOR_SCALE_NUMERIC_MIN_VALUE
+tolerance = TOLERANCE
+colorScaleEqualSizeBins = COLOR_SCALE_EQUAL_SIZEBINS
+new_line = NEW_LINE
+
+yAxisMin = Y_AXIS_MIN
+mapTargetTime = MAP_TARGET_TIME
 
 additional_description = new_line.join(
     [
@@ -107,9 +118,6 @@ for survey in range(len(survey_type)):
         df_tables.loc[
             j, "slug"
         ] = f"headcount_ratio_{povlines_ppp2011.cents[p_2011]}_ppp2011"
-        df_tables.loc[
-            j, "sourceName"
-        ] = "World Bank Poverty and Inequality Platform (2022)"
         df_tables.loc[j, "description"] = new_line.join(
             [
                 f"% of population living in households with an {survey_type.text[survey]} per person below ${povlines_ppp2011.dollars_text[p_2011]} a day (2011 prices).",
@@ -120,17 +128,10 @@ for survey in range(len(survey_type)):
                 processing_description,
             ]
         )
-        df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
-        df_tables.loc[
-            j, "dataPublishedBy"
-        ] = "World Bank Poverty and Inequality Platform (PIP)"
         df_tables.loc[j, "unit"] = "%"
         df_tables.loc[j, "shortUnit"] = "%"
-        df_tables.loc[j, "tolerance"] = 5
         df_tables.loc[j, "type"] = "Numeric"
-        df_tables.loc[j, "colorScaleNumericMinValue"] = 0
         df_tables.loc[j, "colorScaleNumericBins"] = "3;10;20;30;40;50;60;70;80;90;100"
-        df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
         df_tables.loc[j, "colorScaleScheme"] = "OrRd"
         df_tables.loc[j, "survey_type"] = survey_type["table_name"][survey]
         j += 1
@@ -143,9 +144,6 @@ for survey in range(len(survey_type)):
         df_tables.loc[
             j, "slug"
         ] = f"headcount_ratio_{povlines_ppp2017.cents[p_2017]}_ppp2017"
-        df_tables.loc[
-            j, "sourceName"
-        ] = "World Bank Poverty and Inequality Platform (2022)"
         df_tables.loc[j, "description"] = new_line.join(
             [
                 f"% of population living in households with an {survey_type.text[survey]} per person below ${povlines_ppp2017.dollars_text[p_2017]} a day (2017 prices).",
@@ -156,17 +154,10 @@ for survey in range(len(survey_type)):
                 processing_description,
             ]
         )
-        df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
-        df_tables.loc[
-            j, "dataPublishedBy"
-        ] = "World Bank Poverty and Inequality Platform (PIP)"
         df_tables.loc[j, "unit"] = "%"
         df_tables.loc[j, "shortUnit"] = "%"
-        df_tables.loc[j, "tolerance"] = 5
         df_tables.loc[j, "type"] = "Numeric"
-        df_tables.loc[j, "colorScaleNumericMinValue"] = 0
         df_tables.loc[j, "colorScaleNumericBins"] = "3;10;20;30;40;50;60;70;80;90;100"
-        df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
         df_tables.loc[j, "colorScaleScheme"] = "OrRd"
         df_tables.loc[j, "survey_type"] = survey_type["table_name"][survey]
         j += 1
@@ -177,9 +168,6 @@ for survey in range(len(survey_type)):
             j, "name"
         ] = f"Number of people below ${povlines_ppp2011.dollars_text[p_2011]} a day (2011 prices)"
         df_tables.loc[j, "slug"] = f"headcount_{povlines_ppp2011.cents[p_2011]}_ppp2011"
-        df_tables.loc[
-            j, "sourceName"
-        ] = "World Bank Poverty and Inequality Platform (2022)"
         df_tables.loc[j, "description"] = new_line.join(
             [
                 f"Number of people living in households with an {survey_type.text[survey]} per person below ${povlines_ppp2011.dollars_text[p_2011]} a day (2011 prices).",
@@ -190,19 +178,12 @@ for survey in range(len(survey_type)):
                 processing_description,
             ]
         )
-        df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
-        df_tables.loc[
-            j, "dataPublishedBy"
-        ] = "World Bank Poverty and Inequality Platform (PIP)"
         df_tables.loc[j, "unit"] = np.nan
         df_tables.loc[j, "shortUnit"] = np.nan
-        df_tables.loc[j, "tolerance"] = 5
         df_tables.loc[j, "type"] = "Numeric"
-        df_tables.loc[j, "colorScaleNumericMinValue"] = 0
         df_tables.loc[
             j, "colorScaleNumericBins"
         ] = "100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001"
-        df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
         df_tables.loc[j, "colorScaleScheme"] = "Reds"
         df_tables.loc[j, "survey_type"] = survey_type["table_name"][survey]
         j += 1
@@ -213,9 +194,6 @@ for survey in range(len(survey_type)):
             j, "name"
         ] = f"Number of people below ${povlines_ppp2017.dollars_text[p_2017]} a day (2017 prices)"
         df_tables.loc[j, "slug"] = f"headcount_{povlines_ppp2017.cents[p_2017]}_ppp2017"
-        df_tables.loc[
-            j, "sourceName"
-        ] = "World Bank Poverty and Inequality Platform (2022)"
         df_tables.loc[j, "description"] = new_line.join(
             [
                 f"Number of people living in households with an {survey_type.text[survey]} per person below ${povlines_ppp2017.dollars_text[p_2017]} a day (2017 prices).",
@@ -226,19 +204,12 @@ for survey in range(len(survey_type)):
                 processing_description,
             ]
         )
-        df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
-        df_tables.loc[
-            j, "dataPublishedBy"
-        ] = "World Bank Poverty and Inequality Platform (PIP)"
         df_tables.loc[j, "unit"] = np.nan
         df_tables.loc[j, "shortUnit"] = np.nan
-        df_tables.loc[j, "tolerance"] = 5
         df_tables.loc[j, "type"] = "Numeric"
-        df_tables.loc[j, "colorScaleNumericMinValue"] = 0
         df_tables.loc[
             j, "colorScaleNumericBins"
         ] = "100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001"
-        df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
         df_tables.loc[j, "colorScaleScheme"] = "Reds"
         df_tables.loc[j, "survey_type"] = survey_type["table_name"][survey]
         j += 1
@@ -251,9 +222,6 @@ for survey in range(len(survey_type)):
         df_tables.loc[
             j, "slug"
         ] = f"headcount_ratio_{povlines_rel.slug_suffix[pct]}_ppp2011"
-        df_tables.loc[
-            j, "sourceName"
-        ] = "World Bank Poverty and Inequality Platform (2022)"
         df_tables.loc[j, "description"] = new_line.join(
             [
                 f"% of population living in households with an {survey_type.text[survey]} per person below {povlines_rel.percent[pct]} of the median (2011 prices).",
@@ -263,17 +231,10 @@ for survey in range(len(survey_type)):
                 processing_description,
             ]
         )
-        df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
-        df_tables.loc[
-            j, "dataPublishedBy"
-        ] = "World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data."
         df_tables.loc[j, "unit"] = "%"
         df_tables.loc[j, "shortUnit"] = "%"
-        df_tables.loc[j, "tolerance"] = 5
         df_tables.loc[j, "type"] = "Numeric"
-        df_tables.loc[j, "colorScaleNumericMinValue"] = 0
         df_tables.loc[j, "colorScaleNumericBins"] = "5;10;15;20;25;30;30.0001"
-        df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
         df_tables.loc[j, "colorScaleScheme"] = "YlOrBr"
         df_tables.loc[j, "survey_type"] = survey_type["table_name"][survey]
         j += 1
@@ -286,9 +247,6 @@ for survey in range(len(survey_type)):
         df_tables.loc[
             j, "slug"
         ] = f"headcount_ratio_{povlines_rel.slug_suffix[pct]}_ppp2017"
-        df_tables.loc[
-            j, "sourceName"
-        ] = "World Bank Poverty and Inequality Platform (2022)"
         df_tables.loc[j, "description"] = new_line.join(
             [
                 f"% of population living in households with an {survey_type.text[survey]} per person below {povlines_rel.percent[pct]} of the median (2017 prices).",
@@ -298,17 +256,10 @@ for survey in range(len(survey_type)):
                 processing_description,
             ]
         )
-        df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
-        df_tables.loc[
-            j, "dataPublishedBy"
-        ] = "World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data."
         df_tables.loc[j, "unit"] = "%"
         df_tables.loc[j, "shortUnit"] = "%"
-        df_tables.loc[j, "tolerance"] = 5
         df_tables.loc[j, "type"] = "Numeric"
-        df_tables.loc[j, "colorScaleNumericMinValue"] = 0
         df_tables.loc[j, "colorScaleNumericBins"] = "5;10;15;20;25;30;30.0001"
-        df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
         df_tables.loc[j, "colorScaleScheme"] = "YlOrBr"
         df_tables.loc[j, "survey_type"] = survey_type["table_name"][survey]
         j += 1
@@ -319,9 +270,6 @@ for survey in range(len(survey_type)):
             j, "name"
         ] = f"{povlines_rel.percent[pct]} of median - total number of people below poverty line (2011 prices)"
         df_tables.loc[j, "slug"] = f"headcount_{povlines_rel.slug_suffix[pct]}_ppp2011"
-        df_tables.loc[
-            j, "sourceName"
-        ] = "World Bank Poverty and Inequality Platform (2022)"
         df_tables.loc[j, "description"] = new_line.join(
             [
                 f"Number of people living in households with an {survey_type.text[survey]} per person below {povlines_rel.percent[pct]} of the median (2011 prices).",
@@ -331,19 +279,12 @@ for survey in range(len(survey_type)):
                 processing_description,
             ]
         )
-        df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
-        df_tables.loc[
-            j, "dataPublishedBy"
-        ] = "World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data."
         df_tables.loc[j, "unit"] = np.nan
         df_tables.loc[j, "shortUnit"] = np.nan
-        df_tables.loc[j, "tolerance"] = 5
         df_tables.loc[j, "type"] = "Numeric"
-        df_tables.loc[j, "colorScaleNumericMinValue"] = 0
         df_tables.loc[
             j, "colorScaleNumericBins"
         ] = "100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001"
-        df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
         df_tables.loc[j, "colorScaleScheme"] = "YlOrRd"
         df_tables.loc[j, "survey_type"] = survey_type["table_name"][survey]
         j += 1
@@ -354,9 +295,6 @@ for survey in range(len(survey_type)):
             j, "name"
         ] = f"{povlines_rel.percent[pct]} of median - total number of people below poverty line (2017 prices)"
         df_tables.loc[j, "slug"] = f"headcount_{povlines_rel.slug_suffix[pct]}_ppp2017"
-        df_tables.loc[
-            j, "sourceName"
-        ] = "World Bank Poverty and Inequality Platform (2022)"
         df_tables.loc[j, "description"] = new_line.join(
             [
                 f"Number of people living in households with an {survey_type.text[survey]} per person below {povlines_rel.percent[pct]} of the median (2017 prices).",
@@ -366,19 +304,12 @@ for survey in range(len(survey_type)):
                 processing_description,
             ]
         )
-        df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
-        df_tables.loc[
-            j, "dataPublishedBy"
-        ] = "World Bank Poverty and Inequality Platform (PIP), adapted by Our World in Data."
         df_tables.loc[j, "unit"] = np.nan
         df_tables.loc[j, "shortUnit"] = np.nan
-        df_tables.loc[j, "tolerance"] = 5
         df_tables.loc[j, "type"] = "Numeric"
-        df_tables.loc[j, "colorScaleNumericMinValue"] = 0
         df_tables.loc[
             j, "colorScaleNumericBins"
         ] = "100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1000000001"
-        df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
         df_tables.loc[j, "colorScaleScheme"] = "YlOrRd"
         df_tables.loc[j, "survey_type"] = survey_type["table_name"][survey]
         j += 1
@@ -386,7 +317,6 @@ for survey in range(len(survey_type)):
     # Mean (2011)
     df_tables.loc[j, "name"] = f"Mean {survey_type.text[survey]} per day (2011 prices)"
     df_tables.loc[j, "slug"] = "mean_ppp2011"
-    df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform (2022)"
     df_tables.loc[j, "description"] = new_line.join(
         [
             f"The mean level of {survey_type.text[survey]} per day (2011 prices).",
@@ -397,17 +327,10 @@ for survey in range(len(survey_type)):
             processing_description,
         ]
     )
-    df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
-    df_tables.loc[
-        j, "dataPublishedBy"
-    ] = "World Bank Poverty and Inequality Platform (PIP)"
     df_tables.loc[j, "unit"] = "international-$ at 2011 prices"
     df_tables.loc[j, "shortUnit"] = "$"
-    df_tables.loc[j, "tolerance"] = 5
     df_tables.loc[j, "type"] = "Numeric"
-    df_tables.loc[j, "colorScaleNumericMinValue"] = 0
     df_tables.loc[j, "colorScaleNumericBins"] = "1;2;5;10;20;50;50.0001"
-    df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
     df_tables.loc[j, "colorScaleScheme"] = "BuGn"
     df_tables.loc[j, "survey_type"] = survey_type["table_name"][survey]
     j += 1
@@ -415,7 +338,6 @@ for survey in range(len(survey_type)):
     # Mean (2017)
     df_tables.loc[j, "name"] = f"Mean {survey_type.text[survey]} per day (2017 prices)"
     df_tables.loc[j, "slug"] = "mean_ppp2017"
-    df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform (2022)"
     df_tables.loc[j, "description"] = new_line.join(
         [
             f"The mean level of {survey_type.text[survey]} per day (2017 prices).",
@@ -426,17 +348,10 @@ for survey in range(len(survey_type)):
             processing_description,
         ]
     )
-    df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
-    df_tables.loc[
-        j, "dataPublishedBy"
-    ] = "World Bank Poverty and Inequality Platform (PIP)"
     df_tables.loc[j, "unit"] = "international-$ in 2017 prices"
     df_tables.loc[j, "shortUnit"] = "$"
-    df_tables.loc[j, "tolerance"] = 5
     df_tables.loc[j, "type"] = "Numeric"
-    df_tables.loc[j, "colorScaleNumericMinValue"] = 0
     df_tables.loc[j, "colorScaleNumericBins"] = "1;2;5;10;20;50;50.0001"
-    df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
     df_tables.loc[j, "colorScaleScheme"] = "BuGn"
     df_tables.loc[j, "survey_type"] = survey_type["table_name"][survey]
     j += 1
@@ -446,7 +361,6 @@ for survey in range(len(survey_type)):
         j, "name"
     ] = f"Median {survey_type.text[survey]} per day (2011 prices)"
     df_tables.loc[j, "slug"] = "median_ppp2011"
-    df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform (2022)"
     df_tables.loc[j, "description"] = new_line.join(
         [
             f"The level of {survey_type.text[survey]} per day below which half of the population live (2011 prices).",
@@ -457,17 +371,10 @@ for survey in range(len(survey_type)):
             processing_description,
         ]
     )
-    df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
-    df_tables.loc[
-        j, "dataPublishedBy"
-    ] = "World Bank Poverty and Inequality Platform (PIP)"
     df_tables.loc[j, "unit"] = "international-$ at 2011 prices"
     df_tables.loc[j, "shortUnit"] = "$"
-    df_tables.loc[j, "tolerance"] = 5
     df_tables.loc[j, "type"] = "Numeric"
-    df_tables.loc[j, "colorScaleNumericMinValue"] = 0
     df_tables.loc[j, "colorScaleNumericBins"] = "1;2;5;10;20;50;50.0001"
-    df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
     df_tables.loc[j, "colorScaleScheme"] = "BuGn"
     df_tables.loc[j, "survey_type"] = survey_type["table_name"][survey]
     j += 1
@@ -477,7 +384,6 @@ for survey in range(len(survey_type)):
         j, "name"
     ] = f"Median {survey_type.text[survey]} per day (2017 prices)"
     df_tables.loc[j, "slug"] = "median_ppp2017"
-    df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform (2022)"
     df_tables.loc[j, "description"] = new_line.join(
         [
             f"The level of {survey_type.text[survey]} per day below which half of the population live (2017 prices).",
@@ -488,17 +394,10 @@ for survey in range(len(survey_type)):
             processing_description,
         ]
     )
-    df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
-    df_tables.loc[
-        j, "dataPublishedBy"
-    ] = "World Bank Poverty and Inequality Platform (PIP)"
     df_tables.loc[j, "unit"] = "international-$ in 2017 prices"
     df_tables.loc[j, "shortUnit"] = "$"
-    df_tables.loc[j, "tolerance"] = 5
     df_tables.loc[j, "type"] = "Numeric"
-    df_tables.loc[j, "colorScaleNumericMinValue"] = 0
     df_tables.loc[j, "colorScaleNumericBins"] = "1;2;5;10;20;50;50.0001"
-    df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
     df_tables.loc[j, "colorScaleScheme"] = "BuGn"
     df_tables.loc[j, "survey_type"] = survey_type["table_name"][survey]
     j += 1
@@ -506,7 +405,6 @@ for survey in range(len(survey_type)):
     # P10 (2011)
     df_tables.loc[j, "name"] = "P10 (2011 prices)"
     df_tables.loc[j, "slug"] = "decile1_thr_ppp2011"
-    df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform (2022)"
     df_tables.loc[j, "description"] = new_line.join(
         [
             f"The level of {survey_type.text[survey]} per day below which 10% of the population falls (2011 prices).",
@@ -517,17 +415,10 @@ for survey in range(len(survey_type)):
             processing_description,
         ]
     )
-    df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
-    df_tables.loc[
-        j, "dataPublishedBy"
-    ] = "World Bank Poverty and Inequality Platform (PIP)"
     df_tables.loc[j, "unit"] = "international-$ at 2011 prices"
     df_tables.loc[j, "shortUnit"] = "$"
-    df_tables.loc[j, "tolerance"] = 5
     df_tables.loc[j, "type"] = "Numeric"
-    df_tables.loc[j, "colorScaleNumericMinValue"] = 0
     df_tables.loc[j, "colorScaleNumericBins"] = "1;2;5;10;20;20.0001"
-    df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
     df_tables.loc[j, "colorScaleScheme"] = "Greens"
     df_tables.loc[j, "survey_type"] = survey_type["table_name"][survey]
     j += 1
@@ -535,7 +426,6 @@ for survey in range(len(survey_type)):
     # P10 (2017)
     df_tables.loc[j, "name"] = "P10 (2017 prices)"
     df_tables.loc[j, "slug"] = "decile1_thr_ppp2017"
-    df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform (2022)"
     df_tables.loc[j, "description"] = new_line.join(
         [
             f"The level of {survey_type.text[survey]} per day below which 10% of the population falls (2017 prices).",
@@ -546,17 +436,10 @@ for survey in range(len(survey_type)):
             processing_description,
         ]
     )
-    df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
-    df_tables.loc[
-        j, "dataPublishedBy"
-    ] = "World Bank Poverty and Inequality Platform (PIP)"
     df_tables.loc[j, "unit"] = "international-$ in 2017 prices"
     df_tables.loc[j, "shortUnit"] = "$"
-    df_tables.loc[j, "tolerance"] = 5
     df_tables.loc[j, "type"] = "Numeric"
-    df_tables.loc[j, "colorScaleNumericMinValue"] = 0
     df_tables.loc[j, "colorScaleNumericBins"] = "1;2;5;10;20;20.0001"
-    df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
     df_tables.loc[j, "colorScaleScheme"] = "Greens"
     df_tables.loc[j, "survey_type"] = survey_type["table_name"][survey]
     j += 1
@@ -564,7 +447,6 @@ for survey in range(len(survey_type)):
     # P90 (2011)
     df_tables.loc[j, "name"] = "P90 (2011 prices)"
     df_tables.loc[j, "slug"] = "decile9_thr_ppp2011"
-    df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform (2022)"
     df_tables.loc[j, "description"] = new_line.join(
         [
             f"The level of {survey_type.text[survey]} per day below which 90% of the population falls (2011 prices).",
@@ -575,17 +457,10 @@ for survey in range(len(survey_type)):
             processing_description,
         ]
     )
-    df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
-    df_tables.loc[
-        j, "dataPublishedBy"
-    ] = "World Bank Poverty and Inequality Platform (PIP)"
     df_tables.loc[j, "unit"] = "international-$ at 2011 prices"
     df_tables.loc[j, "shortUnit"] = "$"
-    df_tables.loc[j, "tolerance"] = 5
     df_tables.loc[j, "type"] = "Numeric"
-    df_tables.loc[j, "colorScaleNumericMinValue"] = 0
     df_tables.loc[j, "colorScaleNumericBins"] = "5;10;20;50;100;100.0001"
-    df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
     df_tables.loc[j, "colorScaleScheme"] = "Blues"
     df_tables.loc[j, "survey_type"] = survey_type["table_name"][survey]
     j += 1
@@ -593,7 +468,6 @@ for survey in range(len(survey_type)):
     # P90 (2017)
     df_tables.loc[j, "name"] = "P90 (2017 prices)"
     df_tables.loc[j, "slug"] = "decile9_thr_ppp2017"
-    df_tables.loc[j, "sourceName"] = "World Bank Poverty and Inequality Platform (2022)"
     df_tables.loc[j, "description"] = new_line.join(
         [
             f"The level of {survey_type.text[survey]} per day below which 90% of the population falls (2017 prices).",
@@ -604,20 +478,20 @@ for survey in range(len(survey_type)):
             processing_description,
         ]
     )
-    df_tables.loc[j, "sourceLink"] = "https://pip.worldbank.org/"
-    df_tables.loc[
-        j, "dataPublishedBy"
-    ] = "World Bank Poverty and Inequality Platform (PIP)"
     df_tables.loc[j, "unit"] = "international-$ in 2017 prices"
     df_tables.loc[j, "shortUnit"] = "$"
-    df_tables.loc[j, "tolerance"] = 5
     df_tables.loc[j, "type"] = "Numeric"
-    df_tables.loc[j, "colorScaleNumericMinValue"] = 0
     df_tables.loc[j, "colorScaleNumericBins"] = "5;10;20;50;100;100.0001"
-    df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
     df_tables.loc[j, "colorScaleScheme"] = "Blues"
     df_tables.loc[j, "survey_type"] = survey_type["table_name"][survey]
     j += 1
+
+df_tables["sourceName"] = sourceName
+df_tables["dataPublishedBy"] = dataPublishedBy
+df_tables["sourceLink"] = sourceLink
+df_tables["colorScaleNumericMinValue"] = colorScaleNumericMinValue
+df_tables["tolerance"] = tolerance
+df_tables["colorScaleEqualSizeBins"] = colorScaleEqualSizeBins
 
 # Make tolerance integer (to not break the parameter in the platform)
 df_tables["tolerance"] = df_tables["tolerance"].astype("Int64")
@@ -654,11 +528,11 @@ for survey in range(len(survey_type)):
             j, "note"
         ] = f"This data is expressed in international-$ at 2011 prices. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} per capita."
         df_graphers.loc[j, "type"] = np.nan
-        df_graphers.loc[j, "yAxisMin"] = 0
+        df_graphers.loc[j, "yAxisMin"] = yAxisMin
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
         df_graphers.loc[j, "hasMapTab"] = "true"
         df_graphers.loc[j, "tab"] = "map"
-        df_graphers.loc[j, "mapTargetTime"] = 2019
+        df_graphers.loc[j, "mapTargetTime"] = mapTargetTime
         df_graphers.loc[j, "survey_type"] = survey_type["table_name"][survey]
         j += 1
 
@@ -682,11 +556,11 @@ for survey in range(len(survey_type)):
             j, "note"
         ] = f"This data is expressed in international-$ at 2017 prices. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} per capita."
         df_graphers.loc[j, "type"] = np.nan
-        df_graphers.loc[j, "yAxisMin"] = 0
+        df_graphers.loc[j, "yAxisMin"] = yAxisMin
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
         df_graphers.loc[j, "hasMapTab"] = "true"
         df_graphers.loc[j, "tab"] = "map"
-        df_graphers.loc[j, "mapTargetTime"] = 2019
+        df_graphers.loc[j, "mapTargetTime"] = mapTargetTime
         df_graphers.loc[j, "survey_type"] = survey_type["table_name"][survey]
         j += 1
 
@@ -710,11 +584,11 @@ for survey in range(len(survey_type)):
             j, "note"
         ] = f"This data is expressed in international-$ at 2011 prices. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} per capita."
         df_graphers.loc[j, "type"] = np.nan
-        df_graphers.loc[j, "yAxisMin"] = 0
+        df_graphers.loc[j, "yAxisMin"] = yAxisMin
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
         df_graphers.loc[j, "hasMapTab"] = "true"
         df_graphers.loc[j, "tab"] = "map"
-        df_graphers.loc[j, "mapTargetTime"] = 2019
+        df_graphers.loc[j, "mapTargetTime"] = mapTargetTime
         df_graphers.loc[j, "survey_type"] = survey_type["table_name"][survey]
         j += 1
 
@@ -738,11 +612,11 @@ for survey in range(len(survey_type)):
             j, "note"
         ] = f"This data is expressed in international-$ at 2017 prices. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} per capita."
         df_graphers.loc[j, "type"] = np.nan
-        df_graphers.loc[j, "yAxisMin"] = 0
+        df_graphers.loc[j, "yAxisMin"] = yAxisMin
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
         df_graphers.loc[j, "hasMapTab"] = "true"
         df_graphers.loc[j, "tab"] = "map"
-        df_graphers.loc[j, "mapTargetTime"] = 2019
+        df_graphers.loc[j, "mapTargetTime"] = mapTargetTime
         df_graphers.loc[j, "survey_type"] = survey_type["table_name"][survey]
         j += 1
 
@@ -766,7 +640,7 @@ for survey in range(len(survey_type)):
             j, "note"
         ] = f"Depending on the country and year, the data relates to {survey_type.detailed_text[survey]} per capita."
         df_graphers.loc[j, "type"] = np.nan
-        df_graphers.loc[j, "yAxisMin"] = 0
+        df_graphers.loc[j, "yAxisMin"] = yAxisMin
         df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
         df_graphers.loc[j, "hasMapTab"] = np.nan
         df_graphers.loc[j, "tab"] = np.nan
@@ -794,7 +668,7 @@ for survey in range(len(survey_type)):
             j, "note"
         ] = f"Depending on the country and year, the data relates to {survey_type.detailed_text[survey]} per capita."
         df_graphers.loc[j, "type"] = np.nan
-        df_graphers.loc[j, "yAxisMin"] = 0
+        df_graphers.loc[j, "yAxisMin"] = yAxisMin
         df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
         df_graphers.loc[j, "hasMapTab"] = np.nan
         df_graphers.loc[j, "tab"] = np.nan
@@ -822,11 +696,11 @@ for survey in range(len(survey_type)):
             j, "note"
         ] = f"Depending on the country and year, the data relates to {survey_type.detailed_text[survey]} per capita."
         df_graphers.loc[j, "type"] = np.nan
-        df_graphers.loc[j, "yAxisMin"] = 0
+        df_graphers.loc[j, "yAxisMin"] = yAxisMin
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
         df_graphers.loc[j, "hasMapTab"] = "true"
         df_graphers.loc[j, "tab"] = "map"
-        df_graphers.loc[j, "mapTargetTime"] = 2019
+        df_graphers.loc[j, "mapTargetTime"] = mapTargetTime
         df_graphers.loc[j, "survey_type"] = survey_type["table_name"][survey]
         j += 1
 
@@ -850,11 +724,11 @@ for survey in range(len(survey_type)):
             j, "note"
         ] = f"Depending on the country and year, the data relates to {survey_type.detailed_text[survey]} per capita."
         df_graphers.loc[j, "type"] = np.nan
-        df_graphers.loc[j, "yAxisMin"] = 0
+        df_graphers.loc[j, "yAxisMin"] = yAxisMin
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
         df_graphers.loc[j, "hasMapTab"] = "true"
         df_graphers.loc[j, "tab"] = "map"
-        df_graphers.loc[j, "mapTargetTime"] = 2019
+        df_graphers.loc[j, "mapTargetTime"] = mapTargetTime
         df_graphers.loc[j, "survey_type"] = survey_type["table_name"][survey]
         j += 1
 
@@ -878,11 +752,11 @@ for survey in range(len(survey_type)):
             j, "note"
         ] = f"Depending on the country and year, the data relates to {survey_type.detailed_text[survey]} per capita."
         df_graphers.loc[j, "type"] = np.nan
-        df_graphers.loc[j, "yAxisMin"] = 0
+        df_graphers.loc[j, "yAxisMin"] = yAxisMin
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
         df_graphers.loc[j, "hasMapTab"] = "true"
         df_graphers.loc[j, "tab"] = "map"
-        df_graphers.loc[j, "mapTargetTime"] = 2019
+        df_graphers.loc[j, "mapTargetTime"] = mapTargetTime
         df_graphers.loc[j, "survey_type"] = survey_type["table_name"][survey]
         j += 1
 
@@ -906,11 +780,11 @@ for survey in range(len(survey_type)):
             j, "note"
         ] = f"Depending on the country and year, the data relates to {survey_type.detailed_text[survey]} per capita."
         df_graphers.loc[j, "type"] = np.nan
-        df_graphers.loc[j, "yAxisMin"] = 0
+        df_graphers.loc[j, "yAxisMin"] = yAxisMin
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
         df_graphers.loc[j, "hasMapTab"] = "true"
         df_graphers.loc[j, "tab"] = "map"
-        df_graphers.loc[j, "mapTargetTime"] = 2019
+        df_graphers.loc[j, "mapTargetTime"] = mapTargetTime
         df_graphers.loc[j, "survey_type"] = survey_type["table_name"][survey]
         j += 1
 
@@ -935,7 +809,7 @@ for survey in range(len(survey_type)):
         j, "note"
     ] = f"Depending on the country and year, the data relates to {survey_type.detailed_text[survey]} per capita."
     df_graphers.loc[j, "type"] = np.nan
-    df_graphers.loc[j, "yAxisMin"] = 0
+    df_graphers.loc[j, "yAxisMin"] = yAxisMin
     df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
     df_graphers.loc[j, "hasMapTab"] = np.nan
     df_graphers.loc[j, "tab"] = np.nan
@@ -964,7 +838,7 @@ for survey in range(len(survey_type)):
         j, "note"
     ] = f"Depending on the country and year, the data relates to {survey_type.detailed_text[survey]} per capita."
     df_graphers.loc[j, "type"] = np.nan
-    df_graphers.loc[j, "yAxisMin"] = 0
+    df_graphers.loc[j, "yAxisMin"] = yAxisMin
     df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
     df_graphers.loc[j, "hasMapTab"] = np.nan
     df_graphers.loc[j, "tab"] = np.nan
@@ -991,11 +865,11 @@ for survey in range(len(survey_type)):
         j, "note"
     ] = f"This data is expressed in international-$ at 2011 prices. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} per capita."
     df_graphers.loc[j, "type"] = np.nan
-    df_graphers.loc[j, "yAxisMin"] = 0
+    df_graphers.loc[j, "yAxisMin"] = yAxisMin
     df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
     df_graphers.loc[j, "hasMapTab"] = "true"
     df_graphers.loc[j, "tab"] = "map"
-    df_graphers.loc[j, "mapTargetTime"] = 2019
+    df_graphers.loc[j, "mapTargetTime"] = mapTargetTime
     df_graphers.loc[j, "yScaleToggle"] = "true"
     df_graphers.loc[j, "survey_type"] = survey_type["table_name"][survey]
     j += 1
@@ -1019,11 +893,11 @@ for survey in range(len(survey_type)):
         j, "note"
     ] = f"This data is expressed in international-$ at 2017 prices. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} per capita."
     df_graphers.loc[j, "type"] = np.nan
-    df_graphers.loc[j, "yAxisMin"] = 0
+    df_graphers.loc[j, "yAxisMin"] = yAxisMin
     df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
     df_graphers.loc[j, "hasMapTab"] = "true"
     df_graphers.loc[j, "tab"] = "map"
-    df_graphers.loc[j, "mapTargetTime"] = 2019
+    df_graphers.loc[j, "mapTargetTime"] = mapTargetTime
     df_graphers.loc[j, "yScaleToggle"] = "true"
     df_graphers.loc[j, "survey_type"] = survey_type["table_name"][survey]
     j += 1
@@ -1047,7 +921,7 @@ for survey in range(len(survey_type)):
         j, "note"
     ] = f"Depending on the country and year, the data relates to {survey_type.detailed_text[survey]} per capita."
     df_graphers.loc[j, "type"] = np.nan
-    df_graphers.loc[j, "yAxisMin"] = 0
+    df_graphers.loc[j, "yAxisMin"] = yAxisMin
     df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
     df_graphers.loc[j, "hasMapTab"] = np.nan
     df_graphers.loc[j, "tab"] = np.nan
@@ -1075,11 +949,11 @@ for survey in range(len(survey_type)):
         j, "note"
     ] = f"This data is expressed in international-$ at 2011 prices. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} per capita."
     df_graphers.loc[j, "type"] = np.nan
-    df_graphers.loc[j, "yAxisMin"] = 0
+    df_graphers.loc[j, "yAxisMin"] = yAxisMin
     df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
     df_graphers.loc[j, "hasMapTab"] = "true"
     df_graphers.loc[j, "tab"] = "map"
-    df_graphers.loc[j, "mapTargetTime"] = 2019
+    df_graphers.loc[j, "mapTargetTime"] = mapTargetTime
     df_graphers.loc[j, "yScaleToggle"] = "true"
     df_graphers.loc[j, "survey_type"] = survey_type["table_name"][survey]
     j += 1
@@ -1103,11 +977,11 @@ for survey in range(len(survey_type)):
         j, "note"
     ] = f"This data is expressed in international-$ at 2017 prices. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} per capita."
     df_graphers.loc[j, "type"] = np.nan
-    df_graphers.loc[j, "yAxisMin"] = 0
+    df_graphers.loc[j, "yAxisMin"] = yAxisMin
     df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
     df_graphers.loc[j, "hasMapTab"] = "true"
     df_graphers.loc[j, "tab"] = "map"
-    df_graphers.loc[j, "mapTargetTime"] = 2019
+    df_graphers.loc[j, "mapTargetTime"] = mapTargetTime
     df_graphers.loc[j, "yScaleToggle"] = "true"
     df_graphers.loc[j, "survey_type"] = survey_type["table_name"][survey]
     j += 1
@@ -1131,7 +1005,7 @@ for survey in range(len(survey_type)):
         j, "note"
     ] = f"Depending on the country and year, the data relates to {survey_type.detailed_text[survey]} per capita."
     df_graphers.loc[j, "type"] = np.nan
-    df_graphers.loc[j, "yAxisMin"] = 0
+    df_graphers.loc[j, "yAxisMin"] = yAxisMin
     df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
     df_graphers.loc[j, "hasMapTab"] = np.nan
     df_graphers.loc[j, "tab"] = np.nan
@@ -1159,11 +1033,11 @@ for survey in range(len(survey_type)):
         j, "note"
     ] = f"This data is measured in international-$ at 2011 prices to account for inflation and differences in the cost of living between countries. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} per capita."
     df_graphers.loc[j, "type"] = np.nan
-    df_graphers.loc[j, "yAxisMin"] = 0
+    df_graphers.loc[j, "yAxisMin"] = yAxisMin
     df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
     df_graphers.loc[j, "hasMapTab"] = "true"
     df_graphers.loc[j, "tab"] = "map"
-    df_graphers.loc[j, "mapTargetTime"] = 2019
+    df_graphers.loc[j, "mapTargetTime"] = mapTargetTime
     df_graphers.loc[j, "yScaleToggle"] = "true"
     df_graphers.loc[j, "survey_type"] = survey_type["table_name"][survey]
     j += 1
@@ -1187,11 +1061,11 @@ for survey in range(len(survey_type)):
         j, "note"
     ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} per capita."
     df_graphers.loc[j, "type"] = np.nan
-    df_graphers.loc[j, "yAxisMin"] = 0
+    df_graphers.loc[j, "yAxisMin"] = yAxisMin
     df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
     df_graphers.loc[j, "hasMapTab"] = "true"
     df_graphers.loc[j, "tab"] = "map"
-    df_graphers.loc[j, "mapTargetTime"] = 2019
+    df_graphers.loc[j, "mapTargetTime"] = mapTargetTime
     df_graphers.loc[j, "yScaleToggle"] = "true"
     df_graphers.loc[j, "survey_type"] = survey_type["table_name"][survey]
     j += 1
@@ -1215,7 +1089,7 @@ for survey in range(len(survey_type)):
         j, "note"
     ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} per capita."
     df_graphers.loc[j, "type"] = np.nan
-    df_graphers.loc[j, "yAxisMin"] = 0
+    df_graphers.loc[j, "yAxisMin"] = yAxisMin
     df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
     df_graphers.loc[j, "hasMapTab"] = np.nan
     df_graphers.loc[j, "tab"] = np.nan
@@ -1243,11 +1117,11 @@ for survey in range(len(survey_type)):
         j, "note"
     ] = f"This data is measured in international-$ at 2011 prices to account for inflation and differences in the cost of living between countries. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} per capita."
     df_graphers.loc[j, "type"] = np.nan
-    df_graphers.loc[j, "yAxisMin"] = 0
+    df_graphers.loc[j, "yAxisMin"] = yAxisMin
     df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
     df_graphers.loc[j, "hasMapTab"] = "true"
     df_graphers.loc[j, "tab"] = "map"
-    df_graphers.loc[j, "mapTargetTime"] = 2019
+    df_graphers.loc[j, "mapTargetTime"] = mapTargetTime
     df_graphers.loc[j, "yScaleToggle"] = "true"
     df_graphers.loc[j, "survey_type"] = survey_type["table_name"][survey]
     j += 1
@@ -1271,11 +1145,11 @@ for survey in range(len(survey_type)):
         j, "note"
     ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} per capita."
     df_graphers.loc[j, "type"] = np.nan
-    df_graphers.loc[j, "yAxisMin"] = 0
+    df_graphers.loc[j, "yAxisMin"] = yAxisMin
     df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
     df_graphers.loc[j, "hasMapTab"] = "true"
     df_graphers.loc[j, "tab"] = "map"
-    df_graphers.loc[j, "mapTargetTime"] = 2019
+    df_graphers.loc[j, "mapTargetTime"] = mapTargetTime
     df_graphers.loc[j, "yScaleToggle"] = "true"
     df_graphers.loc[j, "survey_type"] = survey_type["table_name"][survey]
     j += 1
@@ -1299,7 +1173,7 @@ for survey in range(len(survey_type)):
         j, "note"
     ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} per capita."
     df_graphers.loc[j, "type"] = np.nan
-    df_graphers.loc[j, "yAxisMin"] = 0
+    df_graphers.loc[j, "yAxisMin"] = yAxisMin
     df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
     df_graphers.loc[j, "hasMapTab"] = np.nan
     df_graphers.loc[j, "tab"] = np.nan
