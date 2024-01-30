@@ -1058,11 +1058,26 @@ df_graphers["Show breaks between less comparable surveys Checkbox"] = "false"
 df_graphers_spells = pd.DataFrame()
 j = 0
 
+# Create ySlugs dynamically
+c_spell_list = []
+i_spell_list = []
+for c_spell in range(1, CONSUMPTION_SPELLS_PIP+1):
+    c_spell_list.append(f"consumption_spell_{c_spell}")
+
+for i_spell in range(1, INCOME_SPELLS_PIP+1):
+    i_spell_list.append(f"income_spell_{i_spell}")
+
+# Merge the items in the list, separated by a space
+spell_list = c_spell_list + i_spell_list
+
+ySlugs_spells = " ".join(spell_list)
+ySlugs_spells_year = " ".join([x + "_year" for x in spell_list])
+
 for i in range(len(df_graphers)):
     df_graphers_spells.loc[j, "title"] = df_graphers["title"][i]
     df_graphers_spells.loc[
         j, "ySlugs"
-    ] = "consumption_spell_1 consumption_spell_2 consumption_spell_3 consumption_spell_4 consumption_spell_5 consumption_spell_6 income_spell_1 income_spell_2 income_spell_3 income_spell_4 income_spell_5 income_spell_6 income_spell_7"
+    ] = ySlugs_spells
     df_graphers_spells.loc[j, "Indicator Dropdown"] = df_graphers["Indicator Dropdown"][
         i
     ]
@@ -1104,7 +1119,7 @@ df_graphers_spells = df_graphers_spells[
 # Add suffix to ySlugs
 df_graphers_spells.loc[
     df_graphers_spells["tableSlug"].str.contains("_year"), ["ySlugs"]
-] = "consumption_spell_1_year consumption_spell_2_year consumption_spell_3_year consumption_spell_4_year consumption_spell_5_year consumption_spell_6_year income_spell_1_year income_spell_2_year income_spell_3_year income_spell_4_year income_spell_5_year income_spell_6_year income_spell_7_year"
+] = ySlugs_spells_year
 
 # Remove suffix from tableSlug
 df_graphers_spells["tableSlug"] = df_graphers_spells["tableSlug"].str.removesuffix(
