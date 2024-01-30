@@ -346,7 +346,7 @@ df_spells = pd.DataFrame()
 j = 0
 
 for i in range(len(df_tables)):
-    for c_spell in range(1, 7):
+    for c_spell in range(1, CONSUMPTION_SPELLS_PIP+1):
         df_spells.loc[j, "master_var"] = df_tables.slug[i]
         df_spells.loc[j, "name"] = "Consumption surveys"
         df_spells.loc[j, "slug"] = f"consumption_spell_{c_spell}"
@@ -369,7 +369,7 @@ for i in range(len(df_tables)):
         df_spells.loc[j, "survey_type"] = df_tables.survey_type[i]
         j += 1
 
-    for i_spell in range(1, 8):
+    for i_spell in range(1, INCOME_SPELLS_PIP+1):
         df_spells.loc[j, "master_var"] = df_tables.slug[i]
         df_spells.loc[j, "name"] = "Income surveys"
         df_spells.loc[j, "slug"] = f"income_spell_{i_spell}"
