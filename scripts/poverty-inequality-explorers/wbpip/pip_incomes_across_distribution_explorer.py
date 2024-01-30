@@ -106,6 +106,20 @@ df_tables = pd.DataFrame()
 j = 0
 
 for survey in range(len(survey_type)):
+    # Define country as entityName
+    df_tables.loc[j, "name"] = "Country"
+    df_tables.loc[j, "slug"] = "country"
+    df_tables.loc[j, "type"] = "EntityName"
+    df_tables.loc[j, "survey_type"] = survey_type["table_name"][survey]
+    j += 1
+
+    # Define year as Year
+    df_tables.loc[j, "name"] = "Year"
+    df_tables.loc[j, "slug"] = "year"
+    df_tables.loc[j, "type"] = "Year"
+    df_tables.loc[j, "survey_type"] = survey_type["table_name"][survey]
+    j += 1
+
     # Raw variables to not break aggregations
     # mean
     df_tables.loc[j, "name"] = f"Mean {survey_type.text[survey]} per day"
