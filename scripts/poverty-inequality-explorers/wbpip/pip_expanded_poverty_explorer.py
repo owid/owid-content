@@ -481,7 +481,23 @@ df_tables["tolerance"] = df_tables["tolerance"].astype("Int64")
 df_spells = pd.DataFrame()
 j = 0
 
-for i in range(len(df_tables)):
+# It starts in 3 because the first two rows are country and year
+for i in range(3, len(df_tables)):
+    # Define country as entityName
+    df_spells.loc[j, "master_var"] = df_tables.slug[i]
+    df_spells.loc[j, "name"] = "Country"
+    df_spells.loc[j, "slug"] = "country"
+    df_spells.loc[j, "type"] = "EntityName"
+    df_spells.loc[j, "survey_type"] = df_tables.survey_type[i]
+    j += 1
+
+    # Define year as Year
+    df_spells.loc[j, "master_var"] = df_tables.slug[i]
+    df_spells.loc[j, "name"] = "Year"
+    df_spells.loc[j, "slug"] = "year"
+    df_spells.loc[j, "type"] = "Year"
+    df_spells.loc[j, "survey_type"] = df_tables.survey_type[i]
+    j += 1
     for c_spell in range(1, CONSUMPTION_SPELLS_PIP+1):
         df_spells.loc[j, "master_var"] = df_tables.slug[i]
         df_spells.loc[j, "name"] = "Consumption surveys"
