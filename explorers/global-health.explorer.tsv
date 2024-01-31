@@ -4,10 +4,11 @@ thumbnail	https://owid.cloud/app/uploads/2022/10/Global-Health-Explorer.png
 wpBlockId	54262
 selection	World	China	South Africa	Brazil	United States	United Kingdom	India	Rwanda
 graphers
-	grapherId	Health Area Dropdown	Indicator Dropdown	Metric Dropdown	Source Dropdown
+	grapherId	Health Area Dropdown	Indicator Dropdown	Metric Dropdown	Source Dropdown	selectedFacetStrategy
 	712	Child health	Child mortality	Rate	UN IGME
 	952	Child health	Child mortality	Rate	UN WPP
 	677	Child health	Child mortality	Rate	IHME
+	2562	Child health	Child mortality	Rate	OWID (spliced)
 	6209	Child health	Child mortality	Number of deaths	UN IGME
 	6004	Child health	Child mortality	Number of deaths	UN WPP
 	3772	Child health	Child mortality	Number of deaths	IHME
@@ -33,19 +34,21 @@ graphers
 	790	Child health	Children underweight	Share of children	UNICEF/WHO
 	6083	Child health	Children underweight	Number of children	UNICEF/WHO
 	3874	Child health	Exclusive breastfeeding rate	Share of infants	UNICEF
-	4829	Maternal health	Maternal mortality	Rate	WHO (GHO)
-	3482	Maternal health	Maternal mortality	Rate	IHME
-	660	Maternal health	Maternal mortality	Rate	OWID (spliced)
+	4829	Maternal health	Maternal mortality	Rate per 100,000 live births	WHO (GHO)
+	3482	Maternal health	Maternal mortality	Rate per 100,000 live births	IHME
+	660	Maternal health	Maternal mortality	Rate per 100,000 live births	OWID (spliced)
+	7407	Maternal health	Maternal mortality	Rate per 100,000 population	IHME
+	7403	Maternal health	Maternal mortality	Rate per 100,000 population	WHO (MD)
 	762	Maternal health	Maternal mortality	Number of deaths	World Bank
 	4578	Maternal health	Maternal mortality	Number of deaths	IHME
 	3595	Maternal health	Lifetime risk of maternal death	Rate	WHO (GHO)
 	3872	Maternal health	Antenatal visits — 1+ visits	Rate	WHO (GHO)
 	3873	Maternal health	Antenatal visits — 4+ visits	Rate	WHO (GHO)
+	1596	Maternal health	Skilled attendant at delivery	Share of births	UNICEF
 	4542	Maternal health	Postnatal health check	Rate	World Bank
 	2285	Maternal health	HIV+ pregnant women receiving ARTs	Rate	UNAIDS
 	1375	Maternal health	Access to modern contraceptives	Rate	World Bank
 	1372	Maternal health	Prevalence of modern contraceptives	Rate	World Bank
-	1596	Maternal health	Skilled attendant at delivery	Share of births	UNICEF
 	6027	Deaths and DALYs	Total deaths	Number of deaths	UN WPP
 	6067	Deaths and DALYs	Total deaths	Number of deaths	WHO (GHE)
 	6099	Deaths and DALYs	Total deaths	Number of deaths	IHME
@@ -62,7 +65,8 @@ graphers
 	64	Life expectancy	Life expectancy at birth	Years	OWID (spliced)
 	6262	Life expectancy	Life expectancy at birth	Years	UN WPP
 	4830	Life expectancy	Life expectancy at birth	Years	WHO (GHO)
-	126	Life expectancy	Life expectancy at age 15	Years	UN
+	2928	Life expectancy	Life expectancy by sex	Years	HMD; UN WPP	entity
+	7287	Life expectancy	Life expectancy by age	Years	HMD; UN WPP	entity
 	6026	Life expectancy	Healthy life expectancy	Years	WHO (GHO)
 	471	Vaccination coverage	Diphtheria, pertussis, and tetanus	Share of one-year-olds vaccinated	UNICEF/WHO
 	4563	Vaccination coverage	Diphtheria, pertussis, and tetanus	Number of one-year-olds not vaccinated	UNICEF/WHO
@@ -77,10 +81,10 @@ graphers
 	4567	Vaccination coverage	Polio (inactivated, first dose)	Number of one-year-olds not vaccinated	UNICEF/WHO
 	1068	Vaccination coverage	Polio (third dose)	Share of one-year-olds vaccinated	UNICEF/WHO
 	4569	Vaccination coverage	Polio (third dose)	Number of one-year-olds not vaccinated	UNICEF/WHO
-	4573	Vaccination coverage	Rubella	Share of one-year-olds vaccinated	UNICEF/WHO
-	4574	Vaccination coverage	Rubella	Number of one-year-olds not vaccinated	UNICEF/WHO
 	3553	Vaccination coverage	Rotavirus	Share of one-year-olds vaccinated	UNICEF/WHO
 	4571	Vaccination coverage	Rotavirus	Number of one-year-olds not vaccinated	UNICEF/WHO
+	4573	Vaccination coverage	Rubella	Share of one-year-olds vaccinated	UNICEF/WHO
+	4574	Vaccination coverage	Rubella	Number of one-year-olds not vaccinated	UNICEF/WHO
 	3594	Vaccination coverage	Streptococcus pneumoniae	Share of one-year-olds vaccinated	UNICEF/WHO
 	4572	Vaccination coverage	Streptococcus pneumoniae	Number of one-year-olds not vaccinated	UNICEF/WHO
 	1547	Vaccination coverage	Tuberculosis (BCG)	Share of one-year-olds vaccinated	UNICEF/WHO
@@ -133,6 +137,7 @@ graphers
 	6144	Infectious diseases	Respiratory infections	Age-standardized death rate	IHME
 	6145	Infectious diseases	Respiratory infections	Number of deaths	IHME
 	6146	Infectious diseases	Respiratory infections	Death rate	IHME
+	7070	Infectious diseases	Respiratory infections	Age-standardized death rate	WHO (MD)
 	1831	Infectious diseases	Tuberculosis	Age-standardized death rate	IHME
 	3674	Infectious diseases	Tuberculosis	Death rate	WHO (GHO)
 	3613	Infectious diseases	Tuberculosis	Number of deaths	IHME
@@ -206,23 +211,28 @@ graphers
 	6204	Non-communicable diseases	Cancer	Number of deaths	WHO (GHE)
 	6205	Non-communicable diseases	Cancer	Death rate	WHO (GHE)
 	6206	Non-communicable diseases	Cancer	Death rate	IHME
-	1755	Non-communicable diseases	Cardiovascular disease	Age-standardized death rate	IHME
-	6087	Non-communicable diseases	Cardiovascular disease	Death rate	IHME
-	6088	Non-communicable diseases	Cardiovascular disease	Number of deaths	IHME
-	6166	Non-communicable diseases	Cardiovascular disease	Number of deaths	WHO (GHE)
-	6167	Non-communicable diseases	Cardiovascular disease	Death rate	WHO (GHE)
-	1752	Non-communicable diseases	Chronic respiratory disease	Age-standardized death rate	IHME
-	6089	Non-communicable diseases	Chronic respiratory disease	Death rate	IHME
-	6090	Non-communicable diseases	Chronic respiratory disease	Number of deaths	IHME
+	7067	Non-communicable diseases	Cancer	Age-standardized death rate	WHO (MD)
+	1755	Non-communicable diseases	Cardiovascular diseases	Age-standardized death rate	IHME
+	6087	Non-communicable diseases	Cardiovascular diseases	Death rate	IHME
+	6088	Non-communicable diseases	Cardiovascular diseases	Number of deaths	IHME
+	6166	Non-communicable diseases	Cardiovascular diseases	Number of deaths	WHO (GHE)
+	6167	Non-communicable diseases	Cardiovascular diseases	Death rate	WHO (GHE)
+	7068	Non-communicable diseases	Cardiovascular diseases	Age-standardized death rate	WHO (MD)
+	1752	Non-communicable diseases	Chronic respiratory diseases	Age-standardized death rate	IHME
+	6089	Non-communicable diseases	Chronic respiratory diseases	Death rate	IHME
+	6090	Non-communicable diseases	Chronic respiratory diseases	Number of deaths	IHME
+	7393	Non-communicable diseases	Chronic respiratory diseases	Age-standardized death rate	WHO (MD)
 	1572	Non-communicable diseases	Diabetes	Prevalence rate	International Diabetes Federation
 	6081	Non-communicable diseases	Diabetes	Age-standardized death rate	IHME
 	6092	Non-communicable diseases	Diabetes	Number of deaths	IHME
 	6103	Non-communicable diseases	Diabetes	Death rate	IHME
 	6170	Non-communicable diseases	Diabetes	Number of deaths	WHO (GHE)
 	6171	Non-communicable diseases	Diabetes	Death rate	WHO (GHE)
+	7391	Non-communicable diseases	Diabetes	Age-standardized death rate	WHO (MD)
 	6159	Non-communicable diseases	Digestive diseases	Age-standardized death rate	IHME
 	6150	Non-communicable diseases	Digestive diseases	Number of deaths	IHME
 	6160	Non-communicable diseases	Digestive diseases	Death rate	IHME
+	7401	Non-communicable diseases	Digestive diseases	Age-standardized death rate	WHO (MD)
 	2156	Non-communicable diseases	Drug use disorders	Age-standardized death rate	IHME
 	2155	Non-communicable diseases	Drug use disorders	Number of deaths	IHME
 	6115	Non-communicable diseases	Drug use disorders	Death rate	IHME
@@ -247,6 +257,26 @@ graphers
 	6158	Non-communicable diseases	Stroke	Number of deaths	IHME
 	6168	Non-communicable diseases	Stroke	Number of deaths	WHO (GHE)
 	6169	Non-communicable diseases	Stroke	Death rate	WHO (GHE)
+	7341	Neglected tropical diseases	Buruli ulcer	Endemicity	WHO
+	7205	Neglected tropical diseases	Dengue fever	Deaths	WHO (GHE)
+	5018	Neglected tropical diseases	Dengue fever	Incidence	IHME
+	5838	Neglected tropical diseases	Guinea worm disease	Endemicity	WHO
+	2064	Neglected tropical diseases	Guinea worm disease	Reported cases	WHO
+	7358	Neglected tropical diseases	Leishmaniasis (cutaneous)	Endemicity	WHO
+	7361	Neglected tropical diseases	Leishmaniasis (visceral)	Endemicity	WHO
+	7342	Neglected tropical diseases	Leprosy	Reported cases	WHO
+	3795	Neglected tropical diseases	Lymphatic filiarisis	Prevalence	IHME
+	3814	Neglected tropical diseases	Onchocerciasis	Prevalence rate	IHME
+	7372	Neglected tropical diseases	Onchocerciasis	Endemicity	WHO
+	7348	Neglected tropical diseases	Rabies	Reported deaths	WHO
+	7411	Neglected tropical diseases	Snakebite envenoming	Deaths	IHME
+	7387	Neglected tropical diseases	Snakebite envenoming	Age-standardized death rate	IHME
+	3340	Neglected tropical diseases	Trachoma	Prevalence rate	IHME
+	7382	Neglected tropical diseases	Trachoma	Elimination status	WHO
+	7376	Neglected tropical diseases	Trypanosomiasis, human African (acute)	Reported cases	WHO
+	7375	Neglected tropical diseases	Trypanosomiasis, human African (chronic)	Reported cases	WHO
+	5980	Neglected tropical diseases	Yaws	Endemicity	WHO
+	5981	Neglected tropical diseases	Yaws	Reported cases	WHO
 	489	Risk factors	Air pollution	Age-standardized death rate	IHME
 	3756	Risk factors	Air pollution	Number of deaths	IHME
 	3764	Risk factors	Alcohol use	Age-standardized death rate	IHME
@@ -300,4 +330,4 @@ graphers
 	210	Health systems	Out-of-pocket expenditure on health	% of total healthcare expenditure	WHO (GHO)
 	4543	Health systems	Healthcare access and quality	Index	IHME
 	4544	Health systems	Healthcare access and quality	Index	WHO (GHO)
-	5238	Health systems	Universal health coverage index	Index	WHO
+	5238	Health systems	Universal health coverage index	Index	WHO (GHO)
