@@ -1,7 +1,7 @@
-explorerTitle	Fossil Fuels Data Explorer
+explorerTitle	Fossil Fuels
+explorerSubtitle	Explore reserves, production, trade and consumption of fossil fuels across the world
 isPublished	true
 selection	United States	Russia	Norway	United Kingdom	Germany	Sweden	China
-explorerSubtitle	Explore reserves, production, trade and consumption of fossil fuels across the world
 hideAlertBanner	true
 subNavId
 subNavCurrentId

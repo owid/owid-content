@@ -1,6 +1,7 @@
-explorerTitle	Energy Data Explorer
+explorerTitle	Energy
+explorerSubtitle	Explore global data on energy by source.
+downloadDataLink	https://github.com/owid/energy-data
 isPublished	true
-explorerSubtitle	Download the complete _Our World in Data_ [Energy Dataset](https://github.com/owid/energy-data).
 selection	United States	United Kingdom	China	World	India	Brazil	South Africa
 subNavId	energy
 thumbnail	https://owid.cloud/app/uploads/2022/12/Energy-data-explorer-Thumbnail.png

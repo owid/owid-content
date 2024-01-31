@@ -1,9 +1,10 @@
 # HACK: Some fields are prepended by an invisible character (https://invisible-characters.com/00AD-SOFT-HYPHEN.html) in order to get the explorer to display the options in the correct order.
 
-explorerTitle	Democracy Data Explorer
+explorerTitle	Democracy
+explorerSubtitle	Explore the world's political systems with the leading approaches of measuring democracy.
+downloadDataLink	https://github.com/owid/notebooks/tree/main/BastianHerre/democracy
 isPublished	true
 thumbnail	https://owid.cloud/app/uploads/2022/06/Democracy-Data-Explorer.png
-explorerSubtitle	Explore the world's political systems with the leading approaches of measuring democracy. Download the complete [Democracy Data](https://github.com/owid/notebooks/tree/main/BastianHerre/democracy).
 selection	Argentina	Australia	Botswana	China	World
 wpBlockId	51850
 subNavId

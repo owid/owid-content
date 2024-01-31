@@ -1,6 +1,7 @@
-explorerTitle	CO₂ and Greenhouse Gas Emissions Data Explorer
+explorerTitle	CO₂ and Greenhouse Gas Emissions
 isPublished	true
-explorerSubtitle	Download the complete _Our World in Data_ [CO₂ and GHG Emissions Dataset](https://github.com/owid/co2-data).
+explorerSubtitle	Explore historical greenhouse gas emissions by source and type.
+downloadDataLink	https://github.com/owid/co2-data
 selection	China	United States	India	United Kingdom	World
 subNavId	co2
 subNavCurrentId	co2-data-explorer

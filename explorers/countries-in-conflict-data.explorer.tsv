@@ -1,8 +1,8 @@
 
-explorerTitle	Countries in Conflict Data Explorer
+explorerTitle	Countries in Conflict
+explorerSubtitle	Explore conflict deaths and death rates across the world's countries.
 isPublished	true
 thumbnail
-explorerSubtitle	Explore conflict deaths and death rates across the world's countries.
 selection	Afghanistan	Ethiopia	Syria	Ukraine
 subNavCurrentId	country-conflict
 graphers
