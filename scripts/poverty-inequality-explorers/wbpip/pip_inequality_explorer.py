@@ -239,8 +239,7 @@ df_tables["tolerance"] = df_tables["tolerance"].astype("Int64")
 df_spells = pd.DataFrame()
 j = 0
 
-# It starts in 3 because the first two rows are country and year
-for i in range(3, len(df_tables)):
+for i in range(len(df_tables)):
     # Define country as entityName
     df_spells.loc[j, "master_var"] = df_tables.slug[i]
     df_spells.loc[j, "name"] = "Country"
@@ -302,6 +301,11 @@ for i in range(3, len(df_tables)):
         df_spells.loc[j, "colorScaleScheme"] = df_tables.colorScaleScheme[i]
         df_spells.loc[j, "survey_type"] = df_tables.survey_type[i]
         j += 1
+
+# Delete rows for country and year
+df_spells = df_spells[(df_spells["master_var"]!="country") & (df_spells['master_var']!="year")].reset_index(
+    drop=True
+)
 
 # Make tolerance integer (to not break the parameter in the platform)
 df_spells["tolerance"] = df_spells["tolerance"].astype("Int64")

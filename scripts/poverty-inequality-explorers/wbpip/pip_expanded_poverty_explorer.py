@@ -481,8 +481,7 @@ df_tables["tolerance"] = df_tables["tolerance"].astype("Int64")
 df_spells = pd.DataFrame()
 j = 0
 
-# It starts in 3 because the first two rows are country and year
-for i in range(3, len(df_tables)):
+for i in range(len(df_tables)):
     # Define country as entityName
     df_spells.loc[j, "master_var"] = df_tables.slug[i]
     df_spells.loc[j, "name"] = "Country"
@@ -544,6 +543,11 @@ for i in range(3, len(df_tables)):
         df_spells.loc[j, "survey_type"] = df_tables.survey_type[i]
         j += 1
 
+# Delete rows for country and year
+df_spells = df_spells[(df_spells["master_var"]!="country") & (df_spells['master_var']!="year")].reset_index(
+    drop=True
+)
+
 # Create new rows for total shortfall, which is converted to a yearly value
 
 # Delete rows that have yearly data (there are no files names as such)
@@ -555,6 +559,10 @@ df_spells = df_spells[~df_spells["master_var"].str.contains("_year")].reset_inde
 df_spells_shortfall = df_spells[
     df_spells["master_var"].str.contains("total_shortfall")
 ].reset_index(drop=True)
+
+# Remove country and year slugs
+df_spells_shortfall = df_spells_shortfall[
+    (df_spells_shortfall["slug"]!="country") & (df_spells_shortfall["slug"]!="year")].reset_index(drop=True)
 
 # Create yearly columns
 df_spells_shortfall["transform"] = "multiplyBy " + df_spells_shortfall["slug"] + " 365"

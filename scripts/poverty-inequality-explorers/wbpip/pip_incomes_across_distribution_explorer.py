@@ -359,8 +359,7 @@ df_tables["tolerance"] = df_tables["tolerance"].astype("Int64")
 df_spells = pd.DataFrame()
 j = 0
 
-# It starts in 3 because the first two rows are country and year
-for i in range(3, len(df_tables)):
+for i in range(len(df_tables)):
     # Define country as entityName
     df_spells.loc[j, "master_var"] = df_tables.slug[i]
     df_spells.loc[j, "name"] = "Country"
@@ -431,6 +430,11 @@ df_spells = df_spells[~df_spells["master_var"].str.contains("_year")].reset_inde
     drop=True
 )
 
+# Delete rows for country and year
+df_spells = df_spells[(df_spells["master_var"]!="country") & (df_spells['master_var']!="year")].reset_index(
+    drop=True
+)
+
 # Create new rows for daily, monthly and yearly aggregations
 # Drop shares, because they are not aggregated
 df_spells_agg = (
@@ -438,6 +442,10 @@ df_spells_agg = (
     .copy()
     .reset_index(drop=True)
 )
+
+# Remove country and year slugs
+df_spells_agg = df_spells_agg[
+    (df_spells_agg["slug"]!="country") & (df_spells_agg["slug"]!="year")].reset_index(drop=True)
 
 # Create columns for each aggregation
 df_spells_consolidated = pd.DataFrame()

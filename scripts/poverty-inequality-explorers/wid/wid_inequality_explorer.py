@@ -425,6 +425,25 @@ for tab in range(len(tables)):
     df_graphers.loc[j, "tab"] = "chart"
     j += 1
 
+    # Share of the bottom 50%
+    df_graphers.loc[
+        j, "title"
+    ] = f"Income share of the poorest 50% (after tax vs. before tax)"
+    df_graphers.loc[j, "ySlugs"] = f"p0p50_share_pretax p0p50_share_posttax_nat"
+    df_graphers.loc[j, "Indicator Dropdown"] = "Share of the poorest 50%"
+    df_graphers.loc[
+        j, "Income measure Dropdown"
+    ] = "After tax vs. before tax"
+    df_graphers.loc[
+        j, "subtitle"
+    ] = f"The share of income received by the poorest 50% of the population."
+    df_graphers.loc[j, "note"] = ""
+    df_graphers.loc[j, "type"] = np.nan
+    df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
+    df_graphers.loc[j, "hasMapTab"] = "false"
+    df_graphers.loc[j, "tab"] = "chart"
+    j += 1
+
     # # Palma ratio
     df_graphers.loc[j, "title"] = f"Palma ratio (after tax vs. before tax)"
     df_graphers.loc[j, "ySlugs"] = f"palma_ratio_pretax palma_ratio_posttax_nat"
