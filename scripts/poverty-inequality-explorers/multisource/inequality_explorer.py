@@ -1056,7 +1056,7 @@ df_graphers["mapTargetTime"] = df_graphers["mapTargetTime"].astype("Int64")
 
 # Select one default view
 df_graphers.loc[
-    (df_graphers["Data Radio"] == "World Inequality Database - Income before tax")
+    (df_graphers["Data Radio"] == "World Inequality Database (Incomes before tax)")
     & (df_graphers["Indicator Dropdown"] == "Gini coefficient"),
     ["defaultView"],
 ] = "true"

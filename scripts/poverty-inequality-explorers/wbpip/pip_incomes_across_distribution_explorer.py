@@ -360,6 +360,22 @@ df_spells = pd.DataFrame()
 j = 0
 
 for i in range(len(df_tables)):
+    # Define country as entityName
+    df_spells.loc[j, "master_var"] = df_tables.slug[i]
+    df_spells.loc[j, "name"] = "Country"
+    df_spells.loc[j, "slug"] = "country"
+    df_spells.loc[j, "type"] = "EntityName"
+    df_spells.loc[j, "survey_type"] = df_tables.survey_type[i]
+    j += 1
+
+    # Define year as Year
+    df_spells.loc[j, "master_var"] = df_tables.slug[i]
+    df_spells.loc[j, "name"] = "Year"
+    df_spells.loc[j, "slug"] = "year"
+    df_spells.loc[j, "type"] = "Year"
+    df_spells.loc[j, "survey_type"] = df_tables.survey_type[i]
+    j += 1
+
     for c_spell in range(1, CONSUMPTION_SPELLS_PIP+1):
         df_spells.loc[j, "master_var"] = df_tables.slug[i]
         df_spells.loc[j, "name"] = "Consumption surveys"
@@ -414,6 +430,11 @@ df_spells = df_spells[~df_spells["master_var"].str.contains("_year")].reset_inde
     drop=True
 )
 
+# Delete rows for country and year
+df_spells = df_spells[(df_spells["master_var"]!="country") & (df_spells['master_var']!="year")].reset_index(
+    drop=True
+)
+
 # Create new rows for daily, monthly and yearly aggregations
 # Drop shares, because they are not aggregated
 df_spells_agg = (
@@ -421,6 +442,10 @@ df_spells_agg = (
     .copy()
     .reset_index(drop=True)
 )
+
+# Remove country and year slugs
+df_spells_agg = df_spells_agg[
+    (df_spells_agg["slug"]!="country") & (df_spells_agg["slug"]!="year")].reset_index(drop=True)
 
 # Create columns for each aggregation
 df_spells_consolidated = pd.DataFrame()
@@ -749,11 +774,25 @@ df_graphers["Show breaks between less comparable surveys Checkbox"] = "false"
 df_graphers_spells = pd.DataFrame()
 j = 0
 
+# Create ySlugs dynamically
+c_spell_list = []
+i_spell_list = []
+for c_spell in range(1, CONSUMPTION_SPELLS_PIP+1):
+    c_spell_list.append(f"consumption_spell_{c_spell}")
+
+for i_spell in range(1, INCOME_SPELLS_PIP+1):
+    i_spell_list.append(f"income_spell_{i_spell}")
+
+# Merge the items in the list, separated by a space
+spell_list = c_spell_list + i_spell_list
+
+ySlugs_spells = " ".join(spell_list)
+
 for i in range(len(df_graphers)):
     df_graphers_spells.loc[j, "title"] = df_graphers["title"][i]
     df_graphers_spells.loc[
         j, "ySlugs"
-    ] = "consumption_spell_1 consumption_spell_2 consumption_spell_3 consumption_spell_4 consumption_spell_5 consumption_spell_6 income_spell_1 income_spell_2 income_spell_3 income_spell_4 income_spell_5 income_spell_6 income_spell_7"
+    ] = ySlugs_spells
     df_graphers_spells.loc[j, "Indicator Dropdown"] = df_graphers["Indicator Dropdown"][
         i
     ]
@@ -795,27 +834,11 @@ for agg in range(len(income_aggregation)):
             income_aggregation["slug_suffix"][agg]
         ),
         ["ySlugs"],
-    ] = f"consumption_spell_1{income_aggregation['slug_suffix'][agg]} consumption_spell_2{income_aggregation['slug_suffix'][agg]} consumption_spell_3{income_aggregation['slug_suffix'][agg]} consumption_spell_4{income_aggregation['slug_suffix'][agg]} consumption_spell_5{income_aggregation['slug_suffix'][agg]} consumption_spell_6{income_aggregation['slug_suffix'][agg]} income_spell_1{income_aggregation['slug_suffix'][agg]} income_spell_2{income_aggregation['slug_suffix'][agg]} income_spell_3{income_aggregation['slug_suffix'][agg]} income_spell_4{income_aggregation['slug_suffix'][agg]} income_spell_5{income_aggregation['slug_suffix'][agg]} income_spell_6{income_aggregation['slug_suffix'][agg]} income_spell_7{income_aggregation['slug_suffix'][agg]}"
+    ] = " ".join([x + income_aggregation['slug_suffix'][agg] for x in spell_list])
     # Modify tableSlug to redirect aggregation views to original tables
     df_graphers_spells["tableSlug"] = df_graphers_spells["tableSlug"].str.removesuffix(
         income_aggregation["slug_suffix"][agg]
     )
-
-# df_graphers_spells.loc[
-#     df_graphers_spells["tableSlug"].str.contains("_month"), ["ySlugs"]
-# ] = "consumption_spell_1_month consumption_spell_2_month consumption_spell_3_month consumption_spell_4_month consumption_spell_5_month consumption_spell_6_month income_spell_1_month income_spell_2_month income_spell_3_month income_spell_4_month income_spell_5_month income_spell_6_month income_spell_7_month"
-
-# df_graphers_spells.loc[
-#     df_graphers_spells["tableSlug"].str.contains("_year"), ["ySlugs"]
-# ] = "consumption_spell_1_year consumption_spell_2_year consumption_spell_3_year consumption_spell_4_year consumption_spell_5_year consumption_spell_6_year income_spell_1_year income_spell_2_year income_spell_3_year income_spell_4_year income_spell_5_year income_spell_6_year income_spell_7_year"
-
-# # Modify tableSlug to redirect _month and _year to the daily tables
-# df_graphers_spells["tableSlug"] = df_graphers_spells["tableSlug"].str.removesuffix(
-#     "_month"
-# )
-# df_graphers_spells["tableSlug"] = df_graphers_spells["tableSlug"].str.removesuffix(
-#     "_year"
-# )
 
 df_graphers = pd.concat([df_graphers, df_graphers_spells], ignore_index=True)
 
@@ -864,7 +887,7 @@ df_graphers.loc[
     & (df_graphers["Indicator Dropdown"] == "Decile thresholds")
     & (df_graphers["Period Radio"] == "Day")
     & (df_graphers["Show breaks between less comparable surveys Checkbox"] == "false")
-    & (df_graphers["tableSlug"] == "inc_or_cons"),
+    & (df_graphers["tableSlug"] == "income_consumption_2017"),
     ["defaultView"],
 ] = "true"
 

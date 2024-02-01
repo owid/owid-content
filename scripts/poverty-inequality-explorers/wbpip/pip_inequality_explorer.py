@@ -240,6 +240,22 @@ df_spells = pd.DataFrame()
 j = 0
 
 for i in range(len(df_tables)):
+    # Define country as entityName
+    df_spells.loc[j, "master_var"] = df_tables.slug[i]
+    df_spells.loc[j, "name"] = "Country"
+    df_spells.loc[j, "slug"] = "country"
+    df_spells.loc[j, "type"] = "EntityName"
+    df_spells.loc[j, "survey_type"] = df_tables.survey_type[i]
+    j += 1
+
+    # Define year as Year
+    df_spells.loc[j, "master_var"] = df_tables.slug[i]
+    df_spells.loc[j, "name"] = "Year"
+    df_spells.loc[j, "slug"] = "year"
+    df_spells.loc[j, "type"] = "Year"
+    df_spells.loc[j, "survey_type"] = df_tables.survey_type[i]
+    j += 1
+
     for c_spell in range(1, CONSUMPTION_SPELLS_PIP+1):
         df_spells.loc[j, "master_var"] = df_tables.slug[i]
         df_spells.loc[j, "name"] = "Consumption surveys"
@@ -285,6 +301,11 @@ for i in range(len(df_tables)):
         df_spells.loc[j, "colorScaleScheme"] = df_tables.colorScaleScheme[i]
         df_spells.loc[j, "survey_type"] = df_tables.survey_type[i]
         j += 1
+
+# Delete rows for country and year
+df_spells = df_spells[(df_spells["master_var"]!="country") & (df_spells['master_var']!="year")].reset_index(
+    drop=True
+)
 
 # Make tolerance integer (to not break the parameter in the platform)
 df_spells["tolerance"] = df_spells["tolerance"].astype("Int64")
@@ -422,11 +443,25 @@ df_graphers["Show breaks between less comparable surveys Checkbox"] = "false"
 df_graphers_spells = pd.DataFrame()
 j = 0
 
+# Create ySlugs dynamically
+c_spell_list = []
+i_spell_list = []
+for c_spell in range(1, CONSUMPTION_SPELLS_PIP+1):
+    c_spell_list.append(f"consumption_spell_{c_spell}")
+
+for i_spell in range(1, INCOME_SPELLS_PIP+1):
+    i_spell_list.append(f"income_spell_{i_spell}")
+
+# Merge the items in the list, separated by a space
+spell_list = c_spell_list + i_spell_list
+
+ySlugs_spells = " ".join(spell_list)
+
 for i in range(len(df_graphers)):
     df_graphers_spells.loc[j, "title"] = df_graphers["title"][i]
     df_graphers_spells.loc[
         j, "ySlugs"
-    ] = "consumption_spell_1 consumption_spell_2 consumption_spell_3 consumption_spell_4 consumption_spell_5 consumption_spell_6 income_spell_1 income_spell_2 income_spell_3 income_spell_4 income_spell_5 income_spell_6 income_spell_7"
+    ] = ySlugs_spells
     df_graphers_spells.loc[j, "Indicator Dropdown"] = df_graphers["Indicator Dropdown"][
         i
     ]
@@ -511,7 +546,7 @@ df_graphers["subtitle"] = df_graphers["subtitle"].str.replace(
 df_graphers.loc[
     (df_graphers["ySlugs"] == "gini")
     & (df_graphers["Show breaks between less comparable surveys Checkbox"] == "false")
-    & (df_graphers["tableSlug"] == "inc_or_cons"),
+    & (df_graphers["tableSlug"] == "income_consumption_2017"),
     ["defaultView"],
 ] = "true"
 
