@@ -13,7 +13,7 @@ import pandas as pd
 from ..common_parameters import *
 
 PARENT_DIR = Path(__file__).parent.parent.parent.parent.absolute()
-outfile = PARENT_DIR / "explorers" / "poverty-ppp-comparison.explorer.tsv"
+outfile = PARENT_DIR / "explorers" / "poverty-explorer-2011-vs-2017-ppp.explorer.tsv"
 
 # %% [markdown]
 # ## Google sheets auxiliar data
