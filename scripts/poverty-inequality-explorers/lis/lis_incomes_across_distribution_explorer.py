@@ -11,7 +11,7 @@ import numpy as np
 import pandas as pd
 
 PARENT_DIR = Path(__file__).parent.parent.parent.parent.absolute()
-outfile = PARENT_DIR / "explorers" / "lis-incomes-across-distribution.explorer.tsv"
+outfile = PARENT_DIR / "explorers" / "incomes-across-distribution-lis.explorer.tsv"
 
 # %% [markdown]
 # ## Google sheets auxiliar data
