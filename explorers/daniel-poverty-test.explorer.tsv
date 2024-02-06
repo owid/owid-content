@@ -2,7 +2,7 @@ explorerTitle	Daniel poverty test explorer
 selection	World
 
 graphers
-	Poverty Line Dropdown	Share Dropdown	yVariableIds
+	Poverty Line Dropdown	Share Dropdown	yVariableIds	title
 	i$ 2.15	share	819727
 	i$ 3.65	share	819729
 	i$ 6.85	share	819731
