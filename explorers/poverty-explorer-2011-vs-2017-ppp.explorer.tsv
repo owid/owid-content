@@ -1,7 +1,6 @@
-explorerTitle	Poverty Comparisons					
-explorerSubtitle	Explore World Bank data through comparisons of 2011 vs. 2017 prices.					
-downloadDataLink	https://github.com/owid/poverty-data
+explorerTitle	Poverty - World Bank 2011 vs. 2017 prices					
 selection	Mozambique	Nigeria	Kenya	Bangladesh	Bolivia	World
+explorerSubtitle	Compare key poverty indicators from World Bank data in 2011 and 2017 prices					
 isPublished	true					
 googleSheet	https://docs.google.com/spreadsheets/d/1mR0LPEGlY-wCp1q9lNTlDbVIG65JazKvHL16my9tH8Y					
 wpBlockId	57756					

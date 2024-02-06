@@ -57,9 +57,9 @@ survey_type = pd.read_csv(url)
 # %%
 # The header is defined as a dictionary first and then it is converted into a index-oriented dataframe
 header_dict = {
-    "explorerTitle": "Poverty Data Explorer: World Bank data - 2011 vs. 2017 prices",
+    "explorerTitle": "Poverty - World Bank 2011 vs. 2017 prices",
     "selection": ["Mozambique", "Nigeria", "Kenya", "Bangladesh", "Bolivia", "World"],
-    "explorerSubtitle": "[_Download Poverty data on GitHub_](https://github.com/owid/poverty-data)",
+    "explorerSubtitle": "Compare key poverty indicators from World Bank data in 2011 and 2017 prices",
     "isPublished": "true",
     "googleSheet": f"https://docs.google.com/spreadsheets/d/{sheet_id}",
     "wpBlockId": "57756",

@@ -1,7 +1,6 @@
-explorerTitle	Poverty
+explorerTitle	Poverty					
 selection	Bangladesh	Bolivia	Kenya	Mozambique	Nigeria	Zambia
-explorerSubtitle	Explore key indicators from World Bank data
-downloadDataLink	https://github.com/owid/poverty-data
+explorerSubtitle	Explore key poverty indicators from World Bank data					
 isPublished	true					
 googleSheet	https://docs.google.com/spreadsheets/d/17KJ9YcvfdmO_7-Sv2Ij0vmzAQI6rXSIqHfJtgFHN-a8					
 wpBlockId	57756					
