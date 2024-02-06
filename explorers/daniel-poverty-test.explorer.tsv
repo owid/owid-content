@@ -1,4 +1,4 @@
-title	Daniel poverty test explorer
+explorerTitle	Daniel poverty test explorer
 selection	World
 graphers
 	Poverty Line Dropdown	Share Dropdown	yVariableIds
