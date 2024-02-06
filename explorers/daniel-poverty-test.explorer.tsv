@@ -1,5 +1,6 @@
 explorerTitle	Daniel poverty test explorer
 selection	World
+
 graphers
 	Poverty Line Dropdown	Share Dropdown	yVariableIds
 	i$ 2.15	share	819727
@@ -16,6 +17,7 @@ graphers
 	i$ 20	absolute	819718
 	i$ 30	absolute	819720
 	i$ 40	absolute	819722
+
 columns
 	variableId
 	819727
