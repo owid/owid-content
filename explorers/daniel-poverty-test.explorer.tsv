@@ -2,25 +2,25 @@ explorerTitle	Daniel poverty test explorer
 selection	World
 
 graphers
-	Poverty Line Dropdown	Share Dropdown	yVariableIds	title	type	yAxisMin
-	i$ 2.15	share	819727		+	0
-	i$ 3.65	share	819729			0
-	i$ 6.85	share	819731			0
-	i$ 10	share	819725			0
-	i$ 20	share	819726			0
-	i$ 30	share	819728			0
-	i$ 40	share	819730			0
-	i$ 2.15	absolute	819719			0
-	i$ 3.65	absolute	819721			0
-	i$ 6.85	absolute	819723			0
-	i$ 10	absolute	819717			0
-	i$ 20	absolute	819718			0
-	i$ 30	absolute	819720			0
-	i$ 40	absolute	819722			0
-	all	share	819815 819816 819818 819820 819822 819824 819826		StackedArea	0
-						0
+	Poverty Line Dropdown	Share Dropdown	yVariableIds	title	type	yAxisMin	hasMapTab
+	i$ 2.15	share	819727		+	0	true
+	i$ 3.65	share	819729			0	true
+	i$ 6.85	share	819731			0	true
+	i$ 10	share	819725			0	true
+	i$ 20	share	819726			0	true
+	i$ 30	share	819728			0	true
+	i$ 40	share	819730			0	true
+	i$ 2.15	absolute	819719			0	true
+	i$ 3.65	absolute	819721			0	true
+	i$ 6.85	absolute	819723			0	true
+	i$ 10	absolute	819717			0	true
+	i$ 20	absolute	819718			0	true
+	i$ 30	absolute	819720			0	true
+	i$ 40	absolute	819722			0	true
+	all	share	819815 819816 819818 819820 819822 819824 819826		StackedArea	0	true
+						0	true
 columns
-	variableId
+	variableId	^
 	819727
 	819729
 	819731
