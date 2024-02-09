@@ -1,5 +1,5 @@
 explorerTitle	Energy
-explorerSubtitle	Explore global data on energy by source.
+explorerSubtitle	Explore data on energy production and sources.
 downloadDataLink	https://github.com/owid/energy-data
 isPublished	true
 selection	United States	United Kingdom	China	World	India	Brazil	South Africa
