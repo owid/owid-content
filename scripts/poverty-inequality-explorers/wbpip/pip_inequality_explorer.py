@@ -49,7 +49,7 @@ header_dict = {
         "France",
         "China",
     ],
-    "explorerSubtitle": "Explore World Bank data on inequality",
+    "explorerSubtitle": "Explore World Bank data on inequality.",
     "isPublished": "true",
     "googleSheet": f"https://docs.google.com/spreadsheets/d/{sheet_id}",
     "wpBlockId": "57756",

@@ -59,7 +59,7 @@ survey_type = pd.read_csv(url)
 header_dict = {
     "explorerTitle": "Poverty - World Bank 2011 vs. 2017 prices",
     "selection": ["Mozambique", "Nigeria", "Kenya", "Bangladesh", "Bolivia", "World"],
-    "explorerSubtitle": "Compare key poverty indicators from World Bank data in 2011 and 2017 prices",
+    "explorerSubtitle": "Compare key poverty indicators from World Bank data in 2011 and 2017 prices.",
     "isPublished": "true",
     "googleSheet": f"https://docs.google.com/spreadsheets/d/{sheet_id}",
     "wpBlockId": "57756",

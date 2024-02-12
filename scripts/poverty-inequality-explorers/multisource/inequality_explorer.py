@@ -75,7 +75,7 @@ header_dict = {
         "France",
         "China",
     ],
-    "explorerSubtitle": "Explore key inequality indicators from World Inequality Database and World Bank data",
+    "explorerSubtitle": "Explore key inequality indicators from the World Inequality Database and the World Bank.",
     "isPublished": "true",
     "googleSheet": "",
     "wpBlockId": "57760",

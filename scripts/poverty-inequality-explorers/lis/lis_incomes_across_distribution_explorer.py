@@ -74,7 +74,7 @@ header_dict = {
         "France",
         "China",
     ],
-    "explorerSubtitle": "Explore Luxembourg Income Study data on the distribution of incomes",
+    "explorerSubtitle": "Explore Luxembourg Income Study data on the distribution of incomes.",
     "isPublished": "true",
     "googleSheet": f"https://docs.google.com/spreadsheets/d/{sheet_id}",
     "wpBlockId": "57755",

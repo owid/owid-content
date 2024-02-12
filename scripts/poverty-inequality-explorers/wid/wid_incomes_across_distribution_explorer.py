@@ -69,7 +69,7 @@ header_dict = {
         "France",
         "Greece",
     ],
-    "explorerSubtitle": "Explore World Inequality Database data on the distribution of incomes",
+    "explorerSubtitle": "Explore World Inequality Database data on the distribution of incomes.",
     "isPublished": "true",
     "googleSheet": f"https://docs.google.com/spreadsheets/d/{sheet_id}",
     "wpBlockId": "57750",

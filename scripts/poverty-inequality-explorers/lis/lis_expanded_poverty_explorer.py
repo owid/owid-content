@@ -63,7 +63,7 @@ header_dict = {
         "France",
         "China",
     ],
-    "explorerSubtitle": "Explore Luxembourg Income Study data on poverty",
+    "explorerSubtitle": "Explore Luxembourg Income Study data on poverty.",
     "isPublished": "true",
     "googleSheet": f"https://docs.google.com/spreadsheets/d/{sheet_id}",
     "wpBlockId": "57755",
