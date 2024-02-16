@@ -1,8 +1,9 @@
-explorerTitle	COVID-19 Data Explorer
+explorerTitle	COVID-19
+explorerSubtitle	Explore global data on COVID-19.
 isPublished	true
 googleSheet	https://docs.google.com/spreadsheets/d/1qeXBgckrktxwrJp2V9NCG9CeDEufAC-nzYYjj6o1vlU/edit?usp=sharing
 selection	United States	Brazil	Japan	Germany
-explorerSubtitle	Download the complete _Our World in Data_ [COVID-19 dataset.](https://github.com/owid/covid-19-data/tree/master/public/data)
+downloadDataLink	https://github.com/owid/covid-19-data/tree/master/public/data
 hideAlertBanner	true
 subNavId	coronavirus
 subNavCurrentId	data-explorer

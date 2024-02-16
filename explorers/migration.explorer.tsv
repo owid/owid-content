@@ -1,8 +1,8 @@
-explorerTitle	Migration, Refugee and Asylum Data Explorer
+explorerTitle	Migration, Refugees, and Asylum Seekers
+explorerSubtitle	Explore the migration of people across the world.
 isPublished	true
 thumbnail	https://owid.cloud/app/uploads/2022/03/Migration-Data-Explorer.png
 selection	United States	Germany	France	United Kingdom	Syria	Turkey	Yemen	India	Canada
-explorerSubtitle	Explore the migration of people across the world.
 hideAlertBanner	true
 subNavId
 subNavCurrentId

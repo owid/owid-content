@@ -1,8 +1,8 @@
-explorerTitle	Crop Yields Data Explorer
+explorerTitle	Crop Yields
+explorerSubtitle	Explore crop yields across the world.
 isPublished	true
 googleSheet	https://docs.google.com/spreadsheets/d/14QrLM9sRajoIZywaAttPt-Fm44-iyINIQwFC-VKlTyk/edit#gid=0
 selection	Austria	Brazil	Bulgaria	Hungary	Italy	Netherlands	Romania	Russia	United Kingdom	United States
-explorerSubtitle	Explore crop yields across the world.
 hideAlertBanner	true
 subNavId	explorers
 subNavCurrentId	crop-yields

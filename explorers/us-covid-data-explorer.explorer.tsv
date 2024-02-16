@@ -1,12 +1,12 @@
-explorerTitle	US COVID-19 Vaccination Data Explorer
+explorerTitle	US COVID-19 Vaccination
+explorerSubtitle	Explore data on COVID-19 vaccination in the US.
+downloadDataLink	https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations#united-states-vaccination-data
 isPublished	true
 selection	United States	California	Texas	Florida	New York State	Pennsylvania	Illinois	Ohio	Georgia	North Carolina
-explorerSubtitle	Download the _Our World in Data_ [dataset on US COVID-19 vaccination.](https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations#united-states-vaccination-data)
 entityType	state
 hideAlertBanner	true
 hasMapTab	false
 yAxisMin	0
-downloadDataLink	https://covid.ourworldindata.org/data/vaccinations/us_state_vaccinations.csv
 thumbnail	https://ourworldindata.org/app/uploads/2021/01/vaccinations-usa-768x402.png
 pickerColumnSlugs	location population total_vaccinations_per_hundred people_vaccinated_per_hundred people_fully_vaccinated_per_hundred
 graphers

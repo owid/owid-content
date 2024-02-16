@@ -1,8 +1,8 @@
 
-explorerTitle	Conflict Data Explorer
+explorerTitle	Conflict
+explorerSubtitle	Explore historical data on conflicts across the world.
 isPublished	true
 thumbnail
-explorerSubtitle	Explore the world's conflicts with the leading approaches to measuring them.
 selection	World
 wpBlockId
 subNavId

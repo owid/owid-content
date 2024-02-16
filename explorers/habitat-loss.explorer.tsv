@@ -1,8 +1,8 @@
-explorerTitle	Habitat Loss Data Explorer
+explorerTitle	Species Habitat Availability
+explorerSubtitle	Explore future projections of species' habitats under different agricultural interventions.
 isPublished	true
 googleSheet	https://docs.google.com/spreadsheets/d/1x12v5seRx-lf_nCmLI_RxhCd33brqcMAMVbi1vKKXTM/edit#gid=0
 selection	World	Sub-Saharan Africa	South and East Asia	Europe	North America	Latin America	North Africa	Oceania
-explorerSubtitle	Explore projections of species' habitat loss, and the impact of dietary and agricultural interventions.
 hideAlertBanner	true
 subNavId	explorers
 subNavCurrentId	habitat-loss
