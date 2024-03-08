@@ -6,7 +6,7 @@ explorerSubtitle
 hideAlertBanner
 subNavId
 wpBlockId	52472
-thumbnail	https://owid.cloud/app/uploads/2022/08/Plastic-Waste-Data-Explorer.png
+thumbnail	https://assets.ourworldindata.org/uploads/2022/08/Plastic-Waste-Data-Explorer.png
 hideAnnotationFieldsInTitle
 graphers
 		yVariableIds	Metric Dropdown	Sub-metric Dropdown	Per capita Checkbox	Share of world total Checkbox	title	subtitle	note	type	yAxisMin	hasMapTab	yScaleToggle	Source Dropdown	selectedFacetStrategy	tab

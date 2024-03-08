@@ -4,7 +4,7 @@ downloadDataLink	https://github.com/owid/energy-data
 isPublished	true
 selection	United States	United Kingdom	China	World	India	Brazil	South Africa
 subNavId	energy
-thumbnail	https://owid.cloud/app/uploads/2022/12/Energy-data-explorer-Thumbnail.png
+thumbnail	https://assets.ourworldindata.org/uploads/2022/12/Energy-data-explorer-Thumbnail.png
 subNavCurrentId	energy-data-explorer
 graphers
 	grapherId	Total or Breakdown Radio	Select a source Dropdown	Energy or Electricity Radio	Metric Dropdown	defaultView

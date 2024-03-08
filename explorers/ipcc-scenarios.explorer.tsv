@@ -5,7 +5,7 @@ selection	SSP1 - Baseline	SSP2 - Baseline	SSP3 - Baseline	SSP4 - Baseline	SSP5 -
 hideAlertBanner	true
 subNavId
 wpBlockId	50588
-thumbnail	https://owid.cloud/app/uploads/2022/04/ipcc-thumbnail-01.png
+thumbnail	https://assets.ourworldindata.org/uploads/2022/04/ipcc-thumbnail-01.png
 entityType	scenario
 hasMapTab	false
 yAxisMin	0
