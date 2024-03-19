@@ -4,7 +4,7 @@ Everything in this folder is used to generate the massive spreadsheet config for
 
 ## Building the explorer
 
-Firstly, update the `VERSION` variable defined in `global-food-explorer.py` to be the latest ETL version of the food explorer step.
+Firstly, ensure the `VERSION` and `YEAR` variables defined in `global-food-explorer.py` are the correct ones, aligned with the latest ETL version of the food explorer step.
 
 You need Python 3.9 with `poetry` installed, then run `make`. It will generate the top-level explorer config `global-food.explorer.tsv`, if it's out of date.
 
