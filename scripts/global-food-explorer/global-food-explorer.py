@@ -15,10 +15,11 @@ from os import path
 import sys
 
 # Latest ETL version of the food explorer (https://github.com/owid/etl/tree/master/etl/steps/data/explorers/faostat/).
-VERSION = "2023-06-12"
+VERSION = "latest"
 
-# Get year (to be used in metadata) from the version.
-year = VERSION.split("-")[0]
+# Define the year to be used in the metadata.
+# year = VERSION.split("-")[0]
+YEAR = "2024"
 
 outfile = "../../explorers/global-food.explorer.tsv"
 
@@ -163,7 +164,7 @@ with open(outfile, "w", newline="\n") as f:
             food_slugs=food_slugs,
             graphers_tsv=graphers_tsv_indented,
             table_defs=table_defs,
-            year=year,
+            year=YEAR,
         )
     )
 
