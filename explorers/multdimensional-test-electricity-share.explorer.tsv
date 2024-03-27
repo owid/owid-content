@@ -2,18 +2,25 @@ explorerTitle	Multidimensional test - electricity sources
 selection	World	France	China	United States
 
 graphers
-	Share Dropdown	Energy type Dropdown	xVariableId	hasMapTab
+	Share Dropdown	Energy type Dropdown	yVariableIds	hasMapTab
 	Share	Coal	817699	true
-
-
-
-
-
-
-
-
-
-
-columns
-	variableId
-	817699
+	Share	Gas	817709	true
+	Share	Oil	817731	true
+	Share	Solar	817796	true
+	Share	Wind	817814	true
+	Share	Nuclear	817725	true
+	Share	Hydro	817713	true
+	Per capita	Coal	817745	true
+	Per capita	Gas	817751	true
+	Per capita	Oil	817760	true
+	Per capita	Solar	817772	true
+	Per capita	Wind	817778	true
+	Per capita	Nuclear	817759	true
+	Per capita	Hydro	817754	true
+	Absolute	Coal	817697	true
+	Absolute	Gas	817705	true
+	Absolute	Oil	817728	true
+	Absolute	Solar	817794	true
+	Absolute	Wind	817811	true
+	Absolute	Nuclear	817723	true
+	Absolute	Hydro	817712	true
