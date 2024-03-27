@@ -1,0 +1,19 @@
+explorerTitle	Multidimensional test - electricity sources
+selection	World	France	China	United States
+
+graphers
+	Share Dropdown	Energy type Dropdown	xVariableId	hasMapTab
+	Share	Coal	817699	true
+
+
+
+
+
+
+
+
+
+
+columns
+	variableId
+	817699
