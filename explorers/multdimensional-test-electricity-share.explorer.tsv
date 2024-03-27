@@ -2,7 +2,7 @@ explorerTitle	Multidimensional test - electricity sources
 selection	World	France	China	United States
 
 graphers
-	Share Dropdown	Energy type Dropdown	yVariableIds	hasMapTab
+	Share Dropdown	Energy type Dropdown	yVariableIds	hasMapTab	type
 	Share	Coal	817699	true
 	Share	Gas	817709	true
 	Share	Oil	817731	true
@@ -24,3 +24,4 @@ graphers
 	Absolute	Wind	817811	true
 	Absolute	Nuclear	817723	true
 	Absolute	Hydro	817712	true
+	Share	All	817699 817709 817731 817796 817814 817725 817713	false	StackedArea
