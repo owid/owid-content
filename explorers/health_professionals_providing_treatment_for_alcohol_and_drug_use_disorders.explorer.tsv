@@ -1,0 +1,28 @@
+explorerTitle	Health professionals providing treatment for alcohol and drug use disorders - Human resources  health workforce: 
+selection	World
+
+graphers
+	human_resources__health_workforce Dropdown	yVariableIds	hasMapTab
+	Addiction medicine specialists/narcologists	826185	true
+	Addiction counsellors	826186	true
+	Community health workers	826187	true
+	Medical doctors not specialized in psychiatry or addiction medicine	826188	true
+	Nurses not specialized in psychiatry	826189	true
+	Outreach/field workers	826190	true
+	Psychiatric nurses	826191	true
+	Psychiatrists	826192	true
+	Psychologists	826193	true
+	Social workers	826194	true
+
+columns
+	variableId
+	826185
+	826186
+	826187
+	826188
+	826189
+	826190
+	826191
+	826192
+	826193
+	826194

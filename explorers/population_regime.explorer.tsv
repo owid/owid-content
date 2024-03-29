@@ -1,0 +1,14 @@
+explorerTitle	People living in 
+selection	World
+
+graphers
+	category Dropdown	yVariableIds	hasMapTab
+	-1	831014	true
+	0	831015	true
+	1	831017	true
+
+columns
+	variableId
+	831014
+	831015
+	831017

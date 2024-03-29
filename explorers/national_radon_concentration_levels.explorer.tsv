@@ -1,0 +1,14 @@
+explorerTitle	National radon concentration levels - Radon subquestions: 
+selection	World
+
+graphers
+	radon_subquestions Dropdown	yVariableIds	hasMapTab
+	Arithmetic mean (Bq/m3)	828532	true
+	Geometric mean (Bq/m3)	828533	true
+	Geometric standard deviation	828534	true
+
+columns
+	variableId
+	828532
+	828533
+	828534

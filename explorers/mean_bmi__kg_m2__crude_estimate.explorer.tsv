@@ -1,0 +1,36 @@
+explorerTitle	Mean BMI (kg/m²) (crude estimate) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	age_group Dropdown	yVariableIds	hasMapTab
+	both sexes	10-19 years of age	828227	true
+	both sexes	18+  years	828228	true
+	both sexes	5-19  years	828229	true
+	both sexes	5-9 years of age	828230	true
+	female	10-19 years of age	828231	true
+	female	18+  years	828232	true
+	female	20+ years	828233	true
+	female	5-19  years	828234	true
+	female	5-9 years of age	828235	true
+	male	10-19 years of age	828236	true
+	male	18+  years	828237	true
+	male	20+ years	828238	true
+	male	5-19  years	828239	true
+	male	5-9 years of age	828240	true
+
+columns
+	variableId
+	828227
+	828228
+	828229
+	828230
+	828231
+	828232
+	828233
+	828234
+	828235
+	828236
+	828237
+	828238
+	828239
+	828240

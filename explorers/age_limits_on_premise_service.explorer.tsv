@@ -1,0 +1,14 @@
+explorerTitle	Age limits on-premise service - Beverage types: 
+selection	World
+
+graphers
+	beverage_types Dropdown	yVariableIds	hasMapTab
+	Beer	821727	true
+	Spirits	821728	true
+	Wine	821729	true
+
+columns
+	variableId
+	821727
+	821728
+	821729

@@ -1,0 +1,74 @@
+explorerTitle	Survivorship age - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	percentile Dropdown	yVariableIds	hasMapTab
+	both	1	814710	true
+	both	10	814711	true
+	both	20	814712	true
+	both	30	814713	true
+	both	40	814714	true
+	both	50	814715	true
+	both	60	814716	true
+	both	70	814717	true
+	both	80	814718	true
+	both	90	814719	true
+	both	99	814720	true
+	female	1	814721	true
+	female	10	814722	true
+	female	20	814723	true
+	female	30	814724	true
+	female	40	814725	true
+	female	50	814726	true
+	female	60	814727	true
+	female	70	814728	true
+	female	80	814729	true
+	female	90	814730	true
+	female	99	814731	true
+	male	1	814732	true
+	male	10	814733	true
+	male	20	814734	true
+	male	30	814735	true
+	male	40	814736	true
+	male	50	814737	true
+	male	60	814738	true
+	male	70	814739	true
+	male	80	814740	true
+	male	90	814741	true
+	male	99	814742	true
+
+columns
+	variableId
+	814710
+	814711
+	814712
+	814713
+	814714
+	814715
+	814716
+	814717
+	814718
+	814719
+	814720
+	814721
+	814722
+	814723
+	814724
+	814725
+	814726
+	814727
+	814728
+	814729
+	814730
+	814731
+	814732
+	814733
+	814734
+	814735
+	814736
+	814737
+	814738
+	814739
+	814740
+	814741
+	814742

@@ -1,0 +1,26 @@
+explorerTitle	Pharmacotherapy used for the management of alcohol withdrawal - Rsud drugs: 
+selection	World
+
+graphers
+	rsud_drugs Dropdown	yVariableIds	hasMapTab
+	Acamprosate	829196	true
+	Alcohol infusion	829197	true
+	Benzodiazepines	829198	true
+	Chlorpromazine	829199	true
+	Flumazenil	829200	true
+	Gabapentin	829201	true
+	New antipsychotics	829202	true
+	Nitrous oxide	829203	true
+	Tiagabine	829204	true
+
+columns
+	variableId
+	829196
+	829197
+	829198
+	829199
+	829200
+	829201
+	829202
+	829203
+	829204

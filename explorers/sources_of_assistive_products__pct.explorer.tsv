@@ -1,0 +1,32 @@
+explorerTitle	Sources of assistive products (%) - Assistive technology product: Total
+selection	World
+
+graphers
+	assistive_technology_product Checkbox	sources_of_assistive_products Dropdown	yVariableIds	hasMapTab
+	Total	Friends and family	830337	true
+	Total	Other	830338	true
+	Total	NGO	830339	true
+	Total	Private	830340	true
+	Total	Public	830341	true
+	Total	Self-made	830342	true
+	Total, excluding spectacles	Friends and family	830343	true
+	Total, excluding spectacles	NGO	830344	true
+	Total, excluding spectacles	Other	830345	true
+	Total, excluding spectacles	Private	830346	true
+	Total, excluding spectacles	Public	830347	true
+	Total, excluding spectacles	Self-made	830348	true
+
+columns
+	variableId
+	830337
+	830338
+	830339
+	830340
+	830341
+	830342
+	830343
+	830344
+	830345
+	830346
+	830347
+	830348

@@ -1,0 +1,174 @@
+explorerTitle	Lower bound - Unit_of_measure: 
+selection	World
+
+graphers
+	unit_of_measure Dropdown	indicator Dropdown	sex Dropdown	wealth_quintile Dropdown	yVariableIds	hasMapTab
+	Deaths per 100 live births	Infant mortality rate	Female	All wealth quintiles	815936	true
+	Deaths per 100 live births	Infant mortality rate	Male	All wealth quintiles	815939	true
+	Deaths per 100 live births	Infant mortality rate	Both sexes	All wealth quintiles	815942	true
+	Deaths per 100 live births	Mortality rate 1-59 months	Both sexes	All wealth quintiles	815945	true
+	Deaths per 100 live births	Neonatal mortality rate	Both sexes	All wealth quintiles	815948	true
+	Deaths per 100 live births	Under-five mortality rate	Female	All wealth quintiles	815951	true
+	Deaths per 100 live births	Under-five mortality rate	Male	All wealth quintiles	815954	true
+	Deaths per 100 live births	Under-five mortality rate	Both sexes	Fourth poorest quintile	815957	true
+	Deaths per 100 live births	Under-five mortality rate	Both sexes	Richest quintile	815960	true
+	Deaths per 100 live births	Under-five mortality rate	Both sexes	Poorest quintile	815963	true
+	Deaths per 100 live births	Under-five mortality rate	Both sexes	Middle wealth quintile	815966	true
+	Deaths per 100 live births	Under-five mortality rate	Both sexes	Second poorest quintile	815969	true
+	Deaths per 100 live births	Under-five mortality rate	Both sexes	All wealth quintiles	815972	true
+	Deaths per 100 children aged 1	Child Mortality rate age 1-4	Female	All wealth quintiles	815975	true
+	Deaths per 100 children aged 1	Child Mortality rate age 1-4	Male	All wealth quintiles	815978	true
+	Deaths per 100 children aged 1	Child Mortality rate age 1-4	Both sexes	All wealth quintiles	815981	true
+	Deaths per 100 children aged 10	Mortality rate age 10-14	Female	All wealth quintiles	815984	true
+	Deaths per 100 children aged 10	Mortality rate age 10-14	Male	All wealth quintiles	815987	true
+	Deaths per 100 children aged 10	Mortality rate age 10-14	Both sexes	All wealth quintiles	815990	true
+	Deaths per 100 children aged 10	Mortality rate age 10-19	Female	All wealth quintiles	815993	true
+	Deaths per 100 children aged 10	Mortality rate age 10-19	Male	All wealth quintiles	815996	true
+	Deaths per 100 children aged 10	Mortality rate age 10-19	Both sexes	All wealth quintiles	815999	true
+	Deaths per 100 children aged 15	Mortality rate age 15-19	Female	All wealth quintiles	816002	true
+	Deaths per 100 children aged 15	Mortality rate age 15-19	Male	All wealth quintiles	816005	true
+	Deaths per 100 children aged 15	Mortality rate age 15-19	Both sexes	All wealth quintiles	816008	true
+	Deaths per 100 children aged 15	Mortality rate age 15-24	Female	All wealth quintiles	816011	true
+	Deaths per 100 children aged 15	Mortality rate age 15-24	Male	All wealth quintiles	816014	true
+	Deaths per 100 children aged 15	Mortality rate age 15-24	Both sexes	All wealth quintiles	816017	true
+	Deaths per 100 children aged 20	Mortality rate age 20-24	Female	All wealth quintiles	816020	true
+	Deaths per 100 children aged 20	Mortality rate age 20-24	Male	All wealth quintiles	816023	true
+	Deaths per 100 children aged 20	Mortality rate age 20-24	Both sexes	All wealth quintiles	816026	true
+	Deaths per 100 children aged 5	Mortality rate age 5-14	Female	All wealth quintiles	816029	true
+	Deaths per 100 children aged 5	Mortality rate age 5-14	Male	All wealth quintiles	816032	true
+	Deaths per 100 children aged 5	Mortality rate age 5-14	Both sexes	All wealth quintiles	816035	true
+	Deaths per 100 children aged 5	Mortality rate age 5-24	Female	All wealth quintiles	816038	true
+	Deaths per 100 children aged 5	Mortality rate age 5-24	Male	All wealth quintiles	816041	true
+	Deaths per 100 children aged 5	Mortality rate age 5-24	Both sexes	All wealth quintiles	816044	true
+	Deaths per 100 children aged 5	Mortality rate age 5-9	Female	All wealth quintiles	816047	true
+	Deaths per 100 children aged 5	Mortality rate age 5-9	Male	All wealth quintiles	816050	true
+	Deaths per 100 children aged 5	Mortality rate age 5-9	Both sexes	All wealth quintiles	816053	true
+	Number of deaths	Child deaths age 1 to 4	Female	All wealth quintiles	816056	true
+	Number of deaths	Child deaths age 1 to 4	Male	All wealth quintiles	816059	true
+	Number of deaths	Child deaths age 1 to 4	Both sexes	All wealth quintiles	816062	true
+	Number of deaths	Deaths 1-59 months	Both sexes	All wealth quintiles	816065	true
+	Number of deaths	Deaths age 10 to 14	Female	All wealth quintiles	816068	true
+	Number of deaths	Deaths age 10 to 14	Male	All wealth quintiles	816071	true
+	Number of deaths	Deaths age 10 to 14	Both sexes	All wealth quintiles	816074	true
+	Number of deaths	Deaths age 10 to 19	Female	All wealth quintiles	816077	true
+	Number of deaths	Deaths age 10 to 19	Male	All wealth quintiles	816080	true
+	Number of deaths	Deaths age 10 to 19	Both sexes	All wealth quintiles	816083	true
+	Number of deaths	Deaths age 15 to 19	Female	All wealth quintiles	816086	true
+	Number of deaths	Deaths age 15 to 19	Male	All wealth quintiles	816089	true
+	Number of deaths	Deaths age 15 to 19	Both sexes	All wealth quintiles	816092	true
+	Number of deaths	Deaths age 15 to 24	Female	All wealth quintiles	816095	true
+	Number of deaths	Deaths age 15 to 24	Male	All wealth quintiles	816098	true
+	Number of deaths	Deaths age 15 to 24	Both sexes	All wealth quintiles	816101	true
+	Number of deaths	Deaths age 20 to 24	Female	All wealth quintiles	816104	true
+	Number of deaths	Deaths age 20 to 24	Male	All wealth quintiles	816107	true
+	Number of deaths	Deaths age 20 to 24	Both sexes	All wealth quintiles	816110	true
+	Number of deaths	Deaths age 5 to 14	Female	All wealth quintiles	816113	true
+	Number of deaths	Deaths age 5 to 14	Male	All wealth quintiles	816116	true
+	Number of deaths	Deaths age 5 to 14	Both sexes	All wealth quintiles	816119	true
+	Number of deaths	Deaths age 5 to 24	Female	All wealth quintiles	816122	true
+	Number of deaths	Deaths age 5 to 24	Male	All wealth quintiles	816125	true
+	Number of deaths	Deaths age 5 to 24	Both sexes	All wealth quintiles	816128	true
+	Number of deaths	Deaths age 5 to 9	Female	All wealth quintiles	816131	true
+	Number of deaths	Deaths age 5 to 9	Male	All wealth quintiles	816134	true
+	Number of deaths	Deaths age 5 to 9	Both sexes	All wealth quintiles	816137	true
+	Number of deaths	Infant deaths	Female	All wealth quintiles	816140	true
+	Number of deaths	Infant deaths	Male	All wealth quintiles	816143	true
+	Number of deaths	Infant deaths	Both sexes	All wealth quintiles	816146	true
+	Number of deaths	Neonatal deaths	Both sexes	All wealth quintiles	816149	true
+	Number of deaths	Post-neonatal deaths	Both sexes	All wealth quintiles	816152	true
+	Number of deaths	Under-five deaths	Female	All wealth quintiles	816155	true
+	Number of deaths	Under-five deaths	Male	All wealth quintiles	816158	true
+	Number of deaths	Under-five deaths	Both sexes	Fourth poorest quintile	816161	true
+	Number of deaths	Under-five deaths	Both sexes	Richest quintile	816164	true
+	Number of deaths	Under-five deaths	Both sexes	Poorest quintile	816167	true
+	Number of deaths	Under-five deaths	Both sexes	Middle wealth quintile	816170	true
+	Number of deaths	Under-five deaths	Both sexes	Second poorest quintile	816173	true
+	Number of deaths	Under-five deaths	Both sexes	All wealth quintiles	816176	true
+	Number of stillbirths	Stillbirths	Both sexes	All wealth quintiles	816179	true
+	Stillbirths per 1,000 total births	Stillbirth rate	Both sexes	All wealth quintiles	816182	true
+
+columns
+	variableId
+	815936
+	815939
+	815942
+	815945
+	815948
+	815951
+	815954
+	815957
+	815960
+	815963
+	815966
+	815969
+	815972
+	815975
+	815978
+	815981
+	815984
+	815987
+	815990
+	815993
+	815996
+	815999
+	816002
+	816005
+	816008
+	816011
+	816014
+	816017
+	816020
+	816023
+	816026
+	816029
+	816032
+	816035
+	816038
+	816041
+	816044
+	816047
+	816050
+	816053
+	816056
+	816059
+	816062
+	816065
+	816068
+	816071
+	816074
+	816077
+	816080
+	816083
+	816086
+	816089
+	816092
+	816095
+	816098
+	816101
+	816104
+	816107
+	816110
+	816113
+	816116
+	816119
+	816122
+	816125
+	816128
+	816131
+	816134
+	816137
+	816140
+	816143
+	816146
+	816149
+	816152
+	816155
+	816158
+	816161
+	816164
+	816167
+	816170
+	816173
+	816176
+	816179
+	816182

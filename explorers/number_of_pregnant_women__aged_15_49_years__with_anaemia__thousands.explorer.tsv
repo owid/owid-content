@@ -1,0 +1,18 @@
+explorerTitle	Number of pregnant women (aged 15-49 years) with anaemia (thousands) - Se
+selection	World
+
+graphers
+	severity Dropdown	yVariableIds	hasMapTab
+		828921	true
+	Mild	828922	true
+	Moderate	828923	true
+	Severe	828924	true
+	Total	828925	true
+
+columns
+	variableId
+	828921
+	828922
+	828923
+	828924
+	828925

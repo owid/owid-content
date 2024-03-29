@@ -1,0 +1,14 @@
+explorerTitle	Alcohol, consumers past 12 months (%) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	female	821912	true
+	both sexes	821913	true
+	male	821914	true
+
+columns
+	variableId
+	821912
+	821913
+	821914

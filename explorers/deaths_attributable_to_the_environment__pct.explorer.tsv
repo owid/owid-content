@@ -1,0 +1,14 @@
+explorerTitle	Deaths attributable to the environment (%) - 
+selection	World
+
+graphers
+	age_group Checkbox	yVariableIds	hasMapTab
+	Total (All ages)	825151	true
+	0-4 years	825152	true
+		825154	true
+
+columns
+	variableId
+	825151
+	825152
+	825154

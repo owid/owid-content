@@ -1,0 +1,12 @@
+explorerTitle	If tiered on the beverage, the tiers are alcohol-based - Beverage type: Alcoholic - Beverage: 
+selection	World
+
+graphers
+	beverage Checkbox	yVariableIds	hasMapTab
+	Beer	827778	true
+	Spirits	827779	true
+
+columns
+	variableId
+	827778
+	827779

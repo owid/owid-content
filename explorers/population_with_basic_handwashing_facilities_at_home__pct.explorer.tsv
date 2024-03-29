@@ -1,0 +1,14 @@
+explorerTitle	Population with basic handwashing facilities at home (%) - Residence area type: 
+selection	World
+
+graphers
+	residence_area_type Dropdown	yVariableIds	hasMapTab
+	Rural	829326	true
+	Total	829327	true
+	Urban	829328	true
+
+columns
+	variableId
+	829326
+	829327
+	829328

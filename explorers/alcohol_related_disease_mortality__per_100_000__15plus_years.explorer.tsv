@@ -1,0 +1,14 @@
+explorerTitle	Alcohol-related disease mortality, per 100,000 (15+ years) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	821990	true
+	female	821991	true
+	male	821992	true
+
+columns
+	variableId
+	821990
+	821991
+	821992

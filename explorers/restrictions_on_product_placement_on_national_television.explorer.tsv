@@ -1,0 +1,14 @@
+explorerTitle	Restrictions on product placement on national television - Substance abuse advertising types: 
+selection	World
+
+graphers
+	substance_abuse_advertising_types Dropdown	yVariableIds	hasMapTab
+	Beer Ads	830147	true
+	Spirits Ads	830148	true
+	Wine Ads	830149	true
+
+columns
+	variableId
+	830147
+	830148
+	830149

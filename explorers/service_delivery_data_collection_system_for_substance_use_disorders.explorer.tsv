@@ -1,0 +1,12 @@
+explorerTitle	Service delivery data collection system for substance use disorders - Rsud substance types: 
+selection	World
+
+graphers
+	rsud_substance_types Checkbox	yVariableIds	hasMapTab
+	Alcohol	830286	true
+	Drugs	830287	true
+
+columns
+	variableId
+	830286
+	830287

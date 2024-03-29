@@ -1,0 +1,14 @@
+explorerTitle	Age-standardized DALYs, violence, per 100,000 - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	female	821794	true
+	both sexes	821795	true
+	male	821796	true
+
+columns
+	variableId
+	821794
+	821795
+	821796

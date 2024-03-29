@@ -1,0 +1,18 @@
+explorerTitle	Social costs of alcohol use in millions US$ - Substance abuse social cost types: 
+selection	World
+
+graphers
+	substance_abuse_social_cost_types Dropdown	yVariableIds	hasMapTab
+	Direct health costs	830331	true
+	Direct law costs	830332	true
+	Direct other costs	830333	true
+	Indirect costs	830334	true
+	Total costs	830335	true
+
+columns
+	variableId
+	830331
+	830332
+	830333
+	830334
+	830335

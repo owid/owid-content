@@ -1,0 +1,14 @@
+explorerTitle	Data in national radon database - Radon subquestions: 
+selection	World
+
+graphers
+	radon_subquestions Dropdown	yVariableIds	hasMapTab
+	Measurements	825010	true
+	Mitigation	825011	true
+	Prevention	825012	true
+
+columns
+	variableId
+	825010
+	825011
+	825012

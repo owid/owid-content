@@ -1,0 +1,14 @@
+explorerTitle	Participation rate in organized learning (one year before the official primary entry age) (%) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	829117	true
+	female	829118	true
+	male	829119	true
+
+columns
+	variableId
+	829117
+	829118
+	829119

@@ -1,0 +1,24 @@
+explorerTitle	Buprenorphine provision in clinical and community-based settings - Rsud public private settings: 
+selection	World
+
+graphers
+	rsud_public_private_settings Dropdown	yVariableIds	hasMapTab
+	Primary health care	824518	true
+	Prisons	824519	true
+	Private practice	824520	true
+	Community pharmacies	824521	true
+	Private treatment centers	824522	true
+	Public drug treatment centers	824523	true
+	Public general hospitals	824524	true
+	Public mental health hospitals	824525	true
+
+columns
+	variableId
+	824518
+	824519
+	824520
+	824521
+	824522
+	824523
+	824524
+	824525

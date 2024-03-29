@@ -1,0 +1,200 @@
+explorerTitle	Unemployment rate - Age: Age 
+selection	World
+
+graphers
+	age Dropdown	education Dropdown	yVariableIds	hasMapTab
+	Age 10-year bands: 15-24	Education Aggregate levels: Advanced	813211	true
+	Age 10-year bands: 15-24	Education Aggregate levels: Basic	813212	true
+	Age 10-year bands: 15-24	Education Aggregate levels: Intermediate	813213	true
+	Age 10-year bands: 15-24	Education Aggregate levels: Less than basic	813214	true
+	Age 10-year bands: 15-24	Education Aggregate levels: Level not stated	813215	true
+	Age 10-year bands: 15-24	Education Aggregate levels: Total	813216	true
+	Age 10-year bands: 25-34	Education Aggregate levels: Advanced	813217	true
+	Age 10-year bands: 25-34	Education Aggregate levels: Basic	813218	true
+	Age 10-year bands: 25-34	Education Aggregate levels: Intermediate	813219	true
+	Age 10-year bands: 25-34	Education Aggregate levels: Less than basic	813220	true
+	Age 10-year bands: 25-34	Education Aggregate levels: Level not stated	813221	true
+	Age 10-year bands: 25-34	Education Aggregate levels: Total	813222	true
+	Age 10-year bands: 35-44	Education Aggregate levels: Advanced	813223	true
+	Age 10-year bands: 35-44	Education Aggregate levels: Basic	813224	true
+	Age 10-year bands: 35-44	Education Aggregate levels: Intermediate	813225	true
+	Age 10-year bands: 35-44	Education Aggregate levels: Less than basic	813226	true
+	Age 10-year bands: 35-44	Education Aggregate levels: Level not stated	813227	true
+	Age 10-year bands: 35-44	Education Aggregate levels: Total	813228	true
+	Age 10-year bands: 45-54	Education Aggregate levels: Advanced	813229	true
+	Age 10-year bands: 45-54	Education Aggregate levels: Basic	813230	true
+	Age 10-year bands: 45-54	Education Aggregate levels: Intermediate	813231	true
+	Age 10-year bands: 45-54	Education Aggregate levels: Less than basic	813232	true
+	Age 10-year bands: 45-54	Education Aggregate levels: Level not stated	813233	true
+	Age 10-year bands: 45-54	Education Aggregate levels: Total	813234	true
+	Age 10-year bands: 55-64	Education Aggregate levels: Advanced	813235	true
+	Age 10-year bands: 55-64	Education Aggregate levels: Basic	813236	true
+	Age 10-year bands: 55-64	Education Aggregate levels: Intermediate	813237	true
+	Age 10-year bands: 55-64	Education Aggregate levels: Less than basic	813238	true
+	Age 10-year bands: 55-64	Education Aggregate levels: Level not stated	813239	true
+	Age 10-year bands: 55-64	Education Aggregate levels: Total	813240	true
+	Age 10-year bands: 65+	Education Aggregate levels: Advanced	813241	true
+	Age 10-year bands: 65+	Education Aggregate levels: Basic	813242	true
+	Age 10-year bands: 65+	Education Aggregate levels: Intermediate	813243	true
+	Age 10-year bands: 65+	Education Aggregate levels: Less than basic	813244	true
+	Age 10-year bands: 65+	Education Aggregate levels: Level not stated	813245	true
+	Age 10-year bands: 65+	Education Aggregate levels: Total	813246	true
+	Age 10-year bands: Total	Education Aggregate levels: Advanced	813247	true
+	Age 10-year bands: Total	Education Aggregate levels: Basic	813248	true
+	Age 10-year bands: Total	Education Aggregate levels: Intermediate	813249	true
+	Age 10-year bands: Total	Education Aggregate levels: Less than basic	813250	true
+	Age 10-year bands: Total	Education Aggregate levels: Level not stated	813251	true
+	Age 10-year bands: Total	Education Aggregate levels: Total	813252	true
+	Age Aggregate bands: 15-24	Education Aggregate levels: Advanced	813253	true
+	Age Aggregate bands: 15-24	Education Aggregate levels: Basic	813254	true
+	Age Aggregate bands: 15-24	Education Aggregate levels: Intermediate	813255	true
+	Age Aggregate bands: 15-24	Education Aggregate levels: Less than basic	813256	true
+	Age Aggregate bands: 15-24	Education Aggregate levels: Level not stated	813257	true
+	Age Aggregate bands: 15-24	Education Aggregate levels: Total	813258	true
+	Age Aggregate bands: 25-54	Education Aggregate levels: Advanced	813259	true
+	Age Aggregate bands: 25-54	Education Aggregate levels: Basic	813260	true
+	Age Aggregate bands: 25-54	Education Aggregate levels: Intermediate	813261	true
+	Age Aggregate bands: 25-54	Education Aggregate levels: Less than basic	813262	true
+	Age Aggregate bands: 25-54	Education Aggregate levels: Level not stated	813263	true
+	Age Aggregate bands: 25-54	Education Aggregate levels: Total	813264	true
+	Age Aggregate bands: 55-64	Education Aggregate levels: Advanced	813265	true
+	Age Aggregate bands: 55-64	Education Aggregate levels: Basic	813266	true
+	Age Aggregate bands: 55-64	Education Aggregate levels: Intermediate	813267	true
+	Age Aggregate bands: 55-64	Education Aggregate levels: Less than basic	813268	true
+	Age Aggregate bands: 55-64	Education Aggregate levels: Level not stated	813269	true
+	Age Aggregate bands: 55-64	Education Aggregate levels: Total	813270	true
+	Age Aggregate bands: 65+	Education Aggregate levels: Advanced	813271	true
+	Age Aggregate bands: 65+	Education Aggregate levels: Basic	813272	true
+	Age Aggregate bands: 65+	Education Aggregate levels: Intermediate	813273	true
+	Age Aggregate bands: 65+	Education Aggregate levels: Less than basic	813274	true
+	Age Aggregate bands: 65+	Education Aggregate levels: Level not stated	813275	true
+	Age Aggregate bands: 65+	Education Aggregate levels: Total	813276	true
+	Age Aggregate bands: Total	Education Aggregate levels: Advanced	813277	true
+	Age Aggregate bands: Total	Education Aggregate levels: Basic	813278	true
+	Age Aggregate bands: Total	Education Aggregate levels: Intermediate	813279	true
+	Age Aggregate bands: Total	Education Aggregate levels: Less than basic	813280	true
+	Age Aggregate bands: Total	Education Aggregate levels: Level not stated	813281	true
+	Age Aggregate bands: Total	Education Aggregate levels: Total	813282	true
+	Age Youth, adults: 15+	Education Aggregate levels: Advanced	813283	true
+	Age Youth, adults: 15+	Education Aggregate levels: Basic	813284	true
+	Age Youth, adults: 15+	Education Aggregate levels: Intermediate	813285	true
+	Age Youth, adults: 15+	Education Aggregate levels: Less than basic	813286	true
+	Age Youth, adults: 15+	Education Aggregate levels: Level not stated	813287	true
+	Age Youth, adults: 15+	Education Aggregate levels: Total	813288	true
+	Age Youth, adults: 15-24	Education Aggregate levels: Advanced	813289	true
+	Age Youth, adults: 15-24	Education Aggregate levels: Basic	813290	true
+	Age Youth, adults: 15-24	Education Aggregate levels: Intermediate	813291	true
+	Age Youth, adults: 15-24	Education Aggregate levels: Level not stated	813292	true
+	Age Youth, adults: 15-24	Education Aggregate levels: Less than basic	813293	true
+	Age Youth, adults: 15-24	Education Aggregate levels: Total	813294	true
+	Age Youth, adults: 15-64	Education Aggregate levels: Advanced	813295	true
+	Age Youth, adults: 15-64	Education Aggregate levels: Basic	813296	true
+	Age Youth, adults: 15-64	Education Aggregate levels: Intermediate	813297	true
+	Age Youth, adults: 15-64	Education Aggregate levels: Less than basic	813298	true
+	Age Youth, adults: 15-64	Education Aggregate levels: Level not stated	813299	true
+	Age Youth, adults: 15-64	Education Aggregate levels: Total	813300	true
+	Age Youth, adults: 25+	Education Aggregate levels: Advanced	813301	true
+	Age Youth, adults: 25+	Education Aggregate levels: Basic	813302	true
+	Age Youth, adults: 25+	Education Aggregate levels: Intermediate	813303	true
+	Age Youth, adults: 25+	Education Aggregate levels: Less than basic	813304	true
+	Age Youth, adults: 25+	Education Aggregate levels: Level not stated	813305	true
+	Age Youth, adults: 25+	Education Aggregate levels: Total	813306	true
+
+columns
+	variableId
+	813211
+	813212
+	813213
+	813214
+	813215
+	813216
+	813217
+	813218
+	813219
+	813220
+	813221
+	813222
+	813223
+	813224
+	813225
+	813226
+	813227
+	813228
+	813229
+	813230
+	813231
+	813232
+	813233
+	813234
+	813235
+	813236
+	813237
+	813238
+	813239
+	813240
+	813241
+	813242
+	813243
+	813244
+	813245
+	813246
+	813247
+	813248
+	813249
+	813250
+	813251
+	813252
+	813253
+	813254
+	813255
+	813256
+	813257
+	813258
+	813259
+	813260
+	813261
+	813262
+	813263
+	813264
+	813265
+	813266
+	813267
+	813268
+	813269
+	813270
+	813271
+	813272
+	813273
+	813274
+	813275
+	813276
+	813277
+	813278
+	813279
+	813280
+	813281
+	813282
+	813283
+	813284
+	813285
+	813286
+	813287
+	813288
+	813289
+	813290
+	813291
+	813292
+	813293
+	813294
+	813295
+	813296
+	813297
+	813298
+	813299
+	813300
+	813301
+	813302
+	813303
+	813304
+	813305
+	813306

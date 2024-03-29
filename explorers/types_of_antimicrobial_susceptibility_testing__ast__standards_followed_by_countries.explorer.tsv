@@ -1,0 +1,20 @@
+explorerTitle	Types of Antimicrobial Susceptibility Testing (AST) standards followed by countries - Amr glass category: 
+selection	World
+
+graphers
+	amr_glass_category Dropdown	yVariableIds	hasMapTab
+	Both EUCAST/CLSI	830771	true
+	CLSI	830772	true
+	EUCAST	830773	true
+	Not enrolled in GLASS	830774	true
+	Other	830775	true
+	Not reported	830776	true
+
+columns
+	variableId
+	830771
+	830772
+	830773
+	830774
+	830775
+	830776

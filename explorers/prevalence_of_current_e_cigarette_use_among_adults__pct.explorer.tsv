@@ -1,0 +1,14 @@
+explorerTitle	Prevalence of current e-cigarette use among adults (%) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	829530	true
+	female	829531	true
+	male	829532	true
+
+columns
+	variableId
+	829530
+	829531
+	829532

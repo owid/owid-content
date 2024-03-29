@@ -1,0 +1,68 @@
+explorerTitle	HIV Prevalence - Disaggregation: 
+selection	World
+
+graphers
+	disaggregation Dropdown	yVariableIds	hasMapTab
+	0-14 estimate	789732	true
+	0-14 lower estimate	789733	true
+	0-14 upper estimate	789734	true
+	Adults (15+) estimate	789757	true
+	Adults (15+) lower estimate	789761	true
+	Adults (15+) upper estimate	789765	true
+	Adults (15-49) estimate modelled	789770	true
+	Adults (15-49) lower estimate modelled	789774	true
+	Adults (15-49) upper estimate modelled	789778	true
+	Females Adults (15+) estimate	789831	true
+	Females Adults (15+) lower estimate	789835	true
+	Females Adults (15+) upper estimate	789839	true
+	Females Adults (15-49) estimate	789844	true
+	Females Adults (15-49) lower estimate	789848	true
+	Females Adults (15-49) upper estimate	789852	true
+	Females Young people (15-24) estimate modelled	789870	true
+	Females Young people (15-24) lower estimate modelled	789874	true
+	Females Young people (15-24) upper estimate modelled	789878	true
+	Males Adults (15+) estimate	789912	true
+	Males Adults (15+) lower estimate	789916	true
+	Males Adults (15+) upper estimate	789920	true
+	Males Adults (15-49) estimate	789925	true
+	Males Adults (15-49) lower estimate	789929	true
+	Males Adults (15-49) upper estimate	789933	true
+	Males Young people (15-24) estimate modelled	789951	true
+	Males Young people (15-24) lower estimate modelled	789955	true
+	Males Young people (15-24) upper estimate modelled	789959	true
+	Young people (15-24) estimate	789974	true
+	Young people (15-24) lower estimate	789978	true
+	Young people (15-24) upper estimate	789982	true
+
+columns
+	variableId
+	789732
+	789733
+	789734
+	789757
+	789761
+	789765
+	789770
+	789774
+	789778
+	789831
+	789835
+	789839
+	789844
+	789848
+	789852
+	789870
+	789874
+	789878
+	789912
+	789916
+	789920
+	789925
+	789929
+	789933
+	789951
+	789955
+	789959
+	789974
+	789978
+	789982

@@ -1,0 +1,12 @@
+explorerTitle	Prevalence of active syphilis in individuals (%) - Sex: 
+selection	World
+
+graphers
+	sex Checkbox	yVariableIds	hasMapTab
+	female	829485	true
+	male	829486	true
+
+columns
+	variableId
+	829485
+	829486

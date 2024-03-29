@@ -1,0 +1,108 @@
+explorerTitle	Fertility rate - Sex: all - Age: 
+selection	World
+
+graphers
+	age Dropdown	variant Dropdown	yVariableIds	hasMapTab
+	30-34	estimates	520444	true
+	30-34	medium	520445	true
+	30-34	high	520446	true
+	30-34	low	520447	true
+	30-34	constant fertility	520448	true
+	20-24	estimates	520449	true
+	20-24	medium	520450	true
+	20-24	low	520451	true
+	20-24	high	520452	true
+	20-24	constant fertility	520453	true
+	10-14	estimates	520454	true
+	10-14	medium	520455	true
+	10-14	high	520456	true
+	10-14	constant fertility	520457	true
+	10-14	low	520458	true
+	45-49	estimates	520459	true
+	45-49	medium	520460	true
+	45-49	high	520461	true
+	45-49	low	520462	true
+	45-49	constant fertility	520463	true
+	40-44	estimates	520464	true
+	40-44	medium	520465	true
+	40-44	high	520466	true
+	40-44	low	520467	true
+	40-44	constant fertility	520468	true
+	all	estimates	520469	true
+	all	medium	520470	true
+	all	high	520471	true
+	all	low	520472	true
+	all	constant fertility	520473	true
+	15-19	estimates	520474	true
+	15-19	medium	520475	true
+	15-19	high	520476	true
+	15-19	constant fertility	520477	true
+	15-19	low	520478	true
+	35-39	estimates	520479	true
+	35-39	medium	520480	true
+	35-39	high	520481	true
+	35-39	low	520482	true
+	35-39	constant fertility	520483	true
+	50-54	estimates	520484	true
+	50-54	medium	520485	true
+	50-54	high	520486	true
+	50-54	low	520487	true
+	50-54	constant fertility	520488	true
+	25-29	estimates	520489	true
+	25-29	medium	520490	true
+	25-29	high	520491	true
+	25-29	low	520492	true
+	25-29	constant fertility	520493	true
+
+columns
+	variableId
+	520444
+	520445
+	520446
+	520447
+	520448
+	520449
+	520450
+	520451
+	520452
+	520453
+	520454
+	520455
+	520456
+	520457
+	520458
+	520459
+	520460
+	520461
+	520462
+	520463
+	520464
+	520465
+	520466
+	520467
+	520468
+	520469
+	520470
+	520471
+	520472
+	520473
+	520474
+	520475
+	520476
+	520477
+	520478
+	520479
+	520480
+	520481
+	520482
+	520483
+	520484
+	520485
+	520486
+	520487
+	520488
+	520489
+	520490
+	520491
+	520492
+	520493

@@ -1,0 +1,270 @@
+explorerTitle	deaths_100k - Ghe_cause_title: 
+selection	World
+
+graphers
+	ghe_cause_title Dropdown	yVariableIds	hasMapTab
+	Acute hepatitis A	525850	true
+	Acute hepatitis B	525857	true
+	Acute hepatitis C	525863	true
+	Acute hepatitis E	525871	true
+	African trypanosomiasis	525879	true
+	Alcohol use disorders	525884	true
+	Alzheimer disease and other dementias	525892	true
+	Anxiety disorders	525899	true
+	Appendicitis	525906	true
+	Ascariasis	525914	true
+	Asthma	525920	true
+	Autism and Asperger syndrome	525927	true
+	Back and neck pain	525934	true
+	Benign prostatic hyperplasia	525942	true
+	Bipolar disorder	525948	true
+	Bladder cancer	525955	true
+	Brain and nervous system cancers	525962	true
+	Breast cancer	525969	true
+	Cardiomyopathy, myocarditis, endocarditis	525976	true
+	Cataracts	525983	true
+	Cervix uteri cancer	525990	true
+	Chagas disease	525997	true
+	Childhood behavioural disorders	526004	true
+	Chlamydia	526011	true
+	Chronic obstructive pulmonary disease	526018	true
+	Cirrhosis of the liver	526025	true
+	Collective violence and legal intervention	526032	true
+	Colon and rectum cancers	526039	true
+	Congenital anomalies	526046	true
+	Corpus uteri cancer	526053	true
+	Cysticercosis	526060	true
+	Dengue	526067	true
+	Depressive disorders	526074	true
+	Diabetes mellitus	526081	true
+	Diarrhoeal diseases	526088	true
+	Diphtheria	526095	true
+	Drowning	526102	true
+	Drug use disorders	526110	true
+	Eating disorders	526116	true
+	Echinococcosis	526123	true
+	Encephalitis	526130	true
+	Epilepsy	526137	true
+	Exposure to mechanical forces	526144	true
+	Falls	526151	true
+	Fire, heat and hot substances	526158	true
+	Food-bourne trematodes	526165	true
+	Gallbladder and biliary diseases	526172	true
+	Gallbladder and biliary tract cancer	526179	true
+	Gastritis and duodenitis	526186	true
+	Genital herpes	526193	true
+	Glaucoma	526201	true
+	Gonorrhoea	526207	true
+	Gout	526214	true
+	Gynecological diseases	526221	true
+	HIV/AIDS	526228	true
+	Hookworm disease	526235	true
+	Hypertensive heart disease	526242	true
+	Idiopathic intellectual disability	526249	true
+	Infertility	526256	true
+	Inflammatory bowel disease	526263	true
+	Interpersonal violence	526270	true
+	Iodine deficiency	526276	true
+	Iron-deficiency anaemia	526284	true
+	Ischaemic heart disease	526291	true
+	Kidney cancer	526298	true
+	Kidney diseases	526305	true
+	Larynx cancer	526312	true
+	Leishmaniasis	526319	true
+	Leprosy	526326	true
+	Leukaemia	526333	true
+	Liver cancer	526340	true
+	Lower respiratory infections	526347	true
+	Lymphatic filariasis	526354	true
+	Lymphomas, multiple myeloma	526361	true
+	Macular degeneration	526368	true
+	Malaria	526375	true
+	Maternal conditions	526382	true
+	Measles	526389	true
+	Melanoma and other skin cancers	526396	true
+	Meningitis	526403	true
+	Mesothelioma	526411	true
+	Migraine	526417	true
+	Mouth and oropharynx cancers	526425	true
+	Multiple sclerosis	526431	true
+	Natural disasters	526437	true
+	Neonatal conditions	526445	true
+	Non-migraine headache	526452	true
+	Oesophagus cancer	526459	true
+	Onchocerciasis	526467	true
+	Oral conditions	526473	true
+	Osteoarthritis	526480	true
+	Other hearing loss	526487	true
+	Other vision loss	526494	true
+	Otitis media	526501	true
+	Ovary cancer	526508	true
+	Pancreas cancer	526515	true
+	Pancreatitis	526522	true
+	Paralytic ileus and intestinal obstruction	526529	true
+	Parkinson disease	526536	true
+	Peptic ulcer disease	526543	true
+	Poisonings	526550	true
+	Prostate cancer	526557	true
+	Protein-energy malnutrition	526564	true
+	Rabies	526571	true
+	Rheumatic heart disease	526578	true
+	Rheumatoid arthritis	526585	true
+	Road injury	526592	true
+	Schistosomiasis	526599	true
+	Schizophrenia	526606	true
+	Self-harm	526613	true
+	Sickle cell disorders and trait	526620	true
+	Skin diseases	526628	true
+	Stomach cancer	526634	true
+	Stroke	526641	true
+	Sudden infant death syndrome	526648	true
+	Syphilis	526655	true
+	Testicular cancer	526662	true
+	Tetanus	526669	true
+	Thalassaemias	526676	true
+	Thyroid cancer	526683	true
+	Trachea, bronchus, lung cancers	526690	true
+	Trachoma	526697	true
+	Trichomoniasis	526704	true
+	Trichuriasis	526711	true
+	Tuberculosis	526718	true
+	Uncorrected refractive errors	526724	true
+	Upper respiratory infections	526732	true
+	Urolithiasis	526739	true
+	Vitamin A deficiency	526745	true
+	Whooping cough	526753	true
+	Yellow fever	526760	true
+
+columns
+	variableId
+	525850
+	525857
+	525863
+	525871
+	525879
+	525884
+	525892
+	525899
+	525906
+	525914
+	525920
+	525927
+	525934
+	525942
+	525948
+	525955
+	525962
+	525969
+	525976
+	525983
+	525990
+	525997
+	526004
+	526011
+	526018
+	526025
+	526032
+	526039
+	526046
+	526053
+	526060
+	526067
+	526074
+	526081
+	526088
+	526095
+	526102
+	526110
+	526116
+	526123
+	526130
+	526137
+	526144
+	526151
+	526158
+	526165
+	526172
+	526179
+	526186
+	526193
+	526201
+	526207
+	526214
+	526221
+	526228
+	526235
+	526242
+	526249
+	526256
+	526263
+	526270
+	526276
+	526284
+	526291
+	526298
+	526305
+	526312
+	526319
+	526326
+	526333
+	526340
+	526347
+	526354
+	526361
+	526368
+	526375
+	526382
+	526389
+	526396
+	526403
+	526411
+	526417
+	526425
+	526431
+	526437
+	526445
+	526452
+	526459
+	526467
+	526473
+	526480
+	526487
+	526494
+	526501
+	526508
+	526515
+	526522
+	526529
+	526536
+	526543
+	526550
+	526557
+	526564
+	526571
+	526578
+	526585
+	526592
+	526599
+	526606
+	526613
+	526620
+	526628
+	526634
+	526641
+	526648
+	526655
+	526662
+	526669
+	526676
+	526683
+	526690
+	526697
+	526704
+	526711
+	526718
+	526724
+	526732
+	526739
+	526745
+	526753
+	526760

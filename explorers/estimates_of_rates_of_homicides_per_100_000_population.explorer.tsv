@@ -1,0 +1,14 @@
+explorerTitle	Estimates of rates of homicides per 100 000 population - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	825630	true
+	female	825631	true
+	male	825632	true
+
+columns
+	variableId
+	825630
+	825631
+	825632

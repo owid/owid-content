@@ -1,0 +1,54 @@
+explorerTitle	Total patent applications granted - Field: 
+selection	World
+
+graphers
+	field Dropdown	yVariableIds	hasMapTab
+	All	789151	true
+	Analytics and algorithms	789161	true
+	Banking and finance	789166	true
+	Business	789175	true
+	Computer vision	789184	true
+	Control methods	789198	true
+	Energy management	789221	true
+	General	789238	true
+	Industry and manufacturing	789265	true
+	Knowledge representation	789279	true
+	Life sciences	789288	true
+	Logic programming	789293	true
+	Machine learning	789298	true
+	Measuring and testing	789317	true
+	Ontology engineering	789343	true
+	Personal devices and computing	789352	true
+	Physical sciences and engineering	789357	true
+	Planning and scheduling	789362	true
+	Probabilistic reasoning	789371	true
+	Security	789393	true
+	Speech processing	789407	true
+	Telecommunications	789425	true
+	Transportation	789439	true
+
+columns
+	variableId
+	789151
+	789161
+	789166
+	789175
+	789184
+	789198
+	789221
+	789238
+	789265
+	789279
+	789288
+	789293
+	789298
+	789317
+	789343
+	789352
+	789357
+	789362
+	789371
+	789393
+	789407
+	789425
+	789439

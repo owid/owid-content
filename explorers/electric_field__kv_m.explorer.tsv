@@ -1,0 +1,14 @@
+explorerTitle	Electric field (kV/m) - Exposed: 
+selection	World
+
+graphers
+	exposed Checkbox	frequency Checkbox	yVariableIds	hasMapTab
+	Public	Low-frequency	825517	true
+	Public	Static	825518	true
+	Workers	Static	825519	true
+
+columns
+	variableId
+	825517
+	825518
+	825519

@@ -1,0 +1,32 @@
+explorerTitle	Postnatal care visit within two days of birth - born outside a health facility (in the five years preceding the survey) (%) - 
+selection	World
+
+graphers
+	sex Checkbox	mothers_education_level Dropdown	residence_area_type Checkbox	wealth_quintile Dropdown	yVariableIds	hasMapTab
+	female				829384	true
+	male				829385	true
+		None			829386	true
+		Primary			829387	true
+		Secondary or higher			829388	true
+			Rural		829389	true
+			Urban		829390	true
+				Q1 (Poorest)	829391	true
+				Q2	829392	true
+				Q3	829393	true
+				Q4	829394	true
+				Q5 (Richest)	829395	true
+
+columns
+	variableId
+	829384
+	829385
+	829386
+	829387
+	829388
+	829389
+	829390
+	829391
+	829392
+	829393
+	829394
+	829395

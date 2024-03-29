@@ -1,0 +1,12 @@
+explorerTitle	Ministry/office that takes primary responsibility for prevention for substance use - Rsud substance types: 
+selection	World
+
+graphers
+	rsud_substance_types Checkbox	yVariableIds	hasMapTab
+	Alcohol	828460	true
+	Drugs	828461	true
+
+columns
+	variableId
+	828460
+	828461

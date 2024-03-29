@@ -1,0 +1,14 @@
+explorerTitle	On-premise sales restrictions on outlet density - Beverage types: 
+selection	World
+
+graphers
+	beverage_types Dropdown	yVariableIds	hasMapTab
+	Beer	829032	true
+	Spirits	829033	true
+	Wine	829034	true
+
+columns
+	variableId
+	829032
+	829033
+	829034

@@ -1,0 +1,18 @@
+explorerTitle	Number of democracies aged 
+selection	World
+
+graphers
+	category Dropdown	yVariableIds	hasMapTab
+	1-18	831004	true
+	19-30	831006	true
+	31-60	831008	true
+	61-90	831010	true
+	91+	831012	true
+
+columns
+	variableId
+	831004
+	831006
+	831008
+	831010
+	831012

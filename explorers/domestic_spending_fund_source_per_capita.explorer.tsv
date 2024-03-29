@@ -1,0 +1,22 @@
+explorerTitle	Country-reported HIV expenditure by funding source (per capita) - Disaggregation: 
+selection	World
+
+graphers
+	disaggregation Dropdown	yVariableIds	hasMapTab
+	Domestic Private	789799	true
+	Domestic Public	789801	true
+	Global Fund	789880	true
+	International	789882	true
+	Other international	789961	true
+	PEPFAR	789963	true
+	Total	789968	true
+
+columns
+	variableId
+	789799
+	789801
+	789880
+	789882
+	789961
+	789963
+	789968

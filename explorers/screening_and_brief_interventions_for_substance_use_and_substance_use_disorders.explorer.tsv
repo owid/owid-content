@@ -1,0 +1,12 @@
+explorerTitle	Screening and brief interventions for substance use and substance use disorders - Rsud substance type disorders: 
+selection	World
+
+graphers
+	rsud_substance_type_disorders Checkbox	yVariableIds	hasMapTab
+	Alcohol use and alcohol use disorders	830227	true
+	Drug use and drug use disorders	830228	true
+
+columns
+	variableId
+	830227
+	830228

@@ -1,0 +1,16 @@
+explorerTitle	Pattern of antibiotic consumption at national level (relative consumption by AWaRe classification) - Aware antibiotics group: 
+selection	World
+
+graphers
+	aware_antibiotics_group Dropdown	yVariableIds	hasMapTab
+	Access (%)	829120	true
+	Not classified (%) / not recommended (%)	829121	true
+	Reserve (%)	829122	true
+	Watch (%)	829123	true
+
+columns
+	variableId
+	829120
+	829121
+	829122
+	829123

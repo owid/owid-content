@@ -1,0 +1,12 @@
+explorerTitle	System of monitoring drugs involvement in forensic pathology - Monitoring system: In 
+selection	World
+
+graphers
+	monitoring_system Checkbox	yVariableIds	hasMapTab
+	In forensic examinations (deaths)	830459	true
+	In toxicology units (poisonings and intoxications)	830460	true
+
+columns
+	variableId
+	830459
+	830460

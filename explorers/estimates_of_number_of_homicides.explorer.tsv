@@ -1,0 +1,34 @@
+explorerTitle	Estimates of number of homicides - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	age_group Dropdown	yVariableIds	hasMapTab
+	female	0-4 years	825617	true
+	female	10-29 years	825618	true
+	female	30-49 years of age	825619	true
+	female	5-9 years of age	825620	true
+	female	50+ years of age	825621	true
+	both sexes		825622	true
+	female		825623	true
+	male	0-4 years	825624	true
+	male	30-49 years of age	825625	true
+	male	5-9 years of age	825626	true
+	male	10-29 years	825627	true
+	male	50+ years of age	825628	true
+	male		825629	true
+
+columns
+	variableId
+	825617
+	825618
+	825619
+	825620
+	825621
+	825622
+	825623
+	825624
+	825625
+	825626
+	825627
+	825628
+	825629

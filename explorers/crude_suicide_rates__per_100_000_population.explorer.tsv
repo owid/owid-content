@@ -1,0 +1,80 @@
+explorerTitle	Crude suicide rates (per 100 000 population) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	age_group Dropdown	yVariableIds	hasMapTab
+	both sexes	15-19 years	824964	true
+	both sexes	15-24 years of age	824965	true
+	both sexes	15-29  years	824966	true
+	both sexes	25-34 years of age	824967	true
+	both sexes	30-49 years of age	824968	true
+	both sexes	35-44 years of age	824969	true
+	both sexes	45-54 years	824970	true
+	both sexes	55-64 years	824971	true
+	both sexes	65-74 years	824972	true
+	both sexes	75-84 years	824973	true
+	both sexes	85+ years of age	824974	true
+	female	15-19 years	824975	true
+	both sexes	Total (All ages)	824976	true
+	female	15-24 years of age	824977	true
+	female	15-29  years	824978	true
+	female	25-34 years of age	824979	true
+	female	30-49 years of age	824980	true
+	female	35-44 years of age	824981	true
+	female	45-54 years	824982	true
+	female	55-64 years	824983	true
+	female	65-74 years	824984	true
+	female	75-84 years	824985	true
+	female	85+ years of age	824986	true
+	female	Total (All ages)	824987	true
+	male	15-19 years	824988	true
+	male	15-24 years of age	824989	true
+	male	15-29  years	824990	true
+	male	25-34 years of age	824991	true
+	male	30-49 years of age	824992	true
+	male	35-44 years of age	824993	true
+	male	45-54 years	824994	true
+	male	55-64 years	824995	true
+	male	65-74 years	824996	true
+	male	75-84 years	824997	true
+	male	85+ years of age	824998	true
+	male	Total (All ages)	824999	true
+
+columns
+	variableId
+	824964
+	824965
+	824966
+	824967
+	824968
+	824969
+	824970
+	824971
+	824972
+	824973
+	824974
+	824975
+	824976
+	824977
+	824978
+	824979
+	824980
+	824981
+	824982
+	824983
+	824984
+	824985
+	824986
+	824987
+	824988
+	824989
+	824990
+	824991
+	824992
+	824993
+	824994
+	824995
+	824996
+	824997
+	824998
+	824999

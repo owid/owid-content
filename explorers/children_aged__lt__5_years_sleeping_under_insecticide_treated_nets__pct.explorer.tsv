@@ -1,0 +1,52 @@
+explorerTitle	Children aged < 5 years sleeping under insecticide-treated nets (%) - 
+selection	World
+
+graphers
+	sex Checkbox	mothers_education_level Dropdown	residence_area_type Checkbox	wealth_quintile Dropdown	wealth_decile Dropdown	yVariableIds	hasMapTab
+	female					824666	true
+	male					824667	true
+		None				824668	true
+		Primary				824669	true
+		Secondary or higher				824670	true
+			Rural			824671	true
+			Urban			824672	true
+				Q1 (Poorest)		824673	true
+				Q2		824674	true
+				Q3		824675	true
+				Q4		824676	true
+				Q5 (Richest)		824677	true
+					Decile 1 (poorest)	824678	true
+					Decile 10 (richest)	824679	true
+					Decile 2	824680	true
+					Decile 3	824681	true
+					Decile 4	824682	true
+					Decile 5	824683	true
+					Decile 6	824684	true
+					Decile 7	824685	true
+					Decile 8	824686	true
+					Decile 9	824687	true
+
+columns
+	variableId
+	824666
+	824667
+	824668
+	824669
+	824670
+	824671
+	824672
+	824673
+	824674
+	824675
+	824676
+	824677
+	824678
+	824679
+	824680
+	824681
+	824682
+	824683
+	824684
+	824685
+	824686
+	824687

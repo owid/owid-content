@@ -1,0 +1,14 @@
+explorerTitle	Age-standardized suicide rate - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	830989	true
+	female	830990	true
+	male	830991	true
+
+columns
+	variableId
+	830989
+	830990
+	830991

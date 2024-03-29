@@ -1,0 +1,18 @@
+explorerTitle	Child mortality rate - Sex: all - Age: 0-4 - Variant: 
+selection	World
+
+graphers
+	variant Dropdown	yVariableIds	hasMapTab
+	estimates	520389	true
+	medium	520390	true
+	high	520391	true
+	low	520392	true
+	constant fertility	520393	true
+
+columns
+	variableId
+	520389
+	520390
+	520391
+	520392
+	520393

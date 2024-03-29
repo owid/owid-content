@@ -1,0 +1,12 @@
+explorerTitle	Prevalent cases of active syphilis (in thousands) - Sex: 
+selection	World
+
+graphers
+	sex Checkbox	yVariableIds	hasMapTab
+	female	829836	true
+	male	829837	true
+
+columns
+	variableId
+	829836
+	829837

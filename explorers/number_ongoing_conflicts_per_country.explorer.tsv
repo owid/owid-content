@@ -1,0 +1,14 @@
+explorerTitle	Number of ongoing conflicts per state - Conflict type: 
+selection	World
+
+graphers
+	conflict_type Dropdown	yVariableIds	hasMapTab
+	all	815272	true
+	internal	815276	true
+	interstate	815280	true
+
+columns
+	variableId
+	815272
+	815276
+	815280

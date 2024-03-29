@@ -1,0 +1,16 @@
+explorerTitle	External Quality Assessment (EQA) provided to the national reference laboratory (NRL) - Amr glass category: 
+selection	World
+
+graphers
+	amr_glass_category Dropdown	yVariableIds	hasMapTab
+	Not enrolled in GLASS	825964	true
+	Not provided	825965	true
+	Not reported	825966	true
+	Provided	825967	true
+
+columns
+	variableId
+	825964
+	825965
+	825966
+	825967

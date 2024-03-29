@@ -1,0 +1,68 @@
+explorerTitle	Exclusive breastfeeding under six months - 
+selection	World
+
+graphers
+	sex Dropdown	age_group Dropdown	mothers_education_level Dropdown	residence_area_type Dropdown	wealth_quintile Dropdown	household_wealth Dropdown	yVariableIds	hasMapTab
+	both sexes						825687	true
+	female						825688	true
+	male						825689	true
+		0 to 1 month					825690	true
+		2 to 3 months					825691	true
+		4 to 5 months					825692	true
+		Total (All ages)					825693	true
+			Higher education				825694	true
+			None				825695	true
+			None and primary education				825696	true
+			Primary				825697	true
+			Secondary education				825698	true
+			Secondary or higher				825699	true
+			TotalTotalTotalTotal				825700	true
+				Rural			825701	true
+				TotalTotalTotalTotal			825702	true
+				Urban			825703	true
+					Q1 (Poorest)		825704	true
+					Q2		825705	true
+					Q3		825706	true
+					Q4		825707	true
+					Q5 (Richest)		825708	true
+					TotalTotalTotalTotal		825709	true
+						TotalTotalTotalTotal	825710	true
+						Wealth - Bottom 40%	825711	true
+						Wealth - Bottom 60%	825712	true
+						Wealth - Bottom 80%	825713	true
+						Wealth - Top 40%	825714	true
+						Wealth - Top 60%	825715	true
+						Wealth - Top 80%	825716	true
+
+columns
+	variableId
+	825687
+	825688
+	825689
+	825690
+	825691
+	825692
+	825693
+	825694
+	825695
+	825696
+	825697
+	825698
+	825699
+	825700
+	825701
+	825702
+	825703
+	825704
+	825705
+	825706
+	825707
+	825708
+	825709
+	825710
+	825711
+	825712
+	825713
+	825714
+	825715
+	825716

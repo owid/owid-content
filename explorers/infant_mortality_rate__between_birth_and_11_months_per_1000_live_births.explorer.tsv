@@ -1,0 +1,14 @@
+explorerTitle	Infant mortality rate (between birth and 11 months per 1000 live births) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	827909	true
+	female	827910	true
+	male	827911	true
+
+columns
+	variableId
+	827909
+	827910
+	827911

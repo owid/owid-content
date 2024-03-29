@@ -1,0 +1,18 @@
+explorerTitle	Distribution of road traffic deaths by type of road user (%) - Road user type: 
+selection	World
+
+graphers
+	road_user_type Dropdown	yVariableIds	hasMapTab
+	Cyclists	825369	true
+	Drivers/passengers of motorized 2- or 3-wheelers	825370	true
+	Drivers/passengers of 4-wheeled vehicles	825371	true
+	Other/unspecified road users	825372	true
+	Pedestrians	825373	true
+
+columns
+	variableId
+	825369
+	825370
+	825371
+	825372
+	825373

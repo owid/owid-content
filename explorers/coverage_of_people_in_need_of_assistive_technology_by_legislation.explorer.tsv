@@ -1,0 +1,22 @@
+explorerTitle	Coverage of people in need of assistive technology by legislation - Assistive technology subquestion: 
+selection	World
+
+graphers
+	assistive_technology_subquestion Dropdown	yVariableIds	hasMapTab
+	People with difficulties in Cognition	824957	true
+	People with difficulties in Communication	824958	true
+	People with difficulties in Hearing	824959	true
+	People with difficulties in Mobility	824960	true
+	People with difficulties in Self-care	824961	true
+	People with difficulties in Vision	824962	true
+	Summary	824963	true
+
+columns
+	variableId
+	824957
+	824958
+	824959
+	824960
+	824961
+	824962
+	824963

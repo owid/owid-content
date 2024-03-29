@@ -1,0 +1,14 @@
+explorerTitle	Prescription requirements for buprenorphine/naloxone - Rsud drug prescription: 
+selection	World
+
+graphers
+	rsud_drug_prescription Dropdown	yVariableIds	hasMapTab
+	Any doctor	829474	true
+	Non-doctors	829475	true
+	Specialized doctors	829476	true
+
+columns
+	variableId
+	829474
+	829475
+	829476

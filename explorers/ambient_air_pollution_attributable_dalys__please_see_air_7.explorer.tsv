@@ -1,0 +1,44 @@
+explorerTitle	Ambient air pollution attributable DALYs (please see AIR_7) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	causes Dropdown	yVariableIds	hasMapTab
+	both sexes	All Causes	822699	true
+	both sexes	Chronic obstructive pulmonary disease	822700	true
+	both sexes	Ischaemic heart disease	822701	true
+	both sexes	Lower respiratory infections	822702	true
+	both sexes	Stroke	822703	true
+	both sexes	Trachea, bronchus, lung cancers	822704	true
+	female	All Causes	822705	true
+	female	Chronic obstructive pulmonary disease	822706	true
+	female	Ischaemic heart disease	822707	true
+	female	Lower respiratory infections	822708	true
+	female	Stroke	822709	true
+	female	Trachea, bronchus, lung cancers	822710	true
+	male	All Causes	822711	true
+	male	Chronic obstructive pulmonary disease	822712	true
+	male	Ischaemic heart disease	822713	true
+	male	Lower respiratory infections	822714	true
+	male	Stroke	822715	true
+	male	Trachea, bronchus, lung cancers	822716	true
+
+columns
+	variableId
+	822699
+	822700
+	822701
+	822702
+	822703
+	822704
+	822705
+	822706
+	822707
+	822708
+	822709
+	822710
+	822711
+	822712
+	822713
+	822714
+	822715
+	822716

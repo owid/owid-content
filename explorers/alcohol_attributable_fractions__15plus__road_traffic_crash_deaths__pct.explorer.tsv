@@ -1,0 +1,12 @@
+explorerTitle	Alcohol-attributable fractions (15+), road traffic crash deaths (%) - Sex: 
+selection	World
+
+graphers
+	sex Checkbox	yVariableIds	hasMapTab
+	male	821974	true
+	female	821975	true
+
+columns
+	variableId
+	821974
+	821975

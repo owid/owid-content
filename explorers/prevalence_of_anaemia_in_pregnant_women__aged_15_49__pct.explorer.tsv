@@ -1,0 +1,18 @@
+explorerTitle	Prevalence of anaemia in pregnant women (aged 15-49) (%) - Se
+selection	World
+
+graphers
+	severity Dropdown	yVariableIds	hasMapTab
+		829497	true
+	Mild	829498	true
+	Moderate	829499	true
+	Severe	829500	true
+	Total	829501	true
+
+columns
+	variableId
+	829497
+	829498
+	829499
+	829500
+	829501

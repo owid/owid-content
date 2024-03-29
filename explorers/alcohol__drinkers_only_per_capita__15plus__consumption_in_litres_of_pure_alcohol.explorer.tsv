@@ -1,0 +1,14 @@
+explorerTitle	Alcohol, drinkers only per capita (15+)consumption in litres of pure alcohol - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	821919	true
+	female	821920	true
+	male	821921	true
+
+columns
+	variableId
+	821919
+	821920
+	821921

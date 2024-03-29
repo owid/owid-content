@@ -1,0 +1,12 @@
+explorerTitle	Voluntary treatment for people with alcohol use disorders in the criminal justice system - Treatment: 
+selection	World
+
+graphers
+	treatment Checkbox	yVariableIds	hasMapTab
+	As an alternative to criminal sanction	830856	true
+	In addition to criminal sanction	830857	true
+
+columns
+	variableId
+	830856
+	830857

@@ -1,0 +1,24 @@
+explorerTitle	Existence of legislation on access to assistive technology - Assistive technology subquestion: 
+selection	World
+
+graphers
+	assistive_technology_subquestion Dropdown	yVariableIds	hasMapTab
+	A separate legislation on assistive technology	825850	true
+	Legislation on defense (or similar)	825851	true
+	Legislation on education (or similar)	825852	true
+	Legislation on health services (or similar)	825853	true
+	Legislation on labour (or similar)	825854	true
+	Legislation on social services (or similar)	825855	true
+	Other legislations	825856	true
+	Summary	825857	true
+
+columns
+	variableId
+	825850
+	825851
+	825852
+	825853
+	825854
+	825855
+	825856
+	825857

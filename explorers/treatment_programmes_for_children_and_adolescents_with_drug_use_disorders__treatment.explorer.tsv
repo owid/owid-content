@@ -1,0 +1,14 @@
+explorerTitle	Treatment programmes for children and adolescents with drug use disorders (treatment) - Treatment location: In 
+selection	World
+
+graphers
+	treatment_location Dropdown	yVariableIds	hasMapTab
+	In other areas	830673	true
+	In other major cities	830674	true
+	In the capital city	830675	true
+
+columns
+	variableId
+	830673
+	830674
+	830675

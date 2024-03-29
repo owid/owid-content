@@ -1,0 +1,372 @@
+explorerTitle	Main Purpose in Life - Dimension: (
+selection	World
+
+graphers
+	dimension Dropdown	answer Dropdown	yVariableIds	hasMapTab
+	(Age?) 15-24	(DK)	687109	true
+	(Age?) 15-24	(I do not know my purpose in life)	687111	true
+	(Age?) 15-24	(None of these)	687114	true
+	(Age?) 15-24	(Refused)	687123	true
+	(Age?) 15-24	Being good at what you do in your daily life	687129	true
+	(Age?) 15-24	Helping other people who need help	687131	true
+	(Age?) 15-24	Caring for family and close friends	687132	true
+	(Age?) 25-34	(DK)	687160	true
+	(Age?) 25-34	(I do not know my purpose in life)	687164	true
+	(Age?) 25-34	(None of these)	687167	true
+	(Age?) 25-34	(Refused)	687175	true
+	(Age?) 25-34	Being good at what you do in your daily life	687180	true
+	(Age?) 25-34	Caring for family and close friends	687182	true
+	(Age?) 25-34	Helping other people who need help	687183	true
+	(Age?) 35-44	(DK)	687211	true
+	(Age?) 35-44	(I do not know my purpose in life)	687213	true
+	(Age?) 35-44	(None of these)	687218	true
+	(Age?) 35-44	(Refused)	687226	true
+	(Age?) 35-44	Being good at what you do in your daily life	687232	true
+	(Age?) 35-44	Caring for family and close friends	687233	true
+	(Age?) 35-44	Helping other people who need help	687234	true
+	(Age?) 45-64	(DK)	687262	true
+	(Age?) 45-64	(I do not know my purpose in life)	687267	true
+	(Age?) 45-64	(None of these)	687271	true
+	(Age?) 45-64	(Refused)	687277	true
+	(Age?) 45-64	Being good at what you do in your daily life	687283	true
+	(Age?) 45-64	Helping other people who need help	687284	true
+	(Age?) 45-64	Caring for family and close friends	687287	true
+	(Age?) 65+	(DK)	687313	true
+	(Age?) 65+	(I do not know my purpose in life)	687317	true
+	(Age?) 65+	(None of these)	687319	true
+	(Age?) 65+	(Refused)	687328	true
+	(Age?) 65+	Being good at what you do in your daily life	687334	true
+	(Age?) 65+	Caring for family and close friends	687335	true
+	(Age?) 65+	Helping other people who need help	687336	true
+	(Employment Status?) Employed full time for an employer	(DK)	687364	true
+	(Employment Status?) Employed full time for an employer	(I do not know my purpose in life)	687368	true
+	(Employment Status?) Employed full time for an employer	(None of these)	687372	true
+	(Employment Status?) Employed full time for an employer	(Refused)	687381	true
+	(Employment Status?) Employed full time for an employer	Being good at what you do in your daily life	687385	true
+	(Employment Status?) Employed full time for an employer	Caring for family and close friends	687386	true
+	(Employment Status?) Employed full time for an employer	Helping other people who need help	687387	true
+	(Employment Status?) Employed full time for self	(DK)	687415	true
+	(Employment Status?) Employed full time for self	(I do not know my purpose in life)	687418	true
+	(Employment Status?) Employed full time for self	(None of these)	687423	true
+	(Employment Status?) Employed full time for self	(Refused)	687431	true
+	(Employment Status?) Employed full time for self	Being good at what you do in your daily life	687436	true
+	(Employment Status?) Employed full time for self	Caring for family and close friends	687437	true
+	(Employment Status?) Employed full time for self	Helping other people who need help	687438	true
+	(Employment Status?) Employed part time do not want full time	(DK)	687466	true
+	(Employment Status?) Employed part time do not want full time	(I do not know my purpose in life)	687470	true
+	(Employment Status?) Employed part time do not want full time	(None of these)	687474	true
+	(Employment Status?) Employed part time do not want full time	(Refused)	687480	true
+	(Employment Status?) Employed part time do not want full time	Caring for family and close friends	687487	true
+	(Employment Status?) Employed part time do not want full time	Being good at what you do in your daily life	687488	true
+	(Employment Status?) Employed part time do not want full time	Helping other people who need help	687489	true
+	(Employment Status?) Employed part time want full time	(I do not know my purpose in life)	687519	true
+	(Employment Status?) Employed part time want full time	(DK)	687521	true
+	(Employment Status?) Employed part time want full time	(None of these)	687524	true
+	(Employment Status?) Employed part time want full time	(Refused)	687532	true
+	(Employment Status?) Employed part time want full time	Being good at what you do in your daily life	687538	true
+	(Employment Status?) Employed part time want full time	Caring for family and close friends	687539	true
+	(Employment Status?) Employed part time want full time	Helping other people who need help	687540	true
+	(Employment Status?) Out of workforce	(DK)	687568	true
+	(Employment Status?) Out of workforce	(I do not know my purpose in life)	687573	true
+	(Employment Status?) Out of workforce	(None of these)	687575	true
+	(Employment Status?) Out of workforce	(Refused)	687583	true
+	(Employment Status?) Out of workforce	Being good at what you do in your daily life	687589	true
+	(Employment Status?) Out of workforce	Caring for family and close friends	687590	true
+	(Employment Status?) Out of workforce	Helping other people who need help	687591	true
+	(Employment Status?) Unemployed	(DK)	687619	true
+	(Employment Status?) Unemployed	(I do not know my purpose in life)	687623	true
+	(Employment Status?) Unemployed	(None of these)	687626	true
+	(Employment Status?) Unemployed	(Refused)	687634	true
+	(Employment Status?) Unemployed	Being good at what you do in your daily life	687640	true
+	(Employment Status?) Unemployed	Caring for family and close friends	687641	true
+	(Employment Status?) Unemployed	Helping other people who need help	687643	true
+	(Feelings About Household Income?) Finding it difficult on present income	(DK)	687670	true
+	(Feelings About Household Income?) Finding it difficult on present income	(I do not know my purpose in life)	687674	true
+	(Feelings About Household Income?) Finding it difficult on present income	(None of these)	687677	true
+	(Feelings About Household Income?) Finding it difficult on present income	(Refused)	687685	true
+	(Feelings About Household Income?) Finding it difficult on present income	Being good at what you do in your daily life	687691	true
+	(Feelings About Household Income?) Finding it difficult on present income	Helping other people who need help	687692	true
+	(Feelings About Household Income?) Finding it difficult on present income	Caring for family and close friends	687693	true
+	(Feelings About Household Income?) Finding it very difficult on present income	(DK)	687721	true
+	(Feelings About Household Income?) Finding it very difficult on present income	(I do not know my purpose in life)	687725	true
+	(Feelings About Household Income?) Finding it very difficult on present income	(None of these)	687728	true
+	(Feelings About Household Income?) Finding it very difficult on present income	(Refused)	687732	true
+	(Feelings About Household Income?) Finding it very difficult on present income	Being good at what you do in your daily life	687741	true
+	(Feelings About Household Income?) Finding it very difficult on present income	Caring for family and close friends	687743	true
+	(Feelings About Household Income?) Finding it very difficult on present income	Helping other people who need help	687744	true
+	(Feelings About Household Income?) Getting by on present income	(DK)	687772	true
+	(Feelings About Household Income?) Getting by on present income	(I do not know my purpose in life)	687776	true
+	(Feelings About Household Income?) Getting by on present income	(None of these)	687778	true
+	(Feelings About Household Income?) Getting by on present income	(Refused)	687786	true
+	(Feelings About Household Income?) Getting by on present income	Being good at what you do in your daily life	687793	true
+	(Feelings About Household Income?) Getting by on present income	Caring for family and close friends	687794	true
+	(Feelings About Household Income?) Getting by on present income	Helping other people who need help	687795	true
+	(Feelings About Household Income?) Living comfortably on present income	(DK)	687823	true
+	(Feelings About Household Income?) Living comfortably on present income	(I do not know my purpose in life)	687827	true
+	(Feelings About Household Income?) Living comfortably on present income	(None of these)	687830	true
+	(Feelings About Household Income?) Living comfortably on present income	(Refused)	687838	true
+	(Feelings About Household Income?) Living comfortably on present income	Being good at what you do in your daily life	687844	true
+	(Feelings About Household Income?) Living comfortably on present income	Caring for family and close friends	687845	true
+	(Feelings About Household Income?) Living comfortably on present income	Helping other people who need help	687847	true
+	(Gender?) Female	(DK)	687874	true
+	(Gender?) Female	(I do not know my purpose in life)	687878	true
+	(Gender?) Female	(None of these)	687881	true
+	(Gender?) Female	(Refused)	687890	true
+	(Gender?) Female	Being good at what you do in your daily life	687895	true
+	(Gender?) Female	Caring for family and close friends	687896	true
+	(Gender?) Female	Helping other people who need help	687897	true
+	(Gender?) Male	(DK)	687924	true
+	(Gender?) Male	(I do not know my purpose in life)	687929	true
+	(Gender?) Male	(None of these)	687932	true
+	(Gender?) Male	(Refused)	687940	true
+	(Gender?) Male	Being good at what you do in your daily life	687946	true
+	(Gender?) Male	Caring for family and close friends	687947	true
+	(Gender?) Male	Helping other people who need help	687948	true
+	(Per Capita Income Quintiles?) Fourth 20%	(DK)	687976	true
+	(Per Capita Income Quintiles?) Fourth 20%	(I do not know my purpose in life)	687980	true
+	(Per Capita Income Quintiles?) Fourth 20%	(None of these)	687983	true
+	(Per Capita Income Quintiles?) Fourth 20%	(Refused)	687990	true
+	(Per Capita Income Quintiles?) Fourth 20%	Being good at what you do in your daily life	687997	true
+	(Per Capita Income Quintiles?) Fourth 20%	Caring for family and close friends	687998	true
+	(Per Capita Income Quintiles?) Fourth 20%	Helping other people who need help	688000	true
+	(Per Capita Income Quintiles?) Middle 20%	(DK)	688027	true
+	(Per Capita Income Quintiles?) Middle 20%	(I do not know my purpose in life)	688031	true
+	(Per Capita Income Quintiles?) Middle 20%	(None of these)	688035	true
+	(Per Capita Income Quintiles?) Middle 20%	(Refused)	688041	true
+	(Per Capita Income Quintiles?) Middle 20%	Being good at what you do in your daily life	688048	true
+	(Per Capita Income Quintiles?) Middle 20%	Caring for family and close friends	688049	true
+	(Per Capita Income Quintiles?) Middle 20%	Helping other people who need help	688050	true
+	(Per Capita Income Quintiles?) Poorest 20%	(DK)	688078	true
+	(Per Capita Income Quintiles?) Poorest 20%	(I do not know my purpose in life)	688082	true
+	(Per Capita Income Quintiles?) Poorest 20%	(None of these)	688086	true
+	(Per Capita Income Quintiles?) Poorest 20%	(Refused)	688093	true
+	(Per Capita Income Quintiles?) Poorest 20%	Being good at what you do in your daily life	688099	true
+	(Per Capita Income Quintiles?) Poorest 20%	Caring for family and close friends	688100	true
+	(Per Capita Income Quintiles?) Poorest 20%	Helping other people who need help	688101	true
+	(Per Capita Income Quintiles?) Richest 20%	(DK)	688128	true
+	(Per Capita Income Quintiles?) Richest 20%	(I do not know my purpose in life)	688133	true
+	(Per Capita Income Quintiles?) Richest 20%	(None of these)	688136	true
+	(Per Capita Income Quintiles?) Richest 20%	(Refused)	688143	true
+	(Per Capita Income Quintiles?) Richest 20%	Being good at what you do in your daily life	688149	true
+	(Per Capita Income Quintiles?) Richest 20%	Caring for family and close friends	688151	true
+	(Per Capita Income Quintiles?) Richest 20%	Helping other people who need help	688152	true
+	(Per Capita Income Quintiles?) Second 20%	(DK)	688181	true
+	(Per Capita Income Quintiles?) Second 20%	(I do not know my purpose in life)	688184	true
+	(Per Capita Income Quintiles?) Second 20%	(None of these)	688187	true
+	(Per Capita Income Quintiles?) Second 20%	(Refused)	688195	true
+	(Per Capita Income Quintiles?) Second 20%	Being good at what you do in your daily life	688201	true
+	(Per Capita Income Quintiles?) Second 20%	Caring for family and close friends	688202	true
+	(Per Capita Income Quintiles?) Second 20%	Helping other people who need help	688203	true
+	(Urban/Rural?) A large city	(DK)	688230	true
+	(Urban/Rural?) A large city	(I do not know my purpose in life)	688234	true
+	(Urban/Rural?) A large city	(None of these)	688238	true
+	(Urban/Rural?) A large city	(Refused)	688245	true
+	(Urban/Rural?) A large city	Caring for family and close friends	688252	true
+	(Urban/Rural?) A large city	Being good at what you do in your daily life	688253	true
+	(Urban/Rural?) A large city	Helping other people who need help	688254	true
+	(Urban/Rural?) A rural area or on a farm	(DK)	688282	true
+	(Urban/Rural?) A rural area or on a farm	(I do not know my purpose in life)	688284	true
+	(Urban/Rural?) A rural area or on a farm	(None of these)	688286	true
+	(Urban/Rural?) A rural area or on a farm	(Refused)	688297	true
+	(Urban/Rural?) A rural area or on a farm	Caring for family and close friends	688303	true
+	(Urban/Rural?) A rural area or on a farm	Being good at what you do in your daily life	688304	true
+	(Urban/Rural?) A rural area or on a farm	Helping other people who need help	688306	true
+	(Urban/Rural?) A small town or village	(DK)	688334	true
+	(Urban/Rural?) A small town or village	(I do not know my purpose in life)	688337	true
+	(Urban/Rural?) A small town or village	(None of these)	688340	true
+	(Urban/Rural?) A small town or village	(Refused)	688348	true
+	(Urban/Rural?) A small town or village	Being good at what you do in your daily life	688354	true
+	(Urban/Rural?) A small town or village	Caring for family and close friends	688355	true
+	(Urban/Rural?) A small town or village	Helping other people who need help	688356	true
+	(Urban/Rural?) A suburb of a large city	(DK)	688384	true
+	(Urban/Rural?) A suburb of a large city	(I do not know my purpose in life)	688388	true
+	(Urban/Rural?) A suburb of a large city	(None of these)	688391	true
+	(Urban/Rural?) A suburb of a large city	(Refused)	688399	true
+	(Urban/Rural?) A suburb of a large city	Being good at what you do in your daily life	688405	true
+	(Urban/Rural?) A suburb of a large city	Caring for family and close friends	688406	true
+	(Urban/Rural?) A suburb of a large city	Helping other people who need help	688408	true
+
+columns
+	variableId
+	687109
+	687111
+	687114
+	687123
+	687129
+	687131
+	687132
+	687160
+	687164
+	687167
+	687175
+	687180
+	687182
+	687183
+	687211
+	687213
+	687218
+	687226
+	687232
+	687233
+	687234
+	687262
+	687267
+	687271
+	687277
+	687283
+	687284
+	687287
+	687313
+	687317
+	687319
+	687328
+	687334
+	687335
+	687336
+	687364
+	687368
+	687372
+	687381
+	687385
+	687386
+	687387
+	687415
+	687418
+	687423
+	687431
+	687436
+	687437
+	687438
+	687466
+	687470
+	687474
+	687480
+	687487
+	687488
+	687489
+	687519
+	687521
+	687524
+	687532
+	687538
+	687539
+	687540
+	687568
+	687573
+	687575
+	687583
+	687589
+	687590
+	687591
+	687619
+	687623
+	687626
+	687634
+	687640
+	687641
+	687643
+	687670
+	687674
+	687677
+	687685
+	687691
+	687692
+	687693
+	687721
+	687725
+	687728
+	687732
+	687741
+	687743
+	687744
+	687772
+	687776
+	687778
+	687786
+	687793
+	687794
+	687795
+	687823
+	687827
+	687830
+	687838
+	687844
+	687845
+	687847
+	687874
+	687878
+	687881
+	687890
+	687895
+	687896
+	687897
+	687924
+	687929
+	687932
+	687940
+	687946
+	687947
+	687948
+	687976
+	687980
+	687983
+	687990
+	687997
+	687998
+	688000
+	688027
+	688031
+	688035
+	688041
+	688048
+	688049
+	688050
+	688078
+	688082
+	688086
+	688093
+	688099
+	688100
+	688101
+	688128
+	688133
+	688136
+	688143
+	688149
+	688151
+	688152
+	688181
+	688184
+	688187
+	688195
+	688201
+	688202
+	688203
+	688230
+	688234
+	688238
+	688245
+	688252
+	688253
+	688254
+	688282
+	688284
+	688286
+	688297
+	688303
+	688304
+	688306
+	688334
+	688337
+	688340
+	688348
+	688354
+	688355
+	688356
+	688384
+	688388
+	688391
+	688399
+	688405
+	688406
+	688408

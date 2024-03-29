@@ -1,0 +1,14 @@
+explorerTitle	Total NCD Deaths (in thousands) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	830600	true
+	female	830601	true
+	male	830602	true
+
+columns
+	variableId
+	830600
+	830601
+	830602

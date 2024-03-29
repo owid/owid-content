@@ -1,0 +1,14 @@
+explorerTitle	Subclinical vitamin A deficiency in preschool-age children (serum/plasma retinol <0.70 μmol/L) (%) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	830433	true
+	male	830434	true
+	female	830435	true
+
+columns
+	variableId
+	830433
+	830434
+	830435

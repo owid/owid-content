@@ -1,0 +1,14 @@
+explorerTitle	Premature deaths due to noncommunicable diseases (NCD) as a proportion of all NCD deaths (%) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	829463	true
+	female	829464	true
+	male	829465	true
+
+columns
+	variableId
+	829463
+	829464
+	829465

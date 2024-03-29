@@ -1,0 +1,32 @@
+explorerTitle	Excise taxes on beverages (%) - Beverage type: 
+selection	World
+
+graphers
+	beverage_type Checkbox	excise_tax_type Dropdown	beverage Dropdown	yVariableIds	hasMapTab
+	Alcoholic	Ad valorem excise	Beer	825674	true
+	Alcoholic	Ad valorem excise	Spirits	825675	true
+	Alcoholic	Alcohol-content-based specific excise	Beer	825676	true
+	Alcoholic	Alcohol-content-based specific excise	Spirits	825677	true
+	Alcoholic	Total excise tax	Beer	825678	true
+	Alcoholic	Total excise tax	Spirits	825679	true
+	Alcoholic	Volume-based specific excise	Beer	825680	true
+	Alcoholic	Volume-based specific excise	Spirits	825681	true
+	Non-alcoholic	Ad valorem excise	Sugar-sweetened  carbonated beverages	825682	true
+	Non-alcoholic	Sugar-content-based specific excise	Sugar-sweetened  carbonated beverages	825683	true
+	Non-alcoholic	Total excise tax	Sugar-sweetened  carbonated beverages	825684	true
+	Non-alcoholic	Volume-based specific excise	Sugar-sweetened  carbonated beverages	825685	true
+
+columns
+	variableId
+	825674
+	825675
+	825676
+	825677
+	825678
+	825679
+	825680
+	825681
+	825682
+	825683
+	825684
+	825685

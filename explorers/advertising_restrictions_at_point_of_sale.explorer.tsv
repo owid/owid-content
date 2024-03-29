@@ -1,0 +1,14 @@
+explorerTitle	Advertising restrictions at point-of-sale - Substance abuse advertising types: 
+selection	World
+
+graphers
+	substance_abuse_advertising_types Dropdown	yVariableIds	hasMapTab
+	Beer Ads	821693	true
+	Spirits Ads	821694	true
+	Wine Ads	821695	true
+
+columns
+	variableId
+	821693
+	821694
+	821695

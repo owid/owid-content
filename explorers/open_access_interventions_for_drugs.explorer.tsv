@@ -1,0 +1,14 @@
+explorerTitle	Open access interventions for drugs - Rsud open access services: 
+selection	World
+
+graphers
+	rsud_open_access_services Dropdown	yVariableIds	hasMapTab
+	Mobile-phone-based interventions	829065	true
+	Telephone help lines	829066	true
+	Web-based interventions	829067	true
+
+columns
+	variableId
+	829065
+	829066
+	829067

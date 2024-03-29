@@ -1,0 +1,14 @@
+explorerTitle	Licence required for retail sales - Beverage types: 
+selection	World
+
+graphers
+	beverage_types Dropdown	yVariableIds	hasMapTab
+	Spirits	828088	true
+	Beer	828089	true
+	Wine	828090	true
+
+columns
+	variableId
+	828088
+	828089
+	828090

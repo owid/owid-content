@@ -1,0 +1,14 @@
+explorerTitle	Access restrictions to maintenance treatment - Maintenance access restrictions: 
+selection	World
+
+graphers
+	maintenance_access_restrictions Dropdown	yVariableIds	hasMapTab
+	Age restriction	821643	true
+	Restricted to injecting drug users	821644	true
+	Restriction on the duration of opioid dependence prior to treatment	821645	true
+
+columns
+	variableId
+	821643
+	821644
+	821645

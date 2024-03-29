@@ -1,0 +1,26 @@
+explorerTitle	Death rate in ongoing conflicts (high estimate) - Conflict type: 
+selection	World
+
+graphers
+	conflict_type Dropdown	yVariableIds	hasMapTab
+	all	815709	true
+	extrasystemic	815712	true
+	interstate	815715	true
+	intrastate	815718	true
+	intrastate (internationalized)	815721	true
+	intrastate (non-internationalized)	815724	true
+	non-state conflict	815727	true
+	one-sided violence	815730	true
+	state-based	815733	true
+
+columns
+	variableId
+	815709
+	815712
+	815715
+	815718
+	815721
+	815724
+	815727
+	815730
+	815733

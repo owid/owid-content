@@ -1,0 +1,14 @@
+explorerTitle	Perceived trend in alcohol-related harm and consequences - Substance abuse harm and consequences: Alcohol-related 
+selection	World
+
+graphers
+	substance_abuse_harm_and_consequences Dropdown	yVariableIds	hasMapTab
+	Alcohol-related harm	829144	true
+	Alcohol-related health consequences	829145	true
+	Alcohol-related social consequences	829146	true
+
+columns
+	variableId
+	829144
+	829145
+	829146

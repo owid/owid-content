@@ -1,0 +1,14 @@
+explorerTitle	Special treatment programmes for gambling disorder - Treatment location: In 
+selection	World
+
+graphers
+	treatment_location Dropdown	yVariableIds	hasMapTab
+	In other areas	830355	true
+	In other major cities	830356	true
+	In the capital city	830357	true
+
+columns
+	variableId
+	830355
+	830356
+	830357

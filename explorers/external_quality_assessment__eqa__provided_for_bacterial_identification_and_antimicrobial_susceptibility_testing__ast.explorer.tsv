@@ -1,0 +1,14 @@
+explorerTitle	External Quality Assessment (EQA) provided for bacterial identification and Antimicrobial Susceptibility Testing (AST) - Amr glass category: 
+selection	World
+
+graphers
+	amr_glass_category Dropdown	yVariableIds	hasMapTab
+	EQA for AST and bacterial identification	825956	true
+	EQA for bacterial identification only	825957	true
+	Unknown	825958	true
+
+columns
+	variableId
+	825956
+	825957
+	825958

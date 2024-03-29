@@ -1,0 +1,14 @@
+explorerTitle	Number of standard alcoholic drinks displayed on containers - Beverage types: 
+selection	World
+
+graphers
+	beverage_types Dropdown	yVariableIds	hasMapTab
+	Spirits	828935	true
+	Wine	828936	true
+	Beer	828937	true
+
+columns
+	variableId
+	828935
+	828936
+	828937

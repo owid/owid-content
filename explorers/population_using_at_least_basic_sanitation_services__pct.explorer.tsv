@@ -1,0 +1,14 @@
+explorerTitle	Population using at least basic sanitation services (%) - Residence area type: 
+selection	World
+
+graphers
+	residence_area_type Dropdown	yVariableIds	hasMapTab
+	Rural	829312	true
+	Total	829313	true
+	Urban	829314	true
+
+columns
+	variableId
+	829312
+	829313
+	829314

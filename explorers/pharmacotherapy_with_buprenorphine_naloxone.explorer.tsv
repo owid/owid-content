@@ -1,0 +1,12 @@
+explorerTitle	Pharmacotherapy with buprenorphine/naloxone - Pharmacotherapy options: 
+selection	World
+
+graphers
+	pharmacotherapy_options Checkbox	yVariableIds	hasMapTab
+	Detoxification	829212	true
+	Maintenance	829213	true
+
+columns
+	variableId
+	829212
+	829213

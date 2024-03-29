@@ -1,0 +1,12 @@
+explorerTitle	Gini coefficient (
+selection	World
+
+graphers
+	table Checkbox	yVariableIds	hasMapTab
+	Equivalized income	831537	true
+	Per capita income	831560	true
+
+columns
+	variableId
+	831537
+	831560

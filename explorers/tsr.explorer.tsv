@@ -1,0 +1,16 @@
+explorerTitle	The success rate of new and relapse drug-susceptible tuberculosis treatment for  
+selection	World
+
+graphers
+	age_group Checkbox	sex Dropdown	yVariableIds	hasMapTab
+	0-14	a	817599	true
+	a	a	817606	true
+	a	f	817613	true
+	a	m	817620	true
+
+columns
+	variableId
+	817599
+	817606
+	817613
+	817620

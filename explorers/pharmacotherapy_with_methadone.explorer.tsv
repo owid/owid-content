@@ -1,0 +1,12 @@
+explorerTitle	Pharmacotherapy with methadone - Pharmacotherapy options: 
+selection	World
+
+graphers
+	pharmacotherapy_options Checkbox	yVariableIds	hasMapTab
+	Detoxification	829214	true
+	Maintenance	829215	true
+
+columns
+	variableId
+	829214
+	829215

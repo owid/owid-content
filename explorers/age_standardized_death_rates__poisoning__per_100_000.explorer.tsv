@@ -1,0 +1,14 @@
+explorerTitle	Age-standardized death rates, poisoning, per 100,000 - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	821864	true
+	female	821865	true
+	male	821866	true
+
+columns
+	variableId
+	821864
+	821865
+	821866

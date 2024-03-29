@@ -1,0 +1,14 @@
+explorerTitle	Prevalence of treatment (taking medicine) for hypertension among adults aged 30-79 with hypertension, crude - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	829736	true
+	female	829737	true
+	male	829738	true
+
+columns
+	variableId
+	829736
+	829737
+	829738

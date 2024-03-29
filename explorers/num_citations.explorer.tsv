@@ -1,0 +1,36 @@
+explorerTitle	Number of citations - Field: 
+selection	World
+
+graphers
+	field Dropdown	yVariableIds	hasMapTab
+	All	789154	true
+	Computer vision	789187	true
+	Control theory and engineering	789201	true
+	Data mining	789210	true
+	Graphics and multimedia	789245	true
+	Human–computer interaction	789258	true
+	Information management and retrieval	789272	true
+	Machine learning	789301	true
+	Mathematical optimization	789310	true
+	Natural language processing and linguistics	789332	true
+	Real-time computing	789382	true
+	Simulation	789396	true
+	Speech recognition	789410	true
+	Theoretical computer science	789428	true
+
+columns
+	variableId
+	789154
+	789187
+	789201
+	789210
+	789245
+	789258
+	789272
+	789301
+	789310
+	789332
+	789382
+	789396
+	789410
+	789428

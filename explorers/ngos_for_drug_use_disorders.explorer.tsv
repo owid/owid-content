@@ -1,0 +1,16 @@
+explorerTitle	NGOs for drug use disorders - Rsud ngos: 
+selection	World
+
+graphers
+	rsud_ngos Dropdown	yVariableIds	hasMapTab
+	Advocacy	828600	true
+	Prevention	828601	true
+	Rehabilitation	828602	true
+	Treatment	828603	true
+
+columns
+	variableId
+	828600
+	828601
+	828602
+	828603

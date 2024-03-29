@@ -1,0 +1,14 @@
+explorerTitle	Prevalence of insufficient physical activity among school going adolescents aged 11-17 (crude estimate) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	829597	true
+	female	829598	true
+	male	829599	true
+
+columns
+	variableId
+	829597
+	829598
+	829599

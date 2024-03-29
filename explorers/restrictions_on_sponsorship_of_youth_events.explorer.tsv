@@ -1,0 +1,14 @@
+explorerTitle	Restrictions on sponsorship of youth events - Sponsorship originator: From 
+selection	World
+
+graphers
+	sponsorship_originator Dropdown	yVariableIds	hasMapTab
+	From beer industry	830166	true
+	From spirits industry	830167	true
+	From wine industry	830168	true
+
+columns
+	variableId
+	830166
+	830167
+	830168

@@ -1,0 +1,52 @@
+explorerTitle	Antenatal care coverage - at least one visit (in the two or three years preceding the survey) (%) - 
+selection	World
+
+graphers
+	age_group Checkbox	mothers_education_level Dropdown	residence_area_type Checkbox	wealth_quintile Dropdown	wealth_decile Dropdown	yVariableIds	hasMapTab
+	15-19 years					824199	true
+	20-49 years					824200	true
+		None				824201	true
+		Primary				824202	true
+		Secondary or higher				824203	true
+			Rural			824204	true
+			Urban			824205	true
+				Q1 (Poorest)		824206	true
+				Q2		824207	true
+				Q3		824208	true
+				Q4		824209	true
+				Q5 (Richest)		824210	true
+					Decile 1 (poorest)	824211	true
+					Decile 10 (richest)	824212	true
+					Decile 2	824213	true
+					Decile 3	824214	true
+					Decile 4	824215	true
+					Decile 5	824216	true
+					Decile 6	824217	true
+					Decile 7	824218	true
+					Decile 8	824219	true
+					Decile 9	824220	true
+
+columns
+	variableId
+	824199
+	824200
+	824201
+	824202
+	824203
+	824204
+	824205
+	824206
+	824207
+	824208
+	824209
+	824210
+	824211
+	824212
+	824213
+	824214
+	824215
+	824216
+	824217
+	824218
+	824219
+	824220

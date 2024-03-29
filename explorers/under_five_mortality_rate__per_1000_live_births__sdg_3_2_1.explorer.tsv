@@ -1,0 +1,14 @@
+explorerTitle	Under-five mortality rate (per 1000 live births) (SDG 3.2.1) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	830807	true
+	female	830808	true
+	male	830809	true
+
+columns
+	variableId
+	830807
+	830808
+	830809

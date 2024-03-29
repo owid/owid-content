@@ -1,0 +1,12 @@
+explorerTitle	Lifetime prevalence of child sexual abuse (%) - Sex: 
+selection	World
+
+graphers
+	sex Checkbox	yVariableIds	hasMapTab
+	female	828118	true
+	male	828119	true
+
+columns
+	variableId
+	828118
+	828119

@@ -1,0 +1,16 @@
+explorerTitle	Open access services for substance use disorders - Rsud open access services: 
+selection	World
+
+graphers
+	rsud_open_access_services Dropdown	yVariableIds	hasMapTab
+	Community outreach and advice	829068	true
+	Drop-in services	829069	true
+	Telephone help lines	829070	true
+	Web-based interventions	829071	true
+
+columns
+	variableId
+	829068
+	829069
+	829070
+	829071

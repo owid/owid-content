@@ -1,0 +1,16 @@
+explorerTitle	Recommendations for screening and brief interventions for substance use in antenatal services - Rsud substance types: 
+selection	World
+
+graphers
+	rsud_substance_types Dropdown	yVariableIds	hasMapTab
+	Alcohol	830064	true
+	Cannabis	830065	true
+	Prescription drugs	830066	true
+	Tobacco	830067	true
+
+columns
+	variableId
+	830064
+	830065
+	830066
+	830067

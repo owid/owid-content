@@ -1,0 +1,18 @@
+explorerTitle	Prevalence of anaemia in women of reproductive age (aged 15-49) (%) - Se
+selection	World
+
+graphers
+	severity Dropdown	yVariableIds	hasMapTab
+		829502	true
+	Mild	829503	true
+	Moderate	829504	true
+	Severe	829505	true
+	Total	829506	true
+
+columns
+	variableId
+	829502
+	829503
+	829504
+	829505
+	829506

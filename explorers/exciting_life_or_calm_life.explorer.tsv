@@ -1,0 +1,320 @@
+explorerTitle	Exciting Life or Calm Life - Dimension: (
+selection	World
+
+graphers
+	dimension Dropdown	answer Dropdown	yVariableIds	hasMapTab
+	(Age?) 15-24	(Both)	687100	true
+	(Age?) 15-24	(DK)	687103	true
+	(Age?) 15-24	(Neither)	687115	true
+	(Age?) 15-24	(Refused)	687118	true
+	(Age?) 15-24	A calm life	687127	true
+	(Age?) 15-24	An exciting life	687130	true
+	(Age?) 25-34	(Both)	687151	true
+	(Age?) 25-34	(DK)	687155	true
+	(Age?) 25-34	(Neither)	687165	true
+	(Age?) 25-34	(Refused)	687170	true
+	(Age?) 25-34	An exciting life	687179	true
+	(Age?) 25-34	A calm life	687181	true
+	(Age?) 35-44	(Both)	687204	true
+	(Age?) 35-44	(DK)	687206	true
+	(Age?) 35-44	(Neither)	687216	true
+	(Age?) 35-44	(Refused)	687221	true
+	(Age?) 35-44	A calm life	687230	true
+	(Age?) 35-44	An exciting life	687231	true
+	(Age?) 45-64	(Both)	687256	true
+	(Age?) 45-64	(DK)	687257	true
+	(Age?) 45-64	(Neither)	687266	true
+	(Age?) 45-64	(Refused)	687270	true
+	(Age?) 45-64	A calm life	687281	true
+	(Age?) 45-64	An exciting life	687282	true
+	(Age?) 65+	(Both)	687304	true
+	(Age?) 65+	(DK)	687308	true
+	(Age?) 65+	(Neither)	687318	true
+	(Age?) 65+	(Refused)	687323	true
+	(Age?) 65+	A calm life	687332	true
+	(Age?) 65+	An exciting life	687333	true
+	(Employment Status?) Employed full time for an employer	(Both)	687355	true
+	(Employment Status?) Employed full time for an employer	(DK)	687359	true
+	(Employment Status?) Employed full time for an employer	(Neither)	687369	true
+	(Employment Status?) Employed full time for an employer	(Refused)	687374	true
+	(Employment Status?) Employed full time for an employer	A calm life	687382	true
+	(Employment Status?) Employed full time for an employer	An exciting life	687384	true
+	(Employment Status?) Employed full time for self	(Both)	687405	true
+	(Employment Status?) Employed full time for self	(DK)	687412	true
+	(Employment Status?) Employed full time for self	(Neither)	687420	true
+	(Employment Status?) Employed full time for self	(Refused)	687424	true
+	(Employment Status?) Employed full time for self	A calm life	687434	true
+	(Employment Status?) Employed full time for self	An exciting life	687435	true
+	(Employment Status?) Employed part time do not want full time	(Both)	687457	true
+	(Employment Status?) Employed part time do not want full time	(DK)	687461	true
+	(Employment Status?) Employed part time do not want full time	(Neither)	687471	true
+	(Employment Status?) Employed part time do not want full time	(Refused)	687476	true
+	(Employment Status?) Employed part time do not want full time	A calm life	687485	true
+	(Employment Status?) Employed part time do not want full time	An exciting life	687486	true
+	(Employment Status?) Employed part time want full time	(Both)	687508	true
+	(Employment Status?) Employed part time want full time	(DK)	687512	true
+	(Employment Status?) Employed part time want full time	(Neither)	687522	true
+	(Employment Status?) Employed part time want full time	(Refused)	687526	true
+	(Employment Status?) Employed part time want full time	A calm life	687534	true
+	(Employment Status?) Employed part time want full time	An exciting life	687536	true
+	(Employment Status?) Out of workforce	(Both)	687559	true
+	(Employment Status?) Out of workforce	(DK)	687563	true
+	(Employment Status?) Out of workforce	(Neither)	687572	true
+	(Employment Status?) Out of workforce	(Refused)	687579	true
+	(Employment Status?) Out of workforce	A calm life	687587	true
+	(Employment Status?) Out of workforce	An exciting life	687588	true
+	(Employment Status?) Unemployed	(Both)	687610	true
+	(Employment Status?) Unemployed	(DK)	687613	true
+	(Employment Status?) Unemployed	(Neither)	687624	true
+	(Employment Status?) Unemployed	(Refused)	687629	true
+	(Employment Status?) Unemployed	A calm life	687637	true
+	(Employment Status?) Unemployed	An exciting life	687639	true
+	(Feelings About Household Income?) Finding it difficult on present income	(Both)	687660	true
+	(Feelings About Household Income?) Finding it difficult on present income	(DK)	687665	true
+	(Feelings About Household Income?) Finding it difficult on present income	(Neither)	687675	true
+	(Feelings About Household Income?) Finding it difficult on present income	(Refused)	687678	true
+	(Feelings About Household Income?) Finding it difficult on present income	A calm life	687689	true
+	(Feelings About Household Income?) Finding it difficult on present income	An exciting life	687690	true
+	(Feelings About Household Income?) Finding it very difficult on present income	(Both)	687712	true
+	(Feelings About Household Income?) Finding it very difficult on present income	(DK)	687716	true
+	(Feelings About Household Income?) Finding it very difficult on present income	(Neither)	687726	true
+	(Feelings About Household Income?) Finding it very difficult on present income	(Refused)	687731	true
+	(Feelings About Household Income?) Finding it very difficult on present income	A calm life	687740	true
+	(Feelings About Household Income?) Finding it very difficult on present income	An exciting life	687742	true
+	(Feelings About Household Income?) Getting by on present income	(Both)	687763	true
+	(Feelings About Household Income?) Getting by on present income	(DK)	687767	true
+	(Feelings About Household Income?) Getting by on present income	(Neither)	687777	true
+	(Feelings About Household Income?) Getting by on present income	(Refused)	687780	true
+	(Feelings About Household Income?) Getting by on present income	A calm life	687791	true
+	(Feelings About Household Income?) Getting by on present income	An exciting life	687792	true
+	(Feelings About Household Income?) Living comfortably on present income	(Both)	687813	true
+	(Feelings About Household Income?) Living comfortably on present income	(DK)	687818	true
+	(Feelings About Household Income?) Living comfortably on present income	(Neither)	687828	true
+	(Feelings About Household Income?) Living comfortably on present income	(Refused)	687833	true
+	(Feelings About Household Income?) Living comfortably on present income	A calm life	687842	true
+	(Feelings About Household Income?) Living comfortably on present income	An exciting life	687843	true
+	(Gender?) Female	(Both)	687866	true
+	(Gender?) Female	(DK)	687869	true
+	(Gender?) Female	(Neither)	687879	true
+	(Gender?) Female	(Refused)	687883	true
+	(Gender?) Female	A calm life	687892	true
+	(Gender?) Female	An exciting life	687894	true
+	(Gender?) Male	(Both)	687916	true
+	(Gender?) Male	(DK)	687921	true
+	(Gender?) Male	(Neither)	687930	true
+	(Gender?) Male	(Refused)	687935	true
+	(Gender?) Male	A calm life	687944	true
+	(Gender?) Male	An exciting life	687945	true
+	(Per Capita Income Quintiles?) Fourth 20%	(Both)	687967	true
+	(Per Capita Income Quintiles?) Fourth 20%	(DK)	687971	true
+	(Per Capita Income Quintiles?) Fourth 20%	(Neither)	687981	true
+	(Per Capita Income Quintiles?) Fourth 20%	(Refused)	687986	true
+	(Per Capita Income Quintiles?) Fourth 20%	An exciting life	687994	true
+	(Per Capita Income Quintiles?) Fourth 20%	A calm life	687995	true
+	(Per Capita Income Quintiles?) Middle 20%	(Both)	688018	true
+	(Per Capita Income Quintiles?) Middle 20%	(DK)	688022	true
+	(Per Capita Income Quintiles?) Middle 20%	(Neither)	688032	true
+	(Per Capita Income Quintiles?) Middle 20%	(Refused)	688036	true
+	(Per Capita Income Quintiles?) Middle 20%	A calm life	688045	true
+	(Per Capita Income Quintiles?) Middle 20%	An exciting life	688047	true
+	(Per Capita Income Quintiles?) Poorest 20%	(Both)	688069	true
+	(Per Capita Income Quintiles?) Poorest 20%	(DK)	688073	true
+	(Per Capita Income Quintiles?) Poorest 20%	(Neither)	688083	true
+	(Per Capita Income Quintiles?) Poorest 20%	(Refused)	688088	true
+	(Per Capita Income Quintiles?) Poorest 20%	A calm life	688097	true
+	(Per Capita Income Quintiles?) Poorest 20%	An exciting life	688098	true
+	(Per Capita Income Quintiles?) Richest 20%	(Both)	688119	true
+	(Per Capita Income Quintiles?) Richest 20%	(DK)	688124	true
+	(Per Capita Income Quintiles?) Richest 20%	(Neither)	688134	true
+	(Per Capita Income Quintiles?) Richest 20%	(Refused)	688139	true
+	(Per Capita Income Quintiles?) Richest 20%	A calm life	688148	true
+	(Per Capita Income Quintiles?) Richest 20%	An exciting life	688150	true
+	(Per Capita Income Quintiles?) Second 20%	(Both)	688171	true
+	(Per Capita Income Quintiles?) Second 20%	(DK)	688175	true
+	(Per Capita Income Quintiles?) Second 20%	(Neither)	688185	true
+	(Per Capita Income Quintiles?) Second 20%	(Refused)	688191	true
+	(Per Capita Income Quintiles?) Second 20%	A calm life	688199	true
+	(Per Capita Income Quintiles?) Second 20%	An exciting life	688200	true
+	(Urban/Rural?) A large city	(Both)	688222	true
+	(Urban/Rural?) A large city	(DK)	688226	true
+	(Urban/Rural?) A large city	(Neither)	688236	true
+	(Urban/Rural?) A large city	(Refused)	688241	true
+	(Urban/Rural?) A large city	A calm life	688250	true
+	(Urban/Rural?) A large city	An exciting life	688251	true
+	(Urban/Rural?) A rural area or on a farm	(Both)	688273	true
+	(Urban/Rural?) A rural area or on a farm	(DK)	688277	true
+	(Urban/Rural?) A rural area or on a farm	(Neither)	688285	true
+	(Urban/Rural?) A rural area or on a farm	(Refused)	688292	true
+	(Urban/Rural?) A rural area or on a farm	A calm life	688301	true
+	(Urban/Rural?) A rural area or on a farm	An exciting life	688302	true
+	(Urban/Rural?) A small town or village	(DK)	688324	true
+	(Urban/Rural?) A small town or village	(Both)	688326	true
+	(Urban/Rural?) A small town or village	(Neither)	688339	true
+	(Urban/Rural?) A small town or village	(Refused)	688343	true
+	(Urban/Rural?) A small town or village	A calm life	688352	true
+	(Urban/Rural?) A small town or village	An exciting life	688353	true
+	(Urban/Rural?) A suburb of a large city	(Both)	688375	true
+	(Urban/Rural?) A suburb of a large city	(DK)	688379	true
+	(Urban/Rural?) A suburb of a large city	(Neither)	688389	true
+	(Urban/Rural?) A suburb of a large city	(Refused)	688394	true
+	(Urban/Rural?) A suburb of a large city	A calm life	688403	true
+	(Urban/Rural?) A suburb of a large city	An exciting life	688404	true
+
+columns
+	variableId
+	687100
+	687103
+	687115
+	687118
+	687127
+	687130
+	687151
+	687155
+	687165
+	687170
+	687179
+	687181
+	687204
+	687206
+	687216
+	687221
+	687230
+	687231
+	687256
+	687257
+	687266
+	687270
+	687281
+	687282
+	687304
+	687308
+	687318
+	687323
+	687332
+	687333
+	687355
+	687359
+	687369
+	687374
+	687382
+	687384
+	687405
+	687412
+	687420
+	687424
+	687434
+	687435
+	687457
+	687461
+	687471
+	687476
+	687485
+	687486
+	687508
+	687512
+	687522
+	687526
+	687534
+	687536
+	687559
+	687563
+	687572
+	687579
+	687587
+	687588
+	687610
+	687613
+	687624
+	687629
+	687637
+	687639
+	687660
+	687665
+	687675
+	687678
+	687689
+	687690
+	687712
+	687716
+	687726
+	687731
+	687740
+	687742
+	687763
+	687767
+	687777
+	687780
+	687791
+	687792
+	687813
+	687818
+	687828
+	687833
+	687842
+	687843
+	687866
+	687869
+	687879
+	687883
+	687892
+	687894
+	687916
+	687921
+	687930
+	687935
+	687944
+	687945
+	687967
+	687971
+	687981
+	687986
+	687994
+	687995
+	688018
+	688022
+	688032
+	688036
+	688045
+	688047
+	688069
+	688073
+	688083
+	688088
+	688097
+	688098
+	688119
+	688124
+	688134
+	688139
+	688148
+	688150
+	688171
+	688175
+	688185
+	688191
+	688199
+	688200
+	688222
+	688226
+	688236
+	688241
+	688250
+	688251
+	688273
+	688277
+	688285
+	688292
+	688301
+	688302
+	688324
+	688326
+	688339
+	688343
+	688352
+	688353
+	688375
+	688379
+	688389
+	688394
+	688403
+	688404

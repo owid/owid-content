@@ -1,0 +1,14 @@
+explorerTitle	Mortality rate attributed to exposure to unsafe WASH services (per 100 000 population) (SDG 3.9.2) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	828480	true
+	female	828481	true
+	male	828482	true
+
+columns
+	variableId
+	828480
+	828481
+	828482

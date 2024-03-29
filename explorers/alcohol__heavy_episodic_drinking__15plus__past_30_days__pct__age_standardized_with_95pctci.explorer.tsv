@@ -1,0 +1,14 @@
+explorerTitle	Alcohol, heavy episodic drinking (15+) past 30 days (%), age-standardized with 95%CI - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	821932	true
+	female	821933	true
+	male	821934	true
+
+columns
+	variableId
+	821932
+	821933
+	821934

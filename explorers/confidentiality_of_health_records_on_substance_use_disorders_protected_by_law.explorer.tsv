@@ -1,0 +1,12 @@
+explorerTitle	Confidentiality of health records on substance use disorders protected by law - Rsud substance type disorders: 
+selection	World
+
+graphers
+	rsud_substance_type_disorders Checkbox	yVariableIds	hasMapTab
+	Alcohol use disorders	824847	true
+	Drug use disorders	824848	true
+
+columns
+	variableId
+	824847
+	824848

@@ -1,0 +1,12 @@
+explorerTitle	Government benefits for drug use disorders, subsidy or disability pension - Rsud government benefits: 
+selection	World
+
+graphers
+	rsud_government_benefits Checkbox	yVariableIds	hasMapTab
+	Disability pension	826107	true
+	Subsidy for food or housing	826108	true
+
+columns
+	variableId
+	826107
+	826108

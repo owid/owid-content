@@ -1,0 +1,30 @@
+explorerTitle	Consumption of controlled substance (zero-filled) - Chemical: 
+selection	World
+
+graphers
+	chemical Dropdown	yVariableIds	hasMapTab
+	All (Ozone-depleting)	577023	true
+	Bromochloromethane (BCM)	577024	true
+	Carbon Tetrachloride (CTC)	577025	true
+	Chlorofluorocarbons (CFCs)	577026	true
+	Halons	577027	true
+	Hydrobromofluorocarbons (HBFCs)	577028	true
+	Hydrochlorofluorocarbons (HCFCs)	577029	true
+	Hydrofluorocarbons (HFCs)	577030	true
+	Methyl Bromide (MB)	577031	true
+	Methyl Chloroform (TCA)	577032	true
+	Other Fully Halogenated CFCs	577033	true
+
+columns
+	variableId
+	577023
+	577024
+	577025
+	577026
+	577027
+	577028
+	577029
+	577030
+	577031
+	577032
+	577033

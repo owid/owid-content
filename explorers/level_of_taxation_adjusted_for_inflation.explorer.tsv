@@ -1,0 +1,14 @@
+explorerTitle	Level of taxation adjusted for inflation - Beverage types: 
+selection	World
+
+graphers
+	beverage_types Dropdown	yVariableIds	hasMapTab
+	Beer	828082	true
+	Spirits	828083	true
+	Wine	828084	true
+
+columns
+	variableId
+	828082
+	828083
+	828084

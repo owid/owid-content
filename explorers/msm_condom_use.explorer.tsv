@@ -1,0 +1,16 @@
+explorerTitle	Condom use among men who have sex with men - Disaggregation: 
+selection	World
+
+graphers
+	disaggregation Dropdown	yVariableIds	hasMapTab
+	25+	789743	true
+	< 25	789753	true
+	All ages	789780	true
+	Total	789966	true
+
+columns
+	variableId
+	789743
+	789753
+	789780
+	789966

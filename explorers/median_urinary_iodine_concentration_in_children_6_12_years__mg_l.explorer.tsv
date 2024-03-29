@@ -1,0 +1,14 @@
+explorerTitle	Median urinary iodine concentration in children 6-12 years (μg/L) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	828300	true
+	female	828301	true
+	male	828302	true
+
+columns
+	variableId
+	828300
+	828301
+	828302

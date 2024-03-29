@@ -1,0 +1,14 @@
+explorerTitle	Prevalence of current cigarette smoking among adolescents (%) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	829521	true
+	male	829522	true
+	female	829523	true
+
+columns
+	variableId
+	829521
+	829522
+	829523

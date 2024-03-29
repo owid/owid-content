@@ -1,0 +1,176 @@
+explorerTitle	Percentage of deaths from self-inflicted injuries out of total deaths - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	age_group Dropdown	yVariableIds	hasMapTab
+	Both sexes	less than 1 year	831587	true
+	Both sexes	1-4 years	831590	true
+	Both sexes	10-14 years	831593	true
+	Both sexes	15-19 years	831596	true
+	Both sexes	20-24 years	831599	true
+	Both sexes	25-29 years	831602	true
+	Both sexes	30-34 years	831605	true
+	Both sexes	35-39 years	831608	true
+	Both sexes	40-44 years	831611	true
+	Both sexes	45-49 years	831614	true
+	Both sexes	5-9 years	831617	true
+	Both sexes	50-54 years	831620	true
+	Both sexes	55-59 years	831623	true
+	Both sexes	60-64 years	831626	true
+	Both sexes	65-69 years	831629	true
+	Both sexes	70-74 years	831632	true
+	Both sexes	75-79 years	831635	true
+	Both sexes	80-84 years	831638	true
+	Both sexes	over 85 years	831641	true
+	Both sexes	all ages	831645	true
+	Both sexes	Unknown age	831648	true
+	Females	less than 1 year	831650	true
+	Females	1-4 years	831653	true
+	Females	10-14 years	831656	true
+	Females	15-19 years	831659	true
+	Females	20-24 years	831661	true
+	Females	25-29 years	831665	true
+	Females	30-34 years	831668	true
+	Females	35-39 years	831671	true
+	Females	40-44 years	831673	true
+	Females	45-49 years	831677	true
+	Females	5-9 years	831680	true
+	Females	50-54 years	831683	true
+	Females	55-59 years	831686	true
+	Females	60-64 years	831689	true
+	Females	65-69 years	831692	true
+	Females	70-74 years	831695	true
+	Females	75-79 years	831698	true
+	Females	80-84 years	831701	true
+	Females	over 85 years	831704	true
+	Females	all ages	831707	true
+	Females	Unknown age	831711	true
+	Males	less than 1 year	831713	true
+	Males	1-4 years	831716	true
+	Males	10-14 years	831719	true
+	Males	15-19 years	831722	true
+	Males	20-24 years	831725	true
+	Males	25-29 years	831728	true
+	Males	30-34 years	831731	true
+	Males	35-39 years	831734	true
+	Males	40-44 years	831737	true
+	Males	45-49 years	831740	true
+	Males	5-9 years	831743	true
+	Males	50-54 years	831746	true
+	Males	55-59 years	831749	true
+	Males	60-64 years	831752	true
+	Males	65-69 years	831755	true
+	Males	70-74 years	831758	true
+	Males	75-79 years	831761	true
+	Males	80-84 years	831764	true
+	Males	over 85 years	831767	true
+	Males	all ages	831770	true
+	Males	Unknown age	831775	true
+	Unknown sex	less than 1 year	831777	true
+	Unknown sex	1-4 years	831778	true
+	Unknown sex	10-14 years	831779	true
+	Unknown sex	15-19 years	831782	true
+	Unknown sex	20-24 years	831784	true
+	Unknown sex	25-29 years	831786	true
+	Unknown sex	30-34 years	831788	true
+	Unknown sex	35-39 years	831790	true
+	Unknown sex	40-44 years	831792	true
+	Unknown sex	45-49 years	831794	true
+	Unknown sex	5-9 years	831796	true
+	Unknown sex	50-54 years	831798	true
+	Unknown sex	55-59 years	831800	true
+	Unknown sex	60-64 years	831802	true
+	Unknown sex	65-69 years	831804	true
+	Unknown sex	70-74 years	831806	true
+	Unknown sex	75-79 years	831808	true
+	Unknown sex	80-84 years	831810	true
+	Unknown sex	over 85 years	831812	true
+	Unknown sex	all ages	831814	true
+	Unknown sex	Unknown age	831816	true
+
+columns
+	variableId
+	831587
+	831590
+	831593
+	831596
+	831599
+	831602
+	831605
+	831608
+	831611
+	831614
+	831617
+	831620
+	831623
+	831626
+	831629
+	831632
+	831635
+	831638
+	831641
+	831645
+	831648
+	831650
+	831653
+	831656
+	831659
+	831661
+	831665
+	831668
+	831671
+	831673
+	831677
+	831680
+	831683
+	831686
+	831689
+	831692
+	831695
+	831698
+	831701
+	831704
+	831707
+	831711
+	831713
+	831716
+	831719
+	831722
+	831725
+	831728
+	831731
+	831734
+	831737
+	831740
+	831743
+	831746
+	831749
+	831752
+	831755
+	831758
+	831761
+	831764
+	831767
+	831770
+	831775
+	831777
+	831778
+	831779
+	831782
+	831784
+	831786
+	831788
+	831790
+	831792
+	831794
+	831796
+	831798
+	831800
+	831802
+	831804
+	831806
+	831808
+	831810
+	831812
+	831814
+	831816

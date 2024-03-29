@@ -1,0 +1,34 @@
+explorerTitle	Groups and agencies involved in prevention programs - Rsud groups: 
+selection	World
+
+graphers
+	rsud_groups Dropdown	yVariableIds	hasMapTab
+	Alcohol beverage industry	826148	true
+	Community groups	826149	true
+	Employers	826150	true
+	International organizations	826151	true
+	Labour organizations	826152	true
+	Health care workers	826153	true
+	Law enforcement agencies	826154	true
+	Non-governmental organization	826155	true
+	Patient organizations	826156	true
+	Religious groups	826157	true
+	Social workers	826158	true
+	Schools	826159	true
+	Traditional healers	826160	true
+
+columns
+	variableId
+	826148
+	826149
+	826150
+	826151
+	826152
+	826153
+	826154
+	826155
+	826156
+	826157
+	826158
+	826159
+	826160

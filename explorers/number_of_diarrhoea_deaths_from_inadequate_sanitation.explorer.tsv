@@ -1,0 +1,16 @@
+explorerTitle	Number of diarrhoea deaths from inadequate sanitation - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	age_group Checkbox	yVariableIds	hasMapTab
+	both sexes	<5 years	828841	true
+	both sexes	Total (All ages)	828842	true
+	female	Total (All ages)	828843	true
+	male	Total (All ages)	828844	true
+
+columns
+	variableId
+	828841
+	828842
+	828843
+	828844

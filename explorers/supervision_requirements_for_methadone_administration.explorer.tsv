@@ -1,0 +1,12 @@
+explorerTitle	Supervision requirements for methadone administration - Rsud drug supervision: 
+selection	World
+
+graphers
+	rsud_drug_supervision Checkbox	yVariableIds	hasMapTab
+	All doses supervised	830449	true
+	Supervision of doctor required	830450	true
+
+columns
+	variableId
+	830449
+	830450

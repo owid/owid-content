@@ -1,0 +1,16 @@
+explorerTitle	Alcohol, consumption of pure alcohol by type of beverage (%) - Beverage types: 
+selection	World
+
+graphers
+	beverage_types Dropdown	yVariableIds	hasMapTab
+	Beer	821915	true
+	Other alcoholic beverages	821916	true
+	Spirits	821917	true
+	Wine	821918	true
+
+columns
+	variableId
+	821915
+	821916
+	821917
+	821918

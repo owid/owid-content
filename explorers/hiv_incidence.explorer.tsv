@@ -1,0 +1,98 @@
+explorerTitle	HIV Incidence per 1000 population - Disaggregation: 
+selection	World
+
+graphers
+	disaggregation Dropdown	yVariableIds	hasMapTab
+	50+ estimate	789746	true
+	50+ lower estimate	789748	true
+	50+ upper estimate	789752	true
+	Adults (15+) estimate	789756	true
+	Adults (15+) lower estimate	789760	true
+	Adults (15+) upper estimate	789764	true
+	Adults (15-49) estimate	789768	true
+	Adults (15-49) lower estimate	789772	true
+	Adults (15-49) upper estimate	789776	true
+	All ages estimate	789782	true
+	All ages lower estimate	789785	true
+	All ages upper estimate	789788	true
+	Females 50+ estimate	789821	true
+	Females 50+ lower estimate	789824	true
+	Females 50+ upper estimate	789827	true
+	Females Adults (15+) estimate	789830	true
+	Females Adults (15+) lower estimate	789834	true
+	Females Adults (15+) upper estimate	789838	true
+	Females Adults (15-49) estimate	789843	true
+	Females Adults (15-49) lower estimate	789847	true
+	Females Adults (15-49) upper estimate	789851	true
+	Females All ages estimate	789855	true
+	Females All ages lower estimate	789858	true
+	Females All ages upper estimate	789861	true
+	Females Young people (15-24) estimate	789868	true
+	Females Young people (15-24) lower estimate	789872	true
+	Females Young people (15-24) upper estimate	789876	true
+	Males 50+ estimate	789902	true
+	Males 50+ lower estimate	789905	true
+	Males 50+ upper estimate	789908	true
+	Males Adults (15+) estimate	789911	true
+	Males Adults (15+) lower estimate	789915	true
+	Males Adults (15+) upper estimate	789919	true
+	Males Adults (15-49) estimate	789924	true
+	Males Adults (15-49) lower estimate	789928	true
+	Males Adults (15-49) upper estimate	789932	true
+	Males All ages estimate	789936	true
+	Males All ages lower estimate	789939	true
+	Males All ages upper estimate	789942	true
+	Males Young people (15-24) estimate	789949	true
+	Males Young people (15-24) lower estimate	789953	true
+	Males Young people (15-24) upper estimate	789957	true
+	Young people (15-24) estimate	789973	true
+	Young people (15-24) lower estimate	789977	true
+	Young people (15-24) upper estimate	789981	true
+
+columns
+	variableId
+	789746
+	789748
+	789752
+	789756
+	789760
+	789764
+	789768
+	789772
+	789776
+	789782
+	789785
+	789788
+	789821
+	789824
+	789827
+	789830
+	789834
+	789838
+	789843
+	789847
+	789851
+	789855
+	789858
+	789861
+	789868
+	789872
+	789876
+	789902
+	789905
+	789908
+	789911
+	789915
+	789919
+	789924
+	789928
+	789932
+	789936
+	789939
+	789942
+	789949
+	789953
+	789957
+	789973
+	789977
+	789981

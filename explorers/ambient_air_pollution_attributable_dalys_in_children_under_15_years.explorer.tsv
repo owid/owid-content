@@ -1,0 +1,14 @@
+explorerTitle	Ambient air pollution attributable DALYs in children under 15 years - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	822717	true
+	female	822718	true
+	male	822719	true
+
+columns
+	variableId
+	822717
+	822718
+	822719

@@ -1,0 +1,98 @@
+explorerTitle	Anxiety disorders (share of population) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	age Dropdown	yVariableIds	hasMapTab
+	Both	15-19 years	688519	true
+	Both	20-24 years	688522	true
+	Both	25-29 years	688533	true
+	Both	30-34 years	688542	true
+	Both	35-39 years	688552	true
+	Both	40-44 years	688561	true
+	Both	45-49 years	688572	true
+	Both	5-14 years	688583	true
+	Both	50-54 years	688592	true
+	Both	55-59 years	688602	true
+	Both	60-64 years	688612	true
+	Both	65-69 years	688622	true
+	Both	70+ years	688632	true
+	Both	Age-standardized	688642	true
+	Both	All ages	688652	true
+	Female	15-19 years	688663	true
+	Female	20-24 years	688674	true
+	Female	25-29 years	688684	true
+	Female	30-34 years	688693	true
+	Female	35-39 years	688702	true
+	Female	40-44 years	688712	true
+	Female	45-49 years	688724	true
+	Female	5-14 years	688733	true
+	Female	50-54 years	688742	true
+	Female	55-59 years	688750	true
+	Female	60-64 years	688762	true
+	Female	65-69 years	688770	true
+	Female	70+ years	688782	true
+	Female	Age-standardized	688792	true
+	Female	All ages	688802	true
+	Male	15-19 years	688810	true
+	Male	20-24 years	688822	true
+	Male	25-29 years	688830	true
+	Male	30-34 years	688842	true
+	Male	35-39 years	688853	true
+	Male	40-44 years	688863	true
+	Male	45-49 years	688878	true
+	Male	5-14 years	688882	true
+	Male	50-54 years	688891	true
+	Male	55-59 years	688902	true
+	Male	60-64 years	688910	true
+	Male	65-69 years	688921	true
+	Male	70+ years	688932	true
+	Male	Age-standardized	688941	true
+	Male	All ages	688951	true
+
+columns
+	variableId
+	688519
+	688522
+	688533
+	688542
+	688552
+	688561
+	688572
+	688583
+	688592
+	688602
+	688612
+	688622
+	688632
+	688642
+	688652
+	688663
+	688674
+	688684
+	688693
+	688702
+	688712
+	688724
+	688733
+	688742
+	688750
+	688762
+	688770
+	688782
+	688792
+	688802
+	688810
+	688822
+	688830
+	688842
+	688853
+	688863
+	688878
+	688882
+	688891
+	688902
+	688910
+	688921
+	688932
+	688941
+	688951

@@ -1,0 +1,60 @@
+explorerTitle	Exclusively breastfed for the first two days after birth - 
+selection	World
+
+graphers
+	sex Dropdown	mothers_education_level Dropdown	residence_area_type Dropdown	wealth_quintile Dropdown	household_wealth Dropdown	yVariableIds	hasMapTab
+	both sexes					825718	true
+	female					825719	true
+	male					825720	true
+		Higher education				825721	true
+		None				825722	true
+		None and primary education				825723	true
+		Primary				825724	true
+		Secondary education				825725	true
+		Secondary or higher				825726	true
+		TotalTotalTotalTotal				825727	true
+			Rural			825728	true
+			TotalTotalTotalTotal			825729	true
+			Urban			825730	true
+				Q1 (Poorest)		825731	true
+				Q2		825732	true
+				Q3		825733	true
+				Q4		825734	true
+				Q5 (Richest)		825735	true
+				TotalTotalTotalTotal		825736	true
+					TotalTotalTotalTotal	825737	true
+					Wealth - Bottom 40%	825738	true
+					Wealth - Bottom 60%	825739	true
+					Wealth - Bottom 80%	825740	true
+					Wealth - Top 40%	825741	true
+					Wealth - Top 60%	825742	true
+					Wealth - Top 80%	825743	true
+
+columns
+	variableId
+	825718
+	825719
+	825720
+	825721
+	825722
+	825723
+	825724
+	825725
+	825726
+	825727
+	825728
+	825729
+	825730
+	825731
+	825732
+	825733
+	825734
+	825735
+	825736
+	825737
+	825738
+	825739
+	825740
+	825741
+	825742
+	825743

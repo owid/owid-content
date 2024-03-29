@@ -1,0 +1,20 @@
+explorerTitle	Main sector for treatment for drug use disorders - Rsud programmes: 
+selection	World
+
+graphers
+	rsud_programmes Dropdown	yVariableIds	hasMapTab
+	In-patient detoxification	828190	true
+	In-patient treatment	828191	true
+	Opioid agonist maintenance therapy	828192	true
+	Out-patient treatment	828193	true
+	Out-patient detoxification	828194	true
+	Rehabilitation	828195	true
+
+columns
+	variableId
+	828190
+	828191
+	828192
+	828193
+	828194
+	828195

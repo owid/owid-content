@@ -1,0 +1,12 @@
+explorerTitle	Ministry/office that takes primary responsibility for treatment of substance use disorders - Rsud substance types: 
+selection	World
+
+graphers
+	rsud_substance_types Checkbox	yVariableIds	hasMapTab
+	Alcohol	828462	true
+	Drugs	828463	true
+
+columns
+	variableId
+	828462
+	828463

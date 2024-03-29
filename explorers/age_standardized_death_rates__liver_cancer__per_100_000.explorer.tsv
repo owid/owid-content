@@ -1,0 +1,14 @@
+explorerTitle	Age-standardized death rates, liver cancer, per 100,000 - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	821845	true
+	female	821846	true
+	male	821847	true
+
+columns
+	variableId
+	821845
+	821846
+	821847

@@ -1,0 +1,12 @@
+explorerTitle	Cancer, age-standardized death rates (15+), per 100,000 population - Sex: 
+selection	World
+
+graphers
+	sex Checkbox	yVariableIds	hasMapTab
+	female	824535	true
+	male	824536	true
+
+columns
+	variableId
+	824535
+	824536

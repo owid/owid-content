@@ -1,0 +1,52 @@
+explorerTitle	Births attended by skilled health personnel (in the five years preceding the survey) (%) - 
+selection	World
+
+graphers
+	age_group Checkbox	mothers_education_level Dropdown	residence_area_type Checkbox	wealth_quintile Dropdown	wealth_decile Dropdown	yVariableIds	hasMapTab
+	15-19 years					824411	true
+	20-49 years					824412	true
+		None				824413	true
+		Primary				824414	true
+		Secondary or higher				824415	true
+			Rural			824416	true
+			Urban			824417	true
+				Q1 (Poorest)		824418	true
+				Q2		824419	true
+				Q4		824420	true
+				Q3		824421	true
+				Q5 (Richest)		824422	true
+					Decile 1 (poorest)	824423	true
+					Decile 10 (richest)	824424	true
+					Decile 2	824425	true
+					Decile 3	824426	true
+					Decile 4	824427	true
+					Decile 5	824428	true
+					Decile 6	824429	true
+					Decile 7	824430	true
+					Decile 8	824431	true
+					Decile 9	824432	true
+
+columns
+	variableId
+	824411
+	824412
+	824413
+	824414
+	824415
+	824416
+	824417
+	824418
+	824419
+	824420
+	824421
+	824422
+	824423
+	824424
+	824425
+	824426
+	824427
+	824428
+	824429
+	824430
+	824431
+	824432

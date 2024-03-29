@@ -1,0 +1,14 @@
+explorerTitle	Restriction and inspection of facilities - Restriction and inspection of sunbed facilities: 
+selection	World
+
+graphers
+	restriction_and_inspection_of_sunbed_facilities Dropdown	yVariableIds	hasMapTab
+	Fines for infringement	830129	true
+	Periodic inspections required	830130	true
+	Registration of sunbeds  or premises	830131	true
+
+columns
+	variableId
+	830129
+	830130
+	830131

@@ -1,0 +1,14 @@
+explorerTitle	Proportion of children at the end of primary achieving at least a minimum proficiency level in mathematics (%) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	829937	true
+	female	829938	true
+	male	829939	true
+
+columns
+	variableId
+	829937
+	829938
+	829939

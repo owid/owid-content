@@ -1,0 +1,14 @@
+explorerTitle	Government monopoly on production - Beverage types: 
+selection	World
+
+graphers
+	beverage_types Dropdown	yVariableIds	hasMapTab
+	Beer	826115	true
+	Spirits	826116	true
+	Wine	826117	true
+
+columns
+	variableId
+	826115
+	826116
+	826117

@@ -1,0 +1,14 @@
+explorerTitle	Prevalence of daily tobacco use among adults (%) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	829578	true
+	female	829579	true
+	male	829580	true
+
+columns
+	variableId
+	829578
+	829579
+	829580

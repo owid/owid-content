@@ -1,0 +1,16 @@
+explorerTitle	Registration of medications for alcohol dependence and withdrawal - Rsud drugs: 
+selection	World
+
+graphers
+	rsud_drugs Dropdown	yVariableIds	hasMapTab
+	Acamprosate	830081	true
+	Diazepam	830082	true
+	Disulfiram	830083	true
+	Naltrexone	830084	true
+
+columns
+	variableId
+	830081
+	830082
+	830083
+	830084

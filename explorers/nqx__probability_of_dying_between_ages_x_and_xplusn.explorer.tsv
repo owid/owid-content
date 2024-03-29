@@ -1,0 +1,122 @@
+explorerTitle	nqx - probability of dying between ages x and x+n - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	age_group Dropdown	yVariableIds	hasMapTab
+	both sexes	1-4 years	828730	true
+	both sexes	10-14 years	828731	true
+	both sexes	15-19  years	828732	true
+	both sexes	20-24 years	828733	true
+	both sexes	25-29 years	828734	true
+	both sexes	30-34 years	828735	true
+	both sexes	35-39 years	828736	true
+	both sexes	40-44 years	828737	true
+	both sexes	45-49 years	828738	true
+	both sexes	5-9 years	828739	true
+	both sexes	50-54 years	828740	true
+	both sexes	55-59 years	828741	true
+	both sexes	60-64 years	828742	true
+	both sexes	65-69 years	828743	true
+	both sexes	70-74 years	828744	true
+	both sexes	75-79 years	828745	true
+	both sexes	80-84 years	828746	true
+	both sexes	85+ years	828747	true
+	both sexes	<1 year	828748	true
+	female	1-4 years	828749	true
+	female	10-14 years	828750	true
+	female	15-19  years	828751	true
+	female	20-24 years	828752	true
+	female	25-29 years	828753	true
+	female	30-34 years	828754	true
+	female	35-39 years	828755	true
+	female	45-49 years	828756	true
+	female	40-44 years	828757	true
+	female	5-9 years	828758	true
+	female	50-54 years	828759	true
+	female	55-59 years	828760	true
+	female	60-64 years	828761	true
+	female	65-69 years	828762	true
+	female	70-74 years	828763	true
+	female	75-79 years	828764	true
+	female	80-84 years	828765	true
+	female	85+ years	828766	true
+	female	<1 year	828767	true
+	male	1-4 years	828768	true
+	male	10-14 years	828769	true
+	male	15-19  years	828770	true
+	male	20-24 years	828771	true
+	male	25-29 years	828772	true
+	male	30-34 years	828773	true
+	male	35-39 years	828774	true
+	male	40-44 years	828775	true
+	male	45-49 years	828776	true
+	male	5-9 years	828777	true
+	male	50-54 years	828778	true
+	male	55-59 years	828779	true
+	male	60-64 years	828780	true
+	male	65-69 years	828781	true
+	male	70-74 years	828782	true
+	male	75-79 years	828783	true
+	male	80-84 years	828784	true
+	male	85+ years	828785	true
+	male	<1 year	828786	true
+
+columns
+	variableId
+	828730
+	828731
+	828732
+	828733
+	828734
+	828735
+	828736
+	828737
+	828738
+	828739
+	828740
+	828741
+	828742
+	828743
+	828744
+	828745
+	828746
+	828747
+	828748
+	828749
+	828750
+	828751
+	828752
+	828753
+	828754
+	828755
+	828756
+	828757
+	828758
+	828759
+	828760
+	828761
+	828762
+	828763
+	828764
+	828765
+	828766
+	828767
+	828768
+	828769
+	828770
+	828771
+	828772
+	828773
+	828774
+	828775
+	828776
+	828777
+	828778
+	828779
+	828780
+	828781
+	828782
+	828783
+	828784
+	828785
+	828786

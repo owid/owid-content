@@ -1,0 +1,14 @@
+explorerTitle	Registration of medications for opioid withdrawal - Rsud drugs: 
+selection	World
+
+graphers
+	rsud_drugs Dropdown	yVariableIds	hasMapTab
+	Clonidine	830091	true
+	Diazepam	830092	true
+	Lofexidine	830093	true
+
+columns
+	variableId
+	830091
+	830092
+	830093

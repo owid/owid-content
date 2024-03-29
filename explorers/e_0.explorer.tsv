@@ -1,0 +1,12 @@
+explorerTitle	Mean log deviation (
+selection	World
+
+graphers
+	table Checkbox	yVariableIds	hasMapTab
+	Equivalized income	831543	true
+	Per capita income	831566	true
+
+columns
+	variableId
+	831543
+	831566

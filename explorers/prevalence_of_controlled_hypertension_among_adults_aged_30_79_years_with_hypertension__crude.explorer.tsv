@@ -1,0 +1,14 @@
+explorerTitle	Prevalence of controlled hypertension among adults aged 30-79 years with hypertension, crude - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	829518	true
+	female	829519	true
+	male	829520	true
+
+columns
+	variableId
+	829518
+	829519
+	829520

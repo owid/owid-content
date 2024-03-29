@@ -1,0 +1,48 @@
+explorerTitle	Total fertility rate (births per woman) - 
+selection	World
+
+graphers
+	mothers_education_level Dropdown	residence_area_type Checkbox	wealth_quintile Dropdown	wealth_decile Dropdown	yVariableIds	hasMapTab
+	None				830580	true
+	Primary				830581	true
+	Secondary or higher				830582	true
+		Rural			830583	true
+		Urban			830584	true
+			Q1 (Poorest)		830585	true
+			Q2		830586	true
+			Q3		830587	true
+			Q4		830588	true
+			Q5 (Richest)		830589	true
+				Decile 1 (poorest)	830590	true
+				Decile 10 (richest)	830591	true
+				Decile 2	830592	true
+				Decile 3	830593	true
+				Decile 4	830594	true
+				Decile 5	830595	true
+				Decile 6	830596	true
+				Decile 7	830597	true
+				Decile 8	830598	true
+				Decile 9	830599	true
+
+columns
+	variableId
+	830580
+	830581
+	830582
+	830583
+	830584
+	830585
+	830586
+	830587
+	830588
+	830589
+	830590
+	830591
+	830592
+	830593
+	830594
+	830595
+	830596
+	830597
+	830598
+	830599

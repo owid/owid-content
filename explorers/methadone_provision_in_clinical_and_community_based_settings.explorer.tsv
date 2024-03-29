@@ -1,0 +1,24 @@
+explorerTitle	Methadone provision in clinical and community-based settings - Rsud public private settings: 
+selection	World
+
+graphers
+	rsud_public_private_settings Dropdown	yVariableIds	hasMapTab
+	Community pharmacies	828351	true
+	Primary health care	828352	true
+	Prisons	828353	true
+	Private practice	828354	true
+	Private treatment centers	828355	true
+	Public drug treatment centers	828356	true
+	Public general hospitals	828357	true
+	Public mental health hospitals	828358	true
+
+columns
+	variableId
+	828351
+	828352
+	828353
+	828354
+	828355
+	828356
+	828357
+	828358

@@ -1,0 +1,12 @@
+explorerTitle	Unintended pregnancy rate (model-estimated) - Uncertainty interval: 
+selection	World
+
+graphers
+	uncertainty_interval Checkbox	yVariableIds	hasMapTab
+	80% uncertainty	830830	true
+	95% uncertainty	830831	true
+
+columns
+	variableId
+	830830
+	830831

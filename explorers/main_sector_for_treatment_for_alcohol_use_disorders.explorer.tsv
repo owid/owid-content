@@ -1,0 +1,18 @@
+explorerTitle	Main sector for treatment for alcohol use disorders - Rsud programmes: 
+selection	World
+
+graphers
+	rsud_programmes Dropdown	yVariableIds	hasMapTab
+	In-patient detoxification	828185	true
+	In-patient treatment	828186	true
+	Out-patient detoxification	828187	true
+	Out-patient treatment	828188	true
+	Rehabilitation	828189	true
+
+columns
+	variableId
+	828185
+	828186
+	828187
+	828188
+	828189

@@ -1,0 +1,12 @@
+explorerTitle	Length of stay for inpatient long-term residential treatment, days - Rsud substance type disorders: 
+selection	World
+
+graphers
+	rsud_substance_type_disorders Checkbox	yVariableIds	hasMapTab
+	Alcohol use disorders	828075	true
+	Drug use disorders	828076	true
+
+columns
+	variableId
+	828075
+	828076

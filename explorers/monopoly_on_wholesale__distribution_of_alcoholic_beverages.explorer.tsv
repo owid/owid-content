@@ -1,0 +1,14 @@
+explorerTitle	Monopoly on wholesale /distribution of alcoholic beverages - Beverage types: 
+selection	World
+
+graphers
+	beverage_types Dropdown	yVariableIds	hasMapTab
+	Beer	828473	true
+	Spirits	828474	true
+	Wine	828475	true
+
+columns
+	variableId
+	828473
+	828474
+	828475

@@ -1,0 +1,14 @@
+explorerTitle	Excise tax on alcoholic beverages - Beverage types: 
+selection	World
+
+graphers
+	beverage_types Dropdown	yVariableIds	hasMapTab
+	Beer	825669	true
+	Spirits	825670	true
+	Wine	825671	true
+
+columns
+	variableId
+	825669
+	825670
+	825671

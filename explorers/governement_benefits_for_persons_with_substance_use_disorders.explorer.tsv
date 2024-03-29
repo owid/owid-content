@@ -1,0 +1,12 @@
+explorerTitle	Governement benefits for persons with substance use disorders - Rsud substance type disorders: 
+selection	World
+
+graphers
+	rsud_substance_type_disorders Checkbox	yVariableIds	hasMapTab
+	Alcohol use disorders	826103	true
+	Drug use disorders	826104	true
+
+columns
+	variableId
+	826103
+	826104

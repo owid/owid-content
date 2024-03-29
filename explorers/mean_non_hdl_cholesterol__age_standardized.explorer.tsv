@@ -1,0 +1,14 @@
+explorerTitle	Mean Non-HDL cholesterol, age-standardized - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	828255	true
+	female	828256	true
+	male	828257	true
+
+columns
+	variableId
+	828255
+	828256
+	828257

@@ -1,0 +1,24 @@
+explorerTitle	Government support for community action - Community action: 
+selection	World
+
+graphers
+	community_action Dropdown	yVariableIds	hasMapTab
+	At-risk groups targeted	826123	true
+	Community programmes	826124	true
+	Earmarked funds	826125	true
+	Data dissemination	826126	true
+	Research studies	826127	true
+	Provision of information	826128	true
+	Technical tools	826129	true
+	Training programmes	826130	true
+
+columns
+	variableId
+	826123
+	826124
+	826125
+	826126
+	826127
+	826128
+	826129
+	826130

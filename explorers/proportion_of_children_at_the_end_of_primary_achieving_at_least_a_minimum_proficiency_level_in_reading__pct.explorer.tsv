@@ -1,0 +1,14 @@
+explorerTitle	Proportion of children at the end of primary achieving at least a minimum proficiency level in reading (%) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	829940	true
+	female	829941	true
+	male	829942	true
+
+columns
+	variableId
+	829940
+	829941
+	829942

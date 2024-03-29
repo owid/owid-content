@@ -1,0 +1,16 @@
+explorerTitle	Power density (W/m^2) - Exposed: 
+selection	World
+
+graphers
+	exposed Checkbox	radio_band Checkbox	yVariableIds	hasMapTab
+	Public	1800 MHz	829433	true
+	Public	900 MHz	829434	true
+	Workers	1800 MHz	829435	true
+	Workers	900 MHz	829436	true
+
+columns
+	variableId
+	829433
+	829434
+	829435
+	829436

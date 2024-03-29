@@ -1,0 +1,14 @@
+explorerTitle	Number of deaths among children ages 10 to 14 years - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	828799	true
+	female	828800	true
+	male	828801	true
+
+columns
+	variableId
+	828799
+	828800
+	828801

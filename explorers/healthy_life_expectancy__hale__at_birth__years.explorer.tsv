@@ -1,0 +1,14 @@
+explorerTitle	Healthy life expectancy (HALE) at birth (years) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	826236	true
+	female	826237	true
+	male	826238	true
+
+columns
+	variableId
+	826236
+	826237
+	826238

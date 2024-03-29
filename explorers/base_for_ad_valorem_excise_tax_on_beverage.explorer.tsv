@@ -1,0 +1,14 @@
+explorerTitle	Base for ad valorem excise tax on beverage - Beverage type: 
+selection	World
+
+graphers
+	beverage_type Checkbox	beverage Dropdown	yVariableIds	hasMapTab
+	Alcoholic	Beer	824365	true
+	Alcoholic	Spirits	824366	true
+	Non-alcoholic	Sugar-sweetened  carbonated beverages	824367	true
+
+columns
+	variableId
+	824365
+	824366
+	824367

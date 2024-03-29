@@ -1,0 +1,12 @@
+explorerTitle	Power frequency (Hz) - Exposed: 
+selection	World
+
+graphers
+	exposed Checkbox	yVariableIds	hasMapTab
+	Public	829437	true
+	Workers	829438	true
+
+columns
+	variableId
+	829437
+	829438

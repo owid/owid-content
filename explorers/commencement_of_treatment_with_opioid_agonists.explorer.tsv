@@ -1,0 +1,14 @@
+explorerTitle	Commencement of treatment with opioid agonists - Rsud drugs: 
+selection	World
+
+graphers
+	rsud_drugs Dropdown	yVariableIds	hasMapTab
+	Buprenorphine	824762	true
+	Buprenorphine/naloxone	824763	true
+	Methadone	824764	true
+
+columns
+	variableId
+	824762
+	824763
+	824764

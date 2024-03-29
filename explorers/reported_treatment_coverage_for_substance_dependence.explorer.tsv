@@ -1,0 +1,16 @@
+explorerTitle	Reported treatment coverage for substance dependence - Substance dependence: 
+selection	World
+
+graphers
+	substance_dependence Dropdown	yVariableIds	hasMapTab
+	Alcohol dependence	830114	true
+	Cocaine dependence	830115	true
+	Opioid dependence	830116	true
+	Cannabis dependence	830117	true
+
+columns
+	variableId
+	830114
+	830115
+	830116
+	830117

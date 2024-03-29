@@ -1,0 +1,14 @@
+explorerTitle	Age-standardized death rates, oesophagus cancer, per 100,000 - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	821857	true
+	female	821858	true
+	male	821859	true
+
+columns
+	variableId
+	821857
+	821858
+	821859

@@ -1,0 +1,18 @@
+explorerTitle	Concentrations of fine particulate matter (PM2.5) - Residence area type: 
+selection	World
+
+graphers
+	residence_area_type Dropdown	yVariableIds	hasMapTab
+	Cities	824842	true
+	Rural	824843	true
+	Total	824844	true
+	Towns	824845	true
+	Urban	824846	true
+
+columns
+	variableId
+	824842
+	824843
+	824844
+	824845
+	824846

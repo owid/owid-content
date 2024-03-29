@@ -1,0 +1,14 @@
+explorerTitle	Maximum life expectancy - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both	815622	true
+	female	815624	true
+	male	815626	true
+
+columns
+	variableId
+	815622
+	815624
+	815626

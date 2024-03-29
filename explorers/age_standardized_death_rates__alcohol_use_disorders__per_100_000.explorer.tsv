@@ -1,0 +1,14 @@
+explorerTitle	Age-standardized death rates, alcohol use disorders, per 100,000 - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	821812	true
+	female	821813	true
+	male	821815	true
+
+columns
+	variableId
+	821812
+	821813
+	821815

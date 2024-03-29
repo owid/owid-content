@@ -1,0 +1,14 @@
+explorerTitle	Age limits off-premise sales - Beverage types: 
+selection	World
+
+graphers
+	beverage_types Dropdown	yVariableIds	hasMapTab
+	Beer	821724	true
+	Spirits	821725	true
+	Wine	821726	true
+
+columns
+	variableId
+	821724
+	821725
+	821726

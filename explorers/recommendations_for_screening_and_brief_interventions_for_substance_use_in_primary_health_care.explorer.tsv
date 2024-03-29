@@ -1,0 +1,16 @@
+explorerTitle	Recommendations for screening and brief interventions for substance use in primary health care - Rsud substance types: 
+selection	World
+
+graphers
+	rsud_substance_types Dropdown	yVariableIds	hasMapTab
+	Alcohol	830068	true
+	Cannabis	830069	true
+	Prescription drugs	830070	true
+	Tobacco	830071	true
+
+columns
+	variableId
+	830068
+	830069
+	830070
+	830071

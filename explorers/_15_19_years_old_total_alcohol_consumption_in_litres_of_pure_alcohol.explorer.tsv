@@ -1,0 +1,14 @@
+explorerTitle	15-19 years old total alcohol consumption in litres of pure alcohol - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	821616	true
+	female	821617	true
+	male	821618	true
+
+columns
+	variableId
+	821616
+	821617
+	821618

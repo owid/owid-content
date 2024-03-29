@@ -1,0 +1,14 @@
+explorerTitle	Age-standardized DALYs, self-inflicted injury, per 100,000 - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	821791	true
+	female	821792	true
+	male	821793	true
+
+columns
+	variableId
+	821791
+	821792
+	821793

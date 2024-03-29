@@ -1,0 +1,18 @@
+explorerTitle	Infant mortality rate - Sex: all - Age: 0 - Variant: 
+selection	World
+
+graphers
+	variant Dropdown	yVariableIds	hasMapTab
+	medium	520003	true
+	estimates	520007	true
+	constant fertility	520008	true
+	high	520009	true
+	low	520010	true
+
+columns
+	variableId
+	520003
+	520007
+	520008
+	520009
+	520010

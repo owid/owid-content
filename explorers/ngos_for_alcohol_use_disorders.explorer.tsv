@@ -1,0 +1,16 @@
+explorerTitle	NGOs for alcohol use disorders - Rsud ngos: 
+selection	World
+
+graphers
+	rsud_ngos Dropdown	yVariableIds	hasMapTab
+	Advocacy	828596	true
+	Prevention	828597	true
+	Rehabilitation	828598	true
+	Treatment	828599	true
+
+columns
+	variableId
+	828596
+	828597
+	828598
+	828599

@@ -1,0 +1,16 @@
+explorerTitle	Number of diarrhoea deaths from inadequate hygiene - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	age_group Checkbox	yVariableIds	hasMapTab
+	both sexes	<5 years	828837	true
+	both sexes	Total (All ages)	828838	true
+	female	Total (All ages)	828839	true
+	male	Total (All ages)	828840	true
+
+columns
+	variableId
+	828837
+	828838
+	828839
+	828840

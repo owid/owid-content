@@ -1,0 +1,12 @@
+explorerTitle	Road traffic injuries, age-standardized death rates (15+), per 100,000 population - Sex: 
+selection	World
+
+graphers
+	sex Checkbox	yVariableIds	hasMapTab
+	female	830202	true
+	male	830203	true
+
+columns
+	variableId
+	830202
+	830203

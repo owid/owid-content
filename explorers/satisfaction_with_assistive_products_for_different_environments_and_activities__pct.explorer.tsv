@@ -1,0 +1,20 @@
+explorerTitle	Satisfaction with assistive products for different environments and activities (%) - Assistive technology product: Total
+selection	World
+
+graphers
+	assistive_technology_product Checkbox	satisfaction_with_assistive_products_for_different_environments_and_activities Dropdown	yVariableIds	hasMapTab
+	Total	Home environment	830217	true
+	Total	Participation in activities	830218	true
+	Total	Public environment	830219	true
+	Total, excluding spectacles	Home environment	830220	true
+	Total, excluding spectacles	Public environment	830221	true
+	Total, excluding spectacles	Participation in activities	830222	true
+
+columns
+	variableId
+	830217
+	830218
+	830219
+	830220
+	830221
+	830222

@@ -1,0 +1,12 @@
+explorerTitle	Compulsory treatment for people with alcohol use disorders in the criminal justice system - Treatment: 
+selection	World
+
+graphers
+	treatment Checkbox	yVariableIds	hasMapTab
+	As an alternative to criminal sanction	824838	true
+	In addition to criminal sanction	824839	true
+
+columns
+	variableId
+	824838
+	824839

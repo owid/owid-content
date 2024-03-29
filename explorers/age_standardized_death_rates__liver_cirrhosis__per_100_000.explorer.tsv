@@ -1,0 +1,14 @@
+explorerTitle	Age-standardized death rates, liver cirrhosis, per 100,000 - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	821849	true
+	female	821850	true
+	male	821851	true
+
+columns
+	variableId
+	821849
+	821850
+	821851

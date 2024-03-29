@@ -1,0 +1,14 @@
+explorerTitle	Cheapest breand of e-liquid contains nicotine or not - Tobacco and nicotine product: Cheapest brand of e-liquid of a
+selection	World
+
+graphers
+	tobacco_and_nicotine_product Dropdown	yVariableIds	hasMapTab
+	Cheapest brand of e-liquid of a closed disposable ENDS/ENNDS system (1ml)	824631	true
+	Cheapest brand of e-liquid of a closed rechargeable ENDS/ENNDS system (1ml)	824632	true
+	Cheapest brand of e-liquid of an open ENDS/ENNDS system (10ml)	824633	true
+
+columns
+	variableId
+	824631
+	824632
+	824633

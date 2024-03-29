@@ -1,0 +1,14 @@
+explorerTitle	Mean HDL cholesterol, crude - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	828248	true
+	female	828249	true
+	male	828250	true
+
+columns
+	variableId
+	828248
+	828249
+	828250

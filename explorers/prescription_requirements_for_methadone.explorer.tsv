@@ -1,0 +1,14 @@
+explorerTitle	Prescription requirements for methadone - Rsud drug prescription: 
+selection	World
+
+graphers
+	rsud_drug_prescription Dropdown	yVariableIds	hasMapTab
+	Any doctor	829477	true
+	Non-doctors	829478	true
+	Specialized doctors	829479	true
+
+columns
+	variableId
+	829477
+	829478
+	829479

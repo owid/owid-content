@@ -1,0 +1,52 @@
+explorerTitle	Demand for family planning satisfied - use of modern methods (%) - 
+selection	World
+
+graphers
+	age_group Checkbox	mothers_education_level Dropdown	residence_area_type Checkbox	wealth_quintile Dropdown	wealth_decile Dropdown	yVariableIds	hasMapTab
+	15-19 years					825182	true
+	20-49 years					825183	true
+		None				825184	true
+		Primary				825185	true
+		Secondary or higher				825186	true
+			Rural			825187	true
+				Q1 (Poorest)		825188	true
+			Urban			825189	true
+				Q2		825190	true
+				Q3		825191	true
+				Q4		825192	true
+				Q5 (Richest)		825193	true
+					Decile 1 (poorest)	825194	true
+					Decile 10 (richest)	825195	true
+					Decile 2	825196	true
+					Decile 3	825197	true
+					Decile 4	825198	true
+					Decile 5	825199	true
+					Decile 6	825200	true
+					Decile 7	825201	true
+					Decile 8	825202	true
+					Decile 9	825203	true
+
+columns
+	variableId
+	825182
+	825183
+	825184
+	825185
+	825186
+	825187
+	825188
+	825189
+	825190
+	825191
+	825192
+	825193
+	825194
+	825195
+	825196
+	825197
+	825198
+	825199
+	825200
+	825201
+	825202
+	825203

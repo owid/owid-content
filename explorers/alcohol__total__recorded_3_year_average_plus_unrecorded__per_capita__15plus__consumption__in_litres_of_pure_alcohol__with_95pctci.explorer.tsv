@@ -1,0 +1,14 @@
+explorerTitle	Alcohol, total (recorded 3 year average + unrecorded) per capita (15+) consumption (in litres of pure alcohol) with 95%CI - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	821953	true
+	female	821954	true
+	male	821955	true
+
+columns
+	variableId
+	821953
+	821954
+	821955

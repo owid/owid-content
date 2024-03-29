@@ -1,0 +1,98 @@
+explorerTitle	Bipolar disorders (prevalence rate) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	age Dropdown	yVariableIds	hasMapTab
+	Both	15-19 years	688508	true
+	Both	20-24 years	688511	true
+	Both	25-29 years	688528	true
+	Both	30-34 years	688538	true
+	Both	35-39 years	688548	true
+	Both	40-44 years	688559	true
+	Both	45-49 years	688568	true
+	Both	5-14 years	688578	true
+	Both	50-54 years	688590	true
+	Both	55-59 years	688599	true
+	Both	60-64 years	688608	true
+	Both	65-69 years	688618	true
+	Both	70+ years	688628	true
+	Both	Age-standardized	688635	true
+	Both	All ages	688650	true
+	Female	15-19 years	688657	true
+	Female	20-24 years	688665	true
+	Female	25-29 years	688679	true
+	Female	30-34 years	688689	true
+	Female	35-39 years	688698	true
+	Female	40-44 years	688708	true
+	Female	45-49 years	688718	true
+	Female	5-14 years	688730	true
+	Female	50-54 years	688738	true
+	Female	55-59 years	688747	true
+	Female	60-64 years	688759	true
+	Female	65-69 years	688768	true
+	Female	70+ years	688778	true
+	Female	Age-standardized	688788	true
+	Female	All ages	688798	true
+	Male	15-19 years	688807	true
+	Male	20-24 years	688819	true
+	Male	25-29 years	688827	true
+	Male	30-34 years	688838	true
+	Male	35-39 years	688848	true
+	Male	40-44 years	688860	true
+	Male	45-49 years	688868	true
+	Male	5-14 years	688875	true
+	Male	50-54 years	688889	true
+	Male	55-59 years	688898	true
+	Male	60-64 years	688912	true
+	Male	65-69 years	688919	true
+	Male	70+ years	688927	true
+	Male	Age-standardized	688938	true
+	Male	All ages	688947	true
+
+columns
+	variableId
+	688508
+	688511
+	688528
+	688538
+	688548
+	688559
+	688568
+	688578
+	688590
+	688599
+	688608
+	688618
+	688628
+	688635
+	688650
+	688657
+	688665
+	688679
+	688689
+	688698
+	688708
+	688718
+	688730
+	688738
+	688747
+	688759
+	688768
+	688778
+	688788
+	688798
+	688807
+	688819
+	688827
+	688838
+	688848
+	688860
+	688868
+	688875
+	688889
+	688898
+	688912
+	688919
+	688927
+	688938
+	688947

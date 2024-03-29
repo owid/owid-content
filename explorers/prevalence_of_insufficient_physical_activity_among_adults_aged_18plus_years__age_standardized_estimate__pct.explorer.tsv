@@ -1,0 +1,14 @@
+explorerTitle	Prevalence of insufficient physical activity among adults aged 18+ years (age-standardized estimate) (%) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	829591	true
+	female	829592	true
+	male	829593	true
+
+columns
+	variableId
+	829591
+	829592
+	829593

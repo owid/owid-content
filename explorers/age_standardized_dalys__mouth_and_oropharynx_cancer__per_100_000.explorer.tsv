@@ -1,0 +1,14 @@
+explorerTitle	Age-standardized DALYs, mouth and oropharynx cancer, per 100,000 - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	821769	true
+	male	821770	true
+	female	821771	true
+
+columns
+	variableId
+	821769
+	821770
+	821771

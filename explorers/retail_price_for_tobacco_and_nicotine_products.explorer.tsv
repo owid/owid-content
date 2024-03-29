@@ -1,0 +1,62 @@
+explorerTitle	Retail price for tobacco and nicotine products - Price: In 
+selection	World
+
+graphers
+	price Dropdown	tobacco_and_nicotine_product Dropdown	yVariableIds	hasMapTab
+	In US$ at official exchange rates	Cheapest brand of cigarettes (20 sticks)	830170	true
+	In US$ at official exchange rates	Cheapest brand of e-liquid of a closed disposable ENDS/ENNDS system (1ml)	830171	true
+	In US$ at official exchange rates	Cheapest brand of e-liquid of a closed rechargeable ENDS/ENNDS system (1ml)	830172	true
+	In US$ at official exchange rates	Cheapest brand of e-liquid of an open ENDS/ENNDS system (10ml)	830173	true
+	In US$ at official exchange rates	Most sold brand of cigarettes (20 sticks)	830174	true
+	In US$ at official exchange rates	Most sold brand of heated tobacco products (20 sticks)	830175	true
+	In US$ at official exchange rates	Most sold brand of other smoked tobacco	830176	true
+	In US$ at official exchange rates	Most sold brand of smokeless tobacco (20g)	830177	true
+	In US$ at official exchange rates	Premium brand of cigarettes (20 sticks)	830178	true
+	In international dollars (At Purchasing Power Parity)	Cheapest brand of cigarettes (20 sticks)	830179	true
+	In international dollars (At Purchasing Power Parity)	Cheapest brand of e-liquid of a closed rechargeable ENDS/ENNDS system (1ml)	830180	true
+	In international dollars (At Purchasing Power Parity)	Cheapest brand of e-liquid of a closed disposable ENDS/ENNDS system (1ml)	830181	true
+	In international dollars (At Purchasing Power Parity)	Cheapest brand of e-liquid of an open ENDS/ENNDS system (10ml)	830182	true
+	In international dollars (At Purchasing Power Parity)	Most sold brand of cigarettes (20 sticks)	830183	true
+	In international dollars (At Purchasing Power Parity)	Most sold brand of heated tobacco products (20 sticks)	830184	true
+	In international dollars (At Purchasing Power Parity)	Most sold brand of other smoked tobacco	830185	true
+	In international dollars (At Purchasing Power Parity)	Most sold brand of smokeless tobacco (20g)	830186	true
+	In international dollars (At Purchasing Power Parity)	Premium brand of cigarettes (20 sticks)	830187	true
+	In reported currency	Cheapest brand of cigarettes (20 sticks)	830188	true
+	In reported currency	Cheapest brand of e-liquid of a closed disposable ENDS/ENNDS system (1ml)	830189	true
+	In reported currency	Cheapest brand of e-liquid of a closed rechargeable ENDS/ENNDS system (1ml)	830190	true
+	In reported currency	Cheapest brand of e-liquid of an open ENDS/ENNDS system (10ml)	830191	true
+	In reported currency	Most sold brand of heated tobacco products (20 sticks)	830192	true
+	In reported currency	Most sold brand of other smoked tobacco	830193	true
+	In reported currency	Most sold brand of smokeless tobacco (20g)	830194	true
+	In reported currency	Most sold brand of cigarettes (20 sticks)	830195	true
+	In reported currency	Premium brand of cigarettes (20 sticks)	830196	true
+
+columns
+	variableId
+	830170
+	830171
+	830172
+	830173
+	830174
+	830175
+	830176
+	830177
+	830178
+	830179
+	830180
+	830181
+	830182
+	830183
+	830184
+	830185
+	830186
+	830187
+	830188
+	830189
+	830190
+	830191
+	830192
+	830193
+	830194
+	830195
+	830196

@@ -1,0 +1,56 @@
+explorerTitle	DTP3 immunization coverage among one-year-olds (%) - 
+selection	World
+
+graphers
+	sex Checkbox	age_group Checkbox	mothers_education_level Dropdown	residence_area_type Checkbox	wealth_quintile Dropdown	wealth_decile Dropdown	yVariableIds	hasMapTab
+	female						825387	true
+	male						825388	true
+		15-19 years					825389	true
+		20-49 years					825390	true
+			None				825391	true
+			Primary				825392	true
+			Secondary or higher				825393	true
+				Rural			825394	true
+				Urban			825395	true
+					Q1 (Poorest)		825396	true
+					Q2		825397	true
+					Q3		825398	true
+					Q4		825399	true
+					Q5 (Richest)		825400	true
+						Decile 1 (poorest)	825401	true
+						Decile 10 (richest)	825402	true
+						Decile 2	825403	true
+						Decile 3	825404	true
+						Decile 4	825405	true
+						Decile 5	825406	true
+						Decile 6	825407	true
+						Decile 7	825408	true
+						Decile 8	825409	true
+						Decile 9	825410	true
+
+columns
+	variableId
+	825387
+	825388
+	825389
+	825390
+	825391
+	825392
+	825393
+	825394
+	825395
+	825396
+	825397
+	825398
+	825399
+	825400
+	825401
+	825402
+	825403
+	825404
+	825405
+	825406
+	825407
+	825408
+	825409
+	825410

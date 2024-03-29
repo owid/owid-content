@@ -1,0 +1,14 @@
+explorerTitle	Alcohol dependence (15+ ), 12-month prevalence (%) with 95%CI - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	821985	true
+	female	821986	true
+	male	821987	true
+
+columns
+	variableId
+	821985
+	821986
+	821987

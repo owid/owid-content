@@ -1,0 +1,14 @@
+explorerTitle	Licence required for production - Beverage types: 
+selection	World
+
+graphers
+	beverage_types Dropdown	yVariableIds	hasMapTab
+	Beer	828085	true
+	Spirits	828086	true
+	Wine	828087	true
+
+columns
+	variableId
+	828085
+	828086
+	828087

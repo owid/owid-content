@@ -1,0 +1,14 @@
+explorerTitle	Mortality rate among children ages 5 to 9 years (per 1000 children aged 5) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	828477	true
+	female	828478	true
+	male	828479	true
+
+columns
+	variableId
+	828477
+	828478
+	828479

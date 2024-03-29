@@ -1,0 +1,14 @@
+explorerTitle	Knowledge about HIV prevention in young people - Disaggregation: 
+selection	World
+
+graphers
+	disaggregation Dropdown	yVariableIds	hasMapTab
+	All sexes Young people (15-24) Yes to all questions	789791	true
+	Females Young people (15-24) Yes to all questions	789866	true
+	Males Young people (15-24) Yes to all questions	789947	true
+
+columns
+	variableId
+	789791
+	789866
+	789947

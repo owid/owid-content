@@ -1,0 +1,14 @@
+explorerTitle	Specialized treatment facilities for substance use disorders - Treatment location: In 
+selection	World
+
+graphers
+	treatment_location Dropdown	yVariableIds	hasMapTab
+	In other areas	830365	true
+	In other major cities	830366	true
+	In the capital city	830367	true
+
+columns
+	variableId
+	830365
+	830366
+	830367

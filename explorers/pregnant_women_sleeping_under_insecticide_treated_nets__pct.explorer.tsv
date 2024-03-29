@@ -1,0 +1,52 @@
+explorerTitle	Pregnant women sleeping under insecticide-treated nets (%) - 
+selection	World
+
+graphers
+	age_group Checkbox	mothers_education_level Dropdown	residence_area_type Checkbox	wealth_quintile Dropdown	wealth_decile Dropdown	yVariableIds	hasMapTab
+	15-19 years					829441	true
+	20-49 years					829442	true
+		None				829443	true
+		Primary				829444	true
+		Secondary or higher				829445	true
+			Urban			829446	true
+			Rural			829447	true
+				Q1 (Poorest)		829448	true
+				Q2		829449	true
+				Q3		829450	true
+				Q4		829451	true
+				Q5 (Richest)		829452	true
+					Decile 1 (poorest)	829453	true
+					Decile 10 (richest)	829454	true
+					Decile 2	829455	true
+					Decile 3	829456	true
+					Decile 4	829457	true
+					Decile 5	829458	true
+					Decile 6	829459	true
+					Decile 7	829460	true
+					Decile 8	829461	true
+					Decile 9	829462	true
+
+columns
+	variableId
+	829441
+	829442
+	829443
+	829444
+	829445
+	829446
+	829447
+	829448
+	829449
+	829450
+	829451
+	829452
+	829453
+	829454
+	829455
+	829456
+	829457
+	829458
+	829459
+	829460
+	829461
+	829462

@@ -1,0 +1,108 @@
+explorerTitle	Births - Sex: all - Age: 
+selection	World
+
+graphers
+	age Dropdown	variant Dropdown	yVariableIds	hasMapTab
+	30-34	estimates	520394	true
+	30-34	medium	520395	true
+	30-34	high	520396	true
+	30-34	low	520397	true
+	20-24	estimates	520398	true
+	30-34	constant fertility	520399	true
+	20-24	medium	520400	true
+	20-24	high	520401	true
+	20-24	low	520402	true
+	20-24	constant fertility	520403	true
+	10-14	estimates	520404	true
+	10-14	medium	520405	true
+	10-14	high	520406	true
+	10-14	low	520407	true
+	10-14	constant fertility	520408	true
+	45-49	estimates	520409	true
+	45-49	medium	520410	true
+	45-49	high	520411	true
+	45-49	low	520412	true
+	45-49	constant fertility	520413	true
+	40-44	estimates	520414	true
+	40-44	medium	520415	true
+	40-44	high	520416	true
+	40-44	low	520417	true
+	40-44	constant fertility	520418	true
+	all	estimates	520419	true
+	all	medium	520420	true
+	all	low	520421	true
+	all	high	520422	true
+	all	constant fertility	520423	true
+	15-19	estimates	520424	true
+	15-19	medium	520425	true
+	15-19	high	520426	true
+	15-19	low	520427	true
+	15-19	constant fertility	520428	true
+	35-39	estimates	520429	true
+	35-39	medium	520430	true
+	35-39	high	520431	true
+	35-39	low	520432	true
+	35-39	constant fertility	520433	true
+	50-54	estimates	520434	true
+	50-54	medium	520435	true
+	50-54	high	520436	true
+	50-54	low	520437	true
+	50-54	constant fertility	520438	true
+	25-29	estimates	520439	true
+	25-29	medium	520440	true
+	25-29	high	520441	true
+	25-29	low	520442	true
+	25-29	constant fertility	520443	true
+
+columns
+	variableId
+	520394
+	520395
+	520396
+	520397
+	520398
+	520399
+	520400
+	520401
+	520402
+	520403
+	520404
+	520405
+	520406
+	520407
+	520408
+	520409
+	520410
+	520411
+	520412
+	520413
+	520414
+	520415
+	520416
+	520417
+	520418
+	520419
+	520420
+	520421
+	520422
+	520423
+	520424
+	520425
+	520426
+	520427
+	520428
+	520429
+	520430
+	520431
+	520432
+	520433
+	520434
+	520435
+	520436
+	520437
+	520438
+	520439
+	520440
+	520441
+	520442
+	520443

@@ -1,0 +1,12 @@
+explorerTitle	System of monitoring alcohol involvement in forensic pathology - Monitoring system: In 
+selection	World
+
+graphers
+	monitoring_system Checkbox	yVariableIds	hasMapTab
+	In forensic examinations (deaths)	830457	true
+	In toxicology units (poisonings and intoxications)	830458	true
+
+columns
+	variableId
+	830457
+	830458

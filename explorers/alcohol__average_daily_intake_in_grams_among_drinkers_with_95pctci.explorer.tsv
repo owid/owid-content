@@ -1,0 +1,14 @@
+explorerTitle	Alcohol, average daily intake in grams among drinkers with 95%CI - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	821909	true
+	female	821910	true
+	male	821911	true
+
+columns
+	variableId
+	821909
+	821910
+	821911

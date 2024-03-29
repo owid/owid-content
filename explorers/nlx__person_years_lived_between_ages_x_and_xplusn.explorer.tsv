@@ -1,0 +1,122 @@
+explorerTitle	nLx - person-years lived between ages x and x+n - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	age_group Dropdown	yVariableIds	hasMapTab
+	both sexes	1-4 years	828612	true
+	both sexes	10-14 years	828613	true
+	both sexes	15-19  years	828614	true
+	both sexes	20-24 years	828615	true
+	both sexes	25-29 years	828616	true
+	both sexes	30-34 years	828617	true
+	both sexes	35-39 years	828618	true
+	both sexes	40-44 years	828619	true
+	both sexes	45-49 years	828620	true
+	both sexes	5-9 years	828621	true
+	both sexes	50-54 years	828622	true
+	both sexes	55-59 years	828623	true
+	both sexes	60-64 years	828624	true
+	both sexes	65-69 years	828625	true
+	both sexes	70-74 years	828626	true
+	both sexes	80-84 years	828627	true
+	both sexes	75-79 years	828628	true
+	both sexes	85+ years	828629	true
+	both sexes	<1 year	828630	true
+	female	1-4 years	828631	true
+	female	10-14 years	828632	true
+	female	15-19  years	828633	true
+	female	20-24 years	828634	true
+	female	25-29 years	828635	true
+	female	30-34 years	828636	true
+	female	35-39 years	828637	true
+	female	40-44 years	828638	true
+	female	45-49 years	828639	true
+	female	5-9 years	828640	true
+	female	50-54 years	828641	true
+	female	55-59 years	828642	true
+	female	60-64 years	828643	true
+	female	70-74 years	828644	true
+	female	65-69 years	828645	true
+	female	75-79 years	828646	true
+	female	80-84 years	828647	true
+	female	85+ years	828648	true
+	female	<1 year	828649	true
+	male	1-4 years	828650	true
+	male	10-14 years	828651	true
+	male	15-19  years	828652	true
+	male	20-24 years	828653	true
+	male	30-34 years	828654	true
+	male	25-29 years	828655	true
+	male	35-39 years	828656	true
+	male	40-44 years	828657	true
+	male	45-49 years	828658	true
+	male	5-9 years	828659	true
+	male	50-54 years	828660	true
+	male	55-59 years	828661	true
+	male	60-64 years	828662	true
+	male	65-69 years	828663	true
+	male	70-74 years	828664	true
+	male	75-79 years	828665	true
+	male	80-84 years	828666	true
+	male	85+ years	828667	true
+	male	<1 year	828668	true
+
+columns
+	variableId
+	828612
+	828613
+	828614
+	828615
+	828616
+	828617
+	828618
+	828619
+	828620
+	828621
+	828622
+	828623
+	828624
+	828625
+	828626
+	828627
+	828628
+	828629
+	828630
+	828631
+	828632
+	828633
+	828634
+	828635
+	828636
+	828637
+	828638
+	828639
+	828640
+	828641
+	828642
+	828643
+	828644
+	828645
+	828646
+	828647
+	828648
+	828649
+	828650
+	828651
+	828652
+	828653
+	828654
+	828655
+	828656
+	828657
+	828658
+	828659
+	828660
+	828661
+	828662
+	828663
+	828664
+	828665
+	828666
+	828667
+	828668

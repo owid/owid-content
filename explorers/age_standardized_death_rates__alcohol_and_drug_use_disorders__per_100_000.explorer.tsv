@@ -1,0 +1,12 @@
+explorerTitle	Age-standardized death rates, alcohol and drug use disorders, per 100 000 - Rsud substance type disorders: 
+selection	World
+
+graphers
+	rsud_substance_type_disorders Checkbox	yVariableIds	hasMapTab
+	Alcohol use disorders	821810	true
+	Drug use disorders	821811	true
+
+columns
+	variableId
+	821810
+	821811

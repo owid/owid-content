@@ -1,0 +1,14 @@
+explorerTitle	Mean HDL cholesterol, age-standardized - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	828245	true
+	female	828246	true
+	male	828247	true
+
+columns
+	variableId
+	828245
+	828246
+	828247

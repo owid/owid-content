@@ -1,0 +1,14 @@
+explorerTitle	Prevalence of current tobacco use among adults (%) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	829548	true
+	female	829549	true
+	male	829550	true
+
+columns
+	variableId
+	829548
+	829549
+	829550

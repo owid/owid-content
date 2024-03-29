@@ -1,0 +1,22 @@
+explorerTitle	Postgraduate training programme in treatment - Human resources  health workforce: 
+selection	World
+
+graphers
+	human_resources__health_workforce Dropdown	yVariableIds	hasMapTab
+	Community health workers	829377	true
+	Counsellors	829378	true
+	Medical doctors	829379	true
+	Nurses	829380	true
+	Psychologists	829381	true
+	Psychiatrists	829382	true
+	Social workers	829383	true
+
+columns
+	variableId
+	829377
+	829378
+	829379
+	829380
+	829381
+	829382
+	829383

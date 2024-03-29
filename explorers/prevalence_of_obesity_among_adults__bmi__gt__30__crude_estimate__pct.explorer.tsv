@@ -1,0 +1,14 @@
+explorerTitle	Prevalence of obesity among adults, BMI >= 30 (crude estimate) (%) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	829690	true
+	female	829691	true
+	male	829692	true
+
+columns
+	variableId
+	829690
+	829691
+	829692

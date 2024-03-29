@@ -1,0 +1,26 @@
+explorerTitle	Agreement in place between the Ministry of Health and other sector(s) in relation to health and climate change policy or programs - Cch survey sub question: 
+selection	World
+
+graphers
+	cch_survey_sub_question Dropdown	yVariableIds	hasMapTab
+	Agriculture	821894	true
+	Education	821895	true
+	Energy	821896	true
+	Environment	821897	true
+	National meteorological and hydrological services	821898	true
+	Social services	821899	true
+	Transportation	821900	true
+	Urban development and housing	821901	true
+	Water, sanitation & hygiene (WASH)	821902	true
+
+columns
+	variableId
+	821894
+	821895
+	821896
+	821897
+	821898
+	821899
+	821900
+	821901
+	821902

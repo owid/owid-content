@@ -1,0 +1,62 @@
+explorerTitle	Discriminatory attitudes towards people living with HIV - Disaggregation: 
+selection	World
+
+graphers
+	disaggregation Dropdown	yVariableIds	hasMapTab
+	Females 15-19 No to all questions	789809	true
+	Females 15-19 No to question 1	789810	true
+	Females 15-19 No to question 2	789811	true
+	Females 20-24 No to all questions	789813	true
+	Females 20-24 No to question 1	789814	true
+	Females 20-24 No to question 2	789815	true
+	Females 25-49 No to all questions	789817	true
+	Females 25-49 No to question 1	789818	true
+	Females 25-49 No to question 2	789819	true
+	Females No to all questions	789863	true
+	Females No to question 1	789864	true
+	Females No to question 2	789865	true
+	Males 15-19 No to all questions	789890	true
+	Males 15-19 No to question 1	789891	true
+	Males 15-19 No to question 2	789892	true
+	Males 20-24 No to all questions	789894	true
+	Males 20-24 No to question 1	789895	true
+	Males 20-24 No to question 2	789896	true
+	Males 25-49 No to all questions	789898	true
+	Males 25-49 No to question 1	789899	true
+	Males 25-49 No to question 2	789900	true
+	Males No to all questions	789944	true
+	Males No to question 1	789945	true
+	Males No to question 2	789946	true
+	Total No to all questions	789969	true
+	Total No to question 1	789970	true
+	Total No to question 2	789971	true
+
+columns
+	variableId
+	789809
+	789810
+	789811
+	789813
+	789814
+	789815
+	789817
+	789818
+	789819
+	789863
+	789864
+	789865
+	789890
+	789891
+	789892
+	789894
+	789895
+	789896
+	789898
+	789899
+	789900
+	789944
+	789945
+	789946
+	789969
+	789970
+	789971

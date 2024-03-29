@@ -1,0 +1,16 @@
+explorerTitle	Standards of care for health professionals, maintenance - Rsud standards of care: 
+selection	World
+
+graphers
+	rsud_standards_of_care Dropdown	yVariableIds	hasMapTab
+	Clinical supervision	830386	true
+	Guidelines	830387	true
+	In-service training	830388	true
+	Professional certifications	830389	true
+
+columns
+	variableId
+	830386
+	830387
+	830388
+	830389

@@ -1,0 +1,14 @@
+explorerTitle	Ambient air pollution attributable YLL in children under 5 years - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	823431	true
+	female	823432	true
+	male	823433	true
+
+columns
+	variableId
+	823431
+	823432
+	823433

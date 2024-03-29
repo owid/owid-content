@@ -1,0 +1,20 @@
+explorerTitle	Framework of national alcohol policy - Substance abuse policy frameworks: 
+selection	World
+
+graphers
+	substance_abuse_policy_frameworks Dropdown	yVariableIds	hasMapTab
+	Integrated into Other	825998	true
+	Integrated into general public health	825999	true
+	Integrated into mental health	826000	true
+	Integrated into non-communicable diseases	826001	true
+	Integrated into substance abuse	826002	true
+	Specific alcohol policy	826003	true
+
+columns
+	variableId
+	825998
+	825999
+	826000
+	826001
+	826002
+	826003

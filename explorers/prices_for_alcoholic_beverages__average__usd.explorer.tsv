@@ -1,0 +1,16 @@
+explorerTitle	Prices for alcoholic beverages (average, US$) - Beverage type: 
+selection	World
+
+graphers
+	beverage_type Dropdown	yVariableIds	hasMapTab
+	500 mls most popular beer	829897	true
+	750 mls most popular imported spirits	829898	true
+	750 mls most popular local spirits	829899	true
+	750 mls table wine	829900	true
+
+columns
+	variableId
+	829897
+	829898
+	829899
+	829900

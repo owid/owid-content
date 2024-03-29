@@ -1,0 +1,12 @@
+explorerTitle	Government benefits for people with alcohol use disorders - Rsud government benefits: 
+selection	World
+
+graphers
+	rsud_government_benefits Checkbox	yVariableIds	hasMapTab
+	Monetary support	826109	true
+	Non monetary support	826110	true
+
+columns
+	variableId
+	826109
+	826110

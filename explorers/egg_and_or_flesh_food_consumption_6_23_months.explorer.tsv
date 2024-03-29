@@ -1,0 +1,72 @@
+explorerTitle	Egg and/or Flesh Food Consumption 6-23 months - 
+selection	World
+
+graphers
+	sex Dropdown	age_group Dropdown	mothers_education_level Dropdown	residence_area_type Dropdown	wealth_quintile Dropdown	household_wealth Dropdown	yVariableIds	hasMapTab
+	both sexes						825480	true
+	female						825481	true
+	male						825482	true
+		12 to 15 months					825483	true
+		12 to 23 months					825484	true
+		16 to 19 months					825485	true
+		20 to 23 months					825486	true
+		6 to 11 months					825487	true
+		Total (All ages)					825488	true
+			Higher education				825489	true
+			None				825490	true
+			None and primary education				825491	true
+			Primary				825492	true
+			Secondary education				825493	true
+			Secondary or higher				825494	true
+			TotalTotalTotalTotal				825495	true
+				Rural			825496	true
+				TotalTotalTotalTotal			825497	true
+				Urban			825498	true
+					Q1 (Poorest)		825499	true
+					Q2		825500	true
+					Q3		825501	true
+					Q4		825502	true
+					Q5 (Richest)		825503	true
+					TotalTotalTotalTotal		825504	true
+						TotalTotalTotalTotal	825505	true
+						Wealth - Bottom 40%	825506	true
+						Wealth - Bottom 60%	825507	true
+						Wealth - Bottom 80%	825508	true
+						Wealth - Top 40%	825509	true
+						Wealth - Top 60%	825510	true
+						Wealth - Top 80%	825511	true
+
+columns
+	variableId
+	825480
+	825481
+	825482
+	825483
+	825484
+	825485
+	825486
+	825487
+	825488
+	825489
+	825490
+	825491
+	825492
+	825493
+	825494
+	825495
+	825496
+	825497
+	825498
+	825499
+	825500
+	825501
+	825502
+	825503
+	825504
+	825505
+	825506
+	825507
+	825508
+	825509
+	825510
+	825511

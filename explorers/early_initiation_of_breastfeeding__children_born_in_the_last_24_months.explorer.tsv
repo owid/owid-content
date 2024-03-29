@@ -1,0 +1,60 @@
+explorerTitle	Early Initiation of Breastfeeding, Children born in the last 24 months - 
+selection	World
+
+graphers
+	sex Dropdown	mothers_education_level Dropdown	residence_area_type Dropdown	wealth_quintile Dropdown	household_wealth Dropdown	yVariableIds	hasMapTab
+	both sexes					825414	true
+	female					825415	true
+	male					825416	true
+		Higher education				825417	true
+		None				825418	true
+		None and primary education				825419	true
+		Primary				825420	true
+		Secondary education				825421	true
+		Secondary or higher				825422	true
+		TotalTotalTotalTotal				825423	true
+			Rural			825424	true
+			TotalTotalTotalTotal			825425	true
+			Urban			825426	true
+				Q1 (Poorest)		825427	true
+				Q2		825428	true
+				Q3		825429	true
+				Q5 (Richest)		825430	true
+				Q4		825431	true
+				TotalTotalTotalTotal		825432	true
+					TotalTotalTotalTotal	825433	true
+					Wealth - Bottom 40%	825434	true
+					Wealth - Bottom 60%	825435	true
+					Wealth - Bottom 80%	825436	true
+					Wealth - Top 40%	825437	true
+					Wealth - Top 60%	825438	true
+					Wealth - Top 80%	825439	true
+
+columns
+	variableId
+	825414
+	825415
+	825416
+	825417
+	825418
+	825419
+	825420
+	825421
+	825422
+	825423
+	825424
+	825425
+	825426
+	825427
+	825428
+	825429
+	825430
+	825431
+	825432
+	825433
+	825434
+	825435
+	825436
+	825437
+	825438
+	825439

@@ -1,0 +1,14 @@
+explorerTitle	Alcohol-attributable fractions, all-cause deaths (%) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	821976	true
+	female	821977	true
+	male	821978	true
+
+columns
+	variableId
+	821976
+	821977
+	821978

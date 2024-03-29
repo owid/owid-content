@@ -1,0 +1,30 @@
+explorerTitle	Period life expectancy (only projections) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	age Dropdown	yVariableIds	hasMapTab
+	all	15	815396	true
+	all	65	815397	true
+	all	80	815398	true
+	female	0	815399	true
+	female	15	815400	true
+	female	65	815401	true
+	female	80	815402	true
+	male	0	815403	true
+	male	15	815404	true
+	male	65	815405	true
+	male	80	815406	true
+
+columns
+	variableId
+	815396
+	815397
+	815398
+	815399
+	815400
+	815401
+	815402
+	815403
+	815404
+	815405
+	815406

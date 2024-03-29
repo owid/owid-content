@@ -1,0 +1,14 @@
+explorerTitle	Mortality rate for 5-14 year-olds (probability of dying per 1000 children aged 5-14 years) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	828486	true
+	female	828487	true
+	male	828488	true
+
+columns
+	variableId
+	828486
+	828487
+	828488

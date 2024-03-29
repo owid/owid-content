@@ -1,0 +1,36 @@
+explorerTitle	Number of articles per 1 million people - Field: 
+selection	World
+
+graphers
+	field Dropdown	yVariableIds	hasMapTab
+	All	804402	true
+	Computer vision	804411	true
+	Control theory and engineering	804414	true
+	Data mining	804415	true
+	Graphics and multimedia	804420	true
+	Human–computer interaction	804421	true
+	Information management and retrieval	804424	true
+	Machine learning	804433	true
+	Mathematical optimization	804434	true
+	Natural language processing and linguistics	804437	true
+	Real-time computing	804448	true
+	Simulation	804451	true
+	Speech recognition	804454	true
+	Theoretical computer science	804457	true
+
+columns
+	variableId
+	804402
+	804411
+	804414
+	804415
+	804420
+	804421
+	804424
+	804433
+	804434
+	804437
+	804448
+	804451
+	804454
+	804457

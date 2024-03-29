@@ -1,0 +1,12 @@
+explorerTitle	Five years change in international cooperation for treatment of substance use disorders - Rsud substance types: 
+selection	World
+
+graphers
+	rsud_substance_types Checkbox	yVariableIds	hasMapTab
+	Alcohol	825990	true
+	Drugs	825991	true
+
+columns
+	variableId
+	825990
+	825991

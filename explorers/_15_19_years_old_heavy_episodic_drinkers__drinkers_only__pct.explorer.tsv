@@ -1,0 +1,14 @@
+explorerTitle	15-19 years old heavy episodic drinkers (drinkers only), % - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	821610	true
+	female	821611	true
+	male	821612	true
+
+columns
+	variableId
+	821610
+	821611
+	821612

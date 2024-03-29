@@ -1,0 +1,14 @@
+explorerTitle	Prevalence of daily tobacco use among adolescents (%) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	829575	true
+	female	829576	true
+	male	829577	true
+
+columns
+	variableId
+	829575
+	829576
+	829577

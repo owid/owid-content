@@ -1,0 +1,14 @@
+explorerTitle	Alcohol, regional per capita (15+) consumption (in litres of pure alcohol) - Consumption type: 
+selection	World
+
+graphers
+	consumption_type Dropdown	yVariableIds	hasMapTab
+	recorded	821945	true
+	total	821946	true
+	unrecorded	821947	true
+
+columns
+	variableId
+	821945
+	821946
+	821947

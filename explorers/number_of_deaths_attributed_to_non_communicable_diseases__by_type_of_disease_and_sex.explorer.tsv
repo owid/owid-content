@@ -1,0 +1,32 @@
+explorerTitle	Number of deaths attributed to non-communicable diseases, by type of disease and sex - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	causes Dropdown	yVariableIds	hasMapTab
+	both sexes	Chronic respiratory diseases	828808	true
+	both sexes	Cardiovascular diseases	828809	true
+	both sexes	Diabetes mellitus	828810	true
+	both sexes	Malignant neoplasms	828811	true
+	female	Cardiovascular diseases	828812	true
+	female	Chronic respiratory diseases	828813	true
+	female	Diabetes mellitus	828814	true
+	female	Malignant neoplasms	828815	true
+	male	Cardiovascular diseases	828816	true
+	male	Chronic respiratory diseases	828817	true
+	male	Diabetes mellitus	828818	true
+	male	Malignant neoplasms	828819	true
+
+columns
+	variableId
+	828808
+	828809
+	828810
+	828811
+	828812
+	828813
+	828814
+	828815
+	828816
+	828817
+	828818
+	828819

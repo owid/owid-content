@@ -1,0 +1,12 @@
+explorerTitle	Population aged 15-24 years with comprehensive correct knowledge of HIV/AIDS (%) - Sex: 
+selection	World
+
+graphers
+	sex Checkbox	yVariableIds	hasMapTab
+	female	829259	true
+	male	829260	true
+
+columns
+	variableId
+	829259
+	829260

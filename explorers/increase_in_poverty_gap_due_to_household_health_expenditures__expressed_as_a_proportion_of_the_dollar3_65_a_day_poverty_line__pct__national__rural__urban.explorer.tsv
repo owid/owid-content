@@ -1,0 +1,14 @@
+explorerTitle	Increase in poverty gap due to household health expenditures, expressed as a proportion of the $3.65 a-day poverty line (%, national, rural, urban) - Residence area type: 
+selection	World
+
+graphers
+	residence_area_type Dropdown	yVariableIds	hasMapTab
+	Rural	827902	true
+	Total	827903	true
+	Urban	827904	true
+
+columns
+	variableId
+	827902
+	827903
+	827904

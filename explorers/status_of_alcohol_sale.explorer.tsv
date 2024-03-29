@@ -1,0 +1,12 @@
+explorerTitle	Status of alcohol sale - Beverage type: Alcoholic - Beverage: 
+selection	World
+
+graphers
+	beverage Checkbox	yVariableIds	hasMapTab
+	Beer	830401	true
+	Spirits	830402	true
+
+columns
+	variableId
+	830401
+	830402

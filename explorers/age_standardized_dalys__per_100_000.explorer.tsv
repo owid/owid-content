@@ -1,0 +1,16 @@
+explorerTitle	Age-standardized DALYs (per 100,000) - Causes: 
+selection	World
+
+graphers
+	causes Dropdown	yVariableIds	hasMapTab
+	Communicable & other Group I	821778	true
+	All Causes	821779	true
+	Injuries	821780	true
+	Noncommunicable diseases	821781	true
+
+columns
+	variableId
+	821778
+	821779
+	821780
+	821781

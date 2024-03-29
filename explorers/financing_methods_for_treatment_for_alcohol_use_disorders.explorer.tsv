@@ -1,0 +1,18 @@
+explorerTitle	Financing methods for treatment for alcohol use disorders - Rsud programmes: 
+selection	World
+
+graphers
+	rsud_programmes Dropdown	yVariableIds	hasMapTab
+	In-patient detoxification	825970	true
+	In-patient treatment	825971	true
+	Out-patient detoxification	825972	true
+	Out-patient treatment	825973	true
+	Rehabilitation	825974	true
+
+columns
+	variableId
+	825970
+	825971
+	825972
+	825973
+	825974

@@ -1,0 +1,12 @@
+explorerTitle	Nursing personnel (%) - Sex: 
+selection	World
+
+graphers
+	sex Checkbox	yVariableIds	hasMapTab
+	female	828955	true
+	male	828956	true
+
+columns
+	variableId
+	828955
+	828956

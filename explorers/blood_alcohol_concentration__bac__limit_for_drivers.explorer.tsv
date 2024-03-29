@@ -1,0 +1,12 @@
+explorerTitle	Blood Alcohol Concentration (BAC) limit for drivers - Driver type: 
+selection	World
+
+graphers
+	driver_type Checkbox	yVariableIds	hasMapTab
+	general population	824502	true
+	young/novice drivers	824503	true
+
+columns
+	variableId
+	824502
+	824503

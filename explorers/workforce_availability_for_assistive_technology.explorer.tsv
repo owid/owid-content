@@ -1,0 +1,22 @@
+explorerTitle	Workforce availability for assistive technology - Assistive technology subquestion: 
+selection	World
+
+graphers
+	assistive_technology_subquestion Dropdown	yVariableIds	hasMapTab
+	Human resources for Cognition	830899	true
+	Human resources for Communication	830900	true
+	Human resources for Self care	830901	true
+	Human resources for Mobility	830902	true
+	Human resources for Hearing	830903	true
+	Human resources for Vision	830904	true
+	Summary	830905	true
+
+columns
+	variableId
+	830899
+	830900
+	830901
+	830902
+	830903
+	830904
+	830905

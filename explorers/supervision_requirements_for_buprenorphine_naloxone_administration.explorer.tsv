@@ -1,0 +1,12 @@
+explorerTitle	Supervision requirements for buprenorphine/naloxone administration - Rsud drug supervision: 
+selection	World
+
+graphers
+	rsud_drug_supervision Checkbox	yVariableIds	hasMapTab
+	All doses supervised	830447	true
+	Supervision of doctor required	830448	true
+
+columns
+	variableId
+	830447
+	830448

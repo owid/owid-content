@@ -1,0 +1,20 @@
+explorerTitle	Specific absorption rate (SAR) (W/kg) - Exposed: 
+selection	World
+
+graphers
+	exposed Checkbox	body_part Dropdown	yVariableIds	hasMapTab
+	Public	Head and trunk	830370	true
+	Public	Limbs	830371	true
+	Public	Whole body	830372	true
+	Workers	Head and trunk	830373	true
+	Workers	Limbs	830374	true
+	Workers	Whole body	830375	true
+
+columns
+	variableId
+	830370
+	830371
+	830372
+	830373
+	830374
+	830375

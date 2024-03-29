@@ -1,0 +1,14 @@
+explorerTitle	Children aged <5 years wasted for age (%) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	824662	true
+	female	824663	true
+	male	824664	true
+
+columns
+	variableId
+	824662
+	824663
+	824664

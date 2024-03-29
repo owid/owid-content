@@ -1,0 +1,56 @@
+explorerTitle	Children aged < 5 years with diarrhoea receiving oral rehydration therapy and continued feeding (%) - 
+selection	World
+
+graphers
+	sex Checkbox	age_group Checkbox	mothers_education_level Dropdown	residence_area_type Checkbox	wealth_quintile Dropdown	wealth_decile Dropdown	yVariableIds	hasMapTab
+	female						824712	true
+	male						824713	true
+		15-19 years					824714	true
+		20-49 years					824715	true
+			None				824716	true
+			Primary				824717	true
+			Secondary or higher				824718	true
+				Rural			824719	true
+				Urban			824720	true
+					Q1 (Poorest)		824721	true
+					Q2		824722	true
+					Q3		824723	true
+					Q4		824724	true
+					Q5 (Richest)		824725	true
+						Decile 1 (poorest)	824726	true
+						Decile 10 (richest)	824727	true
+						Decile 2	824728	true
+						Decile 3	824729	true
+						Decile 4	824730	true
+						Decile 5	824731	true
+						Decile 6	824732	true
+						Decile 7	824733	true
+						Decile 8	824734	true
+						Decile 9	824735	true
+
+columns
+	variableId
+	824712
+	824713
+	824714
+	824715
+	824716
+	824717
+	824718
+	824719
+	824720
+	824721
+	824722
+	824723
+	824724
+	824725
+	824726
+	824727
+	824728
+	824729
+	824730
+	824731
+	824732
+	824733
+	824734
+	824735

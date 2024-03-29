@@ -1,0 +1,14 @@
+explorerTitle	Value-added/sales tax on beverages (%) - Beverage type: 
+selection	World
+
+graphers
+	beverage_type Checkbox	beverage Dropdown	yVariableIds	hasMapTab
+	Alcoholic	Beer	830841	true
+	Alcoholic	Spirits	830842	true
+	Non-alcoholic	Sugar-sweetened  carbonated beverages	830843	true
+
+columns
+	variableId
+	830841
+	830842
+	830843

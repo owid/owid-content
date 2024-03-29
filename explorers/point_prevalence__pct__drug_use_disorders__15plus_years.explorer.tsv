@@ -1,0 +1,12 @@
+explorerTitle	Point prevalence (%), drug use disorders, 15+ years - Sex: 
+selection	World
+
+graphers
+	sex Checkbox	yVariableIds	hasMapTab
+	female	829225	true
+	male	829226	true
+
+columns
+	variableId
+	829225
+	829226

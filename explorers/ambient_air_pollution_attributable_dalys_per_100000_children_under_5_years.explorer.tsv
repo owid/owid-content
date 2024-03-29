@@ -1,0 +1,14 @@
+explorerTitle	Ambient air pollution attributable DALYs per 100'000 children under 5 years - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	822723	true
+	female	822724	true
+	male	822725	true
+
+columns
+	variableId
+	822723
+	822724
+	822725

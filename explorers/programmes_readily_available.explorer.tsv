@@ -1,0 +1,18 @@
+explorerTitle	Programmes readily available - Rsud programmes: 
+selection	World
+
+graphers
+	rsud_programmes Dropdown	yVariableIds	hasMapTab
+	Condom distribution	829921	true
+	Drop-in" services"	829922	true
+	Naloxone distribution	829923	true
+	Needle/syringe exchange programmes	829924	true
+	Outreach services for injecting drug users	829925	true
+
+columns
+	variableId
+	829921
+	829922
+	829923
+	829924
+	829925

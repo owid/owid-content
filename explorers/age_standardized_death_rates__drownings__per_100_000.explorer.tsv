@@ -1,0 +1,14 @@
+explorerTitle	Age-standardized death rates, drownings, per 100,000 - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	female	821830	true
+	both sexes	821831	true
+	male	821832	true
+
+columns
+	variableId
+	821830
+	821831
+	821832

@@ -1,0 +1,14 @@
+explorerTitle	Share of the population with access to a limited handwashing services (a handwashing facility at home lacking soap and/or water) - Residence: 
+selection	World
+
+graphers
+	residence Dropdown	yVariableIds	hasMapTab
+	Rural	820120	true
+	Total	820188	true
+	Urban	820256	true
+
+columns
+	variableId
+	820120
+	820188
+	820256

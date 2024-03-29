@@ -1,0 +1,12 @@
+explorerTitle	National survey on substance use among children and adolescents - Rsud substance types: 
+selection	World
+
+graphers
+	rsud_substance_types Checkbox	yVariableIds	hasMapTab
+	Alcohol	828537	true
+	Drugs	828538	true
+
+columns
+	variableId
+	828537
+	828538

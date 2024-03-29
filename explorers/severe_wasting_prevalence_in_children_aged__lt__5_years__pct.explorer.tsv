@@ -1,0 +1,36 @@
+explorerTitle	Severe wasting prevalence in children aged < 5 years (%) - 
+selection	World
+
+graphers
+	sex Checkbox	age_group Checkbox	mothers_education_level Dropdown	residence_area_type Checkbox	wealth_quintile Dropdown	yVariableIds	hasMapTab
+	female					830291	true
+	male					830292	true
+		0-1 years				830293	true
+		2-5 years				830294	true
+			None			830295	true
+			Primary			830296	true
+			Secondary or higher			830297	true
+				Rural		830298	true
+				Urban		830299	true
+					Q1 (Poorest)	830300	true
+					Q2	830301	true
+					Q3	830302	true
+					Q4	830303	true
+					Q5 (Richest)	830304	true
+
+columns
+	variableId
+	830291
+	830292
+	830293
+	830294
+	830295
+	830296
+	830297
+	830298
+	830299
+	830300
+	830301
+	830302
+	830303
+	830304

@@ -1,0 +1,14 @@
+explorerTitle	Number of new cases of lip and oral cavity cancer - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	828893	true
+	female	828894	true
+	male	828895	true
+
+columns
+	variableId
+	828893
+	828894
+	828895

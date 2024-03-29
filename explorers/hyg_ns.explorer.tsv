@@ -1,0 +1,14 @@
+explorerTitle	Share of the population with no access to a handwashing service - Residence: 
+selection	World
+
+graphers
+	residence Dropdown	yVariableIds	hasMapTab
+	Rural	820119	true
+	Total	820187	true
+	Urban	820255	true
+
+columns
+	variableId
+	820119
+	820187
+	820255

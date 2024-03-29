@@ -1,0 +1,52 @@
+explorerTitle	Births by caesarean section (in the two or three years preceding the survey) (%) - 
+selection	World
+
+graphers
+	age_group Checkbox	mothers_education_level Dropdown	residence_area_type Checkbox	wealth_quintile Dropdown	wealth_decile Dropdown	yVariableIds	hasMapTab
+	15-19 years					824478	true
+	20-49 years					824479	true
+		None				824480	true
+		Primary				824481	true
+		Secondary or higher				824482	true
+			Rural			824483	true
+			Urban			824484	true
+				Q1 (Poorest)		824485	true
+				Q2		824486	true
+				Q3		824487	true
+				Q4		824488	true
+				Q5 (Richest)		824489	true
+					Decile 1 (poorest)	824490	true
+					Decile 10 (richest)	824491	true
+					Decile 2	824492	true
+					Decile 3	824493	true
+					Decile 4	824494	true
+					Decile 5	824495	true
+					Decile 6	824496	true
+					Decile 7	824497	true
+					Decile 8	824498	true
+					Decile 9	824499	true
+
+columns
+	variableId
+	824478
+	824479
+	824480
+	824481
+	824482
+	824483
+	824484
+	824485
+	824486
+	824487
+	824488
+	824489
+	824490
+	824491
+	824492
+	824493
+	824494
+	824495
+	824496
+	824497
+	824498
+	824499

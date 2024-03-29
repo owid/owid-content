@@ -1,0 +1,20 @@
+explorerTitle	Households with out-of-pocket payments greater than 40% of capacity to pay for health care (food, housing and utilities approach - developed by WHO/Europe) (%, national) - Wealth quintile: 
+selection	World
+
+graphers
+	wealth_quintile Dropdown	yVariableIds	hasMapTab
+	Q1 (Poorest)	827744	true
+	Q2	827745	true
+	Q3	827746	true
+	Q4	827747	true
+	Q5 (Richest)	827748	true
+	Total	827749	true
+
+columns
+	variableId
+	827744
+	827745
+	827746
+	827747
+	827748
+	827749

@@ -1,0 +1,12 @@
+explorerTitle	Government benefits for people with drug use disorders - Rsud government benefits: 
+selection	World
+
+graphers
+	rsud_government_benefits Checkbox	yVariableIds	hasMapTab
+	Monetary support	826111	true
+	Non monetary support	826112	true
+
+columns
+	variableId
+	826111
+	826112

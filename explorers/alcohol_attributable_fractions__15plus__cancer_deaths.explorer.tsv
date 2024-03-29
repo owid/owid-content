@@ -1,0 +1,12 @@
+explorerTitle	Alcohol-attributable fractions (15+), cancer deaths - Sex: 
+selection	World
+
+graphers
+	sex Checkbox	yVariableIds	hasMapTab
+	female	821970	true
+	male	821971	true
+
+columns
+	variableId
+	821970
+	821971

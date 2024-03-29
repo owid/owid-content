@@ -1,0 +1,14 @@
+explorerTitle	Duty paid or excise stamp on alcohol container - Beverage types: 
+selection	World
+
+graphers
+	beverage_types Dropdown	yVariableIds	hasMapTab
+	Beer	825411	true
+	Spirits	825412	true
+	Wine	825413	true
+
+columns
+	variableId
+	825411
+	825412
+	825413

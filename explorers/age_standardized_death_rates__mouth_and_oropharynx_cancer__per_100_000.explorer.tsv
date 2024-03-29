@@ -1,0 +1,14 @@
+explorerTitle	Age-standardized death rates, mouth and oropharynx cancer, per 100,000 - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	821853	true
+	female	821854	true
+	male	821855	true
+
+columns
+	variableId
+	821853
+	821854
+	821855

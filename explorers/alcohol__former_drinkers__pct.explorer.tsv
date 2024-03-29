@@ -1,0 +1,14 @@
+explorerTitle	Alcohol, former drinkers (%) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	821923	true
+	female	821924	true
+	male	821925	true
+
+columns
+	variableId
+	821923
+	821924
+	821925

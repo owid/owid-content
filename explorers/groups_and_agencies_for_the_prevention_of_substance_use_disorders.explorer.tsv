@@ -1,0 +1,28 @@
+explorerTitle	Groups and agencies for the prevention of substance use disorders - Rsud groups: 
+selection	World
+
+graphers
+	rsud_groups Dropdown	yVariableIds	hasMapTab
+	Community groups	826138	true
+	Employers	826139	true
+	Health care workers	826140	true
+	International organizations	826141	true
+	Labour organizations	826142	true
+	Law enforcement agencies	826143	true
+	Religious groups	826144	true
+	Schools	826145	true
+	Social workers	826146	true
+	Traditional healers	826147	true
+
+columns
+	variableId
+	826138
+	826139
+	826140
+	826141
+	826142
+	826143
+	826144
+	826145
+	826146
+	826147

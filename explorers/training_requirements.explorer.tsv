@@ -1,0 +1,12 @@
+explorerTitle	Training requirements - Sunbed facility staff training requirements: Staff 
+selection	World
+
+graphers
+	sunbed_facility_staff_training_requirements Checkbox	yVariableIds	hasMapTab
+	Staff certification	830641	true
+	Staff training	830642	true
+
+columns
+	variableId
+	830641
+	830642

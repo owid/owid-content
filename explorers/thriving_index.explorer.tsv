@@ -1,0 +1,60 @@
+explorerTitle	Thriving Index - Dimension: (
+selection	World
+
+graphers
+	dimension Dropdown	yVariableIds	hasMapTab
+	(Age?) 15-24	688427	true
+	(Age?) 25-34	688431	true
+	(Age?) 35-44	688435	true
+	(Age?) 45-64	688437	true
+	(Age?) 65+	688440	true
+	(Employment Status?) Employed full time for an employer	688443	true
+	(Employment Status?) Employed full time for self	688446	true
+	(Employment Status?) Out of workforce	688449	true
+	(Employment Status?) Unemployed	688451	true
+	(Employment Status?) Employed part time want full time	688456	true
+	(Employment Status?) Employed part time do not want full time	688457	true
+	(Feelings About Household Income?) Finding it very difficult on present income	688459	true
+	(Feelings About Household Income?) Finding it difficult on present income	688463	true
+	(Feelings About Household Income?) Getting by on present income	688468	true
+	(Feelings About Household Income?) Living comfortably on present income	688469	true
+	(Gender?) Female	688473	true
+	(Gender?) Male	688475	true
+	(Per Capita Income Quintiles?) Fourth 20%	688479	true
+	(Per Capita Income Quintiles?) Middle 20%	688482	true
+	(Per Capita Income Quintiles?) Poorest 20%	688487	true
+	(Per Capita Income Quintiles?) Richest 20%	688488	true
+	(Per Capita Income Quintiles?) Second 20%	688491	true
+	(Urban/Rural?) A large city	688494	true
+	(Urban/Rural?) A rural area or on a farm	688497	true
+	(Urban/Rural?) A small town or village	688500	true
+	(Urban/Rural?) A suburb of a large city	688505	true
+
+columns
+	variableId
+	688427
+	688431
+	688435
+	688437
+	688440
+	688443
+	688446
+	688449
+	688451
+	688456
+	688457
+	688459
+	688463
+	688468
+	688469
+	688473
+	688475
+	688479
+	688482
+	688487
+	688488
+	688491
+	688494
+	688497
+	688500
+	688505

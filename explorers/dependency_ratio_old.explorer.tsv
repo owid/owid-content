@@ -1,0 +1,32 @@
+explorerTitle	Old-age dependency ratio - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	variant Dropdown	yVariableIds	hasMapTab
+	female	estimates	520494	true
+	female	medium	520495	true
+	female	high	520496	true
+	male	estimates	520497	true
+	female	low	520498	true
+	male	medium	520499	true
+	male	high	520500	true
+	male	low	520501	true
+	all	estimates	520502	true
+	all	medium	520503	true
+	all	high	520504	true
+	all	low	520505	true
+
+columns
+	variableId
+	520494
+	520495
+	520496
+	520497
+	520498
+	520499
+	520500
+	520501
+	520502
+	520503
+	520504
+	520505

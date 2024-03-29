@@ -1,0 +1,14 @@
+explorerTitle	Persistence to last grade of primary (% of cohort) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	829188	true
+	female	829189	true
+	male	829190	true
+
+columns
+	variableId
+	829188
+	829189
+	829190

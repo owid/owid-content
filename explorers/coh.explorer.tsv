@@ -1,0 +1,16 @@
+explorerTitle	Number of  
+selection	World
+
+graphers
+	age_group Checkbox	sex Dropdown	yVariableIds	hasMapTab
+	0-14	a	817593	true
+	a	a	817600	true
+	a	f	817607	true
+	a	m	817614	true
+
+columns
+	variableId
+	817593
+	817600
+	817607
+	817614

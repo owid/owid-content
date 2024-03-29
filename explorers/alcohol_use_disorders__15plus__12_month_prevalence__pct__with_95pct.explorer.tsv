@@ -1,0 +1,14 @@
+explorerTitle	Alcohol use disorders (15+), 12 month prevalence (%) with 95% - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	821999	true
+	female	822000	true
+	male	822001	true
+
+columns
+	variableId
+	821999
+	822000
+	822001

@@ -1,0 +1,14 @@
+explorerTitle	Restrictions on sales promotion from producers (parties, events) - Beverage types: 
+selection	World
+
+graphers
+	beverage_types Dropdown	yVariableIds	hasMapTab
+	Beer	830154	true
+	Spirits	830155	true
+	Wine	830156	true
+
+columns
+	variableId
+	830154
+	830155
+	830156

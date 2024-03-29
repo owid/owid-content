@@ -1,0 +1,14 @@
+explorerTitle	Age-standardized death rates, ischaemic heart disease, per 100,000 - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	821842	true
+	female	821843	true
+	male	821844	true
+
+columns
+	variableId
+	821842
+	821843
+	821844

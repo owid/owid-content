@@ -1,0 +1,18 @@
+explorerTitle	Percentage of health-care facilities with no access to any electricity supply (%) - 
+selection	World
+
+graphers
+	residence_area_type Dropdown	health_care_facility_type Checkbox	yVariableIds	hasMapTab
+	Rural		829152	true
+	Total		829153	true
+	Urban		829154	true
+		Hospital	829155	true
+		Non-hospital	829156	true
+
+columns
+	variableId
+	829152
+	829153
+	829154
+	829155
+	829156

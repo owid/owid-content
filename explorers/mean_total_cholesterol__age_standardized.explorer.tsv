@@ -1,0 +1,14 @@
+explorerTitle	Mean total cholesterol, age-standardized - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	828263	true
+	female	828264	true
+	male	828265	true
+
+columns
+	variableId
+	828263
+	828264
+	828265

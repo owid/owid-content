@@ -1,0 +1,18 @@
+explorerTitle	Number of women of reproductive age (aged 15-49 years) with anaemia (thousands) - Se
+selection	World
+
+graphers
+	severity Dropdown	yVariableIds	hasMapTab
+		828945	true
+	Mild	828946	true
+	Moderate	828947	true
+	Severe	828948	true
+	Total	828949	true
+
+columns
+	variableId
+	828945
+	828946
+	828947
+	828948
+	828949

@@ -1,0 +1,16 @@
+explorerTitle	Establishment of national reference laboratory (NRL) - Amr glass category: 
+selection	World
+
+graphers
+	amr_glass_category Dropdown	yVariableIds	hasMapTab
+	Established	825559	true
+	Not enrolled in GLASS	825560	true
+	Not established	825561	true
+	Not reported	825562	true
+
+columns
+	variableId
+	825559
+	825560
+	825561
+	825562

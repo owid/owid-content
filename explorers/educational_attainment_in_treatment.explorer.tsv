@@ -1,0 +1,16 @@
+explorerTitle	Educational attainment in treatment - Mothers education level: 
+selection	World
+
+graphers
+	mothers_education_level Dropdown	yVariableIds	hasMapTab
+	Bachelor's or equivalent level	825470	true
+	Doctoral or equivalent level	825471	true
+	Master's or equivalent level	825472	true
+	Short-cycle tertiary education	825473	true
+
+columns
+	variableId
+	825470
+	825471
+	825472
+	825473

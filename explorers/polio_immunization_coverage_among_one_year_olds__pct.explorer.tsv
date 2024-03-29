@@ -1,0 +1,56 @@
+explorerTitle	Polio immunization coverage among one-year-olds (%) - 
+selection	World
+
+graphers
+	sex Checkbox	age_group Checkbox	mothers_education_level Dropdown	residence_area_type Checkbox	wealth_quintile Dropdown	wealth_decile Dropdown	yVariableIds	hasMapTab
+	female						829233	true
+		15-19 years					829234	true
+	male						829235	true
+		20-49 years					829236	true
+			None				829237	true
+			Primary				829238	true
+			Secondary or higher				829239	true
+				Rural			829240	true
+				Urban			829241	true
+					Q1 (Poorest)		829242	true
+					Q2		829243	true
+					Q4		829244	true
+					Q3		829245	true
+					Q5 (Richest)		829246	true
+						Decile 1 (poorest)	829247	true
+						Decile 10 (richest)	829248	true
+						Decile 2	829249	true
+						Decile 3	829250	true
+						Decile 4	829251	true
+						Decile 5	829252	true
+						Decile 6	829253	true
+						Decile 7	829254	true
+						Decile 8	829255	true
+						Decile 9	829256	true
+
+columns
+	variableId
+	829233
+	829234
+	829235
+	829236
+	829237
+	829238
+	829239
+	829240
+	829241
+	829242
+	829243
+	829244
+	829245
+	829246
+	829247
+	829248
+	829249
+	829250
+	829251
+	829252
+	829253
+	829254
+	829255
+	829256

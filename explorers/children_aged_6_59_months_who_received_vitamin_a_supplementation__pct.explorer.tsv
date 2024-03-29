@@ -1,0 +1,56 @@
+explorerTitle	Children aged 6-59 months who received vitamin A supplementation (%) - 
+selection	World
+
+graphers
+	sex Checkbox	age_group Checkbox	mothers_education_level Dropdown	residence_area_type Checkbox	wealth_quintile Dropdown	wealth_decile Dropdown	yVariableIds	hasMapTab
+	female						824638	true
+	male						824639	true
+		15-19 years					824640	true
+		20-49 years					824641	true
+			None				824642	true
+			Primary				824643	true
+			Secondary or higher				824644	true
+				Rural			824645	true
+				Urban			824646	true
+					Q1 (Poorest)		824647	true
+					Q2		824648	true
+					Q3		824649	true
+					Q4		824650	true
+						Decile 1 (poorest)	824651	true
+					Q5 (Richest)		824652	true
+						Decile 10 (richest)	824653	true
+						Decile 2	824654	true
+						Decile 3	824655	true
+						Decile 4	824656	true
+						Decile 5	824657	true
+						Decile 6	824658	true
+						Decile 7	824659	true
+						Decile 8	824660	true
+						Decile 9	824661	true
+
+columns
+	variableId
+	824638
+	824639
+	824640
+	824641
+	824642
+	824643
+	824644
+	824645
+	824646
+	824647
+	824648
+	824649
+	824650
+	824651
+	824652
+	824653
+	824654
+	824655
+	824656
+	824657
+	824658
+	824659
+	824660
+	824661

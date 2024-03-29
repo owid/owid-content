@@ -1,0 +1,16 @@
+explorerTitle	Self-help groups for substance use disorders - Rsud groups: 
+selection	World
+
+graphers
+	rsud_groups Dropdown	yVariableIds	hasMapTab
+	Al-Anon/Alateen	830279	true
+	Alcoholics Anonymous	830280	true
+	Cocaine Anonymous	830281	true
+	Narcotics Anonymous	830282	true
+
+columns
+	variableId
+	830279
+	830280
+	830281
+	830282

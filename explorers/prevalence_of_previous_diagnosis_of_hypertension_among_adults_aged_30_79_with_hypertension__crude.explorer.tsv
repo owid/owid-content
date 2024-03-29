@@ -1,0 +1,14 @@
+explorerTitle	Prevalence of previous diagnosis of hypertension among adults aged 30-79 with hypertension, crude - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	829720	true
+	female	829721	true
+	male	829722	true
+
+columns
+	variableId
+	829720
+	829721
+	829722

@@ -1,0 +1,14 @@
+explorerTitle	Alcohol, harmful use (15+), 12 month prevalence (%) with 95%CI - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	821926	true
+	female	821927	true
+	male	821928	true
+
+columns
+	variableId
+	821926
+	821927
+	821928

@@ -1,0 +1,24 @@
+explorerTitle	Consumption of controlled substance (relative to 1986) - Chemical: 
+selection	World
+
+graphers
+	chemical Dropdown	yVariableIds	hasMapTab
+	All (Ozone-depleting)	577035	true
+	Carbon Tetrachloride (CTC)	577036	true
+	Chlorofluorocarbons (CFCs)	577037	true
+	Halons	577038	true
+	Hydrochlorofluorocarbons (HCFCs)	577039	true
+	Methyl Bromide (MB)	577040	true
+	Methyl Chloroform (TCA)	577041	true
+	Other Fully Halogenated CFCs	577042	true
+
+columns
+	variableId
+	577035
+	577036
+	577037
+	577038
+	577039
+	577040
+	577041
+	577042

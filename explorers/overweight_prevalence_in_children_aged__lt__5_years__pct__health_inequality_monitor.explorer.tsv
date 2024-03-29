@@ -1,0 +1,36 @@
+explorerTitle	Overweight prevalence in children aged < 5 years (%) (Health inequality monitor) - 
+selection	World
+
+graphers
+	sex Checkbox	age_group Checkbox	mothers_education_level Dropdown	residence_area_type Checkbox	wealth_quintile Dropdown	yVariableIds	hasMapTab
+	female					829103	true
+	male					829104	true
+		0-1 years				829105	true
+		2-5 years				829106	true
+			None			829107	true
+			Primary			829108	true
+			Secondary or higher			829109	true
+				Rural		829110	true
+				Urban		829111	true
+					Q1 (Poorest)	829112	true
+					Q2	829113	true
+					Q3	829114	true
+					Q4	829115	true
+					Q5 (Richest)	829116	true
+
+columns
+	variableId
+	829103
+	829104
+	829105
+	829106
+	829107
+	829108
+	829109
+	829110
+	829111
+	829112
+	829113
+	829114
+	829115
+	829116

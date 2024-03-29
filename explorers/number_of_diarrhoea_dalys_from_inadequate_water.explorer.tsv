@@ -1,0 +1,16 @@
+explorerTitle	Number of diarrhoea DALYs from inadequate water - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	age_group Checkbox	yVariableIds	hasMapTab
+	both sexes	<5 years	828829	true
+	both sexes	Total (All ages)	828830	true
+	female	Total (All ages)	828831	true
+	male	Total (All ages)	828832	true
+
+columns
+	variableId
+	828829
+	828830
+	828831
+	828832

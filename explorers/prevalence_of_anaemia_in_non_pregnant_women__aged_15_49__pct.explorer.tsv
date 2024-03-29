@@ -1,0 +1,18 @@
+explorerTitle	Prevalence of anaemia in non-pregnant women (aged 15-49) (%) - Se
+selection	World
+
+graphers
+	severity Dropdown	yVariableIds	hasMapTab
+		829492	true
+	Mild	829493	true
+	Moderate	829494	true
+	Severe	829495	true
+	Total	829496	true
+
+columns
+	variableId
+	829492
+	829493
+	829494
+	829495
+	829496

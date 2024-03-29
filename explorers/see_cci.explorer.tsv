@@ -1,0 +1,28 @@
+explorerTitle	(see cci) - 
+selection	World
+
+graphers
+	mothers_education_level Dropdown	residence_area_type Checkbox	wealth_quintile Dropdown	yVariableIds	hasMapTab
+	None			830264	true
+	Primary			830265	true
+	Secondary or higher			830266	true
+		Rural		830267	true
+		Urban		830268	true
+			Q1 (Poorest)	830269	true
+			Q3	830270	true
+			Q2	830271	true
+			Q4	830272	true
+			Q5 (Richest)	830273	true
+
+columns
+	variableId
+	830264
+	830265
+	830266
+	830267
+	830268
+	830269
+	830270
+	830271
+	830272
+	830273

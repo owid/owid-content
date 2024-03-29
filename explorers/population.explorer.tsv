@@ -1,0 +1,30 @@
+explorerTitle	Population - Education: 
+selection	World
+
+graphers
+	education Dropdown	yVariableIds	hasMapTab
+	Bachelor	598055	true
+	Incomplete Primary	598056	true
+	Master and higher	598057	true
+	Lower Secondary	598058	true
+	No Education	598059	true
+	Post Secondary	598060	true
+	Primary	598061	true
+	Short Post Secondary	598062	true
+	Total	598063	true
+	Under 15	598064	true
+	Upper Secondary	598065	true
+
+columns
+	variableId
+	598055
+	598056
+	598057
+	598058
+	598059
+	598060
+	598061
+	598062
+	598063
+	598064
+	598065

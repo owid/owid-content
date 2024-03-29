@@ -1,0 +1,22 @@
+explorerTitle	Prevention programmes for drugs - Prevention programmes: 
+selection	World
+
+graphers
+	prevention_programmes Dropdown	yVariableIds	hasMapTab
+	Advertisements in public places (posters etc.)	829854	true
+	Community based programmes	829855	true
+	Mass media (audiovisual)	829856	true
+	Mass media (print)	829857	true
+	Parent programmes	829858	true
+	School (manual) based programmes	829859	true
+	Work place programmes	829860	true
+
+columns
+	variableId
+	829854
+	829855
+	829856
+	829857
+	829858
+	829859
+	829860

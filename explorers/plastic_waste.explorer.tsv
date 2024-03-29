@@ -1,0 +1,28 @@
+explorerTitle	Plastic waste by polymer in 2019 - Entity: 
+selection	World
+
+graphers
+	entity Dropdown	yVariableIds	hasMapTab
+	China	814854	true
+	India	814856	true
+	Middle East & North Africa	814860	true
+	United States	814880	true
+	World	814882	true
+	Americas (excl. USA)	815643	true
+	Asia (excl. China and India)	815645	true
+	Europe	815647	true
+	Oceania	815649	true
+	Sub-Saharan Africa	815651	true
+
+columns
+	variableId
+	814854
+	814856
+	814860
+	814880
+	814882
+	815643
+	815645
+	815647
+	815649
+	815651

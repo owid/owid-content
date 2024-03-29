@@ -1,0 +1,34 @@
+explorerTitle	Type of excise tax applied on beverage - Beverage type: 
+selection	World
+
+graphers
+	beverage_type Checkbox	beverage Dropdown	yVariableIds	hasMapTab
+	Alcoholic	Beer	830756	true
+	Alcoholic	Spirits	830757	true
+	Alcoholic	Wine	830758	true
+	Non-alcoholic	Energy and sports drinks	830759	true
+	Non-alcoholic	Fruit drinks (less than 100% fruit juice)	830760	true
+	Non-alcoholic	Fruit juices (100% fruit juice)	830761	true
+	Non-alcoholic	Non-sugar-sweetened carbonated and non-carbonated waters (e.g., diet soft drinks)	830762	true
+	Non-alcoholic	Sugar-sweetened  carbonated beverages	830763	true
+	Non-alcoholic	Sugar-sweetened milk-based drinks (including plant-based milk substitutes)	830764	true
+	Non-alcoholic	Sugar-sweetened non-carbonated waters (e.g., lemonade)	830765	true
+	Non-alcoholic	Sugar-sweetened ready-to-drink tea or coffee	830766	true
+	Non-alcoholic	Unsweetened  carbonated or non-carbonated bottled waters	830767	true
+	Non-alcoholic	Sugar-sweetened syrups, liquid concentrates or powders beverage preparation	830768	true
+
+columns
+	variableId
+	830756
+	830757
+	830758
+	830759
+	830760
+	830761
+	830762
+	830763
+	830764
+	830765
+	830766
+	830767
+	830768

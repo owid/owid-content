@@ -1,0 +1,14 @@
+explorerTitle	Prescription requirements for buprenorphine - Rsud drug prescription: 
+selection	World
+
+graphers
+	rsud_drug_prescription Dropdown	yVariableIds	hasMapTab
+	Any doctor	829471	true
+	Specialized doctors	829472	true
+	Non-doctors	829473	true
+
+columns
+	variableId
+	829471
+	829472
+	829473

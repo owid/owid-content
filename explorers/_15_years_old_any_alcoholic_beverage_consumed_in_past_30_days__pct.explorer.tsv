@@ -1,0 +1,14 @@
+explorerTitle	15-years old any alcoholic beverage consumed in past 30 days, (%) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	821624	true
+	female	821625	true
+	male	821626	true
+
+columns
+	variableId
+	821624
+	821625
+	821626

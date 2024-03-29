@@ -1,0 +1,20 @@
+explorerTitle	Importance of measures for enhancing compliance with age limits - Substance abuse measure importance type: 
+selection	World
+
+graphers
+	substance_abuse_measure_importance_type Dropdown	yVariableIds	hasMapTab
+	awareness campaigns for servers/sellers	827799	true
+	awareness campaigns for youth	827800	true
+	legal enforcement	827801	true
+	monitoring through test purchase	827802	true
+	server training needed for licensing	827803	true
+	voluntary server training	827804	true
+
+columns
+	variableId
+	827799
+	827800
+	827801
+	827802
+	827803
+	827804

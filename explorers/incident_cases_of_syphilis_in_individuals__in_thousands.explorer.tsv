@@ -1,0 +1,12 @@
+explorerTitle	Incident cases of syphilis in individuals (in thousands) - Sex: 
+selection	World
+
+graphers
+	sex Checkbox	yVariableIds	hasMapTab
+	female	827856	true
+	male	827857	true
+
+columns
+	variableId
+	827856
+	827857

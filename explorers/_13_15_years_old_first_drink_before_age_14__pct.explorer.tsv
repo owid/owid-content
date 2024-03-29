@@ -1,0 +1,14 @@
+explorerTitle	13-15-years old first drink before age 14, (%) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	821600	true
+	female	821601	true
+	male	821602	true
+
+columns
+	variableId
+	821600
+	821601
+	821602

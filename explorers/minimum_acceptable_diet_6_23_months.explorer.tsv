@@ -1,0 +1,72 @@
+explorerTitle	Minimum Acceptable Diet 6-23 months - 
+selection	World
+
+graphers
+	sex Dropdown	age_group Dropdown	mothers_education_level Dropdown	residence_area_type Dropdown	wealth_quintile Dropdown	household_wealth Dropdown	yVariableIds	hasMapTab
+	both sexes						828363	true
+	female						828364	true
+	male						828365	true
+		12 to 15 months					828366	true
+		12 to 23 months					828367	true
+		16 to 19 months					828368	true
+		20 to 23 months					828369	true
+		6 to 11 months					828370	true
+		Total (All ages)					828371	true
+			None				828372	true
+			Higher education				828373	true
+			None and primary education				828374	true
+			Primary				828375	true
+			Secondary education				828376	true
+			Secondary or higher				828377	true
+			TotalTotalTotalTotal				828378	true
+				Rural			828379	true
+				TotalTotalTotalTotal			828380	true
+				Urban			828381	true
+					Q1 (Poorest)		828382	true
+					Q2		828383	true
+					Q3		828384	true
+					Q5 (Richest)		828385	true
+					Q4		828386	true
+					TotalTotalTotalTotal		828387	true
+						Wealth - Bottom 40%	828388	true
+						TotalTotalTotalTotal	828389	true
+						Wealth - Bottom 60%	828390	true
+						Wealth - Bottom 80%	828391	true
+						Wealth - Top 40%	828392	true
+						Wealth - Top 60%	828393	true
+						Wealth - Top 80%	828394	true
+
+columns
+	variableId
+	828363
+	828364
+	828365
+	828366
+	828367
+	828368
+	828369
+	828370
+	828371
+	828372
+	828373
+	828374
+	828375
+	828376
+	828377
+	828378
+	828379
+	828380
+	828381
+	828382
+	828383
+	828384
+	828385
+	828386
+	828387
+	828388
+	828389
+	828390
+	828391
+	828392
+	828393
+	828394

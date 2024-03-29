@@ -1,0 +1,14 @@
+explorerTitle	Licensing required for wholesale/distribution of alcoholic beverages - Beverage types: 
+selection	World
+
+graphers
+	beverage_types Dropdown	yVariableIds	hasMapTab
+	Beer	828106	true
+	Spirits	828107	true
+	Wine	828108	true
+
+columns
+	variableId
+	828106
+	828107
+	828108

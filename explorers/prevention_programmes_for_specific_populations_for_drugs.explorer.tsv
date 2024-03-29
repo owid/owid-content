@@ -1,0 +1,36 @@
+explorerTitle	Prevention programmes for specific populations for drugs - Specific populations: 
+selection	World
+
+graphers
+	specific_populations Dropdown	yVariableIds	hasMapTab
+	Children at risk and their families	829875	true
+	Children and adolescents in the general population	829876	true
+	Commercial sex workers	829877	true
+	Indigenous people	829878	true
+	Elderly	829879	true
+	Minority groups	829880	true
+	People living with HIV/AIDS	829881	true
+	Parents in the general population	829882	true
+	Persons with mental health disorders	829883	true
+	Pregnant women	829884	true
+	People with tuberculosis	829885	true
+	Prisoners	829886	true
+	Refugees	829887	true
+	Young adults	829888	true
+
+columns
+	variableId
+	829875
+	829876
+	829877
+	829878
+	829879
+	829880
+	829881
+	829882
+	829883
+	829884
+	829885
+	829886
+	829887
+	829888

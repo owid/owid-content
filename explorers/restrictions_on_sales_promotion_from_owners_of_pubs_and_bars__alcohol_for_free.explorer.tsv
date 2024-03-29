@@ -1,0 +1,14 @@
+explorerTitle	Restrictions on sales promotion from owners of pubs and bars (alcohol for free) - Beverage types: 
+selection	World
+
+graphers
+	beverage_types Dropdown	yVariableIds	hasMapTab
+	Beer	830150	true
+	Spirits	830151	true
+	Wine	830152	true
+
+columns
+	variableId
+	830150
+	830151
+	830152

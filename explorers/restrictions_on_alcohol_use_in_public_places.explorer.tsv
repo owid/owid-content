@@ -1,0 +1,26 @@
+explorerTitle	Restrictions on alcohol use in public places - Substance abuse public places: 
+selection	World
+
+graphers
+	substance_abuse_public_places Dropdown	yVariableIds	hasMapTab
+	Educational buildings	830132	true
+	Government offices	830133	true
+	Healthcare establishments	830134	true
+	Parks and streets	830135	true
+	Leisure events	830136	true
+	Places of worship	830137	true
+	Public transport	830138	true
+	Sporting events	830139	true
+	Workplaces	830140	true
+
+columns
+	variableId
+	830132
+	830133
+	830134
+	830135
+	830136
+	830137
+	830138
+	830139
+	830140

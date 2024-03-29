@@ -1,0 +1,14 @@
+explorerTitle	Alcohol, abstainers lifetime (%) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	821903	true
+	female	821904	true
+	male	821905	true
+
+columns
+	variableId
+	821903
+	821904
+	821905

@@ -1,0 +1,14 @@
+explorerTitle	Age-standardized death rates, other unintentional injuries, per 100,000 - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	821861	true
+	female	821862	true
+	male	821863	true
+
+columns
+	variableId
+	821861
+	821862
+	821863

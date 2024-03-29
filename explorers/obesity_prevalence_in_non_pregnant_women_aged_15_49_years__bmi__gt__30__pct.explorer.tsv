@@ -1,0 +1,52 @@
+explorerTitle	Obesity prevalence in non-pregnant women aged 15-49 years, BMI >= 30 (%) - 
+selection	World
+
+graphers
+	age_group Checkbox	mothers_education_level Dropdown	residence_area_type Checkbox	wealth_quintile Dropdown	wealth_decile Dropdown	yVariableIds	hasMapTab
+	15-19 years					828958	true
+	20-49 years					828959	true
+		None				828960	true
+		Primary				828961	true
+		Secondary or higher				828962	true
+			Rural			828963	true
+			Urban			828964	true
+				Q2		828965	true
+				Q1 (Poorest)		828966	true
+				Q3		828967	true
+				Q4		828968	true
+				Q5 (Richest)		828969	true
+					Decile 1 (poorest)	828970	true
+					Decile 10 (richest)	828971	true
+					Decile 2	828972	true
+					Decile 3	828973	true
+					Decile 4	828974	true
+					Decile 5	828975	true
+					Decile 6	828976	true
+					Decile 7	828977	true
+					Decile 8	828978	true
+					Decile 9	828979	true
+
+columns
+	variableId
+	828958
+	828959
+	828960
+	828961
+	828962
+	828963
+	828964
+	828965
+	828966
+	828967
+	828968
+	828969
+	828970
+	828971
+	828972
+	828973
+	828974
+	828975
+	828976
+	828977
+	828978
+	828979

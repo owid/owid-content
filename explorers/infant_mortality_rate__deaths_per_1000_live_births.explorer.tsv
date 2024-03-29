@@ -1,0 +1,56 @@
+explorerTitle	Infant mortality rate (deaths per 1000 live births) - 
+selection	World
+
+graphers
+	sex Checkbox	age_group Checkbox	mothers_education_level Dropdown	residence_area_type Checkbox	wealth_quintile Dropdown	wealth_decile Dropdown	yVariableIds	hasMapTab
+	female						827912	true
+	male						827913	true
+		15-19 years					827914	true
+		20-49 years					827915	true
+			Primary				827916	true
+			None				827917	true
+			Secondary or higher				827918	true
+				Rural			827919	true
+				Urban			827920	true
+					Q1 (Poorest)		827921	true
+					Q2		827922	true
+					Q3		827923	true
+					Q4		827924	true
+					Q5 (Richest)		827925	true
+						Decile 1 (poorest)	827926	true
+						Decile 10 (richest)	827927	true
+						Decile 2	827928	true
+						Decile 3	827929	true
+						Decile 4	827930	true
+						Decile 5	827931	true
+						Decile 6	827932	true
+						Decile 7	827933	true
+						Decile 8	827934	true
+						Decile 9	827935	true
+
+columns
+	variableId
+	827912
+	827913
+	827914
+	827915
+	827916
+	827917
+	827918
+	827919
+	827920
+	827921
+	827922
+	827923
+	827924
+	827925
+	827926
+	827927
+	827928
+	827929
+	827930
+	827931
+	827932
+	827933
+	827934
+	827935

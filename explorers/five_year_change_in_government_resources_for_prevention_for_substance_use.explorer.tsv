@@ -1,0 +1,12 @@
+explorerTitle	Five-year change in government resources for prevention for substance use - Rsud substance types: 
+selection	World
+
+graphers
+	rsud_substance_types Checkbox	yVariableIds	hasMapTab
+	Alcohol	825984	true
+	Drugs	825985	true
+
+columns
+	variableId
+	825984
+	825985

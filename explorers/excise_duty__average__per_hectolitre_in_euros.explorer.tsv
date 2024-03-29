@@ -1,0 +1,16 @@
+explorerTitle	Excise duty (average) per hectolitre in Euros - Beverage types: 
+selection	World
+
+graphers
+	beverage_types Dropdown	yVariableIds	hasMapTab
+	All types	825661	true
+	Beer	825662	true
+	Spirits	825663	true
+	Wine	825664	true
+
+columns
+	variableId
+	825661
+	825662
+	825663
+	825664

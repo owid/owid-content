@@ -1,0 +1,24 @@
+explorerTitle	Death rate in ongoing conflicts in a country (best estimate) - Conflict type: 
+selection	World
+
+graphers
+	conflict_type Dropdown	yVariableIds	hasMapTab
+	all	816856	true
+	interstate	816864	true
+	intrastate	816872	true
+	intrastate (internationalized)	816880	true
+	intrastate (non-internationalized)	816888	true
+	non-state conflict	816896	true
+	one-sided violence	816904	true
+	state-based	816912	true
+
+columns
+	variableId
+	816856
+	816864
+	816872
+	816880
+	816888
+	816896
+	816904
+	816912

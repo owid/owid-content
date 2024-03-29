@@ -1,0 +1,22 @@
+explorerTitle	Availability of education/training for assistive technology - Assistive technology subquestion: 
+selection	World
+
+graphers
+	assistive_technology_subquestion Dropdown	yVariableIds	hasMapTab
+	Summary	824251	true
+	Training related to Cognition	824252	true
+	Training related to Communication	824253	true
+	Training related to Mobility	824254	true
+	Training related to Self-care	824255	true
+	Training related to Hearing	824256	true
+	Training related to Vision	824257	true
+
+columns
+	variableId
+	824251
+	824252
+	824253
+	824254
+	824255
+	824256
+	824257

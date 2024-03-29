@@ -1,0 +1,12 @@
+explorerTitle	Excise taxes are applied on beverages - Beverage type: 
+selection	World
+
+graphers
+	beverage_type Checkbox	beverage Checkbox	yVariableIds	hasMapTab
+	Alcoholic	Alcoholic beverages	825672	true
+	Non-alcoholic	Non-alcoholic beverages	825673	true
+
+columns
+	variableId
+	825672
+	825673

@@ -1,0 +1,268 @@
+explorerTitle	Deaths attributable to the environment - 
+selection	World
+
+graphers
+	age_group Checkbox	cause Dropdown	yVariableIds	hasMapTab
+	0-4 years	Acute hepatitis B	825021	true
+	0-4 years	Alzheimer's disease and other dementias	825022	true
+	0-4 years	Alcohol use disorders	825023	true
+	0-4 years	Asthma	825024	true
+	0-4 years	Anxiety disorders	825025	true
+	0-4 years	Bipolar disorder	825026	true
+	0-4 years	Back and neck pain	825027	true
+	0-4 years	Cardiovascular diseases	825028	true
+	0-4 years	Cataracts	825029	true
+	0-4 years	Chagas disease	825030	true
+	0-4 years	Childhood behavioural disorders	825031	true
+	0-4 years	Chronic obstructive pulmonary disease	825032	true
+	0-4 years	Congenital anomalies	825033	true
+	0-4 years	Dengue	825034	true
+	0-4 years	Drowning	825035	true
+	0-4 years	Drug use disorders	825036	true
+	0-4 years	Diarrhoeal diseases	825037	true
+	0-4 years	Eating disorders	825038	true
+	0-4 years	Epilepsy	825039	true
+	0-4 years	Falls	825040	true
+	0-4 years	Fire, heat and hot substances	825041	true
+	0-4 years	HIV/AIDS	825042	true
+	0-4 years	Hypertensive heart disease	825043	true
+	0-4 years	Interpersonal violence	825044	true
+	0-4 years	Intestinal nematode infections	825045	true
+	0-4 years	Idiopathic intellectual disability	825046	true
+	0-4 years	Ischaemic heart disease	825047	true
+	0-4 years	Kidney diseases	825048	true
+	0-4 years	Leishmaniasis	825049	true
+	0-4 years	Lower respiratory infections	825050	true
+	0-4 years	Lymphatic filariasis	825051	true
+	0-4 years	Malaria	825052	true
+	0-4 years	Migraine	825053	true
+	0-4 years	Neonatal conditions	825054	true
+	0-4 years	Multiple sclerosis	825055	true
+	0-4 years	Non-migraine headache	825056	true
+	0-4 years	Onchocerciasis	825057	true
+	0-4 years	Osteoarthritis	825058	true
+	0-4 years	Other cancers	825059	true
+	0-4 years	Other circulatory diseases	825060	true
+	0-4 years	Other hearing loss	825061	true
+	0-4 years	Other infectious diseases	825062	true
+	0-4 years	Other musculoskeletal disorders	825063	true
+	0-4 years	Other mental, behavioural and neurological conditions	825064	true
+	0-4 years	Other unintentional injuries	825065	true
+	0-4 years	Pervasive developmental disorders	825066	true
+	0-4 years	Parkinson's disease	825067	true
+	0-4 years	Protein-energy malnutrition	825068	true
+	0-4 years	Poisonings	825069	true
+	0-4 years	Rheumatic heart disease	825070	true
+	0-4 years	Rheumatoid arthritis	825071	true
+	0-4 years	Road injury	825072	true
+	0-4 years	Schistosomiasis	825073	true
+	0-4 years	Schizophrenia	825074	true
+	0-4 years	Self-harm	825075	true
+	0-4 years	Sexually-transmitted diseases (STDs) excluding HIV	825076	true
+	0-4 years	Stroke	825077	true
+	0-4 years	Total	825078	true
+	0-4 years	Trachea, bronchus, lung cancers	825079	true
+	0-4 years	Trachoma	825080	true
+	0-4 years	Tuberculosis	825081	true
+	0-4 years	Unipolar depressive disorders	825082	true
+	0-4 years	Upper respiratory infections and otitis	825083	true
+	Total (All ages)	Acute hepatitis B	825084	true
+	Total (All ages)	Alcohol use disorders	825085	true
+	Total (All ages)	Alzheimer's disease and other dementias	825086	true
+	Total (All ages)	Asthma	825087	true
+	Total (All ages)	Anxiety disorders	825088	true
+	Total (All ages)	Back and neck pain	825089	true
+	Total (All ages)	Bipolar disorder	825090	true
+	Total (All ages)	Cardiovascular diseases	825091	true
+	Total (All ages)	Cataracts	825092	true
+	Total (All ages)	Chagas disease	825093	true
+	Total (All ages)	Childhood behavioural disorders	825094	true
+	Total (All ages)	Chronic obstructive pulmonary disease	825095	true
+	Total (All ages)	Congenital anomalies	825096	true
+	Total (All ages)	Dengue	825097	true
+	Total (All ages)	Drowning	825098	true
+	Total (All ages)	Diarrhoeal diseases	825099	true
+	Total (All ages)	Drug use disorders	825100	true
+	Total (All ages)	Eating disorders	825101	true
+	Total (All ages)	Epilepsy	825102	true
+	Total (All ages)	Falls	825103	true
+	Total (All ages)	Fire, heat and hot substances	825104	true
+	Total (All ages)	HIV/AIDS	825105	true
+	Total (All ages)	Idiopathic intellectual disability	825106	true
+	Total (All ages)	Hypertensive heart disease	825107	true
+	Total (All ages)	Interpersonal violence	825108	true
+	Total (All ages)	Intestinal nematode infections	825109	true
+	Total (All ages)	Kidney diseases	825110	true
+	Total (All ages)	Leishmaniasis	825111	true
+	Total (All ages)	Ischaemic heart disease	825112	true
+	Total (All ages)	Lower respiratory infections	825113	true
+	Total (All ages)	Lymphatic filariasis	825114	true
+	Total (All ages)	Malaria	825115	true
+	Total (All ages)	Migraine	825116	true
+	Total (All ages)	Neonatal conditions	825117	true
+	Total (All ages)	Multiple sclerosis	825118	true
+	Total (All ages)	Non-migraine headache	825119	true
+	Total (All ages)	Onchocerciasis	825120	true
+	Total (All ages)	Osteoarthritis	825121	true
+	Total (All ages)	Other cancers	825122	true
+	Total (All ages)	Other circulatory diseases	825123	true
+	Total (All ages)	Other hearing loss	825124	true
+	Total (All ages)	Other infectious diseases	825125	true
+	Total (All ages)	Other mental, behavioural and neurological conditions	825126	true
+	Total (All ages)	Other musculoskeletal disorders	825127	true
+	Total (All ages)	Parkinson's disease	825128	true
+	Total (All ages)	Other unintentional injuries	825129	true
+	Total (All ages)	Pervasive developmental disorders	825130	true
+	Total (All ages)	Poisonings	825131	true
+	Total (All ages)	Protein-energy malnutrition	825132	true
+	Total (All ages)	Rheumatic heart disease	825133	true
+	Total (All ages)	Rheumatoid arthritis	825134	true
+	Total (All ages)	Road injury	825135	true
+	Total (All ages)	Schistosomiasis	825136	true
+	Total (All ages)	Schizophrenia	825137	true
+	Total (All ages)	Self-harm	825138	true
+	Total (All ages)	Sexually-transmitted diseases (STDs) excluding HIV	825139	true
+	Total (All ages)	Stroke	825140	true
+	Total (All ages)	Total	825141	true
+	Total (All ages)	Trachea, bronchus, lung cancers	825142	true
+	Total (All ages)	Trachoma	825143	true
+	Total (All ages)	Tuberculosis	825144	true
+	Total (All ages)	Unipolar depressive disorders	825145	true
+	Total (All ages)	Upper respiratory infections and otitis	825146	true
+		Infectious, parasitic, neonatal and nutritional	825147	true
+		Injuries	825148	true
+		Noncommunicable diseases	825149	true
+		Total	825150	true
+
+columns
+	variableId
+	825021
+	825022
+	825023
+	825024
+	825025
+	825026
+	825027
+	825028
+	825029
+	825030
+	825031
+	825032
+	825033
+	825034
+	825035
+	825036
+	825037
+	825038
+	825039
+	825040
+	825041
+	825042
+	825043
+	825044
+	825045
+	825046
+	825047
+	825048
+	825049
+	825050
+	825051
+	825052
+	825053
+	825054
+	825055
+	825056
+	825057
+	825058
+	825059
+	825060
+	825061
+	825062
+	825063
+	825064
+	825065
+	825066
+	825067
+	825068
+	825069
+	825070
+	825071
+	825072
+	825073
+	825074
+	825075
+	825076
+	825077
+	825078
+	825079
+	825080
+	825081
+	825082
+	825083
+	825084
+	825085
+	825086
+	825087
+	825088
+	825089
+	825090
+	825091
+	825092
+	825093
+	825094
+	825095
+	825096
+	825097
+	825098
+	825099
+	825100
+	825101
+	825102
+	825103
+	825104
+	825105
+	825106
+	825107
+	825108
+	825109
+	825110
+	825111
+	825112
+	825113
+	825114
+	825115
+	825116
+	825117
+	825118
+	825119
+	825120
+	825121
+	825122
+	825123
+	825124
+	825125
+	825126
+	825127
+	825128
+	825129
+	825130
+	825131
+	825132
+	825133
+	825134
+	825135
+	825136
+	825137
+	825138
+	825139
+	825140
+	825141
+	825142
+	825143
+	825144
+	825145
+	825146
+	825147
+	825148
+	825149
+	825150

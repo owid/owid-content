@@ -1,0 +1,12 @@
+explorerTitle	Poorest decile - Share (
+selection	World
+
+graphers
+	table Checkbox	yVariableIds	hasMapTab
+	Equivalized income	831544	true
+	Per capita income	831567	true
+
+columns
+	variableId
+	831544
+	831567

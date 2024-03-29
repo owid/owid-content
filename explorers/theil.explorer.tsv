@@ -1,0 +1,12 @@
+explorerTitle	Theil index (
+selection	World
+
+graphers
+	table Checkbox	yVariableIds	hasMapTab
+	Equivalized income	831538	true
+	Per capita income	831561	true
+
+columns
+	variableId
+	831538
+	831561

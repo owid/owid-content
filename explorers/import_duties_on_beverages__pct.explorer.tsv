@@ -1,0 +1,14 @@
+explorerTitle	Import duties on beverages (%) - Beverage type: 
+selection	World
+
+graphers
+	beverage_type Checkbox	beverage Dropdown	yVariableIds	hasMapTab
+	Alcoholic	Beer	827796	true
+	Alcoholic	Spirits	827797	true
+	Non-alcoholic	Sugar-sweetened  carbonated beverages	827798	true
+
+columns
+	variableId
+	827796
+	827797
+	827798

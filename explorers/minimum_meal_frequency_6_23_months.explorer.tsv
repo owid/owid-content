@@ -1,0 +1,72 @@
+explorerTitle	Minimum Meal Frequency 6-23 months - 
+selection	World
+
+graphers
+	sex Dropdown	age_group Dropdown	mothers_education_level Dropdown	residence_area_type Dropdown	wealth_quintile Dropdown	household_wealth Dropdown	yVariableIds	hasMapTab
+	both sexes						828428	true
+	female						828429	true
+	male						828430	true
+		12 to 15 months					828431	true
+		16 to 19 months					828432	true
+		12 to 23 months					828433	true
+		20 to 23 months					828434	true
+		6 to 11 months					828435	true
+		Total (All ages)					828436	true
+			Higher education				828437	true
+			None				828438	true
+			None and primary education				828439	true
+			Primary				828440	true
+			Secondary education				828441	true
+			Secondary or higher				828442	true
+			TotalTotalTotalTotal				828443	true
+				Rural			828444	true
+				TotalTotalTotalTotal			828445	true
+				Urban			828446	true
+					Q1 (Poorest)		828447	true
+					Q2		828448	true
+					Q3		828449	true
+					Q5 (Richest)		828450	true
+					Q4		828451	true
+					TotalTotalTotalTotal		828452	true
+						TotalTotalTotalTotal	828453	true
+						Wealth - Bottom 40%	828454	true
+						Wealth - Bottom 60%	828455	true
+						Wealth - Bottom 80%	828456	true
+						Wealth - Top 40%	828457	true
+						Wealth - Top 60%	828458	true
+						Wealth - Top 80%	828459	true
+
+columns
+	variableId
+	828428
+	828429
+	828430
+	828431
+	828432
+	828433
+	828434
+	828435
+	828436
+	828437
+	828438
+	828439
+	828440
+	828441
+	828442
+	828443
+	828444
+	828445
+	828446
+	828447
+	828448
+	828449
+	828450
+	828451
+	828452
+	828453
+	828454
+	828455
+	828456
+	828457
+	828458
+	828459

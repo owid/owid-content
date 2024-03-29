@@ -1,0 +1,12 @@
+explorerTitle	Prevalent cases of gonorrhoea in individuals (in thousands) - Sex: 
+selection	World
+
+graphers
+	sex Checkbox	yVariableIds	hasMapTab
+	female	829840	true
+	male	829841	true
+
+columns
+	variableId
+	829840
+	829841

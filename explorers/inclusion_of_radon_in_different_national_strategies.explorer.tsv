@@ -1,0 +1,18 @@
+explorerTitle	Inclusion of radon in different national strategies - Radon subquestions: 
+selection	World
+
+graphers
+	radon_subquestions Dropdown	yVariableIds	hasMapTab
+	Cancer control strategy	827883	true
+	Energy conservation strategy	827884	true
+	Indoor air quality strategy	827885	true
+	Lung cancer reporting/screening strategy	827886	true
+	Tobacco control strategy	827887	true
+
+columns
+	variableId
+	827883
+	827884
+	827885
+	827886
+	827887

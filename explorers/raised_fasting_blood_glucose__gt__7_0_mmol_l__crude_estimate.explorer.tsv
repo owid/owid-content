@@ -1,0 +1,14 @@
+explorerTitle	Raised fasting blood glucose (>= 7.0 mmol/L) (crude estimate) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	830060	true
+	female	830061	true
+	male	830062	true
+
+columns
+	variableId
+	830060
+	830061
+	830062

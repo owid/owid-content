@@ -1,0 +1,14 @@
+explorerTitle	Country with yearly maximum life expectancy - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both	815623	true
+	female	815625	true
+	male	815627	true
+
+columns
+	variableId
+	815623
+	815625
+	815627

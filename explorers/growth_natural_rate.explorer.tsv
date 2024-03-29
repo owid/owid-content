@@ -1,0 +1,18 @@
+explorerTitle	Natural growth rate - Sex: all - Age: all - Variant: 
+selection	World
+
+graphers
+	variant Dropdown	yVariableIds	hasMapTab
+	estimates	521021	true
+	medium	521022	true
+	high	521023	true
+	low	521024	true
+	constant fertility	521025	true
+
+columns
+	variableId
+	521021
+	521022
+	521023
+	521024
+	521025

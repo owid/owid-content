@@ -1,0 +1,12 @@
+explorerTitle	Epidemiological data collection system for substance use among children and adolescents (see RSUD_880) - Rsud substance types: 
+selection	World
+
+graphers
+	rsud_substance_types Checkbox	yVariableIds	hasMapTab
+	Drugs	825542	true
+	Alcohol	825543	true
+
+columns
+	variableId
+	825542
+	825543

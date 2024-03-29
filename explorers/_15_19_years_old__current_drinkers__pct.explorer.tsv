@@ -1,0 +1,14 @@
+explorerTitle	15-19 years old, current drinkers (%) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	821603	true
+	female	821604	true
+	male	821605	true
+
+columns
+	variableId
+	821603
+	821604
+	821605

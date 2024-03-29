@@ -1,0 +1,20 @@
+explorerTitle	Existence of financial mechanisms for assistive technology - Assistive technology subquestion: 
+selection	World
+
+graphers
+	assistive_technology_subquestion Dropdown	yVariableIds	hasMapTab
+	A list of safe and effective assistive products that are subsidized or provided free to people who are eligible	825831	true
+	Compulsory private insurance schemes	825832	true
+	Other measures	825833	true
+	Public (insurance) schemes	825834	true
+	Summary	825835	true
+	Voluntary private insurance schemes	825836	true
+
+columns
+	variableId
+	825831
+	825832
+	825833
+	825834
+	825835
+	825836

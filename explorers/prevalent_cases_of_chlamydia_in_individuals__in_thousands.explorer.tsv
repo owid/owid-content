@@ -1,0 +1,12 @@
+explorerTitle	Prevalent cases of chlamydia in individuals (in thousands) - Sex: 
+selection	World
+
+graphers
+	sex Checkbox	yVariableIds	hasMapTab
+	female	829838	true
+	male	829839	true
+
+columns
+	variableId
+	829838
+	829839

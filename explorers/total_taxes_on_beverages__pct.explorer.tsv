@@ -1,0 +1,14 @@
+explorerTitle	Total taxes on beverages (%) - Beverage type: 
+selection	World
+
+graphers
+	beverage_type Checkbox	beverage Dropdown	yVariableIds	hasMapTab
+	Alcoholic	Beer	830635	true
+	Alcoholic	Spirits	830636	true
+	Non-alcoholic	Sugar-sweetened  carbonated beverages	830637	true
+
+columns
+	variableId
+	830635
+	830636
+	830637

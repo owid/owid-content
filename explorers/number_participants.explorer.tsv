@@ -1,0 +1,20 @@
+explorerTitle	Number of states involved in conflicts - Conflict type: 
+selection	World
+
+graphers
+	conflict_type Dropdown	yVariableIds	hasMapTab
+	extrasystemic	816238	true
+	interstate	816240	true
+	intrastate	816242	true
+	intrastate (internationalized)	816244	true
+	intrastate (non-internationalized)	816246	true
+	state-based	816247	true
+
+columns
+	variableId
+	816238
+	816240
+	816242
+	816244
+	816246
+	816247

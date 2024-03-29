@@ -1,0 +1,40 @@
+explorerTitle	Health expenditure (as a share of GDP) - 
+selection	World
+
+graphers
+	financing_scheme Dropdown	yVariableIds	hasMapTab
+	Compulsory contributory health insurance schemes	821291	true
+	Compulsory private insurance schemes	821295	true
+	Cost-sharing with third-party payers	821299	true
+	Enterprise financing schemes	821303	true
+	Government schemes	821307	true
+	Government/compulsory schemes	821311	true
+	Household out-of-pocket payments	821315	true
+	NPISH financing schemes	821319	true
+	Out-of-pocket excluding cost-sharing	821323	true
+	Rest of the world financing schemes (non-resident)	821327	true
+	Social health insurance schemes	821331	true
+	Unknown	821335	true
+	Total	821337	true
+	Voluntary health care payment schemes	821342	true
+	Voluntary health insurance schemes	821346	true
+	Voluntary schemes/household out-of-pocket payments	821347	true
+
+columns
+	variableId
+	821291
+	821295
+	821299
+	821303
+	821307
+	821311
+	821315
+	821319
+	821323
+	821327
+	821331
+	821335
+	821337
+	821342
+	821346
+	821347

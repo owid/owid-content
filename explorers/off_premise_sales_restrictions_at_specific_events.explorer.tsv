@@ -1,0 +1,14 @@
+explorerTitle	Off-premise sales restrictions at specific events - Beverage types: 
+selection	World
+
+graphers
+	beverage_types Dropdown	yVariableIds	hasMapTab
+	Beer	829005	true
+	Spirits	829006	true
+	Wine	829007	true
+
+columns
+	variableId
+	829005
+	829006
+	829007

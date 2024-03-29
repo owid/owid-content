@@ -1,0 +1,14 @@
+explorerTitle	Age-standardized death rates, fires, per 100,000 - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	821838	true
+	female	821839	true
+	male	821840	true
+
+columns
+	variableId
+	821838
+	821839
+	821840

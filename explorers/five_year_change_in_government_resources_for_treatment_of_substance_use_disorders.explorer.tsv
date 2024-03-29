@@ -1,0 +1,12 @@
+explorerTitle	Five-year change in government resources for treatment of substance use disorders - Rsud substance types: 
+selection	World
+
+graphers
+	rsud_substance_types Checkbox	yVariableIds	hasMapTab
+	Alcohol	825986	true
+	Drugs	825987	true
+
+columns
+	variableId
+	825986
+	825987

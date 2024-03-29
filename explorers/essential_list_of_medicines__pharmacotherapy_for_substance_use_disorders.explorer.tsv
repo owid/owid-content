@@ -1,0 +1,22 @@
+explorerTitle	Essential list of medicines, pharmacotherapy for substance use disorders - Rsud drugs: 
+selection	World
+
+graphers
+	rsud_drugs Dropdown	yVariableIds	hasMapTab
+	Acamprosate	825547	true
+	Benzodiazepines	825548	true
+	Buprenorphine	825549	true
+	Methadone	825550	true
+	Disulfiram	825551	true
+	Naloxone	825552	true
+	Naltrexone	825553	true
+
+columns
+	variableId
+	825547
+	825548
+	825549
+	825550
+	825551
+	825552
+	825553

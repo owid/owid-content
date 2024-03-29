@@ -1,0 +1,14 @@
+explorerTitle	Age-standardized DALYs, breast cancer, per 100,000 - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	821739	true
+	female	821740	true
+	male	821741	true
+
+columns
+	variableId
+	821739
+	821740
+	821741

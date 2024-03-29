@@ -1,0 +1,12 @@
+explorerTitle	Age-standardized DALYs, alcohol and drug use disorders, per 100 000 - Rsud substance type disorders: 
+selection	World
+
+graphers
+	rsud_substance_type_disorders Checkbox	yVariableIds	hasMapTab
+	Alcohol use disorders	821734	true
+	Drug use disorders	821735	true
+
+columns
+	variableId
+	821734
+	821735

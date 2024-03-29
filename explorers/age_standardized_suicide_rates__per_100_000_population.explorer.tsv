@@ -1,0 +1,14 @@
+explorerTitle	Age-standardized suicide rates (per 100 000 population) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	821890	true
+	female	821891	true
+	male	821892	true
+
+columns
+	variableId
+	821890
+	821891
+	821892

@@ -1,0 +1,14 @@
+explorerTitle	Abstainers (15-19 years), lifetime (%) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	821632	true
+	female	821633	true
+	male	821634	true
+
+columns
+	variableId
+	821632
+	821633
+	821634

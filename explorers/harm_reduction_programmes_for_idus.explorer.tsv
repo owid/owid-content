@@ -1,0 +1,22 @@
+explorerTitle	Harm reduction programmes for IDUs - Rsud programmes: 
+selection	World
+
+graphers
+	rsud_programmes Dropdown	yVariableIds	hasMapTab
+	Bleach distribution, prisons	826165	true
+	Bleach distrubution, community	826166	true
+	Naloxone distribution	826167	true
+	Needle exchange programmes, community	826168	true
+	Needle exchange programmes, prisons	826169	true
+	Outreach services	826170	true
+	Supervised injection facilities	826171	true
+
+columns
+	variableId
+	826165
+	826166
+	826167
+	826168
+	826169
+	826170
+	826171

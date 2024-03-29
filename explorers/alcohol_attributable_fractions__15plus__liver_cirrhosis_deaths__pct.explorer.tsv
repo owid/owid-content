@@ -1,0 +1,12 @@
+explorerTitle	Alcohol-attributable fractions (15+), liver cirrhosis deaths (%) - Sex: 
+selection	World
+
+graphers
+	sex Checkbox	yVariableIds	hasMapTab
+	female	821972	true
+	male	821973	true
+
+columns
+	variableId
+	821972
+	821973

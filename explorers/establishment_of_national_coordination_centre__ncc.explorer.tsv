@@ -1,0 +1,18 @@
+explorerTitle	Establishment of National Coordination Centre (NCC) - Amr glass category: 
+selection	World
+
+graphers
+	amr_glass_category Dropdown	yVariableIds	hasMapTab
+	Established	825554	true
+	Establishment in progress	825555	true
+	Not enrolled in GLASS	825556	true
+	Not established	825557	true
+	Not reported	825558	true
+
+columns
+	variableId
+	825554
+	825555
+	825556
+	825557
+	825558

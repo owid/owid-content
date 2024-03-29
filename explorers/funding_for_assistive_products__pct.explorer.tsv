@@ -1,0 +1,36 @@
+explorerTitle	Funding for assistive products (%) - Assistive technology product: Total
+selection	World
+
+graphers
+	assistive_technology_product Checkbox	funding_for_assistive_tech_products Dropdown	yVariableIds	hasMapTab
+	Total	Employer/school	826032	true
+	Total	Friends or family	826033	true
+	Total	Government	826034	true
+	Total	Insurance	826035	true
+	Total	NGO	826036	true
+	Total	Other	826037	true
+	Total	Out-of-pocket	826038	true
+	Total, excluding spectacles	Friends or family	826039	true
+	Total, excluding spectacles	Employer/school	826040	true
+	Total, excluding spectacles	Government	826041	true
+	Total, excluding spectacles	Insurance	826042	true
+	Total, excluding spectacles	NGO	826043	true
+	Total, excluding spectacles	Other	826044	true
+	Total, excluding spectacles	Out-of-pocket	826045	true
+
+columns
+	variableId
+	826032
+	826033
+	826034
+	826035
+	826036
+	826037
+	826038
+	826039
+	826040
+	826041
+	826042
+	826043
+	826044
+	826045

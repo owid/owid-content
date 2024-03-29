@@ -1,0 +1,12 @@
+explorerTitle	Supervision requirements for buprenorphine administration - Rsud drug supervision: 
+selection	World
+
+graphers
+	rsud_drug_supervision Checkbox	yVariableIds	hasMapTab
+	All doses supervised	830445	true
+	Supervision of doctor required	830446	true
+
+columns
+	variableId
+	830445
+	830446

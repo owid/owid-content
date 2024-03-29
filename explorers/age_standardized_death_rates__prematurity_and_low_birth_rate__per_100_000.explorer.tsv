@@ -1,0 +1,14 @@
+explorerTitle	Age-standardized death rates, prematurity and low birth rate, per 100,000 - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	821868	true
+	female	821869	true
+	male	821870	true
+
+columns
+	variableId
+	821868
+	821869
+	821870

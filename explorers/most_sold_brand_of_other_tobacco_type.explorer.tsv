@@ -1,0 +1,12 @@
+explorerTitle	Most sold brand of other tobacco type - Tobacco and nicotine product: Most sold brand of 
+selection	World
+
+graphers
+	tobacco_and_nicotine_product Checkbox	yVariableIds	hasMapTab
+	Most sold brand of other smoked tobacco	828503	true
+	Most sold brand of smokeless tobacco (20g)	828504	true
+
+columns
+	variableId
+	828503
+	828504

@@ -1,0 +1,14 @@
+explorerTitle	Number of deaths among children ages 5 to 9 years - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	828802	true
+	female	828803	true
+	male	828804	true
+
+columns
+	variableId
+	828802
+	828803
+	828804

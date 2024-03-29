@@ -1,0 +1,12 @@
+explorerTitle	Voluntary treatment for people with drug use disorders in the criminal justice system - Treatment: 
+selection	World
+
+graphers
+	treatment Checkbox	yVariableIds	hasMapTab
+	As an alternative to criminal sanction	830858	true
+	In addition to criminal sanction	830859	true
+
+columns
+	variableId
+	830858
+	830859

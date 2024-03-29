@@ -1,0 +1,54 @@
+explorerTitle	Patent applications - Field: 
+selection	World
+
+graphers
+	field Dropdown	yVariableIds	hasMapTab
+	All	789148	true
+	Analytics and algorithms	789158	true
+	Banking and finance	789163	true
+	Business	789172	true
+	Computer vision	789181	true
+	Control methods	789195	true
+	Energy management	789218	true
+	General	789235	true
+	Industry and manufacturing	789262	true
+	Knowledge representation	789276	true
+	Life sciences	789285	true
+	Logic programming	789290	true
+	Machine learning	789295	true
+	Measuring and testing	789314	true
+	Ontology engineering	789340	true
+	Personal devices and computing	789349	true
+	Physical sciences and engineering	789354	true
+	Planning and scheduling	789359	true
+	Probabilistic reasoning	789368	true
+	Security	789390	true
+	Speech processing	789404	true
+	Telecommunications	789422	true
+	Transportation	789436	true
+
+columns
+	variableId
+	789148
+	789158
+	789163
+	789172
+	789181
+	789195
+	789218
+	789235
+	789262
+	789276
+	789285
+	789290
+	789295
+	789314
+	789340
+	789349
+	789354
+	789359
+	789368
+	789390
+	789404
+	789422
+	789436

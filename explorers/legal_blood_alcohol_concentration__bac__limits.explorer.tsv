@@ -1,0 +1,14 @@
+explorerTitle	Legal blood alcohol concentration (BAC) limits - Substance abuse bac groups: 
+selection	World
+
+graphers
+	substance_abuse_bac_groups Dropdown	yVariableIds	hasMapTab
+	General population	828055	true
+	Professional/commercial drivers	828056	true
+	Young/novice drivers	828057	true
+
+columns
+	variableId
+	828055
+	828056
+	828057

@@ -1,0 +1,12 @@
+explorerTitle	Financing method for substance use disorder treatment - Rsud substance type disorders: 
+selection	World
+
+graphers
+	rsud_substance_type_disorders Checkbox	yVariableIds	hasMapTab
+	Alcohol use disorders	825968	true
+	Drug use disorders	825969	true
+
+columns
+	variableId
+	825968
+	825969

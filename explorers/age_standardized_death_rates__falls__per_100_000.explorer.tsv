@@ -1,0 +1,14 @@
+explorerTitle	Age-standardized death rates, falls, per 100,000 - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	821834	true
+	female	821835	true
+	male	821836	true
+
+columns
+	variableId
+	821834
+	821835
+	821836

@@ -1,0 +1,14 @@
+explorerTitle	Ambient air pollution attributable deaths per 100'000 children under 5 years - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	823425	true
+	female	823426	true
+	male	823427	true
+
+columns
+	variableId
+	823425
+	823426
+	823427

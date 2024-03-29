@@ -1,0 +1,12 @@
+explorerTitle	Pharmacotherapy used for the management of cannabis withdrawal - Rsud drugs: 
+selection	World
+
+graphers
+	rsud_drugs Checkbox	yVariableIds	hasMapTab
+	Benzodiazepines	829208	true
+	Antipsychotics/Neuroleptics	829209	true
+
+columns
+	variableId
+	829208
+	829209

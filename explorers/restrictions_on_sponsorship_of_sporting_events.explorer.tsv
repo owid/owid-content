@@ -1,0 +1,14 @@
+explorerTitle	Restrictions on sponsorship of sporting events - Sponsorship originator: From 
+selection	World
+
+graphers
+	sponsorship_originator Dropdown	yVariableIds	hasMapTab
+	From beer industry	830162	true
+	From spirits industry	830163	true
+	From wine industry	830164	true
+
+columns
+	variableId
+	830162
+	830163
+	830164

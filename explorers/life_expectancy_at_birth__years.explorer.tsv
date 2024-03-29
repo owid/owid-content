@@ -1,0 +1,14 @@
+explorerTitle	Life expectancy at birth (years) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	828112	true
+	female	828113	true
+	male	828114	true
+
+columns
+	variableId
+	828112
+	828113
+	828114

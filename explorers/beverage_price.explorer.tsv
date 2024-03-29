@@ -1,0 +1,26 @@
+explorerTitle	Beverage price - Beverage type: 
+selection	World
+
+graphers
+	beverage_type Checkbox	price Dropdown	beverage Dropdown	yVariableIds	hasMapTab
+	Alcoholic	In US$ at official exchange rates	Spirits	824400	true
+	Alcoholic	In US$ at official exchange rates	Beer	824401	true
+	Alcoholic	In international dollars (At Purchasing Power Parity)	Beer	824402	true
+	Alcoholic	In international dollars (At Purchasing Power Parity)	Spirits	824403	true
+	Alcoholic	In reported currency	Spirits	824404	true
+	Alcoholic	In reported currency	Beer	824405	true
+	Non-alcoholic	In US$ at official exchange rates	Sugar-sweetened  carbonated beverages	824406	true
+	Non-alcoholic	In international dollars (At Purchasing Power Parity)	Sugar-sweetened  carbonated beverages	824407	true
+	Non-alcoholic	In reported currency	Sugar-sweetened  carbonated beverages	824408	true
+
+columns
+	variableId
+	824400
+	824401
+	824402
+	824403
+	824404
+	824405
+	824406
+	824407
+	824408

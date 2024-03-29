@@ -1,0 +1,14 @@
+explorerTitle	Licenses issued for retail sale, change since 2010 - Beverage types: 
+selection	World
+
+graphers
+	beverage_types Dropdown	yVariableIds	hasMapTab
+	Beer	828094	true
+	Spirits	828095	true
+	Wine	828096	true
+
+columns
+	variableId
+	828094
+	828095
+	828096

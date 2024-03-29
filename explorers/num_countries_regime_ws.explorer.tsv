@@ -1,0 +1,12 @@
+explorerTitle	Number of 
+selection	World
+
+graphers
+	category Checkbox	yVariableIds	hasMapTab
+	0	831001	true
+	1	831002	true
+
+columns
+	variableId
+	831001
+	831002

@@ -1,0 +1,14 @@
+explorerTitle	Population pushed below the $1.90 a day poverty line by household health expenditures (%, national, rural, urban) - Residence area type: 
+selection	World
+
+graphers
+	residence_area_type Dropdown	yVariableIds	hasMapTab
+	Rural	829269	true
+	Urban	829270	true
+	Total	829271	true
+
+columns
+	variableId
+	829269
+	829270
+	829271

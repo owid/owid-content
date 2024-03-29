@@ -1,0 +1,12 @@
+explorerTitle	Coefficient of variation (
+selection	World
+
+graphers
+	table Checkbox	yVariableIds	hasMapTab
+	Equivalized income	831539	true
+	Per capita income	831562	true
+
+columns
+	variableId
+	831539
+	831562

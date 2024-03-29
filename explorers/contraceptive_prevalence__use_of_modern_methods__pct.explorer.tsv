@@ -1,0 +1,52 @@
+explorerTitle	Contraceptive prevalence - use of modern methods (%) - 
+selection	World
+
+graphers
+	age_group Checkbox	mothers_education_level Dropdown	residence_area_type Checkbox	wealth_quintile Dropdown	wealth_decile Dropdown	yVariableIds	hasMapTab
+	15-19 years					824922	true
+	20-49 years					824923	true
+		None				824924	true
+		Primary				824925	true
+		Secondary or higher				824926	true
+			Rural			824927	true
+			Urban			824928	true
+				Q1 (Poorest)		824929	true
+				Q2		824930	true
+				Q3		824931	true
+				Q4		824932	true
+				Q5 (Richest)		824933	true
+					Decile 1 (poorest)	824934	true
+					Decile 10 (richest)	824935	true
+					Decile 2	824936	true
+					Decile 3	824937	true
+					Decile 4	824938	true
+					Decile 5	824939	true
+					Decile 6	824940	true
+					Decile 7	824941	true
+					Decile 8	824942	true
+					Decile 9	824943	true
+
+columns
+	variableId
+	824922
+	824923
+	824924
+	824925
+	824926
+	824927
+	824928
+	824929
+	824930
+	824931
+	824932
+	824933
+	824934
+	824935
+	824936
+	824937
+	824938
+	824939
+	824940
+	824941
+	824942
+	824943

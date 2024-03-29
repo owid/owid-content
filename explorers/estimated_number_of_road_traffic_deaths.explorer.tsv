@@ -1,0 +1,14 @@
+explorerTitle	Estimated number of road traffic deaths - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	825607	true
+	female	825608	true
+	male	825609	true
+
+columns
+	variableId
+	825607
+	825608
+	825609

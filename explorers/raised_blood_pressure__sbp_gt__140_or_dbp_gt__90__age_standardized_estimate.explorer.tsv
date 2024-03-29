@@ -1,0 +1,14 @@
+explorerTitle	Raised blood pressure (SBP>=140 OR DBP>=90) (age-standardized estimate) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	830054	true
+	female	830055	true
+	male	830056	true
+
+columns
+	variableId
+	830054
+	830055
+	830056

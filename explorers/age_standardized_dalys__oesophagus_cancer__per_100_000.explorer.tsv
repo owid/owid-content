@@ -1,0 +1,14 @@
+explorerTitle	Age-standardized DALYs, oesophagus cancer, per 100,000 - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	821772	true
+	male	821773	true
+	female	821774	true
+
+columns
+	variableId
+	821772
+	821773
+	821774

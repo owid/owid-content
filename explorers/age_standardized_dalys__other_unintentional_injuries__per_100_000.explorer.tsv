@@ -1,0 +1,14 @@
+explorerTitle	Age-standardized DALYs, other unintentional injuries, per 100,000 - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	821775	true
+	female	821776	true
+	male	821777	true
+
+columns
+	variableId
+	821775
+	821776
+	821777

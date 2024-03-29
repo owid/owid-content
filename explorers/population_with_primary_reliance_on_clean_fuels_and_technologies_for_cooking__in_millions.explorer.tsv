@@ -1,0 +1,14 @@
+explorerTitle	Population with primary reliance on clean fuels and technologies for cooking (in millions) - Residence area type: 
+selection	World
+
+graphers
+	residence_area_type Dropdown	yVariableIds	hasMapTab
+	Rural	829345	true
+	Total	829346	true
+	Urban	829348	true
+
+columns
+	variableId
+	829345
+	829346
+	829348

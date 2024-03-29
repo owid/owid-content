@@ -1,0 +1,14 @@
+explorerTitle	Proportion of children in grades 2/3 achieving at least a minimum proficiency level in reading (%) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	female	829946	true
+	male	829947	true
+	both sexes	829948	true
+
+columns
+	variableId
+	829946
+	829947
+	829948

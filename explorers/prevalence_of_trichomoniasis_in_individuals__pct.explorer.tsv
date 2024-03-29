@@ -1,0 +1,12 @@
+explorerTitle	Prevalence of trichomoniasis in individuals (%) - Sex: 
+selection	World
+
+graphers
+	sex Checkbox	yVariableIds	hasMapTab
+	female	829739	true
+	male	829740	true
+
+columns
+	variableId
+	829739
+	829740

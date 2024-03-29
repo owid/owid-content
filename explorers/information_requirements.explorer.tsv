@@ -1,0 +1,14 @@
+explorerTitle	Information requirements - Sunbed public information requirements: 
+selection	World
+
+graphers
+	sunbed_public_information_requirements Dropdown	yVariableIds	hasMapTab
+	Ban on claims of health benefits	827940	true
+	Informed consent form	827941	true
+	Warning notices	827942	true
+
+columns
+	variableId
+	827940
+	827941
+	827942

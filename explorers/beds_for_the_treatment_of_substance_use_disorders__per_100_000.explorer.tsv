@@ -1,0 +1,12 @@
+explorerTitle	Beds for the treatment of substance use disorders, per 100 000 - Rsud substance type disorders: Alcohol 
+selection	World
+
+graphers
+	rsud_substance_type_disorders Checkbox	yVariableIds	hasMapTab
+	Alcohol and drug use disorders	824395	true
+	Alcohol use disorders	824396	true
+
+columns
+	variableId
+	824395
+	824396

@@ -1,0 +1,14 @@
+explorerTitle	Special housing services for drug use disorders - Treatment location: In 
+selection	World
+
+graphers
+	treatment_location Dropdown	yVariableIds	hasMapTab
+	In other areas	830352	true
+	In other major cities	830353	true
+	In the capital city	830354	true
+
+columns
+	variableId
+	830352
+	830353
+	830354

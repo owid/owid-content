@@ -1,0 +1,66 @@
+explorerTitle	Disclosed investment - Field: 
+selection	World
+
+graphers
+	field Dropdown	yVariableIds	hasMapTab
+	Agriculture	789140	true
+	All	789144	true
+	Biotechnology	789168	true
+	Community and lifestyle	789177	true
+	Consumer goods	789191	true
+	Data and analytics	789205	true
+	Education	789214	true
+	Energy and natural resources	789223	true
+	Finance	789227	true
+	Gaming	789231	true
+	General purpose	789240	true
+	Hardware	789249	true
+	Healthcare and life sciences	789253	true
+	Information technology	789267	true
+	Lending and investments	789281	true
+	Manufacturing	789305	true
+	Media and entertainment	789319	true
+	Military, public safety and government	789323	true
+	Mobile, platforms & internet services	789327	true
+	Navigation and mapping	789336	true
+	Other	789345	true
+	Privacy and security	789364	true
+	Professional services	789373	true
+	Real estate	789377	true
+	Sales, retail, commerce, marketing	789386	true
+	Software	789400	true
+	Sports	789414	true
+	Telecommunications	789418	true
+	Transportation	789432	true
+
+columns
+	variableId
+	789140
+	789144
+	789168
+	789177
+	789191
+	789205
+	789214
+	789223
+	789227
+	789231
+	789240
+	789249
+	789253
+	789267
+	789281
+	789305
+	789319
+	789323
+	789327
+	789336
+	789345
+	789364
+	789373
+	789377
+	789386
+	789400
+	789414
+	789418
+	789432

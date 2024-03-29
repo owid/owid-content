@@ -1,0 +1,14 @@
+explorerTitle	Age-standardized DALYs, poisoning, per 100,000 - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	821782	true
+	female	821783	true
+	male	821784	true
+
+columns
+	variableId
+	821782
+	821783
+	821784

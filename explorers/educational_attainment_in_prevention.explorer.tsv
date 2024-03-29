@@ -1,0 +1,16 @@
+explorerTitle	Educational attainment in prevention - Mothers education level: 
+selection	World
+
+graphers
+	mothers_education_level Dropdown	yVariableIds	hasMapTab
+	Bachelor's or equivalent level	825466	true
+	Doctoral or equivalent level	825467	true
+	Master's or equivalent level	825468	true
+	Short-cycle tertiary education	825469	true
+
+columns
+	variableId
+	825466
+	825467
+	825468
+	825469

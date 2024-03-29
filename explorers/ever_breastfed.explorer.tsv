@@ -1,0 +1,60 @@
+explorerTitle	Ever breastfed - 
+selection	World
+
+graphers
+	sex Dropdown	mothers_education_level Dropdown	residence_area_type Dropdown	wealth_quintile Dropdown	household_wealth Dropdown	yVariableIds	hasMapTab
+	both sexes					825635	true
+	female					825636	true
+	male					825637	true
+		Higher education				825638	true
+		None				825639	true
+		None and primary education				825640	true
+		Primary				825641	true
+		Secondary education				825642	true
+		Secondary or higher				825643	true
+		TotalTotalTotalTotal				825644	true
+			Rural			825645	true
+			TotalTotalTotalTotal			825646	true
+			Urban			825647	true
+				Q1 (Poorest)		825648	true
+				Q2		825649	true
+				Q3		825650	true
+				Q4		825651	true
+				Q5 (Richest)		825652	true
+				TotalTotalTotalTotal		825653	true
+					TotalTotalTotalTotal	825654	true
+					Wealth - Bottom 40%	825655	true
+					Wealth - Bottom 60%	825656	true
+					Wealth - Bottom 80%	825657	true
+					Wealth - Top 40%	825658	true
+					Wealth - Top 60%	825659	true
+					Wealth - Top 80%	825660	true
+
+columns
+	variableId
+	825635
+	825636
+	825637
+	825638
+	825639
+	825640
+	825641
+	825642
+	825643
+	825644
+	825645
+	825646
+	825647
+	825648
+	825649
+	825650
+	825651
+	825652
+	825653
+	825654
+	825655
+	825656
+	825657
+	825658
+	825659
+	825660

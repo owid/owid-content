@@ -1,0 +1,182 @@
+explorerTitle	Prevalence of need of assistive products (%) - 
+selection	World
+
+graphers
+	sex Dropdown	assistive_technology_product Dropdown	age_group Dropdown	residence_area_type Dropdown	yVariableIds	hasMapTab
+	both sexes	Total			829600	true
+	both sexes	Total, excluding spectacles			829601	true
+	female	Total			829602	true
+	female	Total, excluding spectacles			829603	true
+	male	Total			829604	true
+	male	Total, excluding spectacles			829605	true
+		Total	0-4 years		829606	true
+		Total, excluding spectacles	0-4 years		829607	true
+		Total	18-29 years		829608	true
+		Total, excluding spectacles	18-29 years		829609	true
+		Total	30-39  years		829610	true
+		Total, excluding spectacles	30-39  years		829611	true
+		Total, excluding spectacles	40-49  years		829612	true
+		Total	40-49  years		829613	true
+		Total	5-17 years		829614	true
+		Total, excluding spectacles	5-17 years		829615	true
+		Total	50-59  years		829616	true
+		Total, excluding spectacles	50-59  years		829617	true
+		Total	60-69  years		829618	true
+		Total, excluding spectacles	60-69  years		829619	true
+		Total	70-79 years		829620	true
+		Total, excluding spectacles	70-79 years		829621	true
+		Total	80+ years		829622	true
+		Total, excluding spectacles	80+ years		829623	true
+		Total	Total (All ages)		829624	true
+		Total, excluding spectacles	Total (All ages)		829625	true
+		Total		Rural	829626	true
+		Total, excluding spectacles		Rural	829627	true
+		Total		Total	829628	true
+		Total, excluding spectacles		Total	829629	true
+		Total		Urban	829630	true
+		Total, excluding spectacles		Urban	829631	true
+		Alarm signalers with light/sound/vibration			829632	true
+		Audio-players with DAISY capability			829633	true
+		Axillary / Elbow crutches			829634	true
+		Braille writing equipment/braillers			829635	true
+		Braille displays (note takers)			829636	true
+		Canes/sticks, tripod and quadripod			829637	true
+		Chairs for shower/bath/toilet			829638	true
+		Closed captioning displays			829639	true
+		Club foot braces			829640	true
+		Communication boards/books/cards			829641	true
+		Communication software			829642	true
+		Deafblind communicators (for hearing)			829643	true
+		Deafblind communicators (for seeing/vision)			829644	true
+		Fall detectors			829645	true
+		Gesture to voice technology			829646	true
+		Global Positioning System (GPS) locators			829647	true
+		Grab-bars / Hand rails			829648	true
+		Hearing loops/FM systems			829649	true
+		Incontinence products, absorbent			829650	true
+		Keyboard and mouse emulation software			829651	true
+		Hearing aids (digital) and batteries			829652	true
+		Magnifiers, digital handheld			829653	true
+		Magnifiers, optical			829654	true
+		Manual wheelchairs - basic type for active users			829655	true
+		Manual wheelchairs - push type			829656	true
+		Orthoses (lower limb)			829657	true
+		Orthoses (spinal)			829658	true
+		Orthoses (upper limb)			829659	true
+		Pill organizers			829660	true
+		Personal emergency alarm systems			829661	true
+		Pressure relief cushions			829662	true
+		Pressure relief mattresses			829663	true
+		Prostheses (lower limb)			829664	true
+		Prostheses (upper limb)*			829665	true
+		Ramps, portable			829666	true
+		Recorders			829667	true
+		Rollators			829668	true
+		Screen readers			829669	true
+		Simplified mobile phones			829670	true
+		Smart phones/tablets/PDA (for cognition)			829671	true
+		Smart phones/tablets/PDA (for communication)			829672	true
+		Smart phones/tablets/PDA (for hearing)			829673	true
+		Smart phones/tablets/PDA (for seeing/vision)			829674	true
+		Spectacles; low-vision, short/long distance/filters etc			829675	true
+		Standing frames, adjustable			829676	true
+		Therapeutic footwear (diabetic, neuropathic, orthopedic)			829677	true
+		Time management products			829678	true
+		Travel aids, portable			829679	true
+		Video communication devices			829680	true
+		Watches, talking/touching			829681	true
+		Wheelchairs, manual with postural support			829682	true
+		Wheelchairs, electrically powered			829683	true
+		White canes			829684	true
+		tricycles			829685	true
+		walking frames/walkers			829686	true
+
+columns
+	variableId
+	829600
+	829601
+	829602
+	829603
+	829604
+	829605
+	829606
+	829607
+	829608
+	829609
+	829610
+	829611
+	829612
+	829613
+	829614
+	829615
+	829616
+	829617
+	829618
+	829619
+	829620
+	829621
+	829622
+	829623
+	829624
+	829625
+	829626
+	829627
+	829628
+	829629
+	829630
+	829631
+	829632
+	829633
+	829634
+	829635
+	829636
+	829637
+	829638
+	829639
+	829640
+	829641
+	829642
+	829643
+	829644
+	829645
+	829646
+	829647
+	829648
+	829649
+	829650
+	829651
+	829652
+	829653
+	829654
+	829655
+	829656
+	829657
+	829658
+	829659
+	829660
+	829661
+	829662
+	829663
+	829664
+	829665
+	829666
+	829667
+	829668
+	829669
+	829670
+	829671
+	829672
+	829673
+	829674
+	829675
+	829676
+	829677
+	829678
+	829679
+	829680
+	829681
+	829682
+	829683
+	829684
+	829685
+	829686

@@ -1,0 +1,36 @@
+explorerTitle	Life expectancy difference (f-m) - Type: 
+selection	World
+
+graphers
+	type Checkbox	age Dropdown	yVariableIds	hasMapTab
+	cohort	0	814895	true
+	cohort	10	814901	true
+	cohort	15	814906	true
+	cohort	25	814911	true
+	cohort	45	814916	true
+	cohort	65	814921	true
+	cohort	80	814926	true
+	period	0	814973	true
+	period	10	814978	true
+	period	15	814983	true
+	period	25	814988	true
+	period	45	814993	true
+	period	65	814998	true
+	period	80	815003	true
+
+columns
+	variableId
+	814895
+	814901
+	814906
+	814911
+	814916
+	814921
+	814926
+	814973
+	814978
+	814983
+	814988
+	814993
+	814998
+	815003

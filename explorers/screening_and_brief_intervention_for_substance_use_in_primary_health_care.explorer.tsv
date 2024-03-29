@@ -1,0 +1,12 @@
+explorerTitle	Screening and brief intervention for substance use in primary health care - Rsud substance type disorders: 
+selection	World
+
+graphers
+	rsud_substance_type_disorders Checkbox	yVariableIds	hasMapTab
+	Alcohol use and alcohol use disorders	830225	true
+	Drug use and drug use disorders	830226	true
+
+columns
+	variableId
+	830225
+	830226

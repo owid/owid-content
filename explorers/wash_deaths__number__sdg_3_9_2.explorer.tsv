@@ -1,0 +1,14 @@
+explorerTitle	WASH deaths (number) (SDG 3.9.2) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	830861	true
+	female	830862	true
+	male	830863	true
+
+columns
+	variableId
+	830861
+	830862
+	830863

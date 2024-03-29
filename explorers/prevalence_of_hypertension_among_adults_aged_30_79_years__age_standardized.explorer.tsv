@@ -1,0 +1,14 @@
+explorerTitle	Prevalence of hypertension among adults aged 30-79 years, age-standardized - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	829585	true
+	female	829586	true
+	male	829587	true
+
+columns
+	variableId
+	829585
+	829586
+	829587

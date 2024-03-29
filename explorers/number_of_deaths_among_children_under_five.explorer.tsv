@@ -1,0 +1,14 @@
+explorerTitle	Number of deaths among children under-five - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	828805	true
+	female	828806	true
+	male	828807	true
+
+columns
+	variableId
+	828805
+	828806
+	828807

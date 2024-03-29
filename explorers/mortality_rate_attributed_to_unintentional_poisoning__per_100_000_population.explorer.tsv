@@ -1,0 +1,14 @@
+explorerTitle	Mortality rate attributed to unintentional poisoning (per 100 000 population) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	828483	true
+	female	828484	true
+	male	828485	true
+
+columns
+	variableId
+	828483
+	828484
+	828485

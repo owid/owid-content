@@ -1,0 +1,24 @@
+explorerTitle	Penalties for drink driving - Penalty type: 
+selection	World
+
+graphers
+	penalty_type Dropdown	yVariableIds	hasMapTab
+	Community service	829124	true
+	Detention short- or long-term	829125	true
+	Fines	829126	true
+	Ignition interlocks (alcolocks)	829127	true
+	License suspended/ revoked	829128	true
+	Mandatory treatment	829129	true
+	Penalty points	829130	true
+	Vehicle impounded	829131	true
+
+columns
+	variableId
+	829124
+	829125
+	829126
+	829127
+	829128
+	829129
+	829130
+	829131

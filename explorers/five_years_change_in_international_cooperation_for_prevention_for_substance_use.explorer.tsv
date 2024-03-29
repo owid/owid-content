@@ -1,0 +1,12 @@
+explorerTitle	Five years change in international cooperation for prevention for substance use - Rsud substance types: 
+selection	World
+
+graphers
+	rsud_substance_types Checkbox	yVariableIds	hasMapTab
+	Alcohol	825988	true
+	Drugs	825989	true
+
+columns
+	variableId
+	825988
+	825989

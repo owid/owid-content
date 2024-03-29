@@ -1,0 +1,24 @@
+explorerTitle	Prevention programmes for alcohol - Prevention programmes: 
+selection	World
+
+graphers
+	prevention_programmes Dropdown	yVariableIds	hasMapTab
+	Advertisements in public places (posters etc.)	829846	true
+	Mass media (audiovisual)	829847	true
+	Community based programmes	829848	true
+	Mass media (print)	829849	true
+	Parent programmes	829850	true
+	School (manual) based programmes	829851	true
+	Serving staff training programmes	829852	true
+	Work place programmes	829853	true
+
+columns
+	variableId
+	829846
+	829847
+	829848
+	829849
+	829850
+	829851
+	829852
+	829853

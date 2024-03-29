@@ -1,0 +1,14 @@
+explorerTitle	Main substance at treatment entry - Rsud main substance at treatment: 
+selection	World
+
+graphers
+	rsud_main_substance_at_treatment Dropdown	yVariableIds	hasMapTab
+	First main	828196	true
+	Second main	828197	true
+	Third main	828198	true
+
+columns
+	variableId
+	828196
+	828197
+	828198

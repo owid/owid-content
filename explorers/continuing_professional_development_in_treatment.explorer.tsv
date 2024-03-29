@@ -1,0 +1,24 @@
+explorerTitle	Continuing professional development in treatment - Human resources  health workforce: 
+selection	World
+
+graphers
+	human_resources__health_workforce Dropdown	yVariableIds	hasMapTab
+	Addiction counsellors	824892	true
+	Addiction medicine specialists/narcologists	824893	true
+	Community health workers	824894	true
+	Medical doctors	824895	true
+	Nurses	824896	true
+	Psychiatrists	824897	true
+	Psychologists	824898	true
+	Social workers	824899	true
+
+columns
+	variableId
+	824892
+	824893
+	824894
+	824895
+	824896
+	824897
+	824898
+	824899

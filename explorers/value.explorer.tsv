@@ -1,0 +1,14 @@
+explorerTitle	Plastic leakage to the envrionment - projections - Plastic_type: 
+selection	World
+
+graphers
+	plastic_type Dropdown	yVariableIds	hasMapTab
+	Macroplastics	814646	true
+	Microplastics	814647	true
+	Total	814648	true
+
+columns
+	variableId
+	814646
+	814647
+	814648

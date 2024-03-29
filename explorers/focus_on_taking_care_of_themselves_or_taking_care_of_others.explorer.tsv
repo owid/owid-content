@@ -1,0 +1,320 @@
+explorerTitle	Focus on Taking Care of Themselves or Taking Care of Others - Dimension: (
+selection	World
+
+graphers
+	dimension Dropdown	answer Dropdown	yVariableIds	hasMapTab
+	(Age?) 15-24	(Both)	687101	true
+	(Age?) 15-24	(DK)	687106	true
+	(Age?) 15-24	(Neither)	687117	true
+	(Age?) 15-24	(Refused)	687124	true
+	(Age?) 15-24	Taking care of others	687141	true
+	(Age?) 15-24	Taking care of themselves	687142	true
+	(Age?) 25-34	(Both)	687152	true
+	(Age?) 25-34	(DK)	687158	true
+	(Age?) 25-34	(Neither)	687166	true
+	(Age?) 25-34	(Refused)	687173	true
+	(Age?) 25-34	Taking care of others	687192	true
+	(Age?) 25-34	Taking care of themselves	687193	true
+	(Age?) 35-44	(Both)	687203	true
+	(Age?) 35-44	(DK)	687209	true
+	(Age?) 35-44	(Neither)	687217	true
+	(Age?) 35-44	(Refused)	687223	true
+	(Age?) 35-44	Taking care of themselves	687243	true
+	(Age?) 35-44	Taking care of others	687244	true
+	(Age?) 45-64	(Both)	687254	true
+	(Age?) 45-64	(DK)	687260	true
+	(Age?) 45-64	(Neither)	687268	true
+	(Age?) 45-64	(Refused)	687275	true
+	(Age?) 45-64	Taking care of others	687293	true
+	(Age?) 45-64	Taking care of themselves	687295	true
+	(Age?) 65+	(Both)	687305	true
+	(Age?) 65+	(DK)	687312	true
+	(Age?) 65+	(Neither)	687320	true
+	(Age?) 65+	(Refused)	687326	true
+	(Age?) 65+	Taking care of others	687344	true
+	(Age?) 65+	Taking care of themselves	687346	true
+	(Employment Status?) Employed full time for an employer	(Both)	687356	true
+	(Employment Status?) Employed full time for an employer	(DK)	687360	true
+	(Employment Status?) Employed full time for an employer	(Neither)	687370	true
+	(Employment Status?) Employed full time for an employer	(Refused)	687376	true
+	(Employment Status?) Employed full time for an employer	Taking care of others	687396	true
+	(Employment Status?) Employed full time for an employer	Taking care of themselves	687397	true
+	(Employment Status?) Employed full time for self	(Both)	687407	true
+	(Employment Status?) Employed full time for self	(DK)	687413	true
+	(Employment Status?) Employed full time for self	(Neither)	687421	true
+	(Employment Status?) Employed full time for self	(Refused)	687428	true
+	(Employment Status?) Employed full time for self	Taking care of others	687446	true
+	(Employment Status?) Employed full time for self	Taking care of themselves	687448	true
+	(Employment Status?) Employed part time do not want full time	(Both)	687458	true
+	(Employment Status?) Employed part time do not want full time	(DK)	687464	true
+	(Employment Status?) Employed part time do not want full time	(Neither)	687472	true
+	(Employment Status?) Employed part time do not want full time	(Refused)	687479	true
+	(Employment Status?) Employed part time do not want full time	Taking care of others	687498	true
+	(Employment Status?) Employed part time do not want full time	Taking care of themselves	687499	true
+	(Employment Status?) Employed part time want full time	(Both)	687509	true
+	(Employment Status?) Employed part time want full time	(DK)	687515	true
+	(Employment Status?) Employed part time want full time	(Neither)	687525	true
+	(Employment Status?) Employed part time want full time	(Refused)	687530	true
+	(Employment Status?) Employed part time want full time	Taking care of themselves	687549	true
+	(Employment Status?) Employed part time want full time	Taking care of others	687551	true
+	(Employment Status?) Out of workforce	(Both)	687560	true
+	(Employment Status?) Out of workforce	(DK)	687566	true
+	(Employment Status?) Out of workforce	(Neither)	687574	true
+	(Employment Status?) Out of workforce	(Refused)	687581	true
+	(Employment Status?) Out of workforce	Taking care of others	687599	true
+	(Employment Status?) Out of workforce	Taking care of themselves	687602	true
+	(Employment Status?) Unemployed	(Both)	687611	true
+	(Employment Status?) Unemployed	(DK)	687617	true
+	(Employment Status?) Unemployed	(Neither)	687625	true
+	(Employment Status?) Unemployed	(Refused)	687632	true
+	(Employment Status?) Unemployed	Taking care of others	687651	true
+	(Employment Status?) Unemployed	Taking care of themselves	687652	true
+	(Feelings About Household Income?) Finding it difficult on present income	(Both)	687662	true
+	(Feelings About Household Income?) Finding it difficult on present income	(DK)	687667	true
+	(Feelings About Household Income?) Finding it difficult on present income	(Neither)	687676	true
+	(Feelings About Household Income?) Finding it difficult on present income	(Refused)	687683	true
+	(Feelings About Household Income?) Finding it difficult on present income	Taking care of others	687702	true
+	(Feelings About Household Income?) Finding it difficult on present income	Taking care of themselves	687704	true
+	(Feelings About Household Income?) Finding it very difficult on present income	(Both)	687713	true
+	(Feelings About Household Income?) Finding it very difficult on present income	(DK)	687719	true
+	(Feelings About Household Income?) Finding it very difficult on present income	(Neither)	687727	true
+	(Feelings About Household Income?) Finding it very difficult on present income	(Refused)	687734	true
+	(Feelings About Household Income?) Finding it very difficult on present income	Taking care of others	687753	true
+	(Feelings About Household Income?) Finding it very difficult on present income	Taking care of themselves	687754	true
+	(Feelings About Household Income?) Getting by on present income	(Both)	687765	true
+	(Feelings About Household Income?) Getting by on present income	(DK)	687770	true
+	(Feelings About Household Income?) Getting by on present income	(Neither)	687779	true
+	(Feelings About Household Income?) Getting by on present income	(Refused)	687785	true
+	(Feelings About Household Income?) Getting by on present income	Taking care of themselves	687805	true
+	(Feelings About Household Income?) Getting by on present income	Taking care of others	687806	true
+	(Feelings About Household Income?) Living comfortably on present income	(Both)	687815	true
+	(Feelings About Household Income?) Living comfortably on present income	(DK)	687822	true
+	(Feelings About Household Income?) Living comfortably on present income	(Neither)	687829	true
+	(Feelings About Household Income?) Living comfortably on present income	(Refused)	687836	true
+	(Feelings About Household Income?) Living comfortably on present income	Taking care of others	687855	true
+	(Feelings About Household Income?) Living comfortably on present income	Taking care of themselves	687856	true
+	(Gender?) Female	(Both)	687865	true
+	(Gender?) Female	(DK)	687872	true
+	(Gender?) Female	(Neither)	687880	true
+	(Gender?) Female	(Refused)	687888	true
+	(Gender?) Female	Taking care of others	687906	true
+	(Gender?) Female	Taking care of themselves	687907	true
+	(Gender?) Male	(Both)	687917	true
+	(Gender?) Male	(DK)	687923	true
+	(Gender?) Male	(Neither)	687931	true
+	(Gender?) Male	(Refused)	687938	true
+	(Gender?) Male	Taking care of others	687957	true
+	(Gender?) Male	Taking care of themselves	687958	true
+	(Per Capita Income Quintiles?) Fourth 20%	(Both)	687968	true
+	(Per Capita Income Quintiles?) Fourth 20%	(DK)	687974	true
+	(Per Capita Income Quintiles?) Fourth 20%	(Neither)	687982	true
+	(Per Capita Income Quintiles?) Fourth 20%	(Refused)	687989	true
+	(Per Capita Income Quintiles?) Fourth 20%	Taking care of themselves	688008	true
+	(Per Capita Income Quintiles?) Fourth 20%	Taking care of others	688009	true
+	(Per Capita Income Quintiles?) Middle 20%	(Both)	688019	true
+	(Per Capita Income Quintiles?) Middle 20%	(DK)	688024	true
+	(Per Capita Income Quintiles?) Middle 20%	(Neither)	688033	true
+	(Per Capita Income Quintiles?) Middle 20%	(Refused)	688040	true
+	(Per Capita Income Quintiles?) Middle 20%	Taking care of others	688059	true
+	(Per Capita Income Quintiles?) Middle 20%	Taking care of themselves	688061	true
+	(Per Capita Income Quintiles?) Poorest 20%	(Both)	688070	true
+	(Per Capita Income Quintiles?) Poorest 20%	(DK)	688075	true
+	(Per Capita Income Quintiles?) Poorest 20%	(Neither)	688084	true
+	(Per Capita Income Quintiles?) Poorest 20%	(Refused)	688090	true
+	(Per Capita Income Quintiles?) Poorest 20%	Taking care of themselves	688110	true
+	(Per Capita Income Quintiles?) Poorest 20%	Taking care of others	688111	true
+	(Per Capita Income Quintiles?) Richest 20%	(Both)	688121	true
+	(Per Capita Income Quintiles?) Richest 20%	(DK)	688129	true
+	(Per Capita Income Quintiles?) Richest 20%	(Neither)	688135	true
+	(Per Capita Income Quintiles?) Richest 20%	(Refused)	688142	true
+	(Per Capita Income Quintiles?) Richest 20%	Taking care of themselves	688160	true
+	(Per Capita Income Quintiles?) Richest 20%	Taking care of others	688164	true
+	(Per Capita Income Quintiles?) Second 20%	(Both)	688172	true
+	(Per Capita Income Quintiles?) Second 20%	(DK)	688179	true
+	(Per Capita Income Quintiles?) Second 20%	(Neither)	688186	true
+	(Per Capita Income Quintiles?) Second 20%	(Refused)	688194	true
+	(Per Capita Income Quintiles?) Second 20%	Taking care of others	688210	true
+	(Per Capita Income Quintiles?) Second 20%	Taking care of themselves	688213	true
+	(Urban/Rural?) A large city	(Both)	688223	true
+	(Urban/Rural?) A large city	(DK)	688228	true
+	(Urban/Rural?) A large city	(Neither)	688237	true
+	(Urban/Rural?) A large city	(Refused)	688243	true
+	(Urban/Rural?) A large city	Taking care of others	688263	true
+	(Urban/Rural?) A large city	Taking care of themselves	688264	true
+	(Urban/Rural?) A rural area or on a farm	(Both)	688272	true
+	(Urban/Rural?) A rural area or on a farm	(DK)	688280	true
+	(Urban/Rural?) A rural area or on a farm	(Neither)	688287	true
+	(Urban/Rural?) A rural area or on a farm	(Refused)	688295	true
+	(Urban/Rural?) A rural area or on a farm	Taking care of others	688314	true
+	(Urban/Rural?) A rural area or on a farm	Taking care of themselves	688315	true
+	(Urban/Rural?) A small town or village	(Both)	688327	true
+	(Urban/Rural?) A small town or village	(DK)	688331	true
+	(Urban/Rural?) A small town or village	(Neither)	688338	true
+	(Urban/Rural?) A small town or village	(Refused)	688346	true
+	(Urban/Rural?) A small town or village	Taking care of others	688365	true
+	(Urban/Rural?) A small town or village	Taking care of themselves	688366	true
+	(Urban/Rural?) A suburb of a large city	(Both)	688376	true
+	(Urban/Rural?) A suburb of a large city	(DK)	688381	true
+	(Urban/Rural?) A suburb of a large city	(Neither)	688390	true
+	(Urban/Rural?) A suburb of a large city	(Refused)	688397	true
+	(Urban/Rural?) A suburb of a large city	Taking care of others	688416	true
+	(Urban/Rural?) A suburb of a large city	Taking care of themselves	688417	true
+
+columns
+	variableId
+	687101
+	687106
+	687117
+	687124
+	687141
+	687142
+	687152
+	687158
+	687166
+	687173
+	687192
+	687193
+	687203
+	687209
+	687217
+	687223
+	687243
+	687244
+	687254
+	687260
+	687268
+	687275
+	687293
+	687295
+	687305
+	687312
+	687320
+	687326
+	687344
+	687346
+	687356
+	687360
+	687370
+	687376
+	687396
+	687397
+	687407
+	687413
+	687421
+	687428
+	687446
+	687448
+	687458
+	687464
+	687472
+	687479
+	687498
+	687499
+	687509
+	687515
+	687525
+	687530
+	687549
+	687551
+	687560
+	687566
+	687574
+	687581
+	687599
+	687602
+	687611
+	687617
+	687625
+	687632
+	687651
+	687652
+	687662
+	687667
+	687676
+	687683
+	687702
+	687704
+	687713
+	687719
+	687727
+	687734
+	687753
+	687754
+	687765
+	687770
+	687779
+	687785
+	687805
+	687806
+	687815
+	687822
+	687829
+	687836
+	687855
+	687856
+	687865
+	687872
+	687880
+	687888
+	687906
+	687907
+	687917
+	687923
+	687931
+	687938
+	687957
+	687958
+	687968
+	687974
+	687982
+	687989
+	688008
+	688009
+	688019
+	688024
+	688033
+	688040
+	688059
+	688061
+	688070
+	688075
+	688084
+	688090
+	688110
+	688111
+	688121
+	688129
+	688135
+	688142
+	688160
+	688164
+	688172
+	688179
+	688186
+	688194
+	688210
+	688213
+	688223
+	688228
+	688237
+	688243
+	688263
+	688264
+	688272
+	688280
+	688287
+	688295
+	688314
+	688315
+	688327
+	688331
+	688338
+	688346
+	688365
+	688366
+	688376
+	688381
+	688390
+	688397
+	688416
+	688417

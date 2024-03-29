@@ -1,0 +1,40 @@
+explorerTitle	Care-seeking for children with symptoms of acute respiratory infection (%) - 
+selection	World
+
+graphers
+	sex Dropdown	mothers_education_level Dropdown	residence_area_type Dropdown	wealth_quintile Dropdown	yVariableIds	hasMapTab
+	both sexes				824594	true
+	female				824595	true
+	male				824596	true
+		None			824597	true
+		Secondary or higher			824598	true
+		Primary			824599	true
+		TotalTotalTotal			824600	true
+			Rural		824601	true
+			TotalTotalTotal		824602	true
+			Urban		824603	true
+				Q1 (Poorest)	824604	true
+				Q2	824605	true
+				Q3	824606	true
+				Q4	824607	true
+				Q5 (Richest)	824608	true
+				TotalTotalTotal	824609	true
+
+columns
+	variableId
+	824594
+	824595
+	824596
+	824597
+	824598
+	824599
+	824600
+	824601
+	824602
+	824603
+	824604
+	824605
+	824606
+	824607
+	824608
+	824609

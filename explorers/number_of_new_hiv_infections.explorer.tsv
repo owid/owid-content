@@ -1,0 +1,14 @@
+explorerTitle	Number of new HIV infections - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	828896	true
+	female	828897	true
+	male	828898	true
+
+columns
+	variableId
+	828896
+	828897
+	828898

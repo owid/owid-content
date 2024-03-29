@@ -1,0 +1,32 @@
+explorerTitle	Child dependency ratio - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	variant Dropdown	yVariableIds	hasMapTab
+	female	estimates	520699	true
+	female	medium	520700	true
+	female	high	520701	true
+	female	low	520702	true
+	male	estimates	520703	true
+	male	medium	520704	true
+	male	high	520705	true
+	male	low	520706	true
+	all	estimates	520707	true
+	all	medium	520708	true
+	all	high	520709	true
+	all	low	520710	true
+
+columns
+	variableId
+	520699
+	520700
+	520701
+	520702
+	520703
+	520704
+	520705
+	520706
+	520707
+	520708
+	520709
+	520710

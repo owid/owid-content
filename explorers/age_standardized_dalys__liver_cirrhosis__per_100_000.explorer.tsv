@@ -1,0 +1,14 @@
+explorerTitle	Age-standardized DALYs, liver cirrhosis, per 100,000 - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	821766	true
+	female	821767	true
+	male	821768	true
+
+columns
+	variableId
+	821766
+	821767
+	821768

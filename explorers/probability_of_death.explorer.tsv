@@ -1,0 +1,92 @@
+explorerTitle	Probability of death - Type: 
+selection	World
+
+graphers
+	type Checkbox	sex Dropdown	age Dropdown	yVariableIds	hasMapTab
+	cohort	both	0	814898	true
+	cohort	both	10	814903	true
+	cohort	both	15	814908	true
+	cohort	both	25	814913	true
+	cohort	both	45	814918	true
+	cohort	both	65	814923	true
+	cohort	both	80	814928	true
+	cohort	female	0	814931	true
+	cohort	female	10	814934	true
+	cohort	female	15	814937	true
+	cohort	female	25	814940	true
+	cohort	female	45	814943	true
+	cohort	female	65	814946	true
+	cohort	female	80	814949	true
+	cohort	male	0	814952	true
+	cohort	male	10	814955	true
+	cohort	male	15	814958	true
+	cohort	male	25	814961	true
+	cohort	male	45	814964	true
+	cohort	male	65	814967	true
+	cohort	male	80	814970	true
+	period	both	0	814975	true
+	period	both	10	814980	true
+	period	both	15	814985	true
+	period	both	25	814990	true
+	period	both	45	814995	true
+	period	both	65	815000	true
+	period	both	80	815005	true
+	period	female	0	815008	true
+	period	female	10	815011	true
+	period	female	15	815014	true
+	period	female	25	815017	true
+	period	female	45	815020	true
+	period	female	65	815023	true
+	period	female	80	815026	true
+	period	male	0	815029	true
+	period	male	10	815032	true
+	period	male	15	815035	true
+	period	male	25	815038	true
+	period	male	45	815041	true
+	period	male	65	815044	true
+	period	male	80	815047	true
+
+columns
+	variableId
+	814898
+	814903
+	814908
+	814913
+	814918
+	814923
+	814928
+	814931
+	814934
+	814937
+	814940
+	814943
+	814946
+	814949
+	814952
+	814955
+	814958
+	814961
+	814964
+	814967
+	814970
+	814975
+	814980
+	814985
+	814990
+	814995
+	815000
+	815005
+	815008
+	815011
+	815014
+	815017
+	815020
+	815023
+	815026
+	815029
+	815032
+	815035
+	815038
+	815041
+	815044
+	815047

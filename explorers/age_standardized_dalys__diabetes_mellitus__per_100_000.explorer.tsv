@@ -1,0 +1,14 @@
+explorerTitle	Age-standardized DALYs, diabetes mellitus, per 100,000 - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	821748	true
+	female	821749	true
+	male	821750	true
+
+columns
+	variableId
+	821748
+	821749
+	821750

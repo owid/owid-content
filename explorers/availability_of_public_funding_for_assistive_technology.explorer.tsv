@@ -1,0 +1,24 @@
+explorerTitle	Availability of public funding for assistive technology - Assistive technology subquestion: 
+selection	World
+
+graphers
+	assistive_technology_subquestion Dropdown	yVariableIds	hasMapTab
+	In a separate budget for assistive technology	824278	true
+	In other budgets	824279	true
+	In the budget for defense (or similar)	824280	true
+	In the budget for education (or similar)	824281	true
+	In the budget for health services (or similar)	824282	true
+	In the budget for labour (or similar)	824283	true
+	In the budget for social services (or similar)	824284	true
+	Summary	824285	true
+
+columns
+	variableId
+	824278
+	824279
+	824280
+	824281
+	824282
+	824283
+	824284
+	824285

@@ -1,0 +1,14 @@
+explorerTitle	Special housing services for alcohol use disorders - Treatment location: In 
+selection	World
+
+graphers
+	treatment_location Dropdown	yVariableIds	hasMapTab
+	In other areas	830349	true
+	In other major cities	830350	true
+	In the capital city	830351	true
+
+columns
+	variableId
+	830349
+	830350
+	830351

@@ -1,0 +1,14 @@
+explorerTitle	Age-standardized death rates (15+ years), violence, per 100,000 - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	821807	true
+	female	821808	true
+	male	821809	true
+
+columns
+	variableId
+	821807
+	821808
+	821809

@@ -1,0 +1,30 @@
+explorerTitle	Sectors represented in national alcohol policy - Substance abuse policy sectors: 
+selection	World
+
+graphers
+	substance_abuse_policy_sectors Dropdown	yVariableIds	hasMapTab
+	Education	830253	true
+	Criminal justice	830254	true
+	Agriculture	830255	true
+	Employment	830256	true
+	Finance/taxation	830257	true
+	Health	830258	true
+	Law enforcement	830259	true
+	Other	830260	true
+	Road safety	830261	true
+	Social affairs	830262	true
+	Trade/industry	830263	true
+
+columns
+	variableId
+	830253
+	830254
+	830255
+	830256
+	830257
+	830258
+	830259
+	830260
+	830261
+	830262
+	830263

@@ -1,0 +1,60 @@
+explorerTitle	Introduction of solid, semi-solid or soft foods 6-8 months - 
+selection	World
+
+graphers
+	sex Dropdown	mothers_education_level Dropdown	residence_area_type Dropdown	wealth_quintile Dropdown	household_wealth Dropdown	yVariableIds	hasMapTab
+	both sexes					827952	true
+	female					827953	true
+	male					827954	true
+		Higher education				827955	true
+		None				827956	true
+		None and primary education				827957	true
+		Primary				827958	true
+		Secondary education				827959	true
+		Secondary or higher				827960	true
+		TotalTotalTotalTotal				827961	true
+			TotalTotalTotalTotal			827962	true
+			Rural			827963	true
+			Urban			827964	true
+				Q1 (Poorest)		827965	true
+				Q2		827966	true
+				Q3		827967	true
+				Q4		827968	true
+				Q5 (Richest)		827969	true
+				TotalTotalTotalTotal		827970	true
+					TotalTotalTotalTotal	827971	true
+					Wealth - Bottom 40%	827972	true
+					Wealth - Bottom 60%	827973	true
+					Wealth - Bottom 80%	827974	true
+					Wealth - Top 60%	827975	true
+					Wealth - Top 40%	827976	true
+					Wealth - Top 80%	827977	true
+
+columns
+	variableId
+	827952
+	827953
+	827954
+	827955
+	827956
+	827957
+	827958
+	827959
+	827960
+	827961
+	827962
+	827963
+	827964
+	827965
+	827966
+	827967
+	827968
+	827969
+	827970
+	827971
+	827972
+	827973
+	827974
+	827975
+	827976
+	827977

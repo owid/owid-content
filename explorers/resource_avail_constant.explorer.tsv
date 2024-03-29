@@ -1,0 +1,18 @@
+explorerTitle	Estimated HIV resource availability for low- and middle-income countries in constant 2019 USD - Disaggregation: 
+selection	World
+
+graphers
+	disaggregation Dropdown	yVariableIds	hasMapTab
+	Domestic (Public and Private)	810769	true
+	Global Fund	810770	true
+	Other international	810771	true
+	Total	810772	true
+	United States (bilateral)	810774	true
+
+columns
+	variableId
+	810769
+	810770
+	810771
+	810772
+	810774

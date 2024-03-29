@@ -1,0 +1,12 @@
+explorerTitle	Length of stay for inpatient short-term treatment, days - Rsud substance type disorders: 
+selection	World
+
+graphers
+	rsud_substance_type_disorders Checkbox	yVariableIds	hasMapTab
+	Alcohol use disorders	828077	true
+	Drug use disorders	828078	true
+
+columns
+	variableId
+	828077
+	828078

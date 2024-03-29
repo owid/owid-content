@@ -1,0 +1,14 @@
+explorerTitle	Age-standardized DALYs, cerebrovascular disease, per 100,000 - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	821742	true
+	female	821743	true
+	male	821744	true
+
+columns
+	variableId
+	821742
+	821743
+	821744

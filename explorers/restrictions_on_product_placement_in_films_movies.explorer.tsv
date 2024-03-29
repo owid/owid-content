@@ -1,0 +1,14 @@
+explorerTitle	Restrictions on product placement in films/movies - Substance abuse advertising types: 
+selection	World
+
+graphers
+	substance_abuse_advertising_types Dropdown	yVariableIds	hasMapTab
+	Beer Ads	830141	true
+	Spirits Ads	830142	true
+	Wine Ads	830143	true
+
+columns
+	variableId
+	830141
+	830142
+	830143

@@ -1,0 +1,112 @@
+explorerTitle	Care-seeking by type of patient and source of care (%) - 
+selection	World
+
+graphers
+	wealth_quintile Dropdown	patient_type Dropdown	care_sector Dropdown	yVariableIds	hasMapTab
+	Q1 (Poorest)	Inpatient	None	824542	true
+	Q1 (Poorest)	Inpatient	Private	824543	true
+	Q1 (Poorest)	Outpatient	None	824544	true
+	Q1 (Poorest)	Outpatient	Private	824545	true
+	Q1 (Poorest)	Inpatient	Public	824546	true
+	Q1 (Poorest)	Outpatient	Public	824547	true
+	Q1 (Poorest)	Total	Public	824548	true
+	Q2	Inpatient	None	824549	true
+	Q1 (Poorest)	Total	Private	824550	true
+	Q2	Outpatient	None	824551	true
+	Q2	Inpatient	Public	824552	true
+	Q2	Inpatient	Private	824553	true
+	Q2	Outpatient	Private	824554	true
+	Q2	Outpatient	Public	824555	true
+	Q2	Total	Private	824556	true
+	Q2	Total	Public	824557	true
+	Q3	Inpatient	None	824558	true
+	Q3	Inpatient	Private	824559	true
+	Q3	Inpatient	Public	824560	true
+	Q3	Outpatient	None	824561	true
+	Q3	Outpatient	Private	824562	true
+	Q3	Outpatient	Public	824563	true
+	Q3	Total	Private	824564	true
+	Q3	Total	Public	824565	true
+	Q4	Inpatient	None	824566	true
+	Q4	Inpatient	Private	824567	true
+	Q4	Inpatient	Public	824568	true
+	Q4	Outpatient	None	824569	true
+	Q4	Outpatient	Private	824570	true
+	Q4	Outpatient	Public	824571	true
+	Q4	Total	Private	824572	true
+	Q4	Total	Public	824573	true
+	Q5 (Richest)	Inpatient	None	824574	true
+	Q5 (Richest)	Inpatient	Private	824575	true
+	Q5 (Richest)	Inpatient	Public	824576	true
+	Q5 (Richest)	Outpatient	None	824577	true
+	Q5 (Richest)	Outpatient	Private	824578	true
+	Q5 (Richest)	Outpatient	Public	824579	true
+	Q5 (Richest)	Total	Private	824580	true
+	Q5 (Richest)	Total	Public	824581	true
+		Inpatient	Informal	824582	true
+		Inpatient	NGO	824583	true
+		Inpatient	Private	824584	true
+		Inpatient	Public	824585	true
+		Outpatient	Informal	824586	true
+		Outpatient	NGO	824587	true
+		Outpatient	Public	824588	true
+		Outpatient	Private	824589	true
+		Total	Informal	824590	true
+		Total	Private	824591	true
+		Total	NGO	824592	true
+		Total	Public	824593	true
+
+columns
+	variableId
+	824542
+	824543
+	824544
+	824545
+	824546
+	824547
+	824548
+	824549
+	824550
+	824551
+	824552
+	824553
+	824554
+	824555
+	824556
+	824557
+	824558
+	824559
+	824560
+	824561
+	824562
+	824563
+	824564
+	824565
+	824566
+	824567
+	824568
+	824569
+	824570
+	824571
+	824572
+	824573
+	824574
+	824575
+	824576
+	824577
+	824578
+	824579
+	824580
+	824581
+	824582
+	824583
+	824584
+	824585
+	824586
+	824587
+	824588
+	824589
+	824590
+	824591
+	824592
+	824593

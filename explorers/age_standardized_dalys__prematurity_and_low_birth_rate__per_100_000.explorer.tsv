@@ -1,0 +1,14 @@
+explorerTitle	Age-standardized DALYs, prematurity and low birth rate, per 100,000 - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	821785	true
+	female	821786	true
+	male	821787	true
+
+columns
+	variableId
+	821785
+	821786
+	821787

@@ -1,0 +1,12 @@
+explorerTitle	Prevalence of gonorrhoea in individuals (%) - Sex: 
+selection	World
+
+graphers
+	sex Checkbox	yVariableIds	hasMapTab
+	male	829582	true
+	female	829583	true
+
+columns
+	variableId
+	829582
+	829583

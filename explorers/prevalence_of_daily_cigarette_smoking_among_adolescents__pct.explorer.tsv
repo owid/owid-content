@@ -1,0 +1,14 @@
+explorerTitle	Prevalence of daily cigarette smoking among adolescents (%) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	829551	true
+	female	829552	true
+	male	829553	true
+
+columns
+	variableId
+	829551
+	829552
+	829553

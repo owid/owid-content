@@ -1,0 +1,14 @@
+explorerTitle	Prevalence of daily smokeless tobacco use among adolescents (%) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	829563	true
+	female	829564	true
+	male	829565	true
+
+columns
+	variableId
+	829563
+	829564
+	829565

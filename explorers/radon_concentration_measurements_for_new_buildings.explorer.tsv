@@ -1,0 +1,12 @@
+explorerTitle	Radon concentration measurements for new buildings - Radon subquestions: New 
+selection	World
+
+graphers
+	radon_subquestions Checkbox	yVariableIds	hasMapTab
+	New buildings with high public occupancy	830047	true
+	New dwellings	830048	true
+
+columns
+	variableId
+	830047
+	830048

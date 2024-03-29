@@ -1,0 +1,14 @@
+explorerTitle	Alcohol, total per capita (15+) consumption (in litres of pure alcohol) (SDG Indicator 3.5.2) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	821958	true
+	female	821959	true
+	male	821960	true
+
+columns
+	variableId
+	821958
+	821959
+	821960

@@ -1,0 +1,14 @@
+explorerTitle	Prevalence of current cigarette smoking among adults (%) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	829524	true
+	female	829525	true
+	male	829526	true
+
+columns
+	variableId
+	829524
+	829525
+	829526

@@ -1,0 +1,14 @@
+explorerTitle	Age-standardized DALYs, colon and rectum cancers, per 100,000 - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	821745	true
+	female	821746	true
+	male	821747	true
+
+columns
+	variableId
+	821745
+	821746
+	821747

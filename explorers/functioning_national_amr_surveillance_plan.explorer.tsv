@@ -1,0 +1,14 @@
+explorerTitle	Functioning national AMR surveillance plan - Amr glass category: 
+selection	World
+
+graphers
+	amr_glass_category Dropdown	yVariableIds	hasMapTab
+	Existing with budget	826028	true
+	Existing  with no defined budget	826029	true
+	Not existing	826030	true
+
+columns
+	variableId
+	826028
+	826029
+	826030

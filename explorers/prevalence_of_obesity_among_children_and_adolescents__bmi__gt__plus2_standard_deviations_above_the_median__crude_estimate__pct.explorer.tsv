@@ -1,0 +1,26 @@
+explorerTitle	Prevalence of obesity among children and adolescents, BMI > +2 standard deviations above the median (crude estimate) (%) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	age_group Dropdown	yVariableIds	hasMapTab
+	both sexes	10-19 years of age	829693	true
+	both sexes	5-19  years	829694	true
+	both sexes	5-9 years of age	829695	true
+	female	10-19 years of age	829696	true
+	female	5-19  years	829697	true
+	female	5-9 years of age	829698	true
+	male	10-19 years of age	829699	true
+	male	5-19  years	829700	true
+	male	5-9 years of age	829701	true
+
+columns
+	variableId
+	829693
+	829694
+	829695
+	829696
+	829697
+	829698
+	829699
+	829700
+	829701

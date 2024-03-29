@@ -1,0 +1,18 @@
+explorerTitle	Population density - Sex: all - Age: all - Variant: 
+selection	World
+
+graphers
+	variant Dropdown	yVariableIds	hasMapTab
+	estimates	520011	true
+	medium	520012	true
+	high	520013	true
+	low	520015	true
+	constant fertility	520016	true
+
+columns
+	variableId
+	520011
+	520012
+	520013
+	520015
+	520016

@@ -1,0 +1,20 @@
+explorerTitle	Death rate in ongoing conflicts (low estimate) - Conflict type: 
+selection	World
+
+graphers
+	conflict_type Dropdown	yVariableIds	hasMapTab
+	all	815527	true
+	extrasystemic	815530	true
+	interstate	815533	true
+	intrastate	815536	true
+	intrastate (internationalized)	815539	true
+	intrastate (non-internationalized)	815542	true
+
+columns
+	variableId
+	815527
+	815530
+	815533
+	815536
+	815539
+	815542

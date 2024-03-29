@@ -1,0 +1,18 @@
+explorerTitle	Prevalence of anaemia in children aged 6-59 months (%) - Se
+selection	World
+
+graphers
+	severity Dropdown	yVariableIds	hasMapTab
+		829487	true
+	Mild	829488	true
+	Moderate	829489	true
+	Severe	829490	true
+	Total	829491	true
+
+columns
+	variableId
+	829487
+	829488
+	829489
+	829490
+	829491

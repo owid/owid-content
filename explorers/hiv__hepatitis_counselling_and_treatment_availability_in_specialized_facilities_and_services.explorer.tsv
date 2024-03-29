@@ -1,0 +1,18 @@
+explorerTitle	HIV, Hepatitis counselling and treatment availability in specialized facilities and services - Hiv  hepatitis counselling and treatment: H
+selection	World
+
+graphers
+	hiv__hepatitis_counselling_and_treatment Dropdown	yVariableIds	hasMapTab
+	HEPATITIS treatment	826248	true
+	HIV (ARV) treatment	826249	true
+	HIV testing and counselling	826250	true
+	Hepatitis vaccination	826251	true
+	Hepatitis testing and counselling	826252	true
+
+columns
+	variableId
+	826248
+	826249
+	826250
+	826251
+	826252

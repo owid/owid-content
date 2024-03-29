@@ -1,0 +1,16 @@
+explorerTitle	Number of diarrhoea DALYs from inadequate sanitation - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	age_group Checkbox	yVariableIds	hasMapTab
+	both sexes	<5 years	828825	true
+	both sexes	Total (All ages)	828826	true
+	female	Total (All ages)	828827	true
+	male	Total (All ages)	828828	true
+
+columns
+	variableId
+	828825
+	828826
+	828827
+	828828

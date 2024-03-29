@@ -1,0 +1,24 @@
+explorerTitle	Proportion of girls and women aged 15-49 years who have undergone female genital mutilation/cutting (FMG/C) (%) - Sex: female - Age group: 15-49 years of age - 
+selection	World
+
+graphers
+	residence_area_type Dropdown	wealth_quintile Dropdown	yVariableIds	hasMapTab
+	Rural		829974	true
+	Total		829975	true
+	Urban		829976	true
+		Q1 (Poorest)	829977	true
+		Q2	829978	true
+		Q3	829979	true
+		Q4	829980	true
+		Q5 (Richest)	829981	true
+
+columns
+	variableId
+	829974
+	829975
+	829976
+	829977
+	829978
+	829979
+	829980
+	829981

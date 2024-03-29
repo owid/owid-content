@@ -1,0 +1,26 @@
+explorerTitle	Condom use at last high-risk sex - Disaggregation: 
+selection	World
+
+graphers
+	disaggregation Dropdown	yVariableIds	hasMapTab
+	All sexes Adults (15-49)	789790	true
+	Females 15-19	789808	true
+	Females 20-24	789812	true
+	Females 25-49	789816	true
+	Females Adults (15-49)	789841	true
+	Males 15-19	789889	true
+	Males 20-24	789893	true
+	Males 25-49	789897	true
+	Males Adults (15-49)	789922	true
+
+columns
+	variableId
+	789790
+	789808
+	789812
+	789816
+	789841
+	789889
+	789893
+	789897
+	789922

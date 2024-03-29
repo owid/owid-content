@@ -1,0 +1,12 @@
+explorerTitle	Safety requirements - Sunbed facility safety requirements: 
+selection	World
+
+graphers
+	sunbed_facility_safety_requirements Checkbox	yVariableIds	hasMapTab
+	Limit on UV exposure (output x time)	830206	true
+	Protective goggles required	830207	true
+
+columns
+	variableId
+	830206
+	830207

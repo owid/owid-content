@@ -1,0 +1,12 @@
+explorerTitle	Use of earmarked excise tax on beverages - Beverage type: 
+selection	World
+
+graphers
+	beverage_type Checkbox	yVariableIds	hasMapTab
+	Alcoholic	830833	true
+	Non-alcoholic	830834	true
+
+columns
+	variableId
+	830833
+	830834

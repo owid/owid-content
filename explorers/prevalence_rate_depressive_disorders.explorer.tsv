@@ -1,0 +1,98 @@
+explorerTitle	Depressive disorders (prevalence rate) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	age Dropdown	yVariableIds	hasMapTab
+	Both	15-19 years	688510	true
+	Both	20-24 years	688513	true
+	Both	25-29 years	688530	true
+	Both	30-34 years	688539	true
+	Both	35-39 years	688549	true
+	Both	40-44 years	688558	true
+	Both	45-49 years	688569	true
+	Both	5-14 years	688580	true
+	Both	50-54 years	688591	true
+	Both	55-59 years	688598	true
+	Both	60-64 years	688609	true
+	Both	65-69 years	688619	true
+	Both	70+ years	688627	true
+	Both	Age-standardized	688639	true
+	Both	All ages	688651	true
+	Female	15-19 years	688660	true
+	Female	20-24 years	688670	true
+	Female	25-29 years	688678	true
+	Female	30-34 years	688691	true
+	Female	35-39 years	688700	true
+	Female	40-44 years	688711	true
+	Female	45-49 years	688719	true
+	Female	5-14 years	688729	true
+	Female	50-54 years	688739	true
+	Female	55-59 years	688752	true
+	Female	60-64 years	688760	true
+	Female	65-69 years	688769	true
+	Female	70+ years	688780	true
+	Female	Age-standardized	688789	true
+	Female	All ages	688800	true
+	Male	15-19 years	688806	true
+	Male	20-24 years	688816	true
+	Male	25-29 years	688828	true
+	Male	30-34 years	688841	true
+	Male	35-39 years	688849	true
+	Male	40-44 years	688857	true
+	Male	45-49 years	688869	true
+	Male	5-14 years	688879	true
+	Male	50-54 years	688890	true
+	Male	55-59 years	688899	true
+	Male	60-64 years	688909	true
+	Male	65-69 years	688918	true
+	Male	70+ years	688931	true
+	Male	Age-standardized	688939	true
+	Male	All ages	688949	true
+
+columns
+	variableId
+	688510
+	688513
+	688530
+	688539
+	688549
+	688558
+	688569
+	688580
+	688591
+	688598
+	688609
+	688619
+	688627
+	688639
+	688651
+	688660
+	688670
+	688678
+	688691
+	688700
+	688711
+	688719
+	688729
+	688739
+	688752
+	688760
+	688769
+	688780
+	688789
+	688800
+	688806
+	688816
+	688828
+	688841
+	688849
+	688857
+	688869
+	688879
+	688890
+	688899
+	688909
+	688918
+	688931
+	688939
+	688949

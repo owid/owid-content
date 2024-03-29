@@ -1,0 +1,20 @@
+explorerTitle	Contribution to sex gap in life expectancy (years) - Age_group: 
+selection	World
+
+graphers
+	age_group Dropdown	yVariableIds	hasMapTab
+	0	816265	true
+	1-14	816267	true
+	15-39	816269	true
+	40-59	816271	true
+	60-79	816273	true
+	80+	816275	true
+
+columns
+	variableId
+	816265
+	816267
+	816269
+	816271
+	816273
+	816275

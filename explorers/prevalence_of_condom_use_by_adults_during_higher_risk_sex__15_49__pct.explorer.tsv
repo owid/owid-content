@@ -1,0 +1,12 @@
+explorerTitle	Prevalence of condom use by adults during higher-risk sex (15-49) (%) - Sex: 
+selection	World
+
+graphers
+	sex Checkbox	yVariableIds	hasMapTab
+	female	829513	true
+	male	829514	true
+
+columns
+	variableId
+	829513
+	829514

@@ -1,0 +1,12 @@
+explorerTitle	A50/A5 ratio (
+selection	World
+
+graphers
+	table Checkbox	yVariableIds	hasMapTab
+	Equivalized income	831558	true
+	Per capita income	831581	true
+
+columns
+	variableId
+	831558
+	831581

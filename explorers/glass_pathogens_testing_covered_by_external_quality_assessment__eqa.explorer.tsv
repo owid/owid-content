@@ -1,0 +1,16 @@
+explorerTitle	GLASS pathogens testing covered by External Quality Assessment (EQA) - Amr glass category: 
+selection	World
+
+graphers
+	amr_glass_category Dropdown	yVariableIds	hasMapTab
+	None	826099	true
+	Some GLASS pathogens	826100	true
+	All GLASS pathogens	826101	true
+	Unknown	826102	true
+
+columns
+	variableId
+	826099
+	826100
+	826101
+	826102

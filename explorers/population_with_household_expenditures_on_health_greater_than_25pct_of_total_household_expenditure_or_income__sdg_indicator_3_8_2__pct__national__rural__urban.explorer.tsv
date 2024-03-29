@@ -1,0 +1,14 @@
+explorerTitle	Population with household expenditures on health greater than 25% of total household expenditure or income (SDG indicator 3.8.2) (%, national, rural, urban) - Residence area type: 
+selection	World
+
+graphers
+	residence_area_type Dropdown	yVariableIds	hasMapTab
+	Rural	829342	true
+	Total	829343	true
+	Urban	829344	true
+
+columns
+	variableId
+	829342
+	829343
+	829344

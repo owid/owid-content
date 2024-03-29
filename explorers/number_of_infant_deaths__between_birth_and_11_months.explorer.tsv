@@ -1,0 +1,14 @@
+explorerTitle	Number of infant deaths (between birth and 11 months) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	828867	true
+	female	828868	true
+	male	828869	true
+
+columns
+	variableId
+	828867
+	828868
+	828869

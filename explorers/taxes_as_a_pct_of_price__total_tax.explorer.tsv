@@ -1,0 +1,22 @@
+explorerTitle	Taxes as a % of price: total tax - Tobacco and nicotine product: 
+selection	World
+
+graphers
+	tobacco_and_nicotine_product Dropdown	yVariableIds	hasMapTab
+	Cheapest brand of e-liquid of a closed disposable ENDS/ENNDS system (1ml)	830494	true
+	Cheapest brand of e-liquid of a closed rechargeable ENDS/ENNDS system (1ml)	830495	true
+	Cheapest brand of e-liquid of an open ENDS/ENNDS system (10ml)	830496	true
+	Most sold brand of heated tobacco products (20 sticks)	830497	true
+	Most sold brand of other smoked tobacco	830498	true
+	Most sold brand of smokeless tobacco (20g)	830499	true
+	Most sold brand of cigarettes (20 sticks)	830500	true
+
+columns
+	variableId
+	830494
+	830495
+	830496
+	830497
+	830498
+	830499
+	830500

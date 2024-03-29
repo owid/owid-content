@@ -1,0 +1,18 @@
+explorerTitle	Number of non-pregnant women (aged 15-49 years) with anaemia (thousands) - Se
+selection	World
+
+graphers
+	severity Dropdown	yVariableIds	hasMapTab
+		828907	true
+	Mild	828908	true
+	Moderate	828909	true
+	Severe	828910	true
+	Total	828911	true
+
+columns
+	variableId
+	828907
+	828908
+	828909
+	828910
+	828911

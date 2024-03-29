@@ -1,0 +1,24 @@
+explorerTitle	Existence of regulations/standards/guidelines/protocols on assistive technology - Assistive technology subquestion: 
+selection	World
+
+graphers
+	assistive_technology_subquestion Dropdown	yVariableIds	hasMapTab
+	Delivery of assistive technology services	825912	true
+	Inclusion of assistive products in emergency preparedness and response programmes	825913	true
+	Inclusion of barrier-free/accessible environments in emergency preparedness and response programmes	825914	true
+	Barrier-free/accessible environments	825915	true
+	Procurement of assistive products	825916	true
+	Qualifications of assistive products providers	825917	true
+	Safety of assistive products	825918	true
+	Summary	825919	true
+
+columns
+	variableId
+	825912
+	825913
+	825914
+	825915
+	825916
+	825917
+	825918
+	825919

@@ -1,0 +1,12 @@
+explorerTitle	Liver cirrhosis, age-standardized death rates (15+), per 100,000 population - Sex: 
+selection	World
+
+graphers
+	sex Checkbox	yVariableIds	hasMapTab
+	female	828120	true
+	male	828121	true
+
+columns
+	variableId
+	828120
+	828121

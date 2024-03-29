@@ -1,0 +1,12 @@
+explorerTitle	Treatment setting for substance use disorders, most common - Rsud substance type disorders: 
+selection	World
+
+graphers
+	rsud_substance_type_disorders Checkbox	yVariableIds	hasMapTab
+	Alcohol use disorders	830685	true
+	Drug use disorders	830686	true
+
+columns
+	variableId
+	830685
+	830686

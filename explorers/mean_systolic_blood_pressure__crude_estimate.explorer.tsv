@@ -1,0 +1,12 @@
+explorerTitle	Mean systolic blood pressure (crude estimate) - Sex: 
+selection	World
+
+graphers
+	sex Checkbox	yVariableIds	hasMapTab
+	female	828261	true
+	male	828262	true
+
+columns
+	variableId
+	828261
+	828262

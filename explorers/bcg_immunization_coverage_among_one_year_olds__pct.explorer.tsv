@@ -1,0 +1,56 @@
+explorerTitle	BCG immunization coverage among one-year-olds (%) - 
+selection	World
+
+graphers
+	sex Checkbox	age_group Checkbox	mothers_education_level Dropdown	residence_area_type Checkbox	wealth_quintile Dropdown	wealth_decile Dropdown	yVariableIds	hasMapTab
+	female						824370	true
+	male						824371	true
+		15-19 years					824372	true
+		20-49 years					824373	true
+			None				824374	true
+			Primary				824375	true
+			Secondary or higher				824376	true
+				Rural			824377	true
+				Urban			824378	true
+					Q1 (Poorest)		824379	true
+					Q2		824380	true
+					Q3		824381	true
+					Q4		824382	true
+					Q5 (Richest)		824383	true
+						Decile 1 (poorest)	824384	true
+						Decile 10 (richest)	824385	true
+						Decile 2	824386	true
+						Decile 3	824387	true
+						Decile 4	824388	true
+						Decile 5	824389	true
+						Decile 6	824390	true
+						Decile 7	824391	true
+						Decile 8	824392	true
+						Decile 9	824393	true
+
+columns
+	variableId
+	824370
+	824371
+	824372
+	824373
+	824374
+	824375
+	824376
+	824377
+	824378
+	824379
+	824380
+	824381
+	824382
+	824383
+	824384
+	824385
+	824386
+	824387
+	824388
+	824389
+	824390
+	824391
+	824392
+	824393

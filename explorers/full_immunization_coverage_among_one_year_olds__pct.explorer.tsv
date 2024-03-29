@@ -1,0 +1,56 @@
+explorerTitle	Full immunization coverage among one-year-olds (%) - 
+selection	World
+
+graphers
+	sex Checkbox	age_group Checkbox	mothers_education_level Dropdown	residence_area_type Checkbox	wealth_quintile Dropdown	wealth_decile Dropdown	yVariableIds	hasMapTab
+	female						826004	true
+	male						826005	true
+		15-19 years					826006	true
+		20-49 years					826007	true
+			None				826008	true
+			Primary				826009	true
+			Secondary or higher				826010	true
+				Rural			826011	true
+				Urban			826012	true
+					Q1 (Poorest)		826013	true
+					Q2		826014	true
+					Q3		826015	true
+					Q4		826016	true
+					Q5 (Richest)		826017	true
+						Decile 1 (poorest)	826018	true
+						Decile 10 (richest)	826019	true
+						Decile 2	826020	true
+						Decile 3	826021	true
+						Decile 4	826022	true
+						Decile 5	826023	true
+						Decile 6	826024	true
+						Decile 7	826025	true
+						Decile 8	826026	true
+						Decile 9	826027	true
+
+columns
+	variableId
+	826004
+	826005
+	826006
+	826007
+	826008
+	826009
+	826010
+	826011
+	826012
+	826013
+	826014
+	826015
+	826016
+	826017
+	826018
+	826019
+	826020
+	826021
+	826022
+	826023
+	826024
+	826025
+	826026
+	826027

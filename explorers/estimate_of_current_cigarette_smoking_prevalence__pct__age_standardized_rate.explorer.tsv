@@ -1,0 +1,14 @@
+explorerTitle	Estimate of current cigarette smoking prevalence (%) (age-standardized rate) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	825566	true
+	female	825567	true
+	male	825568	true
+
+columns
+	variableId
+	825566
+	825567
+	825568

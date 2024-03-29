@@ -1,0 +1,16 @@
+explorerTitle	Number of diarrhoea deaths from inadequate water - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	age_group Checkbox	yVariableIds	hasMapTab
+	both sexes	<5 years	828845	true
+	both sexes	Total (All ages)	828846	true
+	female	Total (All ages)	828847	true
+	male	Total (All ages)	828848	true
+
+columns
+	variableId
+	828845
+	828846
+	828847
+	828848

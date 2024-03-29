@@ -1,0 +1,28 @@
+explorerTitle	Involvement of representatives of affected or targeted populations in the development and formulation of policies and strategies for prevention for alcohol and drugs - Representatives: Representative
+selection	World
+
+graphers
+	representatives Dropdown	yVariableIds	hasMapTab
+	Representative of the tobacco industry	827978	true
+	Representatives of family members of people with alcohol use disorders	827979	true
+	Representatives of family members of people with drug use disorders	827980	true
+	Representatives of people who use drugs	827981	true
+	Representatives of non-governmental organizations	827982	true
+	Representatives of people with alcohol use disorders	827983	true
+	Representatives of people with drug use disorders	827984	true
+	Representatives of the alcohol industry	827985	true
+	Representatives of the pharmaceutical industry	827986	true
+	Representatives of youth organizations	827987	true
+
+columns
+	variableId
+	827978
+	827979
+	827980
+	827981
+	827982
+	827983
+	827984
+	827985
+	827986
+	827987

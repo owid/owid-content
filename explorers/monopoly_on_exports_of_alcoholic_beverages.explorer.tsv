@@ -1,0 +1,14 @@
+explorerTitle	Monopoly on exports of alcoholic beverages - Beverage types: 
+selection	World
+
+graphers
+	beverage_types Dropdown	yVariableIds	hasMapTab
+	Beer	828467	true
+	Spirits	828468	true
+	Wine	828469	true
+
+columns
+	variableId
+	828467
+	828468
+	828469

@@ -1,0 +1,34 @@
+explorerTitle	Population with household expenditures on health greater than 10% of total household expenditure or income (SDG indicator 3.8.2) (%, national, rural, urban) - 
+selection	World
+
+graphers
+	sex Checkbox	age_group Checkbox	residence_area_type Dropdown	household_composition_by_age Dropdown	yVariableIds	hasMapTab
+	female				829329	true
+	male				829330	true
+		60+ years			829331	true
+		Below 60 years old			829332	true
+			Rural		829333	true
+			Total		829334	true
+				Adults only (20-59 years old)	829335	true
+			Urban		829336	true
+				Adults with children and adolescents	829337	true
+				Adults with older persons	829338	true
+				Multigenerational and/or Adults with older persons	829339	true
+				Multigenerational households	829340	true
+				Only older adults (>=60 years old)	829341	true
+
+columns
+	variableId
+	829329
+	829330
+	829331
+	829332
+	829333
+	829334
+	829335
+	829336
+	829337
+	829338
+	829339
+	829340
+	829341

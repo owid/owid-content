@@ -1,0 +1,12 @@
+explorerTitle	Mean fasting blood glucose (mmol/l) (crude estimate) - Sex: 
+selection	World
+
+graphers
+	sex Checkbox	yVariableIds	hasMapTab
+	female	828243	true
+	male	828244	true
+
+columns
+	variableId
+	828243
+	828244

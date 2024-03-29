@@ -1,0 +1,14 @@
+explorerTitle	Proportion of children in grades 2/3 achieving at least a minimum proficiency level in mathematics (%) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	829943	true
+	female	829944	true
+	male	829945	true
+
+columns
+	variableId
+	829943
+	829944
+	829945

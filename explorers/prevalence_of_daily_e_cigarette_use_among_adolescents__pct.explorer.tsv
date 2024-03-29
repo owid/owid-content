@@ -1,0 +1,14 @@
+explorerTitle	Prevalence of daily e-cigarette use among adolescents (%) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	829557	true
+	female	829558	true
+	male	829559	true
+
+columns
+	variableId
+	829557
+	829558
+	829559

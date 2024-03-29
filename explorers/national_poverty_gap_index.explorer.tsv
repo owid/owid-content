@@ -1,0 +1,16 @@
+explorerTitle	
+selection	World
+
+graphers
+	table Dropdown	yVariableIds	hasMapTab
+	$2.15 a day	831526	true
+	$3.65 a day	831529	true
+	$6.85 a day	831532	true
+	50% of median	831535	true
+
+columns
+	variableId
+	831526
+	831529
+	831532
+	831535

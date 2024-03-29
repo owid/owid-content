@@ -1,0 +1,18 @@
+explorerTitle	Percentage of health-care facilities with reliable electricity supply (%) - 
+selection	World
+
+graphers
+	residence_area_type Dropdown	health_care_facility_type Checkbox	yVariableIds	hasMapTab
+	Rural		829157	true
+	Total		829158	true
+	Urban		829159	true
+		Hospital	829160	true
+		Non-hospital	829161	true
+
+columns
+	variableId
+	829157
+	829158
+	829159
+	829160
+	829161

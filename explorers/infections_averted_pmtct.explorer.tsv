@@ -1,0 +1,14 @@
+explorerTitle	New HIV Infections averted due to PMTCT - Disaggregation: 
+selection	World
+
+graphers
+	disaggregation Dropdown	yVariableIds	hasMapTab
+	estimate	789985	true
+	lower estimate	789988	true
+	upper estimate	789991	true
+
+columns
+	variableId
+	789985
+	789988
+	789991

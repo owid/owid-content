@@ -1,0 +1,28 @@
+explorerTitle	Existence of an health surveillance system - Cch survey sub question: 
+selection	World
+
+graphers
+	cch_survey_sub_question Dropdown	yVariableIds	hasMapTab
+	Airborne and respiratory illnesses	825778	true
+	Heat-related illness	825779	true
+	Impacts on health care facilities	825780	true
+	Injury and mortality from extreme weather events	825781	true
+	Malnutrition and food-borne diseases	825782	true
+	Mental and psychosocial health	825783	true
+	Noncommunicable diseases (NCDs)	825784	true
+	Vector-borne diseases	825785	true
+	Waterborne diseases and other water-related health outcomes	825786	true
+	Zoonoses	825787	true
+
+columns
+	variableId
+	825778
+	825779
+	825780
+	825781
+	825782
+	825783
+	825784
+	825785
+	825786
+	825787

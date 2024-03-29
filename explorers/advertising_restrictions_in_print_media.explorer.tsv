@@ -1,0 +1,14 @@
+explorerTitle	Advertising restrictions in print media - Substance abuse advertising types: 
+selection	World
+
+graphers
+	substance_abuse_advertising_types Dropdown	yVariableIds	hasMapTab
+	Beer Ads	821696	true
+	Spirits Ads	821697	true
+	Wine Ads	821698	true
+
+columns
+	variableId
+	821696
+	821697
+	821698

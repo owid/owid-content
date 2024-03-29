@@ -1,0 +1,12 @@
+explorerTitle	A10/A1 ratio (
+selection	World
+
+graphers
+	table Checkbox	yVariableIds	hasMapTab
+	Equivalized income	831554	true
+	Per capita income	831577	true
+
+columns
+	variableId
+	831554
+	831577

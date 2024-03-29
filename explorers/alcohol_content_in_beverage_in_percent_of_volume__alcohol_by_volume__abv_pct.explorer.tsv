@@ -1,0 +1,12 @@
+explorerTitle	Alcohol content in beverage in percent of volume, (alcohol by volume) (ABV %) - Beverage type: Alcoholic - Beverage: 
+selection	World
+
+graphers
+	beverage Checkbox	yVariableIds	hasMapTab
+	Beer	821983	true
+	Spirits	821984	true
+
+columns
+	variableId
+	821983
+	821984

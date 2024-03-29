@@ -1,0 +1,14 @@
+explorerTitle	Estimated TB-related deaths among people living with HIV - Disaggregation: 
+selection	World
+
+graphers
+	disaggregation Dropdown	yVariableIds	hasMapTab
+	estimate	789986	true
+	lower estimate	789989	true
+	upper estimate	789992	true
+
+columns
+	variableId
+	789986
+	789989
+	789992

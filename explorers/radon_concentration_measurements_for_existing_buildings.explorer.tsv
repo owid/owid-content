@@ -1,0 +1,12 @@
+explorerTitle	Radon concentration measurements for existing buildings - Radon subquestions: Existing 
+selection	World
+
+graphers
+	radon_subquestions Checkbox	yVariableIds	hasMapTab
+	Existing buildings with high public occupancy	830045	true
+	Existing dwellings	830046	true
+
+columns
+	variableId
+	830045
+	830046

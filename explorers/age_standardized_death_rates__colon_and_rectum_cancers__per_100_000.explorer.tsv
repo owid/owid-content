@@ -1,0 +1,14 @@
+explorerTitle	Age-standardized death rates, colon and rectum cancers, per 100,000 - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	821823	true
+	female	821824	true
+	male	821825	true
+
+columns
+	variableId
+	821823
+	821824
+	821825

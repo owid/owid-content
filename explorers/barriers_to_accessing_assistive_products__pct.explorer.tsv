@@ -1,0 +1,40 @@
+explorerTitle	Barriers to accessing assistive products (%) - Assistive technology product: Total
+selection	World
+
+graphers
+	assistive_technology_product Checkbox	barriers_to_accessing_assistive_products Dropdown	yVariableIds	hasMapTab
+	Total	Can't afford	824349	true
+	Total	No support	824350	true
+	Total	No time	824351	true
+	Total	Not available	824352	true
+	Total	Other	824353	true
+	Total	Not suitable	824354	true
+	Total	Too far	824355	true
+	Total	Stigma	824356	true
+	Total, excluding spectacles	Can't afford	824357	true
+	Total, excluding spectacles	No support	824358	true
+	Total, excluding spectacles	No time	824359	true
+	Total, excluding spectacles	Not available	824360	true
+	Total, excluding spectacles	Not suitable	824361	true
+	Total, excluding spectacles	Other	824362	true
+	Total, excluding spectacles	Stigma	824363	true
+	Total, excluding spectacles	Too far	824364	true
+
+columns
+	variableId
+	824349
+	824350
+	824351
+	824352
+	824353
+	824354
+	824355
+	824356
+	824357
+	824358
+	824359
+	824360
+	824361
+	824362
+	824363
+	824364

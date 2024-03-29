@@ -1,0 +1,24 @@
+explorerTitle	Penalties for drink driving, repeated offense - Penalty type: 
+selection	World
+
+graphers
+	penalty_type Dropdown	yVariableIds	hasMapTab
+	Community service	829132	true
+	Detention short- or long-term	829133	true
+	Fines	829134	true
+	Ignition interlocks (alcolocks)	829135	true
+	License suspended/ revoked	829136	true
+	Mandatory treatment	829137	true
+	Penalty points	829138	true
+	Vehicle impounded	829139	true
+
+columns
+	variableId
+	829132
+	829133
+	829134
+	829135
+	829136
+	829137
+	829138
+	829139

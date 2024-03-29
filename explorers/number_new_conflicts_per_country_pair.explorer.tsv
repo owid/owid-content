@@ -1,0 +1,14 @@
+explorerTitle	Number of new conflicts per state-pair - Conflict type: 
+selection	World
+
+graphers
+	conflict_type Dropdown	yVariableIds	hasMapTab
+	all	815275	true
+	internal	815279	true
+	interstate	815283	true
+
+columns
+	variableId
+	815275
+	815279
+	815283

@@ -1,0 +1,66 @@
+explorerTitle	Total estimated investment - Field: 
+selection	World
+
+graphers
+	field Dropdown	yVariableIds	hasMapTab
+	Agriculture	789143	true
+	All	789147	true
+	Biotechnology	789171	true
+	Community and lifestyle	789180	true
+	Consumer goods	789194	true
+	Data and analytics	789208	true
+	Education	789217	true
+	Energy and natural resources	789226	true
+	Finance	789230	true
+	Gaming	789234	true
+	General purpose	789243	true
+	Hardware	789252	true
+	Healthcare and life sciences	789256	true
+	Information technology	789270	true
+	Lending and investments	789284	true
+	Manufacturing	789308	true
+	Media and entertainment	789322	true
+	Military, public safety and government	789326	true
+	Mobile, platforms & internet services	789330	true
+	Navigation and mapping	789339	true
+	Other	789348	true
+	Privacy and security	789367	true
+	Professional services	789376	true
+	Real estate	789380	true
+	Sales, retail, commerce, marketing	789389	true
+	Software	789403	true
+	Sports	789417	true
+	Telecommunications	789421	true
+	Transportation	789435	true
+
+columns
+	variableId
+	789143
+	789147
+	789171
+	789180
+	789194
+	789208
+	789217
+	789226
+	789230
+	789234
+	789243
+	789252
+	789256
+	789270
+	789284
+	789308
+	789322
+	789326
+	789330
+	789339
+	789348
+	789367
+	789376
+	789380
+	789389
+	789403
+	789417
+	789421
+	789435

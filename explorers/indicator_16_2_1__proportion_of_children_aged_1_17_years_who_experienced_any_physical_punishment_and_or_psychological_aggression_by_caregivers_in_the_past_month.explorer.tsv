@@ -1,0 +1,12 @@
+explorerTitle	Indicator 16.2.1: Proportion of children aged 1-17 years who experienced any physical punishment and/or psychological aggression by caregivers in the past month - Age group: 
+selection	World
+
+graphers
+	age_group Checkbox	yVariableIds	hasMapTab
+	1-14 years	827905	true
+	2-14 years	827906	true
+
+columns
+	variableId
+	827905
+	827906

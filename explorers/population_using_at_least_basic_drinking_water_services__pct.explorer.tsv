@@ -1,0 +1,14 @@
+explorerTitle	Population using at least basic drinking-water services (%) - Residence area type: 
+selection	World
+
+graphers
+	residence_area_type Dropdown	yVariableIds	hasMapTab
+	Rural	829309	true
+	Total	829310	true
+	Urban	829311	true
+
+columns
+	variableId
+	829309
+	829310
+	829311

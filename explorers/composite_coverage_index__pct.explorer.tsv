@@ -1,0 +1,48 @@
+explorerTitle	Composite coverage index (%) - 
+selection	World
+
+graphers
+	mothers_education_level Dropdown	residence_area_type Checkbox	wealth_quintile Dropdown	wealth_decile Dropdown	yVariableIds	hasMapTab
+	None				824816	true
+	Primary				824817	true
+	Secondary or higher				824818	true
+		Rural			824819	true
+		Urban			824820	true
+			Q1 (Poorest)		824821	true
+			Q2		824822	true
+			Q3		824823	true
+			Q4		824824	true
+			Q5 (Richest)		824825	true
+				Decile 1 (poorest)	824826	true
+				Decile 10 (richest)	824827	true
+				Decile 2	824828	true
+				Decile 3	824829	true
+				Decile 4	824830	true
+				Decile 5	824831	true
+				Decile 6	824832	true
+				Decile 7	824833	true
+				Decile 8	824834	true
+				Decile 9	824835	true
+
+columns
+	variableId
+	824816
+	824817
+	824818
+	824819
+	824820
+	824821
+	824822
+	824823
+	824824
+	824825
+	824826
+	824827
+	824828
+	824829
+	824830
+	824831
+	824832
+	824833
+	824834
+	824835

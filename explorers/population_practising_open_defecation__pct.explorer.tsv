@@ -1,0 +1,14 @@
+explorerTitle	Population practising open defecation (%) - Residence area type: 
+selection	World
+
+graphers
+	residence_area_type Dropdown	yVariableIds	hasMapTab
+	Rural	829263	true
+	Total	829264	true
+	Urban	829265	true
+
+columns
+	variableId
+	829263
+	829264
+	829265

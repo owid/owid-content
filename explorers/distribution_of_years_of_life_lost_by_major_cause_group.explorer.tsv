@@ -1,0 +1,14 @@
+explorerTitle	Distribution of years of life lost by major cause group - Causes: 
+selection	World
+
+graphers
+	causes Dropdown	yVariableIds	hasMapTab
+	Communicable & other Group I	825374	true
+	Injuries	825375	true
+	Noncommunicable diseases	825376	true
+
+columns
+	variableId
+	825374
+	825375
+	825376

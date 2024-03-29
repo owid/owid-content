@@ -1,0 +1,14 @@
+explorerTitle	Adult mortality rate (probability of dying between 15 and 60 years per 1000 population) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	821687	true
+	female	821688	true
+	male	821689	true
+
+columns
+	variableId
+	821687
+	821688
+	821689

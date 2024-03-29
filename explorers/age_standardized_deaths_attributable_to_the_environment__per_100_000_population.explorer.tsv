@@ -1,0 +1,16 @@
+explorerTitle	Age-standardized deaths attributable to the environment (per 100 000 population) - Cause: 
+selection	World
+
+graphers
+	cause Dropdown	yVariableIds	hasMapTab
+	Injuries	821883	true
+	Infectious, parasitic, neonatal and nutritional	821884	true
+	Noncommunicable diseases	821885	true
+	Total	821886	true
+
+columns
+	variableId
+	821883
+	821884
+	821885
+	821886

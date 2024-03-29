@@ -1,0 +1,14 @@
+explorerTitle	Period life expectancy at birth - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	male	815380	true
+	all	815381	true
+	female	815382	true
+
+columns
+	variableId
+	815380
+	815381
+	815382

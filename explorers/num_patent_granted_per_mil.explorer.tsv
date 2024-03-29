@@ -1,0 +1,54 @@
+explorerTitle	Patent applications granted per 1 million people - Field: 
+selection	World
+
+graphers
+	field Dropdown	yVariableIds	hasMapTab
+	All	804401	true
+	Analytics and algorithms	804404	true
+	Banking and finance	804406	true
+	Business	804408	true
+	Computer vision	804410	true
+	Control methods	804413	true
+	Energy management	804417	true
+	General	804419	true
+	Industry and manufacturing	804423	true
+	Knowledge representation	804426	true
+	Life sciences	804428	true
+	Logic programming	804430	true
+	Machine learning	804432	true
+	Measuring and testing	804436	true
+	Ontology engineering	804439	true
+	Personal devices and computing	804441	true
+	Physical sciences and engineering	804443	true
+	Planning and scheduling	804445	true
+	Probabilistic reasoning	804447	true
+	Security	804450	true
+	Speech processing	804453	true
+	Telecommunications	804456	true
+	Transportation	804459	true
+
+columns
+	variableId
+	804401
+	804404
+	804406
+	804408
+	804410
+	804413
+	804417
+	804419
+	804423
+	804426
+	804428
+	804430
+	804432
+	804436
+	804439
+	804441
+	804443
+	804445
+	804447
+	804450
+	804453
+	804456
+	804459

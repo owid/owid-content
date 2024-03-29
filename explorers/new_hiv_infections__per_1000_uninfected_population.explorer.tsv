@@ -1,0 +1,14 @@
+explorerTitle	New HIV infections (per 1000 uninfected population) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	828587	true
+	female	828588	true
+	male	828589	true
+
+columns
+	variableId
+	828587
+	828588
+	828589

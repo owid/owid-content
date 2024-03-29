@@ -1,0 +1,18 @@
+explorerTitle	Number of children aged 6-59 months with anaemia (thousands) - Se
+selection	World
+
+graphers
+	severity Dropdown	yVariableIds	hasMapTab
+		828792	true
+	Mild	828793	true
+	Moderate	828794	true
+	Severe	828795	true
+	Total	828796	true
+
+columns
+	variableId
+	828792
+	828793
+	828794
+	828795
+	828796

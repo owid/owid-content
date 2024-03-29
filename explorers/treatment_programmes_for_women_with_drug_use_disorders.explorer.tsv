@@ -1,0 +1,14 @@
+explorerTitle	Treatment programmes for women with drug use disorders - Treatment location: In 
+selection	World
+
+graphers
+	treatment_location Dropdown	yVariableIds	hasMapTab
+	In other areas	830682	true
+	In other major cities	830683	true
+	In the capital city	830684	true
+
+columns
+	variableId
+	830682
+	830683
+	830684

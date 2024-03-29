@@ -1,0 +1,14 @@
+explorerTitle	Probability (%) of dying between age 30 and exact age 70 from any of cardiovascular disease, cancer, diabetes, or chronic respiratory disease - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	829905	true
+	female	829906	true
+	male	829907	true
+
+columns
+	variableId
+	829905
+	829906
+	829907

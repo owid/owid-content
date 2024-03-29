@@ -1,0 +1,20 @@
+explorerTitle	Relative contribution to sex gap in life expectancy (years) - Age_group: 
+selection	World
+
+graphers
+	age_group Dropdown	yVariableIds	hasMapTab
+	0	816266	true
+	1-14	816268	true
+	15-39	816270	true
+	40-59	816272	true
+	60-79	816274	true
+	80+	816276	true
+
+columns
+	variableId
+	816266
+	816268
+	816270
+	816272
+	816274
+	816276

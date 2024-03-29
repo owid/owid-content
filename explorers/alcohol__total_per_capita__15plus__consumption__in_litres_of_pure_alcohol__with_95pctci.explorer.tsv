@@ -1,0 +1,14 @@
+explorerTitle	Alcohol, total per capita (15+) consumption (in litres of pure alcohol) with 95%CI - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	821961	true
+	female	821962	true
+	male	821963	true
+
+columns
+	variableId
+	821961
+	821962
+	821963

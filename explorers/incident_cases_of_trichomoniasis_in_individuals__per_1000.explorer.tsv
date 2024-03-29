@@ -1,0 +1,12 @@
+explorerTitle	Incident cases of trichomoniasis in individuals (per 1000) - Sex: 
+selection	World
+
+graphers
+	sex Checkbox	yVariableIds	hasMapTab
+	female	827860	true
+	male	827861	true
+
+columns
+	variableId
+	827860
+	827861

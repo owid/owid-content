@@ -1,0 +1,14 @@
+explorerTitle	Excise tax as a per cent of the retail price of alcoholic beverages - Beverage types: 
+selection	World
+
+graphers
+	beverage_types Dropdown	yVariableIds	hasMapTab
+	Beer	825665	true
+	Spirits	825666	true
+	Wine	825667	true
+
+columns
+	variableId
+	825665
+	825666
+	825667

@@ -1,0 +1,24 @@
+explorerTitle	Country where conflict took place - Conflict type: 
+selection	World
+
+graphers
+	conflict_type Dropdown	yVariableIds	hasMapTab
+	all	816852	true
+	interstate	816860	true
+	intrastate	816868	true
+	intrastate (internationalized)	816876	true
+	intrastate (non-internationalized)	816884	true
+	non-state conflict	816892	true
+	one-sided violence	816900	true
+	state-based	816908	true
+
+columns
+	variableId
+	816852
+	816860
+	816868
+	816876
+	816884
+	816892
+	816900
+	816908

@@ -1,0 +1,122 @@
+explorerTitle	AIDS-related deaths - Disaggregation: 
+selection	World
+
+graphers
+	disaggregation Dropdown	yVariableIds	hasMapTab
+	10-19 estimate	789738	true
+	10-19 lower estimate	789740	true
+	10-19 upper estimate	789742	true
+	50+ estimate	789745	true
+	50+ lower estimate	789749	true
+	50+ upper estimate	789751	true
+	Adults (15+) estimate	789755	true
+	Adults (15+) lower estimate	789759	true
+	Adults (15+) upper estimate	789763	true
+	Adults (15-49) estimate	789767	true
+	Adults (15-49) lower estimate	789771	true
+	Adults (15-49) upper estimate	789775	true
+	All ages estimate	789781	true
+	All ages lower estimate	789784	true
+	All ages upper estimate	789787	true
+	Children (0-14) estimate	789792	true
+	Children (0-14) lower estimate	789794	true
+	Children (0-14) upper estimate	789796	true
+	Females 10-19 estimate	789802	true
+	Females 10-19 lower estimate	789804	true
+	Females 10-19 upper estimate	789806	true
+	Females 50+ estimate	789820	true
+	Females 50+ lower estimate	789823	true
+	Females 50+ upper estimate	789826	true
+	Females Adults (15+) estimate	789829	true
+	Females Adults (15+) lower estimate	789833	true
+	Females Adults (15+) upper estimate	789837	true
+	Females Adults (15-49) estimate	789842	true
+	Females Adults (15-49) lower estimate	789846	true
+	Females Adults (15-49) upper estimate	789850	true
+	Females All ages estimate	789854	true
+	Females All ages lower estimate	789857	true
+	Females All ages upper estimate	789860	true
+	Females Young people (15-24) estimate	789867	true
+	Females Young people (15-24) lower estimate	789871	true
+	Females Young people (15-24) upper estimate	789875	true
+	Males 10-19 estimate	789883	true
+	Males 10-19 lower estimate	789885	true
+	Males 10-19 upper estimate	789887	true
+	Males 50+ estimate	789901	true
+	Males 50+ lower estimate	789904	true
+	Males 50+ upper estimate	789907	true
+	Males Adults (15+) estimate	789910	true
+	Males Adults (15+) lower estimate	789914	true
+	Males Adults (15+) upper estimate	789918	true
+	Males Adults (15-49) estimate	789923	true
+	Males Adults (15-49) lower estimate	789927	true
+	Males Adults (15-49) upper estimate	789931	true
+	Males All ages estimate	789935	true
+	Males All ages lower estimate	789938	true
+	Males All ages upper estimate	789941	true
+	Males Young people (15-24) estimate	789948	true
+	Males Young people (15-24) lower estimate	789952	true
+	Males Young people (15-24) upper estimate	789956	true
+	Young people (15-24) estimate	789972	true
+	Young people (15-24) lower estimate	789976	true
+	Young people (15-24) upper estimate	789980	true
+
+columns
+	variableId
+	789738
+	789740
+	789742
+	789745
+	789749
+	789751
+	789755
+	789759
+	789763
+	789767
+	789771
+	789775
+	789781
+	789784
+	789787
+	789792
+	789794
+	789796
+	789802
+	789804
+	789806
+	789820
+	789823
+	789826
+	789829
+	789833
+	789837
+	789842
+	789846
+	789850
+	789854
+	789857
+	789860
+	789867
+	789871
+	789875
+	789883
+	789885
+	789887
+	789901
+	789904
+	789907
+	789910
+	789914
+	789918
+	789923
+	789927
+	789931
+	789935
+	789938
+	789941
+	789948
+	789952
+	789956
+	789972
+	789976
+	789980

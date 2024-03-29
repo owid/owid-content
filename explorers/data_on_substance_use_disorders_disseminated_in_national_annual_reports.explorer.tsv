@@ -1,0 +1,12 @@
+explorerTitle	Data on substance use disorders disseminated in national annual reports - Rsud substance types: 
+selection	World
+
+graphers
+	rsud_substance_types Checkbox	yVariableIds	hasMapTab
+	Alcohol	825013	true
+	Drugs	825014	true
+
+columns
+	variableId
+	825013
+	825014

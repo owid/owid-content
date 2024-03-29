@@ -1,0 +1,14 @@
+explorerTitle	Pharmacotherapy used for the management of benzodiazepine withdrawal - Rsud drugs: 
+selection	World
+
+graphers
+	rsud_drugs Dropdown	yVariableIds	hasMapTab
+	Flumazenil infusion	829205	true
+	Carbamazepine	829206	true
+	Gradual Benzodiazepine reduction	829207	true
+
+columns
+	variableId
+	829205
+	829206
+	829207

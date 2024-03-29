@@ -1,0 +1,14 @@
+explorerTitle	Raised fasting blood glucose (>=7.0 mmol/L) (age-standardized estimate) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	830057	true
+	female	830058	true
+	male	830059	true
+
+columns
+	variableId
+	830057
+	830058
+	830059

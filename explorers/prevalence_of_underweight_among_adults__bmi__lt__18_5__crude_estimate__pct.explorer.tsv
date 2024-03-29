@@ -1,0 +1,14 @@
+explorerTitle	Prevalence of underweight among adults, BMI < 18.5 (crude estimate) (%) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	829744	true
+	female	829745	true
+	male	829746	true
+
+columns
+	variableId
+	829744
+	829745
+	829746

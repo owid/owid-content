@@ -1,0 +1,32 @@
+explorerTitle	Postnatal care visit within two days of birth (in the three years preceding the survey) (%) - 
+selection	World
+
+graphers
+	sex Checkbox	mothers_education_level Dropdown	residence_area_type Checkbox	wealth_quintile Dropdown	yVariableIds	hasMapTab
+	female				829420	true
+	male				829421	true
+		None			829422	true
+		Primary			829423	true
+		Secondary or higher			829424	true
+			Rural		829425	true
+			Urban		829426	true
+				Q1 (Poorest)	829427	true
+				Q2	829428	true
+				Q3	829429	true
+				Q4	829430	true
+				Q5 (Richest)	829431	true
+
+columns
+	variableId
+	829420
+	829421
+	829422
+	829423
+	829424
+	829425
+	829426
+	829427
+	829428
+	829429
+	829430
+	829431

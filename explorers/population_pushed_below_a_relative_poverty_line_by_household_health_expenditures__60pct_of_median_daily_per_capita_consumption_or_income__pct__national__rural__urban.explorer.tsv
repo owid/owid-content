@@ -1,0 +1,14 @@
+explorerTitle	Population pushed below a relative poverty line by household health expenditures - 60% of median daily per capita consumption or income (%, national, rural, urban) - Residence area type: 
+selection	World
+
+graphers
+	residence_area_type Dropdown	yVariableIds	hasMapTab
+	Rural	829266	true
+	Total	829267	true
+	Urban	829268	true
+
+columns
+	variableId
+	829266
+	829267
+	829268

@@ -1,0 +1,26 @@
+explorerTitle	Existence of initiatives/collaborations on assistive technology - Assistive technology subquestion: 
+selection	World
+
+graphers
+	assistive_technology_subquestion Dropdown	yVariableIds	hasMapTab
+	Collection of data on population-based needs for products	825839	true
+	Information to users and their families	825840	true
+	International collaboration on manufacturing, procurement or supply of products	825841	true
+	Participation of users in planning and monitoring services	825842	true
+	Product affordability	825843	true
+	Product development	825844	true
+	Product procurement	825845	true
+	Service delivery capacity	825846	true
+	Summary	825847	true
+
+columns
+	variableId
+	825839
+	825840
+	825841
+	825842
+	825843
+	825844
+	825845
+	825846
+	825847

@@ -1,0 +1,70 @@
+explorerTitle	Maximum value - Water_body_category: 
+selection	World
+
+graphers
+	water_body_category Dropdown	indicator Dropdown	unit Dropdown	yVariableIds	hasMapTab
+	groundwater	Ammonium	mg/L	820648	true
+	groundwater	Dissolved organic carbon (DOC)	mg/L	820656	true
+	groundwater	Nitrate	mg/L	820664	true
+	groundwater	Nitrite	mg/L	820672	true
+	groundwater	Phosphate	mg/L	820680	true
+	groundwater	Total organic carbon (TOC)	mg/L	820688	true
+	groundwater	Total phosphorus	mg/L	820696	true
+	lakes	Ammonium	mg/L	820704	true
+	lakes	BOD5	mg/L	820712	true
+	lakes	Chlorophyll a	ug/L	820720	true
+	lakes	Cyanobacteria biomass	mg/L	820728	true
+	lakes	Dissolved organic carbon (DOC)	mg/L	820736	true
+	lakes	Nitrate	mg/L	820744	true
+	lakes	Nitrite	mg/L	820752	true
+	lakes	Phosphate	mg/L	820760	true
+	lakes	Secchi depth	m	820768	true
+	lakes	Total organic carbon (TOC)	mg/L	820776	true
+	lakes	Total phosphorus	mg/L	820784	true
+	lakes	Total phytoplankton biomass	mg/L	820792	true
+	rivers	Ammonium	mg/L	820800	true
+	rivers	BOD5	mg/L	820808	true
+	rivers	Chlorophyll a	ug/L	820816	true
+	rivers	Cyanobacteria biomass	mg/L	820823	true
+	rivers	Dissolved organic carbon (DOC)	mg/L	820832	true
+	rivers	Nitrate	mg/L	820840	true
+	rivers	Nitrite	mg/L	820848	true
+	rivers	Phosphate	mg/L	820856	true
+	rivers	Secchi depth	m	820864	true
+	rivers	Total organic carbon (TOC)	mg/L	820872	true
+	rivers	Total phosphorus	mg/L	820880	true
+	rivers	Total phytoplankton biomass	mg/L	820888	true
+
+columns
+	variableId
+	820648
+	820656
+	820664
+	820672
+	820680
+	820688
+	820696
+	820704
+	820712
+	820720
+	820728
+	820736
+	820744
+	820752
+	820760
+	820768
+	820776
+	820784
+	820792
+	820800
+	820808
+	820816
+	820823
+	820832
+	820840
+	820848
+	820856
+	820864
+	820872
+	820880
+	820888

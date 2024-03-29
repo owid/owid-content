@@ -1,0 +1,12 @@
+explorerTitle	Automatic adjustment of specific excise on beverage - Beverage type: 
+selection	World
+
+graphers
+	beverage_type Checkbox	beverage Checkbox	yVariableIds	hasMapTab
+	Alcoholic	Alcoholic beverages	824238	true
+	Non-alcoholic	Non-alcoholic beverages	824239	true
+
+columns
+	variableId
+	824238
+	824239

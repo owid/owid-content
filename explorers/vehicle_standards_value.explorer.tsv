@@ -1,0 +1,24 @@
+explorerTitle	Vehicle standards - Vehicle standards: 
+selection	World
+
+graphers
+	vehicle_standards Dropdown	yVariableIds	hasMapTab
+	Child seats	830848	true
+	Electronic stability control	830849	true
+	Frontal impact	830850	true
+	Motorcycle	830851	true
+	Pedestrian protection	830852	true
+	Seat-belt anchorages	830853	true
+	Seat-belts	830854	true
+	Side impact	830855	true
+
+columns
+	variableId
+	830848
+	830849
+	830850
+	830851
+	830852
+	830853
+	830854
+	830855

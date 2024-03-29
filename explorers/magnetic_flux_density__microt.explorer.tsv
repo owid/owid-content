@@ -1,0 +1,16 @@
+explorerTitle	Magnetic flux density (microT) - Exposed: 
+selection	World
+
+graphers
+	exposed Checkbox	frequency Checkbox	yVariableIds	hasMapTab
+	Public	Low-frequency	828181	true
+	Public	Static	828182	true
+	Workers	Low-frequency	828183	true
+	Workers	Static	828184	true
+
+columns
+	variableId
+	828181
+	828182
+	828183
+	828184

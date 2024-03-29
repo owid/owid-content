@@ -1,0 +1,72 @@
+explorerTitle	Zero vegetable or fruit consumption, 6-23 months - 
+selection	World
+
+graphers
+	sex Dropdown	age_group Dropdown	mothers_education_level Dropdown	residence_area_type Dropdown	wealth_quintile Dropdown	household_wealth Dropdown	yVariableIds	hasMapTab
+	both sexes						830911	true
+	female						830912	true
+	male						830913	true
+		12 to 15 months					830914	true
+		16 to 19 months					830915	true
+		12 to 23 months					830916	true
+		20 to 23 months					830917	true
+		6 to 11 months					830918	true
+		Total (All ages)					830919	true
+			Higher education				830920	true
+			None				830921	true
+			None and primary education				830922	true
+			Primary				830923	true
+			Secondary education				830924	true
+			Secondary or higher				830925	true
+			TotalTotalTotalTotal				830926	true
+				Rural			830927	true
+				TotalTotalTotalTotal			830928	true
+				Urban			830929	true
+					Q1 (Poorest)		830930	true
+					Q2		830931	true
+					Q3		830932	true
+					Q4		830933	true
+					TotalTotalTotalTotal		830934	true
+					Q5 (Richest)		830935	true
+						TotalTotalTotalTotal	830936	true
+						Wealth - Bottom 40%	830937	true
+						Wealth - Bottom 60%	830938	true
+						Wealth - Bottom 80%	830939	true
+						Wealth - Top 40%	830940	true
+						Wealth - Top 60%	830941	true
+						Wealth - Top 80%	830942	true
+
+columns
+	variableId
+	830911
+	830912
+	830913
+	830914
+	830915
+	830916
+	830917
+	830918
+	830919
+	830920
+	830921
+	830922
+	830923
+	830924
+	830925
+	830926
+	830927
+	830928
+	830929
+	830930
+	830931
+	830932
+	830933
+	830934
+	830935
+	830936
+	830937
+	830938
+	830939
+	830940
+	830941
+	830942

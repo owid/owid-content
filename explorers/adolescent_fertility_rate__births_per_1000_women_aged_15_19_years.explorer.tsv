@@ -1,0 +1,48 @@
+explorerTitle	Adolescent fertility rate (births per 1000 women aged 15-19 years) - 
+selection	World
+
+graphers
+	mothers_education_level Dropdown	residence_area_type Checkbox	wealth_quintile Dropdown	wealth_decile Dropdown	yVariableIds	hasMapTab
+	None				821661	true
+	Primary				821662	true
+	Secondary or higher				821663	true
+		Rural			821664	true
+		Urban			821665	true
+			Q2		821666	true
+			Q1 (Poorest)		821667	true
+			Q3		821668	true
+			Q4		821669	true
+			Q5 (Richest)		821670	true
+				Decile 10 (richest)	821671	true
+				Decile 1 (poorest)	821672	true
+				Decile 2	821673	true
+				Decile 3	821674	true
+				Decile 4	821675	true
+				Decile 5	821676	true
+				Decile 6	821677	true
+				Decile 7	821678	true
+				Decile 8	821679	true
+				Decile 9	821680	true
+
+columns
+	variableId
+	821661
+	821662
+	821663
+	821664
+	821665
+	821666
+	821667
+	821668
+	821669
+	821670
+	821671
+	821672
+	821673
+	821674
+	821675
+	821676
+	821677
+	821678
+	821679
+	821680

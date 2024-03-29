@@ -1,0 +1,14 @@
+explorerTitle	Age-standardized death rates, breast cancer, per 100,000 - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	821816	true
+	female	821817	true
+	male	821818	true
+
+columns
+	variableId
+	821816
+	821817
+	821818

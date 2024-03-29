@@ -1,0 +1,74 @@
+explorerTitle	Low estimate: Tuberculosis incidence rate in 
+selection	World
+
+graphers
+	age_group Dropdown	sex Dropdown	yVariableIds	hasMapTab
+	0-14	a	817283	true
+	0-14	f	817286	true
+	0-14	m	817289	true
+	0-4	a	817292	true
+	0-4	f	817295	true
+	0-4	m	817298	true
+	15-24	a	817301	true
+	15-24	f	817304	true
+	15-24	m	817307	true
+	15plus	a	817310	true
+	15plus	f	817313	true
+	15plus	m	817316	true
+	25-34	a	817319	true
+	25-34	f	817322	true
+	25-34	m	817325	true
+	35-44	a	817328	true
+	35-44	f	817331	true
+	35-44	m	817334	true
+	45-54	a	817337	true
+	45-54	f	817340	true
+	45-54	m	817343	true
+	5-14	a	817346	true
+	5-14	f	817349	true
+	5-14	m	817352	true
+	55-64	a	817355	true
+	55-64	f	817358	true
+	55-64	m	817361	true
+	65plus	a	817364	true
+	65plus	f	817367	true
+	65plus	m	817370	true
+	all	a	817373	true
+	all	f	817376	true
+	all	m	817379	true
+
+columns
+	variableId
+	817283
+	817286
+	817289
+	817292
+	817295
+	817298
+	817301
+	817304
+	817307
+	817310
+	817313
+	817316
+	817319
+	817322
+	817325
+	817328
+	817331
+	817334
+	817337
+	817340
+	817343
+	817346
+	817349
+	817352
+	817355
+	817358
+	817361
+	817364
+	817367
+	817370
+	817373
+	817376
+	817379

@@ -1,0 +1,16 @@
+explorerTitle	Clinical supervision of health care staff - Rsud clinical supervision: 
+selection	World
+
+graphers
+	rsud_clinical_supervision Dropdown	yVariableIds	hasMapTab
+	Doctors	824757	true
+	Nurses	824758	true
+	Psychologists	824759	true
+	Social workers	824760	true
+
+columns
+	variableId
+	824757
+	824758
+	824759
+	824760

@@ -1,0 +1,92 @@
+explorerTitle	Central death rate - Type: 
+selection	World
+
+graphers
+	type Checkbox	sex Dropdown	age Dropdown	yVariableIds	hasMapTab
+	cohort	both	0	814894	true
+	cohort	both	10	814899	true
+	cohort	both	15	814904	true
+	cohort	both	25	814909	true
+	cohort	both	45	814914	true
+	cohort	both	65	814919	true
+	cohort	both	80	814924	true
+	cohort	female	0	814929	true
+	cohort	female	10	814932	true
+	cohort	female	15	814935	true
+	cohort	female	25	814938	true
+	cohort	female	45	814941	true
+	cohort	female	65	814944	true
+	cohort	female	80	814947	true
+	cohort	male	0	814950	true
+	cohort	male	10	814953	true
+	cohort	male	15	814956	true
+	cohort	male	25	814959	true
+	cohort	male	45	814962	true
+	cohort	male	65	814965	true
+	cohort	male	80	814968	true
+	period	both	0	814971	true
+	period	both	10	814976	true
+	period	both	15	814981	true
+	period	both	25	814986	true
+	period	both	45	814991	true
+	period	both	65	814996	true
+	period	both	80	815001	true
+	period	female	0	815006	true
+	period	female	10	815009	true
+	period	female	15	815012	true
+	period	female	25	815015	true
+	period	female	45	815018	true
+	period	female	65	815021	true
+	period	female	80	815024	true
+	period	male	0	815027	true
+	period	male	10	815030	true
+	period	male	15	815033	true
+	period	male	25	815036	true
+	period	male	45	815039	true
+	period	male	65	815042	true
+	period	male	80	815045	true
+
+columns
+	variableId
+	814894
+	814899
+	814904
+	814909
+	814914
+	814919
+	814924
+	814929
+	814932
+	814935
+	814938
+	814941
+	814944
+	814947
+	814950
+	814953
+	814956
+	814959
+	814962
+	814965
+	814968
+	814971
+	814976
+	814981
+	814986
+	814991
+	814996
+	815001
+	815006
+	815009
+	815012
+	815015
+	815018
+	815021
+	815024
+	815027
+	815030
+	815033
+	815036
+	815039
+	815042
+	815045

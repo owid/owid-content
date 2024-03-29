@@ -1,0 +1,20 @@
+explorerTitle	Registration of medications for opioid dependence - Rsud drugs: 
+selection	World
+
+graphers
+	rsud_drugs Dropdown	yVariableIds	hasMapTab
+	Buprenorphine in sublingual tablets	830085	true
+	Buprenorphine/naloxone in sublingual film	830086	true
+	Buprenorphine/naloxone in sublingual tablets	830087	true
+	Methadone in liquid formulation	830088	true
+	Methadone in tablets	830089	true
+	Naltrexone in tablets	830090	true
+
+columns
+	variableId
+	830085
+	830086
+	830087
+	830088
+	830089
+	830090

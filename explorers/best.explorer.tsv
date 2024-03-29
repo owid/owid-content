@@ -1,0 +1,176 @@
+explorerTitle	Best estimate: Tuberculosis incidence 
+selection	World
+
+graphers
+	age_group Dropdown	sex Dropdown	risk_factor Dropdown	yVariableIds	hasMapTab
+	0-14	a	all	817030	true
+	0-14	f	all	817033	true
+	0-14	m	all	817036	true
+	0-4	a	alc	817039	true
+	0-4	a	all	817042	true
+	0-4	a	dia	817045	true
+	0-4	a	hiv	817048	true
+	0-4	a	smk	817051	true
+	0-4	a	und	817054	true
+	0-4	f	all	817057	true
+	0-4	m	all	817060	true
+	15-24	a	alc	817063	true
+	15-24	a	all	817066	true
+	15-24	a	dia	817069	true
+	15-24	a	hiv	817072	true
+	15-24	a	smk	817075	true
+	15-24	a	und	817078	true
+	15-24	f	all	817081	true
+	15-24	m	all	817085	true
+	15plus	a	alc	817087	true
+	15plus	a	all	817090	true
+	15plus	a	smk	817093	true
+	15plus	f	alc	817096	true
+	15plus	f	all	817099	true
+	15plus	f	smk	817102	true
+	15plus	m	alc	817105	true
+	15plus	m	all	817108	true
+	15plus	m	smk	817111	true
+	18plus	a	dia	817114	true
+	18plus	f	dia	817117	true
+	18plus	m	dia	817120	true
+	25-34	a	alc	817123	true
+	25-34	a	all	817126	true
+	25-34	a	dia	817129	true
+	25-34	a	hiv	817132	true
+	25-34	a	smk	817135	true
+	25-34	a	und	817138	true
+	25-34	f	all	817141	true
+	25-34	m	all	817144	true
+	35-44	a	alc	817147	true
+	35-44	a	all	817150	true
+	35-44	a	dia	817153	true
+	35-44	a	hiv	817157	true
+	35-44	a	smk	817159	true
+	35-44	a	und	817162	true
+	35-44	f	all	817165	true
+	35-44	m	all	817168	true
+	45-54	a	alc	817171	true
+	45-54	a	all	817174	true
+	45-54	a	dia	817177	true
+	45-54	a	hiv	817180	true
+	45-54	a	smk	817183	true
+	45-54	a	und	817186	true
+	45-54	f	all	817189	true
+	45-54	m	all	817192	true
+	5-14	a	alc	817195	true
+	5-14	a	all	817198	true
+	5-14	a	dia	817201	true
+	5-14	a	hiv	817204	true
+	5-14	a	smk	817207	true
+	5-14	a	und	817210	true
+	5-14	f	all	817213	true
+	5-14	m	all	817216	true
+	55-64	a	alc	817219	true
+	55-64	a	all	817222	true
+	55-64	a	dia	817225	true
+	55-64	a	hiv	817228	true
+	55-64	a	smk	817231	true
+	55-64	a	und	817234	true
+	55-64	f	all	817237	true
+	55-64	m	all	817240	true
+	65plus	a	alc	817243	true
+	65plus	a	all	817246	true
+	65plus	a	dia	817249	true
+	65plus	a	hiv	817252	true
+	65plus	a	smk	817255	true
+	65plus	a	und	817258	true
+	65plus	f	all	817261	true
+	65plus	m	all	817264	true
+	all	a	all	817267	true
+	all	a	hiv	817270	true
+	all	a	und	817273	true
+	all	f	all	817276	true
+	all	m	all	817279	true
+
+columns
+	variableId
+	817030
+	817033
+	817036
+	817039
+	817042
+	817045
+	817048
+	817051
+	817054
+	817057
+	817060
+	817063
+	817066
+	817069
+	817072
+	817075
+	817078
+	817081
+	817085
+	817087
+	817090
+	817093
+	817096
+	817099
+	817102
+	817105
+	817108
+	817111
+	817114
+	817117
+	817120
+	817123
+	817126
+	817129
+	817132
+	817135
+	817138
+	817141
+	817144
+	817147
+	817150
+	817153
+	817157
+	817159
+	817162
+	817165
+	817168
+	817171
+	817174
+	817177
+	817180
+	817183
+	817186
+	817189
+	817192
+	817195
+	817198
+	817201
+	817204
+	817207
+	817210
+	817213
+	817216
+	817219
+	817222
+	817225
+	817228
+	817231
+	817234
+	817237
+	817240
+	817243
+	817246
+	817249
+	817252
+	817255
+	817258
+	817261
+	817264
+	817267
+	817270
+	817273
+	817276
+	817279

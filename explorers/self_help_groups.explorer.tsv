@@ -1,0 +1,18 @@
+explorerTitle	Self-help groups - Rsud groups: 
+selection	World
+
+graphers
+	rsud_groups Dropdown	yVariableIds	hasMapTab
+	Al-Anon/Alateen	830274	true
+	Alcoholics Anonymous	830275	true
+	Cocaine Anonymous	830276	true
+	Family support groups	830277	true
+	Narcotics Anonymous	830278	true
+
+columns
+	variableId
+	830274
+	830275
+	830276
+	830277
+	830278

@@ -1,0 +1,14 @@
+explorerTitle	Proportion of population with primary reliance on clean fuels and technologies for cooking (%) - Residence area type: 
+selection	World
+
+graphers
+	residence_area_type Dropdown	yVariableIds	hasMapTab
+	Rural	829990	true
+	Total	829992	true
+	Urban	829994	true
+
+columns
+	variableId
+	829990
+	829992
+	829994

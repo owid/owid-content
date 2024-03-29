@@ -1,0 +1,12 @@
+explorerTitle	Hypothecated taxes to be spent on prevention and treatment for substance use disorders - Rsud substance types: 
+selection	World
+
+graphers
+	rsud_substance_types Checkbox	yVariableIds	hasMapTab
+	Alcohol	827755	true
+	Drugs	827756	true
+
+columns
+	variableId
+	827755
+	827756

@@ -1,0 +1,56 @@
+explorerTitle	Measles immunization coverage among one-year-olds (%) - 
+selection	World
+
+graphers
+	sex Checkbox	age_group Checkbox	mothers_education_level Dropdown	residence_area_type Checkbox	wealth_quintile Dropdown	wealth_decile Dropdown	yVariableIds	hasMapTab
+	female						828272	true
+	male						828273	true
+		15-19 years					828274	true
+		20-49 years					828275	true
+			None				828276	true
+			Primary				828277	true
+			Secondary or higher				828278	true
+				Rural			828279	true
+				Urban			828280	true
+					Q1 (Poorest)		828281	true
+					Q2		828282	true
+					Q3		828283	true
+					Q4		828284	true
+					Q5 (Richest)		828285	true
+						Decile 1 (poorest)	828286	true
+						Decile 2	828287	true
+						Decile 10 (richest)	828288	true
+						Decile 3	828289	true
+						Decile 4	828290	true
+						Decile 5	828291	true
+						Decile 6	828292	true
+						Decile 7	828293	true
+						Decile 8	828294	true
+						Decile 9	828295	true
+
+columns
+	variableId
+	828272
+	828273
+	828274
+	828275
+	828276
+	828277
+	828278
+	828279
+	828280
+	828281
+	828282
+	828283
+	828284
+	828285
+	828286
+	828287
+	828288
+	828289
+	828290
+	828291
+	828292
+	828293
+	828294
+	828295

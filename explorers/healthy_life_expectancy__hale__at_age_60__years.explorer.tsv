@@ -1,0 +1,14 @@
+explorerTitle	Healthy life expectancy (HALE) at age 60 (years) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	826233	true
+	female	826234	true
+	male	826235	true
+
+columns
+	variableId
+	826233
+	826234
+	826235

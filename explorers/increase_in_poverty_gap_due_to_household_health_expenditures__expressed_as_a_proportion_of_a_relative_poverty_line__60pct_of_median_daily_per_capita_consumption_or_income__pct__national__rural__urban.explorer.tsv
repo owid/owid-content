@@ -1,0 +1,14 @@
+explorerTitle	Increase in poverty gap due to household health expenditures, expressed as a proportion of a relative poverty line - 60% of median daily per capita consumption or income (%, national, rural, urban) - Residence area type: 
+selection	World
+
+graphers
+	residence_area_type Dropdown	yVariableIds	hasMapTab
+	Rural	827893	true
+	Total	827894	true
+	Urban	827895	true
+
+columns
+	variableId
+	827893
+	827894
+	827895

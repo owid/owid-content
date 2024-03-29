@@ -1,0 +1,44 @@
+explorerTitle	Population with primary reliance on fuels and technologies for cooking, by fuel type (in millions) - Residence area type: 
+selection	World
+
+graphers
+	residence_area_type Dropdown	cooking_fuel Dropdown	yVariableIds	hasMapTab
+	Rural	Biomass	829349	true
+	Rural	Charcoal	829350	true
+	Rural	Coal	829351	true
+	Rural	Electricity	829352	true
+	Rural	Gas	829353	true
+	Rural	Kerosene	829354	true
+	Total	Biomass	829355	true
+	Total	Charcoal	829356	true
+	Total	Coal	829357	true
+	Total	Electricity	829358	true
+	Total	Gas	829359	true
+	Total	Kerosene	829360	true
+	Urban	Biomass	829361	true
+	Urban	Charcoal	829362	true
+	Urban	Coal	829363	true
+	Urban	Electricity	829364	true
+	Urban	Gas	829365	true
+	Urban	Kerosene	829366	true
+
+columns
+	variableId
+	829349
+	829350
+	829351
+	829352
+	829353
+	829354
+	829355
+	829356
+	829357
+	829358
+	829359
+	829360
+	829361
+	829362
+	829363
+	829364
+	829365
+	829366

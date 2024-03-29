@@ -1,0 +1,122 @@
+explorerTitle	nMx - age-specific death rate between ages x and x+n - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	age_group Dropdown	yVariableIds	hasMapTab
+	both sexes	1-4 years	828669	true
+	both sexes	10-14 years	828670	true
+	both sexes	15-19  years	828671	true
+	both sexes	20-24 years	828672	true
+	both sexes	25-29 years	828673	true
+	both sexes	30-34 years	828674	true
+	both sexes	35-39 years	828675	true
+	both sexes	40-44 years	828676	true
+	both sexes	45-49 years	828677	true
+	both sexes	5-9 years	828678	true
+	both sexes	50-54 years	828679	true
+	both sexes	55-59 years	828680	true
+	both sexes	60-64 years	828681	true
+	both sexes	65-69 years	828682	true
+	both sexes	70-74 years	828683	true
+	both sexes	75-79 years	828684	true
+	both sexes	80-84 years	828685	true
+	both sexes	85+ years	828686	true
+	both sexes	<1 year	828687	true
+	female	1-4 years	828688	true
+	female	10-14 years	828689	true
+	female	15-19  years	828690	true
+	female	20-24 years	828691	true
+	female	25-29 years	828692	true
+	female	30-34 years	828693	true
+	female	35-39 years	828694	true
+	female	40-44 years	828695	true
+	female	45-49 years	828696	true
+	female	5-9 years	828697	true
+	female	50-54 years	828698	true
+	female	55-59 years	828699	true
+	female	60-64 years	828700	true
+	female	65-69 years	828701	true
+	female	70-74 years	828702	true
+	female	75-79 years	828703	true
+	female	80-84 years	828704	true
+	female	85+ years	828705	true
+	female	<1 year	828706	true
+	male	1-4 years	828707	true
+	male	10-14 years	828708	true
+	male	15-19  years	828709	true
+	male	20-24 years	828710	true
+	male	25-29 years	828711	true
+	male	30-34 years	828712	true
+	male	35-39 years	828713	true
+	male	40-44 years	828714	true
+	male	45-49 years	828715	true
+	male	5-9 years	828716	true
+	male	50-54 years	828717	true
+	male	55-59 years	828718	true
+	male	60-64 years	828719	true
+	male	65-69 years	828720	true
+	male	70-74 years	828721	true
+	male	75-79 years	828722	true
+	male	80-84 years	828723	true
+	male	85+ years	828724	true
+	male	<1 year	828725	true
+
+columns
+	variableId
+	828669
+	828670
+	828671
+	828672
+	828673
+	828674
+	828675
+	828676
+	828677
+	828678
+	828679
+	828680
+	828681
+	828682
+	828683
+	828684
+	828685
+	828686
+	828687
+	828688
+	828689
+	828690
+	828691
+	828692
+	828693
+	828694
+	828695
+	828696
+	828697
+	828698
+	828699
+	828700
+	828701
+	828702
+	828703
+	828704
+	828705
+	828706
+	828707
+	828708
+	828709
+	828710
+	828711
+	828712
+	828713
+	828714
+	828715
+	828716
+	828717
+	828718
+	828719
+	828720
+	828721
+	828722
+	828723
+	828724
+	828725

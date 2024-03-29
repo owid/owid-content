@@ -1,0 +1,12 @@
+explorerTitle	Point prevalence (%), alcohol use disorders, 15+ years - Sex: 
+selection	World
+
+graphers
+	sex Checkbox	yVariableIds	hasMapTab
+	female	829223	true
+	male	829224	true
+
+columns
+	variableId
+	829223
+	829224

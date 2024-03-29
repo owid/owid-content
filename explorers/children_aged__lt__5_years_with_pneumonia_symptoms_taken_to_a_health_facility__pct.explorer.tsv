@@ -1,0 +1,14 @@
+explorerTitle	Children aged < 5 years with pneumonia symptoms taken to a health facility (%) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	824736	true
+	female	824737	true
+	male	824738	true
+
+columns
+	variableId
+	824736
+	824737
+	824738

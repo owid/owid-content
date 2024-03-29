@@ -1,0 +1,18 @@
+explorerTitle	Access restrictions - Sunbed access restrictions: 
+selection	World
+
+graphers
+	sunbed_access_restrictions Dropdown	yVariableIds	hasMapTab
+	Age limit	821638	true
+	Ban	821639	true
+	Ban on hire/sale of sunbeds	821640	true
+	Ban on unsupervised operations	821641	true
+	Sensitive skin type (e.g. Fitzpatrick skin type 1)	821642	true
+
+columns
+	variableId
+	821638
+	821639
+	821640
+	821641
+	821642

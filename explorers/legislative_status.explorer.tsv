@@ -1,0 +1,20 @@
+explorerTitle	Legislative status - Exposed: 
+selection	World
+
+graphers
+	exposed Checkbox	frequency Dropdown	yVariableIds	hasMapTab
+	Public	Low-frequency	828067	true
+	Public	Radiofrequency	828068	true
+	Public	Static	828069	true
+	Workers	Low-frequency	828070	true
+	Workers	Radiofrequency	828071	true
+	Workers	Static	828072	true
+
+columns
+	variableId
+	828067
+	828068
+	828069
+	828070
+	828071
+	828072

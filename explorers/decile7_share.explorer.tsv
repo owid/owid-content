@@ -1,0 +1,12 @@
+explorerTitle	7th decile - Share (
+selection	World
+
+graphers
+	table Checkbox	yVariableIds	hasMapTab
+	Equivalized income	831550	true
+	Per capita income	831573	true
+
+columns
+	variableId
+	831550
+	831573

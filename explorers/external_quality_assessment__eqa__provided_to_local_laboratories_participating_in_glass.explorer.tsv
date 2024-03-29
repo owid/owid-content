@@ -1,0 +1,18 @@
+explorerTitle	External Quality Assessment (EQA) provided to local laboratories participating in GLASS - Amr glass category: 
+selection	World
+
+graphers
+	amr_glass_category Dropdown	yVariableIds	hasMapTab
+	All laboratories	825959	true
+	Not enrolled in GLASS	825960	true
+	Not provided	825961	true
+	Not reported	825962	true
+	Some laboratories	825963	true
+
+columns
+	variableId
+	825959
+	825960
+	825961
+	825962
+	825963

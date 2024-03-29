@@ -1,0 +1,14 @@
+explorerTitle	Share of the 
+selection	World
+
+graphers
+	residence Dropdown	yVariableIds	hasMapTab
+	Rural	820098	true
+	Total	820166	true
+	Urban	820234	true
+
+columns
+	variableId
+	820098
+	820166
+	820234

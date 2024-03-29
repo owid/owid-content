@@ -1,0 +1,56 @@
+explorerTitle	Neonatal mortality rate (deaths per 1000 live births) - 
+selection	World
+
+graphers
+	sex Checkbox	age_group Checkbox	mothers_education_level Dropdown	residence_area_type Checkbox	wealth_quintile Dropdown	wealth_decile Dropdown	yVariableIds	hasMapTab
+	female						828553	true
+	male						828554	true
+		15-19 years					828555	true
+		20-49 years					828556	true
+			None				828557	true
+			Primary				828558	true
+			Secondary or higher				828559	true
+				Rural			828560	true
+				Urban			828561	true
+					Q1 (Poorest)		828562	true
+					Q3		828563	true
+					Q2		828564	true
+					Q4		828565	true
+					Q5 (Richest)		828566	true
+						Decile 1 (poorest)	828567	true
+						Decile 10 (richest)	828568	true
+						Decile 2	828569	true
+						Decile 3	828570	true
+						Decile 4	828571	true
+						Decile 5	828572	true
+						Decile 6	828573	true
+						Decile 7	828574	true
+						Decile 8	828575	true
+						Decile 9	828576	true
+
+columns
+	variableId
+	828553
+	828554
+	828555
+	828556
+	828557
+	828558
+	828559
+	828560
+	828561
+	828562
+	828563
+	828564
+	828565
+	828566
+	828567
+	828568
+	828569
+	828570
+	828571
+	828572
+	828573
+	828574
+	828575
+	828576

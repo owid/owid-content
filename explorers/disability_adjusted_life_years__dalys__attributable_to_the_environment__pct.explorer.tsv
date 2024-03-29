@@ -1,0 +1,14 @@
+explorerTitle	Disability-adjusted life years (DALYs) attributable to the environment (%) - 
+selection	World
+
+graphers
+	age_group Checkbox	yVariableIds	hasMapTab
+	0-4 years	825362	true
+	Total (All ages)	825363	true
+		825364	true
+
+columns
+	variableId
+	825362
+	825363
+	825364

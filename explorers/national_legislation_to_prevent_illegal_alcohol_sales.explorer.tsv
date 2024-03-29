@@ -1,0 +1,14 @@
+explorerTitle	National legislation to prevent illegal alcohol sales - Beverage types: 
+selection	World
+
+graphers
+	beverage_types Dropdown	yVariableIds	hasMapTab
+	Spirits	828528	true
+	Beer	828529	true
+	Wine	828530	true
+
+columns
+	variableId
+	828528
+	828529
+	828530

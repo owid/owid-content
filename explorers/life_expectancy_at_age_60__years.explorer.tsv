@@ -1,0 +1,14 @@
+explorerTitle	Life expectancy at age 60 (years) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	828109	true
+	female	828110	true
+	male	828111	true
+
+columns
+	variableId
+	828109
+	828110
+	828111

@@ -1,0 +1,12 @@
+explorerTitle	Maximum speed limits - Residence area type: 
+selection	World
+
+graphers
+	residence_area_type Checkbox	yVariableIds	hasMapTab
+	Rural	828225	true
+	Urban	828226	true
+
+columns
+	variableId
+	828225
+	828226

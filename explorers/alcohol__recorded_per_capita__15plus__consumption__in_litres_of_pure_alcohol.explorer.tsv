@@ -1,0 +1,18 @@
+explorerTitle	Alcohol, recorded per capita (15+) consumption (in litres of pure alcohol) - Beverage types: 
+selection	World
+
+graphers
+	beverage_types Dropdown	yVariableIds	hasMapTab
+	All types	821936	true
+	Beer	821937	true
+	Other alcoholic beverages	821938	true
+	Spirits	821939	true
+	Wine	821940	true
+
+columns
+	variableId
+	821936
+	821937
+	821938
+	821939
+	821940

@@ -1,0 +1,14 @@
+explorerTitle	Age-standardized death rates, cerebrovascular disease, per 100,000 - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	821820	true
+	female	821821	true
+	male	821822	true
+
+columns
+	variableId
+	821820
+	821821
+	821822

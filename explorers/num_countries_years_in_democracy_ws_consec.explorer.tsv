@@ -1,0 +1,18 @@
+explorerTitle	Number of democracies (incl. women's suffrage) aged 
+selection	World
+
+graphers
+	category Dropdown	yVariableIds	hasMapTab
+	1-18	831005	true
+	19-30	831007	true
+	31-60	831009	true
+	61-90	831011	true
+	91+	831013	true
+
+columns
+	variableId
+	831005
+	831007
+	831009
+	831011
+	831013

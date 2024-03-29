@@ -1,0 +1,12 @@
+explorerTitle	Epidemiological data collection system for substance use disorders - Rsud substance types: 
+selection	World
+
+graphers
+	rsud_substance_types Checkbox	yVariableIds	hasMapTab
+	Alcohol	825544	true
+	Drugs	825545	true
+
+columns
+	variableId
+	825544
+	825545

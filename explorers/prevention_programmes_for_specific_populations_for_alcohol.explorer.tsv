@@ -1,0 +1,36 @@
+explorerTitle	Prevention programmes for specific populations for alcohol - Specific populations: 
+selection	World
+
+graphers
+	specific_populations Dropdown	yVariableIds	hasMapTab
+	Children and adolescents in the general population	829861	true
+	Children at risk and their families	829862	true
+	Commercial sex workers	829863	true
+	Elderly	829864	true
+	Minority groups	829865	true
+	Indigenous people	829866	true
+	Parents in the general population	829867	true
+	People living with HIV/AIDS	829868	true
+	People with tuberculosis	829869	true
+	Persons with mental health disorders	829870	true
+	Pregnant women	829871	true
+	Prisoners	829872	true
+	Refugees	829873	true
+	Young adults	829874	true
+
+columns
+	variableId
+	829861
+	829862
+	829863
+	829864
+	829865
+	829866
+	829867
+	829868
+	829869
+	829870
+	829871
+	829872
+	829873
+	829874

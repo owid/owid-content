@@ -1,0 +1,72 @@
+explorerTitle	Met need of assistive products as proportion of need (%) - 
+selection	World
+
+graphers
+	sex Dropdown	assistive_technology_product Checkbox	age_group Dropdown	residence_area_type Dropdown	yVariableIds	hasMapTab
+	both sexes	Total			828318	true
+	both sexes	Total, excluding spectacles			828319	true
+	female	Total			828320	true
+	female	Total, excluding spectacles			828321	true
+	male	Total			828322	true
+	male	Total, excluding spectacles			828323	true
+		Total	0-4 years		828324	true
+		Total, excluding spectacles	0-4 years		828325	true
+		Total	18-29 years		828326	true
+		Total, excluding spectacles	18-29 years		828327	true
+		Total	30-39  years		828328	true
+		Total, excluding spectacles	30-39  years		828329	true
+		Total	40-49  years		828330	true
+		Total, excluding spectacles	40-49  years		828331	true
+		Total, excluding spectacles	5-17 years		828332	true
+		Total	5-17 years		828333	true
+		Total	50-59  years		828334	true
+		Total, excluding spectacles	50-59  years		828335	true
+		Total	60-69  years		828336	true
+		Total, excluding spectacles	60-69  years		828337	true
+		Total	70-79 years		828338	true
+		Total, excluding spectacles	70-79 years		828339	true
+		Total	80+ years		828340	true
+		Total, excluding spectacles	80+ years		828341	true
+		Total	Total (All ages)		828342	true
+		Total, excluding spectacles	Total (All ages)		828343	true
+		Total		Rural	828344	true
+		Total, excluding spectacles		Rural	828345	true
+		Total		Total	828346	true
+		Total, excluding spectacles		Total	828347	true
+		Total		Urban	828348	true
+		Total, excluding spectacles		Urban	828349	true
+
+columns
+	variableId
+	828318
+	828319
+	828320
+	828321
+	828322
+	828323
+	828324
+	828325
+	828326
+	828327
+	828328
+	828329
+	828330
+	828331
+	828332
+	828333
+	828334
+	828335
+	828336
+	828337
+	828338
+	828339
+	828340
+	828341
+	828342
+	828343
+	828344
+	828345
+	828346
+	828347
+	828348
+	828349

@@ -1,0 +1,14 @@
+explorerTitle	Age-standardized death rates, road traffic accidents, per 100,000 - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	821871	true
+	female	821872	true
+	male	821873	true
+
+columns
+	variableId
+	821871
+	821872
+	821873

@@ -1,0 +1,98 @@
+explorerTitle	Schizophrenia disorders (share of population) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	age Dropdown	yVariableIds	hasMapTab
+	Both	15-19 years	688518	true
+	Both	20-24 years	688526	true
+	Both	25-29 years	688537	true
+	Both	30-34 years	688546	true
+	Both	35-39 years	688556	true
+	Both	40-44 years	688565	true
+	Both	45-49 years	688577	true
+	Both	5-14 years	688586	true
+	Both	50-54 years	688595	true
+	Both	55-59 years	688607	true
+	Both	60-64 years	688617	true
+	Both	65-69 years	688626	true
+	Both	70+ years	688638	true
+	Both	Age-standardized	688648	true
+	Both	All ages	688656	true
+	Female	15-19 years	688668	true
+	Female	20-24 years	688676	true
+	Female	25-29 years	688686	true
+	Female	30-34 years	688695	true
+	Female	35-39 years	688706	true
+	Female	40-44 years	688714	true
+	Female	45-49 years	688726	true
+	Female	5-14 years	688736	true
+	Female	50-54 years	688745	true
+	Female	55-59 years	688756	true
+	Female	60-64 years	688767	true
+	Female	65-69 years	688777	true
+	Female	70+ years	688787	true
+	Female	Age-standardized	688795	true
+	Female	All ages	688805	true
+	Male	15-19 years	688818	true
+	Male	20-24 years	688826	true
+	Male	25-29 years	688835	true
+	Male	30-34 years	688846	true
+	Male	35-39 years	688852	true
+	Male	40-44 years	688866	true
+	Male	45-49 years	688873	true
+	Male	5-14 years	688887	true
+	Male	50-54 years	688896	true
+	Male	55-59 years	688906	true
+	Male	60-64 years	688915	true
+	Male	65-69 years	688926	true
+	Male	70+ years	688937	true
+	Male	Age-standardized	688948	true
+	Male	All ages	688955	true
+
+columns
+	variableId
+	688518
+	688526
+	688537
+	688546
+	688556
+	688565
+	688577
+	688586
+	688595
+	688607
+	688617
+	688626
+	688638
+	688648
+	688656
+	688668
+	688676
+	688686
+	688695
+	688706
+	688714
+	688726
+	688736
+	688745
+	688756
+	688767
+	688777
+	688787
+	688795
+	688805
+	688818
+	688826
+	688835
+	688846
+	688852
+	688866
+	688873
+	688887
+	688896
+	688906
+	688915
+	688926
+	688937
+	688948
+	688955

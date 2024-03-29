@@ -1,0 +1,20 @@
+explorerTitle	Financing methods for treatment for drug use disorders - Rsud programmes: 
+selection	World
+
+graphers
+	rsud_programmes Dropdown	yVariableIds	hasMapTab
+	In-patient detoxification	825975	true
+	In-patient treatment	825976	true
+	Opioid agonist maintenance therapy	825977	true
+	Out-patient detoxification	825978	true
+	Out-patient treatment	825979	true
+	Rehabilitation	825980	true
+
+columns
+	variableId
+	825975
+	825976
+	825977
+	825978
+	825979
+	825980

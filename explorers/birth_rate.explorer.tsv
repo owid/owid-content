@@ -1,0 +1,18 @@
+explorerTitle	Birth rate - Sex: all - Age: all - Variant: 
+selection	World
+
+graphers
+	variant Dropdown	yVariableIds	hasMapTab
+	estimates	521026	true
+	medium	521027	true
+	high	521028	true
+	low	521029	true
+	constant fertility	521030	true
+
+columns
+	variableId
+	521026
+	521027
+	521028
+	521029
+	521030

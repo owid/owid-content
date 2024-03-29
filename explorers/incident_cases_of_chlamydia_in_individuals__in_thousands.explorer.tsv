@@ -1,0 +1,12 @@
+explorerTitle	Incident cases of chlamydia in individuals (in thousands) - Sex: 
+selection	World
+
+graphers
+	sex Checkbox	yVariableIds	hasMapTab
+	female	827848	true
+	male	827849	true
+
+columns
+	variableId
+	827848
+	827849

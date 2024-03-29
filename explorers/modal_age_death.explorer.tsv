@@ -1,0 +1,12 @@
+explorerTitle	Adult modal age at death - Sex: 
+selection	World
+
+graphers
+	sex Checkbox	yVariableIds	hasMapTab
+	females	816277	true
+	males	816278	true
+
+columns
+	variableId
+	816277
+	816278

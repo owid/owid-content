@@ -1,0 +1,18 @@
+explorerTitle	Percentage of health-care facilities with unreliable electricity supply (%) - 
+selection	World
+
+graphers
+	residence_area_type Checkbox	health_care_facility_type Dropdown	yVariableIds	hasMapTab
+	Rural		829162	true
+	Urban		829163	true
+		All health-care facilities	829164	true
+		Hospital	829165	true
+		Non-hospital	829166	true
+
+columns
+	variableId
+	829162
+	829163
+	829164
+	829165
+	829166

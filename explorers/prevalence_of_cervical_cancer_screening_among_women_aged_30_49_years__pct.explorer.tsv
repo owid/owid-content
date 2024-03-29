@@ -1,0 +1,16 @@
+explorerTitle	Prevalence of cervical cancer screening among women aged 30-49 years (%) - Sex: female - Age group: 30-49 years of age - Time period: in 
+selection	World
+
+graphers
+	time_period Dropdown	yVariableIds	hasMapTab
+	in lifetime	829507	true
+	in the last five years	829508	true
+	in the last three years	829509	true
+	in the last year	829510	true
+
+columns
+	variableId
+	829507
+	829508
+	829509
+	829510

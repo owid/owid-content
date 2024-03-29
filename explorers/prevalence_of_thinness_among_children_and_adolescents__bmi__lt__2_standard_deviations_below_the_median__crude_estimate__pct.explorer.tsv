@@ -1,0 +1,26 @@
+explorerTitle	Prevalence of thinness among children and adolescents, BMI < -2 standard deviations below the median (crude estimate) (%) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	age_group Dropdown	yVariableIds	hasMapTab
+	both sexes	10-19 years of age	829724	true
+	both sexes	5-19  years	829725	true
+	both sexes	5-9 years of age	829726	true
+	female	10-19 years of age	829727	true
+	female	5-19  years	829728	true
+	female	5-9 years of age	829729	true
+	male	10-19 years of age	829730	true
+	male	5-19  years	829731	true
+	male	5-9 years of age	829732	true
+
+columns
+	variableId
+	829724
+	829725
+	829726
+	829727
+	829728
+	829729
+	829730
+	829731
+	829732

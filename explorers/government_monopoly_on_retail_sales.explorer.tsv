@@ -1,0 +1,14 @@
+explorerTitle	Government monopoly on retail sales - Beverage types: 
+selection	World
+
+graphers
+	beverage_types Dropdown	yVariableIds	hasMapTab
+	Beer	826118	true
+	Spirits	826119	true
+	Wine	826120	true
+
+columns
+	variableId
+	826118
+	826119
+	826120

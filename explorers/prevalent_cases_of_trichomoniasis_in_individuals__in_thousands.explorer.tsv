@@ -1,0 +1,12 @@
+explorerTitle	Prevalent cases of trichomoniasis in individuals (in thousands) - Sex: 
+selection	World
+
+graphers
+	sex Checkbox	yVariableIds	hasMapTab
+	female	829842	true
+	male	829843	true
+
+columns
+	variableId
+	829842
+	829843

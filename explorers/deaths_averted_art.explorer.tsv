@@ -1,0 +1,14 @@
+explorerTitle	Deaths averted due to antiretroviral therapy - Disaggregation: 
+selection	World
+
+graphers
+	disaggregation Dropdown	yVariableIds	hasMapTab
+	estimate	789984	true
+	lower estimate	789987	true
+	upper estimate	789990	true
+
+columns
+	variableId
+	789984
+	789987
+	789990

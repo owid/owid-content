@@ -1,0 +1,16 @@
+explorerTitle	Age-standardized DALYs attributable to the environment (per 100 000 population) - Cause: 
+selection	World
+
+graphers
+	cause Dropdown	yVariableIds	hasMapTab
+	Infectious, parasitic, neonatal and nutritional	821797	true
+	Injuries	821798	true
+	Noncommunicable diseases	821799	true
+	Total	821800	true
+
+columns
+	variableId
+	821797
+	821798
+	821799
+	821800

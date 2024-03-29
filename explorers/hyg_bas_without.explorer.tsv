@@ -1,0 +1,14 @@
+explorerTitle	Share of the population without access to a handwashing facility with soap and water at home (basic hygiene service) - Residence: 
+selection	World
+
+graphers
+	residence Dropdown	yVariableIds	hasMapTab
+	Rural	820160	true
+	Total	820228	true
+	Urban	820296	true
+
+columns
+	variableId
+	820160
+	820228
+	820296

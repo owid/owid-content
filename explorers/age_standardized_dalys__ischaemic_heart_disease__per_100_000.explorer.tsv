@@ -1,0 +1,14 @@
+explorerTitle	Age-standardized DALYs, ischaemic heart disease, per 100,000 - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	821760	true
+	female	821761	true
+	male	821762	true
+
+columns
+	variableId
+	821760
+	821761
+	821762

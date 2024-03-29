@@ -1,0 +1,36 @@
+explorerTitle	Central death rate ratio (m/f) - Type: 
+selection	World
+
+graphers
+	type Checkbox	age Dropdown	yVariableIds	hasMapTab
+	cohort	0	815628	true
+	cohort	10	815629	true
+	cohort	15	815630	true
+	cohort	25	815631	true
+	cohort	45	815632	true
+	cohort	65	815633	true
+	cohort	80	815634	true
+	period	0	815635	true
+	period	10	815636	true
+	period	15	815637	true
+	period	25	815638	true
+	period	45	815639	true
+	period	65	815640	true
+	period	80	815641	true
+
+columns
+	variableId
+	815628
+	815629
+	815630
+	815631
+	815632
+	815633
+	815634
+	815635
+	815636
+	815637
+	815638
+	815639
+	815640
+	815641

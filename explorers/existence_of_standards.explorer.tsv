@@ -1,0 +1,20 @@
+explorerTitle	Existence of standards - Exposed: 
+selection	World
+
+graphers
+	exposed Checkbox	frequency Dropdown	yVariableIds	hasMapTab
+	Public	Low-frequency	825928	true
+	Public	Radiofrequency	825929	true
+	Public	Static	825930	true
+	Workers	Low-frequency	825931	true
+	Workers	Static	825932	true
+	Workers	Radiofrequency	825933	true
+
+columns
+	variableId
+	825928
+	825929
+	825930
+	825931
+	825932
+	825933

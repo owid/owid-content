@@ -1,0 +1,526 @@
+explorerTitle	Household air pollution attributable DALYs (per 100 000 population) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	age_group Dropdown	cause Dropdown	yVariableIds	hasMapTab
+	both sexes	0-4 years	Lower respiratory infections	826777	true
+	both sexes	10-14 years	Lower respiratory infections	826778	true
+	both sexes	20-24 years	Lower respiratory infections	826779	true
+	both sexes	15-19  years	Lower respiratory infections	826780	true
+	both sexes	25-29 years	Chronic obstructive pulmonary disease	826781	true
+	both sexes	25-29 years	Cataracts	826782	true
+	both sexes	25-29 years	Ischaemic heart disease	826783	true
+	both sexes	25-29 years	Lower respiratory infections	826784	true
+	both sexes	25-29 years	Stroke	826785	true
+	both sexes	25-29 years	Trachea, bronchus, lung cancers	826786	true
+	both sexes	30-34 years	Cataracts	826787	true
+	both sexes	30-34 years	Chronic obstructive pulmonary disease	826788	true
+	both sexes	30-34 years	Ischaemic heart disease	826789	true
+	both sexes	30-34 years	Lower respiratory infections	826790	true
+	both sexes	30-34 years	Stroke	826791	true
+	both sexes	30-34 years	Trachea, bronchus, lung cancers	826792	true
+	both sexes	35-39 years	Cataracts	826793	true
+	both sexes	35-39 years	Chronic obstructive pulmonary disease	826794	true
+	both sexes	35-39 years	Ischaemic heart disease	826795	true
+	both sexes	35-39 years	Lower respiratory infections	826796	true
+	both sexes	40-44 years	Cataracts	826797	true
+	both sexes	35-39 years	Trachea, bronchus, lung cancers	826798	true
+	both sexes	35-39 years	Stroke	826799	true
+	both sexes	40-44 years	Chronic obstructive pulmonary disease	826800	true
+	both sexes	40-44 years	Ischaemic heart disease	826801	true
+	both sexes	40-44 years	Lower respiratory infections	826802	true
+	both sexes	40-44 years	Stroke	826803	true
+	both sexes	40-44 years	Trachea, bronchus, lung cancers	826804	true
+	both sexes	45-49 years	Cataracts	826805	true
+	both sexes	45-49 years	Chronic obstructive pulmonary disease	826806	true
+	both sexes	45-49 years	Ischaemic heart disease	826807	true
+	both sexes	45-49 years	Lower respiratory infections	826808	true
+	both sexes	45-49 years	Stroke	826809	true
+	both sexes	45-49 years	Trachea, bronchus, lung cancers	826810	true
+	both sexes	5-9 years	Lower respiratory infections	826811	true
+	both sexes	50-54 years	Cataracts	826812	true
+	both sexes	50-54 years	Chronic obstructive pulmonary disease	826813	true
+	both sexes	50-54 years	Lower respiratory infections	826814	true
+	both sexes	50-54 years	Ischaemic heart disease	826815	true
+	both sexes	50-54 years	Stroke	826816	true
+	both sexes	50-54 years	Trachea, bronchus, lung cancers	826817	true
+	both sexes	55-59 years	Cataracts	826818	true
+	both sexes	55-59 years	Chronic obstructive pulmonary disease	826819	true
+	both sexes	55-59 years	Ischaemic heart disease	826820	true
+	both sexes	55-59 years	Lower respiratory infections	826821	true
+	both sexes	55-59 years	Stroke	826822	true
+	both sexes	55-59 years	Trachea, bronchus, lung cancers	826823	true
+	both sexes	60-64 years	Cataracts	826824	true
+	both sexes	60-64 years	Chronic obstructive pulmonary disease	826825	true
+	both sexes	60-64 years	Ischaemic heart disease	826826	true
+	both sexes	60-64 years	Lower respiratory infections	826827	true
+	both sexes	60-64 years	Stroke	826828	true
+	both sexes	60-64 years	Trachea, bronchus, lung cancers	826829	true
+	both sexes	65-69 years	Cataracts	826830	true
+	both sexes	65-69 years	Chronic obstructive pulmonary disease	826831	true
+	both sexes	65-69 years	Ischaemic heart disease	826832	true
+	both sexes	65-69 years	Lower respiratory infections	826833	true
+	both sexes	65-69 years	Stroke	826834	true
+	both sexes	65-69 years	Trachea, bronchus, lung cancers	826835	true
+	both sexes	70-74 years	Cataracts	826836	true
+	both sexes	70-74 years	Chronic obstructive pulmonary disease	826837	true
+	both sexes	70-74 years	Ischaemic heart disease	826838	true
+	both sexes	70-74 years	Lower respiratory infections	826839	true
+	both sexes	70-74 years	Stroke	826840	true
+	both sexes	70-74 years	Trachea, bronchus, lung cancers	826841	true
+	both sexes	75-79 years	Cataracts	826842	true
+	both sexes	75-79 years	Chronic obstructive pulmonary disease	826843	true
+	both sexes	75-79 years	Ischaemic heart disease	826844	true
+	both sexes	75-79 years	Lower respiratory infections	826845	true
+	both sexes	75-79 years	Trachea, bronchus, lung cancers	826846	true
+	both sexes	75-79 years	Stroke	826847	true
+	both sexes	80+ years	Cataracts	826848	true
+	both sexes	80+ years	Chronic obstructive pulmonary disease	826849	true
+	both sexes	80+ years	Ischaemic heart disease	826850	true
+	both sexes	80+ years	Lower respiratory infections	826851	true
+	both sexes	80+ years	Trachea, bronchus, lung cancers	826852	true
+	both sexes	80+ years	Stroke	826853	true
+	both sexes	Total (All ages)	Cataracts	826854	true
+	both sexes	Total (All ages)	Chronic obstructive pulmonary disease	826855	true
+	both sexes	Total (All ages)	Ischaemic heart disease	826856	true
+	both sexes	Total (All ages)	Lower respiratory infections	826857	true
+	both sexes	Total (All ages)	Stroke	826858	true
+	both sexes	Total (All ages)	Total	826859	true
+	both sexes	Total (All ages)	Trachea, bronchus, lung cancers	826860	true
+	both sexes		Cataracts	826861	true
+	both sexes		Chronic obstructive pulmonary disease	826862	true
+	both sexes		Ischaemic heart disease	826863	true
+	both sexes		Lower respiratory infections	826864	true
+	both sexes		Stroke	826865	true
+	both sexes		Total	826866	true
+	both sexes		Trachea, bronchus, lung cancers	826867	true
+	female	0-4 years	Lower respiratory infections	826868	true
+	female	10-14 years	Lower respiratory infections	826869	true
+	female	15-19  years	Lower respiratory infections	826870	true
+	female	20-24 years	Lower respiratory infections	826871	true
+	female	25-29 years	Cataracts	826872	true
+	female	25-29 years	Ischaemic heart disease	826873	true
+	female	25-29 years	Chronic obstructive pulmonary disease	826874	true
+	female	25-29 years	Lower respiratory infections	826875	true
+	female	25-29 years	Stroke	826876	true
+	female	25-29 years	Trachea, bronchus, lung cancers	826877	true
+	female	30-34 years	Cataracts	826878	true
+	female	30-34 years	Chronic obstructive pulmonary disease	826879	true
+	female	30-34 years	Ischaemic heart disease	826880	true
+	female	30-34 years	Lower respiratory infections	826881	true
+	female	30-34 years	Stroke	826882	true
+	female	30-34 years	Trachea, bronchus, lung cancers	826883	true
+	female	35-39 years	Cataracts	826884	true
+	female	35-39 years	Chronic obstructive pulmonary disease	826885	true
+	female	35-39 years	Ischaemic heart disease	826886	true
+	female	35-39 years	Lower respiratory infections	826887	true
+	female	35-39 years	Stroke	826888	true
+	female	35-39 years	Trachea, bronchus, lung cancers	826889	true
+	female	40-44 years	Cataracts	826890	true
+	female	40-44 years	Chronic obstructive pulmonary disease	826891	true
+	female	40-44 years	Ischaemic heart disease	826892	true
+	female	40-44 years	Lower respiratory infections	826893	true
+	female	40-44 years	Stroke	826894	true
+	female	40-44 years	Trachea, bronchus, lung cancers	826895	true
+	female	45-49 years	Chronic obstructive pulmonary disease	826896	true
+	female	45-49 years	Cataracts	826897	true
+	female	45-49 years	Ischaemic heart disease	826898	true
+	female	45-49 years	Lower respiratory infections	826899	true
+	female	45-49 years	Stroke	826900	true
+	female	45-49 years	Trachea, bronchus, lung cancers	826901	true
+	female	5-9 years	Lower respiratory infections	826902	true
+	female	50-54 years	Cataracts	826903	true
+	female	50-54 years	Chronic obstructive pulmonary disease	826904	true
+	female	50-54 years	Ischaemic heart disease	826905	true
+	female	50-54 years	Lower respiratory infections	826906	true
+	female	50-54 years	Trachea, bronchus, lung cancers	826907	true
+	female	50-54 years	Stroke	826908	true
+	female	55-59 years	Cataracts	826909	true
+	female	55-59 years	Chronic obstructive pulmonary disease	826910	true
+	female	55-59 years	Ischaemic heart disease	826911	true
+	female	55-59 years	Lower respiratory infections	826912	true
+	female	55-59 years	Stroke	826913	true
+	female	55-59 years	Trachea, bronchus, lung cancers	826914	true
+	female	60-64 years	Chronic obstructive pulmonary disease	826915	true
+	female	60-64 years	Cataracts	826916	true
+	female	60-64 years	Ischaemic heart disease	826917	true
+	female	60-64 years	Lower respiratory infections	826918	true
+	female	60-64 years	Stroke	826919	true
+	female	60-64 years	Trachea, bronchus, lung cancers	826920	true
+	female	65-69 years	Cataracts	826921	true
+	female	65-69 years	Chronic obstructive pulmonary disease	826922	true
+	female	65-69 years	Ischaemic heart disease	826923	true
+	female	65-69 years	Lower respiratory infections	826924	true
+	female	65-69 years	Stroke	826925	true
+	female	65-69 years	Trachea, bronchus, lung cancers	826926	true
+	female	70-74 years	Cataracts	826927	true
+	female	70-74 years	Chronic obstructive pulmonary disease	826928	true
+	female	70-74 years	Ischaemic heart disease	826929	true
+	female	70-74 years	Lower respiratory infections	826930	true
+	female	70-74 years	Trachea, bronchus, lung cancers	826931	true
+	female	70-74 years	Stroke	826932	true
+	female	75-79 years	Cataracts	826933	true
+	female	75-79 years	Chronic obstructive pulmonary disease	826934	true
+	female	75-79 years	Ischaemic heart disease	826935	true
+	female	75-79 years	Lower respiratory infections	826936	true
+	female	75-79 years	Stroke	826937	true
+	female	75-79 years	Trachea, bronchus, lung cancers	826938	true
+	female	80+ years	Cataracts	826939	true
+	female	80+ years	Chronic obstructive pulmonary disease	826940	true
+	female	80+ years	Ischaemic heart disease	826941	true
+	female	80+ years	Lower respiratory infections	826942	true
+	female	80+ years	Stroke	826943	true
+	female	80+ years	Trachea, bronchus, lung cancers	826944	true
+	female	Total (All ages)	Cataracts	826945	true
+	female	Total (All ages)	Chronic obstructive pulmonary disease	826946	true
+	female	Total (All ages)	Ischaemic heart disease	826947	true
+	female	Total (All ages)	Lower respiratory infections	826948	true
+	female	Total (All ages)	Stroke	826949	true
+	female	Total (All ages)	Total	826950	true
+	female	Total (All ages)	Trachea, bronchus, lung cancers	826951	true
+	female		Cataracts	826952	true
+	female		Chronic obstructive pulmonary disease	826953	true
+	female		Ischaemic heart disease	826954	true
+	female		Lower respiratory infections	826955	true
+	female		Stroke	826956	true
+	female		Total	826957	true
+	female		Trachea, bronchus, lung cancers	826958	true
+	male	0-4 years	Lower respiratory infections	826959	true
+	male	10-14 years	Lower respiratory infections	826960	true
+	male	15-19  years	Lower respiratory infections	826961	true
+	male	20-24 years	Lower respiratory infections	826962	true
+	male	25-29 years	Chronic obstructive pulmonary disease	826963	true
+	male	25-29 years	Ischaemic heart disease	826964	true
+	male	25-29 years	Lower respiratory infections	826965	true
+	male	25-29 years	Stroke	826966	true
+	male	25-29 years	Trachea, bronchus, lung cancers	826967	true
+	male	30-34 years	Chronic obstructive pulmonary disease	826968	true
+	male	30-34 years	Ischaemic heart disease	826969	true
+	male	30-34 years	Lower respiratory infections	826970	true
+	male	30-34 years	Stroke	826971	true
+	male	30-34 years	Trachea, bronchus, lung cancers	826972	true
+	male	35-39 years	Chronic obstructive pulmonary disease	826973	true
+	male	35-39 years	Ischaemic heart disease	826974	true
+	male	35-39 years	Lower respiratory infections	826975	true
+	male	35-39 years	Stroke	826976	true
+	male	40-44 years	Chronic obstructive pulmonary disease	826977	true
+	male	35-39 years	Trachea, bronchus, lung cancers	826978	true
+	male	40-44 years	Ischaemic heart disease	826979	true
+	male	40-44 years	Lower respiratory infections	826980	true
+	male	40-44 years	Stroke	826981	true
+	male	45-49 years	Chronic obstructive pulmonary disease	826982	true
+	male	40-44 years	Trachea, bronchus, lung cancers	826983	true
+	male	45-49 years	Lower respiratory infections	826984	true
+	male	45-49 years	Ischaemic heart disease	826985	true
+	male	45-49 years	Stroke	826986	true
+	male	45-49 years	Trachea, bronchus, lung cancers	826987	true
+	male	50-54 years	Chronic obstructive pulmonary disease	826988	true
+	male	5-9 years	Lower respiratory infections	826989	true
+	male	50-54 years	Ischaemic heart disease	826990	true
+	male	50-54 years	Lower respiratory infections	826991	true
+	male	50-54 years	Stroke	826992	true
+	male	50-54 years	Trachea, bronchus, lung cancers	826993	true
+	male	55-59 years	Chronic obstructive pulmonary disease	826994	true
+	male	55-59 years	Ischaemic heart disease	826995	true
+	male	55-59 years	Lower respiratory infections	826996	true
+	male	55-59 years	Stroke	826997	true
+	male	55-59 years	Trachea, bronchus, lung cancers	826998	true
+	male	60-64 years	Chronic obstructive pulmonary disease	826999	true
+	male	60-64 years	Ischaemic heart disease	827000	true
+	male	60-64 years	Lower respiratory infections	827001	true
+	male	60-64 years	Stroke	827002	true
+	male	60-64 years	Trachea, bronchus, lung cancers	827003	true
+	male	65-69 years	Chronic obstructive pulmonary disease	827004	true
+	male	65-69 years	Ischaemic heart disease	827005	true
+	male	65-69 years	Lower respiratory infections	827006	true
+	male	65-69 years	Stroke	827007	true
+	male	65-69 years	Trachea, bronchus, lung cancers	827008	true
+	male	70-74 years	Chronic obstructive pulmonary disease	827009	true
+	male	70-74 years	Ischaemic heart disease	827010	true
+	male	70-74 years	Lower respiratory infections	827011	true
+	male	70-74 years	Stroke	827012	true
+	male	70-74 years	Trachea, bronchus, lung cancers	827013	true
+	male	75-79 years	Chronic obstructive pulmonary disease	827014	true
+	male	75-79 years	Lower respiratory infections	827015	true
+	male	75-79 years	Ischaemic heart disease	827016	true
+	male	75-79 years	Stroke	827017	true
+	male	75-79 years	Trachea, bronchus, lung cancers	827018	true
+	male	80+ years	Chronic obstructive pulmonary disease	827019	true
+	male	80+ years	Ischaemic heart disease	827020	true
+	male	80+ years	Lower respiratory infections	827021	true
+	male	80+ years	Stroke	827022	true
+	male	80+ years	Trachea, bronchus, lung cancers	827023	true
+	male	Total (All ages)	Chronic obstructive pulmonary disease	827024	true
+	male	Total (All ages)	Ischaemic heart disease	827025	true
+	male	Total (All ages)	Lower respiratory infections	827026	true
+	male	Total (All ages)	Stroke	827027	true
+	male	Total (All ages)	Total	827028	true
+	male	Total (All ages)	Trachea, bronchus, lung cancers	827029	true
+	male		Chronic obstructive pulmonary disease	827030	true
+	male		Ischaemic heart disease	827031	true
+	male		Lower respiratory infections	827032	true
+	male		Stroke	827033	true
+	male		Total	827034	true
+	male		Trachea, bronchus, lung cancers	827035	true
+
+columns
+	variableId
+	826777
+	826778
+	826779
+	826780
+	826781
+	826782
+	826783
+	826784
+	826785
+	826786
+	826787
+	826788
+	826789
+	826790
+	826791
+	826792
+	826793
+	826794
+	826795
+	826796
+	826797
+	826798
+	826799
+	826800
+	826801
+	826802
+	826803
+	826804
+	826805
+	826806
+	826807
+	826808
+	826809
+	826810
+	826811
+	826812
+	826813
+	826814
+	826815
+	826816
+	826817
+	826818
+	826819
+	826820
+	826821
+	826822
+	826823
+	826824
+	826825
+	826826
+	826827
+	826828
+	826829
+	826830
+	826831
+	826832
+	826833
+	826834
+	826835
+	826836
+	826837
+	826838
+	826839
+	826840
+	826841
+	826842
+	826843
+	826844
+	826845
+	826846
+	826847
+	826848
+	826849
+	826850
+	826851
+	826852
+	826853
+	826854
+	826855
+	826856
+	826857
+	826858
+	826859
+	826860
+	826861
+	826862
+	826863
+	826864
+	826865
+	826866
+	826867
+	826868
+	826869
+	826870
+	826871
+	826872
+	826873
+	826874
+	826875
+	826876
+	826877
+	826878
+	826879
+	826880
+	826881
+	826882
+	826883
+	826884
+	826885
+	826886
+	826887
+	826888
+	826889
+	826890
+	826891
+	826892
+	826893
+	826894
+	826895
+	826896
+	826897
+	826898
+	826899
+	826900
+	826901
+	826902
+	826903
+	826904
+	826905
+	826906
+	826907
+	826908
+	826909
+	826910
+	826911
+	826912
+	826913
+	826914
+	826915
+	826916
+	826917
+	826918
+	826919
+	826920
+	826921
+	826922
+	826923
+	826924
+	826925
+	826926
+	826927
+	826928
+	826929
+	826930
+	826931
+	826932
+	826933
+	826934
+	826935
+	826936
+	826937
+	826938
+	826939
+	826940
+	826941
+	826942
+	826943
+	826944
+	826945
+	826946
+	826947
+	826948
+	826949
+	826950
+	826951
+	826952
+	826953
+	826954
+	826955
+	826956
+	826957
+	826958
+	826959
+	826960
+	826961
+	826962
+	826963
+	826964
+	826965
+	826966
+	826967
+	826968
+	826969
+	826970
+	826971
+	826972
+	826973
+	826974
+	826975
+	826976
+	826977
+	826978
+	826979
+	826980
+	826981
+	826982
+	826983
+	826984
+	826985
+	826986
+	826987
+	826988
+	826989
+	826990
+	826991
+	826992
+	826993
+	826994
+	826995
+	826996
+	826997
+	826998
+	826999
+	827000
+	827001
+	827002
+	827003
+	827004
+	827005
+	827006
+	827007
+	827008
+	827009
+	827010
+	827011
+	827012
+	827013
+	827014
+	827015
+	827016
+	827017
+	827018
+	827019
+	827020
+	827021
+	827022
+	827023
+	827024
+	827025
+	827026
+	827027
+	827028
+	827029
+	827030
+	827031
+	827032
+	827033
+	827034
+	827035

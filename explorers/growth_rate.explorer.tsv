@@ -1,0 +1,18 @@
+explorerTitle	Growth rate - Sex: all - Age: all - Variant: 
+selection	World
+
+graphers
+	variant Dropdown	yVariableIds	hasMapTab
+	constant fertility	520001	true
+	low	520002	true
+	high	520004	true
+	estimates	520005	true
+	medium	520006	true
+
+columns
+	variableId
+	520001
+	520002
+	520004
+	520005
+	520006

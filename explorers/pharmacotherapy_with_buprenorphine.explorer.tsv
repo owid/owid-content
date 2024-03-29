@@ -1,0 +1,12 @@
+explorerTitle	Pharmacotherapy with buprenorphine - Pharmacotherapy options: 
+selection	World
+
+graphers
+	pharmacotherapy_options Checkbox	yVariableIds	hasMapTab
+	Detoxification	829210	true
+	Maintenance	829211	true
+
+columns
+	variableId
+	829210
+	829211

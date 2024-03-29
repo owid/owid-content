@@ -1,0 +1,36 @@
+explorerTitle	Population pushed further below the $1.90 a day poverty line by household health expenditures (%, national, rural, urban) - 
+selection	World
+
+graphers
+	sex Checkbox	age_group Checkbox	residence_area_type Dropdown	household_composition_by_age Dropdown	yVariableIds	hasMapTab
+	female				829292	true
+		Below 60 years old			829293	true
+	male				829294	true
+		60+ years			829295	true
+			Rural		829296	true
+			Total		829297	true
+				Adults only (20-59 years old)	829298	true
+			Urban		829299	true
+				Adults with children and adolescents	829300	true
+				Adults with older persons	829301	true
+				Multigenerational and/or Adults with older persons	829302	true
+				Multigenerational households	829303	true
+				Only members below 20 years old	829304	true
+				Only older adults (>=60 years old)	829305	true
+
+columns
+	variableId
+	829292
+	829293
+	829294
+	829295
+	829296
+	829297
+	829298
+	829299
+	829300
+	829301
+	829302
+	829303
+	829304
+	829305

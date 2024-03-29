@@ -1,0 +1,14 @@
+explorerTitle	Nomination of National Focal Point (NFP) - Amr glass category: 
+selection	World
+
+graphers
+	amr_glass_category Dropdown	yVariableIds	hasMapTab
+	In progress	828726	true
+	Nominated	828727	true
+	Not nominated	828728	true
+
+columns
+	variableId
+	828726
+	828727
+	828728

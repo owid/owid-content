@@ -1,0 +1,14 @@
+explorerTitle	Population using safely managed sanitation services (%) - Residence area type: 
+selection	World
+
+graphers
+	residence_area_type Dropdown	yVariableIds	hasMapTab
+	Rural	829318	true
+	Total	829319	true
+	Urban	829320	true
+
+columns
+	variableId
+	829318
+	829319
+	829320

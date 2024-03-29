@@ -1,0 +1,216 @@
+explorerTitle	Many Choices in Type of Work - Dimension: (
+selection	World
+
+graphers
+	dimension Dropdown	answer Dropdown	yVariableIds	hasMapTab
+	(Age?) 15-24	(DK)	687110	true
+	(Age?) 15-24	(Refused)	687125	true
+	(Age?) 15-24	No	687139	true
+	(Age?) 15-24	Yes	687148	true
+	(Age?) 25-34	(DK)	687161	true
+	(Age?) 25-34	(Refused)	687176	true
+	(Age?) 25-34	No	687189	true
+	(Age?) 25-34	Yes	687199	true
+	(Age?) 35-44	(DK)	687215	true
+	(Age?) 35-44	(Refused)	687227	true
+	(Age?) 35-44	No	687239	true
+	(Age?) 35-44	Yes	687250	true
+	(Age?) 45-64	(DK)	687263	true
+	(Age?) 45-64	(Refused)	687278	true
+	(Age?) 45-64	No	687291	true
+	(Age?) 45-64	Yes	687301	true
+	(Age?) 65+	(DK)	687315	true
+	(Age?) 65+	(Refused)	687329	true
+	(Age?) 65+	No	687345	true
+	(Age?) 65+	Yes	687352	true
+	(Employment Status?) Employed full time for an employer	(DK)	687365	true
+	(Employment Status?) Employed full time for an employer	(Refused)	687379	true
+	(Employment Status?) Employed full time for an employer	No	687388	true
+	(Employment Status?) Employed full time for an employer	Yes	687403	true
+	(Employment Status?) Employed full time for self	(DK)	687416	true
+	(Employment Status?) Employed full time for self	(Refused)	687430	true
+	(Employment Status?) Employed full time for self	No	687444	true
+	(Employment Status?) Employed full time for self	Yes	687454	true
+	(Employment Status?) Employed part time do not want full time	(DK)	687467	true
+	(Employment Status?) Employed part time do not want full time	(Refused)	687482	true
+	(Employment Status?) Employed part time do not want full time	No	687496	true
+	(Employment Status?) Employed part time do not want full time	Yes	687505	true
+	(Employment Status?) Employed part time want full time	(DK)	687518	true
+	(Employment Status?) Employed part time want full time	(Refused)	687533	true
+	(Employment Status?) Employed part time want full time	No	687546	true
+	(Employment Status?) Employed part time want full time	Yes	687556	true
+	(Employment Status?) Out of workforce	(DK)	687569	true
+	(Employment Status?) Out of workforce	(Refused)	687584	true
+	(Employment Status?) Out of workforce	No	687597	true
+	(Employment Status?) Out of workforce	Yes	687605	true
+	(Employment Status?) Unemployed	(DK)	687620	true
+	(Employment Status?) Unemployed	(Refused)	687635	true
+	(Employment Status?) Unemployed	No	687648	true
+	(Employment Status?) Unemployed	Yes	687661	true
+	(Feelings About Household Income?) Finding it difficult on present income	(DK)	687671	true
+	(Feelings About Household Income?) Finding it difficult on present income	(Refused)	687686	true
+	(Feelings About Household Income?) Finding it difficult on present income	No	687699	true
+	(Feelings About Household Income?) Finding it difficult on present income	Yes	687709	true
+	(Feelings About Household Income?) Finding it very difficult on present income	(DK)	687722	true
+	(Feelings About Household Income?) Finding it very difficult on present income	(Refused)	687737	true
+	(Feelings About Household Income?) Finding it very difficult on present income	No	687750	true
+	(Feelings About Household Income?) Finding it very difficult on present income	Yes	687760	true
+	(Feelings About Household Income?) Getting by on present income	(DK)	687773	true
+	(Feelings About Household Income?) Getting by on present income	(Refused)	687788	true
+	(Feelings About Household Income?) Getting by on present income	No	687803	true
+	(Feelings About Household Income?) Getting by on present income	Yes	687812	true
+	(Feelings About Household Income?) Living comfortably on present income	(DK)	687824	true
+	(Feelings About Household Income?) Living comfortably on present income	(Refused)	687839	true
+	(Feelings About Household Income?) Living comfortably on present income	No	687853	true
+	(Feelings About Household Income?) Living comfortably on present income	Yes	687862	true
+	(Gender?) Female	(DK)	687875	true
+	(Gender?) Female	(Refused)	687889	true
+	(Gender?) Female	No	687903	true
+	(Gender?) Female	Yes	687913	true
+	(Gender?) Male	(DK)	687928	true
+	(Gender?) Male	(Refused)	687941	true
+	(Gender?) Male	No	687954	true
+	(Gender?) Male	Yes	687964	true
+	(Per Capita Income Quintiles?) Fourth 20%	(DK)	687977	true
+	(Per Capita Income Quintiles?) Fourth 20%	(Refused)	687992	true
+	(Per Capita Income Quintiles?) Fourth 20%	No	688005	true
+	(Per Capita Income Quintiles?) Fourth 20%	Yes	688015	true
+	(Per Capita Income Quintiles?) Middle 20%	(DK)	688028	true
+	(Per Capita Income Quintiles?) Middle 20%	(Refused)	688043	true
+	(Per Capita Income Quintiles?) Middle 20%	No	688056	true
+	(Per Capita Income Quintiles?) Middle 20%	Yes	688067	true
+	(Per Capita Income Quintiles?) Poorest 20%	(DK)	688079	true
+	(Per Capita Income Quintiles?) Poorest 20%	(Refused)	688094	true
+	(Per Capita Income Quintiles?) Poorest 20%	No	688107	true
+	(Per Capita Income Quintiles?) Poorest 20%	Yes	688117	true
+	(Per Capita Income Quintiles?) Richest 20%	(DK)	688130	true
+	(Per Capita Income Quintiles?) Richest 20%	(Refused)	688145	true
+	(Per Capita Income Quintiles?) Richest 20%	No	688158	true
+	(Per Capita Income Quintiles?) Richest 20%	Yes	688168	true
+	(Per Capita Income Quintiles?) Second 20%	(DK)	688180	true
+	(Per Capita Income Quintiles?) Second 20%	(Refused)	688196	true
+	(Per Capita Income Quintiles?) Second 20%	No	688209	true
+	(Per Capita Income Quintiles?) Second 20%	Yes	688219	true
+	(Urban/Rural?) A large city	(DK)	688232	true
+	(Urban/Rural?) A large city	(Refused)	688247	true
+	(Urban/Rural?) A large city	No	688260	true
+	(Urban/Rural?) A large city	Yes	688270	true
+	(Urban/Rural?) A rural area or on a farm	(DK)	688290	true
+	(Urban/Rural?) A rural area or on a farm	(Refused)	688298	true
+	(Urban/Rural?) A rural area or on a farm	No	688311	true
+	(Urban/Rural?) A rural area or on a farm	Yes	688320	true
+	(Urban/Rural?) A small town or village	(DK)	688332	true
+	(Urban/Rural?) A small town or village	(Refused)	688351	true
+	(Urban/Rural?) A small town or village	No	688361	true
+	(Urban/Rural?) A small town or village	Yes	688371	true
+	(Urban/Rural?) A suburb of a large city	(DK)	688385	true
+	(Urban/Rural?) A suburb of a large city	(Refused)	688401	true
+	(Urban/Rural?) A suburb of a large city	No	688413	true
+	(Urban/Rural?) A suburb of a large city	Yes	688423	true
+
+columns
+	variableId
+	687110
+	687125
+	687139
+	687148
+	687161
+	687176
+	687189
+	687199
+	687215
+	687227
+	687239
+	687250
+	687263
+	687278
+	687291
+	687301
+	687315
+	687329
+	687345
+	687352
+	687365
+	687379
+	687388
+	687403
+	687416
+	687430
+	687444
+	687454
+	687467
+	687482
+	687496
+	687505
+	687518
+	687533
+	687546
+	687556
+	687569
+	687584
+	687597
+	687605
+	687620
+	687635
+	687648
+	687661
+	687671
+	687686
+	687699
+	687709
+	687722
+	687737
+	687750
+	687760
+	687773
+	687788
+	687803
+	687812
+	687824
+	687839
+	687853
+	687862
+	687875
+	687889
+	687903
+	687913
+	687928
+	687941
+	687954
+	687964
+	687977
+	687992
+	688005
+	688015
+	688028
+	688043
+	688056
+	688067
+	688079
+	688094
+	688107
+	688117
+	688130
+	688145
+	688158
+	688168
+	688180
+	688196
+	688209
+	688219
+	688232
+	688247
+	688260
+	688270
+	688290
+	688298
+	688311
+	688320
+	688332
+	688351
+	688361
+	688371
+	688385
+	688401
+	688413
+	688423

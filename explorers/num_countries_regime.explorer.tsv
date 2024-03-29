@@ -1,0 +1,14 @@
+explorerTitle	Number of 
+selection	World
+
+graphers
+	category Dropdown	yVariableIds	hasMapTab
+	-1	830999	true
+	0	831000	true
+	1	831003	true
+
+columns
+	variableId
+	830999
+	831000
+	831003

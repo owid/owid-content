@@ -1,0 +1,36 @@
+explorerTitle	Life expectancy ratio (f/m) - Type: 
+selection	World
+
+graphers
+	type Checkbox	age Dropdown	yVariableIds	hasMapTab
+	cohort	0	814897	true
+	cohort	10	814902	true
+	cohort	15	814907	true
+	cohort	25	814912	true
+	cohort	45	814917	true
+	cohort	65	814922	true
+	cohort	80	814927	true
+	period	0	814974	true
+	period	10	814979	true
+	period	15	814984	true
+	period	25	814989	true
+	period	45	814994	true
+	period	65	814999	true
+	period	80	815004	true
+
+columns
+	variableId
+	814897
+	814902
+	814907
+	814912
+	814917
+	814922
+	814927
+	814974
+	814979
+	814984
+	814989
+	814994
+	814999
+	815004

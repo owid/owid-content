@@ -1,0 +1,14 @@
+explorerTitle	Children orphaned due to AIDS deaths - Disaggregation: 0-17 
+selection	World
+
+graphers
+	disaggregation Dropdown	yVariableIds	hasMapTab
+	0-17 estimate	789735	true
+	0-17 lower estimate	789736	true
+	0-17 upper estimate	789737	true
+
+columns
+	variableId
+	789735
+	789736
+	789737

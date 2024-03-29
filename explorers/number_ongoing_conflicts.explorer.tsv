@@ -1,0 +1,26 @@
+explorerTitle	Number of ongoing conflicts - Conflict type: 
+selection	World
+
+graphers
+	conflict_type Dropdown	yVariableIds	hasMapTab
+	all	812735	true
+	extrasystemic	812737	true
+	interstate	812742	true
+	intrastate	812747	true
+	intrastate (internationalized)	812752	true
+	intrastate (non-internationalized)	812757	true
+	non-state conflict	812762	true
+	one-sided violence	812767	true
+	state-based	815672	true
+
+columns
+	variableId
+	812735
+	812737
+	812742
+	812747
+	812752
+	812757
+	812762
+	812767
+	815672

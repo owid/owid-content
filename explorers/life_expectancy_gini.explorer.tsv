@@ -1,0 +1,12 @@
+explorerTitle	Gini coefficient of lifespan inequality - Sex: 
+selection	World
+
+graphers
+	sex Checkbox	yVariableIds	hasMapTab
+	female	814884	true
+	male	814885	true
+
+columns
+	variableId
+	814884
+	814885

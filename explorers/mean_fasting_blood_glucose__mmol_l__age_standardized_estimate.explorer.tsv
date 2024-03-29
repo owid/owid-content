@@ -1,0 +1,12 @@
+explorerTitle	Mean fasting blood glucose (mmol/l) (age-standardized estimate) - Sex: 
+selection	World
+
+graphers
+	sex Checkbox	yVariableIds	hasMapTab
+	female	828241	true
+	male	828242	true
+
+columns
+	variableId
+	828241
+	828242

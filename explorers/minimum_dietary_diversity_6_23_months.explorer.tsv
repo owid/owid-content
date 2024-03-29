@@ -1,0 +1,72 @@
+explorerTitle	Minimum dietary diversity 6-23 months - 
+selection	World
+
+graphers
+	sex Dropdown	age_group Dropdown	mothers_education_level Dropdown	residence_area_type Dropdown	wealth_quintile Dropdown	household_wealth Dropdown	yVariableIds	hasMapTab
+	both sexes						828395	true
+	female						828396	true
+	male						828397	true
+		12 to 15 months					828398	true
+		12 to 23 months					828399	true
+		16 to 19 months					828400	true
+		20 to 23 months					828401	true
+		6 to 11 months					828402	true
+		Total (All ages)					828403	true
+			Higher education				828404	true
+			None				828405	true
+			None and primary education				828406	true
+			Primary				828407	true
+			Secondary education				828408	true
+			Secondary or higher				828409	true
+			TotalTotalTotalTotal				828410	true
+				Rural			828411	true
+				TotalTotalTotalTotal			828412	true
+				Urban			828413	true
+					Q1 (Poorest)		828414	true
+					Q2		828415	true
+					Q3		828416	true
+					Q4		828417	true
+					Q5 (Richest)		828418	true
+					TotalTotalTotalTotal		828419	true
+						TotalTotalTotalTotal	828420	true
+						Wealth - Bottom 40%	828421	true
+						Wealth - Bottom 60%	828422	true
+						Wealth - Bottom 80%	828423	true
+						Wealth - Top 40%	828424	true
+						Wealth - Top 60%	828425	true
+						Wealth - Top 80%	828426	true
+
+columns
+	variableId
+	828395
+	828396
+	828397
+	828398
+	828399
+	828400
+	828401
+	828402
+	828403
+	828404
+	828405
+	828406
+	828407
+	828408
+	828409
+	828410
+	828411
+	828412
+	828413
+	828414
+	828415
+	828416
+	828417
+	828418
+	828419
+	828420
+	828421
+	828422
+	828423
+	828424
+	828425
+	828426

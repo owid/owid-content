@@ -1,0 +1,56 @@
+explorerTitle	Under-five mortality rate (deaths per 1000 live births) - 
+selection	World
+
+graphers
+	sex Checkbox	age_group Checkbox	mothers_education_level Dropdown	residence_area_type Checkbox	wealth_quintile Dropdown	wealth_decile Dropdown	yVariableIds	hasMapTab
+	female						830783	true
+	male						830784	true
+		15-19 years					830785	true
+		20-49 years					830786	true
+			None				830787	true
+			Primary				830788	true
+			Secondary or higher				830789	true
+				Rural			830790	true
+				Urban			830791	true
+					Q1 (Poorest)		830792	true
+					Q2		830793	true
+					Q3		830794	true
+					Q4		830795	true
+					Q5 (Richest)		830796	true
+						Decile 1 (poorest)	830797	true
+						Decile 10 (richest)	830798	true
+						Decile 2	830799	true
+						Decile 3	830800	true
+						Decile 5	830801	true
+						Decile 4	830802	true
+						Decile 6	830803	true
+						Decile 7	830804	true
+						Decile 8	830805	true
+						Decile 9	830806	true
+
+columns
+	variableId
+	830783
+	830784
+	830785
+	830786
+	830787
+	830788
+	830789
+	830790
+	830791
+	830792
+	830793
+	830794
+	830795
+	830796
+	830797
+	830798
+	830799
+	830800
+	830801
+	830802
+	830803
+	830804
+	830805
+	830806

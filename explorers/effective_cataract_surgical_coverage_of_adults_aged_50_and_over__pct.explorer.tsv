@@ -1,0 +1,14 @@
+explorerTitle	Effective cataract surgical coverage of adults aged 50 and over (%) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	825475	true
+	female	825476	true
+	male	825477	true
+
+columns
+	variableId
+	825475
+	825476
+	825477

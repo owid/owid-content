@@ -1,0 +1,12 @@
+explorerTitle	Government benefits for alcohol use disorders, subsidy or disability pension - Rsud government benefits: 
+selection	World
+
+graphers
+	rsud_government_benefits Checkbox	yVariableIds	hasMapTab
+	Disability pension	826105	true
+	Subsidy for food or housing	826106	true
+
+columns
+	variableId
+	826105
+	826106

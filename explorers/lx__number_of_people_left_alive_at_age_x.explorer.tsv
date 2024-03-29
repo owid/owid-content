@@ -1,0 +1,122 @@
+explorerTitle	lx - number of people left alive at age x - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	age_group Dropdown	yVariableIds	hasMapTab
+	both sexes	1-4 years	828124	true
+	both sexes	10-14 years	828125	true
+	both sexes	15-19  years	828126	true
+	both sexes	20-24 years	828127	true
+	both sexes	25-29 years	828128	true
+	both sexes	30-34 years	828129	true
+	both sexes	35-39 years	828130	true
+	both sexes	40-44 years	828131	true
+	both sexes	45-49 years	828132	true
+	both sexes	5-9 years	828133	true
+	both sexes	50-54 years	828134	true
+	both sexes	55-59 years	828135	true
+	both sexes	60-64 years	828136	true
+	both sexes	65-69 years	828137	true
+	both sexes	70-74 years	828138	true
+	both sexes	75-79 years	828139	true
+	both sexes	80-84 years	828140	true
+	both sexes	85+ years	828141	true
+	both sexes	<1 year	828142	true
+	female	10-14 years	828143	true
+	female	1-4 years	828144	true
+	female	15-19  years	828145	true
+	female	20-24 years	828146	true
+	female	25-29 years	828147	true
+	female	30-34 years	828148	true
+	female	35-39 years	828149	true
+	female	40-44 years	828150	true
+	female	45-49 years	828151	true
+	female	5-9 years	828152	true
+	female	50-54 years	828153	true
+	female	55-59 years	828154	true
+	female	60-64 years	828155	true
+	female	65-69 years	828156	true
+	female	70-74 years	828157	true
+	female	75-79 years	828158	true
+	female	80-84 years	828159	true
+	female	<1 year	828160	true
+	female	85+ years	828161	true
+	male	1-4 years	828162	true
+	male	10-14 years	828163	true
+	male	15-19  years	828164	true
+	male	20-24 years	828165	true
+	male	25-29 years	828166	true
+	male	30-34 years	828167	true
+	male	35-39 years	828168	true
+	male	40-44 years	828169	true
+	male	45-49 years	828170	true
+	male	5-9 years	828171	true
+	male	50-54 years	828172	true
+	male	55-59 years	828173	true
+	male	60-64 years	828174	true
+	male	65-69 years	828175	true
+	male	70-74 years	828176	true
+	male	75-79 years	828177	true
+	male	80-84 years	828178	true
+	male	85+ years	828179	true
+	male	<1 year	828180	true
+
+columns
+	variableId
+	828124
+	828125
+	828126
+	828127
+	828128
+	828129
+	828130
+	828131
+	828132
+	828133
+	828134
+	828135
+	828136
+	828137
+	828138
+	828139
+	828140
+	828141
+	828142
+	828143
+	828144
+	828145
+	828146
+	828147
+	828148
+	828149
+	828150
+	828151
+	828152
+	828153
+	828154
+	828155
+	828156
+	828157
+	828158
+	828159
+	828160
+	828161
+	828162
+	828163
+	828164
+	828165
+	828166
+	828167
+	828168
+	828169
+	828170
+	828171
+	828172
+	828173
+	828174
+	828175
+	828176
+	828177
+	828178
+	828179
+	828180

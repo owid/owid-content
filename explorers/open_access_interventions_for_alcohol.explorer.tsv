@@ -1,0 +1,14 @@
+explorerTitle	Open access interventions for alcohol - Rsud open access services: 
+selection	World
+
+graphers
+	rsud_open_access_services Dropdown	yVariableIds	hasMapTab
+	Mobile-phone-based interventions	829062	true
+	Telephone help lines	829063	true
+	Web-based interventions	829064	true
+
+columns
+	variableId
+	829062
+	829063
+	829064

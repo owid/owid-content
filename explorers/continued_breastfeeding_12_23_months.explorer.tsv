@@ -1,0 +1,60 @@
+explorerTitle	Continued breastfeeding 12-23 months - 
+selection	World
+
+graphers
+	sex Dropdown	mothers_education_level Dropdown	residence_area_type Dropdown	wealth_quintile Dropdown	household_wealth Dropdown	yVariableIds	hasMapTab
+	female					824858	true
+	both sexes					824859	true
+	male					824860	true
+		Higher education				824861	true
+		None				824862	true
+		None and primary education				824863	true
+		Primary				824864	true
+		Secondary education				824865	true
+		Secondary or higher				824866	true
+			Rural			824867	true
+		TotalTotalTotalTotal				824868	true
+			TotalTotalTotalTotal			824869	true
+			Urban			824870	true
+				Q1 (Poorest)		824871	true
+				Q2		824872	true
+				Q3		824873	true
+				Q4		824874	true
+				Q5 (Richest)		824875	true
+				TotalTotalTotalTotal		824876	true
+					TotalTotalTotalTotal	824877	true
+					Wealth - Bottom 40%	824878	true
+					Wealth - Bottom 60%	824879	true
+					Wealth - Bottom 80%	824880	true
+					Wealth - Top 40%	824881	true
+					Wealth - Top 60%	824882	true
+					Wealth - Top 80%	824883	true
+
+columns
+	variableId
+	824858
+	824859
+	824860
+	824861
+	824862
+	824863
+	824864
+	824865
+	824866
+	824867
+	824868
+	824869
+	824870
+	824871
+	824872
+	824873
+	824874
+	824875
+	824876
+	824877
+	824878
+	824879
+	824880
+	824881
+	824882
+	824883

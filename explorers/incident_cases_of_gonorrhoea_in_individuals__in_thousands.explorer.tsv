@@ -1,0 +1,12 @@
+explorerTitle	Incident cases of gonorrhoea in individuals (in thousands) - Sex: 
+selection	World
+
+graphers
+	sex Checkbox	yVariableIds	hasMapTab
+	female	827852	true
+	male	827853	true
+
+columns
+	variableId
+	827852
+	827853

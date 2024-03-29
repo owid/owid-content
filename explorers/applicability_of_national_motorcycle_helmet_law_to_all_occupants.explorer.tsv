@@ -1,0 +1,14 @@
+explorerTitle	Applicability of national motorcycle helmet law to all occupants - Motorcycle occupant type: 
+selection	World
+
+graphers
+	motorcycle_occupant_type Dropdown	yVariableIds	hasMapTab
+	Adult passengers	824227	true
+	Child passengers	824228	true
+	Drivers	824229	true
+
+columns
+	variableId
+	824227
+	824228
+	824229

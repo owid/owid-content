@@ -1,0 +1,14 @@
+explorerTitle	Off-premise sales restrictions at petrol stations - Beverage types: 
+selection	World
+
+graphers
+	beverage_types Dropdown	yVariableIds	hasMapTab
+	Beer	829002	true
+	Spirits	829003	true
+	Wine	829004	true
+
+columns
+	variableId
+	829002
+	829003
+	829004

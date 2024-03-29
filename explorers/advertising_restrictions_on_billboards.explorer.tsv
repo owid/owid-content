@@ -1,0 +1,14 @@
+explorerTitle	Advertising restrictions on billboards - Substance abuse advertising types: 
+selection	World
+
+graphers
+	substance_abuse_advertising_types Dropdown	yVariableIds	hasMapTab
+	Beer Ads	821699	true
+	Spirits Ads	821700	true
+	Wine Ads	821701	true
+
+columns
+	variableId
+	821699
+	821700
+	821701

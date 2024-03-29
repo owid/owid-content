@@ -1,0 +1,34 @@
+explorerTitle	Number of new conflicts per state - Fatality: 
+selection	World
+
+graphers
+	fatality Dropdown	hostility Dropdown	yVariableIds	hasMapTab
+	1-25 deaths	all	814768	true
+	101-250 deaths	all	814772	true
+	251-500 deaths	all	814776	true
+	26-100 deaths	all	814780	true
+	501-999 deaths	all	814784	true
+	> 999 deaths	all	814788	true
+	No deaths	all	814792	true
+	Unknown	all	814796	true
+	all	Display of force	814800	true
+	all	Threat to use force	814804	true
+	all	Use of force	814808	true
+	all	War	814812	true
+	all	all	814816	true
+
+columns
+	variableId
+	814768
+	814772
+	814776
+	814780
+	814784
+	814788
+	814792
+	814796
+	814800
+	814804
+	814808
+	814812
+	814816

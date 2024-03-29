@@ -1,0 +1,14 @@
+explorerTitle	Prevalence of obesity among adults, BMI >= 30 (age-standardized estimate) (%) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	829687	true
+	female	829688	true
+	male	829689	true
+
+columns
+	variableId
+	829687
+	829688
+	829689

@@ -1,0 +1,30 @@
+explorerTitle	Awareness activities - Substance abuse awareness activity types: 
+selection	World
+
+graphers
+	substance_abuse_awareness_activity_types Dropdown	yVariableIds	hasMapTab
+	Binge drinking	824308	true
+	Domestic violence	824309	true
+	Drink-driving	824310	true
+	Elderly people	824311	true
+	Harms to others	824312	true
+	Illegal/surrogate alcohol	824313	true
+	Impact on health/HIV	824314	true
+	Indigenous people	824315	true
+	Pregnancy, FASD	824316	true
+	Work/sports	824317	true
+	Youth drinking/parent awareness	824318	true
+
+columns
+	variableId
+	824308
+	824309
+	824310
+	824311
+	824312
+	824313
+	824314
+	824315
+	824316
+	824317
+	824318

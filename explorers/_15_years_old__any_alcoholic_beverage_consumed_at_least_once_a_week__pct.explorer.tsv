@@ -1,0 +1,12 @@
+explorerTitle	15-years old, any alcoholic beverage consumed at least once a week, (%) - Sex: 
+selection	World
+
+graphers
+	sex Checkbox	yVariableIds	hasMapTab
+	female	821619	true
+	male	821620	true
+
+columns
+	variableId
+	821619
+	821620

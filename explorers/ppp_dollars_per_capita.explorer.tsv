@@ -1,0 +1,40 @@
+explorerTitle	Health expenditure per capita - 
+selection	World
+
+graphers
+	financing_scheme Dropdown	yVariableIds	hasMapTab
+	Compulsory contributory health insurance schemes	821293	true
+	Compulsory private insurance schemes	821297	true
+	Cost-sharing with third-party payers	821301	true
+	Enterprise financing schemes	821305	true
+	Government schemes	821309	true
+	Government/compulsory schemes	821313	true
+	Household out-of-pocket payments	821317	true
+	NPISH financing schemes	821321	true
+	Out-of-pocket excluding cost-sharing	821325	true
+	Rest of the world financing schemes (non-resident)	821329	true
+	Social health insurance schemes	821333	true
+	Total	821338	true
+	Unknown	821339	true
+	Voluntary health care payment schemes	821344	true
+	Voluntary health insurance schemes	821348	true
+	Voluntary schemes/household out-of-pocket payments	821350	true
+
+columns
+	variableId
+	821293
+	821297
+	821301
+	821305
+	821309
+	821313
+	821317
+	821321
+	821325
+	821329
+	821333
+	821338
+	821339
+	821344
+	821348
+	821350

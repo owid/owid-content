@@ -1,0 +1,22 @@
+explorerTitle	Taxes as a % of price: ad valorem excise - Tobacco and nicotine product: 
+selection	World
+
+graphers
+	tobacco_and_nicotine_product Dropdown	yVariableIds	hasMapTab
+	Cheapest brand of e-liquid of a closed disposable ENDS/ENNDS system (1ml)	830466	true
+	Cheapest brand of e-liquid of a closed rechargeable ENDS/ENNDS system (1ml)	830467	true
+	Cheapest brand of e-liquid of an open ENDS/ENNDS system (10ml)	830468	true
+	Most sold brand of heated tobacco products (20 sticks)	830469	true
+	Most sold brand of other smoked tobacco	830470	true
+	Most sold brand of smokeless tobacco (20g)	830471	true
+	Most sold brand of cigarettes (20 sticks)	830472	true
+
+columns
+	variableId
+	830466
+	830467
+	830468
+	830469
+	830470
+	830471
+	830472

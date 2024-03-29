@@ -1,0 +1,22 @@
+explorerTitle	Postgraduate training programme in prevention - Human resources  health workforce: 
+selection	World
+
+graphers
+	human_resources__health_workforce Dropdown	yVariableIds	hasMapTab
+	Community health workers	829370	true
+	Nurses	829371	true
+	Counsellors	829372	true
+	Medical doctors	829373	true
+	Psychiatrists	829374	true
+	Psychologists	829375	true
+	Social workers	829376	true
+
+columns
+	variableId
+	829370
+	829371
+	829372
+	829373
+	829374
+	829375
+	829376

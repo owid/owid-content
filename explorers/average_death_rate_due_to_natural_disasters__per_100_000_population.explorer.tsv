@@ -1,0 +1,14 @@
+explorerTitle	Average death rate due to natural disasters (per 100 000 population) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	824299	true
+	female	824300	true
+	male	824301	true
+
+columns
+	variableId
+	824299
+	824300
+	824301

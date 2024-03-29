@@ -1,0 +1,56 @@
+explorerTitle	One-year-old children who have not received any doses of the DTP vaccine (%) - 
+selection	World
+
+graphers
+	sex Checkbox	age_group Checkbox	mothers_education_level Dropdown	residence_area_type Checkbox	wealth_quintile Dropdown	wealth_decile Dropdown	yVariableIds	hasMapTab
+	female						829038	true
+	male						829039	true
+		15-19 years					829040	true
+		20-49 years					829041	true
+			None				829042	true
+			Primary				829043	true
+			Secondary or higher				829044	true
+				Rural			829045	true
+				Urban			829046	true
+					Q1 (Poorest)		829047	true
+					Q2		829048	true
+					Q3		829049	true
+					Q4		829050	true
+					Q5 (Richest)		829051	true
+						Decile 1 (poorest)	829052	true
+						Decile 10 (richest)	829053	true
+						Decile 2	829054	true
+						Decile 3	829055	true
+						Decile 4	829056	true
+						Decile 5	829057	true
+						Decile 6	829058	true
+						Decile 7	829059	true
+						Decile 8	829060	true
+						Decile 9	829061	true
+
+columns
+	variableId
+	829038
+	829039
+	829040
+	829041
+	829042
+	829043
+	829044
+	829045
+	829046
+	829047
+	829048
+	829049
+	829050
+	829051
+	829052
+	829053
+	829054
+	829055
+	829056
+	829057
+	829058
+	829059
+	829060
+	829061

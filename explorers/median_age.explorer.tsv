@@ -1,0 +1,18 @@
+explorerTitle	Median age - Sex: all - Age: all - Variant: 
+selection	World
+
+graphers
+	variant Dropdown	yVariableIds	hasMapTab
+	estimates	520951	true
+	medium	520952	true
+	high	520953	true
+	low	520954	true
+	constant fertility	520955	true
+
+columns
+	variableId
+	520951
+	520952
+	520953
+	520954
+	520955

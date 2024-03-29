@@ -1,0 +1,14 @@
+explorerTitle	Household air pollution attributable deaths in children under 5 years - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	827738	true
+	female	827739	true
+	male	827740	true
+
+columns
+	variableId
+	827738
+	827739
+	827740

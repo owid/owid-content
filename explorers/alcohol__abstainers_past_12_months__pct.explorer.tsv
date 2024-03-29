@@ -1,0 +1,14 @@
+explorerTitle	Alcohol, abstainers past 12 months (%) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	821906	true
+	female	821907	true
+	male	821908	true
+
+columns
+	variableId
+	821906
+	821907
+	821908

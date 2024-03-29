@@ -1,0 +1,28 @@
+explorerTitle	Central coordinating entity for alcohol policy implementation - Substance abuse coordinating entities: 
+selection	World
+
+graphers
+	substance_abuse_coordinating_entities Dropdown	yVariableIds	hasMapTab
+	Criminal justice	824616	true
+	Agriculture	824617	true
+	Education	824618	true
+	Employment	824619	true
+	Finance/ taxation	824620	true
+	Other	824621	true
+	Road safety	824622	true
+	Health	824623	true
+	Social affairs	824624	true
+	Trade/ industry	824625	true
+
+columns
+	variableId
+	824616
+	824617
+	824618
+	824619
+	824620
+	824621
+	824622
+	824623
+	824624
+	824625

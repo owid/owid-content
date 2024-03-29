@@ -1,0 +1,12 @@
+explorerTitle	15-19 years old former drinkers (%) - Sex: 
+selection	World
+
+graphers
+	sex Checkbox	yVariableIds	hasMapTab
+	female	821608	true
+	male	821609	true
+
+columns
+	variableId
+	821608
+	821609

@@ -1,0 +1,14 @@
+explorerTitle	Mean Non-HDL cholesterol, crude - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	828258	true
+	female	828259	true
+	male	828260	true
+
+columns
+	variableId
+	828258
+	828259
+	828260

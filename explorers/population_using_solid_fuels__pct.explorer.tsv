@@ -1,0 +1,14 @@
+explorerTitle	Population using solid fuels (%) - Residence area type: 
+selection	World
+
+graphers
+	residence_area_type Dropdown	yVariableIds	hasMapTab
+	Rural	829321	true
+	Total	829322	true
+	Urban	829323	true
+
+columns
+	variableId
+	829321
+	829322
+	829323

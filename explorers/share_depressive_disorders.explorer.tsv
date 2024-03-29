@@ -1,0 +1,98 @@
+explorerTitle	Depressive disorders (share of population) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	age Dropdown	yVariableIds	hasMapTab
+	Both	15-19 years	688515	true
+	Both	20-24 years	688524	true
+	Both	25-29 years	688534	true
+	Both	30-34 years	688544	true
+	Both	35-39 years	688554	true
+	Both	40-44 years	688563	true
+	Both	45-49 years	688574	true
+	Both	5-14 years	688585	true
+	Both	50-54 years	688594	true
+	Both	55-59 years	688604	true
+	Both	60-64 years	688615	true
+	Both	65-69 years	688625	true
+	Both	70+ years	688637	true
+	Both	Age-standardized	688641	true
+	Both	All ages	688654	true
+	Female	15-19 years	688664	true
+	Female	20-24 years	688671	true
+	Female	25-29 years	688685	true
+	Female	30-34 years	688694	true
+	Female	35-39 years	688703	true
+	Female	40-44 years	688716	true
+	Female	45-49 years	688723	true
+	Female	5-14 years	688734	true
+	Female	50-54 years	688744	true
+	Female	55-59 years	688754	true
+	Female	60-64 years	688765	true
+	Female	65-69 years	688774	true
+	Female	70+ years	688784	true
+	Female	Age-standardized	688793	true
+	Female	All ages	688804	true
+	Male	15-19 years	688815	true
+	Male	20-24 years	688824	true
+	Male	25-29 years	688832	true
+	Male	30-34 years	688844	true
+	Male	35-39 years	688854	true
+	Male	40-44 years	688864	true
+	Male	45-49 years	688872	true
+	Male	5-14 years	688884	true
+	Male	50-54 years	688894	true
+	Male	55-59 years	688901	true
+	Male	60-64 years	688916	true
+	Male	65-69 years	688923	true
+	Male	70+ years	688933	true
+	Male	Age-standardized	688945	true
+	Male	All ages	688956	true
+
+columns
+	variableId
+	688515
+	688524
+	688534
+	688544
+	688554
+	688563
+	688574
+	688585
+	688594
+	688604
+	688615
+	688625
+	688637
+	688641
+	688654
+	688664
+	688671
+	688685
+	688694
+	688703
+	688716
+	688723
+	688734
+	688744
+	688754
+	688765
+	688774
+	688784
+	688793
+	688804
+	688815
+	688824
+	688832
+	688844
+	688854
+	688864
+	688872
+	688884
+	688894
+	688901
+	688916
+	688923
+	688933
+	688945
+	688956

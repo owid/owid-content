@@ -1,0 +1,12 @@
+explorerTitle	Regular reports on epidemiological and service delivery data for substance use - Sources of reporting: 
+selection	World
+
+graphers
+	sources_of_reporting Checkbox	yVariableIds	hasMapTab
+	Data from health services delivery reporting	830096	true
+	Epidemiological data reporting	830097	true
+
+columns
+	variableId
+	830096
+	830097

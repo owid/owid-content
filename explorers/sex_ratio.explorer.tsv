@@ -1,0 +1,158 @@
+explorerTitle	Sex ratio - Sex: none - Age: 
+selection	World
+
+graphers
+	age Dropdown	variant Dropdown	yVariableIds	hasMapTab
+	90	estimates	520268	true
+	90	medium	520269	true
+	90	high	520270	true
+	90	low	520271	true
+	at birth	estimates	520272	true
+	at birth	medium	520273	true
+	at birth	high	520274	true
+	at birth	low	520275	true
+	at birth	constant fertility	520276	true
+	30	estimates	520277	true
+	30	medium	520278	true
+	30	high	520279	true
+	30	low	520280	true
+	80	estimates	520281	true
+	80	medium	520282	true
+	80	high	520283	true
+	80	low	520284	true
+	50	estimates	520285	true
+	50	medium	520286	true
+	50	high	520287	true
+	50	low	520288	true
+	10	estimates	520289	true
+	10	medium	520290	true
+	10	high	520291	true
+	10	low	520292	true
+	60	estimates	520293	true
+	60	medium	520294	true
+	60	high	520295	true
+	60	low	520296	true
+	0	estimates	520297	true
+	0	medium	520298	true
+	0	high	520299	true
+	0	low	520300	true
+	70	estimates	520301	true
+	70	medium	520302	true
+	70	high	520303	true
+	70	low	520304	true
+	40	estimates	520305	true
+	40	medium	520306	true
+	40	high	520307	true
+	40	low	520308	true
+	15	estimates	520309	true
+	15	medium	520310	true
+	15	high	520311	true
+	15	low	520312	true
+	20	estimates	520313	true
+	20	medium	520314	true
+	20	high	520315	true
+	20	low	520316	true
+	all	estimates	520317	true
+	all	medium	520318	true
+	all	high	520319	true
+	all	low	520320	true
+	100+	estimates	520321	true
+	100+	medium	520322	true
+	100+	high	520323	true
+	100+	low	520324	true
+	5	estimates	520325	true
+	5	medium	520326	true
+	5	high	520327	true
+	5	low	520328	true
+	20	constant fertility	525368	true
+	50	constant fertility	525369	true
+	10	constant fertility	525370	true
+	90	constant fertility	525371	true
+	40	constant fertility	525372	true
+	80	constant fertility	525373	true
+	30	constant fertility	525374	true
+	70	constant fertility	525375	true
+	all	constant fertility	525376	true
+	15	constant fertility	525377	true
+	100+	constant fertility	525378	true
+	5	constant fertility	525379	true
+	60	constant fertility	525380	true
+	0	constant fertility	525381	true
+
+columns
+	variableId
+	520268
+	520269
+	520270
+	520271
+	520272
+	520273
+	520274
+	520275
+	520276
+	520277
+	520278
+	520279
+	520280
+	520281
+	520282
+	520283
+	520284
+	520285
+	520286
+	520287
+	520288
+	520289
+	520290
+	520291
+	520292
+	520293
+	520294
+	520295
+	520296
+	520297
+	520298
+	520299
+	520300
+	520301
+	520302
+	520303
+	520304
+	520305
+	520306
+	520307
+	520308
+	520309
+	520310
+	520311
+	520312
+	520313
+	520314
+	520315
+	520316
+	520317
+	520318
+	520319
+	520320
+	520321
+	520322
+	520323
+	520324
+	520325
+	520326
+	520327
+	520328
+	525368
+	525369
+	525370
+	525371
+	525372
+	525373
+	525374
+	525375
+	525376
+	525377
+	525378
+	525379
+	525380
+	525381

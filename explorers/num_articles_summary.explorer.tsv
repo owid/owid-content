@@ -1,0 +1,36 @@
+explorerTitle	Total number of articles - Field: 
+selection	World
+
+graphers
+	field Dropdown	yVariableIds	hasMapTab
+	All	789153	true
+	Computer vision	789188	true
+	Control theory and engineering	789202	true
+	Data mining	789211	true
+	Graphics and multimedia	789246	true
+	Human–computer interaction	789259	true
+	Information management and retrieval	789273	true
+	Machine learning	789302	true
+	Mathematical optimization	789311	true
+	Natural language processing and linguistics	789333	true
+	Real-time computing	789383	true
+	Simulation	789397	true
+	Speech recognition	789411	true
+	Theoretical computer science	789429	true
+
+columns
+	variableId
+	789153
+	789188
+	789202
+	789211
+	789246
+	789259
+	789273
+	789302
+	789311
+	789333
+	789383
+	789397
+	789411
+	789429

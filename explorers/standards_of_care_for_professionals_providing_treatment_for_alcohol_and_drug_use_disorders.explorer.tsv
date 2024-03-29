@@ -1,0 +1,28 @@
+explorerTitle	Standards of care for professionals providing treatment for alcohol and drug use disorders - Human resources  health workforce: 
+selection	World
+
+graphers
+	human_resources__health_workforce Dropdown	yVariableIds	hasMapTab
+	Addiction counsellors	830390	true
+	Addiction medicine specialists/narcologists	830391	true
+	Community health workers	830392	true
+	Medical doctors not specialized in psychiatry or addiction medicine	830393	true
+	Nurses not specialized in psychiatry	830394	true
+	Outreach/field workers	830395	true
+	Psychiatric nurses	830396	true
+	Psychiatrists	830397	true
+	Psychologists	830398	true
+	Social workers	830399	true
+
+columns
+	variableId
+	830390
+	830391
+	830392
+	830393
+	830394
+	830395
+	830396
+	830397
+	830398
+	830399

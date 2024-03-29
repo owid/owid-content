@@ -1,0 +1,14 @@
+explorerTitle	Age-standardized death rates (15+ years), poisoning, per 100,000 - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	821804	true
+	male	821805	true
+	female	821806	true
+
+columns
+	variableId
+	821804
+	821805
+	821806

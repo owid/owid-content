@@ -1,0 +1,12 @@
+explorerTitle	Incident rate of active syphilis (per 1000) - Sex: 
+selection	World
+
+graphers
+	sex Checkbox	yVariableIds	hasMapTab
+	female	827862	true
+	male	827863	true
+
+columns
+	variableId
+	827862
+	827863

@@ -1,0 +1,12 @@
+explorerTitle	Uniform or tiered excise tax system applied on alcoholic beverage - Beverage type: Alcoholic - Beverage: 
+selection	World
+
+graphers
+	beverage Checkbox	yVariableIds	hasMapTab
+	Beer	830827	true
+	Spirits	830828	true
+
+columns
+	variableId
+	830827
+	830828

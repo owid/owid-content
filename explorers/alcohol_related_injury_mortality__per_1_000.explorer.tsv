@@ -1,0 +1,12 @@
+explorerTitle	Alcohol-related injury mortality, per 1,000 - Sex: 
+selection	World
+
+graphers
+	sex Checkbox	yVariableIds	hasMapTab
+	female	821993	true
+	male	821994	true
+
+columns
+	variableId
+	821993
+	821994

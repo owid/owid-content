@@ -1,0 +1,56 @@
+explorerTitle	Early initiation of breastfeeding (in the two years preceding the survey) (%) - 
+selection	World
+
+graphers
+	sex Checkbox	age_group Checkbox	mothers_education_level Dropdown	residence_area_type Checkbox	wealth_quintile Dropdown	wealth_decile Dropdown	yVariableIds	hasMapTab
+	female						825440	true
+		15-19 years					825441	true
+	male						825442	true
+		20-49 years					825443	true
+			None				825444	true
+			Primary				825445	true
+			Secondary or higher				825446	true
+				Rural			825447	true
+				Urban			825448	true
+					Q1 (Poorest)		825449	true
+					Q2		825450	true
+					Q3		825451	true
+					Q4		825452	true
+					Q5 (Richest)		825453	true
+						Decile 1 (poorest)	825454	true
+						Decile 10 (richest)	825455	true
+						Decile 2	825456	true
+						Decile 3	825457	true
+						Decile 4	825458	true
+						Decile 5	825459	true
+						Decile 6	825460	true
+						Decile 7	825461	true
+						Decile 8	825462	true
+						Decile 9	825463	true
+
+columns
+	variableId
+	825440
+	825441
+	825442
+	825443
+	825444
+	825445
+	825446
+	825447
+	825448
+	825449
+	825450
+	825451
+	825452
+	825453
+	825454
+	825455
+	825456
+	825457
+	825458
+	825459
+	825460
+	825461
+	825462
+	825463

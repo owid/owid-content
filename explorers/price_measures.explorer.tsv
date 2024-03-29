@@ -1,0 +1,20 @@
+explorerTitle	Price measures - Price measure types: 
+selection	World
+
+graphers
+	price_measure_types Dropdown	yVariableIds	hasMapTab
+	Additional levy on specific products	829891	true
+	Any other than taxation	829892	true
+	Ban on below-cost selling	829893	true
+	Ban on volume discounts	829894	true
+	Minimum price policy	829895	true
+	Non-alcoholic beverages at lower price	829896	true
+
+columns
+	variableId
+	829891
+	829892
+	829893
+	829894
+	829895
+	829896

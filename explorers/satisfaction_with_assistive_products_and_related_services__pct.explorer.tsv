@@ -1,0 +1,20 @@
+explorerTitle	Satisfaction with assistive products and related services (%) - Assistive technology product: Total
+selection	World
+
+graphers
+	assistive_technology_product Checkbox	satisfaction_with_assistive_products_and_related_services Dropdown	yVariableIds	hasMapTab
+	Total	Assessment and training	830211	true
+	Total	Assistive product(s)	830212	true
+	Total	Mainteinance and repair	830213	true
+	Total, excluding spectacles	Assessment and training	830214	true
+	Total, excluding spectacles	Assistive product(s)	830215	true
+	Total, excluding spectacles	Mainteinance and repair	830216	true
+
+columns
+	variableId
+	830211
+	830212
+	830213
+	830214
+	830215
+	830216

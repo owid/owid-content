@@ -1,0 +1,14 @@
+explorerTitle	Estimated road traffic death rate (per 100 000 population) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	825614	true
+	female	825615	true
+	male	825616	true
+
+columns
+	variableId
+	825614
+	825615
+	825616

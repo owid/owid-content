@@ -1,0 +1,24 @@
+explorerTitle	Continuing professional development in prevention - Human resources  health workforce: 
+selection	World
+
+graphers
+	human_resources__health_workforce Dropdown	yVariableIds	hasMapTab
+	Addiction counsellors	824884	true
+	Addiction medicine specialists/narcologists	824885	true
+	Community health workers	824886	true
+	Medical doctors	824887	true
+	Nurses	824888	true
+	Psychiatrists	824889	true
+	Psychologists	824890	true
+	Social workers	824891	true
+
+columns
+	variableId
+	824884
+	824885
+	824886
+	824887
+	824888
+	824889
+	824890
+	824891

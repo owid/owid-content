@@ -1,0 +1,14 @@
+explorerTitle	Advertising restrictions on the internet - Substance abuse advertising types: 
+selection	World
+
+graphers
+	substance_abuse_advertising_types Dropdown	yVariableIds	hasMapTab
+	Beer Ads	821717	true
+	Spirits Ads	821718	true
+	Wine Ads	821719	true
+
+columns
+	variableId
+	821717
+	821718
+	821719

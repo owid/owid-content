@@ -1,0 +1,14 @@
+explorerTitle	Population using safely managed drinking-water services (%) - Residence area type: 
+selection	World
+
+graphers
+	residence_area_type Dropdown	yVariableIds	hasMapTab
+	Rural	829315	true
+	Total	829316	true
+	Urban	829317	true
+
+columns
+	variableId
+	829315
+	829316
+	829317

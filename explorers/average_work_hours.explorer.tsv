@@ -1,0 +1,668 @@
+explorerTitle	Average hours of work per employed person - Economic_activity: (
+selection	World
+
+graphers
+	economic_activity Dropdown	education Dropdown	yVariableIds	hasMapTab
+	(Aggregate): Agriculture	Education Aggregate levels: Advanced	812881	true
+	(Aggregate): Agriculture	Education Aggregate levels: Basic	812882	true
+	(Aggregate): Agriculture	Education Aggregate levels: Intermediate	812883	true
+	(Aggregate): Agriculture	Education Aggregate levels: Less than basic	812884	true
+	(Aggregate): Agriculture	Education Aggregate levels: Level not stated	812885	true
+	(Aggregate): Agriculture	Education Aggregate levels: Total	812886	true
+	(Aggregate): Construction	Education Aggregate levels: Advanced	812887	true
+	(Aggregate): Construction	Education Aggregate levels: Basic	812888	true
+	(Aggregate): Construction	Education Aggregate levels: Intermediate	812889	true
+	(Aggregate): Construction	Education Aggregate levels: Level not stated	812890	true
+	(Aggregate): Construction	Education Aggregate levels: Less than basic	812891	true
+	(Aggregate): Construction	Education Aggregate levels: Total	812892	true
+	(Aggregate): Manufacturing	Education Aggregate levels: Advanced	812893	true
+	(Aggregate): Manufacturing	Education Aggregate levels: Basic	812894	true
+	(Aggregate): Manufacturing	Education Aggregate levels: Intermediate	812895	true
+	(Aggregate): Manufacturing	Education Aggregate levels: Less than basic	812896	true
+	(Aggregate): Manufacturing	Education Aggregate levels: Level not stated	812897	true
+	(Aggregate): Manufacturing	Education Aggregate levels: Total	812898	true
+	(Aggregate): Mining and quarrying; Electricity, gas and water supply	Education Aggregate levels: Advanced	812899	true
+	(Aggregate): Mining and quarrying; Electricity, gas and water supply	Education Aggregate levels: Basic	812900	true
+	(Aggregate): Mining and quarrying; Electricity, gas and water supply	Education Aggregate levels: Intermediate	812901	true
+	(Aggregate): Mining and quarrying; Electricity, gas and water supply	Education Aggregate levels: Level not stated	812902	true
+	(Aggregate): Mining and quarrying; Electricity, gas and water supply	Education Aggregate levels: Less than basic	812903	true
+	(Aggregate): Mining and quarrying; Electricity, gas and water supply	Education Aggregate levels: Total	812904	true
+	(Aggregate): Not classified	Education Aggregate levels: Advanced	812905	true
+	(Aggregate): Not classified	Education Aggregate levels: Basic	812906	true
+	(Aggregate): Not classified	Education Aggregate levels: Intermediate	812907	true
+	(Aggregate): Not classified	Education Aggregate levels: Less than basic	812908	true
+	(Aggregate): Not classified	Education Aggregate levels: Level not stated	812909	true
+	(Aggregate): Not classified	Education Aggregate levels: Total	812910	true
+	(Aggregate): Public Administration, Community, Social and other Services and Activities	Education Aggregate levels: Advanced	812911	true
+	(Aggregate): Public Administration, Community, Social and other Services and Activities	Education Aggregate levels: Basic	812912	true
+	(Aggregate): Public Administration, Community, Social and other Services and Activities	Education Aggregate levels: Intermediate	812913	true
+	(Aggregate): Public Administration, Community, Social and other Services and Activities	Education Aggregate levels: Less than basic	812914	true
+	(Aggregate): Public Administration, Community, Social and other Services and Activities	Education Aggregate levels: Level not stated	812915	true
+	(Aggregate): Public Administration, Community, Social and other Services and Activities	Education Aggregate levels: Total	812916	true
+	(Aggregate): Total	Education Aggregate levels: Advanced	812917	true
+	(Aggregate): Total	Education Aggregate levels: Basic	812918	true
+	(Aggregate): Total	Education Aggregate levels: Intermediate	812919	true
+	(Aggregate): Total	Education Aggregate levels: Less than basic	812920	true
+	(Aggregate): Total	Education Aggregate levels: Level not stated	812921	true
+	(Aggregate): Total	Education Aggregate levels: Total	812922	true
+	(Aggregate): Trade, Transportation, Accommodation and Food, and Business and Administrative Services	Education Aggregate levels: Advanced	812923	true
+	(Aggregate): Trade, Transportation, Accommodation and Food, and Business and Administrative Services	Education Aggregate levels: Basic	812924	true
+	(Aggregate): Trade, Transportation, Accommodation and Food, and Business and Administrative Services	Education Aggregate levels: Intermediate	812925	true
+	(Aggregate): Trade, Transportation, Accommodation and Food, and Business and Administrative Services	Education Aggregate levels: Less than basic	812926	true
+	(Aggregate): Trade, Transportation, Accommodation and Food, and Business and Administrative Services	Education Aggregate levels: Level not stated	812927	true
+	(Aggregate): Trade, Transportation, Accommodation and Food, and Business and Administrative Services	Education Aggregate levels: Total	812928	true
+	(Broad sector): Agriculture	Education Aggregate levels: Advanced	812929	true
+	(Broad sector): Agriculture	Education Aggregate levels: Basic	812930	true
+	(Broad sector): Agriculture	Education Aggregate levels: Intermediate	812931	true
+	(Broad sector): Agriculture	Education Aggregate levels: Less than basic	812932	true
+	(Broad sector): Agriculture	Education Aggregate levels: Level not stated	812933	true
+	(Broad sector): Agriculture	Education Aggregate levels: Total	812934	true
+	(Broad sector): Industry	Education Aggregate levels: Advanced	812935	true
+	(Broad sector): Industry	Education Aggregate levels: Basic	812936	true
+	(Broad sector): Industry	Education Aggregate levels: Intermediate	812937	true
+	(Broad sector): Industry	Education Aggregate levels: Less than basic	812938	true
+	(Broad sector): Industry	Education Aggregate levels: Level not stated	812939	true
+	(Broad sector): Industry	Education Aggregate levels: Total	812940	true
+	(Broad sector): Not classified	Education Aggregate levels: Advanced	812941	true
+	(Broad sector): Not classified	Education Aggregate levels: Basic	812942	true
+	(Broad sector): Not classified	Education Aggregate levels: Intermediate	812943	true
+	(Broad sector): Not classified	Education Aggregate levels: Less than basic	812944	true
+	(Broad sector): Not classified	Education Aggregate levels: Level not stated	812945	true
+	(Broad sector): Not classified	Education Aggregate levels: Total	812946	true
+	(Broad sector): Services	Education Aggregate levels: Advanced	812947	true
+	(Broad sector): Services	Education Aggregate levels: Basic	812948	true
+	(Broad sector): Services	Education Aggregate levels: Intermediate	812949	true
+	(Broad sector): Services	Education Aggregate levels: Less than basic	812950	true
+	(Broad sector): Services	Education Aggregate levels: Level not stated	812951	true
+	(Broad sector): Total	Education Aggregate levels: Advanced	812952	true
+	(Broad sector): Services	Education Aggregate levels: Total	812953	true
+	(Broad sector): Total	Education Aggregate levels: Basic	812954	true
+	(Broad sector): Total	Education Aggregate levels: Intermediate	812955	true
+	(Broad sector): Total	Education Aggregate levels: Less than basic	812956	true
+	(Broad sector): Total	Education Aggregate levels: Level not stated	812957	true
+	(Broad sector): Total	Education Aggregate levels: Total	812958	true
+	(ISIC-Rev.3.1): A. Agriculture, hunting and forestry	Education Aggregate levels: Advanced	812959	true
+	(ISIC-Rev.3.1): A. Agriculture, hunting and forestry	Education Aggregate levels: Basic	812960	true
+	(ISIC-Rev.3.1): A. Agriculture, hunting and forestry	Education Aggregate levels: Intermediate	812961	true
+	(ISIC-Rev.3.1): A. Agriculture, hunting and forestry	Education Aggregate levels: Less than basic	812962	true
+	(ISIC-Rev.3.1): A. Agriculture, hunting and forestry	Education Aggregate levels: Level not stated	812963	true
+	(ISIC-Rev.3.1): A. Agriculture, hunting and forestry	Education Aggregate levels: Total	812964	true
+	(ISIC-Rev.3.1): B. Fishing	Education Aggregate levels: Advanced	812965	true
+	(ISIC-Rev.3.1): B. Fishing	Education Aggregate levels: Basic	812966	true
+	(ISIC-Rev.3.1): B. Fishing	Education Aggregate levels: Intermediate	812967	true
+	(ISIC-Rev.3.1): B. Fishing	Education Aggregate levels: Less than basic	812968	true
+	(ISIC-Rev.3.1): B. Fishing	Education Aggregate levels: Level not stated	812969	true
+	(ISIC-Rev.3.1): B. Fishing	Education Aggregate levels: Total	812970	true
+	(ISIC-Rev.3.1): C. Mining and quarrying	Education Aggregate levels: Advanced	812971	true
+	(ISIC-Rev.3.1): C. Mining and quarrying	Education Aggregate levels: Basic	812972	true
+	(ISIC-Rev.3.1): C. Mining and quarrying	Education Aggregate levels: Intermediate	812973	true
+	(ISIC-Rev.3.1): C. Mining and quarrying	Education Aggregate levels: Less than basic	812974	true
+	(ISIC-Rev.3.1): C. Mining and quarrying	Education Aggregate levels: Level not stated	812975	true
+	(ISIC-Rev.3.1): C. Mining and quarrying	Education Aggregate levels: Total	812976	true
+	(ISIC-Rev.3.1): D. Manufacturing	Education Aggregate levels: Advanced	812977	true
+	(ISIC-Rev.3.1): D. Manufacturing	Education Aggregate levels: Basic	812978	true
+	(ISIC-Rev.3.1): D. Manufacturing	Education Aggregate levels: Intermediate	812979	true
+	(ISIC-Rev.3.1): D. Manufacturing	Education Aggregate levels: Less than basic	812980	true
+	(ISIC-Rev.3.1): D. Manufacturing	Education Aggregate levels: Level not stated	812981	true
+	(ISIC-Rev.3.1): D. Manufacturing	Education Aggregate levels: Total	812982	true
+	(ISIC-Rev.3.1): E. Electricity, gas and water supply	Education Aggregate levels: Advanced	812983	true
+	(ISIC-Rev.3.1): E. Electricity, gas and water supply	Education Aggregate levels: Basic	812984	true
+	(ISIC-Rev.3.1): E. Electricity, gas and water supply	Education Aggregate levels: Intermediate	812985	true
+	(ISIC-Rev.3.1): E. Electricity, gas and water supply	Education Aggregate levels: Less than basic	812986	true
+	(ISIC-Rev.3.1): E. Electricity, gas and water supply	Education Aggregate levels: Level not stated	812987	true
+	(ISIC-Rev.3.1): E. Electricity, gas and water supply	Education Aggregate levels: Total	812988	true
+	(ISIC-Rev.3.1): F. Construction	Education Aggregate levels: Advanced	812989	true
+	(ISIC-Rev.3.1): F. Construction	Education Aggregate levels: Basic	812990	true
+	(ISIC-Rev.3.1): F. Construction	Education Aggregate levels: Intermediate	812991	true
+	(ISIC-Rev.3.1): F. Construction	Education Aggregate levels: Less than basic	812992	true
+	(ISIC-Rev.3.1): F. Construction	Education Aggregate levels: Level not stated	812993	true
+	(ISIC-Rev.3.1): F. Construction	Education Aggregate levels: Total	812994	true
+	(ISIC-Rev.3.1): G. Wholesale and retail trade; repair of motor vehicles, motorcycles and personal and household goods	Education Aggregate levels: Advanced	812995	true
+	(ISIC-Rev.3.1): G. Wholesale and retail trade; repair of motor vehicles, motorcycles and personal and household goods	Education Aggregate levels: Basic	812996	true
+	(ISIC-Rev.3.1): G. Wholesale and retail trade; repair of motor vehicles, motorcycles and personal and household goods	Education Aggregate levels: Intermediate	812997	true
+	(ISIC-Rev.3.1): G. Wholesale and retail trade; repair of motor vehicles, motorcycles and personal and household goods	Education Aggregate levels: Less than basic	812998	true
+	(ISIC-Rev.3.1): G. Wholesale and retail trade; repair of motor vehicles, motorcycles and personal and household goods	Education Aggregate levels: Level not stated	812999	true
+	(ISIC-Rev.3.1): G. Wholesale and retail trade; repair of motor vehicles, motorcycles and personal and household goods	Education Aggregate levels: Total	813000	true
+	(ISIC-Rev.3.1): H. Hotels and restaurants	Education Aggregate levels: Advanced	813001	true
+	(ISIC-Rev.3.1): H. Hotels and restaurants	Education Aggregate levels: Basic	813002	true
+	(ISIC-Rev.3.1): H. Hotels and restaurants	Education Aggregate levels: Intermediate	813003	true
+	(ISIC-Rev.3.1): H. Hotels and restaurants	Education Aggregate levels: Less than basic	813004	true
+	(ISIC-Rev.3.1): H. Hotels and restaurants	Education Aggregate levels: Level not stated	813005	true
+	(ISIC-Rev.3.1): H. Hotels and restaurants	Education Aggregate levels: Total	813006	true
+	(ISIC-Rev.3.1): I. Transport, storage and communications	Education Aggregate levels: Advanced	813007	true
+	(ISIC-Rev.3.1): I. Transport, storage and communications	Education Aggregate levels: Basic	813008	true
+	(ISIC-Rev.3.1): I. Transport, storage and communications	Education Aggregate levels: Intermediate	813009	true
+	(ISIC-Rev.3.1): I. Transport, storage and communications	Education Aggregate levels: Less than basic	813010	true
+	(ISIC-Rev.3.1): I. Transport, storage and communications	Education Aggregate levels: Level not stated	813011	true
+	(ISIC-Rev.3.1): I. Transport, storage and communications	Education Aggregate levels: Total	813012	true
+	(ISIC-Rev.3.1): J. Financial intermediation	Education Aggregate levels: Advanced	813013	true
+	(ISIC-Rev.3.1): J. Financial intermediation	Education Aggregate levels: Basic	813014	true
+	(ISIC-Rev.3.1): J. Financial intermediation	Education Aggregate levels: Intermediate	813015	true
+	(ISIC-Rev.3.1): J. Financial intermediation	Education Aggregate levels: Less than basic	813016	true
+	(ISIC-Rev.3.1): J. Financial intermediation	Education Aggregate levels: Level not stated	813017	true
+	(ISIC-Rev.3.1): J. Financial intermediation	Education Aggregate levels: Total	813018	true
+	(ISIC-Rev.3.1): K. Real estate, renting and business activities	Education Aggregate levels: Advanced	813019	true
+	(ISIC-Rev.3.1): K. Real estate, renting and business activities	Education Aggregate levels: Basic	813020	true
+	(ISIC-Rev.3.1): K. Real estate, renting and business activities	Education Aggregate levels: Intermediate	813021	true
+	(ISIC-Rev.3.1): K. Real estate, renting and business activities	Education Aggregate levels: Less than basic	813022	true
+	(ISIC-Rev.3.1): K. Real estate, renting and business activities	Education Aggregate levels: Level not stated	813023	true
+	(ISIC-Rev.3.1): K. Real estate, renting and business activities	Education Aggregate levels: Total	813024	true
+	(ISIC-Rev.3.1): L. Public administration and defence; compulsory social security	Education Aggregate levels: Advanced	813025	true
+	(ISIC-Rev.3.1): L. Public administration and defence; compulsory social security	Education Aggregate levels: Basic	813026	true
+	(ISIC-Rev.3.1): L. Public administration and defence; compulsory social security	Education Aggregate levels: Intermediate	813027	true
+	(ISIC-Rev.3.1): L. Public administration and defence; compulsory social security	Education Aggregate levels: Less than basic	813028	true
+	(ISIC-Rev.3.1): L. Public administration and defence; compulsory social security	Education Aggregate levels: Level not stated	813029	true
+	(ISIC-Rev.3.1): L. Public administration and defence; compulsory social security	Education Aggregate levels: Total	813030	true
+	(ISIC-Rev.3.1): M. Education	Education Aggregate levels: Advanced	813031	true
+	(ISIC-Rev.3.1): M. Education	Education Aggregate levels: Basic	813032	true
+	(ISIC-Rev.3.1): M. Education	Education Aggregate levels: Intermediate	813033	true
+	(ISIC-Rev.3.1): M. Education	Education Aggregate levels: Less than basic	813034	true
+	(ISIC-Rev.3.1): M. Education	Education Aggregate levels: Level not stated	813035	true
+	(ISIC-Rev.3.1): M. Education	Education Aggregate levels: Total	813036	true
+	(ISIC-Rev.3.1): N. Health and social work	Education Aggregate levels: Advanced	813037	true
+	(ISIC-Rev.3.1): N. Health and social work	Education Aggregate levels: Basic	813038	true
+	(ISIC-Rev.3.1): N. Health and social work	Education Aggregate levels: Intermediate	813039	true
+	(ISIC-Rev.3.1): N. Health and social work	Education Aggregate levels: Less than basic	813040	true
+	(ISIC-Rev.3.1): N. Health and social work	Education Aggregate levels: Level not stated	813041	true
+	(ISIC-Rev.3.1): N. Health and social work	Education Aggregate levels: Total	813042	true
+	(ISIC-Rev.3.1): O. Other community, social and personal service activities	Education Aggregate levels: Advanced	813043	true
+	(ISIC-Rev.3.1): O. Other community, social and personal service activities	Education Aggregate levels: Basic	813044	true
+	(ISIC-Rev.3.1): O. Other community, social and personal service activities	Education Aggregate levels: Intermediate	813045	true
+	(ISIC-Rev.3.1): O. Other community, social and personal service activities	Education Aggregate levels: Less than basic	813046	true
+	(ISIC-Rev.3.1): O. Other community, social and personal service activities	Education Aggregate levels: Level not stated	813047	true
+	(ISIC-Rev.3.1): P. Activities of private households as employers and undifferentiated production activities of private households	Education Aggregate levels: Advanced	813048	true
+	(ISIC-Rev.3.1): O. Other community, social and personal service activities	Education Aggregate levels: Total	813049	true
+	(ISIC-Rev.3.1): P. Activities of private households as employers and undifferentiated production activities of private households	Education Aggregate levels: Basic	813050	true
+	(ISIC-Rev.3.1): P. Activities of private households as employers and undifferentiated production activities of private households	Education Aggregate levels: Intermediate	813051	true
+	(ISIC-Rev.3.1): P. Activities of private households as employers and undifferentiated production activities of private households	Education Aggregate levels: Less than basic	813052	true
+	(ISIC-Rev.3.1): P. Activities of private households as employers and undifferentiated production activities of private households	Education Aggregate levels: Level not stated	813053	true
+	(ISIC-Rev.3.1): P. Activities of private households as employers and undifferentiated production activities of private households	Education Aggregate levels: Total	813054	true
+	(ISIC-Rev.3.1): Q. Extraterritorial organizations and bodies	Education Aggregate levels: Advanced	813055	true
+	(ISIC-Rev.3.1): Q. Extraterritorial organizations and bodies	Education Aggregate levels: Basic	813056	true
+	(ISIC-Rev.3.1): Q. Extraterritorial organizations and bodies	Education Aggregate levels: Intermediate	813057	true
+	(ISIC-Rev.3.1): Q. Extraterritorial organizations and bodies	Education Aggregate levels: Less than basic	813058	true
+	(ISIC-Rev.3.1): Q. Extraterritorial organizations and bodies	Education Aggregate levels: Level not stated	813059	true
+	(ISIC-Rev.3.1): Q. Extraterritorial organizations and bodies	Education Aggregate levels: Total	813060	true
+	(ISIC-Rev.3.1): Total	Education Aggregate levels: Advanced	813061	true
+	(ISIC-Rev.3.1): Total	Education Aggregate levels: Basic	813062	true
+	(ISIC-Rev.3.1): Total	Education Aggregate levels: Intermediate	813063	true
+	(ISIC-Rev.3.1): Total	Education Aggregate levels: Less than basic	813064	true
+	(ISIC-Rev.3.1): Total	Education Aggregate levels: Level not stated	813065	true
+	(ISIC-Rev.3.1): Total	Education Aggregate levels: Total	813066	true
+	(ISIC-Rev.3.1): X. Not elsewhere classified	Education Aggregate levels: Advanced	813067	true
+	(ISIC-Rev.3.1): X. Not elsewhere classified	Education Aggregate levels: Basic	813068	true
+	(ISIC-Rev.3.1): X. Not elsewhere classified	Education Aggregate levels: Intermediate	813069	true
+	(ISIC-Rev.3.1): X. Not elsewhere classified	Education Aggregate levels: Less than basic	813070	true
+	(ISIC-Rev.3.1): X. Not elsewhere classified	Education Aggregate levels: Level not stated	813071	true
+	(ISIC-Rev.3.1): X. Not elsewhere classified	Education Aggregate levels: Total	813072	true
+	(ISIC-Rev.4): A. Agriculture; forestry and fishing	Education Aggregate levels: Advanced	813073	true
+	(ISIC-Rev.4): A. Agriculture; forestry and fishing	Education Aggregate levels: Basic	813074	true
+	(ISIC-Rev.4): A. Agriculture; forestry and fishing	Education Aggregate levels: Intermediate	813075	true
+	(ISIC-Rev.4): A. Agriculture; forestry and fishing	Education Aggregate levels: Less than basic	813076	true
+	(ISIC-Rev.4): A. Agriculture; forestry and fishing	Education Aggregate levels: Level not stated	813077	true
+	(ISIC-Rev.4): A. Agriculture; forestry and fishing	Education Aggregate levels: Total	813078	true
+	(ISIC-Rev.4): B. Mining and quarrying	Education Aggregate levels: Advanced	813079	true
+	(ISIC-Rev.4): B. Mining and quarrying	Education Aggregate levels: Basic	813080	true
+	(ISIC-Rev.4): B. Mining and quarrying	Education Aggregate levels: Intermediate	813081	true
+	(ISIC-Rev.4): B. Mining and quarrying	Education Aggregate levels: Less than basic	813082	true
+	(ISIC-Rev.4): B. Mining and quarrying	Education Aggregate levels: Level not stated	813083	true
+	(ISIC-Rev.4): B. Mining and quarrying	Education Aggregate levels: Total	813084	true
+	(ISIC-Rev.4): C. Manufacturing	Education Aggregate levels: Advanced	813085	true
+	(ISIC-Rev.4): C. Manufacturing	Education Aggregate levels: Basic	813086	true
+	(ISIC-Rev.4): C. Manufacturing	Education Aggregate levels: Intermediate	813087	true
+	(ISIC-Rev.4): C. Manufacturing	Education Aggregate levels: Less than basic	813088	true
+	(ISIC-Rev.4): C. Manufacturing	Education Aggregate levels: Level not stated	813089	true
+	(ISIC-Rev.4): C. Manufacturing	Education Aggregate levels: Total	813090	true
+	(ISIC-Rev.4): D. Electricity; gas, steam and air conditioning supply	Education Aggregate levels: Advanced	813091	true
+	(ISIC-Rev.4): D. Electricity; gas, steam and air conditioning supply	Education Aggregate levels: Basic	813092	true
+	(ISIC-Rev.4): D. Electricity; gas, steam and air conditioning supply	Education Aggregate levels: Intermediate	813093	true
+	(ISIC-Rev.4): D. Electricity; gas, steam and air conditioning supply	Education Aggregate levels: Less than basic	813094	true
+	(ISIC-Rev.4): D. Electricity; gas, steam and air conditioning supply	Education Aggregate levels: Level not stated	813095	true
+	(ISIC-Rev.4): D. Electricity; gas, steam and air conditioning supply	Education Aggregate levels: Total	813096	true
+	(ISIC-Rev.4): E. Water supply; sewerage, waste management and remediation activities	Education Aggregate levels: Advanced	813097	true
+	(ISIC-Rev.4): E. Water supply; sewerage, waste management and remediation activities	Education Aggregate levels: Basic	813098	true
+	(ISIC-Rev.4): E. Water supply; sewerage, waste management and remediation activities	Education Aggregate levels: Intermediate	813099	true
+	(ISIC-Rev.4): E. Water supply; sewerage, waste management and remediation activities	Education Aggregate levels: Less than basic	813100	true
+	(ISIC-Rev.4): E. Water supply; sewerage, waste management and remediation activities	Education Aggregate levels: Level not stated	813101	true
+	(ISIC-Rev.4): E. Water supply; sewerage, waste management and remediation activities	Education Aggregate levels: Total	813102	true
+	(ISIC-Rev.4): F. Construction	Education Aggregate levels: Advanced	813103	true
+	(ISIC-Rev.4): F. Construction	Education Aggregate levels: Basic	813104	true
+	(ISIC-Rev.4): F. Construction	Education Aggregate levels: Intermediate	813105	true
+	(ISIC-Rev.4): F. Construction	Education Aggregate levels: Less than basic	813106	true
+	(ISIC-Rev.4): F. Construction	Education Aggregate levels: Level not stated	813107	true
+	(ISIC-Rev.4): F. Construction	Education Aggregate levels: Total	813108	true
+	(ISIC-Rev.4): G. Wholesale and retail trade; repair of motor vehicles and motorcycles	Education Aggregate levels: Advanced	813109	true
+	(ISIC-Rev.4): G. Wholesale and retail trade; repair of motor vehicles and motorcycles	Education Aggregate levels: Basic	813110	true
+	(ISIC-Rev.4): G. Wholesale and retail trade; repair of motor vehicles and motorcycles	Education Aggregate levels: Intermediate	813111	true
+	(ISIC-Rev.4): G. Wholesale and retail trade; repair of motor vehicles and motorcycles	Education Aggregate levels: Level not stated	813112	true
+	(ISIC-Rev.4): G. Wholesale and retail trade; repair of motor vehicles and motorcycles	Education Aggregate levels: Less than basic	813113	true
+	(ISIC-Rev.4): G. Wholesale and retail trade; repair of motor vehicles and motorcycles	Education Aggregate levels: Total	813114	true
+	(ISIC-Rev.4): H. Transportation and storage	Education Aggregate levels: Advanced	813115	true
+	(ISIC-Rev.4): H. Transportation and storage	Education Aggregate levels: Basic	813116	true
+	(ISIC-Rev.4): H. Transportation and storage	Education Aggregate levels: Intermediate	813117	true
+	(ISIC-Rev.4): H. Transportation and storage	Education Aggregate levels: Less than basic	813118	true
+	(ISIC-Rev.4): H. Transportation and storage	Education Aggregate levels: Level not stated	813119	true
+	(ISIC-Rev.4): H. Transportation and storage	Education Aggregate levels: Total	813120	true
+	(ISIC-Rev.4): I. Accommodation and food service activities	Education Aggregate levels: Advanced	813121	true
+	(ISIC-Rev.4): I. Accommodation and food service activities	Education Aggregate levels: Basic	813122	true
+	(ISIC-Rev.4): I. Accommodation and food service activities	Education Aggregate levels: Intermediate	813123	true
+	(ISIC-Rev.4): I. Accommodation and food service activities	Education Aggregate levels: Less than basic	813124	true
+	(ISIC-Rev.4): I. Accommodation and food service activities	Education Aggregate levels: Level not stated	813125	true
+	(ISIC-Rev.4): I. Accommodation and food service activities	Education Aggregate levels: Total	813126	true
+	(ISIC-Rev.4): J. Information and communication	Education Aggregate levels: Advanced	813127	true
+	(ISIC-Rev.4): J. Information and communication	Education Aggregate levels: Basic	813128	true
+	(ISIC-Rev.4): J. Information and communication	Education Aggregate levels: Intermediate	813129	true
+	(ISIC-Rev.4): J. Information and communication	Education Aggregate levels: Less than basic	813130	true
+	(ISIC-Rev.4): J. Information and communication	Education Aggregate levels: Level not stated	813131	true
+	(ISIC-Rev.4): J. Information and communication	Education Aggregate levels: Total	813132	true
+	(ISIC-Rev.4): K. Financial and insurance activities	Education Aggregate levels: Advanced	813133	true
+	(ISIC-Rev.4): K. Financial and insurance activities	Education Aggregate levels: Basic	813134	true
+	(ISIC-Rev.4): K. Financial and insurance activities	Education Aggregate levels: Intermediate	813135	true
+	(ISIC-Rev.4): K. Financial and insurance activities	Education Aggregate levels: Less than basic	813136	true
+	(ISIC-Rev.4): K. Financial and insurance activities	Education Aggregate levels: Level not stated	813137	true
+	(ISIC-Rev.4): K. Financial and insurance activities	Education Aggregate levels: Total	813138	true
+	(ISIC-Rev.4): L. Real estate activities	Education Aggregate levels: Advanced	813139	true
+	(ISIC-Rev.4): L. Real estate activities	Education Aggregate levels: Basic	813140	true
+	(ISIC-Rev.4): L. Real estate activities	Education Aggregate levels: Intermediate	813141	true
+	(ISIC-Rev.4): L. Real estate activities	Education Aggregate levels: Less than basic	813142	true
+	(ISIC-Rev.4): L. Real estate activities	Education Aggregate levels: Level not stated	813143	true
+	(ISIC-Rev.4): L. Real estate activities	Education Aggregate levels: Total	813144	true
+	(ISIC-Rev.4): M. Professional, scientific and technical activities	Education Aggregate levels: Advanced	813145	true
+	(ISIC-Rev.4): M. Professional, scientific and technical activities	Education Aggregate levels: Basic	813146	true
+	(ISIC-Rev.4): M. Professional, scientific and technical activities	Education Aggregate levels: Intermediate	813147	true
+	(ISIC-Rev.4): M. Professional, scientific and technical activities	Education Aggregate levels: Less than basic	813148	true
+	(ISIC-Rev.4): M. Professional, scientific and technical activities	Education Aggregate levels: Level not stated	813149	true
+	(ISIC-Rev.4): M. Professional, scientific and technical activities	Education Aggregate levels: Total	813150	true
+	(ISIC-Rev.4): N. Administrative and support service activities	Education Aggregate levels: Advanced	813151	true
+	(ISIC-Rev.4): N. Administrative and support service activities	Education Aggregate levels: Basic	813152	true
+	(ISIC-Rev.4): N. Administrative and support service activities	Education Aggregate levels: Less than basic	813153	true
+	(ISIC-Rev.4): N. Administrative and support service activities	Education Aggregate levels: Intermediate	813154	true
+	(ISIC-Rev.4): N. Administrative and support service activities	Education Aggregate levels: Level not stated	813155	true
+	(ISIC-Rev.4): N. Administrative and support service activities	Education Aggregate levels: Total	813156	true
+	(ISIC-Rev.4): O. Public administration and defence; compulsory social security	Education Aggregate levels: Advanced	813157	true
+	(ISIC-Rev.4): O. Public administration and defence; compulsory social security	Education Aggregate levels: Basic	813158	true
+	(ISIC-Rev.4): O. Public administration and defence; compulsory social security	Education Aggregate levels: Intermediate	813159	true
+	(ISIC-Rev.4): O. Public administration and defence; compulsory social security	Education Aggregate levels: Less than basic	813160	true
+	(ISIC-Rev.4): O. Public administration and defence; compulsory social security	Education Aggregate levels: Level not stated	813161	true
+	(ISIC-Rev.4): O. Public administration and defence; compulsory social security	Education Aggregate levels: Total	813162	true
+	(ISIC-Rev.4): P. Education	Education Aggregate levels: Advanced	813163	true
+	(ISIC-Rev.4): P. Education	Education Aggregate levels: Basic	813164	true
+	(ISIC-Rev.4): P. Education	Education Aggregate levels: Intermediate	813165	true
+	(ISIC-Rev.4): P. Education	Education Aggregate levels: Less than basic	813166	true
+	(ISIC-Rev.4): P. Education	Education Aggregate levels: Level not stated	813167	true
+	(ISIC-Rev.4): P. Education	Education Aggregate levels: Total	813168	true
+	(ISIC-Rev.4): Q. Human health and social work activities	Education Aggregate levels: Advanced	813169	true
+	(ISIC-Rev.4): Q. Human health and social work activities	Education Aggregate levels: Basic	813170	true
+	(ISIC-Rev.4): Q. Human health and social work activities	Education Aggregate levels: Intermediate	813171	true
+	(ISIC-Rev.4): Q. Human health and social work activities	Education Aggregate levels: Less than basic	813172	true
+	(ISIC-Rev.4): Q. Human health and social work activities	Education Aggregate levels: Level not stated	813173	true
+	(ISIC-Rev.4): Q. Human health and social work activities	Education Aggregate levels: Total	813174	true
+	(ISIC-Rev.4): R. Arts, entertainment and recreation	Education Aggregate levels: Advanced	813175	true
+	(ISIC-Rev.4): R. Arts, entertainment and recreation	Education Aggregate levels: Basic	813176	true
+	(ISIC-Rev.4): R. Arts, entertainment and recreation	Education Aggregate levels: Intermediate	813177	true
+	(ISIC-Rev.4): R. Arts, entertainment and recreation	Education Aggregate levels: Less than basic	813178	true
+	(ISIC-Rev.4): R. Arts, entertainment and recreation	Education Aggregate levels: Level not stated	813179	true
+	(ISIC-Rev.4): R. Arts, entertainment and recreation	Education Aggregate levels: Total	813180	true
+	(ISIC-Rev.4): S. Other service activities	Education Aggregate levels: Advanced	813181	true
+	(ISIC-Rev.4): S. Other service activities	Education Aggregate levels: Basic	813182	true
+	(ISIC-Rev.4): S. Other service activities	Education Aggregate levels: Intermediate	813183	true
+	(ISIC-Rev.4): S. Other service activities	Education Aggregate levels: Less than basic	813184	true
+	(ISIC-Rev.4): S. Other service activities	Education Aggregate levels: Level not stated	813185	true
+	(ISIC-Rev.4): S. Other service activities	Education Aggregate levels: Total	813186	true
+	(ISIC-Rev.4): T. Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use	Education Aggregate levels: Advanced	813187	true
+	(ISIC-Rev.4): T. Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use	Education Aggregate levels: Basic	813188	true
+	(ISIC-Rev.4): T. Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use	Education Aggregate levels: Intermediate	813189	true
+	(ISIC-Rev.4): T. Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use	Education Aggregate levels: Less than basic	813190	true
+	(ISIC-Rev.4): T. Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use	Education Aggregate levels: Level not stated	813191	true
+	(ISIC-Rev.4): T. Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use	Education Aggregate levels: Total	813192	true
+	(ISIC-Rev.4): Total	Education Aggregate levels: Advanced	813193	true
+	(ISIC-Rev.4): Total	Education Aggregate levels: Basic	813194	true
+	(ISIC-Rev.4): Total	Education Aggregate levels: Intermediate	813195	true
+	(ISIC-Rev.4): Total	Education Aggregate levels: Less than basic	813196	true
+	(ISIC-Rev.4): Total	Education Aggregate levels: Level not stated	813197	true
+	(ISIC-Rev.4): Total	Education Aggregate levels: Total	813198	true
+	(ISIC-Rev.4): U. Activities of extraterritorial organizations and bodies	Education Aggregate levels: Advanced	813199	true
+	(ISIC-Rev.4): U. Activities of extraterritorial organizations and bodies	Education Aggregate levels: Basic	813200	true
+	(ISIC-Rev.4): U. Activities of extraterritorial organizations and bodies	Education Aggregate levels: Intermediate	813201	true
+	(ISIC-Rev.4): U. Activities of extraterritorial organizations and bodies	Education Aggregate levels: Less than basic	813202	true
+	(ISIC-Rev.4): U. Activities of extraterritorial organizations and bodies	Education Aggregate levels: Level not stated	813203	true
+	(ISIC-Rev.4): U. Activities of extraterritorial organizations and bodies	Education Aggregate levels: Total	813204	true
+	(ISIC-Rev.4): X. Not elsewhere classified	Education Aggregate levels: Advanced	813205	true
+	(ISIC-Rev.4): X. Not elsewhere classified	Education Aggregate levels: Basic	813206	true
+	(ISIC-Rev.4): X. Not elsewhere classified	Education Aggregate levels: Intermediate	813207	true
+	(ISIC-Rev.4): X. Not elsewhere classified	Education Aggregate levels: Less than basic	813208	true
+	(ISIC-Rev.4): X. Not elsewhere classified	Education Aggregate levels: Level not stated	813209	true
+	(ISIC-Rev.4): X. Not elsewhere classified	Education Aggregate levels: Total	813210	true
+
+columns
+	variableId
+	812881
+	812882
+	812883
+	812884
+	812885
+	812886
+	812887
+	812888
+	812889
+	812890
+	812891
+	812892
+	812893
+	812894
+	812895
+	812896
+	812897
+	812898
+	812899
+	812900
+	812901
+	812902
+	812903
+	812904
+	812905
+	812906
+	812907
+	812908
+	812909
+	812910
+	812911
+	812912
+	812913
+	812914
+	812915
+	812916
+	812917
+	812918
+	812919
+	812920
+	812921
+	812922
+	812923
+	812924
+	812925
+	812926
+	812927
+	812928
+	812929
+	812930
+	812931
+	812932
+	812933
+	812934
+	812935
+	812936
+	812937
+	812938
+	812939
+	812940
+	812941
+	812942
+	812943
+	812944
+	812945
+	812946
+	812947
+	812948
+	812949
+	812950
+	812951
+	812952
+	812953
+	812954
+	812955
+	812956
+	812957
+	812958
+	812959
+	812960
+	812961
+	812962
+	812963
+	812964
+	812965
+	812966
+	812967
+	812968
+	812969
+	812970
+	812971
+	812972
+	812973
+	812974
+	812975
+	812976
+	812977
+	812978
+	812979
+	812980
+	812981
+	812982
+	812983
+	812984
+	812985
+	812986
+	812987
+	812988
+	812989
+	812990
+	812991
+	812992
+	812993
+	812994
+	812995
+	812996
+	812997
+	812998
+	812999
+	813000
+	813001
+	813002
+	813003
+	813004
+	813005
+	813006
+	813007
+	813008
+	813009
+	813010
+	813011
+	813012
+	813013
+	813014
+	813015
+	813016
+	813017
+	813018
+	813019
+	813020
+	813021
+	813022
+	813023
+	813024
+	813025
+	813026
+	813027
+	813028
+	813029
+	813030
+	813031
+	813032
+	813033
+	813034
+	813035
+	813036
+	813037
+	813038
+	813039
+	813040
+	813041
+	813042
+	813043
+	813044
+	813045
+	813046
+	813047
+	813048
+	813049
+	813050
+	813051
+	813052
+	813053
+	813054
+	813055
+	813056
+	813057
+	813058
+	813059
+	813060
+	813061
+	813062
+	813063
+	813064
+	813065
+	813066
+	813067
+	813068
+	813069
+	813070
+	813071
+	813072
+	813073
+	813074
+	813075
+	813076
+	813077
+	813078
+	813079
+	813080
+	813081
+	813082
+	813083
+	813084
+	813085
+	813086
+	813087
+	813088
+	813089
+	813090
+	813091
+	813092
+	813093
+	813094
+	813095
+	813096
+	813097
+	813098
+	813099
+	813100
+	813101
+	813102
+	813103
+	813104
+	813105
+	813106
+	813107
+	813108
+	813109
+	813110
+	813111
+	813112
+	813113
+	813114
+	813115
+	813116
+	813117
+	813118
+	813119
+	813120
+	813121
+	813122
+	813123
+	813124
+	813125
+	813126
+	813127
+	813128
+	813129
+	813130
+	813131
+	813132
+	813133
+	813134
+	813135
+	813136
+	813137
+	813138
+	813139
+	813140
+	813141
+	813142
+	813143
+	813144
+	813145
+	813146
+	813147
+	813148
+	813149
+	813150
+	813151
+	813152
+	813153
+	813154
+	813155
+	813156
+	813157
+	813158
+	813159
+	813160
+	813161
+	813162
+	813163
+	813164
+	813165
+	813166
+	813167
+	813168
+	813169
+	813170
+	813171
+	813172
+	813173
+	813174
+	813175
+	813176
+	813177
+	813178
+	813179
+	813180
+	813181
+	813182
+	813183
+	813184
+	813185
+	813186
+	813187
+	813188
+	813189
+	813190
+	813191
+	813192
+	813193
+	813194
+	813195
+	813196
+	813197
+	813198
+	813199
+	813200
+	813201
+	813202
+	813203
+	813204
+	813205
+	813206
+	813207
+	813208
+	813209
+	813210

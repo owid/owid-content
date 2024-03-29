@@ -1,0 +1,26 @@
+explorerTitle	Programmes for the prevention of substance use disorders for special populations - Rsud special populations: 
+selection	World
+
+graphers
+	rsud_special_populations Dropdown	yVariableIds	hasMapTab
+	Children and adolescentsChildren and adolescents in the general population	829912	true
+	Children and families at riskChildren at risk and their families	829913	true
+	Commercial sex workersCommercial sex workers	829914	true
+	Indigenous populationsIndigenous people	829915	true
+	Minority groupsMinority groups	829916	true
+	People living with HIV/AIDSPeople living with HIV/AIDS	829917	true
+	Pregnant womenPregnant women	829918	true
+	PrisonersPrisoners	829919	true
+	RefugeesRefugees	829920	true
+
+columns
+	variableId
+	829912
+	829913
+	829914
+	829915
+	829916
+	829917
+	829918
+	829919
+	829920

@@ -1,0 +1,16 @@
+explorerTitle	Seat-belt wearing rate (%) - Seat type: 
+selection	World
+
+graphers
+	seat_type Dropdown	yVariableIds	hasMapTab
+	Drivers only	830230	true
+	Front seat	830231	true
+	Rear seat	830232	true
+	All occupants	830233	true
+
+columns
+	variableId
+	830230
+	830231
+	830232
+	830233

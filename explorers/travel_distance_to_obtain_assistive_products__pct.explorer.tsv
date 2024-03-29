@@ -1,0 +1,48 @@
+explorerTitle	Travel distance to obtain assistive products (%) - Residence area type: 
+selection	World
+
+graphers
+	residence_area_type Dropdown	assistive_technology_product Checkbox	travel_distance_to_obtain_assistive_products Dropdown	yVariableIds	hasMapTab
+	Rural	Total	100+km	830643	true
+	Rural	Total	26-50km	830644	true
+	Rural	Total	51-100km	830645	true
+	Rural	Total	6-25km	830646	true
+	Total	Total	26-50km	830647	true
+	Total	Total	100+km	830648	true
+	Rural	Total	<5km	830649	true
+	Total	Total	51-100km	830650	true
+	Total	Total	6-25km	830651	true
+	Total	Total	<5km	830652	true
+	Total	Total, excluding spectacles	100+km	830653	true
+	Total	Total, excluding spectacles	26-50km	830654	true
+	Total	Total, excluding spectacles	51-100km	830655	true
+	Total	Total, excluding spectacles	6-25km	830656	true
+	Total	Total, excluding spectacles	<5km	830657	true
+	Urban	Total	100+km	830658	true
+	Urban	Total	26-50km	830659	true
+	Urban	Total	51-100km	830660	true
+	Urban	Total	6-25km	830661	true
+	Urban	Total	<5km	830662	true
+
+columns
+	variableId
+	830643
+	830644
+	830645
+	830646
+	830647
+	830648
+	830649
+	830650
+	830651
+	830652
+	830653
+	830654
+	830655
+	830656
+	830657
+	830658
+	830659
+	830660
+	830661
+	830662

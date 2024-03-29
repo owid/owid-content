@@ -1,0 +1,36 @@
+explorerTitle	Citations per article, 2010-2022 - Field: 
+selection	World
+
+graphers
+	field Dropdown	yVariableIds	hasMapTab
+	All	789157	true
+	Computer vision	789190	true
+	Control theory and engineering	789204	true
+	Data mining	789213	true
+	Graphics and multimedia	789248	true
+	Human–computer interaction	789261	true
+	Information management and retrieval	789275	true
+	Machine learning	789304	true
+	Mathematical optimization	789313	true
+	Natural language processing and linguistics	789335	true
+	Real-time computing	789385	true
+	Simulation	789399	true
+	Speech recognition	789413	true
+	Theoretical computer science	789431	true
+
+columns
+	variableId
+	789157
+	789190
+	789204
+	789213
+	789248
+	789261
+	789275
+	789304
+	789313
+	789335
+	789385
+	789399
+	789413
+	789431

@@ -1,0 +1,22 @@
+explorerTitle	Existence of responsible ministry/authority on assistive technology - Assistive technology subquestion: 
+selection	World
+
+graphers
+	assistive_technology_subquestion Dropdown	yVariableIds	hasMapTab
+	Defense (or similar)	825921	true
+	Education (or similar)	825922	true
+	Health (or similar)	825923	true
+	Others	825924	true
+	Labour (or similar)	825925	true
+	Social (or similar)	825926	true
+	Summary	825927	true
+
+columns
+	variableId
+	825921
+	825922
+	825923
+	825924
+	825925
+	825926
+	825927

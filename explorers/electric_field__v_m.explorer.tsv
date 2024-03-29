@@ -1,0 +1,16 @@
+explorerTitle	Electric field (V/m) - Exposed: 
+selection	World
+
+graphers
+	exposed Checkbox	radio_band Checkbox	yVariableIds	hasMapTab
+	Public	1800 MHz	825523	true
+	Public	900 MHz	825524	true
+	Workers	1800 MHz	825525	true
+	Workers	900 MHz	825526	true
+
+columns
+	variableId
+	825523
+	825524
+	825525
+	825526

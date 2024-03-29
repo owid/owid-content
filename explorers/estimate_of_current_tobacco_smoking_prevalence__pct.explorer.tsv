@@ -1,0 +1,14 @@
+explorerTitle	Estimate of current tobacco smoking prevalence (%) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	825569	true
+	female	825570	true
+	male	825571	true
+
+columns
+	variableId
+	825569
+	825570
+	825571

@@ -1,0 +1,14 @@
+explorerTitle	Cataract surgical coverage of adults aged 50 and over (%) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	824611	true
+	female	824612	true
+	male	824613	true
+
+columns
+	variableId
+	824611
+	824612
+	824613

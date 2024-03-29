@@ -1,0 +1,12 @@
+explorerTitle	Atkinson index - ε = 2 (
+selection	World
+
+graphers
+	table Checkbox	yVariableIds	hasMapTab
+	Equivalized income	831542	true
+	Per capita income	831565	true
+
+columns
+	variableId
+	831542
+	831565

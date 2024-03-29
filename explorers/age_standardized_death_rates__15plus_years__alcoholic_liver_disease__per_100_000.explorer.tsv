@@ -1,0 +1,14 @@
+explorerTitle	Age-standardized death rates (15+ years), alcoholic liver disease, per 100,000 - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	821801	true
+	female	821802	true
+	male	821803	true
+
+columns
+	variableId
+	821801
+	821802
+	821803

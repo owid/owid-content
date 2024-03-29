@@ -1,0 +1,14 @@
+explorerTitle	Licensing required for exports of alcoholic beverages - Beverage types: 
+selection	World
+
+graphers
+	beverage_types Dropdown	yVariableIds	hasMapTab
+	Beer	828100	true
+	Spirits	828101	true
+	Wine	828102	true
+
+columns
+	variableId
+	828100
+	828101
+	828102

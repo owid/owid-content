@@ -1,0 +1,12 @@
+explorerTitle	Adolescent birth rate (per 1000 women) - Sex: female - Age group: 1
+selection	World
+
+graphers
+	age_group Checkbox	yVariableIds	hasMapTab
+	10-14 years of age	821659	true
+	15-19 years	821660	true
+
+columns
+	variableId
+	821659
+	821660

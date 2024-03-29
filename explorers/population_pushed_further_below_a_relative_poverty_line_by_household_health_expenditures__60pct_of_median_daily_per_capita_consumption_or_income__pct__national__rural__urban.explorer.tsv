@@ -1,0 +1,36 @@
+explorerTitle	Population pushed further below a relative poverty line by household health expenditures - 60% of median daily per capita consumption or income (%, national, rural, urban) - 
+selection	World
+
+graphers
+	sex Checkbox	age_group Checkbox	residence_area_type Dropdown	household_composition_by_age Dropdown	yVariableIds	hasMapTab
+	female				829278	true
+	male				829279	true
+		60+ years			829280	true
+			Rural		829281	true
+		Below 60 years old			829282	true
+			Total		829283	true
+			Urban		829284	true
+				Adults only (20-59 years old)	829285	true
+				Adults with children and adolescents	829286	true
+				Adults with older persons	829287	true
+				Multigenerational and/or Adults with older persons	829288	true
+				Multigenerational households	829289	true
+				Only members below 20 years old	829290	true
+				Only older adults (>=60 years old)	829291	true
+
+columns
+	variableId
+	829278
+	829279
+	829280
+	829281
+	829282
+	829283
+	829284
+	829285
+	829286
+	829287
+	829288
+	829289
+	829290
+	829291

@@ -1,0 +1,14 @@
+explorerTitle	Prevalence of current smokeless tobacco use among adults (%) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	829536	true
+	female	829537	true
+	male	829538	true
+
+columns
+	variableId
+	829536
+	829537
+	829538

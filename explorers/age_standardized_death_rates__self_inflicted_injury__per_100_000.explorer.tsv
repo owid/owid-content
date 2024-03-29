@@ -1,0 +1,14 @@
+explorerTitle	Age-standardized death rates, self-inflicted injury, per 100,000 - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	821875	true
+	female	821876	true
+	male	821877	true
+
+columns
+	variableId
+	821875
+	821876
+	821877

@@ -1,0 +1,54 @@
+explorerTitle	Share of patents granted - Field: 
+selection	World
+
+graphers
+	field Dropdown	yVariableIds	hasMapTab
+	All	789156	true
+	Analytics and algorithms	789162	true
+	Banking and finance	789167	true
+	Business	789176	true
+	Computer vision	789185	true
+	Control methods	789199	true
+	Energy management	789222	true
+	General	789239	true
+	Industry and manufacturing	789266	true
+	Knowledge representation	789280	true
+	Life sciences	789289	true
+	Logic programming	789294	true
+	Machine learning	789299	true
+	Measuring and testing	789318	true
+	Ontology engineering	789344	true
+	Personal devices and computing	789353	true
+	Physical sciences and engineering	789358	true
+	Planning and scheduling	789363	true
+	Probabilistic reasoning	789372	true
+	Security	789394	true
+	Speech processing	789408	true
+	Telecommunications	789426	true
+	Transportation	789440	true
+
+columns
+	variableId
+	789156
+	789162
+	789167
+	789176
+	789185
+	789199
+	789222
+	789239
+	789266
+	789280
+	789289
+	789294
+	789299
+	789318
+	789344
+	789353
+	789358
+	789363
+	789372
+	789394
+	789408
+	789426
+	789440

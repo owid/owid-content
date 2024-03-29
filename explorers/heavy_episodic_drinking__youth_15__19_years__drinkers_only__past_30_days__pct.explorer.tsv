@@ -1,0 +1,14 @@
+explorerTitle	Heavy episodic drinking (youth 15 -19 years), drinkers only, past 30 days (%) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	826239	true
+	female	826240	true
+	male	826241	true
+
+columns
+	variableId
+	826239
+	826240
+	826241

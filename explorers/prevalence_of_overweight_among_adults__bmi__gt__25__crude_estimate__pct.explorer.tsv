@@ -1,0 +1,14 @@
+explorerTitle	Prevalence of overweight among adults, BMI >= 25 (crude estimate) (%) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	829705	true
+	female	829706	true
+	male	829707	true
+
+columns
+	variableId
+	829705
+	829706
+	829707

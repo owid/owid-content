@@ -1,0 +1,32 @@
+explorerTitle	Total dependency ratio - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	variant Dropdown	yVariableIds	hasMapTab
+	female	estimates	520256	true
+	female	medium	520257	true
+	female	high	520258	true
+	female	low	520259	true
+	male	estimates	520260	true
+	male	medium	520261	true
+	male	high	520262	true
+	male	low	520263	true
+	all	estimates	520264	true
+	all	medium	520265	true
+	all	high	520266	true
+	all	low	520267	true
+
+columns
+	variableId
+	520256
+	520257
+	520258
+	520259
+	520260
+	520261
+	520262
+	520263
+	520264
+	520265
+	520266
+	520267

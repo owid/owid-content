@@ -1,0 +1,158 @@
+explorerTitle	Population by broad age group - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	age Dropdown	variant Dropdown	yVariableIds	hasMapTab
+	female	0-4	estimates	520961	true
+	female	0-4	medium	520962	true
+	female	0-4	high	520963	true
+	female	0-4	low	520964	true
+	female	5-14	estimates	520965	true
+	female	5-14	medium	520966	true
+	female	5-14	high	520967	true
+	female	5-14	low	520968	true
+	female	15-24	estimates	520969	true
+	female	15-24	medium	520970	true
+	female	15-24	high	520971	true
+	female	15-24	low	520972	true
+	female	25-64	estimates	520973	true
+	female	25-64	medium	520974	true
+	female	25-64	high	520975	true
+	female	25-64	low	520976	true
+	female	65+	estimates	520977	true
+	female	65+	medium	520978	true
+	female	65+	high	520979	true
+	female	65+	low	520980	true
+	male	0-4	estimates	520981	true
+	male	0-4	medium	520982	true
+	male	0-4	high	520983	true
+	male	0-4	low	520984	true
+	male	5-14	estimates	520985	true
+	male	5-14	medium	520986	true
+	male	5-14	high	520987	true
+	male	5-14	low	520988	true
+	male	15-24	estimates	520989	true
+	male	15-24	medium	520990	true
+	male	15-24	high	520991	true
+	male	15-24	low	520992	true
+	male	25-64	estimates	520993	true
+	male	25-64	medium	520994	true
+	male	25-64	high	520995	true
+	male	25-64	low	520996	true
+	male	65+	estimates	520997	true
+	male	65+	medium	520998	true
+	male	65+	high	520999	true
+	male	65+	low	521000	true
+	all	0-4	estimates	521001	true
+	all	0-4	medium	521002	true
+	all	0-4	high	521003	true
+	all	0-4	low	521004	true
+	all	5-14	estimates	521005	true
+	all	5-14	medium	521006	true
+	all	5-14	high	521007	true
+	all	5-14	low	521008	true
+	all	15-24	estimates	521009	true
+	all	15-24	medium	521010	true
+	all	15-24	high	521011	true
+	all	15-24	low	521012	true
+	all	25-64	estimates	521013	true
+	all	25-64	medium	521014	true
+	all	25-64	low	521015	true
+	all	25-64	high	521016	true
+	all	65+	estimates	521017	true
+	all	65+	medium	521018	true
+	all	65+	high	521019	true
+	all	65+	low	521020	true
+	female	5-14	constant fertility	525382	true
+	female	65+	constant fertility	525383	true
+	female	25-64	constant fertility	525384	true
+	female	15-24	constant fertility	525385	true
+	female	0-4	constant fertility	525386	true
+	male	5-14	constant fertility	525387	true
+	male	65+	constant fertility	525388	true
+	male	25-64	constant fertility	525389	true
+	male	15-24	constant fertility	525390	true
+	male	0-4	constant fertility	525391	true
+	all	5-14	constant fertility	525392	true
+	all	65+	constant fertility	525393	true
+	all	25-64	constant fertility	525394	true
+	all	15-24	constant fertility	525395	true
+	all	0-4	constant fertility	525396	true
+
+columns
+	variableId
+	520961
+	520962
+	520963
+	520964
+	520965
+	520966
+	520967
+	520968
+	520969
+	520970
+	520971
+	520972
+	520973
+	520974
+	520975
+	520976
+	520977
+	520978
+	520979
+	520980
+	520981
+	520982
+	520983
+	520984
+	520985
+	520986
+	520987
+	520988
+	520989
+	520990
+	520991
+	520992
+	520993
+	520994
+	520995
+	520996
+	520997
+	520998
+	520999
+	521000
+	521001
+	521002
+	521003
+	521004
+	521005
+	521006
+	521007
+	521008
+	521009
+	521010
+	521011
+	521012
+	521013
+	521014
+	521015
+	521016
+	521017
+	521018
+	521019
+	521020
+	525382
+	525383
+	525384
+	525385
+	525386
+	525387
+	525388
+	525389
+	525390
+	525391
+	525392
+	525393
+	525394
+	525395
+	525396

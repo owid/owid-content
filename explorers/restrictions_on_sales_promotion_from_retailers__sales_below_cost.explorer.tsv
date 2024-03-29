@@ -1,0 +1,14 @@
+explorerTitle	Restrictions on sales promotion from retailers (sales below cost) - Beverage types: 
+selection	World
+
+graphers
+	beverage_types Dropdown	yVariableIds	hasMapTab
+	Beer	830158	true
+	Spirits	830159	true
+	Wine	830160	true
+
+columns
+	variableId
+	830158
+	830159
+	830160

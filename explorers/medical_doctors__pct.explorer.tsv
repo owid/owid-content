@@ -1,0 +1,12 @@
+explorerTitle	Medical doctors (%) - Sex: 
+selection	World
+
+graphers
+	sex Checkbox	yVariableIds	hasMapTab
+	female	828306	true
+	male	828307	true
+
+columns
+	variableId
+	828306
+	828307

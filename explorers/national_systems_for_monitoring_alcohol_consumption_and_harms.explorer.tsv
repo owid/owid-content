@@ -1,0 +1,16 @@
+explorerTitle	National systems for monitoring alcohol consumption and harms - National system type: 
+selection	World
+
+graphers
+	national_system_type Dropdown	yVariableIds	hasMapTab
+	alcohol consumption	828545	true
+	alcohol policy responses	828546	true
+	health consequences	828547	true
+	social consequences	828548	true
+
+columns
+	variableId
+	828545
+	828546
+	828547
+	828548

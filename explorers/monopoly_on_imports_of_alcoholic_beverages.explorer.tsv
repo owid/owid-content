@@ -1,0 +1,14 @@
+explorerTitle	Monopoly on imports of alcoholic beverages - Beverage types: 
+selection	World
+
+graphers
+	beverage_types Dropdown	yVariableIds	hasMapTab
+	Beer	828470	true
+	Wine	828471	true
+	Spirits	828472	true
+
+columns
+	variableId
+	828470
+	828471
+	828472

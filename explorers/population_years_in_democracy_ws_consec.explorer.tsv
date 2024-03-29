@@ -1,0 +1,18 @@
+explorerTitle	People living in 
+selection	World
+
+graphers
+	category Dropdown	yVariableIds	hasMapTab
+	1-18	831020	true
+	19-30	831022	true
+	31-60	831024	true
+	61-90	831026	true
+	91+	831028	true
+
+columns
+	variableId
+	831020
+	831022
+	831024
+	831026
+	831028

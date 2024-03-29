@@ -1,0 +1,24 @@
+explorerTitle	Buprenorphine/naloxone provision in clinical and community-based settings - Rsud public private settings: 
+selection	World
+
+graphers
+	rsud_public_private_settings Dropdown	yVariableIds	hasMapTab
+	Community pharmacies	824508	true
+	Primary health care	824509	true
+	Prisons	824510	true
+	Private practice	824511	true
+	Private treatment centers	824512	true
+	Public drug treatment centers	824513	true
+	Public general hospitals	824514	true
+	Public mental health hospitals	824515	true
+
+columns
+	variableId
+	824508
+	824509
+	824510
+	824511
+	824512
+	824513
+	824514
+	824515

@@ -1,0 +1,14 @@
+explorerTitle	Off-premise sales restrictions on hours - Beverage types: 
+selection	World
+
+graphers
+	beverage_types Dropdown	yVariableIds	hasMapTab
+	Beer	829011	true
+	Spirits	829012	true
+	Wine	829013	true
+
+columns
+	variableId
+	829011
+	829012
+	829013

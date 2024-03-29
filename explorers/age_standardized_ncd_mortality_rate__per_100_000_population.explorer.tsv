@@ -1,0 +1,14 @@
+explorerTitle	Age-standardized NCD mortality rate (per 100 000 population) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	821887	true
+	female	821888	true
+	male	821889	true
+
+columns
+	variableId
+	821887
+	821888
+	821889

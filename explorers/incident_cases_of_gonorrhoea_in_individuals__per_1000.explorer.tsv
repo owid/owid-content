@@ -1,0 +1,12 @@
+explorerTitle	Incident cases of gonorrhoea in individuals (per 1000) - Sex: 
+selection	World
+
+graphers
+	sex Checkbox	yVariableIds	hasMapTab
+	female	827854	true
+	male	827855	true
+
+columns
+	variableId
+	827854
+	827855

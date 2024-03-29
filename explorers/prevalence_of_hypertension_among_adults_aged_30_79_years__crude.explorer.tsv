@@ -1,0 +1,14 @@
+explorerTitle	Prevalence of hypertension among adults aged 30-79 years, crude - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	829588	true
+	female	829589	true
+	male	829590	true
+
+columns
+	variableId
+	829588
+	829589
+	829590

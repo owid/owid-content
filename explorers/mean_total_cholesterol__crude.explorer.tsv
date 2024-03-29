@@ -1,0 +1,14 @@
+explorerTitle	Mean total cholesterol, crude - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	828266	true
+	female	828267	true
+	male	828268	true
+
+columns
+	variableId
+	828266
+	828267
+	828268

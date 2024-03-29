@@ -1,0 +1,12 @@
+explorerTitle	Richest decile - Share (
+selection	World
+
+graphers
+	table Checkbox	yVariableIds	hasMapTab
+	Equivalized income	831553	true
+	Per capita income	831575	true
+
+columns
+	variableId
+	831553
+	831575

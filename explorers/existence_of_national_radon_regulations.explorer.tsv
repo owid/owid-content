@@ -1,0 +1,14 @@
+explorerTitle	Existence of national radon regulations - Radon subquestions: 
+selection	World
+
+graphers
+	radon_subquestions Dropdown	yVariableIds	hasMapTab
+	Buildings with high public occupancy	825877	true
+	Dwellings	825878	true
+	Workplaces	825879	true
+
+columns
+	variableId
+	825877
+	825878
+	825879

@@ -1,0 +1,56 @@
+explorerTitle	Children aged < 5 years with diarrhoea receiving oral rehydration salts (%) - 
+selection	World
+
+graphers
+	sex Checkbox	age_group Checkbox	mothers_education_level Dropdown	residence_area_type Checkbox	wealth_quintile Dropdown	wealth_decile Dropdown	yVariableIds	hasMapTab
+	female						824688	true
+	male						824689	true
+		15-19 years					824690	true
+		20-49 years					824691	true
+			None				824692	true
+			Primary				824693	true
+			Secondary or higher				824694	true
+				Rural			824695	true
+				Urban			824696	true
+					Q1 (Poorest)		824697	true
+					Q2		824698	true
+					Q4		824699	true
+					Q3		824700	true
+					Q5 (Richest)		824701	true
+						Decile 1 (poorest)	824702	true
+						Decile 10 (richest)	824703	true
+						Decile 2	824704	true
+						Decile 3	824705	true
+						Decile 4	824706	true
+						Decile 5	824707	true
+						Decile 6	824708	true
+						Decile 7	824709	true
+						Decile 8	824710	true
+						Decile 9	824711	true
+
+columns
+	variableId
+	824688
+	824689
+	824690
+	824691
+	824692
+	824693
+	824694
+	824695
+	824696
+	824697
+	824698
+	824699
+	824700
+	824701
+	824702
+	824703
+	824704
+	824705
+	824706
+	824707
+	824708
+	824709
+	824710
+	824711

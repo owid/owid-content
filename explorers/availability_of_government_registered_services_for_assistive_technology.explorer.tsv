@@ -1,0 +1,22 @@
+explorerTitle	Availability of government/registered services for assistive technology - Assistive technology subquestion: S
+selection	World
+
+graphers
+	assistive_technology_subquestion Dropdown	yVariableIds	hasMapTab
+	Services related to Cognition	824264	true
+	Services related to Communication	824265	true
+	Services related to Hearing	824266	true
+	Services related to Mobility	824267	true
+	Services related to Self care	824268	true
+	Services related to Vision	824269	true
+	Summary	824270	true
+
+columns
+	variableId
+	824264
+	824265
+	824266
+	824267
+	824268
+	824269
+	824270

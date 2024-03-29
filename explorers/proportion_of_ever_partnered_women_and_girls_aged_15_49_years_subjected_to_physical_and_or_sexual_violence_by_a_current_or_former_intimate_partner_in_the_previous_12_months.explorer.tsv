@@ -1,0 +1,50 @@
+explorerTitle	Proportion of ever-partnered women and girls aged 15-49 years subjected to physical and/or sexual violence by a current or former intimate partner in the previous 12 months - Sex: female - Age group: 
+selection	World
+
+graphers
+	age_group Dropdown	yVariableIds	hasMapTab
+	15-19  years	829951	true
+	15-44 years	829952	true
+	15-24 years	829953	true
+	15-49 years	829954	true
+	18-19 years	829955	true
+	18-24 years	829956	true
+	18-50	829957	true
+	18-49 years	829958	true
+	20-24 years	829959	true
+	20-29 years	829960	true
+	25-29 years	829961	true
+	25-34 years	829962	true
+	30-34 years	829963	true
+	30-39 years	829964	true
+	30-35 years	829965	true
+	35-39 years	829966	true
+	35-44 years	829967	true
+	40-44 years	829968	true
+	40-49 years	829969	true
+	45-49 years	829970	true
+	45-59 years	829971	true
+
+columns
+	variableId
+	829951
+	829952
+	829953
+	829954
+	829955
+	829956
+	829957
+	829958
+	829959
+	829960
+	829961
+	829962
+	829963
+	829964
+	829965
+	829966
+	829967
+	829968
+	829969
+	829970
+	829971

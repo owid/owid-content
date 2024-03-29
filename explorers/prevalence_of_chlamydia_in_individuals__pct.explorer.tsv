@@ -1,0 +1,12 @@
+explorerTitle	Prevalence of chlamydia in individuals (%) - Sex: 
+selection	World
+
+graphers
+	sex Checkbox	yVariableIds	hasMapTab
+	female	829511	true
+	male	829512	true
+
+columns
+	variableId
+	829511
+	829512

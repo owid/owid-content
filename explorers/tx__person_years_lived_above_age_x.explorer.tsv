@@ -1,0 +1,122 @@
+explorerTitle	Tx - person-years lived above age x - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	age_group Dropdown	yVariableIds	hasMapTab
+	both sexes	1-4 years	830699	true
+	both sexes	10-14 years	830700	true
+	both sexes	15-19  years	830701	true
+	both sexes	20-24 years	830702	true
+	both sexes	25-29 years	830703	true
+	both sexes	30-34 years	830704	true
+	both sexes	40-44 years	830705	true
+	both sexes	35-39 years	830706	true
+	both sexes	45-49 years	830707	true
+	both sexes	5-9 years	830708	true
+	both sexes	50-54 years	830709	true
+	both sexes	55-59 years	830710	true
+	both sexes	65-69 years	830711	true
+	both sexes	60-64 years	830712	true
+	both sexes	70-74 years	830713	true
+	both sexes	75-79 years	830714	true
+	both sexes	80-84 years	830715	true
+	both sexes	85+ years	830716	true
+	both sexes	<1 year	830717	true
+	female	10-14 years	830718	true
+	female	1-4 years	830719	true
+	female	15-19  years	830720	true
+	female	20-24 years	830721	true
+	female	25-29 years	830722	true
+	female	30-34 years	830723	true
+	female	40-44 years	830724	true
+	female	35-39 years	830725	true
+	female	45-49 years	830726	true
+	female	5-9 years	830727	true
+	female	50-54 years	830728	true
+	female	55-59 years	830729	true
+	female	60-64 years	830730	true
+	female	65-69 years	830731	true
+	female	70-74 years	830732	true
+	female	75-79 years	830733	true
+	female	80-84 years	830734	true
+	female	85+ years	830735	true
+	female	<1 year	830736	true
+	male	1-4 years	830737	true
+	male	10-14 years	830738	true
+	male	15-19  years	830739	true
+	male	20-24 years	830740	true
+	male	25-29 years	830741	true
+	male	30-34 years	830742	true
+	male	35-39 years	830743	true
+	male	40-44 years	830744	true
+	male	45-49 years	830745	true
+	male	5-9 years	830746	true
+	male	50-54 years	830747	true
+	male	55-59 years	830748	true
+	male	60-64 years	830749	true
+	male	65-69 years	830750	true
+	male	70-74 years	830751	true
+	male	80-84 years	830752	true
+	male	75-79 years	830753	true
+	male	85+ years	830754	true
+	male	<1 year	830755	true
+
+columns
+	variableId
+	830699
+	830700
+	830701
+	830702
+	830703
+	830704
+	830705
+	830706
+	830707
+	830708
+	830709
+	830710
+	830711
+	830712
+	830713
+	830714
+	830715
+	830716
+	830717
+	830718
+	830719
+	830720
+	830721
+	830722
+	830723
+	830724
+	830725
+	830726
+	830727
+	830728
+	830729
+	830730
+	830731
+	830732
+	830733
+	830734
+	830735
+	830736
+	830737
+	830738
+	830739
+	830740
+	830741
+	830742
+	830743
+	830744
+	830745
+	830746
+	830747
+	830748
+	830749
+	830750
+	830751
+	830752
+	830753
+	830754
+	830755

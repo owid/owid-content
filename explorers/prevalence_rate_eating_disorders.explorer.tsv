@@ -1,0 +1,98 @@
+explorerTitle	Eating disorders (prevalence rate) - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	age Dropdown	yVariableIds	hasMapTab
+	Both	15-19 years	688509	true
+	Both	20-24 years	688517	true
+	Both	25-29 years	688529	true
+	Both	30-34 years	688540	true
+	Both	35-39 years	688550	true
+	Both	40-44 years	688560	true
+	Both	45-49 years	688570	true
+	Both	5-14 years	688579	true
+	Both	50-54 years	688589	true
+	Both	55-59 years	688601	true
+	Both	60-64 years	688610	true
+	Both	65-69 years	688620	true
+	Both	70+ years	688630	true
+	Both	Age-standardized	688643	true
+	Both	All ages	688646	true
+	Female	15-19 years	688659	true
+	Female	20-24 years	688669	true
+	Female	25-29 years	688680	true
+	Female	30-34 years	688688	true
+	Female	35-39 years	688701	true
+	Female	40-44 years	688709	true
+	Female	45-49 years	688721	true
+	Female	5-14 years	688727	true
+	Female	50-54 years	688740	true
+	Female	55-59 years	688748	true
+	Female	60-64 years	688758	true
+	Female	65-69 years	688773	true
+	Female	70+ years	688779	true
+	Female	Age-standardized	688790	true
+	Female	All ages	688799	true
+	Male	15-19 years	688812	true
+	Male	20-24 years	688820	true
+	Male	25-29 years	688831	true
+	Male	30-34 years	688839	true
+	Male	35-39 years	688850	true
+	Male	40-44 years	688859	true
+	Male	45-49 years	688870	true
+	Male	5-14 years	688881	true
+	Male	50-54 years	688888	true
+	Male	55-59 years	688904	true
+	Male	60-64 years	688908	true
+	Male	65-69 years	688920	true
+	Male	70+ years	688930	true
+	Male	Age-standardized	688943	true
+	Male	All ages	688952	true
+
+columns
+	variableId
+	688509
+	688517
+	688529
+	688540
+	688550
+	688560
+	688570
+	688579
+	688589
+	688601
+	688610
+	688620
+	688630
+	688643
+	688646
+	688659
+	688669
+	688680
+	688688
+	688701
+	688709
+	688721
+	688727
+	688740
+	688748
+	688758
+	688773
+	688779
+	688790
+	688799
+	688812
+	688820
+	688831
+	688839
+	688850
+	688859
+	688870
+	688881
+	688888
+	688904
+	688908
+	688920
+	688930
+	688943
+	688952

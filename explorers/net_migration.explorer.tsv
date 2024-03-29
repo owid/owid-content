@@ -1,0 +1,18 @@
+explorerTitle	Net migration - Sex: all - Age: all - Variant: 
+selection	World
+
+graphers
+	variant Dropdown	yVariableIds	hasMapTab
+	estimates	520956	true
+	medium	520957	true
+	high	520958	true
+	low	520959	true
+	constant fertility	520960	true
+
+columns
+	variableId
+	520956
+	520957
+	520958
+	520959
+	520960

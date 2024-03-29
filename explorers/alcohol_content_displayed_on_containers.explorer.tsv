@@ -1,0 +1,14 @@
+explorerTitle	Alcohol content displayed on containers - Beverage types: 
+selection	World
+
+graphers
+	beverage_types Dropdown	yVariableIds	hasMapTab
+	Beer	821980	true
+	Spirits	821981	true
+	Wine	821982	true
+
+columns
+	variableId
+	821980
+	821981
+	821982

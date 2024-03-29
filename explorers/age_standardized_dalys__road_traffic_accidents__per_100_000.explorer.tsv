@@ -1,0 +1,14 @@
+explorerTitle	Age-standardized DALYs, road traffic accidents, per 100,000 - Sex: 
+selection	World
+
+graphers
+	sex Dropdown	yVariableIds	hasMapTab
+	both sexes	821788	true
+	female	821789	true
+	male	821790	true
+
+columns
+	variableId
+	821788
+	821789
+	821790

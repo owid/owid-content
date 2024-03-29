@@ -1,0 +1,28 @@
+explorerTitle	Share of plastic waste by polymer in 2019 - Entity: 
+selection	World
+
+graphers
+	entity Dropdown	yVariableIds	hasMapTab
+	China	814855	true
+	India	814857	true
+	Middle East & North Africa	814861	true
+	United States	814881	true
+	World	814883	true
+	Americas (excl. USA)	815644	true
+	Asia (excl. China and India)	815646	true
+	Europe	815648	true
+	Oceania	815650	true
+	Sub-Saharan Africa	815652	true
+
+columns
+	variableId
+	814855
+	814857
+	814861
+	814881
+	814883
+	815644
+	815646
+	815648
+	815650
+	815652

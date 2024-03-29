@@ -1,0 +1,14 @@
+explorerTitle	Advertising restrictions on social media - Substance abuse advertising types: 
+selection	World
+
+graphers
+	substance_abuse_advertising_types Dropdown	yVariableIds	hasMapTab
+	Beer Ads	821714	true
+	Spirits Ads	821715	true
+	Wine Ads	821716	true
+
+columns
+	variableId
+	821714
+	821715
+	821716
