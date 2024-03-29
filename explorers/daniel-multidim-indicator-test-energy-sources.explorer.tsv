@@ -1,0 +1,12 @@
+explorerTitle	Multidimensional test - electricity sources
+selection	World	France	China	United States
+
+graphers
+	Share Dropdown	Energy type Dropdown	xVariableId	hasMapTab	type
+	Share	Coal	817699	true
+		Gas	817709	true
+		Oil	817731	true
+		Solar	817796	true
+		Wind	817814	true
+		Nuclear	817725	true
+		Hydro	817713	true
