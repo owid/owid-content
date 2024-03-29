@@ -1,12 +1,15 @@
 explorerTitle	Multidimensional test - electricity sources
-selection	World	France	China	United States
+selection	World
 
 graphers
 	Share Dropdown	Energy type Dropdown	yVariableIds	hasMapTab	type
+	Absolute	All	817697 817705 817728 817794 817811 817723 817712	false	StackedArea
+	Share	All	817699 817709 817731 817796 817814 817725 817713	false	StackedArea
+	Per capita	All	817745 817751 817760 817772 817778 817759 817754	false	StackedArea
 	Share	Coal	817699	true
 	Share	Gas	817709	true
 	Share	Oil	817731	true
-		Solar	817796	true
+	Share	Solar	817796	true
 	Share	Wind	817814	true
 	Share	Nuclear	817725	true
 	Share	Hydro	817713	true
@@ -24,6 +27,3 @@ graphers
 	Absolute	Wind	817811	true
 	Absolute	Nuclear	817723	true
 	Absolute	Hydro	817712	true
-	Share	All	817699 817709 817731 817796 817814 817725 817713	false	StackedArea
-	Absolute	All	817697 817705 817728 817794 817811 817723 817712	false	StackedArea
-	Per capita	All	817745 817751 817760 817772 817778 817759 817754	false	StackedArea
