@@ -9,66 +9,66 @@ subNavCurrentId
 entityType	country
 graphers
 	yVariableIds	Metric Dropdown	Animal Dropdown	Per person Checkbox	title	subtitle	note	type	yAxisMin	hasMapTab	yScaleToggle
-	718096	Animals slaughtered	All land animals (total)	false	Number of land animals slaughtered for meat per year	This data is based on the country of production, not consumption.		LineChart	0	true	true
-	718097	Animals slaughtered	All land animals (total)	true	Number of land animals slaughtered for meat per person	This data is based on the country of production, not consumption.		LineChart	0	true	true
+	835610	Animals slaughtered	All land animals (total)	false	Number of land animals slaughtered for meat per year	This data is based on the country of production, not consumption.		LineChart	0	true	true
+	835611	Animals slaughtered	All land animals (total)	true	Number of land animals slaughtered for meat per person	This data is based on the country of production, not consumption.		LineChart	0	true	true
 	792288 792290 792289	Animals slaughtered	Wild-caught fish	false	Number of wild-caught fish killed for food	Estimates of the number of wild fish killed per year are uncertain – that's why upper and lower-bound estimates are shown. This data is calculated based on annual catch figures from 2007 to 2016 in tonnes, and estimated mean weights for fish species.	This estimate does not include unrecorded fish capture, such as fish caught illegally and those caught as bycatch and discards.	DiscreteBar		true
 	812307 812305 812306	Animals slaughtered	Wild-caught fish	true	Number of wild-caught fish killed for food per person	Estimates of the number of wild fish killed per year are uncertain – that's why upper and lower-bound estimates are shown. This data is calculated based on annual catch figures from 2007 to 2016 in tonnes, and estimated mean weights for fish species.	This estimate does not include unrecorded fish capture, such as fish caught illegally and those caught as bycatch and discards.	DiscreteBar		true
 	791804 791805 791806	Animals slaughtered	Farmed fish	false	Number of farmed fish killed for food	Estimates of the number of farmed fish killed per year are uncertain – that's why upper and lower-bound estimates are shown.	Data does not include lobsters, farmed fish used as bait, and species without estimates of mean weight (which could be an additional 17% of fish production).	DiscreteBar		true
 	812310 812308 812309	Animals slaughtered	Farmed fish	true	Number of farmed fish killed for food per person	Estimates of the number of farmed fish killed per year are uncertain – that's why upper and lower-bound estimates are shown.	Data does not include lobsters, farmed fish used as bait, and species without estimates of mean weight (which could be an additional 17% of fish production).	DiscreteBar		true
 	791807 791808 791809	Animals slaughtered	Farmed crustaceans	false	Number of farmed crustaceans killed for food	Decapod crustaceans are animals such as shrimps, crabs, lobsters, prawns, and crayfish. Estimates are uncertain – that's why upper and lower-bound estimates are shown.		DiscreteBar		true
 	812304 812302 812303	Animals slaughtered	Farmed crustaceans	true	Number of farmed crustaceans killed for food	Decapod crustaceans are animals such as shrimps, crabs, lobsters, prawns, and crayfish. Estimates are uncertain – that's why upper and lower-bound estimates are shown.		DiscreteBar		true
-	718036	Animals slaughtered	Chickens	false	Number of chickens slaughtered for meat per year	This data is based on the country of production, not consumption.		LineChart	0	true	true
-	718037	Animals slaughtered	Chickens	true	Number of chickens slaughtered for meat per person	The number of slaughtered animals is divided by the population of a country to give an estimate of the number slaughtered per person.		LineChart	0	true	true
-	718041	Animals slaughtered	Ducks	false	Number of ducks slaughtered for meat per year	This data is based on the country of production, not consumption.		LineChart	0	true	true
-	718042	Animals slaughtered	Ducks	true	Number of ducks slaughtered for meat per person	The number of slaughtered animals is divided by the population of a country to give an estimate of the number slaughtered per person.		LineChart	0	true	true
-	718100	Animals slaughtered	Turkeys	false	Number of turkeys slaughtered for meat per year	This data is based on the country of production, not consumption.		LineChart	0	true	true
-	718101	Animals slaughtered	Turkeys	true	Number of turkeys slaughtered for meat per person	The number of slaughtered animals is divided by the population of a country to give an estimate of the number slaughtered per person.		LineChart	0	true	true
-	718056	Animals slaughtered	Geese	false	Number of geese slaughtered for meat per year	This data is based on the country of production, not consumption.		LineChart	0	true	true
-	718057	Animals slaughtered	Geese	true	Number of geese slaughtered for meat per person	The number of slaughtered animals is divided by the population of a country to give an estimate of the number slaughtered per person.		LineChart	0	true	true
-	718011	Animals slaughtered	Pigeons and other birds	false	Number of pigeons slaughtered for meat per year	This data is based on the country of production, not consumption.		LineChart	0	true	true
-	718012	Animals slaughtered	Pigeons and other birds	true	Number of pigeons slaughtered for meat per person	The number of slaughtered animals is divided by the population of a country to give an estimate of the number slaughtered per person.		LineChart	0	true	true
-	718081	Animals slaughtered	Poultry (total)	false	Number of poultry birds slaughtered for meat per year	This data is based on the country of production, not consumption.		LineChart	0	true	true
-	718082	Animals slaughtered	Poultry (total)	true	Number of poultry birds slaughtered for meat per person	The number of slaughtered animals is divided by the population of a country to give an estimate of the number slaughtered per person.		LineChart	0	true	true
-	718076	Animals slaughtered	Pigs	false	Number of pigs slaughtered for meat per year	This data is based on the country of production, not consumption.		LineChart	0	true	true
-	718077	Animals slaughtered	Pigs	true	Number of pigs slaughtered for meat per person	The number of slaughtered animals is divided by the population of a country to give an estimate of the number slaughtered per person.		LineChart	0	true	true
-	718051	Animals slaughtered	Goat	false	Number of goats slaughtered for meat per year	This data is based on the country of production, not consumption.		LineChart	0	true	true
-	718052	Animals slaughtered	Goat	true	Number of goats slaughtered for meat per person	The number of slaughtered animals is divided by the population of a country to give an estimate of the number slaughtered per person.		LineChart	0	true	true
-	718066	Animals slaughtered	Sheep	false	Number of sheep slaughtered for meat per year	This data is based on the country of production, not consumption.		LineChart	0	true	true
-	718067	Animals slaughtered	Sheep	true	Number of sheep slaughtered for meat per person	The number of slaughtered animals is divided by the population of a country to give an estimate of the number slaughtered per person.		LineChart	0	true	true
-	717996	Animals slaughtered	Cows	false	Number of cows slaughtered for meat per year	This data is based on the country of production, not consumption.		LineChart	0	true	true
-	717997	Animals slaughtered	Cows	true	Number of cows slaughtered for meat per person	The number of slaughtered animals is divided by the population of a country to give an estimate of the number slaughtered per person.		LineChart	0	true	true
-	718026	Animals slaughtered	Buffaloes	false	Number of buffalo slaughtered for meat per year	This data is based on the country of production, not consumption.		LineChart	0	true	true
-	718027	Animals slaughtered	Buffaloes	true	Number of buffalo slaughtered for meat per person	The number of slaughtered animals is divided by the population of a country to give an estimate of the number slaughtered per person.		LineChart	0	true	true
-	718061	Animals slaughtered	Horses	false	Number of horses slaughtered for meat per year	This data is based on the country of production, not consumption.		LineChart	0	true	true
-	718062	Animals slaughtered	Horses	true	Number of horses slaughtered for meat per person	The number of slaughtered animals is divided by the population of a country to give an estimate of the number slaughtered per person.		LineChart	0	true	true
-	718031	Animals slaughtered	Camels	false	Number of camels slaughtered for meat per year	This data is based on the country of production, not consumption.		LineChart	0	true	true
-	718032	Animals slaughtered	Camels	true	Number of camels slaughtered for meat per person	The number of slaughtered animals is divided by the population of a country to give an estimate of the number slaughtered per person.		LineChart	0	true	true
-	718070	Animals slaughtered	Mules	false	Number of mule slaughtered for meat per year	This data is based on the country of production, not consumption.		LineChart	0	true	true
-	718071	Animals slaughtered	Mules	true	Number of mules slaughtered for meat per person	The number of slaughtered animals is divided by the population of a country to give an estimate of the number slaughtered per person.		LineChart	0	true	true
-	718016	Animals slaughtered	Donkeys	false	Number of donkeys slaughtered for meat per year	This data is based on the country of production, not consumption.		LineChart	0	true	true
-	718017	Animals slaughtered	Donkeys	true	Number of donkeys slaughtered for meat per person	The number of slaughtered animals is divided by the population of a country to give an estimate of the number slaughtered per person.		LineChart	0	true	true
-	718086	Animals slaughtered	Rabbits	false	Number of rabbits slaughtered for meat per year	This data is based on the country of production, not consumption.		LineChart	0	true	true
-	718087	Animals slaughtered	Rabbits	true	Number of rabbits slaughtered for meat per person	The number of slaughtered animals is divided by the population of a country to give an estimate of the number slaughtered per person.		LineChart	0	true	true
-	717658	Live animals (stocks)	Chickens	false	Number of chickens	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.		LineChart	0	true	true
-	717748	Live animals (stocks)	Duck	false	Number of ducks	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.		LineChart	0	true	true
-	718624	Live animals (stocks)	Turkeys	false	Number of turkeys	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.		LineChart	0	true	true
-	717837	Live animals (stocks)	Geese	false	Number of geese	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.		LineChart	0	true	true
-	718377	Live animals (stocks)	Poultry (total)	false	Number of poultry birds	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.		LineChart	0	true	true
-	718571	Live animals (stocks)	Pigs	false	Number of pigs	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.		LineChart	0	true	true
-	717848	Live animals (stocks)	Goat	false	Number of goats	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.		LineChart	0	true	true
-	718476	Live animals (stocks)	Sheep	false	Number of sheep	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.		LineChart	0	true	true
-	717620	Live animals (stocks)	Cows	false	Number of cows	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.		LineChart	0	true	true
-	717560	Live animals (stocks)	Buffalo	false	Number of buffalo	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.		LineChart	0	true	true
-	717903	Live animals (stocks)	Horse	false	Number of horses	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.		LineChart	0	true	true
-	717577	Live animals (stocks)	Camels	false	Number of camels	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.		LineChart	0	true	true
-	718132	Live animals (stocks)	Mule	false	Number of mules	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.		LineChart	0	true	true
-	717490	Live animals (stocks)	Donkey	false	Number of donkeys	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.		LineChart	0	true	true
-	718403	Live animals (stocks)	Rabbit	false	Number of rabbits	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.		LineChart	0	true	true
-	717524	Live animals (stocks)	Beehives	false	Number of beehives used for production	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.		LineChart	0	true	true
+	835550	Animals slaughtered	Chickens	false	Number of chickens slaughtered for meat per year	This data is based on the country of production, not consumption.		LineChart	0	true	true
+	835551	Animals slaughtered	Chickens	true	Number of chickens slaughtered for meat per person	The number of slaughtered animals is divided by the population of a country to give an estimate of the number slaughtered per person.		LineChart	0	true	true
+	835555	Animals slaughtered	Ducks	false	Number of ducks slaughtered for meat per year	This data is based on the country of production, not consumption.		LineChart	0	true	true
+	835556	Animals slaughtered	Ducks	true	Number of ducks slaughtered for meat per person	The number of slaughtered animals is divided by the population of a country to give an estimate of the number slaughtered per person.		LineChart	0	true	true
+	835614	Animals slaughtered	Turkeys	false	Number of turkeys slaughtered for meat per year	This data is based on the country of production, not consumption.		LineChart	0	true	true
+	835615	Animals slaughtered	Turkeys	true	Number of turkeys slaughtered for meat per person	The number of slaughtered animals is divided by the population of a country to give an estimate of the number slaughtered per person.		LineChart	0	true	true
+	835570	Animals slaughtered	Geese	false	Number of geese slaughtered for meat per year	This data is based on the country of production, not consumption.		LineChart	0	true	true
+	835571	Animals slaughtered	Geese	true	Number of geese slaughtered for meat per person	The number of slaughtered animals is divided by the population of a country to give an estimate of the number slaughtered per person.		LineChart	0	true	true
+	835525	Animals slaughtered	Pigeons and other birds	false	Number of pigeons slaughtered for meat per year	This data is based on the country of production, not consumption.		LineChart	0	true	true
+	835526	Animals slaughtered	Pigeons and other birds	true	Number of pigeons slaughtered for meat per person	The number of slaughtered animals is divided by the population of a country to give an estimate of the number slaughtered per person.		LineChart	0	true	true
+	835595	Animals slaughtered	Poultry (total)	false	Number of poultry birds slaughtered for meat per year	This data is based on the country of production, not consumption.		LineChart	0	true	true
+	835596	Animals slaughtered	Poultry (total)	true	Number of poultry birds slaughtered for meat per person	The number of slaughtered animals is divided by the population of a country to give an estimate of the number slaughtered per person.		LineChart	0	true	true
+	835590	Animals slaughtered	Pigs	false	Number of pigs slaughtered for meat per year	This data is based on the country of production, not consumption.		LineChart	0	true	true
+	835591	Animals slaughtered	Pigs	true	Number of pigs slaughtered for meat per person	The number of slaughtered animals is divided by the population of a country to give an estimate of the number slaughtered per person.		LineChart	0	true	true
+	835565	Animals slaughtered	Goat	false	Number of goats slaughtered for meat per year	This data is based on the country of production, not consumption.		LineChart	0	true	true
+	835566	Animals slaughtered	Goat	true	Number of goats slaughtered for meat per person	The number of slaughtered animals is divided by the population of a country to give an estimate of the number slaughtered per person.		LineChart	0	true	true
+	835580	Animals slaughtered	Sheep	false	Number of sheep slaughtered for meat per year	This data is based on the country of production, not consumption.		LineChart	0	true	true
+	835581	Animals slaughtered	Sheep	true	Number of sheep slaughtered for meat per person	The number of slaughtered animals is divided by the population of a country to give an estimate of the number slaughtered per person.		LineChart	0	true	true
+	835510	Animals slaughtered	Cows	false	Number of cows slaughtered for meat per year	This data is based on the country of production, not consumption.		LineChart	0	true	true
+	835511	Animals slaughtered	Cows	true	Number of cows slaughtered for meat per person	The number of slaughtered animals is divided by the population of a country to give an estimate of the number slaughtered per person.		LineChart	0	true	true
+	835540	Animals slaughtered	Buffaloes	false	Number of buffalo slaughtered for meat per year	This data is based on the country of production, not consumption.		LineChart	0	true	true
+	835541	Animals slaughtered	Buffaloes	true	Number of buffalo slaughtered for meat per person	The number of slaughtered animals is divided by the population of a country to give an estimate of the number slaughtered per person.		LineChart	0	true	true
+	835575	Animals slaughtered	Horses	false	Number of horses slaughtered for meat per year	This data is based on the country of production, not consumption.		LineChart	0	true	true
+	835576	Animals slaughtered	Horses	true	Number of horses slaughtered for meat per person	The number of slaughtered animals is divided by the population of a country to give an estimate of the number slaughtered per person.		LineChart	0	true	true
+	835545	Animals slaughtered	Camels	false	Number of camels slaughtered for meat per year	This data is based on the country of production, not consumption.		LineChart	0	true	true
+	835546	Animals slaughtered	Camels	true	Number of camels slaughtered for meat per person	The number of slaughtered animals is divided by the population of a country to give an estimate of the number slaughtered per person.		LineChart	0	true	true
+	835584	Animals slaughtered	Mules	false	Number of mule slaughtered for meat per year	This data is based on the country of production, not consumption.		LineChart	0	true	true
+	835585	Animals slaughtered	Mules	true	Number of mules slaughtered for meat per person	The number of slaughtered animals is divided by the population of a country to give an estimate of the number slaughtered per person.		LineChart	0	true	true
+	835530	Animals slaughtered	Donkeys	false	Number of donkeys slaughtered for meat per year	This data is based on the country of production, not consumption.		LineChart	0	true	true
+	835531	Animals slaughtered	Donkeys	true	Number of donkeys slaughtered for meat per person	The number of slaughtered animals is divided by the population of a country to give an estimate of the number slaughtered per person.		LineChart	0	true	true
+	835600	Animals slaughtered	Rabbits	false	Number of rabbits slaughtered for meat per year	This data is based on the country of production, not consumption.		LineChart	0	true	true
+	835601	Animals slaughtered	Rabbits	true	Number of rabbits slaughtered for meat per person	The number of slaughtered animals is divided by the population of a country to give an estimate of the number slaughtered per person.		LineChart	0	true	true
+	835174	Live animals (stocks)	Chickens	false	Number of chickens	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.		LineChart	0	true	true
+	835264	Live animals (stocks)	Duck	false	Number of ducks	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.		LineChart	0	true	true
+	836135	Live animals (stocks)	Turkeys	false	Number of turkeys	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.		LineChart	0	true	true
+	835352	Live animals (stocks)	Geese	false	Number of geese	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.		LineChart	0	true	true
+	835888	Live animals (stocks)	Poultry (total)	false	Number of poultry birds	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.		LineChart	0	true	true
+	836082	Live animals (stocks)	Pigs	false	Number of pigs	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.		LineChart	0	true	true
+	835363	Live animals (stocks)	Goat	false	Number of goats	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.		LineChart	0	true	true
+	835987	Live animals (stocks)	Sheep	false	Number of sheep	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.		LineChart	0	true	true
+	835136	Live animals (stocks)	Cows	false	Number of cows	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.		LineChart	0	true	true
+	835076	Live animals (stocks)	Buffalo	false	Number of buffalo	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.		LineChart	0	true	true
+	835416	Live animals (stocks)	Horse	false	Number of horses	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.		LineChart	0	true	true
+	835094	Live animals (stocks)	Camels	false	Number of camels	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.		LineChart	0	true	true
+	835645	Live animals (stocks)	Mule	false	Number of mules	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.		LineChart	0	true	true
+	835009	Live animals (stocks)	Donkey	false	Number of donkeys	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.		LineChart	0	true	true
+	835914	Live animals (stocks)	Rabbit	false	Number of rabbits	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.		LineChart	0	true	true
+	835044	Live animals (stocks)	Beehives	false	Number of beehives used for production	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.		LineChart	0	true	true
 	783621 783620	Cage and cage-free hens		false	Number of laying hens in cages and cage-free housing			StackedDiscreteBar
 	811038	Bans on chick culling		false	Bans on chick culling	Chick culling is the process of separating and killing unwanted male and unhealthy female chicks that cannot produce eggs in industrialized egg facilities.		WorldMap
 	812252	Bans on bullfighting		false	Bans on bullfighting	Bullfighting is a physical contest that involves a bullfighter attempting to subdue, immobilize, or kill a bull.		WorldMap
-	812277	Bans on fur farming		false	Bans on animal fur farming			WorldMap
+	815665	Bans on fur farming		false	Bans on animal fur farming			WorldMap
 
 columns
 	variableId	tolerance	name	sourceName	colorScaleScheme	colorScaleInvert	colorScaleCategoricalBins	colorScaleNumericBins	unit	shortUnit
@@ -92,58 +92,58 @@ columns
 	812302		Upper bound	Fishcount
 	791809		Lower bound	Fishcount
 	812303		Lower bound	Fishcount
-	718096				YlOrBr			30000000;100000000;300000000;1000000000;3000000000;10000000000;30000000000
-	718097				YlOrBr			5;10;15;20;25;30;35;40;45;
-	718036				YlGn			30000000;100000000;300000000;1000000000;3000000000;10000000000
-	718037				YlGn			5;10;15;20;25;30;35
-	718041				Blues			1000000;3000000;10000000;30000000;100000000;300000000;1000000000;3000000000
-	718042				Blues			0.01;0.03;0.1;0.3;1;3;10
-	718100				YlOrRd			1000000;3000000;10000000;30000000;100000000;300000000
-	718101				YlOrRd			0.01;0.03;0.1;0.3;1;3;
-	718056				Purples			1000000;3000000;10000000;30000000;100000000;300000000;1000000000
-	718057				Purples			0.01;0.03;0.1;0.3;1;
-	718011				Greens			100000;300000;1000000;3000000;10000000;30000000
-	718012				Greens			0.1;0.2;0.3;0.4;0.5
-	718081				YlGnBu			30000000;100000000;300000000;1000000000;3000000000;10000000000;30000000000
-	718082				YlGnBu			5;10;15;20;25;30;35;40;45
-	718076				YlOrBr			1000000;3000000;30000000;100000000;300000000;1000000000;
-	718077				YlOrBr			0.01;0.02;0.05;0.1;0.2;0.5;1;2;
-	718051				YlGn			100000;300000;1000000;3000000;30000000;100000000;300000000;
-	718052				YlGn			0.01;0.02;0.05;0.1;0.2;0.5;1;2;
-	718066				Blues			100000;300000;1000000;3000000;30000000;100000000;300000000;
-	718067				Blues			0.01;0.02;0.05;0.1;0.2;0.5;1;2;
-	717996				YlOrRd			100000;300000;1000000;3000000;30000000;100000000;
-	717997				YlOrRd			0.01;0.02;0.05;0.1;0.2;0.5;1;
-	718026				Purples			100000;300000;1000000;3000000;30000000
-	718027				Purples			0.01;0.03;0.1;0.3;
-	718061				YlGnBu			10000;30000;100000;300000;1000000;3000000;
-	718062				YlGnBu			0.001;0.003;0.01;0.03;0.1;0.3;
-	718031				YlOrBr			10000;30000;100000;300000;1000000;
-	718032				YlOrBr			0.001;0.003;0.01;0.03;0.1;
-	718070				YlGn			10000;30000;100000;300000;
-	718071				YlGn			0.00001;0.00003;0.0001;0.0003;
-	718016				Blues			10000;30000;100000;300000;1000000;3000000
-	718017				Blues			0.001;0.003;0.01;0.03;
-	718086				YlOrRd			1000000;3000000;10000000;30000000;100000000;300000000;
-	718087				YlOrRd			0.01;0.02;0.05;0.1;0.2;0.5;1;2;
-	718045				Purples
-	718046				Purples
-	717658				Greens			10000000;30000000;100000000;300000000;1000000000;3000000000;10000000000
-	718624				YlGnBu			1000000;3000000;10000000;30000000;100000000;
-	717748				YlGnBu			1000000;3000000;10000000;30000000;100000000;300000000;1000000000;
-	717837				YlOrBr			1000000;3000000;10000000;30000000;100000000;300000000;
-	718377				YlOrBr			10000000;30000000;100000000;300000000;1000000000;3000000000;10000000000
-	718571				YlGn			1000000;3000000;10000000;30000000;100000000;300000000;1000000000;
-	717848				YlGn			1000000;3000000;10000000;30000000;100000000;300000000;
-	718476				Blues			1000000;3000000;10000000;30000000;100000000;300000000;
-	717620				Blues			1000000;3000000;10000000;30000000;100000000;300000000;
-	717560				YlOrRd			100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;
-	717903				Purples			100000;300000;1000000;3000000;10000000;30000000;
-	717577				Purples			100000;300000;1000000;3000000;10000000;
-	718132				Greens			100000;300000;1000000;3000000;10000000;
-	717490				Greens			100000;300000;1000000;3000000;10000000;30000000
-	718403				YlGnBu			100000;300000;1000000;3000000;10000000;30000000;100000000;
-	717524				YlGnBu			100000;300000;1000000;3000000;10000000;30000000;	beehives	beehives
+	835610				YlOrBr			30000000;100000000;300000000;1000000000;3000000000;10000000000;30000000000
+	835611				YlOrBr			5;10;15;20;25;30;35;40;45;
+	835550				YlGn			30000000;100000000;300000000;1000000000;3000000000;10000000000
+	835551				YlGn			5;10;15;20;25;30;35
+	835555				Blues			1000000;3000000;10000000;30000000;100000000;300000000;1000000000;3000000000
+	835556				Blues			0.01;0.03;0.1;0.3;1;3;10
+	835614				YlOrRd			1000000;3000000;10000000;30000000;100000000;300000000
+	835615				YlOrRd			0.01;0.03;0.1;0.3;1;3;
+	835570				Purples			1000000;3000000;10000000;30000000;100000000;300000000;1000000000
+	835571				Purples			0.01;0.03;0.1;0.3;1;
+	835525				Greens			100000;300000;1000000;3000000;10000000;30000000
+	835526				Greens			0.1;0.2;0.3;0.4;0.5
+	835595				YlGnBu			30000000;100000000;300000000;1000000000;3000000000;10000000000;30000000000
+	835596				YlGnBu			5;10;15;20;25;30;35;40;45
+	835590				YlOrBr			1000000;3000000;30000000;100000000;300000000;1000000000;
+	835591				YlOrBr			0.01;0.02;0.05;0.1;0.2;0.5;1;2;
+	835565				YlGn			100000;300000;1000000;3000000;30000000;100000000;300000000;
+	835566				YlGn			0.01;0.02;0.05;0.1;0.2;0.5;1;2;
+	835580				Blues			100000;300000;1000000;3000000;30000000;100000000;300000000;
+	835581				Blues			0.01;0.02;0.05;0.1;0.2;0.5;1;2;
+	835510				YlOrRd			100000;300000;1000000;3000000;30000000;100000000;
+	835511				YlOrRd			0.01;0.02;0.05;0.1;0.2;0.5;1;
+	835540				Purples			100000;300000;1000000;3000000;30000000
+	835541				Purples			0.01;0.03;0.1;0.3;
+	835575				YlGnBu			10000;30000;100000;300000;1000000;3000000;
+	835576				YlGnBu			0.001;0.003;0.01;0.03;0.1;0.3;
+	835545				YlOrBr			10000;30000;100000;300000;1000000;
+	835546				YlOrBr			0.001;0.003;0.01;0.03;0.1;
+	835584				YlGn			10000;30000;100000;300000;
+	835585				YlGn			0.00001;0.00003;0.0001;0.0003;
+	835530				Blues			10000;30000;100000;300000;1000000;3000000
+	835531				Blues			0.001;0.003;0.01;0.03;
+	835600				YlOrRd			1000000;3000000;10000000;30000000;100000000;300000000;
+	835601				YlOrRd			0.01;0.02;0.05;0.1;0.2;0.5;1;2;
+	835559				Purples
+	835561				Purples
+	835174				Greens			10000000;30000000;100000000;300000000;1000000000;3000000000;10000000000
+	836135				YlGnBu			1000000;3000000;10000000;30000000;100000000;
+	835264				YlGnBu			1000000;3000000;10000000;30000000;100000000;300000000;1000000000;
+	835352				YlOrBr			1000000;3000000;10000000;30000000;100000000;300000000;
+	835888				YlOrBr			10000000;30000000;100000000;300000000;1000000000;3000000000;10000000000
+	836082				YlGn			1000000;3000000;10000000;30000000;100000000;300000000;1000000000;
+	835363				YlGn			1000000;3000000;10000000;30000000;100000000;300000000;
+	835987				Blues			1000000;3000000;10000000;30000000;100000000;300000000;
+	835136				Blues			1000000;3000000;10000000;30000000;100000000;300000000;
+	835076				YlOrRd			100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;
+	835416				Purples			100000;300000;1000000;3000000;10000000;30000000;
+	835094				Purples			100000;300000;1000000;3000000;10000000;
+	835645				Greens			100000;300000;1000000;3000000;10000000;
+	835009				Greens			100000;300000;1000000;3000000;10000000;30000000
+	835914				YlGnBu			100000;300000;1000000;3000000;10000000;30000000;100000000;
+	835044				YlGnBu			100000;300000;1000000;3000000;10000000;30000000;	beehives	beehives
 	811038				OwidCategoricalC	true
 	812252				OwidCategoricalC	true
-	812277				OwidCategoricalC	true
+	815665				OwidCategoricalC	true
