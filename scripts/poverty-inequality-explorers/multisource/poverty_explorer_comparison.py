@@ -522,13 +522,13 @@ df_tables_pip["tolerance"] = tolerance
 ###########################################################################################
 # LUXEMBOURG INCOME STUDY (LIS)
 ###########################################################################################
-sourceName = "Luxembourg Income Study (2023)"
-dataPublishedBy = "Luxembourg Income Study (LIS) Database, http://www.lisdatacenter.org (multiple countries; 1967-2021). Luxembourg, LIS."
-sourceLink = "https://www.lisdatacenter.org/our-data/lis-database/"
-colorScaleNumericMinValue = 0
-tolerance = 5
-colorScaleEqualSizeBins = "true"
-new_line = "\\n\\n"
+sourceName = SOURCE_NAME_LIS
+dataPublishedBy = DATA_PUBLISHED_BY_LIS
+sourceLink = SOURCE_LINK_LIS
+colorScaleNumericMinValue = COLOR_SCALE_NUMERIC_MIN_VALUE
+tolerance = TOLERANCE
+colorScaleEqualSizeBins = COLOR_SCALE_EQUAL_SIZEBINS
+new_line = NEW_LINE
 
 notes_title = "NOTES ON HOW WE PROCESSED THIS INDICATOR"
 

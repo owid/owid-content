@@ -265,11 +265,11 @@ df_tables_pip["tolerance"] = tolerance
 
 # Table generation
 
-sourceName = "World Inequality Database (WID.world) (2023)"
-dataPublishedBy = "World Inequality Database (WID), https://wid.world"
-sourceLink = "https://wid.world"
-tolerance = 5
-new_line = "\\n\\n"
+sourceName = SOURCE_NAME_WID
+dataPublishedBy = DATA_PUBLISHED_BY_WID
+sourceLink = SOURCE_LINK_WID
+tolerance = TOLERANCE
+new_line = NEW_LINE
 
 additional_description = new_line.join(
     [
@@ -456,8 +456,8 @@ df_tables["tolerance"] = df_tables["tolerance"].astype("Int64")
 
 # Grapher table generation
 
-yAxisMin = 0
-mapTargetTime = 2019
+yAxisMin = Y_AXIS_MIN
+mapTargetTime = MAP_TARGET_TIME
 
 df_graphers_wid = pd.DataFrame()
 

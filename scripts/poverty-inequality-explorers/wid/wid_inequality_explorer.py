@@ -10,6 +10,8 @@ import numpy as np
 # %%
 import pandas as pd
 
+from ..common_parameters import *
+
 PARENT_DIR = Path(__file__).parent.parent.parent.parent.absolute()
 outfile = PARENT_DIR / "explorers" / "inequality-wid.explorer.tsv"
 
@@ -69,11 +71,14 @@ df_header = df_header[0].apply(pd.Series)
 # %%
 # Table generation
 
-sourceName = "World Inequality Database (WID.world) (2023)"
-dataPublishedBy = "World Inequality Database (WID), https://wid.world"
-sourceLink = "https://wid.world"
-tolerance = 5
-new_line = "\\n\\n"
+sourceName = SOURCE_NAME_WID
+dataPublishedBy = DATA_PUBLISHED_BY_WID
+sourceLink = SOURCE_LINK_WID
+tolerance = TOLERANCE
+new_line = NEW_LINE
+
+yAxisMin = Y_AXIS_MIN
+mapTargetTime = MAP_TARGET_TIME
 
 additional_description = new_line.join(
     [
@@ -238,9 +243,6 @@ df_tables["tolerance"] = df_tables["tolerance"].astype("Int64")
 
 # %%
 # Grapher table generation
-
-yAxisMin = 0
-mapTargetTime = 2019
 
 df_graphers = pd.DataFrame()
 

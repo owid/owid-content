@@ -13,4 +13,14 @@ SOURCE_LINK_PIP = "https://pip.worldbank.org"
 CONSUMPTION_SPELLS_PIP = 7
 INCOME_SPELLS_PIP = 8
 
+# WORLD INEQUALITY DATABASE
+SOURCE_NAME_WID = "World Inequality Database (WID.world) (2023)"
+DATA_PUBLISHED_BY_WID = "World Inequality Database (WID), https://wid.world"
+SOURCE_LINK_WID = "https://wid.world"
+
+# LUXEMBOURG INCOME STUDY
+SOURCE_NAME_LIS = "Luxembourg Income Study (2023)"
+DATA_PUBLISHED_BY_LIS = "Luxembourg Income Study (LIS) Database, http://www.lisdatacenter.org (multiple countries; 1967-2021). Luxembourg, LIS."
+SOURCE_LINK_LIS = "https://www.lisdatacenter.org/our-data/lis-database/"
+
 
