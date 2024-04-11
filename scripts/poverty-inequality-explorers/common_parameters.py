@@ -1,3 +1,5 @@
+# NOTE: Don't forget to update the consumption and income spells for PIP
+
 # COMMON PARAMETERS BETWEEN SOURCES
 COLOR_SCALE_NUMERIC_MIN_VALUE = 0
 TOLERANCE = 5
