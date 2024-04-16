@@ -17,7 +17,7 @@ graphers
 	i$ 20	absolute	819718			0	true
 	i$ 30	absolute	819720			0	true
 	i$ 40	absolute	819722			0	true
-	all	share	819815 819816 819818 819820 819822 819824 819826		StackedArea	0	true
+	all	share	819815 819816 819818 819820 819822 819824 819826 819811		StackedArea	0	true
 						0	true
 columns
 	variableId	^
