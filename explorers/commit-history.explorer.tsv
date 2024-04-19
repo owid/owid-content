@@ -1,0 +1,21 @@
+explorerTitle	Commit history at OWID
+isPublished	false
+table	https://raw.githubusercontent.com/sophiamersmann/data-dump/main/owid-grapher.csv	owid-grapher
+table	https://raw.githubusercontent.com/sophiamersmann/data-dump/main/etl.csv	etl
+
+
+columns	owid-grapher
+	slug	type
+	author	EntityName
+	date	Date
+	num_commits	Integer
+	num_lines_added	Integer
+	num_lines_removed	Integer
+
+columns	etl
+	slug	type
+	author	EntityName
+	date	Date
+	num_commits	Integer
+	num_lines_added	Integer
+	num_lines_removed	Integer
