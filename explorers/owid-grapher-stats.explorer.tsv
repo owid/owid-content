@@ -1,18 +1,35 @@
 explorerTitle	[TEST] owid-grapher stats
 isPublished	false
-table	https://raw.githubusercontent.com/sophiamersmann/data-dump/main/owid-grapher.csv
+table	https://raw.githubusercontent.com/sophiamersmann/data-dump/main/owid-grapher.csv	owid-grapher
+table	https://raw.githubusercontent.com/sophiamersmann/data-dump/main/etl.csv	etl
 selection	Daniel Bachler	Marcel Gerber
 graphers
-	Metric Dropdown	Visualisation Radio	ySlugs	type
-	Number of commits	Lines	num_commits
-	Number of lines added	Lines	num_lines_added
-	Number of lines removed	Lines	num_lines_removed
-	Line count difference	Lines	num_lines_total
-	Number of commits	Stacked	num_commits	StackedArea
-	Number of lines added	Stacked	num_lines_added	StackedArea
-	Number of lines removed	Stacked	num_lines_removed	StackedArea
+	Repository Dropdown	Metric Dropdown	Visualisation Radio	tableSlug	ySlugs	type
+	owid-grapher	Number of commits	Lines	owid-grapher	num_commits
+	owid-grapher	Number of lines added	Lines	owid-grapher	num_lines_added
+	owid-grapher	Number of lines removed	Lines	owid-grapher	num_lines_removed
+	owid-grapher	Line count difference	Lines	owid-grapher	num_lines_total
+	owid-grapher	Number of commits	Stacked	owid-grapher	num_commits	StackedArea
+	owid-grapher	Number of lines added	Stacked	owid-grapher	num_lines_added	StackedArea
+	owid-grapher	Number of lines removed	Stacked	owid-grapher	num_lines_removed	StackedArea
+	etl	Number of commits	Lines	etl	num_commits
+	etl	Number of lines added	Lines	etl	num_lines_added
+	etl	Number of lines removed	Lines	etl	num_lines_removed
+	etl	Line count difference	Lines	etl	num_lines_total
+	etl	Number of commits	Stacked	etl	num_commits	StackedArea
+	etl	Number of lines added	Stacked	etl	num_lines_added	StackedArea
+	etl	Number of lines removed	Stacked	etl	num_lines_removed	StackedArea
 
-columns
+
+columns	owid-grapher
+	slug	name	type	transform
+	author	Author	EntityName
+	date	Day	Date
+	num_commits	Number of commits	Integer
+	num_lines_added	Number of lines added	Integer
+	num_lines_removed	Number of lines removd	Integer
+	num_lines_total	Number of lines total	Integer	subtract num_lines_added num_lines_removed
+columns	etl
 	slug	name	type	transform
 	author	Author	EntityName
 	date	Day	Date
