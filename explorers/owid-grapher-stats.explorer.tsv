@@ -1,10 +1,15 @@
 explorerTitle	[TEST] owid-grapher stats
 isPublished	false
+table	https://raw.githubusercontent.com/sophiamersmann/data-dump/main/owid-grapher.csv
+selection	Daniel Bachler	Marcel Gerber
 graphers
-	Metric Dropdown	ySlugs
-	Number of commits	num_commits
-	Number of lines added	num_lines_added
-	Number of lines removed	num_lines_removed
+	Metric Dropdown	Visualisation Radio	ySlugs	type
+	Number of commits	Lines	num_commits
+	Number of lines added	Lines	num_lines_added
+	Number of lines removed	Lines	num_lines_removed
+	Number of commits	Stacked	num_commits	StackedArea
+	Number of lines added	Stacked	num_lines_added	StackedArea
+	Number of lines removed	Stacked	num_lines_removed	StackedArea
 columns
 	slug	name	type
 	author	Author	EntityName
@@ -12,8 +17,3 @@ columns
 	num_commits	Number of commits	Integer
 	num_lines_added	Number of lines added	Integer
 	num_lines_removed	Number of lines removd	Integer
-table
-	date	author	num_commits	num_lines_added	num_lines_removed
-	2024-01-01	Sophia	3	100	0
-	2024-01-01	Daniel	5	150	50
-	2024-01-02	Daniel	1	1	1
