@@ -1,0 +1,19 @@
+explorerTitle	[TEST] owid-grapher stats
+isPublished	false
+graphers
+	Metric Dropdown	ySlugs
+	Number of commits	num_commits
+	Number of lines added	num_lines_added
+	Number of lines removed	num_lines_removed
+columns
+	slug	name	type
+	author	Author	EntityName
+	date	Day	Date
+	num_commits	Number of commits	Integer
+	num_lines_added	Number of lines added	Integer
+	num_lines_removed	Number of lines removd	Integer
+table
+	date	author	num_commits	num_lines_added	num_lines_removed
+	2024-01-01	Sophia	3	100	0
+	2024-01-01	Daniel	5	150	50
+	2024-01-02	Daniel	1	1	1
