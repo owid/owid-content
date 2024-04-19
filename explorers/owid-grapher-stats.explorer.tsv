@@ -7,13 +7,16 @@ graphers
 	Number of commits	Lines	num_commits
 	Number of lines added	Lines	num_lines_added
 	Number of lines removed	Lines	num_lines_removed
+	Actual number of lines added	Lines	num_lines_total
 	Number of commits	Stacked	num_commits	StackedArea
 	Number of lines added	Stacked	num_lines_added	StackedArea
 	Number of lines removed	Stacked	num_lines_removed	StackedArea
+
 columns
-	slug	name	type
+	slug	name	type	transform
 	author	Author	EntityName
 	date	Day	Date
 	num_commits	Number of commits	Integer
 	num_lines_added	Number of lines added	Integer
 	num_lines_removed	Number of lines removd	Integer
+	num_lines_total	Number of lines total	Integer	subtract num_lines_added num_lines_removed
