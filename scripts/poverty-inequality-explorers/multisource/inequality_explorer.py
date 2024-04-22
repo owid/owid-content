@@ -108,8 +108,9 @@ new_line = NEW_LINE
 
 additional_description = new_line.join(
     [
-        "Depending on the country and year, the data relates to income measured after taxes and benefits, or to consumption, per capita. 'Per capita' means that the incomes of each household are attributed equally to each member of the household (including children).",
-        "Non-market sources of income, including food grown by subsistence farmers for their own consumption, are taken into account.",
+        "For most countries in the PIP dataset, estimates relate to _either_ disposable income or consumption, for all available years. A number of countries, however, have a mix of income and consumption data points, with both data types sometimes available for particular years.",
+        "In most of our charts, we present the data with some data points dropped in order to present single series for each country. This allows us to make readable visualizations that combine multiple countries and metrics. In choosing which data points to drop, we try to strike a balance between maintaining comparability over time and showing as long a time series as possible. As such, the exact approach varies somewhat across countries.",
+        "If you would like to see the original data with _all_ available income and consumption data points shown separately, you can do so in our [Inequality - World Bank Data Explorer](https://ourworldindata.org/explorers/inequality-wb?country=ROU~CHN~BLR~PER&Indicator=Gini+coefficient&Household+survey+data+type=Show+data+from+both+income+and+consumption+surveys&Show+breaks+between+less+comparable+surveys=true). You can also download this data in our [complete dataset](https://github.com/owid/poverty-data#a-global-dataset-of-poverty-and-inequality-measures-prepared-by-our-world-in-data-from-the-world-banks-poverty-and-inequality-platform-pip-database) of the World Bank PIP data.",
     ]
 )
 
