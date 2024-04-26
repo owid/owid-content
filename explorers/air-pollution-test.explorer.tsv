@@ -1,24 +1,23 @@
-explorerTitle	Air Pollution Data Explorer
-isPublished	false
-selection	United States	Russia	Norway	United Kingdom	Germany	Sweden	China
+explorerTitle	Air Pollution Test
 explorerSubtitle
-hideAlertBanner	true
-subNavId
-subNavCurrentId
-thumbnail
+isPublished	false
+selection	United States	China	India	United Kingdom	Germany
 hasMapTab	true
-yAxisMin	0
-hideAnnotationFieldsInTitle	true
-tab	map
 graphers
-	grapherId	title	subtitle	Measure Dropdown	Sub-metric Dropdown	Data source Dropdown	Per capita Checkbox	tableSlug	ySlugs	yScaleToggle	xSlug	baseColorScheme	type	hasMapTab	note
-	3756			Deaths	Outdoor + Indoor pollution	IHME, Global Burden of Disease	false
-	1457			Deaths	Indoor pollution	IHME, Global Burden of Disease	false
-	1458			Deaths	Outdoor pollution	IHME, Global Burden of Disease	false
-	3757			Deaths	Outdoor + Indoor pollution	IHME, Global Burden of Disease	true
-	540			Deaths	Indoor pollution	IHME, Global Burden of Disease	true
-	3802			Deaths	Outdoor pollution	IHME, Global Burden of Disease	true
-	4668			Deaths	Fossil fuel pollution	Leliveld et al. (2019)	false
-				Deaths	Fossil fuel pollution	Vohra et al.	false
-				Deaths	All anthropogenic pollution		false
-				Deaths	Natural pollution		false
+	yVariableIds	title	subtitle	Pollutant Dropdown	Sector Dropdown	Per capita Checkbox	yScaleToggle	yAxisMin	baseColorScheme	type	hasMapTab	selectedFacetStrategy	facetYDomain
+	900429 900430 900431 900432 900433 900434 900435	Emissions of air pollutants		All pollutants	From all sectors (Total)	false	true	0	owid-distinct	LineChart	false	metric	independent
+	900436 900437 900438 900439 900440 900441 900442	Per capita emissions of air pollutants		All pollutants	From all sectors (Total)	true	true	0	owid-distinct	LineChart	false	metric	independent
+	900429	Nitrogen oxide emissions	Nitrogen oxides (NOx) are gases that are mainly formed during the burning of fossil fuels. Exposure to NOx gases can have negative impacts on respiratory health. NOx gases can also lead to the formation of ozone – another air pollutant.	Nitrogen oxides (NOx)	From all sectors (Total)	false	true	0	owid-distinct	LineChart	true
+	900430	Sulphur dioxide emissions	Sulphur dioxide (SO₂) is an air pollutant formed from the burning of fuels that contain sulphur, such as coal. SO₂ is one of the main chemicals that forms acid rain.	Sulphur dioxide (SO₂)	From all sectors (Total)	false	true	0	owid-distinct	LineChart	true
+	900431	Carbon monoxide emissions	Carbon monoxide (CO) is a pollutant produced from the incomplete combustion of carbon-based fuels such as oil, gas, wood, and coal.	Carbon monoxide (CO)	From all sectors (Total)	false	true	0	owid-distinct	LineChart	true
+	900432	Organic carbon emissions	Organic carbon molecules are formed from the incomplete burning of organic materials. This can come from the burning of fossil fuels (which are carbon-based organic material) or biomass. Organic carbon aerosols can also be suspended in the air from sources such as vehicle tyres and roads. Organic carbon molecules can contribute to particulate matter pollution, with negative impacts on human health.	Organic carbon (OC)	From all sectors (Total)	false	true	0	owid-distinct	LineChart	true
+	900433	Emissions of non-methane volatile organic compounds	Non-methane volatile organic compounds (NMVOCs) are pollutants formed from the burning of biomass and fossil fuels. NMVOCs can lead to the formation of other local air pollutants, such as ozone.	NMVOCs	From all sectors (Total)	false	true	0	owid-distinct	LineChart	true
+	900434	Black carbon emissions	Black carbon (BC) is a soot-like pollutant formed from the burning of biomass and fossil fuels. It is a major contributor to particulate matter pollution, and contributes to climate change by absorbing sunlight.	Black carbon (BC)	From all sectors (Total)	false	true	0	owid-distinct	LineChart	true
+	900435	Ammonia emissions	Ammonia (NH₃) is a gas which can mix with other gases – such as nitrogen oxides and sulphur dioxide – to form particulate matter. Its main sources are the use of manure and fertilizers in agriculture, and emissions from industry.	Ammonia (NH₃)	From all sectors (Total)	false	true	0	owid-distinct	LineChart	true
+	900436	Per capita nitrogen oxide emissions	Nitrogen oxides (NOx) are gases that are mainly formed during the burning of fossil fuels. Exposure to NOx gases can have negative impacts on respiratory health. NOx gases can also lead to the formation of ozone – another air pollutant.	Nitrogen oxides (NOx)	From all sectors (Total)	true	true	0	owid-distinct	LineChart	true
+	900437	Per capita sulphur dioxide emissions	Sulphur dioxide (SO₂) is an air pollutant formed from the burning of fuels that contain sulphur, such as coal. SO₂ is one of the main chemicals that forms acid rain.	Sulphur dioxide (SO₂)	From all sectors (Total)	true	true	0	owid-distinct	LineChart	true
+	900438	Per capita carbon monoxide emissions	Carbon monoxide (CO) is a pollutant produced from the incomplete combustion of carbon-based fuels such as oil, gas, wood, and coal.	Carbon monoxide (CO)	From all sectors (Total)	true	true	0	owid-distinct	LineChart	true
+	900439	Per capita organic carbon emissions	Organic carbon molecules are formed from the incomplete burning of organic materials. This can come from the burning of fossil fuels (which are carbon-based organic material) or biomass. Organic carbon aerosols can also be suspended in the air from sources such as vehicle tyres and roads. Organic carbon molecules can contribute to particulate matter pollution, with negative impacts on human health.	Organic carbon (OC)	From all sectors (Total)	true	true	0	owid-distinct	LineChart	true
+	900440	Per capita emissions of non-methane volatile organic compounds	Non-methane volatile organic compounds (NMVOCs) are pollutants formed from the burning of biomass and fossil fuels. NMVOCs can lead to the formation of other local air pollutants, such as ozone.	NMVOCs	From all sectors (Total)	true	true	0	owid-distinct	LineChart	true
+	900441	Per capita black carbon emissions	Black carbon (BC) is a soot-like pollutant formed from the burning of biomass and fossil fuels. It is a major contributor to particulate matter pollution, and contributes to climate change by absorbing sunlight.	Black carbon (BC)	From all sectors (Total)	true	true	0	owid-distinct	LineChart	true
+	900442	Per capita ammonia emissions	Ammonia (NH₃) is a gas which can mix with other gases – such as nitrogen oxides and sulphur dioxide – to form particulate matter. Its main sources are the use of manure and fertilizers in agriculture, and emissions from industry.	Ammonia (NH₃)	From all sectors (Total)	true	true	0	owid-distinct	LineChart	true
