@@ -120,7 +120,7 @@ for survey in range(len(survey_type)):
     df_tables.loc[j, "slug"] = f"gini"
     df_tables.loc[j, "description"] = new_line.join(
         [
-            f"The Gini coefficient measures inequality on a scale from 0 to 1. Higher values indicate higher inequality.",
+            "The Gini coefficient measures inequality on a scale from 0 to 1. Higher values indicate higher inequality.",
             survey_type.description[survey],
             additional_description,
             notes_title,
@@ -164,7 +164,7 @@ for survey in range(len(survey_type)):
     df_tables.loc[j, "slug"] = f"palma_ratio"
     df_tables.loc[j, "description"] = new_line.join(
         [
-            f"The Palma ratio is a measure of inequality that divides the share received by the richest 10% by the share of the poorest 40%. Higher values indicate higher inequality.",
+            "The Palma ratio is a measure of inequality that divides the share received by the richest 10% by the share of the poorest 40%. Higher values indicate higher inequality.",
             survey_type.description[survey],
             additional_description,
             notes_title,
@@ -206,7 +206,7 @@ for survey in range(len(survey_type)):
     df_tables.loc[j, "slug"] = f"mld"
     df_tables.loc[j, "description"] = new_line.join(
         [
-            f"The mean log deviation (MLD) is a measure of inequality. An MLD of zero indicates perfect equality and it takes on larger positive values as incomes become more unequal. The measure is also referred to as 'Theil L' or 'GE(0)', in reference to the wider families of inequality measures to which the MLD belongs.",
+            "The mean log deviation (MLD) is a measure of inequality. An MLD of zero indicates perfect equality and it takes on larger positive values as incomes become more unequal. The measure is also referred to as 'Theil L' or 'GE(0)', in reference to the wider families of inequality measures to which the MLD belongs.",
             survey_type.description[survey],
             additional_description,
             notes_title,

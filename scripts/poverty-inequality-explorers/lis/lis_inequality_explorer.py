@@ -135,7 +135,7 @@ for tab in range(len(tables)):
             ] = f"gini_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
             df_tables.loc[j, "description"] = new_line.join(
                 [
-                    f"The Gini coefficient measures inequality on a scale from 0 to 1. Higher values indicate higher inequality.",
+                    "The Gini coefficient measures inequality on a scale from 0 to 1. Higher values indicate higher inequality.",
                     welfare["description"][wel],
                     equivalence_scales["description"][eq],
                     notes_title,
@@ -208,7 +208,7 @@ for tab in range(len(tables)):
             ] = f"palma_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
             df_tables.loc[j, "description"] = new_line.join(
                 [
-                    f"The Palma ratio is a measure of inequality that divides the share received by the richest 10% by the share of the poorest 40%. Higher values indicate higher inequality.",
+                    "The Palma ratio is a measure of inequality that divides the share received by the richest 10% by the share of the poorest 40%. Higher values indicate higher inequality.",
                     welfare["description"][wel],
                     equivalence_scales["description"][eq],
                     notes_title,
