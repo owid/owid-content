@@ -1,0 +1,9 @@
+explorerTitle	GDP
+selection	World
+
+graphers
+	Timescale Dropdown	Per capita Checkbox	yVariableIds	hasMapTab	type
+	Modern	false	539736	true
+	Modern	true	539760	true
+	Long run	false	819350	true
+	Long run	true	819351	true
