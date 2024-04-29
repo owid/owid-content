@@ -3,7 +3,7 @@ selection	World
 
 graphers
 	Poverty Line Dropdown	Share Dropdown	yVariableIds	title	type	yAxisMin	hasMapTab
-	i$ 2.15	share	819727		+	0	true
+	i$ 2.15	share	819727			0	true
 	i$ 3.65	share	819729			0	true
 	i$ 6.85	share	819731			0	true
 	i$ 10	share	819725			0	true
