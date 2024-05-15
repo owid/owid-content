@@ -272,7 +272,7 @@ graphers
 	7348	Neglected tropical diseases	Rabies	Reported deaths	WHO
 	7411	Neglected tropical diseases	Snakebite envenoming	Deaths	IHME
 	7387	Neglected tropical diseases	Snakebite envenoming	Age-standardized death rate	IHME
-	3340	Neglected tropical diseases	Trachoma	Prevalence rate	IHME
+	3340	Neglected tropical diseases	Trachoma	Age-standardized prevalence rate	IHME
 	7382	Neglected tropical diseases	Trachoma	Elimination status	WHO
 	7376	Neglected tropical diseases	Trypanosomiasis, human African (acute)	Reported cases	WHO
 	7375	Neglected tropical diseases	Trypanosomiasis, human African (chronic)	Reported cases	WHO
