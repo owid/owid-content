@@ -16,9 +16,10 @@ CONSUMPTION_SPELLS_PIP = 7
 INCOME_SPELLS_PIP = 8
 
 # WORLD INEQUALITY DATABASE
-SOURCE_NAME_WID = "World Inequality Database (WID.world) (2023)"
+SOURCE_NAME_WID = "World Inequality Database (WID.world) (2024)"
 DATA_PUBLISHED_BY_WID = "World Inequality Database (WID), https://wid.world"
 SOURCE_LINK_WID = "https://wid.world"
+PPP_YEAR_WID = 2023
 
 # LUXEMBOURG INCOME STUDY
 SOURCE_NAME_LIS = "Luxembourg Income Study (2023)"

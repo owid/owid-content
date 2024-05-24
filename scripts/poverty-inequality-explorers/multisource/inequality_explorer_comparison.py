@@ -303,7 +303,7 @@ additional_description = new_line.join(
         "These underlying data sources are not always available. For some countries, observations are extrapolated from data relating to other years, or are sometimes modeled based on data observed in other countries.",
     ]
 )
-ppp_description = "The data is measured in international-$ at 2022 prices – this adjusts for inflation and for differences in the cost of living between countries."
+ppp_description = f"The data is measured in international-$ at {PPP_YEAR_WID} prices – this adjusts for inflation and for differences in the cost of living between countries."
 
 df_tables_wid = pd.DataFrame()
 j = 0
