@@ -56,11 +56,13 @@ DISASTER_TYPES = [
     "Wildfire",
 ]
 # List human and economic impacts (as they were defined in the garden/grapher steps).
-HUMAN_IMPACTS = ["Deaths", "Affected", "Homeless", "Injured", "Total affected"]
+HUMAN_IMPACTS = ["Deaths", "Requiring assistance", "Homeless", "Injured", "Total affected", "Disasters"]
 ECONOMIC_IMPACTS = [
-    "Reconstruction costs as a share of GDP",
     "Total economic damages as a share of GDP",
-    "Insured damages as a share of GDP",
+    # The following metrics are too sparse. Less than 20% of the disasters have data for these two metrics.
+    # So it's probably better to exclude them from the explorer.
+    # "Reconstruction costs as a share of GDP",
+    # "Insured damages as a share of GDP",
 ]
 # Common string to use in the footer of all views in the explorer.
 COMMON_NOTE = f"Disasters are recorded until {LAST_DISASTERS_DATE}."
@@ -69,10 +71,11 @@ DECADAL_AVERAGE_NOTE = f"Values are annual numbers averaged over all years in th
 # Mapping from the impact extracted from the variable title to the title of the view of disaster impacts by type of disaster.
 IMPACT_MAPPING = {
     "Deaths": "deaths",
-    "Affected": "people requiring immediate assistance",
+    "Requiring assistance": "people requiring immediate assistance",
     "Homeless": "people left homeless",
     "Injured": "people injured",
     "Total affected": "people affected",
+    "Disasters": "events",
 }
 
 # Connect to grapher database.
@@ -111,6 +114,10 @@ data = []
 
 # Add a row with all variables showing a specific impact.
 for impact in HUMAN_IMPACTS:
+    if impact == "Disasters":
+        title = "Decadal average: Annual number of natural disasters"
+    else:
+        title = f"Decadal average: Annual number of {IMPACT_MAPPING[impact]} from natural disasters"
     names = [f"{impact} - {disaster} (decadal)" for disaster in DISASTER_TYPES]
     selected = df_decadal[df_decadal["name"].isin(names)]
     data.append(
@@ -122,7 +129,7 @@ for impact in HUMAN_IMPACTS:
             "Per capita Checkbox": "false",
             "type": "StackedBar",
             "note": DECADAL_AVERAGE_NOTE,
-            "title": f"Decadal average: Annual number of {IMPACT_MAPPING[impact]} from natural disasters",
+            "title": title,
             # For this view with multiple (sparse) variables, we need to always show the data, even when there are nans.
             "missingDataStrategy": "show",
             "hasMapTab": "false",
@@ -130,6 +137,10 @@ for impact in HUMAN_IMPACTS:
     )
 # Add a row with all variables showing a specific impact per 100,000 people.
 for impact in HUMAN_IMPACTS:
+    if impact == "Disasters":
+        title = "Decadal average: Annual rate of natural disasters"
+    else:
+        title = f"Decadal average: Annual rate of {IMPACT_MAPPING[impact]} from natural disasters"
     names = [f"{impact} per 100,000 people - {disaster} (decadal)" for disaster in DISASTER_TYPES]
     selected = df_decadal[df_decadal["name"].isin(names)]
     data.append(
@@ -141,7 +152,7 @@ for impact in HUMAN_IMPACTS:
             "Per capita Checkbox": "true",
             "type": "StackedBar",
             "note": DECADAL_AVERAGE_NOTE,
-            "title": f"Decadal average: Annual rate of {IMPACT_MAPPING[impact]} from natural disasters",
+            "title": title,
             # For this view with multiple (sparse) variables, we need to always show the data, even when there are nans.
             "missingDataStrategy": "show",
             "hasMapTab": "false",
@@ -208,6 +219,11 @@ for impact in ECONOMIC_IMPACTS:
 # Add rows of yearly data.
 # Add a row with all variables showing a specific impact.
 for impact in HUMAN_IMPACTS:
+    if impact == "Disasters":
+        title = "Annual number of natural disasters"
+    else:
+        title = f"Annual number of {IMPACT_MAPPING[impact]} from natural disasters"
+
     names = [f"{impact} - {disaster}" for disaster in DISASTER_TYPES]
     selected = df_yearly[df_yearly["name"].isin(names)]
     data.append(
@@ -219,7 +235,7 @@ for impact in HUMAN_IMPACTS:
             "Per capita Checkbox": "false",
             "type": "StackedBar",
             "note": COMMON_NOTE,
-            "title": f"Annual number of {IMPACT_MAPPING[impact]} from natural disasters",
+            "title": title,
             # For this view with multiple (sparse) variables, we need to always show the data, even when there are nans.
             "missingDataStrategy": "show",
             "hasMapTab": "false",
@@ -227,6 +243,10 @@ for impact in HUMAN_IMPACTS:
     )
 # Add a row with all variables showing a specific impact per 100,000 people.
 for impact in HUMAN_IMPACTS:
+    if impact == "Disasters":
+        title = "Annual rate of natural disasters"
+    else:
+        title = f"Annual rate of {IMPACT_MAPPING[impact]} from natural disasters"
     names = [f"{impact} per 100,000 people - {disaster}" for disaster in DISASTER_TYPES]
     selected = df_yearly[df_yearly["name"].isin(names)]
     data.append(
@@ -238,7 +258,7 @@ for impact in HUMAN_IMPACTS:
             "Per capita Checkbox": "true",
             "type": "StackedBar",
             "note": COMMON_NOTE,
-            "title": f"Annual rate of {IMPACT_MAPPING[impact]} from natural disasters",
+            "title": title,
             # For this view with multiple (sparse) variables, we need to always show the data, even when there are nans.
             "missingDataStrategy": "show",
             "hasMapTab": "false",
@@ -306,7 +326,9 @@ for impact in ECONOMIC_IMPACTS:
 
 # Prepare header of explorer file.
 df_explorer = pd.DataFrame.from_records(data)
-explorer = """explorerTitle\tNatural Disasters
+explorer = """# DO NOT EDIT THIS FILE BY HAND. It is automatically generated using a script. Any changes made directly to it will be overwritten.
+
+explorerTitle\tNatural Disasters
 explorerSubtitle\tExplore the global frequency, severity, and consequences of disasters.
 isPublished\tfalse
 selection\tWorld
