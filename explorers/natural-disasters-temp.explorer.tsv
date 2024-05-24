@@ -9,385 +9,385 @@ wpBlockId	46066
 yAxisMin	0
 hideAnnotationFieldsInTitle	true
 graphers
-	yVariableIds	Disaster Type Dropdown	Impact Dropdown	Timespan Radio	Per capita Checkbox	type	note	title	missingDataStrategy
-	899768 899769 899771 899770 899772 899773 899774 899775 899776 899777 899778	All disasters (by type)	Deaths	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.	Decadal average: Annual number of deaths from natural disasters	show
-	899576 899577 899578 899579 899580 899581 899582 899583 899584 899585 899586	All disasters (by type)	Affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.	Decadal average: Annual number of people requiring immediate assistance from natural disasters	show
-	899601 899600 899602 899603 899604 899605 899606 899607 899609 899608 899610	All disasters (by type)	Homeless	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.	Decadal average: Annual number of people left homeless from natural disasters	show
-	899624 899628 899625 899627 899629 899626 899632 899633 899630 899631 899636	All disasters (by type)	Injured	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.	Decadal average: Annual number of people injured from natural disasters	show
-	899721 899720 899723 899722 899725 899726 899724 899728 899727 899729 899732	All disasters (by type)	Total affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.	Decadal average: Annual number of people affected from natural disasters	show
-	899780 899781 899782 899783 899784 899785 899786 899787 899788 899789 899790	All disasters (by type)	Deaths	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.	Decadal average: Annual rate of deaths from natural disasters	show
-	899588 899589 899590 899591 899592 899593 899595 899594 899596 899597 899598	All disasters (by type)	Affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.	Decadal average: Annual rate of people requiring immediate assistance from natural disasters	show
-	899612 899613 899616 899614 899618 899615 899619 899617 899621 899622 899620	All disasters (by type)	Homeless	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.	Decadal average: Annual rate of people left homeless from natural disasters	show
-	899635 899637 899638 899639 899640 899642 899641 899643 899644 899646 899645	All disasters (by type)	Injured	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.	Decadal average: Annual rate of people injured from natural disasters	show
-	899735 899731 899734 899733 899737 899736 899738 899739 899742 899741 899740	All disasters (by type)	Total affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.	Decadal average: Annual rate of people affected from natural disasters	show
-	899767	All disasters	Deaths	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	900721	All disasters excluding earthquakes	Deaths	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	900722	All disasters excluding extreme temperature	Deaths	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899768	Drought	Deaths	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899769	Dry mass movement	Deaths	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899771	Earthquake	Deaths	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899770	Extreme temperature	Deaths	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899772	Extreme weather	Deaths	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899773	Flood	Deaths	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899774	Fog	Deaths	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899775	Glacial lake outburst flood	Deaths	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899776	Volcanic activity	Deaths	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899777	Wet mass movement	Deaths	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899778	Wildfire	Deaths	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899575	All disasters	Affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	900689	All disasters excluding earthquakes	Affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	900690	All disasters excluding extreme temperature	Affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899576	Drought	Affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899577	Dry mass movement	Affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899578	Earthquake	Affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899579	Extreme temperature	Affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899580	Extreme weather	Affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899581	Flood	Affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899582	Fog	Affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899583	Glacial lake outburst flood	Affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899584	Volcanic activity	Affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899585	Wet mass movement	Affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899586	Wildfire	Affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899599	All disasters	Homeless	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	900693	All disasters excluding earthquakes	Homeless	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	900694	All disasters excluding extreme temperature	Homeless	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899601	Drought	Homeless	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899600	Dry mass movement	Homeless	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899602	Earthquake	Homeless	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899603	Extreme temperature	Homeless	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899604	Extreme weather	Homeless	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899605	Flood	Homeless	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899606	Fog	Homeless	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899607	Glacial lake outburst flood	Homeless	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899609	Volcanic activity	Homeless	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899608	Wet mass movement	Homeless	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899610	Wildfire	Homeless	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899623	All disasters	Injured	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	900698	All disasters excluding earthquakes	Injured	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	900697	All disasters excluding extreme temperature	Injured	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899624	Drought	Injured	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899628	Dry mass movement	Injured	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899625	Earthquake	Injured	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899627	Extreme temperature	Injured	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899629	Extreme weather	Injured	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899626	Flood	Injured	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899632	Fog	Injured	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899633	Glacial lake outburst flood	Injured	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899630	Volcanic activity	Injured	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899631	Wet mass movement	Injured	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899636	Wildfire	Injured	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899719	All disasters	Total affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	900713	All disasters excluding earthquakes	Total affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	900714	All disasters excluding extreme temperature	Total affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899721	Drought	Total affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899720	Dry mass movement	Total affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899723	Earthquake	Total affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899722	Extreme temperature	Total affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899725	Extreme weather	Total affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899726	Flood	Total affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899724	Fog	Total affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899728	Glacial lake outburst flood	Total affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899727	Volcanic activity	Total affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899729	Wet mass movement	Total affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899732	Wildfire	Total affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899779	All disasters	Deaths	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	900723	All disasters excluding earthquakes	Deaths	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	900724	All disasters excluding extreme temperature	Deaths	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899780	Drought	Deaths	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899781	Dry mass movement	Deaths	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899782	Earthquake	Deaths	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899783	Extreme temperature	Deaths	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899784	Extreme weather	Deaths	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899785	Flood	Deaths	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899786	Fog	Deaths	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899787	Glacial lake outburst flood	Deaths	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899788	Volcanic activity	Deaths	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899789	Wet mass movement	Deaths	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899790	Wildfire	Deaths	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899587	All disasters	Affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	900691	All disasters excluding earthquakes	Affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	900692	All disasters excluding extreme temperature	Affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899588	Drought	Affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899589	Dry mass movement	Affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899590	Earthquake	Affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899591	Extreme temperature	Affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899592	Extreme weather	Affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899593	Flood	Affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899595	Fog	Affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899594	Glacial lake outburst flood	Affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899596	Volcanic activity	Affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899597	Wet mass movement	Affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899598	Wildfire	Affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899611	All disasters	Homeless	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	900695	All disasters excluding earthquakes	Homeless	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	900696	All disasters excluding extreme temperature	Homeless	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899612	Drought	Homeless	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899613	Dry mass movement	Homeless	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899616	Earthquake	Homeless	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899614	Extreme temperature	Homeless	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899618	Extreme weather	Homeless	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899615	Flood	Homeless	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899619	Fog	Homeless	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899617	Glacial lake outburst flood	Homeless	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899621	Volcanic activity	Homeless	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899622	Wet mass movement	Homeless	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899620	Wildfire	Homeless	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899634	All disasters	Injured	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	900700	All disasters excluding earthquakes	Injured	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	900699	All disasters excluding extreme temperature	Injured	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899635	Drought	Injured	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899637	Dry mass movement	Injured	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899638	Earthquake	Injured	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899639	Extreme temperature	Injured	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899640	Extreme weather	Injured	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899642	Flood	Injured	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899641	Fog	Injured	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899643	Glacial lake outburst flood	Injured	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899644	Volcanic activity	Injured	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899646	Wet mass movement	Injured	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899645	Wildfire	Injured	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899730	All disasters	Total affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	900715	All disasters excluding earthquakes	Total affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	900716	All disasters excluding extreme temperature	Total affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899735	Drought	Total affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899731	Dry mass movement	Total affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899734	Earthquake	Total affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899733	Extreme temperature	Total affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899737	Extreme weather	Total affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899736	Flood	Total affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899738	Fog	Total affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899739	Glacial lake outburst flood	Total affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899742	Volcanic activity	Total affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899741	Wet mass movement	Total affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899740	Wildfire	Total affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899706	All disasters	Reconstruction costs as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	900711	All disasters excluding earthquakes	Reconstruction costs as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	900712	All disasters excluding extreme temperature	Reconstruction costs as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899710	Drought	Reconstruction costs as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899709	Dry mass movement	Reconstruction costs as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899708	Earthquake	Reconstruction costs as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899711	Extreme temperature	Reconstruction costs as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899712	Extreme weather	Reconstruction costs as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899713	Flood	Reconstruction costs as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899715	Fog	Reconstruction costs as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899714	Glacial lake outburst flood	Reconstruction costs as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899717	Volcanic activity	Reconstruction costs as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899716	Wet mass movement	Reconstruction costs as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899718	Wildfire	Reconstruction costs as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899755	All disasters	Total economic damages as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	900720	All disasters excluding earthquakes	Total economic damages as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	900719	All disasters excluding extreme temperature	Total economic damages as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899756	Drought	Total economic damages as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899757	Dry mass movement	Total economic damages as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899758	Earthquake	Total economic damages as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899759	Extreme temperature	Total economic damages as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899760	Extreme weather	Total economic damages as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899761	Flood	Total economic damages as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899762	Fog	Total economic damages as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899763	Glacial lake outburst flood	Total economic damages as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899764	Volcanic activity	Total economic damages as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899765	Wet mass movement	Total economic damages as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899766	Wildfire	Total economic damages as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899658	All disasters	Insured damages as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	900704	All disasters excluding earthquakes	Insured damages as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	900703	All disasters excluding extreme temperature	Insured damages as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899660	Drought	Insured damages as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899663	Dry mass movement	Insured damages as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899661	Earthquake	Insured damages as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899662	Extreme temperature	Insured damages as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899665	Extreme weather	Insured damages as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899664	Flood	Insured damages as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899667	Fog	Insured damages as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899668	Glacial lake outburst flood	Insured damages as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899666	Volcanic activity	Insured damages as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899673	Wet mass movement	Insured damages as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899675	Wildfire	Insured damages as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto
-	899982 899980 899983 899984 899987 899988 899985 899986 899989 899991 899990	All disasters (by type)	Deaths	Annual	false	StackedBar	Disasters are recorded until April 2024.	Annual number of deaths from natural disasters	show
-	899792 899791 899794 899795 899798 899800 899797 899796 899799 899801 899802	All disasters (by type)	Affected	Annual	false	StackedBar	Disasters are recorded until April 2024.	Annual number of people requiring immediate assistance from natural disasters	show
-	899816 899815 899818 899819 899822 899824 899820 899821 899823 899825 899826	All disasters (by type)	Homeless	Annual	false	StackedBar	Disasters are recorded until April 2024.	Annual number of people left homeless from natural disasters	show
-	899841 899839 899842 899843 899846 899848 899844 899845 899847 899849 899850	All disasters (by type)	Injured	Annual	false	StackedBar	Disasters are recorded until April 2024.	Annual number of people injured from natural disasters	show
-	899935 899933 899936 899937 899940 899941 899938 899939 899942 899944 899943	All disasters (by type)	Total affected	Annual	false	StackedBar	Disasters are recorded until April 2024.	Annual number of people affected from natural disasters	show
-	899993 899992 899995 899996 899999 900000 899997 899998 900001 900002 900003	All disasters (by type)	Deaths	Annual	true	StackedBar	Disasters are recorded until April 2024.	Annual rate of deaths from natural disasters	show
-	899804 899803 899806 899807 899810 899812 899808 899809 899811 899813 899814	All disasters (by type)	Affected	Annual	true	StackedBar	Disasters are recorded until April 2024.	Annual rate of people requiring immediate assistance from natural disasters	show
-	899828 899827 899829 899831 899834 899836 899832 899833 899835 899837 899838	All disasters (by type)	Homeless	Annual	true	StackedBar	Disasters are recorded until April 2024.	Annual rate of people left homeless from natural disasters	show
-	899852 899851 899853 899855 899858 899860 899857 899856 899859 899861 899862	All disasters (by type)	Injured	Annual	true	StackedBar	Disasters are recorded until April 2024.	Annual rate of people injured from natural disasters	show
-	899946 899945 899949 899948 899952 899954 899950 899951 899953 899955 899956	All disasters (by type)	Total affected	Annual	true	StackedBar	Disasters are recorded until April 2024.	Annual rate of people affected from natural disasters	show
-	899981	All disasters	Deaths	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	900757	All disasters excluding earthquakes	Deaths	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	900758	All disasters excluding extreme temperature	Deaths	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899982	Drought	Deaths	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899980	Dry mass movement	Deaths	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899983	Earthquake	Deaths	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899984	Extreme temperature	Deaths	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899987	Extreme weather	Deaths	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899988	Flood	Deaths	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899985	Fog	Deaths	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899986	Glacial lake outburst flood	Deaths	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899989	Volcanic activity	Deaths	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899991	Wet mass movement	Deaths	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899990	Wildfire	Deaths	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899793	All disasters	Affected	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	900725	All disasters excluding earthquakes	Affected	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	900726	All disasters excluding extreme temperature	Affected	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899792	Drought	Affected	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899791	Dry mass movement	Affected	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899794	Earthquake	Affected	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899795	Extreme temperature	Affected	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899798	Extreme weather	Affected	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899800	Flood	Affected	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899797	Fog	Affected	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899796	Glacial lake outburst flood	Affected	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899799	Volcanic activity	Affected	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899801	Wet mass movement	Affected	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899802	Wildfire	Affected	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899817	All disasters	Homeless	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	900729	All disasters excluding earthquakes	Homeless	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	900730	All disasters excluding extreme temperature	Homeless	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899816	Drought	Homeless	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899815	Dry mass movement	Homeless	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899818	Earthquake	Homeless	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899819	Extreme temperature	Homeless	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899822	Extreme weather	Homeless	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899824	Flood	Homeless	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899820	Fog	Homeless	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899821	Glacial lake outburst flood	Homeless	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899823	Volcanic activity	Homeless	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899825	Wet mass movement	Homeless	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899826	Wildfire	Homeless	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899840	All disasters	Injured	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	900733	All disasters excluding earthquakes	Injured	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	900734	All disasters excluding extreme temperature	Injured	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899841	Drought	Injured	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899839	Dry mass movement	Injured	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899842	Earthquake	Injured	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899843	Extreme temperature	Injured	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899846	Extreme weather	Injured	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899848	Flood	Injured	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899844	Fog	Injured	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899845	Glacial lake outburst flood	Injured	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899847	Volcanic activity	Injured	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899849	Wet mass movement	Injured	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899850	Wildfire	Injured	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899934	All disasters	Total affected	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	900749	All disasters excluding earthquakes	Total affected	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	900750	All disasters excluding extreme temperature	Total affected	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899935	Drought	Total affected	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899933	Dry mass movement	Total affected	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899936	Earthquake	Total affected	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899937	Extreme temperature	Total affected	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899940	Extreme weather	Total affected	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899941	Flood	Total affected	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899938	Fog	Total affected	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899939	Glacial lake outburst flood	Total affected	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899942	Volcanic activity	Total affected	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899944	Wet mass movement	Total affected	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899943	Wildfire	Total affected	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899994	All disasters	Deaths	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	900759	All disasters excluding earthquakes	Deaths	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	900760	All disasters excluding extreme temperature	Deaths	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	899993	Drought	Deaths	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	899992	Dry mass movement	Deaths	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	899995	Earthquake	Deaths	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	899996	Extreme temperature	Deaths	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	899999	Extreme weather	Deaths	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	900000	Flood	Deaths	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	899997	Fog	Deaths	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	899998	Glacial lake outburst flood	Deaths	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	900001	Volcanic activity	Deaths	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	900002	Wet mass movement	Deaths	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	900003	Wildfire	Deaths	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	899805	All disasters	Affected	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	900727	All disasters excluding earthquakes	Affected	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	900728	All disasters excluding extreme temperature	Affected	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	899804	Drought	Affected	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	899803	Dry mass movement	Affected	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	899806	Earthquake	Affected	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	899807	Extreme temperature	Affected	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	899810	Extreme weather	Affected	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	899812	Flood	Affected	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	899808	Fog	Affected	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	899809	Glacial lake outburst flood	Affected	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	899811	Volcanic activity	Affected	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	899813	Wet mass movement	Affected	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	899814	Wildfire	Affected	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	899830	All disasters	Homeless	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	900731	All disasters excluding earthquakes	Homeless	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	900732	All disasters excluding extreme temperature	Homeless	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	899828	Drought	Homeless	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	899827	Dry mass movement	Homeless	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	899829	Earthquake	Homeless	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	899831	Extreme temperature	Homeless	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	899834	Extreme weather	Homeless	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	899836	Flood	Homeless	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	899832	Fog	Homeless	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	899833	Glacial lake outburst flood	Homeless	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	899835	Volcanic activity	Homeless	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	899837	Wet mass movement	Homeless	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	899838	Wildfire	Homeless	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	899854	All disasters	Injured	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	900735	All disasters excluding earthquakes	Injured	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	900736	All disasters excluding extreme temperature	Injured	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	899852	Drought	Injured	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	899851	Dry mass movement	Injured	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	899853	Earthquake	Injured	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	899855	Extreme temperature	Injured	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	899858	Extreme weather	Injured	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	899860	Flood	Injured	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	899857	Fog	Injured	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	899856	Glacial lake outburst flood	Injured	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	899859	Volcanic activity	Injured	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	899861	Wet mass movement	Injured	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	899862	Wildfire	Injured	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	899947	All disasters	Total affected	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	900751	All disasters excluding earthquakes	Total affected	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	900752	All disasters excluding extreme temperature	Total affected	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	899946	Drought	Total affected	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	899945	Dry mass movement	Total affected	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	899949	Earthquake	Total affected	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	899948	Extreme temperature	Total affected	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	899952	Extreme weather	Total affected	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	899954	Flood	Total affected	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	899950	Fog	Total affected	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	899951	Glacial lake outburst flood	Total affected	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	899953	Volcanic activity	Total affected	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	899955	Wet mass movement	Total affected	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	899956	Wildfire	Total affected	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto
-	899923	All disasters	Reconstruction costs as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	900747	All disasters excluding earthquakes	Reconstruction costs as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	900748	All disasters excluding extreme temperature	Reconstruction costs as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899924	Drought	Reconstruction costs as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899922	Dry mass movement	Reconstruction costs as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899925	Earthquake	Reconstruction costs as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899926	Extreme temperature	Reconstruction costs as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899927	Extreme weather	Reconstruction costs as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899930	Flood	Reconstruction costs as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899928	Glacial lake outburst flood	Reconstruction costs as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899929	Volcanic activity	Reconstruction costs as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899932	Wet mass movement	Reconstruction costs as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899931	Wildfire	Reconstruction costs as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899970	All disasters	Total economic damages as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	900755	All disasters excluding earthquakes	Total economic damages as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	900756	All disasters excluding extreme temperature	Total economic damages as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899971	Drought	Total economic damages as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899969	Dry mass movement	Total economic damages as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899972	Earthquake	Total economic damages as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899973	Extreme temperature	Total economic damages as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899975	Extreme weather	Total economic damages as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899977	Flood	Total economic damages as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899974	Glacial lake outburst flood	Total economic damages as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899976	Volcanic activity	Total economic damages as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899978	Wet mass movement	Total economic damages as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899979	Wildfire	Total economic damages as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899876	All disasters	Insured damages as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	900739	All disasters excluding earthquakes	Insured damages as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	900740	All disasters excluding extreme temperature	Insured damages as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899877	Drought	Insured damages as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899875	Dry mass movement	Insured damages as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899878	Earthquake	Insured damages as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899879	Extreme temperature	Insured damages as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899880	Extreme weather	Insured damages as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899883	Flood	Insured damages as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899881	Glacial lake outburst flood	Insured damages as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899882	Volcanic activity	Insured damages as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899885	Wet mass movement	Insured damages as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
-	899884	Wildfire	Insured damages as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto
+	yVariableIds	Disaster Type Dropdown	Impact Dropdown	Timespan Radio	Per capita Checkbox	type	note	title	missingDataStrategy	hasMapTab
+	899768 899769 899771 899770 899772 899773 899774 899775 899776 899777 899778	All disasters (by type)	Deaths	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.	Decadal average: Annual number of deaths from natural disasters	show	false
+	899576 899577 899578 899579 899580 899581 899582 899583 899584 899585 899586	All disasters (by type)	Affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.	Decadal average: Annual number of people requiring immediate assistance from natural disasters	show	false
+	899601 899600 899602 899603 899604 899605 899606 899607 899609 899608 899610	All disasters (by type)	Homeless	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.	Decadal average: Annual number of people left homeless from natural disasters	show	false
+	899624 899628 899625 899627 899629 899626 899632 899633 899630 899631 899636	All disasters (by type)	Injured	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.	Decadal average: Annual number of people injured from natural disasters	show	false
+	899721 899720 899723 899722 899725 899726 899724 899728 899727 899729 899732	All disasters (by type)	Total affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.	Decadal average: Annual number of people affected from natural disasters	show	false
+	899780 899781 899782 899783 899784 899785 899786 899787 899788 899789 899790	All disasters (by type)	Deaths	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.	Decadal average: Annual rate of deaths from natural disasters	show	false
+	899588 899589 899590 899591 899592 899593 899595 899594 899596 899597 899598	All disasters (by type)	Affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.	Decadal average: Annual rate of people requiring immediate assistance from natural disasters	show	false
+	899612 899613 899616 899614 899618 899615 899619 899617 899621 899622 899620	All disasters (by type)	Homeless	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.	Decadal average: Annual rate of people left homeless from natural disasters	show	false
+	899635 899637 899638 899639 899640 899642 899641 899643 899644 899646 899645	All disasters (by type)	Injured	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.	Decadal average: Annual rate of people injured from natural disasters	show	false
+	899735 899731 899734 899733 899737 899736 899738 899739 899742 899741 899740	All disasters (by type)	Total affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.	Decadal average: Annual rate of people affected from natural disasters	show	false
+	899767	All disasters	Deaths	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	900721	All disasters excluding earthquakes	Deaths	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	900722	All disasters excluding extreme temperature	Deaths	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899768	Drought	Deaths	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899769	Dry mass movement	Deaths	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899771	Earthquake	Deaths	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899770	Extreme temperature	Deaths	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899772	Extreme weather	Deaths	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899773	Flood	Deaths	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899774	Fog	Deaths	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899775	Glacial lake outburst flood	Deaths	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899776	Volcanic activity	Deaths	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899777	Wet mass movement	Deaths	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899778	Wildfire	Deaths	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899575	All disasters	Affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	900689	All disasters excluding earthquakes	Affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	900690	All disasters excluding extreme temperature	Affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899576	Drought	Affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899577	Dry mass movement	Affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899578	Earthquake	Affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899579	Extreme temperature	Affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899580	Extreme weather	Affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899581	Flood	Affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899582	Fog	Affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899583	Glacial lake outburst flood	Affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899584	Volcanic activity	Affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899585	Wet mass movement	Affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899586	Wildfire	Affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899599	All disasters	Homeless	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	900693	All disasters excluding earthquakes	Homeless	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	900694	All disasters excluding extreme temperature	Homeless	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899601	Drought	Homeless	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899600	Dry mass movement	Homeless	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899602	Earthquake	Homeless	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899603	Extreme temperature	Homeless	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899604	Extreme weather	Homeless	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899605	Flood	Homeless	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899606	Fog	Homeless	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899607	Glacial lake outburst flood	Homeless	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899609	Volcanic activity	Homeless	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899608	Wet mass movement	Homeless	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899610	Wildfire	Homeless	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899623	All disasters	Injured	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	900698	All disasters excluding earthquakes	Injured	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	900697	All disasters excluding extreme temperature	Injured	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899624	Drought	Injured	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899628	Dry mass movement	Injured	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899625	Earthquake	Injured	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899627	Extreme temperature	Injured	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899629	Extreme weather	Injured	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899626	Flood	Injured	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899632	Fog	Injured	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899633	Glacial lake outburst flood	Injured	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899630	Volcanic activity	Injured	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899631	Wet mass movement	Injured	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899636	Wildfire	Injured	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899719	All disasters	Total affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	900713	All disasters excluding earthquakes	Total affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	900714	All disasters excluding extreme temperature	Total affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899721	Drought	Total affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899720	Dry mass movement	Total affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899723	Earthquake	Total affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899722	Extreme temperature	Total affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899725	Extreme weather	Total affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899726	Flood	Total affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899724	Fog	Total affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899728	Glacial lake outburst flood	Total affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899727	Volcanic activity	Total affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899729	Wet mass movement	Total affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899732	Wildfire	Total affected	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899779	All disasters	Deaths	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	900723	All disasters excluding earthquakes	Deaths	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	900724	All disasters excluding extreme temperature	Deaths	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899780	Drought	Deaths	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899781	Dry mass movement	Deaths	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899782	Earthquake	Deaths	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899783	Extreme temperature	Deaths	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899784	Extreme weather	Deaths	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899785	Flood	Deaths	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899786	Fog	Deaths	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899787	Glacial lake outburst flood	Deaths	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899788	Volcanic activity	Deaths	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899789	Wet mass movement	Deaths	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899790	Wildfire	Deaths	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899587	All disasters	Affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	900691	All disasters excluding earthquakes	Affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	900692	All disasters excluding extreme temperature	Affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899588	Drought	Affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899589	Dry mass movement	Affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899590	Earthquake	Affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899591	Extreme temperature	Affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899592	Extreme weather	Affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899593	Flood	Affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899595	Fog	Affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899594	Glacial lake outburst flood	Affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899596	Volcanic activity	Affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899597	Wet mass movement	Affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899598	Wildfire	Affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899611	All disasters	Homeless	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	900695	All disasters excluding earthquakes	Homeless	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	900696	All disasters excluding extreme temperature	Homeless	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899612	Drought	Homeless	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899613	Dry mass movement	Homeless	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899616	Earthquake	Homeless	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899614	Extreme temperature	Homeless	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899618	Extreme weather	Homeless	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899615	Flood	Homeless	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899619	Fog	Homeless	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899617	Glacial lake outburst flood	Homeless	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899621	Volcanic activity	Homeless	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899622	Wet mass movement	Homeless	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899620	Wildfire	Homeless	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899634	All disasters	Injured	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	900700	All disasters excluding earthquakes	Injured	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	900699	All disasters excluding extreme temperature	Injured	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899635	Drought	Injured	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899637	Dry mass movement	Injured	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899638	Earthquake	Injured	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899639	Extreme temperature	Injured	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899640	Extreme weather	Injured	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899642	Flood	Injured	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899641	Fog	Injured	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899643	Glacial lake outburst flood	Injured	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899644	Volcanic activity	Injured	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899646	Wet mass movement	Injured	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899645	Wildfire	Injured	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899730	All disasters	Total affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	900715	All disasters excluding earthquakes	Total affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	900716	All disasters excluding extreme temperature	Total affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899735	Drought	Total affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899731	Dry mass movement	Total affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899734	Earthquake	Total affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899733	Extreme temperature	Total affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899737	Extreme weather	Total affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899736	Flood	Total affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899738	Fog	Total affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899739	Glacial lake outburst flood	Total affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899742	Volcanic activity	Total affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899741	Wet mass movement	Total affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899740	Wildfire	Total affected	Decadal average	true	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899706	All disasters	Reconstruction costs as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	900711	All disasters excluding earthquakes	Reconstruction costs as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	900712	All disasters excluding extreme temperature	Reconstruction costs as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899710	Drought	Reconstruction costs as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899709	Dry mass movement	Reconstruction costs as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899708	Earthquake	Reconstruction costs as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899711	Extreme temperature	Reconstruction costs as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899712	Extreme weather	Reconstruction costs as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899713	Flood	Reconstruction costs as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899715	Fog	Reconstruction costs as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899714	Glacial lake outburst flood	Reconstruction costs as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899717	Volcanic activity	Reconstruction costs as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899716	Wet mass movement	Reconstruction costs as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899718	Wildfire	Reconstruction costs as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899755	All disasters	Total economic damages as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	900720	All disasters excluding earthquakes	Total economic damages as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	900719	All disasters excluding extreme temperature	Total economic damages as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899756	Drought	Total economic damages as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899757	Dry mass movement	Total economic damages as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899758	Earthquake	Total economic damages as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899759	Extreme temperature	Total economic damages as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899760	Extreme weather	Total economic damages as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899761	Flood	Total economic damages as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899762	Fog	Total economic damages as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899763	Glacial lake outburst flood	Total economic damages as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899764	Volcanic activity	Total economic damages as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899765	Wet mass movement	Total economic damages as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899766	Wildfire	Total economic damages as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899658	All disasters	Insured damages as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	900704	All disasters excluding earthquakes	Insured damages as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	900703	All disasters excluding extreme temperature	Insured damages as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899660	Drought	Insured damages as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899663	Dry mass movement	Insured damages as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899661	Earthquake	Insured damages as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899662	Extreme temperature	Insured damages as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899665	Extreme weather	Insured damages as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899664	Flood	Insured damages as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899667	Fog	Insured damages as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899668	Glacial lake outburst flood	Insured damages as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899666	Volcanic activity	Insured damages as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899673	Wet mass movement	Insured damages as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899675	Wildfire	Insured damages as a share of GDP	Decadal average	false	StackedBar	Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. Disasters are recorded until April 2024.		auto	true
+	899982 899980 899983 899984 899987 899988 899985 899986 899989 899991 899990	All disasters (by type)	Deaths	Annual	false	StackedBar	Disasters are recorded until April 2024.	Annual number of deaths from natural disasters	show	false
+	899792 899791 899794 899795 899798 899800 899797 899796 899799 899801 899802	All disasters (by type)	Affected	Annual	false	StackedBar	Disasters are recorded until April 2024.	Annual number of people requiring immediate assistance from natural disasters	show	false
+	899816 899815 899818 899819 899822 899824 899820 899821 899823 899825 899826	All disasters (by type)	Homeless	Annual	false	StackedBar	Disasters are recorded until April 2024.	Annual number of people left homeless from natural disasters	show	false
+	899841 899839 899842 899843 899846 899848 899844 899845 899847 899849 899850	All disasters (by type)	Injured	Annual	false	StackedBar	Disasters are recorded until April 2024.	Annual number of people injured from natural disasters	show	false
+	899935 899933 899936 899937 899940 899941 899938 899939 899942 899944 899943	All disasters (by type)	Total affected	Annual	false	StackedBar	Disasters are recorded until April 2024.	Annual number of people affected from natural disasters	show	false
+	899993 899992 899995 899996 899999 900000 899997 899998 900001 900002 900003	All disasters (by type)	Deaths	Annual	true	StackedBar	Disasters are recorded until April 2024.	Annual rate of deaths from natural disasters	show	false
+	899804 899803 899806 899807 899810 899812 899808 899809 899811 899813 899814	All disasters (by type)	Affected	Annual	true	StackedBar	Disasters are recorded until April 2024.	Annual rate of people requiring immediate assistance from natural disasters	show	false
+	899828 899827 899829 899831 899834 899836 899832 899833 899835 899837 899838	All disasters (by type)	Homeless	Annual	true	StackedBar	Disasters are recorded until April 2024.	Annual rate of people left homeless from natural disasters	show	false
+	899852 899851 899853 899855 899858 899860 899857 899856 899859 899861 899862	All disasters (by type)	Injured	Annual	true	StackedBar	Disasters are recorded until April 2024.	Annual rate of people injured from natural disasters	show	false
+	899946 899945 899949 899948 899952 899954 899950 899951 899953 899955 899956	All disasters (by type)	Total affected	Annual	true	StackedBar	Disasters are recorded until April 2024.	Annual rate of people affected from natural disasters	show	false
+	899981	All disasters	Deaths	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	900757	All disasters excluding earthquakes	Deaths	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	900758	All disasters excluding extreme temperature	Deaths	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899982	Drought	Deaths	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899980	Dry mass movement	Deaths	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899983	Earthquake	Deaths	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899984	Extreme temperature	Deaths	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899987	Extreme weather	Deaths	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899988	Flood	Deaths	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899985	Fog	Deaths	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899986	Glacial lake outburst flood	Deaths	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899989	Volcanic activity	Deaths	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899991	Wet mass movement	Deaths	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899990	Wildfire	Deaths	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899793	All disasters	Affected	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	900725	All disasters excluding earthquakes	Affected	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	900726	All disasters excluding extreme temperature	Affected	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899792	Drought	Affected	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899791	Dry mass movement	Affected	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899794	Earthquake	Affected	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899795	Extreme temperature	Affected	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899798	Extreme weather	Affected	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899800	Flood	Affected	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899797	Fog	Affected	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899796	Glacial lake outburst flood	Affected	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899799	Volcanic activity	Affected	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899801	Wet mass movement	Affected	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899802	Wildfire	Affected	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899817	All disasters	Homeless	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	900729	All disasters excluding earthquakes	Homeless	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	900730	All disasters excluding extreme temperature	Homeless	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899816	Drought	Homeless	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899815	Dry mass movement	Homeless	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899818	Earthquake	Homeless	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899819	Extreme temperature	Homeless	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899822	Extreme weather	Homeless	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899824	Flood	Homeless	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899820	Fog	Homeless	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899821	Glacial lake outburst flood	Homeless	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899823	Volcanic activity	Homeless	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899825	Wet mass movement	Homeless	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899826	Wildfire	Homeless	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899840	All disasters	Injured	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	900733	All disasters excluding earthquakes	Injured	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	900734	All disasters excluding extreme temperature	Injured	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899841	Drought	Injured	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899839	Dry mass movement	Injured	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899842	Earthquake	Injured	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899843	Extreme temperature	Injured	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899846	Extreme weather	Injured	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899848	Flood	Injured	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899844	Fog	Injured	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899845	Glacial lake outburst flood	Injured	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899847	Volcanic activity	Injured	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899849	Wet mass movement	Injured	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899850	Wildfire	Injured	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899934	All disasters	Total affected	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	900749	All disasters excluding earthquakes	Total affected	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	900750	All disasters excluding extreme temperature	Total affected	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899935	Drought	Total affected	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899933	Dry mass movement	Total affected	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899936	Earthquake	Total affected	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899937	Extreme temperature	Total affected	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899940	Extreme weather	Total affected	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899941	Flood	Total affected	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899938	Fog	Total affected	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899939	Glacial lake outburst flood	Total affected	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899942	Volcanic activity	Total affected	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899944	Wet mass movement	Total affected	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899943	Wildfire	Total affected	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899994	All disasters	Deaths	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	900759	All disasters excluding earthquakes	Deaths	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	900760	All disasters excluding extreme temperature	Deaths	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899993	Drought	Deaths	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899992	Dry mass movement	Deaths	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899995	Earthquake	Deaths	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899996	Extreme temperature	Deaths	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899999	Extreme weather	Deaths	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	900000	Flood	Deaths	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899997	Fog	Deaths	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899998	Glacial lake outburst flood	Deaths	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	900001	Volcanic activity	Deaths	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	900002	Wet mass movement	Deaths	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	900003	Wildfire	Deaths	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899805	All disasters	Affected	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	900727	All disasters excluding earthquakes	Affected	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	900728	All disasters excluding extreme temperature	Affected	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899804	Drought	Affected	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899803	Dry mass movement	Affected	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899806	Earthquake	Affected	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899807	Extreme temperature	Affected	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899810	Extreme weather	Affected	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899812	Flood	Affected	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899808	Fog	Affected	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899809	Glacial lake outburst flood	Affected	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899811	Volcanic activity	Affected	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899813	Wet mass movement	Affected	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899814	Wildfire	Affected	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899830	All disasters	Homeless	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	900731	All disasters excluding earthquakes	Homeless	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	900732	All disasters excluding extreme temperature	Homeless	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899828	Drought	Homeless	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899827	Dry mass movement	Homeless	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899829	Earthquake	Homeless	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899831	Extreme temperature	Homeless	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899834	Extreme weather	Homeless	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899836	Flood	Homeless	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899832	Fog	Homeless	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899833	Glacial lake outburst flood	Homeless	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899835	Volcanic activity	Homeless	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899837	Wet mass movement	Homeless	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899838	Wildfire	Homeless	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899854	All disasters	Injured	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	900735	All disasters excluding earthquakes	Injured	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	900736	All disasters excluding extreme temperature	Injured	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899852	Drought	Injured	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899851	Dry mass movement	Injured	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899853	Earthquake	Injured	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899855	Extreme temperature	Injured	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899858	Extreme weather	Injured	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899860	Flood	Injured	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899857	Fog	Injured	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899856	Glacial lake outburst flood	Injured	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899859	Volcanic activity	Injured	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899861	Wet mass movement	Injured	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899862	Wildfire	Injured	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899947	All disasters	Total affected	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	900751	All disasters excluding earthquakes	Total affected	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	900752	All disasters excluding extreme temperature	Total affected	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899946	Drought	Total affected	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899945	Dry mass movement	Total affected	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899949	Earthquake	Total affected	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899948	Extreme temperature	Total affected	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899952	Extreme weather	Total affected	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899954	Flood	Total affected	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899950	Fog	Total affected	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899951	Glacial lake outburst flood	Total affected	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899953	Volcanic activity	Total affected	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899955	Wet mass movement	Total affected	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899956	Wildfire	Total affected	Annual	true	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899923	All disasters	Reconstruction costs as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	900747	All disasters excluding earthquakes	Reconstruction costs as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	900748	All disasters excluding extreme temperature	Reconstruction costs as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899924	Drought	Reconstruction costs as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899922	Dry mass movement	Reconstruction costs as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899925	Earthquake	Reconstruction costs as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899926	Extreme temperature	Reconstruction costs as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899927	Extreme weather	Reconstruction costs as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899930	Flood	Reconstruction costs as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899928	Glacial lake outburst flood	Reconstruction costs as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899929	Volcanic activity	Reconstruction costs as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899932	Wet mass movement	Reconstruction costs as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899931	Wildfire	Reconstruction costs as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899970	All disasters	Total economic damages as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	900755	All disasters excluding earthquakes	Total economic damages as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	900756	All disasters excluding extreme temperature	Total economic damages as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899971	Drought	Total economic damages as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899969	Dry mass movement	Total economic damages as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899972	Earthquake	Total economic damages as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899973	Extreme temperature	Total economic damages as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899975	Extreme weather	Total economic damages as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899977	Flood	Total economic damages as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899974	Glacial lake outburst flood	Total economic damages as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899976	Volcanic activity	Total economic damages as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899978	Wet mass movement	Total economic damages as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899979	Wildfire	Total economic damages as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899876	All disasters	Insured damages as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	900739	All disasters excluding earthquakes	Insured damages as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	900740	All disasters excluding extreme temperature	Insured damages as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899877	Drought	Insured damages as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899875	Dry mass movement	Insured damages as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899878	Earthquake	Insured damages as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899879	Extreme temperature	Insured damages as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899880	Extreme weather	Insured damages as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899883	Flood	Insured damages as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899881	Glacial lake outburst flood	Insured damages as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899882	Volcanic activity	Insured damages as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899885	Wet mass movement	Insured damages as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true
+	899884	Wildfire	Insured damages as a share of GDP	Annual	false	StackedBar	Disasters are recorded until April 2024.		auto	true

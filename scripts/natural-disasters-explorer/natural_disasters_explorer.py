@@ -125,6 +125,7 @@ for impact in HUMAN_IMPACTS:
             "title": f"Decadal average: Annual number of {IMPACT_MAPPING[impact]} from natural disasters",
             # For this view with multiple (sparse) variables, we need to always show the data, even when there are nans.
             "missingDataStrategy": "show",
+            "hasMapTab": "false",
         }
     )
 # Add a row with all variables showing a specific impact per 100,000 people.
@@ -143,6 +144,7 @@ for impact in HUMAN_IMPACTS:
             "title": f"Decadal average: Annual rate of {IMPACT_MAPPING[impact]} from natural disasters",
             # For this view with multiple (sparse) variables, we need to always show the data, even when there are nans.
             "missingDataStrategy": "show",
+            "hasMapTab": "false",
         }
     )
 # Add a row for each disaster type and human impact.
@@ -161,6 +163,7 @@ for impact in HUMAN_IMPACTS:
                 "type": "StackedBar",
                 "note": DECADAL_AVERAGE_NOTE,
                 "missingDataStrategy": "auto",
+                "hasMapTab": "true",
             }
         )
 # Add a row for each disaster type and human impact per 100,000 people.
@@ -179,6 +182,7 @@ for impact in HUMAN_IMPACTS:
                 "type": "StackedBar",
                 "note": DECADAL_AVERAGE_NOTE,
                 "missingDataStrategy": "auto",
+                "hasMapTab": "true",
             }
         )
 # Add a row for each individual disaster type and economic impact per GDP.
@@ -197,6 +201,7 @@ for impact in ECONOMIC_IMPACTS:
                 "type": "StackedBar",
                 "note": DECADAL_AVERAGE_NOTE,
                 "missingDataStrategy": "auto",
+                "hasMapTab": "true",
             }
         )
 
@@ -217,6 +222,7 @@ for impact in HUMAN_IMPACTS:
             "title": f"Annual number of {IMPACT_MAPPING[impact]} from natural disasters",
             # For this view with multiple (sparse) variables, we need to always show the data, even when there are nans.
             "missingDataStrategy": "show",
+            "hasMapTab": "false",
         }
     )
 # Add a row with all variables showing a specific impact per 100,000 people.
@@ -235,6 +241,7 @@ for impact in HUMAN_IMPACTS:
             "title": f"Annual rate of {IMPACT_MAPPING[impact]} from natural disasters",
             # For this view with multiple (sparse) variables, we need to always show the data, even when there are nans.
             "missingDataStrategy": "show",
+            "hasMapTab": "false",
         }
     )
 # Add a row for each disaster type and human impact.
@@ -253,6 +260,7 @@ for impact in HUMAN_IMPACTS:
                 "type": "StackedBar",
                 "note": COMMON_NOTE,
                 "missingDataStrategy": "auto",
+                "hasMapTab": "true",
             }
         )
 # Add a row for each disaster type and human impact per 100,000 people.
@@ -271,6 +279,7 @@ for impact in HUMAN_IMPACTS:
                 "type": "StackedBar",
                 "note": COMMON_NOTE,
                 "missingDataStrategy": "auto",
+                "hasMapTab": "true",
             }
         )
 # Add a row for each individual disaster type and economic impact per GDP.
@@ -289,6 +298,7 @@ for impact in ECONOMIC_IMPACTS:
                     "type": "StackedBar",
                     "note": COMMON_NOTE,
                     "missingDataStrategy": "auto",
+                    "hasMapTab": "true",
                 }
             )
         else:
