@@ -1,16 +1,15 @@
 """This script creates the tsv file for the natural disasters explorer, which is an indicator-based explorer.
 
-NOTE: 
+NOTE:
 * This script is quite messy, but it probably doesn't need to be used often (or ever again).
 * This script needs to be executed using the ETL virtual environment.
 
 """
 
-import MySQLdb
 import os
-
 from pathlib import Path
 
+import MySQLdb
 import pandas as pd
 from dotenv import load_dotenv
 
@@ -21,10 +20,10 @@ VERSION = "2024-04-11"
 LAST_DISASTERS_DATE = "April 2024"
 
 ########################################################################################################################
-# TODO: Currently, we can't set the missing data strategy in an indicator-based explorer. This causes stacked bar charts that use multiple variables to miss many data points (because the data is so sparse).
-# For now, create a TEST explorer. Once this is fixed, replace the current explorer.
+# TODO: Currently, default map brackets are bad, so they'd need to be properly set for all ~300 map chart views.
+# For now, create a temporary explorer. Once this is fixed, replace the current explorer.
 # OUTPUT_FILE = Path(__file__).parent.parent.parent / "explorers/natural-disasters.explorer.tsv"
-OUTPUT_FILE = Path(__file__).parent.parent.parent / "explorers/natural-disasters-TEST.explorer.tsv"
+OUTPUT_FILE = Path(__file__).parent.parent.parent / "explorers/natural-disasters-temp.explorer.tsv"
 ########################################################################################################################
 assert OUTPUT_FILE.parent.exists()
 
@@ -38,24 +37,24 @@ load_dotenv(ETL_FOLDER / ".env.live")
 
 # List "combined disaster types" (as they were defined in the garden/grapher steps).
 DISASTER_COMBINATION_TYPES = [
-    'All disasters',
-    'All disasters excluding earthquakes',
-    'All disasters excluding extreme temperature',
+    "All disasters",
+    "All disasters excluding earthquakes",
+    "All disasters excluding extreme temperature",
 ]
 # List individual disaster types (as they were defined in the garden/grapher steps).
 DISASTER_TYPES = [
-    'Drought',
-    'Dry mass movement',
-    'Earthquake',
-    'Extreme temperature',
-    'Extreme weather',
-    'Flood',
-    'Fog',
-    'Glacial lake outburst flood',
-    'Volcanic activity',
-    'Wet mass movement',
-    'Wildfire',
-    ]
+    "Drought",
+    "Dry mass movement",
+    "Earthquake",
+    "Extreme temperature",
+    "Extreme weather",
+    "Flood",
+    "Fog",
+    "Glacial lake outburst flood",
+    "Volcanic activity",
+    "Wet mass movement",
+    "Wildfire",
+]
 # List human and economic impacts (as they were defined in the garden/grapher steps).
 HUMAN_IMPACTS = ["Deaths", "Affected", "Homeless", "Injured", "Total affected"]
 ECONOMIC_IMPACTS = [
@@ -78,18 +77,18 @@ IMPACT_MAPPING = {
 
 # Connect to grapher database.
 conn = MySQLdb.connect(
-        db=os.getenv("DB_NAME"),
-        host=os.getenv("DB_HOST"),
-        port=int(os.getenv("DB_PORT")),
-        user=os.getenv("DB_USER"),
-        password=os.getenv("DB_PASS"),
-        charset="utf8mb4",
-        autocommit=True,
-    )
+    db=os.getenv("DB_NAME"),  # type: ignore
+    host=os.getenv("DB_HOST"),  # type: ignore
+    port=int(os.getenv("DB_PORT")),  # type: ignore
+    user=os.getenv("DB_USER"),  # type: ignore
+    password=os.getenv("DB_PASS"),  # type: ignore
+    charset="utf8mb4",
+    autocommit=True,
+)
 
 # Download all natural disasters variables (for the relevant version).
 query = f"""
-SELECT * 
+SELECT *
 FROM variables
 WHERE catalogPath LIKE 'grapher/emdat/{VERSION}/natural_disasters/%'
 
@@ -97,7 +96,7 @@ WHERE catalogPath LIKE 'grapher/emdat/{VERSION}/natural_disasters/%'
 df = pd.read_sql(sql=query, con=conn)
 
 # Select relevant columns.
-df = df[['id', 'name', 'datasetId', 'shortName', 'catalogPath', 'titlePublic', 'titleVariant', 'descriptionShort']]
+df = df[["id", "name", "datasetId", "shortName", "catalogPath", "titlePublic", "titleVariant", "descriptionShort"]]
 
 # Select yearly variables.
 df_yearly = df[~df["name"].str.contains("decadal")].reset_index(drop=True)
@@ -110,76 +109,188 @@ data = []
 
 # Add rows of decadal data.
 
-########################################################################################################################
-# TODO: Uncomment once missing data strategy can be set to "Show entities with missing data".
-# # Add a row with all variables showing a specific impact.
-# for impact in HUMAN_IMPACTS:
-#     names = [f"{impact} - {disaster} (decadal)" for disaster in DISASTER_TYPES]
-#     selected = df_decadal[df_decadal["name"].isin(names)]
-#     data.append({"yVariableIds": " ".join(selected["id"].astype(str).tolist()), "Disaster Type Dropdown": "All disasters (by type)", "Impact Dropdown": impact, "Timespan Radio": "Decadal average", "Per capita Checkbox": "false", "type": "StackedBar", "note": DECADAL_AVERAGE_NOTE, "title": f"Decadal average: Annual number of {IMPACT_MAPPING[impact]} from natural disasters"})
-# # Add a row with all variables showing a specific impact per 100,000 people.
-# for impact in HUMAN_IMPACTS:
-#     names = [f"{impact} per 100,000 people - {disaster} (decadal)" for disaster in DISASTER_TYPES]
-#     selected = df_decadal[df_decadal["name"].isin(names)]
-#     data.append({"yVariableIds": " ".join(selected["id"].astype(str).tolist()), "Disaster Type Dropdown": "All disasters (by type)", "Impact Dropdown": impact, "Timespan Radio": "Decadal average", "Per capita Checkbox": "true", "type": "StackedBar", "note": DECADAL_AVERAGE_NOTE, "title": f"Decadal average: Annual rate of {IMPACT_MAPPING[impact]} from natural disasters"})
-########################################################################################################################
+# Add a row with all variables showing a specific impact.
+for impact in HUMAN_IMPACTS:
+    names = [f"{impact} - {disaster} (decadal)" for disaster in DISASTER_TYPES]
+    selected = df_decadal[df_decadal["name"].isin(names)]
+    data.append(
+        {
+            "yVariableIds": " ".join(selected["id"].astype(str).tolist()),
+            "Disaster Type Dropdown": "All disasters (by type)",
+            "Impact Dropdown": impact,
+            "Timespan Radio": "Decadal average",
+            "Per capita Checkbox": "false",
+            "type": "StackedBar",
+            "note": DECADAL_AVERAGE_NOTE,
+            "title": f"Decadal average: Annual number of {IMPACT_MAPPING[impact]} from natural disasters",
+            # For this view with multiple (sparse) variables, we need to always show the data, even when there are nans.
+            "missingDataStrategy": "show",
+        }
+    )
+# Add a row with all variables showing a specific impact per 100,000 people.
+for impact in HUMAN_IMPACTS:
+    names = [f"{impact} per 100,000 people - {disaster} (decadal)" for disaster in DISASTER_TYPES]
+    selected = df_decadal[df_decadal["name"].isin(names)]
+    data.append(
+        {
+            "yVariableIds": " ".join(selected["id"].astype(str).tolist()),
+            "Disaster Type Dropdown": "All disasters (by type)",
+            "Impact Dropdown": impact,
+            "Timespan Radio": "Decadal average",
+            "Per capita Checkbox": "true",
+            "type": "StackedBar",
+            "note": DECADAL_AVERAGE_NOTE,
+            "title": f"Decadal average: Annual rate of {IMPACT_MAPPING[impact]} from natural disasters",
+            # For this view with multiple (sparse) variables, we need to always show the data, even when there are nans.
+            "missingDataStrategy": "show",
+        }
+    )
 # Add a row for each disaster type and human impact.
 for impact in HUMAN_IMPACTS:
     for disaster in DISASTER_COMBINATION_TYPES + DISASTER_TYPES:
         name = f"{impact} - {disaster} (decadal)"
         selected = df_decadal[(df_decadal["name"] == name)]
         assert len(selected) == 1
-        data.append({"yVariableIds": selected["id"].item(), "Disaster Type Dropdown": disaster, "Impact Dropdown": impact, "Timespan Radio": "Decadal average", "Per capita Checkbox": "false", "type": "StackedBar", "note": DECADAL_AVERAGE_NOTE})
+        data.append(
+            {
+                "yVariableIds": selected["id"].item(),
+                "Disaster Type Dropdown": disaster,
+                "Impact Dropdown": impact,
+                "Timespan Radio": "Decadal average",
+                "Per capita Checkbox": "false",
+                "type": "StackedBar",
+                "note": DECADAL_AVERAGE_NOTE,
+                "missingDataStrategy": "auto",
+            }
+        )
 # Add a row for each disaster type and human impact per 100,000 people.
 for impact in HUMAN_IMPACTS:
     for disaster in DISASTER_COMBINATION_TYPES + DISASTER_TYPES:
         name = f"{impact} per 100,000 people - {disaster} (decadal)"
         selected = df_decadal[(df_decadal["name"] == name)]
         assert len(selected) == 1
-        data.append({"yVariableIds": selected["id"].item(), "Disaster Type Dropdown": disaster, "Impact Dropdown": impact, "Timespan Radio": "Decadal average", "Per capita Checkbox": "true", "type": "StackedBar", "note": DECADAL_AVERAGE_NOTE})
+        data.append(
+            {
+                "yVariableIds": selected["id"].item(),
+                "Disaster Type Dropdown": disaster,
+                "Impact Dropdown": impact,
+                "Timespan Radio": "Decadal average",
+                "Per capita Checkbox": "true",
+                "type": "StackedBar",
+                "note": DECADAL_AVERAGE_NOTE,
+                "missingDataStrategy": "auto",
+            }
+        )
 # Add a row for each individual disaster type and economic impact per GDP.
 for impact in ECONOMIC_IMPACTS:
     for disaster in DISASTER_COMBINATION_TYPES + DISASTER_TYPES:
         name = f"{impact} - {disaster} (decadal)"
         selected = df_decadal[(df_decadal["name"] == name)]
         assert len(selected) == 1
-        data.append({"yVariableIds": selected["id"].item(), "Disaster Type Dropdown": disaster, "Impact Dropdown": impact, "Timespan Radio": "Decadal average", "Per capita Checkbox": "false", "type": "StackedBar", "note": DECADAL_AVERAGE_NOTE})
+        data.append(
+            {
+                "yVariableIds": selected["id"].item(),
+                "Disaster Type Dropdown": disaster,
+                "Impact Dropdown": impact,
+                "Timespan Radio": "Decadal average",
+                "Per capita Checkbox": "false",
+                "type": "StackedBar",
+                "note": DECADAL_AVERAGE_NOTE,
+                "missingDataStrategy": "auto",
+            }
+        )
 
 # Add rows of yearly data.
-########################################################################################################################
-# TODO: Uncomment once missing data strategy can be set to "Show entities with missing data".
-# # Add a row with all variables showing a specific impact.
-# for impact in HUMAN_IMPACTS:
-#     names = [f"{impact} - {disaster}" for disaster in DISASTER_TYPES]
-#     selected = df_yearly[df_yearly["name"].isin(names)]
-#     data.append({"yVariableIds": " ".join(selected["id"].astype(str).tolist()), "Disaster Type Dropdown": "All disasters (by type)", "Impact Dropdown": impact, "Timespan Radio": "Annual", "Per capita Checkbox": "false", "type": "StackedBar", "note": COMMON_NOTE, "title": f"Annual number of {IMPACT_MAPPING[impact]} from natural disasters"})
-# # Add a row with all variables showing a specific impact per 100,000 people.
-# for impact in HUMAN_IMPACTS:
-#     names = [f"{impact} per 100,000 people - {disaster}" for disaster in DISASTER_TYPES]
-#     selected = df_yearly[df_yearly["name"].isin(names)]
-#     data.append({"yVariableIds": " ".join(selected["id"].astype(str).tolist()), "Disaster Type Dropdown": "All disasters (by type)", "Impact Dropdown": impact, "Timespan Radio": "Annual", "Per capita Checkbox": "true", "type": "StackedBar", "note": COMMON_NOTE, "title": f"Annual rate of {IMPACT_MAPPING[impact]} from natural disasters"})
-########################################################################################################################
+# Add a row with all variables showing a specific impact.
+for impact in HUMAN_IMPACTS:
+    names = [f"{impact} - {disaster}" for disaster in DISASTER_TYPES]
+    selected = df_yearly[df_yearly["name"].isin(names)]
+    data.append(
+        {
+            "yVariableIds": " ".join(selected["id"].astype(str).tolist()),
+            "Disaster Type Dropdown": "All disasters (by type)",
+            "Impact Dropdown": impact,
+            "Timespan Radio": "Annual",
+            "Per capita Checkbox": "false",
+            "type": "StackedBar",
+            "note": COMMON_NOTE,
+            "title": f"Annual number of {IMPACT_MAPPING[impact]} from natural disasters",
+            # For this view with multiple (sparse) variables, we need to always show the data, even when there are nans.
+            "missingDataStrategy": "show",
+        }
+    )
+# Add a row with all variables showing a specific impact per 100,000 people.
+for impact in HUMAN_IMPACTS:
+    names = [f"{impact} per 100,000 people - {disaster}" for disaster in DISASTER_TYPES]
+    selected = df_yearly[df_yearly["name"].isin(names)]
+    data.append(
+        {
+            "yVariableIds": " ".join(selected["id"].astype(str).tolist()),
+            "Disaster Type Dropdown": "All disasters (by type)",
+            "Impact Dropdown": impact,
+            "Timespan Radio": "Annual",
+            "Per capita Checkbox": "true",
+            "type": "StackedBar",
+            "note": COMMON_NOTE,
+            "title": f"Annual rate of {IMPACT_MAPPING[impact]} from natural disasters",
+            # For this view with multiple (sparse) variables, we need to always show the data, even when there are nans.
+            "missingDataStrategy": "show",
+        }
+    )
 # Add a row for each disaster type and human impact.
 for impact in HUMAN_IMPACTS:
     for disaster in DISASTER_COMBINATION_TYPES + DISASTER_TYPES:
         name = f"{impact} - {disaster}"
         selected = df_yearly[(df_yearly["name"] == name)]
         assert len(selected) == 1
-        data.append({"yVariableIds": selected["id"].item(), "Disaster Type Dropdown": disaster, "Impact Dropdown": impact, "Timespan Radio": "Annual", "Per capita Checkbox": "false", "type": "StackedBar", "note": COMMON_NOTE})
+        data.append(
+            {
+                "yVariableIds": selected["id"].item(),
+                "Disaster Type Dropdown": disaster,
+                "Impact Dropdown": impact,
+                "Timespan Radio": "Annual",
+                "Per capita Checkbox": "false",
+                "type": "StackedBar",
+                "note": COMMON_NOTE,
+                "missingDataStrategy": "auto",
+            }
+        )
 # Add a row for each disaster type and human impact per 100,000 people.
 for impact in HUMAN_IMPACTS:
     for disaster in DISASTER_COMBINATION_TYPES + DISASTER_TYPES:
         name = f"{impact} per 100,000 people - {disaster}"
         selected = df_yearly[(df_yearly["name"] == name)]
         assert len(selected) == 1
-        data.append({"yVariableIds": selected["id"].item(), "Disaster Type Dropdown": disaster, "Impact Dropdown": impact, "Timespan Radio": "Annual", "Per capita Checkbox": "true", "type": "StackedBar", "note": COMMON_NOTE})
+        data.append(
+            {
+                "yVariableIds": selected["id"].item(),
+                "Disaster Type Dropdown": disaster,
+                "Impact Dropdown": impact,
+                "Timespan Radio": "Annual",
+                "Per capita Checkbox": "true",
+                "type": "StackedBar",
+                "note": COMMON_NOTE,
+                "missingDataStrategy": "auto",
+            }
+        )
 # Add a row for each individual disaster type and economic impact per GDP.
 for impact in ECONOMIC_IMPACTS:
     for disaster in DISASTER_COMBINATION_TYPES + DISASTER_TYPES:
         name = f"{impact} - {disaster}"
         selected = df_yearly[(df_yearly["name"] == name)]
         if len(selected) == 1:
-            data.append({"yVariableIds": selected["id"].item(), "Disaster Type Dropdown": disaster, "Impact Dropdown": impact, "Timespan Radio": "Annual", "Per capita Checkbox": "false", "type": "StackedBar", "note": COMMON_NOTE})
+            data.append(
+                {
+                    "yVariableIds": selected["id"].item(),
+                    "Disaster Type Dropdown": disaster,
+                    "Impact Dropdown": impact,
+                    "Timespan Radio": "Annual",
+                    "Per capita Checkbox": "false",
+                    "type": "StackedBar",
+                    "note": COMMON_NOTE,
+                    "missingDataStrategy": "auto",
+                }
+            )
         else:
             print(f"Not found: {name}")
 
