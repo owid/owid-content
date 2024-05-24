@@ -112,7 +112,7 @@ data = []
 
 # Add rows of decadal data.
 
-# Add a row with all variables showing a specific impact.
+# Add a row with all variables showing a specific human impact.
 for impact in HUMAN_IMPACTS:
     if impact == "Disasters":
         title = "Decadal average: Annual number of natural disasters"
@@ -130,6 +130,25 @@ for impact in HUMAN_IMPACTS:
             "type": "StackedBar",
             "note": DECADAL_AVERAGE_NOTE,
             "title": title,
+            # For this view with multiple (sparse) variables, we need to always show the data, even when there are nans.
+            "missingDataStrategy": "show",
+            "hasMapTab": "false",
+        }
+    )
+# Add a row with all variables showing a specific economic impact.
+for impact in ECONOMIC_IMPACTS:
+    names = [f"{impact} - {disaster} (decadal)" for disaster in DISASTER_TYPES]
+    selected = df_decadal[df_decadal["name"].isin(names)]
+    data.append(
+        {
+            "yVariableIds": " ".join(selected["id"].astype(str).tolist()),
+            "Disaster Type Dropdown": "All disasters (by type)",
+            "Impact Dropdown": impact,
+            "Timespan Radio": "Decadal average",
+            "Per capita Checkbox": "false",
+            "type": "StackedBar",
+            "note": DECADAL_AVERAGE_NOTE,
+            "title": f"Decadal average: {impact} from natural disasters",
             # For this view with multiple (sparse) variables, we need to always show the data, even when there are nans.
             "missingDataStrategy": "show",
             "hasMapTab": "false",
@@ -236,6 +255,25 @@ for impact in HUMAN_IMPACTS:
             "type": "StackedBar",
             "note": COMMON_NOTE,
             "title": title,
+            # For this view with multiple (sparse) variables, we need to always show the data, even when there are nans.
+            "missingDataStrategy": "show",
+            "hasMapTab": "false",
+        }
+    )
+# Add a row with all variables showing a specific economic impact.
+for impact in ECONOMIC_IMPACTS:
+    names = [f"{impact} - {disaster}" for disaster in DISASTER_TYPES]
+    selected = df_yearly[df_yearly["name"].isin(names)]
+    data.append(
+        {
+            "yVariableIds": " ".join(selected["id"].astype(str).tolist()),
+            "Disaster Type Dropdown": "All disasters (by type)",
+            "Impact Dropdown": impact,
+            "Timespan Radio": "Annual",
+            "Per capita Checkbox": "false",
+            "type": "StackedBar",
+            "note": COMMON_NOTE,
+            "title": f"{impact} from natural disasters",
             # For this view with multiple (sparse) variables, we need to always show the data, even when there are nans.
             "missingDataStrategy": "show",
             "hasMapTab": "false",
