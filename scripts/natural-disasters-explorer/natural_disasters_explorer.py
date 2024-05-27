@@ -65,7 +65,7 @@ ECONOMIC_IMPACTS = [
     # "Insured damages as a share of GDP",
 ]
 # Common string to use in the footer of all views in the explorer.
-COMMON_NOTE = f"Data pre-2000 is incomplete; see [our article on missing data](https://ourworldindata.org/disaster-database-limitations). Disasters are recorded until {LAST_DISASTERS_DATE}."
+COMMON_NOTE = f"Data pre-2000 is incomplete, see [our article on missing data](https://ourworldindata.org/disaster-database-limitations). Disasters are recorded until {LAST_DISASTERS_DATE}."
 # String to use in the footer of all views in the explorer showing decadal averages.
 DECADAL_AVERAGE_NOTE = f"Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. {COMMON_NOTE}"
 # Mapping from the impact extracted from the variable title to the title of the view of disaster impacts by type of disaster.
