@@ -65,7 +65,7 @@ ECONOMIC_IMPACTS = [
     # "Insured damages as a share of GDP",
 ]
 # Common string to use in the footer of all views in the explorer.
-COMMON_NOTE = f"Disasters are recorded until {LAST_DISASTERS_DATE}."
+COMMON_NOTE = f"Data pre-2000 is incomplete, see [our article on missing data](https://ourworldindata.org/disaster-database-limitations). Disasters are recorded until {LAST_DISASTERS_DATE}."
 # String to use in the footer of all views in the explorer showing decadal averages.
 DECADAL_AVERAGE_NOTE = f"Values are annual numbers averaged over all years in the same decade. For example, values for 2000 show the 2000 to 2009 average. {COMMON_NOTE}"
 # Mapping from the impact extracted from the variable title to the title of the view of disaster impacts by type of disaster.
@@ -75,7 +75,7 @@ IMPACT_MAPPING = {
     "Homeless": "people left homeless",
     "Injured": "people injured",
     "Total affected": "people affected",
-    "Disasters": "events",
+    "Disasters": "reported events",
 }
 
 # Connect to grapher database.
@@ -115,7 +115,7 @@ data = []
 # Add a row with all variables showing a specific human impact.
 for impact in HUMAN_IMPACTS:
     if impact == "Disasters":
-        title = "Decadal average: Annual number of natural disasters"
+        title = "Decadal average: Annual number of reported natural disasters"
     else:
         title = f"Decadal average: Annual number of {IMPACT_MAPPING[impact]} from natural disasters"
     names = [f"{impact} - {disaster} (decadal)" for disaster in DISASTER_TYPES]
@@ -157,7 +157,7 @@ for impact in ECONOMIC_IMPACTS:
 # Add a row with all variables showing a specific impact per 100,000 people.
 for impact in HUMAN_IMPACTS:
     if impact == "Disasters":
-        title = "Decadal average: Annual rate of natural disasters"
+        title = "Decadal average: Annual rate of reported natural disasters"
     else:
         title = f"Decadal average: Annual rate of {IMPACT_MAPPING[impact]} from natural disasters"
     names = [f"{impact} per 100,000 people - {disaster} (decadal)" for disaster in DISASTER_TYPES]
@@ -183,6 +183,10 @@ for impact in HUMAN_IMPACTS:
         name = f"{impact} - {disaster} (decadal)"
         selected = df_decadal[(df_decadal["name"] == name)]
         assert len(selected) == 1
+        if (impact == "Disasters") & (disaster == "All disasters"):
+            title = "Decadal average: Annual number of reported natural disasters"
+        else:
+            title = selected["titlePublic"].item()
         data.append(
             {
                 "yVariableIds": selected["id"].item(),
@@ -192,6 +196,7 @@ for impact in HUMAN_IMPACTS:
                 "Per capita Checkbox": "false",
                 "type": "StackedBar",
                 "note": DECADAL_AVERAGE_NOTE,
+                "title": title,
                 "missingDataStrategy": "auto",
                 "hasMapTab": "true",
             }
@@ -202,6 +207,10 @@ for impact in HUMAN_IMPACTS:
         name = f"{impact} per 100,000 people - {disaster} (decadal)"
         selected = df_decadal[(df_decadal["name"] == name)]
         assert len(selected) == 1
+        if (impact == "Disasters") & (disaster == "All disasters"):
+            title = "Decadal average: Annual rate of reported natural disasters"
+        else:
+            title = selected["titlePublic"].item()
         data.append(
             {
                 "yVariableIds": selected["id"].item(),
@@ -211,6 +220,7 @@ for impact in HUMAN_IMPACTS:
                 "Per capita Checkbox": "true",
                 "type": "StackedBar",
                 "note": DECADAL_AVERAGE_NOTE,
+                "title": title,
                 "missingDataStrategy": "auto",
                 "hasMapTab": "true",
             }
@@ -239,7 +249,7 @@ for impact in ECONOMIC_IMPACTS:
 # Add a row with all variables showing a specific impact.
 for impact in HUMAN_IMPACTS:
     if impact == "Disasters":
-        title = "Annual number of natural disasters"
+        title = "Annual number of reported natural disasters"
     else:
         title = f"Annual number of {IMPACT_MAPPING[impact]} from natural disasters"
 
@@ -282,7 +292,7 @@ for impact in ECONOMIC_IMPACTS:
 # Add a row with all variables showing a specific impact per 100,000 people.
 for impact in HUMAN_IMPACTS:
     if impact == "Disasters":
-        title = "Annual rate of natural disasters"
+        title = "Annual rate of reported natural disasters"
     else:
         title = f"Annual rate of {IMPACT_MAPPING[impact]} from natural disasters"
     names = [f"{impact} per 100,000 people - {disaster}" for disaster in DISASTER_TYPES]
@@ -308,6 +318,10 @@ for impact in HUMAN_IMPACTS:
         name = f"{impact} - {disaster}"
         selected = df_yearly[(df_yearly["name"] == name)]
         assert len(selected) == 1
+        if (impact == "Disasters") & (disaster == "All disasters"):
+            title = "Annual number of reported natural disasters"
+        else:
+            title = selected["titlePublic"].item()
         data.append(
             {
                 "yVariableIds": selected["id"].item(),
@@ -317,6 +331,7 @@ for impact in HUMAN_IMPACTS:
                 "Per capita Checkbox": "false",
                 "type": "StackedBar",
                 "note": COMMON_NOTE,
+                "title": title,
                 "missingDataStrategy": "auto",
                 "hasMapTab": "true",
             }
@@ -327,6 +342,10 @@ for impact in HUMAN_IMPACTS:
         name = f"{impact} per 100,000 people - {disaster}"
         selected = df_yearly[(df_yearly["name"] == name)]
         assert len(selected) == 1
+        if (impact == "Disasters") & (disaster == "All disasters"):
+            title = "Annual rate of reported natural disasters"
+        else:
+            title = selected["titlePublic"].item()
         data.append(
             {
                 "yVariableIds": selected["id"].item(),
@@ -336,6 +355,7 @@ for impact in HUMAN_IMPACTS:
                 "Per capita Checkbox": "true",
                 "type": "StackedBar",
                 "note": COMMON_NOTE,
+                "title": title,
                 "missingDataStrategy": "auto",
                 "hasMapTab": "true",
             }
@@ -376,6 +396,7 @@ tab\tchart
 wpBlockId\t46066
 yAxisMin\t0
 hideAnnotationFieldsInTitle\ttrue
+minTime\t2000
 graphers
 """
 # Add column names to explorer.
