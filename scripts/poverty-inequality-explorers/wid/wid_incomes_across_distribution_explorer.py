@@ -103,13 +103,8 @@ new_line = NEW_LINE
 yAxisMin = Y_AXIS_MIN
 mapTargetTime = MAP_TARGET_TIME
 
-additional_description = new_line.join(
-    [
-        "The data is estimated from a combination of household surveys, tax records and national accounts data. This combination can provide a more accurate picture of the incomes of the richest, which tend to be captured poorly in household survey data alone.",
-        "These underlying data sources are not always available. For some countries, observations are extrapolated from data relating to other years, or are sometimes modeled based on data observed in other countries.",
-    ]
-)
-ppp_description = f"The data is measured in international-$ at {PPP_YEAR_WID} prices – this adjusts for inflation and for differences in the cost of living between countries."
+additional_description = ADDITIONAL_DESCRIPTION_WID
+ppp_description = PPP_DESCRIPTION_WID
 
 df_tables = pd.DataFrame()
 j = 0
