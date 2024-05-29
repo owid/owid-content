@@ -91,7 +91,7 @@ additional_description = ADDITIONAL_DESCRIPTION_PIP
 
 notes_title = NOTES_TITLE_PIP
 
-processing_description = PROCESSING_DESCRIPTION_PIP
+processing_description = PROCESSING_DESCRIPTION_PIP_PPP_COMPARISON
 ppp_description_2017 = PPP_DESCRIPTION_PIP_2017
 ppp_description_2011 = PPP_DESCRIPTION_PIP_2011
 
