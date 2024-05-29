@@ -84,7 +84,7 @@ additional_description = ADDITIONAL_DESCRIPTION_PIP
 
 notes_title = NOTES_TITLE_PIP
 
-processing_description = PROCESSING_DESCRIPTION_PIP_2017
+processing_description = PROCESSING_DESCRIPTION_PIP
 
 # Table generation
 df_tables = pd.DataFrame()

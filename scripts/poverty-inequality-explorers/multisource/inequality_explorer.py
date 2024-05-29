@@ -106,23 +106,12 @@ tolerance = TOLERANCE
 colorScaleEqualSizeBins = COLOR_SCALE_EQUAL_SIZEBINS
 new_line = NEW_LINE
 
-additional_description = new_line.join(
-    [
-        "For most countries in the PIP dataset, estimates relate to _either_ disposable income or consumption, for all available years. A number of countries, however, have a mix of income and consumption data points, with both data types sometimes available for particular years.",
-        "In most of our charts, we present the data with some data points dropped in order to present single series for each country. This allows us to make readable visualizations that combine multiple countries and metrics. In choosing which data points to drop, we try to strike a balance between maintaining comparability over time and showing as long a time series as possible. As such, the exact approach varies somewhat across countries.",
-        "If you would like to see the original data with _all_ available income and consumption data points shown separately, you can do so in our [Inequality - World Bank Data Explorer](https://ourworldindata.org/explorers/inequality-wb?country=ROU~CHN~BLR~PER&Indicator=Gini+coefficient&Household+survey+data+type=Show+data+from+both+income+and+consumption+surveys&Show+breaks+between+less+comparable+surveys=true). You can also download this data in our [complete dataset](https://github.com/owid/poverty-data#a-global-dataset-of-poverty-and-inequality-measures-prepared-by-our-world-in-data-from-the-world-banks-poverty-and-inequality-platform-pip-database) of the World Bank PIP data.",
-    ]
-)
+additional_description = ADDITIONAL_DESCRIPTION_PIP
 
-notes_title = "NOTES ON HOW WE PROCESSED THIS INDICATOR"
+notes_title = NOTES_TITLE_PIP
 
-processing_description = new_line.join(
-    [
-        "For a small number of country-year observations, the World Bank PIP data contains two estimates: one based on income data and one based on consumption data. In these cases we keep only the consumption estimate in order to obtain a single series for each country.",
-        "You can find the data with all available income and consumption data points, including these overlapping estimates, in our [complete dataset](https://github.com/owid/poverty-data#a-global-dataset-of-poverty-and-inequality-measures-prepared-by-our-world-in-data-from-the-world-banks-poverty-and-inequality-platform-pip-database) of the World Bank PIP data.",
-    ]
-)
-ppp_description = "The data is measured in international-$ at 2017 prices – this adjusts for inflation and for differences in the cost of living between countries."
+processing_description = PROCESSING_DESCRIPTION_PIP
+ppp_description = PPP_DESCRIPTION_PIP_2017
 
 # Table generation
 df_tables_pip = pd.DataFrame()
