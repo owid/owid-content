@@ -1,6 +1,17 @@
 # NOTE: Don't forget to update the consumption and income spells for PIP
 
 ####################################################################################################
+# GOOGLE SPREEADSHEETS
+####################################################################################################
+"""
+- Multi-source poverty and inequality explorers: https://docs.google.com/spreadsheets/d/1wcFsNZCEn_6SJ05BFkXKLUyvCrnigfR8eeemGKgAYsI/
+- PIP explorers: https://docs.google.com/spreadsheets/d/17KJ9YcvfdmO_7-Sv2Ij0vmzAQI6rXSIqHfJtgFHN-a8/
+- WID explorers: https://docs.google.com/spreadsheets/d/18T5IGnpyJwb8KL9USYvME6IaLEcYIo26ioHCpkDnwRQ/
+- LIS explorers: https://docs.google.com/spreadsheets/d/1UFdwB1iBpP2tEP6GtxCHvW1GGhjsFflh42FWR80rYIg/
+- PIP PPP comparison explorer: https://docs.google.com/spreadsheets/d/1mR0LPEGlY-wCp1q9lNTlDbVIG65JazKvHL16my9tH8Y/
+"""
+
+####################################################################################################
 # COMMON PARAMETERS BETWEEN SOURCES
 ####################################################################################################
 COLOR_SCALE_NUMERIC_MIN_VALUE = 0
