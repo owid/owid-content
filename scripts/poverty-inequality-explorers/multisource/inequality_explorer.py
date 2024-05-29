@@ -110,7 +110,7 @@ additional_description = ADDITIONAL_DESCRIPTION_PIP_COMPARISON
 
 notes_title = NOTES_TITLE_PIP
 
-processing_description = PROCESSING_DESCRIPTION_PIP
+processing_description = PROCESSING_DESCRIPTION_PIP_INEQUALITY
 ppp_description = PPP_DESCRIPTION_PIP_2017
 
 # Table generation
