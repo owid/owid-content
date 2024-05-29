@@ -84,6 +84,8 @@ PPP_DESCRIPTION_PIP_2011 = "The data is measured in international-$ at 2011 pric
 SOURCE_NAME_WID = "World Inequality Database (WID.world) (2024)"
 DATA_PUBLISHED_BY_WID = "World Inequality Database (WID), https://wid.world"
 SOURCE_LINK_WID = "https://wid.world"
+
+# NOTE: Also update the year here: https://docs.google.com/spreadsheets/d/1wcFsNZCEn_6SJ05BFkXKLUyvCrnigfR8eeemGKgAYsI/edit#gid=329774797
 PPP_YEAR_WID = 2023
 
 ADDITIONAL_DESCRIPTION_WID = NEW_LINE.join(
