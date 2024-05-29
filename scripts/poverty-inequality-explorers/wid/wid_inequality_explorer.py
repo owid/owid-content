@@ -100,6 +100,12 @@ for tab in range(len(tables)):
     j += 1
 
     for wel in range(len(welfare)):
+        # Define additional description depending on the welfare type
+        if wel == 0:
+            additional_description = ADDITIONAL_DESCRIPTION_WID_POST_TAX
+        else:
+            additional_description = ADDITIONAL_DESCRIPTION_WID
+
         # Gini coefficient
         df_tables.loc[j, "name"] = f"Gini coefficient {welfare['title'][wel]}"
         df_tables.loc[j, "slug"] = f"p0p100_gini_{welfare['slug'][wel]}"

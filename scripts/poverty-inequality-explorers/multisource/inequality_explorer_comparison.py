@@ -294,6 +294,12 @@ j = 0
 
 for tab in range(len(merged_tables)):
     for wel in range(len(wid_welfare)):
+        # Define additional description depending on the welfare type
+        if wel == 0:
+            additional_description = ADDITIONAL_DESCRIPTION_WID_POST_TAX
+        else:
+            additional_description = ADDITIONAL_DESCRIPTION_WID
+
         # Gini coefficient
         df_tables_wid.loc[j, "name"] = f"Gini coefficient (WID data)"
         df_tables_wid.loc[j, "slug"] = f"p0p100_gini_{wid_welfare['slug'][wel]}"

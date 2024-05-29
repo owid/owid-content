@@ -124,6 +124,12 @@ for tab in range(len(tables)):
 
     # Define original variables to not break income aggregations
     for wel in range(len(welfare)):
+        # Define additional description depending on the welfare type
+        if wel == 0:
+            additional_description = ADDITIONAL_DESCRIPTION_WID_POST_TAX
+        else:
+            additional_description = ADDITIONAL_DESCRIPTION_WID
+
         # Mean
         df_tables.loc[
             j, "name"

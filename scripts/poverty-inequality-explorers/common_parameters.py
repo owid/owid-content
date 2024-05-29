@@ -111,6 +111,14 @@ ADDITIONAL_DESCRIPTION_WID = NEW_LINE.join(
         "These underlying data sources are not always available. For some countries, observations are extrapolated from data relating to other years, or are sometimes modeled based on data observed in other countries. For more information on this methodology, see this related [technical note](https://wid.world/document/countries-with-regional-income-imputations-on-wid-world-world-inequality-lab-technical-note-2021-15/).",
     ]
 )
+
+POST_TAX_WID = "In the case of national post-tax income, when the data sources are not available, distributions are constructed by using the more widely available pre-tax distributions, combined with tax revenue and government expenditure aggregates. This method is described in more detail in this [technical note](https://wid.world/document/preliminary-estimates-of-global-posttax-income-distributions-world-inequality-lab-technical-note-2023-02/)."
+
+ADDITIONAL_DESCRIPTION_WID_POST_TAX = NEW_LINE.join(
+    [ADDITIONAL_DESCRIPTION_WID,
+        POST_TAX_WID]
+)
+
 PPP_DESCRIPTION_WID = f"The data is measured in international-$ at {PPP_YEAR_WID} prices – this adjusts for inflation and for differences in the cost of living between countries."
 
 ####################################################################################################
