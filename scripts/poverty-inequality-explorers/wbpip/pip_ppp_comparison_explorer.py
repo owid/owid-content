@@ -87,23 +87,13 @@ new_line = NEW_LINE
 yAxisMin = Y_AXIS_MIN
 mapTargetTime = MAP_TARGET_TIME
 
-additional_description = new_line.join(
-    [
-        "Non-market sources of income, including food grown by subsistence farmers for their own consumption, are taken into account.",
-    ]
-)
+additional_description = ADDITIONAL_DESCRIPTION_PIP
 
-notes_title = "NOTES ON HOW WE PROCESSED THIS INDICATOR"
+notes_title = NOTES_TITLE_PIP
 
-processing_description = new_line.join(
-    [
-        "For most countries in the PIP dataset, estimates relate to _either_ disposable income or consumption, for all available years. A number of countries, however, have a mix of income and consumption data points, with both data types sometimes available for particular years.",
-        "In most of our charts, we present the data with some data points dropped in order to present single series for each country. This allows us to make readable visualizations that combine multiple countries and metrics. In choosing which data points to drop, we try to strike a balance between maintaining comparability over time and showing as long a time series as possible. As such, the exact approach varies somewhat across countries.",
-        "If you would like to see the original data with _all_ available income and consumption data points shown separately, you can do so in our [Poverty Data Explorer](https://ourworldindata.org/explorers/poverty-explorer?Indicator=Share+in+poverty&Poverty+line=%2410+per+day&Household+survey+data+type=Show+data+from+both+income+and+consumption+surveys&Show+breaks+between+less+comparable+surveys=true&country=ROU~CHN~BLR~PER). You can also download this data in our [complete dataset](https://github.com/owid/poverty-data#a-global-dataset-of-poverty-and-inequality-measures-prepared-by-our-world-in-data-from-the-world-banks-poverty-and-inequality-platform-pip-database) of the World Bank PIP data.",
-    ]
-)
-ppp_description_2017 = "The data is measured in international-$ at 2017 prices – this adjusts for inflation and for differences in the cost of living between countries."
-ppp_description_2011 = "The data is measured in international-$ at 2011 prices – this adjusts for inflation and for differences in the cost of living between countries."
+processing_description = PROCESSING_DESCRIPTION_PIP_PPP_COMPARISON
+ppp_description_2017 = PPP_DESCRIPTION_PIP_2017
+ppp_description_2011 = PPP_DESCRIPTION_PIP_2011
 
 # Table generation
 df_tables = pd.DataFrame()

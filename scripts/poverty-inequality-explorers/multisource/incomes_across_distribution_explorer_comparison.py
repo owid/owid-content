@@ -205,23 +205,12 @@ colorScaleEqualSizeBins = COLOR_SCALE_EQUAL_SIZEBINS
 tableSlug = "poverty_inequality"
 new_line = NEW_LINE
 
-additional_description = new_line.join(
-    [
-        "Depending on the country and year, the data relates to income measured after taxes and benefits, or to consumption, per capita.",
-        "Non-market sources of income, including food grown by subsistence farmers for their own consumption, are taken into account.",
-    ]
-)
+additional_description = ADDITIONAL_DESCRIPTION_PIP_COMPARISON
 
-notes_title = "NOTES ON HOW WE PROCESSED THIS INDICATOR"
+notes_title = NOTES_TITLE_PIP
 
-processing_description = new_line.join(
-    [
-        "For most countries in the PIP dataset, estimates relate to _either_ disposable income or consumption, for all available years. A number of countries, however, have a mix of income and consumption data points, with both data types sometimes available for particular years.",
-        "In most of our charts, we present the data with some data points dropped in order to present single series for each country. This allows us to make readable visualizations that combine multiple countries and metrics. In choosing which data points to drop, we try to strike a balance between maintaining comparability over time and showing as long a time series as possible. As such, the exact approach varies somewhat across countries.",
-        "If you would like to see the original data with _all_ available income and consumption data points shown separately, you can do so in our [Incomes Across the Distribution - World Bank Data Explorer](https://ourworldindata.org/explorers/incomes-across-distribution-wb?Indicator=Decile+thresholds&Decile=9+%28richest%29&Household+survey+data+type=Show+data+from+both+income+and+consumption+surveys&Period=Day&Show+breaks+between+less+comparable+surveys=true&country=ROU~CHN~BLR~PER). You can also download this data in our [complete dataset](https://github.com/owid/poverty-data#a-global-dataset-of-poverty-and-inequality-measures-prepared-by-our-world-in-data-from-the-world-banks-poverty-and-inequality-platform-pip-database) of the World Bank PIP data.",
-    ]
-)
-ppp_description = "The data is measured in international-$ at 2017 prices – this adjusts for inflation and for differences in the cost of living between countries."
+processing_description = PROCESSING_DESCRIPTION_PIP_INCOMES_ACROSS_DISTRIBUTION
+ppp_description = PPP_DESCRIPTION_PIP_2017
 
 # Table generation
 df_tables_pip = pd.DataFrame()
@@ -476,13 +465,8 @@ tolerance = TOLERANCE
 colorScaleEqualSizeBins = COLOR_SCALE_EQUAL_SIZEBINS
 new_line = NEW_LINE
 
-additional_description = new_line.join(
-    [
-        "The data is estimated from a combination of household surveys, tax records and national accounts data. This combination can provide a more accurate picture of the incomes of the richest, which tend to be captured poorly in household survey data alone.",
-        "These underlying data sources are not always available. For some countries, observations are extrapolated from data relating to other years, or are sometimes modeled based on data observed in other countries.",
-    ]
-)
-ppp_description = "The data is measured in international-$ at 2022 prices – this adjusts for inflation and for differences in the cost of living between countries."
+additional_description = ADDITIONAL_DESCRIPTION_WID
+ppp_description = PPP_DESCRIPTION_WID
 
 df_tables_wid = pd.DataFrame()
 j = 0
@@ -503,7 +487,7 @@ for tab in range(len(merged_tables)):
                 additional_description,
             ]
         )
-        df_tables_wid.loc[j, "unit"] = "international-$ in 2022 prices"
+        df_tables_wid.loc[j, "unit"] = f"international-$ in {PPP_YEAR_WID} prices"
         df_tables_wid.loc[j, "shortUnit"] = "$"
         df_tables_wid.loc[j, "type"] = "Numeric"
         # df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare["scale_mean"][wel]
@@ -523,7 +507,7 @@ for tab in range(len(merged_tables)):
                 additional_description,
             ]
         )
-        df_tables_wid.loc[j, "unit"] = "international-$ in 2022 prices"
+        df_tables_wid.loc[j, "unit"] = f"international-$ in {PPP_YEAR_WID} prices"
         df_tables_wid.loc[j, "shortUnit"] = "$"
         df_tables_wid.loc[j, "type"] = "Numeric"
         # df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare["scale_median"][wel]
@@ -546,7 +530,7 @@ for tab in range(len(merged_tables)):
                     additional_description,
                 ]
             )
-            df_tables_wid.loc[j, "unit"] = "international-$ in 2022 prices"
+            df_tables_wid.loc[j, "unit"] = f"international-$ in {PPP_YEAR_WID} prices"
             df_tables_wid.loc[j, "shortUnit"] = "$"
             df_tables_wid.loc[j, "type"] = "Numeric"
             # df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_deciles9["scale_thr"][
@@ -571,7 +555,7 @@ for tab in range(len(merged_tables)):
                     additional_description,
                 ]
             )
-            df_tables_wid.loc[j, "unit"] = "international-$ in 2022 prices"
+            df_tables_wid.loc[j, "unit"] = f"international-$ in {PPP_YEAR_WID} prices"
             df_tables_wid.loc[j, "shortUnit"] = "$"
             df_tables_wid.loc[j, "type"] = "Numeric"
             # df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_deciles10["scale_avg"][
@@ -621,7 +605,7 @@ for tab in range(len(merged_tables)):
                     additional_description,
                 ]
             )
-            df_tables_wid.loc[j, "unit"] = "international-$ in 2022 prices"
+            df_tables_wid.loc[j, "unit"] = f"international-$ in {PPP_YEAR_WID} prices"
             df_tables_wid.loc[j, "shortUnit"] = "$"
             df_tables_wid.loc[j, "type"] = "Numeric"
             # df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare["scale_mean"][
@@ -648,7 +632,7 @@ for tab in range(len(merged_tables)):
                     additional_description,
                 ]
             )
-            df_tables_wid.loc[j, "unit"] = "international-$ in 2022 prices"
+            df_tables_wid.loc[j, "unit"] = f"international-$ in {PPP_YEAR_WID} prices"
             df_tables_wid.loc[j, "shortUnit"] = "$"
             df_tables_wid.loc[j, "type"] = "Numeric"
             # df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_welfare["scale_median"][
@@ -676,7 +660,7 @@ for tab in range(len(merged_tables)):
                         additional_description,
                     ]
                 )
-                df_tables_wid.loc[j, "unit"] = "international-$ in 2022 prices"
+                df_tables_wid.loc[j, "unit"] = f"international-$ in {PPP_YEAR_WID} prices"
                 df_tables_wid.loc[j, "shortUnit"] = "$"
                 df_tables_wid.loc[j, "type"] = "Numeric"
                 # df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_deciles9[
@@ -704,7 +688,7 @@ for tab in range(len(merged_tables)):
                         additional_description,
                     ]
                 )
-                df_tables_wid.loc[j, "unit"] = "international-$ in 2022 prices"
+                df_tables_wid.loc[j, "unit"] = f"international-$ in {PPP_YEAR_WID} prices"
                 df_tables_wid.loc[j, "shortUnit"] = "$"
                 df_tables_wid.loc[j, "type"] = "Numeric"
                 # df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_deciles10[
@@ -736,24 +720,15 @@ tolerance = TOLERANCE
 colorScaleEqualSizeBins = COLOR_SCALE_EQUAL_SIZEBINS
 new_line = NEW_LINE
 
-notes_title = "NOTES ON HOW WE PROCESSED THIS INDICATOR"
+notes_title = NOTES_TITLE_LIS
 
-processing_description = new_line.join(
-    [
-        "The Luxembourg Income Study data is created from standardized household survey microdata available in their [LISSY platform](https://www.lisdatacenter.org/data-access/lissy/). The estimations follow the methodology available in LIS, Key Figures and DART platform.",
-        "After tax income is obtained by using the disposable household income variable (dhi)",
-        "Before tax income is estimated by calculating the sum of income from labor and capital (variable hifactor), cash transfers and in-kind goods and services from privates (hiprivate) and private pensions (hi33). This is done only for surveys where tax and contributions are fully captured, collected or imputed.",
-        "Income data is converted from local currency into international-$ by dividing by the [LIS PPP factor](https://www.lisdatacenter.org/resources/ppp-deflators/), available as an additional database in the system.",
-        "Incomes are top and bottom-coded by replacing negative values with zeros and setting boundaries for extreme values of log income: at the top Q3 plus 3 times the interquartile range (Q3-Q1), and at the bottom Q1 minus 3 times the interquartile range.",
-        "Incomes are equivalized by dividing each household observation by the square root of the number of household members (nhhmem). Per capita estimates are calculated by dividing incomes by the number of household members.",
-    ]
-)
+processing_description = PROCESSING_DESCRIPTION_LIS
 
-processing_poverty = "Poverty indicators are obtained by using [Stata’s povdeco function](https://ideas.repec.org/c/boc/bocode/s366004.html). Weights are set as the product between the number of household members (nhhmem) and the normalized household weight (hwgt). The function generates FGT(0) and FGT(1), headcount ratio and poverty gap index. After extraction, further data processing steps are done to estimate other poverty indicators using these values, population and poverty lines for absolute and relative poverty."
-processing_gini_mean_median = "Gini coefficients are obtained by using [Stata’s ineqdec0 function](https://ideas.repec.org/c/boc/bocode/s366007.html). Weights are set as the product between the number of household members (nhhmem) and the normalized household weight (hwgt). From this function, mean and median values are also calculated."
-processing_distribution = "Income shares and thresholds by decile are obtained by using [Stata’s sumdist function](https://ideas.repec.org/c/boc/bocode/s366005.html). The parameters set are again the weight (nhhmem*hwgt) and the number of quantile groups (10). Threshold ratios, share ratios and averages by decile are estimated after the use of LISSY with this data."
+processing_poverty = PROCESSING_POVERTY_LIS
+processing_gini_mean_median = PROCESSING_GINI_MEAN_MEDIAN_LIS
+processing_distribution = PROCESSING_DISTRIBUTION_LIS
 
-ppp_description = "The data is measured in international-$ at 2017 prices – this adjusts for inflation and for differences in the cost of living between countries."
+ppp_description = PPP_DESCRIPTION_LIS
 
 df_tables_lis = pd.DataFrame()
 j = 0
