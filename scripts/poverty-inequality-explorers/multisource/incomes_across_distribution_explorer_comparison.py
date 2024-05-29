@@ -205,7 +205,7 @@ colorScaleEqualSizeBins = COLOR_SCALE_EQUAL_SIZEBINS
 tableSlug = "poverty_inequality"
 new_line = NEW_LINE
 
-additional_description = ADDITIONAL_DESCRIPTION_PIP
+additional_description = ADDITIONAL_DESCRIPTION_PIP_COMPARISON
 
 notes_title = NOTES_TITLE_PIP
 

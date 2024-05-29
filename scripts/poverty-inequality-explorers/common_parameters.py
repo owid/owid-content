@@ -15,9 +15,21 @@ SOURCE_LINK_PIP = "https://pip.worldbank.org"
 CONSUMPTION_SPELLS_PIP = 7
 INCOME_SPELLS_PIP = 8
 
+
+INCOME_OR_CONSUMPTION_PIP = "Depending on the country and year, the data relates to income measured after taxes and benefits, or to consumption, per capita. 'Per capita' means that the incomes of each household are attributed equally to each member of the household (including children)."
+NON_MARKET_DESCRIPTION_PIP = "Non-market sources of income, including food grown by subsistence farmers for their own consumption, are taken into account."
+
+# NOTE: Here income or consumption description depends on the welfare type and it is defined in the Google sheet
 ADDITIONAL_DESCRIPTION_PIP = NEW_LINE.join(
     [
-        "Non-market sources of income, including food grown by subsistence farmers for their own consumption, are taken into account.",
+        NON_MARKET_DESCRIPTION_PIP,
+    ]
+)
+
+ADDITIONAL_DESCRIPTION_PIP_COMPARISON = NEW_LINE.join(
+    [
+        INCOME_OR_CONSUMPTION_PIP,
+        NON_MARKET_DESCRIPTION_PIP,
     ]
 )
 

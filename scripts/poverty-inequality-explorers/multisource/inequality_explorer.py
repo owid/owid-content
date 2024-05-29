@@ -106,7 +106,7 @@ tolerance = TOLERANCE
 colorScaleEqualSizeBins = COLOR_SCALE_EQUAL_SIZEBINS
 new_line = NEW_LINE
 
-additional_description = PROCESSING_DESCRIPTION_PIP_INEQUALITY
+additional_description = ADDITIONAL_DESCRIPTION_PIP_COMPARISON
 
 notes_title = NOTES_TITLE_PIP
 
