@@ -241,6 +241,7 @@ for tab in range(len(tables)):
             df_tables.loc[j, "colorScaleNumericBins"] = deciles10[
                 f"scale_share_{welfare['slug'][wel]}"
             ][dec10]
+            df_tables.loc[j, "colorScaleNumericMinValue"] = 100
             df_tables.loc[j, "colorScaleEqualSizeBins"] = "true"
             df_tables.loc[j, "colorScaleScheme"] = "OrRd"
             j += 1
@@ -494,14 +495,18 @@ for tab in range(len(tables)):
 
     df_tables["tableSlug"] = tables["name"][tab]
 
+df_tables.loc[df_tables["colorScaleNumericMinValue"].isnull(), "colorScaleNumericMinValue"] = colorScaleNumericMinValue
+
 df_tables["sourceName"] = sourceName
 df_tables["dataPublishedBy"] = dataPublishedBy
 df_tables["sourceLink"] = sourceLink
-df_tables["colorScaleNumericMinValue"] = colorScaleNumericMinValue
 df_tables["tolerance"] = tolerance
 
 # Make tolerance integer (to not break the parameter in the platform)
 df_tables["tolerance"] = df_tables["tolerance"].astype("Int64")
+
+# Also make colorScaleNumericMinValue integer
+df_tables["colorScaleNumericMinValue"] = df_tables["colorScaleNumericMinValue"].astype("Int64")
 
 # %% [markdown]
 # ### Grapher views
