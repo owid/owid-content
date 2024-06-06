@@ -67,7 +67,7 @@ graphers
 	835044	Live animals (stocks)	Beehives	false	Number of beehives used for production	Livestock counts represent the total number of live animals at a given time in any year. This is not to be confused with the total number of livestock animals slaughtered in any given year.		LineChart	0	true	true
 	783621 783620	Cage and cage-free hens		false	Number of laying hens in cages and cage-free housing			StackedDiscreteBar
 	811038	Bans on chick culling		false	Bans on chick culling	Chick culling is the process of separating and killing unwanted male and unhealthy female chicks that cannot produce eggs in industrialized egg facilities.		WorldMap
-	812252	Bans on bullfighting		false	Bans on bullfighting	Bullfighting is a physical contest that involves a bullfighter attempting to subdue, immobilize, or kill a bull.		WorldMap
+	930559	Bans on bullfighting		false	Bans on bullfighting	Bullfighting is a physical contest that involves a bullfighter attempting to subdue, immobilize, or kill a bull.		WorldMap
 	815665	Bans on fur farming		false	Bans on animal fur farming			WorldMap
 
 columns
@@ -145,5 +145,6 @@ columns
 	835914				YlGnBu			100000;300000;1000000;3000000;10000000;30000000;100000000;
 	835044				YlGnBu			100000;300000;1000000;3000000;10000000;30000000;	beehives	beehives
 	811038				OwidCategoricalC	true
-	812252				OwidCategoricalC	true
+	930559				OwidCategoricalC	true
 	815665				OwidCategoricalC	true
+
