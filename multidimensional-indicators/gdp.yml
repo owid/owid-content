@@ -1,0 +1,40 @@
+name: Energy use
+dimensions_title: by energy source
+dimensions:
+    - slug: timescale
+      name: Time scale
+      choices:
+          - slug: long-run
+            name: Long run
+            description: Estimated GDP for the last two millennia
+          - slug: modern
+            name: Modern era
+            description: Modern GDP since after WWII
+    - slug: metric
+      name: Metric
+      choices:
+          - slug: absolute
+            name: Absolute values
+          - slug: per_capita
+            name: Per capita values
+views:
+    - dimensions:
+          timescale: long-run
+          metric: absolute
+      indicator_path:
+          819350: y
+    - dimensions:
+          timescale: long-run
+          metric: per_capita
+      indicator_path:
+          819351: y
+    - dimensions:
+          timescale: modern
+          metric: absolute
+      indicator_path:
+          539736: y
+    - dimensions:
+          timescale: modern
+          metric: per_capita
+      indicator_path:
+          539760: y
