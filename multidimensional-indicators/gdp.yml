@@ -1,5 +1,5 @@
-name: Energy use
-dimensions_title: by energy source
+name: GDP
+dimensions_title: by timescale
 dimensions:
     - slug: timescale
       name: Time scale
