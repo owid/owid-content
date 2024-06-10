@@ -4,12 +4,15 @@ dimensions:
     - slug: timescale
       name: Time scale
       choices:
-          - slug: long-run
-            name: Long run
-            description: Estimated GDP for the last two millennia
-          - slug: modern
-            name: Modern era
-            description: Modern GDP since after WWII
+          - slug: maddison
+            name: Long run GDP since 1 CE (Maddison)
+            description: Estimated GDP for the last two millennia by the Maddison Database
+          - slug: penn
+            name: Modern GDP since 1950 (Penn)
+            description: Modern GDP since after WWII by the Penn World Table project
+          - slug: worldbank
+            name: Modern GDP since 1990 (World Bank)
+            description: Official GDP by the World Bank since 1990
     - slug: metric
       name: Metric
       choices:
@@ -19,22 +22,32 @@ dimensions:
             name: Per capita values
 views:
     - dimensions:
-          timescale: long-run
+          timescale: maddison
           metric: absolute
       indicator_path:
-          819350: y
+          900795: y
     - dimensions:
-          timescale: long-run
+          timescale: maddison
           metric: per_capita
       indicator_path:
-          819351: y
+          900793: y
     - dimensions:
-          timescale: modern
+          timescale: penn
           metric: absolute
       indicator_path:
           539736: y
     - dimensions:
-          timescale: modern
+          timescale: penn
           metric: per_capita
       indicator_path:
           539760: y
+    - dimensions:
+          timescale: worldbank
+          metric: absolute
+      indicator_path:
+          905482: y
+    - dimensions:
+          timescale: worldbank
+          metric: per_capita
+      indicator_path:
+          905490: y
