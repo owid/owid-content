@@ -31,6 +31,8 @@ dimensions:
             name: Number of people
           - slug: share
             name: Share of population
+          - slug: shareVsGdp
+            name: Share of population VS GDP per capita
 views:
 - dimensions:
     povertyLine: "2.15"
@@ -81,6 +83,83 @@ views:
     819730: y
   config:
     hasMapTab: true
+- dimensions:
+    povertyLine: "2.15"
+    metric: shareVsGdp
+  indicator_path:
+    819727: y
+    539760: x
+  config:
+    hasMapTab: true
+    type: ScatterPlot
+    yAxis:
+      scaleType: log
+- dimensions:
+    povertyLine: "3.65"
+    metric: shareVsGdp
+  indicator_path:
+    819729: y
+    539760: x
+  config:
+    hasMapTab: true
+    type: ScatterPlot
+    yAxis:
+      scaleType: log
+- dimensions:
+    povertyLine: "6.85"
+    metric: shareVsGdp
+  indicator_path:
+    819731: y
+    539760: x
+  config:
+    hasMapTab: true
+    type: ScatterPlot
+    yAxis:
+      scaleType: log
+- dimensions:
+    povertyLine: "10"
+    metric: shareVsGdp
+  indicator_path:
+    819725: y
+    539760: x
+  config:
+    hasMapTab: true
+    type: ScatterPlot
+    yAxis:
+      scaleType: log
+- dimensions:
+    povertyLine: "20"
+    metric: shareVsGdp
+  indicator_path:
+    819726: y
+    539760: x
+  config:
+    hasMapTab: true
+    type: ScatterPlot
+    yAxis:
+      scaleType: log
+- dimensions:
+    povertyLine: "30"
+    metric: shareVsGdp
+  indicator_path:
+    819728: y
+    539760: x
+  config:
+    hasMapTab: true
+    type: ScatterPlot
+    yAxis:
+      scaleType: log
+- dimensions:
+    povertyLine: "40"
+    metric: shareVsGdp
+  indicator_path:
+    819730: y
+    539760: x
+  config:
+    hasMapTab: true
+    type: ScatterPlot
+    yAxis:
+      scaleType: log
 - dimensions:
     povertyLine: "2.15"
     metric: absolute
