@@ -35,9 +35,9 @@ views:
 - dimensions:
     povertyLine: i$ 2.15
     metric: share
-  indicator_path:
   config:
     hasMapTab: true
+  indicator_path:
     819727: y
 - dimensions:
     povertyLine: i$ 3.65
