@@ -92,7 +92,7 @@ views:
   config:
     hasMapTab: true
     type: ScatterPlot
-    yAxis:
+    xAxis:
       scaleType: log
 - dimensions:
     povertyLine: "3.65"
@@ -103,7 +103,7 @@ views:
   config:
     hasMapTab: true
     type: ScatterPlot
-    yAxis:
+    xAxis:
       scaleType: log
 - dimensions:
     povertyLine: "6.85"
@@ -114,7 +114,7 @@ views:
   config:
     hasMapTab: true
     type: ScatterPlot
-    yAxis:
+    xAxis:
       scaleType: log
 - dimensions:
     povertyLine: "10"
@@ -125,7 +125,7 @@ views:
   config:
     hasMapTab: true
     type: ScatterPlot
-    yAxis:
+    xAxis:
       scaleType: log
 - dimensions:
     povertyLine: "20"
@@ -136,7 +136,7 @@ views:
   config:
     hasMapTab: true
     type: ScatterPlot
-    yAxis:
+    xAxis:
       scaleType: log
 - dimensions:
     povertyLine: "30"
@@ -147,7 +147,7 @@ views:
   config:
     hasMapTab: true
     type: ScatterPlot
-    yAxis:
+    xAxis:
       scaleType: log
 - dimensions:
     povertyLine: "40"
@@ -158,7 +158,7 @@ views:
   config:
     hasMapTab: true
     type: ScatterPlot
-    yAxis:
+    xAxis:
       scaleType: log
 - dimensions:
     povertyLine: "2.15"
