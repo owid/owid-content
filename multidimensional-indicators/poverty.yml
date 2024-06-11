@@ -33,98 +33,98 @@ dimensions:
             name: Share of population
 views:
 - dimensions:
-    povertyLine: i$ 2.15
+    povertyLine: "2.15"
     metric: share
   config:
     hasMapTab: true
   indicator_path:
     819727: y
 - dimensions:
-    povertyLine: i$ 3.65
+    povertyLine: "3.65"
     metric: share
   indicator_path:
     819729: y
   config:
     hasMapTab: true
 - dimensions:
-    povertyLine: i$ 6.85
+    povertyLine: "6.85"
     metric: share
   indicator_path:
     819731: y
   config:
     hasMapTab: true
 - dimensions:
-    povertyLine: i$ 10
+    povertyLine: "10"
     metric: share
   indicator_path:
     819725: y
   config:
     hasMapTab: true
 - dimensions:
-    povertyLine: i$ 20
+    povertyLine: "20"
     metric: share
   indicator_path:
     819726: y
   config:
     hasMapTab: true
 - dimensions:
-    povertyLine: i$ 30
+    povertyLine: "30"
     metric: share
   indicator_path:
     819728: y
   config:
     hasMapTab: true
 - dimensions:
-    povertyLine: i$ 40
+    povertyLine: "40"
     metric: share
   indicator_path:
     819730: y
   config:
     hasMapTab: true
 - dimensions:
-    povertyLine: i$ 2.15
+    povertyLine: "2.15"
     metric: absolute
   indicator_path:
     819719: y
   config:
     hasMapTab: true
 - dimensions:
-    povertyLine: i$ 3.65
+    povertyLine: "3.65"
     metric: absolute
   indicator_path:
     819721: y
   config:
     hasMapTab: true
 - dimensions:
-    povertyLine: i$ 6.85
+    povertyLine: "6.85"
     metric: absolute
   indicator_path:
     819723: y
   config:
     hasMapTab: true
 - dimensions:
-    povertyLine: i$ 10
+    povertyLine: "10"
     metric: absolute
   indicator_path:
     819717: y
   config:
     hasMapTab: true
 - dimensions:
-    povertyLine: i$ 20
+    povertyLine: "20"
     metric: absolute
   indicator_path:
     819718: y
   config:
     hasMapTab: true
 - dimensions:
-    povertyLine: i$ 30
+    povertyLine: "30"
     metric: absolute
   indicator_path:
     819720: y
   config:
     hasMapTab: true
 - dimensions:
-    povertyLine: i$ 40
+    povertyLine: "40"
     metric: absolute
   indicator_path:
     819722: y
