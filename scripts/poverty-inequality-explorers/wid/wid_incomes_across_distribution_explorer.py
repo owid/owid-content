@@ -1030,7 +1030,9 @@ for tab in range(len(tables)):
         )
         df_graphers.loc[j, "Indicator Dropdown"] = "Decile shares"
         df_graphers.loc[j, "Decile/quantile Dropdown"] = "All deciles"
-        df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
+        df_graphers.loc[j, "Income measure Dropdown"] = (
+            f"{welfare['dropdown_option'][wel]}"
+        )
         df_graphers.loc[j, "Period Radio"] = np.nan
         df_graphers.loc[j, "subtitle"] = (
             f"The share of {welfare['welfare_type'][wel]} received by each decile (tenth of the population). {welfare['subtitle'][wel]}"
@@ -1050,7 +1052,9 @@ for tab in range(len(tables)):
         )
         df_graphers.loc[j, "Indicator Dropdown"] = "Decile shares"
         df_graphers.loc[j, "Decile/quantile Dropdown"] = "All deciles + top"
-        df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
+        df_graphers.loc[j, "Income measure Dropdown"] = (
+            f"{welfare['dropdown_option'][wel]}"
+        )
         df_graphers.loc[j, "Period Radio"] = np.nan
         df_graphers.loc[j, "subtitle"] = (
             f"The share of {welfare['welfare_type'][wel]} received by each decile (tenth of the population). {welfare['subtitle'][wel]}"
