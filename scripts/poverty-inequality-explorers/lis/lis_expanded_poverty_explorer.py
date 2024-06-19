@@ -128,12 +128,12 @@ for tab in range(len(tables)):
         for eq in range(len(equivalence_scales)):
             # Headcount ratio (abs)
             for p in range(len(povlines_abs)):
-                df_tables.loc[
-                    j, "name"
-                ] = f"Share below ${povlines_abs['dollars_text'][p]} a day ({welfare['title'][wel]})"
-                df_tables.loc[
-                    j, "slug"
-                ] = f"headcount_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
+                df_tables.loc[j, "name"] = (
+                    f"Share below ${povlines_abs['dollars_text'][p]} a day ({welfare['title'][wel]})"
+                )
+                df_tables.loc[j, "slug"] = (
+                    f"headcount_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
+                )
                 df_tables.loc[j, "description"] = new_line.join(
                     [
                         f"% of population living in households with {welfare['welfare_type'][wel]} below ${povlines_abs['dollars_text'][p]} a day.",
@@ -148,20 +148,20 @@ for tab in range(len(tables)):
                 df_tables.loc[j, "unit"] = "%"
                 df_tables.loc[j, "shortUnit"] = "%"
                 df_tables.loc[j, "type"] = "Numeric"
-                df_tables.loc[
-                    j, "colorScaleNumericBins"
-                ] = "3;10;20;30;40;50;60;70;80;90;100"
+                df_tables.loc[j, "colorScaleNumericBins"] = (
+                    "3;10;20;30;40;50;60;70;80;90;100"
+                )
                 df_tables.loc[j, "colorScaleScheme"] = "OrRd"
                 j += 1
 
             # Headcount (abs)
             for p in range(len(povlines_abs)):
-                df_tables.loc[
-                    j, "name"
-                ] = f"Number below ${povlines_abs['dollars_text'][p]} a day ({welfare['title'][wel]})"
-                df_tables.loc[
-                    j, "slug"
-                ] = f"headcount_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
+                df_tables.loc[j, "name"] = (
+                    f"Number below ${povlines_abs['dollars_text'][p]} a day ({welfare['title'][wel]})"
+                )
+                df_tables.loc[j, "slug"] = (
+                    f"headcount_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
+                )
                 df_tables.loc[j, "description"] = new_line.join(
                     [
                         f"Number of people living in households with {welfare['welfare_type'][wel]} below ${povlines_abs['dollars_text'][p]} a day.",
@@ -176,20 +176,20 @@ for tab in range(len(tables)):
                 df_tables.loc[j, "unit"] = np.nan
                 df_tables.loc[j, "shortUnit"] = np.nan
                 df_tables.loc[j, "type"] = "Numeric"
-                df_tables.loc[
-                    j, "colorScaleNumericBins"
-                ] = "100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000"
+                df_tables.loc[j, "colorScaleNumericBins"] = (
+                    "100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000"
+                )
                 df_tables.loc[j, "colorScaleScheme"] = "Reds"
                 j += 1
 
             # Total shortfall (abs)
             for p in range(len(povlines_abs)):
-                df_tables.loc[
-                    j, "name"
-                ] = f"Total shortfall - ${povlines_abs['dollars_text'][p]} a day ({welfare['title'][wel]})"
-                df_tables.loc[
-                    j, "slug"
-                ] = f"total_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs.cents[p]}"
+                df_tables.loc[j, "name"] = (
+                    f"Total shortfall - ${povlines_abs['dollars_text'][p]} a day ({welfare['title'][wel]})"
+                )
+                df_tables.loc[j, "slug"] = (
+                    f"total_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs.cents[p]}"
+                )
                 df_tables.loc[j, "description"] = new_line.join(
                     [
                         f"The total shortfall from a poverty line of ${povlines_abs['dollars_text'][p]} a day. This is the amount of money that would be theoretically needed to lift the {welfare['welfare_type'][wel]} of all people in poverty up to the poverty line. However this is not a measure of the actual cost of eliminating poverty, since it does not take into account the costs involved in making the necessary transfers nor any changes in behaviour they would bring about.",
@@ -212,12 +212,12 @@ for tab in range(len(tables)):
 
             # Average shortfall ($)
             for p in range(len(povlines_abs)):
-                df_tables.loc[
-                    j, "name"
-                ] = f"Average shortfall - ${povlines_abs['dollars_text'][p]} a day ({welfare['title'][wel]})"
-                df_tables.loc[
-                    j, "slug"
-                ] = f"avg_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
+                df_tables.loc[j, "name"] = (
+                    f"Average shortfall - ${povlines_abs['dollars_text'][p]} a day ({welfare['title'][wel]})"
+                )
+                df_tables.loc[j, "slug"] = (
+                    f"avg_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
+                )
                 df_tables.loc[j, "description"] = new_line.join(
                     [
                         f"The average shortfall from a poverty line of ${povlines_abs['dollars_text'][p]} (averaged across the population in poverty).",
@@ -240,12 +240,12 @@ for tab in range(len(tables)):
 
             # Average shortfall ($): Daily value
             for p in range(len(povlines_abs)):
-                df_tables.loc[
-                    j, "name"
-                ] = f"Average shortfall - ${povlines_abs['dollars_text'][p]} a day ({welfare['title'][wel]})"
-                df_tables.loc[
-                    j, "slug"
-                ] = f"avg_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}_day"
+                df_tables.loc[j, "name"] = (
+                    f"Average shortfall - ${povlines_abs['dollars_text'][p]} a day ({welfare['title'][wel]})"
+                )
+                df_tables.loc[j, "slug"] = (
+                    f"avg_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}_day"
+                )
                 df_tables.loc[j, "description"] = new_line.join(
                     [
                         f"The average shortfall from a poverty line of ${povlines_abs['dollars_text'][p]} (averaged across the population in poverty).",
@@ -264,19 +264,19 @@ for tab in range(len(tables)):
                     "scale_avg_shortfall"
                 ][p]
                 df_tables.loc[j, "colorScaleScheme"] = "Purples"
-                df_tables.loc[
-                    j, "transform"
-                ] = f"multiplyBy avg_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]} 0.00274"
+                df_tables.loc[j, "transform"] = (
+                    f"multiplyBy avg_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]} 0.00274"
+                )
                 j += 1
 
             # Average shortfall (% of poverty line) [this is the income gap ratio]
             for p in range(len(povlines_abs)):
-                df_tables.loc[
-                    j, "name"
-                ] = f"Income gap ratio - ${povlines_abs['dollars_text'][p]} a day ({welfare['title'][wel]})"
-                df_tables.loc[
-                    j, "slug"
-                ] = f"income_gap_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
+                df_tables.loc[j, "name"] = (
+                    f"Income gap ratio - ${povlines_abs['dollars_text'][p]} a day ({welfare['title'][wel]})"
+                )
+                df_tables.loc[j, "slug"] = (
+                    f"income_gap_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
+                )
                 df_tables.loc[j, "description"] = new_line.join(
                     [
                         f'The average shortfall from a poverty line of ${povlines_abs.dollars_text[p]} a day (averaged across the population in poverty) expressed as a share of the poverty line. This metric is sometimes called the "income gap ratio". It captures the depth of poverty of those living on less than the poverty line.',
@@ -291,20 +291,20 @@ for tab in range(len(tables)):
                 df_tables.loc[j, "unit"] = "%"
                 df_tables.loc[j, "shortUnit"] = "%"
                 df_tables.loc[j, "type"] = "Numeric"
-                df_tables.loc[
-                    j, "colorScaleNumericBins"
-                ] = "10;20;30;40;50;60;70;80;90;100"
+                df_tables.loc[j, "colorScaleNumericBins"] = (
+                    "10;20;30;40;50;60;70;80;90;100"
+                )
                 df_tables.loc[j, "colorScaleScheme"] = "YlOrRd"
                 j += 1
 
             # Poverty gap index
             for p in range(len(povlines_abs)):
-                df_tables.loc[
-                    j, "name"
-                ] = f"Poverty gap index - ${povlines_abs['dollars_text'][p]} a day ({welfare['title'][wel]})"
-                df_tables.loc[
-                    j, "slug"
-                ] = f"poverty_gap_index_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
+                df_tables.loc[j, "name"] = (
+                    f"Poverty gap index - ${povlines_abs['dollars_text'][p]} a day ({welfare['title'][wel]})"
+                )
+                df_tables.loc[j, "slug"] = (
+                    f"poverty_gap_index_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
+                )
                 df_tables.loc[j, "description"] = new_line.join(
                     [
                         f"The poverty gap index calculated at a poverty line of ${povlines_abs['dollars_text'][p]} a day. The poverty gap index is a measure that reflects both the depth and prevalence of poverty. It is defined as the mean shortfall of the total population from the poverty line counting the non-poor as having zero shortfall and expressed as a percentage of the poverty line. It is worth unpacking that definition a little. For those below the poverty line, the shortfall corresponds to the amount of money required in order to reach the poverty line. For those at or above the poverty line, the shortfall is counted as zero. The average shortfall is then calculated across the total population – both poor and non-poor – and then expressed as a share of the poverty line. Unlike the more commonly-used metric of the headcount ratio, the poverty gap index is thus sensitive not only to whether a person’s income falls below the poverty line or not, but also by how much – i.e. to the depth of poverty they experience.",
@@ -327,12 +327,12 @@ for tab in range(len(tables)):
 
             # Headcount ratio (rel)
             for pct in range(len(povlines_rel)):
-                df_tables.loc[
-                    j, "name"
-                ] = f"Share below {povlines_rel['percent'][pct]} of median ({welfare['title'][wel]})"
-                df_tables.loc[
-                    j, "slug"
-                ] = f"headcount_ratio_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
+                df_tables.loc[j, "name"] = (
+                    f"Share below {povlines_rel['percent'][pct]} of median ({welfare['title'][wel]})"
+                )
+                df_tables.loc[j, "slug"] = (
+                    f"headcount_ratio_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
+                )
                 df_tables.loc[j, "description"] = new_line.join(
                     [
                         f"% of population living in households with {welfare['welfare_type'][wel]} below {povlines_rel['percent'][pct]} of the median {welfare['welfare_type'][wel]}.",
@@ -352,12 +352,12 @@ for tab in range(len(tables)):
 
             # Headcount (rel)
             for pct in range(len(povlines_rel)):
-                df_tables.loc[
-                    j, "name"
-                ] = f"Number below {povlines_rel['percent'][pct]} of median ({welfare['title'][wel]})"
-                df_tables.loc[
-                    j, "slug"
-                ] = f"headcount_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
+                df_tables.loc[j, "name"] = (
+                    f"Number below {povlines_rel['percent'][pct]} of median ({welfare['title'][wel]})"
+                )
+                df_tables.loc[j, "slug"] = (
+                    f"headcount_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
+                )
                 df_tables.loc[j, "description"] = new_line.join(
                     [
                         f"Number of people living in households with {welfare['welfare_type'][wel]} below {povlines_rel['percent'][pct]} of the median {welfare['welfare_type'][wel]}.",
@@ -371,20 +371,20 @@ for tab in range(len(tables)):
                 df_tables.loc[j, "unit"] = np.nan
                 df_tables.loc[j, "shortUnit"] = np.nan
                 df_tables.loc[j, "type"] = "Numeric"
-                df_tables.loc[
-                    j, "colorScaleNumericBins"
-                ] = "100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000"
+                df_tables.loc[j, "colorScaleNumericBins"] = (
+                    "100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000"
+                )
                 df_tables.loc[j, "colorScaleScheme"] = "YlOrBr"
                 j += 1
 
             # Total shortfall (rel)
             for pct in range(len(povlines_rel)):
-                df_tables.loc[
-                    j, "name"
-                ] = f"Total shortfall - {povlines_rel['percent'][pct]} of median ({welfare['title'][wel]})"
-                df_tables.loc[
-                    j, "slug"
-                ] = f"total_shortfall_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
+                df_tables.loc[j, "name"] = (
+                    f"Total shortfall - {povlines_rel['percent'][pct]} of median ({welfare['title'][wel]})"
+                )
+                df_tables.loc[j, "slug"] = (
+                    f"total_shortfall_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
+                )
                 df_tables.loc[j, "description"] = new_line.join(
                     [
                         f"The total shortfall from a poverty line of {povlines_rel['text'][pct]} {welfare['welfare_type'][wel]}. This is the amount of money that would be theoretically needed to lift the {welfare['welfare_type'][wel]} of all people in poverty up to the poverty line. However this is not a measure of the actual cost of eliminating poverty, since it does not take into account the costs involved in making the necessary transfers nor any changes in behaviour they would bring about.",
@@ -406,12 +406,12 @@ for tab in range(len(tables)):
 
             # Average shortfall ($)
             for pct in range(len(povlines_rel)):
-                df_tables.loc[
-                    j, "name"
-                ] = f"Average shortfall - {povlines_rel['percent'][pct]} of median ({welfare['title'][wel]})"
-                df_tables.loc[
-                    j, "slug"
-                ] = f"avg_shortfall_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
+                df_tables.loc[j, "name"] = (
+                    f"Average shortfall - {povlines_rel['percent'][pct]} of median ({welfare['title'][wel]})"
+                )
+                df_tables.loc[j, "slug"] = (
+                    f"avg_shortfall_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
+                )
                 df_tables.loc[j, "description"] = new_line.join(
                     [
                         f"The average shortfall from a poverty line of of {povlines_rel['text'][pct]} {welfare['welfare_type'][wel]} (averaged across the population in poverty).",
@@ -431,12 +431,12 @@ for tab in range(len(tables)):
 
             # Average shortfall ($): Daily value
             for pct in range(len(povlines_rel)):
-                df_tables.loc[
-                    j, "name"
-                ] = f"Average shortfall - {povlines_rel['percent'][pct]} of median ({welfare['title'][wel]})"
-                df_tables.loc[
-                    j, "slug"
-                ] = f"avg_shortfall_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_day"
+                df_tables.loc[j, "name"] = (
+                    f"Average shortfall - {povlines_rel['percent'][pct]} of median ({welfare['title'][wel]})"
+                )
+                df_tables.loc[j, "slug"] = (
+                    f"avg_shortfall_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_day"
+                )
                 df_tables.loc[j, "description"] = new_line.join(
                     [
                         f"The average shortfall from a poverty line of of {povlines_rel['text'][pct]} {welfare['welfare_type'][wel]} (averaged across the population in poverty).",
@@ -452,19 +452,19 @@ for tab in range(len(tables)):
                 df_tables.loc[j, "type"] = "Numeric"
                 df_tables.loc[j, "colorScaleNumericBins"] = "1;2;5;10;20;20.0001"
                 df_tables.loc[j, "colorScaleScheme"] = "YlOrBr"
-                df_tables.loc[
-                    j, "transform"
-                ] = f"multiplyBy avg_shortfall_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} 0.00274"
+                df_tables.loc[j, "transform"] = (
+                    f"multiplyBy avg_shortfall_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]} 0.00274"
+                )
                 j += 1
 
             # Average shortfall (% of poverty line) [this is the income gap ratio]
             for pct in range(len(povlines_rel)):
-                df_tables.loc[
-                    j, "name"
-                ] = f"Income gap ratio - {povlines_rel['percent'][pct]} of median ({welfare['title'][wel]})"
-                df_tables.loc[
-                    j, "slug"
-                ] = f"income_gap_ratio_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
+                df_tables.loc[j, "name"] = (
+                    f"Income gap ratio - {povlines_rel['percent'][pct]} of median ({welfare['title'][wel]})"
+                )
+                df_tables.loc[j, "slug"] = (
+                    f"income_gap_ratio_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
+                )
                 df_tables.loc[j, "description"] = new_line.join(
                     [
                         f'The average shortfall from a poverty line of of {povlines_rel.text[pct]} {welfare.welfare_type[wel]} (averaged across the population in poverty) expressed as a share of the poverty line. This metric is sometimes called the "income gap ratio". It captures the depth of poverty of those living on less than the poverty line.',
@@ -484,12 +484,12 @@ for tab in range(len(tables)):
 
             # Poverty gap index
             for pct in range(len(povlines_rel)):
-                df_tables.loc[
-                    j, "name"
-                ] = f"Poverty gap index - {povlines_rel['percent'][pct]} of median ({welfare['title'][wel]})"
-                df_tables.loc[
-                    j, "slug"
-                ] = f"poverty_gap_index_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
+                df_tables.loc[j, "name"] = (
+                    f"Poverty gap index - {povlines_rel['percent'][pct]} of median ({welfare['title'][wel]})"
+                )
+                df_tables.loc[j, "slug"] = (
+                    f"poverty_gap_index_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
+                )
                 df_tables.loc[j, "description"] = new_line.join(
                     [
                         f"The poverty gap index calculated at a poverty line of {povlines_rel['text'][pct]} {welfare['welfare_type'][wel]}. The poverty gap index is a measure that reflects both the depth and prevalence of poverty. It is defined as the mean shortfall of the total population from the poverty line counting the non-poor as having zero shortfall and expressed as a percentage of the poverty line. It is worth unpacking that definition a little. For those below the poverty line, the shortfall corresponds to the amount of money required in order to reach the poverty line. For those at or above the poverty line, the shortfall is counted as zero. The average shortfall is then calculated across the total population – both poor and non-poor – and then expressed as a share of the poverty line. Unlike the more commonly-used metric of the headcount ratio, the poverty gap index is thus sensitive not only to whether a person’s income falls below the poverty line or not, but also by how much – i.e. to the depth of poverty they experience.",
@@ -535,29 +535,29 @@ for tab in range(len(tables)):
         for wel in range(len(welfare)):
             # Headcount ratio (abs)
             for p in range(len(povlines_abs)):
-                df_graphers.loc[
-                    j, "title"
-                ] = f"{povlines_abs['title_share'][p]} ({welfare['title'][wel]})"
-                df_graphers.loc[
-                    j, "ySlugs"
-                ] = f"headcount_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
+                df_graphers.loc[j, "title"] = (
+                    f"{povlines_abs['title_share'][p]} ({welfare['title'][wel]})"
+                )
+                df_graphers.loc[j, "ySlugs"] = (
+                    f"headcount_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
+                )
                 df_graphers.loc[j, "Indicator Dropdown"] = "Share in poverty"
-                df_graphers.loc[
-                    j, "Poverty line Dropdown"
-                ] = f"{povlines_abs['povline_dropdown'][p]}"
-                df_graphers.loc[
-                    j, "Income measure Dropdown"
-                ] = f"{welfare['dropdown_option'][wel]}"
+                df_graphers.loc[j, "Poverty line Dropdown"] = (
+                    f"{povlines_abs['povline_dropdown'][p]}"
+                )
+                df_graphers.loc[j, "Income measure Dropdown"] = (
+                    f"{welfare['dropdown_option'][wel]}"
+                )
                 df_graphers.loc[
                     j,
                     "Adjust for cost sharing within households (equivalized income) Checkbox",
                 ] = equivalence_scales["checkbox"][eq]
-                df_graphers.loc[
-                    j, "subtitle"
-                ] = f"{povlines_abs['subtitle'][p]} {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
-                df_graphers.loc[
-                    j, "note"
-                ] = f"This data is expressed in international-$ at 2017 prices."
+                df_graphers.loc[j, "subtitle"] = (
+                    f"{povlines_abs['subtitle'][p]} {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
+                )
+                df_graphers.loc[j, "note"] = (
+                    f"This data is expressed in international-$ at 2017 prices."
+                )
                 df_graphers.loc[j, "type"] = np.nan
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
                 df_graphers.loc[j, "hasMapTab"] = "true"
@@ -566,29 +566,29 @@ for tab in range(len(tables)):
 
             # Headcount (abs)
             for p in range(len(povlines_abs)):
-                df_graphers.loc[
-                    j, "title"
-                ] = f"{povlines_abs.title_number[p]} ({welfare['title'][wel]})"
-                df_graphers.loc[
-                    j, "ySlugs"
-                ] = f"headcount_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
+                df_graphers.loc[j, "title"] = (
+                    f"{povlines_abs.title_number[p]} ({welfare['title'][wel]})"
+                )
+                df_graphers.loc[j, "ySlugs"] = (
+                    f"headcount_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
+                )
                 df_graphers.loc[j, "Indicator Dropdown"] = "Number in poverty"
-                df_graphers.loc[
-                    j, "Poverty line Dropdown"
-                ] = f"{povlines_abs['povline_dropdown'][p]}"
-                df_graphers.loc[
-                    j, "Income measure Dropdown"
-                ] = f"{welfare['dropdown_option'][wel]}"
+                df_graphers.loc[j, "Poverty line Dropdown"] = (
+                    f"{povlines_abs['povline_dropdown'][p]}"
+                )
+                df_graphers.loc[j, "Income measure Dropdown"] = (
+                    f"{welfare['dropdown_option'][wel]}"
+                )
                 df_graphers.loc[
                     j,
                     "Adjust for cost sharing within households (equivalized income) Checkbox",
                 ] = equivalence_scales["checkbox"][eq]
-                df_graphers.loc[
-                    j, "subtitle"
-                ] = f"{povlines_abs['subtitle'][p]} {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
-                df_graphers.loc[
-                    j, "note"
-                ] = f"This data is expressed in international-$ at 2017 prices."
+                df_graphers.loc[j, "subtitle"] = (
+                    f"{povlines_abs['subtitle'][p]} {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
+                )
+                df_graphers.loc[j, "note"] = (
+                    f"This data is expressed in international-$ at 2017 prices."
+                )
                 df_graphers.loc[j, "type"] = np.nan
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
                 df_graphers.loc[j, "hasMapTab"] = "true"
@@ -597,31 +597,31 @@ for tab in range(len(tables)):
 
             # Total shortfall (abs)
             for p in range(len(povlines_abs)):
-                df_graphers.loc[
-                    j, "title"
-                ] = f"{povlines_abs['title_total_shortfall'][p]} ({welfare['title'][wel]})"
-                df_graphers.loc[
-                    j, "ySlugs"
-                ] = f"total_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs.cents[p]}"
-                df_graphers.loc[
-                    j, "Indicator Dropdown"
-                ] = "Total shortfall from poverty line"
-                df_graphers.loc[
-                    j, "Poverty line Dropdown"
-                ] = f"{povlines_abs['povline_dropdown'][p]}"
-                df_graphers.loc[
-                    j, "Income measure Dropdown"
-                ] = f"{welfare['dropdown_option'][wel]}"
+                df_graphers.loc[j, "title"] = (
+                    f"{povlines_abs['title_total_shortfall'][p]} ({welfare['title'][wel]})"
+                )
+                df_graphers.loc[j, "ySlugs"] = (
+                    f"total_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs.cents[p]}"
+                )
+                df_graphers.loc[j, "Indicator Dropdown"] = (
+                    "Total shortfall from poverty line"
+                )
+                df_graphers.loc[j, "Poverty line Dropdown"] = (
+                    f"{povlines_abs['povline_dropdown'][p]}"
+                )
+                df_graphers.loc[j, "Income measure Dropdown"] = (
+                    f"{welfare['dropdown_option'][wel]}"
+                )
                 df_graphers.loc[
                     j,
                     "Adjust for cost sharing within households (equivalized income) Checkbox",
                 ] = equivalence_scales["checkbox"][eq]
-                df_graphers.loc[
-                    j, "subtitle"
-                ] = f"{povlines_abs['subtitle_total_shortfall'][p]} {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
-                df_graphers.loc[
-                    j, "note"
-                ] = "This data is expressed in international-$ at 2017 prices. The cost of closing the poverty gap does not take into account costs and inefficiencies from making the necessary transfers."
+                df_graphers.loc[j, "subtitle"] = (
+                    f"{povlines_abs['subtitle_total_shortfall'][p]} {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
+                )
+                df_graphers.loc[j, "note"] = (
+                    "This data is expressed in international-$ at 2017 prices. The cost of closing the poverty gap does not take into account costs and inefficiencies from making the necessary transfers."
+                )
                 df_graphers.loc[j, "type"] = np.nan
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
                 df_graphers.loc[j, "hasMapTab"] = "true"
@@ -630,29 +630,29 @@ for tab in range(len(tables)):
 
             # Average shortfall ($)
             for p in range(len(povlines_abs)):
-                df_graphers.loc[
-                    j, "title"
-                ] = f"{povlines_abs['title_avg_shortfall'][p]} ({welfare['title'][wel]})"
-                df_graphers.loc[
-                    j, "ySlugs"
-                ] = f"avg_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}_day"
+                df_graphers.loc[j, "title"] = (
+                    f"{povlines_abs['title_avg_shortfall'][p]} ({welfare['title'][wel]})"
+                )
+                df_graphers.loc[j, "ySlugs"] = (
+                    f"avg_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}_day"
+                )
                 df_graphers.loc[j, "Indicator Dropdown"] = "Average shortfall ($)"
-                df_graphers.loc[
-                    j, "Poverty line Dropdown"
-                ] = f"{povlines_abs['povline_dropdown'][p]}"
-                df_graphers.loc[
-                    j, "Income measure Dropdown"
-                ] = f"{welfare['dropdown_option'][wel]}"
+                df_graphers.loc[j, "Poverty line Dropdown"] = (
+                    f"{povlines_abs['povline_dropdown'][p]}"
+                )
+                df_graphers.loc[j, "Income measure Dropdown"] = (
+                    f"{welfare['dropdown_option'][wel]}"
+                )
                 df_graphers.loc[
                     j,
                     "Adjust for cost sharing within households (equivalized income) Checkbox",
                 ] = equivalence_scales["checkbox"][eq]
-                df_graphers.loc[
-                    j, "subtitle"
-                ] = f"{povlines_abs['subtitle_avg_shortfall'][p]} {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
-                df_graphers.loc[
-                    j, "note"
-                ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+                df_graphers.loc[j, "subtitle"] = (
+                    f"{povlines_abs['subtitle_avg_shortfall'][p]} {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
+                )
+                df_graphers.loc[j, "note"] = (
+                    f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+                )
                 df_graphers.loc[j, "type"] = np.nan
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
                 df_graphers.loc[j, "hasMapTab"] = "true"
@@ -661,31 +661,31 @@ for tab in range(len(tables)):
 
             # Average shortfall (% of poverty line)
             for p in range(len(povlines_abs)):
-                df_graphers.loc[
-                    j, "title"
-                ] = f"{povlines_abs['title_income_gap_ratio'][p]} ({welfare['title'][wel]})"
-                df_graphers.loc[
-                    j, "ySlugs"
-                ] = f"income_gap_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
-                df_graphers.loc[
-                    j, "Indicator Dropdown"
-                ] = "Average shortfall (% of poverty line)"
-                df_graphers.loc[
-                    j, "Poverty line Dropdown"
-                ] = f"{povlines_abs.povline_dropdown[p]}"
-                df_graphers.loc[
-                    j, "Income measure Dropdown"
-                ] = f"{welfare['dropdown_option'][wel]}"
+                df_graphers.loc[j, "title"] = (
+                    f"{povlines_abs['title_income_gap_ratio'][p]} ({welfare['title'][wel]})"
+                )
+                df_graphers.loc[j, "ySlugs"] = (
+                    f"income_gap_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
+                )
+                df_graphers.loc[j, "Indicator Dropdown"] = (
+                    "Average shortfall (% of poverty line)"
+                )
+                df_graphers.loc[j, "Poverty line Dropdown"] = (
+                    f"{povlines_abs.povline_dropdown[p]}"
+                )
+                df_graphers.loc[j, "Income measure Dropdown"] = (
+                    f"{welfare['dropdown_option'][wel]}"
+                )
                 df_graphers.loc[
                     j,
                     "Adjust for cost sharing within households (equivalized income) Checkbox",
                 ] = equivalence_scales["checkbox"][eq]
-                df_graphers.loc[
-                    j, "subtitle"
-                ] = f"{povlines_abs['subtitle_income_gap_ratio'][p]} {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
-                df_graphers.loc[
-                    j, "note"
-                ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+                df_graphers.loc[j, "subtitle"] = (
+                    f"{povlines_abs['subtitle_income_gap_ratio'][p]} {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
+                )
+                df_graphers.loc[j, "note"] = (
+                    f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+                )
                 df_graphers.loc[j, "type"] = np.nan
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
                 df_graphers.loc[j, "hasMapTab"] = "true"
@@ -694,29 +694,29 @@ for tab in range(len(tables)):
 
             # Poverty gap index
             for p in range(len(povlines_abs)):
-                df_graphers.loc[
-                    j, "title"
-                ] = f"Poverty gap index at ${povlines_abs['dollars_text'][p]} a day ({welfare['title'][wel]})"
-                df_graphers.loc[
-                    j, "ySlugs"
-                ] = f"poverty_gap_index_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
+                df_graphers.loc[j, "title"] = (
+                    f"Poverty gap index at ${povlines_abs['dollars_text'][p]} a day ({welfare['title'][wel]})"
+                )
+                df_graphers.loc[j, "ySlugs"] = (
+                    f"poverty_gap_index_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
+                )
                 df_graphers.loc[j, "Indicator Dropdown"] = "Poverty gap index"
-                df_graphers.loc[
-                    j, "Poverty line Dropdown"
-                ] = f"{povlines_abs['povline_dropdown'][p]}"
-                df_graphers.loc[
-                    j, "Income measure Dropdown"
-                ] = f"{welfare['dropdown_option'][wel]}"
+                df_graphers.loc[j, "Poverty line Dropdown"] = (
+                    f"{povlines_abs['povline_dropdown'][p]}"
+                )
+                df_graphers.loc[j, "Income measure Dropdown"] = (
+                    f"{welfare['dropdown_option'][wel]}"
+                )
                 df_graphers.loc[
                     j,
                     "Adjust for cost sharing within households (equivalized income) Checkbox",
                 ] = equivalence_scales["checkbox"][eq]
-                df_graphers.loc[
-                    j, "subtitle"
-                ] = f"The poverty gap index is a poverty measure that reflects both the prevalence and the depth of poverty. It is calculated as the share of population in poverty multiplied by the average shortfall from the poverty line (expressed as a % of the poverty line). {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
-                df_graphers.loc[
-                    j, "note"
-                ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+                df_graphers.loc[j, "subtitle"] = (
+                    f"The poverty gap index is a poverty measure that reflects both the prevalence and the depth of poverty. It is calculated as the share of population in poverty multiplied by the average shortfall from the poverty line (expressed as a % of the poverty line). {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
+                )
+                df_graphers.loc[j, "note"] = (
+                    f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+                )
                 df_graphers.loc[j, "type"] = np.nan
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
                 df_graphers.loc[j, "hasMapTab"] = "true"
@@ -725,27 +725,27 @@ for tab in range(len(tables)):
 
             # MULTIPLE LINES
             # Headcount ratio (abs) - Multiple lines
-            df_graphers.loc[
-                j, "title"
-            ] = f"Share of population living below a range of poverty lines ({welfare['title'][wel]})"
-            df_graphers.loc[
-                j, "ySlugs"
-            ] = f"headcount_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_100 headcount_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_200 headcount_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_500 headcount_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_1000 headcount_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_2000 headcount_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_3000 headcount_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_4000"
+            df_graphers.loc[j, "title"] = (
+                f"Share of population living below a range of poverty lines ({welfare['title'][wel]})"
+            )
+            df_graphers.loc[j, "ySlugs"] = (
+                f"headcount_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_100 headcount_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_200 headcount_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_500 headcount_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_1000 headcount_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_2000 headcount_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_3000 headcount_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_4000"
+            )
             df_graphers.loc[j, "Indicator Dropdown"] = "Share in poverty"
             df_graphers.loc[j, "Poverty line Dropdown"] = "Multiple lines"
-            df_graphers.loc[
-                j, "Income measure Dropdown"
-            ] = f"{welfare['dropdown_option'][wel]}"
+            df_graphers.loc[j, "Income measure Dropdown"] = (
+                f"{welfare['dropdown_option'][wel]}"
+            )
             df_graphers.loc[
                 j,
                 "Adjust for cost sharing within households (equivalized income) Checkbox",
             ] = equivalence_scales["checkbox"][eq]
-            df_graphers.loc[
-                j, "subtitle"
-            ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
-            df_graphers.loc[
-                j, "note"
-            ] = f"This data is expressed in international-$ at 2017 prices."
+            df_graphers.loc[j, "subtitle"] = (
+                f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
+            )
+            df_graphers.loc[j, "note"] = (
+                f"This data is expressed in international-$ at 2017 prices."
+            )
             df_graphers.loc[j, "type"] = np.nan
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
             df_graphers.loc[j, "hasMapTab"] = "false"
@@ -753,27 +753,27 @@ for tab in range(len(tables)):
             j += 1
 
             # Headcount (abs) - Multiple lines
-            df_graphers.loc[
-                j, "title"
-            ] = f"Number of people living below a range of poverty lines ({welfare['title'][wel]})"
-            df_graphers.loc[
-                j, "ySlugs"
-            ] = f"headcount_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_100 headcount_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_200 headcount_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_500 headcount_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_1000 headcount_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_2000 headcount_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_3000 headcount_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_4000"
+            df_graphers.loc[j, "title"] = (
+                f"Number of people living below a range of poverty lines ({welfare['title'][wel]})"
+            )
+            df_graphers.loc[j, "ySlugs"] = (
+                f"headcount_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_100 headcount_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_200 headcount_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_500 headcount_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_1000 headcount_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_2000 headcount_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_3000 headcount_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_4000"
+            )
             df_graphers.loc[j, "Indicator Dropdown"] = "Number in poverty"
             df_graphers.loc[j, "Poverty line Dropdown"] = "Multiple lines"
-            df_graphers.loc[
-                j, "Income measure Dropdown"
-            ] = f"{welfare['dropdown_option'][wel]}"
+            df_graphers.loc[j, "Income measure Dropdown"] = (
+                f"{welfare['dropdown_option'][wel]}"
+            )
             df_graphers.loc[
                 j,
                 "Adjust for cost sharing within households (equivalized income) Checkbox",
             ] = equivalence_scales["checkbox"][eq]
-            df_graphers.loc[
-                j, "subtitle"
-            ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
-            df_graphers.loc[
-                j, "note"
-            ] = f"This data is expressed in international-$ at 2017 prices."
+            df_graphers.loc[j, "subtitle"] = (
+                f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
+            )
+            df_graphers.loc[j, "note"] = (
+                f"This data is expressed in international-$ at 2017 prices."
+            )
             df_graphers.loc[j, "type"] = np.nan
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
             df_graphers.loc[j, "hasMapTab"] = "false"
@@ -782,29 +782,29 @@ for tab in range(len(tables)):
 
             # Total shortfall (abs) - Multiple lines
 
-            df_graphers.loc[
-                j, "title"
-            ] = f"Total shortfall from a range of poverty lines ({welfare['title'][wel]})"
-            df_graphers.loc[
-                j, "ySlugs"
-            ] = f"total_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_100 total_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_200 total_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_500 total_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_1000 total_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_2000 total_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_3000 total_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_4000"
-            df_graphers.loc[
-                j, "Indicator Dropdown"
-            ] = "Total shortfall from poverty line"
+            df_graphers.loc[j, "title"] = (
+                f"Total shortfall from a range of poverty lines ({welfare['title'][wel]})"
+            )
+            df_graphers.loc[j, "ySlugs"] = (
+                f"total_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_100 total_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_200 total_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_500 total_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_1000 total_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_2000 total_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_3000 total_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_4000"
+            )
+            df_graphers.loc[j, "Indicator Dropdown"] = (
+                "Total shortfall from poverty line"
+            )
             df_graphers.loc[j, "Poverty line Dropdown"] = "Multiple lines"
-            df_graphers.loc[
-                j, "Income measure Dropdown"
-            ] = f"{welfare['dropdown_option'][wel]}"
+            df_graphers.loc[j, "Income measure Dropdown"] = (
+                f"{welfare['dropdown_option'][wel]}"
+            )
             df_graphers.loc[
                 j,
                 "Adjust for cost sharing within households (equivalized income) Checkbox",
             ] = equivalence_scales["checkbox"][eq]
-            df_graphers.loc[
-                j, "subtitle"
-            ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
-            df_graphers.loc[
-                j, "note"
-            ] = "This data is expressed in international-$ at 2017 prices. The cost of closing the poverty gap does not take into account costs and inefficiencies from making the necessary transfers."
+            df_graphers.loc[j, "subtitle"] = (
+                f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
+            )
+            df_graphers.loc[j, "note"] = (
+                "This data is expressed in international-$ at 2017 prices. The cost of closing the poverty gap does not take into account costs and inefficiencies from making the necessary transfers."
+            )
             df_graphers.loc[j, "type"] = np.nan
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
             df_graphers.loc[j, "hasMapTab"] = "false"
@@ -812,27 +812,27 @@ for tab in range(len(tables)):
             j += 1
 
             # Average shortfall ($) - Multiple lines
-            df_graphers.loc[
-                j, "title"
-            ] = f"Average shortfall from a range of poverty lines ({welfare['title'][wel]})"
-            df_graphers.loc[
-                j, "ySlugs"
-            ] = f"avg_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_100_day avg_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_200_day avg_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_500_day avg_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_1000_day avg_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_2000_day avg_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_3000_day avg_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_4000_day"
+            df_graphers.loc[j, "title"] = (
+                f"Average shortfall from a range of poverty lines ({welfare['title'][wel]})"
+            )
+            df_graphers.loc[j, "ySlugs"] = (
+                f"avg_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_100_day avg_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_200_day avg_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_500_day avg_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_1000_day avg_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_2000_day avg_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_3000_day avg_shortfall_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_4000_day"
+            )
             df_graphers.loc[j, "Indicator Dropdown"] = "Average shortfall ($)"
             df_graphers.loc[j, "Poverty line Dropdown"] = "Multiple lines"
-            df_graphers.loc[
-                j, "Income measure Dropdown"
-            ] = f"{welfare['dropdown_option'][wel]}"
+            df_graphers.loc[j, "Income measure Dropdown"] = (
+                f"{welfare['dropdown_option'][wel]}"
+            )
             df_graphers.loc[
                 j,
                 "Adjust for cost sharing within households (equivalized income) Checkbox",
             ] = equivalence_scales["checkbox"][eq]
-            df_graphers.loc[
-                j, "subtitle"
-            ] = f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
-            df_graphers.loc[
-                j, "note"
-            ] = f"This data is expressed in international-$ at 2017 prices."
+            df_graphers.loc[j, "subtitle"] = (
+                f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
+            )
+            df_graphers.loc[j, "note"] = (
+                f"This data is expressed in international-$ at 2017 prices."
+            )
             df_graphers.loc[j, "type"] = np.nan
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
             df_graphers.loc[j, "hasMapTab"] = "false"
@@ -840,29 +840,29 @@ for tab in range(len(tables)):
             j += 1
 
             # Average shortfall (% of poverty line) - Multiple lines
-            df_graphers.loc[
-                j, "title"
-            ] = f"Average shortfall from a range of poverty lines (as a share of the poverty line) ({welfare['title'][wel]})"
-            df_graphers.loc[
-                j, "ySlugs"
-            ] = f"income_gap_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_100 income_gap_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_200 income_gap_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_500 income_gap_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_1000 income_gap_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_2000 income_gap_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_3000 income_gap_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_4000"
-            df_graphers.loc[
-                j, "Indicator Dropdown"
-            ] = "Average shortfall (% of poverty line)"
+            df_graphers.loc[j, "title"] = (
+                f"Average shortfall from a range of poverty lines (as a share of the poverty line) ({welfare['title'][wel]})"
+            )
+            df_graphers.loc[j, "ySlugs"] = (
+                f"income_gap_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_100 income_gap_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_200 income_gap_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_500 income_gap_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_1000 income_gap_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_2000 income_gap_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_3000 income_gap_ratio_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_4000"
+            )
+            df_graphers.loc[j, "Indicator Dropdown"] = (
+                "Average shortfall (% of poverty line)"
+            )
             df_graphers.loc[j, "Poverty line Dropdown"] = "Multiple lines"
-            df_graphers.loc[
-                j, "Income measure Dropdown"
-            ] = f"{welfare['dropdown_option'][wel]}"
+            df_graphers.loc[j, "Income measure Dropdown"] = (
+                f"{welfare['dropdown_option'][wel]}"
+            )
             df_graphers.loc[
                 j,
                 "Adjust for cost sharing within households (equivalized income) Checkbox",
             ] = equivalence_scales["checkbox"][eq]
-            df_graphers.loc[
-                j, "subtitle"
-            ] = f"{welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
-            df_graphers.loc[
-                j, "note"
-            ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+            df_graphers.loc[j, "subtitle"] = (
+                f"{welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
+            )
+            df_graphers.loc[j, "note"] = (
+                f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+            )
             df_graphers.loc[j, "type"] = np.nan
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
             df_graphers.loc[j, "hasMapTab"] = "false"
@@ -870,27 +870,27 @@ for tab in range(len(tables)):
             j += 1
 
             # Poverty gap index - Multiple lines
-            df_graphers.loc[
-                j, "title"
-            ] = f"Poverty gap index at a range of poverty lines ({welfare['title'][wel]})"
-            df_graphers.loc[
-                j, "ySlugs"
-            ] = f"poverty_gap_index_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_100 poverty_gap_index_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_200 poverty_gap_index_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_500 poverty_gap_index_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_1000 poverty_gap_index_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_2000 poverty_gap_index_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_3000 poverty_gap_index_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_4000"
+            df_graphers.loc[j, "title"] = (
+                f"Poverty gap index at a range of poverty lines ({welfare['title'][wel]})"
+            )
+            df_graphers.loc[j, "ySlugs"] = (
+                f"poverty_gap_index_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_100 poverty_gap_index_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_200 poverty_gap_index_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_500 poverty_gap_index_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_1000 poverty_gap_index_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_2000 poverty_gap_index_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_3000 poverty_gap_index_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_4000"
+            )
             df_graphers.loc[j, "Indicator Dropdown"] = "Poverty gap index"
             df_graphers.loc[j, "Poverty line Dropdown"] = f"Multiple lines"
-            df_graphers.loc[
-                j, "Income measure Dropdown"
-            ] = f"{welfare['dropdown_option'][wel]}"
+            df_graphers.loc[j, "Income measure Dropdown"] = (
+                f"{welfare['dropdown_option'][wel]}"
+            )
             df_graphers.loc[
                 j,
                 "Adjust for cost sharing within households (equivalized income) Checkbox",
             ] = equivalence_scales["checkbox"][eq]
-            df_graphers.loc[
-                j, "subtitle"
-            ] = f"{welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
-            df_graphers.loc[
-                j, "note"
-            ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+            df_graphers.loc[j, "subtitle"] = (
+                f"{welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
+            )
+            df_graphers.loc[j, "note"] = (
+                f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+            )
             df_graphers.loc[j, "type"] = np.nan
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
             df_graphers.loc[j, "hasMapTab"] = "false"
@@ -900,26 +900,26 @@ for tab in range(len(tables)):
             # RELATIVE POVERTY
             # Headcount ratio (rel)
             for pct in range(len(povlines_rel)):
-                df_graphers.loc[
-                    j, "title"
-                ] = f"{povlines_rel['title_share'][pct]} ({welfare['title'][wel]})"
-                df_graphers.loc[
-                    j, "ySlugs"
-                ] = f"headcount_ratio_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
+                df_graphers.loc[j, "title"] = (
+                    f"{povlines_rel['title_share'][pct]} ({welfare['title'][wel]})"
+                )
+                df_graphers.loc[j, "ySlugs"] = (
+                    f"headcount_ratio_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
+                )
                 df_graphers.loc[j, "Indicator Dropdown"] = "Share in poverty"
-                df_graphers.loc[
-                    j, "Poverty line Dropdown"
-                ] = f"{povlines_rel['dropdown'][pct]}"
-                df_graphers.loc[
-                    j, "Income measure Dropdown"
-                ] = f"{welfare['dropdown_option'][wel]}"
+                df_graphers.loc[j, "Poverty line Dropdown"] = (
+                    f"{povlines_rel['dropdown'][pct]}"
+                )
+                df_graphers.loc[j, "Income measure Dropdown"] = (
+                    f"{welfare['dropdown_option'][wel]}"
+                )
                 df_graphers.loc[
                     j,
                     "Adjust for cost sharing within households (equivalized income) Checkbox",
                 ] = equivalence_scales["checkbox"][eq]
-                df_graphers.loc[
-                    j, "subtitle"
-                ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at {povlines_rel['text'][pct]} {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
+                df_graphers.loc[j, "subtitle"] = (
+                    f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at {povlines_rel['text'][pct]} {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
+                )
                 df_graphers.loc[j, "note"] = ""
                 df_graphers.loc[j, "type"] = np.nan
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -929,26 +929,26 @@ for tab in range(len(tables)):
 
             # Headcount (rel)
             for pct in range(len(povlines_rel)):
-                df_graphers.loc[
-                    j, "title"
-                ] = f"{povlines_rel['title_number'][pct]} ({welfare['title'][wel]})"
-                df_graphers.loc[
-                    j, "ySlugs"
-                ] = f"headcount_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
+                df_graphers.loc[j, "title"] = (
+                    f"{povlines_rel['title_number'][pct]} ({welfare['title'][wel]})"
+                )
+                df_graphers.loc[j, "ySlugs"] = (
+                    f"headcount_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
+                )
                 df_graphers.loc[j, "Indicator Dropdown"] = "Number in poverty"
-                df_graphers.loc[
-                    j, "Poverty line Dropdown"
-                ] = f"{povlines_rel['dropdown'][pct]}"
-                df_graphers.loc[
-                    j, "Income measure Dropdown"
-                ] = f"{welfare['dropdown_option'][wel]}"
+                df_graphers.loc[j, "Poverty line Dropdown"] = (
+                    f"{povlines_rel['dropdown'][pct]}"
+                )
+                df_graphers.loc[j, "Income measure Dropdown"] = (
+                    f"{welfare['dropdown_option'][wel]}"
+                )
                 df_graphers.loc[
                     j,
                     "Adjust for cost sharing within households (equivalized income) Checkbox",
                 ] = equivalence_scales["checkbox"][eq]
-                df_graphers.loc[
-                    j, "subtitle"
-                ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at {povlines_rel['text'][pct]} {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
+                df_graphers.loc[j, "subtitle"] = (
+                    f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at {povlines_rel['text'][pct]} {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
+                )
                 df_graphers.loc[j, "note"] = ""
                 df_graphers.loc[j, "type"] = np.nan
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -958,31 +958,31 @@ for tab in range(len(tables)):
 
             # Total shortfall (rel)
             for pct in range(len(povlines_rel)):
-                df_graphers.loc[
-                    j, "title"
-                ] = f"Total shortfall from a poverty line of {povlines_rel['text'][pct]} {welfare['welfare_type'][wel]} ({welfare['title'][wel]})"
-                df_graphers.loc[
-                    j, "ySlugs"
-                ] = f"total_shortfall_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
-                df_graphers.loc[
-                    j, "Indicator Dropdown"
-                ] = "Total shortfall from poverty line"
-                df_graphers.loc[
-                    j, "Poverty line Dropdown"
-                ] = f"{povlines_rel['dropdown'][pct]}"
-                df_graphers.loc[
-                    j, "Income measure Dropdown"
-                ] = f"{welfare['dropdown_option'][wel]}"
+                df_graphers.loc[j, "title"] = (
+                    f"Total shortfall from a poverty line of {povlines_rel['text'][pct]} {welfare['welfare_type'][wel]} ({welfare['title'][wel]})"
+                )
+                df_graphers.loc[j, "ySlugs"] = (
+                    f"total_shortfall_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
+                )
+                df_graphers.loc[j, "Indicator Dropdown"] = (
+                    "Total shortfall from poverty line"
+                )
+                df_graphers.loc[j, "Poverty line Dropdown"] = (
+                    f"{povlines_rel['dropdown'][pct]}"
+                )
+                df_graphers.loc[j, "Income measure Dropdown"] = (
+                    f"{welfare['dropdown_option'][wel]}"
+                )
                 df_graphers.loc[
                     j,
                     "Adjust for cost sharing within households (equivalized income) Checkbox",
                 ] = equivalence_scales["checkbox"][eq]
-                df_graphers.loc[
-                    j, "subtitle"
-                ] = f"This is the amount of money that would be theoretically needed to lift the incomes of all people in poverty up to {povlines_rel.text[pct]} {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
-                df_graphers.loc[
-                    j, "note"
-                ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+                df_graphers.loc[j, "subtitle"] = (
+                    f"This is the amount of money that would be theoretically needed to lift the incomes of all people in poverty up to {povlines_rel.text[pct]} {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
+                )
+                df_graphers.loc[j, "note"] = (
+                    f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+                )
                 df_graphers.loc[j, "type"] = np.nan
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
                 df_graphers.loc[j, "hasMapTab"] = "true"
@@ -991,29 +991,29 @@ for tab in range(len(tables)):
 
             # Average shortfall ($) (rel)
             for pct in range(len(povlines_rel)):
-                df_graphers.loc[
-                    j, "title"
-                ] = f"Average shortfall from a poverty line of {povlines_rel['text'][pct]} {welfare['welfare_type'][wel]} ({welfare['title'][wel]})"
-                df_graphers.loc[
-                    j, "ySlugs"
-                ] = f"avg_shortfall_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_day"
+                df_graphers.loc[j, "title"] = (
+                    f"Average shortfall from a poverty line of {povlines_rel['text'][pct]} {welfare['welfare_type'][wel]} ({welfare['title'][wel]})"
+                )
+                df_graphers.loc[j, "ySlugs"] = (
+                    f"avg_shortfall_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}_day"
+                )
                 df_graphers.loc[j, "Indicator Dropdown"] = "Average shortfall ($)"
-                df_graphers.loc[
-                    j, "Poverty line Dropdown"
-                ] = f"{povlines_rel['dropdown'][pct]}"
-                df_graphers.loc[
-                    j, "Income measure Dropdown"
-                ] = f"{welfare['dropdown_option'][wel]}"
+                df_graphers.loc[j, "Poverty line Dropdown"] = (
+                    f"{povlines_rel['dropdown'][pct]}"
+                )
+                df_graphers.loc[j, "Income measure Dropdown"] = (
+                    f"{welfare['dropdown_option'][wel]}"
+                )
                 df_graphers.loc[
                     j,
                     "Adjust for cost sharing within households (equivalized income) Checkbox",
                 ] = equivalence_scales["checkbox"][eq]
-                df_graphers.loc[
-                    j, "subtitle"
-                ] = f"This is the amount of money that would be theoretically needed to lift the incomes of all people in poverty up to {povlines_rel['text'][pct]} {welfare['welfare_type'][wel]}, averaged across the population in poverty. {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
-                df_graphers.loc[
-                    j, "note"
-                ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+                df_graphers.loc[j, "subtitle"] = (
+                    f"This is the amount of money that would be theoretically needed to lift the incomes of all people in poverty up to {povlines_rel['text'][pct]} {welfare['welfare_type'][wel]}, averaged across the population in poverty. {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
+                )
+                df_graphers.loc[j, "note"] = (
+                    f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+                )
                 df_graphers.loc[j, "type"] = np.nan
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
                 df_graphers.loc[j, "hasMapTab"] = "true"
@@ -1022,31 +1022,31 @@ for tab in range(len(tables)):
 
             # Average shortfall (% of poverty line) (rel)
             for pct in range(len(povlines_rel)):
-                df_graphers.loc[
-                    j, "title"
-                ] = f"Average shortfall from a poverty line of {povlines_rel['text'][pct]} {welfare['welfare_type'][wel]} (as a share of the poverty line) ({welfare['title'][wel]})"
-                df_graphers.loc[
-                    j, "ySlugs"
-                ] = f"income_gap_ratio_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
-                df_graphers.loc[
-                    j, "Indicator Dropdown"
-                ] = "Average shortfall (% of poverty line)"
-                df_graphers.loc[
-                    j, "Poverty line Dropdown"
-                ] = f"{povlines_rel['dropdown'][pct]}"
-                df_graphers.loc[
-                    j, "Income measure Dropdown"
-                ] = f"{welfare['dropdown_option'][wel]}"
+                df_graphers.loc[j, "title"] = (
+                    f"Average shortfall from a poverty line of {povlines_rel['text'][pct]} {welfare['welfare_type'][wel]} (as a share of the poverty line) ({welfare['title'][wel]})"
+                )
+                df_graphers.loc[j, "ySlugs"] = (
+                    f"income_gap_ratio_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
+                )
+                df_graphers.loc[j, "Indicator Dropdown"] = (
+                    "Average shortfall (% of poverty line)"
+                )
+                df_graphers.loc[j, "Poverty line Dropdown"] = (
+                    f"{povlines_rel['dropdown'][pct]}"
+                )
+                df_graphers.loc[j, "Income measure Dropdown"] = (
+                    f"{welfare['dropdown_option'][wel]}"
+                )
                 df_graphers.loc[
                     j,
                     "Adjust for cost sharing within households (equivalized income) Checkbox",
                 ] = equivalence_scales["checkbox"][eq]
-                df_graphers.loc[
-                    j, "subtitle"
-                ] = f'This is the average shortfall expressed as a share of the poverty line, sometimes called the "income gap ratio". It captures the depth of poverty of those living on less than {povlines_rel.text[pct]} {welfare.welfare_type[wel]}. {welfare.subtitle[wel]} {equivalence_scales.note[eq]}'
-                df_graphers.loc[
-                    j, "note"
-                ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+                df_graphers.loc[j, "subtitle"] = (
+                    f'This is the average shortfall expressed as a share of the poverty line, sometimes called the "income gap ratio". It captures the depth of poverty of those living on less than {povlines_rel.text[pct]} {welfare.welfare_type[wel]}. {welfare.subtitle[wel]} {equivalence_scales.note[eq]}'
+                )
+                df_graphers.loc[j, "note"] = (
+                    f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+                )
                 df_graphers.loc[j, "type"] = np.nan
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
                 df_graphers.loc[j, "hasMapTab"] = "true"
@@ -1055,29 +1055,29 @@ for tab in range(len(tables)):
 
             # Poverty gap index (rel)
             for pct in range(len(povlines_rel)):
-                df_graphers.loc[
-                    j, "title"
-                ] = f"Poverty gap index at {povlines_rel['text'][pct]} {welfare['welfare_type'][wel]} ({welfare['title'][wel]})"
-                df_graphers.loc[
-                    j, "ySlugs"
-                ] = f"poverty_gap_index_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
+                df_graphers.loc[j, "title"] = (
+                    f"Poverty gap index at {povlines_rel['text'][pct]} {welfare['welfare_type'][wel]} ({welfare['title'][wel]})"
+                )
+                df_graphers.loc[j, "ySlugs"] = (
+                    f"poverty_gap_index_{povlines_rel['slug_suffix'][pct]}_{welfare['slug'][wel]}_{equivalence_scales['slug'][eq]}"
+                )
                 df_graphers.loc[j, "Indicator Dropdown"] = "Poverty gap index"
-                df_graphers.loc[
-                    j, "Poverty line Dropdown"
-                ] = f"{povlines_rel['dropdown'][pct]}"
-                df_graphers.loc[
-                    j, "Income measure Dropdown"
-                ] = f"{welfare['dropdown_option'][wel]}"
+                df_graphers.loc[j, "Poverty line Dropdown"] = (
+                    f"{povlines_rel['dropdown'][pct]}"
+                )
+                df_graphers.loc[j, "Income measure Dropdown"] = (
+                    f"{welfare['dropdown_option'][wel]}"
+                )
                 df_graphers.loc[
                     j,
                     "Adjust for cost sharing within households (equivalized income) Checkbox",
                 ] = equivalence_scales["checkbox"][eq]
-                df_graphers.loc[
-                    j, "subtitle"
-                ] = f"The poverty gap index is a poverty measure that reflects both the prevalence and the depth of poverty. It is calculated as the share of population in poverty multiplied by the average shortfall from the poverty line (expressed as a % of the poverty line). {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
-                df_graphers.loc[
-                    j, "note"
-                ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+                df_graphers.loc[j, "subtitle"] = (
+                    f"The poverty gap index is a poverty measure that reflects both the prevalence and the depth of poverty. It is calculated as the share of population in poverty multiplied by the average shortfall from the poverty line (expressed as a % of the poverty line). {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
+                )
+                df_graphers.loc[j, "note"] = (
+                    f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+                )
                 df_graphers.loc[j, "type"] = np.nan
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
                 df_graphers.loc[j, "hasMapTab"] = "true"
@@ -1087,27 +1087,27 @@ for tab in range(len(tables)):
         # BEFORE VS. AFTER TAX
         # Headcount ratio (abs)
         for p in range(len(povlines_abs)):
-            df_graphers.loc[
-                j, "title"
-            ] = f"{povlines_abs['title_share'][p]} (After vs. before tax)"
-            df_graphers.loc[
-                j, "ySlugs"
-            ] = f"headcount_ratio_mi_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]} headcount_ratio_dhi_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
+            df_graphers.loc[j, "title"] = (
+                f"{povlines_abs['title_share'][p]} (After vs. before tax)"
+            )
+            df_graphers.loc[j, "ySlugs"] = (
+                f"headcount_ratio_mi_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]} headcount_ratio_dhi_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
+            )
             df_graphers.loc[j, "Indicator Dropdown"] = "Share in poverty"
-            df_graphers.loc[
-                j, "Poverty line Dropdown"
-            ] = f"{povlines_abs['povline_dropdown'][p]}"
+            df_graphers.loc[j, "Poverty line Dropdown"] = (
+                f"{povlines_abs['povline_dropdown'][p]}"
+            )
             df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
             df_graphers.loc[
                 j,
                 "Adjust for cost sharing within households (equivalized income) Checkbox",
             ] = equivalence_scales["checkbox"][eq]
-            df_graphers.loc[
-                j, "subtitle"
-            ] = f"{povlines_abs['subtitle'][p]} {equivalence_scales['subtitle'][eq]}"
-            df_graphers.loc[
-                j, "note"
-            ] = f"This data is expressed in international-$ at 2017 prices."
+            df_graphers.loc[j, "subtitle"] = (
+                f"{povlines_abs['subtitle'][p]} {equivalence_scales['subtitle'][eq]}"
+            )
+            df_graphers.loc[j, "note"] = (
+                f"This data is expressed in international-$ at 2017 prices."
+            )
             df_graphers.loc[j, "type"] = np.nan
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
             df_graphers.loc[j, "hasMapTab"] = "false"
@@ -1116,27 +1116,27 @@ for tab in range(len(tables)):
 
         # Headcount (abs)
         for p in range(len(povlines_abs)):
-            df_graphers.loc[
-                j, "title"
-            ] = f"{povlines_abs.title_number[p]} (After vs. before tax)"
-            df_graphers.loc[
-                j, "ySlugs"
-            ] = f"headcount_mi_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]} headcount_dhi_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
+            df_graphers.loc[j, "title"] = (
+                f"{povlines_abs.title_number[p]} (After vs. before tax)"
+            )
+            df_graphers.loc[j, "ySlugs"] = (
+                f"headcount_mi_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]} headcount_dhi_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
+            )
             df_graphers.loc[j, "Indicator Dropdown"] = "Number in poverty"
-            df_graphers.loc[
-                j, "Poverty line Dropdown"
-            ] = f"{povlines_abs['povline_dropdown'][p]}"
+            df_graphers.loc[j, "Poverty line Dropdown"] = (
+                f"{povlines_abs['povline_dropdown'][p]}"
+            )
             df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
             df_graphers.loc[
                 j,
                 "Adjust for cost sharing within households (equivalized income) Checkbox",
             ] = equivalence_scales["checkbox"][eq]
-            df_graphers.loc[
-                j, "subtitle"
-            ] = f"{povlines_abs['subtitle'][p]} {equivalence_scales['subtitle'][eq]}"
-            df_graphers.loc[
-                j, "note"
-            ] = f"This data is expressed in international-$ at 2017 prices."
+            df_graphers.loc[j, "subtitle"] = (
+                f"{povlines_abs['subtitle'][p]} {equivalence_scales['subtitle'][eq]}"
+            )
+            df_graphers.loc[j, "note"] = (
+                f"This data is expressed in international-$ at 2017 prices."
+            )
             df_graphers.loc[j, "type"] = np.nan
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
             df_graphers.loc[j, "hasMapTab"] = "false"
@@ -1145,29 +1145,29 @@ for tab in range(len(tables)):
 
         # Total shortfall (abs)
         for p in range(len(povlines_abs)):
-            df_graphers.loc[
-                j, "title"
-            ] = f"{povlines_abs['title_total_shortfall'][p]} (After vs. before tax)"
-            df_graphers.loc[
-                j, "ySlugs"
-            ] = f"total_shortfall_mi_{equivalence_scales['slug'][eq]}_{povlines_abs.cents[p]} total_shortfall_dhi_{equivalence_scales['slug'][eq]}_{povlines_abs.cents[p]}"
-            df_graphers.loc[
-                j, "Indicator Dropdown"
-            ] = "Total shortfall from poverty line"
-            df_graphers.loc[
-                j, "Poverty line Dropdown"
-            ] = f"{povlines_abs['povline_dropdown'][p]}"
+            df_graphers.loc[j, "title"] = (
+                f"{povlines_abs['title_total_shortfall'][p]} (After vs. before tax)"
+            )
+            df_graphers.loc[j, "ySlugs"] = (
+                f"total_shortfall_mi_{equivalence_scales['slug'][eq]}_{povlines_abs.cents[p]} total_shortfall_dhi_{equivalence_scales['slug'][eq]}_{povlines_abs.cents[p]}"
+            )
+            df_graphers.loc[j, "Indicator Dropdown"] = (
+                "Total shortfall from poverty line"
+            )
+            df_graphers.loc[j, "Poverty line Dropdown"] = (
+                f"{povlines_abs['povline_dropdown'][p]}"
+            )
             df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
             df_graphers.loc[
                 j,
                 "Adjust for cost sharing within households (equivalized income) Checkbox",
             ] = equivalence_scales["checkbox"][eq]
-            df_graphers.loc[
-                j, "subtitle"
-            ] = f"{povlines_abs['subtitle_total_shortfall'][p]} {equivalence_scales['subtitle'][eq]}"
-            df_graphers.loc[
-                j, "note"
-            ] = "This data is expressed in international-$ at 2017 prices. The cost of closing the poverty gap does not take into account costs and inefficiencies from making the necessary transfers."
+            df_graphers.loc[j, "subtitle"] = (
+                f"{povlines_abs['subtitle_total_shortfall'][p]} {equivalence_scales['subtitle'][eq]}"
+            )
+            df_graphers.loc[j, "note"] = (
+                "This data is expressed in international-$ at 2017 prices. The cost of closing the poverty gap does not take into account costs and inefficiencies from making the necessary transfers."
+            )
             df_graphers.loc[j, "type"] = np.nan
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
             df_graphers.loc[j, "hasMapTab"] = "false"
@@ -1176,27 +1176,27 @@ for tab in range(len(tables)):
 
         # Average shortfall ($)
         for p in range(len(povlines_abs)):
-            df_graphers.loc[
-                j, "title"
-            ] = f"{povlines_abs['title_avg_shortfall'][p]} (After vs. before tax)"
-            df_graphers.loc[
-                j, "ySlugs"
-            ] = f"avg_shortfall_mi_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}_day avg_shortfall_dhi_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}_day"
+            df_graphers.loc[j, "title"] = (
+                f"{povlines_abs['title_avg_shortfall'][p]} (After vs. before tax)"
+            )
+            df_graphers.loc[j, "ySlugs"] = (
+                f"avg_shortfall_mi_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}_day avg_shortfall_dhi_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}_day"
+            )
             df_graphers.loc[j, "Indicator Dropdown"] = "Average shortfall ($)"
-            df_graphers.loc[
-                j, "Poverty line Dropdown"
-            ] = f"{povlines_abs['povline_dropdown'][p]}"
+            df_graphers.loc[j, "Poverty line Dropdown"] = (
+                f"{povlines_abs['povline_dropdown'][p]}"
+            )
             df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
             df_graphers.loc[
                 j,
                 "Adjust for cost sharing within households (equivalized income) Checkbox",
             ] = equivalence_scales["checkbox"][eq]
-            df_graphers.loc[
-                j, "subtitle"
-            ] = f"{povlines_abs['subtitle_avg_shortfall'][p]} {equivalence_scales['subtitle'][eq]}"
-            df_graphers.loc[
-                j, "note"
-            ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+            df_graphers.loc[j, "subtitle"] = (
+                f"{povlines_abs['subtitle_avg_shortfall'][p]} {equivalence_scales['subtitle'][eq]}"
+            )
+            df_graphers.loc[j, "note"] = (
+                f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+            )
             df_graphers.loc[j, "type"] = np.nan
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
             df_graphers.loc[j, "hasMapTab"] = "false"
@@ -1205,29 +1205,29 @@ for tab in range(len(tables)):
 
         # Average shortfall (% of poverty line)
         for p in range(len(povlines_abs)):
-            df_graphers.loc[
-                j, "title"
-            ] = f"{povlines_abs['title_income_gap_ratio'][p]} (After vs. before tax)"
-            df_graphers.loc[
-                j, "ySlugs"
-            ] = f"income_gap_ratio_mi_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]} income_gap_ratio_dhi_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
-            df_graphers.loc[
-                j, "Indicator Dropdown"
-            ] = "Average shortfall (% of poverty line)"
-            df_graphers.loc[
-                j, "Poverty line Dropdown"
-            ] = f"{povlines_abs.povline_dropdown[p]}"
+            df_graphers.loc[j, "title"] = (
+                f"{povlines_abs['title_income_gap_ratio'][p]} (After vs. before tax)"
+            )
+            df_graphers.loc[j, "ySlugs"] = (
+                f"income_gap_ratio_mi_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]} income_gap_ratio_dhi_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
+            )
+            df_graphers.loc[j, "Indicator Dropdown"] = (
+                "Average shortfall (% of poverty line)"
+            )
+            df_graphers.loc[j, "Poverty line Dropdown"] = (
+                f"{povlines_abs.povline_dropdown[p]}"
+            )
             df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
             df_graphers.loc[
                 j,
                 "Adjust for cost sharing within households (equivalized income) Checkbox",
             ] = equivalence_scales["checkbox"][eq]
-            df_graphers.loc[
-                j, "subtitle"
-            ] = f"{povlines_abs['subtitle_income_gap_ratio'][p]} {equivalence_scales['subtitle'][eq]}"
-            df_graphers.loc[
-                j, "note"
-            ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+            df_graphers.loc[j, "subtitle"] = (
+                f"{povlines_abs['subtitle_income_gap_ratio'][p]} {equivalence_scales['subtitle'][eq]}"
+            )
+            df_graphers.loc[j, "note"] = (
+                f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+            )
             df_graphers.loc[j, "type"] = np.nan
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
             df_graphers.loc[j, "hasMapTab"] = "false"
@@ -1236,27 +1236,27 @@ for tab in range(len(tables)):
 
         # Poverty gap index
         for p in range(len(povlines_abs)):
-            df_graphers.loc[
-                j, "title"
-            ] = f"Poverty gap index at ${povlines_abs['dollars_text'][p]} a day (After vs. before tax)"
-            df_graphers.loc[
-                j, "ySlugs"
-            ] = f"poverty_gap_index_mi_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]} poverty_gap_index_dhi_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
+            df_graphers.loc[j, "title"] = (
+                f"Poverty gap index at ${povlines_abs['dollars_text'][p]} a day (After vs. before tax)"
+            )
+            df_graphers.loc[j, "ySlugs"] = (
+                f"poverty_gap_index_mi_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]} poverty_gap_index_dhi_{equivalence_scales['slug'][eq]}_{povlines_abs['cents'][p]}"
+            )
             df_graphers.loc[j, "Indicator Dropdown"] = "Poverty gap index"
-            df_graphers.loc[
-                j, "Poverty line Dropdown"
-            ] = f"{povlines_abs['povline_dropdown'][p]}"
+            df_graphers.loc[j, "Poverty line Dropdown"] = (
+                f"{povlines_abs['povline_dropdown'][p]}"
+            )
             df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
             df_graphers.loc[
                 j,
                 "Adjust for cost sharing within households (equivalized income) Checkbox",
             ] = equivalence_scales["checkbox"][eq]
-            df_graphers.loc[
-                j, "subtitle"
-            ] = f"The poverty gap index is a poverty measure that reflects both the prevalence and the depth of poverty. It is calculated as the share of population in poverty multiplied by the average shortfall from the poverty line (expressed as a % of the poverty line). {equivalence_scales['subtitle'][eq]}"
-            df_graphers.loc[
-                j, "note"
-            ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+            df_graphers.loc[j, "subtitle"] = (
+                f"The poverty gap index is a poverty measure that reflects both the prevalence and the depth of poverty. It is calculated as the share of population in poverty multiplied by the average shortfall from the poverty line (expressed as a % of the poverty line). {equivalence_scales['subtitle'][eq]}"
+            )
+            df_graphers.loc[j, "note"] = (
+                f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+            )
             df_graphers.loc[j, "type"] = np.nan
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
             df_graphers.loc[j, "hasMapTab"] = "false"
@@ -1265,24 +1265,24 @@ for tab in range(len(tables)):
 
         # Headcount ratio (rel)
         for pct in range(len(povlines_rel)):
-            df_graphers.loc[
-                j, "title"
-            ] = f"{povlines_rel['title_share'][pct]} (After vs. before tax)"
-            df_graphers.loc[
-                j, "ySlugs"
-            ] = f"headcount_ratio_{povlines_rel['slug_suffix'][pct]}_mi_{equivalence_scales['slug'][eq]} headcount_ratio_{povlines_rel['slug_suffix'][pct]}_dhi_{equivalence_scales['slug'][eq]}"
+            df_graphers.loc[j, "title"] = (
+                f"{povlines_rel['title_share'][pct]} (After vs. before tax)"
+            )
+            df_graphers.loc[j, "ySlugs"] = (
+                f"headcount_ratio_{povlines_rel['slug_suffix'][pct]}_mi_{equivalence_scales['slug'][eq]} headcount_ratio_{povlines_rel['slug_suffix'][pct]}_dhi_{equivalence_scales['slug'][eq]}"
+            )
             df_graphers.loc[j, "Indicator Dropdown"] = "Share in poverty"
-            df_graphers.loc[
-                j, "Poverty line Dropdown"
-            ] = f"{povlines_rel['dropdown'][pct]}"
+            df_graphers.loc[j, "Poverty line Dropdown"] = (
+                f"{povlines_rel['dropdown'][pct]}"
+            )
             df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
             df_graphers.loc[
                 j,
                 "Adjust for cost sharing within households (equivalized income) Checkbox",
             ] = equivalence_scales["checkbox"][eq]
-            df_graphers.loc[
-                j, "subtitle"
-            ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at {povlines_rel['text'][pct]} income. {equivalence_scales['subtitle'][eq]}"
+            df_graphers.loc[j, "subtitle"] = (
+                f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at {povlines_rel['text'][pct]} income. {equivalence_scales['subtitle'][eq]}"
+            )
             df_graphers.loc[j, "note"] = ""
             df_graphers.loc[j, "type"] = np.nan
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
@@ -1292,24 +1292,24 @@ for tab in range(len(tables)):
 
         # Headcount (rel)
         for pct in range(len(povlines_rel)):
-            df_graphers.loc[
-                j, "title"
-            ] = f"{povlines_rel['title_number'][pct]} (After vs. before tax)"
-            df_graphers.loc[
-                j, "ySlugs"
-            ] = f"headcount_{povlines_rel['slug_suffix'][pct]}_mi_{equivalence_scales['slug'][eq]} headcount_{povlines_rel['slug_suffix'][pct]}_dhi_{equivalence_scales['slug'][eq]}"
+            df_graphers.loc[j, "title"] = (
+                f"{povlines_rel['title_number'][pct]} (After vs. before tax)"
+            )
+            df_graphers.loc[j, "ySlugs"] = (
+                f"headcount_{povlines_rel['slug_suffix'][pct]}_mi_{equivalence_scales['slug'][eq]} headcount_{povlines_rel['slug_suffix'][pct]}_dhi_{equivalence_scales['slug'][eq]}"
+            )
             df_graphers.loc[j, "Indicator Dropdown"] = "Number in poverty"
-            df_graphers.loc[
-                j, "Poverty line Dropdown"
-            ] = f"{povlines_rel['dropdown'][pct]}"
+            df_graphers.loc[j, "Poverty line Dropdown"] = (
+                f"{povlines_rel['dropdown'][pct]}"
+            )
             df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
             df_graphers.loc[
                 j,
                 "Adjust for cost sharing within households (equivalized income) Checkbox",
             ] = equivalence_scales["checkbox"][eq]
-            df_graphers.loc[
-                j, "subtitle"
-            ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at {povlines_rel['text'][pct]} income. {equivalence_scales['subtitle'][eq]}"
+            df_graphers.loc[j, "subtitle"] = (
+                f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at {povlines_rel['text'][pct]} income. {equivalence_scales['subtitle'][eq]}"
+            )
             df_graphers.loc[j, "note"] = ""
             df_graphers.loc[j, "type"] = np.nan
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
@@ -1319,29 +1319,29 @@ for tab in range(len(tables)):
 
         # Total shortfall (rel)
         for pct in range(len(povlines_rel)):
-            df_graphers.loc[
-                j, "title"
-            ] = f"Total shortfall from a poverty line of {povlines_rel['text'][pct]} income (After vs. before tax)"
-            df_graphers.loc[
-                j, "ySlugs"
-            ] = f"total_shortfall_{povlines_rel['slug_suffix'][pct]}_mi_{equivalence_scales['slug'][eq]} total_shortfall_{povlines_rel['slug_suffix'][pct]}_dhi_{equivalence_scales['slug'][eq]}"
-            df_graphers.loc[
-                j, "Indicator Dropdown"
-            ] = "Total shortfall from poverty line"
-            df_graphers.loc[
-                j, "Poverty line Dropdown"
-            ] = f"{povlines_rel['dropdown'][pct]}"
+            df_graphers.loc[j, "title"] = (
+                f"Total shortfall from a poverty line of {povlines_rel['text'][pct]} income (After vs. before tax)"
+            )
+            df_graphers.loc[j, "ySlugs"] = (
+                f"total_shortfall_{povlines_rel['slug_suffix'][pct]}_mi_{equivalence_scales['slug'][eq]} total_shortfall_{povlines_rel['slug_suffix'][pct]}_dhi_{equivalence_scales['slug'][eq]}"
+            )
+            df_graphers.loc[j, "Indicator Dropdown"] = (
+                "Total shortfall from poverty line"
+            )
+            df_graphers.loc[j, "Poverty line Dropdown"] = (
+                f"{povlines_rel['dropdown'][pct]}"
+            )
             df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
             df_graphers.loc[
                 j,
                 "Adjust for cost sharing within households (equivalized income) Checkbox",
             ] = equivalence_scales["checkbox"][eq]
-            df_graphers.loc[
-                j, "subtitle"
-            ] = f"This is the amount of money that would be theoretically needed to lift the incomes of all people in poverty up to {povlines_rel.text[pct]} income. {equivalence_scales['subtitle'][eq]}"
-            df_graphers.loc[
-                j, "note"
-            ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+            df_graphers.loc[j, "subtitle"] = (
+                f"This is the amount of money that would be theoretically needed to lift the incomes of all people in poverty up to {povlines_rel.text[pct]} income. {equivalence_scales['subtitle'][eq]}"
+            )
+            df_graphers.loc[j, "note"] = (
+                f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+            )
             df_graphers.loc[j, "type"] = np.nan
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
             df_graphers.loc[j, "hasMapTab"] = "false"
@@ -1350,27 +1350,27 @@ for tab in range(len(tables)):
 
         # Average shortfall ($) (rel)
         for pct in range(len(povlines_rel)):
-            df_graphers.loc[
-                j, "title"
-            ] = f"Average shortfall from a poverty line of {povlines_rel['text'][pct]} income (After vs. before tax)"
-            df_graphers.loc[
-                j, "ySlugs"
-            ] = f"avg_shortfall_{povlines_rel['slug_suffix'][pct]}_mi_{equivalence_scales['slug'][eq]}_day avg_shortfall_{povlines_rel['slug_suffix'][pct]}_dhi_{equivalence_scales['slug'][eq]}_day"
+            df_graphers.loc[j, "title"] = (
+                f"Average shortfall from a poverty line of {povlines_rel['text'][pct]} income (After vs. before tax)"
+            )
+            df_graphers.loc[j, "ySlugs"] = (
+                f"avg_shortfall_{povlines_rel['slug_suffix'][pct]}_mi_{equivalence_scales['slug'][eq]}_day avg_shortfall_{povlines_rel['slug_suffix'][pct]}_dhi_{equivalence_scales['slug'][eq]}_day"
+            )
             df_graphers.loc[j, "Indicator Dropdown"] = "Average shortfall ($)"
-            df_graphers.loc[
-                j, "Poverty line Dropdown"
-            ] = f"{povlines_rel['dropdown'][pct]}"
+            df_graphers.loc[j, "Poverty line Dropdown"] = (
+                f"{povlines_rel['dropdown'][pct]}"
+            )
             df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
             df_graphers.loc[
                 j,
                 "Adjust for cost sharing within households (equivalized income) Checkbox",
             ] = equivalence_scales["checkbox"][eq]
-            df_graphers.loc[
-                j, "subtitle"
-            ] = f"This is the amount of money that would be theoretically needed to lift the incomes of all people in poverty up to {povlines_rel['text'][pct]} income, averaged across the population in poverty. {equivalence_scales['subtitle'][eq]}"
-            df_graphers.loc[
-                j, "note"
-            ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+            df_graphers.loc[j, "subtitle"] = (
+                f"This is the amount of money that would be theoretically needed to lift the incomes of all people in poverty up to {povlines_rel['text'][pct]} income, averaged across the population in poverty. {equivalence_scales['subtitle'][eq]}"
+            )
+            df_graphers.loc[j, "note"] = (
+                f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+            )
             df_graphers.loc[j, "type"] = np.nan
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
             df_graphers.loc[j, "hasMapTab"] = "false"
@@ -1379,29 +1379,29 @@ for tab in range(len(tables)):
 
         # Average shortfall (% of poverty line) (rel)
         for pct in range(len(povlines_rel)):
-            df_graphers.loc[
-                j, "title"
-            ] = f"Average shortfall from a poverty line of {povlines_rel['text'][pct]} income (as a share of the poverty line) (After vs. before tax)"
-            df_graphers.loc[
-                j, "ySlugs"
-            ] = f"income_gap_ratio_{povlines_rel['slug_suffix'][pct]}_mi_{equivalence_scales['slug'][eq]} income_gap_ratio_{povlines_rel['slug_suffix'][pct]}_dhi_{equivalence_scales['slug'][eq]}"
-            df_graphers.loc[
-                j, "Indicator Dropdown"
-            ] = "Average shortfall (% of poverty line)"
-            df_graphers.loc[
-                j, "Poverty line Dropdown"
-            ] = f"{povlines_rel['dropdown'][pct]}"
+            df_graphers.loc[j, "title"] = (
+                f"Average shortfall from a poverty line of {povlines_rel['text'][pct]} income (as a share of the poverty line) (After vs. before tax)"
+            )
+            df_graphers.loc[j, "ySlugs"] = (
+                f"income_gap_ratio_{povlines_rel['slug_suffix'][pct]}_mi_{equivalence_scales['slug'][eq]} income_gap_ratio_{povlines_rel['slug_suffix'][pct]}_dhi_{equivalence_scales['slug'][eq]}"
+            )
+            df_graphers.loc[j, "Indicator Dropdown"] = (
+                "Average shortfall (% of poverty line)"
+            )
+            df_graphers.loc[j, "Poverty line Dropdown"] = (
+                f"{povlines_rel['dropdown'][pct]}"
+            )
             df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
             df_graphers.loc[
                 j,
                 "Adjust for cost sharing within households (equivalized income) Checkbox",
             ] = equivalence_scales["checkbox"][eq]
-            df_graphers.loc[
-                j, "subtitle"
-            ] = f'This is the average shortfall expressed as a share of the poverty line, sometimes called the "income gap ratio". It captures the depth of poverty of those living on less than {povlines_rel.text[pct]} income. {equivalence_scales.note[eq]}'
-            df_graphers.loc[
-                j, "note"
-            ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+            df_graphers.loc[j, "subtitle"] = (
+                f'This is the average shortfall expressed as a share of the poverty line, sometimes called the "income gap ratio". It captures the depth of poverty of those living on less than {povlines_rel.text[pct]} income. {equivalence_scales.note[eq]}'
+            )
+            df_graphers.loc[j, "note"] = (
+                f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+            )
             df_graphers.loc[j, "type"] = np.nan
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
             df_graphers.loc[j, "hasMapTab"] = "false"
@@ -1410,27 +1410,27 @@ for tab in range(len(tables)):
 
         # Poverty gap index (rel)
         for pct in range(len(povlines_rel)):
-            df_graphers.loc[
-                j, "title"
-            ] = f"Poverty gap index at {povlines_rel['text'][pct]} income (After vs. before tax)"
-            df_graphers.loc[
-                j, "ySlugs"
-            ] = f"poverty_gap_index_{povlines_rel['slug_suffix'][pct]}_mi_{equivalence_scales['slug'][eq]} poverty_gap_index_{povlines_rel['slug_suffix'][pct]}_dhi_{equivalence_scales['slug'][eq]}"
+            df_graphers.loc[j, "title"] = (
+                f"Poverty gap index at {povlines_rel['text'][pct]} income (After vs. before tax)"
+            )
+            df_graphers.loc[j, "ySlugs"] = (
+                f"poverty_gap_index_{povlines_rel['slug_suffix'][pct]}_mi_{equivalence_scales['slug'][eq]} poverty_gap_index_{povlines_rel['slug_suffix'][pct]}_dhi_{equivalence_scales['slug'][eq]}"
+            )
             df_graphers.loc[j, "Indicator Dropdown"] = "Poverty gap index"
-            df_graphers.loc[
-                j, "Poverty line Dropdown"
-            ] = f"{povlines_rel['dropdown'][pct]}"
+            df_graphers.loc[j, "Poverty line Dropdown"] = (
+                f"{povlines_rel['dropdown'][pct]}"
+            )
             df_graphers.loc[j, "Income measure Dropdown"] = "After tax vs. before tax"
             df_graphers.loc[
                 j,
                 "Adjust for cost sharing within households (equivalized income) Checkbox",
             ] = equivalence_scales["checkbox"][eq]
-            df_graphers.loc[
-                j, "subtitle"
-            ] = f"The poverty gap index is a poverty measure that reflects both the prevalence and the depth of poverty. It is calculated as the share of population in poverty multiplied by the average shortfall from the poverty line (expressed as a % of the poverty line). {equivalence_scales['subtitle'][eq]}"
-            df_graphers.loc[
-                j, "note"
-            ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+            df_graphers.loc[j, "subtitle"] = (
+                f"The poverty gap index is a poverty measure that reflects both the prevalence and the depth of poverty. It is calculated as the share of population in poverty multiplied by the average shortfall from the poverty line (expressed as a % of the poverty line). {equivalence_scales['subtitle'][eq]}"
+            )
+            df_graphers.loc[j, "note"] = (
+                f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+            )
             df_graphers.loc[j, "type"] = np.nan
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
             df_graphers.loc[j, "hasMapTab"] = "false"

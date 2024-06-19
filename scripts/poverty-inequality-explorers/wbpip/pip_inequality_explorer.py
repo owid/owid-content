@@ -127,9 +127,9 @@ for survey in range(len(survey_type)):
     j += 1
 
     # Share of the top 10%
-    df_tables.loc[
-        j, "name"
-    ] = f"{survey_type.text[survey].capitalize()} share of the richest 10%"
+    df_tables.loc[j, "name"] = (
+        f"{survey_type.text[survey].capitalize()} share of the richest 10%"
+    )
     df_tables.loc[j, "slug"] = f"decile10_share"
     df_tables.loc[j, "description"] = new_line.join(
         [
@@ -247,7 +247,7 @@ for i in range(len(df_tables)):
     df_spells.loc[j, "survey_type"] = df_tables.survey_type[i]
     j += 1
 
-    for c_spell in range(1, CONSUMPTION_SPELLS_PIP+1):
+    for c_spell in range(1, CONSUMPTION_SPELLS_PIP + 1):
         df_spells.loc[j, "master_var"] = df_tables.slug[i]
         df_spells.loc[j, "name"] = "Consumption surveys"
         df_spells.loc[j, "slug"] = f"consumption_spell_{c_spell}"
@@ -259,9 +259,9 @@ for i in range(len(df_tables)):
         df_spells.loc[j, "shortUnit"] = df_tables.shortUnit[i]
         df_spells.loc[j, "tolerance"] = df_tables.tolerance[i]
         df_spells.loc[j, "type"] = df_tables.type[i]
-        df_spells.loc[
-            j, "colorScaleNumericMinValue"
-        ] = df_tables.colorScaleNumericMinValue[i]
+        df_spells.loc[j, "colorScaleNumericMinValue"] = (
+            df_tables.colorScaleNumericMinValue[i]
+        )
         df_spells.loc[j, "colorScaleNumericBins"] = df_tables.colorScaleNumericBins[i]
         df_spells.loc[j, "colorScaleEqualSizeBins"] = df_tables.colorScaleEqualSizeBins[
             i
@@ -270,7 +270,7 @@ for i in range(len(df_tables)):
         df_spells.loc[j, "survey_type"] = df_tables.survey_type[i]
         j += 1
 
-    for i_spell in range(1, INCOME_SPELLS_PIP+1):
+    for i_spell in range(1, INCOME_SPELLS_PIP + 1):
         df_spells.loc[j, "master_var"] = df_tables.slug[i]
         df_spells.loc[j, "name"] = "Income surveys"
         df_spells.loc[j, "slug"] = f"income_spell_{i_spell}"
@@ -282,9 +282,9 @@ for i in range(len(df_tables)):
         df_spells.loc[j, "shortUnit"] = df_tables.shortUnit[i]
         df_spells.loc[j, "tolerance"] = df_tables.tolerance[i]
         df_spells.loc[j, "type"] = df_tables.type[i]
-        df_spells.loc[
-            j, "colorScaleNumericMinValue"
-        ] = df_tables.colorScaleNumericMinValue[i]
+        df_spells.loc[j, "colorScaleNumericMinValue"] = (
+            df_tables.colorScaleNumericMinValue[i]
+        )
         df_spells.loc[j, "colorScaleNumericBins"] = df_tables.colorScaleNumericBins[i]
         df_spells.loc[j, "colorScaleEqualSizeBins"] = df_tables.colorScaleEqualSizeBins[
             i
@@ -294,9 +294,9 @@ for i in range(len(df_tables)):
         j += 1
 
 # Delete rows for country and year
-df_spells = df_spells[(df_spells["master_var"]!="country") & (df_spells['master_var']!="year")].reset_index(
-    drop=True
-)
+df_spells = df_spells[
+    (df_spells["master_var"] != "country") & (df_spells["master_var"] != "year")
+].reset_index(drop=True)
 
 # Make tolerance integer (to not break the parameter in the platform)
 df_spells["tolerance"] = df_spells["tolerance"].astype("Int64")
@@ -317,13 +317,13 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, "title"] = f"Gini coefficient"
     df_graphers.loc[j, "ySlugs"] = f"gini"
     df_graphers.loc[j, "Indicator Dropdown"] = "Gini coefficient"
-    df_graphers.loc[
-        j, "Household survey data type Dropdown"
-    ] = f"{survey_type.dropdown_option[survey]}"
+    df_graphers.loc[j, "Household survey data type Dropdown"] = (
+        f"{survey_type.dropdown_option[survey]}"
+    )
     df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
-    df_graphers.loc[
-        j, "subtitle"
-    ] = f"The Gini coefficient measures inequality on a scale from 0 to 1. Higher values indicate higher inequality. Depending on the country and year, the data relates to {survey_type.detailed_text[survey]} per capita."
+    df_graphers.loc[j, "subtitle"] = (
+        f"The Gini coefficient measures inequality on a scale from 0 to 1. Higher values indicate higher inequality. Depending on the country and year, the data relates to {survey_type.detailed_text[survey]} per capita."
+    )
     df_graphers.loc[j, "note"] = ""
     df_graphers.loc[j, "type"] = np.nan
     df_graphers.loc[j, "yAxisMin"] = yAxisMin
@@ -335,21 +335,21 @@ for survey in range(len(survey_type)):
     j += 1
 
     # Share of the top 10%
-    df_graphers.loc[
-        j, "title"
-    ] = f"{survey_type.text[survey].capitalize()} share of the richest 10%"
+    df_graphers.loc[j, "title"] = (
+        f"{survey_type.text[survey].capitalize()} share of the richest 10%"
+    )
     df_graphers.loc[j, "ySlugs"] = f"decile10_share"
     df_graphers.loc[j, "Indicator Dropdown"] = "Share of the richest 10%"
-    df_graphers.loc[
-        j, "Household survey data type Dropdown"
-    ] = f"{survey_type.dropdown_option[survey]}"
+    df_graphers.loc[j, "Household survey data type Dropdown"] = (
+        f"{survey_type.dropdown_option[survey]}"
+    )
     df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
-    df_graphers.loc[
-        j, "subtitle"
-    ] = f"The share of {survey_type.text_ineq[survey]} received by the richest 10% of the population."
-    df_graphers.loc[
-        j, "note"
-    ] = f"Depending on the country and year, the data relates to {survey_type.detailed_text[survey]} per capita."
+    df_graphers.loc[j, "subtitle"] = (
+        f"The share of {survey_type.text_ineq[survey]} received by the richest 10% of the population."
+    )
+    df_graphers.loc[j, "note"] = (
+        f"Depending on the country and year, the data relates to {survey_type.detailed_text[survey]} per capita."
+    )
     df_graphers.loc[j, "type"] = np.nan
     df_graphers.loc[j, "yAxisMin"] = yAxisMin
     df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -363,13 +363,13 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, "title"] = f"Palma ratio"
     df_graphers.loc[j, "ySlugs"] = f"palma_ratio"
     df_graphers.loc[j, "Indicator Dropdown"] = "Palma ratio"
-    df_graphers.loc[
-        j, "Household survey data type Dropdown"
-    ] = f"{survey_type.dropdown_option[survey]}"
+    df_graphers.loc[j, "Household survey data type Dropdown"] = (
+        f"{survey_type.dropdown_option[survey]}"
+    )
     df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
-    df_graphers.loc[
-        j, "subtitle"
-    ] = f"The Palma ratio is a measure of inequality that divides the share received by the richest 10% by the share of the poorest 40%. Higher values indicate higher inequality. Depending on the country and year, the data relates to {survey_type.detailed_text[survey]} per capita."
+    df_graphers.loc[j, "subtitle"] = (
+        f"The Palma ratio is a measure of inequality that divides the share received by the richest 10% by the share of the poorest 40%. Higher values indicate higher inequality. Depending on the country and year, the data relates to {survey_type.detailed_text[survey]} per capita."
+    )
     df_graphers.loc[j, "note"] = ""
     df_graphers.loc[j, "type"] = np.nan
     df_graphers.loc[j, "yAxisMin"] = yAxisMin
@@ -384,16 +384,16 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, "title"] = f"Share of people in relative poverty"
     df_graphers.loc[j, "ySlugs"] = f"headcount_ratio_50_median"
     df_graphers.loc[j, "Indicator Dropdown"] = f"Share in relative poverty"
-    df_graphers.loc[
-        j, "Household survey data type Dropdown"
-    ] = f"{survey_type.dropdown_option[survey]}"
+    df_graphers.loc[j, "Household survey data type Dropdown"] = (
+        f"{survey_type.dropdown_option[survey]}"
+    )
     df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
-    df_graphers.loc[
-        j, "subtitle"
-    ] = f"The share of population with {survey_type.text_ineq[survey]} below 50% of the median. Relative poverty reflects the extent of inequality within the bottom of the distribution."
-    df_graphers.loc[
-        j, "note"
-    ] = f"Depending on the country and year, the data relates to {survey_type.detailed_text[survey]} per capita."
+    df_graphers.loc[j, "subtitle"] = (
+        f"The share of population with {survey_type.text_ineq[survey]} below 50% of the median. Relative poverty reflects the extent of inequality within the bottom of the distribution."
+    )
+    df_graphers.loc[j, "note"] = (
+        f"Depending on the country and year, the data relates to {survey_type.detailed_text[survey]} per capita."
+    )
     df_graphers.loc[j, "type"] = np.nan
     df_graphers.loc[j, "yAxisMin"] = yAxisMin
     df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -407,16 +407,16 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, "title"] = f"Mean log deviation"
     df_graphers.loc[j, "ySlugs"] = f"mld"
     df_graphers.loc[j, "Indicator Dropdown"] = "Mean log deviation"
-    df_graphers.loc[
-        j, "Household survey data type Dropdown"
-    ] = f"{survey_type.dropdown_option[survey]}"
+    df_graphers.loc[j, "Household survey data type Dropdown"] = (
+        f"{survey_type.dropdown_option[survey]}"
+    )
     df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
-    df_graphers.loc[
-        j, "subtitle"
-    ] = f"The mean log deviation (MLD) is a measure of inequality. An MLD of zero indicates perfect equality and it takes on larger positive values as incomes become more unequal."
-    df_graphers.loc[
-        j, "note"
-    ] = f"Depending on the country and year, the data relates to {survey_type.detailed_text[survey]} per capita."
+    df_graphers.loc[j, "subtitle"] = (
+        f"The mean log deviation (MLD) is a measure of inequality. An MLD of zero indicates perfect equality and it takes on larger positive values as incomes become more unequal."
+    )
+    df_graphers.loc[j, "note"] = (
+        f"Depending on the country and year, the data relates to {survey_type.detailed_text[survey]} per capita."
+    )
     df_graphers.loc[j, "type"] = np.nan
     df_graphers.loc[j, "yAxisMin"] = yAxisMin
     df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -437,10 +437,10 @@ j = 0
 # Create ySlugs dynamically
 c_spell_list = []
 i_spell_list = []
-for c_spell in range(1, CONSUMPTION_SPELLS_PIP+1):
+for c_spell in range(1, CONSUMPTION_SPELLS_PIP + 1):
     c_spell_list.append(f"consumption_spell_{c_spell}")
 
-for i_spell in range(1, INCOME_SPELLS_PIP+1):
+for i_spell in range(1, INCOME_SPELLS_PIP + 1):
     i_spell_list.append(f"income_spell_{i_spell}")
 
 # Merge the items in the list, separated by a space
@@ -450,9 +450,7 @@ ySlugs_spells = " ".join(spell_list)
 
 for i in range(len(df_graphers)):
     df_graphers_spells.loc[j, "title"] = df_graphers["title"][i]
-    df_graphers_spells.loc[
-        j, "ySlugs"
-    ] = ySlugs_spells
+    df_graphers_spells.loc[j, "ySlugs"] = ySlugs_spells
     df_graphers_spells.loc[j, "Indicator Dropdown"] = df_graphers["Indicator Dropdown"][
         i
     ]
