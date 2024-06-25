@@ -1,4 +1,4 @@
-# To apply changes, run this on the terminal
+# To apply changes, run this on the terminal on owid-content:
 
 python -m scripts.poverty-inequality-explorers.wbpip.pip_expanded_poverty_explorer
 python -m scripts.poverty-inequality-explorers.wbpip.pip_incomes_across_distribution_explorer

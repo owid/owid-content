@@ -100,6 +100,7 @@ processing_gini_mean_median = PROCESSING_GINI_MEAN_MEDIAN_LIS
 processing_distribution = PROCESSING_DISTRIBUTION_LIS
 
 ppp_description = PPP_DESCRIPTION_LIS
+relative_poverty_description = RELATIVE_POVERTY_DESCRIPTION_LIS
 
 df_tables = pd.DataFrame()
 j = 0
@@ -226,7 +227,8 @@ for tab in range(len(tables)):
             )
             df_tables.loc[j, "description"] = new_line.join(
                 [
-                    f"The share of the population with {welfare['welfare_type'][wel]} below 50% of the median. Relative poverty reflects the extent of inequality within the bottom of the distribution.",
+                    f"The share of the population with {welfare['welfare_type'][wel]} below 50% of the median.",
+                    relative_poverty_description,
                     welfare["description"][wel],
                     equivalence_scales["description"][eq],
                     notes_title,
