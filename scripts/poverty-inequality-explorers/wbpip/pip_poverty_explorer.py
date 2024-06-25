@@ -85,6 +85,7 @@ notes_title = NOTES_TITLE_PIP
 
 processing_description = PROCESSING_DESCRIPTION_PIP
 ppp_description = PPP_DESCRIPTION_PIP_2017
+relative_poverty_description = RELATIVE_POVERTY_DESCRIPTION_PIP
 
 # Table generation
 df_tables = pd.DataFrame()
@@ -160,6 +161,7 @@ for survey in range(len(survey_type)):
         df_tables.loc[j, "description"] = new_line.join(
             [
                 f"% of population living in households with an {survey_type.text[survey]} per person below {povlines_rel.percent[pct]} of the median.",
+                relative_poverty_description,
                 survey_type.description[survey],
                 additional_description,
                 notes_title,
@@ -185,6 +187,7 @@ for survey in range(len(survey_type)):
         df_tables.loc[j, "description"] = new_line.join(
             [
                 f"Number of people living in households with an {survey_type.text[survey]} per person below {povlines_rel.percent[pct]} of the median.",
+                relative_poverty_description,
                 survey_type.description[survey],
                 additional_description,
                 notes_title,

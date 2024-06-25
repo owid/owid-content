@@ -94,6 +94,7 @@ notes_title = NOTES_TITLE_PIP
 processing_description = PROCESSING_DESCRIPTION_PIP_PPP_COMPARISON
 ppp_description_2017 = PPP_DESCRIPTION_PIP_2017
 ppp_description_2011 = PPP_DESCRIPTION_PIP_2011
+relative_poverty_description = RELATIVE_POVERTY_DESCRIPTION_PIP
 
 # Table generation
 df_tables = pd.DataFrame()
@@ -230,6 +231,7 @@ for survey in range(len(survey_type)):
         df_tables.loc[j, "description"] = new_line.join(
             [
                 f"% of population living in households with an {survey_type.text[survey]} per person below {povlines_rel.percent[pct]} of the median (2011 prices).",
+                relative_poverty_description,
                 survey_type.description[survey],
                 additional_description,
                 notes_title,
@@ -255,6 +257,7 @@ for survey in range(len(survey_type)):
         df_tables.loc[j, "description"] = new_line.join(
             [
                 f"% of population living in households with an {survey_type.text[survey]} per person below {povlines_rel.percent[pct]} of the median (2017 prices).",
+                relative_poverty_description,
                 survey_type.description[survey],
                 additional_description,
                 notes_title,
@@ -278,6 +281,7 @@ for survey in range(len(survey_type)):
         df_tables.loc[j, "description"] = new_line.join(
             [
                 f"Number of people living in households with an {survey_type.text[survey]} per person below {povlines_rel.percent[pct]} of the median (2011 prices).",
+                relative_poverty_description,
                 survey_type.description[survey],
                 additional_description,
                 notes_title,
@@ -303,6 +307,7 @@ for survey in range(len(survey_type)):
         df_tables.loc[j, "description"] = new_line.join(
             [
                 f"Number of people living in households with an {survey_type.text[survey]} per person below {povlines_rel.percent[pct]} of the median (2017 prices).",
+                relative_poverty_description,
                 survey_type.description[survey],
                 additional_description,
                 notes_title,

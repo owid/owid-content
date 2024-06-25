@@ -107,6 +107,7 @@ processing_gini_mean_median = PROCESSING_GINI_MEAN_MEDIAN_LIS
 processing_distribution = PROCESSING_DISTRIBUTION_LIS
 
 ppp_description = PPP_DESCRIPTION_LIS
+relative_poverty_description = RELATIVE_POVERTY_DESCRIPTION_LIS
 
 df_tables = pd.DataFrame()
 j = 0
@@ -336,6 +337,7 @@ for tab in range(len(tables)):
                 df_tables.loc[j, "description"] = new_line.join(
                     [
                         f"% of population living in households with {welfare['welfare_type'][wel]} below {povlines_rel['percent'][pct]} of the median {welfare['welfare_type'][wel]}.",
+                        relative_poverty_description,
                         welfare["description"][wel],
                         equivalence_scales["description"][eq],
                         notes_title,
@@ -361,6 +363,7 @@ for tab in range(len(tables)):
                 df_tables.loc[j, "description"] = new_line.join(
                     [
                         f"Number of people living in households with {welfare['welfare_type'][wel]} below {povlines_rel['percent'][pct]} of the median {welfare['welfare_type'][wel]}.",
+                        relative_poverty_description,
                         welfare["description"][wel],
                         equivalence_scales["description"][eq],
                         notes_title,
@@ -388,6 +391,7 @@ for tab in range(len(tables)):
                 df_tables.loc[j, "description"] = new_line.join(
                     [
                         f"The total shortfall from a poverty line of {povlines_rel['text'][pct]} {welfare['welfare_type'][wel]}. This is the amount of money that would be theoretically needed to lift the {welfare['welfare_type'][wel]} of all people in poverty up to the poverty line. However this is not a measure of the actual cost of eliminating poverty, since it does not take into account the costs involved in making the necessary transfers nor any changes in behaviour they would bring about.",
+                        relative_poverty_description,
                         welfare["description"][wel],
                         equivalence_scales["description"][eq],
                         notes_title,
@@ -415,6 +419,7 @@ for tab in range(len(tables)):
                 df_tables.loc[j, "description"] = new_line.join(
                     [
                         f"The average shortfall from a poverty line of of {povlines_rel['text'][pct]} {welfare['welfare_type'][wel]} (averaged across the population in poverty).",
+                        relative_poverty_description,
                         welfare["description"][wel],
                         equivalence_scales["description"][eq],
                         notes_title,
@@ -440,6 +445,7 @@ for tab in range(len(tables)):
                 df_tables.loc[j, "description"] = new_line.join(
                     [
                         f"The average shortfall from a poverty line of of {povlines_rel['text'][pct]} {welfare['welfare_type'][wel]} (averaged across the population in poverty).",
+                        relative_poverty_description,
                         welfare["description"][wel],
                         equivalence_scales["description"][eq],
                         notes_title,
@@ -468,6 +474,7 @@ for tab in range(len(tables)):
                 df_tables.loc[j, "description"] = new_line.join(
                     [
                         f'The average shortfall from a poverty line of of {povlines_rel.text[pct]} {welfare.welfare_type[wel]} (averaged across the population in poverty) expressed as a share of the poverty line. This metric is sometimes called the "income gap ratio". It captures the depth of poverty of those living on less than the poverty line.',
+                        relative_poverty_description,
                         welfare["description"][wel],
                         equivalence_scales["description"][eq],
                         notes_title,
@@ -493,6 +500,7 @@ for tab in range(len(tables)):
                 df_tables.loc[j, "description"] = new_line.join(
                     [
                         f"The poverty gap index calculated at a poverty line of {povlines_rel['text'][pct]} {welfare['welfare_type'][wel]}. The poverty gap index is a measure that reflects both the depth and prevalence of poverty. It is defined as the mean shortfall of the total population from the poverty line counting the non-poor as having zero shortfall and expressed as a percentage of the poverty line. It is worth unpacking that definition a little. For those below the poverty line, the shortfall corresponds to the amount of money required in order to reach the poverty line. For those at or above the poverty line, the shortfall is counted as zero. The average shortfall is then calculated across the total population – both poor and non-poor – and then expressed as a share of the poverty line. Unlike the more commonly-used metric of the headcount ratio, the poverty gap index is thus sensitive not only to whether a person’s income falls below the poverty line or not, but also by how much – i.e. to the depth of poverty they experience.",
+                        relative_poverty_description,
                         welfare["description"][wel],
                         equivalence_scales["description"][eq],
                         notes_title,

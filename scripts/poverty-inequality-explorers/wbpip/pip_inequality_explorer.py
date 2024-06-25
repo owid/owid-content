@@ -85,6 +85,7 @@ additional_description = ADDITIONAL_DESCRIPTION_PIP
 notes_title = NOTES_TITLE_PIP
 
 processing_description = PROCESSING_DESCRIPTION_PIP
+relative_poverty_description = RELATIVE_POVERTY_DESCRIPTION_PIP
 
 # Table generation
 df_tables = pd.DataFrame()
@@ -176,6 +177,7 @@ for survey in range(len(survey_type)):
     df_tables.loc[j, "description"] = new_line.join(
         [
             f"The share of population with {survey_type.text_ineq[survey]} below 50% of the median. Relative poverty reflects the extent of inequality within the bottom of the distribution.",
+            relative_poverty_description,
             survey_type.description[survey],
             additional_description,
             notes_title,
