@@ -10,7 +10,7 @@ thumbnail	https://owid.cloud/app/uploads/2022/07/Population-Data-Explorer.png
 pickerColumnSlugs	location population__all__all__records population_change__all__all__records population_density__all__all__records births__all__all__records birth_rate__all__all__records deaths__all__all__records death_rate__all__all__records fertility_rate__all__all__records growth_natural_rate__all__all__records growth_rate__all__all__records life_expectancy__all__at_birth__records net_migration__all__all__records net_migration_rate__all__all__records sex_ratio__none__at_birth__records dependency_ratio_total__all__none__records dependency_ratio_child__all__none__records dependency_ratio_old__all__none__records median_age__all__all__records
 
 graphers
-	title	Metric Dropdown	Sex Radio	Age group Dropdown	Projection Scenario Radio	yVariableIds	subtitle	type	note	yAxisMin	hasMapTab	stackMode	selectedFacetStrategy
+	_title	Metric Dropdown	Sex Radio	Age group Dropdown	Projection Scenario Radio	yVariableIds	_subtitle	type	_note	yAxisMin	hasMapTab	stackMode	selectedFacetStrategy
 	Population	Population	Both sexes	Total	None	grapher/un/2022-07-11/un_wpp/population#population__sex_all__age_all__variant_estimates		LineChart		0	true		
 	Population	Population	Both sexes	Total	Low	grapher/un/2022-07-11/un_wpp/population#population__sex_all__age_all__variant_low	Projections from 2022 onwards are based on the UN's low-fertility scenario.	LineChart		0	true		
 	Population	Population	Both sexes	Total	Medium	grapher/un/2022-07-11/un_wpp/population#population__sex_all__age_all__variant_medium	Projections from 2022 onwards are based on the UN's medium-fertility scenario.	LineChart		0	true		

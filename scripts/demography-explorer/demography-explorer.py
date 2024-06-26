@@ -7,6 +7,8 @@ import re
 
 DATASET_PATH_PREFIX = "grapher/un/2022-07-11/un_wpp/"
 
+COLS_TO_DROP = ["title", "subtitle", "note"]  # these should all come from etl, I think?
+
 
 def file_url(tableSlug):
     return (
@@ -97,6 +99,9 @@ df = df.loc[:, cols]
 
 # Drop all remaining programmatic columns containing __
 df = df.drop(columns=df.filter(regex="__"))
+
+# %%
+df = df.rename(columns={col_name: "_" + col_name for col_name in COLS_TO_DROP})
 
 # %%
 graphers_tsv = df.to_csv(sep="\t", index=False)
