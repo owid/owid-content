@@ -6,6 +6,8 @@ import pandas as pd
 import re
 from collections import defaultdict
 
+DATASET_PATH_PREFIX = "grapher/un/2022-07-11/un_wpp/"
+
 
 def file_url(tableSlug):
     return (
@@ -20,14 +22,20 @@ def substitute_rows(row):
         if isinstance(row[key], str):
             while "${" in row[key]:
                 template = Template(row[key])
-                row[key] = template.substitute(**row)
+                row[key] = template.substitute(
+                    **row, DATASET_PATH_PREFIX=DATASET_PATH_PREFIX
+                )
     return row
 
 
 def table_def(tableSlug, rows, display_names):
     table_def = f"table	{file_url(tableSlug)}	{tableSlug}"
-    rows["ySlugs"] = rows["ySlugs"].map(lambda x: x.split(" "))
-    rows = rows.explode("ySlugs").drop_duplicates("ySlugs").reset_index(drop=True)
+    rows["yVariableIds"] = rows["yVariableIds"].map(lambda x: x.split(" "))
+    rows = (
+        rows.explode("yVariableIds")
+        .drop_duplicates("yVariableIds")
+        .reset_index(drop=True)
+    )
 
     column_defs = rows.filter(regex="^column__", axis=1).rename(
         columns=lambda x: re.sub("^column__", "", x)
@@ -47,8 +55,8 @@ def table_def(tableSlug, rows, display_names):
 
     col_defs = [
         [
-            row["ySlugs"],
-            display_names[row["ySlugs"]],
+            row["yVariableIds"],
+            "",  # display_names[row["yVariableIds"]],
             row["column__type"],
             "United Nations, World Population Prospects (2022)",
             "https://population.un.org/wpp/",
@@ -120,17 +128,17 @@ for col in ["title", "subtitle"]:
     )
 
 # %%
-# Extract column display names from ySlugs
-# The `ySlugs` column can contain names for column slugs, e.g.:
+# Extract column display names from yVariableIds
+# The `yVariableIds` column can contain names for column slugs, e.g.:
 # population_broad__all__15-24__records:"15-24 years"
 # Note the colon, and especially the quotes around the name. They are required!
 # This config will use the name "15-24 years" as the display name for the column.
 # If an explicit name is not given, the row's title will be used instead.
 col_display_names = {}
 
-y_slug_re = r"([\w\-+]+):\"([^\"]+)\""
+y_slug_re = r"([\w\-\/_#]+):\"([^\"]+)\""
 for idx, row in df.iterrows():
-    matches = re.finditer(y_slug_re, row["ySlugs"])
+    matches = re.finditer(y_slug_re, row["yVariableIds"])
     slugs = []
     for match in matches:
         col_slug, col_name = match.groups()
@@ -139,9 +147,9 @@ for idx, row in df.iterrows():
             col_display_names[col_slug] = col_name
 
     if len(slugs):
-        row["ySlugs"] = " ".join(slugs)
-    elif row["ySlugs"] not in col_display_names:
-        col_display_names[row["ySlugs"]] = row["title"]
+        row["yVariableIds"] = " ".join(slugs)
+    elif row["yVariableIds"] not in col_display_names:
+        col_display_names[row["yVariableIds"]] = row["title"]
 
 # %%
 tables = df["tableSlug"].unique()
@@ -190,6 +198,7 @@ with open(outfile, "w", newline="\n") as f:
         + template.substitute(
             graphers_tsv=graphers_tsv_indented,
             table_defs=table_defs,
+            DATASET_PATH_PREFIX=DATASET_PATH_PREFIX,
         )
     )
 
