@@ -9,3 +9,5 @@ pickerColumnSlugs	location population__all__all__records population_change__all_
 
 graphers
 ${graphers_tsv}
+
+${table_defs}
