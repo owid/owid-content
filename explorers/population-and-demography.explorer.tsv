@@ -1859,18 +1859,18 @@ columns
 	grapher/un/2024-07-11/un_wpp/deaths#deaths__sex_male__age_90_99__variant_low	Male deaths aged 90 to 99 years	Integer		deaths	300;1000;3000;10000;30000;100000;300000;1	OrRd	
 	grapher/un/2024-07-11/un_wpp/deaths#deaths__sex_male__age_90_99__variant_medium	Male deaths aged 90 to 99 years	Integer		deaths	300;1000;3000;10000;30000;100000;300000;1	OrRd	
 	grapher/un/2024-07-11/un_wpp/deaths#deaths__sex_male__age_90_99__variant_high	Male deaths aged 90 to 99 years	Integer		deaths	300;1000;3000;10000;30000;100000;300000;1	OrRd	
-	grapher/un/2024-07-11/un_wpp/deaths#deaths__sex_all__age_100plus__variant_estimates	Deaths at age 100 and older	Integer		deaths	1000;3000;10000;30000;100000;300000;1000000;1	OrRd	
-	grapher/un/2024-07-11/un_wpp/deaths#deaths__sex_all__age_100plus__variant_low	Deaths at age 100 and older	Integer		deaths	1000;3000;10000;30000;100000;300000;1000000;1	OrRd	
-	grapher/un/2024-07-11/un_wpp/deaths#deaths__sex_all__age_100plus__variant_medium	Deaths at age 100 and older	Integer		deaths	1000;3000;10000;30000;100000;300000;1000000;1	OrRd	
-	grapher/un/2024-07-11/un_wpp/deaths#deaths__sex_all__age_100plus__variant_high	Deaths at age 100 and older	Integer		deaths	1000;3000;10000;30000;100000;300000;1000000;1	OrRd	
-	grapher/un/2024-07-11/un_wpp/deaths#deaths__sex_female__age_100plus__variant_estimates	Female deaths at age 100 and older	Integer		deaths	300;1000;3000;10000;30000;100000;300000;1	OrRd	
-	grapher/un/2024-07-11/un_wpp/deaths#deaths__sex_female__age_100plus__variant_low	Female deaths at age 100 and older	Integer		deaths	300;1000;3000;10000;30000;100000;300000;1	OrRd	
-	grapher/un/2024-07-11/un_wpp/deaths#deaths__sex_female__age_100plus__variant_medium	Female deaths at age 100 and older	Integer		deaths	300;1000;3000;10000;30000;100000;300000;1	OrRd	
-	grapher/un/2024-07-11/un_wpp/deaths#deaths__sex_female__age_100plus__variant_high	Female deaths at age 100 and older	Integer		deaths	300;1000;3000;10000;30000;100000;300000;1	OrRd	
-	grapher/un/2024-07-11/un_wpp/deaths#deaths__sex_male__age_100plus__variant_estimates	Male deaths at age 100 and older	Integer		deaths	300;1000;3000;10000;30000;100000;300000;1	OrRd	
-	grapher/un/2024-07-11/un_wpp/deaths#deaths__sex_male__age_100plus__variant_low	Male deaths at age 100 and older	Integer		deaths	300;1000;3000;10000;30000;100000;300000;1	OrRd	
-	grapher/un/2024-07-11/un_wpp/deaths#deaths__sex_male__age_100plus__variant_medium	Male deaths at age 100 and older	Integer		deaths	300;1000;3000;10000;30000;100000;300000;1	OrRd	
-	grapher/un/2024-07-11/un_wpp/deaths#deaths__sex_male__age_100plus__variant_high	Male deaths at age 100 and older	Integer		deaths	300;1000;3000;10000;30000;100000;300000;1	OrRd	
+	grapher/un/2024-07-11/un_wpp/deaths#deaths__sex_all__age_100plus__variant_estimates	Deaths at age 100 and older	Integer		deaths	300;1000;3000;10000;30000;100000;300000;1	OrRd	
+	grapher/un/2024-07-11/un_wpp/deaths#deaths__sex_all__age_100plus__variant_low	Deaths at age 100 and older	Integer		deaths	300;1000;3000;10000;30000;100000;300000;1	OrRd	
+	grapher/un/2024-07-11/un_wpp/deaths#deaths__sex_all__age_100plus__variant_medium	Deaths at age 100 and older	Integer		deaths	300;1000;3000;10000;30000;100000;300000;1	OrRd	
+	grapher/un/2024-07-11/un_wpp/deaths#deaths__sex_all__age_100plus__variant_high	Deaths at age 100 and older	Integer		deaths	300;1000;3000;10000;30000;100000;300000;1	OrRd	
+	grapher/un/2024-07-11/un_wpp/deaths#deaths__sex_female__age_100plus__variant_estimates	Female deaths at age 100 and older	Integer		deaths	100;300;1000;3000;10000;30000;100000;1	OrRd	
+	grapher/un/2024-07-11/un_wpp/deaths#deaths__sex_female__age_100plus__variant_low	Female deaths at age 100 and older	Integer		deaths	100;300;1000;3000;10000;30000;100000;1	OrRd	
+	grapher/un/2024-07-11/un_wpp/deaths#deaths__sex_female__age_100plus__variant_medium	Female deaths at age 100 and older	Integer		deaths	100;300;1000;3000;10000;30000;100000;1	OrRd	
+	grapher/un/2024-07-11/un_wpp/deaths#deaths__sex_female__age_100plus__variant_high	Female deaths at age 100 and older	Integer		deaths	100;300;1000;3000;10000;30000;100000;1	OrRd	
+	grapher/un/2024-07-11/un_wpp/deaths#deaths__sex_male__age_100plus__variant_estimates	Male deaths at age 100 and older	Integer		deaths	100;300;1000;3000;10000;30000;100000;1	OrRd	
+	grapher/un/2024-07-11/un_wpp/deaths#deaths__sex_male__age_100plus__variant_low	Male deaths at age 100 and older	Integer		deaths	100;300;1000;3000;10000;30000;100000;1	OrRd	
+	grapher/un/2024-07-11/un_wpp/deaths#deaths__sex_male__age_100plus__variant_medium	Male deaths at age 100 and older	Integer		deaths	100;300;1000;3000;10000;30000;100000;1	OrRd	
+	grapher/un/2024-07-11/un_wpp/deaths#deaths__sex_male__age_100plus__variant_high	Male deaths at age 100 and older	Integer		deaths	100;300;1000;3000;10000;30000;100000;1	OrRd	
 	grapher/un/2024-07-11/un_wpp/deaths#death_rate__sex_all__age_all__variant_estimates	Death rate	Numeric		deaths per 1,000 population	5;10;15;20;25;30;35	OrRd	
 	grapher/un/2024-07-11/un_wpp/deaths#death_rate__sex_all__age_all__variant_low	Death rate	Numeric		deaths per 1,000 population	5;10;15;20;25;30;35	OrRd	
 	grapher/un/2024-07-11/un_wpp/deaths#death_rate__sex_all__age_all__variant_medium	Death rate	Numeric		deaths per 1,000 population	5;10;15;20;25;30;35	OrRd	
