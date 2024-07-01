@@ -46,7 +46,7 @@ def table_def(rows, display_names):
     col_defs = [
         [
             row["yVariableIds"],
-            display_names[row["yVariableIds"]],
+            col_display_names.get(row["yVariableIds"]) or "",
             row["column__type"],
             *column_defs.loc[idx].values.tolist(),
         ]
@@ -57,8 +57,6 @@ def table_def(rows, display_names):
 
     return f"""columns
 	{col_names}
-	location	Country name	EntityName
-	year	Year	Year
 {col_defs}"""
 
 
@@ -135,8 +133,6 @@ for idx, row in df.iterrows():
 
     if len(slugs):
         df.loc[idx, "yVariableIds"] = " ".join(slugs)
-    elif row["yVariableIds"] not in col_display_names:
-        col_display_names[row["yVariableIds"]] = row["title"]
 
 # %%
 col_defs = table_def(
