@@ -7,7 +7,7 @@ import re
 
 DATASET_PATH_PREFIX = "grapher/un/2024-07-11/un_wpp/"
 
-COLS_TO_DROP = ["title", "subtitle", "note"]  # these should all come from etl, I think?
+COLS_TO_DROP = []
 
 
 def file_url(tableSlug):
