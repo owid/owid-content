@@ -34,11 +34,9 @@ def table_def(rows, display_names):
     column_defs = rows.filter(regex="^column__", axis=1).rename(
         columns=lambda x: re.sub("^column__", "", x)
     )
-    column_defs = column_defs.drop(columns=["type"])
     col_names = [
         "variableId",
         "name",
-        "type",
         *column_defs.columns,
     ]
     col_names = "\t".join(col_names)
@@ -47,7 +45,6 @@ def table_def(rows, display_names):
         [
             row["yVariableIds"],
             col_display_names.get(row["yVariableIds"]) or "",
-            row["column__type"],
             *column_defs.loc[idx].values.tolist(),
         ]
         for (idx, row) in rows.iterrows()
