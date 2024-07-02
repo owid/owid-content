@@ -35,7 +35,7 @@ def table_def(rows, display_names):
         columns=lambda x: re.sub("^column__", "", x)
     )
     col_names = [
-        "variableId",
+        "catalogPath",
         "name",
         *column_defs.columns,
     ]

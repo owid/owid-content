@@ -1052,7 +1052,7 @@ graphers
 
 
 columns
-	variableId	name	type	unit	colorScaleNumericBins	colorScaleScheme	colorScaleNumericMinValue
+	catalogPath	name	type	unit	colorScaleNumericBins	colorScaleScheme	colorScaleNumericMinValue
 	grapher/un/2024-07-11/un_wpp/population#population__sex_all__age_all__variant_estimates		Integer		1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1	PuBu	
 	grapher/un/2024-07-11/un_wpp/population#population__sex_all__age_all__variant_low		Integer		1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1	PuBu	
 	grapher/un/2024-07-11/un_wpp/population#population__sex_all__age_all__variant_medium		Integer		1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1	PuBu	
