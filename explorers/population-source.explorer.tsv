@@ -9,21 +9,20 @@ subNavId
 subNavCurrentId	population-source
 entityType	region
 graphers
-	yVariableIds	ySlugs	Source Dropdown	Projections Checkbox	type	yAxisMin	title	subtitle	selectedFacetStrategy
-	819330		HYDE (2023)		LineChart	0	Population
-	818109		Fariss et al. (2022)		LineChart		Population
-	520907		UN WPP (2022)		LineChart		Population
-	539738		Penn World Table (2021)		LineChart		Population
-	417486		Maddison Project Database 2020		LineChart		Population
-	597930		OWID (2023)	false	LineChart		Population
-	597929		OWID (2023)	true	LineChart		Population with projections
-	819330 818109 520907 539738 417486		All		LineChart		Population comparison
-
+	yVariableIds	ySlugs	Source Dropdown	Projections Checkbox	type	yAxisMin	title	xVariableId
+	819330		HYDE (2023)		LineChart	0	Population	123
+	grapher/demography/2023-12-20/population_fariss/population_fariss#population		Fariss et al. (2022)		LineChart		Population	grapher#123
+	grapher/un/2022-07-11/un_wpp/population#population__sex_all__age_all__variant_estimates		UN WPP (2022)		LineChart		Population
+	grapher/ggdc/2022-11-28/penn_world_table/penn_world_table#pop		Penn World Table (2021)		LineChart		Population
+	grapher/ggdc/2020-10-01/ggdc_maddison/maddison_gdp#population		Maddison Project Database 2020		LineChart		Population
+	grapher/demography/2023-03-31/population/population#population_historical		OWID (2023)	false	LineChart		Population
+	grapher/demography/2023-03-31/population/population#population		OWID (2023)	true	LineChart		Population with projections
+	grapher/hyde/2024-01-02/all_indicators/all_indicators#popc_c grapher/demography/2023-12-20/population_fariss/population_fariss#population grapher/un/2022-07-11/un_wpp/population#population__sex_all__age_all__variant_estimates grapher/ggdc/2022-11-28/penn_world_table/penn_world_table#pop grapher/ggdc/2020-10-01/ggdc_maddison/maddison_gdp#population		All		LineChart		Population comparison
 
 columns
-	variableId	name	slug
-	819330	HYDE (3.3)
-	818109	Fariss et al. (2022)
-	520907	UN WPP (2022)
-	539738	Penn World Table (2021)
-	417486	Maddison Project Database 2020
+	catalogPath	name	slug
+	grapher/hyde/2024-01-02/all_indicators/all_indicators#popc_c	HYDE (3.3)
+	grapher/demography/2023-12-20/population_fariss/population_fariss#population	Fariss et al. (2022)
+	grapher/un/2022-07-11/un_wpp/population#population__sex_all__age_all__variant_estimates	UN WPP (2022)
+	grapher/ggdc/2022-11-28/penn_world_table/penn_world_table#pop	Penn World Table (2021)
+	grapher/ggdc/2020-10-01/ggdc_maddison/maddison_gdp#population	Maddison Project Database 2020
