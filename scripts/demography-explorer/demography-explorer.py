@@ -5,8 +5,11 @@ import textwrap
 import pandas as pd
 import re
 
-DATASET_PATH_PREFIX = "grapher/un/2024-07-11/un_wpp_full/"
-DATASET_PATH_PREFIX_ESTIMATES = "grapher/un/2024-07-11/un_wpp/"
+# There are two datasets available:
+# - DATASET_PATH_PREFIX: Classic dataset, with estimates for 1950-2023 and projections for 2024-2100.
+# - DATASET_PATH_PREFIX_FULL: Alternative daraset, with projections for 1950-2100 (the 1950-2023 part is the same in all projections). This dataset is helpful in explorers to be able to plot the complete time series (estimates + projections) for a given projection.
+DATASET_PATH_PREFIX = "grapher/un/2024-07-11/un_wpp/"
+DATASET_PATH_PREFIX_FULL = "grapher/un/2024-07-11/un_wpp_full/"
 
 COLS_TO_DROP = []
 
@@ -162,6 +165,11 @@ df = df.drop(columns=df.filter(regex="__"))
 df = df.rename(columns={col_name: "_" + col_name for col_name in COLS_TO_DROP})
 
 # %%
+# Use DATASET_PATH_PREFIX_FULL when variant is not "None" (i.e. some projection scenario)
+mask = df["Projection Scenario Radio"] != "None"
+df.loc[mask, "yVariableIds"] = df.loc[mask, "yVariableIds"].str.replace(DATASET_PATH_PREFIX, DATASET_PATH_PREFIX_FULL)
+
+# %%
 graphers_tsv = df.to_csv(sep="\t", index=False)
 graphers_tsv_indented = textwrap.indent(graphers_tsv, "\t")
 
@@ -174,7 +182,6 @@ with open(outfile, "w", newline="\n") as f:
         + template.substitute(
             graphers_tsv=graphers_tsv_indented,
             table_defs=col_defs,
-            DATASET_PATH_PREFIX=DATASET_PATH_PREFIX,
         )
     )
 
