@@ -48,7 +48,7 @@ def table_def(rows, display_names):
     col_defs = [
         [
             row["yVariableIds"],
-            col_display_names.get(row["yVariableIds"]) or "",
+            display_names.get(row["yVariableIds"]) or "",
             *column_defs.loc[idx].values.tolist(),
         ]
         for (idx, row) in rows.iterrows()
