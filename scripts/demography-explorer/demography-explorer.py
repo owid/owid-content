@@ -5,7 +5,8 @@ import textwrap
 import pandas as pd
 import re
 
-DATASET_PATH_PREFIX = "grapher/un/2024-07-11/un_wpp/"
+DATASET_PATH_PREFIX = "grapher/un/2024-07-11/un_wpp_full/"
+DATASET_PATH_PREFIX_ESTIMATES = "grapher/un/2024-07-11/un_wpp/"
 
 COLS_TO_DROP = []
 
