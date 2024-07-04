@@ -115,6 +115,11 @@ for col in ["title", "subtitle"]:
     )
 
 # %%
+# Use DATASET_PATH_PREFIX_FULL when variant is not "None" (i.e. some projection scenario)
+mask = df["projection__slug"] != "estimates"
+df.loc[mask, "yVariableIds"] = df.loc[mask, "yVariableIds"].str.replace(DATASET_PATH_PREFIX, DATASET_PATH_PREFIX_FULL)
+
+# %%
 # Extract column display names from yVariableIds
 # The `yVariableIds` column can contain names for column slugs, e.g.:
 # population_broad__all__15-24__records:"15-24 years"
@@ -164,11 +169,6 @@ df = df.drop(columns=df.filter(regex="__"))
 
 # %%
 df = df.rename(columns={col_name: "_" + col_name for col_name in COLS_TO_DROP})
-
-# %%
-# Use DATASET_PATH_PREFIX_FULL when variant is not "None" (i.e. some projection scenario)
-mask = df["Projection Scenario Radio"] != "None"
-df.loc[mask, "yVariableIds"] = df.loc[mask, "yVariableIds"].str.replace(DATASET_PATH_PREFIX, DATASET_PATH_PREFIX_FULL)
 
 # %%
 graphers_tsv = df.to_csv(sep="\t", index=False)
