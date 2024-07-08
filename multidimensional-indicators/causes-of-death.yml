@@ -1,0 +1,3358 @@
+dimensions:
+- choices:
+  - description: See all causes side by side
+    name: All causes
+    slug: all
+  - description: null
+    name: Cardiovascular diseases
+    slug: Cardiovascular diseases
+  - description: null
+    name: Neoplasms
+    slug: Neoplasms
+  - description: null
+    name: Chronic respiratory diseases
+    slug: Chronic respiratory diseases
+  - description: null
+    name: Digestive diseases
+    slug: Digestive diseases
+  - description: null
+    name: Lower respiratory infections
+    slug: Lower respiratory infections
+  - description: null
+    name: Neonatal disorders
+    slug: Neonatal disorders
+  - description: null
+    name: Alzheimer's disease and other dementias
+    slug: Alzheimer's disease and other dementias
+  - description: null
+    name: Diabetes mellitus
+    slug: Diabetes mellitus
+  - description: null
+    name: Diarrheal diseases
+    slug: Diarrheal diseases
+  - description: null
+    name: Meningitis
+    slug: Meningitis
+  - description: null
+    name: Parkinson's disease
+    slug: Parkinson's disease
+  - description: null
+    name: Nutritional deficiencies
+    slug: Nutritional deficiencies
+  - description: null
+    name: Malaria
+    slug: Malaria
+  - description: null
+    name: Drowning
+    slug: Drowning
+  - description: null
+    name: Interpersonal violence
+    slug: Interpersonal violence
+  - description: null
+    name: Maternal disorders
+    slug: Maternal disorders
+  - description: null
+    name: HIV/AIDS
+    slug: HIV/AIDS
+  - description: null
+    name: Drug use disorders
+    slug: Drug use disorders
+  - description: null
+    name: Tuberculosis
+    slug: Tuberculosis
+  - description: null
+    name: Alcohol use disorders
+    slug: Alcohol use disorders
+  - description: null
+    name: Self-harm
+    slug: Self-harm
+  - description: null
+    name: Exposure to forces of nature
+    slug: Exposure to forces of nature
+  - description: null
+    name: Environmental heat and cold exposure
+    slug: Environmental heat and cold exposure
+  - description: null
+    name: Conflict and terrorism
+    slug: Conflict and terrorism
+  - description: null
+    name: Chronic kidney disease
+    slug: Chronic kidney disease
+  - description: null
+    name: Poisonings
+    slug: Poisonings
+  - description: null
+    name: Road injuries
+    slug: Road injuries
+  - description: null
+    name: Fire, heat, and hot substances
+    slug: Fire, heat, and hot substances
+  - description: null
+    name: Acute hepatitis
+    slug: Acute hepatitis
+  - description: null
+    name: COVID-19
+    slug: COVID-19
+  name: Cause of death
+  slug: cause
+- choices:
+  - description: null
+    name: 15-49 years
+    slug: 15-49 years
+  - description: null
+    name: 5-14 years
+    slug: 5-14 years
+  - description: null
+    name: 50-69 years
+    slug: 50-69 years
+  - description: null
+    name: 70+ years
+    slug: 70+ years
+  - description: null
+    name: <5 years
+    slug: <5 years
+  - description: null
+    name: All ages
+    slug: All ages
+  - description: null
+    name: Age-standardized
+    slug: Age-standardized
+  name: Age group
+  slug: age
+- choices:
+  - description: null
+    name: Number
+    slug: Number
+  - description: null
+    name: Percent
+    slug: Percent
+  - description: null
+    name: Rate
+    slug: Rate
+  name: Metric
+  slug: metric
+dimensions_title: by cause
+name: Causes of death
+views:
+- dimensions:
+    age: 15-49 years
+    cause: Cardiovascular diseases
+    metric: Number
+  indicator_path:
+    30: y
+- dimensions:
+    age: 15-49 years
+    cause: Neoplasms
+    metric: Number
+  indicator_path:
+    161: y
+- dimensions:
+    age: 15-49 years
+    cause: Chronic respiratory diseases
+    metric: Number
+  indicator_path:
+    46: y
+- dimensions:
+    age: 15-49 years
+    cause: Digestive diseases
+    metric: Number
+  indicator_path:
+    69: y
+- dimensions:
+    age: 15-49 years
+    cause: Lower respiratory infections
+    metric: Number
+  indicator_path:
+    134: y
+- dimensions:
+    age: 15-49 years
+    cause: Alzheimer's disease and other dementias
+    metric: Number
+  indicator_path:
+    13: y
+- dimensions:
+    age: 15-49 years
+    cause: Diabetes mellitus
+    metric: Number
+  indicator_path:
+    64: y
+- dimensions:
+    age: 15-49 years
+    cause: Diarrheal diseases
+    metric: Number
+  indicator_path:
+    67: y
+- dimensions:
+    age: 15-49 years
+    cause: Meningitis
+    metric: Number
+  indicator_path:
+    147: y
+- dimensions:
+    age: 15-49 years
+    cause: Parkinson's disease
+    metric: Number
+  indicator_path:
+    217: y
+- dimensions:
+    age: 15-49 years
+    cause: Nutritional deficiencies
+    metric: Number
+  indicator_path:
+    174: y
+- dimensions:
+    age: 15-49 years
+    cause: Malaria
+    metric: Number
+  indicator_path:
+    135: y
+- dimensions:
+    age: 15-49 years
+    cause: Drowning
+    metric: Number
+  indicator_path:
+    72: y
+- dimensions:
+    age: 15-49 years
+    cause: Interpersonal violence
+    metric: Number
+  indicator_path:
+    114: y
+- dimensions:
+    age: 15-49 years
+    cause: Maternal disorders
+    metric: Number
+  indicator_path:
+    141: y
+- dimensions:
+    age: 15-49 years
+    cause: HIV/AIDS
+    metric: Number
+  indicator_path:
+    100: y
+- dimensions:
+    age: 15-49 years
+    cause: Drug use disorders
+    metric: Number
+  indicator_path:
+    73: y
+- dimensions:
+    age: 15-49 years
+    cause: Tuberculosis
+    metric: Number
+  indicator_path:
+    265: y
+- dimensions:
+    age: 15-49 years
+    cause: Alcohol use disorders
+    metric: Number
+  indicator_path:
+    10: y
+- dimensions:
+    age: 15-49 years
+    cause: Self-harm
+    metric: Number
+  indicator_path:
+    240: y
+- dimensions:
+    age: 15-49 years
+    cause: Exposure to forces of nature
+    metric: Number
+  indicator_path:
+    85: y
+- dimensions:
+    age: 15-49 years
+    cause: Environmental heat and cold exposure
+    metric: Number
+  indicator_path:
+    83: y
+- dimensions:
+    age: 15-49 years
+    cause: Conflict and terrorism
+    metric: Number
+  indicator_path:
+    54: y
+- dimensions:
+    age: 15-49 years
+    cause: Chronic kidney disease
+    metric: Number
+  indicator_path:
+    37: y
+- dimensions:
+    age: 15-49 years
+    cause: Poisonings
+    metric: Number
+  indicator_path:
+    227: y
+- dimensions:
+    age: 15-49 years
+    cause: Road injuries
+    metric: Number
+  indicator_path:
+    238: y
+- dimensions:
+    age: 15-49 years
+    cause: Fire, heat, and hot substances
+    metric: Number
+  indicator_path:
+    90: y
+- dimensions:
+    age: 15-49 years
+    cause: Acute hepatitis
+    metric: Number
+  indicator_path:
+    1: y
+- dimensions:
+    age: 15-49 years
+    cause: COVID-19
+    metric: Number
+  indicator_path:
+    28: y
+- dimensions:
+    age: 5-14 years
+    cause: Cardiovascular diseases
+    metric: Number
+  indicator_path:
+    307: y
+- dimensions:
+    age: 5-14 years
+    cause: Neoplasms
+    metric: Number
+  indicator_path:
+    418: y
+- dimensions:
+    age: 5-14 years
+    cause: Chronic respiratory diseases
+    metric: Number
+  indicator_path:
+    318: y
+- dimensions:
+    age: 5-14 years
+    cause: Digestive diseases
+    metric: Number
+  indicator_path:
+    337: y
+- dimensions:
+    age: 5-14 years
+    cause: Lower respiratory infections
+    metric: Number
+  indicator_path:
+    394: y
+- dimensions:
+    age: 5-14 years
+    cause: Diabetes mellitus
+    metric: Number
+  indicator_path:
+    333: y
+- dimensions:
+    age: 5-14 years
+    cause: Diarrheal diseases
+    metric: Number
+  indicator_path:
+    335: y
+- dimensions:
+    age: 5-14 years
+    cause: Meningitis
+    metric: Number
+  indicator_path:
+    406: y
+- dimensions:
+    age: 5-14 years
+    cause: Nutritional deficiencies
+    metric: Number
+  indicator_path:
+    425: y
+- dimensions:
+    age: 5-14 years
+    cause: Malaria
+    metric: Number
+  indicator_path:
+    395: y
+- dimensions:
+    age: 5-14 years
+    cause: Drowning
+    metric: Number
+  indicator_path:
+    340: y
+- dimensions:
+    age: 5-14 years
+    cause: Interpersonal violence
+    metric: Number
+  indicator_path:
+    380: y
+- dimensions:
+    age: 5-14 years
+    cause: Maternal disorders
+    metric: Number
+  indicator_path:
+    400: y
+- dimensions:
+    age: 5-14 years
+    cause: HIV/AIDS
+    metric: Number
+  indicator_path:
+    366: y
+- dimensions:
+    age: 5-14 years
+    cause: Drug use disorders
+    metric: Number
+  indicator_path:
+    341: y
+- dimensions:
+    age: 5-14 years
+    cause: Tuberculosis
+    metric: Number
+  indicator_path:
+    504: y
+- dimensions:
+    age: 5-14 years
+    cause: Alcohol use disorders
+    metric: Number
+  indicator_path:
+    294: y
+- dimensions:
+    age: 5-14 years
+    cause: Self-harm
+    metric: Number
+  indicator_path:
+    484: y
+- dimensions:
+    age: 5-14 years
+    cause: Exposure to forces of nature
+    metric: Number
+  indicator_path:
+    352: y
+- dimensions:
+    age: 5-14 years
+    cause: Environmental heat and cold exposure
+    metric: Number
+  indicator_path:
+    351: y
+- dimensions:
+    age: 5-14 years
+    cause: Conflict and terrorism
+    metric: Number
+  indicator_path:
+    323: y
+- dimensions:
+    age: 5-14 years
+    cause: Chronic kidney disease
+    metric: Number
+  indicator_path:
+    313: y
+- dimensions:
+    age: 5-14 years
+    cause: Poisonings
+    metric: Number
+  indicator_path:
+    471: y
+- dimensions:
+    age: 5-14 years
+    cause: Road injuries
+    metric: Number
+  indicator_path:
+    482: y
+- dimensions:
+    age: 5-14 years
+    cause: Fire, heat, and hot substances
+    metric: Number
+  indicator_path:
+    357: y
+- dimensions:
+    age: 5-14 years
+    cause: Acute hepatitis
+    metric: Number
+  indicator_path:
+    285: y
+- dimensions:
+    age: 5-14 years
+    cause: COVID-19
+    metric: Number
+  indicator_path:
+    305: y
+- dimensions:
+    age: 50-69 years
+    cause: Cardiovascular diseases
+    metric: Number
+  indicator_path:
+    551: y
+- dimensions:
+    age: 50-69 years
+    cause: Neoplasms
+    metric: Number
+  indicator_path:
+    680: y
+- dimensions:
+    age: 50-69 years
+    cause: Chronic respiratory diseases
+    metric: Number
+  indicator_path:
+    567: y
+- dimensions:
+    age: 50-69 years
+    cause: Digestive diseases
+    metric: Number
+  indicator_path:
+    590: y
+- dimensions:
+    age: 50-69 years
+    cause: Lower respiratory infections
+    metric: Number
+  indicator_path:
+    654: y
+- dimensions:
+    age: 50-69 years
+    cause: Alzheimer's disease and other dementias
+    metric: Number
+  indicator_path:
+    535: y
+- dimensions:
+    age: 50-69 years
+    cause: Diabetes mellitus
+    metric: Number
+  indicator_path:
+    585: y
+- dimensions:
+    age: 50-69 years
+    cause: Diarrheal diseases
+    metric: Number
+  indicator_path:
+    588: y
+- dimensions:
+    age: 50-69 years
+    cause: Meningitis
+    metric: Number
+  indicator_path:
+    667: y
+- dimensions:
+    age: 50-69 years
+    cause: Parkinson's disease
+    metric: Number
+  indicator_path:
+    736: y
+- dimensions:
+    age: 50-69 years
+    cause: Nutritional deficiencies
+    metric: Number
+  indicator_path:
+    693: y
+- dimensions:
+    age: 50-69 years
+    cause: Malaria
+    metric: Number
+  indicator_path:
+    655: y
+- dimensions:
+    age: 50-69 years
+    cause: Drowning
+    metric: Number
+  indicator_path:
+    593: y
+- dimensions:
+    age: 50-69 years
+    cause: Interpersonal violence
+    metric: Number
+  indicator_path:
+    634: y
+- dimensions:
+    age: 50-69 years
+    cause: Maternal disorders
+    metric: Number
+  indicator_path:
+    661: y
+- dimensions:
+    age: 50-69 years
+    cause: HIV/AIDS
+    metric: Number
+  indicator_path:
+    620: y
+- dimensions:
+    age: 50-69 years
+    cause: Drug use disorders
+    metric: Number
+  indicator_path:
+    594: y
+- dimensions:
+    age: 50-69 years
+    cause: Tuberculosis
+    metric: Number
+  indicator_path:
+    784: y
+- dimensions:
+    age: 50-69 years
+    cause: Alcohol use disorders
+    metric: Number
+  indicator_path:
+    532: y
+- dimensions:
+    age: 50-69 years
+    cause: Self-harm
+    metric: Number
+  indicator_path:
+    759: y
+- dimensions:
+    age: 50-69 years
+    cause: Exposure to forces of nature
+    metric: Number
+  indicator_path:
+    605: y
+- dimensions:
+    age: 50-69 years
+    cause: Environmental heat and cold exposure
+    metric: Number
+  indicator_path:
+    603: y
+- dimensions:
+    age: 50-69 years
+    cause: Conflict and terrorism
+    metric: Number
+  indicator_path:
+    575: y
+- dimensions:
+    age: 50-69 years
+    cause: Chronic kidney disease
+    metric: Number
+  indicator_path:
+    558: y
+- dimensions:
+    age: 50-69 years
+    cause: Poisonings
+    metric: Number
+  indicator_path:
+    746: y
+- dimensions:
+    age: 50-69 years
+    cause: Road injuries
+    metric: Number
+  indicator_path:
+    757: y
+- dimensions:
+    age: 50-69 years
+    cause: Fire, heat, and hot substances
+    metric: Number
+  indicator_path:
+    610: y
+- dimensions:
+    age: 50-69 years
+    cause: Acute hepatitis
+    metric: Number
+  indicator_path:
+    523: y
+- dimensions:
+    age: 50-69 years
+    cause: COVID-19
+    metric: Number
+  indicator_path:
+    549: y
+- dimensions:
+    age: 70+ years
+    cause: Cardiovascular diseases
+    metric: Number
+  indicator_path:
+    832: y
+- dimensions:
+    age: 70+ years
+    cause: Neoplasms
+    metric: Number
+  indicator_path:
+    944: y
+- dimensions:
+    age: 70+ years
+    cause: Chronic respiratory diseases
+    metric: Number
+  indicator_path:
+    848: y
+- dimensions:
+    age: 70+ years
+    cause: Digestive diseases
+    metric: Number
+  indicator_path:
+    867: y
+- dimensions:
+    age: 70+ years
+    cause: Lower respiratory infections
+    metric: Number
+  indicator_path:
+    926: y
+- dimensions:
+    age: 70+ years
+    cause: Alzheimer's disease and other dementias
+    metric: Number
+  indicator_path:
+    816: y
+- dimensions:
+    age: 70+ years
+    cause: Diabetes mellitus
+    metric: Number
+  indicator_path:
+    863: y
+- dimensions:
+    age: 70+ years
+    cause: Diarrheal diseases
+    metric: Number
+  indicator_path:
+    866: y
+- dimensions:
+    age: 70+ years
+    cause: Meningitis
+    metric: Number
+  indicator_path:
+    931: y
+- dimensions:
+    age: 70+ years
+    cause: Parkinson's disease
+    metric: Number
+  indicator_path:
+    996: y
+- dimensions:
+    age: 70+ years
+    cause: Nutritional deficiencies
+    metric: Number
+  indicator_path:
+    956: y
+- dimensions:
+    age: 70+ years
+    cause: Malaria
+    metric: Number
+  indicator_path:
+    927: y
+- dimensions:
+    age: 70+ years
+    cause: Drowning
+    metric: Number
+  indicator_path:
+    869: y
+- dimensions:
+    age: 70+ years
+    cause: Interpersonal violence
+    metric: Number
+  indicator_path:
+    907: y
+- dimensions:
+    age: 70+ years
+    cause: HIV/AIDS
+    metric: Number
+  indicator_path:
+    894: y
+- dimensions:
+    age: 70+ years
+    cause: Drug use disorders
+    metric: Number
+  indicator_path:
+    870: y
+- dimensions:
+    age: 70+ years
+    cause: Tuberculosis
+    metric: Number
+  indicator_path:
+    1043: y
+- dimensions:
+    age: 70+ years
+    cause: Alcohol use disorders
+    metric: Number
+  indicator_path:
+    813: y
+- dimensions:
+    age: 70+ years
+    cause: Self-harm
+    metric: Number
+  indicator_path:
+    1018: y
+- dimensions:
+    age: 70+ years
+    cause: Exposure to forces of nature
+    metric: Number
+  indicator_path:
+    879: y
+- dimensions:
+    age: 70+ years
+    cause: Environmental heat and cold exposure
+    metric: Number
+  indicator_path:
+    877: y
+- dimensions:
+    age: 70+ years
+    cause: Conflict and terrorism
+    metric: Number
+  indicator_path:
+    856: y
+- dimensions:
+    age: 70+ years
+    cause: Chronic kidney disease
+    metric: Number
+  indicator_path:
+    839: y
+- dimensions:
+    age: 70+ years
+    cause: Poisonings
+    metric: Number
+  indicator_path:
+    1005: y
+- dimensions:
+    age: 70+ years
+    cause: Road injuries
+    metric: Number
+  indicator_path:
+    1016: y
+- dimensions:
+    age: 70+ years
+    cause: Fire, heat, and hot substances
+    metric: Number
+  indicator_path:
+    884: y
+- dimensions:
+    age: 70+ years
+    cause: Acute hepatitis
+    metric: Number
+  indicator_path:
+    804: y
+- dimensions:
+    age: 70+ years
+    cause: COVID-19
+    metric: Number
+  indicator_path:
+    830: y
+- dimensions:
+    age: <5 years
+    cause: Cardiovascular diseases
+    metric: Number
+  indicator_path:
+    1082: y
+- dimensions:
+    age: <5 years
+    cause: Neoplasms
+    metric: Number
+  indicator_path:
+    1175: y
+- dimensions:
+    age: <5 years
+    cause: Chronic respiratory diseases
+    metric: Number
+  indicator_path:
+    1092: y
+- dimensions:
+    age: <5 years
+    cause: Digestive diseases
+    metric: Number
+  indicator_path:
+    1110: y
+- dimensions:
+    age: <5 years
+    cause: Lower respiratory infections
+    metric: Number
+  indicator_path:
+    1157: y
+- dimensions:
+    age: <5 years
+    cause: Neonatal disorders
+    metric: Number
+  indicator_path:
+    1171: y
+- dimensions:
+    age: <5 years
+    cause: Diabetes mellitus
+    metric: Number
+  indicator_path:
+    1106: y
+- dimensions:
+    age: <5 years
+    cause: Diarrheal diseases
+    metric: Number
+  indicator_path:
+    1108: y
+- dimensions:
+    age: <5 years
+    cause: Meningitis
+    metric: Number
+  indicator_path:
+    1162: y
+- dimensions:
+    age: <5 years
+    cause: Nutritional deficiencies
+    metric: Number
+  indicator_path:
+    1182: y
+- dimensions:
+    age: <5 years
+    cause: Malaria
+    metric: Number
+  indicator_path:
+    1158: y
+- dimensions:
+    age: <5 years
+    cause: Drowning
+    metric: Number
+  indicator_path:
+    1113: y
+- dimensions:
+    age: <5 years
+    cause: Interpersonal violence
+    metric: Number
+  indicator_path:
+    1147: y
+- dimensions:
+    age: <5 years
+    cause: HIV/AIDS
+    metric: Number
+  indicator_path:
+    1133: y
+- dimensions:
+    age: <5 years
+    cause: Drug use disorders
+    metric: Number
+  indicator_path:
+    1114: y
+- dimensions:
+    age: <5 years
+    cause: Tuberculosis
+    metric: Number
+  indicator_path:
+    1254: y
+- dimensions:
+    age: <5 years
+    cause: Alcohol use disorders
+    metric: Number
+  indicator_path:
+    1071: y
+- dimensions:
+    age: <5 years
+    cause: Exposure to forces of nature
+    metric: Number
+  indicator_path:
+    1122: y
+- dimensions:
+    age: <5 years
+    cause: Environmental heat and cold exposure
+    metric: Number
+  indicator_path:
+    1121: y
+- dimensions:
+    age: <5 years
+    cause: Conflict and terrorism
+    metric: Number
+  indicator_path:
+    1096: y
+- dimensions:
+    age: <5 years
+    cause: Chronic kidney disease
+    metric: Number
+  indicator_path:
+    1087: y
+- dimensions:
+    age: <5 years
+    cause: Poisonings
+    metric: Number
+  indicator_path:
+    1225: y
+- dimensions:
+    age: <5 years
+    cause: Road injuries
+    metric: Number
+  indicator_path:
+    1235: y
+- dimensions:
+    age: <5 years
+    cause: Fire, heat, and hot substances
+    metric: Number
+  indicator_path:
+    1127: y
+- dimensions:
+    age: <5 years
+    cause: Acute hepatitis
+    metric: Number
+  indicator_path:
+    1062: y
+- dimensions:
+    age: <5 years
+    cause: COVID-19
+    metric: Number
+  indicator_path:
+    1080: y
+- dimensions:
+    age: All ages
+    cause: Cardiovascular diseases
+    metric: Number
+  indicator_path:
+    1301: y
+- dimensions:
+    age: All ages
+    cause: Neoplasms
+    metric: Number
+  indicator_path:
+    1438: y
+- dimensions:
+    age: All ages
+    cause: Chronic respiratory diseases
+    metric: Number
+  indicator_path:
+    1317: y
+- dimensions:
+    age: All ages
+    cause: Digestive diseases
+    metric: Number
+  indicator_path:
+    1340: y
+- dimensions:
+    age: All ages
+    cause: Lower respiratory infections
+    metric: Number
+  indicator_path:
+    1407: y
+- dimensions:
+    age: All ages
+    cause: Neonatal disorders
+    metric: Number
+  indicator_path:
+    1434: y
+- dimensions:
+    age: All ages
+    cause: Alzheimer's disease and other dementias
+    metric: Number
+  indicator_path:
+    1284: y
+- dimensions:
+    age: All ages
+    cause: Diabetes mellitus
+    metric: Number
+  indicator_path:
+    1335: y
+- dimensions:
+    age: All ages
+    cause: Diarrheal diseases
+    metric: Number
+  indicator_path:
+    1338: y
+- dimensions:
+    age: All ages
+    cause: Meningitis
+    metric: Number
+  indicator_path:
+    1420: y
+- dimensions:
+    age: All ages
+    cause: Parkinson's disease
+    metric: Number
+  indicator_path:
+    1496: y
+- dimensions:
+    age: All ages
+    cause: Nutritional deficiencies
+    metric: Number
+  indicator_path:
+    1451: y
+- dimensions:
+    age: All ages
+    cause: Malaria
+    metric: Number
+  indicator_path:
+    1408: y
+- dimensions:
+    age: All ages
+    cause: Drowning
+    metric: Number
+  indicator_path:
+    1343: y
+- dimensions:
+    age: All ages
+    cause: Interpersonal violence
+    metric: Number
+  indicator_path:
+    1387: y
+- dimensions:
+    age: All ages
+    cause: Maternal disorders
+    metric: Number
+  indicator_path:
+    1414: y
+- dimensions:
+    age: All ages
+    cause: HIV/AIDS
+    metric: Number
+  indicator_path:
+    1371: y
+- dimensions:
+    age: All ages
+    cause: Drug use disorders
+    metric: Number
+  indicator_path:
+    1344: y
+- dimensions:
+    age: All ages
+    cause: Tuberculosis
+    metric: Number
+  indicator_path:
+    1546: y
+- dimensions:
+    age: All ages
+    cause: Alcohol use disorders
+    metric: Number
+  indicator_path:
+    1281: y
+- dimensions:
+    age: All ages
+    cause: Self-harm
+    metric: Number
+  indicator_path:
+    1520: y
+- dimensions:
+    age: All ages
+    cause: Exposure to forces of nature
+    metric: Number
+  indicator_path:
+    1356: y
+- dimensions:
+    age: All ages
+    cause: Environmental heat and cold exposure
+    metric: Number
+  indicator_path:
+    1354: y
+- dimensions:
+    age: All ages
+    cause: Conflict and terrorism
+    metric: Number
+  indicator_path:
+    1325: y
+- dimensions:
+    age: All ages
+    cause: Chronic kidney disease
+    metric: Number
+  indicator_path:
+    1308: y
+- dimensions:
+    age: All ages
+    cause: Poisonings
+    metric: Number
+  indicator_path:
+    1506: y
+- dimensions:
+    age: All ages
+    cause: Road injuries
+    metric: Number
+  indicator_path:
+    1518: y
+- dimensions:
+    age: All ages
+    cause: Fire, heat, and hot substances
+    metric: Number
+  indicator_path:
+    1361: y
+- dimensions:
+    age: All ages
+    cause: Acute hepatitis
+    metric: Number
+  indicator_path:
+    1272: y
+- dimensions:
+    age: All ages
+    cause: COVID-19
+    metric: Number
+  indicator_path:
+    1299: y
+- dimensions:
+    age: 15-49 years
+    cause: Cardiovascular diseases
+    metric: Percent
+  indicator_path:
+    1595: y
+- dimensions:
+    age: 15-49 years
+    cause: Neoplasms
+    metric: Percent
+  indicator_path:
+    1726: y
+- dimensions:
+    age: 15-49 years
+    cause: Chronic respiratory diseases
+    metric: Percent
+  indicator_path:
+    1611: y
+- dimensions:
+    age: 15-49 years
+    cause: Digestive diseases
+    metric: Percent
+  indicator_path:
+    1634: y
+- dimensions:
+    age: 15-49 years
+    cause: Lower respiratory infections
+    metric: Percent
+  indicator_path:
+    1700: y
+- dimensions:
+    age: 15-49 years
+    cause: Alzheimer's disease and other dementias
+    metric: Percent
+  indicator_path:
+    1578: y
+- dimensions:
+    age: 15-49 years
+    cause: Diabetes mellitus
+    metric: Percent
+  indicator_path:
+    1629: y
+- dimensions:
+    age: 15-49 years
+    cause: Diarrheal diseases
+    metric: Percent
+  indicator_path:
+    1632: y
+- dimensions:
+    age: 15-49 years
+    cause: Meningitis
+    metric: Percent
+  indicator_path:
+    1712: y
+- dimensions:
+    age: 15-49 years
+    cause: Parkinson's disease
+    metric: Percent
+  indicator_path:
+    1782: y
+- dimensions:
+    age: 15-49 years
+    cause: Nutritional deficiencies
+    metric: Percent
+  indicator_path:
+    1739: y
+- dimensions:
+    age: 15-49 years
+    cause: Malaria
+    metric: Percent
+  indicator_path:
+    1699: y
+- dimensions:
+    age: 15-49 years
+    cause: Drowning
+    metric: Percent
+  indicator_path:
+    1637: y
+- dimensions:
+    age: 15-49 years
+    cause: Interpersonal violence
+    metric: Percent
+  indicator_path:
+    1679: y
+- dimensions:
+    age: 15-49 years
+    cause: Maternal disorders
+    metric: Percent
+  indicator_path:
+    1706: y
+- dimensions:
+    age: 15-49 years
+    cause: HIV/AIDS
+    metric: Percent
+  indicator_path:
+    1665: y
+- dimensions:
+    age: 15-49 years
+    cause: Drug use disorders
+    metric: Percent
+  indicator_path:
+    1638: y
+- dimensions:
+    age: 15-49 years
+    cause: Tuberculosis
+    metric: Percent
+  indicator_path:
+    1830: y
+- dimensions:
+    age: 15-49 years
+    cause: Alcohol use disorders
+    metric: Percent
+  indicator_path:
+    1575: y
+- dimensions:
+    age: 15-49 years
+    cause: Self-harm
+    metric: Percent
+  indicator_path:
+    1805: y
+- dimensions:
+    age: 15-49 years
+    cause: Exposure to forces of nature
+    metric: Percent
+  indicator_path:
+    1650: y
+- dimensions:
+    age: 15-49 years
+    cause: Environmental heat and cold exposure
+    metric: Percent
+  indicator_path:
+    1648: y
+- dimensions:
+    age: 15-49 years
+    cause: Conflict and terrorism
+    metric: Percent
+  indicator_path:
+    1619: y
+- dimensions:
+    age: 15-49 years
+    cause: Chronic kidney disease
+    metric: Percent
+  indicator_path:
+    1602: y
+- dimensions:
+    age: 15-49 years
+    cause: Poisonings
+    metric: Percent
+  indicator_path:
+    1792: y
+- dimensions:
+    age: 15-49 years
+    cause: Road injuries
+    metric: Percent
+  indicator_path:
+    1803: y
+- dimensions:
+    age: 15-49 years
+    cause: Fire, heat, and hot substances
+    metric: Percent
+  indicator_path:
+    1655: y
+- dimensions:
+    age: 15-49 years
+    cause: Acute hepatitis
+    metric: Percent
+  indicator_path:
+    1566: y
+- dimensions:
+    age: 15-49 years
+    cause: COVID-19
+    metric: Percent
+  indicator_path:
+    1593: y
+- dimensions:
+    age: 5-14 years
+    cause: Cardiovascular diseases
+    metric: Percent
+  indicator_path:
+    1872: y
+- dimensions:
+    age: 5-14 years
+    cause: Neoplasms
+    metric: Percent
+  indicator_path:
+    1983: y
+- dimensions:
+    age: 5-14 years
+    cause: Chronic respiratory diseases
+    metric: Percent
+  indicator_path:
+    1883: y
+- dimensions:
+    age: 5-14 years
+    cause: Digestive diseases
+    metric: Percent
+  indicator_path:
+    1902: y
+- dimensions:
+    age: 5-14 years
+    cause: Lower respiratory infections
+    metric: Percent
+  indicator_path:
+    1959: y
+- dimensions:
+    age: 5-14 years
+    cause: Diabetes mellitus
+    metric: Percent
+  indicator_path:
+    1898: y
+- dimensions:
+    age: 5-14 years
+    cause: Diarrheal diseases
+    metric: Percent
+  indicator_path:
+    1900: y
+- dimensions:
+    age: 5-14 years
+    cause: Meningitis
+    metric: Percent
+  indicator_path:
+    1971: y
+- dimensions:
+    age: 5-14 years
+    cause: Nutritional deficiencies
+    metric: Percent
+  indicator_path:
+    1990: y
+- dimensions:
+    age: 5-14 years
+    cause: Malaria
+    metric: Percent
+  indicator_path:
+    1960: y
+- dimensions:
+    age: 5-14 years
+    cause: Drowning
+    metric: Percent
+  indicator_path:
+    1905: y
+- dimensions:
+    age: 5-14 years
+    cause: Interpersonal violence
+    metric: Percent
+  indicator_path:
+    1945: y
+- dimensions:
+    age: 5-14 years
+    cause: Maternal disorders
+    metric: Percent
+  indicator_path:
+    1965: y
+- dimensions:
+    age: 5-14 years
+    cause: HIV/AIDS
+    metric: Percent
+  indicator_path:
+    1931: y
+- dimensions:
+    age: 5-14 years
+    cause: Drug use disorders
+    metric: Percent
+  indicator_path:
+    1906: y
+- dimensions:
+    age: 5-14 years
+    cause: Tuberculosis
+    metric: Percent
+  indicator_path:
+    2069: y
+- dimensions:
+    age: 5-14 years
+    cause: Alcohol use disorders
+    metric: Percent
+  indicator_path:
+    1859: y
+- dimensions:
+    age: 5-14 years
+    cause: Self-harm
+    metric: Percent
+  indicator_path:
+    2049: y
+- dimensions:
+    age: 5-14 years
+    cause: Exposure to forces of nature
+    metric: Percent
+  indicator_path:
+    1917: y
+- dimensions:
+    age: 5-14 years
+    cause: Environmental heat and cold exposure
+    metric: Percent
+  indicator_path:
+    1916: y
+- dimensions:
+    age: 5-14 years
+    cause: Conflict and terrorism
+    metric: Percent
+  indicator_path:
+    1888: y
+- dimensions:
+    age: 5-14 years
+    cause: Chronic kidney disease
+    metric: Percent
+  indicator_path:
+    1878: y
+- dimensions:
+    age: 5-14 years
+    cause: Poisonings
+    metric: Percent
+  indicator_path:
+    2036: y
+- dimensions:
+    age: 5-14 years
+    cause: Road injuries
+    metric: Percent
+  indicator_path:
+    2047: y
+- dimensions:
+    age: 5-14 years
+    cause: Fire, heat, and hot substances
+    metric: Percent
+  indicator_path:
+    1922: y
+- dimensions:
+    age: 5-14 years
+    cause: Acute hepatitis
+    metric: Percent
+  indicator_path:
+    1850: y
+- dimensions:
+    age: 5-14 years
+    cause: COVID-19
+    metric: Percent
+  indicator_path:
+    1870: y
+- dimensions:
+    age: 50-69 years
+    cause: Cardiovascular diseases
+    metric: Percent
+  indicator_path:
+    2116: y
+- dimensions:
+    age: 50-69 years
+    cause: Neoplasms
+    metric: Percent
+  indicator_path:
+    2245: y
+- dimensions:
+    age: 50-69 years
+    cause: Chronic respiratory diseases
+    metric: Percent
+  indicator_path:
+    2132: y
+- dimensions:
+    age: 50-69 years
+    cause: Digestive diseases
+    metric: Percent
+  indicator_path:
+    2155: y
+- dimensions:
+    age: 50-69 years
+    cause: Lower respiratory infections
+    metric: Percent
+  indicator_path:
+    2219: y
+- dimensions:
+    age: 50-69 years
+    cause: Alzheimer's disease and other dementias
+    metric: Percent
+  indicator_path:
+    2100: y
+- dimensions:
+    age: 50-69 years
+    cause: Diabetes mellitus
+    metric: Percent
+  indicator_path:
+    2150: y
+- dimensions:
+    age: 50-69 years
+    cause: Diarrheal diseases
+    metric: Percent
+  indicator_path:
+    2153: y
+- dimensions:
+    age: 50-69 years
+    cause: Meningitis
+    metric: Percent
+  indicator_path:
+    2232: y
+- dimensions:
+    age: 50-69 years
+    cause: Parkinson's disease
+    metric: Percent
+  indicator_path:
+    2301: y
+- dimensions:
+    age: 50-69 years
+    cause: Nutritional deficiencies
+    metric: Percent
+  indicator_path:
+    2258: y
+- dimensions:
+    age: 50-69 years
+    cause: Malaria
+    metric: Percent
+  indicator_path:
+    2220: y
+- dimensions:
+    age: 50-69 years
+    cause: Drowning
+    metric: Percent
+  indicator_path:
+    2158: y
+- dimensions:
+    age: 50-69 years
+    cause: Interpersonal violence
+    metric: Percent
+  indicator_path:
+    2199: y
+- dimensions:
+    age: 50-69 years
+    cause: Maternal disorders
+    metric: Percent
+  indicator_path:
+    2226: y
+- dimensions:
+    age: 50-69 years
+    cause: HIV/AIDS
+    metric: Percent
+  indicator_path:
+    2185: y
+- dimensions:
+    age: 50-69 years
+    cause: Drug use disorders
+    metric: Percent
+  indicator_path:
+    2159: y
+- dimensions:
+    age: 50-69 years
+    cause: Tuberculosis
+    metric: Percent
+  indicator_path:
+    2349: y
+- dimensions:
+    age: 50-69 years
+    cause: Alcohol use disorders
+    metric: Percent
+  indicator_path:
+    2097: y
+- dimensions:
+    age: 50-69 years
+    cause: Self-harm
+    metric: Percent
+  indicator_path:
+    2324: y
+- dimensions:
+    age: 50-69 years
+    cause: Exposure to forces of nature
+    metric: Percent
+  indicator_path:
+    2170: y
+- dimensions:
+    age: 50-69 years
+    cause: Environmental heat and cold exposure
+    metric: Percent
+  indicator_path:
+    2168: y
+- dimensions:
+    age: 50-69 years
+    cause: Conflict and terrorism
+    metric: Percent
+  indicator_path:
+    2140: y
+- dimensions:
+    age: 50-69 years
+    cause: Chronic kidney disease
+    metric: Percent
+  indicator_path:
+    2123: y
+- dimensions:
+    age: 50-69 years
+    cause: Poisonings
+    metric: Percent
+  indicator_path:
+    2311: y
+- dimensions:
+    age: 50-69 years
+    cause: Road injuries
+    metric: Percent
+  indicator_path:
+    2322: y
+- dimensions:
+    age: 50-69 years
+    cause: Fire, heat, and hot substances
+    metric: Percent
+  indicator_path:
+    2175: y
+- dimensions:
+    age: 50-69 years
+    cause: Acute hepatitis
+    metric: Percent
+  indicator_path:
+    2088: y
+- dimensions:
+    age: 50-69 years
+    cause: COVID-19
+    metric: Percent
+  indicator_path:
+    2114: y
+- dimensions:
+    age: 70+ years
+    cause: Cardiovascular diseases
+    metric: Percent
+  indicator_path:
+    2397: y
+- dimensions:
+    age: 70+ years
+    cause: Neoplasms
+    metric: Percent
+  indicator_path:
+    2509: y
+- dimensions:
+    age: 70+ years
+    cause: Chronic respiratory diseases
+    metric: Percent
+  indicator_path:
+    2413: y
+- dimensions:
+    age: 70+ years
+    cause: Digestive diseases
+    metric: Percent
+  indicator_path:
+    2432: y
+- dimensions:
+    age: 70+ years
+    cause: Lower respiratory infections
+    metric: Percent
+  indicator_path:
+    2491: y
+- dimensions:
+    age: 70+ years
+    cause: Alzheimer's disease and other dementias
+    metric: Percent
+  indicator_path:
+    2381: y
+- dimensions:
+    age: 70+ years
+    cause: Diabetes mellitus
+    metric: Percent
+  indicator_path:
+    2428: y
+- dimensions:
+    age: 70+ years
+    cause: Diarrheal diseases
+    metric: Percent
+  indicator_path:
+    2431: y
+- dimensions:
+    age: 70+ years
+    cause: Meningitis
+    metric: Percent
+  indicator_path:
+    2496: y
+- dimensions:
+    age: 70+ years
+    cause: Parkinson's disease
+    metric: Percent
+  indicator_path:
+    2561: y
+- dimensions:
+    age: 70+ years
+    cause: Nutritional deficiencies
+    metric: Percent
+  indicator_path:
+    2521: y
+- dimensions:
+    age: 70+ years
+    cause: Malaria
+    metric: Percent
+  indicator_path:
+    2492: y
+- dimensions:
+    age: 70+ years
+    cause: Drowning
+    metric: Percent
+  indicator_path:
+    2434: y
+- dimensions:
+    age: 70+ years
+    cause: Interpersonal violence
+    metric: Percent
+  indicator_path:
+    2472: y
+- dimensions:
+    age: 70+ years
+    cause: HIV/AIDS
+    metric: Percent
+  indicator_path:
+    2459: y
+- dimensions:
+    age: 70+ years
+    cause: Drug use disorders
+    metric: Percent
+  indicator_path:
+    2435: y
+- dimensions:
+    age: 70+ years
+    cause: Tuberculosis
+    metric: Percent
+  indicator_path:
+    2608: y
+- dimensions:
+    age: 70+ years
+    cause: Alcohol use disorders
+    metric: Percent
+  indicator_path:
+    2378: y
+- dimensions:
+    age: 70+ years
+    cause: Self-harm
+    metric: Percent
+  indicator_path:
+    2583: y
+- dimensions:
+    age: 70+ years
+    cause: Exposure to forces of nature
+    metric: Percent
+  indicator_path:
+    2444: y
+- dimensions:
+    age: 70+ years
+    cause: Environmental heat and cold exposure
+    metric: Percent
+  indicator_path:
+    2442: y
+- dimensions:
+    age: 70+ years
+    cause: Conflict and terrorism
+    metric: Percent
+  indicator_path:
+    2421: y
+- dimensions:
+    age: 70+ years
+    cause: Chronic kidney disease
+    metric: Percent
+  indicator_path:
+    2404: y
+- dimensions:
+    age: 70+ years
+    cause: Poisonings
+    metric: Percent
+  indicator_path:
+    2570: y
+- dimensions:
+    age: 70+ years
+    cause: Road injuries
+    metric: Percent
+  indicator_path:
+    2581: y
+- dimensions:
+    age: 70+ years
+    cause: Fire, heat, and hot substances
+    metric: Percent
+  indicator_path:
+    2449: y
+- dimensions:
+    age: 70+ years
+    cause: Acute hepatitis
+    metric: Percent
+  indicator_path:
+    2369: y
+- dimensions:
+    age: 70+ years
+    cause: COVID-19
+    metric: Percent
+  indicator_path:
+    2395: y
+- dimensions:
+    age: <5 years
+    cause: Cardiovascular diseases
+    metric: Percent
+  indicator_path:
+    2647: y
+- dimensions:
+    age: <5 years
+    cause: Neoplasms
+    metric: Percent
+  indicator_path:
+    2740: y
+- dimensions:
+    age: <5 years
+    cause: Chronic respiratory diseases
+    metric: Percent
+  indicator_path:
+    2657: y
+- dimensions:
+    age: <5 years
+    cause: Digestive diseases
+    metric: Percent
+  indicator_path:
+    2675: y
+- dimensions:
+    age: <5 years
+    cause: Lower respiratory infections
+    metric: Percent
+  indicator_path:
+    2722: y
+- dimensions:
+    age: <5 years
+    cause: Neonatal disorders
+    metric: Percent
+  indicator_path:
+    2736: y
+- dimensions:
+    age: <5 years
+    cause: Diabetes mellitus
+    metric: Percent
+  indicator_path:
+    2671: y
+- dimensions:
+    age: <5 years
+    cause: Diarrheal diseases
+    metric: Percent
+  indicator_path:
+    2674: y
+- dimensions:
+    age: <5 years
+    cause: Meningitis
+    metric: Percent
+  indicator_path:
+    2727: y
+- dimensions:
+    age: <5 years
+    cause: Nutritional deficiencies
+    metric: Percent
+  indicator_path:
+    2747: y
+- dimensions:
+    age: <5 years
+    cause: Malaria
+    metric: Percent
+  indicator_path:
+    2723: y
+- dimensions:
+    age: <5 years
+    cause: Drowning
+    metric: Percent
+  indicator_path:
+    2678: y
+- dimensions:
+    age: <5 years
+    cause: Interpersonal violence
+    metric: Percent
+  indicator_path:
+    2712: y
+- dimensions:
+    age: <5 years
+    cause: HIV/AIDS
+    metric: Percent
+  indicator_path:
+    2698: y
+- dimensions:
+    age: <5 years
+    cause: Drug use disorders
+    metric: Percent
+  indicator_path:
+    2679: y
+- dimensions:
+    age: <5 years
+    cause: Tuberculosis
+    metric: Percent
+  indicator_path:
+    2819: y
+- dimensions:
+    age: <5 years
+    cause: Alcohol use disorders
+    metric: Percent
+  indicator_path:
+    2636: y
+- dimensions:
+    age: <5 years
+    cause: Exposure to forces of nature
+    metric: Percent
+  indicator_path:
+    2687: y
+- dimensions:
+    age: <5 years
+    cause: Environmental heat and cold exposure
+    metric: Percent
+  indicator_path:
+    2686: y
+- dimensions:
+    age: <5 years
+    cause: Conflict and terrorism
+    metric: Percent
+  indicator_path:
+    2661: y
+- dimensions:
+    age: <5 years
+    cause: Chronic kidney disease
+    metric: Percent
+  indicator_path:
+    2652: y
+- dimensions:
+    age: <5 years
+    cause: Poisonings
+    metric: Percent
+  indicator_path:
+    2790: y
+- dimensions:
+    age: <5 years
+    cause: Road injuries
+    metric: Percent
+  indicator_path:
+    2800: y
+- dimensions:
+    age: <5 years
+    cause: Fire, heat, and hot substances
+    metric: Percent
+  indicator_path:
+    2692: y
+- dimensions:
+    age: <5 years
+    cause: Acute hepatitis
+    metric: Percent
+  indicator_path:
+    2627: y
+- dimensions:
+    age: <5 years
+    cause: COVID-19
+    metric: Percent
+  indicator_path:
+    2645: y
+- dimensions:
+    age: All ages
+    cause: Cardiovascular diseases
+    metric: Percent
+  indicator_path:
+    2866: y
+- dimensions:
+    age: All ages
+    cause: Neoplasms
+    metric: Percent
+  indicator_path:
+    3003: y
+- dimensions:
+    age: All ages
+    cause: Chronic respiratory diseases
+    metric: Percent
+  indicator_path:
+    2882: y
+- dimensions:
+    age: All ages
+    cause: Digestive diseases
+    metric: Percent
+  indicator_path:
+    2905: y
+- dimensions:
+    age: All ages
+    cause: Lower respiratory infections
+    metric: Percent
+  indicator_path:
+    2972: y
+- dimensions:
+    age: All ages
+    cause: Neonatal disorders
+    metric: Percent
+  indicator_path:
+    2999: y
+- dimensions:
+    age: All ages
+    cause: Alzheimer's disease and other dementias
+    metric: Percent
+  indicator_path:
+    2849: y
+- dimensions:
+    age: All ages
+    cause: Diabetes mellitus
+    metric: Percent
+  indicator_path:
+    2900: y
+- dimensions:
+    age: All ages
+    cause: Diarrheal diseases
+    metric: Percent
+  indicator_path:
+    2903: y
+- dimensions:
+    age: All ages
+    cause: Meningitis
+    metric: Percent
+  indicator_path:
+    2985: y
+- dimensions:
+    age: All ages
+    cause: Parkinson's disease
+    metric: Percent
+  indicator_path:
+    3061: y
+- dimensions:
+    age: All ages
+    cause: Nutritional deficiencies
+    metric: Percent
+  indicator_path:
+    3016: y
+- dimensions:
+    age: All ages
+    cause: Malaria
+    metric: Percent
+  indicator_path:
+    2973: y
+- dimensions:
+    age: All ages
+    cause: Drowning
+    metric: Percent
+  indicator_path:
+    2908: y
+- dimensions:
+    age: All ages
+    cause: Interpersonal violence
+    metric: Percent
+  indicator_path:
+    2952: y
+- dimensions:
+    age: All ages
+    cause: Maternal disorders
+    metric: Percent
+  indicator_path:
+    2979: y
+- dimensions:
+    age: All ages
+    cause: HIV/AIDS
+    metric: Percent
+  indicator_path:
+    2936: y
+- dimensions:
+    age: All ages
+    cause: Drug use disorders
+    metric: Percent
+  indicator_path:
+    2909: y
+- dimensions:
+    age: All ages
+    cause: Tuberculosis
+    metric: Percent
+  indicator_path:
+    3111: y
+- dimensions:
+    age: All ages
+    cause: Alcohol use disorders
+    metric: Percent
+  indicator_path:
+    2846: y
+- dimensions:
+    age: All ages
+    cause: Self-harm
+    metric: Percent
+  indicator_path:
+    3085: y
+- dimensions:
+    age: All ages
+    cause: Exposure to forces of nature
+    metric: Percent
+  indicator_path:
+    2921: y
+- dimensions:
+    age: All ages
+    cause: Environmental heat and cold exposure
+    metric: Percent
+  indicator_path:
+    2919: y
+- dimensions:
+    age: All ages
+    cause: Conflict and terrorism
+    metric: Percent
+  indicator_path:
+    2890: y
+- dimensions:
+    age: All ages
+    cause: Chronic kidney disease
+    metric: Percent
+  indicator_path:
+    2873: y
+- dimensions:
+    age: All ages
+    cause: Poisonings
+    metric: Percent
+  indicator_path:
+    3071: y
+- dimensions:
+    age: All ages
+    cause: Road injuries
+    metric: Percent
+  indicator_path:
+    3083: y
+- dimensions:
+    age: All ages
+    cause: Fire, heat, and hot substances
+    metric: Percent
+  indicator_path:
+    2926: y
+- dimensions:
+    age: All ages
+    cause: Acute hepatitis
+    metric: Percent
+  indicator_path:
+    2837: y
+- dimensions:
+    age: All ages
+    cause: COVID-19
+    metric: Percent
+  indicator_path:
+    2864: y
+- dimensions:
+    age: 15-49 years
+    cause: Cardiovascular diseases
+    metric: Rate
+  indicator_path:
+    3160: y
+- dimensions:
+    age: 15-49 years
+    cause: Neoplasms
+    metric: Rate
+  indicator_path:
+    3291: y
+- dimensions:
+    age: 15-49 years
+    cause: Chronic respiratory diseases
+    metric: Rate
+  indicator_path:
+    3176: y
+- dimensions:
+    age: 15-49 years
+    cause: Digestive diseases
+    metric: Rate
+  indicator_path:
+    3200: y
+- dimensions:
+    age: 15-49 years
+    cause: Lower respiratory infections
+    metric: Rate
+  indicator_path:
+    3264: y
+- dimensions:
+    age: 15-49 years
+    cause: Alzheimer's disease and other dementias
+    metric: Rate
+  indicator_path:
+    3143: y
+- dimensions:
+    age: 15-49 years
+    cause: Diabetes mellitus
+    metric: Rate
+  indicator_path:
+    3194: y
+- dimensions:
+    age: 15-49 years
+    cause: Diarrheal diseases
+    metric: Rate
+  indicator_path:
+    3197: y
+- dimensions:
+    age: 15-49 years
+    cause: Meningitis
+    metric: Rate
+  indicator_path:
+    3277: y
+- dimensions:
+    age: 15-49 years
+    cause: Parkinson's disease
+    metric: Rate
+  indicator_path:
+    3347: y
+- dimensions:
+    age: 15-49 years
+    cause: Nutritional deficiencies
+    metric: Rate
+  indicator_path:
+    3304: y
+- dimensions:
+    age: 15-49 years
+    cause: Malaria
+    metric: Rate
+  indicator_path:
+    3265: y
+- dimensions:
+    age: 15-49 years
+    cause: Drowning
+    metric: Rate
+  indicator_path:
+    3202: y
+- dimensions:
+    age: 15-49 years
+    cause: Interpersonal violence
+    metric: Rate
+  indicator_path:
+    3244: y
+- dimensions:
+    age: 15-49 years
+    cause: Maternal disorders
+    metric: Rate
+  indicator_path:
+    3271: y
+- dimensions:
+    age: 15-49 years
+    cause: HIV/AIDS
+    metric: Rate
+  indicator_path:
+    3230: y
+- dimensions:
+    age: 15-49 years
+    cause: Drug use disorders
+    metric: Rate
+  indicator_path:
+    3203: y
+- dimensions:
+    age: 15-49 years
+    cause: Tuberculosis
+    metric: Rate
+  indicator_path:
+    3395: y
+- dimensions:
+    age: 15-49 years
+    cause: Alcohol use disorders
+    metric: Rate
+  indicator_path:
+    3140: y
+- dimensions:
+    age: 15-49 years
+    cause: Self-harm
+    metric: Rate
+  indicator_path:
+    3370: y
+- dimensions:
+    age: 15-49 years
+    cause: Exposure to forces of nature
+    metric: Rate
+  indicator_path:
+    3215: y
+- dimensions:
+    age: 15-49 years
+    cause: Environmental heat and cold exposure
+    metric: Rate
+  indicator_path:
+    3213: y
+- dimensions:
+    age: 15-49 years
+    cause: Conflict and terrorism
+    metric: Rate
+  indicator_path:
+    3184: y
+- dimensions:
+    age: 15-49 years
+    cause: Chronic kidney disease
+    metric: Rate
+  indicator_path:
+    3167: y
+- dimensions:
+    age: 15-49 years
+    cause: Poisonings
+    metric: Rate
+  indicator_path:
+    3357: y
+- dimensions:
+    age: 15-49 years
+    cause: Road injuries
+    metric: Rate
+  indicator_path:
+    3368: y
+- dimensions:
+    age: 15-49 years
+    cause: Fire, heat, and hot substances
+    metric: Rate
+  indicator_path:
+    3220: y
+- dimensions:
+    age: 15-49 years
+    cause: Acute hepatitis
+    metric: Rate
+  indicator_path:
+    3131: y
+- dimensions:
+    age: 15-49 years
+    cause: COVID-19
+    metric: Rate
+  indicator_path:
+    3158: y
+- dimensions:
+    age: 5-14 years
+    cause: Cardiovascular diseases
+    metric: Rate
+  indicator_path:
+    3437: y
+- dimensions:
+    age: 5-14 years
+    cause: Neoplasms
+    metric: Rate
+  indicator_path:
+    3548: y
+- dimensions:
+    age: 5-14 years
+    cause: Chronic respiratory diseases
+    metric: Rate
+  indicator_path:
+    3448: y
+- dimensions:
+    age: 5-14 years
+    cause: Digestive diseases
+    metric: Rate
+  indicator_path:
+    3467: y
+- dimensions:
+    age: 5-14 years
+    cause: Lower respiratory infections
+    metric: Rate
+  indicator_path:
+    3524: y
+- dimensions:
+    age: 5-14 years
+    cause: Diabetes mellitus
+    metric: Rate
+  indicator_path:
+    3463: y
+- dimensions:
+    age: 5-14 years
+    cause: Diarrheal diseases
+    metric: Rate
+  indicator_path:
+    3465: y
+- dimensions:
+    age: 5-14 years
+    cause: Meningitis
+    metric: Rate
+  indicator_path:
+    3536: y
+- dimensions:
+    age: 5-14 years
+    cause: Nutritional deficiencies
+    metric: Rate
+  indicator_path:
+    3555: y
+- dimensions:
+    age: 5-14 years
+    cause: Malaria
+    metric: Rate
+  indicator_path:
+    3525: y
+- dimensions:
+    age: 5-14 years
+    cause: Drowning
+    metric: Rate
+  indicator_path:
+    3470: y
+- dimensions:
+    age: 5-14 years
+    cause: Interpersonal violence
+    metric: Rate
+  indicator_path:
+    3510: y
+- dimensions:
+    age: 5-14 years
+    cause: Maternal disorders
+    metric: Rate
+  indicator_path:
+    3530: y
+- dimensions:
+    age: 5-14 years
+    cause: HIV/AIDS
+    metric: Rate
+  indicator_path:
+    3496: y
+- dimensions:
+    age: 5-14 years
+    cause: Drug use disorders
+    metric: Rate
+  indicator_path:
+    3471: y
+- dimensions:
+    age: 5-14 years
+    cause: Tuberculosis
+    metric: Rate
+  indicator_path:
+    3634: y
+- dimensions:
+    age: 5-14 years
+    cause: Alcohol use disorders
+    metric: Rate
+  indicator_path:
+    3424: y
+- dimensions:
+    age: 5-14 years
+    cause: Self-harm
+    metric: Rate
+  indicator_path:
+    3614: y
+- dimensions:
+    age: 5-14 years
+    cause: Exposure to forces of nature
+    metric: Rate
+  indicator_path:
+    3482: y
+- dimensions:
+    age: 5-14 years
+    cause: Environmental heat and cold exposure
+    metric: Rate
+  indicator_path:
+    3481: y
+- dimensions:
+    age: 5-14 years
+    cause: Conflict and terrorism
+    metric: Rate
+  indicator_path:
+    3453: y
+- dimensions:
+    age: 5-14 years
+    cause: Chronic kidney disease
+    metric: Rate
+  indicator_path:
+    3443: y
+- dimensions:
+    age: 5-14 years
+    cause: Poisonings
+    metric: Rate
+  indicator_path:
+    3601: y
+- dimensions:
+    age: 5-14 years
+    cause: Road injuries
+    metric: Rate
+  indicator_path:
+    3612: y
+- dimensions:
+    age: 5-14 years
+    cause: Fire, heat, and hot substances
+    metric: Rate
+  indicator_path:
+    3487: y
+- dimensions:
+    age: 5-14 years
+    cause: Acute hepatitis
+    metric: Rate
+  indicator_path:
+    3415: y
+- dimensions:
+    age: 5-14 years
+    cause: COVID-19
+    metric: Rate
+  indicator_path:
+    3435: y
+- dimensions:
+    age: 50-69 years
+    cause: Cardiovascular diseases
+    metric: Rate
+  indicator_path:
+    3681: y
+- dimensions:
+    age: 50-69 years
+    cause: Neoplasms
+    metric: Rate
+  indicator_path:
+    3810: y
+- dimensions:
+    age: 50-69 years
+    cause: Chronic respiratory diseases
+    metric: Rate
+  indicator_path:
+    3697: y
+- dimensions:
+    age: 50-69 years
+    cause: Digestive diseases
+    metric: Rate
+  indicator_path:
+    3720: y
+- dimensions:
+    age: 50-69 years
+    cause: Lower respiratory infections
+    metric: Rate
+  indicator_path:
+    3784: y
+- dimensions:
+    age: 50-69 years
+    cause: Alzheimer's disease and other dementias
+    metric: Rate
+  indicator_path:
+    3665: y
+- dimensions:
+    age: 50-69 years
+    cause: Diabetes mellitus
+    metric: Rate
+  indicator_path:
+    3715: y
+- dimensions:
+    age: 50-69 years
+    cause: Diarrheal diseases
+    metric: Rate
+  indicator_path:
+    3717: y
+- dimensions:
+    age: 50-69 years
+    cause: Meningitis
+    metric: Rate
+  indicator_path:
+    3797: y
+- dimensions:
+    age: 50-69 years
+    cause: Parkinson's disease
+    metric: Rate
+  indicator_path:
+    3866: y
+- dimensions:
+    age: 50-69 years
+    cause: Nutritional deficiencies
+    metric: Rate
+  indicator_path:
+    3823: y
+- dimensions:
+    age: 50-69 years
+    cause: Malaria
+    metric: Rate
+  indicator_path:
+    3785: y
+- dimensions:
+    age: 50-69 years
+    cause: Drowning
+    metric: Rate
+  indicator_path:
+    3723: y
+- dimensions:
+    age: 50-69 years
+    cause: Interpersonal violence
+    metric: Rate
+  indicator_path:
+    3764: y
+- dimensions:
+    age: 50-69 years
+    cause: Maternal disorders
+    metric: Rate
+  indicator_path:
+    3791: y
+- dimensions:
+    age: 50-69 years
+    cause: HIV/AIDS
+    metric: Rate
+  indicator_path:
+    3750: y
+- dimensions:
+    age: 50-69 years
+    cause: Drug use disorders
+    metric: Rate
+  indicator_path:
+    3724: y
+- dimensions:
+    age: 50-69 years
+    cause: Tuberculosis
+    metric: Rate
+  indicator_path:
+    3914: y
+- dimensions:
+    age: 50-69 years
+    cause: Alcohol use disorders
+    metric: Rate
+  indicator_path:
+    3662: y
+- dimensions:
+    age: 50-69 years
+    cause: Self-harm
+    metric: Rate
+  indicator_path:
+    3889: y
+- dimensions:
+    age: 50-69 years
+    cause: Exposure to forces of nature
+    metric: Rate
+  indicator_path:
+    3735: y
+- dimensions:
+    age: 50-69 years
+    cause: Environmental heat and cold exposure
+    metric: Rate
+  indicator_path:
+    3733: y
+- dimensions:
+    age: 50-69 years
+    cause: Conflict and terrorism
+    metric: Rate
+  indicator_path:
+    3705: y
+- dimensions:
+    age: 50-69 years
+    cause: Chronic kidney disease
+    metric: Rate
+  indicator_path:
+    3688: y
+- dimensions:
+    age: 50-69 years
+    cause: Poisonings
+    metric: Rate
+  indicator_path:
+    3876: y
+- dimensions:
+    age: 50-69 years
+    cause: Road injuries
+    metric: Rate
+  indicator_path:
+    3887: y
+- dimensions:
+    age: 50-69 years
+    cause: Fire, heat, and hot substances
+    metric: Rate
+  indicator_path:
+    3740: y
+- dimensions:
+    age: 50-69 years
+    cause: Acute hepatitis
+    metric: Rate
+  indicator_path:
+    3653: y
+- dimensions:
+    age: 50-69 years
+    cause: COVID-19
+    metric: Rate
+  indicator_path:
+    3679: y
+- dimensions:
+    age: 70+ years
+    cause: Cardiovascular diseases
+    metric: Rate
+  indicator_path:
+    3962: y
+- dimensions:
+    age: 70+ years
+    cause: Neoplasms
+    metric: Rate
+  indicator_path:
+    4074: y
+- dimensions:
+    age: 70+ years
+    cause: Chronic respiratory diseases
+    metric: Rate
+  indicator_path:
+    3977: y
+- dimensions:
+    age: 70+ years
+    cause: Digestive diseases
+    metric: Rate
+  indicator_path:
+    3997: y
+- dimensions:
+    age: 70+ years
+    cause: Lower respiratory infections
+    metric: Rate
+  indicator_path:
+    4056: y
+- dimensions:
+    age: 70+ years
+    cause: Alzheimer's disease and other dementias
+    metric: Rate
+  indicator_path:
+    3946: y
+- dimensions:
+    age: 70+ years
+    cause: Diabetes mellitus
+    metric: Rate
+  indicator_path:
+    3993: y
+- dimensions:
+    age: 70+ years
+    cause: Diarrheal diseases
+    metric: Rate
+  indicator_path:
+    3996: y
+- dimensions:
+    age: 70+ years
+    cause: Meningitis
+    metric: Rate
+  indicator_path:
+    4061: y
+- dimensions:
+    age: 70+ years
+    cause: Parkinson's disease
+    metric: Rate
+  indicator_path:
+    4126: y
+- dimensions:
+    age: 70+ years
+    cause: Nutritional deficiencies
+    metric: Rate
+  indicator_path:
+    4086: y
+- dimensions:
+    age: 70+ years
+    cause: Malaria
+    metric: Rate
+  indicator_path:
+    4057: y
+- dimensions:
+    age: 70+ years
+    cause: Drowning
+    metric: Rate
+  indicator_path:
+    3999: y
+- dimensions:
+    age: 70+ years
+    cause: Interpersonal violence
+    metric: Rate
+  indicator_path:
+    4037: y
+- dimensions:
+    age: 70+ years
+    cause: HIV/AIDS
+    metric: Rate
+  indicator_path:
+    4024: y
+- dimensions:
+    age: 70+ years
+    cause: Drug use disorders
+    metric: Rate
+  indicator_path:
+    4000: y
+- dimensions:
+    age: 70+ years
+    cause: Tuberculosis
+    metric: Rate
+  indicator_path:
+    4173: y
+- dimensions:
+    age: 70+ years
+    cause: Alcohol use disorders
+    metric: Rate
+  indicator_path:
+    3943: y
+- dimensions:
+    age: 70+ years
+    cause: Self-harm
+    metric: Rate
+  indicator_path:
+    4148: y
+- dimensions:
+    age: 70+ years
+    cause: Exposure to forces of nature
+    metric: Rate
+  indicator_path:
+    4009: y
+- dimensions:
+    age: 70+ years
+    cause: Environmental heat and cold exposure
+    metric: Rate
+  indicator_path:
+    4007: y
+- dimensions:
+    age: 70+ years
+    cause: Conflict and terrorism
+    metric: Rate
+  indicator_path:
+    3986: y
+- dimensions:
+    age: 70+ years
+    cause: Chronic kidney disease
+    metric: Rate
+  indicator_path:
+    3969: y
+- dimensions:
+    age: 70+ years
+    cause: Poisonings
+    metric: Rate
+  indicator_path:
+    4135: y
+- dimensions:
+    age: 70+ years
+    cause: Road injuries
+    metric: Rate
+  indicator_path:
+    4146: y
+- dimensions:
+    age: 70+ years
+    cause: Fire, heat, and hot substances
+    metric: Rate
+  indicator_path:
+    4014: y
+- dimensions:
+    age: 70+ years
+    cause: Acute hepatitis
+    metric: Rate
+  indicator_path:
+    3934: y
+- dimensions:
+    age: 70+ years
+    cause: COVID-19
+    metric: Rate
+  indicator_path:
+    3960: y
+- dimensions:
+    age: <5 years
+    cause: Cardiovascular diseases
+    metric: Rate
+  indicator_path:
+    4212: y
+- dimensions:
+    age: <5 years
+    cause: Neoplasms
+    metric: Rate
+  indicator_path:
+    4305: y
+- dimensions:
+    age: <5 years
+    cause: Chronic respiratory diseases
+    metric: Rate
+  indicator_path:
+    4222: y
+- dimensions:
+    age: <5 years
+    cause: Digestive diseases
+    metric: Rate
+  indicator_path:
+    4240: y
+- dimensions:
+    age: <5 years
+    cause: Lower respiratory infections
+    metric: Rate
+  indicator_path:
+    4287: y
+- dimensions:
+    age: <5 years
+    cause: Neonatal disorders
+    metric: Rate
+  indicator_path:
+    4301: y
+- dimensions:
+    age: <5 years
+    cause: Diabetes mellitus
+    metric: Rate
+  indicator_path:
+    4236: y
+- dimensions:
+    age: <5 years
+    cause: Diarrheal diseases
+    metric: Rate
+  indicator_path:
+    4238: y
+- dimensions:
+    age: <5 years
+    cause: Meningitis
+    metric: Rate
+  indicator_path:
+    4292: y
+- dimensions:
+    age: <5 years
+    cause: Nutritional deficiencies
+    metric: Rate
+  indicator_path:
+    4312: y
+- dimensions:
+    age: <5 years
+    cause: Malaria
+    metric: Rate
+  indicator_path:
+    4288: y
+- dimensions:
+    age: <5 years
+    cause: Drowning
+    metric: Rate
+  indicator_path:
+    4243: y
+- dimensions:
+    age: <5 years
+    cause: Interpersonal violence
+    metric: Rate
+  indicator_path:
+    4277: y
+- dimensions:
+    age: <5 years
+    cause: HIV/AIDS
+    metric: Rate
+  indicator_path:
+    4263: y
+- dimensions:
+    age: <5 years
+    cause: Drug use disorders
+    metric: Rate
+  indicator_path:
+    4244: y
+- dimensions:
+    age: <5 years
+    cause: Tuberculosis
+    metric: Rate
+  indicator_path:
+    4384: y
+- dimensions:
+    age: <5 years
+    cause: Alcohol use disorders
+    metric: Rate
+  indicator_path:
+    4201: y
+- dimensions:
+    age: <5 years
+    cause: Exposure to forces of nature
+    metric: Rate
+  indicator_path:
+    4252: y
+- dimensions:
+    age: <5 years
+    cause: Environmental heat and cold exposure
+    metric: Rate
+  indicator_path:
+    4251: y
+- dimensions:
+    age: <5 years
+    cause: Conflict and terrorism
+    metric: Rate
+  indicator_path:
+    4226: y
+- dimensions:
+    age: <5 years
+    cause: Chronic kidney disease
+    metric: Rate
+  indicator_path:
+    4216: y
+- dimensions:
+    age: <5 years
+    cause: Poisonings
+    metric: Rate
+  indicator_path:
+    4355: y
+- dimensions:
+    age: <5 years
+    cause: Road injuries
+    metric: Rate
+  indicator_path:
+    4365: y
+- dimensions:
+    age: <5 years
+    cause: Fire, heat, and hot substances
+    metric: Rate
+  indicator_path:
+    4257: y
+- dimensions:
+    age: <5 years
+    cause: Acute hepatitis
+    metric: Rate
+  indicator_path:
+    4192: y
+- dimensions:
+    age: <5 years
+    cause: COVID-19
+    metric: Rate
+  indicator_path:
+    4210: y
+- dimensions:
+    age: All ages
+    cause: Cardiovascular diseases
+    metric: Rate
+  indicator_path:
+    4726: y
+- dimensions:
+    age: All ages
+    cause: Neoplasms
+    metric: Rate
+  indicator_path:
+    4863: y
+- dimensions:
+    age: All ages
+    cause: Chronic respiratory diseases
+    metric: Rate
+  indicator_path:
+    4742: y
+- dimensions:
+    age: All ages
+    cause: Digestive diseases
+    metric: Rate
+  indicator_path:
+    4765: y
+- dimensions:
+    age: All ages
+    cause: Lower respiratory infections
+    metric: Rate
+  indicator_path:
+    4832: y
+- dimensions:
+    age: All ages
+    cause: Neonatal disorders
+    metric: Rate
+  indicator_path:
+    4859: y
+- dimensions:
+    age: All ages
+    cause: Alzheimer's disease and other dementias
+    metric: Rate
+  indicator_path:
+    4709: y
+- dimensions:
+    age: All ages
+    cause: Diabetes mellitus
+    metric: Rate
+  indicator_path:
+    4760: y
+- dimensions:
+    age: All ages
+    cause: Diarrheal diseases
+    metric: Rate
+  indicator_path:
+    4763: y
+- dimensions:
+    age: All ages
+    cause: Meningitis
+    metric: Rate
+  indicator_path:
+    4845: y
+- dimensions:
+    age: All ages
+    cause: Parkinson's disease
+    metric: Rate
+  indicator_path:
+    4921: y
+- dimensions:
+    age: All ages
+    cause: Nutritional deficiencies
+    metric: Rate
+  indicator_path:
+    4876: y
+- dimensions:
+    age: All ages
+    cause: Malaria
+    metric: Rate
+  indicator_path:
+    4833: y
+- dimensions:
+    age: All ages
+    cause: Drowning
+    metric: Rate
+  indicator_path:
+    4768: y
+- dimensions:
+    age: All ages
+    cause: Interpersonal violence
+    metric: Rate
+  indicator_path:
+    4812: y
+- dimensions:
+    age: All ages
+    cause: Maternal disorders
+    metric: Rate
+  indicator_path:
+    4839: y
+- dimensions:
+    age: All ages
+    cause: HIV/AIDS
+    metric: Rate
+  indicator_path:
+    4796: y
+- dimensions:
+    age: All ages
+    cause: Drug use disorders
+    metric: Rate
+  indicator_path:
+    4769: y
+- dimensions:
+    age: All ages
+    cause: Tuberculosis
+    metric: Rate
+  indicator_path:
+    4971: y
+- dimensions:
+    age: All ages
+    cause: Alcohol use disorders
+    metric: Rate
+  indicator_path:
+    4706: y
+- dimensions:
+    age: All ages
+    cause: Self-harm
+    metric: Rate
+  indicator_path:
+    4945: y
+- dimensions:
+    age: All ages
+    cause: Exposure to forces of nature
+    metric: Rate
+  indicator_path:
+    4781: y
+- dimensions:
+    age: All ages
+    cause: Environmental heat and cold exposure
+    metric: Rate
+  indicator_path:
+    4779: y
+- dimensions:
+    age: All ages
+    cause: Conflict and terrorism
+    metric: Rate
+  indicator_path:
+    4750: y
+- dimensions:
+    age: All ages
+    cause: Chronic kidney disease
+    metric: Rate
+  indicator_path:
+    4733: y
+- dimensions:
+    age: All ages
+    cause: Poisonings
+    metric: Rate
+  indicator_path:
+    4931: y
+- dimensions:
+    age: All ages
+    cause: Road injuries
+    metric: Rate
+  indicator_path:
+    4943: y
+- dimensions:
+    age: All ages
+    cause: Fire, heat, and hot substances
+    metric: Rate
+  indicator_path:
+    4786: y
+- dimensions:
+    age: All ages
+    cause: Acute hepatitis
+    metric: Rate
+  indicator_path:
+    4697: y
+- dimensions:
+    age: All ages
+    cause: COVID-19
+    metric: Rate
+  indicator_path:
+    4724: y
+- dimensions:
+    age: Age-standardized
+    cause: Cardiovascular diseases
+    metric: Rate
+  indicator_path:
+    4432: y
+- dimensions:
+    age: Age-standardized
+    cause: Neoplasms
+    metric: Rate
+  indicator_path:
+    4569: y
+- dimensions:
+    age: Age-standardized
+    cause: Chronic respiratory diseases
+    metric: Rate
+  indicator_path:
+    4448: y
+- dimensions:
+    age: Age-standardized
+    cause: Digestive diseases
+    metric: Rate
+  indicator_path:
+    4471: y
+- dimensions:
+    age: Age-standardized
+    cause: Lower respiratory infections
+    metric: Rate
+  indicator_path:
+    4538: y
+- dimensions:
+    age: Age-standardized
+    cause: Neonatal disorders
+    metric: Rate
+  indicator_path:
+    4565: y
+- dimensions:
+    age: Age-standardized
+    cause: Alzheimer's disease and other dementias
+    metric: Rate
+  indicator_path:
+    4415: y
+- dimensions:
+    age: Age-standardized
+    cause: Diabetes mellitus
+    metric: Rate
+  indicator_path:
+    4466: y
+- dimensions:
+    age: Age-standardized
+    cause: Diarrheal diseases
+    metric: Rate
+  indicator_path:
+    4469: y
+- dimensions:
+    age: Age-standardized
+    cause: Meningitis
+    metric: Rate
+  indicator_path:
+    4551: y
+- dimensions:
+    age: Age-standardized
+    cause: Parkinson's disease
+    metric: Rate
+  indicator_path:
+    4627: y
+- dimensions:
+    age: Age-standardized
+    cause: Nutritional deficiencies
+    metric: Rate
+  indicator_path:
+    4582: y
+- dimensions:
+    age: Age-standardized
+    cause: Malaria
+    metric: Rate
+  indicator_path:
+    4539: y
+- dimensions:
+    age: Age-standardized
+    cause: Drowning
+    metric: Rate
+  indicator_path:
+    4474: y
+- dimensions:
+    age: Age-standardized
+    cause: Interpersonal violence
+    metric: Rate
+  indicator_path:
+    4518: y
+- dimensions:
+    age: Age-standardized
+    cause: Maternal disorders
+    metric: Rate
+  indicator_path:
+    4545: y
+- dimensions:
+    age: Age-standardized
+    cause: HIV/AIDS
+    metric: Rate
+  indicator_path:
+    4502: y
+- dimensions:
+    age: Age-standardized
+    cause: Drug use disorders
+    metric: Rate
+  indicator_path:
+    4475: y
+- dimensions:
+    age: Age-standardized
+    cause: Tuberculosis
+    metric: Rate
+  indicator_path:
+    4677: y
+- dimensions:
+    age: Age-standardized
+    cause: Alcohol use disorders
+    metric: Rate
+  indicator_path:
+    4411: y
+- dimensions:
+    age: Age-standardized
+    cause: Self-harm
+    metric: Rate
+  indicator_path:
+    4651: y
+- dimensions:
+    age: Age-standardized
+    cause: Exposure to forces of nature
+    metric: Rate
+  indicator_path:
+    4487: y
+- dimensions:
+    age: Age-standardized
+    cause: Environmental heat and cold exposure
+    metric: Rate
+  indicator_path:
+    4485: y
+- dimensions:
+    age: Age-standardized
+    cause: Conflict and terrorism
+    metric: Rate
+  indicator_path:
+    4456: y
+- dimensions:
+    age: Age-standardized
+    cause: Chronic kidney disease
+    metric: Rate
+  indicator_path:
+    4439: y
+- dimensions:
+    age: Age-standardized
+    cause: Poisonings
+    metric: Rate
+  indicator_path:
+    4637: y
+- dimensions:
+    age: Age-standardized
+    cause: Road injuries
+    metric: Rate
+  indicator_path:
+    4649: y
+- dimensions:
+    age: Age-standardized
+    cause: Fire, heat, and hot substances
+    metric: Rate
+  indicator_path:
+    4492: y
+- dimensions:
+    age: Age-standardized
+    cause: Acute hepatitis
+    metric: Rate
+  indicator_path:
+    4402: y
+- dimensions:
+    age: Age-standardized
+    cause: COVID-19
+    metric: Rate
+  indicator_path:
+    4430: y
