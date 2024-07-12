@@ -109,11 +109,11 @@ for col in ["title", "subtitle"]:
         .apply(lambda x: x.strip())
         .apply(lambda x: x[0].upper() + x[1:] if len(x) else x)
         .apply(lambda x: re.sub(" {2,}", " ", x))
-        # .apply(lambda x: x.replace("-", " "))
+        .apply(lambda x: x.replace("\\-\\", " "))
         # .apply(lambda x: x or " ")
     )
     # explicitly set empty strings to a single space, so we don't inherit it from ETL
-    df.loc[df[col] == "-", col] = " "
+    # df.loc[df[col] == "-", col] = " "
 
 
 # %%
