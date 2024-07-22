@@ -18,16 +18,16 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#exports_alumina_total_bgs	Alumina	Total	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_alumina_total_bgs	Alumina	Total	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_alumina_total_bgs	Alumina	Total	Production	BGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_alumina_total_usgs	Alumina	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_alumina_total_usgs	Alumina	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_aluminium__primary_total_bgs	Aluminium, primary	Total	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_aluminium__primary_total_bgs	Aluminium, primary	Total	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_aluminium__primary_total_bgs	Aluminium, primary	Total	Production	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_aluminum_smelter_production_usgs	Aluminum	Smelter production	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_aluminum_smelter_production__aluminum_usgs	Aluminum	Smelter production, aluminum	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_aluminum_smelter_yearend_capacity_usgs	Aluminum	Smelter yearend capacity	Production	USGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_aluminum_total_usgs	Aluminum	Total	Unit_value	USGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_aluminum_oxide_total_usgs	Aluminum oxide	Total	Unit_value	USGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_aluminum_zirconium_oxide_total_usgs	Aluminum-zirconium oxide	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_aluminum_total_usgs	Aluminum	Total	Unit value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_aluminum_oxide_total_usgs	Aluminum oxide	Total	Unit value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_aluminum_zirconium_oxide_total_usgs	Aluminum-zirconium oxide	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_antimony_crude_bgs	Antimony	Crude	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_antimony_crude_bgs	Antimony	Crude	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_antimony_crude_bgs	Antimony	Crude	Production	BGS	true
@@ -58,7 +58,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#exports_antimony_sulfide_bgs	Antimony	Sulfide	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_antimony_sulfide_bgs	Antimony	Sulfide	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_antimony_sulfide_bgs	Antimony	Sulfide	Production	BGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_antimony_total_usgs	Antimony	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_antimony_total_usgs	Antimony	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_antimony__mine_total_bgs	Antimony, mine	Total	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_antimony__mine_total_bgs	Antimony, mine	Total	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_antimony__mine_total_bgs	Antimony, mine	Total	Production	BGS	true
@@ -70,7 +70,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#exports_arsenic_total_bgs	Arsenic	Total	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_arsenic_total_bgs	Arsenic	Total	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_arsenic_total_bgs	Arsenic	Total	Production	BGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_arsenic_total_usgs	Arsenic	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_arsenic_total_usgs	Arsenic	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_arsenic_white_arsenic_bgs	Arsenic	White arsenic	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_arsenic_white_arsenic_bgs	Arsenic	White arsenic	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_arsenic_white_arsenic_bgs	Arsenic	White arsenic	Production	BGS	true
@@ -98,7 +98,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#exports_asbestos_total_bgs	Asbestos	Total	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_asbestos_total_bgs	Asbestos	Total	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_asbestos_total_bgs	Asbestos	Total	Production	BGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_asbestos_total_usgs	Asbestos	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_asbestos_total_usgs	Asbestos	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_asbestos__unmanufactured_amosite_bgs	Asbestos, unmanufactured	Amosite	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_asbestos__unmanufactured_amosite_bgs	Asbestos, unmanufactured	Amosite	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_asbestos__unmanufactured_amosite_bgs	Asbestos, unmanufactured	Amosite	Production	BGS	true
@@ -129,12 +129,12 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#exports_asbestos__unmanufactured_waste_bgs	Asbestos, unmanufactured	Waste	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_asbestos__unmanufactured_waste_bgs	Asbestos, unmanufactured	Waste	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_asbestos__unmanufactured_waste_bgs	Asbestos, unmanufactured	Waste	Production	BGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_ball_clay_total_usgs	Ball clay	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_ball_clay_total_usgs	Ball clay	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_barite_mine_production_usgs	Barite	Mine production	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_barite_mine_production__barite_usgs	Barite	Mine production, barite	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_barite_mine_production__barite_usgs	Barite	Mine production, barite	Reserves	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_barite_mine_production__excluding_u_s__usgs	Barite	Mine production, excluding u.s.	Production	USGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_barite_total_usgs	Barite	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_barite_total_usgs	Barite	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_barytes_barium_minerals_bgs	Barytes	Barium minerals	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_barytes_barium_minerals_bgs	Barytes	Barium minerals	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_barytes_barium_minerals_bgs	Barytes	Barium minerals	Production	BGS	true
@@ -150,7 +150,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#exports_bauxite_total_bgs	Bauxite	Total	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_bauxite_total_bgs	Bauxite	Total	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_bauxite_total_bgs	Bauxite	Total	Production	BGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_bauxite_total_usgs	Bauxite	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_bauxite_total_usgs	Bauxite	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_bauxite_and_alumina_alumina__refinery_production__calcined_equivalent_weights_usgs	Bauxite and alumina	Alumina, refinery production - calcined equivalent weights	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_bauxite_and_alumina_bauxite__mine_production_usgs	Bauxite and alumina	Bauxite, mine production	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_bauxite_and_alumina_mine_production__bauxite_usgs	Bauxite and alumina	Mine production, bauxite	Production	USGS	true
@@ -191,7 +191,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#exports_bauxite__alumina_and_aluminium_unwrought_alloys_bgs	Bauxite, alumina and aluminium	Unwrought alloys	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_bauxite__alumina_and_aluminium_unwrought_alloys_bgs	Bauxite, alumina and aluminium	Unwrought alloys	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_bauxite__alumina_and_aluminium_unwrought_alloys_bgs	Bauxite, alumina and aluminium	Unwrought alloys	Production	BGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_bentonite_total_usgs	Bentonite	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_bentonite_total_usgs	Bentonite	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_bentonite_and_fullers_earth_attapulgite_bgs	Bentonite and fuller's earth	Attapulgite	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_bentonite_and_fullers_earth_attapulgite_bgs	Bentonite and fuller's earth	Attapulgite	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_bentonite_and_fullers_earth_attapulgite_bgs	Bentonite and fuller's earth	Attapulgite	Production	BGS	true
@@ -212,7 +212,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_beryl_total_bgs	Beryl	Total	Production	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_beryllium_mine_production_usgs	Beryllium	Mine production	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_beryllium_mine_production__beryllium_usgs	Beryllium	Mine production, beryllium	Production	USGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_beryllium_total_usgs	Beryllium	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_beryllium_total_usgs	Beryllium	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_bismuth_compounds_bgs	Bismuth	Compounds	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_bismuth_compounds_bgs	Bismuth	Compounds	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_bismuth_compounds_bgs	Bismuth	Compounds	Production	BGS	true
@@ -224,7 +224,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#imports_bismuth_ores__and__concentrates_bgs	Bismuth	Ores & concentrates	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_bismuth_ores__and__concentrates_bgs	Bismuth	Ores & concentrates	Production	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_bismuth_refinery_production_usgs	Bismuth	Refinery production	Production	USGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_bismuth_total_usgs	Bismuth	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_bismuth_total_usgs	Bismuth	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_bismuth__mine_total_bgs	Bismuth, mine	Total	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_bismuth__mine_total_bgs	Bismuth, mine	Total	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_bismuth__mine_total_bgs	Bismuth, mine	Total	Production	BGS	true
@@ -258,10 +258,10 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_boron_plant_production__refined_borates_usgs	Boron	Plant production, refined borates	Reserves	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_boron_refined_borates_usgs	Boron	Refined borates	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_boron_refined_borates_usgs	Boron	Refined borates	Reserves	USGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_boron_total_usgs	Boron	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_boron_total_usgs	Boron	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_boron_ulexite_usgs	Boron	Ulexite	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_boron_ulexite_usgs	Boron	Ulexite	Reserves	USGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_boron_carbide_total_usgs	Boron carbide	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_boron_carbide_total_usgs	Boron carbide	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_bromine_compounds_bgs	Bromine	Compounds	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_bromine_compounds_bgs	Bromine	Compounds	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_bromine_compounds_bgs	Bromine	Compounds	Production	BGS	true
@@ -288,7 +288,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#exports_cadmium_total_bgs	Cadmium	Total	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_cadmium_total_bgs	Cadmium	Total	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_cadmium_total_bgs	Cadmium	Total	Production	BGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_cadmium_total_usgs	Cadmium	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_cadmium_total_usgs	Cadmium	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_cement_cement_clinkers_bgs	Cement	Cement clinkers	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_cement_cement_clinkers_bgs	Cement	Cement clinkers	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_cement_cement_clinkers_bgs	Cement	Cement clinkers	Production	BGS	true
@@ -300,14 +300,14 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#exports_cement_portland_cement_bgs	Cement	Portland cement	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_cement_portland_cement_bgs	Cement	Portland cement	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_cement_portland_cement_bgs	Cement	Portland cement	Production	BGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_cement_total_usgs	Cement	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_cement_total_usgs	Cement	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_cement__clinker_cement__clinker_bgs	Cement  clinker	Cement, clinker	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_cement__clinker_cement__clinker_bgs	Cement  clinker	Cement, clinker	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_cement__clinker_cement__clinker_bgs	Cement  clinker	Cement, clinker	Production	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_cement__finished_cement__finished_bgs	Cement, finished	Cement, finished	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_cement__finished_cement__finished_bgs	Cement, finished	Cement, finished	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_cement__finished_cement__finished_bgs	Cement, finished	Cement, finished	Production	BGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_cesium_total_usgs	Cesium	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_cesium_total_usgs	Cesium	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_chromium_metal_bgs	Chromium	Metal	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_chromium_metal_bgs	Chromium	Metal	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_chromium_metal_bgs	Chromium	Metal	Production	BGS	true
@@ -319,7 +319,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#exports_chromium_ores__and__concentrates_bgs	Chromium	Ores & concentrates	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_chromium_ores__and__concentrates_bgs	Chromium	Ores & concentrates	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_chromium_ores__and__concentrates_bgs	Chromium	Ores & concentrates	Production	BGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_chromium_total_usgs	Chromium	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_chromium_total_usgs	Chromium	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_chromium_ores_and_concentrates_total_bgs	Chromium ores and concentrates	Total	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_chromium_ores_and_concentrates_total_bgs	Chromium ores and concentrates	Total	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_chromium_ores_and_concentrates_total_bgs	Chromium ores and concentrates	Total	Production	BGS	true
@@ -413,7 +413,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#exports_cobalt_total_bgs	Cobalt	Total	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_cobalt_total_bgs	Cobalt	Total	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_cobalt_total_bgs	Cobalt	Total	Production	BGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_cobalt_total_usgs	Cobalt	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_cobalt_total_usgs	Cobalt	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_cobalt_unwrought_bgs	Cobalt	Unwrought	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_cobalt_unwrought_bgs	Cobalt	Unwrought	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_cobalt_unwrought_bgs	Cobalt	Unwrought	Production	BGS	true
@@ -423,7 +423,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#exports_cobalt__refined_total_bgs	Cobalt, refined	Total	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_cobalt__refined_total_bgs	Cobalt, refined	Total	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_cobalt__refined_total_bgs	Cobalt, refined	Total	Production	BGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_construction_sand_and_gravel_total_usgs	Construction sand and gravel	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_construction_sand_and_gravel_total_usgs	Construction sand and gravel	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_copper_ash_and_residues_bgs	Copper	Ash and residues	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_copper_ash_and_residues_bgs	Copper	Ash and residues	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_copper_ash_and_residues_bgs	Copper	Ash and residues	Production	BGS	true
@@ -465,7 +465,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#exports_copper_total_bgs	Copper	Total	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_copper_total_bgs	Copper	Total	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_copper_total_bgs	Copper	Total	Production	BGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_copper_total_usgs	Copper	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_copper_total_usgs	Copper	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_copper_unwrought_bgs	Copper	Unwrought	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_copper_unwrought_bgs	Copper	Unwrought	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_copper_unwrought_bgs	Copper	Unwrought	Production	BGS	true
@@ -493,7 +493,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#exports_copper__smelter_total_bgs	Copper, smelter	Total	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_copper__smelter_total_bgs	Copper, smelter	Total	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_copper__smelter_total_bgs	Copper, smelter	Total	Production	BGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_crushed_stone_total_usgs	Crushed stone	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_crushed_stone_total_usgs	Crushed stone	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_diamond_cut_bgs	Diamond	Cut	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_diamond_cut_bgs	Diamond	Cut	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_diamond_cut_bgs	Diamond	Cut	Production	BGS	true
@@ -545,12 +545,12 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#exports_diatomite_total_bgs	Diatomite	Total	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_diatomite_total_bgs	Diatomite	Total	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_diatomite_total_bgs	Diatomite	Total	Production	BGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_diatomite_total_usgs	Diatomite	Total	Unit_value	USGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_dimension_stone_total_usgs	Dimension stone	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_diatomite_total_usgs	Diatomite	Total	Unit value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_dimension_stone_total_usgs	Dimension stone	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_feldspar_total_bgs	Feldspar	Total	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_feldspar_total_bgs	Feldspar	Total	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_feldspar_total_bgs	Feldspar	Total	Production	BGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_feldspar_total_usgs	Feldspar	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_feldspar_total_usgs	Feldspar	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_feldspar_and_nepheline_syenite_mine_production_usgs	Feldspar and nepheline syenite	Mine production	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_feldspar_and_nepheline_syenite_mine_production__feldspar_usgs	Feldspar and nepheline syenite	Mine production, feldspar	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_feldspar_and_nepheline_syenite_mine_production__feldspar_usgs	Feldspar and nepheline syenite	Mine production, feldspar	Reserves	USGS	true
@@ -653,17 +653,17 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#exports_ferro_alloys_spiegeleisen_bgs	Ferro-alloys	Spiegeleisen	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_ferro_alloys_spiegeleisen_bgs	Ferro-alloys	Spiegeleisen	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_ferro_alloys_spiegeleisen_bgs	Ferro-alloys	Spiegeleisen	Production	BGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_fire_clay_total_usgs	Fire clay	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_fire_clay_total_usgs	Fire clay	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_fluorspar_mine_production_usgs	Fluorspar	Mine production	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_fluorspar_mine_production__fluorspar_usgs	Fluorspar	Mine production, fluorspar	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_fluorspar_mine_production__fluorspar_usgs	Fluorspar	Mine production, fluorspar	Reserves	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_fluorspar_total_bgs	Fluorspar	Total	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_fluorspar_total_bgs	Fluorspar	Total	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_fluorspar_total_bgs	Fluorspar	Total	Production	BGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_fluorspar_total_usgs	Fluorspar	Total	Unit_value	USGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_fullers_earth_total_usgs	Fuller's earth	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_fluorspar_total_usgs	Fluorspar	Total	Unit value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_fullers_earth_total_usgs	Fuller's earth	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_gallium_primary_production_usgs	Gallium	Primary production	Production	USGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_gallium_total_usgs	Gallium	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_gallium_total_usgs	Gallium	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_gallium__primary_total_bgs	Gallium, primary	Total	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_gallium__primary_total_bgs	Gallium, primary	Total	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_gallium__primary_total_bgs	Gallium, primary	Total	Production	BGS	true
@@ -675,7 +675,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#imports_gemstones_total_bgs	Gemstones	Total	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_gemstones_total_bgs	Gemstones	Total	Production	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_germanium_primary_and_secondary_refinery_production_usgs	Germanium	Primary and secondary refinery production	Production	USGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_germanium_total_usgs	Germanium	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_germanium_total_usgs	Germanium	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_germanium_metal_total_bgs	Germanium metal	Total	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_germanium_metal_total_bgs	Germanium metal	Total	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_germanium_metal_total_bgs	Germanium metal	Total	Production	BGS	true
@@ -700,7 +700,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#exports_gold_ores__concentrates__and__unrefined_metal_bgs	Gold	Ores, concentrates & unrefined metal	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_gold_ores__concentrates__and__unrefined_metal_bgs	Gold	Ores, concentrates & unrefined metal	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_gold_ores__concentrates__and__unrefined_metal_bgs	Gold	Ores, concentrates & unrefined metal	Production	BGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_gold_total_usgs	Gold	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_gold_total_usgs	Gold	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_gold_waste__and__scrap_bgs	Gold	Waste & scrap	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_gold_waste__and__scrap_bgs	Gold	Waste & scrap	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_gold_waste__and__scrap_bgs	Gold	Waste & scrap	Production	BGS	true
@@ -710,13 +710,13 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#exports_graphite_total_bgs	Graphite	Total	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_graphite_total_bgs	Graphite	Total	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_graphite_total_bgs	Graphite	Total	Production	BGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_graphite_total_usgs	Graphite	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_graphite_total_usgs	Graphite	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_graphite__natural__mine_production_usgs	Graphite (natural)	Mine production	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_graphite__natural__mine_production__graphite_usgs	Graphite (natural)	Mine production, graphite	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_graphite__natural__mine_production__graphite_usgs	Graphite (natural)	Mine production, graphite	Reserves	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_gypsum_mine_production_usgs	Gypsum	Mine production	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_gypsum_mine_production_usgs	Gypsum	Mine production	Reserves	USGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_gypsum_total_usgs	Gypsum	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_gypsum_total_usgs	Gypsum	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_gypsum_and_plaster_anhydrite_bgs	Gypsum and plaster	Anhydrite	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_gypsum_and_plaster_anhydrite_bgs	Gypsum and plaster	Anhydrite	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_gypsum_and_plaster_anhydrite_bgs	Gypsum and plaster	Anhydrite	Production	BGS	true
@@ -744,16 +744,16 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_helium_mine_production_usgs	Helium	Mine production	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_helium_mine_production__helium_usgs	Helium	Mine production, helium	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_helium_mine_production__helium_usgs	Helium	Mine production, helium	Reserves	USGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_helium_total_usgs	Helium	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_helium_total_usgs	Helium	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_indium_refinery_production_usgs	Indium	Refinery production	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_indium_refinery_production__indium_usgs	Indium	Refinery production, indium	Production	USGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_indium_total_usgs	Indium	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_indium_total_usgs	Indium	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_indium__refinery_total_bgs	Indium, refinery	Total	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_indium__refinery_total_bgs	Indium, refinery	Total	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_indium__refinery_total_bgs	Indium, refinery	Total	Production	BGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_industrial_diamond_total_usgs	Industrial diamond	Total	Unit_value	USGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_industrial_garnet_total_usgs	Industrial garnet	Total	Unit_value	USGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_industrial_sand_and_gravel_total_usgs	Industrial sand and gravel	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_industrial_diamond_total_usgs	Industrial diamond	Total	Unit value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_industrial_garnet_total_usgs	Industrial garnet	Total	Unit value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_industrial_sand_and_gravel_total_usgs	Industrial sand and gravel	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_iodine_mine_production_usgs	Iodine	Mine production	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_iodine_mine_production__elemental_iodine_usgs	Iodine	Mine production, elemental iodine	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_iodine_mine_production__elemental_iodine_usgs	Iodine	Mine production, elemental iodine	Reserves	USGS	true
@@ -764,7 +764,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_iron_and_steel_pig_iron__million_metric_tons_usgs	Iron and steel	Pig iron, million metric tons	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_iron_and_steel_raw_steel_usgs	Iron and steel	Raw steel	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_iron_and_steel_raw_steel__million_metric_tons_usgs	Iron and steel	Raw steel, million metric tons	Production	USGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_iron_and_steel_slag_total_usgs	Iron and steel slag	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_iron_and_steel_slag_total_usgs	Iron and steel slag	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_iron_ore_burnt_pyrites_bgs	Iron ore	Burnt pyrites	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_iron_ore_burnt_pyrites_bgs	Iron ore	Burnt pyrites	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_iron_ore_burnt_pyrites_bgs	Iron ore	Burnt pyrites	Production	BGS	true
@@ -777,7 +777,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#exports_iron_ore_total_bgs	Iron ore	Total	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_iron_ore_total_bgs	Iron ore	Total	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_iron_ore_total_bgs	Iron ore	Total	Production	BGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_iron_ore_total_usgs	Iron ore	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_iron_ore_total_usgs	Iron ore	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_iron_oxide_pigments_iron_oxide_pigments_usgs	Iron oxide pigments	Iron oxide pigments	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_iron_oxide_pigments_iron_oxide_pigments_usgs	Iron oxide pigments	Iron oxide pigments	Reserves	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_iron_oxide_pigments_mine_production_usgs	Iron oxide pigments	Mine production	Production	USGS	true
@@ -786,7 +786,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_iron_oxide_pigments_mine_production__iron_oxide_pigments__ocher__usgs	Iron oxide pigments	Mine production, iron oxide pigments (ocher)	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_iron_oxide_pigments_mine_production__iron_oxide_pigments__ocher__usgs	Iron oxide pigments	Mine production, iron oxide pigments (ocher)	Reserves	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_iron_oxide_pigments_mine_production__iron_oxide_pigments__umber__usgs	Iron oxide pigments	Mine production, iron oxide pigments (umber)	Production	USGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_iron_oxide_pigments_total_usgs	Iron oxide pigments	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_iron_oxide_pigments_total_usgs	Iron oxide pigments	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_iron__pig_total_bgs	Iron, pig	Total	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_iron__pig_total_bgs	Iron, pig	Total	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_iron__pig_total_bgs	Iron, pig	Total	Production	BGS	true
@@ -928,7 +928,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#exports_kaolin_total_bgs	Kaolin	Total	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_kaolin_total_bgs	Kaolin	Total	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_kaolin_total_bgs	Kaolin	Total	Production	BGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_kaolin_total_usgs	Kaolin	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_kaolin_total_usgs	Kaolin	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_kyanite_andalusite_usgs	Kyanite	Andalusite	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_kyanite_kyanite_usgs	Kyanite	Kyanite	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_kyanite_kyanite_and_related_minerals_usgs	Kyanite	Kyanite and related minerals	Production	USGS	true
@@ -951,7 +951,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#exports_lead_scrap_bgs	Lead	Scrap	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_lead_scrap_bgs	Lead	Scrap	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_lead_scrap_bgs	Lead	Scrap	Production	BGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_lead_total_usgs	Lead	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_lead_total_usgs	Lead	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_lead_unwrought_bgs	Lead	Unwrought	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_lead_unwrought_bgs	Lead	Unwrought	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_lead_unwrought_bgs	Lead	Unwrought	Production	BGS	true
@@ -972,7 +972,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_lead__refined_total_bgs	Lead, refined	Total	Production	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_lime_plant_production_usgs	Lime	Plant production	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_lime_plant_production__lime_usgs	Lime	Plant production, lime	Production	USGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_lime_total_usgs	Lime	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_lime_total_usgs	Lime	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_lithium_carbonate_bgs	Lithium	Carbonate	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_lithium_carbonate_bgs	Lithium	Carbonate	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_lithium_carbonate_bgs	Lithium	Carbonate	Production	BGS	true
@@ -1050,10 +1050,10 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_magnesium_compounds_mine_production__gross_weight_of_magnesite__magnesium_carbonate__in_thousand_metric_tons_usgs	Magnesium compounds	Mine production, gross weight of magnesite (magnesium carbonate) in thousand metric tons	Reserves	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_magnesium_compounds_mine_production__magnesite__contained_magnesium_oxide__mgo__usgs	Magnesium compounds	Mine production, magnesite - contained magnesium oxide (mgo) 	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_magnesium_compounds_mine_production__magnesite__contained_magnesium_oxide__mgo__usgs	Magnesium compounds	Mine production, magnesite - contained magnesium oxide (mgo) 	Reserves	USGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_magnesium_compounds_total_usgs	Magnesium compounds	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_magnesium_compounds_total_usgs	Magnesium compounds	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_magnesium_metal_magnesium_smelter_production_usgs	Magnesium metal	Magnesium smelter production	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_magnesium_metal_smelter_production_usgs	Magnesium metal	Smelter production	Production	USGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_magnesium_metal_total_usgs	Magnesium metal	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_magnesium_metal_total_usgs	Magnesium metal	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_magnesium_metal__primary_total_bgs	Magnesium metal, primary	Total	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_magnesium_metal__primary_total_bgs	Magnesium metal, primary	Total	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_magnesium_metal__primary_total_bgs	Magnesium metal, primary	Total	Production	BGS	true
@@ -1065,7 +1065,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#exports_manganese_ores__and__concentrates_bgs	Manganese	Ores & concentrates	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_manganese_ores__and__concentrates_bgs	Manganese	Ores & concentrates	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_manganese_ores__and__concentrates_bgs	Manganese	Ores & concentrates	Production	BGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_manganese_total_usgs	Manganese	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_manganese_total_usgs	Manganese	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_manganese_ore_chemical_bgs	Manganese ore	Chemical	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_manganese_ore_chemical_bgs	Manganese ore	Chemical	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_manganese_ore_chemical_bgs	Manganese ore	Chemical	Production	BGS	true
@@ -1083,8 +1083,8 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#exports_mercury_total_bgs	Mercury	Total	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_mercury_total_bgs	Mercury	Total	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_mercury_total_bgs	Mercury	Total	Production	BGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_mercury_total_usgs	Mercury	Total	Unit_value	USGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_metallic_abrasives_total_usgs	Metallic abrasives	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_mercury_total_usgs	Mercury	Total	Unit value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_metallic_abrasives_total_usgs	Metallic abrasives	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_mica_block_bgs	Mica	Block	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_mica_block_bgs	Mica	Block	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_mica_block_bgs	Mica	Block	Production	BGS	true
@@ -1130,9 +1130,9 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_mica__natural__mine_production__mica_scrap_and_flake_usgs	Mica (natural)	Mine production - mica scrap and flake	Reserves	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_mica__natural__mine_production__mica_sheet_usgs	Mica (natural)	Mine production - mica sheet	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_mica__natural__mine_production__mica_sheet_usgs	Mica (natural)	Mine production - mica sheet	Reserves	USGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_mica__natural__scrap_and_flake_total_usgs	Mica (natural), scrap and flake	Total	Unit_value	USGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_mica__natural__sheet_total_usgs	Mica (natural), sheet	Total	Unit_value	USGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_miscellaneous_clay_total_usgs	Miscellaneous clay	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_mica__natural__scrap_and_flake_total_usgs	Mica (natural), scrap and flake	Total	Unit value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_mica__natural__sheet_total_usgs	Mica (natural), sheet	Total	Unit value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_miscellaneous_clay_total_usgs	Miscellaneous clay	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_molybdenum_metal_bgs	Molybdenum	Metal	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_molybdenum_metal_bgs	Molybdenum	Metal	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_molybdenum_metal_bgs	Molybdenum	Metal	Production	BGS	true
@@ -1148,7 +1148,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#exports_molybdenum_scrap_bgs	Molybdenum	Scrap	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_molybdenum_scrap_bgs	Molybdenum	Scrap	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_molybdenum_scrap_bgs	Molybdenum	Scrap	Production	BGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_molybdenum_total_usgs	Molybdenum	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_molybdenum_total_usgs	Molybdenum	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_molybdenum__mine_total_bgs	Molybdenum, mine	Total	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_molybdenum__mine_total_bgs	Molybdenum, mine	Total	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_molybdenum__mine_total_bgs	Molybdenum, mine	Total	Production	BGS	true
@@ -1197,7 +1197,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#exports_nickel_total_bgs	Nickel	Total	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_nickel_total_bgs	Nickel	Total	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_nickel_total_bgs	Nickel	Total	Production	BGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_nickel_total_usgs	Nickel	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_nickel_total_usgs	Nickel	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_nickel_unwrought_bgs	Nickel	Unwrought	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_nickel_unwrought_bgs	Nickel	Unwrought	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_nickel_unwrought_bgs	Nickel	Unwrought	Production	BGS	true
@@ -1216,24 +1216,24 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#exports_nickel__smelter_refinery_total_bgs	Nickel, smelter/refinery	Total	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_nickel__smelter_refinery_total_bgs	Nickel, smelter/refinery	Total	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_nickel__smelter_refinery_total_bgs	Nickel, smelter/refinery	Total	Production	BGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_niobium_total_usgs	Niobium	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_niobium_total_usgs	Niobium	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_niobium__columbium__mine_production_usgs	Niobium (columbium)	Mine production	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_niobium__columbium__mine_production__niobium_content_usgs	Niobium (columbium)	Mine production, niobium content	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_niobium__columbium__mine_production__niobium_content_usgs	Niobium (columbium)	Mine production, niobium content	Reserves	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_nitrogen__fixed__ammonia_plant_production_usgs	Nitrogen (fixed)-ammonia	Plant production	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_nitrogen__fixed__ammonia_plant_production__ammonia__contained_nitrogen_usgs	Nitrogen (fixed)-ammonia	Plant production, ammonia - contained nitrogen	Production	USGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_nitrogen__fixed__ammonia_total_usgs	Nitrogen (fixed)-ammonia	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_nitrogen__fixed__ammonia_total_usgs	Nitrogen (fixed)-ammonia	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_peat_mine_production_usgs	Peat	Mine production	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_peat_mine_production__peat_usgs	Peat	Mine production, peat	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_peat_mine_production__peat_usgs	Peat	Mine production, peat	Reserves	USGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_peat_total_usgs	Peat	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_peat_total_usgs	Peat	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_perlite_mine_production_usgs	Perlite	Mine production	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_perlite_mine_production__perlite_usgs	Perlite	Mine production, perlite	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_perlite_mine_production__perlite_usgs	Perlite	Mine production, perlite	Reserves	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_perlite_total_bgs	Perlite	Total	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_perlite_total_bgs	Perlite	Total	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_perlite_total_bgs	Perlite	Total	Production	BGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_perlite_total_usgs	Perlite	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_perlite_total_usgs	Perlite	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_petroleum__crude_total_bgs	Petroleum, crude	Total	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_petroleum__crude_total_bgs	Petroleum, crude	Total	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_petroleum__crude_total_bgs	Petroleum, crude	Total	Production	BGS	true
@@ -1255,8 +1255,8 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#exports_phosphate_rock_total_bgs	Phosphate rock	Total	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_phosphate_rock_total_bgs	Phosphate rock	Total	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_phosphate_rock_total_bgs	Phosphate rock	Total	Production	BGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_phosphate_rock_total_usgs	Phosphate rock	Total	Unit_value	USGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_pig_iron_total_usgs	Pig iron	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_phosphate_rock_total_usgs	Phosphate rock	Total	Unit value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_pig_iron_total_usgs	Pig iron	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_platinum_group_metals_iridium__osmium__and__ruthenium_bgs	Platinum group metals	Iridium, osmium & ruthenium	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_platinum_group_metals_iridium__osmium__and__ruthenium_bgs	Platinum group metals	Iridium, osmium & ruthenium	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_platinum_group_metals_iridium__osmium__and__ruthenium_bgs	Platinum group metals	Iridium, osmium & ruthenium	Production	BGS	true
@@ -1385,7 +1385,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_pumice_and_pumicite_mine_production_usgs	Pumice and pumicite	Mine production	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_pumice_and_pumicite_mine_production__puice_and_pumicite_usgs	Pumice and pumicite	Mine production, puice and pumicite	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_pumice_and_pumicite_mine_production__pumice_and_pumicite_usgs	Pumice and pumicite	Mine production, pumice and pumicite	Production	USGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_pumice_and_pumicite_total_usgs	Pumice and pumicite	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_pumice_and_pumicite_total_usgs	Pumice and pumicite	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_rare_earth_minerals_bastnaesite_bgs	Rare earth minerals	Bastnaesite	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_rare_earth_minerals_bastnaesite_bgs	Rare earth minerals	Bastnaesite	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_rare_earth_minerals_bastnaesite_bgs	Rare earth minerals	Bastnaesite	Production	BGS	true
@@ -1471,13 +1471,13 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#exports_salt_total_bgs	Salt	Total	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_salt_total_bgs	Salt	Total	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_salt_total_bgs	Salt	Total	Production	BGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_salt_total_usgs	Salt	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_salt_total_usgs	Salt	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_sand_and_gravel__industrial__mine_production_usgs	Sand and gravel (industrial)	Mine production	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_sand_and_gravel__industrial__mine_production__industrial_sand_and_gravel_usgs	Sand and gravel (industrial)	Mine production, industrial sand and gravel	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_selenium_refinery_production_usgs	Selenium	Refinery production	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_selenium_refinery_production__contained_selenium_usgs	Selenium	Refinery production, contained selenium	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_selenium_refinery_production__contained_selenium_usgs	Selenium	Refinery production, contained selenium	Reserves	USGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_selenium_total_usgs	Selenium	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_selenium_total_usgs	Selenium	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_selenium__refined_total_bgs	Selenium, refined	Total	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_selenium__refined_total_bgs	Selenium, refined	Total	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_selenium__refined_total_bgs	Selenium, refined	Total	Production	BGS	true
@@ -1487,8 +1487,8 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_silicon_plant_production__silicon_metal_usgs	Silicon	Plant production, silicon metal	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_silicon_silicon_content_of_combined_totals_for_ferrosilicon_and_silicon_metal_production_usgs	Silicon	Silicon content of combined totals for ferrosilicon and silicon metal production	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_silicon_silicon_content_of_ferrosilicon_production_usgs	Silicon	Silicon content of ferrosilicon production	Production	USGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_silicon_total_usgs	Silicon	Total	Unit_value	USGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_silicon_carbide_total_usgs	Silicon carbide	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_silicon_total_usgs	Silicon	Total	Unit value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_silicon_carbide_total_usgs	Silicon carbide	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_sillimanite_minerals_andalusite_bgs	Sillimanite minerals	Andalusite	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_sillimanite_minerals_andalusite_bgs	Sillimanite minerals	Andalusite	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_sillimanite_minerals_andalusite_bgs	Sillimanite minerals	Andalusite	Production	BGS	true
@@ -1563,7 +1563,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#exports_silver_total_bgs	Silver	Total	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_silver_total_bgs	Silver	Total	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_silver_total_bgs	Silver	Total	Production	BGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_silver_total_usgs	Silver	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_silver_total_usgs	Silver	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_silver_waste__and__scrap_bgs	Silver	Waste & scrap	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_silver_waste__and__scrap_bgs	Silver	Waste & scrap	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_silver_waste__and__scrap_bgs	Silver	Waste & scrap	Production	BGS	true
@@ -1575,14 +1575,14 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_soda_ash_soda_ash__natural__mine_production_usgs	Soda ash	Soda ash, natural, mine production	Reserves	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_soda_ash_soda_ash__synthetic_usgs	Soda ash	Soda ash, synthetic	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_soda_ash_soda_ash__total_natural_and_synthetic_usgs	Soda ash	Soda ash, total natural and synthetic	Production	USGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_soda_ash_total_usgs	Soda ash	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_soda_ash_total_usgs	Soda ash	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_soda_ash_world_total_mine_production__natural_soda_ash__rounded__usgs	Soda ash	World total mine production, natural soda ash (rounded)	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_soda_ash_world_total_production__natural_and_synthetic_soda_ash__rounded__usgs	Soda ash	World total production, natural and synthetic soda ash (rounded)	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_soda_ash_world_total_production__synthetic_soda_ash__rounded__usgs	Soda ash	World total production, synthetic soda ash (rounded)	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_sodium_carbonate__natural_total_bgs	Sodium carbonate, natural	Total	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_sodium_carbonate__natural_total_bgs	Sodium carbonate, natural	Total	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_sodium_carbonate__natural_total_bgs	Sodium carbonate, natural	Total	Production	BGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_steel_total_usgs	Steel	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_steel_total_usgs	Steel	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_steel__crude_total_bgs	Steel, crude	Total	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_steel__crude_total_bgs	Steel, crude	Total	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_steel__crude_total_bgs	Steel, crude	Total	Production	BGS	true
@@ -1590,13 +1590,13 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_strontium_mine_production_usgs	Strontium	Mine production	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_strontium_mine_production__contained_strontium_usgs	Strontium	Mine production, contained strontium	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_strontium_mine_production__contained_strontium_usgs	Strontium	Mine production, contained strontium	Reserves	USGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_strontium_total_usgs	Strontium	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_strontium_total_usgs	Strontium	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_strontium_minerals_total_bgs	Strontium minerals	Total	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_strontium_minerals_total_bgs	Strontium minerals	Total	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_strontium_minerals_total_bgs	Strontium minerals	Total	Production	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_sulfur_production__all_forms__contained_sulfur_usgs	Sulfur	Production, all forms, contained sulfur	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_sulfur_production__all_forms__thousand_metric_tons_contained_sulfur_usgs	Sulfur	Production, all forms, thousand metric tons contained sulfur	Production	USGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_sulfur_total_usgs	Sulfur	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_sulfur_total_usgs	Sulfur	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_sulphur_and_pyrites_other_bgs	Sulphur and pyrites	Other	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_sulphur_and_pyrites_other_bgs	Sulphur and pyrites	Other	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_sulphur_and_pyrites_other_bgs	Sulphur and pyrites	Other	Production	BGS	true
@@ -1663,11 +1663,11 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_talc_and_pyrophyllite_mine_production__talc_and_pyrophyllite__rounded__usgs	Talc and pyrophyllite	Mine production, talc and pyrophyllite (rounded)	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_talc_and_pyrophyllite_mine_production__unspecified_talc_and_or_pyrophyllite_usgs	Talc and pyrophyllite	Mine production, unspecified talc and/or pyrophyllite	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_talc_and_pyrophyllite_mine_production__unspecified_talc_and_or_pyrophyllite_usgs	Talc and pyrophyllite	Mine production, unspecified talc and/or pyrophyllite	Reserves	USGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_talc_and_pyrophyllite_total_usgs	Talc and pyrophyllite	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_talc_and_pyrophyllite_total_usgs	Talc and pyrophyllite	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_tantalum_mine_production_usgs	Tantalum	Mine production	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_tantalum_mine_production__tantalum_content_usgs	Tantalum	Mine production, tantalum content	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_tantalum_mine_production__tantalum_content_usgs	Tantalum	Mine production, tantalum content	Reserves	USGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_tantalum_total_usgs	Tantalum	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_tantalum_total_usgs	Tantalum	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_tantalum_and_niobium_columbite_bgs	Tantalum and niobium	Columbite	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_tantalum_and_niobium_columbite_bgs	Tantalum and niobium	Columbite	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_tantalum_and_niobium_columbite_bgs	Tantalum and niobium	Columbite	Production	BGS	true
@@ -1764,7 +1764,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_tellurium_mine_production_usgs	Tellurium	Mine production	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_tellurium_refinery_production__tellurium_content_usgs	Tellurium	Refinery production, tellurium content	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_tellurium_refinery_production__tellurium_content_usgs	Tellurium	Refinery production, tellurium content	Reserves	USGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_tellurium_total_usgs	Tellurium	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_tellurium_total_usgs	Tellurium	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_tellurium__refined_total_bgs	Tellurium, refined	Total	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_tellurium__refined_total_bgs	Tellurium, refined	Total	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_tellurium__refined_total_bgs	Tellurium, refined	Total	Production	BGS	true
@@ -1780,7 +1780,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#exports_tin_tin_silver_ore_bgs	Tin	Tin-silver ore	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_tin_tin_silver_ore_bgs	Tin	Tin-silver ore	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_tin_tin_silver_ore_bgs	Tin	Tin-silver ore	Production	BGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_tin_total_usgs	Tin	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_tin_total_usgs	Tin	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_tin_unwrought_bgs	Tin	Unwrought	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_tin_unwrought_bgs	Tin	Unwrought	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_tin_unwrought_bgs	Tin	Unwrought	Production	BGS	true
@@ -1843,7 +1843,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_titanium_wrought_bgs	Titanium	Wrought	Production	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_titanium_and_titanium_dioxide_sponge_metal_production_and_sponge_and_pigment_capacity_usgs	Titanium and titanium dioxide	Sponge metal production and sponge and pigment capacity	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_titanium_and_titanium_dioxide_sponge_metal_production_and_sponge_and_pigment_yearend_operating_capacity_usgs	Titanium and titanium dioxide	Sponge metal production and sponge and pigment yearend operating capacity	Production	USGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_titanium_dioxide_total_usgs	Titanium dioxide	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_titanium_dioxide_total_usgs	Titanium dioxide	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_titanium_mineral_concentrates_mine_production__ilmenite_usgs	Titanium mineral concentrates	Mine production: ilmenite	Production	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_titanium_mineral_concentrates_mine_production__ilmenite_usgs	Titanium mineral concentrates	Mine production: ilmenite	Reserves	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_titanium_mineral_concentrates_mine_production__ilmenite__rounded__usgs	Titanium mineral concentrates	Mine production: ilmenite (rounded)	Production	USGS	true
@@ -1882,10 +1882,10 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#exports_titanium_minerals_total_bgs	Titanium minerals	Total	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_titanium_minerals_total_bgs	Titanium minerals	Total	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_titanium_minerals_total_bgs	Titanium minerals	Total	Production	BGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_titanium_scrap_total_usgs	Titanium scrap	Total	Unit_value	USGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_titanium_sponge_total_usgs	Titanium sponge	Total	Unit_value	USGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_total_clay_total_usgs	Total clay	Total	Unit_value	USGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_total_manufactured_abrasives__total_usgs	Total manufactured abrasives 	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_titanium_scrap_total_usgs	Titanium scrap	Total	Unit value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_titanium_sponge_total_usgs	Titanium sponge	Total	Unit value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_total_clay_total_usgs	Total clay	Total	Unit value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_total_manufactured_abrasives__total_usgs	Total manufactured abrasives 	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_tungsten_ammonium_paratungstate_bgs	Tungsten	Ammonium paratungstate	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_tungsten_ammonium_paratungstate_bgs	Tungsten	Ammonium paratungstate	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_tungsten_ammonium_paratungstate_bgs	Tungsten	Ammonium paratungstate	Production	BGS	true
@@ -1915,7 +1915,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#exports_tungsten_total_bgs	Tungsten	Total	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_tungsten_total_bgs	Tungsten	Total	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_tungsten_total_bgs	Tungsten	Total	Production	BGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_tungsten_total_usgs	Tungsten	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_tungsten_total_usgs	Tungsten	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_tungsten_wolframite_ores__and__concentrates_bgs	Tungsten	Wolframite ores & concentrates	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_tungsten_wolframite_ores__and__concentrates_bgs	Tungsten	Wolframite ores & concentrates	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_tungsten_wolframite_ores__and__concentrates_bgs	Tungsten	Wolframite ores & concentrates	Production	BGS	true
@@ -1940,7 +1940,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#exports_vanadium_pentoxide_bgs	Vanadium	Pentoxide	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_vanadium_pentoxide_bgs	Vanadium	Pentoxide	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_vanadium_pentoxide_bgs	Vanadium	Pentoxide	Production	BGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_vanadium_total_usgs	Vanadium	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_vanadium_total_usgs	Vanadium	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_vanadium_vanadiferous_residues_bgs	Vanadium	Vanadiferous residues	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_vanadium_vanadiferous_residues_bgs	Vanadium	Vanadiferous residues	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_vanadium_vanadiferous_residues_bgs	Vanadium	Vanadiferous residues	Production	BGS	true
@@ -1977,7 +1977,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#exports_zinc_scrap_bgs	Zinc	Scrap	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_zinc_scrap_bgs	Zinc	Scrap	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_zinc_scrap_bgs	Zinc	Scrap	Production	BGS	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_zinc_total_usgs	Zinc	Total	Unit_value	USGS	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_zinc_total_usgs	Zinc	Total	Unit value	USGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_zinc_unwrought_bgs	Zinc	Unwrought	Exports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_zinc_unwrought_bgs	Zinc	Unwrought	Imports	BGS	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_zinc_unwrought_bgs	Zinc	Unwrought	Production	BGS	true
