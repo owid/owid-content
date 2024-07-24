@@ -14,6 +14,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_alumina_refinery_production	Alumina	Refinery production	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_alumina_total	Alumina	Total	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_alumina_total	Alumina	Total	Unit value	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_aluminium__primary_total	Aluminium, primary	Total	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_aluminum_smelter_production	Aluminum	Smelter production	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_aluminum_total	Aluminum	Total	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_aluminum_total	Aluminum	Total	Unit value	true
@@ -41,7 +42,6 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#imports_antimony_sulfide	Antimony	Sulfide	Imports	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_antimony_total	Antimony	Total	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_antimony_total	Antimony	Total	Unit value	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_antimony__mine_total	Antimony, mine	Total	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_arsenic_metallic_arsenic	Arsenic	Metallic arsenic	Exports	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_arsenic_metallic_arsenic	Arsenic	Metallic arsenic	Imports	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_arsenic_plant_production	Arsenic	Plant production	Production	true
