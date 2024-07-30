@@ -726,6 +726,8 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#imports_nickel_scrap_tonnes	Nickel	Scrap	Imports	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_nickel_slurry__mattes__sinters_etc_tonnes	Nickel	Slurry, mattes, sinters etc	Exports	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_nickel_slurry__mattes__sinters_etc_tonnes	Nickel	Slurry, mattes, sinters etc	Imports	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_nickel_smelter_or_refinery_tonnes	Nickel	Smelter or refinery	Production	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_nickel_smelter_or_refinery__sulfate_tonnes	Nickel	Smelter or refinery, sulfate	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_nickel_sulfide_tonnes	Nickel	Sulfide	Exports	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_nickel_total_tonnes	Nickel	Total	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_nickel_total_tonnes	Nickel	Total	Unit value	true
@@ -736,8 +738,6 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#imports_nickel_unwrought_alloys_tonnes	Nickel	Unwrought alloys	Imports	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_nickel_unwrought__mattes__sinters_etc_tonnes	Nickel	Unwrought, mattes, sinters etc	Exports	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_nickel_unwrought__mattes__sinters_etc_tonnes	Nickel	Unwrought, mattes, sinters etc	Imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_nickel__smelter_refinery_sulfate_tonnes	Nickel, smelter/refinery	Sulfate	Production	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_nickel__smelter_refinery_unknown_tonnes	Nickel, smelter/refinery	Unknown	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_niobium_mine_production_tonnes	Niobium	Mine production	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_niobium_mine_production_tonnes	Niobium	Mine production	Reserves	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_niobium_total_tonnes	Niobium	Total	Unit value	true
@@ -754,9 +754,9 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_perlite_total_tonnes__gross_weight	Perlite	Total	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_perlite_total_tonnes__gross_weight	Perlite	Total	Unit value	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_perlite_unknown_tonnes	Perlite	Unknown	Production	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_petroleum__crude_unknown_tonnes	Petroleum, crude	Unknown	Exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_petroleum__crude_unknown_tonnes	Petroleum, crude	Unknown	Imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_petroleum__crude_unknown_tonnes	Petroleum, crude	Unknown	Production	true
+	grapher/minerals/2024-07-15/minerals/minerals#exports_petroleum_crude_tonnes	Petroleum	Crude	Exports	true
+	grapher/minerals/2024-07-15/minerals/minerals#imports_petroleum_crude_tonnes	Petroleum	Crude	Imports	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_petroleum_crude_tonnes	Petroleum	Crude	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_phosphate_rock_aluminum_phosphate_tonnes	Phosphate rock	Aluminum phosphate	Exports	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_phosphate_rock_aluminum_phosphate_tonnes	Phosphate rock	Aluminum phosphate	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_phosphate_rock_apatite_tonnes	Phosphate rock	Apatite	Exports	true
@@ -778,6 +778,15 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_platinum_mine_production_tonnes	Platinum	Mine production	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_platinum_mine_production_tonnes	Platinum	Mine production	Reserves	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_platinum_group_metals_iridium__osmium__and__ruthenium_tonnes	Platinum group metals	Iridium, osmium & ruthenium	Imports	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_platinum_group_metals_mine_production__iridium_tonnes_of_metal_content	Platinum group metals	Mine production, iridium	Production	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_platinum_group_metals_mine_production__osmiridium_tonnes_of_metal_content	Platinum group metals	Mine production, osmiridium	Production	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_platinum_group_metals_mine_production__osmium_tonnes_of_metal_content	Platinum group metals	Mine production, osmium	Production	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_platinum_group_metals_mine_production__other_tonnes_of_metal_content	Platinum group metals	Mine production, other	Production	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_platinum_group_metals_mine_production__palladium_tonnes_of_metal_content	Platinum group metals	Mine production, palladium	Production	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_platinum_group_metals_mine_production__platinum_tonnes_of_metal_content	Platinum group metals	Mine production, platinum	Production	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_platinum_group_metals_mine_production__rhodium_tonnes_of_metal_content	Platinum group metals	Mine production, rhodium	Production	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_platinum_group_metals_mine_production__ruthenium_tonnes_of_metal_content	Platinum group metals	Mine production, ruthenium	Production	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_platinum_group_metals_mine_production__unknown_tonnes_of_metal_content	Platinum group metals	Mine production, unknown	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_platinum_group_metals_ores__and__concentrates_tonnes	Platinum group metals	Ores & concentrates	Exports	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_platinum_group_metals_ores__and__concentrates_tonnes	Platinum group metals	Ores & concentrates	Imports	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_platinum_group_metals_other_platinum_group_metals_tonnes	Platinum group metals	Other platinum group metals	Exports	true
@@ -797,15 +806,6 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#imports_platinum_group_metals_sponge_tonnes	Platinum group metals	Sponge	Imports	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_platinum_group_metals_waste__and__scrap_tonnes	Platinum group metals	Waste & scrap	Exports	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_platinum_group_metals_waste__and__scrap_tonnes	Platinum group metals	Waste & scrap	Imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_platinum_group_metals__mine_iridium_tonnes_of_metal_content	Platinum group metals, mine	Iridium	Production	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_platinum_group_metals__mine_osmiridium_tonnes_of_metal_content	Platinum group metals, mine	Osmiridium	Production	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_platinum_group_metals__mine_osmium_tonnes_of_metal_content	Platinum group metals, mine	Osmium	Production	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_platinum_group_metals__mine_other_platinum_metals_tonnes_of_metal_content	Platinum group metals, mine	Other platinum metals	Production	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_platinum_group_metals__mine_palladium_tonnes_of_metal_content	Platinum group metals, mine	Palladium	Production	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_platinum_group_metals__mine_platinum_tonnes_of_metal_content	Platinum group metals, mine	Platinum	Production	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_platinum_group_metals__mine_rhodium_tonnes_of_metal_content	Platinum group metals, mine	Rhodium	Production	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_platinum_group_metals__mine_ruthenium_tonnes_of_metal_content	Platinum group metals, mine	Ruthenium	Production	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_platinum_group_metals__mine_unknown_tonnes_of_metal_content	Platinum group metals, mine	Unknown	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_potash_carbonate_tonnes	Potash	Carbonate	Exports	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_potash_carbonate_tonnes	Potash	Carbonate	Imports	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_potash_caustic_potash_tonnes	Potash	Caustic potash	Exports	true
@@ -949,6 +949,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#imports_silver_metal__refined_tonnes	Silver	Metal, refined	Imports	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_silver_metal__unrefined_tonnes	Silver	Metal, unrefined	Imports	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_silver_mine_production_tonnes	Silver	Mine production	Production	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_silver_mine_production_tonnes_of_metal_content	Silver	Mine production	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_silver_mine_production_tonnes	Silver	Mine production	Reserves	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_silver_ores__and__concentrates_tonnes	Silver	Ores & concentrates	Exports	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_silver_ores__and__concentrates_tonnes	Silver	Ores & concentrates	Imports	true
@@ -958,17 +959,16 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#exports_silver_unknown_tonnes	Silver	Unknown	Exports	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_silver_waste__and__scrap_tonnes	Silver	Waste & scrap	Exports	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_silver_waste__and__scrap_tonnes	Silver	Waste & scrap	Imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_silver__mine_unknown_tonnes_of_metal_content	Silver, mine	Unknown	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_soda_ash_mine_production__natural_tonnes	Soda ash	Mine production, natural	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_soda_ash_mine_production__natural_tonnes	Soda ash	Mine production, natural	Reserves	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_soda_ash_plant_production__synthetic_tonnes	Soda ash	Plant production, synthetic	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_soda_ash_total_tonnes__gross_weight	Soda ash	Total	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_soda_ash_total_tonnes__gross_weight	Soda ash	Total	Unit value	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_soda_ash_total_production__natural_and_synthetic_tonnes	Soda ash	Total production, natural and synthetic	Production	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_sodium_carbonate__natural_unknown_tonnes	Sodium carbonate, natural	Unknown	Production	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_sodium_carbonate_natural_tonnes	Sodium carbonate	Natural	Production	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_steel_crude_tonnes	Steel	Crude	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_steel_total_tonnes	Steel	Total	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_steel_total_tonnes	Steel	Total	Unit value	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_steel__crude_unknown_tonnes	Steel, crude	Unknown	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_strontium_mine_production_tonnes	Strontium	Mine production	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_strontium_mine_production_tonnes	Strontium	Mine production	Reserves	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_strontium_total_tonnes	Strontium	Total	Production	true
@@ -1062,17 +1062,19 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_tantalum_and_niobium_minerals_tantalum__and__niobium__niobium_content_tonnes	Tantalum and niobium minerals	Tantalum & niobium, niobium content	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_tantalum_and_niobium_minerals_tantalum__and__niobium__tantalum_content_tonnes	Tantalum and niobium minerals	Tantalum & niobium, tantalum content	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_tellurium_mine_production_tonnes	Tellurium	Mine production	Production	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_tellurium_refined_tonnes	Tellurium	Refined	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_tellurium_refinery_production_tonnes	Tellurium	Refinery production	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_tellurium_refinery_production_tonnes	Tellurium	Refinery production	Reserves	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_tellurium_total_tonnes	Tellurium	Total	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_tellurium_total_tonnes	Tellurium	Total	Unit value	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_tellurium__refined_unknown_tonnes	Tellurium, refined	Unknown	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_tin_concentrates_tonnes	Tin	Concentrates	Exports	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_tin_concentrates_tonnes	Tin	Concentrates	Imports	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_tin_mine_production_tonnes	Tin	Mine production	Production	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_tin_mine_production_tonnes_of_metal_content	Tin	Mine production	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_tin_mine_production_tonnes	Tin	Mine production	Reserves	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_tin_scrap_tonnes	Tin	Scrap	Exports	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_tin_scrap_tonnes	Tin	Scrap	Imports	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_tin_smelter_production_tonnes	Tin	Smelter production	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_tin_tin_silver_ore_tonnes	Tin	Tin-silver ore	Exports	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_tin_total_tonnes	Tin	Total	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_tin_total_tonnes	Tin	Total	Unit value	true
@@ -1082,8 +1084,6 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#imports_tin_unwrought__and__semi_manufactures_tonnes	Tin	Unwrought & semi-manufactures	Imports	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_tin_unwrought_alloys_tonnes	Tin	Unwrought alloys	Exports	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_tin_unwrought_alloys_tonnes	Tin	Unwrought alloys	Imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_tin__mine_unknown_tonnes_of_metal_content	Tin, mine	Unknown	Production	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_tin__smelter_unknown_tonnes	Tin, smelter	Unknown	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_titanium_ilmenite_tonnes	Titanium	Ilmenite	Exports	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_titanium_ilmenite_tonnes	Titanium	Ilmenite	Imports	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_titanium_leucoxene_tonnes	Titanium	Leucoxene	Exports	true
@@ -1130,6 +1130,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#exports_tungsten_metal_tonnes	Tungsten	Metal	Exports	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_tungsten_metal_tonnes	Tungsten	Metal	Imports	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_tungsten_mine_production_tonnes	Tungsten	Mine production	Production	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_tungsten_mine_production_tonnes_of_metal_content	Tungsten	Mine production	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_tungsten_mine_production_tonnes	Tungsten	Mine production	Reserves	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_tungsten_ores__and__concentrates_tonnes	Tungsten	Ores & concentrates	Exports	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_tungsten_ores__and__concentrates_tonnes	Tungsten	Ores & concentrates	Imports	true
@@ -1140,12 +1141,12 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_tungsten_total_tonnes	Tungsten	Total	Unit value	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_tungsten_unknown_tonnes	Tungsten	Unknown	Exports	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_tungsten_wolframite_ores__and__concentrates_tonnes	Tungsten	Wolframite ores & concentrates	Exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_tungsten__mine_unknown_tonnes_of_metal_content	Tungsten, mine	Unknown	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_uranium_unknown_tonnes_of_metal_content	Uranium	Unknown	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_vanadium_lead_vanadium_concentrates_tonnes	Vanadium	Lead vanadium concentrates	Exports	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_vanadium_metal_tonnes	Vanadium	Metal	Exports	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_vanadium_metal_tonnes	Vanadium	Metal	Imports	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_vanadium_mine_production_tonnes	Vanadium	Mine production	Production	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_vanadium_mine_production_tonnes_of_metal_content	Vanadium	Mine production	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_vanadium_mine_production_tonnes	Vanadium	Mine production	Reserves	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_vanadium_ores__and__concentrates_tonnes	Vanadium	Ores & concentrates	Exports	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_vanadium_ores__and__concentrates_tonnes	Vanadium	Ores & concentrates	Imports	true
@@ -1157,7 +1158,6 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#imports_vanadium_vanadiferous_residues_tonnes	Vanadium	Vanadiferous residues	Imports	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_vanadium_vanadium_titanium_pig_iron_tonnes	Vanadium	Vanadium-titanium pig iron	Exports	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_vanadium_vanadium_titanium_pig_iron_tonnes	Vanadium	Vanadium-titanium pig iron	Imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_vanadium__mine_unknown_tonnes_of_metal_content	Vanadium, mine	Unknown	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_vermiculite_mine_production_tonnes	Vermiculite	Mine production	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_vermiculite_mine_production_tonnes	Vermiculite	Mine production	Reserves	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_vermiculite_unknown_tonnes	Vermiculite	Unknown	Production	true
@@ -1166,6 +1166,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_zeolites__natural__mine_production_tonnes	Zeolites (natural)	Mine production	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_zeolites__natural__mine_production_tonnes	Zeolites (natural)	Mine production	Reserves	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_zinc_crude__and__refined_tonnes	Zinc	Crude & refined	Imports	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_zinc_mine_production_tonnes_of_metal_content	Zinc	Mine production	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_zinc_mine_production__concentrates_and_direct_shipping_ores_tonnes	Zinc	Mine production, concentrates and direct shipping ores	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_zinc_mine_production__concentrates_and_direct_shipping_ores_tonnes	Zinc	Mine production, concentrates and direct shipping ores	Reserves	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_zinc_ores__and__concentrates_tonnes	Zinc	Ores & concentrates	Exports	true
@@ -1173,14 +1174,13 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#imports_zinc_oxides_tonnes	Zinc	Oxides	Imports	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_zinc_scrap_tonnes	Zinc	Scrap	Exports	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_zinc_scrap_tonnes	Zinc	Scrap	Imports	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_zinc_slab_tonnes	Zinc	Slab	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_zinc_total_tonnes	Zinc	Total	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_zinc_total_tonnes	Zinc	Total	Unit value	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_zinc_unwrought_tonnes	Zinc	Unwrought	Exports	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_zinc_unwrought_tonnes	Zinc	Unwrought	Imports	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_zinc_unwrought_alloys_tonnes	Zinc	Unwrought alloys	Exports	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_zinc_unwrought_alloys_tonnes	Zinc	Unwrought alloys	Imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_zinc__mine_unknown_tonnes_of_metal_content	Zinc, mine	Unknown	Production	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_zinc__slab_unknown_tonnes	Zinc, slab	Unknown	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_zirconium_concentrates_tonnes	Zirconium	Concentrates	Exports	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_zirconium_concentrates_tonnes	Zirconium	Concentrates	Imports	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_zirconium_metal_tonnes	Zirconium	Metal	Exports	true
