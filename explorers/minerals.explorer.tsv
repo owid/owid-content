@@ -5,7 +5,7 @@ isPublished	false
 explorerSubtitle	Explore the amount of minerals that are produced, imported, and exported.
 selection	World	United States	China
 graphers
-	yVariableIds	Commodity Dropdown	Sub-Commodity Dropdown	Metric Dropdown	hasMapTab
+	yVariableIds	Mineral Dropdown	Type Dropdown	Metric Dropdown	hasMapTab
 	grapher/minerals/2024-07-15/minerals/minerals#production_alumina_refinery_production_tonnes_of_calcined_equivalent_weights	Alumina	Refinery production	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_alumina_total_tonnes__gross_weight	Alumina	Total	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_alumina_total_tonnes__gross_weight	Alumina	Total	Unit value	true
