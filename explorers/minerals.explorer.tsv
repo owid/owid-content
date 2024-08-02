@@ -351,33 +351,13 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#imports_coal_unknown_tonnes	Coal	Unknown (tonnes)	Imports	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_coal_unknown_tonnes	Coal	Unknown (tonnes)	Share of global exports	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_coal_unknown_tonnes	Coal	Unknown (tonnes)	Share of global imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_cobalt_metal__and__refined_tonnes	Cobalt	Metal & refined (tonnes)	Exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_cobalt_metal__and__refined_tonnes	Cobalt	Metal & refined (tonnes)	Imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_cobalt_metal__and__refined_tonnes	Cobalt	Metal & refined (tonnes)	Share of global exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_cobalt_metal__and__refined_tonnes	Cobalt	Metal & refined (tonnes)	Share of global imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_cobalt_mine_tonnes_of_metal_content	Cobalt	Mine (tonnes of metal content)	Production	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_cobalt_mine_tonnes_of_metal_content	Cobalt	Mine (tonnes of metal content)	Share of global production	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_cobalt_mine_tonnes	Cobalt	Mine (tonnes)	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_cobalt_mine_tonnes	Cobalt	Mine (tonnes)	Reserves	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_cobalt_mine_tonnes	Cobalt	Mine (tonnes)	Share of global production	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_cobalt_mine_tonnes	Cobalt	Mine (tonnes)	Share of global reserves	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_cobalt_ore_tonnes	Cobalt	Ore (tonnes)	Exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_cobalt_ore_tonnes	Cobalt	Ore (tonnes)	Imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_cobalt_oxide__sinter__and__sulfide_tonnes	Cobalt	Oxide, sinter & sulfide (tonnes)	Exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_cobalt_oxides_tonnes	Cobalt	Oxides (tonnes)	Exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_cobalt_oxides_tonnes	Cobalt	Oxides (tonnes)	Imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_cobalt_oxides_tonnes	Cobalt	Oxides (tonnes)	Share of global exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_cobalt_oxides_tonnes	Cobalt	Oxides (tonnes)	Share of global imports	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_cobalt_refinery_tonnes	Cobalt	Refinery (tonnes)	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_cobalt_refinery_tonnes	Cobalt	Refinery (tonnes)	Share of global production	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_cobalt_salts_tonnes	Cobalt	Salts (tonnes)	Imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_cobalt_scrap_tonnes	Cobalt	Scrap (tonnes)	Exports	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_cobalt_total_tonnes	Cobalt	Total (tonnes)	Unit value	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_cobalt_unknown_tonnes	Cobalt	Unknown (tonnes)	Exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_cobalt_unknown_tonnes	Cobalt	Unknown (tonnes)	Imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_cobalt_unknown_tonnes	Cobalt	Unknown (tonnes)	Share of global exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_cobalt_unknown_tonnes	Cobalt	Unknown (tonnes)	Share of global imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_cobalt_unwrought_tonnes	Cobalt	Unwrought (tonnes)	Exports	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_copper_mine_tonnes	Copper	Mine (tonnes)	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_copper_mine_tonnes	Copper	Mine (tonnes)	Reserves	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_copper_mine_tonnes	Copper	Mine (tonnes)	Share of global production	true
