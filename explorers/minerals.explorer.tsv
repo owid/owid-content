@@ -378,67 +378,15 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_cobalt_unknown_tonnes	Cobalt	Unknown (tonnes)	Share of global exports	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_cobalt_unknown_tonnes	Cobalt	Unknown (tonnes)	Share of global imports	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_cobalt_unwrought_tonnes	Cobalt	Unwrought (tonnes)	Exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_copper_ash_and_residues_tonnes	Copper	Ash and residues (tonnes)	Exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_copper_burnt_cupreous_pyrites_tonnes	Copper	Burnt cupreous pyrites (tonnes)	Exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_copper_burnt_cupreous_pyrites_tonnes	Copper	Burnt cupreous pyrites (tonnes)	Imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_copper_cement_copper_tonnes	Copper	Cement copper (tonnes)	Exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_copper_cement_copper_tonnes	Copper	Cement copper (tonnes)	Imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_copper_cement_copper_tonnes	Copper	Cement copper (tonnes)	Share of global exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_copper_cement_copper_tonnes	Copper	Cement copper (tonnes)	Share of global imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_copper_matte__and__cement_tonnes	Copper	Matte & cement (tonnes)	Exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_copper_matte__and__cement_tonnes	Copper	Matte & cement (tonnes)	Imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_copper_matte__and__cement_tonnes	Copper	Matte & cement (tonnes)	Share of global exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_copper_matte__and__cement_tonnes	Copper	Matte & cement (tonnes)	Share of global imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_copper_matte__and__scrap_tonnes	Copper	Matte & scrap (tonnes)	Exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_copper_matte_tonnes	Copper	Matte (tonnes)	Exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_copper_matte_tonnes	Copper	Matte (tonnes)	Imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_copper_matte_tonnes	Copper	Matte (tonnes)	Share of global exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_copper_matte_tonnes	Copper	Matte (tonnes)	Share of global imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_copper_mine_production_tonnes_of_metal_content	Copper	Mine production (tonnes of metal content)	Production	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_copper_mine_production_tonnes_of_metal_content	Copper	Mine production (tonnes of metal content)	Share of global production	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_copper_mine_production_tonnes	Copper	Mine production (tonnes)	Production	true
-	grapher/minerals/2024-07-15/minerals/minerals#reserves_copper_mine_production_tonnes	Copper	Mine production (tonnes)	Reserves	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_copper_mine_production_tonnes	Copper	Mine production (tonnes)	Share of global production	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_copper_mine_production_tonnes	Copper	Mine production (tonnes)	Share of global reserves	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_copper_ore__and__matte_tonnes	Copper	Ore & matte (tonnes)	Exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_copper_ore__and__matte_tonnes	Copper	Ore & matte (tonnes)	Imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_copper_ores__and__concentrates_tonnes	Copper	Ores & concentrates (tonnes)	Exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_copper_ores__and__concentrates_tonnes	Copper	Ores & concentrates (tonnes)	Imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_copper_ores__and__concentrates_tonnes	Copper	Ores & concentrates (tonnes)	Share of global exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_copper_ores__and__concentrates_tonnes	Copper	Ores & concentrates (tonnes)	Share of global imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_copper_ores__concentrates__and__matte_tonnes	Copper	Ores, concentrates & matte (tonnes)	Exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_copper_refinery_production_tonnes	Copper	Refinery production (tonnes)	Production	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_copper_refinery_production_tonnes	Copper	Refinery production (tonnes)	Share of global production	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_copper_scrap_tonnes	Copper	Scrap (tonnes)	Exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_copper_scrap_tonnes	Copper	Scrap (tonnes)	Imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_copper_scrap_tonnes	Copper	Scrap (tonnes)	Share of global exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_copper_scrap_tonnes	Copper	Scrap (tonnes)	Share of global imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_copper_sludge__slimes__and__residues_tonnes	Copper	Sludge, slimes & residues (tonnes)	Exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_copper_smelter_production_tonnes	Copper	Smelter production (tonnes)	Production	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_copper_smelter_production_tonnes	Copper	Smelter production (tonnes)	Share of global production	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_copper_total_tonnes	Copper	Total (tonnes)	Production	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_copper_total_tonnes	Copper	Total (tonnes)	Share of global production	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_copper_total_tonnes	Copper	Total (tonnes)	Unit value	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_copper_unknown_tonnes	Copper	Unknown (tonnes)	Exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_copper_unwrought__and__scrap_tonnes	Copper	Unwrought & scrap (tonnes)	Exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_copper_unwrought__and__scrap_tonnes	Copper	Unwrought & scrap (tonnes)	Imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_copper_unwrought_tonnes	Copper	Unwrought (tonnes)	Exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_copper_unwrought_tonnes	Copper	Unwrought (tonnes)	Imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_copper_unwrought_tonnes	Copper	Unwrought (tonnes)	Share of global exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_copper_unwrought_tonnes	Copper	Unwrought (tonnes)	Share of global imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_copper_unwrought_alloys_tonnes	Copper	Unwrought alloys (tonnes)	Exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_copper_unwrought_alloys_tonnes	Copper	Unwrought alloys (tonnes)	Imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_copper_unwrought_alloys_tonnes	Copper	Unwrought alloys (tonnes)	Share of global exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_copper_unwrought_alloys_tonnes	Copper	Unwrought alloys (tonnes)	Share of global imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_copper_unwrought__matte__cement__and__refined_tonnes	Copper	Unwrought, matte, cement & refined (tonnes)	Exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_copper_unwrought__refined_tonnes	Copper	Unwrought, refined (tonnes)	Exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_copper_unwrought__refined_tonnes	Copper	Unwrought, refined (tonnes)	Imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_copper_unwrought__refined_tonnes	Copper	Unwrought, refined (tonnes)	Share of global exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_copper_unwrought__refined_tonnes	Copper	Unwrought, refined (tonnes)	Share of global imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_copper_unwrought__unrefined_tonnes	Copper	Unwrought, unrefined (tonnes)	Exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_copper_unwrought__unrefined_tonnes	Copper	Unwrought, unrefined (tonnes)	Imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_copper_unwrought__unrefined_tonnes	Copper	Unwrought, unrefined (tonnes)	Share of global exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_copper_unwrought__unrefined_tonnes	Copper	Unwrought, unrefined (tonnes)	Share of global imports	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_copper_mine_tonnes	Copper	Mine (tonnes)	Production	true
+	grapher/minerals/2024-07-15/minerals/minerals#reserves_copper_mine_tonnes	Copper	Mine (tonnes)	Reserves	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_copper_mine_tonnes	Copper	Mine (tonnes)	Share of global production	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_copper_mine_tonnes	Copper	Mine (tonnes)	Share of global reserves	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_copper_mine_tonnes	Copper	Mine (tonnes)	Unit value	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_copper_refined_tonnes	Copper	Refined (tonnes)	Production	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_copper_refined_tonnes	Copper	Refined (tonnes)	Share of global production	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_copper_smelter_tonnes	Copper	Smelter (tonnes)	Production	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_copper_smelter_tonnes	Copper	Smelter (tonnes)	Share of global production	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_diamond_cut_tonnes	Diamond	Cut (tonnes)	Exports	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_diamond_cut_tonnes	Diamond	Cut (tonnes)	Imports	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_diamond_cut_tonnes	Diamond	Cut (tonnes)	Share of global exports	true
