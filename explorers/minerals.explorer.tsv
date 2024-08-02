@@ -809,40 +809,15 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_kyanite_mine__kyanite_and_related_minerals_tonnes	Kyanite	Mine, kyanite and related minerals (tonnes)	Reserves	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_kyanite_mine__kyanite_and_sillimanite_tonnes	Kyanite	Mine, kyanite and sillimanite (tonnes)	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_kyanite_mine__kyanite_and_sillimanite_tonnes	Kyanite	Mine, kyanite and sillimanite (tonnes)	Reserves	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_lead_mine_tonnes_of_metal_content	Lead	Mine (tonnes of metal content)	Production	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_lead_mine_tonnes_of_metal_content	Lead	Mine (tonnes of metal content)	Share of global production	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_lead_mine_tonnes	Lead	Mine (tonnes)	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_lead_mine_tonnes	Lead	Mine (tonnes)	Reserves	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_lead_mine_tonnes	Lead	Mine (tonnes)	Share of global production	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_lead_mine_tonnes	Lead	Mine (tonnes)	Share of global reserves	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_lead_ores__and__concentrates_tonnes	Lead	Ores & concentrates (tonnes)	Exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_lead_ores__and__concentrates_tonnes	Lead	Ores & concentrates (tonnes)	Imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_lead_ores__and__concentrates_tonnes	Lead	Ores & concentrates (tonnes)	Share of global exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_lead_ores__and__concentrates_tonnes	Lead	Ores & concentrates (tonnes)	Share of global imports	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_lead_mine_tonnes	Lead	Mine (tonnes)	Unit value	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_lead_refinery_tonnes	Lead	Refinery (tonnes)	Imports	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_lead_refinery_tonnes	Lead	Refinery (tonnes)	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_lead_refinery_tonnes	Lead	Refinery (tonnes)	Share of global imports	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_lead_refinery_tonnes	Lead	Refinery (tonnes)	Share of global production	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_lead_scrap_tonnes	Lead	Scrap (tonnes)	Exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_lead_scrap_tonnes	Lead	Scrap (tonnes)	Imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_lead_scrap_tonnes	Lead	Scrap (tonnes)	Share of global exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_lead_scrap_tonnes	Lead	Scrap (tonnes)	Share of global imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_lead_total_tonnes	Lead	Total (tonnes)	Production	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_lead_total_tonnes	Lead	Total (tonnes)	Share of global production	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_lead_total_tonnes	Lead	Total (tonnes)	Unit value	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_lead_unwrought__and__scrap_tonnes	Lead	Unwrought & scrap (tonnes)	Exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_lead_unwrought__and__scrap_tonnes	Lead	Unwrought & scrap (tonnes)	Imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_lead_unwrought__and__scrap_tonnes	Lead	Unwrought & scrap (tonnes)	Share of global exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_lead_unwrought__and__scrap_tonnes	Lead	Unwrought & scrap (tonnes)	Share of global imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_lead_unwrought__and__semi_manufactures_tonnes	Lead	Unwrought & semi-manufactures (tonnes)	Imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_lead_unwrought_tonnes	Lead	Unwrought (tonnes)	Exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_lead_unwrought_tonnes	Lead	Unwrought (tonnes)	Imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_lead_unwrought_tonnes	Lead	Unwrought (tonnes)	Share of global exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_lead_unwrought_tonnes	Lead	Unwrought (tonnes)	Share of global imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_lead_unwrought_alloys_tonnes	Lead	Unwrought alloys (tonnes)	Exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_lead_unwrought_alloys_tonnes	Lead	Unwrought alloys (tonnes)	Imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_lead_unwrought_alloys_tonnes	Lead	Unwrought alloys (tonnes)	Share of global exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_lead_unwrought_alloys_tonnes	Lead	Unwrought alloys (tonnes)	Share of global imports	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_lime_plant_tonnes	Lime	Plant (tonnes)	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_lime_plant_tonnes	Lime	Plant (tonnes)	Share of global production	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_lime_total_tonnes__gross_weight	Lime	Total (tonnes, gross weight)	Production	true
