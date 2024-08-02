@@ -1029,51 +1029,13 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#imports_nepheline_syenite_nepheline_syenite_tonnes	Nepheline syenite	Nepheline-syenite (tonnes)	Imports	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_nepheline_syenite_unknown_tonnes	Nepheline syenite	Unknown (tonnes)	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_nepheline_syenite_unknown_tonnes	Nepheline syenite	Unknown (tonnes)	Share of global production	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_nickel_mattes__sinters_etc_tonnes	Nickel	Mattes, sinters etc (tonnes)	Exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_nickel_mattes__sinters_etc_tonnes	Nickel	Mattes, sinters etc (tonnes)	Imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_nickel_mattes__sinters_etc_tonnes	Nickel	Mattes, sinters etc (tonnes)	Share of global exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_nickel_mattes__sinters_etc_tonnes	Nickel	Mattes, sinters etc (tonnes)	Share of global imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_nickel_mine_tonnes_of_metal_content	Nickel	Mine (tonnes of metal content)	Production	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_nickel_mine_tonnes_of_metal_content	Nickel	Mine (tonnes of metal content)	Share of global production	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_nickel_mine_tonnes	Nickel	Mine (tonnes)	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_nickel_mine_tonnes	Nickel	Mine (tonnes)	Reserves	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_nickel_mine_tonnes	Nickel	Mine (tonnes)	Share of global production	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_nickel_mine_tonnes	Nickel	Mine (tonnes)	Share of global reserves	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_nickel_ores__and__concentrates_tonnes	Nickel	Ores & concentrates (tonnes)	Exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_nickel_ores__and__concentrates_tonnes	Nickel	Ores & concentrates (tonnes)	Imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_nickel_ores__and__concentrates_tonnes	Nickel	Ores & concentrates (tonnes)	Share of global exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_nickel_ores__and__concentrates_tonnes	Nickel	Ores & concentrates (tonnes)	Share of global imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_nickel_ores__concentrates__and__scrap_tonnes	Nickel	Ores, concentrates & scrap (tonnes)	Imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_nickel_ores__concentrates__mattes_etc_tonnes	Nickel	Ores, concentrates, mattes etc (tonnes)	Exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_nickel_oxide__sinter__and__sulfide_tonnes	Nickel	Oxide, sinter & sulfide (tonnes)	Exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_nickel_oxides_tonnes	Nickel	Oxides (tonnes)	Exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_nickel_oxides_tonnes	Nickel	Oxides (tonnes)	Imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_nickel_oxides_tonnes	Nickel	Oxides (tonnes)	Share of global exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_nickel_oxides_tonnes	Nickel	Oxides (tonnes)	Share of global imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_nickel_scrap_tonnes	Nickel	Scrap (tonnes)	Exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_nickel_scrap_tonnes	Nickel	Scrap (tonnes)	Imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_nickel_scrap_tonnes	Nickel	Scrap (tonnes)	Share of global exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_nickel_scrap_tonnes	Nickel	Scrap (tonnes)	Share of global imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_nickel_slurry__mattes__sinters_etc_tonnes	Nickel	Slurry, mattes, sinters etc (tonnes)	Exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_nickel_slurry__mattes__sinters_etc_tonnes	Nickel	Slurry, mattes, sinters etc (tonnes)	Imports	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_nickel_mine_tonnes	Nickel	Mine (tonnes)	Unit value	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_nickel_smelter_or_refinery_tonnes	Nickel	Smelter or refinery (tonnes)	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_nickel_smelter_or_refinery_tonnes	Nickel	Smelter or refinery (tonnes)	Share of global production	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_nickel_smelter_or_refinery__sulfate_tonnes	Nickel	Smelter or refinery, sulfate (tonnes)	Production	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_nickel_sulfide_tonnes	Nickel	Sulfide (tonnes)	Exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_nickel_total_tonnes	Nickel	Total (tonnes)	Production	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_nickel_total_tonnes	Nickel	Total (tonnes)	Share of global production	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_nickel_total_tonnes	Nickel	Total (tonnes)	Unit value	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_nickel_unknown_tonnes	Nickel	Unknown (tonnes)	Exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_nickel_unwrought_tonnes	Nickel	Unwrought (tonnes)	Exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_nickel_unwrought_tonnes	Nickel	Unwrought (tonnes)	Imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_nickel_unwrought_tonnes	Nickel	Unwrought (tonnes)	Share of global exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_nickel_unwrought_tonnes	Nickel	Unwrought (tonnes)	Share of global imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_nickel_unwrought_alloys_tonnes	Nickel	Unwrought alloys (tonnes)	Exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_nickel_unwrought_alloys_tonnes	Nickel	Unwrought alloys (tonnes)	Imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_nickel_unwrought_alloys_tonnes	Nickel	Unwrought alloys (tonnes)	Share of global exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_nickel_unwrought_alloys_tonnes	Nickel	Unwrought alloys (tonnes)	Share of global imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_nickel_unwrought__mattes__sinters_etc_tonnes	Nickel	Unwrought, mattes, sinters etc (tonnes)	Exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_nickel_unwrought__mattes__sinters_etc_tonnes	Nickel	Unwrought, mattes, sinters etc (tonnes)	Imports	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_niobium_mine_tonnes	Niobium	Mine (tonnes)	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_niobium_mine_tonnes	Niobium	Mine (tonnes)	Reserves	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_niobium_mine_tonnes	Niobium	Mine (tonnes)	Share of global production	true
