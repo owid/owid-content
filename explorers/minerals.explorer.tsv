@@ -263,19 +263,9 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_cadmium_unknown_tonnes	Cadmium	Unknown (tonnes)	Share of global exports	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_cadmium_unknown_tonnes	Cadmium	Unknown (tonnes)	Share of global imports	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_cadmium_unknown_tonnes	Cadmium	Unknown (tonnes)	Share of global production	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_cement_cement__clinker_tonnes	Cement	Cement, clinker (tonnes)	Exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_cement_cement__clinker_tonnes	Cement	Cement, clinker (tonnes)	Imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_cement_cement__clinker_tonnes	Cement	Cement, clinker (tonnes)	Production	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_cement_cement__finished_tonnes	Cement	Cement, finished (tonnes)	Production	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_cement_other_cement_tonnes	Cement	Other cement (tonnes)	Exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_cement_other_cement_tonnes	Cement	Other cement (tonnes)	Imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_cement_portland_cement_tonnes	Cement	Portland cement (tonnes)	Exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_cement_portland_cement_tonnes	Cement	Portland cement (tonnes)	Imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_cement_production_tonnes	Cement	Production (tonnes)	Production	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_cement_production_tonnes	Cement	Production (tonnes)	Share of global production	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_cement_total_tonnes__gross_weight	Cement	Total (tonnes, gross weight)	Production	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_cement_total_tonnes__gross_weight	Cement	Total (tonnes, gross weight)	Share of global production	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_cement_total_tonnes__gross_weight	Cement	Total (tonnes, gross weight)	Unit value	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_cement_total_tonnes	Cement	Total (tonnes)	Production	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_cement_total_tonnes	Cement	Total (tonnes)	Share of global production	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_cement_total_tonnes	Cement	Total (tonnes)	Unit value	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_cesium_total_tonnes	Cesium	Total (tonnes)	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_cesium_total_tonnes	Cesium	Total (tonnes)	Share of global production	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_cesium_total_tonnes	Cesium	Total (tonnes)	Unit value	true
