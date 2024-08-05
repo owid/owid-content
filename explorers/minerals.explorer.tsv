@@ -1659,35 +1659,13 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_zeolites__natural__mine_tonnes	Zeolites (natural)	Mine (tonnes)	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_zeolites__natural__mine_tonnes	Zeolites (natural)	Mine (tonnes)	Reserves	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_zeolites__natural__mine_tonnes	Zeolites (natural)	Mine (tonnes)	Share of global production	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_zinc_crude__and__refined_tonnes	Zinc	Crude & refined (tonnes)	Imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_zinc_mine_tonnes_of_metal_content	Zinc	Mine (tonnes of metal content)	Production	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_zinc_mine_tonnes_of_metal_content	Zinc	Mine (tonnes of metal content)	Share of global production	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_zinc_mine_production__concentrates_and_direct_shipping_ores_tonnes	Zinc	Mine production, concentrates and direct shipping ores (tonnes)	Production	true
-	grapher/minerals/2024-07-15/minerals/minerals#reserves_zinc_mine_production__concentrates_and_direct_shipping_ores_tonnes	Zinc	Mine production, concentrates and direct shipping ores (tonnes)	Reserves	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_zinc_mine_production__concentrates_and_direct_shipping_ores_tonnes	Zinc	Mine production, concentrates and direct shipping ores (tonnes)	Share of global production	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_zinc_mine_production__concentrates_and_direct_shipping_ores_tonnes	Zinc	Mine production, concentrates and direct shipping ores (tonnes)	Share of global reserves	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_zinc_ores__and__concentrates_tonnes	Zinc	Ores & concentrates (tonnes)	Exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_zinc_ores__and__concentrates_tonnes	Zinc	Ores & concentrates (tonnes)	Imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_zinc_ores__and__concentrates_tonnes	Zinc	Ores & concentrates (tonnes)	Share of global exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_zinc_ores__and__concentrates_tonnes	Zinc	Ores & concentrates (tonnes)	Share of global imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_zinc_oxides_tonnes	Zinc	Oxides (tonnes)	Imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_zinc_scrap_tonnes	Zinc	Scrap (tonnes)	Exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_zinc_scrap_tonnes	Zinc	Scrap (tonnes)	Imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_zinc_scrap_tonnes	Zinc	Scrap (tonnes)	Share of global exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_zinc_scrap_tonnes	Zinc	Scrap (tonnes)	Share of global imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_zinc_slab_tonnes	Zinc	Slab (tonnes)	Production	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_zinc_slab_tonnes	Zinc	Slab (tonnes)	Share of global production	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_zinc_total_tonnes	Zinc	Total (tonnes)	Production	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_zinc_total_tonnes	Zinc	Total (tonnes)	Share of global production	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_zinc_total_tonnes	Zinc	Total (tonnes)	Unit value	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_zinc_unwrought_tonnes	Zinc	Unwrought (tonnes)	Exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_zinc_unwrought_tonnes	Zinc	Unwrought (tonnes)	Imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_zinc_unwrought_tonnes	Zinc	Unwrought (tonnes)	Share of global exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_zinc_unwrought_tonnes	Zinc	Unwrought (tonnes)	Share of global imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_zinc_unwrought_alloys_tonnes	Zinc	Unwrought alloys (tonnes)	Exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_zinc_unwrought_alloys_tonnes	Zinc	Unwrought alloys (tonnes)	Imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_zinc_unwrought_alloys_tonnes	Zinc	Unwrought alloys (tonnes)	Share of global exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_zinc_unwrought_alloys_tonnes	Zinc	Unwrought alloys (tonnes)	Share of global imports	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_zinc_mine_tonnes	Zinc	Mine (tonnes)	Production	true
+	grapher/minerals/2024-07-15/minerals/minerals#reserves_zinc_mine_tonnes	Zinc	Mine (tonnes)	Reserves	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_zinc_mine_tonnes	Zinc	Mine (tonnes)	Share of global production	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_zinc_mine_tonnes	Zinc	Mine (tonnes)	Share of global reserves	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_zinc_mine_tonnes	Zinc	Mine (tonnes)	Unit value	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_zinc_refinery_tonnes	Zinc	Refinery (tonnes)	Production	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_zinc_refinery_tonnes	Zinc	Refinery (tonnes)	Share of global production	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_zirconium_concentrates_tonnes	Zirconium	Concentrates (tonnes)	Exports	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_zirconium_concentrates_tonnes	Zirconium	Concentrates (tonnes)	Imports	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_zirconium_concentrates_tonnes	Zirconium	Concentrates (tonnes)	Share of global exports	true
