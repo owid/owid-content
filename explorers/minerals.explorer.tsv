@@ -15,11 +15,9 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_alumina_unknown_tonnes_of_aluminum_oxide_content	Alumina	Unknown (tonnes of aluminum oxide content)	Share of global production	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_aluminum_primary_tonnes	Aluminum	Primary (tonnes)	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_aluminum_primary_tonnes	Aluminum	Primary (tonnes)	Share of global production	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_aluminum_primary_tonnes	Aluminum	Primary (tonnes)	Unit value	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_aluminum_smelter_tonnes	Aluminum	Smelter (tonnes)	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_aluminum_smelter_tonnes	Aluminum	Smelter (tonnes)	Share of global production	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_aluminum_total_tonnes	Aluminum	Total (tonnes)	Production	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_aluminum_total_tonnes	Aluminum	Total (tonnes)	Share of global production	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_aluminum_total_tonnes	Aluminum	Total (tonnes)	Unit value	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_aluminum_oxide_total_tonnes__gross_weight	Aluminum oxide	Total (tonnes, gross weight)	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_aluminum_oxide_total_tonnes__gross_weight	Aluminum oxide	Total (tonnes, gross weight)	Unit value	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_aluminum_zirconium_oxide_total_tonnes__gross_weight	Aluminum-zirconium oxide	Total (tonnes, gross weight)	Production	true
