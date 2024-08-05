@@ -1509,36 +1509,13 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_tellurium_total_tonnes	Tellurium	Total (tonnes)	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_tellurium_total_tonnes	Tellurium	Total (tonnes)	Share of global production	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_tellurium_total_tonnes	Tellurium	Total (tonnes)	Unit value	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_tin_concentrates_tonnes	Tin	Concentrates (tonnes)	Exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_tin_concentrates_tonnes	Tin	Concentrates (tonnes)	Imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_tin_concentrates_tonnes	Tin	Concentrates (tonnes)	Share of global exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_tin_concentrates_tonnes	Tin	Concentrates (tonnes)	Share of global imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_tin_mine_tonnes_of_metal_content	Tin	Mine (tonnes of metal content)	Production	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_tin_mine_tonnes_of_metal_content	Tin	Mine (tonnes of metal content)	Share of global production	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_tin_mine_tonnes	Tin	Mine (tonnes)	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_tin_mine_tonnes	Tin	Mine (tonnes)	Reserves	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_tin_mine_tonnes	Tin	Mine (tonnes)	Share of global production	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_tin_mine_tonnes	Tin	Mine (tonnes)	Share of global reserves	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_tin_scrap_tonnes	Tin	Scrap (tonnes)	Exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_tin_scrap_tonnes	Tin	Scrap (tonnes)	Imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_tin_scrap_tonnes	Tin	Scrap (tonnes)	Share of global exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_tin_scrap_tonnes	Tin	Scrap (tonnes)	Share of global imports	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_tin_mine_tonnes	Tin	Mine (tonnes)	Unit value	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_tin_smelter_tonnes	Tin	Smelter (tonnes)	Production	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_tin_smelter_tonnes	Tin	Smelter (tonnes)	Share of global production	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_tin_tin_silver_ore_tonnes	Tin	Tin-silver ore (tonnes)	Exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_tin_total_tonnes	Tin	Total (tonnes)	Production	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_tin_total_tonnes	Tin	Total (tonnes)	Share of global production	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_tin_total_tonnes	Tin	Total (tonnes)	Unit value	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_tin_unwrought__and__scrap_tonnes	Tin	Unwrought & scrap (tonnes)	Imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_tin_unwrought__and__semi_manufactures_tonnes	Tin	Unwrought & semi-manufactures (tonnes)	Imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_tin_unwrought_tonnes	Tin	Unwrought (tonnes)	Exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_tin_unwrought_tonnes	Tin	Unwrought (tonnes)	Imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_tin_unwrought_tonnes	Tin	Unwrought (tonnes)	Share of global exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_tin_unwrought_tonnes	Tin	Unwrought (tonnes)	Share of global imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_tin_unwrought_alloys_tonnes	Tin	Unwrought alloys (tonnes)	Exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_tin_unwrought_alloys_tonnes	Tin	Unwrought alloys (tonnes)	Imports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_tin_unwrought_alloys_tonnes	Tin	Unwrought alloys (tonnes)	Share of global exports	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_tin_unwrought_alloys_tonnes	Tin	Unwrought alloys (tonnes)	Share of global imports	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_titanium_ilmenite_tonnes	Titanium	Ilmenite (tonnes)	Exports	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_titanium_ilmenite_tonnes	Titanium	Ilmenite (tonnes)	Imports	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_titanium_ilmenite_tonnes	Titanium	Ilmenite (tonnes)	Share of global exports	true
