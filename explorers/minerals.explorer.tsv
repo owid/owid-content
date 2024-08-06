@@ -282,30 +282,12 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_bromine_unknown_tonnes	Bromine	Share of global imports	Unknown (tonnes)	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_bromine_plant_tonnes	Bromine	Share of global production	Plant (tonnes)	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_bromine_unknown_tonnes	Bromine	Share of global production	Unknown (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_cadmium_metal_tonnes	Cadmium	Exports	Metal (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_cadmium_oxide_tonnes	Cadmium	Exports	Oxide (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_cadmium_sulfide_tonnes	Cadmium	Exports	Sulfide (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_cadmium_unknown_tonnes	Cadmium	Exports	Unknown (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_cadmium_metal_tonnes	Cadmium	Imports	Metal (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_cadmium_other_tonnes	Cadmium	Imports	Other (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_cadmium_oxide_tonnes	Cadmium	Imports	Oxide (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_cadmium_sulfide_tonnes	Cadmium	Imports	Sulfide (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_cadmium_unknown_tonnes	Cadmium	Imports	Unknown (tonnes)	true
+	grapher/minerals/2024-07-15/minerals/minerals#exports_cadmium_refinery_tonnes	Cadmium	Exports	Refinery (tonnes)	true
+	grapher/minerals/2024-07-15/minerals/minerals#imports_cadmium_refinery_tonnes	Cadmium	Imports	Refinery (tonnes)	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_cadmium_refinery_tonnes	Cadmium	Production	Refinery (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_cadmium_total_tonnes	Cadmium	Production	Total (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_cadmium_unknown_tonnes	Cadmium	Production	Unknown (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_cadmium_metal_tonnes	Cadmium	Share of global exports	Metal (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_cadmium_oxide_tonnes	Cadmium	Share of global exports	Oxide (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_cadmium_sulfide_tonnes	Cadmium	Share of global exports	Sulfide (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_cadmium_unknown_tonnes	Cadmium	Share of global exports	Unknown (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_cadmium_metal_tonnes	Cadmium	Share of global imports	Metal (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_cadmium_other_tonnes	Cadmium	Share of global imports	Other (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_cadmium_oxide_tonnes	Cadmium	Share of global imports	Oxide (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_cadmium_sulfide_tonnes	Cadmium	Share of global imports	Sulfide (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_cadmium_unknown_tonnes	Cadmium	Share of global imports	Unknown (tonnes)	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_cadmium_refinery_tonnes	Cadmium	Share of global exports	Refinery (tonnes)	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_cadmium_refinery_tonnes	Cadmium	Share of global imports	Refinery (tonnes)	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_cadmium_refinery_tonnes	Cadmium	Share of global production	Refinery (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_cadmium_total_tonnes	Cadmium	Share of global production	Total (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_cadmium_unknown_tonnes	Cadmium	Share of global production	Unknown (tonnes)	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_cadmium_apparent_consumption_constant_1998_usd_per_tonne	Cadmium	Unit value	Apparent consumption (constant 1998 US$ per tonne)	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_cement_total_tonnes	Cement	Production	Total (tonnes)	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_cement_total_tonnes	Cement	Share of global production	Total (tonnes)	true
