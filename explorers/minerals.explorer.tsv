@@ -1318,46 +1318,22 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_pumice_and_pumicite_total_tonnes__gross_weight	Pumice and pumicite	Production	Total (tonnes, gross weight)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_pumice_and_pumicite_total_tonnes__gross_weight	Pumice and pumicite	Production	Total (tonnes, gross weight)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_pumice_and_pumicite_apparent_consumption_constant_1998_usd_per_tonne	Pumice and pumicite	Unit value	Apparent consumption (constant 1998 US$ per tonne)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_rare_earth_minerals_bastnaesite_tonnes	Rare earth minerals	Production	Bastnaesite (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_rare_earth_minerals_bastnaesite_tonnes	Rare earth minerals	Production	Bastnaesite (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_rare_earth_minerals_loparite_tonnes	Rare earth minerals	Production	Loparite (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_rare_earth_minerals_loparite_tonnes	Rare earth minerals	Production	Loparite (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_rare_earth_minerals_monazite_tonnes	Rare earth minerals	Production	Monazite (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_rare_earth_minerals_monazite_tonnes	Rare earth minerals	Production	Monazite (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_rare_earth_minerals_unknown_tonnes	Rare earth minerals	Production	Unknown (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_rare_earth_minerals_unknown_tonnes	Rare earth minerals	Production	Unknown (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_rare_earth_minerals_xenotime_tonnes	Rare earth minerals	Production	Xenotime (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_rare_earth_minerals_xenotime_tonnes	Rare earth minerals	Production	Xenotime (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_rare_earth_oxides_unknown_tonnes	Rare earth oxides	Production	Unknown (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_rare_earth_oxides_unknown_tonnes	Rare earth oxides	Production	Unknown (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_rare_earths_cerium_compounds_tonnes	Rare earths	Exports	Cerium compounds (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_rare_earths_cerium_compounds_tonnes	Rare earths	Exports	Cerium compounds (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_rare_earths_cerium_metal_tonnes	Rare earths	Exports	Cerium metal (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_rare_earths_cerium_metal_tonnes	Rare earths	Exports	Cerium metal (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_rare_earths_ferro_cerium__and__other_pyrophoric_alloys_tonnes	Rare earths	Exports	Ferro-cerium & other pyrophoric alloys (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_rare_earths_ferro_cerium__and__other_pyrophoric_alloys_tonnes	Rare earths	Exports	Ferro-cerium & other pyrophoric alloys (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_rare_earths_metals_tonnes	Rare earths	Exports	Metals (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_rare_earths_metals_tonnes	Rare earths	Exports	Metals (tonnes)	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#exports_rare_earths_compounds_tonnes	Rare earths	Exports	Compounds (tonnes)	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_rare_earths_compounds_tonnes	Rare earths	Exports	Compounds (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_rare_earths_ores__and__concentrates_tonnes	Rare earths	Exports	Ores & concentrates (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_rare_earths_ores__and__concentrates_tonnes	Rare earths	Exports	Ores & concentrates (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_rare_earths_other_rare_earth_compounds_tonnes	Rare earths	Exports	Other rare earth compounds (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_rare_earths_other_rare_earth_compounds_tonnes	Rare earths	Exports	Other rare earth compounds (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_rare_earths_rare_earth_compounds_tonnes	Rare earths	Exports	Rare earth compounds (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_rare_earths_rare_earth_compounds_tonnes	Rare earths	Exports	Rare earth compounds (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_rare_earths_cerium_compounds_tonnes	Rare earths	Imports	Cerium compounds (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_rare_earths_cerium_compounds_tonnes	Rare earths	Imports	Cerium compounds (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_rare_earths_ferro_cerium__and__other_pyrophoric_alloys_tonnes	Rare earths	Imports	Ferro-cerium & other pyrophoric alloys (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_rare_earths_ferro_cerium__and__other_pyrophoric_alloys_tonnes	Rare earths	Imports	Ferro-cerium & other pyrophoric alloys (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_rare_earths_metals_tonnes	Rare earths	Imports	Metals (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_rare_earths_metals_tonnes	Rare earths	Imports	Metals (tonnes)	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#exports_rare_earths_refinery_tonnes	Rare earths	Exports	Refinery (tonnes)	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_rare_earths_refinery_tonnes	Rare earths	Exports	Refinery (tonnes)	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#imports_rare_earths_compounds_tonnes	Rare earths	Imports	Compounds (tonnes)	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_rare_earths_compounds_tonnes	Rare earths	Imports	Compounds (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_rare_earths_ores__and__concentrates_tonnes	Rare earths	Imports	Ores & concentrates (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_rare_earths_ores__and__concentrates_tonnes	Rare earths	Imports	Ores & concentrates (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_rare_earths_other_rare_earth_compounds_tonnes	Rare earths	Imports	Other rare earth compounds (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_rare_earths_other_rare_earth_compounds_tonnes	Rare earths	Imports	Other rare earth compounds (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_rare_earths_rare_earth_compounds_tonnes	Rare earths	Imports	Rare earth compounds (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_rare_earths_rare_earth_compounds_tonnes	Rare earths	Imports	Rare earth compounds (tonnes)	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#imports_rare_earths_refinery_tonnes	Rare earths	Imports	Refinery (tonnes)	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_rare_earths_refinery_tonnes	Rare earths	Imports	Refinery (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_rare_earths_mine_tonnes_of_rare_earth_oxide_equivalent	Rare earths	Production	Mine (tonnes of rare-earth-oxide equivalent)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_rare_earths_mine_tonnes_of_rare_earth_oxide_equivalent	Rare earths	Production	Mine (tonnes of rare-earth-oxide equivalent)	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_rare_earths_ores__and__concentrates_tonnes	Rare earths	Production	Ores & concentrates (tonnes)	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_rare_earths_ores__and__concentrates_tonnes	Rare earths	Production	Ores & concentrates (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_rare_earths_mine_tonnes_of_rare_earth_oxide_equivalent	Rare earths	Reserves	Mine (tonnes of rare-earth-oxide equivalent)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_rare_earths_mine_tonnes_of_rare_earth_oxide_equivalent	Rare earths	Reserves	Mine (tonnes of rare-earth-oxide equivalent)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_rhenium_mine_tonnes	Rhenium	Production	Mine (tonnes)	false	true
