@@ -314,21 +314,15 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_cesium_total_tonnes	Cesium	Share of global production	Total (tonnes)	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_cesium_apparent_consumption_constant_1998_usd_per_tonne	Cesium	Unit value	Apparent consumption (constant 1998 US$ per tonne)	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_chromium_metal_tonnes	Chromium	Exports	Metal (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_chromium_ores__and__concentrates_tonnes	Chromium	Exports	Ores & concentrates (tonnes)	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_chromium_metal_tonnes	Chromium	Imports	Metal (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_chromium_ores__and__concentrates_tonnes	Chromium	Imports	Ores & concentrates (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_chromium_mine__marketable_chromite_ore_tonnes_of_gross_weight	Chromium	Production	Mine, marketable chromite ore (tonnes of gross weight)	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_chromium_ores__and__concentrates_tonnes	Chromium	Production	Ores & concentrates (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_chromium_total_tonnes	Chromium	Production	Total (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#reserves_chromium_mine__marketable_chromite_ore_tonnes_of_gross_weight	Chromium	Reserves	Mine, marketable chromite ore (tonnes of gross weight)	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_chromium_mine_tonnes_of_gross_weight	Chromium	Production	Mine (tonnes of gross weight)	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_chromium_mine__contained_chromium_tonnes	Chromium	Production	Mine, contained chromium (tonnes)	true
+	grapher/minerals/2024-07-15/minerals/minerals#reserves_chromium_mine_tonnes_of_gross_weight	Chromium	Reserves	Mine (tonnes of gross weight)	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_chromium_metal_tonnes	Chromium	Share of global exports	Metal (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_chromium_ores__and__concentrates_tonnes	Chromium	Share of global exports	Ores & concentrates (tonnes)	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_chromium_metal_tonnes	Chromium	Share of global imports	Metal (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_chromium_ores__and__concentrates_tonnes	Chromium	Share of global imports	Ores & concentrates (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_chromium_mine__marketable_chromite_ore_tonnes_of_gross_weight	Chromium	Share of global production	Mine, marketable chromite ore (tonnes of gross weight)	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_chromium_ores__and__concentrates_tonnes	Chromium	Share of global production	Ores & concentrates (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_chromium_total_tonnes	Chromium	Share of global production	Total (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_chromium_mine__marketable_chromite_ore_tonnes_of_gross_weight	Chromium	Share of global reserves	Mine, marketable chromite ore (tonnes of gross weight)	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_chromium_mine_tonnes_of_gross_weight	Chromium	Share of global production	Mine (tonnes of gross weight)	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_chromium_mine__contained_chromium_tonnes	Chromium	Share of global production	Mine, contained chromium (tonnes)	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_chromium_mine_tonnes_of_gross_weight	Chromium	Share of global reserves	Mine (tonnes of gross weight)	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_chromium_apparent_consumption_constant_1998_usd_per_tonne	Chromium	Unit value	Apparent consumption (constant 1998 US$ per tonne)	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_clays_ball_clay_tonnes__gross_weight	Clays	Production	Ball clay (tonnes, gross weight)	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_clays_fire_clay_tonnes__gross_weight	Clays	Production	Fire clay (tonnes, gross weight)	true
