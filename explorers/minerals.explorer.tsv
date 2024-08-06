@@ -979,29 +979,21 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_magnesium_metal_smelter_tonnes	Magnesium metal	Production	Smelter (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_magnesium_metal_smelter_tonnes	Magnesium metal	Production	Smelter (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_magnesium_metal_apparent_consumption_constant_1998_usd_per_tonne	Magnesium metal	Unit value	Apparent consumption (constant 1998 US$ per tonne)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_manganese_metal_tonnes	Manganese	Exports	Metal (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_manganese_metal_tonnes	Manganese	Exports	Metal (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_manganese_ores__and__concentrates_tonnes	Manganese	Exports	Ores & concentrates (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_manganese_ores__and__concentrates_tonnes	Manganese	Exports	Ores & concentrates (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_manganese_metal_tonnes	Manganese	Imports	Metal (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_manganese_metal_tonnes	Manganese	Imports	Metal (tonnes)	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#exports_manganese_refinery_tonnes	Manganese	Exports	Refinery (tonnes)	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_manganese_refinery_tonnes	Manganese	Exports	Refinery (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_manganese_ores__and__concentrates_tonnes	Manganese	Imports	Ores & concentrates (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_manganese_ores__and__concentrates_tonnes	Manganese	Imports	Ores & concentrates (tonnes)	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#imports_manganese_refinery_tonnes	Manganese	Imports	Refinery (tonnes)	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_manganese_refinery_tonnes	Manganese	Imports	Refinery (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_manganese_mine_tonnes	Manganese	Production	Mine (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_manganese_mine_tonnes	Manganese	Production	Mine (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_manganese_total_tonnes	Manganese	Production	Total (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_manganese_total_tonnes	Manganese	Production	Total (tonnes)	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_manganese_ores__and__concentrates_tonnes	Manganese	Production	Ores & concentrates (tonnes)	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_manganese_ores__and__concentrates_tonnes	Manganese	Production	Ores & concentrates (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_manganese_mine_tonnes	Manganese	Reserves	Mine (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_manganese_mine_tonnes	Manganese	Reserves	Mine (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_manganese_apparent_consumption_constant_1998_usd_per_tonne	Manganese	Unit value	Apparent consumption (constant 1998 US$ per tonne)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_manganese_ore_chemical_tonnes	Manganese ore	Production	Chemical (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_manganese_ore_chemical_tonnes	Manganese ore	Production	Chemical (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_manganese_ore_manganese_ore__ferruginous__tonnes	Manganese ore	Production	Manganese ore (ferruginous) (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_manganese_ore_manganese_ore__ferruginous__tonnes	Manganese ore	Production	Manganese ore (ferruginous) (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_manganese_ore_metallurgical_tonnes	Manganese ore	Production	Metallurgical (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_manganese_ore_metallurgical_tonnes	Manganese ore	Production	Metallurgical (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_manganese_ore_unknown_tonnes	Manganese ore	Production	Unknown (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_manganese_ore_unknown_tonnes	Manganese ore	Production	Unknown (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_manufactured_abrasives__total_tonnes__gross_weight	Manufactured abrasives 	Production	Total (tonnes, gross weight)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_mercury_unknown_tonnes	Mercury	Exports	Unknown (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_mercury_unknown_tonnes	Mercury	Exports	Unknown (tonnes)	true	true
