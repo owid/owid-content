@@ -904,8 +904,6 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_lead_apparent_consumption_constant_1998_usd_per_tonne	Lead	Unit value	Apparent consumption (constant 1998 US$ per tonne)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_lime_plant_tonnes	Lime	Production	Plant (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_lime_plant_tonnes	Lime	Production	Plant (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_lime_total_tonnes__gross_weight	Lime	Production	Total (tonnes, gross weight)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_lime_total_tonnes__gross_weight	Lime	Production	Total (tonnes, gross weight)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_lime_apparent_consumption_constant_1998_usd_per_tonne	Lime	Unit value	Apparent consumption (constant 1998 US$ per tonne)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_lithium_mine_tonnes	Lithium	Exports	Mine (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_lithium_mine_tonnes	Lithium	Exports	Mine (tonnes)	true	true
