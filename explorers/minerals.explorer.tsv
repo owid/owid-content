@@ -1038,26 +1038,16 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_mica__natural__scrap_and_flake_apparent_consumption_constant_1998_usd_per_tonne	Mica (natural), scrap and flake	Unit value	Apparent consumption (constant 1998 US$ per tonne)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_mica__natural__sheet_apparent_consumption_constant_1998_usd_per_tonne	Mica (natural), sheet	Unit value	Apparent consumption (constant 1998 US$ per tonne)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_miscellaneous_clay_apparent_consumption_constant_1998_usd_per_tonne	Miscellaneous clay	Unit value	Apparent consumption (constant 1998 US$ per tonne)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_molybdenum_metal_tonnes	Molybdenum	Exports	Metal (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_molybdenum_metal_tonnes	Molybdenum	Exports	Metal (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_molybdenum_ores__and__concentrates_tonnes	Molybdenum	Exports	Ores & concentrates (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_molybdenum_ores__and__concentrates_tonnes	Molybdenum	Exports	Ores & concentrates (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_molybdenum_oxides_tonnes	Molybdenum	Exports	Oxides (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_molybdenum_oxides_tonnes	Molybdenum	Exports	Oxides (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_molybdenum_scrap_tonnes	Molybdenum	Exports	Scrap (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_molybdenum_scrap_tonnes	Molybdenum	Exports	Scrap (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_molybdenum_metal_tonnes	Molybdenum	Imports	Metal (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_molybdenum_metal_tonnes	Molybdenum	Imports	Metal (tonnes)	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#exports_molybdenum_refinery_tonnes	Molybdenum	Exports	Refinery (tonnes)	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_molybdenum_refinery_tonnes	Molybdenum	Exports	Refinery (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_molybdenum_ores__and__concentrates_tonnes	Molybdenum	Imports	Ores & concentrates (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_molybdenum_ores__and__concentrates_tonnes	Molybdenum	Imports	Ores & concentrates (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_molybdenum_oxides_tonnes	Molybdenum	Imports	Oxides (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_molybdenum_oxides_tonnes	Molybdenum	Imports	Oxides (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_molybdenum_mine_tonnes_of_metal_content	Molybdenum	Production	Mine (tonnes of metal content)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_molybdenum_mine_tonnes_of_metal_content	Molybdenum	Production	Mine (tonnes of metal content)	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#imports_molybdenum_refinery_tonnes	Molybdenum	Imports	Refinery (tonnes)	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_molybdenum_refinery_tonnes	Molybdenum	Imports	Refinery (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_molybdenum_mine_tonnes	Molybdenum	Production	Mine (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_molybdenum_mine_tonnes	Molybdenum	Production	Mine (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_molybdenum_total_tonnes	Molybdenum	Production	Total (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_molybdenum_total_tonnes	Molybdenum	Production	Total (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_molybdenum_mine_tonnes	Molybdenum	Reserves	Mine (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_molybdenum_mine_tonnes	Molybdenum	Reserves	Mine (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_molybdenum_apparent_consumption_constant_1998_usd_per_tonne	Molybdenum	Unit value	Apparent consumption (constant 1998 US$ per tonne)	false	true
