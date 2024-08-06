@@ -925,50 +925,18 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_lime_plant_tonnes	Lime	Share of global production	Plant (tonnes)	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_lime_total_tonnes__gross_weight	Lime	Share of global production	Total (tonnes, gross weight)	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_lime_apparent_consumption_constant_1998_usd_per_tonne	Lime	Unit value	Apparent consumption (constant 1998 US$ per tonne)	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_lithium_carbonate_tonnes	Lithium	Exports	Carbonate (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_lithium_lithium_minerals_tonnes	Lithium	Exports	Lithium minerals (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_lithium_lithium_minerals__compounds__and__metal_tonnes	Lithium	Exports	Lithium minerals, compounds & metal (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_lithium_metal_tonnes	Lithium	Exports	Metal (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_lithium_oxides_tonnes	Lithium	Exports	Oxides (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_lithium_carbonate_tonnes	Lithium	Imports	Carbonate (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_lithium_lithium_minerals_tonnes	Lithium	Imports	Lithium minerals (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_lithium_metal_tonnes	Lithium	Imports	Metal (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_lithium_oxides_tonnes	Lithium	Imports	Oxides (tonnes)	true
+	grapher/minerals/2024-07-15/minerals/minerals#exports_lithium_mine_tonnes	Lithium	Exports	Mine (tonnes)	true
+	grapher/minerals/2024-07-15/minerals/minerals#exports_lithium_refinery_tonnes	Lithium	Exports	Refinery (tonnes)	true
+	grapher/minerals/2024-07-15/minerals/minerals#imports_lithium_mine_tonnes	Lithium	Imports	Mine (tonnes)	true
+	grapher/minerals/2024-07-15/minerals/minerals#imports_lithium_refinery_tonnes	Lithium	Imports	Refinery (tonnes)	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_lithium_mine_tonnes	Lithium	Production	Mine (tonnes)	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_lithium_mine_tonnes	Lithium	Reserves	Mine (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_lithium_carbonate_tonnes	Lithium	Share of global exports	Carbonate (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_lithium_lithium_minerals_tonnes	Lithium	Share of global exports	Lithium minerals (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_lithium_lithium_minerals__compounds__and__metal_tonnes	Lithium	Share of global exports	Lithium minerals, compounds & metal (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_lithium_metal_tonnes	Lithium	Share of global exports	Metal (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_lithium_oxides_tonnes	Lithium	Share of global exports	Oxides (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_lithium_carbonate_tonnes	Lithium	Share of global imports	Carbonate (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_lithium_lithium_minerals_tonnes	Lithium	Share of global imports	Lithium minerals (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_lithium_metal_tonnes	Lithium	Share of global imports	Metal (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_lithium_oxides_tonnes	Lithium	Share of global imports	Oxides (tonnes)	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_lithium_mine_tonnes	Lithium	Share of global exports	Mine (tonnes)	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_lithium_refinery_tonnes	Lithium	Share of global exports	Refinery (tonnes)	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_lithium_mine_tonnes	Lithium	Share of global imports	Mine (tonnes)	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_lithium_refinery_tonnes	Lithium	Share of global imports	Refinery (tonnes)	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_lithium_mine_tonnes	Lithium	Share of global production	Mine (tonnes)	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_lithium_mine_tonnes	Lithium	Share of global reserves	Mine (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_lithium_minerals_amblygonite_tonnes	Lithium minerals	Production	Amblygonite (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_lithium_minerals_carbonate_tonnes	Lithium minerals	Production	Carbonate (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_lithium_minerals_chloride_tonnes	Lithium minerals	Production	Chloride (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_lithium_minerals_lepidolite_tonnes	Lithium minerals	Production	Lepidolite (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_lithium_minerals_lithium_minerals__carbonate__li_content__tonnes	Lithium minerals	Production	Lithium minerals (carbonate -li content) (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_lithium_minerals_lithium_minerals__chloride__li_content__tonnes	Lithium minerals	Production	Lithium minerals (chloride -li content) (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_lithium_minerals_lithium_minerals__hydroxide__tonnes	Lithium minerals	Production	Lithium minerals (hydroxide) (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_lithium_minerals_lithium_minerals__li_content__tonnes	Lithium minerals	Production	Lithium minerals (li content) (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_lithium_minerals_petalite_tonnes	Lithium minerals	Production	Petalite (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_lithium_minerals_spodumene_tonnes	Lithium minerals	Production	Spodumene (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_lithium_minerals_unknown_tonnes	Lithium minerals	Production	Unknown (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_lithium_minerals_amblygonite_tonnes	Lithium minerals	Share of global production	Amblygonite (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_lithium_minerals_carbonate_tonnes	Lithium minerals	Share of global production	Carbonate (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_lithium_minerals_chloride_tonnes	Lithium minerals	Share of global production	Chloride (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_lithium_minerals_lepidolite_tonnes	Lithium minerals	Share of global production	Lepidolite (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_lithium_minerals_lithium_minerals__carbonate__li_content__tonnes	Lithium minerals	Share of global production	Lithium minerals (carbonate -li content) (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_lithium_minerals_lithium_minerals__chloride__li_content__tonnes	Lithium minerals	Share of global production	Lithium minerals (chloride -li content) (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_lithium_minerals_lithium_minerals__hydroxide__tonnes	Lithium minerals	Share of global production	Lithium minerals (hydroxide) (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_lithium_minerals_lithium_minerals__li_content__tonnes	Lithium minerals	Share of global production	Lithium minerals (li content) (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_lithium_minerals_petalite_tonnes	Lithium minerals	Share of global production	Petalite (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_lithium_minerals_spodumene_tonnes	Lithium minerals	Share of global production	Spodumene (tonnes)	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_lithium_minerals_unknown_tonnes	Lithium minerals	Share of global production	Unknown (tonnes)	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_magnesite_and_magnesia_magnesia_tonnes	Magnesite and magnesia	Exports	Magnesia (tonnes)	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_magnesite_and_magnesia_magnesite_tonnes	Magnesite and magnesia	Exports	Magnesite (tonnes)	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_magnesite_and_magnesia_magnesite__calcined_tonnes	Magnesite and magnesia	Exports	Magnesite, calcined (tonnes)	true
