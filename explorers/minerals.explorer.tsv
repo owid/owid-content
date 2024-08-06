@@ -1710,8 +1710,6 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_tellurium_mine_tonnes	Tellurium	Production	Mine (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_tellurium_refinery_tonnes	Tellurium	Production	Refinery (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_tellurium_refinery_tonnes	Tellurium	Production	Refinery (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_tellurium_total_tonnes	Tellurium	Production	Total (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_tellurium_total_tonnes	Tellurium	Production	Total (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_tellurium_refinery_tonnes	Tellurium	Reserves	Refinery (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_tellurium_refinery_tonnes	Tellurium	Reserves	Refinery (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_tellurium_apparent_consumption_constant_1998_usd_per_tonne	Tellurium	Unit value	Apparent consumption (constant 1998 US$ per tonne)	false	true
