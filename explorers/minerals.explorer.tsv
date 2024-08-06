@@ -664,11 +664,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_helium_apparent_consumption_constant_1998_usd_per_tonne	Helium	Unit value	Apparent consumption (constant 1998 US$ per tonne)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_indium_refinery_tonnes	Indium	Production	Refinery (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_indium_refinery_tonnes	Indium	Production	Refinery (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_indium_total_tonnes	Indium	Production	Total (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_indium_total_tonnes	Indium	Production	Total (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_indium_apparent_consumption_constant_1998_usd_per_tonne	Indium	Unit value	Apparent consumption (constant 1998 US$ per tonne)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_indium__refinery_unknown_tonnes	Indium, refinery	Production	Unknown (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_indium__refinery_unknown_tonnes	Indium, refinery	Production	Unknown (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_industrial_diamond_apparent_consumption_constant_1998_usd_per_tonne	Industrial diamond	Unit value	Apparent consumption (constant 1998 US$ per tonne)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_industrial_garnet_total_tonnes__gross_weight	Industrial garnet	Production	Total (tonnes, gross weight)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_industrial_garnet_total_tonnes__gross_weight	Industrial garnet	Production	Total (tonnes, gross weight)	true	true
