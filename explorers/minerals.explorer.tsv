@@ -1424,36 +1424,16 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_sillimanite_minerals_sillimanite_tonnes	Sillimanite minerals	Production	Sillimanite (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_sillimanite_minerals_unknown_tonnes	Sillimanite minerals	Production	Unknown (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_sillimanite_minerals_unknown_tonnes	Sillimanite minerals	Production	Unknown (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_silver_alloys_tonnes	Silver	Exports	Alloys (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_silver_alloys_tonnes	Silver	Exports	Alloys (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_silver_metal_tonnes	Silver	Exports	Metal (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_silver_metal_tonnes	Silver	Exports	Metal (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_silver_metal__refined_tonnes	Silver	Exports	Metal, refined (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_silver_metal__refined_tonnes	Silver	Exports	Metal, refined (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_silver_ores__and__concentrates_tonnes	Silver	Exports	Ores & concentrates (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_silver_ores__and__concentrates_tonnes	Silver	Exports	Ores & concentrates (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_silver_silver_lead_bullion_tonnes	Silver	Exports	Silver-lead bullion (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_silver_silver_lead_bullion_tonnes	Silver	Exports	Silver-lead bullion (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_silver_unknown_tonnes	Silver	Exports	Unknown (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_silver_unknown_tonnes	Silver	Exports	Unknown (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_silver_waste__and__scrap_tonnes	Silver	Exports	Waste & scrap (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_silver_waste__and__scrap_tonnes	Silver	Exports	Waste & scrap (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_silver_metal_tonnes	Silver	Imports	Metal (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_silver_metal_tonnes	Silver	Imports	Metal (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_silver_metal__refined_tonnes	Silver	Imports	Metal, refined (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_silver_metal__refined_tonnes	Silver	Imports	Metal, refined (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_silver_metal__unrefined_tonnes	Silver	Imports	Metal, unrefined (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_silver_metal__unrefined_tonnes	Silver	Imports	Metal, unrefined (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_silver_ores__and__concentrates_tonnes	Silver	Imports	Ores & concentrates (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_silver_ores__and__concentrates_tonnes	Silver	Imports	Ores & concentrates (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_silver_waste__and__scrap_tonnes	Silver	Imports	Waste & scrap (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_silver_waste__and__scrap_tonnes	Silver	Imports	Waste & scrap (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_silver_mine_tonnes_of_metal_content	Silver	Production	Mine (tonnes of metal content)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_silver_mine_tonnes_of_metal_content	Silver	Production	Mine (tonnes of metal content)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_silver_mine_tonnes	Silver	Production	Mine (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_silver_mine_tonnes	Silver	Production	Mine (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_silver_total_tonnes	Silver	Production	Total (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_silver_total_tonnes	Silver	Production	Total (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_silver_mine_tonnes	Silver	Reserves	Mine (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_silver_mine_tonnes	Silver	Reserves	Mine (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_silver_apparent_consumption_constant_1998_usd_per_tonne	Silver	Unit value	Apparent consumption (constant 1998 US$ per tonne)	false	true
