@@ -971,16 +971,12 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_manganese_mine_tonnes	Manganese	Reserves	Mine (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_manganese_apparent_consumption_constant_1998_usd_per_tonne	Manganese	Unit value	Apparent consumption (constant 1998 US$ per tonne)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_manufactured_abrasives__total_tonnes__gross_weight	Manufactured abrasives 	Production	Total (tonnes, gross weight)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_mercury_unknown_tonnes	Mercury	Exports	Unknown (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_mercury_unknown_tonnes	Mercury	Exports	Unknown (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_mercury_unknown_tonnes	Mercury	Imports	Unknown (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_mercury_unknown_tonnes	Mercury	Imports	Unknown (tonnes)	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#exports_mercury_mine_tonnes	Mercury	Exports	Mine (tonnes)	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_mercury_mine_tonnes	Mercury	Exports	Mine (tonnes)	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#imports_mercury_mine_tonnes	Mercury	Imports	Mine (tonnes)	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_mercury_mine_tonnes	Mercury	Imports	Mine (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_mercury_mine_tonnes	Mercury	Production	Mine (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_mercury_mine_tonnes	Mercury	Production	Mine (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_mercury_total_tonnes	Mercury	Production	Total (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_mercury_total_tonnes	Mercury	Production	Total (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_mercury_unknown_tonnes	Mercury	Production	Unknown (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_mercury_unknown_tonnes	Mercury	Production	Unknown (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_mercury_apparent_consumption_constant_1998_usd_per_tonne	Mercury	Unit value	Apparent consumption (constant 1998 US$ per tonne)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_metallic_abrasives_total_tonnes__gross_weight	Metallic abrasives	Production	Total (tonnes, gross weight)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_metallic_abrasives_apparent_consumption_constant_1998_usd_per_tonne	Metallic abrasives	Unit value	Apparent consumption (constant 1998 US$ per tonne)	false	true
