@@ -594,36 +594,18 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_germanium_apparent_consumption_constant_1998_usd_per_tonne	Germanium	Unit value	Apparent consumption (constant 1998 US$ per tonne)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_gold_metal_tonnes	Gold	Exports	Metal (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_gold_metal_tonnes	Gold	Exports	Metal (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_gold_metal__other_tonnes	Gold	Exports	Metal, other (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_gold_metal__other_tonnes	Gold	Exports	Metal, other (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_gold_metal__refined_tonnes	Gold	Exports	Metal, refined (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_gold_metal__refined_tonnes	Gold	Exports	Metal, refined (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_gold_metal__unrefined_tonnes	Gold	Exports	Metal, unrefined (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_gold_metal__unrefined_tonnes	Gold	Exports	Metal, unrefined (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_gold_ores__and__concentrates_tonnes	Gold	Exports	Ores & concentrates (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_gold_ores__and__concentrates_tonnes	Gold	Exports	Ores & concentrates (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_gold_ores__concentrates__and__unrefined_metal_tonnes	Gold	Exports	Ores, concentrates & unrefined metal (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_gold_ores__concentrates__and__unrefined_metal_tonnes	Gold	Exports	Ores, concentrates & unrefined metal (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_gold_waste__and__scrap_tonnes	Gold	Exports	Waste & scrap (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_gold_waste__and__scrap_tonnes	Gold	Exports	Waste & scrap (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_gold_metal_tonnes	Gold	Imports	Metal (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_gold_metal_tonnes	Gold	Imports	Metal (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_gold_metal__other_tonnes	Gold	Imports	Metal, other (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_gold_metal__other_tonnes	Gold	Imports	Metal, other (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_gold_metal__refined_tonnes	Gold	Imports	Metal, refined (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_gold_metal__refined_tonnes	Gold	Imports	Metal, refined (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_gold_metal__unrefined_tonnes	Gold	Imports	Metal, unrefined (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_gold_metal__unrefined_tonnes	Gold	Imports	Metal, unrefined (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_gold_ores__and__concentrates_tonnes	Gold	Imports	Ores & concentrates (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_gold_ores__and__concentrates_tonnes	Gold	Imports	Ores & concentrates (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_gold_ores__concentrates__and__unrefined_metal_tonnes	Gold	Imports	Ores, concentrates & unrefined metal (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_gold_ores__concentrates__and__unrefined_metal_tonnes	Gold	Imports	Ores, concentrates & unrefined metal (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_gold_waste__and__scrap_tonnes	Gold	Imports	Waste & scrap (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_gold_waste__and__scrap_tonnes	Gold	Imports	Waste & scrap (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_gold_mine_tonnes	Gold	Production	Mine (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_gold_mine_tonnes	Gold	Production	Mine (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_gold_total_tonnes	Gold	Production	Total (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_gold_total_tonnes	Gold	Production	Total (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_gold_mine_tonnes	Gold	Reserves	Mine (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_gold_mine_tonnes	Gold	Reserves	Mine (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_gold_apparent_consumption_constant_1998_usd_per_tonne	Gold	Unit value	Apparent consumption (constant 1998 US$ per tonne)	false	true
