@@ -609,18 +609,14 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_gold_mine_tonnes	Gold	Reserves	Mine (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_gold_mine_tonnes	Gold	Reserves	Mine (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_gold_apparent_consumption_constant_1998_usd_per_tonne	Gold	Unit value	Apparent consumption (constant 1998 US$ per tonne)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_graphite_unknown_tonnes	Graphite	Exports	Unknown (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_graphite_unknown_tonnes	Graphite	Exports	Unknown (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_graphite_unknown_tonnes	Graphite	Imports	Unknown (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_graphite_unknown_tonnes	Graphite	Imports	Unknown (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_graphite_mine__natural_tonnes	Graphite	Production	Mine, natural (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_graphite_mine__natural_tonnes	Graphite	Production	Mine, natural (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_graphite_total_tonnes__gross_weight	Graphite	Production	Total (tonnes, gross weight)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_graphite_total_tonnes__gross_weight	Graphite	Production	Total (tonnes, gross weight)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_graphite_unknown_tonnes	Graphite	Production	Unknown (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_graphite_unknown_tonnes	Graphite	Production	Unknown (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#reserves_graphite_mine__natural_tonnes	Graphite	Reserves	Mine, natural (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_graphite_mine__natural_tonnes	Graphite	Reserves	Mine, natural (tonnes)	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#exports_graphite_mine_tonnes	Graphite	Exports	Mine (tonnes)	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_graphite_mine_tonnes	Graphite	Exports	Mine (tonnes)	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#imports_graphite_mine_tonnes	Graphite	Imports	Mine (tonnes)	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_graphite_mine_tonnes	Graphite	Imports	Mine (tonnes)	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_graphite_mine_tonnes	Graphite	Production	Mine (tonnes)	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_graphite_mine_tonnes	Graphite	Production	Mine (tonnes)	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#reserves_graphite_mine_tonnes	Graphite	Reserves	Mine (tonnes)	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_graphite_mine_tonnes	Graphite	Reserves	Mine (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_graphite_apparent_consumption_constant_1998_usd_per_tonne	Graphite	Unit value	Apparent consumption (constant 1998 US$ per tonne)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_gypsum_mine_tonnes	Gypsum	Production	Mine (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_gypsum_mine_tonnes	Gypsum	Production	Mine (tonnes)	true	true
