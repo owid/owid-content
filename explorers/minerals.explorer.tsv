@@ -577,8 +577,8 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_fullers_earth_apparent_consumption_constant_1998_usd_per_tonne	Fuller's earth	Unit value	Apparent consumption (constant 1998 US$ per tonne)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_gallium_primary_tonnes	Gallium	Production	Primary (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_gallium_primary_tonnes	Gallium	Production	Primary (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_gallium_total_tonnes	Gallium	Production	Total (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_gallium_total_tonnes	Gallium	Production	Total (tonnes)	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_gallium_refinery_tonnes	Gallium	Production	Refinery (tonnes)	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_gallium_refinery_tonnes	Gallium	Production	Refinery (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_gallium_apparent_consumption_constant_1998_usd_per_tonne	Gallium	Unit value	Apparent consumption (constant 1998 US$ per tonne)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_garnet_mine_tonnes	Garnet	Production	Mine (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_garnet_mine_tonnes	Garnet	Production	Mine (tonnes)	true	true
