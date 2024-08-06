@@ -1412,8 +1412,6 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_salt_apparent_consumption_constant_1998_usd_per_tonne	Salt	Unit value	Apparent consumption (constant 1998 US$ per tonne)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_selenium_refinery_tonnes	Selenium	Production	Refinery (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_selenium_refinery_tonnes	Selenium	Production	Refinery (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_selenium_total_tonnes	Selenium	Production	Total (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_selenium_total_tonnes	Selenium	Production	Total (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_selenium_refinery_tonnes	Selenium	Reserves	Refinery (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_selenium_refinery_tonnes	Selenium	Reserves	Refinery (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_selenium_apparent_consumption_constant_1998_usd_per_tonne	Selenium	Unit value	Apparent consumption (constant 1998 US$ per tonne)	false	true
