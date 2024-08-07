@@ -1107,11 +1107,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_selenium_refinery_constant_1998_usd_per_tonne	Selenium	Unit value	Refinery (constant 1998 US$ per tonne)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_silicon_plant_tonnes	Silicon	Production	Plant (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_silicon_plant_tonnes	Silicon	Production	Plant (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_silicon_plant_production__ferrosilicon_tonnes	Silicon	Production	Plant production, ferrosilicon (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_silicon_plant_production__ferrosilicon_tonnes	Silicon	Production	Plant production, ferrosilicon (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_silicon_total_tonnes	Silicon	Production	Total (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_silicon_total_tonnes	Silicon	Production	Total (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_silicon_total_constant_1998_usd_per_tonne	Silicon	Unit value	Total (constant 1998 US$ per tonne)	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_silicon_plant_constant_1998_usd_per_tonne	Silicon	Unit value	Plant (constant 1998 US$ per tonne)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_silicon_carbide_total_tonnes__gross_weight	Silicon carbide	Production	Total (tonnes, gross weight)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_silicon_carbide_total_constant_1998_usd_per_tonne	Silicon carbide	Unit value	Total (constant 1998 US$ per tonne)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_sillimanite_minerals_andalusite_tonnes	Sillimanite minerals	Exports	Andalusite (tonnes)	false	true
