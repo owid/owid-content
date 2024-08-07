@@ -614,6 +614,19 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_iron_pig_iron_tonnes	Iron	Production	Pig iron (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_iron_pig_iron_tonnes	Iron	Production	Pig iron (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_iron_pig_iron_constant_1998_usd_per_tonne	Iron	Unit value	Pig iron (constant 1998 US$ per tonne)	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#exports_iron_ore_crude_ore_tonnes	Iron ore	Exports	Crude ore (tonnes)	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_iron_ore_crude_ore_tonnes	Iron ore	Exports	Crude ore (tonnes)	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#imports_iron_ore_crude_ore_tonnes	Iron ore	Imports	Crude ore (tonnes)	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_iron_ore_crude_ore_tonnes	Iron ore	Imports	Crude ore (tonnes)	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_iron_ore_crude_ore_tonnes	Iron ore	Production	Crude ore (tonnes)	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_iron_ore_crude_ore_tonnes	Iron ore	Production	Crude ore (tonnes)	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_iron_ore_iron_content_tonnes	Iron ore	Production	Iron content (tonnes)	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_iron_ore_iron_content_tonnes	Iron ore	Production	Iron content (tonnes)	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#reserves_iron_ore_crude_ore_tonnes	Iron ore	Reserves	Crude ore (tonnes)	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_iron_ore_crude_ore_tonnes	Iron ore	Reserves	Crude ore (tonnes)	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#reserves_iron_ore_iron_content_tonnes	Iron ore	Reserves	Iron content (tonnes)	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_iron_ore_iron_content_tonnes	Iron ore	Reserves	Iron content (tonnes)	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_iron_ore_crude_ore_constant_1998_usd_per_tonne	Iron ore	Unit value	Crude ore (constant 1998 US$ per tonne)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_kaolin_unknown_tonnes	Kaolin	Exports	Unknown (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_kaolin_unknown_tonnes	Kaolin	Exports	Unknown (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_kaolin_unknown_tonnes	Kaolin	Imports	Unknown (tonnes)	false	true
