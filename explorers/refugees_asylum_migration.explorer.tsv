@@ -5,76 +5,76 @@ isPublished	false
 explorerSubtitle	Explore the migration of people across the world.
 selection	Canada	France	Germany	United Kingdom	United States	India	China	Syria	Yemen
 graphers
-	yVariableIds	Metric Dropdown	Period Radio	Sub-Metric Radio	Age Radio	Processing Radio	hasMapTab	tab	yAxisMin
-	grapher/un/2024-07-25/refugee_data/refugee_data#asylum_seekers_asylum_5y_avg_per_100k_pop	Asylum Seekers by destination	Total	Per capita/ Share of population	Total	Five-year average	true	map	0
-	grapher/un/2024-07-25/refugee_data/refugee_data#asylum_seekers_per_100k_pop_asylum	Asylum Seekers by destination	Total	Per capita/ Share of population	Total	Raw data	true	map	0
-	grapher/un/2024-07-25/refugee_data/refugee_data#asylum_seekers_asylum_5y_avg	Asylum Seekers by destination	Total	Total	Total	Five-year average	true	map	0
-	grapher/un/2024-07-25/refugee_data/refugee_data#asylum_seekers_asylum	Asylum Seekers by destination	Total	Total	Total	Raw data	true	map	0
-	grapher/un/2024-07-25/refugee_data/refugee_data#asylum_seekers_origin_5y_avg_per_100k_pop	Asylum Seekers by origin	Total	Per capita/ Share of population	Total	Five-year average	true	map	0
-	grapher/un/2024-07-25/refugee_data/refugee_data#asylum_seekers_per_100k_pop_origin	Asylum Seekers by origin	Total	Per capita/ Share of population	Total	Raw data	true	map	0
-	grapher/un/2024-07-25/refugee_data/refugee_data#asylum_seekers_origin_5y_avg	Asylum Seekers by origin	Total	Total	Total	Five-year average	true	map	0
-	grapher/un/2024-07-25/refugee_data/refugee_data#asylum_seekers_origin	Asylum Seekers by origin	Total	Total	Total	Raw data	true	map	0
-	grapher/worldbank_wdi/2024-05-20/wdi/wdi#si_rmt_cost_ib_zs	Cost of receiving remittances	Total	Total	Total	Raw data	true	map	0
-	grapher/worldbank_wdi/2024-05-20/wdi/wdi#si_rmt_cost_ob_zs	Cost of sending remittances	Total	Total	Total	Raw data	true	map	0
-	grapher/idmc/2024-08-02/internal_displacement/internal_displacement#displacements_per_100_people	Internally displaced persons	Annual/ New	Per capita/ Share of population	Total	Raw data	true	map	0
-	grapher/unicef/2024-07-30/child_migration/child_migration#new_idps_under_18_total_per_1000	Internally displaced persons	Annual/ New	Per capita/ Share of population	Under 18	Raw data	true	map	0
-	grapher/idmc/2024-08-02/internal_displacement/internal_displacement#total_internal_displacements	Internally displaced persons	Annual/ New	Total	Total	Raw data	true	map	0
-	grapher/unicef/2024-07-30/child_migration/child_migration#new_idps_under_18_total	Internally displaced persons	Annual/ New	Total	Under 18	Raw data	true	map	0
-	grapher/idmc/2024-08-02/internal_displacement/internal_displacement#share_of_internally_displaced_pop	Internally displaced persons	Total	Per capita/ Share of population	Total	Raw data	true	map	0
-	grapher/unicef/2024-07-30/child_migration/child_migration#idps_under_18_total_per_1000	Internally displaced persons	Total	Per capita/ Share of population	Under 18	Raw data	true	map	0
-	grapher/idmc/2024-08-02/internal_displacement/internal_displacement#total_stock_displacement	Internally displaced persons	Total	Total	Total	Raw data	true	map	0
-	grapher/unicef/2024-07-30/child_migration/child_migration#idps_under_18_total	Internally displaced persons	Total	Total	Under 18	Raw data	true	map	0
-	grapher/idmc/2024-08-02/internal_displacement/internal_displacement#conflict_displacements_per_100_people	Internally displaced persons (conflict)	Annual/ New	Per capita/ Share of population	Total	Raw data	true	map	0
-	grapher/unicef/2024-07-30/child_migration/child_migration#new_idps_under_18_conflict_violence_per_1000	Internally displaced persons (conflict)	Annual/ New	Per capita/ Share of population	Under 18	Raw data	true	map	0
-	grapher/idmc/2024-08-02/internal_displacement/internal_displacement#conflict_internal_displacements	Internally displaced persons (conflict)	Annual/ New	Total	Total	Raw data	true	map	0
-	grapher/unicef/2024-07-30/child_migration/child_migration#new_idps_under_18_conflict_violence	Internally displaced persons (conflict)	Annual/ New	Total	Under 18	Raw data	true	map	0
-	grapher/idmc/2024-08-02/internal_displacement/internal_displacement#share_of_conflict_displaced_pop	Internally displaced persons (conflict)	Total	Per capita/ Share of population	Total	Raw data	true	map	0
-	grapher/unicef/2024-07-30/child_migration/child_migration#idps_under_18_conflict_violence_per_1000	Internally displaced persons (conflict)	Total	Per capita/ Share of population	Under 18	Raw data	true	map	0
-	grapher/idmc/2024-08-02/internal_displacement/internal_displacement#conflict_stock_displacement	Internally displaced persons (conflict)	Total	Total	Total	Raw data	true	map	0
-	grapher/unicef/2024-07-30/child_migration/child_migration#idps_under_18_conflict_violence	Internally displaced persons (conflict)	Total	Total	Under 18	Raw data	true	map	0
-	grapher/idmc/2024-08-02/internal_displacement/internal_displacement#disaster_displacements_per_100_people	Internally displaced persons (disaster)	Annual/ New	Per capita/ Share of population	Total	Raw data	true	map	0
-	grapher/unicef/2024-07-30/child_migration/child_migration#new_idps_under_18_disaster_per_1000	Internally displaced persons (disaster)	Annual/ New	Per capita/ Share of population	Under 18	Raw data	true	map	0
-	grapher/idmc/2024-08-02/internal_displacement/internal_displacement#disaster_internal_displacements	Internally displaced persons (disaster)	Annual/ New	Total	Total	Raw data	true	map	0
-	grapher/unicef/2024-07-30/child_migration/child_migration#new_idps_under_18_disaster	Internally displaced persons (disaster)	Annual/ New	Total	Under 18	Raw data	true	map	0
-	grapher/idmc/2024-08-02/internal_displacement/internal_displacement#share_of_disaster_displaced_pop	Internally displaced persons (disaster)	Total	Per capita/ Share of population	Total	Raw data	true	map	0
-	grapher/unicef/2024-07-30/child_migration/child_migration#idps_under_18_disaster_per_1000	Internally displaced persons (disaster)	Total	Per capita/ Share of population	Under 18	Raw data	true	map	0
-	grapher/idmc/2024-08-02/internal_displacement/internal_displacement#disaster_stock_displacement	Internally displaced persons (disaster)	Total	Total	Total	Raw data	true	map	0
-	grapher/unicef/2024-07-30/child_migration/child_migration#idps_under_18_disaster	Internally displaced persons (disaster)	Total	Total	Under 18	Raw data	true	map	0
-	grapher/un/2024-07-16/migrant_stock/migrant_stock#emigrants_change_5_years_per_1000	International emigrants	Five-year change	Per capita/ Share of population	Total	Raw data	true	map	0
-	grapher/un/2024-07-16/migrant_stock/migrant_stock#emigrants_change_5_years	International emigrants	Five-year change	Total	Total	Raw data	true	map	0
-	grapher/un/2024-07-16/migrant_stock/migrant_stock#emigrants_share_of_total_population	International emigrants	Total	Per capita/ Share of population	Total	Raw data	true	map	0
-	grapher/un/2024-07-16/migrant_stock/migrant_stock#emigrants_all	International emigrants	Total	Total	Total	Raw data	true	map	0
-	grapher/un/2024-07-16/migrant_stock/migrant_stock#immigrants_change_5_years_per_1000	International immigrants	Five-year change	Per capita/ Share of population	Total	Raw data	true	map	0
-	grapher/un/2024-07-16/migrant_stock/migrant_stock#immigrants_change_5_years	International immigrants	Five-year change	Total	Total	Raw data	true	map	0
-	grapher/un/2024-07-16/migrant_stock/migrant_stock#immigrant_share_of_dest_population_all	International immigrants	Total	Per capita/ Share of population	Total	Raw data	true	map	0
-	grapher/un/2024-07-16/migrant_stock/migrant_stock#immigrants_under_15_per_1000_people	International immigrants	Total	Per capita/ Share of population	Under 15	Raw data	true	map	0
-	grapher/unicef/2024-07-30/child_migration/child_migration#migrants_under_18_dest_per_1000	International immigrants	Total	Per capita/ Share of population	Under 18	Raw data	true	map	0
-	grapher/un/2024-07-16/migrant_stock/migrant_stock#immigrants_all	International immigrants	Total	Total	Total	Raw data	true	map	0
-	grapher/un/2024-07-16/migrant_stock/migrant_stock#immigrants_under_15	International immigrants	Total	Total	Under 15	Raw data	true	map	0
-	grapher/unicef/2024-07-30/child_migration/child_migration#international_migrants_under_18_dest	International immigrants	Total	Total	Under 18	Raw data	true	map	0
-	grapher/un/2024-07-12/un_wpp_full/migration#net_migration	Net migration number	Total	Total	Total	Raw data	true	map	0
-	grapher/un/2024-07-12/un_wpp_full/migration#net_migration_rate	Net migration rate	Total	Per capita/ Share of population	Total	Raw data	true	map	0
-	grapher/un/2024-07-25/refugee_data/refugee_data#refugees_asylum_5y_avg_per_1000_pop	Refugees by destination	Total	Per capita/ Share of population	Total	Five-year average	true	map	0
-	grapher/un/2024-07-25/refugee_data/refugee_data#refugees_per_1000_pop_asylum	Refugees by destination	Total	Per capita/ Share of population	Total	Raw data	true	map	0
-	grapher/unicef/2024-07-30/child_migration/child_migration#refugees_under_18_asylum_per_1000	Refugees by destination	Total	Per capita/ Share of population	Under 18	Raw data	true	map	0
-	grapher/un/2024-07-25/refugee_data/refugee_data#refugees_asylum_5y_avg	Refugees by destination	Total	Total	Total	Five-year average	true	map	0
-	grapher/un/2024-07-25/refugee_data/refugee_data#refugees_under_unhcrs_mandate_asylum	Refugees by destination	Total	Total	Total	Raw data	true	map	0
-	grapher/unicef/2024-07-30/child_migration/child_migration#refugees_under_18_asylum	Refugees by destination	Total	Total	Under 18	Raw data	true	map	0
-	grapher/un/2024-07-25/refugee_data/refugee_data#refugees_origin_5y_avg_per_1000_pop	Refugees by origin	Total	Per capita/ Share of population	Total	Five-year average	true	map	0
-	grapher/un/2024-07-25/refugee_data/refugee_data#refugees_per_1000_pop_origin	Refugees by origin	Total	Per capita/ Share of population	Total	Raw data	true	map	0
-	grapher/unicef/2024-07-30/child_migration/child_migration#refugees_under_18_origin_per_1000	Refugees by origin	Total	Per capita/ Share of population	Under 18	Raw data	true	map	0
-	grapher/un/2024-07-25/refugee_data/refugee_data#refugees_origin_5y_avg	Refugees by origin	Total	Total	Total	Five-year average	true	map	0
-	grapher/un/2024-07-25/refugee_data/refugee_data#refugees_under_unhcrs_mandate_origin	Refugees by origin	Total	Total	Total	Raw data	true	map	0
-	grapher/unicef/2024-07-30/child_migration/child_migration#refugees_under_18_origin	Refugees by origin	Total	Total	Under 18	Raw data	true	map	0
-	grapher/worldbank_wdi/2024-05-20/wdi/wdi#bx_trf_pwkr_dt_gd_zs	Remittances as share of GDP	Total	Per capita/ Share of population	Total	Raw data	true	map	0
-	grapher/un/2024-07-25/refugee_data/refugee_data#resettlement_dest_5y_avg_per_100k_pop	Resettled refugees by destination	Total	Per capita/ Share of population	Total	Five-year average	true	map	0
-	grapher/un/2024-07-25/refugee_data/refugee_data#resettlement_per_100k_dest	Resettled refugees by destination	Total	Per capita/ Share of population	Total	Raw data	true	map	0
-	grapher/un/2024-07-25/refugee_data/refugee_data#resettlement_dest_5y_avg	Resettled refugees by destination	Total	Total	Total	Five-year average	true	map	0
-	grapher/un/2024-07-25/refugee_data/refugee_data#resettlement_arrivals_dest	Resettled refugees by destination	Total	Total	Total	Raw data	true	map	0
-	grapher/un/2024-07-25/refugee_data/refugee_data#resettlement_origin_5y_avg_per_100k_pop	Resettled refugees by origin	Total	Per capita/ Share of population	Total	Five-year average	true	map	0
-	grapher/un/2024-07-25/refugee_data/refugee_data#resettlement_per_100k_origin	Resettled refugees by origin	Total	Per capita/ Share of population	Total	Raw data	true	map	0
-	grapher/un/2024-07-25/refugee_data/refugee_data#resettlement_origin_5y_avg	Resettled refugees by origin	Total	Total	Total	Five-year average	true	map	0
-	grapher/un/2024-07-25/refugee_data/refugee_data#resettlement_arrivals_origin	Resettled refugees by origin	Total	Total	Total	Raw data	true	map	0
-	grapher/un/2024-07-25/refugee_data/refugee_data#returned_refugees_dest	Returned refugees by destination	Total	Total	Total	Raw data	true	map	0
-	grapher/un/2024-07-25/refugee_data/refugee_data#returned_refugees_origin	Returned refugees by origin	Total	Total	Total	Raw data	true	map	0
+	yVariableIds	Metric Dropdown	Period Radio	Sub-Metric Radio	Age Radio	Processing Radio	hasMapTab	tab	yAxisMin	hideAnnotationFieldsInTitle
+	grapher/un/2024-07-25/refugee_data/refugee_data#asylum_seekers_asylum_5y_avg_per_100k_pop	Asylum Seekers by destination	Total	Per capita/ Share of population	Total	Five-year average	true	map	0	true
+	grapher/un/2024-07-25/refugee_data/refugee_data#asylum_seekers_per_100k_pop_asylum	Asylum Seekers by destination	Total	Per capita/ Share of population	Total	Raw data	true	map	0	true
+	grapher/un/2024-07-25/refugee_data/refugee_data#asylum_seekers_asylum_5y_avg	Asylum Seekers by destination	Total	Total	Total	Five-year average	true	map	0	true
+	grapher/un/2024-07-25/refugee_data/refugee_data#asylum_seekers_asylum	Asylum Seekers by destination	Total	Total	Total	Raw data	true	map	0	true
+	grapher/un/2024-07-25/refugee_data/refugee_data#asylum_seekers_origin_5y_avg_per_100k_pop	Asylum Seekers by origin	Total	Per capita/ Share of population	Total	Five-year average	true	map	0	true
+	grapher/un/2024-07-25/refugee_data/refugee_data#asylum_seekers_per_100k_pop_origin	Asylum Seekers by origin	Total	Per capita/ Share of population	Total	Raw data	true	map	0	true
+	grapher/un/2024-07-25/refugee_data/refugee_data#asylum_seekers_origin_5y_avg	Asylum Seekers by origin	Total	Total	Total	Five-year average	true	map	0	true
+	grapher/un/2024-07-25/refugee_data/refugee_data#asylum_seekers_origin	Asylum Seekers by origin	Total	Total	Total	Raw data	true	map	0	true
+	grapher/worldbank_wdi/2024-05-20/wdi/wdi#si_rmt_cost_ib_zs	Cost of receiving remittances	Total	Total	Total	Raw data	true	map	0	true
+	grapher/worldbank_wdi/2024-05-20/wdi/wdi#si_rmt_cost_ob_zs	Cost of sending remittances	Total	Total	Total	Raw data	true	map	0	true
+	grapher/idmc/2024-08-02/internal_displacement/internal_displacement#displacements_per_100_people	Internally displaced persons	Annual/ New	Per capita/ Share of population	Total	Raw data	true	map	0	true
+	grapher/unicef/2024-07-30/child_migration/child_migration#new_idps_under_18_total_per_1000	Internally displaced persons	Annual/ New	Per capita/ Share of population	Under 18	Raw data	true	map	0	true
+	grapher/idmc/2024-08-02/internal_displacement/internal_displacement#total_internal_displacements	Internally displaced persons	Annual/ New	Total	Total	Raw data	true	map	0	true
+	grapher/unicef/2024-07-30/child_migration/child_migration#new_idps_under_18_total	Internally displaced persons	Annual/ New	Total	Under 18	Raw data	true	map	0	true
+	grapher/idmc/2024-08-02/internal_displacement/internal_displacement#share_of_internally_displaced_pop	Internally displaced persons	Total	Per capita/ Share of population	Total	Raw data	true	map	0	true
+	grapher/unicef/2024-07-30/child_migration/child_migration#idps_under_18_total_per_1000	Internally displaced persons	Total	Per capita/ Share of population	Under 18	Raw data	true	map	0	true
+	grapher/idmc/2024-08-02/internal_displacement/internal_displacement#total_stock_displacement	Internally displaced persons	Total	Total	Total	Raw data	true	map	0	true
+	grapher/unicef/2024-07-30/child_migration/child_migration#idps_under_18_total	Internally displaced persons	Total	Total	Under 18	Raw data	true	map	0	true
+	grapher/idmc/2024-08-02/internal_displacement/internal_displacement#conflict_displacements_per_100_people	Internally displaced persons (conflict)	Annual/ New	Per capita/ Share of population	Total	Raw data	true	map	0	true
+	grapher/unicef/2024-07-30/child_migration/child_migration#new_idps_under_18_conflict_violence_per_1000	Internally displaced persons (conflict)	Annual/ New	Per capita/ Share of population	Under 18	Raw data	true	map	0	true
+	grapher/idmc/2024-08-02/internal_displacement/internal_displacement#conflict_internal_displacements	Internally displaced persons (conflict)	Annual/ New	Total	Total	Raw data	true	map	0	true
+	grapher/unicef/2024-07-30/child_migration/child_migration#new_idps_under_18_conflict_violence	Internally displaced persons (conflict)	Annual/ New	Total	Under 18	Raw data	true	map	0	true
+	grapher/idmc/2024-08-02/internal_displacement/internal_displacement#share_of_conflict_displaced_pop	Internally displaced persons (conflict)	Total	Per capita/ Share of population	Total	Raw data	true	map	0	true
+	grapher/unicef/2024-07-30/child_migration/child_migration#idps_under_18_conflict_violence_per_1000	Internally displaced persons (conflict)	Total	Per capita/ Share of population	Under 18	Raw data	true	map	0	true
+	grapher/idmc/2024-08-02/internal_displacement/internal_displacement#conflict_stock_displacement	Internally displaced persons (conflict)	Total	Total	Total	Raw data	true	map	0	true
+	grapher/unicef/2024-07-30/child_migration/child_migration#idps_under_18_conflict_violence	Internally displaced persons (conflict)	Total	Total	Under 18	Raw data	true	map	0	true
+	grapher/idmc/2024-08-02/internal_displacement/internal_displacement#disaster_displacements_per_100_people	Internally displaced persons (disaster)	Annual/ New	Per capita/ Share of population	Total	Raw data	true	map	0	true
+	grapher/unicef/2024-07-30/child_migration/child_migration#new_idps_under_18_disaster_per_1000	Internally displaced persons (disaster)	Annual/ New	Per capita/ Share of population	Under 18	Raw data	true	map	0	true
+	grapher/idmc/2024-08-02/internal_displacement/internal_displacement#disaster_internal_displacements	Internally displaced persons (disaster)	Annual/ New	Total	Total	Raw data	true	map	0	true
+	grapher/unicef/2024-07-30/child_migration/child_migration#new_idps_under_18_disaster	Internally displaced persons (disaster)	Annual/ New	Total	Under 18	Raw data	true	map	0	true
+	grapher/idmc/2024-08-02/internal_displacement/internal_displacement#share_of_disaster_displaced_pop	Internally displaced persons (disaster)	Total	Per capita/ Share of population	Total	Raw data	true	map	0	true
+	grapher/unicef/2024-07-30/child_migration/child_migration#idps_under_18_disaster_per_1000	Internally displaced persons (disaster)	Total	Per capita/ Share of population	Under 18	Raw data	true	map	0	true
+	grapher/idmc/2024-08-02/internal_displacement/internal_displacement#disaster_stock_displacement	Internally displaced persons (disaster)	Total	Total	Total	Raw data	true	map	0	true
+	grapher/unicef/2024-07-30/child_migration/child_migration#idps_under_18_disaster	Internally displaced persons (disaster)	Total	Total	Under 18	Raw data	true	map	0	true
+	grapher/un/2024-07-16/migrant_stock/migrant_stock#emigrants_change_5_years_per_1000	International emigrants	Five-year change	Per capita/ Share of population	Total	Raw data	true	map	0	true
+	grapher/un/2024-07-16/migrant_stock/migrant_stock#emigrants_change_5_years	International emigrants	Five-year change	Total	Total	Raw data	true	map	0	true
+	grapher/un/2024-07-16/migrant_stock/migrant_stock#emigrants_share_of_total_population	International emigrants	Total	Per capita/ Share of population	Total	Raw data	true	map	0	true
+	grapher/un/2024-07-16/migrant_stock/migrant_stock#emigrants_all	International emigrants	Total	Total	Total	Raw data	true	map	0	true
+	grapher/un/2024-07-16/migrant_stock/migrant_stock#immigrants_change_5_years_per_1000	International immigrants	Five-year change	Per capita/ Share of population	Total	Raw data	true	map	0	true
+	grapher/un/2024-07-16/migrant_stock/migrant_stock#immigrants_change_5_years	International immigrants	Five-year change	Total	Total	Raw data	true	map	0	true
+	grapher/un/2024-07-16/migrant_stock/migrant_stock#immigrant_share_of_dest_population_all	International immigrants	Total	Per capita/ Share of population	Total	Raw data	true	map	0	true
+	grapher/un/2024-07-16/migrant_stock/migrant_stock#immigrants_under_15_per_1000_people	International immigrants	Total	Per capita/ Share of population	Under 15	Raw data	true	map	0	true
+	grapher/unicef/2024-07-30/child_migration/child_migration#migrants_under_18_dest_per_1000	International immigrants	Total	Per capita/ Share of population	Under 18	Raw data	true	map	0	true
+	grapher/un/2024-07-16/migrant_stock/migrant_stock#immigrants_all	International immigrants	Total	Total	Total	Raw data	true	map	0	true
+	grapher/un/2024-07-16/migrant_stock/migrant_stock#immigrants_under_15	International immigrants	Total	Total	Under 15	Raw data	true	map	0	true
+	grapher/unicef/2024-07-30/child_migration/child_migration#international_migrants_under_18_dest	International immigrants	Total	Total	Under 18	Raw data	true	map	0	true
+	grapher/un/2024-07-12/un_wpp_full/migration#net_migration	Net migration number	Total	Total	Total	Raw data	true	map	0	true
+	grapher/un/2024-07-12/un_wpp_full/migration#net_migration_rate	Net migration rate	Total	Per capita/ Share of population	Total	Raw data	true	map	0	true
+	grapher/un/2024-07-25/refugee_data/refugee_data#refugees_asylum_5y_avg_per_1000_pop	Refugees by destination	Total	Per capita/ Share of population	Total	Five-year average	true	map	0	true
+	grapher/un/2024-07-25/refugee_data/refugee_data#refugees_per_1000_pop_asylum	Refugees by destination	Total	Per capita/ Share of population	Total	Raw data	true	map	0	true
+	grapher/unicef/2024-07-30/child_migration/child_migration#refugees_under_18_asylum_per_1000	Refugees by destination	Total	Per capita/ Share of population	Under 18	Raw data	true	map	0	true
+	grapher/un/2024-07-25/refugee_data/refugee_data#refugees_asylum_5y_avg	Refugees by destination	Total	Total	Total	Five-year average	true	map	0	true
+	grapher/un/2024-07-25/refugee_data/refugee_data#refugees_under_unhcrs_mandate_asylum	Refugees by destination	Total	Total	Total	Raw data	true	map	0	true
+	grapher/unicef/2024-07-30/child_migration/child_migration#refugees_under_18_asylum	Refugees by destination	Total	Total	Under 18	Raw data	true	map	0	true
+	grapher/un/2024-07-25/refugee_data/refugee_data#refugees_origin_5y_avg_per_1000_pop	Refugees by origin	Total	Per capita/ Share of population	Total	Five-year average	true	map	0	true
+	grapher/un/2024-07-25/refugee_data/refugee_data#refugees_per_1000_pop_origin	Refugees by origin	Total	Per capita/ Share of population	Total	Raw data	true	map	0	true
+	grapher/unicef/2024-07-30/child_migration/child_migration#refugees_under_18_origin_per_1000	Refugees by origin	Total	Per capita/ Share of population	Under 18	Raw data	true	map	0	true
+	grapher/un/2024-07-25/refugee_data/refugee_data#refugees_origin_5y_avg	Refugees by origin	Total	Total	Total	Five-year average	true	map	0	true
+	grapher/un/2024-07-25/refugee_data/refugee_data#refugees_under_unhcrs_mandate_origin	Refugees by origin	Total	Total	Total	Raw data	true	map	0	true
+	grapher/unicef/2024-07-30/child_migration/child_migration#refugees_under_18_origin	Refugees by origin	Total	Total	Under 18	Raw data	true	map	0	true
+	grapher/worldbank_wdi/2024-05-20/wdi/wdi#bx_trf_pwkr_dt_gd_zs	Remittances as share of GDP	Total	Per capita/ Share of population	Total	Raw data	true	map	0	true
+	grapher/un/2024-07-25/refugee_data/refugee_data#resettlement_dest_5y_avg_per_100k_pop	Resettled refugees by destination	Annual/ New	Per capita/ Share of population	Total	Five-year average	true	map	0	true
+	grapher/un/2024-07-25/refugee_data/refugee_data#resettlement_per_100k_dest	Resettled refugees by destination	Annual/ New	Per capita/ Share of population	Total	Raw data	true	map	0	true
+	grapher/un/2024-07-25/refugee_data/refugee_data#resettlement_dest_5y_avg	Resettled refugees by destination	Annual/ New	Total	Total	Five-year average	true	map	0	true
+	grapher/un/2024-07-25/refugee_data/refugee_data#resettlement_arrivals_dest	Resettled refugees by destination	Annual/ New	Total	Total	Raw data	true	map	0	true
+	grapher/un/2024-07-25/refugee_data/refugee_data#resettlement_origin_5y_avg_per_100k_pop	Resettled refugees by origin	Annual/ New	Per capita/ Share of population	Total	Five-year average	true	map	0	true
+	grapher/un/2024-07-25/refugee_data/refugee_data#resettlement_per_100k_origin	Resettled refugees by origin	Annual/ New	Per capita/ Share of population	Total	Raw data	true	map	0	true
+	grapher/un/2024-07-25/refugee_data/refugee_data#resettlement_origin_5y_avg	Resettled refugees by origin	Annual/ New	Total	Total	Five-year average	true	map	0	true
+	grapher/un/2024-07-25/refugee_data/refugee_data#resettlement_arrivals_origin	Resettled refugees by origin	Annual/ New	Total	Total	Raw data	true	map	0	true
+	grapher/un/2024-07-25/refugee_data/refugee_data#returned_refugees_dest	Returned refugees by destination	Annual/ New	Total	Total	Raw data	true	map	0	true
+	grapher/un/2024-07-25/refugee_data/refugee_data#returned_refugees_origin	Returned refugees by origin	Total	Total	Total	Raw data	true	map	0	true
 
