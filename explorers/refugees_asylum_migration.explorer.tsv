@@ -52,8 +52,8 @@ graphers
 	grapher/un/2024-07-16/migrant_stock/migrant_stock#immigrants_all	International immigrants	Total	Total	Total	Raw data	true	map	0	true
 	grapher/un/2024-07-16/migrant_stock/migrant_stock#immigrants_under_15	International immigrants	Total	Total	Under 15	Raw data	true	map	0	true
 	grapher/unicef/2024-07-30/child_migration/child_migration#international_migrants_under_18_dest	International immigrants	Total	Total	Under 18	Raw data	true	map	0	true
-	grapher/un/2024-07-12/un_wpp_full/migration#net_migration	Net migration number	Total	Total	Total	Raw data	true	map	0	true
-	grapher/un/2024-07-12/un_wpp_full/migration#net_migration_rate	Net migration rate	Total	Per capita/ Share of population	Total	Raw data	true	map	0	true
+	grapher/un/2024-07-12/un_wpp_full/migration#net_migration__sex_all__age_all__variant_medium	Net migration number	Total	Total	Total	Raw data	true	map	0	true
+	grapher/un/2024-07-12/un_wpp_full/migration#net_migration_rate__sex_all__age_all__variant_medium	Net migration rate	Total	Per capita/ Share of population	Total	Raw data	true	map	0	true
 	grapher/un/2024-07-25/refugee_data/refugee_data#refugees_asylum_5y_avg_per_1000_pop	Refugees by destination	Total	Per capita/ Share of population	Total	Five-year average	true	map	0	true
 	grapher/un/2024-07-25/refugee_data/refugee_data#refugees_per_1000_pop_asylum	Refugees by destination	Total	Per capita/ Share of population	Total	Raw data	true	map	0	true
 	grapher/unicef/2024-07-30/child_migration/child_migration#refugees_under_18_asylum_per_1000	Refugees by destination	Total	Per capita/ Share of population	Under 18	Raw data	true	map	0	true
