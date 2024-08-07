@@ -399,6 +399,8 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_copper_mine_tonnes	Copper	Reserves	Mine (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_copper_mine_tonnes	Copper	Reserves	Mine (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_copper_mine_constant_1998_usd_per_tonne	Copper	Unit value	Mine (constant 1998 US$ per tonne)	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_crushed_stone_total_tonnes	Crushed stone	Production	Total (tonnes)	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_crushed_stone_total_constant_1998_usd_per_tonne	Crushed stone	Unit value	Total (constant 1998 US$ per tonne)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_diamond_cut_tonnes	Diamond	Exports	Cut (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_diamond_cut_tonnes	Diamond	Exports	Cut (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_diamond_dust_tonnes	Diamond	Exports	Dust (tonnes)	false	true
@@ -1007,26 +1009,6 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_potash_unknown_tonnes_of_potassium_oxide_content	Potash	Production	Unknown (tonnes of potassium oxide content)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_potash_unknown_tonnes_of_potassium_oxide_content	Potash	Production	Unknown (tonnes of potassium oxide content)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_potash_mine_tonnes_of_potassium_oxide_equivalent	Potash	Reserves	Mine (tonnes of potassium oxide equivalent)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_primary_aggregates_unknown_tonnes	Primary aggregates	Exports	Unknown (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_primary_aggregates_unknown_tonnes	Primary aggregates	Exports	Unknown (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_primary_aggregates_unknown_tonnes	Primary aggregates	Imports	Unknown (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_primary_aggregates_unknown_tonnes	Primary aggregates	Imports	Unknown (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_primary_aggregates_construction_sand_and_gravel_tonnes__gross_weight	Primary aggregates	Production	Construction sand and gravel (tonnes, gross weight)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_primary_aggregates_construction_sand_and_gravel_tonnes__gross_weight	Primary aggregates	Production	Construction sand and gravel (tonnes, gross weight)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_primary_aggregates_crushed_rock_tonnes	Primary aggregates	Production	Crushed rock (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_primary_aggregates_crushed_rock_tonnes	Primary aggregates	Production	Crushed rock (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_primary_aggregates_crushed_rock_tonnes__gross_weight	Primary aggregates	Production	Crushed rock (tonnes, gross weight)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_primary_aggregates_industrial_sand_and_gravel_tonnes__gross_weight	Primary aggregates	Production	Industrial sand and gravel (tonnes, gross weight)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_primary_aggregates_industrial_sand_and_gravel_tonnes__gross_weight	Primary aggregates	Production	Industrial sand and gravel (tonnes, gross weight)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_primary_aggregates_mine_production__industrial_sand_and_gravel_tonnes	Primary aggregates	Production	Mine production, industrial sand and gravel (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_primary_aggregates_mine_production__industrial_sand_and_gravel_tonnes	Primary aggregates	Production	Mine production, industrial sand and gravel (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_primary_aggregates_sand_and_gravel_tonnes	Primary aggregates	Production	Sand and gravel (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_primary_aggregates_sand_and_gravel_tonnes	Primary aggregates	Production	Sand and gravel (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_primary_aggregates_unknown_tonnes	Primary aggregates	Production	Unknown (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_primary_aggregates_unknown_tonnes	Primary aggregates	Production	Unknown (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_primary_aggregates_construction_sand_and_gravel_constant_1998_usd_per_tonne	Primary aggregates	Unit value	Construction sand and gravel (constant 1998 US$ per tonne)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_primary_aggregates_crushed_rock_constant_1998_usd_per_tonne	Primary aggregates	Unit value	Crushed rock (constant 1998 US$ per tonne)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_primary_aggregates_industrial_sand_and_gravel_constant_1998_usd_per_tonne	Primary aggregates	Unit value	Industrial sand and gravel (constant 1998 US$ per tonne)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_pumice_and_pumicite_mine_tonnes	Pumice and pumicite	Production	Mine (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_pumice_and_pumicite_mine_tonnes	Pumice and pumicite	Production	Mine (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_pumice_and_pumicite_total_tonnes__gross_weight	Pumice and pumicite	Production	Total (tonnes, gross weight)	false	true
@@ -1100,6 +1082,12 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_salt_unknown_tonnes	Salt	Production	Unknown (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_salt_unknown_tonnes	Salt	Production	Unknown (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_salt_total_constant_1998_usd_per_tonne	Salt	Unit value	Total (constant 1998 US$ per tonne)	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_sand_and_gravel_construction_tonnes	Sand and gravel	Production	Construction (tonnes)	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_sand_and_gravel_construction_tonnes	Sand and gravel	Production	Construction (tonnes)	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_sand_and_gravel_industrial_tonnes	Sand and gravel	Production	Industrial (tonnes)	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_sand_and_gravel_industrial_tonnes	Sand and gravel	Production	Industrial (tonnes)	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_sand_and_gravel_construction_constant_1998_usd_per_tonne	Sand and gravel	Unit value	Construction (constant 1998 US$ per tonne)	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_sand_and_gravel_industrial_constant_1998_usd_per_tonne	Sand and gravel	Unit value	Industrial (constant 1998 US$ per tonne)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_selenium_refinery_tonnes	Selenium	Production	Refinery (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_selenium_refinery_tonnes	Selenium	Production	Refinery (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_selenium_refinery_tonnes	Selenium	Reserves	Refinery (tonnes)	false	true
