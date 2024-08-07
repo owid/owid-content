@@ -607,11 +607,13 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_iodine_unknown_tonnes	Iodine	Production	Unknown (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_iodine_mine_tonnes	Iodine	Reserves	Mine (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_iodine_mine_tonnes	Iodine	Reserves	Mine (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_iron_ore_tonnes__gross_weight	Iron	Production	Ore (tonnes, gross weight)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_iron_ore_tonnes__gross_weight	Iron	Production	Ore (tonnes, gross weight)	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#exports_iron_pig_iron_tonnes	Iron	Exports	Pig iron (tonnes)	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_iron_pig_iron_tonnes	Iron	Exports	Pig iron (tonnes)	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#imports_iron_pig_iron_tonnes	Iron	Imports	Pig iron (tonnes)	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_iron_pig_iron_tonnes	Iron	Imports	Pig iron (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_iron_pig_iron_tonnes	Iron	Production	Pig iron (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_iron_pig_iron_tonnes	Iron	Production	Pig iron (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_iron_ore_constant_1998_usd_per_tonne	Iron	Unit value	Ore (constant 1998 US$ per tonne)	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_iron_pig_iron_constant_1998_usd_per_tonne	Iron	Unit value	Pig iron (constant 1998 US$ per tonne)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_kaolin_unknown_tonnes	Kaolin	Exports	Unknown (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_kaolin_unknown_tonnes	Kaolin	Exports	Unknown (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_kaolin_unknown_tonnes	Kaolin	Imports	Unknown (tonnes)	false	true
