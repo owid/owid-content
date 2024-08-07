@@ -401,59 +401,17 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_copper_mine_constant_1998_usd_per_tonne	Copper	Unit value	Mine (constant 1998 US$ per tonne)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_crushed_stone_total_tonnes	Crushed stone	Production	Total (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_crushed_stone_total_constant_1998_usd_per_tonne	Crushed stone	Unit value	Total (constant 1998 US$ per tonne)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_diamond_cut_tonnes	Diamond	Exports	Cut (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_diamond_cut_tonnes	Diamond	Exports	Cut (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_diamond_dust_tonnes	Diamond	Exports	Dust (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_diamond_dust_tonnes	Diamond	Exports	Dust (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_diamond_gem_tonnes	Diamond	Exports	Gem (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_diamond_gem_tonnes	Diamond	Exports	Gem (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_diamond_gem__cut_tonnes	Diamond	Exports	Gem, cut (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_diamond_gem__cut_tonnes	Diamond	Exports	Gem, cut (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_diamond_gem__rough_tonnes	Diamond	Exports	Gem, rough (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_diamond_gem__rough_tonnes	Diamond	Exports	Gem, rough (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_diamond_mine__industrial_tonnes	Diamond	Exports	Mine, industrial (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_diamond_mine__industrial_tonnes	Diamond	Exports	Mine, industrial (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_diamond_other_tonnes	Diamond	Exports	Other (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_diamond_other_tonnes	Diamond	Exports	Other (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_diamond_rough_tonnes	Diamond	Exports	Rough (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_diamond_rough_tonnes	Diamond	Exports	Rough (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_diamond_unknown_tonnes	Diamond	Exports	Unknown (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_diamond_unknown_tonnes	Diamond	Exports	Unknown (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_diamond_unsorted_tonnes	Diamond	Exports	Unsorted (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_diamond_unsorted_tonnes	Diamond	Exports	Unsorted (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_diamond_cut_tonnes	Diamond	Imports	Cut (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_diamond_cut_tonnes	Diamond	Imports	Cut (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_diamond_dust_tonnes	Diamond	Imports	Dust (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_diamond_dust_tonnes	Diamond	Imports	Dust (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_diamond_gem_tonnes	Diamond	Imports	Gem (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_diamond_gem_tonnes	Diamond	Imports	Gem (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_diamond_gem__cut_tonnes	Diamond	Imports	Gem, cut (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_diamond_gem__cut_tonnes	Diamond	Imports	Gem, cut (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_diamond_gem__rough_tonnes	Diamond	Imports	Gem, rough (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_diamond_gem__rough_tonnes	Diamond	Imports	Gem, rough (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_diamond_mine__industrial_tonnes	Diamond	Imports	Mine, industrial (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_diamond_mine__industrial_tonnes	Diamond	Imports	Mine, industrial (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_diamond_other_tonnes	Diamond	Imports	Other (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_diamond_other_tonnes	Diamond	Imports	Other (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_diamond_rough__and__cut_tonnes	Diamond	Imports	Rough & cut (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_diamond_rough__and__cut_tonnes	Diamond	Imports	Rough & cut (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_diamond_rough_tonnes	Diamond	Imports	Rough (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_diamond_rough_tonnes	Diamond	Imports	Rough (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_diamond_unknown_tonnes	Diamond	Imports	Unknown (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_diamond_unknown_tonnes	Diamond	Imports	Unknown (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_diamond_unsorted_tonnes	Diamond	Imports	Unsorted (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_diamond_unsorted_tonnes	Diamond	Imports	Unsorted (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_diamond_gem_tonnes	Diamond	Production	Gem (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_diamond_gem_tonnes	Diamond	Production	Gem (tonnes)	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_diamond_mine_and_synthetic__industrial_tonnes	Diamond	Production	Mine and synthetic, industrial (tonnes)	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_diamond_mine_and_synthetic__industrial_tonnes	Diamond	Production	Mine and synthetic, industrial (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_diamond_mine__industrial_tonnes	Diamond	Production	Mine, industrial (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_diamond_mine__industrial_tonnes	Diamond	Production	Mine, industrial (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_diamond_total__industrial_tonnes__gross_weight	Diamond	Production	Total, industrial (tonnes, gross weight)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_diamond_total__industrial_tonnes__gross_weight	Diamond	Production	Total, industrial (tonnes, gross weight)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_diamond_unknown_tonnes	Diamond	Production	Unknown (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_diamond_unknown_tonnes	Diamond	Production	Unknown (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_diamond_mine__industrial_tonnes	Diamond	Reserves	Mine, industrial (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_diamond_mine__industrial_tonnes	Diamond	Reserves	Mine, industrial (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_diamond_total__industrial_constant_1998_usd_per_tonne	Diamond	Unit value	Total, industrial (constant 1998 US$ per tonne)	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_diamond_mine_and_synthetic__industrial_constant_1998_usd_per_tonne	Diamond	Unit value	Mine and synthetic, industrial (constant 1998 US$ per tonne)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_diatomite_moler_tonnes	Diatomite	Exports	Moler (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_diatomite_moler_tonnes	Diatomite	Exports	Moler (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_diatomite_moler_bricks_tonnes	Diatomite	Exports	Moler bricks (tonnes)	false	true
