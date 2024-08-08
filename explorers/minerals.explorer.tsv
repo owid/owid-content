@@ -119,14 +119,10 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_barite_unknown_tonnes	Barite	Imports	Unknown	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_barite_witherite_tonnes	Barite	Imports	Witherite	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_barite_witherite_tonnes	Barite	Imports	Witherite	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_barite_mine_tonnes	Barite	Production	Mine (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_barite_mine_tonnes	Barite	Production	Mine (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_barite_total_tonnes__gross_weight	Barite	Production	Total (tonnes, gross weight)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_barite_total_tonnes__gross_weight	Barite	Production	Total (tonnes, gross weight)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_barite_unknown_tonnes	Barite	Production	Unknown (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_barite_unknown_tonnes	Barite	Production	Unknown (tonnes)	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_barite_mine_tonnes	Barite	Production	Mine	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_barite_mine_tonnes	Barite	Production	Mine	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_barite_mine_tonnes	Barite	Reserves	Mine	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_barite_total_constant_1998_usd_per_tonne	Barite	Unit value	Total	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_barite_mine_constant_1998_usd_per_tonne	Barite	Unit value	Mine	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_bauxite_mine_tonnes	Bauxite	Exports	Mine	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_bauxite_mine_tonnes	Bauxite	Exports	Mine	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_bauxite_mine_tonnes	Bauxite	Imports	Mine	false	true
