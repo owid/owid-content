@@ -48,14 +48,10 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_antimony_regulus_tonnes	Antimony	Imports	Regulus	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_antimony_sulfide_tonnes	Antimony	Imports	Sulfide	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_antimony_sulfide_tonnes	Antimony	Imports	Sulfide	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_antimony_mine_tonnes_of_metal_content	Antimony	Production	Mine (tonnes of metal content)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_antimony_mine_tonnes_of_metal_content	Antimony	Production	Mine (tonnes of metal content)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_antimony_mine_tonnes	Antimony	Production	Mine (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_antimony_mine_tonnes	Antimony	Production	Mine (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_antimony_total_tonnes	Antimony	Production	Total (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_antimony_total_tonnes	Antimony	Production	Total (tonnes)	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_antimony_mine_tonnes	Antimony	Production	Mine	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_antimony_mine_tonnes	Antimony	Production	Mine	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_antimony_mine_tonnes	Antimony	Reserves	Mine	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_antimony_total_constant_1998_usd_per_tonne	Antimony	Unit value	Total	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_antimony_mine_constant_1998_usd_per_tonne	Antimony	Unit value	Mine	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_arsenic_metallic_arsenic_tonnes	Arsenic	Exports	Metallic arsenic	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_arsenic_metallic_arsenic_tonnes	Arsenic	Exports	Metallic arsenic	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_arsenic_white_arsenic_tonnes	Arsenic	Exports	White arsenic	false	true
