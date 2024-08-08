@@ -6,22 +6,16 @@ explorerSubtitle	Explore the amount of minerals that are produced, imported, and
 selection	World	United States	China
 graphers
 	yVariableIds	Mineral Dropdown	Metric Dropdown	Type Dropdown	Share of global Checkbox	hasMapTab
-	grapher/minerals/2024-07-15/minerals/minerals#production_alumina_refinery_tonnes_of_calcined_equivalent_weights	Alumina	Production	Refinery (tonnes of calcined equivalent weights)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_alumina_refinery_tonnes_of_calcined_equivalent_weights	Alumina	Production	Refinery (tonnes of calcined equivalent weights)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_alumina_total_tonnes__gross_weight	Alumina	Production	Total (tonnes, gross weight)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_alumina_total_tonnes__gross_weight	Alumina	Production	Total (tonnes, gross weight)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_alumina_unknown_tonnes_of_aluminum_oxide_content	Alumina	Production	Unknown (tonnes of aluminum oxide content)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_alumina_unknown_tonnes_of_aluminum_oxide_content	Alumina	Production	Unknown (tonnes of aluminum oxide content)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_alumina_total_constant_1998_usd_per_tonne	Alumina	Unit value	Total (constant 1998 US$ per tonne)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_aluminum_primary_tonnes	Aluminum	Production	Primary (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_aluminum_primary_tonnes	Aluminum	Production	Primary (tonnes)	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#exports_alumina_refinery_tonnes	Alumina	Exports	Refinery (tonnes)	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_alumina_refinery_tonnes	Alumina	Exports	Refinery (tonnes)	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#imports_alumina_refinery_tonnes	Alumina	Imports	Refinery (tonnes)	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_alumina_refinery_tonnes	Alumina	Imports	Refinery (tonnes)	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_alumina_refinery_tonnes	Alumina	Production	Refinery (tonnes)	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_alumina_refinery_tonnes	Alumina	Production	Refinery (tonnes)	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_alumina_refinery_constant_1998_usd_per_tonne	Alumina	Unit value	Refinery (constant 1998 US$ per tonne)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_aluminum_smelter_tonnes	Aluminum	Production	Smelter (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_aluminum_smelter_tonnes	Aluminum	Production	Smelter (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_aluminum_primary_constant_1998_usd_per_tonne	Aluminum	Unit value	Primary (constant 1998 US$ per tonne)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_aluminum_oxide_total_tonnes__gross_weight	Aluminum oxide	Production	Total (tonnes, gross weight)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_aluminum_oxide_total_constant_1998_usd_per_tonne	Aluminum oxide	Unit value	Total (constant 1998 US$ per tonne)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_aluminum_zirconium_oxide_total_tonnes__gross_weight	Aluminum-zirconium oxide	Production	Total (tonnes, gross weight)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_aluminum_zirconium_oxide_total_constant_1998_usd_per_tonne	Aluminum-zirconium oxide	Unit value	Total (constant 1998 US$ per tonne)	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_aluminum_smelter_constant_1998_usd_per_tonne	Aluminum	Unit value	Smelter (constant 1998 US$ per tonne)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_antimony_crude__and__regulus_tonnes	Antimony	Exports	Crude & regulus (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_antimony_crude__and__regulus_tonnes	Antimony	Exports	Crude & regulus (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_antimony_metal_tonnes	Antimony	Exports	Metal (tonnes)	false	true
@@ -147,53 +141,15 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_barite_unknown_tonnes	Barite	Production	Unknown (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_barite_mine_tonnes	Barite	Reserves	Mine (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_barite_total_constant_1998_usd_per_tonne	Barite	Unit value	Total (constant 1998 US$ per tonne)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_bauxite_mine_tonnes_of_dry_content	Bauxite	Production	Mine (tonnes of dry content)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_bauxite_mine_tonnes_of_dry_content	Bauxite	Production	Mine (tonnes of dry content)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_bauxite_total_tonnes__gross_weight	Bauxite	Production	Total (tonnes, gross weight)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_bauxite_total_tonnes__gross_weight	Bauxite	Production	Total (tonnes, gross weight)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_bauxite_unknown_tonnes	Bauxite	Production	Unknown (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_bauxite_unknown_tonnes	Bauxite	Production	Unknown (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#reserves_bauxite_mine_tonnes_of_dry_content	Bauxite	Reserves	Mine (tonnes of dry content)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_bauxite_mine_tonnes_of_dry_content	Bauxite	Reserves	Mine (tonnes of dry content)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_bauxite_total_constant_1998_usd_per_tonne	Bauxite	Unit value	Total (constant 1998 US$ per tonne)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_bauxite__alumina_and_aluminum_alumina_tonnes	Bauxite, alumina and aluminum	Exports	Alumina (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_bauxite__alumina_and_aluminum_alumina_tonnes	Bauxite, alumina and aluminum	Exports	Alumina (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_bauxite__alumina_and_aluminum_alumina_hydrate_tonnes	Bauxite, alumina and aluminum	Exports	Alumina hydrate (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_bauxite__alumina_and_aluminum_alumina_hydrate_tonnes	Bauxite, alumina and aluminum	Exports	Alumina hydrate (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_bauxite__alumina_and_aluminum_bauxite_tonnes	Bauxite, alumina and aluminum	Exports	Bauxite (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_bauxite__alumina_and_aluminum_bauxite_tonnes	Bauxite, alumina and aluminum	Exports	Bauxite (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_bauxite__alumina_and_aluminum_bauxite__calcined_tonnes	Bauxite, alumina and aluminum	Exports	Bauxite, calcined (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_bauxite__alumina_and_aluminum_bauxite__calcined_tonnes	Bauxite, alumina and aluminum	Exports	Bauxite, calcined (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_bauxite__alumina_and_aluminum_bauxite__dried_tonnes	Bauxite, alumina and aluminum	Exports	Bauxite, dried (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_bauxite__alumina_and_aluminum_bauxite__dried_tonnes	Bauxite, alumina and aluminum	Exports	Bauxite, dried (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_bauxite__alumina_and_aluminum_scrap_tonnes	Bauxite, alumina and aluminum	Exports	Scrap (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_bauxite__alumina_and_aluminum_scrap_tonnes	Bauxite, alumina and aluminum	Exports	Scrap (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_bauxite__alumina_and_aluminum_unwrought__and__scrap_tonnes	Bauxite, alumina and aluminum	Exports	Unwrought & scrap (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_bauxite__alumina_and_aluminum_unwrought__and__scrap_tonnes	Bauxite, alumina and aluminum	Exports	Unwrought & scrap (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_bauxite__alumina_and_aluminum_unwrought_tonnes	Bauxite, alumina and aluminum	Exports	Unwrought (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_bauxite__alumina_and_aluminum_unwrought_tonnes	Bauxite, alumina and aluminum	Exports	Unwrought (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_bauxite__alumina_and_aluminum_unwrought_alloys_tonnes	Bauxite, alumina and aluminum	Exports	Unwrought alloys (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_bauxite__alumina_and_aluminum_unwrought_alloys_tonnes	Bauxite, alumina and aluminum	Exports	Unwrought alloys (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_bauxite__alumina_and_aluminum_alumina_tonnes	Bauxite, alumina and aluminum	Imports	Alumina (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_bauxite__alumina_and_aluminum_alumina_tonnes	Bauxite, alumina and aluminum	Imports	Alumina (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_bauxite__alumina_and_aluminum_alumina_hydrate_tonnes	Bauxite, alumina and aluminum	Imports	Alumina hydrate (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_bauxite__alumina_and_aluminum_alumina_hydrate_tonnes	Bauxite, alumina and aluminum	Imports	Alumina hydrate (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_bauxite__alumina_and_aluminum_bauxite_tonnes	Bauxite, alumina and aluminum	Imports	Bauxite (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_bauxite__alumina_and_aluminum_bauxite_tonnes	Bauxite, alumina and aluminum	Imports	Bauxite (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_bauxite__alumina_and_aluminum_bauxite__calcined_tonnes	Bauxite, alumina and aluminum	Imports	Bauxite, calcined (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_bauxite__alumina_and_aluminum_bauxite__calcined_tonnes	Bauxite, alumina and aluminum	Imports	Bauxite, calcined (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_bauxite__alumina_and_aluminum_bauxite__crude_dried_tonnes	Bauxite, alumina and aluminum	Imports	Bauxite, crude dried (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_bauxite__alumina_and_aluminum_bauxite__crude_dried_tonnes	Bauxite, alumina and aluminum	Imports	Bauxite, crude dried (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_bauxite__alumina_and_aluminum_bauxite__uncalcined_tonnes	Bauxite, alumina and aluminum	Imports	Bauxite, uncalcined (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_bauxite__alumina_and_aluminum_bauxite__uncalcined_tonnes	Bauxite, alumina and aluminum	Imports	Bauxite, uncalcined (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_bauxite__alumina_and_aluminum_scrap_tonnes	Bauxite, alumina and aluminum	Imports	Scrap (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_bauxite__alumina_and_aluminum_scrap_tonnes	Bauxite, alumina and aluminum	Imports	Scrap (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_bauxite__alumina_and_aluminum_unwrought__and__scrap_tonnes	Bauxite, alumina and aluminum	Imports	Unwrought & scrap (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_bauxite__alumina_and_aluminum_unwrought__and__scrap_tonnes	Bauxite, alumina and aluminum	Imports	Unwrought & scrap (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_bauxite__alumina_and_aluminum_unwrought_tonnes	Bauxite, alumina and aluminum	Imports	Unwrought (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_bauxite__alumina_and_aluminum_unwrought_tonnes	Bauxite, alumina and aluminum	Imports	Unwrought (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_bauxite__alumina_and_aluminum_unwrought_alloys_tonnes	Bauxite, alumina and aluminum	Imports	Unwrought alloys (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_bauxite__alumina_and_aluminum_unwrought_alloys_tonnes	Bauxite, alumina and aluminum	Imports	Unwrought alloys (tonnes)	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#exports_bauxite_mine_tonnes	Bauxite	Exports	Mine (tonnes)	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_bauxite_mine_tonnes	Bauxite	Exports	Mine (tonnes)	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#imports_bauxite_mine_tonnes	Bauxite	Imports	Mine (tonnes)	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_bauxite_mine_tonnes	Bauxite	Imports	Mine (tonnes)	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_bauxite_mine_tonnes	Bauxite	Production	Mine (tonnes)	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_bauxite_mine_tonnes	Bauxite	Production	Mine (tonnes)	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#reserves_bauxite_mine_tonnes	Bauxite	Reserves	Mine (tonnes)	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_bauxite_mine_tonnes	Bauxite	Reserves	Mine (tonnes)	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_bauxite_mine_constant_1998_usd_per_tonne	Bauxite	Unit value	Mine (constant 1998 US$ per tonne)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_bentonite_total_tonnes__gross_weight	Bentonite	Production	Total (tonnes, gross weight)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_bentonite_total_constant_1998_usd_per_tonne	Bentonite	Unit value	Total (constant 1998 US$ per tonne)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_bentonite_and_fullers_earth_bentonite_tonnes	Bentonite and fuller's earth	Exports	Bentonite (tonnes)	false	true
@@ -267,7 +223,6 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_boron_mine__ulexite_tonnes	Boron	Reserves	Mine, ulexite (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_boron_plant__refined_borates_tonnes	Boron	Reserves	Plant, refined borates (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_boron_total_constant_1998_usd_per_tonne	Boron	Unit value	Total (constant 1998 US$ per tonne)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_boron_carbide_total_constant_1998_usd_per_tonne	Boron carbide	Unit value	Total (constant 1998 US$ per tonne)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_bromine_compounds_tonnes	Bromine	Exports	Compounds (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_bromine_compounds_tonnes	Bromine	Exports	Compounds (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_bromine_unknown_tonnes	Bromine	Exports	Unknown (tonnes)	false	true
@@ -682,8 +637,6 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_manganese_mine_tonnes	Manganese	Reserves	Mine (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_manganese_mine_tonnes	Manganese	Reserves	Mine (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_manganese_mine_constant_1998_usd_per_tonne	Manganese	Unit value	Mine (constant 1998 US$ per tonne)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_manufactured_abrasives__total_tonnes__gross_weight	Manufactured abrasives 	Production	Total (tonnes, gross weight)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_manufactured_abrasives__total_constant_1998_usd_per_tonne	Manufactured abrasives 	Unit value	Total (constant 1998 US$ per tonne)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_mercury_mine_tonnes	Mercury	Exports	Mine (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_mercury_mine_tonnes	Mercury	Exports	Mine (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_mercury_mine_tonnes	Mercury	Imports	Mine (tonnes)	false	true
@@ -691,8 +644,6 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_mercury_mine_tonnes	Mercury	Production	Mine (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_mercury_mine_tonnes	Mercury	Production	Mine (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_mercury_mine_constant_1998_usd_per_tonne	Mercury	Unit value	Mine (constant 1998 US$ per tonne)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_metallic_abrasives_total_tonnes__gross_weight	Metallic abrasives	Production	Total (tonnes, gross weight)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_metallic_abrasives_total_constant_1998_usd_per_tonne	Metallic abrasives	Unit value	Total (constant 1998 US$ per tonne)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_mica_block_tonnes	Mica	Exports	Block (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_mica_block_tonnes	Mica	Exports	Block (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_mica_condenser_films_tonnes	Mica	Exports	Condenser films (tonnes)	false	true
@@ -1054,8 +1005,6 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_silicon_plant_tonnes	Silicon	Production	Plant (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_silicon_plant_tonnes	Silicon	Production	Plant (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_silicon_plant_constant_1998_usd_per_tonne	Silicon	Unit value	Plant (constant 1998 US$ per tonne)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_silicon_carbide_total_tonnes__gross_weight	Silicon carbide	Production	Total (tonnes, gross weight)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_silicon_carbide_total_constant_1998_usd_per_tonne	Silicon carbide	Unit value	Total (constant 1998 US$ per tonne)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_sillimanite_minerals_andalusite_tonnes	Sillimanite minerals	Exports	Andalusite (tonnes)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_sillimanite_minerals_andalusite_tonnes	Sillimanite minerals	Exports	Andalusite (tonnes)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_sillimanite_minerals_kyanite__and__related_minerals_tonnes	Sillimanite minerals	Exports	Kyanite & related minerals (tonnes)	false	true
