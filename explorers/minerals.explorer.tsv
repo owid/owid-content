@@ -59,54 +59,14 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_arsenic_processing_tonnes	Arsenic	Production	Processing	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_arsenic_processing_tonnes	Arsenic	Production	Processing	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_arsenic_processing_constant_1998_usd_per_tonne	Arsenic	Unit value	Processing	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_asbestos_amosite__unmanufactured_tonnes	Asbestos	Exports	Amosite, unmanufactured	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_asbestos_amosite__unmanufactured_tonnes	Asbestos	Exports	Amosite, unmanufactured	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_asbestos_chrysotile__unmanufactured_tonnes	Asbestos	Exports	Chrysotile, unmanufactured	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_asbestos_chrysotile__unmanufactured_tonnes	Asbestos	Exports	Chrysotile, unmanufactured	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_asbestos_crocidolite__unmanufactured_tonnes	Asbestos	Exports	Crocidolite, unmanufactured	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_asbestos_crocidolite__unmanufactured_tonnes	Asbestos	Exports	Crocidolite, unmanufactured	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_asbestos_crude__unmanufactured_tonnes	Asbestos	Exports	Crude, unmanufactured	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_asbestos_crude__unmanufactured_tonnes	Asbestos	Exports	Crude, unmanufactured	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_asbestos_fibre__unmanufactured_tonnes	Asbestos	Exports	Fibre, unmanufactured	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_asbestos_fibre__unmanufactured_tonnes	Asbestos	Exports	Fibre, unmanufactured	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_asbestos_shorts__unmanufactured_tonnes	Asbestos	Exports	Shorts, unmanufactured	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_asbestos_shorts__unmanufactured_tonnes	Asbestos	Exports	Shorts, unmanufactured	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_asbestos_total__unmanufactured_tonnes	Asbestos	Exports	Total, unmanufactured	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_asbestos_total__unmanufactured_tonnes	Asbestos	Exports	Total, unmanufactured	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_asbestos_waste__unmanufactured_tonnes	Asbestos	Exports	Waste, unmanufactured	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_asbestos_waste__unmanufactured_tonnes	Asbestos	Exports	Waste, unmanufactured	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_asbestos_amosite__unmanufactured_tonnes	Asbestos	Imports	Amosite, unmanufactured	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_asbestos_amosite__unmanufactured_tonnes	Asbestos	Imports	Amosite, unmanufactured	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_asbestos_chrysotile__unmanufactured_tonnes	Asbestos	Imports	Chrysotile, unmanufactured	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_asbestos_chrysotile__unmanufactured_tonnes	Asbestos	Imports	Chrysotile, unmanufactured	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_asbestos_crocidolite__unmanufactured_tonnes	Asbestos	Imports	Crocidolite, unmanufactured	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_asbestos_crocidolite__unmanufactured_tonnes	Asbestos	Imports	Crocidolite, unmanufactured	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_asbestos_crude__unmanufactured_tonnes	Asbestos	Imports	Crude, unmanufactured	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_asbestos_crude__unmanufactured_tonnes	Asbestos	Imports	Crude, unmanufactured	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_asbestos_fibre__unmanufactured_tonnes	Asbestos	Imports	Fibre, unmanufactured	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_asbestos_fibre__unmanufactured_tonnes	Asbestos	Imports	Fibre, unmanufactured	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_asbestos_other__unmanufactured_tonnes	Asbestos	Imports	Other, unmanufactured	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_asbestos_other__unmanufactured_tonnes	Asbestos	Imports	Other, unmanufactured	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_asbestos_total__unmanufactured_tonnes	Asbestos	Imports	Total, unmanufactured	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_asbestos_total__unmanufactured_tonnes	Asbestos	Imports	Total, unmanufactured	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_asbestos_amosite_tonnes	Asbestos	Production	Amosite (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_asbestos_amosite_tonnes	Asbestos	Production	Amosite (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_asbestos_amphibole_tonnes	Asbestos	Production	Amphibole (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_asbestos_amphibole_tonnes	Asbestos	Production	Amphibole (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_asbestos_anthophyllite_tonnes	Asbestos	Production	Anthophyllite (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_asbestos_anthophyllite_tonnes	Asbestos	Production	Anthophyllite (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_asbestos_chrysotile_tonnes	Asbestos	Production	Chrysotile (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_asbestos_chrysotile_tonnes	Asbestos	Production	Chrysotile (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_asbestos_crocidolite_tonnes	Asbestos	Production	Crocidolite (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_asbestos_crocidolite_tonnes	Asbestos	Production	Crocidolite (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_asbestos_mine_tonnes	Asbestos	Production	Mine (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_asbestos_mine_tonnes	Asbestos	Production	Mine (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_asbestos_total_tonnes__gross_weight	Asbestos	Production	Total (tonnes, gross weight)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_asbestos_total_tonnes__gross_weight	Asbestos	Production	Total (tonnes, gross weight)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_asbestos_unknown_tonnes	Asbestos	Production	Unknown (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_asbestos_unknown_tonnes	Asbestos	Production	Unknown (tonnes)	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#exports_asbestos_mine_tonnes	Asbestos	Exports	Mine	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_asbestos_mine_tonnes	Asbestos	Exports	Mine	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#imports_asbestos_mine_tonnes	Asbestos	Imports	Mine	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_asbestos_mine_tonnes	Asbestos	Imports	Mine	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_asbestos_mine_tonnes	Asbestos	Production	Mine	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_asbestos_mine_tonnes	Asbestos	Production	Mine	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_asbestos_mine_tonnes	Asbestos	Reserves	Mine	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_asbestos_total_constant_1998_usd_per_tonne	Asbestos	Unit value	Total	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_asbestos_mine_constant_1998_usd_per_tonne	Asbestos	Unit value	Mine	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_barite_barium_minerals_tonnes	Barite	Exports	Barium minerals	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_barite_barium_minerals_tonnes	Barite	Exports	Barium minerals	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_barite_unknown_tonnes	Barite	Exports	Unknown	false	true
