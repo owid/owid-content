@@ -92,34 +92,6 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_bauxite_mine_tonnes	Bauxite	Reserves	Mine	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_bauxite_mine_tonnes	Bauxite	Reserves	Mine	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_bauxite_mine_constant_1998_usd_per_tonne	Bauxite	Unit value	Mine	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_bentonite_total_tonnes__gross_weight	Bentonite	Production	Total (tonnes, gross weight)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_bentonite_total_constant_1998_usd_per_tonne	Bentonite	Unit value	Total	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_bentonite_and_fullers_earth_bentonite_tonnes	Bentonite and fuller's earth	Exports	Bentonite	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_bentonite_and_fullers_earth_bentonite_tonnes	Bentonite and fuller's earth	Exports	Bentonite	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_bentonite_and_fullers_earth_fullers_earth_tonnes	Bentonite and fuller's earth	Exports	Fuller's earth	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_bentonite_and_fullers_earth_fullers_earth_tonnes	Bentonite and fuller's earth	Exports	Fuller's earth	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_bentonite_and_fullers_earth_sepiolite_tonnes	Bentonite and fuller's earth	Exports	Sepiolite	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_bentonite_and_fullers_earth_sepiolite_tonnes	Bentonite and fuller's earth	Exports	Sepiolite	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_bentonite_and_fullers_earth_unknown_tonnes	Bentonite and fuller's earth	Exports	Unknown	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_bentonite_and_fullers_earth_unknown_tonnes	Bentonite and fuller's earth	Exports	Unknown	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_bentonite_and_fullers_earth_bentonite_tonnes	Bentonite and fuller's earth	Imports	Bentonite	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_bentonite_and_fullers_earth_bentonite_tonnes	Bentonite and fuller's earth	Imports	Bentonite	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_bentonite_and_fullers_earth_fullers_earth_tonnes	Bentonite and fuller's earth	Imports	Fuller's earth	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_bentonite_and_fullers_earth_fullers_earth_tonnes	Bentonite and fuller's earth	Imports	Fuller's earth	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_bentonite_and_fullers_earth_sepiolite_tonnes	Bentonite and fuller's earth	Imports	Sepiolite	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_bentonite_and_fullers_earth_sepiolite_tonnes	Bentonite and fuller's earth	Imports	Sepiolite	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_bentonite_and_fullers_earth_unknown_tonnes	Bentonite and fuller's earth	Imports	Unknown	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_bentonite_and_fullers_earth_unknown_tonnes	Bentonite and fuller's earth	Imports	Unknown	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_bentonite_and_fullers_earth_attapulgite_tonnes	Bentonite and fuller's earth	Production	Attapulgite	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_bentonite_and_fullers_earth_attapulgite_tonnes	Bentonite and fuller's earth	Production	Attapulgite	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_bentonite_and_fullers_earth_bentonite_tonnes	Bentonite and fuller's earth	Production	Bentonite	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_bentonite_and_fullers_earth_bentonite_tonnes	Bentonite and fuller's earth	Production	Bentonite	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_bentonite_and_fullers_earth_fullers_earth_tonnes	Bentonite and fuller's earth	Production	Fuller's earth	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_bentonite_and_fullers_earth_fullers_earth_tonnes	Bentonite and fuller's earth	Production	Fuller's earth	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_bentonite_and_fullers_earth_sepiolite_tonnes	Bentonite and fuller's earth	Production	Sepiolite	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_bentonite_and_fullers_earth_sepiolite_tonnes	Bentonite and fuller's earth	Production	Sepiolite	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_bentonite_and_fullers_earth_unknown_tonnes	Bentonite and fuller's earth	Production	Unknown	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_bentonite_and_fullers_earth_unknown_tonnes	Bentonite and fuller's earth	Production	Unknown	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_beryl_unknown_tonnes	Beryl	Production	Unknown	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_beryl_unknown_tonnes	Beryl	Production	Unknown	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_beryllium_mine_tonnes	Beryllium	Production	Mine	false	true
@@ -187,20 +159,35 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_chromium_mine_tonnes_of_gross_weight	Chromium	Reserves	Mine (tonnes of gross weight)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_chromium_mine_tonnes_of_gross_weight	Chromium	Reserves	Mine (tonnes of gross weight)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_chromium_mine__contained_chromium_constant_1998_usd_per_tonne	Chromium	Unit value	Mine, contained chromium	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_clays_ball_clay_tonnes__gross_weight	Clays	Production	Ball clay (tonnes, gross weight)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_clays_fire_clay_tonnes__gross_weight	Clays	Production	Fire clay (tonnes, gross weight)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_clays_mine__bentonite_tonnes	Clays	Production	Mine, bentonite (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_clays_mine__bentonite_tonnes	Clays	Production	Mine, bentonite (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_clays_mine__fullers_earth_tonnes	Clays	Production	Mine, fuller's earth (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_clays_mine__fullers_earth_tonnes	Clays	Production	Mine, fuller's earth (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_clays_mine__kaolin_tonnes	Clays	Production	Mine, kaolin (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_clays_mine__kaolin_tonnes	Clays	Production	Mine, kaolin (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_clays_miscellaneous_clay_tonnes__gross_weight	Clays	Production	Miscellaneous clay (tonnes, gross weight)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_clays_total_tonnes__gross_weight	Clays	Production	Total (tonnes, gross weight)	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#exports_clays_bentonite_tonnes	Clays	Exports	Bentonite	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_clays_bentonite_tonnes	Clays	Exports	Bentonite	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#exports_clays_fullers_earth_tonnes	Clays	Exports	Fuller's earth	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_clays_fullers_earth_tonnes	Clays	Exports	Fuller's earth	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#exports_clays_sepiolite_tonnes	Clays	Exports	Sepiolite	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_clays_sepiolite_tonnes	Clays	Exports	Sepiolite	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#imports_clays_bentonite_tonnes	Clays	Imports	Bentonite	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_clays_bentonite_tonnes	Clays	Imports	Bentonite	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#imports_clays_fullers_earth_tonnes	Clays	Imports	Fuller's earth	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_clays_fullers_earth_tonnes	Clays	Imports	Fuller's earth	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#imports_clays_sepiolite_tonnes	Clays	Imports	Sepiolite	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_clays_sepiolite_tonnes	Clays	Imports	Sepiolite	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_clays_attapulgite_tonnes	Clays	Production	Attapulgite	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_clays_attapulgite_tonnes	Clays	Production	Attapulgite	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_clays_ball_clay_tonnes	Clays	Production	Ball clay	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_clays_bentonite_tonnes	Clays	Production	Bentonite	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_clays_bentonite_tonnes	Clays	Production	Bentonite	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_clays_fire_clay_tonnes	Clays	Production	Fire clay	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_clays_fullers_earth_tonnes	Clays	Production	Fuller's earth	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_clays_fullers_earth_tonnes	Clays	Production	Fuller's earth	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_clays_kaolin_tonnes	Clays	Production	Kaolin	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_clays_kaolin_tonnes	Clays	Production	Kaolin	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_clays_miscellaneous_tonnes	Clays	Production	Miscellaneous	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_clays_sepiolite_tonnes	Clays	Production	Sepiolite	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_clays_sepiolite_tonnes	Clays	Production	Sepiolite	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_clays_ball_clay_constant_1998_usd_per_tonne	Clays	Unit value	Ball clay	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_clays_bentonite_constant_1998_usd_per_tonne	Clays	Unit value	Bentonite	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_clays_fire_clay_constant_1998_usd_per_tonne	Clays	Unit value	Fire clay	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_clays_miscellaneous_clay_constant_1998_usd_per_tonne	Clays	Unit value	Miscellaneous clay	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_clays_total_constant_1998_usd_per_tonne	Clays	Unit value	Total	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_clays_miscellaneous_constant_1998_usd_per_tonne	Clays	Unit value	Miscellaneous	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_coal_anthracite_tonnes	Coal	Exports	Anthracite	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_coal_anthracite_tonnes	Coal	Exports	Anthracite	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_coal_bituminous_tonnes	Coal	Exports	Bituminous	false	true
