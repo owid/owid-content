@@ -52,23 +52,13 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_antimony_mine_tonnes	Antimony	Production	Mine	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_antimony_mine_tonnes	Antimony	Reserves	Mine	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_antimony_mine_constant_1998_usd_per_tonne	Antimony	Unit value	Mine	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_arsenic_metallic_arsenic_tonnes	Arsenic	Exports	Metallic arsenic	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_arsenic_metallic_arsenic_tonnes	Arsenic	Exports	Metallic arsenic	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#exports_arsenic_white_arsenic_tonnes	Arsenic	Exports	White arsenic	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_arsenic_white_arsenic_tonnes	Arsenic	Exports	White arsenic	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_arsenic_metallic_arsenic_tonnes	Arsenic	Imports	Metallic arsenic	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_arsenic_metallic_arsenic_tonnes	Arsenic	Imports	Metallic arsenic	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_arsenic_unknown_tonnes	Arsenic	Imports	Unknown	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_arsenic_unknown_tonnes	Arsenic	Imports	Unknown	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#imports_arsenic_white_arsenic_tonnes	Arsenic	Imports	White arsenic	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_arsenic_white_arsenic_tonnes	Arsenic	Imports	White arsenic	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_arsenic_plant_tonnes_of_arsenic_trioxide_or_calculated_equivalent	Arsenic	Production	Plant (tonnes of arsenic trioxide or calculated equivalent)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_arsenic_plant_tonnes_of_arsenic_trioxide_or_calculated_equivalent	Arsenic	Production	Plant (tonnes of arsenic trioxide or calculated equivalent)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_arsenic_total_tonnes	Arsenic	Production	Total (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_arsenic_total_tonnes	Arsenic	Production	Total (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_arsenic_white_arsenic_tonnes	Arsenic	Production	White arsenic (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_arsenic_white_arsenic_tonnes	Arsenic	Production	White arsenic (tonnes)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_arsenic_total_constant_1998_usd_per_tonne	Arsenic	Unit value	Total	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#exports_arsenic_processing_tonnes	Arsenic	Exports	Processing	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_arsenic_processing_tonnes	Arsenic	Exports	Processing	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#imports_arsenic_processing_tonnes	Arsenic	Imports	Processing	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_arsenic_processing_tonnes	Arsenic	Imports	Processing	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_arsenic_processing_tonnes	Arsenic	Production	Processing	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_arsenic_processing_tonnes	Arsenic	Production	Processing	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_arsenic_processing_constant_1998_usd_per_tonne	Arsenic	Unit value	Processing	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_asbestos_amosite__unmanufactured_tonnes	Asbestos	Exports	Amosite, unmanufactured	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_asbestos_amosite__unmanufactured_tonnes	Asbestos	Exports	Amosite, unmanufactured	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_asbestos_chrysotile__unmanufactured_tonnes	Asbestos	Exports	Chrysotile, unmanufactured	false	true
@@ -212,11 +202,11 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_bromine_compounds_tonnes	Bromine	Imports	Compounds	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_bromine_unknown_tonnes	Bromine	Imports	Unknown	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_bromine_unknown_tonnes	Bromine	Imports	Unknown	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_bromine_plant_tonnes	Bromine	Production	Plant	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_bromine_plant_tonnes	Bromine	Production	Plant	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_bromine_processing_tonnes	Bromine	Production	Processing	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_bromine_processing_tonnes	Bromine	Production	Processing	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_bromine_unknown_tonnes	Bromine	Production	Unknown	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_bromine_unknown_tonnes	Bromine	Production	Unknown	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#reserves_bromine_plant_tonnes	Bromine	Reserves	Plant	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#reserves_bromine_processing_tonnes	Bromine	Reserves	Processing	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_cadmium_refinery_tonnes	Cadmium	Exports	Refinery	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_cadmium_refinery_tonnes	Cadmium	Exports	Refinery	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_cadmium_refinery_tonnes	Cadmium	Imports	Refinery	false	true
@@ -234,10 +224,10 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_chromium_metal_tonnes	Chromium	Exports	Metal	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#imports_chromium_metal_tonnes	Chromium	Imports	Metal	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_chromium_metal_tonnes	Chromium	Imports	Metal	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_chromium_mine_tonnes_of_gross_weight	Chromium	Production	Mine (tonnes of gross weight)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_chromium_mine_tonnes_of_gross_weight	Chromium	Production	Mine (tonnes of gross weight)	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_chromium_mine__contained_chromium_tonnes	Chromium	Production	Mine, contained chromium (tonnes)	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_chromium_mine__contained_chromium_tonnes	Chromium	Production	Mine, contained chromium (tonnes)	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_chromium_mine_tonnes	Chromium	Production	Mine	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_chromium_mine_tonnes	Chromium	Production	Mine	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_chromium_mine__contained_chromium_tonnes	Chromium	Production	Mine, contained chromium	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_chromium_mine__contained_chromium_tonnes	Chromium	Production	Mine, contained chromium	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_chromium_mine_tonnes_of_gross_weight	Chromium	Reserves	Mine (tonnes of gross weight)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_chromium_mine_tonnes_of_gross_weight	Chromium	Reserves	Mine (tonnes of gross weight)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_chromium_mine__contained_chromium_constant_1998_usd_per_tonne	Chromium	Unit value	Mine, contained chromium	false	true
@@ -546,9 +536,9 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_lead_mine_tonnes	Lead	Reserves	Mine	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_lead_mine_tonnes	Lead	Reserves	Mine	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_lead_mine_constant_1998_usd_per_tonne	Lead	Unit value	Mine	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_lime_plant_tonnes	Lime	Production	Plant	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_lime_plant_tonnes	Lime	Production	Plant	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_lime_plant_constant_1998_usd_per_tonne	Lime	Unit value	Plant	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_lime_processing_tonnes	Lime	Production	Processing	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_lime_processing_tonnes	Lime	Production	Processing	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_lime_processing_constant_1998_usd_per_tonne	Lime	Unit value	Processing	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_lithium_mine_tonnes	Lithium	Exports	Mine	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_lithium_mine_tonnes	Lithium	Exports	Mine	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_lithium_refinery_tonnes	Lithium	Exports	Refinery	false	true
@@ -983,9 +973,9 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_selenium_refinery_tonnes	Selenium	Reserves	Refinery	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_selenium_refinery_tonnes	Selenium	Reserves	Refinery	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_selenium_refinery_constant_1998_usd_per_tonne	Selenium	Unit value	Refinery	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_silicon_plant_tonnes	Silicon	Production	Plant	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_silicon_plant_tonnes	Silicon	Production	Plant	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_silicon_plant_constant_1998_usd_per_tonne	Silicon	Unit value	Plant	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_silicon_processing_tonnes	Silicon	Production	Processing	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_silicon_processing_tonnes	Silicon	Production	Processing	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_silicon_processing_constant_1998_usd_per_tonne	Silicon	Unit value	Processing	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_sillimanite_minerals_andalusite_tonnes	Sillimanite minerals	Exports	Andalusite	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_sillimanite_minerals_andalusite_tonnes	Sillimanite minerals	Exports	Andalusite	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_sillimanite_minerals_kyanite_tonnes	Sillimanite minerals	Exports	Kyanite	false	true
