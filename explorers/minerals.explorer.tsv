@@ -205,24 +205,9 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_bismuth_refinery_tonnes__gross_weight	Bismuth	Production	Refinery (tonnes, gross weight)	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#production_bismuth_total_tonnes__gross_weight	Bismuth	Production	Total (tonnes, gross weight)	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_bismuth_total_constant_1998_usd_per_tonne	Bismuth	Unit value	Total	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_borates_unknown_tonnes	Borates	Production	Unknown	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_borates_unknown_tonnes	Borates	Production	Unknown	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_boron_mine__boric_oxide_equivalent_tonnes	Boron	Production	Mine, boric oxide equivalent	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_boron_mine__crude_borates_tonnes	Boron	Production	Mine, crude borates	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_boron_mine__crude_ore_tonnes	Boron	Production	Mine, crude ore	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_boron_mine__datolite_ore_tonnes	Boron	Production	Mine, datolite ore	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_boron_mine__ulexite_tonnes	Boron	Production	Mine, ulexite	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_boron_plant__boron_compounds_tonnes	Boron	Production	Plant, boron compounds	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_boron_plant__refined_borates_tonnes	Boron	Production	Plant, refined borates	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#production_boron_total_tonnes	Boron	Production	Total	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_boron_total_tonnes	Boron	Production	Total	true	true
-	grapher/minerals/2024-07-15/minerals/minerals#reserves_boron_mine__borates_tonnes	Boron	Reserves	Mine, borates	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#reserves_boron_mine__boric_oxide_equivalent_tonnes	Boron	Reserves	Mine, boric oxide equivalent	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#reserves_boron_mine__crude_borates_tonnes	Boron	Reserves	Mine, crude borates	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#reserves_boron_mine__datolite_ore_tonnes	Boron	Reserves	Mine, datolite ore	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#reserves_boron_mine__ulexite_tonnes	Boron	Reserves	Mine, ulexite	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#reserves_boron_plant__refined_borates_tonnes	Boron	Reserves	Plant, refined borates	false	true
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_boron_total_constant_1998_usd_per_tonne	Boron	Unit value	Total	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#production_boron_mine_tonnes	Boron	Production	Mine	false	true
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_boron_mine_tonnes	Boron	Production	Mine	true	true
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_boron_mine_constant_1998_usd_per_tonne	Boron	Unit value	Mine	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_bromine_compounds_tonnes	Bromine	Exports	Compounds	false	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_bromine_compounds_tonnes	Bromine	Exports	Compounds	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#exports_bromine_unknown_tonnes	Bromine	Exports	Unknown	false	true
