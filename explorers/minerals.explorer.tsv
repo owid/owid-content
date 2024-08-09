@@ -51,6 +51,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_antimony_mine_tonnes	Antimony	Production	Mine	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_antimony_mine_tonnes	Antimony	Production	Mine	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_antimony_mine_tonnes	Antimony	Reserves	Mine	false	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_antimony_mine_tonnes	Antimony	Reserves	Mine	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_antimony_mine_constant_1998_usd_per_tonne	Antimony	Unit value	Mine	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_arsenic_processing_tonnes	Arsenic	Exports	Processing	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_arsenic_processing_tonnes	Arsenic	Exports	Processing	true	true	false
@@ -66,6 +67,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_asbestos_mine_tonnes	Asbestos	Production	Mine	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_asbestos_mine_tonnes	Asbestos	Production	Mine	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_asbestos_mine_tonnes	Asbestos	Reserves	Mine	false	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_asbestos_mine_tonnes	Asbestos	Reserves	Mine	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_asbestos_mine_constant_1998_usd_per_tonne	Asbestos	Unit value	Mine	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_barite_barium_minerals_tonnes	Barite	Exports	Barium minerals	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_barite_barium_minerals_tonnes	Barite	Exports	Barium minerals	true	true	false
@@ -82,6 +84,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_barite_mine_tonnes	Barite	Production	Mine	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_barite_mine_tonnes	Barite	Production	Mine	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_barite_mine_tonnes	Barite	Reserves	Mine	false	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_barite_mine_tonnes	Barite	Reserves	Mine	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_barite_mine_constant_1998_usd_per_tonne	Barite	Unit value	Mine	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_bauxite_mine_tonnes	Bauxite	Exports	Mine	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_bauxite_mine_tonnes	Bauxite	Exports	Mine	true	true	false
@@ -135,6 +138,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_bromine_unknown_tonnes	Bromine	Production	Unknown	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_bromine_unknown_tonnes	Bromine	Production	Unknown	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_bromine_processing_tonnes	Bromine	Reserves	Processing	false	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_bromine_processing_tonnes	Bromine	Reserves	Processing	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_cadmium_refinery_tonnes	Cadmium	Exports	Refinery	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_cadmium_refinery_tonnes	Cadmium	Exports	Refinery	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#imports_cadmium_refinery_tonnes	Cadmium	Imports	Refinery	false	true	false
@@ -174,14 +178,17 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_clays_attapulgite_tonnes	Clays	Production	Attapulgite	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_clays_attapulgite_tonnes	Clays	Production	Attapulgite	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_clays_ball_clay_tonnes	Clays	Production	Ball clay	false	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_clays_ball_clay_tonnes	Clays	Production	Ball clay	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_clays_bentonite_tonnes	Clays	Production	Bentonite	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_clays_bentonite_tonnes	Clays	Production	Bentonite	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_clays_fire_clay_tonnes	Clays	Production	Fire clay	false	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_clays_fire_clay_tonnes	Clays	Production	Fire clay	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_clays_fullers_earth_tonnes	Clays	Production	Fuller's earth	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_clays_fullers_earth_tonnes	Clays	Production	Fuller's earth	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_clays_kaolin_tonnes	Clays	Production	Kaolin	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_clays_kaolin_tonnes	Clays	Production	Kaolin	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_clays_miscellaneous_tonnes	Clays	Production	Miscellaneous	false	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_clays_miscellaneous_tonnes	Clays	Production	Miscellaneous	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_clays_sepiolite_tonnes	Clays	Production	Sepiolite	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_clays_sepiolite_tonnes	Clays	Production	Sepiolite	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_clays_ball_clay_constant_1998_usd_per_tonne	Clays	Unit value	Ball clay	false	true	false
@@ -269,6 +276,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_copper_mine_tonnes	Copper	Reserves	Mine	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_copper_mine_constant_1998_usd_per_tonne	Copper	Unit value	Mine	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_crushed_stone_total_tonnes	Crushed stone	Production	Total	false	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_crushed_stone_total_tonnes	Crushed stone	Production	Total	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_crushed_stone_total_constant_1998_usd_per_tonne	Crushed stone	Unit value	Total	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_diamond_mine__industrial_tonnes	Diamond	Exports	Mine, industrial	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_diamond_mine__industrial_tonnes	Diamond	Exports	Mine, industrial	true	true	false
@@ -304,9 +312,12 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_diatomite_unknown_tonnes	Diatomite	Production	Unknown (tonnes)	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_diatomite_unknown_tonnes	Diatomite	Production	Unknown (tonnes)	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_diatomite_mine_tonnes	Diatomite	Reserves	Mine	false	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_diatomite_mine_tonnes	Diatomite	Reserves	Mine	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_diatomite_total_constant_1998_usd_per_tonne	Diatomite	Unit value	Total	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_dimension_stone_mine_tonnes	Dimension stone	Production	Mine (tonnes)	false	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_dimension_stone_mine_tonnes	Dimension stone	Production	Mine (tonnes)	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_dimension_stone_total_tonnes__gross_weight	Dimension stone	Production	Total (tonnes, gross weight)	false	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_dimension_stone_total_tonnes__gross_weight	Dimension stone	Production	Total (tonnes, gross weight)	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_dimension_stone_total_constant_1998_usd_per_tonne	Dimension stone	Unit value	Total	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_feldspar_unknown_tonnes	Feldspar	Exports	Unknown	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_feldspar_unknown_tonnes	Feldspar	Exports	Unknown	true	true	false
@@ -319,6 +330,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_feldspar_unknown_tonnes	Feldspar	Production	Unknown (tonnes)	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_feldspar_unknown_tonnes	Feldspar	Production	Unknown (tonnes)	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_feldspar_mine_tonnes	Feldspar	Reserves	Mine	false	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_feldspar_mine_tonnes	Feldspar	Reserves	Mine	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_feldspar_total_constant_1998_usd_per_tonne	Feldspar	Unit value	Total	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_feldspar_and_nepheline_syenite_mine_tonnes	Feldspar and nepheline syenite	Production	Mine	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_feldspar_and_nepheline_syenite_mine_tonnes	Feldspar and nepheline syenite	Production	Mine	true	true	false
@@ -336,6 +348,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_fluorspar_mine_tonnes	Fluorspar	Reserves	Mine	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_fluorspar_total_constant_1998_usd_per_tonne	Fluorspar	Unit value	Total	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_fullers_earth_total_tonnes__gross_weight	Fuller's earth	Production	Total (tonnes, gross weight)	false	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_fullers_earth_total_tonnes__gross_weight	Fuller's earth	Production	Total (tonnes, gross weight)	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_fullers_earth_total_constant_1998_usd_per_tonne	Fuller's earth	Unit value	Total	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_gallium_primary_tonnes	Gallium	Production	Primary	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_gallium_primary_tonnes	Gallium	Production	Primary	true	true	false
@@ -345,6 +358,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_garnet_mine_tonnes	Garnet	Production	Mine	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_garnet_mine_tonnes	Garnet	Production	Mine	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_garnet_mine_tonnes	Garnet	Reserves	Mine	false	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_garnet_mine_tonnes	Garnet	Reserves	Mine	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_gemstones_mine_tonnes	Gemstones	Production	Mine	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_gemstones_mine_tonnes	Gemstones	Production	Mine	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_germanium_metal_tonnes	Germanium	Production	Metal	false	true	false
@@ -385,6 +399,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_gypsum_total_tonnes__gross_weight	Gypsum	Production	Total (tonnes, gross weight)	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_gypsum_total_tonnes__gross_weight	Gypsum	Production	Total (tonnes, gross weight)	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_gypsum_mine_tonnes	Gypsum	Reserves	Mine	false	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_gypsum_mine_tonnes	Gypsum	Reserves	Mine	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_gypsum_total_constant_1998_usd_per_tonne	Gypsum	Unit value	Total	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_gypsum_and_plaster_calcined_tonnes	Gypsum and plaster	Exports	Calcined	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_gypsum_and_plaster_calcined_tonnes	Gypsum and plaster	Exports	Calcined	true	true	false
@@ -419,6 +434,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_helium_total_tonnes	Helium	Production	Total	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_helium_total_tonnes	Helium	Production	Total	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_helium_mine_tonnes	Helium	Reserves	Mine	false	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_helium_mine_tonnes	Helium	Reserves	Mine	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_helium_total_constant_1998_usd_per_tonne	Helium	Unit value	Total	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_indium_refinery_tonnes	Indium	Production	Refinery	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_indium_refinery_tonnes	Indium	Production	Refinery	true	true	false
@@ -461,15 +477,22 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#imports_kaolin_unknown_tonnes	Kaolin	Imports	Unknown	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_kaolin_unknown_tonnes	Kaolin	Imports	Unknown	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_kaolin_total_tonnes__gross_weight	Kaolin	Production	Total (tonnes, gross weight)	false	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_kaolin_total_tonnes__gross_weight	Kaolin	Production	Total (tonnes, gross weight)	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_kaolin_unknown_tonnes	Kaolin	Production	Unknown (tonnes)	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_kaolin_unknown_tonnes	Kaolin	Production	Unknown (tonnes)	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_kaolin_total_constant_1998_usd_per_tonne	Kaolin	Unit value	Total	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_kyanite_mine__andalusite_tonnes	Kyanite	Production	Mine, andalusite	false	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_kyanite_mine__andalusite_tonnes	Kyanite	Production	Mine, andalusite	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_kyanite_mine__kyanite_tonnes	Kyanite	Production	Mine, kyanite	false	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_kyanite_mine__kyanite_tonnes	Kyanite	Production	Mine, kyanite	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_kyanite_mine__kyanite_and_related_minerals_tonnes	Kyanite	Production	Mine, kyanite and related minerals	false	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_kyanite_mine__kyanite_and_related_minerals_tonnes	Kyanite	Production	Mine, kyanite and related minerals	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_kyanite_mine__kyanite_and_sillimanite_tonnes	Kyanite	Production	Mine, kyanite and sillimanite	false	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_kyanite_mine__kyanite_and_sillimanite_tonnes	Kyanite	Production	Mine, kyanite and sillimanite	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_kyanite_mine__kyanite_and_related_minerals_tonnes	Kyanite	Reserves	Mine, kyanite and related minerals	false	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_kyanite_mine__kyanite_and_related_minerals_tonnes	Kyanite	Reserves	Mine, kyanite and related minerals	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_kyanite_mine__kyanite_and_sillimanite_tonnes	Kyanite	Reserves	Mine, kyanite and sillimanite	false	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_kyanite_mine__kyanite_and_sillimanite_tonnes	Kyanite	Reserves	Mine, kyanite and sillimanite	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#imports_lead_refinery_tonnes	Lead	Imports	Refinery	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_lead_refinery_tonnes	Lead	Imports	Refinery	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_lead_mine_tonnes	Lead	Production	Mine	false	true	false
@@ -523,11 +546,13 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_magnesium_compounds_mine_tonnes	Magnesium compounds	Production	Mine	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_magnesium_compounds_mine_tonnes	Magnesium compounds	Production	Mine	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_magnesium_compounds_mine__magnesium_carbonate_tonnes	Magnesium compounds	Production	Mine, magnesium carbonate	false	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_magnesium_compounds_mine__magnesium_carbonate_tonnes	Magnesium compounds	Production	Mine, magnesium carbonate	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_magnesium_compounds_mine__magnesium_oxide_tonnes	Magnesium compounds	Production	Mine, magnesium oxide	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_magnesium_compounds_mine__magnesium_oxide_tonnes	Magnesium compounds	Production	Mine, magnesium oxide	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_magnesium_compounds_total_tonnes	Magnesium compounds	Production	Total	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_magnesium_compounds_total_tonnes	Magnesium compounds	Production	Total	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_magnesium_compounds_mine__magnesium_carbonate_tonnes	Magnesium compounds	Reserves	Mine, magnesium carbonate	false	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_magnesium_compounds_mine__magnesium_carbonate_tonnes	Magnesium compounds	Reserves	Mine, magnesium carbonate	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_magnesium_compounds_mine__magnesium_oxide_tonnes	Magnesium compounds	Reserves	Mine, magnesium oxide	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_magnesium_compounds_mine__magnesium_oxide_tonnes	Magnesium compounds	Reserves	Mine, magnesium oxide	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_magnesium_compounds_total_constant_1998_usd_per_tonne	Magnesium compounds	Unit value	Total	false	true	false
@@ -613,8 +638,11 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_mica__natural__mine__scrap_and_flake_tonnes	Mica (natural)	Production	Mine, scrap and flake	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_mica__natural__mine__scrap_and_flake_tonnes	Mica (natural)	Production	Mine, scrap and flake	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_mica__natural__mine__sheet_tonnes	Mica (natural)	Production	Mine, sheet	false	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_mica__natural__mine__sheet_tonnes	Mica (natural)	Production	Mine, sheet	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_mica__natural__mine__scrap_and_flake_tonnes	Mica (natural)	Reserves	Mine, scrap and flake	false	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_mica__natural__mine__scrap_and_flake_tonnes	Mica (natural)	Reserves	Mine, scrap and flake	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_mica__natural__mine__sheet_tonnes	Mica (natural)	Reserves	Mine, sheet	false	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_mica__natural__mine__sheet_tonnes	Mica (natural)	Reserves	Mine, sheet	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_molybdenum_ores__and__concentrates_tonnes	Molybdenum	Exports	Ores & concentrates	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_molybdenum_ores__and__concentrates_tonnes	Molybdenum	Exports	Ores & concentrates	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_molybdenum_refinery_tonnes	Molybdenum	Exports	Refinery	false	true	false
@@ -669,6 +697,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_perlite_unknown_tonnes	Perlite	Production	Unknown (tonnes)	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_perlite_unknown_tonnes	Perlite	Production	Unknown (tonnes)	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_perlite_mine_tonnes	Perlite	Reserves	Mine	false	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_perlite_mine_tonnes	Perlite	Reserves	Mine	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_perlite_total_constant_1998_usd_per_tonne	Perlite	Unit value	Total	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_petroleum_crude_tonnes	Petroleum	Exports	Crude	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_petroleum_crude_tonnes	Petroleum	Exports	Crude	true	true	false
@@ -832,6 +861,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_potash_unknown_tonnes_of_potassium_oxide_content	Potash	Production	Unknown (tonnes of potassium oxide content)	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_potash_unknown_tonnes_of_potassium_oxide_content	Potash	Production	Unknown (tonnes of potassium oxide content)	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_potash_mine_tonnes_of_potassium_oxide_equivalent	Potash	Reserves	Mine (tonnes of potassium oxide equivalent)	false	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_potash_mine_tonnes_of_potassium_oxide_equivalent	Potash	Reserves	Mine (tonnes of potassium oxide equivalent)	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_pumice_and_pumicite_mine_tonnes	Pumice and pumicite	Production	Mine (tonnes)	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_pumice_and_pumicite_mine_tonnes	Pumice and pumicite	Production	Mine (tonnes)	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_pumice_and_pumicite_total_tonnes__gross_weight	Pumice and pumicite	Production	Total (tonnes, gross weight)	false	true	false
@@ -860,6 +890,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_rhenium_unknown_tonnes	Rhenium	Production	Unknown	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_rhenium_unknown_tonnes	Rhenium	Production	Unknown	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_rhenium_mine_tonnes	Rhenium	Reserves	Mine	false	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_rhenium_mine_tonnes	Rhenium	Reserves	Mine	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_salt_other_salt_tonnes	Salt	Exports	Other salt	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_salt_other_salt_tonnes	Salt	Exports	Other salt	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_salt_refined_salt_tonnes	Salt	Exports	Refined salt	false	true	false
@@ -1013,6 +1044,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_strontium_total_tonnes	Strontium	Production	Total	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_strontium_total_tonnes	Strontium	Production	Total	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_strontium_mine_tonnes	Strontium	Reserves	Mine	false	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_strontium_mine_tonnes	Strontium	Reserves	Mine	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_strontium_total_constant_1998_usd_per_tonne	Strontium	Unit value	Total	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_strontium_minerals_unknown_tonnes	Strontium minerals	Production	Unknown	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_strontium_minerals_unknown_tonnes	Strontium minerals	Production	Unknown	true	true	false
@@ -1072,8 +1104,11 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_talc_agalmatolite_tonnes	Talc	Production	Agalmatolite	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_talc_agalmatolite_tonnes	Talc	Production	Agalmatolite	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_talc_mine_tonnes	Talc	Production	Mine	false	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_talc_mine_tonnes	Talc	Production	Mine	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_talc_mine_production__including_steatite_tonnes	Talc	Production	Mine production, including steatite	false	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_talc_mine_production__including_steatite_tonnes	Talc	Production	Mine production, including steatite	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_talc_mine__crude_tonnes	Talc	Production	Mine, crude	false	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_talc_mine__crude_tonnes	Talc	Production	Mine, crude	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_talc_pyrophyllite_tonnes	Talc	Production	Pyrophyllite	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_talc_pyrophyllite_tonnes	Talc	Production	Pyrophyllite	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_talc_steatite_tonnes	Talc	Production	Steatite	false	true	false
@@ -1083,23 +1118,30 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_talc_wonderstone__pyrophyllite__tonnes	Talc	Production	Wonderstone (pyrophyllite)	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_talc_wonderstone__pyrophyllite__tonnes	Talc	Production	Wonderstone (pyrophyllite)	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_talc_mine__crude_tonnes	Talc	Reserves	Mine, crude	false	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_talc_mine__crude_tonnes	Talc	Reserves	Mine, crude	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_talc_and_pyrophyllite_mine_tonnes	Talc and pyrophyllite	Production	Mine (tonnes)	false	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_talc_and_pyrophyllite_mine_tonnes	Talc and pyrophyllite	Production	Mine (tonnes)	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_talc_and_pyrophyllite_mine_production_tonnes	Talc and pyrophyllite	Production	Mine production (tonnes)	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_talc_and_pyrophyllite_mine_production_tonnes	Talc and pyrophyllite	Production	Mine production (tonnes)	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_talc_and_pyrophyllite_mine_production__crude_and_beneficiated_tonnes	Talc and pyrophyllite	Production	Mine production, crude and beneficiated (tonnes)	false	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_talc_and_pyrophyllite_mine_production__including_crude_tonnes	Talc and pyrophyllite	Production	Mine production, including crude (tonnes)	false	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_talc_and_pyrophyllite_mine_production__crude_and_beneficiated_tonnes	Talc and pyrophyllite	Production	Mine production, crude and beneficiated (tonnes)	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_talc_and_pyrophyllite_mine_production__unspecified_talc_and_or_pyrophyllite_tonnes	Talc and pyrophyllite	Production	Mine production, unspecified talc and/or pyrophyllite (tonnes)	false	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_talc_and_pyrophyllite_mine_production__unspecified_talc_and_or_pyrophyllite_tonnes	Talc and pyrophyllite	Production	Mine production, unspecified talc and/or pyrophyllite (tonnes)	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_talc_and_pyrophyllite_total_tonnes__gross_weight	Talc and pyrophyllite	Production	Total (tonnes, gross weight)	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_talc_and_pyrophyllite_total_tonnes__gross_weight	Talc and pyrophyllite	Production	Total (tonnes, gross weight)	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_talc_and_pyrophyllite_mine_tonnes	Talc and pyrophyllite	Reserves	Mine	false	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_talc_and_pyrophyllite_mine_tonnes	Talc and pyrophyllite	Reserves	Mine	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_talc_and_pyrophyllite_mine_production__crude_and_beneficiated_tonnes	Talc and pyrophyllite	Reserves	Mine production, crude and beneficiated	false	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_talc_and_pyrophyllite_mine_production__crude_and_beneficiated_tonnes	Talc and pyrophyllite	Reserves	Mine production, crude and beneficiated	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_talc_and_pyrophyllite_mine_production__unspecified_talc_and_or_pyrophyllite_tonnes	Talc and pyrophyllite	Reserves	Mine production, unspecified talc and/or pyrophyllite	false	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_talc_and_pyrophyllite_mine_production__unspecified_talc_and_or_pyrophyllite_tonnes	Talc and pyrophyllite	Reserves	Mine production, unspecified talc and/or pyrophyllite	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_talc_and_pyrophyllite_total_constant_1998_usd_per_tonne	Talc and pyrophyllite	Unit value	Total	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_tantalum_mine_tonnes	Tantalum	Production	Mine	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_tantalum_mine_tonnes	Tantalum	Production	Mine	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_tantalum_total_tonnes	Tantalum	Production	Total	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_tantalum_total_tonnes	Tantalum	Production	Total	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_tantalum_mine_tonnes	Tantalum	Reserves	Mine	false	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_tantalum_mine_tonnes	Tantalum	Reserves	Mine	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_tantalum_total_constant_1998_usd_per_tonne	Tantalum	Unit value	Total	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_tantalum_and_niobium_columbite_tonnes	Tantalum and niobium	Exports	Columbite	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_tantalum_and_niobium_columbite_tonnes	Tantalum and niobium	Exports	Columbite	true	true	false
@@ -1236,6 +1278,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_titanium_and_titanium_dioxide_sponge_metal_production_and_sponge_and_pigment_yearend_operating_capacity_tonnes	Titanium and titanium dioxide	Production	Sponge metal production and sponge and pigment yearend operating capacity	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_titanium_and_titanium_dioxide_sponge_metal_production_and_sponge_and_pigment_yearend_operating_capacity_tonnes	Titanium and titanium dioxide	Production	Sponge metal production and sponge and pigment yearend operating capacity	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_titanium_dioxide_total_tonnes__gross_weight	Titanium dioxide	Production	Total (tonnes, gross weight)	false	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_titanium_dioxide_total_tonnes__gross_weight	Titanium dioxide	Production	Total (tonnes, gross weight)	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_titanium_dioxide_total_constant_1998_usd_per_tonne	Titanium dioxide	Unit value	Total	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_titanium_mineral_concentrates_mine_production__ilmenite_tonnes_of_titanium_dioxide_content	Titanium mineral concentrates	Production	Mine production, ilmenite (tonnes of titanium dioxide content)	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_titanium_mineral_concentrates_mine_production__ilmenite_tonnes_of_titanium_dioxide_content	Titanium mineral concentrates	Production	Mine production, ilmenite (tonnes of titanium dioxide content)	true	true	false
@@ -1269,6 +1312,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_titanium_minerals_unknown_tonnes	Titanium minerals	Production	Unknown	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_titanium_scrap_total_constant_1998_usd_per_tonne	Titanium scrap	Unit value	Total	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_titanium_sponge_total_tonnes	Titanium sponge	Production	Total	false	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_titanium_sponge_total_tonnes	Titanium sponge	Production	Total	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_titanium_sponge_total_constant_1998_usd_per_tonne	Titanium sponge	Unit value	Total	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_tungsten_ammonium_paratungstate_tonnes	Tungsten	Exports	Ammonium paratungstate	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_tungsten_ammonium_paratungstate_tonnes	Tungsten	Exports	Ammonium paratungstate	true	true	false
@@ -1339,6 +1383,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_vermiculite_unknown_tonnes	Vermiculite	Production	Unknown	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_vermiculite_unknown_tonnes	Vermiculite	Production	Unknown	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_vermiculite_mine_tonnes	Vermiculite	Reserves	Mine	false	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_vermiculite_mine_tonnes	Vermiculite	Reserves	Mine	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_wollastonite_mine_tonnes	Wollastonite	Production	Mine	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_wollastonite_mine_tonnes	Wollastonite	Production	Mine	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_wollastonite_unknown_tonnes	Wollastonite	Production	Unknown	false	true	false
@@ -1346,6 +1391,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_zeolites__natural__mine_tonnes	Zeolites (natural)	Production	Mine	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_zeolites__natural__mine_tonnes	Zeolites (natural)	Production	Mine	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_zeolites__natural__mine_tonnes	Zeolites (natural)	Reserves	Mine	false	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_zeolites__natural__mine_tonnes	Zeolites (natural)	Reserves	Mine	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_zinc_mine_tonnes	Zinc	Production	Mine	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_zinc_mine_tonnes	Zinc	Production	Mine	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_zinc_refinery_tonnes	Zinc	Production	Refinery	false	true	false
