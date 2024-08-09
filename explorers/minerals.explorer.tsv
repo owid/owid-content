@@ -95,11 +95,11 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_bauxite_mine_tonnes	Bauxite	Reserves	Mine	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_bauxite_mine_tonnes	Bauxite	Reserves	Mine	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_bauxite_mine_constant_1998_usd_per_tonne	Bauxite	Unit value	Mine	false	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_beryl_unknown_tonnes	Beryl	Production	Unknown	false	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_beryl_unknown_tonnes	Beryl	Production	Unknown	true	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_beryl_mine_tonnes	Beryl	Production	Mine	false	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_beryl_mine_tonnes	Beryl	Production	Mine	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_beryllium_mine_tonnes	Beryllium	Production	Mine	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_beryllium_mine_tonnes	Beryllium	Production	Mine	true	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_beryllium_total_constant_1998_usd_per_tonne	Beryllium	Unit value	Total	false	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_beryllium_mine_constant_1998_usd_per_tonne	Beryllium	Unit value	Mine	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_bismuth_compounds_tonnes	Bismuth	Exports	Compounds	false	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_bismuth_compounds_tonnes	Bismuth	Exports	Compounds	true	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_bismuth_metal_tonnes	Bismuth	Exports	Metal	false	true	false
