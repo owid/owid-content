@@ -316,21 +316,15 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_dimension_stone_total_tonnes_of_gross_weight	Dimension stone	Production	Total (tonnes of gross weight)	false	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_dimension_stone_total_tonnes_of_gross_weight	Dimension stone	Production	Total (tonnes of gross weight)	true	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_dimension_stone_total_constant_1998_usd_per_tonne	Dimension stone	Unit value	Total	false	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_feldspar_unknown_tonnes	Feldspar	Exports	Unknown	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_feldspar_unknown_tonnes	Feldspar	Exports	Unknown	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_feldspar_unknown_tonnes	Feldspar	Imports	Unknown	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_feldspar_unknown_tonnes	Feldspar	Imports	Unknown	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_feldspar_mine_tonnes	Feldspar	Production	Mine (tonnes)	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_feldspar_mine_tonnes	Feldspar	Production	Mine (tonnes)	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_feldspar_total_tonnes_of_gross_weight	Feldspar	Production	Total (tonnes of gross weight)	false	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_feldspar_total_tonnes_of_gross_weight	Feldspar	Production	Total (tonnes of gross weight)	true	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_feldspar_unknown_tonnes	Feldspar	Production	Unknown (tonnes)	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_feldspar_unknown_tonnes	Feldspar	Production	Unknown (tonnes)	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#exports_feldspar_mine_tonnes	Feldspar	Exports	Mine	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_feldspar_mine_tonnes	Feldspar	Exports	Mine	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#imports_feldspar_mine_tonnes	Feldspar	Imports	Mine	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_feldspar_mine_tonnes	Feldspar	Imports	Mine	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_feldspar_mine_tonnes	Feldspar	Production	Mine	false	1900	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_feldspar_mine_tonnes	Feldspar	Production	Mine	true	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_feldspar_mine_tonnes	Feldspar	Reserves	Mine	false	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_feldspar_mine_tonnes	Feldspar	Reserves	Mine	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_feldspar_total_constant_1998_usd_per_tonne	Feldspar	Unit value	Total	false	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_feldspar_and_nepheline_syenite_mine_tonnes	Feldspar and nepheline syenite	Production	Mine	false	2021	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_feldspar_and_nepheline_syenite_mine_tonnes	Feldspar and nepheline syenite	Production	Mine	true	2021	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_feldspar_mine_constant_1998_usd_per_tonne	Feldspar	Unit value	Mine	false	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_fluorspar_unknown_tonnes	Fluorspar	Exports	Unknown	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_fluorspar_unknown_tonnes	Fluorspar	Exports	Unknown	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#imports_fluorspar_unknown_tonnes	Fluorspar	Imports	Unknown	false	1970	true	false
