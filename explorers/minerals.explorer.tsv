@@ -618,8 +618,6 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_mica_waste_tonnes	Mica	Imports	Waste	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_mica_crude_tonnes	Mica	Production	Crude (tonnes)	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_mica_crude_tonnes	Mica	Production	Crude (tonnes)	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_mica_natural__scrap_and_flake_tonnes_of_gross_weight	Mica	Production	Natural, scrap and flake (tonnes of gross weight)	false	1906	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_mica_natural__scrap_and_flake_tonnes_of_gross_weight	Mica	Production	Natural, scrap and flake (tonnes of gross weight)	true	1906	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_mica_natural__sheet_tonnes_of_gross_weight	Mica	Production	Natural, sheet (tonnes of gross weight)	false	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_mica_natural__sheet_tonnes_of_gross_weight	Mica	Production	Natural, sheet (tonnes of gross weight)	true	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_mica_phlogopite_tonnes	Mica	Production	Phlogopite (tonnes)	false	1970	true	false
@@ -630,7 +628,6 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_mica_unknown_tonnes	Mica	Production	Unknown (tonnes)	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_mica_waste_tonnes	Mica	Production	Waste (tonnes)	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_mica_waste_tonnes	Mica	Production	Waste (tonnes)	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_mica_natural__scrap_and_flake_constant_1998_usd_per_tonne	Mica	Unit value	Natural, scrap and flake	false	1923	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_mica_natural__sheet_constant_1998_usd_per_tonne	Mica	Unit value	Natural, sheet	false	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_mica__natural__mine__scrap_and_flake_tonnes	Mica (natural)	Production	Mine, scrap and flake	false	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_mica__natural__mine__scrap_and_flake_tonnes	Mica (natural)	Production	Mine, scrap and flake	true	2023	true	false
@@ -751,8 +748,6 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_platinum_group_metals_platinum__and__platinum_metals_tonnes	Platinum group metals	Exports	Platinum & platinum metals	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_platinum_group_metals_platinum_metals_tonnes	Platinum group metals	Exports	Platinum metals	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_platinum_group_metals_platinum_metals_tonnes	Platinum group metals	Exports	Platinum metals	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_platinum_group_metals_waste__and__scrap_tonnes	Platinum group metals	Exports	Waste & scrap	false	1975	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_platinum_group_metals_waste__and__scrap_tonnes	Platinum group metals	Exports	Waste & scrap	true	1975	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#imports_platinum_group_metals_iridium__osmium__and__ruthenium_tonnes	Platinum group metals	Imports	Iridium, osmium & ruthenium	false	1984	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_platinum_group_metals_iridium__osmium__and__ruthenium_tonnes	Platinum group metals	Imports	Iridium, osmium & ruthenium	true	1984	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#imports_platinum_group_metals_ores__and__concentrates_tonnes	Platinum group metals	Imports	Ores & concentrates	false	1970	true	false
@@ -775,8 +770,6 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_platinum_group_metals_ruthenium_tonnes	Platinum group metals	Imports	Ruthenium	true	1972	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#imports_platinum_group_metals_sponge_tonnes	Platinum group metals	Imports	Sponge	false	1971	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_platinum_group_metals_sponge_tonnes	Platinum group metals	Imports	Sponge	true	1971	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_platinum_group_metals_waste__and__scrap_tonnes	Platinum group metals	Imports	Waste & scrap	false	1975	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_platinum_group_metals_waste__and__scrap_tonnes	Platinum group metals	Imports	Waste & scrap	true	1975	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_platinum_group_metals_mine__iridium_tonnes_of_metal_content	Platinum group metals	Production	Mine, iridium (tonnes of metal content)	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_platinum_group_metals_mine__iridium_tonnes_of_metal_content	Platinum group metals	Production	Mine, iridium (tonnes of metal content)	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_platinum_group_metals_mine__osmiridium_tonnes_of_metal_content	Platinum group metals	Production	Mine, osmiridium (tonnes of metal content)	false	1970	true	false
@@ -1230,87 +1223,28 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_tin_mine_constant_1998_usd_per_tonne	Tin	Unit value	Mine	false	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_titanium_ilmenite_tonnes	Titanium	Exports	Ilmenite	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_titanium_ilmenite_tonnes	Titanium	Exports	Ilmenite	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_titanium_leucoxene_tonnes	Titanium	Exports	Leucoxene	false	1976	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_titanium_leucoxene_tonnes	Titanium	Exports	Leucoxene	true	1976	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_titanium_metal_tonnes	Titanium	Exports	Metal	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_titanium_metal_tonnes	Titanium	Exports	Metal	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_titanium_ores__and__concentrates_tonnes	Titanium	Exports	Ores & concentrates	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_titanium_ores__and__concentrates_tonnes	Titanium	Exports	Ores & concentrates	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_titanium_other_titanium_minerals_tonnes	Titanium	Exports	Other titanium minerals	false	1973	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_titanium_other_titanium_minerals_tonnes	Titanium	Exports	Other titanium minerals	true	1973	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_titanium_oxides_tonnes	Titanium	Exports	Oxides	false	1976	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_titanium_oxides_tonnes	Titanium	Exports	Oxides	true	1976	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_titanium_rutile_tonnes	Titanium	Exports	Rutile	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_titanium_rutile_tonnes	Titanium	Exports	Rutile	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_titanium_sponge_tonnes	Titanium	Exports	Sponge	false	1973	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_titanium_sponge_tonnes	Titanium	Exports	Sponge	true	1973	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_titanium_titanium_minerals_tonnes	Titanium	Exports	Titanium minerals	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_titanium_titanium_minerals_tonnes	Titanium	Exports	Titanium minerals	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_titanium_titanium_minerals__and__slag_tonnes	Titanium	Exports	Titanium minerals & slag	false	1980	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_titanium_titanium_minerals__and__slag_tonnes	Titanium	Exports	Titanium minerals & slag	true	1980	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_titanium_titanium_slag_tonnes	Titanium	Exports	Titanium slag	false	1979	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_titanium_titanium_slag_tonnes	Titanium	Exports	Titanium slag	true	1979	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_titanium_unwrought_tonnes	Titanium	Exports	Unwrought	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_titanium_unwrought_tonnes	Titanium	Exports	Unwrought	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_titanium_wrought_tonnes	Titanium	Exports	Wrought	false	1974	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_titanium_wrought_tonnes	Titanium	Exports	Wrought	true	1974	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#imports_titanium_ilmenite_tonnes	Titanium	Imports	Ilmenite	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_titanium_ilmenite_tonnes	Titanium	Imports	Ilmenite	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#imports_titanium_metal_tonnes	Titanium	Imports	Metal	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_titanium_metal_tonnes	Titanium	Imports	Metal	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_titanium_other_titanium_minerals_tonnes	Titanium	Imports	Other titanium minerals	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_titanium_other_titanium_minerals_tonnes	Titanium	Imports	Other titanium minerals	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_titanium_oxides_tonnes	Titanium	Imports	Oxides	false	1976	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_titanium_oxides_tonnes	Titanium	Imports	Oxides	true	1976	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#imports_titanium_rutile_tonnes	Titanium	Imports	Rutile	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_titanium_rutile_tonnes	Titanium	Imports	Rutile	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_titanium_rutile_sand_tonnes	Titanium	Imports	Rutile sand	false	1971	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_titanium_rutile_sand_tonnes	Titanium	Imports	Rutile sand	true	1971	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#imports_titanium_titanium_minerals_tonnes	Titanium	Imports	Titanium minerals	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_titanium_titanium_minerals_tonnes	Titanium	Imports	Titanium minerals	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_titanium_titanium_slag_tonnes	Titanium	Imports	Titanium slag	false	1972	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_titanium_titanium_slag_tonnes	Titanium	Imports	Titanium slag	true	1972	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_titanium_and_titanium_dioxide_sponge_metal_production_and_sponge_and_pigment_capacity_tonnes	Titanium and titanium dioxide	Production	Sponge metal production and sponge and pigment capacity	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_titanium_and_titanium_dioxide_sponge_metal_production_and_sponge_and_pigment_capacity_tonnes	Titanium and titanium dioxide	Production	Sponge metal production and sponge and pigment capacity	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_titanium_and_titanium_dioxide_sponge_metal_production_and_sponge_and_pigment_yearend_operating_capacity_tonnes	Titanium and titanium dioxide	Production	Sponge metal production and sponge and pigment yearend operating capacity	false	2022	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_titanium_and_titanium_dioxide_sponge_metal_production_and_sponge_and_pigment_yearend_operating_capacity_tonnes	Titanium and titanium dioxide	Production	Sponge metal production and sponge and pigment yearend operating capacity	true	2022	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_titanium_dioxide_total_tonnes_of_gross_weight	Titanium dioxide	Production	Total (tonnes of gross weight)	false	1950	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_titanium_dioxide_total_tonnes_of_gross_weight	Titanium dioxide	Production	Total (tonnes of gross weight)	true	1950	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_titanium_dioxide_total_constant_1998_usd_per_tonne	Titanium dioxide	Unit value	Total	false	1939	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_titanium_mineral_concentrates_mine_production__ilmenite_tonnes_of_titanium_dioxide_content	Titanium mineral concentrates	Production	Mine production, ilmenite (tonnes of titanium dioxide content)	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_titanium_mineral_concentrates_mine_production__ilmenite_tonnes_of_titanium_dioxide_content	Titanium mineral concentrates	Production	Mine production, ilmenite (tonnes of titanium dioxide content)	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_titanium_mineral_concentrates_mine_production__ilmenite_and_rutile_tonnes_of_titanium_dioxide_content	Titanium mineral concentrates	Production	Mine production, ilmenite and rutile (tonnes of titanium dioxide content)	false	2022	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_titanium_mineral_concentrates_mine_production__ilmenite_and_rutile_tonnes_of_titanium_dioxide_content	Titanium mineral concentrates	Production	Mine production, ilmenite and rutile (tonnes of titanium dioxide content)	true	2022	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_titanium_mineral_concentrates_mine_production__rutile_tonnes_of_titanium_dioxide_content	Titanium mineral concentrates	Production	Mine production, rutile (tonnes of titanium dioxide content)	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_titanium_mineral_concentrates_mine_production__rutile_tonnes_of_titanium_dioxide_content	Titanium mineral concentrates	Production	Mine production, rutile (tonnes of titanium dioxide content)	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_titanium_mineral_concentrates_mine__ilmenite_and_rutile_tonnes	Titanium mineral concentrates	Production	Mine, ilmenite and rutile (tonnes)	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_titanium_mineral_concentrates_mine__ilmenite_and_rutile_tonnes	Titanium mineral concentrates	Production	Mine, ilmenite and rutile (tonnes)	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_titanium_mineral_concentrates_mine__rutile_tonnes	Titanium mineral concentrates	Production	Mine, rutile (tonnes)	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_titanium_mineral_concentrates_mine__rutile_tonnes	Titanium mineral concentrates	Production	Mine, rutile (tonnes)	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#reserves_titanium_mineral_concentrates_mine_production__ilmenite_tonnes_of_titanium_dioxide_content	Titanium mineral concentrates	Reserves	Mine production, ilmenite (tonnes of titanium dioxide content)	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_titanium_mineral_concentrates_mine_production__ilmenite_tonnes_of_titanium_dioxide_content	Titanium mineral concentrates	Reserves	Mine production, ilmenite (tonnes of titanium dioxide content)	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#reserves_titanium_mineral_concentrates_mine_production__ilmenite_and_rutile_tonnes_of_titanium_dioxide_content	Titanium mineral concentrates	Reserves	Mine production, ilmenite and rutile (tonnes of titanium dioxide content)	false	2022	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_titanium_mineral_concentrates_mine_production__ilmenite_and_rutile_tonnes_of_titanium_dioxide_content	Titanium mineral concentrates	Reserves	Mine production, ilmenite and rutile (tonnes of titanium dioxide content)	true	2022	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#reserves_titanium_mineral_concentrates_mine_production__rutile_tonnes_of_titanium_dioxide_content	Titanium mineral concentrates	Reserves	Mine production, rutile (tonnes of titanium dioxide content)	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_titanium_mineral_concentrates_mine_production__rutile_tonnes_of_titanium_dioxide_content	Titanium mineral concentrates	Reserves	Mine production, rutile (tonnes of titanium dioxide content)	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#reserves_titanium_mineral_concentrates_mine__ilmenite_and_rutile_tonnes	Titanium mineral concentrates	Reserves	Mine, ilmenite and rutile (tonnes)	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_titanium_mineral_concentrates_mine__ilmenite_and_rutile_tonnes	Titanium mineral concentrates	Reserves	Mine, ilmenite and rutile (tonnes)	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#reserves_titanium_mineral_concentrates_mine__rutile_tonnes	Titanium mineral concentrates	Reserves	Mine, rutile (tonnes)	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_titanium_mineral_concentrates_mine__rutile_tonnes	Titanium mineral concentrates	Reserves	Mine, rutile (tonnes)	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_titanium_minerals_ilmenite_tonnes	Titanium minerals	Production	Ilmenite	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_titanium_minerals_ilmenite_tonnes	Titanium minerals	Production	Ilmenite	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_titanium_minerals_leucoxene_tonnes	Titanium minerals	Production	Leucoxene	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_titanium_minerals_leucoxene_tonnes	Titanium minerals	Production	Leucoxene	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_titanium_minerals_rutile_tonnes	Titanium minerals	Production	Rutile	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_titanium_minerals_rutile_tonnes	Titanium minerals	Production	Rutile	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_titanium_minerals_titanium_slag_tonnes	Titanium minerals	Production	Titanium slag	false	1976	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_titanium_minerals_titanium_slag_tonnes	Titanium minerals	Production	Titanium slag	true	1976	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_titanium_minerals_unknown_tonnes	Titanium minerals	Production	Unknown	false	1974	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_titanium_minerals_unknown_tonnes	Titanium minerals	Production	Unknown	true	1974	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_titanium_scrap_total_constant_1998_usd_per_tonne	Titanium scrap	Unit value	Total	false	1976	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_titanium_sponge_total_tonnes	Titanium sponge	Production	Total	false	1948	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_titanium_sponge_total_tonnes	Titanium sponge	Production	Total	true	1948	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_titanium_sponge_total_constant_1998_usd_per_tonne	Titanium sponge	Unit value	Total	false	1941	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_titanium_ilmenite_tonnes	Titanium	Production	Ilmenite	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_titanium_ilmenite_tonnes	Titanium	Production	Ilmenite	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_titanium_rutile_tonnes	Titanium	Production	Rutile	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_titanium_rutile_tonnes	Titanium	Production	Rutile	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#reserves_titanium_ilmenite_tonnes	Titanium	Reserves	Ilmenite	false	2023	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_titanium_ilmenite_tonnes	Titanium	Reserves	Ilmenite	true	2023	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#reserves_titanium_rutile_tonnes	Titanium	Reserves	Rutile	false	2023	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_titanium_rutile_tonnes	Titanium	Reserves	Rutile	true	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_tungsten_ammonium_paratungstate_tonnes	Tungsten	Exports	Ammonium paratungstate	false	1976	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_tungsten_ammonium_paratungstate_tonnes	Tungsten	Exports	Ammonium paratungstate	true	1976	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_tungsten_carbide_tonnes	Tungsten	Exports	Carbide	false	1970	true	false
