@@ -7,7 +7,7 @@ hideAlertBanner	true
 yAxisMin	0
 hasMapTab	true
 pickerColumnSlugs	location total_confirmed_by_confirmation total_confirmed_by_confirmation_per_million
-downloadDataLink	https://raw.githubusercontent.com/owid/monkeypox/main/owid-monkeypox-data.csv
+downloadDataLink	https://catalog.ourworldindata.org/explorers/who/latest/monkeypox/monkeypox.csv
 graphers
 	title	subtitle	ySlugs	hideAnnotationFieldsInTitle	Metric Radio	Frequency Radio	Relative to population Checkbox	type	yScaleToggle
 	Mpox: Daily confirmed cases	7-day rolling average	new_cases_smoothed	true	Confirmed cases	7-day average	false	LineChart	true
@@ -23,7 +23,7 @@ graphers
 	Mpox: Daily confirmed deaths per million people	7-day rolling average	new_deaths_smoothed_per_million	true	Confirmed deaths	7-day average	true	LineChart	true
 	Mpox: Daily confirmed deaths per million people		new_deaths_per_million	true	Confirmed deaths	Daily	true	StackedBar	true
 
-table	https://raw.githubusercontent.com/owid/monkeypox/main/owid-monkeypox-data.csv
+table	https://catalog.ourworldindata.org/explorers/who/latest/monkeypox/monkeypox.csv
 columns
 	slug	name	type	tolerance	sourceName	sourceLink	additionalInfo	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleScheme
 	location	Country	EntityName
