@@ -891,47 +891,25 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_strontium_mine_tonnes	Strontium	Reserves	Mine	false	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_strontium_mine_tonnes	Strontium	Reserves	Mine	true	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_strontium_mine_constant_1998_usd_per_tonne	Strontium	Unit value	Mine	false	1917	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_sulfur_production__all_forms_tonnes	Sulfur	Production	Production, all forms	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_sulfur_production__all_forms_tonnes	Sulfur	Production	Production, all forms	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_sulfur_total_tonnes	Sulfur	Production	Total	false	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_sulfur_total_tonnes	Sulfur	Production	Total	true	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_sulfur_total_constant_1998_usd_per_tonne	Sulfur	Unit value	Total	false	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_sulphur_and_pyrites_other_tonnes	Sulphur and pyrites	Exports	Other	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_sulphur_and_pyrites_other_tonnes	Sulphur and pyrites	Exports	Other	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_sulphur_and_pyrites_precipitated_tonnes	Sulphur and pyrites	Exports	Precipitated	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_sulphur_and_pyrites_precipitated_tonnes	Sulphur and pyrites	Exports	Precipitated	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_sulphur_and_pyrites_pyrites_tonnes	Sulphur and pyrites	Exports	Pyrites	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_sulphur_and_pyrites_pyrites_tonnes	Sulphur and pyrites	Exports	Pyrites	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_sulphur_and_pyrites_pyrites__cupreous_tonnes	Sulphur and pyrites	Exports	Pyrites - cupreous	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_sulphur_and_pyrites_pyrites__cupreous_tonnes	Sulphur and pyrites	Exports	Pyrites - cupreous	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_sulphur_and_pyrites_sublimed_tonnes	Sulphur and pyrites	Exports	Sublimed	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_sulphur_and_pyrites_sublimed_tonnes	Sulphur and pyrites	Exports	Sublimed	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_sulphur_and_pyrites_sulfur_tonnes	Sulphur and pyrites	Exports	Sulfur	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_sulphur_and_pyrites_sulfur_tonnes	Sulphur and pyrites	Exports	Sulfur	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_sulphur_and_pyrites_sulfur__crude_tonnes	Sulphur and pyrites	Exports	Sulfur, crude	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_sulphur_and_pyrites_sulfur__crude_tonnes	Sulphur and pyrites	Exports	Sulfur, crude	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_sulphur_and_pyrites_sulfur__refined_tonnes	Sulphur and pyrites	Exports	Sulfur, refined	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_sulphur_and_pyrites_sulfur__refined_tonnes	Sulphur and pyrites	Exports	Sulfur, refined	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_sulphur_and_pyrites_sulfur__sublimed__and__precipitated_tonnes	Sulphur and pyrites	Exports	Sulfur, sublimed & precipitated	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_sulphur_and_pyrites_sulfur__sublimed__and__precipitated_tonnes	Sulphur and pyrites	Exports	Sulfur, sublimed & precipitated	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_sulphur_and_pyrites_zinc_concentrates_tonnes	Sulphur and pyrites	Exports	Zinc concentrates	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_sulphur_and_pyrites_zinc_concentrates_tonnes	Sulphur and pyrites	Exports	Zinc concentrates	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_sulphur_and_pyrites_precipitated_tonnes	Sulphur and pyrites	Imports	Precipitated	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_sulphur_and_pyrites_precipitated_tonnes	Sulphur and pyrites	Imports	Precipitated	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_sulphur_and_pyrites_pyrites_tonnes	Sulphur and pyrites	Imports	Pyrites	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_sulphur_and_pyrites_pyrites_tonnes	Sulphur and pyrites	Imports	Pyrites	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_sulphur_and_pyrites_sublimed_tonnes	Sulphur and pyrites	Imports	Sublimed	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_sulphur_and_pyrites_sublimed_tonnes	Sulphur and pyrites	Imports	Sublimed	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_sulphur_and_pyrites_sulfur_tonnes	Sulphur and pyrites	Imports	Sulfur	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_sulphur_and_pyrites_sulfur_tonnes	Sulphur and pyrites	Imports	Sulfur	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_sulphur_and_pyrites_sulfur__crude_tonnes	Sulphur and pyrites	Imports	Sulfur, crude	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_sulphur_and_pyrites_sulfur__crude_tonnes	Sulphur and pyrites	Imports	Sulfur, crude	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_sulphur_and_pyrites_sulfur__other_tonnes	Sulphur and pyrites	Imports	Sulfur, other	false	1972	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_sulphur_and_pyrites_sulfur__other_tonnes	Sulphur and pyrites	Imports	Sulfur, other	true	1972	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_sulphur_and_pyrites_sulfur__refined_tonnes	Sulphur and pyrites	Imports	Sulfur, refined	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_sulphur_and_pyrites_sulfur__refined_tonnes	Sulphur and pyrites	Imports	Sulfur, refined	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_sulphur_and_pyrites_sulfur__sublimed__and__precipitated_tonnes	Sulphur and pyrites	Imports	Sulfur, sublimed & precipitated	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_sulphur_and_pyrites_sulfur__sublimed__and__precipitated_tonnes	Sulphur and pyrites	Imports	Sulfur, sublimed & precipitated	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#exports_sulfur_crude_tonnes	Sulfur	Exports	Crude	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_sulfur_crude_tonnes	Sulfur	Exports	Crude	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#exports_sulfur_pyrites_tonnes	Sulfur	Exports	Pyrites	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_sulfur_pyrites_tonnes	Sulfur	Exports	Pyrites	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#exports_sulfur_refinery_tonnes	Sulfur	Exports	Refinery	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_sulfur_refinery_tonnes	Sulfur	Exports	Refinery	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#exports_sulfur_sulfur_tonnes	Sulfur	Exports	Sulfur	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_sulfur_sulfur_tonnes	Sulfur	Exports	Sulfur	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#imports_sulfur_crude_tonnes	Sulfur	Imports	Crude	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_sulfur_crude_tonnes	Sulfur	Imports	Crude	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#imports_sulfur_pyrites_tonnes	Sulfur	Imports	Pyrites	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_sulfur_pyrites_tonnes	Sulfur	Imports	Pyrites	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#imports_sulfur_refinery_tonnes	Sulfur	Imports	Refinery	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_sulfur_refinery_tonnes	Sulfur	Imports	Refinery	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#imports_sulfur_sulfur_tonnes	Sulfur	Imports	Sulfur	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_sulfur_sulfur_tonnes	Sulfur	Imports	Sulfur	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_sulfur_processing_tonnes	Sulfur	Production	Processing	false	1900	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_sulfur_processing_tonnes	Sulfur	Production	Processing	true	1900	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_sulfur_processing_constant_1998_usd_per_tonne	Sulfur	Unit value	Processing	false	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_talc_other_tonnes	Talc	Exports	Other	false	1979	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_talc_other_tonnes	Talc	Exports	Other	true	1979	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_talc_pyrophyllite_tonnes	Talc	Exports	Pyrophyllite	false	1970	true	false
@@ -1026,41 +1004,23 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_titanium_ilmenite_tonnes	Titanium	Reserves	Ilmenite	true	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_titanium_rutile_tonnes	Titanium	Reserves	Rutile	false	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_titanium_rutile_tonnes	Titanium	Reserves	Rutile	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_tungsten_ammonium_paratungstate_tonnes	Tungsten	Exports	Ammonium paratungstate	false	1976	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_tungsten_ammonium_paratungstate_tonnes	Tungsten	Exports	Ammonium paratungstate	true	1976	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_tungsten_carbide_tonnes	Tungsten	Exports	Carbide	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_tungsten_carbide_tonnes	Tungsten	Exports	Carbide	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_tungsten_metal_tonnes	Tungsten	Exports	Metal	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_tungsten_metal_tonnes	Tungsten	Exports	Metal	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_tungsten_ores__and__concentrates_tonnes	Tungsten	Exports	Ores & concentrates	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_tungsten_ores__and__concentrates_tonnes	Tungsten	Exports	Ores & concentrates	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_tungsten_other_tungsten_ores_tonnes	Tungsten	Exports	Other tungsten ores	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_tungsten_other_tungsten_ores_tonnes	Tungsten	Exports	Other tungsten ores	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_tungsten_powder_tonnes	Tungsten	Exports	Powder	false	1971	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_tungsten_powder_tonnes	Tungsten	Exports	Powder	true	1971	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_tungsten_scheelite_ores__and__concentrates_tonnes	Tungsten	Exports	Scheelite ores & concentrates	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_tungsten_scheelite_ores__and__concentrates_tonnes	Tungsten	Exports	Scheelite ores & concentrates	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_tungsten_unknown_tonnes	Tungsten	Exports	Unknown	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_tungsten_unknown_tonnes	Tungsten	Exports	Unknown	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_tungsten_wolframite_ores__and__concentrates_tonnes	Tungsten	Exports	Wolframite ores & concentrates	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_tungsten_wolframite_ores__and__concentrates_tonnes	Tungsten	Exports	Wolframite ores & concentrates	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_tungsten_ammonium_paratungstate_tonnes	Tungsten	Imports	Ammonium paratungstate	false	1976	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_tungsten_ammonium_paratungstate_tonnes	Tungsten	Imports	Ammonium paratungstate	true	1976	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#imports_tungsten_carbide_tonnes	Tungsten	Imports	Carbide	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_tungsten_carbide_tonnes	Tungsten	Imports	Carbide	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#imports_tungsten_metal_tonnes	Tungsten	Imports	Metal	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_tungsten_metal_tonnes	Tungsten	Imports	Metal	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#imports_tungsten_ores__and__concentrates_tonnes	Tungsten	Imports	Ores & concentrates	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_tungsten_ores__and__concentrates_tonnes	Tungsten	Imports	Ores & concentrates	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_tungsten_mine_tonnes_of_metal_content	Tungsten	Production	Mine (tonnes of metal content)	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_tungsten_mine_tonnes_of_metal_content	Tungsten	Production	Mine (tonnes of metal content)	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_tungsten_mine_tonnes	Tungsten	Production	Mine (tonnes)	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_tungsten_mine_tonnes	Tungsten	Production	Mine (tonnes)	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_tungsten_total_tonnes	Tungsten	Production	Total (tonnes)	false	1905	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_tungsten_total_tonnes	Tungsten	Production	Total (tonnes)	true	1905	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_tungsten_mine_tonnes	Tungsten	Production	Mine	false	1905	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_tungsten_mine_tonnes	Tungsten	Production	Mine	true	1905	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_tungsten_mine_tonnes	Tungsten	Reserves	Mine	false	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_tungsten_mine_tonnes	Tungsten	Reserves	Mine	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_tungsten_total_constant_1998_usd_per_tonne	Tungsten	Unit value	Total	false	1900	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_tungsten_mine_constant_1998_usd_per_tonne	Tungsten	Unit value	Mine	false	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_uranium_unknown_tonnes_of_metal_content	Uranium	Production	Unknown (tonnes of metal content)	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_uranium_unknown_tonnes_of_metal_content	Uranium	Production	Unknown (tonnes of metal content)	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_vanadium_lead_vanadium_concentrates_tonnes	Vanadium	Exports	Lead vanadium concentrates	false	1970	true	false
