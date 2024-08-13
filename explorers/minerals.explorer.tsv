@@ -162,12 +162,16 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_clays_bentonite_tonnes	Clays	Exports	Bentonite	true	1974	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_clays_fullers_earth_tonnes	Clays	Exports	Fuller's earth	false	1974	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_clays_fullers_earth_tonnes	Clays	Exports	Fuller's earth	true	1974	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#exports_clays_kaolin_tonnes	Clays	Exports	Kaolin	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_clays_kaolin_tonnes	Clays	Exports	Kaolin	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_clays_sepiolite_tonnes	Clays	Exports	Sepiolite	false	1987	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_clays_sepiolite_tonnes	Clays	Exports	Sepiolite	true	1987	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#imports_clays_bentonite_tonnes	Clays	Imports	Bentonite	false	1974	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_clays_bentonite_tonnes	Clays	Imports	Bentonite	true	1974	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#imports_clays_fullers_earth_tonnes	Clays	Imports	Fuller's earth	false	1974	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_clays_fullers_earth_tonnes	Clays	Imports	Fuller's earth	true	1974	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#imports_clays_kaolin_tonnes	Clays	Imports	Kaolin	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_clays_kaolin_tonnes	Clays	Imports	Kaolin	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#imports_clays_sepiolite_tonnes	Clays	Imports	Sepiolite	false	1992	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_clays_sepiolite_tonnes	Clays	Imports	Sepiolite	true	1992	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_clays_attapulgite_tonnes	Clays	Production	Attapulgite	false	1974	true	false
@@ -180,8 +184,8 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_clays_fire_clay_tonnes	Clays	Production	Fire clay	true	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_clays_fullers_earth_tonnes	Clays	Production	Fuller's earth	false	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_clays_fullers_earth_tonnes	Clays	Production	Fuller's earth	true	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_clays_kaolin_tonnes	Clays	Production	Kaolin	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_clays_kaolin_tonnes	Clays	Production	Kaolin	true	2023	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_clays_kaolin_tonnes	Clays	Production	Kaolin	false	1900	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_clays_kaolin_tonnes	Clays	Production	Kaolin	true	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_clays_miscellaneous_tonnes	Clays	Production	Miscellaneous	false	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_clays_miscellaneous_tonnes	Clays	Production	Miscellaneous	true	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_clays_sepiolite_tonnes	Clays	Production	Sepiolite	false	1978	true	false
@@ -190,6 +194,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_clays_bentonite_constant_1998_usd_per_tonne	Clays	Unit value	Bentonite	false	1930	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_clays_fire_clay_constant_1998_usd_per_tonne	Clays	Unit value	Fire clay	false	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_clays_fullers_earth_constant_1998_usd_per_tonne	Clays	Unit value	Fuller's earth	false	1900	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_clays_kaolin_constant_1998_usd_per_tonne	Clays	Unit value	Kaolin	false	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_clays_miscellaneous_constant_1998_usd_per_tonne	Clays	Unit value	Miscellaneous	false	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_coal_anthracite_tonnes	Coal	Exports	Anthracite	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_coal_anthracite_tonnes	Coal	Exports	Anthracite	true	1970	true	false
@@ -411,15 +416,6 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_iron_ore_iron_content_tonnes	Iron ore	Reserves	Iron content	false	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_iron_ore_iron_content_tonnes	Iron ore	Reserves	Iron content	true	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_iron_ore_crude_ore_constant_1998_usd_per_tonne	Iron ore	Unit value	Crude ore	false	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_kaolin_unknown_tonnes	Kaolin	Exports	Unknown	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_kaolin_unknown_tonnes	Kaolin	Exports	Unknown	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_kaolin_unknown_tonnes	Kaolin	Imports	Unknown	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_kaolin_unknown_tonnes	Kaolin	Imports	Unknown	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_kaolin_total_tonnes_of_gross_weight	Kaolin	Production	Total (tonnes of gross weight)	false	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_kaolin_total_tonnes_of_gross_weight	Kaolin	Production	Total (tonnes of gross weight)	true	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_kaolin_unknown_tonnes	Kaolin	Production	Unknown (tonnes)	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_kaolin_unknown_tonnes	Kaolin	Production	Unknown (tonnes)	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_kaolin_total_constant_1998_usd_per_tonne	Kaolin	Unit value	Total	false	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_kyanite_mine__andalusite_tonnes	Kyanite	Production	Mine, andalusite	false	2022	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_kyanite_mine__andalusite_tonnes	Kyanite	Production	Mine, andalusite	true	2022	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_kyanite_mine__kyanite_tonnes	Kyanite	Production	Mine, kyanite	false	2022	true	false
@@ -456,50 +452,22 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_lithium_mine_tonnes	Lithium	Production	Mine	true	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_lithium_mine_tonnes	Lithium	Reserves	Mine	false	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_lithium_mine_tonnes	Lithium	Reserves	Mine	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_magnesite_and_magnesia_magnesia_tonnes	Magnesite and magnesia	Exports	Magnesia	false	1985	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_magnesite_and_magnesia_magnesia_tonnes	Magnesite and magnesia	Exports	Magnesia	true	1985	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_magnesite_and_magnesia_magnesite_tonnes	Magnesite and magnesia	Exports	Magnesite	false	1975	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_magnesite_and_magnesia_magnesite_tonnes	Magnesite and magnesia	Exports	Magnesite	true	1975	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_magnesite_and_magnesia_magnesite__calcined_tonnes	Magnesite and magnesia	Exports	Magnesite, calcined	false	1975	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_magnesite_and_magnesia_magnesite__calcined_tonnes	Magnesite and magnesia	Exports	Magnesite, calcined	true	1975	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_magnesite_and_magnesia_magnesite__crude_tonnes	Magnesite and magnesia	Exports	Magnesite, crude	false	1975	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_magnesite_and_magnesia_magnesite__crude_tonnes	Magnesite and magnesia	Exports	Magnesite, crude	true	1975	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_magnesite_and_magnesia_magnesite__crude__and__calcined_tonnes	Magnesite and magnesia	Exports	Magnesite, crude & calcined	false	1975	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_magnesite_and_magnesia_magnesite__crude__and__calcined_tonnes	Magnesite and magnesia	Exports	Magnesite, crude & calcined	true	1975	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_magnesite_and_magnesia_unknown_tonnes	Magnesite and magnesia	Exports	Unknown	false	1985	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_magnesite_and_magnesia_unknown_tonnes	Magnesite and magnesia	Exports	Unknown	true	1985	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_magnesite_and_magnesia_magnesia_tonnes	Magnesite and magnesia	Imports	Magnesia	false	1985	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_magnesite_and_magnesia_magnesia_tonnes	Magnesite and magnesia	Imports	Magnesia	true	1985	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_magnesite_and_magnesia_magnesite_tonnes	Magnesite and magnesia	Imports	Magnesite	false	1985	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_magnesite_and_magnesia_magnesite_tonnes	Magnesite and magnesia	Imports	Magnesite	true	1985	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_magnesite_and_magnesia_magnesite__calcined_tonnes	Magnesite and magnesia	Imports	Magnesite, calcined	false	1975	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_magnesite_and_magnesia_magnesite__calcined_tonnes	Magnesite and magnesia	Imports	Magnesite, calcined	true	1975	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_magnesite_and_magnesia_magnesite__crude_tonnes	Magnesite and magnesia	Imports	Magnesite, crude	false	1975	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_magnesite_and_magnesia_magnesite__crude_tonnes	Magnesite and magnesia	Imports	Magnesite, crude	true	1975	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_magnesite_and_magnesia_magnesite__crude__and__calcined_tonnes	Magnesite and magnesia	Imports	Magnesite, crude & calcined	false	1975	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_magnesite_and_magnesia_magnesite__crude__and__calcined_tonnes	Magnesite and magnesia	Imports	Magnesite, crude & calcined	true	1975	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_magnesite_and_magnesia_unknown_tonnes	Magnesite and magnesia	Imports	Unknown	false	1975	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_magnesite_and_magnesia_unknown_tonnes	Magnesite and magnesia	Imports	Unknown	true	1975	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_magnesite_and_magnesia_magnesite_tonnes	Magnesite and magnesia	Production	Magnesite	false	1975	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_magnesite_and_magnesia_magnesite_tonnes	Magnesite and magnesia	Production	Magnesite	true	1975	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_magnesium_compounds_mine_tonnes	Magnesium compounds	Production	Mine	false	2021	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_magnesium_compounds_mine_tonnes	Magnesium compounds	Production	Mine	true	2021	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_magnesium_compounds_mine__magnesium_carbonate_tonnes	Magnesium compounds	Production	Mine, magnesium carbonate	false	2022	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_magnesium_compounds_mine__magnesium_carbonate_tonnes	Magnesium compounds	Production	Mine, magnesium carbonate	true	2022	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_magnesium_compounds_mine__magnesium_oxide_tonnes	Magnesium compounds	Production	Mine, magnesium oxide	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_magnesium_compounds_mine__magnesium_oxide_tonnes	Magnesium compounds	Production	Mine, magnesium oxide	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_magnesium_compounds_total_tonnes	Magnesium compounds	Production	Total	false	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_magnesium_compounds_total_tonnes	Magnesium compounds	Production	Total	true	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#reserves_magnesium_compounds_mine__magnesium_carbonate_tonnes	Magnesium compounds	Reserves	Mine, magnesium carbonate	false	2022	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_magnesium_compounds_mine__magnesium_carbonate_tonnes	Magnesium compounds	Reserves	Mine, magnesium carbonate	true	2022	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#reserves_magnesium_compounds_mine__magnesium_oxide_tonnes	Magnesium compounds	Reserves	Mine, magnesium oxide	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_magnesium_compounds_mine__magnesium_oxide_tonnes	Magnesium compounds	Reserves	Mine, magnesium oxide	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_magnesium_compounds_total_constant_1998_usd_per_tonne	Magnesium compounds	Unit value	Total	false	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_magnesium_metal_primary_tonnes	Magnesium metal	Production	Primary	false	1937	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_magnesium_metal_primary_tonnes	Magnesium metal	Production	Primary	true	1937	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_magnesium_metal_smelter_tonnes	Magnesium metal	Production	Smelter	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_magnesium_metal_smelter_tonnes	Magnesium metal	Production	Smelter	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_magnesium_metal_primary_constant_1998_usd_per_tonne	Magnesium metal	Unit value	Primary	false	1915	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#exports_magnesium_compounds_magnesia_tonnes	Magnesium compounds	Exports	Magnesia	false	1985	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_magnesium_compounds_magnesia_tonnes	Magnesium compounds	Exports	Magnesia	true	1985	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#exports_magnesium_compounds_magnesite_tonnes	Magnesium compounds	Exports	Magnesite	false	1975	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_magnesium_compounds_magnesite_tonnes	Magnesium compounds	Exports	Magnesite	true	1975	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#imports_magnesium_compounds_magnesia_tonnes	Magnesium compounds	Imports	Magnesia	false	1985	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_magnesium_compounds_magnesia_tonnes	Magnesium compounds	Imports	Magnesia	true	1985	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#imports_magnesium_compounds_magnesite_tonnes	Magnesium compounds	Imports	Magnesite	false	1985	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_magnesium_compounds_magnesite_tonnes	Magnesium compounds	Imports	Magnesite	true	1985	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_magnesium_compounds_mine_tonnes	Magnesium compounds	Production	Mine	false	1900	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_magnesium_compounds_mine_tonnes	Magnesium compounds	Production	Mine	true	1900	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#reserves_magnesium_compounds_mine_tonnes	Magnesium compounds	Reserves	Mine	false	2023	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_magnesium_compounds_mine_tonnes	Magnesium compounds	Reserves	Mine	true	2023	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_magnesium_compounds_mine_constant_1998_usd_per_tonne	Magnesium compounds	Unit value	Mine	false	1900	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_magnesium_metal_smelter_tonnes	Magnesium metal	Production	Smelter	false	1937	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_magnesium_metal_smelter_tonnes	Magnesium metal	Production	Smelter	true	1937	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_magnesium_metal_smelter_constant_1998_usd_per_tonne	Magnesium metal	Unit value	Smelter	false	1915	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_manganese_ores__and__concentrates_tonnes	Manganese	Exports	Ores & concentrates	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_manganese_ores__and__concentrates_tonnes	Manganese	Exports	Ores & concentrates	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_manganese_refinery_tonnes	Manganese	Exports	Refinery	false	1975	true	false
@@ -522,63 +490,30 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_mercury_mine_tonnes	Mercury	Production	Mine	false	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_mercury_mine_tonnes	Mercury	Production	Mine	true	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_mercury_mine_constant_1998_usd_per_tonne	Mercury	Unit value	Mine	false	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_mica_block_tonnes	Mica	Exports	Block	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_mica_block_tonnes	Mica	Exports	Block	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_mica_condenser_films_tonnes	Mica	Exports	Condenser films	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_mica_condenser_films_tonnes	Mica	Exports	Condenser films	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_mica_ground_tonnes	Mica	Exports	Ground	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_mica_ground_tonnes	Mica	Exports	Ground	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_mica_ground__and__waste_tonnes	Mica	Exports	Ground & waste	false	1972	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_mica_ground__and__waste_tonnes	Mica	Exports	Ground & waste	true	1972	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_mica_mica_tonnes	Mica	Exports	Mica	false	1977	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_mica_mica_tonnes	Mica	Exports	Mica	true	1977	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_mica_splittings_tonnes	Mica	Exports	Splittings	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_mica_splittings_tonnes	Mica	Exports	Splittings	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_mica_unknown_tonnes	Mica	Exports	Unknown	false	1978	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_mica_unknown_tonnes	Mica	Exports	Unknown	true	1978	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#exports_mica_mine_tonnes	Mica	Exports	Mine	false	1978	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_mica_mine_tonnes	Mica	Exports	Mine	true	1978	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_mica_unmanufactured_tonnes	Mica	Exports	Unmanufactured	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_mica_unmanufactured_tonnes	Mica	Exports	Unmanufactured	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_mica_waste_tonnes	Mica	Exports	Waste	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_mica_waste_tonnes	Mica	Exports	Waste	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_mica_block_tonnes	Mica	Imports	Block	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_mica_block_tonnes	Mica	Imports	Block	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#imports_mica_ground_tonnes	Mica	Imports	Ground	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_mica_ground_tonnes	Mica	Imports	Ground	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_mica_ground__and__waste_tonnes	Mica	Imports	Ground & waste	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_mica_ground__and__waste_tonnes	Mica	Imports	Ground & waste	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_mica_mica_tonnes	Mica	Imports	Mica	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_mica_mica_tonnes	Mica	Imports	Mica	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_mica_other_unmanufactured_tonnes	Mica	Imports	Other unmanufactured	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_mica_other_unmanufactured_tonnes	Mica	Imports	Other unmanufactured	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_mica_splittings_tonnes	Mica	Imports	Splittings	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_mica_splittings_tonnes	Mica	Imports	Splittings	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_mica_unknown_tonnes	Mica	Imports	Unknown	false	1989	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_mica_unknown_tonnes	Mica	Imports	Unknown	true	1989	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#imports_mica_mine_tonnes	Mica	Imports	Mine	false	1989	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_mica_mine_tonnes	Mica	Imports	Mine	true	1989	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#imports_mica_unmanufactured_tonnes	Mica	Imports	Unmanufactured	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_mica_unmanufactured_tonnes	Mica	Imports	Unmanufactured	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_mica_waste_tonnes	Mica	Imports	Waste	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_mica_waste_tonnes	Mica	Imports	Waste	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_mica_crude_tonnes	Mica	Production	Crude (tonnes)	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_mica_crude_tonnes	Mica	Production	Crude (tonnes)	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_mica_natural__sheet_tonnes_of_gross_weight	Mica	Production	Natural, sheet (tonnes of gross weight)	false	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_mica_natural__sheet_tonnes_of_gross_weight	Mica	Production	Natural, sheet (tonnes of gross weight)	true	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_mica_phlogopite_tonnes	Mica	Production	Phlogopite (tonnes)	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_mica_phlogopite_tonnes	Mica	Production	Phlogopite (tonnes)	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_mica_sheet_tonnes	Mica	Production	Sheet (tonnes)	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_mica_sheet_tonnes	Mica	Production	Sheet (tonnes)	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_mica_unknown_tonnes	Mica	Production	Unknown (tonnes)	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_mica_unknown_tonnes	Mica	Production	Unknown (tonnes)	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_mica_waste_tonnes	Mica	Production	Waste (tonnes)	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_mica_waste_tonnes	Mica	Production	Waste (tonnes)	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_mica_natural__sheet_constant_1998_usd_per_tonne	Mica	Unit value	Natural, sheet	false	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_mica__natural__mine__scrap_and_flake_tonnes	Mica (natural)	Production	Mine, scrap and flake	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_mica__natural__mine__scrap_and_flake_tonnes	Mica (natural)	Production	Mine, scrap and flake	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_mica__natural__mine__sheet_tonnes	Mica (natural)	Production	Mine, sheet	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_mica__natural__mine__sheet_tonnes	Mica (natural)	Production	Mine, sheet	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#reserves_mica__natural__mine__scrap_and_flake_tonnes	Mica (natural)	Reserves	Mine, scrap and flake	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_mica__natural__mine__scrap_and_flake_tonnes	Mica (natural)	Reserves	Mine, scrap and flake	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#reserves_mica__natural__mine__sheet_tonnes	Mica (natural)	Reserves	Mine, sheet	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_mica__natural__mine__sheet_tonnes	Mica (natural)	Reserves	Mine, sheet	true	2023	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_mica_mine_tonnes	Mica	Production	Mine	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_mica_mine_tonnes	Mica	Production	Mine	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_mica_mine__scrap_and_flake_tonnes	Mica	Production	Mine, scrap and flake	false	1906	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_mica_mine__scrap_and_flake_tonnes	Mica	Production	Mine, scrap and flake	true	1906	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_mica_mine__sheet_tonnes	Mica	Production	Mine, sheet	false	1900	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_mica_mine__sheet_tonnes	Mica	Production	Mine, sheet	true	1900	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#reserves_mica_mine__scrap_and_flake_tonnes	Mica	Reserves	Mine, scrap and flake	false	2023	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_mica_mine__scrap_and_flake_tonnes	Mica	Reserves	Mine, scrap and flake	true	2023	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#reserves_mica_mine__sheet_tonnes	Mica	Reserves	Mine, sheet	false	2023	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_mica_mine__sheet_tonnes	Mica	Reserves	Mine, sheet	true	2023	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_mica_mine__scrap_and_flake_constant_1998_usd_per_tonne	Mica	Unit value	Mine, scrap and flake	false	1923	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_mica_mine__sheet_constant_1998_usd_per_tonne	Mica	Unit value	Mine, sheet	false	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_molybdenum_ores__and__concentrates_tonnes	Molybdenum	Exports	Ores & concentrates	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_molybdenum_ores__and__concentrates_tonnes	Molybdenum	Exports	Ores & concentrates	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_molybdenum_refinery_tonnes	Molybdenum	Exports	Refinery	false	1970	true	false
