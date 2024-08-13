@@ -267,6 +267,16 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_cobalt_mine_tonnes	Cobalt	Reserves	Mine	false	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_cobalt_mine_tonnes	Cobalt	Reserves	Mine	true	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_cobalt_value_constant_1998_usd_per_tonne	Cobalt	Unit value	Value	false	1900	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#exports_coltan_columbite_tonnes	Coltan	Exports	Columbite	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_coltan_columbite_tonnes	Coltan	Exports	Columbite	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#exports_coltan_columbite_tantalite_tonnes	Coltan	Exports	Columbite-tantalite	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_coltan_columbite_tantalite_tonnes	Coltan	Exports	Columbite-tantalite	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_coltan_columbite_tonnes	Coltan	Production	Columbite	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_coltan_columbite_tonnes	Coltan	Production	Columbite	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_coltan_columbite_tantalite_tonnes	Coltan	Production	Columbite-tantalite	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_coltan_columbite_tantalite_tonnes	Coltan	Production	Columbite-tantalite	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_coltan_tantalite_tonnes	Coltan	Production	Tantalite	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_coltan_tantalite_tonnes	Coltan	Production	Tantalite	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_copper_mine_tonnes	Copper	Production	Mine	false	1900	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_copper_mine_tonnes	Copper	Production	Mine	true	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_copper_refinery_tonnes	Copper	Production	Refinery	false	1976	true	false
@@ -542,11 +552,19 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_nickel_mine_tonnes	Nickel	Reserves	Mine	false	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_nickel_mine_tonnes	Nickel	Reserves	Mine	true	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_nickel_mine_constant_1998_usd_per_tonne	Nickel	Unit value	Mine	false	1900	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#exports_niobium_mine_tonnes	Niobium	Exports	Mine	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_niobium_mine_tonnes	Niobium	Exports	Mine	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#exports_niobium_pyrochlore_tonnes	Niobium	Exports	Pyrochlore	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_niobium_pyrochlore_tonnes	Niobium	Exports	Pyrochlore	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#imports_niobium_mine_tonnes	Niobium	Imports	Mine	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_niobium_mine_tonnes	Niobium	Imports	Mine	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_niobium_mine_tonnes	Niobium	Production	Mine	false	1964	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_niobium_mine_tonnes	Niobium	Production	Mine	true	1964	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_niobium_pyrochlore_tonnes	Niobium	Production	Pyrochlore	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_niobium_pyrochlore_tonnes	Niobium	Production	Pyrochlore	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_niobium_mine_tonnes	Niobium	Reserves	Mine	false	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_niobium_mine_tonnes	Niobium	Reserves	Mine	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_niobium_total_constant_1998_usd_per_tonne	Niobium	Unit value	Total	false	1964	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_niobium_mine_constant_1998_usd_per_tonne	Niobium	Unit value	Mine	false	1964	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_nitrogen_plant__fixed_ammonia_tonnes	Nitrogen	Production	Plant, fixed ammonia	false	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_nitrogen_plant__fixed_ammonia_tonnes	Nitrogen	Production	Plant, fixed ammonia	true	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_nitrogen_total__fixed_ammonia_tonnes	Nitrogen	Production	Total, fixed ammonia	false	1943	true	false
@@ -1003,87 +1021,15 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_talc_and_pyrophyllite_mine_production__unspecified_talc_and_or_pyrophyllite_tonnes	Talc and pyrophyllite	Reserves	Mine production, unspecified talc and/or pyrophyllite	false	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_talc_and_pyrophyllite_mine_production__unspecified_talc_and_or_pyrophyllite_tonnes	Talc and pyrophyllite	Reserves	Mine production, unspecified talc and/or pyrophyllite	true	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_talc_and_pyrophyllite_total_constant_1998_usd_per_tonne	Talc and pyrophyllite	Unit value	Total	false	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_tantalum_mine_tonnes	Tantalum	Production	Mine	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_tantalum_mine_tonnes	Tantalum	Production	Mine	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_tantalum_total_tonnes	Tantalum	Production	Total	false	1969	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_tantalum_total_tonnes	Tantalum	Production	Total	true	1969	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#exports_tantalum_mine_tonnes	Tantalum	Exports	Mine	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_tantalum_mine_tonnes	Tantalum	Exports	Mine	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#imports_tantalum_mine_tonnes	Tantalum	Imports	Mine	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_tantalum_mine_tonnes	Tantalum	Imports	Mine	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_tantalum_mine_tonnes	Tantalum	Production	Mine	false	1969	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_tantalum_mine_tonnes	Tantalum	Production	Mine	true	1969	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_tantalum_mine_tonnes	Tantalum	Reserves	Mine	false	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_tantalum_mine_tonnes	Tantalum	Reserves	Mine	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_tantalum_total_constant_1998_usd_per_tonne	Tantalum	Unit value	Total	false	1964	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_tantalum_and_niobium_columbite_tonnes	Tantalum and niobium	Exports	Columbite	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_tantalum_and_niobium_columbite_tonnes	Tantalum and niobium	Exports	Columbite	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_tantalum_and_niobium_columbite__and__tantalite_tonnes	Tantalum and niobium	Exports	Columbite & tantalite	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_tantalum_and_niobium_columbite__and__tantalite_tonnes	Tantalum and niobium	Exports	Columbite & tantalite	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_tantalum_and_niobium_columbite_tantalite_tonnes	Tantalum and niobium	Exports	Columbite-tantalite	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_tantalum_and_niobium_columbite_tantalite_tonnes	Tantalum and niobium	Exports	Columbite-tantalite	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_tantalum_and_niobium_niobium_tonnes	Tantalum and niobium	Exports	Niobium	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_tantalum_and_niobium_niobium_tonnes	Tantalum and niobium	Exports	Niobium	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_tantalum_and_niobium_niobium__and__tantalum_ores_tonnes	Tantalum and niobium	Exports	Niobium & tantalum ores	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_tantalum_and_niobium_niobium__and__tantalum_ores_tonnes	Tantalum and niobium	Exports	Niobium & tantalum ores	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_tantalum_and_niobium_pyrochlore_tonnes	Tantalum and niobium	Exports	Pyrochlore	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_tantalum_and_niobium_pyrochlore_tonnes	Tantalum and niobium	Exports	Pyrochlore	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_tantalum_and_niobium_tantalum_tonnes	Tantalum and niobium	Exports	Tantalum	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_tantalum_and_niobium_tantalum_tonnes	Tantalum and niobium	Exports	Tantalum	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_tantalum_and_niobium_tantalum_concentrates_tonnes	Tantalum and niobium	Exports	Tantalum concentrates	false	2002	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_tantalum_and_niobium_tantalum_concentrates_tonnes	Tantalum and niobium	Exports	Tantalum concentrates	true	2002	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_tantalum_and_niobium_tantalum_ores__and__concentrates_tonnes	Tantalum and niobium	Exports	Tantalum ores & concentrates	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_tantalum_and_niobium_tantalum_ores__and__concentrates_tonnes	Tantalum and niobium	Exports	Tantalum ores & concentrates	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_tantalum_and_niobium_tin_slags_tonnes	Tantalum and niobium	Exports	Tin slags	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_tantalum_and_niobium_tin_slags_tonnes	Tantalum and niobium	Exports	Tin slags	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_tantalum_and_niobium_unknown_tonnes	Tantalum and niobium	Exports	Unknown	false	1973	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_tantalum_and_niobium_unknown_tonnes	Tantalum and niobium	Exports	Unknown	true	1973	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_tantalum_and_niobium_niobium_tonnes	Tantalum and niobium	Imports	Niobium	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_tantalum_and_niobium_niobium_tonnes	Tantalum and niobium	Imports	Niobium	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_tantalum_and_niobium_niobium__and__tantalum_ores_tonnes	Tantalum and niobium	Imports	Niobium & tantalum ores	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_tantalum_and_niobium_niobium__and__tantalum_ores_tonnes	Tantalum and niobium	Imports	Niobium & tantalum ores	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_tantalum_and_niobium_niobium_concentrates_tonnes	Tantalum and niobium	Imports	Niobium concentrates	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_tantalum_and_niobium_niobium_concentrates_tonnes	Tantalum and niobium	Imports	Niobium concentrates	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_tantalum_and_niobium_niobium_ores__and__concentrates_tonnes	Tantalum and niobium	Imports	Niobium ores & concentrates	false	1978	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_tantalum_and_niobium_niobium_ores__and__concentrates_tonnes	Tantalum and niobium	Imports	Niobium ores & concentrates	true	1978	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_tantalum_and_niobium_tantalum_tonnes	Tantalum and niobium	Imports	Tantalum	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_tantalum_and_niobium_tantalum_tonnes	Tantalum and niobium	Imports	Tantalum	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_tantalum_and_niobium_tantalum_concentrates_tonnes	Tantalum and niobium	Imports	Tantalum concentrates	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_tantalum_and_niobium_tantalum_concentrates_tonnes	Tantalum and niobium	Imports	Tantalum concentrates	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_tantalum_and_niobium_tantalum_ores__and__concentrates_tonnes	Tantalum and niobium	Imports	Tantalum ores & concentrates	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_tantalum_and_niobium_tantalum_ores__and__concentrates_tonnes	Tantalum and niobium	Imports	Tantalum ores & concentrates	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_tantalum_and_niobium_tin_slags_tonnes	Tantalum and niobium	Imports	Tin slags	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_tantalum_and_niobium_tin_slags_tonnes	Tantalum and niobium	Imports	Tin slags	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_tantalum_and_niobium_tin_slags__niobium_content_tonnes	Tantalum and niobium	Imports	Tin slags, niobium content	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_tantalum_and_niobium_tin_slags__niobium_content_tonnes	Tantalum and niobium	Imports	Tin slags, niobium content	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_tantalum_and_niobium_tin_slags__tantalum_content_tonnes	Tantalum and niobium	Imports	Tin slags, tantalum content	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_tantalum_and_niobium_tin_slags__tantalum_content_tonnes	Tantalum and niobium	Imports	Tin slags, tantalum content	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_tantalum_and_niobium_minerals_columbite_tonnes	Tantalum and niobium minerals	Production	Columbite	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_tantalum_and_niobium_minerals_columbite_tonnes	Tantalum and niobium minerals	Production	Columbite	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_tantalum_and_niobium_minerals_columbite__niobium_content_tonnes	Tantalum and niobium minerals	Production	Columbite, niobium content	false	2012	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_tantalum_and_niobium_minerals_columbite__niobium_content_tonnes	Tantalum and niobium minerals	Production	Columbite, niobium content	true	2012	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_tantalum_and_niobium_minerals_columbite__tantalum_content_tonnes	Tantalum and niobium minerals	Production	Columbite, tantalum content	false	2012	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_tantalum_and_niobium_minerals_columbite__tantalum_content_tonnes	Tantalum and niobium minerals	Production	Columbite, tantalum content	true	2012	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_tantalum_and_niobium_minerals_columbite_tantalite_tonnes	Tantalum and niobium minerals	Production	Columbite-tantalite	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_tantalum_and_niobium_minerals_columbite_tantalite_tonnes	Tantalum and niobium minerals	Production	Columbite-tantalite	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_tantalum_and_niobium_minerals_columbite_tantalite_niobium_content_tonnes	Tantalum and niobium minerals	Production	Columbite-tantalite-niobium content	false	2005	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_tantalum_and_niobium_minerals_columbite_tantalite_niobium_content_tonnes	Tantalum and niobium minerals	Production	Columbite-tantalite-niobium content	true	2005	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_tantalum_and_niobium_minerals_columbite_tantalite_tantalum_content_tonnes	Tantalum and niobium minerals	Production	Columbite-tantalite-tantalum content	false	2005	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_tantalum_and_niobium_minerals_columbite_tantalite_tantalum_content_tonnes	Tantalum and niobium minerals	Production	Columbite-tantalite-tantalum content	true	2005	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_tantalum_and_niobium_minerals_djalmaite_tonnes	Tantalum and niobium minerals	Production	Djalmaite	false	1975	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_tantalum_and_niobium_minerals_djalmaite_tonnes	Tantalum and niobium minerals	Production	Djalmaite	true	1975	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_tantalum_and_niobium_minerals_microlite_tonnes	Tantalum and niobium minerals	Production	Microlite	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_tantalum_and_niobium_minerals_microlite_tonnes	Tantalum and niobium minerals	Production	Microlite	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_tantalum_and_niobium_minerals_pyrochlore_tonnes	Tantalum and niobium minerals	Production	Pyrochlore	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_tantalum_and_niobium_minerals_pyrochlore_tonnes	Tantalum and niobium minerals	Production	Pyrochlore	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_tantalum_and_niobium_minerals_pyrochlore__niobium_content_tonnes	Tantalum and niobium minerals	Production	Pyrochlore, niobium content	false	2012	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_tantalum_and_niobium_minerals_pyrochlore__niobium_content_tonnes	Tantalum and niobium minerals	Production	Pyrochlore, niobium content	true	2012	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_tantalum_and_niobium_minerals_struverite_tonnes	Tantalum and niobium minerals	Production	Struverite	false	1976	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_tantalum_and_niobium_minerals_struverite_tonnes	Tantalum and niobium minerals	Production	Struverite	true	1979	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_tantalum_and_niobium_minerals_struverite__tantalum_content_tonnes	Tantalum and niobium minerals	Production	Struverite, tantalum content	false	2012	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_tantalum_and_niobium_minerals_struverite__tantalum_content_tonnes	Tantalum and niobium minerals	Production	Struverite, tantalum content	true	2012	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_tantalum_and_niobium_minerals_tantalite_tonnes	Tantalum and niobium minerals	Production	Tantalite	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_tantalum_and_niobium_minerals_tantalite_tonnes	Tantalum and niobium minerals	Production	Tantalite	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_tantalum_and_niobium_minerals_tantalite__tantalum_content_tonnes	Tantalum and niobium minerals	Production	Tantalite, tantalum content	false	2012	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_tantalum_and_niobium_minerals_tantalite__tantalum_content_tonnes	Tantalum and niobium minerals	Production	Tantalite, tantalum content	true	2012	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_tantalum_and_niobium_minerals_tantalum__and__niobium__niobium_content_tonnes	Tantalum and niobium minerals	Production	Tantalum & niobium, niobium content	false	2012	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_tantalum_and_niobium_minerals_tantalum__and__niobium__niobium_content_tonnes	Tantalum and niobium minerals	Production	Tantalum & niobium, niobium content	true	2012	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_tantalum_and_niobium_minerals_tantalum__and__niobium__tantalum_content_tonnes	Tantalum and niobium minerals	Production	Tantalum & niobium, tantalum content	false	2012	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_tantalum_and_niobium_minerals_tantalum__and__niobium__tantalum_content_tonnes	Tantalum and niobium minerals	Production	Tantalum & niobium, tantalum content	true	2012	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_tantalum_mine_constant_1998_usd_per_tonne	Tantalum	Unit value	Mine	false	1964	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_tellurium_mine_tonnes	Tellurium	Production	Mine	false	2021	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_tellurium_mine_tonnes	Tellurium	Production	Mine	true	2021	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_tellurium_refinery_tonnes	Tellurium	Production	Refinery	false	1926	true	false
