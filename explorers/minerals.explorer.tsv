@@ -71,14 +71,10 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_asbestos_mine_constant_1998_usd_per_tonne	Asbestos	Unit value	Mine	false	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_barite_barium_minerals_tonnes	Barite	Exports	Barium minerals	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_barite_barium_minerals_tonnes	Barite	Exports	Barium minerals	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_barite_unknown_tonnes	Barite	Exports	Unknown	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_barite_unknown_tonnes	Barite	Exports	Unknown	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_barite_witherite_tonnes	Barite	Exports	Witherite	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_barite_witherite_tonnes	Barite	Exports	Witherite	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#imports_barite_barium_minerals_tonnes	Barite	Imports	Barium minerals	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_barite_barium_minerals_tonnes	Barite	Imports	Barium minerals	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_barite_unknown_tonnes	Barite	Imports	Unknown	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_barite_unknown_tonnes	Barite	Imports	Unknown	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#imports_barite_witherite_tonnes	Barite	Imports	Witherite	false	1997	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_barite_witherite_tonnes	Barite	Imports	Witherite	true	1997	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_barite_mine_tonnes	Barite	Production	Mine	false	1913	true	false
@@ -122,16 +118,16 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_boron_mine_constant_1998_usd_per_tonne	Boron	Unit value	Mine	false	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_bromine_compounds_tonnes	Bromine	Exports	Compounds	false	1974	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_bromine_compounds_tonnes	Bromine	Exports	Compounds	true	1974	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_bromine_unknown_tonnes	Bromine	Exports	Unknown	false	1974	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_bromine_unknown_tonnes	Bromine	Exports	Unknown	true	1974	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#exports_bromine_unspecified_tonnes	Bromine	Exports	Unspecified	false	1974	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_bromine_unspecified_tonnes	Bromine	Exports	Unspecified	true	1974	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#imports_bromine_compounds_tonnes	Bromine	Imports	Compounds	false	1974	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_bromine_compounds_tonnes	Bromine	Imports	Compounds	true	1974	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_bromine_unknown_tonnes	Bromine	Imports	Unknown	false	1974	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_bromine_unknown_tonnes	Bromine	Imports	Unknown	true	1974	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#imports_bromine_unspecified_tonnes	Bromine	Imports	Unspecified	false	1974	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_bromine_unspecified_tonnes	Bromine	Imports	Unspecified	true	1974	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_bromine_processing_tonnes	Bromine	Production	Processing	false	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_bromine_processing_tonnes	Bromine	Production	Processing	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_bromine_unknown_tonnes	Bromine	Production	Unknown	false	1974	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_bromine_unknown_tonnes	Bromine	Production	Unknown	true	1974	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_bromine_unspecified_tonnes	Bromine	Production	Unspecified	false	1974	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_bromine_unspecified_tonnes	Bromine	Production	Unspecified	true	1974	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_bromine_processing_tonnes	Bromine	Reserves	Processing	false	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_bromine_processing_tonnes	Bromine	Reserves	Processing	true	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_cadmium_refinery_tonnes	Cadmium	Exports	Refinery	false	1975	true	false
@@ -210,8 +206,8 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_coal_lignite_tonnes	Coal	Exports	Lignite	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_coal_other_coal_tonnes	Coal	Exports	Other coal	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_coal_other_coal_tonnes	Coal	Exports	Other coal	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_coal_unknown_tonnes	Coal	Exports	Unknown	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_coal_unknown_tonnes	Coal	Exports	Unknown	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#exports_coal_unspecified_tonnes	Coal	Exports	Unspecified	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_coal_unspecified_tonnes	Coal	Exports	Unspecified	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#imports_coal_anthracite_tonnes	Coal	Imports	Anthracite	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_coal_anthracite_tonnes	Coal	Imports	Anthracite	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#imports_coal_bituminous_tonnes	Coal	Imports	Bituminous	false	1970	true	false
@@ -226,8 +222,8 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_coal_lignite_tonnes	Coal	Imports	Lignite	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#imports_coal_other_coal_tonnes	Coal	Imports	Other coal	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_coal_other_coal_tonnes	Coal	Imports	Other coal	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_coal_unknown_tonnes	Coal	Imports	Unknown	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_coal_unknown_tonnes	Coal	Imports	Unknown	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#imports_coal_unspecified_tonnes	Coal	Imports	Unspecified	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_coal_unspecified_tonnes	Coal	Imports	Unspecified	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_coal_anthracite_tonnes	Coal	Production	Anthracite	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_coal_anthracite_tonnes	Coal	Production	Anthracite	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_coal_anthracite__and__bituminous_tonnes	Coal	Production	Anthracite & bituminous	false	1970	true	false
@@ -396,14 +392,12 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_indium_refinery_tonnes	Indium	Production	Refinery	false	1941	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_indium_refinery_tonnes	Indium	Production	Refinery	true	1941	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_indium_refinery_constant_1998_usd_per_tonne	Indium	Unit value	Refinery	false	1936	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_iodine_unknown_tonnes	Iodine	Exports	Unknown	false	1975	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_iodine_unknown_tonnes	Iodine	Exports	Unknown	true	1975	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_iodine_unknown_tonnes	Iodine	Imports	Unknown	false	1975	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_iodine_unknown_tonnes	Iodine	Imports	Unknown	true	1975	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_iodine_mine_tonnes	Iodine	Production	Mine	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_iodine_mine_tonnes	Iodine	Production	Mine	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_iodine_unknown_tonnes	Iodine	Production	Unknown	false	1975	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_iodine_unknown_tonnes	Iodine	Production	Unknown	true	1975	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#exports_iodine_mine_tonnes	Iodine	Exports	Mine	false	1975	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_iodine_mine_tonnes	Iodine	Exports	Mine	true	1975	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#imports_iodine_mine_tonnes	Iodine	Imports	Mine	false	1975	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_iodine_mine_tonnes	Iodine	Imports	Mine	true	1975	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_iodine_mine_tonnes	Iodine	Production	Mine	false	1975	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_iodine_mine_tonnes	Iodine	Production	Mine	true	1975	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_iodine_mine_tonnes	Iodine	Reserves	Mine	false	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_iodine_mine_tonnes	Iodine	Reserves	Mine	true	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_iron_pig_iron_tonnes	Iron	Exports	Pig iron	false	1970	true	false
@@ -537,14 +531,14 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_molybdenum_mine_tonnes	Molybdenum	Reserves	Mine	false	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_molybdenum_mine_tonnes	Molybdenum	Reserves	Mine	true	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_molybdenum_mine_constant_1998_usd_per_tonne	Molybdenum	Unit value	Mine	false	1912	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_nepheline_syenite_nepheline_syenite_tonnes	Nepheline syenite	Exports	Nepheline-syenite	false	1992	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_nepheline_syenite_nepheline_syenite_tonnes	Nepheline syenite	Exports	Nepheline-syenite	true	1992	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_nepheline_syenite_nepheline_syenite_tonnes	Nepheline syenite	Imports	Nepheline-syenite	false	1992	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_nepheline_syenite_nepheline_syenite_tonnes	Nepheline syenite	Imports	Nepheline-syenite	true	1992	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#exports_nepheline_syenite_mine_tonnes	Nepheline syenite	Exports	Mine	false	1992	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_nepheline_syenite_mine_tonnes	Nepheline syenite	Exports	Mine	true	1992	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#imports_nepheline_syenite_mine_tonnes	Nepheline syenite	Imports	Mine	false	1992	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_nepheline_syenite_mine_tonnes	Nepheline syenite	Imports	Mine	true	1992	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_nepheline_syenite_mine_tonnes	Nepheline syenite	Production	Mine	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_nepheline_syenite_mine_tonnes	Nepheline syenite	Production	Mine	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_nepheline_syenite_nepheline_concentrates_tonnes	Nepheline syenite	Production	Nepheline concentrates	false	2009	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_nepheline_syenite_nepheline_concentrates_tonnes	Nepheline syenite	Production	Nepheline concentrates	true	2009	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_nepheline_syenite_unknown_tonnes	Nepheline syenite	Production	Unknown	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_nepheline_syenite_unknown_tonnes	Nepheline syenite	Production	Unknown	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_nickel_mine_tonnes	Nickel	Production	Mine	false	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_nickel_mine_tonnes	Nickel	Production	Mine	true	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_nickel_smelter_or_refinery_tonnes	Nickel	Production	Smelter or refinery	false	1977	true	false
@@ -671,70 +665,26 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_platinum_group_metals_mine__ruthenium_tonnes_of_metal_content	Platinum group metals	Production	Mine, ruthenium (tonnes of metal content)	true	2022	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_platinum_group_metals_mine__unknown_tonnes_of_metal_content	Platinum group metals	Production	Mine, unknown (tonnes of metal content)	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_platinum_group_metals_mine__unknown_tonnes_of_metal_content	Platinum group metals	Production	Mine, unknown (tonnes of metal content)	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_potash_carbonate_tonnes	Potash	Exports	Carbonate	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_potash_carbonate_tonnes	Potash	Exports	Carbonate	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_potash_caustic_potash_tonnes	Potash	Exports	Caustic potash	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_potash_caustic_potash_tonnes	Potash	Exports	Caustic potash	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_potash_chlorate_tonnes	Potash	Exports	Chlorate	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_potash_chlorate_tonnes	Potash	Exports	Chlorate	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_potash_chloride_tonnes	Potash	Exports	Chloride	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_potash_chloride_tonnes	Potash	Exports	Chloride	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_potash_fertilizer_salts_tonnes	Potash	Exports	Fertilizer salts	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_potash_fertilizer_salts_tonnes	Potash	Exports	Fertilizer salts	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_potash_nitrate_tonnes	Potash	Exports	Nitrate	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_potash_nitrate_tonnes	Potash	Exports	Nitrate	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_potash_other_potassic_chemicals_tonnes	Potash	Exports	Other potassic chemicals	false	1985	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_potash_other_potassic_chemicals_tonnes	Potash	Exports	Other potassic chemicals	true	1985	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_potash_other_potassic_fertilizers_tonnes	Potash	Exports	Other potassic fertilizers	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_potash_other_potassic_fertilizers_tonnes	Potash	Exports	Other potassic fertilizers	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_potash_potassic_chemicals_tonnes	Potash	Exports	Potassic chemicals	false	1976	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_potash_potassic_chemicals_tonnes	Potash	Exports	Potassic chemicals	true	1976	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_potash_potassic_fertilizers_tonnes	Potash	Exports	Potassic fertilizers	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_potash_potassic_fertilizers_tonnes	Potash	Exports	Potassic fertilizers	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_potash_sulfide_tonnes	Potash	Exports	Sulfide	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_potash_sulfide_tonnes	Potash	Exports	Sulfide	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_potash_carbonate_tonnes	Potash	Imports	Carbonate	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_potash_carbonate_tonnes	Potash	Imports	Carbonate	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_potash_caustic_potash_tonnes	Potash	Imports	Caustic potash	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_potash_caustic_potash_tonnes	Potash	Imports	Caustic potash	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_potash_chlorate_tonnes	Potash	Imports	Chlorate	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_potash_chlorate_tonnes	Potash	Imports	Chlorate	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#imports_potash_chloride_tonnes	Potash	Imports	Chloride	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_potash_chloride_tonnes	Potash	Imports	Chloride	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_potash_cyanide_tonnes	Potash	Imports	Cyanide	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_potash_cyanide_tonnes	Potash	Imports	Cyanide	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_potash_fertilizer_salts_tonnes	Potash	Imports	Fertilizer salts	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_potash_fertilizer_salts_tonnes	Potash	Imports	Fertilizer salts	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_potash_nitrate_tonnes	Potash	Imports	Nitrate	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_potash_nitrate_tonnes	Potash	Imports	Nitrate	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_potash_other_potassic_chemicals_tonnes	Potash	Imports	Other potassic chemicals	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_potash_other_potassic_chemicals_tonnes	Potash	Imports	Other potassic chemicals	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_potash_other_potassic_fertilizers_tonnes	Potash	Imports	Other potassic fertilizers	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_potash_other_potassic_fertilizers_tonnes	Potash	Imports	Other potassic fertilizers	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_potash_potassic_chemicals_tonnes	Potash	Imports	Potassic chemicals	false	1974	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_potash_potassic_chemicals_tonnes	Potash	Imports	Potassic chemicals	true	1974	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_potash_potassic_fertilizers_tonnes	Potash	Imports	Potassic fertilizers	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_potash_potassic_fertilizers_tonnes	Potash	Imports	Potassic fertilizers	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#imports_potash_sulfide_tonnes	Potash	Imports	Sulfide	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_potash_sulfide_tonnes	Potash	Imports	Sulfide	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_potash_chloride_tonnes_of_potassium_oxide_content	Potash	Production	Chloride (tonnes of potassium oxide content)	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_potash_chloride_tonnes_of_potassium_oxide_content	Potash	Production	Chloride (tonnes of potassium oxide content)	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_potash_kainite__sylvinite_tonnes_of_potassium_oxide_content	Potash	Production	Kainite, sylvinite (tonnes of potassium oxide content)	false	1974	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_potash_kainite__sylvinite_tonnes_of_potassium_oxide_content	Potash	Production	Kainite, sylvinite (tonnes of potassium oxide content)	true	1974	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_potash_mine_tonnes_of_potassium_oxide_equivalent	Potash	Production	Mine (tonnes of potassium oxide equivalent)	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_potash_mine_tonnes_of_potassium_oxide_equivalent	Potash	Production	Mine (tonnes of potassium oxide equivalent)	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_potash_nitrate_tonnes_of_potassium_oxide_content	Potash	Production	Nitrate (tonnes of potassium oxide content)	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_potash_nitrate_tonnes_of_potassium_oxide_content	Potash	Production	Nitrate (tonnes of potassium oxide content)	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_potash_other_fertilizer_salts_tonnes_of_potassium_oxide_content	Potash	Production	Other fertilizer salts (tonnes of potassium oxide content)	false	1973	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_potash_other_fertilizer_salts_tonnes_of_potassium_oxide_content	Potash	Production	Other fertilizer salts (tonnes of potassium oxide content)	true	1973	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_potash_polyhalite_tonnes_of_potassium_oxide_content	Potash	Production	Polyhalite (tonnes of potassium oxide content)	false	2013	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_potash_polyhalite_tonnes_of_potassium_oxide_content	Potash	Production	Polyhalite (tonnes of potassium oxide content)	true	2015	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_potash_potassic_salts_tonnes_of_potassium_oxide_content	Potash	Production	Potassic salts (tonnes of potassium oxide content)	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_potash_potassic_salts_tonnes_of_potassium_oxide_content	Potash	Production	Potassic salts (tonnes of potassium oxide content)	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_potash_unknown_tonnes_of_potassium_oxide_content	Potash	Production	Unknown (tonnes of potassium oxide content)	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_potash_unknown_tonnes_of_potassium_oxide_content	Potash	Production	Unknown (tonnes of potassium oxide content)	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#reserves_potash_mine_tonnes_of_potassium_oxide_equivalent	Potash	Reserves	Mine (tonnes of potassium oxide equivalent)	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_potash_mine_tonnes_of_potassium_oxide_equivalent	Potash	Reserves	Mine (tonnes of potassium oxide equivalent)	true	2023	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_potash_chloride_tonnes	Potash	Production	Chloride	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_potash_chloride_tonnes	Potash	Production	Chloride	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_potash_mine_tonnes	Potash	Production	Mine	false	2023	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_potash_mine_tonnes	Potash	Production	Mine	true	2023	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_potash_polyhalite_tonnes	Potash	Production	Polyhalite	false	2013	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_potash_polyhalite_tonnes	Potash	Production	Polyhalite	true	2015	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_potash_potassic_salts_tonnes	Potash	Production	Potassic salts	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_potash_potassic_salts_tonnes	Potash	Production	Potassic salts	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_potash_unspecified_tonnes	Potash	Production	Unspecified	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_potash_unspecified_tonnes	Potash	Production	Unspecified	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#reserves_potash_mine_tonnes	Potash	Reserves	Mine	false	2023	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_potash_mine_tonnes	Potash	Reserves	Mine	true	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_pumice_and_pumicite_mine_tonnes	Pumice and pumicite	Production	Mine	false	1902	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_pumice_and_pumicite_mine_tonnes	Pumice and pumicite	Production	Mine	true	1902	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_pumice_and_pumicite_mine_constant_1998_usd_per_tonne	Pumice and pumicite	Unit value	Mine	false	1902	true	false
@@ -756,10 +706,8 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_rare_earths_ores__and__concentrates_tonnes	Rare earths	Production	Ores & concentrates (tonnes)	true	1982	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_rare_earths_mine_tonnes_of_rare_earth_oxide_equivalent	Rare earths	Reserves	Mine (tonnes of rare-earth-oxide equivalent)	false	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_rare_earths_mine_tonnes_of_rare_earth_oxide_equivalent	Rare earths	Reserves	Mine (tonnes of rare-earth-oxide equivalent)	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_rhenium_mine_tonnes	Rhenium	Production	Mine	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_rhenium_mine_tonnes	Rhenium	Production	Mine	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_rhenium_unknown_tonnes	Rhenium	Production	Unknown	false	2006	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_rhenium_unknown_tonnes	Rhenium	Production	Unknown	true	2006	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_rhenium_mine_tonnes	Rhenium	Production	Mine	false	2006	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_rhenium_mine_tonnes	Rhenium	Production	Mine	true	2006	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_rhenium_mine_tonnes	Rhenium	Reserves	Mine	false	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_rhenium_mine_tonnes	Rhenium	Reserves	Mine	true	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_salt_other_salt_tonnes	Salt	Exports	Other salt	false	1974	true	false
@@ -805,62 +753,26 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_sillimanite_minerals_andalusite_tonnes	Sillimanite minerals	Exports	Andalusite	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_sillimanite_minerals_kyanite_tonnes	Sillimanite minerals	Exports	Kyanite	false	1977	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_sillimanite_minerals_kyanite_tonnes	Sillimanite minerals	Exports	Kyanite	true	1977	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_sillimanite_minerals_kyanite__and__related_minerals_tonnes	Sillimanite minerals	Exports	Kyanite & related minerals	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_sillimanite_minerals_kyanite__and__related_minerals_tonnes	Sillimanite minerals	Exports	Kyanite & related minerals	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_sillimanite_minerals_mullite_tonnes	Sillimanite minerals	Exports	Mullite	false	1992	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_sillimanite_minerals_mullite_tonnes	Sillimanite minerals	Exports	Mullite	true	1992	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_sillimanite_minerals_sillimanite_tonnes	Sillimanite minerals	Exports	Sillimanite	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_sillimanite_minerals_sillimanite_tonnes	Sillimanite minerals	Exports	Sillimanite	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_sillimanite_minerals_sillimanite_minerals_tonnes	Sillimanite minerals	Exports	Sillimanite minerals	false	1989	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_sillimanite_minerals_sillimanite_minerals_tonnes	Sillimanite minerals	Exports	Sillimanite minerals	true	1989	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_sillimanite_minerals_sillimanite_minerals__calcined_tonnes	Sillimanite minerals	Exports	Sillimanite minerals, calcined	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_sillimanite_minerals_sillimanite_minerals__calcined_tonnes	Sillimanite minerals	Exports	Sillimanite minerals, calcined	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_sillimanite_minerals_sillimanite_minerals__crude_tonnes	Sillimanite minerals	Exports	Sillimanite minerals, crude	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_sillimanite_minerals_sillimanite_minerals__crude_tonnes	Sillimanite minerals	Exports	Sillimanite minerals, crude	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_sillimanite_minerals_sillimanite_minerals__crude__and__calcined_tonnes	Sillimanite minerals	Exports	Sillimanite minerals, crude & calcined	false	1973	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_sillimanite_minerals_sillimanite_minerals__crude__and__calcined_tonnes	Sillimanite minerals	Exports	Sillimanite minerals, crude & calcined	true	1973	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_sillimanite_minerals_sillimanite_minerals__other_tonnes	Sillimanite minerals	Exports	Sillimanite minerals, other	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_sillimanite_minerals_sillimanite_minerals__other_tonnes	Sillimanite minerals	Exports	Sillimanite minerals, other	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_sillimanite_minerals_sillimanite_mins__chamotte__dinas_earth_tonnes	Sillimanite minerals	Exports	Sillimanite mins, chamotte, dinas earth	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_sillimanite_minerals_sillimanite_mins__chamotte__dinas_earth_tonnes	Sillimanite minerals	Exports	Sillimanite mins, chamotte, dinas earth	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_sillimanite_minerals_unknown_tonnes	Sillimanite minerals	Exports	Unknown	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_sillimanite_minerals_unknown_tonnes	Sillimanite minerals	Exports	Unknown	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#imports_sillimanite_minerals_kyanite_tonnes	Sillimanite minerals	Imports	Kyanite	false	1973	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_sillimanite_minerals_kyanite_tonnes	Sillimanite minerals	Imports	Kyanite	true	1973	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_sillimanite_minerals_kyanite__and__related_minerals_tonnes	Sillimanite minerals	Imports	Kyanite & related minerals	false	1973	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_sillimanite_minerals_kyanite__and__related_minerals_tonnes	Sillimanite minerals	Imports	Kyanite & related minerals	true	1973	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#imports_sillimanite_minerals_mullite_tonnes	Sillimanite minerals	Imports	Mullite	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_sillimanite_minerals_mullite_tonnes	Sillimanite minerals	Imports	Mullite	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_sillimanite_minerals_mullite__chamotte__dinas_earth_tonnes	Sillimanite minerals	Imports	Mullite, chamotte, dinas earth	false	1972	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_sillimanite_minerals_mullite__chamotte__dinas_earth_tonnes	Sillimanite minerals	Imports	Mullite, chamotte, dinas earth	true	1972	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#imports_sillimanite_minerals_sillimanite_tonnes	Sillimanite minerals	Imports	Sillimanite	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_sillimanite_minerals_sillimanite_tonnes	Sillimanite minerals	Imports	Sillimanite	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#imports_sillimanite_minerals_sillimanite_minerals_tonnes	Sillimanite minerals	Imports	Sillimanite minerals	false	1992	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_sillimanite_minerals_sillimanite_minerals_tonnes	Sillimanite minerals	Imports	Sillimanite minerals	true	1992	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_sillimanite_minerals_sillimanite_minerals__and__dinas_earth_tonnes	Sillimanite minerals	Imports	Sillimanite minerals & dinas earth	false	1974	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_sillimanite_minerals_sillimanite_minerals__and__dinas_earth_tonnes	Sillimanite minerals	Imports	Sillimanite minerals & dinas earth	true	1974	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_sillimanite_minerals_sillimanite_minerals__calcined_tonnes	Sillimanite minerals	Imports	Sillimanite minerals, calcined	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_sillimanite_minerals_sillimanite_minerals__calcined_tonnes	Sillimanite minerals	Imports	Sillimanite minerals, calcined	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_sillimanite_minerals_sillimanite_minerals__crude_tonnes	Sillimanite minerals	Imports	Sillimanite minerals, crude	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_sillimanite_minerals_sillimanite_minerals__crude_tonnes	Sillimanite minerals	Imports	Sillimanite minerals, crude	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_sillimanite_minerals_sillimanite_minerals__other_tonnes	Sillimanite minerals	Imports	Sillimanite minerals, other	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_sillimanite_minerals_sillimanite_minerals__other_tonnes	Sillimanite minerals	Imports	Sillimanite minerals, other	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_sillimanite_minerals_sillimanite_mins__chamotte__dinas_earth_tonnes	Sillimanite minerals	Imports	Sillimanite mins, chamotte, dinas earth	false	1972	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_sillimanite_minerals_sillimanite_mins__chamotte__dinas_earth_tonnes	Sillimanite minerals	Imports	Sillimanite mins, chamotte, dinas earth	true	1972	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_sillimanite_minerals_unknown_tonnes	Sillimanite minerals	Imports	Unknown	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_sillimanite_minerals_unknown_tonnes	Sillimanite minerals	Imports	Unknown	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_sillimanite_minerals_andalusite_tonnes	Sillimanite minerals	Production	Andalusite	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_sillimanite_minerals_andalusite_tonnes	Sillimanite minerals	Production	Andalusite	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_sillimanite_minerals_andalusite__and__kyanite_tonnes	Sillimanite minerals	Production	Andalusite & kyanite	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_sillimanite_minerals_andalusite__and__kyanite_tonnes	Sillimanite minerals	Production	Andalusite & kyanite	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_sillimanite_minerals_kyanite_tonnes	Sillimanite minerals	Production	Kyanite	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_sillimanite_minerals_kyanite_tonnes	Sillimanite minerals	Production	Kyanite	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_sillimanite_minerals_other_tonnes	Sillimanite minerals	Production	Other	false	1973	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_sillimanite_minerals_other_tonnes	Sillimanite minerals	Production	Other	true	1973	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_sillimanite_minerals_sillimanite_tonnes	Sillimanite minerals	Production	Sillimanite	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_sillimanite_minerals_sillimanite_tonnes	Sillimanite minerals	Production	Sillimanite	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_sillimanite_minerals_unknown_tonnes	Sillimanite minerals	Production	Unknown	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_sillimanite_minerals_unknown_tonnes	Sillimanite minerals	Production	Unknown	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_silver_metal_tonnes	Silver	Exports	Metal	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_silver_metal_tonnes	Silver	Exports	Metal	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_silver_ores__and__concentrates_tonnes	Silver	Exports	Ores & concentrates	false	1972	true	false
@@ -985,8 +897,8 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_tungsten_mine_tonnes	Tungsten	Reserves	Mine	false	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_tungsten_mine_tonnes	Tungsten	Reserves	Mine	true	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_tungsten_mine_constant_1998_usd_per_tonne	Tungsten	Unit value	Mine	false	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_uranium_unknown_tonnes_of_metal_content	Uranium	Production	Unknown (tonnes of metal content)	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_uranium_unknown_tonnes_of_metal_content	Uranium	Production	Unknown (tonnes of metal content)	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_uranium_mine_tonnes_of_metal_content	Uranium	Production	Mine (tonnes of metal content)	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_uranium_mine_tonnes_of_metal_content	Uranium	Production	Mine (tonnes of metal content)	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_vanadium_metal_tonnes	Vanadium	Exports	Metal	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_vanadium_metal_tonnes	Vanadium	Exports	Metal	true	1971	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_vanadium_pentoxide_tonnes	Vanadium	Exports	Pentoxide	false	1970	true	false
@@ -1004,18 +916,16 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_vanadium_mine_tonnes	Vanadium	Reserves	Mine	false	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_vanadium_mine_tonnes	Vanadium	Reserves	Mine	true	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_vanadium_mine_constant_1998_usd_per_tonne	Vanadium	Unit value	Mine	false	1910	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_vermiculite_mine_tonnes	Vermiculite	Production	Mine	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_vermiculite_mine_tonnes	Vermiculite	Production	Mine	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_vermiculite_unknown_tonnes	Vermiculite	Production	Unknown	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_vermiculite_unknown_tonnes	Vermiculite	Production	Unknown	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_vermiculite_mine_tonnes	Vermiculite	Production	Mine	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_vermiculite_mine_tonnes	Vermiculite	Production	Mine	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_vermiculite_mine_tonnes	Vermiculite	Reserves	Mine	false	2022	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_vermiculite_mine_tonnes	Vermiculite	Reserves	Mine	true	2022	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_wollastonite_mine_tonnes	Wollastonite	Production	Mine	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_wollastonite_mine_tonnes	Wollastonite	Production	Mine	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_zeolites__natural__mine_tonnes	Zeolites (natural)	Production	Mine	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_zeolites__natural__mine_tonnes	Zeolites (natural)	Production	Mine	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#reserves_zeolites__natural__mine_tonnes	Zeolites (natural)	Reserves	Mine	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_zeolites__natural__mine_tonnes	Zeolites (natural)	Reserves	Mine	true	2023	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_zeolites__natural_mine_tonnes	Zeolites, natural	Production	Mine	false	2023	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_zeolites__natural_mine_tonnes	Zeolites, natural	Production	Mine	true	2023	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#reserves_zeolites__natural_mine_tonnes	Zeolites, natural	Reserves	Mine	false	2023	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_zeolites__natural_mine_tonnes	Zeolites, natural	Reserves	Mine	true	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_zinc_mine_tonnes	Zinc	Production	Mine	false	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_zinc_mine_tonnes	Zinc	Production	Mine	true	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_zinc_refinery_tonnes	Zinc	Production	Refinery	false	1970	true	false
