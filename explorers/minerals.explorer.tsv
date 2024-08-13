@@ -565,29 +565,21 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_niobium_mine_tonnes	Niobium	Reserves	Mine	false	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_niobium_mine_tonnes	Niobium	Reserves	Mine	true	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_niobium_mine_constant_1998_usd_per_tonne	Niobium	Unit value	Mine	false	1964	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_nitrogen_plant__fixed_ammonia_tonnes	Nitrogen	Production	Plant, fixed ammonia	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_nitrogen_plant__fixed_ammonia_tonnes	Nitrogen	Production	Plant, fixed ammonia	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_nitrogen_total__fixed_ammonia_tonnes	Nitrogen	Production	Total, fixed ammonia	false	1943	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_nitrogen_total__fixed_ammonia_tonnes	Nitrogen	Production	Total, fixed ammonia	true	1943	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_nitrogen_total__fixed_ammonia_constant_1998_usd_per_tonne	Nitrogen	Unit value	Total, fixed ammonia	false	1950	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_nitrogen_fixed_ammonia_tonnes	Nitrogen	Production	Fixed ammonia	false	1943	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_nitrogen_fixed_ammonia_tonnes	Nitrogen	Production	Fixed ammonia	true	1943	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_nitrogen_fixed_ammonia_constant_1998_usd_per_tonne	Nitrogen	Unit value	Fixed ammonia	false	1950	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_palladium_mine_tonnes	Palladium	Production	Mine	false	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_palladium_mine_tonnes	Palladium	Production	Mine	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_peat_mine_tonnes	Peat	Production	Mine (tonnes)	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_peat_mine_tonnes	Peat	Production	Mine (tonnes)	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_peat_total_tonnes_of_gross_weight	Peat	Production	Total (tonnes of gross weight)	false	1904	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_peat_total_tonnes_of_gross_weight	Peat	Production	Total (tonnes of gross weight)	true	1904	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_peat_mine_tonnes	Peat	Production	Mine	false	1904	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_peat_mine_tonnes	Peat	Production	Mine	true	1904	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_peat_mine_tonnes	Peat	Reserves	Mine	false	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_peat_mine_tonnes	Peat	Reserves	Mine	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_peat_total_constant_1998_usd_per_tonne	Peat	Unit value	Total	false	1904	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_perlite_mine_tonnes	Perlite	Production	Mine (tonnes)	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_perlite_mine_tonnes	Perlite	Production	Mine (tonnes)	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_perlite_total_tonnes_of_gross_weight	Perlite	Production	Total (tonnes of gross weight)	false	1946	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_perlite_total_tonnes_of_gross_weight	Perlite	Production	Total (tonnes of gross weight)	true	1946	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_perlite_unknown_tonnes	Perlite	Production	Unknown (tonnes)	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_perlite_unknown_tonnes	Perlite	Production	Unknown (tonnes)	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_peat_mine_constant_1998_usd_per_tonne	Peat	Unit value	Mine	false	1904	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_perlite_mine_tonnes	Perlite	Production	Mine	false	1946	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_perlite_mine_tonnes	Perlite	Production	Mine	true	1946	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_perlite_mine_tonnes	Perlite	Reserves	Mine	false	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_perlite_mine_tonnes	Perlite	Reserves	Mine	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_perlite_total_constant_1998_usd_per_tonne	Perlite	Unit value	Total	false	1946	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_perlite_mine_constant_1998_usd_per_tonne	Perlite	Unit value	Mine	false	1946	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_petroleum_crude_tonnes	Petroleum	Exports	Crude	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_petroleum_crude_tonnes	Petroleum	Exports	Crude	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#imports_petroleum_crude_tonnes	Petroleum	Imports	Crude	false	1970	true	false
