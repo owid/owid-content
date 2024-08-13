@@ -910,53 +910,17 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_sulfur_processing_tonnes	Sulfur	Production	Processing	false	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_sulfur_processing_tonnes	Sulfur	Production	Processing	true	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_sulfur_processing_constant_1998_usd_per_tonne	Sulfur	Unit value	Processing	false	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_talc_other_tonnes	Talc	Exports	Other	false	1979	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_talc_other_tonnes	Talc	Exports	Other	true	1979	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_talc_pyrophyllite_tonnes	Talc	Exports	Pyrophyllite	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_talc_pyrophyllite_tonnes	Talc	Exports	Pyrophyllite	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_talc_unknown_tonnes	Talc	Exports	Unknown	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_talc_unknown_tonnes	Talc	Exports	Unknown	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_talc_other_tonnes	Talc	Imports	Other	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_talc_other_tonnes	Talc	Imports	Other	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_talc_pyrophyllite_tonnes	Talc	Imports	Pyrophyllite	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_talc_pyrophyllite_tonnes	Talc	Imports	Pyrophyllite	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_talc_unknown_tonnes	Talc	Imports	Unknown	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_talc_unknown_tonnes	Talc	Imports	Unknown	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_talc_agalmatolite_tonnes	Talc	Production	Agalmatolite	false	1988	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_talc_agalmatolite_tonnes	Talc	Production	Agalmatolite	true	1988	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_talc_mine_tonnes	Talc	Production	Mine	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_talc_mine_tonnes	Talc	Production	Mine	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_talc_mine_production__including_steatite_tonnes	Talc	Production	Mine production, including steatite	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_talc_mine_production__including_steatite_tonnes	Talc	Production	Mine production, including steatite	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_talc_mine__crude_tonnes	Talc	Production	Mine, crude	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_talc_mine__crude_tonnes	Talc	Production	Mine, crude	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_talc_pyrophyllite_tonnes	Talc	Production	Pyrophyllite	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_talc_pyrophyllite_tonnes	Talc	Production	Pyrophyllite	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_talc_steatite_tonnes	Talc	Production	Steatite	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_talc_steatite_tonnes	Talc	Production	Steatite	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_talc_unknown_tonnes	Talc	Production	Unknown	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_talc_unknown_tonnes	Talc	Production	Unknown	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_talc_wonderstone__pyrophyllite__tonnes	Talc	Production	Wonderstone (pyrophyllite)	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_talc_wonderstone__pyrophyllite__tonnes	Talc	Production	Wonderstone (pyrophyllite)	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#reserves_talc_mine__crude_tonnes	Talc	Reserves	Mine, crude	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_talc_mine__crude_tonnes	Talc	Reserves	Mine, crude	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_talc_and_pyrophyllite_mine_tonnes	Talc and pyrophyllite	Production	Mine (tonnes)	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_talc_and_pyrophyllite_mine_tonnes	Talc and pyrophyllite	Production	Mine (tonnes)	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_talc_and_pyrophyllite_mine_production_tonnes	Talc and pyrophyllite	Production	Mine production (tonnes)	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_talc_and_pyrophyllite_mine_production_tonnes	Talc and pyrophyllite	Production	Mine production (tonnes)	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_talc_and_pyrophyllite_mine_production__crude_and_beneficiated_tonnes	Talc and pyrophyllite	Production	Mine production, crude and beneficiated (tonnes)	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_talc_and_pyrophyllite_mine_production__crude_and_beneficiated_tonnes	Talc and pyrophyllite	Production	Mine production, crude and beneficiated (tonnes)	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_talc_and_pyrophyllite_mine_production__unspecified_talc_and_or_pyrophyllite_tonnes	Talc and pyrophyllite	Production	Mine production, unspecified talc and/or pyrophyllite (tonnes)	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_talc_and_pyrophyllite_mine_production__unspecified_talc_and_or_pyrophyllite_tonnes	Talc and pyrophyllite	Production	Mine production, unspecified talc and/or pyrophyllite (tonnes)	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_talc_and_pyrophyllite_total_tonnes_of_gross_weight	Talc and pyrophyllite	Production	Total (tonnes of gross weight)	false	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_talc_and_pyrophyllite_total_tonnes_of_gross_weight	Talc and pyrophyllite	Production	Total (tonnes of gross weight)	true	1900	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#exports_talc_and_pyrophyllite_mine__pyrophyllite_tonnes	Talc and pyrophyllite	Exports	Mine, pyrophyllite	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_talc_and_pyrophyllite_mine__pyrophyllite_tonnes	Talc and pyrophyllite	Exports	Mine, pyrophyllite	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#imports_talc_and_pyrophyllite_mine__pyrophyllite_tonnes	Talc and pyrophyllite	Imports	Mine, pyrophyllite	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_talc_and_pyrophyllite_mine__pyrophyllite_tonnes	Talc and pyrophyllite	Imports	Mine, pyrophyllite	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_talc_and_pyrophyllite_mine_tonnes	Talc and pyrophyllite	Production	Mine	false	1900	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_talc_and_pyrophyllite_mine_tonnes	Talc and pyrophyllite	Production	Mine	true	1900	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_talc_and_pyrophyllite_mine__pyrophyllite_tonnes	Talc and pyrophyllite	Production	Mine, pyrophyllite	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_talc_and_pyrophyllite_mine__pyrophyllite_tonnes	Talc and pyrophyllite	Production	Mine, pyrophyllite	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_talc_and_pyrophyllite_mine_tonnes	Talc and pyrophyllite	Reserves	Mine	false	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_talc_and_pyrophyllite_mine_tonnes	Talc and pyrophyllite	Reserves	Mine	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#reserves_talc_and_pyrophyllite_mine_production__crude_and_beneficiated_tonnes	Talc and pyrophyllite	Reserves	Mine production, crude and beneficiated	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_talc_and_pyrophyllite_mine_production__crude_and_beneficiated_tonnes	Talc and pyrophyllite	Reserves	Mine production, crude and beneficiated	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#reserves_talc_and_pyrophyllite_mine_production__unspecified_talc_and_or_pyrophyllite_tonnes	Talc and pyrophyllite	Reserves	Mine production, unspecified talc and/or pyrophyllite	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_talc_and_pyrophyllite_mine_production__unspecified_talc_and_or_pyrophyllite_tonnes	Talc and pyrophyllite	Reserves	Mine production, unspecified talc and/or pyrophyllite	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_talc_and_pyrophyllite_total_constant_1998_usd_per_tonne	Talc and pyrophyllite	Unit value	Total	false	1900	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_talc_and_pyrophyllite_mine_constant_1998_usd_per_tonne	Talc and pyrophyllite	Unit value	Mine	false	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_tantalum_mine_tonnes	Tantalum	Exports	Mine	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_tantalum_mine_tonnes	Tantalum	Exports	Mine	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#imports_tantalum_mine_tonnes	Tantalum	Imports	Mine	false	1970	true	false
@@ -1046,10 +1010,8 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_vermiculite_unknown_tonnes	Vermiculite	Production	Unknown	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_vermiculite_mine_tonnes	Vermiculite	Reserves	Mine	false	2022	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_vermiculite_mine_tonnes	Vermiculite	Reserves	Mine	true	2022	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_wollastonite_mine_tonnes	Wollastonite	Production	Mine	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_wollastonite_mine_tonnes	Wollastonite	Production	Mine	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_wollastonite_unknown_tonnes	Wollastonite	Production	Unknown	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_wollastonite_unknown_tonnes	Wollastonite	Production	Unknown	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_wollastonite_mine_tonnes	Wollastonite	Production	Mine	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_wollastonite_mine_tonnes	Wollastonite	Production	Mine	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_zeolites__natural__mine_tonnes	Zeolites (natural)	Production	Mine	false	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_zeolites__natural__mine_tonnes	Zeolites (natural)	Production	Mine	true	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_zeolites__natural__mine_tonnes	Zeolites (natural)	Reserves	Mine	false	2023	true	false
@@ -1061,28 +1023,16 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_zinc_mine_tonnes	Zinc	Reserves	Mine	false	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_zinc_mine_tonnes	Zinc	Reserves	Mine	true	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_zinc_mine_constant_1998_usd_per_tonne	Zinc	Unit value	Mine	false	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_zirconium_concentrates_tonnes	Zirconium	Exports	Concentrates	false	1975	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_zirconium_concentrates_tonnes	Zirconium	Exports	Concentrates	true	1975	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_zirconium_metal_tonnes	Zirconium	Exports	Metal	false	1975	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_zirconium_metal_tonnes	Zirconium	Exports	Metal	true	1975	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_zirconium_unknown_tonnes	Zirconium	Exports	Unknown	false	1974	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_zirconium_unknown_tonnes	Zirconium	Exports	Unknown	true	1974	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_zirconium_zirconium_sand_tonnes	Zirconium	Exports	Zirconium sand	false	1981	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_zirconium_zirconium_sand_tonnes	Zirconium	Exports	Zirconium sand	true	1981	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_zirconium_concentrates_tonnes	Zirconium	Imports	Concentrates	false	1975	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_zirconium_concentrates_tonnes	Zirconium	Imports	Concentrates	true	1975	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_zirconium_metal_tonnes	Zirconium	Imports	Metal	false	1975	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_zirconium_metal_tonnes	Zirconium	Imports	Metal	true	1975	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_zirconium_unknown_tonnes	Zirconium	Imports	Unknown	false	1974	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_zirconium_unknown_tonnes	Zirconium	Imports	Unknown	true	1974	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_zirconium_zirconium_sand_tonnes	Zirconium	Imports	Zirconium sand	false	1977	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_zirconium_zirconium_sand_tonnes	Zirconium	Imports	Zirconium sand	true	1977	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_zirconium_and_hafnium_mine_production__zirconium_ores_and_zircon_concentrates_tonnes	Zirconium and hafnium	Production	Mine production, zirconium ores and zircon concentrates	false	2021	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_zirconium_and_hafnium_mine_production__zirconium_ores_and_zircon_concentrates_tonnes	Zirconium and hafnium	Production	Mine production, zirconium ores and zircon concentrates	true	2021	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_zirconium_and_hafnium_mine__zirconium_ores_and_zircon_concentrates_tonnes	Zirconium and hafnium	Production	Mine, zirconium ores and zircon concentrates	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_zirconium_and_hafnium_mine__zirconium_ores_and_zircon_concentrates_tonnes	Zirconium and hafnium	Production	Mine, zirconium ores and zircon concentrates	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#reserves_zirconium_and_hafnium_mine__zirconium_ores_and_zircon_concentrates_tonnes	Zirconium and hafnium	Reserves	Mine, zirconium ores and zircon concentrates	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_zirconium_and_hafnium_mine__zirconium_ores_and_zircon_concentrates_tonnes	Zirconium and hafnium	Reserves	Mine, zirconium ores and zircon concentrates	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_zirconium_minerals_unknown_tonnes	Zirconium minerals	Production	Unknown	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_zirconium_minerals_unknown_tonnes	Zirconium minerals	Production	Unknown	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#exports_zirconium_and_hafnium_concentrates_tonnes	Zirconium and hafnium	Exports	Concentrates	false	1975	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_zirconium_and_hafnium_concentrates_tonnes	Zirconium and hafnium	Exports	Concentrates	true	1975	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#exports_zirconium_and_hafnium_metal_tonnes	Zirconium and hafnium	Exports	Metal	false	1975	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_zirconium_and_hafnium_metal_tonnes	Zirconium and hafnium	Exports	Metal	true	1975	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#imports_zirconium_and_hafnium_concentrates_tonnes	Zirconium and hafnium	Imports	Concentrates	false	1975	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_zirconium_and_hafnium_concentrates_tonnes	Zirconium and hafnium	Imports	Concentrates	true	1975	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#imports_zirconium_and_hafnium_metal_tonnes	Zirconium and hafnium	Imports	Metal	false	1975	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_zirconium_and_hafnium_metal_tonnes	Zirconium and hafnium	Imports	Metal	true	1975	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_zirconium_and_hafnium_mine_tonnes	Zirconium and hafnium	Production	Mine	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_zirconium_and_hafnium_mine_tonnes	Zirconium and hafnium	Production	Mine	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#reserves_zirconium_and_hafnium_mine_tonnes	Zirconium and hafnium	Reserves	Mine	false	2023	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_zirconium_and_hafnium_mine_tonnes	Zirconium and hafnium	Reserves	Mine	true	2023	true	false
 
