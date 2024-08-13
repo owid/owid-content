@@ -1023,33 +1023,23 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_tungsten_mine_constant_1998_usd_per_tonne	Tungsten	Unit value	Mine	false	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_uranium_unknown_tonnes_of_metal_content	Uranium	Production	Unknown (tonnes of metal content)	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_uranium_unknown_tonnes_of_metal_content	Uranium	Production	Unknown (tonnes of metal content)	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_vanadium_lead_vanadium_concentrates_tonnes	Vanadium	Exports	Lead vanadium concentrates	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_vanadium_lead_vanadium_concentrates_tonnes	Vanadium	Exports	Lead vanadium concentrates	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_vanadium_metal_tonnes	Vanadium	Exports	Metal	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_vanadium_metal_tonnes	Vanadium	Exports	Metal	true	1971	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_vanadium_ores__and__concentrates_tonnes	Vanadium	Exports	Ores & concentrates	false	1972	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_vanadium_ores__and__concentrates_tonnes	Vanadium	Exports	Ores & concentrates	true	1972	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_vanadium_pentoxide_tonnes	Vanadium	Exports	Pentoxide	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_vanadium_pentoxide_tonnes	Vanadium	Exports	Pentoxide	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_vanadium_vanadiferous_residues_tonnes	Vanadium	Exports	Vanadiferous residues	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_vanadium_vanadiferous_residues_tonnes	Vanadium	Exports	Vanadiferous residues	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#imports_vanadium_metal_tonnes	Vanadium	Imports	Metal	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_vanadium_metal_tonnes	Vanadium	Imports	Metal	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_vanadium_ores__and__concentrates_tonnes	Vanadium	Imports	Ores & concentrates	false	1994	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_vanadium_ores__and__concentrates_tonnes	Vanadium	Imports	Ores & concentrates	true	1994	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#imports_vanadium_pentoxide_tonnes	Vanadium	Imports	Pentoxide	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_vanadium_pentoxide_tonnes	Vanadium	Imports	Pentoxide	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#imports_vanadium_vanadiferous_residues_tonnes	Vanadium	Imports	Vanadiferous residues	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_vanadium_vanadiferous_residues_tonnes	Vanadium	Imports	Vanadiferous residues	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_vanadium_mine_tonnes_of_metal_content	Vanadium	Production	Mine (tonnes of metal content)	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_vanadium_mine_tonnes_of_metal_content	Vanadium	Production	Mine (tonnes of metal content)	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_vanadium_mine_tonnes	Vanadium	Production	Mine (tonnes)	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_vanadium_mine_tonnes	Vanadium	Production	Mine (tonnes)	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_vanadium_total_tonnes	Vanadium	Production	Total (tonnes)	false	1901	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_vanadium_total_tonnes	Vanadium	Production	Total (tonnes)	true	1901	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_vanadium_mine_tonnes	Vanadium	Production	Mine	false	1901	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_vanadium_mine_tonnes	Vanadium	Production	Mine	true	1901	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_vanadium_mine_tonnes	Vanadium	Reserves	Mine	false	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_vanadium_mine_tonnes	Vanadium	Reserves	Mine	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_vanadium_total_constant_1998_usd_per_tonne	Vanadium	Unit value	Total	false	1910	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_vanadium_mine_constant_1998_usd_per_tonne	Vanadium	Unit value	Mine	false	1910	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_vermiculite_mine_tonnes	Vermiculite	Production	Mine	false	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_vermiculite_mine_tonnes	Vermiculite	Production	Mine	true	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_vermiculite_unknown_tonnes	Vermiculite	Production	Unknown	false	1970	true	false
