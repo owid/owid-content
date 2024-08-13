@@ -592,31 +592,27 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_phosphate_rock_apatite_tonnes	Phosphate rock	Exports	Apatite	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_phosphate_rock_guano_tonnes	Phosphate rock	Exports	Guano	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_phosphate_rock_guano_tonnes	Phosphate rock	Exports	Guano	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_phosphate_rock_unknown_tonnes	Phosphate rock	Exports	Unknown	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_phosphate_rock_unknown_tonnes	Phosphate rock	Exports	Unknown	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#exports_phosphate_rock_mine_tonnes	Phosphate rock	Exports	Mine	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_phosphate_rock_mine_tonnes	Phosphate rock	Exports	Mine	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#imports_phosphate_rock_apatite_tonnes	Phosphate rock	Imports	Apatite	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_phosphate_rock_apatite_tonnes	Phosphate rock	Imports	Apatite	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#imports_phosphate_rock_calcium_phosphates_tonnes	Phosphate rock	Imports	Calcium phosphates	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_phosphate_rock_calcium_phosphates_tonnes	Phosphate rock	Imports	Calcium phosphates	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#imports_phosphate_rock_guano_tonnes	Phosphate rock	Imports	Guano	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_phosphate_rock_guano_tonnes	Phosphate rock	Imports	Guano	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_phosphate_rock_unknown_tonnes	Phosphate rock	Imports	Unknown	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_phosphate_rock_unknown_tonnes	Phosphate rock	Imports	Unknown	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_phosphate_rock_aluminum_phosphate_tonnes	Phosphate rock	Production	Aluminum phosphate (tonnes)	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_phosphate_rock_aluminum_phosphate_tonnes	Phosphate rock	Production	Aluminum phosphate (tonnes)	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_phosphate_rock_apatite_tonnes	Phosphate rock	Production	Apatite (tonnes)	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_phosphate_rock_apatite_tonnes	Phosphate rock	Production	Apatite (tonnes)	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_phosphate_rock_guano_tonnes	Phosphate rock	Production	Guano (tonnes)	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_phosphate_rock_guano_tonnes	Phosphate rock	Production	Guano (tonnes)	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_phosphate_rock_mine_tonnes	Phosphate rock	Production	Mine (tonnes)	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_phosphate_rock_mine_tonnes	Phosphate rock	Production	Mine (tonnes)	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_phosphate_rock_total_tonnes_of_gross_weight	Phosphate rock	Production	Total (tonnes of gross weight)	false	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_phosphate_rock_total_tonnes_of_gross_weight	Phosphate rock	Production	Total (tonnes of gross weight)	true	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_phosphate_rock_unknown_tonnes	Phosphate rock	Production	Unknown (tonnes)	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_phosphate_rock_unknown_tonnes	Phosphate rock	Production	Unknown (tonnes)	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#imports_phosphate_rock_mine_tonnes	Phosphate rock	Imports	Mine	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_phosphate_rock_mine_tonnes	Phosphate rock	Imports	Mine	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_phosphate_rock_aluminum_phosphate_tonnes	Phosphate rock	Production	Aluminum phosphate	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_phosphate_rock_aluminum_phosphate_tonnes	Phosphate rock	Production	Aluminum phosphate	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_phosphate_rock_apatite_tonnes	Phosphate rock	Production	Apatite	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_phosphate_rock_apatite_tonnes	Phosphate rock	Production	Apatite	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_phosphate_rock_guano_tonnes	Phosphate rock	Production	Guano	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_phosphate_rock_guano_tonnes	Phosphate rock	Production	Guano	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_phosphate_rock_mine_tonnes	Phosphate rock	Production	Mine	false	1900	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_phosphate_rock_mine_tonnes	Phosphate rock	Production	Mine	true	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_phosphate_rock_mine_tonnes	Phosphate rock	Reserves	Mine	false	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_phosphate_rock_mine_tonnes	Phosphate rock	Reserves	Mine	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_phosphate_rock_total_constant_1998_usd_per_tonne	Phosphate rock	Unit value	Total	false	1900	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_phosphate_rock_mine_constant_1998_usd_per_tonne	Phosphate rock	Unit value	Mine	false	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_platinum_mine_tonnes	Platinum	Production	Mine	false	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_platinum_mine_tonnes	Platinum	Production	Mine	true	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_platinum_mine_tonnes	Platinum	Reserves	Mine	false	2023	true	false
@@ -739,11 +735,9 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_potash_unknown_tonnes_of_potassium_oxide_content	Potash	Production	Unknown (tonnes of potassium oxide content)	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_potash_mine_tonnes_of_potassium_oxide_equivalent	Potash	Reserves	Mine (tonnes of potassium oxide equivalent)	false	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_potash_mine_tonnes_of_potassium_oxide_equivalent	Potash	Reserves	Mine (tonnes of potassium oxide equivalent)	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_pumice_and_pumicite_mine_tonnes	Pumice and pumicite	Production	Mine (tonnes)	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_pumice_and_pumicite_mine_tonnes	Pumice and pumicite	Production	Mine (tonnes)	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_pumice_and_pumicite_total_tonnes_of_gross_weight	Pumice and pumicite	Production	Total (tonnes of gross weight)	false	1902	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_pumice_and_pumicite_total_tonnes_of_gross_weight	Pumice and pumicite	Production	Total (tonnes of gross weight)	true	1902	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_pumice_and_pumicite_total_constant_1998_usd_per_tonne	Pumice and pumicite	Unit value	Total	false	1902	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_pumice_and_pumicite_mine_tonnes	Pumice and pumicite	Production	Mine	false	1902	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_pumice_and_pumicite_mine_tonnes	Pumice and pumicite	Production	Mine	true	1902	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_pumice_and_pumicite_mine_constant_1998_usd_per_tonne	Pumice and pumicite	Unit value	Mine	false	1902	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_rare_earths_compounds_tonnes	Rare earths	Exports	Compounds	false	1975	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_rare_earths_compounds_tonnes	Rare earths	Exports	Compounds	true	1975	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_rare_earths_ores__and__concentrates_tonnes	Rare earths	Exports	Ores & concentrates	false	1975	true	false
@@ -770,49 +764,29 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_rhenium_mine_tonnes	Rhenium	Reserves	Mine	true	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_salt_other_salt_tonnes	Salt	Exports	Other salt	false	1974	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_salt_other_salt_tonnes	Salt	Exports	Other salt	true	1974	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_salt_refined_salt_tonnes	Salt	Exports	Refined salt	false	1974	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_salt_refined_salt_tonnes	Salt	Exports	Refined salt	true	1974	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_salt_rock_salt_tonnes	Salt	Exports	Rock salt	false	1974	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_salt_rock_salt_tonnes	Salt	Exports	Rock salt	true	1974	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_salt_sea_salt_tonnes	Salt	Exports	Sea salt	false	1974	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_salt_sea_salt_tonnes	Salt	Exports	Sea salt	true	1974	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_salt_unknown_tonnes	Salt	Exports	Unknown	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_salt_unknown_tonnes	Salt	Exports	Unknown	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_salt_common_salt_tonnes	Salt	Imports	Common salt	false	1974	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_salt_common_salt_tonnes	Salt	Imports	Common salt	true	1974	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_salt_crude_salt_tonnes	Salt	Imports	Crude salt	false	1974	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_salt_crude_salt_tonnes	Salt	Imports	Crude salt	true	1974	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#imports_salt_other_salt_tonnes	Salt	Imports	Other salt	false	1974	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_salt_other_salt_tonnes	Salt	Imports	Other salt	true	1974	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_salt_refined_salt_tonnes	Salt	Imports	Refined salt	false	1974	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_salt_refined_salt_tonnes	Salt	Imports	Refined salt	true	1974	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#imports_salt_rock_salt_tonnes	Salt	Imports	Rock salt	false	1971	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_salt_rock_salt_tonnes	Salt	Imports	Rock salt	true	1971	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_salt_unknown_tonnes	Salt	Imports	Unknown	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_salt_unknown_tonnes	Salt	Imports	Unknown	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_salt_brine_salt__and__sea_salt_tonnes	Salt	Production	Brine salt & sea salt (tonnes)	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_salt_brine_salt__and__sea_salt_tonnes	Salt	Production	Brine salt & sea salt (tonnes)	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_salt_brine_salt_tonnes	Salt	Production	Brine salt (tonnes)	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_salt_brine_salt_tonnes	Salt	Production	Brine salt (tonnes)	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_salt_evaporated_salt_tonnes	Salt	Production	Evaporated salt (tonnes)	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_salt_evaporated_salt_tonnes	Salt	Production	Evaporated salt (tonnes)	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_salt_mine_tonnes	Salt	Production	Mine (tonnes)	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_salt_mine_tonnes	Salt	Production	Mine (tonnes)	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_salt_other_salt_tonnes	Salt	Production	Other salt (tonnes)	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_salt_other_salt_tonnes	Salt	Production	Other salt (tonnes)	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_salt_rock_salt__and__brine_salt_tonnes	Salt	Production	Rock salt & brine salt (tonnes)	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_salt_rock_salt__and__brine_salt_tonnes	Salt	Production	Rock salt & brine salt (tonnes)	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_salt_rock_salt_tonnes	Salt	Production	Rock salt (tonnes)	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_salt_rock_salt_tonnes	Salt	Production	Rock salt (tonnes)	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_salt_salt_in_brine_tonnes	Salt	Production	Salt in brine (tonnes)	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_salt_salt_in_brine_tonnes	Salt	Production	Salt in brine (tonnes)	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_salt_sea_salt_tonnes	Salt	Production	Sea salt (tonnes)	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_salt_sea_salt_tonnes	Salt	Production	Sea salt (tonnes)	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_salt_total_tonnes_of_gross_weight	Salt	Production	Total (tonnes of gross weight)	false	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_salt_total_tonnes_of_gross_weight	Salt	Production	Total (tonnes of gross weight)	true	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_salt_unknown_tonnes	Salt	Production	Unknown (tonnes)	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_salt_unknown_tonnes	Salt	Production	Unknown (tonnes)	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_salt_total_constant_1998_usd_per_tonne	Salt	Unit value	Total	false	1900	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_salt_brine_salt_tonnes	Salt	Production	Brine salt	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_salt_brine_salt_tonnes	Salt	Production	Brine salt	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_salt_evaporated_salt_tonnes	Salt	Production	Evaporated salt	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_salt_evaporated_salt_tonnes	Salt	Production	Evaporated salt	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_salt_mine_tonnes	Salt	Production	Mine	false	1900	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_salt_mine_tonnes	Salt	Production	Mine	true	1900	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_salt_other_salt_tonnes	Salt	Production	Other salt	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_salt_other_salt_tonnes	Salt	Production	Other salt	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_salt_rock_salt_tonnes	Salt	Production	Rock salt	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_salt_rock_salt_tonnes	Salt	Production	Rock salt	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_salt_salt_in_brine_tonnes	Salt	Production	Salt in brine	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_salt_salt_in_brine_tonnes	Salt	Production	Salt in brine	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_salt_sea_salt_tonnes	Salt	Production	Sea salt	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_salt_sea_salt_tonnes	Salt	Production	Sea salt	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_salt_mine_constant_1998_usd_per_tonne	Salt	Unit value	Mine	false	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_sand_and_gravel__construction_mine_tonnes	Sand and gravel, construction	Production	Mine	false	1902	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_sand_and_gravel__construction_mine_tonnes	Sand and gravel, construction	Production	Mine	true	1902	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_sand_and_gravel__construction_mine_constant_1998_usd_per_tonne	Sand and gravel, construction	Unit value	Mine	false	1902	true	false
@@ -900,31 +874,23 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_silver_mine_tonnes	Silver	Reserves	Mine	false	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_silver_mine_tonnes	Silver	Reserves	Mine	true	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_silver_mine_constant_1998_usd_per_tonne	Silver	Unit value	Mine	false	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_soda_ash_mine__natural_tonnes	Soda ash	Production	Mine, natural (tonnes)	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_soda_ash_mine__natural_tonnes	Soda ash	Production	Mine, natural (tonnes)	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_soda_ash_plant_production__synthetic_tonnes	Soda ash	Production	Plant production, synthetic (tonnes)	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_soda_ash_plant_production__synthetic_tonnes	Soda ash	Production	Plant production, synthetic (tonnes)	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_soda_ash_total_tonnes_of_gross_weight	Soda ash	Production	Total (tonnes of gross weight)	false	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_soda_ash_total_tonnes_of_gross_weight	Soda ash	Production	Total (tonnes of gross weight)	true	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_soda_ash_total_production__natural_and_synthetic_tonnes	Soda ash	Production	Total production, natural and synthetic (tonnes)	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_soda_ash_total_production__natural_and_synthetic_tonnes	Soda ash	Production	Total production, natural and synthetic (tonnes)	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#reserves_soda_ash_mine__natural_tonnes	Soda ash	Reserves	Mine, natural	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_soda_ash_mine__natural_tonnes	Soda ash	Reserves	Mine, natural	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_soda_ash_total_constant_1998_usd_per_tonne	Soda ash	Unit value	Total	false	1920	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_sodium_carbonate_natural_tonnes	Sodium carbonate	Production	Natural	false	1992	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_sodium_carbonate_natural_tonnes	Sodium carbonate	Production	Natural	true	1992	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_soda_ash_natural_tonnes	Soda ash	Production	Natural	false	1992	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_soda_ash_natural_tonnes	Soda ash	Production	Natural	true	1992	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_soda_ash_natural_and_synthetic_tonnes	Soda ash	Production	Natural and synthetic	false	1900	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_soda_ash_natural_and_synthetic_tonnes	Soda ash	Production	Natural and synthetic	true	1900	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_soda_ash_synthetic_tonnes	Soda ash	Production	Synthetic	false	2023	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_soda_ash_synthetic_tonnes	Soda ash	Production	Synthetic	true	2023	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#reserves_soda_ash_natural_tonnes	Soda ash	Reserves	Natural	false	2023	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_soda_ash_natural_tonnes	Soda ash	Reserves	Natural	true	2023	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_soda_ash_natural_and_synthetic_constant_1998_usd_per_tonne	Soda ash	Unit value	Natural and synthetic	false	1920	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_steel_crude_tonnes	Steel	Production	Crude	false	1943	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_steel_crude_tonnes	Steel	Production	Crude	true	1943	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_steel_crude_constant_1998_usd_per_tonne	Steel	Unit value	Crude	false	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_strontium_mine_tonnes	Strontium	Production	Mine	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_strontium_mine_tonnes	Strontium	Production	Mine	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_strontium_total_tonnes	Strontium	Production	Total	false	1916	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_strontium_total_tonnes	Strontium	Production	Total	true	1916	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_strontium_mine_tonnes	Strontium	Production	Mine	false	1916	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_strontium_mine_tonnes	Strontium	Production	Mine	true	1916	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_strontium_mine_tonnes	Strontium	Reserves	Mine	false	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_strontium_mine_tonnes	Strontium	Reserves	Mine	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_strontium_total_constant_1998_usd_per_tonne	Strontium	Unit value	Total	false	1917	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_strontium_minerals_unknown_tonnes	Strontium minerals	Production	Unknown	false	1974	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_strontium_minerals_unknown_tonnes	Strontium minerals	Production	Unknown	true	1974	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_strontium_mine_constant_1998_usd_per_tonne	Strontium	Unit value	Mine	false	1917	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_sulfur_production__all_forms_tonnes	Sulfur	Production	Production, all forms	false	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_sulfur_production__all_forms_tonnes	Sulfur	Production	Production, all forms	true	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_sulfur_total_tonnes	Sulfur	Production	Total	false	1900	true	false
