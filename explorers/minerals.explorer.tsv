@@ -141,23 +141,23 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_cadmium_refinery_tonnes	Cadmium	Production	Refinery	false	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_cadmium_refinery_tonnes	Cadmium	Production	Refinery	true	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_cadmium_refinery_constant_1998_usd_per_tonne	Cadmium	Unit value	Refinery	false	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_cement_total_tonnes	Cement	Production	Total	false	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_cement_total_tonnes	Cement	Production	Total	true	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_cement_total_constant_1998_usd_per_tonne	Cement	Unit value	Total	false	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_cesium_total_tonnes	Cesium	Production	Total	false	1961	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_cesium_total_tonnes	Cesium	Production	Total	true	1961	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_cesium_total_constant_1998_usd_per_tonne	Cesium	Unit value	Total	false	1959	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_chromium_metal_tonnes	Chromium	Exports	Metal	false	1975	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_chromium_metal_tonnes	Chromium	Exports	Metal	true	1975	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_chromium_metal_tonnes	Chromium	Imports	Metal	false	1975	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_chromium_metal_tonnes	Chromium	Imports	Metal	true	1975	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_chromium_mine_tonnes	Chromium	Production	Mine	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_chromium_mine_tonnes	Chromium	Production	Mine	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_chromium_mine__contained_chromium_tonnes	Chromium	Production	Mine, contained chromium	false	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_chromium_mine__contained_chromium_tonnes	Chromium	Production	Mine, contained chromium	true	1900	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_cement_processing_tonnes	Cement	Production	Processing	false	1900	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_cement_processing_tonnes	Cement	Production	Processing	true	1900	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_cement_processing_constant_1998_usd_per_tonne	Cement	Unit value	Processing	false	1900	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_cesium_mine_tonnes	Cesium	Production	Mine	false	1961	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_cesium_mine_tonnes	Cesium	Production	Mine	true	1961	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_cesium_mine_constant_1998_usd_per_tonne	Cesium	Unit value	Mine	false	1959	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#exports_chromium_refinery_tonnes	Chromium	Exports	Refinery	false	1975	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_chromium_refinery_tonnes	Chromium	Exports	Refinery	true	1975	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#imports_chromium_refinery_tonnes	Chromium	Imports	Refinery	false	1975	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_chromium_refinery_tonnes	Chromium	Imports	Refinery	true	1975	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_chromium_mine_tonnes_of_gross_weight	Chromium	Production	Mine (tonnes of gross weight)	false	2023	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_chromium_mine_tonnes_of_gross_weight	Chromium	Production	Mine (tonnes of gross weight)	true	2023	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_chromium_mine_tonnes	Chromium	Production	Mine (tonnes)	false	1900	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_chromium_mine_tonnes	Chromium	Production	Mine (tonnes)	true	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_chromium_mine_tonnes_of_gross_weight	Chromium	Reserves	Mine (tonnes of gross weight)	false	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_chromium_mine_tonnes_of_gross_weight	Chromium	Reserves	Mine (tonnes of gross weight)	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_chromium_mine__contained_chromium_constant_1998_usd_per_tonne	Chromium	Unit value	Mine, contained chromium	false	1900	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_chromium_mine_constant_1998_usd_per_tonne	Chromium	Unit value	Mine	false	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_clays_bentonite_tonnes	Clays	Exports	Bentonite	false	1974	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_clays_bentonite_tonnes	Clays	Exports	Bentonite	true	1974	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_clays_fullers_earth_tonnes	Clays	Exports	Fuller's earth	false	1974	true	false
@@ -178,8 +178,8 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_clays_bentonite_tonnes	Clays	Production	Bentonite	true	1930	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_clays_fire_clay_tonnes	Clays	Production	Fire clay	false	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_clays_fire_clay_tonnes	Clays	Production	Fire clay	true	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_clays_fullers_earth_tonnes	Clays	Production	Fuller's earth	false	1974	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_clays_fullers_earth_tonnes	Clays	Production	Fuller's earth	true	1974	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_clays_fullers_earth_tonnes	Clays	Production	Fuller's earth	false	1900	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_clays_fullers_earth_tonnes	Clays	Production	Fuller's earth	true	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_clays_kaolin_tonnes	Clays	Production	Kaolin	false	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_clays_kaolin_tonnes	Clays	Production	Kaolin	true	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_clays_miscellaneous_tonnes	Clays	Production	Miscellaneous	false	1900	true	false
@@ -189,6 +189,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_clays_ball_clay_constant_1998_usd_per_tonne	Clays	Unit value	Ball clay	false	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_clays_bentonite_constant_1998_usd_per_tonne	Clays	Unit value	Bentonite	false	1930	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_clays_fire_clay_constant_1998_usd_per_tonne	Clays	Unit value	Fire clay	false	1900	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_clays_fullers_earth_constant_1998_usd_per_tonne	Clays	Unit value	Fuller's earth	false	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_clays_miscellaneous_constant_1998_usd_per_tonne	Clays	Unit value	Miscellaneous	false	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_coal_anthracite_tonnes	Coal	Exports	Anthracite	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_coal_anthracite_tonnes	Coal	Exports	Anthracite	true	1970	true	false
@@ -254,15 +255,13 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_coal_other_bituminous_coal_tonnes	Coal	Production	Other bituminous coal	true	2000	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_coal_sub_bituminous_tonnes	Coal	Production	Sub-bituminous	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_coal_sub_bituminous_tonnes	Coal	Production	Sub-bituminous	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_cobalt_mine_tonnes	Cobalt	Production	Mine (tonnes)	false	1901	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_cobalt_mine_tonnes	Cobalt	Production	Mine (tonnes)	true	1901	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_cobalt_refinery_tonnes_of_metal_content	Cobalt	Production	Refinery (tonnes of metal content)	false	1968	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_cobalt_refinery_tonnes_of_metal_content	Cobalt	Production	Refinery (tonnes of metal content)	true	1968	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_cobalt_refinery_tonnes	Cobalt	Production	Refinery (tonnes)	false	1972	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_cobalt_refinery_tonnes	Cobalt	Production	Refinery (tonnes)	true	1972	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_cobalt_mine_tonnes	Cobalt	Production	Mine	false	1901	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_cobalt_mine_tonnes	Cobalt	Production	Mine	true	1901	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_cobalt_refinery_tonnes	Cobalt	Production	Refinery	false	1968	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_cobalt_refinery_tonnes	Cobalt	Production	Refinery	true	1968	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_cobalt_mine_tonnes	Cobalt	Reserves	Mine	false	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_cobalt_mine_tonnes	Cobalt	Reserves	Mine	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_cobalt_total_constant_1998_usd_per_tonne	Cobalt	Unit value	Total	false	1900	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_cobalt_value_constant_1998_usd_per_tonne	Cobalt	Unit value	Value	false	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_copper_mine_tonnes	Copper	Production	Mine	false	1900	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_copper_mine_tonnes	Copper	Production	Mine	true	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_copper_refinery_tonnes	Copper	Production	Refinery	false	1976	true	false
@@ -272,9 +271,9 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_copper_mine_tonnes	Copper	Reserves	Mine	false	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_copper_mine_tonnes	Copper	Reserves	Mine	true	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_copper_mine_constant_1998_usd_per_tonne	Copper	Unit value	Mine	false	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_crushed_stone_total_tonnes	Crushed stone	Production	Total	false	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_crushed_stone_total_tonnes	Crushed stone	Production	Total	true	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_crushed_stone_total_constant_1998_usd_per_tonne	Crushed stone	Unit value	Total	false	1900	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_crushed_stone_mine_tonnes	Crushed stone	Production	Mine	false	1900	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_crushed_stone_mine_tonnes	Crushed stone	Production	Mine	true	1900	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_crushed_stone_mine_constant_1998_usd_per_tonne	Crushed stone	Unit value	Mine	false	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_diamond_mine__industrial_tonnes	Diamond	Exports	Mine, industrial	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_diamond_mine__industrial_tonnes	Diamond	Exports	Mine, industrial	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#imports_diamond_mine__industrial_tonnes	Diamond	Imports	Mine, industrial	false	1970	true	false
@@ -286,36 +285,18 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_diamond_mine__industrial_tonnes	Diamond	Reserves	Mine, industrial	false	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_diamond_mine__industrial_tonnes	Diamond	Reserves	Mine, industrial	true	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_diamond_mine_and_synthetic__industrial_constant_1998_usd_per_tonne	Diamond	Unit value	Mine and synthetic, industrial	false	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_diatomite_moler_tonnes	Diatomite	Exports	Moler	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_diatomite_moler_tonnes	Diatomite	Exports	Moler	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_diatomite_moler_bricks_tonnes	Diatomite	Exports	Moler bricks	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_diatomite_moler_bricks_tonnes	Diatomite	Exports	Moler bricks	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_diatomite_unknown_tonnes	Diatomite	Exports	Unknown	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_diatomite_unknown_tonnes	Diatomite	Exports	Unknown	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_diatomite_activated_diatomite_tonnes	Diatomite	Imports	Activated diatomite	false	1974	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_diatomite_activated_diatomite_tonnes	Diatomite	Imports	Activated diatomite	true	1974	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_diatomite_moler_tonnes	Diatomite	Imports	Moler	false	1974	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_diatomite_moler_tonnes	Diatomite	Imports	Moler	true	1974	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_diatomite_moler_bricks_tonnes	Diatomite	Imports	Moler bricks	false	1974	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_diatomite_moler_bricks_tonnes	Diatomite	Imports	Moler bricks	true	1974	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_diatomite_unknown_tonnes	Diatomite	Imports	Unknown	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_diatomite_unknown_tonnes	Diatomite	Imports	Unknown	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_diatomite_mine_tonnes	Diatomite	Production	Mine (tonnes)	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_diatomite_mine_tonnes	Diatomite	Production	Mine (tonnes)	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_diatomite_moler_tonnes	Diatomite	Production	Moler (tonnes)	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_diatomite_moler_tonnes	Diatomite	Production	Moler (tonnes)	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_diatomite_total_tonnes_of_gross_weight	Diatomite	Production	Total (tonnes of gross weight)	false	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_diatomite_total_tonnes_of_gross_weight	Diatomite	Production	Total (tonnes of gross weight)	true	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_diatomite_unknown_tonnes	Diatomite	Production	Unknown (tonnes)	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_diatomite_unknown_tonnes	Diatomite	Production	Unknown (tonnes)	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#exports_diatomite_mine_tonnes	Diatomite	Exports	Mine	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_diatomite_mine_tonnes	Diatomite	Exports	Mine	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#imports_diatomite_mine_tonnes	Diatomite	Imports	Mine	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_diatomite_mine_tonnes	Diatomite	Imports	Mine	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_diatomite_mine_tonnes	Diatomite	Production	Mine	false	1900	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_diatomite_mine_tonnes	Diatomite	Production	Mine	true	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_diatomite_mine_tonnes	Diatomite	Reserves	Mine	false	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_diatomite_mine_tonnes	Diatomite	Reserves	Mine	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_diatomite_total_constant_1998_usd_per_tonne	Diatomite	Unit value	Total	false	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_dimension_stone_mine_tonnes	Dimension stone	Production	Mine (tonnes)	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_dimension_stone_mine_tonnes	Dimension stone	Production	Mine (tonnes)	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_dimension_stone_total_tonnes_of_gross_weight	Dimension stone	Production	Total (tonnes of gross weight)	false	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_dimension_stone_total_tonnes_of_gross_weight	Dimension stone	Production	Total (tonnes of gross weight)	true	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_dimension_stone_total_constant_1998_usd_per_tonne	Dimension stone	Unit value	Total	false	1900	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_diatomite_mine_constant_1998_usd_per_tonne	Diatomite	Unit value	Mine	false	1900	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_dimension_stone_mine_tonnes	Dimension stone	Production	Mine	false	1900	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_dimension_stone_mine_tonnes	Dimension stone	Production	Mine	true	1900	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_dimension_stone_mine_constant_1998_usd_per_tonne	Dimension stone	Unit value	Mine	false	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_feldspar_mine_tonnes	Feldspar	Exports	Mine	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_feldspar_mine_tonnes	Feldspar	Exports	Mine	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#imports_feldspar_mine_tonnes	Feldspar	Imports	Mine	false	1970	true	false
@@ -325,22 +306,15 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_feldspar_mine_tonnes	Feldspar	Reserves	Mine	false	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_feldspar_mine_tonnes	Feldspar	Reserves	Mine	true	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_feldspar_mine_constant_1998_usd_per_tonne	Feldspar	Unit value	Mine	false	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_fluorspar_unknown_tonnes	Fluorspar	Exports	Unknown	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_fluorspar_unknown_tonnes	Fluorspar	Exports	Unknown	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_fluorspar_unknown_tonnes	Fluorspar	Imports	Unknown	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_fluorspar_unknown_tonnes	Fluorspar	Imports	Unknown	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_fluorspar_mine_tonnes	Fluorspar	Production	Mine (tonnes)	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_fluorspar_mine_tonnes	Fluorspar	Production	Mine (tonnes)	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_fluorspar_total_tonnes_of_gross_weight	Fluorspar	Production	Total (tonnes of gross weight)	false	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_fluorspar_total_tonnes_of_gross_weight	Fluorspar	Production	Total (tonnes of gross weight)	true	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_fluorspar_unknown_tonnes	Fluorspar	Production	Unknown (tonnes)	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_fluorspar_unknown_tonnes	Fluorspar	Production	Unknown (tonnes)	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#exports_fluorspar_mine_tonnes	Fluorspar	Exports	Mine	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_fluorspar_mine_tonnes	Fluorspar	Exports	Mine	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#imports_fluorspar_mine_tonnes	Fluorspar	Imports	Mine	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_fluorspar_mine_tonnes	Fluorspar	Imports	Mine	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_fluorspar_mine_tonnes	Fluorspar	Production	Mine	false	1900	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_fluorspar_mine_tonnes	Fluorspar	Production	Mine	true	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_fluorspar_mine_tonnes	Fluorspar	Reserves	Mine	false	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_fluorspar_mine_tonnes	Fluorspar	Reserves	Mine	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_fluorspar_total_constant_1998_usd_per_tonne	Fluorspar	Unit value	Total	false	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_fullers_earth_total_tonnes_of_gross_weight	Fuller's earth	Production	Total (tonnes of gross weight)	false	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_fullers_earth_total_tonnes_of_gross_weight	Fuller's earth	Production	Total (tonnes of gross weight)	true	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_fullers_earth_total_constant_1998_usd_per_tonne	Fuller's earth	Unit value	Total	false	1900	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_fluorspar_mine_constant_1998_usd_per_tonne	Fluorspar	Unit value	Mine	false	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_gallium_primary_tonnes	Gallium	Production	Primary	false	2007	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_gallium_primary_tonnes	Gallium	Production	Primary	true	2007	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_gallium_refinery_tonnes	Gallium	Production	Refinery	false	1948	true	false
