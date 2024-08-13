@@ -320,19 +320,16 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_gallium_refinery_tonnes	Gallium	Production	Refinery	false	1948	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_gallium_refinery_tonnes	Gallium	Production	Refinery	true	1948	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_gallium_refinery_constant_1998_usd_per_tonne	Gallium	Unit value	Refinery	false	1943	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_garnet_mine_tonnes	Garnet	Production	Mine	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_garnet_mine_tonnes	Garnet	Production	Mine	true	2023	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_garnet_mine_tonnes	Garnet	Production	Mine	false	1900	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_garnet_mine_tonnes	Garnet	Production	Mine	true	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_garnet_mine_tonnes	Garnet	Reserves	Mine	false	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_garnet_mine_tonnes	Garnet	Reserves	Mine	true	2023	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_garnet_mine_constant_1998_usd_per_tonne	Garnet	Unit value	Mine	false	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_gemstones_mine_tonnes	Gemstones	Production	Mine	false	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_gemstones_mine_tonnes	Gemstones	Production	Mine	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_germanium_metal_tonnes	Germanium	Production	Metal	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_germanium_metal_tonnes	Germanium	Production	Metal	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_germanium_primary_and_secondary_refinery_tonnes	Germanium	Production	Primary and secondary refinery	false	2021	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_germanium_primary_and_secondary_refinery_tonnes	Germanium	Production	Primary and secondary refinery	true	2021	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_germanium_total_tonnes	Germanium	Production	Total	false	1956	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_germanium_total_tonnes	Germanium	Production	Total	true	1956	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_germanium_total_constant_1998_usd_per_tonne	Germanium	Unit value	Total	false	1945	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_germanium_refinery_tonnes	Germanium	Production	Refinery	false	1956	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_germanium_refinery_tonnes	Germanium	Production	Refinery	true	1956	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_germanium_refinery_constant_1998_usd_per_tonne	Germanium	Unit value	Refinery	false	1945	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_gold_metal_tonnes	Gold	Exports	Metal	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_gold_metal_tonnes	Gold	Exports	Metal	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_gold_metal__refined_tonnes	Gold	Exports	Metal, refined	false	1970	true	false
@@ -359,54 +356,31 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_graphite_mine_tonnes	Graphite	Reserves	Mine	false	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_graphite_mine_tonnes	Graphite	Reserves	Mine	true	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_graphite_mine_constant_1998_usd_per_tonne	Graphite	Unit value	Mine	false	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_gypsum_mine_tonnes	Gypsum	Production	Mine (tonnes)	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_gypsum_mine_tonnes	Gypsum	Production	Mine (tonnes)	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_gypsum_total_tonnes_of_gross_weight	Gypsum	Production	Total (tonnes of gross weight)	false	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_gypsum_total_tonnes_of_gross_weight	Gypsum	Production	Total (tonnes of gross weight)	true	1900	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#exports_gypsum_calcined_tonnes	Gypsum	Exports	Calcined	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_gypsum_calcined_tonnes	Gypsum	Exports	Calcined	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#exports_gypsum_crude_tonnes	Gypsum	Exports	Crude	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_gypsum_crude_tonnes	Gypsum	Exports	Crude	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#exports_gypsum_mine_tonnes	Gypsum	Exports	Mine	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_gypsum_mine_tonnes	Gypsum	Exports	Mine	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#imports_gypsum_calcined_tonnes	Gypsum	Imports	Calcined	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_gypsum_calcined_tonnes	Gypsum	Imports	Calcined	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#imports_gypsum_crude_tonnes	Gypsum	Imports	Crude	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_gypsum_crude_tonnes	Gypsum	Imports	Crude	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#imports_gypsum_mine_tonnes	Gypsum	Imports	Mine	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_gypsum_mine_tonnes	Gypsum	Imports	Mine	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_gypsum_mine_tonnes	Gypsum	Production	Mine	false	1900	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_gypsum_mine_tonnes	Gypsum	Production	Mine	true	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_gypsum_mine_tonnes	Gypsum	Reserves	Mine	false	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_gypsum_mine_tonnes	Gypsum	Reserves	Mine	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_gypsum_total_constant_1998_usd_per_tonne	Gypsum	Unit value	Total	false	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_gypsum_and_plaster_calcined_tonnes	Gypsum and plaster	Exports	Calcined	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_gypsum_and_plaster_calcined_tonnes	Gypsum and plaster	Exports	Calcined	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_gypsum_and_plaster_crude_tonnes	Gypsum and plaster	Exports	Crude	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_gypsum_and_plaster_crude_tonnes	Gypsum and plaster	Exports	Crude	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_gypsum_and_plaster_crude__and__calcined_tonnes	Gypsum and plaster	Exports	Crude & calcined	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_gypsum_and_plaster_crude__and__calcined_tonnes	Gypsum and plaster	Exports	Crude & calcined	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_gypsum_and_plaster_ground__and__calcined_tonnes	Gypsum and plaster	Exports	Ground & calcined	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_gypsum_and_plaster_ground__and__calcined_tonnes	Gypsum and plaster	Exports	Ground & calcined	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_gypsum_and_plaster_unknown_tonnes	Gypsum and plaster	Exports	Unknown	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_gypsum_and_plaster_unknown_tonnes	Gypsum and plaster	Exports	Unknown	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_gypsum_and_plaster_calcined_tonnes	Gypsum and plaster	Imports	Calcined	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_gypsum_and_plaster_calcined_tonnes	Gypsum and plaster	Imports	Calcined	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_gypsum_and_plaster_crede__and__ground_tonnes	Gypsum and plaster	Imports	Crede & ground	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_gypsum_and_plaster_crede__and__ground_tonnes	Gypsum and plaster	Imports	Crede & ground	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_gypsum_and_plaster_crude_tonnes	Gypsum and plaster	Imports	Crude	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_gypsum_and_plaster_crude_tonnes	Gypsum and plaster	Imports	Crude	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_gypsum_and_plaster_crude__and__calcined_tonnes	Gypsum and plaster	Imports	Crude & calcined	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_gypsum_and_plaster_crude__and__calcined_tonnes	Gypsum and plaster	Imports	Crude & calcined	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_gypsum_and_plaster_ground__and__calcined_tonnes	Gypsum and plaster	Imports	Ground & calcined	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_gypsum_and_plaster_ground__and__calcined_tonnes	Gypsum and plaster	Imports	Ground & calcined	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_gypsum_and_plaster_unknown_tonnes	Gypsum and plaster	Imports	Unknown	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_gypsum_and_plaster_unknown_tonnes	Gypsum and plaster	Imports	Unknown	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_gypsum_and_plaster_anhydrite_tonnes	Gypsum and plaster	Production	Anhydrite	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_gypsum_and_plaster_anhydrite_tonnes	Gypsum and plaster	Production	Anhydrite	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_gypsum_and_plaster_unknown_tonnes	Gypsum and plaster	Production	Unknown	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_gypsum_and_plaster_unknown_tonnes	Gypsum and plaster	Production	Unknown	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_helium_helium_tonnes	Helium	Production	Helium	false	2012	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_helium_helium_tonnes	Helium	Production	Helium	true	2012	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_helium_mine_tonnes	Helium	Production	Mine	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_helium_mine_tonnes	Helium	Production	Mine	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_helium_total_tonnes	Helium	Production	Total	false	1935	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_helium_total_tonnes	Helium	Production	Total	true	1935	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_gypsum_mine_constant_1998_usd_per_tonne	Gypsum	Unit value	Mine	false	1900	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_helium_mine_tonnes	Helium	Production	Mine	false	1935	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_helium_mine_tonnes	Helium	Production	Mine	true	1935	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_helium_mine_tonnes	Helium	Reserves	Mine	false	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_helium_mine_tonnes	Helium	Reserves	Mine	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_helium_total_constant_1998_usd_per_tonne	Helium	Unit value	Total	false	1938	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_helium_mine_constant_1998_usd_per_tonne	Helium	Unit value	Mine	false	1938	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_indium_refinery_tonnes	Indium	Production	Refinery	false	1941	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_indium_refinery_tonnes	Indium	Production	Refinery	true	1941	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_indium_refinery_constant_1998_usd_per_tonne	Indium	Unit value	Refinery	false	1936	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_industrial_garnet_total_tonnes_of_gross_weight	Industrial garnet	Production	Total (tonnes of gross weight)	false	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_industrial_garnet_total_tonnes_of_gross_weight	Industrial garnet	Production	Total (tonnes of gross weight)	true	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_industrial_garnet_total_constant_1998_usd_per_tonne	Industrial garnet	Unit value	Total	false	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_iodine_unknown_tonnes	Iodine	Exports	Unknown	false	1975	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_iodine_unknown_tonnes	Iodine	Exports	Unknown	true	1975	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#imports_iodine_unknown_tonnes	Iodine	Imports	Unknown	false	1975	true	false
@@ -894,12 +868,12 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_salt_unknown_tonnes	Salt	Production	Unknown (tonnes)	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_salt_unknown_tonnes	Salt	Production	Unknown (tonnes)	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_salt_total_constant_1998_usd_per_tonne	Salt	Unit value	Total	false	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_sand_and_gravel_construction_tonnes	Sand and gravel	Production	Construction	false	1902	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_sand_and_gravel_construction_tonnes	Sand and gravel	Production	Construction	true	1902	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_sand_and_gravel_industrial_tonnes	Sand and gravel	Production	Industrial	false	1902	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_sand_and_gravel_industrial_tonnes	Sand and gravel	Production	Industrial	true	1902	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_sand_and_gravel_construction_constant_1998_usd_per_tonne	Sand and gravel	Unit value	Construction	false	1902	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_sand_and_gravel_industrial_constant_1998_usd_per_tonne	Sand and gravel	Unit value	Industrial	false	1902	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_sand_and_gravel__construction_mine_tonnes	Sand and gravel, construction	Production	Mine	false	1902	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_sand_and_gravel__construction_mine_tonnes	Sand and gravel, construction	Production	Mine	true	1902	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_sand_and_gravel__construction_mine_constant_1998_usd_per_tonne	Sand and gravel, construction	Unit value	Mine	false	1902	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_sand_and_gravel__industrial_mine_tonnes	Sand and gravel, industrial	Production	Mine	false	1902	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_sand_and_gravel__industrial_mine_tonnes	Sand and gravel, industrial	Production	Mine	true	1902	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_sand_and_gravel__industrial_mine_constant_1998_usd_per_tonne	Sand and gravel, industrial	Unit value	Mine	false	1902	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_selenium_refinery_tonnes	Selenium	Production	Refinery	false	1938	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_selenium_refinery_tonnes	Selenium	Production	Refinery	true	1938	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_selenium_refinery_tonnes	Selenium	Reserves	Refinery	false	2023	true	false
