@@ -253,12 +253,12 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_coltan_mine__columbite_tonnes	Coltan	Exports	Mine, columbite	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_coltan_mine__columbite_tantalite_tonnes	Coltan	Exports	Mine, columbite-tantalite	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_coltan_mine__columbite_tantalite_tonnes	Coltan	Exports	Mine, columbite-tantalite	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_coltan_columbite_tonnes	Coltan	Production	Columbite	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_coltan_columbite_tonnes	Coltan	Production	Columbite	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_coltan_columbite_tantalite_tonnes	Coltan	Production	Columbite-tantalite	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_coltan_columbite_tantalite_tonnes	Coltan	Production	Columbite-tantalite	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_coltan_tantalite_tonnes	Coltan	Production	Tantalite	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_coltan_tantalite_tonnes	Coltan	Production	Tantalite	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_coltan_mine__columbite_tonnes	Coltan	Production	Mine, columbite	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_coltan_mine__columbite_tonnes	Coltan	Production	Mine, columbite	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_coltan_mine__columbite_tantalite_tonnes	Coltan	Production	Mine, columbite-tantalite	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_coltan_mine__columbite_tantalite_tonnes	Coltan	Production	Mine, columbite-tantalite	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_coltan_mine__tantalite_tonnes	Coltan	Production	Mine, tantalite	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_coltan_mine__tantalite_tonnes	Coltan	Production	Mine, tantalite	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_copper_mine_tonnes	Copper	Production	Mine	false	1900	true	true
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_copper_mine_tonnes	Copper	Production	Mine	true	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_copper_refinery_tonnes	Copper	Production	Refinery	false	1976	true	false
@@ -386,13 +386,13 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_iodine_mine_tonnes	Iodine	Production	Mine	true	1975	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_iodine_mine_tonnes	Iodine	Reserves	Mine	false	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_iodine_mine_tonnes	Iodine	Reserves	Mine	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#exports_iron_pig_iron_tonnes	Iron	Exports	Pig iron	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_iron_pig_iron_tonnes	Iron	Exports	Pig iron	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#imports_iron_pig_iron_tonnes	Iron	Imports	Pig iron	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_iron_pig_iron_tonnes	Iron	Imports	Pig iron	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_iron_pig_iron_tonnes	Iron	Production	Pig iron	false	1910	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_iron_pig_iron_tonnes	Iron	Production	Pig iron	true	1910	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_iron_pig_iron_constant_1998_usd_per_tonne	Iron	Unit value	Pig iron	false	1900	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#exports_iron_smelter__pig_iron_tonnes	Iron	Exports	Smelter, pig iron	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_iron_smelter__pig_iron_tonnes	Iron	Exports	Smelter, pig iron	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#imports_iron_smelter__pig_iron_tonnes	Iron	Imports	Smelter, pig iron	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_iron_smelter__pig_iron_tonnes	Iron	Imports	Smelter, pig iron	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_iron_smelter__pig_iron_tonnes	Iron	Production	Smelter, pig iron	false	1910	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_iron_smelter__pig_iron_tonnes	Iron	Production	Smelter, pig iron	true	1910	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_iron_smelter__pig_iron_constant_1998_usd_per_tonne	Iron	Unit value	Smelter, pig iron	false	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_iron_ore_mine__crude_ore_tonnes	Iron ore	Exports	Mine, crude ore	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_iron_ore_mine__crude_ore_tonnes	Iron ore	Exports	Mine, crude ore	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#imports_iron_ore_mine__crude_ore_tonnes	Iron ore	Imports	Mine, crude ore	false	1970	true	false
@@ -685,12 +685,12 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_salt_sea_salt_tonnes	Salt	Production	Sea salt	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_salt_sea_salt_tonnes	Salt	Production	Sea salt	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_salt_mine_constant_1998_usd_per_tonne	Salt	Unit value	Mine	false	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_sand_and_gravel__construction_mine_tonnes	Sand and gravel, construction	Production	Mine	false	1902	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_sand_and_gravel__construction_mine_tonnes	Sand and gravel, construction	Production	Mine	true	1902	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_sand_and_gravel__construction_mine_constant_1998_usd_per_tonne	Sand and gravel, construction	Unit value	Mine	false	1902	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_sand_and_gravel__industrial_mine_tonnes	Sand and gravel, industrial	Production	Mine	false	1902	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_sand_and_gravel__industrial_mine_tonnes	Sand and gravel, industrial	Production	Mine	true	1902	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_sand_and_gravel__industrial_mine_constant_1998_usd_per_tonne	Sand and gravel, industrial	Unit value	Mine	false	1902	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_sand_and_gravel_mine__construction_tonnes	Sand and gravel	Production	Mine, construction	false	1902	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_sand_and_gravel_mine__construction_tonnes	Sand and gravel	Production	Mine, construction	true	1902	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_sand_and_gravel_mine__industrial_tonnes	Sand and gravel	Production	Mine, industrial	false	1902	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_sand_and_gravel_mine__industrial_tonnes	Sand and gravel	Production	Mine, industrial	true	1902	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_sand_and_gravel_mine__construction_constant_1998_usd_per_tonne	Sand and gravel	Unit value	Mine, construction	false	1902	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_sand_and_gravel_mine__industrial_constant_1998_usd_per_tonne	Sand and gravel	Unit value	Mine, industrial	false	1902	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_selenium_refinery_tonnes	Selenium	Production	Refinery	false	1938	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_selenium_refinery_tonnes	Selenium	Production	Refinery	true	1938	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_selenium_refinery_tonnes	Selenium	Reserves	Refinery	false	2023	true	false
@@ -727,9 +727,9 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_soda_ash_natural_tonnes	Soda ash	Reserves	Natural	false	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_soda_ash_natural_tonnes	Soda ash	Reserves	Natural	true	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_soda_ash_natural_and_synthetic_constant_1998_usd_per_tonne	Soda ash	Unit value	Natural and synthetic	false	1920	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_steel_crude_tonnes	Steel	Production	Crude	false	1943	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_steel_crude_tonnes	Steel	Production	Crude	true	1943	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_steel_crude_constant_1998_usd_per_tonne	Steel	Unit value	Crude	false	1900	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_steel_processing__crude_tonnes	Steel	Production	Processing, crude	false	1943	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_steel_processing__crude_tonnes	Steel	Production	Processing, crude	true	1943	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_steel_processing__crude_constant_1998_usd_per_tonne	Steel	Unit value	Processing, crude	false	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_strontium_mine_tonnes	Strontium	Production	Mine	false	1916	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_strontium_mine_tonnes	Strontium	Production	Mine	true	1916	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_strontium_mine_tonnes	Strontium	Reserves	Mine	false	2023	true	false
@@ -854,10 +854,10 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_vermiculite_mine_tonnes	Vermiculite	Reserves	Mine	true	2022	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_wollastonite_mine_tonnes	Wollastonite	Production	Mine	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_wollastonite_mine_tonnes	Wollastonite	Production	Mine	true	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_zeolites__natural_mine_tonnes	Zeolites, natural	Production	Mine	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_zeolites__natural_mine_tonnes	Zeolites, natural	Production	Mine	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#reserves_zeolites__natural_mine_tonnes	Zeolites, natural	Reserves	Mine	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_zeolites__natural_mine_tonnes	Zeolites, natural	Reserves	Mine	true	2023	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_zeolites_mine_tonnes	Zeolites	Production	Mine	false	2023	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_zeolites_mine_tonnes	Zeolites	Production	Mine	true	2023	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#reserves_zeolites_mine_tonnes	Zeolites	Reserves	Mine	false	2023	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_zeolites_mine_tonnes	Zeolites	Reserves	Mine	true	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_zinc_mine_tonnes	Zinc	Production	Mine	false	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_zinc_mine_tonnes	Zinc	Production	Mine	true	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_zinc_refinery_tonnes	Zinc	Production	Refinery	false	1970	true	false
