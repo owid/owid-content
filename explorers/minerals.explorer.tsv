@@ -110,12 +110,10 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_bismuth_compounds_tonnes	Bismuth	Imports	Compounds	true	1974	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#imports_bismuth_metal_tonnes	Bismuth	Imports	Metal	false	1974	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_bismuth_metal_tonnes	Bismuth	Imports	Metal	true	1974	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_bismuth_mine_tonnes_of_gross_weight	Bismuth	Production	Mine (tonnes of gross weight)	false	1997	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_bismuth_mine_tonnes_of_gross_weight	Bismuth	Production	Mine (tonnes of gross weight)	true	2021	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_bismuth_mine_tonnes_of_metal_content	Bismuth	Production	Mine (tonnes of metal content)	false	1912	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_bismuth_mine_tonnes_of_metal_content	Bismuth	Production	Mine (tonnes of metal content)	true	1912	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_bismuth_refinery_tonnes_of_metal_content	Bismuth	Production	Refinery (tonnes of metal content)	false	1984	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_bismuth_refinery_tonnes_of_metal_content	Bismuth	Production	Refinery (tonnes of metal content)	true	1984	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_bismuth_mine_tonnes	Bismuth	Production	Mine	false	1912	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_bismuth_mine_tonnes	Bismuth	Production	Mine	true	1912	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_bismuth_refinery_tonnes	Bismuth	Production	Refinery	false	1984	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_bismuth_refinery_tonnes	Bismuth	Production	Refinery	true	1984	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_bismuth_mine_constant_1998_usd_per_tonne	Bismuth	Unit value	Mine	false	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_boron_mine_tonnes	Boron	Production	Mine	false	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_boron_mine_tonnes	Boron	Production	Mine	true	1900	true	false
@@ -151,12 +149,8 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_chromium_refinery_tonnes	Chromium	Exports	Refinery	true	1975	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#imports_chromium_refinery_tonnes	Chromium	Imports	Refinery	false	1975	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_imports_chromium_refinery_tonnes	Chromium	Imports	Refinery	true	1975	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_chromium_mine_tonnes_of_gross_weight	Chromium	Production	Mine (tonnes of gross weight)	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_chromium_mine_tonnes_of_gross_weight	Chromium	Production	Mine (tonnes of gross weight)	true	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_chromium_mine_tonnes	Chromium	Production	Mine (tonnes)	false	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_chromium_mine_tonnes	Chromium	Production	Mine (tonnes)	true	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#reserves_chromium_mine_tonnes_of_gross_weight	Chromium	Reserves	Mine (tonnes of gross weight)	false	2023	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_chromium_mine_tonnes_of_gross_weight	Chromium	Reserves	Mine (tonnes of gross weight)	true	2023	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_chromium_mine_tonnes	Chromium	Production	Mine	false	1900	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_chromium_mine_tonnes	Chromium	Production	Mine	true	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_chromium_mine_constant_1998_usd_per_tonne	Chromium	Unit value	Mine	false	1900	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_clays_mine__bentonite_tonnes	Clays	Exports	Mine, bentonite	false	1974	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_clays_mine__bentonite_tonnes	Clays	Exports	Mine, bentonite	true	1974	true	false
@@ -829,8 +823,8 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_tungsten_mine_tonnes	Tungsten	Reserves	Mine	false	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_tungsten_mine_tonnes	Tungsten	Reserves	Mine	true	2023	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_tungsten_mine_constant_1998_usd_per_tonne	Tungsten	Unit value	Mine	false	1900	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_uranium_mine_tonnes_of_metal_content	Uranium	Production	Mine (tonnes of metal content)	false	1970	true	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_uranium_mine_tonnes_of_metal_content	Uranium	Production	Mine (tonnes of metal content)	true	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_uranium_mine_tonnes	Uranium	Production	Mine	false	1970	true	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_uranium_mine_tonnes	Uranium	Production	Mine	true	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_vanadium_metal_tonnes	Vanadium	Exports	Metal	false	1970	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_exports_vanadium_metal_tonnes	Vanadium	Exports	Metal	true	1971	true	false
 	grapher/minerals/2024-07-15/minerals/minerals#exports_vanadium_pentoxide_tonnes	Vanadium	Exports	Pentoxide	false	1970	true	false
