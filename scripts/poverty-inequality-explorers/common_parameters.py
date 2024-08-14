@@ -48,6 +48,8 @@ ADDITIONAL_DESCRIPTION_PIP_COMPARISON = NEW_LINE.join(
     ]
 )
 
+RELATIVE_POVERTY_DESCRIPTION_PIP = "This is a measure of _relative_ poverty – it captures the share of people whose income is low by the standards typical in their own country."
+
 NOTES_TITLE_PIP = "NOTES ON HOW WE PROCESSED THIS INDICATOR"
 
 PROCESSING_DESCRIPTION_PIP_BASE = NEW_LINE.join(
@@ -115,8 +117,7 @@ ADDITIONAL_DESCRIPTION_WID = NEW_LINE.join(
 POST_TAX_WID = "In the case of national post-tax income, when the data sources are not available, distributions are constructed by using the more widely available pre-tax distributions, combined with tax revenue and government expenditure aggregates. This method is described in more detail in this [technical note](https://wid.world/document/preliminary-estimates-of-global-posttax-income-distributions-world-inequality-lab-technical-note-2023-02/)."
 
 ADDITIONAL_DESCRIPTION_WID_POST_TAX = NEW_LINE.join(
-    [ADDITIONAL_DESCRIPTION_WID,
-        POST_TAX_WID]
+    [ADDITIONAL_DESCRIPTION_WID, POST_TAX_WID]
 )
 
 PPP_DESCRIPTION_WID = f"The data is measured in international-$ at {PPP_YEAR_WID} prices – this adjusts for inflation and for differences in the cost of living between countries."
@@ -124,27 +125,27 @@ PPP_DESCRIPTION_WID = f"The data is measured in international-$ at {PPP_YEAR_WID
 ####################################################################################################
 # LUXEMBOURG INCOME STUDY
 ####################################################################################################
-SOURCE_NAME_LIS = "Luxembourg Income Study (2023)"
-DATA_PUBLISHED_BY_LIS = "Luxembourg Income Study (LIS) Database, http://www.lisdatacenter.org (multiple countries; 1967-2021). Luxembourg, LIS."
+SOURCE_NAME_LIS = "Luxembourg Income Study (2024)"
+DATA_PUBLISHED_BY_LIS = "Luxembourg Income Study (LIS) Database, http://www.lisdatacenter.org (multiple countries; June 2024). Luxembourg: LIS."
 SOURCE_LINK_LIS = "https://www.lisdatacenter.org/our-data/lis-database/"
 
 NOTES_TITLE_LIS = "NOTES ON HOW WE PROCESSED THIS INDICATOR"
 
 PROCESSING_DESCRIPTION_LIS = NEW_LINE.join(
     [
-        "The Luxembourg Income Study data is created from standardized household survey microdata available in their [LISSY platform](https://www.lisdatacenter.org/data-access/lissy/). The estimations follow the methodology available in LIS, Key Figures and DART platform.",
-        "After tax income is obtained by using the disposable household income variable (dhi)",
-        "Before tax income is estimated by calculating the sum of income from labor and capital (variable hifactor), cash transfers and in-kind goods and services from privates (hiprivate) and private pensions (hi33). This is done only for surveys where tax and contributions are fully captured, collected or imputed.",
-        "Income data is converted from local currency into international-$ by dividing by the [LIS PPP factor](https://www.lisdatacenter.org/resources/ppp-deflators/), available as an additional database in the system.",
-        "Incomes are top and bottom-coded by replacing negative values with zeros and setting boundaries for extreme values of log income: at the top Q3 plus 3 times the interquartile range (Q3-Q1), and at the bottom Q1 minus 3 times the interquartile range.",
-        "Incomes are equivalized by dividing each household observation by the square root of the number of household members (nhhmem). Per capita estimates are calculated by dividing incomes by the number of household members.",
+        "We create the Luxembourg Income Study data from standardized household survey microdata available in their [LISSY platform](https://www.lisdatacenter.org/data-access/lissy/). The estimations follow the methodology available in LIS, Key Figures and DART platform.",
+        "We obtain after tax income by using the disposable household income variable (`dhi`).",
+        "We estimate before tax income by calculating the sum of income from labor and capital (variable `hifactor`), cash transfers and in-kind goods and services from privates (`hiprivate`) and private pensions (`hi33`). We do this only for surveys where tax and contributions are fully captured, collected or imputed.",
+        "We convert income data from local currency into international-$ by dividing by the [LIS PPP factor](https://www.lisdatacenter.org/resources/ppp-deflators/), available as an additional database in the LISSY platform.",
+        "We top and bottom-code incomes by replacing negative values with zeros and setting boundaries for extreme values of log income: at the top Q3 plus 3 times the interquartile range (Q3-Q1), and at the bottom Q1 minus 3 times the interquartile range.",
+        "We equivalize incomes by dividing each household observation by the square root of the number of household members (nhhmem). Per capita estimates are calculated by dividing incomes by the number of household members.",
     ]
 )
 
-PROCESSING_POVERTY_LIS = "Poverty indicators are obtained by using [Stata’s povdeco function](https://ideas.repec.org/c/boc/bocode/s366004.html). Weights are set as the product between the number of household members (nhhmem) and the normalized household weight (hwgt). The function generates FGT(0) and FGT(1), headcount ratio and poverty gap index. After extraction, further data processing steps are done to estimate other poverty indicators using these values, population and poverty lines for absolute and relative poverty."
-PROCESSING_GINI_MEAN_MEDIAN_LIS = "Gini coefficients are obtained by using [Stata’s ineqdec0 function](https://ideas.repec.org/c/boc/bocode/s366007.html). Weights are set as the product between the number of household members (nhhmem) and the normalized household weight (hwgt). From this function, mean and median values are also calculated."
-PROCESSING_DISTRIBUTION_LIS = "Income shares and thresholds by decile are obtained by using [Stata’s sumdist function](https://ideas.repec.org/c/boc/bocode/s366005.html). The parameters set are again the weight (nhhmem*hwgt) and the number of quantile groups (10). Threshold ratios, share ratios and averages by decile are estimated after the use of LISSY with this data."
+PROCESSING_POVERTY_LIS = "We obtain poverty indicators by using [Stata’s povdeco function](https://ideas.repec.org/c/boc/bocode/s366004.html). We set weights as the product between the number of household members (nhhmem) and the normalized household weight (hwgt). The function generates FGT(0) and FGT(1), headcount ratio and poverty gap index. After extraction, we do further data processing steps to estimate other poverty indicators using these values, population and poverty lines for absolute and relative poverty."
+PROCESSING_GINI_MEAN_MEDIAN_LIS = "We obtain Gini coefficients by using [Stata’s ineqdec0 function](https://ideas.repec.org/c/boc/bocode/s366007.html). We set weights as the product between the number of household members (nhhmem) and the normalized household weight (hwgt). We also calculate mean and median values from this function.."
+PROCESSING_DISTRIBUTION_LIS = "Income shares and thresholds by decile are obtained by using [Stata’s sumdist function](https://ideas.repec.org/c/boc/bocode/s366005.html). We set weights as the product between the number of household members (nhhmem) and the normalized household weight (hwgt) and the number of quantile groups as 10. We estimate threshold ratios, share ratios and averages by decile in Python after processing in the LISSY platform."
 
 PPP_DESCRIPTION_LIS = "The data is measured in international-$ at 2017 prices – this adjusts for inflation and for differences in the cost of living between countries."
 
-
+RELATIVE_POVERTY_DESCRIPTION_LIS = "This is a measure of _relative_ poverty – it captures the share of people whose income is low by the standards typical in their own country."

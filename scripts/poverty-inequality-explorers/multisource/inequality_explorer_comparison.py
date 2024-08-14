@@ -149,6 +149,7 @@ notes_title = NOTES_TITLE_PIP
 
 processing_description = PROCESSING_DESCRIPTION_PIP_INEQUALITY
 ppp_description = PPP_DESCRIPTION_PIP_2017
+relative_poverty_description = RELATIVE_POVERTY_DESCRIPTION_PIP
 
 # Table generation
 df_tables_pip = pd.DataFrame()
@@ -181,16 +182,16 @@ for tab in range(len(pip_tables)):
     df_tables_pip.loc[j, "unit"] = np.nan
     df_tables_pip.loc[j, "shortUnit"] = np.nan
     df_tables_pip.loc[j, "type"] = "Numeric"
-    df_tables_pip.loc[
-        j, "colorScaleNumericBins"
-    ] = "0.25;0.3;0.35;0.4;0.45;0.5;0.55;0.6"
+    df_tables_pip.loc[j, "colorScaleNumericBins"] = (
+        "0.25;0.3;0.35;0.4;0.45;0.5;0.55;0.6"
+    )
     df_tables_pip.loc[j, "colorScaleScheme"] = "Oranges"
     j += 1
 
     # Share of the top 10%
-    df_tables_pip.loc[
-        j, "name"
-    ] = f"{pip_tables.text[tab].capitalize()} share of the richest 10% (PIP data)"
+    df_tables_pip.loc[j, "name"] = (
+        f"{pip_tables.text[tab].capitalize()} share of the richest 10% (PIP data)"
+    )
     df_tables_pip.loc[j, "slug"] = f"decile10_share"
     df_tables_pip.loc[j, "description"] = new_line.join(
         [
@@ -208,9 +209,9 @@ for tab in range(len(pip_tables)):
     j += 1
 
     # Share of the bottom 50%
-    df_tables_pip.loc[
-        j, "name"
-    ] = f"{pip_tables.text[tab].capitalize()} share of the poorest 50% (PIP data)"
+    df_tables_pip.loc[j, "name"] = (
+        f"{pip_tables.text[tab].capitalize()} share of the poorest 50% (PIP data)"
+    )
     df_tables_pip.loc[j, "slug"] = f"bottom50_share"
     df_tables_pip.loc[j, "description"] = new_line.join(
         [
@@ -250,7 +251,8 @@ for tab in range(len(pip_tables)):
     df_tables_pip.loc[j, "slug"] = f"headcount_ratio_50_median"
     df_tables_pip.loc[j, "description"] = new_line.join(
         [
-            "The share of population with after tax income or consumption below 50% of the median. Relative poverty reflects the extent of inequality within the bottom of the distribution.",
+            "The share of population with after tax income or consumption below 50% of the median.",
+            relative_poverty_description,
             additional_description,
             notes_title,
             "Measures of relative poverty are not directly available in the World Bank PIP data. To calculate this metric we take the median income or consumption for the country and year, calculate a relative poverty line – in this case 50% of the median – and then run a specific query on the PIP API to return the share of population below that line.",
@@ -318,9 +320,9 @@ for tab in range(len(merged_tables)):
         j += 1
 
         # Share of the top 10%
-        df_tables_wid.loc[
-            j, "name"
-        ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the richest 10% (WID data)"
+        df_tables_wid.loc[j, "name"] = (
+            f"{wid_welfare['welfare_type'][wel].capitalize()} share of the richest 10% (WID data)"
+        )
         df_tables_wid.loc[j, "slug"] = f"p90p100_share_{wid_welfare['slug'][wel]}"
         df_tables_wid.loc[j, "description"] = new_line.join(
             [
@@ -337,9 +339,9 @@ for tab in range(len(merged_tables)):
         j += 1
 
         # Share of the bottom 50%
-        df_tables_wid.loc[
-            j, "name"
-        ] = f"{wid_welfare['welfare_type'][wel].capitalize()} share of the poorest 50% (WID data)"
+        df_tables_wid.loc[j, "name"] = (
+            f"{wid_welfare['welfare_type'][wel].capitalize()} share of the poorest 50% (WID data)"
+        )
         df_tables_wid.loc[j, "slug"] = f"p0p50_share_{wid_welfare['slug'][wel]}"
         df_tables_wid.loc[j, "description"] = new_line.join(
             [
@@ -405,6 +407,7 @@ processing_gini_mean_median = PROCESSING_GINI_MEAN_MEDIAN_LIS
 processing_distribution = PROCESSING_DISTRIBUTION_LIS
 
 ppp_description = PPP_DESCRIPTION_LIS
+relative_poverty_description = RELATIVE_POVERTY_DESCRIPTION_LIS
 
 df_tables_lis = pd.DataFrame()
 j = 0
@@ -414,9 +417,9 @@ for tab in range(len(merged_tables)):
         for eq in range(len(lis_equivalence_scales)):
             # Gini coefficient
             df_tables_lis.loc[j, "name"] = f"Gini coefficient (LIS data)"
-            df_tables_lis.loc[
-                j, "slug"
-            ] = f"gini_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
+            df_tables_lis.loc[j, "slug"] = (
+                f"gini_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
+            )
             df_tables_lis.loc[j, "description"] = new_line.join(
                 [
                     "The Gini coefficient measures inequality on a scale from 0 to 1. Higher values indicate higher inequality.",
@@ -438,12 +441,12 @@ for tab in range(len(merged_tables)):
             j += 1
 
             # Share of the top 10%
-            df_tables_lis.loc[
-                j, "name"
-            ] = f"{lis_welfare['welfare_type'][wel].capitalize()} share of the richest 10% (LIS data)"
-            df_tables_lis.loc[
-                j, "slug"
-            ] = f"share_p100_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
+            df_tables_lis.loc[j, "name"] = (
+                f"{lis_welfare['welfare_type'][wel].capitalize()} share of the richest 10% (LIS data)"
+            )
+            df_tables_lis.loc[j, "slug"] = (
+                f"share_p100_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
+            )
             df_tables_lis.loc[j, "description"] = new_line.join(
                 [
                     f"The share of {lis_welfare['welfare_type'][wel]} received by the richest 10% of the population.",
@@ -465,12 +468,12 @@ for tab in range(len(merged_tables)):
             j += 1
 
             # Share of the bottom 50%
-            df_tables_lis.loc[
-                j, "name"
-            ] = f"{lis_welfare['welfare_type'][wel].capitalize()} share of the poorest 50% (LIS data)"
-            df_tables_lis.loc[
-                j, "slug"
-            ] = f"share_bottom50_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
+            df_tables_lis.loc[j, "name"] = (
+                f"{lis_welfare['welfare_type'][wel].capitalize()} share of the poorest 50% (LIS data)"
+            )
+            df_tables_lis.loc[j, "slug"] = (
+                f"share_bottom50_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
+            )
             df_tables_lis.loc[j, "description"] = new_line.join(
                 [
                     f"The share of {lis_welfare['welfare_type'][wel]} received by the poorest 50% of the population.",
@@ -493,9 +496,9 @@ for tab in range(len(merged_tables)):
 
             # Palma ratio
             df_tables_lis.loc[j, "name"] = f"Palma ratio (LIS data)"
-            df_tables_lis.loc[
-                j, "slug"
-            ] = f"palma_ratio_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
+            df_tables_lis.loc[j, "slug"] = (
+                f"palma_ratio_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
+            )
             df_tables_lis.loc[j, "description"] = new_line.join(
                 [
                     "The Palma ratio is a measure of inequality that divides the share received by the richest 10% by the share of the poorest 40%. Higher values indicate higher inequality.",
@@ -518,12 +521,13 @@ for tab in range(len(merged_tables)):
 
             # Headcount ratio (rel)
             df_tables_lis.loc[j, "name"] = f"Share in relative poverty (LIS data)"
-            df_tables_lis.loc[
-                j, "slug"
-            ] = f"headcount_ratio_50_median_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
+            df_tables_lis.loc[j, "slug"] = (
+                f"headcount_ratio_50_median_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
+            )
             df_tables_lis.loc[j, "description"] = new_line.join(
                 [
-                    f"The share of the population with {lis_welfare['welfare_type'][wel]} below 50% of the median. Relative poverty reflects the extent of inequality within the bottom of the distribution.",
+                    f"The share of the population with {lis_welfare['welfare_type'][wel]} below 50% of the median.",
+                    relative_poverty_description,
                     lis_welfare["description"][wel],
                     lis_equivalence_scales["description"][eq],
                     notes_title,
@@ -586,80 +590,80 @@ j = 0
 for tab in range(len(merged_tables)):
     for view in range(len(source_checkbox)):
         # Gini coefficient
-        df_graphers.loc[
-            j, "title"
-        ] = f"Gini coefficient ({source_checkbox['type_title'][view]})"
+        df_graphers.loc[j, "title"] = (
+            f"Gini coefficient ({source_checkbox['type_title'][view]})"
+        )
         df_graphers.loc[j, "ySlugs"] = source_checkbox["gini"][view]
         df_graphers.loc[j, "Indicator Dropdown"] = "Gini coefficient"
         df_graphers.loc[j, "Income measure Dropdown"] = source_checkbox["type_title"][
             view
         ].capitalize()
-        df_graphers.loc[
-            j, "subtitle"
-        ] = f"The Gini coefficient measures inequality on a scale from 0 to 1. Higher values indicate higher inequality. {datasets_description_subtitle}"
+        df_graphers.loc[j, "subtitle"] = (
+            f"The Gini coefficient measures inequality on a scale from 0 to 1. Higher values indicate higher inequality. {datasets_description_subtitle}"
+        )
         df_graphers.loc[j, "note"] = source_checkbox["note"][view]
         df_graphers.loc[j, "type"] = np.nan
         j += 1
 
         # Share of the top 10%
-        df_graphers.loc[
-            j, "title"
-        ] = f"Income share of the richest 10% ({source_checkbox['type_title'][view]})"
+        df_graphers.loc[j, "title"] = (
+            f"Income share of the richest 10% ({source_checkbox['type_title'][view]})"
+        )
         df_graphers.loc[j, "ySlugs"] = source_checkbox["top10"][view]
         df_graphers.loc[j, "Indicator Dropdown"] = "Share of the richest 10%"
         df_graphers.loc[j, "Income measure Dropdown"] = source_checkbox["type_title"][
             view
         ].capitalize()
-        df_graphers.loc[
-            j, "subtitle"
-        ] = f"The share of income received by the richest 10% of the population. {datasets_description_subtitle}"
+        df_graphers.loc[j, "subtitle"] = (
+            f"The share of income received by the richest 10% of the population. {datasets_description_subtitle}"
+        )
         df_graphers.loc[j, "note"] = source_checkbox["note"][view]
         df_graphers.loc[j, "type"] = np.nan
         j += 1
 
         # Share of the bottom 50%
-        df_graphers.loc[
-            j, "title"
-        ] = f"Income share of the poorest 50% ({source_checkbox['type_title'][view]})"
+        df_graphers.loc[j, "title"] = (
+            f"Income share of the poorest 50% ({source_checkbox['type_title'][view]})"
+        )
         df_graphers.loc[j, "ySlugs"] = source_checkbox["bottom50"][view]
         df_graphers.loc[j, "Indicator Dropdown"] = "Share of the poorest 50%"
         df_graphers.loc[j, "Income measure Dropdown"] = source_checkbox["type_title"][
             view
         ].capitalize()
-        df_graphers.loc[
-            j, "subtitle"
-        ] = f"The share of income received by the poorest 50% of the population. {datasets_description_subtitle}"
+        df_graphers.loc[j, "subtitle"] = (
+            f"The share of income received by the poorest 50% of the population. {datasets_description_subtitle}"
+        )
         df_graphers.loc[j, "note"] = source_checkbox["note"][view]
         j += 1
 
         # Palma ratio
-        df_graphers.loc[
-            j, "title"
-        ] = f"Palma ratio ({source_checkbox['type_title'][view]})"
+        df_graphers.loc[j, "title"] = (
+            f"Palma ratio ({source_checkbox['type_title'][view]})"
+        )
         df_graphers.loc[j, "ySlugs"] = source_checkbox["palma"][view]
         df_graphers.loc[j, "Indicator Dropdown"] = "Palma ratio"
         df_graphers.loc[j, "Income measure Dropdown"] = source_checkbox["type_title"][
             view
         ].capitalize()
-        df_graphers.loc[
-            j, "subtitle"
-        ] = f"The Palma ratio is a measure of inequality that divides the share received by the richest 10% by the share of the poorest 40%. Higher values indicate higher inequality. {datasets_description_subtitle}"
+        df_graphers.loc[j, "subtitle"] = (
+            f"The Palma ratio is a measure of inequality that divides the share received by the richest 10% by the share of the poorest 40%. Higher values indicate higher inequality. {datasets_description_subtitle}"
+        )
         df_graphers.loc[j, "note"] = source_checkbox["note"][view]
         df_graphers.loc[j, "type"] = np.nan
         j += 1
 
         # Headcount ratio (rel)
-        df_graphers.loc[
-            j, "title"
-        ] = f"Share of people in relative poverty ({source_checkbox['type_title'][view]})"
+        df_graphers.loc[j, "title"] = (
+            f"Share of people in relative poverty ({source_checkbox['type_title'][view]})"
+        )
         df_graphers.loc[j, "ySlugs"] = source_checkbox["relative"][view]
         df_graphers.loc[j, "Indicator Dropdown"] = f"Share in relative poverty"
         df_graphers.loc[j, "Income measure Dropdown"] = source_checkbox["type_title"][
             view
         ].capitalize()
-        df_graphers.loc[
-            j, "subtitle"
-        ] = f"The share of population with income below 50% of the median. Relative poverty reflects the extent of inequality within the bottom of the distribution. {datasets_description_subtitle}"
+        df_graphers.loc[j, "subtitle"] = (
+            f"The share of population with income below 50% of the median. Relative poverty reflects the extent of inequality within the bottom of the distribution. {datasets_description_subtitle}"
+        )
         df_graphers.loc[j, "note"] = source_checkbox["note"][view]
         df_graphers.loc[j, "type"] = np.nan
         j += 1

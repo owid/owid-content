@@ -4,13 +4,14 @@ from string import Template
 import textwrap
 import pandas as pd
 import re
-from collections import defaultdict
 
+# There are two datasets available:
+# - DATASET_PATH_PREFIX: Classic dataset, with estimates for 1950-2023 and projections for 2024-2100.
+# - DATASET_PATH_PREFIX_FULL: Alternative daraset, with projections for 1950-2100 (the 1950-2023 part is the same in all projections). This dataset is helpful in explorers to be able to plot the complete time series (estimates + projections) for a given projection.
+DATASET_PATH_PREFIX = "grapher/un/2024-07-12/un_wpp/"
+DATASET_PATH_PREFIX_FULL = "grapher/un/2024-07-12/un_wpp_full/"
 
-def file_url(tableSlug):
-    return (
-        f"https://catalog.ourworldindata.org/explorers/un/2022/un_wpp/{tableSlug}.csv"
-    )
+COLS_TO_DROP = []
 
 
 # %%
@@ -20,40 +21,34 @@ def substitute_rows(row):
         if isinstance(row[key], str):
             while "${" in row[key]:
                 template = Template(row[key])
-                row[key] = template.substitute(**row)
+                row[key] = template.substitute(
+                    **row, DATASET_PATH_PREFIX=DATASET_PATH_PREFIX
+                )
     return row
 
 
-def table_def(tableSlug, rows, display_names):
-    table_def = f"table	{file_url(tableSlug)}	{tableSlug}"
-    rows["ySlugs"] = rows["ySlugs"].map(lambda x: x.split(" "))
-    rows = rows.explode("ySlugs").drop_duplicates("ySlugs").reset_index(drop=True)
+def table_def(rows, display_names):
+    rows["yVariableIds"] = rows["yVariableIds"].map(lambda x: x.split(" "))
+    rows = (
+        rows.explode("yVariableIds")
+        .drop_duplicates("yVariableIds")
+        .reset_index(drop=True)
+    )
 
     column_defs = rows.filter(regex="^column__", axis=1).rename(
         columns=lambda x: re.sub("^column__", "", x)
     )
-    column_defs = column_defs.drop(columns=["type"])
     col_names = [
-        "slug",
+        "catalogPath",
         "name",
-        "type",
-        "sourceName",
-        "sourceLink",
-        "dataPublishedBy",
-        "additionalInfo",
         *column_defs.columns,
     ]
     col_names = "\t".join(col_names)
 
     col_defs = [
         [
-            row["ySlugs"],
-            display_names[row["ySlugs"]],
-            row["column__type"],
-            "United Nations, World Population Prospects (2022)",
-            "https://population.un.org/wpp/",
-            "United Nations, Department of Economic and Social Affairs, Population Division (2022). World Population Prospects 2022, Online Edition.",
-            """The 2022 Revision of World Population Prospects was released on 11 July 2022 by the Population Division of the Department of Economic and Social Affairs of the United Nations.\\n\\nIt presents population estimates from 1950 to the present, based on historical demographic trends. It also includes projections to the year 2100 based on a range of demographic scenarios. The three scenarios that we show (‘Low’, ‘Medium’, ‘High’) differ only with respect to the level of fertility; they share the same assumptions for sex ratio at birth, life expectancy and international migration.\\n\\nAll values are estimated based on current country borders.\\n\\nThe next revision of this data by the UN is due in 2024.""",
+            row["yVariableIds"],
+            display_names.get(row["yVariableIds"]) or "",
             *column_defs.loc[idx].values.tolist(),
         ]
         for (idx, row) in rows.iterrows()
@@ -61,11 +56,8 @@ def table_def(tableSlug, rows, display_names):
     col_defs = ["\t".join(col) for col in col_defs]
     col_defs = textwrap.indent("\n".join(col_defs), "\t")
 
-    return f"""{table_def}
-columns	{tableSlug}
+    return f"""columns
 	{col_names}
-	location	Country name	EntityName
-	year	Year	Year
 {col_defs}"""
 
 
@@ -117,20 +109,32 @@ for col in ["title", "subtitle"]:
         .apply(lambda x: x.strip())
         .apply(lambda x: x[0].upper() + x[1:] if len(x) else x)
         .apply(lambda x: re.sub(" {2,}", " ", x))
+        .apply(lambda x: x.replace("\\-\\", " "))
+        # .apply(lambda x: x or " ")
     )
+    # explicitly set empty strings to a single space, so we don't inherit it from ETL
+    # df.loc[df[col] == "-", col] = " "
+
 
 # %%
-# Extract column display names from ySlugs
-# The `ySlugs` column can contain names for column slugs, e.g.:
+# Use DATASET_PATH_PREFIX_FULL when variant is not "None" (i.e. some projection scenario)
+mask = df["projection__slug"] != "estimates"
+df.loc[mask, "yVariableIds"] = df.loc[mask, "yVariableIds"].str.replace(
+    DATASET_PATH_PREFIX, DATASET_PATH_PREFIX_FULL
+)
+
+# %%
+# Extract column display names from yVariableIds
+# The `yVariableIds` column can contain names for column slugs, e.g.:
 # population_broad__all__15-24__records:"15-24 years"
 # Note the colon, and especially the quotes around the name. They are required!
 # This config will use the name "15-24 years" as the display name for the column.
 # If an explicit name is not given, the row's title will be used instead.
 col_display_names = {}
 
-y_slug_re = r"([\w\-+]+):\"([^\"]+)\""
+y_slug_re = r"([\w\-\/_#]+):\"([^\"]+)\""
 for idx, row in df.iterrows():
-    matches = re.finditer(y_slug_re, row["ySlugs"])
+    matches = re.finditer(y_slug_re, row["yVariableIds"])
     slugs = []
     for match in matches:
         col_slug, col_name = match.groups()
@@ -139,21 +143,13 @@ for idx, row in df.iterrows():
             col_display_names[col_slug] = col_name
 
     if len(slugs):
-        row["ySlugs"] = " ".join(slugs)
-    elif row["ySlugs"] not in col_display_names:
-        col_display_names[row["ySlugs"]] = row["title"]
+        df.loc[idx, "yVariableIds"] = " ".join(slugs)
 
 # %%
-tables = df["tableSlug"].unique()
-table_defs = [
-    table_def(
-        tableSlug,
-        df[df["tableSlug"] == tableSlug].reset_index(drop=True),
-        col_display_names,
-    )
-    for tableSlug in tables
-    if tableSlug != ""
-]
+col_defs = table_def(
+    df.reset_index(drop=True),
+    col_display_names,
+)
 
 # %%
 
@@ -176,10 +172,11 @@ df = df.loc[:, cols]
 df = df.drop(columns=df.filter(regex="__"))
 
 # %%
+df = df.rename(columns={col_name: "_" + col_name for col_name in COLS_TO_DROP})
+
+# %%
 graphers_tsv = df.to_csv(sep="\t", index=False)
 graphers_tsv_indented = textwrap.indent(graphers_tsv, "\t")
-
-table_defs = "\n".join(table_defs)
 
 # %%
 warning = "# DO NOT EDIT THIS FILE BY HAND. It is automatically generated using a set of input files. Any changes made directly to it will be overwritten.\n\n"
@@ -189,7 +186,7 @@ with open(outfile, "w", newline="\n") as f:
         warning
         + template.substitute(
             graphers_tsv=graphers_tsv_indented,
-            table_defs=table_defs,
+            table_defs=col_defs,
         )
     )
 

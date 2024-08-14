@@ -270,9 +270,9 @@ for tab in range(len(pip_tables)):
 
     for dec9 in range(len(pip_deciles9)):
         # thresholds
-        df_tables_pip.loc[
-            j, "name"
-        ] = f"{pip_deciles9.ordinal[dec9].capitalize()} (PIP data)"
+        df_tables_pip.loc[j, "name"] = (
+            f"{pip_deciles9.ordinal[dec9].capitalize()} (PIP data)"
+        )
         df_tables_pip.loc[j, "slug"] = f"decile{pip_deciles9.decile[dec9]}_thr"
         df_tables_pip.loc[j, "description"] = new_line.join(
             [
@@ -292,9 +292,9 @@ for tab in range(len(pip_tables)):
 
     for dec10 in range(len(pip_deciles10)):
         # averages
-        df_tables_pip.loc[
-            j, "name"
-        ] = f"{pip_deciles10.ordinal[dec10].capitalize()} (PIP data)"
+        df_tables_pip.loc[j, "name"] = (
+            f"{pip_deciles10.ordinal[dec10].capitalize()} (PIP data)"
+        )
         df_tables_pip.loc[j, "slug"] = f"decile{pip_deciles10.decile[dec10]}_avg"
         df_tables_pip.loc[j, "description"] = new_line.join(
             [
@@ -314,9 +314,9 @@ for tab in range(len(pip_tables)):
 
     for dec10 in range(len(pip_deciles10)):
         # shares
-        df_tables_pip.loc[
-            j, "name"
-        ] = f"{pip_deciles10.ordinal[dec10].capitalize()} (PIP data)"
+        df_tables_pip.loc[j, "name"] = (
+            f"{pip_deciles10.ordinal[dec10].capitalize()} (PIP data)"
+        )
         df_tables_pip.loc[j, "slug"] = f"decile{pip_deciles10.decile[dec10]}_share"
         df_tables_pip.loc[j, "description"] = new_line.join(
             [
@@ -354,16 +354,16 @@ for tab in range(len(pip_tables)):
             agg
         ]
         df_tables_pip.loc[j, "colorScaleScheme"] = "BuGn"
-        df_tables_pip.loc[
-            j, "transform"
-        ] = f"multiplyBy mean {pip_income_aggregation.multiplier[agg]}"
+        df_tables_pip.loc[j, "transform"] = (
+            f"multiplyBy mean {pip_income_aggregation.multiplier[agg]}"
+        )
         j += 1
 
         # median
         df_tables_pip.loc[j, "name"] = f"Median {pip_tables.text[tab]} (PIP data)"
-        df_tables_pip.loc[
-            j, "slug"
-        ] = f"median{pip_income_aggregation.slug_suffix[agg]}"
+        df_tables_pip.loc[j, "slug"] = (
+            f"median{pip_income_aggregation.slug_suffix[agg]}"
+        )
         df_tables_pip.loc[j, "description"] = new_line.join(
             [
                 f"The level of {pip_tables.text[tab]} per {pip_income_aggregation.aggregation[agg]} below which half of the population falls.",
@@ -380,19 +380,19 @@ for tab in range(len(pip_tables)):
             agg
         ]
         df_tables_pip.loc[j, "colorScaleScheme"] = "Blues"
-        df_tables_pip.loc[
-            j, "transform"
-        ] = f"multiplyBy median {pip_income_aggregation.multiplier[agg]}"
+        df_tables_pip.loc[j, "transform"] = (
+            f"multiplyBy median {pip_income_aggregation.multiplier[agg]}"
+        )
         j += 1
 
         for dec9 in range(len(pip_deciles9)):
             # thresholds
-            df_tables_pip.loc[
-                j, "name"
-            ] = f"{pip_deciles9.ordinal[dec9].capitalize()} (PIP data)"
-            df_tables_pip.loc[
-                j, "slug"
-            ] = f"decile{pip_deciles9.decile[dec9]}_thr{pip_income_aggregation.slug_suffix[agg]}"
+            df_tables_pip.loc[j, "name"] = (
+                f"{pip_deciles9.ordinal[dec9].capitalize()} (PIP data)"
+            )
+            df_tables_pip.loc[j, "slug"] = (
+                f"decile{pip_deciles9.decile[dec9]}_thr{pip_income_aggregation.slug_suffix[agg]}"
+            )
             df_tables_pip.loc[j, "description"] = new_line.join(
                 [
                     f"The level of {pip_tables.text[tab]} per {pip_income_aggregation.aggregation[agg]} below which {pip_deciles9.decile[dec9]}0% of the population falls.",
@@ -405,23 +405,23 @@ for tab in range(len(pip_tables)):
             df_tables_pip.loc[j, "unit"] = "international-$ in 2017 prices"
             df_tables_pip.loc[j, "shortUnit"] = "$"
             df_tables_pip.loc[j, "type"] = "Numeric"
-            df_tables_pip.loc[
-                j, "colorScaleNumericBins"
-            ] = pip_income_aggregation.scale[agg]
+            df_tables_pip.loc[j, "colorScaleNumericBins"] = (
+                pip_income_aggregation.scale[agg]
+            )
             df_tables_pip.loc[j, "colorScaleScheme"] = "Purples"
-            df_tables_pip.loc[
-                j, "transform"
-            ] = f"multiplyBy decile{pip_deciles9.decile[dec9]}_thr {pip_income_aggregation.multiplier[agg]}"
+            df_tables_pip.loc[j, "transform"] = (
+                f"multiplyBy decile{pip_deciles9.decile[dec9]}_thr {pip_income_aggregation.multiplier[agg]}"
+            )
             j += 1
 
         for dec10 in range(len(pip_deciles10)):
             # averages
-            df_tables_pip.loc[
-                j, "name"
-            ] = f"{pip_deciles10.ordinal[dec10].capitalize()} (PIP data)"
-            df_tables_pip.loc[
-                j, "slug"
-            ] = f"decile{pip_deciles10.decile[dec10]}_avg{pip_income_aggregation.slug_suffix[agg]}"
+            df_tables_pip.loc[j, "name"] = (
+                f"{pip_deciles10.ordinal[dec10].capitalize()} (PIP data)"
+            )
+            df_tables_pip.loc[j, "slug"] = (
+                f"decile{pip_deciles10.decile[dec10]}_avg{pip_income_aggregation.slug_suffix[agg]}"
+            )
             df_tables_pip.loc[j, "description"] = new_line.join(
                 [
                     f"The mean {pip_tables.text[tab]} per {pip_income_aggregation.aggregation[agg]} within the {pip_deciles10.ordinal[dec10]} (tenth of the population).",
@@ -434,13 +434,13 @@ for tab in range(len(pip_tables)):
             df_tables_pip.loc[j, "unit"] = "international-$ in 2017 prices"
             df_tables_pip.loc[j, "shortUnit"] = "$"
             df_tables_pip.loc[j, "type"] = "Numeric"
-            df_tables_pip.loc[
-                j, "colorScaleNumericBins"
-            ] = pip_income_aggregation.scale[agg]
+            df_tables_pip.loc[j, "colorScaleNumericBins"] = (
+                pip_income_aggregation.scale[agg]
+            )
             df_tables_pip.loc[j, "colorScaleScheme"] = "Greens"
-            df_tables_pip.loc[
-                j, "transform"
-            ] = f"multiplyBy decile{pip_deciles10.decile[dec10]}_avg {pip_income_aggregation.multiplier[agg]}"
+            df_tables_pip.loc[j, "transform"] = (
+                f"multiplyBy decile{pip_deciles10.decile[dec10]}_avg {pip_income_aggregation.multiplier[agg]}"
+            )
             j += 1
 
 df_tables_pip["tableSlug"] = tableSlug
@@ -481,9 +481,9 @@ for tab in range(len(merged_tables)):
 
         # I need the original variables to not break the aggregations
         # Mean
-        df_tables_wid.loc[
-            j, "name"
-        ] = f"Mean {wid_welfare['welfare_type'][wel]} (WID data)"
+        df_tables_wid.loc[j, "name"] = (
+            f"Mean {wid_welfare['welfare_type'][wel]} (WID data)"
+        )
         df_tables_wid.loc[j, "slug"] = f"p0p100_avg_{wid_welfare['slug'][wel]}"
         df_tables_wid.loc[j, "description"] = new_line.join(
             [
@@ -501,9 +501,9 @@ for tab in range(len(merged_tables)):
         j += 1
 
         # Median
-        df_tables_wid.loc[
-            j, "name"
-        ] = f"Median {wid_welfare['welfare_type'][wel]} (WID data)"
+        df_tables_wid.loc[j, "name"] = (
+            f"Median {wid_welfare['welfare_type'][wel]} (WID data)"
+        )
         df_tables_wid.loc[j, "slug"] = f"median_{wid_welfare['slug'][wel]}"
         df_tables_wid.loc[j, "description"] = new_line.join(
             [
@@ -522,12 +522,12 @@ for tab in range(len(merged_tables)):
 
         # Thresholds - Deciles
         for dec9 in range(len(wid_deciles9)):
-            df_tables_wid.loc[
-                j, "name"
-            ] = f"{wid_deciles9['ordinal'][dec9].capitalize()} (WID data)"
-            df_tables_wid.loc[
-                j, "slug"
-            ] = f"{wid_deciles9['wid_notation'][dec9]}_thr_{wid_welfare['slug'][wel]}"
+            df_tables_wid.loc[j, "name"] = (
+                f"{wid_deciles9['ordinal'][dec9].capitalize()} (WID data)"
+            )
+            df_tables_wid.loc[j, "slug"] = (
+                f"{wid_deciles9['wid_notation'][dec9]}_thr_{wid_welfare['slug'][wel]}"
+            )
             df_tables_wid.loc[j, "description"] = new_line.join(
                 [
                     f"The level of {wid_welfare['welfare_type'][wel]} below which {wid_deciles9['decile'][dec9]}0% of the population falls.",
@@ -547,12 +547,12 @@ for tab in range(len(merged_tables)):
 
         # Averages - Deciles
         for dec10 in range(len(wid_deciles10)):
-            df_tables_wid.loc[
-                j, "name"
-            ] = f"{wid_deciles10['ordinal'][dec10].capitalize()} (WID data)"
-            df_tables_wid.loc[
-                j, "slug"
-            ] = f"{wid_deciles10['wid_notation'][dec10]}_avg_{wid_welfare['slug'][wel]}"
+            df_tables_wid.loc[j, "name"] = (
+                f"{wid_deciles10['ordinal'][dec10].capitalize()} (WID data)"
+            )
+            df_tables_wid.loc[j, "slug"] = (
+                f"{wid_deciles10['wid_notation'][dec10]}_avg_{wid_welfare['slug'][wel]}"
+            )
             df_tables_wid.loc[j, "description"] = new_line.join(
                 [
                     f"The mean {wid_welfare['welfare_type'][wel]} within the {wid_deciles10['ordinal'][dec10]} (tenth of the population).",
@@ -572,12 +572,12 @@ for tab in range(len(merged_tables)):
 
         # Shares - Deciles
         for dec10 in range(len(wid_deciles10)):
-            df_tables_wid.loc[
-                j, "name"
-            ] = f"{wid_deciles10['ordinal'][dec10].capitalize()} (WID data)"
-            df_tables_wid.loc[
-                j, "slug"
-            ] = f"{wid_deciles10['wid_notation'][dec10]}_share_{wid_welfare['slug'][wel]}"
+            df_tables_wid.loc[j, "name"] = (
+                f"{wid_deciles10['ordinal'][dec10].capitalize()} (WID data)"
+            )
+            df_tables_wid.loc[j, "slug"] = (
+                f"{wid_deciles10['wid_notation'][dec10]}_share_{wid_welfare['slug'][wel]}"
+            )
             df_tables_wid.loc[j, "description"] = new_line.join(
                 [
                     f"The share of {wid_welfare['welfare_type'][wel]} received by the {wid_deciles10['ordinal'][dec10]} (tenth of the population).",
@@ -597,12 +597,12 @@ for tab in range(len(merged_tables)):
         # Daily, monthly, annual aggregations
         for agg in range(len(wid_income_aggregation)):
             # Mean
-            df_tables_wid.loc[
-                j, "name"
-            ] = f"Mean {wid_welfare['welfare_type'][wel]} (WID data)"
-            df_tables_wid.loc[
-                j, "slug"
-            ] = f"p0p100_avg_{wid_welfare['slug'][wel]}{wid_income_aggregation['slug_suffix'][agg]}"
+            df_tables_wid.loc[j, "name"] = (
+                f"Mean {wid_welfare['welfare_type'][wel]} (WID data)"
+            )
+            df_tables_wid.loc[j, "slug"] = (
+                f"p0p100_avg_{wid_welfare['slug'][wel]}{wid_income_aggregation['slug_suffix'][agg]}"
+            )
             df_tables_wid.loc[j, "description"] = new_line.join(
                 [
                     f"Mean {wid_welfare['welfare_type'][wel]}.",
@@ -618,18 +618,18 @@ for tab in range(len(merged_tables)):
             #     wel
             # ]
             df_tables_wid.loc[j, "colorScaleScheme"] = "BuGn"
-            df_tables_wid.loc[
-                j, "transform"
-            ] = f"multiplyBy p0p100_avg_{wid_welfare['slug'][wel]} {wid_income_aggregation['multiplier'][agg]}"
+            df_tables_wid.loc[j, "transform"] = (
+                f"multiplyBy p0p100_avg_{wid_welfare['slug'][wel]} {wid_income_aggregation['multiplier'][agg]}"
+            )
             j += 1
 
             # Median
-            df_tables_wid.loc[
-                j, "name"
-            ] = f"Median {wid_welfare['welfare_type'][wel]} (WID data)"
-            df_tables_wid.loc[
-                j, "slug"
-            ] = f"median_{wid_welfare['slug'][wel]}{wid_income_aggregation['slug_suffix'][agg]}"
+            df_tables_wid.loc[j, "name"] = (
+                f"Median {wid_welfare['welfare_type'][wel]} (WID data)"
+            )
+            df_tables_wid.loc[j, "slug"] = (
+                f"median_{wid_welfare['slug'][wel]}{wid_income_aggregation['slug_suffix'][agg]}"
+            )
             df_tables_wid.loc[j, "description"] = new_line.join(
                 [
                     f"This is the level of {wid_welfare['welfare_type'][wel]} below which 50% of the population falls.",
@@ -645,19 +645,19 @@ for tab in range(len(merged_tables)):
             #     wel
             # ]
             df_tables_wid.loc[j, "colorScaleScheme"] = "Blues"
-            df_tables_wid.loc[
-                j, "transform"
-            ] = f"multiplyBy median_{wid_welfare['slug'][wel]} {wid_income_aggregation['multiplier'][agg]}"
+            df_tables_wid.loc[j, "transform"] = (
+                f"multiplyBy median_{wid_welfare['slug'][wel]} {wid_income_aggregation['multiplier'][agg]}"
+            )
             j += 1
 
             # Thresholds - Deciles
             for dec9 in range(len(wid_deciles9)):
-                df_tables_wid.loc[
-                    j, "name"
-                ] = f"{wid_deciles9['ordinal'][dec9].capitalize()} (WID data)"
-                df_tables_wid.loc[
-                    j, "slug"
-                ] = f"{wid_deciles9['wid_notation'][dec9]}_thr_{wid_welfare['slug'][wel]}{wid_income_aggregation['slug_suffix'][agg]}"
+                df_tables_wid.loc[j, "name"] = (
+                    f"{wid_deciles9['ordinal'][dec9].capitalize()} (WID data)"
+                )
+                df_tables_wid.loc[j, "slug"] = (
+                    f"{wid_deciles9['wid_notation'][dec9]}_thr_{wid_welfare['slug'][wel]}{wid_income_aggregation['slug_suffix'][agg]}"
+                )
                 df_tables_wid.loc[j, "description"] = new_line.join(
                     [
                         f"The level of {wid_welfare['welfare_type'][wel]} below which {wid_deciles9['decile'][dec9]}0% of the population falls.",
@@ -666,26 +666,28 @@ for tab in range(len(merged_tables)):
                         additional_description,
                     ]
                 )
-                df_tables_wid.loc[j, "unit"] = f"international-$ in {PPP_YEAR_WID} prices"
+                df_tables_wid.loc[j, "unit"] = (
+                    f"international-$ in {PPP_YEAR_WID} prices"
+                )
                 df_tables_wid.loc[j, "shortUnit"] = "$"
                 df_tables_wid.loc[j, "type"] = "Numeric"
                 # df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_deciles9[
                 #     "scale_thr"
                 # ][dec9]
                 df_tables_wid.loc[j, "colorScaleScheme"] = "Purples"
-                df_tables_wid.loc[
-                    j, "transform"
-                ] = f"multiplyBy {wid_deciles9['wid_notation'][dec9]}_thr_{wid_welfare['slug'][wel]} {wid_income_aggregation['multiplier'][agg]}"
+                df_tables_wid.loc[j, "transform"] = (
+                    f"multiplyBy {wid_deciles9['wid_notation'][dec9]}_thr_{wid_welfare['slug'][wel]} {wid_income_aggregation['multiplier'][agg]}"
+                )
                 j += 1
 
             # Averages - Deciles
             for dec10 in range(len(wid_deciles10)):
-                df_tables_wid.loc[
-                    j, "name"
-                ] = f"{wid_deciles10['ordinal'][dec10].capitalize()} (WID data)"
-                df_tables_wid.loc[
-                    j, "slug"
-                ] = f"{wid_deciles10['wid_notation'][dec10]}_avg_{wid_welfare['slug'][wel]}{wid_income_aggregation['slug_suffix'][agg]}"
+                df_tables_wid.loc[j, "name"] = (
+                    f"{wid_deciles10['ordinal'][dec10].capitalize()} (WID data)"
+                )
+                df_tables_wid.loc[j, "slug"] = (
+                    f"{wid_deciles10['wid_notation'][dec10]}_avg_{wid_welfare['slug'][wel]}{wid_income_aggregation['slug_suffix'][agg]}"
+                )
                 df_tables_wid.loc[j, "description"] = new_line.join(
                     [
                         f"The mean {wid_welfare['welfare_type'][wel]} within the {wid_deciles10['ordinal'][dec10]} (tenth of the population).",
@@ -694,16 +696,18 @@ for tab in range(len(merged_tables)):
                         additional_description,
                     ]
                 )
-                df_tables_wid.loc[j, "unit"] = f"international-$ in {PPP_YEAR_WID} prices"
+                df_tables_wid.loc[j, "unit"] = (
+                    f"international-$ in {PPP_YEAR_WID} prices"
+                )
                 df_tables_wid.loc[j, "shortUnit"] = "$"
                 df_tables_wid.loc[j, "type"] = "Numeric"
                 # df_tables_wid.loc[j, "colorScaleNumericBins"] = wid_deciles10[
                 #     "scale_avg"
                 # ][dec10]
                 df_tables_wid.loc[j, "colorScaleScheme"] = "Greens"
-                df_tables_wid.loc[
-                    j, "transform"
-                ] = f"multiplyBy {wid_deciles10['wid_notation'][dec10]}_avg_{wid_welfare['slug'][wel]} {wid_income_aggregation['multiplier'][agg]}"
+                df_tables_wid.loc[j, "transform"] = (
+                    f"multiplyBy {wid_deciles10['wid_notation'][dec10]}_avg_{wid_welfare['slug'][wel]} {wid_income_aggregation['multiplier'][agg]}"
+                )
                 j += 1
 
     df_tables_wid["tableSlug"] = merged_tables["name"][tab]
@@ -744,12 +748,12 @@ for tab in range(len(merged_tables)):
         for eq in range(len(lis_equivalence_scales)):
             # I need the original variables to not break the aggregations
             # Mean
-            df_tables_lis.loc[
-                j, "name"
-            ] = f"Mean {lis_welfare['welfare_type'][wel]} (LIS data)"
-            df_tables_lis.loc[
-                j, "slug"
-            ] = f"mean_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
+            df_tables_lis.loc[j, "name"] = (
+                f"Mean {lis_welfare['welfare_type'][wel]} (LIS data)"
+            )
+            df_tables_lis.loc[j, "slug"] = (
+                f"mean_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
+            )
             df_tables_lis.loc[j, "description"] = new_line.join(
                 [
                     f"Mean {lis_welfare['welfare_type'][wel]}.",
@@ -772,12 +776,12 @@ for tab in range(len(merged_tables)):
             j += 1
 
             # Median
-            df_tables_lis.loc[
-                j, "name"
-            ] = f"Median {lis_welfare['welfare_type'][wel]} (LIS data)"
-            df_tables_lis.loc[
-                j, "slug"
-            ] = f"median_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
+            df_tables_lis.loc[j, "name"] = (
+                f"Median {lis_welfare['welfare_type'][wel]} (LIS data)"
+            )
+            df_tables_lis.loc[j, "slug"] = (
+                f"median_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
+            )
             df_tables_lis.loc[j, "description"] = new_line.join(
                 [
                     f"The level of {lis_welfare['welfare_type'][wel]} below which half of the population falls.",
@@ -801,12 +805,12 @@ for tab in range(len(merged_tables)):
 
             # Thresholds - Deciles
             for dec9 in range(len(lis_deciles9)):
-                df_tables_lis.loc[
-                    j, "name"
-                ] = f"{lis_deciles9['ordinal'][dec9].capitalize()} (LIS data)"
-                df_tables_lis.loc[
-                    j, "slug"
-                ] = f"thr_{lis_deciles9['lis_notation'][dec9]}_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
+                df_tables_lis.loc[j, "name"] = (
+                    f"{lis_deciles9['ordinal'][dec9].capitalize()} (LIS data)"
+                )
+                df_tables_lis.loc[j, "slug"] = (
+                    f"thr_{lis_deciles9['lis_notation'][dec9]}_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
+                )
                 df_tables_lis.loc[j, "description"] = new_line.join(
                     [
                         f"The level of {lis_welfare['welfare_type'][wel]} below which {lis_deciles9['decile'][dec9]}0% of the population falls.",
@@ -830,12 +834,12 @@ for tab in range(len(merged_tables)):
 
             # Averages - Deciles
             for dec10 in range(len(lis_deciles10)):
-                df_tables_lis.loc[
-                    j, "name"
-                ] = f"{lis_deciles10['ordinal'][dec10].capitalize()} (LIS data)"
-                df_tables_lis.loc[
-                    j, "slug"
-                ] = f"avg_{lis_deciles10['lis_notation'][dec10]}_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
+                df_tables_lis.loc[j, "name"] = (
+                    f"{lis_deciles10['ordinal'][dec10].capitalize()} (LIS data)"
+                )
+                df_tables_lis.loc[j, "slug"] = (
+                    f"avg_{lis_deciles10['lis_notation'][dec10]}_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
+                )
                 df_tables_lis.loc[j, "description"] = new_line.join(
                     [
                         f"The mean {lis_welfare['welfare_type'][wel]} within the {lis_deciles10['ordinal'][dec10]} (tenth of the population).",
@@ -859,12 +863,12 @@ for tab in range(len(merged_tables)):
 
             # Shares - Deciles
             for dec10 in range(len(lis_deciles10)):
-                df_tables_lis.loc[
-                    j, "name"
-                ] = f"{lis_deciles10['ordinal'][dec10].capitalize()} (LIS data)"
-                df_tables_lis.loc[
-                    j, "slug"
-                ] = f"share_{lis_deciles10['lis_notation'][dec10]}_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
+                df_tables_lis.loc[j, "name"] = (
+                    f"{lis_deciles10['ordinal'][dec10].capitalize()} (LIS data)"
+                )
+                df_tables_lis.loc[j, "slug"] = (
+                    f"share_{lis_deciles10['lis_notation'][dec10]}_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
+                )
                 df_tables_lis.loc[j, "description"] = new_line.join(
                     [
                         f"The share of {lis_welfare['welfare_type'][wel]} received by the {lis_deciles10['ordinal'][dec10]} (tenth of the population).",
@@ -888,12 +892,12 @@ for tab in range(len(merged_tables)):
             # Daily, monthly, annual aggregations
             for agg in range(len(lis_income_aggregation)):
                 # Mean
-                df_tables_lis.loc[
-                    j, "name"
-                ] = f"Mean {lis_welfare['welfare_type'][wel]} (LIS data)"
-                df_tables_lis.loc[
-                    j, "slug"
-                ] = f"mean_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}{lis_income_aggregation['slug_suffix'][agg]}"
+                df_tables_lis.loc[j, "name"] = (
+                    f"Mean {lis_welfare['welfare_type'][wel]} (LIS data)"
+                )
+                df_tables_lis.loc[j, "slug"] = (
+                    f"mean_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}{lis_income_aggregation['slug_suffix'][agg]}"
+                )
                 df_tables_lis.loc[j, "description"] = new_line.join(
                     [
                         f"Mean {lis_welfare['welfare_type'][wel]}.",
@@ -912,19 +916,19 @@ for tab in range(len(merged_tables)):
                 #     "scale_mean"
                 # ][wel]
                 df_tables_lis.loc[j, "colorScaleScheme"] = "BuGn"
-                df_tables_lis.loc[
-                    j, "transform"
-                ] = f"multiplyBy mean_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]} {lis_income_aggregation['multiplier'][agg]}"
+                df_tables_lis.loc[j, "transform"] = (
+                    f"multiplyBy mean_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]} {lis_income_aggregation['multiplier'][agg]}"
+                )
                 df_tables_lis.loc[j, "equivalized"] = lis_equivalence_scales["text"][eq]
                 j += 1
 
                 # Median
-                df_tables_lis.loc[
-                    j, "name"
-                ] = f"Median {lis_welfare['welfare_type'][wel]} (LIS data)"
-                df_tables_lis.loc[
-                    j, "slug"
-                ] = f"median_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}{lis_income_aggregation['slug_suffix'][agg]}"
+                df_tables_lis.loc[j, "name"] = (
+                    f"Median {lis_welfare['welfare_type'][wel]} (LIS data)"
+                )
+                df_tables_lis.loc[j, "slug"] = (
+                    f"median_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}{lis_income_aggregation['slug_suffix'][agg]}"
+                )
                 df_tables_lis.loc[j, "description"] = new_line.join(
                     [
                         f"The level of {lis_welfare['welfare_type'][wel]} below which half of the population falls.",
@@ -943,20 +947,20 @@ for tab in range(len(merged_tables)):
                 #     "scale_median"
                 # ][wel]
                 df_tables_lis.loc[j, "colorScaleScheme"] = "Blues"
-                df_tables_lis.loc[
-                    j, "transform"
-                ] = f"multiplyBy median_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]} {lis_income_aggregation['multiplier'][agg]}"
+                df_tables_lis.loc[j, "transform"] = (
+                    f"multiplyBy median_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]} {lis_income_aggregation['multiplier'][agg]}"
+                )
                 df_tables_lis.loc[j, "equivalized"] = lis_equivalence_scales["text"][eq]
                 j += 1
 
                 # Thresholds - Deciles
                 for dec9 in range(len(lis_deciles9)):
-                    df_tables_lis.loc[
-                        j, "name"
-                    ] = f"{lis_deciles9['ordinal'][dec9].capitalize()} (LIS data)"
-                    df_tables_lis.loc[
-                        j, "slug"
-                    ] = f"thr_{lis_deciles9['lis_notation'][dec9]}_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}{lis_income_aggregation['slug_suffix'][agg]}"
+                    df_tables_lis.loc[j, "name"] = (
+                        f"{lis_deciles9['ordinal'][dec9].capitalize()} (LIS data)"
+                    )
+                    df_tables_lis.loc[j, "slug"] = (
+                        f"thr_{lis_deciles9['lis_notation'][dec9]}_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}{lis_income_aggregation['slug_suffix'][agg]}"
+                    )
                     df_tables_lis.loc[j, "description"] = new_line.join(
                         [
                             f"The level of {lis_welfare['welfare_type'][wel]} below which {lis_deciles9['decile'][dec9]}0% of the population falls.",
@@ -975,9 +979,9 @@ for tab in range(len(merged_tables)):
                     #     "scale_thr"
                     # ][dec9]
                     df_tables_lis.loc[j, "colorScaleScheme"] = "Purples"
-                    df_tables_lis.loc[
-                        j, "transform"
-                    ] = f"multiplyBy thr_{lis_deciles9['lis_notation'][dec9]}_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]} {lis_income_aggregation['multiplier'][agg]}"
+                    df_tables_lis.loc[j, "transform"] = (
+                        f"multiplyBy thr_{lis_deciles9['lis_notation'][dec9]}_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]} {lis_income_aggregation['multiplier'][agg]}"
+                    )
                     df_tables_lis.loc[j, "equivalized"] = lis_equivalence_scales[
                         "text"
                     ][eq]
@@ -985,12 +989,12 @@ for tab in range(len(merged_tables)):
 
                 # Averages - Deciles
                 for dec10 in range(len(lis_deciles10)):
-                    df_tables_lis.loc[
-                        j, "name"
-                    ] = f"{lis_deciles10['ordinal'][dec10].capitalize()} (LIS data)"
-                    df_tables_lis.loc[
-                        j, "slug"
-                    ] = f"avg_{lis_deciles10['lis_notation'][dec10]}_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}{lis_income_aggregation['slug_suffix'][agg]}"
+                    df_tables_lis.loc[j, "name"] = (
+                        f"{lis_deciles10['ordinal'][dec10].capitalize()} (LIS data)"
+                    )
+                    df_tables_lis.loc[j, "slug"] = (
+                        f"avg_{lis_deciles10['lis_notation'][dec10]}_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}{lis_income_aggregation['slug_suffix'][agg]}"
+                    )
                     df_tables_lis.loc[j, "description"] = new_line.join(
                         [
                             f"The mean {lis_welfare['welfare_type'][wel]} within the {lis_deciles10['ordinal'][dec10]} (tenth of the population).",
@@ -1009,9 +1013,9 @@ for tab in range(len(merged_tables)):
                     #     "scale_avg"
                     # ][dec10]
                     df_tables_lis.loc[j, "colorScaleScheme"] = "Greens"
-                    df_tables_lis.loc[
-                        j, "transform"
-                    ] = f"multiplyBy avg_{lis_deciles10['lis_notation'][dec10]}_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]} {lis_income_aggregation['multiplier'][agg]}"
+                    df_tables_lis.loc[j, "transform"] = (
+                        f"multiplyBy avg_{lis_deciles10['lis_notation'][dec10]}_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]} {lis_income_aggregation['multiplier'][agg]}"
+                    )
                     df_tables_lis.loc[j, "equivalized"] = lis_equivalence_scales[
                         "text"
                     ][eq]
@@ -1060,9 +1064,9 @@ for tab in range(len(merged_tables)):
     for view in range(len(source_checkbox)):
         for agg in range(len(lis_income_aggregation)):
             # Mean
-            df_graphers.loc[
-                j, "title"
-            ] = f"Mean income per {lis_income_aggregation['aggregation'][agg]} ({source_checkbox['type_title'][view]})"
+            df_graphers.loc[j, "title"] = (
+                f"Mean income per {lis_income_aggregation['aggregation'][agg]} ({source_checkbox['type_title'][view]})"
+            )
             df_graphers.loc[j, "ySlugs"] = source_checkbox["mean"][view].replace(
                 "{agg}", lis_income_aggregation["slug_suffix"][agg]
             )
@@ -1081,9 +1085,9 @@ for tab in range(len(merged_tables)):
             j += 1
 
             # Median
-            df_graphers.loc[
-                j, "title"
-            ] = f"Median income per {lis_income_aggregation['aggregation'][agg]} ({source_checkbox['type_title'][view]})"
+            df_graphers.loc[j, "title"] = (
+                f"Median income per {lis_income_aggregation['aggregation'][agg]} ({source_checkbox['type_title'][view]})"
+            )
             df_graphers.loc[j, "ySlugs"] = source_checkbox["median"][view].replace(
                 "{agg}", lis_income_aggregation["slug_suffix"][agg]
             )
@@ -1103,9 +1107,9 @@ for tab in range(len(merged_tables)):
 
             # Thresholds - Deciles
             for dec9 in range(len(deciles9)):
-                df_graphers.loc[
-                    j, "title"
-                ] = f"Threshold income marking the {deciles9['ordinal'][dec9]} ({source_checkbox['type_title'][view]})"
+                df_graphers.loc[j, "title"] = (
+                    f"Threshold income marking the {deciles9['ordinal'][dec9]} ({source_checkbox['type_title'][view]})"
+                )
                 df_graphers.loc[j, "ySlugs"] = (
                     source_checkbox["thr"][view]
                     .replace("{agg}", lis_income_aggregation["slug_suffix"][agg])
@@ -1122,18 +1126,18 @@ for tab in range(len(merged_tables)):
                     "aggregation"
                 ][agg].capitalize()
                 df_graphers.loc[j, "hideRelativeToggle"] = "false"
-                df_graphers.loc[
-                    j, "subtitle"
-                ] = f"The level of income per {lis_income_aggregation['aggregation'][agg]} below which {deciles9['decile'][dec9]}0% of the population falls. {source_checkbox['note'][view]}"
+                df_graphers.loc[j, "subtitle"] = (
+                    f"The level of income per {lis_income_aggregation['aggregation'][agg]} below which {deciles9['decile'][dec9]}0% of the population falls. {source_checkbox['note'][view]}"
+                )
                 df_graphers.loc[j, "note"] = f"{source_checkbox['note_ppp'][view]}"
                 df_graphers.loc[j, "yScaleToggle"] = "true"
                 j += 1
 
             # Averages - Deciles
             for dec10 in range(len(deciles10)):
-                df_graphers.loc[
-                    j, "title"
-                ] = f"Mean income within the {deciles10['ordinal'][dec10]} ({source_checkbox['type_title'][view]})"
+                df_graphers.loc[j, "title"] = (
+                    f"Mean income within the {deciles10['ordinal'][dec10]} ({source_checkbox['type_title'][view]})"
+                )
                 df_graphers.loc[j, "ySlugs"] = (
                     source_checkbox["avg"][view]
                     .replace("{agg}", lis_income_aggregation["slug_suffix"][agg])
@@ -1141,9 +1145,9 @@ for tab in range(len(merged_tables)):
                     .replace("{dec10_wid}", deciles10["wid_notation"][dec10])
                     .replace("{dec10_lis}", deciles10["lis_notation"][dec10])
                 )
-                df_graphers.loc[
-                    j, "Indicator Dropdown"
-                ] = "Mean income or consumption, by decile"
+                df_graphers.loc[j, "Indicator Dropdown"] = (
+                    "Mean income or consumption, by decile"
+                )
                 df_graphers.loc[j, "Decile Dropdown"] = deciles10["dropdown"][dec10]
                 df_graphers.loc[j, "Income measure Dropdown"] = source_checkbox[
                     "type_title"
@@ -1152,18 +1156,18 @@ for tab in range(len(merged_tables)):
                     "aggregation"
                 ][agg].capitalize()
                 df_graphers.loc[j, "hideRelativeToggle"] = "false"
-                df_graphers.loc[
-                    j, "subtitle"
-                ] = f"The mean income per {lis_income_aggregation['aggregation'][agg]} within the {deciles10['ordinal'][dec10]} (tenth of the population). {source_checkbox['note'][view]}"
+                df_graphers.loc[j, "subtitle"] = (
+                    f"The mean income per {lis_income_aggregation['aggregation'][agg]} within the {deciles10['ordinal'][dec10]} (tenth of the population). {source_checkbox['note'][view]}"
+                )
                 df_graphers.loc[j, "note"] = f"{source_checkbox['note_ppp'][view]}"
                 df_graphers.loc[j, "yScaleToggle"] = "true"
                 j += 1
 
         # Shares - Deciles
         for dec10 in range(len(deciles10)):
-            df_graphers.loc[
-                j, "title"
-            ] = f"Income share of the {deciles10['ordinal'][dec10]} ({source_checkbox['type_title'][view]})"
+            df_graphers.loc[j, "title"] = (
+                f"Income share of the {deciles10['ordinal'][dec10]} ({source_checkbox['type_title'][view]})"
+            )
             df_graphers.loc[j, "ySlugs"] = (
                 source_checkbox["share"][view]
                 .replace("{dec10_pip}", deciles10["decile"][dec10])
@@ -1175,9 +1179,9 @@ for tab in range(len(merged_tables)):
             df_graphers.loc[j, "Income measure Dropdown"] = source_checkbox[
                 "type_title"
             ][view].capitalize()
-            df_graphers.loc[
-                j, "subtitle"
-            ] = f"The share of income received by the {deciles10['ordinal'][dec10]}. {source_checkbox['note'][view]}"
+            df_graphers.loc[j, "subtitle"] = (
+                f"The share of income received by the {deciles10['ordinal'][dec10]}. {source_checkbox['note'][view]}"
+            )
             df_graphers.loc[j, "note"] = np.nan
             j += 1
 

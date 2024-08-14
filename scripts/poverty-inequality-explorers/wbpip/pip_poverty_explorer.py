@@ -85,6 +85,7 @@ notes_title = NOTES_TITLE_PIP
 
 processing_description = PROCESSING_DESCRIPTION_PIP
 ppp_description = PPP_DESCRIPTION_PIP_2017
+relative_poverty_description = RELATIVE_POVERTY_DESCRIPTION_PIP
 
 # Table generation
 df_tables = pd.DataFrame()
@@ -144,22 +145,23 @@ for survey in range(len(survey_type)):
         df_tables.loc[j, "unit"] = np.nan
         df_tables.loc[j, "shortUnit"] = np.nan
         df_tables.loc[j, "type"] = "Numeric"
-        df_tables.loc[
-            j, "colorScaleNumericBins"
-        ] = "100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000"
+        df_tables.loc[j, "colorScaleNumericBins"] = (
+            "100000;300000;1000000;3000000;10000000;30000000;100000000;300000000;1000000000"
+        )
         df_tables.loc[j, "colorScaleScheme"] = "Reds"
         df_tables.loc[j, "survey_type"] = survey_type["table_name"][survey]
         j += 1
 
     # Headcount ratio (rel)
     for pct in range(len(povlines_rel)):
-        df_tables.loc[
-            j, "name"
-        ] = f"{povlines_rel.percent[pct]} of median - share of population below poverty line"
+        df_tables.loc[j, "name"] = (
+            f"{povlines_rel.percent[pct]} of median - share of population below poverty line"
+        )
         df_tables.loc[j, "slug"] = f"headcount_ratio_{povlines_rel.slug_suffix[pct]}"
         df_tables.loc[j, "description"] = new_line.join(
             [
                 f"% of population living in households with an {survey_type.text[survey]} per person below {povlines_rel.percent[pct]} of the median.",
+                relative_poverty_description,
                 survey_type.description[survey],
                 additional_description,
                 notes_title,
@@ -178,13 +180,14 @@ for survey in range(len(survey_type)):
 
     # Headcount (rel)
     for pct in range(len(povlines_rel)):
-        df_tables.loc[
-            j, "name"
-        ] = f"{povlines_rel.percent[pct]} of median - total number of people below poverty line"
+        df_tables.loc[j, "name"] = (
+            f"{povlines_rel.percent[pct]} of median - total number of people below poverty line"
+        )
         df_tables.loc[j, "slug"] = f"headcount_{povlines_rel.slug_suffix[pct]}"
         df_tables.loc[j, "description"] = new_line.join(
             [
                 f"Number of people living in households with an {survey_type.text[survey]} per person below {povlines_rel.percent[pct]} of the median.",
+                relative_poverty_description,
                 survey_type.description[survey],
                 additional_description,
                 notes_title,
@@ -194,9 +197,9 @@ for survey in range(len(survey_type)):
         df_tables.loc[j, "unit"] = np.nan
         df_tables.loc[j, "shortUnit"] = np.nan
         df_tables.loc[j, "type"] = "Numeric"
-        df_tables.loc[
-            j, "colorScaleNumericBins"
-        ] = "100000;300000;1000000;3000000;10000000;30000000;100000000"
+        df_tables.loc[j, "colorScaleNumericBins"] = (
+            "100000;300000;1000000;3000000;10000000;30000000;100000000"
+        )
         df_tables.loc[j, "colorScaleScheme"] = "YlOrBr"
         df_tables.loc[j, "survey_type"] = survey_type["table_name"][survey]
         j += 1
@@ -244,9 +247,9 @@ for survey in range(len(survey_type)):
     j += 1
 
     # P10
-    df_tables.loc[
-        j, "name"
-    ] = "Threshold income or consumption per day marking the poorest decile"
+    df_tables.loc[j, "name"] = (
+        "Threshold income or consumption per day marking the poorest decile"
+    )
     df_tables.loc[j, "slug"] = "decile1_thr"
     df_tables.loc[j, "description"] = new_line.join(
         [
@@ -267,9 +270,9 @@ for survey in range(len(survey_type)):
     j += 1
 
     # P90
-    df_tables.loc[
-        j, "name"
-    ] = "Threshold income or consumption per day marking the richest decile"
+    df_tables.loc[j, "name"] = (
+        "Threshold income or consumption per day marking the richest decile"
+    )
     df_tables.loc[j, "slug"] = "decile9_thr"
     df_tables.loc[j, "description"] = new_line.join(
         [
@@ -326,7 +329,7 @@ for i in range(len(df_tables)):
     df_spells.loc[j, "survey_type"] = df_tables.survey_type[i]
     j += 1
 
-    for c_spell in range(1, CONSUMPTION_SPELLS_PIP+1):
+    for c_spell in range(1, CONSUMPTION_SPELLS_PIP + 1):
         df_spells.loc[j, "master_var"] = df_tables.slug[i]
         df_spells.loc[j, "name"] = "Consumption surveys"
         df_spells.loc[j, "slug"] = f"consumption_spell_{c_spell}"
@@ -338,9 +341,9 @@ for i in range(len(df_tables)):
         df_spells.loc[j, "shortUnit"] = df_tables.shortUnit[i]
         df_spells.loc[j, "tolerance"] = df_tables.tolerance[i]
         df_spells.loc[j, "type"] = df_tables.type[i]
-        df_spells.loc[
-            j, "colorScaleNumericMinValue"
-        ] = df_tables.colorScaleNumericMinValue[i]
+        df_spells.loc[j, "colorScaleNumericMinValue"] = (
+            df_tables.colorScaleNumericMinValue[i]
+        )
         df_spells.loc[j, "colorScaleNumericBins"] = df_tables.colorScaleNumericBins[i]
         df_spells.loc[j, "colorScaleEqualSizeBins"] = df_tables.colorScaleEqualSizeBins[
             i
@@ -349,7 +352,7 @@ for i in range(len(df_tables)):
         df_spells.loc[j, "survey_type"] = df_tables.survey_type[i]
         j += 1
 
-    for i_spell in range(1, INCOME_SPELLS_PIP+1):
+    for i_spell in range(1, INCOME_SPELLS_PIP + 1):
         df_spells.loc[j, "master_var"] = df_tables.slug[i]
         df_spells.loc[j, "name"] = "Income surveys"
         df_spells.loc[j, "slug"] = f"income_spell_{i_spell}"
@@ -361,9 +364,9 @@ for i in range(len(df_tables)):
         df_spells.loc[j, "shortUnit"] = df_tables.shortUnit[i]
         df_spells.loc[j, "tolerance"] = df_tables.tolerance[i]
         df_spells.loc[j, "type"] = df_tables.type[i]
-        df_spells.loc[
-            j, "colorScaleNumericMinValue"
-        ] = df_tables.colorScaleNumericMinValue[i]
+        df_spells.loc[j, "colorScaleNumericMinValue"] = (
+            df_tables.colorScaleNumericMinValue[i]
+        )
         df_spells.loc[j, "colorScaleNumericBins"] = df_tables.colorScaleNumericBins[i]
         df_spells.loc[j, "colorScaleEqualSizeBins"] = df_tables.colorScaleEqualSizeBins[
             i
@@ -373,9 +376,9 @@ for i in range(len(df_tables)):
         j += 1
 
 # Delete rows for country and year
-df_spells = df_spells[(df_spells["master_var"]!="country") & (df_spells['master_var']!="year")].reset_index(
-    drop=True
-)
+df_spells = df_spells[
+    (df_spells["master_var"] != "country") & (df_spells["master_var"] != "year")
+].reset_index(drop=True)
 
 # Make tolerance integer (to not break the parameter in the platform)
 df_spells["tolerance"] = df_spells["tolerance"].astype("Int64")
@@ -397,17 +400,17 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, "title"] = f"{povlines_abs.title_share[p]}"
         df_graphers.loc[j, "ySlugs"] = f"headcount_ratio_{povlines_abs.cents[p]}"
         df_graphers.loc[j, "Indicator Dropdown"] = "Share in poverty"
-        df_graphers.loc[
-            j, "Poverty line Dropdown"
-        ] = f"{povlines_abs.povline_dropdown[p]}"
-        df_graphers.loc[
-            j, "Household survey data type Dropdown"
-        ] = f"{survey_type.dropdown_option[survey]}"
+        df_graphers.loc[j, "Poverty line Dropdown"] = (
+            f"{povlines_abs.povline_dropdown[p]}"
+        )
+        df_graphers.loc[j, "Household survey data type Dropdown"] = (
+            f"{survey_type.dropdown_option[survey]}"
+        )
         df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
         df_graphers.loc[j, "subtitle"] = f"{povlines_abs.subtitle[p]}"
-        df_graphers.loc[
-            j, "note"
-        ] = f"This data is expressed in international-$ at 2017 prices. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} per capita."
+        df_graphers.loc[j, "note"] = (
+            f"This data is expressed in international-$ at 2017 prices. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} per capita."
+        )
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "yAxisMin"] = yAxisMin
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -422,17 +425,17 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, "title"] = f"{povlines_abs.title_number[p]}"
         df_graphers.loc[j, "ySlugs"] = f"headcount_{povlines_abs.cents[p]}"
         df_graphers.loc[j, "Indicator Dropdown"] = "Number in poverty"
-        df_graphers.loc[
-            j, "Poverty line Dropdown"
-        ] = f"{povlines_abs.povline_dropdown[p]}"
-        df_graphers.loc[
-            j, "Household survey data type Dropdown"
-        ] = f"{survey_type.dropdown_option[survey]}"
+        df_graphers.loc[j, "Poverty line Dropdown"] = (
+            f"{povlines_abs.povline_dropdown[p]}"
+        )
+        df_graphers.loc[j, "Household survey data type Dropdown"] = (
+            f"{survey_type.dropdown_option[survey]}"
+        )
         df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
         df_graphers.loc[j, "subtitle"] = f"{povlines_abs.subtitle[p]}"
-        df_graphers.loc[
-            j, "note"
-        ] = f"This data is expressed in international-$ at 2017 prices. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} per capita."
+        df_graphers.loc[j, "note"] = (
+            f"This data is expressed in international-$ at 2017 prices. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} per capita."
+        )
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "yAxisMin"] = yAxisMin
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -443,24 +446,24 @@ for survey in range(len(survey_type)):
         j += 1
 
     # Headcount ratio (abs) - Multiple lines
-    df_graphers.loc[
-        j, "title"
-    ] = "Share of population living below a range of poverty lines"
-    df_graphers.loc[
-        j, "ySlugs"
-    ] = "headcount_ratio_100 headcount_ratio_215 headcount_ratio_365 headcount_ratio_685 headcount_ratio_1000 headcount_ratio_2000 headcount_ratio_3000 headcount_ratio_4000"
+    df_graphers.loc[j, "title"] = (
+        "Share of population living below a range of poverty lines"
+    )
+    df_graphers.loc[j, "ySlugs"] = (
+        "headcount_ratio_100 headcount_ratio_215 headcount_ratio_365 headcount_ratio_685 headcount_ratio_1000 headcount_ratio_2000 headcount_ratio_3000 headcount_ratio_4000"
+    )
     df_graphers.loc[j, "Indicator Dropdown"] = "Share in poverty"
     df_graphers.loc[j, "Poverty line Dropdown"] = "Multiple lines"
-    df_graphers.loc[
-        j, "Household survey data type Dropdown"
-    ] = f"{survey_type.dropdown_option[survey]}"
+    df_graphers.loc[j, "Household survey data type Dropdown"] = (
+        f"{survey_type.dropdown_option[survey]}"
+    )
     df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
-    df_graphers.loc[
-        j, "subtitle"
-    ] = "This data is adjusted for inflation and for differences in the cost of living between countries."
-    df_graphers.loc[
-        j, "note"
-    ] = f"This data is expressed in international-$ at 2017 prices. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} per capita."
+    df_graphers.loc[j, "subtitle"] = (
+        "This data is adjusted for inflation and for differences in the cost of living between countries."
+    )
+    df_graphers.loc[j, "note"] = (
+        f"This data is expressed in international-$ at 2017 prices. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} per capita."
+    )
     df_graphers.loc[j, "type"] = np.nan
     df_graphers.loc[j, "yAxisMin"] = yAxisMin
     df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
@@ -471,24 +474,24 @@ for survey in range(len(survey_type)):
     j += 1
 
     # Headcount (abs) - Multiple lines
-    df_graphers.loc[
-        j, "title"
-    ] = "Number of people living below a range of poverty lines"
-    df_graphers.loc[
-        j, "ySlugs"
-    ] = "headcount_100 headcount_215 headcount_365 headcount_685 headcount_1000 headcount_2000 headcount_3000 headcount_4000"
+    df_graphers.loc[j, "title"] = (
+        "Number of people living below a range of poverty lines"
+    )
+    df_graphers.loc[j, "ySlugs"] = (
+        "headcount_100 headcount_215 headcount_365 headcount_685 headcount_1000 headcount_2000 headcount_3000 headcount_4000"
+    )
     df_graphers.loc[j, "Indicator Dropdown"] = "Number in poverty"
     df_graphers.loc[j, "Poverty line Dropdown"] = "Multiple lines"
-    df_graphers.loc[
-        j, "Household survey data type Dropdown"
-    ] = f"{survey_type.dropdown_option[survey]}"
+    df_graphers.loc[j, "Household survey data type Dropdown"] = (
+        f"{survey_type.dropdown_option[survey]}"
+    )
     df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
-    df_graphers.loc[
-        j, "subtitle"
-    ] = "This data is adjusted for inflation and for differences in the cost of living between countries."
-    df_graphers.loc[
-        j, "note"
-    ] = f"This data is expressed in international-$ at 2017 prices. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} per capita."
+    df_graphers.loc[j, "subtitle"] = (
+        "This data is adjusted for inflation and for differences in the cost of living between countries."
+    )
+    df_graphers.loc[j, "note"] = (
+        f"This data is expressed in international-$ at 2017 prices. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} per capita."
+    )
     df_graphers.loc[j, "type"] = np.nan
     df_graphers.loc[j, "yAxisMin"] = yAxisMin
     df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
@@ -501,21 +504,21 @@ for survey in range(len(survey_type)):
     # Headcount ratio (rel)
     for pct in range(len(povlines_rel)):
         df_graphers.loc[j, "title"] = f"{povlines_rel.title_share[pct]}"
-        df_graphers.loc[
-            j, "ySlugs"
-        ] = f"headcount_ratio_{povlines_rel.slug_suffix[pct]}"
+        df_graphers.loc[j, "ySlugs"] = (
+            f"headcount_ratio_{povlines_rel.slug_suffix[pct]}"
+        )
         df_graphers.loc[j, "Indicator Dropdown"] = "Share in poverty"
         df_graphers.loc[j, "Poverty line Dropdown"] = f"{povlines_rel.dropdown[pct]}"
-        df_graphers.loc[
-            j, "Household survey data type Dropdown"
-        ] = f"{survey_type.dropdown_option[survey]}"
+        df_graphers.loc[j, "Household survey data type Dropdown"] = (
+            f"{survey_type.dropdown_option[survey]}"
+        )
         df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
-        df_graphers.loc[
-            j, "subtitle"
-        ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at {povlines_rel.text[pct]} {survey_type.text[survey]}."
-        df_graphers.loc[
-            j, "note"
-        ] = f"Depending on the country and year, the data relates to {survey_type.detailed_text[survey]} per capita."
+        df_graphers.loc[j, "subtitle"] = (
+            f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at {povlines_rel.text[pct]} {survey_type.text[survey]}."
+        )
+        df_graphers.loc[j, "note"] = (
+            f"Depending on the country and year, the data relates to {survey_type.detailed_text[survey]} per capita."
+        )
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "yAxisMin"] = yAxisMin
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -531,16 +534,16 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, "ySlugs"] = f"headcount_{povlines_rel.slug_suffix[pct]}"
         df_graphers.loc[j, "Indicator Dropdown"] = "Number in poverty"
         df_graphers.loc[j, "Poverty line Dropdown"] = f"{povlines_rel.dropdown[pct]}"
-        df_graphers.loc[
-            j, "Household survey data type Dropdown"
-        ] = f"{survey_type.dropdown_option[survey]}"
+        df_graphers.loc[j, "Household survey data type Dropdown"] = (
+            f"{survey_type.dropdown_option[survey]}"
+        )
         df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
-        df_graphers.loc[
-            j, "subtitle"
-        ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at {povlines_rel.text[pct]} {survey_type.text[survey]}."
-        df_graphers.loc[
-            j, "note"
-        ] = f"Depending on the country and year, the data relates to {survey_type.detailed_text[survey]} per capita."
+        df_graphers.loc[j, "subtitle"] = (
+            f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at {povlines_rel.text[pct]} {survey_type.text[survey]}."
+        )
+        df_graphers.loc[j, "note"] = (
+            f"Depending on the country and year, the data relates to {survey_type.detailed_text[survey]} per capita."
+        )
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "yAxisMin"] = yAxisMin
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -555,16 +558,16 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, "ySlugs"] = "mean"
     df_graphers.loc[j, "Indicator Dropdown"] = "Mean income or consumption"
     df_graphers.loc[j, "Poverty line Dropdown"] = np.nan
-    df_graphers.loc[
-        j, "Household survey data type Dropdown"
-    ] = f"{survey_type.dropdown_option[survey]}"
+    df_graphers.loc[j, "Household survey data type Dropdown"] = (
+        f"{survey_type.dropdown_option[survey]}"
+    )
     df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
-    df_graphers.loc[
-        j, "subtitle"
-    ] = "This data is adjusted for inflation and for differences in the cost of living between countries."
-    df_graphers.loc[
-        j, "note"
-    ] = f"This data is expressed in international-$ at 2017 prices. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} per capita."
+    df_graphers.loc[j, "subtitle"] = (
+        "This data is adjusted for inflation and for differences in the cost of living between countries."
+    )
+    df_graphers.loc[j, "note"] = (
+        f"This data is expressed in international-$ at 2017 prices. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} per capita."
+    )
     df_graphers.loc[j, "type"] = np.nan
     df_graphers.loc[j, "yAxisMin"] = yAxisMin
     df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -580,16 +583,16 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, "ySlugs"] = "median"
     df_graphers.loc[j, "Indicator Dropdown"] = "Median income or consumption"
     df_graphers.loc[j, "Poverty line Dropdown"] = np.nan
-    df_graphers.loc[
-        j, "Household survey data type Dropdown"
-    ] = f"{survey_type.dropdown_option[survey]}"
+    df_graphers.loc[j, "Household survey data type Dropdown"] = (
+        f"{survey_type.dropdown_option[survey]}"
+    )
     df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
-    df_graphers.loc[
-        j, "subtitle"
-    ] = "This data is adjusted for inflation and for differences in the cost of living between countries."
-    df_graphers.loc[
-        j, "note"
-    ] = f"This data is expressed in international-$ at 2017 prices. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} per capita."
+    df_graphers.loc[j, "subtitle"] = (
+        "This data is adjusted for inflation and for differences in the cost of living between countries."
+    )
+    df_graphers.loc[j, "note"] = (
+        f"This data is expressed in international-$ at 2017 prices. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} per capita."
+    )
     df_graphers.loc[j, "type"] = np.nan
     df_graphers.loc[j, "yAxisMin"] = yAxisMin
     df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -601,24 +604,24 @@ for survey in range(len(survey_type)):
     j += 1
 
     # P10
-    df_graphers.loc[
-        j, "title"
-    ] = f"Threshold {survey_type.text[survey]} per day marking the poorest decile"
+    df_graphers.loc[j, "title"] = (
+        f"Threshold {survey_type.text[survey]} per day marking the poorest decile"
+    )
     df_graphers.loc[j, "ySlugs"] = "decile1_thr"
-    df_graphers.loc[
-        j, "Indicator Dropdown"
-    ] = "Income or consumption of the poorest 10%"
+    df_graphers.loc[j, "Indicator Dropdown"] = (
+        "Income or consumption of the poorest 10%"
+    )
     df_graphers.loc[j, "Poverty line Dropdown"] = np.nan
-    df_graphers.loc[
-        j, "Household survey data type Dropdown"
-    ] = f"{survey_type.dropdown_option[survey]}"
+    df_graphers.loc[j, "Household survey data type Dropdown"] = (
+        f"{survey_type.dropdown_option[survey]}"
+    )
     df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
-    df_graphers.loc[
-        j, "subtitle"
-    ] = f"This is the level of {survey_type.text[survey]} per day below which 10% of the population falls."
-    df_graphers.loc[
-        j, "note"
-    ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} per capita."
+    df_graphers.loc[j, "subtitle"] = (
+        f"This is the level of {survey_type.text[survey]} per day below which 10% of the population falls."
+    )
+    df_graphers.loc[j, "note"] = (
+        f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} per capita."
+    )
     df_graphers.loc[j, "type"] = np.nan
     df_graphers.loc[j, "yAxisMin"] = yAxisMin
     df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -630,24 +633,24 @@ for survey in range(len(survey_type)):
     j += 1
 
     # P90
-    df_graphers.loc[
-        j, "title"
-    ] = f"Threshold {survey_type.text[survey]} per day marking the richest decile"
+    df_graphers.loc[j, "title"] = (
+        f"Threshold {survey_type.text[survey]} per day marking the richest decile"
+    )
     df_graphers.loc[j, "ySlugs"] = "decile9_thr"
-    df_graphers.loc[
-        j, "Indicator Dropdown"
-    ] = "Income or consumption of the richest 10%"
+    df_graphers.loc[j, "Indicator Dropdown"] = (
+        "Income or consumption of the richest 10%"
+    )
     df_graphers.loc[j, "Poverty line Dropdown"] = np.nan
-    df_graphers.loc[
-        j, "Household survey data type Dropdown"
-    ] = f"{survey_type.dropdown_option[survey]}"
+    df_graphers.loc[j, "Household survey data type Dropdown"] = (
+        f"{survey_type.dropdown_option[survey]}"
+    )
     df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
-    df_graphers.loc[
-        j, "subtitle"
-    ] = f"This is the level of {survey_type.text[survey]} per day below which 90% of the population falls."
-    df_graphers.loc[
-        j, "note"
-    ] = f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} per capita."
+    df_graphers.loc[j, "subtitle"] = (
+        f"This is the level of {survey_type.text[survey]} per day below which 90% of the population falls."
+    )
+    df_graphers.loc[j, "note"] = (
+        f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} per capita."
+    )
     df_graphers.loc[j, "type"] = np.nan
     df_graphers.loc[j, "yAxisMin"] = yAxisMin
     df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -669,10 +672,10 @@ j = 0
 # Create ySlugs dynamically
 c_spell_list = []
 i_spell_list = []
-for c_spell in range(1, CONSUMPTION_SPELLS_PIP+1):
+for c_spell in range(1, CONSUMPTION_SPELLS_PIP + 1):
     c_spell_list.append(f"consumption_spell_{c_spell}")
 
-for i_spell in range(1, INCOME_SPELLS_PIP+1):
+for i_spell in range(1, INCOME_SPELLS_PIP + 1):
     i_spell_list.append(f"income_spell_{i_spell}")
 
 # Merge the items in the list, separated by a space
@@ -682,9 +685,7 @@ ySlugs_spells = " ".join(spell_list)
 
 for i in range(len(df_graphers)):
     df_graphers_spells.loc[j, "title"] = df_graphers["title"][i]
-    df_graphers_spells.loc[
-        j, "ySlugs"
-    ] = ySlugs_spells
+    df_graphers_spells.loc[j, "ySlugs"] = ySlugs_spells
     df_graphers_spells.loc[j, "Indicator Dropdown"] = df_graphers["Indicator Dropdown"][
         i
     ]
