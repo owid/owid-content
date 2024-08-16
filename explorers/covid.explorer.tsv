@@ -8,7 +8,7 @@ downloadDataLink	https://github.com/owid/covid-19-data/tree/master/public/data
 subNavId	coronavirus
 subNavCurrentId	data-explorer-2
 wpBlockId	43869
-hasMapTab	True
+hasMapTab	true
 yAxisMin	0
 thumbnail	https://ourworldindata.org/coronavirus-data-explorer.png
 graphers
@@ -23,4 +23,3 @@ graphers
 	grapher/covid/latest/cases_deaths/cases_deaths#weekly_deaths_per_million	Confirmed deaths	Weekly	true
 	grapher/covid/latest/cases_deaths/cases_deaths#biweekly_deaths	Confirmed deaths	Biweekly	false
 	grapher/covid/latest/cases_deaths/cases_deaths#biweekly_deaths_per_million	Confirmed deaths	Biweekly	true
-
