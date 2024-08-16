@@ -12,26 +12,25 @@ hasMapTab	true
 yAxisMin	0
 thumbnail	https://ourworldindata.org/coronavirus-data-explorer.png
 graphers
-	yVariableIds	Metric Dropdown	Interval Dropdown	Relative to population Checkbox
-	grapher/covid/latest/cases_deaths/cases_deaths#new_deaths_per_million_7_day_avg_right	Confirmed deaths	7-day rolling average	true
-	grapher/covid/latest/cases_deaths/cases_deaths#total_deaths_per_million	Confirmed deaths	Cumulative	true
-	grapher/covid/latest/cases_deaths/cases_deaths#total_deaths	Confirmed deaths	Cumulative	false
-	grapher/covid/latest/cases_deaths/cases_deaths#new_deaths_7_day_avg_right	Confirmed deaths	7-day rolling average	false
-	grapher/covid/latest/cases_deaths/cases_deaths#new_deaths	Confirmed deaths	New per day	false
-	grapher/covid/latest/cases_deaths/cases_deaths#new_deaths_per_million	Confirmed deaths	New per day	true
-	grapher/covid/latest/cases_deaths/cases_deaths#weekly_deaths	Confirmed deaths	Weekly	false
-	grapher/covid/latest/cases_deaths/cases_deaths#weekly_deaths_per_million	Confirmed deaths	Weekly	true
-	grapher/covid/latest/cases_deaths/cases_deaths#biweekly_deaths	Confirmed deaths	Biweekly	false
-	grapher/covid/latest/cases_deaths/cases_deaths#biweekly_deaths_per_million	Confirmed deaths	Biweekly	true
-	grapher/covid/latest/cases_deaths/cases_deaths#new_cases_7_day_avg_right	Confirmed cases	7-day rolling average	false
-	grapher/covid/latest/cases_deaths/cases_deaths#new_cases_per_million_7_day_avg_right	Confirmed cases	7-day rolling average	true
-	grapher/covid/latest/cases_deaths/cases_deaths#new_cases	Confirmed cases	New per day	false
-	grapher/covid/latest/cases_deaths/cases_deaths#new_cases_per_million	Confirmed cases	New per day	true
-	grapher/covid/latest/cases_deaths/cases_deaths#weekly_cases	Confirmed cases	Weekly	false
-	grapher/covid/latest/cases_deaths/cases_deaths#weekly_cases_per_million	Confirmed cases	Weekly	true
-	grapher/covid/latest/cases_deaths/cases_deaths#biweekly_cases	Confirmed cases	Biweeekly	false
-	grapher/covid/latest/cases_deaths/cases_deaths#biweekly_cases_per_million	Confirmed cases	Biweeekly	true
-	grapher/covid/latest/cases_deaths/cases_deaths#total_cases	Confirmed cases	Cumulative	false
-	grapher/covid/latest/cases_deaths/cases_deaths#total_cases_per_million	Confirmed cases	Cumulative	true
-	grapher/covid/latest/cases_deaths/cases_deaths#new_cases_per_million_7_day_avg_right grapher/covid/latest/cases_deaths/cases_deaths#new_deaths_per_million_7_day_avg_right	Cases and deaths	7-day rolling average	true
-
+	title	yVariableIds	Metric Dropdown	Interval Dropdown	Relative to population Checkbox
+		grapher/covid/latest/cases_deaths/cases_deaths#new_deaths_per_million_7_day_avg_right	Confirmed deaths	7-day rolling average	true
+		grapher/covid/latest/cases_deaths/cases_deaths#total_deaths_per_million	Confirmed deaths	Cumulative	true
+		grapher/covid/latest/cases_deaths/cases_deaths#total_deaths	Confirmed deaths	Cumulative	false
+		grapher/covid/latest/cases_deaths/cases_deaths#new_deaths_7_day_avg_right	Confirmed deaths	7-day rolling average	false
+		grapher/covid/latest/cases_deaths/cases_deaths#new_deaths	Confirmed deaths	New per day	false
+		grapher/covid/latest/cases_deaths/cases_deaths#new_deaths_per_million	Confirmed deaths	New per day	true
+		grapher/covid/latest/cases_deaths/cases_deaths#weekly_deaths	Confirmed deaths	Weekly	false
+		grapher/covid/latest/cases_deaths/cases_deaths#weekly_deaths_per_million	Confirmed deaths	Weekly	true
+		grapher/covid/latest/cases_deaths/cases_deaths#biweekly_deaths	Confirmed deaths	Biweekly	false
+		grapher/covid/latest/cases_deaths/cases_deaths#biweekly_deaths_per_million	Confirmed deaths	Biweekly	true
+		grapher/covid/latest/cases_deaths/cases_deaths#new_cases_7_day_avg_right	Confirmed cases	7-day rolling average	false
+		grapher/covid/latest/cases_deaths/cases_deaths#new_cases_per_million_7_day_avg_right	Confirmed cases	7-day rolling average	true
+		grapher/covid/latest/cases_deaths/cases_deaths#new_cases	Confirmed cases	New per day	false
+		grapher/covid/latest/cases_deaths/cases_deaths#new_cases_per_million	Confirmed cases	New per day	true
+		grapher/covid/latest/cases_deaths/cases_deaths#weekly_cases	Confirmed cases	Weekly	false
+		grapher/covid/latest/cases_deaths/cases_deaths#weekly_cases_per_million	Confirmed cases	Weekly	true
+		grapher/covid/latest/cases_deaths/cases_deaths#biweekly_cases	Confirmed cases	Biweeekly	false
+		grapher/covid/latest/cases_deaths/cases_deaths#biweekly_cases_per_million	Confirmed cases	Biweeekly	true
+		grapher/covid/latest/cases_deaths/cases_deaths#total_cases	Confirmed cases	Cumulative	false
+		grapher/covid/latest/cases_deaths/cases_deaths#total_cases_per_million	Confirmed cases	Cumulative	true
+	test	grapher/covid/latest/cases_deaths/cases_deaths#new_cases_per_million_7_day_avg_right grapher/covid/latest/cases_deaths/cases_deaths#new_deaths_per_million_7_day_avg_right	Cases and deaths	7-day rolling average	true
