@@ -52,8 +52,8 @@ graphers
 	grapher/covid/latest/hospital/hospital#weekly_admissions_hosp_per_1m	Hospital admissions	Weekly	true			true										true
 	grapher/covid/latest/hospital/hospital#daily_occupancy_icu	ICU patients	Daily	false			true										true
 	grapher/covid/latest/hospital/hospital#daily_occupancy_icu_per_1m	ICU patients	Daily	true			true										true
-	grapher/covid/latest/hospital/hospital#weekly_admissions_icu	ICU patients	Weekly	false			true										true
-	grapher/covid/latest/hospital/hospital#weekly_admissions_icu_per_1m	ICU patients	Weekly	true			true										true
+	grapher/covid/latest/hospital/hospital#weekly_admissions_icu	ICU admissions	Weekly	false			true										true
+	grapher/covid/latest/hospital/hospital#weekly_admissions_icu_per_1m	ICU admissions	Weekly	true			true										true
 	grapher/covid/latest/cases_deaths/cases_deaths#new_cases_per_million_7_day_avg_right grapher/covid/latest/hospital/hospital#weekly_admissions_hosp_per_1m grapher/covid/latest/hospital/hospital#daily_occupancy_icu_per_1m grapher/covid/latest/cases_deaths/cases_deaths#new_deaths_per_million_7_day_avg_right	Cases, hospital admissions, ICU patients, and deaths	7-day rolling average	true	Confirmed COVID-19 cases, deaths, hospital admissions, and patients in ICU per million people	Limited testing and challenges in the attribution of cause of death means the cases and deaths counts may not be accurate.	false	metric	independent								true
 	grapher/covid/latest/cases_deaths/cases_deaths#cfr	Case fatality rate	Cumulative	false			true				Since 8 March, we rely on data from the WHO for confirmed cases and deaths	https://ourworldindata.org/covid-jhu-who					true
 	grapher/covid/latest/vaccinations_global/vaccinations_global#total_vaccinations	Vaccine doses	Cumulative	false			true										true
