@@ -46,8 +46,8 @@ graphers
 	grapher/covid/latest/cases_deaths/cases_deaths#total_cases	Confirmed cases	Cumulative	false			true				Since 8 March, we rely on data from the WHO for confirmed cases and deaths	https://ourworldindata.org/covid-jhu-who					true
 	grapher/covid/latest/cases_deaths/cases_deaths#total_cases_per_million	Confirmed cases	Cumulative	true			true				Since 8 March, we rely on data from the WHO for confirmed cases and deaths	https://ourworldindata.org/covid-jhu-who					true
 	grapher/covid/latest/cases_deaths/cases_deaths#new_cases_per_million_7_day_avg_right grapher/covid/latest/cases_deaths/cases_deaths#new_deaths_per_million_7_day_avg_right	Cases and deaths	7-day rolling average	true	Daily new confirmed COVID-19 cases & deaths per million people	7-day rolling average. Limited testing and challenges in the attribution of cause of death means the cases and deaths counts may not be accurate.	false	metric	independent		Since 8 March, we rely on data from the WHO for confirmed cases and deaths	https://ourworldindata.org/covid-jhu-who					true
-	grapher/covid/latest/hospital/hospital#daily_occupancy_hosp	Hospital patients	Daily	false			true										true
-	grapher/covid/latest/hospital/hospital#daily_occupancy_hosp_per_1m	Hospital patients	Daily	true			true										true
+	grapher/covid/latest/hospital/hospital#daily_occupancy_hosp	Hospital patients	Daily	false		 	true										true
+	grapher/covid/latest/hospital/hospital#daily_occupancy_hosp_per_1m	Hospital patients	Daily	true		 	true										true
 	grapher/covid/latest/hospital/hospital#weekly_admissions_hosp	Hospital admissions	Weekly	false			true										true
 	grapher/covid/latest/hospital/hospital#weekly_admissions_hosp_per_1m	Hospital admissions	Weekly	true			true										true
 	grapher/covid/latest/hospital/hospital#daily_occupancy_icu	ICU patients	Daily	false			true										true
