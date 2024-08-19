@@ -50,7 +50,7 @@ graphers
 	grapher/covid/latest/hospital/hospital#daily_occupancy_hosp_per_1m	Hospital patients	Daily	true		 	true										true
 	grapher/covid/latest/hospital/hospital#weekly_admissions_hosp	Hospital admissions	Weekly	false			true										true
 	grapher/covid/latest/hospital/hospital#weekly_admissions_hosp_per_1m	Hospital admissions	Weekly	true			true										true
-	grapher/covid/latest/hospital/hospital#daily_occupancy_icu	ICU patients	Daily	false		 	true										true
+	grapher/covid/latest/hospital/hospital#daily_occupancy_icu	ICU patients	Daily	false		 .	true										true
 	grapher/covid/latest/hospital/hospital#daily_occupancy_icu_per_1m	ICU patients	Daily	true		 	true										true
 	grapher/covid/latest/hospital/hospital#weekly_admissions_icu	ICU admissions	Weekly	false			true										true
 	grapher/covid/latest/hospital/hospital#weekly_admissions_icu_per_1m	ICU admissions	Weekly	true			true										true
