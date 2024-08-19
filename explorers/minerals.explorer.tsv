@@ -33,7 +33,6 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_bauxite_mine_tonnes	Bauxite	Reserves	Mine	false	2023	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_bauxite_mine_tonnes	Bauxite	Reserves	Mine	true	2023	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_bauxite_mine_constant_1998_usd_per_tonne	Bauxite	Unit value	Mine	false	1900	false	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_beryl_mine_tonnes	Beryl	Production	Mine	false	1970	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_beryllium_mine_tonnes	Beryllium	Production	Mine	false	1935	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_beryllium_mine_tonnes	Beryllium	Production	Mine	true	1935	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_beryllium_mine_constant_1998_usd_per_tonne	Beryllium	Unit value	Mine	false	1935	false	0	false
@@ -47,7 +46,6 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_boron_mine_constant_1998_usd_per_tonne	Boron	Unit value	Mine	false	1900	false	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_bromine_processing_tonnes	Bromine	Production	Processing	false	2023	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_bromine_processing_tonnes	Bromine	Production	Processing	true	2023	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_bromine_unspecified_tonnes	Bromine	Production	Unspecified	false	1974	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_bromine_processing_tonnes	Bromine	Reserves	Processing	false	2023	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_cadmium_refinery_tonnes	Cadmium	Production	Refinery	false	1900	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_cadmium_refinery_tonnes	Cadmium	Production	Refinery	true	1900	true	0	false
