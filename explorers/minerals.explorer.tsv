@@ -262,13 +262,13 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_phosphate_rock_mine_tonnes	Phosphate rock	Reserves	Mine	false	2023	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_phosphate_rock_mine_tonnes	Phosphate rock	Reserves	Mine	true	2023	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_phosphate_rock_mine_constant_1998_usd_per_tonne	Phosphate rock	Unit value	Mine	false	1900	false	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_platinum_group_metals_mine__iridium_tonnes	Platinum group metals	Production	Mine, iridium	false	2022	true	0	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_platinum_group_metals_mine__iridium_tonnes	Platinum group metals	Production	Mine, iridium	false	1970	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_platinum_group_metals_mine__other_tonnes	Platinum group metals	Production	Mine, other	false	1970	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_platinum_group_metals_mine__palladium_tonnes	Platinum group metals	Production	Mine, palladium	false	1970	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_platinum_group_metals_mine__palladium_tonnes	Platinum group metals	Production	Mine, palladium	true	2023	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_platinum_group_metals_mine__platinum_tonnes	Platinum group metals	Production	Mine, platinum	false	1970	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_platinum_group_metals_mine__platinum_tonnes	Platinum group metals	Production	Mine, platinum	true	2023	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_platinum_group_metals_mine__rhodium_tonnes	Platinum group metals	Production	Mine, rhodium	false	2022	true	0	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_platinum_group_metals_mine__rhodium_tonnes	Platinum group metals	Production	Mine, rhodium	false	1970	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_platinum_group_metals_mine__ruthenium_tonnes	Platinum group metals	Production	Mine, ruthenium	false	2022	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_platinum_group_metals_mine__platinum_tonnes	Platinum group metals	Reserves	Mine, platinum	false	2023	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_platinum_group_metals_mine__platinum_tonnes	Platinum group metals	Reserves	Mine, platinum	true	2023	true	0	false
