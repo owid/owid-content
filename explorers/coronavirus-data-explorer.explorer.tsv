@@ -1,6 +1,6 @@
 explorerTitle	COVID-19
 explorerSubtitle	Explore global data on COVID-19.
-isPublished	true
+isPublished	false
 googleSheet	https://docs.google.com/spreadsheets/d/1qeXBgckrktxwrJp2V9NCG9CeDEufAC-nzYYjj6o1vlU/edit?usp=sharing
 selection	United States	Brazil	Japan	Germany
 downloadDataLink	https://github.com/owid/covid-19-data/tree/master/public/data
