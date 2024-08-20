@@ -1,5 +1,5 @@
 explorerTitle	Mpox
-explorerSubtitle	Explore the data produced by the World Health Organization on mpox (monkeypox).
+explorerSubtitle	Explore the data produced by the World Health Organization and Africa CDC on mpox (monkeypox).
 selection	Democratic Republic of Congo	Congo	Central African Republic	Burundi
 isPublished	false
 thumbnail	https://assets.ourworldindata.org/uploads/2022/05/Monkeypox-Data-Explorer.png
@@ -11,18 +11,18 @@ downloadDataLink	https://catalog.ourworldindata.org/explorers/who/latest/monkeyp
 graphers
 	title	subtitle	ySlugs	hideAnnotationFieldsInTitle	Metric Radio	Frequency Radio	Relative to population Checkbox	type	yScaleToggle	selectedFacetStrategy	hasMapTab	minTime	facetYDomain
 	Mpox: Cumulative confirmed and suspected cases		total_cases suspected_cases_cumulative	true	Confirmed and suspected cases	Cumulative	false	LineChart	true	entity	false	1433	independent
-	Mpox: Daily confirmed cases	7-day rolling average	new_cases_smoothed	true	Confirmed cases	7-day average	false	LineChart	true
-	Mpox: Cumulative confirmed cases		total_cases	true	Confirmed cases	Cumulative	false	LineChart	true
-	Mpox: Daily confirmed cases		new_cases	true	Confirmed cases	Daily	false	StackedBar	true
-	Mpox: Cumulative confirmed cases per million people		total_cases_per_million	true	Confirmed cases	Cumulative	true	LineChart	true
-	Mpox: Daily confirmed cases per million people	7-day rolling average	new_cases_smoothed_per_million	true	Confirmed cases	7-day average	true	LineChart	true
-	Mpox: Daily confirmed cases per million people		new_cases_per_million	true	Confirmed cases	Daily	true	StackedBar	true
-	Mpox: Daily confirmed deaths	7-day rolling average	new_deaths_smoothed	true	Confirmed deaths	7-day average	false	LineChart	true
-	Mpox: Cumulative confirmed deaths		total_deaths	true	Confirmed deaths	Cumulative	false	LineChart	true
-	Mpox: Daily confirmed deaths		new_deaths	true	Confirmed deaths	Daily	false	StackedBar	true
-	Mpox: Cumulative confirmed deaths per million people		total_deaths_per_million	true	Confirmed deaths	Cumulative	true	LineChart	true
-	Mpox: Daily confirmed deaths per million people	7-day rolling average	new_deaths_smoothed_per_million	true	Confirmed deaths	7-day average	true	LineChart	true
-	Mpox: Daily confirmed deaths per million people		new_deaths_per_million	true	Confirmed deaths	Daily	true	StackedBar	true
+	Mpox: Daily confirmed cases	7-day rolling average. Testing for mpox is limited in many countries and figures shown here only include laboratory-confirmed cases.	new_cases_smoothed	true	Confirmed cases	7-day average	false	LineChart	true
+	Mpox: Cumulative confirmed cases	Testing for mpox is limited in many countries and figures shown here only include laboratory-confirmed cases.	total_cases	true	Confirmed cases	Cumulative	false	LineChart	true
+	Mpox: Daily confirmed cases	Testing for mpox is limited in many countries and figures shown here only include laboratory-confirmed cases.	new_cases	true	Confirmed cases	Daily	false	StackedBar	true
+	Mpox: Cumulative confirmed cases per million people	Testing for mpox is limited in many countries and figures shown here only include laboratory-confirmed cases.	total_cases_per_million	true	Confirmed cases	Cumulative	true	LineChart	true
+	Mpox: Daily confirmed cases per million people	7-day rolling average. Testing for mpox is limited in many countries and figures shown here only include laboratory-confirmed cases.	new_cases_smoothed_per_million	true	Confirmed cases	7-day average	true	LineChart	true
+	Mpox: Daily confirmed cases per million people	Testing for mpox is limited in many countries and figures shown here only include laboratory-confirmed cases.	new_cases_per_million	true	Confirmed cases	Daily	true	StackedBar	true
+	Mpox: Daily confirmed deaths	7-day rolling average. Testing for mpox is limited in many countries and figures shown here only include deaths where mpox has been laboratory-confirmed.	new_deaths_smoothed	true	Confirmed deaths	7-day average	false	LineChart	true
+	Mpox: Cumulative confirmed deaths	Testing for mpox is limited in many countries and figures shown here only include deaths where mpox has been laboratory-confirmed.	total_deaths	true	Confirmed deaths	Cumulative	false	LineChart	true
+	Mpox: Daily confirmed deaths	Testing for mpox is limited in many countries and figures shown here only include deaths where mpox has been laboratory-confirmed.	new_deaths	true	Confirmed deaths	Daily	false	StackedBar	true
+	Mpox: Cumulative confirmed deaths per million people	Testing for mpox is limited in many countries and figures shown here only include deaths where mpox has been laboratory-confirmed.	total_deaths_per_million	true	Confirmed deaths	Cumulative	true	LineChart	true
+	Mpox: Daily confirmed deaths per million people	7-day rolling average. Testing for mpox is limited in many countries and figures shown here only include deaths where mpox has been laboratory-confirmed.	new_deaths_smoothed_per_million	true	Confirmed deaths	7-day average	true	LineChart	true
+	Mpox: Daily confirmed deaths per million people	Testing for mpox is limited in many countries and figures shown here only include deaths where mpox has been laboratory-confirmed.	new_deaths_per_million	true	Confirmed deaths	Daily	true	StackedBar	true
 
 table	https://catalog.ourworldindata.org/explorers/who/latest/monkeypox/monkeypox.csv
 columns
