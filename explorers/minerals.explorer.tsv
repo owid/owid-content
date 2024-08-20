@@ -55,23 +55,6 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_chromium_mine_tonnes	Chromium	Production	Mine	false	1900	false	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_chromium_mine_tonnes	Chromium	Production	Mine	true	1900	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_chromium_mine_constant_1998_usd_per_tonne	Chromium	Unit value	Mine	false	1900	false	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_clays_mine__attapulgite_tonnes	Clays	Production	Mine, attapulgite	false	1974	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_clays_mine__ball_clay_tonnes	Clays	Production	Mine, ball clay	false	1900	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_clays_mine__bentonite_tonnes	Clays	Production	Mine, bentonite	false	1930	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_clays_mine__bentonite_tonnes	Clays	Production	Mine, bentonite	true	2023	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_clays_mine__fire_clay_tonnes	Clays	Production	Mine, fire clay	false	1900	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_clays_mine__fullers_earth_tonnes	Clays	Production	Mine, fuller's earth	false	1900	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_clays_mine__fullers_earth_tonnes	Clays	Production	Mine, fuller's earth	true	2023	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_clays_mine__kaolin_tonnes	Clays	Production	Mine, kaolin	false	1900	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_clays_mine__kaolin_tonnes	Clays	Production	Mine, kaolin	true	2023	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_clays_mine__miscellaneous_tonnes	Clays	Production	Mine, miscellaneous	false	1900	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_clays_mine__sepiolite_tonnes	Clays	Production	Mine, sepiolite	false	1978	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_clays_mine__ball_clay_constant_1998_usd_per_tonne	Clays	Unit value	Mine, ball clay	false	1900	false	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_clays_mine__bentonite_constant_1998_usd_per_tonne	Clays	Unit value	Mine, bentonite	false	1930	false	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_clays_mine__fire_clay_constant_1998_usd_per_tonne	Clays	Unit value	Mine, fire clay	false	1900	false	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_clays_mine__fullers_earth_constant_1998_usd_per_tonne	Clays	Unit value	Mine, fuller's earth	false	1900	false	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_clays_mine__kaolin_constant_1998_usd_per_tonne	Clays	Unit value	Mine, kaolin	false	1900	false	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_clays_mine__miscellaneous_constant_1998_usd_per_tonne	Clays	Unit value	Mine, miscellaneous	false	1900	false	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_coal_mine_tonnes	Coal	Production	Mine	false	1970	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_coal_mine_tonnes	Coal	Production	Mine	true	1970	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_cobalt_mine_tonnes	Cobalt	Production	Mine	false	1901	true	0	false
