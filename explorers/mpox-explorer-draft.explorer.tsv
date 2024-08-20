@@ -10,7 +10,7 @@ pickerColumnSlugs	location total_confirmed_by_confirmation total_confirmed_by_co
 downloadDataLink	https://catalog.ourworldindata.org/explorers/who/latest/monkeypox/monkeypox.csv
 graphers
 	title	subtitle	ySlugs	hideAnnotationFieldsInTitle	Metric Radio	Frequency Radio	Relative to population Checkbox	type	yScaleToggle	selectedFacetStrategy	hasMapTab	minTime	facetYDomain
-	Mpox: Cumulative and confirmed and suspected cases		total_cases suspected_cases_cumulative	true	Suspected and confirmed cases	Cumulative	false	LineChart	true	entity	false	1433	independent
+	Mpox: Cumulative confirmed and suspected cases		total_cases suspected_cases_cumulative	true	Suspected and confirmed cases	Cumulative	false	LineChart	true	entity	false	1433	independent
 	Mpox: Daily confirmed cases	7-day rolling average	new_cases_smoothed	true	Confirmed cases	7-day average	false	LineChart	true
 	Mpox: Cumulative confirmed cases		total_cases	true	Confirmed cases	Cumulative	false	LineChart	true
 	Mpox: Daily confirmed cases		new_cases	true	Confirmed cases	Daily	false	StackedBar	true
