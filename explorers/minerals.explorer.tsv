@@ -101,8 +101,6 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_copper_mine_tonnes	Copper	Reserves	Mine	false	2023	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_copper_mine_tonnes	Copper	Reserves	Mine	true	2023	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_copper_mine_constant_1998_usd_per_tonne	Copper	Unit value	Mine	false	1900	false	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_crushed_stone_mine_tonnes	Crushed stone	Production	Mine	false	1900	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_crushed_stone_mine_constant_1998_usd_per_tonne	Crushed stone	Unit value	Mine	false	1900	false	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_diamond_mine_and_synthetic__industrial_tonnes	Diamond	Production	Mine and synthetic, industrial	false	1938	false	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_diamond_mine_and_synthetic__industrial_tonnes	Diamond	Production	Mine and synthetic, industrial	true	1938	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_diamond_mine__industrial_tonnes	Diamond	Production	Mine, industrial	false	2023	true	0	false
@@ -114,8 +112,6 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_diatomite_mine_tonnes	Diatomite	Production	Mine	true	1919	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_diatomite_mine_tonnes	Diatomite	Reserves	Mine	false	2023	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_diatomite_mine_constant_1998_usd_per_tonne	Diatomite	Unit value	Mine	false	1900	false	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_dimension_stone_mine_tonnes	Dimension stone	Production	Mine	false	1900	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_dimension_stone_mine_constant_1998_usd_per_tonne	Dimension stone	Unit value	Mine	false	1900	false	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_feldspar_mine_tonnes	Feldspar	Production	Mine	false	1900	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_feldspar_mine_tonnes	Feldspar	Production	Mine	true	1908	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_feldspar_mine_tonnes	Feldspar	Reserves	Mine	false	2023	true	0	false
@@ -303,7 +299,6 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_silicon_processing_tonnes	Silicon	Production	Processing	false	1954	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_silicon_processing_tonnes	Silicon	Production	Processing	true	1964	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_silicon_processing_constant_1998_usd_per_tonne	Silicon	Unit value	Processing	false	1923	false	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_sillimanite_mine_tonnes	Sillimanite	Production	Mine	false	1970	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_silver_mine_tonnes	Silver	Production	Mine	false	1900	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_silver_mine_tonnes	Silver	Production	Mine	true	1900	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_silver_mine_tonnes	Silver	Reserves	Mine	false	2023	true	0	false
