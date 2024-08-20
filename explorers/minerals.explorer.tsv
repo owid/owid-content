@@ -180,11 +180,6 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_iron_ore_mine__iron_content_tonnes	Iron ore	Reserves	Mine, iron content	false	2023	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_iron_ore_mine__iron_content_tonnes	Iron ore	Reserves	Mine, iron content	true	2023	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_iron_ore_mine__crude_ore_constant_1998_usd_per_tonne	Iron ore	Unit value	Mine, crude ore	false	1900	false	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_kyanite_mine_tonnes	Kyanite	Production	Mine	false	1970	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_kyanite_mine__kyanite_and_related_minerals_tonnes	Kyanite	Production	Mine, kyanite and related minerals	false	2023	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_kyanite_mine__kyanite_and_sillimanite_tonnes	Kyanite	Production	Mine, kyanite and sillimanite	false	2022	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#reserves_kyanite_mine__kyanite_and_related_minerals_tonnes	Kyanite	Reserves	Mine, kyanite and related minerals	false	2023	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#reserves_kyanite_mine__kyanite_and_sillimanite_tonnes	Kyanite	Reserves	Mine, kyanite and sillimanite	false	2022	false	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_lead_mine_tonnes	Lead	Production	Mine	false	1900	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_lead_mine_tonnes	Lead	Production	Mine	true	1900	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_lead_refinery_tonnes	Lead	Production	Refinery	false	1970	true	0	false
@@ -229,7 +224,6 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_molybdenum_mine_tonnes	Molybdenum	Reserves	Mine	false	2023	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_molybdenum_mine_tonnes	Molybdenum	Reserves	Mine	true	2023	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_molybdenum_mine_constant_1998_usd_per_tonne	Molybdenum	Unit value	Mine	false	1912	false	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_nepheline_syenite_mine_tonnes	Nepheline syenite	Production	Mine	false	1970	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_nickel_mine_tonnes	Nickel	Production	Mine	false	1900	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_nickel_mine_tonnes	Nickel	Production	Mine	true	1900	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_nickel_processing_tonnes	Nickel	Production	Processing	false	1977	true	0	false
