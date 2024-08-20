@@ -72,17 +72,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_clays_mine__fullers_earth_constant_1998_usd_per_tonne	Clays	Unit value	Mine, fuller's earth	false	1900	false	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_clays_mine__kaolin_constant_1998_usd_per_tonne	Clays	Unit value	Mine, kaolin	false	1900	false	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_clays_mine__miscellaneous_constant_1998_usd_per_tonne	Clays	Unit value	Mine, miscellaneous	false	1900	false	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_coal_mine__anthracite_tonnes	Coal	Production	Mine, anthracite	false	1970	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_coal_mine__anthracite__and__bituminous_tonnes	Coal	Production	Mine, anthracite & bituminous	false	1970	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_coal_mine__bituminous_tonnes	Coal	Production	Mine, bituminous	false	1970	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_coal_mine__bituminous__and__lignite_tonnes	Coal	Production	Mine, bituminous & lignite	false	1970	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_coal_mine__brown_coal_tonnes	Coal	Production	Mine, brown coal	false	1970	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_coal_mine__brown_coal__and__lignite_tonnes	Coal	Production	Mine, brown coal & lignite	false	1970	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_coal_mine__coal_tonnes	Coal	Production	Mine, coal	false	1970	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_coal_mine__coking_coal_tonnes	Coal	Production	Mine, coking coal	false	2000	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_coal_mine__lignite_tonnes	Coal	Production	Mine, lignite	false	1970	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_coal_mine__other_bituminous_coal_tonnes	Coal	Production	Mine, other bituminous coal	false	2000	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_coal_mine__sub_bituminous_tonnes	Coal	Production	Mine, sub-bituminous	false	1970	true	0	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_coal_mine_tonnes	Coal	Production	Mine	false	1970	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_cobalt_mine_tonnes	Cobalt	Production	Mine	false	1901	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_cobalt_mine_tonnes	Cobalt	Production	Mine	true	1901	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_cobalt_refinery_tonnes	Cobalt	Production	Refinery	false	1968	true	0	false
