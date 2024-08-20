@@ -73,6 +73,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_clays_mine__kaolin_constant_1998_usd_per_tonne	Clays	Unit value	Mine, kaolin	false	1900	false	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_clays_mine__miscellaneous_constant_1998_usd_per_tonne	Clays	Unit value	Mine, miscellaneous	false	1900	false	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_coal_mine_tonnes	Coal	Production	Mine	false	1970	true	0	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_coal_mine_tonnes	Coal	Production	Mine	true	1970	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_cobalt_mine_tonnes	Cobalt	Production	Mine	false	1901	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_cobalt_mine_tonnes	Cobalt	Production	Mine	true	1901	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_cobalt_refinery_tonnes	Cobalt	Production	Refinery	false	1968	true	0	false
@@ -231,6 +232,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_perlite_mine_tonnes	Perlite	Reserves	Mine	false	2023	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_perlite_mine_constant_1998_usd_per_tonne	Perlite	Unit value	Mine	false	1946	false	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_petroleum_crude_tonnes	Petroleum	Production	Crude	false	1970	true	0	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_petroleum_crude_tonnes	Petroleum	Production	Crude	true	1970	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_phosphate_rock_guano_tonnes	Phosphate rock	Production	Guano	false	1970	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_phosphate_rock_mine_tonnes	Phosphate rock	Production	Mine	false	1900	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_phosphate_rock_mine_tonnes	Phosphate rock	Production	Mine	true	1900	true	0	false
