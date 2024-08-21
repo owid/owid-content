@@ -302,13 +302,6 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_tantalum_mine_tonnes	Tantalum	Production	Mine	true	1969	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_tantalum_mine_tonnes	Tantalum	Reserves	Mine	false	2023	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_tantalum_mine_constant_1998_usd_per_tonne	Tantalum	Unit value	Mine	false	1964	false	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_tellurium_mine_tonnes	Tellurium	Production	Mine	false	2021	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_tellurium_mine_tonnes	Tellurium	Production	Mine	true	2021	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_tellurium_refinery_tonnes	Tellurium	Production	Refinery	false	1926	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_tellurium_refinery_tonnes	Tellurium	Production	Refinery	true	1931	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#reserves_tellurium_refinery_tonnes	Tellurium	Reserves	Refinery	false	2023	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_tellurium_refinery_tonnes	Tellurium	Reserves	Refinery	true	2023	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_tellurium_refinery_constant_1998_usd_per_tonne	Tellurium	Unit value	Refinery	false	1917	false	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_tin_mine_tonnes	Tin	Production	Mine	false	1905	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_tin_mine_tonnes	Tin	Production	Mine	true	1905	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_tin_smelter_tonnes	Tin	Production	Smelter	false	1970	true	0	false
