@@ -334,9 +334,6 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_vanadium_mine_tonnes	Vanadium	Reserves	Mine	false	2023	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_vanadium_mine_tonnes	Vanadium	Reserves	Mine	true	2023	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_vanadium_mine_constant_1998_usd_per_tonne	Vanadium	Unit value	Mine	false	1910	false	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_vermiculite_mine_tonnes	Vermiculite	Production	Mine	false	1970	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_vermiculite_mine_tonnes	Vermiculite	Production	Mine	true	2023	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#reserves_vermiculite_mine_tonnes	Vermiculite	Reserves	Mine	false	2022	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_wollastonite_mine_tonnes	Wollastonite	Production	Mine	false	1970	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_wollastonite_mine_tonnes	Wollastonite	Production	Mine	true	2023	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_zeolites_mine_tonnes	Zeolites	Production	Mine	false	2023	true	0	false
