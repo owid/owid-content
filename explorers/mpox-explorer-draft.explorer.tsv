@@ -7,7 +7,7 @@ hideAlertBanner	true
 yAxisMin	0
 hasMapTab	true
 pickerColumnSlugs	location total_confirmed_by_confirmation total_confirmed_by_confirmation_per_million
-downloadDataLink	https://catalog.ourworldindata.org/explorers/who/latest/monkeypox/monkeypox.csv
+downloadDataLink	x
 graphers
 	title	subtitle	ySlugs	hideAnnotationFieldsInTitle	Metric Radio	Frequency Radio	Relative to population Checkbox	type	yScaleToggle	selectedFacetStrategy	hasMapTab	minTime	facetYDomain
 	Mpox: Cumulative confirmed and suspected cases	Confirmed cases are those that have been verified through laboratory testing. Suspected cases are those where mpox is likely based on an individual’s initial clinical signs and symptoms, but the diagnosis has not yet been confirmed through laboratory testing.	total_cases suspected_cases_cumulative	true	Confirmed and suspected cases	Cumulative	false	LineChart	true	entity	false	1433	independent
