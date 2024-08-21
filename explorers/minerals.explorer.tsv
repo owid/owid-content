@@ -205,11 +205,6 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_nitrogen_fixed_ammonia_tonnes	Nitrogen	Production	Fixed ammonia	false	1943	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_nitrogen_fixed_ammonia_tonnes	Nitrogen	Production	Fixed ammonia	true	1946	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_nitrogen_fixed_ammonia_constant_1998_usd_per_tonne	Nitrogen	Unit value	Fixed ammonia	false	1950	false	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_peat_mine_tonnes	Peat	Production	Mine	false	1904	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_peat_mine_tonnes	Peat	Production	Mine	true	1935	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#reserves_peat_mine_tonnes	Peat	Reserves	Mine	false	2023	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_peat_mine_tonnes	Peat	Reserves	Mine	true	2023	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_peat_mine_constant_1998_usd_per_tonne	Peat	Unit value	Mine	false	1904	false	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_perlite_mine_tonnes	Perlite	Production	Mine	false	1946	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_perlite_mine_tonnes	Perlite	Production	Mine	true	1976	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_perlite_mine_tonnes	Perlite	Reserves	Mine	false	2023	true	0	false
