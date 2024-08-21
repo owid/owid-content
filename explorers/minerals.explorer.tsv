@@ -180,6 +180,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_nickel_mine_tonnes	Nickel	Production	Mine	false	1900	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_nickel_mine_tonnes	Nickel	Production	Mine	true	1900	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_nickel_processing_tonnes	Nickel	Production	Processing	false	1977	true	0	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_nickel_processing_tonnes	Nickel	Production	Processing	true	1977	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_nickel_mine_tonnes	Nickel	Reserves	Mine	false	2023	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_nickel_mine_tonnes	Nickel	Reserves	Mine	true	2023	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_nickel_mine_constant_1998_usd_per_tonne	Nickel	Unit value	Mine	false	1900	false	0	false
