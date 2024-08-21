@@ -223,14 +223,8 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_rare_earths_mine__ores__and__concentrates_tonnes	Rare earths	Production	Mine, ores & concentrates	false	1982	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_rare_earths_mine_tonnes	Rare earths	Reserves	Mine	false	2023	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_rare_earths_mine_tonnes	Rare earths	Reserves	Mine	true	2023	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_salt_brine_salt_tonnes	Salt	Production	Brine salt	false	1970	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_salt_evaporated_salt_tonnes	Salt	Production	Evaporated salt	false	1970	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_salt_mine_tonnes	Salt	Production	Mine	false	1900	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_salt_mine_tonnes	Salt	Production	Mine	true	1900	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_salt_other_salt_tonnes	Salt	Production	Other salt	false	1970	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_salt_rock_salt_tonnes	Salt	Production	Rock salt	false	1970	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_salt_salt_in_brine_tonnes	Salt	Production	Salt in brine	false	1970	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_salt_sea_salt_tonnes	Salt	Production	Sea salt	false	1970	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_salt_mine_constant_1998_usd_per_tonne	Salt	Unit value	Mine	false	1900	false	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_sand_and_gravel_mine__construction_tonnes	Sand and gravel	Production	Mine, construction	false	1902	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_sand_and_gravel_mine__construction_tonnes	Sand and gravel	Production	Mine, construction	true	1968	true	0	false
