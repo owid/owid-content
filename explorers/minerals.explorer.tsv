@@ -220,7 +220,6 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_potash_mine_tonnes	Potash	Reserves	Mine	false	2023	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_rare_earths_mine_tonnes	Rare earths	Production	Mine	false	2023	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_rare_earths_mine_tonnes	Rare earths	Production	Mine	true	2023	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_rare_earths_mine__ores__and__concentrates_tonnes	Rare earths	Production	Mine, ores & concentrates	false	1982	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_rare_earths_mine_tonnes	Rare earths	Reserves	Mine	false	2023	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_rare_earths_mine_tonnes	Rare earths	Reserves	Mine	true	2023	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_salt_mine_tonnes	Salt	Production	Mine	false	1900	true	0	false
