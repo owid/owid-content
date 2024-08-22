@@ -46,7 +46,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_cement_processing_tonnes	Cement	Production	Processing	false	1900	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_cement_processing_tonnes	Cement	Production	Processing	true	1926	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_cement_processing_constant_1998_usd_per_tonne	Cement	Unit value	Processing	false	1900	false	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_chromium_mine_tonnes	Chromium	Production	Mine	false	1970	false	0	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_chromium_mine_tonnes	Chromium	Production	Mine	false	1970	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_chromium_mine_tonnes	Chromium	Production	Mine	true	2023	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_chromium_mine_tonnes	Chromium	Reserves	Mine	false	2023	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_chromium_mine_tonnes	Chromium	Reserves	Mine	true	2023	true	0	false
@@ -697,4 +697,9 @@ columns
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_zinc_mine_tonnes	5000000.0;10000000.0;20000000.0;4100000	BuGn
 	grapher/minerals/2024-07-15/minerals/minerals#production_zirconium_and_hafnium_mine_tonnes	50000.0;100000.0;200000.0;30000	BuGn
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_zirconium_and_hafnium_mine_tonnes	50000.0;100000.0;200000.0;500000.0;1000000.0;2000000.0;5000000.0;10000000.0;18000	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_coal_mine_tonnes	10.0;20.0;30.0;40.0;50.0;0.0	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#production_chromium_mine_tonnes	10000.0;100000.0;1000000.0;10000000.0;0	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#reserves_chromium_mine_tonnes	3000000.0;10000000.0;30000000.0;100000000.0;630000	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_chromium_mine_tonnes	10.0;20.0;30.0;40.0;0.1125	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#production_coal_mine_tonnes	100000.0;1000000.0;10000000.0;100000000.0;1000000000.0;0	BuGn
 
