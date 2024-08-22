@@ -32,13 +32,13 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_beryllium_mine_tonnes	Beryllium	Production	Mine	false	1935	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_beryllium_mine_tonnes	Beryllium	Production	Mine	true	1935	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_beryllium_mine_constant_1998_usd_per_tonne	Beryllium	Unit value	Mine	false	1935	false	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_bismuth_mine_tonnes	Bismuth	Production	Mine	false	1912	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_bismuth_mine_tonnes	Bismuth	Production	Mine	true	1912	true	0	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_bismuth_mine_tonnes	Bismuth	Production	Mine	false	1912	false	0	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_bismuth_mine_tonnes	Bismuth	Production	Mine	true	1912	false	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_bismuth_refinery_tonnes	Bismuth	Production	Refinery	false	1984	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_bismuth_refinery_tonnes	Bismuth	Production	Refinery	true	1984	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_bismuth_mine_constant_1998_usd_per_tonne	Bismuth	Unit value	Mine	false	1900	false	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_boron_mine_tonnes	Boron	Production	Mine	false	1900	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_boron_mine_tonnes	Boron	Production	Mine	true	1900	true	0	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_boron_mine_tonnes	Boron	Production	Mine	false	1900	false	0	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_boron_mine_tonnes	Boron	Production	Mine	true	1900	false	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_boron_mine_constant_1998_usd_per_tonne	Boron	Unit value	Mine	false	1900	false	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_cadmium_refinery_tonnes	Cadmium	Production	Refinery	false	1900	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_cadmium_refinery_tonnes	Cadmium	Production	Refinery	true	1900	true	0	false
@@ -71,7 +71,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_copper_mine_tonnes	Copper	Reserves	Mine	true	2023	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_copper_mine_constant_1998_usd_per_tonne	Copper	Unit value	Mine	false	1900	false	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_diamond_mine_and_synthetic__industrial_tonnes	Diamond	Production	Mine and synthetic, industrial	false	1938	false	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_diamond_mine_and_synthetic__industrial_tonnes	Diamond	Production	Mine and synthetic, industrial	true	1938	true	0	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_diamond_mine_and_synthetic__industrial_tonnes	Diamond	Production	Mine and synthetic, industrial	true	1938	false	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_diamond_mine__industrial_tonnes	Diamond	Production	Mine, industrial	false	2023	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_diamond_mine__industrial_tonnes	Diamond	Production	Mine, industrial	true	2023	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_diamond_mine__industrial_tonnes	Diamond	Reserves	Mine, industrial	false	2023	true	0	false
@@ -88,8 +88,8 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_fluorspar_mine_constant_1998_usd_per_tonne	Fluorspar	Unit value	Mine	false	1900	false	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_gallium_processing_tonnes	Gallium	Production	Processing	false	2007	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_gallium_processing_tonnes	Gallium	Production	Processing	true	2023	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_gallium_refinery_tonnes	Gallium	Production	Refinery	false	1948	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_gallium_refinery_tonnes	Gallium	Production	Refinery	true	1973	true	0	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_gallium_refinery_tonnes	Gallium	Production	Refinery	false	1948	false	0	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_gallium_refinery_tonnes	Gallium	Production	Refinery	true	1973	false	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_gallium_refinery_constant_1998_usd_per_tonne	Gallium	Unit value	Refinery	false	1943	false	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_garnet_mine_tonnes	Garnet	Production	Mine	false	1900	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_garnet_mine_tonnes	Garnet	Production	Mine	true	1913	true	0	false
@@ -166,8 +166,8 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_mica_mine_tonnes	Mica	Production	Mine	false	1970	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_mica_mine__scrap_and_flake_tonnes	Mica	Production	Mine, scrap and flake	false	1906	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_mica_mine__scrap_and_flake_tonnes	Mica	Production	Mine, scrap and flake	true	1906	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_mica_mine__sheet_tonnes	Mica	Production	Mine, sheet	false	1900	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_mica_mine__sheet_tonnes	Mica	Production	Mine, sheet	true	1900	true	0	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_mica_mine__sheet_tonnes	Mica	Production	Mine, sheet	false	1900	false	0	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_mica_mine__sheet_tonnes	Mica	Production	Mine, sheet	true	1900	false	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_mica_mine__scrap_and_flake_tonnes	Mica	Reserves	Mine, scrap and flake	false	2023	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_mica_mine__sheet_tonnes	Mica	Reserves	Mine, sheet	false	2023	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_mica_mine__scrap_and_flake_constant_1998_usd_per_tonne	Mica	Unit value	Mine, scrap and flake	false	1923	false	0	false
@@ -226,8 +226,8 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_salt_mine_tonnes	Salt	Production	Mine	false	1900	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_salt_mine_tonnes	Salt	Production	Mine	true	1900	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_salt_mine_constant_1998_usd_per_tonne	Salt	Unit value	Mine	false	1900	false	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_sand_and_gravel_mine__construction_tonnes	Sand and gravel	Production	Mine, construction	false	1902	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_sand_and_gravel_mine__construction_tonnes	Sand and gravel	Production	Mine, construction	true	1968	true	0	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_sand_and_gravel_mine__construction_tonnes	Sand and gravel	Production	Mine, construction	false	1902	false	0	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_sand_and_gravel_mine__construction_tonnes	Sand and gravel	Production	Mine, construction	true	1968	false	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_sand_and_gravel_mine__industrial_tonnes	Sand and gravel	Production	Mine, industrial	false	1902	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_sand_and_gravel_mine__industrial_tonnes	Sand and gravel	Production	Mine, industrial	true	1985	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_sand_and_gravel_mine__construction_constant_1998_usd_per_tonne	Sand and gravel	Unit value	Mine, construction	false	1902	false	0	false
@@ -303,206 +303,32 @@ graphers
 
 columns
 	catalogPath	colorScaleNumericBins	colorScaleScheme
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_alumina_refinery_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_aluminum_smelter_tonnes	1.0;2.0;5.0;10.0;20.0;50.0;1.0428572	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_andalusite_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_antimony_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_arsenic_processing_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_asbestos_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_barite_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_bauxite_mine_tonnes	0.2;0.5;1.0;2.0;5.0;10.0;20.0;0.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_beryl_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_beryllium_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_bismuth_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_bismuth_refinery_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_boron_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_bromine_processing_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_bromine_unspecified_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_cadmium_refinery_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_cement_processing_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_cesium_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_chromium_mine_tonnes	1.0;2.0;5.0;10.0;20.0;0.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_clays_mine__attapulgite_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_clays_mine__ball_clay_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_clays_mine__bentonite_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_clays_mine__fire_clay_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_clays_mine__fullers_earth_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_clays_mine__kaolin_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_clays_mine__miscellaneous_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_clays_mine__sepiolite_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_coal_mine__anthracite__and__bituminous_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_coal_mine__anthracite_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_coal_mine__bituminous__and__lignite_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_coal_mine__bituminous_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_coal_mine__brown_coal__and__lignite_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_coal_mine__brown_coal_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_coal_mine__coal_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_coal_mine__coking_coal_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_coal_mine__lignite_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_coal_mine__other_bituminous_coal_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_coal_mine__sub_bituminous_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_cobalt_mine_tonnes	1.0;2.0;5.0;10.0;20.0;50.0;0.2173913	BuGn
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_cobalt_refinery_tonnes	0.2;0.5;1.0;2.0;5.0;10.0;20.0;50.0;0.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_coltan_mine__columbite_tantalite_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_coltan_mine__columbite_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_coltan_mine__tantalite_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_copper_mine_tonnes	2.0;4.0;6.0;8.0;10.0;0.0	BuGn
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_copper_refinery_tonnes	0.5;1.0;2.0;5.0;10.0;20.0;0.7407407	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_copper_smelter_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_crushed_stone_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_diamond_mine__industrial_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_diamond_mine_and_synthetic__industrial_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_diatomite_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_dimension_stone_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_feldspar_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_fluorspar_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_gallium_processing_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_gallium_refinery_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_garnet_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_gemstones_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_germanium_refinery_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_gold_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_graphite_mine_tonnes	1.0;2.0;5.0;10.0;20.0;50.0;0.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_gypsum_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_helium_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_indium_refinery_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_iodine_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_iron_ore_mine__crude_ore_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_iron_ore_mine__iron_content_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_iron_smelter__pig_iron_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_kyanite_mine__kyanite_and_related_minerals_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_kyanite_mine__kyanite_and_sillimanite_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_kyanite_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_lead_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_lead_refinery_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_lime_processing_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_lithium_mine_tonnes	1.0;2.0;5.0;10.0;20.0;0.21111111	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_magnesium_compounds_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_magnesium_metal_smelter_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_manganese_mine__ores__and__concentrates_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_manganese_mine_tonnes	1.0;3.0;10.0;30.0;0.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_mercury_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_mica_mine__scrap_and_flake_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_mica_mine__sheet_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_mica_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_molybdenum_mine_tonnes	0.1;0.3;1.0;3.0;10.0;30.0;0.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_nepheline_syenite_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_nickel_mine_tonnes	1.0;2.0;5.0;10.0;20.0;0.4722222	BuGn
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_nickel_processing_tonnes	0.2;0.5;1.0;2.0;5.0;10.0;20.0;0.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_niobium_mine__pyrochlore_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_niobium_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_nitrogen_fixed_ammonia_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_peat_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_perlite_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_petroleum_crude_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_phosphate_rock_guano_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_phosphate_rock_mine__aluminum_phosphate_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_phosphate_rock_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_platinum_group_metals_mine__iridium_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_platinum_group_metals_mine__other_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_platinum_group_metals_mine__palladium_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_platinum_group_metals_mine__platinum_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_platinum_group_metals_mine__rhodium_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_platinum_group_metals_mine__ruthenium_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_potash_mine__chloride_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_potash_mine__polyhalite_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_potash_mine__potassic_salts_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_potash_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_potash_unspecified_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_pumice_and_pumicite_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_rare_earths_mine__ores__and__concentrates_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_rare_earths_mine_tonnes	0.5;1.0;2.0;5.0;10.0;20.0;50.0;0.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_rhenium_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_salt_brine_salt_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_salt_evaporated_salt_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_salt_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_salt_other_salt_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_salt_rock_salt_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_salt_salt_in_brine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_salt_sea_salt_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_sand_and_gravel_mine__construction_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_sand_and_gravel_mine__industrial_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_selenium_refinery_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_silicon_processing_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_sillimanite_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_silver_mine_tonnes	5.0;10.0;15.0;20.0;2.6538463	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_soda_ash_natural_and_synthetic_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_soda_ash_natural_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_soda_ash_synthetic_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_steel_processing__crude_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_strontium_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_sulfur_processing_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_talc_and_pyrophyllite_mine__pyrophyllite_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_talc_and_pyrophyllite_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_tantalum_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_tellurium_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_tellurium_refinery_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_tin_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_tin_smelter_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_titanium_mine__ilmenite_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_titanium_mine__rutile_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_tungsten_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_uranium_mine_tonnes	0.2;0.5;1.0;2.0;5.0;10.0;20.0;0.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_vanadium_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_vermiculite_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_wollastonite_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_zeolites_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_zinc_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_zinc_refinery_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_zirconium_and_hafnium_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_antimony_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_asbestos_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_barite_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_bauxite_mine_tonnes	0.1;0.2;0.5;1.0;2.0;5.0;10.0;20.0;0.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_bromine_processing_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_cobalt_mine_tonnes	2.0;5.0;10.0;20.0;50.0;0.44545454	BuGn
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_copper_mine_tonnes	0.2;0.5;1.0;2.0;5.0;10.0;0.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_diamond_mine__industrial_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_diatomite_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_feldspar_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_fluorspar_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_garnet_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_gold_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_graphite_mine_tonnes	1.0;2.0;5.0;10.0;20.0;0.21428572	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_gypsum_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_helium_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_iodine_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_iron_ore_mine__crude_ore_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_iron_ore_mine__iron_content_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_kyanite_mine__kyanite_and_related_minerals_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_kyanite_mine__kyanite_and_sillimanite_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_lead_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_lithium_mine_tonnes	1.0;2.0;5.0;10.0;20.0;0.21428572	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_magnesium_compounds_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_manganese_mine_tonnes	0.2;0.5;1.0;2.0;5.0;10.0;20.0;0.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_mica_mine__scrap_and_flake_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_mica_mine__sheet_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_molybdenum_mine_tonnes	0.2;0.5;1.0;2.0;5.0;10.0;20.0;0.057142857	BuGn
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_nickel_mine_tonnes	2.0;5.0;10.0;20.0;0.26153848	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_niobium_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_peat_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_perlite_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_phosphate_rock_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_platinum_group_metals_mine__platinum_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_potash_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_rare_earths_mine_tonnes	1.0;2.0;5.0;10.0;20.0;0.004090909	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_rhenium_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_selenium_refinery_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_silver_mine_tonnes	2.0;4.0;6.0;8.0;10.0;12.0;14.0;16.0;18.0;1.0655738	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_soda_ash_natural_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_strontium_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_talc_and_pyrophyllite_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_tantalum_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_tellurium_refinery_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_tin_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_titanium_mine__ilmenite_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_titanium_mine__rutile_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_tungsten_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_vanadium_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_vermiculite_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_zeolites_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_zinc_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_zirconium_and_hafnium_mine_tonnes	10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0	BuGn
 	grapher/minerals/2024-07-15/minerals/minerals#production_alumina_refinery_tonnes	500000.0;1000000.0;2000000.0;5000000.0;10000000.0;20000000.0;50000000.0;0	BuGn
 	grapher/minerals/2024-07-15/minerals/minerals#production_aluminum_smelter_tonnes	1000000.0;2000000.0;5000000.0;10000000.0;20000000.0;730000	BuGn
 	grapher/minerals/2024-07-15/minerals/minerals#production_andalusite_mine_tonnes	20000.0;50000.0;100000.0;42000	BuGn
@@ -517,9 +343,7 @@ columns
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_bauxite_mine_tonnes	10000000.0;100000000.0;1000000000.0;0	BuGn
 	grapher/minerals/2024-07-15/minerals/minerals#production_beryl_mine_tonnes	300.0;1000.0;3000.0;4	BuGn
 	grapher/minerals/2024-07-15/minerals/minerals#production_beryllium_mine_tonnes	10.0;20.0;50.0;1	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#production_bismuth_mine_tonnes	3.0;10.0;30.0;100.0;300.0;1000.0;0	BuGn
 	grapher/minerals/2024-07-15/minerals/minerals#production_bismuth_refinery_tonnes	30.0;100.0;300.0;1000.0;0	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#production_boron_mine_tonnes	50000.0;100000.0;200000.0;500000.0;7590	BuGn
 	grapher/minerals/2024-07-15/minerals/minerals#production_bromine_processing_tonnes	10000.0;30000.0;100000.0;0	BuGn
 	grapher/minerals/2024-07-15/minerals/minerals#production_bromine_unspecified_tonnes	100.0;1000.0;10000.0;100000.0;500.0	BuGn
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_bromine_processing_tonnes	100000.0;200000.0;500000.0;130000	BuGn
@@ -605,7 +429,6 @@ columns
 	grapher/minerals/2024-07-15/minerals/minerals#production_mercury_mine_tonnes	1.0;3.0;10.0;30.0;100.0;300.0;2.0	BuGn
 	grapher/minerals/2024-07-15/minerals/minerals#production_mica_mine_tonnes	1000.0;2000.0;5000.0;10000.0;20000.0;50000.0;0	BuGn
 	grapher/minerals/2024-07-15/minerals/minerals#production_mica_mine__scrap_and_flake_tonnes	10000.0;20000.0;50000.0;4000	BuGn
-	grapher/minerals/2024-07-15/minerals/minerals#production_mica_mine__sheet_tonnes	100.0;200.0;300.0;0.0	BuGn
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_mica_mine__scrap_and_flake_tonnes	100000.0;1000000.0;10000000.0;620000	BuGn
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_mica_mine__sheet_tonnes	20000.0;50000.0;100000.0;75000	BuGn
 	grapher/minerals/2024-07-15/minerals/minerals#production_molybdenum_mine_tonnes	300.0;1000.0;3000.0;10000.0;30000.0;100000.0;0.0	BuGn
@@ -702,4 +525,74 @@ columns
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_chromium_mine_tonnes	3000000.0;10000000.0;30000000.0;100000000.0;630000	BuGn
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_chromium_mine_tonnes	1.0;2.0;5.0;10.0;20.0;0.1125	BuGn
 	grapher/minerals/2024-07-15/minerals/minerals#production_coal_mine_tonnes	100000.0;1000000.0;10000000.0;100000000.0;1000000000.0;0	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_antimony_mine_tonnes	0.02;0.05;0.1;0.2;0.5;1.0;2.0;5.0;10.0;0.0	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_arsenic_processing_tonnes	0.03;0.1;0.3;1.0;3.0;10.0;30.0;0.0	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_asbestos_mine_tonnes	10.0;20.0;30.0;40.0;0.0	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_barite_mine_tonnes	5.0;10.0;20.0;2.9411764	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_beryllium_mine_tonnes	5.0;10.0;20.0;50.0;0.3030303	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_bismuth_refinery_tonnes	0.1;0.3;1.0;3.0;10.0;30.0;0.0	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_cadmium_refinery_tonnes	1.0;2.0;5.0;10.0;20.0;0.0	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_cement_processing_tonnes	1.0;2.0;5.0;1.2195122	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_diamond_mine__industrial_tonnes	2.0;5.0;10.0;20.0;0.0	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_diamond_mine__industrial_tonnes	5.0;10.0;20.0;5.5882354	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_feldspar_mine_tonnes	2.0;5.0;10.0;20.0;1.4814814	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_fluorspar_mine_tonnes	1.0;2.0;5.0;10.0;20.0;50.0;0.59090906	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_fluorspar_mine_tonnes	5.0;10.0;20.0;1.2142857	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_gallium_processing_tonnes	0.2;0.5;1.0;0.0	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_garnet_mine_tonnes	0.1;0.3;1.0;3.0;10.0;30.0;0.05154639	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_gemstones_mine_tonnes	0.2;0.5;1.0;2.0;5.0;10.0;20.0;0.0	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_germanium_refinery_tonnes	1.0;2.0;5.0;3.5714285	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_gold_mine_tonnes	3.0;4.0;5.0;2.0	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_gold_mine_tonnes	2.0;4.0;6.0;0.7118644	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_gypsum_mine_tonnes	1.0;2.0;5.0;10.0;0.9375	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_helium_mine_tonnes	1.0;3.0;10.0;30.0;0.29411766	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_iodine_mine_tonnes	0.1;1.0;10.0;0.01	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_iodine_mine_tonnes	1.0;2.0;5.0;0.6451613	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_iron_smelter__pig_iron_tonnes	0.5;1.0;2.0;5.0;0.15384616	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_iron_ore_mine__crude_ore_tonnes	0.5;1.0;2.0;5.0;0.48	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_iron_ore_mine__iron_content_tonnes	0.3;1.0;3.0;0.50666666	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_iron_ore_mine__crude_ore_tonnes	1.0;2.0;5.0;10.0;0.08	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_iron_ore_mine__iron_content_tonnes	1.0;2.0;5.0;10.0;0.113793105	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_lead_mine_tonnes	2.0;5.0;10.0;1.1111112	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_lead_mine_tonnes	2.0;5.0;10.0;1.6842105	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_lime_processing_tonnes	0.3;1.0;3.0;0.25581396	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_magnesium_compounds_mine_tonnes	1.0;2.0;5.0;0.45454547	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_magnesium_compounds_mine_tonnes	0.2;0.5;1.0;2.0;5.0;0.036363635	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_magnesium_metal_smelter_tonnes	0.5;1.0;2.0;5.0;0.0	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_mercury_mine_tonnes	0.5;1.0;2.0;5.0;10.0;20.0;0.16666667	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_mica_mine__scrap_and_flake_tonnes	1.0;2.0;5.0;1.2121212	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_niobium_mine_tonnes	0.3;1.0;3.0;10.0;30.0;0.0	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_niobium_mine_tonnes	2.0;5.0;10.0;20.0;50.0;1.2352941	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_nitrogen_fixed_ammonia_tonnes	1.0;2.0;5.0;10.0;20.0;0.8	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_petroleum_crude_tonnes	0.01;0.03;0.1;0.3;1.0;3.0;10.0;0.0	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_phosphate_rock_mine_tonnes	0.5;1.0;2.0;5.0;10.0;20.0;0.22727273	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_phosphate_rock_mine_tonnes	1.0;2.0;5.0;10.0;20.0;50.0;0.04054054	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_platinum_group_metals_mine__palladium_tonnes	2.0;5.0;10.0;20.0;4.666667	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_platinum_group_metals_mine__platinum_tonnes	2.0;5.0;10.0;20.0;50.0;1.6111112	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_platinum_group_metals_mine__platinum_tonnes	0.3;1.0;3.0;10.0;30.0;0.43661973	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_potash_mine_tonnes	1.0;2.0;5.0;10.0;20.0;0.51282054	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_salt_mine_tonnes	0.5;1.0;2.0;5.0;10.0;0.7407407	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_sand_and_gravel_mine__industrial_tonnes	1.0;2.0;5.0;10.0;20.0;0.5	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_selenium_refinery_tonnes	1.0;2.0;5.0;10.0;20.0;0.22222222	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_selenium_refinery_tonnes	0.3;1.0;3.0;10.0;0.0	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_silicon_processing_tonnes	1.0;2.0;5.0;10.0;20.0;50.0;0.5568182	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_steel_processing__crude_tonnes	1.0;2.0;5.0;10.0;20.0;50.0;0.36842105	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_strontium_mine_tonnes	3.0;10.0;30.0;0.0	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_sulfur_processing_tonnes	1.0;2.0;5.0;10.0;20.0;0.73170733	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_talc_and_pyrophyllite_mine_tonnes	2.0;5.0;10.0;20.0;0.5714286	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_tantalum_mine_tonnes	1.0;3.0;10.0;30.0;0.0	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_tin_mine_tonnes	1.0;2.0;5.0;10.0;20.0;0.0	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_tin_mine_tonnes	2.0;5.0;10.0;20.0;0.0	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_titanium_mine__ilmenite_tonnes	1.0;2.0;5.0;10.0;20.0;0.627907	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_titanium_mine__rutile_tonnes	1.0;2.0;5.0;10.0;20.0;0.0	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_titanium_mine__ilmenite_tonnes	0.5;1.0;2.0;5.0;10.0;20.0;0.01884058	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_titanium_mine__rutile_tonnes	0.5;1.0;2.0;5.0;10.0;20.0;50.0;0.12727273	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_tungsten_mine_tonnes	1.0;2.0;5.0;0.0	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_tungsten_mine_tonnes	1.0;3.0;10.0;30.0;0.09090909	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_vanadium_mine_tonnes	2.0;5.0;10.0;20.0;50.0;0.0	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_vanadium_mine_tonnes	0.3;1.0;3.0;10.0;30.0;0.23684211	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_zinc_mine_tonnes	2.0;5.0;10.0;20.0;1.8333334	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_zinc_mine_tonnes	2.0;5.0;10.0;20.0;1.8636364	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_zirconium_and_hafnium_mine_tonnes	2.0;5.0;10.0;20.0;1.875	BuGn
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_zirconium_and_hafnium_mine_tonnes	0.3;1.0;3.0;10.0;30.0;0.024324324	BuGn
 
