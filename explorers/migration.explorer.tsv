@@ -5,11 +5,11 @@ isPublished	false
 explorerSubtitle	Explore the migration of people across the world.
 selection	Canada	France	Germany	United Kingdom	United States	India	China	Syria	Yemen
 thumbnail	https://assets.ourworldindata.org/uploads/2022/03/Migration-Data-Explorer.png
-hideAlertBanner	True
+hideAlertBanner	true
 wpBlockId	49910
-hasMapTab	True
+hasMapTab	true
 yAxisMin	0
-hideAnnotationFieldsInTitle	True
+hideAnnotationFieldsInTitle	true
 tab	map
 graphers
 	yVariableIds	Metric Dropdown	Period Radio	Sub-Metric Radio	Age Radio	subtitle	title	hasMapTab	tab	yAxisMin	timelineMaxTime	relatedQuestionText	relatedQuestionUrl
