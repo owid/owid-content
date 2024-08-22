@@ -46,9 +46,10 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_cement_processing_tonnes	Cement	Production	Processing	false	1900	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_cement_processing_tonnes	Cement	Production	Processing	true	1926	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_cement_processing_constant_1998_usd_per_tonne	Cement	Unit value	Processing	false	1900	false	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_chromium_mine_tonnes	Chromium	Production	Mine	false	1900	false	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_chromium_mine_tonnes	Chromium	Production	Mine	true	1900	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_chromium_mine_constant_1998_usd_per_tonne	Chromium	Unit value	Mine	false	1900	false	0	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_chromium_mine_tonnes	Chromium	Production	Mine	false	2023	false	0	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_chromium_mine_tonnes	Chromium	Production	Mine	true	2023	true	0	false
+	grapher/minerals/2024-07-15/minerals/minerals#reserves_chromium_mine_tonnes	Chromium	Reserves	Mine	false	2023	true	0	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_chromium_mine_tonnes	Chromium	Reserves	Mine	true	2023	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_coal_mine_tonnes	Coal	Production	Mine	false	1970	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_coal_mine_tonnes	Coal	Production	Mine	true	1970	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_cobalt_mine_tonnes	Cobalt	Production	Mine	false	1901	true	0	false
@@ -156,7 +157,6 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_magnesium_metal_smelter_constant_1998_usd_per_tonne	Magnesium metal	Unit value	Smelter	false	1915	false	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_manganese_mine_tonnes	Manganese	Production	Mine	false	1900	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_manganese_mine_tonnes	Manganese	Production	Mine	true	1900	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_manganese_mine__ores__and__concentrates_tonnes	Manganese	Production	Mine, ores & concentrates	false	1970	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_manganese_mine_tonnes	Manganese	Reserves	Mine	false	2023	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_manganese_mine_tonnes	Manganese	Reserves	Mine	true	2023	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_manganese_mine_constant_1998_usd_per_tonne	Manganese	Unit value	Mine	false	1900	false	0	false
