@@ -24,7 +24,7 @@ graphers
 	Mpox: Daily confirmed deaths per million people	7-day rolling average. Testing for mpox is limited in many countries and figures shown here only include deaths where mpox has been laboratory-confirmed.	new_deaths_smoothed_per_million	true	Confirmed deaths	7-day average	true	LineChart	true					The WHO defines an mpox death as any death of a person with probable or confirmed mpox unless the death is attributed to trauma.
 	Mpox: Daily confirmed deaths per million people	Testing for mpox is limited in many countries and figures shown here only include deaths where mpox has been laboratory-confirmed.	new_deaths_per_million	true	Confirmed deaths	Daily	true	StackedBar	true					The WHO defines an mpox death as any death of a person with probable or confirmed mpox unless the death is attributed to trauma.
 
-table	http://staging-site-mpox-gh:8881/explorers/who/latest/monkeypox/monkeypox.csv
+table	https://catalog.ourworldindata.org/explorers/who/latest/monkeypox/monkeypox.csv
 columns
 	slug	name	type	tolerance	sourceName	sourceLink	additionalInfo	colorScaleNumericMinValue	colorScaleNumericBins	colorScaleScheme	annotationsColumnSlug
 	location	Country	EntityName
