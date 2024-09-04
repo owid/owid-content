@@ -312,7 +312,7 @@ columns
 	grapher/war/2023-09-21/ucdp/ucdp#number_deaths_ongoing_conflicts_high__conflict_type_state_based	High estimate					#C3AEA6
 	grapher/war/2023-09-21/ucdp/ucdp#number_deaths_ongoing_conflicts_low__conflict_type_interstate	Low estimate					#C3AEA6
 	grapher/war/2023-09-21/ucdp/ucdp#number_deaths_ongoing_conflicts_high__conflict_type_interstate	High estimate					#C3AEA6
-		Best estimate	interstate_best	duplicate 812739			#B13507
+		Best estimate TESTO	interstate_best	duplicate grapher/war/2023-09-21/ucdp/ucdp#number_deaths_ongoing_conflicts__conflict_type_interstate			#B13507
 	grapher/war/2023-09-21/ucdp/ucdp#number_deaths_ongoing_conflicts__conflict_type_intrastate	Intrastate
 	grapher/war/2023-09-21/ucdp/ucdp#number_deaths_ongoing_conflicts_low__conflict_type_intrastate	Low estimate					#C3AEA6
 	grapher/war/2023-09-21/ucdp/ucdp#number_deaths_ongoing_conflicts_high__conflict_type_intrastate	High estimate					#C3AEA6
