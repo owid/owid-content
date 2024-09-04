@@ -315,31 +315,31 @@ columns
 	grapher/war/2024-08-26/ucdp/ucdp#number_deaths_ongoing_conflicts_high__conflict_type_state_based	High estimate					#C3AEA6
 	grapher/war/2024-08-26/ucdp/ucdp#number_deaths_ongoing_conflicts_low__conflict_type_interstate	Low estimate					#C3AEA6
 	grapher/war/2024-08-26/ucdp/ucdp#number_deaths_ongoing_conflicts_high__conflict_type_interstate	High estimate					#C3AEA6
-		Best estimate	interstate_best	duplicate 812739			#B13507
+		Best estimate	interstate_best	duplicate 985400			#B13507
 	grapher/war/2024-08-26/ucdp/ucdp#number_deaths_ongoing_conflicts__conflict_type_intrastate	Intrastate
 	grapher/war/2024-08-26/ucdp/ucdp#number_deaths_ongoing_conflicts_low__conflict_type_intrastate	Low estimate					#C3AEA6
 	grapher/war/2024-08-26/ucdp/ucdp#number_deaths_ongoing_conflicts_high__conflict_type_intrastate	High estimate					#C3AEA6
-		Best estimate	intrastate_best	duplicate 812744			#B13507
+		Best estimate	intrastate_best	duplicate 985425			#B13507
 	grapher/war/2024-08-26/ucdp/ucdp#number_deaths_ongoing_conflicts__conflict_type_non_state_conflict	Non-state
 	grapher/war/2024-08-26/ucdp/ucdp#number_deaths_ongoing_conflicts_low__conflict_type_non_state_conflict	Low estimate					#C3AEA6
 	grapher/war/2024-08-26/ucdp/ucdp#number_deaths_ongoing_conflicts_high__conflict_type_non_state_conflict	High estimate					#C3AEA6
-		Best estimate	nonstate_best	duplicate 812758			#B13507
+		Best estimate	nonstate_best	duplicate 985481			#B13507
 	grapher/war/2024-08-26/ucdp/ucdp#number_deaths_ongoing_conflicts__conflict_type_one_sided_violence	One-sided violence
 	grapher/war/2024-08-26/ucdp/ucdp#number_deaths_ongoing_conflicts_low__conflict_type_one_sided_violence	Low estimate					#C3AEA6
 	grapher/war/2024-08-26/ucdp/ucdp#number_deaths_ongoing_conflicts_high__conflict_type_one_sided_violence	High estimate					#C3AEA6
-		Best estimate	onesided_violence_best	duplicate 812764			#B13507
+		Best estimate	onesided_violence_best	duplicate 985493			#B13507
 	grapher/war/2024-08-26/ucdp/ucdp#number_deaths_ongoing_conflicts__conflict_type_intrastate__non_internationalized	Non-internationalized intrastate
 	grapher/war/2024-08-26/ucdp/ucdp#number_deaths_ongoing_conflicts_low__conflict_type_intrastate__non_internationalized	Low estimate					#C3AEA6
 	grapher/war/2024-08-26/ucdp/ucdp#number_deaths_ongoing_conflicts_high__conflict_type_intrastate__non_internationalized	High estimate					#C3AEA6
-		Best estimate	nonint_intrastate_best	duplicate 812754			#B13507
+		Best estimate	nonint_intrastate_best	duplicate 985469			#B13507
 	grapher/war/2024-08-26/ucdp/ucdp#number_deaths_ongoing_conflicts__conflict_type_intrastate__internationalized	Internationalized intrastate
 	grapher/war/2024-08-26/ucdp/ucdp#number_deaths_ongoing_conflicts_low__conflict_type_intrastate__internationalized	Low estimate					#C3AEA6
 	grapher/war/2024-08-26/ucdp/ucdp#number_deaths_ongoing_conflicts_high__conflict_type_intrastate__internationalized	High estimate					#C3AEA6
-		Best estimate	int_intrastate_best	duplicate 812749			#B13507
+		Best estimate	int_intrastate_best	duplicate 985453			#B13507
 	grapher/war/2024-08-26/ucdp/ucdp#number_deaths_ongoing_conflicts__conflict_type_extrasystemic	Extrasystemic
 	grapher/war/2024-08-26/ucdp/ucdp#number_deaths_ongoing_conflicts_low__conflict_type_extrasystemic	Low estimate					#C3AEA6
 	grapher/war/2024-08-26/ucdp/ucdp#number_deaths_ongoing_conflicts_high__conflict_type_extrasystemic	High estimate					#C3AEA6
-		Best estimate	extrasystemic_best	duplicate 815735			#B13507
+		Best estimate	extrasystemic_best	duplicate 985377			#B13507
 	grapher/war/2023-09-21/mars/mars#number_ongoing_conflicts__conflict_type_civil_war	Civil wars
 	grapher/war/2023-09-21/mars/mars#number_ongoing_conflicts__conflict_type_others__non_civil	Interstate wars
 	grapher/war/2023-09-21/mars/mars#number_new_conflicts__conflict_type_civil_war	Civil wars
@@ -446,31 +446,31 @@ columns
 	grapher/war/2024-08-26/ucdp/ucdp#number_deaths_ongoing_conflicts_per_capita__conflict_type_interstate	Interstate
 	grapher/war/2024-08-26/ucdp/ucdp#number_deaths_ongoing_conflicts_low_per_capita__conflict_type_interstate	Low estimate					#C3AEA6
 	grapher/war/2024-08-26/ucdp/ucdp#number_deaths_ongoing_conflicts_high_per_capita__conflict_type_interstate	High estimate					#C3AEA6
-		Best estimate	interstate_rate_best	duplicate 815508			#B13507
+		Best estimate	interstate_rate_best	duplicate 985420			#B13507
 	grapher/war/2024-08-26/ucdp/ucdp#number_deaths_ongoing_conflicts_per_capita__conflict_type_intrastate	Intrastate
 	grapher/war/2024-08-26/ucdp/ucdp#number_deaths_ongoing_conflicts_low_per_capita__conflict_type_intrastate	Low estimate					#C3AEA6
 	grapher/war/2024-08-26/ucdp/ucdp#number_deaths_ongoing_conflicts_high_per_capita__conflict_type_intrastate	High estimate					#C3AEA6
-		Best estimate	intrastate_rate_best	duplicate 815511			#B13507
+		Best estimate	intrastate_rate_best	duplicate 985446			#B13507
 	grapher/war/2024-08-26/ucdp/ucdp#number_deaths_ongoing_conflicts_per_capita__conflict_type_non_state_conflict	Non-state
 	grapher/war/2024-08-26/ucdp/ucdp#number_deaths_ongoing_conflicts_low_per_capita__conflict_type_non_state_conflict	Low estimate					#C3AEA6
 	grapher/war/2024-08-26/ucdp/ucdp#number_deaths_ongoing_conflicts_high_per_capita__conflict_type_non_state_conflict	High estimate					#C3AEA6
-		Best estimate	nonstate_rate_best	duplicate 815521			#B13507
+		Best estimate	nonstate_rate_best	duplicate 985490			#B13507
 	grapher/war/2024-08-26/ucdp/ucdp#number_deaths_ongoing_conflicts_per_capita__conflict_type_one_sided_violence	One-sided violence
 	grapher/war/2024-08-26/ucdp/ucdp#number_deaths_ongoing_conflicts_low_per_capita__conflict_type_one_sided_violence	Low estimate					#C3AEA6
 	grapher/war/2024-08-26/ucdp/ucdp#number_deaths_ongoing_conflicts_high_per_capita__conflict_type_one_sided_violence	High estimate					#C3AEA6
-		Best estimate	onesided_violence_rate_best	duplicate 815524			#B13507
+		Best estimate	onesided_violence_rate_best	duplicate 985502			#B13507
 	grapher/war/2024-08-26/ucdp/ucdp#number_deaths_ongoing_conflicts_per_capita__conflict_type_intrastate__non_internationalized	Non-internationalized intrastate
 	grapher/war/2024-08-26/ucdp/ucdp#number_deaths_ongoing_conflicts_low_per_capita__conflict_type_intrastate__non_internationalized	Low estimate					#C3AEA6
 	grapher/war/2024-08-26/ucdp/ucdp#number_deaths_ongoing_conflicts_high_per_capita__conflict_type_intrastate__non_internationalized	High estimate					#C3AEA6
-		Best estimate	nonint_intrastate_rate_best	duplicate 815518			#B13507
+		Best estimate	nonint_intrastate_rate_best	duplicate 985478			#B13507
 	grapher/war/2024-08-26/ucdp/ucdp#number_deaths_ongoing_conflicts_per_capita__conflict_type_intrastate__internationalized	Internationalized intrastate
 	grapher/war/2024-08-26/ucdp/ucdp#number_deaths_ongoing_conflicts_low_per_capita__conflict_type_intrastate__internationalized	Low estimate					#C3AEA6
 	grapher/war/2024-08-26/ucdp/ucdp#number_deaths_ongoing_conflicts_high_per_capita__conflict_type_intrastate__internationalized	High estimate					#C3AEA6
-		Best estimate	int_intrastate_rate_best	duplicate 815514			#B13507
+		Best estimate	int_intrastate_rate_best	duplicate 985466			#B13507
 	grapher/war/2024-08-26/ucdp/ucdp#number_deaths_ongoing_conflicts_per_capita__conflict_type_extrasystemic	Extrasystemic
 	grapher/war/2024-08-26/ucdp/ucdp#number_deaths_ongoing_conflicts_low_per_capita__conflict_type_extrasystemic	Low estimate					#C3AEA6
 	grapher/war/2024-08-26/ucdp/ucdp#number_deaths_ongoing_conflicts_high_per_capita__conflict_type_extrasystemic	High estimate					#C3AEA6
-		Best estimate	extrasystemic_rate_best	duplicate 815738			#B13507
+		Best estimate	extrasystemic_rate_best	duplicate 985396			#B13507
 	grapher/war/2023-09-21/mars/mars#number_ongoing_conflicts_per_country__conflict_type_civil_war	Civil wars
 	grapher/war/2023-09-21/mars/mars#number_ongoing_conflicts_per_country_pair__conflict_type_others__non_civil	Interstate wars
 	grapher/war/2023-09-21/mars/mars#number_new_conflicts_per_country__conflict_type_civil_war	Civil wars
@@ -552,44 +552,44 @@ columns
 	grapher/war/2023-10-24/ucdp_prio/ucdp_prio#number_deaths_ongoing_conflicts__conflict_type_interstate	Interstate
 	grapher/war/2023-10-24/ucdp_prio/ucdp_prio#number_deaths_ongoing_conflicts_low__conflict_type_interstate	Low estimate					#C3AEA6
 	grapher/war/2023-10-24/ucdp_prio/ucdp_prio#number_deaths_ongoing_conflicts_high__conflict_type_interstate	High estimate					#C3AEA6
-		Best estimate	interstate_ucdprio_best	duplicate 815687			#B13507
+		Best estimate	interstate_ucdprio_best	duplicate 985382			#B13507
 	grapher/war/2023-10-24/ucdp_prio/ucdp_prio#number_deaths_ongoing_conflicts__conflict_type_intrastate	Best estimate					#B13507
 	grapher/war/2023-10-24/ucdp_prio/ucdp_prio#number_deaths_ongoing_conflicts_low__conflict_type_intrastate	Low estimate					#C3AEA6
 	grapher/war/2023-10-24/ucdp_prio/ucdp_prio#number_deaths_ongoing_conflicts_high__conflict_type_intrastate	High estimate					#C3AEA6
 	grapher/war/2023-10-24/ucdp_prio/ucdp_prio#number_deaths_ongoing_conflicts__conflict_type_extrasystemic	Extrasystemic
 	grapher/war/2023-10-24/ucdp_prio/ucdp_prio#number_deaths_ongoing_conflicts_low__conflict_type_extrasystemic	Low estimate					#C3AEA6
 	grapher/war/2023-10-24/ucdp_prio/ucdp_prio#number_deaths_ongoing_conflicts_high__conflict_type_extrasystemic	High estimate					#C3AEA6
-		Best estimate	extrasyst_ucdprio_best	duplicate 815684			#B13507
+		Best estimate	extrasyst_ucdprio_best	duplicate 985371			#B13507
 	grapher/war/2023-10-24/ucdp_prio/ucdp_prio#number_deaths_ongoing_conflicts__conflict_type_intrastate__non_internationalized	Non-internationalized intrastate
 	grapher/war/2023-10-24/ucdp_prio/ucdp_prio#number_deaths_ongoing_conflicts_low__conflict_type_intrastate__non_internationalized	Low estimate					#C3AEA6
 	grapher/war/2023-10-24/ucdp_prio/ucdp_prio#number_deaths_ongoing_conflicts_high__conflict_type_intrastate__non_internationalized	High estimate					#C3AEA6
-		Best estimate	nonint_intrastate_ucdprio_best	duplicate 815696			#B13507
+		Best estimate	nonint_intrastate_ucdprio_best	duplicate 985418			#B13507
 	grapher/war/2023-10-24/ucdp_prio/ucdp_prio#number_deaths_ongoing_conflicts__conflict_type_intrastate__internationalized	Internationalized intrastate
 	grapher/war/2023-10-24/ucdp_prio/ucdp_prio#number_deaths_ongoing_conflicts_low__conflict_type_intrastate__internationalized	Low estimate					#C3AEA6
 	grapher/war/2023-10-24/ucdp_prio/ucdp_prio#number_deaths_ongoing_conflicts_high__conflict_type_intrastate__internationalized	High estimate					#C3AEA6
-		Best estimate	int_intrastate_ucdprio_best	duplicate 815693			#B13507
+		Best estimate	int_intrastate_ucdprio_best	duplicate 985406			#B13507
 	grapher/war/2023-10-24/ucdp_prio/ucdp_prio#number_deaths_ongoing_conflicts_per_capita__conflict_type_state_based	Best estimate					#B13507
 	grapher/war/2023-10-24/ucdp_prio/ucdp_prio#number_deaths_ongoing_conflicts_low_per_capita__conflict_type_state_based	Low estimate					#C3AEA6
 	grapher/war/2023-10-24/ucdp_prio/ucdp_prio#number_deaths_ongoing_conflicts_high_per_capita__conflict_type_state_based	High estimate					#C3AEA6
 	grapher/war/2023-10-24/ucdp_prio/ucdp_prio#number_deaths_ongoing_conflicts_per_capita__conflict_type_interstate	Interstate
 	grapher/war/2023-10-24/ucdp_prio/ucdp_prio#number_deaths_ongoing_conflicts_low_per_capita__conflict_type_interstate	Low estimate					#C3AEA6
 	grapher/war/2023-10-24/ucdp_prio/ucdp_prio#number_deaths_ongoing_conflicts_high_per_capita__conflict_type_interstate	High estimate					#C3AEA6
-		Best estimate	interstate_rate_ucdprio_best	duplicate 815714			#B13507
+		Best estimate	interstate_rate_ucdprio_best	duplicate 985388			#B13507
 	grapher/war/2023-10-24/ucdp_prio/ucdp_prio#number_deaths_ongoing_conflicts_per_capita__conflict_type_intrastate	Best estimate					#B13507
 	grapher/war/2023-10-24/ucdp_prio/ucdp_prio#number_deaths_ongoing_conflicts_low_per_capita__conflict_type_intrastate	Low estimate					#C3AEA6
 	grapher/war/2023-10-24/ucdp_prio/ucdp_prio#number_deaths_ongoing_conflicts_high_per_capita__conflict_type_intrastate	High estimate					#C3AEA6
 	grapher/war/2023-10-24/ucdp_prio/ucdp_prio#number_deaths_ongoing_conflicts_per_capita__conflict_type_extrasystemic	Extrasystemic
 	grapher/war/2023-10-24/ucdp_prio/ucdp_prio#number_deaths_ongoing_conflicts_low_per_capita__conflict_type_extrasystemic	Low estimate					#C3AEA6
 	grapher/war/2023-10-24/ucdp_prio/ucdp_prio#number_deaths_ongoing_conflicts_high_per_capita__conflict_type_extrasystemic	High estimate					#C3AEA6
-		Best estimate	extrasyst_rate_ucdprio_best	duplicate 815711			#B13507
+		Best estimate	extrasyst_rate_ucdprio_best	duplicate 985374			#B13507
 	grapher/war/2023-10-24/ucdp_prio/ucdp_prio#number_deaths_ongoing_conflicts_per_capita__conflict_type_intrastate__non_internationalized	Non-internationalized intrastate
 	grapher/war/2023-10-24/ucdp_prio/ucdp_prio#number_deaths_ongoing_conflicts_low_per_capita__conflict_type_intrastate__non_internationalized	Low estimate					#C3AEA6
 	grapher/war/2023-10-24/ucdp_prio/ucdp_prio#number_deaths_ongoing_conflicts_high_per_capita__conflict_type_intrastate__non_internationalized	High estimate					#C3AEA6
-		Best estimate	nonint_intrastate_rate_ucdprio_best	duplicate 815723			#B13507
+		Best estimate	nonint_intrastate_rate_ucdprio_best	duplicate 985424			#B13507
 	grapher/war/2023-10-24/ucdp_prio/ucdp_prio#number_deaths_ongoing_conflicts_per_capita__conflict_type_intrastate__internationalized	Internationalized intrastate
 	grapher/war/2023-10-24/ucdp_prio/ucdp_prio#number_deaths_ongoing_conflicts_low_per_capita__conflict_type_intrastate__internationalized	Low estimate					#C3AEA6
 	grapher/war/2023-10-24/ucdp_prio/ucdp_prio#number_deaths_ongoing_conflicts_high_per_capita__conflict_type_intrastate__internationalized	High estimate					#C3AEA6
-		Best estimate	int_intrastate_rate_ucdprio_best	duplicate 815720			#B13507
+		Best estimate	int_intrastate_rate_ucdprio_best	duplicate 985411			#B13507
 	grapher/war/2024-08-26/ucdp/ucdp_locations#number_deaths__conflict_type_all	Best estimate			0.99, #E8F4EA, 0;10;100;1000;10000;100000	OrRd	#B13507
 	grapher/war/2024-08-26/ucdp/ucdp_locations#number_deaths_low__conflict_type_all	Low estimate					#C3AEA6
 	grapher/war/2024-08-26/ucdp/ucdp_locations#number_deaths_high__conflict_type_all	High estimate					#C3AEA6
@@ -599,19 +599,19 @@ columns
 	grapher/war/2024-08-26/ucdp/ucdp_locations#number_deaths__conflict_type_interstate	Interstate
 	grapher/war/2024-08-26/ucdp/ucdp_locations#number_deaths_low__conflict_type_interstate	Low estimate					#C3AEA6
 	grapher/war/2024-08-26/ucdp/ucdp_locations#number_deaths_high__conflict_type_interstate	High estimate					#C3AEA6
-		Best estimate	interstate_country_ucdp_best	duplicate 816861	0.99, #E8F4EA, 0;10;100;1000;10000;100000	OrRd	#B13507
+		Best estimate	interstate_country_ucdp_best	duplicate 985540	0.99, #E8F4EA, 0;10;100;1000;10000;100000	OrRd	#B13507
 	grapher/war/2024-08-26/ucdp/ucdp_locations#death_rate__conflict_type_interstate	Interstate
 	grapher/war/2024-08-26/ucdp/ucdp_locations#death_rate_low__conflict_type_interstate	Low estimate					#C3AEA6
 	grapher/war/2024-08-26/ucdp/ucdp_locations#death_rate_high__conflict_type_interstate	High estimate					#C3AEA6
-		Best estimate	interstate_rate_country_ucdp_best	duplicate 816864	0.1; 0.3; 1; 3; 10; 30; 100	OrRd	#B13507
+		Best estimate	interstate_rate_country_ucdp_best	duplicate 985543	0.1; 0.3; 1; 3; 10; 30; 100	OrRd	#B13507
 	grapher/war/2024-08-26/ucdp/ucdp_locations#number_deaths__conflict_type_intrastate	Intrastate
 	grapher/war/2024-08-26/ucdp/ucdp_locations#number_deaths_low__conflict_type_intrastate	Low estimate					#C3AEA6
 	grapher/war/2024-08-26/ucdp/ucdp_locations#number_deaths_high__conflict_type_intrastate	High estimate					#C3AEA6
-		Best estimate	intrastate_country_ucdp_best	duplicate 816869	0.99, #E8F4EA, 0;10;100;1000;10000;100000	OrRd	#B13507
+		Best estimate	intrastate_country_ucdp_best	duplicate 985548	0.99, #E8F4EA, 0;10;100;1000;10000;100000	OrRd	#B13507
 	grapher/war/2024-08-26/ucdp/ucdp_locations#death_rate__conflict_type_intrastate	Intrastate
 	grapher/war/2024-08-26/ucdp/ucdp_locations#death_rate_low__conflict_type_intrastate	Low estimate					#C3AEA6
 	grapher/war/2024-08-26/ucdp/ucdp_locations#death_rate_high__conflict_type_intrastate	High estimate					#C3AEA6
-		Best estimate	intrastate_rate_country_ucdp_best	duplicate 816872	0.1; 0.3; 1; 3; 10; 30; 100	OrRd	#B13507
+		Best estimate	intrastate_rate_country_ucdp_best	duplicate 985551	0.1; 0.3; 1; 3; 10; 30; 100	OrRd	#B13507
 	grapher/war/2024-08-26/ucdp/ucdp_locations#number_deaths__conflict_type_intrastate__internationalized	Internationalized intrastate
 	grapher/war/2024-08-26/ucdp/ucdp_locations#death_rate__conflict_type_intrastate__internationalized	Internationalized intrastate
 	grapher/war/2024-08-26/ucdp/ucdp_locations#number_deaths__conflict_type_intrastate__non_internationalized	Non-internationalized intrastate
@@ -619,19 +619,19 @@ columns
 	grapher/war/2024-08-26/ucdp/ucdp_locations#number_deaths__conflict_type_non_state_conflict	Non-state
 	grapher/war/2024-08-26/ucdp/ucdp_locations#number_deaths_low__conflict_type_non_state_conflict	Low estimate					#C3AEA6
 	grapher/war/2024-08-26/ucdp/ucdp_locations#number_deaths_high__conflict_type_non_state_conflict	High estimate					#C3AEA6
-		Best estimate	nonstate_country_ucdp_best	duplicate 816893	0.99, #E8F4EA, 0;10;100;1000;10000;100000	OrRd	#B13507
+		Best estimate	nonstate_country_ucdp_best	duplicate 985572	0.99, #E8F4EA, 0;10;100;1000;10000;100000	OrRd	#B13507
 	grapher/war/2024-08-26/ucdp/ucdp_locations#death_rate__conflict_type_non_state_conflict	Non-state
 	grapher/war/2024-08-26/ucdp/ucdp_locations#death_rate_low__conflict_type_non_state_conflict	Low estimate					#C3AEA6
 	grapher/war/2024-08-26/ucdp/ucdp_locations#death_rate_high__conflict_type_non_state_conflict	High estimate					#C3AEA6
-		Best estimate	nonstate_rate_country_ucdp_best	duplicate 816896	0.1; 0.3; 1; 3; 10; 30; 100	OrRd	#B13507
+		Best estimate	nonstate_rate_country_ucdp_best	duplicate 985575	0.1; 0.3; 1; 3; 10; 30; 100	OrRd	#B13507
 	grapher/war/2024-08-26/ucdp/ucdp_locations#number_deaths__conflict_type_one_sided_violence	One-sided violence
 	grapher/war/2024-08-26/ucdp/ucdp_locations#number_deaths_low__conflict_type_one_sided_violence	Low estimate					#C3AEA6
 	grapher/war/2024-08-26/ucdp/ucdp_locations#number_deaths_high__conflict_type_one_sided_violence	High estimate					#C3AEA6
-		Best estimate	onesided_violence_country_ucdp_best	duplicate 816901	0.99, #E8F4EA, 0;10;100;1000;10000;100000	OrRd	#B13507
+		Best estimate	onesided_violence_country_ucdp_best	duplicate 985580	0.99, #E8F4EA, 0;10;100;1000;10000;100000	OrRd	#B13507
 	grapher/war/2024-08-26/ucdp/ucdp_locations#death_rate__conflict_type_one_sided_violence	One-sided violence
 	grapher/war/2024-08-26/ucdp/ucdp_locations#death_rate_low__conflict_type_one_sided_violence	Low estimate					#C3AEA6
 	grapher/war/2024-08-26/ucdp/ucdp_locations#death_rate_high__conflict_type_one_sided_violence	High estimate					#C3AEA6
-		Best estimate	onesided_violence_rate_country_ucdp_best	duplicate 816904	0.1; 0.3; 1; 3; 10; 30; 100	OrRd	#B13507
+		Best estimate	onesided_violence_rate_country_ucdp_best	duplicate 985583	0.1; 0.3; 1; 3; 10; 30; 100	OrRd	#B13507
 	grapher/war/2024-08-26/ucdp/ucdp_locations#number_deaths__conflict_type_state_based	Best estimate			0.99, #E8F4EA, 0;10;100;1000;10000;100000	OrRd	#B13507
 	grapher/war/2024-08-26/ucdp/ucdp_locations#number_deaths_low__conflict_type_state_based	Low estimate					#C3AEA6
 	grapher/war/2024-08-26/ucdp/ucdp_locations#number_deaths_high__conflict_type_state_based	High estimate					#C3AEA6
