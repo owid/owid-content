@@ -1130,7 +1130,7 @@ df_graphers["mapTargetTime"] = df_graphers["mapTargetTime"].astype("Int64")
 # Select one default view
 df_graphers.loc[
     (df_graphers["Indicator Dropdown"] == "Decile thresholds")
-    & (df_graphers["Decile/quantile Dropdown"] == "All deciles")
+    & (df_graphers["Decile/quantile Dropdown"] == "9 (richest)")
     & (df_graphers["Income measure Dropdown"] == "After tax")
     & (df_graphers["Period Radio"] == "Year"),
     ["defaultView"],

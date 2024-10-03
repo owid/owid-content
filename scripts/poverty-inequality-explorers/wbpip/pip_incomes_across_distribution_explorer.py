@@ -873,7 +873,7 @@ df_graphers["note"] = df_graphers["note"].str.replace(
 
 # Select one default view
 df_graphers.loc[
-    (df_graphers["Decile Dropdown"] == "All deciles")
+    (df_graphers["Decile Dropdown"] == "9 (richest)")
     & (df_graphers["Indicator Dropdown"] == "Decile thresholds")
     & (df_graphers["Period Radio"] == "Day")
     & (df_graphers["Show breaks between less comparable surveys Checkbox"] == "false")
