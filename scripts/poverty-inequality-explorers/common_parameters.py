@@ -1,4 +1,8 @@
 # NOTE: Don't forget to update the consumption and income spells for PIP
+# Check this by running this on the playground Jupyter notebook in garden:
+# df = ds["income_consumption_2017_headcount_ratio_215"].reset_index()
+# df
+# And check the number of columns for the consumption and income spells
 
 ####################################################################################################
 # GOOGLE SPREEADSHEETS
@@ -25,7 +29,7 @@ MAP_TARGET_TIME = 0
 # WORLD BANK POVERTY AND INEQUALITY PLATFORM
 ####################################################################################################
 SOURCE_NAME_PIP = "World Bank Poverty and Inequality Platform (2024)"
-DATA_PUBLISHED_BY_PIP = "World Bank (2024). Poverty and Inequality Platform (version 20240326_2017 and 20240326_2011) [Data set]. World Bank Group. https://pip.worldbank.org/. Accessed March 27, 2024."
+DATA_PUBLISHED_BY_PIP = "World Bank (2024). Poverty and Inequality Platform (version 20240627_2017 and 20240627_2011) [Data set]. World Bank Group. https://pip.worldbank.org/."
 SOURCE_LINK_PIP = "https://pip.worldbank.org"
 CONSUMPTION_SPELLS_PIP = 7
 INCOME_SPELLS_PIP = 8
