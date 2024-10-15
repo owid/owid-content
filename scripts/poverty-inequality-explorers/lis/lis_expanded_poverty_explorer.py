@@ -564,7 +564,7 @@ for tab in range(len(tables)):
                     f"{povlines_abs['subtitle'][p]} {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
                 )
                 df_graphers.loc[j, "note"] = (
-                    f"This data is expressed in international-$ at 2017 prices."
+                    f"This data is expressed in [international-$](#dod:int_dollar_abbreviation) at 2017 prices."
                 )
                 df_graphers.loc[j, "type"] = np.nan
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -595,7 +595,7 @@ for tab in range(len(tables)):
                     f"{povlines_abs['subtitle'][p]} {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
                 )
                 df_graphers.loc[j, "note"] = (
-                    f"This data is expressed in international-$ at 2017 prices."
+                    f"This data is expressed in [international-$](#dod:int_dollar_abbreviation) at 2017 prices."
                 )
                 df_graphers.loc[j, "type"] = np.nan
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -628,7 +628,7 @@ for tab in range(len(tables)):
                     f"{povlines_abs['subtitle_total_shortfall'][p]} {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
                 )
                 df_graphers.loc[j, "note"] = (
-                    "This data is expressed in international-$ at 2017 prices. The cost of closing the poverty gap does not take into account costs and inefficiencies from making the necessary transfers."
+                    "This data is expressed in [international-$](#dod:int_dollar_abbreviation) at 2017 prices. The cost of closing the poverty gap does not take into account costs and inefficiencies from making the necessary transfers."
                 )
                 df_graphers.loc[j, "type"] = np.nan
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -752,7 +752,7 @@ for tab in range(len(tables)):
                 f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
             )
             df_graphers.loc[j, "note"] = (
-                f"This data is expressed in international-$ at 2017 prices."
+                f"This data is expressed in [international-$](#dod:int_dollar_abbreviation) at 2017 prices."
             )
             df_graphers.loc[j, "type"] = np.nan
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
@@ -780,7 +780,7 @@ for tab in range(len(tables)):
                 f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
             )
             df_graphers.loc[j, "note"] = (
-                f"This data is expressed in international-$ at 2017 prices."
+                f"This data is expressed in [international-$](#dod:int_dollar_abbreviation) at 2017 prices."
             )
             df_graphers.loc[j, "type"] = np.nan
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
@@ -811,7 +811,7 @@ for tab in range(len(tables)):
                 f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
             )
             df_graphers.loc[j, "note"] = (
-                "This data is expressed in international-$ at 2017 prices. The cost of closing the poverty gap does not take into account costs and inefficiencies from making the necessary transfers."
+                "This data is expressed in [international-$](#dod:int_dollar_abbreviation) at 2017 prices. The cost of closing the poverty gap does not take into account costs and inefficiencies from making the necessary transfers."
             )
             df_graphers.loc[j, "type"] = np.nan
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
@@ -839,7 +839,7 @@ for tab in range(len(tables)):
                 f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
             )
             df_graphers.loc[j, "note"] = (
-                f"This data is expressed in international-$ at 2017 prices."
+                f"This data is expressed in [international-$](#dod:int_dollar_abbreviation) at 2017 prices."
             )
             df_graphers.loc[j, "type"] = np.nan
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
@@ -1114,7 +1114,7 @@ for tab in range(len(tables)):
                 f"{povlines_abs['subtitle'][p]} {equivalence_scales['subtitle'][eq]}"
             )
             df_graphers.loc[j, "note"] = (
-                f"This data is expressed in international-$ at 2017 prices."
+                f"This data is expressed in [international-$](#dod:int_dollar_abbreviation) at 2017 prices."
             )
             df_graphers.loc[j, "type"] = np.nan
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
@@ -1143,7 +1143,7 @@ for tab in range(len(tables)):
                 f"{povlines_abs['subtitle'][p]} {equivalence_scales['subtitle'][eq]}"
             )
             df_graphers.loc[j, "note"] = (
-                f"This data is expressed in international-$ at 2017 prices."
+                f"This data is expressed in [international-$](#dod:int_dollar_abbreviation) at 2017 prices."
             )
             df_graphers.loc[j, "type"] = np.nan
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
@@ -1174,7 +1174,7 @@ for tab in range(len(tables)):
                 f"{povlines_abs['subtitle_total_shortfall'][p]} {equivalence_scales['subtitle'][eq]}"
             )
             df_graphers.loc[j, "note"] = (
-                "This data is expressed in international-$ at 2017 prices. The cost of closing the poverty gap does not take into account costs and inefficiencies from making the necessary transfers."
+                "This data is expressed in [international-$](#dod:int_dollar_abbreviation) at 2017 prices. The cost of closing the poverty gap does not take into account costs and inefficiencies from making the necessary transfers."
             )
             df_graphers.loc[j, "type"] = np.nan
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
