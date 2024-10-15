@@ -1004,7 +1004,7 @@ for tab in range(len(merged_tables)):
             )
             df_graphers.loc[j, "subtitle"] = datasets_description
             df_graphers.loc[j, "note"] = (
-                f"{pip_povlines_abs['subtitle'][p]} This data is expressed in international-$ at 2017 prices."
+                f"{pip_povlines_abs['subtitle'][p]} This data is expressed in [international-$](#dod:int_dollar_abbreviation) at 2017 prices."
             )
             df_graphers.loc[j, "type"] = np.nan
             j += 1
@@ -1020,7 +1020,7 @@ for tab in range(len(merged_tables)):
             )
             df_graphers.loc[j, "subtitle"] = datasets_description
             df_graphers.loc[j, "note"] = (
-                f"{pip_povlines_abs['subtitle'][p]} This data is expressed in international-$ at 2017 prices."
+                f"{pip_povlines_abs['subtitle'][p]} This data is expressed in [international-$](#dod:int_dollar_abbreviation) at 2017 prices."
             )
             df_graphers.loc[j, "type"] = np.nan
             j += 1
@@ -1042,7 +1042,7 @@ for tab in range(len(merged_tables)):
                 f"{pip_povlines_abs['subtitle_total_shortfall'][p]}"
             )
             df_graphers.loc[j, "note"] = (
-                f"{datasets_description} This data is expressed in international-$ at 2017 prices."
+                f"{datasets_description} This data is expressed in [international-$](#dod:int_dollar_abbreviation) at 2017 prices."
             )
             df_graphers.loc[j, "type"] = np.nan
             j += 1

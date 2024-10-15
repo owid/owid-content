@@ -545,7 +545,7 @@ for tab in range(len(tables)):
                 f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]}"
             )
             df_graphers.loc[j, "note"] = (
-                f"This data is expressed in international-$ at {PPP_YEAR_WID} prices. {welfare['note'][wel]}"
+                f"This data is expressed in [international-$](#dod:int_dollar_abbreviation) at {PPP_YEAR_WID} prices. {welfare['note'][wel]}"
             )
             df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
             df_graphers.loc[j, "hasMapTab"] = "true"
@@ -572,7 +572,7 @@ for tab in range(len(tables)):
                 f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]}"
             )
             df_graphers.loc[j, "note"] = (
-                f"This data is expressed in international-$ at {PPP_YEAR_WID} prices. {welfare['note'][wel]}"
+                f"This data is expressed in [international-$](#dod:int_dollar_abbreviation) at {PPP_YEAR_WID} prices. {welfare['note'][wel]}"
             )
             df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
             df_graphers.loc[j, "hasMapTab"] = "true"
@@ -802,7 +802,7 @@ for tab in range(len(tables)):
                 f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]}"
             )
             df_graphers.loc[j, "note"] = (
-                f"This data is expressed in international-$ at {PPP_YEAR_WID} prices. {welfare['note'][wel]}"
+                f"This data is expressed in [international-$](#dod:int_dollar_abbreviation) at {PPP_YEAR_WID} prices. {welfare['note'][wel]}"
             )
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
             df_graphers.loc[j, "hasMapTab"] = "false"
@@ -828,7 +828,7 @@ for tab in range(len(tables)):
             f"This data is adjusted for inflation and for differences in the cost of living between countries."
         )
         df_graphers.loc[j, "note"] = (
-            f"This data is expressed in international-$ at {PPP_YEAR_WID} prices."
+            f"This data is expressed in [international-$](#dod:int_dollar_abbreviation) at {PPP_YEAR_WID} prices."
         )
         df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
         df_graphers.loc[j, "hasMapTab"] = "false"
@@ -853,7 +853,7 @@ for tab in range(len(tables)):
             f"This data is adjusted for inflation and for differences in the cost of living between countries."
         )
         df_graphers.loc[j, "note"] = (
-            f"This data is expressed in international-$ at {PPP_YEAR_WID} prices."
+            f"This data is expressed in [international-$](#dod:int_dollar_abbreviation) at {PPP_YEAR_WID} prices."
         )
         df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
         df_graphers.loc[j, "hasMapTab"] = "false"
