@@ -499,7 +499,7 @@ for survey in range(len(survey_type)):
             "This data is adjusted for inflation and for differences in the cost of living between countries."
         )
         df_graphers.loc[j, "note"] = (
-            f"This data is expressed in [international-$](#dod:int_dollar_abbreviation) at 2017 prices. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} per capita."
+            f"This data is expressed in [international-$](#dod:int_dollar_abbreviation) at 2017 prices. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} [per capita](#dod:per-capita)."
         )
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "yAxisMin"] = yAxisMin
@@ -532,7 +532,7 @@ for survey in range(len(survey_type)):
             "This data is adjusted for inflation and for differences in the cost of living between countries."
         )
         df_graphers.loc[j, "note"] = (
-            f"This data is expressed in [international-$](#dod:int_dollar_abbreviation) at 2017 prices. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} per capita."
+            f"This data is expressed in [international-$](#dod:int_dollar_abbreviation) at 2017 prices. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} [per capita](#dod:per-capita)."
         )
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "yAxisMin"] = yAxisMin
@@ -568,7 +568,7 @@ for survey in range(len(survey_type)):
                 f"The level of {survey_type.text_ineq[survey]} per person per {income_aggregation.aggregation[agg]} below which {deciles9.decile[dec9]}0% of the population falls."
             )
             df_graphers.loc[j, "note"] = (
-                f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} per capita."
+                f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} [per capita](#dod:per-capita)."
             )
             df_graphers.loc[j, "type"] = np.nan
             df_graphers.loc[j, "yAxisMin"] = yAxisMin
@@ -606,7 +606,7 @@ for survey in range(len(survey_type)):
                 f"The mean {survey_type.text_ineq[survey]} per person per {income_aggregation.aggregation[agg]} within the {deciles10.ordinal[dec10]} (tenth of the population)."
             )
             df_graphers.loc[j, "note"] = (
-                f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} per capita."
+                f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} [per capita](#dod:per-capita)."
             )
             df_graphers.loc[j, "type"] = np.nan
             df_graphers.loc[j, "yAxisMin"] = yAxisMin
@@ -643,7 +643,7 @@ for survey in range(len(survey_type)):
             f"The level of {survey_type.text_ineq[survey]} per person per {income_aggregation.aggregation[agg]} below which 10%, 20%, 30%, etc. of the population falls."
         )
         df_graphers.loc[j, "note"] = (
-            f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} per capita."
+            f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} [per capita](#dod:per-capita)."
         )
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "yAxisMin"] = yAxisMin
@@ -681,7 +681,7 @@ for survey in range(len(survey_type)):
             f"The mean {survey_type.text_ineq[survey]} per person per {income_aggregation.aggregation[agg]} within each decile (tenth of the population)."
         )
         df_graphers.loc[j, "note"] = (
-            f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} per capita."
+            f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} [per capita](#dod:per-capita)."
         )
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "yAxisMin"] = yAxisMin
@@ -714,7 +714,7 @@ for survey in range(len(survey_type)):
             f"The share of {survey_type.text_ineq[survey]} received by the {deciles10.ordinal[dec10]} (tenth of the population)."
         )
         df_graphers.loc[j, "note"] = (
-            f"Depending on the country and year, the data relates to {survey_type.detailed_text[survey]} per capita."
+            f"Depending on the country and year, the data relates to {survey_type.detailed_text[survey]} [per capita](#dod:per-capita)."
         )
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "yAxisMin"] = yAxisMin
@@ -745,7 +745,7 @@ for survey in range(len(survey_type)):
         f"The share of {survey_type.text_ineq[survey]} received by each decile (tenth of the population)."
     )
     df_graphers.loc[j, "note"] = (
-        f"Depending on the country and year, the data relates to {survey_type.detailed_text[survey]} per capita."
+        f"Depending on the country and year, the data relates to {survey_type.detailed_text[survey]} [per capita](#dod:per-capita)."
     )
     df_graphers.loc[j, "type"] = np.nan
     df_graphers.loc[j, "yAxisMin"] = yAxisMin
@@ -844,30 +844,30 @@ df_graphers["relatedQuestionUrl"] = np.nan
 df_graphers["mapTargetTime"] = df_graphers["mapTargetTime"].astype("Int64")
 
 # When the "Depending on" footnote is introduced, it generates unwanted texts as:
-# "Depending on the country and year, the data relates to income measured after taxes and benefits per capita."
-# "Depending on the country and year, the data relates to consumption per capita."
+# "Depending on the country and year, the data relates to income measured after taxes and benefits [per capita](#dod:per-capita)."
+# "Depending on the country and year, the data relates to consumption [per capita](#dod:per-capita)."
 
 # When int-$ are not included
 df_graphers["note"] = df_graphers["note"].str.replace(
-    "Depending on the country and year, the data relates to income measured after taxes and benefits per capita.",
-    "The data relates to income measured after taxes and benefits per capita.",
+    "Depending on the country and year, the data relates to income measured after taxes and benefits [per capita](#dod:per-capita).",
+    "The data relates to income measured after taxes and benefits [per capita](#dod:per-capita).",
     regex=False,
 )
 df_graphers["note"] = df_graphers["note"].str.replace(
-    "Depending on the country and year, the data relates to consumption per capita.",
-    "The data relates to consumption per capita.",
+    "Depending on the country and year, the data relates to consumption [per capita](#dod:per-capita).",
+    "The data relates to consumption [per capita](#dod:per-capita).",
     regex=False,
 )
 
 # When int-$ are included
 df_graphers["note"] = df_graphers["note"].str.replace(
-    "Depending on the country and year, it relates to income measured after taxes and benefits per capita.",
-    "It relates to income measured after taxes and benefits per capita.",
+    "Depending on the country and year, it relates to income measured after taxes and benefits [per capita](#dod:per-capita).",
+    "It relates to income measured after taxes and benefits [per capita](#dod:per-capita).",
     regex=False,
 )
 df_graphers["note"] = df_graphers["note"].str.replace(
-    "Depending on the country and year, it relates to consumption per capita.",
-    "It relates to consumption per capita.",
+    "Depending on the country and year, it relates to consumption [per capita](#dod:per-capita).",
+    "It relates to consumption [per capita](#dod:per-capita).",
     regex=False,
 )
 
