@@ -979,7 +979,6 @@ df_tables["tolerance"] = df_tables["tolerance"].astype("Int64")
 # Grapher table generation
 
 yAxisMin = Y_AXIS_MIN
-mapTargetTime = MAP_TARGET_TIME
 selectedFacetStrategy = "entity"
 hasMapTab = "false"
 tab_parameter = "chart"
@@ -1228,9 +1227,8 @@ for tab in range(len(merged_tables)):
 
     df_graphers["tableSlug"] = merged_tables["name"][tab]
 
-# Add yAxisMin and mapTargetTime
+# Add yAxisMin
 df_graphers["yAxisMin"] = yAxisMin
-df_graphers["mapTargetTime"] = mapTargetTime
 df_graphers["selectedFacetStrategy"] = selectedFacetStrategy
 df_graphers["hasMapTab"] = hasMapTab
 df_graphers["tab"] = tab_parameter
@@ -1245,9 +1243,6 @@ df_graphers = df_graphers[df_graphers["ySlugs"] != ""].reset_index(drop=True)
 # Add related question link
 df_graphers["relatedQuestionText"] = np.nan
 df_graphers["relatedQuestionUrl"] = np.nan
-
-# Make mapTargetTime integer (to not break the parameter in the platform)
-df_graphers["mapTargetTime"] = df_graphers["mapTargetTime"].astype("Int64")
 
 # Select one default view
 df_graphers.loc[

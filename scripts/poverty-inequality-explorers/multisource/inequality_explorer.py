@@ -444,7 +444,6 @@ df_tables["tolerance"] = df_tables["tolerance"].astype("Int64")
 # Grapher table generation
 
 yAxisMin = Y_AXIS_MIN
-mapTargetTime = MAP_TARGET_TIME
 
 df_graphers_wid = pd.DataFrame()
 
@@ -626,15 +625,13 @@ df_graphers_wid = df_graphers_wid[
 ].reset_index(drop=True)
 
 # %% [markdown]
-# Add yAxisMin and mapTargetTime
+# Add yAxisMin
 df_graphers_wid["yAxisMin"] = yAxisMin
-df_graphers_wid["mapTargetTime"] = mapTargetTime
 
 ###########################################################################################
 # WORLD BANK POVERTY AND INEQUALITY PLATFORM
 ###########################################################################################
 yAxisMin = Y_AXIS_MIN
-mapTargetTime = MAP_TARGET_TIME
 
 df_graphers_pip = pd.DataFrame()
 
@@ -801,233 +798,10 @@ for survey in range(len(pip_tables)):
     df_graphers_pip.loc[j, "tab"] = "map"
     j += 1
 
-# Add yAxisMin and mapTargetTime
+# Add yAxisMin
 df_graphers_pip["yAxisMin"] = yAxisMin
-df_graphers_pip["mapTargetTime"] = mapTargetTime
 
-# We are removing LIS from this main explorer
-# ###########################################################################################
-# # LUXEMBOURG INCOME STUDY (LIS)
-# ###########################################################################################
-
-# yAxisMin = 0
-# mapTargetTime = 2019
-
-# df_graphers_lis = pd.DataFrame()
-
-# j = 0
-
-# for tab in range(len(lis_tables)):
-#     for wel in range(len(lis_welfare)):
-#         for eq in range(len(lis_equivalence_scales)):
-#             # Gini coefficient
-#             df_graphers_lis.loc[
-#                 j, "title"
-#             ] = f"Gini coefficient"
-#             df_graphers_lis.loc[
-#                 j, "ySlugs"
-#             ] = f"gini_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
-#             df_graphers_lis.loc[
-#                 j, "Data Radio"
-#             ] = f"{lis_tables['source_name'][tab]} - {lis_welfare['welfare_type'][wel].capitalize()} {lis_welfare['title'][wel]}"
-#             df_graphers_lis.loc[j, "Indicator Dropdown"] = "Gini coefficient"
-#             df_graphers_lis.loc[
-#                 j, "equivalized"
-#             ] = f"{lis_equivalence_scales['text'][eq]}"
-#             df_graphers_lis.loc[
-#                 j, "subtitle"
-#             ] = f"The Gini coefficient measures inequality on a scale between 0 and 1, where higher values indicate greater inequality. {lis_welfare['subtitle'][wel]}"
-#             df_graphers_lis.loc[j, "note"] = f"{lis_equivalence_scales['note'][eq]}"
-#             df_graphers_lis.loc[j, "selectedFacetStrategy"] = np.nan
-#             df_graphers_lis.loc[j, "hasMapTab"] = "true"
-#             df_graphers_lis.loc[j, "tab"] = "map"
-#             j += 1
-
-#             # Share of the top 10%
-#             df_graphers_lis.loc[
-#                 j, "title"
-#             ] = f"{lis_welfare['welfare_type'][wel].capitalize()} share of the richest 10%"
-#             df_graphers_lis.loc[
-#                 j, "ySlugs"
-#             ] = f"share_p100_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
-#             df_graphers_lis.loc[
-#                 j, "Data Radio"
-#             ] = f"{lis_tables['source_name'][tab]} - {lis_welfare['welfare_type'][wel].capitalize()} {lis_welfare['title'][wel]}"
-#             df_graphers_lis.loc[j, "Indicator Dropdown"] = "Share of the richest 10%"
-#             df_graphers_lis.loc[
-#                 j, "equivalized"
-#             ] = f"{lis_equivalence_scales['text'][eq]}"
-#             df_graphers_lis.loc[
-#                 j, "subtitle"
-#             ] = f"This is the {lis_welfare['welfare_type'][wel]} of the richest 10% as a share of total {lis_welfare['welfare_type'][wel]}. {lis_welfare['subtitle'][wel]}"
-#             df_graphers_lis.loc[j, "note"] = f"{lis_equivalence_scales['note'][eq]}"
-#             df_graphers_lis.loc[j, "selectedFacetStrategy"] = np.nan
-#             df_graphers_lis.loc[j, "hasMapTab"] = "true"
-#             df_graphers_lis.loc[j, "tab"] = "map"
-#             j += 1
-
-#             # Share of the bottom 50%
-#             df_graphers_lis.loc[
-#                 j, "title"
-#             ] = f"{lis_welfare['welfare_type'][wel].capitalize()} share of the poorest 50%"
-#             df_graphers_lis.loc[
-#                 j, "ySlugs"
-#             ] = f"share_bottom50_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
-#             df_graphers_lis.loc[
-#                 j, "Data Radio"
-#             ] = f"{lis_tables['source_name'][tab]} - {lis_welfare['welfare_type'][wel].capitalize()} {lis_welfare['title'][wel]}"
-#             df_graphers_lis.loc[j, "Indicator Dropdown"] = "Share of the poorest 50%"
-#             df_graphers_lis.loc[
-#                 j, "equivalized"
-#             ] = f"{lis_equivalence_scales['text'][eq]}"
-#             df_graphers_lis.loc[
-#                 j, "subtitle"
-#             ] = f"This is the {lis_welfare['welfare_type'][wel]} of the poorest 50% as a share of total {lis_welfare['welfare_type'][wel]}. {lis_welfare['subtitle'][wel]}"
-#             df_graphers_lis.loc[j, "note"] = f"{lis_equivalence_scales['note'][eq]}"
-#             df_graphers_lis.loc[j, "selectedFacetStrategy"] = np.nan
-#             df_graphers_lis.loc[j, "hasMapTab"] = "true"
-#             df_graphers_lis.loc[j, "tab"] = "map"
-#             j += 1
-
-#             # P90/P10
-#             df_graphers_lis.loc[
-#                 j, "title"
-#             ] = f"P90/P10 ratio"
-#             df_graphers_lis.loc[
-#                 j, "ySlugs"
-#             ] = f"p90_p10_ratio_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
-#             df_graphers_lis.loc[
-#                 j, "Data Radio"
-#             ] = f"{lis_tables['source_name'][tab]} - {lis_welfare['welfare_type'][wel].capitalize()} {lis_welfare['title'][wel]}"
-#             df_graphers_lis.loc[j, "Indicator Dropdown"] = "P90/P10"
-#             df_graphers_lis.loc[
-#                 j, "equivalized"
-#             ] = f"{lis_equivalence_scales['text'][eq]}"
-#             df_graphers_lis.loc[
-#                 j, "subtitle"
-#             ] = f"P90 and P10 are the levels of {lis_welfare['welfare_type'][wel]} below which 90% and 10% of the population live, respectively. This variable gives the ratio of the two. It is a measure of inequality that indicates the gap between the richest and poorest tenth of the population. {lis_welfare['subtitle'][wel]}"
-#             df_graphers_lis.loc[j, "note"] = f"{lis_equivalence_scales['note'][eq]}"
-#             df_graphers_lis.loc[j, "type"] = np.nan
-#             df_graphers_lis.loc[j, "selectedFacetStrategy"] = np.nan
-#             df_graphers_lis.loc[j, "hasMapTab"] = "true"
-#             df_graphers_lis.loc[j, "tab"] = "map"
-#             j += 1
-
-#             # P90/P50
-#             df_graphers_lis.loc[
-#                 j, "title"
-#             ] = f"P90/P50 ratio"
-#             df_graphers_lis.loc[
-#                 j, "ySlugs"
-#             ] = f"p90_p50_ratio_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
-#             df_graphers_lis.loc[
-#                 j, "Data Radio"
-#             ] = f"{lis_tables['source_name'][tab]} - {lis_welfare['welfare_type'][wel].capitalize()} {lis_welfare['title'][wel]}"
-#             df_graphers_lis.loc[j, "Indicator Dropdown"] = "P90/P50"
-#             df_graphers_lis.loc[
-#                 j, "equivalized"
-#             ] = f"{lis_equivalence_scales['text'][eq]}"
-#             df_graphers_lis.loc[
-#                 j, "subtitle"
-#             ] = f"The P90/P50 ratio measures the degree of inequality within the richest half of the population. A ratio of 2 means that someone just falling in the richest tenth of the population has twice the median {lis_welfare['welfare_type'][wel]}. {lis_welfare['subtitle'][wel]}"
-#             df_graphers_lis.loc[j, "note"] = f"{lis_equivalence_scales['note'][eq]}"
-#             df_graphers_lis.loc[j, "type"] = np.nan
-#             df_graphers_lis.loc[j, "selectedFacetStrategy"] = np.nan
-#             df_graphers_lis.loc[j, "hasMapTab"] = "true"
-#             df_graphers_lis.loc[j, "tab"] = "map"
-#             j += 1
-
-#             # P50/P10
-#             df_graphers_lis.loc[
-#                 j, "title"
-#             ] = f"P50/P10 ratio"
-#             df_graphers_lis.loc[
-#                 j, "ySlugs"
-#             ] = f"p50_p10_ratio_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
-#             df_graphers_lis.loc[
-#                 j, "Data Radio"
-#             ] = f"{lis_tables['source_name'][tab]} - {lis_welfare['welfare_type'][wel].capitalize()} {lis_welfare['title'][wel]}"
-#             df_graphers_lis.loc[j, "Indicator Dropdown"] = "P50/P10"
-#             df_graphers_lis.loc[
-#                 j, "equivalized"
-#             ] = f"{lis_equivalence_scales['text'][eq]}"
-#             df_graphers_lis.loc[
-#                 j, "subtitle"
-#             ] = f"The P50/P10 ratio measures the degree of inequality within the poorest half of the population. A ratio of 2 means that the median {lis_welfare['welfare_type'][wel]} is two times higher than that of someone just falling in the poorest tenth of the population. {lis_welfare['subtitle'][wel]}"
-#             df_graphers_lis.loc[j, "note"] = f"{lis_equivalence_scales['note'][eq]}"
-#             df_graphers_lis.loc[j, "type"] = np.nan
-#             df_graphers_lis.loc[j, "selectedFacetStrategy"] = np.nan
-#             df_graphers_lis.loc[j, "hasMapTab"] = "true"
-#             df_graphers_lis.loc[j, "tab"] = "map"
-#             j += 1
-
-#             # # Palma ratio
-#             df_graphers_lis.loc[
-#                 j, "title"
-#             ] = f"Palma ratio"
-#             df_graphers_lis.loc[
-#                 j, "ySlugs"
-#             ] = f"palma_ratio_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
-#             df_graphers_lis.loc[
-#                 j, "Data Radio"
-#             ] = f"{lis_tables['source_name'][tab]} - {lis_welfare['welfare_type'][wel].capitalize()} {lis_welfare['title'][wel]}"
-#             df_graphers_lis.loc[j, "Indicator Dropdown"] = "Palma ratio"
-#             df_graphers_lis.loc[
-#                 j, "equivalized"
-#             ] = f"{lis_equivalence_scales['text'][eq]}"
-#             df_graphers_lis.loc[
-#                 j, "subtitle"
-#             ] = f"The Palma ratio is the share of total {lis_welfare['welfare_type'][wel]} of the top 10% divided by the share of the bottom 40%. {lis_welfare['subtitle'][wel]}"
-#             df_graphers_lis.loc[j, "note"] = f"{lis_equivalence_scales['note'][eq]}"
-#             df_graphers_lis.loc[j, "selectedFacetStrategy"] = np.nan
-#             df_graphers_lis.loc[j, "hasMapTab"] = "true"
-#             df_graphers_lis.loc[j, "tab"] = "map"
-#             j += 1
-
-#             # Headcount ratio (rel)
-#             df_graphers_lis.loc[
-#                 j, "title"
-#             ] = f"Relative poverty: Share of people below 50% of the median income"
-#             df_graphers_lis.loc[
-#                 j, "ySlugs"
-#             ] = f"headcount_ratio_50_median_{lis_welfare['slug'][wel]}_{lis_equivalence_scales['slug'][eq]}"
-#             df_graphers_lis.loc[
-#                 j, "Data Radio"
-#             ] = f"{lis_tables['source_name'][tab]} - {lis_welfare['welfare_type'][wel].capitalize()} {lis_welfare['title'][wel]}"
-#             df_graphers_lis.loc[
-#                 j, "Indicator Dropdown"
-#             ] = f"Share in relative poverty (< 50% of the median)"
-#             df_graphers_lis.loc[
-#                 j, "equivalized"
-#             ] = f"{lis_equivalence_scales['text'][eq]}"
-#             df_graphers_lis.loc[
-#                 j, "subtitle"
-#             ] = f"Relative poverty is measured in terms of a poverty line that rises and falls over time with average incomes – in this case set at 50% of the median {lis_welfare['welfare_type'][wel]}. {lis_welfare['subtitle'][wel]}"
-#             df_graphers_lis.loc[j, "note"] = f"{lis_equivalence_scales['note'][eq]}"
-#             df_graphers_lis.loc[j, "type"] = np.nan
-#             df_graphers_lis.loc[j, "selectedFacetStrategy"] = np.nan
-#             df_graphers_lis.loc[j, "hasMapTab"] = "true"
-#             df_graphers_lis.loc[j, "tab"] = "map"
-#             j += 1
-
-#     df_graphers_lis["tableSlug"] = lis_tables["name"][tab]
-
-# # Keep only equivalized data
-# df_graphers_lis = df_graphers_lis[
-#     df_graphers_lis["equivalized"] == "equivalized"
-# ].reset_index(drop=True)
-# # Drop equivalized column
-# df_graphers_lis = df_graphers_lis.drop(columns=["equivalized"])
-
-
-# # Add yAxisMin and mapTargetTime
-# df_graphers_lis["yAxisMin"] = yAxisMin
-# df_graphers_lis["mapTargetTime"] = mapTargetTime
-
-# Concatenate all the graphers dataframes
-# df_graphers = pd.concat(
-#     [df_graphers_pip, df_graphers_wid, df_graphers_lis], ignore_index=True
-# )
+# Concatenate all the graphers into one
 df_graphers = pd.concat([df_graphers_wid, df_graphers_pip], ignore_index=True)
 
 # %% [markdown]
@@ -1037,9 +811,6 @@ df_graphers = pd.concat([df_graphers_wid, df_graphers_pip], ignore_index=True)
 # Add related question link
 df_graphers["relatedQuestionText"] = np.nan
 df_graphers["relatedQuestionUrl"] = np.nan
-
-# Make mapTargetTime integer (to not break the parameter in the platform)
-df_graphers["mapTargetTime"] = df_graphers["mapTargetTime"].astype("Int64")
 
 # Select one default view
 df_graphers.loc[

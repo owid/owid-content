@@ -83,7 +83,6 @@ colorScaleEqualSizeBins = COLOR_SCALE_EQUAL_SIZEBINS
 new_line = NEW_LINE
 
 yAxisMin = Y_AXIS_MIN
-mapTargetTime = MAP_TARGET_TIME
 
 additional_description = ADDITIONAL_DESCRIPTION_PIP
 
@@ -506,7 +505,6 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
         df_graphers.loc[j, "hasMapTab"] = "true"
         df_graphers.loc[j, "tab"] = "map"
-        df_graphers.loc[j, "mapTargetTime"] = mapTargetTime
         df_graphers.loc[j, "yScaleToggle"] = "true"
         df_graphers.loc[j, "survey_type"] = survey_type["table_name"][survey]
         j += 1
@@ -539,7 +537,6 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
         df_graphers.loc[j, "hasMapTab"] = "true"
         df_graphers.loc[j, "tab"] = "map"
-        df_graphers.loc[j, "mapTargetTime"] = mapTargetTime
         df_graphers.loc[j, "yScaleToggle"] = "true"
         df_graphers.loc[j, "survey_type"] = survey_type["table_name"][survey]
         j += 1
@@ -575,7 +572,6 @@ for survey in range(len(survey_type)):
             df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
             df_graphers.loc[j, "hasMapTab"] = "true"
             df_graphers.loc[j, "tab"] = "map"
-            df_graphers.loc[j, "mapTargetTime"] = mapTargetTime
             df_graphers.loc[j, "yScaleToggle"] = "true"
             df_graphers.loc[j, "survey_type"] = survey_type["table_name"][survey]
             j += 1
@@ -613,7 +609,6 @@ for survey in range(len(survey_type)):
             df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
             df_graphers.loc[j, "hasMapTab"] = "true"
             df_graphers.loc[j, "tab"] = "map"
-            df_graphers.loc[j, "mapTargetTime"] = mapTargetTime
             df_graphers.loc[j, "yScaleToggle"] = "true"
             df_graphers.loc[j, "survey_type"] = survey_type["table_name"][survey]
             j += 1
@@ -650,7 +645,6 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
         df_graphers.loc[j, "hasMapTab"] = np.nan
         df_graphers.loc[j, "tab"] = np.nan
-        df_graphers.loc[j, "mapTargetTime"] = np.nan
         df_graphers.loc[j, "yScaleToggle"] = "true"
         df_graphers.loc[j, "survey_type"] = survey_type["table_name"][survey]
         j += 1
@@ -688,7 +682,6 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
         df_graphers.loc[j, "hasMapTab"] = np.nan
         df_graphers.loc[j, "tab"] = np.nan
-        df_graphers.loc[j, "mapTargetTime"] = np.nan
         df_graphers.loc[j, "yScaleToggle"] = "true"
         df_graphers.loc[j, "survey_type"] = survey_type["table_name"][survey]
         j += 1
@@ -721,7 +714,6 @@ for survey in range(len(survey_type)):
         df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
         df_graphers.loc[j, "hasMapTab"] = "true"
         df_graphers.loc[j, "tab"] = "map"
-        df_graphers.loc[j, "mapTargetTime"] = mapTargetTime
         df_graphers.loc[j, "yScaleToggle"] = "false"
         df_graphers.loc[j, "survey_type"] = survey_type["table_name"][survey]
         j += 1
@@ -752,7 +744,6 @@ for survey in range(len(survey_type)):
     df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
     df_graphers.loc[j, "hasMapTab"] = np.nan
     df_graphers.loc[j, "tab"] = np.nan
-    df_graphers.loc[j, "mapTargetTime"] = np.nan
     df_graphers.loc[j, "survey_type"] = survey_type["table_name"][survey]
     j += 1
 
@@ -806,7 +797,6 @@ for i in range(len(df_graphers)):
     df_graphers_spells.loc[j, "selectedFacetStrategy"] = "entity"
     df_graphers_spells.loc[j, "hasMapTab"] = "false"
     df_graphers_spells.loc[j, "tab"] = np.nan
-    df_graphers_spells.loc[j, "mapTargetTime"] = np.nan
     df_graphers_spells.loc[
         j, "Show breaks between less comparable surveys Checkbox"
     ] = "true"
@@ -839,9 +829,6 @@ df_graphers = pd.concat([df_graphers, df_graphers_spells], ignore_index=True)
 # Add related question link
 df_graphers["relatedQuestionText"] = np.nan
 df_graphers["relatedQuestionUrl"] = np.nan
-
-# Make mapTargetTime integer (to not break the parameter in the platform)
-df_graphers["mapTargetTime"] = df_graphers["mapTargetTime"].astype("Int64")
 
 # When the "Depending on" footnote is introduced, it generates unwanted texts as:
 # "Depending on the country and year, the data relates to income measured after taxes and benefits [per capita](#dod:per-capita)."

@@ -89,7 +89,6 @@ colorScaleEqualSizeBins = COLOR_SCALE_EQUAL_SIZEBINS
 new_line = NEW_LINE
 
 yAxisMin = Y_AXIS_MIN
-mapTargetTime = MAP_TARGET_TIME
 
 notes_title = NOTES_TITLE_LIS
 
@@ -504,12 +503,8 @@ for tab in range(len(tables)):
 df_graphers["relatedQuestionText"] = np.nan
 df_graphers["relatedQuestionUrl"] = np.nan
 
-# Add yAxisMin and mapTargetTime
+# Add yAxisMin
 df_graphers["yAxisMin"] = yAxisMin
-df_graphers["mapTargetTime"] = mapTargetTime
-
-# Make mapTargetTime integer (to not break the parameter in the platform)
-df_graphers["mapTargetTime"] = df_graphers["mapTargetTime"].astype("Int64")
 
 # Select one default view
 df_graphers.loc[
