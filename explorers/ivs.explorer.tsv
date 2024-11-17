@@ -8,18 +8,18 @@ pickerColumnSlugs
 
 graphers
 	yVariableIds	Indicator Dropdown	type	colorVariableId									defaultView
-	821042	Work is a duty towards society	Marimekko	123									true
-	821091	Violence against other people	Marimekko	123
-	821060	Most serious problem: poverty	Marimekko	123
-	821062	Most serious problem: Poor sanitation	Marimekko	123
-	821063	Most serious problem: Education	Marimekko	123
-	821064	Most serious problem: Pollution	Marimekko	123
-	821061	Most serious problem: Discrimination against women	Marimekko	123
-	820952	Schwartz secure	Marimekko	123
-	821012	Schwartz environment	Marimekko	123
-	821034	Work vs. leisure: Work	Marimekko	123
-	821032	Work vs. leisure: Leisure	Marimekko	123
-	821050	Work vs. leisure 2: Work	Marimekko	123
-	821052	Work vs. leisure 2: Leisure	Marimekko	123
-	821227	Worries: education	Marimekko	123
-	821237	Worries: war	Marimekko	123
+	821042	Work is a duty towards society	Marimekko	900801									true
+	821091	Violence against other people	Marimekko	900801
+	821060	Most serious problem: poverty	Marimekko	900801
+	821062	Most serious problem: Poor sanitation	Marimekko	900801
+	821063	Most serious problem: Education	Marimekko	900801
+	821064	Most serious problem: Pollution	Marimekko	900801
+	821061	Most serious problem: Discrimination against women	Marimekko	900801
+	820952	Schwartz secure	Marimekko	900801
+	821012	Schwartz environment	Marimekko	900801
+	821034	Work vs. leisure: Work	Marimekko	900801
+	821032	Work vs. leisure: Leisure	Marimekko	900801
+	821050	Work vs. leisure 2: Work	Marimekko	900801
+	821052	Work vs. leisure 2: Leisure	Marimekko	900801
+	821227	Worries: education	Marimekko	900801
+	821237	Worries: war	Marimekko	900801
