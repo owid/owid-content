@@ -1,7 +1,7 @@
 explorerTitle	US COVID-19 Vaccination
 explorerSubtitle	Explore data on COVID-19 vaccination in the US.
 downloadDataLink	https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations#united-states-vaccination-data
-isPublished	true
+isPublished	false
 selection	United States	California	Texas	Florida	New York State	Pennsylvania	Illinois	Ohio	Georgia	North Carolina
 entityType	state
 hideAlertBanner	true
