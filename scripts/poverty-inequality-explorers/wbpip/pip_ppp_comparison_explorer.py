@@ -336,7 +336,7 @@ for survey in range(len(survey_type)):
             processing_description,
         ]
     )
-    df_tables.loc[j, "unit"] = "international-$ at 2011 prices"
+    df_tables.loc[j, "unit"] = "international-$ in 2011 prices"
     df_tables.loc[j, "shortUnit"] = "$"
     df_tables.loc[j, "type"] = "Numeric"
     df_tables.loc[j, "colorScaleNumericBins"] = "1;2;5;10;20;50;50.0001"
@@ -380,7 +380,7 @@ for survey in range(len(survey_type)):
             processing_description,
         ]
     )
-    df_tables.loc[j, "unit"] = "international-$ at 2011 prices"
+    df_tables.loc[j, "unit"] = "international-$ in 2011 prices"
     df_tables.loc[j, "shortUnit"] = "$"
     df_tables.loc[j, "type"] = "Numeric"
     df_tables.loc[j, "colorScaleNumericBins"] = "1;2;5;10;20;50;50.0001"
@@ -424,7 +424,7 @@ for survey in range(len(survey_type)):
             processing_description,
         ]
     )
-    df_tables.loc[j, "unit"] = "international-$ at 2011 prices"
+    df_tables.loc[j, "unit"] = "international-$ in 2011 prices"
     df_tables.loc[j, "shortUnit"] = "$"
     df_tables.loc[j, "type"] = "Numeric"
     df_tables.loc[j, "colorScaleNumericBins"] = "1;2;5;10;20;20.0001"
@@ -466,7 +466,7 @@ for survey in range(len(survey_type)):
             processing_description,
         ]
     )
-    df_tables.loc[j, "unit"] = "international-$ at 2011 prices"
+    df_tables.loc[j, "unit"] = "international-$ in 2011 prices"
     df_tables.loc[j, "shortUnit"] = "$"
     df_tables.loc[j, "type"] = "Numeric"
     df_tables.loc[j, "colorScaleNumericBins"] = "5;10;20;50;100;100.0001"
@@ -1021,7 +1021,7 @@ for survey in range(len(survey_type)):
         f"P10 is the level of {survey_type.text[survey]} per day below which 10% of the population falls."
     )
     df_graphers.loc[j, "note"] = (
-        f"This data is measured in international-$ at 2011 prices to account for inflation and differences in the cost of living between countries. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} [per capita](#dod:per-capita)."
+        f"This data is measured in [international-$](#dod:int_dollar_abbreviation) at 2011 prices to account for inflation and differences in the cost of living between countries. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} [per capita](#dod:per-capita)."
     )
     df_graphers.loc[j, "type"] = np.nan
     df_graphers.loc[j, "yAxisMin"] = yAxisMin
@@ -1048,7 +1048,7 @@ for survey in range(len(survey_type)):
         f"P10 is the level of {survey_type.text[survey]} per day below which 10% of the population falls."
     )
     df_graphers.loc[j, "note"] = (
-        f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} [per capita](#dod:per-capita)."
+        f"This data is measured in [international-$](#dod:int_dollar_abbreviation) at 2017 prices to account for inflation and differences in the cost of living between countries. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} [per capita](#dod:per-capita)."
     )
     df_graphers.loc[j, "type"] = np.nan
     df_graphers.loc[j, "yAxisMin"] = yAxisMin
@@ -1102,7 +1102,7 @@ for survey in range(len(survey_type)):
         f"P90 is the level of {survey_type.text[survey]} per day above which 10% of the population falls."
     )
     df_graphers.loc[j, "note"] = (
-        f"This data is measured in international-$ at 2011 prices to account for inflation and differences in the cost of living between countries. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} [per capita](#dod:per-capita)."
+        f"This data is measured in [international-$](#dod:int_dollar_abbreviation) at 2011 prices to account for inflation and differences in the cost of living between countries. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} [per capita](#dod:per-capita)."
     )
     df_graphers.loc[j, "type"] = np.nan
     df_graphers.loc[j, "yAxisMin"] = yAxisMin
@@ -1129,7 +1129,7 @@ for survey in range(len(survey_type)):
         f"P90 is the level of {survey_type.text[survey]} per day above which 10% of the population falls."
     )
     df_graphers.loc[j, "note"] = (
-        f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} [per capita](#dod:per-capita)."
+        f"This data is measured in [international-$](#dod:int_dollar_abbreviation) at 2017 prices to account for inflation and differences in the cost of living between countries. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} [per capita](#dod:per-capita)."
     )
     df_graphers.loc[j, "type"] = np.nan
     df_graphers.loc[j, "yAxisMin"] = yAxisMin

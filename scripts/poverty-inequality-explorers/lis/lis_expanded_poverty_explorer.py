@@ -658,7 +658,7 @@ for tab in range(len(tables)):
                     f"{povlines_abs['subtitle_avg_shortfall'][p]} {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
                 )
                 df_graphers.loc[j, "note"] = (
-                    f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+                    f"This data is measured in [international-$](#dod:int_dollar_abbreviation) at 2017 prices to account for inflation and differences in the cost of living between countries."
                 )
                 df_graphers.loc[j, "type"] = np.nan
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -691,7 +691,7 @@ for tab in range(len(tables)):
                     f"{povlines_abs['subtitle_income_gap_ratio'][p]} {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
                 )
                 df_graphers.loc[j, "note"] = (
-                    f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+                    f"This data is measured in [international-$](#dod:int_dollar_abbreviation) at 2017 prices to account for inflation and differences in the cost of living between countries."
                 )
                 df_graphers.loc[j, "type"] = np.nan
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -722,7 +722,7 @@ for tab in range(len(tables)):
                     f"The poverty gap index is a poverty measure that reflects both the prevalence and the depth of poverty. It is calculated as the share of population in poverty multiplied by the average shortfall from the poverty line (expressed as a % of the poverty line). {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
                 )
                 df_graphers.loc[j, "note"] = (
-                    f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+                    f"This data is measured in [international-$](#dod:int_dollar_abbreviation) at 2017 prices to account for inflation and differences in the cost of living between countries."
                 )
                 df_graphers.loc[j, "type"] = np.nan
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -868,7 +868,7 @@ for tab in range(len(tables)):
                 f"{welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
             )
             df_graphers.loc[j, "note"] = (
-                f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+                f"This data is measured in [international-$](#dod:int_dollar_abbreviation) at 2017 prices to account for inflation and differences in the cost of living between countries."
             )
             df_graphers.loc[j, "type"] = np.nan
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
@@ -896,7 +896,7 @@ for tab in range(len(tables)):
                 f"{welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
             )
             df_graphers.loc[j, "note"] = (
-                f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+                f"This data is measured in [international-$](#dod:int_dollar_abbreviation) at 2017 prices to account for inflation and differences in the cost of living between countries."
             )
             df_graphers.loc[j, "type"] = np.nan
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
@@ -988,7 +988,7 @@ for tab in range(len(tables)):
                     f"This is the amount of money that would be theoretically needed to lift the incomes of all people in poverty up to {povlines_rel.text[pct]} {welfare['welfare_type'][wel]}. {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
                 )
                 df_graphers.loc[j, "note"] = (
-                    f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+                    f"This data is measured in [international-$](#dod:int_dollar_abbreviation) at 2017 prices to account for inflation and differences in the cost of living between countries."
                 )
                 df_graphers.loc[j, "type"] = np.nan
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -1019,7 +1019,7 @@ for tab in range(len(tables)):
                     f"This is the amount of money that would be theoretically needed to lift the incomes of all people in poverty up to {povlines_rel['text'][pct]} {welfare['welfare_type'][wel]}, averaged across the population in poverty. {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
                 )
                 df_graphers.loc[j, "note"] = (
-                    f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+                    f"This data is measured in [international-$](#dod:int_dollar_abbreviation) at 2017 prices to account for inflation and differences in the cost of living between countries."
                 )
                 df_graphers.loc[j, "type"] = np.nan
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -1052,7 +1052,7 @@ for tab in range(len(tables)):
                     f'This is the average shortfall expressed as a share of the poverty line, sometimes called the "income gap ratio". It captures the depth of poverty of those living on less than {povlines_rel.text[pct]} {welfare.welfare_type[wel]}. {welfare.subtitle[wel]} {equivalence_scales.note[eq]}'
                 )
                 df_graphers.loc[j, "note"] = (
-                    f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+                    f"This data is measured in [international-$](#dod:int_dollar_abbreviation) at 2017 prices to account for inflation and differences in the cost of living between countries."
                 )
                 df_graphers.loc[j, "type"] = np.nan
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -1083,7 +1083,7 @@ for tab in range(len(tables)):
                     f"The poverty gap index is a poverty measure that reflects both the prevalence and the depth of poverty. It is calculated as the share of population in poverty multiplied by the average shortfall from the poverty line (expressed as a % of the poverty line). {welfare['subtitle'][wel]} {equivalence_scales['subtitle'][eq]}"
                 )
                 df_graphers.loc[j, "note"] = (
-                    f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+                    f"This data is measured in [international-$](#dod:int_dollar_abbreviation) at 2017 prices to account for inflation and differences in the cost of living between countries."
                 )
                 df_graphers.loc[j, "type"] = np.nan
                 df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
@@ -1202,7 +1202,7 @@ for tab in range(len(tables)):
                 f"{povlines_abs['subtitle_avg_shortfall'][p]} {equivalence_scales['subtitle'][eq]}"
             )
             df_graphers.loc[j, "note"] = (
-                f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+                f"This data is measured in [international-$](#dod:int_dollar_abbreviation) at 2017 prices to account for inflation and differences in the cost of living between countries."
             )
             df_graphers.loc[j, "type"] = np.nan
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
@@ -1233,7 +1233,7 @@ for tab in range(len(tables)):
                 f"{povlines_abs['subtitle_income_gap_ratio'][p]} {equivalence_scales['subtitle'][eq]}"
             )
             df_graphers.loc[j, "note"] = (
-                f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+                f"This data is measured in [international-$](#dod:int_dollar_abbreviation) at 2017 prices to account for inflation and differences in the cost of living between countries."
             )
             df_graphers.loc[j, "type"] = np.nan
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
@@ -1262,7 +1262,7 @@ for tab in range(len(tables)):
                 f"The poverty gap index is a poverty measure that reflects both the prevalence and the depth of poverty. It is calculated as the share of population in poverty multiplied by the average shortfall from the poverty line (expressed as a % of the poverty line). {equivalence_scales['subtitle'][eq]}"
             )
             df_graphers.loc[j, "note"] = (
-                f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+                f"This data is measured in [international-$](#dod:int_dollar_abbreviation) at 2017 prices to account for inflation and differences in the cost of living between countries."
             )
             df_graphers.loc[j, "type"] = np.nan
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
@@ -1347,7 +1347,7 @@ for tab in range(len(tables)):
                 f"This is the amount of money that would be theoretically needed to lift the incomes of all people in poverty up to {povlines_rel.text[pct]} income. {equivalence_scales['subtitle'][eq]}"
             )
             df_graphers.loc[j, "note"] = (
-                f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+                f"This data is measured in [international-$](#dod:int_dollar_abbreviation) at 2017 prices to account for inflation and differences in the cost of living between countries."
             )
             df_graphers.loc[j, "type"] = np.nan
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
@@ -1376,7 +1376,7 @@ for tab in range(len(tables)):
                 f"This is the amount of money that would be theoretically needed to lift the incomes of all people in poverty up to {povlines_rel['text'][pct]} income, averaged across the population in poverty. {equivalence_scales['subtitle'][eq]}"
             )
             df_graphers.loc[j, "note"] = (
-                f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+                f"This data is measured in [international-$](#dod:int_dollar_abbreviation) at 2017 prices to account for inflation and differences in the cost of living between countries."
             )
             df_graphers.loc[j, "type"] = np.nan
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
@@ -1407,7 +1407,7 @@ for tab in range(len(tables)):
                 f'This is the average shortfall expressed as a share of the poverty line, sometimes called the "income gap ratio". It captures the depth of poverty of those living on less than {povlines_rel.text[pct]} income. {equivalence_scales.note[eq]}'
             )
             df_graphers.loc[j, "note"] = (
-                f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+                f"This data is measured in [international-$](#dod:int_dollar_abbreviation) at 2017 prices to account for inflation and differences in the cost of living between countries."
             )
             df_graphers.loc[j, "type"] = np.nan
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
@@ -1436,7 +1436,7 @@ for tab in range(len(tables)):
                 f"The poverty gap index is a poverty measure that reflects both the prevalence and the depth of poverty. It is calculated as the share of population in poverty multiplied by the average shortfall from the poverty line (expressed as a % of the poverty line). {equivalence_scales['subtitle'][eq]}"
             )
             df_graphers.loc[j, "note"] = (
-                f"This data is measured in international-$ at 2017 prices to account for inflation and differences in the cost of living between countries."
+                f"This data is measured in [international-$](#dod:int_dollar_abbreviation) at 2017 prices to account for inflation and differences in the cost of living between countries."
             )
             df_graphers.loc[j, "type"] = np.nan
             df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
