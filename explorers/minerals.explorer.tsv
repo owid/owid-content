@@ -143,10 +143,11 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_lime_processing_tonnes	Lime	Production	Processing	false	1963	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_lime_processing_tonnes	Lime	Production	Processing	true	1963	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_lime_processing_constant_1998_usd_per_tonne	Lime	Unit value	Processing	false	1904	false	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_lithium_mine_tonnes	Lithium	Production	Mine	false	2023	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_lithium_mine_tonnes	Lithium	Production	Mine	true	2023	true	0	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_lithium_mine_tonnes	Lithium	Production	Mine	false	2000	true	0	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_lithium_mine_tonnes	Lithium	Production	Mine	true	2000	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_lithium_mine_tonnes	Lithium	Reserves	Mine	false	2023	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_lithium_mine_tonnes	Lithium	Reserves	Mine	true	2023	true	0	false
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_lithium_mine_constant_1998_usd_per_tonne	Lithium	Unit value	Mine	false	1936	false	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_magnesium_compounds_mine_tonnes	Magnesium compounds	Production	Mine	false	1900	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_magnesium_compounds_mine_tonnes	Magnesium compounds	Production	Mine	true	1913	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_magnesium_compounds_mine_tonnes	Magnesium compounds	Reserves	Mine	false	2023	true	0	false
@@ -595,4 +596,3 @@ columns
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_zinc_mine_tonnes	2.0;5.0;10.0;20.0;1.8636364	BuGn
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_zirconium_and_hafnium_mine_tonnes	2.0;5.0;10.0;20.0;1.875	BuGn
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_zirconium_and_hafnium_mine_tonnes	0.3;1.0;3.0;10.0;30.0;0.024324324	BuGn
-
