@@ -147,7 +147,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_lithium_mine_tonnes	Lithium	Production	Mine	true	2000	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_lithium_mine_tonnes	Lithium	Reserves	Mine	false	2023	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_lithium_mine_tonnes	Lithium	Reserves	Mine	true	2023	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_lithium_mine_constant_1998_usd_per_tonne	Lithium	Unit value	Mine	false	1936	false	0	false
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_lithium_mine_constant_1998_usd_per_tonne	Lithium	Unit value	Mine	false	1952	false	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_magnesium_compounds_mine_tonnes	Magnesium compounds	Production	Mine	false	1900	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_magnesium_compounds_mine_tonnes	Magnesium compounds	Production	Mine	true	1913	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_magnesium_compounds_mine_tonnes	Magnesium compounds	Reserves	Mine	false	2023	true	0	false
@@ -220,10 +220,11 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_potash_mine__potassic_salts_tonnes	Potash	Production	Mine, potassic salts	false	1970	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_potash_unspecified_tonnes	Potash	Production	Unspecified	false	1970	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_potash_mine_tonnes	Potash	Reserves	Mine	false	2023	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_rare_earths_mine_tonnes	Rare earths	Production	Mine	false	2023	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_rare_earths_mine_tonnes	Rare earths	Production	Mine	true	2023	true	0	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_rare_earths_mine_tonnes	Rare earths	Production	Mine	false	1900	true	0	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_rare_earths_mine_tonnes	Rare earths	Production	Mine	true	1900	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_rare_earths_mine_tonnes	Rare earths	Reserves	Mine	false	2023	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_rare_earths_mine_tonnes	Rare earths	Reserves	Mine	true	2023	true	0	false
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_rare_earths_mine_constant_1998_usd_per_tonne	Rare earths	Unit value	Mine	false	1922	false	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_salt_mine_tonnes	Salt	Production	Mine	false	1900	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_salt_mine_tonnes	Salt	Production	Mine	true	1900	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_salt_mine_constant_1998_usd_per_tonne	Salt	Unit value	Mine	false	1900	false	0	false
