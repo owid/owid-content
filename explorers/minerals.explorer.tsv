@@ -95,8 +95,9 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_garnet_mine_tonnes	Garnet	Production	Mine	true	1913	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_garnet_mine_tonnes	Garnet	Reserves	Mine	false	2023	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_garnet_mine_constant_1998_usd_per_tonne	Garnet	Unit value	Mine	false	1900	false	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_gemstones_mine_tonnes	Gemstones	Production	Mine	false	2023	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_gemstones_mine_tonnes	Gemstones	Production	Mine	true	2023	true	0	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_gemstones_mine_tonnes	Gemstones	Production	Mine	false	1944	true	0	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_gemstones_mine_tonnes	Gemstones	Production	Mine	true	1944	true	0	false
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_gemstones_mine_constant_1998_usd_per_tonne	Gemstones	Unit value	Mine	false	1919	false	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_germanium_refinery_tonnes	Germanium	Production	Refinery	false	1956	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_germanium_refinery_tonnes	Germanium	Production	Refinery	true	1957	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_germanium_refinery_constant_1998_usd_per_tonne	Germanium	Unit value	Refinery	false	1945	false	0	false
@@ -118,10 +119,11 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_helium_mine_tonnes	Helium	Production	Mine	true	1935	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_helium_mine_tonnes	Helium	Reserves	Mine	false	2023	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_helium_mine_constant_1998_usd_per_tonne	Helium	Unit value	Mine	false	1938	false	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_iodine_mine_tonnes	Iodine	Production	Mine	false	1975	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_iodine_mine_tonnes	Iodine	Production	Mine	true	2023	true	0	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_iodine_mine_tonnes	Iodine	Production	Mine	false	1932	true	0	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_iodine_mine_tonnes	Iodine	Production	Mine	true	1960	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_iodine_mine_tonnes	Iodine	Reserves	Mine	false	2023	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_iodine_mine_tonnes	Iodine	Reserves	Mine	true	2023	true	0	false
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_iodine_mine_constant_1998_usd_per_tonne	Iodine	Unit value	Mine	false	1928	false	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_iron_smelter__pig_iron_tonnes	Iron	Production	Smelter, pig iron	false	1910	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_iron_smelter__pig_iron_tonnes	Iron	Production	Smelter, pig iron	true	1910	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_iron_smelter__pig_iron_constant_1998_usd_per_tonne	Iron	Unit value	Smelter, pig iron	false	1900	false	0	false
@@ -213,18 +215,20 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_platinum_group_metals_mine__ruthenium_tonnes	Platinum group metals	Production	Mine, ruthenium	false	2022	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_platinum_group_metals_mine__platinum_tonnes	Platinum group metals	Reserves	Mine, platinum	false	2023	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_platinum_group_metals_mine__platinum_tonnes	Platinum group metals	Reserves	Mine, platinum	true	2023	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_potash_mine_tonnes	Potash	Production	Mine	false	2023	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_potash_mine_tonnes	Potash	Production	Mine	true	2023	true	0	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_potash_mine_tonnes	Potash	Production	Mine	false	1900	true	0	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_potash_mine_tonnes	Potash	Production	Mine	true	1919	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_potash_mine__chloride_tonnes	Potash	Production	Mine, chloride	false	1970	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_potash_mine__polyhalite_tonnes	Potash	Production	Mine, polyhalite	false	2013	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_potash_mine__potassic_salts_tonnes	Potash	Production	Mine, potassic salts	false	1970	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_potash_unspecified_tonnes	Potash	Production	Unspecified	false	1970	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_potash_mine_tonnes	Potash	Reserves	Mine	false	2023	true	0	false
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_potash_mine_constant_1998_usd_per_tonne	Potash	Unit value	Mine	false	1900	false	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_rare_earths_mine_tonnes	Rare earths	Production	Mine	false	1900	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_rare_earths_mine_tonnes	Rare earths	Production	Mine	true	1900	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_rare_earths_mine_tonnes	Rare earths	Reserves	Mine	false	2023	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_rare_earths_mine_tonnes	Rare earths	Reserves	Mine	true	2023	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_rare_earths_mine_constant_1998_usd_per_tonne	Rare earths	Unit value	Mine	false	1922	false	0	false
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_rhenium_mine_constant_1998_usd_per_tonne	Rhenium	Unit value	Mine	false	1964	false	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_salt_mine_tonnes	Salt	Production	Mine	false	1900	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_salt_mine_tonnes	Salt	Production	Mine	true	1900	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_salt_mine_constant_1998_usd_per_tonne	Salt	Unit value	Mine	false	1900	false	0	false
