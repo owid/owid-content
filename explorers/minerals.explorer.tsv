@@ -95,8 +95,9 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_garnet_mine_tonnes	Garnet	Production	Mine	true	1913	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_garnet_mine_tonnes	Garnet	Reserves	Mine	false	2023	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_garnet_mine_constant_1998_usd_per_tonne	Garnet	Unit value	Mine	false	1900	false	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_gemstones_mine_tonnes	Gemstones	Production	Mine	false	2023	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_gemstones_mine_tonnes	Gemstones	Production	Mine	true	2023	true	0	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_gemstones_mine_tonnes	Gemstones	Production	Mine	false	1944	true	0	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_gemstones_mine_tonnes	Gemstones	Production	Mine	true	1944	true	0	false
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_gemstones_mine_constant_1998_usd_per_tonne	Gemstones	Unit value	Mine	false	1919	false	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_germanium_refinery_tonnes	Germanium	Production	Refinery	false	1956	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_germanium_refinery_tonnes	Germanium	Production	Refinery	true	1957	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_germanium_refinery_constant_1998_usd_per_tonne	Germanium	Unit value	Refinery	false	1945	false	0	false
