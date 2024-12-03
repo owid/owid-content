@@ -2,7 +2,6 @@ explorerTitle	Air Pollution
 explorerSubtitle	Explore historical emissions of air pollutants across the world.
 isPublished	true
 selection	United States	China	India	United Kingdom	World
-explorerSubtitle
 hideAlertBanner	true
 subNavId
 thumbnail	https://assets.ourworldindata.org/uploads/2022/08/Air-Pollution-Data-Explorer.png
