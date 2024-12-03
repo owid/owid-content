@@ -2,7 +2,6 @@ explorerTitle	Impacts of Energy Production
 explorerSubtitle	Explore the environmental and health impacts of electricity sources.
 isPublished	true
 selection	Coal	Gas	Nuclear	Onshore wind	Offshore wind	Hydropower	Solar PV, silicon (on-ground)	Solar PV, cadmium (on-ground)
-explorerSubtitle
 hideAlertBanner	true
 subNavId
 wpBlockId	47482
