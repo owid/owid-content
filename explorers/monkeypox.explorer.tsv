@@ -1,6 +1,6 @@
 explorerTitle	Mpox
 explorerSubtitle	Explore the data produced by the World Health Organization and Africa CDC on mpox (monkeypox).
-selection	Democratic Republic of Congo	Congo	Cameroon	Burundi
+selection	Democratic Republic of Congo	Burundi	Uganda	Central African Republic
 isPublished	true
 thumbnail	https://assets.ourworldindata.org/uploads/2022/05/Monkeypox-Data-Explorer.png
 hideAlertBanner	true
@@ -10,8 +10,8 @@ pickerColumnSlugs	location total_confirmed_by_confirmation total_confirmed_by_co
 downloadDataLink	https://catalog.ourworldindata.org/explorers/who/latest/monkeypox/monkeypox.csv
 graphers
 	title	subtitle	ySlugs	hideAnnotationFieldsInTitle	Metric Radio	Frequency Radio	Relative to population Checkbox	type	yScaleToggle	selectedFacetStrategy	hasMapTab	minTime	facetYDomain	note	tableSlug
-	Mpox: Cumulative confirmed and suspected cases	Confirmed cases are those that have been verified through laboratory testing. Suspected cases are those where mpox is likely based on an individual’s initial clinical signs and symptoms, but the diagnosis has not yet been confirmed through laboratory testing.	total_cases suspected_cases_cumulative	true	Confirmed and suspected cases	Cumulative	false	LineChart	true	entity	false	1433	independent		mpox
 	Mpox: Daily confirmed cases	7-day rolling average. Laboratory testing for mpox is limited in many countries and figures shown here only include laboratory-confirmed cases.	new_cases_smoothed	true	Confirmed cases	7-day average	false	LineChart	true						mpox
+	Mpox: Cumulative confirmed and suspected cases	Confirmed cases are those that have been verified through laboratory testing. Suspected cases are those where mpox is likely based on an individual’s initial clinical signs and symptoms, but the diagnosis has not yet been confirmed through laboratory testing.	total_cases suspected_cases_cumulative	true	Confirmed and suspected cases	Cumulative	false	LineChart	true	entity	false	1433	independent	As of November 2024, suspected cases are no longer being reported.	mpox
 	Mpox: Cumulative confirmed cases	Laboratory testing for mpox is limited in many countries and figures shown here only include laboratory-confirmed cases.	total_cases	true	Confirmed cases	Cumulative	false	LineChart	true						mpox
 	Mpox: Daily confirmed cases	Laboratory testing  for mpox is limited in many countries and figures shown here only include laboratory-confirmed cases.	new_cases	true	Confirmed cases	Daily	false	StackedBar	true						mpox
 	Mpox: Cumulative confirmed cases per million people	Laboratory testing for mpox is limited in many countries and figures shown here only include laboratory-confirmed cases.	total_cases_per_million	true	Confirmed cases	Cumulative	true	LineChart	true						mpox
