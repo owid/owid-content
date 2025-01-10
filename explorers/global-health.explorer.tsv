@@ -65,29 +65,28 @@ graphers
 	2928	Life expectancy	Life expectancy by sex	Years	HMD; UN WPP	entity
 	7287	Life expectancy	Life expectancy by age	Years	HMD; UN WPP	entity
 	6026	Life expectancy	Healthy life expectancy	Years	WHO (GHO)
-	471	Vaccination coverage	Diphtheria, pertussis, and tetanus	Share of one-year-olds vaccinated	UNICEF/WHO
-	4563	Vaccination coverage	Diphtheria, pertussis, and tetanus	Number of one-year-olds not vaccinated	UNICEF/WHO
-	3603	Vaccination coverage	Haemophilus influenzae type B	Share of one-year-olds vaccinated	UNICEF/WHO
-	4566	Vaccination coverage	Haemophilus influenzae type B	Number of one-year-olds not vaccinated	UNICEF/WHO
-	1546	Vaccination coverage	Hepatitis B	Share of one-year-olds vaccinated	UNICEF/WHO
-	4565	Vaccination coverage	Hepatitis B	Number of one-year-olds not vaccinated	UNICEF/WHO
-	299	Vaccination coverage	Measles (first dose)	Share of one-year-olds vaccinated	UNICEF/WHO
-	4568	Vaccination coverage	Measles (first dose)	Number of one-year-olds not vaccinated	UNICEF/WHO
-	3887	Vaccination coverage	Measles (second dose)	Share of children vaccinated	UNICEF/WHO
-	4561	Vaccination coverage	Polio (inactivated, first dose)	Share of one-year-olds vaccinated	UNICEF/WHO
-	4567	Vaccination coverage	Polio (inactivated, first dose)	Number of one-year-olds not vaccinated	UNICEF/WHO
-	1068	Vaccination coverage	Polio (third dose)	Share of one-year-olds vaccinated	UNICEF/WHO
-	4569	Vaccination coverage	Polio (third dose)	Number of one-year-olds not vaccinated	UNICEF/WHO
-	3553	Vaccination coverage	Rotavirus	Share of one-year-olds vaccinated	UNICEF/WHO
-	4571	Vaccination coverage	Rotavirus	Number of one-year-olds not vaccinated	UNICEF/WHO
-	4573	Vaccination coverage	Rubella	Share of one-year-olds vaccinated	UNICEF/WHO
-	4574	Vaccination coverage	Rubella	Number of one-year-olds not vaccinated	UNICEF/WHO
-	3594	Vaccination coverage	Streptococcus pneumoniae	Share of one-year-olds vaccinated	UNICEF/WHO
-	4572	Vaccination coverage	Streptococcus pneumoniae	Number of one-year-olds not vaccinated	UNICEF/WHO
-	1547	Vaccination coverage	Tuberculosis (BCG)	Share of one-year-olds vaccinated	UNICEF/WHO
-	4564	Vaccination coverage	Tuberculosis (BCG)	Number of one-year-olds not vaccinated	UNICEF/WHO
-	3899	Vaccination coverage	Yellow fever	Share of one-year-olds vaccinated	UNICEF/WHO
-	4570	Vaccination coverage	Yellow fever	Number of one-year-olds not vaccinated	UNICEF/WHO
+	471	Vaccination coverage	Diphtheria, pertussis, and tetanus	Share of one-year-olds vaccinated	WHO/UNICEF
+	4563	Vaccination coverage	Diphtheria, pertussis, and tetanus	Number of one-year-olds not vaccinated	WHO/UNICEF
+	3603	Vaccination coverage	Haemophilus influenzae type B	Share of one-year-olds vaccinated	WHO/UNICEF
+	4566	Vaccination coverage	Haemophilus influenzae type B	Number of one-year-olds not vaccinated	WHO/UNICEF
+	1546	Vaccination coverage	Hepatitis B	Share of one-year-olds vaccinated	WHO/UNICEF
+	4565	Vaccination coverage	Hepatitis B	Number of one-year-olds not vaccinated	WHO/UNICEF
+	299	Vaccination coverage	Measles (first dose)	Share of one-year-olds vaccinated	WHO/UNICEF
+	4568	Vaccination coverage	Measles (first dose)	Number of one-year-olds not vaccinated	WHO/UNICEF
+	3887	Vaccination coverage	Measles (second dose)	Share of children vaccinated	WHO/UNICEF
+	4561	Vaccination coverage	Polio (inactivated, first dose)	Share of one-year-olds vaccinated	WHO/UNICEF
+	4567	Vaccination coverage	Polio (inactivated, first dose)	Number of one-year-olds not vaccinated	WHO/UNICEF
+	1068	Vaccination coverage	Polio (third dose)	Share of one-year-olds vaccinated	WHO/UNICEF
+	4569	Vaccination coverage	Polio (third dose)	Number of one-year-olds not vaccinated	WHO/UNICEF
+	3553	Vaccination coverage	Rotavirus	Share of one-year-olds vaccinated	WHO/UNICEF
+	4571	Vaccination coverage	Rotavirus	Number of one-year-olds not vaccinated	WHO/UNICEF
+	4573	Vaccination coverage	Rubella	Share of one-year-olds vaccinated	WHO/UNICEF
+	4574	Vaccination coverage	Rubella	Number of one-year-olds not vaccinated	WHO/UNICEF
+	3594	Vaccination coverage	Streptococcus pneumoniae	Share of one-year-olds vaccinated	WHO/UNICEF
+	4572	Vaccination coverage	Streptococcus pneumoniae	Number of one-year-olds not vaccinated	WHO/UNICEF
+	1547	Vaccination coverage	Tuberculosis (BCG)	Share of newborns vaccinated	WHO/UNICEF
+	3899	Vaccination coverage	Yellow fever	Share of one-year-olds vaccinated	WHO/UNICEF
+	4570	Vaccination coverage	Yellow fever	Number of one-year-olds not vaccinated	WHO/UNICEF
 	2947	Infectious diseases	All infectious diseases	Age-standardized death rate	IHME
 	6140	Infectious diseases	All infectious diseases	Death rate	IHME
 	6141	Infectious diseases	All infectious diseases	Number of deaths	IHME
