@@ -1,5 +1,3 @@
 {
-    "recommendations": [
-        "mechatroner.rainbow-csv"
-    ]
+  "recommendations": ["mechatroner.rainbow-csv", "editorconfig.editorconfig"]
 }
