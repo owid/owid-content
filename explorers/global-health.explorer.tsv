@@ -65,8 +65,8 @@ graphers
 	2928	Life expectancy	Life expectancy by sex	Years	HMD; UN WPP	entity
 	7287	Life expectancy	Life expectancy by age	Years	HMD; UN WPP	entity
 	6026	Life expectancy	Healthy life expectancy	Years	WHO (GHO)
-	471	Vaccination coverage	Diphtheria, pertussis, and tetanus	Share of one-year-olds vaccinated	WHO/UNICEF
-	4563	Vaccination coverage	Diphtheria, pertussis, and tetanus	Number of one-year-olds not vaccinated	WHO/UNICEF
+	471	Vaccination coverage	Diphtheria, tetanus and pertussis	Share of one-year-olds vaccinated	WHO/UNICEF
+	4563	Vaccination coverage	Diphtheria, tetanus and pertussis	Number of one-year-olds not vaccinated	WHO/UNICEF
 	3603	Vaccination coverage	Haemophilus influenzae type B	Share of one-year-olds vaccinated	WHO/UNICEF
 	4566	Vaccination coverage	Haemophilus influenzae type B	Number of one-year-olds not vaccinated	WHO/UNICEF
 	1546	Vaccination coverage	Hepatitis B	Share of one-year-olds vaccinated	WHO/UNICEF
@@ -85,6 +85,7 @@ graphers
 	3594	Vaccination coverage	Streptococcus pneumoniae	Share of one-year-olds vaccinated	WHO/UNICEF
 	4572	Vaccination coverage	Streptococcus pneumoniae	Number of one-year-olds not vaccinated	WHO/UNICEF
 	1547	Vaccination coverage	Tuberculosis (BCG)	Share of newborns vaccinated	WHO/UNICEF
+	4564	Vaccination coverage	Tuberculosis (BCG)	Number of newborns not vaccinated	WHO/UNICEF
 	3899	Vaccination coverage	Yellow fever	Share of one-year-olds vaccinated	WHO/UNICEF
 	4570	Vaccination coverage	Yellow fever	Number of one-year-olds not vaccinated	WHO/UNICEF
 	2947	Infectious diseases	All infectious diseases	Age-standardized death rate	IHME
