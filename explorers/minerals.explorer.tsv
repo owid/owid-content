@@ -46,10 +46,13 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#production_cement_processing_tonnes	Cement	Production	Processing	false	1900	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_cement_processing_tonnes	Cement	Production	Processing	true	1926	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_cement_processing_constant_1998_usd_per_tonne	Cement	Unit value	Processing	false	1900	false	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_chromium_mine_tonnes	Chromium	Production	Mine	false	1970	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_chromium_mine_tonnes	Chromium	Production	Mine	true	2023	true	0	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_chromium_mine_tonnes	Chromium	Production	Mine	false	1900	true	0	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_chromium_mine_tonnes	Chromium	Production	Mine	true	1900	true	0	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_chromium_mine__gross_weight_tonnes	Chromium	Production	Mine, gross weight	false	2023	true	0	false
+	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_chromium_mine__gross_weight_tonnes	Chromium	Production	Mine, gross weight	true	2023	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_chromium_mine_tonnes	Chromium	Reserves	Mine	false	2023	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_chromium_mine_tonnes	Chromium	Reserves	Mine	true	2023	true	0	false
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_chromium_mine_constant_1998_usd_per_tonne	Chromium	Unit value	Mine	false	1900	false	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_coal_mine_tonnes	Coal	Production	Mine	false	1970	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_coal_mine_tonnes	Coal	Production	Mine	true	1970	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_cobalt_mine_tonnes	Cobalt	Production	Mine	false	1901	true	0	false
@@ -227,7 +230,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_rare_earths_mine_tonnes	Rare earths	Production	Mine	true	1900	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_rare_earths_mine_tonnes	Rare earths	Reserves	Mine	false	2023	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_rare_earths_mine_tonnes	Rare earths	Reserves	Mine	true	2023	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#unit_value_rare_earths_mine_constant_1998_usd_per_tonne	Rare earths	Unit value	Mine	false	1922	false	0	false
+	grapher/minerals/2024-07-15/minerals/minerals#unit_value_rare_earths_mine_constant_1998_usd_per_tonne	Rare earths	Unit value	Mine	false	1961	false	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_rhenium_mine_constant_1998_usd_per_tonne	Rhenium	Unit value	Mine	false	1964	false	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_salt_mine_tonnes	Salt	Production	Mine	false	1900	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_salt_mine_tonnes	Salt	Production	Mine	true	1900	true	0	false
