@@ -48,7 +48,7 @@ graphers
 	grapher/minerals/2024-07-15/minerals/minerals#unit_value_cement_processing_constant_1998_usd_per_tonne	Cement	Unit value	Processing	false	1900	false	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#production_chromium_mine_tonnes	Chromium	Production	Mine	false	1900	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_chromium_mine_tonnes	Chromium	Production	Mine	true	1900	true	0	false
-	grapher/minerals/2024-07-15/minerals/minerals#production_chromium_mine__gross_weight_tonnes	Chromium	Production	Mine, gross weight	false	2023	true	0	false
+	grapher/minerals/2024-07-15/minerals/minerals#production_chromium_mine__gross_weight_tonnes	Chromium	Production	Mine, gross weight	false	1970	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_production_chromium_mine__gross_weight_tonnes	Chromium	Production	Mine, gross weight	true	2023	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#reserves_chromium_mine_tonnes	Chromium	Reserves	Mine	false	2023	true	0	false
 	grapher/minerals/2024-07-15/minerals/minerals#share_of_global_reserves_chromium_mine_tonnes	Chromium	Reserves	Mine	true	2023	true	0	false
