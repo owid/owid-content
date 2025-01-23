@@ -11,10 +11,10 @@ graphers
 	yVariableIds	Metric Dropdown	Animal Dropdown	Per person Checkbox	title	subtitle	note	type	yAxisMin	hasMapTab	yScaleToggle
 	835610	Animals slaughtered	All land animals (total)	false	Number of land animals slaughtered for meat per year	This data is based on the country of production, not consumption.		LineChart	0	true	true
 	835611	Animals slaughtered	All land animals (total)	true	Number of land animals slaughtered for meat per person	This data is based on the country of production, not consumption.		LineChart	0	true	true
-	792288 792290 792289	Animals slaughtered	Wild-caught fish	false	Number of wild-caught fish killed for food	Estimates of the number of wild fish killed per year are uncertain – that's why upper and lower-bound estimates are shown. This data is calculated based on annual catch figures from 2007 to 2016 in tonnes, and estimated mean weights for fish species.	This estimate does not include unrecorded fish capture, such as fish caught illegally and those caught as bycatch and discards.	DiscreteBar		true
-	812307 812305 812306	Animals slaughtered	Wild-caught fish	true	Number of wild-caught fish killed for food per person	Estimates of the number of wild fish killed per year are uncertain – that's why upper and lower-bound estimates are shown. This data is calculated based on annual catch figures from 2007 to 2016 in tonnes, and estimated mean weights for fish species.	This estimate does not include unrecorded fish capture, such as fish caught illegally and those caught as bycatch and discards.	DiscreteBar		true
-	791804 791805 791806	Animals slaughtered	Farmed fish	false	Number of farmed fish killed for food	Estimates of the number of farmed fish killed per year are uncertain – that's why upper and lower-bound estimates are shown.	Data does not include lobsters, farmed fish used as bait, and species without estimates of mean weight (which could be an additional 17% of fish production).	DiscreteBar		true
-	812310 812308 812309	Animals slaughtered	Farmed fish	true	Number of farmed fish killed for food per person	Estimates of the number of farmed fish killed per year are uncertain – that's why upper and lower-bound estimates are shown.	Data does not include lobsters, farmed fish used as bait, and species without estimates of mean weight (which could be an additional 17% of fish production).	DiscreteBar		true
+	1007606 1007607 1007609	Animals slaughtered	Wild-caught fish	false	Number of wild-caught fish killed for food	Estimates of the number of wild fish killed per year are uncertain – that's why upper and lower-bound estimates are shown. This data is calculated based on annual catch figures from 2007 to 2016 in tonnes, and estimated mean weights for fish species.	This estimate does not include unrecorded fish capture, such as fish caught illegally and those caught as bycatch and discards.	DiscreteBar		true
+	1007611 1007608 1007610	Animals slaughtered	Wild-caught fish	true	Number of wild-caught fish killed for food per person	Estimates of the number of wild fish killed per year are uncertain – that's why upper and lower-bound estimates are shown. This data is calculated based on annual catch figures from 2007 to 2016 in tonnes, and estimated mean weights for fish species.	This estimate does not include unrecorded fish capture, such as fish caught illegally and those caught as bycatch and discards.	DiscreteBar		true
+	1007612 1007613 1007614	Animals slaughtered	Farmed fish	false	Number of farmed fish killed for food	Estimates of the number of farmed fish killed per year are uncertain – that's why upper and lower-bound estimates are shown.	Data does not include lobsters, farmed fish used as bait, and species without estimates of mean weight (which could be an additional 17% of fish production).	DiscreteBar		true
+	1007617 1007616 1007615	Animals slaughtered	Farmed fish	true	Number of farmed fish killed for food per person	Estimates of the number of farmed fish killed per year are uncertain – that's why upper and lower-bound estimates are shown.	Data does not include lobsters, farmed fish used as bait, and species without estimates of mean weight (which could be an additional 17% of fish production).	DiscreteBar		true
 	791807 791808 791809	Animals slaughtered	Farmed crustaceans	false	Number of farmed crustaceans killed for food	Decapod crustaceans are animals such as shrimps, crabs, lobsters, prawns, and crayfish. Estimates are uncertain – that's why upper and lower-bound estimates are shown.		DiscreteBar		true
 	812304 812302 812303	Animals slaughtered	Farmed crustaceans	true	Number of farmed crustaceans killed for food	Decapod crustaceans are animals such as shrimps, crabs, lobsters, prawns, and crayfish. Estimates are uncertain – that's why upper and lower-bound estimates are shown.		DiscreteBar		true
 	835550	Animals slaughtered	Chickens	false	Number of chickens slaughtered for meat per year	This data is based on the country of production, not consumption.		LineChart	0	true	true
@@ -68,24 +68,24 @@ graphers
 	783621 783620	Cage and cage-free hens		false	Number of laying hens in cages and cage-free housing			StackedDiscreteBar
 	811038	Bans on chick culling		false	Bans on chick culling	Chick culling is the process of separating and killing unwanted male and unhealthy female chicks that cannot produce eggs in industrialized egg facilities.		WorldMap
 	930559	Bans on bullfighting		false	Bans on bullfighting	Bullfighting is a physical contest that involves a bullfighter attempting to subdue, immobilize, or kill a bull.		WorldMap
-	815665	Bans on fur farming		false	Bans on animal fur farming			WorldMap
+	1004688	Bans on fur farming		false	Bans on animal fur farming			WorldMap
 
 columns
 	variableId	tolerance	name	sourceName	colorScaleScheme	colorScaleInvert	colorScaleCategoricalBins	colorScaleNumericBins	unit	shortUnit
 	783621	10
 	783620	10
-	792288		Midpoint	Fishcount				100000000;300000000;1000000000;3000000000;10000000000;30000000000;100000000000;300000000000;1000000000000
-	812307		Midpoint	Fishcount
-	792290		Upper bound	Fishcount
-	812305		Upper bound	Fishcount
-	792289		Lower bound	Fishcount
-	812306		Lower bound	Fishcount
-	791804		Midpoint	Fishcount				10000000;30000000;100000000;300000000;1000000000;3000000000;10000000000;30000000000;100000000000;
-	812310		Midpoint	Fishcount
-	791805		Upper bound	Fishcount
-	812308		Upper bound	Fishcount
-	791806		Lower bound	Fishcount
-	812309		Lower bound	Fishcount
+	1007606		Midpoint	Fishcount				100000000;300000000;1000000000;3000000000;10000000000;30000000000;100000000000;300000000000;1000000000000
+	1007611		Midpoint	Fishcount
+	1007607		Upper bound	Fishcount
+	1007608		Upper bound	Fishcount
+	1007609		Lower bound	Fishcount
+	1007610		Lower bound	Fishcount
+	1007612		Midpoint	Fishcount				10000000;30000000;100000000;300000000;1000000000;3000000000;10000000000;30000000000;100000000000;
+	1007617		Midpoint	Fishcount
+	1007613		Upper bound	Fishcount
+	1007616		Upper bound	Fishcount
+	1007614		Lower bound	Fishcount
+	1007615		Lower bound	Fishcount
 	791807		Midpoint	Fishcount				10000000;30000000;100000000;300000000;1000000000;3000000000;10000000000;30000000000;100000000000;300000000000;
 	812304		Midpoint	Fishcount
 	791808		Upper bound	Fishcount
@@ -146,5 +146,6 @@ columns
 	835044				YlGnBu			100000;300000;1000000;3000000;10000000;30000000;	beehives	beehives
 	811038				OwidCategoricalC	true
 	930559				OwidCategoricalC	true
-	815665				OwidCategoricalC	true
+	1004688				OwidCategoricalC	true
+
 
