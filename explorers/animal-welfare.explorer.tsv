@@ -144,6 +144,6 @@ columns
 	835009				Greens			100000;300000;1000000;3000000;10000000;30000000
 	835914				YlGnBu			100000;300000;1000000;3000000;10000000;30000000;100000000;
 	835044				YlGnBu			100000;300000;1000000;3000000;10000000;30000000;	beehives	beehives
-	811038				OwidCategoricalC	true
-	930559				OwidCategoricalC	true
-	1004688				OwidCategoricalC	true
+	811038				OwidCategoricalC	true	Banned,#759AC8,;Banned but not yet in effect,#058580,Banned (not yet effective);No active farms reported,#99D8C9,;Not banned,#AE2E3F,;Partially banned,#A46F49,;Phased out due to stricter regulation,#6D3E91,;No data,,
+	930559				OwidCategoricalC	true	Banned,#759AC8,;Not banned,#AE2E3F,;Partially banned,#A46F49,
+	1004688				OwidCategoricalC	true	Banned,#759AC8,;Banned (not yet effective),#058580,;No active farms reported,#99D8C9,;Not banned,#AE2E3F,;Partially banned,#A46F49,;Phased out due to stricter regulation,#6D3E91,;No data,,
