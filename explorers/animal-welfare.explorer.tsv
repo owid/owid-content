@@ -15,8 +15,8 @@ graphers
 	1007611 1007608 1007610	Animals slaughtered	Wild-caught fish	true	Number of wild-caught fish killed for food per person	Estimates of the number of wild fish killed per year are uncertain – that's why upper and lower-bound estimates are shown. This data is calculated based on annual catch figures from 2007 to 2016 in tonnes, and estimated mean weights for fish species.	This estimate does not include unrecorded fish capture, such as fish caught illegally and those caught as bycatch and discards.	DiscreteBar		true	true
 	1007612 1007613 1007614	Animals slaughtered	Farmed fish	false	Number of farmed fish killed for food	Estimates of the number of farmed fish killed per year are uncertain – that's why upper and lower-bound estimates are shown.	Data does not include lobsters, farmed fish used as bait, and species without estimates of mean weight (which could be an additional 17% of fish production).	DiscreteBar		true	true
 	1007617 1007616 1007615	Animals slaughtered	Farmed fish	true	Number of farmed fish killed for food per person	Estimates of the number of farmed fish killed per year are uncertain – that's why upper and lower-bound estimates are shown.	Data does not include lobsters, farmed fish used as bait, and species without estimates of mean weight (which could be an additional 17% of fish production).	DiscreteBar		true	true
-	791807 791808 791809	Animals slaughtered	Farmed crustaceans	false	Number of farmed crustaceans killed for food	Decapod crustaceans are animals such as shrimps, crabs, lobsters, prawns, and crayfish. Estimates are uncertain – that's why upper and lower-bound estimates are shown.		DiscreteBar		true	true
-	812304 812302 812303	Animals slaughtered	Farmed crustaceans	true	Number of farmed crustaceans killed for food	Decapod crustaceans are animals such as shrimps, crabs, lobsters, prawns, and crayfish. Estimates are uncertain – that's why upper and lower-bound estimates are shown.		DiscreteBar		true	true
+	1007618 1007621 1007619	Animals slaughtered	Farmed crustaceans	false	Number of farmed crustaceans killed for food	Decapod crustaceans are animals such as shrimps, crabs, lobsters, prawns, and crayfish. Estimates are uncertain – that's why upper and lower-bound estimates are shown.		DiscreteBar		true	true
+	1007623 1007620 1007622	Animals slaughtered	Farmed crustaceans	true	Number of farmed crustaceans killed for food	Decapod crustaceans are animals such as shrimps, crabs, lobsters, prawns, and crayfish. Estimates are uncertain – that's why upper and lower-bound estimates are shown.		DiscreteBar		true	true
 	835550	Animals slaughtered	Chickens	false	Number of chickens slaughtered for meat per year	This data is based on the country of production, not consumption.		LineChart	0	true	true
 	835551	Animals slaughtered	Chickens	true	Number of chickens slaughtered for meat per person	The number of slaughtered animals is divided by the population of a country to give an estimate of the number slaughtered per person.		LineChart	0	true	true
 	835555	Animals slaughtered	Ducks	false	Number of ducks slaughtered for meat per year	This data is based on the country of production, not consumption.		LineChart	0	true	true
@@ -86,12 +86,12 @@ columns
 	1007616		Upper bound	Fishcount
 	1007614		Lower bound	Fishcount
 	1007615		Lower bound	Fishcount
-	791807		Midpoint	Fishcount				10000000;30000000;100000000;300000000;1000000000;3000000000;10000000000;30000000000;100000000000;300000000000;
-	812304		Midpoint	Fishcount
-	791808		Upper bound	Fishcount
-	812302		Upper bound	Fishcount
-	791809		Lower bound	Fishcount
-	812303		Lower bound	Fishcount
+	1007618		Midpoint	Fishcount				10000000;30000000;100000000;300000000;1000000000;3000000000;10000000000;30000000000;100000000000;300000000000;
+	1007623		Midpoint	Fishcount
+	1007621		Upper bound	Fishcount
+	1007620		Upper bound	Fishcount
+	1007619		Lower bound	Fishcount
+	1007622		Lower bound	Fishcount
 	835610				YlOrBr			30000000;100000000;300000000;1000000000;3000000000;10000000000;30000000000
 	835611				YlOrBr			5;10;15;20;25;30;35;40;45;
 	835550				YlGn			30000000;100000000;300000000;1000000000;3000000000;10000000000
