@@ -495,7 +495,7 @@ for survey in range(len(survey_type)):
         )
         df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
         df_graphers.loc[j, "subtitle"] = (
-            "This data is adjusted for inflation and for differences in the cost of living between countries."
+            "This data is adjusted for inflation and for differences in living costs between countries."
         )
         df_graphers.loc[j, "note"] = (
             f"This data is expressed in [international-$](#dod:int_dollar_abbreviation) at 2017 prices. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} [per capita](#dod:per-capita)."
@@ -527,7 +527,7 @@ for survey in range(len(survey_type)):
         )
         df_graphers.loc[j, "tableSlug"] = f"{survey_type.table_name[survey]}"
         df_graphers.loc[j, "subtitle"] = (
-            "This data is adjusted for inflation and for differences in the cost of living between countries."
+            "This data is adjusted for inflation and for differences in living costs between countries."
         )
         df_graphers.loc[j, "note"] = (
             f"This data is expressed in [international-$](#dod:int_dollar_abbreviation) at 2017 prices. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} [per capita](#dod:per-capita)."
@@ -565,7 +565,7 @@ for survey in range(len(survey_type)):
                 f"The level of {survey_type.text_ineq[survey]} per person per {income_aggregation.aggregation[agg]} below which {deciles9.decile[dec9]}0% of the population falls."
             )
             df_graphers.loc[j, "note"] = (
-                f"This data is measured in [international-$](#dod:int_dollar_abbreviation) at 2017 prices to account for inflation and differences in the cost of living between countries. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} [per capita](#dod:per-capita)."
+                f"This data is measured in [international-$](#dod:int_dollar_abbreviation) at 2017 prices to account for inflation and differences in living costs between countries. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} [per capita](#dod:per-capita)."
             )
             df_graphers.loc[j, "type"] = np.nan
             df_graphers.loc[j, "yAxisMin"] = yAxisMin
@@ -602,7 +602,7 @@ for survey in range(len(survey_type)):
                 f"The mean {survey_type.text_ineq[survey]} per person per {income_aggregation.aggregation[agg]} within the {deciles10.ordinal[dec10]} (tenth of the population)."
             )
             df_graphers.loc[j, "note"] = (
-                f"This data is measured in [international-$](#dod:int_dollar_abbreviation) at 2017 prices to account for inflation and differences in the cost of living between countries. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} [per capita](#dod:per-capita)."
+                f"This data is measured in [international-$](#dod:int_dollar_abbreviation) at 2017 prices to account for inflation and differences in living costs between countries. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} [per capita](#dod:per-capita)."
             )
             df_graphers.loc[j, "type"] = np.nan
             df_graphers.loc[j, "yAxisMin"] = yAxisMin
@@ -638,7 +638,7 @@ for survey in range(len(survey_type)):
             f"The level of {survey_type.text_ineq[survey]} per person per {income_aggregation.aggregation[agg]} below which 10%, 20%, 30%, etc. of the population falls."
         )
         df_graphers.loc[j, "note"] = (
-            f"This data is measured in [international-$](#dod:int_dollar_abbreviation) at 2017 prices to account for inflation and differences in the cost of living between countries. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} [per capita](#dod:per-capita)."
+            f"This data is measured in [international-$](#dod:int_dollar_abbreviation) at 2017 prices to account for inflation and differences in living costs between countries. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} [per capita](#dod:per-capita)."
         )
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "yAxisMin"] = yAxisMin
@@ -675,7 +675,7 @@ for survey in range(len(survey_type)):
             f"The mean {survey_type.text_ineq[survey]} per person per {income_aggregation.aggregation[agg]} within each decile (tenth of the population)."
         )
         df_graphers.loc[j, "note"] = (
-            f"This data is measured in [international-$](#dod:int_dollar_abbreviation) at 2017 prices to account for inflation and differences in the cost of living between countries. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} [per capita](#dod:per-capita)."
+            f"This data is measured in [international-$](#dod:int_dollar_abbreviation) at 2017 prices to account for inflation and differences in living costs between countries. Depending on the country and year, it relates to {survey_type.detailed_text[survey]} [per capita](#dod:per-capita)."
         )
         df_graphers.loc[j, "type"] = np.nan
         df_graphers.loc[j, "yAxisMin"] = yAxisMin

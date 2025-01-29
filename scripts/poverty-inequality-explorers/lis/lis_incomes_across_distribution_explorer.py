@@ -439,7 +439,7 @@ for tab in range(len(tables)):
                     "Adjust for cost sharing within households (equivalized income) Checkbox",
                 ] = equivalence_scales["checkbox"][eq]
                 df_graphers.loc[j, "subtitle"] = (
-                    f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]}"
+                    f"This data is adjusted for inflation and for differences in living costs between countries. {welfare['subtitle'][wel]}"
                 )
                 df_graphers.loc[j, "note"] = (
                     f"This data is expressed in [international-$](#dod:int_dollar_abbreviation) at 2017 prices. {equivalence_scales['note'][eq]}"
@@ -470,7 +470,7 @@ for tab in range(len(tables)):
                     "Adjust for cost sharing within households (equivalized income) Checkbox",
                 ] = equivalence_scales["checkbox"][eq]
                 df_graphers.loc[j, "subtitle"] = (
-                    f"This data is adjusted for inflation and for differences in the cost of living between countries. {welfare['subtitle'][wel]}"
+                    f"This data is adjusted for inflation and for differences in living costs between countries. {welfare['subtitle'][wel]}"
                 )
                 df_graphers.loc[j, "note"] = (
                     f"This data is expressed in [international-$](#dod:int_dollar_abbreviation) at 2017 prices. {equivalence_scales['note'][eq]}"
@@ -505,7 +505,7 @@ for tab in range(len(tables)):
                         f"The level of {welfare['welfare_type'][wel]} per {income_aggregation['aggregation'][agg]} below which {deciles9['decile'][dec9]}0% of the population falls. {welfare['subtitle'][wel]}"
                     )
                     df_graphers.loc[j, "note"] = (
-                        f"This data is measured in [international-$](#dod:int_dollar_abbreviation) at 2017 prices to account for inflation and differences in the cost of living between countries. {equivalence_scales['note'][eq]}"
+                        f"This data is measured in [international-$](#dod:int_dollar_abbreviation) at 2017 prices to account for inflation and differences in living costs between countries. {equivalence_scales['note'][eq]}"
                     )
                     df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
                     df_graphers.loc[j, "hasMapTab"] = "true"
@@ -537,7 +537,7 @@ for tab in range(len(tables)):
                         f"The mean {welfare['welfare_type'][wel]} per {income_aggregation['aggregation'][agg]} within the {deciles10['ordinal'][dec10]} (tenth of the population). {welfare['subtitle'][wel]}"
                     )
                     df_graphers.loc[j, "note"] = (
-                        f"This data is measured in [international-$](#dod:int_dollar_abbreviation) at 2017 prices to account for inflation and differences in the cost of living between countries. {equivalence_scales['note'][eq]}"
+                        f"This data is measured in [international-$](#dod:int_dollar_abbreviation) at 2017 prices to account for inflation and differences in living costs between countries. {equivalence_scales['note'][eq]}"
                     )
                     df_graphers.loc[j, "selectedFacetStrategy"] = np.nan
                     df_graphers.loc[j, "hasMapTab"] = "true"
@@ -569,7 +569,7 @@ for tab in range(len(tables)):
                     f"The level of income per {income_aggregation['aggregation'][agg]} below which 10%, 20%, 30%, etc. of the population falls. {welfare['subtitle'][wel]}"
                 )
                 df_graphers.loc[j, "note"] = (
-                    f"This data is measured in [international-$](#dod:int_dollar_abbreviation) at 2017 prices to account for inflation and differences in the cost of living between countries. {equivalence_scales['note'][eq]}"
+                    f"This data is measured in [international-$](#dod:int_dollar_abbreviation) at 2017 prices to account for inflation and differences in living costs between countries. {equivalence_scales['note'][eq]}"
                 )
                 df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
                 df_graphers.loc[j, "hasMapTab"] = "false"
@@ -601,7 +601,7 @@ for tab in range(len(tables)):
                     f"The mean {welfare['welfare_type'][wel]} per {income_aggregation['aggregation'][agg]} within each decile (tenth of the population). {welfare['subtitle'][wel]}"
                 )
                 df_graphers.loc[j, "note"] = (
-                    f"This data is measured in [international-$](#dod:int_dollar_abbreviation) at 2017 prices to account for inflation and differences in the cost of living between countries. {equivalence_scales['note'][eq]}"
+                    f"This data is measured in [international-$](#dod:int_dollar_abbreviation) at 2017 prices to account for inflation and differences in living costs between countries. {equivalence_scales['note'][eq]}"
                 )
                 df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
                 df_graphers.loc[j, "hasMapTab"] = "false"
@@ -628,7 +628,7 @@ for tab in range(len(tables)):
                 "Adjust for cost sharing within households (equivalized income) Checkbox",
             ] = equivalence_scales["checkbox"][eq]
             df_graphers.loc[j, "subtitle"] = (
-                f"This data is adjusted for inflation and for differences in the cost of living between countries."
+                f"This data is adjusted for inflation and for differences in living costs between countries."
             )
             df_graphers.loc[j, "note"] = (
                 f"This data is expressed in [international-$](#dod:int_dollar_abbreviation) at 2017 prices. {equivalence_scales['note'][eq]}"
@@ -657,7 +657,7 @@ for tab in range(len(tables)):
                 "Adjust for cost sharing within households (equivalized income) Checkbox",
             ] = equivalence_scales["checkbox"][eq]
             df_graphers.loc[j, "subtitle"] = (
-                f"This data is adjusted for inflation and for differences in the cost of living between countries."
+                f"This data is adjusted for inflation and for differences in living costs between countries."
             )
             df_graphers.loc[j, "note"] = (
                 f"This data is expressed in [international-$](#dod:int_dollar_abbreviation) at 2017 prices. {equivalence_scales['note'][eq]}"
@@ -692,7 +692,7 @@ for tab in range(len(tables)):
                     f"The level of income per {income_aggregation['aggregation'][agg]} below which {deciles9['decile'][dec9]}0% of the population falls."
                 )
                 df_graphers.loc[j, "note"] = (
-                    f"This data is measured in [international-$](#dod:int_dollar_abbreviation) at 2017 prices to account for inflation and differences in the cost of living between countries. {equivalence_scales['note'][eq]}"
+                    f"This data is measured in [international-$](#dod:int_dollar_abbreviation) at 2017 prices to account for inflation and differences in living costs between countries. {equivalence_scales['note'][eq]}"
                 )
                 df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
                 df_graphers.loc[j, "hasMapTab"] = "false"
@@ -724,7 +724,7 @@ for tab in range(len(tables)):
                     f"The mean income per {income_aggregation['aggregation'][agg]} within the {deciles10['ordinal'][dec10]} (tenth of the population)."
                 )
                 df_graphers.loc[j, "note"] = (
-                    f"This data is measured in [international-$](#dod:int_dollar_abbreviation) at 2017 prices to account for inflation and differences in the cost of living between countries. {equivalence_scales['note'][eq]}"
+                    f"This data is measured in [international-$](#dod:int_dollar_abbreviation) at 2017 prices to account for inflation and differences in living costs between countries. {equivalence_scales['note'][eq]}"
                 )
                 df_graphers.loc[j, "selectedFacetStrategy"] = "entity"
                 df_graphers.loc[j, "hasMapTab"] = "false"

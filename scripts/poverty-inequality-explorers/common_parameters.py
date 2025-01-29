@@ -100,8 +100,8 @@ PROCESSING_DESCRIPTION_PIP_POVERTY = NEW_LINE.join(
     ]
 )
 
-PPP_DESCRIPTION_PIP_2017 = "The data is measured in international-$ at 2017 prices – this adjusts for inflation and for differences in the cost of living between countries."
-PPP_DESCRIPTION_PIP_2011 = "The data is measured in international-$ at 2011 prices – this adjusts for inflation and for differences in the cost of living between countries."
+PPP_DESCRIPTION_PIP_2017 = "The data is measured in international-$ at 2017 prices – this adjusts for inflation and for differences in living costs between countries."
+PPP_DESCRIPTION_PIP_2011 = "The data is measured in international-$ at 2011 prices – this adjusts for inflation and for differences in living costs between countries."
 
 ####################################################################################################
 # WORLD INEQUALITY DATABASE
@@ -126,7 +126,7 @@ ADDITIONAL_DESCRIPTION_WID_POST_TAX = NEW_LINE.join(
     [ADDITIONAL_DESCRIPTION_WID, POST_TAX_WID]
 )
 
-PPP_DESCRIPTION_WID = f"The data is measured in international-$ at {PPP_YEAR_WID} prices – this adjusts for inflation and for differences in the cost of living between countries."
+PPP_DESCRIPTION_WID = f"The data is measured in international-$ at {PPP_YEAR_WID} prices – this adjusts for inflation and for differences in living costs between countries."
 
 ####################################################################################################
 # LUXEMBOURG INCOME STUDY
@@ -152,6 +152,6 @@ PROCESSING_POVERTY_LIS = "We obtain poverty indicators by using [Stata’s povde
 PROCESSING_GINI_MEAN_MEDIAN_LIS = "We obtain Gini coefficients by using [Stata’s ineqdec0 function](https://ideas.repec.org/c/boc/bocode/s366007.html). We set weights as the product between the number of household members (nhhmem) and the normalized household weight (hwgt). We also calculate mean and median values from this function.."
 PROCESSING_DISTRIBUTION_LIS = "Income shares and thresholds by decile are obtained by using [Stata’s sumdist function](https://ideas.repec.org/c/boc/bocode/s366005.html). We set weights as the product between the number of household members (nhhmem) and the normalized household weight (hwgt) and the number of quantile groups as 10. We estimate threshold ratios, share ratios and averages by decile in Python after processing in the LISSY platform."
 
-PPP_DESCRIPTION_LIS = "The data is measured in international-$ at 2017 prices – this adjusts for inflation and for differences in the cost of living between countries."
+PPP_DESCRIPTION_LIS = "The data is measured in international-$ at 2017 prices – this adjusts for inflation and for differences in living costs between countries."
 
 RELATIVE_POVERTY_DESCRIPTION_LIS = "This is a measure of _relative_ poverty – it captures the share of people whose income is low by the standards typical in their own country."

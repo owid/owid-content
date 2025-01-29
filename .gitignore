@@ -3,3 +3,6 @@
 .ipynb_checkpoints
 *.pyc
 .DS_Store
+
+# Virtual environment
+venv/
