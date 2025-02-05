@@ -34,7 +34,7 @@ CONSUMPTION_SPELLS_PIP = 7
 INCOME_SPELLS_PIP = 8
 
 
-INCOME_OR_CONSUMPTION_PIP = "Depending on the country and year, the data relates to income measured after taxes and benefits, or to consumption, per capita. 'Per capita' means that the incomes of each household are attributed equally to each member of the household (including children)."
+INCOME_OR_CONSUMPTION_PIP = 'Depending on the country and year, the data relates to income measured after taxes and benefits, or to consumption, per capita. "Per capita" means that the incomes of each household are attributed equally to each member of the household (including children).'
 NON_MARKET_DESCRIPTION_PIP = "Non-market sources of income, including food grown by subsistence farmers for their own consumption, are taken into account."
 NOWCAST_REGIONS_DESCRIPTION = "Regional and global estimates are extrapolated up until the year of the data release using GDP growth estimates and forecasts. For more details about the methodology, please refer to the [World Bank PIP documentation](https://datanalytics.worldbank.org/PIP-Methodology/lineupestimates.html#nowcasts)."
 
@@ -132,7 +132,7 @@ PPP_DESCRIPTION_WID = f"The data is measured in international-$ at {PPP_YEAR_WID
 # LUXEMBOURG INCOME STUDY
 ####################################################################################################
 SOURCE_NAME_LIS = "Luxembourg Income Study (2024)"
-DATA_PUBLISHED_BY_LIS = "Luxembourg Income Study (LIS) Database, http://www.lisdatacenter.org (multiple countries; June 2024). Luxembourg: LIS."
+DATA_PUBLISHED_BY_LIS = "Luxembourg Income Study (LIS) Database, http://www.lisdatacenter.org (multiple countries; December 2024). Luxembourg: LIS."
 SOURCE_LINK_LIS = "https://www.lisdatacenter.org/our-data/lis-database/"
 
 NOTES_TITLE_LIS = "NOTES ON HOW WE PROCESSED THIS INDICATOR"
