@@ -8,7 +8,7 @@ subNavCurrentId
 wpBlockId
 tab	map
 graphers
-	Goal Dropdown	Target Dropdown	Indicator Dropdown	grapherId
+	Goal Dropdown	Target Dropdown	Indicator Dropdown	grapherId	tab
 	1. No Poverty	1.1: Eradicate extreme poverty	1.1.1 Share below international poverty line	5111
 	1. No Poverty	1.2: Reduce poverty by at least 50%	1.2.1 Share below the national poverty line	1595
 	1. No Poverty	1.2: Reduce poverty by at least 50%	1.2.2 Share in poverty by national definitions	413
@@ -43,7 +43,7 @@ graphers
 	3. Good Health and Wellbeing	3.1: Reduce maternal mortality	3.1.2 Skilled birth attendance	1596
 	3. Good Health and Wellbeing	3.2: End all preventable deaths under 5 years of age	3.2.1 Under-5 mortality rate	2723
 	3. Good Health and Wellbeing	3.2: End all preventable deaths under 5 years of age	3.2.2 Neonatal mortality rate	2724
-	3. Good Health and Wellbeing	3.3: Fight communicable diseases	3.3.1 New HIV infections	2656
+	3. Good Health and Wellbeing	3.3: Fight communicable diseases	3.3.1 New HIV infections	807	map
 	3. Good Health and Wellbeing	3.3: Fight communicable diseases	3.3.2 Tuberculosis incidence	2657
 	3. Good Health and Wellbeing	3.3: Fight communicable diseases	3.3.3 Malaria incidence	1821
 	3. Good Health and Wellbeing	3.3: Fight communicable diseases	3.3.4 Hepatitis B incidence	2659
