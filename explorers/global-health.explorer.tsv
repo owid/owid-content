@@ -95,7 +95,7 @@ graphers
 	6076	Infectious diseases	Diarrheal diseases	Number of deaths	IHME
 	6077	Infectious diseases	Diarrheal diseases	Death rate	IHME
 	1726	Infectious diseases	Diarrheal diseases	Age-standardized death rate	IHME
-	6135	Infectious diseases	Diarrheal diseases	Incidence	IHME
+	6135	Infectious diseases	Diarrheal diseases	Incidence rate	IHME
 	6137	Infectious diseases	Diarrheal diseases	Number of deaths	WHO (GHE)
 	6138	Infectious diseases	Diarrheal diseases	Death rate	WHO (GHE)
 	699	Infectious diseases	HIV/AIDS	Prevalence rate	UNAIDS
@@ -121,7 +121,7 @@ graphers
 	6078	Infectious diseases	Meningitis	Age-standardized death rate	IHME
 	6079	Infectious diseases	Meningitis	Number of deaths	IHME
 	6101	Infectious diseases	Meningitis	Death rate	IHME
-	6136	Infectious diseases	Meningitis	Incidence	IHME
+	6136	Infectious diseases	Meningitis	Incidence rate	IHME
 	6197	Infectious diseases	Meningitis	Number of deaths	WHO (GHE)
 	6255	Infectious diseases	Meningitis	Death rate	WHO (GHE)
 	1126	Infectious diseases	Polio	Reported cases	WHO
