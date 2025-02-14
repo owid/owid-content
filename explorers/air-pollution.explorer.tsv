@@ -12,225 +12,225 @@ hasMapTab	true
 hideAnnotationFieldsInTitle	true
 name	air-pollution
 graphers
-	yVariableIds	Pollutant Dropdown	Sector Dropdown	Per capita Checkbox	hasMapTab	yAxisMin	defaultView
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_bc__sector_all_sectors grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_ch4__sector_all_sectors grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_co__sector_all_sectors grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_co2__sector_all_sectors grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_n2o__sector_all_sectors grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nh3__sector_all_sectors grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nmvoc__sector_all_sectors grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nox__sector_all_sectors grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_oc__sector_all_sectors grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_so2__sector_all_sectors	All pollutants	All sectors	false	false		true
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_bc__sector_agriculture	BC	Agriculture	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_bc__sector_agriculture	BC	Agriculture	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_bc__sector_all_sectors	BC	All sectors	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_bc__sector_all_sectors	BC	All sectors	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_bc__sector_domestic_aviation	BC	Domestic aviation	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_bc__sector_domestic_aviation	BC	Domestic aviation	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_bc__sector_energy_transformation_and_production	BC	Energy transformation and production	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_bc__sector_energy_transformation_and_production	BC	Energy transformation and production	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_bc__sector_industry	BC	Industry	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_bc__sector_industry	BC	Industry	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_bc__sector_international_aviation	BC	International aviation	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_bc__sector_international_aviation	BC	International aviation	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_bc__sector_international_shipping	BC	International shipping	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_bc__sector_international_shipping	BC	International shipping	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_bc__sector_residential__commercial__and_other	BC	Residential, commercial, and other	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_bc__sector_residential__commercial__and_other	BC	Residential, commercial, and other	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_bc__sector_solvents	BC	Solvents	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_bc__sector_solvents	BC	Solvents	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_bc__sector_transportation	BC	Transportation	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_bc__sector_transportation	BC	Transportation	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_bc__sector_waste	BC	Waste	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_bc__sector_waste	BC	Waste	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_ch4__sector_agriculture	CH₄	Agriculture	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_ch4__sector_agriculture	CH₄	Agriculture	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_ch4__sector_all_sectors	CH₄	All sectors	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_ch4__sector_all_sectors	CH₄	All sectors	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_ch4__sector_domestic_aviation	CH₄	Domestic aviation	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_ch4__sector_domestic_aviation	CH₄	Domestic aviation	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_ch4__sector_energy_transformation_and_production	CH₄	Energy transformation and production	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_ch4__sector_energy_transformation_and_production	CH₄	Energy transformation and production	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_ch4__sector_industry	CH₄	Industry	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_ch4__sector_industry	CH₄	Industry	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_ch4__sector_international_aviation	CH₄	International aviation	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_ch4__sector_international_aviation	CH₄	International aviation	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_ch4__sector_international_shipping	CH₄	International shipping	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_ch4__sector_international_shipping	CH₄	International shipping	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_ch4__sector_residential__commercial__and_other	CH₄	Residential, commercial, and other	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_ch4__sector_residential__commercial__and_other	CH₄	Residential, commercial, and other	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_ch4__sector_solvents	CH₄	Solvents	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_ch4__sector_solvents	CH₄	Solvents	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_ch4__sector_transportation	CH₄	Transportation	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_ch4__sector_transportation	CH₄	Transportation	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_ch4__sector_waste	CH₄	Waste	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_ch4__sector_waste	CH₄	Waste	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_co__sector_agriculture	CO	Agriculture	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_co__sector_agriculture	CO	Agriculture	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_co__sector_all_sectors	CO	All sectors	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_co__sector_all_sectors	CO	All sectors	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_co__sector_domestic_aviation	CO	Domestic aviation	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_co__sector_domestic_aviation	CO	Domestic aviation	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_co__sector_energy_transformation_and_production	CO	Energy transformation and production	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_co__sector_energy_transformation_and_production	CO	Energy transformation and production	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_co__sector_industry	CO	Industry	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_co__sector_industry	CO	Industry	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_co__sector_international_aviation	CO	International aviation	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_co__sector_international_aviation	CO	International aviation	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_co__sector_international_shipping	CO	International shipping	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_co__sector_international_shipping	CO	International shipping	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_co__sector_residential__commercial__and_other	CO	Residential, commercial, and other	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_co__sector_residential__commercial__and_other	CO	Residential, commercial, and other	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_co__sector_solvents	CO	Solvents	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_co__sector_solvents	CO	Solvents	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_co__sector_transportation	CO	Transportation	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_co__sector_transportation	CO	Transportation	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_co__sector_waste	CO	Waste	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_co__sector_waste	CO	Waste	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_co2__sector_agriculture	CO₂	Agriculture	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_co2__sector_agriculture	CO₂	Agriculture	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_co2__sector_all_sectors	CO₂	All sectors	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_co2__sector_all_sectors	CO₂	All sectors	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_co2__sector_domestic_aviation	CO₂	Domestic aviation	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_co2__sector_domestic_aviation	CO₂	Domestic aviation	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_co2__sector_energy_transformation_and_production	CO₂	Energy transformation and production	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_co2__sector_energy_transformation_and_production	CO₂	Energy transformation and production	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_co2__sector_industry	CO₂	Industry	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_co2__sector_industry	CO₂	Industry	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_co2__sector_international_aviation	CO₂	International aviation	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_co2__sector_international_aviation	CO₂	International aviation	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_co2__sector_international_shipping	CO₂	International shipping	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_co2__sector_international_shipping	CO₂	International shipping	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_co2__sector_residential__commercial__and_other	CO₂	Residential, commercial, and other	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_co2__sector_residential__commercial__and_other	CO₂	Residential, commercial, and other	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_co2__sector_solvents	CO₂	Solvents	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_co2__sector_solvents	CO₂	Solvents	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_co2__sector_transportation	CO₂	Transportation	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_co2__sector_transportation	CO₂	Transportation	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_co2__sector_waste	CO₂	Waste	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_co2__sector_waste	CO₂	Waste	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nh3__sector_agriculture	NH₃	Agriculture	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nh3__sector_agriculture	NH₃	Agriculture	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nh3__sector_all_sectors	NH₃	All sectors	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nh3__sector_all_sectors	NH₃	All sectors	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nh3__sector_domestic_aviation	NH₃	Domestic aviation	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nh3__sector_domestic_aviation	NH₃	Domestic aviation	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nh3__sector_energy_transformation_and_production	NH₃	Energy transformation and production	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nh3__sector_energy_transformation_and_production	NH₃	Energy transformation and production	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nh3__sector_industry	NH₃	Industry	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nh3__sector_industry	NH₃	Industry	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nh3__sector_international_aviation	NH₃	International aviation	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nh3__sector_international_aviation	NH₃	International aviation	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nh3__sector_international_shipping	NH₃	International shipping	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nh3__sector_international_shipping	NH₃	International shipping	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nh3__sector_residential__commercial__and_other	NH₃	Residential, commercial, and other	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nh3__sector_residential__commercial__and_other	NH₃	Residential, commercial, and other	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nh3__sector_solvents	NH₃	Solvents	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nh3__sector_solvents	NH₃	Solvents	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nh3__sector_transportation	NH₃	Transportation	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nh3__sector_transportation	NH₃	Transportation	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nh3__sector_waste	NH₃	Waste	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nh3__sector_waste	NH₃	Waste	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nmvoc__sector_agriculture	NMVOC	Agriculture	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nmvoc__sector_agriculture	NMVOC	Agriculture	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nmvoc__sector_all_sectors	NMVOC	All sectors	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nmvoc__sector_all_sectors	NMVOC	All sectors	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nmvoc__sector_domestic_aviation	NMVOC	Domestic aviation	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nmvoc__sector_domestic_aviation	NMVOC	Domestic aviation	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nmvoc__sector_energy_transformation_and_production	NMVOC	Energy transformation and production	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nmvoc__sector_energy_transformation_and_production	NMVOC	Energy transformation and production	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nmvoc__sector_industry	NMVOC	Industry	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nmvoc__sector_industry	NMVOC	Industry	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nmvoc__sector_international_aviation	NMVOC	International aviation	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nmvoc__sector_international_aviation	NMVOC	International aviation	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nmvoc__sector_international_shipping	NMVOC	International shipping	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nmvoc__sector_international_shipping	NMVOC	International shipping	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nmvoc__sector_residential__commercial__and_other	NMVOC	Residential, commercial, and other	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nmvoc__sector_residential__commercial__and_other	NMVOC	Residential, commercial, and other	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nmvoc__sector_solvents	NMVOC	Solvents	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nmvoc__sector_solvents	NMVOC	Solvents	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nmvoc__sector_transportation	NMVOC	Transportation	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nmvoc__sector_transportation	NMVOC	Transportation	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nmvoc__sector_waste	NMVOC	Waste	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nmvoc__sector_waste	NMVOC	Waste	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nox__sector_agriculture	NOₓ	Agriculture	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nox__sector_agriculture	NOₓ	Agriculture	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nox__sector_all_sectors	NOₓ	All sectors	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nox__sector_all_sectors	NOₓ	All sectors	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nox__sector_domestic_aviation	NOₓ	Domestic aviation	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nox__sector_domestic_aviation	NOₓ	Domestic aviation	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nox__sector_energy_transformation_and_production	NOₓ	Energy transformation and production	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nox__sector_energy_transformation_and_production	NOₓ	Energy transformation and production	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nox__sector_industry	NOₓ	Industry	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nox__sector_industry	NOₓ	Industry	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nox__sector_international_aviation	NOₓ	International aviation	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nox__sector_international_aviation	NOₓ	International aviation	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nox__sector_international_shipping	NOₓ	International shipping	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nox__sector_international_shipping	NOₓ	International shipping	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nox__sector_residential__commercial__and_other	NOₓ	Residential, commercial, and other	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nox__sector_residential__commercial__and_other	NOₓ	Residential, commercial, and other	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nox__sector_solvents	NOₓ	Solvents	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nox__sector_solvents	NOₓ	Solvents	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nox__sector_transportation	NOₓ	Transportation	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nox__sector_transportation	NOₓ	Transportation	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nox__sector_waste	NOₓ	Waste	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nox__sector_waste	NOₓ	Waste	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_n2o__sector_agriculture	N₂O	Agriculture	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_n2o__sector_agriculture	N₂O	Agriculture	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_n2o__sector_all_sectors	N₂O	All sectors	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_n2o__sector_all_sectors	N₂O	All sectors	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_n2o__sector_domestic_aviation	N₂O	Domestic aviation	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_n2o__sector_domestic_aviation	N₂O	Domestic aviation	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_n2o__sector_energy_transformation_and_production	N₂O	Energy transformation and production	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_n2o__sector_energy_transformation_and_production	N₂O	Energy transformation and production	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_n2o__sector_industry	N₂O	Industry	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_n2o__sector_industry	N₂O	Industry	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_n2o__sector_international_aviation	N₂O	International aviation	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_n2o__sector_international_aviation	N₂O	International aviation	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_n2o__sector_international_shipping	N₂O	International shipping	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_n2o__sector_international_shipping	N₂O	International shipping	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_n2o__sector_residential__commercial__and_other	N₂O	Residential, commercial, and other	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_n2o__sector_residential__commercial__and_other	N₂O	Residential, commercial, and other	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_n2o__sector_solvents	N₂O	Solvents	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_n2o__sector_solvents	N₂O	Solvents	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_n2o__sector_transportation	N₂O	Transportation	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_n2o__sector_transportation	N₂O	Transportation	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_n2o__sector_waste	N₂O	Waste	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_n2o__sector_waste	N₂O	Waste	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_oc__sector_agriculture	OC	Agriculture	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_oc__sector_agriculture	OC	Agriculture	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_oc__sector_all_sectors	OC	All sectors	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_oc__sector_all_sectors	OC	All sectors	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_oc__sector_domestic_aviation	OC	Domestic aviation	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_oc__sector_domestic_aviation	OC	Domestic aviation	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_oc__sector_energy_transformation_and_production	OC	Energy transformation and production	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_oc__sector_energy_transformation_and_production	OC	Energy transformation and production	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_oc__sector_industry	OC	Industry	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_oc__sector_industry	OC	Industry	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_oc__sector_international_aviation	OC	International aviation	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_oc__sector_international_aviation	OC	International aviation	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_oc__sector_international_shipping	OC	International shipping	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_oc__sector_international_shipping	OC	International shipping	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_oc__sector_residential__commercial__and_other	OC	Residential, commercial, and other	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_oc__sector_residential__commercial__and_other	OC	Residential, commercial, and other	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_oc__sector_solvents	OC	Solvents	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_oc__sector_solvents	OC	Solvents	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_oc__sector_transportation	OC	Transportation	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_oc__sector_transportation	OC	Transportation	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_oc__sector_waste	OC	Waste	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_oc__sector_waste	OC	Waste	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_so2__sector_agriculture	SO₂	Agriculture	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_so2__sector_agriculture	SO₂	Agriculture	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_so2__sector_all_sectors	SO₂	All sectors	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_so2__sector_all_sectors	SO₂	All sectors	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_so2__sector_domestic_aviation	SO₂	Domestic aviation	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_so2__sector_domestic_aviation	SO₂	Domestic aviation	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_so2__sector_energy_transformation_and_production	SO₂	Energy transformation and production	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_so2__sector_energy_transformation_and_production	SO₂	Energy transformation and production	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_so2__sector_industry	SO₂	Industry	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_so2__sector_industry	SO₂	Industry	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_so2__sector_international_aviation	SO₂	International aviation	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_so2__sector_international_aviation	SO₂	International aviation	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_so2__sector_international_shipping	SO₂	International shipping	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_so2__sector_international_shipping	SO₂	International shipping	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_so2__sector_residential__commercial__and_other	SO₂	Residential, commercial, and other	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_so2__sector_residential__commercial__and_other	SO₂	Residential, commercial, and other	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_so2__sector_solvents	SO₂	Solvents	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_so2__sector_solvents	SO₂	Solvents	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_so2__sector_transportation	SO₂	Transportation	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_so2__sector_transportation	SO₂	Transportation	true	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_so2__sector_waste	SO₂	Waste	false	true	0.0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_so2__sector_waste	SO₂	Waste	true	true	0.0	false
+	yVariableIds	Pollutant Dropdown	Sector Dropdown	Per capita Checkbox	hasMapTab	selectedFacetStrategy	yAxisMin	defaultView
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_bc__sector_all_sectors grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_ch4__sector_all_sectors grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_co__sector_all_sectors grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_co2__sector_all_sectors grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_n2o__sector_all_sectors grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nh3__sector_all_sectors grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nmvoc__sector_all_sectors grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nox__sector_all_sectors grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_oc__sector_all_sectors grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_so2__sector_all_sectors	All pollutants	All sectors	false	false	metric	0	true
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_bc__sector_agriculture	BC	Agriculture	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_bc__sector_agriculture	BC	Agriculture	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_bc__sector_all_sectors	BC	All sectors	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_bc__sector_all_sectors	BC	All sectors	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_bc__sector_domestic_aviation	BC	Domestic aviation	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_bc__sector_domestic_aviation	BC	Domestic aviation	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_bc__sector_energy_transformation_and_production	BC	Energy transformation and production	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_bc__sector_energy_transformation_and_production	BC	Energy transformation and production	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_bc__sector_industry	BC	Industry	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_bc__sector_industry	BC	Industry	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_bc__sector_international_aviation	BC	International aviation	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_bc__sector_international_aviation	BC	International aviation	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_bc__sector_international_shipping	BC	International shipping	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_bc__sector_international_shipping	BC	International shipping	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_bc__sector_residential__commercial__and_other	BC	Residential, commercial, and other	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_bc__sector_residential__commercial__and_other	BC	Residential, commercial, and other	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_bc__sector_solvents	BC	Solvents	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_bc__sector_solvents	BC	Solvents	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_bc__sector_transportation	BC	Transportation	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_bc__sector_transportation	BC	Transportation	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_bc__sector_waste	BC	Waste	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_bc__sector_waste	BC	Waste	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_ch4__sector_agriculture	CH₄	Agriculture	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_ch4__sector_agriculture	CH₄	Agriculture	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_ch4__sector_all_sectors	CH₄	All sectors	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_ch4__sector_all_sectors	CH₄	All sectors	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_ch4__sector_domestic_aviation	CH₄	Domestic aviation	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_ch4__sector_domestic_aviation	CH₄	Domestic aviation	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_ch4__sector_energy_transformation_and_production	CH₄	Energy transformation and production	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_ch4__sector_energy_transformation_and_production	CH₄	Energy transformation and production	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_ch4__sector_industry	CH₄	Industry	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_ch4__sector_industry	CH₄	Industry	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_ch4__sector_international_aviation	CH₄	International aviation	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_ch4__sector_international_aviation	CH₄	International aviation	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_ch4__sector_international_shipping	CH₄	International shipping	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_ch4__sector_international_shipping	CH₄	International shipping	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_ch4__sector_residential__commercial__and_other	CH₄	Residential, commercial, and other	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_ch4__sector_residential__commercial__and_other	CH₄	Residential, commercial, and other	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_ch4__sector_solvents	CH₄	Solvents	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_ch4__sector_solvents	CH₄	Solvents	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_ch4__sector_transportation	CH₄	Transportation	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_ch4__sector_transportation	CH₄	Transportation	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_ch4__sector_waste	CH₄	Waste	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_ch4__sector_waste	CH₄	Waste	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_co__sector_agriculture	CO	Agriculture	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_co__sector_agriculture	CO	Agriculture	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_co__sector_all_sectors	CO	All sectors	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_co__sector_all_sectors	CO	All sectors	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_co__sector_domestic_aviation	CO	Domestic aviation	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_co__sector_domestic_aviation	CO	Domestic aviation	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_co__sector_energy_transformation_and_production	CO	Energy transformation and production	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_co__sector_energy_transformation_and_production	CO	Energy transformation and production	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_co__sector_industry	CO	Industry	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_co__sector_industry	CO	Industry	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_co__sector_international_aviation	CO	International aviation	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_co__sector_international_aviation	CO	International aviation	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_co__sector_international_shipping	CO	International shipping	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_co__sector_international_shipping	CO	International shipping	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_co__sector_residential__commercial__and_other	CO	Residential, commercial, and other	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_co__sector_residential__commercial__and_other	CO	Residential, commercial, and other	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_co__sector_solvents	CO	Solvents	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_co__sector_solvents	CO	Solvents	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_co__sector_transportation	CO	Transportation	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_co__sector_transportation	CO	Transportation	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_co__sector_waste	CO	Waste	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_co__sector_waste	CO	Waste	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_co2__sector_agriculture	CO₂	Agriculture	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_co2__sector_agriculture	CO₂	Agriculture	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_co2__sector_all_sectors	CO₂	All sectors	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_co2__sector_all_sectors	CO₂	All sectors	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_co2__sector_domestic_aviation	CO₂	Domestic aviation	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_co2__sector_domestic_aviation	CO₂	Domestic aviation	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_co2__sector_energy_transformation_and_production	CO₂	Energy transformation and production	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_co2__sector_energy_transformation_and_production	CO₂	Energy transformation and production	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_co2__sector_industry	CO₂	Industry	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_co2__sector_industry	CO₂	Industry	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_co2__sector_international_aviation	CO₂	International aviation	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_co2__sector_international_aviation	CO₂	International aviation	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_co2__sector_international_shipping	CO₂	International shipping	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_co2__sector_international_shipping	CO₂	International shipping	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_co2__sector_residential__commercial__and_other	CO₂	Residential, commercial, and other	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_co2__sector_residential__commercial__and_other	CO₂	Residential, commercial, and other	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_co2__sector_solvents	CO₂	Solvents	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_co2__sector_solvents	CO₂	Solvents	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_co2__sector_transportation	CO₂	Transportation	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_co2__sector_transportation	CO₂	Transportation	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_co2__sector_waste	CO₂	Waste	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_co2__sector_waste	CO₂	Waste	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nh3__sector_agriculture	NH₃	Agriculture	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nh3__sector_agriculture	NH₃	Agriculture	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nh3__sector_all_sectors	NH₃	All sectors	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nh3__sector_all_sectors	NH₃	All sectors	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nh3__sector_domestic_aviation	NH₃	Domestic aviation	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nh3__sector_domestic_aviation	NH₃	Domestic aviation	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nh3__sector_energy_transformation_and_production	NH₃	Energy transformation and production	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nh3__sector_energy_transformation_and_production	NH₃	Energy transformation and production	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nh3__sector_industry	NH₃	Industry	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nh3__sector_industry	NH₃	Industry	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nh3__sector_international_aviation	NH₃	International aviation	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nh3__sector_international_aviation	NH₃	International aviation	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nh3__sector_international_shipping	NH₃	International shipping	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nh3__sector_international_shipping	NH₃	International shipping	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nh3__sector_residential__commercial__and_other	NH₃	Residential, commercial, and other	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nh3__sector_residential__commercial__and_other	NH₃	Residential, commercial, and other	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nh3__sector_solvents	NH₃	Solvents	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nh3__sector_solvents	NH₃	Solvents	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nh3__sector_transportation	NH₃	Transportation	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nh3__sector_transportation	NH₃	Transportation	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nh3__sector_waste	NH₃	Waste	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nh3__sector_waste	NH₃	Waste	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nmvoc__sector_agriculture	NMVOC	Agriculture	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nmvoc__sector_agriculture	NMVOC	Agriculture	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nmvoc__sector_all_sectors	NMVOC	All sectors	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nmvoc__sector_all_sectors	NMVOC	All sectors	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nmvoc__sector_domestic_aviation	NMVOC	Domestic aviation	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nmvoc__sector_domestic_aviation	NMVOC	Domestic aviation	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nmvoc__sector_energy_transformation_and_production	NMVOC	Energy transformation and production	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nmvoc__sector_energy_transformation_and_production	NMVOC	Energy transformation and production	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nmvoc__sector_industry	NMVOC	Industry	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nmvoc__sector_industry	NMVOC	Industry	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nmvoc__sector_international_aviation	NMVOC	International aviation	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nmvoc__sector_international_aviation	NMVOC	International aviation	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nmvoc__sector_international_shipping	NMVOC	International shipping	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nmvoc__sector_international_shipping	NMVOC	International shipping	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nmvoc__sector_residential__commercial__and_other	NMVOC	Residential, commercial, and other	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nmvoc__sector_residential__commercial__and_other	NMVOC	Residential, commercial, and other	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nmvoc__sector_solvents	NMVOC	Solvents	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nmvoc__sector_solvents	NMVOC	Solvents	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nmvoc__sector_transportation	NMVOC	Transportation	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nmvoc__sector_transportation	NMVOC	Transportation	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nmvoc__sector_waste	NMVOC	Waste	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nmvoc__sector_waste	NMVOC	Waste	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nox__sector_agriculture	NOₓ	Agriculture	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nox__sector_agriculture	NOₓ	Agriculture	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nox__sector_all_sectors	NOₓ	All sectors	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nox__sector_all_sectors	NOₓ	All sectors	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nox__sector_domestic_aviation	NOₓ	Domestic aviation	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nox__sector_domestic_aviation	NOₓ	Domestic aviation	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nox__sector_energy_transformation_and_production	NOₓ	Energy transformation and production	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nox__sector_energy_transformation_and_production	NOₓ	Energy transformation and production	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nox__sector_industry	NOₓ	Industry	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nox__sector_industry	NOₓ	Industry	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nox__sector_international_aviation	NOₓ	International aviation	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nox__sector_international_aviation	NOₓ	International aviation	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nox__sector_international_shipping	NOₓ	International shipping	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nox__sector_international_shipping	NOₓ	International shipping	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nox__sector_residential__commercial__and_other	NOₓ	Residential, commercial, and other	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nox__sector_residential__commercial__and_other	NOₓ	Residential, commercial, and other	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nox__sector_solvents	NOₓ	Solvents	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nox__sector_solvents	NOₓ	Solvents	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nox__sector_transportation	NOₓ	Transportation	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nox__sector_transportation	NOₓ	Transportation	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nox__sector_waste	NOₓ	Waste	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_nox__sector_waste	NOₓ	Waste	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_n2o__sector_agriculture	N₂O	Agriculture	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_n2o__sector_agriculture	N₂O	Agriculture	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_n2o__sector_all_sectors	N₂O	All sectors	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_n2o__sector_all_sectors	N₂O	All sectors	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_n2o__sector_domestic_aviation	N₂O	Domestic aviation	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_n2o__sector_domestic_aviation	N₂O	Domestic aviation	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_n2o__sector_energy_transformation_and_production	N₂O	Energy transformation and production	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_n2o__sector_energy_transformation_and_production	N₂O	Energy transformation and production	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_n2o__sector_industry	N₂O	Industry	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_n2o__sector_industry	N₂O	Industry	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_n2o__sector_international_aviation	N₂O	International aviation	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_n2o__sector_international_aviation	N₂O	International aviation	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_n2o__sector_international_shipping	N₂O	International shipping	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_n2o__sector_international_shipping	N₂O	International shipping	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_n2o__sector_residential__commercial__and_other	N₂O	Residential, commercial, and other	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_n2o__sector_residential__commercial__and_other	N₂O	Residential, commercial, and other	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_n2o__sector_solvents	N₂O	Solvents	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_n2o__sector_solvents	N₂O	Solvents	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_n2o__sector_transportation	N₂O	Transportation	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_n2o__sector_transportation	N₂O	Transportation	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_n2o__sector_waste	N₂O	Waste	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_n2o__sector_waste	N₂O	Waste	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_oc__sector_agriculture	OC	Agriculture	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_oc__sector_agriculture	OC	Agriculture	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_oc__sector_all_sectors	OC	All sectors	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_oc__sector_all_sectors	OC	All sectors	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_oc__sector_domestic_aviation	OC	Domestic aviation	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_oc__sector_domestic_aviation	OC	Domestic aviation	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_oc__sector_energy_transformation_and_production	OC	Energy transformation and production	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_oc__sector_energy_transformation_and_production	OC	Energy transformation and production	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_oc__sector_industry	OC	Industry	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_oc__sector_industry	OC	Industry	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_oc__sector_international_aviation	OC	International aviation	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_oc__sector_international_aviation	OC	International aviation	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_oc__sector_international_shipping	OC	International shipping	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_oc__sector_international_shipping	OC	International shipping	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_oc__sector_residential__commercial__and_other	OC	Residential, commercial, and other	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_oc__sector_residential__commercial__and_other	OC	Residential, commercial, and other	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_oc__sector_solvents	OC	Solvents	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_oc__sector_solvents	OC	Solvents	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_oc__sector_transportation	OC	Transportation	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_oc__sector_transportation	OC	Transportation	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_oc__sector_waste	OC	Waste	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_oc__sector_waste	OC	Waste	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_so2__sector_agriculture	SO₂	Agriculture	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_so2__sector_agriculture	SO₂	Agriculture	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_so2__sector_all_sectors	SO₂	All sectors	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_so2__sector_all_sectors	SO₂	All sectors	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_so2__sector_domestic_aviation	SO₂	Domestic aviation	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_so2__sector_domestic_aviation	SO₂	Domestic aviation	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_so2__sector_energy_transformation_and_production	SO₂	Energy transformation and production	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_so2__sector_energy_transformation_and_production	SO₂	Energy transformation and production	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_so2__sector_industry	SO₂	Industry	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_so2__sector_industry	SO₂	Industry	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_so2__sector_international_aviation	SO₂	International aviation	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_so2__sector_international_aviation	SO₂	International aviation	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_so2__sector_international_shipping	SO₂	International shipping	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_so2__sector_international_shipping	SO₂	International shipping	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_so2__sector_residential__commercial__and_other	SO₂	Residential, commercial, and other	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_so2__sector_residential__commercial__and_other	SO₂	Residential, commercial, and other	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_so2__sector_solvents	SO₂	Solvents	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_so2__sector_solvents	SO₂	Solvents	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_so2__sector_transportation	SO₂	Transportation	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_so2__sector_transportation	SO₂	Transportation	true	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_so2__sector_waste	SO₂	Waste	false	true		0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_so2__sector_waste	SO₂	Waste	true	true		0	false
