@@ -231,4 +231,4 @@ graphers
 	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_so2__sector_transportation	Sulfur dioxide (SO₂)	Transportation	true	true					0	false
 	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_so2__sector_waste	Sulfur dioxide (SO₂)	Waste	false	true					0	false
 	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_so2__sector_waste	Sulfur dioxide (SO₂)	Waste	true	true					0	false
-	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_so2__sector_agriculture	Test	Breakdown by sector	false	false			entity	independent	0	false
+	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_so2__sector_agriculture grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions_per_capita__pollutant_so2__sector_energy	Test	Breakdown by sector	false	false			entity	independent	0	false
