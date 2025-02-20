@@ -12,7 +12,7 @@ hasMapTab	true
 hideAnnotationFieldsInTitle	true
 name	air-pollution
 pickerColumnsSlug	['grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_bc__sector_agriculture']
-pickerColumnSlug	['grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_bc__sector_agriculture']
+pickerColumnSlug	['emissions__pollutant_bc__sector_agriculture']
 graphers
 	yVariableIds	Pollutant Dropdown	Sector Dropdown	Per capita Checkbox	hasMapTab	title	subtitle	selectedFacetStrategy	facetYDomain	yAxisMin	defaultView
 	grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_bc__sector_all_sectors grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_co__sector_all_sectors grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nh3__sector_all_sectors grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nmvoc__sector_all_sectors grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_nox__sector_all_sectors grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_oc__sector_all_sectors grapher/emissions/2025-02-12/ceds_air_pollutants/ceds_air_pollutants#emissions__pollutant_so2__sector_all_sectors	All pollutants	All sectors	false	false	Emissions of air pollutants from all sectors	Measured in tonnes and split by major pollutant.	metric	independent	0	true
