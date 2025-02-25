@@ -12,6 +12,6 @@ hasMapTab	true
 yAxisMin	0
 thumbnail	https://ourworldindata.org/coronavirus-data-explorer.png
 graphers
-	yVariableIds	Metric	Interval	Relative to population	hideAnnotationFieldsInTitle	hasMapTab
+	yVariableIds	Metric Dropdown	Interval Dropdown	Relative to population Checkbox	hideAnnotationFieldsInTitle	hasMapTab
 	grapher/excess_mortality/latest/excess_mortality/excess_mortality#cum_p_proj_all_ages	Excess mortality (%)	Cumulative	false	true	true
 	grapher/excess_mortality/latest/excess_mortality/excess_mortality#p_proj_all_ages	Excess mortality (%)	Weekly	false	true	true
