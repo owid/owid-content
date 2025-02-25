@@ -61,3 +61,24 @@ graphers
 	grapher/covid/latest/cases_deaths/cases_deaths#new_cases_per_million_7_day_avg_right grapher/covid/latest/hospital/hospital#weekly_admissions_hosp_per_1m grapher/covid/latest/hospital/hospital#daily_occupancy_icu_per_1m grapher/covid/latest/cases_deaths/cases_deaths#new_deaths_per_million_7_day_avg_right	Cases, hospital admissions, ICU patients, and deaths	7-day rolling average	true	Confirmed COVID-19 cases, deaths, hospital admissions, and patients in ICU per million people	Limited testing and challenges in the attribution of cause of death means the cases and deaths counts may not be accurate.	false	metric	independent				true
 	cases_deaths/cases_deaths#cfr	Case fatality rate	Cumulative	false			true						true
 	grapher/covid/latest/cases_deaths/cases_deaths#cfr_short_term	Case fatality rate	7-day rolling average	false			true						true
+	grapher/covid/latest/vaccinations_global/vaccinations_global#total_vaccinations	Vaccine doses	Cumulative	false			true						true
+	grapher/covid/latest/vaccinations_global/vaccinations_global#total_vaccinations_per_hundred	Vaccine doses	Cumulative	true			true						true
+	grapher/covid/latest/vaccinations_global/vaccinations_global#daily_vaccinations_smoothed	Vaccine doses	7-day rolling average	false			true						true
+	grapher/covid/latest/vaccinations_global/vaccinations_global#daily_vaccinations_smoothed_per_million	Vaccine doses	7-day rolling average	true			true						true
+	grapher/covid/latest/vaccinations_global/vaccinations_global#daily_vaccinations	Vaccine doses	New per day	false			true						true
+	grapher/covid/latest/vaccinations_global/vaccinations_global#rolling_vaccinations_6m	Vaccine doses	6-month rolling total	false			true						true
+	grapher/covid/latest/vaccinations_global/vaccinations_global#rolling_vaccinations_6m_per_hundred	Vaccine doses	6-month rolling total	true			true						true
+	grapher/covid/latest/vaccinations_global/vaccinations_global#rolling_vaccinations_9m	Vaccine doses	9-month rolling total	false			true						true
+	grapher/covid/latest/vaccinations_global/vaccinations_global#rolling_vaccinations_9m_per_hundred	Vaccine doses	9-month rolling total	true			true						true
+	grapher/covid/latest/vaccinations_global/vaccinations_global#rolling_vaccinations_12m	Vaccine doses	12-month rolling total	false			true						true
+	grapher/covid/latest/vaccinations_global/vaccinations_global#rolling_vaccinations_12m_per_hundred	Vaccine doses	12-month rolling total	true			true						true
+	vaccinations_global/vaccinations_global#total_boosters	Vaccine booster doses	Cumulative	false			true						true
+	grapher/covid/latest/vaccinations_global/vaccinations_global#total_boosters_per_hundred	Vaccine booster doses	Cumulative	true			true						true
+	grapher/covid/latest/vaccinations_global/vaccinations_global#total_vaccinations_no_boosters_interpolated grapher/covid/latest/vaccinations_global/vaccinations_global#total_boosters_interpolated	Vaccine doses (by type)	Cumulative	false	COVID-19 vaccines administered, initial doses and boosters	Total number of doses administered, broken down by whether they are part of the initial protocol or booster doses.	false						true
+	grapher/covid/latest/vaccinations_global/vaccinations_global#total_vaccinations_no_boosters_per_hundred_interpolated grapher/covid/latest/vaccinations_global/vaccinations_global#total_boosters_per_hundred	Vaccine doses (by type)	Cumulative	true	COVID-19 vaccines administered per 100 people, initial doses and boosters	Total number of doses administered, broken down by whether they are part of the initial protocol or booster doses, divided by the total population of the country.	false						true
+	grapher/covid/latest/vaccinations_global/vaccinations_global#people_vaccinated	People vaccinated	Cumulative	false			true						true
+	grapher/covid/latest/vaccinations_global/vaccinations_global#people_vaccinated_per_hundred	People vaccinated	Cumulative	true			true						true
+	grapher/covid/latest/vaccinations_global/vaccinations_global#daily_people_vaccinated_smoothed	People vaccinated	7-day rolling average	false			true						true
+	grapher/covid/latest/vaccinations_global/vaccinations_global#daily_people_vaccinated_smoothed_per_hundred	People vaccinated	7-day rolling average	true			true						true
+	grapher/covid/latest/vaccinations_global/vaccinations_global#people_fully_vaccinated	People fully vaccinated	Cumulative	false			true						true
+	grapher/covid/latest/vaccinations_global/vaccinations_global#people_fully_vaccinated_per_hundred	People fully vaccinated	Cumulative	true			true						true
