@@ -17,3 +17,17 @@ graphers
 	grapher/excess_mortality/latest/excess_mortality/excess_mortality#cum_excess_per_million_proj_all_ages	Excess mortality (count)	Cumulative	true	true	true
 	grapher/excess_mortality/latest/excess_mortality/excess_mortality#cum_p_proj_all_ages	Excess mortality (%)	Cumulative	false	true	true
 	grapher/excess_mortality/latest/excess_mortality/excess_mortality#p_proj_all_ages	Excess mortality (%)	Weekly	false	true	true
+	grapher/covid/latest/cases_deaths/cases_deaths#total_deaths	Deaths	Cumulative	false	true	true
+	grapher/covid/latest/cases_deaths/cases_deaths#total_deaths_per_million	Deaths	Cumulative	true	true	true
+	grapher/covid/latest/cases_deaths/cases_deaths#total_deaths_last12m	Deaths	Cumulative (last 12 months)	false	true	true
+	grapher/covid/latest/cases_deaths/cases_deaths#total_deaths_per_million_last12m	Deaths	Cumulative (last 12 months)	true	true	true
+	grapher/covid/latest/cases_deaths/cases_deaths#new_deaths_per_million_7_day_avg_right	Deaths	7-day rolling average	true	true	true
+	grapher/covid/latest/cases_deaths/cases_deaths#new_deaths_7_day_avg_right	Deaths	7-day rolling average	false	true	true
+	grapher/covid/latest/cases_deaths/cases_deaths#new_deaths	Deaths	New per day	false	true	true
+	grapher/covid/latest/cases_deaths/cases_deaths#new_deaths_per_million	Deaths	New per day	true	true	true
+	grapher/covid/latest/cases_deaths/cases_deaths#weekly_deaths	Deaths	Weekly	false	true	true
+	grapher/covid/latest/cases_deaths/cases_deaths#weekly_deaths_per_million	Deaths	Weekly	true	true	true
+	grapher/covid/latest/cases_deaths/cases_deaths#weekly_pct_growth_deaths	Deaths	Weekly change	false	true	true
+	grapher/covid/latest/cases_deaths/cases_deaths#biweekly_deaths	Deaths	Biweekly	false	true	true
+	grapher/covid/latest/cases_deaths/cases_deaths#biweekly_deaths_per_million	Deaths	Biweekly	true	true	true
+	grapher/covid/latest/cases_deaths/cases_deaths#biweekly_pct_growth_deaths	Deaths	Biweekly	false	true	true
