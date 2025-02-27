@@ -71,7 +71,6 @@ graphers
 	5732	Regimes of the World	­Electoral democracy	Democratic electoral institutions
 	5517	Regimes of the World	­Electoral democracy	Age of electoral democracy
 	5677	Regimes of the World	­Electoral democracy	Number and share of long-standing electoral democracies
-	5674	Regimes of the World	­Electoral democracy	People living in long-standing electoral democracies
 	5849	Regimes of the World	­Liberal democracy	Main classification
 	5735	Regimes of the World	­Liberal democracy	Transparent laws
 	5731	Regimes of the World	­Liberal democracy	Access to justice for men
@@ -79,7 +78,6 @@ graphers
 	5736	Regimes of the World	­Liberal democracy	­Liberal political institutions
 	5518	Regimes of the World	­Liberal democracy	Age of liberal democracy
 	5679	Regimes of the World	­Liberal democracy	Number and share of long-standing liberal democracies
-	5675	Regimes of the World	­Liberal democracy	People living in long-standing liberal democracies
 	5693	Regimes of the World	­Political regime, including ambiguous categories	Main classification
 	5701	Regimes of the World	­Political regime, including ambiguous categories	Number and share of democracies
 	5699	Regimes of the World	­Political regime, including ambiguous categories	People living in democracies
@@ -104,13 +102,11 @@ graphers
 	5680	Boix-Miller-Rosato	Democracy	People living in democracies
 	5564	Boix-Miller-Rosato	Democracy	Age of democracy
 	5681	Boix-Miller-Rosato	Democracy	Number and share of long-standing democracies
-	5683	Boix-Miller-Rosato	Democracy	People living in long-standing democracies
 	5695	Boix-Miller-Rosato	Democracy with women's right to vote	Main classification
 	5707	Boix-Miller-Rosato	Democracy with women's right to vote	Number and share of democracies
 	5705	Boix-Miller-Rosato	Democracy with women's right to vote	People living in democracies
 	5722	Boix-Miller-Rosato	Democracy with women's right to vote	Age of democracy
 	5708	Boix-Miller-Rosato	Democracy with women's right to vote	Number and share of long-standing democracies
-	5704	Boix-Miller-Rosato	Democracy with women's right to vote	People living in long-standing democracies
 	5789	Polity	­­­Democracy	Main index
 	5790	Polity	­­­Democracy	Competitiveness of executive recruitment score
 	5791	Polity	­­­Democracy	Openness of executive recruitment score
@@ -125,7 +121,6 @@ graphers
 	5799	Polity	­­­Political regime	People living in democracies
 	5796	Polity	­­­Political regime	Age of democracy
 	5801	Polity	­­­Political regime	Number and share of long-standing democracies
-	5802	Polity	­­­Political regime	People living in long-standing democracies
 	5712	Freedom House	­­­­Freedom	Main classification
 	5725	Freedom House	­­­­Freedom	Political rights score
 	5726	Freedom House	­­­­Freedom	Political rights rating
