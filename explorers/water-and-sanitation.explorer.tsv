@@ -1,7 +1,6 @@
 explorerTitle	Water, Sanitation and Hygiene (WASH)
 explorerSubtitle	Explore global data on water, sanitation and hygiene access.
 isPublished	true
-indexViewsSeparately	true
 googleSheet
 selection	India	United States	Kenya	World	Bangladesh	South Africa	China
 hideAlertBanner	true
