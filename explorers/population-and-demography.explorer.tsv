@@ -11,14 +11,14 @@ pickerColumnSlugs	location population__all__all__records population_change__all_
 graphers
 	yVariableIds	Age Dropdown	Sex Dropdown	Projection secnario Dropdown
 	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_all__variant_estimates	Total	Both sexes	None
-	grapher/un/2024-07-12/un_wpp/population#population__sex_female__age_all__variant_estimates	Total	Female	None
-	grapher/un/2024-07-12/un_wpp/population#population__sex_male__age_all__variant_estimates	Total	Male	None
 	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_0__variant_estimates	Under 1 year	Both sexes	None
-	grapher/un/2024-07-12/un_wpp/population#population__sex_female__age_0__variant_estimates	Under 1 year	Female	None
-	grapher/un/2024-07-12/un_wpp/population#population__sex_male__age_0__variant_estimates	Under 1 year	Male	None
 	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_0_4__variant_estimates	Under 5 years	Both sexes	None
-	grapher/un/2024-07-12/un_wpp/population#population__sex_female__age_0_4__variant_estimates	Under 5 years	Female	None
-	grapher/un/2024-07-12/un_wpp/population#population__sex_male__age_0_4__variant_estimates	Under 5 years	Male	None
 	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_0_14__variant_estimates	Under 15 years	Both sexes	None
+	grapher/un/2024-07-12/un_wpp/population#population__sex_female__age_all__variant_estimates	Total	Female	None
+	grapher/un/2024-07-12/un_wpp/population#population__sex_female__age_0__variant_estimates	Under 1 year	Female	None
+	grapher/un/2024-07-12/un_wpp/population#population__sex_female__age_0_4__variant_estimates	Under 5 years	Female	None
 	grapher/un/2024-07-12/un_wpp/population#population__sex_female__age_0_14__variant_estimates	Under 15 years	Female	None
+	grapher/un/2024-07-12/un_wpp/population#population__sex_male__age_all__variant_estimates	Total	Male	None
+	grapher/un/2024-07-12/un_wpp/population#population__sex_male__age_0__variant_estimates	Under 1 year	Male	None
+	grapher/un/2024-07-12/un_wpp/population#population__sex_male__age_0_4__variant_estimates	Under 5 years	Male	None
 	grapher/un/2024-07-12/un_wpp/population#population__sex_male__age_0_14__variant_estimates	Under 15 years	Male	None
