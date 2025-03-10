@@ -14,12 +14,15 @@ graphers
 	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_0__variant_estimates	Population	Both sexes	Under 1 year	None
 	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_0_4__variant_estimates	Population	Both sexes	Under 5 years	None
 	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_0_14__variant_estimates	Population	Both sexes	Under 15 years	None
+	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_0_24__variant_estimates	Population	Both sexes	Under 25 years	None
 	grapher/un/2024-07-12/un_wpp/population#population__sex_female__age_all__variant_estimates	Population	Female	Total	None
 	grapher/un/2024-07-12/un_wpp/population#population__sex_female__age_0__variant_estimates	Population	Female	Under 1 year	None
 	grapher/un/2024-07-12/un_wpp/population#population__sex_female__age_0_4__variant_estimates	Population	Female	Under 5 years	None
 	grapher/un/2024-07-12/un_wpp/population#population__sex_female__age_0_14__variant_estimates	Population	Female	Under 15 years	None
+	grapher/un/2024-07-12/un_wpp/population#population__sex_female__age_0_24__variant_estimates	Population	Female	Under 25 years	None
 	grapher/un/2024-07-12/un_wpp/population#population__sex_male__age_all__variant_estimates	Population	Male	Total	None
 	grapher/un/2024-07-12/un_wpp/population#population__sex_male__age_0__variant_estimates	Population	Male	Under 1 year	None
 	grapher/un/2024-07-12/un_wpp/population#population__sex_male__age_0_4__variant_estimates	Population	Male	Under 5 years	None
 	grapher/un/2024-07-12/un_wpp/population#population__sex_male__age_0_14__variant_estimates	Population	Male	Under 15 years	None
+	grapher/un/2024-07-12/un_wpp/population#population__sex_male__age_0_24__variant_estimates	Population	Male	Under 25 years	None
 	grapher/un/2024-07-12/un_wpp/population#population_density__sex_all__age_all__variant_estimates	Population density	Both sexes	Total	None
