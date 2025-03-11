@@ -137,3 +137,12 @@ graphers
 	grapher/un/2024-07-12/un_wpp/population#population_change__sex_male__age_90_99__variant_estimates	Annual population change	Male	90–99 year	None
 	grapher/un/2024-07-12/un_wpp/population#population_change__sex_male__age_100plus__variant_estimates	Annual population change	Male	100+ year	None
 	grapher/un/2024-07-12/un_wpp/population#population_density__sex_all__age_all__variant_estimates	Population density	Both sexes	Total	None
+	grapher/un/2024-07-12/un_wpp/dependency_ratio#dependency_ratio__sex_all__age_total__variant_estimates	Dependency ratio	Both sexes	Total dependency ratio	None
+	grapher/un/2024-07-12/un_wpp/dependency_ratio#dependency_ratio__sex_all__age_youth__variant_estimates	Dependency ratio	Both sexes	Youth dependency ratio	None
+	grapher/un/2024-07-12/un_wpp/dependency_ratio#dependency_ratio__sex_all__age_old__variant_estimates	Dependency ratio	Both sexes	Old-age dependency ratio	None
+	grapher/un/2024-07-12/un_wpp/dependency_ratio#dependency_ratio__sex_female__age_total__variant_estimates	Dependency ratio	Female	Total dependency ratio	None
+	grapher/un/2024-07-12/un_wpp/dependency_ratio#dependency_ratio__sex_female__age_youth__variant_estimates	Dependency ratio	Female	Youth dependency ratio	None
+	grapher/un/2024-07-12/un_wpp/dependency_ratio#dependency_ratio__sex_female__age_old__variant_estimates	Dependency ratio	Female	Old-age dependency ratio	None
+	grapher/un/2024-07-12/un_wpp/dependency_ratio#dependency_ratio__sex_male__age_total__variant_estimates	Dependency ratio	Male	Total dependency ratio	None
+	grapher/un/2024-07-12/un_wpp/dependency_ratio#dependency_ratio__sex_male__age_youth__variant_estimates	Dependency ratio	Male	Youth dependency ratio	None
+	grapher/un/2024-07-12/un_wpp/dependency_ratio#dependency_ratio__sex_male__age_old__variant_estimates	Dependency ratio	Male	Old-age dependency ratio	None
