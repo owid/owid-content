@@ -610,3 +610,11 @@ graphers
 	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_100plus__variant_medium	Sex Ratio	Both sexes	At age 100 and over	Medium
 	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_100plus__variant_high	Sex Ratio	Both sexes	At age 100 and over	High
 	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_100plus__variant_low	Sex Ratio	Both sexes	At age 100 and over	Low
+	grapher/un/2024-07-12/un_wpp/migration#net_migration__sex_all__age_all__variant_estimates	net_migration	Both sexes	Total	None
+	grapher/un/2024-07-12/un_wpp/migration#net_migration__sex_all__age_all__variant_medium	net_migration	Both sexes	Total	Medium variant
+	grapher/un/2024-07-12/un_wpp/migration#net_migration__sex_all__age_all__variant_high	net_migration	Both sexes	Total	High variant
+	grapher/un/2024-07-12/un_wpp/migration#net_migration__sex_all__age_all__variant_low	net_migration	Both sexes	Total	Low variant
+	grapher/un/2024-07-12/un_wpp/migration#net_migration_rate__sex_all__age_all__variant_estimates	net_migration_rate	Both sexes	Total	None
+	grapher/un/2024-07-12/un_wpp/migration#net_migration_rate__sex_all__age_all__variant_medium	net_migration_rate	Both sexes	Total	Medium variant
+	grapher/un/2024-07-12/un_wpp/migration#net_migration_rate__sex_all__age_all__variant_high	net_migration_rate	Both sexes	Total	High variant
+	grapher/un/2024-07-12/un_wpp/migration#net_migration_rate__sex_all__age_all__variant_low	net_migration_rate	Both sexes	Total	Low variant
