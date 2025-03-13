@@ -1026,3 +1026,47 @@ graphers
 	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_100plus__variant_low	Sex ratio	Both sexes	At age 100 and over	Low
 	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_100plus__variant_medium	Sex ratio	Both sexes	At age 100 and over	Medium
 	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_100plus__variant_high	Sex ratio	Both sexes	At age 100 and over	High
+	grapher/un/2024-07-12/un_wpp/births#births__sex_all__age_all__variant_estimates	Births	Both sexes	Total	None
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_all__variant_low	Births	Both sexes	Total	Low
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_all__variant_medium	Births	Both sexes	Total	Medium
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_all__variant_high	Births	Both sexes	Total	High
+	grapher/un/2024-07-12/un_wpp/births#births__sex_all__age_10_14__variant_estimates	Births	Both sexes	Mothers aged 10-14 years	None
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_10_14__variant_low	Births	Both sexes	Mothers aged 10-14 years	Low
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_10_14__variant_medium	Births	Both sexes	Mothers aged 10-14 years	Medium
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_10_14__variant_high	Births	Both sexes	Mothers aged 10-14 years	High
+	grapher/un/2024-07-12/un_wpp/births#births__sex_all__age_15_19__variant_estimates	Births	Both sexes	Mothers aged 15-19 years	None
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_15_19__variant_low	Births	Both sexes	Mothers aged 15-19 years	Low
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_15_19__variant_medium	Births	Both sexes	Mothers aged 15-19 years	Medium
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_15_19__variant_high	Births	Both sexes	Mothers aged 15-19 years	High
+	grapher/un/2024-07-12/un_wpp/births#births__sex_all__age_20_24__variant_estimates	Births	Both sexes	Mothers aged 20-24 years	None
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_20_24__variant_low	Births	Both sexes	Mothers aged 20-24 years	Low
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_20_24__variant_medium	Births	Both sexes	Mothers aged 20-24 years	Medium
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_20_24__variant_high	Births	Both sexes	Mothers aged 20-24 years	High
+	grapher/un/2024-07-12/un_wpp/births#births__sex_all__age_25_29__variant_estimates	Births	Both sexes	Mothers aged 25-29 years	None
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_25_29__variant_low	Births	Both sexes	Mothers aged 25-29 years	Low
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_25_29__variant_medium	Births	Both sexes	Mothers aged 25-29 years	Medium
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_25_29__variant_high	Births	Both sexes	Mothers aged 25-29 years	High
+	grapher/un/2024-07-12/un_wpp/births#births__sex_all__age_30_34__variant_estimates	Births	Both sexes	Mothers aged 30-34 years	None
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_30_34__variant_low	Births	Both sexes	Mothers aged 30-34 years	Low
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_30_34__variant_medium	Births	Both sexes	Mothers aged 30-34 years	Medium
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_30_34__variant_high	Births	Both sexes	Mothers aged 30-34 years	High
+	grapher/un/2024-07-12/un_wpp/births#births__sex_all__age_35_39__variant_estimates	Births	Both sexes	Mothers aged 35-39 years	None
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_35_39__variant_low	Births	Both sexes	Mothers aged 35-39 years	Low
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_35_39__variant_medium	Births	Both sexes	Mothers aged 35-39 years	Medium
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_35_39__variant_high	Births	Both sexes	Mothers aged 35-39 years	High
+	grapher/un/2024-07-12/un_wpp/births#births__sex_all__age_40_44__variant_estimates	Births	Both sexes	Mothers aged 40-44 years	None
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_40_44__variant_low	Births	Both sexes	Mothers aged 40-44 years	Low
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_40_44__variant_medium	Births	Both sexes	Mothers aged 40-44 years	Medium
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_40_44__variant_high	Births	Both sexes	Mothers aged 40-44 years	High
+	grapher/un/2024-07-12/un_wpp/births#births__sex_all__age_45_49__variant_estimates	Births	Both sexes	Mothers aged 45-49 years	None
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_45_49__variant_low	Births	Both sexes	Mothers aged 45-49 years	Low
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_45_49__variant_medium	Births	Both sexes	Mothers aged 45-49 years	Medium
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_45_49__variant_high	Births	Both sexes	Mothers aged 45-49 years	High
+	grapher/un/2024-07-12/un_wpp/births#births__sex_all__age_50_54__variant_estimates	Births	Both sexes	Mothers aged 50-54 years	None
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_50_54__variant_low	Births	Both sexes	Mothers aged 50-54 years	Low
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_50_54__variant_medium	Births	Both sexes	Mothers aged 50-54 years	Medium
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_50_54__variant_high	Births	Both sexes	Mothers aged 50-54 years	High
+	grapher/un/2024-07-12/un_wpp/births#birth_rate__sex_all__age_all__variant_estimates	Birth rate	Both sexes	Total	None
+	grapher/un/2024-07-12/un_wpp_full/births#birth_rate__sex_all__age_all__variant_low	Birth rate	Both sexes	Total	Low
+	grapher/un/2024-07-12/un_wpp_full/births#birth_rate__sex_all__age_all__variant_medium	Birth rate	Both sexes	Total	Medium
+	grapher/un/2024-07-12/un_wpp_full/births#birth_rate__sex_all__age_all__variant_high	Birth rate	Both sexes	Total	High
