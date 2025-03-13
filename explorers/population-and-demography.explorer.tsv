@@ -519,25 +519,94 @@ graphers
 	grapher/un/2024-07-12/un_wpp_full/population#population_density__sex_all__age_all__variant_high	Population density	Both sexes	Total	High variant
 	grapher/un/2024-07-12/un_wpp_full/population#population_density__sex_all__age_all__variant_low	Population density	Both sexes	Total	Low variant
 	grapher/un/2024-07-12/un_wpp/dependency_ratio#dependency_ratio__sex_all__age_total__variant_estimates	Dependency ratio	Both sexes	Total dependency ratio	None
+	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_all__age_total__variant_medium	Dependency ratio	Both sexes	Total dependency ratio	Medium variant
+	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_all__age_total__variant_high	Dependency ratio	Both sexes	Total dependency ratio	High variant
+	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_all__age_total__variant_low	Dependency ratio	Both sexes	Total dependency ratio	Low variant
 	grapher/un/2024-07-12/un_wpp/dependency_ratio#dependency_ratio__sex_all__age_youth__variant_estimates	Dependency ratio	Both sexes	Youth dependency ratio	None
+	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_all__age_youth__variant_medium	Dependency ratio	Both sexes	Youth dependency ratio	Medium variant
+	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_all__age_youth__variant_high	Dependency ratio	Both sexes	Youth dependency ratio	High variant
+	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_all__age_youth__variant_low	Dependency ratio	Both sexes	Youth dependency ratio	Low variant
 	grapher/un/2024-07-12/un_wpp/dependency_ratio#dependency_ratio__sex_all__age_old__variant_estimates	Dependency ratio	Both sexes	Old-age dependency ratio	None
+	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_all__age_old__variant_medium	Dependency ratio	Both sexes	Old-age dependency ratio	Medium variant
+	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_all__age_old__variant_high	Dependency ratio	Both sexes	Old-age dependency ratio	High variant
+	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_all__age_old__variant_low	Dependency ratio	Both sexes	Old-age dependency ratio	Low variant
 	grapher/un/2024-07-12/un_wpp/dependency_ratio#dependency_ratio__sex_female__age_total__variant_estimates	Dependency ratio	Female	Total dependency ratio	None
+	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_female__age_total__variant_medium	Dependency ratio	Female	Total dependency ratio	Medium variant
+	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_female__age_total__variant_high	Dependency ratio	Female	Total dependency ratio	High variant
+	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_female__age_total__variant_low	Dependency ratio	Female	Total dependency ratio	Low variant
 	grapher/un/2024-07-12/un_wpp/dependency_ratio#dependency_ratio__sex_female__age_youth__variant_estimates	Dependency ratio	Female	Youth dependency ratio	None
+	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_female__age_youth__variant_medium	Dependency ratio	Female	Youth dependency ratio	Medium variant
+	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_female__age_youth__variant_high	Dependency ratio	Female	Youth dependency ratio	High variant
+	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_female__age_youth__variant_low	Dependency ratio	Female	Youth dependency ratio	Low variant
 	grapher/un/2024-07-12/un_wpp/dependency_ratio#dependency_ratio__sex_female__age_old__variant_estimates	Dependency ratio	Female	Old-age dependency ratio	None
+	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_female__age_old__variant_medium	Dependency ratio	Female	Old-age dependency ratio	Medium variant
+	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_female__age_old__variant_high	Dependency ratio	Female	Old-age dependency ratio	High variant
+	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_female__age_old__variant_low	Dependency ratio	Female	Old-age dependency ratio	Low variant
 	grapher/un/2024-07-12/un_wpp/dependency_ratio#dependency_ratio__sex_male__age_total__variant_estimates	Dependency ratio	Male	Total dependency ratio	None
+	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_male__age_total__variant_medium	Dependency ratio	Male	Total dependency ratio	Medium variant
+	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_male__age_total__variant_high	Dependency ratio	Male	Total dependency ratio	High variant
+	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_male__age_total__variant_low	Dependency ratio	Male	Total dependency ratio	Low variant
 	grapher/un/2024-07-12/un_wpp/dependency_ratio#dependency_ratio__sex_male__age_youth__variant_estimates	Dependency ratio	Male	Youth dependency ratio	None
+	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_male__age_youth__variant_medium	Dependency ratio	Male	Youth dependency ratio	Medium variant
+	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_male__age_youth__variant_high	Dependency ratio	Male	Youth dependency ratio	High variant
+	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_male__age_youth__variant_low	Dependency ratio	Male	Youth dependency ratio	Low variant
 	grapher/un/2024-07-12/un_wpp/dependency_ratio#dependency_ratio__sex_male__age_old__variant_estimates	Dependency ratio	Male	Old-age dependency ratio	None
+	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_male__age_old__variant_medium	Dependency ratio	Male	Old-age dependency ratio	Medium variant
+	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_male__age_old__variant_high	Dependency ratio	Male	Old-age dependency ratio	High variant
+	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_male__age_old__variant_low	Dependency ratio	Male	Old-age dependency ratio	Low variant
 	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_all__variant_estimates	Sex Ratio	Both sexes	Total	None
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_all__variant_medium	Sex Ratio	Both sexes	Total	Medium variant
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_all__variant_high	Sex Ratio	Both sexes	Total	High variant
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_all__variant_low	Sex Ratio	Both sexes	Total	Low variant
 	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_0__variant_estimates	Sex Ratio	Both sexes	At birth	None
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_0__variant_medium	Sex Ratio	Both sexes	At birth	Medium variant
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_0__variant_high	Sex Ratio	Both sexes	At birth	High variant
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_0__variant_low	Sex Ratio	Both sexes	At birth	Low variant
 	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_5__variant_estimates	Sex Ratio	Both sexes	At age 5	None
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_5__variant_medium	Sex Ratio	Both sexes	At age 5	Medium variant
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_5__variant_high	Sex Ratio	Both sexes	At age 5	High variant
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_5__variant_low	Sex Ratio	Both sexes	At age 5	Low variant
 	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_10__variant_estimates	Sex Ratio	Both sexes	At age 10	None
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_10__variant_medium	Sex Ratio	Both sexes	At age 10	Medium variant
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_10__variant_high	Sex Ratio	Both sexes	At age 10	High variant
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_10__variant_low	Sex Ratio	Both sexes	At age 10	Low variant
 	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_15__variant_estimates	Sex Ratio	Both sexes	At age 15	None
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_15__variant_medium	Sex Ratio	Both sexes	At age 15	Medium variant
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_15__variant_high	Sex Ratio	Both sexes	At age 15	High variant
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_15__variant_low	Sex Ratio	Both sexes	At age 15	Low variant
 	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_20__variant_estimates	Sex Ratio	Both sexes	At age 20	None
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_20__variant_medium	Sex Ratio	Both sexes	At age 20	Medium variant
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_20__variant_high	Sex Ratio	Both sexes	At age 20	High variant
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_20__variant_low	Sex Ratio	Both sexes	At age 20	Low variant
 	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_30__variant_estimates	Sex Ratio	Both sexes	At age 30	None
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_30__variant_medium	Sex Ratio	Both sexes	At age 30	Medium variant
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_30__variant_high	Sex Ratio	Both sexes	At age 30	High variant
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_30__variant_low	Sex Ratio	Both sexes	At age 30	Low variant
 	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_40__variant_estimates	Sex Ratio	Both sexes	At age 40	None
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_40__variant_medium	Sex Ratio	Both sexes	At age 40	Medium variant
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_40__variant_high	Sex Ratio	Both sexes	At age 40	High variant
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_40__variant_low	Sex Ratio	Both sexes	At age 40	Low variant
 	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_50__variant_estimates	Sex Ratio	Both sexes	At age 50	None
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_50__variant_medium	Sex Ratio	Both sexes	At age 50	Medium variant
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_50__variant_high	Sex Ratio	Both sexes	At age 50	High variant
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_50__variant_low	Sex Ratio	Both sexes	At age 50	Low variant
 	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_60__variant_estimates	Sex Ratio	Both sexes	At age 60	None
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_60__variant_medium	Sex Ratio	Both sexes	At age 60	Medium variant
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_60__variant_high	Sex Ratio	Both sexes	At age 60	High variant
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_60__variant_low	Sex Ratio	Both sexes	At age 60	Low variant
 	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_70__variant_estimates	Sex Ratio	Both sexes	At age 70	None
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_70__variant_medium	Sex Ratio	Both sexes	At age 70	Medium variant
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_70__variant_high	Sex Ratio	Both sexes	At age 70	High variant
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_70__variant_low	Sex Ratio	Both sexes	At age 70	Low variant
 	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_80__variant_estimates	Sex Ratio	Both sexes	At age 80	None
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_80__variant_medium	Sex Ratio	Both sexes	At age 80	Medium variant
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_80__variant_high	Sex Ratio	Both sexes	At age 80	High variant
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_80__variant_low	Sex Ratio	Both sexes	At age 80	Low variant
 	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_90__variant_estimates	Sex Ratio	Both sexes	At age 90	None
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_90__variant_medium	Sex Ratio	Both sexes	At age 90	Medium variant
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_90__variant_high	Sex Ratio	Both sexes	At age 90	High variant
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_90__variant_low	Sex Ratio	Both sexes	At age 90	Low variant
 	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_100plus__variant_estimates	Sex Ratio	Both sexes	At age 100 and over	None
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_100plus__variant_medium	Sex Ratio	Both sexes	At age 100 and over	Medium variant
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_100plus__variant_high	Sex Ratio	Both sexes	At age 100 and over	High variant
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_100plus__variant_low	Sex Ratio	Both sexes	At age 100 and over	Low variant
