@@ -137,3 +137,26 @@ graphers
 	grapher/un/2024-07-12/un_wpp/population#population_change__sex_male__age_90_99__variant_estimates	Annual population change	Male	90–99 years	None
 	grapher/un/2024-07-12/un_wpp/population#population_change__sex_male__age_100plus__variant_estimates	Annual population change	Male	100+ years	None
 	grapher/un/2024-07-12/un_wpp/population#population_density__sex_all__age_all__variant_estimates	Population density	Both sexes	Total	None
+	grapher/un/2024-07-12/un_wpp/dependency_ratio#dependency_ratio__sex_all__age_total__variant_estimates	Dependency ratio	Both sexes	Total dependency ratio	None
+	grapher/un/2024-07-12/un_wpp/dependency_ratio#dependency_ratio__sex_all__age_youth__variant_estimates	Dependency ratio	Both sexes	Youth dependency ratio	None
+	grapher/un/2024-07-12/un_wpp/dependency_ratio#dependency_ratio__sex_all__age_old__variant_estimates	Dependency ratio	Both sexes	Old-age dependency ratio	None
+	grapher/un/2024-07-12/un_wpp/dependency_ratio#dependency_ratio__sex_female__age_total__variant_estimates	Dependency ratio	Female	Total dependency ratio	None
+	grapher/un/2024-07-12/un_wpp/dependency_ratio#dependency_ratio__sex_female__age_youth__variant_estimates	Dependency ratio	Female	Youth dependency ratio	None
+	grapher/un/2024-07-12/un_wpp/dependency_ratio#dependency_ratio__sex_female__age_old__variant_estimates	Dependency ratio	Female	Old-age dependency ratio	None
+	grapher/un/2024-07-12/un_wpp/dependency_ratio#dependency_ratio__sex_male__age_total__variant_estimates	Dependency ratio	Male	Total dependency ratio	None
+	grapher/un/2024-07-12/un_wpp/dependency_ratio#dependency_ratio__sex_male__age_youth__variant_estimates	Dependency ratio	Male	Youth dependency ratio	None
+	grapher/un/2024-07-12/un_wpp/dependency_ratio#dependency_ratio__sex_male__age_old__variant_estimates	Dependency ratio	Male	Old-age dependency ratio	None
+	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_all__variant_estimates	Sex Ratio	Both sexes	Total	None
+	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_0__variant_estimates	Sex Ratio	Both sexes	At birth	None
+	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_5__variant_estimates	Sex Ratio	Both sexes	At age 5	None
+	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_10__variant_estimates	Sex Ratio	Both sexes	At age 10	None
+	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_15__variant_estimates	Sex Ratio	Both sexes	At age 15	None
+	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_20__variant_estimates	Sex Ratio	Both sexes	At age 20	None
+	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_30__variant_estimates	Sex Ratio	Both sexes	At age 30	None
+	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_40__variant_estimates	Sex Ratio	Both sexes	At age 40	None
+	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_50__variant_estimates	Sex Ratio	Both sexes	At age 50	None
+	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_60__variant_estimates	Sex Ratio	Both sexes	At age 60	None
+	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_70__variant_estimates	Sex Ratio	Both sexes	At age 70	None
+	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_80__variant_estimates	Sex Ratio	Both sexes	At age 80	None
+	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_90__variant_estimates	Sex Ratio	Both sexes	At age 90	None
+	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_100plus__variant_estimates	Sex Ratio	Both sexes	At age 100 and over	None
