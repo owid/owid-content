@@ -10,26 +10,26 @@ thumbnail	https://owid.cloud/app/uploads/2022/07/Population-Data-Explorer.png
 pickerColumnSlugs	location population__all__all__records population_change__all__all__records population_density__all__all__records births__all__all__records birth_rate__all__all__records deaths__all__all__records death_rate__all__all__records fertility_rate__all__all__records growth_natural_rate__all__all__records growth_rate__all__all__records life_expectancy__all__at_birth__records net_migration__all__all__records net_migration_rate__all__all__records sex_ratio__none__at_birth__records dependency_ratio_total__all__none__records dependency_ratio_child__all__none__records dependency_ratio_old__all__none__records median_age__all__all__records
 graphers
 	yVariableIds	indicator Dropdown	Sex Radio	Age Dropdown	Projection scenario Radio	title	type	hasMapTab	stackMode	selectedFacetStrategy	subtitle
-	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_all__variant_estimates	Population	Both sexes	Total	None	Population at age all__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_all__variant_low	Population	Both sexes	Total	Low	Population at age all__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_all__variant_medium	Population	Both sexes	Total	Medium	Population at age all__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_all__variant_high	Population	Both sexes	Total	High	Population at age all__0 years
-	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_0__variant_estimates	Population	Both sexes	Under 1 year	None	Population at age 0__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_0__variant_low	Population	Both sexes	Under 1 year	Low	Population at age 0__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_0__variant_medium	Population	Both sexes	Under 1 year	Medium	Population at age 0__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_0__variant_high	Population	Both sexes	Under 1 year	High	Population at age 0__0 years
-	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_0_4__variant_estimates	Population	Both sexes	Under 5 years	None	Population aged 0 to 4__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_0_4__variant_low	Population	Both sexes	Under 5 years	Low	Population aged 0 to 4__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_0_4__variant_medium	Population	Both sexes	Under 5 years	Medium	Population aged 0 to 4__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_0_4__variant_high	Population	Both sexes	Under 5 years	High	Population aged 0 to 4__0 years
-	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_0_14__variant_estimates	Population	Both sexes	Under 15 years	None	Population aged 0 to 14__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_0_14__variant_low	Population	Both sexes	Under 15 years	Low	Population aged 0 to 14__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_0_14__variant_medium	Population	Both sexes	Under 15 years	Medium	Population aged 0 to 14__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_0_14__variant_high	Population	Both sexes	Under 15 years	High	Population aged 0 to 14__0 years
-	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_0_24__variant_estimates	Population	Both sexes	Under 25 years	None	Population aged 0 to 24__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_0_24__variant_low	Population	Both sexes	Under 25 years	Low	Population aged 0 to 24__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_0_24__variant_medium	Population	Both sexes	Under 25 years	Medium	Population aged 0 to 24__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_0_24__variant_high	Population	Both sexes	Under 25 years	High	Population aged 0 to 24__0 years
+	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_all__variant_estimates	Population	Both sexes	Total	None	Population
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_all__variant_low	Population	Both sexes	Total	Low	Population
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_all__variant_medium	Population	Both sexes	Total	Medium	Population
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_all__variant_high	Population	Both sexes	Total	High	Population
+	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_0__variant_estimates	Population	Both sexes	Under 1 year	None	Population of children under the age of 1
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_0__variant_low	Population	Both sexes	Under 1 year	Low	Population of children under the age of 1
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_0__variant_medium	Population	Both sexes	Under 1 year	Medium	Population of children under the age of 1
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_0__variant_high	Population	Both sexes	Under 1 year	High	Population of children under the age of 1
+	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_0_4__variant_estimates	Population	Both sexes	Under 5 years	None	Population of children under the age of 5
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_0_4__variant_low	Population	Both sexes	Under 5 years	Low	Population of children under the age of 5
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_0_4__variant_medium	Population	Both sexes	Under 5 years	Medium	Population of children under the age of 5
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_0_4__variant_high	Population	Both sexes	Under 5 years	High	Population of children under the age of 5
+	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_0_14__variant_estimates	Population	Both sexes	Under 15 years	None	Population of children under the age of 15
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_0_14__variant_low	Population	Both sexes	Under 15 years	Low	Population of children under the age of 15
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_0_14__variant_medium	Population	Both sexes	Under 15 years	Medium	Population of children under the age of 15
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_0_14__variant_high	Population	Both sexes	Under 15 years	High	Population of children under the age of 15
+	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_0_24__variant_estimates	Population	Both sexes	Under 25 years	None	Population under the age of 25
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_0_24__variant_low	Population	Both sexes	Under 25 years	Low	Population under the age of 25
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_0_24__variant_medium	Population	Both sexes	Under 25 years	Medium	Population under the age of 25
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_0_24__variant_high	Population	Both sexes	Under 25 years	High	Population under the age of 25
 	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_15_64__variant_estimates	Population	Both sexes	15–64 years	None	Population aged 15 to 64 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_15_64__variant_low	Population	Both sexes	15–64 years	Low	Population aged 15 to 64 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_15_64__variant_medium	Population	Both sexes	15–64 years	Medium	Population aged 15 to 64 years
@@ -50,14 +50,14 @@ graphers
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_5_9__variant_low	Population	Both sexes	5–9 years	Low	Population aged 5 to 9 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_5_9__variant_medium	Population	Both sexes	5–9 years	Medium	Population aged 5 to 9 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_5_9__variant_high	Population	Both sexes	5–9 years	High	Population aged 5 to 9 years
-	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_10_14__variant_estimates	Population	Both sexes	10–14 years	None	Population aged 10 to 14__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_10_14__variant_low	Population	Both sexes	10–14 years	Low	Population aged 10 to 14__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_10_14__variant_medium	Population	Both sexes	10–14 years	Medium	Population aged 10 to 14__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_10_14__variant_high	Population	Both sexes	10–14 years	High	Population aged 10 to 14__0 years
-	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_15_19__variant_estimates	Population	Both sexes	15–19 years	None	Population aged 15 to 19__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_15_19__variant_low	Population	Both sexes	15–19 years	Low	Population aged 15 to 19__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_15_19__variant_medium	Population	Both sexes	15–19 years	Medium	Population aged 15 to 19__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_15_19__variant_high	Population	Both sexes	15–19 years	High	Population aged 15 to 19__0 years
+	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_10_14__variant_estimates	Population	Both sexes	10–14 years	None	Population aged 10 to 14 years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_10_14__variant_low	Population	Both sexes	10–14 years	Low	Population aged 10 to 14 years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_10_14__variant_medium	Population	Both sexes	10–14 years	Medium	Population aged 10 to 14 years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_10_14__variant_high	Population	Both sexes	10–14 years	High	Population aged 10 to 14 years
+	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_15_19__variant_estimates	Population	Both sexes	15–19 years	None	Population aged 15 to 19 years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_15_19__variant_low	Population	Both sexes	15–19 years	Low	Population aged 15 to 19 years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_15_19__variant_medium	Population	Both sexes	15–19 years	Medium	Population aged 15 to 19 years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_15_19__variant_high	Population	Both sexes	15–19 years	High	Population aged 15 to 19 years
 	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_20_29__variant_estimates	Population	Both sexes	20–29 years	None	Population aged 20 to 29 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_20_29__variant_low	Population	Both sexes	20–29 years	Low	Population aged 20 to 29 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_20_29__variant_medium	Population	Both sexes	20–29 years	Medium	Population aged 20 to 29 years
@@ -90,30 +90,30 @@ graphers
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_90_99__variant_low	Population	Both sexes	90–99 years	Low	Population aged 90 to 99 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_90_99__variant_medium	Population	Both sexes	90–99 years	Medium	Population aged 90 to 99 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_90_99__variant_high	Population	Both sexes	90–99 years	High	Population aged 90 to 99 years
-	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_100plus__variant_estimates	Population	Both sexes	100+ years	None	Population older than 100__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_100plus__variant_low	Population	Both sexes	100+ years	Low	Population older than 100__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_100plus__variant_medium	Population	Both sexes	100+ years	Medium	Population older than 100__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_100plus__variant_high	Population	Both sexes	100+ years	High	Population older than 100__0 years
-	grapher/un/2024-07-12/un_wpp/population#population__sex_female__age_all__variant_estimates	Population	Female	Total	None	Female population at age all__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_all__variant_low	Population	Female	Total	Low	Female population at age all__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_all__variant_medium	Population	Female	Total	Medium	Female population at age all__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_all__variant_high	Population	Female	Total	High	Female population at age all__0 years
-	grapher/un/2024-07-12/un_wpp/population#population__sex_female__age_0__variant_estimates	Population	Female	Under 1 year	None	Female population at age 0__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_0__variant_low	Population	Female	Under 1 year	Low	Female population at age 0__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_0__variant_medium	Population	Female	Under 1 year	Medium	Female population at age 0__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_0__variant_high	Population	Female	Under 1 year	High	Female population at age 0__0 years
-	grapher/un/2024-07-12/un_wpp/population#population__sex_female__age_0_4__variant_estimates	Population	Female	Under 5 years	None	Female population aged 0 to 4__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_0_4__variant_low	Population	Female	Under 5 years	Low	Female population aged 0 to 4__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_0_4__variant_medium	Population	Female	Under 5 years	Medium	Female population aged 0 to 4__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_0_4__variant_high	Population	Female	Under 5 years	High	Female population aged 0 to 4__0 years
-	grapher/un/2024-07-12/un_wpp/population#population__sex_female__age_0_14__variant_estimates	Population	Female	Under 15 years	None	Female population aged 0 to 14__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_0_14__variant_low	Population	Female	Under 15 years	Low	Female population aged 0 to 14__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_0_14__variant_medium	Population	Female	Under 15 years	Medium	Female population aged 0 to 14__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_0_14__variant_high	Population	Female	Under 15 years	High	Female population aged 0 to 14__0 years
-	grapher/un/2024-07-12/un_wpp/population#population__sex_female__age_0_24__variant_estimates	Population	Female	Under 25 years	None	Female population aged 0 to 24__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_0_24__variant_low	Population	Female	Under 25 years	Low	Female population aged 0 to 24__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_0_24__variant_medium	Population	Female	Under 25 years	Medium	Female population aged 0 to 24__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_0_24__variant_high	Population	Female	Under 25 years	High	Female population aged 0 to 24__0 years
+	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_100plus__variant_estimates	Population	Both sexes	100+ years	None	Population older than 100 years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_100plus__variant_low	Population	Both sexes	100+ years	Low	Population older than 100 years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_100plus__variant_medium	Population	Both sexes	100+ years	Medium	Population older than 100 years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_100plus__variant_high	Population	Both sexes	100+ years	High	Population older than 100 years
+	grapher/un/2024-07-12/un_wpp/population#population__sex_female__age_all__variant_estimates	Population	Female	Total	None	Female population
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_all__variant_low	Population	Female	Total	Low	Female population
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_all__variant_medium	Population	Female	Total	Medium	Female population
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_all__variant_high	Population	Female	Total	High	Female population
+	grapher/un/2024-07-12/un_wpp/population#population__sex_female__age_0__variant_estimates	Population	Female	Under 1 year	None	Female population of children under the age of 1
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_0__variant_low	Population	Female	Under 1 year	Low	Female population of children under the age of 1
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_0__variant_medium	Population	Female	Under 1 year	Medium	Female population of children under the age of 1
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_0__variant_high	Population	Female	Under 1 year	High	Female population of children under the age of 1
+	grapher/un/2024-07-12/un_wpp/population#population__sex_female__age_0_4__variant_estimates	Population	Female	Under 5 years	None	Female population of children under the age of 5
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_0_4__variant_low	Population	Female	Under 5 years	Low	Female population of children under the age of 5
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_0_4__variant_medium	Population	Female	Under 5 years	Medium	Female population of children under the age of 5
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_0_4__variant_high	Population	Female	Under 5 years	High	Female population of children under the age of 5
+	grapher/un/2024-07-12/un_wpp/population#population__sex_female__age_0_14__variant_estimates	Population	Female	Under 15 years	None	Female population of children under the age of 15
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_0_14__variant_low	Population	Female	Under 15 years	Low	Female population of children under the age of 15
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_0_14__variant_medium	Population	Female	Under 15 years	Medium	Female population of children under the age of 15
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_0_14__variant_high	Population	Female	Under 15 years	High	Female population of children under the age of 15
+	grapher/un/2024-07-12/un_wpp/population#population__sex_female__age_0_24__variant_estimates	Population	Female	Under 25 years	None	Female population under the age of 25
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_0_24__variant_low	Population	Female	Under 25 years	Low	Female population under the age of 25
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_0_24__variant_medium	Population	Female	Under 25 years	Medium	Female population under the age of 25
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_0_24__variant_high	Population	Female	Under 25 years	High	Female population under the age of 25
 	grapher/un/2024-07-12/un_wpp/population#population__sex_female__age_15_64__variant_estimates	Population	Female	15–64 years	None	Female population aged 15 to 64 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_15_64__variant_low	Population	Female	15–64 years	Low	Female population aged 15 to 64 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_15_64__variant_medium	Population	Female	15–64 years	Medium	Female population aged 15 to 64 years
@@ -134,14 +134,14 @@ graphers
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_5_9__variant_low	Population	Female	5–9 years	Low	Female population aged 5 to 9 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_5_9__variant_medium	Population	Female	5–9 years	Medium	Female population aged 5 to 9 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_5_9__variant_high	Population	Female	5–9 years	High	Female population aged 5 to 9 years
-	grapher/un/2024-07-12/un_wpp/population#population__sex_female__age_10_14__variant_estimates	Population	Female	10–14 years	None	Female population aged 10 to 14__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_10_14__variant_low	Population	Female	10–14 years	Low	Female population aged 10 to 14__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_10_14__variant_medium	Population	Female	10–14 years	Medium	Female population aged 10 to 14__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_10_14__variant_high	Population	Female	10–14 years	High	Female population aged 10 to 14__0 years
-	grapher/un/2024-07-12/un_wpp/population#population__sex_female__age_15_19__variant_estimates	Population	Female	15–19 years	None	Female population aged 15 to 19__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_15_19__variant_low	Population	Female	15–19 years	Low	Female population aged 15 to 19__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_15_19__variant_medium	Population	Female	15–19 years	Medium	Female population aged 15 to 19__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_15_19__variant_high	Population	Female	15–19 years	High	Female population aged 15 to 19__0 years
+	grapher/un/2024-07-12/un_wpp/population#population__sex_female__age_10_14__variant_estimates	Population	Female	10–14 years	None	Female population aged 10 to 14 years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_10_14__variant_low	Population	Female	10–14 years	Low	Female population aged 10 to 14 years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_10_14__variant_medium	Population	Female	10–14 years	Medium	Female population aged 10 to 14 years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_10_14__variant_high	Population	Female	10–14 years	High	Female population aged 10 to 14 years
+	grapher/un/2024-07-12/un_wpp/population#population__sex_female__age_15_19__variant_estimates	Population	Female	15–19 years	None	Female population aged 15 to 19 years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_15_19__variant_low	Population	Female	15–19 years	Low	Female population aged 15 to 19 years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_15_19__variant_medium	Population	Female	15–19 years	Medium	Female population aged 15 to 19 years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_15_19__variant_high	Population	Female	15–19 years	High	Female population aged 15 to 19 years
 	grapher/un/2024-07-12/un_wpp/population#population__sex_female__age_20_29__variant_estimates	Population	Female	20–29 years	None	Female population aged 20 to 29 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_20_29__variant_low	Population	Female	20–29 years	Low	Female population aged 20 to 29 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_20_29__variant_medium	Population	Female	20–29 years	Medium	Female population aged 20 to 29 years
@@ -174,30 +174,30 @@ graphers
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_90_99__variant_low	Population	Female	90–99 years	Low	Female population aged 90 to 99 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_90_99__variant_medium	Population	Female	90–99 years	Medium	Female population aged 90 to 99 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_90_99__variant_high	Population	Female	90–99 years	High	Female population aged 90 to 99 years
-	grapher/un/2024-07-12/un_wpp/population#population__sex_female__age_100plus__variant_estimates	Population	Female	100+ years	None	Female population older than 100__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_100plus__variant_low	Population	Female	100+ years	Low	Female population older than 100__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_100plus__variant_medium	Population	Female	100+ years	Medium	Female population older than 100__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_100plus__variant_high	Population	Female	100+ years	High	Female population older than 100__0 years
-	grapher/un/2024-07-12/un_wpp/population#population__sex_male__age_all__variant_estimates	Population	Male	Total	None	Male population at age all__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_all__variant_low	Population	Male	Total	Low	Male population at age all__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_all__variant_medium	Population	Male	Total	Medium	Male population at age all__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_all__variant_high	Population	Male	Total	High	Male population at age all__0 years
-	grapher/un/2024-07-12/un_wpp/population#population__sex_male__age_0__variant_estimates	Population	Male	Under 1 year	None	Male population at age 0__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_0__variant_low	Population	Male	Under 1 year	Low	Male population at age 0__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_0__variant_medium	Population	Male	Under 1 year	Medium	Male population at age 0__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_0__variant_high	Population	Male	Under 1 year	High	Male population at age 0__0 years
-	grapher/un/2024-07-12/un_wpp/population#population__sex_male__age_0_4__variant_estimates	Population	Male	Under 5 years	None	Male population aged 0 to 4__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_0_4__variant_low	Population	Male	Under 5 years	Low	Male population aged 0 to 4__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_0_4__variant_medium	Population	Male	Under 5 years	Medium	Male population aged 0 to 4__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_0_4__variant_high	Population	Male	Under 5 years	High	Male population aged 0 to 4__0 years
-	grapher/un/2024-07-12/un_wpp/population#population__sex_male__age_0_14__variant_estimates	Population	Male	Under 15 years	None	Male population aged 0 to 14__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_0_14__variant_low	Population	Male	Under 15 years	Low	Male population aged 0 to 14__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_0_14__variant_medium	Population	Male	Under 15 years	Medium	Male population aged 0 to 14__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_0_14__variant_high	Population	Male	Under 15 years	High	Male population aged 0 to 14__0 years
-	grapher/un/2024-07-12/un_wpp/population#population__sex_male__age_0_24__variant_estimates	Population	Male	Under 25 years	None	Male population aged 0 to 24__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_0_24__variant_low	Population	Male	Under 25 years	Low	Male population aged 0 to 24__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_0_24__variant_medium	Population	Male	Under 25 years	Medium	Male population aged 0 to 24__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_0_24__variant_high	Population	Male	Under 25 years	High	Male population aged 0 to 24__0 years
+	grapher/un/2024-07-12/un_wpp/population#population__sex_female__age_100plus__variant_estimates	Population	Female	100+ years	None	Female population older than 100 years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_100plus__variant_low	Population	Female	100+ years	Low	Female population older than 100 years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_100plus__variant_medium	Population	Female	100+ years	Medium	Female population older than 100 years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_100plus__variant_high	Population	Female	100+ years	High	Female population older than 100 years
+	grapher/un/2024-07-12/un_wpp/population#population__sex_male__age_all__variant_estimates	Population	Male	Total	None	Male population
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_all__variant_low	Population	Male	Total	Low	Male population
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_all__variant_medium	Population	Male	Total	Medium	Male population
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_all__variant_high	Population	Male	Total	High	Male population
+	grapher/un/2024-07-12/un_wpp/population#population__sex_male__age_0__variant_estimates	Population	Male	Under 1 year	None	Male population of children under the age of 1
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_0__variant_low	Population	Male	Under 1 year	Low	Male population of children under the age of 1
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_0__variant_medium	Population	Male	Under 1 year	Medium	Male population of children under the age of 1
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_0__variant_high	Population	Male	Under 1 year	High	Male population of children under the age of 1
+	grapher/un/2024-07-12/un_wpp/population#population__sex_male__age_0_4__variant_estimates	Population	Male	Under 5 years	None	Male population of children under the age of 5
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_0_4__variant_low	Population	Male	Under 5 years	Low	Male population of children under the age of 5
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_0_4__variant_medium	Population	Male	Under 5 years	Medium	Male population of children under the age of 5
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_0_4__variant_high	Population	Male	Under 5 years	High	Male population of children under the age of 5
+	grapher/un/2024-07-12/un_wpp/population#population__sex_male__age_0_14__variant_estimates	Population	Male	Under 15 years	None	Male population of children under the age of 15
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_0_14__variant_low	Population	Male	Under 15 years	Low	Male population of children under the age of 15
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_0_14__variant_medium	Population	Male	Under 15 years	Medium	Male population of children under the age of 15
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_0_14__variant_high	Population	Male	Under 15 years	High	Male population of children under the age of 15
+	grapher/un/2024-07-12/un_wpp/population#population__sex_male__age_0_24__variant_estimates	Population	Male	Under 25 years	None	Male population under the age of 25
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_0_24__variant_low	Population	Male	Under 25 years	Low	Male population under the age of 25
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_0_24__variant_medium	Population	Male	Under 25 years	Medium	Male population under the age of 25
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_0_24__variant_high	Population	Male	Under 25 years	High	Male population under the age of 25
 	grapher/un/2024-07-12/un_wpp/population#population__sex_male__age_15_64__variant_estimates	Population	Male	15–64 years	None	Male population aged 15 to 64 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_15_64__variant_low	Population	Male	15–64 years	Low	Male population aged 15 to 64 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_15_64__variant_medium	Population	Male	15–64 years	Medium	Male population aged 15 to 64 years
@@ -218,14 +218,14 @@ graphers
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_5_9__variant_low	Population	Male	5–9 years	Low	Male population aged 5 to 9 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_5_9__variant_medium	Population	Male	5–9 years	Medium	Male population aged 5 to 9 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_5_9__variant_high	Population	Male	5–9 years	High	Male population aged 5 to 9 years
-	grapher/un/2024-07-12/un_wpp/population#population__sex_male__age_10_14__variant_estimates	Population	Male	10–14 years	None	Male population aged 10 to 14__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_10_14__variant_low	Population	Male	10–14 years	Low	Male population aged 10 to 14__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_10_14__variant_medium	Population	Male	10–14 years	Medium	Male population aged 10 to 14__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_10_14__variant_high	Population	Male	10–14 years	High	Male population aged 10 to 14__0 years
-	grapher/un/2024-07-12/un_wpp/population#population__sex_male__age_15_19__variant_estimates	Population	Male	15–19 years	None	Male population aged 15 to 19__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_15_19__variant_low	Population	Male	15–19 years	Low	Male population aged 15 to 19__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_15_19__variant_medium	Population	Male	15–19 years	Medium	Male population aged 15 to 19__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_15_19__variant_high	Population	Male	15–19 years	High	Male population aged 15 to 19__0 years
+	grapher/un/2024-07-12/un_wpp/population#population__sex_male__age_10_14__variant_estimates	Population	Male	10–14 years	None	Male population aged 10 to 14 years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_10_14__variant_low	Population	Male	10–14 years	Low	Male population aged 10 to 14 years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_10_14__variant_medium	Population	Male	10–14 years	Medium	Male population aged 10 to 14 years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_10_14__variant_high	Population	Male	10–14 years	High	Male population aged 10 to 14 years
+	grapher/un/2024-07-12/un_wpp/population#population__sex_male__age_15_19__variant_estimates	Population	Male	15–19 years	None	Male population aged 15 to 19 years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_15_19__variant_low	Population	Male	15–19 years	Low	Male population aged 15 to 19 years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_15_19__variant_medium	Population	Male	15–19 years	Medium	Male population aged 15 to 19 years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_15_19__variant_high	Population	Male	15–19 years	High	Male population aged 15 to 19 years
 	grapher/un/2024-07-12/un_wpp/population#population__sex_male__age_20_29__variant_estimates	Population	Male	20–29 years	None	Male population aged 20 to 29 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_20_29__variant_low	Population	Male	20–29 years	Low	Male population aged 20 to 29 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_20_29__variant_medium	Population	Male	20–29 years	Medium	Male population aged 20 to 29 years
@@ -258,10 +258,10 @@ graphers
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_90_99__variant_low	Population	Male	90–99 years	Low	Male population aged 90 to 99 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_90_99__variant_medium	Population	Male	90–99 years	Medium	Male population aged 90 to 99 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_90_99__variant_high	Population	Male	90–99 years	High	Male population aged 90 to 99 years
-	grapher/un/2024-07-12/un_wpp/population#population__sex_male__age_100plus__variant_estimates	Population	Male	100+ years	None	Male population older than 100__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_100plus__variant_low	Population	Male	100+ years	Low	Male population older than 100__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_100plus__variant_medium	Population	Male	100+ years	Medium	Male population older than 100__0 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_100plus__variant_high	Population	Male	100+ years	High	Male population older than 100__0 years
+	grapher/un/2024-07-12/un_wpp/population#population__sex_male__age_100plus__variant_estimates	Population	Male	100+ years	None	Male population older than 100 years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_100plus__variant_low	Population	Male	100+ years	Low	Male population older than 100 years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_100plus__variant_medium	Population	Male	100+ years	Medium	Male population older than 100 years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_100plus__variant_high	Population	Male	100+ years	High	Male population older than 100 years
 	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_0_4__variant_estimates grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_5_14__variant_estimates grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_15_24__variant_estimates grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_25_64__variant_estimates grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_65plus__variant_estimates	Population by broad age group	Both sexes	Total	None	Population by broad age group	StackedArea	false		false
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_0_4__variant_low grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_5_14__variant_low grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_15_24__variant_low grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_25_64__variant_low grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_65plus__variant_low	Population by broad age group	Both sexes	Total	Low	Population by broad age group	StackedArea	false		false
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_0_4__variant_medium grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_5_14__variant_medium grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_15_24__variant_medium grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_25_64__variant_medium grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_65plus__variant_medium	Population by broad age group	Both sexes	Total	Medium	Population by broad age group	StackedArea	false		false
