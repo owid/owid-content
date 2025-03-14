@@ -790,6 +790,10 @@ graphers
 	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_male__age_old__variant_low	Dependency ratio	Male	Old-age dependency ratio	Low
 	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_male__age_old__variant_medium	Dependency ratio	Male	Old-age dependency ratio	Medium
 	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_male__age_old__variant_high	Dependency ratio	Male	Old-age dependency ratio	High
+	grapher/un/2024-07-12/un_wpp/median_age#median_age__sex_all__age_all__variant_estimates	median_age	Both sexes	None	None
+	grapher/un/2024-07-12/un_wpp_full/median_age#median_age__sex_all__age_all__variant_low	median_age	Both sexes	None	Low
+	grapher/un/2024-07-12/un_wpp_full/median_age#median_age__sex_all__age_all__variant_medium	median_age	Both sexes	None	Medium
+	grapher/un/2024-07-12/un_wpp_full/median_age#median_age__sex_all__age_all__variant_high	median_age	Both sexes	None	High
 	grapher/un/2024-07-12/un_wpp/migration#net_migration__sex_all__age_all__variant_estimates	Net migration	Both sexes	Total	None
 	grapher/un/2024-07-12/un_wpp_full/migration#net_migration__sex_all__age_all__variant_medium	Net migration	Both sexes	Total	Medium
 	grapher/un/2024-07-12/un_wpp/migration#net_migration_rate__sex_all__age_all__variant_estimates	Net migration rate	Both sexes	Total	None
