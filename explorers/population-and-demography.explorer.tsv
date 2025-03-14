@@ -514,14 +514,6 @@ graphers
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_100plus__variant_low	Annual population change	Male	100+ years	Low
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_100plus__variant_medium	Annual population change	Male	100+ years	Medium
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_100plus__variant_high	Annual population change	Male	100+ years	High
-	grapher/un/2024-07-12/un_wpp/growth_rate#growth_rate__sex_all__age_all__variant_estimates	Population growth rate	Both sexes	Total	None
-	grapher/un/2024-07-12/un_wpp_full/growth_rate#growth_rate__sex_all__age_all__variant_low	Population growth rate	Both sexes	Total	Low
-	grapher/un/2024-07-12/un_wpp_full/growth_rate#growth_rate__sex_all__age_all__variant_medium	Population growth rate	Both sexes	Total	Medium
-	grapher/un/2024-07-12/un_wpp_full/growth_rate#growth_rate__sex_all__age_all__variant_high	Population growth rate	Both sexes	Total	High
-	grapher/un/2024-07-12/un_wpp/natural_change_rate#natural_change_rate__sex_all__age_all__variant_estimates	Natural population growth rate	Both sexes	Total	None
-	grapher/un/2024-07-12/un_wpp_full/natural_change_rate#natural_change_rate__sex_all__age_all__variant_low	Natural population growth rate	Both sexes	Total	Low
-	grapher/un/2024-07-12/un_wpp_full/natural_change_rate#natural_change_rate__sex_all__age_all__variant_medium	Natural population growth rate	Both sexes	Total	Medium
-	grapher/un/2024-07-12/un_wpp_full/natural_change_rate#natural_change_rate__sex_all__age_all__variant_high	Natural population growth rate	Both sexes	Total	High
 	grapher/un/2024-07-12/un_wpp/population#population_density__sex_all__age_all__variant_estimates	Population density	Both sexes	Total	None
 	grapher/un/2024-07-12/un_wpp_full/population#population_density__sex_all__age_all__variant_low	Population density	Both sexes	Total	Low
 	grapher/un/2024-07-12/un_wpp_full/population#population_density__sex_all__age_all__variant_medium	Population density	Both sexes	Total	Medium
@@ -794,22 +786,6 @@ graphers
 	grapher/un/2024-07-12/un_wpp_full/deaths#death_rate__sex_all__age_all__variant_low	Death rate	Both sexes	Total	Low
 	grapher/un/2024-07-12/un_wpp_full/deaths#death_rate__sex_all__age_all__variant_medium	Death rate	Both sexes	Total	Medium
 	grapher/un/2024-07-12/un_wpp_full/deaths#death_rate__sex_all__age_all__variant_high	Death rate	Both sexes	Total	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_all__age_0_4__variant_estimates	Number of child deaths	Both sexes	Under 5 year	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_0_4__variant_medium	Number of child deaths	Both sexes	Under 5 year	Medium
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_female__age_0_4__variant_estimates	Number of child deaths	Female	Under 5 year	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_0_4__variant_medium	Number of child deaths	Female	Under 5 year	Medium
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_male__age_0_4__variant_estimates	Number of child deaths	Male	Under 5 year	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_0_4__variant_medium	Number of child deaths	Male	Under 5 year	Medium
-	grapher/un/2024-07-12/un_wpp/mortality_rate#mortality_rate__sex_all__age_0_4__variant_estimates	Child mortality rate	Both sexes	Under 5 year	None
-	grapher/un/2024-07-12/un_wpp_full/mortality_rate#mortality_rate__sex_all__age_0_4__variant_medium	Child mortality rate	Both sexes	Under 5 year	Medium
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_all__age_0__variant_estimates	Number of infant deaths	Both sexes	Under 1 year	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_0__variant_medium	Number of infant deaths	Both sexes	Under 1 year	Medium
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_female__age_0__variant_estimates	Number of infant deaths	Female	Under 1 year	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_0__variant_medium	Number of infant deaths	Female	Under 1 year	Medium
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_male__age_0__variant_estimates	Number of infant deaths	Male	Under 1 year	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_0__variant_medium	Number of infant deaths	Male	Under 1 year	Medium
-	grapher/un/2024-07-12/un_wpp/mortality_rate#mortality_rate__sex_all__age_0__variant_estimates	Infant mortality rate	Both sexes	Under 1 year	None
-	grapher/un/2024-07-12/un_wpp_full/mortality_rate#mortality_rate__sex_all__age_0__variant_medium	Infant mortality rate	Both sexes	Under 1 year	Medium
 	grapher/un/2024-07-12/un_wpp/life_expectancy#life_expectancy__sex_all__age_0__variant_estimates	Life expectancy	Both sexes	At birth	None
 	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_all__age_0__variant_low	Life expectancy	Both sexes	At birth	Low
 	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_all__age_0__variant_medium	Life expectancy	Both sexes	At birth	Medium
@@ -818,10 +794,10 @@ graphers
 	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_all__age_15__variant_low	Life expectancy	Both sexes	Aged 15	Low
 	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_all__age_15__variant_medium	Life expectancy	Both sexes	Aged 15	Medium
 	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_all__age_15__variant_high	Life expectancy	Both sexes	Aged 15	High
-	grapher/un/2024-07-12/un_wpp/life_expectancy#life_expectancy__sex_all__age_65__variant_estimates	Life expectancy	Both sexes	65	None
-	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_all__age_65__variant_low	Life expectancy	Both sexes	65	Low
-	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_all__age_65__variant_medium	Life expectancy	Both sexes	65	Medium
-	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_all__age_65__variant_high	Life expectancy	Both sexes	65	High
+	grapher/un/2024-07-12/un_wpp/life_expectancy#life_expectancy__sex_all__age_65__variant_estimates	Life expectancy	Both sexes	Aged 65	None
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_all__age_65__variant_low	Life expectancy	Both sexes	Aged 65	Low
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_all__age_65__variant_medium	Life expectancy	Both sexes	Aged 65	Medium
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_all__age_65__variant_high	Life expectancy	Both sexes	Aged 65	High
 	grapher/un/2024-07-12/un_wpp/life_expectancy#life_expectancy__sex_all__age_80__variant_estimates	Life expectancy	Both sexes	Aged 80	None
 	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_all__age_80__variant_low	Life expectancy	Both sexes	Aged 80	Low
 	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_all__age_80__variant_medium	Life expectancy	Both sexes	Aged 80	Medium
@@ -834,10 +810,10 @@ graphers
 	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_female__age_15__variant_low	Life expectancy	Female	Aged 15	Low
 	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_female__age_15__variant_medium	Life expectancy	Female	Aged 15	Medium
 	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_female__age_15__variant_high	Life expectancy	Female	Aged 15	High
-	grapher/un/2024-07-12/un_wpp/life_expectancy#life_expectancy__sex_female__age_65__variant_estimates	Life expectancy	Female	65	None
-	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_female__age_65__variant_low	Life expectancy	Female	65	Low
-	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_female__age_65__variant_medium	Life expectancy	Female	65	Medium
-	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_female__age_65__variant_high	Life expectancy	Female	65	High
+	grapher/un/2024-07-12/un_wpp/life_expectancy#life_expectancy__sex_female__age_65__variant_estimates	Life expectancy	Female	Aged 65	None
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_female__age_65__variant_low	Life expectancy	Female	Aged 65	Low
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_female__age_65__variant_medium	Life expectancy	Female	Aged 65	Medium
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_female__age_65__variant_high	Life expectancy	Female	Aged 65	High
 	grapher/un/2024-07-12/un_wpp/life_expectancy#life_expectancy__sex_female__age_80__variant_estimates	Life expectancy	Female	Aged 80	None
 	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_female__age_80__variant_low	Life expectancy	Female	Aged 80	Low
 	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_female__age_80__variant_medium	Life expectancy	Female	Aged 80	Medium
@@ -850,10 +826,10 @@ graphers
 	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_male__age_15__variant_low	Life expectancy	Male	Aged 15	Low
 	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_male__age_15__variant_medium	Life expectancy	Male	Aged 15	Medium
 	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_male__age_15__variant_high	Life expectancy	Male	Aged 15	High
-	grapher/un/2024-07-12/un_wpp/life_expectancy#life_expectancy__sex_male__age_65__variant_estimates	Life expectancy	Male	65	None
-	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_male__age_65__variant_low	Life expectancy	Male	65	Low
-	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_male__age_65__variant_medium	Life expectancy	Male	65	Medium
-	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_male__age_65__variant_high	Life expectancy	Male	65	High
+	grapher/un/2024-07-12/un_wpp/life_expectancy#life_expectancy__sex_male__age_65__variant_estimates	Life expectancy	Male	Aged 65	None
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_male__age_65__variant_low	Life expectancy	Male	Aged 65	Low
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_male__age_65__variant_medium	Life expectancy	Male	Aged 65	Medium
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_male__age_65__variant_high	Life expectancy	Male	Aged 65	High
 	grapher/un/2024-07-12/un_wpp/life_expectancy#life_expectancy__sex_male__age_80__variant_estimates	Life expectancy	Male	Aged 80	None
 	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_male__age_80__variant_low	Life expectancy	Male	Aged 80	Low
 	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_male__age_80__variant_medium	Life expectancy	Male	Aged 80	Medium
