@@ -514,14 +514,14 @@ graphers
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_100plus__variant_low	Annual population change	Male	100+ years	Low
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_100plus__variant_medium	Annual population change	Male	100+ years	Medium
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_100plus__variant_high	Annual population change	Male	100+ years	High
-	grapher/un/2024-07-12/un_wpp/growth_rate#growth_rate__sex_all__age_all__variant_estimates	growth_rate	Both sexes	Total	None
-	grapher/un/2024-07-12/un_wpp_full/growth_rate#growth_rate__sex_all__age_all__variant_low	growth_rate	Both sexes	Total	Low
-	grapher/un/2024-07-12/un_wpp_full/growth_rate#growth_rate__sex_all__age_all__variant_medium	growth_rate	Both sexes	Total	Medium
-	grapher/un/2024-07-12/un_wpp_full/growth_rate#growth_rate__sex_all__age_all__variant_high	growth_rate	Both sexes	Total	High
-	grapher/un/2024-07-12/un_wpp/natural_change_rate#natural_change_rate__sex_all__age_all__variant_estimates	natural_change_rate	Both sexes	Total	None
-	grapher/un/2024-07-12/un_wpp_full/natural_change_rate#natural_change_rate__sex_all__age_all__variant_low	natural_change_rate	Both sexes	Total	Low
-	grapher/un/2024-07-12/un_wpp_full/natural_change_rate#natural_change_rate__sex_all__age_all__variant_medium	natural_change_rate	Both sexes	Total	Medium
-	grapher/un/2024-07-12/un_wpp_full/natural_change_rate#natural_change_rate__sex_all__age_all__variant_high	natural_change_rate	Both sexes	Total	High
+	grapher/un/2024-07-12/un_wpp/growth_rate#growth_rate__sex_all__age_all__variant_estimates	Population growth rate	Both sexes	Total	None
+	grapher/un/2024-07-12/un_wpp_full/growth_rate#growth_rate__sex_all__age_all__variant_low	Population growth rate	Both sexes	Total	Low
+	grapher/un/2024-07-12/un_wpp_full/growth_rate#growth_rate__sex_all__age_all__variant_medium	Population growth rate	Both sexes	Total	Medium
+	grapher/un/2024-07-12/un_wpp_full/growth_rate#growth_rate__sex_all__age_all__variant_high	Population growth rate	Both sexes	Total	High
+	grapher/un/2024-07-12/un_wpp/natural_change_rate#natural_change_rate__sex_all__age_all__variant_estimates	Natural population growth rate	Both sexes	Total	None
+	grapher/un/2024-07-12/un_wpp_full/natural_change_rate#natural_change_rate__sex_all__age_all__variant_low	Natural population growth rate	Both sexes	Total	Low
+	grapher/un/2024-07-12/un_wpp_full/natural_change_rate#natural_change_rate__sex_all__age_all__variant_medium	Natural population growth rate	Both sexes	Total	Medium
+	grapher/un/2024-07-12/un_wpp_full/natural_change_rate#natural_change_rate__sex_all__age_all__variant_high	Natural population growth rate	Both sexes	Total	High
 	grapher/un/2024-07-12/un_wpp/population#population_density__sex_all__age_all__variant_estimates	Population density	Both sexes	Total	None
 	grapher/un/2024-07-12/un_wpp_full/population#population_density__sex_all__age_all__variant_low	Population density	Both sexes	Total	Low
 	grapher/un/2024-07-12/un_wpp_full/population#population_density__sex_all__age_all__variant_medium	Population density	Both sexes	Total	Medium
