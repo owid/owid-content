@@ -934,10 +934,10 @@ graphers
 	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_all__variant_low	Sex ratio	Both sexes	Total	Low	Sex ratio
 	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_all__variant_medium	Sex ratio	Both sexes	Total	Medium	Sex ratio
 	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_all__variant_high	Sex ratio	Both sexes	Total	High	Sex ratio
-	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_0__variant_estimates	Sex ratio	Both sexes	At birth	None	Sex ratio at age 0
-	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_0__variant_low	Sex ratio	Both sexes	At birth	Low	Sex ratio at age 0
-	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_0__variant_medium	Sex ratio	Both sexes	At birth	Medium	Sex ratio at age 0
-	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_0__variant_high	Sex ratio	Both sexes	At birth	High	Sex ratio at age 0
+	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_0__variant_estimates	Sex ratio	Both sexes	At birth	None	Sex ratio at birth
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_0__variant_low	Sex ratio	Both sexes	At birth	Low	Sex ratio at birth
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_0__variant_medium	Sex ratio	Both sexes	At birth	Medium	Sex ratio at birth
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_0__variant_high	Sex ratio	Both sexes	At birth	High	Sex ratio at birth
 	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_5__variant_estimates	Sex ratio	Both sexes	At age 5	None	Sex ratio at age 5
 	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_5__variant_low	Sex ratio	Both sexes	At age 5	Low	Sex ratio at age 5
 	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_5__variant_medium	Sex ratio	Both sexes	At age 5	Medium	Sex ratio at age 5
