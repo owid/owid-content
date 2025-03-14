@@ -514,6 +514,14 @@ graphers
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_100plus__variant_low	Annual population change	Male	100+ years	Low
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_100plus__variant_medium	Annual population change	Male	100+ years	Medium
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_100plus__variant_high	Annual population change	Male	100+ years	High
+	grapher/un/2024-07-12/un_wpp/growth_rate#growth_rate__sex_all__age_all__variant_estimates	growth_rate	Both sexes	Total	None
+	grapher/un/2024-07-12/un_wpp_full/growth_rate#growth_rate__sex_all__age_all__variant_low	growth_rate	Both sexes	Total	Low
+	grapher/un/2024-07-12/un_wpp_full/growth_rate#growth_rate__sex_all__age_all__variant_medium	growth_rate	Both sexes	Total	Medium
+	grapher/un/2024-07-12/un_wpp_full/growth_rate#growth_rate__sex_all__age_all__variant_high	growth_rate	Both sexes	Total	High
+	grapher/un/2024-07-12/un_wpp/natural_change_rate#natural_change_rate__sex_all__age_all__variant_estimates	natural_change_rate	Both sexes	Total	None
+	grapher/un/2024-07-12/un_wpp_full/natural_change_rate#natural_change_rate__sex_all__age_all__variant_low	natural_change_rate	Both sexes	Total	Low
+	grapher/un/2024-07-12/un_wpp_full/natural_change_rate#natural_change_rate__sex_all__age_all__variant_medium	natural_change_rate	Both sexes	Total	Medium
+	grapher/un/2024-07-12/un_wpp_full/natural_change_rate#natural_change_rate__sex_all__age_all__variant_high	natural_change_rate	Both sexes	Total	High
 	grapher/un/2024-07-12/un_wpp/population#population_density__sex_all__age_all__variant_estimates	Population density	Both sexes	Total	None
 	grapher/un/2024-07-12/un_wpp_full/population#population_density__sex_all__age_all__variant_low	Population density	Both sexes	Total	Low
 	grapher/un/2024-07-12/un_wpp_full/population#population_density__sex_all__age_all__variant_medium	Population density	Both sexes	Total	Medium
@@ -622,82 +630,6 @@ graphers
 	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_100plus__variant_low	Deaths	Both sexes	100+ years	Low
 	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_100plus__variant_medium	Deaths	Both sexes	100+ years	Medium
 	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_100plus__variant_high	Deaths	Both sexes	100+ years	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_all__age_0_9__variant_estimates	Deaths	Both sexes	0-9	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_0_9__variant_low	Deaths	Both sexes	0-9	Low
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_0_9__variant_medium	Deaths	Both sexes	0-9	Medium
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_0_9__variant_high	Deaths	Both sexes	0-9	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_all__age_1_4__variant_estimates	Deaths	Both sexes	1-4	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_1_4__variant_low	Deaths	Both sexes	1-4	Low
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_1_4__variant_medium	Deaths	Both sexes	1-4	Medium
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_1_4__variant_high	Deaths	Both sexes	1-4	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_all__age_10_19__variant_estimates	Deaths	Both sexes	10-19	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_10_19__variant_low	Deaths	Both sexes	10-19	Low
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_10_19__variant_medium	Deaths	Both sexes	10-19	Medium
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_10_19__variant_high	Deaths	Both sexes	10-19	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_all__age_20_24__variant_estimates	Deaths	Both sexes	20-24	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_20_24__variant_low	Deaths	Both sexes	20-24	Low
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_20_24__variant_medium	Deaths	Both sexes	20-24	Medium
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_20_24__variant_high	Deaths	Both sexes	20-24	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_all__age_25_29__variant_estimates	Deaths	Both sexes	25-29	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_25_29__variant_low	Deaths	Both sexes	25-29	Low
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_25_29__variant_medium	Deaths	Both sexes	25-29	Medium
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_25_29__variant_high	Deaths	Both sexes	25-29	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_all__age_30_34__variant_estimates	Deaths	Both sexes	30-34	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_30_34__variant_low	Deaths	Both sexes	30-34	Low
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_30_34__variant_medium	Deaths	Both sexes	30-34	Medium
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_30_34__variant_high	Deaths	Both sexes	30-34	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_all__age_35_39__variant_estimates	Deaths	Both sexes	35-39	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_35_39__variant_low	Deaths	Both sexes	35-39	Low
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_35_39__variant_medium	Deaths	Both sexes	35-39	Medium
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_35_39__variant_high	Deaths	Both sexes	35-39	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_all__age_40_44__variant_estimates	Deaths	Both sexes	40-44	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_40_44__variant_low	Deaths	Both sexes	40-44	Low
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_40_44__variant_medium	Deaths	Both sexes	40-44	Medium
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_40_44__variant_high	Deaths	Both sexes	40-44	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_all__age_45_49__variant_estimates	Deaths	Both sexes	45-49	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_45_49__variant_low	Deaths	Both sexes	45-49	Low
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_45_49__variant_medium	Deaths	Both sexes	45-49	Medium
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_45_49__variant_high	Deaths	Both sexes	45-49	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_all__age_50_54__variant_estimates	Deaths	Both sexes	50-54	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_50_54__variant_low	Deaths	Both sexes	50-54	Low
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_50_54__variant_medium	Deaths	Both sexes	50-54	Medium
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_50_54__variant_high	Deaths	Both sexes	50-54	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_all__age_55_59__variant_estimates	Deaths	Both sexes	55-59	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_55_59__variant_low	Deaths	Both sexes	55-59	Low
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_55_59__variant_medium	Deaths	Both sexes	55-59	Medium
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_55_59__variant_high	Deaths	Both sexes	55-59	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_all__age_60_64__variant_estimates	Deaths	Both sexes	60-64	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_60_64__variant_low	Deaths	Both sexes	60-64	Low
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_60_64__variant_medium	Deaths	Both sexes	60-64	Medium
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_60_64__variant_high	Deaths	Both sexes	60-64	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_all__age_65_69__variant_estimates	Deaths	Both sexes	65-69	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_65_69__variant_low	Deaths	Both sexes	65-69	Low
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_65_69__variant_medium	Deaths	Both sexes	65-69	Medium
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_65_69__variant_high	Deaths	Both sexes	65-69	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_all__age_70_74__variant_estimates	Deaths	Both sexes	70-74	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_70_74__variant_low	Deaths	Both sexes	70-74	Low
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_70_74__variant_medium	Deaths	Both sexes	70-74	Medium
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_70_74__variant_high	Deaths	Both sexes	70-74	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_all__age_75_79__variant_estimates	Deaths	Both sexes	75-79	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_75_79__variant_low	Deaths	Both sexes	75-79	Low
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_75_79__variant_medium	Deaths	Both sexes	75-79	Medium
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_75_79__variant_high	Deaths	Both sexes	75-79	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_all__age_80_84__variant_estimates	Deaths	Both sexes	80-84	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_80_84__variant_low	Deaths	Both sexes	80-84	Low
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_80_84__variant_medium	Deaths	Both sexes	80-84	Medium
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_80_84__variant_high	Deaths	Both sexes	80-84	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_all__age_85_89__variant_estimates	Deaths	Both sexes	85-89	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_85_89__variant_low	Deaths	Both sexes	85-89	Low
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_85_89__variant_medium	Deaths	Both sexes	85-89	Medium
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_85_89__variant_high	Deaths	Both sexes	85-89	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_all__age_90_94__variant_estimates	Deaths	Both sexes	90-94	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_90_94__variant_low	Deaths	Both sexes	90-94	Low
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_90_94__variant_medium	Deaths	Both sexes	90-94	Medium
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_90_94__variant_high	Deaths	Both sexes	90-94	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_all__age_95_99__variant_estimates	Deaths	Both sexes	95-99	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_95_99__variant_low	Deaths	Both sexes	95-99	Low
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_95_99__variant_medium	Deaths	Both sexes	95-99	Medium
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_95_99__variant_high	Deaths	Both sexes	95-99	High
 	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_female__age_all__variant_estimates	Deaths	Female	Total	None
 	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_all__variant_low	Deaths	Female	Total	Low
 	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_all__variant_medium	Deaths	Female	Total	Medium
@@ -758,82 +690,6 @@ graphers
 	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_100plus__variant_low	Deaths	Female	100+ years	Low
 	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_100plus__variant_medium	Deaths	Female	100+ years	Medium
 	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_100plus__variant_high	Deaths	Female	100+ years	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_female__age_0_9__variant_estimates	Deaths	Female	0-9	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_0_9__variant_low	Deaths	Female	0-9	Low
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_0_9__variant_medium	Deaths	Female	0-9	Medium
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_0_9__variant_high	Deaths	Female	0-9	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_female__age_1_4__variant_estimates	Deaths	Female	1-4	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_1_4__variant_low	Deaths	Female	1-4	Low
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_1_4__variant_medium	Deaths	Female	1-4	Medium
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_1_4__variant_high	Deaths	Female	1-4	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_female__age_10_19__variant_estimates	Deaths	Female	10-19	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_10_19__variant_low	Deaths	Female	10-19	Low
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_10_19__variant_medium	Deaths	Female	10-19	Medium
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_10_19__variant_high	Deaths	Female	10-19	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_female__age_20_24__variant_estimates	Deaths	Female	20-24	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_20_24__variant_low	Deaths	Female	20-24	Low
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_20_24__variant_medium	Deaths	Female	20-24	Medium
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_20_24__variant_high	Deaths	Female	20-24	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_female__age_25_29__variant_estimates	Deaths	Female	25-29	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_25_29__variant_low	Deaths	Female	25-29	Low
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_25_29__variant_medium	Deaths	Female	25-29	Medium
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_25_29__variant_high	Deaths	Female	25-29	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_female__age_30_34__variant_estimates	Deaths	Female	30-34	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_30_34__variant_low	Deaths	Female	30-34	Low
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_30_34__variant_medium	Deaths	Female	30-34	Medium
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_30_34__variant_high	Deaths	Female	30-34	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_female__age_35_39__variant_estimates	Deaths	Female	35-39	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_35_39__variant_low	Deaths	Female	35-39	Low
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_35_39__variant_medium	Deaths	Female	35-39	Medium
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_35_39__variant_high	Deaths	Female	35-39	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_female__age_40_44__variant_estimates	Deaths	Female	40-44	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_40_44__variant_low	Deaths	Female	40-44	Low
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_40_44__variant_medium	Deaths	Female	40-44	Medium
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_40_44__variant_high	Deaths	Female	40-44	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_female__age_45_49__variant_estimates	Deaths	Female	45-49	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_45_49__variant_low	Deaths	Female	45-49	Low
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_45_49__variant_medium	Deaths	Female	45-49	Medium
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_45_49__variant_high	Deaths	Female	45-49	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_female__age_50_54__variant_estimates	Deaths	Female	50-54	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_50_54__variant_low	Deaths	Female	50-54	Low
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_50_54__variant_medium	Deaths	Female	50-54	Medium
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_50_54__variant_high	Deaths	Female	50-54	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_female__age_55_59__variant_estimates	Deaths	Female	55-59	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_55_59__variant_low	Deaths	Female	55-59	Low
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_55_59__variant_medium	Deaths	Female	55-59	Medium
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_55_59__variant_high	Deaths	Female	55-59	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_female__age_60_64__variant_estimates	Deaths	Female	60-64	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_60_64__variant_low	Deaths	Female	60-64	Low
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_60_64__variant_medium	Deaths	Female	60-64	Medium
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_60_64__variant_high	Deaths	Female	60-64	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_female__age_65_69__variant_estimates	Deaths	Female	65-69	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_65_69__variant_low	Deaths	Female	65-69	Low
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_65_69__variant_medium	Deaths	Female	65-69	Medium
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_65_69__variant_high	Deaths	Female	65-69	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_female__age_70_74__variant_estimates	Deaths	Female	70-74	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_70_74__variant_low	Deaths	Female	70-74	Low
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_70_74__variant_medium	Deaths	Female	70-74	Medium
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_70_74__variant_high	Deaths	Female	70-74	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_female__age_75_79__variant_estimates	Deaths	Female	75-79	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_75_79__variant_low	Deaths	Female	75-79	Low
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_75_79__variant_medium	Deaths	Female	75-79	Medium
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_75_79__variant_high	Deaths	Female	75-79	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_female__age_80_84__variant_estimates	Deaths	Female	80-84	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_80_84__variant_low	Deaths	Female	80-84	Low
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_80_84__variant_medium	Deaths	Female	80-84	Medium
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_80_84__variant_high	Deaths	Female	80-84	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_female__age_85_89__variant_estimates	Deaths	Female	85-89	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_85_89__variant_low	Deaths	Female	85-89	Low
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_85_89__variant_medium	Deaths	Female	85-89	Medium
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_85_89__variant_high	Deaths	Female	85-89	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_female__age_90_94__variant_estimates	Deaths	Female	90-94	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_90_94__variant_low	Deaths	Female	90-94	Low
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_90_94__variant_medium	Deaths	Female	90-94	Medium
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_90_94__variant_high	Deaths	Female	90-94	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_female__age_95_99__variant_estimates	Deaths	Female	95-99	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_95_99__variant_low	Deaths	Female	95-99	Low
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_95_99__variant_medium	Deaths	Female	95-99	Medium
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_95_99__variant_high	Deaths	Female	95-99	High
 	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_male__age_all__variant_estimates	Deaths	Male	Total	None
 	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_all__variant_low	Deaths	Male	Total	Low
 	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_all__variant_medium	Deaths	Male	Total	Medium
@@ -894,82 +750,6 @@ graphers
 	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_100plus__variant_low	Deaths	Male	100+ years	Low
 	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_100plus__variant_medium	Deaths	Male	100+ years	Medium
 	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_100plus__variant_high	Deaths	Male	100+ years	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_male__age_0_9__variant_estimates	Deaths	Male	0-9	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_0_9__variant_low	Deaths	Male	0-9	Low
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_0_9__variant_medium	Deaths	Male	0-9	Medium
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_0_9__variant_high	Deaths	Male	0-9	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_male__age_1_4__variant_estimates	Deaths	Male	1-4	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_1_4__variant_low	Deaths	Male	1-4	Low
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_1_4__variant_medium	Deaths	Male	1-4	Medium
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_1_4__variant_high	Deaths	Male	1-4	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_male__age_10_19__variant_estimates	Deaths	Male	10-19	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_10_19__variant_low	Deaths	Male	10-19	Low
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_10_19__variant_medium	Deaths	Male	10-19	Medium
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_10_19__variant_high	Deaths	Male	10-19	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_male__age_20_24__variant_estimates	Deaths	Male	20-24	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_20_24__variant_low	Deaths	Male	20-24	Low
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_20_24__variant_medium	Deaths	Male	20-24	Medium
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_20_24__variant_high	Deaths	Male	20-24	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_male__age_25_29__variant_estimates	Deaths	Male	25-29	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_25_29__variant_low	Deaths	Male	25-29	Low
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_25_29__variant_medium	Deaths	Male	25-29	Medium
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_25_29__variant_high	Deaths	Male	25-29	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_male__age_30_34__variant_estimates	Deaths	Male	30-34	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_30_34__variant_low	Deaths	Male	30-34	Low
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_30_34__variant_medium	Deaths	Male	30-34	Medium
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_30_34__variant_high	Deaths	Male	30-34	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_male__age_35_39__variant_estimates	Deaths	Male	35-39	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_35_39__variant_low	Deaths	Male	35-39	Low
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_35_39__variant_medium	Deaths	Male	35-39	Medium
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_35_39__variant_high	Deaths	Male	35-39	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_male__age_40_44__variant_estimates	Deaths	Male	40-44	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_40_44__variant_low	Deaths	Male	40-44	Low
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_40_44__variant_medium	Deaths	Male	40-44	Medium
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_40_44__variant_high	Deaths	Male	40-44	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_male__age_45_49__variant_estimates	Deaths	Male	45-49	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_45_49__variant_low	Deaths	Male	45-49	Low
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_45_49__variant_medium	Deaths	Male	45-49	Medium
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_45_49__variant_high	Deaths	Male	45-49	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_male__age_50_54__variant_estimates	Deaths	Male	50-54	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_50_54__variant_low	Deaths	Male	50-54	Low
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_50_54__variant_medium	Deaths	Male	50-54	Medium
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_50_54__variant_high	Deaths	Male	50-54	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_male__age_55_59__variant_estimates	Deaths	Male	55-59	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_55_59__variant_low	Deaths	Male	55-59	Low
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_55_59__variant_medium	Deaths	Male	55-59	Medium
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_55_59__variant_high	Deaths	Male	55-59	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_male__age_60_64__variant_estimates	Deaths	Male	60-64	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_60_64__variant_low	Deaths	Male	60-64	Low
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_60_64__variant_medium	Deaths	Male	60-64	Medium
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_60_64__variant_high	Deaths	Male	60-64	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_male__age_65_69__variant_estimates	Deaths	Male	65-69	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_65_69__variant_low	Deaths	Male	65-69	Low
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_65_69__variant_medium	Deaths	Male	65-69	Medium
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_65_69__variant_high	Deaths	Male	65-69	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_male__age_70_74__variant_estimates	Deaths	Male	70-74	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_70_74__variant_low	Deaths	Male	70-74	Low
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_70_74__variant_medium	Deaths	Male	70-74	Medium
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_70_74__variant_high	Deaths	Male	70-74	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_male__age_75_79__variant_estimates	Deaths	Male	75-79	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_75_79__variant_low	Deaths	Male	75-79	Low
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_75_79__variant_medium	Deaths	Male	75-79	Medium
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_75_79__variant_high	Deaths	Male	75-79	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_male__age_80_84__variant_estimates	Deaths	Male	80-84	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_80_84__variant_low	Deaths	Male	80-84	Low
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_80_84__variant_medium	Deaths	Male	80-84	Medium
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_80_84__variant_high	Deaths	Male	80-84	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_male__age_85_89__variant_estimates	Deaths	Male	85-89	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_85_89__variant_low	Deaths	Male	85-89	Low
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_85_89__variant_medium	Deaths	Male	85-89	Medium
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_85_89__variant_high	Deaths	Male	85-89	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_male__age_90_94__variant_estimates	Deaths	Male	90-94	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_90_94__variant_low	Deaths	Male	90-94	Low
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_90_94__variant_medium	Deaths	Male	90-94	Medium
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_90_94__variant_high	Deaths	Male	90-94	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_male__age_95_99__variant_estimates	Deaths	Male	95-99	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_95_99__variant_low	Deaths	Male	95-99	Low
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_95_99__variant_medium	Deaths	Male	95-99	Medium
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_95_99__variant_high	Deaths	Male	95-99	High
 	grapher/un/2024-07-12/un_wpp/deaths#death_rate__sex_all__age_all__variant_estimates	Death rate	Both sexes	Total	None
 	grapher/un/2024-07-12/un_wpp_full/deaths#death_rate__sex_all__age_all__variant_low	Death rate	Both sexes	Total	Low
 	grapher/un/2024-07-12/un_wpp_full/deaths#death_rate__sex_all__age_all__variant_medium	Death rate	Both sexes	Total	Medium
