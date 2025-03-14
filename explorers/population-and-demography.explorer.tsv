@@ -9,7 +9,7 @@ hasMapTab	true
 thumbnail	https://owid.cloud/app/uploads/2022/07/Population-Data-Explorer.png
 pickerColumnSlugs	location population__all__all__records population_change__all__all__records population_density__all__all__records births__all__all__records birth_rate__all__all__records deaths__all__all__records death_rate__all__all__records fertility_rate__all__all__records growth_natural_rate__all__all__records growth_rate__all__all__records life_expectancy__all__at_birth__records net_migration__all__all__records net_migration_rate__all__all__records sex_ratio__none__at_birth__records dependency_ratio_total__all__none__records dependency_ratio_child__all__none__records dependency_ratio_old__all__none__records median_age__all__all__records
 graphers
-	yVariableIds	indicator Dropdown	Sex Radio	Age Dropdown	Projection scenario Radio	title	type	hasMapTab	stackMode
+	yVariableIds	indicator Dropdown	Sex Radio	Age Dropdown	Projection scenario Radio	title	type	hasMapTab	stackMode	subtitle
 	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_all__variant_estimates	Population	Both sexes	Total	None
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_all__variant_low	Population	Both sexes	Total	Low
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_all__variant_medium	Population	Both sexes	Total	Medium
@@ -794,22 +794,22 @@ graphers
 	grapher/un/2024-07-12/un_wpp_full/deaths#death_rate__sex_all__age_all__variant_low	Death rate	Both sexes	Total	Low
 	grapher/un/2024-07-12/un_wpp_full/deaths#death_rate__sex_all__age_all__variant_medium	Death rate	Both sexes	Total	Medium
 	grapher/un/2024-07-12/un_wpp_full/deaths#death_rate__sex_all__age_all__variant_high	Death rate	Both sexes	Total	High
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_all__age_0_4__variant_estimates	Number of child deaths	Both sexes	Under 5 year	None	Number of child deaths
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_0_4__variant_medium	Number of child deaths	Both sexes	Under 5 year	Medium	Number of child deaths
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_female__age_0_4__variant_estimates	Number of child deaths	Female	Under 5 year	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_0_4__variant_medium	Number of child deaths	Female	Under 5 year	Medium
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_male__age_0_4__variant_estimates	Number of child deaths	Male	Under 5 year	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_0_4__variant_medium	Number of child deaths	Male	Under 5 year	Medium
-	grapher/un/2024-07-12/un_wpp/mortality_rate#mortality_rate__sex_all__age_0_4__variant_estimates	Child mortality rate	Both sexes	Under 5 year	None	Child mortality rate
-	grapher/un/2024-07-12/un_wpp_full/mortality_rate#mortality_rate__sex_all__age_0_4__variant_medium	Child mortality rate	Both sexes	Under 5 year	Medium	Child mortality rate
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_all__age_0__variant_estimates	Number of infant deaths	Both sexes	Under 1 year	None	Number of infant deaths
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_0__variant_medium	Number of infant deaths	Both sexes	Under 1 year	Medium	Number of infant deaths
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_female__age_0__variant_estimates	Number of infant deaths	Female	Under 1 year	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_0__variant_medium	Number of infant deaths	Female	Under 1 year	Medium
-	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_male__age_0__variant_estimates	Number of infant deaths	Male	Under 1 year	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_0__variant_medium	Number of infant deaths	Male	Under 1 year	Medium
-	grapher/un/2024-07-12/un_wpp/mortality_rate#mortality_rate__sex_all__age_0__variant_estimates	Infant mortality rate	Both sexes	Under 1 year	None	Infant mortality rate
-	grapher/un/2024-07-12/un_wpp_full/mortality_rate#mortality_rate__sex_all__age_0__variant_medium	Infant mortality rate	Both sexes	Under 1 year	Medium	Infant mortality rate
+	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_all__age_0_4__variant_estimates	Number of child deaths	Both sexes	Under 5 year	None	Number of <<sex>> child deaths				The number of children who die before reaching the age of 5.
+	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_0_4__variant_medium	Number of child deaths	Both sexes	Under 5 year	Medium	Number of <<sex>> child deaths				The number of children who die before reaching the age of 5.
+	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_female__age_0_4__variant_estimates	Number of child deaths	Female	Under 5 year	None	Number of <<sex>> child deaths				The number of children who die before reaching the age of 5.
+	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_0_4__variant_medium	Number of child deaths	Female	Under 5 year	Medium	Number of <<sex>> child deaths				The number of children who die before reaching the age of 5.
+	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_male__age_0_4__variant_estimates	Number of child deaths	Male	Under 5 year	None	Number of <<sex>> child deaths				The number of children who die before reaching the age of 5.
+	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_0_4__variant_medium	Number of child deaths	Male	Under 5 year	Medium	Number of <<sex>> child deaths				The number of children who die before reaching the age of 5.
+	grapher/un/2024-07-12/un_wpp/mortality_rate#mortality_rate__sex_all__age_0_4__variant_estimates	Child mortality rate	Both sexes	Under 5 year	None	Child mortality rate				The share of newborns who die before reaching the age of 5.
+	grapher/un/2024-07-12/un_wpp_full/mortality_rate#mortality_rate__sex_all__age_0_4__variant_medium	Child mortality rate	Both sexes	Under 5 year	Medium	Child mortality rate				The share of newborns who die before reaching the age of 5.
+	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_all__age_0__variant_estimates	Number of infant deaths	Both sexes	Under 1 year	None	Number of infant deaths				The number of newborns who die before reaching the age of one.
+	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_0__variant_medium	Number of infant deaths	Both sexes	Under 1 year	Medium	Number of infant deaths				The number of newborns who die before reaching the age of one.
+	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_female__age_0__variant_estimates	Number of infant deaths	Female	Under 1 year	None	Number of infant deaths				The number of newborns who die before reaching the age of one.
+	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_female__age_0__variant_medium	Number of infant deaths	Female	Under 1 year	Medium	Number of infant deaths				The number of newborns who die before reaching the age of one.
+	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_male__age_0__variant_estimates	Number of infant deaths	Male	Under 1 year	None	Number of infant deaths				The number of newborns who die before reaching the age of one.
+	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_0__variant_medium	Number of infant deaths	Male	Under 1 year	Medium	Number of infant deaths				The number of newborns who die before reaching the age of one.
+	grapher/un/2024-07-12/un_wpp/mortality_rate#mortality_rate__sex_all__age_0__variant_estimates	Infant mortality rate	Both sexes	Under 1 year	None	Infant mortality rate				The share of children who die before reaching the age of one.
+	grapher/un/2024-07-12/un_wpp_full/mortality_rate#mortality_rate__sex_all__age_0__variant_medium	Infant mortality rate	Both sexes	Under 1 year	Medium	Infant mortality rate				The share of children who die before reaching the age of one.
 	grapher/un/2024-07-12/un_wpp/life_expectancy#life_expectancy__sex_all__age_0__variant_estimates	Life expectancy	Both sexes	At birth	None
 	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_all__age_0__variant_low	Life expectancy	Both sexes	At birth	Low
 	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_all__age_0__variant_medium	Life expectancy	Both sexes	At birth	Medium
