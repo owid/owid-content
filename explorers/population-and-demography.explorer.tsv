@@ -534,10 +534,10 @@ graphers
 	grapher/un/2024-07-12/un_wpp_full/natural_change_rate#natural_change_rate__sex_all__age_all__variant_low	Natural population growth rate	Both sexes	Total	Low	Natural population growth rate
 	grapher/un/2024-07-12/un_wpp_full/natural_change_rate#natural_change_rate__sex_all__age_all__variant_medium	Natural population growth rate	Both sexes	Total	Medium	Natural population growth rate
 	grapher/un/2024-07-12/un_wpp_full/natural_change_rate#natural_change_rate__sex_all__age_all__variant_high	Natural population growth rate	Both sexes	Total	High	Natural population growth rate
-	grapher/un/2024-07-12/un_wpp/population#population_density__sex_all__age_all__variant_estimates	Population density	Both sexes	Total	None
-	grapher/un/2024-07-12/un_wpp_full/population#population_density__sex_all__age_all__variant_low	Population density	Both sexes	Total	Low
-	grapher/un/2024-07-12/un_wpp_full/population#population_density__sex_all__age_all__variant_medium	Population density	Both sexes	Total	Medium
-	grapher/un/2024-07-12/un_wpp_full/population#population_density__sex_all__age_all__variant_high	Population density	Both sexes	Total	High
+	grapher/un/2024-07-12/un_wpp/population#population_density__sex_all__age_all__variant_estimates	Population density	Both sexes	Total	None	Population density
+	grapher/un/2024-07-12/un_wpp_full/population#population_density__sex_all__age_all__variant_low	Population density	Both sexes	Total	Low	Population density
+	grapher/un/2024-07-12/un_wpp_full/population#population_density__sex_all__age_all__variant_medium	Population density	Both sexes	Total	Medium	Population density
+	grapher/un/2024-07-12/un_wpp_full/population#population_density__sex_all__age_all__variant_high	Population density	Both sexes	Total	High	Population density
 	grapher/un/2024-07-12/un_wpp/fertility_rate#fertility_rate__sex_all__age_all__variant_estimates	Fertility rate	Both sexes	Total	None
 	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_all__variant_low	Fertility rate	Both sexes	Total	Low
 	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_all__variant_medium	Fertility rate	Both sexes	Total	Medium
@@ -802,10 +802,10 @@ graphers
 	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_100plus__variant_low	Deaths	Male	100+ years	Low
 	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_100plus__variant_medium	Deaths	Male	100+ years	Medium
 	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_male__age_100plus__variant_high	Deaths	Male	100+ years	High
-	grapher/un/2024-07-12/un_wpp/deaths#death_rate__sex_all__age_all__variant_estimates	Death rate	Both sexes	Total	None
-	grapher/un/2024-07-12/un_wpp_full/deaths#death_rate__sex_all__age_all__variant_low	Death rate	Both sexes	Total	Low
-	grapher/un/2024-07-12/un_wpp_full/deaths#death_rate__sex_all__age_all__variant_medium	Death rate	Both sexes	Total	Medium
-	grapher/un/2024-07-12/un_wpp_full/deaths#death_rate__sex_all__age_all__variant_high	Death rate	Both sexes	Total	High
+	grapher/un/2024-07-12/un_wpp/deaths#death_rate__sex_all__age_all__variant_estimates	Death rate	Both sexes	Total	None	Death rate
+	grapher/un/2024-07-12/un_wpp_full/deaths#death_rate__sex_all__age_all__variant_low	Death rate	Both sexes	Total	Low	Death rate
+	grapher/un/2024-07-12/un_wpp_full/deaths#death_rate__sex_all__age_all__variant_medium	Death rate	Both sexes	Total	Medium	Death rate
+	grapher/un/2024-07-12/un_wpp_full/deaths#death_rate__sex_all__age_all__variant_high	Death rate	Both sexes	Total	High	Death rate
 	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_all__age_0_4__variant_estimates	Number of child deaths	Both sexes	Under 5 year	None	Number of child deaths					The number of children who die before reaching the age of 5.
 	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_0_4__variant_medium	Number of child deaths	Both sexes	Under 5 year	Medium	Number of child deaths					The number of children who die before reaching the age of 5.
 	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_female__age_0_4__variant_estimates	Number of child deaths	Female	Under 5 year	None	Number of female child deaths					The number of children who die before reaching the age of 5.
@@ -922,14 +922,14 @@ graphers
 	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_male__age_old__variant_low	Dependency ratio	Male	Old-age dependency ratio	Low
 	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_male__age_old__variant_medium	Dependency ratio	Male	Old-age dependency ratio	Medium
 	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_male__age_old__variant_high	Dependency ratio	Male	Old-age dependency ratio	High
-	grapher/un/2024-07-12/un_wpp/median_age#median_age__sex_all__age_all__variant_estimates	Median age	Both sexes	None	None
-	grapher/un/2024-07-12/un_wpp_full/median_age#median_age__sex_all__age_all__variant_low	Median age	Both sexes	None	Low
-	grapher/un/2024-07-12/un_wpp_full/median_age#median_age__sex_all__age_all__variant_medium	Median age	Both sexes	None	Medium
-	grapher/un/2024-07-12/un_wpp_full/median_age#median_age__sex_all__age_all__variant_high	Median age	Both sexes	None	High
-	grapher/un/2024-07-12/un_wpp/migration#net_migration__sex_all__age_all__variant_estimates	Net migration	Both sexes	Total	None
-	grapher/un/2024-07-12/un_wpp_full/migration#net_migration__sex_all__age_all__variant_medium	Net migration	Both sexes	Total	Medium
-	grapher/un/2024-07-12/un_wpp/migration#net_migration_rate__sex_all__age_all__variant_estimates	Net migration rate	Both sexes	Total	None
-	grapher/un/2024-07-12/un_wpp_full/migration#net_migration_rate__sex_all__age_all__variant_medium	Net migration rate	Both sexes	Total	Medium
+	grapher/un/2024-07-12/un_wpp/median_age#median_age__sex_all__age_all__variant_estimates	Median age	Both sexes	None	None	Median age
+	grapher/un/2024-07-12/un_wpp_full/median_age#median_age__sex_all__age_all__variant_low	Median age	Both sexes	None	Low	Median age
+	grapher/un/2024-07-12/un_wpp_full/median_age#median_age__sex_all__age_all__variant_medium	Median age	Both sexes	None	Medium	Median age
+	grapher/un/2024-07-12/un_wpp_full/median_age#median_age__sex_all__age_all__variant_high	Median age	Both sexes	None	High	Median age
+	grapher/un/2024-07-12/un_wpp/migration#net_migration__sex_all__age_all__variant_estimates	Net migration	Both sexes	Total	None	Annual net migration
+	grapher/un/2024-07-12/un_wpp_full/migration#net_migration__sex_all__age_all__variant_medium	Net migration	Both sexes	Total	Medium	Annual net migration
+	grapher/un/2024-07-12/un_wpp/migration#net_migration_rate__sex_all__age_all__variant_estimates	Net migration rate	Both sexes	Total	None	Annual net migration rate
+	grapher/un/2024-07-12/un_wpp_full/migration#net_migration_rate__sex_all__age_all__variant_medium	Net migration rate	Both sexes	Total	Medium	Annual net migration rate
 	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_all__variant_estimates	Sex ratio	Both sexes	Total	None
 	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_all__variant_low	Sex ratio	Both sexes	Total	Low
 	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_all__variant_medium	Sex ratio	Both sexes	Total	Medium
