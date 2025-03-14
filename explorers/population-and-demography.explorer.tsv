@@ -526,90 +526,90 @@ graphers
 	grapher/un/2024-07-12/un_wpp_full/population#population_density__sex_all__age_all__variant_low	Population density	Both sexes	Total	Low
 	grapher/un/2024-07-12/un_wpp_full/population#population_density__sex_all__age_all__variant_medium	Population density	Both sexes	Total	Medium
 	grapher/un/2024-07-12/un_wpp_full/population#population_density__sex_all__age_all__variant_high	Population density	Both sexes	Total	High
-	grapher/un/2024-07-12/un_wpp/fertility_rate#fertility_rate__sex_all__age_all__variant_estimates	fertility_rate	Both sexes	Total	None
-	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_all__variant_low	fertility_rate	Both sexes	Total	Low
-	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_all__variant_medium	fertility_rate	Both sexes	Total	Medium
-	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_all__variant_high	fertility_rate	Both sexes	Total	High
-	grapher/un/2024-07-12/un_wpp/fertility_rate#fertility_rate__sex_all__age_10_14__variant_estimates	fertility_rate	Both sexes	Mothers aged 10-14 years	None
-	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_10_14__variant_low	fertility_rate	Both sexes	Mothers aged 10-14 years	Low
-	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_10_14__variant_medium	fertility_rate	Both sexes	Mothers aged 10-14 years	Medium
-	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_10_14__variant_high	fertility_rate	Both sexes	Mothers aged 10-14 years	High
-	grapher/un/2024-07-12/un_wpp/fertility_rate#fertility_rate__sex_all__age_15_19__variant_estimates	fertility_rate	Both sexes	Mothers aged 15-19 years	None
-	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_15_19__variant_low	fertility_rate	Both sexes	Mothers aged 15-19 years	Low
-	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_15_19__variant_medium	fertility_rate	Both sexes	Mothers aged 15-19 years	Medium
-	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_15_19__variant_high	fertility_rate	Both sexes	Mothers aged 15-19 years	High
-	grapher/un/2024-07-12/un_wpp/fertility_rate#fertility_rate__sex_all__age_20_24__variant_estimates	fertility_rate	Both sexes	Mothers aged 20-24 years	None
-	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_20_24__variant_low	fertility_rate	Both sexes	Mothers aged 20-24 years	Low
-	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_20_24__variant_medium	fertility_rate	Both sexes	Mothers aged 20-24 years	Medium
-	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_20_24__variant_high	fertility_rate	Both sexes	Mothers aged 20-24 years	High
-	grapher/un/2024-07-12/un_wpp/fertility_rate#fertility_rate__sex_all__age_25_29__variant_estimates	fertility_rate	Both sexes	Mothers aged 25-29 years	None
-	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_25_29__variant_low	fertility_rate	Both sexes	Mothers aged 25-29 years	Low
-	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_25_29__variant_medium	fertility_rate	Both sexes	Mothers aged 25-29 years	Medium
-	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_25_29__variant_high	fertility_rate	Both sexes	Mothers aged 25-29 years	High
-	grapher/un/2024-07-12/un_wpp/fertility_rate#fertility_rate__sex_all__age_30_34__variant_estimates	fertility_rate	Both sexes	Mothers aged 30-34 years	None
-	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_30_34__variant_low	fertility_rate	Both sexes	Mothers aged 30-34 years	Low
-	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_30_34__variant_medium	fertility_rate	Both sexes	Mothers aged 30-34 years	Medium
-	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_30_34__variant_high	fertility_rate	Both sexes	Mothers aged 30-34 years	High
-	grapher/un/2024-07-12/un_wpp/fertility_rate#fertility_rate__sex_all__age_35_39__variant_estimates	fertility_rate	Both sexes	Mothers aged 35-39 years	None
-	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_35_39__variant_low	fertility_rate	Both sexes	Mothers aged 35-39 years	Low
-	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_35_39__variant_medium	fertility_rate	Both sexes	Mothers aged 35-39 years	Medium
-	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_35_39__variant_high	fertility_rate	Both sexes	Mothers aged 35-39 years	High
-	grapher/un/2024-07-12/un_wpp/fertility_rate#fertility_rate__sex_all__age_40_44__variant_estimates	fertility_rate	Both sexes	Mothers aged 40-44 years	None
-	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_40_44__variant_low	fertility_rate	Both sexes	Mothers aged 40-44 years	Low
-	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_40_44__variant_medium	fertility_rate	Both sexes	Mothers aged 40-44 years	Medium
-	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_40_44__variant_high	fertility_rate	Both sexes	Mothers aged 40-44 years	High
-	grapher/un/2024-07-12/un_wpp/fertility_rate#fertility_rate__sex_all__age_45_49__variant_estimates	fertility_rate	Both sexes	Mothers aged 45-49 years	None
-	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_45_49__variant_low	fertility_rate	Both sexes	Mothers aged 45-49 years	Low
-	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_45_49__variant_medium	fertility_rate	Both sexes	Mothers aged 45-49 years	Medium
-	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_45_49__variant_high	fertility_rate	Both sexes	Mothers aged 45-49 years	High
-	grapher/un/2024-07-12/un_wpp/fertility_rate#fertility_rate__sex_all__age_50_54__variant_estimates	fertility_rate	Both sexes	Mothers aged 50-54 years	None
-	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_50_54__variant_low	fertility_rate	Both sexes	Mothers aged 50-54 years	Low
-	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_50_54__variant_medium	fertility_rate	Both sexes	Mothers aged 50-54 years	Medium
-	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_50_54__variant_high	fertility_rate	Both sexes	Mothers aged 50-54 years	High
-	grapher/un/2024-07-12/un_wpp/births#births__sex_all__age_all__variant_estimates	births	Both sexes	Total	None
-	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_all__variant_low	births	Both sexes	Total	Low
-	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_all__variant_medium	births	Both sexes	Total	Medium
-	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_all__variant_high	births	Both sexes	Total	High
-	grapher/un/2024-07-12/un_wpp/births#births__sex_all__age_10_14__variant_estimates	births	Both sexes	Mothers aged 10-14 years	None
-	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_10_14__variant_low	births	Both sexes	Mothers aged 10-14 years	Low
-	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_10_14__variant_medium	births	Both sexes	Mothers aged 10-14 years	Medium
-	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_10_14__variant_high	births	Both sexes	Mothers aged 10-14 years	High
-	grapher/un/2024-07-12/un_wpp/births#births__sex_all__age_15_19__variant_estimates	births	Both sexes	Mothers aged 15-19 years	None
-	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_15_19__variant_low	births	Both sexes	Mothers aged 15-19 years	Low
-	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_15_19__variant_medium	births	Both sexes	Mothers aged 15-19 years	Medium
-	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_15_19__variant_high	births	Both sexes	Mothers aged 15-19 years	High
-	grapher/un/2024-07-12/un_wpp/births#births__sex_all__age_20_24__variant_estimates	births	Both sexes	Mothers aged 20-24 years	None
-	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_20_24__variant_low	births	Both sexes	Mothers aged 20-24 years	Low
-	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_20_24__variant_medium	births	Both sexes	Mothers aged 20-24 years	Medium
-	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_20_24__variant_high	births	Both sexes	Mothers aged 20-24 years	High
-	grapher/un/2024-07-12/un_wpp/births#births__sex_all__age_25_29__variant_estimates	births	Both sexes	Mothers aged 25-29 years	None
-	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_25_29__variant_low	births	Both sexes	Mothers aged 25-29 years	Low
-	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_25_29__variant_medium	births	Both sexes	Mothers aged 25-29 years	Medium
-	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_25_29__variant_high	births	Both sexes	Mothers aged 25-29 years	High
-	grapher/un/2024-07-12/un_wpp/births#births__sex_all__age_30_34__variant_estimates	births	Both sexes	Mothers aged 30-34 years	None
-	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_30_34__variant_low	births	Both sexes	Mothers aged 30-34 years	Low
-	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_30_34__variant_medium	births	Both sexes	Mothers aged 30-34 years	Medium
-	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_30_34__variant_high	births	Both sexes	Mothers aged 30-34 years	High
-	grapher/un/2024-07-12/un_wpp/births#births__sex_all__age_35_39__variant_estimates	births	Both sexes	Mothers aged 35-39 years	None
-	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_35_39__variant_low	births	Both sexes	Mothers aged 35-39 years	Low
-	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_35_39__variant_medium	births	Both sexes	Mothers aged 35-39 years	Medium
-	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_35_39__variant_high	births	Both sexes	Mothers aged 35-39 years	High
-	grapher/un/2024-07-12/un_wpp/births#births__sex_all__age_40_44__variant_estimates	births	Both sexes	Mothers aged 40-44 years	None
-	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_40_44__variant_low	births	Both sexes	Mothers aged 40-44 years	Low
-	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_40_44__variant_medium	births	Both sexes	Mothers aged 40-44 years	Medium
-	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_40_44__variant_high	births	Both sexes	Mothers aged 40-44 years	High
-	grapher/un/2024-07-12/un_wpp/births#births__sex_all__age_45_49__variant_estimates	births	Both sexes	Mothers aged 45-49 years	None
-	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_45_49__variant_low	births	Both sexes	Mothers aged 45-49 years	Low
-	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_45_49__variant_medium	births	Both sexes	Mothers aged 45-49 years	Medium
-	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_45_49__variant_high	births	Both sexes	Mothers aged 45-49 years	High
-	grapher/un/2024-07-12/un_wpp/births#births__sex_all__age_50_54__variant_estimates	births	Both sexes	Mothers aged 50-54 years	None
-	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_50_54__variant_low	births	Both sexes	Mothers aged 50-54 years	Low
-	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_50_54__variant_medium	births	Both sexes	Mothers aged 50-54 years	Medium
-	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_50_54__variant_high	births	Both sexes	Mothers aged 50-54 years	High
-	grapher/un/2024-07-12/un_wpp/births#birth_rate__sex_all__age_all__variant_estimates	birth_rate	Both sexes	Total	None
-	grapher/un/2024-07-12/un_wpp_full/births#birth_rate__sex_all__age_all__variant_low	birth_rate	Both sexes	Total	Low
-	grapher/un/2024-07-12/un_wpp_full/births#birth_rate__sex_all__age_all__variant_medium	birth_rate	Both sexes	Total	Medium
-	grapher/un/2024-07-12/un_wpp_full/births#birth_rate__sex_all__age_all__variant_high	birth_rate	Both sexes	Total	High
+	grapher/un/2024-07-12/un_wpp/fertility_rate#fertility_rate__sex_all__age_all__variant_estimates	Fertility rate	Both sexes	Total	None
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_all__variant_low	Fertility rate	Both sexes	Total	Low
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_all__variant_medium	Fertility rate	Both sexes	Total	Medium
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_all__variant_high	Fertility rate	Both sexes	Total	High
+	grapher/un/2024-07-12/un_wpp/fertility_rate#fertility_rate__sex_all__age_10_14__variant_estimates	Fertility rate	Both sexes	Mothers aged 10-14 years	None
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_10_14__variant_low	Fertility rate	Both sexes	Mothers aged 10-14 years	Low
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_10_14__variant_medium	Fertility rate	Both sexes	Mothers aged 10-14 years	Medium
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_10_14__variant_high	Fertility rate	Both sexes	Mothers aged 10-14 years	High
+	grapher/un/2024-07-12/un_wpp/fertility_rate#fertility_rate__sex_all__age_15_19__variant_estimates	Fertility rate	Both sexes	Mothers aged 15-19 years	None
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_15_19__variant_low	Fertility rate	Both sexes	Mothers aged 15-19 years	Low
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_15_19__variant_medium	Fertility rate	Both sexes	Mothers aged 15-19 years	Medium
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_15_19__variant_high	Fertility rate	Both sexes	Mothers aged 15-19 years	High
+	grapher/un/2024-07-12/un_wpp/fertility_rate#fertility_rate__sex_all__age_20_24__variant_estimates	Fertility rate	Both sexes	Mothers aged 20-24 years	None
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_20_24__variant_low	Fertility rate	Both sexes	Mothers aged 20-24 years	Low
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_20_24__variant_medium	Fertility rate	Both sexes	Mothers aged 20-24 years	Medium
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_20_24__variant_high	Fertility rate	Both sexes	Mothers aged 20-24 years	High
+	grapher/un/2024-07-12/un_wpp/fertility_rate#fertility_rate__sex_all__age_25_29__variant_estimates	Fertility rate	Both sexes	Mothers aged 25-29 years	None
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_25_29__variant_low	Fertility rate	Both sexes	Mothers aged 25-29 years	Low
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_25_29__variant_medium	Fertility rate	Both sexes	Mothers aged 25-29 years	Medium
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_25_29__variant_high	Fertility rate	Both sexes	Mothers aged 25-29 years	High
+	grapher/un/2024-07-12/un_wpp/fertility_rate#fertility_rate__sex_all__age_30_34__variant_estimates	Fertility rate	Both sexes	Mothers aged 30-34 years	None
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_30_34__variant_low	Fertility rate	Both sexes	Mothers aged 30-34 years	Low
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_30_34__variant_medium	Fertility rate	Both sexes	Mothers aged 30-34 years	Medium
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_30_34__variant_high	Fertility rate	Both sexes	Mothers aged 30-34 years	High
+	grapher/un/2024-07-12/un_wpp/fertility_rate#fertility_rate__sex_all__age_35_39__variant_estimates	Fertility rate	Both sexes	Mothers aged 35-39 years	None
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_35_39__variant_low	Fertility rate	Both sexes	Mothers aged 35-39 years	Low
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_35_39__variant_medium	Fertility rate	Both sexes	Mothers aged 35-39 years	Medium
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_35_39__variant_high	Fertility rate	Both sexes	Mothers aged 35-39 years	High
+	grapher/un/2024-07-12/un_wpp/fertility_rate#fertility_rate__sex_all__age_40_44__variant_estimates	Fertility rate	Both sexes	Mothers aged 40-44 years	None
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_40_44__variant_low	Fertility rate	Both sexes	Mothers aged 40-44 years	Low
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_40_44__variant_medium	Fertility rate	Both sexes	Mothers aged 40-44 years	Medium
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_40_44__variant_high	Fertility rate	Both sexes	Mothers aged 40-44 years	High
+	grapher/un/2024-07-12/un_wpp/fertility_rate#fertility_rate__sex_all__age_45_49__variant_estimates	Fertility rate	Both sexes	Mothers aged 45-49 years	None
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_45_49__variant_low	Fertility rate	Both sexes	Mothers aged 45-49 years	Low
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_45_49__variant_medium	Fertility rate	Both sexes	Mothers aged 45-49 years	Medium
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_45_49__variant_high	Fertility rate	Both sexes	Mothers aged 45-49 years	High
+	grapher/un/2024-07-12/un_wpp/fertility_rate#fertility_rate__sex_all__age_50_54__variant_estimates	Fertility rate	Both sexes	Mothers aged 50-54 years	None
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_50_54__variant_low	Fertility rate	Both sexes	Mothers aged 50-54 years	Low
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_50_54__variant_medium	Fertility rate	Both sexes	Mothers aged 50-54 years	Medium
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_50_54__variant_high	Fertility rate	Both sexes	Mothers aged 50-54 years	High
+	grapher/un/2024-07-12/un_wpp/births#births__sex_all__age_all__variant_estimates	Births	Both sexes	Total	None
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_all__variant_low	Births	Both sexes	Total	Low
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_all__variant_medium	Births	Both sexes	Total	Medium
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_all__variant_high	Births	Both sexes	Total	High
+	grapher/un/2024-07-12/un_wpp/births#births__sex_all__age_10_14__variant_estimates	Births	Both sexes	Mothers aged 10-14 years	None
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_10_14__variant_low	Births	Both sexes	Mothers aged 10-14 years	Low
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_10_14__variant_medium	Births	Both sexes	Mothers aged 10-14 years	Medium
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_10_14__variant_high	Births	Both sexes	Mothers aged 10-14 years	High
+	grapher/un/2024-07-12/un_wpp/births#births__sex_all__age_15_19__variant_estimates	Births	Both sexes	Mothers aged 15-19 years	None
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_15_19__variant_low	Births	Both sexes	Mothers aged 15-19 years	Low
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_15_19__variant_medium	Births	Both sexes	Mothers aged 15-19 years	Medium
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_15_19__variant_high	Births	Both sexes	Mothers aged 15-19 years	High
+	grapher/un/2024-07-12/un_wpp/births#births__sex_all__age_20_24__variant_estimates	Births	Both sexes	Mothers aged 20-24 years	None
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_20_24__variant_low	Births	Both sexes	Mothers aged 20-24 years	Low
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_20_24__variant_medium	Births	Both sexes	Mothers aged 20-24 years	Medium
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_20_24__variant_high	Births	Both sexes	Mothers aged 20-24 years	High
+	grapher/un/2024-07-12/un_wpp/births#births__sex_all__age_25_29__variant_estimates	Births	Both sexes	Mothers aged 25-29 years	None
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_25_29__variant_low	Births	Both sexes	Mothers aged 25-29 years	Low
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_25_29__variant_medium	Births	Both sexes	Mothers aged 25-29 years	Medium
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_25_29__variant_high	Births	Both sexes	Mothers aged 25-29 years	High
+	grapher/un/2024-07-12/un_wpp/births#births__sex_all__age_30_34__variant_estimates	Births	Both sexes	Mothers aged 30-34 years	None
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_30_34__variant_low	Births	Both sexes	Mothers aged 30-34 years	Low
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_30_34__variant_medium	Births	Both sexes	Mothers aged 30-34 years	Medium
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_30_34__variant_high	Births	Both sexes	Mothers aged 30-34 years	High
+	grapher/un/2024-07-12/un_wpp/births#births__sex_all__age_35_39__variant_estimates	Births	Both sexes	Mothers aged 35-39 years	None
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_35_39__variant_low	Births	Both sexes	Mothers aged 35-39 years	Low
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_35_39__variant_medium	Births	Both sexes	Mothers aged 35-39 years	Medium
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_35_39__variant_high	Births	Both sexes	Mothers aged 35-39 years	High
+	grapher/un/2024-07-12/un_wpp/births#births__sex_all__age_40_44__variant_estimates	Births	Both sexes	Mothers aged 40-44 years	None
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_40_44__variant_low	Births	Both sexes	Mothers aged 40-44 years	Low
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_40_44__variant_medium	Births	Both sexes	Mothers aged 40-44 years	Medium
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_40_44__variant_high	Births	Both sexes	Mothers aged 40-44 years	High
+	grapher/un/2024-07-12/un_wpp/births#births__sex_all__age_45_49__variant_estimates	Births	Both sexes	Mothers aged 45-49 years	None
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_45_49__variant_low	Births	Both sexes	Mothers aged 45-49 years	Low
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_45_49__variant_medium	Births	Both sexes	Mothers aged 45-49 years	Medium
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_45_49__variant_high	Births	Both sexes	Mothers aged 45-49 years	High
+	grapher/un/2024-07-12/un_wpp/births#births__sex_all__age_50_54__variant_estimates	Births	Both sexes	Mothers aged 50-54 years	None
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_50_54__variant_low	Births	Both sexes	Mothers aged 50-54 years	Low
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_50_54__variant_medium	Births	Both sexes	Mothers aged 50-54 years	Medium
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_50_54__variant_high	Births	Both sexes	Mothers aged 50-54 years	High
+	grapher/un/2024-07-12/un_wpp/births#birth_rate__sex_all__age_all__variant_estimates	Birth rate	Both sexes	Total	None
+	grapher/un/2024-07-12/un_wpp_full/births#birth_rate__sex_all__age_all__variant_low	Birth rate	Both sexes	Total	Low
+	grapher/un/2024-07-12/un_wpp_full/births#birth_rate__sex_all__age_all__variant_medium	Birth rate	Both sexes	Total	Medium
+	grapher/un/2024-07-12/un_wpp_full/births#birth_rate__sex_all__age_all__variant_high	Birth rate	Both sexes	Total	High
 	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_all__age_all__variant_estimates	Deaths	Both sexes	Total	None
 	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_all__variant_low	Deaths	Both sexes	Total	Low
 	grapher/un/2024-07-12/un_wpp_full/deaths#deaths__sex_all__age_all__variant_medium	Deaths	Both sexes	Total	Medium
@@ -794,54 +794,54 @@ graphers
 	grapher/un/2024-07-12/un_wpp_full/deaths#death_rate__sex_all__age_all__variant_low	Death rate	Both sexes	Total	Low
 	grapher/un/2024-07-12/un_wpp_full/deaths#death_rate__sex_all__age_all__variant_medium	Death rate	Both sexes	Total	Medium
 	grapher/un/2024-07-12/un_wpp_full/deaths#death_rate__sex_all__age_all__variant_high	Death rate	Both sexes	Total	High
-	grapher/un/2024-07-12/un_wpp/life_expectancy#life_expectancy__sex_all__age_0__variant_estimates	life_expectancy	Both sexes	At birth	None
-	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_all__age_0__variant_low	life_expectancy	Both sexes	At birth	Low
-	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_all__age_0__variant_medium	life_expectancy	Both sexes	At birth	Medium
-	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_all__age_0__variant_high	life_expectancy	Both sexes	At birth	High
-	grapher/un/2024-07-12/un_wpp/life_expectancy#life_expectancy__sex_all__age_15__variant_estimates	life_expectancy	Both sexes	Aged 15	None
-	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_all__age_15__variant_low	life_expectancy	Both sexes	Aged 15	Low
-	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_all__age_15__variant_medium	life_expectancy	Both sexes	Aged 15	Medium
-	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_all__age_15__variant_high	life_expectancy	Both sexes	Aged 15	High
-	grapher/un/2024-07-12/un_wpp/life_expectancy#life_expectancy__sex_all__age_65__variant_estimates	life_expectancy	Both sexes	65	None
-	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_all__age_65__variant_low	life_expectancy	Both sexes	65	Low
-	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_all__age_65__variant_medium	life_expectancy	Both sexes	65	Medium
-	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_all__age_65__variant_high	life_expectancy	Both sexes	65	High
-	grapher/un/2024-07-12/un_wpp/life_expectancy#life_expectancy__sex_all__age_80__variant_estimates	life_expectancy	Both sexes	Aged 80	None
-	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_all__age_80__variant_low	life_expectancy	Both sexes	Aged 80	Low
-	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_all__age_80__variant_medium	life_expectancy	Both sexes	Aged 80	Medium
-	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_all__age_80__variant_high	life_expectancy	Both sexes	Aged 80	High
-	grapher/un/2024-07-12/un_wpp/life_expectancy#life_expectancy__sex_female__age_0__variant_estimates	life_expectancy	Female	At birth	None
-	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_female__age_0__variant_low	life_expectancy	Female	At birth	Low
-	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_female__age_0__variant_medium	life_expectancy	Female	At birth	Medium
-	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_female__age_0__variant_high	life_expectancy	Female	At birth	High
-	grapher/un/2024-07-12/un_wpp/life_expectancy#life_expectancy__sex_female__age_15__variant_estimates	life_expectancy	Female	Aged 15	None
-	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_female__age_15__variant_low	life_expectancy	Female	Aged 15	Low
-	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_female__age_15__variant_medium	life_expectancy	Female	Aged 15	Medium
-	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_female__age_15__variant_high	life_expectancy	Female	Aged 15	High
-	grapher/un/2024-07-12/un_wpp/life_expectancy#life_expectancy__sex_female__age_65__variant_estimates	life_expectancy	Female	65	None
-	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_female__age_65__variant_low	life_expectancy	Female	65	Low
-	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_female__age_65__variant_medium	life_expectancy	Female	65	Medium
-	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_female__age_65__variant_high	life_expectancy	Female	65	High
-	grapher/un/2024-07-12/un_wpp/life_expectancy#life_expectancy__sex_female__age_80__variant_estimates	life_expectancy	Female	Aged 80	None
-	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_female__age_80__variant_low	life_expectancy	Female	Aged 80	Low
-	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_female__age_80__variant_medium	life_expectancy	Female	Aged 80	Medium
-	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_female__age_80__variant_high	life_expectancy	Female	Aged 80	High
-	grapher/un/2024-07-12/un_wpp/life_expectancy#life_expectancy__sex_male__age_0__variant_estimates	life_expectancy	Male	At birth	None
-	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_male__age_0__variant_low	life_expectancy	Male	At birth	Low
-	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_male__age_0__variant_medium	life_expectancy	Male	At birth	Medium
-	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_male__age_0__variant_high	life_expectancy	Male	At birth	High
-	grapher/un/2024-07-12/un_wpp/life_expectancy#life_expectancy__sex_male__age_15__variant_estimates	life_expectancy	Male	Aged 15	None
-	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_male__age_15__variant_low	life_expectancy	Male	Aged 15	Low
-	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_male__age_15__variant_medium	life_expectancy	Male	Aged 15	Medium
-	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_male__age_15__variant_high	life_expectancy	Male	Aged 15	High
-	grapher/un/2024-07-12/un_wpp/life_expectancy#life_expectancy__sex_male__age_65__variant_estimates	life_expectancy	Male	65	None
-	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_male__age_65__variant_low	life_expectancy	Male	65	Low
-	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_male__age_65__variant_medium	life_expectancy	Male	65	Medium
-	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_male__age_65__variant_high	life_expectancy	Male	65	High
-	grapher/un/2024-07-12/un_wpp/life_expectancy#life_expectancy__sex_male__age_80__variant_estimates	life_expectancy	Male	Aged 80	None
-	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_male__age_80__variant_low	life_expectancy	Male	Aged 80	Low
-	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_male__age_80__variant_medium	life_expectancy	Male	Aged 80	Medium
-	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_male__age_80__variant_high	life_expectancy	Male	Aged 80	High
+	grapher/un/2024-07-12/un_wpp/life_expectancy#life_expectancy__sex_all__age_0__variant_estimates	Life expectancy	Both sexes	At birth	None
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_all__age_0__variant_low	Life expectancy	Both sexes	At birth	Low
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_all__age_0__variant_medium	Life expectancy	Both sexes	At birth	Medium
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_all__age_0__variant_high	Life expectancy	Both sexes	At birth	High
+	grapher/un/2024-07-12/un_wpp/life_expectancy#life_expectancy__sex_all__age_15__variant_estimates	Life expectancy	Both sexes	Aged 15	None
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_all__age_15__variant_low	Life expectancy	Both sexes	Aged 15	Low
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_all__age_15__variant_medium	Life expectancy	Both sexes	Aged 15	Medium
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_all__age_15__variant_high	Life expectancy	Both sexes	Aged 15	High
+	grapher/un/2024-07-12/un_wpp/life_expectancy#life_expectancy__sex_all__age_65__variant_estimates	Life expectancy	Both sexes	65	None
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_all__age_65__variant_low	Life expectancy	Both sexes	65	Low
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_all__age_65__variant_medium	Life expectancy	Both sexes	65	Medium
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_all__age_65__variant_high	Life expectancy	Both sexes	65	High
+	grapher/un/2024-07-12/un_wpp/life_expectancy#life_expectancy__sex_all__age_80__variant_estimates	Life expectancy	Both sexes	Aged 80	None
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_all__age_80__variant_low	Life expectancy	Both sexes	Aged 80	Low
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_all__age_80__variant_medium	Life expectancy	Both sexes	Aged 80	Medium
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_all__age_80__variant_high	Life expectancy	Both sexes	Aged 80	High
+	grapher/un/2024-07-12/un_wpp/life_expectancy#life_expectancy__sex_female__age_0__variant_estimates	Life expectancy	Female	At birth	None
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_female__age_0__variant_low	Life expectancy	Female	At birth	Low
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_female__age_0__variant_medium	Life expectancy	Female	At birth	Medium
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_female__age_0__variant_high	Life expectancy	Female	At birth	High
+	grapher/un/2024-07-12/un_wpp/life_expectancy#life_expectancy__sex_female__age_15__variant_estimates	Life expectancy	Female	Aged 15	None
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_female__age_15__variant_low	Life expectancy	Female	Aged 15	Low
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_female__age_15__variant_medium	Life expectancy	Female	Aged 15	Medium
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_female__age_15__variant_high	Life expectancy	Female	Aged 15	High
+	grapher/un/2024-07-12/un_wpp/life_expectancy#life_expectancy__sex_female__age_65__variant_estimates	Life expectancy	Female	65	None
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_female__age_65__variant_low	Life expectancy	Female	65	Low
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_female__age_65__variant_medium	Life expectancy	Female	65	Medium
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_female__age_65__variant_high	Life expectancy	Female	65	High
+	grapher/un/2024-07-12/un_wpp/life_expectancy#life_expectancy__sex_female__age_80__variant_estimates	Life expectancy	Female	Aged 80	None
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_female__age_80__variant_low	Life expectancy	Female	Aged 80	Low
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_female__age_80__variant_medium	Life expectancy	Female	Aged 80	Medium
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_female__age_80__variant_high	Life expectancy	Female	Aged 80	High
+	grapher/un/2024-07-12/un_wpp/life_expectancy#life_expectancy__sex_male__age_0__variant_estimates	Life expectancy	Male	At birth	None
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_male__age_0__variant_low	Life expectancy	Male	At birth	Low
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_male__age_0__variant_medium	Life expectancy	Male	At birth	Medium
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_male__age_0__variant_high	Life expectancy	Male	At birth	High
+	grapher/un/2024-07-12/un_wpp/life_expectancy#life_expectancy__sex_male__age_15__variant_estimates	Life expectancy	Male	Aged 15	None
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_male__age_15__variant_low	Life expectancy	Male	Aged 15	Low
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_male__age_15__variant_medium	Life expectancy	Male	Aged 15	Medium
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_male__age_15__variant_high	Life expectancy	Male	Aged 15	High
+	grapher/un/2024-07-12/un_wpp/life_expectancy#life_expectancy__sex_male__age_65__variant_estimates	Life expectancy	Male	65	None
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_male__age_65__variant_low	Life expectancy	Male	65	Low
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_male__age_65__variant_medium	Life expectancy	Male	65	Medium
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_male__age_65__variant_high	Life expectancy	Male	65	High
+	grapher/un/2024-07-12/un_wpp/life_expectancy#life_expectancy__sex_male__age_80__variant_estimates	Life expectancy	Male	Aged 80	None
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_male__age_80__variant_low	Life expectancy	Male	Aged 80	Low
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_male__age_80__variant_medium	Life expectancy	Male	Aged 80	Medium
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_male__age_80__variant_high	Life expectancy	Male	Aged 80	High
 	grapher/un/2024-07-12/un_wpp/dependency_ratio#dependency_ratio__sex_all__age_total__variant_estimates	Dependency ratio	Both sexes	Total dependency ratio	None
 	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_all__age_total__variant_low	Dependency ratio	Both sexes	Total dependency ratio	Low
 	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_all__age_total__variant_medium	Dependency ratio	Both sexes	Total dependency ratio	Medium
