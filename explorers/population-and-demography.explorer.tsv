@@ -1545,6 +1545,46 @@ columns
 	grapher/un/2024-07-12/un_wpp_full/population#population_density__sex_all__age_all__variant_high	YlOrBr	10;20;50;100;200;500;1000
 	grapher/un/2024-07-12/un_wpp_full/population#population_density__sex_all__age_all__variant_low	YlOrBr	10;20;50;100;200;500;1000
 	grapher/un/2024-07-12/un_wpp_full/population#population_density__sex_all__age_all__variant_medium	YlOrBr	10;20;50;100;200;500;1000
+	grapher/un/2024-07-12/un_wpp/fertility_rate#fertility_rate__sex_all__age_10_14__variant_estimates	RdBu	.2;.5;1;2;5;10;1
+	grapher/un/2024-07-12/un_wpp/fertility_rate#fertility_rate__sex_all__age_15_19__variant_estimates	RdBu	1;2;5;10;20;50;100;1
+	grapher/un/2024-07-12/un_wpp/fertility_rate#fertility_rate__sex_all__age_20_24__variant_estimates	RdBu	25;50;75;100;125;150;175;200;1
+	grapher/un/2024-07-12/un_wpp/fertility_rate#fertility_rate__sex_all__age_25_29__variant_estimates	RdBu	50;100;150;200;250;1
+	grapher/un/2024-07-12/un_wpp/fertility_rate#fertility_rate__sex_all__age_30_34__variant_estimates	RdBu	50;100;150;200;250;1
+	grapher/un/2024-07-12/un_wpp/fertility_rate#fertility_rate__sex_all__age_35_39__variant_estimates	RdBu	25;50;75;100;125;150;175;200;1
+	grapher/un/2024-07-12/un_wpp/fertility_rate#fertility_rate__sex_all__age_40_44__variant_estimates	RdBu	20;40;60;80;100;1
+	grapher/un/2024-07-12/un_wpp/fertility_rate#fertility_rate__sex_all__age_45_49__variant_estimates	RdBu	1;2;5;10;20;1
+	grapher/un/2024-07-12/un_wpp/fertility_rate#fertility_rate__sex_all__age_50_54__variant_estimates	RdBu	.05;.1;.2;.5;1;2;1
+	grapher/un/2024-07-12/un_wpp/fertility_rate#fertility_rate__sex_all__age_all__variant_estimates	RdBu	1;2;3;4;5;6;1
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_10_14__variant_high	RdBu	.2;.5;1;2;5;10;1
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_10_14__variant_low	RdBu	.2;.5;1;2;5;10;1
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_10_14__variant_medium	RdBu	.2;.5;1;2;5;10;1
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_15_19__variant_high	RdBu	1;2;5;10;20;50;100;1
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_15_19__variant_low	RdBu	1;2;5;10;20;50;100;1
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_15_19__variant_medium	RdBu	1;2;5;10;20;50;100;1
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_20_24__variant_high	RdBu	25;50;75;100;125;150;175;200;1
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_20_24__variant_low	RdBu	25;50;75;100;125;150;175;200;1
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_20_24__variant_medium	RdBu	25;50;75;100;125;150;175;200;1
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_25_29__variant_high	RdBu	50;100;150;200;250;1
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_25_29__variant_low	RdBu	50;100;150;200;250;1
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_25_29__variant_medium	RdBu	50;100;150;200;250;1
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_30_34__variant_high	RdBu	50;100;150;200;250;1
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_30_34__variant_low	RdBu	50;100;150;200;250;1
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_30_34__variant_medium	RdBu	50;100;150;200;250;1
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_35_39__variant_high	RdBu	25;50;75;100;125;150;175;200;1
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_35_39__variant_low	RdBu	25;50;75;100;125;150;175;200;1
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_35_39__variant_medium	RdBu	25;50;75;100;125;150;175;200;1
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_40_44__variant_high	RdBu	20;40;60;80;100;1
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_40_44__variant_low	RdBu	20;40;60;80;100;1
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_40_44__variant_medium	RdBu	20;40;60;80;100;1
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_45_49__variant_high	RdBu	1;2;5;10;20;1
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_45_49__variant_low	RdBu	1;2;5;10;20;1
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_45_49__variant_medium	RdBu	1;2;5;10;20;1
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_50_54__variant_high	RdBu	.05;.1;.2;.5;1;2;1
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_50_54__variant_low	RdBu	.05;.1;.2;.5;1;2;1
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_50_54__variant_medium	RdBu	.05;.1;.2;.5;1;2;1
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_all__variant_high	RdBu	1;2;3;4;5;6;1
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_all__variant_low	RdBu	1;2;3;4;5;6;1
+	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_all__variant_medium	RdBu	1;2;3;4;5;6;1
 	grapher/un/2024-07-12/un_wpp/growth_rate#growth_rate__sex_all__age_all__variant_estimates	RdBu	-5;-2;-1;-0.5;0;0.5;1;2;5;1		PercentChangeOverTime
 	grapher/un/2024-07-12/un_wpp_full/growth_rate#growth_rate__sex_all__age_all__variant_high	RdBu	-5;-2;-1;-0.5;0;0.5;1;2;5;1		PercentChangeOverTime
 	grapher/un/2024-07-12/un_wpp_full/growth_rate#growth_rate__sex_all__age_all__variant_low	RdBu	-5;-2;-1;-0.5;0;0.5;1;2;5;1		PercentChangeOverTime
