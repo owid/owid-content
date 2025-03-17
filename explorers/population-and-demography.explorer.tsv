@@ -1021,10 +1021,10 @@ columns
 	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_1_4__variant_estimates	PuBu	200000;500000;1000000;2000000;5000000;10000000;20000000;50000000;1	1-4 years
 	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_10_14__variant_estimates	PuBu	200000;500000;1000000;2000000;5000000;10000000;20000000;50000000;100000000;1	10-14 years
 	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_100plus__variant_estimates	PuBu	100;300;1000;3000;10000;30000;100000;1	100+ years
-	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_15plus__variant_estimates	PuBu		15+ years
+	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_15plus__variant_estimates	PuBu	1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1	15+ years
 	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_15_19__variant_estimates	PuBu	200000;500000;1000000;2000000;5000000;10000000;20000000;50000000;100000000;1	15-19 years
 	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_15_64__variant_estimates	PuBu	2000000;5000000;10000000;20000000;50000000;100000000;200000000;500000000;1	15-64 years
-	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_18plus__variant_estimates	PuBu		18+ years
+	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_18plus__variant_estimates	PuBu	2000000;5000000;10000000;20000000;50000000;100000000;200000000;500000000;1	18+ years
 	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_20_29__variant_estimates	PuBu	500000;1000000;2000000;5000000;10000000;20000000;50000000;100000000;200000000;1	20-29 years
 	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_30_39__variant_estimates	PuBu	500000;1000000;2000000;5000000;10000000;20000000;50000000;100000000;200000000;1	30-39 years
 	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_40_49__variant_estimates	PuBu	500000;1000000;2000000;5000000;10000000;20000000;50000000;100000000;1	40-49 years
@@ -1043,10 +1043,10 @@ columns
 	grapher/un/2024-07-12/un_wpp/population#population__sex_female__age_1_4__variant_estimates	PuBu	100000;200000;500000;1000000;2000000;5000000;10000000;20000000;1	1-4 years
 	grapher/un/2024-07-12/un_wpp/population#population__sex_female__age_10_14__variant_estimates	PuBu	100000;200000;500000;1000000;2000000;5000000;10000000;20000000;50000000;1	10-14 years
 	grapher/un/2024-07-12/un_wpp/population#population__sex_female__age_100plus__variant_estimates	PuBu	100;300;1000;3000;10000;30000;1	100+ years
-	grapher/un/2024-07-12/un_wpp/population#population__sex_female__age_15plus__variant_estimates	PuBu		15+ years
+	grapher/un/2024-07-12/un_wpp/population#population__sex_female__age_15plus__variant_estimates	PuBu	1000000;3000000;10000000;30000000;100000000;300000000;1	15+ years
 	grapher/un/2024-07-12/un_wpp/population#population__sex_female__age_15_19__variant_estimates	PuBu	100000;200000;500000;1000000;2000000;5000000;10000000;20000000;50000000;1	15-19 years
 	grapher/un/2024-07-12/un_wpp/population#population__sex_female__age_15_64__variant_estimates	PuBu	1000000;2000000;5000000;10000000;20000000;50000000;100000000;200000000;1	15-64 years
-	grapher/un/2024-07-12/un_wpp/population#population__sex_female__age_18plus__variant_estimates	PuBu		18+ years
+	grapher/un/2024-07-12/un_wpp/population#population__sex_female__age_18plus__variant_estimates	PuBu	1000000;2000000;5000000;10000000;20000000;50000000;100000000;200000000;1	18+ years
 	grapher/un/2024-07-12/un_wpp/population#population__sex_female__age_20_29__variant_estimates	PuBu	200000;500000;1000000;2000000;5000000;10000000;20000000;50000000;100000000;1	20-29 years
 	grapher/un/2024-07-12/un_wpp/population#population__sex_female__age_30_39__variant_estimates	PuBu	200000;500000;1000000;2000000;5000000;10000000;20000000;50000000;100000000;1	30-39 years
 	grapher/un/2024-07-12/un_wpp/population#population__sex_female__age_40_49__variant_estimates	PuBu	200000;500000;1000000;2000000;5000000;10000000;20000000;50000000;1	40-49 years
@@ -1065,10 +1065,10 @@ columns
 	grapher/un/2024-07-12/un_wpp/population#population__sex_male__age_1_4__variant_estimates	PuBu	100000;200000;500000;1000000;2000000;5000000;10000000;20000000;1	1-4 years
 	grapher/un/2024-07-12/un_wpp/population#population__sex_male__age_10_14__variant_estimates	PuBu	100000;200000;500000;1000000;2000000;5000000;10000000;20000000;50000000;1	10-14 years
 	grapher/un/2024-07-12/un_wpp/population#population__sex_male__age_100plus__variant_estimates	PuBu	100;300;1000;3000;10000;30000;1	100+ years
-	grapher/un/2024-07-12/un_wpp/population#population__sex_male__age_15plus__variant_estimates	PuBu		15+ years
+	grapher/un/2024-07-12/un_wpp/population#population__sex_male__age_15plus__variant_estimates	PuBu	1000000;3000000;10000000;30000000;100000000;300000000;1	15+ years
 	grapher/un/2024-07-12/un_wpp/population#population__sex_male__age_15_19__variant_estimates	PuBu	100000;200000;500000;1000000;2000000;5000000;10000000;20000000;50000000;1	15-19 years
 	grapher/un/2024-07-12/un_wpp/population#population__sex_male__age_15_64__variant_estimates	PuBu	1000000;2000000;5000000;10000000;20000000;50000000;100000000;200000000;1	15-64 years
-	grapher/un/2024-07-12/un_wpp/population#population__sex_male__age_18plus__variant_estimates	PuBu		18+ years
+	grapher/un/2024-07-12/un_wpp/population#population__sex_male__age_18plus__variant_estimates	PuBu	1000000;2000000;5000000;10000000;20000000;50000000;100000000;200000000;1	18+ years
 	grapher/un/2024-07-12/un_wpp/population#population__sex_male__age_20_29__variant_estimates	PuBu	200000;500000;1000000;2000000;5000000;10000000;20000000;50000000;100000000;1	20-29 years
 	grapher/un/2024-07-12/un_wpp/population#population__sex_male__age_30_39__variant_estimates	PuBu	200000;500000;1000000;2000000;5000000;10000000;20000000;50000000;100000000;1	30-39 years
 	grapher/un/2024-07-12/un_wpp/population#population__sex_male__age_40_49__variant_estimates	PuBu	200000;500000;1000000;2000000;5000000;10000000;20000000;50000000;1	40-49 years
@@ -1087,10 +1087,10 @@ columns
 	grapher/un/2024-07-12/un_wpp/population#population_change__sex_all__age_1_4__variant_estimates	RdBu	-1000000;-100000;-10000;0;10000;100000;1000000;1	1-4 years
 	grapher/un/2024-07-12/un_wpp/population#population_change__sex_all__age_10_14__variant_estimates	RdBu	-1000000;-100000;-10000;0;10000;100000;1000000;1	10-14 years
 	grapher/un/2024-07-12/un_wpp/population#population_change__sex_all__age_100plus__variant_estimates	RdBu	-10000;-1000;-100;0;100;1000;10000;1	100+ years
-	grapher/un/2024-07-12/un_wpp/population#population_change__sex_all__age_15plus__variant_estimates	RdBu		15+ years
+	grapher/un/2024-07-12/un_wpp/population#population_change__sex_all__age_15plus__variant_estimates	RdBu	-10000000;-3000000;-1000000;-300000;0;300000;1000000;3000000;10000000;1	15+ years
 	grapher/un/2024-07-12/un_wpp/population#population_change__sex_all__age_15_19__variant_estimates	RdBu	-1000000;-100000;-10000;0;10000;100000;1000000;1	15-19 years
 	grapher/un/2024-07-12/un_wpp/population#population_change__sex_all__age_15_64__variant_estimates	RdBu	-10000000;-1000000;-100000;0;100000;1000000;10000000;1	15-64 years
-	grapher/un/2024-07-12/un_wpp/population#population_change__sex_all__age_18plus__variant_estimates	RdBu		18+ years
+	grapher/un/2024-07-12/un_wpp/population#population_change__sex_all__age_18plus__variant_estimates	RdBu	-10000000;-3000000;-1000000;-300000;0;300000;1000000;3000000;10000000;1	18+ years
 	grapher/un/2024-07-12/un_wpp/population#population_change__sex_all__age_20_29__variant_estimates	RdBu	-1000000;-100000;-10000;0;10000;100000;1000000;1	20-29 years
 	grapher/un/2024-07-12/un_wpp/population#population_change__sex_all__age_30_39__variant_estimates	RdBu	-1000000;-100000;-10000;0;10000;100000;1000000;1	30-39 years
 	grapher/un/2024-07-12/un_wpp/population#population_change__sex_all__age_40_49__variant_estimates	RdBu	-1000000;-100000;-10000;0;10000;100000;1000000;1	40-49 years
@@ -1109,10 +1109,10 @@ columns
 	grapher/un/2024-07-12/un_wpp/population#population_change__sex_female__age_1_4__variant_estimates	RdBu	-500000;-50000;-5000;0;5000;50000;500000;1	1-4 years
 	grapher/un/2024-07-12/un_wpp/population#population_change__sex_female__age_10_14__variant_estimates	RdBu	-500000;-50000;-5000;0;5000;50000;500000;1	10-14 years
 	grapher/un/2024-07-12/un_wpp/population#population_change__sex_female__age_100plus__variant_estimates	RdBu	-5000;-500;-50;0;50;500;5000;1	100+ years
-	grapher/un/2024-07-12/un_wpp/population#population_change__sex_female__age_15plus__variant_estimates	RdBu		15+ years
+	grapher/un/2024-07-12/un_wpp/population#population_change__sex_female__age_15plus__variant_estimates	RdBu	-5000000;-1500000;-500000;-150000;0;150000;500000;1500000;5000000;1	15+ years
 	grapher/un/2024-07-12/un_wpp/population#population_change__sex_female__age_15_19__variant_estimates	RdBu	-500000;-50000;-5000;0;5000;50000;500000;1	15-19 years
 	grapher/un/2024-07-12/un_wpp/population#population_change__sex_female__age_15_64__variant_estimates	RdBu	-5000000;-500000;-50000;0;50000;500000;5000000;1	15-64 years
-	grapher/un/2024-07-12/un_wpp/population#population_change__sex_female__age_18plus__variant_estimates	RdBu		18+ years
+	grapher/un/2024-07-12/un_wpp/population#population_change__sex_female__age_18plus__variant_estimates	RdBu	-5000000;-1500000;-500000;-150000;0;150000;500000;1500000;5000000;1	18+ years
 	grapher/un/2024-07-12/un_wpp/population#population_change__sex_female__age_20_29__variant_estimates	RdBu	-500000;-50000;-5000;0;5000;50000;500000;1	20-29 years
 	grapher/un/2024-07-12/un_wpp/population#population_change__sex_female__age_30_39__variant_estimates	RdBu	-500000;-50000;-5000;0;5000;50000;500000;1	30-39 years
 	grapher/un/2024-07-12/un_wpp/population#population_change__sex_female__age_40_49__variant_estimates	RdBu	-500000;-50000;-5000;0;5000;50000;500000;1	40-49 years
@@ -1131,10 +1131,10 @@ columns
 	grapher/un/2024-07-12/un_wpp/population#population_change__sex_male__age_1_4__variant_estimates	RdBu	-500000;-50000;-5000;0;5000;50000;500000;1	1-4 years
 	grapher/un/2024-07-12/un_wpp/population#population_change__sex_male__age_10_14__variant_estimates	RdBu	-500000;-50000;-5000;0;5000;50000;500000;1	10-14 years
 	grapher/un/2024-07-12/un_wpp/population#population_change__sex_male__age_100plus__variant_estimates	RdBu	-5000;-500;-50;0;50;500;5000;1	100+ years
-	grapher/un/2024-07-12/un_wpp/population#population_change__sex_male__age_15plus__variant_estimates	RdBu		15+ years
+	grapher/un/2024-07-12/un_wpp/population#population_change__sex_male__age_15plus__variant_estimates	RdBu	-5000000;-1500000;-500000;-150000;0;150000;500000;1500000;5000000;1	15+ years
 	grapher/un/2024-07-12/un_wpp/population#population_change__sex_male__age_15_19__variant_estimates	RdBu	-500000;-50000;-5000;0;5000;50000;500000;1	15-19 years
 	grapher/un/2024-07-12/un_wpp/population#population_change__sex_male__age_15_64__variant_estimates	RdBu	-5000000;-500000;-50000;0;50000;500000;5000000;1	15-64 years
-	grapher/un/2024-07-12/un_wpp/population#population_change__sex_male__age_18plus__variant_estimates	RdBu		18+ years
+	grapher/un/2024-07-12/un_wpp/population#population_change__sex_male__age_18plus__variant_estimates	RdBu	-5000000;-1500000;-500000;-150000;0;150000;500000;1500000;5000000;1	18+ years
 	grapher/un/2024-07-12/un_wpp/population#population_change__sex_male__age_20_29__variant_estimates	RdBu	-500000;-50000;-5000;0;5000;50000;500000;1	20-29 years
 	grapher/un/2024-07-12/un_wpp/population#population_change__sex_male__age_30_39__variant_estimates	RdBu	-500000;-50000;-5000;0;5000;50000;500000;1	30-39 years
 	grapher/un/2024-07-12/un_wpp/population#population_change__sex_male__age_40_49__variant_estimates	RdBu	-500000;-50000;-5000;0;5000;50000;500000;1	40-49 years
@@ -1170,18 +1170,18 @@ columns
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_100plus__variant_high	PuBu	100;300;1000;3000;10000;30000;100000;1	100+ years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_100plus__variant_low	PuBu	100;300;1000;3000;10000;30000;100000;1	100+ years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_100plus__variant_medium	PuBu	100;300;1000;3000;10000;30000;100000;1	100+ years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_15plus__variant_high	PuBu		15+ years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_15plus__variant_low	PuBu		15+ years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_15plus__variant_medium	PuBu		15+ years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_15plus__variant_high	PuBu	1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1	15+ years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_15plus__variant_low	PuBu	1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1	15+ years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_15plus__variant_medium	PuBu	1000000;3000000;10000000;30000000;100000000;300000000;1000000000;1	15+ years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_15_19__variant_high	PuBu	200000;500000;1000000;2000000;5000000;10000000;20000000;50000000;100000000;1	15-19 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_15_19__variant_low	PuBu	200000;500000;1000000;2000000;5000000;10000000;20000000;50000000;100000000;1	15-19 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_15_19__variant_medium	PuBu	200000;500000;1000000;2000000;5000000;10000000;20000000;50000000;100000000;1	15-19 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_15_64__variant_high	PuBu	2000000;5000000;10000000;20000000;50000000;100000000;200000000;500000000;1	15-64 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_15_64__variant_low	PuBu	2000000;5000000;10000000;20000000;50000000;100000000;200000000;500000000;1	15-64 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_15_64__variant_medium	PuBu	2000000;5000000;10000000;20000000;50000000;100000000;200000000;500000000;1	15-64 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_18plus__variant_high	PuBu		18+ years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_18plus__variant_low	PuBu		18+ years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_18plus__variant_medium	PuBu		18+ years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_18plus__variant_high	PuBu	2000000;5000000;10000000;20000000;50000000;100000000;200000000;500000000;1	18+ years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_18plus__variant_low	PuBu	2000000;5000000;10000000;20000000;50000000;100000000;200000000;500000000;1	18+ years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_18plus__variant_medium	PuBu	2000000;5000000;10000000;20000000;50000000;100000000;200000000;500000000;1	18+ years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_20_29__variant_high	PuBu	500000;1000000;2000000;5000000;10000000;20000000;50000000;100000000;200000000;1	20-29 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_20_29__variant_low	PuBu	500000;1000000;2000000;5000000;10000000;20000000;50000000;100000000;200000000;1	20-29 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_20_29__variant_medium	PuBu	500000;1000000;2000000;5000000;10000000;20000000;50000000;100000000;200000000;1	20-29 years
@@ -1236,18 +1236,18 @@ columns
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_100plus__variant_high	PuBu	100;300;1000;3000;10000;30000;1	100+ years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_100plus__variant_low	PuBu	100;300;1000;3000;10000;30000;1	100+ years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_100plus__variant_medium	PuBu	100;300;1000;3000;10000;30000;1	100+ years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_15plus__variant_high	PuBu		15+ years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_15plus__variant_low	PuBu		15+ years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_15plus__variant_medium	PuBu		15+ years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_15plus__variant_high	PuBu	1000000;3000000;10000000;30000000;100000000;300000000;1	15+ years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_15plus__variant_low	PuBu	1000000;3000000;10000000;30000000;100000000;300000000;1	15+ years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_15plus__variant_medium	PuBu	1000000;3000000;10000000;30000000;100000000;300000000;1	15+ years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_15_19__variant_high	PuBu	100000;200000;500000;1000000;2000000;5000000;10000000;20000000;50000000;1	15-19 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_15_19__variant_low	PuBu	100000;200000;500000;1000000;2000000;5000000;10000000;20000000;50000000;1	15-19 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_15_19__variant_medium	PuBu	100000;200000;500000;1000000;2000000;5000000;10000000;20000000;50000000;1	15-19 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_15_64__variant_high	PuBu	1000000;2000000;5000000;10000000;20000000;50000000;100000000;200000000;1	15-64 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_15_64__variant_low	PuBu	1000000;2000000;5000000;10000000;20000000;50000000;100000000;200000000;1	15-64 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_15_64__variant_medium	PuBu	1000000;2000000;5000000;10000000;20000000;50000000;100000000;200000000;1	15-64 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_18plus__variant_high	PuBu		18+ years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_18plus__variant_low	PuBu		18+ years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_18plus__variant_medium	PuBu		18+ years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_18plus__variant_high	PuBu	1000000;2000000;5000000;10000000;20000000;50000000;100000000;200000000;1	18+ years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_18plus__variant_low	PuBu	1000000;2000000;5000000;10000000;20000000;50000000;100000000;200000000;1	18+ years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_18plus__variant_medium	PuBu	1000000;2000000;5000000;10000000;20000000;50000000;100000000;200000000;1	18+ years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_20_29__variant_high	PuBu	200000;500000;1000000;2000000;5000000;10000000;20000000;50000000;100000000;1	20-29 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_20_29__variant_low	PuBu	200000;500000;1000000;2000000;5000000;10000000;20000000;50000000;100000000;1	20-29 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_20_29__variant_medium	PuBu	200000;500000;1000000;2000000;5000000;10000000;20000000;50000000;100000000;1	20-29 years
@@ -1302,18 +1302,18 @@ columns
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_100plus__variant_high	PuBu	100;300;1000;3000;10000;30000;1	100+ years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_100plus__variant_low	PuBu	100;300;1000;3000;10000;30000;1	100+ years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_100plus__variant_medium	PuBu	100;300;1000;3000;10000;30000;1	100+ years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_15plus__variant_high	PuBu		15+ years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_15plus__variant_low	PuBu		15+ years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_15plus__variant_medium	PuBu		15+ years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_15plus__variant_high	PuBu	1000000;3000000;10000000;30000000;100000000;300000000;1	15+ years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_15plus__variant_low	PuBu	1000000;3000000;10000000;30000000;100000000;300000000;1	15+ years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_15plus__variant_medium	PuBu	1000000;3000000;10000000;30000000;100000000;300000000;1	15+ years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_15_19__variant_high	PuBu	100000;200000;500000;1000000;2000000;5000000;10000000;20000000;50000000;1	15-19 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_15_19__variant_low	PuBu	100000;200000;500000;1000000;2000000;5000000;10000000;20000000;50000000;1	15-19 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_15_19__variant_medium	PuBu	100000;200000;500000;1000000;2000000;5000000;10000000;20000000;50000000;1	15-19 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_15_64__variant_high	PuBu	1000000;2000000;5000000;10000000;20000000;50000000;100000000;200000000;1	15-64 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_15_64__variant_low	PuBu	1000000;2000000;5000000;10000000;20000000;50000000;100000000;200000000;1	15-64 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_15_64__variant_medium	PuBu	1000000;2000000;5000000;10000000;20000000;50000000;100000000;200000000;1	15-64 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_18plus__variant_high	PuBu		18+ years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_18plus__variant_low	PuBu		18+ years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_18plus__variant_medium	PuBu		18+ years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_18plus__variant_high	PuBu	1000000;2000000;5000000;10000000;20000000;50000000;100000000;200000000;1	18+ years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_18plus__variant_low	PuBu	1000000;2000000;5000000;10000000;20000000;50000000;100000000;200000000;1	18+ years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_18plus__variant_medium	PuBu	1000000;2000000;5000000;10000000;20000000;50000000;100000000;200000000;1	18+ years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_20_29__variant_high	PuBu	200000;500000;1000000;2000000;5000000;10000000;20000000;50000000;100000000;1	20-29 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_20_29__variant_low	PuBu	200000;500000;1000000;2000000;5000000;10000000;20000000;50000000;100000000;1	20-29 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_20_29__variant_medium	PuBu	200000;500000;1000000;2000000;5000000;10000000;20000000;50000000;100000000;1	20-29 years
@@ -1368,18 +1368,18 @@ columns
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_all__age_100plus__variant_high	RdBu	-10000;-1000;-100;0;100;1000;10000;1	100+ years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_all__age_100plus__variant_low	RdBu	-10000;-1000;-100;0;100;1000;10000;1	100+ years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_all__age_100plus__variant_medium	RdBu	-10000;-1000;-100;0;100;1000;10000;1	100+ years
-	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_all__age_15plus__variant_high	RdBu		15+ years
-	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_all__age_15plus__variant_low	RdBu		15+ years
-	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_all__age_15plus__variant_medium	RdBu		15+ years
+	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_all__age_15plus__variant_high	RdBu	-10000000;-3000000;-1000000;-300000;0;300000;1000000;3000000;10000000;1	15+ years
+	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_all__age_15plus__variant_low	RdBu	-10000000;-3000000;-1000000;-300000;0;300000;1000000;3000000;10000000;1	15+ years
+	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_all__age_15plus__variant_medium	RdBu	-10000000;-3000000;-1000000;-300000;0;300000;1000000;3000000;10000000;1	15+ years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_all__age_15_19__variant_high	RdBu	-1000000;-100000;-10000;0;10000;100000;1000000;1	15-19 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_all__age_15_19__variant_low	RdBu	-1000000;-100000;-10000;0;10000;100000;1000000;1	15-19 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_all__age_15_19__variant_medium	RdBu	-1000000;-100000;-10000;0;10000;100000;1000000;1	15-19 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_all__age_15_64__variant_high	RdBu	-10000000;-1000000;-100000;0;100000;1000000;10000000;1	15-64 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_all__age_15_64__variant_low	RdBu	-10000000;-1000000;-100000;0;100000;1000000;10000000;1	15-64 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_all__age_15_64__variant_medium	RdBu	-10000000;-1000000;-100000;0;100000;1000000;10000000;1	15-64 years
-	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_all__age_18plus__variant_high	RdBu		18+ years
-	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_all__age_18plus__variant_low	RdBu		18+ years
-	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_all__age_18plus__variant_medium	RdBu		18+ years
+	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_all__age_18plus__variant_high	RdBu	-10000000;-3000000;-1000000;-300000;0;300000;1000000;3000000;10000000;1	18+ years
+	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_all__age_18plus__variant_low	RdBu	-10000000;-3000000;-1000000;-300000;0;300000;1000000;3000000;10000000;1	18+ years
+	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_all__age_18plus__variant_medium	RdBu	-10000000;-3000000;-1000000;-300000;0;300000;1000000;3000000;10000000;1	18+ years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_all__age_20_29__variant_high	RdBu	-1000000;-100000;-10000;0;10000;100000;1000000;1	20-29 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_all__age_20_29__variant_low	RdBu	-1000000;-100000;-10000;0;10000;100000;1000000;1	20-29 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_all__age_20_29__variant_medium	RdBu	-1000000;-100000;-10000;0;10000;100000;1000000;1	20-29 years
@@ -1434,18 +1434,18 @@ columns
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_female__age_100plus__variant_high	RdBu	-5000;-500;-50;0;50;500;5000;1	100+ years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_female__age_100plus__variant_low	RdBu	-5000;-500;-50;0;50;500;5000;1	100+ years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_female__age_100plus__variant_medium	RdBu	-5000;-500;-50;0;50;500;5000;1	100+ years
-	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_female__age_15plus__variant_high	RdBu		15+ years
-	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_female__age_15plus__variant_low	RdBu		15+ years
-	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_female__age_15plus__variant_medium	RdBu		15+ years
+	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_female__age_15plus__variant_high	RdBu	-5000000;-1500000;-500000;-150000;0;150000;500000;1500000;5000000;1	15+ years
+	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_female__age_15plus__variant_low	RdBu	-5000000;-1500000;-500000;-150000;0;150000;500000;1500000;5000000;1	15+ years
+	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_female__age_15plus__variant_medium	RdBu	-5000000;-1500000;-500000;-150000;0;150000;500000;1500000;5000000;1	15+ years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_female__age_15_19__variant_high	RdBu	-500000;-50000;-5000;0;5000;50000;500000;1	15-19 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_female__age_15_19__variant_low	RdBu	-500000;-50000;-5000;0;5000;50000;500000;1	15-19 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_female__age_15_19__variant_medium	RdBu	-500000;-50000;-5000;0;5000;50000;500000;1	15-19 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_female__age_15_64__variant_high	RdBu	-5000000;-500000;-50000;0;50000;500000;5000000;1	15-64 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_female__age_15_64__variant_low	RdBu	-5000000;-500000;-50000;0;50000;500000;5000000;1	15-64 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_female__age_15_64__variant_medium	RdBu	-5000000;-500000;-50000;0;50000;500000;5000000;1	15-64 years
-	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_female__age_18plus__variant_high	RdBu		18+ years
-	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_female__age_18plus__variant_low	RdBu		18+ years
-	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_female__age_18plus__variant_medium	RdBu		18+ years
+	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_female__age_18plus__variant_high	RdBu	-5000000;-1500000;-500000;-150000;0;150000;500000;1500000;5000000;1	18+ years
+	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_female__age_18plus__variant_low	RdBu	-5000000;-1500000;-500000;-150000;0;150000;500000;1500000;5000000;1	18+ years
+	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_female__age_18plus__variant_medium	RdBu	-5000000;-1500000;-500000;-150000;0;150000;500000;1500000;5000000;1	18+ years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_female__age_20_29__variant_high	RdBu	-500000;-50000;-5000;0;5000;50000;500000;1	20-29 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_female__age_20_29__variant_low	RdBu	-500000;-50000;-5000;0;5000;50000;500000;1	20-29 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_female__age_20_29__variant_medium	RdBu	-500000;-50000;-5000;0;5000;50000;500000;1	20-29 years
@@ -1500,18 +1500,18 @@ columns
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_100plus__variant_high	RdBu	-5000;-500;-50;0;50;500;5000;1	100+ years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_100plus__variant_low	RdBu	-5000;-500;-50;0;50;500;5000;1	100+ years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_100plus__variant_medium	RdBu	-5000;-500;-50;0;50;500;5000;1	100+ years
-	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_15plus__variant_high	RdBu		15+ years
-	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_15plus__variant_low	RdBu		15+ years
-	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_15plus__variant_medium	RdBu		15+ years
+	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_15plus__variant_high	RdBu	-5000000;-1500000;-500000;-150000;0;150000;500000;1500000;5000000;1	15+ years
+	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_15plus__variant_low	RdBu	-5000000;-1500000;-500000;-150000;0;150000;500000;1500000;5000000;1	15+ years
+	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_15plus__variant_medium	RdBu	-5000000;-1500000;-500000;-150000;0;150000;500000;1500000;5000000;1	15+ years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_15_19__variant_high	RdBu	-500000;-50000;-5000;0;5000;50000;500000;1	15-19 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_15_19__variant_low	RdBu	-500000;-50000;-5000;0;5000;50000;500000;1	15-19 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_15_19__variant_medium	RdBu	-500000;-50000;-5000;0;5000;50000;500000;1	15-19 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_15_64__variant_high	RdBu	-5000000;-500000;-50000;0;50000;500000;5000000;1	15-64 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_15_64__variant_low	RdBu	-5000000;-500000;-50000;0;50000;500000;5000000;1	15-64 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_15_64__variant_medium	RdBu	-5000000;-500000;-50000;0;50000;500000;5000000;1	15-64 years
-	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_18plus__variant_high	RdBu		18+ years
-	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_18plus__variant_low	RdBu		18+ years
-	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_18plus__variant_medium	RdBu		18+ years
+	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_18plus__variant_high	RdBu	-5000000;-1500000;-500000;-150000;0;150000;500000;1500000;5000000;1	18+ years
+	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_18plus__variant_low	RdBu	-5000000;-1500000;-500000;-150000;0;150000;500000;1500000;5000000;1	18+ years
+	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_18plus__variant_medium	RdBu	-5000000;-1500000;-500000;-150000;0;150000;500000;1500000;5000000;1	18+ years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_20_29__variant_high	RdBu	-500000;-50000;-5000;0;5000;50000;500000;1	20-29 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_20_29__variant_low	RdBu	-500000;-50000;-5000;0;5000;50000;500000;1	20-29 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_20_29__variant_medium	RdBu	-500000;-50000;-5000;0;5000;50000;500000;1	20-29 years
@@ -1545,6 +1545,50 @@ columns
 	grapher/un/2024-07-12/un_wpp_full/population#population_density__sex_all__age_all__variant_high	YlOrBr	10;20;50;100;200;500;1000
 	grapher/un/2024-07-12/un_wpp_full/population#population_density__sex_all__age_all__variant_low	YlOrBr	10;20;50;100;200;500;1000
 	grapher/un/2024-07-12/un_wpp_full/population#population_density__sex_all__age_all__variant_medium	YlOrBr	10;20;50;100;200;500;1000
+	grapher/un/2024-07-12/un_wpp/births#births__sex_all__age_10_14__variant_estimates	Greens	500;1000;3000;10000;30000;100000;300000;1
+	grapher/un/2024-07-12/un_wpp/births#births__sex_all__age_15_19__variant_estimates	Greens	1000;3000;10000;30000;100000;300000;1000000;1
+	grapher/un/2024-07-12/un_wpp/births#births__sex_all__age_20_24__variant_estimates	Greens	10000;20000;50000;100000;200000;500000;1000000;2000000;1
+	grapher/un/2024-07-12/un_wpp/births#births__sex_all__age_25_29__variant_estimates	Greens	10000;20000;50000;100000;200000;500000;1000000;2000000;1
+	grapher/un/2024-07-12/un_wpp/births#births__sex_all__age_30_34__variant_estimates	Greens	10000;20000;50000;100000;200000;500000;1000000;2000000;1
+	grapher/un/2024-07-12/un_wpp/births#births__sex_all__age_35_39__variant_estimates	Greens	5000;10000;20000;50000;100000;200000;500000;1000000;1
+	grapher/un/2024-07-12/un_wpp/births#births__sex_all__age_40_44__variant_estimates	Greens	2000;5000;10000;20000;50000;100000;200000;500000;1
+	grapher/un/2024-07-12/un_wpp/births#births__sex_all__age_45_49__variant_estimates	Greens	500;1000;2000;5000;10000;20000;50000;100000;1
+	grapher/un/2024-07-12/un_wpp/births#births__sex_all__age_50_54__variant_estimates	Greens	500;1000;2000;5000;10000;20000;50000;100000;1
+	grapher/un/2024-07-12/un_wpp/births#births__sex_all__age_all__variant_estimates	Greens	10000;30000;100000;300000;1000000;3000000;10000000;1
+	grapher/un/2024-07-12/un_wpp/births#birth_rate__sex_all__age_all__variant_estimates	Greens	5;10;15;20;25;30;35;40;45;1
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_10_14__variant_high	Greens	500;1000;3000;10000;30000;100000;300000;1
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_10_14__variant_low	Greens	500;1000;3000;10000;30000;100000;300000;1
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_10_14__variant_medium	Greens	500;1000;3000;10000;30000;100000;300000;1
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_15_19__variant_high	Greens	1000;3000;10000;30000;100000;300000;1000000;1
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_15_19__variant_low	Greens	1000;3000;10000;30000;100000;300000;1000000;1
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_15_19__variant_medium	Greens	1000;3000;10000;30000;100000;300000;1000000;1
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_20_24__variant_high	Greens	10000;20000;50000;100000;200000;500000;1000000;2000000;1
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_20_24__variant_low	Greens	10000;20000;50000;100000;200000;500000;1000000;2000000;1
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_20_24__variant_medium	Greens	10000;20000;50000;100000;200000;500000;1000000;2000000;1
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_25_29__variant_high	Greens	10000;20000;50000;100000;200000;500000;1000000;2000000;1
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_25_29__variant_low	Greens	10000;20000;50000;100000;200000;500000;1000000;2000000;1
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_25_29__variant_medium	Greens	10000;20000;50000;100000;200000;500000;1000000;2000000;1
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_30_34__variant_high	Greens	10000;20000;50000;100000;200000;500000;1000000;2000000;1
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_30_34__variant_low	Greens	10000;20000;50000;100000;200000;500000;1000000;2000000;1
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_30_34__variant_medium	Greens	10000;20000;50000;100000;200000;500000;1000000;2000000;1
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_35_39__variant_high	Greens	5000;10000;20000;50000;100000;200000;500000;1000000;1
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_35_39__variant_low	Greens	5000;10000;20000;50000;100000;200000;500000;1000000;1
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_35_39__variant_medium	Greens	5000;10000;20000;50000;100000;200000;500000;1000000;1
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_40_44__variant_high	Greens	2000;5000;10000;20000;50000;100000;200000;500000;1
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_40_44__variant_low	Greens	2000;5000;10000;20000;50000;100000;200000;500000;1
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_40_44__variant_medium	Greens	2000;5000;10000;20000;50000;100000;200000;500000;1
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_45_49__variant_high	Greens	500;1000;2000;5000;10000;20000;50000;100000;1
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_45_49__variant_low	Greens	500;1000;2000;5000;10000;20000;50000;100000;1
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_45_49__variant_medium	Greens	500;1000;2000;5000;10000;20000;50000;100000;1
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_50_54__variant_high	Greens	500;1000;2000;5000;10000;20000;50000;100000;1
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_50_54__variant_low	Greens	500;1000;2000;5000;10000;20000;50000;100000;1
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_50_54__variant_medium	Greens	500;1000;2000;5000;10000;20000;50000;100000;1
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_all__variant_high	Greens	10000;30000;100000;300000;1000000;3000000;10000000;1
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_all__variant_low	Greens	10000;30000;100000;300000;1000000;3000000;10000000;1
+	grapher/un/2024-07-12/un_wpp_full/births#births__sex_all__age_all__variant_medium	Greens	10000;30000;100000;300000;1000000;3000000;10000000;1
+	grapher/un/2024-07-12/un_wpp_full/births#birth_rate__sex_all__age_all__variant_high	Greens	5;10;15;20;25;30;35;40;45;1
+	grapher/un/2024-07-12/un_wpp_full/births#birth_rate__sex_all__age_all__variant_low	Greens	5;10;15;20;25;30;35;40;45;1
+	grapher/un/2024-07-12/un_wpp_full/births#birth_rate__sex_all__age_all__variant_medium	Greens	5;10;15;20;25;30;35;40;45;1
 	grapher/un/2024-07-12/un_wpp/fertility_rate#fertility_rate__sex_all__age_10_14__variant_estimates	Blues	.2;.5;1;2;5;10;1
 	grapher/un/2024-07-12/un_wpp/fertility_rate#fertility_rate__sex_all__age_15_19__variant_estimates	Blues	1;2;5;10;20;50;100;1
 	grapher/un/2024-07-12/un_wpp/fertility_rate#fertility_rate__sex_all__age_20_24__variant_estimates	Blues	25;50;75;100;125;150;175;200;1
