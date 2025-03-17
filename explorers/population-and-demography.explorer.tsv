@@ -1497,14 +1497,14 @@ columns
 	grapher/un/2024-07-12/un_wpp_full/population#population_density__sex_all__age_all__variant_high	YlOrBr	10;20;50;100;200;500;1000
 	grapher/un/2024-07-12/un_wpp_full/population#population_density__sex_all__age_all__variant_low	YlOrBr	10;20;50;100;200;500;1000
 	grapher/un/2024-07-12/un_wpp_full/population#population_density__sex_all__age_all__variant_medium	YlOrBr	10;20;50;100;200;500;1000
-	grapher/un/2024-07-12/un_wpp/growth_rate#growth_rate__sex_all__age_all__variant_estimates				PercentChangeOverTime
-	grapher/un/2024-07-12/un_wpp_full/growth_rate#growth_rate__sex_all__age_all__variant_high				PercentChangeOverTime
-	grapher/un/2024-07-12/un_wpp_full/growth_rate#growth_rate__sex_all__age_all__variant_low				PercentChangeOverTime
-	grapher/un/2024-07-12/un_wpp_full/growth_rate#growth_rate__sex_all__age_all__variant_medium				PercentChangeOverTime
-	grapher/un/2024-07-12/un_wpp/natural_change_rate#natural_change_rate__sex_all__age_all__variant_estimates				PercentChangeOverTime
-	grapher/un/2024-07-12/un_wpp_full/natural_change_rate#natural_change_rate__sex_all__age_all__variant_high				PercentChangeOverTime
-	grapher/un/2024-07-12/un_wpp_full/natural_change_rate#natural_change_rate__sex_all__age_all__variant_low				PercentChangeOverTime
-	grapher/un/2024-07-12/un_wpp_full/natural_change_rate#natural_change_rate__sex_all__age_all__variant_medium				PercentChangeOverTime
+	grapher/un/2024-07-12/un_wpp/growth_rate#growth_rate__sex_all__age_all__variant_estimates	RdBu	-5;-2;-1;-0.5;0;0.5;1;2;5;1		PercentChangeOverTime
+	grapher/un/2024-07-12/un_wpp_full/growth_rate#growth_rate__sex_all__age_all__variant_high	RdBu	-5;-2;-1;-0.5;0;0.5;1;2;5;1		PercentChangeOverTime
+	grapher/un/2024-07-12/un_wpp_full/growth_rate#growth_rate__sex_all__age_all__variant_low	RdBu	-5;-2;-1;-0.5;0;0.5;1;2;5;1		PercentChangeOverTime
+	grapher/un/2024-07-12/un_wpp_full/growth_rate#growth_rate__sex_all__age_all__variant_medium	RdBu	-5;-2;-1;-0.5;0;0.5;1;2;5;1		PercentChangeOverTime
+	grapher/un/2024-07-12/un_wpp/natural_change_rate#natural_change_rate__sex_all__age_all__variant_estimates	RdBu	-5;-2;-1;-0.5;0;0.5;1;2;5;1		PercentChangeOverTime
+	grapher/un/2024-07-12/un_wpp_full/natural_change_rate#natural_change_rate__sex_all__age_all__variant_high	RdBu	-5;-2;-1;-0.5;0;0.5;1;2;5;1		PercentChangeOverTime
+	grapher/un/2024-07-12/un_wpp_full/natural_change_rate#natural_change_rate__sex_all__age_all__variant_low	RdBu	-5;-2;-1;-0.5;0;0.5;1;2;5;1		PercentChangeOverTime
+	grapher/un/2024-07-12/un_wpp_full/natural_change_rate#natural_change_rate__sex_all__age_all__variant_medium	RdBu	-5;-2;-1;-0.5;0;0.5;1;2;5;1		PercentChangeOverTime
 	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_5_14__variant_estimates			5-14 years
 	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_15_24__variant_estimates			15-24 years
 	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_25_64__variant_estimates			25-64 years
