@@ -1012,7 +1012,7 @@ graphers
 	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_100plus__variant_high	Sex ratio	Both sexes	At age 100 and over	High	Sex ratio at age 100 and over
 
 columns
-	catalogPath	colorScaleScheme	colorScaleNumericBins	name	type
+	catalogPath	colorScaleScheme	colorScaleNumericBins	name	colorScaleNumericMinValue	type
 	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_0__variant_estimates	PuBu	100000;200000;500000;1000000;2000000;5000000;10000000;1	0 years
 	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_0_14__variant_estimates	PuBu	500000;1000000;2000000;5000000;10000000;20000000;50000000;100000000;200000000;1	0-14 years
 	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_0_24__variant_estimates	PuBu	1000000;2000000;5000000;10000000;20000000;50000000;100000000;200000000;1	0-24 years
@@ -1545,6 +1545,42 @@ columns
 	grapher/un/2024-07-12/un_wpp_full/population#population_density__sex_all__age_all__variant_high	YlOrBr	10;20;50;100;200;500;1000
 	grapher/un/2024-07-12/un_wpp_full/population#population_density__sex_all__age_all__variant_low	YlOrBr	10;20;50;100;200;500;1000
 	grapher/un/2024-07-12/un_wpp_full/population#population_density__sex_all__age_all__variant_medium	YlOrBr	10;20;50;100;200;500;1000
+	grapher/un/2024-07-12/un_wpp/dependency_ratio#dependency_ratio__sex_all__age_old__variant_estimates	GnBu	5;10;15;20;25;30;35;40;1		0.5
+	grapher/un/2024-07-12/un_wpp/dependency_ratio#dependency_ratio__sex_all__age_total__variant_estimates	GnBu	40;50;60;70;80;90;100;1		35.0
+	grapher/un/2024-07-12/un_wpp/dependency_ratio#dependency_ratio__sex_all__age_youth__variant_estimates	GnBu	20;30;40;50;60;70;80;90;100;1		19.0
+	grapher/un/2024-07-12/un_wpp/dependency_ratio#dependency_ratio__sex_female__age_old__variant_estimates	GnBu	5;10;15;20;25;30;35;40;1		0.5
+	grapher/un/2024-07-12/un_wpp/dependency_ratio#dependency_ratio__sex_female__age_total__variant_estimates	GnBu	40;50;60;70;80;90;100;1		35.0
+	grapher/un/2024-07-12/un_wpp/dependency_ratio#dependency_ratio__sex_female__age_youth__variant_estimates	GnBu	20;30;40;50;60;70;80;90;100;1		19.0
+	grapher/un/2024-07-12/un_wpp/dependency_ratio#dependency_ratio__sex_male__age_old__variant_estimates	GnBu	5;10;15;20;25;30;35;40;1		0.5
+	grapher/un/2024-07-12/un_wpp/dependency_ratio#dependency_ratio__sex_male__age_total__variant_estimates	GnBu	40;50;60;70;80;90;100;1		35.0
+	grapher/un/2024-07-12/un_wpp/dependency_ratio#dependency_ratio__sex_male__age_youth__variant_estimates	GnBu	20;30;40;50;60;70;80;90;100;1		19.0
+	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_all__age_old__variant_high	GnBu	5;10;15;20;25;30;35;40;1		0.5
+	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_all__age_old__variant_low	GnBu	5;10;15;20;25;30;35;40;1		0.5
+	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_all__age_old__variant_medium	GnBu	5;10;15;20;25;30;35;40;1		0.5
+	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_all__age_total__variant_high	GnBu	40;50;60;70;80;90;100;1		35.0
+	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_all__age_total__variant_low	GnBu	40;50;60;70;80;90;100;1		35.0
+	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_all__age_total__variant_medium	GnBu	40;50;60;70;80;90;100;1		35.0
+	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_all__age_youth__variant_high	GnBu	20;30;40;50;60;70;80;90;100;1		19.0
+	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_all__age_youth__variant_low	GnBu	20;30;40;50;60;70;80;90;100;1		19.0
+	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_all__age_youth__variant_medium	GnBu	20;30;40;50;60;70;80;90;100;1		19.0
+	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_female__age_old__variant_high	GnBu	5;10;15;20;25;30;35;40;1		0.5
+	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_female__age_old__variant_low	GnBu	5;10;15;20;25;30;35;40;1		0.5
+	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_female__age_old__variant_medium	GnBu	5;10;15;20;25;30;35;40;1		0.5
+	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_female__age_total__variant_high	GnBu	40;50;60;70;80;90;100;1		35.0
+	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_female__age_total__variant_low	GnBu	40;50;60;70;80;90;100;1		35.0
+	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_female__age_total__variant_medium	GnBu	40;50;60;70;80;90;100;1		35.0
+	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_female__age_youth__variant_high	GnBu	20;30;40;50;60;70;80;90;100;1		19.0
+	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_female__age_youth__variant_low	GnBu	20;30;40;50;60;70;80;90;100;1		19.0
+	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_female__age_youth__variant_medium	GnBu	20;30;40;50;60;70;80;90;100;1		19.0
+	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_male__age_old__variant_high	GnBu	5;10;15;20;25;30;35;40;1		0.5
+	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_male__age_old__variant_low	GnBu	5;10;15;20;25;30;35;40;1		0.5
+	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_male__age_old__variant_medium	GnBu	5;10;15;20;25;30;35;40;1		0.5
+	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_male__age_total__variant_high	GnBu	40;50;60;70;80;90;100;1		35.0
+	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_male__age_total__variant_low	GnBu	40;50;60;70;80;90;100;1		35.0
+	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_male__age_total__variant_medium	GnBu	40;50;60;70;80;90;100;1		35.0
+	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_male__age_youth__variant_high	GnBu	20;30;40;50;60;70;80;90;100;1		19.0
+	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_male__age_youth__variant_low	GnBu	20;30;40;50;60;70;80;90;100;1		19.0
+	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_male__age_youth__variant_medium	GnBu	20;30;40;50;60;70;80;90;100;1		19.0
 	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_all__age_0__variant_estimates	OrRd	300;1000;3000;10000;30000;100000;300000;1
 	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_all__age_0_4__variant_estimates	OrRd	1000;3000;10000;30000;100000;300000;1000000;1
 	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_all__age_10_14__variant_estimates	OrRd	1000;3000;10000;30000;100000;300000;1
@@ -1773,6 +1809,10 @@ columns
 	grapher/un/2024-07-12/un_wpp_full/births#birth_rate__sex_all__age_all__variant_high	Greens	5;10;15;20;25;30;35;40;45;1
 	grapher/un/2024-07-12/un_wpp_full/births#birth_rate__sex_all__age_all__variant_low	Greens	5;10;15;20;25;30;35;40;45;1
 	grapher/un/2024-07-12/un_wpp_full/births#birth_rate__sex_all__age_all__variant_medium	Greens	5;10;15;20;25;30;35;40;45;1
+	grapher/un/2024-07-12/un_wpp/median_age#median_age__sex_all__age_all__variant_estimates	GnBu	15;20;25;30;35;40;45;1		14.9
+	grapher/un/2024-07-12/un_wpp_full/median_age#median_age__sex_all__age_all__variant_high	GnBu	15;20;25;30;35;40;45;1		14.9
+	grapher/un/2024-07-12/un_wpp_full/median_age#median_age__sex_all__age_all__variant_low	GnBu	15;20;25;30;35;40;45;1		14.9
+	grapher/un/2024-07-12/un_wpp_full/median_age#median_age__sex_all__age_all__variant_medium	GnBu	15;20;25;30;35;40;45;1		14.9
 	grapher/un/2024-07-12/un_wpp/life_expectancy#life_expectancy__sex_all__age_0__variant_estimates	YlGn	50;55;60;65;70;75;80;85;1
 	grapher/un/2024-07-12/un_wpp/life_expectancy#life_expectancy__sex_all__age_15__variant_estimates	YlGn	60;65;70;75;80;85;1
 	grapher/un/2024-07-12/un_wpp/life_expectancy#life_expectancy__sex_all__age_65__variant_estimates	YlGn	75;77.5;80;82.5;85;87.5;1
@@ -1861,14 +1901,14 @@ columns
 	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_all__variant_high	Blues	1;2;3;4;5;6;1
 	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_all__variant_low	Blues	1;2;3;4;5;6;1
 	grapher/un/2024-07-12/un_wpp_full/fertility_rate#fertility_rate__sex_all__age_all__variant_medium	Blues	1;2;3;4;5;6;1
-	grapher/un/2024-07-12/un_wpp/growth_rate#growth_rate__sex_all__age_all__variant_estimates	RdBu	-5;-2;-1;-0.5;0;0.5;1;2;5;1		PercentChangeOverTime
-	grapher/un/2024-07-12/un_wpp_full/growth_rate#growth_rate__sex_all__age_all__variant_high	RdBu	-5;-2;-1;-0.5;0;0.5;1;2;5;1		PercentChangeOverTime
-	grapher/un/2024-07-12/un_wpp_full/growth_rate#growth_rate__sex_all__age_all__variant_low	RdBu	-5;-2;-1;-0.5;0;0.5;1;2;5;1		PercentChangeOverTime
-	grapher/un/2024-07-12/un_wpp_full/growth_rate#growth_rate__sex_all__age_all__variant_medium	RdBu	-5;-2;-1;-0.5;0;0.5;1;2;5;1		PercentChangeOverTime
-	grapher/un/2024-07-12/un_wpp/natural_change_rate#natural_change_rate__sex_all__age_all__variant_estimates	RdBu	-5;-2;-1;-0.5;0;0.5;1;2;5;1		PercentChangeOverTime
-	grapher/un/2024-07-12/un_wpp_full/natural_change_rate#natural_change_rate__sex_all__age_all__variant_high	RdBu	-5;-2;-1;-0.5;0;0.5;1;2;5;1		PercentChangeOverTime
-	grapher/un/2024-07-12/un_wpp_full/natural_change_rate#natural_change_rate__sex_all__age_all__variant_low	RdBu	-5;-2;-1;-0.5;0;0.5;1;2;5;1		PercentChangeOverTime
-	grapher/un/2024-07-12/un_wpp_full/natural_change_rate#natural_change_rate__sex_all__age_all__variant_medium	RdBu	-5;-2;-1;-0.5;0;0.5;1;2;5;1		PercentChangeOverTime
+	grapher/un/2024-07-12/un_wpp/growth_rate#growth_rate__sex_all__age_all__variant_estimates	RdBu	-5;-2;-1;-0.5;0;0.5;1;2;5;1			PercentChangeOverTime
+	grapher/un/2024-07-12/un_wpp_full/growth_rate#growth_rate__sex_all__age_all__variant_high	RdBu	-5;-2;-1;-0.5;0;0.5;1;2;5;1			PercentChangeOverTime
+	grapher/un/2024-07-12/un_wpp_full/growth_rate#growth_rate__sex_all__age_all__variant_low	RdBu	-5;-2;-1;-0.5;0;0.5;1;2;5;1			PercentChangeOverTime
+	grapher/un/2024-07-12/un_wpp_full/growth_rate#growth_rate__sex_all__age_all__variant_medium	RdBu	-5;-2;-1;-0.5;0;0.5;1;2;5;1			PercentChangeOverTime
+	grapher/un/2024-07-12/un_wpp/natural_change_rate#natural_change_rate__sex_all__age_all__variant_estimates	RdBu	-5;-2;-1;-0.5;0;0.5;1;2;5;1			PercentChangeOverTime
+	grapher/un/2024-07-12/un_wpp_full/natural_change_rate#natural_change_rate__sex_all__age_all__variant_high	RdBu	-5;-2;-1;-0.5;0;0.5;1;2;5;1			PercentChangeOverTime
+	grapher/un/2024-07-12/un_wpp_full/natural_change_rate#natural_change_rate__sex_all__age_all__variant_low	RdBu	-5;-2;-1;-0.5;0;0.5;1;2;5;1			PercentChangeOverTime
+	grapher/un/2024-07-12/un_wpp_full/natural_change_rate#natural_change_rate__sex_all__age_all__variant_medium	RdBu	-5;-2;-1;-0.5;0;0.5;1;2;5;1			PercentChangeOverTime
 	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_5_14__variant_estimates			5-14 years
 	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_15_24__variant_estimates			15-24 years
 	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_25_64__variant_estimates			25-64 years
