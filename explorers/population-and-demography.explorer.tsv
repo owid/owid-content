@@ -1581,62 +1581,66 @@ columns
 	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_male__age_youth__variant_high	GnBu	20;30;40;50;60;70;80;90;100;1		19.0
 	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_male__age_youth__variant_low	GnBu	20;30;40;50;60;70;80;90;100;1		19.0
 	grapher/un/2024-07-12/un_wpp_full/dependency_ratio#dependency_ratio__sex_male__age_youth__variant_medium	GnBu	20;30;40;50;60;70;80;90;100;1		19.0
-	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_0__variant_estimates	Blues	102;103;104;105;106;107;108;109
-	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_10__variant_estimates	Blues	100;101;102;103;104;105;106;107;108;1
-	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_100plus__variant_estimates	Blues	10;20;30;40;50;60;70;80;1
-	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_15__variant_estimates	Blues	100;101;102;103;104;105;106;107;108;1
-	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_20__variant_estimates	Blues	100;101;102;103;104;105;106;107;108;1
-	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_30__variant_estimates	Blues	98;99;100;101;102;103;104;105;106;1
-	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_40__variant_estimates	Blues	90;95;98;99;100;101;102;105;110;1
-	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_5__variant_estimates	Blues	100;101;102;103;104;105;106;107;108;1
-	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_50__variant_estimates	Blues	80;85;90;95;100;105;110;115;120;1
-	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_60__variant_estimates	Blues	80;85;90;95;100;105;110;115;120;1
-	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_70__variant_estimates	Blues	70;75;80;85;90;95;100;1
-	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_80__variant_estimates	Blues	60;65;70;75;80;85;90;1
-	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_90__variant_estimates	Blues	30;40;50;60;70;80;1
-	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_all__variant_estimates	Blues	90;95;100;105;110;115;1
-	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_0__variant_high	Blues	102;103;104;105;106;107;108;109
-	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_0__variant_low	Blues	102;103;104;105;106;107;108;109
-	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_0__variant_medium	Blues	102;103;104;105;106;107;108;109
-	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_10__variant_high	Blues	100;101;102;103;104;105;106;107;108;1
-	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_10__variant_low	Blues	100;101;102;103;104;105;106;107;108;1
-	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_10__variant_medium	Blues	100;101;102;103;104;105;106;107;108;1
-	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_100plus__variant_high	Blues	10;20;30;40;50;60;70;80;1
-	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_100plus__variant_low	Blues	10;20;30;40;50;60;70;80;1
-	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_100plus__variant_medium	Blues	10;20;30;40;50;60;70;80;1
-	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_15__variant_high	Blues	100;101;102;103;104;105;106;107;108;1
-	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_15__variant_low	Blues	100;101;102;103;104;105;106;107;108;1
-	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_15__variant_medium	Blues	100;101;102;103;104;105;106;107;108;1
-	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_20__variant_high	Blues	100;101;102;103;104;105;106;107;108;1
-	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_20__variant_low	Blues	100;101;102;103;104;105;106;107;108;1
-	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_20__variant_medium	Blues	100;101;102;103;104;105;106;107;108;1
-	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_30__variant_high	Blues	98;99;100;101;102;103;104;105;106;1
-	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_30__variant_low	Blues	98;99;100;101;102;103;104;105;106;1
-	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_30__variant_medium	Blues	98;99;100;101;102;103;104;105;106;1
-	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_40__variant_high	Blues	90;95;98;99;100;101;102;105;110;1
-	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_40__variant_low	Blues	90;95;98;99;100;101;102;105;110;1
-	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_40__variant_medium	Blues	90;95;98;99;100;101;102;105;110;1
-	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_5__variant_high	Blues	100;101;102;103;104;105;106;107;108;1
-	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_5__variant_low	Blues	100;101;102;103;104;105;106;107;108;1
-	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_5__variant_medium	Blues	100;101;102;103;104;105;106;107;108;1
-	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_50__variant_high	Blues	80;85;90;95;100;105;110;115;120;1
-	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_50__variant_low	Blues	80;85;90;95;100;105;110;115;120;1
-	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_50__variant_medium	Blues	80;85;90;95;100;105;110;115;120;1
-	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_60__variant_high	Blues	80;85;90;95;100;105;110;115;120;1
-	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_60__variant_low	Blues	80;85;90;95;100;105;110;115;120;1
-	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_60__variant_medium	Blues	80;85;90;95;100;105;110;115;120;1
-	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_70__variant_high	Blues	70;75;80;85;90;95;100;1
-	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_70__variant_low	Blues	70;75;80;85;90;95;100;1
-	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_70__variant_medium	Blues	70;75;80;85;90;95;100;1
-	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_80__variant_high	Blues	60;65;70;75;80;85;90;1
-	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_80__variant_low	Blues	60;65;70;75;80;85;90;1
-	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_80__variant_medium	Blues	60;65;70;75;80;85;90;1
-	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_90__variant_high	Blues	30;40;50;60;70;80;1
-	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_90__variant_low	Blues	30;40;50;60;70;80;1
-	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_90__variant_medium	Blues	30;40;50;60;70;80;1
-	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_all__variant_high	Blues	90;95;100;105;110;115;1
-	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_all__variant_low	Blues	90;95;100;105;110;115;1
-	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_all__variant_medium	Blues	90;95;100;105;110;115;1
+	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_0__variant_estimates	Blues	102;103;104;105;106;107;108;109		101.0
+	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_10__variant_estimates	Blues	100;101;102;103;104;105;106;107;108;1		99.0
+	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_100plus__variant_estimates	Blues	10;20;30;40;50;60;70;80;1		5.0
+	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_15__variant_estimates	Blues	100;101;102;103;104;105;106;107;108;1		99.0
+	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_20__variant_estimates	Blues	100;101;102;103;104;105;106;107;108;1		99.0
+	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_30__variant_estimates	Blues	98;99;100;101;102;103;104;105;106;1		99.0
+	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_40__variant_estimates	Blues	90;95;98;99;100;101;102;105;110;1		85.0
+	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_5__variant_estimates	Blues	100;101;102;103;104;105;106;107;108;1		99.0
+	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_50__variant_estimates	Blues	80;85;90;95;100;105;110;115;120;1		75.0
+	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_60__variant_estimates	Blues	80;85;90;95;100;105;110;115;120;1		75.0
+	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_70__variant_estimates	Blues	70;75;80;85;90;95;100;1		60.0
+	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_80__variant_estimates	Blues	60;65;70;75;80;85;90;1		50.0
+	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_90__variant_estimates	Blues	30;40;50;60;70;80;1		20.0
+	grapher/un/2024-07-12/un_wpp/sex_ratio#sex_ratio__sex_all__age_all__variant_estimates	Blues	90;95;100;105;110;115;1		85.0
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_0__variant_high	Blues	102;103;104;105;106;107;108;109		101.0
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_0__variant_low	Blues	102;103;104;105;106;107;108;109		101.0
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_0__variant_medium	Blues	102;103;104;105;106;107;108;109		101.0
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_10__variant_high	Blues	100;101;102;103;104;105;106;107;108;1		99.0
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_10__variant_low	Blues	100;101;102;103;104;105;106;107;108;1		99.0
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_10__variant_medium	Blues	100;101;102;103;104;105;106;107;108;1		99.0
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_100plus__variant_high	Blues	10;20;30;40;50;60;70;80;1		5.0
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_100plus__variant_low	Blues	10;20;30;40;50;60;70;80;1		5.0
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_100plus__variant_medium	Blues	10;20;30;40;50;60;70;80;1		5.0
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_15__variant_high	Blues	100;101;102;103;104;105;106;107;108;1		99.0
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_15__variant_low	Blues	100;101;102;103;104;105;106;107;108;1		99.0
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_15__variant_medium	Blues	100;101;102;103;104;105;106;107;108;1		99.0
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_20__variant_high	Blues	100;101;102;103;104;105;106;107;108;1		99.0
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_20__variant_low	Blues	100;101;102;103;104;105;106;107;108;1		99.0
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_20__variant_medium	Blues	100;101;102;103;104;105;106;107;108;1		99.0
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_30__variant_high	Blues	98;99;100;101;102;103;104;105;106;1		99.0
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_30__variant_low	Blues	98;99;100;101;102;103;104;105;106;1		99.0
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_30__variant_medium	Blues	98;99;100;101;102;103;104;105;106;1		99.0
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_40__variant_high	Blues	90;95;98;99;100;101;102;105;110;1		85.0
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_40__variant_low	Blues	90;95;98;99;100;101;102;105;110;1		85.0
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_40__variant_medium	Blues	90;95;98;99;100;101;102;105;110;1		85.0
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_5__variant_high	Blues	100;101;102;103;104;105;106;107;108;1		99.0
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_5__variant_low	Blues	100;101;102;103;104;105;106;107;108;1		99.0
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_5__variant_medium	Blues	100;101;102;103;104;105;106;107;108;1		99.0
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_50__variant_high	Blues	80;85;90;95;100;105;110;115;120;1		75.0
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_50__variant_low	Blues	80;85;90;95;100;105;110;115;120;1		75.0
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_50__variant_medium	Blues	80;85;90;95;100;105;110;115;120;1		75.0
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_60__variant_high	Blues	80;85;90;95;100;105;110;115;120;1		75.0
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_60__variant_low	Blues	80;85;90;95;100;105;110;115;120;1		75.0
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_60__variant_medium	Blues	80;85;90;95;100;105;110;115;120;1		75.0
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_70__variant_high	Blues	70;75;80;85;90;95;100;1		60.0
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_70__variant_low	Blues	70;75;80;85;90;95;100;1		60.0
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_70__variant_medium	Blues	70;75;80;85;90;95;100;1		60.0
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_80__variant_high	Blues	60;65;70;75;80;85;90;1		50.0
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_80__variant_low	Blues	60;65;70;75;80;85;90;1		50.0
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_80__variant_medium	Blues	60;65;70;75;80;85;90;1		50.0
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_90__variant_high	Blues	30;40;50;60;70;80;1		20.0
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_90__variant_low	Blues	30;40;50;60;70;80;1		20.0
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_90__variant_medium	Blues	30;40;50;60;70;80;1		20.0
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_all__variant_high	Blues	90;95;100;105;110;115;1		85.0
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_all__variant_low	Blues	90;95;100;105;110;115;1		85.0
+	grapher/un/2024-07-12/un_wpp_full/sex_ratio#sex_ratio__sex_all__age_all__variant_medium	Blues	90;95;100;105;110;115;1		85.0
+	grapher/un/2024-07-12/un_wpp/migration#net_migration__sex_all__age_all__variant_estimates	RdBu	-100000;-50000;-20000;0;20000;50000;100000;250000
+	grapher/un/2024-07-12/un_wpp/migration#net_migration_rate__sex_all__age_all__variant_estimates	RdBu	-30;-10;-3;-1;0;1;3;10;30;31
+	grapher/un/2024-07-12/un_wpp_full/migration#net_migration__sex_all__age_all__variant_medium	RdBu	-100000;-50000;-20000;0;20000;50000;100000;250000
+	grapher/un/2024-07-12/un_wpp_full/migration#net_migration_rate__sex_all__age_all__variant_medium	RdBu	-30;-10;-3;-1;0;1;3;10;30;31
 	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_all__age_0__variant_estimates	OrRd	300;1000;3000;10000;30000;100000;300000;1
 	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_all__age_0_4__variant_estimates	OrRd	1000;3000;10000;30000;100000;300000;1000000;1
 	grapher/un/2024-07-12/un_wpp/deaths#deaths__sex_all__age_10_14__variant_estimates	OrRd	1000;3000;10000;30000;100000;300000;1
