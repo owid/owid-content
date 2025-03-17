@@ -1773,6 +1773,54 @@ columns
 	grapher/un/2024-07-12/un_wpp_full/births#birth_rate__sex_all__age_all__variant_high	Greens	5;10;15;20;25;30;35;40;45;1
 	grapher/un/2024-07-12/un_wpp_full/births#birth_rate__sex_all__age_all__variant_low	Greens	5;10;15;20;25;30;35;40;45;1
 	grapher/un/2024-07-12/un_wpp_full/births#birth_rate__sex_all__age_all__variant_medium	Greens	5;10;15;20;25;30;35;40;45;1
+	grapher/un/2024-07-12/un_wpp/life_expectancy#life_expectancy__sex_all__age_0__variant_estimates	YlGn	50;55;60;65;70;75;80;85;1
+	grapher/un/2024-07-12/un_wpp/life_expectancy#life_expectancy__sex_all__age_15__variant_estimates	YlGn	60;65;70;75;80;85;1
+	grapher/un/2024-07-12/un_wpp/life_expectancy#life_expectancy__sex_all__age_65__variant_estimates	YlGn	75;77.5;80;82.5;85;87.5;1
+	grapher/un/2024-07-12/un_wpp/life_expectancy#life_expectancy__sex_all__age_80__variant_estimates	YlGn	84;86;88;90;92;1
+	grapher/un/2024-07-12/un_wpp/life_expectancy#life_expectancy__sex_female__age_0__variant_estimates	YlGn	50;55;60;65;70;75;80;85;1
+	grapher/un/2024-07-12/un_wpp/life_expectancy#life_expectancy__sex_female__age_15__variant_estimates	YlGn	60;65;70;75;80;85;1
+	grapher/un/2024-07-12/un_wpp/life_expectancy#life_expectancy__sex_female__age_65__variant_estimates	YlGn	75;77.5;80;82.5;85;87.5;1
+	grapher/un/2024-07-12/un_wpp/life_expectancy#life_expectancy__sex_female__age_80__variant_estimates	YlGn	84;86;88;90;92;1
+	grapher/un/2024-07-12/un_wpp/life_expectancy#life_expectancy__sex_male__age_0__variant_estimates	YlGn	50;55;60;65;70;75;80;85;1
+	grapher/un/2024-07-12/un_wpp/life_expectancy#life_expectancy__sex_male__age_15__variant_estimates	YlGn	60;65;70;75;80;85;1
+	grapher/un/2024-07-12/un_wpp/life_expectancy#life_expectancy__sex_male__age_65__variant_estimates	YlGn	75;77.5;80;82.5;85;87.5;1
+	grapher/un/2024-07-12/un_wpp/life_expectancy#life_expectancy__sex_male__age_80__variant_estimates	YlGn	84;86;88;90;92;1
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_all__age_0__variant_high	YlGn	50;55;60;65;70;75;80;85;1
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_all__age_0__variant_low	YlGn	50;55;60;65;70;75;80;85;1
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_all__age_0__variant_medium	YlGn	50;55;60;65;70;75;80;85;1
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_all__age_15__variant_high	YlGn	60;65;70;75;80;85;1
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_all__age_15__variant_low	YlGn	60;65;70;75;80;85;1
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_all__age_15__variant_medium	YlGn	60;65;70;75;80;85;1
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_all__age_65__variant_high	YlGn	75;77.5;80;82.5;85;87.5;1
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_all__age_65__variant_low	YlGn	75;77.5;80;82.5;85;87.5;1
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_all__age_65__variant_medium	YlGn	75;77.5;80;82.5;85;87.5;1
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_all__age_80__variant_high	YlGn	84;86;88;90;92;1
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_all__age_80__variant_low	YlGn	84;86;88;90;92;1
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_all__age_80__variant_medium	YlGn	84;86;88;90;92;1
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_female__age_0__variant_high	YlGn	50;55;60;65;70;75;80;85;1
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_female__age_0__variant_low	YlGn	50;55;60;65;70;75;80;85;1
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_female__age_0__variant_medium	YlGn	50;55;60;65;70;75;80;85;1
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_female__age_15__variant_high	YlGn	60;65;70;75;80;85;1
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_female__age_15__variant_low	YlGn	60;65;70;75;80;85;1
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_female__age_15__variant_medium	YlGn	60;65;70;75;80;85;1
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_female__age_65__variant_high	YlGn	75;77.5;80;82.5;85;87.5;1
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_female__age_65__variant_low	YlGn	75;77.5;80;82.5;85;87.5;1
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_female__age_65__variant_medium	YlGn	75;77.5;80;82.5;85;87.5;1
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_female__age_80__variant_high	YlGn	84;86;88;90;92;1
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_female__age_80__variant_low	YlGn	84;86;88;90;92;1
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_female__age_80__variant_medium	YlGn	84;86;88;90;92;1
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_male__age_0__variant_high	YlGn	50;55;60;65;70;75;80;85;1
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_male__age_0__variant_low	YlGn	50;55;60;65;70;75;80;85;1
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_male__age_0__variant_medium	YlGn	50;55;60;65;70;75;80;85;1
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_male__age_15__variant_high	YlGn	60;65;70;75;80;85;1
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_male__age_15__variant_low	YlGn	60;65;70;75;80;85;1
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_male__age_15__variant_medium	YlGn	60;65;70;75;80;85;1
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_male__age_65__variant_high	YlGn	75;77.5;80;82.5;85;87.5;1
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_male__age_65__variant_low	YlGn	75;77.5;80;82.5;85;87.5;1
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_male__age_65__variant_medium	YlGn	75;77.5;80;82.5;85;87.5;1
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_male__age_80__variant_high	YlGn	84;86;88;90;92;1
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_male__age_80__variant_low	YlGn	84;86;88;90;92;1
+	grapher/un/2024-07-12/un_wpp_full/life_expectancy#life_expectancy__sex_male__age_80__variant_medium	YlGn	84;86;88;90;92;1
 	grapher/un/2024-07-12/un_wpp/fertility_rate#fertility_rate__sex_all__age_10_14__variant_estimates	Blues	.2;.5;1;2;5;10;1
 	grapher/un/2024-07-12/un_wpp/fertility_rate#fertility_rate__sex_all__age_15_19__variant_estimates	Blues	1;2;5;10;20;50;100;1
 	grapher/un/2024-07-12/un_wpp/fertility_rate#fertility_rate__sex_all__age_20_24__variant_estimates	Blues	25;50;75;100;125;150;175;200;1
