@@ -42,10 +42,14 @@ graphers
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_18plus__variant_low	Population	Both sexes	18+ years	Low	Population older than 18 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_18plus__variant_medium	Population	Both sexes	18+ years	Medium	Population older than 18 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_18plus__variant_high	Population	Both sexes	18+ years	High	Population older than 18 years
-	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_1__variant_estimates	Population	Both sexes	1 year	None	Population at age 1 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_1__variant_low	Population	Both sexes	1 year	Low	Population at age 1 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_1__variant_medium	Population	Both sexes	1 year	Medium	Population at age 1 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_1__variant_high	Population	Both sexes	1 year	High	Population at age 1 years
+	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_1__variant_estimates	Population	Both sexes	At age 1	None	Population at age 1 years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_1__variant_low	Population	Both sexes	At age 1	Low	Population at age 1 years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_1__variant_medium	Population	Both sexes	At age 1	Medium	Population at age 1 years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_1__variant_high	Population	Both sexes	At age 1	High	Population at age 1 years
+	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_1_4__variant_estimates	Population	Both sexes	1–4 years	None	Population aged 1 to 4 years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_1_4__variant_low	Population	Both sexes	1–4 years	Low	Population aged 1 to 4 years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_1_4__variant_medium	Population	Both sexes	1–4 years	Medium	Population aged 1 to 4 years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_1_4__variant_high	Population	Both sexes	1–4 years	High	Population aged 1 to 4 years
 	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_5_9__variant_estimates	Population	Both sexes	5–9 years	None	Population aged 5 to 9 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_5_9__variant_low	Population	Both sexes	5–9 years	Low	Population aged 5 to 9 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_5_9__variant_medium	Population	Both sexes	5–9 years	Medium	Population aged 5 to 9 years
@@ -126,10 +130,14 @@ graphers
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_18plus__variant_low	Population	Female	18+ years	Low	Female population older than 18 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_18plus__variant_medium	Population	Female	18+ years	Medium	Female population older than 18 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_18plus__variant_high	Population	Female	18+ years	High	Female population older than 18 years
-	grapher/un/2024-07-12/un_wpp/population#population__sex_female__age_1__variant_estimates	Population	Female	1 year	None	Female population at age 1 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_1__variant_low	Population	Female	1 year	Low	Female population at age 1 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_1__variant_medium	Population	Female	1 year	Medium	Female population at age 1 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_1__variant_high	Population	Female	1 year	High	Female population at age 1 years
+	grapher/un/2024-07-12/un_wpp/population#population__sex_female__age_1__variant_estimates	Population	Female	At age 1	None	Female population at age 1 years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_1__variant_low	Population	Female	At age 1	Low	Female population at age 1 years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_1__variant_medium	Population	Female	At age 1	Medium	Female population at age 1 years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_1__variant_high	Population	Female	At age 1	High	Female population at age 1 years
+	grapher/un/2024-07-12/un_wpp/population#population__sex_female__age_1_4__variant_estimates	Population	Female	1–4 years	None	Female population aged 1 to 4 years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_1_4__variant_low	Population	Female	1–4 years	Low	Female population aged 1 to 4 years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_1_4__variant_medium	Population	Female	1–4 years	Medium	Female population aged 1 to 4 years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_1_4__variant_high	Population	Female	1–4 years	High	Female population aged 1 to 4 years
 	grapher/un/2024-07-12/un_wpp/population#population__sex_female__age_5_9__variant_estimates	Population	Female	5–9 years	None	Female population aged 5 to 9 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_5_9__variant_low	Population	Female	5–9 years	Low	Female population aged 5 to 9 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_5_9__variant_medium	Population	Female	5–9 years	Medium	Female population aged 5 to 9 years
@@ -210,10 +218,14 @@ graphers
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_18plus__variant_low	Population	Male	18+ years	Low	Male population older than 18 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_18plus__variant_medium	Population	Male	18+ years	Medium	Male population older than 18 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_18plus__variant_high	Population	Male	18+ years	High	Male population older than 18 years
-	grapher/un/2024-07-12/un_wpp/population#population__sex_male__age_1__variant_estimates	Population	Male	1 year	None	Male population at age 1 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_1__variant_low	Population	Male	1 year	Low	Male population at age 1 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_1__variant_medium	Population	Male	1 year	Medium	Male population at age 1 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_1__variant_high	Population	Male	1 year	High	Male population at age 1 years
+	grapher/un/2024-07-12/un_wpp/population#population__sex_male__age_1__variant_estimates	Population	Male	At age 1	None	Male population at age 1 years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_1__variant_low	Population	Male	At age 1	Low	Male population at age 1 years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_1__variant_medium	Population	Male	At age 1	Medium	Male population at age 1 years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_1__variant_high	Population	Male	At age 1	High	Male population at age 1 years
+	grapher/un/2024-07-12/un_wpp/population#population__sex_male__age_1_4__variant_estimates	Population	Male	1–4 years	None	Male population aged 1 to 4 years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_1_4__variant_low	Population	Male	1–4 years	Low	Male population aged 1 to 4 years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_1_4__variant_medium	Population	Male	1–4 years	Medium	Male population aged 1 to 4 years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_1_4__variant_high	Population	Male	1–4 years	High	Male population aged 1 to 4 years
 	grapher/un/2024-07-12/un_wpp/population#population__sex_male__age_5_9__variant_estimates	Population	Male	5–9 years	None	Male population aged 5 to 9 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_5_9__variant_low	Population	Male	5–9 years	Low	Male population aged 5 to 9 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_5_9__variant_medium	Population	Male	5–9 years	Medium	Male population aged 5 to 9 years
@@ -306,10 +318,14 @@ graphers
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_all__age_18plus__variant_low	Annual population change	Both sexes	18+ years	Low	Annual change in population older than 18 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_all__age_18plus__variant_medium	Annual population change	Both sexes	18+ years	Medium	Annual change in population older than 18 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_all__age_18plus__variant_high	Annual population change	Both sexes	18+ years	High	Annual change in population older than 18 years
-	grapher/un/2024-07-12/un_wpp/population#population_change__sex_all__age_1__variant_estimates	Annual population change	Both sexes	1 year	None	Annual change in population at age 1 years
-	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_all__age_1__variant_low	Annual population change	Both sexes	1 year	Low	Annual change in population at age 1 years
-	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_all__age_1__variant_medium	Annual population change	Both sexes	1 year	Medium	Annual change in population at age 1 years
-	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_all__age_1__variant_high	Annual population change	Both sexes	1 year	High	Annual change in population at age 1 years
+	grapher/un/2024-07-12/un_wpp/population#population_change__sex_all__age_1__variant_estimates	Annual population change	Both sexes	At age 1	None	Annual change in population at age 1 years
+	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_all__age_1__variant_low	Annual population change	Both sexes	At age 1	Low	Annual change in population at age 1 years
+	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_all__age_1__variant_medium	Annual population change	Both sexes	At age 1	Medium	Annual change in population at age 1 years
+	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_all__age_1__variant_high	Annual population change	Both sexes	At age 1	High	Annual change in population at age 1 years
+	grapher/un/2024-07-12/un_wpp/population#population_change__sex_all__age_1_4__variant_estimates	Annual population change	Both sexes	1–4 years	None	Annual change in population aged 1 to 4 years
+	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_all__age_1_4__variant_low	Annual population change	Both sexes	1–4 years	Low	Annual change in population aged 1 to 4 years
+	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_all__age_1_4__variant_medium	Annual population change	Both sexes	1–4 years	Medium	Annual change in population aged 1 to 4 years
+	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_all__age_1_4__variant_high	Annual population change	Both sexes	1–4 years	High	Annual change in population aged 1 to 4 years
 	grapher/un/2024-07-12/un_wpp/population#population_change__sex_all__age_5_9__variant_estimates	Annual population change	Both sexes	5–9 years	None	Annual change in population aged 5 to 9 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_all__age_5_9__variant_low	Annual population change	Both sexes	5–9 years	Low	Annual change in population aged 5 to 9 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_all__age_5_9__variant_medium	Annual population change	Both sexes	5–9 years	Medium	Annual change in population aged 5 to 9 years
@@ -390,10 +406,14 @@ graphers
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_female__age_18plus__variant_low	Annual population change	Female	18+ years	Low	Annual change in female population older than 18 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_female__age_18plus__variant_medium	Annual population change	Female	18+ years	Medium	Annual change in female population older than 18 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_female__age_18plus__variant_high	Annual population change	Female	18+ years	High	Annual change in female population older than 18 years
-	grapher/un/2024-07-12/un_wpp/population#population_change__sex_female__age_1__variant_estimates	Annual population change	Female	1 year	None	Annual change in female population at age 1 years
-	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_female__age_1__variant_low	Annual population change	Female	1 year	Low	Annual change in female population at age 1 years
-	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_female__age_1__variant_medium	Annual population change	Female	1 year	Medium	Annual change in female population at age 1 years
-	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_female__age_1__variant_high	Annual population change	Female	1 year	High	Annual change in female population at age 1 years
+	grapher/un/2024-07-12/un_wpp/population#population_change__sex_female__age_1__variant_estimates	Annual population change	Female	At age 1	None	Annual change in female population at age 1 years
+	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_female__age_1__variant_low	Annual population change	Female	At age 1	Low	Annual change in female population at age 1 years
+	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_female__age_1__variant_medium	Annual population change	Female	At age 1	Medium	Annual change in female population at age 1 years
+	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_female__age_1__variant_high	Annual population change	Female	At age 1	High	Annual change in female population at age 1 years
+	grapher/un/2024-07-12/un_wpp/population#population_change__sex_female__age_1_4__variant_estimates	Annual population change	Female	1–4 years	None	Annual change in female population aged 1 to 4 years
+	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_female__age_1_4__variant_low	Annual population change	Female	1–4 years	Low	Annual change in female population aged 1 to 4 years
+	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_female__age_1_4__variant_medium	Annual population change	Female	1–4 years	Medium	Annual change in female population aged 1 to 4 years
+	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_female__age_1_4__variant_high	Annual population change	Female	1–4 years	High	Annual change in female population aged 1 to 4 years
 	grapher/un/2024-07-12/un_wpp/population#population_change__sex_female__age_5_9__variant_estimates	Annual population change	Female	5–9 years	None	Annual change in female population aged 5 to 9 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_female__age_5_9__variant_low	Annual population change	Female	5–9 years	Low	Annual change in female population aged 5 to 9 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_female__age_5_9__variant_medium	Annual population change	Female	5–9 years	Medium	Annual change in female population aged 5 to 9 years
@@ -474,10 +494,14 @@ graphers
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_18plus__variant_low	Annual population change	Male	18+ years	Low	Annual change in male population older than 18 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_18plus__variant_medium	Annual population change	Male	18+ years	Medium	Annual change in male population older than 18 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_18plus__variant_high	Annual population change	Male	18+ years	High	Annual change in male population older than 18 years
-	grapher/un/2024-07-12/un_wpp/population#population_change__sex_male__age_1__variant_estimates	Annual population change	Male	1 year	None	Annual change in male population at age 1 years
-	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_1__variant_low	Annual population change	Male	1 year	Low	Annual change in male population at age 1 years
-	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_1__variant_medium	Annual population change	Male	1 year	Medium	Annual change in male population at age 1 years
-	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_1__variant_high	Annual population change	Male	1 year	High	Annual change in male population at age 1 years
+	grapher/un/2024-07-12/un_wpp/population#population_change__sex_male__age_1__variant_estimates	Annual population change	Male	At age 1	None	Annual change in male population at age 1 years
+	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_1__variant_low	Annual population change	Male	At age 1	Low	Annual change in male population at age 1 years
+	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_1__variant_medium	Annual population change	Male	At age 1	Medium	Annual change in male population at age 1 years
+	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_1__variant_high	Annual population change	Male	At age 1	High	Annual change in male population at age 1 years
+	grapher/un/2024-07-12/un_wpp/population#population_change__sex_male__age_1_4__variant_estimates	Annual population change	Male	1–4 years	None	Annual change in male population aged 1 to 4 years
+	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_1_4__variant_low	Annual population change	Male	1–4 years	Low	Annual change in male population aged 1 to 4 years
+	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_1_4__variant_medium	Annual population change	Male	1–4 years	Medium	Annual change in male population aged 1 to 4 years
+	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_1_4__variant_high	Annual population change	Male	1–4 years	High	Annual change in male population aged 1 to 4 years
 	grapher/un/2024-07-12/un_wpp/population#population_change__sex_male__age_5_9__variant_estimates	Annual population change	Male	5–9 years	None	Annual change in male population aged 5 to 9 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_5_9__variant_low	Annual population change	Male	5–9 years	Low	Annual change in male population aged 5 to 9 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_5_9__variant_medium	Annual population change	Male	5–9 years	Medium	Annual change in male population aged 5 to 9 years
@@ -994,6 +1018,7 @@ columns
 	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_0_24__variant_estimates	PuBu	1000000;2000000;5000000;10000000;20000000;50000000;100000000;200000000;1	0-24 years
 	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_0_4__variant_estimates	PuBu	200000;500000;1000000;2000000;5000000;10000000;20000000;50000000;1	0-4 years
 	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_1__variant_estimates	PuBu	100000;200000;500000;1000000;2000000;5000000;10000000;1	1 years
+	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_1_4__variant_estimates	PuBu	200000;500000;1000000;2000000;5000000;10000000;20000000;50000000;1	1-4 years
 	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_10_14__variant_estimates	PuBu	200000;500000;1000000;2000000;5000000;10000000;20000000;50000000;100000000;1	10-14 years
 	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_100plus__variant_estimates	PuBu	100;300;1000;3000;10000;30000;100000;1	100+ years
 	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_15plus__variant_estimates	PuBu		15+ years
@@ -1015,6 +1040,7 @@ columns
 	grapher/un/2024-07-12/un_wpp/population#population__sex_female__age_0_24__variant_estimates	PuBu	500000;1000000;2000000;5000000;10000000;20000000;50000000;100000000;1	0-24 years
 	grapher/un/2024-07-12/un_wpp/population#population__sex_female__age_0_4__variant_estimates	PuBu	100000;200000;500000;1000000;2000000;5000000;10000000;20000000;1	0-4 years
 	grapher/un/2024-07-12/un_wpp/population#population__sex_female__age_1__variant_estimates	PuBu	50000;100000;200000;500000;1000000;2000000;5000000;1	1 years
+	grapher/un/2024-07-12/un_wpp/population#population__sex_female__age_1_4__variant_estimates	PuBu	100000;200000;500000;1000000;2000000;5000000;10000000;20000000;1	1-4 years
 	grapher/un/2024-07-12/un_wpp/population#population__sex_female__age_10_14__variant_estimates	PuBu	100000;200000;500000;1000000;2000000;5000000;10000000;20000000;50000000;1	10-14 years
 	grapher/un/2024-07-12/un_wpp/population#population__sex_female__age_100plus__variant_estimates	PuBu	100;300;1000;3000;10000;30000;1	100+ years
 	grapher/un/2024-07-12/un_wpp/population#population__sex_female__age_15plus__variant_estimates	PuBu		15+ years
@@ -1036,6 +1062,7 @@ columns
 	grapher/un/2024-07-12/un_wpp/population#population__sex_male__age_0_24__variant_estimates	PuBu	500000;1000000;2000000;5000000;10000000;20000000;50000000;100000000;1	0-24 years
 	grapher/un/2024-07-12/un_wpp/population#population__sex_male__age_0_4__variant_estimates	PuBu	100000;200000;500000;1000000;2000000;5000000;10000000;20000000;1	0-4 years
 	grapher/un/2024-07-12/un_wpp/population#population__sex_male__age_1__variant_estimates	PuBu	50000;100000;200000;500000;1000000;2000000;5000000;1	1 years
+	grapher/un/2024-07-12/un_wpp/population#population__sex_male__age_1_4__variant_estimates	PuBu	100000;200000;500000;1000000;2000000;5000000;10000000;20000000;1	1-4 years
 	grapher/un/2024-07-12/un_wpp/population#population__sex_male__age_10_14__variant_estimates	PuBu	100000;200000;500000;1000000;2000000;5000000;10000000;20000000;50000000;1	10-14 years
 	grapher/un/2024-07-12/un_wpp/population#population__sex_male__age_100plus__variant_estimates	PuBu	100;300;1000;3000;10000;30000;1	100+ years
 	grapher/un/2024-07-12/un_wpp/population#population__sex_male__age_15plus__variant_estimates	PuBu		15+ years
@@ -1057,6 +1084,7 @@ columns
 	grapher/un/2024-07-12/un_wpp/population#population_change__sex_all__age_0_24__variant_estimates	RdBu	-1000000;-100000;-10000;0;10000;100000;1000000;1	0-24 years
 	grapher/un/2024-07-12/un_wpp/population#population_change__sex_all__age_0_4__variant_estimates	RdBu	-1000000;-100000;-10000;0;10000;100000;1000000;1	0-4 years
 	grapher/un/2024-07-12/un_wpp/population#population_change__sex_all__age_1__variant_estimates	RdBu	-1000000;-100000;-10000;0;10000;100000;1000000;1	1 years
+	grapher/un/2024-07-12/un_wpp/population#population_change__sex_all__age_1_4__variant_estimates	RdBu	-1000000;-100000;-10000;0;10000;100000;1000000;1	1-4 years
 	grapher/un/2024-07-12/un_wpp/population#population_change__sex_all__age_10_14__variant_estimates	RdBu	-1000000;-100000;-10000;0;10000;100000;1000000;1	10-14 years
 	grapher/un/2024-07-12/un_wpp/population#population_change__sex_all__age_100plus__variant_estimates	RdBu	-10000;-1000;-100;0;100;1000;10000;1	100+ years
 	grapher/un/2024-07-12/un_wpp/population#population_change__sex_all__age_15plus__variant_estimates	RdBu		15+ years
@@ -1078,6 +1106,7 @@ columns
 	grapher/un/2024-07-12/un_wpp/population#population_change__sex_female__age_0_24__variant_estimates	RdBu	-500000;-50000;-5000;0;5000;50000;500000;1	0-24 years
 	grapher/un/2024-07-12/un_wpp/population#population_change__sex_female__age_0_4__variant_estimates	RdBu	-500000;-50000;-5000;0;5000;50000;500000;1	0-4 years
 	grapher/un/2024-07-12/un_wpp/population#population_change__sex_female__age_1__variant_estimates	RdBu	-500000;-50000;-5000;0;5000;50000;500000;1	1 years
+	grapher/un/2024-07-12/un_wpp/population#population_change__sex_female__age_1_4__variant_estimates	RdBu	-500000;-50000;-5000;0;5000;50000;500000;1	1-4 years
 	grapher/un/2024-07-12/un_wpp/population#population_change__sex_female__age_10_14__variant_estimates	RdBu	-500000;-50000;-5000;0;5000;50000;500000;1	10-14 years
 	grapher/un/2024-07-12/un_wpp/population#population_change__sex_female__age_100plus__variant_estimates	RdBu	-5000;-500;-50;0;50;500;5000;1	100+ years
 	grapher/un/2024-07-12/un_wpp/population#population_change__sex_female__age_15plus__variant_estimates	RdBu		15+ years
@@ -1099,6 +1128,7 @@ columns
 	grapher/un/2024-07-12/un_wpp/population#population_change__sex_male__age_0_24__variant_estimates	RdBu	-500000;-50000;-5000;0;5000;50000;500000;1	0-24 years
 	grapher/un/2024-07-12/un_wpp/population#population_change__sex_male__age_0_4__variant_estimates	RdBu	-500000;-50000;-5000;0;5000;50000;500000;1	0-4 years
 	grapher/un/2024-07-12/un_wpp/population#population_change__sex_male__age_1__variant_estimates	RdBu	-500000;-50000;-5000;0;5000;50000;500000;1	1 years
+	grapher/un/2024-07-12/un_wpp/population#population_change__sex_male__age_1_4__variant_estimates	RdBu	-500000;-50000;-5000;0;5000;50000;500000;1	1-4 years
 	grapher/un/2024-07-12/un_wpp/population#population_change__sex_male__age_10_14__variant_estimates	RdBu	-500000;-50000;-5000;0;5000;50000;500000;1	10-14 years
 	grapher/un/2024-07-12/un_wpp/population#population_change__sex_male__age_100plus__variant_estimates	RdBu	-5000;-500;-50;0;50;500;5000;1	100+ years
 	grapher/un/2024-07-12/un_wpp/population#population_change__sex_male__age_15plus__variant_estimates	RdBu		15+ years
@@ -1131,6 +1161,9 @@ columns
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_1__variant_high	PuBu	100000;200000;500000;1000000;2000000;5000000;10000000;1	1 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_1__variant_low	PuBu	100000;200000;500000;1000000;2000000;5000000;10000000;1	1 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_1__variant_medium	PuBu	100000;200000;500000;1000000;2000000;5000000;10000000;1	1 years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_1_4__variant_high	PuBu	200000;500000;1000000;2000000;5000000;10000000;20000000;50000000;1	1-4 years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_1_4__variant_low	PuBu	200000;500000;1000000;2000000;5000000;10000000;20000000;50000000;1	1-4 years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_1_4__variant_medium	PuBu	200000;500000;1000000;2000000;5000000;10000000;20000000;50000000;1	1-4 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_10_14__variant_high	PuBu	200000;500000;1000000;2000000;5000000;10000000;20000000;50000000;100000000;1	10-14 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_10_14__variant_low	PuBu	200000;500000;1000000;2000000;5000000;10000000;20000000;50000000;100000000;1	10-14 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_10_14__variant_medium	PuBu	200000;500000;1000000;2000000;5000000;10000000;20000000;50000000;100000000;1	10-14 years
@@ -1194,6 +1227,9 @@ columns
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_1__variant_high	PuBu	50000;100000;200000;500000;1000000;2000000;5000000;1	1 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_1__variant_low	PuBu	50000;100000;200000;500000;1000000;2000000;5000000;1	1 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_1__variant_medium	PuBu	50000;100000;200000;500000;1000000;2000000;5000000;1	1 years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_1_4__variant_high	PuBu	100000;200000;500000;1000000;2000000;5000000;10000000;20000000;1	1-4 years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_1_4__variant_low	PuBu	100000;200000;500000;1000000;2000000;5000000;10000000;20000000;1	1-4 years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_1_4__variant_medium	PuBu	100000;200000;500000;1000000;2000000;5000000;10000000;20000000;1	1-4 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_10_14__variant_high	PuBu	100000;200000;500000;1000000;2000000;5000000;10000000;20000000;50000000;1	10-14 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_10_14__variant_low	PuBu	100000;200000;500000;1000000;2000000;5000000;10000000;20000000;50000000;1	10-14 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_10_14__variant_medium	PuBu	100000;200000;500000;1000000;2000000;5000000;10000000;20000000;50000000;1	10-14 years
@@ -1257,6 +1293,9 @@ columns
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_1__variant_high	PuBu	50000;100000;200000;500000;1000000;2000000;5000000;1	1 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_1__variant_low	PuBu	50000;100000;200000;500000;1000000;2000000;5000000;1	1 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_1__variant_medium	PuBu	50000;100000;200000;500000;1000000;2000000;5000000;1	1 years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_1_4__variant_high	PuBu	100000;200000;500000;1000000;2000000;5000000;10000000;20000000;1	1-4 years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_1_4__variant_low	PuBu	100000;200000;500000;1000000;2000000;5000000;10000000;20000000;1	1-4 years
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_1_4__variant_medium	PuBu	100000;200000;500000;1000000;2000000;5000000;10000000;20000000;1	1-4 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_10_14__variant_high	PuBu	100000;200000;500000;1000000;2000000;5000000;10000000;20000000;50000000;1	10-14 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_10_14__variant_low	PuBu	100000;200000;500000;1000000;2000000;5000000;10000000;20000000;50000000;1	10-14 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_10_14__variant_medium	PuBu	100000;200000;500000;1000000;2000000;5000000;10000000;20000000;50000000;1	10-14 years
@@ -1320,6 +1359,9 @@ columns
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_all__age_1__variant_high	RdBu	-1000000;-100000;-10000;0;10000;100000;1000000;1	1 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_all__age_1__variant_low	RdBu	-1000000;-100000;-10000;0;10000;100000;1000000;1	1 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_all__age_1__variant_medium	RdBu	-1000000;-100000;-10000;0;10000;100000;1000000;1	1 years
+	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_all__age_1_4__variant_high	RdBu	-1000000;-100000;-10000;0;10000;100000;1000000;1	1-4 years
+	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_all__age_1_4__variant_low	RdBu	-1000000;-100000;-10000;0;10000;100000;1000000;1	1-4 years
+	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_all__age_1_4__variant_medium	RdBu	-1000000;-100000;-10000;0;10000;100000;1000000;1	1-4 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_all__age_10_14__variant_high	RdBu	-1000000;-100000;-10000;0;10000;100000;1000000;1	10-14 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_all__age_10_14__variant_low	RdBu	-1000000;-100000;-10000;0;10000;100000;1000000;1	10-14 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_all__age_10_14__variant_medium	RdBu	-1000000;-100000;-10000;0;10000;100000;1000000;1	10-14 years
@@ -1383,6 +1425,9 @@ columns
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_female__age_1__variant_high	RdBu	-500000;-50000;-5000;0;5000;50000;500000;1	1 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_female__age_1__variant_low	RdBu	-500000;-50000;-5000;0;5000;50000;500000;1	1 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_female__age_1__variant_medium	RdBu	-500000;-50000;-5000;0;5000;50000;500000;1	1 years
+	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_female__age_1_4__variant_high	RdBu	-500000;-50000;-5000;0;5000;50000;500000;1	1-4 years
+	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_female__age_1_4__variant_low	RdBu	-500000;-50000;-5000;0;5000;50000;500000;1	1-4 years
+	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_female__age_1_4__variant_medium	RdBu	-500000;-50000;-5000;0;5000;50000;500000;1	1-4 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_female__age_10_14__variant_high	RdBu	-500000;-50000;-5000;0;5000;50000;500000;1	10-14 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_female__age_10_14__variant_low	RdBu	-500000;-50000;-5000;0;5000;50000;500000;1	10-14 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_female__age_10_14__variant_medium	RdBu	-500000;-50000;-5000;0;5000;50000;500000;1	10-14 years
@@ -1446,6 +1491,9 @@ columns
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_1__variant_high	RdBu	-500000;-50000;-5000;0;5000;50000;500000;1	1 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_1__variant_low	RdBu	-500000;-50000;-5000;0;5000;50000;500000;1	1 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_1__variant_medium	RdBu	-500000;-50000;-5000;0;5000;50000;500000;1	1 years
+	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_1_4__variant_high	RdBu	-500000;-50000;-5000;0;5000;50000;500000;1	1-4 years
+	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_1_4__variant_low	RdBu	-500000;-50000;-5000;0;5000;50000;500000;1	1-4 years
+	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_1_4__variant_medium	RdBu	-500000;-50000;-5000;0;5000;50000;500000;1	1-4 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_10_14__variant_high	RdBu	-500000;-50000;-5000;0;5000;50000;500000;1	10-14 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_10_14__variant_low	RdBu	-500000;-50000;-5000;0;5000;50000;500000;1	10-14 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_10_14__variant_medium	RdBu	-500000;-50000;-5000;0;5000;50000;500000;1	10-14 years
