@@ -9,7 +9,7 @@ hideAlertBanner	true
 yAxisMin	0
 hasMapTab	true
 pickerColumnSlugs	['location total_confirmed_by_confirmation total_confirmed_by_confirmation_per_million']
-downloadDataLink	https://catalog.ourworldindata.org/explorers/who/latest/monkeypox/monkeypox.csv
+downloadDataLink	https://catalog.ourworldindata.org/garden/who/latest/monkeypox/monkeypox.csv
 graphers
 	yVariableIds	Metric Radio	Frequency Radio	Relative to population Checkbox	hideAnnotationFieldsInTitle	yScaleToggle	subtitle	title	type	tab	selectedFacetStrategy	hasMapTab	minTime	facetYDomain	note
 	grapher/who/latest/monkeypox/monkeypox#new_cases_smoothed	Confirmed cases	7-day average	false	true	true	7-day rolling average. Laboratory testing for mpox is limited in many countries and figures shown here only include laboratory-confirmed cases.	Mpox: Daily confirmed cases	LineChart	map
