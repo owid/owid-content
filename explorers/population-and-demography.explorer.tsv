@@ -42,10 +42,10 @@ graphers
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_18plus__variant_low	Population	Both sexes	18+ years	Low	Population older than 18 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_18plus__variant_medium	Population	Both sexes	18+ years	Medium	Population older than 18 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_18plus__variant_high	Population	Both sexes	18+ years	High	Population older than 18 years
-	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_1__variant_estimates	Population	Both sexes	At age 1	None	Population at age 1 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_1__variant_low	Population	Both sexes	At age 1	Low	Population at age 1 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_1__variant_medium	Population	Both sexes	At age 1	Medium	Population at age 1 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_1__variant_high	Population	Both sexes	At age 1	High	Population at age 1 years
+	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_1__variant_estimates	Population	Both sexes	At age 1	None	Population age 1
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_1__variant_low	Population	Both sexes	At age 1	Low	Population age 1
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_1__variant_medium	Population	Both sexes	At age 1	Medium	Population age 1
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_1__variant_high	Population	Both sexes	At age 1	High	Population age 1
 	grapher/un/2024-07-12/un_wpp/population#population__sex_all__age_1_4__variant_estimates	Population	Both sexes	1–4 years	None	Population aged 1 to 4 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_1_4__variant_low	Population	Both sexes	1–4 years	Low	Population aged 1 to 4 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_all__age_1_4__variant_medium	Population	Both sexes	1–4 years	Medium	Population aged 1 to 4 years
@@ -130,10 +130,10 @@ graphers
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_18plus__variant_low	Population	Female	18+ years	Low	Female population older than 18 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_18plus__variant_medium	Population	Female	18+ years	Medium	Female population older than 18 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_18plus__variant_high	Population	Female	18+ years	High	Female population older than 18 years
-	grapher/un/2024-07-12/un_wpp/population#population__sex_female__age_1__variant_estimates	Population	Female	At age 1	None	Female population at age 1 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_1__variant_low	Population	Female	At age 1	Low	Female population at age 1 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_1__variant_medium	Population	Female	At age 1	Medium	Female population at age 1 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_1__variant_high	Population	Female	At age 1	High	Female population at age 1 years
+	grapher/un/2024-07-12/un_wpp/population#population__sex_female__age_1__variant_estimates	Population	Female	At age 1	None	Female population age 1
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_1__variant_low	Population	Female	At age 1	Low	Female population age 1
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_1__variant_medium	Population	Female	At age 1	Medium	Female population age 1
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_1__variant_high	Population	Female	At age 1	High	Female population age 1
 	grapher/un/2024-07-12/un_wpp/population#population__sex_female__age_1_4__variant_estimates	Population	Female	1–4 years	None	Female population aged 1 to 4 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_1_4__variant_low	Population	Female	1–4 years	Low	Female population aged 1 to 4 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_female__age_1_4__variant_medium	Population	Female	1–4 years	Medium	Female population aged 1 to 4 years
@@ -218,10 +218,10 @@ graphers
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_18plus__variant_low	Population	Male	18+ years	Low	Male population older than 18 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_18plus__variant_medium	Population	Male	18+ years	Medium	Male population older than 18 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_18plus__variant_high	Population	Male	18+ years	High	Male population older than 18 years
-	grapher/un/2024-07-12/un_wpp/population#population__sex_male__age_1__variant_estimates	Population	Male	At age 1	None	Male population at age 1 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_1__variant_low	Population	Male	At age 1	Low	Male population at age 1 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_1__variant_medium	Population	Male	At age 1	Medium	Male population at age 1 years
-	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_1__variant_high	Population	Male	At age 1	High	Male population at age 1 years
+	grapher/un/2024-07-12/un_wpp/population#population__sex_male__age_1__variant_estimates	Population	Male	At age 1	None	Male population age 1
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_1__variant_low	Population	Male	At age 1	Low	Male population age 1
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_1__variant_medium	Population	Male	At age 1	Medium	Male population age 1
+	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_1__variant_high	Population	Male	At age 1	High	Male population age 1
 	grapher/un/2024-07-12/un_wpp/population#population__sex_male__age_1_4__variant_estimates	Population	Male	1–4 years	None	Male population aged 1 to 4 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_1_4__variant_low	Population	Male	1–4 years	Low	Male population aged 1 to 4 years
 	grapher/un/2024-07-12/un_wpp_full/population#population__sex_male__age_1_4__variant_medium	Population	Male	1–4 years	Medium	Male population aged 1 to 4 years
@@ -318,10 +318,10 @@ graphers
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_all__age_18plus__variant_low	Annual population change	Both sexes	18+ years	Low	Annual change in population older than 18 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_all__age_18plus__variant_medium	Annual population change	Both sexes	18+ years	Medium	Annual change in population older than 18 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_all__age_18plus__variant_high	Annual population change	Both sexes	18+ years	High	Annual change in population older than 18 years
-	grapher/un/2024-07-12/un_wpp/population#population_change__sex_all__age_1__variant_estimates	Annual population change	Both sexes	At age 1	None	Annual change in population at age 1 years
-	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_all__age_1__variant_low	Annual population change	Both sexes	At age 1	Low	Annual change in population at age 1 years
-	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_all__age_1__variant_medium	Annual population change	Both sexes	At age 1	Medium	Annual change in population at age 1 years
-	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_all__age_1__variant_high	Annual population change	Both sexes	At age 1	High	Annual change in population at age 1 years
+	grapher/un/2024-07-12/un_wpp/population#population_change__sex_all__age_1__variant_estimates	Annual population change	Both sexes	At age 1	None	Annual change in population age 1
+	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_all__age_1__variant_low	Annual population change	Both sexes	At age 1	Low	Annual change in population age 1
+	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_all__age_1__variant_medium	Annual population change	Both sexes	At age 1	Medium	Annual change in population age 1
+	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_all__age_1__variant_high	Annual population change	Both sexes	At age 1	High	Annual change in population age 1
 	grapher/un/2024-07-12/un_wpp/population#population_change__sex_all__age_1_4__variant_estimates	Annual population change	Both sexes	1–4 years	None	Annual change in population aged 1 to 4 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_all__age_1_4__variant_low	Annual population change	Both sexes	1–4 years	Low	Annual change in population aged 1 to 4 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_all__age_1_4__variant_medium	Annual population change	Both sexes	1–4 years	Medium	Annual change in population aged 1 to 4 years
@@ -406,10 +406,10 @@ graphers
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_female__age_18plus__variant_low	Annual population change	Female	18+ years	Low	Annual change in female population older than 18 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_female__age_18plus__variant_medium	Annual population change	Female	18+ years	Medium	Annual change in female population older than 18 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_female__age_18plus__variant_high	Annual population change	Female	18+ years	High	Annual change in female population older than 18 years
-	grapher/un/2024-07-12/un_wpp/population#population_change__sex_female__age_1__variant_estimates	Annual population change	Female	At age 1	None	Annual change in female population at age 1 years
-	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_female__age_1__variant_low	Annual population change	Female	At age 1	Low	Annual change in female population at age 1 years
-	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_female__age_1__variant_medium	Annual population change	Female	At age 1	Medium	Annual change in female population at age 1 years
-	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_female__age_1__variant_high	Annual population change	Female	At age 1	High	Annual change in female population at age 1 years
+	grapher/un/2024-07-12/un_wpp/population#population_change__sex_female__age_1__variant_estimates	Annual population change	Female	At age 1	None	Annual change in female population age 1
+	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_female__age_1__variant_low	Annual population change	Female	At age 1	Low	Annual change in female population age 1
+	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_female__age_1__variant_medium	Annual population change	Female	At age 1	Medium	Annual change in female population age 1
+	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_female__age_1__variant_high	Annual population change	Female	At age 1	High	Annual change in female population age 1
 	grapher/un/2024-07-12/un_wpp/population#population_change__sex_female__age_1_4__variant_estimates	Annual population change	Female	1–4 years	None	Annual change in female population aged 1 to 4 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_female__age_1_4__variant_low	Annual population change	Female	1–4 years	Low	Annual change in female population aged 1 to 4 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_female__age_1_4__variant_medium	Annual population change	Female	1–4 years	Medium	Annual change in female population aged 1 to 4 years
@@ -494,10 +494,10 @@ graphers
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_18plus__variant_low	Annual population change	Male	18+ years	Low	Annual change in male population older than 18 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_18plus__variant_medium	Annual population change	Male	18+ years	Medium	Annual change in male population older than 18 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_18plus__variant_high	Annual population change	Male	18+ years	High	Annual change in male population older than 18 years
-	grapher/un/2024-07-12/un_wpp/population#population_change__sex_male__age_1__variant_estimates	Annual population change	Male	At age 1	None	Annual change in male population at age 1 years
-	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_1__variant_low	Annual population change	Male	At age 1	Low	Annual change in male population at age 1 years
-	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_1__variant_medium	Annual population change	Male	At age 1	Medium	Annual change in male population at age 1 years
-	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_1__variant_high	Annual population change	Male	At age 1	High	Annual change in male population at age 1 years
+	grapher/un/2024-07-12/un_wpp/population#population_change__sex_male__age_1__variant_estimates	Annual population change	Male	At age 1	None	Annual change in male population age 1
+	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_1__variant_low	Annual population change	Male	At age 1	Low	Annual change in male population age 1
+	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_1__variant_medium	Annual population change	Male	At age 1	Medium	Annual change in male population age 1
+	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_1__variant_high	Annual population change	Male	At age 1	High	Annual change in male population age 1
 	grapher/un/2024-07-12/un_wpp/population#population_change__sex_male__age_1_4__variant_estimates	Annual population change	Male	1–4 years	None	Annual change in male population aged 1 to 4 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_1_4__variant_low	Annual population change	Male	1–4 years	Low	Annual change in male population aged 1 to 4 years
 	grapher/un/2024-07-12/un_wpp_full/population#population_change__sex_male__age_1_4__variant_medium	Annual population change	Male	1–4 years	Medium	Annual change in male population aged 1 to 4 years
