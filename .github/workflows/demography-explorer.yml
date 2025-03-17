@@ -24,11 +24,11 @@ jobs:
       - name: Install poetry
         uses: abatilo/actions-poetry@v2
 
-      - name: Install dependencies
-        run: cd scripts/demography-explorer && poetry install
+      # - name: Install dependencies
+      #   run: cd scripts/demography-explorer && poetry install
 
-      - name: Run population and demography explorer script
-        run: cd scripts/demography-explorer && poetry run python demography-explorer.py
+      # - name: Run population and demography explorer script
+      #   run: cd scripts/demography-explorer && poetry run python demography-explorer.py
 
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
