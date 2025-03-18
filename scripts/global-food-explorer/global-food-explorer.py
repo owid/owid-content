@@ -19,7 +19,7 @@ VERSION = "latest"
 
 # Define the year to be used in the metadata.
 # year = VERSION.split("-")[0]
-YEAR = "2024"
+YEAR = "2025"
 
 outfile = "../../explorers/global-food.explorer.tsv"
 

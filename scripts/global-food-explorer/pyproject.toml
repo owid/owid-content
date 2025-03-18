@@ -3,6 +3,7 @@ name = "global-food-explorer"
 version = "0.1.0"
 description = ""
 authors = ["Marcel Gerber <mgerber59@gmail.com>"]
+package-mode = false
 
 [tool.poetry.dependencies]
 python = ">=3.8,<3.11"
