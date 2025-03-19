@@ -1603,12 +1603,10 @@ graphers
 	Per capita goat skin production	Skins, goat	Production		true		LineChart	production__kg__per_capita	skins_goat		true	
 	Animals slaughtered to produce goat skins	Skins, goat	Animals slaughtered		false		LineChart	producing_or_slaughtered_animals__animals	skins_goat		true	
 	Animals slaughtered per capita to produce goat skins	Skins, goat	Animals slaughtered		true		LineChart	producing_or_slaughtered_animals__animals__per_capita	skins_goat		true	
-	Goat skin yield	Skins, goat	Yield		false	Yield is measured as the quantity produced per animal.	LineChart	yield__kg_per_animal	skins_goat		true	
 	Sheep skin production	Skins, sheep	Production		false		LineChart	production__tonnes	skins_sheep		true	
 	Per capita sheep skin production	Skins, sheep	Production		true		LineChart	production__kg__per_capita	skins_sheep		true	
 	Animals slaughtered to produce sheep skins	Skins, sheep	Animals slaughtered		false		LineChart	producing_or_slaughtered_animals__animals	skins_sheep		true	
 	Animals slaughtered per capita to produce sheep skins	Skins, sheep	Animals slaughtered		true		LineChart	producing_or_slaughtered_animals__animals__per_capita	skins_sheep		true	
-	Sheep skin yield	Skins, sheep	Yield		false	Yield is measured as the quantity produced per animal.	LineChart	yield__kg_per_animal	skins_sheep		true	
 	Sorghum production	Sorghum	Production		false		LineChart	production__tonnes	sorghum		true	
 	Per capita sorghum production	Sorghum	Production		true		LineChart	production__kg__per_capita	sorghum		true	
 	Sorghum yield	Sorghum	Yield		false	Yield is measured as the quantity produced per unit area of land used to grow it.	LineChart	yield__tonnes_per_ha	sorghum		true	
