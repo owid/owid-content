@@ -106,7 +106,7 @@ PPP_DESCRIPTION_PIP_2011 = "The data is measured in international-$ at 2011 pric
 ####################################################################################################
 # WORLD INEQUALITY DATABASE
 ####################################################################################################
-SOURCE_NAME_WID = "World Inequality Database (WID.world) (2024)"
+SOURCE_NAME_WID = "World Inequality Database (WID.world) (2025)"
 DATA_PUBLISHED_BY_WID = "World Inequality Database (WID), https://wid.world"
 SOURCE_LINK_WID = "https://wid.world"
 
