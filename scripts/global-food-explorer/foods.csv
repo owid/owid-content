@@ -17,7 +17,7 @@ brazil_nuts_with_shell,"Brazil nuts, with shell",Brazil nut,Brazil nuts,producti
 broad_beans,Broad beans,Broad bean,Broad beans,production land_use crop_yield,
 buckwheat,Buckwheat,Buckwheat,Buckwheat,production land_use crop_yield,
 buffalo_hides,Buffalo hides,Buffalo hide,Buffalo hides,production animals_slaughtered animal_yield,
-butter_and_ghee,Butter and ghee,Butter and ghee,Butter and ghee,production,
+butter_and_ghee,Butter and ghee,Butter and ghee,Butter and ghee,land_use crop_yield food_balances waste animal_feed,
 cabbages,Cabbages,Cabbage,Cabbages,production land_use crop_yield,
 canary_seed,Canary seed,Canary seed,Canary seeds,production land_use crop_yield,
 carrots_and_turnips,Carrots and turnips,Carrot and turnip,Carrots and turnips,production land_use crop_yield,
