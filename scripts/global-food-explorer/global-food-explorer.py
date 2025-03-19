@@ -26,6 +26,11 @@ outfile = "../../explorers/global-food.explorer.tsv"
 default_view = '`Food Dropdown` == "Maize (corn)" and `Metric Dropdown` == "Production" and `Per Capita Checkbox` == "false"'
 
 DATA_FILES_URL = f"https://catalog.ourworldindata.org/explorers/faostat/{VERSION}/food_explorer/"
+########################################################################################################################
+# TODO: Remove this temporary fix for local development.
+current_etl_branch = "data-agriculture-update"
+DATA_FILES_URL = f"http://staging-site-{current_etl_branch}:8881/explorers/faostat/{VERSION}/food_explorer/"
+########################################################################################################################
 
 # %%
 
