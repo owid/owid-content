@@ -19,13 +19,18 @@ VERSION = "latest"
 
 # Define the year to be used in the metadata.
 # year = VERSION.split("-")[0]
-YEAR = "2024"
+YEAR = "2025"
 
 outfile = "../../explorers/global-food.explorer.tsv"
 
 default_view = '`Food Dropdown` == "Maize (corn)" and `Metric Dropdown` == "Production" and `Per Capita Checkbox` == "false"'
 
 DATA_FILES_URL = f"https://catalog.ourworldindata.org/explorers/faostat/{VERSION}/food_explorer/"
+########################################################################################################################
+# NOTE: Uncomment for development.
+# current_etl_branch = "data-agriculture-update"
+# DATA_FILES_URL = f"http://staging-site-{current_etl_branch}:8881/explorers/faostat/{VERSION}/food_explorer/"
+########################################################################################################################
 
 # %%
 
