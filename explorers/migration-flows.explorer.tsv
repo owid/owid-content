@@ -9,6 +9,7 @@ subNavId
 subNavCurrentId
 hasMapTab	true
 yAxisMin	0
+pickerColumnSlugs	entityName
 hideAnnotationFieldsInTitle	true
 tab	map
 graphers
