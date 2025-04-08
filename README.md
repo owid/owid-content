@@ -1,5 +1,7 @@
 # owid-content
 
+> **Note**: This repository is no longer actively maintained. All scripts have been moved to [owid/etl](https://github.com/owid/etl), and explorer configuration files are now stored in the database.
+
 _Data explorers used on the Our World In Data site._
 
 ## Overview
